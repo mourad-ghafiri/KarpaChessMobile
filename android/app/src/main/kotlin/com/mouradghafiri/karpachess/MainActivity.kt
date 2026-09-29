@@ -1,4 +1,4 @@
-package com.karpachess.karpachess
+package com.mouradghafiri.karpachess
 
 import io.flutter.embedding.android.FlutterActivity
 

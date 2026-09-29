@@ -25,7 +25,7 @@ val buildingRelease = gradle.startParameter.taskNames.any {
 }
 
 android {
-    namespace = "com.karpachess.karpachess"
+    namespace = "com.mouradghafiri.karpachess"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -35,7 +35,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.karpachess.karpachess"
+        applicationId = "com.mouradghafiri.karpachess"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

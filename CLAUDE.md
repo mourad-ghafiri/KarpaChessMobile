@@ -706,8 +706,8 @@ Keep them when touching the code they govern.
     publish (tracked files plus unignored ones). It errors on:
     - this machine's home path or account name, read from the environment and
       never written down. The app's own bundle and application IDs are read
-      past, because the stores publish them: the Apple bundle ID is
-      `com.mouradghafiri.karpachess`;
+      past, because the stores publish them: the app is
+      `com.mouradghafiri.karpachess` on both stores;
     - any `/Users/<name>/` or `/home/<name>/` path;
     - a `DEVELOPMENT_TEAM` in an Xcode project;
     - generated output;
