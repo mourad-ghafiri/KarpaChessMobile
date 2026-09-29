@@ -33,7 +33,11 @@ default theme (Midnight Grove). Re-run after changing the palette:
 
     python3 tool/gen_icon.py
 
-Writes the 1024 master plus every size iOS, Android and macOS declare.
+Writes the 1024 master plus every size iOS, Android and macOS declare, and
+the iOS launch image: the mark alone, without the icon's field, which
+`ios/Runner/Base.lproj/LaunchScreen.storyboard` centres on the default
+theme's `bg` so the launch hands over to the app's first frame without a
+change of colour.
 """
 
 from __future__ import annotations
@@ -332,8 +336,23 @@ MACOS = {
     "app_icon_512.png": 512, "app_icon_1024.png": 1024,
 }
 
+# The launch image: the mark, LAUNCH_PT points tall, at each screen scale.
+# The storyboard draws it at its own size, centred, so the points are what
+# the reader sees on every iPhone and iPad.
+LAUNCH_PT = 128
+IOS_LAUNCH = {"LaunchImage.png": 1, "LaunchImage@2x.png": 2, "LaunchImage@3x.png": 3}
+
 ANDROID_LEGACY = {"mdpi": 48, "hdpi": 72, "xhdpi": 96, "xxhdpi": 144, "xxxhdpi": 192}
 ANDROID_FOREGROUND = {"mdpi": 108, "hdpi": 162, "xhdpi": 216, "xxhdpi": 324, "xxxhdpi": 432}
+
+
+def _launch(mark: Image.Image, scale: int) -> Image.Image:
+    """The mark cropped to its ink, LAUNCH_PT points tall at [scale]."""
+    crop = mark.crop(mark.split()[-1].getbbox())
+    # Whole points first, so every scale is an exact multiple of 1x.
+    width_pt = round(crop.width * LAUNCH_PT / crop.height)
+    return crop.resize((width_pt * scale, LAUNCH_PT * scale),
+                       Image.Resampling.LANCZOS)
 
 
 def main() -> None:
@@ -346,6 +365,10 @@ def main() -> None:
     ios_dir = os.path.join(ROOT, "ios/Runner/Assets.xcassets/AppIcon.appiconset")
     for name, size in IOS.items():
         _write(_resized(full, size), os.path.join(ios_dir, name), opaque=True)
+
+    launch_dir = os.path.join(ROOT, "ios/Runner/Assets.xcassets/LaunchImage.imageset")
+    for name, scale in IOS_LAUNCH.items():
+        _write(_launch(mark, scale), os.path.join(launch_dir, name), opaque=False)
 
     mac_dir = os.path.join(ROOT, "macos/Runner/Assets.xcassets/AppIcon.appiconset")
     for name, size in MACOS.items():
@@ -360,7 +383,8 @@ def main() -> None:
                os.path.join(res, f"drawable-{density}/ic_launcher_foreground.png"),
                opaque=False)
 
-    total = 1 + len(IOS) + len(MACOS) + len(ANDROID_LEGACY) + len(ANDROID_FOREGROUND)
+    total = (1 + len(IOS) + len(IOS_LAUNCH) + len(MACOS) + len(ANDROID_LEGACY)
+             + len(ANDROID_FOREGROUND))
     print(f"wrote {total} icon files")
 
 

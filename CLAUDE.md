@@ -402,7 +402,9 @@ Domain layers are pure Dart — no Flutter imports.
   of the eleven are the surface ladder — `bg`/`panel`/`raised`/`float`,
   ~7 L\* apart in the darks — and `tint` is the theme's hue, which every
   edge and shadow carries so no two dark themes share a surface. The
-  launcher icon is generated from the default palette by `tool/gen_icon.py`
+  launcher icon, and the iOS launch image (the mark alone, which
+  `LaunchScreen.storyboard` centres on Midnight Grove's `bg`, the colour of the
+  app's first frame), are generated from the default palette by `tool/gen_icon.py`
   (the single icon mechanism — there is no icon plugin); re-run it if the
   default palette moves. Its knight is the Classic set's, rendered by
   `tool/gen_pieces.py` (never a pasted image), so the icon and the board are
