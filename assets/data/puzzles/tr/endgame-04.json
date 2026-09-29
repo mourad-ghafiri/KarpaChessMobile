@@ -1,0 +1,11 @@
+{
+  "id": "endgame-04",
+  "fen": "8/8/5k2/8/3K4/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Kd5"
+  ],
+  "title": "Etkin Şah Kazandırır",
+  "setup": "e3'teki piyonunuz evinden çok uzakta ve f6'daki siyah şah önündeki kareleri gözlüyor.",
+  "hint": "Piyonu sürmeyin. Siyahın şahının itiraz edemeyeceği bir karede şahınızla bir yatay kazanın.",
+  "explanation": "## Fikir\n\nPiyon öncülük edemez. Tek başına sürüldüğünde, önündeki kareleri zaten kapsayan siyah şahın üstüne yürür.\n\n{{Kd5}} bunun yerine bir yatay kazanır ve bunu siyahın itiraz edemeyeceği bir karede yapar. {{Ke7}} geldikten sonra {{Ke5}} dosdoğru siyahın şahının önüne adımlar ve şahınız piyonunun önünde yürümeyi sürdürür. Piyon sürüşü dâhil başka her hamle siyahın şahının beraberliği tutmasına izin verir.\n\nÖnce kareleri kazanın, piyonun yürüyüşü güvende olsun."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "demolition-proof",
+  "fen": "r5rk/5ppp/4q1n1/2Q5/8/4B3/PP6/K6R w - - 0 1",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Qh5#"
+  ],
+  "title": "Benteng untuk Pion h",
+  "setup": "Raja Hitam duduk di h8 di balik tiga pion, dan benteng Anda di h1 menatap ke atas lajur ke arah ketiganya. Temukan jalan menembus perlindungan itu.",
+  "hint": "Pion h7 punya satu penjaga, yaitu raja. Tanyakan di mana raja berdiri setelah ia selesai menjaga, dan buah Anda mana yang bisa mencapainya.",
+  "explanation": "## Ide\n\n{{Rxh7+}} mengorbankan satu benteng utuh untuk satu pion, dan Hitam hanya punya tepat satu balasan sah: {{Kxh7}}. Perlindungannya lenyap, dan raja berdiri di lajur yang terbuka.\n\n{{Qh5#}}. Benteng di g8 dan kuda di g6 adalah milik Hitam sendiri, jadi keduanya menutup dua jalan keluar, gajah Anda di e3 menguasai h6, dan tak ada buah hitam yang bisa mencapai h6 untuk menghalangi. Satu pion seharga satu benteng, dan rajalah yang membayarnya."
+}

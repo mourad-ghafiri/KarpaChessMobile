@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-30",
+  "fen": "7k/7p/5N1K/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Rede de Dama Mais Cavalo",
+  "setup": "O teu cavalo em f6 e o teu rei em h6 cercam o rei preto no canto, e o peão preto de h7 preenche a última brecha.",
+  "hint": "O cavalo e o rei cobrem as casas à volta do rei. Manda a dama pela linha de fundo.",
+  "explanation": "## A Ideia\n\nO cavalo e o rei encaixotaram o rei: o cavalo de f6 cobre g8, o teu rei de h6 cobre g7, e h7 tem o peão das próprias pretas.\n\n{{Qa8#}} dá xeque pela linha de fundo vazia a partir do canto oposto, e nada pode tapar.\n\nUm cavalo perto do canto cobre as casas a que uma dama não chega numa jogada. Com dama, cavalo e rei perto de um rei encurralado, procura esta rede."
+}

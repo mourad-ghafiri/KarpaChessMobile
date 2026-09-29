@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-01",
+  "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 1",
+  "solution": [
+    "Qxf7#"
+  ],
+  "title": "O Golpe do Pastor",
+  "setup": "A tua dama em h5 e o bispo em c4 apontam ambos para a casa mais fraca do campo das pretas.",
+  "hint": "Duas peças tuas convergem numa casa mole, e só o rei a defende.",
+  "explanation": "## A Ideia\n\nEsta é a jogada final do mate do pastor. {{Qxf7#}} come o peão com xeque. O bispo de c4 guarda f7, portanto o rei não pode comer a dama, e a sua única casa vazia, e7, está coberta pela dama. As outras vizinhas, d8, d7 e f8, têm as suas próprias peças.\n\nNo início do jogo f7 é guardada só pelo rei, portanto uma dama e um bispo apontados para lá são o truque mais antigo do xadrez."
+}

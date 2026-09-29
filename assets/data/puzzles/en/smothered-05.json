@@ -1,0 +1,12 @@
+{
+  "id": "smothered-05",
+  "fen": "6rk/pp4pn/8/4N3/2b5/8/P4PPP/3R2K1 w - - 4 23",
+  "solution": [
+    "Ng6#"
+  ],
+  "rating": 1275,
+  "title": "No Pawn on h7",
+  "setup": "Black has just retreated its knight to h7, and the bishop on c4 still guards the f7-square.",
+  "hint": "Something other than a pawn is standing on h7 — ask what that changes about the squares beside it.",
+  "explanation": "## The Idea\n\nA knight on g6 is normally eaten by the h-pawn. Here h7 holds a knight, which guards nothing next to it, so {{Ng6#}} is untouchable and g8, g7 and h7 are all filled by Black's own pieces. The usual smothering square, f7, is covered by the bishop on c4."
+}

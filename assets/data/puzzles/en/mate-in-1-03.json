@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-03",
+  "fen": "7k/6pp/8/8/8/8/1R6/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Walled In on h8",
+  "setup": "Both your rooks stand on the b-file, and Black's king is stuck in the corner behind two of its own pawns.",
+  "hint": "The king's own pawns wall it in. Which of your rooks can reach its rank?",
+  "explanation": "## The Idea\n\n{{Rb8#}} gives check along the back rank. The king on h8 cannot step to g8, which is on the rook's line, and g7 and h7 hold its own pawns. Nothing black can capture the rook or block.\n\nThe second rook plays no part here: one rook is enough when the enemy king is walled in by its own pawns."
+}

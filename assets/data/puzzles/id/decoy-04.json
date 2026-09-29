@@ -1,0 +1,14 @@
+{
+  "id": "decoy-04",
+  "fen": "r6k/pp2P1pp/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "exd8=Q#"
+  ],
+  "rating": 1270,
+  "title": "Pancing Penghadangnya",
+  "setup": "Pion Anda di e7 menginginkan baris kedelapan, dan hanya benteng di a8 yang berjaga atasnya.",
+  "hint": "Benteng itulah seluruh pertahanannya. Temukan petak tempat mengambilnya menjadi satu-satunya langkah yang tersisa bagi Hitam.",
+  "explanation": "## Ide\n\n{{Rd8+}} hanya menyisakan satu langkah sah bagi Hitam, {{Rxd8}} — dan benteng telah terseret ke petak yang diserang pion Anda. {{exd8=Q#}} berpromosi dengan mat. Benteng itu murah ketika sebuah pion menjadi menteri."
+}

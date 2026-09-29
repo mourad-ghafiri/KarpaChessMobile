@@ -1,0 +1,14 @@
+{
+  "id": "defence-07",
+  "fen": "1R6/1q6/4K1Q1/8/1b5k/8/5r2/8 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Qh7",
+    "Rxh7#"
+  ],
+  "rating": 1690,
+  "title": "La tour vers la colonne vide",
+  "setup": "Votre roi est exposé en e6 avec la dame noire en b7, la tour en f2 et le fou en b4 tous en jeu.",
+  "hint": "Le roi noir est sur la colonne h où il n'y a rien. Demandez-vous ce qu'il peut y placer à temps.",
+  "explanation": "## L'idée\n\n{{Rh8+}} descend par la colonne ouverte et {{Qh7}} est la seule interposition. {{Rxh7#}} l'élimine. La dame noire défendait tout sur l'aile dame et ne pouvait pas aussi se trouver en h7."
+}

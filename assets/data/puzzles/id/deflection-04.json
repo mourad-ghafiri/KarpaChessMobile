@@ -1,0 +1,14 @@
+{
+  "id": "deflection-04",
+  "fen": "2br2k1/p4ppp/1q6/8/1n6/7P/1PN1QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Nxb4"
+  ],
+  "rating": 1220,
+  "title": "Kuda Menunggu Menteri",
+  "setup": "Menteri di b6 menopang benteng di d8 dan kuda di b4, dan kuda Anda di c2 mengawasi b4.",
+  "hint": "Kuda mengambil kuda hanyalah pertukaran selama pembelanya tetap di rumah. Sekak mana yang mengirimnya ke tempat lain?",
+  "explanation": "## Ide\n\n{{Rxd8+}} hanya menyisakan tepat satu langkah sah, {{Qxd8}}. Menteri telah meninggalkan lajur b, jadi {{Nxb4}} memenangkan kuda secara utuh. Benteng untuk benteng lebih dulu, dan pengalihannya gratis. Tanyakan apa yang diam-diam diminta untuk dijaga oleh buah lawan yang posisinya paling bagus."
+}

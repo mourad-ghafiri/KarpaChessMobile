@@ -1,0 +1,14 @@
+{
+  "id": "defence-07",
+  "fen": "1R6/1q6/4K1Q1/8/1b5k/8/5r2/8 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Qh7",
+    "Rxh7#"
+  ],
+  "rating": 1690,
+  "title": "Rook to the Empty File",
+  "setup": "Your king is exposed on e6 with Black's queen on b7, rook on f2 and bishop on b4 all in the game.",
+  "hint": "The black king is on the h-file with nothing on it. Ask what it can put there in time.",
+  "explanation": "## The Idea\n\n{{Rh8+}} comes down the open file and {{Qh7}} is the only block. {{Rxh7#}} removes it. Black's queen was defending everything on the queenside and could not also be on h7."
+}

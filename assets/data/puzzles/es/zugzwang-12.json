@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-12",
+  "fen": "3K2k1/1B6/8/6pR/8/8/5p1R/8 w - - 0 1",
+  "solution": [
+    "Ke7",
+    "f1=Q",
+    "Rxg5#"
+  ],
+  "rating": 1800,
+  "title": "Tu rey dice «paso»",
+  "setup": "El rey negro está en g8, un peón en f2 está a punto de coronar y otro está en g5; tus dos torres están en el flanco de rey.",
+  "hint": "Cualquier jugada de pieza que encuentres estropea algo. Queda una pieza que puede moverse sin coste.",
+  "explanation": "## La idea\n\n{{Ke7}} cubre f8 y les pasa el turno a las Negras. {{f1=Q}} es el mejor intento entre las seis jugadas negras, y la dama aparece en el lado equivocado del tablero; {{Rxg5#}} da mate. Las jugadas de espera más difíciles son las que hace el rey."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "birth-of-strategy",
+  "title": "O Ataque Tem de Ser Merecido",
+  "summary": "1886, uma jogada de peão e uma casa que as pretas nunca mais recuperam",
+  "proof": "history-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Autorização para Atacar",
+      "text": "O século de Morphy atacava por instinto e contava o custo depois. Steinitz fez a pergunta mais aborrecida: o que é que dá a um ataque o direito de existir?\n\nEm 1886 Wilhelm Steinitz bateu Johannes Zukertort naquilo que geralmente se conta como o primeiro match do campeonato do mundo — dez vitórias a cinco, com cinco empates. Steinitz ganhou-o com um estilo que o mundo do xadrez da época achava lento e vagamente indelicado.\n\nA tese nunca foi que atacar é mau. Era que um ataque tem de se alimentar de alguma coisa. Sem uma vantagem que o alimente, uma defesa correta responde a todas as ameaças que inventares — e tu ficas dono das fraquezas que criaste."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Baltimore, 1885",
+      "text": "Steinitz contra Alexander Sellman, um ano antes do match do título.\n\nAqui não há nada para atacar. O centro está entupido — o peão branco de e5 contra o preto de e6 — e os dois lados estão simplesmente ali parados.\n\nPor isso Steinitz vai antes às compras. Uma casa, uma diagonal, uma peça sem um bom sítio onde estar: coisas pequenas, mas que duram. Junta-as em quantidade suficiente e o ataque passa a ser legítimo.\n\nO bispo preto em c5 é a peça mais livre das pretas: olha em linha reta para f2, a uma casa do rei branco em e1."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "prompt": "Ataca o bispo preto com um peão da ala da dama e tira-lhe c5 de vez.",
+      "hint": "Steinitz nunca pergunta o que ganha já. Que jogada de peão tira de vez uma casa a uma peça inimiga — e o que é que as brancas já têm a guardar a casa onde esse peão aterraria?",
+      "targetSan": [
+        "b4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "O Que Um Peão Comprou",
+      "text": "{{b4}}, e o bispo tem de dizer onde prefere viver. {{Be7}} é a resposta honesta — uma casa onde faz pouquíssimo — e {{a3}} escora o peão para a pergunta nunca mais ser feita.\n\nNão se ganhou nada. Nada mudou de mãos, e continua a não haver número nenhum para pôr na vantagem das brancas.\n\nO que mudou é que a peça mais livre das pretas foi discretamente arrumada, e uma jogada de peão não se desfaz."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "A Casa Que Não Se Repara",
+      "text": "Dez jogadas depois, e Steinitz ainda não atacou nada.\n\nOlha para c6. Um peão cobre c6 a partir de b7 ou de d7 — e o peão b das pretas está em b5, o peão d em d5, e os peões não andam para trás. Todos os peões pretos deste tabuleiro já deixaram a sétima linha.\n\nPortanto c6 é um **buraco** — uma **casa fraca** que nenhum peão inimigo poderá voltar a cobrir, porque os peões que a podiam ter coberto passaram-lhe à frente de vez.\n\n> Uma fraqueza que o adversário pode reparar é um alvo. Uma que ele não pode reparar é uma casa para as tuas peças."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "Ainda Não",
+      "text": "Então estaciona lá um cavalo. {{Nc6}} — e {{Bxc6}}, porque c6 está guardada duas vezes: pelo bispo de b7 e pela torre de c8.\n\nNenhum dos guardas é permanente. As torres trocam-se, e a um bispo pode pedir-se que se mexa. Os peões que teriam guardado c6 de graça são os que não podem voltar.\n\nÉ por isso que o outro cavalo branco passou as últimas dez jogadas a caminhar: d1, c3, b1, d2, b3. Parece alguém que perdeu as chaves, até veres para onde vai."
+    },
+    {
+      "type": "play",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "prompt": "Ataca o bispo de b7 com um cavalo, escolhendo a casa onde não possa ser simplesmente trocado.",
+      "hint": "Duas jogadas de cavalo atacam b7. Uma aterra onde tanto o cavalo de d7 como o bispo de e7 recapturam. À outra casa só a dama preta chega, e o peão de b4 está à espera dela.",
+      "targetSan": [
+        "Na5"
+      ]
+    }
+  ]
+}

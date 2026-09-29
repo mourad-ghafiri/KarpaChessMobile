@@ -1,0 +1,13 @@
+{
+  "id": "opposite-castles-proof",
+  "fen": "4r1k1/pp2pp1p/2bp1npQ/q2N4/4PN2/5P2/PPP5/2K4R w - - 3 24",
+  "solution": [
+    "e5",
+    "Bxd5",
+    "exf6"
+  ],
+  "title": "Pion Linggis",
+  "setup": "Raja-raja di sayap yang berlawanan. Menteri dan benteng Anda berbagi lajur h, menteri Hitam di a5 mengincar a2, dan hanya kuda di f6 yang membantu raja menjaga h7.",
+  "hint": "Jauhkan kuda di f6 dari h7 dengan buah termurah yang Anda miliki, dan buat Hitam membayar apa pun balasannya.",
+  "explanation": "## Ide\n\nRaja-raja yang berlawanan membuat partai menjadi perlombaan, dan menteri Hitam sudah membidik raja Anda. Anda menyerang lebih dulu, dengan pion. {{e5}} menyerang kuda di f6, satu-satunya buah selain raja yang menjaga h7.\n\nPilihan terbaik Hitam adalah merebut kembali seekor kuda dengan {{Bxd5}}. Itu tak mengubah apa pun: {{exf6}} tetap menyingkirkan penjaganya. Begitu Hitam menangkap balik, menteri dan benteng di lajur h menembus h7, dan {{Qxh7+}} serta {{Qh8+}} menggiring raja ke tengah, tempat ia kehilangan jauh lebih banyak daripada sebuah buah."
+}

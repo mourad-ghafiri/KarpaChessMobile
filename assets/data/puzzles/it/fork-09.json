@@ -1,0 +1,14 @@
+{
+  "id": "fork-09",
+  "fen": "3rr1k1/5ppp/8/8/3n4/8/5PPP/2Q2RK1 b - - 1 1",
+  "solution": [
+    "Ne2+",
+    "Kh1",
+    "Nxc1"
+  ],
+  "rating": 990,
+  "title": "La Forchetta Reale",
+  "setup": "Il Bianco ha appena portato la torre in f1, lasciando il suo re e la sua donna a un balzo di cavallo l'uno dall'altra.",
+  "hint": "Il re e la donna bianchi stanno su due case che una sola casa di cavallo tocca. Trovatela, poi controllate che sia sicura.",
+  "explanation": "## L'idea\n\n{{Ne2+}} colpisce g1 e c1 nella stessa mossa, e e2 non la copre niente: la torre in f1 e la donna in c1 guardano tutte e due oltre. {{Kh1}} è l'unica casa rimasta, e {{Nxc1}} prende la donna. Re e donna a un balzo di cavallo sono la forchetta da controllare per prima."
+}

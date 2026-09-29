@@ -1,0 +1,11 @@
+{
+  "id": "forks-13",
+  "fen": "4k3/pp3ppp/8/1N3q2/8/8/PP3PPP/R1B3K1 w - - 0 1",
+  "solution": [
+    "Nd6+"
+  ],
+  "title": "O Cavalo Arranca a Dama",
+  "setup": "A dama preta em f5 ataca o teu cavalo de b5, e o rei preto continua em casa, em e8.",
+  "hint": "Não te limites a salvar o cavalo. Encontra o salto que dá xeque ao rei e atinge a dama.",
+  "explanation": "## A Ideia\n\n{{Nd6+}} dá xeque ao rei de e8 e ataca a dama de f5. Não há peão preto em c7 nem em e7 a guardar d6, portanto o cavalo está seguro, e um xeque de cavalo não se pode tapar. O rei tem de mexer, e {{Nxf5}} come a dama por um cavalo.\n\nAntes de recuares uma peça atacada, procura uma casa onde ela responda ao ataque com xeque."
+}

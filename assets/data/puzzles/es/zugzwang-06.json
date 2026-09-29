@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-06",
+  "fen": "1k6/8/8/5Q2/8/3Kp3/6B1/8 w - - 0 1",
+  "solution": [
+    "Qd7",
+    "e2",
+    "Qb7#"
+  ],
+  "rating": 1560,
+  "title": "Deja correr al peón",
+  "setup": "El rey negro está en b8 y su peón de e3 está a dos casillas de coronar, con tu rey justo al lado, en d3.",
+  "hint": "El peligro no es el peón. Quítale las casillas al rey y déjalo avanzar.",
+  "explanation": "## La idea\n\n{{Qd7}} cubre a7, b7, c7 y c8 sin dar jaque. La única jugada legal de las Negras es {{e2}}, y {{Qb7#}} llega primero. Un peón pasado que corona una jugada tarde no es un peón pasado."
+}

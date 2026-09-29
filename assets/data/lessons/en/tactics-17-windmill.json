@@ -1,0 +1,50 @@
+{
+  "id": "windmill",
+  "title": "The Windmill",
+  "summary": "A rook that checks, robs, and comes back",
+  "proof": "windmill-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "title": "The Queen Is the Bait",
+      "text": "Moscow, 1925: Carlos Torre, playing White, is about to hand Emanuel Lasker the queen and come out of it three pawns ahead.\n\nEverything White owns is already aimed at one square. The rook on g3 has the whole g-file the moment it is cleared. The bishop on g5 is what stands in the road. And g7, the pawn shielding the black king, is guarded by that king and by nothing else.\n\nBlack's queen on b5 defends nothing on that side of the board."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "prompt": "Add a second attacker to g7, and accept that clearing the way costs you the queen.",
+      "targetSan": [
+        "Bf6"
+      ],
+      "hint": "The rook on g3 already points at g7, and the only thing standing in its road is yours to move."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3ppB1p/7q/1P1P4/4N1R1/P4PPP/4R1K1 w - - 0 26",
+      "title": "The Rook Walks In",
+      "text": "Lasker took the queen, and the g-file opened with a white bishop sitting on f6, right against the king's shelter.\n\n{{Rxg7+}}. The king cannot take the rook, because the bishop on f6 guards g7. Black's own knight sits on f8, so there is nowhere else to go: {{Kh8}} is the only legal move on the board.\n\nBlack is a queen up. Now look at where those three pieces have ended up."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "Rook in the Middle",
+      "text": "The bishop on f6, the rook on g7 and the black king on h8 stand on one diagonal, in that order, rook in the middle.\n\nStep the rook off that diagonal and the bishop's discovered check arrives behind it, so the rook takes whatever it passes while Black answers. Step it back to g7 and the rook checks by itself, guarded by the bishop. The king shuffles between two squares and never gets a move of its own. That is the windmill.\n\n> A rook that checks by leaving a diagonal and checks again by coming back owns the whole rank."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "One Full Turn",
+      "text": "{{Rxf7+}} takes a pawn and clears the diagonal, so the check comes from the bishop. {{Kg8}}, the only move. {{Rg7+}} puts the rook back in the middle, and {{Kh8}}, the only move again.\n\nCount what changed. King back on h8, rook back on g7, the diagonal set up exactly as it was, and Black one pawn poorer. Nothing prevents White from doing the whole thing again.\n\nTorre turned it once more, then stepped the rook to g5 and collected the queen on h5."
+    },
+    {
+      "type": "play",
+      "fen": "r3rn1k/pb4R1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 3 29",
+      "prompt": "Turn the mill once more, stepping off the diagonal to capture the one piece your rook can take on the seventh rank.",
+      "targetSan": [
+        "Rxb7+"
+      ],
+      "hint": "Leaving the diagonal brings the bishop's check with it, so read along the seventh rank for the biggest prize."
+    }
+  ]
+}

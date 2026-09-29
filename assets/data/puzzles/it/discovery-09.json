@@ -1,0 +1,12 @@
+{
+  "id": "discovery-09",
+  "fen": "3q2k1/2p2p1p/p5p1/1r6/8/3B4/P4PPP/3R1RK1 w - - 0 1",
+  "solution": [
+    "Bxb5"
+  ],
+  "rating": 1270,
+  "title": "Nessuno Scacco, Comunque Fatale",
+  "setup": "La vostra torre in d1 è allineata sulla donna nera, con in mezzo soltanto il vostro alfiere in d3.",
+  "hint": "La torre in b5 è difesa da un pedone. Chiedetevi che aspetto avrà la colonna d una volta che il vostro alfiere l'avrà lasciata.",
+  "explanation": "## L'idea\n\n{{Bxb5}} vince una torre perché la ripresa costa di più: dopo axb5 la colonna d è aperta e Rxd8 prende la donna. Il Nero deve lasciare l'alfiere dov'è, e il Bianco si tiene la torre che ha vinto. Una scoperta non ha bisogno di uno scacco per decidere una partita."
+}

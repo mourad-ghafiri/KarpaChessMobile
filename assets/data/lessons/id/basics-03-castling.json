@@ -1,0 +1,71 @@
+{
+  "id": "castling",
+  "title": "Dua Buah, Satu Giliran",
+  "summary": "Satu-satunya langkah yang menggerakkan dua buah Anda sendiri — dan enam syarat yang harus dipenuhi lebih dulu",
+  "proof": "tactics-mix-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Keduanya Sekaligus",
+      "text": "Setiap langkah yang telah Anda mainkan sejauh ini menggerakkan satu buah. Rokade menggerakkan dua.\n\n{{O-O}}. Raja di e1 berpindah dua petak ke g1, dan benteng di h1 melompatinya lalu mendarat di f1. Satu giliran. Kedua buah selesai.\n\nItulah rokade pendek, dimainkan ke arah tepi papan di sisi raja, dan ditulis dengan dua huruf dan satu tanda hubung — satu-satunya langkah dalam catur yang bentuk tertulisnya sama sekali tak menyebut petak."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Jalan yang Panjang",
+      "text": "Benteng yang satu lagi juga bisa melakukannya.\n\n{{O-O-O}}: raja di e1 berpindah dua petak ke arah sebaliknya, ke c1, dan benteng di a1 melewatinya ke d1. Tiga huruf alih-alih dua, dan aturan yang sama di baliknya — raja bergerak tepat dua petak, dan benteng berhenti di petak yang dilangkahi raja.\n\nYang berbeda adalah berapa banyak yang harus kosong. Dua petak di sisi pendek, f1 dan g1. Tiga di sisi panjang: b1, c1 dan d1."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Belum Ada yang Bergerak",
+      "text": "Mulailah dengan tiga dari enam syarat: dua tentang masa lalu, satu tentang saat ini.\n\nRaja tak boleh pernah bergerak. Benteng yang Anda pakai untuk rokade tak boleh pernah bergerak. Bukan bergerak lalu kembali — bergerak sama sekali. Pindahkan raja dari e1 satu giliran saja dan kedua rokade hilang untuk sisa partai. Geser benteng di h1 dan rokade pendek ikut hilang, sementara rokade panjang, yang bertumpu pada benteng a1 yang belum tersentuh, tetap ada.\n\nSyarat ketiga tentang saat ini: petak-petak di antara raja dan benteng harus kosong. Setiap buah di antara keduanya harus pergi lebih dulu."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Keluar, Masuk, Melewati",
+      "text": "Tiga syarat lainnya tentang giliran ini.\n\nTidak **keluar dari** sekak: jika raja sedang diserang sekarang, itu harus dijawab dengan cara lain. Tidak **masuk ke** sekak: petak tempat raja mendarat harus aman. Tidak **melewati** sekak: petak yang dilintasinya juga harus aman — raja tak boleh berlari melewati petak yang tak boleh ia tempati.\n\nSemuanya enam. Lewatkan satu dan langkah itu memang tak ada; papan tak akan mengizinkan Anda memainkannya."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "prompt": "Amankan raja di sisi pendek — mainkan {{O-O}}.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Gerakkan rajanya sendiri, dua petak ke arah benteng di h1, dan benteng akan ikut dengan sendirinya."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "title": "Kelonggaran untuk Benteng",
+      "text": "Giliran Hitam, dan rokade panjang punya satu celah yang layak Anda kuasai.\n\nHanya petak-petak **raja** yang harus aman. Benteng tidak sedang berjalan menuju apa pun — ia diangkat melintas — jadi ia boleh berdiri di bawah serangan, dan boleh melintasi petak yang diserang, dan rokade tetap sah.\n\nIni penting di sisi ini. {{O-O-O}}: raja di e8 berhenti di c8, tetapi benteng di a8 berpindah ke d8, melewati b8. Buah lawan yang mengawasi b8 tidak menghentikan rokade. Buah yang mengawasi c8 atau d8 menghentikannya.\n\n> Perjalanan raja harus aman. Perjalanan benteng bukan urusan siapa-siapa."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "prompt": "Lakukan rokade panjang untuk Hitam, di sisi tempat tiga petak harus dikosongkan alih-alih dua.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "Raja hitam berpindah dua petak ke arah benteng di a8, dan benteng mendarat di petak yang dilintasi raja."
+    },
+    {
+      "type": "teach",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "title": "Benteng yang Saling Melihat",
+      "text": "Kedua raja sudah di tempatnya — Putih rokade pendek, Hitam rokade panjang — dan baris pertama serta baris kedelapan telah berubah bentuk.\n\nBenteng-benteng Putih berdiri di a1 dan f1 dengan empat petak kosong di antaranya. Benteng Hitam, di d8 dan h8, dipisahkan tiga petak. Sebelum rokade, setiap pasangan dipisahkan oleh rajanya sendiri di tengah baris; kini setiap benteng bisa meluncur untuk bertemu yang lain.\n\nItulah separuh kedua dari apa yang diberikan rokade. Raja meninggalkan pusat, dan benteng-benteng saling menemukan."
+    },
+    {
+      "type": "play",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "prompt": "Kedua benteng putih bisa mencapai e1 — bawa yang sepanjang partai hanya duduk di sudut.",
+      "targetSan": [
+        "Rae1"
+      ],
+      "hint": "Benteng di f1 baru tiba di sana langkah lalu; yang satu lagi belum pernah bergerak sama sekali."
+    }
+  ]
+}

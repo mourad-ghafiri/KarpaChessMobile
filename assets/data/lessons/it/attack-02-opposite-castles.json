@@ -1,0 +1,56 @@
+{
+  "id": "opposite-castles",
+  "title": "Attacchi con Arrocchi Opposti",
+  "summary": "Due attacchi, una corsa, nessun secondo premio",
+  "proof": "opposite-castles-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "Due Re, un'Ala di Distanza",
+      "text": "Il re bianco siede in c1 e quello nero in g8, un'ala di distanza, e quel solo fatto cambia a che cosa serve ogni pedone della scacchiera.\n\nArroccate dalla stessa parte e ogni pedone che spingete apre una strada verso il vostro re, quindi lasciate stare i pedoni e muovete invece i pezzi. Qui quel conto non arriva mai. Il riparo del Bianco è a2, b2 e c2, e i pedoni che il Bianco può scagliare contro il Nero stanno sull'ala opposta, liberi di correre quanto vogliono."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "Una Corsa, Non una Partita",
+      "text": "La posizione del Nero dice la stessa cosa a colori invertiti, e così tutti e due spingono nello stesso momento, in direzioni opposte.\n\nVince chi strappa per primo una linea aperta verso il re avversario — una colonna, una diagonale, una qualunque strada su cui una torre o una donna possa lanciarsi. Le mosse difensive tranquille non rallentano l'altro; spendono le mosse che vi servivano per vincere la corsa. Non c'è nessun secondo premio."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "prompt": "Fate partire la corsa spingendo il pedone che può cacciare il cavallo nero da f6.",
+      "targetSan": [
+        "g4"
+      ],
+      "hint": "Due pedoni dell'ala di re possono fare un balzo di due case, e uno solo atterra dove il pedone di f3 difende già."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/3nbppp/p2pbn2/1p2p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 12",
+      "title": "Spinta, e Controspinta",
+      "text": "Il Nero non è stato fermo. Il pedone in b5 è già per strada, e adesso i due attacchi corrono alla stessa velocità.\n\n{{g5}} caccia il cavallo di f6 via dalla difesa, {{Ne8}} è dove va, {{f4}} porta su il pedone successivo, e {{b4}} colpisce il cavallo in c3 esattamente come il Bianco ha appena colpito quello nero.\n\nNessuno dei due sta difendendo. Tutti e due stanno contando."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "Quanto Costa una Mossa",
+      "text": "Cinque mosse dopo, tutti e due gli attacchi sono arrivati. I pedoni bianchi stanno in f5 e g5; quelli neri in a4 e b4, con la torre in a8 allineata dietro.\n\nDa qui ogni mossa compra terreno oppure non compra niente. {{Nc5}} sembra un'ottima mossa — il cavallo lascia d7 per una casa migliore e guarda e4 — e non fa niente contro il re bianco. Il Nero starebbe cambiando una mossa della corsa con un pezzo più bello a vedersi, e le mosse sono l'unica cosa che a entrambi resti da spendere."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "Un Pedone È un Piede di Porco",
+      "text": "Al Bianco serve un'altra spinta per arrivare al re nero. Al Nero serve la colonna a, e il pedone bianco in a2 è ciò che la chiude.\n\nComprare quella linea con un pedone non è un cambio pari, e non deve esserlo. Un pedone è un punto. Una torre che atterra accanto a un re nudo chiude la partita. Il materiale è quello che si conta mentre non succede niente; con tutti e due i re sotto tiro, le mosse e le linee sono l'unica valuta rimasta.\n\n> Quando i re stanno su ali opposte, un pedone non è materiale. È un piede di porco."
+    },
+    {
+      "type": "play",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "prompt": "Spendete un pedone per spalancare la colonna che la vostra torre in a8 aspettava.",
+      "targetSan": [
+        "b3"
+      ],
+      "hint": "Non volete indietro il pedone — volete una presa che stacchi il pedone a del Bianco dalla colonna dove la vostra torre sta già."
+    }
+  ]
+}

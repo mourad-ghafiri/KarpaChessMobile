@@ -1,0 +1,14 @@
+{
+  "id": "skewer-10",
+  "fen": "8/4p3/1Qpk2qB/NP6/3p4/PP1Pb3/2n4K/8 w - - 0 1",
+  "solution": [
+    "Qxc6+",
+    "Ke5",
+    "Qxg6"
+  ],
+  "rating": 1240,
+  "title": "Agarra o Peão, Ganha a Dama",
+  "setup": "O rei preto em d6 e a dama em g6 partilham a sexta linha, e um peão preto ocupa c6.",
+  "hint": "A casa de que a tua dama precisa na sexta linha está ocupada. Consegues comê-la, e o rei atrever-se-ia a recapturar?",
+  "explanation": "## A Ideia\n\nA tua dama quer a sexta linha, e o peão de **c6** está em cima da casa de que ela precisa. {{Qxc6+}} come-o com xeque, e o peão de **b5** cobre c6, portanto o rei não pode capturar. {{Ke5}} é forçado, e {{Qxg6}} ganha a dama."
+}

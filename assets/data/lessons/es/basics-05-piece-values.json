@@ -1,0 +1,62 @@
+{
+  "id": "piece-values",
+  "title": "Nueve, cinco, tres, uno",
+  "summary": "El precio de cada pieza, y la cuenta que frena un error grave antes de que ocurra",
+  "proof": "first-steps-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "La lista de precios",
+      "text": "Nadie ha grabado un precio en una pieza de ajedrez. Aun así, los jugadores los calcularon durante siglos de ver qué cambios salían bien.\n\nTodo se cuenta en peones. Un peón vale 1. Un caballo vale 3, y un alfil también. Una torre vale 5. La dama vale 9.\n\nEl rey no tiene número: nunca se cambia ni se captura, así que no hay nada que tasar.\n\nSuma lo que te queda y ese total es tu **material**: la única parte de una posición que se puede contar con los dedos.\n\n> Los números son una guía, no una ley. Una posición puede desmentir cualquiera de ellos."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Uno por uno",
+      "text": "Mira pasar un cambio igualado: {{e4}} {{d5}} {{exd5}} {{Qxd5}}.\n\nLas Blancas ganan un peón. Las Negras recuperan el peón enseguida. Los dos bandos tienen exactamente lo que tenían cuatro jugadas antes, y la cuenta no se ha movido ni un punto.\n\nAsí son la mayoría de las capturas: un intercambio entre iguales, en el que cambia la posición y no el material. Las capturas que merece la pena buscar son las de la otra clase."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Cinco contra tres",
+      "text": "La torre de e1 vale cinco; el caballo de f3, tres. Así que una torre por un caballo no es un cambio en absoluto: es un beneficio de dos, y ocurre con tanta frecuencia que tiene nombre propio: ganar **la calidad**.\n\nSumar números es menos fiable a medida que crecen los montones. Un caballo y un alfil —las **piezas menores**— suman seis, igual que una torre y un peón, pero las dos piezas suelen llevarse la mejor parte. Tres piezas menores también suman nueve, lo mismo que una dama, y tres de ellas suelen ganar a la dama."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Un caballo de ventaja",
+      "text": "Cuenta lo que hay. Dama, torre y tres peones cada uno, y las Blancas tienen además un caballo. Una pieza, y es toda la diferencia entre los dos bandos.\n\nUna pieza de más cuenta más cuando queda menos de todo lo demás. Así que el bando que va por delante cambia: cada cambio entre iguales da a tu caballo de más una parte mayor de lo que queda, y deja a las Negras con menos piezas con las que intentar algo.\n\nAhora mismo hay un cambio entre iguales disponible."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "prompt": "Tienes un caballo de más, así que ofrece a las Negras el cambio que quita la pieza más fuerte de cada bando.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "Las dos damas ya comparten columna sin nada entre ellas, y la torre negra vigila esa casilla."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/3r4/8/5N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Lo que compró el cambio",
+      "text": "Nueve por nueve. Las damas se han ido y la cuenta no se ha movido ni un punto: las Blancas siguen con un caballo de más, exactamente como antes.\n\nLo que ha cambiado es todo lo demás. Las Negras tienen una torre en d5, tres peones y un rey, y ninguno puede hacer nada contra una pieza que sencillamente no tienen. Cuantas menos piezas quedan, más se hace notar la que sobra.\n\nSi vas por detrás en material, haz lo contrario y conserva las piezas. Cada pieza que sigue en pie es una cosa más que puede salirle mal al bando que va por delante."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "title": "Calculado, o no",
+      "text": "Una pieza entregada a cambio de nada es un **error grave**: no volvió material a cambio, y desharías la jugada si las reglas lo permitieran.\n\nUna pieza entregada a propósito, a cambio de algo que ya has contado y que ves venir, es un **sacrificio**. Vistas desde fuera, las dos jugadas son idénticas. Toda la diferencia está en si la cuenta se hizo antes.\n\nPor eso la cuenta va antes de la captura. Aquí tu caballo alcanza dos piezas negras, y los precios no son lo que parecen."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "prompt": "Una captura es gratis y la otra te cuesta el caballo: cuenta las dos y quédate con la que más paga.",
+      "targetSan": [
+        "Nxc6"
+      ],
+      "hint": "Una torre vale cinco y un peón uno, y el caballo de e5 llega a los dos."
+    }
+  ]
+}

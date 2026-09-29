@@ -1,0 +1,14 @@
+{
+  "id": "skewer-09",
+  "fen": "8/RR5B/1p2kr2/5b2/5P2/3P4/5N2/2K5 w - - 0 1",
+  "solution": [
+    "Rxb6+",
+    "Kd5",
+    "Rxf6"
+  ],
+  "rating": 1210,
+  "title": "Şah Çekerek Alın",
+  "setup": "Kaleleriniz yedinci yatayın sahibi ve b6'daki bir siyah piyon altıncı yatayı e6'daki şahla paylaşıyor.",
+  "hint": "Tek hamlede hem bir hat açan hem de şah çeken bir taş alma var. O hatta şahın ötesinde ne durduğunu sorun.",
+  "explanation": "## Fikir\n\n{{Rxb6+}} bir piyon alır ve çok daha önemlisi, altıncı yataya şah çekerek varır. **f6**'daki kale artık kendi şahının arkasındadır. {{Kd5}} tek kurallı cevaptır ve {{Rxf6}} kaleyi kazanır."
+}

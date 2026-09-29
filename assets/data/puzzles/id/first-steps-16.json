@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-16",
+  "fen": "6k1/5ppp/8/8/8/3n4/2P2PPP/4K3 w - - 0 1",
+  "solution": [
+    "cxd3"
+  ],
+  "title": "Tangkap Penyerangnya",
+  "setup": "Seekor kuda hitam yang nekat melompat masuk untuk memberi sekak kepada raja Anda — tetapi apakah ia melihat di mana ia mendarat?",
+  "hint": "Raja Anda bisa lari, tetapi untuk apa? Jawaban paling tegas terhadap sekak adalah menangkap pemberi sekaknya — adakah milik Anda yang bisa menjangkaunya?",
+  "explanation": "## Ide\n\nKuda di d3 memberi sekak, dan sekak punya tiga jawaban: pindahkan raja, halangi garisnya, atau tangkap pemberi sekak. Sekak kuda tak bisa dihalangi, dan di sini penangkapan tersedia.\n\nPion Anda di c2 menyerang b3 dan d3, jadi {{cxd3}} menyingkirkan kuda, mengakhiri sekak dan memenangkan tiga poin dalam satu langkah. Langkah raja juga bisa meloloskan diri, tetapi membiarkan kuda tetap hidup."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openings-11",
+  "fen": "rnb2rk1/pp1nqppp/4p3/3pP3/3p1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 0 10",
+  "solution": [
+    "Bxh7+",
+    "Kxh7",
+    "Ng5+",
+    "Kg8",
+    "Qh5"
+  ],
+  "title": "Yunan Hediyesi",
+  "setup": "Sessizleşmiş bir Fransız Savunması: merkez kilitli, siyah rok yapmış ve hiçbir siyah at bir daha f6'ya ulaşamaz. Şahın barınağını açın.",
+  "hint": "Fil h7'yi gösteriyor, bir at g5'e bir sıçrayış ve vezir h5'e bir hamle uzaklıkta. Bu üçünü sayın, sonra e5'teki piyona bakın.",
+  "explanation": "## Fikir\n\n**Yunan hediyesi**. e5'teki piyon her siyah atı f6'dan uzak tutar; fedanın ihtiyaç duyduğu tek şart da budur.\n\n{{Bxh7+}} barınağı yırtıp açar ve {{Kxh7}} geldikten sonra {{Ng5+}} gelir. Siyahın en sağlam savunması veziri hemen o at için vermektir; {{Kg8}} ile geri çekilmek {{Qh5}} hamlesinin h7'de matı kurmasına izin verir ve o zaman da ancak veziri vermek tutar.\n\nBir Yunan hediyesinden önce filin h7'ye, bir atın g5'e, vezirin h5'e ulaştığını ve siyahın hiçbir şeyinin f6'ya ulaşamadığını kontrol edin."
+}

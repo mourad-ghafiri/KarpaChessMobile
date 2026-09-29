@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-03",
+  "fen": "4k3/8/8/8/3q4/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxd4"
+  ],
+  "title": "Dama Grátis, Come-a",
+  "setup": "Duas damas frente a frente — mas só uma está defendida.",
+  "hint": "Procura sempre peças penduradas. A tática mais simples é *comer o que está de graça*.",
+  "explanation": "## A Ideia\n\nEsta é a tática mais básica de todas: uma peça desprotegida. A dama preta de d4 não tem defensor, e a tua dama de d1 ataca-a pela coluna d.\n\n{{Qxd4}} ganha uma dama de graça. O rei de e8 está demasiado longe para a comer de volta, e nenhuma peça preta guarda d4.\n\nAntes de cada jogada, varre as linhas que controlas à procura de peças inimigas que ninguém defende. A regra de John Nunn di-lo melhor: as peças desprotegidas caem."
+}

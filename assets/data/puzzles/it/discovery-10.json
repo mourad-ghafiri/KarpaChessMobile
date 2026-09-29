@@ -1,0 +1,12 @@
+{
+  "id": "discovery-10",
+  "fen": "kr6/p1P3pp/8/3N1q2/8/8/PP5P/5RKB w - - 0 1",
+  "solution": [
+    "Nb6#"
+  ],
+  "rating": 1300,
+  "title": "Ignorate la Donna",
+  "setup": "La vostra torre tiene d'occhio la donna nera e il vostro pedone in c7 tiene d'occhio la torre, mentre il re nero aspetta nell'angolo.",
+  "hint": "Tutte e due quelle prese lasciano vivo il Nero. Chiedetevi invece quale casa darebbe scacco due volte al re messo all'angolo.",
+  "explanation": "## L'idea\n\nRxf5 vince una donna e cxb8=Q+ vince una torre, ma {{Nb6#}} chiude la partita. Il cavallo dà scacco da b6 e scopre l'alfiere in h1 lungo la grande diagonale. a7 e b8 hanno i pezzi del Nero, e b7 è coperta da quell'alfiere."
+}

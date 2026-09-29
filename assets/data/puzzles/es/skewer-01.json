@@ -1,0 +1,14 @@
+{
+  "id": "skewer-01",
+  "fen": "8/1R6/2p1kq2/4P3/1r6/3Q4/7P/6K1 w - - 0 1",
+  "solution": [
+    "Qd6+",
+    "Kf5",
+    "Qxf6+"
+  ],
+  "rating": 900,
+  "title": "La dama detrás",
+  "setup": "El rey negro de e6 y su dama de f6 están uno al lado del otro en la sexta fila.",
+  "hint": "Da jaque por la fila que comparten, entrando por el lado en el que la dama es la que queda detrás.",
+  "explanation": "## La idea\n\n{{Qd6+}} es una enfilada: el jaque llega por la sexta fila con la dama negra varada detrás de su propio rey. Tu peón de **e5** cubre d6 y f6, así que el rey no puede comer. {{Kf5}} es forzada y {{Qxf6+}} se come la dama a cambio de nada."
+}

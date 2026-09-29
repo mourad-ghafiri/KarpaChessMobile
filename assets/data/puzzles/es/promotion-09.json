@@ -1,0 +1,14 @@
+{
+  "id": "promotion-09",
+  "fen": "8/q1P1kppp/8/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "c8=N+",
+    "Kd7",
+    "Nxa7"
+  ],
+  "rating": 1310,
+  "title": "No una dama",
+  "setup": "Tu peón de c corona en la próxima jugada, pero una dama en c8 no tocaría ni al rey negro ni a la dama negra.",
+  "hint": "La nueva pieza tiene que atacar dos cosas a la vez. Comprueba qué coronación puede hacerlo.",
+  "explanation": "## La idea\n\n{{c8=N+}} da una horquilla al rey de e7 y a la dama de a7, dos casillas que una dama en c8 no atacaría en absoluto. Tras {{Kd7}} el caballo come en a7. Corona en la pieza que pide la posición, no en la más fuerte."
+}

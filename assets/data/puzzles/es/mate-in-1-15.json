@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-15",
+  "fen": "6k1/4Rppp/8/8/1B6/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "El alfil cierra la ventana",
+  "setup": "Tu torre de e7 está a un paso de la última fila, y tu alfil de b4 está detrás de ella en la diagonal hacia f8.",
+  "hint": "Cuando la torre se mueve, se abre la diagonal del alfil. ¿Qué casilla le quita eso al rey?",
+  "explanation": "## La idea\n\n{{Re8#}} da jaque por la última fila, y la propia jugada abre la diagonal del alfil: sin la torre en e7, el alfil de b4 cubre f8. h8 está en la línea de la torre, y en f7, g7 y h7 están los propios peones negros. Nada puede capturar la torre ni tapar.\n\nUna pieza que sale de una línea le entrega esa línea a la pieza que tiene detrás."
+}

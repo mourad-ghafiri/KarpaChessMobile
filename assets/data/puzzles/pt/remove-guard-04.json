@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-04",
+  "fen": "2r3k1/5ppp/8/p2b4/1n6/2B4P/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxb4"
+  ],
+  "rating": 1170,
+  "title": "Tira a Escora",
+  "setup": "A tua torre em d1 ataca o bispo de d5, que é defendido apenas pelo cavalo de b4.",
+  "hint": "Segue a defesa de trás para a frente. Que peça preta segura d5, e o que é que tu tens que chegue a essa peça?",
+  "explanation": "## A Ideia\n\n{{Bxb4}} troca um bispo pelo cavalo que guarda d5. Depois de {{axb4}} o bispo fica sem proteção nenhuma e {{Rxd5}} come-o. A primeira captura é igual; a segunda é de graça. Trabalha do alvo para trás, até à peça que o mantém vivo."
+}

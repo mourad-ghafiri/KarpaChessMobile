@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-05",
+  "fen": "4k3/8/4q3/8/8/8/8/4R1K1 w - - 0 1",
+  "solution": [
+    "Rxe6+"
+  ],
+  "title": "Clouage à longue portée",
+  "setup": "Votre tour en e1, une dame noire et le roi noir se tiennent tous sur une même colonne ouverte, sans rien entre eux.",
+  "hint": "Une dame clouée peut encore glisser le long de la ligne où elle est clouée. Ne lui offrez pas ce coup.",
+  "explanation": "## L'idée\n\nLa dame en e6 est clouée : qu'elle quitte la colonne e et votre tour attaquerait le roi en e8. Mais elle peut encore glisser le long de la colonne, et elle regarde votre tour droit dans les yeux. Il n'y a donc pas le temps d'accumuler les attaquants. {{Rxe6+}} la prend tout de suite, le roi en e8 est trop loin pour reprendre, et les Blancs ont une tour contre un roi seul."
+}

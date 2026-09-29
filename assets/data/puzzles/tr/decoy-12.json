@@ -1,0 +1,14 @@
+{
+  "id": "decoy-12",
+  "fen": "1r1q1r1k/6pp/7N/8/8/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1550,
+  "title": "Philidor'un Mirası",
+  "setup": "h8'deki şah kendi piyonlarıyla mühürlenmiş ve h6'daki atınız g8'i çoktan kapsıyor.",
+  "hint": "Biri dışında her kaçış karesi gitmiş ve o kare boş. Oraya nasıl bir siyah taş dikersiniz?",
+  "explanation": "## Fikir\n\nBu **boğmaca matı**tır. {{Qg8+}} veziri, siyah kendi kaçışını kapatmak zorunda kalsın diye ikram eder: at g8'i koruduğu için {{Rxg8}} mecburidir. Ardından {{Nf7#}} gidecek yeri olmayan bir şahı mat eder."
+}

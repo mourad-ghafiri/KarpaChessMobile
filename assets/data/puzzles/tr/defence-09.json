@@ -1,0 +1,14 @@
+{
+  "id": "defence-09",
+  "fen": "1Q6/2K5/5r2/7R/3q4/5b2/k7/8 w - - 0 1",
+  "solution": [
+    "Ra5+",
+    "Qa4",
+    "Rxa4#"
+  ],
+  "rating": 1770,
+  "title": "Kaleyi Yana Savurun",
+  "setup": "Siyahın veziri, kalesi ve fili c7'deki şahınıza yükleniyor ve kendi şahı a2'ye çekilmiş.",
+  "hint": "Kaleniz yanlış dikeyde ama doğru yatayda. Tek kapatmanın bir vezire mal olduğu kareyi bulun.",
+  "explanation": "## Fikir\n\n{{Ra5+}} beşinci yatay boyunca varır. {{Qa4}} tek kapatmadır ve {{Rxa4#}} mattır. Kale hiç ileri gitmedi — yana gitti ve a dikeyindeki şahın cevap veremediği yön de buydu."
+}

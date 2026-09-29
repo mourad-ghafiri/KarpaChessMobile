@@ -1,0 +1,11 @@
+{
+  "id": "discovered-02",
+  "fen": "rnbqkb1r/pppp2pp/8/8/4N3/8/PPP2PPP/2B1R1K1 w - - 0 1",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "Échec double sur la colonne e",
+  "setup": "Votre cavalier en e4 est la seule chose entre votre tour en e1 et le roi noir. Tout coup de cavalier donne échec. Trouvez celui qui termine la partie.",
+  "hint": "Deux cases permettent au cavalier de donner échec lui aussi. Une seule couvre aussi la case où fuirait le roi.",
+  "explanation": "## L'idée\n\nChaque coup de cavalier découvre la tour en e1, mais {{Nd6#}} donne aussi échec par le cavalier. Face à un échec double, le roi doit bouger, et il n'a nulle part où aller : sa propre dame et son propre fou occupent d8 et f8, son propre pion occupe d7, la tour voit e7, et le cavalier couvre f7.\n\nL'autre échec double, depuis f6, laisse f7 ouverte, et le roi s'en va."
+}

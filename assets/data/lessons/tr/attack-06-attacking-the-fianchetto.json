@@ -1,0 +1,50 @@
+{
+  "id": "attacking-the-fianchetto",
+  "title": "Fianketto'ya Saldırı",
+  "summary": "Piyonları değil, fili avlayın",
+  "proof": "fianchetto-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Kimsenin Korumadığı İki Kare",
+      "text": "Siyahın barınağı sağlam görünüyor: üç piyon, bir fil ve arkalarına çekilmiş bir şah. O piyonların gerçekte neyi kapsadığını sayın.\n\ng piyonu g6'ya gitti ve gittiği anda f6 ile h6 temelli piyon menzilinden çıktı. Piyonlar geri yürümez. İki kare de koyu, ikisi de şahın arkasına saklandığı piyonlara bir kare uzaklıkta ve ikisinin birden hesabını tek bir taş veriyor — g7'deki fil."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Kimin Piyonları Serbest",
+      "text": "Beyazın c1'deki şahı bütün bunların tahtanın öteki ucunda oturuyor.\n\nPiyon fırtınası, harcadığınız piyonların arkasında kendi şahınız durmadığında işe yarar. Beyazın şahı durmuyor. Siyahınki duruyor — yani siyahın piyonları evde kalıp savunuyor, beyazınkiler ise bir şeyin üstüne koşmakta serbest.\n\nh1'deki kale, parti boyunca bunlardan birinin önündeki dikeyi açmasını bekledi."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "prompt": "Fırtınayı siyahın şahının yaşadığı kanatta başlatın ve tam yol yola çıkın.",
+      "targetSan": [
+        "h4"
+      ],
+      "hint": "Siyahın barınağını bir arada tutan şey g6'daki piyon — piyonlarınızdan hangisi yürüyüp ona vurabilir?"
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "Tıkanmak Bitmek Değildir",
+      "text": "Siyahın h5'teki piyonu sizinkini olduğu yerde durdurur ve piyonlar birbirinin etrafından dolanamaz. Beyaz da ikinci bir piyon getirir.\n\n{{g4}} h5'e vurur, {{hxg4}} alır, {{fxg4}} geri alır ve beyazın h piyonu, arkasında h1'deki kaleyle yeniden koşmaya başlar. İki hamle sonra dikey açılır.\n\nYavaş yol budur ve işe yarar. Aynı zamanda bir dikey satın almaya dört hamle harcar."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "Daha Hızlı Yol",
+      "text": "Daha çabuk bir cevap var ve dikeye hiç ihtiyacı yok.\n\ng7'deki fili tahtadan kaldırın, h6 bir iniş karesine dönüşsün. Oraya varan vezir, şaha bir kare uzaklıktaki g7'ye dosdoğru dikilir ve onu hiçbir siyah piyon asla itip kovamaz — bu, g piyonu g6'ya gittiği anda karara bağlandı. Siyahın d8'deki veziri de c8'deki kalesi de yardım etmek için yanlış yöne bakıyor.\n\n> Fianketto'ya karşı piyonlara saldırmıyorsunuz. Tek bir fili avlıyorsunuz."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "prompt": "Siyahın şahının yanındaki koyu kareleri koruyan tek siyah taşı değişip kaldırın.",
+      "targetSan": [
+        "Bh6"
+      ],
+      "hint": "e3'teki filiniz siyahınkiyle aynı koyu karelerde yürür — ikisi karşılaşana kadar onu dışarı gönderin."
+    }
+  ]
+}

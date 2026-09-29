@@ -1,0 +1,14 @@
+{
+  "id": "fork-09",
+  "fen": "3rr1k1/5ppp/8/8/3n4/8/5PPP/2Q2RK1 b - - 1 1",
+  "solution": [
+    "Ne2+",
+    "Kh1",
+    "Nxc1"
+  ],
+  "rating": 990,
+  "title": "Garpu Kerajaan",
+  "setup": "Putih baru saja memindahkan bentengnya ke f1, membuat raja dan menterinya berjarak satu lompatan kuda.",
+  "hint": "Raja dan menteri putih berdiri di dua petak yang disentuh satu petak kuda saja. Temukan petak itu, lalu periksa apakah aman.",
+  "explanation": "## Ide\n\n{{Ne2+}} menyerang g1 dan c1 pada langkah yang sama, dan tak ada yang menguasai e2: benteng di f1 dan menteri di c1 sama-sama memandang melewatinya. {{Kh1}} satu-satunya petak yang tersisa, dan {{Nxc1}} mengambil menteri. Raja dan menteri berjarak satu lompatan kuda adalah garpu yang Anda periksa paling dulu."
+}

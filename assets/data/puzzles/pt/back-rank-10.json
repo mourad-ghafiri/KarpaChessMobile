@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-10",
+  "fen": "6k1/5p1p/6p1/8/8/8/1B6/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "A Saída de Emergência Que Não Era",
+  "setup": "As pretas gastaram uma jogada em g6 para dar ar ao rei — mas o ar só serve se a casa de fuga for segura.",
+  "hint": "As pretas contam com g7. Verifica o que a tua peça mais silenciosa tem apontado desde sempre.",
+  "explanation": "## A Ideia\n\nAs pretas avançaram o peão g para dar ao rei uma casa para onde fugir, e a casa que criaram é g7. O bispo em b2 vigia a grande diagonal desde sempre, e g7 está nela.\n\n{{Rd8#}}: f8 e h8 estão na linha da torre, f7 e h7 têm os peões das pretas, e a única casa de fuga que as pretas construíram já está coberta."
+}

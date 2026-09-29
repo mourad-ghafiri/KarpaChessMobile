@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-11",
+  "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w - - 0 16",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1060,
+  "title": "Entrega la dama",
+  "setup": "El rey negro sigue en e8, encajonado por su propio alfil y sus peones, con un caballo en d7 cortándole el camino a d8 a tu torre.",
+  "hint": "Una pieza negra impide que tu torre dé mate en d8. ¿Qué la haría abandonar esa casilla?",
+  "explanation": "## La idea\n\nLa torre de d1 ya quiere d8, solo el caballo de d7 se interpone en su camino, y tu alfil de g5 ya cubre d8 y e7. {{Qb8+}} cuesta una dama entera y obliga a {{Nxb8}}, la única respuesta legal, y ahora el caballo está en la casilla equivocada. {{Rd8#}} remata."
+}

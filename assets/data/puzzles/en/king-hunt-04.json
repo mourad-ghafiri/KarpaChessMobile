@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-04",
+  "fen": "5B2/5k2/7r/8/2R3p1/R5K1/b7/6Q1 w - - 0 1",
+  "solution": [
+    "Qa7+",
+    "Ke6",
+    "Ra6+",
+    "Kd5",
+    "Qd4#"
+  ],
+  "rating": 1455,
+  "title": "Two Rooks on Two Ranks",
+  "setup": "Black's king is on f7 with a rook on h6 and a bishop on a2, and your rooks command the third and fourth ranks.",
+  "hint": "The king's only safe squares are ahead of it. Work out where it ends up after two checks, and put a piece there first.",
+  "explanation": "## The Idea\n\n{{Qa7+}} drives it to e6, {{Ra6+}} to d5, and {{Qd4#}} is waiting. The rooks never capture anything — they exist to take away ranks, and the queen collects."
+}

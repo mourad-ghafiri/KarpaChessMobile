@@ -1,0 +1,14 @@
+{
+  "id": "smothered-08",
+  "fen": "6k1/pp4pp/8/2q5/8/7n/P1P3PP/3R1R1K b - - 7 28",
+  "solution": [
+    "Qg1+",
+    "Rxg1",
+    "Nf2#"
+  ],
+  "rating": 1375,
+  "title": "Una Donna per Riempire una Casa",
+  "setup": "Il Bianco ha appena fatto scendere una torre da d2 alla traversa di fondo, e solo la torre in f1 sorveglia ancora f2.",
+  "hint": "Il vostro cavallo in h3 copre già g1; chiedetevi che cosa succederebbe se una torre bianca fosse costretta a starci sopra.",
+  "explanation": "## L'idea\n\nA {{Qg1+}} il re non può rispondere, perché il cavallo in h3 difende g1. Quindi {{Rxg1}} è forzata, e la ripresa riempie proprio la casa che serviva al re. {{Nf2#}} atterra poi dove la torre, il re e tutti e due i pedoni guardano oltre."
+}

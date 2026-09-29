@@ -1,0 +1,14 @@
+{
+  "id": "overload-05",
+  "fen": "6k1/5ppp/1b6/5r2/7R/8/PP1R4/K2Q4 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Bxd8",
+    "Qxd8#"
+  ],
+  "rating": 1410,
+  "title": "The Bishop Is Too Far",
+  "setup": "Black's bishop on b6 watches d8 along the diagonal while the rook on f5 has drifted away from home.",
+  "hint": "A long-range defender still has to be able to come back. Test whether the square it watches is one it can hold.",
+  "explanation": "## The Idea\n\nThe bishop guards d8 from a distance, so {{Rd8+}} costs a rook and {{Bxd8}} is forced. Now the diagonal is empty and {{Qxd8#}} takes the square. Guarding a square and being able to survive on it are different things."
+}

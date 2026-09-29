@@ -1,0 +1,14 @@
+{
+  "id": "skewer-06",
+  "fen": "8/1R1p3p/2k2r2/8/4Pb2/2r5/3R1B1P/4K3 w - - 0 1",
+  "solution": [
+    "Rb6+",
+    "Kc7",
+    "Rxf6"
+  ],
+  "rating": 1100,
+  "title": "Une tour derrière une tour",
+  "setup": "Les Noirs ont deux tours en jeu, et l'une d'elles partage la sixième rangée avec son roi en c6.",
+  "hint": "Quelle case de la sixième rangée l'une de vos pièces défend-elle déjà ? Donnez échec depuis là.",
+  "explanation": "## L'idée\n\n{{Rb6+}} est une enfilade le long de la sixième rangée : le roi devant, la tour en **f6** derrière. Le fou en **f2** protège b6, donc l'échec ne peut pas être pris, et toutes les cases de fuite sauf c7 sont couvertes. {{Kc7}}, et {{Rxf6}} gagne la tour."
+}

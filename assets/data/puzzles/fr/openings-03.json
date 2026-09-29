@@ -1,0 +1,13 @@
+{
+  "id": "openings-03",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/2N2N1P/PP2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "Nxd4",
+    "Qh2#"
+  ],
+  "title": "Le piège sibérien",
+  "setup": "Les Noirs ont pris le pion offert par les Blancs, placé la dame en c7 et lancé un cavalier en g4 ; les Blancs viennent de jouer h3.",
+  "hint": "Votre dame et l'un de vos cavaliers visent déjà la même case à côté du roi blanc. Demandez-vous quelle pièce blanche la garde encore.",
+  "explanation": "## L'idée\n\nLa dame en c7 et le cavalier en g4 frappent tous deux h2, et en dehors du roi seul le cavalier en f3 la protège.\n\n{{Nd4}} attaque la dame en e2 et offre aux Blancs un cavalier à prendre. Prendre celui-ci est fatal : {{Nxd4}} élimine le dernier gardien de h2, et {{Qh2#}} suit, avec le cavalier en g4 qui protège la dame. Le mieux pour les Blancs est de sacrifier plutôt la dame.\n\nAvant de chasser une pièce, comptez qui garde la case derrière vous."
+}

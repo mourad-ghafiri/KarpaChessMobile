@@ -1,0 +1,50 @@
+{
+  "id": "windmill",
+  "title": "El molino",
+  "summary": "Una torre que da jaque, roba y vuelve",
+  "proof": "windmill-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "title": "La dama es el cebo",
+      "text": "Moscú, 1925: Carlos Torre, con las Blancas, está a punto de entregarle la dama a Emanuel Lasker y salir de ello con tres peones de ventaja.\n\nTodo lo que tienen las Blancas ya apunta a una sola casilla. La torre de g3 tiene toda la columna g en cuanto se despeje. El alfil de g5 es lo que corta el camino. Y g7, el peón que protege al rey negro, lo defiende ese rey y nada más.\n\nLa dama negra de b5 no defiende nada en ese lado del tablero."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "prompt": "Añade un segundo atacante sobre g7, y acepta que despejar el camino te cuesta la dama.",
+      "targetSan": [
+        "Bf6"
+      ],
+      "hint": "La torre de g3 ya apunta a g7, y lo único que hay en su camino es tuyo y puedes moverlo."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3ppB1p/7q/1P1P4/4N1R1/P4PPP/4R1K1 w - - 0 26",
+      "title": "Entra la torre",
+      "text": "Lasker capturó la dama, y la columna g se abrió con un alfil blanco plantado en f6, pegado al refugio del rey.\n\n{{Rxg7+}}. El rey no puede capturar la torre, porque el alfil de f6 protege g7. El propio caballo negro está en f8, así que no hay otro sitio adonde ir: {{Kh8}} es la única jugada legal del tablero.\n\nLas Negras tienen una dama de más. Ahora mira dónde han acabado esas tres piezas."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "La torre en medio",
+      "text": "El alfil de f6, la torre de g7 y el rey negro de h8 están en una misma diagonal, en ese orden, con la torre en medio.\n\nSaca la torre de esa diagonal y el jaque al descubierto del alfil llega detrás de ella, así que la torre captura lo que encuentre mientras las Negras responden. Vuelve a llevarla a g7 y la torre da jaque ella sola, protegida por el alfil. El rey va y viene entre dos casillas y nunca tiene una jugada propia. Eso es el molino.\n\n> Una torre que da jaque al salir de una diagonal y vuelve a darlo al regresar es dueña de toda la fila."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "Una vuelta completa",
+      "text": "{{Rxf7+}} captura un peón y despeja la diagonal, así que el jaque lo da el alfil. {{Kg8}}, la única jugada. {{Rg7+}} devuelve la torre al centro, y {{Kh8}}, otra vez la única jugada.\n\nCuenta lo que ha cambiado. El rey otra vez en h8, la torre otra vez en g7, la diagonal exactamente como estaba, y las Negras con un peón menos. Nada impide que las Blancas lo repitan todo.\n\nTorre dio otra vuelta al molino, luego llevó la torre a g5 y cobró la dama de h5."
+    },
+    {
+      "type": "play",
+      "fen": "r3rn1k/pb4R1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 3 29",
+      "prompt": "Dale otra vuelta al molino, saliendo de la diagonal para capturar la única pieza que tu torre puede tomar en la séptima fila.",
+      "targetSan": [
+        "Rxb7+"
+      ],
+      "hint": "Salir de la diagonal trae consigo el jaque del alfil, así que lee la séptima fila buscando el premio mayor."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "forks-05",
+  "fen": "6k1/5ppp/2q5/3N4/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Ne7+"
+  ],
+  "title": "At Bir Vezir Kapıyor",
+  "setup": "Siyahın c6'daki veziri d5'teki atınıza saldırıyor. Atı oynatmak yetmez; bırakın karşılık versin.",
+  "hint": "Tek bir at sıçrayışı aynı anda hem şah çeker hem de vezire saldırır.",
+  "explanation": "## Fikir\n\n{{Ne7+}} tek sıçrayışta g8'deki şaha şah çeker ve c6'daki vezire saldırır. Siyahın hiçbir şeyi e7'yi korumuyor ve atın şahı kapatılamaz; yani şahın oynaması gerekir. {{Kf8}} ya da {{Kh8}} geldikten sonra {{Nxc6}} veziri kazanır.\n\nŞahla gelen çatal en güçlü türdür: şahın hamlesi siyahın sırasını tüketir ve ikinci hedef düşer."
+}

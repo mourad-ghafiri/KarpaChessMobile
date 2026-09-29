@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-05",
+  "fen": "6R1/8/5r2/K7/3P3k/8/8/8 b - - 0 1",
+  "solution": [
+    "Rd6"
+  ],
+  "rating": 1390,
+  "title": "En medio del camino",
+  "setup": "El rey negro está varado en h4, así que la torre tiene que ocuparse del peón de d libre ella sola.",
+  "hint": "Atacar el peón no es lo mismo que detenerlo. ¿Contra qué casilla tiene que chocar el peón?",
+  "explanation": "## La idea\n\n{{Rd6}} planta la torre justo delante del peón, y ahora {{d5}} se topa con {{Rxd5+}}. Atácalo de lado con {{Rf4}} y las Blancas responden {{Rd8}}, defendiéndolo desde atrás, tras lo cual el peón sube por el tablero."
+}

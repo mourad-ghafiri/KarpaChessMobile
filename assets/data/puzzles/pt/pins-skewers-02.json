@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-02",
+  "fen": "r7/6pp/8/3k4/8/8/1K2B1PP/8 w - - 0 1",
+  "solution": [
+    "Bf3+",
+    "Kd4",
+    "Bxa8"
+  ],
+  "title": "Espeto na Grande Diagonal",
+  "setup": "O rei preto em d5 e a torre em a8 estão na mesma grande diagonal, e o teu bispo está a um passo de a reclamar.",
+  "hint": "Dá xeque ao rei pela linha que ele partilha com a torre e vê o que fica quando ele se afastar.",
+  "explanation": "## A Ideia\n\nIsto é um espeto: a peça mais valiosa está à frente. {{Bf3+}} dá xeque ao rei de d5 pela grande diagonal, com a torre de a8 atrás dele na mesma linha. O rei tem de sair da linha, e depois de {{Kd4}}, {{Bxa8}} recolhe o que estava escondido atrás dele.\n\nUma cravada ataca através da peça barata a peça cara. Um espeto ataca através da peça cara a peça barata."
+}

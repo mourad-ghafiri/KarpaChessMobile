@@ -1,0 +1,11 @@
+{
+  "id": "strategy-08",
+  "fen": "r1bqk2r/2p1bppp/p2p1n2/np2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w k - 1 9",
+  "solution": [
+    "Bc2"
+  ],
+  "title": "Ne vendez pas la paire",
+  "setup": "Le cavalier noir a sauté en a5 pour s'échanger contre votre fou de cases blanches. Gardez la paire de fous.",
+  "hint": "Le cavalier en a5 a posé une question. Évaluez votre fou selon ce qu'il vaudra dans six coups, pas dans celui-ci.",
+  "explanation": "## L'idée\n\nDeux fous couvrent toutes les cases de l'échiquier ; un seul en couvre la moitié. Les joueurs forts estiment la paire à environ un demi-pion et dépensent de vrais coups pour la garder.\n\n{{Bc2}} se met hors de portée et garde les deux fous. Les autres retraites échouent : c4 est toujours à portée du cavalier, et a4 est en prise sur le pion b. Les Noirs poursuivent par {{c5}}, et les Blancs ouvrent le centre par {{d4}}.\n\nRester immobile invite {{Nxb3}}, qui donne la paire aux Noirs, double les pions b blancs et ouvre la colonne a en un seul coup."
+}

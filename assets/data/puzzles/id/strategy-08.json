@@ -1,0 +1,11 @@
+{
+  "id": "strategy-08",
+  "fen": "r1bqk2r/2p1bppp/p2p1n2/np2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w k - 1 9",
+  "solution": [
+    "Bc2"
+  ],
+  "title": "Jangan Jual Pasangannya",
+  "setup": "Kuda Hitam telah melompat ke a5 untuk menukar dirinya dengan gajah petak terang Anda. Pertahankan pasangan gajah.",
+  "hint": "Kuda di a5 telah mengajukan pertanyaan. Nilailah gajah Anda menurut harganya enam langkah lagi, bukan pada langkah ini.",
+  "explanation": "## Ide\n\nDua gajah menguasai setiap petak di papan; satu gajah menguasai separuhnya. Pemain kuat menilai pasangan gajah sekitar setengah pion dan memakai langkah sungguhan untuk mempertahankannya.\n\n{{Bc2}} menyingkir dari jangkauan dan mempertahankan kedua gajah. Langkah mundur yang lain gagal: c4 masih dalam jangkauan kuda, dan a4 tak terlindungi dari pion b. Hitam melanjutkan dengan {{c5}}, dan Putih membuka pusat dengan {{d4}}.\n\nDiam di tempat mengundang {{Nxb3}}, yang menyerahkan pasangan gajah kepada Hitam, membuat pion b Putih ganda dan membuka lajur a dalam satu langkah."
+}

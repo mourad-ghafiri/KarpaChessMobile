@@ -1,0 +1,14 @@
+{
+  "id": "defence-05",
+  "fen": "3Q4/bq6/5R2/8/8/7r/4K3/2k5 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kb1",
+    "Rf1#"
+  ],
+  "rating": 1610,
+  "title": "İki Hamle, Fazlası Yok",
+  "setup": "e2'deki şahınız siyahın veziri, kalesi ve filiyle kutuya alınmış ve siyahın şahı c1'e kadar sokulmuş.",
+  "hint": "Aynı anda hem savunup hem saldıramazsınız. Kaç şahınız olduğunu ve tükenip tükenmediklerini hesaplayın.",
+  "explanation": "## Fikir\n\n{{Qd2+}} {{Kb1}} hamlesini zorlar ve {{Rf1#}} birinci yatay boyunca mat eder. Oynamaya değer bir savunma hamlesi hiç yoktu — pozisyonu, kimin saldırısının bir tempo kısa olduğu belirledi."
+}

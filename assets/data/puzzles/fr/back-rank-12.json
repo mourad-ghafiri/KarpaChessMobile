@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-12",
+  "fen": "5rk1/5ppp/8/8/8/8/3Q1PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Qd8",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "title": "Déviez le défenseur",
+  "setup": "La tour en f8 garde la dernière rangée, et votre dame et votre tour tiennent la colonne d ouverte juste à côté. Déviez cette gardienne.",
+  "hint": "La gardienne surveille d8 de côté. Donnez-lui sur cette case quelque chose qu'elle ne peut pas refuser.",
+  "explanation": "## L'idée\n\nLa tour en f8 garde toute la huitième rangée, d8 comprise. {{Qd8}} place la dame sur cette case et met la tour au défi de la prendre.\n\nSi {{Rxd8}}, alors {{Rxd8#}} : la gardienne est partie, et les pions en f7, g7 et h7 enferment le roi. Les Noirs font mieux de refuser par un coup de pion qui donne de l'air au roi, mais {{Qxf8+}} {{Kxf8}} laisse quand même votre tour contre un roi seul."
+}

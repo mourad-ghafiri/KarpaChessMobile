@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-04",
+  "fen": "k7/3q4/8/8/8/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Rxd7"
+  ],
+  "title": "Benteng di Jalan Terbuka",
+  "setup": "Benteng Anda dan menteri hitam berbagi lajur d yang terbuka lebar — dan giliran Anda melangkah.",
+  "hint": "Lajur d kosong di antara kedua buah berat itu. Siapa yang menyerang lebih dulu?",
+  "explanation": "## Ide\n\nBenteng Anda dan menteri Hitam saling berhadapan di lajur d yang terbuka, dan **giliran Putih melangkah**. Di garis yang sama, siapa yang melangkah lebih dulu, dialah yang tiba lebih dulu.\n\n{{Rxd7}} mengambil menteri. Raja hitam di a8 sama sekali tak dekat dengan d7, jadi tak ada yang menangkap balik.\n\nKetika buah Anda dan buah lawan berdiri di garis terbuka yang sama, periksa dulu giliran siapa sebelum hal lainnya."
+}

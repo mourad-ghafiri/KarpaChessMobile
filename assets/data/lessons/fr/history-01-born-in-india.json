@@ -1,0 +1,56 @@
+{
+  "id": "chess-origins",
+  "title": "Né en Inde",
+  "summary": "Fantassins, chevaux, éléphants, chars — et lesquels ont survécu au voyage",
+  "proof": "history-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "Quatre corps d'armée",
+      "text": "Retirez de cet échiquier les deux rois et les deux dames. Tout ce qui reste debout est un corps d'armée : fantassins, chevaux, éléphants, chars.\n\nLa plupart des historiens situent cette armée dans le nord de l'Inde vers le VIe siècle, dans un jeu appelé **chaturanga** — « à quatre membres », d'après les quatre corps qui composaient une armée. Personne ne peut nommer son inventeur, ni l'année.\n\nLes deux pièces que vous venez de retirer n'ont jamais été des corps d'armée. Le roi commandait, et à côté du roi se tenait un conseiller. Ce conseiller, c'est votre dame."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "La route du char",
+      "text": "Un char ne veut qu'une chose : une route où il n'y a rien.\n\nAucun des deux camps n'a plus de pion e, donc la colonne e est nue d'un bout à l'autre, à part deux pièces noires : le cavalier en e4 et, tout au bout de la route, le roi noir en e8.\n\nPlacez sur cette colonne une pièce qui frappe le long d'elle et le cavalier reste coincé là où il est. Chaque case que son L atteint est hors de cette route, et quitter la route exposerait son propre roi."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "prompt": "Les deux pions e ont disparu : prenez cette route vide avec une tour et clouez le cavalier devant son roi.",
+      "hint": "Une seule de vos tours peut y arriver. Regardez ce qui barre le chemin de l'autre.",
+      "targetSan": [
+        "Re1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQR1K1 b k - 2 10",
+      "title": "Un coup trop tard",
+      "text": "Le cavalier est attaqué et ne peut pas fuir, et chaque défenseur que les Noirs enverraient en e4 abandonnerait l'autre cavalier — que le pion d blanc menace déjà.\n\nLes Noirs sortent donc plutôt le roi de la dispute. {{Ne7}} place une pièce entre les deux, et le cavalier piégé est de nouveau libre — mais c'est aux Blancs de jouer.\n\n{{Rxe4}} le ramasse. Voilà à quoi sert un char. Il n'a pas besoin d'atteindre sa cible ce coup-ci, seulement de continuer à la viser."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Ce qui a été réécrit",
+      "text": "Nouvel échiquier. Le jeu a quitté l'Inde et a été réécrit plus d'une fois en chemin, et deux pièces ont concentré presque tous les changements.\n\nL'éléphant sautait d'exactement deux cases en diagonale. Il pouvait toucher huit cases sur soixante-quatre, et aucune autre. L'Europe a jeté cela. Le conseiller a pris le chemin inverse : la pièce la plus faible de l'échiquier est revenue en devenant la plus forte.\n\nLe char et le cheval ont traversé intacts. Le roque a plus tard offert au char un tour qu'aucun char n'avait jamais eu, mais sa manière de traverser l'échiquier est celle d'hier."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Le cheval a gardé son saut",
+      "text": "Toutes les autres pièces se déplacent le long d'une ligne, et une ligne fonctionne dans les deux sens — le cavalier que vous venez de piéger a été perdu parce qu'une ligne le traversait jusqu'à son propre roi.\n\nUn saut n'a pas de ligne. Le cheval ne traverse jamais les cases entre son départ et son arrivée, il n'y a donc rien sur quoi s'interposer et rien le long de quoi viser. Un échec de cheval ne laisse que deux réponses : déplacer le roi, ou prendre le cheval.\n\n> Une route peut être barrée. Un saut, jamais."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Trouvez le saut qui met le roi noir en échec et attaque en même temps la tour en c8.",
+      "hint": "Partez du roi : listez les cases voisines que votre cavalier peut atteindre, puis demandez-vous ce que chacune touche d'autre.",
+      "targetSan": [
+        "Ne7+"
+      ]
+    }
+  ]
+}

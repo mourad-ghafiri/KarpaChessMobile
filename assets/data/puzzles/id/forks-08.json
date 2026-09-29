@@ -1,0 +1,11 @@
+{
+  "id": "forks-08",
+  "fen": "r3k3/5ppp/8/PN6/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc7+"
+  ],
+  "title": "Garpu Keluarga",
+  "setup": "Raja dan benteng Hitam sama-sama masih di petak awalnya, dan kuda Anda di b5 berada dekat.",
+  "hint": "Ada satu petak kuda yang menyerang raja di e8 dan benteng di a8 sekaligus.",
+  "explanation": "## Ide\n\n{{Nc7+}} memberi sekak kepada raja di e8 dan menyerang benteng di a8. Raja harus bergerak, dan {{Nxa8}} mengambil benteng.\n\nKuda di sudut sering terjebak di sana, tetapi tidak yang ini: pion di a5 menjaga b6, jadi kuda punya jalan keluar yang aman. Sebelum Anda merebut buah di sudut, periksa apakah kuda Anda bisa pulang."
+}

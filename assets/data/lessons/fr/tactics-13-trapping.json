@@ -1,0 +1,44 @@
+{
+  "id": "trapping-pieces",
+  "title": "Piéger une pièce",
+  "summary": "Gagnez une pièce en lui retirant ses cases",
+  "proof": "trapping-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "title": "Deux cases au monde",
+      "text": "Comptez les cases où peut aller le fou blanc en b3. Deux.\n\nSes propres pions sont en a2 et c2. Sa propre dame en d5 barre la route au-delà de c4. Il reste a4 et c4, et le pion noir en b5 couvre déjà les deux.\n\nRien sur l'échiquier n'attaque ce fou. Rien n'en a besoin. Une pièce réduite à deux cases n'a qu'à en perdre une."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "prompt": "Placez un pion protégé sur l'une des deux cases du fou, pour qu'il soit perdu où qu'il aille.",
+      "hint": "Un seul de vos pions peut atteindre l'une de ces deux cases, et le pion en b5 la couvre déjà.",
+      "targetSan": [
+        "c4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "title": "L'arche de Noé",
+      "text": "{{c4}}. Pas de prise, pas d'échec. Le pion se tient simplement sur une case sur laquelle comptait le fou.\n\n{{Bxc4}} {{bxc4}} est la version gourmande, et elle livre un fou contre deux pions au mieux. a4 ne vaut pas mieux : le pion en b5 couvre aussi cette case.\n\nLe motif est assez ancien pour porter un nom. Dans le **piège de l'arche de Noé**, les pions viennent vers le fou deux par deux, et aucune pièce ne l'attaque jamais."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/PN1B4/rP3PPP/2K5 w - - 1 2",
+      "title": "Une tour dans un placard",
+      "text": "Maintenant une tour. La tour noire est partie chasser le long de la deuxième rangée et ne peut plus rentrer.\n\nElle a trois cases : a1, a3 et b2. Le cavalier en b3 couvre a1. Le pion en a3 est protégé par le pion en b2, et le pion en b2 par le roi en c1. Chaque sortie coûte la tour.\n\nPersonne n'a construit cette cage exprès. Les Noirs y sont entrés tout seuls.\n\n> On ne poursuit pas une pièce piégée. On compte ses cases, puis on frappe à la porte."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/PN1B4/rP3PPP/2K5 w - - 1 2",
+      "prompt": "Attaquez la tour avec votre fou, depuis une case où la tour ne peut jamais venir.",
+      "hint": "Les trois cases de la tour sont déjà toutes couvertes. Il ne lui faut qu'un attaquant auquel elle ne peut jamais répondre.",
+      "targetSan": [
+        "Bb1"
+      ]
+    }
+  ]
+}

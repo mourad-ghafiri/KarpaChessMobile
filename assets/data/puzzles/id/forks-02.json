@@ -1,0 +1,11 @@
+{
+  "id": "forks-02",
+  "fen": "6k1/8/8/6n1/8/8/8/2Q3K1 w - - 0 1",
+  "solution": [
+    "Qxg5+"
+  ],
+  "title": "Kuda Gratis, Sekak Gratis",
+  "setup": "Kuda Hitam di g5 berdiri tanpa pembela di lajur yang sama dengan raja.",
+  "hint": "Diagonal menteri mencapai kuda, dan lajur tempat menteri akan mendarat mencapai raja.",
+  "explanation": "## Ide\n\nKuda di g5 tak punya pembela, dan ia berdiri di lajur yang sama dengan raja di g8.\n\n{{Qxg5+}} mengambilnya dan memberi sekak pada langkah yang sama, jadi Hitam tak pernah mendapat langkah untuk dipakai pada hal lain. Menteri datang lewat diagonal; lajur tempat ia mendarat yang memberi sekak, dan raja terlalu jauh untuk menangkap balik.\n\nIni bukan garpu — sasarannya memang hanya satu — tetapi ia berhasil karena alasan yang sama: balasan lawan sudah tersita."
+}

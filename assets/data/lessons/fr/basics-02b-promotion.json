@@ -1,0 +1,56 @@
+{
+  "id": "promotion",
+  "title": "Un pion ne le reste pas",
+  "summary": "Atteignez la dernière rangée et le pion disparaît — c'est vous qui dites ce qui le remplace",
+  "proof": "first-steps-19.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Aucun pion ne s'y tient",
+      "text": "Un pion sur la huitième rangée, cela n'existe pas. Un pion blanc qui l'atteint — ou un pion noir qui atteint la première — ne peut pas rester ce qu'il est.\n\nLes règles le remplacent donc. Sur la case où il arrive, dans le même coup, le pion quitte l'échiquier et une **dame, une tour, un fou ou un cavalier** prend sa place. C'est la **promotion**, et elle est obligatoire. Le pion en e7 n'a plus qu'une case à parcourir et aucun moyen de rester un pion.\n\nDeux pièces ne figurent jamais sur la liste : le roi, et un autre pion."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Dites ce qu'il devient",
+      "text": "Un coup de promotion s'écrit comme n'importe quel coup — la case où arrive le pion — plus une chose.\n\n{{e8=Q}}. Un signe `=`, et la lettre de la pièce que vous voulez voir sur la case. Changez la lettre et vous changez ce qui apparaît : `R`, `B` ou `N` à la place.\n\nCe n'est pas un détail. Un coup qui atteint la dernière rangée sans nommer de pièce n'est pas un coup terminé."
+    },
+    {
+      "type": "play",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Envoyez le pion sur la dernière rangée et ramenez la pièce qui vaut neuf points.",
+      "targetSan": [
+        "e8=Q"
+      ],
+      "hint": "Le coup n'est terminé qu'une fois que vous avez nommé ce qui se tient sur la case."
+    },
+    {
+      "type": "teach",
+      "fen": "4Q3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Neuf points sortis de rien",
+      "text": "Un point est parti ; neuf points sont arrivés. La dame en e8 est une dame comme les autres, qui balaie rangées, colonnes et diagonales dès son arrivée : {{Qa4}}, {{Qh5}}.\n\nRien n'a été échangé pour l'obtenir. Vous ne rachetez pas une pièce que votre adversaire a prise, et peu importe que votre première dame soit encore sur l'échiquier. Deux dames, c'est légal. Trois aussi.\n\n> Un pion sur la septième rangée ne vaut pas un point. Il vaut ce qu'il est sur le point de devenir."
+    },
+    {
+      "type": "teach",
+      "fen": "5r2/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Entrer en prenant",
+      "text": "La promotion n'est pas réservée aux pions qui marchent. Un pion prend comme il l'a toujours fait, d'une case en diagonale vers l'avant, et la dernière rangée n'y change rien.\n\nIci, c'est important. La tour noire en f8 couvre aussi e8, donc avancer tout droit offre la nouvelle dame avant qu'elle ait fait quoi que ce soit.\n\n{{exf8=Q}} fait les deux en un seul coup : la tour disparaît, et une dame se dresse en f8. Le `x` et le `=` veulent dire ce qu'ils ont toujours voulu dire."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "title": "Quand la dame perd",
+      "text": "La dame est presque toujours la bonne réponse. Ici, elle vous fait mater.\n\n{{e8=Q}} {{Qc1+}} {{Qe1}} {{Qxe1#}}. Neuf nouveaux points, et les Noirs ne les regardent même pas : la dame en c7 donne échec le long de la première rangée, votre nouvelle dame ne peut que s'interposer, et votre roi, enfermé par ses propres pions, n'a nulle part où aller.\n\nLa dame en e8 ne touchait ni le roi noir en g7 ni la dame en c7. Promouvez plutôt en cavalier et il frappe les deux. Choisir autre chose qu'une dame s'appelle la **sous-promotion**, et voici sa raison d'être la plus courante."
+    },
+    {
+      "type": "play",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "prompt": "Promouvez en la pièce qui donne échec au roi noir et attaque la dame du même coup.",
+      "targetSan": [
+        "e8=N+"
+      ],
+      "hint": "Prenez les quatre choix l'un après l'autre et demandez-vous ce que chacun attaquerait depuis e8."
+    }
+  ]
+}

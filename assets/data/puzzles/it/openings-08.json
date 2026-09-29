@@ -1,0 +1,13 @@
+{
+  "id": "openings-08",
+  "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Nxe5",
+    "fxe5",
+    "Qh5+"
+  ],
+  "title": "Il Difensore Sbagliato",
+  "setup": "Il Nero ha difeso il pedone e5 con il pedone f invece che con un pezzo. Punitelo offrendo materiale che apra la diagonale verso il re nero.",
+  "hint": "Chiedetevi quale strada si apre se quel nuovo difensore è costretto a catturare, e quale pezzo bianco aspetta in fondo.",
+  "explanation": "## L'idea\n\nDifendere e5 con il pedone f tiene il pedone, ma apre la diagonale da h5 al re nero.\n\n{{Nxe5}} offre un pezzo per sfruttarla. Se {{fxe5}}, allora {{Qh5+}}: parare in g6 perde la torre di h8 dopo {{Qxe5+}} e la presa successiva della donna, e andare in e7 lascia la donna dare la caccia al re allo scoperto. Rifiutare con {{Qe7}} riprende il pedone, ma lascia il re e lo sviluppo del Nero nettamente peggiori.\n\nDifendete prima con i pezzi. Un pedone che ha mosso non torna indietro."
+}

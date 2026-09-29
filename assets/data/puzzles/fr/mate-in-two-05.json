@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-05",
+  "fen": "n2b1k2/3r1p1p/1B4Q1/8/8/4R3/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qh6+",
+    "Kg8",
+    "Re8#"
+  ],
+  "rating": 1100,
+  "title": "Un pas de côté, puis la dernière rangée",
+  "setup": "Le roi noir en f8 est gêné par sa propre foule, et votre dame en g6 est déjà assez proche pour lui donner échec.",
+  "hint": "Poussez le roi vers la seule case que ses propres pièces lui laissent, puis frappez la rangée qu'il ne peut plus quitter.",
+  "explanation": "## L'idée\n\n{{Qh6+}} donne échec le long de la diagonale h6–f8 et pousse le roi en g8 : {{Kg8}} est le seul coup. Puis {{Re8#}}. La dame garde g7, la ligne de la tour à travers le roi prend f8 et h8, le pion h7 bouche le reste, et rien ne peut prendre la tour."
+}

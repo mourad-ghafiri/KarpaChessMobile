@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-01",
+  "fen": "2k5/8/3K4/7Q/8/8/8/8 w - - 2 2",
+  "solution": [
+    "Qb5",
+    "Kd8",
+    "Qb8#"
+  ],
+  "title": "Jaula em Dois Passos",
+  "setup": "O rei preto em c8 ainda tem três casas. O teu rei já segura c7 e d7, e a tua dama está lá longe, em h5.",
+  "hint": "Qualquer xeque aqui deixa o rei sair. Tira-lhe as casas em silêncio e deixa-lhe exatamente uma jogada.",
+  "explanation": "## A Ideia\n\nDar xeque primeiro deixa o rei fugir. {{Qb5}} não dá xeque nenhum: toma a coluna b inteira, portanto b8 e b7 desapareceram, e o teu rei de d6 já segura c7 e d7.\n\nAs pretas têm uma jogada legal, {{Kd8}}, e ela entra em {{Qb8#}}. A dama cobre a oitava linha, o teu rei cobre a sétima, e ao rei preto não resta nada. {{Qd7#}} dá mate igualmente bem."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pin-12",
+  "fen": "5k2/7p/5p2/4n2B/2q3r1/2P2N1P/5Qb1/6K1 w - - 0 1",
+  "solution": [
+    "Nxe5"
+  ],
+  "rating": 1200,
+  "title": "Jepitan yang Datang Terlambat",
+  "setup": "Kuda Hitam di e5 dilindungi pion f6, dan kuda Anda sendiri di f3 menghalangi menteri Anda.",
+  "hint": "Pion yang menjaga e5 bebas menangkap saat ini. Apa yang berubah di lajur f begitu kuda Anda pergi?",
+  "explanation": "## Ide\n\n{{Nxe5}} memenangkan sebuah buah. Pion f6 melindungi e5 — sampai kuda Anda meninggalkan f3 dan menteri Anda di **f2** melihat seluruh lajur sampai ke raja di **f8**. Pion itu terjepit tepat pada saat ia dibutuhkan, jadi ia tak bisa menangkap balik."
+}

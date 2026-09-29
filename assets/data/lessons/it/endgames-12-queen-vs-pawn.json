@@ -1,0 +1,50 @@
+{
+  "id": "queen-vs-pawn",
+  "title": "Donna contro un Pedone in Settima",
+  "summary": "Non una corsa — un modo di comprare mosse",
+  "proof": "endgames-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "La Corsa È Già Persa",
+      "text": "Il pedone nero in d2 è a una mossa dalla donna, e il re bianco in h6 non è lontanamente abbastanza vicino per fermarlo.\n\nNemmeno inseguire aiuta. La donna in a8 non può prendere il pedone finché il re nero in c2 gli sta accanto, e una donna da sola non può forzare il matto. Per quello serve il re bianco, e al re bianco serve tempo.\n\nEd è per questo che la donna sta giocando qui. Non per il pedone. Per il tempo."
+    },
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "Gli Scacchi Sono Valuta",
+      "text": "A uno scacco bisogna rispondere. Mentre il Nero risponde, il Nero non spinge, e la mossa che il Nero perde è la mossa che il re bianco spende a camminare.\n\nQuindi gli scacchi hanno una destinazione, e non è il pedone. Spingete il re nero in d1, la casa che il suo stesso pedone cerca di raggiungere. Un re parcheggiato lì è un blocco stradale che il pedone non può aggirare e a cui non può chiedere di spostarsi.\n\nPoi guardate che cosa resta al Nero: nessuno scacco a cui rispondere, nessuna mossa di pedone, e un re quasi senza nessun posto dove stare. È allora che il re bianco fa un passo avanti gratis."
+    },
+    {
+      "type": "play",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "prompt": "Non arrivate al pedone in tempo, quindi cominciate invece a togliere mosse al re.",
+      "targetSan": [
+        "Qe4+"
+      ],
+      "hint": "Ci sono cinque scacchi disponibili; scegliete quello che rastrella anche la colonna e, così che il re non possa mai sgusciare oltre il suo pedone da quel lato."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "title": "Contate le Risposte del Nero",
+      "text": "Adesso il re sta in d1, esattamente sulla casa che voleva il suo pedone.\n\nContate quello che resta. Il pedone in d2 non può muovere; gli sta di mezzo il suo stesso re. La donna in e4 copre e1, e2 e c2. Resta c1. Il Nero ha esattamente una mossa legale, e non è una mossa di pedone.\n\nIl che rende gratis il turno del Bianco. Fate camminare il re, lasciate che il Nero vada avanti e indietro, poi date di nuovo scacco e riportate il re davanti al pedone. Ogni ciclo costa al Nero una mossa e guadagna al Bianco una casa.\n\n> La donna non sta inseguendo il pedone. Sta comprando mosse per il re."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/K7/8/6Q1/8/7p/7k w - - 0 1",
+      "title": "Due Colonne che Tengono",
+      "text": "Il meccanismo vince contro un pedone centrale o un pedone di cavallo. Contro un pedone di torre o un pedone di alfiere può incepparsi, ed ecco come.\n\nIl pedone nero in h2, il re in h1, la donna bianca in g4 che tiene g1 e g2: la stessa presa che vinceva sulla colonna d. E allora spendete la mossa gratis. {{Kb5}}, ed è il turno del Nero senza uno scacco a cui rispondere e senza una mossa legale sulla scacchiera. Stallo, mezzo punto.\n\nAl re bloccato deve restare una casa in cui strisciare. Nell'angolo non ce n'è nessuna."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "prompt": "Di nuovo sulla colonna d, il re nero blocca il proprio pedone e non ha niente di utile da fare: incassate la mossa gratis.",
+      "targetSan": [
+        "Kg5"
+      ],
+      "hint": "Ogni mossa che incassate deve accorciare il viaggio, quindi scegliete la direzione in cui il vostro re deve davvero andare."
+    }
+  ]
+}

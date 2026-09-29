@@ -1,0 +1,14 @@
+{
+  "id": "promotion-07",
+  "fen": "r5k1/P4pp1/7p/8/8/7P/5PP1/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Rxb8",
+    "axb8=Q+"
+  ],
+  "rating": 1240,
+  "title": "Pion yang Melindungi",
+  "setup": "Pion a7 Anda dihadang benteng di a8, dan benteng Anda sendiri bebas berayun di sepanjang baris pertama.",
+  "hint": "Petak mana di samping benteng penghadang yang sudah dijaga pion bebas itu sendiri?",
+  "explanation": "## Ide\n\n{{Rb8+}} adalah sekak dan benteng itu tak tersentuh, karena pion a7 menjaga b8. {{Rxb8}} menabrak {{axb8=Q+}}, berpromosi dengan sekak dan keluar dengan menteri untuk benteng. Menyingkir dengan Kh7 sebagai gantinya hanya kehilangan benteng karena Rxa8."
+}

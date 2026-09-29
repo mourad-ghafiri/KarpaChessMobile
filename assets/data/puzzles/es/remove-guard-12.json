@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-12",
+  "fen": "8/pP3pkp/3b2p1/8/8/8/5PKP/3R4 w - - 1 2",
+  "solution": [
+    "Rxd6"
+  ],
+  "rating": 1450,
+  "title": "Compra la dama",
+  "setup": "Tu peón de b7 está a una casilla de coronar, y el alfil de d6 es la única pieza que vigila b8.",
+  "hint": "En este tablero no importa nada más que la columna b. ¿Qué pieza negra está frenando a ese peón?",
+  "explanation": "## La idea\n\n{{Rxd6}} es una torre por un alfil, y una ganga: ese alfil era la única pieza que cubría b8. Nada puede recapturar, así que {{b8=Q}} llega en la próxima jugada. Cambia todo el material que quieras por un peón que corona."
+}

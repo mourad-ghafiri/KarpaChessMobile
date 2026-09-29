@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-02",
+  "fen": "7k/6pp/8/8/8/8/5PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "La Roccia della Traversa di Fondo",
+  "setup": "Il re nero è al riparo nell'angolo dietro i propri pedoni in g7 e h7 — un muro senza finestre.",
+  "hint": "L'ottava traversa è spalancata, e il Nero non ha spinto nessuno dei due pedoni per farsi una casa di fuga.",
+  "explanation": "## L'idea\n\nIl **matto del corridoio** da manuale. {{Rb8#}} scivola sull'ottava traversa e il re non può scappare: g7 e h7 hanno i suoi stessi pedoni, g8 sta sulla traversa della torre, e niente può mettersi in mezzo.\n\nUna mossa di pedone prima, h6 o g6, avrebbe dato aria al re. Senza, il muro è una gabbia."
+}

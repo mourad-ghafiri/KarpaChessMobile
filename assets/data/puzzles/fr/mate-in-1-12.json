@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-12",
+  "fen": "7k/2Q4p/6K1/8/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Qxh7#"
+  ],
+  "title": "Prenez le pion, prenez le roi",
+  "setup": "Le pion en h7 met votre roi en g6 en échec, et votre dame en c7 tient toute la septième rangée.",
+  "hint": "Le dernier bouclier du roi est un pion que votre dame peut atteindre, et votre propre roi est assez proche pour soutenir la prise.",
+  "explanation": "## L'idée\n\nVous êtes en échec, et le coup qui y répond gagne aussi la partie. {{Qxh7#}} prend le pion qui donne échec et se pose à côté du roi noir.\n\nVotre roi en g6 protège h7, donc le roi en h8 ne peut pas prendre la dame, et la dame couvre g8 et g7. Un échec depuis la case voisine ne peut pas être paré par interposition.\n\nQuand vous êtes en échec, regardez d'abord si vous pouvez prendre la pièce qui le donne."
+}

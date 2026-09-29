@@ -1,0 +1,11 @@
+{
+  "id": "endgame-05",
+  "fen": "8/8/7r/4k3/2P5/2K5/8/5R2 w - - 0 1",
+  "solution": [
+    "Rd1"
+  ],
+  "title": "d Dikeyindeki Duvar",
+  "setup": "c piyonunuzun önünde uzun bir yol var ve siyahın e5'teki şahı onu karşılamaya yürüyor. Tek bir kale hamlesi, piyonun oraya hiç varıp varamayacağını belirliyor.",
+  "hint": "Siyahın şahı ile piyonunuz arasındaki dikeyleri sayın. Şahın önce birini geçmesi gerekiyor; onu sizinki yapın.",
+  "explanation": "## Fikir\n\nSiyahın şahını piyonunuzun yolundan yalnızca d dikeyi ayırıyor, yani {{Rd1}} onu alır. e5'teki şah, kalenin kapsadığı bir kareye adım atamaz ve kale artık bütün dikeyi kapsıyor: kale orada kaldığı sürece şah öteki tarafa hapsolur.\n\nŞahınız da c piyonunun yanına yürür ve ona eve kadar eşlik eder. Başka her hamle siyahın şahının d dikeyine geçip piyonun önüne oturmasına izin verir ve oyun sonu beraberliğe döner."
+}

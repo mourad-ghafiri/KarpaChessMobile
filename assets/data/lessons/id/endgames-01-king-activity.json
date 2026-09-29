@@ -1,0 +1,50 @@
+{
+  "id": "king-activity",
+  "title": "Aktifkan Raja Anda",
+  "summary": "Buah yang bersembunyi sepanjang partai kini memimpin",
+  "proof": "endgame-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "Keluar dari Baris Belakang",
+      "text": "Sepanjang partai raja hanya punya satu perintah: tetap bersembunyi. Menteri dan benteng sudah tak ada di papan ini, dan bersamanya hilang pula alasan untuk bersembunyi. Tak ada lagi yang tersisa di sini yang bisa membangun serangan terhadap raja yang berdiri di tempat terbuka.\n\nJadi perintah itu kedaluwarsa. Raja Putih di g1 kini adalah buah petarung — ia berjalan satu petak ke segala arah, menjaga semua yang disentuhnya, dan nilainya kira-kira di antara gajah dan benteng. Ia juga berada sejauh mungkin dari tempat pertarungan."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "Pion Tak Bisa Sendirian",
+      "text": "Pion Anda di e5 macet. {{e6}} {{Ke7}} — pion melangkah maju, raja hitam melangkah menyongsongnya, dan tak ada apa pun di papan yang melindungi e6.\n\nTersisa raja. Ia satu-satunya buah di sini yang bisa memperbaiki sesuatu, dan setiap langkah menuju pusat memperbaiki sesuatu. Dari g1, pusat berjarak tiga langkah raja. Tak ada yang lebih baik untuk menghabiskan tiga langkah."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "prompt": "Menuju d4 lewat jalan terpendek yang dimiliki raja.",
+      "targetSan": [
+        "Kf2"
+      ],
+      "hint": "Langkah diagonal memotong satu lajur dan satu baris sekaligus — hanya satu di antaranya yang memulai perjalanan tiga langkah."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/5K2/8 b - - 6 4",
+      "title": "Hanya Raja",
+      "text": "{{Ke7}} {{Ke3}} {{Ke8}} {{Kd4}}. Masing-masing dua langkah, dan tak satu pun menyentuh pion.\n\nTetapi lihat apa yang berubah. Raja yang semula terkubur di g1 kini berdiri di d4, di samping pionnya sendiri di e5 dan siap mengawalnya. Raja Hitam keluar ke e7 lalu langsung kembali, karena ia pun tak punya pekerjaan yang lebih baik.\n\n> Dalam akhir permainan raja berjalan lebih dulu, dan pion-pion mengikutinya pulang."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "title": "Hitung Jaraknya",
+      "text": "Lima langkah kemudian, raja Anda berdiri di d6 dan raja Hitam pergi berburu: bahkan f6, petak yang diinginkannya di samping pion Anda, sudah dipagari — e5 sendiri yang menjaganya.\n\nSekarang hitung sisi papan yang lain. Raja Hitam berjarak tiga langkah dari pion di d7. Raja Anda lebih dekat dari itu, dan raja Hitam tak lagi menjaga apa pun di sini.\n\nRaja yang aktif tak butuh taktik. Ia memenangkan materi dengan berdiri di tempat yang tepat pada saat raja lawan berada di tempat lain."
+    },
+    {
+      "type": "play",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "prompt": "Petik hasil dari perjalanan raja hitam: ambil pion yang berhenti dilindunginya.",
+      "targetSan": [
+        "Kxd7"
+      ],
+      "hint": "Hitung pembela d7 sekarang setelah raja hitam berjalan keluar ke g7."
+    }
+  ]
+}

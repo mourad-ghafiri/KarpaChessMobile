@@ -1,0 +1,65 @@
+{
+  "id": "space-advantage",
+  "title": "Space Advantage",
+  "summary": "More room for your pieces, less for theirs",
+  "proof": "strategy-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "title": "Three Past Halfway",
+      "text": "Count the pawns that have left home. White has three, on c4, d4 and e5. Black has one.\n\nThat difference has a name. A **space advantage** is the room behind your own pawns: squares your pieces can stand on and the other army cannot reach.\n\nLook at the bill Black is paying. The knight has been chased back to b6, seven pieces are still sitting on the back rank, and the only pawn that has moved is the one on d6.\n\nWhite is to move, and there is more room to take."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "prompt": "Take one more square on the kingside with a pawn, and add a second defender to e5 while it goes.",
+      "targetSan": [
+        "f4"
+      ],
+      "hint": "Only one pawn move gives the pawn on e5 a second defender without letting go of anything else."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Room to Choose",
+      "text": "Space is not material. Nothing has been won here, and the point count is dead level.\n\nWhat White has is choice. Behind four pawns on c4, d4, e5 and f4, every white piece has routes to pick from, and the pawn on e5 quietly takes f6 away from Black's knights.\n\nCompare the knight on b6. Short of throwing itself away on c4, its options are {{Na4}}, the rim, {{Nd5}}, where White's c-pawn simply takes it, and a shuffle back to d7 that blocks its own bishop. That is what a cramped position feels like from the inside: a short list, every single move."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Which Side Trades",
+      "text": "With space, keep the pieces on. Your army has room to maneuver and your opponent's does not, so every trade you allow hands squares back.\n\nCramped, do the opposite. Trade whatever you can reach: each piece that leaves the board gives the survivors more room, and the side with fewer squares runs out of them first.\n\nBlack is to move here, and Black is the cramped side. So the move to look for is not a shuffle."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "prompt": "You are the cramped side, so take a pawn off the board and give your pieces room to breathe.",
+      "targetSan": [
+        "dxe5"
+      ],
+      "hint": "Which capture clears the file in front of your queen?"
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn1p3/3PPb2/2P5/2N1BN2/PP4PP/R2QKB1R b KQk - 0 10",
+      "title": "Five Moves Later",
+      "text": "White has pushed again and now holds c4, d5 and e5. Black's answer is the one from before: hit the wedge, take pieces off.\n\n{{exd5}} {{cxd5}}, and the advanced trio is a pair.\n\nNothing was won. The point count did not move and White still owns the center. But two pawns are off the road, and the pieces standing behind them finally have somewhere to go."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "title": "Room Is Rented",
+      "text": "A pawn that has walked to d5 cannot walk back. It has to be held where it stands, and the knight on c3 and the queen on d1 are the two pieces holding it.\n\nThat is the crack in every big center. The cramped side trades first and then leans on the pawns that did the cramping, because each attacker added is one more enemy piece nailed to defense instead of doing what it wants.\n\n> More space, fewer trades. Less space, trade everything and lean on what is left."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "prompt": "Add a third attacker to White's d-pawn, and rescue the knight that pawn is hitting in the same move.",
+      "targetSan": [
+        "Nb4"
+      ],
+      "hint": "Your queen and the knight on b6 already touch d5. Which square lets the knight on c6 escape and join them?"
+    }
+  ]
+}

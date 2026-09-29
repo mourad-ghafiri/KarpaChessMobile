@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-11",
+  "fen": "7k/8/5K2/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "Il Bacio della Morte",
+  "setup": "Il re nero è messo all'angolo in h8, il vostro re fa la guardia in f6, e la vostra donna ha la colonna g.",
+  "hint": "La donna si può permettere di stare proprio accanto al re — il vostro re sorveglia la casa d'arrivo.",
+  "explanation": "## L'idea\n\nQuesto è il matto del bacio: la donna atterra proprio accanto al re avversario, e il vostro re la rende intoccabile.\n\n{{Qg7#}} dà scacco. Il re in f6 difende g7, quindi il re in h8 non può prendere la donna, e g8 e h7 sono coperte tutte e due dalla donna. Uno scacco dalla casa accanto non si può parare.\n\nUna donna accanto al re avversario è matto ogni volta che qualcosa la difende e il re non ha un'altra casa."
+}

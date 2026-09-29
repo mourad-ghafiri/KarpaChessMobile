@@ -1,0 +1,14 @@
+{
+  "id": "discovery-06",
+  "fen": "3q3k/2p2p1p/2P3p1/r3N3/8/8/PB3PPP/5RK1 w - - 0 1",
+  "solution": [
+    "Nxf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 1160,
+  "title": "Échec des deux côtés",
+  "setup": "Le roi noir est enfermé en h8 par ses propres pions, et votre cavalier peut atteindre f7 en un seul saut.",
+  "hint": "Quand deux pièces donnent échec à la fois, le roi doit bouger : rien ne peut prendre ni s'interposer. Quelle case produit cela ?",
+  "explanation": "## L'idée\n\n{{Nxf7+}} est un échec double, par le cavalier en f7 et par le fou le long de la grande diagonale. Les Noirs ne peuvent ni prendre ni s'interposer, donc {{Kg8}} est forcé, et le cavalier est maintenant libre d'avaler la dame par {{Nxd8}}."
+}

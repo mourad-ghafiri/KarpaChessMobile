@@ -1,0 +1,11 @@
+{
+  "id": "culture-02",
+  "fen": "rnbqk1nr/ppp2ppp/3b4/8/8/2N5/PPPPP1PP/R1BQKBNR b KQkq - 1 4",
+  "solution": [
+    "Qh4+"
+  ],
+  "title": "Ten Seconds Left",
+  "setup": "White opened with the f-pawn, has just developed a knight, and has never looked at the diagonal that opened on move one.",
+  "hint": "The f-pawn left home on move one. Which of your pieces can reach the diagonal it opened, and with check?",
+  "explanation": "## The Idea\n\nWhite's f-pawn left on move one and opened the e1–h4 diagonal, and nothing has closed it since.\n\n{{Qh4+}} leaves White one answer, {{g3}}: the king cannot go to f2, and the g-pawn is the only thing that can block. Then Black mates in two either way, {{Bxg3+}} {{hxg3}} {{Qxg3#}}, or the queen first with {{Qxg3+}} {{hxg3}} {{Bxg3#}}.\n\nWhen an opponent moves the f-pawn early, spend one second on a queen check at h4."
+}

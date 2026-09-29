@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-10",
+  "fen": "b4k2/6p1/7p/8/2RB2Q1/8/6PP/7K w - - 0 1",
+  "solution": [
+    "Qxg7+",
+    "Ke8",
+    "Rc8#"
+  ],
+  "rating": 1320,
+  "title": "Barınağı Feda Edin",
+  "setup": "Siyahın f8'deki şahının önünde tek bir piyonu kalmış ve d4'teki filiniz dosdoğru ona nişan alıyor.",
+  "hint": "Şahın yanındaki piyon bir koruyucu gibi görünüyor. Filinizin onun arkasındaki karede neyi kapsadığını sorun.",
+  "explanation": "## Fikir\n\n{{Qxg7+}} işe yarar, çünkü **d4**'teki fil g7'yi korur; yani şah alamaz. {{Ke8}} kalan tek karedir ve artık vezir yedinci yatayı tararken {{Rc8#}} sekizinciyi sahiplenir. İki hat, kaçış yok."
+}

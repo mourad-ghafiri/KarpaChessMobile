@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-12",
+  "fen": "8/pP3pkp/3b2p1/8/8/8/5PKP/3R4 w - - 1 2",
+  "solution": [
+    "Rxd6"
+  ],
+  "rating": 1450,
+  "title": "Buy the Queen",
+  "setup": "Your pawn on b7 is one square from queening, and the bishop on d6 is the only piece watching b8.",
+  "hint": "Nothing on this board matters except the b-file. Which black piece is stopping that pawn?",
+  "explanation": "## The Idea\n\n{{Rxd6}} is a rook for a bishop, and a bargain: that bishop was the only piece covering b8. Nothing can recapture, so {{b8=Q}} arrives next move. Trade any material you like for a pawn that queens."
+}

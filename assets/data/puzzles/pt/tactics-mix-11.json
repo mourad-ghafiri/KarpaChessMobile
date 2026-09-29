@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-11",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+  "solution": [
+    "exd4"
+  ],
+  "title": "Responde ao Peão Central",
+  "setup": "As brancas empurraram um segundo peão para o centro, onde ele ataca o teu peão de e5.",
+  "hint": "O teu peão e está atacado. Que resposta elimina o peão central das brancas em vez de se limitar a defender?",
+  "explanation": "## A Ideia\n\nO peão branco de d4 ataca o teu peão de e5. {{exd4}} come-o, e às brancas resta um só peão central. Se as brancas comerem de volta com {{Qxd4}}, isso é a Abertura do Centro, e {{Nc6}} atinge a dama com uma jogada de desenvolvimento.\n\nIgnora a oferta e {{dxe5}} ganha o teu peão ou um avanço a d5 ganha espaço.\n\nQuando um peão central está atacado, trocá-lo pelo atacante é muitas vezes a resposta mais limpa."
+}

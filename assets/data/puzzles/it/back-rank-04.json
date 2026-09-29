@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-04",
+  "fen": "3r3k/5ppp/8/8/8/8/5PPP/3R1K2 w - - 0 1",
+  "solution": [
+    "Rxd8#"
+  ],
+  "title": "Matto allo Specchio",
+  "setup": "Le due torri si fissano lungo l'unica colonna aperta, ma solo uno dei due re sopravviverebbe a uno scacco di torre sulla sua traversa di fondo.",
+  "hint": "Le torri sembrano simmetriche. I re no: uno dei due ha una casa dove andare.",
+  "explanation": "## L'idea\n\nTorre contro torre sull'unica colonna aperta, e la differenza sono i re. Il vostro in f1 potrebbe rispondere a uno scacco di torre andando in e2. Quello nero è al riparo nell'angolo dietro i propri pedoni.\n\n{{Rxd8#}} è matto sul posto: g8 è spazzata dalla torre, e g7 e h7 hanno i pedoni del Nero.\n\nIn una posizione speculare, il re che sopravvive è quello con una casa fuori dalla traversa di fondo."
+}

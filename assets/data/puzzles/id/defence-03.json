@@ -1,0 +1,14 @@
+{
+  "id": "defence-03",
+  "fen": "8/5Q2/6R1/1k1K4/2r5/8/1q5b/8 w - - 0 1",
+  "solution": [
+    "Qb7+",
+    "Ka4",
+    "Ra6#"
+  ],
+  "rating": 1530,
+  "title": "Kedua Raja di Tempat Terbuka",
+  "setup": "Kedua raja hanya berjarak dua petak di b5 dan d5, dan menteri, benteng serta gajah Hitam semuanya mengarah kepada Anda.",
+  "hint": "Setiap langkah tenang kalah. Carilah sekak yang mendorong rajanya ke arah benteng Anda, bukan menjauhinya.",
+  "explanation": "## Ide\n\n{{Qb7+}} mengirim raja ke lajur a, {{Ka4}} atau {{Ka5}}, dan bagaimanapun benteng berayun menyeberang untuk {{Ra6#}}. Menggiring raja ke tepi tidak selalu rencananya — menggiringnya ke arah buah-buah Anda sendiri, itulah rencananya."
+}

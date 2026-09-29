@@ -1,0 +1,14 @@
+{
+  "id": "promotion-02",
+  "fen": "1N6/1P2kppp/5n2/3r4/8/6P1/5PKP/8 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Kd7",
+    "b8=Q"
+  ],
+  "rating": 1040,
+  "title": "Mexe a Tua Própria Peça",
+  "setup": "O teu peão de b7 está a uma casa de uma dama nova, e a casa está ocupada pelo teu próprio cavalo.",
+  "hint": "O cavalo tem de sair, e às pretas não pode ser dada uma jogada de borla para organizarem um bloqueio.",
+  "explanation": "## A Ideia\n\nO cavalo de b8 está no caminho do seu próprio peão. {{Nc6+}} sai com xeque, portanto as pretas não têm tempo de cobrir b8; depois de {{Kd7}} o peão entra com {{b8=Q}}. Liberta uma casa de promoção com ganho de tempo, nunca em silêncio."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "deflection-07",
+  "fen": "3r2k1/ppq3pp/b6Q/6N1/8/8/1B3PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Qxg7#"
+  ],
+  "rating": 1340,
+  "title": "Penjaga Keluar dari Baris Ketujuh",
+  "setup": "Menteri dan gajah Anda membidik g7, tetapi menteri Hitam di c7 menguasai petak itu di sepanjang baris ketujuh.",
+  "hint": "Dua buah Anda menyerang g7 dan dua buah lawan melindunginya. Pembela mana yang bisa diberi tugas di tempat lain?",
+  "explanation": "## Ide\n\n{{Rxd8+}} memaksa {{Qxd8}}, dan dari d8 menteri tak lagi melihat g7. {{Qxg7#}} memberi mat, dengan gajah di b2 menahan menteri di tempatnya. Hitung pembela petak mat, lalu singkirkan satu. Petak mat dijaga oleh buah, dan buah bisa diberi pekerjaan lain."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "weak-squares",
+  "title": "Casas Fracas e Complexos de Cor",
+  "summary": "Buracos que um peão nunca mais poderá cobrir",
+  "proof": "strategy-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "Quatro Peões, Uma Cor",
+      "text": "Os peões nunca andam para trás. Essa única regra é o que transforma uma casa em propriedade permanente.\n\nOs quatro peões centrais das pretas estão em c6, d5, e6 e f5 — todos eles em casas claras, e nenhum capaz de dar marcha atrás. Uma casa que nenhum peão teu pode voltar a atacar é uma **casa fraca**, ou um **buraco**. Olha para e5. Só o peão d e o peão f alguma vez a cobriram, e os dois já lhe passaram à frente.\n\nAs peças podem vigiar um buraco. Quem o segura são os peões, e às pretas não sobra nenhum para e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "Mudar-se para Lá",
+      "text": "{{Ne5}}, e o cavalo está em casa. As pretas arrumam o rei com {{O-O}}, o que não muda absolutamente nada quanto a e5 — não vem peão nenhum despejar uma peça que lá esteja.\n\nÉ isso que um buraco vale. Não uma casa que se visita. Uma casa que se ocupa, com a opção de mandar uma segunda peça atrás da primeira.\n\nUma peça preta ainda discute: o bispo em d6. É a única peça preta que toca em e5, e é toda a defesa das casas escuras das pretas."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/pp2q1pp/2pbpn2/3pNp2/2PP4/1P4P1/P3PPBP/RNBQ1RK1 w - - 3 9",
+      "prompt": "Guarda o teu cavalo com uma peça além do peão, escolhendo uma que possa trocar o único defensor das casas escuras das pretas.",
+      "targetSan": [
+        "Bf4"
+      ],
+      "hint": "O teu bispo em c1 tem duas diagonais para sair do canto, e só uma delas atravessa uma casa que cubra e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "Uma Cor Inteira, Vendida",
+      "text": "Tabuleiro novo, e a troca já aconteceu: o bispo das casas escuras das pretas foi-se por um cavalo, e não há loja que venda outro.\n\nUm buraco é um incómodo. Uma cor inteira é um plano. O cavalo em e7 está numa casa escura, o que quer dizer que todas as casas que ataca são claras. E nenhum peão preto voltará a defender g7 — as únicas casas de onde isso se poderia fazer são f8 e h8, e um peão que chegue à oitava linha deixa de ser peão."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "O Que as Brancas Pagaram",
+      "text": "Os dois peões brancos da coluna c são a fatura. As brancas ficaram com peões dobrados e com um rei sem casa confortável na ala da dama, e compraram aquele bispo com isso. Os dois lados sabiam as condições.\n\nAgora cobra. g7 é um peão que ninguém defende, plantado à entrada da casa em que o rei preto ainda tem de entrar, e a dama branca tem estrada livre até lá.\n\n> Antes de trocares um bispo, conta as casas que ele estava a guardar. Também estás a vender essas, e elas não voltam."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "prompt": "Aponta a tua dama ao peão da ala do rei que já não tem peça preta nenhuma a defendê-lo.",
+      "targetSan": [
+        "Qg4"
+      ],
+      "hint": "Que peão ao lado do rei preto ficou sem defensor nenhum agora que o bispo desapareceu?"
+    }
+  ]
+}

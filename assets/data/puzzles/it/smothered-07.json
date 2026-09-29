@@ -1,0 +1,14 @@
+{
+  "id": "smothered-07",
+  "fen": "r4r1k/pp4pp/7N/3Q4/8/8/P4PPP/6K1 w - - 6 31",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1345,
+  "title": "Deviate la Guardia",
+  "setup": "Il Nero ha appena riportato una torre in f8 per tenere f7, e il cavallo in h6 è in presa.",
+  "hint": "La torre in f8 è l'unica cosa che difende f7 — dove potreste farla stare invece?",
+  "explanation": "## L'idea\n\nIl cavallo copre già g8, quindi a {{Qg8+}} il re non può rispondere, e {{Rxg8}} è l'unica risposta legale. La torre che difendeva f7 adesso tappa l'ultima uscita del re, e {{Nf7#}} conclude. Il sacrificio devia e soffoca in una mossa sola."
+}

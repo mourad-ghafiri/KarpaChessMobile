@@ -1,0 +1,12 @@
+{
+  "id": "trapped-10",
+  "fen": "rb4k1/p4pp1/7p/2p5/8/2N3PP/PP3P2/3B2K1 w - - 0 1",
+  "solution": [
+    "Bf3"
+  ],
+  "rating": 1330,
+  "title": "La tour en boîte",
+  "setup": "La tour noire en a8 a son propre pion en a7 sous elle et son propre fou en b8 juste à côté.",
+  "hint": "Cette tour n'a aucun coup. Trouvez la grande diagonale qui plonge dans le coin où elle est coincée.",
+  "explanation": "## L'idée\n\n{{Bf3}} frappe a8 le long de la diagonale h1-a8 et la tour n'a nulle part où aller : a7 est le pion noir, b8 son fou. Rien ne peut défendre a8, et le fou de cases noires ne peut jamais bloquer une diagonale blanche, donc la tour est tout simplement perdue."
+}

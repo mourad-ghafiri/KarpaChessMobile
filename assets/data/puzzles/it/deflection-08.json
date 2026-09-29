@@ -1,0 +1,14 @@
+{
+  "id": "deflection-08",
+  "fen": "2r3k1/pq4pp/6pQ/6N1/8/8/1B3PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Qxg7#"
+  ],
+  "rating": 1380,
+  "title": "Una Torre per il Matto",
+  "setup": "La vostra donna e il vostro alfiere colpiscono tutti e due g7, e la donna in b7 è l'unico difensore in più.",
+  "hint": "Una torre vale meno di un matto. Quale scacco costringe l'unico pezzo che difende g7 a guardare altrove?",
+  "explanation": "## L'idea\n\nA {{Rxc8+}} bisogna rispondere {{Qxc8}}, il che trascina la donna via dalla settima traversa. {{Qxg7#}} conclude con l'alfiere in b2 dietro. La torre non è mai stata il punto. Quando c'è matto, contate le guardie della casa, non il materiale."
+}

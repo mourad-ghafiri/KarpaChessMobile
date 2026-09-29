@@ -1,0 +1,56 @@
+{
+  "id": "minor-piece-endings",
+  "title": "Fou ou cavalier ?",
+  "summary": "Comptez les coups, pas les points",
+  "proof": "endgames-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Une pièce, deux ailes",
+      "text": "Les pions noirs courent sur des bords opposés de l'échiquier — le pion en a4 d'un côté, les pions en g6 et h7 de l'autre. Les Blancs ont une seule pièce pour répondre aux deux.\n\nC'est la question autour de laquelle tourne cette finale. Pas quelle pièce est la plus jolie. Quelle pièce peut être à deux endroits.\n\nLe fou en c2 regarde déjà a4 le long de la diagonale de b3, et il se trouve à deux coups de h5, la case qui fixe g6. Même pièce, deux ailes."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Quatre coups contre un",
+      "text": "Mettez un cavalier à la place de ce fou et comptez les sauts. Trois rien que pour atteindre une case qui attaque a4, un quatrième pour le prendre — et le pion n'a besoin que de trois coups pour devenir une dame.\n\nLe fou en a besoin d'un. Pas parce que c'est la meilleure pièce, mais parce que c'est une autre sorte de pièce. Les deux valent trois points, et une seule traverse l'échiquier en un coup.\n\nDes pions sur deux ailes, c'est la forme qui profite au fou. Les lignes sont ouvertes, rien ne barre la route, et un fou sur un échiquier ouvert ne voyage pas. Il arrive."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "prompt": "Prenez le coureur de l'aile lointaine avec la pièce qui pourra revenir garder l'autre côté un coup plus tard.",
+      "targetSan": [
+        "Bxa4"
+      ],
+      "hint": "Le coureur et votre fou sont tous deux sur des cases blanches, alors lisez la diagonale qui les relie."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5k1p/6p1/8/B7/8/8/4K3 w - - 1 2",
+      "title": "De retour avant que cela compte",
+      "text": "Le pion a a disparu, et le roi noir en f7 veille sur ce qui reste.\n\nVotre fou en a4 est maintenant au bord opposé de l'échiquier par rapport à ces deux pions. {{Bd1}}, et la grande diagonale blanche s'ouvre devant lui — e2, f3, g4, h5 — avec h5 qui fixe g6. Deux coups pour traverser tout l'échiquier. Un cavalier partant de la même case aurait besoin de trois sauts rien que pour attaquer g6.\n\n> Trois points, c'est ce que coûte une pièce. Ce qu'elle vaut, c'est la vitesse à laquelle elle atteint le côté de l'échiquier où se joue la partie."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "La moitié de l'échiquier, pour toujours",
+      "text": "Une nouvelle position, et la situation s'inverse. Le fou noir en c7 est sur une case noire. Le pion en a7 aussi. Le pion en e7 aussi.\n\nMême couleur ne veut pas dire en sécurité. Aucun des deux pions ne protège l'autre, et aucune case que le fou peut atteindre en un coup ne protège les deux à la fois — il peut se tenir devant une porte pendant que l'autre s'ouvre.\n\nEt toutes les cases blanches de l'échiquier lui échappent entièrement, à ce coup et pour toujours."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "Une pièce sans couleur",
+      "text": "Votre cavalier en e5 est attaqué en ce moment par ce fou. La diagonale passe par c7, d6, e5, et il n'y a rien dessus. Le cavalier bouge donc.\n\nChaque saut de cavalier aboutit sur la couleur opposée à celle qu'il quitte, et c'est pourquoi un fou ne peut jamais chasser un cavalier longtemps. Le fou noir vit sur les cases noires. Un cavalier blanc posé sur une case blanche est à l'abri de lui pour le reste de la partie.\n\nLe cavalier cherche donc une case blanche. Ce qu'il veut, c'est une case blanche qui fasse aussi un peu de travail."
+    },
+    {
+      "type": "play",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "prompt": "Déplacez le cavalier attaqué sur une case que le fou noir ne pourra jamais atteindre, et frappez au passage les deux pions non protégés.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "Les pions sont en a7 et e7 : cherchez quelle case blanche touche les deux à la fois."
+    }
+  ]
+}

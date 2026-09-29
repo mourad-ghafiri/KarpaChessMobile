@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-04",
+  "fen": "3B2k1/3Q1ppp/4r3/8/2b5/4R3/PP1r4/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1420,
+  "title": "Benteng Anda Bisa Menunggu",
+  "setup": "Benteng Hitam telah mendarat di d2, jauh di dalam kubu Anda, dan benteng yang lain berdiri di e6. Banyak yang perlu dicemaskan.",
+  "hint": "Anda sedang diminta bertahan. Beri sekak lebih dulu, dan lihat apakah pertahanan itu pernah benar-benar diperlukan.",
+  "explanation": "## Ide\n\n{{Qe8+}} sepenuhnya mengabaikan benteng di d2. {{Rxe8}} terpaksa, lajur e diserahkan, dan {{Rxe8#}} tiba. Sekak antara tak merugikan apa pun ketika partai berakhir sebelum ancaman itu sempat terjadi."
+}

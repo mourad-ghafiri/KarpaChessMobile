@@ -1,0 +1,56 @@
+{
+  "id": "open-files",
+  "title": "Open Files",
+  "summary": "Roads for rooks — and how to build one",
+  "proof": "strategy-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Count the e-Pawns",
+      "text": "There are none. They came off on moves three and four, and what is left is a lane running the whole height of the board, ending at the black king on e8.\n\nThat lane is an **open file**: a file with no pawn of either color on it. Two pieces stand in it, the knight on e4 and the bishop on e7, and pieces move. Pawns are the one thing on a chessboard that cannot step sideways out of a rook's way, and here there are none to step."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Whose Road Is It",
+      "text": "A rook on a shut board is a spectator. Give it a file clear of pawns and it finally earns its value, because a file is to a rook what a diagonal is to a bishop — the only thing it eats.\n\nWhich rook, though. One of yours is stuck behind its own knight on b1 and cannot get across. The other is free.\n\nAnd the rook goes first, the queen behind it. A queen at the head of the column is a target any minor piece can chase away with tempo."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "prompt": "Put the piece that lives on files onto the one file with no pawns left standing on it.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "You have two rooks and only one of them can reach that lane in a single step."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Three Jobs, One Move",
+      "text": "{{Re1}} brings the rook into the game, attacks the knight on e4 down a lane with nothing else in it, and points at a king that has not moved yet.\n\nBlack has to answer. {{Bg4}} pins the knight on f3 to the queen on d1, and White carries on with {{c4}}, hitting the pawn on d5.\n\nPut a white pawn back on the square e2 and none of that exists. The rook sits at home behind it, and White plays the middlegame a piece short."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Nearly a Road",
+      "text": "New board, harder problem: every file here has a pawn on it, and White's two rooks have nothing to aim down.\n\nThe c-file is the closest thing to a road. White owns no c-pawn at all, so only Black's pawn on c6 keeps it shut — half-open, and half-open is a file waiting to be finished.\n\nThat pawn will never wander off. A pawn leaves its file for one reason only: it captures something. So White has to give it something to capture."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Fewer Pawns, More Pressure",
+      "text": "Which pawn does the prying. Only one of White's can ever touch c6: the pawn on b4, with the pawn on a2 behind it as reserve.\n\nTwo white pawns against three black ones on that wing sounds like the wrong end of a count. It is a **minority attack**, and it is a crowbar. Black gets three replies to a pawn shoved under c6, and all three are concessions: capture and the file opens, push past and the c-pawn stops covering anything, sit still and White exchanges on c6, leaving a weak pawn behind.\n\n> A rook does not wait for an open file. It picks one and opens it."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "prompt": "Force the c-file open by attacking the black pawn that is standing on it.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Count the pawns on each wing, then ask which of yours can reach c6 in one step."
+    }
+  ]
+}

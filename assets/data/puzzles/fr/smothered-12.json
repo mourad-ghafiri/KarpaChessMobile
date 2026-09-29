@@ -1,0 +1,20 @@
+{
+  "id": "smothered-12",
+  "fen": "r5k1/2p3pp/1b6/1p2N3/8/B7/P1Q2PPP/6K1 w - - 6 28",
+  "solution": [
+    "Qb3+",
+    "Kh8",
+    "Nf7+",
+    "Kg8",
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1500,
+  "title": "Des échecs jusqu'à l'étouffement",
+  "setup": "Les Noirs viennent de retirer leur fou de la diagonale a3–f8, et le fou blanc couvre maintenant f8.",
+  "hint": "Commencez par un échec que le pion en b5 ne peut pas punir, et ensuite ne laissez jamais au roi une case vide.",
+  "explanation": "## L'idée\n\n{{Qb3+}} force {{Kh8}}, car le fou couvre f8. Puis {{Nf7+}} {{Kg8}} et {{Nh6+}} arrive avec un échec double, qui ramène le roi dans le coin. La dame se pose en g8, la tour est obligée de prendre, et le cavalier revient en f7 pour mater. Chaque réponse noire est le seul coup légal."
+}

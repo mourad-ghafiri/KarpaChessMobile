@@ -1,0 +1,13 @@
+{
+  "id": "demolition-proof",
+  "fen": "r5rk/5ppp/4q1n1/2Q5/8/4B3/PP6/K6R w - - 0 1",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Qh5#"
+  ],
+  "title": "A Rook for the h-Pawn",
+  "setup": "Black's king sits on h8 behind three pawns, and your rook on h1 is staring up the file at them. Find a way through that shelter.",
+  "hint": "The h7 pawn has one guard, the king. Ask where the king stands once it has done its guarding, and which of your pieces can reach it.",
+  "explanation": "## The Idea\n\n{{Rxh7+}} spends a whole rook on one pawn, and Black has exactly one legal reply: {{Kxh7}}. The shelter is gone, and the king is standing on an open file.\n\n{{Qh5#}}. The rook on g8 and the knight on g6 are Black's own, so they fill two exits, your bishop on e3 covers h6, and nothing black can reach h6 to block. One pawn cost a rook, and the king paid for it."
+}

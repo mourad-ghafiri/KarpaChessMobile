@@ -1,0 +1,14 @@
+{
+  "id": "decoy-09",
+  "fen": "3q1bk1/pp3pp1/8/4N3/3P4/8/PPr2PP1/3R2KR w - - 1 2",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "Nxf7+"
+  ],
+  "rating": 1450,
+  "title": "Forchetta Dopo la Caduta",
+  "setup": "Il re nero siede in g8 con il proprio alfiere e i propri pedoni accanto e la vostra torre che possiede la colonna h, e il vostro cavallo in e5 tiene d'occhio f7.",
+  "hint": "Da f7 il vostro cavallo colpirebbe due pezzi insieme — ma solo se il re stesse in h8.",
+  "explanation": "## L'idea\n\n{{Rh8+}} è una torre offerta per una casa: {{Kxh8}} è forzata. Adesso {{Nxf7+}} inforchetta re e donna, e il cavallo torna indietro con la donna. Le esche comprano case, non materiale. Cercate le forchette a cui manca un pezzo avversario spostato, e poi spostatelo voi."
+}

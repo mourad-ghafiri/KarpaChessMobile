@@ -1,0 +1,14 @@
+{
+  "id": "defence-12",
+  "fen": "8/3r4/5KR1/4r3/3B4/4qk2/Q7/8 w - - 0 1",
+  "solution": [
+    "Qg2+",
+    "Kf4",
+    "Qg4#"
+  ],
+  "rating": 2000,
+  "title": "Offer the Queen Twice",
+  "setup": "Black's queen on e3 already eyes the squares around your king on f6, backed by rooks on d7 and e5 — you are one move from mate.",
+  "hint": "Both of your checks put the queen where it can be taken. Work out why neither capture is legal.",
+  "explanation": "## The Idea\n\n{{Qg2+}} is protected by the rook on g6, so {{Kf4}} is forced, and {{Qg4#}} offers the queen a second time on a square the king cannot take from. A defense that relies on being unable to capture is still a defense."
+}

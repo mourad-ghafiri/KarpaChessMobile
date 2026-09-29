@@ -1,0 +1,62 @@
+{
+  "id": "najdorf-sicilian",
+  "title": "La Najdorf",
+  "summary": "Un peón de torre y la carrera que desata",
+  "proof": "openings-14.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Una jugada de peón con una biblioteca detrás",
+      "text": "La quinta jugada negra va aquí a un peón de torre que no ataca nada, no defiende nada y no desarrolla nada. También es una de las jugadas más analizadas del ajedrez, con una estantería de teoría detrás y sin señales de que la estantería vaya a encoger.\n\nMiguel Najdorf la jugó como obra de toda una vida, y la variante lleva su nombre. Fischer y Kaspárov la convirtieron después en la respuesta más aguda del mundo a 1.e4.\n\nAsí que la pregunta es qué puede valer un peón en el borde."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "El avance que quieren de verdad las Negras",
+      "text": "Lo que quieren las Negras es el peón de e dos casillas adelante, echando al caballo del centro y tomando una parte real de él.\n\nIntenta hacerlo ahora mismo y mira qué responde: {{e5}} {{Bb5+}}. El jaque va primero y todo lo demás espera. Las Negras tienen seis respuestas legales: un caballo a d7 o c6, el alfil o la dama a d7, o un rey que se mueve y ya nunca enroca.\n\nEl avance es correcto. El orden de jugadas, no."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Tres piezas, una casilla",
+      "text": "Cuenta lo que llega a b5 desde aquí. El caballo de d4 salta a ella. El caballo de c3 salta a ella. El alfil de f1 tiene un camino vacío —e2, d3, c4— que llega a b5 con jaque.\n\nTres piezas, una casilla, y esa casilla es toda la razón por la que el avance central tiene que esperar una jugada.\n\nUn paso tranquilo de peón cubre b5 y responde a las tres a la vez. No desarrolla nada y no amenaza nada. Se cierra una puerta antes de que nadie la cruce."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "prompt": "Quítales b5 a los dos caballos blancos y al alfil antes de acercarte al centro.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "Solo un peón negro puede proteger b5, y llega de un solo paso sin salir de la columna del borde."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+      "title": "Lo que compró el peón",
+      "text": "Ahora el mismo avance llega sin nada pegado: {{Be3}} {{e5}} {{Nb3}} {{Be6}}.\n\nEl caballo retrocede a b3 en lugar de avanzar a b5, y las Negras tienen un peón central en e5 con un alfil fuera detrás de él.\n\nLa factura es real. Avanzar el peón de e deja en d5 un agujero que ningún peón negro podrá volver a proteger, y las Blancas pasarán las próximas jugadas intentando aparcar una pieza ahí. Las Negras la pagan igual. Una casilla a cambio de una parte del centro es un trato que merece la pena."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Flancos opuestos",
+      "text": "En la jugada diez los dos reyes han huido, el blanco a c1 y el negro a g8. Ese solo hecho cambia para qué sirve un peón.\n\nLos peones solo son refugio donde está tu propio rey. En el otro flanco son soldados, y nadie los necesita en casa. Así que las Blancas lanzan el peón de g y el de h contra g8, las Negras lanzan el de a y el de b contra c1, y nadie se detiene a defender.\n\nAquí una jugada defensiva es una jugada regalada al rival."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Contar la carrera",
+      "text": "El material es ahora la unidad equivocada. Cuenta jugadas hasta el rey rival: cuántos avances hasta que se abra una línea hacia él, y quién llega primero.\n\nAl peón de g blanco le faltan dos pasos antes de echar al caballo de f6 y de que la columna g empiece a agrietarse. Al peón de b negro le faltan dos pasos para llegar a b4, donde el caballo de c3 —la pieza que está delante del rey blanco— tiene que responder.\n\nLa misma cuenta, y juegan las Negras.\n\n> En flancos opuestos no cuentas peones, cuentas jugadas."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "prompt": "Empieza la carrera en el flanco de dama con el peón cuyos dos próximos pasos desalojan al caballo que protege al rey blanco.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Exactamente uno de tus peones puede plantarse en b4 en dos jugadas, y nada en el tablero lo impide."
+    }
+  ]
+}

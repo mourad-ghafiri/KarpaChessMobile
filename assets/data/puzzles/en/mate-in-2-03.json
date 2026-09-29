@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-03",
+  "fen": "7k/8/8/6K1/8/Q7/8/8 w - - 0 1",
+  "solution": [
+    "Kg6",
+    "Kg8",
+    "Qa8#"
+  ],
+  "title": "Zugzwang Squeeze",
+  "setup": "Your queen owns half the board, but a queen alone cannot finish — the king has to take the last squares away.",
+  "hint": "No check wins here. Find the quiet king step that leaves Black exactly one legal move.",
+  "explanation": "## The Idea\n\nA **zugzwang**: the winning move makes no threat at all. It simply leaves Black one legal move, and that move loses.\n\n{{Kg6}} is quiet. Now g7 and h7 belong to your king and the queen on a3 covers f8, so Black's only move is {{Kg8}}, onto the back rank. {{Qa8#}} takes the whole of it, and f7, g7 and h7 are your king's.\n\nWhen every check lets the king slip, stop checking and take squares instead."
+}

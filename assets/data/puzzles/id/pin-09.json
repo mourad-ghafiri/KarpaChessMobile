@@ -1,0 +1,12 @@
+{
+  "id": "pin-09",
+  "fen": "7k/2R1pr2/1R6/4r2p/6P1/Bb6/2P5/6K1 w - - 0 1",
+  "solution": [
+    "Bb2"
+  ],
+  "rating": 1120,
+  "title": "Menyusuri Diagonal Panjang",
+  "setup": "Raja Hitam terkurung di h8, dan salah satu bentengnya parkir di diagonal gelap yang panjang.",
+  "hint": "Raja hitam di h8 duduk di ujung sebuah diagonal yang terkenal. Buah Anda mana yang bisa menguasai ujung satunya?",
+  "explanation": "## Ide\n\n{{Bb2}} merebut diagonal a1–h8, tempat benteng di **e5** kini terjebak di depan rajanya sendiri. Benteng diserang, tak terlindungi, dan tak boleh menyingkir. Melepaskan jepitan dengan langkah raja datang terlambat satu langkah."
+}

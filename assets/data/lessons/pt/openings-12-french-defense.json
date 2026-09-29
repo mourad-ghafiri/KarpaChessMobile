@@ -1,0 +1,56 @@
+{
+  "id": "french-defense-deep",
+  "title": "A Defesa Francesa",
+  "summary": "Duas cadeias, e as duas bases sob fogo",
+  "proof": "openings-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Um Peão Central, uma Jogada Atrasado",
+      "text": "{{e4}} {{e6}}. As pretas respondem a um peão central com um peão tranquilo, porque o ponto é a jogada seguinte: {{d4}} {{d5}}, e agora as pretas têm um peão lado a lado com o das brancas e outro atrás a segurá-lo.\n\nO custo fica em c8. A diagonal desse bispo vai dar diretamente ao peão preto de e6, e libertá-lo pode levar vinte jogadas. Paris bateu Londres por correspondência com isto em 1834, e desde então a abertura carrega o nome francês."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+      "title": "Aponta à Base",
+      "text": "As brancas avançaram para lá e os peões ficaram trancados. A cadeia das brancas vai de d4 a e5 e aponta à ala do rei das pretas; a das pretas vai de e6 a d5 e aponta à ala da dama das brancas. Cada exército ataca para onde os seus próprios peões apontam.\n\nO peão da base das pretas é e6, atrás de tudo. O das brancas é d4, a descoberto. O peão de c5 e o cavalo de c6 já lhe batem, enquanto o peão de c3, o cavalo de f3 e a dama de d1 o seguram. Dois contra três, e jogam as pretas.\n\n> Uma cadeia de peões é tão forte quanto o peão que está na sua base."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+      "prompt": "Aponta uma terceira peça a d4, a partir de trás do teu próprio peão c — escolhe a casa que também fita b2.",
+      "targetSan": [
+        "Qb6"
+      ],
+      "hint": "Encontra a peça que atinge b2 agora e atingirá d4 no instante em que o teu peão c se trocar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5",
+      "title": "A Outra Francesa",
+      "text": "As mesmas duas jogadas de abertura, outra discussão. As brancas defenderam o peão e com um cavalo em c3 em vez de o avançarem, o bispo das casas escuras das pretas foi para b4 e cravou esse cavalo contra o rei, e as brancas avançaram na mesma. Agora {{a3}} pergunta ao bispo o que tenciona fazer.\n\nEle não recua. {{Bxc3+}} {{bxc3}}: as pretas entregam um bispo, e o peão b das brancas é arrastado para a coluna c, onde ficam agora dois peões brancos que nunca mais se desenredam."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "title": "Ler a Fatura",
+      "text": "Os dois lados sabem o que compraram. As brancas ficam com dois bispos contra um, espaço na ala do rei e uma coluna b semiaberta para a torre do canto; as casas escuras das pretas passam a não ter bispo que tome conta delas.\n\nAs pretas ficam com os peões mais saudáveis e com um alvo permanente: o peão em c3 não é defendido por rigorosamente nada. {{Qa5}} chega à diagonal que acaba no rei branco, e as brancas têm de gastar uma jogada em {{Bd2}} para escorar o peão."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "title": "Três Casas, Duas Respostas",
+      "text": "O cavalo em g8 tem três casas, e a duas delas responde-se antes de ele aterrar.\n\nf6 está coberta pelo peão de e5, portanto um cavalo ali perde uma peça por um peão. h6 é legal, mas o bispo de c1 olha diretamente para baixo, para ela, e a troca nessa casa deixa o abrigo do rei preto em ruínas.\n\nResta uma casa. De lá o cavalo fica a um salto de f5, onde volta a atacar d4 e onde ainda nenhum peão branco o cobre."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "prompt": "Tira o cavalo que está ao lado do teu rei, para a única casa que o deixa a um salto de f5.",
+      "targetSan": [
+        "Ne7"
+      ],
+      "hint": "Uma das suas casas está coberta por um peão, e outra convida a uma troca que estraga a cobertura à frente do teu rei; a terceira é a jogada."
+    }
+  ]
+}

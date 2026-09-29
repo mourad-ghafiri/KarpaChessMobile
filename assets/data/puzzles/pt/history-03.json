@@ -1,0 +1,13 @@
+{
+  "id": "history-03",
+  "fen": "6k1/5ppp/b7/3K4/8/8/P7/7R b - - 0 1",
+  "solution": [
+    "Bb7+",
+    "Kc4",
+    "Bxh1"
+  ],
+  "title": "A Estrada Longa",
+  "setup": "O teu bispo em a6, o rei branco em d5 e uma torre sozinha no canto de h1: três casas que podem tornar-se uma linha.",
+  "hint": "O *alfil* só saltava. Que diagonal já contém o rei branco e a torre, e que passo de bispo se lhe junta?",
+  "explanation": "## A Ideia\n\nFoi isto que a reforma da década de 1470 deu ao bispo: todas as casas da sua diagonal, até ao fim.\n\n{{Bb7+}} entra na grande diagonal clara com xeque. O rei branco em d5 está à frente, a torre em h1 atrás, e nenhuma peça branca chega a c6, a única casa pelo meio. Seja qual for a casa que o rei escolha, {{Kc4}} ou outra, sai da linha.\n\n{{Bxh1}} come a torre do outro extremo do tabuleiro. Um *alfil* em a6 nunca teria chegado a h1 de maneira nenhuma."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "forks-02",
+  "fen": "6k1/8/8/6n1/8/8/8/2Q3K1 w - - 0 1",
+  "solution": [
+    "Qxg5+"
+  ],
+  "title": "Cavalier gratuit, échec gratuit",
+  "setup": "Le cavalier noir en g5 n'est pas défendu et se trouve sur la même colonne que le roi.",
+  "hint": "La diagonale de la dame atteint le cavalier, et la colonne où elle arriverait atteint le roi.",
+  "explanation": "## L'idée\n\nLe cavalier en g5 n'a aucun défenseur, et il se tient sur la même colonne que le roi en g8.\n\n{{Qxg5+}} le prend et donne échec dans le même coup, donc les Noirs n'ont jamais de coup à consacrer à autre chose. La dame est arrivée par la diagonale ; c'est la colonne où elle se pose qui donne échec, et le roi est trop loin pour reprendre.\n\nCe n'est pas une fourchette — il n'y a jamais eu qu'une seule cible — mais cela fonctionne pour la même raison : la réponse est déjà imposée."
+}

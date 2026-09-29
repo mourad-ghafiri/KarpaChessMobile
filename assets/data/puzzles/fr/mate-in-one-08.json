@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-08",
+  "fen": "rn1q1bnr/ppp1kB1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R w KQ - 1 7",
+  "solution": [
+    "Nd5#"
+  ],
+  "rating": 810,
+  "title": "Le mat de Légal",
+  "setup": "Les Noirs viennent de manger votre dame en d1, et leur roi se tient en e7 avec trois pièces blanches autour de lui.",
+  "hint": "La dame est déjà partie, alors comptez plutôt les cases du roi noir et trouvez celle que personne ne couvre encore.",
+  "explanation": "## L'idée\n\nC'est le mat de Légal. Le fou en f7 tient e6 et e8, le cavalier en e5 tient d7, et {{Nd5#}} donne échec en couvrant f6. La propre dame, le propre fou et le propre pion des Noirs bouchent le reste. Trois pièces mineures peuvent valoir plus qu'une dame."
+}

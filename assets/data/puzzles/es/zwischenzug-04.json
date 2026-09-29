@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-04",
+  "fen": "3B2k1/3Q1ppp/4r3/8/2b5/4R3/PP1r4/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1420,
+  "title": "Tu torre puede esperar",
+  "setup": "La torre negra ha caído en d2, en lo más hondo de tu campo, y su otra torre está en e6: hay mucho de qué preocuparse.",
+  "hint": "Te están pidiendo que defiendas. Da jaque primero, y mira si la defensa llega a hacer falta.",
+  "explanation": "## La idea\n\n{{Qe8+}} ignora por completo la torre de d2. {{Rxe8}} es forzada, la columna e queda entregada y llega {{Rxe8#}}. Un jaque intermedio no cuesta nada cuando la partida termina antes de que llegue la amenaza."
+}

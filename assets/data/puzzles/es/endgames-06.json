@@ -1,0 +1,11 @@
+{
+  "id": "endgames-06",
+  "fen": "6k1/8/8/2P5/P7/2K5/7B/1b6 b - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "title": "Dos peones de menos, y tablas",
+  "setup": "Las Blancas tienen dos peones de más y los alfiles van por colores distintos. Tu rey de g8 está lejos, así que el alfil tiene que aguantar solo. Juegan las Negras.",
+  "hint": "El peón de a termina en a8 y el de c tiene que cruzar c6. Las dos son casillas blancas: encuentra la diagonal que pasa por ambas.",
+  "explanation": "## La idea\n\na8 y c6 son casillas blancas en la misma gran diagonal, y el tuyo es el alfil de casillas blancas. {{Be4}} lo pone en esa diagonal, desde donde vigila las dos a la vez sin tener que moverse nunca. El alfil blanco de h2 vive en las casillas negras y nunca podrá disputársela.\n\nTodo lo más lento llega tarde: el rey blanco alcanza b5, un peón pisa c6 con su protección, y los peones de más ganan."
+}

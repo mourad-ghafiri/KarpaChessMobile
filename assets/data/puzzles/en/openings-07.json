@@ -1,0 +1,13 @@
+{
+  "id": "openings-07",
+  "fen": "r2qkbnr/ppp2ppp/2np4/4N3/2B1P3/2N4P/PPPP1PP1/R1BbK2R w KQk - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Nd5#"
+  ],
+  "title": "Légal's Trap",
+  "setup": "White ignored the pin and took on e5, and Black has just cashed in by taking your queen.",
+  "hint": "The queen is gone and it does not matter. Count the squares around e8 and find the check that takes the last free one.",
+  "explanation": "## The Idea\n\nThree minor pieces are about to mate a king whose whole army is still on the board.\n\n{{Bxf7+}} leaves Black one move, {{Ke7}}: d8 and f8 hold Black's own queen and bishop, and d7 is covered by the knight on e5. Then {{Nd5#}}: the knight checks and covers f6, the bishop covers e6 and e8, and d6 holds Black's own pawn.\n\nThe knight on e5 was never about the pawn. It is the piece that takes d7 away.\n\nCount the escape squares, not the material."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "shatranj",
+  "title": "Shāh māt",
+  "summary": "La palabra con la que termina la partida, y un mate compuesto hace mil años",
+  "proof": "history-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "La palabra del final",
+      "text": "Cruzar una sola frontera le dio al ajedrez la palabra con la que termina.\n\nEl chaturanga viajó hacia el oeste desde la India y se convirtió en **chatrang** en Persia. El árabe no tiene el sonido *ch*, así que el mundo árabe remodeló el nombre como **shatranj**, y esa es la versión que conservó la historia. El rey era el **shāh**, y al jugador que ya no tenía nada que intentar le decían **shāh māt**: el rey está indefenso, emboscado, sin respuestas.\n\nEuropa fue desgastando la expresión hasta convertirla en *échec et mat*, *scacco matto*, *checkmate* y, en castellano, jaque mate."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Un consejero y un elefante",
+      "text": "Tu dama es una reescritura europea.\n\nLa dama de d1 era la **alferza**, la pieza consejera del rey, y se movía una casilla en diagonal. Eso era todo. El alfil era el **al-fil**, el elefante —el castellano se quedó con el nombre árabe—, y saltaba exactamente dos casillas en diagonal, por encima de lo que hubiera en medio: ocho casillas del tablero para toda una partida, y ningún camino hacia las otras cincuenta y seis.\n\nLos peones avanzaban de casilla en casilla, sin doble paso inicial y sin enroque tras el que esconderse. Un peón que cruzaba el tablero se convertía en alferza."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Tres formas de ganar",
+      "text": "El shāh māt no era la única forma de terminar.\n\nQuita la última pieza del tablero y el **rey despojado** que quedaba en pie había perdido sin más. Deja a tu rival sin ninguna jugada legal y también habías ganado: el ahogado era una victoria, no tablas.\n\nLas dos reglas han desaparecido de las que tú juegas, y las dos dicen lo mismo del shatranj. Con piezas tan lentas, las victorias no se asestaban. Se construían.\n\n> Durante buena parte de mil años, la pieza más fuerte del ajedrez fue la torre."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "title": "Compuesto, no jugado",
+      "text": "Un juego tan lento pone el interés al final, así que los maestros escribieron finales. **Al-Adli** compiló el manual de juego más antiguo que se conoce, hacia el año 840; **as-Suli** llegó un siglo después y destacó tanto sobre todos que *jugar como as-Suli* sobrevive en árabe como elogio.\n\nSus manuscritos están llenos de *mansubat*: posiciones compuestas en lugar de jugadas, cada una construida en torno a una única respuesta exacta.\n\nA dos jugadas de este tablero está el **mate árabe**: una torre junto al rey y un caballo que protege la torre. La torre de d7 y el caballo de e4 se mueven exactamente como entonces, y las dos jugadas son tuyas."
+    },
+    {
+      "type": "play",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "prompt": "Lleva el caballo a la única casilla que protege h7 y a la vez le cierra g8 al rey negro.",
+      "hint": "Recorre las ocho casillas a las que puede saltar este caballo y pregúntate cuál toca a la vez h7 y g8.",
+      "targetSan": [
+        "Nf6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "title": "No lo anuncies todavía",
+      "text": "El caballo aterrizó, y las Negras solo podían mover un peón.\n\nLa torre de d7 barre toda la séptima fila, así que g7 y h7 nunca fueron del rey negro. El caballo de f6 ha cerrado g8, la última, y además protege h7, que es la mitad que importa, porque en h7 es donde tiene que colocarse la torre.\n\nLa red está cerrada. La única forma de estropearlo es la impaciencia: {{Rd8+}} parece un avance, y también es la torre abandonando la séptima fila. {{Kg7}}, y el rey sale tranquilamente de la esquina."
+    },
+    {
+      "type": "play",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "prompt": "Coloca la torre junto al rey negro, en una casilla que el caballo ya defiende.",
+      "hint": "Dos de las casillas del caballo están junto al rey; solo una está en una línea por la que puede viajar la torre.",
+      "targetSan": [
+        "Rh7#"
+      ]
+    }
+  ]
+}

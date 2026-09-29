@@ -1,0 +1,12 @@
+{
+  "id": "fork-03",
+  "fen": "rnbqkb1r/pppp1ppp/8/4p3/2B1N3/8/PPPP1PPP/R1BQK1NR b KQkq - 0 4",
+  "solution": [
+    "d5"
+  ],
+  "rating": 760,
+  "title": "Il Trucco della Forchetta",
+  "setup": "Avete ceduto un cavallo in e4 una mossa fa, e adesso il Bianco ha un cavallo e un alfiere sulla stessa traversa.",
+  "hint": "Quale singola mossa di pedone attacca insieme il cavallo e l'alfiere?",
+  "explanation": "## L'idea\n\n{{d5}} colpisce il cavallo in e4 e l'alfiere in c4 insieme, e nello stesso momento libera il vostro alfiere in c8. Questo è il trucco della forchetta: consegnate un cavallo per un pedone, e poi vi riprendete subito il pezzo con un pedone."
+}

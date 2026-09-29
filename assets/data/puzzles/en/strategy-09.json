@@ -1,0 +1,11 @@
+{
+  "id": "strategy-09",
+  "fen": "rnb1kb1r/1pq2ppp/p2ppn2/8/3NP3/3B4/PPP1QPPP/RNB2RK1 w k - 0 8",
+  "solution": [
+    "c4"
+  ],
+  "title": "The Move Black Was Counting On",
+  "setup": "Black's pawn to a6 and queen to c7 have exactly one point behind them, and it has not happened yet. Stop it before it does.",
+  "hint": "Ask what Black plays next if you do nothing at all, then find the move that makes that plan expensive.",
+  "explanation": "## The Idea\n\nBlack's setup points one way: {{b5}}, then the bishop to b7 and pressure down the long diagonal at e4.\n\n{{c4}} deletes that plan. The pawn now covers b5 and d5, so the break drops material. Black develops with {{Be7}}, White completes the bind with {{Nc3}}, and there is no break left to prepare.\n\nThe price: the c-pawn can never come back to c3 to support the knight on d4. A prophylactic move nearly always costs something small. Pay it when the plan you delete is worth more."
+}

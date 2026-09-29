@@ -1,0 +1,56 @@
+{
+  "id": "french-defense-deep",
+  "title": "La défense française",
+  "summary": "Deux chaînes, et leurs deux bases sous le feu",
+  "proof": "openings-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Un pion central, un coup en retard",
+      "text": "{{e4}} {{e6}}. Les Noirs répondent à un pion central par un coup tranquille, car c'est le coup suivant qui compte : {{d4}} {{d5}}, et les Noirs ont maintenant un pion à hauteur de celui des Blancs, avec un autre derrière pour le soutenir.\n\nLe prix se trouve en c8. La diagonale de ce fou bute droit sur le propre pion noir en e6, et le libérer peut prendre vingt coups. Paris a battu Londres par correspondance avec cette ouverture en 1834, et elle porte depuis le nom de « française »."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+      "title": "Visez la base",
+      "text": "Les Blancs ont poussé au-delà, et les pions sont bloqués. La chaîne blanche va de d4 à e5 et pointe vers l'aile roi noire ; la chaîne noire va de e6 à d5 et pointe vers l'aile dame blanche. Chaque armée attaque là où visent ses propres pions.\n\nLe pion de base des Noirs est e6, derrière tout le reste. Celui des Blancs est d4, à découvert. Le pion en c5 et le cavalier en c6 le frappent déjà, tandis que le pion en c3, le cavalier en f3 et la dame en d1 le soutiennent. Deux contre trois, et c'est aux Noirs de jouer.\n\n> Une chaîne de pions ne vaut pas plus que le pion de sa base."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+      "prompt": "Pointez une troisième pièce sur d4 depuis l'arrière de votre pion c — choisissez la case qui fixe aussi b2.",
+      "targetSan": [
+        "Qb6"
+      ],
+      "hint": "Trouvez la pièce qui frappe b2 maintenant et qui frappera d4 dès que votre pion c s'échangera."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5",
+      "title": "L'autre française",
+      "text": "Les deux mêmes premiers coups, une autre querelle. Les Blancs ont défendu le pion e avec un cavalier en c3 au lieu de le pousser, le fou de cases noires des Noirs est venu en b4 clouer ce cavalier sur le roi, et les Blancs ont poussé au-delà malgré tout. Maintenant {{a3}} demande au fou ses intentions.\n\nIl ne recule pas. {{Bxc3+}} {{bxc3}} : les Noirs donnent un fou, et le pion b blanc est entraîné sur la colonne c, où deux pions blancs se tiennent désormais et ne pourront jamais se démêler."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "title": "Lire le reçu",
+      "text": "Les deux camps savent ce qu'ils ont acheté. Les Blancs possèdent deux fous contre un, de l'espace à l'aile roi, et une colonne b semi-ouverte pour la tour du coin ; les cases noires des Noirs n'ont plus de fou pour veiller sur elles.\n\nLes Noirs possèdent les pions les plus sains et une cible permanente : le pion en c3 n'est défendu par rien du tout. {{Qa5}} arrive sur la diagonale qui aboutit au roi blanc, et les Blancs doivent dépenser un coup, {{Bd2}}, pour soutenir le pion."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "title": "Trois cases, deux réponses",
+      "text": "Le cavalier en g8 a trois cases, et deux d'entre elles ont déjà leur réponse avant qu'il y arrive.\n\nf6 est couverte par le pion en e5, donc un cavalier y perd une pièce contre un pion. h6 est légale, mais le fou en c1 la regarde droit dans les yeux, et l'échange qui y suivrait laisserait l'abri du roi noir en ruine.\n\nIl reste une case. De là, le cavalier est à un seul saut de f5, où il attaque de nouveau d4 et où aucun pion blanc ne le couvre encore."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "prompt": "Sortez le cavalier voisin de votre roi sur la seule case qui le laisse à un saut de f5.",
+      "targetSan": [
+        "Ne7"
+      ],
+      "hint": "L'une de ses cases est couverte par un pion, et une autre invite un échange qui ruine l'abri devant votre roi ; la troisième est le bon coup."
+    }
+  ]
+}

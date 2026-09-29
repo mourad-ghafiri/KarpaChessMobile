@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-05",
+  "fen": "2r3k1/1q3ppp/8/8/8/8/2R2PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Rxc8#"
+  ],
+  "rating": 850,
+  "title": "Trocar até ao Mate",
+  "setup": "Os dois lados têm torres na coluna c, e a torre preta em c8 é defendida só pela dama.",
+  "hint": "Conta atacantes e defensores na casa da linha de fundo, e lembra-te de que o rei não pode ajudar.",
+  "explanation": "## A Ideia\n\n{{Rxc8+}} força {{Qxc8}} — o rei não tem casa e a dama não pode tapar a partir de b7 — e a segunda torre conclui com {{Rxc8#}}. Um defensor não pode segurar uma casa que duas torres atacam."
+}

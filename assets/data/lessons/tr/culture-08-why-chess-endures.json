@@ -1,0 +1,62 @@
+{
+  "id": "why-chess-endures",
+  "title": "Satranç Neden Kalıcı",
+  "summary": "On beş yüzyıl ve onu hâlâ kimse çözemedi",
+  "proof": "culture-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "Londra, 21 Haziran 1851",
+      "text": "İki oyuncu, bir turnuvanın turları arasında, hiçbir şey ifade etmeyen bir parti için oturuyor ve şimdiye kadar oynanmış en ünlü satranç partisini üretiyor.\n\nBeyazı Adolf Anderssen, siyahı Lionel Kieseritzky oynuyor ve ikisi de ne bir ödül, ne bir unvan, ne de sıralamada bir puan için oynuyor. Anderssen'in her şeyi harcamakta serbest olmasının sebebi tam olarak bu: hiçbir şeyin ortada olmadığı bir partiyi kaybetmenin bedeli yoktur.\n\nErnst Falkbeer partiyi dört yıl sonra yayımladı ve ona ölümsüz dedi. Ad o zamandan beri tuttu."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "Anderssen'in Kurtarmayacakları",
+      "text": "Siyahın veziri az önce b2'de yemek yedi. Oradan a1'deki kaleye dokunuyor ve c5'teki fil dosdoğru g1'deki kaleye bakıyor. İki kale ve hiçbiri korunmayacak.\n\nBirini kurtarmak bir hamleye mal olur ve hamle, saldırının elinde kalan tek para birimidir. Siyahın e8'deki şahı parti boyunca hiç oynamadı ve ortadan çıkacak tek yolu var: kendi şah kanadı piyonlarının arkasına rok.\n\nO yolu kapatın, şah d5 ile f5'teki atların ulaşabildiği yerde kalsın."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "prompt": "İki kaleyi de boş verin ve siyahın şahının ortadan çıkarken geçmek zorunda olduğu kareyi kapsayın.",
+      "targetSan": [
+        "Bd6"
+      ],
+      "hint": "Rok siyahın şahını f8'in üstünden taşırdı; öyleyse taşlarınızdan hangisinin bu hamlede o kareyi gözlemeye başlayabileceğini sorun."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/3B4/1pbN1N1P/4P1P1/3P1Q2/PqP5/R4KR1 b kq - 1 18",
+      "title": "Kieseritzky Topluyor",
+      "text": "Siyah kendisine sunulanı alır. {{Bxg1}} birinci kaledir ve Anderssen geri almaz: {{e5}}, siyahın b2'deki vezirinin üzerinde durduğu çaprazı kapatır; böylece vezir şah kanadını artık hiç göremez.\n\n{{Qxa1+}} ikinci kaleyi, şah çekerek alır.\n\nSiyah iki kale ve bir fil önde. Beyazın elinde bir vezir, iki at ve bir fil var; hepsi de ortadan hiç çıkamamış bir şaha bakıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Tek Koruyucu Kaldı",
+      "text": "İki hamle sonra ikinci beyaz at g7'de şah çekerek aldı ve siyahın şahı d8'e adımladı.\n\nSiyahın şahının karelerini sayın. d7 kendi piyonu, c8 kendi fili, c7 ile e7 d6'daki file ait ve e8'i g7'deki at kapsıyor. Hiç kare yok.\n\nYani siyahla mat arasındaki tek şey g8'deki at; o at e7'ye geri uzanıyor ve oraya inecek her şeyi alırdı. Tek bir taş. Siyahın geri kalan her şeyi tahtanın öteki tarafında."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Beş Yüz Yıl, Tek Kural Kitabı",
+      "text": "Beyaz iki kaleyi ve bir fili verdi ve yine de kazanmak üzere.\n\nBu pozisyonu üreten kurallar 1851'den çok önce oturmuştu. Satranç Kuzey Hindistan'dan çıktı, İran'ı ve Arap dünyasını geçti ve Avrupa'ya ulaştı; 1475 dolaylarında Valensiya'da vezire ve file bugün hâlâ sahip oldukları uzun menzil verildi. O günden beri önemli hiçbir şey değişmedi. Anderssen, yüz derstir oynadığınız oyunun aynısını oynadı."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Kimse Onu Çözemedi",
+      "text": "Dama bitti. Bir araştırma ekibi 2007'de, baştan itibaren kusursuz oyunun beraberlik olduğunu kanıtladı ve damada bulunacak bir şey kalmadı.\n\nSatranç bitmedi. Yedi ya da daha az taşlı her pozisyon 2012'ye kadar birebir hesaplandı, yani her partinin son birkaç hamlesi artık bilinen topraktır. Yedi taşın üstünde hiçbir şey bilinmiyor: 2021 tarihli bir tahmin, kurallı pozisyonların sayısını 4,8 × 10⁴⁴ dolayına koyuyor ve hiçbir makine bunun dibine yaklaşamadı.\n\n> On beş yüzyıl geçti ve önünüzdeki tahta hâlâ soruyor."
+    },
+    {
+      "type": "play",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "prompt": "Siyahın şahının kalan karesi yok; onun tek koruyucusunu e7'den çekip alın.",
+      "targetSan": [
+        "Qf6+"
+      ],
+      "hint": "Teklifin, siyahın reddedemeyeceği bir teklif olması gerekiyor; öyleyse yalnızca o atın cevap verebildiği şahı arayın."
+    }
+  ]
+}

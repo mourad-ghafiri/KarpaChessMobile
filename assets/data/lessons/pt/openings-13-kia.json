@@ -1,0 +1,50 @@
+{
+  "id": "kings-indian-attack",
+  "title": "Ataque Índio do Rei",
+  "summary": "Oito jogadas que jogas sempre, e a corrida que se segue sempre",
+  "proof": "openings-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Oito Jogadas, Nenhuma Pergunta",
+      "text": "Oito jogadas, e as brancas não perguntaram uma única vez o que as pretas estavam a fazer. Cavalo para f3, peão para g3, bispo para g2, rei para o canto, peão para d3, cavalo para d2, peão para e4, torre para e1 — em quase qualquer ordem, contra quase tudo.\n\nIsso é o Ataque Índio do Rei. É um esquema e não uma linha, portanto não há teoria para carregar: o mesmo meio-jogo chega em todas as partidas, e aprende-se uma vez. Fischer usou-o durante anos contra a francesa e a siciliana, a jogar sempre as mesmas jogadas."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Dois Planos, Direções Opostas",
+      "text": "As pretas não estão à espera de nada disto. Os peões da ala da dama são a coisa mais rápida do tabuleiro, e têm uma morada: c2, e o que restar a guardá-la.\n\n{{b5}} é o primeiro empurrão. Os outros seguem-se, a coluna c abre-se, e as torres pretas despejam-se por ela abaixo.\n\nNenhum dos lados vai defender. Numa corrida, uma jogada gasta a olhar para trás é uma jogada entregue ao outro corredor — por isso as brancas não respondem de todo na ala da dama. As brancas respondem na ala oposta, onde o peão de e4, o bispo de g2 e os dois cavalos já apontam."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p3bppp/2n1pn2/1ppp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - b6 0 9",
+      "prompt": "Reclama espaço à frente das tuas peças com um avanço de peão que despeje o cavalo mais próximo do rei preto.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "O cavalo em f6 é o único defensor a sério perto desse rei. Qual dos teus peões o pode atacar?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Porque É Que as Alas Estão Seguras",
+      "text": "O peão em e5 está agora nariz com nariz com o peão de e6. Pelo meio já não há nada para trocar nem nada para abrir, e é exatamente essa a licença de que um ataque de ala precisa: nenhuma linha através do centro quer dizer nenhuma estrada até qualquer dos reis por ele.\n\nPor isso os dois lados olham de lado. As brancas jogam {{h4}}, as pretas respondem {{b4}}, as brancas avançam {{h5}}, e ninguém manda uma peça para casa.\n\n> Ataca na ala onde tens espaço, e mantém o meio fechado enquanto o fazes."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Falta um Atacante",
+      "text": "Conta o que as brancas têm apontado ao rei preto: o bispo em g2, o cavalo em f3, uma dama e uma torre não muito atrás. Agora conta o que as pretas deixaram em casa. É renhido, e renhido não chega.\n\nO cavalo em d2 é a peça que decidiria a questão, e está tão longe desse rei quanto uma peça pode estar. A estrada curta por e4 está coberta pelo peão preto de d5. A estrada longa passa pela casa que a torre deixou ao ir para e1 — e daí o cavalo escolhe entre e3, de olho em d5 e f5, e h2, a um salto de g4."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "prompt": "Põe a tua peça mais lenta a caminho do rei preto, pela única estrada que os seus próprios peões deixam aberta.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Olha para as casas vazias da tua primeira linha. Uma delas é a rampa de acesso de um cavalo à ala do rei."
+    }
+  ]
+}

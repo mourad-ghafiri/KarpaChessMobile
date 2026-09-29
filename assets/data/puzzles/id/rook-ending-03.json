@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-03",
+  "fen": "8/8/2k5/1RP5/2K5/8/6r1/8 b - - 0 1",
+  "solution": [
+    "Rg4+"
+  ],
+  "rating": 1300,
+  "title": "Pindahkan Pembelanya",
+  "setup": "Raja Hitam sudah menyerang benteng di b5, dan raja putih di c4 satu-satunya yang melindunginya.",
+  "hint": "Benteng itu dilindungi tepat sekali. Temukan sekak yang mengusir pembela itu dan membiarkan benteng Anda sendiri aman.",
+  "explanation": "## Ide\n\n{{Rg4+}} mengusir pembelanya: sesudah {{Kc3}} {{Kxb5}}, pion c juga jatuh dan Hitam unggul satu benteng. {{Rc2+}} yang wajar juga mengusir raja, tetapi sesudah {{Kb3}} raja menyerang benteng Anda, dan benteng-benteng ditukar menjadi remis mati."
+}

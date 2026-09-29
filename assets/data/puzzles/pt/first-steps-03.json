@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-03",
+  "fen": "k7/pp3rpp/8/8/2B5/8/PP4PP/4K3 w - - 0 1",
+  "solution": [
+    "Bxf7"
+  ],
+  "title": "Roubo à Distância",
+  "setup": "O teu bispo em c4 olha pela sua diagonal clara acima e encontra lá uma torre preta.",
+  "hint": "Segue a diagonal a partir de c4: d5, e6... o que está na casa seguinte?",
+  "explanation": "## A Ideia\n\nA diagonal do bispo a partir de c4 corre d5, e6, f7, e a torre preta em f7 está mesmo no caminho dele, **sem ninguém a guardá-la**. O rei preto em a8 está demasiado longe para ajudar.\n\n{{Bxf7}} percorre a linha inteira numa jogada e come a torre de graça.\n\nOs bispos golpeiam de um lado ao outro do tabuleiro. Segue cada diagonal até ao fim antes de decidires que não há nada desprotegido."
+}

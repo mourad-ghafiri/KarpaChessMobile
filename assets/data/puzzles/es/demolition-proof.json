@@ -1,0 +1,13 @@
+{
+  "id": "demolition-proof",
+  "fen": "r5rk/5ppp/4q1n1/2Q5/8/4B3/PP6/K6R w - - 0 1",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Qh5#"
+  ],
+  "title": "Una torre por el peón de h",
+  "setup": "El rey negro está en h8 detrás de tres peones, y tu torre de h1 los mira por la columna. Encuentra un camino a través de ese refugio.",
+  "hint": "El peón de h7 tiene un solo defensor, el rey. Pregúntate dónde queda el rey después de defenderlo, y cuál de tus piezas puede llegar allí.",
+  "explanation": "## La idea\n\n{{Rxh7+}} gasta una torre entera en un peón, y las Negras tienen exactamente una respuesta legal: {{Kxh7}}. El refugio ha desaparecido, y el rey está en una columna abierta.\n\n{{Qh5#}}. La torre de g8 y el caballo de g6 son de las Negras, así que tapan dos salidas, tu alfil de e3 cubre h6 y nada negro puede llegar a h6 para interponerse. Un peón costó una torre, y lo pagó el rey."
+}

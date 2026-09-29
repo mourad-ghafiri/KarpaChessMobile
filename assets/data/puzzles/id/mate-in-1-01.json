@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-01",
+  "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 1",
+  "solution": [
+    "Qxf7#"
+  ],
+  "title": "Pukulan Mat Empat Langkah",
+  "setup": "Menteri Anda di h5 dan gajah di c4 sama-sama membidik petak terlemah di kubu Hitam.",
+  "hint": "Dua buah Anda bertemu di satu petak yang lemah, dan hanya raja yang melindunginya.",
+  "explanation": "## Ide\n\nInilah langkah penutup mat empat langkah. {{Qxf7#}} mengambil pion dengan sekak. Gajah di c4 menjaga f7, jadi raja tak bisa mengambil menteri, dan satu-satunya petak kosongnya, e7, dikuasai menteri. Tetangga-tetangganya yang lain, d8, d7 dan f8, ditempati buah-buahnya sendiri.\n\nDi awal partai f7 hanya dijaga raja, jadi menteri dan gajah yang membidiknya adalah trik tertua dalam catur."
+}

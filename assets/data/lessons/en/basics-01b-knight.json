@@ -1,0 +1,57 @@
+{
+  "id": "knight-moves",
+  "title": "The Knight's L",
+  "summary": "The one piece that goes over the wall instead of around it",
+  "proof": "first-steps-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Two Squares, Then One",
+      "text": "Two squares, then one square to the side. That is every knight move there has ever been.\n\nThe knight is the only piece that refuses to travel in a straight line. It does not slide along a rank or a file — it hops, from where it stands to where it lands, and touches nothing in between.\n\nWatch it go: {{Nf6}}. Two squares up the board from e4, then one to the right. An **L**, drawn in a single move."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Eight Landing Squares",
+      "text": "Count them from e4: {{Nd6}}, {{Nf6}}, {{Nc5}}, {{Ng5}}, {{Nc3}}, {{Ng3}}, {{Nd2}}, {{Nf2}}. Eight arrows leaving one square at the same time, and any of the eight is a legal move.\n\nNow stand the same knight in the corner square a1 and count again: two. Six of its L-shapes run off the edge of the board and take their squares with them.\n\nSo a knight wants the middle. It is the one piece whose strength you can read off its address."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Jump the knight anywhere an L will carry it from e4.",
+      "targetSan": [
+        "Nd6",
+        "Nf6",
+        "Nc5",
+        "Ng5",
+        "Nc3",
+        "Ng3",
+        "Nd2",
+        "Nf2"
+      ],
+      "hint": "Count two squares along a rank or a file, then turn one square to the side. Every direction works."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Never the Same Color Twice",
+      "text": "The square e4 is light. Every one of the eight squares the knight just reached is dark.\n\nThat holds everywhere on the board. A knight changes the color under its feet with every single hop, and it has no say in the matter.\n\nWhich gives you a free piece of arithmetic: anything standing on a light square is out of reach of a knight on a light square. Out of reach this move, at least. Next move it is the other way around."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Over the Wall",
+      "text": "Every game begins in a traffic jam. The bishops, the rooks and the queen are sealed in behind their own pawns, and each of them has to wait for a pawn to step out of the road.\n\nThe knights do not wait. {{Nf3}} clears the pawn line on move one, and the pawn on f2 never so much as feels a draft.\n\nThat is why the knights are so often the first pieces to leave the back rank.\n\n> Everyone else needs a door. The knight goes over the wall."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3p4/3pp3/2N5/8/8/4K3 w - - 0 1",
+      "prompt": "Your knight is attacked, so leave the square and take the black pawn that nothing is guarding.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "A knight ignores whatever stands in the way, so look past the pawn wall — then ask which pawn beyond it has a second pawn ready to take back."
+    }
+  ]
+}

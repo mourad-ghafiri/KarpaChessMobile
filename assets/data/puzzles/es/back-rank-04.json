@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-04",
+  "fen": "3r3k/5ppp/8/8/8/8/5PPP/3R1K2 w - - 0 1",
+  "solution": [
+    "Rxd8#"
+  ],
+  "title": "Mate en espejo",
+  "setup": "Las dos torres se miran por la columna d abierta, pero solo un rey sobreviviría a un jaque de torre en su última fila.",
+  "hint": "Las torres parecen simétricas. Los reyes no: uno de ellos tiene una casilla a la que ir.",
+  "explanation": "## La idea\n\nTorre frente a torre en la única columna abierta, y la diferencia son los reyes. El tuyo en f1 podría responder a un jaque de torre yendo a e2. El negro está metido en la esquina detrás de sus propios peones.\n\n{{Rxd8#}} es mate en el acto: la torre barre g8, y en g7 y h7 están los peones negros.\n\nEn una posición en espejo, sobrevive el rey que tiene una casilla fuera de la última fila."
+}

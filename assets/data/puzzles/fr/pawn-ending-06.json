@@ -1,0 +1,14 @@
+{
+  "id": "pawn-ending-06",
+  "fen": "5k2/8/5PK1/8/8/8/8/8 w - - 1 2",
+  "solution": [
+    "f7",
+    "Ke7",
+    "Kg7"
+  ],
+  "rating": 1280,
+  "title": "Rien d'autre ne gagne",
+  "setup": "Le roi noir vient de passer en f8, droit devant le pion, et les Blancs doivent choisir.",
+  "hint": "Cinq des six coups blancs jettent le point ; demandez-vous lequel retire des cases au roi noir.",
+  "explanation": "## L'idée\n\n{{f7}} semble emmurer le pion, mais il couvre e8 et g8, donc {{Ke7}} est forcé et {{Kg7}} escorte le pion jusqu'au bout. Tout coup de roi à la place permet au roi noir de garder sa place devant le pion, et la finale est alors une nulle morte."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-07",
+  "fen": "7k/2p5/3p1b2/8/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxf6"
+  ],
+  "title": "Grátis ou Guardado?",
+  "setup": "O teu cavalo em e4 pode capturar duas peças pretas diferentes — mas só uma delas está mesmo grátis.",
+  "hint": "Antes de agarrares, pergunta: quem recaptura? Verifica os defensores de d6 e f6.",
+  "explanation": "## A Ideia\n\nDuas capturas acenam-te:\n\n- {{Nxd6}} agarra um peão, mas o peão de c7 **defende d6** e recaptura logo. Trocarias um cavalo de três pontos por um peão de um.\n- {{Nxf6}} agarra o bispo, e **nada defende f6**. Três pontos limpos.\n\nA pergunta certa nunca é «o que posso capturar?» mas «o que posso capturar de graça?». Conta os defensores antes de cada captura."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "board-proof",
+  "fen": "4k3/8/8/8/8/8/1PP2PP1/4K3 w - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "title": "Read the Address",
+  "setup": "Every square has a name. Move a pawn to the square named c4.",
+  "hint": "Find the c-file first, then count up from White's edge: rank 1, rank 2, rank 3, rank 4.",
+  "explanation": "## The Idea\n\nLetter first, number second. The c-file is the third column from White's left, and rank 4 is the fourth row up from White's edge, so c4 is where they cross.\n\nThe pawn on c2 is the only one standing on that file, and on its first move a pawn may step two squares: {{c4}}. The pawn on b2 could reach b4, but b4 is a different address."
+}

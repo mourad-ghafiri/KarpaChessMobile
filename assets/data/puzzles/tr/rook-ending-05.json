@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-05",
+  "fen": "6R1/8/5r2/K7/3P3k/8/8/8 b - - 0 1",
+  "solution": [
+    "Rd6"
+  ],
+  "rating": 1390,
+  "title": "Yolun Üstünde",
+  "setup": "Siyahın şahı h4'te mahsur kalmış, yani serbest d piyonuyla tamamen tek başına kalenin ilgilenmesi gerekiyor.",
+  "hint": "Piyona saldırmak onu durdurmakla aynı şey değildir. Piyonun içine koşmak zorunda olduğu kare hangisi?",
+  "explanation": "## Fikir\n\n{{Rd6}} kaleyi dosdoğru piyonun önüne diker ve {{d5}} artık {{Rxd5+}} hamlesine yürür. {{Rf4}} ile yandan vurun, beyaz {{Rd8}} ile arkadan korusun; ardından piyon tahtayı tırmansın."
+}

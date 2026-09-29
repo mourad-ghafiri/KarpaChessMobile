@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-13",
+  "fen": "8/5ppp/6k1/8/8/8/5PPP/R3K3 w Q - 0 1",
+  "solution": [
+    "O-O-O"
+  ],
+  "title": "Uzun Rok Yapın",
+  "setup": "Beyazın şahı ile vezir kanadı kalesi hiç oynamadı ve aralarındaki her kare boş. Kaleye, a1'e doğru rok yapın.",
+  "hint": "Şah kaleye doğru iki kare gider ve kale, şahın üstünden geçtiği kareye iner.",
+  "explanation": "## Fikir\n\n{{O-O-O}} iki taş için tek hamledir: şah e1'den c1'e adımlar ve a1'deki kale onun üstünden geçip d1'e gelir.\n\nBütün şartlar tutuyor. İki taş da hiç oynamadı; b1, c1 ve d1 boş; şah şah altında değil ve geçtiği ile indiği kareler olan d1 ile c1'e hiçbir şey saldırmıyor. Şah merkezden ayrılır ve kale açık bir dikeye varır."
+}

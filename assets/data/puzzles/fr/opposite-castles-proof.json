@@ -1,0 +1,13 @@
+{
+  "id": "opposite-castles-proof",
+  "fen": "4r1k1/pp2pp1p/2bp1npQ/q2N4/4PN2/5P2/PPP5/2K4R w - - 3 24",
+  "solution": [
+    "e5",
+    "Bxd5",
+    "exf6"
+  ],
+  "title": "Le pion pied-de-biche",
+  "setup": "Rois sur des ailes opposées. Votre dame et votre tour partagent la colonne h, la dame noire en a5 vise a2, et seul le cavalier en f6 aide le roi à garder h7.",
+  "hint": "Retirez le cavalier en f6 de la garde de h7 avec votre pièce la moins chère, et faites en sorte que cela coûte aux Noirs quelle que soit leur réponse.",
+  "explanation": "## L'idée\n\nDes rois opposés en font une course, et la dame noire vise déjà votre roi. Vous frappez le premier, avec un pion. {{e5}} frappe le cavalier en f6, la seule pièce qui garde h7 en dehors du roi.\n\nLe mieux pour les Noirs est de récupérer un cavalier par {{Bxd5}}. Cela ne change rien : {{exf6}} élimine le gardien quand même. Dès que les Noirs reprennent, la dame et la tour de la colonne h passent par h7, et {{Qxh7+}} puis {{Qh8+}} chassent le roi vers le centre, où il perd bien plus qu'une pièce."
+}

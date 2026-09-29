@@ -1,0 +1,14 @@
+{
+  "id": "promotion-04",
+  "fen": "1r4k1/6pp/1PP5/8/8/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "c7",
+    "Rc8",
+    "b7"
+  ],
+  "rating": 1120,
+  "title": "Deux pions, une tour",
+  "setup": "Deux pions liés se tiennent en b6 et c6 contre une seule tour en b8, et la tour ne peut en surveiller qu'un.",
+  "hint": "Une tour ne peut pas tenir deux pions liés. Poussez celui qui attire la tour sur une case que vous pouvez attaquer.",
+  "explanation": "## L'idée\n\n{{c7}} attaque la tour et menace d'aller à dame, et {{Rc8}} est la seule case qui arrête le pion c. Maintenant {{b7}} attaque la tour et menace aussi b8=Q, donc quoi que jouent les Noirs, l'un des pions va à dame. Deux pions liés sur la sixième rangée battent une tour."
+}

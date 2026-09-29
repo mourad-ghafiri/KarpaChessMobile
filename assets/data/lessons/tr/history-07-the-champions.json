@@ -1,0 +1,68 @@
+{
+  "id": "the-champions",
+  "title": "Unvanı Kim Taşıyor",
+  "summary": "1886'dan bugüne on sekiz şampiyon ve zincirin koptuğu dört an",
+  "proof": "history-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Reykjavík, 1972",
+      "text": "Bir satranç maçı, ömründe satranç izlememiş ülkelerde manşetlere çıktı.\n\nBobby Fischer İzlanda'ya geç geldi, kameralardan şikâyet etti, ilk partiyi kaybetti ve sonra ikinciyi oynamayı reddetti. Unvan Boris Spasski'deydi ve unvan 1948'den beri Sovyet ellerinden çıkmamıştı.\n\nBu altıncı parti. Fischer beyazı oynuyor ve sıra beyazda. İnsanların bu parti hakkında hâlâ anlattığı şey sonuç değil — parti bittiğinde Spasski'nin yaptığı şey."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Sıradaki On Birinci",
+      "text": "Fischer o yazın ilerleyen günlerinde on birinci dünya şampiyonu olur ve unvanı ondan önce taşıyan on kişi neredeyse hiçbir konuda anlaşmıyordu.\n\nSteinitz saldırının hak edilmesi gerektiğini söyledi. Lasker unvanı yirmi yedi yıl elinde tuttu — ondan önce de sonra da kimse bu kadar uzun tutmadı — ve tahta kadar karşısındaki insanı da oynadığı söylenirdi. Capablanca kazanmayı hiçbir şey yapmıyormuş gibi gösterdi. 1920'lerde yetişen oyuncular, merkeze hiç piyon koymadan da merkezi kontrol edebileceğinizi savundu. Sovyet okulu hazırlığı bir sanayiye çevirdi ve unvanı yirmi dört yıl aralıksız elinde tuttu."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Son Nöbetçi",
+      "text": "Siyahın f6'daki atı aynı anda iki görev taşıyor.\n\ng8 ile h7'yi kapsıyor; h8'deki şahın gidebileceği tek iki kare bunlar. Bir de f dikeyini kapatıyor; beyaz oraya f5 ve f3'te kalelerini üst üste dizmiş.\n\nYardıma gelecek başka bir şey yok. Beyazın e6'daki piyonu sekizinci yataya iki kare uzaklıkta, yani e7'deki kalenin onun önünde durması gerekiyor ve e8'deki vezir de o piyonun istediği karede oturuyor. c7'deki kale istediği yere gitmekte özgür ve gittiği yerde yapacak hiçbir şeyi yok."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "prompt": "g8 ile h7'yi kapsayan at için bir kale verin ve geri almanın şahın yanından bir piyonu çekmesini sağlayın.",
+      "targetSan": [
+        "Rxf6"
+      ],
+      "hint": "h8'deki şahın yanında tek bir piyon var. Almayı o piyon yapmak zorunda kalırsa arkasında hangi kareyi bırakır?"
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Çatı Uçuyor",
+      "text": "{{Rxf6}} gelir ve reddetmek sahip olmaya değer bir seçenek değildir — kaleyi öylece bırakmak beyaza koca bir at kazandırır.\n\nÖyleyse {{gxf6}}. Artık g7 boş. Şahın yanında duran piyon f6'da, f3'teki kalenin dosdoğru baktığı yerde; h8'deki şahın ise h6'daki piyondan başka bir şeyi kalmadı."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4Pp1p/p1p5/P2pQ2P/1P1B1R2/6P1/6K1 w - - 0 39",
+      "title": "İkinci Kale",
+      "text": "{{Rxf6}}. Aynı kare ve bu kez geri alan yok: siyahın hiçbir taşı f6'ya ulaşmıyor.\n\n{{Kg8}} {{Bc4}} {{Kh8}} — Spasski şahı çıkarıp geri koyar, Fischer fili karşıya yürütüp e6'daki piyonu korur. Siyah iki hamleyi yerinde sayarak harcadı. Beyaz bir hamle harcadı ve artık fili istediği yerde."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Zincirin Koptuğu Yer",
+      "text": "Satranç unvanı, 1886'dan beri elden ele geçen tek bir zincir gibi anlatmayı sever. Zincir dört kez koptu.\n\nAlyehin 1946'da unvan elindeyken öldü ve 1948'e kadar onu kimse taşımadı. Fischer hiç savunmadı: 1975'te unvan tek hamle oynanmadan Karpov'a geçti. Kasparov ile rakibi 1993 maçlarını FIDE dışına taşıdı, FIDE de kendi şampiyonunu taçlandırdı ve on üç yıl boyunca iki dünya unvanı oldu; ta ki Kramnik 2006'da Topalov'u yenene kadar. Carlsen 2023'te savunmaktan vazgeçti; Ding Liren böyle şampiyon oldu — ve Gukesh Dommaraju unvanı Aralık 2024'te, on sekiz yaşında, şimdiye kadarki en genç şampiyon olarak Ding'den böyle aldı."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Oynatacak Bir Şey Kalmadı",
+      "text": "Siyahın, beyazın bir kalesine karşılık iki kalesi var ve ikisini de kullanamıyor.\n\ne7'deki kale hâlâ e6'daki piyonun önündeki tek şey ve e8'deki vezir hâlâ o piyonun istediği karede duruyor. İkisi de ayrılamaz. c7'deki kale canının istediği yere gidebilir ve hiçbir yerde ona göre bir iş yok.\n\nGeriye h6'daki piyon kalıyor; onu koruyan kimse yok ve f6'daki kale altıncı yatay boyunca çoktan ona bakıyor.\n\n> Karesinden ayrılamayan taş, taş olmaktan çıkmıştır."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "prompt": "Kalenin h6'ya saldırısına veziri de ekleyin; hiçbir şeyin onu alamayacağı ve f6'daki kalenin bir koruyucu kazanacağı kareye inin.",
+      "targetSan": [
+        "Qf4"
+      ],
+      "hint": "Siyahın vezirinin ya da h6'daki piyonun veziri alabileceği her kareyi eleyin, sonra kalenin zaten tuttuğu dikeyde kalın."
+    }
+  ]
+}

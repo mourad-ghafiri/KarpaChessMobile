@@ -1,0 +1,14 @@
+{
+  "id": "decoy-10",
+  "fen": "r2q1r1k/pp2N1pp/8/7Q/8/3R4/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh3#"
+  ],
+  "rating": 1490,
+  "title": "Le mat d'Anastasia",
+  "setup": "Votre cavalier en e7 couvre g6 et g8, et seul le pion h7 se tient entre le roi et votre dame.",
+  "hint": "Le cavalier tient déjà les deux cases g. Ce qui manque, c'est le roi en h7 — comment l'imposer ?",
+  "explanation": "## L'idée\n\nC'est le **mat d'Anastasia**. {{Qxh7+}} force {{Kxh7}}, et le cavalier en e7 retire g6 et g8. {{Rh3#}} complète le filet : le roi se tient sur une colonne ouverte sans nulle part où aller. Retenez l'image : cavalier en e7, roi attiré en h7, tour sur la colonne h."
+}

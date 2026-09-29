@@ -1,0 +1,14 @@
+{
+  "id": "decoy-02",
+  "fen": "1r4k1/pp3ppp/8/8/2q5/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1190,
+  "title": "Atrae a la torre a casa",
+  "setup": "La torre de b8 es la única guardiana de la última fila, y tu dama está delante de tu torre de d1.",
+  "hint": "La torre hace toda la defensa. Ofrécele algo en la octava fila que tenga que comerse.",
+  "explanation": "## La idea\n\n{{Qd8+}} es una dama lanzada a la última fila, y {{Rxd8}} es forzada. La torre ha sido atraída a la única casilla que cubre tu propia torre, y {{Rxd8#}} da mate a un rey encerrado por sus peones."
+}

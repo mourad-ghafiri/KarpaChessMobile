@@ -1,0 +1,14 @@
+{
+  "id": "decoy-07",
+  "fen": "6rk/pp1q2pp/8/5P1R/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1390,
+  "title": "La Torre che Paga per Prima",
+  "setup": "La vostra torre in h5 fissa h7, l'altra torre aspetta in d1, e il re nero non può muovere di una casa.",
+  "hint": "Chiedetevi su quale casa debba stare il re perché la vostra seconda torre conti, poi pagatela.",
+  "explanation": "## L'idea\n\n{{Rxh7+}} costa una torre e {{Kxh7}} è forzata. Adesso la colonna h è nuda dietro di lui, il pedone in f5 toglie g6, e {{Rh1#}} attraversa per dare matto. Due torri battono un re appena la colonna davanti a lui è vuota."
+}

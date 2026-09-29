@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-31",
+  "fen": "k7/8/1K6/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "Jaula de Canto",
+  "setup": "O rei preto está encurralado em a8 com o teu rei a um salto de cavalo, a guardar as duas casas de fuga.",
+  "hint": "O teu rei já é dono de a7 e b7. Uma jogada de dama tira tudo o resto.",
+  "explanation": "## A Ideia\n\nA um rei encurralado só é preciso tirar-lhe a linha. O teu rei de b6 cobre a7 e b7.\n\n{{Qg8#}} dá xeque do outro lado do tabuleiro, b8 está na linha da dama, e nada pode tapar.\n\nContra um rei encurralado, o teu próprio rei sela as casas ao lado dele e qualquer xeque pela linha de fundo é mate."
+}

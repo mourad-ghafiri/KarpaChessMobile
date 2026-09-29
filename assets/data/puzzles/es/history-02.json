@@ -1,0 +1,13 @@
+{
+  "id": "history-02",
+  "fen": "7k/8/p4N2/1p5p/8/8/8/2R3K1 w - - 0 1",
+  "solution": [
+    "Rc7",
+    "b4",
+    "Rh7#"
+  ],
+  "title": "Un final de mansuba",
+  "setup": "Un problema al estilo del shatranj: torre y caballo contra un rey en la esquina, y las Negras solo tienen jugadas de peón.",
+  "hint": "No des jaque todavía. El caballo ya domina g8 y h7, así que pregúntate qué fila necesita la torre antes de que el jaque merezca la pena.",
+  "explanation": "## La idea\n\nEste es el **mate árabe** de las colecciones de problemas más antiguas: una torre junto al rey en la esquina y un caballo que protege la torre.\n\nLa torre no puede darlo desde c1. {{Rc7}} es tranquila: la torre toma la séptima fila, el caballo ya cubre g8 y al rey no le queda casilla. Las Negras solo pueden avanzar un peón, {{b4}} o cualquier otro, y sigue {{Rh7#}}, con el caballo protegiendo h7.\n\nDa jaque antes con {{Rc8+}} y el rey se escapa a g7. Construye la red y luego da jaque."
+}

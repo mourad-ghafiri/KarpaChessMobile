@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-10",
+  "fen": "7k/5K1p/8/8/8/8/8/6R1 w - - 0 1",
+  "solution": [
+    "Rg8#"
+  ],
+  "title": "Refermez le couvercle",
+  "setup": "Le roi noir est coincé en h8 derrière son propre pion en h7, et votre roi en f7 se tient juste à côté de ses cases de fuite.",
+  "hint": "Montez la tour sur la colonne g — votre roi et le pion noir referment le couvercle.",
+  "explanation": "## L'idée\n\n{{Rg8#}} met le roi en échec depuis la case voisine. Votre roi en f7 protège g8, donc le roi ne peut pas prendre la tour. g7 est couverte par votre roi et par la tour, et h7 est occupée par le propre pion noir.\n\nQuand votre roi protège une case à côté du roi adverse, la tour peut donner échec depuis cette case même."
+}

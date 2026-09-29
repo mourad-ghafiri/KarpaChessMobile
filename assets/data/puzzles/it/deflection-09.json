@@ -1,0 +1,14 @@
+{
+  "id": "deflection-09",
+  "fen": "4r1k1/pp1q2pp/6pQ/8/8/8/1B4PP/4RRK1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxg7#"
+  ],
+  "rating": 1410,
+  "title": "Via dalla Settima Traversa",
+  "setup": "La donna e l'alfiere puntano già su g7, e solo la donna in d7 lo difende lungo la traversa.",
+  "hint": "Contate gli attaccanti e i difensori di g7, poi trovate lo scacco che riduce i difensori di uno.",
+  "explanation": "## L'idea\n\n{{Rxe8+}} è scacco, e {{Qxe8}} è l'unica risposta del Nero — il che toglie la donna dalla settima traversa. Segue {{Qxg7#}}, tenuta al suo posto dall'alfiere in b2. La torre si spende per lasciare un attaccante in più rispetto ai difensori."
+}

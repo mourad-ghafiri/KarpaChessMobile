@@ -1,0 +1,14 @@
+{
+  "id": "promotion-06",
+  "fen": "7k/ppp4p/8/PPP5/8/8/7P/7K w - - 0 1",
+  "solution": [
+    "b6",
+    "axb6",
+    "c6"
+  ],
+  "rating": 1200,
+  "title": "Parte a Parede de Peões",
+  "setup": "Três peões enfrentam três peões na ala da dama, e os dois reis estão estacionados no canto oposto.",
+  "hint": "Três lado a lado contra três lado a lado. Entrega um pelo meio e conta os tempos de que os outros dois precisam.",
+  "explanation": "## A Ideia\n\n{{b6}} entrega um peão para partir a parede. Depois de {{axb6}}, {{c6}} rompe outra vez: se {{bxc6}}, o peão a corre até a8 sem ser tocado, e se as pretas o deixarem, {{cxb7}} e o peão faz dama em b8. Depois de {{cxb6}} em vez disso, {{a6}} faz o mesmo trabalho do outro lado.\n\nUm peão entregue no meio de três pode comprar uma dama na ala."
+}

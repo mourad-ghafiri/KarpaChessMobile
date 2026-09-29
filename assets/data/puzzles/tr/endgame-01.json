@@ -1,0 +1,11 @@
+{
+  "id": "endgame-01",
+  "fen": "8/8/8/4k3/2P5/2K5/8/8 b - - 0 1",
+  "solution": [
+    "Kd6"
+  ],
+  "title": "Önüne Geçin",
+  "setup": "Beyazın şahı piyonuna eşlik ediyor ve beraberliği tutan tam olarak tek bir hamleniz var.",
+  "hint": "Savunanın yeri piyonun önüdür. Hangi adım şahınızı, bir hamle geride kalmadan piyonun önündeki karelere yaklaştırır?",
+  "explanation": "## Fikir\n\nŞah ve piyona karşı savunan şahın yeri, öteki şahla yüz yüze, piyonun önüdür.\n\n{{Kd6}} beraberliği koruyan tek hamledir: piyonun önündeki kareleri alacak vakit varken oraya yönelir ve c6 ya da c7'den beyazın şahıyla bir boş kare arayla buluşabilir. Başka her adım bir hamle geç varır ve beyazın şahı önce öne geçer.\n\nPiyonun önünde ve rakip şahla yüz yüze. Her seferinde ikisi birden."
+}

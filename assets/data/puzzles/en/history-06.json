@@ -1,0 +1,13 @@
+{
+  "id": "history-06",
+  "fen": "bq1b3r/3n1k2/p3p1p1/Np1pPp1p/1P1N1P2/P2PB3/2Q3PP/2R3K1 w - - 4 27",
+  "solution": [
+    "Nac6",
+    "Qb7",
+    "Nxd8+"
+  ],
+  "title": "The Hole Pays Out",
+  "setup": "Steinitz against Sellman, Baltimore 1885, twenty-six moves later and not one sacrifice. Time to cash in the hole the lesson found.",
+  "hint": "One square deep in Black's camp can never be attacked by a pawn again. Two knights could claim it — pick the one with nothing better to do.",
+  "explanation": "## The Idea\n\nTwenty-six moves on, c6 is still a hole: Black's b- and d-pawns are past it for good.\n\n{{Nac6}} lands there and hits the queen on b8 and the bishop on d8 at once. {{Qb7}} saves the queen, and {{Nxd8+}} takes the bishop with check.\n\nThe rook takes back and material is level, but Black's only dark-squared bishop is gone. Use the a5 knight: the one on d4 presses b5, e6 and f5, and moving it lets go of all three."
+}

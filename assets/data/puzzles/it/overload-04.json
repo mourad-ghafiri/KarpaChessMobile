@@ -1,0 +1,14 @@
+{
+  "id": "overload-04",
+  "fen": "2r3k1/5ppp/3R4/8/3Q4/1R6/PP6/K5b1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Qxd8#"
+  ],
+  "rating": 1370,
+  "title": "Prima la Torre, Poi la Donna",
+  "setup": "La vostra torre in d6 e la vostra donna in d4 guardano tutte e due giù per la colonna d una traversa di fondo difesa solo dalla torre in c8.",
+  "hint": "L'ordine conta. Decidete quale pezzo si può permettere di essere catturato e quale deve dare il matto.",
+  "explanation": "## L'idea\n\n{{Rd8+}} è quello economico: {{Rxd8}} è forzata e la torre di c8 lascia la traversa che difendeva. {{Qxd8#}} conclude. Guidate con il pezzo di cui potete fare a meno, e tenetevi quello che dà matto."
+}

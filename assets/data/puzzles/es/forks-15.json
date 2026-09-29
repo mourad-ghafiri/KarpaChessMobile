@@ -1,0 +1,11 @@
+{
+  "id": "forks-15",
+  "fen": "r1b1k2r/ppp2ppp/4p3/8/7n/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qa4+"
+  ],
+  "title": "La dama da jaque y cobra",
+  "setup": "Las Negras tienen torre, alfil y caballo por tu dama, y el caballo de h4 se ha ido al borde sin defensor.",
+  "hint": "Encuentra un jaque de dama que además ataque al caballo.",
+  "explanation": "## La idea\n\n{{Qa4+}} da jaque al rey de e8 por la diagonal y ataca al caballo de h4 por la cuarta fila. Las Negras tienen que responder al jaque, y ninguna respuesta, sea {{Bd7}}, {{c6}}, {{b5}} o un movimiento de rey, protege también al caballo. En la siguiente jugada, {{Qxh4}} lo captura y el material se inclina a tu favor.\n\nUna horquilla de dama es un jaque por una línea y una pieza suelta por otra."
+}

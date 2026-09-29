@@ -1,0 +1,13 @@
+{
+  "id": "culture-07",
+  "fen": "rn1qkb1r/ppp2ppp/3p4/4N3/2B5/2P5/PPP2PPP/R1BbK2R w KQkq - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Bg5#"
+  ],
+  "title": "The Queen Was the Bait",
+  "setup": "Black has just captured your queen, the kind of capture nobody stops to look at, and you have one move.",
+  "hint": "The black king has only one free square. Give a check that drives it there, and make sure your other bishop can reach that square's diagonal.",
+  "explanation": "## The Idea\n\n{{Bxf7+}} offers a second piece to a king with nowhere to run. The king cannot take on f7, because the knight on e5 defends it, so {{Ke7}} is forced. Then {{Bg5#}}: the bishop from c1 checks along the diagonal through e7, and every square around the king is covered or blocked.\n\nA knight, two bishops and no queen finish the game on move eight.\n\nA queued capture fires into whatever position arrives. Premove the safe move, never the greedy capture."
+}

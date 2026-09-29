@@ -1,0 +1,12 @@
+{
+  "id": "pin-01",
+  "fen": "6k1/2R5/1p2r3/2p1P3/3b4/5B2/8/5K2 w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "rating": 800,
+  "title": "Terpaku pada Raja",
+  "setup": "Benteng Hitam di e6 berdiri di diagonal terang yang berujung di rajanya sendiri di g8.",
+  "hint": "Gajah Anda menginginkan petak tempat benteng di depannya tak punya tempat lagi untuk lari. Garis mana yang berujung di g8?",
+  "explanation": "## Ide\n\nBenteng di **e6** dan raja di **g8** berbagi diagonal a2–g8. {{Bd5}} melangkah ke sana, dan benteng terjepit: memindahkannya akan membuka raja, dan itu tidak sah. Tak ada pula yang melindungi e6, jadi benteng tinggal diambil pada langkah berikutnya."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "trapped-05",
+  "fen": "3r2k1/1pp2pp1/7p/n2P4/8/3P3P/PP3PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b4"
+  ],
+  "rating": 1170,
+  "title": "Kuda yang Terpojok",
+  "setup": "Kuda Hitam mendarat di a5, tempat keempat lompatannya adalah b3, c4, c6 dan b7, dan b7 adalah pionnya sendiri.",
+  "hint": "Pion-pion Anda di a2, d3 dan d5 sudah mengawasi tiga dari empat petak kuda itu. Yang kurang hanya serangannya.",
+  "explanation": "## Ide\n\n{{b4}} menyerang kuda dan ia tak punya tempat: b3 menabrak axb3, c4 menabrak dxc4, c6 menabrak dxc6, dan b7 terhalang pion Hitam sendiri. Kuda di a5 tinggal satu langkah pion dari menjadi kenangan."
+}

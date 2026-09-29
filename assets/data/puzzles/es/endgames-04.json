@@ -1,0 +1,11 @@
+{
+  "id": "endgames-04",
+  "fen": "4K3/k3P3/8/8/8/8/2R5/7r w - - 0 1",
+  "solution": [
+    "Rc4"
+  ],
+  "title": "Pon primero la tabla",
+  "setup": "El peón está a una casilla de coronar y tu rey ocupa la casilla que necesita. Construye el refugio del rey contra los jaques antes de que salga.",
+  "hint": "Averigua dónde estará tu rey cuando empiecen los jaques, y dale a la torre una casilla que ese rey pueda defender.",
+  "explanation": "## La idea\n\n{{Rc4}} construye el puente antes de que salga el rey. En la cuarta fila la torre espera los jaques: una vez que el rey ha bajado a su lado, la torre se cruza y tapa en una casilla que el rey defiende. Desde c4 además sigue cortando al rey negro del peón.\n\nCon el rey negro tan lejos, salir de inmediato también gana. El puente es el método que funciona en todas las posiciones de Lucena, y por eso merece la pena jugarlo incluso aquí."
+}

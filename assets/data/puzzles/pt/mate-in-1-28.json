@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-28",
+  "fen": "1k6/pp6/1P6/8/8/8/8/1K4R1 w - - 0 1",
+  "solution": [
+    "Rg8#"
+  ],
+  "title": "Mate Com Cunha de Peão",
+  "setup": "O teu peão em b6 está mesmo à frente do rei preto, e os peões das próprias pretas estão em a7 e b7.",
+  "hint": "Os peões pretos tapam duas casas e o teu peão guarda a terceira. À torre falta a linha de fundo.",
+  "explanation": "## A Ideia\n\nIsto é um mate da linha de fundo com uma ajuda silenciosa de peão. O peão de b6 não dá xeque, mas cobre c7, a única casa a que a torre não chega.\n\n{{Rg8#}} dá xeque pela oitava linha. a8 e c8 estão na linha da torre, a7 e b7 têm os peões das próprias pretas, e c7 está coberta pelo teu peão. Nada pode tapar.\n\nQuando um rei está preso atrás de dois peões, procura um peão teu que cubra a terceira casa."
+}

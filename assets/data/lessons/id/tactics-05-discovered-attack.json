@@ -1,0 +1,56 @@
+{
+  "id": "discovered-attack",
+  "title": "Serangan Tersingkap",
+  "summary": "Buah yang bergerak bukanlah buah yang menyerang",
+  "proof": "discovered-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Benteng Sudah Membidik",
+      "text": "Benteng Anda di e1 dan raja Hitam di e8 berdiri di lajur yang sama, dan satu-satunya yang ada di antara keduanya adalah kuda Anda sendiri.\n\nSetiap taktik sejauh ini adalah buah yang Anda sentuh yang menimbulkan kerusakan. Yang ini tidak. Gerakkan kuda dan benteng menyerang raja yang sudah dibidiknya sepanjang waktu — kuda tak pernah mendekati e8. Yang penting hanyalah ia meninggalkan lajur itu. Benteng yang bergeser naik turun di lajur yang sama masih akan menghalangi.\n\nSatu buah bergerak, buah lain yang menyerang. Itulah **serangan tersingkap**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Bebas Pergi ke Mana Saja",
+      "text": "Tak ada langkah kuda yang membuatnya tetap di lajur yang ditinggalkannya, jadi kedelapan petak kuda membuka garis benteng, dan kedelapannya adalah sekak. Karena garis itu berakhir di raja, versi ini punya nama sendiri: **sekak tersingkap**.\n\nInilah yang membuat kuda berani. {{Nc3+}} melangkah ke lajur c di depan mata menteri Hitam di c5, dan menteri tak bisa menangkapnya — menangkap kuda akan membiarkan raja hitam dalam sekak dari benteng, dan itu bukan langkah yang sah.\n\nSelama satu giliran, buah yang bergerak tak bisa disentuh."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Pakai langkah bebas kuda untuk barang termahal milik Hitam.",
+      "targetSan": [
+        "Nxc5+"
+      ],
+      "hint": "Delapan petak kuda tidak sama nilainya — salah satunya ditempati sesuatu."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Apa yang Dibeli Sekak",
+      "text": "{{Nxc5+}} mengambil menteri, dan sekak tiba bersamanya, dari benteng yang sepanjang giliran itu diam di tempat.\n\nGaris yang Anda buka tak harus berakhir di raja. Tempatkan menteri hitam di ujung lajur sebagai gantinya, dan langkah kuda yang sama memenangkan menteri itu — tetapi Hitam lalu punya pilihan: melindunginya, memindahkannya, atau memulai ancaman yang lebih besar di tempat lain.\n\nSekak menghapus ketiganya. Itulah satu-satunya perbedaan antara serangan tersingkap dan sekak tersingkap, dan perbedaannya besar."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Tak Ada Lagi yang Bisa Diambil",
+      "text": "Lajur e tersusun persis seperti sebelumnya: benteng di e1, kuda di e4, raja Hitam di e8. Yang tidak ada adalah sesuatu untuk dimakan kuda. Benteng Hitam di a8 sama sekali tak bisa mencapai lajur e, dan pion di b7 tak akan pergi ke tempat yang berguna.\n\nJadi langkah bebas itu harus membeli sesuatu selain materi, dan ada satu hal yang ditawarkan. Daratkan kuda di petak yang juga menyerang e8, dan benteng tak lagi memberi sekak sendirian."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Dua Pemberi Sekak, Satu Jawaban",
+      "text": "Dua buah yang memberi sekak pada langkah yang sama disebut **sekak ganda**.\n\nSekak punya tiga jawaban: menangkap pemberi sekak, menghalangi garis, atau memindahkan raja. Sekak ganda menghapus dua yang pertama. Tangkap satu pemberi sekak dan yang lain masih memberi sekak. Menghalangi akan memerlukan satu buah yang berdiri di dua garis sekaligus.\n\nJadi raja bergerak, dan benteng di a8 seolah tak ada. Hanya itu yang dilakukan sekak ganda: dengan sendirinya ia tak memenangkan apa pun. Petak tempat kuda mendaratlah yang menentukan sisanya.\n\n> Buah yang menghalangi jalan Anda sendiri adalah buah yang harus digerakkan."
+    },
+    {
+      "type": "play",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Beri sekak dengan kedua buah sekaligus, dan daratkan kuda di tempat ia juga menyerang sesuatu.",
+      "targetSan": [
+        "Nd6+"
+      ],
+      "hint": "Dua petak kuda memberi sekak ganda; hanya satu di antaranya yang juga menyerang pion di b7."
+    }
+  ]
+}

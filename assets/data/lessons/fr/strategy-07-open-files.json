@@ -1,0 +1,56 @@
+{
+  "id": "open-files",
+  "title": "Les colonnes ouvertes",
+  "summary": "Des routes pour les tours — et comment en construire une",
+  "proof": "strategy-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Comptez les pions e",
+      "text": "Il n'y en a aucun. Ils ont disparu aux troisième et quatrième coups, et ce qui reste est un couloir qui court sur toute la hauteur de l'échiquier et aboutit au roi noir en e8.\n\nCe couloir est une **colonne ouverte** : une colonne sans aucun pion, d'aucune couleur. Deux pièces s'y tiennent, le cavalier en e4 et le fou en e7, et les pièces bougent. Les pions sont la seule chose sur un échiquier qui ne peut pas s'écarter de côté du chemin d'une tour, et ici il n'y en a aucun."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "À qui est la route ?",
+      "text": "Une tour sur un échiquier fermé est une spectatrice. Donnez-lui une colonne sans pions et elle vaut enfin son prix, car une colonne est à la tour ce qu'une diagonale est au fou — la seule chose dont elle se nourrit.\n\nMais quelle tour ? L'une des vôtres est coincée derrière son propre cavalier en b1 et ne peut pas passer. L'autre est libre.\n\nEt la tour passe en premier, la dame derrière. Une dame en tête de colonne est une cible que n'importe quelle pièce mineure peut chasser en gagnant un temps."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "prompt": "Placez la pièce qui vit sur les colonnes sur la seule colonne où il ne reste aucun pion.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "Vous avez deux tours et une seule peut atteindre ce couloir en un pas."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Trois tâches, un coup",
+      "text": "{{Re1}} fait entrer la tour dans la partie, attaque le cavalier en e4 le long d'un couloir où il n'y a rien d'autre, et vise un roi qui n'a pas encore bougé.\n\nLes Noirs doivent répondre. {{Bg4}} cloue le cavalier en f3 sur la dame en d1, et les Blancs continuent par {{c4}}, qui frappe le pion en d5.\n\nRemettez un pion blanc en e2 et rien de tout cela n'existe. La tour reste chez elle derrière lui, et les Blancs jouent le milieu de partie avec une pièce de moins."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Presque une route",
+      "text": "Nouvel échiquier, problème plus difficile : chaque colonne ici porte un pion, et les deux tours blanches n'ont rien à viser.\n\nLa colonne c est ce qui ressemble le plus à une route. Les Blancs n'ont plus aucun pion c, donc seul le pion noir en c6 la tient fermée — semi-ouverte, et une colonne semi-ouverte attend d'être achevée.\n\nCe pion ne partira jamais de lui-même. Un pion ne quitte sa colonne que pour une seule raison : prendre quelque chose. Les Blancs doivent donc lui donner quelque chose à prendre."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Moins de pions, plus de pression",
+      "text": "Quel pion fait levier ? Un seul pion blanc peut jamais toucher c6 : le pion en b4, avec le pion en a2 derrière lui en réserve.\n\nDeux pions blancs contre trois pions noirs sur cette aile, cela ressemble au mauvais côté d'un compte. C'est une **attaque de minorité**, et c'est un pied-de-biche. Les Noirs ont trois réponses à un pion glissé sous c6, et les trois sont des concessions : prendre, et la colonne s'ouvre ; pousser au-delà, et le pion c ne couvre plus rien ; ne rien faire, et les Blancs échangent en c6 en laissant un pion faible derrière eux.\n\n> Une tour n'attend pas une colonne ouverte. Elle en choisit une et l'ouvre."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "prompt": "Forcez l'ouverture de la colonne c en attaquant le pion noir qui s'y tient.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Comptez les pions sur chaque aile, puis demandez-vous lequel des vôtres peut atteindre c6 en un pas."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "fianchetto-proof",
+  "fen": "5rk1/pp1bppbp/3p1np1/q7/2r1P1P1/2N1BP2/PPPQN3/2KR3R w - - 3 17",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Karpov Dà la Caccia all'Alfiere",
+  "setup": "Karpov contro Korchnoi, Mosca 1974. I vostri pedoni sono saliti sull'ala di re, e un pezzo nero difende ancora le case scure attorno al re nero.",
+  "hint": "Contro un fianchetto date la caccia a un pezzo solo. Quale dei vostri cammina sulle stesse case?",
+  "explanation": "## L'idea\n\n{{Bh6}} offre il vostro alfiere camposcuro in cambio di quello nero, l'unico pezzo che risponde di f6 e h6. Dopo {{Bxh6}} {{Qxh6}} la donna atterra sulla casa ceduta dal pedone g e fissa g7 e h7, e nessun pedone nero potrà mai cacciarla via.\n\nKarpov continuò ad arrivare con il pedone g e con le torri, e il Nero abbandonò dieci mosse dopo."
+}

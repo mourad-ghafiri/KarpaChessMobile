@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-01",
+  "fen": "1r4k1/p4ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rxb8#"
+  ],
+  "title": "Mühürleyen Değişim",
+  "setup": "İki şah da piyonlarının arkasına çekilmiş ve kaleler b dikeyinde karşı karşıya. Önce vuran yaşar.",
+  "hint": "Bir taş almaya değişim demeden önce hangi siyah taşın geri alabildiğini hesaplayın.",
+  "explanation": "## Fikir\n\nSiyahın g8'deki şahının kendine ait hiçbir karesi yok: f7, g7 ve h7'de piyonları durur; f8 ile h8 ise sekizinci yataydadır.\n\nYani b8'deki kale bir takas ortağı değil. O yatayın tek koruyucusudur ve {{Rxb8#}} onu alıp anında mat eder: şah b8'e ulaşamaz ve piyonlar geri gitmez.\n\nAçık bir dikeydeki son kaleyi değişmeden önce onun orada durmaktan başka ne yaptığını sorun."
+}

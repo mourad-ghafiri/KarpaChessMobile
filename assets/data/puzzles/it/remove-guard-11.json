@@ -1,0 +1,14 @@
+{
+  "id": "remove-guard-11",
+  "fen": "1rn3k1/p4ppp/6q1/3N4/8/8/5PPP/2R2QK1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Rxc8",
+    "Ne7+"
+  ],
+  "rating": 1420,
+  "title": "Liberate la Casa della Forchetta",
+  "setup": "Il vostro cavallo adorerebbe e7, da dove colpisce insieme re e donna, ma il cavallo in c8 copre quella casa.",
+  "hint": "Trovate la casa da cui il vostro cavallo colpirebbe due pezzi, poi chiedetevi chi la difenda.",
+  "explanation": "## L'idea\n\n{{Rxc8+}} prende il pezzo che copre e7, e {{Rxc8}} riprende su una casa che non la copre. {{Ne7+}} inforchetta re e donna; dopo che il re si è spostato, {{Nxg6}} vince la donna per una torre."
+}

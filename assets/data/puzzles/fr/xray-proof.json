@@ -1,0 +1,13 @@
+{
+  "id": "xray-proof",
+  "fen": "6k1/pq3pp1/1p5p/4b3/4r3/5N1Q/PPP2PPP/4RK2 w - - 0 1",
+  "solution": [
+    "Nxe5",
+    "Rxe5",
+    "Rxe5"
+  ],
+  "title": "Protégé à travers la tour",
+  "setup": "Le fou en e5 a un seul défenseur, la tour devant lui, et cette tour se tient sur la colonne de votre propre tour.",
+  "hint": "Comptez ce qui garde une case après que la tour noire a quitté e4, pas avant.",
+  "explanation": "## L'idée\n\n{{Nxe5}} place votre cavalier là où la tour en e4 peut le prendre, et c'est tout l'intérêt. Votre tour en e1 protège e5 à travers la tour noire : dès qu'elle prend, elle ouvre la colonne derrière elle, et votre tour la reprend. Les Noirs ne peuvent donc pas vraiment reprendre. Le mieux pour eux est d'échanger les tours en e1 et de rester avec une pièce de moins."
+}

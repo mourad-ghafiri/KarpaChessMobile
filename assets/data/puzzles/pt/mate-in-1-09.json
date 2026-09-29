@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-09",
+  "fen": "7k/5K1p/8/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "O Seu Peão, a Sua Jaula",
+  "setup": "O rei preto está no canto atrás do seu próprio peão de h7, e o teu rei em f7 está ali ao lado.",
+  "hint": "O teu rei já cobre g7 e g8. À torre só falta chegar à linha de fundo.",
+  "explanation": "## A Ideia\n\n{{Ra8#}} dá xeque pela linha de fundo. O teu rei de f7 cobre g7 e g8, o peão das próprias pretas ocupa h7, e nada pode comer a torre nem tapar o xeque.\n\nNum final de rei e torre, o teu rei encaixota o rei inimigo e a torre dá o xeque."
+}

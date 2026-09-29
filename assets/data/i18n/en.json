@@ -1,0 +1,649 @@
+{
+  "language": {
+    "name": "English"
+  },
+  "ui": {
+    "brand": {
+      "title": "KarpaChess"
+    },
+    "button": {
+      "flip": "Flip",
+      "undo": "Undo",
+      "hint": "Hint",
+      "dismiss": "Dismiss",
+      "chooseFile": "Choose file…",
+      "settings": "Settings",
+      "close": "Close",
+      "back": "Back",
+      "next": "Next",
+      "save": "Save"
+    },
+    "label": {
+      "difficulty": "Difficulty",
+      "playAs": "Play as",
+      "timeControl": "Time control"
+    },
+    "placeholder": {
+      "pgnInput": "Paste PGN or a move list (e.g. e4 e5 Nf3 Nc6)…",
+      "drawText": "Type…"
+    },
+    "aria": {
+      "capturedByWhite": "Pieces captured by white",
+      "capturedByBlack": "Pieces captured by black",
+      "chessBoard": "Chess board",
+      "dismissHint": "Dismiss hint"
+    },
+    "toast": {
+      "parseFail": "Could not parse: {error}",
+      "fileTooLarge": "That file is too large to import."
+    }
+  },
+  "game": {
+    "result": {
+      "stalemate": "Stalemate",
+      "draw": "Draw",
+      "timeout": "Time out"
+    },
+    "resultSub": {
+      "whiteWins": "White wins",
+      "blackWins": "Black wins",
+      "stalemate": "Draw by stalemate",
+      "fiftyMove": "50-move rule",
+      "insufficient": "Insufficient material",
+      "repetition": "Threefold repetition",
+      "whiteWinsTime": "White wins on time",
+      "blackWinsTime": "Black wins on time"
+    },
+    "side": {
+      "white": "White",
+      "black": "Black"
+    },
+    "playerDefault": {
+      "bottom": "You"
+    },
+    "playAsOption": {
+      "white": "White",
+      "random": "Random",
+      "black": "Black"
+    },
+    "timeControl": {
+      "unlimited": "Unlimited"
+    },
+    "difficulty": {
+      "1": "Beginner",
+      "2": "Casual",
+      "3": "Club",
+      "4": "Full strength"
+    }
+  },
+  "chess": {
+    "piece": {
+      "p": "pawn",
+      "n": "knight",
+      "b": "bishop",
+      "r": "rook",
+      "q": "queen",
+      "k": "king"
+    },
+    "pieceCapital": {
+      "p": "Pawn",
+      "n": "Knight",
+      "b": "Bishop",
+      "r": "Rook",
+      "q": "Queen",
+      "k": "King"
+    },
+    "direction": {
+      "kingside": "kingside",
+      "queenside": "queenside"
+    }
+  },
+  "hint": {
+    "checkmate": "Delivers <b>checkmate</b>. End it!",
+    "castle": "Castles {dir} — tucks the king behind a wall of pawns.",
+    "promote": "Pushes to the last rank and promotes to a <b>{piece}</b>.",
+    "capture": "Your <b>{piece}</b> captures the <b>{target}</b>.",
+    "develop": "Develops your <b>{piece}</b> to <b>{square}</b>, improving activity and eyeing the center.",
+    "pawn": "Advances your <b>pawn</b> to <b>{square}</b>, claiming space.",
+    "rook": "Activates your <b>rook</b> on <b>{square}</b> — open files love rooks.",
+    "queen": "Brings the <b>queen</b> to <b>{square}</b> with purpose.",
+    "quiet": "Improves your <b>{piece}</b> to <b>{square}</b>.",
+    "checkSuffix": " Also gives <b>check</b>."
+  },
+  "coach": {
+    "whisper": {
+      "tip5": "Look for pieces without defenders — yours and theirs."
+    },
+    "builtin": {
+      "bestMove": {
+        "recommendation": "My recommendation: <b>{move}</b>.",
+        "noEngine": "The engine did not answer. Here is what the position itself shows.",
+        "whyHeader": "<b>Why this makes sense here:</b>",
+        "castle": "• King still in the center — castling is a top priority.",
+        "develop": {
+          "one": "• A minor piece is still on {squares} — develop it.",
+          "other": "• Minor pieces still on {squares} — develop them."
+        },
+        "center": "• No pawn on the central four — a central pawn push is valuable.",
+        "loose": {
+          "one": "• Opponent has a <b>loose piece</b>: {list}. Look for a way to win it.",
+          "other": "• Opponent has <b>loose pieces</b>: {list}. Look for ways to win them."
+        },
+        "oppKing": "• Opponent's king is <b>{score}</b> — attacking moves often work.",
+        "ownKing": "• Your king is under fire — consider defense first.",
+        "passedEnd": {
+          "one": "• You have a <b>passed pawn</b> on {squares} — push it!",
+          "other": "• You have <b>passed pawns</b> on {squares} — push them!"
+        },
+        "activeKing": "• Activate your king — in endgames, he's a fighting piece.",
+        "ahead": {
+          "one": "• You're up {n} point — trade pieces, keep pawns.",
+          "other": "• You're up {n} points — trade pieces, keep pawns."
+        },
+        "behind": {
+          "one": "• You're down {n} point — create complications.",
+          "other": "• You're down {n} points — create complications."
+        },
+        "evalSuffix": "_Eval: {eval}_"
+      },
+      "tactics": {
+        "header": "<b>Tactical scan for {side}</b>",
+        "loose": {
+          "one": "Opponent has {n} undefended piece: {list}.",
+          "other": "Opponent has {n} undefended pieces: {list}."
+        },
+        "defended": "Opponent's pieces look defended. Harder tactics — look for pins, decoys, or clearance moves.",
+        "exposedKing": "Their king is <b>{score}</b> ({notes}) — mating patterns may be lurking.",
+        "openLines": "open lines",
+        "queenTarget": "Their queen on <b>{square}</b> — can you attack her cheaply to gain tempo?",
+        "engineSuggests": "Engine suggests <b>{move}</b> — does that move fit any of the patterns above?",
+        "footer": "_Train your eye to spot these three every move: loose pieces, exposed kings, overworked defenders._"
+      },
+      "plan": {
+        "header": "<b>Plan for {side}</b> _({phase})_",
+        "developMinors": {
+          "one": "Develop your remaining minor piece from {squares}.",
+          "other": "Develop your remaining minor pieces from {squares}."
+        },
+        "castle": "Castle — king safety first.",
+        "queenEarly": "Careful — queen moved before all minor pieces were developed. Don't let her be chased.",
+        "centerPawn": "Put a pawn on the central four (d4/e4/d5/e5).",
+        "kingDanger": "Your king is in danger — improve defense before attacking.",
+        "oppositeWings": "Both kings have castled — if on opposite sides, storm the enemy king with your pawns.",
+        "pushPassed": {
+          "one": "Push your passed pawn on {squares}.",
+          "other": "Push your passed pawns on {squares}."
+        },
+        "isolated": {
+          "one": "Watch your isolated pawn on {squares} — activity compensates for weakness.",
+          "other": "Watch your isolated pawns on {squares} — activity compensates for weakness."
+        },
+        "improveWorst": "Improve your worst piece. Every move should make one of your pieces better.",
+        "racePassed": {
+          "one": "Race your passed pawn on {squares} to promotion.",
+          "other": "Race your passed pawns on {squares} to promotion."
+        },
+        "activateKing": "Activate your king — walk him into the action.",
+        "aheadTrade": {
+          "one": "You're up {n} point — trade pieces (not pawns) to simplify to a winning endgame.",
+          "other": "You're up {n} points — trade pieces (not pawns) to simplify to a winning endgame."
+        },
+        "behindKeep": {
+          "one": "You're down {n} point — keep pieces on the board, create counterplay, avoid trades.",
+          "other": "You're down {n} points — keep pieces on the board, create counterplay, avoid trades."
+        },
+        "fewPawns": "Few pawns left — think about opposition, zugzwang, and key squares."
+      },
+      "lastMove": {
+        "none": "No moves played yet — start with a central pawn (e4 or d4) or a knight move (Nf3).",
+        "capture": "captured material",
+        "check": "delivered check",
+        "checkmate": "delivered checkmate",
+        "castleKingside": "castled kingside",
+        "castleQueenside": "castled queenside",
+        "promote": "promoted a pawn",
+        "line": "<b>{san}</b> — {anns}.",
+        "quiet": "<b>{san}</b> — a quiet positional move.",
+        "evalLine": "Eval now: {eval}. ",
+        "topChoice": "Engine's top choice going forward: <b>{move}</b>."
+      },
+      "evaluation": {
+        "header": "<b>Position assessment</b> _({phase}, {side} to move)_",
+        "material": "• <b>Material:</b> White {w} vs Black {b}{diff}",
+        "equalSuffix": " (equal)",
+        "diffSuffix": " — {side} is +{n}",
+        "engine": "• <b>Engine:</b> {eval}",
+        "whiteKing": "• <b>White king:</b> {score}{notes}",
+        "blackKing": "• <b>Black king:</b> {score}{notes}",
+        "notesFmt": " ({notes})",
+        "pawnWeaknessesWhite": "• <b>White pawn issues:</b> {list}",
+        "pawnWeaknessesBlack": "• <b>Black pawn issues:</b> {list}",
+        "isolatedPrefix": "isolated {sq}",
+        "doubledPrefix": "doubled on {file}",
+        "passedWhite": {
+          "one": "• <b>White passed pawn:</b> {squares}",
+          "other": "• <b>White passed pawns:</b> {squares}"
+        },
+        "passedBlack": {
+          "one": "• <b>Black passed pawn:</b> {squares}",
+          "other": "• <b>Black passed pawns:</b> {squares}"
+        },
+        "topMove": "• <b>Engine's top move:</b> <b>{move}</b>"
+      },
+      "kingSafety": {
+        "header": "<b>King Safety</b>",
+        "line": "• <b>{side} king</b> ({who}): {score}{castled}. {notes}",
+        "you": "you",
+        "opponent": "opponent",
+        "castledSuffix": " — castled",
+        "noConcerns": "No immediate concerns.",
+        "footer": "If your king is exposed: defend first. If your opponent's is exposed: look for checks, rook lifts, and queen infiltration."
+      },
+      "phase": {
+        "opening": "opening",
+        "middlegame": "middlegame",
+        "endgame": "endgame"
+      },
+      "kingScore": {
+        "safe": "safe",
+        "exposed": "exposed",
+        "danger": "danger",
+        "shelter": "shelter",
+        "waiting": "waiting",
+        "active": "active",
+        "unknown": "unknown"
+      },
+      "kingNote": {
+        "tuckedCorner": "still tucked in the corner — centralize him",
+        "startingSquare": "king on his starting square — walk him out",
+        "activeOn": "active king on {square}",
+        "wanderingOn": "king wandering on {square}",
+        "centerAfter8": "king still in the center after move 8",
+        "thinShield": "thin pawn cover ({count}/3)",
+        "enemyHeavy": "enemy heavy piece on the king's file",
+        "fullShield": "castled with a full pawn shield"
+      },
+      "eval": {
+        "unclear": "unclear",
+        "balanced": "balanced ({pawns})",
+        "better": "{sign}{pawns} — <b>{side}</b> is better"
+      },
+      "topLines": {
+        "header": "<b>Top engine candidates</b>",
+        "item": "{rank}. {san} — {eval}"
+      },
+      "threatLine": "<b>Watch out:</b> if it were {side}'s turn, {san} would be the threat ({eval}).",
+      "pieceOn": "{piece} on {square}"
+    },
+    "ask": {
+      "bestMove": "Best move",
+      "tactics": "Tactics",
+      "plan": "Plans",
+      "lastMove": "This move",
+      "evaluation": "Evaluation",
+      "kingSafety": "King safety"
+    },
+    "askAnother": "Another question"
+  },
+  "settings": {
+    "title": "Settings",
+    "boardTheme": "Board theme",
+    "toggle": {
+      "coords": "Show coordinates",
+      "legal": "Highlight legal moves",
+      "last": "Highlight last move",
+      "sound": "Sound",
+      "animations": "Animations"
+    },
+    "language": "Language",
+    "dangerZone": "Danger zone",
+    "resetBtn": "Reset progress & settings",
+    "resetConfirm": "Reset all progress and settings?",
+    "about": "About",
+    "version": "Version {version}",
+    "licenses": "Open-source licenses",
+    "privacy": "Privacy policy",
+    "privacyBody": "KarpaChess collects no personal data. It has no account, no ads, no analytics and no tracking, and it never connects to the internet. Your progress, settings, games and photos are stored only on your device, and in your device's own backups if you use them; they are never sent to us or to anyone else. In Settings you can erase your progress, settings and player photo, and deleting the app removes everything it stored. The full policy is at {url}",
+    "sourceNotice": "KarpaChess is free software under the GNU GPL v3. Its complete source code is at {url}"
+  },
+  "commentator": {
+    "importLede": "Copy a PGN and it will appear here, or open a file below.",
+    "sampleGames": "Study games",
+    "searchGames": "Search player, event or ECO",
+    "allGames": "All",
+    "myGames": "My games",
+    "noGames": "No game matches that search.",
+    "moveCount": {
+      "one": "{n} move",
+      "other": "{n} moves"
+    },
+    "import": "Import",
+    "importTitle": "Import a game",
+    "importTileBlurb": "Paste a PGN or open a .pgn file — it stays in your library.",
+    "importFound": "Found this on your clipboard. Import it?",
+    "pasteInstead": "Paste something else",
+    "importName": "Name",
+    "importNameHelp": "Optional — a move list with no headers needs one to be findable.",
+    "remove": "Remove",
+    "removeGame": "Remove this game?",
+    "removeGameBody": "It leaves your library. Games that came with the app are not affected.",
+    "close": "Close this match and return to import",
+    "confirmClose": "Close this match and return to import?",
+    "moves": "Moves",
+    "badgesShow": "Show engine icons on board",
+    "badgesHide": "Hide engine icons on board",
+    "firstMove": "First move (Home)",
+    "prevMove": "Previous (←)",
+    "nextMove": "Next (→)",
+    "lastMove": "Last (End)",
+    "mainLine": "Return to main line (↑)",
+    "untitled": "Untitled",
+    "drawTools": {
+      "select": "Select",
+      "arrow": "Arrow",
+      "box": "Rectangle",
+      "circle": "Square",
+      "pen": "Pen",
+      "text": "Text",
+      "deleteSelected": "Delete selected (Del)",
+      "clearAll": "Clear all shapes on this move",
+      "undo": "Undo",
+      "redo": "Redo",
+      "editText": "Edit text"
+    },
+    "result": {
+      "title": "Match summary",
+      "checkmate": "Checkmate · {winner} wins",
+      "stalemate": "Stalemate · draw",
+      "drawnGame": "Drawn game",
+      "whiteWins": "White wins",
+      "blackWins": "Black wins",
+      "white": "White",
+      "black": "Black",
+      "accuracy": "Accuracy",
+      "analyzing": "Computing accuracy…"
+    }
+  },
+  "review": {
+    "title": "Match Review",
+    "analyzing": "Analyzing…",
+    "progress": "Analyzing move {i} of {total}…",
+    "tally": {
+      "best": "Best",
+      "ok": "Good",
+      "inaccurate": "Inaccurate",
+      "mistake": "Mistake",
+      "blunder": "Blunder"
+    },
+    "verdict": {
+      "brilliant": "Brilliant!",
+      "best": "Best move",
+      "good": "Good move",
+      "inaccuracy": "Inaccuracy",
+      "mistake": "Mistake",
+      "blunder": "Blunder"
+    },
+    "betterWas": "The engine preferred {san}.",
+    "takeaway": {
+      "great": "Exactly right — this is the engine's own choice.",
+      "good": "Solid: the position stays on track.",
+      "slip": "Some advantage slips here — {best} was more precise.",
+      "bad": "The turning point. {best} was the move to find."
+    }
+  },
+  "gamify": {
+    "level": "Level {n}",
+    "dayStreak": "{n}-day streak",
+    "earned": "+{n} XP",
+    "levelUp": "Level up!",
+    "dailyGoal": "Daily goal"
+  },
+  "play": {
+    "nav": "Play",
+    "title": "Play Stockfish",
+    "rematch": "Rematch",
+    "review": "Review",
+    "youWon": "You won!",
+    "youLost": "Good fight",
+    "strengthHint": {
+      "1": "Just learning",
+      "2": "Casual club night",
+      "3": "Serious club player",
+      "4": "Full engine power"
+    },
+    "editProfile": "Your profile",
+    "yourName": "Your name",
+    "choosePicture": "Choose picture",
+    "removePicture": "Remove picture",
+    "exitMatch": "Exit match",
+    "exitConfirm": "Leave the current game and return to setup?"
+  },
+  "studio": {
+    "nav": "Studio"
+  },
+  "nbSettings": {
+    "appearance": "Appearance",
+    "themeName": {
+      "tournament": "Tournament",
+      "slate": "Slate",
+      "walnut": "Walnut",
+      "sheesham": "Sheesham",
+      "sage": "Sage"
+    },
+    "pieceSet": "Pieces",
+    "pieceSetName": {
+      "classic": "Classic",
+      "wood": "Wood",
+      "marble": "Marble",
+      "diagram": "Diagram",
+      "modern": "Modern",
+      "deco": "Deco",
+      "facet": "Facet",
+      "silhouette": "Silhouette",
+      "soft": "Soft",
+      "bold": "Bold"
+    },
+    "appTheme": "App theme",
+    "appThemeName": {
+      "midnightGrove": "Midnight Grove",
+      "emberStudy": "Ember Study",
+      "slateFocus": "Slate Focus",
+      "indigoHour": "Indigo Hour",
+      "bronzeAge": "Bronze Age",
+      "jadeTerrace": "Jade Terrace",
+      "plumVelvet": "Plum Velvet",
+      "ivoryHall": "Ivory Hall",
+      "linenMorning": "Linen Morning",
+      "harborLight": "Harbor Light"
+    },
+    "soundFeel": "Sound & feel",
+    "soundPack": {
+      "wood": "Wood",
+      "plastic": "Plastic",
+      "soft": "Soft"
+    },
+    "haptics": "Haptic feedback",
+    "font": "Typeface",
+    "fontName": {
+      "classic": "Classic",
+      "modern": "Modern",
+      "technical": "Technical"
+    }
+  },
+  "draw": {
+    "mode": "Drawing mode",
+    "paused": "Game paused"
+  },
+  "replay": {
+    "autoplay": "Autoplay",
+    "position": "{i} / {total}"
+  },
+  "academy": {
+    "seeIt": "See it",
+    "playIt": "Play it",
+    "ownIt": "Own it",
+    "yourMove": "Your move",
+    "youPlay": "you play {side}",
+    "nav": "Learn",
+    "title": "The Master's Path",
+    "patternOwned": "Pattern owned!",
+    "sharpen": "Sharpen",
+    "sharpenDull": {
+      "one": "{n} pattern getting dull",
+      "other": "{n} patterns getting dull"
+    },
+    "sharpenAllSharp": "All patterns sharp",
+    "findTheMove": "Find the move",
+    "patternBook": "Pattern Book",
+    "ownedCount": "{n} / {total} owned",
+    "continueBtn": "Continue",
+    "art": {
+      "basics": "Foundations",
+      "history": "The Story of Chess",
+      "tactics": "The Blade",
+      "openings": "The First Moves",
+      "endgames": "The Finish",
+      "strategy": "The Plan",
+      "attack": "The Hunt",
+      "culture": "The Chess World"
+    },
+    "rank": {
+      "novice": "Novice",
+      "apprentice": "Apprentice",
+      "clubPlayer": "Club Player",
+      "tactician": "Tactician",
+      "strategist": "Strategist",
+      "candidateMaster": "Candidate Master",
+      "master": "Master of Patterns",
+      "grandmaster": "Grandmaster of Patterns"
+    },
+    "starBronze": "Bronze",
+    "starSilver": "Silver",
+    "starGold": "Gold",
+    "showAnswer": "Here is the idea — try it",
+    "finishLesson": "Finish lesson",
+    "continueLesson": "Continue · {title}",
+    "addedToBook": "Added to your Pattern Book 📖",
+    "bookIntro": "Every pattern you own lives here. Stars grow as you sharpen. Faded boards are going dull — sharpen them before they slip away.",
+    "starNone": "Not yet sharpened",
+    "due": "Due for sharpening",
+    "sharp": "Sharp",
+    "reviewNow": "Sharpen this pattern",
+    "replayLesson": "Replay lesson",
+    "upNext": "Up next",
+    "gotIt": "Got it",
+    "confirmClose": "Leave this lesson? Your XP and your place are kept — you can pick it up where you left off.",
+    "resume": "Continue",
+    "restartLesson": "Restart lesson",
+    "confirmRestart": "Start this lesson over? XP you already earned stays.",
+    "bookEmpty": "Own your first pattern and it will appear here."
+  },
+  "puzzles": {
+    "nav": "Puzzles",
+    "title": "Puzzles",
+    "rating": "Rating",
+    "rated": "Rated",
+    "keepGoing": "Keep going",
+    "keepGoingBlurb": "Puzzles picked for your rating.",
+    "daily": "Daily puzzle",
+    "dailyBlurb": "One puzzle, the same all day.",
+    "packs": "Packs",
+    "findTheMove": "Find the best move.",
+    "solved": "Solved",
+    "runComplete": "Nothing left here",
+    "runSolved": "{n} solved this run",
+    "noneLeft": "No puzzles available.",
+    "pack": {
+      "mate-in-one": {
+        "name": "Mate in One",
+        "blurb": "One move, one mate."
+      },
+      "fork": {
+        "name": "Forks",
+        "blurb": "Attack two things at once."
+      },
+      "back-rank-mate": {
+        "name": "Back Rank",
+        "blurb": "The king trapped behind its own pawns."
+      },
+      "pin": {
+        "name": "Pins",
+        "blurb": "A piece that dare not move."
+      },
+      "skewer": {
+        "name": "Skewers",
+        "blurb": "Hit the valuable one in front."
+      },
+      "mate-in-two": {
+        "name": "Mate in Two",
+        "blurb": "Force it in two moves."
+      },
+      "discovery": {
+        "name": "Discovered Attacks",
+        "blurb": "Move one piece, unleash another."
+      },
+      "trapped": {
+        "name": "Trapped Pieces",
+        "blurb": "Take away the last safe square."
+      },
+      "promotion": {
+        "name": "Promotion",
+        "blurb": "Get the pawn home."
+      },
+      "remove-guard": {
+        "name": "Removing the Guard",
+        "blurb": "Take out the piece holding it together."
+      },
+      "deflection": {
+        "name": "Deflection",
+        "blurb": "Force a defender off its duty."
+      },
+      "decoy": {
+        "name": "Decoy",
+        "blurb": "Lure a piece onto a fatal square."
+      },
+      "smothered": {
+        "name": "Smothered Mate",
+        "blurb": "Mated by its own army."
+      },
+      "pawn-ending": {
+        "name": "Pawn Endings",
+        "blurb": "Opposition, breakthroughs, the square."
+      },
+      "rook-ending": {
+        "name": "Rook Endings",
+        "blurb": "The endgame you will reach most."
+      },
+      "overload": {
+        "name": "Overload",
+        "blurb": "One defender, two jobs."
+      },
+      "zwischenzug": {
+        "name": "In-Between Moves",
+        "blurb": "Insert a threat before recapturing."
+      },
+      "king-hunt": {
+        "name": "King Hunt",
+        "blurb": "Drive the king into the open."
+      },
+      "zugzwang": {
+        "name": "Zugzwang",
+        "blurb": "Every move makes it worse."
+      },
+      "defence": {
+        "name": "Defense",
+        "blurb": "You are the one being mated. Mate first."
+      }
+    },
+    "confirmClose": "End this puzzle run?",
+    "practice": "Practice",
+    "playAgain": "Play again",
+    "replay": "Replay",
+    "showSolution": "Show solution",
+    "failed": "Failed",
+    "flawless": "Flawless",
+    "continuePack": "Continue",
+    "puzzleN": "Puzzle {n}",
+    "bestImproved": "New best! +{xp} XP"
+  }
+}

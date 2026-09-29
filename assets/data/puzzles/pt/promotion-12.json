@@ -1,0 +1,12 @@
+{
+  "id": "promotion-12",
+  "fen": "8/2P5/8/8/3r4/8/2K5/k7 w - - 0 1",
+  "solution": [
+    "c8=R"
+  ],
+  "rating": 1400,
+  "title": "A Torre de Saavedra",
+  "setup": "O teu peão faz dama em c8 com o rei preto encurralado em a1 e a torre preta a vigiar de d4.",
+  "hint": "O rei preto está reduzido ao último canto. Pergunta o que uma dama acabada de nascer faria a esse facto.",
+  "explanation": "## A Ideia\n\nA {{c8=Q}} responde-se {{Rc4+}}, e Qxc4 é afogamento, já que o rei de a1 não tem para onde ir. {{c8=R}} ameaça em vez disso Rc1 mate, e depois de Ra4 as brancas jogam Kb3 e ganham a torre. Esta é a posição de Saavedra, publicada em 1895."
+}

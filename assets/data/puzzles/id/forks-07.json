@@ -1,0 +1,13 @@
+{
+  "id": "forks-07",
+  "fen": "3r3k/p5pp/8/4N3/8/8/P5PP/6K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "Garpu ke Arah Sudut",
+  "setup": "Raja Hitam bersembunyi di sudut h8 di balik pionnya sendiri, dan benteng Hitam di d8 tak punya pembela.",
+  "hint": "Temukan sekak kuda yang juga menyerang benteng. Raja hanya akan punya satu petak untuk dituju.",
+  "explanation": "## Ide\n\n{{Nf7+}} memberi sekak kepada raja di h8 dan menyerang benteng di d8. Pion di g7 dan h7 hanya menyisakan satu petak bagi raja, dan dari g8 ia tak bisa mencapai d8. Sesudah {{Kg8}}, {{Nxd8}} mengambil benteng, dan Anda berubah dari tertinggal kualitas menjadi unggul satu kuda.\n\nRaja yang dikurung pionnya sendiri adalah sasaran paling mudah bagi garpu."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "openings-17",
+  "fen": "rnb1k2r/pp2ppbp/6p1/q1PP4/5B2/2P1P3/P4PPP/2RQKBNR b Kkq - 0 9",
+  "solution": [
+    "Bxc3+"
+  ],
+  "title": "The Diagonal Collects",
+  "setup": "Black handed over the center and two pawns with it, and White has just recaptured on c3 with the b-pawn.",
+  "hint": "White recaptured with a pawn that only one piece is guarding, and your bishop has been aimed at it since move four.",
+  "explanation": "## The Idea\n\nThe bishop on g7 has been aimed down the long diagonal since move four, and this is what it was waiting for.\n\n{{Bxc3+}} takes a pawn back with check. {{Rxc3}} runs into {{Qxc3+}}, because the queen on a5 stands behind the bishop, and {{Qd2}} drops the queen to {{Bxd2+}}. White's best is {{Ke2}}, giving up castling to stay a pawn up.\n\nGive up the center only when you have something to shoot at it with."
+}

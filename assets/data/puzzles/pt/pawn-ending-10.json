@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-10",
+  "fen": "8/1k6/1p6/1P6/8/2K5/8/8 w - - 1 2",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1430,
+  "title": "O Caminho Mais Longo",
+  "setup": "O rei das pretas acabou de se plantar à frente dos peões, e nenhum dos peões pode voltar a mexer.",
+  "hint": "O peão de b6 cobre a5 e c5, portanto pergunta que lado do tabuleiro o rei branco ainda pode usar.",
+  "explanation": "## A Ideia\n\nO peão de b6 guarda a5 e c5, portanto o rei branco nunca pode subir ao lado do seu próprio peão. {{Kd4}} começa a marcha pelo centro: {{Kc7}} {{Ke5}} {{Kd7}} {{Kd5}} e as brancas ganham d5, e6 e d7 por esta ordem, e caminham depois até c6 e comem em b6."
+}

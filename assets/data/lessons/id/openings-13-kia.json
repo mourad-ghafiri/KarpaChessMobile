@@ -1,0 +1,50 @@
+{
+  "id": "kings-indian-attack",
+  "title": "Serangan India Raja",
+  "summary": "Delapan langkah yang selalu Anda mainkan, dan perlombaan yang selalu menyusul",
+  "proof": "openings-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Delapan Langkah, Tanpa Pertanyaan",
+      "text": "Delapan langkah berjalan, dan Putih tak sekali pun bertanya apa yang sedang dilakukan Hitam. Kuda ke f3, pion ke g3, gajah ke g2, raja ke sudut, pion ke d3, kuda ke d2, pion ke e4, benteng ke e1 — dalam urutan apa pun hampir selalu bisa, melawan hampir apa saja.\n\nItulah Serangan India Raja. Ia adalah susunan, bukan variasi, jadi tak ada teori yang harus dibawa: tengah permainan yang sama datang setiap partai, dan Anda cukup mempelajarinya sekali. Fischer memakainya bertahun-tahun melawan Pertahanan Prancis dan Pertahanan Sisilia, memainkan langkah-langkah yang sama setiap kali."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Dua Rencana, Arah Berlawanan",
+      "text": "Hitam tak menunggu satu pun dari itu. Pion-pion sayap menteri adalah hal tercepat di papan, dan semuanya punya alamat tujuan: c2, dan apa pun yang tersisa untuk menjaganya.\n\n{{b5}} adalah dorongan pertama. Yang lain menyusul, lajur c terbuka, dan benteng-benteng Hitam menyerbu turun di sepanjangnya.\n\nTak satu pihak pun akan bertahan. Dalam perlombaan, langkah yang dipakai untuk menoleh ke belakang adalah langkah yang diserahkan kepada pelari yang lain — jadi Putih tak pernah menjawab di sayap menteri sama sekali. Putih menjawab di sayap seberang, tempat pion di e4, gajah di g2 dan kedua kuda sudah mengarah."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p3bppp/2n1pn2/1ppp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - b6 0 9",
+      "prompt": "Rebut ruang di depan buah-buah Anda sendiri dengan dorongan pion yang mengusir kuda yang paling dekat dengan raja Hitam.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "Kuda di f6 adalah satu-satunya pembela sungguhan di dekat raja itu. Pion Anda mana yang bisa menyerangnya?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Mengapa Sayap Aman",
+      "text": "Pion di e5 kini berhadapan langsung dengan pion di e6. Di tengah tak ada lagi yang bisa ditukar dan tak ada lagi yang bisa dibuka, dan justru itulah izin yang dibutuhkan serangan sayap: tak ada garis melalui pusat berarti tak ada jalan menuju raja mana pun lewat sana.\n\nJadi kedua pihak melirik ke samping. Putih memainkan {{h4}}, Hitam menjawab {{b4}}, Putih mendorong {{h5}}, dan tak ada yang mengirim buahnya pulang.\n\n> Seranglah di sayap tempat Anda punya ruang, dan jaga tengah tetap tertutup selama Anda melakukannya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Kurang Satu Penyerang",
+      "text": "Hitung apa yang dibidikkan Putih ke raja Hitam: gajah di g2, kuda di f3, menteri dan benteng yang tak jauh di belakang. Sekarang hitung apa yang tersisa di rumah Hitam. Hampir seimbang, dan hampir tidaklah cukup.\n\nKuda di d2 adalah buah yang akan menentukannya, dan ia berdiri sejauh mungkin dari raja itu. Jalan pendek lewat e4 dikuasai pion Hitam di d5. Jalan panjang melewati petak yang ditinggalkan benteng saat pergi ke e1 — dan dari sana kuda memilih antara e3, yang mengincar d5 dan f5, dan h2, satu lompatan dari g4."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "prompt": "Mulailah perjalanan buah Anda yang paling lambat menuju raja Hitam, lewat satu-satunya jalan yang dibiarkan terbuka oleh pionnya sendiri.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Lihat petak-petak kosong di baris pertama Anda sendiri. Salah satunya adalah jalan masuk kuda menuju sayap raja."
+    }
+  ]
+}

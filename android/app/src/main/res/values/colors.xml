@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#0F1311</color>
+    <!-- The launch window, in the same dark as the icon field and the iOS
+         launch screen, so a cold start never flashes white before the
+         (dark by default) app draws. -->
+    <color name="launch_background">#0F1311</color>
+</resources>

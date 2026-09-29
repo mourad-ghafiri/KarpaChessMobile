@@ -1,0 +1,14 @@
+{
+  "id": "defence-05",
+  "fen": "3Q4/bq6/5R2/8/8/7r/4K3/2k5 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kb1",
+    "Rf1#"
+  ],
+  "rating": 1610,
+  "title": "Two Moves, No More",
+  "setup": "Your king on e2 is boxed in by Black's queen, rook and bishop, and Black's king has crept to c1.",
+  "hint": "You cannot both defend and attack. Work out how many checks you have and whether they run out.",
+  "explanation": "## The Idea\n\n{{Qd2+}} forces {{Kb1}}, and {{Rf1#}} mates along the first rank. There was never a defensive move worth playing — the position was decided by whose attack was one tempo shorter."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-06",
+  "fen": "4k3/8/2N5/4q3/B7/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxe5+"
+  ],
+  "title": "Açılan Şah Veziri Kazanıyor",
+  "setup": "Siyahın e5'teki veziri e dikeyinden şahınıza şah çekiyor. c6'daki atınız, a4'teki filiniz ile siyahın şahı arasında duruyor.",
+  "hint": "At, sizden gelecek bir şahın önünü kapatıyor. Onu gerçekten iş gördüğü bir yere oynatın.",
+  "explanation": "## Fikir\n\nŞahınız şah altında ve cevap bir karşı saldırı. c6'daki at, filinizin e8'e giden çaprazını kapatıyor.\n\n{{Nxe5+}} şah çeken veziri alır ve atı oynatmak filden gelen şahı açar. {{Kd8}}, {{Kf8}} ve {{Ke7}} siyahın tek hamleleridir ve hiçbiri ata ulaşmaz.\n\nTaşınız uzun menzilli taşınız ile rakip şah arasında durduğunda, yaptığı her hamle şahla birlikte gelir."
+}

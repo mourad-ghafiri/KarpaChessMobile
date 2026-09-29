@@ -1,0 +1,14 @@
+{
+  "id": "pawn-ending-06",
+  "fen": "5k2/8/5PK1/8/8/8/8/8 w - - 1 2",
+  "solution": [
+    "f7",
+    "Ke7",
+    "Kg7"
+  ],
+  "rating": 1280,
+  "title": "Nada más gana",
+  "setup": "El rey negro acaba de pasar a f8, justo delante del peón, y las Blancas tienen que elegir.",
+  "hint": "Cinco de las seis jugadas blancas tiran la victoria; pregúntate cuál le quita casillas al rey negro.",
+  "explanation": "## La idea\n\nParece que {{f7}} encierra al peón, pero cubre e8 y g8, así que {{Ke7}} es forzada y {{Kg7}} lleva el peón a casa. Cualquier jugada de rey, en cambio, deja que el rey negro conserve su puesto delante del peón, y entonces el final es tablas muertas."
+}

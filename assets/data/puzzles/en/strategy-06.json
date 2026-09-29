@@ -1,0 +1,11 @@
+{
+  "id": "strategy-06",
+  "fen": "rnbqnrk1/ppp1ppb1/6p1/4p3/3P4/2N2N2/PPP2PP1/R1BQKB1R w KQ - 0 9",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Buy the Last Dark Square",
+  "setup": "The h-file is open toward Black's king, and one piece guards the dark squares around it: the bishop on g7.",
+  "hint": "Your bishop on c1 can challenge that guard head-on, and your rook on h1 is already backing the square up.",
+  "explanation": "## The Idea\n\nBlack's h-pawn is gone and the g-pawn has left g7, so no black pawn will ever cover h6 again. The bishop on g7 does that job alone.\n\n{{Bh6}} offers to trade it, and the rook on h1 stands behind your bishop. Once the bishops come off, Black has no bishop left for the dark squares, and every one of them around the king is yours to use."
+}

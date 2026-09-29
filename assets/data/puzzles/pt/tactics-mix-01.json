@@ -1,0 +1,15 @@
+{
+  "id": "tactics-mix-01",
+  "fen": "7k/2r2ppp/3B4/2r1Nb2/8/8/PP2Q1Rq/K7 w - - 0 1",
+  "solution": [
+    "Nxf7+",
+    "Rxf7",
+    "Qe8+",
+    "Rf8",
+    "Qxf8#"
+  ],
+  "title": "O Cavalo Liberta a Coluna",
+  "setup": "A tua dama adorava a coluna e, mas o teu próprio cavalo de e5 está no caminho. Encontra a jogada que a liberta e não dá tempo às pretas.",
+  "hint": "Mexe o cavalo com xeque, para que as pretas nunca ganhem uma jogada sobrante para guardar a oitava linha.",
+  "explanation": "## A Ideia\n\n{{Nxf7+}} liberta a coluna e com xeque. Se o rei passar para g8, a dama dá mate em e8 de imediato, portanto as pretas comem o cavalo: {{Rxf7}}.\n\nAgora {{Qe8+}}, e o único bloqueio é {{Rf8}}, a torre que acabou de deixar a sétima linha. {{Qxf8#}}: o teu bispo de d6 guarda a dama, e ao rei não resta casa nenhuma."
+}

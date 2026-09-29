@@ -1,0 +1,12 @@
+{
+  "id": "discovery-09",
+  "fen": "3q2k1/2p2p1p/p5p1/1r6/8/3B4/P4PPP/3R1RK1 w - - 0 1",
+  "solution": [
+    "Bxb5"
+  ],
+  "rating": 1270,
+  "title": "Pas d'échec, et pourtant fatal",
+  "setup": "Votre tour en d1 est alignée sur la dame noire, avec seulement votre propre fou en d3 entre les deux.",
+  "hint": "La tour en b5 est protégée par un pion. Demandez-vous à quoi ressemblera la colonne d une fois que votre fou l'aura quittée.",
+  "explanation": "## L'idée\n\n{{Bxb5}} gagne une tour parce que la reprise coûte plus cher : après axb5, la colonne d est ouverte et Rxd8 prend la dame. Les Noirs doivent laisser le fou là où il est, et les Blancs gardent la tour gagnée. Une découverte n'a pas besoin d'échec pour décider d'une partie."
+}

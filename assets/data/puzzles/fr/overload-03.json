@@ -1,0 +1,14 @@
+{
+  "id": "overload-03",
+  "fen": "r5k1/5ppp/8/8/3R4/8/PP2b3/K2R2Q1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1330,
+  "title": "Une seule tour revient",
+  "setup": "La tour noire garde la dernière rangée depuis a8 et vos tours sont doublées sur la colonne d avec la dame qui surveille depuis g1.",
+  "hint": "Comptez combien de vos pièces peuvent atteindre la huitième rangée, puis combien de pièces noires peuvent répondre.",
+  "explanation": "## L'idée\n\n{{Rd8+}} offre une tour que le défenseur doit prendre, et {{Rxd8}} l'arrache à a8. La seconde tour suit par {{Rxd8#}}. Un seul défenseur ne peut pas répondre à deux attaquants sur la même case ; le compte est toute la tactique."
+}

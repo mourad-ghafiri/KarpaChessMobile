@@ -1,0 +1,56 @@
+{
+  "id": "outposts",
+  "title": "İleri Karakollar",
+  "summary": "Hiçbir rakip piyonun dokunamayacağı kareler",
+  "proof": "strategy-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "Kimsenin Koruyamadığı Kare",
+      "text": "d5'e ne zaman olursa olsun saldırabilecek siyah piyonları sayın. c piyonu hamleler önce değişildi. d6'daki piyon da e5'teki piyon da ondan uzağa bakıyor ve hiçbir piyon geri yürümüyor.\n\nHiç yok. Ne bu hamlede, ne yirmi hamle sonra, ne de hiçbir zaman.\n\nRakip topraklarında, hiçbir rakip piyonun asla saldıramayacağı kareye **ileri karakol** denir. Bu söz “güzel kare” diye yumuşatılıyor ve böylece önemli olan tek kısım kayboluyor: *asla*. Böyle bir delik kapanmaz."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "Kovmanın Bedeli",
+      "text": "Taşları kovan şey piyonlardır. Piyon bir adım ileri gider, taşın oynaması gerekir ve piyon bunu söylemek için neredeyse hiçbir şey harcamamıştır.\n\nd5'te böyle bir piyon yok ve hiç olmayacak. Siyah o kareyi ancak karşılığında gerçek bir taş vererek boşaltabilir — diyelim ata karşılık bir fil; kimsenin isteyerek önermediği bir pazarlık.\n\nGöndereceğiniz taşın at olmasının sebebi de bu. At yavaştır ve menzili kısadır, yani düşman toprağının derinliklerindeki kalıcı bir adres onun için başka her taştan daha değerlidir."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "prompt": "Bir atı, hiçbir siyah piyonun bir daha asla saldıramayacağı yere yerleştirin.",
+      "targetSan": [
+        "Nd5"
+      ],
+      "hint": "Tahtada beyazın iki atı var ve yalnızca biri d5'e dokunuyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/3Np3/4P3/1N2B3/PPP1BPPP/R2Q1RK1 b - - 7 10",
+      "title": "Hesap Geliyor",
+      "text": "At d5'te duruyor ve ucuz hiçbir şey onu oradan kışkışlayamıyor. Kareyi kapsayabilecek her siyah piyon ya gitmiş ya yanlış yöne bakıyor.\n\nSiyah da öder. {{Bxd5}} bir at karşılığında bir fil verir ve {{exd5}} geldikten sonra kareyi bir beyaz piyon tutar; c6 ile e6'yı da siyahın her taşından alır.\n\nÖteki seçenek atı olduğu yerde bırakıp partinin geri kalanını onun etrafında oynamaktır. İki varyant da hoş değil ve kâr da bu: siyahın iki seçeneği de kötüleşti."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "Kendinizinkini Yaratın",
+      "text": "Kimse size iki kez delik ikram etmez. Buradaki siyah piyonlar daha sağlıklı — a7, b7, c6, d5, e6, f7, g7, h7; değişilmiş bir şey yok, mahsur kalmış bir şey yok.\n\nYine de beşinci yataya bakın. d5'teki piyon yanındaki kareleri çoktan geçmiş ve e6'daki piyon d5 ile f5'i kapsıyor, başka bir şeyi değil.\n\nGeriye siyahın yarısının ortasında, yalnızca f piyonunun meydan okuyabileceği tek bir kare kalıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "Sürülmeyecek Piyon",
+      "text": "Siyahın f piyonu o karenin kalan tek koruyucusu ve gelmiyor. f6'daki at yolunda duruyor ve at oynadığında piyonu sürmek g8'deki şahın örtüsünü söker.\n\nRakibinizin meydan okumayı göze alamadığı kare, ulaşamadığı kare kadar iyidir.\n\nBir şey daha. Beyazın d4'teki piyonu kareyi zaten kapsıyor, yani oraya inen at korunmuş olarak iner — siyah onu ne kovalayabilir ne kazanabilir, ancak bir taşla satın alabilir.\n\n> Rakibin piyonları meydan okumayı göze alamaz, sizin piyonunuz orayı korur ve atınız orada yaşar."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "prompt": "Bir atı, siyahın piyonlarının elden çıkardığı ve kendi piyonunuzun zaten koruduğu kareye dikin.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "d piyonunuz iki kareyi koruyor — biri siyahın kampının ortasında."
+    }
+  ]
+}

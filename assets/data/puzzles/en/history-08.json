@@ -1,0 +1,13 @@
+{
+  "id": "history-08",
+  "fen": "r4rk1/pp3ppp/8/8/8/2N5/PPP2PPb/R3RK2 w - - 0 1",
+  "solution": [
+    "g3",
+    "Bxg3",
+    "fxg3"
+  ],
+  "title": "The Calmest Move",
+  "setup": "The black bishop has just helped itself to the h2 pawn, and White's king on f1 cannot reach it.",
+  "hint": "Do not chase the bishop with a piece. The king already covers g1, so its only way out is the diagonal. Which pawn move shuts it?",
+  "explanation": "## The Idea\n\nNo check, nothing to take: the winning move is the calmest one on the board, the kind engines find and people talk themselves out of.\n\n{{g3}} shuts the bishop's diagonal, and the king on f1 already covers g1. Now {{Bxg3}} is Black's least bad try, and {{fxg3}} leaves White a piece up for a pawn. {{Bg1}} drops it to the king at once, and waiting lets {{Kg2}} come for it.\n\nBefore you chase a piece deep in your camp, count its way out."
+}

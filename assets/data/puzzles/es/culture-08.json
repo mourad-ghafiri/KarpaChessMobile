@@ -1,0 +1,13 @@
+{
+  "id": "culture-08",
+  "fen": "1r2k1r1/pbppnp1p/1b3P2/8/Q7/B1PB1q2/P4PPP/3R2K1 w - - 0 21",
+  "solution": [
+    "Qxd7+",
+    "Kxd7",
+    "Bf5+"
+  ],
+  "title": "Los dos alfiles",
+  "setup": "Las Blancas tienen una torre y un caballo de menos, el rey negro nunca enrocó y los dos alfiles blancos le apuntan.",
+  "hint": "Cuenta las casillas del rey negro antes de contar el material: ¿qué queda cuando descuentas el alfil de a3 y el peón de f6?",
+  "explanation": "## La idea\n\n{{Qxd7+}} lanza la dama contra un peón protegido. Rehusar con {{Kf8}} es mate inmediato en e7, así que {{Kxd7}}, y el rey queda a la intemperie con los dos alfiles apuntándole.\n\n{{Bf5+}} es jaque doble, del alfil y de la torre de detrás. {{Kc6}} cae en {{Bd7#}}, y tras {{Ke8}}, {{Bd7+}} y {{Bxe7#}} lo terminan con los mismos dos alfiles.\n\nAnderssen jugó esto en Berlín en 1852, un año después de la Inmortal."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "decoy-07",
+  "fen": "6rk/pp1q2pp/8/5P1R/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1390,
+  "title": "Benteng yang Membayar Lebih Dulu",
+  "setup": "Benteng Anda di h5 menatap h7, benteng Anda yang lain menunggu di d1, dan raja hitam tak bisa bergerak satu petak pun.",
+  "hint": "Tanyakan di petak mana raja harus berdiri agar benteng kedua Anda berarti, lalu bayarlah untuk itu.",
+  "explanation": "## Ide\n\n{{Rxh7+}} mengorbankan benteng dan {{Kxh7}} terpaksa. Lajur h kini kosong di belakangnya, pion di f5 merebut g6, dan {{Rh1#}} berayun menyeberang untuk memberi mat. Dua benteng mengalahkan satu raja begitu lajur di depannya kosong."
+}

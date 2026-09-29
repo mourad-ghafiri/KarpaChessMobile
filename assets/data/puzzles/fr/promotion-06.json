@@ -1,0 +1,14 @@
+{
+  "id": "promotion-06",
+  "fen": "7k/ppp4p/8/PPP5/8/8/7P/7K w - - 0 1",
+  "solution": [
+    "b6",
+    "axb6",
+    "c6"
+  ],
+  "rating": 1200,
+  "title": "Brisez le mur de pions",
+  "setup": "Trois pions font face à trois pions sur l'aile dame, et les deux rois sont garés dans le coin opposé.",
+  "hint": "Trois de front contre trois de front. Sacrifiez-en un au milieu et comptez les temps dont les deux autres ont besoin.",
+  "explanation": "## L'idée\n\n{{b6}} sacrifie un pion pour briser le mur. Après {{axb6}}, {{c6}} perce de nouveau : si {{bxc6}}, le pion a court jusqu'en a8 sans être inquiété, et si les Noirs le laissent, {{cxb7}} et le pion va à dame en b8. Après {{cxb6}} à la place, {{a6}} fait le même travail de l'autre côté.\n\nUn pion sacrifié au milieu de trois peut acheter une dame sur l'aile."
+}

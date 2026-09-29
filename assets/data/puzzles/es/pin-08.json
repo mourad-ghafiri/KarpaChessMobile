@@ -1,0 +1,12 @@
+{
+  "id": "pin-08",
+  "fen": "2k5/b3p3/4r1p1/8/1P1pp2P/P6R/2P1B1K1/8 w - - 0 1",
+  "solution": [
+    "Bg4"
+  ],
+  "rating": 1080,
+  "title": "Cuatro casillas de distancia",
+  "setup": "La torre negra de e6 está en una diagonal blanca que termina en su propio rey, escondido en la esquina de c8.",
+  "hint": "Encuentra la diagonal blanca que va desde tu lado del tablero, a través de la torre, hasta el rey negro.",
+  "explanation": "## La idea\n\nLas casillas g4, f5, e6, d7 y c8 forman una diagonal. {{Bg4}} ocupa su extremo cercano, así que la torre de **e6** queda clavada contra el rey de **c8** y atacada a la vez. Nada defiende la torre, y no se puede mover."
+}

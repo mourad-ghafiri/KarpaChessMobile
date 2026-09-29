@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-02",
+  "fen": "6k1/ppp2p1p/6p1/8/8/2N1P3/PPP2PPb/5K2 w - - 0 1",
+  "solution": [
+    "g3"
+  ],
+  "title": "Fermez la porte de h2",
+  "setup": "Le fou noir vient de prendre votre pion h. Trouvez le coup qui garantit qu'il ne ressortira jamais.",
+  "hint": "Comptez les chemins de retour du fou. Un seul coup de pion peut les fermer tous les deux, pourvu que ce pion soit protégé.",
+  "explanation": "## L'idée\n\n{{g3}} emmure le fou. Depuis h2, il a deux sorties, et les deux ont disparu : votre roi en f1 couvre g1, et le pion en g3 est protégé par le pion en f2.\n\nVient ensuite Kg2, et le fou est perdu. Le mieux que les Noirs puissent en tirer est un seul pion, en prenant en g3."
+}

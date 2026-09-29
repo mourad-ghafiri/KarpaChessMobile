@@ -1,0 +1,15 @@
+{
+  "id": "openings-09",
+  "fen": "rnbqkb1r/pppp1ppp/8/4P3/6n1/7P/PPPNPPP1/R1BQKBNR b KQkq - 0 4",
+  "solution": [
+    "Ne3",
+    "fxe3",
+    "Qh4+",
+    "g3",
+    "Qxg3#"
+  ],
+  "title": "Almamanız Gereken At",
+  "setup": "Beyaz atınıza d2'de edilgen bir atla karşılık verdi, e5 piyonunu aldı ve az önce h3 ile atınızı kovaladı.",
+  "hint": "Atınız saldırı altında. Onu almanın beyazın kendi şahının çatısını söküp atacağı kareyi arayın.",
+  "explanation": "## Fikir\n\nd2'deki at c1'deki filin önünü kestiği için beyazın şahının koyu karelerde pek örtüsü yoktur.\n\n{{Ne3}} d1'deki vezire, beyazın almaya bayılacağı bir kareden saldırır. Almak vahim hatadır: {{fxe3}} geldikten sonra {{Qh4+}} yalnızca {{g3}} bırakır ve {{Qxg3#}} f2'yi kapsarken gerisini beyazın kendi taşları doldurur. Beyazın en iyisi bunun yerine veziri vermektir.\n\nBile isteye içeri yürüyen bir taşı almadan önce, taş almanın neyi açtığını sorun."
+}

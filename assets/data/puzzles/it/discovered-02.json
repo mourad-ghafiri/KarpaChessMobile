@@ -1,0 +1,11 @@
+{
+  "id": "discovered-02",
+  "fen": "rnbqkb1r/pppp2pp/8/8/4N3/8/PPP2PPP/2B1R1K1 w - - 0 1",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "Scacco Doppio sulla Colonna e",
+  "setup": "Il vostro cavallo in e4 è l'unica cosa fra la vostra torre in e1 e il re nero. Qualunque mossa di cavallo dà scacco. Trovate quella che chiude la partita.",
+  "hint": "Due case di cavallo lasciano dare scacco anche al cavallo. Una sola di esse copre anche la casa dove il re scapperebbe.",
+  "explanation": "## L'idea\n\nOgni mossa di cavallo scopre la torre in e1, ma {{Nd6#}} dà scacco anche dal cavallo. Contro uno scacco doppio il re deve muovere, e non ha dove andare: la sua donna e il suo alfiere riempiono d8 e f8, il suo pedone riempie d7, la torre vede e7, e il cavallo copre f7.\n\nL'altro scacco doppio, da f6, lascia f7 aperta, e il re esce a passeggio."
+}

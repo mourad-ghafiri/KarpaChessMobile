@@ -1,0 +1,71 @@
+{
+  "id": "the-skewer",
+  "title": "L'enfilade",
+  "summary": "La géométrie du clouage avec les valeurs inversées, et c'est la pièce de derrière qui paie",
+  "proof": "forks-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Valeurs inversées",
+      "text": "Même colonne, même tour, mêmes deux pièces noires que pour le clouage — et les valeurs sont inversées.\n\nUn clouage attaque la pièce de devant, mais le butin est derrière elle : la pièce la plus précieuse, souvent le roi. C'est ce qui retient la pièce de devant sur la ligne.\n\nL'enfilade les échange. Le roi en d3 est devant et la dame en d6 derrière. Attaquez le long de la colonne, le roi s'écarte, et il ne peut pas emmener la dame avec lui.\n\nFrappez d'abord la plus grosse pièce et ramassez celle devant laquelle elle se tenait. C'est une **enfilade**."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Les trois mêmes pièces",
+      "text": "Trois pièces peuvent réaliser une enfilade, et ce sont les trois qui peuvent clouer : dame, tour, fou. Une enfilade est une ligne, et seules ces trois-là attaquent le long d'une ligne.\n\nCe qui peut être pris en enfilade est une autre liste. N'importe quelles deux pièces adverses sur une même ligne font l'affaire, pourvu que la plus proche vaille davantage — un roi devant une dame, une dame devant une tour, une tour devant un fou. C'est l'échiquier qui en décide, pas vous. Votre travail est de trouver la ligne et de vous y placer."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Deux échecs",
+      "text": "Vous avez deux échecs ici, et un seul est une enfilade.\n\n{{Ra3+}} arrive sur la troisième rangée et met le roi en échec de côté. Il arrive aussi sur une case que la dame peut atteindre : {{Qxa3}}, et une tour est perdue pour rien.\n\nCe n'est pas l'échec qui fait fonctionner une enfilade. C'est la ligne. Ce qui compte, c'est la ligne sur laquelle arrive l'échec — celle où se tiennent les deux pièces noires."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "prompt": "Attaquez le roi noir le long de la colonne qu'il partage avec la dame, pour qu'il soit obligé de bouger.",
+      "targetSan": [
+        "Rd1+"
+      ],
+      "hint": "Les deux pièces noires sont sur la colonne d, et toutes les cases entre elles et votre première rangée sont vides."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "Six cases, toutes pareilles",
+      "text": "L'échec laissait aux Noirs six coups légaux, et tous étaient des coups de roi : rien ne pouvait s'interposer sur une colonne vide, et rien ne pouvait atteindre la tour. Les Noirs ont choisi e3. Les cinq autres livrent la dame tout aussi facilement.\n\nRemarquez le peu qu'a fait la tour. Jusqu'ici, elle n'avait pas attaqué la dame une seule fois — elle a attaqué le roi, et le roi s'est écarté de lui-même. La ligne était déjà là. La tour n'avait qu'à s'y placer."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "L'échec n'est pas obligatoire",
+      "text": "Une enfilade n'a pas besoin d'échec. Pointez un fou sur une dame avec une tour derrière elle sur la même diagonale, depuis une case que rien ne peut prendre, et la tour tombe tout de même.\n\nCe que l'échec retire, ce sont les choix. Sans lui, votre adversaire peut s'interposer entre les deux, prendre la pièce qui réalise l'enfilade, ou abandonner la pièce de devant et lancer une menace plus grosse ailleurs. Face à un échec, rien de tout cela n'est légal à moins de parer aussi l'échec."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "prompt": "Prenez la dame devant laquelle se tenait le roi.",
+      "targetSan": [
+        "Rxd6"
+      ],
+      "hint": "Comptez les défenseurs de d6, puis les cases vides entre cette case et votre tour."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "title": "Une ligne est une ligne",
+      "text": "Nouvel échiquier, et la même forme tournée de quarante-cinq degrés.\n\nLe roi noir en d4 et la tour en g7 se tiennent sur la grande diagonale qui va de a1 à h8, avec seulement e5 et f6 entre eux. La plus grosse pièce est la plus proche. C'est tout le motif : deux pièces adverses sur une ligne, la plus précieuse devant.\n\nVotre fou en c1 se déplace en diagonale. Trouvez celle qui compte.\n\n> Une ligne, deux pièces, et la tactique que vous tenez dépend seulement de celle qui se trouve devant."
+    },
+    {
+      "type": "play",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "prompt": "Amenez votre fou sur la diagonale que partagent les deux pièces noires, avec échec.",
+      "targetSan": [
+        "Bb2+"
+      ],
+      "hint": "Votre fou a sept cases disponibles ; une seule arrive sur la grande diagonale."
+    }
+  ]
+}

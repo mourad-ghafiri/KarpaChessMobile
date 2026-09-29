@@ -1,0 +1,11 @@
+{
+  "id": "forks-02",
+  "fen": "6k1/8/8/6n1/8/8/8/2Q3K1 w - - 0 1",
+  "solution": [
+    "Qxg5+"
+  ],
+  "title": "Free Knight, Free Check",
+  "setup": "Black's knight on g5 stands undefended on the same file as the king.",
+  "hint": "The queen's diagonal reaches the knight, and the file it would land on reaches the king.",
+  "explanation": "## The Idea\n\nThe knight on g5 has no defender, and it stands on the same file as the king on g8.\n\n{{Qxg5+}} takes it and gives check in the same move, so Black never gets a move to spend on anything else. The queen came down the diagonal; the file it lands on does the checking, and the king is too far away to take back.\n\nThis is not a fork — there was only ever one target — but it works for the same reason: the reply is already spoken for."
+}

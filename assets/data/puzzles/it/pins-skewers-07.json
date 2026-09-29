@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-07",
+  "fen": "2n1k3/pp2rppp/8/2B5/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxe7"
+  ],
+  "title": "Prendete con il Pezzo Più Economico",
+  "setup": "La torre nera in e7 è inchiodata contro il suo re dalla vostra torre, e anche il vostro alfiere la attacca. Un cavallo in c8 la difende.",
+  "hint": "La torre inchiodata è attaccata due volte e difesa una. Quale presa dà un guadagno?",
+  "explanation": "## L'idea\n\nLa torre in e7 è inchiodata dalla vostra torre in e1, attaccata da torre e alfiere, e difesa dal cavallo in c8.\n\n{{Bxe7}} prende con il pezzo più economico. Il re non può riprendere, perché la vostra torre difende e7, quindi dopo {{Nxe7}} avete dato un alfiere per una torre, e il cavallo è a sua volta inchiodato. Prendere prima con {{Rxe7+}} cambia solo torre per torre.\n\nIncassate un pezzo inchiodato con il vostro attaccante più economico."
+}

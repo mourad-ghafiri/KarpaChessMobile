@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-21",
+  "fen": "8/5ppp/2k1b3/8/8/1N5P/4rPP1/3R2K1 w - - 0 1",
+  "solution": [
+    "Nd4+"
+  ],
+  "title": "Um Salto, Dois Alvos",
+  "setup": "O teu cavalo em b3 está atacado pelo bispo de e6 e tem de mexer, portanto escolhe a casa onde bate com mais força.",
+  "hint": "Encontra a casa de cavalo que dá xeque ao rei preto e ataca outra peça preta ao mesmo tempo.",
+  "explanation": "## A Ideia\n\nO teu cavalo tem de mexer de qualquer maneira, portanto faz a jogada render dois trabalhos. {{Nd4+}} dá xeque ao rei de c6 e ataca ao mesmo tempo a torre de e2.\n\nAs pretas têm de responder primeiro ao xeque, e nenhuma peça preta pode capturar o cavalo em d4. Depois de o rei se afastar, {{Nxe2}} come a torre.\n\nA uma ameaça pode responder-se. A duas ameaças numa só jogada normalmente não."
+}

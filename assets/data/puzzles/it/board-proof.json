@@ -1,0 +1,11 @@
+{
+  "id": "board-proof",
+  "fen": "4k3/8/8/8/8/8/1PP2PP1/4K3 w - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "title": "Leggete l'Indirizzo",
+  "setup": "Ogni casa ha un nome. Portate un pedone sulla casa che si chiama c4.",
+  "hint": "Trovate prima la colonna c, poi contate dal bordo del Bianco: traversa 1, traversa 2, traversa 3, traversa 4.",
+  "explanation": "## L'idea\n\nPrima la lettera, poi il numero. La colonna c è la terza a partire da sinistra per il Bianco, e la traversa 4 è la quarta salendo dal bordo del Bianco, quindi c4 è dove si incrociano.\n\nIl pedone in c2 è l'unico su quella colonna, e alla prima mossa un pedone può fare due case: {{c4}}. Il pedone in b2 potrebbe arrivare a b4, ma b4 è un indirizzo diverso."
+}

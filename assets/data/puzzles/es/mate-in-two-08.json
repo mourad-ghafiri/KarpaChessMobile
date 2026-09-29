@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-08",
+  "fen": "2n4k/8/8/2r1p2P/4Q1B1/3R4/PP6/7K w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Kg7",
+    "Qg6#"
+  ],
+  "rating": 1250,
+  "title": "Un peón respalda a la dama",
+  "setup": "Tu torre puede apoderarse de la octava fila, y un modesto peón en h5 apoya en silencio la casilla g6.",
+  "hint": "Encuentra la casilla junto al rey que ya defiende uno de tus peones, y luego quítale la última fila.",
+  "explanation": "## La idea\n\n{{Rd8+}} toma la última fila y obliga a {{Kg7}}; el caballo de c8 no puede tapar. Luego {{Qg6#}}: la dama se pone justo al lado del rey, protegida por el peón de **h5**, mientras la torre sella todas las casillas de la octava fila."
+}

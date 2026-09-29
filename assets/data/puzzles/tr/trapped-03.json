@@ -1,0 +1,12 @@
+{
+  "id": "trapped-03",
+  "fen": "3r2k1/pp3pp1/5n1p/8/7B/2N3P1/PP3P1P/4R1K1 b - - 0 1",
+  "solution": [
+    "g5"
+  ],
+  "rating": 1090,
+  "title": "İki Adım, Çıkış Yok",
+  "setup": "Beyazın fili h4'te duruyor ve beyaz çoktan g3 oynayıp iki geri çekilme karesinden birini kapatmış.",
+  "hint": "Beyazın kendi piyonu filin iki çıkışından birini zaten kapatıyor. Ötekini kim kontrol ediyor?",
+  "explanation": "## Fikir\n\n{{g5}} file saldırır ve h4'ün tam olarak iki çapraz karesi vardır. g3'te beyazın kendi piyonu durur ve şimdi g5'teki piyonu h6 korur; yani Bxg5 hxg5, bir piyon karşılığında taş vermek olur. Kapana kıstırmak saldırıyla değil, karelerle ilgilidir."
+}

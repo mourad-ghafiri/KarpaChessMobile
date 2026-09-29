@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-07",
+  "fen": "6k1/r4ppp/3B4/8/1R6/8/PP5Q/K2br3 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1530,
+  "title": "Baris Belakang di Dua Arah",
+  "setup": "Hitam punya benteng di e1 dan gajah di d1 yang duduk di baris pertama Anda sementara rajanya menunggu dengan tenang di g8.",
+  "hint": "Kedua pihak punya baris pertama yang lemah. Hitung mana yang jatuh dalam langkah lebih sedikit.",
+  "explanation": "## Ide\n\nHitam tinggal satu langkah dari memberi mat kepada Anda, dan justru karena itulah {{Rb8+}} benar. {{Re8}} terpaksa dan {{Rxe8#}} terjadi lebih dulu. Dalam perlombaan, satu-satunya angka yang penting adalah siapa yang memberi sekak lebih dulu."
+}

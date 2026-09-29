@@ -1,0 +1,11 @@
+{
+  "id": "endgames-05",
+  "fen": "8/8/8/8/B6k/p7/7p/2K5 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "Menyeberangi Papan dalam Satu Langkah",
+  "setup": "Pion h Hitam menjadi menteri pada langkah berikutnya dan pion a butuh dua langkah lagi. Gajah Anda di a4 satu-satunya buah yang bisa mencapai sayap jauh tepat waktu.",
+  "hint": "Pion h berpromosi di petak terang. Temukan diagonal terang yang melewati h1, lalu satu petak di diagonal itu yang bisa dicapai gajah Anda.",
+  "explanation": "## Ide\n\nh1 adalah petak terang, dan satu-satunya diagonal terang yang melewatinya membentang dari a8 ke h1. Dari a4 gajah Anda bergabung dengannya dalam satu langkah, {{Bc6}}, dan dari sana ia mengawasi petak promosi untuk selamanya.\n\nRaja Anda di c1 menangani pion pelari yang lain: ia tinggal satu langkah dari b2, tempat ia menguasai a2 dan a1. Kuda di tempat gajah tak akan bisa mencapai petak yang menguasai h1 tepat waktu, dan setiap langkah lain membiarkan pion h menjadi menteri."
+}

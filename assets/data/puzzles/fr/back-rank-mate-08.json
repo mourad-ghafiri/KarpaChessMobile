@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-08",
+  "fen": "6k1/5ppp/6n1/8/1B6/8/2r2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Nf8",
+    "Rxf8#"
+  ],
+  "rating": 940,
+  "title": "Forcez l'interposition",
+  "setup": "Le cavalier noir en g6 peut atteindre f8, et votre fou en b4 regarde cette case le long de la diagonale.",
+  "hint": "Les Noirs ont exactement une façon de répondre à un échec sur la huitième rangée. Où cela place-t-il leur cavalier ?",
+  "explanation": "## L'idée\n\n{{Rd8+}} ne laisse aux Noirs qu'un coup légal, {{Nf8}}, l'interposition. Cette case n'est pas sûre : le fou en b4 la couvre le long de la diagonale, donc {{Rxf8#}} ne peut pas recevoir pour réponse Kxf8. Une interposition forcée ne défend que si la case d'interposition est défendue elle aussi."
+}

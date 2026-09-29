@@ -1,0 +1,14 @@
+{
+  "id": "defence-07",
+  "fen": "1R6/1q6/4K1Q1/8/1b5k/8/5r2/8 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Qh7",
+    "Rxh7#"
+  ],
+  "rating": 1690,
+  "title": "La Torre sulla Colonna Vuota",
+  "setup": "Il vostro re è esposto in e6 con la donna nera in b7, la torre in f2 e l'alfiere in b4 tutti in gioco.",
+  "hint": "Il re nero sta sulla colonna h e sopra non c'è niente. Chiedetevi che cosa possa metterci in tempo.",
+  "explanation": "## L'idea\n\n{{Rh8+}} scende lungo la colonna aperta e {{Qh7}} è l'unica parata. {{Rxh7#}} la toglie. La donna nera difendeva tutto sull'ala di donna e non poteva stare anche in h7."
+}

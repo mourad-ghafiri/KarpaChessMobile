@@ -1,0 +1,13 @@
+{
+  "id": "endgames-01",
+  "fen": "8/8/8/8/3K4/8/4Q3/k7 w - - 0 1",
+  "solution": [
+    "Kc3",
+    "Kb1",
+    "Qb2#"
+  ],
+  "title": "Vezir Bunu Tek Başına Yapamaz",
+  "setup": "Köşedeki çıplak şaha karşı vezir ve şah. İşi bitirmesi gereken taş dışında her şey hazır.",
+  "hint": "Sessiz bir hamle siyaha tam olarak tek bir kurallı kare bırakıyor — o taş oraya gittiğinde geri kalanı hangi taş alabilir?",
+  "explanation": "## Fikir\n\ne2'deki vezir ikinci yatayın sahibi, yani siyahın şahının elinde b1 var, başka bir şey yok. Vezirin yapamayacağı şey a1, b1 ve b2'yi aynı anda kapsamaktır. Şahın varlık sebebi de budur.\n\n{{Kc3}} onu yukarı getirir. Siyahın tek kurallı hamlesi kalır, {{Kb1}}, ve {{Qb2#}} şahın yanına, beyazın şahının koruduğu bir kareye iner.\n\nBunun yerine {{Qc2}} ile b1'i almak pattır. Her sessiz hamleden önce çıplak şahın karelerini sayın: cevap birse o kareyi yalnızca bir şah alabilir."
+}

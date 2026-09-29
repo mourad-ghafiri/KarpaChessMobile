@@ -1,0 +1,62 @@
+{
+  "id": "philidor-position",
+  "title": "O Empate de Philidor",
+  "summary": "Um peão a menos num final de torres, e o empate é uma cerca e depois uma distância",
+  "proof": "philidor-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Um Peão Abaixo e a Segurar",
+      "text": "As brancas têm um peão a mais e isto continua a ser empate. O teu rei em d8 guarda c8, a casa que o peão de c5 está a tentar alcançar, que é a primeira metade da defesa e a metade que já tens.\n\nA segunda metade é uma jogada de torre, e tem de vir agora, enquanto o peão branco ainda está onde está. Philidor pôs o método por escrito em 1777 e desde então ninguém o partiu. Duas ideias, jogadas por uma ordem fixa, e a ordem é quase todo o truque."
+    },
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Três Portas na Sexta",
+      "text": "O peão não chega a casa sozinho; o teu rei guarda a estrada, e a torre branca de h7 mantém-no na linha de fundo. Portanto o rei branco tem de subir e empurrar o teu com o ombro, e para subir tem de atravessar a sexta linha — linhas contadas aqui a partir do lado das brancas, como sempre.\n\nEssa linha tem exatamente três portas: c6, d6 e e6. E uma torre não é um guarda numa casa, é uma cerca ao longo de uma linha, o que quer dizer que as três portas se fecham numa só jogada."
+    },
+    {
+      "type": "play",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "prompt": "Tira ao rei branco a sexta linha inteira antes que ele possa usar uma dessas casas.",
+      "targetSan": [
+        "Ra6"
+      ],
+      "hint": "Só a linha interessa, e uma torre cobre-a toda a partir de onde quer que aterre."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "Quatro Casas, Três Delas Recuos",
+      "text": "A cerca está de pé, e o rei branco em d5 pode agora contar a lista completa: {{Kc4}}, {{Kd4}}, {{Ke4}}, {{Ke5}}.\n\nTrês para trás, uma de lado. c6, d6 e e6 deixaram de ser jogadas, porque um rei não pode entrar numa casa que a tua torre ataca. As brancas são livres de andar de um lado para o outro lá fora enquanto a paciência aguentar. Andar de um lado para o outro não leva um peão a casa."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "O Avanço Que Custa",
+      "text": "Há uma jogada que muda a posição em vez de mudar o número da jogada: {{c6}}.\n\nConta o que as brancas acabaram de pagar. Com o peão em c5, o rei tinha um telhado: em c6, à frente do seu próprio peão, nunca podia levar xeque por trás, porque o peão bloqueia a coluna. Agora foi o próprio peão que tomou essa casa, e o telhado seguinte seria c7, mesmo ao lado do teu rei.\n\nPortanto a tua cerca acabou o trabalho. Daqui em diante o que conta é a distância."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Vai para o Extremo Mais Longe",
+      "text": "A tua torre deixa a sexta linha e viaja até ao outro extremo do tabuleiro, atrás do rei branco, e dá xeque de lá.\n\nA distância é a defesa inteira. Um rei livra-se de uma torre que dá xeque de perto subindo até a ameaçar; do outro extremo do tabuleiro não há nada a que subir, e o rei branco teria de abandonar o peão de c6 para a ir procurar. Sempre que sai a escoltar esse peão, chega mais um xeque, e os xeques nunca se acabam."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Porque É Que Esperaste",
+      "text": "A ordem importa mais do que qualquer das duas jogadas. Manda a torre embora primeiro, enquanto o peão ainda está em c5, e as brancas nem precisam de avançar: o rei vai para c6, à frente do seu próprio peão, onde nenhum xeque por trás lhe chega, porque o peão está no caminho da torre. Debaixo desse telhado, entra, e a vitória é das brancas.\n\n> Segura a linha enquanto o peão estiver quieto. No instante em que ele se mexer, afasta-te dele o mais que o tabuleiro permitir."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "prompt": "Passa de bloquear a dar xeque, do mais longe que este tabuleiro permitir.",
+      "targetSan": [
+        "Ra1"
+      ],
+      "hint": "Uma torre a dar xeque a que o rei possa subir não serve de nada: conta a que distância do rei branco a tua torre consegue ficar."
+    }
+  ]
+}

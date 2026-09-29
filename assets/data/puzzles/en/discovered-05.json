@@ -1,0 +1,13 @@
+{
+  "id": "discovered-05",
+  "fen": "r3k3/8/4B3/8/4R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kd8",
+    "Bxa8"
+  ],
+  "title": "Bishop Springs the Battery",
+  "setup": "Your rook and bishop are stacked on the e-file — the bishop in front, the rook loaded behind it.",
+  "hint": "Any bishop move uncovers a rook check. Pick the one that also attacks something Black cannot save.",
+  "explanation": "## The Idea\n\nThe bishop on e6 masks the rook on e4. The moment it moves, the rook checks down the file, so the bishop's move comes with a free threat.\n\n{{Bd5+}} steps off the file and eyes the rook on a8. Black must answer the check, and no black piece can block on e5, e6 or e7. After {{Kd8}}, {{Bxa8}} banks the rook.\n\nA battery's front piece moves with a threat built in, so choose the square where it does double duty."
+}

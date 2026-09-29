@@ -1,0 +1,14 @@
+{
+  "id": "defence-03",
+  "fen": "8/5Q2/6R1/1k1K4/2r5/8/1q5b/8 w - - 0 1",
+  "solution": [
+    "Qb7+",
+    "Ka4",
+    "Ra6#"
+  ],
+  "rating": 1530,
+  "title": "Tutti e Due i Re allo Scoperto",
+  "setup": "I re sono a due case di distanza in b5 e d5, e la donna, la torre e l'alfiere neri puntano tutti dalla vostra parte.",
+  "hint": "Ogni mossa tranquilla perde. Cercate lo scacco che spinge il re nero verso la vostra torre, non lontano da lei.",
+  "explanation": "## L'idea\n\n{{Qb7+}} manda il re sulla colonna a, {{Ka4}} o {{Ka5}}, e in ogni caso la torre attraversa per {{Ra6#}}. Spingere un re sul bordo non è sempre il piano — spingerlo verso i vostri pezzi sì."
+}

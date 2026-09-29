@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-10",
+  "fen": "4k3/2P5/8/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "c8=Q+"
+  ],
+  "title": "Incoronate il Pedone",
+  "setup": "Il pedone bianco è arrivato in **c7** — a un passo da una donna nuova di zecca.",
+  "hint": "Promuovete con scacco tutte le volte che potete. Toglie al difensore una mossa libera.",
+  "explanation": "## L'idea\n\n{{c8=Q+}} promuove con scacco lungo l'ottava traversa. Il re non può prendere la donna nuova e niente può parare, quindi il Nero deve spendere la mossa sul re, e vi restano re e donna contro un re nudo.\n\nAspettate invece una mossa e {{Kd7}} attacca il pedone, che è perduto. Quando un pedone può promuovere senza rischi, promuovetelo adesso, e preferite la promozione che dà scacco."
+}

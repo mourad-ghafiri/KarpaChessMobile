@@ -1,0 +1,14 @@
+{
+  "id": "discovery-03",
+  "fen": "2r5/ppp4k/5b1p/8/4P3/7P/5P1K/1B4R1 w - - 0 1",
+  "solution": [
+    "e5+",
+    "Kh8",
+    "exf6"
+  ],
+  "rating": 1040,
+  "title": "The Pawn Steps Up",
+  "setup": "Your bishop on b1 points straight at h7, and only your own pawn on e4 keeps the diagonal shut.",
+  "hint": "Black's bishop is a dark-squared piece: it can never step onto the b1-h7 diagonal to block anything.",
+  "explanation": "## The Idea\n\n{{e5+}} opens the b1-h7 diagonal and attacks the bishop in the same breath. The check has to be answered first, and no black piece can interpose on a light square, so after {{Kh8}} the pawn takes on f6 for free."
+}

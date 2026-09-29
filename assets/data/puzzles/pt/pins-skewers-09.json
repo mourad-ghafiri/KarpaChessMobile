@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-09",
+  "fen": "r3k3/pp2nppp/8/3P4/8/7B/PP2RPPP/6K1 w - - 0 1",
+  "solution": [
+    "d6"
+  ],
+  "title": "O Cavalo Cravado",
+  "setup": "O cavalo preto em e7 está preso entre a tua torre e o seu próprio rei, mas o rei guarda-o.",
+  "hint": "Torre por cavalo é uma má troca. Qual das tuas peças pode atacar e7 de forma mais barata?",
+  "explanation": "## A Ideia\n\nUm cavalo cravado contra o seu rei não pode mexer de todo, porque todos os saltos saem da linha. {{Rxe7+}} agora perderia a torre para {{Kxe7}}, portanto traz um atacante mais barato. {{d6}} atinge o cavalo e guarda também e7. Depois de {{Rd8}}, {{Rxe7+}} come o cavalo, e o rei não pode comer de volta.\n\nQuando uma peça cravada está defendida, não troques com ela: acrescenta o teu atacante mais barato."
+}

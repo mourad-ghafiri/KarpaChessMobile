@@ -1,0 +1,11 @@
+{
+  "id": "board-proof",
+  "fen": "4k3/8/8/8/8/8/1PP2PP1/4K3 w - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "title": "Lisez l'adresse",
+  "setup": "Chaque case a un nom. Amenez un pion sur la case nommée c4.",
+  "hint": "Trouvez d'abord la colonne c, puis comptez depuis le bord des Blancs : rangée 1, rangée 2, rangée 3, rangée 4.",
+  "explanation": "## L'idée\n\nLa lettre d'abord, le chiffre ensuite. La colonne c est la troisième en partant de la gauche des Blancs, et la rangée 4 est la quatrième depuis le bord des Blancs, donc c4 est là où elles se croisent.\n\nLe pion en c2 est le seul sur cette colonne, et à son premier coup un pion peut avancer de deux cases : {{c4}}. Le pion en b2 pourrait atteindre b4, mais b4 est une autre adresse."
+}

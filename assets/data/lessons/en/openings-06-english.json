@@ -1,0 +1,56 @@
+{
+  "id": "english",
+  "title": "The English Opening",
+  "summary": "A Sicilian with the colors reversed, and a move in hand",
+  "proof": "openings-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "A Sicilian in the Mirror",
+      "text": "White's opening move went to the wing, and Black's answer went straight to the middle. Turn the board around: a pawn on c4 facing a pawn on e5 is a Sicilian with the colors swapped.\n\nIn a real Sicilian the c-pawn belongs to Black, the side that moves second. Here the same structure is on the board with the roles traded, and the side holding the c-pawn is the side that moved first.\n\nA whole tempo, on the wrong end of a defense."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Slow on Purpose",
+      "text": "{{Nc3}} {{Nf6}} {{g3}}. Two knights out, and then White spends a move on a pawn that captures nothing and attacks nothing.\n\nBlack takes the room on offer: {{d5}} claims the middle, {{cxd5}} {{Nxd5}} clears it, and a black knight ends up standing on d5 with no white pawn anywhere near it.\n\nThat is what the spare tempo paid for. The pawn on g3 looked like the slowest move on the board, but it emptied a square, and that square sits on the diagonal running h1 to a8."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 5",
+      "prompt": "Bring the light-squared bishop out so it looks down the long diagonal at the knight Black just parked in the middle.",
+      "targetSan": [
+        "Bg2"
+      ],
+      "hint": "One diagonal runs corner to corner all the way to a8, and a pawn move has already cleared your side of it."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPPBP/R1BQK1NR b KQkq - 1 5",
+      "title": "A Bishop at the Edge",
+      "text": "The bishop on g2 looks the length of the board, and the first thing it meets is the knight on d5. It never had to cross the center to get there.\n\nA bishop developed like that, out to the square its own knight's pawn has left, is a **fianchetto**. The pawn does the traveling and the bishop takes the road behind it.\n\nOne piece, and the whole flank-opening argument: hold the middle without standing in it."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Asking Before Answering",
+      "text": "The other reason this move keeps turning up at the top has nothing to do with diagonals. Botvinnik built a system on it, and Kasparov and Carlsen both kept it as a main weapon.\n\nA pawn on d2 is a pawn nobody can shoot at. Several of Black's sharpest defenses exist to hit a white pawn once it steps to d4, and none of them can start until it goes there.\n\nSo White asks first. {{e6}} {{Nc3}} {{d5}}, and Black has answered: the middle taken, the bishop on c8 shut in behind it."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "title": "The Bill for Waiting",
+      "text": "Waiting is not free. A pawn on c4 does not fight for d4 or e4, so an opponent who takes the middle and keeps it can leave that flank pawn watching the game from the edge.\n\nWhat the wait buys is information, and information only pays if it is spent. Black is committed now: pawns fixed on d5 and e6, the bishop on c8 boxed in behind them, and no sharp defense left to switch into.\n\n> A flank opening is a center opening that arrives late on purpose."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "prompt": "Take the middle now that Black's setup is fixed, and steer the game into a Queen's Gambit Black can no longer dodge.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "One white pawn has stayed home this whole time, and nothing in Black's camp is set up to punish it for stepping out."
+    }
+  ]
+}

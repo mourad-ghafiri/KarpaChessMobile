@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-01",
+  "fen": "6k1/1p3ppp/2n5/1B2b3/8/5N2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Bxc6"
+  ],
+  "rating": 1050,
+  "title": "Hanya Satu Pembela",
+  "setup": "Kuda Anda menyerang gajah di e5, dan gajah itu berdiri di sana hanya karena kuda di c6 menjaganya.",
+  "hint": "Gajah yang Anda serang hanya punya tepat satu pembela. Tanyakan berapa harga pembela itu, bukan apa yang dijaganya.",
+  "explanation": "## Ide\n\n{{Bxc6}} mengambil satu-satunya buah yang menjaga e5. Sesudah {{bxc6}} gajah tak terlindungi dan {{Nxe5}} mengambilnya; jika Hitam justru menyelamatkan gajah, kuda itu hilang begitu saja. Hitung pembela sebuah sasaran sebelum Anda menghitung penyerangnya."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "endgames-02",
+  "fen": "k7/8/2K5/8/8/8/8/1R6 w - - 0 1",
+  "solution": [
+    "Kc7",
+    "Ka7",
+    "Ra1#"
+  ],
+  "title": "Duvarı İçeri Alın",
+  "setup": "Kale b dikeyini çoktan yasaklamış, yani yalnız şahın bütün dünyası a8 ile a7. Beyazın iki hamlesi kazancı çöpe atar.",
+  "hint": "Kale siyahın şahının iki karesini tek başına alamaz — yeterince yakında başka kim var ve hangi kare kesmeyi hayatta tutar?",
+  "explanation": "## Fikir\n\nDuvar zaten kurulu: kale b dikeyini tuttuğu sürece çıplak şah onu asla geçemez. Eksik olan ikinci taş, çünkü kale a7 ile a8'i de kapsayamaz.\n\n{{Kc7}} b8, b7 ve b6'yı alır. Siyahın tek kurallı hamlesi kalır, {{Ka7}}, ve {{Ra1#}} duvarı şahın dikeyine savurur — bir uçtan şah, öteki uçta kare yok.\n\nBunu çöpe atmanın iki yolu: {{Rb7}} iki kareyi de kapsar ve pattır; {{Rb8+}} ise kaleyi öylece şaha verir."
+}

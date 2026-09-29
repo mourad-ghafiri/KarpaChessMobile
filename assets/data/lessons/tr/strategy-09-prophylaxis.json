@@ -1,0 +1,65 @@
+{
+  "id": "prophylaxis",
+  "title": "Profilaksi",
+  "summary": "Planı oynanmadan öldürün",
+  "proof": "strategy-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "g1'e Giden Yol",
+      "text": "Beyazın g1'deki şahı, henüz kimsenin üzerinde durmadığı bir yolun ucunda oturuyor.\n\nYolu izleyin: a7, b6, c5, d4, e3, f2, g1. f piyonu f4'e gitti, yani f2 boş ve onunla birlikte e3 de boş. O çaprazın herhangi bir yerindeki tek taş, sizin d4'teki atınız.\n\nSiyahın veziri henüz oynamadı. Oynadığında isteyeceği kare b6."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "Cevaplamak Zorunda Kalacağınız Soru",
+      "text": "Bir taşı doğal yoldan iyileştirin: {{Bf3}} merkeze nişan alır.\n\n{{Qb6}} gelir ve d4'teki at şahınıza karşı açmaza girer — gevşek değil, mutlak biçimde. Tek bir kurallı hamlesi bile kalmaz. Tamiri {{Be3}}, yani atın yeniden nefes alması için harcanan koca bir hamle; üstelik c1'deki fil b2'yi koruyan taştı.\n\n**Profilaksi**, o hamleyi harcamanın öteki yoludur: rakibinizin sıradaki iyi hamlesini hesaplayın ve o hiç oynanmadan silin."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "prompt": "Siyahın veziri o çapraza bakmadan önce hedefi çaprazın uzak ucundan kaldırın.",
+      "targetSan": [
+        "Kh1"
+      ],
+      "hint": "Sorun şahınızın üzerinde durduğu kare, herhangi bir siyah taş değil."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K b - - 2 9",
+      "title": "Altta Yatan Plan",
+      "text": "b6 artık her kare gibi bir kare. Çapraz hâlâ uzanıyor ve ucunda hiçbir şey yok.\n\nSiyah da altta yatan plana döner: önce {{Qc7}}, sonra b piyonu b5'e ve oradan b4'e giderek e4'ü koruyan taş olan atı c3'ten kovar.\n\nYavaş bir plan ve bu pozisyonda sizi yenebilecek tek şey de o. Yavaş olması, profilaksinin tam da var olma sebebidir. Onu dört hamle öteden gelirken görebilirsiniz."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K w - - 3 10",
+      "prompt": "Siyahın bütün vezir kanadı planı bir piyonun b5'e varmasıyla başlıyor; o kareyi taşa mal edin.",
+      "targetSan": [
+        "a4"
+      ],
+      "hint": "Siyah oraya varmadan b5'e uzanıp saldırabilecek tek bir piyonunuz var."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "Hiçbir Şey Bedava Değil",
+      "text": "a4'teki piyon bedava değildi. b4'ün yanından temelli geçti ve oraya yerleşen bir siyah atı kımıldatmak zordur.\n\nProfilaksinin her zaman önerdiği takas budur: bir planın silinmesini küçük ve kalıcı bir tavizle satın alırsınız. Plan, o kareden daha değerliyse anlaşmayı kabul edin."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "Pozisyondaki Son Fikir",
+      "text": "Vezir kanadı kapandı ve şahınıza giden yol yok oldu. Geriye sıkışık tarafın en eski kaynağı kaldı: bir değişim.\n\n{{Nc6}} hem geliştirir hem de bir değişim önerir. {{Be3}} gibi doğal bir şeyle cevap verin, {{Nxd4}} gelsin; siyahın pozisyonu on hamlede ilk kez nefes alsın.\n\nSiyah kaybetmiş değil. Siyahın fikri kalmamış ve fikri kalmayan oyuncu sürüklenir.\n\n> Ne istediğinizi sormadan önce rakibinizin ne istediğini sorun — sonra onu elinden alın."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/1pq1bppp/p1nppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K w - - 1 11",
+      "prompt": "Sıkışık taraf değişimlerle yaşar; siyahın kalan tek değişimini elinden alın.",
+      "targetSan": [
+        "Nb3"
+      ],
+      "hint": "Siyah bir çift atın tahtadan kalkmasını istiyor — o at, a5 ile c5'i gözlemeyi sürdürerek başka nerede durabilir?"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-01",
+  "fen": "1r4k1/p4ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rxb8#"
+  ],
+  "title": "The Sealing Trade",
+  "setup": "Both kings are tucked behind their pawns, and the rooks face each other down the b-file. Whoever strikes first lives.",
+  "hint": "Before you call a capture a trade, work out which black piece could take back.",
+  "explanation": "## The Idea\n\nBlack's king on g8 has no square of its own: f7, g7 and h7 hold its pawns, and f8 and h8 lie on the eighth rank.\n\nSo the rook on b8 is not a trading partner. It is the only guard of that rank, and {{Rxb8#}} takes it and mates at once: the king cannot reach b8, and pawns do not move backward.\n\nBefore trading the last rook off an open file, ask what it was doing besides standing there."
+}

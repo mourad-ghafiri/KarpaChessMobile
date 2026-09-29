@@ -1,0 +1,62 @@
+{
+  "id": "caro-kann",
+  "title": "A Caro-Kann",
+  "summary": "Resolve o bispo mau antes de construíres a parede",
+  "proof": "openings-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Um Peão em Vez de uma Peça",
+      "text": "As pretas responderam a 1.e4 com um peão c: uma jogada que não ataca nada, não desenvolve nada e parece uma jogada deitada fora. Uma jogada depois compensa. O ...d5 das pretas chega apoiado por um peão em vez de uma peça, e o meio do tabuleiro troca-se.\n\nFoi assim que esta posição aconteceu. As pretas têm um peão em c6 e um exército ainda em casa. As brancas têm um peão em d4 e a sua primeira peça cá fora, o cavalo em e4.\n\nA Caro-Kann é a tese de que isto é um excelente negócio para as pretas."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "O Bispo Atrás da Parede",
+      "text": "Quase todas as respostas a 1.e4 se apoiam em ...e6, e esse peão faz duas coisas ao mesmo tempo. Segura o centro, e fica na estrada do bispo de c8.\n\n{{e6}}. Esse bispo tem exatamente uma diagonal livre, de c8 até h3, e um peão dele acabou de lá estacionar. O que resta é d7, onde o bispo tapa a dama e não olha para nada.\n\nO peão c das pretas já faz o trabalho que noutros sítios faz o peão e. Portanto este bispo não tem razão nenhuma para ficar à espera da parede."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Põe já esse bispo fora dos peões, na casa onde também fita o cavalo das brancas.",
+      "targetSan": [
+        "Bf5"
+      ],
+      "hint": "No tabuleiro nada defende esse cavalo, e a única diagonal livre do bispo tem exatamente uma casa que o ataca."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p5/5b2/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Duas Jogadas para o Bispo",
+      "text": "As brancas não deixam um cavalo ali para ser capturado. {{Ng3}} empurra o bispo, {{Bg6}} mantém a diagonal, e {{h4}} ameaça empurrar outra vez e tirá-lo dela de vez. {{h6}} liberta h7, para o bispo ter sempre uma casa atrás de si.\n\nConta quanto isso custou. As pretas mexeram um bispo duas vezes. As brancas voltaram a mexer o cavalo e mandaram um peão de torre duas casas à frente do rei.\n\nOs dois lados gastaram tempo. Só um deles o gastou em peões, e um peão não volta atrás."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Pagar Depois em Vez de Agora",
+      "text": "Aqui as pretas estão atrasadas no desenvolvimento, e a Caro-Kann admite-o. Três das quatro primeiras jogadas das pretas foram para peões, portanto as brancas acabam primeiro e escolhem onde se joga a partida.\n\nO que o tempo comprou foi uma estrutura em que as brancas não conseguem morder, um rei que pode ir para qualquer das alas, e o bispo em g6 a respirar ar livre fora dos seus próprios peões.\n\nO peão h das brancas, entretanto, nunca mais volta a casa. As peças saem, o ataque esgota-se, e esse peão continua onde o rei estava seguro."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "As Brancas Recusam a Troca",
+      "text": "Umas brancas diferentes, e ainda só a terceira jogada. Em vez de trocarem no meio, estas empurram o peão para lá dele e trancam a porta: um peão branco em e5, um peão branco em d4, e o peão preto de d5 sem sítio nenhum para onde ir.\n\nDois peões numa diagonal, o de trás a alimentar o da frente, são uma **cadeia de peões**. A das brancas vai de d4 a e5. O estrago é feito pelo peão de e5 — tira f6 ao cavalo preto — e é d4 que o segura ali. A d4 não o segura nada a não ser peças.\n\nPortanto uma cadeia ataca-se pela base, nunca pela cabeça."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Primeiro Fora, Parede Depois",
+      "text": "O problema das pretas é o problema do costume. Com o centro trancado, ...e6 tem de vir — escora d5 e deixa as peças da ala do rei respirar — e é o mesmo peão que fecharia o bispo lá dentro.\n\nPortanto o trabalho fá-lo a ordem. {{Bf5}} vem primeiro. As brancas respondem {{Nf3}}, e só então {{e6}}: a parede sobe atrás do bispo em vez de subir à frente dele. {{Be2}}, e as pretas estão prontas.\n\n> Tira a tua pior peça antes de construíres a parede que a prenderia."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP1BPPP/RNBQK2R b KQkq - 1 5",
+      "prompt": "Ataca o peão que segura a cadeia das brancas, com o único peão teu que lá chega.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "Segue a cadeia das brancas até ao peão que nenhum outro peão defende e depois pergunta qual dos teus lhe consegue chegar."
+    }
+  ]
+}

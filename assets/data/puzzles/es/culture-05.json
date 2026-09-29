@@ -1,0 +1,13 @@
+{
+  "id": "culture-05",
+  "fen": "2kr2nr/pp1n1ppp/2p1p3/8/1P1P1B2/2N2Q1P/1PPKBPP1/7q w - - 0 13",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "title": "Dos peones, una diagonal",
+  "setup": "Vas muy por detrás en material y tu propio rey ha sido perseguido hasta d2, pero el rey negro está emparedado por sus propias piezas.",
+  "hint": "Empieza contando las casillas del rey negro en lugar de tu material, y luego pregúntate qué sostiene de verdad el peón de b7.",
+  "explanation": "## La idea\n\nEl rey de c8 no tiene casilla: en d8, d7 y b7 están su propia torre, su propio caballo y su propio peón, y el alfil de f4 cubre c7 y b8. Solo el peón de b7 impide que tu otro alfil llegue a a6.\n\n{{Qxc6+}} entrega la dama por un peón, y {{bxc6}} es la única jugada legal de las Negras. El peón ha salido de b7, y {{Ba6#}} cae en la casilla que protegía.\n\nCuenta las casillas del rey rival antes de contar el material, y una dama se convierte en algo que se puede gastar."
+}

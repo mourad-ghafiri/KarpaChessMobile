@@ -1,0 +1,56 @@
+{
+  "id": "discovered-attack",
+  "title": "L'Attacco di Scoperta",
+  "summary": "Il pezzo che muove non è il pezzo che attacca",
+  "proof": "discovered-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "La Torre Era Già Puntata",
+      "text": "La vostra torre in e1 e il re nero in e8 stanno sulla stessa colonna, e l'unica cosa fra loro è il vostro stesso cavallo.\n\nOgni tattica vista finora era il pezzo che toccavate a fare il danno. Questa no. Muovete il cavallo e la torre attacca un re a cui è stata puntata contro per tutto il tempo — il cavallo non si avvicina nemmeno a e8. L'unica cosa che conta è che lasci la colonna. Una torre che si spostasse avanti e indietro su quella stessa colonna sarebbe ancora di mezzo.\n\nUn pezzo muove, un pezzo diverso attacca. Questo è un **attacco di scoperta**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Libero di Andare Ovunque",
+      "text": "Nessuna mossa di cavallo lascia un cavallo sulla colonna che ha lasciato, quindi tutte e otto le case del cavallo aprono la linea della torre, e tutte e otto sono scacco. Siccome la linea finisce su un re, questa versione ha un nome suo: **scacco di scoperta**.\n\nÈ questo a rendere il cavallo sfacciato. {{Nc3+}} entra sulla colonna c in piena vista della donna nera in c5, e la donna non può prenderlo — prendere il cavallo lascerebbe il re nero sotto scacco della torre, e quella non è una mossa legale.\n\nPer un turno il pezzo che ha mosso è intoccabile."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Spendete la mossa gratis del cavallo sulla cosa più cara che il Nero possiede.",
+      "targetSan": [
+        "Nxc5+"
+      ],
+      "hint": "Le otto case del cavallo non sono uguali — su una di esse c'è qualcosa."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Che Cosa Compra lo Scacco",
+      "text": "{{Nxc5+}} prende la donna, e insieme arriva lo scacco, da una torre che ha passato il turno ferma dov'era.\n\nLa linea che aprite non deve per forza finire su un re. Mettete invece una donna nera in fondo alla colonna, e la stessa mossa di cavallo vince quella donna — ma allora il Nero ha delle scelte: difenderla, spostarla, o aprire una minaccia più grossa da un'altra parte.\n\nLo scacco toglie tutte e tre. È l'unica differenza fra un attacco di scoperta e uno scacco di scoperta, ed è grossa."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Niente Più da Prendere",
+      "text": "La colonna e è disposta esattamente come prima: torre in e1, cavallo in e4, re nero in e8. Quello che manca è qualcosa da mangiare per il cavallo. La torre nera in a8 non arriva affatto alla colonna e, e il pedone in b7 non va da nessuna parte utile.\n\nQuindi la mossa gratis deve comprare qualcosa che non sia materiale, e una cosa c'è. Fate atterrare il cavallo su una casa che attacchi anche e8, e la torre non darà scacco da sola."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Due che Danno Scacco, Una Risposta",
+      "text": "Due pezzi che danno scacco nella stessa mossa sono uno **scacco doppio**.\n\nUno scacco ha tre risposte: prendere chi lo dà, parare la linea, o muovere il re. Uno scacco doppio toglie le prime due. Prendete uno dei due e l'altro sta ancora dando scacco. Parare richiederebbe un pezzo solo su due linee nello stesso momento.\n\nQuindi il re muove, e la torre in a8 tanto varrebbe che non esistesse. È tutto quello che fa uno scacco doppio: da solo non vince niente. È la casa su cui il cavallo atterra a decidere il resto.\n\n> Il pezzo che vi sta in mezzo è il pezzo da muovere."
+    },
+    {
+      "type": "play",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Date scacco con tutti e due i pezzi insieme, e fate atterrare il cavallo dove attacca anche qualcosa.",
+      "targetSan": [
+        "Nd6+"
+      ],
+      "hint": "Due case del cavallo danno lo scacco doppio; solo una di esse colpisce anche il pedone in b7."
+    }
+  ]
+}

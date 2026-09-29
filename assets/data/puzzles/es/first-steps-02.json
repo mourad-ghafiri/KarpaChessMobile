@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-02",
+  "fen": "4k3/pp4pp/8/4b3/8/5N2/PP4PP/4K3 w - - 0 1",
+  "solution": [
+    "Nxe5"
+  ],
+  "title": "El aperitivo del caballo",
+  "setup": "Tu caballo de f3 mira a ocho casillas, y en una de ellas hay un alfil negro.",
+  "hint": "Las ocho casillas del caballo son fáciles de pasar por alto. ¿En cuál de ellas hay una pieza negra?",
+  "explanation": "## La idea\n\nDesde f3, la L del caballo llega a e5: dos casillas hacia delante, una hacia el lado. El alfil negro que está ahí **no tiene defensor**.\n\n{{Nxe5}} gana el alfil gratis. Ninguna línea recta une f3 y e5, y justo por eso una captura así se pasa por alto con facilidad.\n\nAntes de cada jugada, echa un vistazo a las ocho casillas a las que llega tu caballo. Las piezas sueltas suelen esconderse en ellas."
+}

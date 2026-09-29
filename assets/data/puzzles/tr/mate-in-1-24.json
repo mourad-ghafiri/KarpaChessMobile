@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-24",
+  "fen": "7k/6pp/6K1/7R/8/8/B7/8 w - - 0 1",
+  "solution": [
+    "Rxh7#"
+  ],
+  "title": "Uzun Çaprazdaki Fil",
+  "setup": "h7'deki piyon g6'daki şahınıza şah çekiyor. h5'teki kaleniz ile a2'deki filiniz hazır bekliyor.",
+  "hint": "Şahın son kalkanı bir piyon ve hem şahınız hem de uzaktaki filiniz çevresindeki kareleri çoktan gözlüyor.",
+  "explanation": "## Fikir\n\nŞah altındasınız ve cevabı mat. {{Rxh7#}} şah çeken piyonu alır ve h8'deki şaha yandaki kareden şah çeker.\n\ng6'daki şahınız h7'yi koruduğu için şah kaleyi alamaz. a2'deki fil tahtanın öteki ucundan g8'i kapsar ve g7'de siyahın kendi piyonu durur.\n\nAçık bir çaprazda uzakta duran fil de matın ihtiyaç duyduğu tek kareyi kapsayabilir."
+}

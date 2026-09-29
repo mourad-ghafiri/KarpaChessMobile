@@ -1,0 +1,13 @@
+{
+  "id": "history-04",
+  "fen": "8/r4pk1/6p1/7p/8/8/5PPP/3Q2K1 w - - 0 1",
+  "solution": [
+    "Qd4+",
+    "Kg8",
+    "Qxa7"
+  ],
+  "title": "Deux diagonales à la fois",
+  "setup": "La tour en a7 n'a rien pour la protéger et le roi en g7 est à découvert — et une seule case voit les deux.",
+  "hint": "Attaquez la tour le long de sa propre colonne et elle vous prend tout simplement. Cherchez la case d'où partent deux diagonales dans des directions opposées.",
+  "explanation": "## L'idée\n\nL'ancienne dame rampait d'une case en diagonale à la fois. La nouvelle se tient là où se croisent deux longues lignes.\n\n{{Qd4+}} met le roi en g7 en échec le long d'une diagonale et frappe la tour en a7 le long de l'autre. La tour ne peut pas riposter : d4 n'est ni sur sa colonne ni sur sa rangée.\n\nQuoi que fassent les Noirs contre l'échec, {{Kg8}} ou autre chose, cela ne fait rien pour la tour, et {{Qxa7}} la ramasse.\n\nPoursuivez plutôt la tour le long de la colonne a, et elle prend votre dame."
+}

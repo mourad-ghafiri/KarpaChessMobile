@@ -1,0 +1,65 @@
+{
+  "id": "space-advantage",
+  "title": "A Vantagem de Espaço",
+  "summary": "Mais sítio para as tuas peças, menos para as deles",
+  "proof": "strategy-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "title": "Três Para Lá do Meio",
+      "text": "Conta os peões que saíram de casa. As brancas têm três, em c4, d4 e e5. As pretas têm um.\n\nEssa diferença tem nome. Uma **vantagem de espaço** é o sítio que fica atrás dos teus peões: casas onde as tuas peças podem estar e a que o outro exército não chega.\n\nOlha para a fatura que as pretas estão a pagar. O cavalo foi enxotado até b6, sete peças continuam sentadas na linha de fundo, e o único peão que se mexeu é o de d6.\n\nJogam as brancas, e ainda há mais espaço para tomar."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "prompt": "Toma mais uma casa na ala do rei com um peão, e acrescenta pelo caminho um segundo defensor a e5.",
+      "targetSan": [
+        "f4"
+      ],
+      "hint": "Só uma jogada de peão dá ao peão de e5 um segundo defensor sem largar mais nada."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Sítio para Escolher",
+      "text": "Espaço não é material. Aqui não se ganhou nada, e a contagem de pontos está perfeitamente igual.\n\nO que as brancas têm é escolha. Atrás de quatro peões em c4, d4, e5 e f4, todas as peças brancas têm percursos por onde optar, e o peão de e5 tira sossegadamente f6 aos cavalos pretos.\n\nCompara o cavalo em b6. Tirando atirar-se para c4, as opções dele são {{Na4}}, a berma, {{Nd5}}, onde o peão c das brancas simplesmente o come, e um recuo a d7 que tapa o seu próprio bispo. É isto que se sente por dentro numa posição apertada: uma lista curta, em cada jogada."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Qual Dos Lados Troca",
+      "text": "Com espaço, guarda as peças no tabuleiro. O teu exército tem sítio para manobrar e o do teu adversário não, portanto cada troca que permites devolve casas.\n\nApertado, faz o contrário. Troca tudo o que conseguires alcançar: cada peça que sai do tabuleiro dá mais espaço às sobreviventes, e quem tem menos casas fica sem elas primeiro.\n\nAqui jogam as pretas, e as pretas são o lado apertado. Portanto a jogada a procurar não é um andar de um lado para o outro."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "prompt": "És tu o lado apertado: tira um peão do tabuleiro e dá ar às tuas peças.",
+      "targetSan": [
+        "dxe5"
+      ],
+      "hint": "Que captura desimpede a coluna à frente da tua dama?"
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn1p3/3PPb2/2P5/2N1BN2/PP4PP/R2QKB1R b KQk - 0 10",
+      "title": "Cinco Jogadas Depois",
+      "text": "As brancas voltaram a avançar e seguram agora c4, d5 e e5. A resposta das pretas é a de antes: bater na cunha, tirar peças.\n\n{{exd5}} {{cxd5}}, e o trio avançado passa a par.\n\nNão se ganhou nada. A contagem de pontos não se mexeu e as brancas continuam donas do centro. Mas dois peões saíram da estrada, e as peças que estavam atrás deles têm finalmente para onde ir."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "title": "O Espaço É Alugado",
+      "text": "Um peão que caminhou até d5 não pode voltar. Tem de ser segurado onde está, e as duas peças que o seguram são o cavalo de c3 e a dama de d1.\n\nÉ essa a fenda de todo o grande centro. O lado apertado troca primeiro e depois apoia-se nos peões que o apertaram, porque cada atacante acrescentado é mais uma peça inimiga pregada à defesa em vez de a fazer o que quer.\n\n> Mais espaço, menos trocas. Menos espaço, troca tudo e apoia-te no que ficar."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "prompt": "Junta um terceiro atacante ao peão d das brancas, e salva na mesma jogada o cavalo que esse peão está a atingir.",
+      "targetSan": [
+        "Nb4"
+      ],
+      "hint": "A tua dama e o cavalo de b6 já tocam em d5. Que casa deixa o cavalo de c6 escapar e juntar-se a eles?"
+    }
+  ]
+}

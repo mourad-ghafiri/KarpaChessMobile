@@ -1,0 +1,62 @@
+{
+  "id": "chess-and-machines",
+  "title": "Le Macchine",
+  "summary": "Turing sulla carta, Deep Blue sulla scacchiera, e un campione che abbandonò alla diciannovesima",
+  "proof": "history-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "Un Programma Senza Computer",
+      "text": "Attorno al 1948 Alan Turing e David Champernowne scrissero su carta un programma di scacchi. I computer esistevano — il guaio era che nessuno di quelli a portata di Turing era in grado di eseguirlo.\n\n*Turochamp* era una pagina di regole: valuta la posizione contando quello che ciascuno possiede, guarda una mossa o due avanti, gioca la linea che vale di più.\n\nNel 1952 Turing lo eseguì a mano contro un collega, Alick Glennie — circa mezz'ora di conti per mossa. *Turochamp* perse. Non girò mai su un computer mentre Turing era vivo, e si conta ancora come il primo programma di scacchi mai scritto."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "New York, 1997",
+      "text": "Kasparov batté Deep Blue nel 1996, quattro partite a due. L'IBM portò via la macchina, la ricostruì e chiese la rivincita.\n\nNew York, maggio 1997, sei partite di nuovo. Deep Blue vinse tre e mezzo a due e mezzo — la prima volta che un campione del mondo in carica perdeva un match contro un computer. Il margine fu una partita.\n\nQuesta è l'ultima delle sei, e il Bianco è la macchina."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "La Porta in f7",
+      "text": "Il Nero ha appena spinto il pedone in h6, il che chiede al cavallo di g5 dove preferirebbe stare.\n\nIl re nero in e8 ha una cosa sola davanti: il pedone in f7. L'alfiere bianco in d3 punta già lungo la diagonale attraverso f5 e g6, quindi nel momento in cui quel pedone se ne va, dietro di lui arriva uno scacco.\n\n{{Bg6}} lo fa andare via. E fa anche perdere un alfiere per niente — {{fxg6}}.\n\nUn pedone non si muove perché lo minacciate. Si muove per prendere."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "prompt": "Offrite al pedone di f7 qualcosa da prendere, e tenetevi l'alfiere che darà scacco dietro di lui.",
+      "targetSan": [
+        "Nxe6"
+      ],
+      "hint": "Contate i difensori del pedone nero in e6. Ce n'è esattamente uno, ed è il pedone che vi serve far muovere."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Una Mossa Legale",
+      "text": "Prendete subito il cavallo ed è qui che si finisce: l'alfiere atterra in g6 con scacco, e il Nero ha esattamente una risposta legale su tutta la scacchiera. Non una scelta fra case brutte. Una mossa.\n\nE così il re nero in e7 sta davanti alla propria donna in d8 e al proprio alfiere in f8, e il diritto di arroccare è perso per sempre.\n\nContate il materiale e il Nero ha un cavallo per un pedone. Contate le case e il Nero è finito."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Nessuna Fretta",
+      "text": "Kasparov non prese subito il cavallo. Uscì invece la donna — e Deep Blue rispose arroccando, con il cavallo ancora lì in e6 da prendere, un pezzo intero seduto a disposizione.\n\nIl sacrificio in sé stava già nei libri. Quello che turbò la gente fu la totale mancanza di fretta della macchina dopo.\n\nLa presa arrivò una mossa più tardi, il che mandò quel re in d8 anziché in e7. Kasparov abbandonò alla diciannovesima mossa, la partita più breve del match."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Quello che Venne Dopo",
+      "text": "Deep Blue era la conoscenza scacchistica umana, scritta come regole e cercata a duecento milioni di posizioni al secondo.\n\nNel 2017 ad **AlphaZero** furono date le regole e nient'altro, giocò milioni di partite contro sé stesso e arrivò a uno stile che i romantici avrebbero riconosciuto. Dal 2020 **Stockfish**, il motore open source più forte e quello dentro questa app, giudica le posizioni con una piccola rete neurale presa in prestito dallo shogi.\n\nNessuno ha risolto gli scacchi. Sette pezzi o meno si possono cercare in una tabella; trentadue non ci si avvicina nemmeno.\n\n> Una macchina ci arriva contando ogni linea. Voi ci arrivate riconoscendo la forma — e le forme che vi aspettano hanno un nome."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "prompt": "Non scappa niente del Nero, quindi spendete la mossa sul vostro re.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "C'è esattamente una mossa su questa scacchiera che muove due pezzi bianchi insieme."
+    }
+  ]
+}

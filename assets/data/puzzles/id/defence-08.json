@@ -1,0 +1,14 @@
+{
+  "id": "defence-08",
+  "fen": "4K3/5rQ1/3q4/r6k/8/8/B7/3R4 w - - 0 1",
+  "solution": [
+    "Rh1+",
+    "Qh2",
+    "Rxh2#"
+  ],
+  "rating": 1730,
+  "title": "Menterinya Harus Kembali",
+  "setup": "Menteri Hitam di d6 serta benteng di a5 dan f7 mengepung raja Anda di e8, sementara rajanya sendiri duduk di h5.",
+  "hint": "Buah-buah Hitam semuanya berada di sisi yang salah. Beri sekak di lajur tempat rajanya berdiri dan lihat siapa yang bisa menolong.",
+  "explanation": "## Ide\n\n{{Rh1+}} memaksa menteri menutup dengan {{Qh2}}, meninggalkan segalanya, dan {{Rxh2#}} mengakhiri. Buah yang menyerang raja Anda adalah buah yang tidak sedang membela rajanya sendiri."
+}

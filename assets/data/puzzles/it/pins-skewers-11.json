@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-11",
+  "fen": "q7/5ppp/8/k7/8/7P/5PPK/6R1 w - - 0 1",
+  "solution": [
+    "Ra1+",
+    "Kb6",
+    "Rxa8"
+  ],
+  "title": "Duello sulla Colonna a",
+  "setup": "Il Nero è avanti di una donna per una torre, ma il suo re in a5 e la sua donna in a8 stanno sulla stessa colonna.",
+  "hint": "Date scacco al re lungo la linea che condivide con la donna, e guardate che cosa resta quando si sposta.",
+  "explanation": "## L'idea\n\nQuesta è un'infilata: il re sta davanti e la donna dietro. {{Ra1+}} dà scacco al re in a5 lungo la colonna a. Niente può parare, quindi il re deve lasciare la colonna, e dopo {{Kb6}}, {{Rxa8}} prende la donna.\n\nIn un'inchiodatura il pezzo più prezioso si nasconde dietro. In un'infilata sta davanti, e quando si sposta, cade quello che ha dietro."
+}

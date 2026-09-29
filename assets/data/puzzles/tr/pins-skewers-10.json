@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-10",
+  "fen": "3k4/p2b1ppp/6n1/1pP5/8/8/PP1R1PPP/6K1 w - - 0 1",
+  "solution": [
+    "c6"
+  ],
+  "title": "Fil Açmaza Girdi, Fil Gitti",
+  "setup": "Siyahın fili d dikeyinde, kaleniz ile kendi şahı arasında duruyor ve c piyonunuz yakınlarda.",
+  "hint": "Açmazdaki fil hattından çekilemez, taş almak için bile. Ona en ucuz taşınızla saldırın.",
+  "explanation": "## Fikir\n\nd7'deki fil kaleniz tarafından d8'deki şaha karşı açmaza alınmış, yani d dikeyini terk edemez. {{c6}} ona saldırır ve fil ne piyonu alabilir ne de kaçabilir; böylece {{cxd7}} sıradaki hamlede onu, en fazla bir piyon karşılığında kazanır.\n\nKaleyle almak yalnızca kaleyi file değişirdi. Açmazdaki bir taşa elinizdeki en ucuz şeyle saldırın."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-08",
+  "fen": "r3k3/rp4n1/3p4/5p2/3Q4/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "Qxg7"
+  ],
+  "title": "Guardate Prima di Afferrare",
+  "setup": "La vostra donna in d4 vede una torre nera su una diagonale e un cavallo sull'altra. Scegliete con attenzione.",
+  "hint": "Una torre vale più di un cavallo — ma che cosa sta dietro la torre in a7?",
+  "explanation": "## L'idea\n\nL'ingordigia dice di prendere la torre. {{Qxa7}} vince cinque punti, fino al momento in cui la torre in a8 riprende e una donna da nove punti si è comprata una torre da cinque.\n\nIl vero regalo è il cavallo. {{Qxg7}} prende un pezzo gratis: la torre in a7 risponderebbe volentieri, ma il suo stesso pedone in b7 le sta sulla strada, e nient'altro sulla scacchiera copre g7.\n\nIl bersaglio più prezioso non è il bersaglio migliore. Lo è quello indifeso."
+}

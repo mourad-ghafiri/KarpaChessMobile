@@ -1,0 +1,71 @@
+{
+  "id": "greek-gift",
+  "title": "The Greek Gift",
+  "summary": "One bishop, handed over, for a king with nowhere left to stand",
+  "proof": "greek-gift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "The Square Nobody Guards",
+      "text": "Count what is aimed at h7. The bishop on d3 looks straight down the b1-h7 diagonal at it. The knight on f3 is one jump from g5, and from g5 it hits h7 as well. The queen on d1 stands at the foot of the d1-h5 diagonal, which ends on the same h-file.\n\nNow count the guard. The knight that belongs on f6 has been pushed back to d7 by your pawn on e5, and e5 still covers f6. The only piece left covering h7 is the king standing next to it.\n\nThree against one, and the one is a king."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "The Greek Gift",
+      "text": "Handing over a bishop for a single pawn is a **sacrifice** with a name. The **Greek gift** is the bishop thrown into the pawn shelter in front of a castled king. It either ends the game or it loses a piece, and which one is settled before you let go.\n\nFour conditions. The bishop sees h7. A knight is one move from g5. The queen has a road to the h-file behind that knight. And whatever takes on g5 is taken back, while nothing can reach f6 to cover the corner.\n\n> A gift you have counted is not a gamble."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "prompt": "Nothing but the king guards Black's corner, so drag that king out of its shelter.",
+      "targetSan": [
+        "Bxh7+"
+      ],
+      "hint": "Only one of your pieces attacks h7 right now, so stop counting what it is worth and count the guards instead."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "title": "Your Own Knight Is in the Way",
+      "text": "The king has taken on h7 and there is nothing left in front of it. You are also a bishop down for a pawn, which is the part that concentrates the mind.\n\nLook at where the queen wants to go. The road from d1 to the h-file runs through e2, f3 and g4, and your own knight on f3 is standing on it.\n\nSo this move is not a choice between good ideas. Anything quiet lets Black step back to g8 and start hauling pieces toward the corner, and then the bishop bought a pawn and nothing else."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "prompt": "Open the queen's road to the h-file with a move Black has to answer at once.",
+      "targetSan": [
+        "Ng5+"
+      ],
+      "hint": "Your knight has to move, and only one of its squares gives check — the one your f-pawn already guards."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R b KQ - 1 11",
+      "title": "Four Squares, One King",
+      "text": "The queen on e7 can take the knight, but your pawn on f4 takes back and Black has paid a queen for a knight. A knight's check cannot be blocked either. So the king moves, and it has exactly four squares: {{Kg8}}, {{Kh8}}, {{Kg6}}, {{Kh6}}.\n\nTwo of them go back into the corner. The other two step forward onto an open board, which looks like escaping the knight and is really walking toward everything else you own.\n\nThose two are the ones your opponent will want to play."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p1k1/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "Out to Take the Knight",
+      "text": "g6 attacks the knight on g5, which is exactly why Black plays it. The king walks out expecting to be a piece up in two moves.\n\n{{Qg4}}. The queen steps up behind the knight on the g-file, so the knight is guarded and every square it jumps to uncovers a check. And your f-pawn is one step from f5, where it would hit the king again.\n\nThe further out the king comes, the more of your army can reach it."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p2k/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "The Bishop's Old Road",
+      "text": "h6 keeps the king out of the corner and attacks the knight on g5, so it looks like the pick of the four.\n\n{{Qd3}}. The queen takes over the diagonal the bishop gave up and aims straight at h7. The knight on g5 guards that square, the king has nowhere to step off it, and mate on h7 is threatened next move. Black has no good way to stop it."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqpp1/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "prompt": "Black is back in the corner, so bring your last attacker to the h-file and threaten mate.",
+      "targetSan": [
+        "Qh5"
+      ],
+      "hint": "The knight already covers h7, and Black's own rook on f8 has taken a flight square away from the king."
+    }
+  ]
+}

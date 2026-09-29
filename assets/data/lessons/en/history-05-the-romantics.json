@@ -1,0 +1,71 @@
+{
+  "id": "romantic-era",
+  "title": "A Night at the Opera",
+  "summary": "Paris, 1858, and what Morphy bought with a rook",
+  "proof": "history-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "A Box at the Opera",
+      "text": "Paris, 1858. The most famous game ever played was played by someone who would rather have been watching the opera.\n\nPaul Morphy is twenty-one, American, and midway through a European tour that beat everyone willing to sit down. The Duke of Brunswick offers a box at the Italian opera and a game; the Duke and Count Isouard take Black together, arguing it out between them on every move. Morphy takes White, keeps one eye on the stage, and is finished in seventeen moves.\n\nSources still disagree about what was being sung."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "The Romantic Bargain",
+      "text": "Count the rooks: Morphy has one, Black has two.\n\nThe chess Morphy grew up in believed one thing and believed it completely — bring every piece out, open every road to the enemy king, and pay for the speed in material. Later it got a name: the **romantic** school. Most players who tried it simply ended up a rook down.\n\nMorphy is the one it worked for, and the difference was arithmetic. These open lines have cost a knight and a rook, and White is three points behind."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "Two Sleeping Rooks",
+      "text": "Both sides have a rook that has not moved all game, and only one side is in a position to wake it up.\n\nBlack's rook is on h8 with the king on e8 and a bishop on f8 between them, and that bishop has no legal square at all.\n\nThe busy square is d7. The bishop on b5 attacks the rook on d7; the king on e8, the queen on e7 and the knight on f6 all defend it. Three to one — nothing is falling yet. But every white piece except one is already pointed at this corner of the board."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "prompt": "Bring the last rook in on the file where Black's own rook is standing.",
+      "hint": "Only one file runs clear from White's first rank to a black piece, and only one white piece has never left home.",
+      "targetSan": [
+        "Rd1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 b k - 1 14",
+      "title": "Not About the Rook",
+      "text": "The rook lands, and the count on d7 goes to two attackers against three defenders. Still nothing.\n\nBlack steps the queen sideways: {{Qe6}}. It guards d7 exactly as it did from e7, and it now faces the white queen on b3 down one diagonal — an offer to trade queens and take the sting out of the game.\n\nMorphy trades a different pair. {{Bxd7+}} {{Nxd7}}, and the piece standing between the rook on d1 and the square beside the black king is a knight."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w k - 0 16",
+      "prompt": "Capturing the knight only lets Black recapture, so make Black's own knight clear the file instead.",
+      "hint": "Black's king has no square and Black's queen cannot reach the eighth rank, so a check there would have exactly one answer.",
+      "targetSan": [
+        "Qb8+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Why the Queen Went",
+      "text": "The queen was not a present. It was an eviction notice.\n\nTaking the knight had always been possible and had never been worth anything: Black recaptures on d7, the file closes again, and White has given up a second rook for a knight.\n\nA check on b8 asked a different question. Black had exactly one legal move on the whole board, and it was the knight coming to get the queen."
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Count It Before You Play It",
+      "text": "The d-file is empty now, from the rook on d1 to the eighth rank.\n\nThe bishop on g5 does two jobs at once: through the empty f6 square it defends d8 and covers e7. The king on e8 has nowhere else — f8 is its own bishop's square, and d7 sits on the file the rook already owns. A rook arriving next door cannot be blocked out either.\n\n> The romantic school paid material for open lines. It only ever worked for the players who counted the finish first."
+    },
+    {
+      "type": "play",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "prompt": "Two pieces and no queen: end it on the file the knight left.",
+      "hint": "One white piece is already guarding the landing square and covering the king's only exit, so the rook has nothing to do but arrive.",
+      "targetSan": [
+        "Rd8#"
+      ]
+    }
+  ]
+}

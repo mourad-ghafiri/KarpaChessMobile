@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-11",
+  "fen": "q7/5ppp/8/k7/8/7P/5PPK/6R1 w - - 0 1",
+  "solution": [
+    "Ra1+",
+    "Kb6",
+    "Rxa8"
+  ],
+  "title": "Duel sur la colonne a",
+  "setup": "Les Noirs ont une dame contre une tour, mais leur roi en a5 et leur dame en a8 se tiennent sur la même colonne.",
+  "hint": "Mettez le roi en échec le long de la ligne qu'il partage avec la dame, et voyez ce qui reste quand il s'écarte.",
+  "explanation": "## L'idée\n\nC'est une enfilade : le roi se tient devant et la dame derrière. {{Ra1+}} met le roi en a5 en échec le long de la colonne a. Rien ne peut s'interposer, donc le roi doit quitter la colonne, et après {{Kb6}}, {{Rxa8}} prend la dame.\n\nDans un clouage, la pièce la plus précieuse se cache derrière. Dans une enfilade, elle se tient devant, et quand elle bouge, ce qui est derrière elle tombe."
+}

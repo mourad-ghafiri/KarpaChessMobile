@@ -1,0 +1,17 @@
+{
+  "id": "openings-10",
+  "fen": "r1bqkbnr/pppp1ppp/8/1B2N3/3nP3/8/PPPP1PPP/RNBQK2R b KQk - 0 4",
+  "solution": [
+    "Qg5",
+    "Nxf7",
+    "Qxg2",
+    "Rf1",
+    "Qxe4+",
+    "Be2",
+    "Nf3#"
+  ],
+  "title": "O Peão Que Nunca Foi Grátis",
+  "setup": "As pretas responderam ao bispo espanhol com o cavalo em d4, e o cavalo branco acabou de abocanhar um peão. Ataca esse cavalo e um peão desprotegido com uma só jogada.",
+  "hint": "O cavalo guloso e o peão g estão os dois desprotegidos. Encontra a única casa que olha para cada um deles.",
+  "explanation": "## A Ideia\n\nO bispo espanhol nunca atacou realmente e5, e as brancas acabaram de abocanhar o peão à mesma.\n\n{{Qg5}} atinge ao mesmo tempo o cavalo de e5 e o peão de g2. As brancas deviam limitar já os prejuízos; se continuarem a abocanhar com {{Nxf7}}, então {{Qxg2}}, {{Rf1}} {{Qxe4+}}, {{Be2}} acaba em {{Nf3#}}, mate pelo cavalo que partiu de d4.\n\nComer o bispo com {{Nxb5}} é igualmente forte. A jogada de dama mostra porque é que o peão nunca foi grátis."
+}

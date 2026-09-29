@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-07",
+  "fen": "7R/2k5/8/1rPK4/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Rh7+"
+  ],
+  "rating": 1470,
+  "title": "Kembali ke Baris Kedelapan",
+  "setup": "Raja Hitam berdiri dua petak di depan pion c, menahan c6 dari c7 dan bentengnya menyerang pion dari b5, jadi belum ada yang bergerak.",
+  "hint": "Raja hitam mengerjakan seluruh pertahanan dari petak di samping pion. Garis mana yang bisa Anda rampas darinya?",
+  "explanation": "## Ide\n\nSelama raja duduk di c7, Putih tak bisa maju. {{Rh7+}} menggiringnya ke baris belakang dan benteng lalu menguasai baris ketujuh, sehingga raja tak akan pernah bisa kembali ke samping pion. {{Kb8}} {{Kd6}} dan raja Putih mengantar pion masuk."
+}

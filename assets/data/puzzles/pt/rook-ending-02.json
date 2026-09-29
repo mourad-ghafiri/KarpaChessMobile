@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-02",
+  "fen": "8/R4Pr1/4k3/8/4K3/8/8/8 w - - 0 1",
+  "solution": [
+    "f8=Q"
+  ],
+  "rating": 1250,
+  "title": "Faz a Peça Certa",
+  "setup": "A torre preta ataca o peão f a partir de g7, o rei ataca-o também, e um defensor não o segura contra dois, portanto as brancas têm exatamente uma jogada para o usar.",
+  "hint": "O peão perde-se na jogada seguinte faças o que fizeres. Pergunta que peça nova tocaria na torre de g7.",
+  "explanation": "## A Ideia\n\nO peão não pode ser segurado, portanto gasta-o. {{f8=Q}} ataca a torre ao lado e ganha. {{f8=R}} e {{f8=N+}} deixam g7 em paz, e {{f8=B}} atinge a torre mas não chega para ganhar. As pretas têm de salvar a torre com {{Rxa7}}, e dama contra torre ganha."
+}

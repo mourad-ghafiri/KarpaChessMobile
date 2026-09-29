@@ -1,0 +1,56 @@
+{
+  "id": "chess-in-europe",
+  "title": "Nouveaux noms, anciens coups",
+  "summary": "Rebaptisés à la frontière, et inchangés pendant cinq cents ans",
+  "proof": "history-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "La route d'entrée",
+      "text": "Les échecs sont entrés en Europe sans laisser de date.\n\nLa route la mieux attestée passe par **al-Andalus**, l'Espagne musulmane, où l'on jouait au shatranj bien avant qu'aucun royaume chrétien n'en écrive un mot. La Sicile arabe est une deuxième route. Byzance, qui appelait le jeu *zatrikion*, une troisième, et les marchands comme les armées de l'époque les ont toutes empruntées.\n\nCe qui subsiste, ce sont les documents à l'arrivée. Un testament rédigé en Catalogne vers 1008 lègue un jeu d'échecs à un monastère, et personne en le rédigeant n'a jugé utile d'expliquer de quoi il s'agissait."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "La dame et l'éléphant",
+      "text": "L'Europe n'avait pas de vizirs, alors le **ferz** a pris la seule fonction qui convienne aux côtés d'un roi : il est devenu la **dame**. *Regina* en latin, *dame* en français. Ce changement de nom est arrivé tôt et presque partout.\n\nL'**alfil** n'a pas fait l'unanimité. L'Italie en a fait l'*alfiere*, le porte-étendard ; la France le *fou*, le bouffon ; l'Allemagne un coureur. L'Angleterre ne l'a pas traduit du tout et l'appelait encore *aufin* en 1474. Le nom anglais *bishop* ne l'emporte que dans les années 1500, bien après que les sculpteurs eurent tranché — les pièces de Lewis portent déjà la mitre vers 1200."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "Les noms ont bougé, pas les coups",
+      "text": "Changer un nom n'est pas une réforme.\n\nLa dame européenne avançait toujours d'une case en diagonale, exactement comme le ferz. Le fou européen faisait toujours le même saut de deux cases par-dessus tout ce qui se trouvait en travers, et retombait sur la même courte liste de cases à laquelle il avait toujours été condamné. Les deux pièces ont été reconstruites dans la péninsule Ibérique dans les années 1470, et ce sera la prochaine leçon.\n\nVotre échiquier est déjà de l'autre côté. Le fou noir en c8 peut rejoindre au prochain coup la grande diagonale blanche de l'échiquier. Un alfil parti de c8 n'aurait pas atteint une seule case de cette diagonale en cent parties."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "prompt": "Amenez le fou de c8 sur cette grande diagonale blanche, celle qui traverse tout l'échiquier.",
+      "hint": "Ce fou a exactement deux cases disponibles. Une seule est sur la diagonale.",
+      "targetSan": [
+        "Bb7"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Quatre cases et une cinquième",
+      "text": "Nouvel échiquier, les Blancs au trait, et un fou en c1 qui n'est encore allé nulle part.\n\n{{Bd2}}, {{Be3}}, {{Bf4}}, {{Bh6}} — quatre cases le long d'une diagonale, avec une cinquième parmi elles.\n\nUn alfil en c1 ne pouvait atteindre que deux cases de toute cette ligne : e3, en sautant par-dessus d2, occupée ou non, et g5 par le même saut répété. Les trois autres lui étaient fermées pour toute la partie.\n\nVoilà ce qu'a apporté la réforme. Et ce n'est pas surtout une affaire de distance."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "À travers, pas par-dessus",
+      "text": "La distance est la plus petite moitié. La plus grande, c'est qu'un fou passe *à travers* les cases au lieu de sauter par-dessus.\n\nUn alfil ne pouvait jamais immobiliser quoi que ce soit. Il survolait ce qui se trouvait sur son chemin, donc rien n'était jamais pris au piège devant lui. Un fou parcourt la ligne, et une pièce placée sur cette ligne a un problème : qu'elle s'écarte, et ce qui se trouvait derrière elle est soudain à prendre.\n\nLe cavalier noir en f6 a la dame en d8 juste derrière lui, sur une même diagonale, e7 vide entre eux. Rien ne s'est encore passé. Il faut que quelqu'un arrive."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "prompt": "Arrivez sur cette diagonale, pour que le cavalier en f6 ne puisse plus bouger d'une case sans livrer la dame derrière lui.",
+      "hint": "Le fou en f1 a son propre pion en e2 sur le chemin. L'autre n'a rien devant lui.",
+      "targetSan": [
+        "Bg5"
+      ]
+    }
+  ]
+}

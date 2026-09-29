@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-05",
+  "fen": "6k1/5ppp/8/8/8/8/1R3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Martello a Distanza",
+  "setup": "La vostra torre in b2 fissa una colonna vuota, con la traversa di fondo spalancata all'altro capo.",
+  "hint": "Il re nero ha tre suoi pedoni davanti. Trovate la traversa che non può lasciare.",
+  "explanation": "## L'idea\n\nQuesto è un puro matto del corridoio. {{Rb8#}} percorre tutta la colonna b e dà scacco lungo l'ottava traversa. f8 e h8 stanno sulla linea della torre, f7, g7 e h7 hanno i pedoni del Nero, e niente può catturare la torre o parare.\n\nUna torre lontana dall'azione può comunque dare matto in una. Prima di muovere, passate in rassegna ogni colonna aperta per le vostre torri e ogni diagonale aperta per i vostri alfieri."
+}

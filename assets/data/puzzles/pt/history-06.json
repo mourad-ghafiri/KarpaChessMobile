@@ -1,0 +1,13 @@
+{
+  "id": "history-06",
+  "fen": "bq1b3r/3n1k2/p3p1p1/Np1pPp1p/1P1N1P2/P2PB3/2Q3PP/2R3K1 w - - 4 27",
+  "solution": [
+    "Nac6",
+    "Qb7",
+    "Nxd8+"
+  ],
+  "title": "O Buraco Rende",
+  "setup": "Steinitz contra Sellman, Baltimore 1885, vinte e seis jogadas depois e sem um único sacrifício. É hora de cobrar o buraco que a lição encontrou.",
+  "hint": "Uma casa no fundo do campo preto nunca mais poderá ser atacada por um peão. Dois cavalos podiam tomá-la — escolhe o que não tem nada melhor que fazer.",
+  "explanation": "## A Ideia\n\nVinte e seis jogadas depois, c6 continua a ser um buraco: os peões b e d das pretas passaram-lhe à frente de vez.\n\n{{Nac6}} aterra ali e atinge ao mesmo tempo a dama de b8 e o bispo de d8. {{Qb7}} salva a dama, e {{Nxd8+}} come o bispo com xeque.\n\nA torre recaptura e o material fica igual, mas o único bispo das casas escuras das pretas desapareceu. Usa o cavalo de a5: o de d4 pressiona b5, e6 e f5, e mexê-lo larga as três."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "remove-the-defender",
+  "title": "Remove the Defender",
+  "summary": "A guarded piece is only as safe as its guard",
+  "proof": "remove-defender-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "One Attacker, One Guard",
+      "text": "Black's bishop has walked into d4 and stopped there, deep in White's half, and it is not hanging. The queen on d1 has a clear file to it — that is one attacker. The knight on c6 covers d4 — that is one guard, and that guard is the whole reason the bishop can stand where it is standing.\n\nCounting captures taught you to add both sides up before you take. This is what to do when the count does not go your way.\n\nStop arguing with the square. Argue with the guard."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Two Ways to Stop a Guard",
+      "text": "A guard stops guarding when it comes off the board, and it stops guarding when it is chased off its square. The first is the one you can count to the end, because after a capture there is nothing left to go wrong.\n\nSo the target is not the bishop in the center. The target is the piece answering for it, and that piece is standing on a square White can already reach.\n\n> Find the move you want to play. Then find the one piece that says no."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "prompt": "Change the count on d4 by taking the one black piece that answers for it.",
+      "targetSan": [
+        "Bxc6+"
+      ],
+      "hint": "Count the defenders of d4. There is exactly one, and something of White's is already aimed straight at it."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Nobody Had a Spare Move",
+      "text": "The capture arrived with check, and that is what made it work. Without the check, Black would have spent the move pulling the bishop off d4. Instead the whole move went on getting out of check.\n\nThe queen took back here; the b-pawn could have taken back instead. Either way the trade is even — a bishop for a knight, three for three, nothing won and nothing lost.\n\nWhat no recapture had was a moment to spend on d4."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Recount the Square",
+      "text": "The bishop is still sitting on d4 and the queen on d1 still looks straight at it. What changed is the other side of the sum.\n\nThe queen on c6 does not reach d4. No pawn touches it. Neither rook stands on the d-file, and the king on e8 is nowhere near it.\n\nAttacked once, guarded by nobody. That is the count you were waiting for."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "One Move, Not a Position",
+      "text": "Taking a guard buys exactly one move. Not an advantage, not a plan — one move.\n\nGive Black a turn instead and the bishop walks off d4 to somewhere quiet, or a rook drops onto d8 and covers it from behind. Nothing holds that piece in place except whose turn it is.\n\nThere is a price, and it is small. Once White's queen leaves d1 nothing covers c2, and Black's queen has a clear run down the c-file to eat that pawn. A pawn against a bishop is not a negotiation."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "prompt": "Collect the piece on d4 before Black is handed a move to walk it away.",
+      "targetSan": [
+        "Qxd4"
+      ],
+      "hint": "Nothing on Black's side answers for d4 right now, and that is true for exactly one more move."
+    }
+  ]
+}

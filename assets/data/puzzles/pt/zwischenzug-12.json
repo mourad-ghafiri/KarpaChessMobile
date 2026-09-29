@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-12",
+  "fen": "2Q1B2k/b4ppp/2r5/4r3/8/R7/PP6/K7 w - - 0 1",
+  "solution": [
+    "Bxc6+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1700,
+  "title": "Liberta o Caminho Com Xeque",
+  "setup": "O teu bispo em e8 e a tua dama em c8 estão empilhados na linha de fundo, e as torres pretas de c6 e e5 seguram-na.",
+  "hint": "Uma peça tua está em cima da casa do mate. Encontra a jogada que a tira e ganha um tempo ao mesmo tempo.",
+  "explanation": "## A Ideia\n\nO bispo de e8 está no caminho da dama. {{Bxc6+}} come uma torre, liberta a casa e dá xeque tudo de uma vez; {{Re8}} é forçado e {{Qxe8#}} acaba. A melhor jogada intermédia é a que faz três trabalhos."
+}

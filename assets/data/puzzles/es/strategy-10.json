@@ -1,0 +1,11 @@
+{
+  "id": "strategy-10",
+  "fen": "r1bq1rk1/5ppp/p1np1b2/1p1Np3/4P3/N1P5/PP3PPP/R2QKB1R w KQ - 1 12",
+  "solution": [
+    "Nc2"
+  ],
+  "title": "El caballo en la banda",
+  "setup": "El caballo blanco fue expulsado a a3 en la apertura y no ha hecho nada desde entonces. Los peones negros cubren sus salidas. Ponlo en marcha por una ruta mejor.",
+  "hint": "Haz la lista de todas las casillas que ese caballo puede usar legalmente, y tacha las que ya ataca un peón negro.",
+  "explanation": "## La idea\n\nEl caballo de a3 es la peor pieza blanca. Los peones negros le quitan las casillas hacia delante: b5 está defendida por el peón de a y c4 la cubre el peón de b, y volver a casa a b1 solo deshace una jugada.\n\n{{Nc2}} no es una retirada, sino el primer tramo de una ruta: c2 y luego e3, donde apoya al caballo de d5. Las Negras siguen con {{Bg5}}, y las Blancas recorren el siguiente tramo con {{Nce3}}.\n\n¿Qué pieza hace menos, dónde preferiría estar y cuál es el camino más corto hasta allí?"
+}

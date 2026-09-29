@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-06",
+  "fen": "2r3k1/p4p1p/6p1/5n2/3b4/7B/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxf5"
+  ],
+  "rating": 1250,
+  "title": "Telusuri Pertahanannya",
+  "setup": "Benteng Anda berhadapan dengan gajah di d4, yang tetap di tempatnya hanya karena kuda di f5 menguasainya.",
+  "hint": "Jangan ambil gajahnya dulu. Tanyakan apa yang melindunginya, dan apakah Anda bisa menukar buah itu lebih dulu.",
+  "explanation": "## Ide\n\n{{Bxf5}} menyingkirkan kuda yang menjaga d4. {{gxf5}} memulihkan materi tetapi tidak pertahanannya, dan {{Rxd4}} memenangkan sebuah buah. Serang pembelanya, bukan yang dibela. Tangkapan balik oleh pion memperbaiki materi, tak pernah memperbaiki pertahanan."
+}

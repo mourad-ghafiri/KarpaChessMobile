@@ -1,0 +1,12 @@
+{
+  "id": "trapped-02",
+  "fen": "2r3k1/pp3pp1/7p/4P2n/8/4B3/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1040,
+  "title": "Kuda di Pinggir Papan",
+  "setup": "Kuda Hitam berkeliaran ke h5, petak yang hanya punya empat jalan keluar, dan tak satu pun tampak bersahabat.",
+  "hint": "Setiap petak yang bisa dicapai kuda itu sudah dikuasai atau ditempati. Yang dibutuhkan sekarang hanyalah dorongan.",
+  "explanation": "## Ide\n\n{{g4}} menyerang kuda dan h5 adalah jalan buntu: f6 dijawab exf6, f4 dijawab Bxf4, g3 dijawab hxg3, dan g7 adalah pion Hitam sendiri. Kuda di tepi papan paling banyak punya empat petak. Kuasai semuanya dan ia tak punya tempat untuk lari."
+}

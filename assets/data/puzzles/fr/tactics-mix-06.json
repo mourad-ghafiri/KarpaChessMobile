@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-06",
+  "fen": "4k3/8/2N5/4q3/B7/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxe5+"
+  ],
+  "title": "L'échec à la découverte gagne la dame",
+  "setup": "La dame noire en e5 met votre roi en échec le long de la colonne e. Votre cavalier en c6 se tient entre votre fou en a4 et le roi noir.",
+  "hint": "Le cavalier bloque un échec qui vous appartient. Déplacez-le là où il fait un vrai travail.",
+  "explanation": "## L'idée\n\nVotre roi est en échec, et la réponse est une contre-attaque. Le cavalier en c6 bloque la diagonale de votre fou vers e8.\n\n{{Nxe5+}} prend la dame qui donne échec, et déplacer le cavalier découvre l'échec du fou. {{Kd8}}, {{Kf8}} et {{Ke7}} sont les seuls coups des Noirs, et aucun n'atteint le cavalier.\n\nQuand votre pièce se tient entre votre pièce à longue portée et le roi adverse, chacun de ses coups arrive avec échec."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "forks-01",
+  "fen": "8/5ppp/3k4/q7/8/8/1N3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc4+",
+    "Kc5",
+    "Nxa5"
+  ],
+  "title": "Şah ile Vezir, Tek Sıçrayış",
+  "setup": "Siyahın d6'daki şahı ile a5'teki veziri iki kare arayla duruyor ve b2'deki atınız henüz ikisine de dokunmadı.",
+  "hint": "Hedeflerden geriye doğru çalışın: hangi kareler şaha saldırıyor ve bunlardan hangisi aynı zamanda vezire saldırıyor?",
+  "explanation": "## Fikir\n\nAtın şahı kapatılamaz ve saldırdığı taş onu neredeyse hiçbir zaman geri alamaz. Yani şaha ve vezire birlikte vuran tek bir at hamlesi veziri kazanır.\n\n{{Nc4+}} aynı anda d6 ile a5'e dokunur. Önce şaha cevap verilmesi gerekir, hiçbir şah hamlesi veziri korumak için a5'e ulaşamaz ve {{Kc5}} geldikten sonra at {{Nxa5}} ile onu toplar.\n\nİki hedef, tek hamle ve siyah her seferinde yalnızca birini kurtarabilir."
+}

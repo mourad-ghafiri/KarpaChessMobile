@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-07",
+  "fen": "8/8/8/2P5/5p2/3K3k/8/8 w - - 0 2",
+  "solution": [
+    "c6"
+  ],
+  "rating": 1315,
+  "title": "Kedua Pion Berlari",
+  "setup": "Hitam baru saja mendorong pionnya ke baris keempat, dan raja putih cukup dekat untuk tergoda.",
+  "hint": "Berbalik menghentikan pionnya memakan satu langkah; hitung kedua perlombaan menuju baris kedelapan sebelum Anda memutuskan.",
+  "explanation": "## Ide\n\nMengejar pion f hanya berakhir remis. {{c6}} memenangkan perlombaan: sesudah {{Kg3}} pion berlari ke c7 dan menjadi menteri di c8 sementara pion Hitam baru mencapai f3, dan menteri baru serta raja Anda lalu menghentikan pion pelari itu.\n\nDalam perlombaan murni, hitung langkah kedua pion menuju baris terakhir sebelum Anda berbalik untuk mengejar."
+}

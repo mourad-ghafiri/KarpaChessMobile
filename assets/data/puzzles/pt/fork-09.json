@@ -1,0 +1,14 @@
+{
+  "id": "fork-09",
+  "fen": "3rr1k1/5ppp/8/8/3n4/8/5PPP/2Q2RK1 b - - 1 1",
+  "solution": [
+    "Ne2+",
+    "Kh1",
+    "Nxc1"
+  ],
+  "rating": 990,
+  "title": "O Garfo Real",
+  "setup": "As brancas acabaram de passar a torre para f1, deixando o rei e a dama a um salto de cavalo um do outro.",
+  "hint": "O rei e a dama brancos estão em duas casas em que uma casa de cavalo toca. Encontra-a e verifica depois se é segura.",
+  "explanation": "## A Ideia\n\n{{Ne2+}} atinge g1 e c1 na mesma jogada, e nada cobre e2: a torre de f1 e a dama de c1 olham ambas para lá dela. {{Kh1}} é a única casa que resta, e {{Nxc1}} come a dama. Rei e dama a um salto de cavalo são o garfo que procuras primeiro."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "trapped-10",
+  "fen": "rb4k1/p4pp1/7p/2p5/8/2N3PP/PP3P2/3B2K1 w - - 0 1",
+  "solution": [
+    "Bf3"
+  ],
+  "rating": 1330,
+  "title": "Kutulanmış Kale",
+  "setup": "Siyahın a8'deki kalesinin altında kendi a7 piyonu, tam yanında da kendi b8'deki fili duruyor.",
+  "hint": "O kalenin hiç hamlesi yok. Sıkıştığı köşeye uzanan uzun çaprazı bulun.",
+  "explanation": "## Fikir\n\n{{Bf3}} h1–a8 çaprazından a8'e vurur ve kalenin gidecek yeri yoktur: a7 siyahın piyonu, b8 fildir. a8'i koruyabilecek hiçbir şey yoktur ve koyu kare fili açık kare çaprazını asla kapatamaz; yani kale öylece kaybolur."
+}

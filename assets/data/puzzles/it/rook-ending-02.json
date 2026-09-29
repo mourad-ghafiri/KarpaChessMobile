@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-02",
+  "fen": "8/R4Pr1/4k3/8/4K3/8/8/8 w - - 0 1",
+  "solution": [
+    "f8=Q"
+  ],
+  "rating": 1250,
+  "title": "Create il Pezzo Giusto",
+  "setup": "La torre nera attacca il pedone f da g7, anche il re lo attacca, e un difensore non può tenerlo contro due, quindi il Bianco ha esattamente una mossa per usarlo.",
+  "hint": "Il pedone è perso alla prossima mossa qualunque cosa facciate. Chiedetevi quale pezzo nuovo toccherebbe la torre in g7.",
+  "explanation": "## L'idea\n\nIl pedone non si può tenere, quindi spendetelo. {{f8=Q}} attacca la torre che ha accanto e vince. {{f8=R}} e {{f8=N+}} lasciano stare g7, e {{f8=B}} colpisce la torre ma non basta a vincere. Il Nero deve salvare la torre con {{Rxa7}}, e donna contro torre è vinta."
+}

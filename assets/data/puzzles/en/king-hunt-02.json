@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-02",
+  "fen": "k7/2b2r2/5Q2/p7/3R4/1B6/KRp5/8 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Ka7",
+    "Rb7+",
+    "Ka8",
+    "Qa6#"
+  ],
+  "rating": 1385,
+  "title": "The Bishop Opens the Line",
+  "setup": "Black's king is stuck in the a8 corner, and the black pawn on c2 is one step from promoting. Mate comes first.",
+  "hint": "One of your pieces is standing on the file your rook needs. Give it a job that moves it and checks at the same time.",
+  "explanation": "## The Idea\n\n{{Bd5+}} clears b3 and checks; {{Rb7+}} pushes the king back into the corner; {{Qa6#}} mates down the a-file, the bishop on d5 now holding the rook on b7. Every move in a hunt should both check and improve the net."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "smothered-01",
+  "fen": "6rk/pp4pp/1q6/6N1/8/8/P4PPP/3R2K1 w - - 6 26",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1150,
+  "title": "Sa propre tour",
+  "setup": "Les Noirs viennent de faire glisser une tour jusqu'en g8, et chaque case voisine de leur roi est maintenant occupée.",
+  "hint": "Avant de chercher un échec, comptez combien de cases vides le roi noir pourrait réellement atteindre.",
+  "explanation": "## L'idée\n\nLe roi en h8 est emmuré par sa propre tour et ses propres pions, donc un échec qu'il ne peut pas prendre est mat. Un cavalier pourrait donner échec depuis g6, mais le pion h le prendrait ; {{Nf7#}} donne échec depuis la case qu'aucune pièce noire ne couvre. Quand un roi est enfermé, cessez de compter le matériel et commencez à compter les échecs."
+}

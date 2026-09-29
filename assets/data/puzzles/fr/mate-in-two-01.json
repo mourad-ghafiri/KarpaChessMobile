@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-01",
+  "fen": "6k1/6pp/5p2/1R6/Q7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Kf7",
+    "Qe8#"
+  ],
+  "rating": 900,
+  "title": "La tour ouvre, la dame conclut",
+  "setup": "Le roi noir est emmuré par ses propres pions en g7 et h7, et votre tour a une colonne b grande ouverte.",
+  "hint": "Chassez le roi vers la seule case que ses pions lui laissent encore, puis trouvez le mat que votre tour peut protéger.",
+  "explanation": "## L'idée\n\n{{Rb8+}} prend la dernière rangée. Les pions en g7 et h7 bloquent leur propre roi, donc {{Kf7}} est le seul coup légal. Puis {{Qe8#}} : la dame se pose à côté du roi, protégée par la tour en b8, avec chaque case de fuite couverte."
+}

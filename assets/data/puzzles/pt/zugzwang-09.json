@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-09",
+  "fen": "4k3/8/1B6/1KpR4/8/7p/8/R7 w - - 0 1",
+  "solution": [
+    "Ra7",
+    "h2",
+    "Rd8#"
+  ],
+  "rating": 1650,
+  "title": "As Duas Torres na Linha de Fundo",
+  "setup": "O rei preto está em e8 com peões em c5 e h3, e as tuas torres comandam a quinta linha e a coluna a.",
+  "hint": "Uma torre já é dona da coluna que o rei usaria. Dá à outra a linha de que precisa, sem dar xeque.",
+  "explanation": "## A Ideia\n\n{{Ra7}} toma a sétima linha em silêncio, sem deixar às pretas nada que trave {{Rd8#}}. {{Rd8#}} segue-se na linha de fundo. Duas torres dão mate tomando duas linhas — o truque é tomar a segunda em silêncio."
+}

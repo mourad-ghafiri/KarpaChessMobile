@@ -1,0 +1,14 @@
+{
+  "id": "fork-04",
+  "fen": "r4bk1/p5pp/1p6/3p4/8/5B2/PP3PPP/2R3K1 w - d6 0 2",
+  "solution": [
+    "Bxd5+",
+    "Kh8",
+    "Bxa8"
+  ],
+  "rating": 800,
+  "title": "Ambil dan Garpu",
+  "setup": "Hitam baru saja mendorong pion ke d5, tepat ke jalan gajah Anda di f3.",
+  "hint": "Menyingkirkan buah di tengah sebuah diagonal membuka sisanya. Periksa di mana jalan itu berakhir.",
+  "explanation": "## Ide\n\n{{Bxd5+}} memenangkan pion dan menerangi dua diagonal sekaligus: sekaknya menjalar ke g8, dan di balik pion yang ditangkap gajah kini melihat a8. Gajah dan pion-pion Hitam sendiri hanya menyisakan {{Kh8}}, dan {{Bxa8}} mengambil benteng."
+}

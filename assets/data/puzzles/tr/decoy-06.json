@@ -1,0 +1,14 @@
+{
+  "id": "decoy-06",
+  "fen": "5rk1/pp3ppp/8/2Q5/7B/7q/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rd8#"
+  ],
+  "rating": 1350,
+  "title": "Köşe İçin Vezir",
+  "setup": "h4'teki filiniz e7'yi tarıyor ve siyahın şahı kendi f7 ve g7 piyonlarıyla kapatılmış.",
+  "hint": "Mat için şahın g8'de değil f8'de olması gerekiyor. Onu oraya koymanın bedeli ne ve ödemeye değer mi?",
+  "explanation": "## Fikir\n\n{{Qxf8+}} {{Kxf8}} hamlesini zorlar — başka hiçbir şey alamaz. f8'de şahın e7'sini fil kapsar, f7 ile g7'sini kendi piyonları kapatır; yani {{Rd8#}} mattır. Alternatif hiçbir şeyse vezir ucuzdur."
+}

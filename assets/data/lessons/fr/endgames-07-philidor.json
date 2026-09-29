@@ -1,0 +1,62 @@
+{
+  "id": "philidor-position",
+  "title": "La nulle de Philidor",
+  "summary": "Un pion de moins dans une finale de tours, et la nulle, c'est une barrière puis une distance",
+  "proof": "philidor-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Un pion de moins, et à égalité",
+      "text": "Les Blancs ont un pion de plus et c'est pourtant nul. Votre roi en d8 garde c8, la case que cherche à atteindre le pion en c5 : c'est la première moitié de la défense, et vous l'avez déjà.\n\nLa seconde moitié est un coup de tour, et il doit venir maintenant, tant que le pion blanc est encore là où il est. Philidor a mis la méthode par écrit en 1777 et personne ne l'a brisée depuis. Deux idées, jouées dans un ordre fixe, et l'ordre est l'essentiel de l'astuce."
+    },
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Trois portes sur la sixième",
+      "text": "Le pion ne peut pas arriver seul ; votre roi garde la route, et la tour blanche en h7 le maintient sur la dernière rangée. Le roi blanc doit donc monter et écarter le vôtre d'un coup d'épaule, et pour monter il doit traverser la sixième rangée — les rangées se comptant ici du côté des Blancs, comme toujours.\n\nCette rangée a exactement trois portes : c6, d6 et e6. Et une tour ne garde pas une case, c'est une barrière le long d'une ligne, ce qui veut dire que les trois portes se ferment en un seul coup."
+    },
+    {
+      "type": "play",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "prompt": "Retirez toute la sixième rangée au roi blanc avant qu'il puisse utiliser l'une de ces cases.",
+      "targetSan": [
+        "Ra6"
+      ],
+      "hint": "Seule la rangée compte, et une tour la couvre tout entière, où qu'elle arrive."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "Quatre cases, dont trois reculs",
+      "text": "La barrière est en place, et le roi blanc en d5 peut maintenant compter toute sa liste : {{Kc4}}, {{Kd4}}, {{Ke4}}, {{Ke5}}.\n\nTrois en arrière, un de côté. c6, d6 et e6 ont cessé d'être des coups, car un roi ne peut pas se poser sur une case que votre tour attaque. Les Blancs sont libres de tourner en rond là-bas aussi longtemps que durera leur patience. Tourner en rond ne ramène pas un pion à dame."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "La poussée qui coûte",
+      "text": "Un coup change la position plutôt que le numéro du coup : {{c6}}.\n\nComptez ce que les Blancs viennent de payer. Avec le pion en c5, le roi avait un toit : posté en c6, devant son propre pion, il ne pouvait jamais être mis en échec par-derrière, car le pion bloque la colonne. Maintenant, le pion a pris cette case lui-même, et le prochain toit serait c7, juste à côté de votre roi.\n\nVotre barrière a donc terminé son travail. Ce qui compte désormais, c'est la distance."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Allez à l'autre bout",
+      "text": "Votre tour quitte la sixième rangée et part à l'autre bout de l'échiquier, derrière le roi blanc, pour donner échec de là-bas.\n\nToute la défense tient dans la distance. Un roi se débarrasse d'une tour qui donne échec de près en marchant sur elle pour la menacer ; depuis l'autre bout de l'échiquier, il n'y a rien vers quoi marcher, et le roi blanc devrait abandonner le pion en c6 pour aller la chercher. Chaque fois qu'il sort pour escorter ce pion, un échec de plus arrive, et ils ne s'épuisent jamais."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Pourquoi vous avez attendu",
+      "text": "L'ordre compte plus que chacun des deux coups. Envoyez la tour au loin d'abord, tant que le pion est encore en c5, et les Blancs n'ont jamais besoin de pousser : leur roi va en c6, devant son propre pion, où aucun échec par-derrière ne peut l'atteindre puisque le pion barre la route de la tour. De sous ce toit, il entre, et la victoire est aux Blancs.\n\n> Tenez la rangée tant que le pion ne bouge pas. Dès qu'il bouge, éloignez-vous de lui autant que l'échiquier le permet."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "prompt": "Passez du blocage aux échecs, depuis aussi loin que cet échiquier le permet.",
+      "targetSan": [
+        "Ra1"
+      ],
+      "hint": "Une tour qui donne échec et dont le roi peut s'approcher ne sert à rien : comptez à quelle distance du roi blanc votre tour peut aller."
+    }
+  ]
+}

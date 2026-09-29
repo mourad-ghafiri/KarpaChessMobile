@@ -1,0 +1,11 @@
+{
+  "id": "strategy-04",
+  "fen": "r1bq1rk1/ppp2p2/2np1n1p/1B2p1p1/1b2P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "Deux briques manquantes",
+  "setup": "Les Noirs ont poussé deux pions pour chasser votre fou, et le roi en g8 vit derrière eux. Le fou en h4 est attaqué.",
+  "hint": "Le pion en g5 a un seul défenseur. Une retraite est sûre ; évaluez ce que vaut cet abri avant de la jouer.",
+  "explanation": "## L'idée\n\nLes pions en h6 et g5 formaient l'avant de l'abri du roi noir, et aucun ne peut revenir. {{Nxg5}} donne un cavalier pour eux.\n\nSi les Noirs prennent, le fou reprend en g5, cloue le cavalier en f6 sur la dame, et le roi se retrouve à nu. Les Noirs font mieux de donner le fou en b4 contre votre cavalier en c3, et les Blancs gardent l'avantage. Une retraite en g3 aurait permis aux Noirs de tout conserver."
+}

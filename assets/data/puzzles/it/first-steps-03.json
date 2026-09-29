@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-03",
+  "fen": "k7/pp3rpp/8/8/2B5/8/PP4PP/4K3 w - - 0 1",
+  "solution": [
+    "Bxf7"
+  ],
+  "title": "Furto a Lunga Distanza",
+  "setup": "Il vostro alfiere in c4 guarda su per la sua diagonale chiara e ci trova sopra una torre nera.",
+  "hint": "Seguite la diagonale da c4: d5, e6... che cosa c'è sulla casa successiva?",
+  "explanation": "## L'idea\n\nLa diagonale dell'alfiere da c4 corre d5, e6, f7, e la torre nera in f7 sta proprio sul suo cammino con **nessuno a difenderla**. Il re nero in a8 è troppo lontano per aiutare.\n\n{{Bxf7}} percorre tutta la linea in una mossa e prende la torre gratis.\n\nGli alfieri colpiscono da un capo all'altro della scacchiera. Seguite ogni diagonale fino in fondo prima di decidere che non c'è niente di indifeso."
+}

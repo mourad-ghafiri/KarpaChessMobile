@@ -1,0 +1,14 @@
+{
+  "id": "skewer-07",
+  "fen": "8/8/3q1k2/4Rpp1/2rP4/6RQ/5r2/6K1 w - - 0 1",
+  "solution": [
+    "Qh6+",
+    "Kf7",
+    "Qxd6"
+  ],
+  "rating": 1140,
+  "title": "Xeque Desde a Berma",
+  "setup": "O rei preto em f6 tem a sua dama a duas casas, em d6, exatamente na mesma linha.",
+  "hint": "O rei e a dama pretos partilham uma linha. Por onde pode a tua dama entrar nessa linha com xeque e ficar segura?",
+  "explanation": "## A Ideia\n\n{{Qh6+}} desliza para a sexta linha com xeque, e a dama preta de **d6** fica presa atrás do seu próprio rei. O peão de g5 não chega a h6, portanto o xeque mantém-se. {{Kf7}} é o único passo legal, e {{Qxd6}} come a dama."
+}

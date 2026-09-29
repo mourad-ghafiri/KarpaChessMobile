@@ -1,0 +1,56 @@
+{
+  "id": "minor-piece-endings",
+  "title": "Alfiere o Cavallo?",
+  "summary": "Contate le mosse, non i punti",
+  "proof": "endgames-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Un Pezzo, Due Ali",
+      "text": "I pedoni neri corrono su bordi opposti della scacchiera — il pedone in a4 da una parte, i pedoni in g6 e h7 dall'altra. Il Bianco ha un pezzo per rispondere a tutti e due.\n\nÈ questa la domanda su cui gira questo finale. Non quale pezzo sia più bello. Quale pezzo possa essere in due posti.\n\nL'alfiere in c2 guarda già lungo la diagonale di b3 verso a4, e sta a due mosse da h5, la casa che fissa g6. Stesso pezzo, tutte e due le ali."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Quattro Mosse Contro Una",
+      "text": "Mettete un cavallo dove sta quell'alfiere e contate i balzi. Tre solo per arrivare su una casa che attacchi a4, un quarto per prenderlo — e al pedone bastano tre mosse per diventare donna.\n\nAll'alfiere ne serve una. Non perché sia il pezzo migliore, ma perché è un tipo di pezzo diverso. Valgono tutti e due tre punti, e uno solo dei due attraversa la scacchiera in una mossa.\n\nPedoni su due ali è la forma che paga un alfiere. Le linee sono aperte, niente sta di mezzo, e un alfiere su una scacchiera aperta non viaggia. Arriva."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "prompt": "Prendete il corridore sull'ala lontana con il pezzo che una mossa dopo può essere di ritorno a difendere l'altro lato.",
+      "targetSan": [
+        "Bxa4"
+      ],
+      "hint": "Il corridore e il vostro alfiere stanno tutti e due su case chiare, quindi leggete la diagonale che li unisce."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5k1p/6p1/8/B7/8/8/4K3 w - - 1 2",
+      "title": "Indietro Prima che Conti",
+      "text": "Il pedone a è sparito, e il re nero in f7 sorveglia quello che resta.\n\nIl vostro alfiere in a4 adesso sta sul bordo della scacchiera opposto a quei due pedoni. {{Bd1}}, e davanti a lui si apre la grande diagonale chiara — e2, f3, g4, h5 — con h5 che guarda dritta g6. Due mosse per attraversare tutta la scacchiera. Un cavallo che partisse da quella stessa casa avrebbe bisogno di tre balzi solo per attaccare g6.\n\n> Tre punti è quanto costa un pezzo. Quanto vale è la rapidità con cui raggiunge il lato della scacchiera dove si gioca la partita."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "Mezza Scacchiera, per Sempre",
+      "text": "Posizione nuova, e il caso si rovescia. L'alfiere nero in c7 sta su una casa scura. Così il pedone in a7. Così il pedone in e7.\n\nStesso colore non vuol dire al sicuro. Nessuno dei due pedoni difende l'altro, e nessuna casa che l'alfiere raggiunga in una mossa li difende tutti e due insieme — può stare davanti a una porta mentre l'altra si spalanca.\n\nE ogni casa chiara della scacchiera gli è del tutto preclusa, in questa mossa e per sempre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "Un Pezzo Senza Colore",
+      "text": "Il vostro cavallo in e5 è attaccato in questo momento da quell'alfiere. La diagonale corre c7, d6, e5, e non c'è niente in mezzo. Quindi il cavallo muove.\n\nOgni balzo di cavallo atterra sul colore opposto a quello che ha lasciato, ed è per questo che un alfiere non può mai inseguire a lungo un cavallo. L'alfiere nero vive sulle case scure. Un cavallo bianco parcheggiato su una casa chiara ne è al sicuro per il resto della partita.\n\nQuindi il cavallo va a caccia di una casa chiara. Quello che vuole è una casa chiara che faccia anche del lavoro."
+    },
+    {
+      "type": "play",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "prompt": "Portate il cavallo attaccato su una casa che l'alfiere nero non potrà mai raggiungere, e colpite tutti e due i pedoni indifesi strada facendo.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "I pedoni stanno in a7 e e7, quindi stabilite quale casa chiara li tocca tutti e due insieme."
+    }
+  ]
+}

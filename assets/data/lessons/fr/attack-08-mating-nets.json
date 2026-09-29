@@ -1,0 +1,56 @@
+{
+  "id": "mating-nets",
+  "title": "Les filets de mat",
+  "summary": "Prenez les cases, puis prenez le roi",
+  "proof": "mate-in-2-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Une chambre sans porte",
+      "text": "Un échec pousse un roi quelque part. Un **filet de mat** retire d'abord ce quelque part, pour que l'échec, quand il arrive enfin, n'ait plus rien à pousser.\n\nCe qui veut dire qu'on compte les cases du roi avant de compter ses propres échecs.\n\nLe roi noir en e8 peut aller en d7, d8, e7, f7 ou f8. Il y a un cavalier en d7, une dame en d8, des pions en e7 et f7, un fou en f8. Tous appartiennent aux Noirs. La chambre est déjà construite, et les Blancs n'ont pas dépensé un seul coup pour la bâtir."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Le trou dans le mur",
+      "text": "Une chambre sans porte n'est pas un mat. Il faut encore que quelqu'un frappe.\n\nLe cavalier en e4 est à un saut de d6, et depuis d6 il attaque e8. Un échec de cavalier ne peut pas être paré par interposition, et ce roi n'a nulle part où s'écarter, donc un cavalier qui arrive en d6 terminerait la partie sur place.\n\nSauf qu'il ne le ferait pas. {{Nd6+}} {{exd6}}, et le pion le mange tout simplement.\n\nUn seul pion noir constitue toute la défense."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "prompt": "Retirez d6 au pion en e7, avec un coup tranquille qui ne donne pas échec.",
+      "targetSan": [
+        "Qe2"
+      ],
+      "hint": "Le pion en e7 se tient juste devant son propre roi — trouvez la pièce qui peut rendre illégale une prise en d6."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b KQkq - 2 5",
+      "title": "Le fermer sans bruit",
+      "text": "La dame en e2 ne donne pas échec et n'attaque rien. Ce qu'elle fait, c'est s'aligner sur la colonne où se tient le roi noir, avec seulement le cavalier en e4 entre eux.\n\nLes Noirs jouent donc le coup le plus naturel de l'échiquier et développent l'autre cavalier. {{Ngf6}} {{Nd6#}}.\n\nDès que le cavalier quitte e4, la colonne s'ouvre, et le pion en e7 est cloué sur son propre roi. Il surveille toujours d6 et n'a plus le droit d'y toucher."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "title": "Le filet fonctionne dans les deux sens",
+      "text": "C'est maintenant le roi blanc qui est dans la boîte, et ce sont les Blancs qui l'ont remplie.\n\nComptez de nouveau. Le roi en e1 peut aller en d1, d2, e2, f1 ou f2. Une dame en d1, un fou en e2, une tour en f1, des pions en d2 et f2. Cinq cases, cinq pièces, toutes blanches.\n\nUne rangée de départ encombrée donne une impression de sécurité. C'est le même encombrement qui vient de mater les Noirs."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "title": "Qui est libre de prendre",
+      "text": "Les cases sont la moitié du filet. L'autre moitié, c'est ce qui se passe quand votre pièce arrive : qui a le droit de la prendre ?\n\nLa dame en e4 et le roi en e1 se tiennent sur une même colonne avec le fou en e2 entre eux. Ce fou est cloué. Il ne peut pas légalement bouger, donc toutes les cases qu'il semble protéger ne sont protégées par rien.\n\nComptez les sorties, puis les défenseurs — et demandez-vous si les défenseurs sont libres.\n\n> Le mat est rarement le coup le plus bruyant. C'est celui qui ne laisse au roi nulle part où se tenir."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "prompt": "Le roi blanc est emmuré par ses propres pièces : donnez le seul échec auquel personne n'est libre de répondre.",
+      "targetSan": [
+        "Nf3#"
+      ],
+      "hint": "Le roi blanc a cinq cases voisines et des pièces blanches se tiennent sur les cinq, donc l'échec doit seulement être impossible à prendre."
+    }
+  ]
+}

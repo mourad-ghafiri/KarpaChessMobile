@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-12",
+  "fen": "8/4P3/1R5K/8/8/4k3/8/4r3 b - - 0 1",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1600,
+  "title": "Fuori dalla Colonna di Promozione",
+  "setup": "La torre nera tiene il pedone e da e1 e il re deve tornare in fretta, ma sopravvive un solo percorso.",
+  "hint": "La vostra torre difende la casa di promozione lungo la colonna. Quale singolo passo verso casa non blocca quella linea né perde un tempo?",
+  "explanation": "## L'idea\n\nLa torre tiene e8 lungo la colonna, quindi il re non deve starci sopra: {{Ke4}} perde per {{e8=Q+}}, uno scacco che infilza il re contro la torre dietro. Da d3 o f3, {{Rb7}} guadagna al Bianco il tempo che gli serve. Dopo {{Kd4}}, {{e8=Q}} {{Rxe8}} lascia solo un finale di torri patto."
+}

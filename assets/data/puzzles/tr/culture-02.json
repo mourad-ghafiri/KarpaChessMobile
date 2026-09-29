@@ -1,0 +1,11 @@
+{
+  "id": "culture-02",
+  "fen": "rnbqk1nr/ppp2ppp/3b4/8/8/2N5/PPPPP1PP/R1BQKBNR b KQkq - 1 4",
+  "solution": [
+    "Qh4+"
+  ],
+  "title": "On Saniye Kaldı",
+  "setup": "Beyaz f piyonuyla açtı, az önce bir at geliştirdi ve birinci hamlede açılan çaprazı hiç görmedi.",
+  "hint": "f piyonu birinci hamlede evden ayrıldı. Taşlarınızdan hangisi onun açtığı çapraza, üstelik şah çekerek ulaşabilir?",
+  "explanation": "## Fikir\n\nBeyazın f piyonu birinci hamlede ayrıldı ve e1–h4 çaprazını açtı; o günden beri onu kapatan bir şey olmadı.\n\n{{Qh4+}} beyaza tek bir cevap bırakır, {{g3}}: şah f2'ye gidemez ve araya girebilecek tek şey g piyonudur. Ardından siyah her iki şekilde de iki hamlede mat eder: {{Bxg3+}} {{hxg3}} {{Qxg3#}} ya da önce vezirle {{Qxg3+}} {{hxg3}} {{Bxg3#}}.\n\nRakibiniz f piyonunu erken oynattığında, h4'teki bir vezir şahına bir saniye ayırın."
+}

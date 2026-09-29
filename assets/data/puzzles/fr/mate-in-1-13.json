@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-13",
+  "fen": "7k/8/8/5N2/8/8/6Q1/6K1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "Le baiser soutenu par le cavalier",
+  "setup": "Le roi noir est coincé dans le coin, et votre cavalier en f5 surveille déjà g7 — la case juste à côté.",
+  "hint": "La dame veut se tenir à côté du roi. Laquelle de vos pièces protège déjà cette case ?",
+  "explanation": "## L'idée\n\nC'est le même baiser de la dame, soutenu par un cavalier au lieu d'un roi. Le cavalier en f5 protège g7, donc la dame peut s'y poser sans risque.\n\n{{Qg7#}} donne échec. Le roi en h8 ne peut pas prendre la dame, et g8 et h7 sont couvertes par elle. Un échec depuis la case voisine ne peut pas être paré par interposition.\n\nN'importe quel gardien convient pour le baiser : roi, cavalier ou pion. Trouvez la case protégée à côté du roi adverse."
+}

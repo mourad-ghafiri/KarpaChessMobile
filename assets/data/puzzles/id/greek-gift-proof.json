@@ -1,0 +1,11 @@
+{
+  "id": "greek-gift-proof",
+  "fen": "r2q1rk1/pbpp2pp/1pn1pb2/7n/2PP1Pp1/P1NBP3/1PQ1N2P/R1B2RK1 w - - 0 12",
+  "solution": [
+    "Bxh7+"
+  ],
+  "title": "Hadiah yang Tak Bisa Diambil",
+  "setup": "Gajah Anda di d3 dan menteri di c2 berbagi satu diagonal, dan hanya raja Hitam yang menjaga h7.",
+  "hint": "Hitung apa yang berdiri di belakang gajah Anda. Jika gajah meninggalkan d3, langkah hitam mana yang tak lagi sah?",
+  "explanation": "## Ide\n\n{{Bxh7+}} menyerahkan gajah, dan Hitam tak diizinkan mengambilnya. Begitu gajah meninggalkan d3, menteri di c2 melihat sampai ke h7, jadi raja tak boleh melangkah ke petak itu. Ia harus berjalan ke h8 atau f7 sebagai gantinya.\n\nPerlindungannya hilang dengan gratis. Sesudah …Kh8 menteri Anda menyusul dengan {{Qg6}}, dan sayap raja Hitam terbuka lebar."
+}

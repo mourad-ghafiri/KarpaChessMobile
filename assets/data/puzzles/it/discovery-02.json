@@ -1,0 +1,12 @@
+{
+  "id": "discovery-02",
+  "fen": "3r2k1/b4ppp/p7/8/3n4/5P2/P3Q1PP/4R1K1 b - - 0 1",
+  "solution": [
+    "Nxe2+"
+  ],
+  "rating": 1000,
+  "title": "Due Scacchi Insieme",
+  "setup": "Il vostro alfiere in a7 rastrella la grande diagonale fino a g1, e il vostro stesso cavallo in d4 la blocca.",
+  "hint": "Contate quanti dei vostri pezzi darebbero scacco nell'istante in cui il cavallo lascia d4.",
+  "explanation": "## L'idea\n\n{{Nxe2+}} è uno scacco doppio: il cavallo colpisce g1 da e2 e l'alfiere lo colpisce lungo la diagonale a7-g1. A uno scacco doppio si può rispondere solo con una mossa di re, quindi Rxe2 è illegale, e alla mossa successiva il cavallo se ne va semplicemente, avendo vinto la donna per niente."
+}

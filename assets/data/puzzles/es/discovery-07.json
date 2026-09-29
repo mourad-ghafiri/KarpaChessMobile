@@ -1,0 +1,12 @@
+{
+  "id": "discovery-07",
+  "fen": "2r1k3/p1q2ppp/8/4B3/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxc7+"
+  ],
+  "rating": 1200,
+  "title": "Torre detrás del alfil",
+  "setup": "El rey negro sigue en e8 frente a tu torre de e1, y solo tu propio alfil mantiene cerrada la columna.",
+  "hint": "Tu alfil es lo único que mantiene cerrada la columna e. ¿Adónde puede ir cobrándose algo por el camino?",
+  "explanation": "## La idea\n\n{{Bxc7+}} se come la dama y abre el jaque de la torre por la columna e en el mismo momento. La torre de c8 sí defiende c7, pero las Negras tienen que responder primero al jaque y solo después pueden recuperar el alfil: una dama por un alfil."
+}

@@ -1,0 +1,51 @@
+{
+  "id": "queen-mate",
+  "title": "Re e Donna contro Re",
+  "summary": "Il matto sul bordo, e lo stallo che te lo ruba",
+  "proof": "endgames-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Dove Muore un Re Nudo",
+      "text": "Una donna non dà mai matto a un re solitario in mezzo alla scacchiera. Là fuori il re ha sempre da qualche parte dove scappare. Resta senza case soltanto su un bordo, e il re nero sta già su uno.\n\nContate quello che resta. Il re bianco in f5 toglie g5 e g6. La donna in d4 possiede la diagonale che passa per e5 e f6 fino a g7, quindi anche quella casa è andata.\n\nAl Nero restano h5 e h7. Due case della colonna h, tutte e due contro il muro, e nient'altro su tutta la scacchiera."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Tre Compiti, in Ordine",
+      "text": "Quel quadro è la destinazione a partire da qualunque posizione, ed è costruito in tre parti.\n\nLa donna toglie linee finché il re nudo cammina su una striscia sottile lungo un bordo. Poi il vostro re gli sale dietro, perché la donna non può finire da sola — una donna che sta accanto a un re senza niente che la difenda viene semplicemente presa. Solo allora la donna dà il matto, su una linea da cui il re non può uscire.\n\nDue dei tre sono già fatti qui. {{Kh5}}, e il Nero ha scelto contro quale capo del muro mettersi."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/5K1k/3Q4/8/8/8 w - - 9 6",
+      "prompt": "Il vostro re copre già le case di fuga: chiudete la partita con una mossa di donna a cui il Nero non può rispondere.",
+      "targetSan": [
+        "Qh8#"
+      ],
+      "hint": "Il re nero è schiacciato contro il fianco della scacchiera — trovate la linea su cui sta e prendetevela tutta."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "La Patta Nascosta nella Gabbia",
+      "text": "Scacchiera nuova, a una mossa dalla fine. Al re nero in h8 resta una casa sola, g8: il vostro re in g6 copre già g7 e h7, e il Nero non è sotto scacco.\n\nQuindi stringere la gabbia di un'altra tacca butta via la vittoria. {{Qd5}} sembra tecnica pulita — la donna si prende g8 lungo la diagonale, ogni casa attorno al re è coperta, niente è in presa.\n\nÈ stallo. Il Nero non ha mosse legali e non ha uno scacco a cui rispondere, e una partita con una donna in più sulla scacchiera è patta."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "Contate Prima di Stringere",
+      "text": "In questo finale non va storto niente di esotico. Quello che va storto è il gioco ordinato — un'altra casa tolta, in silenzio, a un re che aveva una casa.\n\nQuindi prima di ogni mossa di donna qui, contate su che cosa può stare il re nudo. Se la risposta è una, la vostra mossa deve arrivare con scacco, oppure deve lasciare a quel re un posto dove andare.\n\n> Una gabbia senza porta è patta. Restringetela quanto volete, mai fino a zero senza scacco."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "prompt": "Matto in una: due mosse di donna diverse lo danno, e ogni altra stretta è patta.",
+      "targetSan": [
+        "Qa8#",
+        "Qd8#"
+      ],
+      "hint": "Quali mosse di donna tolgono g8 e danno scacco nella stessissima mossa?"
+    }
+  ]
+}

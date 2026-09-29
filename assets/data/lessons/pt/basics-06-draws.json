@@ -1,0 +1,77 @@
+{
+  "id": "draws",
+  "title": "O Meio Ponto",
+  "summary": "Cinco maneiras de uma partida acabar sem vencedor, e a que apanha de surpresa quem estava a ganhar",
+  "proof": "draws-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Sem Jogadas, Sem Xeque",
+      "text": "As pretas têm um rei e mais nada. As brancas têm uma dama, e o mate está a uma jogada — que é exatamente o momento em que uma partida se deita fora.\n\nO rei preto em h8 tem uma única casa. O rei branco em g6 já segura g7 e h7, portanto g8 é tudo o que resta.\n\n{{Qd5}} tira-lhe também g8. As pretas não estão em xeque. As pretas não têm uma única jogada legal. Isso é **afogamento**, e acaba a partida ali mesmo."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Meio Ponto para Cada",
+      "text": "Um afogamento é um **empate**. Os dois jogadores marcam meio ponto, e não conta para nada que um tenha uma dama e o outro um rei nu.\n\nÉ por isso que a regra morde. As brancas estão a ganhar aqui por todas as medidas do tabuleiro e mesmo assim podem sair com metade.\n\nHá um caminho mais suave para o mesmo resultado: qualquer dos jogadores pode propor empate e, se o adversário aceitar, a partida acaba ali. Essa não exige esperteza nenhuma."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "prompt": "Volta a cobrir g8, desta vez com xeque, para a partida acabar em mate e não num aperto de mão.",
+      "targetSan": [
+        "Qd8#"
+      ],
+      "hint": "O teu rei já segura g7 e h7, portanto a dama quer a linha em que o rei preto está."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Já Não Há Com Que Dar Mate",
+      "text": "Tabuleiro novo, regra nova. As brancas têm um rei em c2 e um cavalo em c3. As pretas têm um rei em a5 e um peão em a2, a uma casa de uma dama nova — e uma dama contra um cavalo solitário é uma partida que as pretas devem ganhar.\n\nPortanto a partida inteira é esse peão. Tira-o do tabuleiro e o exército preto passa a ser um rei a passear sozinho.\n\nUm rei e um cavalo nunca podem dar xeque-mate a um rei solitário. Nem à força, nem por sorte, nem com ajuda."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Posições Mortas",
+      "text": "Quando nenhuma sequência de jogadas legais pode produzir xeque-mate para nenhum dos lados, a partida fica empatada ali mesmo. Quatro finais qualificam:\n\n- rei contra rei\n- rei e bispo contra rei\n- rei e cavalo contra rei\n- rei e bispo contra rei e bispo, com os dois bispos em casas da mesma cor\n\nDois cavalos contra um rei nu não estão nessa lista. O mate não se pode forçar ali, mas pode acontecer se quem defende entrar nele, por isso a partida continua."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "prompt": "Tira do tabuleiro a única coisa que resta às pretas e que ainda pode ganhar esta partida.",
+      "targetSan": [
+        "Nxa2"
+      ],
+      "hint": "Conta o que fica depois e compara com a lista dos quatro."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Empates Que Tens de Reclamar",
+      "text": "Mais dois caminhos até ao meio ponto, e este tabuleiro está feito para os dois: já não há peões para avançar e só resta uma peça que possa ser capturada.\n\nCinquenta jogadas de cada lado sem nenhuma captura e sem nenhuma jogada de peão — qualquer dos jogadores pode então reclamar o empate. Ou a mesma **posição** aparece três vezes, com o mesmo lado a jogar, os mesmos direitos de roque e a mesma possibilidade de *en passant*, e qualquer dos jogadores também o pode reclamar.\n\nRepete-se a posição, não as jogadas que lá chegaram."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Ninguém o Reclama por Ti",
+      "text": "Às cinquenta jogadas ou à terceira repetição, não acontece nada sozinho. Um jogador tem de reclamar o empate, e quem não estiver a contar não o faz.\n\nÉ também só isso que o xeque perpétuo é. Dar xeque a um rei inimigo para sempre não é uma regra própria — os xeques trazem a mesma posição de volta uma e outra vez, e alguém reclama a repetição.\n\nPortanto quatro até aqui: afogamento, posição morta, a contagem das cinquenta jogadas e a mesma posição três vezes. A quinta é a proposta que qualquer jogador pode fazer a qualquer momento."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "O Acidente",
+      "text": "Agora a regra aponta para ti. As pretas estão uma dama inteira à frente, o rei branco em h1 ficou sem tabuleiro, e jogam as pretas.\n\n{{Qg3}} parece a rede a fechar-se: g1, g2 e h2 cobertas todas de uma vez. Mas h1 não está atacada, portanto isto não é xeque, e as brancas não têm mais nada que possam mexer. Afogamento. Uma partida ganha, devolvida.\n\n> Tira a última casa com xeque, ou então ainda não a tires."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "prompt": "A dama já fez o suficiente — traz antes o rei uma casa mais perto do canto das brancas.",
+      "targetSan": [
+        "Kd5"
+      ],
+      "hint": "c6 e h1 estão na mesma diagonal longa, portanto o rei pode simplesmente descê-la."
+    }
+  ]
+}

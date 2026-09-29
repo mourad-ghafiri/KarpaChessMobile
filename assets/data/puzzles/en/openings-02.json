@@ -1,0 +1,11 @@
+{
+  "id": "openings-02",
+  "fen": "r1bqk2r/pppp1ppp/1bn5/4P3/2B1n3/2P2N2/PP3PPP/RNBQK2R w KQk - 0 7",
+  "solution": [
+    "Qd5"
+  ],
+  "title": "The Italian Center Bites",
+  "setup": "White prepared d4 with c3 and pushed, and Black has just snatched a pawn in the center with a knight.",
+  "hint": "One square attacks the loose knight and the point in Black's camp that only the king defends. Look for the overlap.",
+  "explanation": "## The Idea\n\nThis is what the c3 and d4 build-up is for: once the center opens, Black's pieces have nowhere safe to stand.\n\n{{Qd5}} is a double attack. The queen hits the knight on e4, and down the other diagonal it hits f7, where the bishop on c4 already waits: {{Qxf7#}} would be mate. Black has to meet that first, and the knight drops.\n\nNo knight move saves it and holds f7 at once: on d6 it falls to the e5 pawn, on g5 to the knight on f3."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "openings-14",
+  "fen": "rnbqkb1r/5ppp/p2ppn2/8/Np1NPP2/1B6/PPP3PP/R1BQK2R b KQk - 1 9",
+  "solution": [
+    "Nxe4"
+  ],
+  "title": "The Pawn the Knight Left Behind",
+  "setup": "The Najdorf pawns did their job: ...a6 and ...b5-b4 have just driven White's knight out to a4. Collect what that knight was guarding.",
+  "hint": "A knight has just left the center for the edge. Ask which white pawn lost its last defender when it went.",
+  "explanation": "## The Idea\n\nThe knight chased to a4 was the only white piece guarding e4. Pushing the queenside pawns at it was about that square.\n\n{{Nxe4}} takes the pawn. White gets some play for it, but the pawn is Black's. Watch the long diagonal: {{Qf3}} hits the knight with the rook on a8 lined up behind it, and {{Bb7}} or {{d5}} shuts that diagonal, while {{Nc5}} would drop the rook.\n\nA wing pawn push is often a question for a piece in the center."
+}

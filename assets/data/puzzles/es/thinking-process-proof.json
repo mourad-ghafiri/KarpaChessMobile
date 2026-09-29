@@ -1,0 +1,11 @@
+{
+  "id": "thinking-process-proof",
+  "fen": "6k1/5ppp/1Q6/4r3/4n2P/7P/5PP1/1qR3K1 b - - 0 1",
+  "solution": [
+    "Qxc1+"
+  ],
+  "title": "Dos capturas, un jaque",
+  "setup": "La dama blanca de b6 está suelta, y la torre de c1 ataca a tu dama. Hazte las tres preguntas antes de capturar nada.",
+  "hint": "Las Blancas amenazan un jaque en la octava fila del que tu rey no puede escapar. Una de tus capturas llega con jaque, y un jaque no se puede ignorar.",
+  "explanation": "## La idea\n\nPrimera pregunta: las Blancas amenazan con capturar tu dama y con dar jaque en la octava fila, donde tu rey no tiene casilla a la que huir.\n\nLa segunda pregunta encuentra dos capturas. {{Qxb6}} gana una dama, y la tercera pregunta la descarta: la torre da jaque en c8 y sigue el mate.\n\n{{Qxc1+}} gana una torre con jaque, desde una casilla que nada ataca. Las Blancas tienen que responder al jaque, y tú tienes una torre y un caballo de ventaja, con tiempo para ocuparte de la amenaza."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "skewer-04",
+  "fen": "8/5p2/3kp3/6QR/P7/3r1P2/Pq3P2/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kc6",
+    "Qxd3"
+  ],
+  "rating": 1020,
+  "title": "Giù per la Colonna d",
+  "setup": "Il re nero in d6 e la sua torre in d3 sono allineati sulla colonna d con case vuote in mezzo.",
+  "hint": "Trovate lo scacco che mette la vostra donna sulla colonna dove la torre nera sta già, dietro il suo re.",
+  "explanation": "## L'idea\n\n{{Qd8+}} allinea la donna davanti al re sulla colonna d, con la torre in **d3** intrappolata all'altro capo. Il re deve uscire dalla colonna, e {{Kc6}} è la sua unica mossa legale — quindi {{Qxd3}} vince la torre."
+}

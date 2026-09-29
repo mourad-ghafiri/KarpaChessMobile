@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-10",
+  "fen": "7k/5K1p/8/8/8/8/8/6R1 w - - 0 1",
+  "solution": [
+    "Rg8#"
+  ],
+  "title": "Tutup Rapat Penutupnya",
+  "setup": "Raja Hitam terjepit di h8 di balik pionnya sendiri di h7, dan raja Anda di f7 berdiri tepat di samping petak-petak pelariannya.",
+  "hint": "Langkahkan benteng naik di lajur g — raja Anda dan pion Hitam menutup rapat penutupnya.",
+  "explanation": "## Ide\n\n{{Rg8#}} memberi sekak kepada raja dari petak di sebelahnya. Raja Anda di f7 menjaga g8, jadi raja tak bisa mengambil benteng. g7 dikuasai raja Anda dan benteng, dan h7 ditempati pion Hitam sendiri.\n\nKetika raja Anda menjaga petak di samping raja lawan, benteng bisa memberi sekak dari tempat itu juga."
+}

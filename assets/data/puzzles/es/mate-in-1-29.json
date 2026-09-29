@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-29",
+  "fen": "7k/5K2/8/6N1/8/8/8/2B5 w - - 0 1",
+  "solution": [
+    "Bb2#"
+  ],
+  "title": "La lanza de la gran diagonal",
+  "setup": "Tu caballo de g5 y tu rey de f7 rodean al rey negro en la esquina, y tu alfil sigue en casa, en c1.",
+  "hint": "El caballo y el rey cubren todas las casillas alrededor del rey. Encuentra la diagonal que llega a h8.",
+  "explanation": "## La idea\n\nEl caballo y el rey han hecho el encierro: tu rey de f7 cubre g7 y g8, y el caballo de g5 cubre h7.\n\n{{Bb2#}} entra en la gran diagonal y da jaque al rey de h8 desde la esquina opuesta. Nada puede tapar, y al rey no le queda casilla.\n\nLa gran diagonal de a1 a h8 es un pasillo de mate: una vez encerrado el rey en la esquina, un alfil puede rematar desde la otra punta del tablero."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "strategy-06",
+  "fen": "rnbqnrk1/ppp1ppb1/6p1/4p3/3P4/2N2N2/PPP2PP1/R1BQKB1R w KQ - 0 9",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Compra la última casilla negra",
+  "setup": "La columna h está abierta hacia el rey negro, y una sola pieza defiende las casillas negras a su alrededor: el alfil de g7.",
+  "hint": "Tu alfil de c1 puede desafiar a ese defensor de frente, y tu torre de h1 ya respalda la casilla.",
+  "explanation": "## La idea\n\nEl peón de h negro ha desaparecido y el peón de g ha dejado g7, así que ningún peón negro volverá a cubrir h6. El alfil de g7 hace ese trabajo en solitario.\n\n{{Bh6}} ofrece cambiarlo, y la torre de h1 está detrás de tu alfil. En cuanto salgan los alfiles, a las Negras no les queda alfil para las casillas negras, y todas las que rodean al rey son tuyas."
+}

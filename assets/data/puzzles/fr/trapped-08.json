@@ -1,0 +1,12 @@
+{
+  "id": "trapped-08",
+  "fen": "3r2k1/ppp2p2/3p1n2/6pp/8/2N4B/PP3PP1/5RK1 b - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1270,
+  "title": "Remplissez la dernière case",
+  "setup": "Le fou blanc en h3 a son propre pion en g2 derrière lui et sa propre tour en f1 au-delà.",
+  "hint": "Les propres pièces blanches bloquent entièrement une diagonale. L'autre commence sur une case que votre pion h protège déjà.",
+  "explanation": "## L'idée\n\n{{g4}} ne laisse rien au fou : g2 est le pion blanc, f1 sa tour, et le pion désormais en g4 est protégé par h5. Les Blancs ne peuvent que perdre une pièce, et ...gxh3 la ramasse au coup suivant. On piège un fou en remplissant des cases, pas en le chassant."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "history-05",
+  "fen": "r1b1k1nr/p2p1ppp/n2B4/1p1NPN1P/6P1/3P1Q2/P1P1K3/q5b1 w kq - 2 21",
+  "solution": [
+    "Nxg7+",
+    "Kd8",
+    "Qf6+",
+    "Nxf6",
+    "Be7#"
+  ],
+  "title": "Ölümsüz Bitiş",
+  "setup": "Anderssen, Kieseritzky'ye karşı, Londra 1851. Beyaz iki kaleyi ve bir fili elden vermiş. Taşları saymadan önce bitişi sayın.",
+  "hint": "Bir şahla başlayın. Sonra siyahın şahının karelerini sayın, onları hâlâ koruyan tek siyah taşı bulun ve ona almak zorunda olduğu bir şey verin.",
+  "explanation": "## Fikir\n\nLondra'da 1851'de oynanan Ölümsüz Parti: beyaz iki kale ve bir fil geride ve yine de mat ediyor.\n\n{{Nxg7+}} şah çekerek bir piyon alır ve {{Kd8}} tek cevaptır. Artık c7 ile e7 d6'daki file, e8 de g7'deki ata aittir.\n\ne7'yi hâlâ siyahın tek bir taşı koruyor: g8'deki at. {{Qf6+}} onu çeker, çünkü şaha yalnızca o at cevap verebilir. {{Nxf6}} geldikten sonra {{Be7#}} gelir; d5'teki at fili korur."
+}

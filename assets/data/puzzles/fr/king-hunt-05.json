@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-05",
+  "fen": "3R4/8/2b3p1/4K3/2k5/8/6Q1/r4R1B w - - 0 1",
+  "solution": [
+    "Qxc6+",
+    "Kb3",
+    "Rb8+",
+    "Ka2",
+    "Qa4#"
+  ],
+  "rating": 1490,
+  "title": "Achetez la diagonale",
+  "setup": "Les deux rois se font face au centre, celui des Noirs en c4, et son fou en c6 est la pièce qui tient tout ensemble.",
+  "hint": "Une pièce noire protège les cases que veut votre dame. Évaluez-la, puis donnez échec le long de la ligne qu'elle couvrait.",
+  "explanation": "## L'idée\n\n{{Qxc6+}} élimine le fou avec échec. {{Rb8+}} chasse le roi vers le bord et {{Qa4#}} ferme la boîte. Prendre un défenseur est un coup de chasse quand la prise arrive avec échec."
+}

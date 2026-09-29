@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-23",
+  "fen": "6k1/pp3ppp/8/8/8/8/PPR2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rc8#"
+  ],
+  "title": "El martillo de la columna abierta",
+  "setup": "La columna c está vacía entre tu torre y la octava fila, y el escudo de peones negro no tiene ventana de escape.",
+  "hint": "Carga por la columna c abierta. Los propios peones negros atrapan al rey por ti.",
+  "explanation": "## La idea\n\nEs un mate del pasillo por una columna abierta: no hay ningún peón de ningún color en la columna c, así que tu torre tiene camino libre hasta la octava fila.\n\n{{Rc8#}} da jaque por la última fila. f8 y h8 están en la línea de la torre, en f7, g7 y h7 están los propios peones negros, y ninguna pieza negra puede tapar ni capturar.\n\nUna columna abierta es una autopista hacia la última fila."
+}

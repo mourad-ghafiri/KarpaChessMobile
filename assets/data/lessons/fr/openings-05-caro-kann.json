@@ -1,0 +1,62 @@
+{
+  "id": "caro-kann",
+  "title": "La Caro-Kann",
+  "summary": "Réglez le problème du mauvais fou avant de bâtir le mur",
+  "proof": "openings-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Un pion au lieu d'une pièce",
+      "text": "Les Noirs ont répondu à 1.e4 par un coup du pion c : un coup qui n'attaque rien, ne développe rien et ressemble à un coup perdu. Un coup plus tard, il rapporte. Le ...d5 des Noirs arrive soutenu par un pion plutôt que par une pièce, et le centre s'échange.\n\nC'est ainsi qu'est née cette position. Les Noirs ont un pion en c6 et une armée encore chez elle. Les Blancs ont un pion en d4 et leur première pièce sortie, le cavalier en e4.\n\nLa Caro-Kann, c'est l'affirmation que ce marché convient très bien aux Noirs."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Le fou derrière le mur",
+      "text": "La plupart des réponses à 1.e4 s'appuient sur ...e6, et ce pion fait deux choses à la fois. Il tient le centre, et il barre la route du fou en c8.\n\n{{e6}}. Ce fou n'a qu'une seule diagonale ouverte, de c8 à h3, et un pion de son camp vient de s'y garer. Il reste d7, où le fou bloque la dame et ne regarde rien.\n\nLe pion c noir fait déjà le travail que fait ailleurs le pion e. Ce fou n'a donc aucune raison de rester assis à attendre le mur."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Sortez ce fou hors des pions dès maintenant, sur la case où il fixe aussi le cavalier blanc.",
+      "targetSan": [
+        "Bf5"
+      ],
+      "hint": "Rien sur l'échiquier ne défend ce cavalier, et la seule diagonale ouverte du fou a exactement une case qui l'attaque."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p5/5b2/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Deux coups pour le fou",
+      "text": "Les Blancs ne vont pas laisser prendre un cavalier. {{Ng3}} pousse le fou plus loin, {{Bg6}} garde la diagonale, et {{h4}} menace de pousser encore pour chasser définitivement le fou. {{h6}} libère h7, pour que le fou ait toujours une case derrière lui.\n\nComptez ce que cela a coûté. Les Noirs ont joué deux fois le même fou. Les Blancs ont rejoué le cavalier et envoyé un pion de la tour à deux cases devant leur roi.\n\nLes deux camps ont dépensé du temps. Un seul l'a dépensé en pions, et un pion ne revient pas."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Payer plus tard plutôt que maintenant",
+      "text": "Les Noirs sont ici en retard de développement, et la Caro-Kann l'assume. Trois des quatre premiers coups noirs ont été des coups de pion, donc les Blancs terminent les premiers et choisissent où se livre la bataille.\n\nCe que ce temps a acheté, c'est une structure où les Blancs ne peuvent pas mordre, un roi qui peut aller sur l'une ou l'autre aile, et le fou en g6 qui respire à l'air libre hors de ses propres pions.\n\nLe pion h blanc, lui, ne rentrera jamais. Les pièces s'échangent, l'attaque s'essouffle, et ce pion se tient toujours là où le roi était autrefois en sécurité."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Les Blancs refusent l'échange",
+      "text": "D'autres Blancs, et seulement au troisième coup. Plutôt que d'échanger au centre, ceux-ci poussent le pion au-delà et ferment la porte à clé : un pion blanc en e5, un pion blanc en d4, et le pion noir en d5 sans nulle part où aller.\n\nDeux pions en diagonale, celui de derrière soutenant celui de devant, forment une **chaîne de pions**. Celle des Blancs va de d4 à e5. Le pion en e5 fait les dégâts — il retire f6 au cavalier noir — et d4 le maintient là. Rien d'autre que des pièces ne soutient d4.\n\nOn attaque donc une chaîne à sa base, jamais à sa tête."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Sortir d'abord, le mur ensuite",
+      "text": "Le problème des Noirs est l'éternel problème. Avec le centre bloqué, ...e6 doit venir — il soutient d5 et laisse respirer les pièces de l'aile roi — et c'est justement le pion qui enfermerait le fou.\n\nC'est donc l'ordre qui fait le travail. {{Bf5}} d'abord. Les Blancs répondent {{Nf3}}, et alors seulement {{e6}} : le mur se construit derrière le fou au lieu de devant lui. {{Be2}}, et les Noirs sont prêts.\n\n> Sortez votre plus mauvaise pièce avant de bâtir le mur qui l'emprisonnerait."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP1BPPP/RNBQK2R b KQkq - 1 5",
+      "prompt": "Attaquez le pion qui soutient la chaîne blanche, avec le seul de vos pions qui puisse l'atteindre.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "Suivez la chaîne blanche jusqu'au pion qu'aucun autre pion ne défend, puis demandez-vous lequel des vôtres peut l'atteindre."
+    }
+  ]
+}

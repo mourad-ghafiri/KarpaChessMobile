@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-01",
+  "fen": "8/8/8/7P/3k4/8/8/K7 b - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "rating": 1100,
+  "title": "Inside the Box",
+  "setup": "White has just pushed the h-pawn to the fifth, and its own king is stranded in the far corner.",
+  "hint": "Sketch the box h5–h8–e8–e5 and ask which of your king moves actually lands inside it.",
+  "explanation": "## The Idea\n\nA pawn on h5 needs three moves to queen, so any king that can reach the box h5–h8–e8–e5 catches it. From d4 only {{Ke5}} steps inside: {{h6}} {{Kf6}} and the king shadows the pawn all the way to h8. Every other move is one tempo short."
+}

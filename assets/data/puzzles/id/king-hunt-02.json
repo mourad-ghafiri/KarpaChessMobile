@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-02",
+  "fen": "k7/2b2r2/5Q2/p7/3R4/1B6/KRp5/8 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Ka7",
+    "Rb7+",
+    "Ka8",
+    "Qa6#"
+  ],
+  "rating": 1385,
+  "title": "Gajah Membuka Garis",
+  "setup": "Raja Hitam terjebak di sudut a8, dan pion hitam di c2 tinggal selangkah dari promosi. Mat datang lebih dulu.",
+  "hint": "Salah satu buah Anda berdiri di lajur yang dibutuhkan benteng Anda. Beri ia tugas yang memindahkannya sekaligus memberi sekak.",
+  "explanation": "## Ide\n\n{{Bd5+}} mengosongkan b3 dan memberi sekak; {{Rb7+}} mendorong raja kembali ke sudut; {{Qa6#}} memberi mat di sepanjang lajur a, dengan gajah di d5 kini menopang benteng di b7. Setiap langkah dalam perburuan harus memberi sekak sekaligus merapatkan jaringnya."
+}

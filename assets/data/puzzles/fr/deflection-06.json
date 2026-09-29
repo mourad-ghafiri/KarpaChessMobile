@@ -1,0 +1,14 @@
+{
+  "id": "deflection-06",
+  "fen": "krN5/pp5q/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Nb6+",
+    "axb6",
+    "Ra1#"
+  ],
+  "rating": 1300,
+  "title": "Le pion a doit prendre",
+  "setup": "Le roi noir est dans le coin derrière sa propre tour et ses propres pions, et la colonne a est la seule entrée.",
+  "hint": "Le roi n'a aucun coup légal. Trouvez l'échec dont l'unique réponse ouvre la colonne que vous voulez.",
+  "explanation": "## L'idée\n\nOn ne peut répondre à {{Nb6+}} que d'une seule façon, {{axb6}}. Le pion a est arraché à la colonne a, et {{Ra1#}} file droit sur la route ouverte. Offrez n'importe quoi à un défenseur qui n'a pas le choix."
+}

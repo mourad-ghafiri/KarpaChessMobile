@@ -1,0 +1,15 @@
+{
+  "id": "openings-11",
+  "fen": "rnb2rk1/pp1nqppp/4p3/3pP3/3p1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 0 10",
+  "solution": [
+    "Bxh7+",
+    "Kxh7",
+    "Ng5+",
+    "Kg8",
+    "Qh5"
+  ],
+  "title": "Le sacrifice grec",
+  "setup": "Une défense française qui s'est calmée : le centre est bloqué, les Noirs ont roqué, et aucun cavalier noir ne pourra plus jamais atteindre f6. Brisez l'abri du roi.",
+  "hint": "Le fou vise h7, un cavalier est à un saut de g5, et la dame est à un coup de h5. Comptez ces trois éléments, puis regardez le pion en e5.",
+  "explanation": "## L'idée\n\nLe **sacrifice grec**. Le pion en e5 interdit f6 à tout cavalier noir, la seule condition dont le sacrifice a besoin.\n\n{{Bxh7+}} fait voler l'abri en éclats, et après {{Kxh7}} vient {{Ng5+}}. La défense la plus coriace des Noirs est de donner tout de suite la dame pour ce cavalier ; reculer par {{Kg8}} permet à {{Qh5}} de préparer le mat en h7, et seul le don de la dame tient encore.\n\nAvant un sacrifice grec, vérifiez que le fou atteint h7, qu'un cavalier atteint g5, que la dame atteint h5, et que rien de noir ne peut atteindre f6."
+}

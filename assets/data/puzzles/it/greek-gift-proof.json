@@ -1,0 +1,11 @@
+{
+  "id": "greek-gift-proof",
+  "fen": "r2q1rk1/pbpp2pp/1pn1pb2/7n/2PP1Pp1/P1NBP3/1PQ1N2P/R1B2RK1 w - - 0 12",
+  "solution": [
+    "Bxh7+"
+  ],
+  "title": "Il Dono che Nessuno Può Prendere",
+  "setup": "Il vostro alfiere in d3 e la vostra donna in c2 condividono una diagonale, e h7 la difende solo il re nero.",
+  "hint": "Contate che cosa sta dietro il vostro alfiere. Nel momento in cui l'alfiere lascia d3, quale mossa nera smette di essere legale?",
+  "explanation": "## L'idea\n\n{{Bxh7+}} consegna l'alfiere, e il Nero non ha il permesso di prenderlo. Nel momento in cui lascia d3, la donna in c2 vede fino a h7, quindi il re non può mettere piede su quella casa. Deve andare invece in h8 o in f7.\n\nIl riparo è sparito gratis. Dopo …Kh8 la vostra donna prosegue con {{Qg6}}, e l'ala di re del Nero è spalancata."
+}

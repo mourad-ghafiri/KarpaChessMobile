@@ -1,0 +1,14 @@
+{
+  "id": "discovery-12",
+  "fen": "6k1/pb3ppp/3p4/8/8/8/2Q3rP/2R2N1K b - - 0 1",
+  "solution": [
+    "Rxc2+",
+    "Kg1",
+    "Rg2+"
+  ],
+  "rating": 1350,
+  "title": "O Moinho Gira",
+  "setup": "A tua torre em g2 tapa a linha do teu próprio bispo até h1, e a dama branca de c2 é guardada por uma torre.",
+  "hint": "A torre pode sair com xeque e voltar logo com xeque. Descobre por que razão g2 é uma casa que as brancas nunca podem comer.",
+  "explanation": "## A Ideia\n\n{{Rxc2+}} come a dama guardada, porque sair de g2 descobre o xeque do bispo desde b7. {{Kg1}} é forçado, e {{Rg2+}} volta de imediato: o rei não pode capturar, já que o bispo cobre g2, e f1 está tapada pelo próprio cavalo das brancas. A torre é intocável, e a dama desapareceu de graça."
+}

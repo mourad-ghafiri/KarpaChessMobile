@@ -1,0 +1,56 @@
+{
+  "id": "sicilian",
+  "title": "A Defesa Siciliana",
+  "summary": "Um peão de ala por um peão central, e dois exércitos que nunca mais se podem copiar",
+  "proof": "openings-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "title": "Um Peão Fora da Ala",
+      "text": "Todas as trocas mudam duas coisas: o que fica no tabuleiro e a forma em que os peões ficam. Aqui a segunda é o ponto inteiro.\n\nO peão branco em d4 está a uma diagonal do teu peão de c5, e a abertura gira à volta de capturares ou não. Se capturares, entregas um peão que começou na berma do tabuleiro e tiras um que estava no meio. As brancas recapturam, portanto não se ganha nada.\n\nA forma é que não volta. A partir desse momento os dois lados têm peões diferentes em cada ala, para sempre."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Troca o teu peão de ala pelo peão que as brancas acabaram de plantar no meio.",
+      "targetSan": [
+        "cxd4"
+      ],
+      "hint": "Ordena os teus peões por quão perto estão do centro e depois encontra a captura que melhora essa conta."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "O Que a Troca Comprou",
+      "text": "As brancas recapturaram e o material está igual. O resto dizem-no os peões.\n\nTens dois deles no meio, em d6 e e7, contra um só das brancas em e4. Na ala da dama as brancas têm três contra os teus dois. Nada disto é ainda uma vantagem. É um desequilíbrio, e foi o desequilíbrio que pagaste.\n\nA fatura é a coluna c. O teu peão deixou-a e o peão branco de c2 não — uma **coluna semiaberta**, uma em que só um dos exércitos ainda tem peão. O exército que a pode usar és tu."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "A Recusa de Espelhar",
+      "text": "Responde ao peão de rei das brancas com o teu e os dois exércitos querem as mesmas casas, as mesmas colunas, os mesmos planos. Mais cedo ou mais tarde alguém propõe empate e ninguém tem razão para recusar.\n\nEsta estrutura não se pode copiar. Peões diferentes em cada ala querem dizer planos diferentes, e dois planos diferentes têm de ser jogados até ao fim até que um deles se mostre melhor.\n\nÉ esse o atrativo, e é por isso que a siciliana é a resposta mais jogada no mundo a uma primeira jogada de peão de rei."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "Jogada Onze",
+      "text": "Os dois lados acabaram de tirar as peças, e a forma aguentou-se. Os teus peões em d6 e e6 fazem um centro pequeno, lado a lado — apertado de ver e muito difícil de rachar. Os peões brancos em e4 e f4 têm mais espaço e querem rasgar uma linha na ala do rei.\n\nAs pretas passam o meio-jogo a preparar um avanço: {{d5}}. No instante em que esse peão aterra, o centro pequeno passa a ser um centro completo e todas as peças sem ar se esticam. O plano das brancas na ala do rei é uma corrida para lá chegar primeiro."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "A Coluna Que Esvaziaste",
+      "text": "A tua torre em a8 não mexe desde o início da partida, e está a olhar para o teu próprio peão de a6. Duas colunas ao lado não há peão nenhum teu.\n\nAo fundo dessa coluna estão os dois pontos mais tenros das brancas: o peão em c2, que nenhum peão branco poderá defender, e o cavalo em c3, que segura o centro todo. O **contrajogo** das pretas vive ali — não em guardar a ala do rei, mas na coluna que a troca abriu.\n\n> Um peão de ala vale um peão central sempre que a coluna que abre aponta a alguma coisa."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "prompt": "Leva a torre parada à coluna que o teu peão c deixou para trás.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "Nessa coluna já não há peão nenhum teu, e ao fundo dela estão os dois pontos mais fracos das brancas."
+    }
+  ]
+}

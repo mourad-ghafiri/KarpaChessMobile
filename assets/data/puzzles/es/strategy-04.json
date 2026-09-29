@@ -1,0 +1,11 @@
+{
+  "id": "strategy-04",
+  "fen": "r1bq1rk1/ppp2p2/2np1n1p/1B2p1p1/1b2P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "Faltan dos ladrillos",
+  "setup": "Las Negras avanzaron dos peones para perseguir a tu alfil, y el rey de g8 vive detrás de ellos. El alfil de h4 está atacado.",
+  "hint": "El peón de g5 tiene un solo defensor. Retirarse es seguro; calcula lo que vale ese refugio antes de jugarlo.",
+  "explanation": "## La idea\n\nLos peones de h6 y g5 eran la primera línea del refugio del rey negro, y ninguno puede volver atrás. {{Nxg5}} da un caballo por ellos.\n\nSi las Negras comen, el alfil recaptura en g5, clava el caballo de f6 contra la dama y el rey queda desnudo. A las Negras les va mejor entregar el alfil de b4 por tu caballo de c3, y las Blancas siguen saliendo ganando. Una retirada a g3 les habría permitido a las Negras conservarlo todo."
+}

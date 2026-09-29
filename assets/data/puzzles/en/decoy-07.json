@@ -1,0 +1,14 @@
+{
+  "id": "decoy-07",
+  "fen": "6rk/pp1q2pp/8/5P1R/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1390,
+  "title": "The Rook That Pays First",
+  "setup": "Your rook on h5 stares at h7, your other rook waits on d1, and the black king cannot move a square.",
+  "hint": "Ask which square the king must be standing on for your second rook to matter, then pay for it.",
+  "explanation": "## The Idea\n\n{{Rxh7+}} costs a rook and {{Kxh7}} is forced. The h-file is now bare behind it, the pawn on f5 takes g6 away, and {{Rh1#}} swings across for mate. Two rooks beat one king as soon as the file in front of it is empty."
+}

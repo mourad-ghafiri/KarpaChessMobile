@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-08",
+  "fen": "8/8/3kp3/4P3/2K5/8/8/8 b - - 1 1",
+  "solution": [
+    "Kxe5"
+  ],
+  "rating": 1350,
+  "title": "Önündeki Piyon",
+  "setup": "Beyazın şahı az önce c4'e geldi ve iki e piyonu birbirine sıkışmış durumda.",
+  "hint": "Beyazın şahı e dikeyinden iki dikey uzakta; piyonunuzun önündeki abluka kalkarsa ne değişir, sorun.",
+  "explanation": "## Fikir\n\n{{Kxe5}} ölü bir piyonu, şahı çoktan önünde olan bir koşucuya çevirir. Beyaz dikeyi tutamaz: {{Kd3}} {{Kf4}} {{Ke2}} {{Ke4}} gelir ve siyah onu boydan boya dolanır. Şahın geri çekilişlerinden üçü doğrudan kaybeder, dördüncüsü yalnızca berabere kalır."
+}

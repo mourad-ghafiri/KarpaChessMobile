@@ -1,0 +1,14 @@
+{
+  "id": "defence-04",
+  "fen": "K7/8/2Q5/1q2r3/8/1r1B4/R7/3k4 w - - 0 1",
+  "solution": [
+    "Qc2+",
+    "Ke1",
+    "Qc1#"
+  ],
+  "rating": 1570,
+  "title": "Date la Donna al Re",
+  "setup": "La donna nera in b5 e le torri in b3 e e5 hanno il vostro re nell'angolo, mentre il loro re sta indifeso in d1.",
+  "hint": "C'è una casa dove la vostra donna non può essere presa. Trovatela e guardate che cosa resta al re.",
+  "explanation": "## L'idea\n\n{{Qc2+}} si mette accanto al re intoccabile — la torre in a2 la difende — e {{Ke1}} è forzata. Segue {{Qc1#}}. La mossa più difensiva della scacchiera si è rivelata un'offerta di donna."
+}

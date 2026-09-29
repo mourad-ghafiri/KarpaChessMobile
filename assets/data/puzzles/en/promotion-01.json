@@ -1,0 +1,14 @@
+{
+  "id": "promotion-01",
+  "fen": "7k/1P3pp1/3r3p/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "b8=Q+",
+    "Kh7",
+    "Qxd6"
+  ],
+  "rating": 1000,
+  "title": "A Queen With a Fork",
+  "setup": "Your b-pawn is one step from the eighth rank, and the black king is standing on that very rank.",
+  "hint": "A new queen arrives with check. Before you play it, look at what else the promotion square attacks.",
+  "explanation": "## The Idea\n\n{{b8=Q+}} is check along the eighth rank and attacks the rook on d6 down the b8-h2 diagonal at the same time. Black has to answer the check, with {{Kh7}} or by blocking with Rd8, and either way the queen collects the rook, as in {{Qxd6}}. Promote where the new piece does two jobs."
+}

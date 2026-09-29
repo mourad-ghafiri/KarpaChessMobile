@@ -1,0 +1,50 @@
+{
+  "id": "king-activity",
+  "title": "Activez votre roi",
+  "summary": "La pièce qui s'est cachée toute la partie prend maintenant la tête",
+  "proof": "endgame-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "Quitter la dernière rangée",
+      "text": "Toute la partie, le roi n'avait qu'une consigne : rester caché. Les dames et les tours ont disparu de cet échiquier, et avec elles la raison de se cacher. Rien de ce qui reste ici ne peut monter une attaque contre un roi à découvert.\n\nLa consigne expire donc. Le roi blanc en g1 est désormais une pièce de combat — il se déplace d'une case dans n'importe quelle direction, il protège tout ce qu'il touche, et il vaut quelque part entre un fou et une tour. C'est aussi la pièce la plus éloignée de l'action."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "Le pion ne peut pas y arriver seul",
+      "text": "Votre pion en e5 est bloqué. {{e6}} {{Ke7}} — le pion avance, le roi noir s'avance à sa rencontre, et rien sur l'échiquier ne défend e6.\n\nReste le roi. C'est la seule pièce qui puisse améliorer quoi que ce soit ici, et chaque pas vers le centre améliore quelque chose. Depuis g1, le centre est à trois coups de roi. Il n'y a rien de mieux à faire de ces trois coups."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "prompt": "Dirigez-vous vers d4 par le chemin le plus court dont dispose le roi.",
+      "targetSan": [
+        "Kf2"
+      ],
+      "hint": "Un pas en diagonale gagne une colonne et une rangée à la fois — un seul d'entre eux lance une marche de trois coups."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/5K2/8 b - - 6 4",
+      "title": "Rien que le roi",
+      "text": "{{Ke7}} {{Ke3}} {{Ke8}} {{Kd4}}. Deux coups chacun, et aucun ne touche un pion.\n\nRegardez pourtant ce qui a changé. Le roi qui était enterré en g1 se tient maintenant en d4, à côté de son pion en e5 et prêt à l'escorter. Le roi noir est allé en e7 et revenu aussitôt, parce qu'il n'avait rien de mieux à faire non plus.\n\n> En finale, le roi passe devant, et les pions le suivent jusqu'au bout."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "title": "Comptez la distance",
+      "text": "Cinq coups plus tard, votre roi se tient en d6 et celui des Noirs est parti chasser : même f6, la case qu'il voudrait à côté de votre pion, lui est interdite — e5 la protège.\n\nComptez maintenant l'autre côté de l'échiquier. Le roi noir est à trois pas du pion en d7. Le vôtre en est plus près, et celui des Noirs ne protège plus rien par ici.\n\nUn roi actif n'a besoin d'aucune tactique. Il gagne du matériel en se tenant au bon endroit au moment où l'autre roi est ailleurs."
+    },
+    {
+      "type": "play",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "prompt": "Profitez de l'escapade du roi noir : prenez le pion qu'il a cessé de défendre.",
+      "targetSan": [
+        "Kxd7"
+      ],
+      "hint": "Comptez les défenseurs de d7 maintenant que le roi noir est parti en g7."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "promotion-06",
+  "fen": "7k/ppp4p/8/PPP5/8/8/7P/7K w - - 0 1",
+  "solution": [
+    "b6",
+    "axb6",
+    "c6"
+  ],
+  "rating": 1200,
+  "title": "Rompete il Muro di Pedoni",
+  "setup": "Tre pedoni contro tre pedoni sull'ala di donna, e tutti e due i re sono parcheggiati nell'angolo lontano.",
+  "hint": "Tre affiancati contro tre affiancati. Regalatene uno in mezzo e contate i tempi che servono agli altri due.",
+  "explanation": "## L'idea\n\n{{b6}} regala un pedone per rompere il muro. Dopo {{axb6}}, {{c6}} sfonda di nuovo: se {{bxc6}}, il pedone a corre in a8 senza essere toccato, e se il Nero lo lascia stare, {{cxb7}} e il pedone promuove in b8. Dopo {{cxb6}} invece, {{a6}} fa lo stesso lavoro dall'altra parte.\n\nUn pedone ceduto in mezzo a tre può comprare una donna sull'ala."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "back-rank-mate",
+  "title": "Arka Yatay",
+  "summary": "Zaten orada duran ve bir kalenin fark etmesini bekleyen bir zayıflık",
+  "proof": "tactics-mix-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Beş Kare, Tek Yatay",
+      "text": "Siyahın şahına saldıran bir şey yok ve henüz olması da gerekmiyor. Tuzak çoktan kurulmuş.\n\ng8'deki şahın çevresinde beş kare var. Üçünde kendi piyonları duruyor — f7, g7, h7 — parti boyunca onu hayatta tutan barınak. Diğer ikisi f8 ile h8 ve ikisi de şahın üzerinde durduğu yatayda, sekizinci yatayda.\n\nYani o şahın kullanabileceği her kare tek bir hatta. O hatta bir kale koyun, liste boşalsın."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "İki Soru",
+      "text": "İnmesine bir hamle kala gördüğünüz mat şanstır. Bunu çok uzaktan gelirken görebilirsiniz, çünkü iki sorudan kurulmuştur ve ikisi de bir bakışta cevaplanır.\n\nRakip şah son yatayından çıkabilir mi? O yatayı koruyan bir şey var mı?\n\nBurada cevaplar hayır ve hayır; on hamle önce de hayırdı. Geriye yalnızca sekizinci yataya bir kale ya da vezir götürmek kaldı — ve c1'deki kalenizin üstünde c dikeyinde hiçbir şey durmuyor.\n\nBu iki soruyu her hamlede sorun, bunu kazara bulmaktan kurtulun."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "prompt": "Şaha kalan iki karenin ikisi de sekizinci yataydan çıkmıyor; o yatayın tamamını tek hamlede alın.",
+      "targetSan": [
+        "Rc8#"
+      ],
+      "hint": "Kalenizin önündeki bir dikeyde hiçbir şey durmuyor ve o dikey istediğiniz yatayda bitiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Kale ya da Vezir, Başkası Değil",
+      "text": "Mesele kale değil. Vezir de aynı şekilde bitirir, çünkü bu matın ihtiyacı bütün bir yatayı tek seferde kapsayan bir taştır ve bunu yalnızca o ikisi yapar.\n\nİkisini de göndermeden önce tek bir kontrol. İndiğiniz kare, sizin bir taşınız orayı korumuyorsa, şahın yanında olmamalı. Burada f8 ya da h8'e varın, siyah hiç mat olmasın — şah taşı alır ve az önce açtığınız delikten çıkıp gider.\n\nc8'i güvenli kılan mesafeydi."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Çarenin Bedeli Bir Hamle",
+      "text": "g1'deki kendi şahınız da aynı beş karenin içinde oturuyor ve cevabı zaten biliyorsunuz: ona bir kaçış karesi verin. {{h3}} bunu yapar — h2 açılır ve birinci yatayınıza inen bir kale, kaybettiğiniz bir partiye değil, cevapladığınız bir şaha dönüşür.\n\nHamle bedavaya gelmiyor. Hiçbir şeye saldırmaz, hiçbir şeyi korumaz ve barınak öncekinden bir piyon daha ileride durur.\n\nHangi piyonu harcadığınız da önemli. Bunun yerine g piyonunu sürmek f3 ile h3'ü elden çıkarır ve kendi köşenize giden uzun çaprazı açar; bu yüzden h piyonu genellikle daha ucuza satın alınan karedir."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "Her Birinde Tek Koruyucu",
+      "text": "Yeni bir tahta ve iki şah da artık tanıdığınız biçimde kapatılmış. Karşılıklı, d dikeyinde birer kale.\n\nSiyahın sekizinci yatayını koruyanı sayın: d8'deki kale ve başka bir şey yok. Beyazın birinci yatayını koruyanı sayın: d1'deki kale ve başka bir şey yok.\n\nBu eşit bir pozisyon değil. Bu, her biri kaybetmeye tek taş uzaklıkta iki pozisyondur ve sıra yalnızca bir taraftadır."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "Değişim Olmayan Değişim",
+      "text": "Aynı taş, aynı dikey, aynı değer. Kaleleri burada değişmek tahtadaki en sıkıcı hamle gibi durur.\n\nOysa bu bir değişim değildir, çünkü değişimin geri alacak bir şeye ihtiyacı vardır. Siyahın şahı üç piyonun arkasından çıkamaz ve piyonlar geri gitmez. d8'de geri alabilecek tek taş, alınmakta olan taştır.\n\n> Açık bir dikeydeki son kaleyi değişmeden önce, onun orada durmaktan başka ne yaptığını sorun."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "prompt": "Siyahın sekizinci yatayını koruyan tek taşı alın ve onu geri alacak ne kaldığını sayın.",
+      "targetSan": [
+        "Rxd8#"
+      ],
+      "hint": "Bir taş almaya değişim demeden önce, hangi siyah taşın o kareye kurallı biçimde ulaşabildiğini hesaplayın."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "windmill",
+  "title": "Le moulin",
+  "summary": "Une tour qui donne échec, pille, et revient",
+  "proof": "windmill-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "title": "La dame est l'appât",
+      "text": "Moscou, 1925 : Carlos Torre, avec les Blancs, s'apprête à offrir sa dame à Emanuel Lasker et à en ressortir avec trois pions d'avance.\n\nTout ce que possèdent les Blancs vise déjà une seule case. La tour en g3 a toute la colonne g dès qu'elle est dégagée. Le fou en g5 est ce qui barre la route. Et g7, le pion qui abrite le roi noir, n'est protégé que par ce roi et rien d'autre.\n\nLa dame noire en b5 ne défend rien de ce côté de l'échiquier."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "prompt": "Ajoutez un second attaquant contre g7, et acceptez que dégager la route vous coûte la dame.",
+      "targetSan": [
+        "Bf6"
+      ],
+      "hint": "La tour en g3 vise déjà g7, et la seule chose sur sa route est une pièce à vous."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3ppB1p/7q/1P1P4/4N1R1/P4PPP/4R1K1 w - - 0 26",
+      "title": "La tour entre",
+      "text": "Lasker a pris la dame, et la colonne g s'est ouverte avec un fou blanc posé en f6, tout contre l'abri du roi.\n\n{{Rxg7+}}. Le roi ne peut pas prendre la tour, car le fou en f6 protège g7. Le propre cavalier noir est en f8, il n'y a donc nulle part ailleurs où aller : {{Kh8}} est le seul coup légal de l'échiquier.\n\nLes Noirs ont une dame de plus. Regardez maintenant où ces trois pièces se sont retrouvées."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "La tour au milieu",
+      "text": "Le fou en f6, la tour en g7 et le roi noir en h8 sont sur une même diagonale, dans cet ordre, la tour au milieu.\n\nSortez la tour de cette diagonale et l'échec à la découverte du fou arrive derrière elle, si bien que la tour prend ce qu'elle croise pendant que les Noirs répondent. Ramenez-la en g7 et la tour donne échec elle-même, protégée par le fou. Le roi fait la navette entre deux cases et n'obtient jamais un coup à lui. C'est le moulin.\n\n> Une tour qui donne échec en quittant une diagonale et de nouveau en y revenant possède toute la rangée."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "Un tour complet",
+      "text": "{{Rxf7+}} prend un pion et dégage la diagonale, donc l'échec vient du fou. {{Kg8}}, le seul coup. {{Rg7+}} remet la tour au milieu, et {{Kh8}}, de nouveau le seul coup.\n\nComptez ce qui a changé. Le roi de retour en h8, la tour de retour en g7, la diagonale disposée exactement comme avant, et les Noirs plus pauvres d'un pion. Rien n'empêche les Blancs de tout recommencer.\n\nTorre a fait tourner le moulin une fois de plus, puis a posé la tour en g5 et ramassé la dame en h5."
+    },
+    {
+      "type": "play",
+      "fen": "r3rn1k/pb4R1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 3 29",
+      "prompt": "Faites tourner le moulin une fois de plus, en quittant la diagonale pour prendre la seule pièce que votre tour peut prendre sur la septième rangée.",
+      "targetSan": [
+        "Rxb7+"
+      ],
+      "hint": "Quitter la diagonale amène l'échec du fou avec elle : lisez la septième rangée pour trouver le plus gros butin."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-12",
+  "fen": "7K/8/k1P5/7p/8/8/8/8 w - - 1 2",
+  "solution": [
+    "Kg7"
+  ],
+  "rating": 1500,
+  "title": "Aynı Anda İki İş",
+  "setup": "Siyahın şahı az önce a6'ya geldi ve h piyonu vezir olmaya dört temiz hamle uzaklıkta görünüyor.",
+  "hint": "Onun piyonunu kovalamakla kendi piyonunuzu sürmek arasında seçim yapmayın — ikisini birden yapan bir güzergâh arayın.",
+  "explanation": "## Fikir\n\nh dikeyinde dümdüz aşağı kovalamak umutsuzdur, bu yüzden şah çapraz boyunca, aynı anda iki piyona doğru yürür. Siyah {{h4}} ile koşarsa {{Kf6}} ve ardından Ke6 şahı d7'nin yanına getirir ve c piyonunuz tam siyahınki vezir olurken vezir olur. Siyah {{Kb6}} ile c piyonunun peşine düşerse, aynı yürüyüş h piyonunu yakalayacak zamanı kazanmıştır. Her hâlükârda beraberliktir.\n\nBu Réti'nin etüdüdür: çaprazdaki şah aynı anda iki şeyin peşinden koşabilir."
+}

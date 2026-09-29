@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-02",
+  "fen": "6k1/5ppp/2n5/4b3/1P6/4PN2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "b5"
+  ],
+  "rating": 1090,
+  "title": "Usir, Jangan Tangkap",
+  "setup": "Gajah di e5 tak terlindungi dari kuda Anda, dan kuda di c6 satu-satunya buah yang menahan semuanya tetap utuh.",
+  "hint": "Pembela yang dipaksa pindah adalah pembela yang sudah Anda singkirkan. Pion mana yang bisa berjalan naik dan menyerangnya?",
+  "explanation": "## Ide\n\n{{b5}} menyerang kuda, dan setiap petak yang bisa dicapainya meninggalkan e5 — lalu {{Nxe5}}. Jika Hitam justru menyelamatkan gajah, {{bxc6}} mengambil kuda. Mengusir penjaga sama sekali tak merugikan Anda apa pun."
+}

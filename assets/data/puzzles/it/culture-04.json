@@ -1,0 +1,13 @@
+{
+  "id": "culture-04",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/P1N2N1P/1P2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "hxg4",
+    "Nxe2+"
+  ],
+  "title": "Non Ritiratevi",
+  "setup": "Il Bianco ha appena scacciato il vostro cavallo con il pedone h e, con quattrocento punti in più, si aspetta pienamente che lo riportiate indietro.",
+  "hint": "Il vostro cavallo in g4 è attaccato: smettete di difenderlo e chiedetevi che cosa potrebbe colpire invece l'altro cavallo.",
+  "explanation": "## L'idea\n\n{{Nd4}} ignora il cavallo attaccato e colpisce la donna in e2, l'unico pezzo che tiene sia l'alfiere in c4 sia il cavallo in f3.\n\nIl meglio per il Bianco è {{hxg4}}, e {{Nxe2+}} prende la donna. Due cavalli per una donna vi lasciano un pezzo netto in più.\n\nLa presa naturale è molto peggio. Dopo {{Nxd4}} il cavallo che difendeva h2 se n'è andato, e {{Qh2#}} chiude la partita, con il cavallo in g4 a difendere la donna.\n\nQuando un pezzo è attaccato, cercate un attacco più grosso prima di cercare una casa."
+}

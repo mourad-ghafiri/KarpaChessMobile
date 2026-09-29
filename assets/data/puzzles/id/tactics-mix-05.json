@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-05",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "exd5"
+  ],
+  "title": "Menangkan Pion Pusat",
+  "setup": "Hitam baru saja mendorong ...d5, menawarkan pion pusat kedua kepada pion e Anda. Ambil pion yang baru saja ditawarkan Hitam.",
+  "hint": "Ketika Anda bisa mengambil pion pusat dengan gratis, hampir selalu lakukanlah.",
+  "explanation": "## Ide\n\n{{exd5}} mengambil pion pusat yang ditawarkan. {{Qxd5}} yang wajar mengeluarkan menteri Hitam terlalu awal, dan {{Nc3}} langsung menyerangnya, langkah pengembangan yang gratis. Jika Hitam malah mendorong {{e4}}, kuda menyingkir dan Anda tetap unggul satu pion.\n\nPion pusat lebih berharga daripada pion sayap: ketika Anda bisa mengambil satu dan mempertahankannya, lakukanlah."
+}

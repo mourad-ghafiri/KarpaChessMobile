@@ -1,0 +1,12 @@
+{
+  "id": "trapped-07",
+  "fen": "6k1/ppp2pp1/5n1p/8/8/7P/P1P1NPP1/1b1B2K1 w - - 0 1",
+  "solution": [
+    "Nc3"
+  ],
+  "rating": 1240,
+  "title": "Alfiere in una Scatola",
+  "setup": "L'alfiere nero si è infilato fino in b1, dove i suoi unici due vicini sono i vostri pedoni in a2 e c2.",
+  "hint": "Quell'alfiere non ha già nemmeno una mossa. Portate un pezzo che lo colpisca e difenda a2 nello stesso respiro.",
+  "explanation": "## L'idea\n\n{{Nc3}} attacca l'alfiere e copre a2 nello stesso momento, e c2 è difesa dall'alfiere in d1, quindi non c'è nemmeno una presa con cui scappare. A un pezzo che non ha dove andare basta un attaccante per cadere."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-04",
+  "fen": "8/8/1P6/5r2/3K4/k7/8/3R4 b - - 0 1",
+  "solution": [
+    "Rb5"
+  ],
+  "rating": 1350,
+  "title": "Detrás del peón",
+  "setup": "El peón de b blanco está a un paso de la séptima, y el rey negro de a3 es demasiado lento para alcanzarlo.",
+  "hint": "El peón va a correr. ¿Qué casilla mantiene a tu torre atacándolo llegue hasta donde llegue?",
+  "explanation": "## La idea\n\nUna torre detrás de un peón pasado lo sigue atacando a cada paso. {{Rb5}} {{b7}} {{Rxb7}}, y ya no queda nada que coronar. Si atacas en cambio de lado con {{Rf6}}, las Blancas juegan {{Rb1}}, respaldando a su peón, y pasa."
+}

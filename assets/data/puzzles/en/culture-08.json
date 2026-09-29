@@ -1,0 +1,13 @@
+{
+  "id": "culture-08",
+  "fen": "1r2k1r1/pbppnp1p/1b3P2/8/Q7/B1PB1q2/P4PPP/3R2K1 w - - 0 21",
+  "solution": [
+    "Qxd7+",
+    "Kxd7",
+    "Bf5+"
+  ],
+  "title": "Both Bishops",
+  "setup": "White is a rook and a knight down, the black king never castled, and both white bishops are pointing at it.",
+  "hint": "Count the black king's squares before you count material — what is left once the bishop on a3 and the pawn on f6 are subtracted?",
+  "explanation": "## The Idea\n\n{{Qxd7+}} throws the queen at a defended pawn. Declining with {{Kf8}} is mate at once on e7, so {{Kxd7}}, and the king stands in the open with both bishops aimed at it.\n\n{{Bf5+}} is double check, from the bishop and from the rook behind it. {{Kc6}} walks into {{Bd7#}}, and after {{Ke8}}, {{Bd7+}} and {{Bxe7#}} finish it with the same two bishops.\n\nAnderssen played this in Berlin in 1852, a year after the Immortal Game."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "culture-04",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/P1N2N1P/1P2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "hxg4",
+    "Nxe2+"
+  ],
+  "title": "Do Not Retreat",
+  "setup": "White has just kicked your knight with the h-pawn and, four hundred points up, fully expects you to move it back.",
+  "hint": "Your knight on g4 is attacked, so stop defending it and ask what your other knight could hit instead.",
+  "explanation": "## The Idea\n\n{{Nd4}} ignores the attacked knight and hits the queen on e2, the one piece holding both the bishop on c4 and the knight on f3.\n\nWhite's best is {{hxg4}}, and {{Nxe2+}} takes the queen. Two knights for a queen leaves you a clean piece ahead.\n\nThe natural capture is far worse. After {{Nxd4}} the knight that guarded h2 has left, and {{Qh2#}} ends it, with the knight on g4 guarding the queen.\n\nWhen a piece is attacked, look for a bigger attack before you look for a square."
+}

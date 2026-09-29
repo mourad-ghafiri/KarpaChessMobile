@@ -1,0 +1,14 @@
+{
+  "id": "defence-06",
+  "fen": "8/7B/6R1/1K1k4/r4q2/4Q3/r7/8 w - - 0 1",
+  "solution": [
+    "Bg8+",
+    "Qf7",
+    "Bxf7#"
+  ],
+  "rating": 1650,
+  "title": "Fil Sizin İçin Araya Giriyor",
+  "setup": "Siyahın f4'teki veziri ile a4 ve a2'deki kaleleri b5'teki şahınıza doğrultulmuş — tehditler her yerde.",
+  "hint": "Siyahın ancak en güçlü taşını araya koyarak cevap verebileceği şahı bulun.",
+  "explanation": "## Fikir\n\n{{Bg8+}} {{Qf7}} hamlesini zorlar, çünkü başka hiçbir şey araya giremez; {{Bxf7#}} de veziri ve partiyi birlikte alır. Belirli bir kapatmayı zorunlu kılan şah, yalnızca can sıkan şahtan değerlidir."
+}

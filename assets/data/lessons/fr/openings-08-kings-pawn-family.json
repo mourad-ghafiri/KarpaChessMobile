@@ -1,0 +1,57 @@
+{
+  "id": "kings-pawn-family",
+  "title": "Les ouvertures du pion roi",
+  "summary": "Chaque réponse à 1.e4 est un marché différent",
+  "proof": "openings-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Deux lignes en une poussée",
+      "text": "Un seul coup de pion libère deux pièces. Poussez le pion e et la dame comme le fou de cases blanches obtiennent une route pour quitter la dernière rangée.\n\nCes parties se remplissent donc vite. Les pièces arrivent, les lignes s'ouvrent, et les armées se touchent alors que les deux rois sont encore au centre. Un coup lent coûte plus cher ici que dans une position calme, car quelqu'un est déjà là pour le punir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Le pion sans gardien",
+      "text": "Les Noirs ont copié, et copier a un prix : le second joueur doit répondre à une question déjà posée.\n\nLe cavalier en f3 attaque le pion en e5. Comptez les défenseurs de e5 : aucun.\n\nIl y a deux façons honnêtes d'y remédier. Une pièce peut protéger le pion et sortir de chez elle du même coup, sans rien dépenser. Un pion peut le protéger tout aussi bien, et payer ce travail en se tenant devant l'un des fous noirs pour le reste de la partie."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "prompt": "Protégez le pion que le cavalier blanc vient d'attaquer, et tenez votre part du centre.",
+      "targetSan": [
+        "Nc6",
+        "d6"
+      ],
+      "hint": "Un défenseur est une pièce qui voulait sortir de toute façon ; l'autre est un pion qui paie ce travail avec un fou. Les deux sont des lignes principales."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "title": "La plus vieille dispute",
+      "text": "Protégez e5 avec le cavalier et les Blancs ont un coup tout prêt. {{Bb5}} ignore complètement le pion en e5 et s'en prend à la pièce qui le défend : retirez le gardien et le pion est sans protection.\n\nLes Noirs repoussent le fou par {{a6}}, le fou recule le long de la diagonale par {{Ba4}}, visant toujours le même cavalier et sans rien coûter. C'est la partie espagnole, la Ruy López, vieille de quatre siècles et toujours l'ouverture la plus débattue qui soit."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Trois façons de refuser",
+      "text": "La plupart des bonnes réponses au pion roi ne touchent jamais e5. Chacune refuse dans une monnaie différente.\n\n- **La sicilienne** laisse e4 tranquille et lutte pour d4 avec un pion en c5, prenant la colonne c semi-ouverte quand les pions s'y échangent.\n- **La Caro-Kann** et **la française** dépensent d'abord un coup tranquille en c6 ou e6, pour que la poussée en d5 arrive soutenue — la française enferme son fou de cases blanches derrière le mur, la Caro-Kann le garde dehors.\n- **La défense Alekhine** envoie un cavalier en f6 et met les pions blancs au défi de le chasser."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "title": "Un refus en cours",
+      "text": "Les Noirs ont consacré leur premier coup à un pion en c6, et les Blancs ont pris tout ce qui était offert : deux pions côte à côte en d4 et e4, le centre le plus large que les Blancs obtiennent jamais gratuitement.\n\nLarge ne veut pas dire sûr. Un grand centre de pions doit être contesté tant qu'il n'est encore que des pions — laissez-le tranquille et les pièces blanches sortent derrière lui, puis tout le mur avance.\n\nLe premier coup n'était pas de la modestie. C'était un pion posté pour soutenir une frappe qui n'a pas encore eu lieu.\n\n> Un premier coup tranquille est un second coup bruyant qui attend son tour."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "prompt": "Contestez le centre à deux pions des Blancs avec le pion que votre premier coup tranquille devait soutenir.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "Le premier coup était un pion avec une seule tâche. Demandez-vous quelle case il couvre, et remarquez que personne ne l'a encore occupée."
+    }
+  ]
+}

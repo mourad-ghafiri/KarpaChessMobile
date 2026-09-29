@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-04",
+  "fen": "r2q1bnr/ppp1kBpp/2np4/4N3/4P3/2N4P/PPPP1PP1/R1BbK2R w KQ - 1 8",
+  "solution": [
+    "Nd5#"
+  ],
+  "rating": 690,
+  "title": "Il Prezzo di una Donna",
+  "setup": "Avete ceduto la donna in d1 per trascinare il re nero in e7, e adesso tre dei vostri pezzi lo guardano.",
+  "hint": "Contate le case che il re ha, poi trovate il pezzo che si prende l'ultima dando scacco.",
+  "explanation": "## L'idea\n\n{{Nd5#}} è il matto di Légal. L'alfiere in f7 e il cavallo in e5 coprono d7, e6 e e8, quindi il secondo cavallo dà scacco togliendo esso stesso f6. Una donna non vale niente accanto a un re senza case."
+}

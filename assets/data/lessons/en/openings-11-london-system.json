@@ -1,0 +1,52 @@
+{
+  "id": "london-system",
+  "title": "The London System",
+  "summary": "One setup against almost anything, and the square it is built around",
+  "proof": "openings-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "Bishop First, Pawn Second",
+      "text": "Two moves in, and the second one carries the whole system.\n\nWhite is building a small wall at c3, d4 and e3: cheap to learn, awkward to break. The trouble is the e-pawn. Once it settles on e3 it shuts the door on the dark-squared bishop, which then spends the game sitting behind its own pawns.\n\nSo the bishop leaves first. It is already outside the wall on f4, and the pawn comes afterward. Against nearly anything Black chooses, the order holds — bishop out, then e3."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "The Pawn Nobody Is Watching",
+      "text": "Leaving the back rank early costs exactly one thing, and Black goes for it immediately. With the bishop gone, the pawn on b2 is defended by nobody.\n\n{{c5}} hits the base of the wall. {{e3}} builds it anyway, {{Nc6}} adds a second attacker on d4, {{c3}} props it up, and {{Qb6}} lands on the b-file, where the pawn on b2 is loose. Two white pawns are being asked questions at once.\n\nThat raid is the first real question the London has to answer, and every London player meets it inside ten games."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pp2pppp/1qn5/2pp4/3P1B2/2P1P3/PP3PPP/RN1QKBNR w KQkq - 1 5",
+      "prompt": "Cover the loose pawn on b2 without spending a pawn move on it.",
+      "targetSan": [
+        "Qc1",
+        "Qc2",
+        "Qb3"
+      ],
+      "hint": "No pawn move is needed here. Your queen can guard b2 from more than one square; choose one that leaves d2 and e2 free for your knight and bishop."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Where It All Points",
+      "text": "Six quiet moves later the setup is finished, and it looks the way it always does: pawns at c3, d4 and e3, a bishop on f4, another on d3, knights on f3 and d2. Black's queen sits on b6 with nothing left to bite.\n\nNow follow the light diagonal. The bishop on d3 sees e4, f5, g6, and then h7, one square from Black's king, with nothing standing in the way. {{Qc2}} brings the queen in behind it.\n\nTwo attackers on h7. Black's king covers it, and so does the knight on f6. Two against two, and that is not an attack yet."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "A Square No Pawn Can Reach",
+      "text": "The third attacker needs a home nobody can take from it. So ask what Black's pawns can still do.\n\nThe pawn on d5 cannot move backward. The pawn on e6 covers d5 and f5. The pawn on c5 covers b4 and d4. Between them they leave a hole in the center, and your pawn on d4 is already guarding it.\n\nOnly the pawn on f7 could ever come and challenge it — and that pawn is the roof over a castled king.\n\n> A piece is safe where a pawn can never go."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "prompt": "Post a knight on the central hole that only Black's f-pawn could ever challenge.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "Only one black piece touches that square, the knight on c6, and the one pawn that could ever join it shelters Black's king."
+    }
+  ]
+}

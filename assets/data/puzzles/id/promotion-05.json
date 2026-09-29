@@ -1,0 +1,12 @@
+{
+  "id": "promotion-05",
+  "fen": "4r1k1/4Pppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8"
+  ],
+  "rating": 1160,
+  "title": "Kejar Penghadangnya",
+  "setup": "Pion Anda di e7 ditahan benteng di e8, satu-satunya buah hitam yang bisa mencegahnya menjadi menteri.",
+  "hint": "Benteng penghadang hanya punya satu tugas. Serang ia dengan sesuatu yang tak sanggup ia tukar dengan dirinya.",
+  "explanation": "## Ide\n\n{{Rd8}} menyerang penghadangnya. {{Rxd8}} langsung kalah karena exd8=Q+, dan langkah benteng lain mana pun membiarkan pion lewat, jadi Hitam harus merelakan benteng untuk pion. Singkirkan buah yang menahan pion bebas dan pion itu menjadi menteri."
+}

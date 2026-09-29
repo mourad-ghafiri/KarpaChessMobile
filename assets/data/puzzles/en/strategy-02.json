@@ -1,0 +1,11 @@
+{
+  "id": "strategy-02",
+  "fen": "rn1q1rk1/4bppp/p2pbn2/4p3/Pp2P3/1NN1B3/1PPQBPPP/R4RK1 w - - 0 12",
+  "solution": [
+    "Nd5"
+  ],
+  "title": "Kicked Into the Hole",
+  "setup": "Black's pawn on b4 has just hit your knight on c3. The knight has to go somewhere, and your pawn on e4 is watching.",
+  "hint": "Every retreat leaves e4 to the knight on f6. Is there a square forward that no black pawn can ever reach?",
+  "explanation": "## The Idea\n\nThe knight was kicked, and it answers by moving in. Black has no c-pawn and the e-pawn has walked to e5, so no black pawn can ever attack d5 again.\n\n{{Nd5}} hits the bishop on e7 and the knight on f6, and keeps e4 safe. Every retreat hands that pawn to the knight on f6.\n\nBlack can remove the knight only by giving a piece for it, and then a white pawn takes the square instead."
+}

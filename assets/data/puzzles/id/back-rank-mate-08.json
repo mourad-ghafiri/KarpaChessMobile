@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-08",
+  "fen": "6k1/5ppp/6n1/8/1B6/8/2r2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Nf8",
+    "Rxf8#"
+  ],
+  "rating": 940,
+  "title": "Paksa Penghalangnya",
+  "setup": "Kuda Hitam di g6 bisa mencapai f8, dan gajah Anda di b4 memandang ke sepanjang diagonal ke arah petak itu.",
+  "hint": "Hitam hanya punya tepat satu cara menjawab sekak di baris kedelapan. Di mana ia menempatkan kudanya?",
+  "explanation": "## Ide\n\n{{Rd8+}} hanya menyisakan satu langkah sah bagi Hitam, {{Nf8}}, menghalangi. Petak itu tidak aman: gajah di b4 menguasainya di sepanjang diagonal, jadi {{Rxf8#}} tak bisa dijawab dengan Kxf8. Penghalang yang dipaksakan hanya bertahan jika petak penghalangnya juga dilindungi."
+}

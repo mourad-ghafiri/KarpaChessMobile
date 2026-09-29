@@ -1,0 +1,17 @@
+{
+  "id": "openings-10",
+  "fen": "r1bqkbnr/pppp1ppp/8/1B2N3/3nP3/8/PPPP1PPP/RNBQK2R b KQk - 0 4",
+  "solution": [
+    "Qg5",
+    "Nxf7",
+    "Qxg2",
+    "Rf1",
+    "Qxe4+",
+    "Be2",
+    "Nf3#"
+  ],
+  "title": "El peón que nunca fue gratis",
+  "setup": "Las Negras respondieron al alfil de la Española con el caballo a d4, y el caballo blanco acaba de comerse un peón. Ataca a ese caballo y a un peón suelto con una sola jugada.",
+  "hint": "El caballo glotón y el peón de g están los dos sin defensa. Encuentra la casilla que mira a ambos.",
+  "explanation": "## La idea\n\nEl alfil de la Española nunca atacó de verdad e5, y las Blancas acaban de comerse el peón de todos modos.\n\n{{Qg5}} ataca al caballo de e5 y al peón de g2 a la vez. Las Blancas deberían cortar las pérdidas ya; si siguen comiendo con {{Nxf7}}, entonces {{Qxg2}}, {{Rf1}} {{Qxe4+}}, {{Be2}} termina en {{Nf3#}}, mate del caballo que salió de d4.\n\nComerse el alfil con {{Nxb5}} es igual de fuerte. La jugada de dama muestra por qué el peón nunca fue gratis."
+}

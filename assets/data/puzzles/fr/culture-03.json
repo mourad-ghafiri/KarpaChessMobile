@@ -1,0 +1,11 @@
+{
+  "id": "culture-03",
+  "fen": "r3k2r/ppp2ppp/3b4/3p4/4n3/1P2Pn1K/PBPPQ1P1/RN3R2 b kq - 1 13",
+  "solution": [
+    "Neg5+"
+  ],
+  "title": "Quel cavalier ?",
+  "setup": "Le roi blanc a été traîné en h3, et vos deux cavaliers peuvent sauter en g5 avec échec. Un seul des deux gagne.",
+  "hint": "Le roi a exactement un refuge. Les deux sauts de cavalier semblent identiques, et un seul garde ce refuge couvert.",
+  "explanation": "## L'idée\n\nLe cavalier en f3 couvre h4, la seule case où le roi blanc pourrait fuir, donc c'est l'autre cavalier qui part.\n\n{{Neg5+}} ne laisse au roi qu'une seule réponse, {{Kg4}}, et {{h5+}} continue de le pousser vers vos pièces jusqu'au mat quelques coups plus tard. Envoyez le mauvais, {{Nfg5+}}, et le roi s'échappe par {{Kh4}}.\n\nQuand deux pièces identiques peuvent atteindre une même case, la feuille de partie nomme la colonne d'où elles viennent. Ici, cette lettre sépare un mat forcé d'une simple bonne position."
+}

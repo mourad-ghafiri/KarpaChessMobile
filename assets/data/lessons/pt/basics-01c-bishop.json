@@ -1,0 +1,56 @@
+{
+  "id": "bishop-moves",
+  "title": "Metade do Tabuleiro",
+  "summary": "As longas estradas inclinadas, e a metade do tabuleiro onde um bispo nunca põe o pé",
+  "proof": "first-steps-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "title": "Quatro Estradas a Sair de d4",
+      "text": "O bispo em d4 tem quatro estradas para sair. Todas elas seguem na diagonal.\n\nSó diagonais — nunca pela coluna acima, nunca ao longo da linha. Numa diagonal desimpedida viaja tão longe quanto lhe apetecer, e sete casas custam exatamente o mesmo que uma.\n\n{{Bh8}} corre até um canto, {{Ba1}} até ao canto oposto. {{Ba7}} e {{Bg1}} param onde o tabuleiro acaba. Duas diagonais cruzam-se em d4, e o bispo percorre qualquer uma delas, nos dois sentidos."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "prompt": "Escolhe uma das quatro diagonais e para o bispo em qualquer ponto dela.",
+      "targetSan": [
+        "Bc5",
+        "Bb6",
+        "Ba7",
+        "Be5",
+        "Bf6",
+        "Bg7",
+        "Bh8",
+        "Bc3",
+        "Bb2",
+        "Ba1",
+        "Be3",
+        "Bf2",
+        "Bg1"
+      ],
+      "hint": "Perto ou longe não faz diferença — uma casa ao longo de uma diagonal é tão legal como sete."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "title": "Uma Cor, a Partida Inteira",
+      "text": "Seja qual for a jogada que acabaste de fazer, aterrou numa casa escura. E o mesmo acontece com todas as outras jogadas de bispo aqui disponíveis.\n\nd4 é escura. Um passo na diagonal atravessa uma coluna e sobe ou desce uma linha ao mesmo tempo, e esse par deixa a cor debaixo dos pés exatamente como a encontrou. A direito a cor troca. Na inclinada nunca troca.\n\nÉ também por isso que um exército recebe dois bispos: um para as casas escuras, outro para as claras.\n\n> Um bispo nasce numa cor e nunca a deixa. Trinta e duas casas são a sua casa; as outras trinta e duas podiam bem não existir."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/1P6/4K3 w - - 0 1",
+      "title": "Nada É Saltado",
+      "text": "Um cavalo salta por cima do trânsito. Um bispo fica preso nele.\n\nNa diagonal da esquerda, o teu próprio peão em b2 está no meio da estrada. O bispo chega até {{Bc3}} e nem mais um passo — a1 está atrás do peão, e atrás é fora de alcance.\n\nUma peça inimiga acabaria a estrada na mesma casa, com uma diferença: o bispo pode capturá-la e ficar onde ela estava. Uma peça tua bloqueia a diagonal para sempre. Uma inimiga bloqueia-a só até a tirares."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/6p1/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "Um peão preto meteu-se numa casa que este bispo alcança — ganha-o.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "Este bispo e esse peão estão os dois em casas escuras, e a linha entre eles está vazia."
+    }
+  ]
+}

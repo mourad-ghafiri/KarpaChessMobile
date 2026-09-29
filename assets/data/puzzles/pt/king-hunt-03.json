@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-03",
+  "fen": "1r3R2/3p1R2/4Q3/1k2B3/b7/8/3p4/5K2 w - - 0 1",
+  "solution": [
+    "Rxb8+",
+    "Kc5",
+    "Qd6+",
+    "Kc4",
+    "Qd4#"
+  ],
+  "rating": 1420,
+  "title": "Come a Torre, Mantém o Xeque",
+  "setup": "O rei preto foi parar a b5, a torre preta está em b8 e um peão passado está a uma casa de fazer dama em d2.",
+  "hint": "Não tens tempo para travar o peão. Encontra a captura que abre também uma linha até ao rei.",
+  "explanation": "## A Ideia\n\n{{Rxb8+}} ganha uma torre com xeque, e a partir daí {{Qd6+}} e {{Qd4#}} empurram o rei tabuleiro abaixo. O peão de d2 nunca chega a mexer, que é a única defesa contra ele que interessa."
+}

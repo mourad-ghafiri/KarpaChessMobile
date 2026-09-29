@@ -1,0 +1,50 @@
+{
+  "id": "attacking-the-fianchetto",
+  "title": "Attacking the Fianchetto",
+  "summary": "Hunt the bishop, not the pawns",
+  "proof": "fianchetto-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Two Squares Nobody Guards",
+      "text": "Black's shelter looks solid: three pawns, a bishop, and a king tucked in behind them. Count what those pawns actually cover.\n\nThe g-pawn went to g6, and the moment it did, f6 and h6 left pawn range for good. Pawns do not walk backward. Both squares are dark, both sit one square from the pawns the king hides behind, and one piece answers for both of them — the bishop on g7."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Whose Pawns Are Free",
+      "text": "White's king on c1 sits at the other end of the board from all of this.\n\nA pawn storm works when your own king is not standing behind the pawns you are spending. White's king is not. Black's is — so Black's pawns stay home and defend, while White's are free to run at something.\n\nThe rook on h1 has waited all game for one of them to open the file in front of it."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "prompt": "Start the storm on the wing where Black's king lives, and set off at full speed.",
+      "targetSan": [
+        "h4"
+      ],
+      "hint": "The pawn on g6 is what holds Black's shelter together — which of your pawns can march up and hit it?"
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "Blocked Is Not Finished",
+      "text": "Black's pawn on h5 stops yours dead, and pawns cannot go around each other. So White brings a second one.\n\n{{g4}} hits h5, {{hxg4}} takes, {{fxg4}} takes back, and White's h-pawn is running again with the rook on h1 behind it. Two moves later the file is open.\n\nThat is the slow road, and it works. It also spends four moves buying a file."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "The Faster Road",
+      "text": "There is a quicker answer, and it does not need the file at all.\n\nTake the bishop on g7 off the board and h6 turns into a landing square. A queen arriving there stares straight at g7, one square from the king, and no black pawn can ever push it away — that was settled the moment the g-pawn went to g6. Black's queen on d8 and rook on c8 are both facing the wrong way to help.\n\n> Against a fianchetto you are not attacking pawns. You are hunting one bishop."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "prompt": "Trade off the single black piece that guards the dark squares next to Black's king.",
+      "targetSan": [
+        "Bh6"
+      ],
+      "hint": "Your bishop on e3 walks the same dark squares as Black's — send it out until the two of them meet."
+    }
+  ]
+}

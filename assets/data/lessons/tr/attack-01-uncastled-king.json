@@ -1,0 +1,62 @@
+{
+  "id": "uncastled-king",
+  "title": "Rok Yapmamış Şaha Saldırı",
+  "summary": "Şah hâlâ e8'de ve saat işliyor",
+  "proof": "uncastled-king-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "e8'den Hiç Ayrılmayan Şah",
+      "text": "Siyahın şahı beşinci hamlede hâlâ e8'de ve bu yavaş gelişim değil. Bu bir hedef.\n\nRok tek hamlede iki iş yapar: şahı hiç oynamamış üç piyonun arkasına çeker ve kalelerin birbirini görmesini sağlar. Onu atlayan şah, tahtanın en işlek dikeyinde, iki kanadın da menzilinde ve çıkışları kendi taşlarınca kapatılmış hâlde durur.\n\nYani bu bir son tarihtir. Siyah güvenliğe birkaç hamle uzaklıkta ve sizin soru sormayan her hamleniz o hamlelerden birini ona hediye eder."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "Kırmanıza İzin Verilen Açmaz",
+      "text": "Siyahın g4'teki fili, f3'teki atınızı d1'deki vezire karşı açmaza alıyor ve açmazdaki atın kıpırdamaması beklenir. Siyahın güvendiği anlaşma budur.\n\nŞimdi tahtanın öteki ucunu sayın. c4'teki filiniz f7'ye çoktan bakıyor ve f7'yi tam olarak tek bir taş koruyor: hiç ayrılmamış şah. Merkeze inen bir at da f7'ye bakardı.\n\nAçmaz, ancak arkasındaki vezir atın yapabileceğinden daha değerli olduğu sürece tutar."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "prompt": "Siyahın şahı e8'de sıkışmış; vezirinize mal olsa bile f7'ye ikinci bir taş doğrultun.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "Açmazdaki atın merkezde ne alabileceğini sorun, sonra oraya indiğinde f7'ye neyin doğrultulmuş olacağını sayın."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "Yem Vezirdi",
+      "text": "Vezir vezirdir, siyah da toplar: {{Bxd1}} gelir ve sizinki bir at karşılığında gider.\n\nŞimdi f7. {{Bxf7+}} şahtır ve siyahın tahtada tam olarak tek bir kurallı cevabı vardır, {{Ke7}}; çünkü o kareyi yalnızca şah koruyordu, başka hiçbir şey korumuyordu. Şah, siyahın bütün ordusu hâlâ evdeyken açık e dikeyine sürüklenir ve {{Nd5#}} işi kapatır.\n\nSiyah bir vezir kazandı ve iki hamle sonra mat oldu."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "Reddetmenin Bedeli",
+      "text": "Diyelim siyah matın kokusunu aldı ve bunun yerine atı aldı: {{dxe5}}. d1'deki vezir hayatta kalır ve açmaz onunla birlikte ölür. g4'teki filin arkasında artık boş karelerden başka bir şey yoktur ve {{Qxg4}} onu toplar.\n\nBeyaz bir at verdi, bir fil ve bir piyon aldı. Kabul edildiğinde mat eden, reddedildiğinde taş kazanan bir feda kumar değildir. Yalnızca oynanacak hamledir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "Kapı Aralığındaki İki Taş",
+      "text": "Başka bir açılış, aynı hastalık. Beyazın e2'deki veziri ile siyahın e8'deki şahı tek bir dikeyde duruyor ve aralarına iki taş sıkışmış: siyahın e4'teki atı ve beyazın e5'teki atı.\n\nBu tıkaçlardan yalnızca biri siyaha ait ve işi gören de o. e4'teki at orada durduğu sürece beyazın atı canının istediği yere gidebilir ve dikeyden arkasından hiçbir şey gelmez.\n\nÜstelik o siyah ata vezir saldırıyor ve siyahın onu koruyan hiçbir şeyi yok."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "At Eve Dönüyor",
+      "text": "{{Nf6}} neredeyse herkesin oynadığı hamledir. At saldırıdan çıkar, şah kanadını korur ve siyah rok yapmaya iki hamle kalır.\n\nAma e4'ü boşaltır. Beyazın veziri ile siyahın şahı arasında duran son şey artık bir beyaz attır ve sizin bir taşınızın orada olması bir hattı kapatmak değildir. Doludur. Hangi kareye giderse gitsin, şah arkasından gelir.\n\n> Bir taşı geliştirmeden önce rakip şaha doğrultulmuş her hatta bakın ve kendi taşınızın birinden çıkarken ne yapabileceğini sorun."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/5n2/4N3/8/8/PPPPQPPP/RNB1KB1R w KQkq - 2 5",
+      "prompt": "Atı e dikeyinden çekin ki şah arkasından gelsin ve siyahın vezirini kazandığı kareye inin.",
+      "targetSan": [
+        "Nc6+"
+      ],
+      "hint": "At nereye giderse gitsin şah gelir; geriye kalan tek soru, atın varır varmaz hangi siyah taşa vurabildiğidir."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "strategy-11",
+  "fen": "r1r3k1/pp1bpp1p/3p1npQ/q3n3/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+  "solution": [
+    "Rxc3",
+    "bxc3",
+    "Qxc3"
+  ],
+  "title": "Une tour pour un cavalier, de bon cœur",
+  "setup": "Les fous de cases noires ont été échangés, la dame blanche s'est égarée en h6, et les deux tours noires sont déjà en place.",
+  "hint": "Une seule pièce blanche tient ensemble b5, d5 et e4, et une seule unité blanche pourrait reprendre si elle disparaissait.",
+  "explanation": "## L'idée\n\nLes Noirs donnent cinq points pour trois parce que les pions les remboursent. {{Rxc3}} élimine le cavalier qui tient ensemble b5, d5 et e4, et {{bxc3}} est la seule reprise légale des Blancs.\n\nComptez maintenant la position, pas le matériel. Le roi blanc se tient derrière des pions brisés, sans plus aucun pion blanc sur la colonne b, et {{Qxc3}} regagne un pion avec la dame à un coup d'un échec en a1.\n\nSacrifiez la qualité quand la reprise ruine les pions et qu'une suite arrive vite."
+}

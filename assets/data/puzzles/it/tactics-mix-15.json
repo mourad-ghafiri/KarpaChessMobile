@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-15",
+  "fen": "8/4k3/8/3K4/8/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "title": "Il Re Davanti al Pedone",
+  "setup": "Il vostro re ha marciato davanti al suo pedone, e il re nero aspetta in e7. La prossima mossa di re decide la partita.",
+  "hint": "Spingere il pedone spreca il lavoro del re. Mettete il vostro re dove il re nero deve cedere.",
+  "explanation": "## L'idea\n\n{{Ke5}} si mette davanti al pedone e si prende l'opposizione: i re si fronteggiano con una casa in mezzo, e il Nero deve muovere. Da qualunque parte vada il re nero, il vostro lo supera, per esempio {{Kd7}} {{Kf6}}, e il pedone segue. Spingete prima il pedone con {{e4}}, o andate da qualunque altra parte, e l'opposizione se la prende il Nero: patta.\n\nIn un finale di re e pedone, il re guida e il pedone segue."
+}

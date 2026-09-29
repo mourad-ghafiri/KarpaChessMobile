@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-18",
+  "fen": "8/4P3/5k2/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "e8=Q"
+  ],
+  "title": "Penobatan",
+  "setup": "Pion Anda telah berbaris sampai ke **e7**, dan raja hitam berdiri tepat di sampingnya.",
+  "hint": "Raja hitam menyerang pion Anda, dan raja Anda sendiri berada jauh. Pakai langkah ini sebelum Hitam memakai langkah berikutnya.",
+  "explanation": "## Ide\n\nPion yang mencapai baris terakhir berpromosi: sebagai bagian dari langkah yang sama, ia berubah menjadi buah apa pun yang Anda pilih.\n\n{{e8=Q}} mengubah pion bernilai satu poin menjadi menteri bernilai sembilan poin, dan raja di f6 tak bisa mencapai e8 untuk mengambilnya. Langkah lain mana pun membiarkan {{Kxe7}} menyingkirkan pion, dan kemenangan hilang. Dengan menteri melawan raja sendirian, sekakmat menyusul.\n\nPion yang tinggal satu langkah dari ujung layak dipromosikan sekarang."
+}

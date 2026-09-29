@@ -1,0 +1,16 @@
+{
+  "id": "fork-12",
+  "fen": "7k/pp4pp/1q6/4N3/8/8/P1P2PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Qxd8",
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 1100,
+  "title": "Arrasta a Dama Para Dentro",
+  "setup": "O rei preto está selado atrás de g7 e h7, e a dama de b6 é a única peça a vigiar d8.",
+  "hint": "O rei preto não pode mexer de todo. Usa isso para decidir para onde a dama vai ter de ir.",
+  "explanation": "## A Ideia\n\nO rei em h8 não tem casa, portanto a {{Rd8+}} só se pode responder com {{Qxd8}} — o que arrasta a dama para d8, onde um xeque de cavalo em f7 a alcança. {{Nf7+}} garfa-a com o rei, {{Kg8}} é forçado, e {{Nxd8}} ganha a dama por uma torre."
+}

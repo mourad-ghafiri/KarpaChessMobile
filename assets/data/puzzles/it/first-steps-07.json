@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-07",
+  "fen": "7k/2p5/3p1b2/8/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxf6"
+  ],
+  "title": "Gratis o Difeso?",
+  "setup": "Il vostro cavallo in e4 può catturare due pezzi neri diversi — ma uno solo dei due è davvero gratis.",
+  "hint": "Prima di afferrare, chiedetevi: chi riprende? Controllate i difensori di d6 e f6.",
+  "explanation": "## L'idea\n\nDue prese vi fanno l'occhiolino:\n\n- {{Nxd6}} si prende un pedone, ma il pedone in c7 **difende d6** e riprende immediatamente. Cambiereste un cavallo da tre punti per un pedone da uno.\n- {{Nxf6}} si prende l'alfiere, e **niente difende f6**. Tre punti netti.\n\nLa domanda giusta non è mai «che cosa posso catturare?» ma «che cosa posso catturare gratis?». Contate i difensori prima di ogni presa."
+}

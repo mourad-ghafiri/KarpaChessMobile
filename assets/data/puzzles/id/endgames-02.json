@@ -1,0 +1,13 @@
+{
+  "id": "endgames-02",
+  "fen": "k7/8/2K5/8/8/8/8/1R6 w - - 0 1",
+  "solution": [
+    "Kc7",
+    "Ka7",
+    "Ra1#"
+  ],
+  "title": "Geser Tembok ke Dalam",
+  "setup": "Benteng sudah melarang lajur b, jadi seluruh dunia raja sendirian hanyalah a8 dan a7. Dua langkah Putih membuang kemenangan.",
+  "hint": "Benteng tak bisa merebut kedua petak raja hitam sendirian — siapa lagi yang cukup dekat, dan petak mana yang menjaga pemotongannya tetap hidup?",
+  "explanation": "## Ide\n\nTemboknya sudah berdiri: selama benteng menguasai lajur b, raja sendirian tak akan pernah bisa melintasinya. Yang kurang adalah buah kedua, karena benteng tak bisa menguasai a7 dan a8 juga.\n\n{{Kc7}} merebut b8, b7 dan b6. Hitam punya satu langkah sah, {{Ka7}}, dan {{Ra1#}} mengayunkan tembok ke lajur raja — sekak dari satu ujung, tanpa petak di ujung yang lain.\n\nDua cara membuangnya: {{Rb7}} menguasai kedua petak dan itu pat, dan {{Rb8+}} sekadar menyerahkan benteng kepada raja."
+}

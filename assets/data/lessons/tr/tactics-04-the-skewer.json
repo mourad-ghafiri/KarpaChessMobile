@@ -1,0 +1,71 @@
+{
+  "id": "the-skewer",
+  "title": "Şiş",
+  "summary": "Açmazın geometrisi, değerler ters çevrilmiş; bedeli arkadaki öder",
+  "proof": "forks-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Değerler Ters",
+      "text": "Aynı dikey, aynı kale, açmazdaki aynı iki siyah taş — ve değerler ters.\n\nAçmaz öndeki taşa saldırır, ama ödül onun arkasındadır: daha değerli taş, çoğu zaman şah. Öndeki taşı hatta açmaza alan da budur.\n\nŞiş ikisinin yerini değiştirir. d3'teki şah önde, d6'daki vezir arkada durur. Dikey boyunca saldırın, şah yana çekilsin ve veziri yanında götüremesin.\n\nÖnce büyük taşa vurun ve onun önünde durduğu şeyi toplayın. Buna **şiş** denir."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Aynı Üç Taş",
+      "text": "Şiş takabilen üç taş vardır ve bunlar açmaza alabilen üç taştır: vezir, kale, fil. Şiş bir hattır ve hat boyunca yalnızca bu üçü saldırır.\n\nŞişe geçirilebilenler ise başka bir listedir. Tek hatta duran herhangi iki rakip taş işe yarar, yeter ki yakın olanı daha değerli olsun — vezirin önünde şah, kalenin önünde vezir, filin önünde kale. Buna tahta karar verir, siz değil. Sizin işiniz hattı bulmak ve üstüne çıkmaktır."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "İki Şah",
+      "text": "Burada iki şah hamleniz var ve yalnızca biri şiştir.\n\n{{Ra3+}} üçüncü yataya iner ve şaha yandan şah çeker. Aynı zamanda vezirin ulaşabildiği bir kareye iner: {{Qxa3}} ve bir kale bedavaya gider.\n\nŞişi çalıştıran şey şah değildir. Hattır. Önemli olan, şahın hangi hat üzerinden geldiğidir — iki siyah taşın da üzerinde durduğu hat."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "prompt": "Siyah şaha, vezirle paylaştığı dikey boyunca saldırın ki oynamak zorunda kalsın.",
+      "targetSan": [
+        "Rd1+"
+      ],
+      "hint": "İki siyah taş da d dikeyinde duruyor ve onlarla birinci yatayınız arasındaki her kare boş."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "Altı Kare, Hepsi Aynı",
+      "text": "Şah, siyaha altı kurallı hamle bıraktı ve hepsi birer şah hamlesiydi: boş bir dikeyde hiçbir şey araya giremezdi ve hiçbir şey kaleye ulaşamazdı. Siyah e3'ü seçti. Diğer beşi de veziri aynı ucuzlukta veriyordu.\n\nKalenin ne kadar az iş yaptığına dikkat edin. O ana kadar vezire bir kez bile saldırmamıştı — şaha saldırdı ve şah kendini yoldan çekti. Hat zaten oradaydı. Kalenin tek yapması gereken üstüne adım atmaktı."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "Şah Şart Değil",
+      "text": "Şişin şaha ihtiyacı yoktur. Bir fili, aynı çaprazda arkasında bir kale olan bir vezire, hiçbir şeyin alamayacağı bir kareden doğrultun; kale yine düşer.\n\nŞahın ortadan kaldırdığı şey seçeneklerdir. O olmadan rakibiniz ikisinin arasındaki hattı kapatabilir, şişi takan taşı alabilir ya da öndeki taşı gözden çıkarıp başka yerde daha büyük bir tehdide başlayabilir. Şaha karşı bunların hiçbiri, aynı zamanda şaha da cevap vermiyorsa kurallı değildir."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "prompt": "Şahın önünde durduğu veziri alın.",
+      "targetSan": [
+        "Rxd6"
+      ],
+      "hint": "d6'yı koruyanları sayın, sonra orayla kaleniz arasındaki boş kareleri sayın."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "title": "Hat Hattır",
+      "text": "Yeni tahta ve aynı şekil kırk beş derece döndürülmüş.\n\nSiyahın d4'teki şahı ile g7'deki kalesi a1'den h8'e uzanan uzun çaprazda duruyor; aralarında yalnızca e5 ile f6 var. Büyük taş yakın olan. Bütün desen bu: tek hatta iki rakip taş, değerlisi önde.\n\nc1'deki filiniz çaprazlarda gider. Önemli olanı bulun.\n\n> Tek hat, iki taş; elinizde hangi taktiğin olduğu yalnızca hangisinin önde durduğuna bağlıdır."
+    },
+    {
+      "type": "play",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "prompt": "Filinizi, iki siyah taşın paylaştığı çapraza şah çekerek çıkarın.",
+      "targetSan": [
+        "Bb2+"
+      ],
+      "hint": "Filinizin yedi karesi var; bunlardan tam olarak biri uzun çapraza iniyor."
+    }
+  ]
+}

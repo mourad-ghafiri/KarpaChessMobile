@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-11",
+  "fen": "6k1/1r3ppp/7r/8/b2B3R/8/PP6/K1Q5 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Be8",
+    "Qxe8#"
+  ],
+  "rating": 1650,
+  "title": "Fate Tornare a Casa l'Alfiere",
+  "setup": "L'alfiere nero in a4 è lontano dal suo re e tutte e due le sue torri sono andate a caccia sulle colonne b e h.",
+  "hint": "Un pezzo nero è lontanissimo dall'ottava traversa. Dategli una ragione per doverci essere.",
+  "explanation": "## L'idea\n\n{{Qc8+}} forza {{Be8}}, trascinando l'alfiere fino in fondo indietro a parare, e {{Qxe8#}} lo prende all'arrivo. Un pezzo che può raggiungere una casa in una mossa non è la stessa cosa di un pezzo che la difende."
+}

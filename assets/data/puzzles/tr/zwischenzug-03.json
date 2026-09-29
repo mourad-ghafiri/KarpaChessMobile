@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-03",
+  "fen": "2r3k1/1R1B1ppp/8/2Qr4/7b/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qxc8+",
+    "Bd8",
+    "Qxd8#"
+  ],
+  "rating": 1380,
+  "title": "İki Kale, İkisi de İşe Yaramıyor",
+  "setup": "Siyahın kaleleri c8 ve d5'te duruyor, h4'teki fili pozisyonunuzu gözlüyor ve kendi taşlarınız dağınık.",
+  "hint": "Bariz taş alma bir kale kazandırır. Bunun yerine siyaha tek bir kurallı cevap bırakan taş almayı arayın.",
+  "explanation": "## Fikir\n\nd5'te almak bir kale kazanır ve parti devam eder. {{Qxc8+}} ötekini kazanır ve partiyi bitirir: {{Bd8}} tek kapatmadır ve {{Qxd8#}} gelir. Daha çok kazandıranı değil, şah çekeni seçin."
+}

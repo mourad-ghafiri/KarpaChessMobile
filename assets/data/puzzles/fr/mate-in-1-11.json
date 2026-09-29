@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-11",
+  "fen": "7k/8/5K2/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "Le baiser de la mort",
+  "setup": "Le roi noir est acculé en h8, votre roi monte la garde en f6, et votre dame a la colonne g.",
+  "hint": "La dame peut se permettre de se poser juste à côté du roi — votre propre roi surveille la case d'arrivée.",
+  "explanation": "## L'idée\n\nC'est le baiser de la dame soutenue : la dame se pose juste à côté du roi adverse, et votre propre roi la rend intouchable.\n\n{{Qg7#}} donne échec. Le roi en f6 protège g7, donc le roi en h8 ne peut pas prendre la dame, et g8 et h7 sont toutes deux couvertes par la dame. Un échec depuis la case voisine ne peut pas être paré par interposition.\n\nUne dame à côté du roi adverse est mat chaque fois que quelque chose la protège et que le roi n'a pas d'autre case."
+}

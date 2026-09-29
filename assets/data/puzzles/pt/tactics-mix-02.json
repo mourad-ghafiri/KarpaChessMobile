@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-02",
+  "fen": "6k1/ppp2p1p/6p1/8/8/2N1P3/PPP2PPb/5K2 w - - 0 1",
+  "solution": [
+    "g3"
+  ],
+  "title": "Fecha a Porta de h2",
+  "setup": "O bispo preto acabou de comer o teu peão h. Encontra a jogada que garante que ele nunca mais sai de lá.",
+  "hint": "Conta os caminhos do bispo para casa. Uma jogada de peão pode fechar os dois, desde que esse peão esteja guardado.",
+  "explanation": "## A Ideia\n\n{{g3}} empareda o bispo. De h2 ele tem duas saídas, e as duas desapareceram: o teu rei de f1 cobre g1, e o peão de g3 é guardado pelo peão de f2.\n\nA seguir vem Kg2, e o bispo perde-se. O máximo que as pretas conseguem por ele é um único peão, comendo em g3."
+}

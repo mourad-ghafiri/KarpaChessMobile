@@ -1,0 +1,11 @@
+{
+  "id": "endgame-04",
+  "fen": "8/8/5k2/8/3K4/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Kd5"
+  ],
+  "title": "La actividad del rey gana",
+  "setup": "Tu peón de e3 está lejos de casa, y el rey negro de f6 vigila las casillas de delante.",
+  "hint": "No avances el peón. Gana una fila con el rey, en una casilla que el rey negro no pueda disputar.",
+  "explanation": "## La idea\n\nEl peón no puede abrir la marcha. Avanzado solo, se topa con el rey negro, que ya cubre las casillas de delante.\n\n{{Kd5}} gana en cambio una fila, en una casilla que las Negras no pueden disputar. Tras {{Ke7}}, {{Ke5}} se planta justo delante del rey negro, y tu rey sigue caminando por delante de su peón. Cualquier otra jugada, incluido el avance del peón, deja que el rey negro haga tablas.\n\nGana primero las casillas, y la marcha del peón será segura."
+}

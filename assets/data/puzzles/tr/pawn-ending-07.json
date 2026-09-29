@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-07",
+  "fen": "8/8/8/2P5/5p2/3K3k/8/8 w - - 0 2",
+  "solution": [
+    "c6"
+  ],
+  "rating": 1315,
+  "title": "İki Piyon da Koşuyor",
+  "setup": "Siyah az önce piyonunu dördüncüye sürdü ve beyazın şahı ayartılacak kadar yakında.",
+  "hint": "Kendi piyonunu durdurmak için geri dönmek bir hamleye mal olur; karar vermeden önce iki koşuyu da sekizinci yataya kadar sayın.",
+  "explanation": "## Fikir\n\nf piyonunu kovalamak yalnızca beraberlik verir. {{c6}} yarışı kazanır: {{Kg3}} geldikten sonra piyon c7'ye koşar ve c8'de vezir olur; siyahın piyonu ise ancak f3'e ulaşmıştır ve yeni veziriniz ile şahınız koşucuyu durdurur.\n\nSaf bir yarışta, kovalamak için geri dönmeden önce iki piyonun da son yataya kaç hamlesi kaldığını sayın."
+}

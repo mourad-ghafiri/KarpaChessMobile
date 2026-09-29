@@ -1,0 +1,65 @@
+{
+  "id": "prophylaxis",
+  "title": "Profilaksis",
+  "summary": "Matikan rencananya sebelum dimainkan",
+  "proof": "strategy-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "Jalan Menuju g1",
+      "text": "Raja Putih di g1 duduk di ujung jalan yang belum ditempati siapa pun.\n\nTelusuri: a7, b6, c5, d4, e3, f2, g1. Pion f sudah pergi ke f4, jadi f2 kosong dan e3 ikut kosong. Satu-satunya buah di seluruh diagonal itu adalah kuda Anda sendiri di d4.\n\nMenteri Hitam belum bergerak. Ketika bergerak, b6 adalah petak yang diinginkannya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "Pertanyaan yang Harus Anda Jawab",
+      "text": "Perbaiki sebuah buah dengan cara yang wajar: {{Bf3}} membidik pusat.\n\n{{Qb6}}, dan kuda di d4 terjepit terhadap raja Anda — bukan longgar, melainkan mutlak. Ia sama sekali tak punya langkah sah. Perbaikannya adalah {{Be3}}, satu langkah penuh terpakai agar kuda bisa bernapas lagi, dan gajah di c1 itulah yang tadinya menjaga b2.\n\n**Profilaksis** adalah cara lain memakai langkah itu: hitung langkah bagus lawan Anda berikutnya dan hapus langkah itu sebelum sempat dimainkan."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "prompt": "Singkirkan sasaran dari ujung jauh diagonal itu sebelum menteri Hitam sempat memandang ke sepanjangnya.",
+      "targetSan": [
+        "Kh1"
+      ],
+      "hint": "Masalahnya adalah petak tempat raja Anda berdiri, bukan buah hitam mana pun."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K b - - 2 9",
+      "title": "Rencana di Baliknya",
+      "text": "b6 kini hanya petak biasa. Diagonalnya masih membentang, dan tak ada apa pun di ujungnya.\n\nJadi Hitam beralih ke rencana di baliknya: {{Qc7}} lebih dulu, lalu pion b ke b5 dan terus ke b4, mengusir kuda dari c3, buah yang melindungi e4.\n\nRencana itu lambat, dan itulah satu-satunya hal di posisi ini yang bisa mengalahkan Anda. Lambat justru adalah sasaran profilaksis. Anda bisa melihatnya datang dari empat langkah jauhnya."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K w - - 3 10",
+      "prompt": "Seluruh rencana sayap menteri Hitam dimulai dengan satu pion yang mencapai b5, jadi buat petak itu merugikan materi.",
+      "targetSan": [
+        "a4"
+      ],
+      "hint": "Hanya satu pion Anda yang bisa menjangkau dan menyerang b5 sebelum Hitam sempat tiba di sana."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "Tak Ada yang Gratis",
+      "text": "Pion di a4 tidak gratis. Ia telah melangkah melewati b4 untuk selamanya, dan kuda hitam yang menetap di sana sulit digeser.\n\nItulah pertukaran yang selalu ditawarkan profilaksis: Anda membeli penghapusan sebuah rencana dengan konsesi kecil yang permanen. Terima kesepakatan itu ketika rencananya lebih berharga daripada petaknya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "Ide Terakhir dalam Posisi Ini",
+      "text": "Sayap menteri tertutup dan jalan menuju raja Anda sudah hilang. Yang tersisa adalah sumber daya tertua pihak yang sempit: pertukaran.\n\n{{Nc6}} mengembangkan buah dan menawarkan satu pertukaran. Jawab dengan sesuatu yang wajar seperti {{Be3}}, dan {{Nxd4}} terjadi; posisi Hitam bernapas untuk pertama kalinya dalam sepuluh langkah.\n\nHitam tidak kalah. Hitam kehabisan ide, dan pemain yang kehabisan ide mulai hanyut.\n\n> Sebelum Anda bertanya apa yang Anda inginkan, tanyakan apa yang diinginkan lawan Anda — lalu rampaslah."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/1pq1bppp/p1nppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K w - - 1 11",
+      "prompt": "Pihak yang sempit hidup dari pertukaran, jadi rampas satu-satunya pertukaran yang masih dimiliki Hitam.",
+      "targetSan": [
+        "Nb3"
+      ],
+      "hint": "Hitam ingin sepasang kuda keluar dari papan — di mana lagi kuda itu bisa berdiri sambil tetap mengawasi a5 dan c5?"
+    }
+  ]
+}

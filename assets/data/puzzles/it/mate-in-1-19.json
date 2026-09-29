@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-19",
+  "fen": "Q7/5Bpk/7p/8/8/8/8/7K w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "L'Alfiere Sostiene la Donna",
+  "setup": "Il re nero è in h7, chiuso dai propri pedoni in g7 e h6, e il vostro alfiere in f7 gli sta vicino.",
+  "hint": "Il vostro alfiere trasforma una casa accanto al re in terreno amico — la donna si può permettere di starci.",
+  "explanation": "## L'idea\n\nL'alfiere in f7 trasforma g8 in una casa difesa, quindi la donna può atterrarci accanto al re.\n\n{{Qg8#}} dà scacco dalla casa accanto. L'alfiere difende g8, quindi il re non può prendere la donna. h8 è coperta dalla donna, g6 dall'alfiere, e g7 e h6 hanno i pedoni del Nero.\n\nQuando la vostra donna e il vostro alfiere arrivano tutti e due nel vicinato del re, cercate una casa difesa proprio accanto a lui."
+}

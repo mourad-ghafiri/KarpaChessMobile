@@ -1,0 +1,13 @@
+{
+  "id": "openings-08",
+  "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Nxe5",
+    "fxe5",
+    "Qh5+"
+  ],
+  "title": "El defensor equivocado",
+  "setup": "Las Negras han defendido el peón de e5 con el peón de f en lugar de con una pieza. Castígalo ofreciendo material que abra la diagonal hacia el rey negro.",
+  "hint": "Pregúntate qué camino se abre si ese nuevo defensor se ve obligado a comer, y qué pieza blanca espera al final.",
+  "explanation": "## La idea\n\nDefender e5 con el peón de f sostiene el peón, pero abre la diagonal de h5 al rey negro.\n\n{{Nxe5}} ofrece una pieza para aprovecharla. Si {{fxe5}}, entonces {{Qh5+}}: tapar en g6 pierde la torre de h8 tras {{Qxe5+}} y la siguiente captura de la dama, y apartarse a e7 deja que la dama cace al rey al descubierto. Rehusar con {{Qe7}} recupera el peón, pero deja el rey y el desarrollo negros claramente peor.\n\nDefiende primero con piezas. Un peón que ya se ha movido no puede volver atrás."
+}

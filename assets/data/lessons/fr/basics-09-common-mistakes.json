@@ -1,0 +1,71 @@
+{
+  "id": "common-mistakes",
+  "title": "Comment on offre une partie",
+  "summary": "Une dame sortie trop tôt, un pion qui n'était pas gratuit, et le coup que vous n'avez jamais regardé",
+  "proof": "common-mistakes-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Offerte",
+      "text": "Comptez les façons dont une bonne partie se rend, et la liste est courte : une dame sortie trop tôt, un pion qui semblait gratuit, un coup de l'adversaire que personne n'a lu, et un roi laissé au milieu.\n\nQuatre habitudes, et chacune est attrapée par les trois questions que vous avez déjà. Voici ce que fait l'échiquier quand personne ne les pose."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "La dame sort",
+      "text": "{{e4}} {{e5}} {{Qh5}}. La dame est sortie dès le deuxième coup, les yeux sur f7 — la seule case du camp noir que seul le roi protège.\n\n{{Nc6}} sort un cavalier et laisse f7 tranquille ; un seul attaquant sur une case que le roi défend, ce n'est pas une menace. {{Bc4}} en fait deux, et maintenant c'est mat au coup suivant. Les Noirs ont plus d'une façon de l'empêcher ; {{g6}} est celle qui chasse aussi la dame de cette diagonale.\n\n{{Qf3}} vise f7 par la colonne et le mat revient. {{Nf6}} le bloque — un coup que les Noirs étaient contents de jouer de toute façon."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq - 2 5",
+      "title": "L'addition",
+      "text": "Comptez les coups. Chaque camp en a joué quatre. Ceux des Noirs sont allés à un pion central, aux deux cavaliers et à un pion en g6 qui valait la peine d'être joué de toute façon.\n\nCeux des Blancs sont allés à un pion central, un fou, et deux coups de dame pour atteindre une case accessible en un seul — où elle bloque maintenant le cavalier en g1.\n\nJouer deux fois la même pièce n'est pas un crime. Vous le ferez pour la sauver, pour prendre quelque chose, pour reprendre. La jouer deux fois pour rien, voilà le coût, et une dame sortie avant tout le reste l'appelle : chaque pièce des Noirs vaut assez peu pour la chasser."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+      "title": "Un pion qui n'est pas gratuit",
+      "text": "Les Blancs ont échangé un fou contre un cavalier au coup précédent, et les Noirs ont repris en c6 avec le pion d. Deux pions noirs sur la colonne c maintenant — et la dame noire en d8 qui regarde cinq cases vides.\n\nLe pion en e5 n'a aucun défenseur. Aucun : comptez-les. {{Nxe5}} le gagne, et rien ne reprend le cavalier.\n\nC'est le piège, et il est discret. Les Blancs ne sont pas perdus ici. Le pion revient simplement, et les coups que les Blancs ont dépensés pour le prendre, eux, ne reviennent pas."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4N3/4P3/8/PPPP1PPP/RNBQK2R b KQkq - 0 5",
+      "prompt": "Obligez les Blancs à rendre le pion aussitôt : trouvez la seule case qui frappe à la fois le cavalier gourmand et le pion e4.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "Votre dame n'a jamais bougé, et la colonne devant elle est vide presque jusqu'aux pions blancs."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Son coup avait une raison",
+      "text": "Chaque coup de votre adversaire a une raison, et cette raison est rarement annoncée.\n\n{{Ng5}}. On dirait une pièce qui s'égare. C'est un second attaquant sur f7, la case que seul le roi noir protège, et le cavalier en f6 se tient entre la dame en d8 et g5, donc rien ne peut le prendre.\n\nJouez quelque chose de raisonnable — {{d6}}, par exemple — et {{Nxf7}} arrive, frappant à la fois la dame en d8 et la tour en h8. Le roi ne peut pas reprendre : le fou en c4 protège f7."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 5 4",
+      "prompt": "Répondez à la menace avant qu'elle tombe : coupez le fou de c4 de la case f7.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "Le fou atteint f7 à travers deux cases vides. L'un de vos pions peut avancer sur la plus proche."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "title": "Le coup ennuyeux",
+      "text": "Une autre partie, à un moment semblable : le fou noir est allé en c5, pointé sur f2, et c'est aux Blancs de jouer. Un coup ne fait ici rien de spectaculaire et prévient presque tout cela : le roque.\n\nLe roi quitte le centre, la tour en h1 se rapproche du centre, et f2, le miroir de f7, reçoit enfin un second gardien.\n\n« Roquer avant le dixième coup » est une habitude, pas une règle — un roi peut rester au centre tant que le centre reste fermé. Mais c'est la sécurité la moins chère que vous achèterez jamais, et les débutants l'achètent en dernier.\n\n> Vous connaissez désormais toutes les règles des échecs. Ce qui reste, c'est de remarquer."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "prompt": "Jouez le coup le plus sûr de l'échiquier : sortez le roi du centre et faites entrer la tour dans le jeu.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Votre roi se tient à découvert alors qu'un coup qui règle tout le problème attend encore d'être joué."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-06",
+  "fen": "1b4k1/1pp5/1Q6/3P4/8/B7/6PP/4K3 w - - 0 1",
+  "solution": [
+    "Qg6+",
+    "Kh8",
+    "Bb2#"
+  ],
+  "rating": 1150,
+  "title": "Uzun Çaprazda Bitiş",
+  "setup": "Siyahın şahı g8'de oturuyor ve a1'den onun yanındaki köşeye kadar bomboş bir uzun çapraz uzanıyor.",
+  "hint": "Önce şahı, tek bir çaprazın her şeyi belirlediği kareye itin. Hangi çapraz?",
+  "explanation": "## Fikir\n\n{{Qg6+}} şahı köşeye sürer ve {{Kh8}} mecburidir. a1–h8 çaprazı tamamen boştur, yani {{Bb2#}} şah çekerek varır; vezir de g7, g8 ve h7'yi kapsar. b8'deki fili kendi piyonu içeri kapatmıştır."
+}

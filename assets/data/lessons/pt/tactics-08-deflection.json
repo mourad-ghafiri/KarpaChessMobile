@@ -1,0 +1,71 @@
+{
+  "id": "deflection",
+  "title": "O Desvio",
+  "summary": "Há guardas que não se podem capturar. Podem sempre ser mandados embora.",
+  "proof": "deflection-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "A Casa Que Acaba com Isto",
+      "text": "e8 acaba com esta partida. Tudo o que for das brancas e aterre ali dá xeque ao rei de g8, e esse rei tem os seus três peões plantados onde deviam estar as casas de fuga.\n\nAs brancas têm duas peças na coluna e, a dama à frente e a torre atrás. A torre não chega a e8 — está-lhe no caminho a sua própria dama. A dama chega.\n\nE a dama também lá pode ser capturada. A torre em d8 cobre e8 ao longo da oitava linha, e nenhuma outra peça preta o faz."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Como Se Mexe uma Peça Inimiga",
+      "text": "Já tens duas maneiras de parar um guarda: capturá-lo ou enxotá-lo da sua casa. Nenhuma delas está disponível. Nada do que as brancas têm ataca d8, e os peões brancos continuam todos na segunda linha.\n\nPortanto a torre tem de se mexer sozinha. Não podes mandar uma peça inimiga para lado nenhum. Só podes fazer com que outra casa lhe valha mais do que aquela em que está — e a versão mais forte disso é uma casa sobre a qual ela não tem escolha legal nenhuma."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Faz a torre de d8 sair de d8 com uma jogada que não tenha maneira legal de recusar.",
+      "targetSan": [
+        "Qe8+"
+      ],
+      "hint": "Só uma peça branca chega sequer a e8, e só uma peça preta lhe pode responder."
+    },
+    {
+      "type": "teach",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "title": "Aqui Não Se Escolheu Nada",
+      "text": "As pretas não estavam a escolher entre opções. Havia uma jogada legal em todo o tabuleiro, e foi esta a posição que ela produziu.\n\nA torre está em e8 e não está em d8. A ideia é essa, e tem nome: um **desvio** obriga um defensor a estar noutro sítio no momento em que o seu trabalho é preciso. Se sobrevive à viagem é outra conversa.\n\nA oitava linha tem agora duas unidades pretas, essa torre e o rei em g8. O rei cobre f8 e h8. Nada cobre e8."
+    },
+    {
+      "type": "play",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "prompt": "Agora nada guarda a oitava linha: come a torre que lá está e acaba a partida.",
+      "targetSan": [
+        "Rxe8#"
+      ],
+      "hint": "Neste tabuleiro existe exatamente uma captura possível, e o rei não tem atrás dele senão os seus próprios peões."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5pp1/7p/8/4Q3/8/5PPP/4R1K1 w - - 0 1",
+      "title": "Muda Um Peão",
+      "text": "Ali as brancas entregaram uma dama por uma torre sem terem de contar nada, porque a jogada seguinte era mate.\n\nAqui o peão h está em h6 e o rei tem uma casa. {{Qe8+}} {{Rxe8}} {{Rxe8+}} {{Kh7}}: a torre capturou, a oitava linha abriu-se, e o rei simplesmente saiu do canto.\n\nAs brancas pagaram uma dama por uma torre, e o mate por que a pagaram não existe.\n\n> Um desvio vale o que valer a jogada que torna possível."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "Uma Troca Que Não Compra Nada",
+      "text": "Outro tabuleiro, e nele nenhum mate em lado nenhum.\n\nO teu bispo em b2 olha pela diagonal longa para o cavalo de e5. {{Bxe5}} ganha um cavalo por cerca de meio segundo — o bispo preto de c7 recaptura, três por três, e gastaste um bispo para não mudar nada.\n\nPortanto olha outra vez para e5. Um atacante branco, um defensor preto, e o defensor é esse bispo de c7, que nada das brancas ataca e que nenhum peão branco alguma vez irá enxotar."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "Noutro Sítio, por Uma Jogada",
+      "text": "O bispo de c7 tem de estar noutro sítio. Não desaparecido — noutro sítio, e só durante a única jogada de que precisas.\n\nAtacá-lo não faz isso. Passa para d6 e vigia e5 a partir dali.\n\nPortanto para de olhar para o bispo e olha para a oitava linha. A torre preta está em d8, a tua torre de d1 fita-a pela coluna acima, e o rei em g8 tem três peões e nenhum ar."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "prompt": "Obriga o bispo de c7 a deixar de vigiar e5, com uma jogada a que as pretas só têm uma resposta.",
+      "targetSan": [
+        "Rxd8+"
+      ],
+      "hint": "Pergunta o que poderia recapturar em d8, e repara onde está essa peça neste momento."
+    }
+  ]
+}

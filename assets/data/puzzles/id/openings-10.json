@@ -1,0 +1,17 @@
+{
+  "id": "openings-10",
+  "fen": "r1bqkbnr/pppp1ppp/8/1B2N3/3nP3/8/PPPP1PPP/RNBQK2R b KQk - 0 4",
+  "solution": [
+    "Qg5",
+    "Nxf7",
+    "Qxg2",
+    "Rf1",
+    "Qxe4+",
+    "Be2",
+    "Nf3#"
+  ],
+  "title": "Pion yang Tak Pernah Gratis",
+  "setup": "Hitam menjawab gajah Spanyol dengan kuda ke d4, dan kuda Putih baru saja merebut sebuah pion. Serang kuda itu dan sebuah pion yang tak terlindungi dengan satu langkah.",
+  "hint": "Kuda yang serakah dan pion g sama-sama tak dijaga. Temukan satu petak yang memandang keduanya.",
+  "explanation": "## Ide\n\nGajah Spanyol tak pernah benar-benar menyerang e5, dan Putih tetap saja baru merebut pionnya.\n\n{{Qg5}} menyerang kuda di e5 dan pion g2 sekaligus. Putih sebaiknya memangkas kerugian sekarang; terus merebut dengan {{Nxf7}}, dan {{Qxg2}}, {{Rf1}} {{Qxe4+}}, {{Be2}} berakhir dengan {{Nf3#}}, mat oleh kuda yang berangkat dari d4.\n\nMengambil gajah dengan {{Nxb5}} sama kuatnya. Langkah menteri itu menunjukkan mengapa pion tadi tak pernah gratis."
+}

@@ -1,0 +1,76 @@
+{
+  "id": "queen-moves",
+  "title": "Every Road at Once",
+  "summary": "The rook's lines and the bishop's slants in one piece — and why every pawn is glad to see it",
+  "proof": "first-steps-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Nothing New to Learn",
+      "text": "There is no new move here. You already know both halves of it.\n\nThe queen on d4 runs in straight lines like a rook — {{Qd8}} up the file, {{Qa4}} along the rank — and on the slant like a bishop, {{Qh8}} into the far corner and {{Qg1}} down to the bottom edge.\n\nFour roads, shown together. There are eight: one for every direction a rank, a file or a diagonal can leave a square."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Twenty-Seven Squares",
+      "text": "Count what the queen touches from d4: fourteen squares as a rook, thirteen more as a bishop, twenty-seven in all. A knight standing there reaches eight.\n\nBut twenty-seven is an empty board's number. The queen inherits both parents' roads and both parents' limits, and neither parent jumps. The first piece standing in a road ends it, and everything behind that piece is out of reach until the road clears."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "Send the queen down any of the eight roads out of d4, as near or as far as you like.",
+      "targetSan": [
+        "Qc5",
+        "Qb6",
+        "Qa7",
+        "Qe5",
+        "Qf6",
+        "Qg7",
+        "Qh8",
+        "Qc3",
+        "Qb2",
+        "Qa1",
+        "Qe3",
+        "Qf2",
+        "Qg1",
+        "Qd5",
+        "Qd6",
+        "Qd7",
+        "Qd8",
+        "Qd3",
+        "Qd2",
+        "Qd1",
+        "Qc4",
+        "Qb4",
+        "Qa4",
+        "Qe4",
+        "Qf4",
+        "Qg4",
+        "Qh4"
+      ],
+      "hint": "Anything a rook could do from this square is a queen move, and so is anything a bishop could do."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Everything Wants to Chase It",
+      "text": "Strength has a price, and for the queen the price is attention.\n\nEvery other piece on the board is smaller, which makes every other piece glad to attack the queen. A pawn that arrives is offering a trade the queen cannot take: the biggest piece White owns for the smallest piece Black owns. So the queen leaves.\n\nSend it out early and that is the whole game — the queen moves, and moves again, while Black quietly puts pieces where they are wanted.\n\n> Nothing on the board is happier than a pawn that has found the enemy queen."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Count What Is Looking Back",
+      "text": "Which leaves the queen one kind of capture worth making: the kind nothing answers.\n\nBefore taking anything with it, ask what is watching that square. If a pawn guards it, the pawn takes the queen back the moment it lands, and you have handed over the best piece you own for the cheapest one Black had.\n\nIf nothing is watching — no guard, nothing behind it, no reply at all — the queen takes and pays nothing."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "prompt": "Black's last pawn stands with no guard behind it — take it and pay nothing.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "The queen and that pawn already share a file, and the road between them is empty."
+    }
+  ]
+}

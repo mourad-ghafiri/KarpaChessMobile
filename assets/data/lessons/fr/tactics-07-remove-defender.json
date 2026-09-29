@@ -1,0 +1,56 @@
+{
+  "id": "remove-the-defender",
+  "title": "Éliminer le défenseur",
+  "summary": "Une pièce protégée n'est pas plus sûre que sa protection",
+  "proof": "remove-defender-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Un attaquant, un gardien",
+      "text": "Le fou noir est venu en d4 et s'y est arrêté, loin dans la moitié blanche, et il n'est pas en prise. La dame en d1 a une colonne dégagée jusqu'à lui — voilà un attaquant. Le cavalier en c6 couvre d4 — voilà un gardien, et ce gardien est la seule raison pour laquelle le fou peut se tenir là.\n\nCompter les prises vous a appris à additionner les deux camps avant de prendre. Voici quoi faire quand le compte ne tourne pas en votre faveur.\n\nCessez de vous disputer avec la case. Disputez-vous avec le gardien."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Deux façons d'arrêter un gardien",
+      "text": "Un gardien cesse de protéger quand il quitte l'échiquier, et il cesse de protéger quand on le chasse de sa case. La première façon est celle que l'on peut calculer jusqu'au bout, car après une prise il ne reste plus rien qui puisse mal tourner.\n\nLa cible n'est donc pas le fou au centre. La cible, c'est la pièce qui répond de lui, et cette pièce se tient sur une case que les Blancs peuvent déjà atteindre.\n\n> Trouvez le coup que vous voulez jouer. Puis trouvez la seule pièce qui dit non."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "prompt": "Changez le compte sur d4 en prenant la seule pièce noire qui en répond.",
+      "targetSan": [
+        "Bxc6+"
+      ],
+      "hint": "Comptez les défenseurs de d4. Il y en a exactement un, et une pièce blanche le vise déjà directement."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Personne n'avait de coup en trop",
+      "text": "La prise est arrivée avec échec, et c'est ce qui l'a fait fonctionner. Sans l'échec, les Noirs auraient consacré le coup à retirer le fou de d4. Au lieu de cela, tout le coup a servi à sortir de l'échec.\n\nIci, la dame a repris ; le pion b aurait pu reprendre à sa place. Dans les deux cas, l'échange est égal — un fou contre un cavalier, trois contre trois, rien de gagné, rien de perdu.\n\nCe qu'aucune reprise n'avait, c'est un instant à consacrer à d4."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Recomptez la case",
+      "text": "Le fou est toujours en d4 et la dame en d1 le regarde toujours droit dans les yeux. Ce qui a changé, c'est l'autre côté de l'addition.\n\nLa dame en c6 n'atteint pas d4. Aucun pion ne la touche. Aucune des deux tours n'est sur la colonne d, et le roi en e8 en est loin.\n\nAttaqué une fois, protégé par personne. C'est le compte que vous attendiez."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Un coup, pas une position",
+      "text": "Prendre un gardien achète exactement un coup. Pas un avantage, pas un plan — un coup.\n\nLaissez plutôt un coup aux Noirs et le fou quitte d4 pour un endroit tranquille, ou une tour se pose en d8 et le couvre par-derrière. Rien ne retient cette pièce sur place, sinon le fait de savoir à qui c'est le tour.\n\nIl y a un prix, et il est faible. Dès que la dame blanche quitte d1, plus rien ne couvre c2, et la dame noire a la voie libre sur la colonne c pour manger ce pion. Un pion contre un fou, cela ne se négocie pas."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "prompt": "Ramassez la pièce en d4 avant que les Noirs reçoivent un coup pour la mettre à l'abri.",
+      "targetSan": [
+        "Qxd4"
+      ],
+      "hint": "Rien dans le camp noir ne répond de d4 en ce moment, et cela reste vrai pendant exactement un coup."
+    }
+  ]
+}

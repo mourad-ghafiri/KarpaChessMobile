@@ -1,0 +1,14 @@
+{
+  "id": "defence-08",
+  "fen": "4K3/5rQ1/3q4/r6k/8/8/B7/3R4 w - - 0 1",
+  "solution": [
+    "Rh1+",
+    "Qh2",
+    "Rxh2#"
+  ],
+  "rating": 1730,
+  "title": "A Dama Tem de Voltar",
+  "setup": "A dama preta em d6 e as torres em a5 e f7 cercam o teu rei em e8, enquanto o rei preto está em h5.",
+  "hint": "As peças pretas estão todas do lado errado. Dá xeque na coluna onde o rei preto está e vê quem o pode ajudar.",
+  "explanation": "## A Ideia\n\n{{Rh1+}} obriga a dama a tapar com {{Qh2}}, abandonando tudo, e {{Rxh2#}} acaba. Peças que atacam o teu rei são peças que não estão a defender o seu."
+}

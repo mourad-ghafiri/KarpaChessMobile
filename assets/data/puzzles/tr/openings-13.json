@@ -1,0 +1,15 @@
+{
+  "id": "openings-13",
+  "fen": "r1bq1rk1/p3nppp/1pnbp3/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 0 9",
+  "solution": [
+    "e5",
+    "Bxe5",
+    "Nxe5",
+    "Nxe5",
+    "Rxe5"
+  ],
+  "title": "Kıstırmadan Önce Sayın",
+  "setup": "Şah Hint Saldırısı kurulumu tamamlandı ve siyah az önce d6'daki filiyle birlikte bir piyonu b6'ya sürdü. Bu kurulumun uğruna kurulduğu merkez sürüşünü oynayın.",
+  "hint": "Tek bir sürüş hem alan kapıyor hem de bir piyon ikram ediyor. Kendinizi bağlamadan önce o karedeki saldıranları ve koruyucuları sayın.",
+  "explanation": "## Fikir\n\n{{e5}}, her Şah Hint Saldırısı'nın etrafına kurulduğu sürüştür ve file tempo kazanarak alan alır.\n\nAynı zamanda bir piyon ikram eder ve almak hatadır. e5'e d6'daki fil ile c6'daki at saldırıyor, f3'teki at ile e1'deki kale koruyor. {{Bxe5}} {{Nxe5}} {{Nxe5}} {{Rxe5}} geldikten sonra beyaz bir piyona karşılık bir fil önde olur. Siyahın en iyisi fili geri çekip alanı devretmektir.\n\nYalnızca kaç saldıran olduğunu değil, her birinin ne ettiğini sayın."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-17",
+  "fen": "4k3/pp6/8/8/7q/8/PP6/4K2R w - - 0 1",
+  "solution": [
+    "Rxh4"
+  ],
+  "title": "Punite la Donna",
+  "setup": "La donna nera è appena piombata con scacco, dritta nel campo visivo della vostra torre.",
+  "hint": "Sì, il re può spostarsi di lato. Ma guardate lungo la colonna h prima di toccarlo.",
+  "explanation": "## L'idea\n\nLa donna in h4 dà scacco al vostro re lungo la diagonale fino a e1, e togliersi di lato sembra naturale. Ma la donna è atterrata sulla colonna h aperta, dove la vostra torre in h1 aspetta.\n\n{{Rxh4}} cattura senz'altro chi dà scacco: lo scacco è finito e nove punti sono vinti. Una mossa di re come {{Kd2}} fa il contrario, perché {{Qxh1}} vi prende invece la torre.\n\nUn pezzo che dà scacco deve stare da qualche parte, quindi chiedetevi che cosa attaccate su quella casa."
+}

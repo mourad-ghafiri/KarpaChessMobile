@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-12",
+  "fen": "k6r/8/8/5p2/5p1K/8/P7/8 w - - 0 1",
+  "solution": [
+    "Kg5"
+  ],
+  "title": "Passo di Lato",
+  "setup": "La torre nera dà scacco al vostro re lungo la **colonna h** aperta, mentre due pedoni neri sorvegliano le case di fuga.",
+  "hint": "Ricordate: i pedoni neri attaccano in diagonale *verso il basso*. Quali case coprono davvero f4 e f5?",
+  "explanation": "## L'idea\n\nLa torre in h8 possiede tutta la colonna h, quindi h3 e h5 sono escluse. I due pedoni sembrano sigillare anche la colonna g, ma guardate che cosa attaccano davvero: il pedone in f4 copre g3, il pedone in f5 copre g4, e g5 non la copre niente.\n\n{{Kg5}} mette il re al riparo accanto ai pedoni neri, al sicuro perché un pedone non cattura mai all'indietro.\n\nUn pedone attacca esattamente due case, tutte e due davanti a sé."
+}

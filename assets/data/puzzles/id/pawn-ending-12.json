@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-12",
+  "fen": "7K/8/k1P5/7p/8/8/8/8 w - - 1 2",
+  "solution": [
+    "Kg7"
+  ],
+  "rating": 1500,
+  "title": "Dua Tugas Sekaligus",
+  "setup": "Raja Hitam baru saja datang ke a6, dan pion h tampak tinggal empat langkah bebas lagi untuk menjadi menteri.",
+  "hint": "Jangan memilih antara mengejar pionnya dan mendorong pion Anda sendiri — carilah rute yang mengerjakan keduanya.",
+  "explanation": "## Ide\n\nMengejar lurus di lajur h sia-sia, jadi raja berjalan di diagonal, menuju kedua pion sekaligus. Jika Hitam berlari dengan {{h4}}, {{Kf6}} lalu Ke6 membawa raja ke samping d7, dan pion c Anda menjadi menteri tepat ketika pion Hitam juga. Jika Hitam mengincar pion c dengan {{Kb6}}, perjalanan yang sama telah mendapat waktu untuk menangkap pion h. Bagaimanapun hasilnya remis.\n\nInilah studi Réti: raja di diagonal bisa mengejar dua hal sekaligus."
+}

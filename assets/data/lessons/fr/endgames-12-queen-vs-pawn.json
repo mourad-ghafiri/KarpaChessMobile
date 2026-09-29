@@ -1,0 +1,50 @@
+{
+  "id": "queen-vs-pawn",
+  "title": "Dame contre pion en septième",
+  "summary": "Pas une course — une façon d'acheter des coups",
+  "proof": "endgames-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "La course est déjà perdue",
+      "text": "Le pion noir en d2 est à un coup d'une dame, et le roi blanc en h6 est bien trop loin pour l'arrêter.\n\nLe poursuivre n'aide pas non plus. La dame en a8 ne peut pas prendre le pion tant que le roi noir en c2 se tient à côté, et une dame seule ne peut pas forcer le mat. Il faut pour cela le roi blanc, et le roi blanc a besoin de temps.\n\nC'est donc pour cela que joue la dame ici. Pas pour le pion. Pour le temps."
+    },
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "Les échecs sont une monnaie",
+      "text": "Un échec exige une réponse. Pendant que les Noirs répondent, ils ne poussent pas, et le coup que perdent les Noirs est le coup que le roi blanc consacre à marcher.\n\nLes échecs ont donc une destination, et ce n'est pas le pion. Chassez le roi noir en d1, la case que son propre pion cherche à atteindre. Un roi garé là est un barrage que le pion ne peut ni contourner ni prier de s'écarter.\n\nRegardez alors ce qu'il reste aux Noirs : aucun échec à parer, aucun coup de pion, et un roi qui n'a presque nulle part où se tenir. C'est le moment où le roi blanc avance gratuitement."
+    },
+    {
+      "type": "play",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "prompt": "Vous ne pouvez pas atteindre le pion à temps : commencez plutôt à retirer des coups au roi.",
+      "targetSan": [
+        "Qe4+"
+      ],
+      "hint": "Cinq échecs sont possibles ; choisissez celui qui balaie aussi la colonne e, pour que le roi ne puisse jamais contourner son pion de ce côté."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "title": "Comptez les réponses noires",
+      "text": "Le roi est maintenant en d1, exactement sur la case que voulait son pion.\n\nComptez ce qui reste. Le pion en d2 ne peut pas bouger ; son propre roi est sur le chemin. La dame en e4 couvre e1, e2 et c2. Il reste c1. Les Noirs ont exactement un coup légal, et ce n'est pas un coup de pion.\n\nCe qui rend le coup des Blancs gratuit. Faites marcher le roi, laissez les Noirs tourner en rond, puis donnez de nouveau échec et ramenez le roi devant le pion. Chaque cycle coûte un coup aux Noirs et rapporte une case aux Blancs.\n\n> La dame ne poursuit pas le pion. Elle achète des coups pour le roi."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/K7/8/6Q1/8/7p/7k w - - 0 1",
+      "title": "Deux colonnes qui tiennent",
+      "text": "Le mécanisme gagne contre un pion central ou un pion du cavalier. Contre un pion de la tour ou un pion du fou, il peut se gripper, et voici comment.\n\nLe pion noir en h2, le roi en h1, la dame blanche en g4 qui tient g1 et g2 : la même prise qui gagnait sur la colonne d. Dépensez donc le coup gratuit. {{Kb5}}, et c'est aux Noirs de jouer, sans échec à parer et sans aucun coup légal sur l'échiquier. Pat, un demi-point.\n\nLe roi bloqué doit avoir une case où ramper. Dans le coin, il n'y en a aucune."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "prompt": "De retour sur la colonne d, le roi noir bloque son propre pion et n'a rien d'utile à faire : encaissez le coup gratuit.",
+      "targetSan": [
+        "Kg5"
+      ],
+      "hint": "Chaque coup encaissé doit raccourcir le trajet, alors choisissez la direction dans laquelle votre roi doit vraiment aller."
+    }
+  ]
+}

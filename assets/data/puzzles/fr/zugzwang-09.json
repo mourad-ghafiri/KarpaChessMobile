@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-09",
+  "fen": "4k3/8/1B6/1KpR4/8/7p/8/R7 w - - 0 1",
+  "solution": [
+    "Ra7",
+    "h2",
+    "Rd8#"
+  ],
+  "rating": 1650,
+  "title": "Les deux tours sur la dernière rangée",
+  "setup": "Le roi noir est en e8 avec des pions en c5 et h3, et vos tours commandent la cinquième rangée et la colonne a.",
+  "hint": "Une tour tient déjà la colonne qu'utiliserait le roi. Donnez à l'autre la rangée dont elle a besoin, sans donner échec.",
+  "explanation": "## L'idée\n\n{{Ra7}} prend tranquillement la septième rangée, et les Noirs n'ont plus rien pour arrêter {{Rd8#}}. {{Rd8#}} suit sur la dernière rangée. Deux tours matent en prenant deux rangées — l'astuce, c'est de prendre la seconde en silence."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fork-08",
+  "fen": "1kbr4/pp6/2P5/8/8/8/5PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "c7+",
+    "Ka8",
+    "cxd8=Q"
+  ],
+  "rating": 950,
+  "title": "The Pawn Takes All",
+  "setup": "Your c6 pawn is two steps from a new queen, with the black king on b8 and a rook on d8.",
+  "hint": "A pawn attacks two squares diagonally. Find the advance that hits both, then count who defends it.",
+  "explanation": "## The Idea\n\n{{c7+}} attacks b8 and d8 together, and the rook on c1 guards the pawn, so the king cannot eat it. Its own pawns and bishop leave only {{Ka8}}, and {{cxd8=Q}} takes the rook and brings a new queen in one move."
+}

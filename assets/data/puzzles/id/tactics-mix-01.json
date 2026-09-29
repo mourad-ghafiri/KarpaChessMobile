@@ -1,0 +1,15 @@
+{
+  "id": "tactics-mix-01",
+  "fen": "7k/2r2ppp/3B4/2r1Nb2/8/8/PP2Q1Rq/K7 w - - 0 1",
+  "solution": [
+    "Nxf7+",
+    "Rxf7",
+    "Qe8+",
+    "Rf8",
+    "Qxf8#"
+  ],
+  "title": "Kuda Mengosongkan Lajur",
+  "setup": "Menteri Anda ingin sekali menguasai lajur e, tetapi kuda Anda sendiri di e5 menghalanginya. Temukan langkah yang mengosongkannya dan tak memberi Hitam waktu.",
+  "hint": "Gerakkan kuda dengan sekak, sehingga Hitam tak pernah mendapat langkah luang untuk menjaga baris kedelapan.",
+  "explanation": "## Ide\n\n{{Nxf7+}} mengosongkan lajur e dengan sekak. Jika raja melangkah ke g8, menteri langsung memberi mat di e8, jadi Hitam mengambil kuda: {{Rxf7}}.\n\nKini {{Qe8+}}, dan satu-satunya penghalang adalah {{Rf8}}, benteng yang baru saja meninggalkan baris ketujuh. {{Qxf8#}}: gajah Anda di d6 menjaga menteri, dan raja tak punya petak lagi."
+}

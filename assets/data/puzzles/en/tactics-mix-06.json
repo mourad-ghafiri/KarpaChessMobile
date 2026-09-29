@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-06",
+  "fen": "4k3/8/2N5/4q3/B7/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxe5+"
+  ],
+  "title": "Discovered Check Wins the Queen",
+  "setup": "The black queen on e5 is checking your king down the e-file. Your knight on c6 stands between your bishop on a4 and Black's king.",
+  "hint": "The knight is blocking a check of your own. Move it somewhere it does real work.",
+  "explanation": "## The Idea\n\nYour king is in check, and the answer is a counterattack. The knight on c6 is blocking your bishop's diagonal to e8.\n\n{{Nxe5+}} takes the checking queen, and moving the knight uncovers check from the bishop. {{Kd8}}, {{Kf8}} and {{Ke7}} are Black's only moves, and none of them reaches the knight.\n\nWhen your piece stands between your long-range piece and the enemy king, every move it makes comes with check."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "endgames-06",
+  "fen": "6k1/8/8/2P5/P7/2K5/7B/1b6 b - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "title": "Two Pawns Down, Still Drawn",
+  "setup": "White is two pawns up and the bishops travel on different colors. Your king on g8 is far away, so the bishop has to hold alone. Black to move.",
+  "hint": "The a-pawn finishes on a8 and the c-pawn must cross c6. Both are light squares, so find the diagonal that runs through both.",
+  "explanation": "## The Idea\n\na8 and c6 are light squares on the same long diagonal, and yours is the light-squared bishop. {{Be4}} puts it on that diagonal, where it watches both at once and never has to leave. White's bishop on h2 lives on the dark squares and can never challenge it.\n\nAnything slower is too late: White's king reaches b5, a pawn steps onto c6 under its guard, and the extra pawns win."
+}

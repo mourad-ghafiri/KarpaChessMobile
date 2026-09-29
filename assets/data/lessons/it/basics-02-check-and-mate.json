@@ -1,0 +1,67 @@
+{
+  "id": "check-and-mate",
+  "title": "Non Resta Niente da Giocare",
+  "summary": "L'unico attacco a cui si deve rispondere — e quello a cui non si può",
+  "proof": "mate-in-1-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "Un Attacco a Cui Dovete Rispondere",
+      "text": "Attaccate una torre e il vostro avversario ha una scelta: muoverla, difenderla, oppure lasciarla lì e prendersi qualcosa di più grosso altrove.\n\nAttaccate il re e non c'è scelta alcuna. Un re non viene mai catturato, quindi le regole non lasciano mai l'attacco in piedi: rispondere è l'unica cosa che il vostro avversario può fare. Questo è lo **scacco**.\n\n{{Qh5+}} mette sotto tiro il re nero in e8 lungo la diagonale. Il re esce dalla linea con {{Kd8}} e la partita continua. Il `+` è il modo in cui si scrive uno scacco."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "Quando Non C'è Risposta",
+      "text": "Lo **scacco matto** è lo stesso attacco con tutte le risposte esaurite. Il re è attaccato e chi lo subisce non ha nessuna mossa legale: né con il re, né con altri pezzi. La partita finisce lì.\n\nLo segna un `#`, e dopo un `#` non si scrive mai più nulla.\n\nLo scacco matto è l'unico modo di vincere una partita sulla scacchiera. Le partite finiscono anche quando un giocatore abbandona o esaurisce il tempo, e sia l'uno sia l'altro hanno una lezione dedicata."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "prompt": "Il vostro re tiene già d7, e7 e f7: togliete le ultime due case in una sola mossa.",
+      "targetSan": [
+        "Qb8#",
+        "Qh8#"
+      ],
+      "hint": "Le due case che restano stanno entrambe sull'ottava traversa, e la donna ha due diagonali che ci arrivano."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "title": "Perché Ha Funzionato",
+      "text": "Lì dentro non c'era nessun trucco da donna. Spostate gli stessi due pezzi di una colonna e il meccanismo si vede.\n\nIl re nero in d8 ha cinque vicini. Tre di questi — c7, d7 ed e7 — toccano anche il re bianco in d6, e nessun re può stare accanto a un altro: quelle tre erano chiuse ancora prima che il Bianco muovesse.\n\nNe restano due, c8 ed e8, e condividono una traversa con il re stesso. Un solo scacco lungo l'ottava copre tutta la linea."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "prompt": "Restano di nuovo due case: trovate lo scacco sull'ottava traversa che le prende entrambe.",
+      "targetSan": [
+        "Qa8#",
+        "Qg8#"
+      ],
+      "hint": "Il re bianco occupa la colonna d, quindi la donna deve viaggiare in diagonale per arrivare su quella traversa."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Chiuso dai Propri Pedoni",
+      "text": "Non avrete sempre una donna. Il matto più comune degli scacchi da circolo richiede una torre, una traversa vuota e nessun rischio: il **matto del corridoio**.\n\nIl re nero in g8 è rannicchiato dietro i propri pedoni in f7, g7 e h7. Quei tre tengono fuori tutto ciò che sale dalla scacchiera — e lasciano al re esattamente due case, f8 e h8, entrambe sull'ottava traversa.\n\nQuella traversa è vuota da un capo all'altro. Lo è anche la colonna a. Il Nero non ha nulla che controlli né l'una né l'altra."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Aprite una Finestra",
+      "text": "Prima di godervela troppo, guardate il re bianco in g1. Stesso angolo, stessi tre pedoni, stesse due case: la differenza è che il Bianco ha una torre e il Nero no.\n\nUna sola mossa di pedone sistema tutto: {{h3}}. Dà al re una **casa di fuga** in h2, e una torre che arriva sulla prima traversa diventa uno scacco a cui rispondere, non la fine della partita.\n\n> Spingete quel pedone presto, quando avete una mossa da spendere. Il matto con cui si chiude questa lezione è quello che coglie chi non l'ha mai fatto."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Il Nero non ha mai aperto una casa di fuga: chiudete la partita sulla traversa dietro quei pedoni.",
+      "targetSan": [
+        "Ra8#"
+      ],
+      "hint": "Nessun pezzo nero difende l'ottava traversa e nulla può frapporsi."
+    }
+  ]
+}

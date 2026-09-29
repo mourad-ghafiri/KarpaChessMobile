@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-09",
+  "fen": "r3k3/8/8/8/8/8/R7/4K3 w - - 0 1",
+  "solution": [
+    "Rxa8+"
+  ],
+  "title": "Come a Torre Desprotegida",
+  "setup": "Duas torres estão frente a frente na **coluna a** — e o rei preto está também na linha de fundo.",
+  "hint": "Vê qual das duas torres da coluna a tem defensor.",
+  "explanation": "## A Ideia\n\nA torre preta de a8 não tem defensor: o rei de e8 está a quatro casas. {{Rxa8+}} come-a com xeque, o rei tem de sair da linha de fundo, e ficas com rei e torre contra um rei nu, uma vitória forçada.\n\nA tua torre de a2 estava igualmente desprotegida, portanto com as pretas a jogar teria caído ela. Quando duas peças desprotegidas se enfrentam, ganha quem jogar primeiro."
+}

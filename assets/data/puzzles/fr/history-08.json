@@ -1,0 +1,13 @@
+{
+  "id": "history-08",
+  "fen": "r4rk1/pp3ppp/8/8/8/2N5/PPP2PPb/R3RK2 w - - 0 1",
+  "solution": [
+    "g3",
+    "Bxg3",
+    "fxg3"
+  ],
+  "title": "Le coup le plus calme",
+  "setup": "Le fou noir vient de se servir du pion h2, et le roi blanc en f1 ne peut pas l'atteindre.",
+  "hint": "Ne chassez pas le fou avec une pièce. Le roi couvre déjà g1, donc sa seule issue est la diagonale. Quel coup de pion la ferme ?",
+  "explanation": "## L'idée\n\nPas d'échec, rien à prendre : le coup gagnant est le plus calme de l'échiquier, le genre de coup que trouvent les moteurs et que les humains se convainquent de ne pas jouer.\n\n{{g3}} ferme la diagonale du fou, et le roi en f1 couvre déjà g1. Désormais {{Bxg3}} est le moins mauvais essai des Noirs, et {{fxg3}} laisse aux Blancs une pièce contre un pion. {{Bg1}} le livre aussitôt au roi, et attendre permet à {{Kg2}} d'aller le chercher.\n\nAvant de chasser une pièce au fond de votre camp, comptez ses issues."
+}

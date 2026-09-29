@@ -1,0 +1,62 @@
+{
+  "id": "online-chess",
+  "title": "Catur Daring",
+  "summary": "Antrean pemain, premove, dan larangan yang senyap",
+  "proof": "culture-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Empat Detik Menuju Partai",
+      "text": "Partai daring dimulai dalam kira-kira empat detik. Anda memilih kontrol waktu, server memasukkan Anda ke antrean semua orang yang mencari kontrol waktu yang sama di sekitar angka rating Anda, lalu memasangkan Anda dengan yang paling dekat yang masih menunggu. Tanpa biaya pendaftaran, tanpa perjalanan, tanpa gedung.\n\nYang paling sering diberikan antrean itu adalah partai cepat: tiga menit, atau satu. Kecepatan adalah pengaturan bawaan format ini, dan kecepatan adalah inti posisi ini. Hitam baru saja menopang pion di e5 dengan pion f, satu-satunya pion yang tak bisa direlakan seorang raja."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Dimuat Sebelum Mendarat",
+      "text": "Premove adalah balasan yang Anda muat selagi lawan masih berpikir. Begitu langkah lawan mendarat, langkah Anda langsung dimainkan: tanpa waktu reaksi, hampir tak mengurangi jam Anda. Hanya karena itulah partai satu menit bisa dimainkan.\n\nPremove juga buta. Langkah yang diantrekan meletus ke posisi apa pun yang benar-benar tiba, bukan posisi yang Anda bayangkan.\n\nJadi {{Nxe5}} bukan blunder di sini. Ia undangan. {{fxe5}} menjawabnya karena tangkapan balik itu sudah diantrekan sebelum kuda mendarat, dan pion f adalah satu-satunya pelindung raja hitam.\n\n> Premove membeli waktu dan membelanjakan pertimbangan."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp2pp/8/4p3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+      "prompt": "Tangkapan balik yang diantrekan telah membuat f7 telanjang, jadi keluarlah dengan sekak sebelum Hitam diberi langkah lain untuk berpikir.",
+      "targetSan": [
+        "Qh5+"
+      ],
+      "hint": "Salah satu buah Anda bisa mencapai petak yang menyerang raja di e8 dan pion yang tak terlindungi di e5 sekaligus."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Tempat Perjalanan Itu Berakhir",
+      "text": "Empat sekak kemudian raja hitam berdiri di h6, pada langkah kedelapan, dengan kedua benteng masih duduk di petak awalnya. Menteri di f5 yang menggiringnya.\n\nDi seberang meja, perjalanan itu akan menghabiskan satu sore seseorang. Secara daring ia hanya memakan lima belas detik, dan tawaran pertandingan ulang datang sebelum rasa kaget sempat datang. Itulah perbedaan jujur pertama antara kedua suasana, dan perbedaannya adalah jumlah. Satu malam daring memuat lebih banyak partai daripada yang dimainkan pemain klub tahun 1950 dalam satu musim, dan setiap partai disimpan, diberi catatan waktu, dan bisa dicari."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Satu Langkah Tak Membuktikan Apa-Apa",
+      "text": "Semua catur yang tersimpan itu juga menjadi bukti, dan begitulah *fair play* ditegakkan.\n\nPemain yang lumayan mana pun sesekali menemukan pilihan mesin, dan serangan ini muncul dalam buku-buku berusia lima ratus tahun. Jadi deteksinya bersifat statistik. Pilihan Anda dibandingkan dengan preferensi mesin di ratusan partai, dibobot menurut seberapa sulit setiap posisi dan bagaimana jam dipakai. Seseorang yang menemukan satu-satunya langkah di enam posisi tajam, masing-masing dalam dua detik yang sama datarnya, tidak sedang dinilai atas satu langkah. Yang diukur adalah sebuah pola."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Ditutup Tanpa Nama",
+      "text": "Akun ditutup dengan senyap alih-alih diumumkan. Buktinya berupa probabilitas, bukan pengakuan, dan tuduhan terbuka berdasarkan firasat menimbulkan kerusakan lebih besar daripada kecurangan yang terlewat.\n\nTata krama yang tumbuh di sekitar semua ini singkat. Menyerahlah dalam partai yang sudah Anda putuskan tak akan dimainkan, alih-alih duduk membiarkan jam habis. Jawab tawaran pertandingan ulang, ya atau tidak. Dan ketika orang asing mengalahkan Anda dengan bersih, kilasan curiga yang datang tanpa diundang adalah harga dari format ini, bukan temuan tentang orang itu."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Apa yang Dibawa Masuk Antrean Itu",
+      "text": "Siaran langsung, pelatih puzzle dan partai tiga menit membawa masuk jutaan orang yang tak akan pernah duduk di gedung turnamen, dan pemain blitz adalah pemain catur. Catur juga berhenti menjadi tempat yang harus Anda datangi: antrean yang sama terbuka pukul dua pagi, di situlah rentetan pertandingan ulang hidup.\n\nPerburuan di papan ini berjalan sendiri dari sini: {{d4+}} {{g5}} {{h4}} {{Kg7}} {{Qf7+}} {{Kh6}}."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1bnr/pppp1Q1p/7k/6p1/2BPP2P/8/PPP2PP1/RNB1K2R w KQ - 3 11",
+      "prompt": "Kedua buah Anda yang bisa menangkap di g5 memberi sekak — hanya satu penangkapan yang merupakan mat.",
+      "targetSan": [
+        "hxg5#"
+      ],
+      "hint": "Raja di h6 hanya bertahan hidup selama h5 tetap di luar jangkauan, jadi tanyakan apa yang saat ini menghalangi penguasaannya."
+    }
+  ]
+}

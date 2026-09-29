@@ -1,0 +1,11 @@
+{
+  "id": "strategy-01",
+  "fen": "rnbqk2r/p1p2pp1/1p2p1n1/3pP2p/3P3P/P1P3Q1/2P2PP1/R1B1KBNR b KQkq - 1 9",
+  "solution": [
+    "Ba6"
+  ],
+  "title": "The Prisoner on c8",
+  "setup": "Your bishop on c8 is shut in behind your own pawns, while White's bishop on f1 has an open road. Offer your worst piece for White's best one.",
+  "hint": "Your b-pawn has already stepped aside. Where does the diagonal it opened lead, and whose bishop stands at the far end?",
+  "explanation": "## The Idea\n\nThe bishop on c8 is Black's worst piece: the pawns on d5 and e6 stand on its color and are never moving. White's bishop on f1 is the opposite, and from d3 it would hit the knight on g6.\n\n{{Ba6}} offers the one for the other. If White takes, the knight recaptures from b8 and spends a while on the rim, but Black has swapped the piece doing nothing for the piece about to do the most."
+}

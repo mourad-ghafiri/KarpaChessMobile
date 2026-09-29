@@ -1,0 +1,11 @@
+{
+  "id": "endgames-03",
+  "fen": "3k4/8/8/1KP1r3/8/7R/8/8 b - - 0 1",
+  "solution": [
+    "Re6"
+  ],
+  "title": "Um Peão Abaixo e a Segurar",
+  "setup": "O rei branco em b5 quer a sexta linha, e de lá afasta o teu rei do caminho do peão. Jogam as pretas, e é empate.",
+  "hint": "Ao rei branco fazem falta a6, b6 ou c6. Uma torre numa linha cobre todas as casas dela.",
+  "explanation": "## A Ideia\n\nAqui as linhas contam-se do lado das brancas. Ao rei branco fazem falta a6, b6 ou c6 para subir ao lado do seu peão, e uma só jogada de torre leva as três: {{Re6}}. Uma torre numa linha é uma cerca, e um rei não pode entrar numa casa que ela cubra.\n\nTodas as outras jogadas deixam o rei subir à sexta, à frente do seu próprio peão, onde nenhum xeque por trás lhe chega, e o peão entra."
+}

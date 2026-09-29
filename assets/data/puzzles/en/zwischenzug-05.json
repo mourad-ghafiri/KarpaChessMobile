@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-05",
+  "fen": "6k1/2R2ppp/6r1/8/8/1B2r1Q1/PP6/K2b4 w - - 0 1",
+  "solution": [
+    "Rc8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1460,
+  "title": "Rook Into the Corner",
+  "setup": "Black's bishop sits on d1 and its rooks stand on g6 and e3 — your king looks distinctly airy.",
+  "hint": "Do not answer the threats. Find the check that forces a black piece onto the rank your rook will own.",
+  "explanation": "## The Idea\n\n{{Rc8+}} ignores every threat against your king. {{Re8}} is the only reply, and now {{Rxe8#}} is mate because the rook takes the whole eighth rank and the pawns take the rest. Tempo beats material when the tempo ends the game."
+}

@@ -1,0 +1,76 @@
+{
+  "id": "queen-moves",
+  "title": "Semua Jalan Sekaligus",
+  "summary": "Garis lurus benteng dan jalan miring gajah dalam satu buah — dan mengapa setiap pion senang melihatnya",
+  "proof": "first-steps-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Tak Ada yang Baru untuk Dipelajari",
+      "text": "Tak ada langkah baru di sini. Anda sudah mengenal kedua bagiannya.\n\nMenteri di d4 bergerak dalam garis lurus seperti benteng — {{Qd8}} naik di lajur, {{Qa4}} menyusuri baris — dan secara miring seperti gajah, {{Qh8}} ke sudut jauh dan {{Qg1}} turun ke tepi bawah.\n\nEmpat jalan, ditunjukkan bersamaan. Sebenarnya ada delapan: satu untuk setiap arah yang bisa ditempuh baris, lajur atau diagonal untuk meninggalkan sebuah petak."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Dua Puluh Tujuh Petak",
+      "text": "Hitung petak yang disentuh menteri dari d4: empat belas petak sebagai benteng, tiga belas lagi sebagai gajah, dua puluh tujuh semuanya. Kuda yang berdiri di sana mencapai delapan.\n\nTetapi dua puluh tujuh adalah angka untuk papan kosong. Menteri mewarisi jalan-jalan kedua induknya sekaligus batas-batas keduanya, dan tak satu pun dari keduanya melompat. Buah pertama yang berdiri di sebuah jalan mengakhirinya, dan segala sesuatu di baliknya berada di luar jangkauan sampai jalan itu kosong."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "Kirim menteri menyusuri salah satu dari delapan jalan keluar dari d4, sedekat atau sejauh yang Anda suka.",
+      "targetSan": [
+        "Qc5",
+        "Qb6",
+        "Qa7",
+        "Qe5",
+        "Qf6",
+        "Qg7",
+        "Qh8",
+        "Qc3",
+        "Qb2",
+        "Qa1",
+        "Qe3",
+        "Qf2",
+        "Qg1",
+        "Qd5",
+        "Qd6",
+        "Qd7",
+        "Qd8",
+        "Qd3",
+        "Qd2",
+        "Qd1",
+        "Qc4",
+        "Qb4",
+        "Qa4",
+        "Qe4",
+        "Qf4",
+        "Qg4",
+        "Qh4"
+      ],
+      "hint": "Apa pun yang bisa dilakukan benteng dari petak ini adalah langkah menteri, begitu pula apa pun yang bisa dilakukan gajah."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Semua Ingin Mengejarnya",
+      "text": "Kekuatan ada harganya, dan bagi menteri harganya adalah perhatian.\n\nSetiap buah lain di papan lebih kecil, sehingga setiap buah lain senang menyerang menteri. Pion yang datang menawarkan pertukaran yang tak bisa diterima menteri: buah terbesar milik Putih untuk buah terkecil milik Hitam. Maka menteri pergi.\n\nKeluarkan ia terlalu awal dan begitulah seluruh partainya — menteri bergerak, lalu bergerak lagi, sementara Hitam dengan tenang menempatkan buah-buahnya di tempat yang diinginkan.\n\n> Tak ada yang lebih gembira di papan daripada pion yang menemukan menteri lawan."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Hitung Apa yang Balik Mengawasi",
+      "text": "Maka hanya satu jenis penangkapan yang layak dilakukan menteri: yang tak dijawab apa pun.\n\nSebelum menangkap apa pun dengannya, tanyakan apa yang mengawasi petak itu. Jika sebuah pion menjaganya, pion itu menangkap balik menteri begitu ia mendarat, dan Anda telah menyerahkan buah terbaik Anda untuk buah termurah milik Hitam.\n\nJika tak ada yang mengawasi — tanpa penjaga, tanpa apa pun di belakangnya, tanpa jawaban sama sekali — menteri menangkap dan tak membayar apa-apa."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "prompt": "Pion terakhir Hitam berdiri tanpa penjaga di belakangnya — tangkap ia tanpa membayar apa-apa.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "Menteri dan pion itu sudah berada di lajur yang sama, dan jalan di antara keduanya kosong."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "deflection-01",
+  "fen": "2r3k1/pq3ppp/8/8/1n6/7P/PP1B1PP1/2RQ2K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Bxb4"
+  ],
+  "rating": 1100,
+  "title": "La dama tiene dos trabajos",
+  "setup": "La dama negra de b7 defiende a la vez la torre de c8 y el caballo de b4.",
+  "hint": "Una pieza negra hace dos trabajos. Dale algo que no pueda rechazar y mira qué trabajo abandona.",
+  "explanation": "## La idea\n\n{{Rxc8+}} es jaque, así que {{Qxc8}} es forzada, y la dama sale de la columna b. Luego {{Bxb4}} gana el caballo. Primero se cambia torre por torre, así que apartar al defensor no cuesta nada. Busca una pieza con dos tareas antes de buscar una combinación."
+}

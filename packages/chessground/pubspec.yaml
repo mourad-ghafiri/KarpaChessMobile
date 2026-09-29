@@ -1,0 +1,22 @@
+name: chessground
+description: Chess board UI developed for lichess.org. It has no chess logic inside so it can be used for chess variants.
+# Vendored from pub.dev 10.1.1 with its assets removed; see NOTICE.md.
+version: 10.1.1+karpa.1
+repository: https://github.com/lichess-org/flutter-chessground
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+  flutter: ">=3.29.0"
+
+dependencies:
+  dartchess: ^0.13.1
+  flutter:
+    sdk: flutter
+  meta: ^1.18.0
+
+# No `flutter: assets:` block, on purpose. Upstream declares its 40 piece sets
+# and its board textures here, and Flutter bundles every asset a dependency
+# declares, used or not. Several of those sets are licensed for
+# non-commercial use only. KarpaChess draws its own pieces
+# (assets/pieces/) and its own boards, so nothing here needs an asset.

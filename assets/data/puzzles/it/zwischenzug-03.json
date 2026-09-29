@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-03",
+  "fen": "2r3k1/1R1B1ppp/8/2Qr4/7b/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qxc8+",
+    "Bd8",
+    "Qxd8#"
+  ],
+  "rating": 1380,
+  "title": "Due Torri, Nessuna Aiuta",
+  "setup": "Le torri nere stanno in c8 e d5 e il suo alfiere in h4 tiene d'occhio la vostra posizione, mentre i vostri pezzi sono sparpagliati.",
+  "hint": "La presa ovvia vince una torre. Cercate invece la presa che lascia al Nero una sola risposta legale.",
+  "explanation": "## L'idea\n\nPrendere in d5 vince una torre e la partita continua. {{Qxc8+}} vince l'altra e la chiude: {{Bd8}} è l'unica parata, e segue {{Qxd8#}}. Scegliete la presa che dà scacco, non quella che dà di più."
+}

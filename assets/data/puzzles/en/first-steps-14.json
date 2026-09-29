@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-14",
+  "fen": "4r2k/1q4pp/8/6B1/8/8/3P1PPP/3RKR2 w - - 0 1",
+  "solution": [
+    "Be3"
+  ],
+  "title": "Raise the Shield",
+  "setup": "The black rook checks your king down the open e-file, and your own pieces have boxed the king in. The line has to be closed.",
+  "hint": "Two of your moves block the check. Only one of them lands on a square a friend protects.",
+  "explanation": "## The Idea\n\nA check along a line has three answers: run, capture or block. Your king has no square and nothing reaches the rook on e8, so you must block.\n\n{{Be3}} blocks on a square the d2 and f2 pawns both guard, so {{Rxe3+}} would give a rook for a bishop. {{Be7}} blocks too, but nothing guards e7, and {{Rxe7#}} is mate.\n\nThe best shield is a guarded one."
+}

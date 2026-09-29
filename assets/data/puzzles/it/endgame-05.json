@@ -1,0 +1,11 @@
+{
+  "id": "endgame-05",
+  "fen": "8/8/7r/4k3/2P5/2K5/8/5R2 w - - 0 1",
+  "solution": [
+    "Rd1"
+  ],
+  "title": "Il Muro sulla Colonna d",
+  "setup": "Il vostro pedone c ha molta strada da fare, e il re nero in e5 sta attraversando per andargli incontro. Una mossa di torre decide se ci arriverà mai.",
+  "hint": "Contate le colonne fra il re nero e il vostro pedone. Il re deve attraversarne una per prima, quindi fatela vostra.",
+  "explanation": "## L'idea\n\nFra il re nero e la strada del vostro pedone c'è soltanto la colonna d, quindi {{Rd1}} se la prende. Il re in e5 non può mettere piede su una casa che la torre copre, e adesso la torre copre tutta la colonna: il re è rinchiuso dall'altro lato per tutto il tempo che la torre resta.\n\nIl vostro re sale poi accanto al pedone c e lo scorta a casa. Qualunque altra mossa lascia il re nero passare sulla colonna d e mettersi davanti al pedone, e il finale è patta."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "history-03",
+  "fen": "6k1/5ppp/b7/3K4/8/8/P7/7R b - - 0 1",
+  "solution": [
+    "Bb7+",
+    "Kc4",
+    "Bxh1"
+  ],
+  "title": "Uzun Yol",
+  "setup": "a6'daki filiniz, d5'teki beyaz şah ve h1 köşesinde tek başına bir kale: tek bir hatta dönüşebilecek üç kare.",
+  "hint": "Alfil yalnızca sıçrardı. Beyazın şahını ve kaleyi zaten barındıran çapraz hangisi ve hangi fil adımı ona katılıyor?",
+  "explanation": "## Fikir\n\n1470'lerin reformunun file verdiği şey buydu: çaprazının her karesi, ta sonuna kadar.\n\n{{Bb7+}} uzun açık çapraza şah çekerek adımlar. d5'teki beyaz şah önde, h1'deki kale arkada durur ve beyazın hiçbir taşı aralarındaki tek kare olan c6'ya ulaşamaz. Şah hangi kareyi seçerse seçsin — {{Kc4}} ya da başkası — hattı terk eder.\n\n{{Bxh1}} kaleyi tahtanın öteki ucundan alır. a6'daki bir alfil h1'e hiçbir zaman ulaşamazdı."
+}

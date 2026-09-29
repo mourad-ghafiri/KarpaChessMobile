@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-08",
+  "fen": "2n4k/8/8/2r1p2P/4Q1B1/3R4/PP6/7K w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Kg7",
+    "Qg6#"
+  ],
+  "rating": 1250,
+  "title": "Un pion soutient la dame",
+  "setup": "Votre tour peut prendre la huitième rangée, et un modeste pion en h5 soutient discrètement la case g6.",
+  "hint": "Trouvez la case voisine du roi que l'un de vos pions défend déjà, puis retirez-lui sa dernière rangée.",
+  "explanation": "## L'idée\n\n{{Rd8+}} prend la dernière rangée et force {{Kg7}} ; le cavalier en c8 ne peut pas s'interposer. Puis {{Qg6#}} : la dame se pose juste à côté du roi, protégée par le pion en **h5**, pendant que la tour scelle chaque case de la huitième rangée."
+}

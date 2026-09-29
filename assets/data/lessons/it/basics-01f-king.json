@@ -1,0 +1,57 @@
+{
+  "id": "king-moves",
+  "title": "Il Pezzo Che Non Se Ne Va Mai",
+  "summary": "Una casa in qualsiasi direzione, meno tutte le case che l'avversario controlla",
+  "proof": "first-steps-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "title": "Mai Preso, Mai Cambiato",
+      "text": "Ogni altro pezzo che avete può essere cambiato, regalato o perduto. Il re no. Non viene mai catturato e non lascia mai la scacchiera: la partita finisce prima che possa succedere.\n\nPer questo le regole lo tengono al guinzaglio corto: **una casa, in una qualsiasi delle otto direzioni**. Da e4 sono {{Kd5}}, {{Ke5}}, {{Kf5}}, {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\nOtto vicini. Niente al di là di loro."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "prompt": "Portate il re su una qualsiasi casa che tocchi e4: qui sono aperte tutte e otto.",
+      "targetSan": [
+        "Kd5",
+        "Ke5",
+        "Kf5",
+        "Kd4",
+        "Kf4",
+        "Kd3",
+        "Ke3",
+        "Kf3"
+      ],
+      "hint": "Sulla scacchiera non c'è nient'altro, quindi nessuna casa dell'anello è migliore di un'altra."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Qualcuno Sta Guardando",
+      "text": "La scacchiera non è più vuota. La torre nera in h5 spazza l'intera quinta traversa, da un capo all'altro, come fanno le torri.\n\nGuardate quanto costa al re in e4. Tre dei suoi otto vicini — d5, e5 e f5 — stanno su quella traversa, in piena vista della torre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Tre Case, Ritirate",
+      "text": "Quelle tre case non sono una cattiva idea. Non sono proprio una scelta.\n\nUn re non può **mai andare su una casa attaccata da un pezzo avversario**. La scacchiera non glielo permette: allungate la mano verso d5 e quella mossa semplicemente non c'è, come non c'è una linea retta per un alfiere.\n\nNe restano cinque: {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\n> Contate le case che toccano il re, poi cancellate tutte quelle che l'avversario controlla. Ciò che resta è tutta la mossa del re."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3k4/8/3K4/8/8/8 w - - 0 1",
+      "title": "I Re Tengono le Distanze",
+      "text": "Il caso più lampante di quella regola sono due re. Il re nero in d6 sta a due case di distanza, e c5, d5 ed e5 lo toccano tutte e tre.\n\nIl che significa che tutte e tre sono chiuse al re bianco in d4. Non può fare un solo passo avanti: tutta la parte anteriore del suo anello appartiene all'altro re.\n\nDue re non possono mai stare uno accanto all'altro. Nessuno dei due può entrare nell'anello dell'altro, quindi fra loro resta sempre una casa vuota."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/4p3/4K3/8 w - - 0 1",
+      "prompt": "Quel pedone ha chiuso le due case accanto al re, ma non quella su cui si trova: guadagnatelo.",
+      "targetSan": [
+        "Kxe3"
+      ],
+      "hint": "Gli attacchi di un pedone vanno in diagonale in avanti, mai dritti, e su questa scacchiera nessuno lo difende."
+    }
+  ]
+}

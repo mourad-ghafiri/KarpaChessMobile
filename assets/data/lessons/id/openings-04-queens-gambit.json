@@ -1,0 +1,51 @@
+{
+  "id": "queens-gambit",
+  "title": "Gambit Menteri",
+  "summary": "Pion yang boleh Anda ambil, tetapi tak boleh Anda simpan",
+  "proof": "openings-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Sebenarnya Bukan Gambit",
+      "text": "Baru dua langkah, dan Putih sudah memarkir pion di tempat yang bisa diambil Hitam. **Gambit** adalah pion yang diserahkan sejak awal untuk membeli sesuatu yang lebih cepat — waktu, garis terbuka, petak. Yang ini tak menyerahkan apa pun, karena Hitam tak bisa mempertahankan apa yang diambilnya.\n\nYang sebenarnya diincar Putih adalah d5. Tukar pion di c4 dengan pion d Hitam dan Putih menjadi satu-satunya pihak yang punya pion di tengah, bebas membangun di atasnya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Mengambil Bukan Berarti Menyimpan",
+      "text": "{{dxc4}} menjawab pertanyaan Putih dengan cara yang salah. Pion Hitam telah meninggalkan tengah, {{e4}} langsung menyusul, dan dua pion putih berdiri sejajar di pusat tanpa ada lagi yang bisa menembaki keduanya.\n\nMencoba menyimpan pion itu lebih mahal lagi. {{b5}} menopangnya, {{a4}} mencongkelnya, dan Putih merebutnya kembali dengan sayap menteri Hitam tercabik-cabik.\n\nJadi pion itu tak pernah menjadi tawarannya. Tawarannya adalah pertukaran, dan harga menolaknya adalah langkah pion kedua."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "prompt": "Topang d5 dengan pion kedua agar pusat bertahan, dan terimalah bahwa langkah itu menutup pintu bagi salah satu buah Anda.",
+      "targetSan": [
+        "e6",
+        "c6"
+      ],
+      "hint": "Dua pion Anda bisa melangkah ke petak yang menjaga d5 secara diagonal, dan masing-masing menutup jalan terbaik bagi buah yang berbeda."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "Dua Lawan Tiga",
+      "text": "Sembilan langkah kemudian, dari perdebatan yang sama: Putih bertukar di d5, Hitam menangkap balik dengan pion e, dan tengah papan menjadi tenang. Bentuk ini punya nama, Carlsbad, dan logikanya adalah hitungan.\n\nHitung sayap menteri. Putih punya dua pion di sana, Hitam punya tiga. Mengerahkan kelompok yang lebih kecil ke kelompok yang lebih besar disebut **serangan minoritas**, dan ia tidak dimainkan untuk memenangkan apa pun. Dorong cukup jauh, pion-pion saling bertukar dengan sendirinya, dan Hitam tertinggal dengan pion di c6 yang tak akan pernah bisa dilindungi pion hitam mana pun, di lajur setengah terbuka."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "Perlombaan yang Tak Pernah Bertemu",
+      "text": "Hitam tidak sedang bertahan. Tiga pion sayap menteri itulah yang didatangi Putih, jadi Hitam membiarkannya di tempat dan bermain ke arah raja putih sebagai gantinya: kuda di f8 berayun ke g6, buah-buah lain menyusul, dan pion f ikut bersamanya.\n\nDua rencana di sayap yang berlawanan, dan keduanya tak pernah bersentuhan. Tak satu pun bisa ditarik kembali setelah dimulai, jadi partai berporos pada rencana mana yang tiba lebih dulu.\n\n> Menukar pion tidak selalu berarti menyederhanakan. Kadang itulah cara sebuah kelemahan dibangun."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "prompt": "Kerahkan kelompok sayap menteri Anda yang lebih kecil ke kelompok Hitam yang lebih besar dan mulailah membangun sasaran yang tak akan pernah dilindungi pion hitam mana pun.",
+      "targetSan": [
+        "b4"
+      ],
+      "hint": "Kedua pion sayap menteri Anda harus berjalan; yang bisa bersentuhan dengan kelompok Hitam memimpin, dan yang lain datang di belakangnya."
+    }
+  ]
+}

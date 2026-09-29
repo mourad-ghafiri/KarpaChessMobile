@@ -1,0 +1,71 @@
+{
+  "id": "double-attack",
+  "title": "Çifte Tehdit",
+  "summary": "Çatalın ait olduğu aile ve o ailenin kapsayamadığı üyeler",
+  "proof": "forks-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Üç Ad, Tek Şekil",
+      "text": "Çatal, açılan saldırı, açılan şah: size verilmiş üç ad ve hepsinin altında tek bir şekil.\n\nÇatal tek taşla iki taşa saldırır. Açılan saldırı bir taşı yana çeker ki ikinci taş saldırsın. İkisi de aynı yerde biter. Rakibinizin bir hamlesi ve iki sorunu vardır.\n\nAilenin adı **çifte tehdit**tir: aynı anda iki tehdit yaratan her hamle, iş taşlarınız arasında nasıl bölünürse bölünsün. Çatal, işin tamamını tek taşın yaptığı sürümdür."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Önce Listeyi Yapın",
+      "text": "Hiçbir şey hesaplamadan önce, hiçbir şeyin korumadığı rakip taşların adını koyun.\n\nBuradaki liste kısa: b4'teki at, h4'teki at, hepsi bu. g8'deki şah yanındaki piyonları korur, başka bir şeyi korumaz.\n\nSıradan bir hamleyi çifte tehdide çeviren şey korumasız taşlardır ve oyuncuların çoğu bu listeyi hiç yapmaz. Bu iki at dördüncü yatayı paylaşıyor, aralarındaki her kare boş ve vezirinizin oraya düz bir yolu var."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "prompt": "Siyahın bir hamlesi var; vezirinizin aynı anda iki ata da saldırdığı kareyi bulun.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "Hedeflerden geriye çalışın: atlar zaten bir yatayı paylaşıyor ve o yatayda yalnızca bir kare sizin alabileceğiniz kare."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Siyahın Deneyebilecekleri",
+      "text": "{{Qd4}}. Şimdi siyahın buna karşı ne yapmasına izin verildiğini sayın.\n\nSiyahın hiçbir taşı d4'e saldırmıyor, yani vezir alınamaz. Vezirle atlardan herhangi birinin arasına hiçbir şey giremez. Ve tek bir hamle ikisini birden koruyamaz, çünkü at bir L ötedeki kareleri korur ve bu ikisi birbirinden fersah fersah uzaktır.\n\nGeriye kaçmak kalır ve kaçmak ötekini gözden çıkarmaktır. Siyah da karşılık verir: {{Nf3+}} aynı anda hem vezire saldırır hem de şah çeker; size karşı oynanmış bir çatal. Sıkıcı bir sebeple başarısız olur. İki piyon f3'ü kapsıyor ve {{exf3}} işi bitiriyor."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "Tek Taşın Ulaşamadığı Yer",
+      "text": "Yeni bir tahta ve sizin hiçbir taşınız aynı anda iki şeye saldırmıyor.\n\nb2'deki filiniz uzun çaprazın sahibi, ama kendi atınız e5'te tam ortasına park etmiş. O çaprazda daha ileride g7'deki at duruyor; onu koruyan hiçbir şey yok. Öteki kanatta, uzakta, siyahın a5'teki fili de korumasız.\n\nTek bir taş ikisine birden ulaşamaz. İki taş ulaşabilir. Atı oynatın, çapraz kendiliğinden açılsın — daha önce bir hattın açılışını izlediğiniz gibi."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "At Nereye İniyor",
+      "text": "Her at hamlesi çaprazı açar. {{Nd3}}, {{Nf3}}, {{Ng4}}, {{Ng6}}, hangisi olursa.\n\nÇoğunun bunu çarçur etmesinin sebebi de bu. Tek tehdit tek sorundur; siyah g7'deki atı oynatır ve sizin atınız bir hamleyi anlamsız bir yerde durarak harcamış olur.\n\nArkasındaki fil ilk tehdidi bedavaya sağlıyor. İkinci tehdidi, atın indiği yerde sağlaması gerekiyor ve bu tahtada inmeye değer tek bir şey var."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "prompt": "Filinizin çaprazını, varır varmaz korumasız file saldıran bir at hamlesiyle açın.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "Atın iki karesi a5'e saldırıyor ve siyahın b5'teki piyonu bunlardan birini kapsıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/2N5/bp6/8/8/1B6/6K1 b - - 1 1",
+      "title": "Çıkış Yollarını Sayın",
+      "text": "İki tehdit, iki taş ve siyahın ikisine birden cevap veren hamleyi araması gerekiyor.\n\n- **Saldıranı alın.** Hiçbir şey alamıyor. En yakın deneme {{Kd7}} ve {{Nxa5}} fili alıp gidiyor.\n- **İkisini de koruyun.** a5'teki fil ile g7'deki at ortak hiçbir kare paylaşmıyor.\n- **Kaçın.** Hangisi oynarsa oynasın, öteki hâlâ orada duruyor.\n- **Kapatın.** Çapraz kapatılabilir ve bakmaya değen deneme bu.\n\nNeredeyse işe yarıyor."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/2N5/1p6/8/2b5/1B6/6K1 w - - 2 2",
+      "prompt": "Siyah çaprazı kapattı; araya koyduğu taşı toplayın.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "c3'ü koruyan hiçbir şey yok ve ötesindeki çapraz hâlâ boş."
+    }
+  ]
+}

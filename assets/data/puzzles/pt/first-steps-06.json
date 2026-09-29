@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-06",
+  "fen": "4k3/pp4pp/8/8/3pK3/8/PP4PP/8 w - - 0 1",
+  "solution": [
+    "Kxd4"
+  ],
+  "title": "O Rei Combatente",
+  "setup": "Um peão preto está mesmo ao lado do teu rei, sem guarda-costas nenhum à vista.",
+  "hint": "O rei captura como anda: uma casa em qualquer direção. O peão de d4 está defendido?",
+  "explanation": "## A Ideia\n\nO rei não é só uma peça para proteger; também pode combater. O peão preto em d4 está a um passo, e **nada o defende**: o rei preto em e8 está a quatro linhas de distância.\n\n{{Kxd4}} come-o sem risco. Verifica sempre primeiro: um peão preto em d4 ataca c3 e e3, não a casa onde o teu rei está nem aquela onde aterra.\n\nUm rei pode capturar qualquer peça ao seu lado que nada defenda."
+}

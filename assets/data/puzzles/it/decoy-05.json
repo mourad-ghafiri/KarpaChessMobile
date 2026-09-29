@@ -1,0 +1,14 @@
+{
+  "id": "decoy-05",
+  "fen": "6rk/pp4pp/8/8/8/q7/5PP1/3Q2KR w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Qh5#"
+  ],
+  "rating": 1310,
+  "title": "Aprite l'Angolo",
+  "setup": "Il re nero si nasconde in h8 dietro la propria torre e i propri pedoni, con solo il pedone di h7 fra lui e la vostra torre.",
+  "hint": "Il re non ha proprio nessuna mossa legale. Quale presa lo costringe sull'unica casa che riuscite a raggiungere?",
+  "explanation": "## L'idea\n\n{{Rxh7+}} è una torre per un pedone, e {{Kxh7}} è l'unica mossa del Nero. Trascinato in h7 il re è incastrato contro la propria torre e il proprio pedone, e {{Qh5#}} atterra da lontano. La torre non è mai stata il bersaglio. Lo era la casa h7."
+}

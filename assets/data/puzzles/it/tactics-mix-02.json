@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-02",
+  "fen": "6k1/ppp2p1p/6p1/8/8/2N1P3/PPP2PPb/5K2 w - - 0 1",
+  "solution": [
+    "g3"
+  ],
+  "title": "Chiudete la Porta in h2",
+  "setup": "L'alfiere nero ha appena preso il vostro pedone h. Trovate la mossa che assicura che non ne esca più.",
+  "hint": "Contate le vie di casa dell'alfiere. Una mossa di pedone può chiuderle tutte e due, purché quel pedone sia difeso.",
+  "explanation": "## L'idea\n\n{{g3}} mura dentro l'alfiere. Da h2 ha due vie d'uscita, e sono sparite tutte e due: il vostro re in f1 copre g1, e il pedone in g3 è difeso dal pedone in f2.\n\nPoi arriva Kg2, e l'alfiere è perduto. Il massimo che il Nero può ricavarne è un solo pedone, prendendo in g3."
+}

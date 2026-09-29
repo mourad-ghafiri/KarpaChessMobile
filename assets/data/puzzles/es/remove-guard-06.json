@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-06",
+  "fen": "2r3k1/p4p1p/6p1/5n2/3b4/7B/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxf5"
+  ],
+  "rating": 1250,
+  "title": "Sigue la defensa",
+  "setup": "Tu torre está frente al alfil de d4, que solo aguanta ahí porque lo cubre el caballo de f5.",
+  "hint": "No te comas todavía el alfil. Pregúntate qué lo defiende, y si puedes cambiar antes esa pieza.",
+  "explanation": "## La idea\n\n{{Bxf5}} elimina al caballo que defiende d4. {{gxf5}} restablece el material pero no la defensa, y {{Rxd4}} gana una pieza. Ataca al defensor, no al defendido. Una recaptura de peón repara el material, nunca la defensa."
+}

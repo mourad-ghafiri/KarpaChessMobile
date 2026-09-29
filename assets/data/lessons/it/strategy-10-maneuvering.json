@@ -1,0 +1,59 @@
+{
+  "id": "maneuvering",
+  "title": "La Manovra",
+  "summary": "Tre mosse tranquille per sistemare un pezzo",
+  "proof": "strategy-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Niente da Prendere, Niente da Fermare",
+      "text": "Nessun pezzo è in presa. Il Nero non minaccia niente, non c'è nessuno scacco disponibile, e il centro può aspettare: {{d5}} lo chiude, {{dxe5}} lo apre, e nessuna delle due cose deve avvenire in questa mossa.\n\nPosizioni così non sono rare. Sono la maggior parte di una partita.\n\nE allora la domanda cambia. Non «che cosa posso vincere qui», ma «quale dei miei pezzi lavora meno di tutti, e dove preferirebbe stare». Quella risposta ci mette tre mosse a essere giocata, e ognuna di esse sembra che non stia succedendo niente."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Partite dalla Fine",
+      "text": "Il cavallo bianco in b1 non ha mosso per tutta la partita, e tutto quello che vale la pena attaccare sta dall'altra parte della scacchiera.\n\nLa casa che quel cavallo vuole è g3: da lì copre f5 e h5, due case che nessun pedone nero sorveglia.\n\nAdesso la strada. La via breve passa per c3, dove è parcheggiato un pedone bianco. E allora il cavallo fa il giro lungo, e il primo passo di un giro lungo sembra sempre una mossa sprecata."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "prompt": "Avviate il cavallo che non ha mai mosso sulla sua strada verso l'ala di re, e tenetelo lontano dal bordo.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "Dalla sua casa di partenza quel cavallo ha esattamente due mosse: una lo parcheggia sul bordo, l'altra lo tiene in gioco."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "title": "Peggio Prima di Meglio",
+      "text": "Il cavallo nero ha finito le case sul bordo ed è tornato in c6, dove tiene di nuovo d4 e e5. Due giocatori, la stessa idea, puntata in direzioni opposte.\n\nIl vostro cavallo è a una tappa dall'inizio e, per il momento, sta in mezzo: in d2 blocca l'alfiere di c1 e sta davanti alla donna in d1. Un cavallo in mezzo alla propria traversa di fondo è un cavallo in transito. Non paga niente finché non arriva, ed è per questo che una manovra è la decisione di stare leggermente peggio per due mosse."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "prompt": "Il cavallo in viaggio è solo a una tappa dall'inizio: fate il passo successivo verso l'altra ala.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Tre delle quattro case di quel cavallo lo tengono sull'ala di donna che sta cercando di lasciare; una sola no."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "title": "L'Ultima Tappa",
+      "text": "Due mosse fa questo cavallo non aveva niente da fare. Adesso sta a un balzo dalla casa che rende sensato tutto il viaggio.\n\nGuardate l'ala di re del Nero. Nessun pedone nero sorveglia f5, e un cavallo che arriva in f5 colpisce insieme l'alfiere in e7 e il pedone in d6. Quindi l'ultima tappa non riguarda f5 in sé. Riguarda la casa che tiene f5 a un salto di distanza e strada facendo copre h5.\n\n> Quale dei vostri pezzi fa meno di tutti, su quale casa preferireste che stesse, e qual è la strada più breve per arrivarci."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "prompt": "Completate il viaggio mettendo il cavallo dove sorveglia sia f5 sia h5.",
+      "targetSan": [
+        "Ng3"
+      ],
+      "hint": "Due delle quattro case del cavallo guardano f5, e una sola di esse guarda anche h5."
+    }
+  ]
+}

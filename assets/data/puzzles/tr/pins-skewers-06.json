@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-06",
+  "fen": "3k4/8/8/8/8/8/3q4/3R3K w - - 0 1",
+  "solution": [
+    "Rxd2+"
+  ],
+  "title": "Tahtanın Öbür Ucundan Açmaz",
+  "setup": "Siyahın veziri beyazın kalesinin önüne sokulmuş ve siyahın şahı altı kare arkasında, d8'de.",
+  "hint": "Kale ile siyahın şahı arasında tek bir siyah taştan başka bir şey yok. O taşın neye izinli olduğunu hesaplayın.",
+  "explanation": "## Fikir\n\nVezir açmazda. Donmuş değil — d dikeyinde hâlâ ileri geri kayabilir, hatta kaleyi alabilir. Yapamayacağı şey dikeyi terk etmektir, çünkü o zaman d8'deki şah kalenin hattında kalırdı ve bu hamle kuraldışıdır.\n\nYani kalenin ulaşabildiği yerde oturmak zorunda: {{Rxd2+}} onu şah çekerek alır ve şah geri almak için altı kare fazla uzaktadır.\n\nAçmaz bir taşı dondurmaz. Onu tek bir hatta çiviler."
+}

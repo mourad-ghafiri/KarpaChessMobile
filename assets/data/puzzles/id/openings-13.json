@@ -1,0 +1,15 @@
+{
+  "id": "openings-13",
+  "fen": "r1bq1rk1/p3nppp/1pnbp3/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 0 9",
+  "solution": [
+    "e5",
+    "Bxe5",
+    "Nxe5",
+    "Nxe5",
+    "Rxe5"
+  ],
+  "title": "Hitung Sebelum Mengunci",
+  "setup": "Susunan Serangan India Raja sudah lengkap, dan Hitam baru saja mendorong pion ke b6 dengan gajah di d6. Mainkan dorongan pusat yang menjadi tujuan susunan ini.",
+  "hint": "Satu dorongan merebut ruang sekaligus menawarkan sebuah pion. Hitung penyerang dan pembela di petak itu sebelum Anda berkomitmen.",
+  "explanation": "## Ide\n\n{{e5}} adalah dorongan yang menjadi poros setiap Serangan India Raja, dan ia merebut ruang sambil mendapat tempo atas gajah.\n\nIa juga menawarkan pion, dan mengambilnya adalah kesalahan. e5 diserang gajah di d6 dan kuda di c6, dan dilindungi kuda di f3 dan benteng di e1. Sesudah {{Bxe5}} {{Nxe5}} {{Nxe5}} {{Rxe5}}, Putih unggul gajah dengan imbalan pion. Pilihan terbaik Hitam adalah memundurkan gajah dan merelakan ruangnya.\n\nHitung nilai setiap penyerang, bukan hanya jumlahnya."
+}

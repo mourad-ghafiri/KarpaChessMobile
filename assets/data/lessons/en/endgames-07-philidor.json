@@ -1,0 +1,62 @@
+{
+  "id": "philidor-position",
+  "title": "The Philidor Draw",
+  "summary": "A pawn down in a rook ending, and the draw is a fence and then a distance",
+  "proof": "philidor-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Down a Pawn and Level",
+      "text": "White is a pawn up and this is still a draw. Your king on d8 guards c8, the square the pawn on c5 is trying to reach, which is the first half of the defense and the half you already have.\n\nThe second half is a rook move, and it has to come now, while White's pawn is still where it is. Philidor wrote the method down in 1777 and nobody has broken it since. Two ideas, played in a fixed order, and the order is most of the trick."
+    },
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Three Doors on the Sixth",
+      "text": "The pawn cannot get home by itself; your king is guarding the road, and White's rook on h7 keeps it on the back rank. So White's king has to come up and shoulder yours aside, and to come up it must cross the sixth rank — ranks counted from White's side here, as always.\n\nThat rank has exactly three doors: c6, d6 and e6. And a rook is not a guard on a square, it is a fence along a line, which means all three doors close in a single move."
+    },
+    {
+      "type": "play",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "prompt": "Take the whole sixth rank away from White's king before it can use one of those squares.",
+      "targetSan": [
+        "Ra6"
+      ],
+      "hint": "Only the rank matters, and a rook covers the whole of it from wherever it lands."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "Four Squares, Three of Them Retreats",
+      "text": "The fence is up, and White's king on d5 can now count its whole list: {{Kc4}}, {{Kd4}}, {{Ke4}}, {{Ke5}}.\n\nThree back, one sideways. c6, d6 and e6 have stopped being moves at all, because a king may not step onto a square your rook attacks. White is welcome to shuffle around out there for as long as the patience lasts. Shuffling does not walk a pawn home."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "The Push That Costs",
+      "text": "One move changes the position instead of the move number: {{c6}}.\n\nCount what White just paid. With the pawn on c5, the king had a roof: standing on c6, in front of its own pawn, it could never be checked from behind, because the pawn blocks the file. Now the pawn has taken that square itself, and the next roof would be c7, right beside your king.\n\nSo your fence has finished its work. What matters from here is distance."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Get to the Far End",
+      "text": "Your rook leaves the sixth rank and travels to the other end of the board, behind White's king, and checks from there.\n\nDistance is the whole defense. A king shakes off a rook that checks from nearby by walking up and threatening it; from the far end of the board there is nothing to walk to, and White's king would have to abandon the pawn on c6 to go looking. Every time it steps out to escort that pawn, one more check arrives, and they never run out."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Why You Waited",
+      "text": "Order matters more than either move does. Send the rook away first, while the pawn still stands on c5, and White never has to push at all: its king steps to c6, in front of its own pawn, where no check from behind can reach it because the pawn is in the rook's way. From under that roof it walks in, and the win is White's.\n\n> Hold the rank while the pawn sits still. The moment it moves, get as far from it as the board allows."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "prompt": "Switch from blocking to checking, from as far away as this board allows.",
+      "targetSan": [
+        "Ra1"
+      ],
+      "hint": "A checking rook the king can walk up to is no use, so count how far from White's king your rook can get."
+    }
+  ]
+}

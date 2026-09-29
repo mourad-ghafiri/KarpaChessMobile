@@ -1,0 +1,12 @@
+{
+  "id": "fork-10",
+  "fen": "8/2q1P1kp/p7/8/8/8/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "e8=N+"
+  ],
+  "rating": 1030,
+  "title": "La Donna Sbagliata",
+  "setup": "Il vostro pedone entra sull'ottava traversa in questa mossa, con il re nero in g7 e la sua donna in c7.",
+  "hint": "Una donna nuova qui non cambia niente. Chiedetevi quale pezzo darebbe scacco al re dalla casa di promozione.",
+  "explanation": "## L'idea\n\nUna donna in e8 non dà proprio nessuno scacco, e il Nero prosegue con la posizione pari. {{e8=N+}} colpisce insieme g7 e c7, il Nero deve rispondere allo scacco, e la donna cade alla mossa successiva. Promuovete a quello che la posizione richiede, non a quello che è più grande."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-09",
+  "fen": "8/1r6/6P1/8/8/2R3K1/8/4k3 b - - 0 1",
+  "solution": [
+    "Rb6"
+  ],
+  "rating": 1530,
+  "title": "A Travessia da Sexta Linha",
+  "setup": "O peão g das brancas está pronto a correr e o rei preto em e1 está longe de mais para ter voto na matéria.",
+  "hint": "A tua torre tem de encontrar o peão pela frente, e tem de chegar com ganho de tempo. Que linha faz as duas coisas?",
+  "explanation": "## A Ideia\n\nSó uma linha serve. {{Rb6}} mantém o peão sob fogo, e quando ele corre — {{g7}} — a torre atravessa com xeque: {{Rg6+}} {{Kh2}} {{Rxg7}}. De b8 a torre só consegue tapar sem xeque; de b5 chega atrás do peão, o que não serve de nada."
+}

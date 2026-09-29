@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-24",
+  "fen": "7k/6pp/6K1/7R/8/8/B7/8 w - - 0 1",
+  "solution": [
+    "Rxh7#"
+  ],
+  "title": "Bispo na Grande Diagonal",
+  "setup": "O peão de h7 dá xeque ao teu rei de g6. A tua torre em h5 e o teu bispo em a2 estão ambos prontos.",
+  "hint": "O último escudo do rei é um peão, e tanto o teu rei como o teu bispo distante já vigiam as casas à volta dele.",
+  "explanation": "## A Ideia\n\nEstás em xeque, e a resposta é mate. {{Rxh7#}} come o peão que dá xeque e dá xeque ao rei de h8 a partir da casa ao lado.\n\nO teu rei de g6 guarda h7, portanto o rei não pode comer a torre. O bispo de a2 cobre g8 do outro lado do tabuleiro, e g7 tem o peão das próprias pretas.\n\nUm bispo longe numa diagonal aberta pode cobrir à mesma a casa de que um mate precisa."
+}

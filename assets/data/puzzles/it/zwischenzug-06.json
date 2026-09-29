@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-06",
+  "fen": "1B4k1/5ppp/2r3R1/4r3/8/3Q4/PP1b4/K7 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1500,
+  "title": "I Pedoni Hanno Già Fatto il Lavoro",
+  "setup": "I pedoni stessi del Nero in f7, g7 e h7 hanno il re inscatolato, ma la torre nera in e5 e l'alfiere in d2 sono attivi.",
+  "hint": "Il matto è a uno scacco di distanza. Individuate la casa che il Nero è costretto a riempire e chi resta a prenderla.",
+  "explanation": "## L'idea\n\nA {{Qd8+}} si risponde solo {{Re8}}, visto che i pedoni si sono presi da soli ogni casa di fuga. {{Qxe8#}} conclude. Il riparo che il re si è costruito è la gabbia in cui muore."
+}

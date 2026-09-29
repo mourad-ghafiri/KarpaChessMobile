@@ -1,0 +1,12 @@
+{
+  "id": "pin-12",
+  "fen": "5k2/7p/5p2/4n2B/2q3r1/2P2N1P/5Qb1/6K1 w - - 0 1",
+  "solution": [
+    "Nxe5"
+  ],
+  "rating": 1200,
+  "title": "Le clouage arrive en retard",
+  "setup": "Le cavalier noir en e5 est défendu par le pion f6, et votre propre cavalier en f3 bloque votre dame.",
+  "hint": "Le pion qui protège e5 est libre de prendre en ce moment. Qu'est-ce qui change sur la colonne f dès que votre cavalier part ?",
+  "explanation": "## L'idée\n\n{{Nxe5}} gagne une pièce. Le pion f6 défend e5 — jusqu'à ce que votre cavalier quitte f3 et que votre dame en **f2** voie toute la colonne jusqu'au roi en **f8**. Le pion est cloué à l'instant même où l'on a besoin de lui, donc il ne peut pas reprendre."
+}

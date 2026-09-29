@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-05",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "exd5"
+  ],
+  "title": "Win the Center Pawn",
+  "setup": "Black has just pushed ...d5, offering a second center pawn to your e-pawn. Take the pawn Black has just offered.",
+  "hint": "When you can take a central pawn for free, almost always do it.",
+  "explanation": "## The Idea\n\n{{exd5}} takes the offered center pawn. The natural {{Qxd5}} brings Black's queen out early, and {{Nc3}} hits it at once, a free developing move. If Black pushes {{e4}} instead, the knight steps aside and you are still a pawn up.\n\nA center pawn is worth more than a wing pawn: when you can take one and keep it, do."
+}

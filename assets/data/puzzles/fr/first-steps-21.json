@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-21",
+  "fen": "8/5ppp/2k1b3/8/8/1N5P/4rPP1/3R2K1 w - - 0 1",
+  "solution": [
+    "Nd4+"
+  ],
+  "title": "Un saut, deux cibles",
+  "setup": "Votre cavalier en b3 est attaqué par le fou en e6 et doit bouger : choisissez la case où il frappe le plus fort.",
+  "hint": "Trouvez la case du cavalier qui met le roi noir en échec et attaque une autre pièce noire en même temps.",
+  "explanation": "## L'idée\n\nVotre cavalier doit bouger de toute façon, alors faites faire deux choses à ce coup. {{Nd4+}} met le roi en c6 en échec et attaque en même temps la tour en e2.\n\nLes Noirs doivent d'abord parer l'échec, et aucune pièce noire ne peut prendre le cavalier en d4. Une fois le roi écarté, {{Nxe2}} prend la tour.\n\nOn peut répondre à une menace. À deux menaces en un seul coup, en général, non."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "exchange-sacrifice",
+  "title": "Kalite Fedası",
+  "summary": "Ata karşı kale ve bir daha toparlanmayan piyonlar",
+  "proof": "strategy-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "İki İş Yapan Tek Taş",
+      "text": "Burada taş dengesi tamamen eşit ve beyazın bir taşı iki taşın işini yapıyor. c3'teki at e4'teki piyonu koruyor, b5 ile d5'i kapsıyor ve c1'deki beyaz şahın iki kare önünde duruyor.\n\nSiyah onun gitmesine bayılırdı. c3'e siyahın yalnızca tek bir taşı ulaşıyor — boş bir dikeyden inen c8'deki kale — ve kale beş puan ederken at üç puan eder.\n\nBir at ya da fil karşılığında kale vermenin kendi adı var: **kalite** verirsiniz."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "Fiyat Listesi",
+      "text": "Bir fedanın fiyatını yaptıktan sonra değil, yapmadan önce koyun.\n\nDiyelim c3'teki at kalktı ve beyaz geri aldı. c3'e beyazın tam olarak tek bir birimi ulaşıyor: b2'deki piyon. Tahtada başka hiçbir şey o kareye dokunmuyor, yani geri alma, b dikeyini temelli terk eden bir piyona mecbur kalıyor.\n\nBeyazın vezir kanadı o zaman iki dikeye yayılmış üç piyondan ibaret olur — biri a dikeyinde tek başına mahsur, ikisi c dikeyinde üst üste. İki tarafın da koyu kare fili yok, yani b2'yi gözleyen yalnızca şah kalır ve a3'ü gözleyen hiçbir şey kalmaz.\n\nOnarılamayacak bir hasar için iki puan."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "prompt": "Beyazın şahının önündeki piyonları parçalamak ve beyazın merkezini bir arada tutan taşı kaldırmak için iki puan ödeyin.",
+      "targetSan": [
+        "Rxc3"
+      ],
+      "hint": "c3'e açık yolu olan tam olarak tek bir siyah taş var ve o da pahalı olanı."
+    },
+    {
+      "type": "teach",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "title": "Şimdi Tahtadan Sayın",
+      "text": "Beyazın elinde iki kale, bir fil ve bir at var. Siyahın elinde bir kale, bir fil ve iki at var. İki puan gitti ve geri gelmesinin yolu yok.\n\nŞimdi öteki sütuna bakın. a2'deki piyonun komşusu kalmadı ve onu bir daha hiçbir piyon koruyamayacak. c2 ile c3'teki piyonlar tek dikeyde üst üste ve arkadaki hiç oynayamıyor. b dikeyinde beyazın hiç piyonu yok ve c1'deki şah o boşluğun yanında duruyor.\n\nSiyahın buradan sonra oynadığı her şeyin, kalenin satın aldığını harcaması gerekiyor."
+    },
+    {
+      "type": "play",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "prompt": "Vezirinizi, tek hamlede hem mahsur a piyonuna hem de ikili piyona vurduğu yere koyun.",
+      "targetSan": [
+        "Qa5"
+      ],
+      "hint": "Vezir kanadındaki bir kare hem a dikeyine dosdoğru bakıyor hem de beyazın şahının yanındaki koyu kareler boyunca uzanıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/2KR3R w - - 1 16",
+      "title": "Fazladan Bir Kale ve Onu Koyacak Yer Yok",
+      "text": "{{Kb1}}. Beyaz önce c dikeyinden çekilir; makul bir hamle ve pozisyonun geri kalanı için hiçbir şey yapmaz.\n\nFazladan kalenin ne yaptığına bakın. d1'deki kale beyazın kendi d4'teki atına çarpıyor. h1'deki kale beyazın kendi h4'teki piyonuna çarpıyor. c dikeyi, üstünde oturan iki beyaz piyonla tıpalanmış. Üç dikey ve beyaz hiçbirini kullanamıyor.\n\nKale, duracak bir yeri olduğunda beş puan eder. Bu kale, ulaşabildiği kadar eder."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "title": "Hesap Geldiğinde",
+      "text": "Aynı takas üç durumda düpedüz iki puanlık bir kayıptır: geri alma piyonları sağlıklı bırakıyorsa, takas rakibinize çalışacak bir dikey veriyorsa ya da ardından hiçbir şey gelmiyorsa. Taş konuşur ve onu ne kadar kendi hâline bırakırsanız o kadar yüksek sesle konuşur.\n\nBurada söz sırası ona hiç gelmiyor. Beyazın b1'deki şahının kendi dikeyinde piyonu kalmadı, c3'teki piyon çoktan ateş altında ve siyahın her taşı aynı köşeyi gösteriyor.\n\n> Kale satmıyorsunuz, kare satın alıyorsunuz — ve satın alınan karelerin kullanılması gerekir."
+    },
+    {
+      "type": "play",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "prompt": "Son kalenizi, beyazın geri almak zorunda kaldığı piyonun dikeyine dizin.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "O piyonu koruyan bir şey yok, ama onu hemen vezirle kapmak erken olur. Önce son kalenizi, piyonun durduğu dikeye getirin."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "sicilian",
+  "title": "La Defensa Siciliana",
+  "summary": "Un peón de flanco por un peón central, y dos bandos que ya nunca podrán copiarse",
+  "proof": "openings-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "title": "Un peón que viene del flanco",
+      "text": "Todo cambio altera dos cosas: lo que queda en el tablero y la forma en que quedan los peones. Aquí lo importante es lo segundo.\n\nEl peón blanco de d4 está a una diagonal de tu peón de c5, y la apertura gira en torno a si capturas. Si lo haces, entregas un peón que empezó en el borde del tablero y te llevas uno que estaba en el centro. Las Blancas recapturan, así que no se gana nada.\n\nLa forma no vuelve. Desde ese momento, los dos bandos tienen peones distintos en cada flanco, para siempre."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Cambia tu peón de flanco por el peón que las Blancas acaban de plantar en el centro.",
+      "targetSan": [
+        "cxd4"
+      ],
+      "hint": "Ordena tus peones según lo cerca que están del centro, y luego encuentra la captura que mejora esa cuenta."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "Lo que compró el cambio",
+      "text": "Las Blancas han recapturado y el material está igualado. Los peones cuentan el resto.\n\nTú tienes dos en el centro, en d6 y e7, contra uno de las Blancas en e4. En el flanco de dama las Blancas tienen tres contra tus dos. Nada de eso es todavía una ventaja. Es un desequilibrio, y el desequilibrio es lo que has pagado.\n\nLa columna c es el recibo. Tu peón la ha dejado y el peón blanco de c2 no: una **columna semiabierta**, en la que solo un ejército conserva un peón. Tú eres el ejército que puede usarla."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "Negarse a imitar",
+      "text": "Responde al peón de rey de las Blancas con el tuyo y los dos ejércitos quieren las mismas casillas, las mismas columnas, los mismos planes. Tarde o temprano alguien ofrece tablas y nadie tiene motivos para rechazarlas.\n\nEsta estructura no se puede copiar. Peones distintos en cada flanco significan planes distintos, y dos planes distintos hay que jugarlos hasta que uno demuestre ser mejor.\n\nEse es su atractivo, y por eso la Siciliana es la respuesta más jugada del mundo a una primera jugada de peón de rey."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "Jugada once",
+      "text": "Los dos bandos han terminado de sacar piezas, y la forma se ha mantenido. Tus peones de d6 y e6 forman un centro pequeño, uno al lado del otro: apretado a la vista y muy difícil de romper. Los peones blancos de e4 y f4 tienen más espacio y quieren abrir una línea en el flanco de rey.\n\nLas Negras dedican el medio juego a preparar un solo avance: {{d5}}. En cuanto ese peón llega, el centro pequeño se convierte en uno completo y todas las piezas que andaban cortas de aire se estiran. El plan blanco en el flanco de rey es una carrera por llegar antes."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "La columna que vaciaste",
+      "text": "Tu torre de a8 no se ha movido desde el comienzo de la partida y está mirando a tu propio peón de a6. Dos columnas más allá no tienes ningún peón.\n\nAl final de esa columna están los dos puntos más blandos de las Blancas: el peón de c2, que ningún peón blanco podrá defender jamás, y el caballo de c3, que sostiene el centro. El **contrajuego** de las Negras vive ahí: no en defender el flanco de rey, sino en la columna que abrió el cambio.\n\n> Un peón de flanco vale un peón central siempre que la columna que abre apunte a algo."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "prompt": "Lleva tu torre ociosa a la columna que dejó atrás tu peón de c.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "Ya no tienes ningún peón en esa columna, y los dos puntos más débiles de las Blancas están al fondo de ella."
+    }
+  ]
+}

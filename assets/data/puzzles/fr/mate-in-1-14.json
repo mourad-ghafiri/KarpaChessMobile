@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-14",
+  "fen": "7R/8/8/8/8/1K6/8/k7 w - - 0 1",
+  "solution": [
+    "Rh1#"
+  ],
+  "title": "Au bout du monde",
+  "setup": "Le roi noir est coincé dans le coin a1, et votre roi en b3 couvre a2 et b2.",
+  "hint": "Votre roi couvre déjà les cases au-dessus du roi noir. Votre tour n'a qu'à le mettre en échec là où il se tient.",
+  "explanation": "## L'idée\n\nVotre roi a fait le plus dur : en b3, il couvre a2 et b2, donc il ne reste au roi noir que b1.\n\n{{Rh1#}} donne échec le long de la première rangée, et b1 est aussi sur la ligne de la tour. Rien ne peut s'interposer, et le roi ne peut pas atteindre la tour.\n\nDans une finale roi et tour, votre roi prend les cases devant le roi adverse, et la tour donne échec à distance."
+}

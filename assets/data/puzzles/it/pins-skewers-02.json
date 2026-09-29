@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-02",
+  "fen": "r7/6pp/8/3k4/8/8/1K2B1PP/8 w - - 0 1",
+  "solution": [
+    "Bf3+",
+    "Kd4",
+    "Bxa8"
+  ],
+  "title": "Infilata sulla Grande Diagonale",
+  "setup": "Il re nero in d5 e la torre in a8 stanno sulla stessa grande diagonale, e il vostro alfiere è a un passo dal prendersela.",
+  "hint": "Date scacco al re lungo la linea che condivide con la torre, e guardate che cosa resta quando si sposta.",
+  "explanation": "## L'idea\n\nQuesta è un'infilata: il pezzo più prezioso sta davanti. {{Bf3+}} dà scacco al re in d5 lungo la grande diagonale, con la torre in a8 dietro di lui sulla stessa linea. Il re deve uscire dalla linea, e dopo {{Kd4}}, {{Bxa8}} raccoglie quello che ci si nascondeva dietro.\n\nUn'inchiodatura attacca attraverso il pezzo economico quello prezioso. Un'infilata attacca attraverso il pezzo prezioso quello economico."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "king-activity",
+  "title": "Activate Your King",
+  "summary": "The piece that hid all game now leads",
+  "proof": "endgame-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "Off the Back Rank",
+      "text": "All game the king had one instruction: stay hidden. The queens and rooks are gone from this board, and with them goes the reason for hiding. Nothing left here can build an attack on a king standing in the open.\n\nSo the instruction expires. White's king on g1 is a fighting piece now — it walks one square in any direction, it guards everything it touches, and it is worth somewhere between a bishop and a rook. It is also as far from the action as a piece can get."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "The Pawn Cannot Do It Alone",
+      "text": "Your pawn on e5 is stuck. {{e6}} {{Ke7}} — the pawn steps forward, the black king steps up to meet it, and nothing on the board defends e6.\n\nWhich leaves the king. It is the only piece here that can improve anything, and it improves something with every step toward the center. From g1, the center is three king moves away. There is nothing better to spend three moves on."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "prompt": "Head for d4 by the shortest road the king has.",
+      "targetSan": [
+        "Kf2"
+      ],
+      "hint": "A diagonal step cuts a file and a rank at the same time — only one of them starts a three-move walk."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/5K2/8 b - - 6 4",
+      "title": "Nothing But King",
+      "text": "{{Ke7}} {{Ke3}} {{Ke8}} {{Kd4}}. Two moves each, and not one of them touches a pawn.\n\nLook at what changed anyway. The king that started buried on g1 now stands on d4, beside its own pawn on e5 and ready to escort it. Black's king went out to e7 and came straight back, because there was nothing better for it to do either.\n\n> In the endgame the king goes first, and the pawns follow it home."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "title": "Count the Distance",
+      "text": "Five moves on, your king stands on d6 and Black's has gone hunting: even f6, the square it would want beside your pawn, is fenced off — e5 itself guards it.\n\nNow count the other side of the board. Black's king is three steps from the pawn on d7. Yours is closer than that, and Black's guards nothing over here anymore.\n\nAn active king needs no tactic. It wins material by standing in the right place at the moment the other king is somewhere else."
+    },
+    {
+      "type": "play",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "prompt": "Cash in on the black king's trip: take the pawn it stopped defending.",
+      "targetSan": [
+        "Kxd7"
+      ],
+      "hint": "Count the defenders of d7 now that the black king has walked out to g7."
+    }
+  ]
+}

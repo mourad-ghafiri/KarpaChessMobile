@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-10",
+  "fen": "7k/5K1p/8/8/8/8/8/6R1 w - - 0 1",
+  "solution": [
+    "Rg8#"
+  ],
+  "title": "Kapağı Kapatın",
+  "setup": "Siyahın şahı h7'deki kendi piyonunun arkasında h8'e sıkışmış ve f7'deki şahınız tam onun kaçış karelerinin yanında duruyor.",
+  "hint": "Kaleyi g dikeyinde yukarı adımlayın — kapağı şahınız ile siyahın piyonu kapatır.",
+  "explanation": "## Fikir\n\n{{Rg8#}} şaha tam yanındaki kareden şah çeker. f7'deki şahınız g8'i koruduğu için şah kaleyi alamaz. g7'yi hem şahınız hem kale kapsar ve h7'de siyahın kendi piyonu durur.\n\nŞahınız rakip şahın yanındaki bir kareyi koruduğunda kale tam oradan şah çekebilir."
+}

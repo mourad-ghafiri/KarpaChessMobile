@@ -1,0 +1,14 @@
+{
+  "id": "overload-12",
+  "fen": "7k/4Rppp/3n4/5Qr1/8/4N3/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Nxc8",
+    "Re8#"
+  ],
+  "rating": 1650,
+  "title": "Nöbetçiyi Uzağa Gönderin",
+  "setup": "Siyahın d6'daki atı hem c8'i hem e8'i kapsıyor ve kaleniz yedinci yatayda çoktan oturuyor.",
+  "hint": "Siyahın tek bir taşı iki kareyi tutuyor. Aslında istemediğinize saldırın.",
+  "explanation": "## Fikir\n\n{{Qc8+}} mat karesi değil — yemdir. Atın iki hamlesi de kaybeder ve {{Nxc8}} en azından bir şey alır, ama at e8'i gözden çıkarır; böylece {{Re8#}} iner. Koruyucuya yerine getirebileceği görevi verin, getiremediğinde başarısız olsun."
+}

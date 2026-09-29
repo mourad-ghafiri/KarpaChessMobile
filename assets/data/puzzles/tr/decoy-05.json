@@ -1,0 +1,14 @@
+{
+  "id": "decoy-05",
+  "fen": "6rk/pp4pp/8/8/8/q7/5PP1/3Q2KR w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Qh5#"
+  ],
+  "rating": 1310,
+  "title": "Köşeyi Açın",
+  "setup": "Siyahın şahı h8'de kendi kalesi ve piyonlarının arkasına saklanmış; onunla kaleniz arasında yalnızca h7 piyonu var.",
+  "hint": "Şahın hiç kurallı hamlesi yok. Hangi taş alma onu ulaşabileceğiniz tek kareye zorluyor?",
+  "explanation": "## Fikir\n\n{{Rxh7+}} bir piyon karşılığında kaledir ve {{Kxh7}} siyahın tek hamlesidir. h7'ye sürüklenen şah, kendi kalesi ve piyonuna sıkışır ve {{Qh5#}} uzaktan iner. Hedef hiçbir zaman kale değildi. h7 karesiydi."
+}

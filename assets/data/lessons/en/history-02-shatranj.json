@@ -1,0 +1,56 @@
+{
+  "id": "shatranj",
+  "title": "Shāh Māt",
+  "summary": "The word the game ends on, and a mate composed a thousand years ago",
+  "proof": "history-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "The Word at the End",
+      "text": "One border crossing gave chess the word it ends on.\n\nChaturanga traveled west out of India and became **chatrang** in Persia. Arabic has no *ch*, so the Arab world reshaped the name into **shatranj**, and that is the version history kept. The king was the **shāh**, and a player with nothing left to try was told **shāh māt** — the king is helpless, ambushed, out of answers.\n\nEurope wore the phrase down into *jaque mate*, *scacco matto*, *échec et mat*, checkmate."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "A Counselor and an Elephant",
+      "text": "Your queen is a European rewrite.\n\nThe queen on d1 was the **ferz**, the king's counselor, and it moved one square diagonally. That was all of it. The bishops were **alfils**, elephants, and an alfil jumped exactly two squares diagonally, straight over whatever stood between — eight squares of the board for a whole game, and no route to the other fifty-six.\n\nPawns went one square at a time, with no double first step and no castling to hide behind. A pawn that crossed the board became a ferz."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Three Ways to Win",
+      "text": "Shāh māt was not the only way to finish.\n\nStrip the last piece off the board and the **bare king** left standing had lost outright. Leave your opponent with no legal move at all and you had won again — stalemate was a victory, not a draw.\n\nBoth of those are gone from the rules you play by, and both say the same thing about shatranj. With pieces this slow, wins were not struck. They were assembled.\n\n> For the better part of a thousand years, the strongest piece in chess was the rook."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "title": "Composed, Not Played",
+      "text": "A game that slow puts the interest at the end, so the masters wrote endings down. **Al-Adli** compiled the earliest known manual on how to play, around 840; **as-Suli** came a century later and stood so far above everyone that *like as-Suli* survives in Arabic as praise.\n\nTheir manuscripts are full of *mansubat* — positions composed rather than played, each built around one exact answer.\n\nTwo moves from this board stands the **Arabian mate**: a rook beside the king, a knight guarding the rook. The rook on d7 and the knight on e4 move exactly as they did then, and both moves are yours."
+    },
+    {
+      "type": "play",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "prompt": "Send the knight to the one square that guards h7 and closes g8 to the black king at once.",
+      "hint": "Walk through the eight squares this knight can jump to, and ask which of them touches h7 and g8 together.",
+      "targetSan": [
+        "Nf6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "title": "Do Not Announce It Yet",
+      "text": "The knight landed, and Black had nothing to move but a pawn.\n\nThe rook on d7 sweeps the whole seventh rank, so g7 and h7 were never the black king's to use. The knight on f6 has closed g8, the last one — and it guards h7 as well, which is the half that matters, because h7 is where the rook has to stand.\n\nThe net is shut. The only way left to lose this is impatience: {{Rd8+}} looks like progress, and it is also the rook leaving the seventh rank. {{Kg7}}, and the king strolls out of the corner."
+    },
+    {
+      "type": "play",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "prompt": "Put the rook down beside the black king, on a square the knight is already defending.",
+      "hint": "Two of the knight's squares stand next to the king; only one of them is on a line the rook can travel.",
+      "targetSan": [
+        "Rh7#"
+      ]
+    }
+  ]
+}

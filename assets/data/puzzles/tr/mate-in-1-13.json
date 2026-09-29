@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-13",
+  "fen": "7k/8/8/5N2/8/8/6Q1/6K1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "At Destekli Öpücük",
+  "setup": "Siyahın şahı köşede sıkışmış ve f5'teki atınız onun tam yanındaki kareyi, g7'yi çoktan gözlüyor.",
+  "hint": "Vezir şahın yanında durmak istiyor. Taşlarınızdan hangisi o kareyi zaten koruyor?",
+  "explanation": "## Fikir\n\nBu, şah yerine bir atın desteklediği aynı vezir öpücüğüdür. f5'teki at g7'yi koruduğu için vezir oraya güvenle inebilir.\n\n{{Qg7#}} şah çeker. h8'deki şah veziri alamaz ve g8 ile h7'yi vezir kapsar. Yandaki kareden gelen şah kapatılamaz.\n\nÖpücük için her koruyucu iş görür: şah, at ya da piyon. Rakip şahın yanındaki korunan kareyi bulun."
+}

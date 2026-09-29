@@ -1,0 +1,50 @@
+{
+  "id": "zwischenzug",
+  "title": "Langkah Perantara",
+  "summary": "Tangkap balik belakangan, ancam lebih dulu",
+  "proof": "zwischenzug-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "Kuda yang Tak Dilindungi Siapa Pun",
+      "text": "Kuda Putih telah mendarat di d5, unggul satu pion, dan sama sekali tak ada yang melindunginya.\n\nMengambilnya seharusnya gratis. Ternyata tidak: gajah di g5 menjepit kuda di f6 terhadap menteri di d8, jadi begitu kuda itu menyingkir, gajah melesat ke d8 dan mengambil menteri dengan imbalan kuda.\n\nItulah seluruh ide Putih, dan Putih telah menghitungnya tepat sejauh itu."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "Hitung Melewati Tangkapan Balik",
+      "text": "Setiap pertukaran punya irama yang Anda pelajari sejak awal. Saya menangkap, Anda menangkap, dan kita berdua melihat apa yang tersisa di papan.\n\n**Langkah perantara** mematahkan irama itu. Alih-alih menangkap balik pada giliran yang semestinya, Anda memainkan sesuatu yang harus ditangani lawan lebih dulu — sebuah sekak, atau ancaman yang lebih berharga daripada buah yang tak terlindungi. Buah Anda masih tak terlindungi sesudahnya. Ia hanya menunggu.\n\nJadi sebelum Anda memutuskan sebuah penangkapan merugikan materi, tanyakan apa yang masih Anda ancam setelah debu mereda."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "prompt": "Rebut buah gratis itu meskipun balasannya memenangkan menteri Anda — hitungannya belum selesai.",
+      "targetSan": [
+        "Nxd5"
+      ],
+      "hint": "Sebelum Anda menolak sebuah penangkapan, tanyakan sekak mana yang masih ada di papan setelah balasan yang Anda takutkan."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "Putih Hanya Butuh Satu Langkah Bebas",
+      "text": "Menteri sudah hilang, dan gajah di d8 yang mengambilnya tak dilindungi apa pun.\n\nJangan anggap ia terjebak. Lihat diagonal di depannya: e7, f6, g5 dan h4 semuanya kosong. Beri Putih satu langkah tenang dan gajah itu berjalan keluar ke h4, unggul menteri dengan imbalan kuda, dan partai berhenti menjadi pertarungan.\n\nJadi gajah itu hanya bisa diambil selama Putih terlalu sibuk untuk menyelamatkannya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "Tangkapan Balik yang Kalah",
+      "text": "{{Kxd8}} adalah langkah yang terasa seperti hak, dan langkah itu membuang posisinya.\n\nHitunglah: Hitam menyerahkan menteri dan mengambil kembali kuda dan gajah. Kurang tiga poin, dan Putih masih memegang pion tambahan dari tadi.\n\nPosisi yang sama ini membayar gajah itu sepenuhnya. Satu-satunya perbedaan adalah apa yang dilakukan Hitam sebelum pergi mengambilnya.\n\n> Buah yang pasti bisa Anda ambil tak bertambah nilainya karena diambil sekarang. Tanyakan apa lagi yang bisa dikerjakan langkah itu."
+    },
+    {
+      "type": "play",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "prompt": "Temukan sekak yang membuat Putih terlalu sibuk untuk menyelamatkan gajah, lalu kembalilah untuk mengambilnya sesudahnya.",
+      "targetSan": [
+        "Bb4+"
+      ],
+      "hint": "Tepat satu buah hitam yang bisa memberi sekak di sini, dan ia belum meninggalkan petak awalnya sepanjang partai."
+    }
+  ]
+}

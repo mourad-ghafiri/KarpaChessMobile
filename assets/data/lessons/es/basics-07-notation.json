@@ -1,0 +1,59 @@
+{
+  "id": "notation",
+  "title": "Una letra y una casilla",
+  "summary": "Lee una partida impresa y reprodúcela jugada a jugada",
+  "proof": "notation-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Dos caracteres, una jugada",
+      "text": "Dos caracteres bastan para una jugada. El ajedrez tiene un único idioma escrito —la **notación algebraica**— y solo registra dónde **llegó** una pieza, nunca el camino que hizo.\n\nEl peón es el caso sencillo. No lleva letra, así que la casilla es toda la jugada. El peón blanco de e2 puede avanzar a {{e3}} o dos casillas a {{e4}}, y un libro los imprime como `e3` y `e4`.\n\nNo *peón blanco de e2 a e4*. Solo `e4`. Ya sabes leerlo."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppp1p/6p1/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "prompt": "Una partida impresa empieza `1.e4 g6`, y la siguiente anotación es `2.d4`: juega la jugada que indica.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Sin mayúscula, lo que se mueve es un peón, y un peón que sigue en su casilla inicial puede avanzar una o dos casillas."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "El alfabeto de las piezas",
+      "text": "Todas las piezas salvo el peón llevan una letra mayúscula, que va delante de la casilla. La aplicación usa la notación internacional, con letras tomadas de los nombres en inglés (los libros en español usan R, D, T, A y C): **K** es el rey, **Q** la dama, **R** la torre, **B** el alfil. El caballo recibe la **N**, porque la K ya estaba ocupada.\n\nAsí que una jugada escrita es una letra y una casilla, juntas. El alfil blanco de f1 puede llegar a e2, c4 o b5, y cada una de esas jugadas son las mismas dos ideas: {{Be2}}, {{Bc4}}, {{Bb5}}.\n\nNadie dice *qué* alfil. Solo uno puede llegar a la casilla nombrada, así que la letra y la casilla hacen todo el trabajo."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "prompt": "La siguiente anotación de las Blancas dice `Nf3`: coloca la pieza que nombra esa letra en la casilla que la sigue.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "La mayúscula no es K, y la K es del rey: así que nombra a la pieza que tuvo que conformarse con la segunda letra de su nombre en inglés."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Una jugada y luego la otra",
+      "text": "Una partida en papel no es más que estas pequeñas direcciones, una tras otra, alternando los bandos.\n\nLas Negras responden {{Nc6}}: N por la pieza, c6 por la casilla. Las Blancas contestan {{Bc4}}: B por la pieza, c4 por la casilla. Mira cómo el tablero juega las dos.\n\nTres preguntas bastan para leer cualquier jugada tranquila. ¿Hay mayúscula? ¿Qué letra es? ¿Qué casilla viene detrás? Las capturas y los jaques añaden su propia marca, y cada uno tendrá su lección más adelante."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "Números y puntos",
+      "text": "Las jugadas van por parejas, y una partida impresa numera cada pareja: `1.e4 e5 2.Nf3 Nc6 3.Bc4`. Número, jugada de las Blancas, jugada de las Negras.\n\nVeintitrés caracteres, y reconstruyen exactamente la posición que tienes delante. Por eso las partidas se imprimen como líneas de texto y no como imágenes.\n\nCuando una jugada de las Negras tiene que aparecer sola, tres puntos ocupan el lugar de las Blancas: `2...Nc6` es la respuesta de las Negras en la segunda jugada. Los puntos están ahí para que nunca pierdas la cuenta de a quién le toca.\n\n> Una letra para la pieza, dos caracteres para la casilla, un número para llevar la cuenta. Todo lo demás de la notación se construye sobre esos tres."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "La siguiente anotación del libro es `3...Nf6`: léela y juega la jugada de las Negras.",
+      "targetSan": [
+        "Nf6"
+      ],
+      "hint": "Un caballo negro ya ha salido a c6; el otro todavía no se ha movido y está en g8."
+    }
+  ]
+}

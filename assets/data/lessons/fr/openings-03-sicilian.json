@@ -1,0 +1,56 @@
+{
+  "id": "sicilian",
+  "title": "La défense sicilienne",
+  "summary": "Un pion d'aile contre un pion central, et deux camps qui ne pourront plus jamais se copier",
+  "proof": "openings-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "title": "Un pion venu de l'aile",
+      "text": "Chaque échange change deux choses : ce qui reste sur l'échiquier, et la forme dans laquelle restent les pions. Ici, c'est la seconde qui compte.\n\nLe pion blanc en d4 se trouve à une diagonale de votre pion en c5, et l'ouverture dépend de votre décision de prendre. Si vous prenez, vous donnez un pion parti du bord de l'échiquier et vous retirez un pion placé au centre. Les Blancs reprennent, donc rien n'est gagné.\n\nLa forme, elle, ne revient pas. À partir de cet instant, les deux camps ont des pions différents sur chaque aile, pour toujours."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Échangez votre pion d'aile contre le pion que les Blancs viennent de planter au centre.",
+      "targetSan": [
+        "cxd4"
+      ],
+      "hint": "Classez vos pions selon leur proximité du centre, puis trouvez la prise qui améliore ce compte."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "Ce que l'échange a acheté",
+      "text": "Les Blancs ont repris et le matériel est égal. Les pions racontent le reste.\n\nVous en avez deux au centre, en d6 et e7, contre un seul aux Blancs, en e4. Sur l'aile dame, les Blancs en ont trois contre vos deux. Rien de tout cela n'est encore un avantage. C'est un déséquilibre, et ce déséquilibre est ce que vous avez payé.\n\nLa colonne c en est le reçu. Votre pion l'a quittée et le pion blanc en c2 non — une **colonne semi-ouverte**, où une seule armée a encore un pion. C'est vous qui pouvez vous en servir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "Le refus du miroir",
+      "text": "Répondez au pion roi des Blancs par le vôtre et les deux armées veulent les mêmes cases, les mêmes colonnes, les mêmes plans. Tôt ou tard, quelqu'un propose la nulle et personne n'a de raison de refuser.\n\nCette structure ne se copie pas. Des pions différents sur chaque aile signifient des plans différents, et deux plans différents doivent se jouer jusqu'à ce que l'un se révèle meilleur.\n\nVoilà l'attrait, et voilà pourquoi la sicilienne est la réponse la plus jouée au monde au premier coup du pion roi."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "Onzième coup",
+      "text": "Les deux camps ont fini de sortir leurs pièces, et la forme a tenu. Vos pions en d6 et e6 forment un petit centre, côte à côte — étriqué à regarder, et très difficile à briser. Les pions blancs en e4 et f4 possèdent plus d'espace et veulent ouvrir une ligne sur l'aile roi.\n\nLes Noirs consacrent le milieu de partie à préparer une seule poussée : {{d5}}. Dès que ce pion arrive, le petit centre devient un vrai centre et toutes les pièces à court d'air s'étirent. Le plan des Blancs sur l'aile roi est une course pour arriver les premiers."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "La colonne que vous avez vidée",
+      "text": "Votre tour en a8 n'a pas bougé depuis le début de la partie, et elle fixe votre propre pion en a6. Deux colonnes plus loin, vous n'avez plus aucun pion.\n\nAu bout de cette colonne se trouvent les deux points les plus fragiles des Blancs : le pion en c2, qu'aucun pion blanc ne pourra jamais défendre, et le cavalier en c3, qui tient le centre. Le **contre-jeu** des Noirs est là — pas dans la défense de l'aile roi, mais sur la colonne que l'échange a ouverte.\n\n> Un pion d'aile vaut un pion central chaque fois que la colonne qu'il ouvre vise quelque chose."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "prompt": "Amenez votre tour inactive sur la colonne que votre pion c a laissée derrière lui.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "Aucun de vos pions n'est plus sur cette colonne, et les deux points les plus faibles des Blancs se trouvent tout au bout."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "rook-lift",
+  "title": "The Rook Lift",
+  "summary": "When no file reaches the king, go over the top",
+  "proof": "rook-lift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Two Rooks at Home",
+      "text": "Black's king on g8 has lost its g-pawn and its h-pawn, and your queen on h5 is already close. Black's queen on g7 stands in front of the king, the two of them in a line on the g-file.\n\nYour rooks are both still on the first rank. The c-file and the e-file are open, and neither goes anywhere near g8. The g-file does, and your own pawn on g2 shuts it.\n\nA rook that cannot find a file is five points of furniture."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Over the Top",
+      "text": "A rook does not have to reach the fight up a file. It can climb onto the third rank and walk sideways along it, over its own pawns instead of through them. That is a **rook lift**: up first, across second.\n\nYour third rank is empty from a3 to g3, and g3 is the square that matters. A rook there stands in front of your g-pawn, on the file where Black's queen and king wait in line.\n\n> When no file will open, take the rook over the pawns rather than waiting behind them."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "prompt": "Start a rook on its way to the g-file, where Black's queen stands in front of its king.",
+      "targetSan": [
+        "Rc3"
+      ],
+      "hint": "Both rooks can climb, but only one of them has a job where it stands. Look at the squares Black's bishop can reach."
+    },
+    {
+      "type": "teach",
+      "fen": "r3brk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/4R1K1 w - - 2 26",
+      "title": "The Rook That Stayed Home",
+      "text": "Black sees the threat and answers with one of its own: the bishop on e8 attacks your queen.\n\nBut e8 is on the open e-file, and your other rook never left it. {{Rxe8}} takes the bishop, {{Raxe8}} takes back, and nothing has touched the rook on c3 or the empty squares in front of it.\n\nThat is why the lift began from c1. The rook that climbs should be the one with nothing to do where it stands."
+    },
+    {
+      "type": "play",
+      "fen": "4rrk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/6K1 w - - 0 27",
+      "prompt": "Finish the lift and carry the rook across to the file where Black's queen stands in front of its king.",
+      "targetSan": [
+        "Rg3"
+      ],
+      "hint": "Once a rook stands on that file, the queen cannot step off it without leaving its king in check."
+    }
+  ]
+}

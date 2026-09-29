@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-08",
+  "fen": "8/2P5/8/1K1k4/4R3/8/8/1r6 w - - 0 1",
+  "solution": [
+    "Rb4"
+  ],
+  "rating": 1500,
+  "title": "Bangun Jembatannya",
+  "setup": "Pion c tinggal selangkah dari menjadi menteri, tetapi Putih dalam sekak di lajur b dan bentengnya juga diserang.",
+  "hint": "Dua masalah, satu langkah. Adakah petak tempat benteng Anda menghalangi sekak dan raja Anda sudah berjaga?",
+  "explanation": "## Ide\n\n{{Rb4}} menghalangi sekak di petak yang dilindungi raja: itulah jembatannya. {{Rxb4+}} {{Kxb4}}, dan pion menjadi menteri sebelum raja hitam bisa menghentikannya. Menyingkir dengan raja sebagai gantinya, dan {{Rc1}} turun di belakang pion tepat waktu."
+}

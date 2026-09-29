@@ -1,0 +1,12 @@
+{
+  "id": "pin-01",
+  "fen": "6k1/2R5/1p2r3/2p1P3/3b4/5B2/8/5K2 w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "rating": 800,
+  "title": "Inchiodato al Re",
+  "setup": "La torre nera in e6 sta sulla diagonale chiara che finisce sul suo re in g8.",
+  "hint": "Il vostro alfiere vuole una casa da cui la torre davanti a lui non abbia più dove scappare. Quale linea finisce su g8?",
+  "explanation": "## L'idea\n\nLa torre in **e6** e il re in **g8** condividono la diagonale a2–g8. {{Bd5}} ci entra, e la torre è inchiodata: muoverla esporrebbe il re, il che è illegale. E e6 non la difende nemmeno niente, quindi la torre si raccoglie e basta alla mossa successiva."
+}

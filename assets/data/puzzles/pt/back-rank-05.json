@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-05",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "A Marcha da Torre Solitária",
+  "setup": "O rei preto em g8 continua atrás de três peões intocados, e a tua torre em b1 tem uma coluna vazia à frente.",
+  "hint": "Conta as casas a que o rei preto chega e depois encontra a linha que ele não pode deixar.",
+  "explanation": "## A Ideia\n\nSem sacrifício e sem troca: a torre entra e pronto. {{Rb8#}} dá xeque ao longo da oitava linha. Os peões de f7, g7 e h7 tomam todas as casas à frente do rei, e a torre cobre f8 e h8. Nada das pretas pode tapar a linha nem comer a torre.\n\nTrês peões intocados à frente de um rei são uma parede até a linha de fundo se esvaziar. Depois são a razão de ser mate."
+}

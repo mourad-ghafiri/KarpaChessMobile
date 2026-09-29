@@ -1,0 +1,50 @@
+{
+  "id": "king-activity",
+  "title": "Activa tu rey",
+  "summary": "La pieza que se escondió toda la partida ahora abre la marcha",
+  "proof": "endgame-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "Fuera de la primera fila",
+      "text": "Durante toda la partida el rey tenía una sola instrucción: permanecer escondido. Las damas y las torres han desaparecido de este tablero, y con ellas el motivo para esconderse. Nada de lo que queda puede montar un ataque contra un rey a campo abierto.\n\nAsí que la instrucción caduca. El rey blanco de g1 es ahora una pieza de combate: se mueve una casilla en cualquier dirección, protege todo lo que toca y vale algo entre un alfil y una torre. También está tan lejos de la acción como puede estarlo una pieza."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "El peón no puede solo",
+      "text": "Tu peón de e5 está atascado. {{e6}} {{Ke7}}: el peón avanza, el rey negro sale a su encuentro, y nada en el tablero defiende e6.\n\nQueda el rey. Es la única pieza que puede mejorar algo aquí, y mejora algo con cada paso hacia el centro. Desde g1, el centro está a tres jugadas de rey. No hay nada mejor en lo que gastar tres jugadas."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "prompt": "Dirígete hacia d4 por el camino más corto que tiene el rey.",
+      "targetSan": [
+        "Kf2"
+      ],
+      "hint": "Un paso en diagonal avanza una columna y una fila a la vez: solo uno de ellos inicia una marcha de tres jugadas."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/5K2/8 b - - 6 4",
+      "title": "Nada más que rey",
+      "text": "{{Ke7}} {{Ke3}} {{Ke8}} {{Kd4}}. Dos jugadas cada uno, y ninguna toca un peón.\n\nMira lo que ha cambiado de todos modos. El rey que empezó enterrado en g1 está ahora en d4, junto a su peón de e5 y listo para escoltarlo. El rey negro salió a e7 y volvió enseguida, porque tampoco tenía nada mejor que hacer.\n\n> En el final, el rey va primero y los peones lo siguen a casa."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "title": "Cuenta la distancia",
+      "text": "Cinco jugadas después, tu rey está en d6 y el negro se ha ido de caza: incluso f6, la casilla que querría junto a tu peón, le está vedada, porque el propio e5 la protege.\n\nAhora cuenta el otro lado del tablero. El rey negro está a tres pasos del peón de d7. El tuyo está más cerca, y el negro ya no protege nada por aquí.\n\nUn rey activo no necesita táctica. Gana material estando en el sitio correcto cuando el otro rey está en otra parte."
+    },
+    {
+      "type": "play",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "prompt": "Cobra el paseo del rey negro: captura el peón que ha dejado de defender.",
+      "targetSan": [
+        "Kxd7"
+      ],
+      "hint": "Cuenta los defensores de d7 ahora que el rey negro se ha ido a g7."
+    }
+  ]
+}

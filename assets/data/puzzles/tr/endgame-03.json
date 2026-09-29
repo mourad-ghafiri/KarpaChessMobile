@@ -1,0 +1,11 @@
+{
+  "id": "endgame-03",
+  "fen": "8/8/7k/4P3/8/5K2/8/8 w - - 0 1",
+  "solution": [
+    "Ke4"
+  ],
+  "title": "Önce Şah, Piyon Sonra",
+  "setup": "e5'teki piyonunuz geçer piyon, ama h6'daki siyah şah onu tek başına yakalayacak kadar yakın. Tek bir hamle kazancı korur.",
+  "hint": "Piyonu değil, şahı sürün. Hangi kare, siyahın şahı oraya varmadan sizin şahınızı piyonun yolunun yanına koyar?",
+  "explanation": "## Fikir\n\nh6'daki siyah şah piyonun karesinin içinde duruyor, yani piyon yarışı tek başına kazanamaz. Ona bir eskort gerekiyor.\n\n{{Ke4}} kazancı koruyan tek hamledir: şah, piyonun yolunun yanındaki karelere hâlâ önce varabilecekken oraya yönelir. Bunun yerine {{e6}} sürerseniz ya da şahı başka bir yere gönderirseniz pozisyon beraberlik olur.\n\nSürmeden önce kareyi sayın. Rakip şah karenin içindeyse önce şah gider."
+}

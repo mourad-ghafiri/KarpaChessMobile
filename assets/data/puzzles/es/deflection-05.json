@@ -1,0 +1,14 @@
+{
+  "id": "deflection-05",
+  "fen": "6rk/ppq3pp/8/4N3/8/6P1/P4PK1/3R4 w - - 1 2",
+  "solution": [
+    "Ng6+",
+    "hxg6",
+    "Rh1#"
+  ],
+  "rating": 1260,
+  "title": "El único trabajo del peón de h",
+  "setup": "Al rey de h8 lo encajonan su propia torre y su peón, y solo el peón de h7 mantiene cerrada la columna h.",
+  "hint": "La columna h es el camino hacia ese rey, y un peón lo tapa. ¿Qué jaque obliga al peón a moverse?",
+  "explanation": "## La idea\n\n{{Ng6+}} deja a las Negras una sola jugada legal: {{hxg6}}. El peón tiene que comer, la columna h se abre y llega {{Rh1#}}. Un peón que tiene que comer es un peón que ha abandonado su puesto. Busca defensores que no tengan elección, no solo defensores que puedas comerte."
+}

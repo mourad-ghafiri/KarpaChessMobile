@@ -1,0 +1,56 @@
+{
+  "id": "english",
+  "title": "Pembukaan Inggris",
+  "summary": "Pertahanan Sisilia dengan warna tertukar, dan satu langkah lebih cepat",
+  "proof": "openings-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Sisilia di dalam Cermin",
+      "text": "Langkah pembuka Putih pergi ke sayap, dan jawaban Hitam langsung ke tengah. Putar papannya: pion di c4 berhadapan dengan pion di e5 adalah Pertahanan Sisilia dengan warna yang ditukar.\n\nDalam Sisilia yang sebenarnya, pion c milik Hitam, pihak yang melangkah kedua. Di sini struktur yang sama ada di papan dengan peran yang ditukar, dan pihak yang memegang pion c adalah pihak yang melangkah pertama.\n\nSatu tempo penuh, di ujung yang tak semestinya dari sebuah pertahanan."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Lambat dengan Sengaja",
+      "text": "{{Nc3}} {{Nf6}} {{g3}}. Dua kuda keluar, lalu Putih memakai satu langkah untuk pion yang tak menangkap apa pun dan tak menyerang apa pun.\n\nHitam mengambil ruang yang ditawarkan: {{d5}} merebut tengah, {{cxd5}} {{Nxd5}} mengosongkannya, dan seekor kuda hitam akhirnya berdiri di d5 tanpa pion putih di dekatnya.\n\nItulah yang dibayar tempo cadangan tadi. Pion di g3 tampak seperti langkah paling lambat di papan, tetapi ia mengosongkan sebuah petak, dan petak itu terletak di diagonal yang membentang dari h1 ke a8."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 5",
+      "prompt": "Keluarkan gajah petak terang agar ia memandang ke sepanjang diagonal panjang ke arah kuda yang baru diparkir Hitam di tengah.",
+      "targetSan": [
+        "Bg2"
+      ],
+      "hint": "Satu diagonal membentang dari sudut ke sudut sampai a8, dan sebuah langkah pion sudah mengosongkan bagian di sisi Anda."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPPBP/R1BQK1NR b KQkq - 1 5",
+      "title": "Gajah di Tepi",
+      "text": "Gajah di g2 memandang sepanjang papan, dan hal pertama yang ditemuinya adalah kuda di d5. Ia tak pernah perlu menyeberangi pusat untuk sampai ke sana.\n\nGajah yang dikembangkan seperti itu, keluar ke petak yang ditinggalkan pion kudanya sendiri, disebut **fianchetto**. Pionnya yang berjalan dan gajah menempuh jalan di belakangnya.\n\nSatu buah, dan seluruh argumen pembukaan sayap: kuasai tengah tanpa berdiri di dalamnya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Bertanya Sebelum Menjawab",
+      "text": "Alasan lain langkah ini terus muncul di level tertinggi tak ada hubungannya dengan diagonal. Botvinnik membangun sebuah sistem di atasnya, dan Kasparov maupun Carlsen sama-sama menjadikannya senjata utama.\n\nPion di d2 adalah pion yang tak bisa ditembak siapa pun. Beberapa pertahanan Hitam yang paling tajam ada untuk menyerang pion putih begitu ia melangkah ke d4, dan tak satu pun bisa dimulai sampai pion itu pergi ke sana.\n\nJadi Putih bertanya lebih dulu. {{e6}} {{Nc3}} {{d5}}, dan Hitam telah menjawab: tengah direbut, gajah di c8 terkurung di belakangnya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "title": "Tagihan untuk Menunggu",
+      "text": "Menunggu tidak gratis. Pion di c4 tidak memperebutkan d4 atau e4, jadi lawan yang merebut tengah dan mempertahankannya bisa membiarkan pion sayap itu menonton partai dari tepi.\n\nYang dibeli dengan menunggu adalah informasi, dan informasi hanya membayar jika dibelanjakan. Hitam kini sudah berkomitmen: pion terpaku di d5 dan e6, gajah di c8 terkurung di belakangnya, dan tak ada lagi pertahanan tajam untuk dipilih.\n\n> Pembukaan sayap adalah pembukaan pusat yang datang terlambat dengan sengaja."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "prompt": "Rebut tengah sekarang setelah susunan Hitam terpaku, dan arahkan partai ke Gambit Menteri yang tak bisa lagi dihindari Hitam.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Satu pion putih tetap di rumah selama ini, dan tak ada apa pun di kubu Hitam yang siap menghukumnya karena melangkah keluar."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "caro-kann",
+  "title": "Caro-Kann",
+  "summary": "Duvarı örmeden önce kötü fili çözün",
+  "proof": "openings-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Taş Yerine Piyon",
+      "text": "Siyah, 1.e4 hamlesine c piyonuyla karşılık verdi: hiçbir şeye saldırmayan, hiçbir şeyi geliştirmeyen ve boşa atılmış gibi duran bir hamle. Bir hamle sonra karşılığını veriyor. Siyahın ...d5 hamlesi bir taşla değil, bir piyonla desteklenerek geliyor ve tahtanın ortası değişilip kalkıyor.\n\nBu pozisyon böyle ortaya çıktı. Siyahın c6'da bir piyonu ve hâlâ evde duran bir ordusu var. Beyazın d4'te bir piyonu ve çıkmış ilk taşı, e4'teki at var.\n\nCaro-Kann, bunun siyah için iyi bir anlaşma olduğu iddiasıdır."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Duvarın Arkasındaki Fil",
+      "text": "1.e4 hamlesine verilen cevapların çoğu ...e6'ya yaslanır ve o piyon aynı anda iki iş yapar. Merkezi tutar ve c8'deki filin yolunda durur.\n\n{{e6}}. O filin tam olarak tek bir açık çaprazı vardır, c8'den h3'e; ve kendi piyonlarından biri az önce üstüne park etmiştir. Geriye d7 kalır; fil orada vezirin önünü keser ve hiçbir şeye bakmaz.\n\nSiyahın c piyonu, e piyonunun başka yerlerde gördüğü işi zaten görüyor. Yani bu filin oturup duvarı beklemek için hiçbir sebebi yok."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "O fili hemen şimdi piyonların dışına, aynı zamanda beyazın atına diklendiği kareye çıkarın.",
+      "targetSan": [
+        "Bf5"
+      ],
+      "hint": "Tahtada o atı koruyan hiçbir şey yok ve filin tek açık çaprazında ona saldıran tam olarak bir kare var."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p5/5b2/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Fil İçin İki Hamle",
+      "text": "Beyaz alınacak bir atı öylece bırakmaz. {{Ng3}} fili ilerletir, {{Bg6}} çaprazı korur ve {{h4}} yeniden sürüp fili o çaprazdan temelli kovmayı tehdit eder. {{h6}} h7'yi boşaltır, böylece filin arkasında her zaman bir kare olur.\n\nBunun neye mal olduğunu sayın. Siyah bir fili iki kez oynattı. Beyaz atı yeniden oynattı ve şahının önüne bir kale piyonunu iki kare çıkardı.\n\nİki taraf da zaman harcadı. Bunu piyonlara harcayan yalnızca biri ve piyon geri dönmez."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Şimdi Değil, Sonra Ödemek",
+      "text": "Siyah burada gelişimde geride ve Caro-Kann bunu kabul eder. Siyahın ilk dört hamlesinin üçü piyonlara gitti, yani beyaz önce bitirir ve partinin nerede oynanacağını o seçer.\n\nBu zamanın satın aldığı şey, beyazın ısıramayacağı bir yapı, iki kanattan birine de gidebilen bir şah ve g6'da kendi piyonlarının dışında serbest hava alan bir fildir.\n\nBeyazın h piyonu ise bu arada bir daha eve dönmeyecek. Taşlar kalkar, saldırı tükenir ve o piyon hâlâ şahın eskiden güvende olduğu yerde durur."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Beyaz Değişimi Reddediyor",
+      "text": "Başka bir beyaz ve daha üçüncü hamle. Ortada değişmek yerine bu beyaz, piyonu yanından ileri itip kapıyı kilitliyor: e5'te bir beyaz piyon, d4'te bir beyaz piyon ve siyahın gidecek yeri olmayan d5 piyonu.\n\nBir çaprazda duran ve arkadaki öndekini besleyen iki piyona **piyon zinciri** denir. Beyazınki d4'ten e5'e uzanır. Hasarı e5'teki piyon verir — siyahın atından f6'yı alır — ve onu orada tutan d4'tür. d4'ü ise piyonlardan başka bir şey, yalnızca taşlar tutar.\n\nYani zincire baştan değil, dipten saldırılır."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Önce Dışarı, Sonra Duvar",
+      "text": "Siyahın sorunu eski sorun. Merkez kilitliyken ...e6 gelmek zorundadır — d5'i destekler ve şah kanadındaki taşların nefes almasını sağlar — ve fili içeri kapatacak olan da aynı piyondur.\n\nO yüzden işi sıralama görür. Önce {{Bf5}} gider. Beyaz {{Nf3}} ile cevap verir ve ancak ondan sonra {{e6}} gelir: duvar filin önüne değil, arkasına örülür. {{Be2}} gelir ve siyah hazırdır.\n\n> Sizi kapana kıstıracak duvarı örmeden önce en kötü taşınızı dışarı çıkarın."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP1BPPP/RNBQK2R b KQkq - 1 5",
+      "prompt": "Beyazın zincirini ayakta tutan piyona, ona ulaşabilen tek piyonunuzla saldırın.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "Beyazın zincirini aşağı doğru izleyip başka hiçbir piyonun korumadığı piyonu bulun, sonra sizinkilerden hangisinin ona ulaşabildiğini sorun."
+    }
+  ]
+}

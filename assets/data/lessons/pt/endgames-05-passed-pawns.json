@@ -1,0 +1,56 @@
+{
+  "id": "passed-pawns",
+  "title": "Os Peões Passados",
+  "summary": "Desenha o quadrado antes de avançares",
+  "proof": "endgame-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Nada na Sua Estrada",
+      "text": "O teu peão em e5 tem um tabuleiro vazio à frente. Não há peão preto nenhum na coluna e, nem na d nem na f, portanto nunca se poderá empurrar nada para o seu caminho e nada poderá guardar as casas que ele tem de atravessar.\n\nIsso é um **peão passado**: um peão sem nenhum peão inimigo à frente na sua própria coluna nem em qualquer das colunas ao lado.\n\nResta-lhe um trabalho, e exatamente uma peça no tabuleiro pode discuti-lo. O rei branco em d1 está longíssimo, e isso não muda nada aqui."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Desenha o Quadrado",
+      "text": "Portanto a única pergunta é se o rei preto lá chega a tempo, e essa pergunta tem uma resposta exata.\n\nDesenha um quadrado com o peão de e5 num canto e a sua casa de promoção e8 no outro: e5, h5, h8, e8. Um rei dentro desse quadrado, ou capaz de lá entrar na sua vez, apanha o peão. Um rei fora dele nunca o apanha, por mais que corra.\n\nO rei preto em h4 está uma linha abaixo da borda de baixo. Três jogadas levam o peão a e8; a esse rei fazem falta quatro."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "prompt": "Decide se esse rei consegue apanhar o peão e depois joga a jogada que a tua resposta exige.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Esboça o quadrado e5–h5–h8–e8 e vê de que lado da borda de baixo está o rei preto."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/4P3/8/7k/8/8/3K4 b - - 0 5",
+      "title": "Uma Jogada Atrasado, Todas as Vezes",
+      "text": "{{Kg5}} {{e7}} {{Kf6}} {{e8=Q}}. A perseguição é honesta, e perde na mesma por uma só jogada.\n\nOlha para o que o avanço fez à caixa. Com o peão em e6 os cantos são e6, g6, g8, e8: três colunas de largura em vez de quatro. Cada passo em frente encolhe a área em que quem defende tem de estar, portanto um peão que já vai à frente só se torna mais difícil de apanhar.\n\nE também não há percurso esperto nenhum. O rei preto anda pela linha mais curta que tem, e a aritmética nunca muda."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Um Tabuleiro Onde Correr Perde",
+      "text": "Tabuleiro novo. O teu peão em e4 também é passado, sem nenhum peão preto em lado nenhum, e desta vez o rei preto em e8 não está fora do quadrado. Está estacionado na casa de promoção antes de a corrida ter começado.\n\n{{e5}} {{Ke7}} {{e6}}, e o peão foi direito contra um rei que não consegue passar. Nada tira esse rei da coluna: o teu próprio rei em e1 está três linhas atrás do peão e ali não lhe serve de nada.\n\nO peão não perdeu a corrida. Nunca teve nenhuma."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Quem Mais Pode Ajudar",
+      "text": "Portanto o peão não é a peça a mexer. Olha para o que mais as brancas têm: um rei em e1 que não fez nada a partida inteira, e uma longa caminhada pela frente.\n\nA bem dizer este peão já foi uma casa longe de mais — contra uma defesa perfeita a corrida é agora empate. É esse o preço de avançar antes de escoltar, e a escolta dá-te à mesma todas as hipóteses práticas.\n\n> Um peão sozinho é um alvo. Um peão com um rei ao lado é uma ameaça.\n\nO peão espera. Não tem mais nenhum sítio onde estar."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Põe o teu rei a caminho do peão, a subir pela coluna em que o peão está.",
+      "targetSan": [
+        "Ke2"
+      ],
+      "hint": "A caminhada é longa, portanto escolhe a estrada mais curta — a direito pela coluna que o peão já possui."
+    }
+  ]
+}

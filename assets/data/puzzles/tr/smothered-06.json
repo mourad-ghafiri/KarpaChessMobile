@@ -1,0 +1,12 @@
+{
+  "id": "smothered-06",
+  "fen": "2r3k1/pp3ppp/8/8/3n4/8/PP3PPP/KR1R4 b - - 5 24",
+  "solution": [
+    "Nc2#"
+  ],
+  "rating": 1310,
+  "title": "Koruyucu Yana Çekiliyor",
+  "setup": "Beyaz az önce kalesini açık c dikeyinden b1'e çekti ve şahına kare kalmadı.",
+  "hint": "Köşe tarafından iki at sıçrayışı şah çekiyor; yalnızca biri bir piyonun menzilinin dışında.",
+  "explanation": "## Fikir\n\nKale c1'i terk etti ve c2'yi kapsamayı bıraktı. {{Nc2#}} üç komşusu — a2, b2 ve b1 — kendi taşları olan bir şaha şah çeker ve beyazın hiçbir taşı c2'yi gözlemez. Öteki şah olan {{Nb3+}} ise axb3 ile ölür. Boğmaca matı yalnızca h8'de değil, her köşede yaşar."
+}

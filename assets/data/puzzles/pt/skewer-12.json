@@ -1,0 +1,14 @@
+{
+  "id": "skewer-12",
+  "fen": "8/1r5R/2kpB3/1bp1R3/3P4/2P2P2/4P3/K7 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kb6",
+    "Rxb7+"
+  ],
+  "rating": 1300,
+  "title": "O Bispo Arma, a Torre Come",
+  "setup": "O rei preto em c6 tem uma torre mesmo atrás, em b7, e a tua torre já é dona da sétima linha.",
+  "hint": "Que peça pode dar xeque numa diagonal que continua através do rei até à torre à espera atrás dele?",
+  "explanation": "## A Ideia\n\n{{Bd5+}} é o espeto: a diagonal d5–c6–b7 tem o rei e, atrás dele, a torre. A tua torre de **e5** guarda d5, portanto o xeque não pode ser comido. Depois de {{Kb6}}, {{Rxb7+}} ganha a torre, já que o bispo cobre agora também b7."
+}

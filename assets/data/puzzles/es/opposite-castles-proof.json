@@ -1,0 +1,13 @@
+{
+  "id": "opposite-castles-proof",
+  "fen": "4r1k1/pp2pp1p/2bp1npQ/q2N4/4PN2/5P2/PPP5/2K4R w - - 3 24",
+  "solution": [
+    "e5",
+    "Bxd5",
+    "exf6"
+  ],
+  "title": "El peón palanca",
+  "setup": "Reyes en flancos opuestos. Tu dama y tu torre comparten la columna h, la dama negra de a5 mira a a2, y solo el caballo de f6 ayuda al rey a proteger h7.",
+  "hint": "Aparta el caballo de f6 de h7 con la pieza más barata que tienes, y haz que les cueste a las Negras respondan lo que respondan.",
+  "explanation": "## La idea\n\nReyes opuestos lo convierten en una carrera, y la dama negra ya apunta a tu rey. Tú golpeas primero, con un peón. {{e5}} golpea al caballo de f6, la única pieza aparte del rey que protege h7.\n\nLo mejor para las Negras es recuperar un caballo con {{Bxd5}}. No cambia nada: {{exf6}} elimina al defensor igualmente. En cuanto las Negras recapturan, la dama y la torre de la columna h entran por h7, y {{Qxh7+}} y {{Qh8+}} empujan al rey hacia el centro, donde pierde mucho más que una pieza."
+}

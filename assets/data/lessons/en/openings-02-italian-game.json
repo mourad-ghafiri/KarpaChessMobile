@@ -1,0 +1,50 @@
+{
+  "id": "italian-game",
+  "title": "The Italian Game",
+  "summary": "Two bishops, one long argument about d4",
+  "proof": "openings-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Two Bishops, One Square",
+      "text": "Your bishop on c4 and Black's bishop on c5 are mirror images, and each one is staring at the square in the other camp that only a king defends: f7 for you, f2 for Black.\n\nThat is why both bishops chose these diagonals. It is also why nothing happens here. One attacker against one defender wins nothing, and the second attacker is several moves away on either side.\n\nSo the bishops settle in and wait, and the game goes looking for something to fight over."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "What They Fight Over",
+      "text": "It finds d4. Land a pawn there and keep it, and Black's bishop is hit on the diagonal it just settled into, while your pawns take the middle of the board.\n\nPush right now and you get none of that. {{d4}} {{exd4}} and the pawn you pushed is already gone; {{Nxd4}} puts a piece on the square instead, and the knight on c6 is looking straight at it.\n\nA pawn holds d4. A piece only visits."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Play the quiet move that lets a pawn, not a piece, take back on d4 when the push finally comes.",
+      "targetSan": [
+        "c3"
+      ],
+      "hint": "Which of your pawns can take one step and end up guarding the square your d-pawn wants to occupy?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "The Slow Italian",
+      "text": "Three moves later, and nobody has touched anybody. You have pawns on c3 and d3, Black has the knight on f6 and a pawn on d6, and both kings are tucked away in their corners.\n\nNothing is attacked. Nothing is even threatened. Both sides have finished the opening on schedule, which leaves the whole game still to be invented.\n\nThis is the version most Italian games turn into, and it is decided by preparation rather than by an attack on f7."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "Not Yet",
+      "text": "You could break open the center this second. Count what meets it: {{d4}} {{exd4}} {{cxd4}} and the bishop drops back with {{Bb6}}, where it leans on d4 again with the knight on c6 alongside it.\n\nTwo black pieces already lean on the pawn you just built, and yours are tied down holding it. The break is not wrong. It is early.\n\nSo you spend the waiting moves adding weight instead. Every white piece here has a job except one, and the pawn on c3 is standing on the square that piece was always meant to use.\n\n> The Italian is settled by who is ready when d4 finally lands."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "prompt": "Bring your last piece off its home square, toward the center and the kingside where the rest of your army is.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "It has exactly two squares available: one on the edge with no future, one in the middle that can travel onward later."
+    }
+  ]
+}

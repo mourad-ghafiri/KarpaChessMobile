@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-05",
+  "fen": "3r2k1/1p3ppp/2n5/b7/1N6/2P3P1/5P1P/R5K1 w - - 1 2",
+  "solution": [
+    "Nxc6"
+  ],
+  "rating": 1210,
+  "title": "Recupera la pieza",
+  "setup": "Tienes una pieza de menos. Tu torre mira por la columna a al alfil de a5, defendido solo por el caballo de c6.",
+  "hint": "El alfil de a5 tiene un defensor. Antes de comerte el alfil, pregúntate qué puede comerse al defensor.",
+  "explanation": "## La idea\n\n{{Nxc6}} elimina la única pieza que cubre a5. Tras {{bxc6}}, {{Rxa5}} se come el alfil: caballo por caballo, luego un alfil a cambio de nada, y el material vuelve a estar igualado. Cualquier cosa más lenta permite que {{Bxb4}} cambie tu caballo, y las Negras siguen con una pieza de más.\n\nEl defensor suele ser más barato que la pieza que defiende."
+}

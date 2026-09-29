@@ -1,0 +1,56 @@
+{
+  "id": "interference",
+  "title": "L'Interferenza",
+  "summary": "Mettetevi sulla strada del loro stesso difensore",
+  "proof": "interference-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "In Piedi sulla Porta",
+      "text": "Il vostro pedone in b7 è a una casa dalla donna. La torre in h8 è l'unica ragione per cui è ancora un pedone.\n\nProvate: {{b8=Q}} {{Rxb8}}. La torre non ha dovuto muoversi per coprire b8 — il lavoro l'hanno fatto cinque case di traversa vuota, e la nuova donna dura un turno.\n\nNiente di vostro attacca quella torre, e niente la caccia dall'ottava traversa. Ma la traversa non è la torre. La traversa è una strada, e le strade si possono chiudere."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Il Muro Sbagliato",
+      "text": "L'**interferenza** è mettere un pezzo sulla strada che un difensore sta usando. La strada, qui, è l'ottava traversa.\n\n{{Re8}} la chiude, e nemmeno l'abbattimento — torre prende torre, alfiere riprende — la riapre: il pedone promuove lo stesso. Ma quella versione spende una torre per un lavoro che può fare un alfiere. Costruite il muro con l'alfiere, e una torre nera che lo abbatte paga cinque punti per tre.\n\nQuando due dei vostri pezzi possono costruire lo stesso muro, mandate quello che vi potete permettere di perdere."
+    },
+    {
+      "type": "play",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Tagliate l'ottava traversa con il muro più economico che il Nero non può togliere gratis.",
+      "targetSan": [
+        "Be8"
+      ],
+      "hint": "Cercate il pezzo che arriva a quella traversa su una casa che la vostra torre difende già."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Pagato Due Volte",
+      "text": "{{Be8}}. L'alfiere è protetto dalla torre in e1, quindi prenderlo apre un cambio invece di chiudere una minaccia: la torre nera prende, la vostra torre riprende, e resta una torre bianca in piedi sull'ottava traversa.\n\nIgnorare l'alfiere non è meglio. {{Kg6}} {{b8=Q}}, e la torre in h8 ha guardato tutta la scena da dietro un muro attraverso cui non vedeva.\n\nIn ogni caso la traversa resta chiusa esattamente per il tempo che serve al pedone.\n\n> Una guardia che lavora lungo una linea non sta difendendo una casa. Sta difendendo una strada, e una strada si può chiudere."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Attaccato Una Volta, Difeso Una Volta",
+      "text": "Scacchiera nuova. Il cavallo in e5 è attaccato una volta e difeso una volta, che quasi sempre equivale a essere al sicuro.\n\nL'alfiere in b2 fa l'attacco, lungo la grande diagonale attraverso c3 e d4. La donna in c7 fa la difesa, lungo una diagonale più corta con esattamente una casa vuota in mezzo.\n\n{{Bxe5}} {{Qxe5}}: un alfiere per un cavallo, un cambio pari, e la donna nera atterra su una casa migliore di quella che ha lasciato. Il cavallo non è gratis finché quella guardia ci arriva."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Un Muro con una Minaccia Propria",
+      "text": "Il muro di alfiere ha tenuto perché dietro c'era una torre. C'è un secondo modo di far stare in piedi un muro: che arrivi portandosi dietro una minaccia sua.\n\nUn muro che attacca qualcosa costringe il Nero a rispondere a quello, così non avanza nessuna mossa per rimettere una guardia sul cavallo. Il muro è ancora lì quando venite a incassare.\n\nQui potete avere tutte e due le cose insieme. Uno dei vostri pedoni arriva alla casa vuota sulla diagonale della donna, l'altro pedone la copre lì, e la donna sta a portata di qualunque cosa atterri."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "prompt": "Vincete il cavallo chiudendo la linea che lo difende.",
+      "targetSan": [
+        "d6"
+      ],
+      "hint": "La guardia viaggia lungo una diagonale con una casa vuota sopra — occupate quella casa con qualcosa a cui il Nero deve rispondere."
+    }
+  ]
+}

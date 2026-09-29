@@ -1,0 +1,11 @@
+{
+  "id": "strategy-09",
+  "fen": "rnb1kb1r/1pq2ppp/p2ppn2/8/3NP3/3B4/PPP1QPPP/RNB2RK1 w k - 0 8",
+  "solution": [
+    "c4"
+  ],
+  "title": "La Mossa su cui il Nero Contava",
+  "setup": "Il pedone in a6 e la donna in c7 del Nero hanno esattamente un punto dietro di loro, e non è ancora successo. Fermatelo prima che succeda.",
+  "hint": "Chiedetevi che cosa gioca il Nero se voi non fate assolutamente niente, poi trovate la mossa che rende caro quel piano.",
+  "explanation": "## L'idea\n\nLo schieramento del Nero punta in una direzione: {{b5}}, poi l'alfiere in b7 e pressione lungo la grande diagonale su e4.\n\n{{c4}} cancella quel piano. Adesso il pedone copre b5 e d5, quindi la rottura perde materiale. Il Nero sviluppa con {{Be7}}, il Bianco completa la morsa con {{Nc3}}, e non resta nessuna rottura da preparare.\n\nIl prezzo: il pedone c non potrà mai tornare in c3 a sostenere il cavallo di d4. Una mossa profilattica costa quasi sempre qualcosa di piccolo. Pagatelo quando il piano che cancellate vale di più."
+}

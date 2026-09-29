@@ -1,0 +1,14 @@
+{
+  "id": "deflection-10",
+  "fen": "5rk1/pp3p1p/2n3p1/q7/8/1B6/PB4PP/4RQ1K w - - 1 2",
+  "solution": [
+    "Qxf7+",
+    "Rxf7",
+    "Re8#"
+  ],
+  "rating": 1440,
+  "title": "Keluar dari Baris Belakang",
+  "setup": "Benteng Hitam di f8 menahan pion f7 dan baris belakang sekaligus, dan gajah Anda di b3 memotong menembus f7.",
+  "hint": "Benteng itu satu-satunya buah yang menjaga baris kedelapan. Apa yang bisa Anda berikan kepadanya yang harus ia ambil?",
+  "explanation": "## Ide\n\n{{Qxf7+}} tak bisa diambil raja, karena gajah di b3 menguasai f7, jadi {{Rxf7}} terpaksa. Benteng kini terjepit dan keluar dari baris belakang, dan {{Re8#}} mengakhiri partai. Benteng yang harus menangkap balik adalah benteng yang tak lagi bertahan."
+}

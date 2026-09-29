@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-06",
+  "fen": "1k6/8/8/5Q2/8/3Kp3/6B1/8 w - - 0 1",
+  "solution": [
+    "Qd7",
+    "e2",
+    "Qb7#"
+  ],
+  "rating": 1560,
+  "title": "Biarkan Pionnya Berlari",
+  "setup": "Raja Hitam di b8 dan pionnya di e3 tinggal dua petak dari promosi, dengan raja Anda tepat di sampingnya di d3.",
+  "hint": "Pion itu bukan bahayanya. Rebut petak-petak raja dan biarkan pion itu maju.",
+  "explanation": "## Ide\n\n{{Qd7}} menguasai a7, b7, c7 dan c8 tanpa memberi sekak. Satu-satunya langkah sah Hitam adalah {{e2}}, dan {{Qb7#}} tiba lebih dulu. Pion bebas yang berpromosi satu langkah terlambat bukanlah pion bebas."
+}

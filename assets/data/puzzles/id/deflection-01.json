@@ -1,0 +1,14 @@
+{
+  "id": "deflection-01",
+  "fen": "2r3k1/pq3ppp/8/8/1n6/7P/PP1B1PP1/2RQ2K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Bxb4"
+  ],
+  "rating": 1100,
+  "title": "Menteri Punya Dua Tugas",
+  "setup": "Menteri Hitam di b7 melindungi benteng di c8 dan kuda di b4 sekaligus.",
+  "hint": "Satu buah hitam mengerjakan dua tugas. Beri ia sesuatu yang tak bisa ditolaknya dan lihat tugas mana yang dilepasnya.",
+  "explanation": "## Ide\n\n{{Rxc8+}} adalah sekak, jadi {{Qxc8}} terpaksa — dan menteri meninggalkan lajur b. {{Bxb4}} lalu memenangkan kuda. Benteng ditukar benteng lebih dulu, jadi menarik pembela itu tak merugikan apa pun. Carilah buah dengan dua tugas sebelum Anda mencari kombinasi."
+}

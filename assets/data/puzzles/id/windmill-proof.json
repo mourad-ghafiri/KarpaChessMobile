@@ -1,0 +1,13 @@
+{
+  "id": "windmill-proof",
+  "fen": "r4n1k/pq1n2Rp/1p3B2/2p5/8/2P4P/PP3PP1/6K1 w - - 0 1",
+  "solution": [
+    "Rxd7+",
+    "Kg8",
+    "Rxb7"
+  ],
+  "title": "Rampas Penjaganya Dulu",
+  "setup": "Benteng Anda di g7 berdiri di antara gajah Anda dan raja Hitam, jadi langkah benteng mana pun memberi sekak. Pilih yang tak bisa dijawab Hitam dengan penangkapan.",
+  "hint": "Sekak tersingkap bisa dijawab dengan menangkap buah yang memberikannya. Temukan apa yang bisa mengambil gajah Anda, dan buat itu mustahil.",
+  "explanation": "## Ide\n\nSetiap langkah benteng memberi sekak. Kebanyakan membiarkan kuda di d7 mengambil gajah di f6, dan kedua sekak ganda, di g8 dan h7, menyerahkan benteng Anda kepada raja. {{Rxd7+}} justru mengambil kuda itu, sehingga sekaknya tetap berdiri dan {{Kg8}} satu-satunya langkah sah.\n\nBenteng di d7 kini memandang di sepanjang baris ketujuh ke arah menteri, dan menteri tak punya waktu untuk lolos: {{Rxb7}} mengambilnya. Benteng itu memberi sekak, lalu merampas dua kali."
+}

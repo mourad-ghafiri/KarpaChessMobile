@@ -1,0 +1,56 @@
+{
+  "id": "catalan-advanced",
+  "title": "Katalan",
+  "summary": "Ödünç verilmiş bir piyon, temelli elde tutulan bir çapraz",
+  "proof": "openings-18.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Barselona, 1929",
+      "text": "Barselona'da 1929'da düzenlenen bir turnuva kendine ait bir açılış istedi ve Tartakower bir tane sağladı. Kentin çevresindeki bölgenin adı da ona yapıştı.\n\nŞekil şu: ortada iki piyon, sonra şah kanadı piyonlarında açılan bir delik; böylece fil g2'ye çıkıp tahtadaki en uzun çaprazı alabilsin.\n\nSiyah az önce c4'te duran piyonu aldı. c4'teki siyah piyon, beyazın o çapraz için ödediği bedel ve beyazın onu geri istemek için hiç acelesi yok."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Kimse Onu Kovalamıyor",
+      "text": "Piyonu tam şimdi geri almanın neye mal olacağını sayın. Bir taş, iki ya da üç hamle ve sonunda hiç istemediği bir karede kalır.\n\nSonra onu tutmanın siyaha neye mal olduğunu sayın. Siyahın hiçbir taşı c4'ü, kendisinin de sevdiği bir kareden korumuyor ve hiçbir siyah piyon vezir kanadını ileri itip arkasında delikler bırakmadan oraya ulaşamıyor.\n\nBeyaz da bunun yerine sıradan olanı yapar: her şeyi çıkarır, rok yapar ve piyon sahibinin sorunu olsun der. Piyon sonra geri gelir. Çaprazın ise hiç geri gelmesi gerekmez."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "prompt": "Şahınızla köşe arasında duran son taşı geliştirin ve onu merkeze doğrultun.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "Şah kanadında hâlâ evde duran bir hafif taş var ve istediği kare aynı zamanda d4'ü koruyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 1 5",
+      "title": "Piyon Eve Nasıl Döner",
+      "text": "Siyah {{Be7}} ile toparlanır, beyaz da {{O-O}} ile son işini bitirir. Fazladan piyon hâlâ c4'te oturuyor ve beyaz ona bir hamle bile harcamadı.\n\nSonra {{a6}} gelir; piyonu ikinci bir piyonla tutma planının ilk hamlesi. Ardından {{Qc2}}. Vezir, kendi c piyonunun eskiden işgal ettiği dikeyi alır ve dosdoğru yukarı bakar; g2'deki fil ise oraya konma sebebi olan çaprazı korur.\n\nSiyah bir piyon önde ve gelişimde geride. Bu takas yalnızca tek yönde işler."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "Öteki Katalan",
+      "text": "Siyahın alması şart değil. c6, d5 ve e6'daki piyonlar bunun yerine bir duvar örer ve duvar tutar — kırılma yok, açık dikey yok, beyazın vuracağı bir şey yok.\n\nBeyaz yine de hâlinden memnun. d4 ile c4'teki piyonlar siyahınkilerden daha çok yer tutuyor, g2'deki fil f3'teki atın arkasında ortanın açılacağı günü bekliyor ve beyazın her taşının çoktan bir karesi var.\n\nZayıflığı olmayan bir pozisyon da yavaş yavaş kaybedilebilir. Siyahın belirli bir taşa iş bulması gerekiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "Penceresiz Fil",
+      "text": "c8'deki filin hamlelerini sayın. Bir çaprazda kendi d7'deki atı duruyor, ötekinde kendi b7'deki piyonu. Sayı sıfır.\n\nSiyah burada kötü durumda olmaktan çok, bir taş eksik ve eksik olan taş evden hiç çıkmamış.\n\nÇıkış yolunu g2'deki fil gösteriyor. Ortadan geçen yolu olmayan bir fil, kenardan geçen yolu alır — aynı fianketto, öteki uçtan kurulur; ta ki ikisi tek bir çapraz boyunca birbirine dikilene kadar.\n\n> Kapalı bir pozisyonda geleceği olmayan taşı bulun ve ona bir gelecek verin."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "prompt": "Beyazınkine cevap veren fianketto'yu hazırlayın: sıkışmış filinize bakacağı uzun çaprazı verin.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Vezir filinizin tek bir kurallı hamlesi bile yok; öyleyse tek bir piyon adımının ona nasıl bir hamle kazandıracağını sorun."
+    }
+  ]
+}

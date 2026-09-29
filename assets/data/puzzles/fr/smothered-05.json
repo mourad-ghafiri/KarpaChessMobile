@@ -1,0 +1,12 @@
+{
+  "id": "smothered-05",
+  "fen": "6rk/pp4pn/8/4N3/2b5/8/P4PPP/3R2K1 w - - 4 23",
+  "solution": [
+    "Ng6#"
+  ],
+  "rating": 1275,
+  "title": "Pas de pion en h7",
+  "setup": "Les Noirs viennent de replier leur cavalier en h7, et le fou en c4 protège toujours la case f7.",
+  "hint": "Autre chose qu'un pion se tient en h7 — demandez-vous ce que cela change pour les cases voisines.",
+  "explanation": "## L'idée\n\nUn cavalier en g6 est d'ordinaire mangé par le pion h. Ici, h7 est occupée par un cavalier, qui ne protège rien à côté de lui, donc {{Ng6#}} est intouchable et g8, g7 et h7 sont toutes remplies par les propres pièces noires. La case d'étouffement habituelle, f7, est couverte par le fou en c4."
+}

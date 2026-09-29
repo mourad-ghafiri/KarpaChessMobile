@@ -1,0 +1,56 @@
+{
+  "id": "english",
+  "title": "L'Apertura Inglese",
+  "summary": "Una siciliana a colori invertiti, e un tempo in mano",
+  "proof": "openings-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Una Siciliana allo Specchio",
+      "text": "La prima mossa del Bianco è andata sull'ala, e la risposta del Nero è andata dritta al centro. Girate la scacchiera: un pedone in c4 di fronte a un pedone in e5 è una siciliana con i colori scambiati.\n\nIn una siciliana vera il pedone c appartiene al Nero, quello che muove per secondo. Qui la stessa struttura è sulla scacchiera con i ruoli invertiti, e chi ha il pedone c è chi ha mosso per primo.\n\nUn tempo intero, dalla parte sbagliata di una difesa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Lento di Proposito",
+      "text": "{{Nc3}} {{Nf6}} {{g3}}. Due cavalli fuori, e poi il Bianco spende una mossa su un pedone che non cattura niente e non attacca niente.\n\nIl Nero prende lo spazio offerto: {{d5}} reclama il centro, {{cxd5}} {{Nxd5}} lo sgombra, e un cavallo nero finisce in d5 senza nessun pedone bianco lì attorno.\n\nEcco che cosa ha pagato il tempo in più. Il pedone in g3 sembrava la mossa più lenta della scacchiera, ma ha svuotato una casa, e quella casa sta sulla diagonale che va da h1 ad a8."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 5",
+      "prompt": "Portate fuori l'alfiere campochiaro perché guardi lungo la grande diagonale il cavallo che il Nero ha appena parcheggiato in mezzo.",
+      "targetSan": [
+        "Bg2"
+      ],
+      "hint": "Una diagonale corre da angolo ad angolo fino ad a8, e una mossa di pedone ha già sgombrato il vostro lato."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPPBP/R1BQK1NR b KQkq - 1 5",
+      "title": "Un Alfiere sul Bordo",
+      "text": "L'alfiere in g2 guarda per tutta la lunghezza della scacchiera, e la prima cosa che incontra è il cavallo in d5. Non ha mai dovuto attraversare il centro per arrivarci.\n\nUn alfiere sviluppato così, fuori sulla casa che ha lasciato il pedone del proprio cavallo, è un **fianchetto**. Il viaggio lo fa il pedone e l'alfiere prende la strada dietro di lui.\n\nUn pezzo, e tutta la tesi delle aperture di fianco: tenere il centro senza starci dentro."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Chiedere Prima di Rispondere",
+      "text": "L'altra ragione per cui questa mossa continua a comparire ai massimi livelli non ha niente a che fare con le diagonali. Botvinnik ci costruì sopra un sistema, e Kasparov e Carlsen la tennero tutti e due come arma principale.\n\nUn pedone in d2 è un pedone a cui nessuno può sparare. Parecchie delle difese più taglienti del Nero esistono per colpire un pedone bianco appena mette piede in d4, e nessuna di esse può partire finché non ci va.\n\nQuindi il Bianco chiede per primo. {{e6}} {{Nc3}} {{d5}}, e il Nero ha risposto: centro preso, alfiere di c8 chiuso dietro."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "title": "Il Conto dell'Attesa",
+      "text": "Aspettare non è gratis. Un pedone in c4 non lotta per d4 né per e4, quindi un avversario che si prende il centro e se lo tiene può lasciare quel pedone d'ala a guardare la partita dal bordo.\n\nQuello che l'attesa compra è informazione, e l'informazione paga solo se la si spende. Adesso il Nero è impegnato: pedoni fissati in d5 e e6, l'alfiere di c8 inscatolato dietro, e nessuna difesa tagliente su cui ripiegare.\n\n> Un'apertura di fianco è un'apertura di centro che arriva tardi apposta."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "prompt": "Prendetevi il centro adesso che lo schieramento del Nero è fissato, e portate la partita in un Gambetto di Donna che il Nero non può più schivare.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Un pedone bianco è rimasto a casa per tutto questo tempo, e niente nel campo nero è pronto a punirlo se esce."
+    }
+  ]
+}

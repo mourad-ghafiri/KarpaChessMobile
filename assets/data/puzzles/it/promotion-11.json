@@ -1,0 +1,14 @@
+{
+  "id": "promotion-11",
+  "fen": "B5k1/P5p1/7p/8/8/8/2r2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kh8",
+    "a8=Q+"
+  ],
+  "rating": 1370,
+  "title": "L'Alfiere si Sposta",
+  "setup": "Il vostro pedone in a7 è a una casa dalla promozione e il vostro stesso alfiere siede in a8, proprio sul suo cammino.",
+  "hint": "L'alfiere deve liberare la casa, e dovrebbe atterrare dove il Nero non abbia una mossa libera per intromettersi.",
+  "explanation": "## L'idea\n\n{{Bd5+}} libera a8 con scacco lungo la diagonale a2-g8. Il Nero deve rispondere allo scacco, e nessuna risposta ferma il pedone: dopo {{Kh8}} o {{Kf8}}, {{a8=Q+}} promuove perfino con scacco, e dopo {{Kh7}} il pedone promuove lo stesso. Liberare la casa con scacco è tutto il punto."
+}

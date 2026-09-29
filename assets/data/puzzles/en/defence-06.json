@@ -1,0 +1,14 @@
+{
+  "id": "defence-06",
+  "fen": "8/7B/6R1/1K1k4/r4q2/4Q3/r7/8 w - - 0 1",
+  "solution": [
+    "Bg8+",
+    "Qf7",
+    "Bxf7#"
+  ],
+  "rating": 1650,
+  "title": "The Bishop Interposes for You",
+  "setup": "Black has a queen on f4 and rooks on a4 and a2 aimed at your king on b5 — the threats are everywhere.",
+  "hint": "Find the check that Black can only meet by putting its strongest piece in the way.",
+  "explanation": "## The Idea\n\n{{Bg8+}} forces {{Qf7}}, because nothing else blocks, and {{Bxf7#}} takes the queen and the game together. A check that demands a specific block is worth more than a check that merely annoys."
+}

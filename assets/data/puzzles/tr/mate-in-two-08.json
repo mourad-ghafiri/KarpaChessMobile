@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-08",
+  "fen": "2n4k/8/8/2r1p2P/4Q1B1/3R4/PP6/7K w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Kg7",
+    "Qg6#"
+  ],
+  "rating": 1250,
+  "title": "Bir Piyon Veziri Destekliyor",
+  "setup": "Kaleniz sekizinci yatayı ele geçirebilir ve h5'teki mütevazı bir piyon g6 karesini sessizce destekler.",
+  "hint": "Şahın yanında, piyonlarınızdan birinin zaten koruduğu kareyi bulun, sonra arka yatayını elinden alın.",
+  "explanation": "## Fikir\n\n{{Rd8+}} arka yatayı alır ve {{Kg7}} hamlesini zorlar; c8'deki at araya giremez. Ardından {{Qg6#}}: vezir şahın tam yanına adımlar, **h5**'teki piyon onu korur ve kale sekizinci yataydaki her kareyi mühürler."
+}

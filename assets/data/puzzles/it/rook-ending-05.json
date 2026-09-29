@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-05",
+  "fen": "6R1/8/5r2/K7/3P3k/8/8/8 b - - 0 1",
+  "solution": [
+    "Rd6"
+  ],
+  "rating": 1390,
+  "title": "Di Mezzo",
+  "setup": "Il re nero è arenato in h4, quindi la torre deve occuparsi del pedone d libero tutta da sola.",
+  "hint": "Attaccare il pedone non è come fermarlo. Su quale casa deve andare a finire il pedone?",
+  "explanation": "## L'idea\n\n{{Rd6}} pianta la torre dritta davanti al pedone, e adesso {{d5}} va addosso a {{Rxd5+}}. Colpitelo di lato con {{Rf4}} e il Bianco risponde {{Rd8}}, difendendo da dietro, e dopo di che il pedone sale per la scacchiera."
+}

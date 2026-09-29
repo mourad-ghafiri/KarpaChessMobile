@@ -1,0 +1,56 @@
+{
+  "id": "sacrifice-on-f7",
+  "title": "Pengorbanan di f7",
+  "summary": "Satu pembela, dan pembela itu adalah raja",
+  "proof": "f7-sacrifice-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Setiap Pion Kecuali Dua",
+      "text": "Setiap pion di depan raja punya buah di belakangnya, kecuali dua. f7 dan f2 hanya dijaga raja, dan tetap begitu sampai raja itu rokade atau sebuah buah diseret untuk membantu.\n\nHitam belum melakukan keduanya. Benteng di h8 belum pernah bergerak, begitu pula gajah di f8, dan menteri di d8 sibuk menahan kuda di d5.\n\nJadi buah yang mendarat di f7 tak bisa dijawab dengan tangkapan balik yang murah. Tak ada lagi yang murah untuk menjawabnya. Raja harus melakukannya sendiri."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Dihargai Menurut Apa yang Dibelinya",
+      "text": "Buah untuk pion adalah pertukaran yang rugi di atas kertas. Di sini itu sama sekali bukan pertukaran, karena Hitam tak boleh menolak.\n\nHitung petak-petak yang dicapai kuda dari f7. Dua di antaranya d8 dan h8, tempat menteri dan benteng duduk, jadi menolak lebih mahal daripada menerima.\n\nDan menerima menyeret raja keluar ke f7 di depan pasukan yang belum bergerak. Gajah Anda di c4 sudah menekan kuda di d5, dan kuda itu satu-satunya yang menjaga diagonal tetap tertutup."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "prompt": "Serahkan sebuah buah untuk mengambil satu-satunya pion yang dijaga raja Hitam, dan tarik raja itu ke tempat terbuka.",
+      "targetSan": [
+        "Nxf7"
+      ],
+      "hint": "Hanya satu buah Anda yang bisa mencapai f7 — jalan yang lain terhalang di d5."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/ppp2kpp/2n5/3np3/2B5/8/PPPP1PPP/RNBQK2R w KQ - 0 7",
+      "title": "Kini Rajalah Masalahnya",
+      "text": "Raja berada di f7 pada langkah ketujuh, dan hal pertama yang dilakukannya adalah menghalangi. Gajah Anda di c4 memandang menembus kuda di d5 lurus ke raja itu, jadi kuda terjepit dan sama sekali tak bisa bergerak.\n\n{{Qf3+}} membawa penyerang kedua ke d5 dengan sekak. Raja Hitam punya lima petak, dan {{Ke6}} adalah yang menjaga kuda yang terjepit — raja yang berjalan naik di papan untuk menahan sebuah buah tetap utuh. Lalu {{Nc3}}: tiga penyerang, dua pembela, dan salah satu pembelanya adalah raja itu sendiri."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "Umpan, dan Tetap Ambil",
+      "text": "Papan yang lain, dan di sini f7 sedang ditawarkan. Gajah Hitam di c5 baru saja ditanam berhadapan dengan f2, petak di sisi Anda yang punya penjaga kesepian yang sama.\n\nSebagian besar pengorbanan di f7 tak pernah memberi mat kepada siapa pun, dan yang ini pun tidak. Yang dibeli sebuah buah di sini lebih kecil dan permanen. Raja Hitam tak bisa menangkap di f7 selama kuda di g5 menguasainya, jadi ia bergeser ke e7 atau f8 dan kehilangan hak rokade untuk sisa partai — parkir di depan bentengnya sendiri di h8, dengan gajah di c8 terkurung di belakangnya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "Dua Jalan Masuk",
+      "text": "Dua buah Anda bisa mencapai f7, dan keduanya membeli hal yang berbeda.\n\n{{Nxf7}} menggarpu menteri dan benteng, langkah yang diajarkan posisi sebelumnya untuk Anda inginkan. Itu juga langkah yang diundang oleh langkah terakhir Hitam: {{Bxf2+}}, dan kini raja Anda sendiri yang dalam sekak, dengan tiga langkah sah dan pertarungan liar di depan. Langkah itu bisa dimainkan, tetapi itulah pertarungan yang dipilih Hitam.\n\n> Putuskan apa yang Anda beli sebelum Anda mengorbankan buahnya: sebuah mat, atau raja yang tak pernah bisa pergi."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "prompt": "Ambil pion di f7 dengan buah yang tak diharapkan Hitam, dan akhiri hak rokade Hitam untuk selamanya.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "Penangkapan dengan kuda adalah yang sudah disiapkan Hitam — lihat apa yang dilakukan penyerang Anda yang lain saat masuk."
+    }
+  ]
+}

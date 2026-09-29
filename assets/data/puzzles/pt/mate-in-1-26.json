@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-26",
+  "fen": "3k4/3P4/3K4/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Cinto e Suspensórios",
+  "setup": "O teu peão em d7 está mesmo à frente do rei preto, e o teu rei em d6 guarda-o.",
+  "hint": "Varre a torre para a oitava linha — o teu rei e o teu peão já vedam tudo o que está abaixo.",
+  "explanation": "## A Ideia\n\nO peão de d7 não dá xeque, mas trabalha: tira d7 ao rei e ataca também c8 e e8.\n\n{{Ra8#}} dá xeque pela linha de fundo. c8 e e8 estão na linha da torre, o teu rei de d6 cobre c7 e e7, e guarda também o peão, portanto o rei não o pode comer.\n\nAté um peão humilde pode ser a peça que fecha uma rede de mate."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "strategy-09",
+  "fen": "rnb1kb1r/1pq2ppp/p2ppn2/8/3NP3/3B4/PPP1QPPP/RNB2RK1 w k - 0 8",
+  "solution": [
+    "c4"
+  ],
+  "title": "La jugada con la que contaban las Negras",
+  "setup": "El peón a a6 y la dama a c7 de las Negras persiguen exactamente una idea, y todavía no ha ocurrido. Impídela antes de que ocurra.",
+  "hint": "Pregúntate qué juegan las Negras a continuación si no haces nada, y luego encuentra la jugada que encarece ese plan.",
+  "explanation": "## La idea\n\nEl esquema negro apunta en una dirección: {{b5}}, luego el alfil a b7 y presión por la gran diagonal sobre e4.\n\n{{c4}} borra ese plan. Ahora el peón cubre b5 y d5, así que la ruptura pierde material. Las Negras desarrollan con {{Be7}}, las Blancas completan el cerrojo con {{Nc3}}, y no queda ninguna ruptura que preparar.\n\nEl precio: el peón de c nunca podrá volver a c3 para apoyar al caballo de d4. Una jugada profiláctica casi siempre cuesta algo pequeño. Págalo cuando el plan que borras valga más."
+}

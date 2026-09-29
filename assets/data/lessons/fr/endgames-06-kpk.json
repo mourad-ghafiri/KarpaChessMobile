@@ -1,0 +1,56 @@
+{
+  "id": "k-p-vs-k",
+  "title": "Roi et pion contre roi",
+  "summary": "Un pion de moins, et les deux cases qui tiennent la nulle",
+  "proof": "endgame-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "À une colonne du bord",
+      "text": "Un pion de moins avec le roi adverse qui l'escorte déjà, c'est d'ordinaire une formalité. Pas sur cette colonne.\n\nLe pion blanc en a6 va à dame en a8, et a8 est une case de coin qui n'a que trois voisines au lieu de cinq. Ce manque pénalise l'attaquant : pour chasser un roi de b8 et a8, les Blancs ont besoin de cases que le bord de l'échiquier ne leur a jamais données.\n\nVotre roi en c8 a un pas qui transforme le coin en mur, et deux qui offrent la partie aux Blancs."
+    },
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "Le pas qui perd",
+      "text": "S'éloigner du pion semble prudent, et c'est ici fatal.\n\n{{Kd8}} garde votre roi à une colonne confortable. {{Kb7}} y répond, et toutes les cases autour du pion appartiennent maintenant aux Blancs. {{Kd7}} est le seul pas qui reste à proximité, et {{a7}} lance le pion sur une route dégagée avec un roi qui tient la porte.\n\nVous n'alliez jamais distancer ce pion. Le coin était le seul atout sur l'échiquier, et s'en éloigner revenait à l'abandonner."
+    },
+    {
+      "type": "play",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "prompt": "Allez sur la seule case qui ne laisse au roi blanc aucune place à côté du pion.",
+      "targetSan": [
+        "Kb8"
+      ],
+      "hint": "Cherchez la case où les Blancs doivent soit abandonner le pion, soit vous laisser sans aucun coup légal."
+    },
+    {
+      "type": "teach",
+      "fen": "1k6/8/PK6/8/8/8/8/8 w - - 11 9",
+      "title": "Les Blancs manquent d'échiquier",
+      "text": "Laissez maintenant les Blancs essayer.\n\n{{a7+}} est échec, et {{Ka8}} est la seule réponse qui ne laisse pas simplement le pion aller à dame. Votre roi est dans le coin, et le roi blanc en b6 a besoin de b7 pour tirer quelque chose du pion. Il ne peut pas l'avoir : votre roi couvre cette case depuis a8.\n\nLes Blancs doivent donc s'écarter. {{Ka6}}, et regardez ce que vous possédez — b7 et b8 sont toutes deux couvertes, votre roi n'a nulle part où aller, et rien ne donne échec. Pat. Tout autre pas blanc laisse votre roi aller en a7 prendre le pion."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "L'autre échiquier",
+      "text": "Retirez le coin et toute la méthode change. Le pion est en d5, et d8 est une case ordinaire avec cinq voisines ordinaires.\n\nVotre roi en d7 fait déjà la moitié du travail : il se tient sur la route du pion, devant lui, et un pion ne traverse pas un roi.\n\nL'autre moitié, c'est le roi blanc en c5, et c'est celle qu'on oublie.\n\n> Devant le pion, et face au roi adverse à une case vide d'écart. Les deux, à chaque fois."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "Reculer n'est pas s'écarter",
+      "text": "L'instinct pousse à reculer le long de la colonne en gardant le pion devant soi. Cela perd.\n\n{{Kd8}} ressemble à la même défense une rangée plus bas. {{Kd6}} y répond : le roi blanc est maintenant devant le pion, à une case du vôtre, et c'est vous qui devez jouer. {{Kc8}} s'écarte, e8 étant la même histoire en miroir, {{Ke7}} vous contourne, et le pion suit à son aise."
+    },
+    {
+      "type": "play",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "prompt": "Prenez l'opposition face au roi blanc pour que ce soient les Blancs, et non vous, qui doivent s'engager.",
+      "targetSan": [
+        "Kc7"
+      ],
+      "hint": "Les rois se font face sur une colonne avec une case vide entre eux, et le roi blanc n'est pas sur la même colonne que le vôtre."
+    }
+  ]
+}

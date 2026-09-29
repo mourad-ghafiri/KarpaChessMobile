@@ -1,0 +1,12 @@
+{
+  "id": "discovery-01",
+  "fen": "3r3k/5p1p/6p1/4N3/8/3q4/1B3PPP/5RK1 w - - 0 1",
+  "solution": [
+    "Nxd3+"
+  ],
+  "rating": 960,
+  "title": "A Peça da Frente",
+  "setup": "O teu bispo em b2 aponta ao rei preto, e o teu próprio cavalo de e5 é a única coisa no caminho.",
+  "hint": "Uma peça tua está entre o bispo e o rei inimigo. O que acontece no instante em que ela sai?",
+  "explanation": "## A Ideia\n\nO cavalo é a peça da frente de uma bateria. {{Nxd3+}} come a dama e desmascara o xeque do bispo sobre h8 na mesma jogada, portanto as pretas têm de responder ao xeque em vez de recapturar. Uma peça defendida não está bem defendida quando comê-la vem com xeque."
+}

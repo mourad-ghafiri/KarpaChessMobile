@@ -1,0 +1,11 @@
+{
+  "id": "fianchetto-proof",
+  "fen": "5rk1/pp1bppbp/3p1np1/q7/2r1P1P1/2N1BP2/PPPQN3/2KR3R w - - 3 17",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Kárpov caza al alfil",
+  "setup": "Kárpov contra Korchnói, Moscú 1974. Tus peones han subido por el flanco de rey, y una sola pieza negra sigue protegiendo las casillas negras alrededor del rey negro.",
+  "hint": "Contra un fianchetto cazas una sola pieza. ¿Cuál de las tuyas recorre sus mismas casillas?",
+  "explanation": "## La idea\n\n{{Bh6}} ofrece tu alfil de casillas negras por el negro, la única pieza que responde por f6 y h6. Tras {{Bxh6}} {{Qxh6}} la dama llega a la casilla que abandonó el peón de g y mira a g7 y h7, y ningún peón negro podrá echarla jamás.\n\nKárpov siguió con el peón de g y las torres, y las Negras abandonaron diez jugadas después."
+}

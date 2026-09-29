@@ -1,0 +1,14 @@
+{
+  "id": "decoy-08",
+  "fen": "6rk/pp1q2pp/8/5P1Q/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1420,
+  "title": "La Donna Compra la Colonna",
+  "setup": "La vostra donna in h5 fissa h7 e la vostra torre in d1 è a un passaggio dalla colonna h.",
+  "hint": "Il re non può muovere di una sola casa. Che cosa deve succedere prima che la vostra torre conti sulla colonna h?",
+  "explanation": "## L'idea\n\n{{Qxh7+}} è una donna intera per un pedone, ma {{Kxh7}} è forzata. La colonna h è nuda, il pedone in f5 copre g6, e {{Rh1#}} arriva senza più niente a fermarla. Il materiale non conta niente quando il re non ha una casa su cui stare."
+}

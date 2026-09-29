@@ -1,0 +1,50 @@
+{
+  "id": "good-bad-pieces",
+  "title": "İyi Taşlar, Kötü Taşlar",
+  "summary": "Kâğıt üstünde üç puan, tahtada hiçbir şey",
+  "proof": "strategy-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Üç Puan Ediyor, Hiçbir Şey Yapmıyor",
+      "text": "Siyahın c8'deki fili kâğıt üstünde üç puan ediyor ve bunların birini bile kullanmadı. Yolunda ne olduğuna bakın: d5 ile e6'daki piyonlar siyaha ait ve bir fil kendi ordusunu alamaz.\n\nBu piyonların ikisi de açık karelerde oturuyor. Fil de öyle. Tam olarak kendi piyonlarının park ettiği renkte yol alıyor ve onu **kötü fil** yapan da bu — oynadığı tarafın kendisi tarafından duvara alınmış.\n\nBütün özgürlüğü {{Bd7}} hamlesinden ibaret. Aynı kafes, bir kare ötede."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Öteki Fil",
+      "text": "Beyazın aynı üç puana aynı taşı var ve o bambaşka bir hayvan.\n\nBeyazın merkez piyonları c3, d4 ve e5'te, hepsi koyu karelerde; f1'deki fil ise açık kare taşı. Birbirlerinin yolundan uzak duruyorlar. f1'den a6'ya giden bütün yol zaten boş ve üzerindeki duraklardan biri olan d3, dosdoğru h7'ye bakıyor.\n\nBu bir **iyi fil**dir: kendi piyonları öteki renkte durur ve o görebilir."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "Filiniz kendi piyonlarının üstünden asla tırmanamaz; öyleyse öteki yöne giden tek çaprazı açın.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Filin öteki tek yolunda hangi piyon oturuyor ve beyazın filinin üstüne yürümeden ne kadar adım atabilir?"
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "Serbest ve Hâlâ Kötü",
+      "text": "b7 boşaldı ve c8'deki filin nihayet seçenekleri var. Beyaz, iyi fili h7'ye doğrultarak d3'e koymakla cevap verdi.\n\n{{Bd7}} de {{Bb7}} de siyahın filine yeni bir kare ve aynı manzarayı verir: d5 ile e6'da, hiçbir yere gitmeyecek bir siyah piyon duvarı. Etrafta dolaşmasına izin verilen kötü fil hâlâ kötü fildir.\n\nYani soru taşın nereye gidebildiği değil. Vardığında ne ettiği."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "En Kötüye Karşı En İyi",
+      "text": "Burada özgürlükten daha iyi bir ödül var.\n\nİyileştirilemeyen taş değişilmelidir ve en çok iş yapan rakip taşa değişilmelidir. Siyahın açık kare filinin bu pozisyonda hiçbir geleceği yok. Beyazınki bütün tahtada at koşturuyor. Onları takas edin; puan hesabı hiç kıpırdamasın, siyah hiçbir şey yapmayan bir taşı versin ve her şeyi yapan bir taşı kaldırsın.\n\n> En kötü taşınızı iyileştirin. İyileştirilemiyorsa onu rakibin en iyisine değişin."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "prompt": "En kötü taşınızı, en çok hasarı veren rakip file teklif edin.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Az önce açtığınız çaprazı, beyazın filine çarpana kadar sonuna dek izleyin."
+    }
+  ]
+}

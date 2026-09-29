@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-05",
+  "fen": "3r2k1/1p3ppp/2n5/b7/1N6/2P3P1/5P1P/R5K1 w - - 1 2",
+  "solution": [
+    "Nxc6"
+  ],
+  "rating": 1210,
+  "title": "Win the Piece Back",
+  "setup": "You are a piece down. Your rook stares down the a-file at the bishop on a5, which is defended only by the knight on c6.",
+  "hint": "The bishop on a5 has one defender. Before you take the bishop, ask what can take the defender.",
+  "explanation": "## The Idea\n\n{{Nxc6}} removes the only piece covering a5. After {{bxc6}}, {{Rxa5}} takes the bishop: knight for knight, then a bishop for nothing, and the material is level again. Anything slower lets {{Bxb4}} trade off your knight, and Black stays a piece up.\n\nThe defender is often cheaper than the piece it guards."
+}

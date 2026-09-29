@@ -1,0 +1,11 @@
+{
+  "id": "endgame-03",
+  "fen": "8/8/7k/4P3/8/5K2/8/8 w - - 0 1",
+  "solution": [
+    "Ke4"
+  ],
+  "title": "Primeiro o Rei, o Peão Depois",
+  "setup": "O teu peão em e5 é passado, mas o rei preto em h6 está perto o suficiente para o apanhar sozinho. Uma jogada mantém a vitória.",
+  "hint": "Avança o rei, não o peão. Que casa põe o teu rei ao lado da estrada do peão antes de lá chegar o rei preto?",
+  "explanation": "## A Ideia\n\nO rei preto em h6 está dentro do quadrado do peão, portanto o peão não ganha a corrida sozinho. Precisa de escolta.\n\n{{Ke4}} é a única jogada que mantém a vitória: o rei aponta às casas ao lado da estrada do peão enquanto ainda lá pode chegar primeiro. Avança antes {{e6}}, ou manda o rei para outro lado qualquer, e a posição é empate.\n\nConta o quadrado antes de avançares. Se o rei inimigo estiver dentro, vai primeiro o rei."
+}

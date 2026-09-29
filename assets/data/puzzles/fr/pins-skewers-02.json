@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-02",
+  "fen": "r7/6pp/8/3k4/8/8/1K2B1PP/8 w - - 0 1",
+  "solution": [
+    "Bf3+",
+    "Kd4",
+    "Bxa8"
+  ],
+  "title": "Enfilade sur la grande diagonale",
+  "setup": "Le roi noir en d5 et la tour en a8 se tiennent sur la même grande diagonale, et votre fou est à un pas de la prendre.",
+  "hint": "Mettez le roi en échec le long de la ligne qu'il partage avec la tour, et voyez ce qui reste quand il s'écarte.",
+  "explanation": "## L'idée\n\nC'est une enfilade : la pièce la plus précieuse se tient devant. {{Bf3+}} met le roi en d5 en échec le long de la grande diagonale, avec la tour en a8 derrière lui sur la même ligne. Le roi doit quitter la ligne, et après {{Kd4}}, {{Bxa8}} ramasse ce qui se cachait derrière.\n\nUn clouage attaque la pièce chère à travers la pièce bon marché. Une enfilade attaque la pièce bon marché à travers la pièce chère."
+}

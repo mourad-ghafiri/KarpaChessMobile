@@ -1,0 +1,11 @@
+{
+  "id": "openings-14",
+  "fen": "rnbqkb1r/5ppp/p2ppn2/8/Np1NPP2/1B6/PPP3PP/R1BQK2R b KQk - 1 9",
+  "solution": [
+    "Nxe4"
+  ],
+  "title": "Il Pedone che il Cavallo si È Lasciato Dietro",
+  "setup": "I pedoni della Najdorf hanno fatto il loro lavoro: ...a6 e ...b5-b4 hanno appena spinto il cavallo bianco fino ad a4. Raccogliete quello che quel cavallo difendeva.",
+  "hint": "Un cavallo ha appena lasciato il centro per il bordo. Chiedetevi quale pedone bianco ha perso l'ultimo difensore quando se n'è andato.",
+  "explanation": "## L'idea\n\nIl cavallo cacciato in a4 era l'unico pezzo bianco che difendeva e4. Spingergli contro i pedoni dell'ala di donna riguardava quella casa.\n\n{{Nxe4}} prende il pedone. Il Bianco ne ricava un po' di gioco, ma il pedone è del Nero. Attenzione alla grande diagonale: {{Qf3}} colpisce il cavallo con la torre in a8 allineata dietro, e {{Bb7}} o {{d5}} chiudono quella diagonale, mentre {{Nc5}} perderebbe la torre.\n\nUna spinta di pedone d'ala è spesso una domanda a un pezzo al centro."
+}

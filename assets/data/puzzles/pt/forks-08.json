@@ -1,0 +1,11 @@
+{
+  "id": "forks-08",
+  "fen": "r3k3/5ppp/8/PN6/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc7+"
+  ],
+  "title": "Garfo de Família",
+  "setup": "O rei e a torre pretos continuam ambos nas casas de origem, e o teu cavalo de b5 está ali perto.",
+  "hint": "Há uma casa de cavalo que ataca o rei em e8 e a torre em a8 ao mesmo tempo.",
+  "explanation": "## A Ideia\n\n{{Nc7+}} dá xeque ao rei de e8 e ataca a torre de a8. O rei tem de mexer, e {{Nxa8}} come a torre.\n\nUm cavalo no canto fica muitas vezes encurralado lá, mas este não: o peão de a5 guarda b6, portanto o cavalo tem saída segura. Antes de agarrares uma peça no canto, verifica se o teu cavalo consegue voltar para casa."
+}

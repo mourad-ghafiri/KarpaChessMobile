@@ -1,0 +1,14 @@
+{
+  "id": "overload-12",
+  "fen": "7k/4Rppp/3n4/5Qr1/8/4N3/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Nxc8",
+    "Re8#"
+  ],
+  "rating": 1650,
+  "title": "Manda o Guarda Embora",
+  "setup": "O cavalo preto em d6 cobre c8 e e8, e a tua torre já está na sétima linha.",
+  "hint": "Uma peça preta segura duas casas. Ataca aquela que na verdade não queres.",
+  "explanation": "## A Ideia\n\n{{Qc8+}} não é a casa do mate — é a isca. As duas jogadas de cavalo perdem, e {{Nxc8}} pelo menos come alguma coisa e o cavalo abandona e8, portanto {{Re8#}} aterra. Oferece ao defensor o dever que ele consegue cumprir, e ele falha o que não consegue."
+}

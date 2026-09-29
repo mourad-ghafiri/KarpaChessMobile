@@ -1,0 +1,44 @@
+{
+  "id": "trapping-pieces",
+  "title": "Intrappolare i Pezzi",
+  "summary": "Vincete un pezzo togliendogli le case",
+  "proof": "trapping-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "title": "Due Case in Tutto il Mondo",
+      "text": "Contate le case dove può andare l'alfiere bianco di b3. Due.\n\nI suoi stessi pedoni stanno in a2 e c2. La sua stessa donna in d5 sbarra la strada oltre c4. Restano a4 e c4, e il pedone nero in b5 le copre già tutte e due.\n\nSulla scacchiera niente sta attaccando quell'alfiere. Non serve. A un pezzo ridotto a due case basta perderne una."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "prompt": "Mettete un pedone difeso su una delle due case dell'alfiere, così che ovunque vada sia perduto.",
+      "hint": "Solo una di quelle due case è raggiungibile da un vostro pedone, e il pedone in b5 la copre già.",
+      "targetSan": [
+        "c4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "title": "L'Arca di Noè",
+      "text": "{{c4}}. Nessuna presa, nessuno scacco. Il pedone si limita a mettersi su una casa su cui l'alfiere contava.\n\n{{Bxc4}} {{bxc4}} è la versione ingorda, e consegna un alfiere per due pedoni nel migliore dei casi. a4 non è meglio: il pedone in b5 copre anche quella casa.\n\nIl motivo è abbastanza vecchio da avere un nome. Nella **trappola dell'Arca di Noè** i pedoni arrivano addosso all'alfiere due a due, e nessun pezzo lo attacca mai."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/PN1B4/rP3PPP/2K5 w - - 1 2",
+      "title": "Una Torre nell'Armadio",
+      "text": "Adesso una torre. Quella nera è andata a caccia lungo la seconda traversa e non riesce a tornare a casa.\n\nHa tre case: a1, a3 e b2. Il cavallo in b3 copre a1. Il pedone in a3 è tenuto dal pedone in b2, e il pedone in b2 è tenuto dal re in c1. Ogni uscita costa la torre.\n\nNessuno ha costruito questa gabbia apposta. Il Nero ci è entrato da solo.\n\n> Un pezzo intrappolato non si insegue. Se ne contano le case, e poi si bussa."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/PN1B4/rP3PPP/2K5 w - - 1 2",
+      "prompt": "Attaccate la torre con il vostro alfiere, da una casa dove la torre non potrà mai arrivare.",
+      "hint": "Le tre case della torre sono già tutte coperte. Le serve soltanto un attaccante a cui non possa mai rispondere.",
+      "targetSan": [
+        "Bb1"
+      ]
+    }
+  ]
+}

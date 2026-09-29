@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-12",
+  "fen": "1B1R2r1/3Qb3/8/1K6/2p5/8/5k2/6R1 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kxg1",
+    "Qh2+",
+    "Kf1",
+    "Rd1#"
+  ],
+  "rating": 1750,
+  "title": "Regala la torre",
+  "setup": "El rey negro está en f2 justo al lado de tu torre de g1, con un alfil en e7 y una torre en g8 que todavía defienden.",
+  "hint": "Tu torre está atacada y el rey está a su lado. Pregúntate qué pasa si le dejas comérsela.",
+  "explanation": "## La idea\n\n{{Qd2+}} no le deja al rey nada mejor que {{Kxg1}}: el rey se mete en la esquina para cobrar. {{Qh2+}} sella h2 y {{Rd1#}} da mate por la columna que dejó libre la dama. La mejor jugada de caza a menudo entrega la pieza que quiere el rey."
+}

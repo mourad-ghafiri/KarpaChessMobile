@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-20",
+  "fen": "4r3/1k1P4/8/8/8/8/8/6K1 w - - 0 1",
+  "solution": [
+    "dxe8=Q"
+  ],
+  "title": "Une promotion avec prime",
+  "setup": "Votre pion en d7 est à un pas de la dernière rangée, et une tour noire se tient en diagonale devant lui.",
+  "hint": "Les pions prennent en diagonale, même à leur tout dernier pas. Deux récompenses en un seul coup.",
+  "explanation": "## L'idée\n\nLe dernier pas d'un pion suit les règles habituelles du pion, prise en diagonale comprise. Promouvoir tout droit par {{d8=Q}} permet à {{Rxd8}} de prendre la nouvelle dame.\n\n{{dxe8=Q}} prend la tour et promeut dans le même coup : cinq points pris et neuf créés, et le roi en b7 ne peut pas atteindre e8.\n\nAvant de pousser un pion sur la dernière rangée, comparez le pas tout droit et la prise."
+}

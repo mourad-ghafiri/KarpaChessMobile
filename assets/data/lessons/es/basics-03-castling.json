@@ -1,0 +1,71 @@
+{
+  "id": "castling",
+  "title": "Dos piezas, un turno",
+  "summary": "La única jugada que mueve dos piezas tuyas, y las seis condiciones que deben cumplirse antes",
+  "proof": "tactics-mix-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Las dos a la vez",
+      "text": "Todas las jugadas que has hecho hasta ahora movían una pieza. El enroque mueve dos.\n\n{{O-O}}. El rey de e1 se desplaza dos casillas hasta g1, y la torre de h1 salta por encima de él y aterriza en f1. Un turno. Las dos piezas colocadas.\n\nEs el enroque corto, hacia el borde del lado del rey, y se escribe con dos letras y un guion: la única jugada del ajedrez cuya anotación no nombra ninguna casilla."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "El camino largo",
+      "text": "La otra torre también puede hacerlo.\n\n{{O-O-O}}: el rey de e1 va dos casillas hacia el otro lado, a c1, y la torre de a1 pasa por encima de él hasta d1. Tres letras en vez de dos, y la misma regla debajo: el rey se mueve exactamente dos casillas y la torre se detiene en la casilla que el rey ha saltado.\n\nLo que cambia es cuánto hay que despejar. Dos casillas en el lado corto, f1 y g1. Tres en el lado largo: b1, c1 y d1."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Nadie se ha movido todavía",
+      "text": "Empieza por tres de las seis condiciones: dos sobre el pasado y una sobre el presente.\n\nEl rey no puede haberse movido nunca. La torre con la que enrocas no puede haberse movido nunca. No movido y vuelto: movido, sin más. Saca al rey de e1 durante un solo turno y los dos enroques desaparecen para el resto de la partida. Mueve la torre de h1 y el enroque corto se va con ella, mientras que el largo, apoyado en una torre de a1 intacta, sobrevive.\n\nLa tercera es sobre el presente: las casillas entre el rey y la torre tienen que estar vacías. Cada pieza que haya en medio tiene que salir primero."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Desde, hacia, a través",
+      "text": "Las otras tres son sobre este turno.\n\nNo **desde** un jaque: si el rey está atacado ahora mismo, hay que responder de otra forma. No **hacia** un jaque: la casilla a la que llega el rey tiene que ser segura. No **a través** de un jaque: la casilla que cruza también tiene que ser segura; un rey no puede pasar corriendo por una casilla en la que no podría quedarse.\n\nSeis en total. Falta una y la jugada sencillamente no existe; el tablero no te dejará hacerla."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "prompt": "Pon a salvo al rey en el lado corto: juega {{O-O}}.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Mueve el propio rey, dos casillas hacia la torre de h1, y la torre lo acompaña sola."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "title": "Lo que se le permite a la torre",
+      "text": "Juegan las Negras, y el enroque largo esconde un matiz que conviene conocer.\n\nSolo las casillas **del rey** tienen que ser seguras. La torre no se mete en nada: la trasladan al otro lado. Así que puede estar atacada, puede cruzar una casilla atacada, y el enroque sigue siendo legal.\n\nEso importa en este lado. {{O-O-O}}: el rey de e8 se detiene en c8, pero la torre de a8 viaja hasta d8 pasando por b8. Una pieza rival que vigile b8 no impide el enroque. Una que vigile c8 o d8, sí.\n\n> El camino del rey tiene que ser seguro. El de la torre no le importa a nadie."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "prompt": "Enroca largo con las Negras, en el lado donde había que despejar tres casillas en lugar de dos.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "El rey negro se desplaza dos casillas hacia la torre de a8, y la torre aterriza en la casilla que el rey ha cruzado."
+    },
+    {
+      "type": "teach",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "title": "Torres que se ven",
+      "text": "Los dos reyes están a salvo —las Blancas enrocadas en corto, las Negras en largo— y la primera y la octava fila han cambiado de aspecto.\n\nLas torres blancas están en a1 y f1 con cuatro casillas vacías entre ellas. Las negras, en d8 y h8, tienen tres. Antes de los enroques, cada pareja estaba separada por su propio rey en mitad de la fila; ahora cada torre puede deslizarse hasta la otra.\n\nEsa es la segunda mitad de lo que te da el enroque. El rey dejó el centro, y las torres se encontraron."
+    },
+    {
+      "type": "play",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "prompt": "Las dos torres blancas pueden llegar a e1: lleva la que ha estado toda la partida en su esquina.",
+      "targetSan": [
+        "Rae1"
+      ],
+      "hint": "La torre de f1 acaba de llegar ahí en la jugada anterior; la otra nunca se ha movido."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-10",
+  "fen": "r4rk1/5ppp/5n2/6B1/8/8/2Q2PPP/1B4K1 w - - 1 2",
+  "solution": [
+    "Bxf6"
+  ],
+  "rating": 1390,
+  "title": "h7 Nöbetçisi",
+  "setup": "Veziriniz ile filiniz h7'ye dizilmiş ve şah dışında o kareyi yalnızca f6'daki at kapsıyor.",
+  "hint": "Bataryanız h7'yi çoktan gösteriyor. Ona tam olarak siyahın tek bir taşı cevap veriyor — o taş ne eder?",
+  "explanation": "## Fikir\n\n{{Bxf6}} h7'nin tek koruyucusunu kaldırır. {{gxf6}} ile geri alın, {{Qxh7#}} mat olsun: siyahın kendi f8'deki kalesi şahı duvara alır. Reddedin, at bedavaya gitmiş olsun. Bir mat karesini açan eşit değişim asla eşit değildir."
+}

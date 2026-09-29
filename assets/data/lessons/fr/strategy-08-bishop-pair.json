@@ -1,0 +1,50 @@
+{
+  "id": "bishop-pair",
+  "title": "La paire de fous",
+  "summary": "Deux fous couvrent toutes les cases de l'échiquier",
+  "proof": "strategy-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/1pp2ppp/p1np4/4p3/B3P1b1/5N1P/PPPP1PP1/RNBQ1RK1 b k - 0 6",
+      "title": "L'échange qui reste",
+      "text": "Le fou noir en g4 est à un coup d'offrir aux Blancs quelque chose qui ne se rachète pas.\n\n{{Bxf3}} {{Qxf3}}. Les Noirs prennent un cavalier qui faisait un vrai travail, donc ce n'est pas un cadeau. C'est une vente. Les Blancs gardent deux fous, les Noirs n'en ont plus qu'un, et aucun coup ultérieur n'y change rien.\n\nLa partie continue : {{Nf6}}, {{c3}}, {{Be7}}. Maintenant, les Blancs doivent prouver que la chose vaut la peine d'être possédée."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "title": "Pourquoi deux battent un plus un",
+      "text": "Un fou naît sur une couleur et meurt sur elle. Un fou, c'est la moitié de l'échiquier — les trente-deux autres cases sont l'affaire de quelqu'un d'autre, pour toujours.\n\nPossédez les deux et les moitiés s'emboîtent. Blanches et noires, rien de découvert, et les deux ne se disputent jamais la même case. C'est la **paire de fous** : pas un avantage de pièce, puisque le compte de points est égal, mais un avantage de couverture qui dure toute la partie.\n\nLes joueurs forts la paient. Ils dépenseront un coup, ou un pion, pour empêcher un cavalier de s'échanger contre un fou."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "prompt": "Contestez le pion noir en e5 avec l'un de vos pions et ouvrez une route au fou qui n'en a pas.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Les deux pions qui enferment le fou en c1 peuvent bouger — prenez celui qui pose aussi une question au centre noir."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "La paire est une promesse",
+      "text": "Une autre partie, et les Blancs possèdent de nouveau les deux fous. L'un d'eux est un embarras.\n\nLe fou en c1 n'a pas bougé de la partie, et la seule case qu'il peut atteindre ne change rien — son propre pion en e3 occupe la diagonale qu'il veut. Six pions sont bloqués au centre, c4, d4 et e3 contre c6, d5 et e6, et aucun fou n'enjambe un pion. Les cavaliers noirs s'en moquent. Ils sautent par-dessus tout l'embouteillage, et en ce moment ce sont les meilleures pièces mineures."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "Ce qu'attend la paire",
+      "text": "Deux fous sont un pari sur un échiquier ouvert, et le pari se paie en diagonales.\n\nChaque pion qui quitte le centre allonge une route, et les longues routes sont la raison d'être d'un fou. Un cavalier ne gagne rien au même dégagement : quatre sauts sur un échiquier vide, quatre sauts sur un échiquier encombré. Le camp qui possède la paire veut donc moins de pions, et les veut hors du centre.\n\nCela renverse l'instinct habituel. Vous ne cherchez pas une pièce à échanger. Vous cherchez un pion à combattre.\n\n> Deux fous, un plan : échangez les pions, pas les pièces."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "prompt": "Brisez l'embouteillage de pions au centre pour que le fou en c1 ait enfin une diagonale où regarder.",
+      "targetSan": [
+        "e4"
+      ],
+      "hint": "Le fou en c1 veut la diagonale vers h6, et exactement un pion blanc y est garé — le déplacer affirme aussi la présence d'un second pion au centre."
+    }
+  ]
+}

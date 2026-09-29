@@ -1,0 +1,14 @@
+{
+  "id": "defence-09",
+  "fen": "1Q6/2K5/5r2/7R/3q4/5b2/k7/8 w - - 0 1",
+  "solution": [
+    "Ra5+",
+    "Qa4",
+    "Rxa4#"
+  ],
+  "rating": 1770,
+  "title": "Faites basculer la tour",
+  "setup": "La dame, la tour et le fou noirs pèsent tous sur votre roi en c7, et son propre roi est à l'abri en a2.",
+  "hint": "Votre tour est sur la mauvaise colonne mais sur la bonne rangée. Trouvez la case où la seule interposition coûte une dame.",
+  "explanation": "## L'idée\n\n{{Ra5+}} arrive le long de la cinquième rangée. {{Qa4}} est la seule interposition, et {{Rxa4#}} est mat. La tour n'a jamais avancé — elle s'est déplacée latéralement, la direction à laquelle le roi de la colonne a ne pouvait pas répondre."
+}

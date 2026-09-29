@@ -1,0 +1,14 @@
+{
+  "id": "fork-04",
+  "fen": "r4bk1/p5pp/1p6/3p4/8/5B2/PP3PPP/2R3K1 w - d6 0 2",
+  "solution": [
+    "Bxd5+",
+    "Kh8",
+    "Bxa8"
+  ],
+  "rating": 800,
+  "title": "Come y da una horquilla",
+  "setup": "Las Negras acaban de avanzar un peón a d5, justo en el camino de tu alfil de f3.",
+  "hint": "Eliminar la pieza que está en medio de una diagonal abre el resto. Comprueba dónde termina ese camino.",
+  "explanation": "## La idea\n\n{{Bxd5+}} gana un peón e ilumina dos diagonales a la vez: el jaque va hasta g8, y detrás del peón capturado el alfil ve ahora a8. El alfil y los peones negros solo dejan {{Kh8}}, y {{Bxa8}} se come la torre."
+}

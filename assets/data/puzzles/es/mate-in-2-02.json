@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-02",
+  "fen": "8/4k3/R7/8/8/8/8/1R5K w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Ke8",
+    "Ra8#"
+  ],
+  "title": "El mate de la escalera",
+  "setup": "Dos torres contra el rey negro solo en e7, y la torre de a6 ya cierra toda la sexta fila.",
+  "hint": "Una torre mantiene una fila mientras la otra da jaque en la siguiente.",
+  "explanation": "## La idea\n\nEste es el mate de la escalera. La torre de a6 mantiene la sexta fila, así que {{Rb7+}} da jaque por la séptima y al rey solo le deja la última fila: {{Kd8}}, {{Ke8}} o {{Kf8}}.\n\nVaya adonde vaya, {{Ra8#}} sube a la última fila. La torre de b7 conserva toda la séptima, y el rey no tiene adónde ir. Cortar, dar jaque, cortar, dar jaque: dos torres no necesitan ayuda de nada más."
+}

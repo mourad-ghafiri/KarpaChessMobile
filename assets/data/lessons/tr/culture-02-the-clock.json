@@ -1,0 +1,62 @@
+{
+  "id": "chess-clock",
+  "title": "Saat",
+  "summary": "İki ekran, geri kazanamayacağınız tek bir kaynak",
+  "proof": "culture-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "Saat İkinci Tahtadır",
+      "text": "Üçer dakika ve beyazın c3'teki fili b2'deki vezirinize saldırıyor.\n\nSatranç saati, tek kasadaki iki ekrandır ve her an yalnızca biri işler. Pozisyon sizin sorununuzken sizinki işler. Basın; sizinki dursun, beyazınki başlasın.\n\nBu, her uzun düşünmeyi bir satın almaya çevirir. İsabeti, hiçbir şeyin yeniden doldurmadığı bir kaynakla satın alırsınız ve parti ne kadar kısaysa fiyat o kadar yüksektir. Tahtadaki her takası kazanıp yine de kaybedebilirsiniz, çünkü oyun iki tahtada oynanır ve bunlardan biri geri sayar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "Tek El, Tek Düğme",
+      "text": "Kurallar el konusunda açıktır: taşı oynatan el ile düğmeye basan el aynı olmalıdır. Bu tek kural bir hile ailesini bitirir — saatin üstüne park etmiş yedek avuç yok, taştan önce varan basış yok.\n\nHamle, taş bırakıldığında tamamlanır. Sıranız ise düğme inene kadar tamamlanmaz ve aradaki her saniye size yazılır.\n\nYani basış, hamlenin peşinden gelen değil, hamleye ait bir parçadır. Siz bunu okurken ekranınız işliyor."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "prompt": "Veziriniz saldırı altında ve saat işliyor; onu tek hamlede, hiç oynatmadan kurtarın.",
+      "targetSan": [
+        "Bb4"
+      ],
+      "hint": "b2'de taş alan her şeyin önce c3'ten ayrılması gerekir — oradan geçen ne dizebilirsiniz ki ayrılmak kuraldışı olsun?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqP1PPPP/RN1QKB1R w KQkq - 2 7",
+      "title": "Üçe Karşı Bir Saniye",
+      "text": "b4'teki fil hiçbir şeyi korumuyor. Bunun yerine taş almayı kuraldışı kılıyor: b2'de almak, e1'deki şahı örten çaprazdan çekilmek demek.\n\nBu cevap size yaklaşık bir saniyeye mal oldu ve beyaza bundan fazlasına. {{Qd2}} çaprazın üstünde durarak onu geri satın alır ve uzun bir düşünmenin ardından beyaz yalnızca vezirinizi yeniden saldırı altına almış olur.\n\nSize ucuz, rakibinize pahalı hamleler. Saatin ödediği kur budur."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Zamanı Geri Almak",
+      "text": "Saatin zamanı geri vermesinin iki yolu vardır ve hiç de birbirlerine benzemezler.\n\n**Eklemeli süre** her basışta sabit bir miktar ekler ve harcamadığınız ne varsa birikir. `3+2` bir parti üç dakika artı hamle başına iki saniyedir; yani hızlı bir oyuncu başladığından daha çok süreyle bitirebilir.\n\n**Gecikmeli süre** ise bunun yerine bekler. Her hamlede, asıl süreniz azalmaya başlamadan önce sabit bir duraklama olur ve o duraklamadan kullanmadığınız ne kalırsa öylece yok olur.\n\n> Eklemeli süre hızlıya öder. Gecikmeli süre yalnızca yavaşı korur."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Klasik, Hızlı, Yıldırım",
+      "text": "FIDE partileri tek bir sayıyla ayırır: temel süre artı eklemeli sürenin altmış katı; yani kabaca altmış hamlelik bir partinin size vereceği süre.\n\nOn dakika ve altı yıldırımdır. Bundan fazlası ve bir saatin altı hızlıdır. Altmış dakika ve üstü klasiktir; orada bir parti altı saat sürebilir ve tek bir hamle bunun kırk dakikasını yiyebilir.\n\nBullet — bütün parti için bir iki dakika — çevrimiçi dünyanın sözüdür. Kurallarda hiçbir yerde geçmez ve bu, kimseyi oynamaktan alıkoymamıştır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Bayrak Düştüğünde",
+      "text": "Dört saniye kaldı. Deyim mekanizmadan gelir: mekanik saatte, yelkovanın kaldırıp bıraktığı küçük bir metal bayrak vardı ve süre bittiğinde hâlâ bayrak düştü denir.\n\nYarışı kaybedin, partiyi kaybedin; tek bir istisnayla. Süresi kalan oyuncu, elinde kalanla mat edemiyorsa — diyelim çıplak bir şahla — sonuç beraberliktir.\n\nBu hızda göz {{Qxa1}} hamlesini kapar, dikkatli el ise {{Qxc3}} ile değişir. İkisi de aranan hamle değil."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "prompt": "Ekranda iki saniye varken kaleyi ve vezir değişimini rahat bırakın ve vezirinize saldıran taşı alın.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "Beyaz vezirle geri alırsa, kendi vezirinizin birinci yatayda beyazın hiçbir şeyle cevap veremeyeceği bir şahı var."
+    }
+  ]
+}

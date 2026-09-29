@@ -1,0 +1,11 @@
+{
+  "id": "openings-14",
+  "fen": "rnbqkb1r/5ppp/p2ppn2/8/Np1NPP2/1B6/PPP3PP/R1BQK2R b KQk - 1 9",
+  "solution": [
+    "Nxe4"
+  ],
+  "title": "Le pion que le cavalier a laissé derrière lui",
+  "setup": "Les pions de la Najdorf ont fait leur travail : ...a6 et ...b5-b4 viennent de chasser le cavalier blanc en a4. Encaissez ce que ce cavalier protégeait.",
+  "hint": "Un cavalier vient de quitter le centre pour le bord. Demandez-vous quel pion blanc a perdu son dernier défenseur quand il est parti.",
+  "explanation": "## L'idée\n\nLe cavalier chassé en a4 était la seule pièce blanche qui protégeait e4. Pousser les pions de l'aile dame contre lui, c'était viser cette case.\n\n{{Nxe4}} prend le pion. Les Blancs obtiennent un peu de jeu en échange, mais le pion est aux Noirs. Surveillez la grande diagonale : {{Qf3}} frappe le cavalier avec la tour en a8 alignée derrière, et {{Bb7}} ou {{d5}} ferme cette diagonale, tandis que {{Nc5}} perdrait la tour.\n\nUne poussée de pion sur l'aile est souvent une question posée à une pièce du centre."
+}

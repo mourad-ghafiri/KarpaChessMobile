@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-11",
+  "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w - - 0 16",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1060,
+  "title": "Entrega a Dama",
+  "setup": "O rei preto continua em e8, encaixotado pelo seu próprio bispo e pelos seus peões, com um cavalo em d7 a bloquear a estrada da tua torre até d8.",
+  "hint": "Uma peça preta impede a tua torre de dar mate em d8. O que a faria sair dessa casa?",
+  "explanation": "## A Ideia\n\nA torre em d1 já quer d8, só o cavalo de d7 lhe está na estrada, e o teu bispo de g5 já cobre d8 e e7. {{Qb8+}} custa uma dama inteira e força {{Nxb8}}, a única resposta legal — e agora o cavalo está na casa errada. {{Rd8#}} conclui."
+}

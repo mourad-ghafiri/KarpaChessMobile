@@ -1,0 +1,13 @@
+{
+  "id": "endgames-02",
+  "fen": "k7/8/2K5/8/8/8/8/1R6 w - - 0 1",
+  "solution": [
+    "Kc7",
+    "Ka7",
+    "Ra1#"
+  ],
+  "title": "Acerca el muro",
+  "setup": "La torre ya prohíbe la columna b, así que todo el mundo del rey solo es a8 y a7. Dos jugadas blancas tiran la victoria.",
+  "hint": "La torre no puede quitar sola las dos casillas del rey negro: ¿qué otra pieza está lo bastante cerca, y qué casilla mantiene vivo el corte?",
+  "explanation": "## La idea\n\nEl muro ya está levantado: mientras la torre domine la columna b, el rey solo nunca podrá cruzarla. Lo que falta es la segunda pieza, porque la torre no puede cubrir también a7 y a8.\n\n{{Kc7}} toma b8, b7 y b6. Las Negras tienen una sola jugada legal, {{Ka7}}, y {{Ra1#}} mueve el muro a la columna del rey: jaque desde un extremo, ninguna casilla en el otro.\n\nLas dos formas de tirarlo: {{Rb7}} cubre las dos casillas y es ahogado, y {{Rb8+}} simplemente le entrega la torre al rey."
+}

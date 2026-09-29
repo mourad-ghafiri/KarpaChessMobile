@@ -1,0 +1,68 @@
+{
+  "id": "the-champions",
+  "title": "Chi Tiene il Titolo",
+  "summary": "Dal 1886 a oggi, diciotto campioni, e le quattro volte in cui la linea si è spezzata",
+  "proof": "history-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Reykjavík, 1972",
+      "text": "Un match di scacchi finì in prima pagina in paesi che non ne avevano mai seguito uno.\n\nBobby Fischer arrivò in Islanda in ritardo, si lamentò delle telecamere, perse la prima partita e poi si rifiutò di giocare la seconda. Boris Spassky deteneva il titolo, e il titolo non lasciava mani sovietiche dal 1948.\n\nQuesta è la sesta partita. Fischer ha il Bianco, e muove il Bianco. Quello che ancora si ripete su questa partita non è il risultato — è quello che fece Spassky quando fu finita."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Undicesimo della Fila",
+      "text": "Fischer diventa l'undicesimo campione del mondo più tardi quella stessa estate, e i dieci che avevano tenuto il titolo prima di lui non concordavano quasi su niente.\n\nSteinitz diceva che un attacco va meritato. Lasker tenne il titolo per ventisette anni, più a lungo di chiunque prima o dopo, e si diceva che giocasse la persona quanto la scacchiera. Capablanca faceva sembrare il vincere una cosa da nulla. I giocatori venuti su negli anni Venti sostenevano che si potesse controllare il centro senza metterci mai un pedone. La scuola sovietica trasformò la preparazione in un'industria e tenne il titolo per ventiquattro anni di fila."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "L'Ultima Guardia",
+      "text": "Il cavallo nero in f6 fa due lavori insieme.\n\nCopre g8 e h7, le uniche due case dove il re in h8 può andare. E blocca la colonna f, dove il Bianco ha impilato le torri in f5 e f3.\n\nNon arriva nessun altro ad aiutare. Il pedone bianco in e6 è a due case dall'ottava traversa, quindi la torre in e7 deve stargli davanti e la donna in e8 è seduta sulla casa che quel pedone vuole. La torre in c7 è libera di andare ovunque e non ha niente da fare quando ci arriva."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "prompt": "Date una torre per il cavallo che copre g8 e h7, e fate in modo che la ripresa stacchi un pedone dal re.",
+      "targetSan": [
+        "Rxf6"
+      ],
+      "hint": "Il re in h8 ha un pedone accanto. Se tocca a quel pedone prendere, quale casa si lascia dietro?"
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Via il Tetto",
+      "text": "{{Rxf6}}, e rifiutare non è un'opzione che valga la pena avere — lasciare stare la torre regala al Bianco un cavallo intero.\n\n{{gxf6}}, allora. Adesso g7 è vuota. Il pedone che stava accanto al re è in f6, dove la torre di f3 lo guarda dritto in faccia, e al re in h8 non resta altro che il pedone in h6."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4Pp1p/p1p5/P2pQ2P/1P1B1R2/6P1/6K1 w - - 0 39",
+      "title": "La Seconda Torre",
+      "text": "{{Rxf6}}. Stessa casa, e stavolta non riprende niente: nessun pezzo nero arriva proprio a f6.\n\n{{Kg8}} {{Bc4}} {{Kh8}} — Spassky porta fuori il re e lo rimette dov'era, Fischer fa attraversare l'alfiere per difendere il pedone in e6. Il Nero ha speso due mosse per restare fermo. Il Bianco ne ha spesa una e adesso ha l'alfiere dove lo voleva."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Dove si È Spezzata",
+      "text": "Agli scacchi piace raccontare il titolo come una linea sola che passa di mano dal 1886. Si è spezzata quattro volte.\n\nAlekhine morì da detentore nel 1946, e nessuno lo tenne fino al 1948. Fischer non lo difese mai: nel 1975 andò a Karpov senza che si giocasse una mossa. Kasparov e lo sfidante portarono il loro match del 1993 fuori dalla FIDE, che incoronò un campione rivale, e per tredici anni ci furono due titoli mondiali, finché Kramnik non batté Topalov nel 2006. Carlsen rinunciò a difenderlo nel 2023, ed è così che Ding Liren divenne campione — e così che Gukesh Dommaraju glielo tolse nel dicembre 2024, a diciotto anni, il più giovane che ci sia mai stato."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Niente Più da Muovere",
+      "text": "Il Nero ha due torri contro una del Bianco e non può usare né l'una né l'altra.\n\nLa torre in e7 è ancora l'unica cosa davanti al pedone in e6, e la donna in e8 sta ancora sulla casa che quel pedone vuole. Nessuna delle due può andarsene. La torre in c7 può andare dove le pare, e da nessuna parte c'è qualcosa per lei.\n\nIl che lascia il pedone in h6, difeso da nessuno, con la torre di f6 che lo guarda già lungo la sesta traversa.\n\n> Un pezzo che non può lasciare la sua casa ha smesso di essere un pezzo."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "prompt": "Aggiungete la donna all'attacco della torre su h6, atterrando dove niente può prenderla e dove la torre di f6 guadagna un difensore.",
+      "targetSan": [
+        "Qf4"
+      ],
+      "hint": "Escludete ogni casa dove la donna nera o il pedone in h6 potrebbero prendere la vostra donna, poi restate sulla colonna che la torre tiene già."
+    }
+  ]
+}

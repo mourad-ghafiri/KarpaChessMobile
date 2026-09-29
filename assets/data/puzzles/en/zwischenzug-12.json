@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-12",
+  "fen": "2Q1B2k/b4ppp/2r5/4r3/8/R7/PP6/K7 w - - 0 1",
+  "solution": [
+    "Bxc6+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1700,
+  "title": "Clear the Way With Check",
+  "setup": "Your bishop on e8 and queen on c8 are stacked on the back rank, and Black's rooks on c6 and e5 hold it together.",
+  "hint": "Your own piece is standing on the mating square. Find the move that removes it and gains a tempo at the same time.",
+  "explanation": "## The Idea\n\nThe bishop on e8 is in the queen's way. {{Bxc6+}} takes a rook, vacates the square and gives check all at once; {{Re8}} is forced and {{Qxe8#}} ends it. The best in-between move is the one that does three jobs."
+}

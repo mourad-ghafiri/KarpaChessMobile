@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-06",
+  "fen": "3r2k1/1n3ppp/8/8/8/8/5PPP/3RR1K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Nxd8",
+    "Re8#"
+  ],
+  "rating": 880,
+  "title": "O Cavalo Volta Atrás",
+  "setup": "O cavalo preto acabou de ir para b7, de onde pode recapturar em d8 e mais nada.",
+  "hint": "Pergunta o que é que a peça que recaptura vai cobrir depois de aterrar, e o que deixará de cobrir.",
+  "explanation": "## A Ideia\n\n{{Rxd8+}} força {{Nxd8}}, a única resposta legal. Mas um cavalo em d8 cobre b7, c6, e6 e f7 — nunca e8. {{Re8#}} aterra na única casa que o novo defensor não vê. Onde uma peça recaptura conta tanto como poder fazê-lo."
+}

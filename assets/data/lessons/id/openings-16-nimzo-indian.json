@@ -1,0 +1,50 @@
+{
+  "id": "nimzo-indian-advanced",
+  "title": "Pertahanan Nimzo-Indian",
+  "summary": "Gajah yang ditukar dengan kelemahan permanen",
+  "proof": "openings-16.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Gajah yang Berencana Gugur",
+      "text": "Baru tiga langkah, dan gajah Hitam sudah menawarkan dirinya untuk seekor kuda. Gajah biasanya dianggap sedikit lebih baik, jadi ini tampak seperti sisi yang salah dari sebuah pertukaran.\n\nIni bukan kemurahan hati. Gajah di b4 menjepit kuda di c3 terhadap raja di e1, dan kuda itu satu-satunya buah putih yang menguasai e4. Hitam ingin kuda itu keluar dari papan, dan ingin Putih dipaksa melakukan satu-satunya tangkapan balik yang meninggalkan bekas."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Pertanyaan yang Diajukan Putih",
+      "text": "{{a3}}. Pion itu berjalan menghampiri gajah dan menuntut jawaban: mundur, atau tangkap.\n\nMundur memberi Putih tempo gratis, jadi gajah menangkap. Sekarang lihat bagaimana Putih bisa menangkap balik. Gajah di c1 tak melihat c3, begitu pula menteri, jadi pion b yang harus melakukannya — mendarat tepat di belakang pion yang sudah duduk di c4."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/P1N5/1P2PPPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Ambil satu-satunya penjaga e4 milik Putih dan paksa tangkapan balik yang menumpuk dua pion di satu lajur.",
+      "targetSan": [
+        "Bxc3+"
+      ],
+      "hint": "Hanya satu buah hitam yang menyerang c3, dan penangkapannya datang dengan sekak, jadi Putih tak mendapat waktu luang untuk bersiap."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/P1P5/4PPPP/R1BQKBNR b KQkq - 0 5",
+      "title": "Bertumpuk untuk Selamanya",
+      "text": "Itulah keduanya: pion putih di c3 dan c4, yang satu berdiri di belakang yang lain. Ganda, dan terjebak. Yang belakang tak akan pernah bisa melewati yang depan, dan tak satu pun akan pernah dilindungi pion — pion b kini menjadi salah satu dari keduanya, dan pion d sudah lewat di d4.\n\n{{c5}} membekukan gambarannya. Hitam menyerang d4 agar pusat tak bisa bergulir maju dan mengubur buktinya.\n\nPembukaan ini menyandang nama Aron Nimzowitsch, yang berpendapat bahwa kelemahan yang tak bisa diperbaiki siapa pun bertahan lebih lama daripada keunggulan apa pun yang harus segera dipakai."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "title": "Pion yang Menjadi Sasaran Semua",
+      "text": "Lima langkah kemudian, Putih mendapat pusat yang ditunggu kedua gajahnya: pion di c4, d4 dan e4, dengan gajah di d3 siap untuk saat deretan itu maju.\n\nHitam tidak memperdebatkan semuanya. Satu pion di sana berbeda. Pion di c4 punya pasangan yang terdampar di belakangnya, jadi tak ada pion putih yang akan pernah menjaganya, dan setiap ancaman Hitam terhadap c4 harus dijawab oleh sebuah buah. Buah yang terikat pada pion adalah buah yang tak mengerjakan hal lain.\n\n> Serang kelemahan yang tak bisa dilindungi pion, dan paksa buah-buah yang menjaganya."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "prompt": "Kirim kuda Anda ke tepi, tempat ia menyerang pion yang tak akan pernah bisa dilindungi pion putih mana pun.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "Sasarannya adalah pion di c4, dan pion b putih yang biasanya mengusir kuda dari tepi itu sedang berdiri di c3."
+    }
+  ]
+}

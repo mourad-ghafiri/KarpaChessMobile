@@ -1,0 +1,50 @@
+{
+  "id": "etiquette",
+  "title": "Modales ante el tablero",
+  "summary": "Las reglas que nadie imprime en la caja",
+  "proof": "culture-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "title": "Tu mano llega primero",
+      "text": "Toca una de tus piezas en una partida oficial y la has elegido. Pieza tocada, pieza movida, siempre que tenga alguna jugada legal. Toca una pieza rival con intención de capturarla y la capturas. Sin marcha atrás, sin disculpas.\n\nLas Blancas están en jaque. El rey de e1 tiene exactamente dos casillas, {{Kf1}} y {{Ke2}}, y las dos renuncian al enroque para el resto de la partida.\n\nEn este tablero hay una jugada mejor. Roza el rey mientras todavía la buscas y se habrá perdido."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "prompt": "Conserva tus derechos de enroque tapando el jaque con el caballo que además cubre d5 y b5.",
+      "targetSan": [
+        "Nc3"
+      ],
+      "hint": "Dos casillas tapan esa diagonal. Una encierra a tu alfil de c1; la otra mira hacia la mitad negra del tablero."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/2N2N2/PP3PPP/R1BQK2R b KQk - 2 7",
+      "title": "Dilo antes de tocar",
+      "text": "Tu caballo de c3 está torcido, medio montado en b3. Tienes derecho a enderezarlo. No tienes derecho a alargar la mano y hacerlo sin más.\n\nDi primero «compongo» —en los torneos también se oye el francés *j'adoube*—, en voz alta, antes de que lleguen tus dedos, y solo cuando sea tu turno. Aquí juegan las Negras, así que el caballo sigue torcido y tú esperas.\n\nEso es casi todo el vocabulario. Nadie anuncia el jaque, nadie comenta una jugada, y no se resopla cuando el rival encuentra la buena."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "La oferta tiene un orden",
+      "text": "Nuevo tablero, y este es peor: tienes una dama de menos. El alfil negro de d1 la cobró en la jugada anterior, y las Negras acaban de ofrecer tablas.\n\nEso tiene un orden. Haz tu jugada, ofrece tablas y luego pulsa el reloj. La oferta no tiene condiciones y no se puede retirar: sigue en pie hasta que el rival la acepta, la rechaza en voz alta o toca una pieza con intención de moverla, lo que ya es un rechazo.\n\nOfrecer de nuevo cada pocas jugadas no es perseverancia. Es molestar, y un árbitro puede tratarlo como tal."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "Cómo perder, y cuándo no",
+      "text": "Cuando una partida está perdida, dilo. El reglamento pide una declaración —dilo claramente—, no un rey tumbado de lado, que es teatro y deja al rival con la duda. Luego el apretón de manos, que ninguna regla exige y todo el mundo da.\n\nNada de eso se aplica aquí. Un jugador con una dama entera de más no necesita tablas, así que la oferta es la mejor jugada que encontraron las Negras, y no está en el tablero.\n\nTu rey no ha enrocado y tu dama ha desaparecido. Ninguna de las dos cosas importa a las piezas que ya apuntan a f7.\n\n> Decide con la cabeza. La mano solo tiene que estar de acuerdo."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "prompt": "Las Negras tienen una dama de más y ofrecen tablas, así que recházalas con el jaque que fuerza mate en la jugada siguiente.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "Tu alfil y el caballo de e5 apuntan al mismo peón. Da jaque con el que deja a las Negras una sola respuesta legal."
+    }
+  ]
+}

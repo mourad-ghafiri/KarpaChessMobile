@@ -1,0 +1,11 @@
+{
+  "id": "openings-05",
+  "fen": "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w KQk - 3 6",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "O Sufocado da Caro-Kann",
+  "setup": "As pretas responderam à linha principal com um cavalo em d7 e acabaram de desenvolver o outro cavalo para f6, a atacar o teu cavalo central.",
+  "hint": "Um peão preto comeria de bom grado o teu cavalo, e algo na coluna e o impede. Encontra a casa que aproveita isso.",
+  "explanation": "## A Ideia\n\nA dama em e2 parece uma jogada tranquila de desenvolvimento. É uma armadilha.\n\n{{Nd6#}} é mate ali mesmo. O peão de e7 não pode comer, porque a dama o crava contra o rei. A dama de d8 não pode comer, porque o seu próprio cavalo de d7 está no caminho, e o bispo de f8 está bloqueado por esse mesmo peão de e7. Todas as casas à volta do rei têm uma peça preta.\n\nA Caro-Kann é feita para tirar peças cá para fora, não para emparedar o rei com elas."
+}

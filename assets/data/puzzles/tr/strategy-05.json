@@ -1,0 +1,11 @@
+{
+  "id": "strategy-05",
+  "fen": "rnbqkb1r/pp2pppp/1n6/2p1P3/2PP4/8/PP4PP/RNBQKBNR w KQkq - 0 7",
+  "solution": [
+    "d5"
+  ],
+  "title": "Kırılmanın Yanından Geçin",
+  "setup": "Siyahın c piyonu d4'teki piyonunuza vuruyor. Siyahı sıkıştıran şey büyük merkeziniz ve bir değişim o yeri geri verir.",
+  "hint": "d4'ü savunmak yine de siyahın orada değişmesine izin verir. O piyon nereye gidebilir ki c piyonunun vuracak bir şeyi kalmasın?",
+  "explanation": "## Fikir\n\nAlanınız fazlayken değişimlerden kaçının: her takas sıkışık tarafa yer verir. {{d5}} c piyonuyla değişmek yerine yanından geçer ve artık beyazın c4, d5 ve e5'teki piyonları siyahın taşlarından c6, d6, e6 ve f6'yı alır.\n\n{{dxc5}} tam tersini yapar. Vezirler şah çekerek kalkar, b6'daki at a4'e sıçrar ve oynayacak yeri olan taraf siyah olur."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-10",
+  "fen": "6k1/5p1p/6p1/8/8/8/1B6/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "La Via di Fuga che Non C'Era",
+  "setup": "Il Nero ha speso una mossa in g6 per dare aria al re — ma l'aria serve solo se la casa di fuga è sicura.",
+  "hint": "Il Nero conta su g7. Controllate che cosa ha puntato da sempre il vostro pezzo più silenzioso.",
+  "explanation": "## L'idea\n\nIl Nero ha spinto il pedone g per dare al re una casa dove scappare, e la casa che ha creato è g7. L'alfiere in b2 sorveglia la grande diagonale da tutto questo tempo, e g7 ci sta sopra.\n\n{{Rd8#}}: f8 e h8 stanno sulla traversa della torre, f7 e h7 hanno i pedoni del Nero, e l'unica casa di fuga che il Nero si è costruito è già coperta."
+}

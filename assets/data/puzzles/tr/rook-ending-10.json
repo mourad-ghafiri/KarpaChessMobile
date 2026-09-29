@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-10",
+  "fen": "8/2R2P1K/1k6/8/8/8/8/1r6 b - - 0 1",
+  "solution": [
+    "Rh1+"
+  ],
+  "rating": 1560,
+  "title": "Köşeden Şahlar",
+  "setup": "Beyazın f piyonu vezir olmaya bir hamle uzaklıkta ve c7'deki kalesi b6'daki siyah şaha askıda duruyor.",
+  "hint": "c7'de almak için yedek bir hamleye ihtiyacınız var. Beyazın şahının öylece uzaklaşamayacağı şahları hangi dikey veriyor?",
+  "explanation": "## Fikir\n\nSiyahın bir tempoya ihtiyacı var ve bunu yalnızca uzaktan gelen şahlar satın alır. {{Rh1+}} {{Kg6}} {{Rg1+}} {{Kf5}} gelir ve şimdi {{Kxc7}} kaleyi kazanır. Beyaz vezir olur, ama {{Rf1+}} şahı yeni vezire şişe geçirir ve onu hemen geri alır. Bunun yerine {{Rf1}} ile hemen piyonun arkasına geçin, beyaz {{Re7}} ile her şeyi korusun ve piyon içeri girsin."
+}

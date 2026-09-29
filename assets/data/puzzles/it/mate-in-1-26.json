@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-26",
+  "fen": "3k4/3P4/3K4/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Cintura e Bretelle",
+  "setup": "Il vostro pedone in d7 sta proprio davanti al re nero, e il vostro re in d6 lo difende.",
+  "hint": "Portate la torre sull'ottava traversa — il vostro re e il vostro pedone recintano già tutto quello che sta sotto.",
+  "explanation": "## L'idea\n\nIl pedone in d7 non dà scacco, ma funziona: toglie d7 al re e attacca anche c8 e e8.\n\n{{Ra8#}} dà scacco lungo la traversa di fondo. c8 e e8 stanno sulla linea della torre, il vostro re in d6 copre c7 e e7, e difende anche il pedone, quindi il re non può prenderlo.\n\nAnche un umile pedone può essere il pezzo che chiude una rete di matto."
+}

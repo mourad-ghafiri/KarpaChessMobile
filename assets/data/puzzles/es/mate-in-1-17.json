@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-17",
+  "fen": "2B1k3/8/4K3/8/8/8/8/7Q w - - 0 1",
+  "solution": [
+    "Qh8#"
+  ],
+  "title": "La fila hace el trabajo",
+  "setup": "Tu rey de e6 está dos casillas por delante del rey negro, y tu dama está lejos, en la esquina.",
+  "hint": "Tu rey ya cubre todas las casillas de la séptima fila que podría usar el rey negro. Encuentra un jaque en la octava.",
+  "explanation": "## La idea\n\n{{Qh8#}} da jaque por la última fila. Tu rey de e6 cubre d7, e7 y f7, y d8 y f8 están las dos en la línea de la dama. Nada puede tapar entre h8 y e8.\n\nEl alfil de c8 solo cubre d7 una vez más: el trabajo lo hacen tu rey y tu dama. Un rey dos casillas por delante del rey rival solo le deja a la dama una fila que tomar."
+}

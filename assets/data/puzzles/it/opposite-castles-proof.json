@@ -1,0 +1,13 @@
+{
+  "id": "opposite-castles-proof",
+  "fen": "4r1k1/pp2pp1p/2bp1npQ/q2N4/4PN2/5P2/PPP5/2K4R w - - 3 24",
+  "solution": [
+    "e5",
+    "Bxd5",
+    "exf6"
+  ],
+  "title": "Il Pedone Piede di Porco",
+  "setup": "Re su ali opposte. La vostra donna e la vostra torre condividono la colonna h, la donna nera in a5 tiene d'occhio a2, e solo il cavallo in f6 aiuta il re a difendere h7.",
+  "hint": "Togliete il cavallo di f6 da h7 con il pezzo più economico che avete, e fate in modo che costi al Nero qualunque cosa risponda.",
+  "explanation": "## L'idea\n\nRe su ali opposte fanno una corsa, e la donna nera punta già sul vostro re. Colpite per primi, con un pedone. {{e5}} colpisce il cavallo in f6, l'unico pezzo oltre al re che difende h7.\n\nIl meglio per il Nero è riprendersi un cavallo con {{Bxd5}}. Non cambia niente: {{exf6}} toglie comunque la guardia. Una volta che il Nero riprende, la donna e la torre sulla colonna h passano attraverso h7, e {{Qxh7+}} e {{Qh8+}} spingono il re in mezzo, dove perde molto più di un pezzo."
+}

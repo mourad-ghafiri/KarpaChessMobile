@@ -1,0 +1,13 @@
+{
+  "id": "overload-proof",
+  "fen": "r5k1/1p3ppp/8/b7/1B6/8/P4PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxa5",
+    "Rxa5",
+    "Re8#"
+  ],
+  "title": "One Rook, Two Jobs",
+  "setup": "Black's rook on a8 is guarding the bishop on a5, and it is also the only piece covering the eighth rank.",
+  "hint": "Nothing needs to be given away. Take something, and watch which job the rook decides to drop.",
+  "explanation": "## The Idea\n\n{{Bxa5}} is a plain trade, bishop for bishop, but it asks the rook on a8 a question it cannot answer. Recapture with {{Rxa5}} and the eighth rank is empty behind it: {{Re8#}}, because from a5 the rook reaches neither e8 nor f8. Leave the bishop instead and the rook keeps the back rank, but White is simply a piece up. Nothing was offered and nothing was forced. The rook had two jobs and one move."
+}

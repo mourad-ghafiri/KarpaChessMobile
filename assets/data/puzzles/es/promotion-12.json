@@ -1,0 +1,12 @@
+{
+  "id": "promotion-12",
+  "fen": "8/2P5/8/8/3r4/8/2K5/k7 w - - 0 1",
+  "solution": [
+    "c8=R"
+  ],
+  "rating": 1400,
+  "title": "La torre de Saavedra",
+  "setup": "Tu peón corona en c8 con el rey negro arrinconado en a1 y su torre vigilando desde d4.",
+  "hint": "Al rey negro solo le queda su última esquina. Pregúntate qué haría una dama recién coronada con ese hecho.",
+  "explanation": "## La idea\n\nA {{c8=Q}} se responde con {{Rc4+}}, y Qxc4 es rey ahogado, ya que el rey de a1 no tiene adónde ir. {{c8=R}} amenaza en cambio mate con Rc1, y tras Ra4 las Blancas juegan Kb3 y ganan la torre. Es la posición de Saavedra, publicada en 1895."
+}

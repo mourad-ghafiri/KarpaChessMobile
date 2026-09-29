@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-09",
+  "fen": "4nrk1/5p1p/6pQ/8/8/7P/qB3PPK/4R3 w - - 1 2",
+  "solution": [
+    "Rxe8"
+  ],
+  "rating": 1350,
+  "title": "The Guard of g7",
+  "setup": "Your queen and bishop both bear down on g7, and the knight on e8 is the only piece besides the king covering that square.",
+  "hint": "Mate is one move away and one black piece prevents it. Which piece covers g7, and what can reach it?",
+  "explanation": "## The Idea\n\n{{Rxe8}} takes the knight that covers g7. The recapture {{Rxe8}} does nothing for the king, and {{Qg7#}} finishes: the queen is held by the bishop on b2 and Black has no square left. When mate is one move away, price the defender, not the piece."
+}

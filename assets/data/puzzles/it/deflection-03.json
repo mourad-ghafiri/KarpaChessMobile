@@ -1,0 +1,14 @@
+{
+  "id": "deflection-03",
+  "fen": "2br2k1/5ppp/nq6/8/2B5/7P/PP2QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Bxa6"
+  ],
+  "rating": 1180,
+  "title": "Due Doveri, Una Donna",
+  "setup": "La donna in b6 tiene la torre in d8 e il cavallo in a6, e il vostro alfiere tiene già d'occhio a6.",
+  "hint": "Il vostro alfiere punta su un cavallo difeso. Trovate il difensore e dategli un compito a cui debba rispondere.",
+  "explanation": "## L'idea\n\n{{Rxd8+}} è scacco e {{Qxd8}} è l'unica risposta. La donna ha lasciato la sesta traversa, quindi {{Bxa6}} prende semplicemente il cavallo. Date la caccia ai difensori che tengono due pezzi insieme. Un difensore non deve per forza essere catturato, basta dargli un altro posto dove stare."
+}

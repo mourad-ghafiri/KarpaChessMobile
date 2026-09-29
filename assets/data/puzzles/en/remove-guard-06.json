@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-06",
+  "fen": "2r3k1/p4p1p/6p1/5n2/3b4/7B/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxf5"
+  ],
+  "rating": 1250,
+  "title": "Follow the Defense",
+  "setup": "Your rook faces the bishop on d4, which stays where it is only because the knight on f5 covers it.",
+  "hint": "Do not take the bishop yet. Ask what defends it, and whether you can trade that piece off first.",
+  "explanation": "## The Idea\n\n{{Bxf5}} removes the knight that guards d4. {{gxf5}} restores the material but not the defense, and {{Rxd4}} wins a piece. Attack the defender, not the defended. A pawn recapture repairs the material, never the defense."
+}

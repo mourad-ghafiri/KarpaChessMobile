@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-12",
+  "fen": "5rk1/5ppp/3Q4/5N2/8/1q6/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rd8#"
+  ],
+  "rating": 1100,
+  "title": "Şahı İçeri Çekin",
+  "setup": "Siyahın kalesi az önce d8'den f8'e gitti; dikeyinizi açtı ve kendi şahının tam yanına adımladı.",
+  "hint": "Şah en çok durduğu yerde güvendedir. Onu sahip olduğunuz yataya sürükleyen şahı bulun.",
+  "explanation": "## Fikir\n\n{{Qxf8+}} bir kale karşılığında vezirdir ve {{Kxf8}} tek kurallı cevaptır. Şah artık açık sekizinci yatayda, arkasında dikeyiniz tertemiz duruyor: {{Rd8#}}. f5'teki at e7'yi elinden alır, gerisini kendi piyonları halleder."
+}

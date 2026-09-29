@@ -1,0 +1,14 @@
+{
+  "id": "promotion-11",
+  "fen": "B5k1/P5p1/7p/8/8/8/2r2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kh8",
+    "a8=Q+"
+  ],
+  "rating": 1370,
+  "title": "Bishop Steps Off",
+  "setup": "Your a7-pawn is one square from queening and your own bishop is sitting on a8, right in its path.",
+  "hint": "The bishop must vacate, and it should land somewhere that gives Black no free move to interfere.",
+  "explanation": "## The Idea\n\n{{Bd5+}} clears a8 with check along the a2-g8 diagonal. Black has to answer the check, and none of the answers stops the pawn: after {{Kh8}} or {{Kf8}}, {{a8=Q+}} even promotes with check, and after {{Kh7}} the pawn queens just the same. Vacating with check is the whole point."
+}

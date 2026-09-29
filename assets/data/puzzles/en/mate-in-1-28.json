@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-28",
+  "fen": "1k6/pp6/1P6/8/8/8/8/1K4R1 w - - 0 1",
+  "solution": [
+    "Rg8#"
+  ],
+  "title": "Pawn Wedge Mate",
+  "setup": "Your pawn on b6 sits right in front of Black's king, and Black's own pawns stand on a7 and b7.",
+  "hint": "Black's pawns block two squares and your pawn guards the third. The rook needs the back rank.",
+  "explanation": "## The Idea\n\nThis is a back-rank mate with a quiet pawn assist. The pawn on b6 gives no check, but it covers c7, the one square the rook cannot reach.\n\n{{Rg8#}} checks along the eighth rank. a8 and c8 are on the rook's line, a7 and b7 hold Black's own pawns, and c7 is covered by your pawn. Nothing can block.\n\nWhen a king is stuck behind two pawns, look for a pawn of yours that covers the third square."
+}

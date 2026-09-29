@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-04",
+  "fen": "8/8/1P6/5r2/3K4/k7/8/3R4 b - - 0 1",
+  "solution": [
+    "Rb5"
+  ],
+  "rating": 1350,
+  "title": "Dietro il Pedone",
+  "setup": "Il pedone b del Bianco è a un passo dalla settima, e il re nero in a3 è troppo lento per prenderlo.",
+  "hint": "Il pedone correrà. Quale casa tiene la vostra torre puntata su di lui per quanto avanti arrivi?",
+  "explanation": "## L'idea\n\nUna torre dietro un pedone passato continua a colpirlo a ogni passo. {{Rb5}} {{b7}} {{Rxb7}}, e non resta niente da promuovere. Attaccate invece di lato con {{Rf6}}, e il Bianco gioca {{Rb1}}, sostenendo il suo pedone, e passa."
+}

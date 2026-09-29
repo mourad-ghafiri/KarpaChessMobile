@@ -1,0 +1,13 @@
+{
+  "id": "quiet-move-proof",
+  "fen": "4b1rk/5ppp/8/8/3B3R/1r6/PP6/K4Q2 w - - 0 1",
+  "solution": [
+    "Qf5",
+    "h6",
+    "Rxh6#"
+  ],
+  "title": "Rien à faire pour les Noirs",
+  "setup": "La tour noire s'apprête à manger vos pions, et vous n'avez aucun échec qui vaille la peine. Trouvez le coup qui laisse les Noirs sans une seule réponse utile.",
+  "hint": "Votre tour en h4 fixe déjà h7. Regardez ce que fait votre fou en d4 au pion g7 avant de choisir une case pour la dame.",
+  "explanation": "## L'idée\n\n{{Qf5}} ne donne pas échec et ne prend rien. Elle aligne la dame sur h7 à côté de la tour, et h7 tombe au coup suivant.\n\nLes Noirs n'ont aucun moyen de l'empêcher. Le pion g7 est cloué par votre fou en d4, il ne peut donc ni bouger ni prendre. Faire de l'air par {{h6}} ne fait qu'ouvrir la colonne : {{Rxh6#}}, et le pion cloué ne peut pas reprendre. Toute autre réponse est matée sur la colonne h."
+}

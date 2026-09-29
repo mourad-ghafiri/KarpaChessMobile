@@ -1,0 +1,11 @@
+{
+  "id": "forks-02",
+  "fen": "6k1/8/8/6n1/8/8/8/2Q3K1 w - - 0 1",
+  "solution": [
+    "Qxg5+"
+  ],
+  "title": "Bedava At, Bedava Şah",
+  "setup": "Siyahın g5'teki atı, şahla aynı dikeyde korumasız duruyor.",
+  "hint": "Vezirin çaprazı ata ulaşıyor ve ineceği dikey şaha ulaşıyor.",
+  "explanation": "## Fikir\n\ng5'teki atın koruyucusu yok ve g8'deki şahla aynı dikeyde duruyor.\n\n{{Qxg5+}} onu alır ve aynı hamlede şah çeker; böylece siyah başka hiçbir şeye harcayacak hamle bulamaz. Vezir çaprazdan geldi; şahı ineceği dikey çeker ve şah geri alamayacak kadar uzakta.\n\nBu bir çatal değil — ortada baştan beri tek bir hedef vardı — ama aynı sebeple işe yarar: cevabın yeri çoktan doludur."
+}

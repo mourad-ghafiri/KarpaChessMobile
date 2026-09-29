@@ -1,0 +1,62 @@
+{
+  "id": "piece-values",
+  "title": "Sembilan, Lima, Tiga, Satu",
+  "summary": "Harga setiap buah, dan hitungan yang mencegah blunder sebelum terjadi",
+  "proof": "first-steps-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Daftar Harga",
+      "text": "Tak ada yang mencap harga pada buah catur. Namun para pemain menghitungnya juga, selama berabad-abad mengamati pertukaran mana yang ternyata menguntungkan.\n\nSemuanya dihitung dalam pion. Pion bernilai 1. Kuda bernilai 3, begitu pula gajah. Benteng bernilai 5. Menteri bernilai 9.\n\nRaja tak punya angka: ia tak pernah ditukar dan tak pernah ditangkap, jadi tak ada yang perlu diberi harga.\n\nJumlahkan apa yang masih Anda miliki, dan totalnya adalah **materi** Anda — satu-satunya bagian dari sebuah posisi yang bisa Anda hitung dengan jari.\n\n> Angka-angka ini pedoman, bukan hukum. Sebuah posisi bisa mengalahkan angka mana pun."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Satu Lawan Satu",
+      "text": "Perhatikan sebuah pertukaran seimbang lewat: {{e4}} {{d5}} {{exd5}} {{Qxd5}}.\n\nPutih memenangkan sebuah pion. Hitam langsung merebut pion itu kembali. Kedua pihak memiliki persis apa yang mereka miliki empat langkah lalu, dan hitungannya tak bergeser satu poin pun.\n\nBegitulah sebagian besar penangkapan — pertukaran yang setara, di mana posisinya berubah tetapi materinya tidak. Penangkapan yang layak diburu adalah jenis yang lain."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Lima Lawan Tiga",
+      "text": "Benteng di e1 bernilai lima, kuda di f3 tiga. Jadi benteng untuk kuda sama sekali bukan pertukaran — itu untung dua, dan cukup sering terjadi sampai punya nama sendiri: memenangkan **kualitas**.\n\nMenjumlahkan angka makin kurang andal ketika tumpukannya membesar. Kuda dan gajah — **buah ringan** — berjumlah enam, begitu pula benteng dan pion, tetapi dua buah itu biasanya lebih unggul. Tiga buah ringan juga berjumlah sembilan, sama dengan menteri, dan tiga buah ringan umumnya mengalahkan menteri."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Unggul Satu Kuda",
+      "text": "Hitung apa yang ada di sini. Masing-masing punya menteri, benteng dan tiga pion — dan Putih punya seekor kuda sebagai tambahan. Satu buah, dan itulah seluruh perbedaan di antara kedua pihak.\n\nBuah tambahan makin berarti ketika segala yang lain makin sedikit. Maka pihak yang unggul melakukan pertukaran: setiap pertukaran setara memberi kuda tambahan Anda bagian yang lebih besar dari apa yang tersisa, dan menyisakan lebih sedikit buah bagi Hitam untuk berbuat sesuatu.\n\nAda pertukaran setara yang tersedia sekarang juga."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "prompt": "Anda unggul satu kuda, jadi tawarkan kepada Hitam pertukaran yang menyingkirkan buah terberat dari masing-masing pihak.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "Kedua menteri sudah berada di lajur yang sama tanpa apa pun di antaranya, dan benteng Hitam mengawasi petak itu."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/3r4/8/5N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Hasil dari Pertukaran",
+      "text": "Sembilan untuk sembilan. Kedua menteri telah pergi dan hitungannya tak bergeser satu poin pun: Putih unggul satu kuda, persis seperti sebelumnya.\n\nYang berubah adalah segala sesuatu di sekitarnya. Hitam punya benteng di d5, tiga pion dan raja, dan tak satu pun bisa berbuat apa-apa terhadap buah yang memang tidak ada. Makin sedikit buah yang tersisa, makin lantang suara buah tambahan itu.\n\nJika tertinggal materi, lakukan sebaliknya dan pertahankan buah di papan. Setiap buah yang masih berdiri adalah satu hal lagi yang bisa salah bagi pihak yang unggul."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "title": "Dihitung, atau Tidak",
+      "text": "Buah yang diserahkan begitu saja disebut **blunder** — tak ada materi yang kembali untuknya, dan Anda akan menarik langkah itu kembali seandainya aturan mengizinkan.\n\nBuah yang diserahkan dengan sengaja, demi sesuatu yang sudah Anda hitung dan bisa Anda lihat datang, disebut **pengorbanan**. Dari luar kedua langkah itu tampak sama. Seluruh perbedaannya terletak pada apakah hitungan dilakukan lebih dulu.\n\nItulah sebabnya hitungan datang sebelum penangkapan. Kuda Anda mencapai dua buah hitam di sini, dan harganya tak seperti kelihatannya."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "prompt": "Satu penangkapan gratis dan satu lagi mengorbankan kuda Anda — hitung keduanya dan ambil yang memberi lebih banyak.",
+      "targetSan": [
+        "Nxc6"
+      ],
+      "hint": "Benteng bernilai lima dan pion bernilai satu, dan kuda di e5 mencapai keduanya."
+    }
+  ]
+}

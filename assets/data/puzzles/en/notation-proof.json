@@ -1,0 +1,11 @@
+{
+  "id": "notation-proof",
+  "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Bc4"
+  ],
+  "title": "The Next Entry",
+  "setup": "A printed game reads 1.e4 e5 2.Nf3 d6, and White's next entry is `3.Bc4`. Play the move it names.",
+  "hint": "The capital letter names the piece, and the two characters after it name the square it lands on.",
+  "explanation": "## The Idea\n\nB is the bishop, and c4 is the square. Only the bishop on f1 can reach c4, so the entry needs nothing more: {{Bc4}}.\n\nThe number tells you it is White's third move, and the moves before it put every piece where you see it now. A letter for the piece, a square for where it lands."
+}

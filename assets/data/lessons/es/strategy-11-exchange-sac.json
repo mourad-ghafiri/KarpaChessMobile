@@ -1,0 +1,65 @@
+{
+  "id": "exchange-sacrifice",
+  "title": "El sacrificio de calidad",
+  "summary": "Torre por caballo, y los peones nunca se recuperan",
+  "proof": "strategy-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "Una pieza haciendo dos trabajos",
+      "text": "Aquí el material está exactamente igualado, y una pieza blanca hace el trabajo de dos. El caballo de c3 protege el peón de e4, cubre b5 y d5 y está dos casillas delante del rey blanco de c1.\n\nA las Negras les encantaría quitarlo. Solo una pieza negra llega a c3 —la torre de c8, por una columna vacía—, y una torre vale cinco puntos cuando un caballo vale tres.\n\nEntregar una torre por un caballo o un alfil tiene nombre propio: sacrificas **la calidad**."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "La lista de precios",
+      "text": "Pon precio a un sacrificio antes de hacerlo, no después.\n\nDigamos que el caballo de c3 sale y las Blancas recapturan. Una sola unidad blanca llega a c3: el peón de b2. Nada más en el tablero toca esa casilla, así que la recaptura recae a la fuerza en un peón que abandona la columna b para siempre.\n\nEl flanco de dama blanco queda entonces con tres peones en dos columnas: uno varado solo en la columna a y dos apilados en la c. Ningún bando tiene alfil de casillas negras, así que a b2 solo le queda el rey para vigilarla, y a a3 no le queda nada.\n\nDos puntos, por un daño que no se puede reparar."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "prompt": "Paga dos puntos para destrozar los peones delante del rey blanco y eliminar la pieza que sostiene el centro blanco.",
+      "targetSan": [
+        "Rxc3"
+      ],
+      "hint": "Exactamente una pieza negra tiene camino libre hasta c3, y es la cara."
+    },
+    {
+      "type": "teach",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "title": "Ahora cuéntalo fuera del tablero",
+      "text": "Las Blancas tienen dos torres, un alfil y un caballo. Las Negras tienen una torre, un alfil y dos caballos. Dos puntos, perdidos, y no hay forma de recuperarlos.\n\nAhora la otra columna de la cuenta. El peón de a2 no tiene ya vecino, y ningún peón volverá a defenderlo. Los peones de c2 y c3 están apilados en una columna, y el de atrás no puede moverse en absoluto. La columna b no tiene peón blanco, y el rey de c1 está al lado de ese hueco.\n\nTodo lo que jueguen las Negras a partir de aquí tiene que gastar lo que compró la torre."
+    },
+    {
+      "type": "play",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "prompt": "Coloca tu dama donde golpee en una sola jugada al peón de a varado y al peón doblado.",
+      "targetSan": [
+        "Qa5"
+      ],
+      "hint": "Una casilla del flanco de dama mira directamente por la columna a y por las casillas negras junto al rey blanco."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/2KR3R w - - 1 16",
+      "title": "Una torre de más y ningún sitio donde ponerla",
+      "text": "{{Kb1}}. Las Blancas salen primero de la columna c, lo cual es sensato y no hace nada por el resto de la posición.\n\nMira lo que hace la torre de más. La torre de d1 choca con el propio caballo blanco de d4. La torre de h1 choca con el propio peón blanco de h4. La columna c está taponada por los dos peones blancos que hay en ella. Tres columnas, y las Blancas no pueden usar ninguna.\n\nUna torre vale cinco puntos cuando tiene dónde estar. Esta vale lo que alcanza."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "title": "Cuando llega la factura",
+      "text": "El mismo cambio es una simple pérdida de dos puntos en tres casos: la recaptura deja los peones sanos, el cambio le da al rival una columna con la que trabajar, o no sigue nada. El material habla, y cuanto más tiempo se le deja, más alto habla.\n\nAquí nunca llega a tomar la palabra. El rey blanco de b1 ya no tiene peón en su propia columna, el peón de c3 ya está bajo el fuego y todas las piezas negras apuntan a la misma esquina.\n\n> No estás vendiendo una torre, estás comprando casillas, y las casillas compradas hay que usarlas."
+    },
+    {
+      "type": "play",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "prompt": "Alinea tu última torre con el peón con el que las Blancas se vieron obligadas a recapturar.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "Nada defiende ese peón, pero capturarlo ya con la dama es precipitado. Lleva antes tu última torre a su columna."
+    }
+  ]
+}

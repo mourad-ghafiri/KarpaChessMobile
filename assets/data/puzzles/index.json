@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "themes": [
+    {
+      "id": "first-steps",
+      "icon": "♟",
+      "difficulty": "beginner",
+      "puzzles": [
+        "first-steps-01.json",
+        "first-steps-02.json",
+        "first-steps-03.json",
+        "first-steps-04.json",
+        "first-steps-05.json",
+        "first-steps-06.json",
+        "first-steps-07.json",
+        "first-steps-08.json",
+        "first-steps-09.json",
+        "first-steps-10.json",
+        "first-steps-11.json",
+        "first-steps-12.json",
+        "first-steps-13.json",
+        "first-steps-14.json",
+        "first-steps-15.json",
+        "first-steps-16.json",
+        "first-steps-17.json",
+        "first-steps-18.json",
+        "first-steps-19.json",
+        "first-steps-20.json",
+        "first-steps-21.json",
+        "first-steps-22.json",
+        "first-steps-23.json",
+        "first-steps-24.json"
+      ]
+    },
+    {
+      "id": "mate-in-1",
+      "icon": "♛",
+      "difficulty": "beginner",
+      "puzzles": [
+        "mate-in-1-01.json",
+        "mate-in-1-02.json",
+        "mate-in-1-03.json",
+        "mate-in-1-04.json",
+        "mate-in-1-05.json",
+        "mate-in-1-06.json",
+        "mate-in-1-07.json",
+        "mate-in-1-08.json",
+        "mate-in-1-09.json",
+        "mate-in-1-10.json",
+        "mate-in-1-11.json",
+        "mate-in-1-12.json",
+        "mate-in-1-13.json",
+        "mate-in-1-14.json",
+        "mate-in-1-15.json",
+        "mate-in-1-16.json",
+        "mate-in-1-17.json",
+        "mate-in-1-18.json",
+        "mate-in-1-19.json",
+        "mate-in-1-20.json",
+        "mate-in-1-21.json",
+        "mate-in-1-22.json",
+        "mate-in-1-23.json",
+        "mate-in-1-24.json",
+        "mate-in-1-25.json",
+        "mate-in-1-26.json",
+        "mate-in-1-27.json",
+        "mate-in-1-28.json",
+        "mate-in-1-29.json",
+        "mate-in-1-30.json",
+        "mate-in-1-31.json"
+      ]
+    },
+    {
+      "id": "mate-in-2",
+      "icon": "♚",
+      "difficulty": "intermediate",
+      "puzzles": [
+        "mate-in-2-01.json",
+        "mate-in-2-02.json",
+        "mate-in-2-03.json"
+      ]
+    },
+    {
+      "id": "forks",
+      "icon": "♞",
+      "difficulty": "beginner",
+      "puzzles": [
+        "forks-01.json",
+        "forks-02.json",
+        "forks-03.json",
+        "forks-04.json",
+        "forks-05.json",
+        "forks-06.json",
+        "forks-07.json",
+        "forks-08.json",
+        "forks-09.json",
+        "forks-10.json",
+        "forks-11.json",
+        "forks-12.json",
+        "forks-13.json",
+        "forks-14.json",
+        "forks-15.json"
+      ]
+    },
+    {
+      "id": "pins-skewers",
+      "icon": "♝",
+      "difficulty": "intermediate",
+      "puzzles": [
+        "pins-skewers-01.json",
+        "pins-skewers-02.json",
+        "pins-skewers-03.json",
+        "pins-skewers-04.json",
+        "pins-skewers-05.json",
+        "pins-skewers-06.json",
+        "pins-skewers-07.json",
+        "pins-skewers-08.json",
+        "pins-skewers-09.json",
+        "pins-skewers-10.json",
+        "pins-skewers-11.json"
+      ]
+    },
+    {
+      "id": "back-rank",
+      "icon": "♜",
+      "difficulty": "beginner",
+      "puzzles": [
+        "back-rank-01.json",
+        "back-rank-02.json",
+        "back-rank-03.json",
+        "back-rank-04.json",
+        "back-rank-05.json",
+        "back-rank-06.json",
+        "back-rank-07.json",
+        "back-rank-08.json",
+        "back-rank-09.json",
+        "back-rank-10.json",
+        "back-rank-11.json",
+        "back-rank-12.json"
+      ]
+    },
+    {
+      "id": "tactics-mix",
+      "icon": "⚡",
+      "difficulty": "intermediate",
+      "puzzles": [
+        "tactics-mix-01.json",
+        "tactics-mix-02.json",
+        "tactics-mix-03.json",
+        "tactics-mix-04.json",
+        "tactics-mix-05.json",
+        "tactics-mix-06.json",
+        "tactics-mix-07.json",
+        "tactics-mix-08.json",
+        "tactics-mix-09.json",
+        "tactics-mix-10.json",
+        "tactics-mix-11.json",
+        "tactics-mix-12.json",
+        "tactics-mix-13.json",
+        "tactics-mix-14.json",
+        "tactics-mix-15.json",
+        "tactics-mix-16.json",
+        "tactics-mix-17.json",
+        "tactics-mix-18.json"
+      ]
+    },
+    {
+      "id": "discovered",
+      "icon": "🎯",
+      "difficulty": "intermediate",
+      "puzzles": [
+        "discovered-01.json",
+        "discovered-02.json",
+        "discovered-03.json",
+        "discovered-04.json",
+        "discovered-05.json"
+      ]
+    },
+    {
+      "id": "endgame",
+      "icon": "♔",
+      "difficulty": "intermediate",
+      "puzzles": [
+        "endgame-01.json",
+        "endgame-02.json",
+        "endgame-03.json",
+        "endgame-04.json",
+        "endgame-05.json"
+      ]
+    },
+    {
+      "id": "openings",
+      "icon": "♞",
+      "difficulty": "intermediate",
+      "puzzles": [
+        "openings-01.json",
+        "openings-02.json",
+        "openings-03.json",
+        "openings-04.json",
+        "openings-05.json",
+        "openings-06.json",
+        "openings-07.json",
+        "openings-08.json",
+        "openings-09.json",
+        "openings-10.json",
+        "openings-11.json",
+        "openings-12.json",
+        "openings-13.json",
+        "openings-14.json",
+        "openings-15.json",
+        "openings-16.json",
+        "openings-17.json",
+        "openings-18.json"
+      ]
+    },
+    {
+      "id": "endgames",
+      "icon": "♔",
+      "difficulty": "intermediate",
+      "puzzles": [
+        "endgames-01.json",
+        "endgames-02.json",
+        "endgames-03.json",
+        "endgames-04.json",
+        "endgames-05.json",
+        "endgames-06.json",
+        "endgames-07.json"
+      ]
+    },
+    {
+      "id": "strategy",
+      "icon": "♗",
+      "difficulty": "intermediate",
+      "puzzles": [
+        "strategy-01.json",
+        "strategy-02.json",
+        "strategy-03.json",
+        "strategy-04.json",
+        "strategy-05.json",
+        "strategy-06.json",
+        "strategy-07.json",
+        "strategy-08.json",
+        "strategy-09.json",
+        "strategy-10.json",
+        "strategy-11.json"
+      ]
+    },
+    {
+      "id": "history",
+      "icon": "📜",
+      "difficulty": "intermediate",
+      "puzzles": [
+        "history-01.json",
+        "history-02.json",
+        "history-03.json",
+        "history-04.json",
+        "history-05.json",
+        "history-06.json",
+        "history-07.json",
+        "history-08.json"
+      ]
+    },
+    {
+      "id": "culture",
+      "icon": "🌍",
+      "difficulty": "intermediate",
+      "puzzles": [
+        "culture-01.json",
+        "culture-02.json",
+        "culture-03.json",
+        "culture-04.json",
+        "culture-05.json",
+        "culture-06.json",
+        "culture-07.json",
+        "culture-08.json"
+      ]
+    }
+  ]
+}

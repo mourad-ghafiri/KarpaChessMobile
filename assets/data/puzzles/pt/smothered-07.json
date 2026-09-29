@@ -1,0 +1,14 @@
+{
+  "id": "smothered-07",
+  "fen": "r4r1k/pp4pp/7N/3Q4/8/8/P4PPP/6K1 w - - 6 31",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1345,
+  "title": "Desvia o Guarda",
+  "setup": "As pretas acabaram de trazer uma torre de volta a f8 para segurar f7, e o cavalo de h6 está pendurado.",
+  "hint": "A torre de f8 é a única coisa a guardar f7 — onde é que a poderias obrigar a ficar em vez disso?",
+  "explanation": "## A Ideia\n\nO cavalo já cobre g8, portanto a {{Qg8+}} o rei não pode responder, e {{Rxg8}} é a única resposta legal. A torre que guardava f7 está agora a tapar a última saída do rei, e {{Nf7#}} acaba. O sacrifício desvia e sufoca numa só jogada."
+}

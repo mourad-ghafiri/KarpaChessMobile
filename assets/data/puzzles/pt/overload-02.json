@@ -1,0 +1,14 @@
+{
+  "id": "overload-02",
+  "fen": "5Rbk/1r3ppp/8/8/8/7Q/PP2R3/K7 w - - 0 1",
+  "solution": [
+    "Rxg8+",
+    "Kxg8",
+    "Re8#"
+  ],
+  "rating": 1290,
+  "title": "O Escudo Que Tapa",
+  "setup": "O bispo preto recuou para g8 ao lado do próprio rei, e a tua torre já está em f8 mesmo ao lado.",
+  "hint": "A peça à frente do rei é a mesma que mantém a linha de fundo fechada. Obriga-a a escolher.",
+  "explanation": "## A Ideia\n\nO bispo de g8 protege o rei e tapa ao mesmo tempo a oitava linha. {{Rxg8+}} tira-o com xeque, {{Kxg8}} é forçado, e {{Re8#}} chega pela coluna que a outra torre teve para ela este tempo todo."
+}

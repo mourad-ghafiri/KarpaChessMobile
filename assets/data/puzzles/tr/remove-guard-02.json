@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-02",
+  "fen": "6k1/5ppp/2n5/4b3/1P6/4PN2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "b5"
+  ],
+  "rating": 1090,
+  "title": "Kovalayın, Almayın",
+  "setup": "e5'teki fil atınıza askıda duruyor ve c6'daki at her şeyi bir arada tutan tek taş.",
+  "hint": "Oynamak zorunda bırakılan koruyucu, kaldırdığınız koruyucudur. Hangi piyon yürüyüp ona saldırabilir?",
+  "explanation": "## Fikir\n\n{{b5}} ata vurur ve atın ulaşabildiği her kare e5'i gözden çıkarır — ardından {{Nxe5}} gelir. Siyah bunun yerine fili kurtarırsa {{bxc6}} atı alır. Bir koruyucuyu kovmak size hiçbir şeye mal olmaz."
+}

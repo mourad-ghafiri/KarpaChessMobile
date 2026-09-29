@@ -1,0 +1,14 @@
+{
+  "id": "decoy-09",
+  "fen": "3q1bk1/pp3pp1/8/4N3/3P4/8/PPr2PP1/3R2KR w - - 1 2",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "Nxf7+"
+  ],
+  "rating": 1450,
+  "title": "Fork After the Fall",
+  "setup": "The black king sits on g8 with its own bishop and pawns beside it and your rook owning the h-file, and your knight on e5 eyes f7.",
+  "hint": "From f7 your knight would hit two pieces at once — but only if the king were standing on h8.",
+  "explanation": "## The Idea\n\n{{Rh8+}} is a rook offered for one square: {{Kxh8}} is forced. Now {{Nxf7+}} forks king and queen, and the knight comes back with the queen. Decoys buy squares, not material. Look for forks that need one enemy piece moved, then move it yourself."
+}

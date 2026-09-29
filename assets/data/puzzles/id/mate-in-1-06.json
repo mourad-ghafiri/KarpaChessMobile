@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-06",
+  "fen": "6k1/8/6K1/8/8/8/8/1Q6 w - - 0 1",
+  "solution": [
+    "Qb8#"
+  ],
+  "title": "Raja Berhadapan",
+  "setup": "Kedua raja berhadapan di lajur g, dan menteri Anda menunggu di b1 dengan seluruh papan untuk dirinya sendiri.",
+  "hint": "Raja Anda sudah menguasai f7, g7 dan h7. Baris mana yang tersisa untuk direbut menteri?",
+  "explanation": "## Ide\n\nKedua raja saling berhadapan dengan satu petak di antaranya, jadi raja Anda menguasai f7, g7 dan h7, setiap jalan keluar di baris ketujuh. Menteri tinggal merebut baris kedelapan.\n\n{{Qb8#}} melakukannya dari seberang papan: f8 dan h8 berada di barisnya, raja di g8 dalam sekak, dan tak ada yang bisa menghalangi.\n\nDi dekat raja sendirian, pastikan langkah terakhir memberi sekak. Raja tanpa petak dan tanpa sekak berarti pat."
+}

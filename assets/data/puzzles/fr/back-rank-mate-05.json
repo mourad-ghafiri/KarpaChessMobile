@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-05",
+  "fen": "2r3k1/1q3ppp/8/8/8/8/2R2PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Rxc8#"
+  ],
+  "rating": 850,
+  "title": "Échanger jusqu'au mat",
+  "setup": "Les deux camps ont des tours sur la colonne c, et la tour noire en c8 n'est défendue que par sa dame.",
+  "hint": "Comptez les attaquants et les défenseurs de la case de la dernière rangée, et n'oubliez pas que le roi ne peut pas aider.",
+  "explanation": "## L'idée\n\n{{Rxc8+}} force {{Qxc8}} — le roi n'a aucune case et la dame ne peut pas s'interposer depuis b7 — et la seconde tour conclut par {{Rxc8#}}. Un seul défenseur ne peut pas tenir une case que deux tours attaquent."
+}

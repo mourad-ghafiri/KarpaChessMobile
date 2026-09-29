@@ -1,0 +1,11 @@
+{
+  "id": "endgames-03",
+  "fen": "3k4/8/8/1KP1r3/8/7R/8/8 b - - 0 1",
+  "solution": [
+    "Re6"
+  ],
+  "title": "Un peón de menos y aguantando",
+  "setup": "El rey blanco de b5 quiere la sexta fila, y desde ahí aparta a tu rey del camino del peón. Juegan las Negras, y son tablas.",
+  "hint": "El rey blanco necesita a6, b6 o c6. Una torre en una fila cubre todas sus casillas.",
+  "explanation": "## La idea\n\nAquí las filas se cuentan desde el lado de las Blancas. El rey blanco necesita a6, b6 o c6 para subir junto a su peón, y una sola jugada de torre se lleva las tres: {{Re6}}. Una torre en una fila es una valla, y un rey no puede pisar una casilla que ella cubre.\n\nCualquier otra jugada deja entrar al rey en la sexta, delante de su propio peón, donde ningún jaque por detrás puede alcanzarlo, y el peón llega a coronar."
+}

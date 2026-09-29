@@ -1,0 +1,14 @@
+{
+  "id": "defence-08",
+  "fen": "4K3/5rQ1/3q4/r6k/8/8/B7/3R4 w - - 0 1",
+  "solution": [
+    "Rh1+",
+    "Qh2",
+    "Rxh2#"
+  ],
+  "rating": 1730,
+  "title": "La dame doit revenir",
+  "setup": "La dame noire en d6 et les tours en a5 et f7 entourent votre roi en e8, tandis que son propre roi se tient en h5.",
+  "hint": "Les pièces noires sont toutes du mauvais côté. Donnez échec sur la colonne où se tient son roi et voyez qui peut aider.",
+  "explanation": "## L'idée\n\n{{Rh1+}} force la dame à s'interposer par {{Qh2}}, en abandonnant tout, et {{Rxh2#}} conclut. Les pièces qui attaquent votre roi sont des pièces qui ne défendent pas le leur."
+}

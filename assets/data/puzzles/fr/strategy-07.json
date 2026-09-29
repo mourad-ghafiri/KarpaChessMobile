@@ -1,0 +1,11 @@
+{
+  "id": "strategy-07",
+  "fen": "r4rk1/pp1b1ppp/2nqpn2/3p4/3P4/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 11",
+  "solution": [
+    "Rc1"
+  ],
+  "title": "Personne ne tient la colonne c",
+  "setup": "Les deux pions c ont disparu, et aucun camp n'a placé de tour sur la colonne qu'ils ont laissée. Un coup suffit pour la prendre.",
+  "hint": "Une colonne n'a aucun pion, d'aucune couleur, et une seule de vos tours a un chemin dégagé pour l'atteindre.",
+  "explanation": "## L'idée\n\nLa colonne c n'a aucun pion, d'aucune couleur, et aucun camp n'y a encore placé de tour.\n\n{{Rc1}} la prend en premier. L'autre tour ne le peut pas, car la dame en d1 est sur le chemin. Pour l'instant, la tour se tient derrière son propre cavalier en c3, mais un cavalier peut s'écarter en un coup, et alors la colonne appartient à la tour.\n\nLa tour d'abord, la dame derrière : une dame en tête de colonne est une cible que n'importe quelle pièce mineure peut chasser en gagnant un temps."
+}

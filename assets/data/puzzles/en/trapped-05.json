@@ -1,0 +1,12 @@
+{
+  "id": "trapped-05",
+  "fen": "3r2k1/1pp2pp1/7p/n2P4/8/3P3P/PP3PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b4"
+  ],
+  "rating": 1170,
+  "title": "Cornered Knight",
+  "setup": "Black's knight has landed on a5, where its four jumps are b3, c4, c6 and b7, and b7 is its own pawn.",
+  "hint": "Your pawns on a2, d3 and d5 already watch three of the knight's four squares. Only the attack is missing.",
+  "explanation": "## The Idea\n\n{{b4}} attacks the knight and it has nowhere: b3 runs into axb3, c4 into dxc4, c6 into dxc6, and b7 is blocked by Black's own pawn. A knight on a5 is one pawn move away from being an ex-knight."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-07",
+  "fen": "8/8/8/2P5/5p2/3K3k/8/8 w - - 0 2",
+  "solution": [
+    "c6"
+  ],
+  "rating": 1315,
+  "title": "Les deux pions courent",
+  "setup": "Les Noirs viennent de pousser leur pion en quatrième rangée, et le roi blanc est assez proche pour être tenté.",
+  "hint": "Revenir en arrière pour arrêter son pion coûte un coup ; comptez les deux courses jusqu'à la huitième rangée avant de décider.",
+  "explanation": "## L'idée\n\nPoursuivre le pion f ne fait que nulle. {{c6}} gagne la course : après {{Kg3}}, le pion court en c7 et va à dame en c8 alors que le pion noir n'a atteint que f3, et votre nouvelle dame et votre roi arrêtent ensuite le coureur.\n\nDans une pure course, comptez les coups des deux pions jusqu'à la dernière rangée avant de revenir en arrière pour poursuivre."
+}

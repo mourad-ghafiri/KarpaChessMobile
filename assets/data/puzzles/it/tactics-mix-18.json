@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-18",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+  "solution": [
+    "dxe5"
+  ],
+  "title": "Aprite il Centro",
+  "setup": "Tutti e due hanno spinto i pedoni d e e, e adesso tutti e quattro si incontrano al centro.",
+  "hint": "Quando quattro pedoni centrali si toccano, la prima presa decide chi si prende le linee aperte. Quale di esse apre anche una colonna verso la donna nera?",
+  "explanation": "## L'idea\n\n{{dxe5}} prende il pedone e e apre la colonna d. Se il Nero risponde {{dxe4}}, allora {{Qxd8+}} cambia le donne con scacco, il re nero deve riprendere e perde il diritto di arroccare, e il pedone in e4 resta tagliato fuori dai suoi compagni. {{exd5}} invece lascia {{Qxd5}} riprendere con una donna al centro.\n\nQuando i pedoni centrali si incontrano, catturate dalla parte in cui la colonna che aprite lavora per voi."
+}

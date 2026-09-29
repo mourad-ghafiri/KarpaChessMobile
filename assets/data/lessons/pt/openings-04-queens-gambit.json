@@ -1,0 +1,51 @@
+{
+  "id": "queens-gambit",
+  "title": "O Gambito de Dama",
+  "summary": "Um peão que podes capturar e que não podes guardar",
+  "proof": "openings-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Não É Bem um Gambito",
+      "text": "Duas jogadas de vida, e as brancas já estacionaram um peão onde as pretas o podem capturar. Um **gambito** é um peão entregue cedo para comprar algo mais rápido — tempo, linhas abertas, casas. Este não entrega nada, porque as pretas não conseguem guardar o que capturam.\n\nO que as brancas querem mesmo é d5. Troca o peão de c4 pelo peão d das pretas e as brancas ficam o único lado com peão no meio, livres para construir em cima dele."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Capturar Não É Guardar",
+      "text": "{{dxc4}} responde à pergunta das brancas pelo lado errado. O peão preto deixou o meio, {{e4}} segue-se logo, e dois peões brancos ficam lado a lado no centro sem nada que os possa atingir.\n\nTentar guardar o peão custa ainda mais. {{b5}} escora-o, {{a4}} arranca-o, e as brancas recuperam-no com a ala da dama rasgada.\n\nPortanto o peão nunca foi a oferta. A oferta é uma troca, e o preço de a recusar é uma segunda jogada de peão."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "prompt": "Apoia d5 com um segundo peão para o centro aguentar, e aceita que isso fecha uma porta a uma das tuas peças.",
+      "targetSan": [
+        "e6",
+        "c6"
+      ],
+      "hint": "Dois dos teus peões podem avançar para uma casa que guarde d5 na diagonal, e cada um deles tira a melhor estrada a uma peça diferente."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "Dois Contra Três",
+      "text": "Nove jogadas depois, saída dessa mesma discussão: as brancas trocaram em d5, as pretas recapturaram com o peão e, e o meio acalmou. Esta forma tem nome, Carlsbad, e a sua lógica é aritmética.\n\nConta a ala da dama. As brancas têm lá dois peões, as pretas três. Fazer marchar o grupo mais pequeno contra o maior é um **ataque de minorias**, e não se joga para ganhar nada. Avança o suficiente, os peões trocam-se entre si, e às pretas fica um peão em c6 que nenhum peão preto poderá defender, numa coluna semiaberta."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "A Corrida Que Nunca Se Encontra",
+      "text": "As pretas não defendem. Esses três peões da ala da dama são aquilo que as brancas vêm buscar, por isso as pretas deixam-nos onde estão e jogam antes contra o rei branco: o cavalo de f8 sai para g6, as restantes peças seguem, e o peão f vem com elas.\n\nDois planos em alas opostas, e nunca se tocam. Nenhum deles se pode chamar de volta depois de arrancar, portanto a partida decide-se por qual chega primeiro.\n\n> Trocar peões nem sempre é simplificar. Às vezes é a maneira de construir uma fraqueza."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "prompt": "Manda o teu grupo mais pequeno da ala da dama contra o grupo maior das pretas e começa a construir um alvo que nenhum peão preto poderá defender.",
+      "targetSan": [
+        "b4"
+      ],
+      "hint": "Os teus dois peões da ala da dama têm de viajar; guia aquele que pode entrar em contacto com o grupo preto, e o outro sobe atrás dele."
+    }
+  ]
+}

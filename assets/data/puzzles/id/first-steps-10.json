@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-10",
+  "fen": "4k3/4p3/8/8/1n2R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Rxb4"
+  ],
+  "title": "Benteng Memilih",
+  "setup": "Benteng Anda di **e4** menyerang di sepanjang kedua garisnya: seekor kuda duduk di barisnya, sebuah pion di lajurnya.",
+  "hint": "Pion e7 tampak menggoda, tetapi lihat siapa yang berdiri tepat di belakangnya.",
+  "explanation": "## Ide\n\nBenteng menjangkau dua buah hitam, satu di lajurnya dan satu di barisnya.\n\n{{Rxe7+}} berjalan masuk ke {{Kxe7}}: raja di e8 menjaga e7, dan Anda telah menukar benteng bernilai lima poin dengan pion bernilai satu poin. {{Rxb4}} mengambil kuda yang tak dijaga apa pun dan mempertahankan ketiga poinnya.\n\nRaja adalah pembela sungguhan, dan apa pun yang berdiri di sebelahnya terjaga. Periksa seluruh baris dan lajur benteng Anda, lalu ambil sasaran yang tak dilindungi siapa pun."
+}

@@ -1,0 +1,71 @@
+{
+  "id": "deflection",
+  "title": "Pengalihan",
+  "summary": "Sebagian penjaga tak bisa ditangkap. Namun semuanya tetap bisa diusir pergi.",
+  "proof": "deflection-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Petak yang Mengakhiri Partai",
+      "text": "e8 mengakhiri partai ini. Buah Putih apa pun yang mendarat di sana memberi sekak kepada raja di g8, dan raja itu punya tiga pionnya sendiri yang berdiri di tempat yang seharusnya menjadi petak pelariannya.\n\nPutih punya dua buah di lajur e, menteri di depan dan benteng di belakang. Benteng tak bisa mencapai e8 — menterinya sendiri menghalangi. Menteri bisa.\n\nMenteri juga bisa ditangkap di sana. Benteng di d8 menguasai e8 di sepanjang baris kedelapan, dan tak ada buah hitam lain yang menguasainya."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Cara Memindahkan Buah Lawan",
+      "text": "Anda sudah punya dua cara menghentikan penjaga: menangkapnya, atau mengusirnya dari petaknya. Tak satu pun tersedia. Tak ada milik Putih yang menyerang d8, dan pion-pion Putih masih duduk di baris kedua.\n\nJadi benteng harus bergerak sendiri. Anda tak bisa memerintah buah lawan pergi ke mana pun. Anda hanya bisa membuat petak lain lebih berharga baginya daripada petak tempat ia berdiri — dan versi terkuatnya adalah petak yang sama sekali tak bisa ia tolak secara sah."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Buat benteng di d8 meninggalkan d8 dengan langkah yang secara sah tak bisa ia tolak.",
+      "targetSan": [
+        "Qe8+"
+      ],
+      "hint": "Hanya satu buah putih yang bisa mencapai e8, dan hanya satu buah hitam yang bisa menjawabnya."
+    },
+    {
+      "type": "teach",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "title": "Tak Ada yang Dipilih di Sini",
+      "text": "Hitam tidak sedang memilih di antara beberapa pilihan. Hanya satu langkah sah yang ada di seluruh papan, dan inilah posisi yang dihasilkannya.\n\nBenteng berada di e8 dan tidak di d8. Itulah idenya, dan ia punya nama: **pengalihan** memaksa pembela berada di tempat lain pada saat tugasnya dibutuhkan. Apakah ia selamat dari perjalanan itu tidaklah penting.\n\nBaris kedelapan kini ditempati dua buah hitam, benteng itu dan raja di g8. Raja menguasai f8 dan h8. Tak ada yang menguasai e8."
+    },
+    {
+      "type": "play",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "prompt": "Kini tak ada yang menjaga baris kedelapan, jadi tangkap benteng yang berdiri di sana dan selesaikan partai.",
+      "targetSan": [
+        "Rxe8#"
+      ],
+      "hint": "Hanya ada tepat satu penangkapan yang tersedia di papan ini, dan raja tak punya apa pun di belakangnya kecuali pionnya sendiri."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5pp1/7p/8/4Q3/8/5PPP/4R1K1 w - - 0 1",
+      "title": "Ubah Satu Pion",
+      "text": "Di sana Putih menyerahkan menteri untuk benteng dan tak perlu menghitung, karena langkah sesudahnya adalah mat.\n\nDi sini pion h berdiri di h6 dan raja punya satu petak. {{Qe8+}} {{Rxe8}} {{Rxe8+}} {{Kh7}}: benteng menangkap, baris kedelapan terbuka, dan raja sekadar melangkah keluar dari sudut.\n\nPutih telah membayar menteri untuk benteng, dan mat yang dibayarnya tidak ada.\n\n> Pengalihan hanya sebaik langkah yang dimungkinkannya."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "Pertukaran yang Tak Membeli Apa-Apa",
+      "text": "Papan yang lain, dan tak ada mat di mana pun.\n\nGajah Anda di b2 memandang ke sepanjang diagonal panjang ke arah kuda di e5. {{Bxe5}} memenangkan kuda selama kira-kira setengah detik — gajah Hitam di c7 menangkap balik, tiga untuk tiga, dan Anda telah memakai gajah tanpa mengubah apa pun.\n\nJadi lihat e5 sekali lagi. Satu penyerang putih, satu pembela hitam, dan pembelanya adalah gajah di c7, yang tak diserang apa pun milik Putih dan tak akan pernah dikejar pion putih mana pun."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "Di Tempat Lain, Selama Satu Langkah",
+      "text": "Gajah di c7 harus berada di tempat lain. Bukan hilang — di tempat lain, dan hanya selama satu langkah yang Anda butuhkan.\n\nMenyerangnya tidak menghasilkan itu. Ia melangkah ke d6 dan mengawasi e5 dari sana.\n\nJadi berhentilah melihat gajah dan lihatlah baris kedelapan. Benteng Hitam ada di d8, benteng Anda di d1 menatap lurus ke atas lajur ke arahnya, dan raja di g8 punya tiga pion tanpa ruang bernapas."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "prompt": "Paksa gajah di c7 berhenti mengawasi e5, dengan langkah yang hanya punya satu balasan bagi Hitam.",
+      "targetSan": [
+        "Rxd8+"
+      ],
+      "hint": "Tanyakan apa yang bisa menangkap balik di d8, dan perhatikan di mana buah itu berdiri saat ini."
+    }
+  ]
+}

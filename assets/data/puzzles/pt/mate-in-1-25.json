@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-25",
+  "fen": "4k3/R7/4K3/8/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Oposição e Varredura",
+  "setup": "Os reis estão frente a frente na coluna e, e a tua torre espera na sétima linha.",
+  "hint": "Sobe a torre à oitava linha. O teu rei de e6 já cobre a sétima.",
+  "explanation": "## A Ideia\n\nEste é o mate básico de rei e torre. Os reis estão frente a frente, e a torre dá xeque à distância.\n\n{{Ra8#}} dá xeque pela linha de fundo. d8 e f8 estão na linha da torre, o teu rei de e6 cobre d7, e7 e f7, e nada pode tapar.\n\nReis frente a frente, torre na linha do rei inimigo: quase todos os finais de rei e torre acabam exatamente assim."
+}

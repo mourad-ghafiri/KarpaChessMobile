@@ -1,0 +1,56 @@
+{
+  "id": "queens-pawn-family",
+  "title": "Pembukaan Pion Menteri",
+  "summary": "Tempati pusat, atau kekang pusat",
+  "proof": "openings-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Dua Pion yang Tak Pernah Bersentuhan",
+      "text": "Dorong pion raja dua petak dan pion-pion pusat akhirnya saling menatap, masing-masing tak terlindungi, masing-masing menjadi sasaran sejak langkah berikutnya.\n\nPion menteri menguasai wilayah yang sama tanpa memulai pertarungan sama sekali. Pion yang mendarat di d4 dijaga menteri di d1 begitu ia tiba, dan pion hitam yang datang ke d5 dijaga menterinya sendiri sama baiknya. Tak ada yang bisa ditangkap.\n\nJadi partai-partai ini dibuka tanpa sentuhan. Yang menentukannya jarang berupa taktik pada langkah kedelapan. Yang menentukannya adalah petak yang dikuasai seseorang dengan lebih baik pada langkah ketiga puluh."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Berhadapan Langsung",
+      "text": "{{d4}} {{d5}}. Hitam mengambil bagian yang sama dengan yang diambil Putih, dan kedua pion saling menghalangi di petak yang tak bisa ditangkap satu sama lain.\n\nJadi Putih mengganti topik: {{c4}}, pion sayap yang ditawarkan untuk pion pusat. Itulah Gambit Menteri, pembukaan tertua dalam keluarga ini.\n\nPion itu ditawarkan, bukan diberikan. Hitam bisa merebutnya, dan sering melakukannya, tetapi mempertahankannya menghabiskan begitu banyak langkah sehingga pion itu biasanya kembali — dengan buah-buah Putih sudah keluar dan mengarah ke tengah."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Membiarkannya Berdiri",
+      "text": "Hitam belum menempatkan pion di tengah, dan itu rencana, bukan penundaan. Kuda di f6 sudah mencegah pion e Putih mencapai e4, dan pion di e6 membuka jalan bagi seekor gajah.\n\nInilah pertahanan-pertahanan India, dan semuanya terbagi menurut buah mana yang berdebat.\n\n- **Pertahanan India Raja** menyerahkan tengah, mem-fianchetto gajah ke g7, dan membongkar temboknya belakangan.\n- **Nimzo-Indian** mengirim gajah ke b4 untuk menukar kuda yang akan menjaga e4.\n- **Pertahanan India Menteri** membidikkan gajah di sepanjang diagonal terang yang panjang ke petak yang sama."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+      "prompt": "Buka diagonal petak terang yang panjang agar gajah menteri Anda bisa ikut memperebutkan e4.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Gajah di c8 punya diagonal yang mencapai e4, dan salah satu pion Anda sendiri parkir di petak pertamanya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "Dua Gajah, Satu Diagonal",
+      "text": "Putih telah mengklaim jalan yang sama. Pion di g3 bukan langkah pengembangan dengan sendirinya — ia adalah pintu bagi gajah ke g2, yang memandang e4 dari tepi papan.\n\n{{Bb7}} {{Bg2}}, dan kedua gajah akhirnya saling berhadapan di sepanjang diagonal, dengan e4 di tengahnya. Putih menambahkan kuda dari c3 berikutnya, dan hitungan di e4 pun condong.\n\nJadi jawaban langsung saja tak cukup. Hitam harus menemukan sasaran kedua untuk diserang."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "Tak Ada yang Mengawasi c4",
+      "text": "Telusuri kembali empat langkah Putih dan tanyakan mana yang melindungi sesuatu. Pion di c4 sama sekali tak dijaga apa pun: tak ada buah yang berdiri di belakangnya, dan pion di b2 belum maju untuk menahannya.\n\nItulah biaya tetap dari pion sayap yang didorong Putih pada langkah kedua. Ia merebut ruang, lalu perlu diurus, dan gajah yang menuju g2 menghadap ke arah yang lain.\n\nPengekangan bukanlah kepasifan. Pengekangan adalah menunggu langkah yang harus dijawab.\n\n> Pion yang tak dilindungi siapa pun menentukan di mana partai dimainkan."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "prompt": "Serang pion yang tak dilindungi apa pun, dan paksa Putih menopangnya dengan pion, bukan dengan buah.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Gajah menteri Anda punya dua jalan keluar dari c8. Salah satunya mendarat di petak yang melihat c4."
+    }
+  ]
+}

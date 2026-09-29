@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-12",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3QK3 w - - 0 1",
+  "solution": [
+    "Qd8#"
+  ],
+  "title": "Le mat du couloir",
+  "setup": "Le roi noir en g8 est enfermé par ses propres pions en f7, g7 et h7, sans rien pour garder la rangée derrière lui.",
+  "hint": "Quand le roi adverse est bloqué derrière ses propres pions, cherchez la pièce qui peut prendre toute une rangée en un coup.",
+  "explanation": "## L'idée\n\nLe roi noir se tient sur la huitième rangée, et ses propres pions en f7, g7 et h7 font que les seules cases qui lui restent, f8 et h8, sont sur cette même rangée.\n\n{{Qd8#}} prend toute la rangée d'un coup. Rien ne barre la route, rien ne peut atteindre d8 pour prendre, et le roi est trop loin pour la prendre.\n\nUn roi derrière trois pions intacts est à une pièce lourde du mat, et c'est ce qui fait d'un seul coup de pion, joué à temps, une assurance si bon marché."
+}

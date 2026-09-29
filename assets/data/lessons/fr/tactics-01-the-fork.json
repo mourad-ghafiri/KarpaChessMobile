@@ -1,0 +1,56 @@
+{
+  "id": "the-fork",
+  "title": "La fourchette",
+  "summary": "Un coup qui pose deux questions, et un adversaire qui ne peut répondre qu'à une",
+  "proof": "forks-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Deux à la fois",
+      "text": "Votre adversaire a droit à un coup pour chacun des vôtres. C'est tout son budget, et chaque tactique qui vous attend est une façon de demander à ce coup unique de couvrir plus qu'il ne peut.\n\nLa **fourchette** est la façon la plus simple de le demander. Un coup, deux pièces adverses attaquées, et une seule réponse qui doit régler les deux.\n\nLe roi noir en c6 et la dame en d5 se tiennent à une case l'un de l'autre. Votre cavalier en c2 n'attaque encore ni l'un ni l'autre, et il n'en a pas besoin. Il lui faut une case qui touche les deux."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "La pièce à laquelle on ne répond pas",
+      "text": "Un fou, une tour ou une dame attaquent le long d'une ligne, et une ligne peut être interrompue — placez n'importe quoi sur la route et l'attaque s'arrête là. L'attaque d'un cavalier n'a aucune case intermédiaire où placer quoi que ce soit.\n\nEnsuite, le plus étrange. Une pièce attaquée par un cavalier ne peut presque jamais le prendre. Atteindre la case d'un cavalier suppose de se déplacer en L, et seul un autre cavalier le fait. Même pas un roi : un cavalier qui donne échec ne se tient jamais à côté du roi qu'il attaque.\n\nLe défenseur se retrouve donc avec la plus courte liste de réponses des échecs."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "prompt": "Trouvez la seule case accessible à votre cavalier qui attaque à la fois le roi et la dame.",
+      "targetSan": [
+        "Nb4+"
+      ],
+      "hint": "Partez des cibles : quelles cases attaquent c6, et laquelle d'entre elles attaque aussi d5 ?"
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Neuf contre trois, ou neuf pour rien",
+      "text": "{{Nb4+}}, et l'échec est la seule chose à laquelle les Noirs ont le droit de penser. Rien ne peut s'interposer, et b4 est une case que ni le roi ni la dame ne peuvent atteindre.\n\nLe roi marche donc. Sept cases lui sont ouvertes, et exactement deux d'entre elles, d6 et c5, protègent encore d5. {{Kd6}} ressemble à un sauvetage jusqu'à ce qu'on compte : {{Nxd5}} {{Kxd5}} échange un cavalier contre une dame. Les cinq autres donnent la dame pour rien.\n\nNeuf contre trois, ou neuf gratuitement. C'est tout le choix que laisse une fourchette.\n\nLe roi et la dame pris ensemble ont même leur propre nom : la **fourchette royale**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "Une cible n'en fait pas deux",
+      "text": "Un nouvel échiquier, et quatre pièces dessus. Les Noirs ont un roi en e8 et un cavalier en e5, et c'est toute leur armée.\n\nVotre dame en a1 regarde déjà ce cavalier. La grande diagonale qui part du coin passe par b2, c3, d4 et arrive en e5, sans rien nulle part sur le chemin. Rien ne protège non plus le cavalier.\n\nLe cavalier peut donc simplement être pris — et une fois parti, les Noirs n'ont plus qu'un roi et des cases vides. Quelle que soit cette prise, ce n'est pas une fourchette. Une fourchette a besoin de deux choses à attaquer, et cette position n'en a jamais eu deux."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "L'échec n'est pas le butin",
+      "text": "Un échec en soi ne rapporte rien. {{Qa8+}} est un vrai échec — les Noirs écartent le roi, et votre dame se retrouve dans un coin d'où elle ne voit plus du tout le cavalier. Un coup dépensé pour empirer la position.\n\nL'échec qui vaut la peine d'être joué est celui qui arrive en ayant déjà fait autre chose. L'unique coup des Noirs va au roi, et l'autre chose reste sur l'échiquier.\n\n> Une fourchette donne deux tâches à l'unique coup de votre adversaire. Un échec lui impose sa tâche. Les deux fonctionnent pour la même raison : le coup ne vient qu'une fois."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "prompt": "Prenez le cavalier de façon à ne laisser aux Noirs qu'un coup de roi pour toute réponse.",
+      "targetSan": [
+        "Qxe5+"
+      ],
+      "hint": "Le cavalier et le roi noir sont sur la même colonne, alors demandez-vous ce que fait la dame une fois arrivée sur cette colonne."
+    }
+  ]
+}

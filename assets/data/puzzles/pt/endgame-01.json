@@ -1,0 +1,11 @@
+{
+  "id": "endgame-01",
+  "fen": "8/8/8/4k3/2P5/2K5/8/8 b - - 0 1",
+  "solution": [
+    "Kd6"
+  ],
+  "title": "Põe-te à Frente Dele",
+  "setup": "O rei branco está a escoltar o seu peão, e tens exatamente uma jogada que segura o empate.",
+  "hint": "Quem defende fica à frente do peão. Que passo leva o teu rei às casas à frente dele sem ficar uma jogada atrasado?",
+  "explanation": "## A Ideia\n\nContra rei e peão, o rei que defende fica à frente do peão, de frente para o outro rei.\n\n{{Kd6}} é a única jogada que segura o empate: aponta às casas à frente do peão enquanto ainda há tempo de as tomar, e de c6 ou c7 pode encarar o rei branco através de uma casa vazia. Todos os outros passos chegam uma jogada tarde, e o rei branco põe-se à frente primeiro.\n\nÀ frente do peão, e de frente para o rei inimigo. As duas coisas, todas as vezes."
+}

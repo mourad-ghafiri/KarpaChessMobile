@@ -1,0 +1,12 @@
+{
+  "id": "discovery-07",
+  "fen": "2r1k3/p1q2ppp/8/4B3/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxc7+"
+  ],
+  "rating": 1200,
+  "title": "Torre Dietro l'Alfiere",
+  "setup": "Il re nero sta ancora in e8 di fronte alla vostra torre in e1, e solo il vostro alfiere tiene chiusa la colonna.",
+  "hint": "Il vostro alfiere è l'unica cosa che tiene chiusa la colonna e. Dove può andare ripagandosi strada facendo?",
+  "explanation": "## L'idea\n\n{{Bxc7+}} prende la donna e apre lo scacco della torre lungo la colonna e nello stesso momento. La torre in c8 difende sì c7, ma il Nero deve prima rispondere allo scacco e può riprendersi l'alfiere solo dopo: una donna per un alfiere."
+}

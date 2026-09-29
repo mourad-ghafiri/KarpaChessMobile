@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-05",
+  "fen": "6k1/2R2ppp/6r1/8/8/1B2r1Q1/PP6/K2b4 w - - 0 1",
+  "solution": [
+    "Rc8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1460,
+  "title": "La torre a la esquina",
+  "setup": "El alfil negro está en d1 y sus torres en g6 y e3: tu rey parece claramente desprotegido.",
+  "hint": "No respondas a las amenazas. Encuentra el jaque que obliga a una pieza negra a ir a la fila que dominará tu torre.",
+  "explanation": "## La idea\n\n{{Rc8+}} ignora todas las amenazas contra tu rey. {{Re8}} es la única respuesta, y ahora {{Rxe8#}} es mate porque la torre toma toda la octava fila y los peones el resto. El tiempo le gana al material cuando ese tiempo termina la partida."
+}

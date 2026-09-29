@@ -1,0 +1,62 @@
+{
+  "id": "why-chess-endures",
+  "title": "Porque É Que o Xadrez Dura",
+  "summary": "Quinze séculos, e ainda ninguém o resolveu",
+  "proof": "culture-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "Londres, 21 de junho de 1851",
+      "text": "Dois jogadores sentam-se entre rondas de um torneio para uma partida que não conta para nada, e produzem a partida de xadrez mais famosa alguma vez jogada.\n\nAdolf Anderssen tem as brancas, Lionel Kieseritzky tem as pretas, e nenhum deles joga por um prémio, um título ou um ponto na classificação. É exatamente por isso que Anderssen está livre para gastar tudo: uma partida em que não está nada em jogo não custa nada perder.\n\nErnst Falkbeer publicou-a quatro anos depois e chamou-lhe imortal. O nome pegou desde então."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "O Que Anderssen Não Vai Salvar",
+      "text": "A dama preta acaba de comer em b2. De lá toca na torre de a1, e o bispo de c5 olha a direito para a torre de g1. Duas torres, e nenhuma delas vai ser defendida.\n\nSalvar uma custa uma jogada, e a jogada é a única moeda que resta ao ataque. O rei preto em e8 não mexeu a partida inteira, e tem uma estrada para sair do meio: o roque, atrás dos seus próprios peões na ala do rei.\n\nFecha essa estrada e o rei fica onde os cavalos de d5 e f5 lhe chegam."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "prompt": "Ignora as duas torres e cobre a casa que o rei preto tem de atravessar para sair do meio.",
+      "targetSan": [
+        "Bd6"
+      ],
+      "hint": "O roque levaria o rei preto através de f8, portanto pergunta qual das tuas peças pode começar a vigiar essa casa nesta jogada."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/3B4/1pbN1N1P/4P1P1/3P1Q2/PqP5/R4KR1 b kq - 1 18",
+      "title": "Kieseritzky Cobra",
+      "text": "As pretas ficam com o que lhes oferecem. {{Bxg1}} é a primeira torre, e Anderssen não recaptura: {{e5}} fecha a diagonal em que a dama preta de b2 está, portanto ela deixa de ver a ala do rei de todo.\n\n{{Qxa1+}} leva a segunda torre, com xeque.\n\nAs pretas estão duas torres e um bispo acima. As brancas têm uma dama, dois cavalos e um bispo, todos a olhar para um rei que nunca saiu do meio."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Resta um Guarda",
+      "text": "Duas jogadas depois o segundo cavalo branco capturou em g7 com xeque, e o rei preto foi para d8.\n\nConta as casas do rei preto. d7 é o seu próprio peão, c8 o seu próprio bispo, c7 e e7 pertencem ao bispo de d6, e e8 está coberta pelo cavalo de g7. Não há nenhuma.\n\nPortanto a única coisa entre as pretas e o mate é o cavalo de g8, que chega de volta a e7 e comeria o que quer que lá aterrasse. Uma peça. Todo o resto do que as pretas têm está do outro lado do tabuleiro."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Quinhentos Anos, um Regulamento",
+      "text": "As brancas cederam as duas torres e um bispo e vão ganhar à mesma.\n\nAs regras que produziram esta posição assentaram muito antes de 1851. O xadrez saiu do norte da Índia, atravessou a Pérsia e o mundo árabe e chegou à Europa, e por volta de 1475 em Valência deram à dama e ao bispo o longo alcance que ainda têm. Desde então não mudou nada de importante. Anderssen jogava a mesma partida que tu jogas há cem lições."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Ninguém o Resolveu",
+      "text": "O jogo das damas está acabado. Em 2007 uma equipa de investigação provou que o jogo perfeito desde o início é empate, e no jogo das damas já não resta nada por descobrir.\n\nO xadrez não está acabado. Todas as posições com sete peças ou menos foram calculadas exatamente até 2012, portanto as últimas jogadas de qualquer partida são hoje terreno conhecido. Acima de sete peças não se sabe nada: uma estimativa de 2021 põe o número de posições legais perto de 4,8 × 10⁴⁴, e nenhuma máquina chegou sequer perto do fundo disso.\n\n> Quinze séculos depois, e o tabuleiro à tua frente continua a perguntar."
+    },
+    {
+      "type": "play",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "prompt": "O rei preto já não tem casa nenhuma: tira-lhe de e7 o seu único guarda.",
+      "targetSan": [
+        "Qf6+"
+      ],
+      "hint": "A oferta tem de ser uma que as pretas não possam recusar, portanto procura o xeque a que só esse cavalo consegue responder."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-10",
+  "fen": "2Q1b2k/4rppp/8/8/4R3/8/PP6/K6R w - - 0 1",
+  "solution": [
+    "Qxe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1580,
+  "title": "İki Taş da Tek Dikeyde",
+  "setup": "Siyahın e8'de bir fili, e7'de bir kalesi var ve bütün ağır taşlarınız aynı dikeye doğrultulmuş.",
+  "hint": "İki koruyucu tek hatta durduğunda yalnızca öndeki alınabilir. İkincisinin aslında ne yaptığını sorun.",
+  "explanation": "## Fikir\n\n{{Qxe8+}} {{Rxe8}} hamlesini zorlar — kalenin yedinciyi terk etmesi gerekir — ve {{Rxe8#}} mattır, çünkü piyonlar şahı kendileri mühürlemiştir. Koruyucuları tek dikeyde üst üste dizmek, onları birbiri ardına kaybetmek demektir."
+}

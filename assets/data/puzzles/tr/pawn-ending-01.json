@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-01",
+  "fen": "8/8/8/7P/3k4/8/8/K7 b - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "rating": 1100,
+  "title": "Kutunun İçinde",
+  "setup": "Beyaz az önce h piyonunu beşinciye sürdü ve kendi şahı uzak köşede mahsur kaldı.",
+  "hint": "h5–h8–e8–e5 kutusunu kabaca çizin ve şah hamlelerinizden hangisinin gerçekten içine indiğini sorun.",
+  "explanation": "## Fikir\n\nh5'teki piyonun vezir olması üç hamle alır, yani h5–h8–e8–e5 kutusuna ulaşabilen her şah onu yakalar. d4'ten yalnızca {{Ke5}} içeri adımlar: {{h6}} {{Kf6}} gelir ve şah piyonu ta h8'e kadar gölgeler. Başka her hamle bir tempo eksik kalır."
+}

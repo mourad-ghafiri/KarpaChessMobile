@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-03",
+  "fen": "1r3R2/3p1R2/4Q3/1k2B3/b7/8/3p4/5K2 w - - 0 1",
+  "solution": [
+    "Rxb8+",
+    "Kc5",
+    "Qd6+",
+    "Kc4",
+    "Qd4#"
+  ],
+  "rating": 1420,
+  "title": "Ambil Bentengnya, Pertahankan Sekaknya",
+  "setup": "Raja Hitam berkelana sampai b5, bentengnya duduk di b8 dan pion bebas tinggal satu petak dari promosi di d2.",
+  "hint": "Anda tak punya waktu untuk menghentikan pion itu. Temukan penangkapan yang juga membuka garis menuju raja.",
+  "explanation": "## Ide\n\n{{Rxb8+}} memenangkan benteng dengan sekak, dan dari sana {{Qd6+}} dan {{Qd4#}} menggiring raja turun di papan. Pion d2 tak pernah sempat bergerak, dan hanya itulah pertahanan terhadapnya yang berarti."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "discovery-06",
+  "fen": "3q3k/2p2p1p/2P3p1/r3N3/8/8/PB3PPP/5RK1 w - - 0 1",
+  "solution": [
+    "Nxf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 1160,
+  "title": "Check From Both Sides",
+  "setup": "Black's king is boxed in on h8 by its own pawns, and your knight can reach f7 in a single hop.",
+  "hint": "When two pieces check at once the king must move: nothing may capture or block. Which square does that?",
+  "explanation": "## The Idea\n\n{{Nxf7+}} is a double check, from the knight on f7 and from the bishop down the long diagonal. Black cannot capture or interpose, so {{Kg8}} is forced, and the knight is now free to swallow the queen with {{Nxd8}}."
+}

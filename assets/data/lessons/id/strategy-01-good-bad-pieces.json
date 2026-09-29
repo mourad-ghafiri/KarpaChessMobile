@@ -1,0 +1,50 @@
+{
+  "id": "good-bad-pieces",
+  "title": "Buah Baik Melawan Buah Buruk",
+  "summary": "Tiga poin di atas kertas, nol di atas papan",
+  "proof": "strategy-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Bernilai Tiga, Tak Berbuat Apa-Apa",
+      "text": "Gajah Hitam di c8 bernilai tiga poin di atas kertas dan belum memakai satu pun. Lihat apa yang menghalanginya: pion di d5 dan e6 milik Hitam, dan gajah tak boleh menangkap pasukannya sendiri.\n\nKedua pion itu duduk di petak terang. Begitu pula gajah itu. Ia berjalan persis di warna tempat pion-pionnya sendiri diparkir, dan itulah yang membuatnya menjadi **gajah buruk** — dikurung tembok oleh pihak yang dibelanya.\n\nSeluruh kebebasannya hanyalah {{Bd7}}. Kandang yang sama, bergeser satu petak."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Gajah yang Lain",
+      "text": "Putih memiliki buah yang sama dengan tiga poin yang sama, dan buah itu sama sekali berbeda.\n\nPion-pion pusat Putih berdiri di c3, d4 dan e5, semuanya petak gelap; gajah di f1 adalah buah petak terang. Semuanya tak saling menghalangi. Seluruh jalan dari f1 ke a6 sudah kosong, dan satu perhentian di sana, d3, menatap lurus ke h7.\n\nItulah **gajah baik**: pion-pionnya sendiri berada di warna yang lain, dan ia bisa melihat."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "Gajah Anda tak akan pernah bisa memanjat melewati pionnya sendiri, jadi buka satu-satunya diagonal yang menuju ke arah lain.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Pion mana yang duduk di satu-satunya jalan lain gajah itu, dan seberapa jauh ia bisa melangkah tanpa masuk ke jangkauan gajah Putih?"
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "Bebas dan Tetap Buruk",
+      "text": "b7 kosong, dan gajah di c8 akhirnya punya pilihan. Putih menjawab dengan menempatkan gajah baiknya di d3, membidik h7.\n\n{{Bd7}} dan {{Bb7}} masing-masing memberi gajah Hitam petak baru dan pemandangan yang sama: tembok pion hitam di d5 dan e6 yang tak akan pergi ke mana-mana. Gajah buruk yang diizinkan berjalan-jalan tetaplah gajah buruk.\n\nJadi pertanyaannya bukan ke mana buah itu bisa pergi. Pertanyaannya berapa nilai buah itu begitu ia tiba."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "Yang Terburuk untuk yang Terbaik",
+      "text": "Ada hadiah yang lebih baik di sini daripada kebebasan.\n\nBuah yang tak bisa dibuat baik sebaiknya ditukar, dan ditukar dengan buah lawan mana pun yang bekerja paling keras. Gajah petak terang Hitam tak punya masa depan di posisi ini. Gajah Putih bebas menjelajahi papan. Tukar keduanya dan hitungan poin sama sekali tak bergeser, sementara Hitam melepas buah yang tak berbuat apa-apa dan menyingkirkan buah yang berbuat segalanya.\n\n> Perbaiki buah terburuk Anda. Jika ia tak bisa diperbaiki, tukar dengan buah terbaik lawan."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "prompt": "Tawarkan buah terburuk Anda kepada gajah lawan yang menimbulkan kerusakan paling besar.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Ikuti diagonal yang baru Anda buka sampai ke ujungnya hingga bertemu gajah Putih."
+    }
+  ]
+}

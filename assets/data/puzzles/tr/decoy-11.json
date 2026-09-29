@@ -1,0 +1,14 @@
+{
+  "id": "decoy-11",
+  "fen": "7k/pp2n1pp/7N/q7/1r6/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Nxg8",
+    "Nf7#"
+  ],
+  "rating": 1520,
+  "title": "Atı Doyurun",
+  "setup": "h8'deki şah kendi piyonlarının arkasına gömülmüş ve g8'e ulaşan tek siyah taş, siyahın e7'deki atı.",
+  "hint": "Köşe çoktan bir kafes. g8'in bir siyah taşla dolması için ne verirdiniz?",
+  "explanation": "## Fikir\n\n{{Qg8+}} şah tarafından alınamaz, çünkü h6'daki atınız g8'i kapsar — yani {{Nxg8}} tek hamledir. Son kaçış karesini siyahın kendi atı kapatmıştır ve {{Nf7#}} boğmaca matıdır."
+}

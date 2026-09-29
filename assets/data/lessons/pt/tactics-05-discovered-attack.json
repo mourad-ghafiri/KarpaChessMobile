@@ -1,0 +1,56 @@
+{
+  "id": "discovered-attack",
+  "title": "O Ataque à Descoberta",
+  "summary": "A peça que se mexe não é a peça que ataca",
+  "proof": "discovered-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "A Torre Já Estava Apontada",
+      "text": "A tua torre em e1 e o rei preto em e8 estão na mesma coluna, e a única coisa entre eles é o teu próprio cavalo.\n\nTodas as táticas até agora foram a peça em que tocaste a fazer o estrago. Esta não. Mexe o cavalo e a torre ataca um rei a que esteve apontada este tempo todo — o cavalo nem se aproxima de e8. O que importa é apenas que saia da coluna. Uma torre a andar para cima e para baixo nessa mesma coluna continuaria no caminho.\n\nUma peça mexe-se, uma peça diferente ataca. Isso é um **ataque à descoberta**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Livre de Ir para Onde Quiser",
+      "text": "Nenhuma jogada de cavalo deixa um cavalo na coluna que ele deixou, portanto as oito casas do cavalo abrem todas a linha da torre, e as oito são xeque. Como a linha acaba num rei, esta versão tem nome próprio: **xeque à descoberta**.\n\nÉ isso que torna o cavalo atrevido. {{Nc3+}} entra na coluna c à vista da dama preta de c5, e a dama não lhe pode tocar — capturar o cavalo deixaria o rei preto em xeque da torre, e isso não é uma jogada legal.\n\nDurante uma jogada, a peça que se mexeu é intocável."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Gasta a jogada grátis do cavalo na coisa mais cara que as pretas têm.",
+      "targetSan": [
+        "Nxc5+"
+      ],
+      "hint": "As oito casas do cavalo não são iguais — numa delas está alguma coisa."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "O Que o Xeque Compra",
+      "text": "{{Nxc5+}} leva a dama, e o xeque chega com ela, vindo de uma torre que passou a jogada quieta.\n\nA linha que abres não tem de acabar num rei. Põe antes uma dama preta ao fundo da coluna e a mesma jogada de cavalo ganha essa dama — mas então as pretas têm escolhas: defendê-la, mexê-la, ou abrir uma ameaça maior noutro sítio.\n\nO xeque tira as três. É essa a única diferença entre um ataque à descoberta e um xeque à descoberta, e é grande."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Já Não Há Nada para Comer",
+      "text": "A coluna e está montada exatamente como antes: torre em e1, cavalo em e4, rei preto em e8. O que falta é alguma coisa que o cavalo possa comer. A torre preta em a8 não chega sequer à coluna e, e o peão de b7 não vai a lado nenhum útil.\n\nPortanto a jogada grátis tem de comprar algo que não seja material, e há uma coisa em oferta. Faz o cavalo aterrar numa casa que ataque também e8, e a torre não estará a dar xeque sozinha."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Dois a Dar Xeque, Uma Resposta",
+      "text": "Duas peças a dar xeque na mesma jogada são um **xeque duplo**.\n\nUm xeque tem três respostas: capturar quem o dá, tapar a linha, ou mexer o rei. Um xeque duplo tira as duas primeiras. Captura um e o outro continua a dar xeque. Tapar exigiria uma peça em duas linhas ao mesmo tempo.\n\nPortanto o rei mexe-se, e a torre em a8 mais valia não existir. É só isso que um xeque duplo faz: por si só não ganha nada. É a casa onde o cavalo aterra que decide o resto.\n\n> A peça que te está no caminho é a peça a mexer."
+    },
+    {
+      "type": "play",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Dá xeque com as duas peças ao mesmo tempo, e faz o cavalo aterrar onde ataca também alguma coisa.",
+      "targetSan": [
+        "Nd6+"
+      ],
+      "hint": "Duas casas de cavalo dão o xeque duplo; só uma delas atinge também o peão de b7."
+    }
+  ]
+}

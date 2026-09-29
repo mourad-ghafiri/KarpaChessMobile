@@ -1,0 +1,11 @@
+{
+  "id": "openings-05",
+  "fen": "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w KQk - 3 6",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "Il Soffocato della Caro-Kann",
+  "setup": "Il Nero ha risposto alla linea principale con un cavallo in d7 e ha appena sviluppato l'altro cavallo in f6, attaccando il vostro cavallo centrale.",
+  "hint": "Un pedone nero prenderebbe volentieri il vostro cavallo, e qualcosa sulla colonna e glielo impedisce. Trovate la casa che lo sfrutta.",
+  "explanation": "## L'idea\n\nLa donna in e2 sembra una tranquilla mossa di sviluppo. È una trappola.\n\n{{Nd6#}} è matto sul posto. Il pedone in e7 non può prendere, perché la donna lo inchioda contro il re. La donna in d8 non può prendere, perché il suo stesso cavallo in d7 le sta di mezzo, e l'alfiere in f8 è bloccato da quello stesso pedone e7. Ogni casa attorno al re ha un pezzo nero.\n\nLa Caro-Kann è costruita per far uscire i pezzi, non per murare dentro il re con loro."
+}

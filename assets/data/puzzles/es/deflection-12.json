@@ -1,0 +1,14 @@
+{
+  "id": "deflection-12",
+  "fen": "2kr3r/pp3ppp/2n5/8/Q1B2B1q/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "rating": 1500,
+  "title": "Los alfiles de Boden",
+  "setup": "Dos alfiles cruzan el flanco de dama, y el peón de b7 es lo único que mantiene cerrada la diagonal a6-c8.",
+  "hint": "Los dos alfiles ya apuntan a esa esquina. ¿Qué peón estorba, y cómo lo obligas a moverse?",
+  "explanation": "## La idea\n\nEste es el **mate de Boden**. {{Qxc6+}} solo tiene una respuesta, {{bxc6}}, y el peón de b7 sale de la diagonal a6-c8. Llega {{Ba6#}}: el otro alfil cubre b8 y c7, y la propia torre negra tapa d8."
+}

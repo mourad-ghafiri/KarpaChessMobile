@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-10",
+  "fen": "3B4/8/7k/1K6/4p3/1R6/2p5/2R5 w - - 0 1",
+  "solution": [
+    "Rg3",
+    "e3",
+    "Rh1#"
+  ],
+  "rating": 1680,
+  "title": "Şahı Değil, Dikeyi Kesin",
+  "setup": "Siyahın şahı h6'da, iki piyonu c2 ile e4'te koşuyor ve kaleleriniz b3 ile c1'de oturuyor.",
+  "hint": "Siyahın iki piyonu da terfi etmek üzere. Onları boş verin ve şahın kullanacağı dikeyi alın.",
+  "explanation": "## Fikir\n\n{{Rg3}} şah çekmeden g dikeyini ele geçirir ve siyah ne oynarsa oynasın sıradan geleni durduramaz. {{Rh1#}} h dikeyi boyunca mat eder; g3'teki kale g6 ile g7'yi tutar. Terfiye bir adım kalmış iki piyon bile doğru dikeydeki tek kaleden yavaştır."
+}

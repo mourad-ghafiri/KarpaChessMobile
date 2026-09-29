@@ -1,0 +1,56 @@
+{
+  "id": "catalan-advanced",
+  "title": "The Catalan",
+  "summary": "A pawn lent out, a diagonal kept forever",
+  "proof": "openings-18.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Barcelona, 1929",
+      "text": "A tournament in Barcelona in 1929 wanted an opening of its own, and Tartakower supplied one. The name of the region around the city stuck to it.\n\nThe shape is two pawns in the middle, then a hole cut in the kingside pawns so the bishop can come out to g2 and take the longest diagonal on the board.\n\nBlack has just taken the pawn that stood on c4. The black pawn on c4 is what White paid for that diagonal, and White is in no hurry to ask for it back."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Nobody Chases It",
+      "text": "Count what recovering the pawn right now would cost. One piece, two or three moves, and it ends up on a square it never wanted.\n\nThen count what keeping it costs Black. No black piece guards c4 from a square it also likes, and no black pawn can reach it without shoving the queenside forward and leaving holes behind.\n\nSo White does the ordinary thing instead: bring everything out, castle, and let the pawn be a problem for its owner. The pawn comes back later. The diagonal never has to."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "prompt": "Develop the last piece standing between your king and the corner, and aim it at the center.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "One minor piece is still at home on the kingside, and the square it wants also guards d4."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 1 5",
+      "title": "How the Pawn Comes Home",
+      "text": "Black tidies up with {{Be7}} and White finishes the last job with {{O-O}}. The extra pawn is still sitting on c4, and White has not spent a move on it.\n\nThen {{a6}}, the first move of a plan to hold the pawn with a second pawn, and {{Qc2}}. The queen takes the file its own c-pawn used to occupy and looks straight up it, while the bishop on g2 keeps the diagonal it was put there for.\n\nBlack is a pawn up and behind in development. That trade only runs one way."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "The Other Catalan",
+      "text": "Black does not have to take. Pawns on c6, d5 and e6 build a wall instead, and the wall holds — no break, no open file, nothing for White to hit.\n\nWhite is content anyway. The pawn on d4 and the pawn on c4 hold more ground than Black's do, the bishop on g2 waits behind the knight on f3 for the day the middle opens, and every white piece has a square already.\n\nA position with no weaknesses can still be lost slowly. Black needs a job for one particular piece."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "The Bishop With No Windows",
+      "text": "Count the moves available to the bishop on c8. Its own knight on d7 stands on one diagonal and its own pawn on b7 stands on the other. The count is zero.\n\nBlack is not worse here so much as one piece short, and the missing piece has never left home.\n\nThe bishop on g2 shows the way out. A bishop with no road through the middle takes the road along the edge — the same fianchetto, built from the other end, until the two of them stare at each other down one diagonal.\n\n> In a closed position, find the piece with no future and give it one."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "prompt": "Prepare the fianchetto that answers White's: give your stuck bishop the long diagonal to look down.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Your queen's bishop has no legal move at all, so ask which single pawn step would hand it one."
+    }
+  ]
+}

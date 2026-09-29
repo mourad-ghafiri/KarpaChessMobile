@@ -1,0 +1,76 @@
+{
+  "id": "queen-moves",
+  "title": "Bütün Yollar Aynı Anda",
+  "summary": "Kalenin hatları ile filin eğrileri tek taşta — ve her piyonun onu görünce neden sevindiği",
+  "proof": "first-steps-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Öğrenilecek Yeni Bir Şey Yok",
+      "text": "Burada yeni bir hamle yok. İki yarısını da zaten biliyorsunuz.\n\nd4'teki vezir kale gibi düz hatlarda koşar — dikeyde yukarı {{Qd8}}, yatayda {{Qa4}} — ve fil gibi eğik gider: uzak köşeye {{Qh8}}, alt kenara {{Qg1}}.\n\nDört yol, bir arada gösterildi. Aslında sekiz tane var: bir yatayın, bir dikeyin ya da bir çaprazın bir kareden çıkabileceği her yön için bir tane."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Yirmi Yedi Kare",
+      "text": "Vezirin d4'ten dokunduğu kareleri sayın: kale olarak on dört kare, fil olarak on üç kare daha, toplam yirmi yedi. Aynı karedeki bir at sekiz kareye ulaşır.\n\nAma yirmi yedi, boş bir tahtanın sayısıdır. Vezir iki ebeveynin de yollarını ve iki ebeveynin de sınırlarını miras alır; ikisi de atlamaz. Yolda duran ilk taş o yolu bitirir ve o taşın arkasındaki her şey, yol açılana kadar menzil dışıdır."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "Veziri d4'ten çıkan sekiz yoldan birine gönderin; ister yakına, ister uzağa.",
+      "targetSan": [
+        "Qc5",
+        "Qb6",
+        "Qa7",
+        "Qe5",
+        "Qf6",
+        "Qg7",
+        "Qh8",
+        "Qc3",
+        "Qb2",
+        "Qa1",
+        "Qe3",
+        "Qf2",
+        "Qg1",
+        "Qd5",
+        "Qd6",
+        "Qd7",
+        "Qd8",
+        "Qd3",
+        "Qd2",
+        "Qd1",
+        "Qc4",
+        "Qb4",
+        "Qa4",
+        "Qe4",
+        "Qf4",
+        "Qg4",
+        "Qh4"
+      ],
+      "hint": "Bu kareden bir kalenin yapabileceği her şey bir vezir hamlesidir, bir filin yapabileceği her şey de öyle."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Herkes Onu Kovalamak İster",
+      "text": "Gücün bir bedeli vardır ve vezir için bu bedel ilgidir.\n\nTahtadaki başka her taş ondan küçüktür; bu yüzden başka her taş vezire saldırmaktan mutluluk duyar. Karşısına çıkan bir piyon, vezirin kabul edemeyeceği bir değişim teklif eder: beyazın en büyük taşına karşılık siyahın en küçük taşı. Vezir de çekilir.\n\nOnu erken çıkarın, bütün parti bundan ibaret olur — vezir oynar, yine oynar; siyah bu arada sessizce taşlarını istediği yerlere koyar.\n\n> Tahtada rakibin vezirini bulmuş bir piyondan daha mutlusu yoktur."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Karşılık Verecekleri Sayın",
+      "text": "Geriye vezire yakışan tek tür taş alma kalır: karşılığı olmayan tür.\n\nVezirle bir şey almadan önce o kareyi neyin gözlediğini sorun. Kareyi bir piyon koruyorsa, vezir iner inmez piyon onu geri alır ve siz sahip olduğunuz en iyi taşı, siyahın en ucuz taşına vermiş olursunuz.\n\nHiçbir şey gözlemiyorsa — koruyan yok, arkasında bir şey yok, hiçbir karşılık yok — vezir alır ve hiçbir bedel ödemez."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "prompt": "Siyahın son piyonunun arkasında onu koruyan hiçbir şey yok — alın ve bedel ödemeyin.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "Vezir ile o piyon zaten aynı dikeyi paylaşıyor ve aralarındaki yol boş."
+    }
+  ]
+}

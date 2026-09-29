@@ -1,0 +1,11 @@
+{
+  "id": "endgames-03",
+  "fen": "3k4/8/8/1KP1r3/8/7R/8/8 b - - 0 1",
+  "solution": [
+    "Re6"
+  ],
+  "title": "A Pawn Down and Holding",
+  "setup": "White's king on b5 wants the sixth rank, and from there it walks your king away from the pawn's path. Black to move, and it is a draw.",
+  "hint": "White's king needs a6, b6 or c6. A rook standing on a rank covers every square of it.",
+  "explanation": "## The Idea\n\nRanks are counted from White's side here. White's king needs a6, b6 or c6 to come up beside its pawn, and one rook move takes all three: {{Re6}}. A rook on a rank is a fence, and a king may not step onto a square it covers.\n\nEvery other move lets the king onto the sixth, in front of its own pawn, where no check from behind can reach it, and the pawn walks in."
+}

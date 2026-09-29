@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-02",
+  "fen": "7k/6pp/8/8/8/8/5PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Back-Rank Bedrock",
+  "setup": "Black's king is tucked into the corner behind its own pawns on g7 and h7 — a wall with no window.",
+  "hint": "The eighth rank is wide open, and Black has pushed neither pawn to make an escape square.",
+  "explanation": "## The Idea\n\nThe textbook **back-rank mate**. {{Rb8#}} slides onto the eighth rank and the king cannot escape: g7 and h7 hold its own pawns, g8 sits on the rook's rank, and nothing can step in between.\n\nOne pawn move earlier, h6 or g6, would have given the king air. Without it, the wall is a cage."
+}

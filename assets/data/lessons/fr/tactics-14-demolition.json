@@ -1,0 +1,50 @@
+{
+  "id": "demolition",
+  "title": "La démolition du roque",
+  "summary": "Deux fous dépensés pour deux pions, et un roi laissé à découvert",
+  "proof": "demolition-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Un pion sur la route",
+      "text": "Emanuel Lasker a donné un fou il y a deux coups pour arracher le pion de h7, et voici ce que cela lui a rapporté. Le roi noir en g8, la colonne h ouverte, et la dame blanche en h5.\n\nLe fou en e5 regarde le long de la grande diagonale vers h8. Un pion noir en g7 barre la route.\n\n{{Qh8+}} {{Kxh8}}. Rien ne défend la dame quand elle arrive, donc le roi la prend et l'attaque est terminée. Ce pion ne garde pas h8 — il bloque la pièce qui le ferait."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Du calcul, pas du courage",
+      "text": "Donner une pièce pour un pion, c'est du calcul, pas du courage. Avant de la dépenser, nommez les coups qui suivent — si vous ne pouvez pas en nommer deux, vous n'avez pas d'attaque.\n\nIci, ils sont faciles à nommer. La dame en h5 est déjà en place, et la tour en f1 est à un coup de la troisième rangée et à un de plus de la colonne h.\n\nPuis comptez l'autre camp. Les tours noires en a8 et f8 n'ont aucune route vers la colonne h, et la dame en c6 vise l'autre moitié de l'échiquier. Rien ne revient à temps."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "prompt": "Arrachez le dernier pion qui protège le roi noir, et payez une pièce entière pour le faire.",
+      "targetSan": [
+        "Bxg7"
+      ],
+      "hint": "Une seule de vos pièces peut atteindre ce pion, et ce qui compte, c'est le roi nu qu'elle laisse derrière elle."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "L'addition arrive",
+      "text": "Bauer a pris, et il n'avait guère de raison de s'en priver : un fou blanc vivant à côté du roi, avec la dame déjà sur la colonne h, ce n'est pas une chose qu'on laisse debout.\n\nVoici donc ce que les deux fous ont acheté. Le roi noir en g7 se tient à découvert, et le compte dit que les Blancs ont donné deux fous pour deux pions.\n\nUn tel retard n'est supportable que tant que les Noirs répondent à des échecs. Offrez-leur un seul coup libre et les tours en a8 et f8 commencent à arriver, et les Blancs ont alors deux pièces de moins sans rien en échange."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "L'échec inutilisable",
+      "text": "Tous les échecs ne se valent pas. {{Qh7+}} a l'air forcé jusqu'à ce qu'on remarque que rien chez vous ne couvre h7 : {{Kxh7}}, et l'attaque a perdu une dame pour rien.\n\nUn échec ne fonctionne que tant que le roi ne peut pas y répondre en prenant. Ce qu'il vous faut, c'est un échec depuis une case que les Noirs ne peuvent pas toucher, donné pendant que la tour a encore le temps de venir.\n\n> Une pièce dépensée contre un abri de pions n'est pas de la bravoure. C'est une facture, et les échecs sont la façon de la régler."
+    },
+    {
+      "type": "play",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "prompt": "Obligez le roi à bouger encore pour que votre tour ait le temps d'atteindre la colonne h.",
+      "targetSan": [
+        "Qg4+"
+      ],
+      "hint": "Un échec que le roi peut simplement prendre vous coûte la partie : trouvez la case d'échec que les Noirs ne peuvent pas toucher."
+    }
+  ]
+}

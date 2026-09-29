@@ -1,0 +1,14 @@
+{
+  "id": "deflection-11",
+  "fen": "4kb1r/pp1n1ppp/8/7q/5Q1B/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1470,
+  "title": "Penghalang Harus Menangkap",
+  "setup": "Kuda di d7 satu-satunya yang berdiri di antara benteng Anda dan d8.",
+  "hint": "Kuda itu tak akan meninggalkan petaknya dengan sukarela. Apa yang bisa Anda tempatkan di tempat ia wajib menangkapnya?",
+  "explanation": "## Ide\n\n{{Qb8+}} hanya menyisakan satu langkah sah bagi Hitam: {{Nxb8}}. Penghalangnya telah diseret dari d7, dan {{Rd8#}} memberi mat lewat jalan yang tadi ia tempati. Buah yang menutup sebuah lajur hanyalah tembok sampai sekak memanggilnya pergi."
+}

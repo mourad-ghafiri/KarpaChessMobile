@@ -1,0 +1,13 @@
+{
+  "id": "quiet-move-proof",
+  "fen": "4b1rk/5ppp/8/8/3B3R/1r6/PP6/K4Q2 w - - 0 1",
+  "solution": [
+    "Qf5",
+    "h6",
+    "Rxh6#"
+  ],
+  "title": "Nada que hacer para las Negras",
+  "setup": "La torre negra está a punto de empezar a comerse tus peones, y no tienes ningún jaque que merezca la pena. Encuentra la jugada que deja a las Negras sin una sola respuesta útil.",
+  "hint": "Tu torre de h4 ya mira a h7. Mira qué le hace tu alfil de d4 al peón de g7 antes de elegir casilla para la dama.",
+  "explanation": "## La idea\n\n{{Qf5}} no da jaque y no captura nada. Alinea la dama sobre h7 junto a la torre, y h7 cae en la jugada siguiente.\n\nLas Negras no tienen forma de impedirlo. El peón de g7 está clavado por tu alfil de d4, así que no puede ni moverse ni capturar. Hacer aire con {{h6}} solo abre la columna: {{Rxh6#}}, y el peón clavado no puede recapturar. Cualquier otra respuesta recibe mate en la columna h."
+}

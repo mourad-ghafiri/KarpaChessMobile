@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-01",
+  "fen": "7k/7p/5qp1/8/8/8/5PPP/B5K1 w - - 0 1",
+  "solution": [
+    "Bxf6+"
+  ],
+  "title": "Pregada à Diagonal",
+  "setup": "O teu bispo e o rei preto partilham a grande diagonal, e a dama preta está entre eles.",
+  "hint": "A dama não pode sair dessa diagonal sem expor o rei, e nada a defende onde está.",
+  "explanation": "## A Ideia\n\nA dama de f6 está cravada contra o rei de h8: pode deslizar para cima e para baixo na grande diagonal, mas não pode sair dela, e nada a defende.\n\nPortanto come-a. {{Bxf6+}} ganha a dama de graça, e {{Kg8}} é a única resposta das pretas.\n\nJogar primeiro é o essencial: na vez das pretas, {{Qxa1}} teria sido mate. Uma peça cravada não é uma peça defendida — é uma peça que não pode fugir."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mad-queen",
+  "title": "La dama loca",
+  "summary": "Dos piezas lentas entran en la década de 1470 y salen convertidas en las más rápidas del tablero",
+  "proof": "history-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "El ajedrez de la dama",
+      "text": "La dama que Europa jugó durante cinco siglos se movía una casilla en diagonal y nada más. En una generación se convirtió en la pieza más fuerte del juego.\n\nLo que queda de ese cambio es un poema. *Scachs d'amor*, en valenciano, contiene en su comentario la partida más antigua que se conserva jugada con las nuevas reglas. El manuscrito no tiene fecha; lo habitual es situarlo hacia 1475, y lo de Valencia es una reconstrucción que se apoya sobre todo en el propio poema.\n\nEspaña llamó al nuevo juego *axedrez de la dama*. El italiano y el francés fueron menos corteses: *alla rabiosa*, *la dame enragée*, para una dama que no se estaba quieta."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "El elefante fue detrás",
+      "text": "La dama no se reescribió sola.\n\nEl salto del elefante —exactamente dos casillas, por encima de lo que hubiera en medio, hacia una de las ocho casillas que llegaría a tocar— se convirtió en el deslizamiento del alfil por toda la diagonal. Una reforma, una idea aplicada dos veces: dar a las piezas diagonales la diagonal entera.\n\n¿Por qué en la década de 1470? Se suele apuntar a las soberanas que gobernaban entonces en Europa, con Isabel de Castilla a la cabeza, pero es una suposición, no un documento."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Dos casillas y luego nada",
+      "text": "Vuelve a poner la vieja dama en d1 y cuenta lo que dominaba.\n\nDos casillas. {{Qc2}} y {{Qe2}}, un pasito cada una, y esa era toda la lista. Las dos son blancas, y d1 también: esa dama nunca pisó una casilla negra en su vida, así que medio tablero le estaba cerrado antes de que nadie moviera.\n\nCuatro de esos pasitos la llevaban de d1 a h5. La dama que está ahí ahora cubre ese camino en una sola jugada, y puede llegar ya atacando.\n\n> La torre fue durante nueve siglos la pieza más fuerte del tablero. Perdió el título ante una pieza que antes arrastraba los pies."
+    },
+    {
+      "type": "play",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "prompt": "Lleva la dama al centro para que una diagonal alcance al rey de g8 y otra a la torre de a8.",
+      "hint": "El rey de g8 y la torre de a8 están los dos en casillas blancas, igual que tu dama: encuentra la casilla donde se cruzan sus dos diagonales.",
+      "targetSan": [
+        "Qd5+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "Las dos eran diagonales",
+      "text": "Las dos líneas que acabas de usar eran diagonales. Un alfil que llegara a d5 habría golpeado g8 y a8 exactamente igual, y el alfil recibió su deslizamiento en la misma reforma, así que esa mitad de la dama no tiene nada de nuevo.\n\nLa otra mitad, sí. Desde d5 la dama también domina toda la quinta fila y toda la columna d, así que las dos líneas que se cruzan bajo ella nunca tienen que ser del mismo tipo: una fila y una diagonal, una columna y una diagonal, lo que ofrezca la posición. Una torre y un alfil en un solo cuerpo, y solo una pieza puede estar donde se cruzan las dos clases de línea."
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "Sin tiempo para huir",
+      "text": "El jaque ha hecho su trabajo. Responder a él no hizo nada por la torre de a8, y ese es todo el beneficio de golpear dos cosas a la vez: la segunda no tiene tiempo de huir.\n\nQuita eso y el beneficio desaparece. Dale a las Negras una jugada libre —{{h3}}, por ejemplo— y {{Rc8}} responde, y ya no había nada que ganar.\n\nAsí que remata sin regalar ninguna."
+    },
+    {
+      "type": "play",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "prompt": "Captura la torre de la esquina, y hazlo con jaque para que las Negras nunca tengan una jugada que gastar.",
+      "hint": "Nada defiende a8, así que la única pregunta es si tu captura también cae en una línea que pase por el rey negro de f8.",
+      "targetSan": [
+        "Qxa8+"
+      ]
+    }
+  ]
+}

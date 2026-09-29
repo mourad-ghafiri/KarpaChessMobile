@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-07",
+  "fen": "r4rk1/1pp2ppp/p1np4/4p3/2B1P3/2Pq1N2/PP2QPPP/R2R2K1 b - - 0 1",
+  "solution": [
+    "Qxe2"
+  ],
+  "title": "Troca as Damas Para Salvar o Dia",
+  "setup": "A tua dama em d3 está atacada três vezes, nada a defende, e todas as casas para onde poderia fugir estão cobertas.",
+  "hint": "A dama não pode ser salva. Pergunta qual é a coisa mais valiosa que ela pode levar consigo.",
+  "explanation": "## A Ideia\n\nA dama de d3 é atingida pela dama, pelo bispo de c4 e pela torre de d1, e todos os recuos aterram numa casa guardada. Perde-se de qualquer maneira, portanto faz as brancas pagarem o preço todo. {{Qxe2}} troca-a pela dama branca, e depois de {{Bxe2}} estás uma peça por um peão abaixo, mas já não uma dama abaixo também."
+}

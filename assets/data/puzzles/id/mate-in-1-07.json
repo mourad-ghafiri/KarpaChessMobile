@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-07",
+  "fen": "5k2/5p1K/3p4/5N2/8/8/Q7/8 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Jaring Menteri dan Kuda",
+  "setup": "Raja Hitam di f8 dikurung pionnya sendiri, raja Anda di h7 berdiri dekat, dan kuda Anda di f5 sedang mengawasi.",
+  "hint": "Raja Anda menguasai g7 dan g8, dan kuda menguasai e7. Menteri hanya butuh sekak yang tak bisa dihindari raja.",
+  "explanation": "## Ide\n\n{{Qa8#}} memberi sekak di sepanjang baris belakang. e8 berada di garis menteri, kuda di f5 menguasai e7, raja Anda di h7 menguasai g7 dan g8, dan f7 ditempati pion Hitam sendiri. Tak ada yang bisa menghalangi di baris kedelapan.\n\nSingkirkan kudanya dan raja lolos ke e7. Dalam jaring mat, setiap buah menguasai petak yang tak bisa dikuasai buah lainnya."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "fianchetto-proof",
+  "fen": "5rk1/pp1bppbp/3p1np1/q7/2r1P1P1/2N1BP2/PPPQN3/2KR3R w - - 3 17",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Karpov chasse le fou",
+  "setup": "Karpov contre Kortchnoï, Moscou 1974. Vos pions sont montés sur l'aile roi, et une seule pièce noire garde encore les cases noires autour du roi noir.",
+  "hint": "Contre un fianchetto, vous chassez une seule pièce. Laquelle des vôtres parcourt les mêmes cases qu'elle ?",
+  "explanation": "## L'idée\n\n{{Bh6}} offre votre fou de cases noires contre celui des Noirs, la seule pièce qui répond de f6 et h6. Après {{Bxh6}} {{Qxh6}}, la dame arrive sur la case que le pion g a abandonnée et fixe g7 et h7, et aucun pion noir ne pourra jamais la chasser.\n\nKarpov a continué avec le pion g et les tours, et les Noirs ont abandonné dix coups plus tard."
+}

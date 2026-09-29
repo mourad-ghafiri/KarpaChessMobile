@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-07",
+  "fen": "7k/2p5/3p1b2/8/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxf6"
+  ],
+  "title": "¿Gratis o protegida?",
+  "setup": "Tu caballo de e4 puede capturar dos piezas negras distintas, pero solo una es gratis de verdad.",
+  "hint": "Antes de lanzarte, pregunta: ¿quién recaptura? Revisa los defensores de d6 y f6.",
+  "explanation": "## La idea\n\nDos capturas te tientan:\n\n- {{Nxd6}} se lleva un peón, pero el peón de c7 **defiende d6** y recaptura enseguida. Cambiarías un caballo de tres puntos por un peón de uno.\n- {{Nxf6}} se lleva el alfil, y **nada defiende f6**. Tres puntos limpios.\n\nLa pregunta correcta nunca es «¿qué puedo capturar?», sino «¿qué puedo capturar gratis?». Cuenta los defensores antes de cada captura."
+}

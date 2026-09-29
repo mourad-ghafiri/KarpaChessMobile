@@ -1,0 +1,13 @@
+{
+  "id": "culture-07",
+  "fen": "rn1qkb1r/ppp2ppp/3p4/4N3/2B5/2P5/PPP2PPP/R1BbK2R w KQkq - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Bg5#"
+  ],
+  "title": "La dame était l'appât",
+  "setup": "Les Noirs viennent de prendre votre dame, le genre de prise que personne ne s'arrête pour regarder, et vous avez un coup.",
+  "hint": "Le roi noir n'a qu'une seule case libre. Donnez un échec qui l'y pousse, et assurez-vous que votre autre fou peut atteindre la diagonale de cette case.",
+  "explanation": "## L'idée\n\n{{Bxf7+}} offre une seconde pièce à un roi qui n'a nulle part où fuir. Le roi ne peut pas prendre en f7, car le cavalier en e5 la défend, donc {{Ke7}} est forcé. Puis {{Bg5#}} : le fou venu de c1 donne échec le long de la diagonale qui passe par e7, et chaque case autour du roi est couverte ou bouchée.\n\nUn cavalier, deux fous et pas de dame terminent la partie au huitième coup.\n\nUne prise préchargée part dans la position qui arrive, quelle qu'elle soit. Préchargez le coup sûr, jamais la prise gourmande."
+}

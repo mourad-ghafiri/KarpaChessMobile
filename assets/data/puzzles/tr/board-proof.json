@@ -1,0 +1,11 @@
+{
+  "id": "board-proof",
+  "fen": "4k3/8/8/8/8/8/1PP2PP1/4K3 w - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "title": "Adresi Okuyun",
+  "setup": "Her karenin bir adı var. Bir piyonu c4 adlı kareye götürün.",
+  "hint": "Önce c dikeyini bulun, sonra beyazın kenarından yukarı sayın: 1. yatay, 2. yatay, 3. yatay, 4. yatay.",
+  "explanation": "## Fikir\n\nÖnce harf, sonra sayı. c dikeyi beyazın solundan üçüncü sütundur ve 4. yatay beyazın kenarından yukarı dördüncü sıradır; c4 de kesiştikleri yerdir.\n\nO dikeyde duran tek piyon c2'dekidir ve piyon ilk hamlesinde iki kare adımlayabilir: {{c4}}. b2'deki piyon b4'e ulaşabilirdi, ama b4 başka bir adrestir."
+}

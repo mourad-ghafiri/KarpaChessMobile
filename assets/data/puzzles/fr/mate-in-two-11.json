@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-11",
+  "fen": "3r4/5pk1/4R3/3P3B/8/5Q2/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qxf7+",
+    "Kh8",
+    "Rh6#"
+  ],
+  "rating": 1360,
+  "title": "Le fou protège le cadeau",
+  "setup": "Le roi noir en g7 est abrité par un seul pion en f7, et votre fou en h5 surveille cette case.",
+  "hint": "Le pion qui abrite le roi semble défendu seulement par le roi. Qu'est-ce qui, chez vous, couvre aussi cette case ?",
+  "explanation": "## L'idée\n\n{{Qxf7+}} fonctionne car le fou en **h5** couvre f7, donc le roi n'a pas le droit de prendre. La tour en e6 a déjà retiré g6 et h6, donc {{Kh8}} est forcé, et {{Rh6#}} bascule pour mater le long de la colonne h."
+}

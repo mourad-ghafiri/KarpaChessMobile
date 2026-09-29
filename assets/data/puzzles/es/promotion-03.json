@@ -1,0 +1,12 @@
+{
+  "id": "promotion-03",
+  "fen": "rk6/4Pppp/8/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "e8=Q+"
+  ],
+  "rating": 1080,
+  "title": "Alinea la fila",
+  "setup": "Tu peón de e llega a la octava fila en la próxima jugada, y el rey y la torre negros ya están en ella.",
+  "hint": "El rey y la torre comparten línea con la casilla hacia la que va tu peón. ¿Cuál de los dos está delante?",
+  "explanation": "## La idea\n\n{{e8=Q+}} corona con jaque por la octava fila, así que las Negras no tienen tiempo de detener el peón. La torre de a8 está detrás del rey en esa misma línea: si el rey va a c7, la nueva dama se la come. {{Ka7}} o {{Kb7}} mantienen la torre defendida, pero sigues teniendo una dama contra una torre.\n\nCuando el rey rival está en tu fila de coronación, corona con jaque."
+}

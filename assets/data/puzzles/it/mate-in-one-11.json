@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-11",
+  "fen": "1r3kr1/pbpBnp1p/1b3P2/8/8/B1P2q2/P4PPP/3R2K1 w - - 4 24",
+  "solution": [
+    "Bxe7#"
+  ],
+  "rating": 885,
+  "title": "Il Lavoro lo Fa il Pedone",
+  "setup": "Il vostro alfiere in a3 punta al cavallo in e7, e il vostro pedone in f6 copre le case accanto al re.",
+  "hint": "Il re nero non può muovere di un passo, quindi trovate lo scacco che atterra su una casa difesa dal vostro pedone.",
+  "explanation": "## L'idea\n\nIl re in f8 è murato dalla propria torre in g8 e dal proprio pedone in f7, il pedone in f6 toglie g7 e e7, e l'alfiere in d7 copre e8. {{Bxe7#}} toglie l'ultimo difensore e dà scacco da una casa che quello stesso pedone difende, quindi il re non può catturare."
+}

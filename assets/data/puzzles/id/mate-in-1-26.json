@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-26",
+  "fen": "3k4/3P4/3K4/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Pengaman Berlapis",
+  "setup": "Pion Anda di d7 berdiri tepat di depan raja Hitam, dan raja Anda di d6 menjaganya.",
+  "hint": "Sapukan benteng ke baris ke-8 — raja dan pion Anda sudah memagari semua yang di bawahnya.",
+  "explanation": "## Ide\n\nPion di d7 tidak memberi sekak, tetapi ia bekerja: ia merebut d7 dari raja dan juga menyerang c8 dan e8.\n\n{{Ra8#}} memberi sekak di sepanjang baris belakang. c8 dan e8 berada di garis benteng, raja Anda di d6 menguasai c7 dan e7, dan raja itu juga menjaga pion, jadi raja Hitam tak bisa mengambilnya.\n\nBahkan pion yang sederhana bisa menjadi buah yang menutup jaring mat."
+}

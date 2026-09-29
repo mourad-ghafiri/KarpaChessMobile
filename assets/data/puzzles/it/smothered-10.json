@@ -1,0 +1,16 @@
+{
+  "id": "smothered-10",
+  "fen": "r4rk1/pp3Npp/8/8/2Q5/8/P4PPP/6K1 w - - 9 33",
+  "solution": [
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1440,
+  "title": "Il Cavallo Sceglie h6",
+  "setup": "Il Nero ha appena attaccato con una torre il cavallo in f7, mentre la donna in c4 tiene d'occhio la diagonale a2–g8.",
+  "hint": "Il vostro cavallo sta sulla diagonale della donna, quindi qualunque mossa di cavallo dà scacco due volte — scegliete con cura la casa d'arrivo.",
+  "explanation": "## L'idea\n\n{{Nh6+}} è uno scacco doppio, quindi la torre non può catturare e il re deve muovere: {{Kh8}} è la sua unica casa. Adesso {{Qg8+}} forza {{Rxg8}}, e {{Nf7#}} lo soffoca. Il cavallo doveva scegliere h6 proprio per difendere g8 in vista del sacrificio."
+}

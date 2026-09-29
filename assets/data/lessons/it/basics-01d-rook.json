@@ -1,0 +1,72 @@
+{
+  "id": "rook-moves",
+  "title": "La Strada Lunga",
+  "summary": "Quattordici case da qualsiasi punto, e i due modi in cui una strada finisce",
+  "proof": "first-steps-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Lungo le Linee",
+      "text": "La scacchiera è disegnata come una griglia di linee. La torre è il pezzo che si muove lungo quelle linee, e solo lungo quelle: traverse e colonne, nient'altro.\n\nNiente diagonali. Niente da scavalcare. La distanza però è gratis: una torre che si sposta di una casa e una torre che attraversa tutta la scacchiera hanno fatto la stessa fatica.\n\nDa d4 la strada corre in quattro direzioni. Su per la colonna d fino a {{Rd8}}, giù fino a {{Rd1}}, e lungo la quarta traversa fino a {{Ra4}} oppure {{Rh4}}."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Quattordici, Ovunque Si Trovi",
+      "text": "Contate quante case copre questa torre da d4. Sette su e giù per la colonna d, sette lungo la quarta traversa. Quattordici.\n\nOra mettete una torre da sola nell'angolo di una scacchiera vuota e contate di nuovo. Quattordici. Il totale non cambia mai; cambia solo come si divide fra le due linee.\n\nIl cavallo, in quello stesso angolo, perdeva sei dei suoi otto salti. L'alfiere sul bordo rinuncia a quasi metà delle sue case diagonali. La torre non si accorge nemmeno che il bordo esiste."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "prompt": "Portate la torre su una casa qualsiasi della sua colonna o della sua traversa.",
+      "targetSan": [
+        "Rd5",
+        "Rd6",
+        "Rd7",
+        "Rd8",
+        "Rd3",
+        "Rd2",
+        "Rd1",
+        "Rc4",
+        "Rb4",
+        "Ra4",
+        "Re4",
+        "Rf4",
+        "Rg4",
+        "Rh4"
+      ],
+      "hint": "Da qui quattordici case sono legali e nessuna è sbagliata: scegliete una direzione e fermatevi dove vi pare."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "Dove Finisce la Strada",
+      "text": "Mettete quella torre in a1 e le quattordici diventano sei.\n\nSu per la colonna a arriva fino a {{Ra3}}, perché un pedone nero in a4 è in mezzo alla strada. Lungo la prima traversa arriva fino a {{Rd1}}, perché in quella c'è il vostro re in e1.\n\nI due stop non sono lo stesso stop. Il re è definitivo: non farete mai passare una torre attraverso un vostro pezzo. Il pedone è provvisorio. Tiene la colonna a esattamente finché sopravvive."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "La Colonna Aperta",
+      "text": "Una colonna senza nessun pedone si chiama **colonna aperta**, e una torre passerà partite intere a cercare di arrivarci.\n\nIl motivo è semplice. Su una colonna aperta la torre vede la colonna da un capo all'altro, e tutto ciò che vi mette piede entra nella sua linea. Su una colonna intasata di pedoni, la stessa torre vede un pedone.\n\nAlla colonna a manca un pedone per essere aperta, e quel pedone si può prendere.\n\n> Una torre vuole una strada senza nulla sopra. Trovatene una, o apritene una."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "prompt": "Aprite la colonna a prendendo l'unica cosa che la occupa.",
+      "targetSan": [
+        "Rxa4"
+      ],
+      "hint": "Al Nero non resta nulla per difendere quella casa, e la strada che vi porta è libera."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/ppp1pppp/8/8/8/8/PPP1PPPP/R5K1 w - - 0 1",
+      "prompt": "Trovate l'unica colonna senza pedoni e portateci la vostra torre.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Fate scorrere lo sguardo su tutte e otto le colonne: in sette c'è un pedone di mezzo."
+    }
+  ]
+}

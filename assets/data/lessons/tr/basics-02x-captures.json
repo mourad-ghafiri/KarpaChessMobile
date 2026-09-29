@@ -1,0 +1,65 @@
+{
+  "id": "captures",
+  "title": "Geri Alan Ne Var",
+  "summary": "İki taş alma, her biri tek sıçrayış, ve ikisini yalnızca verilen cevap ayırır",
+  "proof": "first-steps-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Alınacak İki Şey",
+      "text": "e4'teki atınız aynı anda iki siyah taşa saldırıyor: d6'daki kale ve f6'daki fil. İki taş alma da kurallı, ikisi de tek sıçrayış ve atın karesinden bakınca birbirinin aynısı görünüyorlar.\n\nDeğiller. Hiçbir şeyin korumadığı taş **askıdadır** ve onu almak size tam olarak hiçbir şeye mal olmaz. Bir dostun koruduğu taş ise size o koruyanın geri aldığı kadara mal olur.\n\nHangisinin hangisi olduğunu tahta zaten söylüyor. Siz oynamadan önce söylüyor."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Üçe Karşı Üç",
+      "text": "{{Nxf6}} bir fil kazanır. Sonra {{gxf6}} gelir ve g7'deki piyon atı hemen geri alır.\n\nOrada kaybedilen bir şey yok. At üç eder, fil üç eder ve ikisi tahtayı birlikte terk eder — hesap başladığı yerde biter.\n\nAma kazanılan da bir şey yok. Taş almanın bütün sonucu bu: harcanmış bir hamle ve iki taş eksiğiyle aynı pozisyon."
+    },
+    {
+      "type": "play",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Öteki taş almanın hiçbir cevabı yok — onu oynayın ve aldığınızı elinizde tutun.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "Siyahın hiçbir taşı d6'ya ulaşmıyor: f6'daki fil o kareyi görmüyor, g7'deki piyon ise yalnızca f6 ile h6'yı koruyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Dokuza Karşı Bir",
+      "text": "Aynı soru, ama bu kez soruyu soran taş vezir.\n\nd4'teki veziriniz iki açık çaprazdan iki siyah piyona bakıyor: biri a7'de, biri g7'de. İki taş alma da tek puanlık bir şey kazandırır. İki taş alma da o kareye dokuz puan koyar.\n\nVezir, dikkatsiz davranmaya en az gelen taş olmasını buna borçludur. Yanlış tahmin eden at eşit değişir. Yanlış tahmin eden vezir hiç değişmiş olmaz."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Tek Hamlelik Sahiplik",
+      "text": "{{Qxa7}} bir piyon kazanır ve ona tam olarak bir hamle sahip olur. {{Rxa7}} — a8'deki kale siz o piyona bakmadan çok önce onu koruyordu, şimdi de vezirinizi aldı.\n\nBire karşılık dokuz puan. Hiçbir aritmetik bunu bir değişime çeviremez.\n\nVezirin en son yemesinin sebebi de budur. Siyahın her taşı ondan ucuzdur, yani tahtadaki her koruyucu, vezirin saymak zorunda olduğu bir koruyucudur."
+    },
+    {
+      "type": "play",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "O iki piyondan birine bakan hiçbir şey yok — onu alın.",
+      "targetSan": [
+        "Qxg7"
+      ],
+      "hint": "Siyahın bir kalesi ve iki piyonu var: kale a dikeyini ve sekizinci yatayı gözlüyor, piyonlardan hiçbiri diğerini korumuyor."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "title": "Korunuyor Olmak Dokunulmaz Olmak Değildir",
+      "text": "Bir pozisyon daha; az önce okuduklarınızın yarısını geri alıyor.\n\nSiyahın c5'teki veziri korunuyor: b6'daki piyon o kareyi kapsıyor ve hemen geri alıyor.\n\nYine de alın. Üç değerinde bir at verirsiniz, dokuz değerinde bir vezir kaldırırsınız ve altı puan kârlı çıkarsınız. Korunuyor olmak hiçbir zaman güvende demek değildi. Yalnızca taş almanın bir bedeli var demekti — ve bedelin ödülden küçük olması gerekir.\n\n> Hiçbir şeyin korumadığını alın. Bir şeyin koruduğunu almadan önce ne verdiğinizi ve ne aldığınızı sayın."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Siyahın en iyi taşı korunuyor ve koruyan yalnızca bir piyon — yine de alın.",
+      "targetSan": [
+        "Nxc5"
+      ],
+      "hint": "Üç puan tahtadan ayrılıyor ve yanında dokuz puan gidiyor — geri alma kaza değil, anlaşmanın bir parçası."
+    }
+  ]
+}

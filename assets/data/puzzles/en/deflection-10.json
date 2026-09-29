@@ -1,0 +1,14 @@
+{
+  "id": "deflection-10",
+  "fen": "5rk1/pp3p1p/2n3p1/q7/8/1B6/PB4PP/4RQ1K w - - 1 2",
+  "solution": [
+    "Qxf7+",
+    "Rxf7",
+    "Re8#"
+  ],
+  "rating": 1440,
+  "title": "Off the Back Rank",
+  "setup": "Black's rook on f8 holds the f7 pawn and the back rank at once, and your bishop on b3 cuts through f7.",
+  "hint": "The rook is the only piece guarding the eighth rank. What can you give it that it has to take?",
+  "explanation": "## The Idea\n\n{{Qxf7+}} cannot be taken by the king, since the bishop on b3 covers f7, so {{Rxf7}} is forced. The rook is now pinned and off the back rank, and {{Re8#}} ends the game. A rook that has to recapture is a rook that is no longer defending."
+}

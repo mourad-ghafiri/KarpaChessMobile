@@ -1,0 +1,56 @@
+{
+  "id": "lucena-position",
+  "title": "Il Ponte di Lucena",
+  "summary": "A un pedone dalla donna, e un re senza un posto dove stare",
+  "proof": "endgames-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "A una Casa dalla Fine",
+      "text": "Il pedone in d7 è a una casa dall'ottava traversa, e il re bianco sta proprio su quella casa.\n\nSpostate il re di lato e il pedone promuove al turno successivo. È tutta qui la vittoria, e l'argomento migliore del Nero è la torre in a1, che dà scacco dall'altro capo della scacchiera. Un re sorpreso allo scoperto con una torre dietro si può inseguire a lungo, e ogni scacco è una mossa in cui il pedone sta fermo.\n\nQuindi questa non è una domanda sul pedone. È una domanda su dove possa stare il re."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "Niente Dietro cui Nascondersi",
+      "text": "{{Ke7}}, e {{Re1+}} arriva subito. La torre piomba sulla colonna dove il re mette piede, da qualunque distanza le pare.\n\nE allora date al re un muro prima che esca, e gli scacchi smettono di contare. Su questa scacchiera un solo pezzo può esserlo. La vostra torre in f2 ha già un lavoro che non deve lasciar cadere: stando sulla colonna f, tiene il re nero fuori dalla contesa.\n\nQuindi resta su quella colonna. Ci sale — fino a una casa dove il re può camminare e difenderla."
+    },
+    {
+      "type": "play",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "prompt": "Prima che il vostro re esca, mandate la torre su per la sua colonna a costruire il muro dietro cui si nasconderà.",
+      "targetSan": [
+        "Rf4"
+      ],
+      "hint": "Il vostro re sta uscendo per incontrare quel muro e deve finire accanto a lui, quindi contate a che altezza della colonna questo mette la torre."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "Il Libro da cui Prende il Nome",
+      "text": "La torre nera è piombata in d1, sulla colonna stessa del pedone, pronta a dare scacco lungo di essa. Questa è la posizione che ogni manuale di finali chiama Lucena.\n\nLuis Ramírez de Lucena stampò il più antico libro sopravvissuto su come si gioca il gioco moderno, a Salamanca attorno al 1497, e questa posizione non c'è dentro. Arriva alla stampa più di un secolo dopo, nel libro di Alessandro Salvio del 1634. Il nome è finito sul volume sbagliato e non se n'è più andato."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "Scacchi che Non Costano Niente",
+      "text": "Adesso il re cammina, e ogni passo riceve risposta. {{Ke7}} {{Re1+}} {{Kd6}} {{Rd1+}}.\n\nNiente di tutto questo cambia qualcosa. La torre nera non può cacciare il re da una casa che conti, perché il re non sta fuggendo — sta marciando verso la traversa dove il muro è già parcheggiato. Ogni scacco spinge la torre nera di una colonna di lato e mette il Bianco una traversa più vicino.\n\nIl Nero può continuare a dare scacco. Al piano non importa."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "title": "A una Traversa di Distanza",
+      "text": "Quattro scacchi dopo il vostro re sta in d5, e la torre in f4 siede una traversa più sotto. Il Nero dà scacco di nuovo.\n\nScappare ha smesso di pagare. Andate in {{Ke5}} e la colonna si apre dietro di voi: {{Rxd7}}, e il pedone è andato. Andate in c6 o in e6 e la torre dà semplicemente scacco di nuovo lungo la colonna nuova. Quindi la risposta più pulita è tagliare lo scacco anziché scapparne.\n\n> Una parata che il vostro avversario può prendere gratis non è affatto una parata. Mettetela dove il re fa già la guardia."
+    },
+    {
+      "type": "play",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "prompt": "Chiudete gli scacchi per sempre parando sull'unica casa che il vostro re difende già.",
+      "targetSan": [
+        "Rd4"
+      ],
+      "hint": "La vostra torre deve solo viaggiare lungo la traversa su cui sta già, e solo fino alla linea dello scacco."
+    }
+  ]
+}

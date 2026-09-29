@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-05",
+  "fen": "3R4/8/2b3p1/4K3/2k5/8/6Q1/r4R1B w - - 0 1",
+  "solution": [
+    "Qxc6+",
+    "Kb3",
+    "Rb8+",
+    "Ka2",
+    "Qa4#"
+  ],
+  "rating": 1490,
+  "title": "Compra la diagonal",
+  "setup": "Los dos reyes se miran en el centro, el negro en c4, y su alfil de c6 es la pieza que lo mantiene todo unido.",
+  "hint": "Una pieza negra defiende las casillas que quiere tu dama. Pon precio a esa pieza, y luego da jaque por la línea que cubría.",
+  "explanation": "## La idea\n\n{{Qxc6+}} elimina al alfil con jaque. {{Rb8+}} lleva al rey al borde y {{Qa4#}} cierra la caja. Comerse a un defensor es una jugada de caza cuando la captura llega con jaque."
+}

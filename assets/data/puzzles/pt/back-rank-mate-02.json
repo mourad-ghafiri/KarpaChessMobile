@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-02",
+  "fen": "6k1/2r2ppp/8/8/8/8/5PPP/3Q2K1 w - - 1 2",
+  "solution": [
+    "Qd8#"
+  ],
+  "rating": 740,
+  "title": "A Guarda Saiu de Lá",
+  "setup": "A torre preta acabou de descer a c7, e na oitava linha não resta senão o seu rei.",
+  "hint": "Há uma jogada uma peça preta segurava a oitava linha inteira. Verifica se ainda a segura.",
+  "explanation": "## A Ideia\n\n{{Qd8#}} encerra o assunto. A dama dá xeque ao longo da oitava linha; a torre de c7 não a pode comer nem tapar em e8 ou f8, e a muralha de peões em f7, g7 e h7 mantém o rei em casa. Uma torre que deixa a linha de fundo tem de deixar um substituto."
+}

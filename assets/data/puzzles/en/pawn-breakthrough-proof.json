@@ -1,0 +1,13 @@
+{
+  "id": "pawn-breakthrough-proof",
+  "fen": "8/5ppp/8/5PPP/4k3/8/8/K7 w - - 0 1",
+  "solution": [
+    "g6",
+    "fxg6",
+    "h6"
+  ],
+  "title": "Break Through Before It Arrives",
+  "setup": "Black's king on e4 is coming for your pawns, and your own king is too far away to help. You have exactly one move that wins.",
+  "hint": "A black pawn only leaves its file to capture. Which push can be taken from both sides, and what does each capture leave open?",
+  "explanation": "## The Idea\n\n{{g6}} offers the middle pawn to both black pawns beside it. Every other move loses, because Black's king simply eats your pawns.\n\nSay Black takes with {{fxg6}}: {{h6}} offers a second pawn. Now one of yours gets through whatever Black does. Take on h6, and the f-pawn runs to f8 before the king can reach it. Leave it, and your h-pawn takes on g7 and queens."
+}

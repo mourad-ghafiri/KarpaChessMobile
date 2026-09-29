@@ -1,0 +1,12 @@
+{
+  "id": "pin-09",
+  "fen": "7k/2R1pr2/1R6/4r2p/6P1/Bb6/2P5/6K1 w - - 0 1",
+  "solution": [
+    "Bb2"
+  ],
+  "rating": 1120,
+  "title": "Giù per la Grande Diagonale",
+  "setup": "Il re nero è inscatolato in h8, e una delle sue torri si è parcheggiata sulla grande diagonale scura.",
+  "hint": "Il re nero in h8 siede in fondo a una diagonale famosa. Quale dei vostri pezzi può prendersi l'altro capo?",
+  "explanation": "## L'idea\n\n{{Bb2}} si prende la diagonale a1–h8, dove la torre in **e5** adesso è bloccata davanti al proprio re. La torre è attaccata, indifesa, e non può spostarsi. Sciogliere l'inchiodatura con una mossa di re arriva con una mossa di ritardo."
+}

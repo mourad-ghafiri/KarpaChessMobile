@@ -1,0 +1,11 @@
+{
+  "id": "greek-gift-proof",
+  "fen": "r2q1rk1/pbpp2pp/1pn1pb2/7n/2PP1Pp1/P1NBP3/1PQ1N2P/R1B2RK1 w - - 0 12",
+  "solution": [
+    "Bxh7+"
+  ],
+  "title": "Le cadeau que personne ne peut prendre",
+  "setup": "Votre fou en d3 et votre dame en c2 partagent une diagonale, et seul le roi noir garde h7.",
+  "hint": "Comptez ce qui se tient derrière votre fou. Si le fou quitte d3, quel coup noir cesse d'être légal ?",
+  "explanation": "## L'idée\n\n{{Bxh7+}} offre le fou, et les Noirs n'ont pas le droit de le prendre. Dès qu'il quitte d3, la dame en c2 voit jusqu'en h7, donc le roi ne peut pas se poser sur cette case. Il doit aller en h8 ou en f7 à la place.\n\nL'abri a disparu gratuitement. Après …Kh8, votre dame suit par {{Qg6}}, et l'aile roi noire est grande ouverte."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-21",
+  "fen": "6k1/5ppp/8/8/8/8/8/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Tembok Pion",
+  "setup": "Perisai pion Hitam di **f7**, **g7**, **h7** masih utuh — tetapi tanpa jendela pelarian, itu justru petaka.",
+  "hint": "Luncurkan benteng naik di lajur yang terbuka. Pion-pion Hitam sendiri mengerjakan sisanya.",
+  "explanation": "## Ide\n\nInilah mat baris belakang dalam bentuknya yang paling murni: lajur terbuka, baris belakang yang kosong, dan tiga pion di depan raja.\n\n{{Rd8#}} memberi sekak di sepanjang baris kedelapan. f8 dan h8 berada di garis benteng, f7, g7 dan h7 ditempati pion Hitam sendiri, dan tak ada yang bisa menghalangi atau menangkap.\n\nObatnya sederhana: dorong salah satu pion itu satu petak lebih awal untuk memberi raja jalan keluar."
+}

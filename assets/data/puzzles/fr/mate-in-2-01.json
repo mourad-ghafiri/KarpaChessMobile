@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-01",
+  "fen": "2k5/8/3K4/7Q/8/8/8/8 w - - 2 2",
+  "solution": [
+    "Qb5",
+    "Kd8",
+    "Qb8#"
+  ],
+  "title": "La cage en deux temps",
+  "setup": "Le roi noir en c8 a encore trois cases. Votre roi tient déjà c7 et d7, et votre dame est loin, en h5.",
+  "hint": "Tout échec ici laisse le roi s'échapper. Retirez-lui ses cases tranquillement et laissez-lui exactement un coup.",
+  "explanation": "## L'idée\n\nDonner échec d'abord laisse le roi fuir. {{Qb5}} ne donne pas échec du tout : elle prend toute la colonne b, donc b8 et b7 disparaissent, et votre roi en d6 tient déjà c7 et d7.\n\nLes Noirs n'ont qu'un coup légal, {{Kd8}}, et il mène droit à {{Qb8#}}. La dame couvre la huitième rangée, votre roi la septième, et le roi noir n'a plus nulle part où aller. {{Qd7#}} mate tout aussi bien."
+}

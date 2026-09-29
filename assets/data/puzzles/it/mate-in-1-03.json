@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-03",
+  "fen": "7k/6pp/8/8/8/8/1R6/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Murato in h8",
+  "setup": "Tutte e due le vostre torri stanno sulla colonna b, e il re nero è bloccato nell'angolo dietro due suoi pedoni.",
+  "hint": "I pedoni del re lo murano dentro. Quale delle vostre torri arriva alla sua traversa?",
+  "explanation": "## L'idea\n\n{{Rb8#}} dà scacco lungo la traversa di fondo. Il re in h8 non può andare in g8, che sta sulla linea della torre, e g7 e h7 hanno i suoi stessi pedoni. Niente di nero può catturare la torre o parare.\n\nLa seconda torre qui non ha nessun ruolo: una torre basta quando il re avversario è murato dai propri pedoni."
+}

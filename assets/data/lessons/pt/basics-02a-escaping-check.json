@@ -1,0 +1,77 @@
+{
+  "id": "escaping-check",
+  "title": "Três Saídas",
+  "summary": "Mexe-o, tapa-o, come-o — e os xeques em que duas dessas saídas desaparecem",
+  "proof": "first-steps-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "title": "Não Há Quarta Resposta",
+      "text": "A todo o xeque tem de se responder ali mesmo, e o xadrez dá-te exatamente três respostas.\n\n**Mexer** o rei para fora da casa atacada. **Tapar** a linha por onde o ataque viaja. **Capturar** a peça que dá xeque.\n\nA lista é essa. A torre preta em e8 olha diretamente pela coluna e abaixo para o teu rei em e1, e enquanto nenhuma dessas três coisas acontecer, mais nada que te apeteça jogar é legal.\n\nA lista nunca muda, e tem três itens. O que muda é quantos dos três estão disponíveis."
+    },
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Fora da Linha, Não ao Longo Dela",
+      "text": "Tira o bispo do tabuleiro e o rei tem de responder sozinho.\n\nCinco casas tocam num rei em e1: d1, d2, e2, f1 e f2. Quatro delas estão fora do caminho da torre. A quinta é e2 — um passo em frente, ainda na coluna e, ainda debaixo da mesma torre. Fugir *ao longo* da linha não é fugir.\n\nMexer o rei é a primeira coisa a verificar e nunca é garantida. A casa que queres tem de estar vazia, e tem de ser uma que o teu adversário já não ataque."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Tira o teu rei da coluna que a torre domina.",
+      "targetSan": [
+        "Kd1",
+        "Kd2",
+        "Kf1",
+        "Kf2"
+      ],
+      "hint": "A torre cobre uma coluna e mais nada, portanto um único passo para o lado resolve o assunto."
+    },
+    {
+      "type": "teach",
+      "fen": "k7/8/8/b7/8/8/8/1N2K3 w - - 0 1",
+      "title": "Fecha a Porta",
+      "text": "Um xeque diferente, e o rei não tem de se mexer.\n\nO bispo preto em a5 chega ao teu rei em e1 pela diagonal, através de b4, c3 e d2. Chega lá *através* dessas casas — é isso que é uma linha — e uma peça em qualquer uma delas acaba com o ataque.\n\nO teu cavalo em b1 tem duas portas à escolha: {{Nc3}} ou {{Nd2}}. O bispo continua a fuzilar a diagonal com o olhar. Só que já não lá chega.\n\nQuem tapa pode ser capturado, claro. Tapar vale o que valer a peça que gastas nisso."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "De volta à torre — mete o teu bispo no caminho dela e fecha a coluna.",
+      "targetSan": [
+        "Be3"
+      ],
+      "hint": "O bispo viaja em diagonais, por isso só uma das seis casas entre eles está ao seu alcance."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "title": "Nada Pelo Meio",
+      "text": "Um cavalo não viaja ao longo de uma linha. Aparece.\n\nNão há casas nenhumas entre o cavalo preto em d3 e o teu rei em e1, portanto não há nada para meter pelo meio. Um xeque de cavalo nunca se pode tapar. Nem um xeque de uma peça que esteja mesmo ao lado do rei — entre duas casas que se tocam não cabe nada.\n\nPor isso a lista aqui fica com dois itens. O rei anda, ou o cavalo sai do tabuleiro."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "prompt": "Acaba com este tirando o cavalo do tabuleiro.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Os peões capturam na diagonal, nunca a direito."
+    },
+    {
+      "type": "teach",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "title": "A Captura Que Não Existe",
+      "text": "Capturar é a resposta mais doce e a que mais vezes não está disponível.\n\nO cavalo em f3 dá xeque ao teu rei em g1, e duas das tuas peças atacam-no. O peão em g2 é a óbvia — um peão a comer um cavalo é uma pechincha.\n\nEsse peão é também a única coisa entre a torre preta de g8 e o teu rei. Captura com ele e o rei fica em xeque da torre, e uma jogada que deixa o teu próprio rei em xeque não é uma jogada. Uma peça que segura a linha até ao seu rei não está livre para sair."
+    },
+    {
+      "type": "play",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "prompt": "Come o cavalo com a peça de que o teu rei pode prescindir.",
+      "targetSan": [
+        "Rxf3"
+      ],
+      "hint": "Só um dos dois atacantes pode sair sem abrir uma linha até ao teu próprio rei."
+    }
+  ]
+}

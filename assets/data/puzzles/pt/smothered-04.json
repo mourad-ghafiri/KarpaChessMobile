@@ -1,0 +1,12 @@
+{
+  "id": "smothered-04",
+  "fen": "2r3nk/pp4pp/1q6/4N3/8/8/PB3PPP/3R2K1 w - - 5 25",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1245,
+  "title": "Dois Xeques, Um Mate",
+  "setup": "As pretas acabaram de recuar o cavalo para g8, deixando o rei com três vizinhos e nenhuma casa vazia.",
+  "hint": "O teu cavalo tem aqui dois xeques disponíveis; descobre qual deles o peão h não pode simplesmente comer.",
+  "explanation": "## A Ideia\n\nDois saltos de cavalo dão xeque, mas {{Ng6+}} dá em hxg6. {{Nf7#}} aterra na única casa que nenhuma peça preta cobre, e com g8, g7 e h7 todas ocupadas pelas suas próprias peças o rei não tem para onde ir. Testa sempre se o xeque que sufoca pode ser capturado."
+}

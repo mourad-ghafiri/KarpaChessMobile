@@ -1,0 +1,59 @@
+{
+  "id": "king-safety",
+  "title": "A Segurança do Rei",
+  "summary": "Roca antes de as portas se abrirem, e depois deixa a parede em paz",
+  "proof": "strategy-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "O Rei Que Ficou em Casa",
+      "text": "O peão d das brancas desapareceu, e no lugar dele está um bispo em d2. O rei em e1 não tem peão nenhum seu na coluna ao lado.\n\nAs pretas responderam a esta pergunta há várias jogadas: o rei em g8, três peões intocados à frente.\n\nÀs brancas é oferecido exatamente um roque. A torre de h1 está encaixotada atrás do bispo de f1 e do cavalo de g1, portanto a ala do rei está fechada. A ala da dama não está — a dama, o cavalo e o bispo saíram todos desse extremo da linha de fundo."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "Quanto Custa Esperar",
+      "text": "Ainda não há nada de errado. É isso que torna fácil adiar.\n\nDesenvolve com calma com {{Nf3}}, deixa as pretas trazer uma torre com {{Re8}}, junta {{Bd3}}, e {{d5}} abre o centro com o rei ainda em e1. As pretas não precisaram de nada de esperto para lá chegar, só de jogadas vulgares.\n\nTodas as linhas que se abrem daqui em diante abrem-se na direção das brancas, e responder a cada uma custa uma jogada que estava destinada a outra coisa."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "prompt": "Arruma o rei na ala que as tuas peças já deixaram, e leva uma torre à coluna semiaberta na mesma jogada.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "Três peças saíram de um dos lados da tua linha de fundo — conta as casas vazias entre o teu rei e cada uma das torres."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "A Parede Que Não Se Reconstrói",
+      "text": "As pretas perseguiram um bispo com duas jogadas de peão e tiraram dois tijolos ao abrigo à volta do rei de g8. O peão em h6 e o peão em g5 faziam parte dessa parede, e o de g5 está a atingir o bispo de h4 neste momento.\n\nOs três das brancas continuam em f2, g2 e h2, exatamente onde o roque os deixou. As pretas não conseguem repor os outros dois, porque nenhum peão anda para trás, e é essa a diferença inteira entre estes dois reis.\n\n> Mexe um peão à frente do teu rei quando tiveres de o fazer. Nunca dois."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "Onde Bater",
+      "text": "O peão em g5 tem exatamente um defensor, o peão de h6. Atrás deles o rei tem mais um guarda, o cavalo de f6.\n\nA resposta natural a um bispo atacado é recuá-lo. O abrigo das pretas fica então fino, mas fica.\n\nHá uma resposta mais barulhenta. Um abrigo assim tão fino pode ser comprado, e as brancas têm peças com que pagar. Conta o preço em peões e o prémio em linhas abertas, e depois decide."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "prompt": "Responde ao ataque ao teu bispo abrindo o abrigo, mesmo que isso te custe uma peça.",
+      "targetSan": [
+        "Nxg5"
+      ],
+      "hint": "Captura primeiro em g5 com a peça que te podes dar ao luxo de perder, para o bispo ficar com a última palavra."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n2/2b1p1p1/2B1P2B/2NP4/PPP2PPP/R2Q1RK1 w - - 0 10",
+      "prompt": "As pretas comeram o cavalo; recaptura de modo a que o cavalo preto de f6 fique cravado contra a dama.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "Conta o que está agora entre o teu bispo de h4 e a dama preta de d8."
+    }
+  ]
+}

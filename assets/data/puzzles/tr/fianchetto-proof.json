@@ -1,0 +1,11 @@
+{
+  "id": "fianchetto-proof",
+  "fen": "5rk1/pp1bppbp/3p1np1/q7/2r1P1P1/2N1BP2/PPPQN3/2KR3R w - - 3 17",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Karpov Fili Avlıyor",
+  "setup": "Karpov, Korçnoy'a karşı, Moskova 1974. Piyonlarınız şah kanadında yukarı çıktı ve siyahın şahının çevresindeki koyu kareleri hâlâ tek bir siyah taş koruyor.",
+  "hint": "Fianketto'ya karşı tek bir taşı avlarsınız. Sizinkilerden hangisi onunla aynı kareleri yürür?",
+  "explanation": "## Fikir\n\n{{Bh6}} koyu kare filinizi siyahınkine önerir; o fil f6 ile h6'nın hesabını veren tek taştır. {{Bxh6}} {{Qxh6}} geldikten sonra vezir, g piyonunun terk ettiği kareye iner ve g7 ile h7'ye dikilir; hiçbir siyah piyon onu bir daha kovalayamaz.\n\nKarpov g piyonu ve kalelerle gelmeyi sürdürdü ve siyah on hamle sonra terk etti."
+}

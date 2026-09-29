@@ -1,0 +1,12 @@
+{
+  "id": "discovery-02",
+  "fen": "3r2k1/b4ppp/p7/8/3n4/5P2/P3Q1PP/4R1K1 b - - 0 1",
+  "solution": [
+    "Nxe2+"
+  ],
+  "rating": 1000,
+  "title": "Aynı Anda İki Şah",
+  "setup": "a7'deki filiniz uzun çaprazı g1'e kadar tarıyor ve kendi d4'teki atınız onu kapatıyor.",
+  "hint": "At d4'ten ayrıldığı anda kaç taşınızın şah çekiyor olacağını sayın.",
+  "explanation": "## Fikir\n\n{{Nxe2+}} bir çifte şahtır: at e2'den g1'e vurur, fil de a7–g1 çaprazı boyunca vurur. Çifte şaha ancak bir şah hamlesiyle karşılık verilebilir, yani Rxe2 kuraldışıdır ve at sıradaki hamlede öylece çekilip gider; veziri bedavaya kazanmış olarak."
+}

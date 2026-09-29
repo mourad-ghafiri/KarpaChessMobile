@@ -1,0 +1,12 @@
+{
+  "id": "trapped-04",
+  "fen": "4r1k1/5ppp/p4n2/1pp5/8/1B3N1P/P1P2PP1/3R2K1 b - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "rating": 1130,
+  "title": "El Arca de Noé",
+  "setup": "El alfil blanco de b3 tiene detrás sus propios peones de a2 y c2, y su propia torre en d1.",
+  "hint": "Cuenta las casillas de escape de ese alfil: los propios peones blancos tapan dos, y tu peón de b cubre una tercera.",
+  "explanation": "## La idea\n\n{{c4}} cierra la última diagonal. En a2 y c2 están los peones blancos, a4 la cubre el peón de b5, y al peón que ahora está en c4 lo defiende b5, así que Bxc4 bxc4 cuesta una pieza. Esta red es tan vieja que tiene nombre: la trampa del Arca de Noé."
+}

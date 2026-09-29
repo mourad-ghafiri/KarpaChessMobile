@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-13",
+  "fen": "8/5ppp/6k1/8/8/8/5PPP/R3K3 w Q - 0 1",
+  "solution": [
+    "O-O-O"
+  ],
+  "title": "Arrocco Lungo",
+  "setup": "Il re bianco e la torre dell'ala di donna non hanno mai mosso, e ogni casa fra loro è vuota. Arroccate verso la torre di a1.",
+  "hint": "Il re fa due case verso la torre, e la torre atterra sulla casa che il re ha attraversato.",
+  "explanation": "## L'idea\n\n{{O-O-O}} è una mossa per due pezzi: il re passa da e1 a c1, e la torre di a1 lo scavalca fino a d1.\n\nTutte le condizioni sono soddisfatte. Nessuno dei due pezzi ha mosso, b1, c1 e d1 sono vuote, il re non è sotto scacco, e niente attacca d1 né c1, le case che attraversa e su cui atterra. Il re lascia il centro, e la torre arriva su una colonna aperta."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-09",
+  "fen": "6k1/5ppp/8/8/8/8/4R3/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "La Torre Scivola al Matto",
+  "setup": "La vostra torre e il vostro re contro tre pedoni neri, con il re nero ancora seduto dietro di loro in g8. Basta una mossa.",
+  "hint": "Il re non può scendere dalla sua traversa di fondo. Mettete la vostra torre su quella traversa con scacco.",
+  "explanation": "## L'idea\n\n{{Re8#}} è matto in una. La torre lascia la seconda traversa e dà scacco lungo l'ottava: f8 e h8 stanno sulla sua linea, f7, g7 e h7 hanno i pedoni del Nero, e nessun pezzo nero può catturare o parare.\n\nQuando il re avversario siede dietro una fila di pedoni immobili, cercate per prima cosa uno scacco di torre sulla traversa di fondo."
+}

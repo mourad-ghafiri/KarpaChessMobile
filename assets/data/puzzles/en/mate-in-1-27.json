@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-27",
+  "fen": "k7/8/1K6/8/8/8/8/7R w - - 0 1",
+  "solution": [
+    "Rh8#"
+  ],
+  "title": "Far-Side Hammer",
+  "setup": "Black's king is wedged in the a8 corner, and your king on b6 covers the squares in front of it.",
+  "hint": "Your king on b6 holds a7 and b7. Your rook can check from the far side of the board.",
+  "explanation": "## The Idea\n\nThis is the king and rook corner mate again, with the rook checking from the far side. Your king on b6 covers a7 and b7.\n\n{{Rh8#}} checks along the back rank, and b8 is on the rook's line too. Nothing can block, and the king cannot reach the rook.\n\nOnce your king has built the cage, distance does not weaken the rook's check."
+}

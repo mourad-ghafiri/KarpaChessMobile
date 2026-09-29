@@ -1,0 +1,71 @@
+{
+  "id": "the-skewer",
+  "title": "O Espeto",
+  "summary": "A geometria da cravada com os valores ao contrário, e quem paga é a peça de trás",
+  "proof": "forks-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Valores ao Contrário",
+      "text": "A mesma coluna, a mesma torre, as mesmas duas peças pretas da cravada — e os valores estão ao contrário.\n\nUma cravada ataca a peça da frente, mas o prémio está atrás dela: a peça mais valiosa, muitas vezes o rei. É isso que prende a peça da frente à linha.\n\nO espeto troca-as de lugar. O rei em d3 está à frente e a dama em d6 atrás. Ataca pela coluna, o rei sai de lado, e não pode levar a dama com ele.\n\nAtinge primeiro a peça maior e recolhe aquilo à frente de que ela estava. Isso é um **espeto**."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "As Mesmas Três Peças",
+      "text": "Três peças podem espetar, e são as três que podem cravar: dama, torre, bispo. Um espeto é uma linha, e só essas três atacam ao longo de uma.\n\nO que pode ser espetado é outra lista. Servem quaisquer duas peças inimigas numa linha, desde que a mais próxima valha mais — rei à frente de uma dama, dama à frente de uma torre, torre à frente de um bispo. Quem decide é o tabuleiro, não tu. O teu trabalho é encontrar a linha e entrar nela."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Dois Xeques",
+      "text": "Tens aqui dois xeques, e só um deles é um espeto.\n\n{{Ra3+}} aterra na terceira linha e dá xeque ao rei de lado. E aterra também numa casa a que a dama chega: {{Qxa3}}, e lá se foi uma torre por nada.\n\nNão é o xeque que faz um espeto funcionar. É a linha. O que importa é em que linha chega o xeque — aquela onde estão as duas peças pretas."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "prompt": "Ataca o rei preto ao longo da coluna que ele partilha com a dama, para que tenha de se mexer.",
+      "targetSan": [
+        "Rd1+"
+      ],
+      "hint": "As duas peças pretas estão na coluna d, e todas as casas entre elas e a tua primeira linha estão vazias."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "Seis Casas, Todas Iguais",
+      "text": "O xeque deixou às pretas seis jogadas legais, e todas elas eram jogadas de rei: numa coluna vazia nada se podia meter pelo meio, e nada chegava à torre. As pretas escolheram e3. As outras cinco entregam a dama pelo mesmo preço.\n\nRepara em quão pouco a torre fez. Até agora nunca tinha atacado a dama nem uma vez — atacou o rei, e o rei tirou-se do caminho sozinho. A linha já lá estava. À torre bastou entrar nela."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "O Xeque Não É Obrigatório",
+      "text": "Um espeto não precisa de xeque. Aponta um bispo a uma dama com uma torre atrás na mesma diagonal, a partir de uma casa onde nada te possa capturar, e a torre cai na mesma.\n\nO que o xeque tira são as escolhas. Sem ele, o teu adversário pode tapar a linha entre as duas, capturar a peça que espeta, ou abandonar a peça da frente e abrir uma ameaça maior noutro sítio. Contra um xeque, nada disso é legal se não responder também ao xeque."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "prompt": "Come a dama à frente da qual o rei estava.",
+      "targetSan": [
+        "Rxd6"
+      ],
+      "hint": "Conta os defensores de d6 e depois conta as casas vazias entre essa casa e a tua torre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "title": "Uma Linha É uma Linha",
+      "text": "Tabuleiro novo, e a mesma forma rodada quarenta e cinco graus.\n\nO rei preto em d4 e a torre em g7 estão na diagonal longa que vai de a1 a h8, com só e5 e f6 pelo meio. A peça maior é a mais próxima. O padrão é esse: duas peças inimigas numa linha, a valiosa à frente.\n\nO teu bispo em c1 viaja em diagonais. Encontra a que conta.\n\n> Uma linha, duas peças, e a tática que tens na mão depende só de qual delas está à frente."
+    },
+    {
+      "type": "play",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "prompt": "Põe o teu bispo na diagonal que as duas peças pretas partilham, com xeque.",
+      "targetSan": [
+        "Bb2+"
+      ],
+      "hint": "O teu bispo tem sete casas disponíveis; exatamente uma delas aterra na diagonal longa."
+    }
+  ]
+}

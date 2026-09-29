@@ -1,0 +1,13 @@
+{
+  "id": "history-04",
+  "fen": "8/r4pk1/6p1/7p/8/8/5PPP/3Q2K1 w - - 0 1",
+  "solution": [
+    "Qd4+",
+    "Kg8",
+    "Qxa7"
+  ],
+  "title": "Duas Diagonais ao Mesmo Tempo",
+  "setup": "A torre em a7 não tem nada a guardá-la e o rei em g7 está a descoberto — e há uma casa que os vê aos dois.",
+  "hint": "Ataca a torre pela sua própria coluna e ela come-te e pronto. Procura a casa de onde partem duas diagonais distintas em direções opostas.",
+  "explanation": "## A Ideia\n\nA dama antiga rastejava uma casa diagonal de cada vez. A nova fica onde se cruzam duas linhas longas.\n\n{{Qd4+}} dá xeque ao rei de g7 por uma diagonal e atinge a torre de a7 pela outra. A torre não pode reagir: d4 não está na sua coluna nem na sua linha.\n\nFaça o que fizer quanto ao xeque, {{Kg8}} ou outra coisa, nada faz pela torre, e {{Qxa7}} recolhe-a.\n\nPersegue antes a torre pela coluna a e ela come-te a dama."
+}

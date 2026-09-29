@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-03",
+  "fen": "r5k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "First to the Back Rank",
+  "setup": "The rooks face each other down the open a-file, and neither king has moved a pawn in front of it.",
+  "hint": "Black's own pawns fence the king in on the back rank. Which capture reaches that rank with check?",
+  "explanation": "## The Idea\n\n{{Rxa8#}} takes the rook with check along the back rank. Nothing can take back and nothing can block, and the king's squares off the rank, f7, g7 and h7, hold its own pawns.\n\nBoth kings were shut in the same way, so whoever moved first won. A pawn step such as h6 earlier would have given Black's king a square."
+}

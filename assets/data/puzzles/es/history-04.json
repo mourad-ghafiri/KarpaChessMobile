@@ -1,0 +1,13 @@
+{
+  "id": "history-04",
+  "fen": "8/r4pk1/6p1/7p/8/8/5PPP/3Q2K1 w - - 0 1",
+  "solution": [
+    "Qd4+",
+    "Kg8",
+    "Qxa7"
+  ],
+  "title": "Dos diagonales a la vez",
+  "setup": "La torre de a7 no tiene nada que la proteja y el rey de g7 está a la intemperie, y una sola casilla ve a los dos.",
+  "hint": "Ataca a la torre por su propia columna y simplemente te captura. Busca la casilla de la que salen dos diagonales en direcciones opuestas.",
+  "explanation": "## La idea\n\nLa antigua dama avanzaba una casilla en diagonal a paso de tortuga. La nueva se planta donde se cruzan dos líneas largas.\n\n{{Qd4+}} da jaque al rey de g7 por una diagonal y golpea a la torre de a7 por la otra. La torre no puede devolver el golpe: d4 no está ni en su columna ni en su fila.\n\nRespondan lo que respondan las Negras al jaque, {{Kg8}} o cualquier otra cosa, no hace nada por la torre, y {{Qxa7}} la recoge.\n\nPersigue en cambio a la torre por la columna a y te captura la dama."
+}

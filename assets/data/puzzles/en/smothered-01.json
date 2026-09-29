@@ -1,0 +1,12 @@
+{
+  "id": "smothered-01",
+  "fen": "6rk/pp4pp/1q6/6N1/8/8/P4PPP/3R2K1 w - - 6 26",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1150,
+  "title": "Its Own Rook",
+  "setup": "Black has just slid a rook across to g8, and every square beside its king is now occupied.",
+  "hint": "Before you hunt for a check, count how many empty squares the black king could actually move to.",
+  "explanation": "## The Idea\n\nThe king on h8 is walled in by its own rook and its own pawns, so a check it cannot capture is mate. A knight could check from g6, but the h-pawn would take it; {{Nf7#}} checks from the square no black piece covers. When a king is boxed in, stop counting material and start counting checks."
+}

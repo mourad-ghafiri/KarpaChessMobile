@@ -1,0 +1,12 @@
+{
+  "id": "pin-07",
+  "fen": "8/8/2k2pp1/bR5p/P1P1r3/1P6/4B1KP/8 w - - 0 1",
+  "solution": [
+    "Bf3"
+  ],
+  "rating": 1040,
+  "title": "Um Passo, Uma Torre",
+  "setup": "A torre preta em e4 e o rei em c6 estão na mesma diagonal com uma só casa vazia pelo meio.",
+  "hint": "O teu bispo tem um passo modesto que transforma a torre preta numa estátua. Que diagonal chega ao rei?",
+  "explanation": "## A Ideia\n\n{{Bf3}} ataca a torre de **e4** e crava-a contra o rei de **c6** na mesma jogada, porque a linha f3–e4–d5–c6 está livre. A torre não tem defensor e não pode fugir, portanto cai na jogada seguinte."
+}

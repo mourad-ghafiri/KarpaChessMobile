@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-02",
+  "fen": "5rk1/5ppp/8/8/8/8/4RPPP/4Q1K1 w - - 0 1",
+  "solution": [
+    "Re8",
+    "Rxe8",
+    "Qxe8#"
+  ],
+  "title": "Eliminar o Defensor",
+  "setup": "A torre em f8 é a única peça que mantém as tuas peças pesadas fora da linha de fundo.",
+  "hint": "A tua torre e a tua dama olham as duas pela coluna aberta. O que acontece se se obrigar a única guarda a trocar-se?",
+  "explanation": "## A Ideia\n\nO rei preto só sobrevive porque a torre de f8 cobre a oitava linha. {{Re8}} oferece a tua torre na única casa que essa guarda tem de vigiar.\n\nSe {{Rxe8}}, então {{Qxe8#}}: a guarda desapareceu, e os peões de f7, g7 e h7 selam todas as casas de fuga. As pretas fazem melhor em recusar com uma jogada de peão que dê ar ao rei, mas isso só troca as torres depois de {{Rxf8+}} {{Kxf8}}, e a tua dama fica no tabuleiro contra nada."
+}

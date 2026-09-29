@@ -1,0 +1,14 @@
+{
+  "id": "decoy-12",
+  "fen": "1r1q1r1k/6pp/7N/8/8/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1550,
+  "title": "Le legs de Philidor",
+  "setup": "Le roi en h8 est scellé par ses propres pions, et votre cavalier en h6 couvre déjà g8.",
+  "hint": "Toutes les cases de fuite ont disparu sauf une, et elle est vide. Comment amener une pièce noire à s'y tenir ?",
+  "explanation": "## L'idée\n\nC'est le **mat étouffé**. {{Qg8+}} offre la dame pour que les Noirs doivent boucher leur propre sortie : {{Rxg8}} est forcé, puisque le cavalier garde g8. {{Nf7#}} mate alors un roi qui n'a nulle part où aller."
+}

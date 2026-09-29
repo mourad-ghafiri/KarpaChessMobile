@@ -1,0 +1,56 @@
+{
+  "id": "interference",
+  "title": "A Interferência",
+  "summary": "Põe-te no caminho do próprio defensor deles",
+  "proof": "interference-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "De Pé na Porta",
+      "text": "O teu peão em b7 está a uma casa de uma dama. A torre em h8 é a única razão pela qual ainda é peão.\n\nExperimenta: {{b8=Q}} {{Rxb8}}. A torre não teve de se mexer para cobrir b8 — o trabalho foi feito por cinco casas de linha vazia, e a dama nova dura uma jogada.\n\nNada do que tens ataca essa torre, e nada a enxota da oitava linha. Mas a linha não é a torre. A linha é uma estrada, e as estradas podem ser fechadas."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "A Parede Errada",
+      "text": "A **interferência** é pôr uma peça na estrada que um defensor está a usar. A estrada, aqui, é a oitava linha.\n\n{{Re8}} fecha-a, e nem o derrube — torre come torre, bispo recaptura — a reabre: o peão promove na mesma. Mas essa versão gasta uma torre num trabalho que um bispo faz. Constrói a parede com o bispo, e uma torre preta que a deite abaixo paga cinco pontos por três.\n\nQuando duas das tuas peças podem construir a mesma parede, manda aquela que te podes dar ao luxo de perder."
+    },
+    {
+      "type": "play",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Corta a oitava linha com a parede mais barata que as pretas não possam remover de graça.",
+      "targetSan": [
+        "Be8"
+      ],
+      "hint": "Procura a peça que chega a essa linha numa casa que a tua torre já guarda."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Pago Duas Vezes",
+      "text": "{{Be8}}. O bispo está protegido pela torre de e1, portanto capturá-lo abre uma troca em vez de acabar com uma ameaça: a torre preta captura, a tua torre recaptura, e fica uma torre branca de pé na oitava linha.\n\nIgnorar o bispo não é melhor. {{Kg6}} {{b8=Q}}, e a torre de h8 viu a cena toda de trás de uma parede através da qual não via.\n\nDe uma maneira ou de outra, a linha fica fechada exatamente o tempo de que o peão precisa.\n\n> Um guarda que trabalha ao longo de uma linha não está a guardar uma casa. Está a guardar uma estrada, e uma estrada pode ser fechada."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Atacado Uma Vez, Guardado Uma Vez",
+      "text": "Tabuleiro novo. O cavalo em e5 está atacado uma vez e guardado uma vez, o que na maior parte dos dias é o mesmo que estar seguro.\n\nO bispo em b2 faz o ataque, pela diagonal longa através de c3 e d4. A dama em c7 faz a defesa, por uma diagonal mais curta com exatamente uma casa vazia pelo meio.\n\n{{Bxe5}} {{Qxe5}}: um bispo por um cavalo, troca equilibrada, e a dama preta aterra numa casa melhor do que aquela que deixou. O cavalo não está grátis enquanto esse guarda lá chegar."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Uma Parede com Ameaça Própria",
+      "text": "A parede de bispo aguentou porque tinha uma torre atrás. Há uma segunda maneira de fazer uma parede pegar: que chegue com uma ameaça própria.\n\nUma parede que ataca alguma coisa obriga as pretas a responder a isso, e por isso não sobra jogada nenhuma para voltar a guardar o cavalo. A parede continua de pé quando vieres cobrar.\n\nAqui podes ter as duas coisas ao mesmo tempo. Um dos teus peões chega à casa vazia da diagonal da dama, o outro peão cobre-o lá, e a dama está ao alcance do que quer que aterre."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "prompt": "Ganha o cavalo fechando a linha que o guarda.",
+      "targetSan": [
+        "d6"
+      ],
+      "hint": "O guarda viaja por uma diagonal com uma casa vazia em cima — ocupa essa casa com algo a que as pretas tenham de responder."
+    }
+  ]
+}

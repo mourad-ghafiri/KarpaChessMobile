@@ -1,0 +1,13 @@
+{
+  "id": "history-03",
+  "fen": "6k1/5ppp/b7/3K4/8/8/P7/7R b - - 0 1",
+  "solution": [
+    "Bb7+",
+    "Kc4",
+    "Bxh1"
+  ],
+  "title": "El camino largo",
+  "setup": "Tu alfil en a6, el rey blanco en d5 y una torre sola en la esquina de h1: tres casillas que pueden convertirse en una sola línea.",
+  "hint": "El alfil antiguo solo saltaba. ¿Qué diagonal ya contiene al rey blanco y a la torre, y qué paso del alfil llega a ella?",
+  "explanation": "## La idea\n\nEsto es lo que la reforma de la década de 1470 le dio al alfil: todas las casillas de su diagonal, hasta el final.\n\n{{Bb7+}} entra en la gran diagonal blanca con jaque. El rey blanco de d5 está delante, la torre de h1 detrás, y ninguna pieza blanca llega a c6, la única casilla entre ellos. Elija la casilla que elija el rey, {{Kc4}} u otra, sale de la línea.\n\n{{Bxh1}} se lleva la torre desde el otro extremo del tablero. Un alfil antiguo en a6 nunca habría podido llegar a h1."
+}

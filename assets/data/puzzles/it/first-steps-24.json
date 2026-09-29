@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-24",
+  "fen": "6k1/5ppp/8/2n1n3/8/3P4/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "d4"
+  ],
+  "title": "Un Pedone, Due Cavalli",
+  "setup": "Tutti e due i cavalli neri attaccano il vostro pedone in d3, e a difenderlo c'è solo la torre in d1. Il pedone ha un'idea migliore che aspettare.",
+  "hint": "Un pedone attacca le due case diagonalmente davanti a sé. Dove dovrebbe stare questo per attaccare c5 e e5?",
+  "explanation": "## L'idea\n\n{{d4}} mette il pedone fra i cavalli, attaccando insieme c5 e e5. Nessuno dei due cavalli può prenderlo, perché un cavallo in c5 o in e5 non tocca mai d4, e la torre in d1 lo difende comunque.\n\nIl Nero salva un cavallo e il pedone prende l'altro: un punto di pedone per tre punti di cavallo. Qualunque altra mossa lascia vivi tutti e due i cavalli."
+}

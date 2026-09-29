@@ -1,0 +1,50 @@
+{
+  "id": "board-and-setup",
+  "title": "Altmış Dört Kare",
+  "summary": "Her kareyi görür görmez adlandırın, tahtayı her seferinde doğru kurun",
+  "proof": "board-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "title": "Her Karenin Bir Adı Var",
+      "text": "Altmış dört kare var ve her birinin bir adresi var. Bu adresi iki şey verir.\n\nSütunlara **dikey** denir; beyazın solundan sağına doğru **a**'dan **h**'ye harflenirler. Satırlara **yatay** denir; beyazın kenarından başlayarak **1**'den **8**'e numaralanırlar.\n\nÖnce harf, sonra sayı. e1'deki beyaz şah bunu açıkça söyler: e dikeyi, 1. yatay. Beyazın sağındaki uzak köşe h8'dir.\n\na2'deki piyon {{a3}} ve {{a4}} karelerine ulaşabilir — şimdiden adını yüksek sesle söyleyebileceğiniz iki kare daha."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "prompt": "Adresi okuyun ve bir piyonu h3 adlı kareye götürün.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Beyazın sağ kenarına yapışık h dikeyinden başlayın, sonra yukarı doğru sayın: 1. yatay, 2. yatay, 3. yatay."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "Sağda Açık Kare",
+      "text": "Kareler açık ve koyu diye sırayla değişir; tahtanın doğru durduğunu size işte bu düzen söyler.\n\nTahtaya oturduğunuzda sağ elinize en yakın köşe açık renk olmalıdır. Beyaz için o köşe h1, siyah için a8'dir.\n\nSağınızdaki kare koyuysa, bütün tahta çeyrek tur döndürülmüş demektir — bundan sonra bu hatayı ömrünüz boyunca oturma odalarında da filmlerde de fark edeceksiniz."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "Vezirin Kendi Rengi",
+      "text": "Her vezir kendi renginden bir karede başlar. d1'deki beyaz vezir açık karede, d8'deki siyah vezir koyu karede durur. Aynı dikey, zıt renkler.\n\nDümdüz ileri adım atın, ayağınızın altındaki renk her seferinde değişir. d2'deki piyon koyu karededir, {{d3}} açıktır, {{d4}} yine koyudur.\n\nYani vezir ortadaki karelerden kendine uyanı alır, şah da artakalanı doldurur.\n\n> Sağda açık kare, vezir kendi renginde. İki kural ve tahta bir daha asla yanlış durmaz."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Savaş Düzeni",
+      "text": "Otuz iki taş; tarihteki her parti onlar burada dururken başladı.\n\nArka yatay boyunca — beyaz için 1. yatay, siyah için 8. yatay — köşelerden içeri doğru:\n\n- **Kaleler** köşelerde, a1 ve h1\n- **Atlar** onların yanında, b1 ve g1\n- **Filler** onların yanında, c1 ve f1\n- **Vezir** d1'de, **şah** e1'de\n\nSekiz piyon önlerinde, ikinci yatayda dizilir; siyahın ordusu da tahtanın karşısında beyazınkini aynalar.\n\nHamleye her zaman beyaz başlar — {{e4}} — ve ancak ondan sonra siyah cevap verir, {{e5}}. Oradan sonra sona kadar sırayla, birer hamle oynarsınız."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "prompt": "Hamleye beyaz başlar; partiyi vezirin önündeki piyonu iki kare ileri sürerek açın.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Vezir d1'de durur, yani önündeki piyon d2'de başlar — ve bir piyonun ilk hamlesi bir ya da iki kare olabilir."
+    }
+  ]
+}

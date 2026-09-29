@@ -1,0 +1,62 @@
+{
+  "id": "online-chess",
+  "title": "Xadrez Online",
+  "summary": "O lote, a pré-jogada e o banimento silencioso",
+  "proof": "culture-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Quatro Segundos até uma Partida",
+      "text": "Uma partida online começa em cerca de quatro segundos. Escolhes um ritmo de jogo, o servidor mete-te no lote de toda a gente que anda à procura desse mesmo ritmo perto do teu número, e empareja-te com o mais próximo que ainda esteja à espera. Sem inscrição, sem viagem, sem sala.\n\nO que o lote te entrega mais vezes é uma partida rápida: três minutos, ou um. A velocidade é a definição por omissão do formato, e é a velocidade o assunto desta posição. As pretas acabam de escorar o peão de e5 com o peão f, que é o único peão de que um rei não pode prescindir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Carregada Antes de Aterrar",
+      "text": "Uma pré-jogada é uma resposta que carregas enquanto o teu adversário ainda está a pensar. No instante em que a jogada dele aterra, a tua joga-se: sem tempo de reação, quase nada tirado ao teu relógio. É a única razão pela qual uma partida de um minuto é sequer jogável.\n\nE é também cega. A jogada em fila dispara para dentro da posição que chegar de facto, não da que imaginaste.\n\nPortanto {{Nxe5}} aqui não é um erro grave. É um convite. Responde {{fxe5}} porque a recaptura estava em fila antes de o cavalo sequer aterrar, e o peão f era a única cobertura que o rei preto tinha.\n\n> Uma pré-jogada compra tempo e gasta discernimento."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp2pp/8/4p3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+      "prompt": "A recaptura em fila deixou f7 a nu: sai com xeque antes de darem às pretas outra jogada para pensar.",
+      "targetSan": [
+        "Qh5+"
+      ],
+      "hint": "Uma peça tua chega a uma casa que atinge ao mesmo tempo o rei de e8 e o peão desprotegido de e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Onde Acabou Esse Passeio",
+      "text": "Quatro xeques depois o rei preto está em h6, à oitava jogada, com as duas torres ainda nas casas onde começaram. Quem o levou a passear foi a dama de f5.\n\nAo vivo, num tabuleiro, esse passeio custaria uma tarde a alguém. Online custa quinze segundos, e a proposta de desforra chega antes do choque. Aí está a primeira diferença honesta entre os dois contextos, e é o volume. Uma noite online tem mais partidas do que um jogador de clube de 1950 fazia numa época, e todas elas ficam guardadas, cronometradas e pesquisáveis."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Uma Jogada Não Prova Nada",
+      "text": "Todo esse xadrez guardado é também prova, e é assim que se faz cumprir o *fair play*.\n\nQualquer jogador decente encontra às vezes a escolha do motor, e este ataque aparece em livros com quinhentos anos. Portanto a deteção é estatística. As tuas escolhas são comparadas com as preferências do motor ao longo de centenas de partidas, pesadas pela dificuldade de cada posição e pela maneira como o relógio foi gasto. Quem produz a única jogada em seis posições agudas, cada uma nos mesmíssimos e planos dois segundos, não está a ser julgado por uma jogada. Está a medir-se um padrão."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Fechados Sem Nome",
+      "text": "As contas fecham-se em silêncio, e não com um anúncio. A prova é uma probabilidade e não uma confissão, e uma acusação pública feita por suspeita faz mais estragos do que um batoteiro que escape.\n\nO código de conduta que cresceu à volta disto é curto. Abandona uma partida que decidiste não jogar, em vez de te sentares em cima do relógio até ele acabar. Responde à desforra, num sentido ou no outro. E quando um desconhecido te bate de forma limpa, o laivo de suspeita que chega sem ser convidado é um custo do formato, não uma conclusão sobre ele."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "O Que o Lote Trouxe",
+      "text": "As transmissões, os treinos de táticas e as partidas de três minutos trouxeram milhões de pessoas que nunca se vão sentar numa sala de torneio, e um jogador de blitz é um jogador de xadrez. E o xadrez deixou de ser um sítio a que é preciso viajar: o mesmo lote está aberto às duas da manhã, e é aí que vivem as espirais de desforras.\n\nA caça neste tabuleiro conduz-se sozinha daqui em diante: {{d4+}} {{g5}} {{h4}} {{Kg7}} {{Qf7+}} {{Kh6}}."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1bnr/pppp1Q1p/7k/6p1/2BPP2P/8/PPP2PP1/RNB1K2R w KQ - 3 11",
+      "prompt": "As duas peças tuas que podem capturar em g5 dão xeque — só uma das capturas é mate.",
+      "targetSan": [
+        "hxg5#"
+      ],
+      "hint": "O rei em h6 só está vivo enquanto h5 estiver fora de alcance, portanto pergunta o que está neste momento a impedir que ela seja coberta."
+    }
+  ]
+}

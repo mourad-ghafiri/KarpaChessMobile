@@ -1,0 +1,71 @@
+{
+  "id": "double-attack",
+  "title": "Double Attack",
+  "summary": "The family the fork belongs to, and the members it cannot cover",
+  "proof": "forks-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Three Names, One Shape",
+      "text": "Fork, discovered attack, discovered check: three names you have been handed, and one shape under all of them.\n\nA fork attacks two pieces with one piece. A discovered attack steps a piece aside so a second piece does the attacking. Both end in the same place. Your opponent has one move, and two problems.\n\nThe family name is the **double attack**: any move that makes two threats at once, however the work is split between your pieces. A fork is the version where one piece does all of it."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Make the List First",
+      "text": "Before you calculate anything, name the enemy pieces that nothing is guarding.\n\nHere the list is short: the knight on b4, the knight on h4, and that is all of it. The king on g8 guards the pawns beside it and nothing else.\n\nLoose pieces are what turn an ordinary move into a double attack, and most players never make the list. These two knights share the fourth rank, every square between them is empty, and your queen has a straight road onto it."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "prompt": "Black gets one move, so find the square where your queen attacks both knights at the same time.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "Work from the targets back: the knights already share a rank, and only one square on it is yours to take."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "What Black Gets to Try",
+      "text": "{{Qd4}}. Now count what Black is allowed to do about it.\n\nNo black piece attacks d4, so the queen cannot be captured. Nothing can step between the queen and either knight. And no single move guards both, because a knight defends squares an L away and these two are nowhere near each other.\n\nThat leaves running, and running abandons the other one. So Black hits back: {{Nf3+}} attacks the queen and checks the king at once, a fork played against you. It fails for a dull reason. Two pawns cover f3, and {{exf3}} ends it."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "When One Piece Cannot Reach",
+      "text": "A new board, and nothing of yours attacks two things at once.\n\nYour bishop on b2 owns the long diagonal, but your own knight on e5 is parked in the middle of it. Farther along that diagonal sits the knight on g7, defended by nothing. Away on the other wing, Black's bishop on a5 is loose as well.\n\nNo one piece can reach both. Two can. Move the knight and the diagonal opens by itself, the way you have watched a line open before."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "Where the Knight Lands",
+      "text": "Every knight move opens the diagonal. {{Nd3}}, {{Nf3}}, {{Ng4}}, {{Ng6}}, any of them.\n\nWhich is why most of them waste it. One threat is one problem, Black moves the knight on g7, and your knight has spent a turn standing somewhere pointless.\n\nThe bishop behind it supplies the first threat for free. The knight has to supply the second one where it lands, and there is only one thing on this board worth landing on."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "prompt": "Open your bishop's diagonal with a knight move that attacks the loose bishop as it arrives.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "Two of the knight's squares attack a5, and Black's pawn on b5 covers one of them."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/2N5/bp6/8/8/1B6/6K1 b - - 1 1",
+      "title": "Count the Ways Out",
+      "text": "Two threats, two pieces, and Black is owed a search for the move that answers both.\n\n- **Take the attacker.** Nothing can. The nearest try is {{Kd7}}, and {{Nxa5}} leaves with the bishop.\n- **Guard both.** The bishop on a5 and the knight on g7 share no square.\n- **Run.** Whichever one moves, the other is still standing there.\n- **Block.** The diagonal can be shut, and this is the try worth looking at.\n\nIt nearly works."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/2N5/1p6/8/2b5/1B6/6K1 w - - 2 2",
+      "prompt": "Black has shut the diagonal, so collect the piece the block put in the way.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "Nothing at all defends c3, and the diagonal beyond it is still empty."
+    }
+  ]
+}

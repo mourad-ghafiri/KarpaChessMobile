@@ -1,0 +1,13 @@
+{
+  "id": "openings-15",
+  "fen": "rnbq1rk1/pp2ppbp/3p1np1/2P5/2P1PP2/2N2N2/PP4PP/R1BQKB1R b KQ - 0 7",
+  "solution": [
+    "Qa5",
+    "Bd3",
+    "Qxc5"
+  ],
+  "title": "Invited, Then Taken Back",
+  "setup": "White built a huge center and has just taken on c5, hoping to keep the extra pawn. Win it back with a move that also pins a knight.",
+  "hint": "White's king is still at home, and one of its knights stands on the diagonal that runs to it. Where can your queen do two jobs?",
+  "explanation": "## The Idea\n\nThe King's Indian lets White grab the center, then asks what it is all defended by.\n\n{{Qa5}} does two jobs: it pins the knight on c3 to the king on e1, and it attacks the pawn on c5 along the fifth rank. White's best is to develop with {{Bd3}}, and {{Qxc5}} takes the pawn straight back.\n\nMaterial is level, and White's pawns on c4, e4 and f4 now have to prove they are strengths, not targets.\n\nSpace is only an advantage for as long as it can be defended."
+}

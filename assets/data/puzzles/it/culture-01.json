@@ -1,0 +1,13 @@
+{
+  "id": "culture-01",
+  "fen": "rnbqkbn1/ppppp3/7r/6pp/3P1p2/3BP1B1/PPP2PPP/RN1QK1NR w KQq - 2 7",
+  "solution": [
+    "Qxh5+",
+    "Rxh5",
+    "Bg6#"
+  ],
+  "title": "L'Ordine delle Operazioni",
+  "setup": "Il Nero ha buttato avanti tre pedoni e il re è ancora a casa. Due dei vostri pezzi vogliono lo stesso angolo.",
+  "hint": "La vostra donna e il vostro alfiere possono raggiungere ciascuno la diagonale che finisce sul re nero. Chiedetevi quale dei due la torre di h6 può prendere.",
+  "explanation": "## L'idea\n\nLa donna in d1 e l'alfiere in d3 vogliono tutti e due la diagonale verso e8, e funziona un ordine solo.\n\n{{Qxh5+}} va per prima. Parare con {{Rg6}} perde subito, e dopo {{Rxh5}} la torre ha lasciato la sesta traversa, quindi niente difende g6: {{Bg6#}}. L'alfiere copre f7, e il resto lo riempiono i pedoni, la donna e l'alfiere del re nero.\n\nCominciate con l'alfiere e a {{Bg6+}} si risponde {{Rxg6}}. La regola del pezzo toccato non vi lascerà cambiare idea."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-03",
+  "fen": "7k/8/8/6K1/8/Q7/8/8 w - - 0 1",
+  "solution": [
+    "Kg6",
+    "Kg8",
+    "Qa8#"
+  ],
+  "title": "L'étau du zugzwang",
+  "setup": "Votre dame tient la moitié de l'échiquier, mais une dame seule ne peut pas conclure — c'est le roi qui doit retirer les dernières cases.",
+  "hint": "Aucun échec ne gagne ici. Trouvez le pas de roi tranquille qui ne laisse aux Noirs qu'un seul coup légal.",
+  "explanation": "## L'idée\n\nUn **zugzwang** : le coup gagnant ne crée aucune menace. Il laisse simplement aux Noirs un seul coup légal, et ce coup perd.\n\n{{Kg6}} est tranquille. Maintenant g7 et h7 appartiennent à votre roi et la dame en a3 couvre f8, donc le seul coup des Noirs est {{Kg8}}, sur la dernière rangée. {{Qa8#}} la prend tout entière, et f7, g7 et h7 sont à votre roi.\n\nQuand chaque échec laisse le roi s'échapper, cessez de donner échec et prenez plutôt des cases."
+}

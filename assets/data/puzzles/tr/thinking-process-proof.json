@@ -1,0 +1,11 @@
+{
+  "id": "thinking-process-proof",
+  "fen": "6k1/5ppp/1Q6/4r3/4n2P/7P/5PP1/1qR3K1 b - - 0 1",
+  "solution": [
+    "Qxc1+"
+  ],
+  "title": "İki Taş Alma, Tek Şah",
+  "setup": "Beyazın b6'daki veziri boşta duruyor ve c1'deki kale vezirinize saldırıyor. Bir şey almadan önce üç soruyu sorun.",
+  "hint": "Beyaz sekizinci yatayda şahınızın kaçamayacağı bir şah tehdit ediyor. Taş almalarınızdan biri şahla geliyor ve şah görmezden gelinemez.",
+  "explanation": "## Fikir\n\nBirinci soru: beyaz hem vezirinizi almayı hem de şahınızın kaçacak karesi olmayan sekizinci yatayda şah çekmeyi tehdit ediyor.\n\nİkinci soru iki taş alma bulur. {{Qxb6}} bir vezir kazanır ve üçüncü soru onu çöpe atar: kale c8'de şah çeker ve mat gelir.\n\n{{Qxc1+}} hiçbir şeyin saldırmadığı bir kareden, şah çekerek bir kale kazanır. Beyazın şaha cevap vermesi gerekir ve siz bir kale ile bir at öndesiniz; tehditle ilgilenecek vaktiniz de var."
+}

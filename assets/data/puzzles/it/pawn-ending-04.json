@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-04",
+  "fen": "8/8/8/3kp2P/8/8/8/4K3 b - - 0 1",
+  "solution": [
+    "Ke6"
+  ],
+  "rating": 1210,
+  "title": "La Porta Bloccata",
+  "setup": "Tutti e due hanno un corridore, e il re nero sta una colonna fuori dalla scatola del pedone bianco.",
+  "hint": "Contate la scatola del pedone h, poi guardate su quale delle sue case d'ingresso sia seduto un vostro pezzo.",
+  "explanation": "## L'idea\n\nLa scatola è h5–h8–e8–e5, e il pedone stesso del Nero occupa e5, la porta naturale. {{Ke6}} è l'unica altra via d'ingresso, e da lì il re segue passo passo il pedone fino a h8. Correre con {{e4}} perde per una sola mossa. Contate i vostri pezzi prima di contare quelli del Bianco."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openings-09",
+  "fen": "rnbqkb1r/pppp1ppp/8/4P3/6n1/7P/PPPNPPP1/R1BQKBNR b KQkq - 0 4",
+  "solution": [
+    "Ne3",
+    "fxe3",
+    "Qh4+",
+    "g3",
+    "Qxg3#"
+  ],
+  "title": "El caballo que no debes comer",
+  "setup": "Las Blancas respondieron a tu caballo con un pasivo caballo a d2, se comieron el peón de e5 y acaban de expulsar a tu caballo con h3.",
+  "hint": "Tu caballo está atacado. Busca la casilla donde comerlo le arrancaría el tejado al propio rey blanco.",
+  "explanation": "## La idea\n\nCon el caballo de d2 encerrando al alfil de c1, el rey blanco apenas tiene protección en las casillas negras.\n\n{{Ne3}} ataca a la dama de d1 desde una casilla que las Blancas estarían encantadas de tomar. Comer es el error grave: tras {{fxe3}}, {{Qh4+}} solo deja {{g3}}, y {{Qxg3#}} cubre f2 mientras las propias piezas blancas ocupan el resto. Lo mejor para las Blancas es entregar la dama.\n\nAntes de comerte una pieza que ha entrado a propósito, pregúntate qué abre la captura."
+}

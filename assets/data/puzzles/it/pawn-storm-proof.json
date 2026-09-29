@@ -1,0 +1,11 @@
+{
+  "id": "pawn-storm-proof",
+  "fen": "2rq1rk1/pb1nb2p/1p2p3/3pBpp1/2PPn3/1PNB1N2/P3QPPP/2RR2K1 b - - 1 15",
+  "solution": [
+    "g4"
+  ],
+  "title": "Botvinnik Continua a Marciare",
+  "setup": "Bogoljubow contro Botvinnik, Nottingham 1936. I vostri pedoni f e g sono già avanzati, e il cavallo in f3 è quello che difende l'ala di re del Bianco.",
+  "hint": "Una valanga di pedoni sono pedoni che colpiscono pezzi. Quale pezzo bianco può attaccare in questa mossa uno dei vostri pedoni?",
+  "explanation": "## L'idea\n\n{{g4}} scaglia il pedone della valanga contro il cavallo di f3, il pezzo che difende e5 e le case davanti al re bianco. Un pedone che attacca un pezzo guadagna una mossa, e ogni mossa che il cavallo spende a scappare è una che la valanga non deve pagare.\n\nIn partita il cavallo tornò in e1, Botvinnik cambiò in e5 e si prese il centro, e il Nero finì per vincere."
+}

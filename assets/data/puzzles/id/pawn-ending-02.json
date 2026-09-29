@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-02",
+  "fen": "2k5/8/1K6/P7/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Kb8"
+  ],
+  "rating": 1140,
+  "title": "Larilah ke Sudut",
+  "setup": "Raja Putih baru saja naik ke b6 untuk mengawal pion a pulang, dan Hitam punya tiga petak.",
+  "hint": "Pion benteng hanya punya satu lajur miliknya; tanyakan sudut mana yang harus dikuasai raja yang bertahan.",
+  "explanation": "## Ide\n\n{{Kb8}} satu-satunya langkah. Pion benteng tak bisa dikawal melewati raja yang menguasai a8 dan b8: {{a6}} {{Ka8}}, dan sesudah a7 Hitam sama sekali tak punya langkah sah, yang berarti pat. Menjauh ke d7 atau d8 sebagai gantinya dan raja putih tinggal berjalan memutar lalu menjadikan pionnya menteri."
+}

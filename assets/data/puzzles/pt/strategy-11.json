@@ -1,0 +1,13 @@
+{
+  "id": "strategy-11",
+  "fen": "r1r3k1/pp1bpp1p/3p1npQ/q3n3/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+  "solution": [
+    "Rxc3",
+    "bxc3",
+    "Qxc3"
+  ],
+  "title": "Torre por Cavalo, de Bom Grado",
+  "setup": "Os bispos das casas escuras foram trocados, a dama branca foi parar a h6, e as duas torres pretas já estão colocadas.",
+  "hint": "Só uma peça branca segura b5, d5 e e4 ao mesmo tempo, e só uma unidade branca poderia recapturar se ela desaparecesse.",
+  "explanation": "## A Ideia\n\nAs pretas dão cinco pontos por três porque os peões lhos devolvem. {{Rxc3}} tira o cavalo que segura b5, d5 e e4, e {{bxc3}} é a única recaptura legal das brancas.\n\nAgora conta a posição, e não o material. O rei branco está atrás de peões partidos, sem nenhum peão branco na coluna b, e {{Qxc3}} recupera um peão com a dama a uma jogada de dar xeque em a1.\n\nGasta a qualidade quando a recaptura estraga os peões e o seguimento chega depressa."
+}

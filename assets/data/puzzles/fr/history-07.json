@@ -1,0 +1,13 @@
+{
+  "id": "history-07",
+  "fen": "r4rk1/pp3ppp/5n2/8/8/3Q1R2/PP4PP/1B4K1 w - - 0 1",
+  "solution": [
+    "Rxf6",
+    "gxf6",
+    "Qxh7#"
+  ],
+  "title": "Éliminez le dernier défenseur",
+  "setup": "La dame et le fou visent tous deux h7, et une seule pièce noire les arrête.",
+  "hint": "Demandez-vous ce qui se passerait en h7 si une seule pièce noire disparaissait, puis évaluez ce que vaut cette pièce pour les Noirs.",
+  "explanation": "## L'idée\n\nLa dame en d3 et le fou en b1 visent h7, et seul le cavalier en f6 empêche la dame de s'y poser avec mat.\n\n{{Rxf6}} donne une tour pour ce cavalier. Reprenez par {{gxf6}} et {{Qxh7#}} suit : le fou protège la dame, la dame couvre g7 et h8, et f7 et f8 sont occupées par le propre pion et la propre tour des Noirs. Refusez, et les Blancs ont simplement un cavalier de plus.\n\nQuand une seule pièce garde la case du mat, pesez-la contre le mat."
+}

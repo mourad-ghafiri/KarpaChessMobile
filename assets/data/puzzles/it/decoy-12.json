@@ -1,0 +1,14 @@
+{
+  "id": "decoy-12",
+  "fen": "1r1q1r1k/6pp/7N/8/8/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1550,
+  "title": "Il Lascito di Philidor",
+  "setup": "Il re in h8 è sigillato dai propri pedoni, e il vostro cavallo in h6 copre già g8.",
+  "hint": "Ogni casa di fuga è sparita tranne una, ed è vuota. Come fate perché un pezzo nero ci vada a stare?",
+  "explanation": "## L'idea\n\nQuesto è il **matto affogato**. {{Qg8+}} offre la donna in modo che il Nero debba bloccare la propria uscita: {{Rxg8}} è forzata, visto che il cavallo difende g8. {{Nf7#}} dà poi matto a un re che non ha dove andare."
+}

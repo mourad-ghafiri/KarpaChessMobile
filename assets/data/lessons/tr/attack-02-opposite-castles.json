@@ -1,0 +1,56 @@
+{
+  "id": "opposite-castles",
+  "title": "Zıt Kanatlara Rok Saldırıları",
+  "summary": "İki saldırı, tek yarış, ikincilik ödülü yok",
+  "proof": "opposite-castles-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "İki Şah, Bir Kanat Arayla",
+      "text": "Beyazın şahı c1'de, siyahınki g8'de, bir kanat arayla oturuyor ve bu tek olgu tahtadaki her piyonun ne işe yaradığını değiştiriyor.\n\nAynı tarafa rok yapın; sürdüğünüz her piyon kendi şahınıza bir yol açsın, siz de piyonlara dokunmayıp taşları oynatın. Burada o hesap hiç gelmiyor. Beyazın barınağı a2, b2 ve c2; beyazın siyaha savurabileceği piyonlar ise uzak kanatta duruyor ve canları istediği kadar koşmakta serbestler."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "Bir Parti Değil, Bir Koşu",
+      "text": "Siyahın pozisyonu aynı şeyi renkleri değiştirerek söylüyor, bu yüzden iki oyuncu da aynı anda, zıt yönlere doğru sürüyor.\n\nKazanan, rakip şahın yanında ilk hattı yırtan taraftır — bir dikey, bir çapraz, bir kalenin ya da vezirin üstünden sürebileceği herhangi bir yol. Sessiz savunma hamleleri öteki tarafı yavaşlatmaz; yarışı kazanmak için gereken hamleleri harcar. İkincilik ödülü yoktur."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "prompt": "Yarışı, siyahın atını f6'dan kovabilecek piyonu sürerek başlatın.",
+      "targetSan": [
+        "g4"
+      ],
+      "hint": "Şah kanadındaki iki piyon iki kare sıçrayabilir ve yalnızca biri, f3'teki piyonun zaten koruduğu kareye iner."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/3nbppp/p2pbn2/1p2p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 12",
+      "title": "Sür, Karşılık Gelsin",
+      "text": "Siyah yerinde oturmadı. b5'teki piyon çoktan yola çıkmış ve iki saldırı artık aynı hızda koşuyor.\n\n{{g5}} f6'daki atı savunmadan kovar, {{Ne8}} onun gittiği yerdir, {{f4}} sıradaki piyonu yukarı getirir ve {{b4}}, beyazın az önce siyahınkine vurduğu gibi c3'teki ata vurur.\n\nİki taraf da savunmuyor. İki taraf da sayıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "Bir Hamlenin Bedeli",
+      "text": "Beş hamle sonra iki saldırı da varmış durumda. Beyazın piyonları f5 ile g5'te duruyor; siyahınkiler a4 ile b4'te, arkalarında a8'deki kale dizilmiş hâlde.\n\nBuradan sonra her hamle ya toprak satın alır ya hiçbir şey. {{Nc5}} güzel bir hamle gibi görünür — at d7'den daha iyi bir kareye çekilir ve e4'ü gözler — ve beyazın şahına hiçbir şey yapmaz. Siyah, daha güzel duran bir taş uğruna yarıştan bir hamle vermiş olur; oysa hamleler iki tarafın da harcayacağı tek şeydir."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "Piyon Bir Levyedir",
+      "text": "Beyazın siyahın şahına ulaşması için bir sürüş daha gerekiyor. Siyahın a dikeyine ihtiyacı var ve onu kapatan şey beyazın a2'deki piyonu.\n\nO hattı bir piyonla satın almak eşit bir takas değildir ve olması da beklenmez. Piyon bir puandır. Çıplak bir şahın yanına inen kale partiyi bitirir. Taş dengesi, hiçbir şey olmazken saydığınız şeydir; iki şah da ateş altındayken geriye tek para birimi olarak hamleler ve hatlar kalır.\n\n> Şahlar zıt kanatlarda otururken piyon taş değildir. Bir levyedir."
+    },
+    {
+      "type": "play",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "prompt": "a8'deki kalenizin beklediği dikeyi yırtıp açmak için bir piyon harcayın.",
+      "targetSan": [
+        "b3"
+      ],
+      "hint": "Piyonu geri istemiyorsunuz — beyazın a piyonunu, kalenizin zaten üzerinde olduğu dikeyden çeken bir taş alma istiyorsunuz."
+    }
+  ]
+}

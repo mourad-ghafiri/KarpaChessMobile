@@ -1,0 +1,11 @@
+{
+  "id": "thinking-process-proof",
+  "fen": "6k1/5ppp/1Q6/4r3/4n2P/7P/5PP1/1qR3K1 b - - 0 1",
+  "solution": [
+    "Qxc1+"
+  ],
+  "title": "Duas Capturas, Um Xeque",
+  "setup": "A dama branca em b6 está ali sem defesa, e a torre em c1 está a atacar a tua dama. Faz as três perguntas antes de comeres seja o que for.",
+  "hint": "As brancas ameaçam um xeque na oitava linha a que o teu rei não escapa. Uma das tuas capturas vem com xeque, e um xeque não se pode ignorar.",
+  "explanation": "## A Ideia\n\nPergunta um: as brancas ameaçam comer a tua dama, e dar xeque na oitava linha, onde o teu rei não tem casa para onde fugir.\n\nA pergunta dois encontra duas capturas. {{Qxb6}} ganha uma dama, e a pergunta três deita-a fora: a torre dá xeque em c8, e segue-se mate.\n\n{{Qxc1+}} ganha uma torre com xeque, a partir de uma casa que nada ataca. As brancas têm de responder ao xeque, e tu estás uma torre e um cavalo à frente, com tempo para tratar da ameaça."
+}

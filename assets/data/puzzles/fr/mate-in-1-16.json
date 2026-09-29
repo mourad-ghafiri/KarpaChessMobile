@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-16",
+  "fen": "3k4/8/3K4/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "La grande bascule",
+  "setup": "Les rois sont en opposition directe sur la colonne d, et votre dame se trouve loin, dans le coin de l'échiquier.",
+  "hint": "La distance ne compte pas pour une dame. Quelle rangée votre roi barre-t-il déjà ?",
+  "explanation": "## L'idée\n\nLes rois se font face sur la colonne d, donc votre roi en d6 couvre c7, d7 et e7.\n\n{{Qg8#}} fait basculer la dame sur la dernière rangée depuis le coin opposé. c8 et e8 sont toutes deux sur sa ligne, et rien ne peut s'interposer.\n\nQuand votre roi fait face au roi adverse à une case vide d'écart, un échec le long du bord est souvent mat."
+}

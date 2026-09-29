@@ -1,0 +1,59 @@
+{
+  "id": "opening-traps",
+  "title": "Les pièges d'ouverture",
+  "summary": "Comptez les attaquants, puis punissez la gourmandise",
+  "proof": "openings-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "Deux attaquants, un défenseur",
+      "text": "Trois coups à peine, et les Blancs ont pointé une dame et un fou sur la même case. Comptez f7. Deux pièces blanches l'attaquent. Une seule pièce noire la défend, et c'est le roi, le pire défenseur de l'échiquier : un roi ne peut rien prendre de ce qui arrive soutenu.\n\nLa dame peut donc atterrir en f7 au prochain coup, et c'est mat. Pas une menace à noter pour plus tard. Mat.\n\nLes Noirs ont un coup pour changer le calcul."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "Le bon coup qui perd",
+      "text": "Les Noirs sortent un cavalier par {{Nf6}}, qui serait juste dans presque n'importe quelle autre position, et les Blancs répondent {{Qxf7#}}.\n\nLe roi ne peut pas prendre la dame, car le fou en c4 se tient derrière elle. Rien d'autre sur l'échiquier n'atteint f7. Quatre coups, et un camp a cessé de jouer.\n\nLe piège n'est pas astucieux. Il attrape le joueur qui répond à une menace par un bon coup au lieu du coup que la menace réclame."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "prompt": "Rétablissez le compte sur f7 en un seul coup, pour que les attaquants n'y soient plus en surnombre.",
+      "targetSan": [
+        "g6",
+        "Qe7",
+        "Qf6",
+        "Nh6"
+      ],
+      "hint": "Il y a deux façons honnêtes de changer un compte : ajouter un défenseur, ou couper la route d'un attaquant."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Un clouage est un prix",
+      "text": "Un nouvel échiquier, et une autre sorte de gourmandise. Le fou noir en h5 cloue le cavalier en f3 sur la dame en d1 : bougez le cavalier, et la dame est prise.\n\nTout cela est vrai, et rien de tout cela ne dit que le cavalier ne peut pas bouger. Un clouage n'interdit rien. Il fixe un prix, et ce prix est ce qui se tient derrière la pièce clouée. Neuf points, c'est cher. Ce n'est pas infini.\n\n> Un clouage ne tient que tant que la pièce clouée n'a rien de mieux à faire."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Un seul trou",
+      "text": "Comptez les cases autour du roi noir avant de décider ce que vaut le cavalier. Le fou en c4 surveille déjà e6 et f7. Le cavalier en c3 est à un saut de d5, et depuis d5 il couvre e7. La dame noire en d8 et le fou en f8 en bloquent deux autres.\n\nIl reste une seule case dans tout le voisinage du roi qu'aucune pièce blanche ne touche : d7.\n\nEt la pièce à un saut de couvrir d7, c'est le cavalier que les Noirs ont cloué."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Si les Noirs refusent",
+      "text": "Les Noirs ne sont pas obligés de prendre la dame, et la prendre est le choix perdant. La réponse prudente consiste à reprendre en e5 et à rendre le fou en h5, puisque la dame en d1 voit h5 dès que le cavalier quitte f3.\n\nAlors, pas de mat, pas de dame donnée, et les Blancs ont un pion net de plus pour rien.\n\nC'est ce qui rend l'idée intéressante à jouer. La gourmandise termine la partie sur-le-champ, la prudence coûte un pion, et les Noirs n'ont pas de troisième réponse."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "prompt": "Ignorez le clouage et prenez le pion central, même si les Noirs gagnent votre dame en échange.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "La case où se tient ce pion est justement celle qui retire d7 au roi noir."
+    }
+  ]
+}

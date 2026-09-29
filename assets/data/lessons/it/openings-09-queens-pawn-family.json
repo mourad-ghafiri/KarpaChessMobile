@@ -1,0 +1,56 @@
+{
+  "id": "queens-pawn-family",
+  "title": "Le Aperture di Pedone di Donna",
+  "summary": "Occupare il centro, oppure trattenerlo",
+  "proof": "openings-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Due Pedoni che Non si Toccano Mai",
+      "text": "Spingete il pedone di re di due case e i pedoni centrali finiscono a fissarsi, ciascuno indifeso, ciascuno un bersaglio già dalla mossa successiva.\n\nIl pedone di donna copre lo stesso terreno e non apre nessuna lite. Un pedone che atterra in d4 è difeso dalla donna in d1 nel momento in cui arriva, e un pedone nero che arriva in d5 è difeso dalla propria donna altrettanto bene. Non si può prendere niente.\n\nE così queste partite si aprono senza contatto. A deciderle è raramente una tattica all'ottava mossa. È una casa che qualcuno ha posseduto meglio alla trentesima."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Affrontarlo di Petto",
+      "text": "{{d4}} {{d5}}. Il Nero si prende la stessa parte che si è preso il Bianco, e i due pedoni si bloccano a vicenda su case dove nessuno dei due può catturare.\n\nE allora il Bianco cambia discorso: {{c4}}, un pedone d'ala offerto per un pedone centrale. Questo è il Gambetto di Donna, l'apertura più antica della famiglia.\n\nIl pedone è offerto, non regalato. Il Nero può afferrarlo, e spesso lo fa, ma tenerselo costa così tante mosse che di solito il pedone torna indietro — con i pezzi bianchi già fuori e puntati al centro."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Lasciarlo Stare",
+      "text": "Il Nero non ha messo un pedone in mezzo, ed è un piano, non un ritardo. Il cavallo in f6 impedisce già al pedone e del Bianco di arrivare a e4, e il pedone in e6 apre una strada a un alfiere.\n\nQueste sono le difese indiane, e si dividono a seconda di quale pezzo porta avanti la discussione.\n\n- **L'Est-Indiana** consegna il centro, mette un alfiere in fianchetto in g7 e spacca il muro più tardi.\n- **La Nimzo-Indiana** manda un alfiere in b4 per cambiare il cavallo che difenderebbe e4.\n- **L'Ovest-Indiana** punta un alfiere lungo la grande diagonale chiara su quella stessa casa."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+      "prompt": "Aprite la grande diagonale chiara perché il vostro alfiere di donna possa entrare nella discussione su e4.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "L'alfiere in c8 ha una diagonale che arriva a e4, e un vostro pedone è parcheggiato sulla sua prima casa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "Tutti e Due gli Alfieri, Una Diagonale",
+      "text": "Il Bianco ha reclamato la stessa strada. Il pedone in g3 non è di per sé una mossa di sviluppo — è la porta perché un alfiere vada in g2, e da lì guarda e4 dal bordo della scacchiera.\n\n{{Bb7}} {{Bg2}}, e gli alfieri finiscono l'uno di fronte all'altro lungo la diagonale, con e4 in mezzo. Il Bianco poi aggiunge un cavallo da c3, e il conto su e4 si ribalta.\n\nQuindi la risposta diretta da sola non basta. Il Nero deve trovare una seconda cosa da colpire."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "Nessuno Sta Guardando c4",
+      "text": "Ripassate le quattro mosse del Bianco e chiedetevi quale di esse difenda qualcosa. Il pedone in c4 non è difeso da niente: nessun pezzo gli sta dietro, e il pedone in b2 non è salito a tenerlo.\n\nÈ questo il costo permanente del pedone d'ala che il Bianco ha spinto alla seconda mossa. Si prende spazio, poi ha bisogno di essere accudito, e un alfiere diretto in g2 guarda dall'altra parte.\n\nTrattenere non è passività. È aspettare la mossa a cui bisogna rispondere.\n\n> Un pedone che nessuno difende decide dove si gioca la partita."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "prompt": "Attaccate il pedone che niente difende, e costringete il Bianco a puntellarlo con un pedone anziché con un pezzo.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Il vostro alfiere di donna ha due vie d'uscita da c8. Una delle due atterra su una casa che vede c4."
+    }
+  ]
+}

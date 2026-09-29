@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-09",
+  "fen": "r3k3/pp2nppp/8/3P4/8/7B/PP2RPPP/6K1 w - - 0 1",
+  "solution": [
+    "d6"
+  ],
+  "title": "The Pinned Knight",
+  "setup": "Black's knight on e7 is stuck between your rook and its own king, but the king guards it.",
+  "hint": "Rook for knight is a bad trade. Which of your pieces can attack e7 more cheaply?",
+  "explanation": "## The Idea\n\nA knight pinned to its king cannot move at all, because every jump leaves the line. {{Rxe7+}} now would lose the rook to {{Kxe7}}, so bring a cheaper attacker. {{d6}} hits the knight and also guards e7. After {{Rd8}}, {{Rxe7+}} takes the knight, and the king cannot take back.\n\nWhen a pinned piece is defended, do not trade into it: add your cheapest attacker."
+}

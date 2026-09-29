@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-05",
+  "fen": "6R1/8/5r2/K7/3P3k/8/8/8 b - - 0 1",
+  "solution": [
+    "Rd6"
+  ],
+  "rating": 1390,
+  "title": "Menghadang di Jalan",
+  "setup": "Raja Hitam terdampar di h4, jadi benteng harus menangani pion d yang bebas sepenuhnya sendirian.",
+  "hint": "Menyerang pion tidak sama dengan menghentikannya. Petak mana yang harus dilewati pion itu?",
+  "explanation": "## Ide\n\n{{Rd6}} menanam benteng tepat di depan pion, dan {{d5}} kini menabrak {{Rxd5+}}. Serang dari samping dengan {{Rf4}} dan Putih menjawab {{Rd8}}, melindungi dari belakang, lalu pion berjalan naik di papan."
+}

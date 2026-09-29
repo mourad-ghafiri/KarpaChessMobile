@@ -1,0 +1,56 @@
+{
+  "id": "english",
+  "title": "La Apertura Inglesa",
+  "summary": "Una Siciliana con los colores cambiados y un tiempo de más",
+  "proof": "openings-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Una Siciliana en el espejo",
+      "text": "La primera jugada blanca fue al flanco, y la respuesta negra fue directa al centro. Gira el tablero: un peón en c4 frente a un peón en e5 es una Siciliana con los colores cambiados.\n\nEn una Siciliana de verdad, el peón de c pertenece a las Negras, el bando que juega en segundo lugar. Aquí la misma estructura está en el tablero con los papeles intercambiados, y el bando que tiene el peón de c es el que jugó primero.\n\nUn tiempo entero, en el lado equivocado de una defensa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Lenta a propósito",
+      "text": "{{Nc3}} {{Nf6}} {{g3}}. Dos caballos fuera, y luego las Blancas gastan una jugada en un peón que no captura nada ni ataca nada.\n\nLas Negras toman el espacio que se les ofrece: {{d5}} reclama el centro, {{cxd5}} {{Nxd5}} lo despeja, y un caballo negro acaba en d5 sin ningún peón blanco cerca.\n\nPara eso sirvió el tiempo de más. El peón de g3 parecía la jugada más lenta del tablero, pero vació una casilla, y esa casilla está en la diagonal que va de h1 a a8."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 5",
+      "prompt": "Saca el alfil de casillas blancas para que mire por la gran diagonal al caballo que las Negras acaban de plantar en el centro.",
+      "targetSan": [
+        "Bg2"
+      ],
+      "hint": "Una diagonal va de esquina a esquina hasta a8, y una jugada de peón ya ha despejado tu lado."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPPBP/R1BQK1NR b KQkq - 1 5",
+      "title": "Un alfil en el borde",
+      "text": "El alfil de g2 mira a lo largo de todo el tablero, y lo primero que encuentra es el caballo de d5. Nunca tuvo que cruzar el centro para llegar ahí.\n\nUn alfil desarrollado así, en la casilla que dejó el peón de su propio caballo, es un **fianchetto**. El peón hace el viaje y el alfil toma el camino que queda detrás.\n\nUna pieza, y toda la filosofía de las aperturas de flanco: dominar el centro sin estar en él."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Preguntar antes de responder",
+      "text": "La otra razón por la que esta jugada no deja de aparecer en la élite no tiene nada que ver con diagonales. Botvinnik construyó un sistema con ella, y Kaspárov y Carlsen la mantuvieron como arma principal.\n\nUn peón en d2 es un peón al que nadie puede disparar. Varias de las defensas más agudas de las Negras existen para golpear un peón blanco en cuanto llega a d4, y ninguna puede empezar hasta que vaya ahí.\n\nAsí que las Blancas preguntan primero. {{e6}} {{Nc3}} {{d5}}, y las Negras han respondido: el centro ocupado y el alfil de c8 encerrado detrás."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "title": "El precio de esperar",
+      "text": "Esperar no es gratis. Un peón en c4 no lucha por d4 ni por e4, así que un rival que tome el centro y lo conserve puede dejar ese peón de flanco mirando la partida desde el borde.\n\nLo que compra la espera es información, y la información solo rinde si se gasta. Las Negras ya están comprometidas: peones fijos en d5 y e6, el alfil de c8 encerrado detrás y ninguna defensa aguda a la que cambiarse.\n\n> Una apertura de flanco es una apertura central que llega tarde a propósito."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "prompt": "Toma el centro ahora que la estructura negra está fijada, y lleva la partida a un Gambito de Dama que las Negras ya no pueden esquivar.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Un peón blanco se ha quedado en casa todo este tiempo, y nada en el campo negro está preparado para castigarlo si sale."
+    }
+  ]
+}

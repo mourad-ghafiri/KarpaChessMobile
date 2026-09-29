@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-03",
+  "fen": "r5k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "El primero en llegar a la última fila",
+  "setup": "Las torres se enfrentan por la columna a abierta, y ningún rey ha movido un peón delante de sí.",
+  "hint": "Los propios peones negros encierran al rey en la última fila. ¿Qué captura llega a esa fila con jaque?",
+  "explanation": "## La idea\n\n{{Rxa8#}} captura la torre con jaque por la última fila. Nada puede recapturar ni tapar, y las casillas del rey fuera de la fila, f7, g7 y h7, las ocupan sus propios peones.\n\nLos dos reyes estaban encerrados igual, así que ganó el que jugó primero. Un paso de peón como h6 antes le habría dado una casilla al rey negro."
+}

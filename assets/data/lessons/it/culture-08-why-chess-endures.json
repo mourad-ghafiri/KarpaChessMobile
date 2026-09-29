@@ -1,0 +1,62 @@
+{
+  "id": "why-chess-endures",
+  "title": "Perché gli Scacchi Durano",
+  "summary": "Quindici secoli, e ancora nessuno li ha risolti",
+  "proof": "culture-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "Londra, 21 giugno 1851",
+      "text": "Due giocatori si siedono fra un turno e l'altro di un torneo per una partita che non conta niente, e producono la partita di scacchi più famosa mai giocata.\n\nAdolf Anderssen ha il Bianco, Lionel Kieseritzky il Nero, e nessuno dei due gioca per un premio, un titolo o un punto in classifica. Ed è esattamente per questo che Anderssen è libero di spendere tutto: una partita in cui non c'è niente in palio non costa niente perderla.\n\nErnst Falkbeer la pubblicò quattro anni dopo e la chiamò immortale. Il nome ha tenuto da allora."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "Quello che Anderssen Non Salverà",
+      "text": "La donna nera ha appena mangiato in b2. Da lì tocca la torre in a1, e l'alfiere in c5 guarda dritto verso la torre in g1. Due torri, e nessuna delle due verrà difesa.\n\nSalvarne una costa una mossa, e la mossa è l'unica valuta rimasta all'attacco. Il re nero in e8 non ha mosso per tutta la partita, e ha una sola strada per uscire dal centro: l'arrocco, dietro i propri pedoni sull'ala di re.\n\nChiudete quella strada e il re resta dove i cavalli in d5 e f5 lo raggiungono."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "prompt": "Ignorate tutte e due le torri e coprite la casa che il re nero deve attraversare per uscire dal centro.",
+      "targetSan": [
+        "Bd6"
+      ],
+      "hint": "L'arrocco porterebbe il re nero attraverso f8, quindi chiedetevi quale dei vostri pezzi può cominciare a sorvegliare quella casa in questa mossa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/3B4/1pbN1N1P/4P1P1/3P1Q2/PqP5/R4KR1 b kq - 1 18",
+      "title": "Kieseritzky Incassa",
+      "text": "Il Nero prende quello che gli viene offerto. {{Bxg1}} è la prima torre, e Anderssen non riprende: {{e5}} chiude la diagonale su cui sta la donna nera di b2, che così non vede più affatto l'ala di re.\n\n{{Qxa1+}} prende la seconda torre, con scacco.\n\nIl Nero ha due torri e un alfiere in più. Il Bianco ha una donna, due cavalli e un alfiere, tutti a guardare un re che non è mai uscito dal centro."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Resta una Guardia",
+      "text": "Due mosse dopo il secondo cavallo bianco ha preso in g7 con scacco, e il re nero è andato in d8.\n\nContate le case del re nero. d7 è il suo stesso pedone, c8 il suo stesso alfiere, c7 e e7 appartengono all'alfiere in d6, e e8 è coperta dal cavallo in g7. Non ce n'è nessuna.\n\nQuindi l'unica cosa fra il Nero e il matto è il cavallo in g8, che arriva indietro fino a e7 e prenderebbe qualunque cosa atterrasse lì. Un pezzo. Tutto il resto di quello che il Nero possiede sta dall'altra parte della scacchiera."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Cinquecento Anni, un Regolamento",
+      "text": "Il Bianco ha ceduto tutte e due le torri e un alfiere e sta per vincere lo stesso.\n\nLe regole che hanno prodotto questa posizione si erano assestate molto prima del 1851. Gli scacchi uscirono dall'India settentrionale, attraversarono la Persia e il mondo arabo e arrivarono in Europa, e attorno al 1475 a Valencia alla donna e all'alfiere fu data la lunga portata che hanno ancora. Da allora non è cambiato niente di importante. Anderssen giocava la stessa partita che voi giocate da cento lezioni."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Nessuno li ha Risolti",
+      "text": "La dama è finita. Nel 2007 un gruppo di ricerca dimostrò che il gioco perfetto dall'inizio è patta, e nella dama non resta più niente da trovare.\n\nGli scacchi non sono finiti. Ogni posizione con sette pezzi o meno è stata calcolata esattamente entro il 2012, quindi le ultime mosse di ogni partita sono ormai terreno noto. Sopra i sette pezzi non si sa niente: una stima del 2021 colloca il numero di posizioni legali attorno a 4,8 × 10⁴⁴, e nessuna macchina si è avvicinata al fondo di quel numero.\n\n> Quindici secoli dopo, e la scacchiera davanti a voi continua a fare domande."
+    },
+    {
+      "type": "play",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "prompt": "Il re nero non ha più una casa: tirate via da e7 la sua unica guardia.",
+      "targetSan": [
+        "Qf6+"
+      ],
+      "hint": "L'offerta deve essere una che il Nero non possa rifiutare, quindi cercate lo scacco a cui solo quel cavallo è in grado di rispondere."
+    }
+  ]
+}

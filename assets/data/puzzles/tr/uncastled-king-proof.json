@@ -1,0 +1,13 @@
+{
+  "id": "uncastled-king-proof",
+  "fen": "2b1kbnr/1pp2ppp/r3p3/p1q1P1B1/4N3/3B1N2/PPP2PPP/R2Q1RK1 w k - 5 10",
+  "solution": [
+    "Bb5+",
+    "Qxb5",
+    "Qd8#"
+  ],
+  "title": "Dikeyi Şah Çekerek Temizleyin",
+  "setup": "Siyahın şahı onuncu hamlede hâlâ e8'de. d1'deki veziriniz d dikeyini istiyor ve kendi d3'teki filiniz o dikeyde duruyor.",
+  "hint": "Filin dikeyi terk etmesi gerekiyor ve bunu siyahın hemen cevap vermek zorunda olduğu bir hamleyle yapmalı.",
+  "explanation": "## Fikir\n\nŞah e8'den hiç ayrılmadı ve çıkışlarını kendi taşları dolduruyor: f8'deki fil, f7'deki piyon. g5'teki filiniz e7 ile d8'i kapsıyor. Vezirinizle d8 arasında duran tek şey kendi d3'teki filiniz.\n\nÖyleyse şah çekerek ayrılsın. {{Bb5+}} cevaplanmak zorundadır ve her cevap fazla yavaştır. {{Qxb5}} ile alın, {{Qd8#}} insin; g5'teki fil onu korurken. {{Bd7}} ile kapatın, bu kez {{Bxd7#}} mat etsin."
+}

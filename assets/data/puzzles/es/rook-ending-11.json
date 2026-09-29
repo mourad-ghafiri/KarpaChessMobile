@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-11",
+  "fen": "3rk3/8/8/4PK2/8/8/8/R7 b - - 0 1",
+  "solution": [
+    "Rd7"
+  ],
+  "rating": 1580,
+  "title": "Sostén la séptima",
+  "setup": "El rey negro ocupa e8 delante del peón, y el rey blanco está listo para subir y pasar de largo.",
+  "hint": "Encuentra la fila que tu torre puede sostener, desde la que puede dar jaque al rey blanco en cuanto suba.",
+  "explanation": "## La idea\n\n{{Rd7}} le quita la séptima fila al rey blanco, y al intento {{Kf6}} se responde con {{Rf7+}}, que lo devuelve atrás: tu rey de e8 defiende la torre. Desde cualquier casilla más baja de la columna d, las Blancas entran con {{Ke6}}, y {{Rd6}} incluso cae ante {{exd6}}."
+}

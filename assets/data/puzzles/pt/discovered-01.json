@@ -1,0 +1,13 @@
+{
+  "id": "discovered-01",
+  "fen": "2r1k3/8/8/8/4N3/8/8/4R2K w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd8",
+    "Nxc8"
+  ],
+  "title": "O Cavalo Sai, a Torre Golpeia",
+  "setup": "A torre branca em e1 aponta ao rei preto, e a única coisa no caminho é o próprio cavalo das brancas.",
+  "hint": "Todas as jogadas de cavalo descobrem a torre. Só uma delas aterra também em cima de alguma coisa.",
+  "explanation": "## A Ideia\n\nEnquanto o cavalo estiver em e4 a torre não faz nada. Mexe-o e a linha da torre abre-se no mesmo instante: a peça que se mexe não é a peça que ataca.\n\nVárias jogadas de cavalo dão esse xeque, mas só {{Nd6+}} faz um segundo trabalho, a atacar a torre de c8. E é também um **xeque duplo**, portanto nada pode tapar e comer um deles deixa o outro.\n\nO rei tem três casas. {{Kd8}} mantém-no por perto, e {{Nxc8}} ganha a torre — o rei recaptura, e a qualidade é tua."
+}

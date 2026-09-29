@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-09",
+  "fen": "rnbqkbn1/ppppp3/8/6pr/3P1p2/3BP1B1/PPP2PPP/RN2K1NR w KQq - 0 8",
+  "solution": [
+    "Bg6#"
+  ],
+  "rating": 840,
+  "title": "Il Buco in f7",
+  "setup": "Il Nero ha appena preso la vostra donna in h5, e f7 è vuota con il suo re ancora in e8.",
+  "hint": "Il re nero ha esattamente una casa libera accanto. Quale pezzo può attaccarla e dare scacco insieme?",
+  "explanation": "## L'idea\n\nI pezzi del Nero riempiono d7, d8 e f8, quindi f7 è l'unica casa del re, e {{Bg6#}} copre f7 dando scacco dritto attraverso di essa. La torre che ha appena preso la vostra donna è a una casa dal fermare tutto questo e non riesce a tornare in tempo."
+}

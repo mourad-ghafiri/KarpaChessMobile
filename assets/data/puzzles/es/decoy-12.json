@@ -1,0 +1,14 @@
+{
+  "id": "decoy-12",
+  "fen": "1r1q1r1k/6pp/7N/8/8/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1550,
+  "title": "El legado de Philidor",
+  "setup": "El rey de h8 está sellado por sus propios peones, y tu caballo de h6 ya cubre g8.",
+  "hint": "Todas las casillas de escape han desaparecido salvo una, y está vacía. ¿Cómo consigues que una pieza negra se ponga ahí?",
+  "explanation": "## La idea\n\nEste es el **mate de la coz**. {{Qg8+}} ofrece la dama para que las Negras tengan que tapar su propia salida: {{Rxg8}} es forzada, ya que el caballo defiende g8. Luego {{Nf7#}} da mate a un rey que no tiene adónde ir."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "culture-06",
+  "fen": "r1bqkb1r/pppp1pp1/2n5/1B2p3/4P1p1/8/PPPP1PP1/RNBQNRK1 b k - 1 7",
+  "solution": [
+    "Qh4",
+    "f4",
+    "g3"
+  ],
+  "title": "The Open File Was the Point",
+  "setup": "Your knight went to g4 and White took it, and both h-pawns left the h-file with your rook still sitting on h8.",
+  "hint": "Your rook already stares down an open h-file at nothing at all — which piece can join it so that h2 cannot be held?",
+  "explanation": "## The Idea\n\n{{Qh4}} gives no check, which is why it is hard to meet. Queen and rook now share the open h-file, White's knight has gone back to e1, and the bishop on b5 is on the wrong wing.\n\n{{f4}}, making room for the king, is White's best try. {{g3}} answers it, and the mate cannot be stopped: even {{Qh5}}, blocking the file, only delays {{Qh1#}} by a move.\n\nAn open file beside a castled king is worth more than a knight."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "fork-03",
+  "fen": "rnbqkb1r/pppp1ppp/8/4p3/2B1N3/8/PPPP1PPP/R1BQK1NR b KQkq - 0 4",
+  "solution": [
+    "d5"
+  ],
+  "rating": 760,
+  "title": "El truco de la horquilla",
+  "setup": "Entregaste un caballo en e4 hace una jugada, y ahora las Blancas tienen un caballo y un alfil en la misma fila.",
+  "hint": "¿Qué jugada de peón ataca a la vez al caballo y al alfil?",
+  "explanation": "## La idea\n\n{{d5}} ataca a la vez al caballo de e4 y al alfil de c4, y de paso libera a tu propio alfil de c8. Este es el truco de la horquilla: entrega un caballo por un peón y luego recupera la pieza en el acto con un peón."
+}

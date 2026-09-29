@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-02",
+  "fen": "6k1/2r2ppp/8/8/8/8/5PPP/3Q2K1 w - - 1 2",
+  "solution": [
+    "Qd8#"
+  ],
+  "rating": 740,
+  "title": "Koruyucu Çekildi",
+  "setup": "Siyahın kalesi az önce c7'ye indi ve sekizinci yatayda şahından başka bir şey kalmadı.",
+  "hint": "Bir hamle önce siyahın tek bir taşı bütün sekizinci yatayı tutuyordu. Hâlâ tutuyor mu, kontrol edin.",
+  "explanation": "## Fikir\n\n{{Qd8#}} işi bitirir. Vezir sekizinci yatay boyunca şah çeker; c7'deki kale ne onu alabilir ne de e8 ya da f8'de araya girebilir ve f7, g7 ile h7'deki piyon duvarı şahı evde tutar. Arka yataydan ayrılan kale, yerine birini bırakmak zorundadır."
+}

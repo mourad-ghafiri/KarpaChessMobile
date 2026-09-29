@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-08",
+  "fen": "6k1/5ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Long Walk, Short Mate",
+  "setup": "Black's king sits behind three unmoved pawns, and your rook on b1 has the whole b-file to itself.",
+  "hint": "Black's pawns seal the king in. Find the back-rank square your rook can reach with check.",
+  "explanation": "## The Idea\n\n{{Rb8#}} is mate at once. The rook arrives on the back rank with check, and the king on g8 has nowhere to go: f7, g7 and h7 hold its own pawns, and f8 and h8 are on the rook's rank. Nothing can capture the rook or block the check.\n\nOne pawn step such as h6, played earlier, would have given the king a square and stopped the whole pattern."
+}

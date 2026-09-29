@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-02",
+  "fen": "4k3/pp4pp/8/4b3/8/5N2/PP4PP/4K3 w - - 0 1",
+  "solution": [
+    "Nxe5"
+  ],
+  "title": "Le goûter du cavalier",
+  "setup": "Votre cavalier en f3 vise huit cases — et un fou noir est posé sur l'une d'elles.",
+  "hint": "Les huit cases du cavalier sont faciles à négliger. Sur laquelle se tient une pièce noire ?",
+  "explanation": "## L'idée\n\nDepuis f3, le L du cavalier atteint e5 : deux cases vers l'avant, une de côté. Le fou noir qui s'y trouve n'a **aucun défenseur**.\n\n{{Nxe5}} gagne le fou gratuitement. Aucune ligne droite ne relie f3 et e5, et c'est justement pour cela qu'une prise comme celle-ci passe facilement inaperçue.\n\nAvant chaque coup, jetez un œil aux huit cases qu'atteint votre cavalier. Les pièces sans protection aiment s'y cacher."
+}

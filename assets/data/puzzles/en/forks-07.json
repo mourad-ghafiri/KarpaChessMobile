@@ -1,0 +1,13 @@
+{
+  "id": "forks-07",
+  "fen": "3r3k/p5pp/8/4N3/8/8/P5PP/6K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "A Fork Into the Corner",
+  "setup": "Black's king is tucked into the h8 corner behind its own pawns, and Black's rook on d8 has no defender.",
+  "hint": "Find the knight check that also attacks the rook. The king will have only one square to go to.",
+  "explanation": "## The Idea\n\n{{Nf7+}} checks the king on h8 and attacks the rook on d8. The pawns on g7 and h7 leave the king one square, and from g8 it cannot reach d8. After {{Kg8}}, {{Nxd8}} takes the rook, and you go from an exchange down to a knight up.\n\nA king boxed in by its own pawns is the easiest target for a fork."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "smothered-11",
+  "fen": "1r5k/p5pp/8/3QN3/1B6/8/5PPP/6K1 w - - 7 31",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1470,
+  "title": "Kuda Pergi Dua Kali",
+  "setup": "Raja Hitam baru saja lari dari diagonal ke sudut, dan gajah di b4 menguasai f8 dari kejauhan.",
+  "hint": "Hitung jalan keluarnya: f8 dikuasai dan pion-pion menempati g7 dan h7, jadi raja hanya bisa bolak-balik di antara dua petak.",
+  "explanation": "## Ide\n\n{{Nf7+}} mengusir raja keluar, {{Kg8}} terpaksa, dan {{Nh6+}} kembali sebagai sekak ganda, jadi {{Kh8}} lagi-lagi satu-satunya langkah. Kini kuda menjaga g8: {{Qg8+}} {{Rxg8}} dan {{Nf7#}}. Inilah Warisan Philidor, dan kedua lompatan kuda itu ada hanya untuk menyiapkan pengorbanan."
+}

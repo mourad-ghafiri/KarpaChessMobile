@@ -1,0 +1,57 @@
+{
+  "id": "ratings",
+  "title": "Arti Sebuah Rating",
+  "summary": "Ramalan tentang hasil, bukan vonis tentang diri Anda",
+  "proof": "culture-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "Unggul Empat Ratus Poin",
+      "text": "Rating Putih empat ratus poin di atas Anda dan ia baru saja menyodokkan pion ke gajah Anda, dengan ketenangan orang yang yakin akan diberi sesuatu.\n\nRating adalah ramalan sebuah skor. Masukkan selisih dua angka ke dalam satu rumus dan keluarlah hasil yang diharapkan: rating yang sama meramalkan setengah poin masing-masing, selisih dua ratus poin meramalkan sekitar 76% bagi angka yang lebih tinggi, empat ratus poin sekitar 91%.\n\nTak ada yang diramalkan memenangkan setiap partai, berapa pun selisihnya. Bahkan yang itu pun tidak."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "Bisikan dari Selisih Itu",
+      "text": "Empat ratus poin bukanlah tembok. Itu persentase, dan persentase tersusun dari partai-partai yang berakhir sebaliknya.\n\nSelisih itu menimbulkan kerusakan sebelum partai melakukannya. Ia menyuruh Anda menahan segalanya, tak mengambil risiko, dan membiarkan pemain yang lebih kuat membuktikannya — dan itulah persis partai yang diinginkan pemain yang lebih kuat.\n\nMaka gajah itu mulai tampak perlu diselamatkan. {{Ba5}}, {{Bc5}}: dua petak yang tenang, keduanya setuju bahwa pemilik angka yang lebih besar berhak diberi sesuatu."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "prompt": "Biarkan gajah di tempatnya dan rebut kembali pion gambit dengan kuda.",
+      "targetSan": [
+        "Ngxe5",
+        "Ncxe5"
+      ],
+      "hint": "Kuda mana pun bisa mengambil pion itu. Gajah lebih aman di tempatnya daripada kelihatannya, jadi jangan memakai langkah untuknya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Dari Mana Poin Berasal",
+      "text": "Kuda-kuda ditukar di e5, lalu Putih mengambil gajah. Sekarang hitung apa yang sebenarnya dibayar sebuah rating.\n\nAnda bertambah ketika skor Anda di atas ramalan dan berkurang ketika di bawahnya. Itulah seluruh hitungannya. Mengalahkan seseorang yang jauh di atas Anda menggeser angka Anda jauh justru karena ramalannya mengatakan Anda tak akan menang — sistem membayar kejutan, dan membayarnya sebanding dengan seberapa terkejutnya ia.\n\nItulah sebabnya merebut sesuatu kembali tidaklah penting. {{Qxb4}} mengambil pion dan membiarkan Putih selamat dalam partai itu."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Kenop Bernama K",
+      "text": "Seberapa jauh satu hasil menggeser angka Anda bergantung pada pengali yang disebut FIDE sebagai K. Nilainya tinggi untuk pemain baru dan muda, agar rating mereka cepat menemukan tingkat yang tepat, dan rendah untuk pemain yang sudah mapan, agar satu akhir pekan yang buruk tak menghapus kerja bertahun-tahun. Kenop penghalus, tak lebih.\n\nRating bisa turun maupun naik, dan penurunan bukan bukti bahwa Anda memburuk. Artinya skor Anda di bawah ramalan, yang terjadi pada setiap orang yang terus bermain. Satu-satunya pemain yang angkanya tak pernah turun adalah mereka yang berhenti."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Tiga Mata Uang yang Terpisah",
+      "text": "Arpad Elo, seorang fisikawan sekaligus amatir yang kuat, membangun skala ini untuk federasi Amerika, yang mengadopsinya pada tahun 1960. FIDE menyusul pada tahun 1970 dan menerbitkan daftar resmi pertamanya pada 1 Juli 1971.\n\nSetiap situs sejak itu meniru bentuknya, bukan angkanya. Rating blitz daring, rating situs lain dan rating FIDE adalah tiga mata uang yang terpisah, dan tak satu pun bisa ditukar. Gelar hanya ditentukan pada skala FIDE: 2300, 2400 dan 2500 untuk FIDE Master, Master Internasional dan Grandmaster.\n\n> Rating meramalkan partai. Ia tak pernah memainkannya."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "prompt": "Putih mengambil buah yang menurut ramalan gratis, jadi temukan mat yang dibangun buah-buah Putih sendiri di sekitar rajanya.",
+      "targetSan": [
+        "Nd3#"
+      ],
+      "hint": "Lihat ke bawah lajur e dari menteri Anda di e7 dan tanyakan pion putih mana di depan raja yang tak diizinkan bergerak."
+    }
+  ]
+}

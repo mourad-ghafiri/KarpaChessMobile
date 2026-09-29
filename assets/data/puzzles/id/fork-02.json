@@ -1,0 +1,12 @@
+{
+  "id": "fork-02",
+  "fen": "6k1/pp3ppp/3b1n2/8/3PP3/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "e5"
+  ],
+  "rating": 730,
+  "title": "Satu Pion, Dua Buah",
+  "setup": "Gajah Hitam di d6 dan kuda di f6 berdiri berjarak dua petak di baris yang sama.",
+  "hint": "Pion menyerang dua petak sekaligus, jadi carilah dorongan yang mendarat di antara dua buah hitam.",
+  "explanation": "## Ide\n\n{{e5}} menyerang d6 dan f6 bersamaan, dan pion di d4 melindunginya, jadi gajah tak bisa begitu saja mengambilnya. Hitam menyelamatkan satu buah dan Anda mengambil yang lain. Dua buah lawan di baris yang sama, berjarak dua lajur, adalah garpu pion yang menunggu terjadi."
+}

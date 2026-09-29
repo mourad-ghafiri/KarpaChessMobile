@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-08",
+  "fen": "7k/8/7K/7Q/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Qe8#"
+  ],
+  "title": "Diagonal Squeeze",
+  "setup": "Your king and queen are stacked on the h-file, and Black's king is trapped in the corner. The mate comes from the side.",
+  "hint": "One tempting queen move takes every square away without giving check, which is stalemate. Give check from where your king still covers g7.",
+  "explanation": "## The Idea\n\nThe natural-looking {{Qg6}} is stalemate: no check, and no legal move for Black, so half a point is gone. {{Qe8#}} checks along the back rank instead. g8 is on the queen's line, your king on h6 covers g7 and h7, and nothing can capture the queen or block.\n\nWith a queen against a bare king, make sure your move gives check before you take away the last square."
+}

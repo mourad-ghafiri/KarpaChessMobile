@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-13",
+  "fen": "7k/8/8/5N2/8/8/6Q1/6K1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "Knight-Backed Kiss",
+  "setup": "The black king is stuck in the corner, and your knight on f5 already watches g7 — the square right beside it.",
+  "hint": "The queen wants to stand beside the king. Which of your pieces already guards that square?",
+  "explanation": "## The Idea\n\nThis is the same queen kiss, backed by a knight instead of a king. The knight on f5 guards g7, so the queen can land there safely.\n\n{{Qg7#}} gives check. The king on h8 cannot take the queen, and g8 and h7 are covered by it. A check from the next square cannot be blocked.\n\nAny guard will do for the kiss: king, knight or pawn. Find the guarded square beside the enemy king."
+}

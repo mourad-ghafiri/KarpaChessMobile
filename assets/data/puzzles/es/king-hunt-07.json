@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-07",
+  "fen": "4K3/7Q/1R3p2/2r3R1/8/5B2/b7/4k3 w - - 0 1",
+  "solution": [
+    "Qe4+",
+    "Kd2",
+    "Rg2+",
+    "Kc1",
+    "Qe1#"
+  ],
+  "rating": 1550,
+  "title": "Tu rey no es el problema",
+  "setup": "Los dos reyes están expuestos —el tuyo en e8, el negro en e1— y las Negras tienen en juego una torre en c5 y un alfil en a2.",
+  "hint": "Ignora lo que amenazan las Negras y cuenta tus propios jaques hasta el final.",
+  "explanation": "## La idea\n\n{{Qe4+}} la empieza, {{Rg2+}} toma la segunda fila y {{Qe1#}} cae. Cuando los dos reyes están a campo abierto, la caza es por completo de quien da jaque primero."
+}

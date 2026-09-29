@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-04",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Şaha Açık Şerit",
+  "setup": "d dikeyi, kalenizden sekizinci yataya kadar bomboş ve siyahın piyonları şaha hiç pencere bırakmamış.",
+  "hint": "Kaleyi açık arka yataya kaydırın — gerisini f7, g7 ve h7'deki piyonlar halleder.",
+  "explanation": "## Fikir\n\nKlasik bir **arka yatay matı**. d dikeyi tertemiz bir otoyol ve siyahın şahı kendi piyonlarının arkasında boğuluyor.\n\n{{Rd8#}}: kale f8'i ve bütün sekizinci yatayı kapsar; f7, g7 ve h7'de siyahın kendi piyonları durur ve d8 ile g8 arasına hiçbir şey giremez. Kaleniz ile rakip şah açık bir arka yatayı paylaştığında önce kaçış karelerini sayın."
+}

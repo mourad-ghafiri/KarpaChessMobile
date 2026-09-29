@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-01",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq g3 0 2",
+  "solution": [
+    "Qh4#"
+  ],
+  "rating": 600,
+  "title": "Dois Peões Longe de Mais",
+  "setup": "As duas primeiras jogadas das brancas abriram a única diagonal que acaba no próprio rei.",
+  "hint": "Só uma linha aponta ao rei branco, e só uma peça preta consegue entrar nela nesta jogada.",
+  "explanation": "## A Ideia\n\nOs peões f e g são as duas jogadas que deixam e1 sem cobertura na diagonal de h4 a e1. {{Qh4#}} chega sem nada onde tapar e sem nada capaz de a capturar. Deixa esses dois peões em casa enquanto o teu rei ainda vive atrás deles."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "trapped-05",
+  "fen": "3r2k1/1pp2pp1/7p/n2P4/8/3P3P/PP3PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b4"
+  ],
+  "rating": 1170,
+  "title": "Cavalier acculé",
+  "setup": "Le cavalier noir a atterri en a5, où ses quatre sauts sont b3, c4, c6 et b7, et b7 est son propre pion.",
+  "hint": "Vos pions en a2, d3 et d5 surveillent déjà trois des quatre cases du cavalier. Il ne manque que l'attaque.",
+  "explanation": "## L'idée\n\n{{b4}} attaque le cavalier et il n'a nulle part où aller : b3 tombe sur axb3, c4 sur dxc4, c6 sur dxc6, et b7 est bouchée par le propre pion noir. Un cavalier en a5 est à un coup de pion de n'être plus qu'un souvenir."
+}

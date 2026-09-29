@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-03",
+  "fen": "7k/6pp/8/8/8/8/p4PPP/2R3K1 w - - 0 2",
+  "solution": [
+    "Rc8#"
+  ],
+  "rating": 780,
+  "title": "Quem Chega Primeiro",
+  "setup": "O peão a das pretas acabou de chegar a a2 e faz uma dama na jogada seguinte, portanto tens exatamente uma jogada.",
+  "hint": "Contar uma corrida de peões é esforço deitado fora se a partida acabar nesta jogada. Olha para a oitava linha das pretas.",
+  "explanation": "## A Ideia\n\n{{Rc8#}} e o peão nunca promove. O rei em h8 está fechado por g7 e h7, a oitava linha inteira pertence à torre, e nada de preto lá chega para tapar. Procura sempre o mate antes de te pores a contar uma corrida."
+}

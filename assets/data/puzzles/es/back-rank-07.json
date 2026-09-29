@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-07",
+  "fen": "r5k1/5ppp/8/8/8/8/8/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "Sin muro de peones, solo mate",
+  "setup": "Las torres se enfrentan por la columna a. El rey negro de g8 está detrás de tres peones intactos; el tuyo en g1 no tiene ninguno.",
+  "hint": "Quien capture primero en la columna a da jaque. Pregúntate adónde podría ir cada rey después.",
+  "explanation": "## La idea\n\n{{Rxa8#}} captura la única pieza negra que podía proteger la octava fila, y da jaque por ella. El rey de g8 está encerrado por sus propios peones de f7, g7 y h7, y la torre cubre f8 y h8. Nada puede tapar ni recapturar.\n\nTu propio rey no tiene peones delante, y por eso está a salvo: f2, g2 y h2 están todas libres. Una última fila solo es mortal cuando los peones cierran la puerta."
+}

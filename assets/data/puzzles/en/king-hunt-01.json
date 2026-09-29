@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-01",
+  "fen": "2Rb4/k7/6p1/5QR1/6K1/2n5/8/r7 w - - 0 1",
+  "solution": [
+    "Qd7+",
+    "Ka6",
+    "Qc6+",
+    "Ka7",
+    "Ra8#"
+  ],
+  "rating": 1350,
+  "title": "Walk the King to the Corner",
+  "setup": "Black's king sits on a7 beside its bishop on d8, and your queen and both rooks are close enough to reach it.",
+  "hint": "Every move should be a check. Let the queen herd the king back toward a7, and let a rook give the last one.",
+  "explanation": "## The Idea\n\n{{Qd7+}} and {{Qc6+}} do not try to mate. Each check takes squares away, until the king is back on a7 with nothing left and {{Ra8#}} arrives. A hunt is a sequence of checks that each remove one option."
+}

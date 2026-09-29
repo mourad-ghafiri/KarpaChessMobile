@@ -1,0 +1,13 @@
+{
+  "id": "history-01",
+  "fen": "3r3k/pp4pp/8/2n1N3/8/8/PP4PP/R5K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "El salto de la caballería",
+  "setup": "Carros y caballería, que se siguen moviendo como hace quince siglos.",
+  "hint": "El rey negro tiene una sola casilla a la que huir. ¿Qué salto le da jaque y ataca a la vez a la torre?",
+  "explanation": "## La idea\n\nUn jaque de caballo no se puede tapar: el caballo nunca cruza las casillas intermedias, así que no hay nada que poner en medio.\n\n{{Nf7+}} toca h8 y d8 en la misma jugada. La única respuesta legal de las Negras es {{Kg8}}, y {{Nxd8}} se lleva la torre, que nunca vio venir el jaque: f7 no está ni en su fila ni en su columna.\n\nCuando al rey rival le faltan casillas, busca la casilla de caballo que toque a la vez al rey y a algo valioso."
+}

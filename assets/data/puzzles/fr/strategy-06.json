@@ -1,0 +1,11 @@
+{
+  "id": "strategy-06",
+  "fen": "rnbqnrk1/ppp1ppb1/6p1/4p3/3P4/2N2N2/PPP2PP1/R1BQKB1R w KQ - 0 9",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Achetez la dernière case noire",
+  "setup": "La colonne h est ouverte vers le roi noir, et une seule pièce garde les cases noires autour de lui : le fou en g7.",
+  "hint": "Votre fou en c1 peut défier ce gardien de face, et votre tour en h1 soutient déjà la case.",
+  "explanation": "## L'idée\n\nLe pion h noir a disparu et le pion g a quitté g7, donc aucun pion noir ne couvrira plus jamais h6. Le fou en g7 fait ce travail seul.\n\n{{Bh6}} propose de l'échanger, et la tour en h1 se tient derrière votre fou. Une fois les fous échangés, les Noirs n'ont plus de fou pour les cases noires, et toutes celles qui entourent le roi sont à vous."
+}

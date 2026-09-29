@@ -1,0 +1,59 @@
+{
+  "id": "opening-traps",
+  "title": "Trampas de apertura",
+  "summary": "Cuenta los atacantes y castiga la codicia",
+  "proof": "openings-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "Dos atacantes, un defensor",
+      "text": "Tres jugadas, y las Blancas ya han apuntado una dama y un alfil a la misma casilla. Cuenta f7. Dos piezas blancas la atacan. Una sola pieza negra la defiende, y esa pieza es el rey, el peor defensor del tablero: un rey no puede capturar nada que llegue con apoyo detrás.\n\nAsí que la dama puede caer en f7 la próxima jugada, y eso es mate. No una amenaza que anotar y responder más tarde. Mate.\n\nLas Negras tienen una jugada para cambiar la cuenta."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "La buena jugada que pierde",
+      "text": "Las Negras sacan un caballo con {{Nf6}}, que sería correcto en casi cualquier otra posición, y las Blancas responden {{Qxf7#}}.\n\nEl rey no puede capturar la dama, porque el alfil de c4 está detrás. Nada más en el tablero llega a f7. Cuatro jugadas, y un bando ha dejado de jugar.\n\nLa trampa no es ingeniosa. Atrapa al jugador que responde a una amenaza con una buena jugada en lugar de con la jugada que la amenaza pide."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "prompt": "Arregla la cuenta en f7 en una sola jugada, para que los atacantes ya no superen a los defensores.",
+      "targetSan": [
+        "g6",
+        "Qe7",
+        "Qf6",
+        "Nh6"
+      ],
+      "hint": "Hay dos formas honestas de cambiar una cuenta: añadir un defensor, o cortar el camino por el que viaja un atacante."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Una clavada es un precio",
+      "text": "Un tablero nuevo, y otro tipo de codicia. El alfil negro de h5 clava al caballo de f3 contra la dama de d1: mueve el caballo y la dama cae.\n\nTodo eso es cierto, y nada de eso dice que el caballo no pueda moverse. Una clavada no prohíbe nada. Pone un precio, y el precio es lo que hay detrás de la pieza clavada. Nueve puntos es un precio alto. No es infinito.\n\n> Una clavada solo aguanta mientras la pieza clavada no tenga nada mejor que hacer."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Un solo agujero",
+      "text": "Cuenta las casillas alrededor del rey negro antes de decidir lo que vale el caballo. El alfil de c4 ya vigila e6 y f7. El caballo de c3 está a un salto de d5, y desde d5 cubre e7. La propia dama negra en d8 y el alfil de f8 bloquean dos más.\n\nEso deja una sola casilla en todo el vecindario del rey que ninguna pieza blanca toca: d7.\n\nY la pieza que está a un salto de cubrir d7 es el caballo que las Negras han clavado."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Si las Negras rehúsan",
+      "text": "Las Negras no están obligadas a capturar la dama, y capturarla es la opción que pierde. La respuesta prudente es recapturar en e5 y devolver el alfil de h5, ya que la dama de d1 ve h5 en cuanto el caballo sale de f3.\n\nEntonces no hay mate ni dama regalada, y las Blancas tienen un peón limpio de ventaja a cambio de nada.\n\nEso es lo que hace que merezca la pena jugar la idea. La codicia termina la partida en el acto, la prudencia cuesta un peón, y las Negras no tienen una tercera respuesta."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "prompt": "Ignora la clavada y captura el peón central, aunque las Negras ganen tu dama a cambio.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "La casilla donde está ese peón es justo la que le quita d7 al rey negro."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "culture-08",
+  "fen": "1r2k1r1/pbppnp1p/1b3P2/8/Q7/B1PB1q2/P4PPP/3R2K1 w - - 0 21",
+  "solution": [
+    "Qxd7+",
+    "Kxd7",
+    "Bf5+"
+  ],
+  "title": "Kedua Gajah",
+  "setup": "Putih tertinggal satu benteng dan satu kuda, raja hitam tak pernah rokade, dan kedua gajah putih membidiknya.",
+  "hint": "Hitung petak-petak raja hitam sebelum Anda menghitung materi — apa yang tersisa setelah gajah di a3 dan pion di f6 dikurangkan?",
+  "explanation": "## Ide\n\n{{Qxd7+}} melemparkan menteri ke pion yang dilindungi. Menolak dengan {{Kf8}} langsung mat di e7, jadi {{Kxd7}}, dan raja berdiri di tempat terbuka dengan kedua gajah membidiknya.\n\n{{Bf5+}} adalah sekak ganda, dari gajah dan dari benteng di belakangnya. {{Kc6}} berjalan masuk ke {{Bd7#}}, dan sesudah {{Ke8}}, {{Bd7+}} dan {{Bxe7#}} menuntaskannya dengan dua gajah yang sama.\n\nAnderssen memainkan ini di Berlin pada tahun 1852, setahun setelah Partai Abadi."
+}

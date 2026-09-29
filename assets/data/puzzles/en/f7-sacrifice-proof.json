@@ -1,0 +1,11 @@
+{
+  "id": "f7-sacrifice-proof",
+  "fen": "r1b1k1nr/1p1n1pbp/p1pQ2p1/4p3/2B1PB2/2q2N2/P1P2PPP/1R1R2K1 w kq - 2 15",
+  "solution": [
+    "Bxf7+"
+  ],
+  "title": "Tal Takes f7",
+  "setup": "Tal against Tringov, Amsterdam 1964. Black's king has not castled, and nothing but the king guards f7.",
+  "hint": "The king alone guards f7. Where does it end up if it has to take, with your queen already on d6?",
+  "explanation": "## The Idea\n\n{{Bxf7+}} gives the bishop for the pawn the king alone was guarding, and it forces mate. After {{Kxf7}} {{Ng5+}} the king has to step back to e8, because the queen and knight cover every other square, and {{Qe6+}} mates within two moves whatever Black plays: Tringov resigned there.\n\nThe king never castled, so f7 was the one door in, and White's queen, knight and bishop were all within reach of it."
+}

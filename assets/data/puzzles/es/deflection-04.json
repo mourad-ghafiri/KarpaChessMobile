@@ -1,0 +1,14 @@
+{
+  "id": "deflection-04",
+  "fen": "2br2k1/p4ppp/1q6/8/1n6/7P/1PN1QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Nxb4"
+  ],
+  "rating": 1220,
+  "title": "El caballo espera a la dama",
+  "setup": "La dama de b6 apuntala la torre de d8 y el caballo de b4, y tu caballo de c2 vigila b4.",
+  "hint": "Caballo por caballo solo es un cambio mientras el defensor siga en casa. ¿Qué jaque lo manda a otra parte?",
+  "explanation": "## La idea\n\n{{Rxd8+}} deja exactamente una jugada legal, {{Qxd8}}. La dama ha salido de la columna b, así que {{Nxb4}} gana un caballo limpio. Primero torre por torre, y la desviación sale gratis. Pregúntate qué le están pidiendo en silencio que sostenga a la pieza mejor colocada del rival."
+}

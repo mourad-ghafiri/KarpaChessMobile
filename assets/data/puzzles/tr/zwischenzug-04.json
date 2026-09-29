@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-04",
+  "fen": "3B2k1/3Q1ppp/4r3/8/2b5/4R3/PP1r4/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1420,
+  "title": "Kaleniz Bekleyebilir",
+  "setup": "Siyahın kalesi kampınızın derinliklerine, d2'ye inmiş ve öteki kalesi e6'da duruyor — endişelenecek çok şey var.",
+  "hint": "Sizden savunma yapmanız isteniyor. Önce şah çekin ve savunmanın gerekli olup olmadığına bakın.",
+  "explanation": "## Fikir\n\n{{Qe8+}} d2'deki kaleyi tümüyle görmezden gelir. {{Rxe8}} mecburidir, e dikeyi devredilir ve {{Rxe8#}} gelir. Tehdit inmeden parti bittiğinde araya sıkıştırılan şah hiçbir şeye mal olmaz."
+}

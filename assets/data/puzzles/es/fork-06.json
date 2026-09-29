@@ -1,0 +1,14 @@
+{
+  "id": "fork-06",
+  "fen": "4r2k/pp4p1/5p2/2n5/8/5Q2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qh5+",
+    "Kg8",
+    "Qxe8+"
+  ],
+  "rating": 880,
+  "title": "Columna y diagonal",
+  "setup": "La columna h está abierta delante del rey negro, y su torre acaba de ir a e8.",
+  "hint": "Tu dama busca una casilla donde una columna y una diagonal terminen cada una en una pieza negra.",
+  "explanation": "## La idea\n\n{{Qh5+}} da jaque por la columna h abierta, y por la otra línea mira a través de g6 y f7 directamente a la torre. El peón de g7 solo les deja a las Negras {{Kg8}}, y {{Qxe8+}} se come la torre con jaque. Una dama da horquillas porque es una torre y un alfil a la vez."
+}

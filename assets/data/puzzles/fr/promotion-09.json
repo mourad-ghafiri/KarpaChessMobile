@@ -1,0 +1,14 @@
+{
+  "id": "promotion-09",
+  "fen": "8/q1P1kppp/8/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "c8=N+",
+    "Kd7",
+    "Nxa7"
+  ],
+  "rating": 1310,
+  "title": "Pas une dame",
+  "setup": "Votre pion c va à dame au prochain coup, mais une dame en c8 ne toucherait ni le roi noir ni la dame noire.",
+  "hint": "La nouvelle pièce doit frapper deux choses à la fois. Vérifiez quelle promotion le peut.",
+  "explanation": "## L'idée\n\n{{c8=N+}} fait une fourchette sur le roi en e7 et la dame en a7, deux cases qu'une dame en c8 n'attaquerait pas du tout. Après {{Kd7}}, le cavalier prend en a7. Promouvez en la pièce que réclame la position, pas en la plus forte."
+}

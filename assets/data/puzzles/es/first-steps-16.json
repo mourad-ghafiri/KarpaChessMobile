@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-16",
+  "fen": "6k1/5ppp/8/8/8/3n4/2P2PPP/4K3 w - - 0 1",
+  "solution": [
+    "cxd3"
+  ],
+  "title": "Captura al atacante",
+  "setup": "Un atrevido caballo negro ha saltado para dar jaque a tu rey, pero ¿miró dónde caía?",
+  "hint": "Tu rey podría huir, pero ¿para qué? La respuesta más contundente a un jaque es capturar la pieza que lo da: ¿llega a ella algo tuyo?",
+  "explanation": "## La idea\n\nEl caballo de d3 da jaque, y un jaque tiene tres respuestas: mover el rey, tapar la línea o capturar la pieza que lo da. Un jaque de caballo no se puede tapar, y aquí la captura está disponible.\n\nTu peón de c2 ataca b3 y d3, así que {{cxd3}} elimina el caballo, acaba con el jaque y gana tres puntos en una jugada. Las jugadas de rey también escaparían, pero dejarían vivo al caballo."
+}

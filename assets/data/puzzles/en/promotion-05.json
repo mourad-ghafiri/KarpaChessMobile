@@ -1,0 +1,12 @@
+{
+  "id": "promotion-05",
+  "fen": "4r1k1/4Pppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8"
+  ],
+  "rating": 1160,
+  "title": "Chase the Blockader",
+  "setup": "Your pawn on e7 is held up by the rook on e8, the only black piece that can stop it from becoming a queen.",
+  "hint": "The blockading rook has exactly one job. Attack it with something it cannot afford to trade itself for.",
+  "explanation": "## The Idea\n\n{{Rd8}} attacks the blockader. {{Rxd8}} loses on the spot to exd8=Q+, and any other rook move lets the pawn through, so Black must give the rook up for the pawn. Remove the piece holding a passed pawn and the pawn is a queen."
+}

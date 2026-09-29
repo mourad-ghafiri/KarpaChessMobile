@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-21",
+  "fen": "8/5ppp/2k1b3/8/8/1N5P/4rPP1/3R2K1 w - - 0 1",
+  "solution": [
+    "Nd4+"
+  ],
+  "title": "Tek Sıçrayış, İki Hedef",
+  "setup": "b3'teki atınıza e6'daki fil saldırıyor ve oynaması gerekiyor; öyleyse en sert vurduğu kareyi seçin.",
+  "hint": "Aynı anda hem siyah şaha şah çeken hem de siyahın başka bir taşına saldıran at karesini bulun.",
+  "explanation": "## Fikir\n\nAtınızın zaten oynaması gerekiyor; öyleyse bırakın hamle iki iş görsün. {{Nd4+}} aynı anda c6'daki şaha şah çeker ve e2'deki kaleye saldırır.\n\nSiyahın önce şaha cevap vermesi gerekir ve siyahın hiçbir taşı d4'teki atı alamaz. Şah kenara çekildikten sonra {{Nxe2}} kaleyi alır.\n\nTek tehdide cevap verilebilir. Tek hamledeki iki tehdide genellikle verilemez."
+}

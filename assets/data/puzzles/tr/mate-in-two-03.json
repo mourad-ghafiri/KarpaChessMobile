@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-03",
+  "fen": "7k/5ppp/8/1Pq1R3/N7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Qf8",
+    "Rxf8#"
+  ],
+  "rating": 1000,
+  "title": "Kapatanı Saptırın",
+  "setup": "Siyahın şahı sekizinci yatayda üç piyonun arkasına saklanmış ve veziri uzakta, c5'te dolaşıyor.",
+  "hint": "Şahın hiçbir cevabı olmayan bir arka yatay şahı. Siyahın hangi taşı araya girebilir ve nereye?",
+  "explanation": "## Fikir\n\n{{Re8+}} arka yatayı vurur. Şahın hiç karesi yok — f7, g7 ve h7 kendi piyonları — yani vezirin {{Qf8}} ile araya girmesi gerekir. Bütün mesele de budur: {{Rxf8#}} araya gireni kaldırır ve aynı karede mat eder."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "opposition",
+  "title": "Oposisi",
+  "summary": "Dua raja, satu tempo, dan siapa yang harus mengalah",
+  "proof": "endgame-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "Raja Tak Boleh Bersentuhan",
+      "text": "Tak ada raja yang boleh melangkah ke petak di samping raja lain, artinya keduanya tak pernah bisa saling pukul. Keduanya hanya bisa saling mendesak.\n\nRaja Anda di e4, raja Hitam di e7, dua petak kosong di antaranya. Berjalanlah lurus naik di lajur itu dan Hitam bisa berjalan lurus turun, dan di suatu tempat di tengah kalian berdua kehabisan jalan.\n\nSiapa yang memenangkan perdebatan itu ditentukan oleh satu aturan yang tak bisa dihindari siapa pun: pada giliran Anda, Anda wajib melangkah. Itulah zugzwang, dan dengan hanya raja di papan, itulah satu-satunya senjata kedua pihak."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "Kebuntuan Itu Punya Nama",
+      "text": "Dekatkan kedua raja sampai hanya satu petak kosong memisahkan keduanya di lajur yang sama, dan posisinya terkunci. Tak satu raja pun bisa masuk ke petak di antaranya, karena petak itu menyentuh keduanya. Tak satu pun bisa menyelinap lewat samping tanpa masuk ke jangkauan raja yang lain.\n\nKuncian itu disebut **oposisi**. Ia milik pemain yang tak harus melangkah, karena pemain yang harus melangkah wajib memecahkannya, menyingkir, dan membiarkan raja lawan lewat.\n\nJadi hitung celahnya. Satu petak kosong, dengan giliran lawan Anda, dan wilayah di depan menjadi milik Anda. Saat ini celahnya dua, dan giliran Anda."
+    },
+    {
+      "type": "play",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "prompt": "Persempit celahnya sehingga hanya satu petak kosong memisahkan kedua raja dan Hitam yang mendapat giliran.",
+      "targetSan": [
+        "Ke5"
+      ],
+      "hint": "Hitung celahnya sebelum dan sesudah langkah Anda: Anda ingin celahnya tinggal satu, dengan giliran berpindah."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/4K3/8/8/8/8 b - - 5 3",
+      "title": "Hitam Mengalah, Anda Mengikuti",
+      "text": "Satu petak kosong di antara kedua raja, dan Hitam harus melangkah. Setiap petak yang sah melepaskan wilayah: ke samping atau ke belakang, dan tak ada yang lain.\n\nMisalkan {{Kd7}}. Hitam mempertahankan jaraknya tetapi bergeser satu lajur ke arah sayap menteri, jadi Anda ikut bersamanya. {{Kd5}}, dan kunciannya kembali, satu lajur bergeser, dengan giliran Hitam lagi.\n\nTak ada yang ditangkap dan tak ada yang diancam. Hitam sekadar memilih arah, Anda menirunya, dan seluruh papan bergerak selangkah lebih dekat ke tujuan Anda."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "title": "Pion Tanpa Tempat untuk Pergi",
+      "text": "Papan baru, dan satu pion mengubah apa yang diperdebatkan kedua raja. Raja Anda di e6, pion Anda di e5, raja Hitam di e8, kembali terkunci dengan jarak satu petak.\n\nKali ini Andalah yang harus melangkah, jadi oposisi milik Hitam. Hitung langkah sah Anda dan jumlahnya empat, semuanya langkah raja. Pion sama sekali tak bisa maju: raja Anda sendiri berdiri di petak di depannya.\n\nHitam menahan pintunya tertutup dan pion Anda terjebak di belakang Anda. Sesuatu harus mengalah, dan itu bukan pion."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "prompt": "Melangkahlah ke samping ke arah sayap menteri tanpa meninggalkan baris yang sudah dicapai raja Anda.",
+      "targetSan": [
+        "Kd6"
+      ],
+      "hint": "Mundur satu baris membuang semua yang telah didaki raja, jadi relakan lajurnya saja."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "title": "Kuncian yang Sama, Lajur Baru",
+      "text": "Hitam meniru langkah itu dan kedua raja terkunci lagi, berjarak satu petak, dengan giliran masih pada Anda. Tampaknya tak ada yang didapat.\n\nLihat lajur e. Raja Anda sudah meninggalkan petak di depan pion, dan raja Hitam berada satu lajur dari jalan pion itu. Tiga petak kosong, dan raja putih sudah duduk di baris keenam di sampingnya.\n\n> Oposisi tak pernah menjadi tujuan. Ia hanya membeli tepat satu langkah, dan langkah itu harus berharga."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "prompt": "Mulailah menjalankan pion sekarang setelah raja Anda tak lagi parkir menghalanginya.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Tak ada lagi yang bisa diperbaiki dari kedua raja; kemajuan yang tersisa di papan ini seluruhnya ada di lajur e."
+    }
+  ]
+}

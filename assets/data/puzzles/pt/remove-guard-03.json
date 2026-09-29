@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-03",
+  "fen": "r5k1/5ppp/2p5/3n4/1b6/6P1/5PBP/1R4K1 w - - 1 2",
+  "solution": [
+    "Bxd5"
+  ],
+  "rating": 1130,
+  "title": "O Cavalo Era a Cola",
+  "setup": "A tua torre olha para o bispo de b4, e o cavalo de d5 é a única peça preta a defendê-lo.",
+  "hint": "A tua torre já ataca uma peça defendida. Olha uma casa mais adiante: quem é que está a defender?",
+  "explanation": "## A Ideia\n\n{{Bxd5}} elimina o cavalo que guarda b4. Depois de {{cxd5}} o bispo fica sem ninguém e {{Rxb4}} ganha-o. Bispo por cavalo é uma troca igual; o bispo de b4 é o lucro. Pergunta sempre quem segura a peça que queres antes de lhe estenderes a mão."
+}

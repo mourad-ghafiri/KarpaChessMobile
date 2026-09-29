@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-09",
+  "fen": "7k/5K1p/8/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Pionnya Sendiri, Kandangnya Sendiri",
+  "setup": "Raja Hitam duduk di sudut di balik pionnya sendiri di h7, dan raja Anda di f7 berdiri dekat.",
+  "hint": "Raja Anda sudah menguasai g7 dan g8. Benteng tinggal mencapai baris belakang.",
+  "explanation": "## Ide\n\n{{Ra8#}} memberi sekak di sepanjang baris belakang. Raja Anda di f7 menguasai g7 dan g8, pion Hitam sendiri mengisi h7, dan tak ada yang bisa menangkap benteng atau menghalangi sekak.\n\nDalam akhir permainan raja dan benteng, raja Anda mengurung raja lawan dan benteng yang memberi sekak."
+}

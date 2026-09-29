@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-08",
+  "fen": "2n4k/8/8/2r1p2P/4Q1B1/3R4/PP6/7K w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Kg7",
+    "Qg6#"
+  ],
+  "rating": 1250,
+  "title": "A Pawn Backs the Queen",
+  "setup": "Your rook can seize the eighth rank, and a modest pawn on h5 quietly supports the square g6.",
+  "hint": "Find the square beside the king that one of your pawns already defends, then take its back rank away.",
+  "explanation": "## The Idea\n\n{{Rd8+}} takes the back rank and forces {{Kg7}}; the knight on c8 cannot block. Then {{Qg6#}}: the queen steps right beside the king, protected by the pawn on **h5**, while the rook seals every square on the eighth rank."
+}

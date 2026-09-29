@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-05",
+  "fen": "6k1/5ppp/8/8/8/8/1R3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "El martillo de largo alcance",
+  "setup": "Tu torre de b2 mira por una columna vacía, con la última fila totalmente abierta al otro extremo.",
+  "hint": "El rey negro tiene tres de sus propios peones delante. Encuentra la fila que no puede abandonar.",
+  "explanation": "## La idea\n\nEs un mate del pasillo puro. {{Rb8#}} recorre toda la columna b y da jaque por la octava fila. f8 y h8 están en la línea de la torre, en f7, g7 y h7 están los propios peones negros, y nada puede capturar la torre ni tapar.\n\nUna torre lejos de la acción puede dar mate en una igualmente. Antes de mover, revisa cada columna abierta para tus torres y cada diagonal abierta para tus alfiles."
+}

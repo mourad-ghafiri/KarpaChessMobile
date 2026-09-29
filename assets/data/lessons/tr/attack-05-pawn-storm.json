@@ -1,0 +1,56 @@
+{
+  "id": "pawn-storm",
+  "title": "Piyon Fırtınası",
+  "summary": "Kendi şahınızı koruyan piyonları onlarınkinin üstüne yürütün",
+  "proof": "pawn-storm-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "Orta Çivilenmiş",
+      "text": "İki şah da aynı kanatta oturuyor ve siyah, kendi şahının önündeki piyonları dosdoğru beyazın üstüne sürmek üzere.\n\nNormalde bir parti böyle kaybedilir. Burada değil ve sebebi tahtanın ortasında oturuyor: beyazın d5'teki piyonu d6'ya, siyahın e5'teki piyonu e4'e sıkışmış; değişilecek bir şey kalmamış ve orada iki taraf da bir dikey açamaz.\n\nKanat boyunca yürüyüş beş altı hamleye mal olur. Yavaş oyunu cezalandıran tek şey merkezden gelen hızlı bir vuruştur ve merkez ortadan kaldırılmıştır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "Piyonlarınız Hangi Yöne Yaslanıyor",
+      "text": "Siyah da yürüyüşe geçer. Kendi şahınızın önündeki piyonları tahta boyunca rakip şahın üstüne yuvarlamaya **piyon fırtınası** denir ve bu, piyonları rakip şaha zaten yaslanmış olan tarafa aittir.\n\nSiyahın piyonları beyazın şahına yaslanıyor. Beyazınkiler vezir kanadına yaslanıyor; beyaz da bunun yerine orada sürecek.\n\nSiyahın nereden başlayacağını tek bir ayrıntı belirler. Bu kanatta bir siyah piyonun uzanıp vurabileceği şey beyazın e4'teki piyonudur ve onu değişip kaldırmak, f8'deki kale için f dikeyinin açılma yoludur."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "prompt": "Beyazın e4'teki piyonuna kendi piyonunuzla saldırın ve f dikeyini açmaya başlayın.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "Şahınızın çevresindeki üç piyondan yalnızca biri e4'e saldıran bir kareye inebiliyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 w - - 0 11",
+      "title": "Tek Piyon Fırtına Değildir",
+      "text": "Önde tek başına duran piyon hiçbir şey yapmaz. Fırtına, arkasından gelendir.\n\n{{Be3}} beyazın bir filini kavgaya doğru getirir, {{f4}} o yerleşemeden onu kovar, {{Bf2}} gittiği yerdir ve {{g5}} ikinci siyah piyonu birincinin yanına getirir.\n\nSiyahın dört hamlesi ve hiçbiri bir taşı oynatmadı. Fırtınanın yaptığı pazarlık budur: piyonlar zaman karşılığında hat satın alır ve o zamanı karşılanabilir kılan şey kilitli merkezdir."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "Aynı Sürüş, Bir Hamle Erken",
+      "text": "Başka bir parti ve beyaz az önce iki hamlesini kanat piyonlarını itmeye harcadı; piyonlar şimdi g4 ile h3'te duruyor.\n\nBuradaki merkez kapalı değil. Siyahın e5'teki piyonu ile beyazın e4'teki piyonu hiç karşılaşmıyor, ortayı beyaz için yalnızca d3'teki tek piyon tutuyor ve siyahın tek bir piyon sürüşü bunların hepsini açık hatlara çeviriyor.\n\nİki tahta arasındaki bütün fark bu. Piyon hamleleri aynı piyon hamleleri. Altlarında yatan şey aynı değil."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "Beyaz Eve Neye Dönüyor",
+      "text": "O iki sürüş oyuna hiçbir taş katmadı. Her biri siyaha hediye edilmiş bedava bir tempodur ve kanat saldırısına merkezden cevap verilir, çünkü merkez, bir kanadın varabileceğinden daha hızlı açılır.\n\nSonra beyazın barınağını sayın. g2 boş ve boş kalacak, çünkü piyonlar geri yürümez. h3'teki piyon, arkasına saklanılacak bir şeyden çok nişan alınacak bir şeydir ve siyahın c8'deki fili onda biten çaprazdan çoktan bakıyor.\n\n> Piyon fırtınası, merkez kapalıyken bir saldırıdır. Değilse kendi şahınızın yanına kazılmış bir çukurdur."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "prompt": "Boşa harcanmış iki kanat hamlesini, beyaz bir taş daha çıkarmadan merkezi açarak cezalandırın.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "Beyazın e4'teki piyonunun bir koruyucusu var, d3'teki piyon; ve bir saldıranı var, f6'daki atınız — sayıyı ikiye çıkaracak bir piyon gönderin."
+    }
+  ]
+}

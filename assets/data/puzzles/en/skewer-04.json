@@ -1,0 +1,14 @@
+{
+  "id": "skewer-04",
+  "fen": "8/5p2/3kp3/6QR/P7/3r1P2/Pq3P2/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kc6",
+    "Qxd3"
+  ],
+  "rating": 1020,
+  "title": "Down the d-File",
+  "setup": "Black's king on d6 and its rook on d3 are lined up on the d-file with empty squares between them.",
+  "hint": "Find the check that puts your queen on the file where the black rook is already standing, behind its king.",
+  "explanation": "## The Idea\n\n{{Qd8+}} lines the queen up in front of the king on the d-file, with the rook on **d3** trapped at the far end. The king has to step off the file, and {{Kc6}} is its only legal move — so {{Qxd3}} wins the rook."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "forks-15",
+  "fen": "r1b1k2r/ppp2ppp/4p3/8/7n/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qa4+"
+  ],
+  "title": "A Dama Dá Xeque e Recolhe",
+  "setup": "As pretas têm uma torre, um bispo e um cavalo pela tua dama, e o cavalo de h4 foi parar à berma sem defensor.",
+  "hint": "Encontra um xeque de dama que ataque também o cavalo.",
+  "explanation": "## A Ideia\n\n{{Qa4+}} dá xeque ao rei de e8 pela diagonal e ataca o cavalo de h4 pela quarta linha. As pretas têm de responder ao xeque, e nenhuma resposta, seja {{Bd7}}, {{c6}}, {{b5}} ou uma jogada de rei, guarda também o cavalo. Na jogada seguinte, {{Qxh4}} come-o, e o material vira a teu favor.\n\nUm garfo de dama é um xeque numa linha e uma peça desprotegida noutra."
+}

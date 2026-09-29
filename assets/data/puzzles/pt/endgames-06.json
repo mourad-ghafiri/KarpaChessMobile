@@ -1,0 +1,11 @@
+{
+  "id": "endgames-06",
+  "fen": "6k1/8/8/2P5/P7/2K5/7B/1b6 b - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "title": "Dois Peões Abaixo e Ainda Empate",
+  "setup": "As brancas têm dois peões a mais e os bispos viajam em cores diferentes. O teu rei em g8 está longe, portanto o bispo tem de segurar sozinho. Jogam as pretas.",
+  "hint": "O peão a acaba em a8 e o peão c tem de atravessar c6. As duas são casas claras, portanto encontra a diagonal que passa pelas duas.",
+  "explanation": "## A Ideia\n\na8 e c6 são casas claras na mesma grande diagonal, e o teu é o bispo das casas claras. {{Be4}} põe-no nessa diagonal, onde vigia as duas ao mesmo tempo e de onde nunca tem de sair. O bispo branco de h2 vive nas casas escuras e nunca lha poderá disputar.\n\nQualquer coisa mais lenta chega tarde: o rei branco alcança b5, um peão pisa c6 sob a sua guarda, e os peões a mais ganham."
+}

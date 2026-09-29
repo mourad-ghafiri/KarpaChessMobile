@@ -1,0 +1,14 @@
+{
+  "id": "decoy-10",
+  "fen": "r2q1r1k/pp2N1pp/8/7Q/8/3R4/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh3#"
+  ],
+  "rating": 1490,
+  "title": "O Mate de Anastasia",
+  "setup": "O teu cavalo em e7 cobre g6 e g8, e só o peão de h7 está entre o rei e a tua dama.",
+  "hint": "O cavalo já é dono das duas casas g. Falta o rei em h7 — como é que insistes?",
+  "explanation": "## A Ideia\n\nEste é o **mate de Anastasia**. {{Qxh7+}} força {{Kxh7}}, e o cavalo de e7 tira g6 e g8. {{Rh3#}} completa a rede: o rei fica numa coluna aberta sem nenhuma casa para onde ir. Aprende o retrato: cavalo em e7, rei arrastado para h7, torre para a coluna h."
+}

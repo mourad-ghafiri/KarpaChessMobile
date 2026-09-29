@@ -1,0 +1,56 @@
+{
+  "id": "french-defense-deep",
+  "title": "Fransız Savunması",
+  "summary": "İki zincir ve ikisinin de dibi ateş altında",
+  "proof": "openings-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Bir Hamle Geç Gelen Merkez Piyonu",
+      "text": "{{e4}} {{e6}}. Siyah, bir merkez piyonuna sakin bir piyonla cevap verir, çünkü asıl mesele bir sonraki hamledir: {{d4}} {{d5}} gelir ve artık siyahın, beyazınkiyle yan yana duran ve arkasında onu destekleyen bir piyonu daha olan bir piyonu vardır.\n\nBedel c8'de oturur. O filin çaprazı dosdoğru siyahın kendi e6 piyonuna çarpar ve onu serbest bırakmak yirmi hamle alabilir. Paris, 1834'te Londra'yı bu açılışla mektupla yendi ve açılış o zamandan beri Fransız adını taşıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+      "title": "Dibe Nişan Alın",
+      "text": "Beyaz yanından ileri sürdü ve piyonlar kilitlendi. Beyazın zinciri d4'ten e5'e uzanıyor ve siyahın şah kanadını gösteriyor; siyahınki e6'dan d5'e uzanıyor ve beyazın vezir kanadını gösteriyor. Her ordu, kendi piyonlarının doğrultulduğu yerde saldırır.\n\nSiyahın dipteki piyonu, her şeyin arkasındaki e6. Beyazınki ise açıkta duran d4. c5'teki piyon ile c6'daki at ona çoktan vuruyor; c3'teki piyon, f3'teki at ve d1'deki vezir de onu tutuyor. Üçe karşı iki ve sıra siyahta.\n\n> Piyon zinciri, ancak dipteki piyonu kadar güçlüdür."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+      "prompt": "Kendi c piyonunuzun arkasından d4'e üçüncü bir taş doğrultun — aynı zamanda b2'ye dikilen kareyi seçin.",
+      "targetSan": [
+        "Qb6"
+      ],
+      "hint": "Şimdi b2'ye vuran ve c piyonunuz değişilip kalktığı anda d4'e vuracak olan taşı bulun."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5",
+      "title": "Öteki Fransız",
+      "text": "Aynı iki açılış hamlesi, başka bir kavga. Beyaz e piyonunu ileri sürmek yerine c3'teki bir atla korudu, siyahın koyu kare fili b4'e gelip o atı şaha karşı açmaza aldı ve beyaz yine de yanından sürdü. Şimdi {{a3}} file niyetini soruyor.\n\nFil geri çekilmez. {{Bxc3+}} {{bxc3}}: siyah bir fil verir ve beyazın b piyonu c dikeyine sürüklenir; artık orada iki beyaz piyon durur ve bunlar bir daha asla ayrıştırılamaz."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "title": "Makbuzu Okumak",
+      "text": "İki taraf da ne satın aldığını biliyor. Beyazın elinde tek file karşı iki fil, şah kanadında yer ve köşedeki kale için yarı açık bir b dikeyi var; siyahın koyu karelerine ise artık bakacak fil kalmadı.\n\nSiyahın elinde daha sağlıklı piyonlar ve duran bir hedef var: c3'teki piyonu koruyan hiçbir şey yok. {{Qa5}}, beyazın şahında biten çapraza iner ve beyazın piyonu desteklemek için {{Bd2}} hamlesine bir tempo harcaması gerekir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "title": "Üç Kare, İki Cevap",
+      "text": "g8'deki atın üç karesi var ve ikisine daha inmeden cevap verilmiş.\n\nf6'yı e5'teki piyon kapsıyor, yani oradaki bir at, bir piyon karşılığında taş kaybettirir. h6 kurallı, ama c1'deki fil dosdoğru oraya dikiliyor ve orada yapılacak değişim siyahın şah barınağını harabeye çevirir.\n\nGeriye tek bir kare kalıyor. Oradan at, d4'e yeniden saldıracağı ve henüz hiçbir beyaz piyonun kapsamadığı f5'e bir sıçrayış uzaklıkta olur."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "prompt": "Şahınızın yanındaki atı, onu f5'e bir sıçrayış uzaklıkta bırakan tek kareye çıkarın.",
+      "targetSan": [
+        "Ne7"
+      ],
+      "hint": "Karelerinden birini bir piyon kapsıyor, biri şahınızın önündeki örtüyü mahveden bir değişime davetiye çıkarıyor; üçüncüsü aradığınız hamle."
+    }
+  ]
+}

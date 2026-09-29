@@ -1,0 +1,13 @@
+{
+  "id": "openings-03",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/2N2N1P/PP2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "Nxd4",
+    "Qh2#"
+  ],
+  "title": "The Siberian Trap",
+  "setup": "Black took White's offered pawn, put the queen on c7 and jumped a knight to g4; White has just played h3.",
+  "hint": "Your queen and one knight already aim at the same square beside White's king. Ask which white piece is still guarding it.",
+  "explanation": "## The Idea\n\nThe queen on c7 and the knight on g4 both hit h2, and apart from the king only the knight on f3 guards it.\n\n{{Nd4}} attacks the queen on e2 and offers White a knight to take. Taking this one is fatal: {{Nxd4}} removes the last guard of h2, and {{Qh2#}} follows, with the knight on g4 defending the queen. White's best is to give up the queen instead.\n\nBefore you chase a piece, count who is guarding the square behind you."
+}

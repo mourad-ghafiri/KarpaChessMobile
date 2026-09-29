@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-31",
+  "fen": "k7/8/1K6/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "La jaula de la esquina",
+  "setup": "El rey negro está acorralado en a8 con tu rey a un salto de caballo, protegiendo las dos casillas de escape.",
+  "hint": "Tu rey ya domina a7 y b7. Una jugada de dama se lleva todo lo demás.",
+  "explanation": "## La idea\n\nA un rey acorralado solo hay que quitarle su fila. Tu rey de b6 cubre a7 y b7.\n\n{{Qg8#}} da jaque desde el otro lado del tablero, b8 está en la línea de la dama y nada puede tapar.\n\nContra un rey acorralado, tu propio rey sella las casillas de al lado y cualquier jaque por la última fila es mate."
+}

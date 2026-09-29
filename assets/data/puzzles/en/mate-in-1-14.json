@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-14",
+  "fen": "7R/8/8/8/8/1K6/8/k7 w - - 0 1",
+  "solution": [
+    "Rh1#"
+  ],
+  "title": "Edge of the World",
+  "setup": "Black's king is stuck in the a1 corner, and your king on b3 covers a2 and b2.",
+  "hint": "Your king already covers the squares above Black's king. Your rook only has to check it where it stands.",
+  "explanation": "## The Idea\n\nYour king has done the hard work: on b3 it covers a2 and b2, so Black's king has only b1 left.\n\n{{Rh1#}} checks along the first rank, and b1 is on the rook's line too. Nothing can block, and the king cannot reach the rook.\n\nIn a king and rook ending, your king takes the squares in front of the enemy king, and the rook checks from a distance."
+}

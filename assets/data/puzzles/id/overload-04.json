@@ -1,0 +1,14 @@
+{
+  "id": "overload-04",
+  "fen": "2r3k1/5ppp/3R4/8/3Q4/1R6/PP6/K5b1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Qxd8#"
+  ],
+  "rating": 1370,
+  "title": "Benteng Dulu, Menteri Kemudian",
+  "setup": "Benteng Anda di d6 dan menteri di d4 sama-sama memandang ke bawah lajur d ke baris belakang yang hanya dijaga benteng di c8.",
+  "hint": "Urutannya penting. Putuskan buah mana yang rela ditangkap dan mana yang harus memberikan matnya.",
+  "explanation": "## Ide\n\n{{Rd8+}} adalah yang murah: {{Rxd8}} terpaksa dan benteng c8 meninggalkan baris yang dijaganya. {{Qxd8#}} menuntaskan. Majukan buah yang bisa Anda relakan, dan simpan buah yang memberi mat."
+}

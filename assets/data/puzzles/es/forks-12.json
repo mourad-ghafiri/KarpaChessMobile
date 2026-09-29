@@ -1,0 +1,13 @@
+{
+  "id": "forks-12",
+  "fen": "r5k1/p5pp/1p6/2p5/7q/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qd5+",
+    "Kf8",
+    "Qxa8+"
+  ],
+  "title": "Una dama, dos diagonales",
+  "setup": "Las dos damas han salido, el material está igualado y la torre negra de a8 todavía no se ha movido.",
+  "hint": "Tu dama puede llegar a una casilla que da jaque por una línea y golpea a la torre por otra.",
+  "explanation": "## La idea\n\n{{Qd5+}} da jaque al rey de g8 por una diagonal y ataca a la torre de a8 por la otra. Con f7 vacía y ninguna pieza negra que llegue a e6 o f7, el jaque no se puede tapar, así que el rey tiene que apartarse. Tras {{Kf8}}, {{Qxa8+}} captura la torre con jaque.\n\nUna dama da horquillas por sus líneas: busca la casilla donde dos de ellas encuentran dos objetivos."
+}

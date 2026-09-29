@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-07",
+  "fen": "8/8/8/2P5/5p2/3K3k/8/8 w - - 0 2",
+  "solution": [
+    "c6"
+  ],
+  "rating": 1315,
+  "title": "Os Dois Peões Correm",
+  "setup": "As pretas acabaram de empurrar o peão para a quarta, e o rei branco está perto o suficiente para ficar tentado.",
+  "hint": "Voltar para trás para travar o peão preto custa uma jogada; conta as duas corridas até à oitava linha antes de decidires.",
+  "explanation": "## A Ideia\n\nPerseguir o peão f só empata. {{c6}} ganha a corrida: depois de {{Kg3}} o peão corre até c7 e faz dama em c8 enquanto o peão preto só chegou a f3, e a tua dama nova e o teu rei travam depois o corredor.\n\nNuma corrida pura, conta as jogadas dos dois peões até à última linha antes de voltares para trás a perseguir."
+}

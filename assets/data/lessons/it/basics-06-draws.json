@@ -1,0 +1,77 @@
+{
+  "id": "draws",
+  "title": "Mezzo Punto",
+  "summary": "Cinque modi di finire senza vincitore, e quello che tende un agguato a chi stava vincendo",
+  "proof": "draws-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Nessuna Mossa, Nessuno Scacco",
+      "text": "Il Nero ha un re e nient'altro. Il Bianco ha una donna, e il matto è a una mossa: che è esattamente il momento in cui una partita si butta via.\n\nIl re nero in h8 ha una sola casa. Il re bianco in g6 tiene già g7 e h7, quindi resta soltanto g8.\n\n{{Qd5}} toglie anche g8. Il Nero non è sotto scacco. Il Nero non ha nessuna mossa legale. Questo è lo **stallo**, e chiude la partita seduta stante."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Mezzo Punto a Testa",
+      "text": "Uno stallo è una **patta**. Tutti e due i giocatori segnano mezzo punto, e non conta nulla che uno abbia una donna e l'altro un re nudo.\n\nÈ per questo che la regola morde. Qui il Bianco sta vincendo secondo qualsiasi metro della scacchiera, e può comunque uscirne con metà.\n\nC'è una strada più gentile verso lo stesso risultato: ciascun giocatore può offrire patta, e se l'avversario accetta la partita si ferma lì. Quella non richiede nessuna astuzia."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "prompt": "Coprite di nuovo g8, stavolta con scacco, così la partita finisce a matto e non con una stretta di mano.",
+      "targetSan": [
+        "Qd8#"
+      ],
+      "hint": "Il vostro re tiene già g7 e h7, quindi la donna vuole la traversa su cui si trova il re nero."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Non Resta Niente per Dare Matto",
+      "text": "Nuova scacchiera, nuova regola. Il Bianco ha un re in c2 e un cavallo in c3. Il Nero ha un re in a5 e un pedone in a2, a una casa da una donna nuova — e una donna contro un cavallo solo è una partita che il Nero dovrebbe vincere.\n\nQuindi tutta la partita è quel pedone. Toglietelo e l'esercito del Nero è un re che gira da solo.\n\nUn re e un cavallo non possono mai dare scacco matto a un re solo. Né per forza, né per fortuna, né con aiuto."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Posizioni Morte",
+      "text": "Quando nessuna sequenza di mosse legali può produrre lo scacco matto per nessuna delle due parti, la partita è patta all'istante. Quattro finali rientrano nel caso:\n\n- re contro re\n- re e alfiere contro re\n- re e cavallo contro re\n- re e alfiere contro re e alfiere, con gli alfieri su case dello stesso colore\n\nDue cavalli contro un re nudo non sono in quella lista. Lì il matto non si può forzare, ma si può raggiungere se chi difende ci finisce dentro da solo, e quindi la partita continua."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "prompt": "Togliete dalla scacchiera l'unico pezzo nero che può ancora vincere questa partita.",
+      "targetSan": [
+        "Nxa2"
+      ],
+      "hint": "Contate quello che resta dopo e confrontatelo con la lista dei quattro casi."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Patte da Reclamare",
+      "text": "Altre due strade verso mezzo punto, e questa scacchiera è fatta apposta per entrambe: nessun pedone da spingere e un solo pezzo che si possa ancora catturare.\n\nCinquanta mosse per parte senza prese e senza mosse di pedone: a quel punto ciascun giocatore può reclamare la patta. Oppure la stessa **posizione** compare tre volte, con la stessa parte al tratto, gli stessi diritti di arrocco e la stessa possibilità di presa en passant, e anche quella si può reclamare.\n\nA ripetersi è la posizione, non le mosse che ci hanno portato."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Nessuno la Reclama al Posto Vostro",
+      "text": "Alle cinquanta mosse o alla terza ripetizione non succede niente da solo. Un giocatore deve reclamare la patta, e chi non sta contando non la reclama.\n\nAnche lo scacco perpetuo è soltanto questo. Dare scacco per sempre non è una regola a sé: gli scacchi riportano indietro la stessa posizione una volta dopo l'altra, e qualcuno reclama la ripetizione.\n\nFanno quattro finora: stallo, posizione morta, conto delle cinquanta mosse e stessa posizione tre volte. Il quinto è l'offerta che ciascuno può fare in qualunque momento."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "L'Incidente",
+      "text": "Ora la regola punta verso di voi. Il Nero ha una donna intera in più, il re bianco in h1 ha finito la scacchiera e tocca al Nero.\n\n{{Qg3}} sembra la rete che si chiude: g1, g2 e h2 coperte tutte insieme. Ma h1 non è attaccata, quindi non è scacco, e il Bianco non ha nient'altro da muovere. Stallo. Una partita vinta, restituita.\n\n> Prendete l'ultima casa con scacco, oppure non prendetela ancora."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "prompt": "La donna ha fatto abbastanza: portate invece il re una casa più vicino all'angolo del Bianco.",
+      "targetSan": [
+        "Kd5"
+      ],
+      "hint": "c6 e h1 stanno sulla stessa grande diagonale, quindi il re può semplicemente percorrerla."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-04",
+  "fen": "5B2/5k2/7r/8/2R3p1/R5K1/b7/6Q1 w - - 0 1",
+  "solution": [
+    "Qa7+",
+    "Ke6",
+    "Ra6+",
+    "Kd5",
+    "Qd4#"
+  ],
+  "rating": 1455,
+  "title": "Deux tours sur deux rangées",
+  "setup": "Le roi noir est en f7 avec une tour en h6 et un fou en a2, et vos tours commandent les troisième et quatrième rangées.",
+  "hint": "Les seules cases sûres du roi sont devant lui. Déterminez où il finit après deux échecs, et placez-y une pièce d'abord.",
+  "explanation": "## L'idée\n\n{{Qa7+}} le chasse en e6, {{Ra6+}} en d5, et {{Qd4#}} attend. Les tours ne prennent jamais rien — elles servent à retirer des rangées, et la dame encaisse."
+}

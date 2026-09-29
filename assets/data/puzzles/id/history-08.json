@@ -1,0 +1,13 @@
+{
+  "id": "history-08",
+  "fen": "r4rk1/pp3ppp/8/8/8/2N5/PPP2PPb/R3RK2 w - - 0 1",
+  "solution": [
+    "g3",
+    "Bxg3",
+    "fxg3"
+  ],
+  "title": "Langkah Paling Tenang",
+  "setup": "Gajah hitam baru saja mengambil pion h2 begitu saja, dan raja Putih di f1 tak bisa mencapainya.",
+  "hint": "Jangan kejar gajah itu dengan sebuah buah. Raja sudah menguasai g1, jadi satu-satunya jalan keluarnya adalah diagonal. Langkah pion mana yang menutupnya?",
+  "explanation": "## Ide\n\nTanpa sekak, tanpa apa pun untuk diambil: langkah yang menang adalah langkah paling tenang di papan, jenis langkah yang ditemukan mesin dan diragukan manusia.\n\n{{g3}} menutup diagonal gajah, dan raja di f1 sudah menguasai g1. Kini {{Bxg3}} adalah upaya Hitam yang paling tidak buruk, dan {{fxg3}} membuat Putih unggul satu buah dengan imbalan pion. {{Bg1}} langsung menyerahkannya kepada raja, dan menunggu membiarkan {{Kg2}} datang menjemputnya.\n\nSebelum Anda mengejar buah yang masuk jauh ke kubu Anda, hitung dulu jalan keluarnya."
+}

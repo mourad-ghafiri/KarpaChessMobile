@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-03",
+  "fen": "7k/6pp/8/8/8/8/1R6/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "h8'de Duvara Alınmış",
+  "setup": "İki kaleniz de b dikeyinde duruyor ve siyahın şahı kendi iki piyonunun arkasında, köşede sıkışmış.",
+  "hint": "Şahı kendi piyonları duvara almış. Kalelerinizden hangisi onun yatayına ulaşabiliyor?",
+  "explanation": "## Fikir\n\n{{Rb8#}} arka yatay boyunca şah çeker. h8'deki şah, kalenin hattında olan g8'e adım atamaz; g7 ile h7'de kendi piyonları durur. Siyahın hiçbir şeyi kaleyi alamaz ya da araya giremez.\n\nİkinci kalenin burada bir rolü yok: rakip şah kendi piyonlarıyla duvara alınmışsa tek kale yeter."
+}

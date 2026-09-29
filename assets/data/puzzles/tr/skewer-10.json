@@ -1,0 +1,14 @@
+{
+  "id": "skewer-10",
+  "fen": "8/4p3/1Qpk2qB/NP6/3p4/PP1Pb3/2n4K/8 w - - 0 1",
+  "solution": [
+    "Qxc6+",
+    "Ke5",
+    "Qxg6"
+  ],
+  "rating": 1240,
+  "title": "Piyon Kapma, Vezir Kazanma",
+  "setup": "Siyahın d6'daki şahı ile g6'daki veziri altıncı yatayı paylaşıyor ve siyahın bir piyonu c6'yı işgal ediyor.",
+  "hint": "Vezirinizin altıncı yatayda ihtiyaç duyduğu kare dolu. Onu alabilir misiniz ve şah geri almaya cesaret eder mi?",
+  "explanation": "## Fikir\n\nVeziriniz altıncı yatayı istiyor ve **c6**'daki piyon tam ihtiyaç duyduğu karede oturuyor. {{Qxc6+}} onu şah çekerek alır ve **b5**'teki piyon c6'yı kapsadığı için şah taş alamaz. {{Ke5}} mecburidir ve {{Qxg6}} veziri kazanır."
+}

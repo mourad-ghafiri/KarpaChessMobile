@@ -1,0 +1,56 @@
+{
+  "id": "k-p-vs-k",
+  "title": "King and Pawn vs King",
+  "summary": "A pawn down, and the two squares that hold the draw",
+  "proof": "endgame-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "One File From the Edge",
+      "text": "A pawn down with the enemy king already escorting it is normally a formality. Not on this file.\n\nWhite's pawn on a6 promotes on a8, and a8 is a corner square with three neighbors instead of five. That shortage belongs to the attacker: to force a king off b8 and a8, White needs squares that the edge of the board never provided.\n\nYour king on c8 has one step that turns the corner into a wall, and two that hand White the game."
+    },
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "The Step That Loses",
+      "text": "Distance from the pawn feels safe, and here it is fatal.\n\n{{Kd8}} keeps your king a comfortable file away. {{Kb7}} answers it, and every square around the pawn now belongs to White. {{Kd7}} is the only step left that stays anywhere near, and {{a7}} sends the pawn off with a clear road and a king holding the door.\n\nYou were never going to outrun that pawn. The corner was the only asset on the board, and stepping away from it gave the corner up."
+    },
+    {
+      "type": "play",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "prompt": "Move to the one square that leaves White's king no room at all beside the pawn.",
+      "targetSan": [
+        "Kb8"
+      ],
+      "hint": "Look for the square where White must either give up the pawn or leave you with no legal move at all."
+    },
+    {
+      "type": "teach",
+      "fen": "1k6/8/PK6/8/8/8/8/8 w - - 11 9",
+      "title": "White Runs Out of Board",
+      "text": "Now let White try.\n\n{{a7+}} is check, and {{Ka8}} is the only reply that does not simply let the pawn queen. Your king is in the corner, and White's king on b6 needs b7 to make anything of the pawn. It cannot have b7: your king covers that square from a8.\n\nSo White has to step aside. {{Ka6}}, and look at what you own — b7 and b8 are both covered, your king has nowhere to go, and nothing is giving check. Stalemate. Any other white step lets your king walk to a7 and take the pawn."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "The Other Board",
+      "text": "Take the corner away and the whole method changes. The pawn is on d5, and d8 is an ordinary square with an ordinary five neighbors.\n\nYour king on d7 is already doing half the job: it stands on the pawn's road, ahead of it, and a pawn cannot walk through a king.\n\nThe other half is the white king on c5, and it is the half that gets forgotten.\n\n> In front of the pawn, and facing the enemy king across one empty square. Both, every time."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "Backward Is Not Sideways",
+      "text": "The instinct is to back off down the file and keep the pawn in front of you. It loses.\n\n{{Kd8}} looks like the same defense one rank further back. {{Kd6}} answers it: the white king is in front of the pawn now, one square from yours, and you are the one who has to move. {{Kc8}} steps aside, e8 being the same story mirrored, {{Ke7}} walks around you, and the pawn follows at its leisure."
+    },
+    {
+      "type": "play",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "prompt": "Take the opposition against White's king so that White, not you, is the one who must commit.",
+      "targetSan": [
+        "Kc7"
+      ],
+      "hint": "Kings face each other down a file with one empty square between them, and White's king is not on the file yours is."
+    }
+  ]
+}

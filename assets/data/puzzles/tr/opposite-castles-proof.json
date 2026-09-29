@@ -1,0 +1,13 @@
+{
+  "id": "opposite-castles-proof",
+  "fen": "4r1k1/pp2pp1p/2bp1npQ/q2N4/4PN2/5P2/PPP5/2K4R w - - 3 24",
+  "solution": [
+    "e5",
+    "Bxd5",
+    "exf6"
+  ],
+  "title": "Levye Piyonu",
+  "setup": "Şahlar zıt kanatlarda. Veziriniz ile kaleniz h dikeyini paylaşıyor, siyahın a5'teki veziri a2'yi gözlüyor ve h7'yi şahla birlikte yalnızca f6'daki at koruyor.",
+  "hint": "f6'daki atı h7'den, elinizdeki en ucuz taşla uzaklaştırın ve cevabı ne olursa olsun siyaha bir bedel ödetin.",
+  "explanation": "## Fikir\n\nZıt kanatlardaki şahlar bunu bir yarışa çevirir ve siyahın veziri çoktan sizin şahınıza doğrultulmuştur. Önce siz vurun, üstelik bir piyonla. {{e5}} f6'daki ata vurur; o at, şahtan başka h7'yi koruyan tek taştır.\n\nSiyahın en iyisi {{Bxd5}} ile bir atı geri kapmaktır. Bu hiçbir şeyi değiştirmez: {{exf6}} koruyucuyu yine de kaldırır. Siyah geri alır almaz h dikeyindeki vezir ile kale h7'den geçer ve {{Qxh7+}} ile {{Qh8+}} şahı ortaya sürer; orada bir taştan çok daha fazlasını kaybeder."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pin-03",
+  "fen": "8/1k2pp2/1b6/3r4/8/P2BP3/3R4/4K3 w - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "rating": 880,
+  "title": "Deux attaquants, aucune issue",
+  "setup": "Votre fou en d3 se tient devant votre propre tour, et la tour noire en d5 barre la route aux deux.",
+  "hint": "Votre fou bloque votre propre tour. Où peut-il aller pour que la tour noire ne puisse toujours pas bouger d'une case ?",
+  "explanation": "## L'idée\n\n{{Be4}} fait deux choses à la fois. Il cloue la tour en **d5** sur le roi en **b7**, et en quittant d3 il permet à votre tour en **d2** d'attaquer aussi d5. Deux attaquants, aucun défenseur, et une tour qui n'a pas le droit de bouger."
+}

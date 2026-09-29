@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-09",
+  "fen": "5k2/6pp/p7/1p3p2/8/3B4/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Bxf5"
+  ],
+  "title": "Dois Peões, Um Seguro",
+  "setup": "O teu bispo em d3 ataca dois peões pretos, um em cada diagonal. Só um deles se pode comer de graça.",
+  "hint": "Olha uma casa na diagonal atrás de cada peão. Um tem lá um amigo, o outro está sozinho.",
+  "explanation": "## A Ideia\n\nOs dois peões estão nas diagonais do teu bispo, mas só um está grátis.\n\n{{Bxb5}} perde o bispo para {{axb5}}, porque o peão de a6 guarda b5. {{Bxf5}} ganha um peão sem mais, já que nada guarda f5. Espera uma jogada e as pretas jogam {{g6}} para o guardar.\n\nOs peões guardam as casas na diagonal à sua frente. Antes de comeres, olha uma casa na diagonal atrás do alvo."
+}

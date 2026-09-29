@@ -1,0 +1,13 @@
+{
+  "id": "openings-07",
+  "fen": "r2qkbnr/ppp2ppp/2np4/4N3/2B1P3/2N4P/PPPP1PP1/R1BbK2R w KQk - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Nd5#"
+  ],
+  "title": "La trampa de Legal",
+  "setup": "Las Blancas ignoraron la clavada y comieron en e5, y las Negras acaban de cobrárselo comiéndote la dama.",
+  "hint": "Has perdido la dama y da igual. Cuenta las casillas alrededor de e8 y encuentra el jaque que quita la última libre.",
+  "explanation": "## La idea\n\nTres piezas menores están a punto de dar mate a un rey que conserva todo su ejército sobre el tablero.\n\n{{Bxf7+}} deja a las Negras una sola jugada, {{Ke7}}: en d8 y f8 están su propia dama y su alfil, y d7 lo cubre el caballo de e5. Luego {{Nd5#}}: el caballo da jaque y cubre f6, el alfil cubre e6 y e8, y en d6 está un peón negro.\n\nEl caballo de e5 nunca fue por el peón. Es la pieza que quita d7.\n\nCuenta las casillas de escape, no el material."
+}

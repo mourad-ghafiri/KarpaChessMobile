@@ -1,0 +1,12 @@
+{
+  "id": "pin-12",
+  "fen": "5k2/7p/5p2/4n2B/2q3r1/2P2N1P/5Qb1/6K1 w - - 0 1",
+  "solution": [
+    "Nxe5"
+  ],
+  "rating": 1200,
+  "title": "The Pin Arrives Late",
+  "setup": "Black's knight on e5 is defended by the f6-pawn, and your own knight on f3 is blocking your queen.",
+  "hint": "The pawn guarding e5 is free to capture right now. What changes on the f-file the moment your knight leaves?",
+  "explanation": "## The Idea\n\n{{Nxe5}} wins a piece. The f6-pawn defends e5 — until your knight steps off f3 and your queen on **f2** sees the whole file to the king on **f8**. The pawn is pinned the instant it is needed, so it cannot recapture."
+}

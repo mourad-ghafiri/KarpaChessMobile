@@ -1,0 +1,11 @@
+{
+  "id": "endgames-05",
+  "fen": "8/8/8/8/B6k/p7/7p/2K5 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "D'un bout à l'autre en un coup",
+  "setup": "Le pion h noir va à dame au coup suivant et le pion a en a besoin de deux de plus. Votre fou en a4 est la seule pièce qui peut atteindre l'autre aile à temps.",
+  "hint": "Le pion h est promu sur une case blanche. Trouvez la diagonale blanche qui passe par h1, puis la seule case de celle-ci que votre fou peut atteindre.",
+  "explanation": "## L'idée\n\nh1 est une case blanche, et la seule diagonale blanche qui y passe va de a8 à h1. Depuis a4, votre fou la rejoint en un coup, {{Bc6}}, et de là il surveille la case de promotion pour de bon.\n\nVotre roi en c1 s'occupe de l'autre coureur : il est à un pas de b2, d'où il couvre a2 et a1. Un cavalier à la place du fou n'aurait pas pu atteindre à temps une case couvrant h1, et tout autre coup laisse le pion h aller à dame."
+}

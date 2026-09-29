@@ -1,0 +1,11 @@
+{
+  "id": "endgames-04",
+  "fen": "4K3/k3P3/8/8/8/8/2R5/7r w - - 0 1",
+  "solution": [
+    "Rc4"
+  ],
+  "title": "Lay the Plank First",
+  "setup": "The pawn is one square from queening and your king stands on the square it needs. Build the king's shelter from the checks before it steps out.",
+  "hint": "Work out where your king will be standing when the checks start, then give the rook a square that king can defend.",
+  "explanation": "## The Idea\n\n{{Rc4}} builds the bridge before the king steps out. On the fourth rank the rook waits for the checks: once the king has walked down beside it, the rook steps across and blocks on a square the king defends. From c4 it also keeps cutting Black's king off from the pawn.\n\nWith Black's king this far away, stepping out at once also wins. The bridge is the method that works in every Lucena position, which is why it is worth playing even here."
+}

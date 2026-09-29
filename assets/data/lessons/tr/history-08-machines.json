@@ -1,0 +1,62 @@
+{
+  "id": "chess-and-machines",
+  "title": "Makineler",
+  "summary": "Kâğıt üstünde Turing, tahtada Deep Blue ve on dokuzuncu hamlede terk eden bir şampiyon",
+  "proof": "history-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "Bilgisayarsız Bir Program",
+      "text": "1948 dolaylarında Alan Turing ile David Champernowne kâğıt üstünde bir satranç programı yazdı. Bilgisayarlar vardı — sorun, Turing'in ulaşabildiği hiçbirinin bu programı çalıştıramamasıydı.\n\n*Turochamp* bir sayfalık kuraldı: her iki tarafın elindekini sayarak pozisyonu puanla, bir iki hamle ileriye bak, en yüksek puanı alan varyantı oyna.\n\n1952'de Turing onu meslektaşı Alick Glennie'ye karşı elle işletti — hamle başına yaklaşık yarım saat hesap. *Turochamp* kaybetti. Turing'in yaşamı boyunca hiçbir bilgisayarda çalışmadı ve hâlâ yazılmış ilk satranç programı sayılır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "New York, 1997",
+      "text": "Kasparov 1996'da Deep Blue'yu dörde iki yendi. IBM makineyi götürdü, yeniden kurdu ve rövanş istedi.\n\nNew York, Mayıs 1997, yine altı parti. Deep Blue üç buçuğa iki buçuk kazandı — hüküm süren bir dünya şampiyonunun bir bilgisayara ilk kez maç kaybetmesi. Fark tek partiydi.\n\nBu, altı partinin sonuncusu ve beyazı oynayan makine."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "f7'deki Kapı",
+      "text": "Siyah az önce piyonu h6'ya sürdü ve bu, g5'teki ata nerede durmayı yeğlediğini soruyor.\n\ne8'deki siyah şahın önünde tek bir şey var: f7'deki piyon. Beyazın d3'teki fili f5 ile g6 üzerinden geçen çapraza çoktan bakıyor; yani o piyon ayrıldığı anda arkasından bir şah gelir.\n\n{{Bg6}} onu ayrılmaya zorlar. Aynı zamanda bir fili bedavaya kaybeder — {{fxg6}}.\n\nBir piyon, siz tehdit ettiniz diye oynamaz. Almak için oynar."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "prompt": "f7'deki piyona alacak bir şey verin ve arkasından şah çekecek fili elinizde tutun.",
+      "targetSan": [
+        "Nxe6"
+      ],
+      "hint": "Siyahın e6'daki piyonunu koruyanları sayın. Tam bir tane var ve o da tam oynatmanız gereken piyon."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Tek Kurallı Hamle",
+      "text": "Atı hemen alın, iş şurada bitsin: fil şah çekerek g6'ya iner ve siyahın bütün tahtada tam olarak tek bir kurallı cevabı olur. Kötü kareler arasında bir seçim değil. Tek bir hamle.\n\nBöylece e7'deki siyah şah kendi d8'deki vezirinin ve kendi f8'deki filinin önünde durur ve rok hakkı temelli gider.\n\nTaşları sayın: siyah bir piyona karşılık bir at önde. Kareleri sayın: siyahın işi bitmiş."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Acele Yok",
+      "text": "Kasparov atı hemen almadı. Bunun yerine vezir çıktı — ve Deep Blue rok yaparak cevap verdi; at hâlâ e6'da alınmadan duruyordu, koca bir taş orada alınmayı bekliyordu.\n\nFedanın kendisi zaten kitaplardaydı. İnsanları huzursuz eden şey, makinenin sonrasındaki tam bir acelesizliğiydi.\n\nTaş alma bir hamle sonra geldi ve bu, o şahı e7 yerine d8'e gönderdi. Kasparov on dokuzuncu hamlede terk etti; maçın en kısa partisi."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Sonrasında Ne Geldi",
+      "text": "Deep Blue, kurallar hâlinde yazılmış insan satranç bilgisiydi ve saniyede iki yüz milyon pozisyon tarıyordu.\n\n2017'de **AlphaZero**'ya yalnızca kurallar verildi; kendisine karşı milyonlarca parti oynadı ve romantiklerin tanıyacağı bir tarza vardı. 2020'den beri en güçlü açık kaynaklı motor olan ve bu uygulamanın içinde çalışan **Stockfish**, pozisyonları şogiden ödünç alınmış küçük bir sinir ağıyla değerlendiriyor.\n\nSatrancı kimse çözmedi. Yedi ya da daha az taş bir tablodan bakılabilir; otuz iki taş buna yakın bile değil.\n\n> Makine oraya bütün varyantları sayarak varır. Siz şekli tanıyarak varırsınız — ve önünüzdeki şekillerin adları var."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "prompt": "Siyahın hiçbir şeyi kaçmıyor; öyleyse hamleyi kendi şahınıza harcayın.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Bu tahtada beyazın iki taşını birden oynatan tam olarak tek bir hamle var."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-01",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq g3 0 2",
+  "solution": [
+    "Qh4#"
+  ],
+  "rating": 600,
+  "title": "Deux pions de trop",
+  "setup": "Les deux premiers coups des Blancs ont ouvert la seule diagonale qui aboutit à leur propre roi.",
+  "hint": "Une seule ligne vise le roi blanc, et une seule pièce noire peut s'y placer à ce coup.",
+  "explanation": "## L'idée\n\nLes pions f et g sont les deux coups qui privent e1 de protection sur la diagonale h4–e1. {{Qh4#}} arrive sans rien pour s'interposer ni rien pour la prendre. Gardez ces deux pions chez eux tant que votre roi vit derrière eux."
+}

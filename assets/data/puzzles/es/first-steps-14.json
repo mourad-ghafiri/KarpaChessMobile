@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-14",
+  "fen": "4r2k/1q4pp/8/6B1/8/8/3P1PPP/3RKR2 w - - 0 1",
+  "solution": [
+    "Be3"
+  ],
+  "title": "Levanta el escudo",
+  "setup": "La torre negra da jaque a tu rey por la columna e abierta, y tus propias piezas han encerrado al rey. Hay que cerrar la línea.",
+  "hint": "Dos de tus jugadas tapan el jaque. Solo una llega a una casilla que protege un compañero.",
+  "explanation": "## La idea\n\nUn jaque por una línea tiene tres respuestas: huir, capturar o tapar. Tu rey no tiene casilla y nada llega a la torre de e8, así que tienes que tapar.\n\n{{Be3}} tapa en una casilla que protegen a la vez los peones de d2 y f2, así que {{Rxe3+}} daría una torre por un alfil. {{Be7}} también tapa, pero nada protege e7, y {{Rxe7#}} es mate.\n\nEl mejor escudo es uno protegido."
+}

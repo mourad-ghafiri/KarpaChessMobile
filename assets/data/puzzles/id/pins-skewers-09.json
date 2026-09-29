@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-09",
+  "fen": "r3k3/pp2nppp/8/3P4/8/7B/PP2RPPP/6K1 w - - 0 1",
+  "solution": [
+    "d6"
+  ],
+  "title": "Kuda yang Terjepit",
+  "setup": "Kuda Hitam di e7 terjebak di antara benteng Anda dan rajanya sendiri, tetapi raja menjaganya.",
+  "hint": "Benteng untuk kuda adalah pertukaran yang buruk. Buah Anda mana yang bisa menyerang e7 dengan lebih murah?",
+  "explanation": "## Ide\n\nKuda yang terjepit terhadap rajanya sama sekali tak bisa bergerak, karena setiap lompatan meninggalkan garis itu. {{Rxe7+}} sekarang akan kehilangan benteng karena {{Kxe7}}, jadi bawa penyerang yang lebih murah. {{d6}} menyerang kuda dan juga menjaga e7. Sesudah {{Rd8}}, {{Rxe7+}} mengambil kuda, dan raja tak bisa menangkap balik.\n\nKetika buah yang terjepit dilindungi, jangan bertukar ke dalamnya: tambahkan penyerang termurah Anda."
+}

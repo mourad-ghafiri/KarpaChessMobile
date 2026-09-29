@@ -1,0 +1,62 @@
+{
+  "id": "online-chess",
+  "title": "Çevrimiçi Satranç",
+  "summary": "Havuz, ön hamle ve sessiz yasak",
+  "proof": "culture-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Bir Partiye Dört Saniye",
+      "text": "Çevrimiçi bir parti yaklaşık dört saniyede başlar. Bir süre kontrolü seçersiniz, sunucu sizi puanınıza yakın olup aynı kontrolü arayan herkesin havuzuna bırakır ve hâlâ bekleyenlerin en yakınıyla eşleştirir. Katılım ücreti yok, yolculuk yok, salon yok.\n\nHavuzun size en sık verdiği şey hızlı bir partidir: üç dakika ya da bir. Hız, bu formatın varsayılan ayarıdır ve bu pozisyonun konusu da hızdır. Siyah az önce e5'teki piyonu f piyonuyla destekledi; oysa bir şahın gözden çıkaramayacağı tek piyon odur."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "İnmeden Önce Doldurulmuş",
+      "text": "Ön hamle, rakibiniz hâlâ düşünürken doldurduğunuz bir cevaptır. Onun hamlesi indiği anda sizinki oynar: tepki süresi yok, saatinizden neredeyse hiçbir şey gitmiyor. Bir dakikalık bir partinin oynanabilir olmasının tek sebebi budur.\n\nAynı zamanda kördür. Sıraya alınmış hamle, hayal ettiğiniz pozisyona değil, gerçekte oluşan pozisyona ateş eder.\n\nYani {{Nxe5}} burada bir vahim hata değil. Bir davet. {{fxe5}} ona cevap verir, çünkü geri alma daha at inmeden sıraya konmuştu ve f piyonu siyahın şahının tek örtüsüydü.\n\n> Ön hamle zaman satın alır ve muhakeme harcar."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp2pp/8/4p3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+      "prompt": "Sıraya konmuş geri alma f7'yi çırılçıplak bıraktı; siyaha düşünecek bir hamle daha verilmeden şah çekerek çıkın.",
+      "targetSan": [
+        "Qh5+"
+      ],
+      "hint": "Taşlarınızdan biri, aynı anda e8'deki şaha ve e5'teki boştaki piyona vuran bir kareye ulaşabiliyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "O Yürüyüş Nerede Bitti",
+      "text": "Dört şah sonra siyahın şahı sekizinci hamlede h6'da duruyor ve iki kalesi de başladıkları karelerde oturuyor. Sürü işini f5'teki vezir gördü.\n\nBir masanın başında bu yürüyüş birinin öğleden sonrasına mal olurdu. Çevrimiçi on beş saniyeye mal olur ve rövanş teklifi, şok gelmeden önce gelir. İki ortam arasındaki ilk dürüst fark burada ve o da hacim. Çevrimiçi tek bir akşam, 1950'nin bir kulüp oyuncusunun bir sezonda oynadığından daha çok parti barındırır ve bunların her biri kaydedilir, süresi tutulur ve aranabilir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Tek Hamle Hiçbir Şey Kanıtlamaz",
+      "text": "Kaydedilmiş bütün o satranç aynı zamanda delildir; dürüst oyunun sağlanma biçimi de budur.\n\nAklı başında her oyuncu zaman zaman motorun seçimini bulur ve bu saldırı beş yüz yıllık kitaplarda geçer. Bu yüzden tespit istatistikseldir. Sizin seçimleriniz yüzlerce parti boyunca motorun tercihiyle karşılaştırılır; her pozisyonun ne kadar zor olduğuna ve saatin nasıl harcandığına göre ağırlıklandırılır. Altı keskin pozisyonda, her birinde aynı dümdüz iki saniyeyle, tek doğru hamleyi üreten biri bir hamleye göre yargılanmıyordur. Bir örüntü ölçülüyordur."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Adı Konmadan Kapatılır",
+      "text": "Hesaplar ilan edilerek değil, sessizce kapatılır. Delil bir olasılıktır, itiraf değil; ve kuşkuya dayalı açık bir suçlama, kaçırılmış bir hilenin verdiğinden çok zarar verir.\n\nBütün bunların çevresinde büyüyen görgü kuralı kısadır. Oynamamaya karar verdiğiniz partiyi, süre bitene kadar saatin üstüne oturmak yerine terk edin. Rövanşa öyle ya da böyle cevap verin. Ve bir yabancı sizi temiz yendiğinde, davetsiz gelen o kuşku kıvılcımı formatın bir bedelidir, o kişi hakkında bir tespit değil."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Havuzun Getirdikleri",
+      "text": "Yayınlar, problem çalıştırıcıları ve üç dakikalık partiler, bir turnuva salonunda hiç oturmayacak milyonlarca insanı içeri getirdi ve yıldırım oynayan da satranç oyuncusudur. Satranç aynı zamanda gitmek zorunda olduğunuz bir yer olmaktan çıktı: aynı havuz gecenin ikisinde de açıktır; rövanş sarmallarının yaşadığı yer de orasıdır.\n\nBu tahtadaki av buradan sonra kendi kendini oynar: {{d4+}} {{g5}} {{h4}} {{Kg7}} {{Qf7+}} {{Kh6}}."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1bnr/pppp1Q1p/7k/6p1/2BPP2P/8/PPP2PP1/RNB1K2R w KQ - 3 11",
+      "prompt": "g5'te alabilen iki taşınız da şah çekiyor — bu taş almalardan yalnızca biri mat.",
+      "targetSan": [
+        "hxg5#"
+      ],
+      "hint": "h6'daki şah yalnızca h5 ulaşılmaz kaldığı sürece hayatta; öyleyse şu anda o kareyi kapsamanın önünde ne durduğunu sorun."
+    }
+  ]
+}

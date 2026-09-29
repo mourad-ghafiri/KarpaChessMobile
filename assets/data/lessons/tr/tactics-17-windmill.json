@@ -1,0 +1,50 @@
+{
+  "id": "windmill",
+  "title": "Yel Değirmeni",
+  "summary": "Şah çeken, soyan ve geri dönen bir kale",
+  "proof": "windmill-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "title": "Yem Vezirdir",
+      "text": "Moskova, 1925: beyazı oynayan Carlos Torre, Emanuel Lasker'e vezirini vermek ve bu işten üç piyon kârlı çıkmak üzere.\n\nBeyazın her taşı çoktan tek bir kareye doğrultulmuş. g3'teki kale, yol açıldığı anda bütün g dikeyine sahip. Yolda duran şey g5'teki fil. Siyahın şahını örten g7 piyonunu ise yalnızca o şah koruyor, başka hiçbir şey korumuyor.\n\nSiyahın b5'teki veziri tahtanın o tarafında hiçbir şeyi korumuyor."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "prompt": "g7'ye ikinci bir saldıran ekleyin ve yolu açmanın size vezirinize mal olacağını kabul edin.",
+      "targetSan": [
+        "Bf6"
+      ],
+      "hint": "g3'teki kale g7'yi zaten gösteriyor ve yolunda duran tek şey sizin oynatacağınız taş."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3ppB1p/7q/1P1P4/4N1R1/P4PPP/4R1K1 w - - 0 26",
+      "title": "Kale İçeri Giriyor",
+      "text": "Lasker veziri aldı ve g dikeyi, f6'da oturan bir beyaz filiyle, şahın barınağının tam dibinde açıldı.\n\n{{Rxg7+}}. Şah kaleyi alamaz, çünkü f6'daki fil g7'yi koruyor. Siyahın kendi atı f8'de oturuyor, yani gidecek başka yer de yok: {{Kh8}} tahtadaki tek kurallı hamle.\n\nSiyah bir vezir önde. Şimdi o üç taşın nerede son bulduğuna bakın."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "Ortadaki Kale",
+      "text": "f6'daki fil, g7'deki kale ve h8'deki siyah şah tek bir çaprazda, bu sırayla, kale ortada duruyor.\n\nKaleyi o çaprazdan çıkarın, arkasından filin açılan şahı gelsin; böylece siyah cevap verirken kale önünden geçtiği her şeyi alsın. Kaleyi g7'ye geri götürün, bu kez kale kendi başına, filin koruması altında şah çeksin. Şah iki kare arasında mekik dokur ve kendine ait bir hamle hiç bulamaz. Yel değirmeni budur.\n\n> Bir çaprazdan ayrılarak şah çeken ve geri dönerek yine şah çeken kale, bütün yatayın sahibidir."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "Tam Bir Tur",
+      "text": "{{Rxf7+}} bir piyon alır ve çaprazı boşaltır, yani şah filden gelir. {{Kg8}}, tek hamle. {{Rg7+}} kaleyi yeniden ortaya koyar ve yine tek hamle olarak {{Kh8}} gelir.\n\nNeyin değiştiğini sayın. Şah yine h8'de, kale yine g7'de, çapraz tam olduğu gibi kurulmuş ve siyah bir piyon daha yoksul. Beyazın bunu baştan sona yeniden yapmasını engelleyen hiçbir şey yok.\n\nTorre değirmeni bir kez daha döndürdü, sonra kaleyi g5'e adımlayıp h5'teki veziri topladı."
+    },
+    {
+      "type": "play",
+      "fen": "r3rn1k/pb4R1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 3 29",
+      "prompt": "Değirmeni bir tur daha döndürün; çaprazdan çıkıp kalenizin yedinci yatayda alabildiği tek taşı alın.",
+      "targetSan": [
+        "Rxb7+"
+      ],
+      "hint": "Çaprazdan ayrılmak filin şahını da beraberinde getirir; öyleyse yedinci yatayı okuyup en büyük ödülü bulun."
+    }
+  ]
+}

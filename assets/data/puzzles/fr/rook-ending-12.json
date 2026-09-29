@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-12",
+  "fen": "8/4P3/1R5K/8/8/4k3/8/4r3 b - - 0 1",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1600,
+  "title": "Hors de la colonne de promotion",
+  "setup": "La tour noire retient le pion e depuis e1 et le roi doit rentrer vite, mais un seul itinéraire survit.",
+  "hint": "Votre tour protège la case de promotion le long de la colonne. Quel pas de retour, un seul, ne bloque pas cette ligne et ne perd pas de temps ?",
+  "explanation": "## L'idée\n\nLa tour tient e8 le long de la colonne, donc le roi ne doit pas s'y placer : {{Ke4}} perd sur {{e8=Q+}}, un échec qui fait enfilade sur le roi et la tour derrière lui. Depuis d3 ou f3, {{Rb7}} fait gagner aux Blancs le temps dont ils ont besoin. Après {{Kd4}}, {{e8=Q}} {{Rxe8}} ne laisse qu'une finale de tours nulle."
+}

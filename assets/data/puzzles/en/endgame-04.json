@@ -1,0 +1,11 @@
+{
+  "id": "endgame-04",
+  "fen": "8/8/5k2/8/3K4/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Kd5"
+  ],
+  "title": "King Activity Wins",
+  "setup": "Your pawn on e3 is a long way from home, and the black king on f6 is watching the squares in front of it.",
+  "hint": "Do not push the pawn. Gain a rank with the king, on a square the black king cannot dispute.",
+  "explanation": "## The Idea\n\nThe pawn cannot lead. Pushed on its own it walks into the black king, which already covers the squares ahead of it.\n\n{{Kd5}} gains a rank instead, on a square Black cannot contest. After {{Ke7}}, {{Ke5}} steps straight in front of the black king, and your king keeps walking in front of its pawn. Every other move, the pawn push included, lets Black's king hold the draw.\n\nWin the squares first, and the pawn's march is safe."
+}

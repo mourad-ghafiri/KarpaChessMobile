@@ -1,0 +1,62 @@
+{
+  "id": "chess-clock",
+  "title": "El reloj",
+  "summary": "Dos esferas, y un recurso que nunca recuperas",
+  "proof": "culture-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "El tiempo es el segundo tablero",
+      "text": "Tres minutos cada uno, y el alfil blanco de c3 ataca a tu dama en b2.\n\nUn reloj de ajedrez son dos esferas en una misma caja, y solo una corre a la vez. La tuya corre mientras la posición es tu problema. Pulsa, y la tuya se detiene y arranca la de las Blancas.\n\nEso convierte cada larga reflexión en una compra. Compras precisión con un recurso que nada repone, y cuanto más corta es la partida, más alto es el precio. Puedes ganar todos los cambios del tablero y aun así perder, porque la partida se juega en dos tableros y uno de ellos está en cuenta atrás."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "Una mano, un botón",
+      "text": "El reglamento es concreto sobre la mano: se mueve la pieza y se pulsa el botón con la misma. Esa sola regla acaba con toda una familia de trucos: nada de una palma de reserva sobre el reloj, nada de pulsar antes de que llegue la pieza.\n\nUna jugada termina cuando se suelta la pieza. Tu turno no termina hasta que baja el botón, y cada segundo intermedio corre a tu cuenta.\n\nAsí que pulsar forma parte de la jugada en lugar de ir después. Tu esfera está corriendo mientras lees esto."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "prompt": "Tu dama está atacada y el reloj corre: sálvala en una jugada sin moverla.",
+      "targetSan": [
+        "Bb4"
+      ],
+      "hint": "Lo que capture en b2 tiene que salir antes de c3: ¿qué podrías alinear a través de esa casilla para que salir sea ilegal?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqP1PPPP/RN1QKB1R w KQkq - 2 7",
+      "title": "Un segundo contra tres",
+      "text": "El alfil de b4 no defiende nada. Hace ilegal la captura: tomar en b2 obligaría a salir de la diagonal que protege al rey de e1.\n\nEsa respuesta te costó un segundo, y a las Blancas les cuesta más. {{Qd2}} recupera la diagonal poniéndose en ella, y tras una larga reflexión las Blancas solo han vuelto a atacar tu dama.\n\nJugadas baratas para ti, caras para tu rival. Ese es el tipo de cambio con el que paga el reloj."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Recuperar tiempo",
+      "text": "Hay dos formas en que un reloj devuelve tiempo, y no se parecen en nada.\n\nEl **incremento** añade una cantidad fija cada vez que pulsas, y lo que no gastas se acumula. Una partida `3+2` son tres minutos más dos segundos por jugada, así que un jugador rápido puede terminar con más tiempo del que tenía al empezar.\n\nEl **retardo**, en cambio, espera. Cada jugada tiene una pausa fija antes de que empiece a bajar tu tiempo principal, y la parte de esa pausa que no usas simplemente desaparece.\n\n> El incremento premia al rápido. El retardo solo protege al lento."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Clásicas, rápidas, blitz",
+      "text": "La FIDE clasifica las partidas por un solo número: el tiempo base más sesenta veces el incremento, que es aproximadamente lo que te daría una partida de sesenta jugadas.\n\nDiez minutos o menos es blitz. Más de eso y menos de una hora son partidas rápidas. Sesenta minutos o más es ritmo clásico, donde una partida puede durar seis horas y una sola jugada comerse cuarenta minutos.\n\nEl bullet —uno o dos minutos para toda la partida— es una palabra del juego en línea. No aparece en ningún lugar del reglamento, lo que nunca ha impedido que nadie lo juegue."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Cuando cae la bandera",
+      "text": "Quedan cuatro segundos. La expresión viene del mecanismo: un reloj mecánico tenía una pequeña bandera de metal que la aguja de los minutos levantaba y dejaba caer, y todavía se dice que el tiempo se acaba cuando cae la bandera.\n\nPierde la carrera y pierdes la partida, con una excepción. Si el jugador al que aún le queda tiempo no podría dar mate con lo que tiene —un rey solo, por ejemplo—, el resultado es tablas.\n\nA esta velocidad el ojo se lanza a {{Qxa1}} y la mano prudente cambia con {{Qxc3}}. Ninguna de las dos es la jugada."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "prompt": "Con dos segundos en la esfera, deja la torre y el cambio de damas, y captura la pieza que atacó a tu dama.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "Si las Blancas recapturan con la dama, tu propia dama tiene un jaque en la primera fila al que ninguna pieza blanca puede responder."
+    }
+  ]
+}

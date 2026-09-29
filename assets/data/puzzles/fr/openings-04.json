@@ -1,0 +1,11 @@
+{
+  "id": "openings-04",
+  "fen": "r1b1kb1r/pp1n1ppp/2p1p3/q2p2B1/2PPn3/2NBPN2/PPQ2PPP/R3K2R b KQkq - 5 8",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "Le clouage de Cambridge Springs",
+  "setup": "Vous avez soutenu d5 avec des pions en c6 et e6 et placé votre dame en a5. La dame blanche vient d'attaquer votre cavalier en e4.",
+  "hint": "Votre dame cloue le cavalier en c3 sur le roi blanc. Ce cavalier figé, que reste-t-il pour protéger le fou blanc ?",
+  "explanation": "## L'idée\n\nVotre dame en a5 cloue le cavalier en c3 sur le roi blanc, donc le fou en g5 n'a qu'un seul gardien, le cavalier en f3.\n\n{{Nxg5}} prend le fou quand même. Si {{Nxg5}}, alors {{dxc4}} retire votre propre pion de la cinquième rangée, et la dame regagne le cavalier : une pièce de plus. Les autres essais blancs perdent la pièce plus discrètement.\n\nUne pièce clouée ne protège rien. Vérifiez-le avant chaque prise que votre adversaire semble permettre."
+}

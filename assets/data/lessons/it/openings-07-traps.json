@@ -1,0 +1,59 @@
+{
+  "id": "opening-traps",
+  "title": "Trappole d'Apertura",
+  "summary": "Contate gli attaccanti, poi punite gli ingordi",
+  "proof": "openings-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "Due Attaccanti, Un Difensore",
+      "text": "Tre mosse di vita, e il Bianco ha puntato una donna e un alfiere sulla stessa casa. Contate f7. Due pezzi bianchi la attaccano. Un pezzo nero la difende, e quel pezzo è il re, che è il peggior difensore della scacchiera: un re non può catturare niente che arrivi con un sostegno dietro.\n\nQuindi la donna può atterrare in f7 alla mossa successiva, ed è matto. Non una minaccia da annotare e a cui rispondere più tardi. Matto.\n\nIl Nero ha una mossa per cambiare l'aritmetica."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "La Buona Mossa che Perde",
+      "text": "Il Nero porta fuori un cavallo con {{Nf6}}, che sarebbe giusto in quasi qualunque altra posizione, e il Bianco risponde {{Qxf7#}}.\n\nIl re non può prendere la donna, perché dietro di lei sta l'alfiere in c4. Nient'altro sulla scacchiera arriva a f7. Quattro mosse, e uno dei due ha smesso di giocare.\n\nLa trappola non è astuta. Prende chi risponde a una minaccia con una buona mossa invece che con la mossa che la minaccia chiede."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "prompt": "Sistemate il conto su f7 in una mossa sola, così che lì gli attaccanti non siano più in numero maggiore dei difensori.",
+      "targetSan": [
+        "g6",
+        "Qe7",
+        "Qf6",
+        "Nh6"
+      ],
+      "hint": "Ci sono due modi onesti di cambiare un conto: aggiungere un difensore, oppure togliere la strada che un attaccante percorre."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Un'Inchiodatura È un Prezzo",
+      "text": "Scacchiera nuova, e un'ingordigia di tipo diverso. L'alfiere nero in h5 inchioda il cavallo di f3 contro la donna in d1: muovete il cavallo, e la donna viene presa.\n\nÈ tutto vero, e niente di tutto questo dice che il cavallo non possa muovere. Un'inchiodatura non vieta niente. Fissa un prezzo, e il prezzo è quello che sta dietro al pezzo inchiodato. Nove punti sono un prezzo alto. Non sono un prezzo infinito.\n\n> Un'inchiodatura tiene solo finché il pezzo inchiodato non ha niente di meglio da fare."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Resta un Buco",
+      "text": "Contate le case attorno al re nero prima di decidere quanto vale il cavallo. L'alfiere in c4 sorveglia già e6 e f7. Il cavallo in c3 è a un balzo da d5, e da d5 copre e7. La donna nera in d8 e l'alfiere in f8 ne bloccano altre due.\n\nResta una sola casa in tutto il vicinato del re che nessun pezzo bianco tocca: d7.\n\nE il pezzo che sta a un balzo dal coprire d7 è il cavallo che il Nero ha inchiodato."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Se il Nero Rifiuta",
+      "text": "Il Nero non è obbligato a prendere la donna, e prenderla è la scelta che perde. La risposta prudente è riprendere in e5 e restituire l'alfiere di h5, visto che la donna in d1 vede h5 nel momento in cui il cavallo lascia f3.\n\nAllora non c'è matto, nessuna donna regalata, e il Bianco ha un pedone netto in più gratis.\n\nÈ questo a rendere tutta l'idea degna di essere giocata. L'ingordigia chiude la partita sul posto, la prudenza costa un pedone, e il Nero non ha una terza risposta."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "prompt": "Ignorate l'inchiodatura e prendete il pedone centrale, anche se il Nero vi vince la donna.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "La casa su cui sta quel pedone è l'unica casa che toglie d7 al re nero."
+    }
+  ]
+}

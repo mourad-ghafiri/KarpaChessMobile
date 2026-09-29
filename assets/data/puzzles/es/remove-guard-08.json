@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-08",
+  "fen": "6k1/2q1nppp/8/3b2B1/7Q/6P1/5PBP/6K1 w - - 1 2",
+  "solution": [
+    "Bxe7"
+  ],
+  "rating": 1320,
+  "title": "Corta el apoyo",
+  "setup": "Tu alfil de g2 mira al alfil de d5, que solo sobrevive porque lo defiende el caballo de e7.",
+  "hint": "Dos alfiles se enfrentan en la gran diagonal. Una pieza negra decide ese duelo: ¿puedes llegar a ella?",
+  "explanation": "## La idea\n\n{{Bxe7}} elimina al único defensor de d5. Tras {{Qxe7}} el alfil queda sin defensa y {{Bxd5}} gana una pieza limpia. El cambio en e7 es igualado; la pieza que destapa, no. Un duelo en una diagonal lo decide quien apoya a las piezas."
+}

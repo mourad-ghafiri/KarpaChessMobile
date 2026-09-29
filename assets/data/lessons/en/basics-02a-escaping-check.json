@@ -1,0 +1,77 @@
+{
+  "id": "escaping-check",
+  "title": "Three Ways Out",
+  "summary": "Move it, block it, take it — and the checks where two of those are gone",
+  "proof": "first-steps-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "title": "No Fourth Answer",
+      "text": "Every check has to be answered on the spot, and chess gives you exactly three answers.\n\n**Move** the king off the attacked square. **Block** the line the attack travels down. **Capture** the piece giving check.\n\nThat is the whole list. The black rook on e8 looks straight down the e-file at your king on e1, and until one of those three things happens, nothing else you might want to play is legal.\n\nThe list never changes, and it is three items long. What changes is how many of the three are on offer."
+    },
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Off the Line, Not Along It",
+      "text": "Take the bishop off the board and the king has to answer alone.\n\nFive squares touch a king on e1: d1, d2, e2, f1 and f2. Four of them are out of the rook's way. The fifth is e2 — one step forward, still on the e-file, still under the same rook. Running *along* the line is not running.\n\nMoving the king is worth checking first and is never guaranteed. The square you want has to be empty, and it has to be one your opponent does not already attack."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Step your king off the file the rook owns.",
+      "targetSan": [
+        "Kd1",
+        "Kd2",
+        "Kf1",
+        "Kf2"
+      ],
+      "hint": "The rook covers one file and nothing else, so a single step to the side settles it."
+    },
+    {
+      "type": "teach",
+      "fen": "k7/8/8/b7/8/8/8/1N2K3 w - - 0 1",
+      "title": "Shut the Door",
+      "text": "A different check, and the king does not have to move at all.\n\nThe black bishop on a5 reaches your king on e1 along the diagonal through b4, c3 and d2. It reaches it *through* those squares — that is what a line is — and a piece standing on any of them ends the attack.\n\nYour knight on b1 has two doors to choose from: {{Nc3}} or {{Nd2}}. The bishop still glares down the diagonal. It just cannot get there.\n\nA blocker can be captured, of course. A block is only as good as the piece you spend on it."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "Back to the rook — put your bishop in its path and close the file.",
+      "targetSan": [
+        "Be3"
+      ],
+      "hint": "The bishop travels on diagonals, so only one of the six squares between them is within its reach."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "title": "Nothing to Stand In Front Of",
+      "text": "A knight does not travel along a line. It arrives.\n\nThere are no squares between the black knight on d3 and your king on e1, so there is nothing to put in the way. A knight's check can never be blocked. Neither can a check from a piece standing right next to the king — between two touching squares there is no room for anything.\n\nSo the list runs to two items here. The king can walk, or the knight can come off the board."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "prompt": "End this one by taking the knight off the board.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Pawns capture on the diagonal, never straight ahead."
+    },
+    {
+      "type": "teach",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "title": "The Capture That Isn't There",
+      "text": "Capture is the sweetest answer and the one most often unavailable.\n\nThe knight on f3 checks your king on g1, and two of your pieces attack it. The pawn on g2 is the obvious one — a pawn taking a knight is a bargain.\n\nThe pawn is also the only thing standing between the black rook on g8 and your king. Take with it and the king is left in check from the rook, and a move that leaves your own king in check is not a move. A piece holding the line to its king is not free to leave."
+    },
+    {
+      "type": "play",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "prompt": "Take the knight with the piece your king can spare.",
+      "targetSan": [
+        "Rxf3"
+      ],
+      "hint": "Only one of the two attackers can move without opening a line to your own king."
+    }
+  ]
+}

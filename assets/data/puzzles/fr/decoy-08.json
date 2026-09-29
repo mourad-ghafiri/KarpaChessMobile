@@ -1,0 +1,14 @@
+{
+  "id": "decoy-08",
+  "fen": "6rk/pp1q2pp/8/5P1Q/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1420,
+  "title": "La dame achète la colonne",
+  "setup": "Votre dame en h5 fixe h7 et votre tour en d1 est à une bascule de la colonne h.",
+  "hint": "Le roi ne peut pas bouger d'une seule case. Que doit-il se passer avant que votre tour compte sur la colonne h ?",
+  "explanation": "## L'idée\n\n{{Qxh7+}} est une dame entière pour un pion, mais {{Kxh7}} est forcé. La colonne h est nue, le pion en f5 couvre g6, et {{Rh1#}} arrive sans plus rien pour l'arrêter. Le matériel ne compte plus dès que le roi n'a plus aucune case où se tenir."
+}

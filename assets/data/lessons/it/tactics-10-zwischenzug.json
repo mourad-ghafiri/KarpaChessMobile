@@ -1,0 +1,50 @@
+{
+  "id": "zwischenzug",
+  "title": "La Mossa Intermedia",
+  "summary": "Riprendete per secondi, minacciate per primi",
+  "proof": "zwischenzug-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "Il Cavallo che Nessuno Difende",
+      "text": "Il cavallo bianco è atterrato in d5, un pedone più ricco, e non lo difende assolutamente niente.\n\nPrenderlo dovrebbe essere gratis. Non lo è: l'alfiere in g5 inchioda il cavallo di f6 contro la donna in d8, quindi nel momento in cui quel cavallo si sposta l'alfiere piomba in d8 e si prende una donna per un cavallo.\n\nL'idea del Bianco è tutta qui, e il Bianco l'ha contata esattamente fin lì."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "Contate Oltre la Ripresa",
+      "text": "Ogni cambio ha un ritmo che si impara presto. Io prendo, tu prendi, e tutti e due guardiamo che cosa resta sulla scacchiera.\n\nUna **mossa intermedia** rompe quel ritmo. Invece di riprendere nel turno in cui la ripresa è dovuta, giocate qualcosa di cui l'avversario deve occuparsi prima — uno scacco, o una minaccia che vale più del pezzo in presa. Il vostro pezzo resta in presa anche dopo. Semplicemente aspetta.\n\nQuindi, prima di decidere che una presa perde materiale, chiedetevi che cosa minaccereste ancora una volta diradato il fumo."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "prompt": "Prendetevi il pezzo gratis anche se la risposta vi vince la donna — il conto non è finito.",
+      "targetSan": [
+        "Nxd5"
+      ],
+      "hint": "Prima di rifiutare una presa, chiedetevi quali scacchi resterebbero sulla scacchiera dopo la risposta che vi spaventa."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "Al Bianco Basta una Mossa Libera",
+      "text": "La donna è andata, e l'alfiere in d8 che l'ha presa non ha niente che lo difenda.\n\nNon date per scontato che sia intrappolato. Guardate la diagonale davanti a lui: e7, f6, g5 e h4 sono tutte vuote. Regalate al Bianco una mossa tranquilla e quell'alfiere se ne esce in h4, avanti di una donna per un cavallo, e la partita smette di essere un confronto.\n\nQuindi l'alfiere si può raccogliere solo finché il Bianco è troppo occupato per salvarlo."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "La Ripresa che Perde",
+      "text": "{{Kxd8}} è la mossa che sembra dovuta, e butta via la posizione.\n\nContatela: il Nero ha consegnato una donna e ripreso un cavallo e un alfiere. Tre punti in meno, e il Bianco si tiene ancora il pedone in più di prima.\n\nQuesta stessa posizione paga quell'alfiere per intero. L'unica differenza è che cosa fa il Nero prima di andarselo a prendere.\n\n> Un pezzo che è vostro da prendere non vale di più per il fatto di prenderlo adesso. Chiedetevi che cos'altro potrebbe fare la mossa."
+    },
+    {
+      "type": "play",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "prompt": "Trovate lo scacco che tiene il Bianco troppo occupato per salvare l'alfiere, e tornate a prenderlo dopo.",
+      "targetSan": [
+        "Bb4+"
+      ],
+      "hint": "Esattamente un pezzo nero può dare scacco qui, e non ha lasciato la sua casa di partenza per tutta la partita."
+    }
+  ]
+}

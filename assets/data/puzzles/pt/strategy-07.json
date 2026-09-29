@@ -1,0 +1,11 @@
+{
+  "id": "strategy-07",
+  "fen": "r4rk1/pp1b1ppp/2nqpn2/3p4/3P4/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 11",
+  "solution": [
+    "Rc1"
+  ],
+  "title": "Ninguém É Dono da Coluna c",
+  "setup": "Os dois peões c desapareceram, e nenhum dos lados pôs uma torre na coluna que eles deixaram. Uma jogada toma-a.",
+  "hint": "Uma coluna não tem peão nenhum de nenhuma das cores, e só uma das tuas torres tem caminho livre para lá chegar.",
+  "explanation": "## A Ideia\n\nA coluna c não tem peão nenhum de nenhuma das cores, e nenhum dos lados lá pôs ainda uma torre.\n\n{{Rc1}} toma-a primeiro. A outra torre não pode, porque a dama de d1 está no caminho. Por agora a torre fica atrás do seu próprio cavalo de c3, mas um cavalo afasta-se numa jogada, e quando o fizer a coluna pertence à torre.\n\nPrimeiro a torre, a dama atrás: uma dama à cabeça de uma coluna é um alvo que qualquer peça menor enxota ganhando tempo."
+}

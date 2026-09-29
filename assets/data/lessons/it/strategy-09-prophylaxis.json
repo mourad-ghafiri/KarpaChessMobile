@@ -1,0 +1,65 @@
+{
+  "id": "prophylaxis",
+  "title": "La Profilassi",
+  "summary": "Uccidete il piano prima che venga giocato",
+  "proof": "strategy-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "La Strada per g1",
+      "text": "Il re bianco in g1 siede in fondo a una strada su cui non c'è ancora nessuno.\n\nTracciatela: a7, b6, c5, d4, e3, f2, g1. Il pedone f è andato in f4, quindi f2 è vuota, e con essa e3. L'unico pezzo su tutta quella diagonale è il vostro stesso cavallo in d4.\n\nLa donna nera non ha ancora mosso. Quando lo farà, la casa che vuole è b6."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "La Domanda a cui Dovreste Rispondere",
+      "text": "Migliorate un pezzo nel modo naturale: {{Bf3}} punta al centro.\n\n{{Qb6}}, e il cavallo in d4 è inchiodato contro il vostro re — non alla leggera, in modo assoluto. Non ha nemmeno una mossa legale. La riparazione è {{Be3}}, una mossa intera spesa perché il cavallo possa respirare, e l'alfiere in c1 era quello che difendeva b2.\n\nLa **profilassi** è l'altro modo di spendere quella mossa: capite la prossima buona mossa del vostro avversario e cancellatela prima ancora che venga giocata."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "prompt": "Togliete il bersaglio dall'altro capo di quella diagonale prima che la donna nera ci guardi dentro.",
+      "targetSan": [
+        "Kh1"
+      ],
+      "hint": "Il problema è la casa su cui sta il vostro re, non un pezzo nero."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K b - - 2 9",
+      "title": "Il Piano di Sotto",
+      "text": "b6 adesso è una casa come tutte le altre. La diagonale corre ancora, e in fondo non c'è niente.\n\nE allora il Nero passa al piano di sotto: prima {{Qc7}}, poi il pedone b in b5 e avanti fino a b4, a scacciare il cavallo da c3, il pezzo che difende e4.\n\nÈ lento, ed è l'unica cosa in questa posizione che potrebbe mai battervi. Lento è esattamente ciò per cui esiste la profilassi. Lo vedete arrivare da quattro mosse."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K w - - 3 10",
+      "prompt": "Tutto il piano del Nero sull'ala di donna comincia con un pedone che arriva in b5: fate in modo che quella casa costi materiale.",
+      "targetSan": [
+        "a4"
+      ],
+      "hint": "Solo un vostro pedone può allungarsi ad attaccare b5 prima che il Nero ci arrivi."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "Niente È Gratis",
+      "text": "Il pedone in a4 non era gratis. Ha superato b4 per sempre, e un cavallo nero che si sistema lì è difficile da smuovere.\n\nÈ questo il baratto che la profilassi offre sempre: comprate la cancellazione di un piano con una piccola concessione permanente. Accettate l'accordo quando il piano vale più della casa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "L'Ultima Idea della Posizione",
+      "text": "L'ala di donna è chiusa e la strada verso il vostro re è sparita. Quello che resta è la più antica risorsa della parte stretta: un cambio.\n\n{{Nc6}} sviluppa e ne offre uno. Rispondete con qualcosa di naturale come {{Be3}}, e {{Nxd4}} li toglie di mezzo; la posizione del Nero respira per la prima volta in dieci mosse.\n\nIl Nero non è perduto. Il Nero è a corto di idee, e un giocatore a corto di idee va alla deriva.\n\n> Prima di chiedervi che cosa volete voi, chiedetevi che cosa vuole il vostro avversario — e poi toglieteglielo."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/1pq1bppp/p1nppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K w - - 1 11",
+      "prompt": "La parte stretta vive di cambi: togliete al Nero l'unico che gli è rimasto.",
+      "targetSan": [
+        "Nb3"
+      ],
+      "hint": "Il Nero vuole una coppia di cavalli fuori dalla scacchiera — dove altro può stare quel cavallo continuando a sorvegliare a5 e c5?"
+    }
+  ]
+}

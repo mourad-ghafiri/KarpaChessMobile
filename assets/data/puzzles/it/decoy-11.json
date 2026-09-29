@@ -1,0 +1,14 @@
+{
+  "id": "decoy-11",
+  "fen": "7k/pp2n1pp/7N/q7/1r6/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Nxg8",
+    "Nf7#"
+  ],
+  "rating": 1520,
+  "title": "Date da Mangiare al Cavallo",
+  "setup": "Il re in h8 è sepolto dietro i propri pedoni, e il cavallo nero in e7 è l'unico pezzo nero che arriva a g8.",
+  "hint": "L'angolo è già una gabbia. Che cosa dareste per avere g8 occupata da un pezzo nero?",
+  "explanation": "## L'idea\n\n{{Qg8+}} non può essere presa dal re, perché il vostro cavallo in h6 copre g8 — quindi {{Nxg8}} è l'unica mossa. L'ultima casa di fuga è bloccata dal cavallo stesso del Nero, e {{Nf7#}} è matto affogato."
+}

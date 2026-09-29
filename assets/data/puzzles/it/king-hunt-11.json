@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-11",
+  "fen": "7r/8/b1B5/3R4/K7/8/kpR5/5Q2 w - - 0 1",
+  "solution": [
+    "Rxb2+",
+    "Kxb2",
+    "Rd2+",
+    "Kc3",
+    "Qc1#"
+  ],
+  "rating": 1700,
+  "title": "Lasciate che il Re la Prenda",
+  "setup": "Il re nero è in a2 con un pedone in b2 che sta per promuovere, il suo alfiere in a6 e la sua torre in h8 a guardare da lontano.",
+  "hint": "Il pericolo non è il pedone — è il re che gli sta dietro. Cercate il sacrificio che trasforma il riparo in una strada.",
+  "explanation": "## L'idea\n\n{{Rxb2+}} dà una torre per tirare il re sulla traversa che la vostra altra torre possiede. {{Kxb2}} è forzata, {{Rd2+}} lo spinge in c3, e {{Qc1#}} chiude la partita. Un re che cattura è un re che è stato spostato dove volevate."
+}

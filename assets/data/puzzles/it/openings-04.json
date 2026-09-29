@@ -1,0 +1,11 @@
+{
+  "id": "openings-04",
+  "fen": "r1b1kb1r/pp1n1ppp/2p1p3/q2p2B1/2PPn3/2NBPN2/PPQ2PPP/R3K2R b KQkq - 5 8",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "L'Inchiodatura di Cambridge Springs",
+  "setup": "Avete sostenuto d5 con i pedoni in c6 e e6 e messo la donna in a5. La donna bianca ha appena attaccato il vostro cavallo in e4.",
+  "hint": "La vostra donna inchioda il cavallo di c3 contro il re bianco. Con quel cavallo congelato, che cosa resta a difendere l'alfiere del Bianco?",
+  "explanation": "## L'idea\n\nLa vostra donna in a5 inchioda il cavallo di c3 contro il re bianco, quindi l'alfiere in g5 ha una sola guardia, il cavallo in f3.\n\n{{Nxg5}} prende comunque l'alfiere. Se {{Nxg5}}, allora {{dxc4}} toglie il vostro pedone dalla quinta traversa, e la donna si riprende il cavallo: un pezzo in più. Gli altri tentativi del Bianco perdono il pezzo più in sordina.\n\nUn pezzo inchiodato non difende niente. Verificatelo prima di ogni presa che il vostro avversario sembra concedere."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-13",
+  "fen": "7k/8/8/5N2/8/8/6Q1/6K1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "Bacio Sostenuto dal Cavallo",
+  "setup": "Il re nero è bloccato nell'angolo, e il vostro cavallo in f5 sorveglia già g7 — la casa proprio accanto a lui.",
+  "hint": "La donna vuole stare accanto al re. Quale dei vostri pezzi difende già quella casa?",
+  "explanation": "## L'idea\n\nQuesto è lo stesso bacio di donna, sostenuto da un cavallo invece che da un re. Il cavallo in f5 difende g7, quindi la donna può atterrarci senza rischi.\n\n{{Qg7#}} dà scacco. Il re in h8 non può prendere la donna, e g8 e h7 sono coperte da lei. Uno scacco dalla casa accanto non si può parare.\n\nPer il bacio va bene qualunque guardia: re, cavallo o pedone. Trovate la casa difesa proprio accanto al re avversario."
+}

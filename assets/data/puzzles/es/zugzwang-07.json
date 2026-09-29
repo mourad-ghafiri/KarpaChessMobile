@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-07",
+  "fen": "8/5K2/8/8/2pQ4/8/2B5/7k w - - 0 1",
+  "solution": [
+    "Qf2",
+    "c3",
+    "Be4#"
+  ],
+  "rating": 1590,
+  "title": "Mate en la gran diagonal",
+  "setup": "El rey negro está en h1 con un peón en c4, y tu alfil de c2 está a una jugada de la gran diagonal.",
+  "hint": "El alfil está a una casilla de la línea que necesita. Encuentra la jugada que cubre g1 y g2 a la vez.",
+  "explanation": "## La idea\n\n{{Qf2}} toma g1 y g2 en silencio. Las Negras tienen que jugar {{c3}}, y {{Be4#}} da mate en la diagonal a la que entra el alfil. El zugzwang te da la jugada libre que necesita un patrón de mate."
+}

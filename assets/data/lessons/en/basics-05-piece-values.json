@@ -1,0 +1,62 @@
+{
+  "id": "piece-values",
+  "title": "Nine, Five, Three, One",
+  "summary": "The price of every piece, and the counting that stops a blunder before it happens",
+  "proof": "first-steps-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "The Price List",
+      "text": "Nobody stamps a price on a chess piece. Players worked them out anyway, over centuries of watching which trades turned out well.\n\nEverything is counted in pawns. A pawn is 1. A knight is 3, and so is a bishop. A rook is 5. The queen is 9.\n\nThe king has no number: it is never traded and never captured, so there is nothing to price.\n\nAdd up what you still own and that total is your **material** — the one part of a position you can count on your fingers.\n\n> The numbers are a guide, not a law. A position may overrule any of them."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "One for One",
+      "text": "Watch an even trade go past: {{e4}} {{d5}} {{exd5}} {{Qxd5}}.\n\nWhite wins a pawn. Black wins the pawn straight back. Both sides own exactly what they owned four moves ago, and the count has not moved a point.\n\nThat is what most captures are — a swap of equals, where the position changes and the material does not. The captures worth hunting are the other kind."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Five Against Three",
+      "text": "The rook on e1 is worth five, the knight on f3 three. So a rook for a knight is not a trade at all — it is a profit of two, and it comes up often enough to have a name of its own: winning **the exchange**.\n\nAdding the numbers up gets less reliable as the piles grow. A knight and a bishop — the **minor pieces** — total six, and so do a rook and a pawn, but the two pieces usually hold the better end of that. Three minor pieces also total nine, the same as a queen, and three of them generally beat the queen."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "A Knight Ahead",
+      "text": "Count what is here. Queen, rook and three pawns each — and White owns a knight on top. One piece, and it is the entire difference between the two sides.\n\nAn extra piece counts for more when there is less of everything else. So the side that is ahead trades: every swap of equals leaves your extra knight a larger share of what is left, and leaves Black fewer pieces to make something happen with.\n\nThere is a swap of equals available right now."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "prompt": "You are a knight up, so offer Black the swap that takes the heaviest piece off each side.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "The two queens already share a file with nothing standing between them, and Black's rook is watching that square."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/3r4/8/5N2/5PPP/4R1K1 w - - 0 1",
+      "title": "What the Trade Bought",
+      "text": "Nine for nine. The queens have gone and the count has not shifted a point: White is a knight up, exactly as before.\n\nWhat changed is everything around it. Black has a rook on d5, three pawns and a king, and not one of them can do anything about a piece that is simply not there. The fewer pieces are left, the louder the extra one gets.\n\nBehind in material, do the reverse and keep pieces on. Every piece still standing is one more thing that might go wrong for the side that is ahead."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "title": "Counted, or Not",
+      "text": "A piece handed over for nothing is a **blunder** — no material came back for it, and you would take the move back if the rules let you.\n\nA piece handed over on purpose, for something you have already counted and can see arriving, is a **sacrifice**. From the outside the two moves look identical. The whole difference is whether the counting happened first.\n\nWhich is why the counting comes before the capture. Your knight reaches two black pieces here, and the prices are not what they look like."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "prompt": "One capture is free and one costs your knight — count both and take the one that pays more.",
+      "targetSan": [
+        "Nxc6"
+      ],
+      "hint": "A rook is five and a pawn is one, and the knight on e5 reaches both of them."
+    }
+  ]
+}

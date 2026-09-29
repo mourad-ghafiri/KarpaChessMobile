@@ -1,0 +1,77 @@
+{
+  "id": "pawn-structure",
+  "title": "Piyon Yapısı",
+  "summary": "İkili, izole, geri — her birinin bedeli ne",
+  "proof": "strategy-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "title": "İki Piyon, Tek Dikey",
+      "text": "Aynı dikeydeki iki piyon birbirini asla koruyamaz. Hiçbiri diğerini kapsamak için yana çekilemez ve ikisi birlikte, iki komşunun iki dikeyi kontrol edeceği yerde tek bir dikeyi kontrol eder.\n\nSiyahın buradaki vezir kanadına bakın: a6, b7, c7 ve d7'de piyonlar; her biri ötekilerin kapsamadığı kareleri kapsıyor. Hiçbirinde bir sorun yok. Beyaz bunu tek bir taş almayla değiştirmek üzere ve değişiklik kalıcı — bir piyon yana yalnızca orada alacak bir şey varken gider."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "prompt": "Öyle bir geri almayı zorunlu kılın ki partinin sonuna kadar iki siyah piyon tek dikeyde üst üste kalsın.",
+      "hint": "Siyahın yalnızca tek bir taşı iki ayrı piyonla korunuyor ve o piyonların ikisi de zaten dolu olan bir dikeye inerdi.",
+      "targetSan": [
+        "Bxc6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 5",
+      "title": "Saati Olan Bir Borç",
+      "text": "Siyahın c piyonları artık üst üste ve partinin sonuna kadar öyle kalacak. Karşılığında siyahın iki fili ve yarı açık bir d dikeyi var — gerçek bir karşılık ve üstünde saati olan bir karşılık. Fillerin açık pozisyonlara, açık pozisyonların da taşlara ihtiyacı vardır.\n\nBu yüzden beyaz oyun sonuna yönelir. {{d4}} {{exd4}} {{Qxd4}}, reddetmesi zahmetli bir vezir değişimi önerir ve kalkan her ikili o filleri biraz daha sessizleştirir, üst üste duran piyonları biraz daha yüksek sesli kılar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/8/3QP3/5N2/PPP2PPP/RNB1K2R b KQk - 0 6",
+      "title": "Kanatları Sayın",
+      "text": "{{Qxd4}} ile vezirler kalkar ve geriye bir sayım kalır.\n\nBeyazın şah kanadında üçe karşı dört piyonu var. Onları düzgün sürün, biri geçsin: çoğunluktan başka hiçbir şeyden yapılmış bir geçer piyon.\n\nSiyahın vezir kanadında üçe karşı dört piyonu var ve onlar asla bir tane üretemeyecek. Bu dördün ikisi c6 ile c7'de üst üste, yani bütün grup üç dikeye yayılıyor ve beyazın üç piyonu o üç dikeyin hepsini kapsıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "Komşusu Olmayan Piyon",
+      "text": "İkinci bir tahta ve ikinci tür bir borç. Siyahın d5'teki piyonunun ne c dikeyinde ne de e dikeyinde piyonu var ve yenisini yetiştirmenin de yolu yok — ikisi de temelli gitmiş. Buna **izole** piyon denir.\n\nİlk bedel apaçık olanı. Onu yalnızca taşlar koruyabilir ve bir piyona bağlanmış taş, üç iş yerine tek iş yapan taştır.\n\nİkinci bedel, partileri belirleyen bedeldir ve piyonla hiç ilgisi yoktur. Önündeki boş karedir."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "Koruyamadığı Kare",
+      "text": "Siyahın c piyonu ile e piyonu, d4'e saldırabilecek tek piyonlardı ve ikisi de yok. Yani d4, beyazın uğrunda savaşması gereken bir kare değil. Beyazın içine girip kaldığı bir kare.\n\nHiçbir piyon oradan bir taşı kovamaz. Siyah ya davetsiz misafirle yaşar ya da onu kaldırmak için bir taş verir; ondan sonraki her değişim izole piyonu daha az koruyucuyla ve aynı sayıda saldıranla bırakır.\n\nBeyazın iki atı da d4'e ulaşabiliyor. Yalnızca birinin gitmesi gerekiyor."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "prompt": "Bir atı, hiçbir siyah piyonun asla saldıramayacağı kareye koyun; zaten meşgul olmayan atı gönderin.",
+      "hint": "Atlarınızdan biri durduğu yerden e5 ile g5'i koruyor; onu oynatmak o kareleri elden çıkarır.",
+      "targetSan": [
+        "Nbd4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Zayıf ve Donmuş",
+      "text": "Üçüncü bir tahta ve üç borcun en kötüsü. Siyahın d6'daki piyonunun c5'teki komşusu onu çoktan geçmiş ve hiç e piyonu yok; yani onu bir daha hiçbir piyon koruyamayacak. Piyonlar geri yürümez ve bu piyon ileri de yürüyemez: beyazın d5'teki piyonu yolda duruyor.\n\nSavunulamaz ve donmuş: buna **geri piyon** denir. İzole piyon en azından koşabilir.\n\n> İkili piyonlar size bir geçer piyona mal olur, izole piyon önündeki kareye, geri piyon ise ona bakıcılık edecek bir taşa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Taşları Gönderin",
+      "text": "Beyazın eklediği her saldırana cevap verilmek zorundadır ve cevaplar siyaha, saldıranların beyaza mal olduğundan daha pahalıya gelir: bir piyona çivilenmiş taş satranç oynamayı bırakmıştır.\n\nBu yüzden taşlar gelir ve iki taraf da acele etmez. {{Nd2}}, bir atı c4'e giden uzun yola çıkarır; {{Na6}} siyahınkini c7'ye doğru gönderir. {{f3}} e4'ü destekler, böylece at sonradan o piyonu düşürmeden d2'den ayrılabilir. {{Nc7}} b5'i korumaya gelir, {{a4}} b5'i yine de elinden alır ve siyahın cevabı {{b6}} olur.\n\nİki taraf da kıpırdayamayan tek bir piyon hakkında tartışıyor."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/p1n2pbp/1p1p1np1/2pP4/P3P3/2N2P2/1P1NB1PP/R1BQ1RK1 w - - 0 13",
+      "prompt": "Siyahın bir piyonla asla koruyamayacağı piyona bir saldıran daha ekleyin.",
+      "hint": "d2'deki atın gidecek üç karesi var; yalnızca biri d6'ya dokunuyor.",
+      "targetSan": [
+        "Nc4"
+      ]
+    }
+  ]
+}

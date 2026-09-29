@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-13",
+  "fen": "8/5ppp/6k1/8/8/8/5PPP/R3K3 w Q - 0 1",
+  "solution": [
+    "O-O-O"
+  ],
+  "title": "Roque Longo",
+  "setup": "O rei branco e a torre da ala da dama nunca mexeram, e todas as casas entre eles estão vazias. Faz roque na direção da torre de a1.",
+  "hint": "O rei mexe duas casas na direção da torre, e a torre aterra na casa que o rei atravessou.",
+  "explanation": "## A Ideia\n\n{{O-O-O}} é uma jogada para duas peças: o rei passa de e1 para c1, e a torre de a1 passa por cima dele para d1.\n\nTodas as condições se verificam. Nenhuma das peças mexeu, b1, c1 e d1 estão vazias, o rei não está em xeque, e nada ataca d1 nem c1, as casas que ele atravessa e onde aterra. O rei sai do centro, e a torre chega a uma coluna aberta."
+}

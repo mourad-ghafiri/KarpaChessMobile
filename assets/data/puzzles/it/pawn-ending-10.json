@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-10",
+  "fen": "8/1k6/1p6/1P6/8/2K5/8/8 w - - 1 2",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1430,
+  "title": "Il Percorso Lungo",
+  "setup": "Il re nero si è appena piantato davanti ai pedoni, e nessuno dei due pedoni può più muovere.",
+  "hint": "Il pedone in b6 copre a5 e c5, quindi chiedetevi quale parte della scacchiera il re bianco possa ancora usare.",
+  "explanation": "## L'idea\n\nIl pedone in b6 difende a5 e c5, quindi il re bianco non potrà mai salire accanto al proprio pedone. {{Kd4}} comincia la marcia attraverso il centro: {{Kc7}} {{Ke5}} {{Kd7}} {{Kd5}} e il Bianco conquista una dopo l'altra le case d5, e6 e d7, poi cammina fino a c6 e prende in b6."
+}

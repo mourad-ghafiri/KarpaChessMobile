@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-03",
+  "fen": "4k3/pp2qppp/8/8/8/8/PPB2KPP/3R4 w - - 0 1",
+  "solution": [
+    "Re1"
+  ],
+  "title": "Alvo na Coluna e",
+  "setup": "A dama preta está em e7, mesmo à frente do seu próprio rei, e a coluna e por baixo está aberta.",
+  "hint": "Quando a dama faz de escudo ao rei, passa a ser um alvo parado.",
+  "explanation": "## A Ideia\n\n{{Re1}} crava a dama contra o rei de e8. A dama não pode sair da coluna e sem expor o rei, e o teu rei de f2 guarda e1, portanto responder com {{Qxe1+}} entrega a dama por uma torre depois de {{Kxe1}}. Todas as outras respostas perdem a dama também.\n\nUma peça cravada não é bem uma peça: é um alvo."
+}

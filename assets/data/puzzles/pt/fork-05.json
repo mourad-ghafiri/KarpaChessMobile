@@ -1,0 +1,14 @@
+{
+  "id": "fork-05",
+  "fen": "1nb4k/p4pp1/2p4p/8/8/8/P1P2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Kh7",
+    "Rxc8"
+  ],
+  "rating": 840,
+  "title": "Ar Tarde de Mais",
+  "setup": "As pretas acabaram de jogar h6 para dar ar ao rei, e nada ficou a guardar a oitava linha.",
+  "hint": "A linha de fundo já não é mate, mas continua a ser a linha mais vazia do tabuleiro.",
+  "explanation": "## A Ideia\n\n{{Rd8+}} era mate há uma jogada; agora é um garfo. De d8 a torre atinge a oitava linha inteira nos dois sentidos ao mesmo tempo — o rei de um lado, o bispo de c8 do outro. {{Kh7}} é forçado, e {{Rxc8}} ganha uma peça."
+}

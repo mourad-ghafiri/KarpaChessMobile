@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-23",
+  "fen": "7k/1n4p1/8/8/8/5n2/B4P1P/7K w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "title": "Due Piccioni, Una Diagonale",
+  "setup": "Due cavalli neri sono finiti su case chiare, e il vostro alfiere in a2 vede un incrocio che li riguarda entrambi.",
+  "hint": "Un alfiere attacca lungo quattro raggi insieme. Trovate la casa dove due raggi finiscono ciascuno su un cavallo.",
+  "explanation": "## L'idea\n\nUn alfiere spara lungo quattro raggi da dovunque stia, quindi cercate la casa dove due di essi trovano un bersaglio.\n\nDa {{Bd5}}, un raggio passa per c6 fino al cavallo in b7 e un altro passa per e4 fino al cavallo in f3. Nessuno dei due cavalli arriva a d5, e nessuno dei due può difendere l'altro, quindi uno di loro cade alla mossa successiva.\n\nPensate all'alfiere come a una X, non come a una linea."
+}

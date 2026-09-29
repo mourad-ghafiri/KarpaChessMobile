@@ -1,0 +1,12 @@
+{
+  "id": "pin-02",
+  "fen": "8/k2r4/bp4p1/1r6/R1P4R/1P6/3P4/1K6 w - - 0 1",
+  "solution": [
+    "cxb5"
+  ],
+  "rating": 840,
+  "title": "La Guardia È Congelata",
+  "setup": "La vostra torre in a4 fissa dritto su per la colonna a l'alfiere nero, e il re dietro di lui.",
+  "hint": "La torre in b5 ha esattamente un difensore. Prima di contare il materiale, chiedetevi se quel difensore possa muovere.",
+  "explanation": "## L'idea\n\n{{cxb5}} vince una torre intera. L'alfiere in **a6** è l'unico pezzo che difende b5, e la vostra torre in **a4** lo inchioda contro il re in **a7**. Spostarsi lascerebbe il re sotto scacco, quindi la ripresa non è una mossa legale."
+}

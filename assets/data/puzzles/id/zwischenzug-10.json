@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-10",
+  "fen": "7k/5ppp/3B4/8/1r6/Q7/PP1R2r1/Kb6 w - - 0 1",
+  "solution": [
+    "Qa8+",
+    "Rb8",
+    "Qxb8#"
+  ],
+  "rating": 1620,
+  "title": "Abaikan Gajah di b1",
+  "setup": "Seekor gajah hitam telah tiba di b1 di samping raja Anda dan sebuah benteng menunggu di g2 — tampaknya Andalah yang dalam kesulitan.",
+  "hint": "Diserang tidak sama dengan kalah. Carilah sekak Anda sendiri sebelum Anda menjawab ancaman lawan.",
+  "explanation": "## Ide\n\n{{Qa8+}} berjalan melewati setiap ancaman. {{Rb8}} satu-satunya penghalang dan {{Qxb8#}} mengambilnya. Ketika kedua raja terbuka, posisinya milik siapa pun yang melangkah lebih dulu, bukan milik yang punya penyerang lebih banyak."
+}

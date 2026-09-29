@@ -1,0 +1,56 @@
+{
+  "id": "discovered-attack",
+  "title": "Discovered Attack",
+  "summary": "The piece that moves is not the piece that attacks",
+  "proof": "discovered-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "The Rook Was Already Aimed",
+      "text": "Your rook on e1 and Black's king on e8 stand on the same file, and the only thing between them is your own knight.\n\nEvery tactic so far has been the piece you touched doing the damage. Not this one. Move the knight and the rook attacks a king it has been pointed at the whole time — the knight never goes near e8. What matters is only that it leaves the file. A rook shuffling up and down that same file would still be in the way.\n\nOne piece moves, a different piece attacks. That is a **discovered attack**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Free to Go Anywhere",
+      "text": "No knight move keeps a knight on the file it left, so all eight of the knight's squares open the rook's line, and all eight are check. Because the line ends at a king, this version has its own name: a **discovered check**.\n\nIt is what makes the knight bold. {{Nc3+}} steps onto the c-file in plain view of Black's queen on c5, and the queen cannot take it — capturing the knight would leave the black king in check from the rook, and that is not a legal move.\n\nFor one turn the piece that moved cannot be touched."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Spend the knight's free move on the most expensive thing Black owns.",
+      "targetSan": [
+        "Nxc5+"
+      ],
+      "hint": "The knight's eight squares are not equal — one of them has something standing on it."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "What the Check Buys",
+      "text": "{{Nxc5+}} takes the queen, and the check arrives with it, from a rook that spent the turn standing still.\n\nThe line you open does not have to end at a king. Put a black queen at the far end of the file instead, and the same knight move wins that queen — but Black then has choices: defend it, move it, or start a bigger threat somewhere else.\n\nCheck removes all three. That is the only difference between a discovered attack and a discovered check, and it is a large one."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Nothing Left to Take",
+      "text": "The e-file is set up exactly as before: rook on e1, knight on e4, Black's king on e8. What is missing is anything for the knight to eat. Black's rook on a8 cannot reach the e-file at all, and the pawn on b7 is not going anywhere useful.\n\nSo the free move has to buy something other than material, and there is one thing on offer. Land the knight on a square that attacks e8 as well, and the rook is not checking alone."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Two Checkers, One Answer",
+      "text": "Two pieces giving check on the same move is a **double check**.\n\nA check has three answers: capture the checker, block the line, or move the king. A double check removes the first two. Capture one checker and the other is still checking. Blocking would need one piece standing on two lines at the same time.\n\nSo the king moves, and the rook on a8 might as well not exist. That is all a double check does: it wins nothing by itself. Which square the knight lands on is what decides the rest.\n\n> The piece in your own way is the piece to move."
+    },
+    {
+      "type": "play",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Check with both pieces at once, and land the knight where it attacks something as well.",
+      "targetSan": [
+        "Nd6+"
+      ],
+      "hint": "Two knight squares give the double check; only one of them also hits the pawn on b7."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-10",
+  "fen": "6k1/5p1p/6p1/8/8/8/1B6/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Kaçış Kapağı Olmayan Kapak",
+  "setup": "Siyah, şaha hava vermek için bir hamlesini g6'ya harcadı — ama hava, ancak kapak karesi güvenliyse işe yarar.",
+  "hint": "Siyah g7'ye güveniyor. En sessiz taşınızın baştan beri neye nişan aldığını kontrol edin.",
+  "explanation": "## Fikir\n\nSiyah, şaha kaçacak bir kare vermek için g piyonunu sürdü ve yarattığı kare g7. b2'deki fil bütün bu süre boyunca uzun çaprazı gözlüyordu ve g7 o çaprazda.\n\n{{Rd8#}}: f8 ile h8 kalenin yatayındadır, f7 ile h7'de siyahın kendi piyonları durur ve siyahın inşa ettiği tek kaçış karesi çoktan kapsanmıştır."
+}

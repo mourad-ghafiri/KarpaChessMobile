@@ -1,0 +1,14 @@
+{
+  "id": "deflection-01",
+  "fen": "2r3k1/pq3ppp/8/8/1n6/7P/PP1B1PP1/2RQ2K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Bxb4"
+  ],
+  "rating": 1100,
+  "title": "A Dama Tem Dois Trabalhos",
+  "setup": "A dama preta em b7 defende a torre de c8 e o cavalo de b4 ao mesmo tempo.",
+  "hint": "Uma peça preta faz dois trabalhos. Dá-lhe algo que não possa recusar e vê que trabalho ela larga.",
+  "explanation": "## A Ideia\n\n{{Rxc8+}} é xeque, portanto {{Qxc8}} é forçado — e a dama deixa a coluna b. {{Bxb4}} ganha então o cavalo. Torre trocada por torre primeiro, portanto afastar o defensor não custa nada. Procura uma peça com dois deveres antes de procurares uma combinação."
+}

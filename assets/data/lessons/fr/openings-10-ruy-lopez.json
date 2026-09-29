@@ -1,0 +1,56 @@
+{
+  "id": "ruy-lopez-basics",
+  "title": "La partie espagnole",
+  "summary": "Le fou qui ne gagne pas de pion",
+  "proof": "openings-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "Le coup de 1561",
+      "text": "Le fou blanc est venu en b5, d'où il regarde droit le cavalier en c6 — et ce cavalier est la seule chose qui protège le pion en e5.\n\nOn y lit donc une attaque sur le pion, avec un intermédiaire. Ce n'en est pas une, et comprendre pourquoi est la première chose que l'on apprend sur cette ouverture.\n\nRuy López de Segura, un prêtre espagnol, a publié une analyse de ce coup en 1561. Quatre siècles et demi plus tard, c'est toujours une ligne principale au plus haut niveau, un étrange destin pour un coup qui ne menace rien."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "La question, c'est le cavalier",
+      "text": "La cible est le cavalier en c6, pas le pion derrière lui.\n\nSi ce fou s'échange un jour contre le cavalier, les Noirs reprennent avec un pion et se retrouvent avec deux pions empilés sur la colonne c, l'un devant l'autre. Les pions **doublés** sont permanents — un pion ne peut pas se décaler sur le côté pour y remédier. Les Noirs reçoivent en échange la paire de fous : une chose durable contre une autre.\n\nLes Blancs cherchent quelque chose de permanent contre quoi jouer. Les Noirs préfèrent fixer tout de suite les conditions de cet échange plutôt que d'attendre qu'on les leur impose."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "Obligez le fou à se décider maintenant — prendre le cavalier ou reculer — avec un coup de pion qui ne vous coûte rien.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "Lequel de vos pions peut attaquer le fou en b5 en un seul pas, sans rien laisser sans protection derrière lui ?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "title": "Encaisser",
+      "text": "Les Blancs peuvent prendre tout de suite et compter le pion. {{Bxc6}} {{dxc6}} {{Nxe5}}, et la feuille de partie indique un pion de plus.\n\nPuis {{Qd4}} arrive, frappant à la fois le cavalier en e5 et le pion en e4. L'un des deux tombe, le matériel est égal, et les Noirs gardent la paire de fous pour leur peine.\n\nLe fou n'a jamais attaqué e5. Prendre en c6 est une décision sur les pions, et les Blancs doivent être prêts à vivre avec.\n\n> Le fou espagnol ne gagne pas de matériel. Il achète une longue dispute."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Neuf coups, aucune prise",
+      "text": "Neuf coups joués et aucune pièce n'a été prise. Les deux armées cherchent encore de meilleures cases, et c'est ce qu'on appelle l'espagnole fermée.\n\nDeux coups blancs semblent ne rien faire du tout. Le pion en c3 n'est pas un développement — c'est un appui qui attend qu'un pion arrive au centre. Le pion en h3 n'en est pas un non plus ; il retire g4, pour qu'aucun fou noir ne puisse sortir clouer le cavalier en f3.\n\nDans une position lente, les coups consacrés à empêcher les idées adverses ne sont pas perdus."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "La longue glissade du fou",
+      "text": "Suivez à rebours le fou de cases blanches des Blancs. Il était en b5, il est passé en a4 quand un pion le lui a demandé, puis en b3 quand un autre l'a fait. Trois cases, deux diagonales — et la seconde va jusqu'en f7.\n\nDemandez-lui une fois de plus et il va en c2. De là, il vise h7, derrière son propre pion e, hors d'atteinte. Ce n'est pas une retraite qui gêne les Blancs : le pion en c3 prépare l'ouverture du centre, et un centre ouvert est exactement ce qu'attend ce fou.\n\nLa chasse ne vise donc pas à gagner une pièce. Elle décide de la diagonale dont les Blancs devront se contenter."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "prompt": "Chassez la meilleure pièce blanche : placez un cavalier sur la case de la colonne a qui attaque le fou en b3.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "Vos deux cavaliers sont sur l'échiquier, mais seul celui de l'aile dame a un coup qui touche b3."
+    }
+  ]
+}

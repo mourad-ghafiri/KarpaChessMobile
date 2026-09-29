@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-03",
+  "fen": "3k4/8/8/3K4/3P4/8/8/8 b - - 1 1",
+  "solution": [
+    "Kd7"
+  ],
+  "rating": 1175,
+  "title": "Rispecchiate il Re",
+  "setup": "Il re bianco è appena entrato davanti al pedone d, e il Nero deve scegliere dove stare.",
+  "hint": "Qualunque casa prendiate, il Bianco cercherà di sgusciare oltre da un'ala; quale vi lascia copiarlo da tutte e due le parti?",
+  "explanation": "## L'idea\n\n{{Kd7}} è l'unica casa che tiene. Da lì il Nero si limita a copiare: a {{Kc5}} si risponde {{Kc7}}, e a {{Ke5}} {{Ke7}}. Mettetevi altrove e il re bianco arriva sulla sesta traversa davanti al suo pedone, che è tutto ciò di cui un re e un pedone hanno mai bisogno."
+}

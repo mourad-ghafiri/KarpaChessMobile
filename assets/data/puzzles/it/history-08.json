@@ -1,0 +1,13 @@
+{
+  "id": "history-08",
+  "fen": "r4rk1/pp3ppp/8/8/8/2N5/PPP2PPb/R3RK2 w - - 0 1",
+  "solution": [
+    "g3",
+    "Bxg3",
+    "fxg3"
+  ],
+  "title": "La Mossa Più Calma",
+  "setup": "L'alfiere nero si è appena servito il pedone in h2, e il re bianco in f1 non ci arriva.",
+  "hint": "Non inseguite l'alfiere con un pezzo. Il re copre già g1, quindi la sua unica via d'uscita è la diagonale. Quale mossa di pedone la chiude?",
+  "explanation": "## L'idea\n\nNessuno scacco, niente da prendere: la mossa che vince è la più calma della scacchiera, del tipo che i motori trovano e le persone si convincono a non giocare.\n\n{{g3}} chiude la diagonale dell'alfiere, e il re in f1 copre già g1. Adesso {{Bxg3}} è il tentativo meno peggiore del Nero, e {{fxg3}} lascia il Bianco un pezzo avanti per un pedone. {{Bg1}} lo consegna subito al re, e aspettare lascia arrivare {{Kg2}} a prenderlo.\n\nPrima di inseguire un pezzo in fondo al vostro campo, contategli la via d'uscita."
+}

@@ -1,0 +1,71 @@
+{
+  "id": "greek-gift",
+  "title": "Yunan Hediyesi",
+  "summary": "Elden verilen bir fil ve duracak yeri kalmayan bir şah",
+  "proof": "greek-gift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "Kimsenin Korumadığı Kare",
+      "text": "h7'ye neyin doğrultulduğunu sayın. d3'teki fil b1-h7 çaprazından dosdoğru ona bakıyor. f3'teki at g5'e bir sıçrayış uzaklıkta ve g5'ten h7'ye o da vuruyor. d1'deki vezir, aynı h dikeyinde biten d1-h5 çaprazının dibinde duruyor.\n\nŞimdi koruyucuyu sayın. f6'da olması gereken at, e5'teki piyonunuz tarafından d7'ye itilmiş ve e5 hâlâ f6'yı kapsıyor. h7'yi kapsayan tek taş, onun yanında duran şah.\n\nÜçe karşı bir ve o bir de bir şah."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "Yunan Hediyesi",
+      "text": "Tek bir piyon karşılığında fil vermek, adı olan bir **feda**dır. **Yunan hediyesi**, rok yapmış bir şahın önündeki piyon barınağına atılan fildir. Ya partiyi bitirir ya bir taş kaybettirir ve hangisi olduğu siz elinizi çekmeden önce bellidir.\n\nDört şart. Fil h7'yi görür. Bir at g5'e bir hamle uzaklıktadır. Vezirin o atın arkasından h dikeyine giden bir yolu vardır. Ve g5'te ne alırsa geri alınır; bu arada hiçbir şey köşeyi kapsamak için f6'ya ulaşamaz.\n\n> Saydığınız hediye kumar değildir."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "prompt": "Siyahın köşesini şahtan başka koruyan bir şey yok; o şahı barınağından dışarı sürükleyin.",
+      "targetSan": [
+        "Bxh7+"
+      ],
+      "hint": "Şu anda h7'ye taşlarınızdan yalnızca biri saldırıyor; öyleyse onun ne ettiğini saymayı bırakın ve koruyucuları sayın."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "title": "Kendi Atınız Yolda",
+      "text": "Şah h7'de aldı ve önünde hiçbir şey kalmadı. Aynı zamanda bir piyon karşılığında bir fil geridesiniz; insanın aklını başına getiren kısım da bu.\n\nVezirin nereye gitmek istediğine bakın. d1'den h dikeyine giden yol e2, f3 ve g4'ten geçiyor ve üzerinde kendi f3'teki atınız duruyor.\n\nYani bu hamle iyi fikirler arasında bir seçim değil. Sessiz olan her şey siyahın g8'e geri adım atmasına ve köşeye taş taşımaya başlamasına izin verir; o zaman fil bir piyon satın almış olur, başka bir şey değil."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "prompt": "Vezirin h dikeyine giden yolunu, siyahın hemen cevap vermek zorunda olduğu bir hamleyle açın.",
+      "targetSan": [
+        "Ng5+"
+      ],
+      "hint": "Atınızın oynaması gerekiyor ve karelerinden yalnızca biri şah çekiyor — f piyonunuzun zaten koruduğu kare."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R b KQ - 1 11",
+      "title": "Dört Kare, Tek Şah",
+      "text": "e7'deki vezir atı alabilir, ama f4'teki piyonunuz geri alır ve siyah bir at karşılığında vezir ödemiş olur. Atın şahı kapatılamaz da. Yani şah oynar ve tam olarak dört karesi vardır: {{Kg8}}, {{Kh8}}, {{Kg6}}, {{Kh6}}.\n\nİkisi köşeye geri döner. Diğer ikisi açık tahtaya doğru adım atar; bu attan kaçmak gibi görünür ve aslında sahip olduğunuz her şeye doğru yürümektir.\n\nRakibinizin oynamak isteyeceği hamleler de o ikisidir."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p1k1/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "Atı Almak İçin Dışarı",
+      "text": "g6, g5'teki ata saldırır; siyahın onu oynamasının sebebi de tam olarak budur. Şah, iki hamle sonra bir taş önde olmayı umarak dışarı yürür.\n\n{{Qg4}}. Vezir g dikeyinde atın arkasına adımlar, böylece at korunur ve sıçradığı her kare bir şah açar. Üstelik f piyonunuz f5'e bir adım uzaklıktadır; oradan şaha yeniden vurur.\n\nŞah ne kadar dışarı çıkarsa ordunuzdan o kadar fazlası ona ulaşır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p2k/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "Filin Eski Yolu",
+      "text": "h6, şahı köşeden uzak tutar ve g5'teki ata saldırır, yani dördünün en iyisi gibi görünür.\n\n{{Qd3}}. Vezir, filin bıraktığı çaprazı devralır ve dosdoğru h7'ye nişan alır. g5'teki at o kareyi koruyor, şahın oradan çekilecek yeri yok ve sıradaki hamlede h7'de mat tehdit ediliyor. Siyahın bunu durdurmanın iyi bir yolu yok."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqpp1/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "prompt": "Siyah köşeye döndü; son saldıranınızı h dikeyine getirin ve mat tehdit edin.",
+      "targetSan": [
+        "Qh5"
+      ],
+      "hint": "At h7'yi zaten kapsıyor ve siyahın kendi f8'deki kalesi şahtan bir kaçış karesini almış durumda."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "forks-09",
+  "fen": "6k1/ppp2ppp/8/2b1n3/8/2PP4/PP3PPP/R5K1 w - - 0 1",
+  "solution": [
+    "d4"
+  ],
+  "title": "The Pawn That Forks",
+  "setup": "Black's bishop and knight stand on c5 and e5, and your pawns are right below them.",
+  "hint": "A pawn attacks the two squares diagonally in front of it. Which pawn step touches both black pieces?",
+  "explanation": "## The Idea\n\n{{d4}} attacks the bishop on c5 and the knight on e5 at once, and the pawn on c3 guards it. {{Bxd4}} {{cxd4}} only hits the knight again, and {{Nf3+}} {{gxf3}} gives the knight up with check. Either way Black loses a piece for a pawn.\n\nThe cheapest piece makes the best fork, because whatever it hits is worth more."
+}

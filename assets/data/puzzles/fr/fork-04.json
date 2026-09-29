@@ -1,0 +1,14 @@
+{
+  "id": "fork-04",
+  "fen": "r4bk1/p5pp/1p6/3p4/8/5B2/PP3PPP/2R3K1 w - d6 0 2",
+  "solution": [
+    "Bxd5+",
+    "Kh8",
+    "Bxa8"
+  ],
+  "rating": 800,
+  "title": "Prendre et fourchetter",
+  "setup": "Les Noirs viennent de pousser un pion en d5, droit sur la trajectoire de votre fou en f3.",
+  "hint": "Retirer la pièce au milieu d'une diagonale ouvre le reste de celle-ci. Vérifiez où aboutit cette route.",
+  "explanation": "## L'idée\n\n{{Bxd5+}} gagne un pion et éclaire deux diagonales à la fois : l'échec file vers g8, et derrière le pion pris, le fou voit maintenant a8. Le propre fou et les propres pions noirs ne laissent que {{Kh8}}, et {{Bxa8}} prend la tour."
+}

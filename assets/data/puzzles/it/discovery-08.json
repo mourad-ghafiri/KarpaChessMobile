@@ -1,0 +1,12 @@
+{
+  "id": "discovery-08",
+  "fen": "1rk1q3/1p3ppp/4p3/8/2B5/8/P4PPP/2Q3K1 w - - 0 1",
+  "solution": [
+    "Bb5+"
+  ],
+  "rating": 1240,
+  "title": "Donna Dietro l'Alfiere",
+  "setup": "La vostra donna in c1 punta su per la colonna c, e il vostro alfiere in c4 è l'unica cosa che la blocca.",
+  "hint": "Dove può andare l'alfiere in modo da aprire la colonna e cominciare a tenere d'occhio qualcosa sull'ottava traversa?",
+  "explanation": "## L'idea\n\n{{Bb5+}} smaschera lo scacco della donna su per la colonna c e nello stesso momento punta su e8 lungo b5-c6-d7. Il Nero deve prima rispondere allo scacco, quindi dopo Kd8 l'alfiere raccoglie la donna. Parare con Qc6 la consegna soltanto una mossa prima."
+}

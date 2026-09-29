@@ -1,0 +1,71 @@
+{
+  "id": "castling",
+  "title": "Due Pezzi, Una Mossa",
+  "summary": "L'unica mossa che muove due dei vostri pezzi — e le sei condizioni che devono valere prima",
+  "proof": "tactics-mix-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Tutti e Due Insieme",
+      "text": "Ogni mossa che avete fatto finora ha mosso un pezzo. L'arrocco ne muove due.\n\n{{O-O}}. Il re in e1 percorre due case fino a g1 e la torre in h1 gli salta sopra e atterra in f1. Un solo turno. Tutti e due sistemati.\n\nQuesto è l'arrocco corto, giocato verso il bordo del re, e si scrive con due lettere e un trattino: l'unica mossa degli scacchi la cui forma scritta non nomina nessuna casa."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "La Strada Lunga",
+      "text": "Anche l'altra torre può farlo.\n\n{{O-O-O}}: il re in e1 va di due case dall'altra parte, in c1, e la torre in a1 gli passa sopra fino a d1. Tre lettere invece di due, e la stessa regola sotto: il re percorre esattamente due case e la torre si ferma sulla casa che il re ha scavalcato.\n\nCambia quanto spazio deve essere libero. Due case sul lato corto, f1 e g1. Tre sul lato lungo: b1, c1 e d1."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Nessuno Ha Ancora Mosso",
+      "text": "Cominciamo con tre delle sei condizioni: due riguardano il passato, una il presente.\n\nIl re non deve avere mai mosso. La torre con cui arroccate non deve avere mai mosso. Non mossa e tornata indietro: proprio mai mossa. Togliete il re da e1 per un solo turno ed entrambi gli arrocchi spariscono per il resto della partita. Spostate la torre di h1 e se ne va con lei l'arrocco corto, mentre quello lungo, appoggiato a una torre di a1 mai toccata, sopravvive.\n\nLa terza riguarda il presente: le case fra il re e la torre devono essere vuote. Ogni pezzo in mezzo deve prima togliersi."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Fuori, Dentro, Attraverso",
+      "text": "Le altre tre riguardano questo turno.\n\nNon si arrocca **fuori** dallo scacco: se il re è attaccato adesso, bisogna rispondere in un altro modo. Non si arrocca **dentro** lo scacco: la casa su cui il re arriva dev'essere sicura. E non si arrocca **attraverso** lo scacco: dev'essere sicura anche la casa che attraversa — a un re non è concesso passare di corsa accanto a una casa su cui non potrebbe fermarsi.\n\nSei in tutto. Se ne manca una la mossa semplicemente non esiste: la scacchiera non ve la lascia giocare."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "prompt": "Mettete il re al sicuro sul lato corto: giocate {{O-O}}.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Muovete il re stesso, di due case verso la torre di h1, e la torre arriva da sola."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "title": "Quello Che alla Torre È Concesso",
+      "text": "Tocca al Nero, e l'arrocco lungo nasconde una scappatoia che vale la pena conoscere.\n\nSolo le case del **re** devono essere sicure. La torre non cammina dentro niente: viene sollevata e portata dall'altra parte, quindi può stare sotto attacco, può attraversare una casa attaccata, e l'arrocco resta legale.\n\nSu questo lato la cosa conta. {{O-O-O}}: il re in e8 si ferma in c8, ma la torre in a8 viaggia fino a d8, passando su b8. Un pezzo avversario che controlla b8 non impedisce l'arrocco. Uno che controlla c8 o d8 sì.\n\n> Il cammino del re dev'essere sicuro. Quello della torre non riguarda nessuno."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "prompt": "Arroccate il Nero dal lato lungo, quello in cui dovevano liberarsi tre case invece di due.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "Il re nero percorre due case verso la torre di a8 e la torre atterra sulla casa che il re ha attraversato."
+    },
+    {
+      "type": "teach",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "title": "Torri Che Si Vedono",
+      "text": "Tutti e due i re sono al riparo — il Bianco corto, il Nero lungo — e la prima e l'ottava traversa hanno cambiato forma.\n\nLe torri del Bianco stanno in a1 e f1 con quattro case vuote in mezzo. Quelle del Nero, in d8 e h8, ne hanno tre. Prima degli arrocchi ogni coppia era divisa dal proprio re in mezzo alla traversa; adesso ogni torre può scivolare fino a incontrare l'altra.\n\nQuesta è la seconda metà di ciò che l'arrocco vi compra. Il re ha lasciato il centro e le torri si sono trovate."
+    },
+    {
+      "type": "play",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "prompt": "Tutte e due le torri bianche arrivano in e1: portate quella che è rimasta nell'angolo per tutta la partita.",
+      "targetSan": [
+        "Rae1"
+      ],
+      "hint": "La torre in f1 ci è arrivata solo la mossa scorsa; l'altra non ha mai mosso."
+    }
+  ]
+}

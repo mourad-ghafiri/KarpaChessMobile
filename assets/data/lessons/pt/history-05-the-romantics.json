@@ -1,0 +1,71 @@
+{
+  "id": "romantic-era",
+  "title": "Uma Noite na Ópera",
+  "summary": "Paris, 1858, e o que Morphy comprou com uma torre",
+  "proof": "history-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Um Camarote na Ópera",
+      "text": "Paris, 1858. A partida mais famosa alguma vez jogada foi jogada por alguém que preferia estar a ver a ópera.\n\nPaul Morphy tem vinte e um anos, é americano e está a meio de uma digressão europeia que bateu toda a gente disposta a sentar-se. O duque de Brunswick oferece-lhe um camarote na ópera italiana e uma partida; o duque e o conde Isouard jogam de pretas em conjunto, a discutir entre si cada jogada. Morphy fica com as brancas, mantém um olho no palco e acaba tudo em dezassete jogadas.\n\nAs fontes ainda não concordam sobre o que estava a ser cantado."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "O Pacto Romântico",
+      "text": "Conta as torres: Morphy tem uma, as pretas têm duas.\n\nO xadrez em que Morphy cresceu acreditava numa coisa e acreditava nela por inteiro — tira todas as peças para fora, abre todas as estradas até ao rei inimigo e paga a velocidade em material. Mais tarde recebeu um nome: a escola **romântica**. Quase todos os que a tentaram acabaram simplesmente com uma torre a menos.\n\nMorphy é aquele a quem resultou, e a diferença era aritmética. Estas linhas abertas custaram um cavalo e uma torre, e as brancas estão três pontos atrás."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "Duas Torres a Dormir",
+      "text": "Os dois lados têm uma torre que não mexeu a partida inteira, e só um deles está em condições de a acordar.\n\nA torre preta está em h8, com o rei em e8 e um bispo em f8 pelo meio, e esse bispo não tem uma única casa legal.\n\nA casa movimentada é d7. O bispo de b5 ataca a torre de d7; o rei em e8, a dama em e7 e o cavalo em f6 defendem-na todos. Três contra um — ainda não cai nada. Mas todas as peças brancas, menos uma, já apontam a este canto do tabuleiro."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "prompt": "Mete em jogo a última torre, na coluna onde está a torre das pretas.",
+      "hint": "Só uma coluna corre livre da primeira linha das brancas até uma peça preta, e só uma peça branca nunca saiu de casa.",
+      "targetSan": [
+        "Rd1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 b k - 1 14",
+      "title": "Não Se Trata da Torre",
+      "text": "A torre aterra, e a conta em d7 passa a dois atacantes contra três defensores. Continua a não acontecer nada.\n\nAs pretas deslocam a dama de lado: {{Qe6}}. Guarda d7 exatamente como guardava de e7, e agora encara a dama branca de b3 ao longo de uma diagonal — uma proposta de trocar as damas e tirar o veneno à partida.\n\nMorphy troca outro par. {{Bxd7+}} {{Nxd7}}, e a peça que está entre a torre de d1 e a casa ao lado do rei preto é um cavalo."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w k - 0 16",
+      "prompt": "Capturar o cavalo só deixa as pretas recapturar: obriga antes o próprio cavalo preto a desimpedir a coluna.",
+      "hint": "O rei preto não tem casa nenhuma e a dama preta não chega à oitava linha, portanto um xeque ali teria exatamente uma resposta.",
+      "targetSan": [
+        "Qb8+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Porque É Que a Dama Saiu",
+      "text": "A dama não era um presente. Era uma ordem de despejo.\n\nCapturar o cavalo sempre tinha sido possível e nunca tinha valido nada: as pretas recapturam em d7, a coluna volta a fechar-se, e as brancas deram uma segunda torre por um cavalo.\n\nUm xeque em b8 faz uma pergunta diferente. As pretas tinham exatamente uma jogada legal em todo o tabuleiro, e era o cavalo a ir buscar a dama."
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Conta-o Antes de o Jogares",
+      "text": "A coluna d está agora vazia, da torre em d1 até à oitava linha.\n\nO bispo em g5 faz dois trabalhos ao mesmo tempo: através da casa vazia f6 defende d8 e cobre e7. O rei em e8 não tem mais para onde ir — f8 é a casa do seu próprio bispo, e d7 está na coluna que a torre já possui. E uma torre que chegue à casa ao lado também não se consegue tapar.\n\n> A escola romântica pagava material por linhas abertas. Só alguma vez resultou aos jogadores que contavam primeiro o final."
+    },
+    {
+      "type": "play",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "prompt": "Duas peças e nenhuma dama: acaba com isto na coluna que o cavalo deixou.",
+      "hint": "Uma peça branca já guarda a casa de chegada e cobre a única saída do rei, portanto à torre só falta chegar lá.",
+      "targetSan": [
+        "Rd8#"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-07",
+  "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qk - 1 7",
+  "solution": [
+    "Nf3#"
+  ],
+  "rating": 780,
+  "title": "Terkurung oleh Pasukannya Sendiri",
+  "setup": "Setiap petak di sekitar raja putih ditempati buah-buahnya sendiri, dan kuda Anda masih duduk di d4.",
+  "hint": "Raja putih sama sekali tak punya petak pelarian, jadi burulah satu sekak yang tak bisa ia tangkap maupun halangi.",
+  "explanation": "## Ide\n\nRaja Putih terkurung oleh pasukannya sendiri, jadi sekak aman apa pun menuntaskan partai. {{Nf3#}} tampak bisa ditangkap, tetapi gajah di e2 dijepit menteri Anda di e4, pion g2 sudah lama hilang, dan sekak kuda tak pernah bisa dihalangi."
+}

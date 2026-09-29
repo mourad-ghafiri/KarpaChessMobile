@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-23",
+  "fen": "7k/1n4p1/8/8/8/5n2/B4P1P/7K w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "title": "Tek Çaprazda İki Kuş",
+  "setup": "Siyahın iki atı açık karelere sokulmuş ve a2'deki filiniz ikisinin de paylaştığı bir kavşağı görüyor.",
+  "hint": "Fil aynı anda dört ışın boyunca saldırır. İki ışının da birer atta bittiği kareyi bulun.",
+  "explanation": "## Fikir\n\nFil durduğu yerden dört ışın boyunca ateş eder; öyleyse bunlardan ikisinin hedef bulduğu kareyi arayın.\n\n{{Bd5}} karesinden bir ışın c6 üzerinden b7'deki ata, bir başkası e4 üzerinden f3'teki ata uzanır. İki at da d5'e ulaşamaz ve hiçbiri ötekini koruyamaz; yani biri sıradaki hamlede düşer.\n\nFili bir hat olarak değil, bir X olarak düşünün."
+}

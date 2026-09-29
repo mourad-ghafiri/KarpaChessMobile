@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-05",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "March of the Lone Rook",
+  "setup": "Black's king on g8 still stands behind three unmoved pawns, and your rook on b1 has an empty file in front of it.",
+  "hint": "Count the squares Black's king can reach, then find the rank it cannot leave.",
+  "explanation": "## The Idea\n\nNo sacrifice and no trade: the rook just walks in. {{Rb8#}} checks along the eighth rank. The pawns on f7, g7 and h7 take every square in front of the king, and the rook covers f8 and h8. Nothing of Black's can block the rank or take the rook.\n\nThree unmoved pawns in front of a king are a wall until the back rank empties. Then they are the reason it is mate."
+}

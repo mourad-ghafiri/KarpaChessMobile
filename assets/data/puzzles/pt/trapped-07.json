@@ -1,0 +1,12 @@
+{
+  "id": "trapped-07",
+  "fen": "6k1/ppp2pp1/5n1p/8/8/7P/P1P1NPP1/1b1B2K1 w - - 0 1",
+  "solution": [
+    "Nc3"
+  ],
+  "rating": 1240,
+  "title": "Bispo Dentro da Caixa",
+  "setup": "O bispo preto enfiou-se até b1, onde os seus dois únicos vizinhos são os teus peões de a2 e c2.",
+  "hint": "Esse bispo já não tem jogada nenhuma. Traz uma peça que o atinja e guarde a2 no mesmo fôlego.",
+  "explanation": "## A Ideia\n\n{{Nc3}} ataca o bispo e cobre a2 ao mesmo tempo, e c2 é defendido pelo bispo de d1, portanto também não há captura por onde escapar. Uma peça sem sítio para onde ir só precisa de um atacante para cair."
+}

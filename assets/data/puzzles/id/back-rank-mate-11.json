@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-11",
+  "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w - - 0 16",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1060,
+  "title": "Serahkan Menterinya",
+  "setup": "Raja Hitam masih di e8, dikurung gajah dan pionnya sendiri, dengan seekor kuda di d7 menghalangi jalan benteng Anda ke d8.",
+  "hint": "Satu buah hitam mencegah benteng Anda memberi mat di d8. Apa yang akan membuatnya meninggalkan petak itu?",
+  "explanation": "## Ide\n\nBenteng di d1 sudah menginginkan d8, hanya kuda di d7 yang menghalangi jalannya, dan gajah Anda di g5 sudah menguasai d8 dan e7. {{Qb8+}} mengorbankan satu menteri utuh dan memaksa {{Nxb8}}, satu-satunya balasan sah — dan kuda kini berada di petak yang salah. {{Rd8#}} menuntaskannya."
+}

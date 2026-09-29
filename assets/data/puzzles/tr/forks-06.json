@@ -1,0 +1,13 @@
+{
+  "id": "forks-06",
+  "fen": "6k1/pp2rpp1/7p/n7/3Q4/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kh7",
+    "Qxa5"
+  ],
+  "title": "Vezir Tahtanın Bir Ucundan Çatallıyor",
+  "setup": "Siyahın a5'teki atı koruyucusuz biçimde kenara sürüklenmiş ve siyahın arka yatayı boş.",
+  "hint": "Aynı zamanda atın çaprazına inen bir vezir şahı bulun.",
+  "explanation": "## Fikir\n\nVezir çatalı, iki hedefin birbirine yakın olmasını gerektirmez; yalnızca kesişen hatlarda olmalarını gerektirir.\n\n{{Qd8+}} arka yatay boyunca g8'deki şaha şah çeker ve çapraz boyunca a5'teki ata saldırır. Siyahın şaha cevap vermesi gerekir — {{Kh7}} ile ya da e8'de bir kapatmayla — ve hiçbiri atı kurtarmaz: {{Qxa5}} onu tahtanın öte ucundan toplar.\n\nBir şahın ve boştaki bir taşın vezirin hatlarını paylaştığı kareyi arayın."
+}

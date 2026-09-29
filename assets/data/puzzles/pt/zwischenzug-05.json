@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-05",
+  "fen": "6k1/2R2ppp/6r1/8/8/1B2r1Q1/PP6/K2b4 w - - 0 1",
+  "solution": [
+    "Rc8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1460,
+  "title": "Torre Para o Canto",
+  "setup": "O bispo preto está em d1 e as torres pretas estão em g6 e e3 — o teu rei parece francamente arejado.",
+  "hint": "Não respondas às ameaças. Encontra o xeque que obriga uma peça preta a ir para a linha de que a tua torre será dona.",
+  "explanation": "## A Ideia\n\n{{Rc8+}} ignora todas as ameaças contra o teu rei. {{Re8}} é a única resposta, e agora {{Rxe8#}} é mate porque a torre toma a oitava linha inteira e os peões tomam o resto. O tempo vence o material quando o tempo acaba o jogo."
+}

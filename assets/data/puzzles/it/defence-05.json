@@ -1,0 +1,14 @@
+{
+  "id": "defence-05",
+  "fen": "3Q4/bq6/5R2/8/8/7r/4K3/2k5 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kb1",
+    "Rf1#"
+  ],
+  "rating": 1610,
+  "title": "Due Mosse, Non di Più",
+  "setup": "Il vostro re in e2 è inscatolato dalla donna, dalla torre e dall'alfiere neri, e il re nero si è avvicinato fino a c1.",
+  "hint": "Non potete difendere e attaccare insieme. Stabilite quanti scacchi avete e se finiscono.",
+  "explanation": "## L'idea\n\n{{Qd2+}} forza {{Kb1}}, e {{Rf1#}} dà matto lungo la prima traversa. Non c'è mai stata una mossa difensiva che valesse la pena giocare — la posizione l'ha decisa quale dei due attacchi fosse più corto di un tempo."
+}

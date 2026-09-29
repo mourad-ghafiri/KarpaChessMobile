@@ -1,0 +1,13 @@
+{
+  "id": "forks-01",
+  "fen": "8/5ppp/3k4/q7/8/8/1N3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc4+",
+    "Kc5",
+    "Nxa5"
+  ],
+  "title": "Dois Reais, Um Salto",
+  "setup": "O rei preto em d6 e a dama em a5 estão a duas casas de distância, e o teu cavalo em b2 ainda não tocou em nenhum deles.",
+  "hint": "Trabalha de trás para a frente a partir dos alvos: que casas atacam o rei, e qual delas ataca também a dama?",
+  "explanation": "## A Ideia\n\nUm xeque de cavalo não se pode tapar, e a peça que ele ataca quase nunca o pode capturar de volta. Portanto uma jogada de cavalo que atinja o rei e a dama em conjunto ganha a dama.\n\n{{Nc4+}} toca em d6 e a5 ao mesmo tempo. Ao xeque tem de se responder primeiro, nenhuma jogada de rei chega a a5 para defender a dama, e depois de {{Kc5}} o cavalo recolhe-a com {{Nxa5}}.\n\nDois alvos, uma jogada, e as pretas só chegam a salvar um."
+}

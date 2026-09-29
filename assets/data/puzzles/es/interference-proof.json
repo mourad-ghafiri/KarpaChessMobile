@@ -1,0 +1,11 @@
+{
+  "id": "interference-proof",
+  "fen": "6k1/5ppp/p7/8/q2N4/5B2/5PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "Un muro atravesando la diagonal",
+  "setup": "La dama negra de a4 es la única pieza que protege e8, y tu torre de e1 apunta directamente a esa casilla.",
+  "hint": "Pon en la diagonal de la dama algo que no pueda ignorar, en una casilla que tu caballo ya cubre.",
+  "explanation": "## La idea\n\nLa dama de a4 protege e8 por la diagonal que pasa por b5, c6 y d7. {{Bc6}} se planta en medio, protegido por el caballo de d4, y además ataca a la dama. Capturar el alfil cuesta la dama, y capturar tu caballo deja que tu torre dé mate en e8. Los mejores intentos de la dama se desvían hacia f8, pero entonces tu torre da jaque en e8, la dama tiene que interponerse en f8, clavada contra su propio rey, y se pierde por una torre."
+}

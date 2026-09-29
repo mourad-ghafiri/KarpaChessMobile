@@ -1,0 +1,14 @@
+{
+  "id": "deflection-10",
+  "fen": "5rk1/pp3p1p/2n3p1/q7/8/1B6/PB4PP/4RQ1K w - - 1 2",
+  "solution": [
+    "Qxf7+",
+    "Rxf7",
+    "Re8#"
+  ],
+  "rating": 1440,
+  "title": "Via dalla Traversa di Fondo",
+  "setup": "La torre nera in f8 tiene insieme il pedone in f7 e la traversa di fondo, e il vostro alfiere in b3 taglia attraverso f7.",
+  "hint": "La torre è l'unico pezzo che difende l'ottava traversa. Che cosa potete darle che debba prendere?",
+  "explanation": "## L'idea\n\n{{Qxf7+}} non può essere presa dal re, visto che l'alfiere in b3 copre f7, quindi {{Rxf7}} è forzata. Adesso la torre è inchiodata e fuori dalla traversa di fondo, e {{Re8#}} chiude la partita. Una torre costretta a riprendere è una torre che non sta più difendendo."
+}

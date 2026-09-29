@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-20",
+  "fen": "4r3/1k1P4/8/8/8/8/8/6K1 w - - 0 1",
+  "solution": [
+    "dxe8=Q"
+  ],
+  "title": "Promosi Berhadiah",
+  "setup": "Pion Anda di d7 tinggal satu langkah dari baris terakhir, dan sebuah benteng hitam berdiri diagonal di depannya.",
+  "hint": "Pion menangkap secara diagonal, bahkan pada langkah terakhirnya. Dua hadiah dalam satu langkah.",
+  "explanation": "## Ide\n\nLangkah terakhir pion mengikuti aturan pion yang biasa, termasuk penangkapan diagonal. Berpromosi lurus ke depan dengan {{d8=Q}} membiarkan {{Rxd8}} mengambil menteri baru.\n\n{{dxe8=Q}} menangkap benteng dan berpromosi pada langkah yang sama: lima poin diambil dan sembilan diciptakan, dan raja di b7 tak bisa mencapai e8.\n\nSebelum Anda mendorong pion ke baris terakhir, bandingkan langkah lurus dengan penangkapan."
+}

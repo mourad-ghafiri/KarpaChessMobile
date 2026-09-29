@@ -1,0 +1,56 @@
+{
+  "id": "thinking-process",
+  "title": "Sebelum Anda Melangkah",
+  "summary": "Tiga pertanyaan, diajukan berurutan, yang menangkap langkah yang hampir Anda sesali",
+  "proof": "thinking-process-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "Tiga Pertanyaan",
+      "text": "Sebagian besar partai tidak kalah karena lawan yang cerdik. Partai kalah karena langkah yang dimainkan sebelum ada yang melihat.\n\nTiga pertanyaan mencegahnya, dan selalu tiga pertanyaan yang sama:\n\n1. Apa yang **diancam** lawan saya — langkah apa yang ingin ia mainkan berikutnya?\n2. Apa saja sekak dan penangkapan saya?\n3. Apa yang terjadi sesudah langkah saya?\n\nSepuluh detik, dalam urutan itu, setiap langkah. Dua pertanyaan pertama menemukan langkah. Pertanyaan ketiga membuang langkah yang buruk."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "Apa yang Baru Saja Berubah",
+      "text": "Kuda Hitam di f6 tak menyerang apa pun. Pertanyaan pertama tetap punya jawaban.\n\nKuda itu menguasai e4 dan d5, dua petak pusat yang paling diinginkan Putih untuk pion-pionnya sendiri. Mainkan {{e4}} tanpa bertanya, dan {{Nxe4}} mengambilnya — tak ada buah putih yang melindungi petak itu, dan tak ada yang menangkap balik.\n\nJadi pertanyaan pertama bukan hanya \"apa yang diserang\". Pertanyaannya: apa yang bisa dilakukan langkah itu sekarang yang tadi belum bisa? Kadang jawabannya sebuah ancaman. Kadang jawabannya sebuah petak yang diam-diam telah Anda kehilangan."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Pion Gratis",
+      "text": "Partai baru, baru tiga langkah. Kuda Hitam di d4 telah melompat ke separuh papan milik Putih, dan ia meninggalkan pion di e5 tanpa penjaga sama sekali.\n\nPertanyaan kedua menanyakan apa yang bisa Anda tangkap. Papan menjawab dalam sedetik: {{Nxe5}}, sebuah pion gratis.\n\nTampaknya itu langkah yang benar. Pertanyaan kedua tak bisa memberi tahu Anda apakah memang begitu, karena pertanyaan kedua tak pernah menanyakan apa yang dilakukan Hitam berikutnya."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4N3/2BnP3/8/PPPP1PPP/RNBQK2R b KQkq - 0 4",
+      "prompt": "Mainkan jawaban Hitam: temukan langkah menteri yang menyerang kuda yang serakah itu dan sebuah pion yang tak terlindungi sekaligus.",
+      "targetSan": [
+        "Qg5"
+      ],
+      "hint": "Kuda yang baru saja menangkap tak dilindungi apa pun, begitu pula pion di g2 — satu petak melihat keduanya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Pertanyaan Ketiga",
+      "text": "Kembali ke papan yang tadi dilihat Putih. Langkah menteri itu bisa ditemukan dari sini, satu langkah lebih awal, oleh pemain yang hendak menangkap.\n\nSesudah {{Nxe5}} {{Qg5}}, kuda dan pion di g2 sama-sama diserang, dan bahkan jawaban terbaik Putih dari sana memberi Hitam permainan yang lebih baik. Pion gratis itu adalah umpan.\n\nItulah pertanyaan ketiga. Bukan \"apakah langkah saya aman\", melainkan: apakah saya sudah tahu apa yang akan dilakukan lawan pada langkah sesudahnya?\n\n> Tak ada yang kalah karena langkah yang sudah ia lihat. Orang kalah karena balasan yang tidak ia lihat."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Langkah Kandidat",
+      "text": "Jadi rebutan itu merugikan lebih banyak daripada yang dimenangkannya, dan hanya pertanyaan ketiga yang bisa melihatnya. Perbaikannya dimulai sebelum Anda memilih.\n\nLangkah-langkah yang diberikan pertanyaan kedua adalah **langkah kandidat** Anda: sebuah daftar, bukan jawaban. Putih punya tiga penangkapan di sini, ditambah langkah tenang seperti {{c3}}, yang menyerang kuda di d4 dan dijawab dengan pertukaran di f3.\n\nPilih dua atau tiga. Ajukan pertanyaan ketiga pada masing-masing. Mainkan yang balasannya benar-benar bisa Anda lihat."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Tangkap kuda yang melompat ke separuh papan Anda dan tinggalkan posisi tanpa apa pun yang perlu dihitung.",
+      "targetSan": [
+        "Nxd4"
+      ],
+      "hint": "Satu penangkapan masuk ke langkah menteri yang baru Anda temukan, satu melemparkan gajah ke pion yang dilindungi, dan satu adalah pertukaran seimbang."
+    }
+  ]
+}

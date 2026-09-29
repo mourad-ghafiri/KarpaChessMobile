@@ -1,0 +1,50 @@
+{
+  "id": "queen-vs-pawn",
+  "title": "Dama contra peón en séptima",
+  "summary": "No es una carrera: es una forma de comprar jugadas",
+  "proof": "endgames-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "La carrera ya está perdida",
+      "text": "El peón negro de d2 está a una jugada de ser dama, y el rey blanco de h6 no está ni de lejos lo bastante cerca para impedirlo.\n\nPerseguirlo tampoco sirve. La dama de a8 no puede capturar el peón mientras el rey negro de c2 esté a su lado, y una dama sola no puede forzar el mate. Para eso hace falta el rey blanco, y el rey blanco necesita tiempo.\n\nAsí que eso es lo que busca aquí la dama. No el peón. El tiempo."
+    },
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "Los jaques son moneda",
+      "text": "Un jaque hay que contestarlo. Mientras las Negras contestan no avanzan, y la jugada que pierden las Negras es la jugada que el rey blanco gasta en caminar.\n\nAsí que los jaques tienen un destino, y no es el peón. Lleva al rey negro a d1, la casilla a la que intenta llegar su propio peón. Un rey aparcado ahí es un tapón que el peón no puede rodear ni pedir que se aparte.\n\nMira entonces lo que les queda a las Negras: ningún jaque que contestar, ninguna jugada de peón y un rey casi sin sitio donde ponerse. Es entonces cuando el rey blanco avanza gratis."
+    },
+    {
+      "type": "play",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "prompt": "No llegas a tiempo al peón, así que empieza a quitarle jugadas al rey.",
+      "targetSan": [
+        "Qe4+"
+      ],
+      "hint": "Hay cinco jaques posibles; elige el que además barre la columna e, para que el rey nunca pueda escurrirse por ese lado de su peón."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "title": "Cuenta las respuestas negras",
+      "text": "El rey está ahora en d1, justo en la casilla que quería su peón.\n\nCuenta lo que queda. El peón de d2 no puede moverse; su propio rey está en medio. La dama de e4 cubre e1, e2 y c2. Queda c1. Las Negras tienen exactamente una jugada legal, y no es una jugada de peón.\n\nEso hace que el turno blanco sea gratis. Acerca el rey, deja que las Negras den vueltas, vuelve a dar jaque y devuelve al rey delante del peón. Cada ciclo les cuesta una jugada a las Negras y les da una casilla a las Blancas.\n\n> La dama no persigue al peón. Compra jugadas para el rey."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/K7/8/6Q1/8/7p/7k w - - 0 1",
+      "title": "Dos columnas que aguantan",
+      "text": "El mecanismo gana contra un peón central o de caballo. Contra un peón de torre o de alfil puede atascarse, y así es como ocurre.\n\nEl peón negro en h2, el rey en h1, la dama blanca en g4 dominando g1 y g2: la misma presa que ganaba en la columna d. Así que gasta la jugada libre. {{Kb5}}, y les toca a las Negras sin jaque que contestar y sin ninguna jugada legal en el tablero. Rey ahogado, medio punto.\n\nEl rey bloqueado tiene que tener una casilla a la que arrastrarse. En la esquina no hay ninguna."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "prompt": "De vuelta en la columna d, el rey negro tapa a su propio peón y no tiene nada útil que hacer, así que aprovecha la jugada libre.",
+      "targetSan": [
+        "Kg5"
+      ],
+      "hint": "Cada jugada libre tiene que acortar el camino, así que elige la dirección hacia la que tu rey necesita ir de verdad."
+    }
+  ]
+}

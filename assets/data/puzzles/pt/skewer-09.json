@@ -1,0 +1,14 @@
+{
+  "id": "skewer-09",
+  "fen": "8/RR5B/1p2kr2/5b2/5P2/3P4/5N2/2K5 w - - 0 1",
+  "solution": [
+    "Rxb6+",
+    "Kd5",
+    "Rxf6"
+  ],
+  "rating": 1210,
+  "title": "Captura Com Xeque",
+  "setup": "As tuas torres são donas da sétima linha, e um peão preto em b6 partilha a sexta linha com o rei de e6.",
+  "hint": "Há uma captura que abre uma linha e dá xeque numa só jogada. Pergunta o que está para lá do rei nessa linha.",
+  "explanation": "## A Ideia\n\n{{Rxb6+}} come um peão e, muito mais importante, chega à sexta linha com xeque. A torre de **f6** fica agora atrás do seu próprio rei. {{Kd5}} é a única resposta legal, e {{Rxf6}} ganha a torre."
+}

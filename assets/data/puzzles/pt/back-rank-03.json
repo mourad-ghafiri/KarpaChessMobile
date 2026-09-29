@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-03",
+  "fen": "r5k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "Primeiro à Linha de Fundo",
+  "setup": "As torres fitam-se ao longo da coluna a aberta, e nenhum dos reis mexeu um peão à sua frente.",
+  "hint": "Os peões das pretas cercam o rei na linha de fundo. Que captura chega a essa linha com xeque?",
+  "explanation": "## A Ideia\n\n{{Rxa8#}} come a torre com xeque ao longo da linha de fundo. Nada pode recapturar e nada pode tapar, e as casas do rei fora da linha, f7, g7 e h7, têm os seus próprios peões.\n\nOs dois reis estavam fechados da mesma maneira, portanto ganhou quem mexeu primeiro. Um passo de peão como h6, jogado antes, teria dado uma casa ao rei preto."
+}

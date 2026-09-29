@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-06",
+  "fen": "1b4k1/1pp5/1Q6/3P4/8/B7/6PP/4K3 w - - 0 1",
+  "solution": [
+    "Qg6+",
+    "Kh8",
+    "Bb2#"
+  ],
+  "rating": 1150,
+  "title": "Conclusion sur la grande diagonale",
+  "setup": "Le roi noir est en g8, et une grande diagonale entièrement vide va de a1 jusqu'au coin voisin.",
+  "hint": "Poussez d'abord le roi sur la case où une seule diagonale décide de tout. Quelle diagonale est-ce ?",
+  "explanation": "## L'idée\n\n{{Qg6+}} pousse le roi dans le coin, et {{Kh8}} est forcé. La diagonale a1–h8 est complètement vide, donc {{Bb2#}} arrive avec échec pendant que la dame couvre g7, g8 et h7. Le fou en b8 est enfermé par son propre pion."
+}

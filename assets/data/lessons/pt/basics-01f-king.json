@@ -1,0 +1,57 @@
+{
+  "id": "king-moves",
+  "title": "A Peça Que Nunca Sai",
+  "summary": "Uma casa em qualquer direção, menos todas as casas que o inimigo está a vigiar",
+  "proof": "first-steps-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "title": "Nunca Capturado, Nunca Trocado",
+      "text": "Todas as outras peças que tens podem ser trocadas, dadas ou perdidas. O rei não. Nunca é capturado e nunca sai do tabuleiro — a partida acaba antes que isso possa acontecer.\n\nPor isso as regras mantêm-no numa trela curta: **uma casa, em qualquer das oito direções**. A partir de e4 isso é {{Kd5}}, {{Ke5}}, {{Kf5}}, {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\nOito vizinhas. E mais absolutamente nada para lá delas."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "prompt": "Leva o rei a qualquer casa que toque em e4 — aqui as oito estão abertas.",
+      "targetSan": [
+        "Kd5",
+        "Ke5",
+        "Kf5",
+        "Kd4",
+        "Kf4",
+        "Kd3",
+        "Ke3",
+        "Kf3"
+      ],
+      "hint": "Não há mais nada no tabuleiro, portanto nenhuma casa do anel é melhor do que outra."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Há Alguma Coisa a Vigiar",
+      "text": "O tabuleiro já não está vazio. A torre preta em h5 varre a quinta linha inteira, de ponta a ponta, como as torres fazem.\n\nRepara no que isso custa ao rei em e4. Três das suas oito vizinhas — d5, e5 e f5 — estão nessa linha, à vista da torre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Três Casas, Retiradas",
+      "text": "Essas três casas não são uma má ideia. Não são escolha nenhuma.\n\nUm rei **nunca pode entrar numa casa atacada por uma peça inimiga**. O tabuleiro não deixa: estendes a mão para d5 e a jogada simplesmente não existe, tal como não existe a linha reta para um bispo.\n\nFicam cinco: {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\n> Conta as casas que tocam no rei e risca todas as que o inimigo está a vigiar. O que sobra é a jogada de rei por inteiro."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3k4/8/3K4/8/8/8 w - - 0 1",
+      "title": "Os Reis Guardam a Distância",
+      "text": "O caso mais evidente dessa regra são dois reis. O rei preto em d6 está a duas casas, e c5, d5 e e5 tocam-lhe todas.\n\nO que quer dizer que as três estão fechadas ao rei branco em d4. Não consegue dar um único passo em frente — toda a frente do seu anel pertence ao outro rei.\n\nDois reis nunca podem ficar lado a lado. Nenhum pode entrar no anel do outro, por isso fica sempre uma casa de tabuleiro vazio entre eles."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/4p3/4K3/8 w - - 0 1",
+      "prompt": "Esse peão fechou as duas casas ao lado do rei, mas não a casa em que ele próprio está — ganha-o.",
+      "targetSan": [
+        "Kxe3"
+      ],
+      "hint": "Os ataques de um peão vão na diagonal em frente, nunca a direito, e neste tabuleiro nada o está a guardar."
+    }
+  ]
+}

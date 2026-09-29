@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-03",
+  "fen": "7k/6pp/8/8/8/8/p4PPP/2R3K1 w - - 0 2",
+  "solution": [
+    "Rc8#"
+  ],
+  "rating": 780,
+  "title": "Who Gets There First",
+  "setup": "Black's a-pawn has just reached a2 and makes a queen next move, so you have exactly one move.",
+  "hint": "Counting a pawn race is wasted effort if the game ends this move. Look at Black's eighth rank.",
+  "explanation": "## The Idea\n\n{{Rc8#}} and the pawn never promotes. The king on h8 is shut in by g7 and h7, the whole eighth rank belongs to the rook, and nothing black can reach it to block. Always look for mate before you start counting a race."
+}

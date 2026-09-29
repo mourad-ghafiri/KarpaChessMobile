@@ -1,0 +1,14 @@
+{
+  "id": "fork-07",
+  "fen": "5rk1/p4ppp/2r5/5N2/8/8/P4PPP/4R1K1 w - - 1 2",
+  "solution": [
+    "Ne7+",
+    "Kh8",
+    "Nxc6"
+  ],
+  "rating": 910,
+  "title": "Balzo sulla Sesta",
+  "setup": "Il Nero ha appena portato una torre in c6, mentre il suo re si nasconde dietro tre pedoni con una torre in f8.",
+  "hint": "Una casa di cavallo tocca insieme l'angolo del re e la sesta traversa, e la vostra torre la difende già.",
+  "explanation": "## L'idea\n\n{{Ne7+}} inforchetta il re e la torre in c6, e la torre in e1 difende il cavallo, quindi niente può prenderlo. La torre stessa del Nero riempie f8, quindi {{Kh8}} è l'unica mossa, e {{Nxc6}} vince una torre intera."
+}

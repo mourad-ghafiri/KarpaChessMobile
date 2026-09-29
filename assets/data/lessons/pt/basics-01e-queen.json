@@ -1,0 +1,76 @@
+{
+  "id": "queen-moves",
+  "title": "Todas as Estradas ao Mesmo Tempo",
+  "summary": "As linhas da torre e as diagonais do bispo numa só peça — e porque é que todos os peões gostam de a ver",
+  "proof": "first-steps-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Nada de Novo para Aprender",
+      "text": "Aqui não há nenhuma jogada nova. Já conheces as duas metades dela.\n\nA dama em d4 corre em linha reta como uma torre — {{Qd8}} pela coluna acima, {{Qa4}} ao longo da linha — e na diagonal como um bispo, {{Qh8}} até ao canto do fundo e {{Qg1}} até à borda de baixo.\n\nQuatro estradas, mostradas juntas. São oito: uma para cada sentido em que uma linha, uma coluna ou uma diagonal podem sair de uma casa."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Vinte e Sete Casas",
+      "text": "Conta o que a dama toca a partir de d4: catorze casas como torre, mais treze como bispo, vinte e sete ao todo. Um cavalo no mesmo sítio chega a oito.\n\nMas vinte e sete é um número de tabuleiro vazio. A dama herda as estradas dos dois pais e também os limites dos dois, e nenhum dos pais salta. A primeira peça que estiver numa estrada acaba-a, e tudo o que fica atrás dessa peça está fora de alcance até a estrada desimpedir."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "Manda a dama por qualquer uma das oito estradas que saem de d4, tão perto ou tão longe quanto quiseres.",
+      "targetSan": [
+        "Qc5",
+        "Qb6",
+        "Qa7",
+        "Qe5",
+        "Qf6",
+        "Qg7",
+        "Qh8",
+        "Qc3",
+        "Qb2",
+        "Qa1",
+        "Qe3",
+        "Qf2",
+        "Qg1",
+        "Qd5",
+        "Qd6",
+        "Qd7",
+        "Qd8",
+        "Qd3",
+        "Qd2",
+        "Qd1",
+        "Qc4",
+        "Qb4",
+        "Qa4",
+        "Qe4",
+        "Qf4",
+        "Qg4",
+        "Qh4"
+      ],
+      "hint": "Tudo o que uma torre pudesse fazer desta casa é uma jogada de dama, e tudo o que um bispo pudesse fazer também."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Todos a Querem Perseguir",
+      "text": "A força tem um preço, e no caso da dama o preço são as atenções.\n\nTodas as outras peças do tabuleiro são mais pequenas, o que faz com que todas elas gostem de atacar a dama. Um peão que chegue está a propor uma troca que a dama não pode aceitar: a maior peça das brancas pela mais pequena das pretas. Por isso a dama sai dali.\n\nManda-a para a rua cedo de mais e é essa a partida inteira — a dama joga, e volta a jogar, enquanto as pretas vão pondo as peças sossegadamente onde as querem.\n\n> Nada no tabuleiro fica mais feliz do que um peão que encontrou a dama inimiga."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Conta o Que Está a Olhar",
+      "text": "O que deixa à dama um tipo de captura que vale a pena fazer: aquela a que nada responde.\n\nAntes de capturares seja o que for com ela, pergunta o que é que está a vigiar essa casa. Se for um peão a guardá-la, o peão recaptura a dama no instante em que ela aterra, e entregaste a melhor peça que tens pela mais barata que as pretas tinham.\n\nSe nada estiver a vigiar — nenhum guarda, nada por trás, resposta nenhuma — a dama captura e não paga nada."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "prompt": "O último peão preto não tem nenhum guarda atrás dele — captura-o sem pagar nada.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "A dama e esse peão já estão na mesma coluna, e a estrada entre eles está vazia."
+    }
+  ]
+}

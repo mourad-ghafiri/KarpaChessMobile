@@ -1,0 +1,11 @@
+{
+  "id": "strategy-02",
+  "fen": "rn1q1rk1/4bppp/p2pbn2/4p3/Pp2P3/1NN1B3/1PPQBPPP/R4RK1 w - - 0 12",
+  "solution": [
+    "Nd5"
+  ],
+  "title": "Diusir Masuk ke Lubang",
+  "setup": "Pion Hitam di b4 baru saja menyerang kuda Anda di c3. Kuda harus pergi ke suatu tempat, dan pion Anda di e4 sedang mengawasi.",
+  "hint": "Setiap langkah mundur menyerahkan e4 kepada kuda di f6. Adakah petak ke depan yang tak akan pernah bisa dicapai pion hitam?",
+  "explanation": "## Ide\n\nKuda itu diusir, dan ia menjawab dengan bergerak masuk. Hitam tak punya pion c dan pion e sudah berjalan ke e5, jadi tak ada pion hitam yang bisa menyerang d5 lagi.\n\n{{Nd5}} menyerang gajah di e7 dan kuda di f6, dan menjaga e4 tetap aman. Setiap langkah mundur menyerahkan pion itu kepada kuda di f6.\n\nHitam hanya bisa menyingkirkan kuda itu dengan menyerahkan sebuah buah untuknya, dan lalu sebuah pion putih yang menguasai petak itu."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "najdorf-sicilian",
+  "title": "A Najdorf",
+  "summary": "Um peão de torre, e a corrida que ele desencadeia",
+  "proof": "openings-14.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Uma Jogada de Peão com uma Biblioteca Atrás",
+      "text": "A quinta jogada das pretas aqui vai para um peão de torre que não ataca nada, não defende nada e não tira nada cá para fora. E é também uma das jogadas mais analisadas do xadrez, com uma prateleira de teoria por trás e sem sinais de que a prateleira encurte.\n\nMiguel Najdorf jogou-a como obra de uma vida e a variante leva o nome. Fischer e Kasparov fizeram depois dela a resposta mais aguda a 1.e4 no mundo.\n\nPortanto a pergunta é o que é que um peão na berma pode valer."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "O Avanço Que as Pretas Querem Mesmo",
+      "text": "O que as pretas querem é o peão e duas casas à frente, a atirar o cavalo para fora do meio e a ficar com uma parte a sério dele.\n\nTenta isso agora mesmo e vê o que responde: {{e5}} {{Bb5+}}. O xeque vem primeiro e tudo o resto espera. As pretas têm seis respostas legais — um cavalo para d7 ou c6, o bispo ou a dama pousados em d7, ou um rei que se mexe e nunca mais roca.\n\nO avanço está certo. A ordem das jogadas é que não."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Três Peças, Uma Casa",
+      "text": "Conta o que chega a b5 a partir daqui. O cavalo de d4 salta para lá. O cavalo de c3 salta para lá. O bispo de f1 tem estrada livre — e2, d3, c4 — que chega a b5 com xeque.\n\nTrês peças, uma casa, e essa casa é a razão inteira pela qual o avanço central tem de esperar uma jogada.\n\nUm passo tranquilo de peão cobre b5 e responde aos três ao mesmo tempo. Não desenvolve nada e não faz nenhuma ameaça. Fecha uma porta antes de alguém lá passar."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "prompt": "Tira b5 aos dois cavalos brancos e ao bispo, antes de te aproximares do centro.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "Só um peão preto pode guardar b5, e lá chega num único passo sem sair da coluna da berma."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+      "title": "O Que o Peão Comprou",
+      "text": "Agora o mesmo avanço chega sem nada agarrado a ele: {{Be3}} {{e5}} {{Nb3}} {{Be6}}.\n\nO cavalo vai para trás, para b3, em vez de para a frente, para b5, e as pretas ficam com um peão central em e5 e um bispo cá fora atrás dele.\n\nA fatura é real. Avançar o peão e deixa um buraco em d5 que nenhum peão preto poderá voltar a guardar, e as brancas vão passar as jogadas seguintes a tentar estacionar lá uma peça. As pretas pagam-na à mesma. Uma casa por uma parte do meio é uma troca que vale a pena fazer."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Alas Opostas",
+      "text": "À décima jogada os dois reis já fugiram, o branco para c1 e o preto para g8. Esse simples facto muda para que servem os peões.\n\nOs peões só são abrigo onde o teu rei está. Na ala oposta são tropas de assalto, e em casa não fazem falta a ninguém. Por isso as brancas mandam o peão g e o peão h contra g8, as pretas mandam o peão a e o peão b contra c1, e nenhum dos lados para para defender.\n\nUma jogada defensiva aqui é uma jogada entregue ao adversário."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Contar a Corrida",
+      "text": "Agora o material é a unidade errada. Conta antes as jogadas até ao rei inimigo: quantos avanços até se abrir uma linha sobre ele, e quem lá chega primeiro.\n\nO peão g das brancas tem dois passos a dar antes de o cavalo de f6 ser enxotado e a coluna g começar a rachar. O peão b das pretas tem dois passos até b4, onde o cavalo de c3 — a peça que está à frente do rei branco — tem de responder.\n\nA mesma conta, e jogam as pretas.\n\n> Em alas opostas não contas peões, contas jogadas."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "prompt": "Arranca a corrida na ala da dama com o peão cujos dois passos seguintes despejam o cavalo que guarda o rei branco.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Exatamente um peão teu pode estar em b4 em duas jogadas, e nada no tabuleiro o impede."
+    }
+  ]
+}

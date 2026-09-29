@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-11",
+  "fen": "3r4/5pk1/4R3/3P3B/8/5Q2/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qxf7+",
+    "Kh8",
+    "Rh6#"
+  ],
+  "rating": 1360,
+  "title": "Bishop Guards the Gift",
+  "setup": "Black's king on g7 is shielded by a single pawn on f7, and your bishop on h5 is watching that square.",
+  "hint": "The pawn shielding the king seems defended only by the king. What else of yours covers that square?",
+  "explanation": "## The Idea\n\n{{Qxf7+}} works because the bishop on **h5** covers f7, so the king may not capture. The rook on e6 has already taken g6 and h6 away, so {{Kh8}} is forced, and {{Rh6#}} swings across to mate down the h-file."
+}

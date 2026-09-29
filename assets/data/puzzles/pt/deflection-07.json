@@ -1,0 +1,14 @@
+{
+  "id": "deflection-07",
+  "fen": "3r2k1/ppq3pp/b6Q/6N1/8/8/1B3PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Qxg7#"
+  ],
+  "rating": 1340,
+  "title": "Guarda Fora da Sétima",
+  "setup": "A tua dama e o teu bispo apontam a g7, mas a dama preta de c7 cobre essa casa pela sétima linha.",
+  "hint": "Duas peças tuas atacam g7 e duas peças pretas defendem-na. A que defensor podes dar um trabalho noutro sítio?",
+  "explanation": "## A Ideia\n\n{{Rxd8+}} força {{Qxd8}}, e de d8 a dama deixa de ver g7. {{Qxg7#}} dá mate, com o bispo de b2 a segurar a dama no lugar. Conta os defensores de uma casa de mate e elimina um. As casas de mate são guardadas por peças, e às peças pode dar-se outro trabalho."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "opposition",
+  "title": "Opposition",
+  "summary": "Two kings, one tempo, and who has to blink",
+  "proof": "endgame-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "Kings Cannot Touch",
+      "text": "No king may ever step onto a square beside another king, which means the two of them can never trade blows. They can only crowd each other.\n\nYour king on e4, Black's king on e7, two empty squares between them. Walk straight up the file and Black can walk straight down it, and somewhere in the middle both of you run out of road.\n\nWho wins that argument is settled by the one rule nobody can dodge: on your turn, you must move. That is zugzwang, and with bare kings on the board it is the only weapon either side has."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "The Standoff Has a Name",
+      "text": "Bring the kings to within one empty square of each other on the same file and the position locks. Neither king can enter the square between them, because it touches both. Neither can slide around the side without walking into the other's reach.\n\nThat lock is the **opposition**. It belongs to the player who does not have to move, because the player who does must break it, step aside, and let the other king past.\n\nSo count the gap. One empty square, with your opponent to play, and the ground ahead is yours. Right now the gap is two, and the turn is yours."
+    },
+    {
+      "type": "play",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "prompt": "Close the gap so a single empty square separates the kings and Black is the one on move.",
+      "targetSan": [
+        "Ke5"
+      ],
+      "hint": "Count the gap before your move and after it: you want it down to one, with the turn handed over."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/4K3/8/8/8/8 b - - 5 3",
+      "title": "Black Gives Way, You Follow",
+      "text": "One empty square between the kings, and Black has to move. Every legal square gives up ground: sideways or backward, and nothing else.\n\nSay {{Kd7}}. Black keeps the distance but has drifted a file toward the queenside, so you go with it. {{Kd5}}, and the lock is back, one file over, with Black to move again.\n\nNothing was captured and nothing was threatened. Black simply chose a direction, you copied it, and the whole board moved a step closer to wherever you were going."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "title": "A Pawn With Nowhere to Go",
+      "text": "New board, and one pawn changes what the kings are arguing about. Your king on e6, your pawn on e5, Black's king on e8, locked one square apart again.\n\nThis time you are the one to move, so the opposition is Black's. Count your legal moves and there are four, every one of them a king step. The pawn cannot advance at all: your own king is standing on the square in front of it.\n\nBlack holds the door shut and your pawn is stuck behind you. Something has to give, and it will not be the pawn."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "prompt": "Step sideways toward the queenside without leaving the rank your king has already reached.",
+      "targetSan": [
+        "Kd6"
+      ],
+      "hint": "Dropping back a rank throws away everything the king has climbed, so give up the file instead."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "title": "The Same Lock, a New File",
+      "text": "Black mirrored the step and the kings are locked again, one square apart, with you still to move. It looks like nothing was gained.\n\nLook at the e-file. Your king has stepped off the square in front of the pawn, and Black's king is a file away from the pawn's road. Three clear squares, and a white king already sitting on the sixth rank beside them.\n\n> The opposition is never the goal. It buys exactly one move, and that move has to be worth something."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "prompt": "Start the pawn moving now that your king is no longer parked in its way.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Nothing about the kings improves from here; the progress left on this board is all on the e-file."
+    }
+  ]
+}

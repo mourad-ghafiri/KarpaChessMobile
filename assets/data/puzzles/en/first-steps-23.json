@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-23",
+  "fen": "7k/1n4p1/8/8/8/5n2/B4P1P/7K w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "title": "Two Birds, One Diagonal",
+  "setup": "Two black knights have wandered onto light squares, and your bishop on a2 sees a crossroads they both share.",
+  "hint": "A bishop attacks along four rays at once. Find the square where two rays each end on a knight.",
+  "explanation": "## The Idea\n\nA bishop fires along four rays from wherever it stands, so look for the square where two of them find a target.\n\nFrom {{Bd5}}, one ray runs through c6 to the knight on b7 and another runs through e4 to the knight on f3. Neither knight can reach d5, and neither can guard the other, so one of them falls next move.\n\nThink of the bishop as an X, not a line."
+}

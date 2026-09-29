@@ -1,0 +1,12 @@
+{
+  "id": "discovery-05",
+  "fen": "2rkr3/2p1pppp/4n3/3P4/8/5N2/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "dxe6#"
+  ],
+  "rating": 1120,
+  "title": "Off the File",
+  "setup": "Black's king is walled in on d8 by its own rooks and pawns, and your own pawn blocks the d-file.",
+  "hint": "A pawn that captures leaves the file it was standing on. Ask what your rook would see the moment it does.",
+  "explanation": "## The Idea\n\n{{dxe6#}} wins a knight, but that is not the point: the pawn leaves the d-file and the rook on d1 checks all the way up to d8. c7, e7, c8 and e8 hold Black's own pieces, and nothing can step in front of the rook. A pawn discovery can mate."
+}

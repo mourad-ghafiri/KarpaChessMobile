@@ -1,0 +1,11 @@
+{
+  "id": "en-passant-proof",
+  "fen": "r6k/pp5p/8/3pP3/8/2B5/PP3P1P/6RK w - d6 0 1",
+  "solution": [
+    "exd6#"
+  ],
+  "title": "Pion yang Bisa Menghalangi",
+  "setup": "Hitam baru saja memajukan pion d dua petak. Gajah Anda di c3 membidik raja di h8, dan benteng Anda di g1 menjaga lajur di sebelahnya.",
+  "hint": "Pion e Anda satu-satunya yang berada di diagonal gajah. Pion hitam mana yang bisa kembali masuk ke garis itu?",
+  "explanation": "## Ide\n\nPion Anda di e5 satu-satunya yang berdiri di antara gajah di c3 dan raja di h8. Dorong dengan {{e6+}} dan pion Hitam melangkah ke d4, kembali masuk ke garis itu.\n\n{{exd6#}} membuka diagonal yang sama dan mengangkat penghalangnya dari papan pada langkah yang sama. Benteng menguasai g8, gajah menguasai g7, dan h7 ditempati pion Hitam sendiri.\n\nKesempatan itu hanya bertahan satu giliran. Satu langkah kemudian, pion itu sudah berada di luar jangkauan untuk selamanya."
+}

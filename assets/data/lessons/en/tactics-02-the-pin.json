@@ -1,0 +1,56 @@
+{
+  "id": "the-pin",
+  "title": "The Pin",
+  "summary": "When moving a piece is illegal, and when it is merely ruinous",
+  "proof": "pins-skewers-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Nine Points, Going Nowhere",
+      "text": "Black's queen is worth nine points and it is not allowed to leave the d-file.\n\nThree pieces share that file: your rook on d2, Black's queen on d6, Black's king on d8. Send the queen anywhere off the file and the king behind it stands exposed to the rook. That move is not bad. It is illegal, and the board will not play it.\n\nThe queen is **pinned** — held in place by what stands behind it."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Along the Line, and Nowhere Else",
+      "text": "A pinned piece is not frozen. It may travel along the line of the pin, where the king stays covered: the queen can go to d7 or d5, and it can even take the rook. Everywhere else on the board is shut.\n\nThis is an **absolute pin** — the piece behind is the king, so leaving the line is forbidden rather than unwise.\n\nYour rook is pinned in exactly the same way, by the queen, against your king on d1. Two pinned pieces, one file. The only difference is whose turn it is."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Three Pieces Can Do It",
+      "text": "A pin is a line, so only a piece that attacks along a line can make one: the queen, the rook, the bishop. That is the entire list.\n\nA knight cannot pin. Its move touches nothing between start and finish, and no line runs on past where it lands for a second piece to stand on. A pawn and a king reach one square and stop, which rules them out as well.\n\nThree pieces can pin. Any piece at all can be pinned."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "prompt": "Take the nine points that cannot step out of your rook's way.",
+      "targetSan": [
+        "Rxd6+"
+      ],
+      "hint": "Nothing defends d6, and the move that collects it never leaves the d-file."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "When Moving Is Merely Expensive",
+      "text": "Put something other than a king behind the pinned piece and the whole thing softens.\n\nWhite's bishop on g5 looks through the knight on f6 at the queen on d8, with e7 empty in between. Black's knight can move. Any square it likes, perfectly legally — and it costs a queen for a bishop.\n\nThat is a **relative pin**. Nothing forbids the move; only the price argues against it, and now and then the price is worth paying."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Getting Loose",
+      "text": "A pin ends in one of three ways. Capture the piece doing the pinning. Put something on the line between the two. Or move the piece behind, so there is nothing left to win — {{Qd6}} does that here, and the knight is loose.\n\nDoing nothing is the expensive option. Every piece White brings to bear on f6 arrives against a knight that cannot dodge, and a pin that costs little to tolerate for one move costs plenty over five."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "prompt": "Close the diagonal between White's bishop and your queen so the knight can move again.",
+      "targetSan": [
+        "Be7"
+      ],
+      "hint": "One empty square sits between the pinned knight and your queen — which piece can hold it without hanging?"
+    }
+  ]
+}

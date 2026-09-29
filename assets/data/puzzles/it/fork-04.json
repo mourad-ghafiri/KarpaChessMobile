@@ -1,0 +1,14 @@
+{
+  "id": "fork-04",
+  "fen": "r4bk1/p5pp/1p6/3p4/8/5B2/PP3PPP/2R3K1 w - d6 0 2",
+  "solution": [
+    "Bxd5+",
+    "Kh8",
+    "Bxa8"
+  ],
+  "rating": 800,
+  "title": "Prendete e Inforchettate",
+  "setup": "Il Nero ha appena spinto un pedone in d5, dritto sul cammino del vostro alfiere in f3.",
+  "hint": "Togliere il pezzo in mezzo a una diagonale ne apre il resto. Controllate dove finisce quella strada.",
+  "explanation": "## L'idea\n\n{{Bxd5+}} vince un pedone e accende due diagonali insieme: lo scacco arriva fino a g8, e dietro il pedone catturato l'alfiere adesso vede a8. L'alfiere e i pedoni del Nero lasciano solo {{Kh8}}, e {{Bxa8}} prende la torre."
+}

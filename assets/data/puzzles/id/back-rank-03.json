@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-03",
+  "fen": "r5k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "Pertama ke Baris Belakang",
+  "setup": "Benteng-benteng saling berhadapan di lajur a yang terbuka, dan tak satu raja pun menggerakkan pion di depannya.",
+  "hint": "Pion-pion Hitam sendiri memagari raja di baris belakang. Penangkapan mana yang mencapai baris itu dengan sekak?",
+  "explanation": "## Ide\n\n{{Rxa8#}} mengambil benteng dengan sekak di sepanjang baris belakang. Tak ada yang bisa menangkap balik dan tak ada yang bisa menghalangi, dan petak-petak raja di luar baris itu, f7, g7 dan h7, ditempati pionnya sendiri.\n\nKedua raja terkurung dengan cara yang sama, jadi siapa yang melangkah lebih dulu, dialah yang menang. Satu langkah pion seperti h6 lebih awal akan memberi raja Hitam sebuah petak."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "k-p-vs-k",
+  "title": "Rey y peón contra rey",
+  "summary": "Un peón de menos, y las dos casillas que sostienen las tablas",
+  "proof": "endgame-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "A una columna del borde",
+      "text": "Un peón de menos con el rey rival ya escoltándolo suele ser un trámite. En esta columna, no.\n\nEl peón blanco de a6 corona en a8, y a8 es una casilla de esquina con tres vecinas en lugar de cinco. Esa escasez perjudica al atacante: para echar a un rey de b8 y a8, las Blancas necesitan casillas que el borde del tablero nunca les dio.\n\nTu rey de c8 tiene un paso que convierte la esquina en una muralla, y dos que les regalan la partida a las Blancas."
+    },
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "El paso que pierde",
+      "text": "Alejarse del peón da sensación de seguridad, y aquí es fatal.\n\n{{Kd8}} mantiene a tu rey a una cómoda columna de distancia. {{Kb7}} responde, y todas las casillas alrededor del peón pasan a ser de las Blancas. {{Kd7}} es el único paso que sigue cerca, y {{a7}} lanza el peón con el camino despejado y un rey sujetando la puerta.\n\nNunca ibas a ganarle la carrera a ese peón. La esquina era la única baza del tablero, y alejarse de ella era entregarla."
+    },
+    {
+      "type": "play",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "prompt": "Ve a la única casilla que no le deja al rey blanco ningún sitio junto al peón.",
+      "targetSan": [
+        "Kb8"
+      ],
+      "hint": "Busca la casilla en la que las Blancas tengan que abandonar el peón o dejarte sin ninguna jugada legal."
+    },
+    {
+      "type": "teach",
+      "fen": "1k6/8/PK6/8/8/8/8/8 w - - 11 9",
+      "title": "Las Blancas se quedan sin tablero",
+      "text": "Ahora deja que lo intenten las Blancas.\n\n{{a7+}} es jaque, y {{Ka8}} es la única respuesta que no deja coronar el peón sin más. Tu rey está en la esquina, y el rey blanco de b6 necesita b7 para sacarle algo al peón. No puede tener b7: tu rey cubre esa casilla desde a8.\n\nAsí que las Blancas tienen que apartarse. {{Ka6}}, y mira lo que tienes: b7 y b8 cubiertas, tu rey sin adónde ir y nada dando jaque. Rey ahogado. Cualquier otro paso blanco deja que tu rey vaya a a7 y capture el peón."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "El otro tablero",
+      "text": "Quita la esquina y todo el método cambia. El peón está en d5, y d8 es una casilla corriente con cinco vecinas corrientes.\n\nTu rey de d7 ya hace la mitad del trabajo: está en el camino del peón, delante de él, y un peón no puede atravesar un rey.\n\nLa otra mitad es el rey blanco de c5, y es la mitad que se olvida.\n\n> Delante del peón, y frente al rey rival con una casilla vacía entre ambos. Las dos cosas, siempre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "Retroceder no es apartarse",
+      "text": "El instinto dice retroceder por la columna y mantener el peón delante. Pierde.\n\n{{Kd8}} parece la misma defensa una fila más atrás. {{Kd6}} responde: el rey blanco está ahora delante del peón, a una casilla del tuyo, y eres tú quien tiene que mover. {{Kc8}} se aparta —e8 es la misma historia en espejo—, {{Ke7}} te rodea y el peón lo sigue sin prisa."
+    },
+    {
+      "type": "play",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "prompt": "Toma la oposición frente al rey blanco para que sean las Blancas, y no tú, quienes tengan que comprometerse.",
+      "targetSan": [
+        "Kc7"
+      ],
+      "hint": "Los reyes se miran por una columna con una casilla vacía entre ellos, y el rey blanco no está en la misma columna que el tuyo."
+    }
+  ]
+}

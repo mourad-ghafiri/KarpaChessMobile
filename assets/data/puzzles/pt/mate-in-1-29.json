@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-29",
+  "fen": "7k/5K2/8/6N1/8/8/8/2B5 w - - 0 1",
+  "solution": [
+    "Bb2#"
+  ],
+  "title": "Lança na Grande Diagonal",
+  "setup": "O teu cavalo em g5 e o teu rei em f7 cercam o rei preto no canto, e o teu bispo continua em casa, em c1.",
+  "hint": "O cavalo e o rei cobrem todas as casas à volta do rei. Encontra a diagonal que chega a h8.",
+  "explanation": "## A Ideia\n\nO cavalo e o rei já fizeram o encaixotamento: o teu rei de f7 cobre g7 e g8, e o cavalo de g5 cobre h7.\n\n{{Bb2#}} entra na grande diagonal e dá xeque ao rei de h8 a partir do canto oposto. Nada pode tapar, e ao rei não resta casa nenhuma.\n\nA grande diagonal de a1 a h8 é um corredor de mate: uma vez o rei encaixotado no canto, um bispo pode acabar do outro lado do tabuleiro."
+}

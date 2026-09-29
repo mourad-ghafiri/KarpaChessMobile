@@ -1,0 +1,15 @@
+{
+  "id": "openings-18",
+  "fen": "rnbqkb1r/p1p2ppp/4pn2/1p6/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq b6 0 6",
+  "solution": [
+    "a4",
+    "c6",
+    "axb5",
+    "cxb5",
+    "Ne5"
+  ],
+  "title": "Anda Tak Bisa Menyimpannya",
+  "setup": "Hitam mengambil pion Katalan dan baru saja menopangnya dengan ...b5. Serang rantai pion itu sebelum mapan.",
+  "hint": "Hitam mempertahankan pion tambahan dengan sebuah rantai. Tanyakan pion Anda mana yang bisa mencapai pangkalnya, dan apa yang terbuka di belakangnya.",
+  "explanation": "## Ide\n\nPembukaan Katalan meminjamkan pion. Mempertahankannya membuat Hitam kehilangan sayap menteri.\n\n{{a4}} menyerang rantai di pangkalnya. Jika Hitam menopangnya dengan {{c6}}, maka {{axb5}} {{cxb5}} menyingkirkan pion c dari diagonal panjang, dan {{Ne5}} mengosongkan sisanya: gajah di g2 menatap lurus ke benteng di a8, dan kuda mengincar c4.\n\nHitam harus menutup a8, biasanya dengan {{Nd5}}, dan b5 tak punya pembela.\n\nPion yang harus Anda lindungi dengan lebih banyak pion adalah pion yang sedang Anda bayar."
+}

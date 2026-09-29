@@ -1,0 +1,12 @@
+{
+  "id": "pin-10",
+  "fen": "5k2/5p2/3nq2R/4p1p1/1P2p2N/2PPP3/3r1Q2/6K1 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 1150,
+  "title": "La Torre Prende la Donna",
+  "setup": "La vostra donna in f2 guarda su per una colonna f vuota il pedone nero in f7 e il re che gli sta dietro.",
+  "hint": "La donna nera è difesa una volta, da un pedone. Che cosa sta facendo la vostra donna da f2 a quel pedone?",
+  "explanation": "## L'idea\n\n{{Rxe6}} vince la donna per una torre. Il pedone in f7 è il suo unico difensore, ed è inchiodato contro il re in **f8** dalla vostra donna in **f2**. Ogni casa fra loro è vuota, quindi la ripresa è illegale e la donna è perduta."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "decoy-02",
+  "fen": "1r4k1/pp3ppp/8/8/2q5/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1190,
+  "title": "Pancing Benteng Pulang",
+  "setup": "Benteng di b8 satu-satunya penjaga baris belakang, dan menteri Anda berdiri di depan benteng Anda di d1.",
+  "hint": "Benteng itu mengerjakan seluruh pertahanan. Tawarkan sesuatu di baris kedelapan yang harus ia ambil.",
+  "explanation": "## Ide\n\n{{Qd8+}} adalah menteri yang dilemparkan ke baris belakang, dan {{Rxd8}} terpaksa. Benteng telah ditarik ke satu-satunya petak yang dikuasai benteng Anda sendiri, dan {{Rxd8#}} memberi mat kepada raja yang terkunci oleh pion-pionnya."
+}

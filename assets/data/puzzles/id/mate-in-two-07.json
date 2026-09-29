@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-07",
+  "fen": "6k1/3N2pp/8/3r2B1/8/7Q/5PPP/4K3 w - - 0 1",
+  "solution": [
+    "Qe6+",
+    "Kh8",
+    "Qe8#"
+  ],
+  "rating": 1200,
+  "title": "Kuda Memotong f8",
+  "setup": "Kuda Anda di d7 diam-diam menguasai f8, sehingga raja hitam punya jauh lebih sedikit petak daripada yang ia kira.",
+  "hint": "Hitung petak-petak pelarian raja hitam sebelum Anda memberi sekak. Mana yang sudah diawasi kuda Anda?",
+  "explanation": "## Ide\n\nKuda di **d7** menguasai f8, jadi sekak di diagonal a2–g8 hanya menyisakan satu petak bagi raja. {{Qe6+}} memaksa {{Kh8}}, dan {{Qe8#}} memberi mat di baris belakang: menteri menguasai g8 dan pion di g7 dan h7 mengerjakan sisanya."
+}

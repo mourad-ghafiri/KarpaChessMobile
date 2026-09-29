@@ -1,0 +1,56 @@
+{
+  "id": "queens-pawn-family",
+  "title": "As Aberturas de Peão de Dama",
+  "summary": "Ocupar o centro, ou refreá-lo",
+  "proof": "openings-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Dois Peões Que Nunca Se Tocam",
+      "text": "Avança o peão de rei duas casas e os peões centrais acabam a fitar-se, cada um desprotegido, cada um um alvo já a partir da jogada seguinte.\n\nO peão de dama cobre o mesmo terreno e não abre briga nenhuma. Um peão que aterre em d4 é guardado pela dama de d1 no instante em que chega, e um peão preto que venha para d5 é guardado pela sua própria dama igualmente bem. Não se pode capturar nada.\n\nPor isso estas partidas abrem sem contacto. O que as decide é raramente uma tática à oitava jogada. É uma casa que alguém possuiu melhor à trigésima."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Enfrentá-lo de Frente",
+      "text": "{{d4}} {{d5}}. As pretas ficam com a mesma parte que as brancas ficaram, e os dois peões bloqueiam-se um ao outro em casas onde nenhum deles pode capturar.\n\nPor isso as brancas mudam de assunto: {{c4}}, um peão de ala oferecido por um peão central. Isso é o Gambito de Dama, a abertura mais antiga da família.\n\nO peão é oferecido, não dado. As pretas podem agarrá-lo, e muitas vezes agarram, mas segurá-lo custa tantas jogadas que o peão costuma voltar — com as peças brancas já cá fora e apontadas ao meio."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Deixá-lo Ficar",
+      "text": "As pretas não puseram um peão no meio, e isso é um plano, não um atraso. O cavalo em f6 já impede o peão e das brancas de chegar a e4, e o peão em e6 abre uma estrada a um bispo.\n\nEstas são as defesas índias, e dividem-se pela peça que conduz a discussão.\n\n- **A Índia do Rei** entrega o meio, põe um bispo em fianqueto em g7 e rasga a parede mais tarde.\n- **A Nimzo-Índia** manda um bispo para b4 para trocar o cavalo que guardaria e4.\n- **A Índia da Dama** aponta um bispo pela grande diagonal clara a essa mesma casa."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+      "prompt": "Abre a grande diagonal das casas claras para o teu bispo de dama entrar na discussão sobre e4.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "O bispo em c8 tem uma diagonal que chega a e4, e um peão teu está estacionado na primeira casa dela."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "Os Dois Bispos, Uma Diagonal",
+      "text": "As brancas reclamaram a mesma estrada. O peão em g3 não é por si só uma jogada de desenvolvimento — é a porta para um bispo ir a g2, e de lá olha para e4 da berma do tabuleiro.\n\n{{Bb7}} {{Bg2}}, e os bispos acabam frente a frente pela diagonal, com e4 no meio. As brancas juntam a seguir um cavalo de c3, e a conta sobre e4 inclina-se.\n\nPortanto a resposta direta não chega por si só. As pretas têm de encontrar uma segunda coisa para atingir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "Ninguém Está a Vigiar c4",
+      "text": "Volta às quatro jogadas das brancas e pergunta qual delas defende alguma coisa. O peão em c4 não é guardado por absolutamente nada: nenhuma peça está atrás dele, e o peão de b2 não subiu a segurá-lo.\n\nÉ esse o custo permanente do peão de ala que as brancas avançaram à segunda jogada. Agarra espaço, depois precisa de quem tome conta dele, e um bispo a caminho de g2 está virado para o outro lado.\n\nRefrear não é passividade. É esperar pela jogada a que é preciso responder.\n\n> Um peão que ninguém defende decide onde se joga a partida."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "prompt": "Ataca o peão que nada defende, e obriga as brancas a escorá-lo com um peão em vez de uma peça.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "O teu bispo de dama tem duas saídas de c8. Uma delas aterra numa casa que vê c4."
+    }
+  ]
+}

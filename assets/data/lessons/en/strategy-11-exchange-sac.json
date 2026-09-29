@@ -1,0 +1,65 @@
+{
+  "id": "exchange-sacrifice",
+  "title": "The Exchange Sacrifice",
+  "summary": "Rook for knight, and the pawns never recover",
+  "proof": "strategy-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "One Piece Doing Two Jobs",
+      "text": "Material is dead level here, and one white piece is doing the work of two. The knight on c3 guards the pawn on e4, covers b5 and d5, and stands two squares in front of the white king on c1.\n\nBlack would love it gone. Only one black piece reaches c3 at all — the rook on c8, down an empty file — and a rook is worth five points where a knight is worth three.\n\nHanding a rook over for a knight or a bishop has a name of its own: you give up **the exchange**."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "The Price List",
+      "text": "Price a sacrifice before you make it, not after.\n\nSay the knight on c3 comes off and White takes back. Exactly one white unit reaches c3: the pawn on b2. Nothing else on the board touches the square, so the recapture is forced onto a pawn that leaves the b-file for good.\n\nWhite's queenside is then three pawns on two files — one stranded alone on the a-file, two stacked on the c-file. Neither side owns a dark-squared bishop, so b2 has only the king left to watch it, and a3 has nothing at all.\n\nTwo points, for damage that cannot be repaired."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "prompt": "Pay two points to smash the pawns in front of the white king and remove the piece holding White's center together.",
+      "targetSan": [
+        "Rxc3"
+      ],
+      "hint": "Exactly one black piece has a clear road to c3, and it is the expensive one."
+    },
+    {
+      "type": "teach",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "title": "Now Count It Off the Board",
+      "text": "White holds two rooks, a bishop and a knight. Black holds one rook, a bishop and two knights. Two points, gone, and there is no getting them back.\n\nNow the other column. The pawn on a2 has no neighbor left, and no pawn will ever defend it again. The pawns on c2 and c3 are stacked on one file, and the back one cannot move at all. The b-file has no white pawn on it, and the king on c1 stands next to that gap.\n\nEverything Black plays from here has to spend what the rook bought."
+    },
+    {
+      "type": "play",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "prompt": "Put your queen where it hits the stranded a-pawn and the doubled pawn in one move.",
+      "targetSan": [
+        "Qa5"
+      ],
+      "hint": "One queenside square looks straight down the a-file and along the dark squares next to the white king."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/2KR3R w - - 1 16",
+      "title": "An Extra Rook and Nowhere to Put It",
+      "text": "{{Kb1}}. White steps off the c-file first, which is sensible and does nothing for the rest of the position.\n\nLook at what the extra rook is doing. The rook on d1 runs into White's own knight on d4. The rook on h1 runs into White's own pawn on h4. The c-file is corked by the two white pawns sitting on it. Three files, and White can use none of them.\n\nA rook is worth five points when it has somewhere to stand. This one is worth what it can reach."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "title": "When the Bill Arrives",
+      "text": "The same trade is a plain loss of two points in three cases: the recapture leaves the pawns healthy, the trade hands your opponent a file to work with, or nothing follows it. Material talks, and it gets louder the longer you leave it alone.\n\nHere it never gets a word in. White's king on b1 has no pawn left on its own file, the pawn on c3 is already under fire, and every black piece points at the same corner.\n\n> You are not selling a rook, you are buying squares — and bought squares have to be used."
+    },
+    {
+      "type": "play",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "prompt": "Line your last rook up on the pawn White was forced to recapture with.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "Nothing defends that pawn, but grabbing it with the queen right away is premature. Bring your last rook to the file it stands on first."
+    }
+  ]
+}

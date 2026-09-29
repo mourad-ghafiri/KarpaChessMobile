@@ -1,0 +1,62 @@
+{
+  "id": "online-chess",
+  "title": "Gli Scacchi Online",
+  "summary": "Il bacino, la premossa e il bando silenzioso",
+  "proof": "culture-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Quattro Secondi per una Partita",
+      "text": "Una partita online comincia in circa quattro secondi. Scegliete un tempo di gioco, il server vi butta nel bacino di tutti quelli che cercano quello stesso tempo vicino al vostro numero, e vi abbina con il più vicino ancora in attesa. Nessuna quota d'iscrizione, nessun viaggio, nessuna sala.\n\nQuello che il bacino vi consegna più spesso è una partita veloce: tre minuti, o uno. La velocità è l'impostazione predefinita del formato, e la velocità è l'argomento di questa posizione. Il Nero ha appena puntellato il pedone in e5 con il pedone f, che è l'unico pedone di cui un re non può fare a meno."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Caricata Prima che Atterri",
+      "text": "Una premossa è una risposta che caricate mentre il vostro avversario sta ancora pensando. Nell'istante in cui la sua mossa atterra, la vostra si gioca: nessun tempo di reazione, quasi niente tolto dal vostro orologio. È l'unica ragione per cui una partita da un minuto è giocabile.\n\nEd è anche cieca. La mossa in coda parte dentro la posizione che arriva davvero, non quella che vi eravate immaginati.\n\nQuindi {{Nxe5}} qui non è un errore grave. È un invito. Risponde {{fxe5}} perché la ripresa era in coda prima ancora che il cavallo atterrasse, e il pedone f era l'unica copertura che il re nero avesse.\n\n> Una premossa compra tempo e spende giudizio."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp2pp/8/4p3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+      "prompt": "La ripresa in coda ha lasciato f7 nuda: uscite con scacco prima che al Nero venga data un'altra mossa per pensare.",
+      "targetSan": [
+        "Qh5+"
+      ],
+      "hint": "Un vostro pezzo raggiunge una casa che colpisce insieme il re in e8 e il pedone indifeso in e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Dove È Finita Quella Camminata",
+      "text": "Quattro scacchi dopo il re nero sta in h6, all'ottava mossa, con tutte e due le torri ancora sedute sulle case di partenza. A condurlo a spasso è stata la donna in f5.\n\nDavanti a un tavolo quella camminata costerebbe a qualcuno un pomeriggio. Online costa quindici secondi, e l'offerta di rivincita arriva prima dello shock. Ecco la prima differenza onesta fra i due contesti, ed è il volume. Una serata online contiene più partite di quante ne facesse in una stagione un giocatore di club del 1950, e ciascuna di esse è archiviata, cronometrata e ricercabile."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Una Mossa Non Prova Niente",
+      "text": "Tutti quegli scacchi archiviati sono anche prove, ed è così che si fa rispettare il *fair play*.\n\nQualunque giocatore decente trova a volte la scelta del motore, e questo attacco compare in libri di cinquecento anni fa. Quindi il rilevamento è statistico. Le vostre scelte vengono confrontate con le preferenze del motore lungo centinaia di partite, pesate per quanto era difficile ogni posizione e per come è stato speso l'orologio. Chi produce l'unica mossa in sei posizioni taglienti, ognuna negli stessissimi piatti due secondi, non viene giudicato su una mossa. Si sta misurando un andamento."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Chiusi Senza un Nome",
+      "text": "Gli account si chiudono in silenzio, non con un annuncio. La prova è una probabilità e non una confessione, e un'accusa pubblica su un sospetto fa più danni di un imbroglio non individuato.\n\nIl galateo cresciuto attorno a tutto questo è breve. Abbandonate una partita che avete deciso di non giocare, invece di sedervi sull'orologio finché non scade. Rispondete alla rivincita, in un senso o nell'altro. E quando uno sconosciuto vi batte in modo pulito, il guizzo di sospetto che arriva senza invito è un costo del formato, non una conclusione su di lui."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Che Cosa ha Portato il Bacino",
+      "text": "Le dirette, gli allenatori di tattica e le partite da tre minuti hanno portato milioni di persone che non si siederanno mai in una sala di torneo, e un giocatore di blitz è un giocatore di scacchi. E gli scacchi hanno smesso di essere un posto dove bisogna viaggiare: lo stesso bacino è aperto alle due di notte, ed è lì che vivono le spirali di rivincite.\n\nLa caccia su questa scacchiera si conduce da sola da qui in poi: {{d4+}} {{g5}} {{h4}} {{Kg7}} {{Qf7+}} {{Kh6}}."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1bnr/pppp1Q1p/7k/6p1/2BPP2P/8/PPP2PP1/RNB1K2R w KQ - 3 11",
+      "prompt": "Tutti e due i vostri pezzi che possono prendere in g5 danno scacco — una sola delle due prese è matto.",
+      "targetSan": [
+        "hxg5#"
+      ],
+      "hint": "Il re in h6 è vivo solo finché h5 resta fuori portata, quindi chiedetevi che cosa al momento impedisce di coprirla."
+    }
+  ]
+}

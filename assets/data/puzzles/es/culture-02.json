@@ -1,0 +1,11 @@
+{
+  "id": "culture-02",
+  "fen": "rnbqk1nr/ppp2ppp/3b4/8/8/2N5/PPPPP1PP/R1BQKBNR b KQkq - 1 4",
+  "solution": [
+    "Qh4+"
+  ],
+  "title": "Diez segundos",
+  "setup": "Las Blancas abrieron con el peón de f, acaban de desarrollar un caballo y nunca miraron la diagonal que se abrió en la primera jugada.",
+  "hint": "El peón de f salió de casa en la primera jugada. ¿Cuál de tus piezas llega a la diagonal que abrió, y con jaque?",
+  "explanation": "## La idea\n\nEl peón de f blanco salió en la primera jugada y abrió la diagonal e1–h4, y nada la ha cerrado desde entonces.\n\n{{Qh4+}} deja a las Blancas una sola respuesta, {{g3}}: el rey no puede ir a f2 y el peón de g es lo único que puede tapar. Después las Negras dan mate en dos de cualquier forma, {{Bxg3+}} {{hxg3}} {{Qxg3#}}, o primero la dama con {{Qxg3+}} {{hxg3}} {{Bxg3#}}.\n\nCuando un rival mueve pronto el peón de f, dedica un segundo a un jaque de dama en h4."
+}

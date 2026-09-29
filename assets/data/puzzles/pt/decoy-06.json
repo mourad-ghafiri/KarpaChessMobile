@@ -1,0 +1,14 @@
+{
+  "id": "decoy-06",
+  "fen": "5rk1/pp3ppp/8/2Q5/7B/7q/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rd8#"
+  ],
+  "rating": 1350,
+  "title": "Uma Dama Pelo Canto",
+  "setup": "O teu bispo em h4 varre e7, e o rei preto está fechado pelos seus próprios peões de f7 e g7.",
+  "hint": "O mate precisa do rei em f8, não em g8. Qual é o preço de o pôr lá, e vale a pena pagá-lo?",
+  "explanation": "## A Ideia\n\n{{Qxf8+}} força {{Kxf8}} — mais nada pode comer. Em f8 o rei tem e7 coberta pelo bispo e f7 e g7 tapadas pelos seus próprios peões, portanto {{Rd8#}} é mate. Uma dama é barata quando a alternativa é nada."
+}

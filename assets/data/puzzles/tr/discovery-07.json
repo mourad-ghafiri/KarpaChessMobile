@@ -1,0 +1,12 @@
+{
+  "id": "discovery-07",
+  "fen": "2r1k3/p1q2ppp/8/4B3/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxc7+"
+  ],
+  "rating": 1200,
+  "title": "Filin Arkasındaki Kale",
+  "setup": "Siyahın şahı hâlâ e8'de, e1'deki kalenizin karşısında ve dikeyi kapalı tutan tek şey kendi filiniz.",
+  "hint": "e dikeyini kapalı tutan tek şey filiniz. Nereye gidip yolda kendi parasını çıkarabilir?",
+  "explanation": "## Fikir\n\n{{Bxc7+}} veziri alır ve aynı anda kalenin e dikeyindeki şahını açar. c8'deki kale c7'yi gerçekten koruyor, ama siyahın önce şaha cevap vermesi gerekir ve fili ancak ondan sonra geri kazanabilir: bir fil karşılığında bir vezir."
+}

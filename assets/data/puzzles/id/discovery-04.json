@@ -1,0 +1,14 @@
+{
+  "id": "discovery-04",
+  "fen": "2r5/pp4pk/5n1p/8/4N3/1P6/P4PPP/1B4K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kg8",
+    "Nxc8"
+  ],
+  "rating": 1080,
+  "title": "Pilih Petak Pendaratan",
+  "setup": "Kuda Anda di e4 duduk di diagonal gajah menuju h7, jadi setiap langkah kuda tiba dengan sekak.",
+  "hint": "Setiap lompatan kuda ini membuka garis gajah. Hanya satu di antaranya yang juga mendarat sambil menyerang sesuatu.",
+  "explanation": "## Ide\n\nLangkah kuda mana pun menyingkap sekak, jadi pertanyaan sebenarnya adalah petak mana yang menghasilkan materi. {{Nd6+}} menyerang benteng di c8 sementara Hitam menangani sekak. Sesudah langkah raja seperti {{Kg8}}, kuda mengambilnya dengan {{Nxc8}}, dan menghalangi dengan Rc2 hanya menempatkan benteng di tempat gajah Anda mengambilnya."
+}

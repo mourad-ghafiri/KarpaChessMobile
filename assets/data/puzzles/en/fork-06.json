@@ -1,0 +1,14 @@
+{
+  "id": "fork-06",
+  "fen": "4r2k/pp4p1/5p2/2n5/8/5Q2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qh5+",
+    "Kg8",
+    "Qxe8+"
+  ],
+  "rating": 880,
+  "title": "File and Diagonal",
+  "setup": "The h-file stands open in front of the black king, and its rook has just stepped to e8.",
+  "hint": "Your queen wants one square where a file and a diagonal each end on a black piece.",
+  "explanation": "## The Idea\n\n{{Qh5+}} checks down the open h-file, and on the other line it looks through g6 and f7 straight at the rook. The pawn on g7 leaves Black only {{Kg8}}, and {{Qxe8+}} takes the rook with check. A queen forks because it is a rook and a bishop at once."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "deflection-proof",
+  "fen": "1r4k1/5ppp/8/8/2Q5/8/5PPP/2R3K1 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Rxc8",
+    "Rxc8#"
+  ],
+  "title": "Tawaran dengan Satu Jawaban",
+  "setup": "Raja Hitam tak punya ruang bernapas, dan benteng di b8 satu-satunya buah yang menguasai baris kedelapan.",
+  "hint": "Tak ada buah Anda yang bisa menyerang benteng di b8. Tawarkan sesuatu yang harus ia ambil, di petak yang dibutuhkan benteng Anda sendiri.",
+  "explanation": "## Ide\n\nBenteng di b8 tak bisa diserang, jadi ia harus diusir pergi. {{Qc8+}} menawarkan menteri di satu-satunya petak yang diawasi benteng, dan {{Rxc8}} satu-satunya langkah sah Hitam: pion-pion mengurung raja, dan tak ada yang bisa menghalangi. Kini benteng berdiri di c8, di depan benteng Anda, dan {{Rxc8#}} mengakhirinya. Menteri harus pergi lebih dulu, karena dialah buah yang menghalangi lajur benteng Anda."
+}

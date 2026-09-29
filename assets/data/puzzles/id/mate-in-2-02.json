@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-02",
+  "fen": "8/4k3/R7/8/8/8/8/1R5K w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Ke8",
+    "Ra8#"
+  ],
+  "title": "Tangga Benteng",
+  "setup": "Dua benteng melawan raja Hitam sendirian di e7, dan benteng di a6 sudah memagari seluruh baris keenam.",
+  "hint": "Satu benteng menguasai sebuah baris sementara yang lain memberi sekak di baris berikutnya.",
+  "explanation": "## Ide\n\nInilah tangga benteng. Benteng di a6 menguasai baris keenam, jadi {{Rb7+}} memberi sekak di sepanjang baris ketujuh dan hanya menyisakan baris belakang bagi raja: {{Kd8}}, {{Ke8}} atau {{Kf8}}.\n\nKe mana pun ia pergi, {{Ra8#}} naik ke baris terakhir. Benteng di b7 menguasai seluruh baris ketujuh, dan raja tak punya tempat lagi. Potong, sekak, potong, sekak: dua benteng tak butuh bantuan apa pun."
+}

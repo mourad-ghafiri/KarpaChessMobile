@@ -1,0 +1,12 @@
+{
+  "id": "smothered-04",
+  "fen": "2r3nk/pp4pp/1q6/4N3/8/8/PB3PPP/3R2K1 w - - 5 25",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1245,
+  "title": "İki Şah, Tek Mat",
+  "setup": "Siyah az önce atını g8'e geri çekti ve şaha üç komşu bıraktı, hiç boş kare bırakmadı.",
+  "hint": "Atınızın burada iki şah hamlesi var; h piyonunun hangisini öylece yiyemeyeceğini hesaplayın.",
+  "explanation": "## Fikir\n\nİki at sıçrayışı şah çeker, ama {{Ng6+}} hxg6 hamlesine yürür. {{Nf7#}} siyahın hiçbir taşının kapsamadığı tek kareye iner ve g8, g7 ile h7'nin hepsi kendi taşlarınca tutulduğu için şahın adım atacak yeri yoktur. Boğan şahın alınıp alınamadığını her zaman sınayın."
+}

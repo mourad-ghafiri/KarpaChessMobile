@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-05",
+  "fen": "n2b1k2/3r1p1p/1B4Q1/8/8/4R3/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qh6+",
+    "Kg8",
+    "Re8#"
+  ],
+  "rating": 1100,
+  "title": "Menyamping, Lalu Baris Belakang",
+  "setup": "Raja Hitam di f8 dikurung kerumunan buahnya sendiri, dan menteri Anda di g6 sudah cukup dekat untuk memberinya sekak.",
+  "hint": "Dorong raja ke satu-satunya petak yang disisakan buah-buahnya sendiri, lalu serang baris yang tak bisa lagi ditinggalkannya.",
+  "explanation": "## Ide\n\n{{Qh6+}} memberi sekak di sepanjang diagonal h6–f8 dan menggiring raja ke g8: {{Kg8}} satu-satunya langkah. Lalu {{Re8#}}. Menteri mempertahankan g7, garis benteng yang melewati raja merebut f8 dan h8, pion h7 mengisi sisanya, dan tak ada yang bisa mengambil benteng."
+}

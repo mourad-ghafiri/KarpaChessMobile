@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-12",
+  "fen": "7k/2Q4p/6K1/8/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Qxh7#"
+  ],
+  "title": "Prendete il Pedone, Prendete il Re",
+  "setup": "Il pedone in h7 dà scacco al vostro re in g6, e la vostra donna in c7 ha tutta la settima traversa.",
+  "hint": "L'ultimo scudo del re è un pedone che la vostra donna raggiunge, e il vostro re sta abbastanza vicino da sostenere la presa.",
+  "explanation": "## L'idea\n\nSiete sotto scacco, e la mossa che risponde vince anche la partita. {{Qxh7#}} prende il pedone che dà scacco e atterra accanto al re nero.\n\nIl vostro re in g6 difende h7, quindi il re in h8 non può prendere la donna, e la donna copre g8 e g7. Uno scacco dalla casa accanto non si può parare.\n\nQuando siete sotto scacco, guardate per prima cosa se potete catturare il pezzo che lo dà."
+}

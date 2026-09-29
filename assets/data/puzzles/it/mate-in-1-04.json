@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-04",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Corsia Libera verso il Re",
+  "setup": "La colonna d è vuota dalla vostra torre fino all'ottava traversa, e i pedoni del Nero non hanno lasciato al re nessuna finestra.",
+  "hint": "Fate scivolare la torre sulla traversa di fondo aperta — il resto lo fanno i pedoni in f7, g7 e h7.",
+  "explanation": "## L'idea\n\nUn classico **matto del corridoio**. La colonna d è un'autostrada pulita e il re nero sta soffocando dietro i propri pedoni.\n\n{{Rd8#}}: la torre copre f8 e tutta l'ottava traversa, f7, g7 e h7 hanno i pedoni del Nero, e niente può mettersi fra d8 e g8. Quando la vostra torre e il re avversario condividono una traversa di fondo aperta, contate prima le case di fuga."
+}

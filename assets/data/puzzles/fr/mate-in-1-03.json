@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-03",
+  "fen": "7k/6pp/8/8/8/8/1R6/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Emmuré en h8",
+  "setup": "Vos deux tours sont sur la colonne b, et le roi noir est coincé dans le coin derrière deux de ses propres pions.",
+  "hint": "Les propres pions du roi l'emmurent. Laquelle de vos tours peut atteindre sa rangée ?",
+  "explanation": "## L'idée\n\n{{Rb8#}} donne échec le long de la dernière rangée. Le roi en h8 ne peut pas aller en g8, qui est sur la ligne de la tour, et g7 et h7 sont occupées par ses propres pions. Rien de noir ne peut prendre la tour ni s'interposer.\n\nLa seconde tour ne joue aucun rôle ici : une tour suffit quand le roi adverse est emmuré par ses propres pions."
+}

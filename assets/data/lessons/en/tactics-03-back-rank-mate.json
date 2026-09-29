@@ -1,0 +1,62 @@
+{
+  "id": "back-rank-mate",
+  "title": "The Back Rank",
+  "summary": "A weakness that is already there, waiting for a rook to notice it",
+  "proof": "tactics-mix-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Five Squares, One Rank",
+      "text": "Nothing is attacking Black's king, and nothing has to be yet. The trap is already built.\n\nThe king on g8 has five squares around it. Three of them hold its own pawns — f7, g7, h7 — the shelter that has kept it alive all game. The other two are f8 and h8, and both sit on the eighth rank, the same rank the king is standing on.\n\nSo every square that king can use lies on one line. Put a rook on that line and the list is empty."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Two Questions",
+      "text": "A mate you see one move before it lands is luck. This one you can see coming from far off, because it is built out of two questions and both are answerable at a glance.\n\nCan the enemy king step off its back rank? Is anything guarding that rank?\n\nHere the answers are no and no, and they were no ten moves ago. All that is left is getting a rook or a queen to the eighth rank — and nothing stands on the c-file above your rook on c1.\n\nAsk those two questions on every move and you stop finding this by accident."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "prompt": "Neither square the king has left leaves the eighth rank, so take that whole rank in one move.",
+      "targetSan": [
+        "Rc8#"
+      ],
+      "hint": "One file in front of your rook has nothing standing on it, and it ends on the rank you want."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Rook or Queen, Nothing Else",
+      "text": "The rook is not the point. A queen ends it the same way, because what the mate needs is a piece that covers a whole rank at once, and only those two do.\n\nOne check before you send either of them. The square you land on must not be next to the king, unless something of yours defends it. Arrive on f8 or h8 here and Black is not mated at all — the king takes the piece and strolls out through the hole you just made.\n\nDistance is what made c8 safe."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "The Cure Costs a Move",
+      "text": "Your own king on g1 sits in the same five squares, and you already know the answer: give it an escape square. {{h3}} does it — h2 opens, and a rook landing on your first rank turns into a check you answer, not a game you lose.\n\nThe move is not free. It attacks nothing and defends nothing, and the shelter stands one pawn further forward than it did.\n\nWhich pawn you spend matters too. Pushing the g-pawn instead gives away f3 and h3 and opens the long diagonal into your own corner, so the h-pawn is usually the cheaper square to buy."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "One Guard Each",
+      "text": "A new board, and both kings are sealed in the shape you now recognize. One rook apiece, facing each other down the d-file.\n\nCount what guards Black's eighth rank: the rook on d8, and nothing else. Count what guards White's first rank: the rook on d1, and nothing else.\n\nThat is not a level position. It is two positions that are each one piece away from lost, and only one side is to move."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "The Trade That Is Not a Trade",
+      "text": "Same piece, same file, same value. Swapping rooks here looks like the dullest move on the board.\n\nIt is not a swap, though, because a swap needs something to take back with. Black's king cannot come out from behind three pawns, and pawns do not move backward. The only piece that could recapture on d8 is the one being captured.\n\n> Before you trade the last rook off an open file, ask what it was doing besides standing there."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "prompt": "Take the one piece guarding Black's eighth rank, and count what is left to take it back.",
+      "targetSan": [
+        "Rxd8#"
+      ],
+      "hint": "Before calling a capture a trade, work out which black piece could legally reach that square."
+    }
+  ]
+}

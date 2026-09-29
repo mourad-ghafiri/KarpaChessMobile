@@ -1,0 +1,14 @@
+{
+  "id": "fork-09",
+  "fen": "3rr1k1/5ppp/8/8/3n4/8/5PPP/2Q2RK1 b - - 1 1",
+  "solution": [
+    "Ne2+",
+    "Kh1",
+    "Nxc1"
+  ],
+  "rating": 990,
+  "title": "Şah Çatalı",
+  "setup": "Beyaz az önce kalesini f1'e oynattı ve şahı ile vezirini bir at sıçrayışı arayla bıraktı.",
+  "hint": "Beyazın şahı ile veziri, tek bir at karesinin dokunduğu iki karede oturuyor. Onu bulun, sonra güvenli olduğundan emin olun.",
+  "explanation": "## Fikir\n\n{{Ne2+}} aynı hamlede g1 ile c1'e vurur ve e2'yi kapsayan hiçbir şey yoktur: f1'deki kale de c1'deki vezir de onun ötesine bakar. {{Kh1}} geriye kalan tek karedir ve {{Nxc1}} veziri alır. Bir at sıçrayışı arayla duran şah ile vezir, ilk kontrol edeceğiniz çataldır."
+}

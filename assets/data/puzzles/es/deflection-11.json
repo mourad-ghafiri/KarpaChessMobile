@@ -1,0 +1,14 @@
+{
+  "id": "deflection-11",
+  "fen": "4kb1r/pp1n1ppp/8/7q/5Q1B/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1470,
+  "title": "El que tapa tiene que comer",
+  "setup": "El caballo de d7 es lo único que se interpone entre tu torre y d8.",
+  "hint": "El caballo no dejará esa casilla por voluntad propia. ¿Qué puedes poner donde esté obligado a comer?",
+  "explanation": "## La idea\n\n{{Qb8+}} deja a las Negras una sola jugada legal: {{Nxb8}}. La pieza que tapaba ha sido arrastrada fuera de d7, y {{Rd8#}} da mate por el camino en el que estaba. Una pieza que cierra una columna solo es un muro hasta que un jaque la llama a otra parte."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "pawn-storm",
+  "title": "A Avalanche de Peões",
+  "summary": "Faz marchar os peões que guardam o teu rei contra o deles",
+  "proof": "pawn-storm-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "O Meio Está Pregado",
+      "text": "Os dois reis estão na mesma ala, e as pretas estão prestes a avançar os peões que estão à frente do rei preto a direito contra as brancas.\n\nNormalmente é assim que se perde uma partida. Aqui não, e a razão está no meio do tabuleiro: o peão branco de d5 está entalado contra d6, o peão preto de e5 contra e4, não sobra nada para trocar, e nenhum dos lados pode abrir ali uma coluna.\n\nUma marcha pela ala custa cinco ou seis jogadas. A única coisa que castiga o jogo lento é um golpe rápido pelo centro, e o centro foi retirado de cena."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "Para Onde Pendem os Teus Peões",
+      "text": "Portanto as pretas marcham. Fazer rolar os peões que estão à frente do teu próprio rei pelo tabuleiro abaixo contra o rei inimigo é uma **avalanche de peões**, e pertence ao lado cujos peões já apontam ao rei inimigo.\n\nOs peões pretos pendem para o rei branco. Os brancos pendem para a ala da dama, que é para onde as brancas vão avançar.\n\nUm pormenor decide por onde as pretas começam. O peão branco de e4 é o que um peão preto se pode esticar a atingir nesta ala, e trocá-lo é como a coluna f se abre para a torre de f8."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "prompt": "Ataca o peão branco de e4 com um peão teu e começa a fazer alavanca para abrir a coluna f.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "Só um dos três peões à volta do teu rei pode aterrar numa casa que ataque e4."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 w - - 0 11",
+      "title": "Um Peão Não Faz Avalanche",
+      "text": "Um peão sozinho lá à frente não faz nada. A avalanche é o que vem atrás dele.\n\n{{Be3}} traz um bispo branco para a luta, {{f4}} empurra-o antes que se instale, {{Bf2}} é para onde ele vai, e {{g5}} traz o segundo peão preto para junto do primeiro.\n\nQuatro jogadas pretas, e nenhuma delas mexeu uma peça. É esse o negócio que uma avalanche faz: os peões compram linhas com tempo, e um centro trancado é o que torna o tempo comportável."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "O Mesmo Avanço, uma Jogada Cedo de Mais",
+      "text": "Outra partida, e as brancas acabaram de gastar duas jogadas a empurrar peões de ala, que estão agora em g4 e h3.\n\nAqui o centro não está fechado. O peão preto de e5 e o peão branco de e4 nunca se encontram, um único peão em d3 segura o meio pelas brancas, e um só avanço de peão das pretas transforma tudo isso em linhas abertas.\n\nÉ essa a diferença inteira entre os dois tabuleiros. As jogadas de peão são as mesmas jogadas de peão. O que está por baixo delas é que não."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "O Que as Brancas Encontram ao Voltar a Casa",
+      "text": "Aqueles dois avanços não trouxeram peça nenhuma para a partida. Cada um é um tempo dado de graça às pretas, e a um ataque de ala responde-se no centro, porque o centro abre-se mais depressa do que uma ala consegue chegar.\n\nDepois conta o abrigo das brancas. g2 está vazia e assim fica, já que os peões não andam para trás. O peão em h3 é algo a que apontar e não algo atrás de que se esconder, e o bispo preto de c8 já olha pela diagonal que lá vai dar.\n\n> Uma avalanche de peões é um ataque enquanto o centro estiver fechado. Caso contrário é um buraco cavado ao lado do teu próprio rei."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "prompt": "Castiga duas jogadas de ala desperdiçadas abrindo o centro antes de as brancas tirarem mais uma peça.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "O peão branco de e4 tem um defensor, o peão de d3, e um atacante, o teu cavalo de f6 — manda um peão fazer deles dois."
+    }
+  ]
+}

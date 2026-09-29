@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-05",
+  "fen": "6k1/5ppp/8/8/8/8/1R3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Palu Jarak Jauh",
+  "setup": "Benteng Anda di b2 menatap ke atas lajur yang kosong, dengan baris belakang terbuka lebar di ujung sana.",
+  "hint": "Raja Hitam punya tiga pionnya sendiri di depannya. Temukan baris yang tak bisa ditinggalkannya.",
+  "explanation": "## Ide\n\nIni mat baris belakang yang murni. {{Rb8#}} melaju sepanjang lajur b dan memberi sekak di sepanjang baris kedelapan. f8 dan h8 berada di garis benteng, f7, g7 dan h7 ditempati pion Hitam sendiri, dan tak ada yang bisa menangkap benteng atau menghalangi.\n\nBenteng yang jauh dari pertarungan tetap bisa memberi mat dalam satu langkah. Sebelum melangkah, pindai setiap lajur terbuka untuk benteng Anda dan setiap diagonal terbuka untuk gajah Anda."
+}

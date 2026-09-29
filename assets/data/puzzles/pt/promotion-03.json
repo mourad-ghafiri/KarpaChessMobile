@@ -1,0 +1,12 @@
+{
+  "id": "promotion-03",
+  "fen": "rk6/4Pppp/8/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "e8=Q+"
+  ],
+  "rating": 1080,
+  "title": "Alinha a Linha",
+  "setup": "O teu peão e chega à oitava linha na próxima jogada, e o rei e a torre pretos já estão nela.",
+  "hint": "O rei e a torre partilham uma linha com a casa a que o teu peão se dirige. Qual dos dois está à frente?",
+  "explanation": "## A Ideia\n\n{{e8=Q+}} promove com xeque pela oitava linha, portanto as pretas não têm tempo de travar o peão. A torre de a8 está atrás do rei nessa mesma linha: passa para c7 e a dama nova come-a. {{Ka7}} ou {{Kb7}} mantêm a torre guardada, mas continuas com uma dama contra uma torre.\n\nQuando o rei inimigo está na linha em que fazes dama, promove com xeque."
+}

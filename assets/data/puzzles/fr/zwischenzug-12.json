@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-12",
+  "fen": "2Q1B2k/b4ppp/2r5/4r3/8/R7/PP6/K7 w - - 0 1",
+  "solution": [
+    "Bxc6+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1700,
+  "title": "Dégagez la route avec échec",
+  "setup": "Votre fou en e8 et votre dame en c8 sont empilés sur la dernière rangée, et les tours noires en c6 et e5 tiennent la position.",
+  "hint": "Votre propre pièce se tient sur la case du mat. Trouvez le coup qui la retire et gagne un temps en même temps.",
+  "explanation": "## L'idée\n\nLe fou en e8 barre la route à la dame. {{Bxc6+}} prend une tour, libère la case et donne échec d'un seul coup ; {{Re8}} est forcé et {{Qxe8#}} conclut. Le meilleur coup intermédiaire est celui qui accomplit trois tâches."
+}

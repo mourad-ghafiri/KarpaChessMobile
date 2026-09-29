@@ -1,0 +1,62 @@
+{
+  "id": "najdorf-sicilian",
+  "title": "La Najdorf",
+  "summary": "Un pion de la tour, et la course qu'il déclenche",
+  "proof": "openings-14.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Un coup de pion et une bibliothèque derrière lui",
+      "text": "Le cinquième coup des Noirs va ici à un pion de la tour qui n'attaque rien, ne défend rien et ne sort rien. C'est aussi l'un des coups les plus analysés des échecs, avec une étagère de théorie derrière lui et aucun signe que l'étagère raccourcisse.\n\nMiguel Najdorf en a fait l'œuvre d'une vie, et la variante porte son nom. Fischer puis Kasparov en ont fait la réponse la plus tranchante du monde à 1.e4.\n\nLa question est donc de savoir ce que peut bien valoir un pion au bord."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "La poussée que veulent vraiment les Noirs",
+      "text": "Ce que veulent les Noirs, c'est le pion e deux cases plus loin, pour chasser le cavalier du centre et en prendre une vraie part.\n\nEssayez tout de suite et regardez ce qui répond : {{e5}} {{Bb5+}}. L'échec passe avant tout et le reste attend. Les Noirs ont six réponses légales — un cavalier en d7 ou c6, le fou ou la dame en d7, ou un roi qui bouge et ne roquera jamais.\n\nLa poussée est juste. L'ordre de coups, non."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Trois pièces, une case",
+      "text": "Comptez ce qui atteint b5 d'ici. Le cavalier en d4 y saute. Le cavalier en c3 y saute. Le fou en f1 a une route vide — e2, d3, c4 — qui arrive en b5 avec échec.\n\nTrois pièces, une case, et cette case est toute la raison pour laquelle la poussée centrale doit attendre un coup.\n\nUn seul pas de pion tranquille couvre b5 et répond aux trois à la fois. Il ne développe rien et ne crée aucune menace. Une porte est fermée avant que quiconque la franchisse."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "prompt": "Retirez b5 aux deux cavaliers blancs et au fou, avant d'approcher du centre.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "Un seul pion noir peut protéger b5, et il y arrive en un pas sans quitter la colonne du bord."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+      "title": "Ce qu'a acheté le pion",
+      "text": "Maintenant la même poussée arrive sans rien qui s'y accroche : {{Be3}} {{e5}} {{Nb3}} {{Be6}}.\n\nLe cavalier recule en b3 plutôt que d'avancer en b5, et les Noirs possèdent un pion central en e5 avec un fou sorti derrière lui.\n\nLa facture est réelle. Pousser le pion e laisse en d5 un trou qu'aucun pion noir ne pourra plus jamais protéger, et les Blancs passeront les coups suivants à essayer d'y garer une pièce. Les Noirs la paient quand même. Une case contre une part du centre, c'est un échange qui vaut la peine."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Ailes opposées",
+      "text": "Au dixième coup, les deux rois sont partis, celui des Blancs en c1 et celui des Noirs en g8. Ce seul fait change la fonction d'un pion.\n\nLes pions ne sont un abri que là où se tient votre propre roi. Sur l'autre aile, ce sont des soldats, et personne n'a besoin d'eux à la maison. Les Blancs lancent donc le pion g et le pion h vers g8, les Noirs le pion a et le pion b vers c1, et aucun camp ne s'arrête pour défendre.\n\nIci, un coup défensif est un coup offert à l'adversaire."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Compter la course",
+      "text": "Le matériel n'est plus la bonne unité. Comptez plutôt les coups jusqu'au roi adverse : combien de poussées avant qu'une ligne s'ouvre sur lui, et qui arrive le premier.\n\nLe pion g blanc a deux pas à faire avant de chasser le cavalier en f6 et que la colonne g commence à craquer. Le pion b noir a deux pas à faire pour atteindre b4, où le cavalier en c3 — la pièce placée devant le roi blanc — doit répondre.\n\nMême compte, et les Noirs ont le trait.\n\n> Sur des ailes opposées, on ne compte pas les pions, on compte les coups."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "prompt": "Lancez la course sur l'aile dame avec le pion dont les deux prochains pas chassent le cavalier qui garde le roi blanc.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Un seul de vos pions peut se tenir en b4 en deux coups, et rien sur l'échiquier ne l'en empêche."
+    }
+  ]
+}

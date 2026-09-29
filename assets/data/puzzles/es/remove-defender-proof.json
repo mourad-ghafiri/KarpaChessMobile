@@ -1,0 +1,13 @@
+{
+  "id": "remove-defender-proof",
+  "fen": "6k1/5ppp/5n2/3n2B1/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Bxf6",
+    "gxf6",
+    "Rxd5"
+  ],
+  "title": "Primero el defensor",
+  "setup": "Tu torre de d1 ya mira al caballo de d5, y el caballo de f6 es lo único que lo protege.",
+  "hint": "Capturar en d5 enseguida cambia una torre por un caballo. Cuenta lo que protege d5 antes de contar lo que lo ataca.",
+  "explanation": "## La idea\n\n{{Rxd5}} de inmediato recibe {{Nxd5}}: una torre por un caballo. Así que cambia primero la cuenta. {{Bxf6}} captura al único defensor de d5. Tras {{gxf6}} nada cuida de d5, y {{Rxd5}} se lleva el segundo caballo. Recapturar con el otro caballo es peor, porque tu torre da entonces jaque en d8 y la última fila hace el resto. Deja el alfil en paz, y habrá ganado un caballo a cambio de nada."
+}

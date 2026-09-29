@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-05",
+  "fen": "2r3k1/1q3ppp/8/8/8/8/2R2PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Rxc8#"
+  ],
+  "rating": 850,
+  "title": "Değişerek Mata",
+  "setup": "İki tarafın da c dikeyinde kalesi var ve siyahın c8'deki kalesini yalnızca veziri koruyor.",
+  "hint": "Arka yatay karesindeki saldıranları ve koruyucuları sayın ve şahın yardım edemeyeceğini unutmayın.",
+  "explanation": "## Fikir\n\n{{Rxc8+}} {{Qxc8}} hamlesini zorlar — şahın karesi yoktur ve vezir b7'den araya giremez — ve ikinci kale {{Rxc8#}} ile bitirir. Tek koruyucu, iki kalenin saldırdığı bir kareyi tutamaz."
+}

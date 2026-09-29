@@ -1,0 +1,56 @@
+{
+  "id": "opposite-castles",
+  "title": "Les attaques avec roques opposés",
+  "summary": "Deux attaques, une course, pas de second prix",
+  "proof": "opposite-castles-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "Deux rois, deux ailes",
+      "text": "Le roi blanc est en c1 et le roi noir en g8, chacun sur son aile, et ce seul fait change la fonction de chaque pion de l'échiquier.\n\nRoquez du même côté et chaque pion que vous poussez ouvre une route vers votre propre roi, alors on laisse les pions tranquilles et on joue les pièces. Ici, cette facture n'arrive jamais. L'abri blanc, c'est a2, b2 et c2, et les pions que les Blancs peuvent lancer contre les Noirs se trouvent sur l'autre aile, libres de courir aussi loin qu'ils veulent."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "Une course, pas une partie",
+      "text": "La position noire dit la même chose avec les couleurs inversées, donc les deux joueurs poussent en même temps, dans des directions opposées.\n\nLe vainqueur est celui qui ouvre le premier une ligne vers le roi adverse — une colonne, une diagonale, n'importe quelle route où peuvent foncer une tour ou une dame. Les coups défensifs tranquilles ne ralentissent pas l'autre camp ; ils dépensent les coups dont vous aviez besoin pour gagner la course. Il n'y a pas de second prix."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "prompt": "Lancez la course en poussant le pion qui peut chasser le cavalier noir de f6.",
+      "targetSan": [
+        "g4"
+      ],
+      "hint": "Deux pions de l'aile roi peuvent sauter de deux cases, et un seul arrive là où le pion en f3 protège déjà."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/3nbppp/p2pbn2/1p2p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 12",
+      "title": "Pousser, et être repoussé",
+      "text": "Les Noirs ne sont pas restés immobiles. Le pion en b5 est déjà en route, et les deux attaques avancent maintenant à la même vitesse.\n\n{{g5}} chasse le cavalier en f6 de la défense, {{Ne8}} est là où il va, {{f4}} fait monter le pion suivant, et {{b4}} frappe le cavalier en c3 comme les Blancs viennent de frapper celui des Noirs.\n\nAucun camp ne défend. Les deux camps comptent."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "Ce que coûte un coup",
+      "text": "Cinq coups plus tard, les deux attaques sont arrivées. Les pions blancs se tiennent en f5 et g5 ; les noirs en a4 et b4, avec la tour en a8 alignée derrière eux.\n\nDésormais, chaque coup achète du terrain ou n'achète rien. {{Nc5}} ressemble à un bon coup — le cavalier quitte d7 pour une meilleure case et regarde e4 — et il ne fait rien au roi blanc. Les Noirs échangeraient un coup dans la course contre une pièce plus jolie, et les coups sont la seule chose qu'il reste à dépenser aux deux camps."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "Un pion est un pied-de-biche",
+      "text": "Il faut aux Blancs une poussée de plus pour atteindre le roi noir. Il faut aux Noirs la colonne a, et c'est le pion blanc en a2 qui la ferme.\n\nAcheter cette ligne avec un pion n'est pas un échange égal, et ce n'est pas le but. Un pion vaut un point. Une tour qui arrive à côté d'un roi nu termine la partie. Le matériel, c'est ce qu'on compte quand il ne se passe rien ; avec les deux rois sous le feu, les coups et les lignes sont la seule monnaie qui reste.\n\n> Quand les rois sont sur des ailes opposées, un pion n'est pas du matériel. C'est un pied-de-biche."
+    },
+    {
+      "type": "play",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "prompt": "Dépensez un pion pour ouvrir de force la colonne qu'attend votre tour en a8.",
+      "targetSan": [
+        "b3"
+      ],
+      "hint": "Vous ne voulez pas récupérer le pion — vous voulez une prise qui arrache le pion a blanc de la colonne où se trouve déjà votre tour."
+    }
+  ]
+}

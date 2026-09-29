@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-02",
+  "fen": "2k5/8/1K6/P7/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Kb8"
+  ],
+  "rating": 1140,
+  "title": "Run for the Corner",
+  "setup": "White's king has just stepped up to b6 to walk the a-pawn home, and Black has three squares.",
+  "hint": "A rook's pawn has only one file of its own; ask which corner the defending king has to be holding.",
+  "explanation": "## The Idea\n\n{{Kb8}} is the only move. A rook's pawn cannot be escorted past a king that holds a8 and b8: {{a6}} {{Ka8}}, and after a7 Black has no legal move at all, which is stalemate. Step away to d7 or d8 instead and the white king simply walks around and queens."
+}

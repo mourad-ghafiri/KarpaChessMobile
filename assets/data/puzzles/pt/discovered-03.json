@@ -1,0 +1,11 @@
+{
+  "id": "discovered-03",
+  "fen": "4k3/r7/2N5/1B6/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxa7+"
+  ],
+  "title": "O Cavalo Desimpede a Diagonal",
+  "setup": "O teu bispo em b5 aponta ao rei — mas o teu próprio cavalo está no caminho. Isso não é um problema; é uma jogada.",
+  "hint": "O cavalo tem de mexer para o xeque aparecer. Encontra o salto que agarra alguma coisa pelo caminho.",
+  "explanation": "## A Ideia\n\nO cavalo em c6 bloqueia a diagonal do bispo até e8, portanto qualquer jogada de cavalo dá xeque. Essa liberdade é o ponto: o cavalo pode ir para onde mais render.\n\n{{Nxa7+}} come a torre enquanto o bispo de b5 dá o xeque. As pretas têm de responder ao xeque, portanto nada recaptura o cavalo, e às brancas ficam bispo e cavalo contra um rei nu.\n\nCom um xeque à descoberta, gasta a jogada grátis na maior captura ao alcance."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-09",
+  "fen": "r6Q/4B3/6K1/7p/6R1/1R6/8/5k1b w - - 0 1",
+  "solution": [
+    "Qf6+",
+    "Ke1",
+    "Rg1+",
+    "Kd2",
+    "Qb2#"
+  ],
+  "rating": 1620,
+  "title": "Saca al rey del borde",
+  "setup": "El rey negro está en f1 con un alfil en h1 detrás, y tu dama está lejos, en h8.",
+  "hint": "El rey está en la última fila, lo que parece seguro. Empújalo columna a columna y mira cómo deja de estarlo.",
+  "explanation": "## La idea\n\n{{Qf6+}} y {{Rg1+}} llevan al rey de f1 a d2, y {{Qb2#}} lo atrapa en el centro. Un rey sacado del borde está más expuesto que uno que se queda en él."
+}

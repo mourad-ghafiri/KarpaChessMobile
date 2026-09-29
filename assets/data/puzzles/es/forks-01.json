@@ -1,0 +1,13 @@
+{
+  "id": "forks-01",
+  "fen": "8/5ppp/3k4/q7/8/8/1N3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc4+",
+    "Kc5",
+    "Nxa5"
+  ],
+  "title": "Dos reales, un salto",
+  "setup": "El rey negro de d6 y la dama de a5 están a dos casillas, y tu caballo de b2 todavía no ha tocado a ninguno.",
+  "hint": "Trabaja hacia atrás desde los objetivos: ¿qué casillas atacan al rey, y cuál de ellas ataca también a la dama?",
+  "explanation": "## La idea\n\nA un jaque de caballo no se le puede tapar, y la pieza que ataca casi nunca puede recapturarlo. Así que un salto de caballo que golpee a la vez al rey y a la dama gana la dama.\n\n{{Nc4+}} toca d6 y a5 a la vez. Primero hay que responder al jaque, ninguna jugada de rey llega a a5 para defender la dama, y tras {{Kc5}} el caballo la recoge con {{Nxa5}}.\n\nDos objetivos, una jugada, y las Negras solo pueden salvar uno."
+}

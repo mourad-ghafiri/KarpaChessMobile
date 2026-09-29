@@ -1,0 +1,14 @@
+{
+  "id": "overload-12",
+  "fen": "7k/4Rppp/3n4/5Qr1/8/4N3/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Nxc8",
+    "Re8#"
+  ],
+  "rating": 1650,
+  "title": "Kirim Penjaganya Pergi",
+  "setup": "Kuda Hitam di d6 menguasai c8 dan e8 sekaligus, dan benteng Anda sudah duduk di baris ketujuh.",
+  "hint": "Satu buah hitam menahan dua petak. Serang yang sebenarnya tidak Anda inginkan.",
+  "explanation": "## Ide\n\n{{Qc8+}} bukanlah petak matnya — ia umpannya. Kedua langkah kuda kalah, dan {{Nxc8}} setidaknya mengambil sesuatu dan kuda meninggalkan e8, jadi {{Re8#}} mendarat. Tawarkan kepada pembela tugas yang bisa ia kerjakan, dan ia akan gagal pada tugas yang tak bisa ia kerjakan."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "online-chess",
+  "title": "El ajedrez en línea",
+  "summary": "La sala de espera, el premovimiento y el cierre discreto de cuentas",
+  "proof": "culture-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Cuatro segundos hasta la partida",
+      "text": "Una partida en línea empieza en unos cuatro segundos. Eliges un ritmo, el servidor te mete en la sala de espera de todos los que buscan ese mismo ritmo cerca de tu Elo, y te empareja con el más cercano que siga esperando. Sin inscripción, sin viaje, sin sala.\n\nLo que más a menudo te da la sala de espera es una partida rápida: tres minutos, o uno. La velocidad es el ajuste por defecto del formato, y de velocidad va esta posición. Las Negras acaban de sostener el peón de e5 con el peón de f, el único peón del que un rey no puede prescindir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Cargada antes de caer",
+      "text": "Un premovimiento (*premove*) es una respuesta que cargas mientras tu rival todavía piensa. En cuanto llega su jugada, sale la tuya: sin tiempo de reacción, sin apenas descontar de tu reloj. Es la única razón por la que una partida de un minuto es jugable.\n\nTambién es ciego. La jugada en cola sale disparada contra la posición que llegue de verdad, no contra la que imaginaste.\n\nAsí que {{Nxe5}} no es un error grave aquí. Es una invitación. {{fxe5}} responde porque la recaptura estaba en cola antes de que el caballo llegara, y el peón de f era el único refugio del rey negro.\n\n> Un premovimiento compra tiempo y gasta juicio."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp2pp/8/4p3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+      "prompt": "La recaptura en cola ha dejado f7 desnuda, así que sal con jaque antes de que las Negras tengan otra jugada para pensar.",
+      "targetSan": [
+        "Qh5+"
+      ],
+      "hint": "Una de tus piezas puede llegar a una casilla que golpea a la vez al rey de e8 y al peón suelto de e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Donde terminó ese paseo",
+      "text": "Cuatro jaques después, el rey negro está en h6, en la octava jugada, con las dos torres todavía en sus casillas iniciales. La dama de f5 hizo de pastora.\n\nFrente a un tablero, ese paseo le costaría a alguien una tarde. En línea cuesta quince segundos, y la oferta de revancha llega antes que el susto. Esa es la primera diferencia honesta entre los dos mundos, y es el volumen. Una tarde en línea tiene más partidas de las que un jugador de club de 1950 jugaba en una temporada, y todas quedan guardadas, cronometradas y se pueden buscar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Una jugada no prueba nada",
+      "text": "Todo ese ajedrez guardado también son pruebas, y así se hace cumplir el juego limpio.\n\nCualquier jugador decente encuentra a veces la elección del motor, y este ataque aparece en libros de hace quinientos años. Así que la detección es estadística. Tus elecciones se comparan con las preferencias del motor a lo largo de cientos de partidas, ponderadas por lo difícil que era cada posición y por cómo se gastó el reloj. A alguien que da con la única jugada en seis posiciones agudas, cada vez en los mismos dos segundos planos, no se le juzga por una jugada. Se mide un patrón."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Cerrada sin nombre",
+      "text": "Las cuentas se cierran en silencio en lugar de anunciarse. La prueba es una probabilidad y no una confesión, y una acusación pública por una corazonada hace más daño que un tramposo que se escapa.\n\nLa etiqueta que ha crecido alrededor de todo esto es breve. Abandona la partida que has decidido no jugar, en lugar de dejar correr el reloj hasta que se agote. Responde a la revancha, en un sentido o en otro. Y cuando un desconocido te gane limpiamente, la chispa de sospecha que llega sin invitación es un coste del formato, no una conclusión sobre él."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Lo que trajo la sala de espera",
+      "text": "Las retransmisiones, los entrenadores de táctica y las partidas de tres minutos trajeron a millones de personas que nunca se sentarán en una sala de torneo, y un jugador de blitz es un jugador de ajedrez. El ajedrez también dejó de ser un lugar al que hay que ir: la misma sala de espera está abierta a las dos de la madrugada, que es donde viven las revanchas interminables.\n\nLa caza en este tablero sigue sola a partir de aquí: {{d4+}} {{g5}} {{h4}} {{Kg7}} {{Qf7+}} {{Kh6}}."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1bnr/pppp1Q1p/7k/6p1/2BPP2P/8/PPP2PP1/RNB1K2R w KQ - 3 11",
+      "prompt": "Tus dos piezas que pueden capturar en g5 dan jaque: solo una de las capturas es mate.",
+      "targetSan": [
+        "hxg5#"
+      ],
+      "hint": "El rey de h6 solo sigue vivo mientras h5 quede fuera de alcance, así que pregúntate qué impide ahora mismo cubrirla."
+    }
+  ]
+}

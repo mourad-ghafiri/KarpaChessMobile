@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-12",
+  "fen": "1B1R2r1/3Qb3/8/1K6/2p5/8/5k2/6R1 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kxg1",
+    "Qh2+",
+    "Kf1",
+    "Rd1#"
+  ],
+  "rating": 1750,
+  "title": "Kaleyi Verin",
+  "setup": "Siyahın şahı f2'de, g1'deki kalenizin tam yanında duruyor; e7'de bir fili ve g8'de bir kalesi hâlâ savunuyor.",
+  "hint": "Kaleniz saldırı altında ve şah tam yanında. Onu almasına izin verilirse ne olur, sorun.",
+  "explanation": "## Fikir\n\n{{Qd2+}} şaha {{Kxg1}} hamlesinden iyisini bırakmaz — şah toplamak için köşeye yürür. {{Qh2+}} h2'yi mühürler ve {{Rd1#}} vezirin boşalttığı dikeyden mat eder. En iyi av hamlesi çoğu zaman şahın istediği taşı elden verir."
+}

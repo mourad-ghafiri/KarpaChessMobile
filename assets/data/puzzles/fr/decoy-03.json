@@ -1,0 +1,14 @@
+{
+  "id": "decoy-03",
+  "fen": "6k1/pp3ppp/1q6/r7/8/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Qxd8",
+    "Rxd8#"
+  ],
+  "rating": 1230,
+  "title": "La dame pour une case",
+  "setup": "Votre dame et votre tour sont empilées sur la colonne d, et le roi noir n'a aucun air derrière ses pions.",
+  "hint": "La dernière rangée est la faiblesse. Que pouvez-vous placer en d8 que les Noirs soient obligés de prendre ?",
+  "explanation": "## L'idée\n\n{{Qd8+}} offre la dame sur la seule case que les Noirs doivent prendre : {{Qxd8}} est leur seul coup légal. La dame noire se tient maintenant sur la dernière rangée devant votre tour, et {{Rxd8#}} conclut. Demandez-vous quelle case serait fatale à une pièce adverse, puis obligez-la à y aller."
+}

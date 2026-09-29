@@ -1,0 +1,50 @@
+{
+  "id": "weak-squares",
+  "title": "Zayıf Kareler ve Renk Bölgeleri",
+  "summary": "Bir piyonun bir daha asla kapsayamayacağı delikler",
+  "proof": "strategy-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "Dört Piyon, Tek Renk",
+      "text": "Piyonlar asla geri yürümez. Bir kareyi kalıcı mülke çeviren şey de bu tek kuraldır.\n\nSiyahın dört merkez piyonu c6, d5, e6 ve f5'te duruyor — her biri açık bir kare ve hiçbiri geri dönemiyor. Kendi piyonlarınızın bir daha saldıramayacağı kareye **zayıf kare** ya da **delik** denir. e5'e bakın. Orayı yalnızca d piyonu ile f piyonu kapsıyordu ve ikisi de çoktan önünden geçti.\n\nTaşlar bir deliği gözleyebilir. Bir deliği tutan şey piyonlardır ve siyahın e5 için hiç piyonu kalmamıştır."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "İçeri Yerleşmek",
+      "text": "{{Ne5}} gelir ve at evindedir. Siyah {{O-O}} ile şahını çeker; bu da e5 hakkında hiçbir şeyi değiştirmez — orada duran bir taşı kovmaya gelecek piyon yoktur.\n\nBir deliğin değeri budur. Ziyaret ettiğiniz bir kare değil. İşgal ettiğiniz ve ilkinin ardından ikinci bir taş gönderme seçeneği sunan bir kare.\n\nSiyahın hâlâ itiraz eden tek taşı var: d6'daki fil. e5'e dokunan tek siyah taş odur ve siyahın koyu kare savunmasının tamamı ondan ibarettir."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/pp2q1pp/2pbpn2/3pNp2/2PP4/1P4P1/P3PPBP/RNBQ1RK1 w - - 3 9",
+      "prompt": "Atınızı piyonun yanı sıra bir taşla da koruyun; siyahın tek koyu kare savunucusunu değişebilecek olanı seçin.",
+      "targetSan": [
+        "Bf4"
+      ],
+      "hint": "c1'deki filinizin köşeden çıkan iki çaprazı var ve yalnızca biri e5'i kapsayan bir kareden geçiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "Satılmış Bütün Bir Renk",
+      "text": "Yeni bir tahta ve değişim çoktan olmuş: siyahın koyu kare fili bir ata gitti ve yenisini satan bir dükkân yok.\n\nTek delik bir baş belasıdır. Bütün bir renk ise bir plandır. e7'deki at koyu bir karede duruyor; bu da saldırdığı her karenin açık olduğu anlamına geliyor. Ve g7'yi hiçbir siyah piyon asla koruyamayacak — bunu yapabilecek tek kareler f8 ile h8 ve sekizinci yataya varan piyon piyon olmaktan çıkar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "Beyazın Ödediği",
+      "text": "c dikeyindeki iki beyaz piyon makbuzdur. Beyaz, ikili piyonları ve vezir kanadında rahat bir evi olmayan bir şahı üstlendi ve o fili bunlarla satın aldı. Şartları iki taraf da biliyordu.\n\nŞimdi tahsil edin. g7, kimsenin korumadığı bir piyon; siyahın şahının hâlâ taşınmak zorunda olduğu evin kapı aralığında duruyor ve beyazın vezirinin ona giden açık bir yolu var.\n\n> Bir fili değişmeden önce koruduğu kareleri sayın. Onları da satıyorsunuz ve geri gelmiyorlar."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "prompt": "Vezirinizi, siyahın koruyacak taşı kalmamış şah kanadı piyonuna doğrultun.",
+      "targetSan": [
+        "Qg4"
+      ],
+      "hint": "Fil gittiğine göre siyahın şahının yanındaki hangi piyonun hiç koruyucusu kalmadı?"
+    }
+  ]
+}

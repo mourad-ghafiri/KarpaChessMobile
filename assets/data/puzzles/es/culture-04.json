@@ -1,0 +1,13 @@
+{
+  "id": "culture-04",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/P1N2N1P/1P2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "hxg4",
+    "Nxe2+"
+  ],
+  "title": "No retrocedas",
+  "setup": "Las Blancas acaban de echar a tu caballo con el peón de h y, con cuatrocientos puntos más, dan por hecho que lo vas a retirar.",
+  "hint": "Tu caballo de g4 está atacado, así que deja de defenderlo y pregúntate qué podría golpear tu otro caballo en su lugar.",
+  "explanation": "## La idea\n\n{{Nd4}} ignora el caballo atacado y golpea a la dama de e2, la única pieza que sostiene a la vez al alfil de c4 y al caballo de f3.\n\nLo mejor para las Blancas es {{hxg4}}, y {{Nxe2+}} se lleva la dama. Dos caballos por una dama te dejan con una pieza limpia de ventaja.\n\nLa captura natural es mucho peor. Tras {{Nxd4}} el caballo que protegía h2 se ha ido, y {{Qh2#}} lo termina, con el caballo de g4 protegiendo a la dama.\n\nCuando una pieza está atacada, busca un ataque mayor antes de buscar una casilla."
+}

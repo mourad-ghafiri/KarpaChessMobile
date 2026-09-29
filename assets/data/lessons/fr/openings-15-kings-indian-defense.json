@@ -1,0 +1,56 @@
+{
+  "id": "kings-indian-advanced",
+  "title": "La défense est-indienne",
+  "summary": "Invitez le centre, puis abattez-le",
+  "proof": "openings-15.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Laissez-le-leur",
+      "text": "Les Blancs tiennent c4, d4 et e4. Aucune autre ouverture ne cède cela aussi tranquillement, et les Noirs ont passé cinq coups à refuser la discussion : cavalier en f6, pion en g6, fou en g7, pion en d6, roi à l'abri en g8.\n\nC'est le marché de l'est-indienne. Les Blancs prennent le centre. Les Noirs prennent une aile roi terminée, un fou en g7 pointé le long de la grande diagonale, et un plan qui ne changera pas pendant les vingt coups suivants."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Rien ne touche d4",
+      "text": "Comptez ce qui attaque le centre blanc. Rien. Le fou en g7 vise d4 le long de la grande diagonale, mais le cavalier en f6 barre la route, et de toute façon un fou ne peut pas forcer un pion à bouger.\n\nSeul un pion demande à un pion de bouger. Deux pions noirs peuvent frapper d4 en une seule poussée, et ils penchent vers des ailes opposées : l'un vers l'aile dame, où les pions blancs sont déjà nombreux, l'autre vers l'aile roi, où se trouve déjà votre roi et où se dirige celui des Blancs."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "prompt": "Contestez le pion d blanc avec l'un de vos pions, en choisissant celui dont la chaîne penchera ensuite vers l'aile roi blanche.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "Deux poussées de pion touchent d4. L'une va vers l'aile où les Blancs sont déjà nombreux ; l'autre vers l'aile où vous voulez attaquer."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQ - 0 7",
+      "title": "Aux Blancs de choisir",
+      "text": "Le pion en d4 a maintenant un pion sous le nez, et les Blancs doivent dire ce que sera le centre.\n\n{{d5}} pousse au-delà et ferme la position — ce que recherchent les Noirs, car un centre fermé indique aux deux camps de quel côté courir. {{dxe5}} échange plutôt : la colonne d s'ouvre, les dames s'échangent d'ordinaire avec elle, et tout le plan d'attaque des Noirs s'en va avec elles.\n\nLe troisième choix est de roquer et de maintenir la tension. C'est le plus tranchant des trois, et celui qui demande aux deux joueurs d'en savoir le plus."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Deux chaînes, deux directions",
+      "text": "Les Blancs ont poussé au-delà, et les deux camps ont utilisé les coups suivants pour se regrouper. Les cavaliers noirs sont maintenant en d7 et e7, derrière leurs propres pions, en attendant qu'une ligne s'ouvre.\n\nRien au centre ne peut être pris. La chaîne blanche va de c4 à d5 et penche vers l'aile dame ; la chaîne noire va de d6 à e5 et penche vers l'aile roi. Chaque camp attaque dans la direction où pointent ses propres pions, car c'est la seule direction où ces pions peuvent avancer et ouvrir quelque chose."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Qui arrive le premier",
+      "text": "Une course, donc, et aucun des coureurs ne peut faire demi-tour. Les pions qui ont avancé ne reviennent pas, alors l'aide envoyée à l'autre bout arrive tard, ou jamais.\n\nLes Blancs poussent le pion c en c5, frappent d6 et ouvrent la colonne c vers l'aile dame noire. Les Noirs font rouler les pions de l'aile roi vers le roi blanc, et chaque pion échangé là arrache une couche de plus à son abri. Comptez les coups plutôt que le matériel : une tour peut être un prix raisonnable pour arriver un tour plus tôt.\n\n> Un centre bloqué n'est pas une partie calme. Ce sont deux attaques séparées par un mur."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "prompt": "Attaquez le pion en e4 avec l'un de vos pions et ouvrez la route vers le roi blanc.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "Votre pion en g6 protège déjà deux cases, et l'une d'elles fixe droit e4."
+    }
+  ]
+}

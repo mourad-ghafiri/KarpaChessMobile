@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-16",
+  "fen": "r1b1k2r/ppp2ppp/2n5/3Bq3/8/2N1P2P/PP3PPQ/R4RK1 w - - 0 1",
+  "solution": [
+    "Bxc6+"
+  ],
+  "title": "Remove the Guard With Check",
+  "setup": "Both queens stare at each other across the diagonal, and Black's queen on e5 is guarded only by the knight on c6.",
+  "hint": "Trading queens gets nothing. Take away the queen's only guard, and do it with a tempo.",
+  "explanation": "## The Idea\n\n{{Qxe5+}} at once only trades queens after {{Nxe5}}. The knight on c6 is the queen's only guard, so remove it first: {{Bxc6+}} takes the knight with check. Black must answer the check, with {{bxc6}}, a block on d7 or a king move, and none of them guards e5 again, so {{Qxe5+}} wins the queen for a bishop.\n\nWhen a piece has one guard, capture the guard with check."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "endgames-06",
+  "fen": "6k1/8/8/2P5/P7/2K5/7B/1b6 b - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "title": "İki Piyon Geride ve Yine de Berabere",
+  "setup": "Beyaz iki piyon önde ve filler farklı renklerde gidiyor. g8'deki şahınız uzakta, yani filin tek başına tutması gerekiyor. Sıra siyahta.",
+  "hint": "a piyonu a8'de bitiyor ve c piyonunun c6'yı geçmesi gerekiyor. İkisi de açık kare, öyleyse ikisinden birden geçen çaprazı bulun.",
+  "explanation": "## Fikir\n\na8 ile c6 aynı uzun çaprazdaki açık karelerdir ve sizinki açık kare filidir. {{Be4}} onu o çapraza koyar; orada ikisini birden gözler ve hiç ayrılmak zorunda kalmaz. Beyazın h2'deki fili koyu karelerde yaşar ve ona asla meydan okuyamaz.\n\nDaha yavaş her şey geç kalır: beyazın şahı b5'e ulaşır, bir piyon onun koruması altında c6'ya adımlar ve fazladan piyonlar kazanır."
+}

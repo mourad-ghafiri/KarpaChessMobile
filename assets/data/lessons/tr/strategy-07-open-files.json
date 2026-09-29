@@ -1,0 +1,56 @@
+{
+  "id": "open-files",
+  "title": "Açık Dikeyler",
+  "summary": "Kaleler için yollar — ve bir tanesini nasıl açarsınız",
+  "proof": "strategy-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "e Piyonlarını Sayın",
+      "text": "Hiç yok. Üçüncü ve dördüncü hamlelerde kalktılar ve geriye tahtanın tepesinden dibine uzanan, e8'deki siyah şahta biten bir şerit kaldı.\n\nBu şerit bir **açık dikey**dir: üzerinde iki renkten de hiç piyon olmayan dikey. İçinde iki taş duruyor, e4'teki at ve e7'deki fil; taşlar da oynar. Satranç tahtasında bir kalenin yolundan yana çekilemeyen tek şey piyonlardır ve burada çekilecek piyon yoktur."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Yol Kimin",
+      "text": "Kapalı bir tahtadaki kale seyircidir. Ona piyonsuz bir dikey verin, değerini nihayet hak etsin; çünkü dikey, kale için neyse çapraz da fil için odur — yediği tek şey.\n\nPeki hangi kale. Sizinkilerden biri kendi b1'deki atının arkasında sıkışmış ve karşıya geçemiyor. Öteki serbest.\n\nVe önce kale gider, vezir arkasından. Kolonun başındaki vezir, herhangi bir hafif taşın tempoyla kovalayabileceği bir hedeftir."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "prompt": "Dikeylerde yaşayan taşı, üzerinde hiç piyon kalmamış tek dikeye koyun.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "İki kaleniz var ve o şeride tek adımda yalnızca biri ulaşabiliyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Tek Hamlede Üç İş",
+      "text": "{{Re1}} kaleyi oyuna sokar, başka hiçbir şeyin olmadığı bir şerit boyunca e4'teki ata saldırır ve henüz hiç oynamamış bir şahı gösterir.\n\nSiyahın cevap vermesi gerekir. {{Bg4}}, f3'teki atı d1'deki vezire karşı açmaza alır ve beyaz {{c4}} ile devam edip d5'teki piyona vurur.\n\ne2 karesine bir beyaz piyon geri koyun, bunların hiçbiri var olmasın. Kale onun arkasında evde oturur ve beyaz orta oyunu bir taş eksik oynar."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Neredeyse Bir Yol",
+      "text": "Yeni tahta, daha zor bir sorun: buradaki her dikeyde bir piyon var ve beyazın iki kalesinin doğrultacağı hiçbir şey yok.\n\nYola en yakın şey c dikeyi. Beyazın hiç c piyonu yok, yani onu kapalı tutan tek şey siyahın c6'daki piyonu — yarı açık ve yarı açık, bitirilmeyi bekleyen bir dikeydir.\n\nO piyon kendiliğinden başıboş gitmeyecek. Piyon dikeyini tek bir sebeple terk eder: bir şey almak için. Yani beyazın ona alacak bir şey vermesi gerekiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Daha Az Piyon, Daha Çok Baskı",
+      "text": "Kaldıracı hangi piyon yapıyor. Beyazınkilerden yalnızca biri c6'ya dokunabilir: b4'teki piyon ve arkasında yedek olarak a2'deki piyon.\n\nO kanatta üç siyah piyona karşı iki beyaz piyon, sayımın yanlış ucu gibi duyuluyor. Bu bir **azınlık saldırısı**dır ve bir levyedir. c6'nın altına sokulan bir piyona siyahın üç cevabı vardır ve üçü de birer tavizdir: alırsa dikey açılır, yanından geçerse c piyonu hiçbir şeyi kapsamaz olur, yerinde otursa beyaz c6'da değişir ve geride zayıf bir piyon bırakır.\n\n> Kale açık bir dikeyi beklemez. Bir tane seçer ve onu açar."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "prompt": "Üzerinde duran siyah piyona saldırarak c dikeyini açmaya zorlayın.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Her kanattaki piyonları sayın, sonra sizinkilerden hangisinin c6'ya tek adımda ulaştığını sorun."
+    }
+  ]
+}

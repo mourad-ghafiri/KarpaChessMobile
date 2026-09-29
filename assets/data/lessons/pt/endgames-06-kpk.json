@@ -1,0 +1,56 @@
+{
+  "id": "k-p-vs-k",
+  "title": "Rei e Peão contra Rei",
+  "summary": "Um peão a menos, e as duas casas que seguram o empate",
+  "proof": "endgame-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "A Uma Coluna da Berma",
+      "text": "Um peão a menos com o rei inimigo já a escoltá-lo é normalmente uma formalidade. Nesta coluna não é.\n\nO peão branco em a6 promove em a8, e a8 é uma casa de canto com três vizinhas em vez de cinco. Essa escassez é do atacante: para enxotar um rei de b8 e a8, as brancas precisam de casas que a berma do tabuleiro nunca forneceu.\n\nO teu rei em c8 tem um passo que transforma o canto numa parede, e dois que entregam a partida às brancas."
+    },
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "O Passo Que Perde",
+      "text": "Estar longe do peão dá uma sensação de segurança, e aqui é fatal.\n\n{{Kd8}} mantém o teu rei a uma coluna confortável. {{Kb7}} responde, e agora todas as casas à volta do peão pertencem às brancas. {{Kd7}} é o único passo que ainda fica por perto, e {{a7}} manda o peão embora com a estrada livre e um rei a segurar a porta.\n\nNunca ias correr mais do que aquele peão. O canto era o único recurso do tabuleiro, e afastares-te dele entregou o canto."
+    },
+    {
+      "type": "play",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "prompt": "Vai para a única casa que não deixa ao rei branco espaço nenhum ao lado do peão.",
+      "targetSan": [
+        "Kb8"
+      ],
+      "hint": "Procura a casa onde as brancas ou têm de ceder o peão ou de te deixar sem uma única jogada legal."
+    },
+    {
+      "type": "teach",
+      "fen": "1k6/8/PK6/8/8/8/8/8 w - - 11 9",
+      "title": "Às Brancas Acaba-se o Tabuleiro",
+      "text": "Agora deixa as brancas tentar.\n\n{{a7+}} é xeque, e {{Ka8}} é a única resposta que não deixa simplesmente o peão promover. O teu rei está no canto, e ao rei branco em b6 faz falta b7 para tirar alguma coisa do peão. Não pode ter b7: o teu rei cobre essa casa a partir de a8.\n\nPortanto as brancas têm de se afastar. {{Ka6}}, e olha para o que tens — b7 e b8 estão as duas cobertas, o teu rei não tem para onde ir, e nada dá xeque. Afogamento. Qualquer outro passo branco deixa o teu rei caminhar até a7 e comer o peão."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "O Outro Tabuleiro",
+      "text": "Tira o canto e o método muda por inteiro. O peão está em d5, e d8 é uma casa vulgar com as suas vulgares cinco vizinhas.\n\nO teu rei em d7 já faz metade do trabalho: está na estrada do peão, à frente dele, e um peão não atravessa um rei.\n\nA outra metade é o rei branco em c5, e é a metade de que as pessoas se esquecem.\n\n> À frente do peão, e de frente para o rei inimigo através de uma casa vazia. As duas coisas, todas as vezes."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "Para Trás Não É de Lado",
+      "text": "O instinto é recuar pela coluna e manter o peão à frente. Perde.\n\n{{Kd8}} parece a mesma defesa uma linha mais atrás. Responde {{Kd6}}: agora o rei branco está à frente do peão, a uma casa do teu, e és tu que tens de jogar. {{Kc8}} afasta-se, sendo e8 a mesma história ao espelho, {{Ke7}} contorna-te, e o peão segue com todo o vagar."
+    },
+    {
+      "type": "play",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "prompt": "Toma a oposição contra o rei branco para que sejam as brancas, e não tu, a ter de se comprometer.",
+      "targetSan": [
+        "Kc7"
+      ],
+      "hint": "Os reis fitam-se ao longo de uma coluna com uma casa vazia pelo meio, e o rei branco não está na coluna do teu."
+    }
+  ]
+}

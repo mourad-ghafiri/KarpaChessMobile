@@ -1,0 +1,62 @@
+{
+  "id": "online-chess",
+  "title": "Chess Online",
+  "summary": "The pool, the premove and the quiet ban",
+  "proof": "culture-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Four Seconds to a Game",
+      "text": "A game online starts in about four seconds. You choose a time control, the server drops you into the pool of everyone hunting for that same control near your number, and it pairs you with the closest one still waiting. No entry fee, no travel, no hall.\n\nWhat the pool hands you most often is a fast game: three minutes, or one. Speed is the default setting of the format, and speed is what this position is about. Black has just propped up the pawn on e5 with the f-pawn, which is the one pawn a king cannot spare."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Loaded Before It Lands",
+      "text": "A premove is a reply you load while your opponent is still thinking. The instant their move lands, yours plays: no reaction time, almost nothing off your clock. That is the only reason a one-minute game is playable at all.\n\nIt is also blind. The queued move fires into whatever position actually arrives, not the one you pictured.\n\nSo {{Nxe5}} is not a blunder here. It is an invitation. {{fxe5}} answers it because the recapture was queued before the knight ever landed, and the f-pawn was the only cover the black king had.\n\n> A premove buys time and spends judgment."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp2pp/8/4p3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+      "prompt": "The queued recapture has stripped f7 bare, so come out with check before Black is given another move to think.",
+      "targetSan": [
+        "Qh5+"
+      ],
+      "hint": "One of your pieces can reach a square that hits the king on e8 and the loose pawn on e5 at the same time."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Where That Walk Ended",
+      "text": "Four checks later the black king stands on h6, on move eight, with both rooks still sitting on the squares they started from. The queen on f5 did the herding.\n\nAcross a table that walk would cost somebody an afternoon. Online it costs fifteen seconds, and the rematch offer arrives before the shock does. There is the first honest difference between the two settings, and it is volume. One evening online holds more games than a club player of 1950 got through in a season, and every one of them is stored, timed and searchable."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "One Move Proves Nothing",
+      "text": "All of that stored chess is also evidence, which is how fair play gets enforced.\n\nAny decent player finds the engine's choice sometimes, and this attack turns up in books five hundred years old. So detection is statistical. Your choices are compared against engine preference across hundreds of games, weighted by how hard each position was and by how the clock was spent. Someone who produces the only move in six sharp positions, each in the same flat two seconds, is not being judged on a move. A pattern is being measured."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Closed Without a Name",
+      "text": "Accounts are closed quietly rather than announced. The evidence is a probability and not a confession, and a public accusation on a hunch does more damage than a missed cheat does.\n\nThe etiquette that grew around all this is short. Resign a game you have decided not to play, rather than sitting on the clock until it runs out. Answer the rematch, one way or the other. And when a stranger beats you cleanly, the flicker of suspicion that arrives uninvited is a cost of the format, not a finding about them."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "What the Pool Brought In",
+      "text": "Streams, puzzle trainers and three-minute games brought in millions of people who will never sit in a tournament hall, and a blitz player is a chess player. Chess also stopped being somewhere you have to travel to: the same pool is open at two in the morning, which is where the rematch spirals live.\n\nThe hunt on this board runs itself from here: {{d4+}} {{g5}} {{h4}} {{Kg7}} {{Qf7+}} {{Kh6}}."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1bnr/pppp1Q1p/7k/6p1/2BPP2P/8/PPP2PP1/RNB1K2R w KQ - 3 11",
+      "prompt": "Both of your pieces that can take on g5 give check — only one of the captures is mate.",
+      "targetSan": [
+        "hxg5#"
+      ],
+      "hint": "The king on h6 is only alive while h5 stays out of reach, so ask what is currently standing in the way of covering it."
+    }
+  ]
+}

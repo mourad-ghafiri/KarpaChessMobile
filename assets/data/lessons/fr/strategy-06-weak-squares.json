@@ -1,0 +1,50 @@
+{
+  "id": "weak-squares",
+  "title": "Cases faibles et complexes de couleur",
+  "summary": "Des trous qu'aucun pion ne pourra plus jamais couvrir",
+  "proof": "strategy-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "Quatre pions, une couleur",
+      "text": "Les pions ne reculent jamais. Cette seule règle transforme une case en propriété permanente.\n\nLes quatre pions centraux noirs sont en c6, d5, e6 et f5 — tous sur des cases blanches, et aucun ne peut revenir en arrière. Une case qu'aucun de vos pions ne pourra plus attaquer est une **case faible**, ou un **trou**. Regardez e5. Seuls le pion d et le pion f l'ont jamais couverte, et tous deux l'ont déjà dépassée.\n\nDes pièces peuvent surveiller un trou. Ce sont les pions qui le tiennent, et les Noirs n'en ont plus aucun pour e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "L'emménagement",
+      "text": "{{Ne5}}, et le cavalier est chez lui. Les Noirs mettent le roi à l'abri par {{O-O}}, ce qui ne change absolument rien à e5 — aucun pion ne viendra expulser une pièce qui s'y tient.\n\nVoilà ce que vaut un trou. Pas une case qu'on visite. Une case qu'on occupe, avec la possibilité d'envoyer une seconde pièce après la première.\n\nUne pièce noire discute encore : le fou en d6. C'est la seule pièce noire qui touche e5, et c'est toute la défense noire des cases noires."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/pp2q1pp/2pbpn2/3pNp2/2PP4/1P4P1/P3PPBP/RNBQ1RK1 w - - 3 9",
+      "prompt": "Protégez votre cavalier avec une pièce en plus du pion, en choisissant celle qui peut échanger le seul défenseur noir des cases noires.",
+      "targetSan": [
+        "Bf4"
+      ],
+      "hint": "Votre fou en c1 a deux diagonales pour sortir du coin, et une seule traverse une case qui couvre e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "Toute une couleur, vendue",
+      "text": "Un nouvel échiquier, et l'échange a déjà eu lieu : le fou de cases noires des Noirs est parti contre un cavalier, et aucune boutique n'en vend un autre.\n\nUn trou est une gêne. Toute une couleur est un plan. Le cavalier en e7 est sur une case noire, ce qui veut dire que toutes les cases qu'il attaque sont blanches. Et aucun pion noir ne défendra jamais g7 — les seules cases d'où un pion pourrait le faire sont f8 et h8, et un pion qui arrive sur la huitième rangée cesse d'être un pion."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "Ce qu'ont payé les Blancs",
+      "text": "Les deux pions blancs de la colonne c sont le reçu. Les Blancs ont accepté des pions doublés et un roi sans abri confortable à l'aile dame, et ont acheté ce fou avec. Les deux camps connaissaient les conditions.\n\nMaintenant, encaissez. g7 est un pion que personne ne défend, sur le seuil de la maison où le roi noir doit encore emménager, et la dame blanche a une route dégagée vers lui.\n\n> Avant d'échanger un fou, comptez les cases qu'il protégeait. Vous les vendez aussi, et elles ne reviennent pas."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "prompt": "Pointez votre dame sur le pion de l'aile roi qu'aucune pièce noire ne peut plus défendre.",
+      "targetSan": [
+        "Qg4"
+      ],
+      "hint": "Quel pion à côté du roi noir n'a plus aucun défenseur maintenant que le fou a disparu ?"
+    }
+  ]
+}

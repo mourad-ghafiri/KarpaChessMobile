@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-07",
+  "fen": "7k/2p5/3p1b2/8/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxf6"
+  ],
+  "title": "Gratuit ou protégé ?",
+  "setup": "Votre cavalier en e4 peut prendre deux pièces noires différentes — mais une seule est vraiment gratuite.",
+  "hint": "Avant de vous servir, demandez-vous : qui reprend ? Vérifiez les défenseurs de d6 et de f6.",
+  "explanation": "## L'idée\n\nDeux prises vous tendent les bras :\n\n- {{Nxd6}} rafle un pion, mais le pion en c7 **défend d6** et reprend aussitôt. Vous échangeriez un cavalier de trois points contre un pion d'un point.\n- {{Nxf6}} rafle le fou, et **rien ne défend f6**. Trois points nets.\n\nLa bonne question n'est jamais « que puis-je prendre ? » mais « que puis-je prendre gratuitement ? ». Comptez les défenseurs avant chaque prise."
+}

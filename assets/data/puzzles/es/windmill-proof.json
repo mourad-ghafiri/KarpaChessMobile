@@ -1,0 +1,13 @@
+{
+  "id": "windmill-proof",
+  "fen": "r4n1k/pq1n2Rp/1p3B2/2p5/8/2P4P/PP3PP1/6K1 w - - 0 1",
+  "solution": [
+    "Rxd7+",
+    "Kg8",
+    "Rxb7"
+  ],
+  "title": "Primero róbale al defensor",
+  "setup": "Tu torre de g7 está entre tu alfil y el rey negro, así que cualquier jugada de torre da jaque. Elige aquella a la que las Negras no puedan responder capturando.",
+  "hint": "A un jaque al descubierto se puede responder capturando la pieza que lo da. Encuentra qué puede capturar a tu alfil, y hazlo imposible.",
+  "explanation": "## La idea\n\nTodas las jugadas de torre dan jaque. La mayoría dejan que el caballo de d7 capture al alfil de f6, y los dos jaques dobles, en g8 y h7, le entregan tu torre al rey. {{Rxd7+}} captura en cambio ese caballo, así que el jaque se mantiene y {{Kg8}} es la única jugada legal.\n\nLa torre de d7 mira ahora por la séptima fila a la dama, y la dama no tiene tiempo de escapar: {{Rxb7}} la captura. La torre dio jaque, y robó dos veces."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zwischenzug",
+  "title": "The In-Between Move",
+  "summary": "Recapture second, threaten first",
+  "proof": "zwischenzug-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "The Knight Nobody Is Defending",
+      "text": "White's knight has landed on d5, one pawn richer, and nothing at all defends it.\n\nTaking it should be free. It is not: the bishop on g5 pins the knight on f6 to the queen on d8, so the moment that knight steps aside the bishop swings to d8, collecting a queen for a knight.\n\nThat is White's whole idea, and White has counted it exactly that far."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "Count Past the Recapture",
+      "text": "Every exchange has a rhythm you learn early. I take, you take, and we both look at what is left on the board.\n\nAn **in-between move** breaks that rhythm. Instead of recapturing on the turn the recapture is due, you play something the opponent has to deal with first — a check, or a threat worth more than the piece hanging. Your piece is still hanging afterward. It simply waits.\n\nSo before you decide a capture loses material, ask what you would still be threatening once the smoke clears."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "prompt": "Grab the free piece even though the reply wins your queen — the count is not over.",
+      "targetSan": [
+        "Nxd5"
+      ],
+      "hint": "Before you turn down a capture, ask which checks would still be on the board after the reply you are afraid of."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "One Free Move Is All White Needs",
+      "text": "The queen is gone, and the bishop on d8 that took it has nothing defending it.\n\nDo not assume it is trapped. Look at the diagonal in front of it: e7, f6, g5 and h4 are all empty. Hand White one quiet move and that bishop walks out to h4, a queen for a knight ahead, and the game stops being a contest.\n\nSo the bishop is only collectible while White is too busy to save it."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "The Recapture That Loses",
+      "text": "{{Kxd8}} is the move that feels owed, and it throws the position away.\n\nCount it: Black handed over a queen and took back a knight and a bishop. Three points light, and White is still holding the extra pawn from earlier.\n\nThis same position pays for that bishop in full. The only difference is what Black does before going to get it.\n\n> A piece that is yours to take is worth no more for being taken now. Ask what else the move could be doing."
+    },
+    {
+      "type": "play",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "prompt": "Find the check that keeps White too busy to rescue the bishop, and come back for it afterward.",
+      "targetSan": [
+        "Bb4+"
+      ],
+      "hint": "Exactly one black piece can give check here, and it has not left its starting square all game."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fork-09",
+  "fen": "3rr1k1/5ppp/8/8/3n4/8/5PPP/2Q2RK1 b - - 1 1",
+  "solution": [
+    "Ne2+",
+    "Kh1",
+    "Nxc1"
+  ],
+  "rating": 990,
+  "title": "La horquilla real",
+  "setup": "Las Blancas acaban de llevar su torre a f1, y su rey y su dama han quedado a un salto de caballo.",
+  "hint": "El rey y la dama blancos están en dos casillas que toca una misma casilla de caballo. Encuéntrala y comprueba que es segura.",
+  "explanation": "## La idea\n\n{{Ne2+}} ataca g1 y c1 en la misma jugada, y nada cubre e2: la torre de f1 y la dama de c1 miran más allá de ella. {{Kh1}} es la única casilla que queda, y {{Nxc1}} se come la dama. Rey y dama a un salto de caballo es la primera horquilla que hay que buscar."
+}

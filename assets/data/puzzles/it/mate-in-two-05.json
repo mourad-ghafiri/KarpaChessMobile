@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-05",
+  "fen": "n2b1k2/3r1p1p/1B4Q1/8/8/4R3/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qh6+",
+    "Kg8",
+    "Re8#"
+  ],
+  "rating": 1100,
+  "title": "Passo di Lato, poi la Traversa di Fondo",
+  "setup": "Il re nero in f8 è chiuso dalla sua stessa calca, e la vostra donna in g6 è già abbastanza vicina da dargli scacco.",
+  "hint": "Spingete il re sull'unica casa che i suoi pezzi gli lasciano, poi colpite la traversa che non può più lasciare.",
+  "explanation": "## L'idea\n\n{{Qh6+}} dà scacco lungo la diagonale h6–f8 e spinge il re in g8: {{Kg8}} è l'unica mossa. Poi {{Re8#}}. La donna si tiene g7, la linea della torre attraverso il re toglie f8 e h8, il pedone in h7 riempie il resto, e niente può prendere la torre."
+}

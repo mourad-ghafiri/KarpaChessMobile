@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-12",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3QK3 w - - 0 1",
+  "solution": [
+    "Qd8#"
+  ],
+  "title": "Mat Baris Belakang",
+  "setup": "Raja hitam di g8 terkurung oleh pionnya sendiri di f7, g7 dan h7, tanpa apa pun yang menjaga baris di belakangnya.",
+  "hint": "Ketika raja lawan terkunci di balik pionnya sendiri, carilah buah yang bisa merebut seluruh baris dalam satu langkah.",
+  "explanation": "## Ide\n\nRaja Hitam berdiri di baris kedelapan, dan pionnya sendiri di f7, g7 dan h7 membuat satu-satunya petak yang tersisa baginya, f8 dan h8, berada di baris yang sama.\n\n{{Qd8#}} merebut seluruh baris sekaligus. Tak ada yang menghalangi, tak ada yang bisa mencapai d8 untuk menangkap, dan raja terlalu jauh untuk mengambilnya.\n\nRaja di balik tiga pion yang belum bergerak tinggal satu buah berat lagi dari mat, dan itulah yang membuat satu langkah pion, dimainkan tepat waktu, menjadi asuransi yang begitu murah."
+}

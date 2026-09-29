@@ -1,0 +1,14 @@
+{
+  "id": "fork-06",
+  "fen": "4r2k/pp4p1/5p2/2n5/8/5Q2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qh5+",
+    "Kg8",
+    "Qxe8+"
+  ],
+  "rating": 880,
+  "title": "Colonne et diagonale",
+  "setup": "La colonne h est ouverte devant le roi noir, et sa tour vient d'aller en e8.",
+  "hint": "Votre dame cherche une case où une colonne et une diagonale aboutissent chacune à une pièce noire.",
+  "explanation": "## L'idée\n\n{{Qh5+}} donne échec le long de la colonne h ouverte, et sur l'autre ligne elle regarde à travers g6 et f7 droit vers la tour. Le pion en g7 ne laisse aux Noirs que {{Kg8}}, et {{Qxe8+}} prend la tour avec échec. Une dame fait une fourchette parce qu'elle est à la fois une tour et un fou."
+}

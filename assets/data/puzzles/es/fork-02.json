@@ -1,0 +1,12 @@
+{
+  "id": "fork-02",
+  "fen": "6k1/pp3ppp/3b1n2/8/3PP3/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "e5"
+  ],
+  "rating": 730,
+  "title": "Un peón, dos piezas",
+  "setup": "El alfil negro de d6 y el caballo de f6 están a dos casillas uno del otro en la misma fila.",
+  "hint": "Un peón ataca dos casillas a la vez, así que busca el avance que cae entre dos piezas negras.",
+  "explanation": "## La idea\n\n{{e5}} ataca d6 y f6 a la vez, y el peón de d4 lo defiende, así que el alfil no puede comérselo sin más. Las Negras salvan una pieza y tú te comes la otra. Dos piezas rivales en la misma fila, separadas por una columna, son una horquilla de peón a punto de ocurrir."
+}

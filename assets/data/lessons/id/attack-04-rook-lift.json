@@ -1,0 +1,44 @@
+{
+  "id": "rook-lift",
+  "title": "Angkat Benteng",
+  "summary": "Ketika tak ada lajur yang mencapai raja, lewatlah dari atas",
+  "proof": "rook-lift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Dua Benteng di Rumah",
+      "text": "Raja Hitam di g8 telah kehilangan pion g dan pion h-nya, dan menteri Anda di h5 sudah dekat. Menteri Hitam di g7 berdiri di depan raja, keduanya sejajar di lajur g.\n\nKedua benteng Anda masih di baris pertama. Lajur c dan lajur e terbuka, dan tak satu pun mendekati g8. Lajur g mendekatinya, dan pion Anda sendiri di g2 menutupnya.\n\nBenteng yang tak menemukan lajur hanyalah perabot seharga lima poin."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Lewat dari Atas",
+      "text": "Benteng tak harus mencapai pertarungan lewat sebuah lajur. Ia bisa naik ke baris ketiga lalu berjalan ke samping di sepanjangnya, melewati pionnya sendiri alih-alih menembusnya. Itulah **angkat benteng**: naik dulu, menyamping kemudian.\n\nBaris ketiga Anda kosong dari a3 sampai g3, dan g3 adalah petak yang penting. Benteng di sana berdiri di depan pion g Anda, di lajur tempat menteri dan raja Hitam menunggu berjajar.\n\n> Ketika tak ada lajur yang akan terbuka, bawa benteng melewati pion-pion, jangan menunggu di belakangnya."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "prompt": "Mulailah perjalanan sebuah benteng menuju lajur g, tempat menteri Hitam berdiri di depan rajanya.",
+      "targetSan": [
+        "Rc3"
+      ],
+      "hint": "Kedua benteng bisa naik, tetapi hanya satu yang punya tugas di tempatnya berdiri. Lihat petak-petak yang bisa dicapai gajah Hitam."
+    },
+    {
+      "type": "teach",
+      "fen": "r3brk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/4R1K1 w - - 2 26",
+      "title": "Benteng yang Tinggal di Rumah",
+      "text": "Hitam melihat ancamannya dan menjawab dengan ancamannya sendiri: gajah di e8 menyerang menteri Anda.\n\nTetapi e8 berada di lajur e yang terbuka, dan benteng Anda yang lain tak pernah meninggalkannya. {{Rxe8}} mengambil gajah, {{Raxe8}} menangkap balik, dan tak ada yang menyentuh benteng di c3 atau petak-petak kosong di depannya.\n\nItulah sebabnya pengangkatan dimulai dari c1. Benteng yang naik seharusnya benteng yang tak punya pekerjaan di tempatnya berdiri."
+    },
+    {
+      "type": "play",
+      "fen": "4rrk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/6K1 w - - 0 27",
+      "prompt": "Tuntaskan pengangkatannya dan bawa benteng menyeberang ke lajur tempat menteri Hitam berdiri di depan rajanya.",
+      "targetSan": [
+        "Rg3"
+      ],
+      "hint": "Begitu benteng berdiri di lajur itu, menteri tak bisa menyingkir tanpa membiarkan rajanya dalam sekak."
+    }
+  ]
+}

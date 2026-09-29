@@ -1,0 +1,12 @@
+{
+  "id": "pin-12",
+  "fen": "5k2/7p/5p2/4n2B/2q3r1/2P2N1P/5Qb1/6K1 w - - 0 1",
+  "solution": [
+    "Nxe5"
+  ],
+  "rating": 1200,
+  "title": "L'Inchiodatura Arriva Tardi",
+  "setup": "Il cavallo nero in e5 è difeso dal pedone in f6, e il vostro stesso cavallo in f3 blocca la vostra donna.",
+  "hint": "Il pedone che difende e5 è libero di catturare in questo momento. Che cosa cambia sulla colonna f nell'istante in cui il vostro cavallo se ne va?",
+  "explanation": "## L'idea\n\n{{Nxe5}} vince un pezzo. Il pedone in f6 difende e5 — finché il vostro cavallo non lascia f3 e la vostra donna in **f2** vede tutta la colonna fino al re in **f8**. Il pedone è inchiodato nell'istante in cui servirebbe, quindi non può riprendere."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "culture-07",
+  "fen": "rn1qkb1r/ppp2ppp/3p4/4N3/2B5/2P5/PPP2PPP/R1BbK2R w KQkq - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Bg5#"
+  ],
+  "title": "A Dama Era o Isco",
+  "setup": "As pretas acabaram de capturar a tua dama, o tipo de captura que ninguém se detém a examinar, e tu tens uma jogada.",
+  "hint": "O rei preto só tem uma casa livre. Dá um xeque que o empurre para lá, e garante que o teu outro bispo chega à diagonal dessa casa.",
+  "explanation": "## A Ideia\n\n{{Bxf7+}} oferece uma segunda peça a um rei que não tem para onde fugir. O rei não pode comer em f7, porque o cavalo de e5 a defende, portanto {{Ke7}} é forçada. Depois {{Bg5#}}: o bispo vindo de c1 dá xeque pela diagonal que passa por e7, e todas as casas à volta do rei estão cobertas ou bloqueadas.\n\nUm cavalo, dois bispos e nenhuma dama acabam a partida à oitava jogada.\n\nUma captura em fila dispara para dentro da posição que chegar. Pré-joga a jogada segura, nunca a captura gulosa."
+}

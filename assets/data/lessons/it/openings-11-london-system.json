@@ -1,0 +1,52 @@
+{
+  "id": "london-system",
+  "title": "Il Sistema Londra",
+  "summary": "Uno schieramento contro quasi tutto, e la casa attorno a cui è costruito",
+  "proof": "openings-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "Prima l'Alfiere, Poi il Pedone",
+      "text": "Due mosse, e la seconda porta tutto il sistema.\n\nIl Bianco sta costruendo un muretto in c3, d4 e e3: economico da imparare, scomodo da rompere. Il guaio è il pedone e. Appena si sistema in e3 chiude la porta all'alfiere camposcuro, che poi passa la partita seduto dietro i propri pedoni.\n\nE allora l'alfiere esce per primo. È già fuori dal muro, in f4, e il pedone viene dopo. Contro quasi tutto quello che il Nero sceglie, l'ordine tiene — prima l'alfiere, poi e3."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "Il Pedone che Nessuno Sorveglia",
+      "text": "Lasciare presto la traversa di fondo costa esattamente una cosa, e il Nero ci punta subito. Con l'alfiere andato via, il pedone in b2 non è difeso da nessuno.\n\n{{c5}} colpisce la base del muro. {{e3}} lo costruisce lo stesso, {{Nc6}} aggiunge un secondo attaccante su d4, {{c3}} lo puntella, e {{Qb6}} atterra sulla colonna b, dove il pedone in b2 è indifeso. A due pedoni bianchi vengono fatte domande nello stesso momento.\n\nQuell'incursione è la prima vera domanda a cui la Londra deve rispondere, e ogni giocatore di Londra la incontra entro dieci partite."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pp2pppp/1qn5/2pp4/3P1B2/2P1P3/PP3PPP/RN1QKBNR w KQkq - 1 5",
+      "prompt": "Coprite il pedone indifeso in b2 senza spenderci una mossa di pedone.",
+      "targetSan": [
+        "Qc1",
+        "Qc2",
+        "Qb3"
+      ],
+      "hint": "Qui non serve nessuna mossa di pedone. La vostra donna può difendere b2 da più di una casa; sceglietene una che lasci d2 e e2 libere per il cavallo e l'alfiere."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Dove Punta Tutto",
+      "text": "Sei mosse tranquille dopo lo schieramento è finito, e ha l'aspetto di sempre: pedoni in c3, d4 e e3, un alfiere in f4, un altro in d3, cavalli in f3 e d2. La donna nera sta in b6 senza più niente da addentare.\n\nAdesso seguite la diagonale chiara. L'alfiere in d3 vede e4, f5, g6, e poi h7, a una casa dal re nero, senza niente in mezzo. {{Qc2}} porta la donna dietro di lui.\n\nDue attaccanti su h7. La coprono il re nero e il cavallo in f6. Due contro due, e questo non è ancora un attacco."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Una Casa Dove Nessun Pedone Arriva",
+      "text": "Al terzo attaccante serve una casa che nessuno possa togliergli. Chiedetevi quindi che cosa possono ancora fare i pedoni neri.\n\nIl pedone in d5 non può tornare indietro. Il pedone in e6 copre d5 e f5. Il pedone in c5 copre b4 e d4. Fra loro lasciano un buco al centro, e il vostro pedone in d4 lo difende già.\n\nSolo il pedone in f7 potrebbe mai venire a contenderlo — e quel pedone è il tetto sopra un re arroccato.\n\n> Un pezzo è al sicuro dove un pedone non potrà mai andare."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "prompt": "Piazzate un cavallo sul buco centrale che solo il pedone f del Nero potrebbe mai contendere.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "Solo un pezzo nero tocca quella casa, il cavallo in c6, e l'unico pedone che potrebbe mai unirsi a lui fa da riparo al re nero."
+    }
+  ]
+}

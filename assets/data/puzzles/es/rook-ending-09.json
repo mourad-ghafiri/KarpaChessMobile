@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-09",
+  "fen": "8/1r6/6P1/8/8/2R3K1/8/4k3 b - - 0 1",
+  "solution": [
+    "Rb6"
+  ],
+  "rating": 1530,
+  "title": "El giro por la sexta",
+  "setup": "El peón de g blanco está listo para correr y el rey negro de e1 está demasiado lejos para tener nada que decir.",
+  "hint": "Tu torre tiene que salirle al peón por delante, y tiene que llegar ganando un tiempo. ¿Qué fila hace las dos cosas?",
+  "explanation": "## La idea\n\nSolo una fila cumple. {{Rb6}} mantiene al peón bajo el fuego, y cuando corre —{{g7}}— la torre cruza con jaque: {{Rg6+}} {{Kh2}} {{Rxg7}}. Desde b8 la torre solo puede tapar sin jaque; desde b5 llega detrás del peón, lo que no sirve de nada."
+}

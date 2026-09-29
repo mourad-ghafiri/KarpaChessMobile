@@ -1,0 +1,62 @@
+{
+  "id": "why-chess-endures",
+  "title": "Por qué perdura el ajedrez",
+  "summary": "Quince siglos, y todavía nadie lo ha resuelto",
+  "proof": "culture-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "Londres, 21 de junio de 1851",
+      "text": "Dos jugadores se sientan entre rondas de un torneo para una partida que no cuenta para nada, y producen la partida de ajedrez más famosa de la historia.\n\nAdolf Anderssen lleva las Blancas, Lionel Kieseritzky las Negras, y ninguno juega por un premio, un título o un punto en la clasificación. Justo por eso Anderssen tiene libertad para gastarlo todo: una partida sin nada en juego no cuesta nada perderla.\n\nErnst Falkbeer la publicó cuatro años después y la llamó inmortal. El nombre se ha mantenido desde entonces."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "Lo que Anderssen no va a salvar",
+      "text": "La dama negra acaba de comer en b2. Desde ahí toca la torre de a1, y el alfil de c5 mira directamente a la torre de g1. Dos torres, y ninguna va a ser defendida.\n\nSalvar una cuesta una jugada, y una jugada es la única moneda que le queda al ataque. El rey negro de e8 no se ha movido en toda la partida, y tiene un solo camino para salir del centro: el enroque, detrás de sus propios peones del flanco de rey.\n\nCierra ese camino y el rey se queda donde pueden alcanzarlo los caballos de d5 y f5."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "prompt": "Ignora las dos torres y cubre la casilla que el rey negro tiene que cruzar para salir del centro.",
+      "targetSan": [
+        "Bd6"
+      ],
+      "hint": "El enroque haría cruzar f8 al rey negro, así que pregúntate cuál de tus piezas puede empezar a vigilar esa casilla en esta jugada."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/3B4/1pbN1N1P/4P1P1/3P1Q2/PqP5/R4KR1 b kq - 1 18",
+      "title": "Kieseritzky cobra",
+      "text": "Las Negras toman lo que se les ofrece. {{Bxg1}} es la primera torre, y Anderssen no recaptura: {{e5}} cierra la diagonal en la que está la dama negra de b2, que ya no ve para nada el flanco de rey.\n\n{{Qxa1+}} se lleva la segunda torre, con jaque.\n\nLas Negras tienen dos torres y un alfil de más. Las Blancas tienen una dama, dos caballos y un alfil, todos mirando a un rey que nunca salió del centro."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Un último defensor",
+      "text": "Dos jugadas después, el segundo caballo blanco ha capturado en g7 con jaque, y el rey negro ha ido a d8.\n\nCuenta las casillas del rey negro. d7 es su propio peón, c8 su propio alfil, c7 y e7 son del alfil de d6, y e8 la cubre el caballo de g7. No hay ninguna.\n\nAsí que lo único que separa a las Negras del mate es el caballo de g8, que llega hasta e7 y capturaría cualquier cosa que cayera ahí. Una pieza. Todo lo demás que tienen las Negras está al otro lado del tablero."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Quinientos años, un reglamento",
+      "text": "Las Blancas han entregado las dos torres y un alfil y van a ganar de todos modos.\n\nLas reglas que produjeron esta posición quedaron fijadas mucho antes de 1851. El ajedrez salió del norte de la India, cruzó Persia y el mundo árabe y llegó a Europa, y hacia 1475, en Valencia, la dama y el alfil recibieron el largo alcance que todavía tienen. Desde entonces no ha cambiado nada importante. Anderssen jugaba al mismo juego que tú has jugado durante cien lecciones."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Nadie lo ha resuelto",
+      "text": "Las damas inglesas están terminadas. En 2007 un equipo de investigadores demostró que el juego perfecto desde el inicio lleva a tablas, y en ellas ya no queda nada por descubrir.\n\nEl ajedrez no está terminado. Todas las posiciones con siete piezas o menos quedaron calculadas con exactitud en 2012, así que las últimas jugadas de cada partida son ya terreno conocido. Por encima de siete piezas no se sabe nada: una estimación de 2021 sitúa el número de posiciones legales cerca de 4,8 × 10⁴⁴, y ninguna máquina se ha acercado a tocar fondo.\n\n> Quince siglos después, el tablero que tienes delante sigue preguntando."
+    },
+    {
+      "type": "play",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "prompt": "El rey negro ya no tiene casillas, así que aparta de e7 a su único defensor.",
+      "targetSan": [
+        "Qf6+"
+      ],
+      "hint": "La oferta tiene que ser de las que las Negras no pueden rechazar, así que busca el jaque al que solo ese caballo puede responder."
+    }
+  ]
+}

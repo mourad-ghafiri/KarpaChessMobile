@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-17",
+  "fen": "2B1k3/8/4K3/8/8/8/8/7Q w - - 0 1",
+  "solution": [
+    "Qh8#"
+  ],
+  "title": "La Traversa Fa il Lavoro",
+  "setup": "Il vostro re in e6 sta due case davanti al re nero, e la vostra donna è lontana nell'angolo.",
+  "hint": "Il vostro re copre già ogni casa della settima traversa che il re nero potrebbe usare. Trovate uno scacco sull'ottava.",
+  "explanation": "## L'idea\n\n{{Qh8#}} dà scacco lungo la traversa di fondo. Il vostro re in e6 copre d7, e7 e f7, e d8 e f8 stanno tutte e due sulla linea della donna. Niente può parare fra h8 e e8.\n\nL'alfiere in c8 raddoppia soltanto su d7: il lavoro lo fanno il vostro re e la vostra donna. Un re due case davanti al re avversario lascia alla donna una sola traversa da prendere."
+}

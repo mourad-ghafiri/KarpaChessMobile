@@ -1,0 +1,14 @@
+{
+  "id": "promotion-04",
+  "fen": "1r4k1/6pp/1PP5/8/8/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "c7",
+    "Rc8",
+    "b7"
+  ],
+  "rating": 1120,
+  "title": "İki Piyon, Tek Kale",
+  "setup": "b6 ve c6'da yan yana iki piyon, b8'de tek bir kaleye karşı duruyor ve kale yalnızca birini gözleyebiliyor.",
+  "hint": "Tek kale yan yana iki piyonu tutamaz. Kaleyi saldırabileceğiniz bir kareye sürükleyen piyonu sürün.",
+  "explanation": "## Fikir\n\n{{c7}} kaleye saldırır ve vezir olmayı tehdit eder; {{Rc8}} c piyonunu durduran tek karedir. Şimdi {{b7}} kaleye saldırır ve üstüne b8=Q tehdit eder; yani siyah ne oynarsa oynasın piyonlardan biri vezir olur. Altıncı yataydaki yan yana iki piyon bir kaleyi yener."
+}

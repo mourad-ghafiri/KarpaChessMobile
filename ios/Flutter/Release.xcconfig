@@ -1,0 +1,4 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"
+#include "Generated.xcconfig"
+// The developer's signing team, kept out of the shared project (git-ignored).
+#include? "Signing.xcconfig"

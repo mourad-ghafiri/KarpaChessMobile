@@ -1,0 +1,14 @@
+{
+  "id": "decoy-02",
+  "fen": "1r4k1/pp3ppp/8/8/2q5/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1190,
+  "title": "Atrai a Torre Para Casa",
+  "setup": "A torre de b8 é o único guarda da linha de fundo, e a tua dama está à frente da tua torre, em d1.",
+  "hint": "A torre faz toda a defesa. Oferece-lhe na oitava linha algo que ela tenha de comer.",
+  "explanation": "## A Ideia\n\n{{Qd8+}} é uma dama atirada para a linha de fundo, e {{Rxd8}} é forçado. A torre foi puxada para a única casa que a tua própria torre cobre, e {{Rxd8#}} dá mate a um rei trancado pelos seus peões."
+}

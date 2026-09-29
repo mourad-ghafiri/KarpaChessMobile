@@ -1,0 +1,13 @@
+{
+  "id": "endgames-01",
+  "fen": "8/8/8/8/3K4/8/4Q3/k7 w - - 0 1",
+  "solution": [
+    "Kc3",
+    "Kb1",
+    "Qb2#"
+  ],
+  "title": "Menteri Tak Bisa Sendirian",
+  "setup": "Menteri dan raja melawan raja sendirian di sudut. Semuanya siap kecuali buah yang harus menuntaskannya.",
+  "hint": "Satu langkah tenang menyisakan tepat satu petak sah bagi Hitam — buah mana yang bisa merebut sisanya begitu ia berdiri di sana?",
+  "explanation": "## Ide\n\nMenteri di e2 menguasai baris kedua, jadi raja hitam punya b1 dan tak ada yang lain. Yang tak bisa dilakukan menteri adalah menguasai a1, b1 dan b2 sekaligus. Untuk itulah raja ada.\n\n{{Kc3}} membawanya mendekat. Hitam punya satu langkah sah, {{Kb1}}, dan {{Qb2#}} mendarat di samping raja di petak yang dilindungi raja putih.\n\nMerebut b1 dengan {{Qc2}} sebagai gantinya adalah pat. Hitung petak raja sendirian sebelum setiap langkah tenang: jika jawabannya satu, hanya sekak yang boleh merebutnya."
+}

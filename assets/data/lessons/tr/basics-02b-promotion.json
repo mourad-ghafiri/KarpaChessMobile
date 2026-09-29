@@ -1,0 +1,56 @@
+{
+  "id": "promotion",
+  "title": "Hiçbir Şey Piyon Kalmaz",
+  "summary": "En uzak yataya varın, piyon gitsin — orada neyin duracağını siz söylersiniz",
+  "proof": "first-steps-19.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Orada Piyon Duramaz",
+      "text": "Sekizinci yatayda piyon diye bir şey yoktur. Oraya ulaşan bir beyaz piyon — ya da birinci yataya ulaşan bir siyah piyon — olduğu gibi kalamaz.\n\nKurallar da onu değiştirir. İndiği karede, aynı hamlenin içinde piyon tahtadan ayrılır ve yerine bir **vezir, kale, fil ya da at** geçer. Buna **terfi** denir ve zorunludur. e7'deki piyonun gidecek bir karesi var ve piyon kalmasının yolu yok.\n\nListede asla bulunmayan iki taş var: şah ve bir başka piyon."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Neye Dönüştüğünü Söyleyin",
+      "text": "Terfi eden bir hamle her hamle gibi yazılır — piyonun vardığı kare — ve bir şey daha eklenir.\n\n{{e8=Q}}. Bir `=` işareti ve orada durmasını istediğiniz taşın harfi. Harfi değiştirin, ortaya çıkan da değişsin: onun yerine `R`, `B` ya da `N`.\n\nBu bir dipnot değildir. Son yataya varıp da taşın adını söylemeyen bir hamle tamamlanmış sayılmaz."
+    },
+    {
+      "type": "play",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Piyonu son yataya gönderin ve dokuz puan değerindeki taşı geri getirin.",
+      "targetSan": [
+        "e8=Q"
+      ],
+      "hint": "Hamle ancak o karede neyin duracağını söylediğinizde biter."
+    },
+    {
+      "type": "teach",
+      "fen": "4Q3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Yoktan Dokuz Puan",
+      "text": "Yola bir puan çıktı; dokuz puan vardı. e8'deki vezir her vezir gibi bir vezirdir; indiği andan itibaren yatayları, dikeyleri ve çaprazları tarar: {{Qa4}}, {{Qh5}}.\n\nKarşılığında hiçbir şey verilmedi. Onu rakibinizin aldığı bir taşla geri satın almıyorsunuz ve ilk vezirinizin hâlâ tahtada olup olmaması hiçbir şeyi değiştirmez. İki vezir kurallıdır. Üç de öyle.\n\n> Yedinci yataydaki bir piyon bir puan etmez. Az sonra ne olacaksa o kadar eder."
+    },
+    {
+      "type": "teach",
+      "fen": "5r2/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Alarak Girin",
+      "text": "Terfi yalnızca yürüyen piyonlara özgü değildir. Piyon her zamanki gibi bir kare çapraz ileri alır ve son yatay bu konuda hiçbir şeyi değiştirmez.\n\nBurada bunun önemi var. f8'deki siyah kale e8'i de kapsıyor; yani dümdüz ileri adım atmak, yeni veziri daha hiçbir şey yapmadan elden çıkarır.\n\n{{exf8=Q}} iki işi tek hamlede yapar: kale kalkar ve f8'de bir vezir durur. `x` ve `=` her zamanki anlamlarını taşır."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "title": "Vezirin Kaybettiği Yer",
+      "text": "Vezir neredeyse her zaman doğru cevaptır. Burada size mat yedirir.\n\n{{e8=Q}} {{Qc1+}} {{Qe1}} {{Qxe1#}}. Dokuz yeni puan ve siyah onlara dönüp bakmaz bile: c7'deki vezir birinci yataydan şah çeker, yeni veziriniz yalnızca araya girebilir ve kendi piyonlarının kuşattığı şahınızın gidecek yeri yoktur.\n\ne8'deki vezir ne g7'deki siyah şaha ne de c7'deki vezire dokunuyordu. Bunun yerine ata terfi edin, ikisine birden vursun. Vezirden başka bir şey seçmeye **küçük terfi** denir ve günlük hayattaki sebebi işte budur."
+    },
+    {
+      "type": "play",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "prompt": "Aynı hamlede hem siyah şaha şah çeken hem de vezire saldıran taşa terfi edin.",
+      "targetSan": [
+        "e8=N+"
+      ],
+      "hint": "Dört seçeneği tek tek ele alın ve her birinin e8'den neye saldıracağını sorun."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "draws-proof",
+  "fen": "k3r3/8/8/8/8/p7/P1q5/K5Q1 w - - 0 1",
+  "solution": [
+    "Qa7+"
+  ],
+  "title": "Mezzo Punto dal Niente",
+  "setup": "Avete una torre in meno, il Nero minaccia matto in b2, e il vostro re in a1 non ha nemmeno una mossa legale. Trovate il mezzo punto.",
+  "hint": "Contate le vostre mosse legali se la donna fosse fuori dalla scacchiera.",
+  "explanation": "## L'idea\n\nIl vostro re in a1 non può muovere: la donna nera copre b1 e b2, e il vostro pedone in a2 è bloccato. La vostra donna è l'unico pezzo a cui restano mosse.\n\n{{Qa7+}} la consegna con scacco. Il re in a8 non può andare in b7 né in b8, quindi deve prendere. Poi il Bianco non ha mosse legali e non è sotto scacco: stallo, mezzo punto.\n\nChi sta vincendo lo tiene d'occhio. Chi sta perdendo lo va a cercare."
+}

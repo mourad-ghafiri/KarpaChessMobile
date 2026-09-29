@@ -1,0 +1,71 @@
+{
+  "id": "common-mistakes",
+  "title": "Como Se Dão as Partidas",
+  "summary": "Uma dama cedo de mais, um peão que não era grátis e a jogada para que nunca olhaste",
+  "proof": "common-mistakes-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Entregues em Mão",
+      "text": "Conta as maneiras de uma boa partida ser devolvida e a lista é curta: uma dama fora cedo de mais, um peão que parecia grátis, uma jogada do adversário que ninguém leu e um rei deixado de pé no meio do tabuleiro.\n\nQuatro hábitos, e todos eles são apanhados pelas três perguntas que já tens. O que se segue é o que o tabuleiro faz quando ninguém as põe."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "A Dama Sai",
+      "text": "{{e4}} {{e5}} {{Qh5}}. A dama está fora à segunda jogada, de olho em f7 — a única casa do campo preto que só o rei guarda.\n\n{{Nc6}} traz um cavalo e deixa f7 em paz; um atacante numa casa que o rei defende não é ameaça. {{Bc4}} faz deles dois, e agora é mate na jogada seguinte. As pretas têm mais do que uma maneira de o travar; {{g6}} é a que também expulsa a dama dessa diagonal.\n\n{{Qf3}} aponta a f7 pela coluna e o mate volta a estar lá. {{Nf6}} tapa-o — uma jogada que as pretas fariam de bom grado à mesma."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq - 2 5",
+      "title": "A Conta",
+      "text": "Conta as jogadas. Os dois lados gastaram quatro. As das pretas foram para um peão central, para os dois cavalos e para um peão em g6 que valia a pena jogar de qualquer maneira.\n\nAs das brancas foram para um peão central, um bispo e duas jogadas de dama para chegar a uma casa que podia ter alcançado numa — onde por cima disso tapa o cavalo de g1.\n\nMexer uma peça duas vezes não é crime. Vais fazê-lo para a salvar, para capturar alguma coisa, para recapturar. Mexê-la duas vezes para nada é que é o custo, e uma dama que sai à frente de todas as outras convida a isso: todas as peças pretas são baratas o suficiente para a perseguirem."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+      "title": "Um Peão Que Não É Grátis",
+      "text": "As brancas trocaram um bispo por um cavalo na jogada passada, e as pretas recapturaram em c6 com o peão d. Há agora dois peões pretos na coluna c — e a dama preta em d8 a olhar por cinco casas vazias.\n\nO peão em e5 não tem defensor. Nenhum: conta-os. {{Nxe5}} ganha-o, e nada recaptura o cavalo.\n\nÉ essa a armadilha, e é silenciosa. As brancas não estão perdidas aqui. Simplesmente o peão volta, e as jogadas que as brancas gastaram a comê-lo não voltam."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4N3/4P3/8/PPPP1PPP/RNBQK2R b KQkq - 0 5",
+      "prompt": "Faz as brancas devolverem já o peão: encontra a única casa que atinge ao mesmo tempo o cavalo guloso e o peão de e4.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "A tua dama nunca se mexeu, e a coluna à frente dela está vazia quase até aos peões brancos."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "A Jogada Dele Tinha uma Razão",
+      "text": "Todas as jogadas do teu adversário têm uma razão, e a razão raramente é anunciada.\n\n{{Ng5}}. Parece uma peça a vaguear. É um segundo atacante sobre f7, a casa que só o rei preto guarda, e o cavalo de f6 está entre a dama de d8 e g5, portanto nada lhe pode tocar.\n\nJoga qualquer coisa razoável — {{d6}}, por exemplo — e chega {{Nxf7}}, a atingir ao mesmo tempo a dama de d8 e a torre de h8. O rei não pode recapturar: o bispo de c4 guarda f7."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 5 4",
+      "prompt": "Responde à ameaça antes que ela chegue: fecha ao bispo de c4 o caminho até f7.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "O bispo chega a f7 atravessando duas casas vazias. Um dos teus peões pode ocupar a mais próxima."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "title": "A Jogada Aborrecida",
+      "text": "Outra partida num momento parecido: o bispo preto foi para c5, apontado a f2, e jogam as brancas. Há aqui uma jogada que não faz nada de emocionante e evita quase tudo isto: o roque.\n\nO rei sai do meio, a torre de h1 aproxima-se do centro, e f2, o espelho de f7, ganha finalmente um segundo guarda.\n\n«Roca até à décima jogada» é um hábito, não uma regra — um rei pode ficar no meio enquanto o meio se mantiver fechado. Mas é a segurança mais barata que alguma vez vais comprar, e os principiantes compram-na em último.\n\n> Já conheces todas as regras do xadrez. O que falta é reparar."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "prompt": "Faz a jogada mais segura do tabuleiro: tira o rei do meio e mete a torre em jogo.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "O teu rei está a descoberto enquanto uma jogada que resolve o problema todo continua por gastar."
+    }
+  ]
+}

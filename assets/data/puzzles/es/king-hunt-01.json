@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-01",
+  "fen": "2Rb4/k7/6p1/5QR1/6K1/2n5/8/r7 w - - 0 1",
+  "solution": [
+    "Qd7+",
+    "Ka6",
+    "Qc6+",
+    "Ka7",
+    "Ra8#"
+  ],
+  "rating": 1350,
+  "title": "Lleva al rey a la esquina",
+  "setup": "El rey negro está en a7 junto a su alfil de d8, y tu dama y tus dos torres están lo bastante cerca para alcanzarlo.",
+  "hint": "Cada jugada debería ser jaque. Deja que la dama devuelva al rey hacia a7, y que una torre dé el último.",
+  "explanation": "## La idea\n\n{{Qd7+}} y {{Qc6+}} no intentan dar mate. Cada jaque quita casillas, hasta que el rey vuelve a a7 sin nada y llega {{Ra8#}}. Una caza es una serie de jaques que quitan una opción cada uno."
+}

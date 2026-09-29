@@ -1,0 +1,50 @@
+{
+  "id": "good-bad-pieces",
+  "title": "Bonnes et mauvaises pièces",
+  "summary": "Trois points sur le papier, rien sur l'échiquier",
+  "proof": "strategy-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Trois points, et rien à faire",
+      "text": "Le fou noir en c8 vaut trois points sur le papier et n'en a pas utilisé un seul. Regardez ce qui barre la route : les pions en d5 et e6 appartiennent aux Noirs, et un fou n'a pas le droit de prendre sa propre armée.\n\nCes deux pions sont sur des cases blanches. Le fou aussi. Il se déplace exactement sur la couleur où sont garés ses propres pions, et c'est ce qui en fait un **mauvais fou** — emmuré par le camp pour lequel il joue.\n\nToute sa liberté se résume à {{Bd7}}. La même cage, une case plus loin."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "L'autre fou",
+      "text": "Les Blancs possèdent la même pièce pour les mêmes trois points, et c'est un tout autre animal.\n\nLes pions centraux blancs sont en c3, d4 et e5, toutes des cases noires ; le fou en f1 est une pièce de cases blanches. Ils ne se gênent pas. Toute la route de f1 à a6 est déjà vide, et l'une de ses étapes, d3, regarde droit vers h7.\n\nC'est un **bon fou** : ses propres pions sont sur l'autre couleur, et il voit."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "Votre fou ne pourra jamais enjamber ses propres pions : ouvrez la seule diagonale qui part dans l'autre sens.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Quel pion se trouve sur l'autre route du fou, et jusqu'où peut-il avancer sans tomber sur le fou blanc ?"
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "Libre, et toujours mauvais",
+      "text": "b7 est vide, et le fou en c8 a enfin des choix. Les Blancs ont répondu en plaçant le bon fou en d3, pointé sur h7.\n\n{{Bd7}} et {{Bb7}} offrent chacun au fou noir une nouvelle case et la même vue : un mur de pions noirs en d5 et e6 qui ne va nulle part. Un mauvais fou qu'on laisse se promener reste un mauvais fou.\n\nLa question n'est donc pas de savoir où la pièce peut aller. C'est ce qu'elle vaut une fois arrivée."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "La pire pour la meilleure",
+      "text": "Il y a ici un meilleur butin que la liberté.\n\nUne pièce qu'on ne peut pas rendre bonne doit être échangée, et échangée contre la pièce adverse qui travaille le plus. Le fou de cases blanches des Noirs n'a aucun avenir dans cette position. Celui des Blancs a tout l'échiquier à lui. Échangez-les et le compte de points ne bouge pas du tout, tandis que les Noirs cèdent une pièce qui ne fait rien et retirent une pièce qui fait tout.\n\n> Améliorez votre plus mauvaise pièce. Quand elle ne peut pas être améliorée, échangez-la contre leur meilleure."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "prompt": "Offrez votre plus mauvaise pièce au fou adverse qui fait le plus de dégâts.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Suivez la diagonale que vous venez d'ouvrir jusqu'à ce qu'elle rencontre le fou blanc."
+    }
+  ]
+}

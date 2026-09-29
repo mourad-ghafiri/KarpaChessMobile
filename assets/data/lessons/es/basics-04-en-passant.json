@@ -1,0 +1,62 @@
+{
+  "id": "en-passant",
+  "title": "Capturado al paso",
+  "summary": "Un peón pasa corriendo junto al tuyo y, durante exactamente un turno, no se sale con la suya",
+  "proof": "en-passant-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "La casilla que se niega a pisar",
+      "text": "El peón negro de d7 quiere avanzar, y una casilla delante de él está prohibida: tu peón de e5 cubre d6, así que un paso a d6 es un peón regalado.\n\nLas Negras tienen otra opción. Desde su fila inicial, el peón puede avanzar dos casillas de golpe: {{d5}}. Supera d6 sin pisarla nunca y aterriza hombro con hombro junto a tu peón, fuera de su alcance, porque un peón golpea hacia delante y en diagonal, nunca de lado.\n\nEse es el resquicio. La captura al paso lo cierra."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Al paso",
+      "text": "La respuesta tiene que llegar enseguida, en el turno siguiente. De nuevo {{d5}}, y esta vez {{exd6}}.\n\nTu peón avanza en diagonal a d6, la casilla que las Negras no quisieron pisar, y el peón negro sale de d5. Vuelve a leer esas dos casillas: tú llegas a una y el peón capturado sale de la otra. Cualquier otra captura del ajedrez te coloca en la casilla que ocupaba tu víctima. Esta no, y por eso parece ilegal la primera vez que la ves.\n\n*En passant*, en francés: al paso. El nombre es toda la regla."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Por qué existe la regla",
+      "text": "El avance doble inicial no es original. El ajedrez pasó siglos con peones que avanzaban de casilla en casilla, y el doble paso se añadió después para que las partidas arrancaran más rápido.\n\nFuncionó, y trajo un problema: un peón podía usar la velocidad extra para colarse junto a un peón rival que ya vigilaba su camino. El guardián estaba allí y no tenía nada que decir. Eso es exactamente lo que intenta {{d5}}.\n\nLa captura al paso es la corrección, nada más. Acelerar el comienzo, sí. Regalar un pase libre, no."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Lo que tiene que cumplirse",
+      "text": "La regla es estrecha, y cada parte cuenta.\n\nEl peón rival tiene que llegar con el avance de dos casillas, directamente desde su fila inicial: un peón que llegó paso a paso está a salvo para siempre. Tiene que aterrizar justo al lado de tu peón, en la misma fila. Tu peón tiene que estar en su quinta fila, porque es ahí donde aterriza un peón que avanza dos casillas.\n\nY es peón contra peón. Nada más puede ser capturado al paso, y nada más puede capturar así."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "title": "Un turno, y solo uno",
+      "text": "Dos peones negros están junto a tu peón de e5, uno en d5 y otro en f5, y solo uno de ellos puede capturarse al paso.\n\nEl peón de d hizo su avance doble antes de que tu peón llegara a e5, así que por ese lado nunca hubo oferta. El peón de f acaba de llegar ahora mismo, directo desde f7, cruzando f6, la casilla que vigila tu peón de e5.\n\nAsí que la oportunidad está abierta por un lado y cerrada por el otro. Juega cualquier otra cosa aquí y esta también se cierra, para siempre."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "prompt": "Captura el peón que acaba de pasar junto al tuyo antes de que caduque la oportunidad.",
+      "targetSan": [
+        "exf6"
+      ],
+      "hint": "Solo se puede capturar el peón que avanzó dos casillas en este mismo turno, y llegas a la casilla que se saltó."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/5P2/3p4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "La casilla que nunca pisaste",
+      "text": "Tu peón en f6, y f5 vacía detrás de él. El peón que capturaste estaba ahí hace un momento.\n\nLas Negras recapturan con {{gxf6}}: una captura normal, como todas las que has hecho, que llega exactamente donde estaba lo que captura. Pon las dos jugadas una junto a otra y la rareza de la tuya salta a la vista.\n\n> Hay una captura en el ajedrez que quita una pieza de una casilla que quien captura nunca toca. Es esta."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/8/8/2pPP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Ahora juegas con las Negras: atrapa el peón blanco que acaba de saltar junto al tuyo mientras el derecho siga vivo.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Cuenta desde el lado de las Negras: tu peón está en su quinta fila, y llegas a la casilla que cruzó el corredor."
+    }
+  ]
+}

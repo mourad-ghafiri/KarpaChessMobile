@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-02",
+  "fen": "6k1/2r2ppp/8/8/8/8/5PPP/3Q2K1 w - - 1 2",
+  "solution": [
+    "Qd8#"
+  ],
+  "rating": 740,
+  "title": "La Guardia Si È Spostata",
+  "setup": "La torre nera è appena scesa in c7, e sull'ottava traversa non resta altro che il suo re.",
+  "hint": "Una mossa fa un pezzo nero teneva tutta l'ottava traversa. Controllate se lo fa ancora.",
+  "explanation": "## L'idea\n\n{{Qd8#}} chiude la partita. La donna dà scacco lungo l'ottava traversa; la torre in c7 non può né prenderla né parare in e8 o f8, e il muro di pedoni in f7, g7 e h7 tiene il re a casa. Una torre che lascia la traversa di fondo deve lasciare un sostituto."
+}

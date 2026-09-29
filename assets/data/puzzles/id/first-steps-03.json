@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-03",
+  "fen": "k7/pp3rpp/8/8/2B5/8/PP4PP/4K3 w - - 0 1",
+  "solution": [
+    "Bxf7"
+  ],
+  "title": "Rampasan Jarak Jauh",
+  "setup": "Gajah Anda di c4 menatap ke sepanjang diagonal terangnya dan menemukan sebuah benteng hitam berdiri di sana.",
+  "hint": "Ikuti diagonal dari c4: d5, e6... apa yang ada di petak berikutnya?",
+  "explanation": "## Ide\n\nDiagonal gajah dari c4 melewati d5, e6, f7, dan benteng hitam di f7 berdiri tepat di lintasannya **tanpa ada yang menjaga**. Raja hitam di a8 terlalu jauh untuk membantu.\n\n{{Bxf7}} menempuh seluruh garis dalam satu langkah dan mengambil benteng itu dengan cuma-cuma.\n\nGajah menyerang dari seberang papan. Telusuri setiap diagonal sampai ujungnya sebelum Anda memutuskan tak ada buah yang tak terlindungi."
+}

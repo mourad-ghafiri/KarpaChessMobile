@@ -1,0 +1,13 @@
+{
+  "id": "history-04",
+  "fen": "8/r4pk1/6p1/7p/8/8/5PPP/3Q2K1 w - - 0 1",
+  "solution": [
+    "Qd4+",
+    "Kg8",
+    "Qxa7"
+  ],
+  "title": "Due Diagonali Insieme",
+  "setup": "La torre in a7 non ha niente che la difenda e il re in g7 è allo scoperto — e una casa li vede tutti e due.",
+  "hint": "Attaccate la torre lungo la sua colonna e vi prende e basta. Cercate la casa da cui partono due diagonali distinte in direzioni opposte.",
+  "explanation": "## L'idea\n\nLa vecchia donna strisciava una casa diagonale per volta. Quella nuova sta dove si incrociano due linee lunghe.\n\n{{Qd4+}} dà scacco al re in g7 su per una diagonale e colpisce la torre in a7 giù per l'altra. La torre non può reagire: d4 non sta né sulla sua colonna né sulla sua traversa.\n\nQualunque cosa il Nero faccia riguardo allo scacco, {{Kg8}} o altro, non fa niente per la torre, e {{Qxa7}} se la prende.\n\nInseguite invece la torre lungo la colonna a e vi prende la donna."
+}

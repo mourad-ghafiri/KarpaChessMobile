@@ -1,0 +1,56 @@
+{
+  "id": "kings-indian-advanced",
+  "title": "La Defensa India de Rey",
+  "summary": "Invita al centro y luego derríbalo",
+  "proof": "openings-15.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Déjaselo",
+      "text": "Las Blancas tienen c4, d4 y e4. Ninguna otra apertura cede eso tan tranquilamente, y las Negras han pasado cinco jugadas negándose a discutir: caballo a f6, peón a g6, alfil a g7, peón a d6, rey a salvo en g8.\n\nEse es el trato de la India de Rey. Las Blancas se quedan el centro. Las Negras se quedan un flanco de rey terminado, un alfil en g7 que apunta por la gran diagonal y un plan que no cambiará en las próximas veinte jugadas."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Nada toca d4",
+      "text": "Cuenta lo que ataca el centro blanco. Nada. El alfil de g7 apunta a d4 por la gran diagonal, pero el caballo de f6 está en medio, y de todas formas un alfil no puede obligar a moverse a un peón.\n\nSolo un peón le pide a otro peón que se mueva. Dos peones negros pueden golpear d4 con un solo avance, y apuntan a flancos opuestos: uno al flanco de dama, donde los peones blancos ya son muchos, y otro al flanco de rey, donde ya está tu rey y hacia donde va el blanco."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "prompt": "Desafía al peón de d blanco con uno de tus peones, eligiendo aquel cuya cadena quedará inclinada hacia el flanco de rey blanco.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "Dos avances de peón tocan d4. Uno va hacia el flanco donde las Blancas ya son fuertes; el otro, hacia el flanco donde quieres atacar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQ - 0 7",
+      "title": "Les toca elegir a las Blancas",
+      "text": "El peón de d4 tiene ahora un peón en las narices, y las Blancas tienen que decir qué va a ser el centro.\n\n{{d5}} lo supera y cierra la posición, que es justo lo que buscan las Negras, porque un centro cerrado les dice a los dos bandos hacia dónde correr. {{dxe5}} cambia en su lugar: se abre la columna d, las damas suelen cambiarse con ella y todo el esquema de ataque negro se va con ellas.\n\nLa tercera opción es enrocar y mantener la tensión. Es la más aguda de las tres, y la que exige a los dos jugadores saber más."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Dos cadenas, dos direcciones",
+      "text": "Las Blancas avanzaron, y los dos bandos usaron las jugadas siguientes para reagruparse. Los caballos negros están ahora en d7 y e7, detrás de sus propios peones, esperando a que se abra una línea.\n\nNada en el centro se puede capturar. La cadena blanca va de c4 a d5 y apunta al flanco de dama; la negra va de d6 a e5 y apunta al flanco de rey. Cada bando ataca en la dirección en que apuntan sus peones, porque es la única dirección en la que esos peones pueden avanzar y abrir algo."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Quién llega primero",
+      "text": "Una carrera, entonces, y ninguno de los corredores puede dar media vuelta. Los peones que avanzaron no vuelven, así que la ayuda enviada al otro extremo llega tarde o no llega.\n\nLas Blancas empujan el peón de c a c5, golpean d6 y abren la columna c hacia el flanco de dama negro. Las Negras hacen rodar los peones del flanco de rey contra el rey blanco, y cada peón que se cambia ahí le arranca otra capa a su refugio. Aquí cuenta jugadas más que material: una torre puede ser un precio justo por llegar un turno antes.\n\n> Un centro bloqueado no es una partida tranquila. Son dos ataques con un muro en medio."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "prompt": "Ataca el peón de e4 con uno de tus peones y abre el camino hacia el rey blanco.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "Tu peón de g6 ya protege dos casillas, y una de ellas mira directamente a e4."
+    }
+  ]
+}

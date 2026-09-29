@@ -1,0 +1,11 @@
+{
+  "id": "board-proof",
+  "fen": "4k3/8/8/8/8/8/1PP2PP1/4K3 w - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "title": "Lê a Morada",
+  "setup": "Cada casa tem um nome. Leva um peão à casa chamada c4.",
+  "hint": "Encontra primeiro a coluna c e depois conta a partir do bordo das brancas: linha 1, linha 2, linha 3, linha 4.",
+  "explanation": "## A Ideia\n\nPrimeiro a letra, depois o número. A coluna c é a terceira a contar da esquerda das brancas, e a linha 4 é a quarta a subir do bordo das brancas, portanto c4 é onde se cruzam.\n\nO peão em c2 é o único nessa coluna, e na primeira jogada um peão pode avançar duas casas: {{c4}}. O peão em b2 chegaria a b4, mas b4 é outra morada."
+}

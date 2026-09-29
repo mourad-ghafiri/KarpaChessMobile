@@ -1,0 +1,12 @@
+{
+  "id": "promotion-12",
+  "fen": "8/2P5/8/8/3r4/8/2K5/k7 w - - 0 1",
+  "solution": [
+    "c8=R"
+  ],
+  "rating": 1400,
+  "title": "La tour de Saavedra",
+  "setup": "Votre pion va à dame en c8 avec le roi noir acculé en a1 et sa tour qui surveille depuis d4.",
+  "hint": "Le roi noir en est réduit à son dernier coin. Demandez-vous ce qu'une toute nouvelle dame ferait de ce fait.",
+  "explanation": "## L'idée\n\n{{c8=Q}} reçoit pour réponse {{Rc4+}}, et Qxc4 est pat, car le roi en a1 n'a nulle part où aller. {{c8=R}} menace plutôt Rc1 mat, et après Ra4 les Blancs jouent Kb3 et gagnent la tour. C'est la position de Saavedra, publiée en 1895."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "defence-10",
+  "fen": "8/7Q/2b4q/8/7k/6r1/5R1K/8 w - - 0 1",
+  "solution": [
+    "Qxh6+",
+    "Kg4",
+    "Rf4#"
+  ],
+  "rating": 1830,
+  "title": "Come a Dama com Xeque",
+  "setup": "O teu rei em h2 tem a dama preta de h6, a torre de g3 e o bispo de c6 a pesar sobre ele.",
+  "hint": "A jogada óbvia é salvares-te. Experimenta a captura que muda qual dos reis está na rede.",
+  "explanation": "## A Ideia\n\n{{Qxh6+}} come a dama com xeque; {{Kg4}} é forçado, e {{Rf4#}} dá mate com a torre a cortar a quarta linha. Eliminar o atacante e ganhar um tempo são aqui a mesma jogada."
+}

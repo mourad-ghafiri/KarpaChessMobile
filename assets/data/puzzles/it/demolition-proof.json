@@ -1,0 +1,13 @@
+{
+  "id": "demolition-proof",
+  "fen": "r5rk/5ppp/4q1n1/2Q5/8/4B3/PP6/K6R w - - 0 1",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Qh5#"
+  ],
+  "title": "Una Torre per il Pedone h",
+  "setup": "Il re nero siede in h8 dietro tre pedoni, e la vostra torre in h1 li fissa lungo la colonna. Trovate un modo di attraversare quel riparo.",
+  "hint": "Il pedone h7 ha una guardia, il re. Chiedetevi dove sta il re una volta che ha fatto la sua guardia, e quale dei vostri pezzi ci arriva.",
+  "explanation": "## L'idea\n\n{{Rxh7+}} spende una torre intera per un pedone, e il Nero ha esattamente una risposta legale: {{Kxh7}}. Il riparo è sparito, e il re sta su una colonna aperta.\n\n{{Qh5#}}. La torre in g8 e il cavallo in g6 sono del Nero, quindi occupano due uscite, il vostro alfiere in e3 copre h6, e niente di nero arriva a h6 per parare. Un pedone è costato una torre, e l'ha pagato il re."
+}

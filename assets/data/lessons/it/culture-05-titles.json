@@ -1,0 +1,56 @@
+{
+  "id": "titles-and-norms",
+  "title": "Titoli e Norme",
+  "summary": "Guadagnati in nove turni, non in una partita brillante",
+  "proof": "culture-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Nominati nel 1950",
+      "text": "La FIDE stampò la sua prima lista di titoli nel 1950: ventisette Grandi Maestri, nominati in un congresso, molti dei quali ben oltre i loro anni migliori.\n\nNiente di quella lista è mai scaduto. Un titolo si assegna una volta e si tiene a vita. Un Grande Maestro che smette di giocare, perde duecento punti Elo o si mette a fare giardinaggio resta un Grande Maestro — il punteggio dice quello che sapete fare questo mese, il titolo dice quello che avete fatto una volta.\n\nFarlo richiede circa un anno del tipo di scacchi che nessuno filma."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Quattro Gradini",
+      "text": "Quattro titoli aperti, dal basso: Candidato Maestro, Maestro FIDE, Maestro Internazionale, Grande Maestro. Ognuno indica un punteggio — 2200, 2300, 2400, 2500 — e quel numero basta raggiungerlo una volta sola, su una lista pubblicata, in tutta la vita.\n\nI due in basso si fermano lì. Candidato Maestro e Maestro FIDE si concedono sul solo punteggio: raggiungete il numero, mandate le carte, e il titolo è vostro.\n\nI due in alto non sono in vendita a nessun numero. Superate 2500 e la FIDE non vi assegna proprio niente. Gli ultimi due gradini si pagano in norme."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "prompt": "Spendete adesso un tempo perché l'alfiere di c8 non possa mai uscire a inchiodare il vostro cavallo contro la donna.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Prima di toccare il centro, chiedetevi quale casa vuole l'alfiere nero e quale dei vostri pedoni può togliergliela."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Che Cosa Chiede una Norma",
+      "text": "Una norma è un risultato, in un torneo qualificante, che soddisfa tutte le condizioni nello stesso momento: nove turni o più; avversari di diverse federazioni; grosso modo metà di loro già titolati; un numero stabilito di loro che detiene il titolo a cui puntate; e un livello di rendimento tenuto per tutto il torneo. Manca una condizione e il torneo non produce niente, per quanto bene abbiate giocato.\n\nGrande Maestro e Maestro Internazionale le vogliono su almeno ventisette partite — tre norme, in pratica.\n\nIl Nero insegue l'alfiere con {{Na5}}, quello si toglie dalla portata in {{Bc2}}, e {{c5}} pianta la bandierina sull'ala di donna."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "La Serie Parallela",
+      "text": "La FIDE assegna anche una seconda serie — WCM, WFM, WIM, WGM — aperta alle donne e tagliata duecento punti sotto i titoli aperti a ogni gradino. Stanno accanto a quelli aperti, non al loro posto: una donna può puntare al Grande Maestro esattamente alle stesse condizioni di chiunque altro.\n\nJudit Polgár lo fece, prendendo il titolo aperto di Grande Maestro nel dicembre 1991 a quindici anni, più giovane di chiunque prima di lei, e non giocò mai un Campionato del mondo femminile."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "Le Partite che Nessuno Rigioca",
+      "text": "Nove turni non premiano una partita brillante. Premiano chi non perde le partite ordinarie — chi ha speso una mossa intera su un pedone di torre due turni fa, così che adesso non ci sia niente da inchiodare, niente da temere, e mano libera al centro.\n\nLa profilassi è ciò di cui una norma è davvero fatta. Il formulario da cui viene un titolo è per lo più mosse tranquille e patte brevi, e il libro del torneo ne stampa due, di partite.\n\n> Un titolo non è una grande mossa. Sono nove turni in cui non se ne fa una brutta."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "prompt": "Con g4 chiusa per sempre, aprite la posizione con l'unico pedone centrale ancora fermo sulla sua casa di partenza.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Quale dei vostri pedoni centrali non ha mosso affatto, e che cosa lo aspetta in mezzo?"
+    }
+  ]
+}

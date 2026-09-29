@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-08",
+  "fen": "r3k3/rp4n1/3p4/5p2/3Q4/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "Qxg7"
+  ],
+  "title": "Regardez avant de vous servir",
+  "setup": "Votre dame en d4 voit une tour noire sur une diagonale et un cavalier sur l'autre. Choisissez avec soin.",
+  "hint": "Une tour vaut plus qu'un cavalier — mais qu'y a-t-il derrière la tour en a7 ?",
+  "explanation": "## L'idée\n\nLa gourmandise dit de prendre la tour. {{Qxa7}} gagne cinq points, jusqu'à ce que la tour en a8 reprenne et qu'une dame de neuf points ait acheté une tour de cinq.\n\nLe vrai cadeau, c'est le cavalier. {{Qxg7}} prend une pièce gratuite : la tour en a7 aimerait répondre, mais son propre pion en b7 barre la route, et rien d'autre sur l'échiquier ne couvre g7.\n\nLa cible la plus précieuse n'est pas la meilleure cible. C'est celle qui n'est pas défendue."
+}

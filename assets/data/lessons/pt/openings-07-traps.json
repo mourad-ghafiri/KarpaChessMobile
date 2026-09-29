@@ -1,0 +1,59 @@
+{
+  "id": "opening-traps",
+  "title": "Armadilhas de Abertura",
+  "summary": "Conta os atacantes e depois castiga os gulosos",
+  "proof": "openings-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "Dois Atacantes, Um Guarda",
+      "text": "Três jogadas de vida, e as brancas já apontaram uma dama e um bispo à mesma casa. Conta f7. Duas peças brancas atacam-na. Uma peça preta defende-a, e essa peça é o rei, que é o pior defensor do tabuleiro: um rei não pode capturar nada que chegue com apoio atrás.\n\nPortanto a dama pode aterrar em f7 na jogada seguinte, e isso é mate. Não é uma ameaça para anotar e responder mais tarde. É mate.\n\nAs pretas têm uma jogada para mudar a aritmética."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "A Boa Jogada Que Perde",
+      "text": "As pretas tiram um cavalo com {{Nf6}}, o que estaria certo em quase qualquer outra posição, e as brancas respondem {{Qxf7#}}.\n\nO rei não pode comer a dama, porque atrás dela está o bispo de c4. Mais nada no tabuleiro chega a f7. Quatro jogadas, e um dos lados deixou de jogar.\n\nA armadilha não é astuta. Apanha quem responde a uma ameaça com uma boa jogada em vez da jogada que a ameaça pede."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "prompt": "Arranja a conta em f7 numa só jogada, para que os atacantes deixem de ser mais do que os defensores.",
+      "targetSan": [
+        "g6",
+        "Qe7",
+        "Qf6",
+        "Nh6"
+      ],
+      "hint": "Há duas maneiras honestas de mudar uma conta: acrescentar um defensor ou tirar a estrada por onde um atacante viaja."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Uma Cravada É um Preço",
+      "text": "Tabuleiro novo, e um tipo de ganância diferente. O bispo preto em h5 crava o cavalo de f3 contra a dama de d1: mexe o cavalo e a dama é capturada.\n\nTudo isso é verdade, e nada disso diz que o cavalo não pode mexer. Uma cravada não proíbe nada. Fixa um preço, e o preço é o que estiver atrás da peça cravada. Nove pontos é um preço alto. Não é um preço infinito.\n\n> Uma cravada só segura enquanto a peça cravada não tiver nada melhor que fazer."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Resta um Buraco",
+      "text": "Conta as casas à volta do rei preto antes de decidires quanto vale o cavalo. O bispo em c4 já vigia e6 e f7. O cavalo em c3 está a um salto de d5, e de d5 cobre e7. A própria dama preta em d8 e o bispo em f8 tapam mais duas.\n\nIsso deixa uma única casa em toda a vizinhança do rei em que nenhuma peça branca toca: d7.\n\nE a peça que está a um salto de cobrir d7 é o cavalo que as pretas cravaram."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Se as Pretas Recusarem",
+      "text": "As pretas não são obrigadas a comer a dama, e comê-la é a escolha que perde. A resposta prudente é recapturar em e5 e devolver o bispo de h5, já que a dama de d1 vê h5 no instante em que o cavalo deixa f3.\n\nEntão não há mate, não há dama entregue, e as brancas ficam com um peão limpo a mais, por nada.\n\nÉ isso que faz a ideia toda valer a pena jogar. A ganância acaba a partida ali mesmo, a prudência custa um peão, e as pretas não têm uma terceira resposta."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "prompt": "Ignora a cravada e come o peão central, mesmo que as pretas te ganhem a dama por ele.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "A casa onde esse peão está é a única casa que tira d7 ao rei preto."
+    }
+  ]
+}

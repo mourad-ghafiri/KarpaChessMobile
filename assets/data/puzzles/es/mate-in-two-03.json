@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-03",
+  "fen": "7k/5ppp/8/1Pq1R3/N7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Qf8",
+    "Rxf8#"
+  ],
+  "rating": 1000,
+  "title": "Desvía al que tapa",
+  "setup": "El rey negro se esconde detrás de tres peones en la octava fila, mientras su dama anda lejos, en c5.",
+  "hint": "Un jaque en la última fila al que el rey no puede responder. ¿Qué pieza negra puede interponerse, y dónde?",
+  "explanation": "## La idea\n\n{{Re8+}} golpea la última fila. El rey no tiene ninguna casilla —f7, g7 y h7 son sus propios peones—, así que la dama tiene que interponerse con {{Qf8}}. Esa es toda la idea: {{Rxf8#}} elimina a la pieza que tapa y da mate en la misma casilla."
+}

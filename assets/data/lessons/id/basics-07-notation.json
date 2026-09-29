@@ -1,0 +1,59 @@
+{
+  "id": "notation",
+  "title": "Satu Huruf dan Satu Petak",
+  "summary": "Baca sebuah partai dari halaman cetak dan mainkan ulang, langkah demi langkah",
+  "proof": "notation-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Dua Karakter, Satu Langkah",
+      "text": "Dua karakter sudah merupakan satu langkah utuh. Catur punya satu bahasa tulis — **notasi aljabar** — dan ia hanya mencatat di mana sebuah buah **mendarat**, tidak pernah perjalanan yang ditempuhnya.\n\nPion adalah kasus yang paling sederhana. Pion tidak membawa huruf apa pun, jadi petaknya adalah seluruh langkah. Pion putih di e2 dapat maju ke {{e3}} atau dua petak ke {{e4}}, dan buku mencetaknya sebagai `e3` dan `e4`.\n\nBukan *pion putih, e2 ke e4*. Cukup `e4`. Anda sudah tahu cara membacanya."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppp1p/6p1/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "prompt": "Sebuah partai cetak dibuka dengan `1.e4 g6`, dan catatan berikutnya adalah `2.d4` — mainkan langkah yang disebutkannya.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Tanpa huruf kapital berarti yang bergerak adalah pion, dan pion yang masih di petak awalnya boleh maju satu atau dua petak."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Abjad Buah Catur",
+      "text": "Setiap buah kecuali pion membawa huruf kapital, dan huruf itu ditulis di depan petak. Hurufnya berasal dari nama bahasa Inggris: **K** untuk raja (King), **Q** untuk menteri (Queen), **R** untuk benteng (Rook), **B** untuk gajah (Bishop). Kuda mendapat **N**, karena K sudah dipakai raja.\n\nJadi langkah tertulis adalah satu huruf dan satu petak, digabung. Gajah putih di f1 dapat mencapai e2, c4 atau b5, dan masing-masing ditulis dengan dua gagasan yang sama: {{Be2}}, {{Bc4}}, {{Bb5}}.\n\nTak ada yang menyebut gajah *yang mana*. Hanya satu gajah yang bisa sampai ke petak itu, jadi huruf dan petaknya sudah cukup."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "prompt": "Catatan Putih berikutnya berbunyi `Nf3` — letakkan buah yang dinamai huruf itu di petak yang mengikutinya.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "Huruf kapitalnya bukan K, dan K milik raja — jadi huruf ini menamai buah yang harus puas dengan huruf kedua namanya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Satu Langkah, Lalu Langkah Lawan",
+      "text": "Sebuah partai di atas kertas hanyalah alamat-alamat kecil ini, satu demi satu, kedua pihak bergiliran.\n\nHitam menjawab {{Nc6}} — N untuk buahnya, c6 untuk petaknya. Putih membalas {{Bc4}} — B untuk buahnya, c4 untuk petaknya. Perhatikan papan memainkan keduanya.\n\nTiga pertanyaan cukup untuk membaca langkah biasa mana pun. Adakah huruf kapital? Huruf apa? Petak mana yang mengikutinya? Penangkapan dan sekak menambahkan tanda sendiri, dan masing-masing mendapat pelajaran tersendiri nanti."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "Angka dan Titik",
+      "text": "Langkah datang berpasangan, dan partai cetak memberi nomor pada setiap pasangan: `1.e4 e5 2.Nf3 Nc6 3.Bc4`. Nomor, langkah Putih, langkah Hitam.\n\nDua puluh tiga karakter, dan semuanya membangun kembali posisi yang persis ada di depan Anda. Itulah sebabnya partai dicetak sebagai baris teks, bukan gambar.\n\nKetika langkah Hitam harus ditulis sendiri, tiga titik menggantikan tempat Putih: `2...Nc6` adalah jawaban Hitam pada langkah kedua. Titik-titik itu ada supaya Anda tak pernah lupa giliran siapa.\n\n> Satu huruf untuk buahnya, dua karakter untuk petaknya, satu angka untuk menghitung. Semua hal lain dalam notasi dibangun di atas ketiganya."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "Catatan berikutnya di buku adalah `3...Nf6` — bacalah dan mainkan langkah Hitam.",
+      "targetSan": [
+        "Nf6"
+      ],
+      "hint": "Satu kuda hitam sudah keluar di c6; kuda yang lain belum bergerak, dan ia berdiri di g8."
+    }
+  ]
+}

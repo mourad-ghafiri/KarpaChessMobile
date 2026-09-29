@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-08",
+  "fen": "2n4k/8/8/2r1p2P/4Q1B1/3R4/PP6/7K w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Kg7",
+    "Qg6#"
+  ],
+  "rating": 1250,
+  "title": "Pion Mendukung Menteri",
+  "setup": "Benteng Anda bisa merebut baris kedelapan, dan sebuah pion sederhana di h5 diam-diam mendukung petak g6.",
+  "hint": "Temukan petak di samping raja yang sudah dilindungi salah satu pion Anda, lalu rampas baris belakangnya.",
+  "explanation": "## Ide\n\n{{Rd8+}} merebut baris belakang dan memaksa {{Kg7}}; kuda di c8 tak bisa menghalangi. Lalu {{Qg6#}}: menteri melangkah tepat di samping raja, dilindungi pion di **h5**, sementara benteng menyegel setiap petak di baris kedelapan."
+}

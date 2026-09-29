@@ -1,0 +1,71 @@
+{
+  "id": "romantic-era",
+  "title": "Semalam di Gedung Opera",
+  "summary": "Paris, 1858, dan apa yang dibeli Morphy dengan sebuah benteng",
+  "proof": "history-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Sebuah Balkon di Gedung Opera",
+      "text": "Paris, 1858. Partai paling terkenal yang pernah dimainkan dimainkan oleh seseorang yang sebenarnya lebih ingin menonton opera.\n\nPaul Morphy berusia dua puluh satu tahun, orang Amerika, dan sedang di tengah lawatan ke Eropa yang mengalahkan siapa pun yang mau duduk bermain. Adipati Brunswick menawarkan tempat di balkon opera Italia dan sebuah partai; sang Adipati dan Pangeran Isouard bermain bersama sebagai Hitam, berdebat di antara mereka pada setiap langkah. Morphy memegang Putih, sebelah matanya tetap ke panggung, dan selesai dalam tujuh belas langkah.\n\nSumber-sumber masih berbeda pendapat tentang opera apa yang sedang dipentaskan."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "Tawar-Menawar Romantik",
+      "text": "Hitung bentengnya: Morphy punya satu, Hitam punya dua.\n\nCatur tempat Morphy tumbuh meyakini satu hal dan meyakininya sepenuhnya — keluarkan setiap buah, buka setiap jalan menuju raja lawan, dan bayar kecepatan itu dengan materi. Belakangan aliran ini diberi nama: aliran **romantik**. Sebagian besar pemain yang mencobanya sekadar berakhir tertinggal satu benteng.\n\nMorphy adalah orang yang berhasil dengannya, dan bedanya terletak pada hitungan. Garis-garis terbuka ini telah menghabiskan seekor kuda dan sebuah benteng, dan Putih tertinggal tiga poin."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "Dua Benteng yang Tertidur",
+      "text": "Kedua pihak punya benteng yang belum bergerak sepanjang partai, dan hanya satu pihak yang berada dalam posisi untuk membangunkannya.\n\nBenteng Hitam berada di h8 dengan raja di e8 dan gajah di f8 di antaranya, dan gajah itu sama sekali tak punya petak yang sah.\n\nPetak yang sibuk adalah d7. Gajah di b5 menyerang benteng di d7; raja di e8, menteri di e7 dan kuda di f6 semuanya melindunginya. Tiga lawan satu — belum ada yang jatuh. Tetapi setiap buah putih kecuali satu sudah mengarah ke sudut papan ini."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "prompt": "Bawa masuk benteng terakhir di lajur tempat benteng Hitam sendiri berdiri.",
+      "hint": "Hanya satu lajur yang kosong dari baris pertama Putih sampai ke sebuah buah hitam, dan hanya satu buah putih yang belum pernah meninggalkan rumahnya.",
+      "targetSan": [
+        "Rd1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 b k - 1 14",
+      "title": "Bukan Soal Benteng",
+      "text": "Benteng mendarat, dan hitungan di d7 menjadi dua penyerang melawan tiga pembela. Masih belum ada apa-apa.\n\nHitam menggeser menteri ke samping: {{Qe6}}. Ia menjaga d7 persis seperti dari e7, dan kini berhadapan dengan menteri putih di b3 lewat satu diagonal — tawaran untuk menukar menteri dan meredam ketajaman partai.\n\nMorphy menukar pasangan yang lain. {{Bxd7+}} {{Nxd7}}, dan buah yang berdiri di antara benteng di d1 dan petak di samping raja hitam adalah seekor kuda."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w k - 0 16",
+      "prompt": "Menangkap kuda hanya membiarkan Hitam menangkap balik, jadi paksa kuda Hitam sendiri untuk mengosongkan lajur itu.",
+      "hint": "Raja Hitam tak punya petak dan menteri Hitam tak bisa mencapai baris kedelapan, jadi sekak di sana hanya punya tepat satu jawaban.",
+      "targetSan": [
+        "Qb8+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Mengapa Menteri Pergi",
+      "text": "Menteri itu bukan hadiah. Ia adalah surat pengusiran.\n\nMenangkap kuda selalu mungkin dan tak pernah ada gunanya: Hitam menangkap balik di d7, lajurnya tertutup lagi, dan Putih telah menyerahkan benteng kedua untuk seekor kuda.\n\nSekak di b8 mengajukan pertanyaan yang lain. Hitam hanya punya tepat satu langkah sah di seluruh papan, dan langkah itu adalah kuda yang datang mengambil menteri."
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Hitung Sebelum Memainkannya",
+      "text": "Lajur d kini kosong, dari benteng di d1 sampai baris kedelapan.\n\nGajah di g5 mengerjakan dua tugas sekaligus: melalui petak f6 yang kosong ia melindungi d8 dan menguasai e7. Raja di e8 tak punya tempat lain — f8 adalah petak gajahnya sendiri, dan d7 berada di lajur yang sudah dikuasai benteng. Benteng yang tiba di sebelahnya juga tak bisa dihalangi.\n\n> Aliran romantik membayar materi demi garis terbuka. Cara itu hanya berhasil bagi pemain yang menghitung penyelesaiannya lebih dulu."
+    },
+    {
+      "type": "play",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "prompt": "Dua buah dan tanpa menteri: akhiri partai di lajur yang ditinggalkan kuda.",
+      "hint": "Satu buah putih sudah menjaga petak pendaratan dan menguasai satu-satunya jalan keluar raja, jadi benteng tinggal datang saja.",
+      "targetSan": [
+        "Rd8#"
+      ]
+    }
+  ]
+}

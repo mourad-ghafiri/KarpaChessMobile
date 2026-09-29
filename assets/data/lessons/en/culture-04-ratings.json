@@ -1,0 +1,57 @@
+{
+  "id": "ratings",
+  "title": "What a Rating Means",
+  "summary": "A prediction of results, not a verdict on you",
+  "proof": "culture-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "Four Hundred Points Ahead",
+      "text": "White outrates you by four hundred points and has just poked a pawn at your bishop, in the calm way of someone who expects to be handed things.\n\nA rating is a forecast of a score. Feed the gap between two numbers into one formula and out comes an expected result: level ratings predict half a point each, two hundred points of gap predicts about 76% for the higher number, four hundred points about 91%.\n\nNobody is forecast to win every game, at any gap. Not even that one."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "What the Gap Whispers",
+      "text": "Four hundred points is not a wall. It is a percentage, and percentages are made of games that went the other way.\n\nThe gap does its damage before the game does. It tells you to hold everything, take no risk, and let the stronger player prove it — which is exactly the game a stronger player wants.\n\nSo the bishop starts to look like it needs saving. {{Ba5}}, {{Bc5}}: two quiet squares, both of them agreeing that whoever owns the bigger number is owed something."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "prompt": "Leave the bishop where it stands and take the gambit pawn back with a knight.",
+      "targetSan": [
+        "Ngxe5",
+        "Ncxe5"
+      ],
+      "hint": "Either knight can take the pawn. The bishop is safer where it stands than it looks, so do not spend the move on it."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Where the Points Come From",
+      "text": "Knights came off on e5, and then White took the bishop. Now count what a rating actually pays for.\n\nYou gain when you score above the forecast and lose when you score below. That is the entire arithmetic. Beating someone far above you moves your number a long way precisely because the forecast said you would not — the system pays for surprise, and it pays in proportion to how surprised it is.\n\nWhich is why grabbing something back is beside the point. {{Qxb4}} collects a pawn and lets White survive the game."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "The Dial Called K",
+      "text": "How far a single result moves your number depends on a multiplier FIDE calls K. It is set high for new and young players, so their ratings find the right level fast, and low for established ones, so a bad weekend cannot undo years of work. A smoothing dial, and nothing more.\n\nRatings fall as well as rise, and a fall is not evidence that you got worse. It means you scored under the forecast, which happens to everyone who keeps playing. The only players whose numbers never drop are the ones who stopped."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Three Separate Currencies",
+      "text": "Arpad Elo, a physicist and a strong amateur, built the scale for the American federation, which adopted it in 1960. FIDE followed in 1970 and published its first official list on July 1, 1971.\n\nEvery site since has copied the shape, not the numbers. An online blitz rating, another site's rating and a FIDE rating are three separate currencies, and none of them converts. Titles are cut on the FIDE scale alone: 2300, 2400 and 2500 for FIDE Master, International Master and Grandmaster.\n\n> The rating forecasts the game. It never plays it."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "prompt": "White took the piece the forecast said was free, so find the mate White's own pieces have built around their king.",
+      "targetSan": [
+        "Nd3#"
+      ],
+      "hint": "Look down the e-file from your queen on e7 and ask which white pawn in front of the king is not allowed to move."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-05",
+  "fen": "3r2k1/1p3ppp/2n5/b7/1N6/2P3P1/5P1P/R5K1 w - - 1 2",
+  "solution": [
+    "Nxc6"
+  ],
+  "rating": 1210,
+  "title": "Rebut Kembali Buahnya",
+  "setup": "Anda tertinggal satu buah. Benteng Anda menatap ke bawah lajur a ke arah gajah di a5, yang hanya dilindungi kuda di c6.",
+  "hint": "Gajah di a5 punya satu pembela. Sebelum Anda mengambil gajah, tanyakan apa yang bisa mengambil pembelanya.",
+  "explanation": "## Ide\n\n{{Nxc6}} menyingkirkan satu-satunya buah yang menguasai a5. Sesudah {{bxc6}}, {{Rxa5}} mengambil gajah: kuda untuk kuda, lalu gajah dengan cuma-cuma, dan materinya seimbang lagi. Apa pun yang lebih lambat membiarkan {{Bxb4}} menukar kuda Anda, dan Hitam tetap unggul satu buah.\n\nPembela sering kali lebih murah daripada buah yang dijaganya."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-10",
+  "fen": "8/2R2P1K/1k6/8/8/8/8/1r6 b - - 0 1",
+  "solution": [
+    "Rh1+"
+  ],
+  "rating": 1560,
+  "title": "Des échecs depuis le coin",
+  "setup": "Le pion f blanc est à un coup de la promotion, et sa tour en c7 est en prise sur le roi noir en b6.",
+  "hint": "Il vous faut un coup de réserve pour prendre en c7. Quelle colonne donne des échecs auxquels le roi blanc ne peut pas simplement se soustraire ?",
+  "explanation": "## L'idée\n\nLes Noirs ont besoin d'un temps, et seuls des échecs à distance l'achètent. {{Rh1+}} {{Kg6}} {{Rg1+}} {{Kf5}}, et maintenant {{Kxc7}} gagne la tour. Les Blancs vont à dame, mais {{Rf1+}} fait une enfilade sur le roi et la nouvelle dame et la reprend aussitôt. Placez-vous tout de suite derrière le pion par {{Rf1}} à la place, et les Blancs répondent {{Re7}}, qui défend tout, et le pion passe."
+}

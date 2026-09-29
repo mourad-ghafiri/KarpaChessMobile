@@ -1,0 +1,14 @@
+{
+  "id": "defence-01",
+  "fen": "7r/7k/q7/7K/6Qb/1R6/8/8 w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Be7",
+    "Rxe7#"
+  ],
+  "rating": 1450,
+  "title": "Nem Uma Jogada de Sobra",
+  "setup": "O teu rei está encalhado em h5 com a dama, a torre e o bispo pretos todos ao alcance — mais uma jogada preta e acabou.",
+  "hint": "Defender perde. Conta antes os teus próprios xeques e encontra aquele a que as pretas não conseguem responder duas vezes.",
+  "explanation": "## A Ideia\n\nAs pretas ameaçam mate em h6, portanto não há tempo para defender. {{Rb7+}} dá xeque primeiro e deixa duas respostas. {{Be7}} tapa, e {{Rxe7#}} come quem tapou. {{Qxb7}} come a torre em vez disso, e {{Qg6#}} dá mate.\n\nQuando os dois reis estão em perigo, quem dá xeque é quem decide a ordem das jogadas."
+}

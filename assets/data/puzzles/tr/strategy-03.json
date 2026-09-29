@@ -1,0 +1,11 @@
+{
+  "id": "strategy-03",
+  "fen": "rnbqkb1r/pp1ppppp/8/2p1P3/8/2n2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 5",
+  "solution": [
+    "dxc3"
+  ],
+  "title": "Hangi Piyon Geri Alıyor",
+  "setup": "Siyahın atı az önce sizinkini aldı ve iki piyonunuz da onu geri alabiliyor. Her hâlükârda tek dikeyde iki piyonla kalıyorsunuz.",
+  "hint": "İki taş alma da c piyonlarınızı üst üste diziyor. Hangisi aynı zamanda bir piyonu tamamen komşusuz bırakıyor?",
+  "explanation": "## Fikir\n\nİki taş alma da c piyonlarınızı ikiler; öyleyse her birinin başka neye mal olduğunu sayın.\n\n{{bxc3}} ayrıca a piyonunu yanında hiç piyon olmadan mahsur bırakır: bedavaya bir izole piyon.\n\n{{dxc3}} her piyonu bir komşuya bağlı tutar, d dikeyini siyahın vezirine doğru açar ve filiniz için c1'den h6'ya giden yolu temizler. Merkezden uzağa doğru almak burada doğrudur, çünkü neyi açtığı önemlidir."
+}

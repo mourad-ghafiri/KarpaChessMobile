@@ -1,0 +1,12 @@
+{
+  "id": "promotion-03",
+  "fen": "rk6/4Pppp/8/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "e8=Q+"
+  ],
+  "rating": 1080,
+  "title": "Alignez la rangée",
+  "setup": "Votre pion e atteint la huitième rangée au prochain coup, et le roi et la tour noirs s'y trouvent déjà.",
+  "hint": "Le roi et la tour partagent une ligne avec la case vers laquelle se dirige votre pion. Lequel des deux est devant ?",
+  "explanation": "## L'idée\n\n{{e8=Q+}} promeut avec échec le long de la huitième rangée, donc les Noirs n'ont pas le temps d'arrêter le pion. La tour en a8 se tient derrière le roi sur cette même ligne : allez en c7 et la nouvelle dame la prend. {{Ka7}} ou {{Kb7}} garde la tour protégée, mais vous avez toujours une dame contre une tour.\n\nQuand le roi adverse se tient sur votre rangée de promotion, promouvez avec échec."
+}

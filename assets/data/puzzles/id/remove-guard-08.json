@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-08",
+  "fen": "6k1/2q1nppp/8/3b2B1/7Q/6P1/5PBP/6K1 w - - 1 2",
+  "solution": [
+    "Bxe7"
+  ],
+  "rating": 1320,
+  "title": "Potong Dukungannya",
+  "setup": "Gajah Anda di g2 menatap gajah di d5, yang bertahan hanya karena kuda di e7 menjaganya.",
+  "hint": "Dua gajah berduel di diagonal panjang. Satu buah hitam menentukan duel itu — bisakah Anda menjangkaunya?",
+  "explanation": "## Ide\n\n{{Bxe7}} menyingkirkan satu-satunya pembela d5. Sesudah {{Qxe7}} gajah tak terlindungi dan {{Bxd5}} memenangkan satu buah bersih. Pertukaran di e7 seimbang; buah yang disingkapnya tidak. Duel di diagonal ditentukan oleh siapa yang mendukung buah-buahnya."
+}

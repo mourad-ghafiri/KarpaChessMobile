@@ -1,0 +1,15 @@
+{
+  "id": "openings-09",
+  "fen": "rnbqkb1r/pppp1ppp/8/4P3/6n1/7P/PPPNPPP1/R1BQKBNR b KQkq - 0 4",
+  "solution": [
+    "Ne3",
+    "fxe3",
+    "Qh4+",
+    "g3",
+    "Qxg3#"
+  ],
+  "title": "Kuda yang Tak Boleh Diambil",
+  "setup": "Putih menjawab kuda Anda dengan langkah pasif kuda ke d2, mengambil pion e5, dan baru saja mengusir kuda Anda dengan h3.",
+  "hint": "Kuda Anda diserang. Carilah petak tempat menangkapnya akan merobek atap raja Putih sendiri.",
+  "explanation": "## Ide\n\nDengan kuda di d2 mengurung gajah di c1, raja Putih hanya punya sedikit perlindungan di petak-petak gelap.\n\n{{Ne3}} menyerang menteri di d1 dari petak yang ingin sekali diambil Putih. Mengambilnya adalah blunder: sesudah {{fxe3}}, {{Qh4+}} hanya menyisakan {{g3}}, dan {{Qxg3#}} menguasai f2 sementara buah-buah Putih sendiri memenuhi sisanya. Pilihan terbaik Putih adalah merelakan menteri sebagai gantinya.\n\nSebelum Anda mengambil buah yang masuk dengan sengaja, tanyakan apa yang dibuka oleh penangkapan itu."
+}

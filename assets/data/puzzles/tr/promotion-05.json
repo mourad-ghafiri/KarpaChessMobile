@@ -1,0 +1,12 @@
+{
+  "id": "promotion-05",
+  "fen": "4r1k1/4Pppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8"
+  ],
+  "rating": 1160,
+  "title": "Ablukacıyı Kovalayın",
+  "setup": "e7'deki piyonunuzu e8'deki kale tutuyor; vezir olmasını engelleyebilecek tek siyah taş o.",
+  "hint": "Abluka kuran kalenin tam olarak tek bir işi var. Ona, kendini değişmeyi göze alamayacağı bir şeyle saldırın.",
+  "explanation": "## Fikir\n\n{{Rd8}} ablukacıya saldırır. {{Rxd8}} exd8=Q+ ile olduğu yerde kaybeder ve başka her kale hamlesi piyonu geçirir; yani siyahın kaleyi piyon karşılığında vermesi gerekir. Geçer piyonu tutan taşı kaldırın, piyon vezir olsun."
+}

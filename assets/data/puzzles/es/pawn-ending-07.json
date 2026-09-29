@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-07",
+  "fen": "8/8/8/2P5/5p2/3K3k/8/8 w - - 0 2",
+  "solution": [
+    "c6"
+  ],
+  "rating": 1315,
+  "title": "Los dos peones corren",
+  "setup": "Las Negras acaban de avanzar su peón a la cuarta, y el rey blanco está lo bastante cerca para caer en la tentación.",
+  "hint": "Volver atrás para detener su peón cuesta una jugada; cuenta las dos carreras hasta la octava fila antes de decidir.",
+  "explanation": "## La idea\n\nPerseguir el peón de f solo hace tablas. {{c6}} gana la carrera: tras {{Kg3}} el peón corre a c7 y corona en c8 cuando el peón negro solo ha llegado a f3, y tu nueva dama y tu rey detienen luego al corredor.\n\nEn una carrera pura, cuenta las jugadas de los dos peones hasta la última fila antes de volver atrás a perseguir."
+}

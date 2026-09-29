@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-20",
+  "fen": "4k3/6p1/4K3/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Side-Cage the King",
+  "setup": "The kings face each other on the e-file, and Black's one remaining pawn does nothing to help.",
+  "hint": "Your king fences the seventh rank. Send the queen to the one rank Black has left.",
+  "explanation": "## The Idea\n\nThe kings face each other again, and this time the queen arrives from the corner.\n\n{{Qa8#}} checks along the back rank. d8 and f8 are on the queen's line, and your king on e6 covers d7, e7 and f7. The pawn on g7 blocks nothing and saves nothing.\n\nExtra material on the board does not change the pattern: a facing king plus a queen on the back rank is mate."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-09",
+  "fen": "4nrk1/5p1p/6pQ/8/8/7P/qB3PPK/4R3 w - - 1 2",
+  "solution": [
+    "Rxe8"
+  ],
+  "rating": 1350,
+  "title": "O Guarda de g7",
+  "setup": "A tua dama e o teu bispo pesam os dois sobre g7, e o cavalo de e8 é a única peça além do rei a cobrir essa casa.",
+  "hint": "O mate está a uma jogada e uma peça preta impede-o. Que peça cobre g7, e o que lhe chega?",
+  "explanation": "## A Ideia\n\n{{Rxe8}} come o cavalo que cobre g7. A recaptura {{Rxe8}} não faz nada pelo rei, e {{Qg7#}} acaba: a dama é segurada pelo bispo de b2 e às pretas não resta casa nenhuma. Quando o mate está a uma jogada, põe preço ao defensor, não à peça."
+}

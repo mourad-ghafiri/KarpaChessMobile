@@ -1,0 +1,12 @@
+{
+  "id": "discovery-09",
+  "fen": "3q2k1/2p2p1p/p5p1/1r6/8/3B4/P4PPP/3R1RK1 w - - 0 1",
+  "solution": [
+    "Bxb5"
+  ],
+  "rating": 1270,
+  "title": "Sem Xeque, Fatal na Mesma",
+  "setup": "A tua torre em d1 está alinhada com a dama preta, e só o teu próprio bispo de d3 está pelo meio.",
+  "hint": "A torre de b5 é guardada por um peão. Pergunta que aspeto terá a coluna d assim que o teu bispo a deixar.",
+  "explanation": "## A Ideia\n\n{{Bxb5}} ganha uma torre porque a recaptura custa mais: depois de axb5 a coluna d está aberta e Rxd8 come a dama. As pretas têm de deixar o bispo onde está, e as brancas ficam com a torre que ganharam. Uma descoberta não precisa de um xeque para decidir um jogo."
+}

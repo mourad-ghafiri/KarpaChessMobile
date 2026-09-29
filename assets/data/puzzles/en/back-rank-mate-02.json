@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-02",
+  "fen": "6k1/2r2ppp/8/8/8/8/5PPP/3Q2K1 w - - 1 2",
+  "solution": [
+    "Qd8#"
+  ],
+  "rating": 740,
+  "title": "The Guard Stepped Off",
+  "setup": "Black's rook has just dropped to c7, and nothing is left on the eighth rank but its king.",
+  "hint": "One black piece was holding the whole eighth rank a move ago. Check whether it still does.",
+  "explanation": "## The Idea\n\n{{Qd8#}} ends it. The queen checks along the eighth rank; the rook on c7 can neither take it nor block on e8 or f8, and the wall of pawns on f7, g7 and h7 keeps the king at home. A rook that leaves the back rank must leave a replacement."
+}

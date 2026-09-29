@@ -1,0 +1,12 @@
+{
+  "id": "pin-02",
+  "fen": "8/k2r4/bp4p1/1r6/R1P4R/1P6/3P4/1K6 w - - 0 1",
+  "solution": [
+    "cxb5"
+  ],
+  "rating": 840,
+  "title": "Le gardien est figé",
+  "setup": "Votre tour en a4 regarde droit le long de la colonne a : le fou noir, et le roi derrière lui.",
+  "hint": "La tour en b5 a exactement un défenseur. Avant de compter le matériel, demandez-vous si ce défenseur a seulement le droit de bouger.",
+  "explanation": "## L'idée\n\n{{cxb5}} gagne une tour entière. Le fou en **a6** est la seule pièce qui protège b5, et votre tour en **a4** le cloue sur le roi en **a7**. S'écarter laisserait le roi en échec, donc la reprise n'est pas un coup légal."
+}

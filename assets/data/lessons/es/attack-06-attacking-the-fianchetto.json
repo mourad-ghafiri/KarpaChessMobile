@@ -1,0 +1,50 @@
+{
+  "id": "attacking-the-fianchetto",
+  "title": "Atacar el fianchetto",
+  "summary": "Caza al alfil, no a los peones",
+  "proof": "fianchetto-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Dos casillas que nadie protege",
+      "text": "El refugio negro parece sólido: tres peones, un alfil y un rey metido detrás. Cuenta lo que cubren de verdad esos peones.\n\nEl peón de g fue a g6, y en ese momento f6 y h6 quedaron fuera del alcance de los peones para siempre. Los peones no retroceden. Las dos casillas son negras, las dos están a una casilla de los peones tras los que se esconde el rey, y una sola pieza responde por ambas: el alfil de g7."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Qué peones están libres",
+      "text": "El rey blanco de c1 está en el otro extremo del tablero respecto a todo esto.\n\nUna avalancha de peones funciona cuando tu propio rey no está detrás de los peones que gastas. El rey blanco no lo está. El negro sí, así que los peones negros se quedan en casa defendiendo mientras los blancos están libres para lanzarse contra algo.\n\nLa torre de h1 ha esperado toda la partida a que uno de ellos abra la columna que tiene delante."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "prompt": "Empieza la avalancha en el flanco donde vive el rey negro, y sal a toda velocidad.",
+      "targetSan": [
+        "h4"
+      ],
+      "hint": "El peón de g6 es lo que mantiene unido el refugio negro: ¿cuál de tus peones puede subir a golpearlo?"
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "Bloqueado no es terminado",
+      "text": "El peón negro de h5 frena en seco al tuyo, y los peones no pueden rodearse. Así que las Blancas traen un segundo.\n\n{{g4}} golpea h5, {{hxg4}} captura, {{fxg4}} recaptura, y el peón de h blanco vuelve a correr con la torre de h1 detrás. Dos jugadas después la columna está abierta.\n\nEse es el camino lento, y funciona. También gasta cuatro jugadas en comprar una columna."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "El camino rápido",
+      "text": "Hay una respuesta más rápida, y no necesita la columna en absoluto.\n\nQuita del tablero el alfil de g7 y h6 se convierte en una casilla de aterrizaje. Una dama que llegue ahí mira directamente a g7, a una casilla del rey, y ningún peón negro podrá echarla jamás: eso quedó decidido en el momento en que el peón de g fue a g6. La dama negra de d8 y la torre de c8 miran las dos hacia el lado equivocado para ayudar.\n\n> Contra un fianchetto no atacas peones. Cazas un alfil."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "prompt": "Cambia la única pieza negra que protege las casillas negras junto al rey negro.",
+      "targetSan": [
+        "Bh6"
+      ],
+      "hint": "Tu alfil de e3 recorre las mismas casillas negras que el negro: mándalo hasta que se encuentren."
+    }
+  ]
+}

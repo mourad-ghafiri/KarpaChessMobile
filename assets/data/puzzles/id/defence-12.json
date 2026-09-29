@@ -1,0 +1,14 @@
+{
+  "id": "defence-12",
+  "fen": "8/3r4/5KR1/4r3/3B4/4qk2/Q7/8 w - - 0 1",
+  "solution": [
+    "Qg2+",
+    "Kf4",
+    "Qg4#"
+  ],
+  "rating": 2000,
+  "title": "Tawarkan Menteri Dua Kali",
+  "setup": "Menteri Hitam di e3 sudah mengincar petak-petak di sekitar raja Anda di f6, didukung benteng di d7 dan e5 — Anda tinggal satu langkah dari mat.",
+  "hint": "Kedua sekak Anda menaruh menteri di tempat yang bisa diambil. Cari tahu mengapa tak satu pun penangkapan itu sah.",
+  "explanation": "## Ide\n\n{{Qg2+}} dilindungi benteng di g6, jadi {{Kf4}} terpaksa, dan {{Qg4#}} menawarkan menteri untuk kedua kalinya di petak yang tak bisa diambil raja. Pertahanan yang bergantung pada ketidakmampuan menangkap tetaplah sebuah pertahanan."
+}

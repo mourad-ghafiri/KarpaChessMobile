@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-05",
+  "fen": "8/4k3/4P3/4K3/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Ke8"
+  ],
+  "rating": 1245,
+  "title": "Una casilla aguanta",
+  "setup": "El rey blanco acaba de colocarse detrás de su peón en la sexta, y las Negras pueden elegir entre tres casillas.",
+  "hint": "Dos de tus tres casillas dejan que el rey blanco rodee hasta d7 o f7. Una no.",
+  "explanation": "## La idea\n\n{{Ke8}} es la única jugada. A {{Kd6}} responde {{Kd8}}, y entonces {{e7+}} devuelve al rey delante del peón, donde a las Blancas solo les queda el rey ahogado. Ve en cambio a d8 o f8 y las Blancas toman la oposición y coronan."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "rook-pawn-vs-rook",
+  "title": "Kale ve Piyona Karşı Kale",
+  "summary": "Bütün oyun sonunu belirleyen iki kale hamlesi",
+  "proof": "endgame-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "İki Dikeylik Gün Işığı",
+      "text": "e4'teki piyon bunu tek başına kazanmaz. Eşlik edilen piyon kazanır ve eşlik, bir kale sonunun bütün konusudur.\n\nMesafeye bakın. Siyahın c7'deki şahı piyonunuzun yolundan iki dikey uzakta ve ona doğru yürüyor. a1'deki kalenizden burada hiçbir şeyi durdurması istenmedi — ve bunu yapabilecek tek taş o.\n\nPiyonun önüne geçen şah onu durdurur. Dışarıda kalan şah seyreder."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "Tek Kaleden Yapılmış Duvar",
+      "text": "Açık dikeydeki kale, o dikey boyunca saldırmaktan fazlasını yapar. Rakip şah, kalenin kapsadığı hiçbir kareye adım atamaz; böylece dikey bir duvara dönüşür: kurması bir hamle ve kale orada kaldığı sürece ayakta durur.\n\nBuna **kesme** denir. Rakip şah hattın bir yanına hapsedilir ve öteki yanda ne varsa sizin kullanımınızdadır.\n\nSiyahın c7'deki şahı henüz geçmedi. Geçmek zorunda olduğu hattı seçin."
+    },
+    {
+      "type": "play",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "prompt": "Bir şey sürmeden önce siyahın şahını tahtanın piyon tarafından dışarıda bırakın.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Siyahın şahı ile piyon arasındaki dikeyleri sayın, sonra o şahın ilk geçmek zorunda olduğunu sahiplenin."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/3R4 b - - 1 1",
+      "title": "Fır Dönüp Duruyor",
+      "text": "Duvar kuruldu. Şimdi siyahın şahının piyon hakkında ne yapabildiğini izleyin.\n\n{{Kc6}} {{Kf4}} {{Kc5}} {{Kf5}}\n\nDört hamle. Siyahın şahı c dikeyinde aşağı yürüdü ve hâlâ d dikeyine ayak basamıyor, çünkü o dikeyin her karesi d1'deki kaleye ait. Beyazın şahı ise bu arada piyonunun yanına yürüdü; eşlik etmek de budur."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/4P1K1/8/3R4/8/8/5r2 b - - 0 8",
+      "title": "Hangi Oyun Sonuna Varıyorsunuz",
+      "text": "Birkaç hamle sonra piyon e6'da, şahı yanında g6'da duruyor ve kale hâlâ d dikeyini tutuyor. Siyahın c7'deki şahı piyonun yolundan iki dikey uzakta ve oraya sokulmayacak. Oyun sonunu seçen şey de bu reddediştir.\n\nSavunan şahın piyonun önündeki kareye ulaşmasına izin verin, siyah beraberliği alsın — dört ders önceki Philidor, o şahtan ve altıncı yataydaki bir kaleden fazlasını istemiyor.\n\nBuna izin vermeyin, kendi şahınızı terfi karesinde duracak şekilde yukarı yürütün ve bunun yerine Lucena'ya doğru dümen kırın."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Yer Değiştirin",
+      "text": "Şimdi siyahsınız ve az önce bir dikeyi kullandığınız gibi size karşı bir yatay kullanılıyor. b7'deki kale yedinci yatayın sahibi, yani siyahın g8'deki şahı arka yatayda tutuluyor.\n\nBeyazın e5'teki piyonu, yanında d5'te yürüyen bir şahı olan bir geçer piyon ve onu durdurması gereken şah tahtanın kenarında sıkışmış.\n\nYani savunmayı h1'deki siyah kale taşıyor ve bütün soru onun nereye gideceği."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Önünde, Yanında, Arkasında",
+      "text": "Geçer piyonun karşısındaki kalenin üç tür karesi vardır ve bunlar aynı şekilde yaşlanmaz.\n\nPiyonun önünde kale, küçülen bir ablukadır: her sürüş bir kareyi daha elinden alır ve sekizinci yatayda hiçbir şey yapmadan öylece durur. Yanında, bir yatayda duran kale piyona bir kez saldırır ve piyon oynadığında hiçbir şey kazanmaz.\n\nArkasında ise saldırı tazelenir. Piyon adım atar ve aynı kale hâlâ dikeyden ona dikilmiştir; piyonu koruyan ne varsa evden daha da uzaklaşır.\n\n> Bir kareyi, piyon oynamadan önceki değerine göre değil, oynadıktan sonraki değerine göre yargılayın."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "prompt": "Değeri, beyazın piyonu her ilerlediğinde artan tek kareyi alın.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "Piyonu kafanızda e5'ten son yataya kadar yürütün ve hangi konumun ona bütün yol boyunca saldırmayı sürdürdüğünü sorun."
+    }
+  ]
+}

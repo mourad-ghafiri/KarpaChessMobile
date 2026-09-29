@@ -1,0 +1,12 @@
+{
+  "id": "discovery-02",
+  "fen": "3r2k1/b4ppp/p7/8/3n4/5P2/P3Q1PP/4R1K1 b - - 0 1",
+  "solution": [
+    "Nxe2+"
+  ],
+  "rating": 1000,
+  "title": "Two Checks at Once",
+  "setup": "Your bishop on a7 rakes the long diagonal down to g1, and your own knight on d4 blocks it.",
+  "hint": "Count how many of your pieces would be giving check the instant the knight leaves d4.",
+  "explanation": "## The Idea\n\n{{Nxe2+}} is a double check: the knight hits g1 from e2 and the bishop hits it along the a7-g1 diagonal. A double check can only be met by a king move, so Rxe2 is illegal, and next move the knight simply walks away, having won the queen for nothing."
+}

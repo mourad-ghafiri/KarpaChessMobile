@@ -1,0 +1,11 @@
+{
+  "id": "culture-03",
+  "fen": "r3k2r/ppp2ppp/3b4/3p4/4n3/1P2Pn1K/PBPPQ1P1/RN3R2 b kq - 1 13",
+  "solution": [
+    "Neg5+"
+  ],
+  "title": "¿Qué caballo?",
+  "setup": "El rey blanco ha sido arrastrado a h3, y tus dos caballos pueden saltar a g5 con jaque. Solo uno de los dos gana.",
+  "hint": "El rey tiene exactamente un refugio. Los dos saltos de caballo parecen idénticos, y solo uno mantiene cubierto ese refugio.",
+  "explanation": "## La idea\n\nEl caballo de f3 cubre h4, la única casilla a la que podría huir el rey blanco, así que va el otro caballo.\n\n{{Neg5+}} deja al rey una sola respuesta, {{Kg4}}, y {{h5+}} lo sigue empujando hacia tus piezas hasta el mate unas jugadas después. Manda el caballo equivocado, {{Nfg5+}}, y el rey se escapa por {{Kh4}}.\n\nCuando dos piezas iguales pueden llegar a una misma casilla, la planilla indica la columna de la que salieron. Aquí esa letra separa un mate forzado de una simple buena posición."
+}

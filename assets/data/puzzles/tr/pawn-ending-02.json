@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-02",
+  "fen": "2k5/8/1K6/P7/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Kb8"
+  ],
+  "rating": 1140,
+  "title": "Köşeye Koşun",
+  "setup": "Beyazın şahı az önce a piyonunu eve yürütmek için b6'ya çıktı ve siyahın üç karesi var.",
+  "hint": "Kale piyonunun kendine ait tek bir dikeyi vardır; savunan şahın hangi köşeyi tutması gerektiğini sorun.",
+  "explanation": "## Fikir\n\n{{Kb8}} tek hamledir. Kale piyonu, a8 ile b8'i tutan bir şahın yanından eskort edilemez: {{a6}} {{Ka8}} gelir ve a7'den sonra siyahın hiç kurallı hamlesi kalmaz; bu pattır. Bunun yerine d7 ya da d8'e çekilin, beyazın şahı öylece dolanıp vezir olsun."
+}

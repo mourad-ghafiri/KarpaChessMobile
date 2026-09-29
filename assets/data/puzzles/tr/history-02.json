@@ -1,0 +1,13 @@
+{
+  "id": "history-02",
+  "fen": "7k/8/p4N2/1p5p/8/8/8/2R3K1 w - - 0 1",
+  "solution": [
+    "Rc7",
+    "b4",
+    "Rh7#"
+  ],
+  "title": "Bir Mansûbe Bitişi",
+  "setup": "Şatranc tarzı bir problem: köşedeki bir şaha karşı kale ve at; siyahın piyon oyalamasından başka bir şeyi yok.",
+  "hint": "Henüz şah çekmeyin. At g8 ile h7'nin çoktan sahibi; öyleyse şahı çekmeye değmeden önce kalenin hangi yataya ihtiyacı olduğunu sorun.",
+  "explanation": "## Fikir\n\nBu, en eski problem derlemelerinden gelen **Arap matı**dır: köşede şahın yanında bir kale, kaleyi koruyan bir at.\n\nKale bunu c1'den veremez. {{Rc7}} sessizdir: kale yedinci yatayı alır, at g8'i zaten kapsar ve şaha kare kalmaz. Siyah yalnızca bir piyon sürebilir — {{b4}} ya da başkası — ve {{Rh7#}} gelir; atı h7'yi korurken.\n\nÖnce {{Rc8+}} ile şah çekerseniz şah g7'ye sıvışır. Önce ağı kurun, sonra şah çekin."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "smothered-07",
+  "fen": "r4r1k/pp4pp/7N/3Q4/8/8/P4PPP/6K1 w - - 6 31",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1345,
+  "title": "Koruyucuyu Saptırın",
+  "setup": "Siyah az önce f7'yi tutmak için bir kaleyi f8'e geri getirdi ve h6'daki at askıda duruyor.",
+  "hint": "f8'deki kale f7'yi koruyan tek şey — onu bunun yerine nerede durdurabilirsiniz?",
+  "explanation": "## Fikir\n\nAt g8'i zaten kapsıyor, yani {{Qg8+}} hamlesine şahla cevap verilemez ve {{Rxg8}} tek kurallı cevaptır. f7'yi koruyan kale artık şahın son çıkışını tıkamaktadır ve {{Nf7#}} işi bitirir. Feda tek hamlede hem saptırır hem boğar."
+}

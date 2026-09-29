@@ -1,0 +1,14 @@
+{
+  "id": "deflection-05",
+  "fen": "6rk/ppq3pp/8/4N3/8/6P1/P4PK1/3R4 w - - 1 2",
+  "solution": [
+    "Ng6+",
+    "hxg6",
+    "Rh1#"
+  ],
+  "rating": 1260,
+  "title": "L'unique tâche du pion h",
+  "setup": "Le roi en h8 est enfermé par sa propre tour et son propre pion, et seul le pion h7 tient la colonne h fermée.",
+  "hint": "La colonne h est la route vers ce roi, et un seul pion la bloque. Quel échec force le pion à bouger ?",
+  "explanation": "## L'idée\n\n{{Ng6+}} ne laisse aux Noirs qu'un seul coup légal : {{hxg6}}. Le pion doit prendre, la colonne h s'ouvre, et {{Rh1#}} arrive. Un pion qui doit prendre est un pion qui a quitté son poste. Cherchez les défenseurs qui n'ont pas le choix, pas seulement ceux que vous pouvez prendre."
+}

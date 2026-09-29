@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-06",
+  "fen": "1B4k1/5ppp/2r3R1/4r3/8/3Q4/PP1b4/K7 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1500,
+  "title": "Los peones ya hicieron el trabajo",
+  "setup": "Los propios peones negros de f7, g7 y h7 tienen al rey encajonado, pero la torre negra de e5 y el alfil de d2 están activos.",
+  "hint": "El mate está a un jaque. Identifica la casilla que las Negras están obligadas a ocupar y quién queda para comérsela.",
+  "explanation": "## La idea\n\nA {{Qd8+}} solo se responde con {{Re8}}, ya que los peones le han quitado ellos mismos todas las casillas de escape. {{Qxe8#}} remata. El refugio que se construyó el rey es la jaula en la que muere."
+}

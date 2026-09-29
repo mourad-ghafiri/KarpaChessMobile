@@ -1,0 +1,14 @@
+{
+  "id": "skewer-11",
+  "fen": "8/2q3k1/p7/2p1P2p/PR1p1P2/3Q4/2B3rP/5K2 w - - 0 1",
+  "solution": [
+    "Qh7+",
+    "Kf8",
+    "Qxc7"
+  ],
+  "rating": 1270,
+  "title": "Arkadaki Fil",
+  "setup": "d3'teki veziriniz kendi filinizin önünde duruyor ve siyahın şahı ile veziri yedinci yatayı paylaşıyor.",
+  "hint": "Veziriniz kendi filinin önünü kesiyor. Kareden ayrılmasının onu güvende tuttuğu yer neresi?",
+  "explanation": "## Fikir\n\n{{Qh7+}} d3'ten ayrılmanın ne yaptığını görene kadar bir bağış gibi görünür: **c2**'deki fil artık b1–h7 çaprazı boyunca h7'yi kapsar, yani şah alamaz. {{Kf8}} mecburidir ve yedinci yatay {{Qxc7}} için çırılçıplak kalır."
+}

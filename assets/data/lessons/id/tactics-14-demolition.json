@@ -1,0 +1,50 @@
+{
+  "id": "demolition",
+  "title": "Membongkar Pertahanan",
+  "summary": "Dua gajah dikorbankan untuk dua pion, dan seorang raja dibiarkan berdiri di udara terbuka",
+  "proof": "demolition-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Satu Pion di Tengah Jalan",
+      "text": "Emanuel Lasker menyerahkan gajah dua langkah lalu untuk merenggut pion dari h7, dan inilah yang dibelinya. Raja Hitam di g8, lajur h terbuka, dan menteri Putih di h5.\n\nGajah di e5 memandang ke sepanjang diagonal panjang ke arah h8. Sebuah pion hitam di g7 berdiri di tengah jalan.\n\n{{Qh8+}} {{Kxh8}}. Tak ada yang melindungi menteri saat ia mendarat, jadi raja mengambilnya dan serangan berakhir. Pion itu tidak menjaga h8 — ia menghalangi buah yang akan menjaganya."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Hitungan, Bukan Keberanian",
+      "text": "Menyerahkan buah untuk pion adalah soal hitungan, bukan keberanian. Sebelum Anda mengorbankannya, sebutkan langkah-langkah yang datang sesudahnya — jika Anda tak bisa menyebut dua, Anda tidak punya serangan.\n\nDi sini keduanya mudah disebut. Menteri di h5 sudah di tempatnya, dan benteng di f1 tinggal satu langkah dari baris ketiga dan satu langkah lagi dari lajur h.\n\nLalu hitung pihak lawan. Benteng Hitam di a8 dan f8 tak punya jalan menuju lajur h, dan menteri di c6 membidik separuh papan yang lain. Tak ada yang kembali tepat waktu."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "prompt": "Lucuti pion terakhir dari raja Hitam, dan bayar satu buah utuh untuk melakukannya.",
+      "targetSan": [
+        "Bxg7"
+      ],
+      "hint": "Satu buah Anda bisa mencapai pion itu, dan yang penting adalah raja tanpa pelindung yang ditinggalkannya."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "Tagihan Jatuh Tempo",
+      "text": "Bauer menangkap, dan ia hampir tak punya alasan untuk tidak melakukannya: gajah putih yang hidup di samping raja, dengan menteri sudah berada di lajur h, bukanlah sesuatu yang dibiarkan berdiri.\n\nJadi inilah yang dibeli kedua gajah itu. Raja hitam di g7 berdiri di udara terbuka, dan hitungannya mengatakan Putih telah menyerahkan dua gajah untuk dua pion.\n\nTertinggal sejauh itu hanya tertahankan selama Hitam sibuk menjawab sekak. Berikan satu langkah bebas dan benteng di a8 serta f8 mulai menyeberang, lalu Putih kurang dua buah tanpa hasil apa pun."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "Sekak yang Tak Bisa Dipakai",
+      "text": "Tak setiap sekak layak dimiliki. {{Qh7+}} tampak memaksa sampai Anda menyadari tak ada milik Anda yang menguasai h7: {{Kxh7}}, dan serangan kehilangan menteri dengan sia-sia.\n\nSekak hanya berhasil selama raja tak bisa menjawabnya dengan menangkap. Yang Anda inginkan adalah sekak dari petak yang tak bisa disentuh Hitam, diberikan selagi benteng masih punya waktu untuk menyeberang.\n\n> Buah yang dikorbankan untuk perisai pion bukanlah keberanian. Itu tagihan, dan sekak-sekak itulah cara Anda membayarnya."
+    },
+    {
+      "type": "play",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "prompt": "Paksa raja bergerak lagi agar benteng Anda punya waktu mencapai lajur h.",
+      "targetSan": [
+        "Qg4+"
+      ],
+      "hint": "Sekak yang bisa langsung ditangkap raja membuat Anda kalah, jadi temukan petak sekak yang tak bisa disentuh Hitam."
+    }
+  ]
+}

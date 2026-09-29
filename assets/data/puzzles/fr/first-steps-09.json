@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-09",
+  "fen": "5k2/6pp/p7/1p3p2/8/3B4/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Bxf5"
+  ],
+  "title": "Deux pions, un seul gratuit",
+  "setup": "Votre fou en d3 attaque deux pions noirs, un sur chaque diagonale. Un seul peut être pris gratuitement.",
+  "hint": "Regardez une case en diagonale derrière chaque pion. L'un a un allié posté là, l'autre est seul.",
+  "explanation": "## L'idée\n\nLes deux pions sont sur les diagonales de votre fou, mais un seul est gratuit.\n\n{{Bxb5}} perd le fou sur {{axb5}}, car le pion en a6 protège b5. {{Bxf5}} gagne un pion net, puisque rien ne protège f5. Attendez un coup et les Noirs jouent {{g6}} pour le protéger.\n\nLes pions protègent les cases en diagonale devant eux. Avant de prendre, regardez une case en diagonale derrière la cible."
+}

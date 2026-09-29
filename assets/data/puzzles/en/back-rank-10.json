@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-10",
+  "fen": "6k1/5p1p/6p1/8/8/8/1B6/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "The Escape Hatch That Wasn't",
+  "setup": "Black spent a move on g6 to give the king air — but air only helps if the hatch square is safe.",
+  "hint": "Black is counting on g7. Check what your quietest piece has been aiming at all along.",
+  "explanation": "## The Idea\n\nBlack pushed the g-pawn to give the king a square to run to, and the square it made is g7. The bishop on b2 has been watching the long diagonal the whole time, and g7 is on it.\n\n{{Rd8#}}: f8 and h8 are on the rook's rank, f7 and h7 hold Black's own pawns, and the one escape square Black built is already covered."
+}

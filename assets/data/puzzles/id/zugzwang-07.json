@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-07",
+  "fen": "8/5K2/8/8/2pQ4/8/2B5/7k w - - 0 1",
+  "solution": [
+    "Qf2",
+    "c3",
+    "Be4#"
+  ],
+  "rating": 1590,
+  "title": "Mat di Diagonal Panjang",
+  "setup": "Raja Hitam di h1 dengan pion di c4, dan gajah Anda di c2 tinggal satu langkah dari diagonal panjang.",
+  "hint": "Gajah berada satu petak di luar garis yang dibutuhkannya. Temukan langkah yang menguasai g1 dan g2 sekaligus.",
+  "explanation": "## Ide\n\n{{Qf2}} merebut g1 dan g2 dengan tenang. Hitam harus memainkan {{c3}}, dan {{Be4#}} memberi mat di diagonal yang dimasuki gajah. Zugzwang memberi Anda langkah bebas yang dibutuhkan sebuah pola mat."
+}

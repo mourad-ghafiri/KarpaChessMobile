@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-02",
+  "fen": "7k/7B/8/p7/5Q2/8/8/1K6 w - - 0 1",
+  "solution": [
+    "Qf7",
+    "a4",
+    "Qg8#"
+  ],
+  "rating": 1435,
+  "title": "Satu Pion, Satu Langkah",
+  "setup": "Hitam punya raja di h8 dan pion di a5, dan begitu petak-petak raja direbut, pion itu satu-satunya yang masih bisa bergerak.",
+  "hint": "Hitung langkah sah Hitam. Jika jumlahnya satu, Anda hanya perlu bertahan melewatinya.",
+  "explanation": "## Ide\n\n{{Qf7}} menyegel g8 dan h7 tanpa memberi sekak. Hitam harus maju dengan {{a4}}, dan {{Qg8#}} adalah mat dengan gajah menjaga. Rebut petak-petaknya lebih dulu dan biarkan pion berjalan sendiri menuju mat."
+}

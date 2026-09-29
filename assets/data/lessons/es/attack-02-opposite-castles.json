@@ -1,0 +1,56 @@
+{
+  "id": "opposite-castles",
+  "title": "Ataques con enroques opuestos",
+  "summary": "Dos ataques, una carrera, ningún segundo premio",
+  "proof": "opposite-castles-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "Dos reyes, cada uno en un flanco",
+      "text": "El rey blanco está en c1 y el negro en g8, cada uno en un flanco, y ese solo hecho cambia para qué sirve cada peón del tablero.\n\nEnroca en el mismo lado y cada peón que avanzas abre un camino hacia tu propio rey, así que dejas los peones en paz y mueves piezas. Aquí esa factura nunca llega. El refugio blanco es a2, b2 y c2, y los peones que las Blancas pueden lanzar contra las Negras están en el otro flanco, libres para correr tanto como quieran."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "Una carrera, no una partida",
+      "text": "La posición negra dice lo mismo con los colores cambiados, así que los dos jugadores empujan a la vez, en direcciones opuestas.\n\nGana quien abra primero una línea hacia el rey rival: una columna, una diagonal, cualquier camino por el que puedan entrar una torre o una dama. Las jugadas defensivas tranquilas no frenan al otro bando; gastan las jugadas que necesitabas para ganar la carrera. No hay segundo premio."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "prompt": "Empieza la carrera avanzando el peón que puede echar al caballo negro de f6.",
+      "targetSan": [
+        "g4"
+      ],
+      "hint": "Dos peones del flanco de rey pueden saltar dos casillas, y solo uno cae donde ya lo protege el peón de f3."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/3nbppp/p2pbn2/1p2p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 12",
+      "title": "Empujar, y que te empujen",
+      "text": "Las Negras no se quedaron quietas. El peón de b5 ya está en camino, y los dos ataques corren ahora a la misma velocidad.\n\n{{g5}} aparta al caballo de f6 de la defensa, {{Ne8}} es adonde va, {{f4}} sube el siguiente peón y {{b4}} golpea al caballo de c3 igual que las Blancas acaban de golpear al negro.\n\nNingún bando defiende. Los dos bandos cuentan."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "Lo que cuesta una jugada",
+      "text": "Cinco jugadas después, los dos ataques han llegado. Los peones blancos están en f5 y g5; los negros, en a4 y b4, con la torre de a8 alineada detrás.\n\nA partir de aquí cada jugada compra terreno o no compra nada. {{Nc5}} parece una buena jugada —el caballo sale de d7 hacia una casilla mejor y mira a e4— y no le hace nada al rey blanco. Las Negras cambiarían una jugada de la carrera por una pieza más bonita, y las jugadas son lo único que les queda por gastar a los dos bandos."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "Un peón es una palanca",
+      "text": "A las Blancas les falta un avance para llegar al rey negro. Las Negras necesitan la columna a, y el peón blanco de a2 es lo que la cierra.\n\nComprar esa línea con un peón no es un cambio igualado, ni pretende serlo. Un peón es un punto. Una torre que llega junto a un rey desnudo acaba la partida. El material es lo que cuentas cuando no pasa nada; con los dos reyes bajo el fuego, las jugadas y las líneas son la única moneda que queda.\n\n> Cuando los reyes están en flancos opuestos, un peón no es material. Es una palanca."
+    },
+    {
+      "type": "play",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "prompt": "Gasta un peón para abrir por la fuerza la columna que tu torre de a8 ha estado esperando.",
+      "targetSan": [
+        "b3"
+      ],
+      "hint": "No quieres recuperar el peón: quieres una captura que aparte al peón blanco de a y abra la columna en la que ya está tu torre."
+    }
+  ]
+}

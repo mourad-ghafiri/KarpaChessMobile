@@ -1,0 +1,71 @@
+{
+  "id": "romantic-era",
+  "title": "Una Sera all'Opera",
+  "summary": "Parigi, 1858, e quello che Morphy comprò con una torre",
+  "proof": "history-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Un Palco all'Opera",
+      "text": "Parigi, 1858. La partita più famosa mai giocata fu giocata da qualcuno che avrebbe preferito guardare l'opera.\n\nPaul Morphy ha ventun anni, è americano, ed è a metà di un giro d'Europa che ha battuto chiunque accettasse di sedersi. Il duca di Brunswick gli offre un palco all'opera italiana e una partita; il duca e il conte Isouard prendono il Nero insieme, discutendone fra loro a ogni mossa. Morphy prende il Bianco, tiene un occhio sul palcoscenico e chiude in diciassette mosse.\n\nLe fonti ancora non concordano su che cosa si stesse cantando."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "Il Patto Romantico",
+      "text": "Contate le torri: Morphy ne ha una, il Nero ne ha due.\n\nGli scacchi in cui Morphy era cresciuto credevano in una cosa e ci credevano fino in fondo — tirate fuori ogni pezzo, aprite ogni strada verso il re avversario, e pagate la velocità in materiale. Più tardi ricevette un nome: la scuola **romantica**. Quasi tutti quelli che ci provarono finirono semplicemente con una torre in meno.\n\nMorphy è quello a cui funzionò, e la differenza era aritmetica. Queste linee aperte sono costate un cavallo e una torre, e il Bianco è indietro di tre punti."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "Due Torri che Dormono",
+      "text": "Tutti e due hanno una torre che non ha mosso per tutta la partita, e uno solo dei due è in condizione di svegliarla.\n\nLa torre nera è in h8 con il re in e8 e un alfiere in f8 fra loro, e quell'alfiere non ha nemmeno una casa legale.\n\nLa casa affollata è d7. L'alfiere in b5 attacca la torre in d7; il re in e8, la donna in e7 e il cavallo in f6 la difendono tutti e tre. Tre contro uno — non cade ancora niente. Ma ogni pezzo bianco tranne uno punta già su questo angolo di scacchiera."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "prompt": "Portate in gioco l'ultima torre sulla colonna dove sta la torre del Nero.",
+      "hint": "Una sola colonna corre libera dalla prima traversa del Bianco fino a un pezzo nero, e un solo pezzo bianco non è mai uscito di casa.",
+      "targetSan": [
+        "Rd1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 b k - 1 14",
+      "title": "Non Si Tratta della Torre",
+      "text": "La torre atterra, e il conto su d7 passa a due attaccanti contro tre difensori. Ancora niente.\n\nIl Nero sposta la donna di lato: {{Qe6}}. Difende d7 esattamente come faceva da e7, e adesso guarda in faccia la donna bianca in b3 lungo una diagonale — un'offerta di cambiare le donne e togliere veleno alla partita.\n\nMorphy cambia un'altra coppia. {{Bxd7+}} {{Nxd7}}, e il pezzo che sta fra la torre di d1 e la casa accanto al re nero è un cavallo."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w k - 0 16",
+      "prompt": "Prendere il cavallo lascia solo che il Nero riprenda: fate invece sgomberare la colonna al cavallo del Nero.",
+      "hint": "Il re nero non ha una casa e la donna nera non arriva all'ottava traversa, quindi uno scacco lì avrebbe esattamente una risposta.",
+      "targetSan": [
+        "Qb8+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Perché la Donna Se n'È Andata",
+      "text": "La donna non era un regalo. Era uno sfratto.\n\nPrendere il cavallo era sempre stato possibile e non era mai valso niente: il Nero riprende in d7, la colonna si richiude, e il Bianco ha dato una seconda torre per un cavallo.\n\nUno scacco in b8 fa una domanda diversa. Il Nero aveva esattamente una mossa legale su tutta la scacchiera, ed era il cavallo che va a prendersi la donna."
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Contatela Prima di Giocarla",
+      "text": "La colonna d adesso è vuota, dalla torre in d1 fino all'ottava traversa.\n\nL'alfiere in g5 fa due lavori insieme: attraverso la casa vuota f6 difende d8 e copre e7. Il re in e8 non ha nessun altro posto — f8 è la casa del suo alfiere, e d7 sta sulla colonna che la torre possiede già. E una torre che arriva nella casa accanto non si può nemmeno bloccare.\n\n> La scuola romantica pagava materiale per avere linee aperte. Funzionò sempre e solo per i giocatori che contavano prima il finale."
+    },
+    {
+      "type": "play",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "prompt": "Due pezzi e nessuna donna: chiudetela sulla colonna che il cavallo ha lasciato.",
+      "hint": "Un pezzo bianco difende già la casa d'arrivo e copre l'unica uscita del re, quindi alla torre non resta che arrivare.",
+      "targetSan": [
+        "Rd8#"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openings-11",
+  "fen": "rnb2rk1/pp1nqppp/4p3/3pP3/3p1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 0 10",
+  "solution": [
+    "Bxh7+",
+    "Kxh7",
+    "Ng5+",
+    "Kg8",
+    "Qh5"
+  ],
+  "title": "El sacrificio griego",
+  "setup": "Una Francesa que se ha calmado: el centro está bloqueado, las Negras han enrocado y ningún caballo negro podrá volver nunca a f6. Rompe el refugio del rey.",
+  "hint": "El alfil apunta a h7, un caballo está a un salto de g5 y la dama a una jugada de h5. Cuenta esas tres cosas y luego mira el peón de e5.",
+  "explanation": "## La idea\n\nEl **sacrificio griego**. El peón de e5 mantiene a todos los caballos negros lejos de f6, la única condición que necesita el sacrificio.\n\n{{Bxh7+}} destroza el refugio, y tras {{Kxh7}} llega {{Ng5+}}. La defensa más tenaz de las Negras es dar la dama por ese caballo de inmediato; retirarse con {{Kg8}} permite que {{Qh5}} prepare el mate en h7, y entonces solo entregar la dama aguanta.\n\nAntes de un sacrificio griego, comprueba que el alfil llega a h7, un caballo llega a g5, la dama llega a h5 y nada negro llega a f6."
+}

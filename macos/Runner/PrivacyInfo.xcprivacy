@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  KarpaChess's own privacy manifest.
+
+  The app collects nothing: no account, no analytics, no network access. Every
+  lesson, puzzle, game and preference stays on the device, so both collected
+  data types and tracking domains are empty, and NSPrivacyTracking is false.
+  That matches "Data Not Collected" in App Store Connect.
+
+  The app's OWN Dart and Swift code uses no required-reason API: it never
+  reads a file timestamp, free disk space, the system boot time or the active
+  keyboard list. Its file work is File.exists() and a rename
+  (core/io/atomic_write.dart, core/io/stored_files.dart), neither on Apple's
+  list.
+
+  Most plugins that do reach such an API declare it themselves, and Apple
+  aggregates those with this file: shared_preferences_foundation (UserDefaults,
+  CA92.1), path_provider_foundation and image_picker_ios (file timestamps).
+  The Stockfish module declares its own — its Syzygy loader references fstat —
+  in packages/karpa_engine/ios/Resources/PrivacyInfo.xcprivacy.
+
+  file_picker is the exception, and the reason FileTimestamp is declared below.
+  (This is the macOS copy of ios/Runner/PrivacyInfo.xcprivacy; keep the two in
+  step, since the same plugins are linked into both apps.)
+  file_picker_darwin 1.0.1 lists `.process("Resources/PrivacyInfo.xcprivacy")`
+  in its Package.swift but does not ship that file, so the build prints
+  "Invalid Resource 'Resources/PrivacyInfo.xcprivacy': File not found" and the
+  plugin's declaration never reaches the binary. Its code does use the APIs:
+  `contentsOfDirectory(atPath:)` and `resourceValues(forKeys: [.fileSizeKey])`
+  over the app's tmp directory (C617.1 — metadata of files inside the app
+  container), and `attributesOfItem(atPath:)` over files the reader chose in a
+  document picker (DDA9.1 — files the user specifically granted access to).
+  Declaring them here is accurate for this binary, which links that code, and
+  an under-declaration is what gets an upload rejected (ITMS-91053). Drop this
+  entry only once file_picker actually ships its own manifest.
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPrivacyTracking</key>
+	<false/>
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array/>
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>C617.1</string>
+				<string>DDA9.1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

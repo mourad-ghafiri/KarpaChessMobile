@@ -1,0 +1,56 @@
+{
+  "id": "english",
+  "title": "L'ouverture anglaise",
+  "summary": "Une sicilienne aux couleurs inversées, avec un temps d'avance",
+  "proof": "openings-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Une sicilienne dans le miroir",
+      "text": "Le premier coup des Blancs est allé sur l'aile, et la réponse des Noirs droit au centre. Retournez l'échiquier : un pion en c4 face à un pion en e5, c'est une sicilienne aux couleurs échangées.\n\nDans une vraie sicilienne, le pion c appartient aux Noirs, le camp qui joue en second. Ici, la même structure est sur l'échiquier avec les rôles inversés, et le camp qui tient le pion c est celui qui a joué en premier.\n\nUn temps entier, du mauvais côté d'une défense."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Lent exprès",
+      "text": "{{Nc3}} {{Nf6}} {{g3}}. Deux cavaliers sortis, puis les Blancs dépensent un coup pour un pion qui ne prend rien et n'attaque rien.\n\nLes Noirs prennent l'espace offert : {{d5}} revendique le centre, {{cxd5}} {{Nxd5}} le dégage, et un cavalier noir se retrouve en d5 sans aucun pion blanc à proximité.\n\nVoilà ce qu'a payé le temps de réserve. Le pion en g3 ressemblait au coup le plus lent de l'échiquier, mais il a libéré une case, et cette case est sur la diagonale qui va de h1 à a8."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 5",
+      "prompt": "Sortez le fou de cases blanches pour qu'il regarde, le long de la grande diagonale, le cavalier que les Noirs viennent de poser au centre.",
+      "targetSan": [
+        "Bg2"
+      ],
+      "hint": "Une diagonale va d'un coin à l'autre jusqu'en a8, et un coup de pion a déjà dégagé votre côté."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPPBP/R1BQK1NR b KQkq - 1 5",
+      "title": "Un fou au bord",
+      "text": "Le fou en g2 regarde toute la longueur de l'échiquier, et la première chose qu'il rencontre est le cavalier en d5. Il n'a jamais eu besoin de traverser le centre pour y arriver.\n\nUn fou développé ainsi, sur la case qu'a quittée le pion de son propre cavalier, est un **fianchetto**. Le pion fait le voyage et le fou emprunte la route derrière lui.\n\nUne seule pièce, et tout l'argument des ouvertures de flanc : tenir le centre sans s'y tenir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Demander avant de répondre",
+      "text": "L'autre raison pour laquelle ce coup revient sans cesse au plus haut niveau n'a rien à voir avec les diagonales. Botvinnik en a fait un système, et Kasparov comme Carlsen l'ont gardé comme arme principale.\n\nUn pion en d2 est un pion sur lequel personne ne peut tirer. Plusieurs des défenses les plus tranchantes des Noirs existent pour frapper un pion blanc dès qu'il avance en d4, et aucune ne peut commencer tant qu'il n'y va pas.\n\nLes Blancs demandent donc d'abord. {{e6}} {{Nc3}} {{d5}}, et les Noirs ont répondu : le centre occupé, le fou en c8 enfermé derrière."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "title": "Le prix de l'attente",
+      "text": "Attendre n'est pas gratuit. Un pion en c4 ne lutte ni pour d4 ni pour e4, alors un adversaire qui prend le centre et le garde peut laisser ce pion de flanc regarder la partie depuis le bord.\n\nCe que l'attente achète, c'est de l'information, et l'information ne rapporte que si on la dépense. Les Noirs sont engagés maintenant : pions fixés en d5 et e6, fou en c8 enfermé derrière eux, et plus aucune défense tranchante vers laquelle bifurquer.\n\n> Une ouverture de flanc est une ouverture centrale qui arrive en retard exprès."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "prompt": "Prenez le centre maintenant que la mise en place noire est figée, et orientez la partie vers un Gambit Dame que les Noirs ne peuvent plus esquiver.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Un pion blanc est resté chez lui depuis le début, et rien dans le camp noir n'est prêt à le punir s'il sort."
+    }
+  ]
+}

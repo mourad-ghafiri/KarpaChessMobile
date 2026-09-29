@@ -1,0 +1,16 @@
+{
+  "id": "smothered-10",
+  "fen": "r4rk1/pp3Npp/8/8/2Q5/8/P4PPP/6K1 w - - 9 33",
+  "solution": [
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1440,
+  "title": "Kuda Memilih h6",
+  "setup": "Hitam baru saja menyerang kuda di f7 dengan benteng, sementara menteri di c4 mengincar diagonal a2–g8.",
+  "hint": "Kuda Anda berdiri di diagonal menteri, jadi setiap langkah kuda memberi sekak dua kali — pilih petak pendaratannya dengan cermat.",
+  "explanation": "## Ide\n\n{{Nh6+}} adalah sekak ganda, jadi benteng tak bisa menangkap dan raja harus bergerak: {{Kh8}} satu-satunya petaknya. Kini {{Qg8+}} memaksa {{Rxg8}}, dan {{Nf7#}} mengurungnya. Kuda harus memilih h6 agar ia menjaga g8 untuk pengorbanan itu."
+}

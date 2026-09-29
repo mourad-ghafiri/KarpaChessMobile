@@ -1,0 +1,14 @@
+{
+  "id": "decoy-11",
+  "fen": "7k/pp2n1pp/7N/q7/1r6/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Nxg8",
+    "Nf7#"
+  ],
+  "rating": 1520,
+  "title": "Nourrissez le cavalier",
+  "setup": "Le roi en h8 est enterré derrière ses propres pions, et le cavalier noir en e7 est la seule pièce noire qui atteint g8.",
+  "hint": "Le coin est déjà une cage. Que donneriez-vous pour que g8 soit occupée par une pièce noire ?",
+  "explanation": "## L'idée\n\n{{Qg8+}} ne peut pas être prise par le roi, car votre cavalier en h6 couvre g8 — donc {{Nxg8}} est le seul coup. La dernière case de fuite est bouchée par le propre cavalier noir, et {{Nf7#}} est un mat étouffé."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-08",
+  "fen": "8/8/3kp3/4P3/2K5/8/8/8 b - - 1 1",
+  "solution": [
+    "Kxe5"
+  ],
+  "rating": 1350,
+  "title": "Le pion de devant",
+  "setup": "Le roi blanc vient d'arriver en c4, et les deux pions e sont bloqués l'un contre l'autre.",
+  "hint": "Le roi blanc est à deux colonnes de la colonne e ; demandez-vous ce qui change si le blocus devant votre pion disparaît.",
+  "explanation": "## L'idée\n\n{{Kxe5}} transforme un pion mort en coureur, avec son propre roi déjà devant lui. Les Blancs ne peuvent pas tenir la colonne : {{Kd3}} {{Kf4}} {{Ke2}} {{Ke4}}, et les Noirs débordent jusqu'en bas. Trois des retraites de roi perdent aussitôt, et la quatrième ne fait que nulle."
+}

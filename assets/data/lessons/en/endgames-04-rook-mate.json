@@ -1,0 +1,50 @@
+{
+  "id": "rook-mate",
+  "title": "K + R vs K",
+  "summary": "The rook builds the wall; only the king can close the door",
+  "proof": "endgames-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "The File Nobody Crosses",
+      "text": "One rook, one file, and the game is already decided. While your rook holds g1 the black king can never cross the g-file, so its world is h7 and h8 — two squares, forever.\n\nThat cut is most of the work, and it is also the end of what a rook can do alone. Both checks on offer hand over g8, and both are worse than nothing: {{Rg8+}} {{Kxg8}} hands the rook over, and the other check lets the black king out onto that square instead.\n\nThe wall stays up. Something else has to come and close the door."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "One Tidy Move, Half a Point",
+      "text": "{{Rg7}} looks like the same idea one square better. It takes g8 and h7 together, your king on f6 defends it so it cannot be captured, and the black king is not in check.\n\nThat last part is the whole disaster. Not in check, and not one legal move anywhere on the board: stalemate, half a point, and your king still standing where it started.\n\n> A rook takes squares away all game. The last square is the one it must never take alone."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "prompt": "Your rook cannot take the squares beside a king, so bring up the piece that can.",
+      "targetSan": [
+        "Kf7"
+      ],
+      "hint": "Leave the wall exactly where it is and walk your other piece toward Black until the two kings face each other across one square."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "The Half a Rook Cannot Do",
+      "text": "Your king made the walk, Black had one legal reply, and the two kings now stand a single square apart on the seventh rank. That is the opposition again, earning its keep in squares rather than tempo: the white king on f7 covers g6, g7 and g8, the whole road back into the board.\n\nA rook checks along a line, and a king simply steps off the line. Something has to be waiting on the squares it steps to. Your king is the only piece that can wait there without being taken. The rook never wins this ending by itself."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "Walking the Wall In",
+      "text": "None of this depends on the corner. From any position at all it is one loop, run until the board runs out.\n\nCut the bare king off with your rook, so there is a line it cannot cross. March your own king up until the two of them stand face to face across one square. Then, every time the bare king steps sideways along the wall, move the wall in one file behind it.\n\nThe box gets smaller on each pass and never gets bigger again, which is why this ending is technique rather than calculation."
+    },
+    {
+      "type": "play",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "prompt": "Black has two squares left and both sit on one line — take that whole line with your rook.",
+      "targetSan": [
+        "Rh1#"
+      ],
+      "hint": "Come from the far end, out of the black king's reach, so the check and the last free square arrive in the same move."
+    }
+  ]
+}

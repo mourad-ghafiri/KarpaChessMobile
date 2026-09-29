@@ -1,0 +1,14 @@
+{
+  "id": "skewer-10",
+  "fen": "8/4p3/1Qpk2qB/NP6/3p4/PP1Pb3/2n4K/8 w - - 0 1",
+  "solution": [
+    "Qxc6+",
+    "Ke5",
+    "Qxg6"
+  ],
+  "rating": 1240,
+  "title": "Rebut Pion, Menangkan Menteri",
+  "setup": "Raja hitam di d6 dan menteri di g6 berbagi baris keenam, dan sebuah pion hitam menempati c6.",
+  "hint": "Petak yang dibutuhkan menteri Anda di baris keenam sudah ditempati. Bisakah Anda mengambilnya, dan beranikah raja menangkap balik?",
+  "explanation": "## Ide\n\nMenteri Anda menginginkan baris keenam, dan pion di **c6** duduk di petak yang dibutuhkannya. {{Qxc6+}} mengambilnya dengan sekak, dan pion di **b5** menguasai c6 sehingga raja tak bisa menangkap. {{Ke5}} terpaksa, dan {{Qxg6}} memenangkan menteri."
+}

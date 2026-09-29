@@ -1,0 +1,13 @@
+{
+  "id": "openings-12",
+  "fen": "r3kbnr/pp1b1ppp/1qn1p3/3pP3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 2 8",
+  "solution": [
+    "Nxd4",
+    "Nxd4",
+    "Qxd4"
+  ],
+  "title": "La Base Cade",
+  "setup": "Una francese di avanzata: il Bianco ha messo l'alfiere in d3 e il cavallo in c3, e nessuno ha contato il pedone alla base della catena.",
+  "hint": "Contate attaccanti e difensori del pedone alla base del Bianco. L'alfiere in d3 sta davanti a uno dei difensori del Bianco.",
+  "explanation": "## L'idea\n\nLa base della catena del Bianco è d4. Il vostro cavallo in c6 e la vostra donna in b6 la attaccano, e la difende solo il cavallo in f3: l'alfiere in d3 blocca la strada alla donna bianca.\n\n{{Nxd4}} la prende, e dopo {{Nxd4}} {{Qxd4}} avete un pedone netto in più. Il solito trucco, uno scacco d'alfiere in b5 che scopre la donna bianca, qui fallisce perché il vostro alfiere in d7 copre b5 una volta che il cavallo ha lasciato c6.\n\nContate prima la base della catena."
+}

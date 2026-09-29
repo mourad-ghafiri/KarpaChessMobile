@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-03",
+  "fen": "7k/5ppp/8/1Pq1R3/N7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Qf8",
+    "Rxf8#"
+  ],
+  "rating": 1000,
+  "title": "Alihkan Penghalangnya",
+  "setup": "Raja Hitam bersembunyi di balik tiga pion di baris kedelapan sementara menterinya berkeliaran jauh di c5.",
+  "hint": "Sekak baris belakang yang tak punya jawaban dari raja. Satu buah hitam mana yang bisa menghalangi, dan di mana?",
+  "explanation": "## Ide\n\n{{Re8+}} menyerang baris belakang. Raja sama sekali tak punya petak — f7, g7 dan h7 adalah pionnya sendiri — jadi menteri harus menghalangi dengan {{Qf8}}. Itulah seluruh intinya: {{Rxf8#}} menyingkirkan penghalang dan memberi mat di petak yang sama."
+}

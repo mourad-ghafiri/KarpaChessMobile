@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-06",
+  "fen": "1k6/8/3P4/1K6/8/7R/3r4/8 w - - 0 1",
+  "solution": [
+    "Kc6"
+  ],
+  "rating": 1430,
+  "title": "Önce Eskort, Sonra Sürüş",
+  "setup": "Beyazın d piyonu yedinciye bir kare uzaklıkta ve siyahın kalesi d dikeyinde onun arkasında bekliyor.",
+  "hint": "Piyonun hiç koruyucusu yok. İki taşınızdan hangisi onun durmak istediği kareyi kapsayabilir?",
+  "explanation": "## Fikir\n\nHemen sürün, {{d7}} öylece {{Rxd7}} hamlesine askıda kalsın. {{Kc6}} önce d7'yi kapsar ve piyon ancak ondan sonra oynar: {{Rc2+}} {{Kd7}} gelir ve şah onu eve götürür. Önce eskortu getirin; piyon en son oynar."
+}

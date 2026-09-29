@@ -1,0 +1,14 @@
+{
+  "id": "overload-05",
+  "fen": "6k1/5ppp/1b6/5r2/7R/8/PP1R4/K2Q4 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Bxd8",
+    "Qxd8#"
+  ],
+  "rating": 1410,
+  "title": "Le fou est trop loin",
+  "setup": "Le fou noir en b6 surveille d8 le long de la diagonale pendant que la tour en f5 s'est éloignée de chez elle.",
+  "hint": "Un défenseur à longue portée doit quand même pouvoir revenir. Vérifiez si la case qu'il surveille est une case qu'il peut tenir.",
+  "explanation": "## L'idée\n\nLe fou protège d8 à distance, donc {{Rd8+}} coûte une tour et {{Bxd8}} est forcé. La diagonale est maintenant vide et {{Qxd8#}} prend la case. Protéger une case et pouvoir y survivre sont deux choses différentes."
+}

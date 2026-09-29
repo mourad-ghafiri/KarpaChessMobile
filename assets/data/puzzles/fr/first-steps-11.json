@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-11",
+  "fen": "k2rr3/8/8/8/8/6p1/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kf1"
+  ],
+  "title": "Une seule porte",
+  "setup": "La tour en e8 met votre roi en échec — et les autres pièces noires ont discrètement verrouillé la plupart des sorties.",
+  "hint": "La tour en d8 surveille la colonne d et le pion en g3 couvre f2. Que reste-t-il ?",
+  "explanation": "## L'idée\n\nVous êtes en échec par la tour en e8, sans rien pour vous interposer et sans rien qui puisse la prendre. Le roi doit bouger, mais où ?\n\n- d1 et d2 sont couvertes par la tour en d8\n- f2 est attaquée par le pion en g3\n- e2 est toujours sur la colonne e, toujours en échec\n- {{Kf1}} est la seule case qui reste\n\nUne porte sur cinq. Confrontez chaque case que le roi pourrait utiliser à chaque pièce adverse."
+}

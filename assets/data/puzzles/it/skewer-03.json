@@ -1,0 +1,14 @@
+{
+  "id": "skewer-03",
+  "fen": "8/7p/4k3/1Q1p4/B2P3b/2P4q/8/K7 w - - 0 1",
+  "solution": [
+    "Qd7+",
+    "Kf6",
+    "Qxh3"
+  ],
+  "rating": 980,
+  "title": "Linea di Tiro Diagonale",
+  "setup": "Il re nero in e6 e la donna nera in h3 stanno sulla stessa diagonale, ed è completamente vuota.",
+  "hint": "Cercate uno scacco che atterri sulla diagonale su cui la donna nera sta già. Che cosa difende quella casa?",
+  "explanation": "## L'idea\n\nLe case d7, e6, f5, g4 e h3 formano una diagonale, il re davanti e la donna in fondo. {{Qd7+}} ci entra, e l'alfiere in **a4** copre d7 nell'istante in cui la donna lascia b5, quindi il re non può prendere. {{Kf6}}, e poi {{Qxh3}}."
+}

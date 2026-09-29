@@ -1,0 +1,50 @@
+{
+  "id": "queen-vs-pawn",
+  "title": "Dama contra um Peão na Sétima",
+  "summary": "Não é uma corrida — é uma maneira de comprar jogadas",
+  "proof": "endgames-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "A Corrida Já Está Perdida",
+      "text": "O peão preto em d2 está a uma jogada de uma dama, e o rei branco em h6 não está nem de longe perto o suficiente para o travar.\n\nPerseguir também não ajuda. A dama em a8 não pode capturar o peão enquanto o rei preto de c2 estiver ao lado dele, e uma dama sozinha não força o mate. Para isso é preciso o rei branco, e ao rei branco falta tempo.\n\nPortanto é por isso que a dama está aqui a jogar. Não pelo peão. Pelo tempo."
+    },
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "Os Xeques São Moeda",
+      "text": "A um xeque tem de se responder. Enquanto as pretas respondem, as pretas não avançam, e a jogada que as pretas perdem é a jogada que o rei branco gasta a caminhar.\n\nPortanto os xeques têm um destino, e não é o peão. Empurra o rei preto para d1, a casa que o seu próprio peão está a tentar alcançar. Um rei estacionado ali é um bloqueio de estrada que o peão não pode contornar nem mandar mexer.\n\nDepois olha para o que resta às pretas: nenhum xeque a que responder, nenhuma jogada de peão, e um rei quase sem sítio onde estar. É nessa altura que o rei branco dá um passo em frente de graça."
+    },
+    {
+      "type": "play",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "prompt": "Não chegas ao peão a tempo, portanto começa antes a tirar jogadas ao rei.",
+      "targetSan": [
+        "Qe4+"
+      ],
+      "hint": "Há cinco xeques disponíveis; escolhe o que também varre a coluna e, para o rei nunca poder escapar-se ao lado do seu peão por esse lado."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "title": "Conta as Respostas das Pretas",
+      "text": "O rei está agora em d1, mesmo na casa que o seu peão queria.\n\nConta o que resta. O peão em d2 não pode mexer; está-lhe à frente o seu próprio rei. A dama em e4 cobre e1, e2 e c2. Fica c1. As pretas têm exatamente uma jogada legal, e não é uma jogada de peão.\n\nO que torna a vez das brancas gratuita. Faz o rei andar, deixa as pretas ir de um lado para o outro, dá xeque outra vez e volta a pôr o rei à frente do peão. Cada ciclo custa uma jogada às pretas e ganha uma casa às brancas.\n\n> A dama não anda a perseguir o peão. Anda a comprar jogadas para o rei."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/K7/8/6Q1/8/7p/7k w - - 0 1",
+      "title": "Duas Colunas Que Aguentam",
+      "text": "O mecanismo ganha contra um peão central ou um peão de cavalo. Contra um peão de torre ou um peão de bispo pode encravar, e é assim.\n\nO peão preto em h2, o rei em h1, a dama branca em g4 a segurar g1 e g2: a mesma pega que ganhava na coluna d. Portanto gasta a jogada livre. {{Kb5}}, e é a vez das pretas sem xeque a que responder e sem uma jogada legal no tabuleiro. Afogamento, meio ponto.\n\nAo rei bloqueado tem de sobrar uma casa para onde rastejar. No canto não há nenhuma."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "prompt": "De volta à coluna d, o rei preto bloqueia o seu próprio peão e não tem nada de útil que fazer: guarda a jogada grátis.",
+      "targetSan": [
+        "Kg5"
+      ],
+      "hint": "Cada jogada que guardas tem de encurtar a viagem, portanto escolhe a direção em que o teu rei tem mesmo de andar."
+    }
+  ]
+}

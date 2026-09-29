@@ -1,0 +1,65 @@
+{
+  "id": "space-advantage",
+  "title": "L'avantage d'espace",
+  "summary": "Plus de place pour vos pièces, moins pour les leurs",
+  "proof": "strategy-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "title": "Trois au-delà de la moitié",
+      "text": "Comptez les pions qui ont quitté leur case. Les Blancs en ont trois, en c4, d4 et e5. Les Noirs, un.\n\nCette différence a un nom. Un **avantage d'espace**, c'est la place derrière vos propres pions : des cases où vos pièces peuvent se tenir et que l'autre armée ne peut pas atteindre.\n\nRegardez la facture que paient les Noirs. Le cavalier a été chassé en b6, sept pièces sont encore sur la dernière rangée, et le seul pion qui a bougé est celui de d6.\n\nLes Blancs ont le trait, et il y a encore de la place à prendre."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "prompt": "Prenez une case de plus sur l'aile roi avec un pion, et ajoutez au passage un second défenseur à e5.",
+      "targetSan": [
+        "f4"
+      ],
+      "hint": "Un seul coup de pion donne un second défenseur au pion en e5 sans rien lâcher d'autre."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "De la place pour choisir",
+      "text": "L'espace n'est pas du matériel. Rien n'a été gagné ici, et le compte de points est parfaitement égal.\n\nCe qu'ont les Blancs, c'est le choix. Derrière quatre pions en c4, d4, e5 et f4, chaque pièce blanche a des itinéraires entre lesquels choisir, et le pion en e5 retire discrètement f6 aux cavaliers noirs.\n\nComparez avec le cavalier en b6. À moins de se sacrifier en c4, ses options sont {{Na4}}, le bord, {{Nd5}}, où le pion c blanc le prend simplement, et un retour en d7 qui bloque son propre fou. Voilà ce qu'est une position à l'étroit vue de l'intérieur : une courte liste, à chaque coup."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Quel camp échange",
+      "text": "Avec de l'espace, gardez les pièces. Votre armée a de la place pour manœuvrer et celle de l'adversaire non, donc chaque échange que vous permettez rend des cases.\n\nÀ l'étroit, faites le contraire. Échangez tout ce que vous pouvez atteindre : chaque pièce qui quitte l'échiquier donne plus de place aux survivantes, et le camp qui a le moins de cases est le premier à en manquer.\n\nLes Noirs ont le trait ici, et ce sont les Noirs qui sont à l'étroit. Le coup à chercher n'est donc pas un simple déplacement."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "prompt": "Vous êtes le camp à l'étroit : retirez un pion de l'échiquier et donnez de l'air à vos pièces.",
+      "targetSan": [
+        "dxe5"
+      ],
+      "hint": "Quelle prise dégage la colonne devant votre dame ?"
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn1p3/3PPb2/2P5/2N1BN2/PP4PP/R2QKB1R b KQk - 0 10",
+      "title": "Cinq coups plus tard",
+      "text": "Les Blancs ont de nouveau poussé et tiennent maintenant c4, d5 et e5. La réponse des Noirs est celle d'avant : frapper la pointe avancée, échanger des pièces.\n\n{{exd5}} {{cxd5}}, et le trio avancé n'est plus qu'une paire.\n\nRien n'a été gagné. Le compte de points n'a pas bougé et les Blancs possèdent toujours le centre. Mais deux pions ont quitté la route, et les pièces qui se tenaient derrière eux ont enfin un endroit où aller."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "title": "L'espace se loue",
+      "text": "Un pion venu en d5 ne peut pas revenir. Il doit être tenu là où il se trouve, et le cavalier en c3 et la dame en d1 sont les deux pièces qui le tiennent.\n\nC'est la fissure de tout grand centre. Le camp à l'étroit échange d'abord, puis pèse sur les pions qui l'ont serré, car chaque attaquant ajouté cloue une pièce adverse de plus à la défense au lieu de la laisser faire ce qu'elle veut.\n\n> Plus d'espace, moins d'échanges. Moins d'espace, échangez tout et pesez sur ce qui reste."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "prompt": "Ajoutez un troisième attaquant contre le pion d blanc, et sauvez du même coup le cavalier que ce pion attaque.",
+      "targetSan": [
+        "Nb4"
+      ],
+      "hint": "Votre dame et le cavalier en b6 touchent déjà d5. Quelle case permet au cavalier en c6 de s'échapper et de les rejoindre ?"
+    }
+  ]
+}

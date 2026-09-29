@@ -1,0 +1,14 @@
+{
+  "id": "promotion-02",
+  "fen": "1N6/1P2kppp/5n2/3r4/8/6P1/5PKP/8 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Kd7",
+    "b8=Q"
+  ],
+  "rating": 1040,
+  "title": "Move Your Own Piece",
+  "setup": "Your pawn on b7 is one square from a new queen, and the square is occupied by your own knight.",
+  "hint": "The knight has to leave, and Black must not be handed a free move to organize a blockade.",
+  "explanation": "## The Idea\n\nThe knight on b8 is standing in its own pawn's way. {{Nc6+}} steps aside with check, so there is no time for Black to cover b8; after {{Kd7}} the pawn walks in with {{b8=Q}}. Clear a queening square with tempo, never quietly."
+}

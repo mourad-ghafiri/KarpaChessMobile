@@ -1,0 +1,14 @@
+{
+  "id": "overload-01",
+  "fen": "2Q2rk1/4Rppp/8/8/8/8/PP2R3/K4b2 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Re8#"
+  ],
+  "rating": 1250,
+  "title": "Two Jobs, One Rook",
+  "setup": "Your queen eyes f8 and both rooks stack on the e-file, while Black's rook on f8 is doing all the defending by itself.",
+  "hint": "One black piece is covering two entry squares at once. Ask what happens if it is only allowed to cover one.",
+  "explanation": "## The Idea\n\nThe rook on f8 has two jobs: block the eighth rank and keep e8 out of reach. {{Qxf8+}} buys the first with a queen, {{Kxf8}} is forced, and now {{Re8#}} walks into the square it can no longer watch. A defender with two duties has none."
+}

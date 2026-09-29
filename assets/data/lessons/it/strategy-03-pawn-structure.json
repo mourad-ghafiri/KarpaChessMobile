@@ -1,0 +1,77 @@
+{
+  "id": "pawn-structure",
+  "title": "La Struttura Pedonale",
+  "summary": "Doppiati, isolati, arretrati — quanto costa ciascuno",
+  "proof": "strategy-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "title": "Due Pedoni, Una Colonna",
+      "text": "Due pedoni sulla stessa colonna non potranno mai difendersi a vicenda. Nessuno dei due può spostarsi di lato per coprire l'altro, e in due controllano una colonna dove due vicini ne controllerebbero due.\n\nGuardate qui l'ala di donna del Nero: pedoni in a6, b7, c7 e d7, ciascuno a coprire case che gli altri non coprono. Non c'è niente che non vada in nessuno di loro. Il Bianco sta per cambiare la cosa con una sola presa, e il cambiamento è permanente — un pedone si sposta di lato solo quando c'è qualcosa lì da prendere."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "prompt": "Forzate una ripresa che lasci due pedoni neri impilati su una colonna per il resto della partita.",
+      "hint": "Un solo pezzo nero è difeso da due pedoni diversi, e ognuno dei due atterrerebbe su una colonna già occupata.",
+      "targetSan": [
+        "Bxc6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 5",
+      "title": "Un Debito con un Orologio",
+      "text": "I pedoni c del Nero adesso sono impilati, e lo sono per il resto della partita. In cambio il Nero ha due alfieri e una colonna d semiaperta — un compenso vero, e un compenso con un orologio addosso. Gli alfieri hanno bisogno di posizioni aperte, e le posizioni aperte hanno bisogno di pezzi.\n\nQuindi il Bianco punta al finale. {{d4}} {{exd4}} {{Qxd4}} offre un cambio di donne scomodo da rifiutare, e ogni coppia che esce rende quegli alfieri più silenziosi e i pedoni impilati più rumorosi."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/8/3QP3/5N2/PPP2PPP/RNB1K2R b KQk - 0 6",
+      "title": "Contate le Ali",
+      "text": "Le donne escono con {{Qxd4}}, e quello che resta è un conto.\n\nIl Bianco ha quattro pedoni sull'ala di re contro tre. Spingeteli come si deve e uno passa: un pedone passato fatto di niente altro che una maggioranza.\n\nIl Nero ne ha quattro sull'ala di donna contro tre, e non ne faranno mai uno. Due di quei quattro sono impilati in c6 e c7, quindi tutto il gruppo si distende su tre colonne, e i tre pedoni del Bianco le coprono tutte e tre."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "Un Pedone Senza Vicini",
+      "text": "Seconda scacchiera, e un secondo tipo di debito. Il pedone nero in d5 non ha un pedone sulla colonna c né uno sulla colonna e, e non c'è modo di farne crescere uno — sono spariti tutti e due per sempre. Questo è un pedone **isolato**.\n\nIl primo costo è quello ovvio. Possono difenderlo solo i pezzi, e un pezzo legato a un pedone è un pezzo che fa un lavoro invece di tre.\n\nIl secondo costo è quello che decide le partite, e non è affatto il pedone. È la casa vuota davanti a lui."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "La Casa che Non Può Difendere",
+      "text": "Il pedone c e il pedone e del Nero sono gli unici pedoni che avrebbero mai potuto attaccare d4, e non esiste né l'uno né l'altro. Quindi d4 non è una casa per cui il Bianco debba combattere. È una casa in cui il Bianco entra e resta.\n\nNessun pedone può scacciarne un pezzo. Il Nero o convive con l'intruso o cede un pezzo per toglierlo, e ogni cambio dopo di quello lascia al pedone isolato meno difensori e lo stesso numero di attaccanti.\n\nTutti e due i cavalli bianchi arrivano a d4. Uno solo dovrebbe farlo."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "prompt": "Mettete un cavallo sulla casa che nessun pedone nero potrà mai attaccare, e mandate quello che non è già occupato.",
+      "hint": "Uno dei vostri cavalli difende e5 e g5 da dove sta, quindi muovere quello consegna quelle case.",
+      "targetSan": [
+        "Nbd4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Debole e Congelato",
+      "text": "Terza scacchiera, e il peggiore dei tre debiti. Il pedone nero in d6 ha un vicino in c5 che l'ha già superato e non ha proprio nessun pedone e, quindi nessun pedone lo difenderà mai più. I pedoni non camminano all'indietro, e questo non può camminare nemmeno in avanti: il pedone bianco in d5 gli sta sulla strada.\n\nIndifendibile e congelato: questo è un pedone **arretrato**. Un pedone isolato almeno può correre.\n\n> I pedoni doppiati vi costano un pedone passato, un pedone isolato vi costa la casa davanti a lui, e un pedone arretrato vi costa un pezzo che gli faccia da balia."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Mandate i Pezzi",
+      "text": "A ogni attaccante che il Bianco aggiunge bisogna rispondere, e le risposte costano al Nero più di quanto gli attaccanti costino al Bianco: un pezzo inchiodato a un pedone ha smesso di giocare a scacchi.\n\nE così i pezzi arrivano, e tutti e due si prendono il loro tempo. {{Nd2}} avvia un cavallo sulla lunga strada verso c4, e {{Na6}} manda quello del Nero verso c7. {{f3}} puntella e4, così il cavallo potrà lasciare d2 più avanti senza perdere quel pedone. {{Nc7}} arriva a difendere b5, {{a4}} toglie comunque b5, e {{b6}} è la risposta del Nero.\n\nTutti e due stanno discutendo di un pedone che non può muovere."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/p1n2pbp/1p1p1np1/2pP4/P3P3/2N2P2/1P1NB1PP/R1BQ1RK1 w - - 0 13",
+      "prompt": "Aggiungete un attaccante al pedone che il Nero non potrà mai difendere con un pedone.",
+      "hint": "Il cavallo in d2 ha tre case dove andare; solo una di esse tocca d6.",
+      "targetSan": [
+        "Nc4"
+      ]
+    }
+  ]
+}

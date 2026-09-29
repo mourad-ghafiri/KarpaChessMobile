@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-02",
+  "fen": "rnbqk2r/pppp1ppp/5n2/2b1p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4",
+  "solution": [
+    "Qxf7#"
+  ],
+  "rating": 630,
+  "title": "Deux attaquants, un gardien",
+  "setup": "Votre dame en h5 et votre fou en c4 fixent tous deux f7, la case que seul le roi noir défend.",
+  "hint": "Deux de vos pièces frappent déjà la même case. Comptez combien de défenseurs noirs elle a.",
+  "explanation": "## L'idée\n\nf7 n'est défendue que par le roi, et deux attaquants battent un défenseur. {{Qxf7#}} se pose à côté du roi, protégée par le fou en c4, donc elle ne peut pas être prise. e7 et f8 sont couvertes par la dame elle-même ; d7 et d8 sont bouchées par les Noirs."
+}

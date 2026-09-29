@@ -1,0 +1,14 @@
+{
+  "id": "remove-guard-11",
+  "fen": "1rn3k1/p4ppp/6q1/3N4/8/8/5PPP/2R2QK1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Rxc8",
+    "Ne7+"
+  ],
+  "rating": 1420,
+  "title": "Dégagez la case de fourchette",
+  "setup": "Votre cavalier adorerait e7, d'où il frappe à la fois le roi et la dame, mais le cavalier en c8 couvre cette case.",
+  "hint": "Trouvez la case d'où votre cavalier frapperait deux pièces, puis demandez-vous qui la protège.",
+  "explanation": "## L'idée\n\n{{Rxc8+}} prend la pièce qui couvre e7, et {{Rxc8}} reprend sur une case qui ne la couvre pas. {{Ne7+}} fait une fourchette sur le roi et la dame ; une fois le roi écarté, {{Nxg6}} gagne la dame contre une tour."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-18",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+  "solution": [
+    "dxe5"
+  ],
+  "title": "Abre el centro",
+  "setup": "Los dos bandos han avanzado sus peones de d y de e, y los cuatro se tocan ahora en el centro.",
+  "hint": "Cuando cuatro peones centrales se tocan, la primera captura decide quién se queda las líneas abiertas. ¿Cuál abre además una columna hacia la dama negra?",
+  "explanation": "## La idea\n\n{{dxe5}} se come el peón de e y abre la columna d. Si las Negras responden {{dxe4}}, entonces {{Qxd8+}} cambia damas con jaque, el rey negro tiene que recapturar y pierde el derecho a enrocar, y el peón de e4 queda separado de sus compañeros. {{exd5}} permite en cambio que {{Qxd5}} recapture con una dama en el centro.\n\nCuando los peones centrales se encuentran, come donde la columna que abres trabaje para ti."
+}

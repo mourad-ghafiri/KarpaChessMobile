@@ -1,0 +1,71 @@
+{
+  "id": "common-mistakes",
+  "title": "Partiler Nasıl Elden Verilir",
+  "summary": "Erken çıkan vezir, bedava olmayan piyon ve hiç bakmadığınız hamle",
+  "proof": "common-mistakes-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Elden Verildi",
+      "text": "İyi bir partinin geri verilme yollarını sayın, liste kısadır: fazla erken çıkan vezir, bedava görünen piyon, kimsenin okumadığı bir rakip hamlesi ve ortada bırakılmış bir şah.\n\nDört alışkanlık ve her biri, zaten elinizde olan üç soruyla yakalanır. Bundan sonrası, o sorular sorulmadığında tahtanın ne yaptığıdır."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Vezir Ortaya Çıkıyor",
+      "text": "{{e4}} {{e5}} {{Qh5}}. Vezir daha ikinci hamlede dışarıda, f7'ye dikilmiş — siyahın kampında yalnızca şahın koruduğu tek kare.\n\n{{Nc6}} bir atı çıkarır ve f7'yi kendi hâline bırakır; şahın koruduğu bir kareye tek saldıran tehdit değildir. {{Bc4}} bunu ikiye çıkarır ve artık sıradaki hamlede mat vardır. Siyahın bunu durdurmanın birden fazla yolu var; {{g6}} aynı zamanda veziri o çaprazdan kovalayanıdır.\n\n{{Qf3}} dikey boyunca f7'yi gösterir ve mat yeniden ortadadır. {{Nf6}} onu kapatır — siyahın zaten memnuniyetle oynayacağı bir hamle."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq - 2 5",
+      "title": "Hesap",
+      "text": "Hamleleri sayın. İki taraf da dört hamle harcadı. Siyahınkiler bir merkez piyonuna, iki ata ve zaten oynamaya değer olan g6 piyonuna gitti.\n\nBeyazınkiler bir merkez piyonuna, bir file ve tek hamlede varabileceği bir kareye ulaşmak için iki vezir hamlesine gitti — üstelik vezir orada g1'deki atın önünü kesiyor.\n\nBir taşı iki kez oynatmak suç değildir. Onu kurtarmak, bir şey almak, geri almak için yaparsınız. Bedavaya iki kez oynatmak asıl bedeldir ve her şeyin önünde giden bir vezir buna davetiye çıkarır: siyahın her taşı onu kovalayacak kadar ucuzdur."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+      "title": "Bedava Olmayan Piyon",
+      "text": "Beyaz geçen hamle bir fili ata değişti, siyah da c6'da d piyonuyla geri aldı. Artık c dikeyinde iki siyah piyon var — ve siyahın d8'deki veziri beş boş kareye bakıyor.\n\ne5'teki piyonu koruyan yok. Hiç yok: sayın. {{Nxe5}} onu kazanır ve atı geri alan hiçbir şey yoktur.\n\nTuzak budur ve sessiz bir tuzaktır. Beyaz burada kaybetmiş değil. Piyon basitçe geri gider, beyazın onu almak için harcadığı hamleler ise geri gelmez."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4N3/4P3/8/PPPP1PPP/RNBQK2R b KQkq - 0 5",
+      "prompt": "Beyaz piyonu hemen geri versin: hem açgözlü ata hem de e4 piyonuna birlikte vuran tek kareyi bulun.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "Veziriniz hiç oynamadı ve önündeki dikey neredeyse beyazın piyonlarına kadar boş."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Onun Hamlesinin Bir Sebebi Vardı",
+      "text": "Rakibinizin yaptığı her hamlenin bir sebebi vardır ve bu sebep pek ender ilan edilir.\n\n{{Ng5}}. Başıboş dolaşan bir taş gibi görünüyor. Oysa yalnızca siyahın şahının koruduğu f7 karesine ikinci bir saldırandır ve f6'daki at d8'deki vezirle g5 arasında durduğu için onu alabilecek bir şey yoktur.\n\nMakul bir şey oynayın — diyelim {{d6}} — ve {{Nxf7}} gelsin; aynı anda d8'deki vezire ve h8'deki kaleye vursun. Şah geri alamaz: c4'teki fil f7'yi koruyor."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 5 4",
+      "prompt": "Tehdide inmeden önce cevap verin: c4'teki filin f7 yolunu kapatın.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "Fil f7'ye iki boş kare üzerinden ulaşıyor. Piyonlarınızdan biri bunların yakın olanına adım atabilir."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "title": "Sıkıcı Hamle",
+      "text": "Benzer bir anda başka bir parti: siyahın fili c5'e gitmiş, f2'yi hedefliyor ve sıra beyazda. Buradaki bir hamle hiç heyecan verici değil ama bunların çoğunu baştan savar: rok.\n\nŞah ortadan çekilir, h1'deki kale merkeze doğru gelir ve f7'nin aynadaki eşi olan f2 nihayet ikinci bir koruyucuya kavuşur.\n\n“Onuncu hamleye kadar rok yap” bir kural değil, bir alışkanlıktır — merkez kapalı kaldığı sürece şah ortada oturabilir. Ama satın alacağınız en ucuz güvenliktir ve yeni başlayanlar onu en sona bırakır.\n\n> Artık satrancın bütün kurallarını biliyorsunuz. Geriye fark etmek kaldı."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "prompt": "Tahtadaki en güvenli hamleyi yapın: şahı ortadan çıkarın ve kaleyi oyuna sokun.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Şahınız açıkta duruyor, oysa bütün sorunu çözen bir hamle harcanmadan bekliyor."
+    }
+  ]
+}

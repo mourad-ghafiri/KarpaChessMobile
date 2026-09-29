@@ -1,0 +1,13 @@
+{
+  "id": "xray-proof",
+  "fen": "6k1/pq3pp1/1p5p/4b3/4r3/5N1Q/PPP2PPP/4RK2 w - - 0 1",
+  "solution": [
+    "Nxe5",
+    "Rxe5",
+    "Rxe5"
+  ],
+  "title": "Difeso Attraverso la Torre",
+  "setup": "L'alfiere in e5 ha un difensore, la torre davanti a sé, e quella torre sta sulla colonna della vostra torre.",
+  "hint": "Contate che cosa difende una casa dopo che la torre nera ha lasciato e4, non prima.",
+  "explanation": "## L'idea\n\n{{Nxe5}} mette il vostro cavallo dove la torre di e4 può prenderlo, ed è proprio questo il punto. La vostra torre in e1 difende e5 attraverso la torre nera: nel momento in cui cattura, apre la colonna dietro di sé, e la vostra torre riprende. Quindi il Nero in realtà non può affatto riprendere. Il meglio che ha è cambiare le torri in e1 e restare un pezzo sotto."
+}

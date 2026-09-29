@@ -1,0 +1,14 @@
+{
+  "id": "fork-01",
+  "fen": "3r3k/pp4pp/8/4N3/8/8/PP3PPP/6K1 w - - 1 2",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 700,
+  "title": "Sekak dan Ambil",
+  "setup": "Raja hitam bersembunyi di h8 dan benteng duduk di d8, keduanya satu lompatan kuda dari petak yang sama.",
+  "hint": "Temukan petak tempat kuda Anda menyentuh raja dan benteng pada langkah yang sama.",
+  "explanation": "## Ide\n\n{{Nf7+}} menyerang h8 dan d8 sekaligus. Sekak itu tak bisa diabaikan: tak ada yang bisa menangkap di f7, dan sekak kuda tak pernah bisa dihalangi, jadi {{Kg8}} satu-satunya langkah sah Hitam. Lalu {{Nxd8}} mengambil benteng."
+}

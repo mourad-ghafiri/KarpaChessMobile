@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-04",
+  "fen": "8/2B5/8/8/1p5Q/k7/2K5/8 w - - 0 1",
+  "solution": [
+    "Qc4",
+    "Ka4",
+    "Qa6#"
+  ],
+  "rating": 1500,
+  "title": "Give the King One Square",
+  "setup": "Black's king is on a3 with a single pawn on b4, and your king on c2 is already doing half the work.",
+  "hint": "Your king covers more than it looks. Work out which square Black would go to and be there first.",
+  "explanation": "## The Idea\n\n{{Qc4}} is not check, but it takes b3 and b4 while your king holds b2. Only {{Ka4}} keeps the king off your edge — {{b3+}} runs into {{Qxb3#}}, and {{Qa6#}} lands. A king on the edge with one square left is already mated — it just does not know yet."
+}

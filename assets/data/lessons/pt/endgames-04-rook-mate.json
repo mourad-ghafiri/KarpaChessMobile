@@ -1,0 +1,50 @@
+{
+  "id": "rook-mate",
+  "title": "Rei e Torre contra Rei",
+  "summary": "A torre constrói a parede; só o rei pode fechar a porta",
+  "proof": "endgames-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "A Coluna Que Ninguém Atravessa",
+      "text": "Uma torre, uma coluna, e a partida já está decidida. Enquanto a tua torre segurar g1 o rei preto nunca poderá atravessar a coluna g, portanto o mundo dele é h7 e h8 — duas casas, para sempre.\n\nEsse corte é quase todo o trabalho, e é também o fim do que uma torre consegue fazer sozinha. Os dois xeques disponíveis entregam g8, e os dois são pior do que nada: {{Rg8+}} {{Kxg8}} entrega a torre, e o outro xeque deixa antes sair o rei preto para essa mesma casa.\n\nA parede fica de pé. Tem de vir outra coisa fechar a porta."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "Uma Jogada Arrumada, Meio Ponto",
+      "text": "{{Rg7}} parece a mesma ideia uma casa melhor. Tira g8 e h7 ao mesmo tempo, o teu rei em f6 defende-a portanto não pode ser capturada, e o rei preto não está em xeque.\n\nEssa última parte é o desastre inteiro. Sem xeque, e sem uma única jogada legal em todo o tabuleiro: afogamento, meio ponto, e o teu rei ainda onde tinha começado.\n\n> Uma torre passa a partida a tirar casas. A última casa é a que nunca deve tirar sozinha."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "prompt": "A tua torre não pode tirar as casas ao lado de um rei: traz a peça que pode.",
+      "targetSan": [
+        "Kf7"
+      ],
+      "hint": "Deixa a parede exatamente onde está e leva a outra peça na direção das pretas até os dois reis se fitarem através de uma casa."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "A Metade Que Uma Torre Não Faz",
+      "text": "O teu rei fez a caminhada, as pretas tiveram uma resposta legal, e os dois reis estão agora a uma casa de distância na sétima linha. É outra vez a oposição, a ganhar o seu sustento em casas e não em tempos: o rei branco em f7 cobre g6, g7 e g8, a estrada inteira de regresso ao tabuleiro.\n\nUma torre dá xeque ao longo de uma linha, e um rei sai simplesmente da linha. Tem de estar alguma coisa à espera nas casas para onde ele sai. O teu rei é a única peça que pode esperar ali sem ser capturada. A torre nunca ganha este final sozinha."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "Trazer a Parede para Dentro",
+      "text": "Nada disto depende do canto. A partir de qualquer posição é um só ciclo, repetido até o tabuleiro se esgotar.\n\nCorta o rei nu com a tua torre, para haver uma linha que ele não possa atravessar. Marcha com o teu rei até os dois ficarem cara a cara através de uma casa. Depois, sempre que o rei nu der um passo de lado ao longo da parede, mete a parede uma coluna para dentro atrás dele.\n\nA caixa encolhe a cada volta e nunca mais volta a crescer, e é por isso que este final é técnica e não cálculo."
+    },
+    {
+      "type": "play",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "prompt": "Às pretas restam duas casas e as duas estão numa linha — toma essa linha inteira com a tua torre.",
+      "targetSan": [
+        "Rh1#"
+      ],
+      "hint": "Vem do extremo mais afastado, fora do alcance do rei preto, para que o xeque e a última casa livre cheguem na mesma jogada."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "outposts",
+  "title": "Outposts",
+  "summary": "Squares no enemy pawn can touch",
+  "proof": "strategy-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "The Square Nobody Can Guard",
+      "text": "Count the black pawns that will ever attack d5. The c-pawn was traded off moves ago. The pawn on d6 and the pawn on e5 both point away from it, and no pawn walks backward.\n\nNone. Not this move, not in twenty moves, not ever.\n\nA square in enemy territory that no enemy pawn can ever attack is an **outpost**. The word gets softened into \"a nice square\", which loses the only part that matters: *cannot*. A hole like this does not close."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "What It Costs to Evict",
+      "text": "Pawns are what chase pieces away. A pawn steps forward, the piece must move, and the pawn has spent almost nothing to say so.\n\nOn d5 there is no such pawn, and there never will be. Black can only clear that square by giving up a real piece for it — a bishop, say, for a knight, which is a bargain nobody offers by choice.\n\nThat is why the knight is the piece you send. A knight is slow and short of range, so a permanent address deep in enemy ground is worth more to it than to any other piece."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "prompt": "Post a knight where no black pawn can ever attack it again.",
+      "targetSan": [
+        "Nd5"
+      ],
+      "hint": "Two white knights are on the board, and only one of them touches d5."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/3Np3/4P3/1N2B3/PPP1BPPP/R2Q1RK1 b - - 7 10",
+      "title": "The Bill Arrives",
+      "text": "The knight stands on d5 and nothing cheap can shoo it away. Every black pawn that might have covered the square is gone or facing the wrong way.\n\nSo Black pays. {{Bxd5}} hands a bishop over for a knight, and after {{exd5}} a white pawn holds the square instead, taking c6 and e6 away from every black piece.\n\nThe other option is to leave the knight where it is and play the rest of the game around it. Neither line is pleasant, and that is the profit: both of Black's choices got worse."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "Make Your Own",
+      "text": "Nobody hands you a hole twice. Black's pawns here are healthier — a7, b7, c6, d5, e6, f7, g7, h7, with nothing traded and nothing stranded.\n\nLook at the fifth rank anyway. The pawn on d5 has already walked past the squares beside it, and the pawn on e6 covers d5 and f5 and nothing else.\n\nThat leaves one square in the middle of Black's half that only the f-pawn could ever challenge."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "The Pawn That Will Not Push",
+      "text": "Black's f-pawn is the only guard that square has left, and it is not coming. The knight on f6 is standing in its way, and once the knight moves, pushing the pawn strips the cover from the king on g8.\n\nA square your opponent cannot afford to challenge is as good as one they cannot reach.\n\nOne thing more. White's pawn on d4 already covers the square, so a knight that lands there lands defended — Black cannot chase it and cannot win it, only buy it with a piece.\n\n> Their pawns cannot afford to challenge it, your pawn guards it, and your knight lives there."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "prompt": "Plant a knight on the square Black's pawns have given up and your own pawn already guards.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "Your d-pawn guards two squares — one of them is in the middle of Black's camp."
+    }
+  ]
+}

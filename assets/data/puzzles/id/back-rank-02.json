@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-02",
+  "fen": "5rk1/5ppp/8/8/8/8/4RPPP/4Q1K1 w - - 0 1",
+  "solution": [
+    "Re8",
+    "Rxe8",
+    "Qxe8#"
+  ],
+  "title": "Singkirkan Pembelanya",
+  "setup": "Benteng di f8 satu-satunya buah yang menjauhkan buah-buah berat Anda dari baris belakang.",
+  "hint": "Benteng dan menteri Anda sama-sama memandang ke bawah lajur terbuka. Apa yang terjadi jika penjaga tunggal itu dipaksa menukar dirinya?",
+  "explanation": "## Ide\n\nRaja Hitam bertahan hanya karena benteng di f8 menguasai baris kedelapan. {{Re8}} menawarkan benteng Anda di satu-satunya petak yang harus diawasi penjaga itu.\n\nJika {{Rxe8}}, maka {{Qxe8#}}: penjaganya hilang, dan pion di f7, g7 dan h7 menutup setiap petak pelarian. Hitam lebih baik menolak dengan langkah pion yang memberi raja ruang bernapas, tetapi itu hanya menukar benteng sesudah {{Rxf8+}} {{Kxf8}}, dan menteri Anda masih di papan melawan ketiadaan."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-06",
+  "fen": "6rk/5ppp/4R3/8/bR5Q/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh4#"
+  ],
+  "rating": 1450,
+  "title": "h Dikeyini Açın",
+  "setup": "Siyahın şahı üç piyonun arkasında h8'de oturuyor, kaleniz b4'te bekliyor ve veziriniz h7'ye çoktan bakıyor.",
+  "hint": "Şah yalnızca önündeki dikey kapalı kaldığı sürece güvende. Onu açmanın neye mal olacağını hesaplayın.",
+  "explanation": "## Fikir\n\nh7'deki piyon tek örtüdür ve onu yalnızca şah korur. {{Qxh7+}} {{Kxh7}} hamlesini zorlar ve kale {{Rh4#}} için karşıya savrulur. Geri almak zorunda olan şah, tam da açmak üzere olduğunuz dikeye adım atmış olur."
+}

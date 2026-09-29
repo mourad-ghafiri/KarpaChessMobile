@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-17",
+  "fen": "2B1k3/8/4K3/8/8/8/8/7Q w - - 0 1",
+  "solution": [
+    "Qh8#"
+  ],
+  "title": "Barisnya yang Bekerja",
+  "setup": "Raja Anda di e6 berdiri dua petak di depan raja Hitam, dan menteri Anda jauh di sudut.",
+  "hint": "Raja Anda sudah menguasai setiap petak di baris ketujuh yang bisa dipakai raja hitam. Temukan sekak di baris kedelapan.",
+  "explanation": "## Ide\n\n{{Qh8#}} memberi sekak di sepanjang baris belakang. Raja Anda di e6 menguasai d7, e7 dan f7, dan d8 serta f8 sama-sama berada di garis menteri. Tak ada yang bisa menghalangi antara h8 dan e8.\n\nGajah di c8 hanya ikut menguasai d7: raja dan menteri Andalah yang bekerja. Raja yang berada dua petak di depan raja lawan hanya menyisakan satu baris untuk direbut menteri."
+}

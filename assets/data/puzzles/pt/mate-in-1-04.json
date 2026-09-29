@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-04",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Corredor Aberto Até ao Rei",
+  "setup": "A coluna d está vazia desde a tua torre até à oitava linha, e os peões pretos não deixaram janela nenhuma ao rei.",
+  "hint": "Desliza a torre para a linha de fundo aberta — os peões de f7, g7 e h7 fazem o resto.",
+  "explanation": "## A Ideia\n\nUm **mate da linha de fundo** clássico. A coluna d é uma autoestrada limpa e o rei preto sufoca atrás dos próprios peões.\n\n{{Rd8#}}: a torre cobre f8 e a oitava linha inteira, f7, g7 e h7 têm os peões das próprias pretas, e nada se pode meter entre d8 e g8. Quando a tua torre e o rei inimigo partilham uma linha de fundo aberta, conta primeiro as casas de fuga."
+}

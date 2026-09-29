@@ -1,0 +1,51 @@
+{
+  "id": "queen-mate",
+  "title": "Raja & Menteri Melawan Raja",
+  "summary": "Mat di tepi, dan pat yang merampasnya",
+  "proof": "endgames-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Tempat Raja Sendirian Tumbang",
+      "text": "Menteri tak pernah memberi mat kepada raja sendirian di tengah papan. Di sana raja selalu punya tempat untuk lari. Ia kehabisan petak hanya di tepi, dan raja Hitam sudah berdiri di salah satunya.\n\nHitung apa yang tersisa. Raja putih di f5 merebut g5 dan g6. Menteri di d4 menguasai diagonal yang melewati e5 dan f6 sampai g7, jadi petak itu juga hilang.\n\nHitam punya h5 dan h7. Dua petak di lajur h, keduanya menempel dinding, dan tak ada yang lain di seluruh papan."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Tiga Tugas, Berurutan",
+      "text": "Gambar itu adalah tujuan dari posisi mana pun, dan ia dibangun dalam tiga bagian.\n\nMenteri merebut garis-garis sampai raja sendirian berjalan di lorong sempit di sepanjang tepi. Raja Anda sendiri lalu berjalan mendekat di belakangnya, karena menteri tak bisa menuntaskannya sendirian — menteri yang berdiri di samping raja tanpa ada yang menjaganya akan langsung diambil. Baru setelah itu menteri menuntaskan, di garis yang tak bisa ditinggalkan raja.\n\nDua dari tiga sudah selesai di sini. {{Kh5}}, dan Hitam telah memilih ujung dinding yang mana untuk bersandar."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/5K1k/3Q4/8/8/8 w - - 9 6",
+      "prompt": "Raja Anda sudah menguasai petak-petak pelarian, jadi tuntaskan dengan satu langkah menteri yang tak bisa dijawab Hitam.",
+      "targetSan": [
+        "Qh8#"
+      ],
+      "hint": "Raja Hitam terdesak ke sisi papan — temukan garis tempat ia berdiri dan rebut seluruhnya."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "Remis yang Bersembunyi di Kandang",
+      "text": "Papan baru, satu langkah lagi selesai. Raja Hitam di h8 tinggal punya satu petak, g8: raja Anda di g6 sudah menguasai g7 dan h7, dan Hitam tidak dalam sekak.\n\nJadi menyempitkan kandang satu tingkat lagi membuang kemenangan. {{Qd5}} tampak seperti teknik yang rapi — menteri merebut g8 lewat diagonal, setiap petak di sekitar raja dikuasai, tak ada yang tak terlindungi.\n\nItu pat. Hitam tak punya langkah sah dan tak ada sekak yang harus dijawab, dan partai dengan menteri tambahan di papan berakhir remis."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "Hitung Sebelum Menyempitkan",
+      "text": "Tak ada yang aneh-aneh yang salah dalam akhir permainan ini. Yang salah adalah permainan yang terlalu rapi — satu petak lagi direbut, diam-diam, dari raja yang hanya punya satu petak.\n\nJadi sebelum setiap langkah menteri di sini, hitung petak yang bisa ditempati raja sendirian itu. Jika jawabannya satu, langkah Anda harus datang dengan sekak, atau harus menyisakan tempat bagi raja itu untuk pergi.\n\n> Kandang tanpa pintu adalah remis. Sempitkan sesuka Anda, tetapi jangan sampai habis tanpa sekak."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "prompt": "Mat dalam satu — dua langkah menteri yang berbeda melakukannya, dan setiap penyempitan lain berakhir remis.",
+      "targetSan": [
+        "Qa8#",
+        "Qd8#"
+      ],
+      "hint": "Langkah menteri mana yang merebut g8 dan memberi sekak pada langkah yang sama?"
+    }
+  ]
+}

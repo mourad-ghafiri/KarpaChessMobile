@@ -1,0 +1,14 @@
+{
+  "id": "fork-09",
+  "fen": "3rr1k1/5ppp/8/8/3n4/8/5PPP/2Q2RK1 b - - 1 1",
+  "solution": [
+    "Ne2+",
+    "Kh1",
+    "Nxc1"
+  ],
+  "rating": 990,
+  "title": "La fourchette royale",
+  "setup": "Les Blancs viennent de jouer leur tour en f1, laissant leur roi et leur dame à un saut de cavalier l'un de l'autre.",
+  "hint": "Le roi et la dame blancs se tiennent sur deux cases qu'une même case de cavalier touche. Trouvez-la, puis vérifiez qu'elle est sûre.",
+  "explanation": "## L'idée\n\n{{Ne2+}} frappe g1 et c1 dans le même coup, et rien ne couvre e2 : la tour en f1 et la dame en c1 regardent toutes deux au-delà. {{Kh1}} est la seule case qui reste, et {{Nxc1}} prend la dame. Un roi et une dame à un saut de cavalier l'un de l'autre, c'est la fourchette à vérifier en premier."
+}

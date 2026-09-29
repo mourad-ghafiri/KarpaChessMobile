@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-05",
+  "fen": "2r3k1/1q3ppp/8/8/8/8/2R2PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Rxc8#"
+  ],
+  "rating": 850,
+  "title": "Trade Into Mate",
+  "setup": "Both sides have rooks on the c-file, and Black's rook on c8 is defended by its queen alone.",
+  "hint": "Count attackers and defenders on the back-rank square, and remember the king cannot help.",
+  "explanation": "## The Idea\n\n{{Rxc8+}} forces {{Qxc8}} — the king has no square and the queen cannot block from b7 — and the second rook finishes with {{Rxc8#}}. One defender cannot hold a square that two rooks attack."
+}

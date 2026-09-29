@@ -1,0 +1,11 @@
+{
+  "id": "strategy-02",
+  "fen": "rn1q1rk1/4bppp/p2pbn2/4p3/Pp2P3/1NN1B3/1PPQBPPP/R4RK1 w - - 0 12",
+  "solution": [
+    "Nd5"
+  ],
+  "title": "Cacciato Dentro il Buco",
+  "setup": "Il pedone nero in b4 ha appena colpito il vostro cavallo in c3. Il cavallo deve andare da qualche parte, e il vostro pedone in e4 sta a guardare.",
+  "hint": "Ogni ritirata lascia e4 al cavallo di f6. C'è una casa in avanti che nessun pedone nero potrà mai raggiungere?",
+  "explanation": "## L'idea\n\nIl cavallo è stato scacciato, e risponde entrando. Il Nero non ha un pedone c e il pedone e è arrivato in e5, quindi nessun pedone nero potrà mai più attaccare d5.\n\n{{Nd5}} colpisce l'alfiere in e7 e il cavallo in f6, e tiene e4 al sicuro. Ogni ritirata consegna quel pedone al cavallo di f6.\n\nIl Nero può togliere il cavallo solo dandogli in cambio un pezzo, e allora la casa se la prende un pedone bianco."
+}

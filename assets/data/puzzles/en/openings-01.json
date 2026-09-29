@@ -1,0 +1,13 @@
+{
+  "id": "openings-01",
+  "fen": "rnb1kbnr/pppp1ppp/8/4p3/2B1q3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 5",
+  "solution": [
+    "Bxf7+",
+    "Kxf7",
+    "Ng5+"
+  ],
+  "title": "The Queen Pays the Rent",
+  "setup": "Black's queen has spent the opening chasing pawns and has just taken one in the center. Find the sacrifice that sets up a knight fork.",
+  "hint": "A knight jump to g5 would hit f7 and e4 at once. What would it take to make the black king stand on f7?",
+  "explanation": "## The Idea\n\nThe black queen has spent the opening grabbing pawns while White castled and developed, and the bill falls due now.\n\n{{Bxf7+}} gives up the bishop to drag the king forward. If {{Kxf7}}, then {{Ng5+}} forks the king on f7 and the queen on e4, and the queen is lost.\n\nDeclining with {{Kd8}} keeps the queen but leaves the black king stranded in the middle, and White is winning anyway.\n\nA queen that hunts pawns in the opening ends up hunted itself."
+}

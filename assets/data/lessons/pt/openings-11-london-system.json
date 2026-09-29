@@ -1,0 +1,52 @@
+{
+  "id": "london-system",
+  "title": "O Sistema Londres",
+  "summary": "Um esquema contra quase tudo, e a casa à volta da qual é construído",
+  "proof": "openings-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "Primeiro o Bispo, Depois o Peão",
+      "text": "Duas jogadas, e a segunda leva o sistema inteiro.\n\nAs brancas estão a construir uma paredinha em c3, d4 e e3: barata de aprender, incómoda de partir. O problema é o peão e. Assim que se instala em e3, fecha a porta ao bispo das casas escuras, que passa depois a partida sentado atrás dos seus próprios peões.\n\nPor isso o bispo sai primeiro. Já está fora da parede, em f4, e o peão vem depois. Contra quase tudo o que as pretas escolham, a ordem aguenta-se — primeiro o bispo, depois e3."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "O Peão Que Ninguém Vigia",
+      "text": "Deixar a linha de fundo cedo custa exatamente uma coisa, e as pretas vão logo atrás dela. Com o bispo fora, o peão em b2 não é defendido por ninguém.\n\n{{c5}} atinge a base da parede. {{e3}} constrói-a à mesma, {{Nc6}} acrescenta um segundo atacante a d4, {{c3}} escora-a, e {{Qb6}} aterra na coluna b, onde o peão de b2 está solto. Há dois peões brancos a receber perguntas ao mesmo tempo.\n\nEssa incursão é a primeira pergunta a sério a que a Londres tem de responder, e todos os jogadores de Londres a encontram nas primeiras dez partidas."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pp2pppp/1qn5/2pp4/3P1B2/2P1P3/PP3PPP/RN1QKBNR w KQkq - 1 5",
+      "prompt": "Cobre o peão solto de b2 sem gastares nisso uma jogada de peão.",
+      "targetSan": [
+        "Qc1",
+        "Qc2",
+        "Qb3"
+      ],
+      "hint": "Aqui não é preciso jogada de peão nenhuma. A tua dama pode guardar b2 a partir de mais do que uma casa; escolhe uma que deixe d2 e e2 livres para o cavalo e o bispo."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Para Onde Aponta Tudo",
+      "text": "Seis jogadas tranquilas depois o esquema está acabado, e tem o aspeto de sempre: peões em c3, d4 e e3, um bispo em f4, outro em d3, cavalos em f3 e d2. A dama preta está em b6 sem mais nada para morder.\n\nAgora segue a diagonal clara. O bispo em d3 vê e4, f5, g6, e depois h7, a uma casa do rei preto, sem nada no caminho. {{Qc2}} traz a dama para trás dele.\n\nDois atacantes sobre h7. O rei preto cobre-a, e o cavalo de f6 também. Dois contra dois, e isso ainda não é um ataque."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Uma Casa Onde Nenhum Peão Chega",
+      "text": "O terceiro atacante precisa de uma casa que ninguém lhe possa tirar. Pergunta então o que é que os peões pretos ainda podem fazer.\n\nO peão em d5 não pode andar para trás. O peão em e6 cobre d5 e f5. O peão em c5 cobre b4 e d4. Entre eles deixam um buraco no centro, e o teu peão de d4 já o guarda.\n\nSó o peão de f7 poderia alguma vez vir disputá-lo — e esse peão é o telhado de um rei rocado.\n\n> Uma peça está segura onde um peão nunca poderá ir."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "prompt": "Instala um cavalo no buraco central que só o peão f das pretas poderia alguma vez disputar.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "Só uma peça preta toca nessa casa, o cavalo de c6, e o único peão que lhe poderia juntar-se serve de abrigo ao rei preto."
+    }
+  ]
+}

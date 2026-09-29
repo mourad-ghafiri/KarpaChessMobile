@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-24",
+  "fen": "6k1/5ppp/8/2n1n3/8/3P4/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "d4"
+  ],
+  "title": "One Pawn, Two Knights",
+  "setup": "Both black knights are attacking your pawn on d3, and only the rook on d1 guards it. The pawn has a better idea than waiting.",
+  "hint": "A pawn attacks the two squares diagonally ahead of it. Where would this one have to stand to attack c5 and e5?",
+  "explanation": "## The Idea\n\n{{d4}} puts the pawn between the knights, attacking c5 and e5 at once. Neither knight can take it, because a knight on c5 or e5 never touches d4, and the rook on d1 guards it anyway.\n\nBlack saves one knight and the pawn takes the other: one point of pawn for three points of knight. Any other move lets both knights live."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "deflection-07",
+  "fen": "3r2k1/ppq3pp/b6Q/6N1/8/8/1B3PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Qxg7#"
+  ],
+  "rating": 1340,
+  "title": "Le gardien quitte la septième",
+  "setup": "Votre dame et votre fou visent g7, mais la dame noire en c7 couvre cette case le long de la septième rangée.",
+  "hint": "Deux de vos pièces attaquent g7 et deux des leurs la défendent. Quel défenseur peut recevoir une tâche ailleurs ?",
+  "explanation": "## L'idée\n\n{{Rxd8+}} force {{Qxd8}}, et depuis d8 la dame ne voit plus g7. {{Qxg7#}} mate, le fou en b2 maintenant la dame en place. Comptez les défenseurs d'une case de mat, puis retirez-en un. Les cases de mat sont gardées par des pièces, et on peut donner d'autres tâches aux pièces."
+}

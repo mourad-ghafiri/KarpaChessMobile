@@ -1,0 +1,105 @@
+name: karpachess
+description: "KarpaChess — learn chess with lessons, puzzles, practice and an offline coach."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Material/Cupertino strings (text-selection menu, tooltips, screen-reader
+  # labels) in the app's 12 languages.
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dartchess: ^0.13.1
+  # Vendored WITHOUT its assets: the hosted package bundles 40 piece sets,
+  # some licensed for non-commercial use only. See
+  # packages/chessground/NOTICE.md. Never switch back to the hosted package.
+  chessground:
+    path: packages/chessground
+  flutter_riverpod: ^2.6.1
+  shared_preferences: ^2.5.5
+  path_provider: ^2.1.6
+  audioplayers: ^6.8.1
+  confetti: ^0.8.0
+  file_picker: ^12.0.0
+  image_picker: ^1.2.3
+  collection: ^1.19.1
+  # First-party Stockfish integration (see packages/karpa_engine/README.md).
+  karpa_engine:
+    path: packages/karpa_engine
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/licenses/
+    # The app's own piece sets (tool/gen_pieces.py); 2.0x/3.0x/4.0x variants
+    # are picked up beside each file.
+    - assets/pieces/classic/
+    - assets/pieces/wood/
+    - assets/pieces/marble/
+    - assets/pieces/diagram/
+    - assets/pieces/modern/
+    - assets/pieces/deco/
+    - assets/pieces/facet/
+    - assets/pieces/silhouette/
+    - assets/pieces/soft/
+    - assets/pieces/bold/
+    - assets/audio/wood/
+    - assets/audio/plastic/
+    - assets/audio/soft/
+    - assets/data/games/
+    - assets/data/i18n/
+    - assets/data/lessons/
+    - assets/data/lessons/en/
+    - assets/data/lessons/ar/
+    - assets/data/lessons/id/
+    - assets/data/lessons/fr/
+    - assets/data/lessons/es/
+    - assets/data/lessons/zh/
+    - assets/data/lessons/ru/
+    - assets/data/lessons/ja/
+    - assets/data/lessons/hi/
+    - assets/data/lessons/tr/
+    - assets/data/lessons/it/
+    - assets/data/lessons/pt/
+    - assets/data/puzzles/
+    - assets/data/puzzles/en/
+    - assets/data/puzzles/ar/
+    - assets/data/puzzles/id/
+    - assets/data/puzzles/fr/
+    - assets/data/puzzles/es/
+    - assets/data/puzzles/zh/
+    - assets/data/puzzles/ru/
+    - assets/data/puzzles/ja/
+    - assets/data/puzzles/hi/
+    - assets/data/puzzles/tr/
+    - assets/data/puzzles/it/
+    - assets/data/puzzles/pt/
+
+  fonts:
+    - family: Fraunces
+      fonts:
+        - asset: assets/fonts/Fraunces.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter.ttf
+    - family: JetBrainsMono
+      fonts:
+        - asset: assets/fonts/JetBrainsMono.ttf
+

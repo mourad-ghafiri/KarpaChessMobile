@@ -1,0 +1,14 @@
+{
+  "id": "deflection-12",
+  "fen": "2kr3r/pp3ppp/2n5/8/Q1B2B1q/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "rating": 1500,
+  "title": "Os Bispos de Boden",
+  "setup": "Dois bispos cortam a ala da dama, e o peão de b7 é tudo o que mantém a diagonal de a6 a c8 fechada.",
+  "hint": "Os dois bispos já apontam a esse canto. Que peão está no caminho, e como o fazes mexer?",
+  "explanation": "## A Ideia\n\nEste é o **mate de Boden**. {{Qxc6+}} tem uma só resposta, {{bxc6}}, e o peão de b7 sai da diagonal de a6 a c8. {{Ba6#}} chega: o outro bispo cobre b8 e c7, e a própria torre das pretas tapa d8."
+}

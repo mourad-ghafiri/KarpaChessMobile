@@ -1,0 +1,71 @@
+{
+  "id": "the-skewer",
+  "title": "The Skewer",
+  "summary": "The pin's geometry with the values the other way around, and the piece behind pays",
+  "proof": "forks-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Values Reversed",
+      "text": "Same file, same rook, same two black pieces as the pin — and the values are the other way around.\n\nA pin attacks the piece in front, but the prize is behind it: the more valuable piece, often the king. That is what holds the front piece to the line.\n\nA skewer swaps them. The king on d3 stands in front and the queen on d6 behind. Attack down the file, the king steps aside, and it cannot take the queen with it.\n\nHit the bigger piece first and collect what it was standing in front of. That is a **skewer**."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "The Same Three Pieces",
+      "text": "Three pieces can skewer, and they are the three that can pin: queen, rook, bishop. A skewer is a line, and only those three attack along one.\n\nWhat can be skewered is a different list. Any two enemy pieces on one line will do, as long as the nearer one is worth more — king in front of a queen, queen in front of a rook, rook in front of a bishop. The board decides that, not you. Your job is to find the line and get onto it."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Two Checks",
+      "text": "You have two checks here, and only one of them is a skewer.\n\n{{Ra3+}} lands on the third rank and checks the king from the side. It also lands on a square the queen can reach: {{Qxa3}}, and a rook is gone for nothing.\n\nA check is not what makes a skewer work. The line does. What matters is which line the check arrives on — the one with both black pieces standing on it."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "prompt": "Attack the black king along the file it shares with the queen, so that it has to move.",
+      "targetSan": [
+        "Rd1+"
+      ],
+      "hint": "Both black pieces stand on the d-file, and every square between them and your first rank is empty."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "Six Squares, All the Same",
+      "text": "The check left Black six legal moves, and every one of them was a king move: nothing could block on an empty file, and nothing could reach the rook. Black chose e3. The other five give the queen away just as cheaply.\n\nNotice how little the rook did. Until now it had not attacked the queen once — it attacked the king, and the king took itself out of the way. The line was already there. All the rook had to do was step onto it."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "Check Is Not Required",
+      "text": "A skewer does not need a check. Aim a bishop at a queen with a rook behind it on the same diagonal, from a square nothing can take, and the rook falls all the same.\n\nWhat check removes is the choices. Without it your opponent can block the line between the two, take the piece doing the skewering, or abandon the front piece and start a bigger threat elsewhere. Against a check, none of that is legal unless it answers the check as well."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "prompt": "Take the queen the king was standing in front of.",
+      "targetSan": [
+        "Rxd6"
+      ],
+      "hint": "Count the defenders of d6, then count the empty squares between it and your rook."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "title": "A Line Is a Line",
+      "text": "New board, and the same shape turned forty-five degrees.\n\nBlack's king on d4 and rook on g7 stand on the long diagonal running from a1 to h8, with only e5 and f6 between them. The bigger piece is the nearer one. That is the whole pattern: two enemy pieces on one line, the valuable one in front.\n\nYour bishop on c1 travels on diagonals. Find the one that matters.\n\n> One line, two pieces, and which tactic you are holding depends only on which of them is standing in front."
+    },
+    {
+      "type": "play",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "prompt": "Get your bishop onto the diagonal the two black pieces share, with check.",
+      "targetSan": [
+        "Bb2+"
+      ],
+      "hint": "Your bishop has seven squares available; exactly one of them lands on the long diagonal."
+    }
+  ]
+}

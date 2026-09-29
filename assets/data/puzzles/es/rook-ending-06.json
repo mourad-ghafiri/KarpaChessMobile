@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-06",
+  "fen": "1k6/8/3P4/1K6/8/7R/3r4/8 w - - 0 1",
+  "solution": [
+    "Kc6"
+  ],
+  "rating": 1430,
+  "title": "Escolta y luego avanza",
+  "setup": "El peón de d blanco está a una casilla de la séptima, con la torre negra esperando detrás en la columna d.",
+  "hint": "El peón no tiene ningún defensor. ¿Cuál de tus dos piezas puede cubrir la casilla en la que quiere ponerse?",
+  "explanation": "## La idea\n\nSi avanzas de inmediato, {{d7}} simplemente cae ante {{Rxd7}}. {{Kc6}} cubre primero d7, y solo entonces se mueve el peón: {{Rc2+}} {{Kd7}}, y el rey lo guía hasta casa. Trae primero la escolta; el peón se mueve el último."
+}

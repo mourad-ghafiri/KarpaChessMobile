@@ -1,0 +1,50 @@
+{
+  "id": "zwischenzug",
+  "title": "La jugada intermedia",
+  "summary": "Recaptura después, amenaza primero",
+  "proof": "zwischenzug-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "El caballo que nadie defiende",
+      "text": "El caballo blanco ha caído en d5, con un peón de más, y nada en absoluto lo defiende.\n\nCapturarlo debería ser gratis. No lo es: el alfil de g5 clava el caballo de f6 contra la dama de d8, así que en cuanto ese caballo se aparte, el alfil saltará a d8 y se llevará una dama por un caballo.\n\nEsa es toda la idea de las Blancas, y las Blancas la han calculado exactamente hasta ahí."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "Cuenta más allá de la recaptura",
+      "text": "Todo cambio tiene un ritmo que se aprende pronto. Yo capturo, tú capturas, y los dos miramos lo que queda en el tablero.\n\nUna **jugada intermedia** rompe ese ritmo. En lugar de recapturar cuando toca, juegas algo de lo que el rival tiene que ocuparse primero: un jaque, o una amenaza que vale más que la pieza colgada. Tu pieza sigue colgada después. Simplemente espera.\n\nAsí que antes de decidir que una captura pierde material, pregúntate qué seguirías amenazando cuando se disipe el humo."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "prompt": "Toma la pieza gratis aunque la respuesta gane tu dama: la cuenta no ha terminado.",
+      "targetSan": [
+        "Nxd5"
+      ],
+      "hint": "Antes de rechazar una captura, pregúntate qué jaques seguirían en el tablero después de la respuesta que temes."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "A las Blancas les basta una jugada libre",
+      "text": "La dama se ha ido, y el alfil de d8 que la capturó no tiene nada que lo defienda.\n\nNo des por hecho que está atrapado. Mira la diagonal que tiene delante: e7, f6, g5 y h4 están vacías. Dale a las Blancas una jugada tranquila y ese alfil sale a h4, con una dama por un caballo de ventaja, y la partida deja de ser una lucha.\n\nAsí que el alfil solo se puede cobrar mientras las Blancas estén demasiado ocupadas para salvarlo."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "La recaptura que pierde",
+      "text": "{{Kxd8}} es la jugada que parece debida, y tira la posición.\n\nCuéntalo: las Negras entregaron una dama y recuperaron un caballo y un alfil. Tres puntos de menos, y las Blancas siguen con el peón de más de antes.\n\nEsta misma posición paga ese alfil por completo. La única diferencia es lo que hacen las Negras antes de ir a por él.\n\n> Una pieza que es tuya no vale más por capturarla ahora. Pregúntate qué otra cosa podría estar haciendo la jugada."
+    },
+    {
+      "type": "play",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "prompt": "Encuentra el jaque que tiene a las Blancas demasiado ocupadas para rescatar el alfil, y vuelve a por él después.",
+      "targetSan": [
+        "Bb4+"
+      ],
+      "hint": "Aquí solo una pieza negra puede dar jaque, y no ha salido de su casilla inicial en toda la partida."
+    }
+  ]
+}

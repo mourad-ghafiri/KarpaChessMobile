@@ -1,0 +1,13 @@
+{
+  "id": "remove-defender-proof",
+  "fen": "6k1/5ppp/5n2/3n2B1/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Bxf6",
+    "gxf6",
+    "Rxd5"
+  ],
+  "title": "Take the Guard First",
+  "setup": "Your rook on d1 is already staring at the knight on d5, and the knight on f6 is the only thing guarding it.",
+  "hint": "Taking on d5 straight away trades a rook for a knight. Count what is guarding d5 before you count what is attacking it.",
+  "explanation": "## The Idea\n\n{{Rxd5}} at once is answered by {{Nxd5}}: a rook for a knight. So change the count first. {{Bxf6}} takes the only guard of d5. After {{gxf6}} nothing looks after d5, and {{Rxd5}} collects the second knight. Taking back with the other knight is worse, because your rook then checks on d8 and the back rank does the rest. Leave the bishop alone, and it has won a knight for nothing."
+}

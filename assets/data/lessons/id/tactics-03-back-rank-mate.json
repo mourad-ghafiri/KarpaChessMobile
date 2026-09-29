@@ -1,0 +1,62 @@
+{
+  "id": "back-rank-mate",
+  "title": "Baris Belakang",
+  "summary": "Kelemahan yang sudah ada, menunggu sebuah benteng menyadarinya",
+  "proof": "tactics-mix-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Lima Petak, Satu Baris",
+      "text": "Tak ada yang menyerang raja Hitam, dan belum perlu ada. Jebakannya sudah terpasang.\n\nRaja di g8 punya lima petak di sekitarnya. Tiga di antaranya ditempati pionnya sendiri — f7, g7, h7 — perlindungan yang membuatnya selamat sepanjang partai. Dua lainnya adalah f8 dan h8, dan keduanya berada di baris kedelapan, baris yang sama tempat raja berdiri.\n\nJadi setiap petak yang bisa dipakai raja itu terletak di satu garis. Tempatkan benteng di garis itu dan daftarnya kosong."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Dua Pertanyaan",
+      "text": "Mat yang Anda lihat satu langkah sebelum terjadi adalah keberuntungan. Mat yang ini bisa Anda lihat datang dari jauh, karena ia dibangun dari dua pertanyaan dan keduanya bisa dijawab sekilas.\n\nBisakah raja lawan melangkah keluar dari baris belakangnya? Adakah yang menjaga baris itu?\n\nDi sini jawabannya tidak dan tidak, dan sepuluh langkah lalu pun jawabannya tidak. Yang tersisa hanyalah membawa benteng atau menteri ke baris kedelapan — dan tak ada apa pun di lajur c di atas benteng Anda di c1.\n\nAjukan kedua pertanyaan itu pada setiap langkah dan Anda tak lagi menemukannya secara kebetulan."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "prompt": "Tak satu pun petak yang tersisa bagi raja meninggalkan baris kedelapan, jadi rebut seluruh baris itu dalam satu langkah.",
+      "targetSan": [
+        "Rc8#"
+      ],
+      "hint": "Satu lajur di depan benteng Anda tak ditempati apa pun, dan lajur itu berakhir di baris yang Anda inginkan."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Benteng atau Menteri, Tak Ada yang Lain",
+      "text": "Bentengnya bukan intinya. Menteri mengakhirinya dengan cara yang sama, karena yang dibutuhkan mat ini adalah buah yang menguasai seluruh baris sekaligus, dan hanya kedua buah itu yang bisa.\n\nSatu pemeriksaan sebelum Anda mengirim salah satunya. Petak tempat Anda mendarat tak boleh bersebelahan dengan raja, kecuali ada buah Anda yang melindunginya. Mendarat di f8 atau h8 di sini dan Hitam sama sekali tidak dimat — raja mengambil buah itu dan melenggang keluar lewat lubang yang baru Anda buat.\n\nJaraklah yang membuat c8 aman."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Obatnya Seharga Satu Langkah",
+      "text": "Raja Anda sendiri di g1 berada dalam lima petak yang sama, dan Anda sudah tahu jawabannya: beri ia petak pelarian. {{h3}} melakukannya — h2 terbuka, dan benteng yang mendarat di baris pertama Anda berubah menjadi sekak yang bisa Anda jawab, bukan partai yang Anda kalahkan.\n\nLangkah itu tidak gratis. Ia tak menyerang apa pun dan tak melindungi apa pun, dan perlindungan raja kini maju satu pion lebih depan daripada sebelumnya.\n\nPion mana yang Anda pakai juga penting. Mendorong pion g sebagai gantinya melepaskan f3 dan h3 serta membuka diagonal panjang menuju sudut Anda sendiri, jadi pion h biasanya petak yang lebih murah untuk dibeli."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "Masing-Masing Satu Penjaga",
+      "text": "Papan baru, dan kedua raja terkurung dalam bentuk yang kini Anda kenali. Masing-masing satu benteng, saling berhadapan di lajur d.\n\nHitung apa yang menjaga baris kedelapan Hitam: benteng di d8, dan tak ada yang lain. Hitung apa yang menjaga baris pertama Putih: benteng di d1, dan tak ada yang lain.\n\nItu bukan posisi yang seimbang. Itu dua posisi yang masing-masing tinggal satu buah lagi dari kekalahan, dan hanya satu pihak yang mendapat giliran."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "Pertukaran yang Bukan Pertukaran",
+      "text": "Buah yang sama, lajur yang sama, nilai yang sama. Menukar benteng di sini tampak seperti langkah paling membosankan di papan.\n\nNamun itu bukan pertukaran, karena pertukaran butuh sesuatu untuk menangkap balik. Raja Hitam tak bisa keluar dari balik tiga pion, dan pion tak bergerak mundur. Satu-satunya buah yang bisa menangkap balik di d8 adalah buah yang sedang ditangkap.\n\n> Sebelum Anda menukar benteng terakhir dari lajur terbuka, tanyakan apa yang dikerjakannya selain berdiri di sana."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "prompt": "Tangkap satu-satunya buah yang menjaga baris kedelapan Hitam, dan hitung apa yang tersisa untuk menangkap balik.",
+      "targetSan": [
+        "Rxd8#"
+      ],
+      "hint": "Sebelum menyebut sebuah penangkapan sebagai pertukaran, hitung buah hitam mana yang secara sah bisa mencapai petak itu."
+    }
+  ]
+}

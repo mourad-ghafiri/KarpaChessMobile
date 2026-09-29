@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-04",
+  "fen": "8/8/1P6/5r2/3K4/k7/8/3R4 b - - 0 1",
+  "solution": [
+    "Rb5"
+  ],
+  "rating": 1350,
+  "title": "Atrás do Peão",
+  "setup": "O peão b das brancas está a um passo da sétima, e o rei preto em a3 é demasiado lento para o apanhar.",
+  "hint": "O peão vai correr. Que casa mantém a tua torre a atacá-lo por mais longe que ele vá?",
+  "explanation": "## A Ideia\n\nUma torre atrás de um peão passado continua a atingi-lo a cada passo. {{Rb5}} {{b7}} {{Rxb7}}, e não resta nada para fazer dama. Ataca de lado com {{Rf6}} em vez disso, e as brancas jogam {{Rb1}}, apoiando o peão, e ele passa."
+}

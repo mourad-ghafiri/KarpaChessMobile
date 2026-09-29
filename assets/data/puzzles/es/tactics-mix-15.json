@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-15",
+  "fen": "8/4k3/8/3K4/8/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "title": "El rey delante del peón",
+  "setup": "Tu rey se ha adelantado a su peón, y el rey negro espera en e7. La próxima jugada de rey decide la partida.",
+  "hint": "Avanzar el peón desperdicia el trabajo del rey. Pon tu rey donde el rey negro tenga que ceder el paso.",
+  "explanation": "## La idea\n\n{{Ke5}} se pone delante del peón y toma la oposición: los reyes se miran con una casilla entre ellos, y las Negras tienen que mover. Vaya adonde vaya el rey negro, el tuyo pasa de largo, por ejemplo {{Kd7}} {{Kf6}}, y el peón lo sigue. Avanza primero el peón con {{e4}}, o ve a cualquier otro sitio, y son las Negras las que toman la oposición: tablas.\n\nEn un final de rey y peón, el rey abre la marcha y el peón lo sigue."
+}

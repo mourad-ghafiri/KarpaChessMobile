@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-08",
+  "fen": "7k/8/7K/7Q/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Qe8#"
+  ],
+  "title": "Aperto na Diagonal",
+  "setup": "O teu rei e a tua dama estão empilhados na coluna h, e o rei preto está preso no canto. O mate chega de lado.",
+  "hint": "Uma jogada de dama tentadora tira todas as casas sem dar xeque, o que é afogamento. Dá xeque de onde o teu rei continua a cobrir g7.",
+  "explanation": "## A Ideia\n\nA aparentemente natural {{Qg6}} é afogamento: sem xeque, e sem jogada legal para as pretas, portanto meio ponto desapareceu. {{Qe8#}} dá xeque pela linha de fundo. g8 está na linha da dama, o teu rei de h6 cobre g7 e h7, e nada pode comer a dama nem tapar.\n\nCom uma dama contra um rei nu, garante que a tua jogada dá xeque antes de tirares a última casa."
+}

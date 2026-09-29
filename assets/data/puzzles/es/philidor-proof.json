@@ -1,0 +1,11 @@
+{
+  "id": "philidor-proof",
+  "fen": "3k4/5R2/8/r1PK4/8/8/8/8 b - - 0 1",
+  "solution": [
+    "Ra6"
+  ],
+  "title": "Cierra la sexta",
+  "setup": "El rey blanco de d5 está a un paso de la sexta fila, y desde ahí aparta a tu rey de la casilla de coronación. Juegan las Negras, y son tablas.",
+  "hint": "El rey blanco necesita una de tres casillas de la sexta fila. Una torre en una fila cubre todas sus casillas.",
+  "explanation": "## La idea\n\nEl rey blanco necesita c6, d6 o e6, y una sola jugada de torre se lleva las tres: {{Ra6}}. Una torre en una fila es una valla, y un rey no puede pisar una casilla que ella cubre.\n\nCualquier otra jugada deja que el rey entre en la sexta fila, y con la torre de f7 manteniendo a tu rey en la última fila, el peón llega a coronar. Si las Blancas llegan a avanzar a c6, la valla ha cumplido: lleva la torre al otro extremo y da jaque desde atrás."
+}

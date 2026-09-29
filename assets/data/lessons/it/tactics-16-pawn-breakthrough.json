@@ -1,0 +1,74 @@
+{
+  "id": "pawn-breakthrough",
+  "title": "Lo Sfondamento di Pedoni",
+  "summary": "Regalate due pedoni, promuovete il terzo",
+  "proof": "pawn-breakthrough-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Tre Contro Tre",
+      "text": "Sei pedoni stanno su due schiere e non uno può muovere senza essere preso. Il Bianco ha a5, b5 e c5; il Nero ha a7, b7 e c7. Tutti e due i re sono parcheggiati dall'altra parte della scacchiera, troppo lenti per contare.\n\nChi arriva per primo all'ottava traversa vince la partita senz'altro, e in questo momento non ci arriva nessuno. Ogni spinta finisce dentro una presa, e i pedoni non tornano indietro.\n\nMuove il Bianco, e il Bianco sta vincendo."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "I Pedoni si Girano Solo per Prendere",
+      "text": "{{a6}} sembra un progresso finché non risponde {{bxa6}}. Un pedone regalato per niente, e il Nero ha ancora tre pedoni contro due del Bianco.\n\nLa ragione è la forma della mossa. Un pedone va dritto avanti e prende di sbieco, quindi niente di quello che fate davanti a un pedone nero lo toglierà mai dalla sua colonna. Una guardia lascia la colonna che difende solo prendendo qualcosa sulla colonna accanto.\n\nIl vostro re potrebbe attraversare e vincere lentamente. I pedoni possono chiuderla adesso, se mettete qualcosa su quella colonna e siete disposti a perderlo."
+    },
+    {
+      "type": "play",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "prompt": "Offrite un pedone in mezzo alla schiera del Nero in modo che, comunque prenda, trascini una guardia di lato.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Solo una delle vostre tre spinte può ricevere due prese diverse in risposta, e tutte e due svuotano una colonna."
+    },
+    {
+      "type": "play",
+      "fen": "7k/1pp5/1p6/P1P5/8/8/8/6K1 w - - 0 3",
+      "prompt": "Spendete un secondo pedone per staccare l'ultima guardia dalla colonna che il vostro pedone a vuole.",
+      "targetSan": [
+        "c6"
+      ],
+      "hint": "Il pedone in b7 è l'unica cosa che sorveglia la strada del vostro pedone a: offritegli qualcosa sulla colonna accanto."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/2p5/1pp5/P7/8/8/8/6K1 w - - 0 4",
+      "title": "Due Pedoni per Una Strada",
+      "text": "Due pedoni spesi, e guardate che cosa hanno comprato. I tre pedoni che restano al Nero sono ammassati in b6, c6 e c7, e una volta che il vostro pedone arriva in a6 non uno di loro potrà mai più toccarlo.\n\n{{a6}} {{c5}} {{a7}} {{c4}} {{a8=Q}}. Il pedone più veloce del Nero è ancora sulla quarta traversa quando il vostro arriva, e il re nero in h8 non è mai stato della partita.\n\nNessuno dei due sacrifici cercava di sopravvivere. Ognuno chiedeva a un pedone nero di spostarsi sulla colonna accanto, e una guardia che si sposta smette di difendere."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "title": "Un Re in Fondo alla Diagonale",
+      "text": "Stessa idea, strada diversa, e questa finisce su un re. Il vostro alfiere in b2 guarda su per la grande diagonale, e la prima cosa che gli sta davanti è il pedone nero in g7.\n\n{{Bxg7}} toglierebbe il tappo a mano, ma dopo {{Kxg7}} avete pagato un alfiere per un pedone, ed è il re nero a stare sulla diagonale aperta.\n\nMeglio far andare via il pedone da solo. Un pedone lascia la sua colonna solo per prendere qualcosa."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "prompt": "Offrite un pedone al pedone di g7 in modo che la presa che vuole fare sia proprio quella che vi apre la diagonale.",
+      "targetSan": [
+        "f6"
+      ],
+      "hint": "Un pedone lascia la sua casa solo per catturare: mettete qualcosa su una casa che il pedone di g7 attacca."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2p1p/2np1p2/8/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 0 3",
+      "title": "Il Tappo È Fuori",
+      "text": "Il Nero ha preso, e il tappo è fuori: g7 è vuota e la grande diagonale corre fino all'angolo. Rifiutare non avrebbe salvato il Nero comunque, perché allora prende il vostro pedone proprio in g7.\n\n{{Bxf6}} riprende sulla grande diagonale, e da f6 l'alfiere copre tutte e due le case vuote accanto al re nero, g7 e h8. Il Nero è già perduto. {{Qd8}} è la risposta naturale, che attacca l'alfiere, ed entra dritta nel finale.\n\n> Chiedetevi che cosa aprirebbe un pedone se venisse catturato, non se si possa catturare senza rischi."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp3p1p/2np1B2/8/4P3/1P3N2/P2Q2PP/R4RK1 w - - 1 4",
+      "prompt": "Matto in una: date scacco al re nero lungo la colonna g mentre il vostro alfiere copre tutte e due le case di fuga.",
+      "targetSan": [
+        "Qg5#"
+      ],
+      "hint": "Il vostro alfiere sorveglia già g7 e h8, quindi il re non ha dove scappare e a voi basta arrivare con scacco."
+    }
+  ]
+}

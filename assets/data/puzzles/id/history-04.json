@@ -1,0 +1,13 @@
+{
+  "id": "history-04",
+  "fen": "8/r4pk1/6p1/7p/8/8/5PPP/3Q2K1 w - - 0 1",
+  "solution": [
+    "Qd4+",
+    "Kg8",
+    "Qxa7"
+  ],
+  "title": "Dua Diagonal Sekaligus",
+  "setup": "Benteng di a7 tak dijaga apa pun dan raja di g7 berada di tempat terbuka — dan satu petak melihat keduanya.",
+  "hint": "Serang benteng lewat lajurnya sendiri dan ia langsung menangkap Anda. Carilah petak tempat dua diagonal terpisah berangkat ke arah yang berlawanan.",
+  "explanation": "## Ide\n\nMenteri lama merayap satu petak diagonal setiap kali. Menteri baru berdiri di tempat dua garis panjang bersilangan.\n\n{{Qd4+}} memberi sekak kepada raja di g7 lewat satu diagonal dan menyerang benteng di a7 lewat diagonal yang lain. Benteng tak bisa membalas: d4 tidak berada di lajur maupun barisnya.\n\nApa pun yang dilakukan Hitam terhadap sekak itu, {{Kg8}} atau yang lain, tak menolong benteng, dan {{Qxa7}} mengambilnya.\n\nKejar benteng di lajur a sebagai gantinya dan ia akan mengambil menteri Anda."
+}

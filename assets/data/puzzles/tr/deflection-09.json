@@ -1,0 +1,14 @@
+{
+  "id": "deflection-09",
+  "fen": "4r1k1/pp1q2pp/6pQ/8/8/8/1B4PP/4RRK1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxg7#"
+  ],
+  "rating": 1410,
+  "title": "Yedinci Yataydan Uzağa",
+  "setup": "Vezir ile fil g7'ye çoktan nişan almış ve onu yatay boyunca yalnızca d7'deki vezir koruyor.",
+  "hint": "g7'nin saldıranlarını ve koruyucularını sayın, sonra koruyucuları bir eksilten şahı bulun.",
+  "explanation": "## Fikir\n\n{{Rxe8+}} şahtır ve {{Qxe8}} siyahın tek cevabıdır — bu da veziri yedinci yataydan çıkarır. {{Qxg7#}} gelir ve onu b2'deki fil yerinde tutar. Kale, saldıranların koruyuculardan bir fazla olması için harcanmıştır."
+}

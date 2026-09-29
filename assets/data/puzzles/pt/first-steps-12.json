@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-12",
+  "fen": "k6r/8/8/5p2/5p1K/8/P7/8 w - - 0 1",
+  "solution": [
+    "Kg5"
+  ],
+  "title": "Passo de Lado",
+  "setup": "A torre preta dá xeque ao teu rei pela **coluna h** aberta, enquanto dois peões pretos guardam as casas de fuga.",
+  "hint": "Lembra-te: os peões pretos atacam na diagonal *para baixo*. Que casas cobrem realmente f4 e f5?",
+  "explanation": "## A Ideia\n\nA torre em h8 é dona da coluna h inteira, portanto h3 e h5 estão fora. Os dois peões parecem selar também a coluna g, mas olha para o que atacam de facto: o peão de f4 cobre g3, o peão de f5 cobre g4, e nada cobre g5.\n\n{{Kg5}} arruma o rei ao lado dos peões pretos, seguro porque um peão nunca captura para trás.\n\nUm peão ataca exatamente duas casas, ambas à sua frente."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-03",
+  "fen": "4k3/8/8/8/3q4/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxd4"
+  ],
+  "title": "Free Queen, Take It",
+  "setup": "Two queens face off — but only one is defended.",
+  "hint": "Always look for hanging pieces. The simplest tactic is *take the free thing*.",
+  "explanation": "## The Idea\n\nThis is the most basic tactic of all: a loose piece. The black queen on d4 has no defender, and your queen on d1 attacks it down the d-file.\n\n{{Qxd4}} wins a queen for nothing. The king on e8 is too far away to take back, and no black piece guards d4.\n\nBefore every move, scan for enemy pieces nobody defends on the lines you control. John Nunn's rule says it best: loose pieces drop off."
+}

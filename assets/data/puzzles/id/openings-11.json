@@ -1,0 +1,15 @@
+{
+  "id": "openings-11",
+  "fen": "rnb2rk1/pp1nqppp/4p3/3pP3/3p1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 0 10",
+  "solution": [
+    "Bxh7+",
+    "Kxh7",
+    "Ng5+",
+    "Kg8",
+    "Qh5"
+  ],
+  "title": "Hadiah Yunani",
+  "setup": "Pertahanan Prancis yang menjadi tenang: pusat terkunci, Hitam sudah rokade, dan tak ada kuda hitam yang bisa mencapai f6 lagi. Bongkar perlindungan raja.",
+  "hint": "Gajah membidik h7, seekor kuda tinggal satu lompatan dari g5, dan menteri tinggal satu langkah dari h5. Hitung ketiganya, lalu lihat pion di e5.",
+  "explanation": "## Ide\n\n**Hadiah Yunani**. Pion di e5 menjauhkan setiap kuda hitam dari f6, satu-satunya syarat yang dibutuhkan pengorbanan ini.\n\n{{Bxh7+}} merobek perlindungannya, dan sesudah {{Kxh7}} datang {{Ng5+}}. Pertahanan Hitam yang paling tangguh adalah langsung menyerahkan menteri untuk kuda itu; mundur dengan {{Kg8}} membiarkan {{Qh5}} menyiapkan mat di h7, dan lalu hanya menyerahkan menteri yang masih bisa bertahan.\n\nSebelum memberi hadiah Yunani, periksa bahwa gajah mencapai h7, kuda mencapai g5, menteri mencapai h5, dan tak ada buah hitam yang bisa mencapai f6."
+}

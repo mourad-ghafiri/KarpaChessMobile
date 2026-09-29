@@ -1,0 +1,13 @@
+{
+  "id": "forks-07",
+  "fen": "3r3k/p5pp/8/4N3/8/8/P5PP/6K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "Una horquilla hacia la esquina",
+  "setup": "El rey negro está metido en la esquina de h8 detrás de sus propios peones, y la torre negra de d8 no tiene defensor.",
+  "hint": "Encuentra el jaque de caballo que además ataca a la torre. El rey solo tendrá una casilla a la que ir.",
+  "explanation": "## La idea\n\n{{Nf7+}} da jaque al rey de h8 y ataca a la torre de d8. Los peones de g7 y h7 le dejan al rey una sola casilla, y desde g8 no llega a d8. Tras {{Kg8}}, {{Nxd8}} captura la torre, y pasas de tener una calidad de menos a tener un caballo de más.\n\nUn rey encerrado por sus propios peones es el blanco más fácil para una horquilla."
+}

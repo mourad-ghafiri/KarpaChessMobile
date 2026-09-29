@@ -1,0 +1,13 @@
+{
+  "id": "culture-01",
+  "fen": "rnbqkbn1/ppppp3/7r/6pp/3P1p2/3BP1B1/PPP2PPP/RN1QK1NR w KQq - 2 7",
+  "solution": [
+    "Qxh5+",
+    "Rxh5",
+    "Bg6#"
+  ],
+  "title": "Urutan Pengerjaan",
+  "setup": "Hitam telah melemparkan tiga pion ke depan dan rajanya masih di rumah. Dua buah Anda menginginkan sudut yang sama.",
+  "hint": "Menteri dan gajah Anda masing-masing bisa mencapai diagonal yang berujung di raja hitam. Tanyakan mana yang bisa diambil benteng di h6.",
+  "explanation": "## Ide\n\nMenteri di d1 dan gajah di d3 sama-sama menginginkan diagonal menuju e8, dan hanya satu urutan yang berhasil.\n\n{{Qxh5+}} lebih dulu. Menghalangi dengan {{Rg6}} langsung kalah, dan sesudah {{Rxh5}} benteng telah meninggalkan baris keenam, jadi tak ada yang menjaga g6: {{Bg6#}}. Gajah menguasai f7, dan pion, menteri serta gajah milik raja sendiri mengisi sisanya.\n\nMulailah dengan gajah dan {{Bg6+}} dijawab dengan {{Rxg6}}. Aturan sentuh-langkah tak akan membiarkan Anda berubah pikiran."
+}

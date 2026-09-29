@@ -1,0 +1,14 @@
+{
+  "id": "overload-06",
+  "fen": "6rk/5ppp/4R3/8/bR5Q/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh4#"
+  ],
+  "rating": 1450,
+  "title": "Abre a Coluna h",
+  "setup": "O rei preto está em h8 atrás de três peões, a tua torre espera em b4, e a dama já olha para h7.",
+  "hint": "O rei só está seguro enquanto a coluna à frente dele estiver fechada. Descobre quanto custaria abri-la.",
+  "explanation": "## A Ideia\n\nO peão de h7 é a única cobertura, e é defendido apenas pelo rei. {{Qxh7+}} força {{Kxh7}}, e a torre atravessa para {{Rh4#}}. Um rei que tem de recapturar entra na coluna que estás prestes a abrir."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-08",
+  "fen": "3k4/3q4/3p4/3R4/3R4/8/8/3K4 w - - 0 1",
+  "solution": [
+    "Rxd6",
+    "Qxd6",
+    "Rxd6+"
+  ],
+  "title": "Come Primeiro o Peão Cravado",
+  "setup": "O peão, a dama e o rei pretos estão empilhados na coluna d, um atrás do outro, e as tuas duas torres olham por ela acima.",
+  "hint": "O peão não pode avançar. Conta o que acontece se começares pela frente da pilha.",
+  "explanation": "## A Ideia\n\nO peão de d6 tapa as tuas duas torres. {{Rxd6}} tira-o, e agora a dama de d7 fica cravada contra o rei atrás dela. {{Qxd6}} é a única maneira de as pretas evitarem perder a dama de graça, e {{Rxd6+}} come de volta com a segunda torre: uma torre por um peão e uma dama, deixando uma torre contra um rei nu.\n\nComeça pela frente de uma pilha só quando tens algo atrás para comer de volta."
+}

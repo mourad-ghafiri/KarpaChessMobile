@@ -1,0 +1,51 @@
+{
+  "id": "queen-mate",
+  "title": "King & Queen vs King",
+  "summary": "Mate on the edge, and the stalemate that steals it",
+  "proof": "endgames-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Where a Bare King Dies",
+      "text": "A queen never mates a lone king in the middle of the board. Out there the king always has somewhere to run. It runs out of squares only at an edge, and Black's king is already standing on one.\n\nCount what is left. The white king on f5 takes g5 and g6 away. The queen on d4 owns the diagonal through e5 and f6 to g7, so that square is gone too.\n\nBlack has h5 and h7. Two squares of the h-file, both against the wall, and nothing else on the whole board."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Three Jobs, in Order",
+      "text": "That picture is the destination from any position, and it is built in three parts.\n\nThe queen takes lines away until the bare king is walking a thin strip along an edge. Your own king then walks up behind it, because the queen cannot finish alone — a queen standing next to a king with nothing guarding it is simply taken. Only then does the queen deliver, on a line the king cannot step off.\n\nTwo of the three are already done here. {{Kh5}}, and Black has chosen which end of the wall to stand against."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/5K1k/3Q4/8/8/8 w - - 9 6",
+      "prompt": "Your king already covers the escape squares, so finish it with one queen move Black cannot answer.",
+      "targetSan": [
+        "Qh8#"
+      ],
+      "hint": "Black's king is pressed against the side of the board — find the line it stands on and take all of it."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "The Draw Hiding in the Cage",
+      "text": "New board, one move from over. Black's king on h8 has a single square left, g8: your king on g6 already covers g7 and h7, and Black is not in check.\n\nSo squeezing the cage one notch tighter throws the win away. {{Qd5}} looks like clean technique — the queen picks up g8 along the diagonal, every square around the king is covered, nothing is hanging.\n\nIt is stalemate. Black has no legal move and no check to answer, and a game with an extra queen on the board is drawn."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "Count Before You Squeeze",
+      "text": "Nothing exotic goes wrong in this ending. What goes wrong is tidy play — one more square taken, quietly, from a king that had one square.\n\nSo before every queen move here, count what the bare king can stand on. If the answer is one, your move has to arrive with check, or it has to leave that king somewhere to go.\n\n> A cage with no door is a draw. Shrink it as far as you like, never to nothing without check."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "prompt": "Mate in one — two different queen moves do it, and every other squeeze is a draw.",
+      "targetSan": [
+        "Qa8#",
+        "Qd8#"
+      ],
+      "hint": "Which queen moves take g8 away and give check in the very same move?"
+    }
+  ]
+}

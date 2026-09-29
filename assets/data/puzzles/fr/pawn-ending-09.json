@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-09",
+  "fen": "1k6/5ppp/8/5PPP/8/8/1K6/8 w - - 1 2",
+  "solution": [
+    "g6"
+  ],
+  "rating": 1390,
+  "title": "Trois contre trois",
+  "setup": "Six pions se font face sur l'aile roi pendant que les deux rois se trouvent à tout un échiquier de là.",
+  "hint": "Aucun roi ne peut arriver à temps, alors cherchez un coup de pion qui ouvre un couloir en donnant du matériel.",
+  "explanation": "## L'idée\n\n{{g6}} est le seul coup gagnant, et il donne un pion. {{hxg6}} {{f6}} {{gxf6}} {{h6}}, et le pion h ne peut pas être rattrapé ; si les Noirs prennent de l'autre côté, la même percée fonctionne avec le pion f. Les coups tranquilles font nulle, et plusieurs perdent sur la même idée."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-05",
+  "fen": "1k6/8/8/7r/8/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxh5"
+  ],
+  "title": "O Alcance da Dama",
+  "setup": "Uma torre preta está lá longe na coluna h, convencida de que está fora de perigo. A tua dama sabe que não.",
+  "hint": "A dama também anda como um bispo. Segue a diagonal a partir de d1 na direção da coluna h.",
+  "explanation": "## A Ideia\n\nDe d1 a diagonal da dama corre e2, f3, g4 e aterra em h5, onde está a torre preta sem nada a guardá-la.\n\n{{Qxh5}} atravessa meio tabuleiro numa jogada e come a torre. Veio por uma diagonal, e uma torre só vigia linhas retas.\n\nA dama é uma torre e um bispo num só. Quando caçares com ela, verifica os dois tipos de linha."
+}

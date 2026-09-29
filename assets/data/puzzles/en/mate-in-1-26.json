@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-26",
+  "fen": "3k4/3P4/3K4/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Belt and Suspenders",
+  "setup": "Your pawn on d7 stands right in front of Black's king, and your king on d6 guards it.",
+  "hint": "Sweep the rook to the eighth rank — your king and pawn already fence everything below it.",
+  "explanation": "## The Idea\n\nThe pawn on d7 is not giving check, but it works: it takes d7 away from the king and attacks c8 and e8 as well.\n\n{{Ra8#}} checks along the back rank. c8 and e8 are on the rook's line, your king on d6 covers c7 and e7, and it also guards the pawn, so the king cannot take it.\n\nEven a humble pawn can be the piece that closes a mating net."
+}

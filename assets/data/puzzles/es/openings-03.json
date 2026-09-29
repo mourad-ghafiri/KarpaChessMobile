@@ -1,0 +1,13 @@
+{
+  "id": "openings-03",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/2N2N1P/PP2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "Nxd4",
+    "Qh2#"
+  ],
+  "title": "La trampa siberiana",
+  "setup": "Las Negras aceptaron el peón ofrecido, pusieron la dama en c7 y saltaron con un caballo a g4; las Blancas acaban de jugar h3.",
+  "hint": "Tu dama y uno de tus caballos ya apuntan a la misma casilla junto al rey blanco. Pregúntate qué pieza blanca la sigue defendiendo.",
+  "explanation": "## La idea\n\nLa dama de c7 y el caballo de g4 atacan h2, y aparte del rey solo la defiende el caballo de f3.\n\n{{Nd4}} ataca a la dama de e2 y le ofrece un caballo a las Blancas. Comerse este es fatal: {{Nxd4}} elimina al último defensor de h2, y llega {{Qh2#}}, con el caballo de g4 defendiendo a la dama. Lo mejor para las Blancas es entregar la dama.\n\nAntes de perseguir una pieza, cuenta quién defiende la casilla que dejas a tu espalda."
+}

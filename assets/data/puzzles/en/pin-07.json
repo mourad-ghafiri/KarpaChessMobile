@@ -1,0 +1,12 @@
+{
+  "id": "pin-07",
+  "fen": "8/8/2k2pp1/bR5p/P1P1r3/1P6/4B1KP/8 w - - 0 1",
+  "solution": [
+    "Bf3"
+  ],
+  "rating": 1040,
+  "title": "One Step, One Rook",
+  "setup": "The black rook on e4 and the king on c6 sit on the same diagonal with a single empty square between.",
+  "hint": "Your bishop has one modest step that turns the black rook into a statue. Which diagonal reaches the king?",
+  "explanation": "## The Idea\n\n{{Bf3}} attacks the rook on **e4** and pins it to the king on **c6** in the same move, because the line f3–e4–d5–c6 is clear. The rook has no defender and is not allowed to run, so it drops next move."
+}

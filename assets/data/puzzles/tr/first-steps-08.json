@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-08",
+  "fen": "r3k3/rp4n1/3p4/5p2/3Q4/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "Qxg7"
+  ],
+  "title": "Kapmadan Önce Bakın",
+  "setup": "d4'teki veziriniz bir çaprazda siyahın kalesini, ötekinde bir atını görüyor. Dikkatli seçin.",
+  "hint": "Kale attan değerlidir — ama a7'deki kalenin arkasında ne duruyor?",
+  "explanation": "## Fikir\n\nAçgözlülük kaleyi al der. {{Qxa7}} beş puan kazanır; ta ki a8'deki kale geri alana ve dokuz puanlık vezir beş puanlık bir kale satın almış olana kadar.\n\nAsıl armağan at. {{Qxg7}} bedava bir taş alır: a7'deki kale cevap vermeye bayılırdı, ama yolunda kendi b7 piyonu duruyor ve tahtada g7'yi kapsayan başka hiçbir şey yok.\n\nEn değerli hedef en iyi hedef değildir. Korumasız olan en iyi hedeftir."
+}

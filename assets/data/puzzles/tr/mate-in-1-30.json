@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-30",
+  "fen": "7k/7p/5N1K/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Vezirle Atın Ağı",
+  "setup": "f6'daki atınız ile h6'daki şahınız siyahın şahını köşede kuşatmış ve h7'deki kendi piyonu son boşluğu dolduruyor.",
+  "hint": "At ile şah, şahın çevresindeki kareleri kapsıyor. Veziri arka yatay boyunca gönderin.",
+  "explanation": "## Fikir\n\nAt ile şah, şahı kutuya almış: f6'daki at g8'i, h6'daki şahınız g7'yi kapsıyor ve h7'de siyahın kendi piyonu duruyor.\n\n{{Qa8#}} uzak köşeden boş arka yatay boyunca şah çeker ve araya hiçbir şey giremez.\n\nKöşeye yakın bir at, vezirin tek hamlede ulaşamayacağı kareleri kapsar. Köşeye sıkışmış bir şahın yanında vezir, at ve şah varken bu ağı arayın."
+}

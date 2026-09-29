@@ -1,0 +1,14 @@
+{
+  "id": "fork-01",
+  "fen": "3r3k/pp4pp/8/4N3/8/8/PP3PPP/6K1 w - - 1 2",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 700,
+  "title": "Scacco e Incasso",
+  "setup": "Il re nero è al riparo in h8 e la torre siede in d8, tutti e due a un balzo di cavallo dalla stessa casa.",
+  "hint": "Trovate la casa da cui il vostro cavallo tocca il re e la torre nella stessa mossa.",
+  "explanation": "## L'idea\n\n{{Nf7+}} attacca h8 e d8 insieme. Lo scacco non è facoltativo: niente può catturare in f7, e uno scacco di cavallo non si può mai parare, quindi {{Kg8}} è l'unica mossa legale del Nero. Poi {{Nxd8}} raccoglie la torre."
+}

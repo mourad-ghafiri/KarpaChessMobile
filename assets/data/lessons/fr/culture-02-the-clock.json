@@ -1,0 +1,62 @@
+{
+  "id": "chess-clock",
+  "title": "La pendule",
+  "summary": "Deux cadrans, une ressource qu'on ne regagne jamais",
+  "proof": "culture-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "Le temps est le second échiquier",
+      "text": "Trois minutes chacun, et le fou blanc en c3 attaque votre dame en b2.\n\nUne pendule d'échecs, ce sont deux cadrans dans un même boîtier, et un seul tourne à la fois. Le vôtre tourne tant que la position est votre problème. Appuyez, et le vôtre s'arrête tandis que celui des Blancs démarre.\n\nChaque longue réflexion devient ainsi un achat. Vous achetez de la précision avec une ressource que rien ne renouvelle, et plus la partie est courte, plus le prix est élevé. Vous pouvez gagner tous les échanges sur l'échiquier et perdre quand même, car la partie se joue sur deux échiquiers et l'un d'eux compte à rebours."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "Une main, un bouton",
+      "text": "Les Règles sont précises au sujet de la main : on joue la pièce et on appuie sur le bouton avec la même. Cette seule règle met fin à toute une famille de ruses — pas de paume de réserve posée au-dessus de la pendule, pas d'appui qui arrive avant la pièce.\n\nUn coup est terminé quand la pièce est lâchée. Votre tour n'est terminé que lorsque le bouton est enfoncé, et chaque seconde entre les deux est à votre charge.\n\nL'appui fait donc partie du coup plutôt que de le suivre. Votre cadran tourne pendant que vous lisez ceci."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "prompt": "Votre dame est attaquée et la pendule tourne : sauvez-la en un coup sans la déplacer.",
+      "targetSan": [
+        "Bb4"
+      ],
+      "hint": "Tout ce qui prend en b2 doit d'abord quitter c3 — que pourriez-vous aligner à travers cette case pour rendre ce départ illégal ?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqP1PPPP/RN1QKB1R w KQkq - 2 7",
+      "title": "Une seconde contre trois",
+      "text": "Le fou en b4 ne défend rien. Il rend plutôt la prise illégale : prendre en b2 obligerait à quitter la diagonale qui protège le roi en e1.\n\nCette réponse vous a coûté environ une seconde, et elle coûte davantage aux Blancs. {{Qd2}} rachète la diagonale en s'y plaçant, et après une longue réflexion les Blancs n'ont fait que remettre votre dame sous attaque.\n\nDes coups bon marché pour vous, des coups chers pour votre adversaire. C'est le taux de change selon lequel paie la pendule."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Récupérer du temps",
+      "text": "Il y a deux façons dont une pendule rend du temps, et elles ne se comportent pas du tout pareil.\n\nL'**incrément** ajoute une durée fixe à chaque appui, et ce que vous ne dépensez pas s'accumule. Une partie `3+2`, c'est trois minutes plus deux secondes par coup, donc un joueur rapide peut finir avec plus de temps qu'au départ.\n\nLe **délai**, lui, attend. Chaque coup reçoit une pause fixe avant que votre temps principal commence à s'écouler, et la part de cette pause que vous n'utilisez pas disparaît purement et simplement.\n\n> L'incrément récompense les rapides. Le délai ne fait qu'abriter les lents."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Classique, rapide, blitz",
+      "text": "La FIDE classe les parties selon un seul nombre : le temps de base plus soixante fois l'incrément, soit à peu près ce que vous donnerait une partie de soixante coups.\n\nDix minutes ou moins, c'est le blitz. Au-delà et moins d'une heure, c'est la partie rapide. Soixante minutes et plus, c'est la cadence classique, où une partie peut durer six heures et un seul coup en engloutir quarante minutes.\n\nLe bullet — une minute ou deux pour toute la partie — est un mot du jeu en ligne. Il n'apparaît nulle part dans les Règles, ce qui n'a jamais empêché personne d'en jouer."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Quand le drapeau tombe",
+      "text": "Quatre secondes. L'expression vient de la mécanique : une pendule à aiguilles portait un petit drapeau de métal que l'aiguille des minutes soulevait puis laissait retomber, et l'on dit toujours que le temps est écoulé quand le drapeau tombe.\n\nPerdez la course et vous perdez la partie, à une exception près. Si le joueur qui a encore du temps ne pourrait pas mater avec ce qui lui reste — un roi seul, par exemple — le résultat est nul.\n\nÀ cette vitesse, l'œil saisit {{Qxa1}} et la main prudente échange par {{Qxc3}}. Ni l'un ni l'autre n'est le coup."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "prompt": "Avec deux secondes au cadran, laissez la tour et l'échange de dames, et prenez la pièce qui a attaqué votre dame.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "Si les Blancs reprennent avec la dame, votre propre dame a sur la première rangée un échec auquel aucune pièce blanche ne peut répondre."
+    }
+  ]
+}

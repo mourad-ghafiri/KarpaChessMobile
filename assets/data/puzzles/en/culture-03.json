@@ -1,0 +1,11 @@
+{
+  "id": "culture-03",
+  "fen": "r3k2r/ppp2ppp/3b4/3p4/4n3/1P2Pn1K/PBPPQ1P1/RN3R2 b kq - 1 13",
+  "solution": [
+    "Neg5+"
+  ],
+  "title": "Which Knight?",
+  "setup": "The white king has been dragged to h3, and both of your knights can jump to g5 with check. Only one of them wins.",
+  "hint": "The king has exactly one bolt-hole. Both knight jumps look identical, and only one of them keeps that hole covered.",
+  "explanation": "## The Idea\n\nThe knight on f3 covers h4, the one square the white king could run to, so the other knight goes.\n\n{{Neg5+}} leaves the king a single reply, {{Kg4}}, and {{h5+}} keeps driving it toward your pieces until it is mated a few moves later. Send the wrong one, {{Nfg5+}}, and the king slips out to {{Kh4}}.\n\nWhen two identical pieces can reach one square, the scoresheet names the file they came from. Here that letter separates a forced mate from a merely good position."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-04",
+  "fen": "8/8/1P6/5r2/3K4/k7/8/3R4 b - - 0 1",
+  "solution": [
+    "Rb5"
+  ],
+  "rating": 1350,
+  "title": "Piyonun Arkasında",
+  "setup": "Beyazın b piyonu yedinciye bir adım uzaklıkta ve a3'teki siyah şah onu yakalayamayacak kadar yavaş.",
+  "hint": "Piyon koşacak. Hangi kare, o ne kadar ilerlerse ilerlesin kalenizin ona saldırmayı sürdürmesini sağlar?",
+  "explanation": "## Fikir\n\nGeçer piyonun arkasındaki kale her adımda ona vurmayı sürdürür. {{Rb5}} {{b7}} {{Rxb7}} gelir ve vezir olacak bir şey kalmaz. Bunun yerine {{Rf6}} ile yandan saldırın, beyaz {{Rb1}} ile piyonunu destekleyip geçsin."
+}

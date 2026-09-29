@@ -1,0 +1,14 @@
+{
+  "id": "remove-guard-11",
+  "fen": "1rn3k1/p4ppp/6q1/3N4/8/8/5PPP/2R2QK1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Rxc8",
+    "Ne7+"
+  ],
+  "rating": 1420,
+  "title": "Despeja la casilla de la horquilla",
+  "setup": "A tu caballo le encantaría ir a e7, donde ataca al rey y a la dama a la vez, pero el caballo de c8 cubre esa casilla.",
+  "hint": "Encuentra la casilla desde la que tu caballo atacaría dos piezas, y luego pregúntate quién la defiende.",
+  "explanation": "## La idea\n\n{{Rxc8+}} se come la pieza que cubre e7, y {{Rxc8}} recaptura en una casilla que no la cubre. {{Ne7+}} da una horquilla al rey y a la dama; en cuanto el rey se aparta, {{Nxg6}} gana la dama por una torre."
+}

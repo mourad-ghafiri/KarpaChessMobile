@@ -1,0 +1,12 @@
+{
+  "id": "discovery-10",
+  "fen": "kr6/p1P3pp/8/3N1q2/8/8/PP5P/5RKB w - - 0 1",
+  "solution": [
+    "Nb6#"
+  ],
+  "rating": 1300,
+  "title": "Ignora a Dama",
+  "setup": "A tua torre olha para a dama preta e o teu peão de c7 olha para a torre, enquanto o rei preto espera no canto.",
+  "hint": "As duas capturas deixam as pretas vivas. Pergunta antes que casa daria xeque duas vezes ao rei encurralado.",
+  "explanation": "## A Ideia\n\nRxf5 ganha uma dama e cxb8=Q+ ganha uma torre, mas {{Nb6#}} acaba. O cavalo dá xeque de b6 e descobre o bispo de h1 pela grande diagonal. a7 e b8 têm as próprias peças das pretas, e b7 está coberta por esse bispo."
+}

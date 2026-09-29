@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-12",
+  "fen": "5rk1/5ppp/8/8/8/8/3Q1PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Qd8",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "title": "Deviare il Difensore",
+  "setup": "La torre in f8 difende la traversa di fondo, e la vostra donna e la vostra torre possiedono la colonna d aperta accanto. Deviate quella guardia.",
+  "hint": "La guardia sorveglia d8 di lato. Datele su quella casa qualcosa che non possa rifiutare.",
+  "explanation": "## L'idea\n\nLa torre in f8 difende tutta l'ottava traversa, d8 compresa. {{Qd8}} mette la donna su quella casa e sfida la torre a prenderla.\n\nSe {{Rxd8}}, allora {{Rxd8#}}: la guardia se n'è andata, e i pedoni in f7, g7 e h7 sigillano il re. Il Nero fa meglio a rifiutare con una mossa di pedone che dia aria al re, ma {{Qxf8+}} {{Kxf8}} lascia comunque la vostra torre contro un re nudo."
+}

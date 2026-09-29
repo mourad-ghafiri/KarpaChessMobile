@@ -1,0 +1,15 @@
+{
+  "id": "openings-09",
+  "fen": "rnbqkb1r/pppp1ppp/8/4P3/6n1/7P/PPPNPPP1/R1BQKBNR b KQkq - 0 4",
+  "solution": [
+    "Ne3",
+    "fxe3",
+    "Qh4+",
+    "g3",
+    "Qxg3#"
+  ],
+  "title": "The Knight You Must Not Take",
+  "setup": "White met your knight with a passive knight to d2, took the e5 pawn, and has just kicked your knight with h3.",
+  "hint": "Your knight is attacked. Look for the square where capturing it would tear the roof off White's own king.",
+  "explanation": "## The Idea\n\nWith the knight on d2 shutting in the bishop on c1, White's king has little cover on the dark squares.\n\n{{Ne3}} attacks the queen on d1 from a square White would love to take. Taking is the blunder: after {{fxe3}}, {{Qh4+}} leaves only {{g3}}, and {{Qxg3#}} covers f2 while White's own pieces fill the rest. White's best is to give up the queen instead.\n\nBefore you take a piece that walked in on purpose, ask what the capture opens."
+}

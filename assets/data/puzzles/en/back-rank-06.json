@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-06",
+  "fen": "1r4k1/5ppp/8/8/8/8/4QPPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "title": "The Long Way Across",
+  "setup": "The black rook guards the back rank from all the way across the board — the only defender, far from home.",
+  "hint": "The guard can reach e8, but only by leaving everything else. What is the biggest thing you can make it capture?",
+  "explanation": "## The Idea\n\nThe rook on b8 covers the whole back rank from a distance, until it is forced to commit.\n\n{{Qe8+}} gives the queen away on the entry square. {{Rxe8}} is the only answer, dragging the guard across the rank, and {{Rxe8#}} recaptures with Black's own pawns sealing every flight square.\n\nA lone back-rank defender is a target, not a wall: make it capture, and the recapture is mate."
+}

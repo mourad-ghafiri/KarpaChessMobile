@@ -1,0 +1,58 @@
+{
+  "id": "opposite-bishops",
+  "title": "Gajah Berwarna Berlawanan",
+  "summary": "Unggul dua pion dan tak ada hasilnya",
+  "proof": "endgames-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "Unggul Dua Pion, dan Macet",
+      "text": "Putih unggul dua pion, yang biasanya mengakhiri perdebatan. Tidak di sini.\n\nLihat di petak mana kedua gajah berdiri. Gajah Hitam di c1 hidup di petak gelap. Gajah Putih di d3 hidup di petak terang. Keduanya tak akan pernah saling menyerang, tak pernah saling menghalangi, tak pernah berbagi petak sepanjang sisa partai.\n\nDua pasukan di satu papan yang tak bisa bersentuhan. Hitam akan menunjukkan berapa nilai hal itu, dan nilainya dua pion."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "Petak yang Dibutuhkan Pion",
+      "text": "Pion berpromosi dengan mencapai baris kedelapan, jadi tanyakan petak mana yang masih harus dilewati kedua pion ini. Langkah berikutnya pion f adalah f6, dan ia akan berakhir di f8. Pion h akan berakhir di h8. Ketiga petak itu gelap.\n\nGajah Putih di d3 tak akan pernah memperebutkan satu pun di antaranya. Ia gajah petak terang, dan gajah tak pernah berganti warna, tidak dengan bergerak dan tidak kapan pun.\n\nJadi petak-petak yang menentukan akhir permainan ini hanya bisa dicapai gajah Hitam. Satu langkah menempatkannya di garis yang melewati dua di antaranya, dan ia tak pernah perlu pergi."
+    },
+    {
+      "type": "play",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "prompt": "Tertinggal dua pion, pertahankan remis dengan memarkir gajah Anda di satu-satunya diagonal yang harus dilintasi kedua pion putih.",
+      "targetSan": [
+        "Bb2"
+      ],
+      "hint": "Pion f masih harus melangkah ke f6 dan pion h harus berakhir di h8 — temukan diagonal yang melewati keduanya."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Mendorong ke Dalamnya",
+      "text": "Putih punya giliran, dua pion tambahan, dan tak ada tempat untuk menaruhnya.\n\n{{f6}} melangkah ke petak gelap, dan {{Bxf6}} menjawabnya. Pion itu tiba tanpa perlindungan: raja Putih di e4 tak bisa mencapai f6, dan gajah Putih di d3 sama sekali tak bisa memandang petak gelap.\n\nItulah seluruh kisah akhir permainan seperti ini. Pion-pion tambahan itu nyata, dan semuanya dibeli di warna yang salah."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Sejauh Ia Bisa",
+      "text": "Biarkan pion h berlari sebagai gantinya. {{h6}}, dan Hitam tak punya alasan untuk mengganggu: {{Ba1}} mempertahankan diagonal panjang, dan {{h7}} tiba.\n\nItulah ujung jalannya. Pion butuh h8, h8 gelap, dan gajah mengawasinya dari sudut garis yang tak pernah perlu ia tinggalkan. Kejar gajah itu dan ia meluncur ke satu arah atau yang lain, tetap mengawasi.\n\nDua pion di papan, dan tak satu pun akan pernah menjadi menteri."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "title": "Warna yang Dilepaskan Gajah Anda",
+      "text": "Beberapa langkah kemudian, Putih menemukan satu-satunya rencana yang tersisa: majukan raja. Ia berdiri di g5, dan g6 adalah petak yang diinginkannya, karena dari g6 raja melindungi kedua pion dan gajah Hitam tak punya apa pun untuk diserang.\n\nSekarang periksa warna g6. Terang. Gajah di b2 tak pernah menyentuh petak terang dan tak akan pernah, jadi yang ini memang bukan tugasnya.\n\n> Gajah mempertahankan warna tempat ia dilahirkan. Semua yang lain milik raja."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "prompt": "Raja Putih menginginkan petak yang tak akan pernah bisa diawasi gajah Anda, jadi rebut petak itu dengan buah Anda yang lain.",
+      "targetSan": [
+        "Kf7",
+        "Kg7",
+        "Kh7"
+      ],
+      "hint": "Gajah hanya menguasai satu warna, jadi petak yang dituju Putih adalah urusan buah Anda yang lain."
+    }
+  ]
+}

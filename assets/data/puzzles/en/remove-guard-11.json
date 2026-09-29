@@ -1,0 +1,14 @@
+{
+  "id": "remove-guard-11",
+  "fen": "1rn3k1/p4ppp/6q1/3N4/8/8/5PPP/2R2QK1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Rxc8",
+    "Ne7+"
+  ],
+  "rating": 1420,
+  "title": "Clear the Fork Square",
+  "setup": "Your knight would love e7, where it hits king and queen at once, but the knight on c8 covers that square.",
+  "hint": "Find the square from which your knight would hit two pieces, then ask who is guarding it.",
+  "explanation": "## The Idea\n\n{{Rxc8+}} takes the piece covering e7, and {{Rxc8}} recaptures on a square that does not cover it. {{Ne7+}} forks king and queen; after the king steps aside, {{Nxg6}} wins the queen for a rook."
+}

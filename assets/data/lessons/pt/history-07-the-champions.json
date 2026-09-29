@@ -1,0 +1,68 @@
+{
+  "id": "the-champions",
+  "title": "Quem Detém o Título",
+  "summary": "De 1886 até hoje, dezoito campeões e as quatro vezes em que a linha se quebrou",
+  "proof": "history-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Reiquiavique, 1972",
+      "text": "Um match de xadrez foi parar à primeira página em países que nunca tinham seguido nenhum.\n\nBobby Fischer chegou tarde à Islândia, queixou-se das câmaras, perdeu a primeira partida e depois recusou-se a jogar a segunda. Boris Spassky detinha o título, e o título não saía de mãos soviéticas desde 1948.\n\nEsta é a sexta partida. Fischer tem as brancas, e jogam as brancas. O que ainda hoje se repete sobre esta partida não é o resultado — é o que Spassky fez quando ela acabou."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Décimo Primeiro da Fila",
+      "text": "Fischer torna-se o décimo primeiro campeão do mundo mais tarde nesse verão, e os dez que detiveram o título antes dele não concordavam em quase nada.\n\nSteinitz dizia que um ataque tem de ser merecido. Lasker deteve o título vinte e sete anos, mais tempo do que ninguém antes ou depois, e dizia-se que jogava tanto a pessoa como o tabuleiro. Capablanca fazia do ganhar uma coisa que parecia não custar nada. Os jogadores que despontaram nos anos 1920 defendiam que se podia controlar o centro sem lá pôr um único peão. A escola soviética transformou a preparação numa indústria e deteve o título vinte e quatro anos seguidos."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "O Último Guarda",
+      "text": "O cavalo preto em f6 está a fazer dois trabalhos ao mesmo tempo.\n\nCobre g8 e h7, as únicas duas casas para onde o rei de h8 pode ir. E bloqueia a coluna f, onde as brancas empilharam torres em f5 e f3.\n\nNão vem mais ninguém ajudar. O peão branco em e6 está a duas casas da oitava linha, portanto a torre de e7 tem de ficar à frente dele e a dama de e8 está sentada na casa que esse peão quer. A torre de c7 é livre de ir para onde quiser e não tem nada que fazer quando lá chegar."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "prompt": "Dá uma torre pelo cavalo que cobre g8 e h7, e faz com que a recaptura arranque um peão de junto do rei.",
+      "targetSan": [
+        "Rxf6"
+      ],
+      "hint": "O rei em h8 tem um peão ao lado. Se for esse peão a capturar, que casa deixa para trás?"
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Fora o Telhado",
+      "text": "{{Rxf6}}, e recusar não é uma opção que valha a pena ter — deixar a torre em paz entrega às brancas um cavalo inteiro.\n\n{{gxf6}}, então. Agora g7 está vazia. O peão que estava ao lado do rei está em f6, onde a torre de f3 olha diretamente para ele, e ao rei em h8 não resta nada a não ser o peão de h6."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4Pp1p/p1p5/P2pQ2P/1P1B1R2/6P1/6K1 w - - 0 39",
+      "title": "A Segunda Torre",
+      "text": "{{Rxf6}}. A mesma casa, e desta vez nada recaptura: nenhuma peça preta chega sequer a f6.\n\n{{Kg8}} {{Bc4}} {{Kh8}} — Spassky tira o rei e volta a pô-lo onde estava, Fischer atravessa o bispo para defender o peão de e6. As pretas gastaram duas jogadas a ficar quietas. As brancas gastaram uma e têm agora o bispo onde o queriam."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Onde É Que Se Partiu",
+      "text": "O xadrez gosta de contar o título como uma linha só, a passar de mão em mão desde 1886. Partiu-se quatro vezes.\n\nAlekhine morreu com ele em 1946, e ninguém o deteve até 1948. Fischer nunca o defendeu: em 1975 passou para Karpov sem que se jogasse uma jogada. Kasparov e o desafiante levaram o match de 1993 para fora da FIDE, que coroou um campeão rival, e houve dois títulos mundiais durante treze anos, até Kramnik bater Topalov em 2006. Carlsen recusou defendê-lo em 2023, e foi assim que Ding Liren se tornou campeão — e assim que Gukesh Dommaraju lho tirou em dezembro de 2024, aos dezoito anos, o mais novo que alguma vez houve."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Nada Que se Possa Mexer",
+      "text": "As pretas têm duas torres contra uma das brancas e não conseguem usar nenhuma delas.\n\nA torre em e7 continua a ser a única coisa à frente do peão de e6, e a dama em e8 continua sentada na casa que esse peão quer. Nenhuma das duas pode sair. A torre de c7 pode ir para onde lhe apetecer, e não há nada para ela em lado nenhum.\n\nO que deixa o peão de h6, guardado por ninguém, com a torre de f6 já a olhar para ele ao longo da sexta linha.\n\n> Uma peça que não pode sair da sua casa deixou de ser uma peça."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "prompt": "Junta a dama ao ataque da torre sobre h6, aterrando onde nada lhe possa tocar e onde a torre de f6 ganha um defensor.",
+      "targetSan": [
+        "Qf4"
+      ],
+      "hint": "Exclui todas as casas onde a dama preta ou o peão de h6 pudessem capturar a tua dama e depois fica na coluna que a torre já segura."
+    }
+  ]
+}

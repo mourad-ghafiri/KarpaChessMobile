@@ -1,0 +1,14 @@
+{
+  "id": "smothered-08",
+  "fen": "6k1/pp4pp/8/2q5/8/7n/P1P3PP/3R1R1K b - - 7 28",
+  "solution": [
+    "Qg1+",
+    "Rxg1",
+    "Nf2#"
+  ],
+  "rating": 1375,
+  "title": "Sırf Bir Kare Uğruna Vezir",
+  "setup": "Beyaz az önce bir kaleyi d2'den arka yataya indirdi ve f2'yi gözleyen yalnızca f1'deki kale kaldı.",
+  "hint": "h3'teki atınız g1'i zaten kapsıyor; beyazın bir kalesi orada durmak zorunda kalsa ne olurdu, sorun.",
+  "explanation": "## Fikir\n\n{{Qg1+}} hamlesine şahla cevap verilemez, çünkü h3'teki at g1'i korur. Yani {{Rxg1}} mecburidir ve geri alma, şahın ihtiyaç duyduğu kareyi doldurur. Ardından {{Nf2#}}, kalenin de şahın da iki piyonun da dosdoğru ötesine baktığı bir yere iner."
+}

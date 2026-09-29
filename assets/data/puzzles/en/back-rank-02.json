@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-02",
+  "fen": "5rk1/5ppp/8/8/8/8/4RPPP/4Q1K1 w - - 0 1",
+  "solution": [
+    "Re8",
+    "Rxe8",
+    "Qxe8#"
+  ],
+  "title": "Remove the Defender",
+  "setup": "The rook on f8 is the only piece keeping your heavy pieces off the back rank.",
+  "hint": "Your rook and queen both look down the open file. What happens if the lone guard is made to trade itself?",
+  "explanation": "## The Idea\n\nBlack's king survives only because the rook on f8 covers the eighth rank. {{Re8}} offers your rook on the one square that guard has to watch.\n\nIf {{Rxe8}}, then {{Qxe8#}}: the guard is gone, and the pawns on f7, g7 and h7 seal every flight square. Black does better to decline with a pawn move that gives the king air, but that only trades rooks after {{Rxf8+}} {{Kxf8}}, and your queen is still on the board against nothing."
+}

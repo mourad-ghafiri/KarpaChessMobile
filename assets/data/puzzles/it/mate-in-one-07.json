@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-07",
+  "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qk - 1 7",
+  "solution": [
+    "Nf3#"
+  ],
+  "rating": 780,
+  "title": "Soffocato dai Suoi",
+  "setup": "Ogni casa attorno al re bianco è occupata dai suoi stessi pezzi, e il vostro cavallo sta ancora in d4.",
+  "hint": "Il re bianco non ha proprio nessuna casa di fuga, quindi cercate l'unico scacco che non può né prendere né parare.",
+  "explanation": "## L'idea\n\nIl re bianco è soffocato dal proprio esercito, quindi qualunque scacco sicuro chiude la partita. {{Nf3#}} sembra catturabile, ma l'alfiere in e2 è inchiodato dalla vostra donna in e4, il pedone in g2 è sparito da un pezzo, e uno scacco di cavallo non si può mai parare."
+}

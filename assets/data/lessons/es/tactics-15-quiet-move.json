@@ -1,0 +1,56 @@
+{
+  "id": "quiet-move",
+  "title": "La jugada tranquila",
+  "summary": "Ni jaque, ni captura, ni amenaza, y las Negras no pueden hacer nada",
+  "proof": "quiet-move-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "El jaque que libera al rey",
+      "text": "El rey negro está atascado en la esquina de h8, y las Blancas tienen un jaque esperando en la octava fila.\n\n{{Ra8+}}, y las Negras responden {{Kh7}}. Es la única jugada legal, y es la única casilla que no cubre tu rey de f6. La esquina queda vacía, la torre tiene que empezar de nuevo y las Negras no han perdido nada.\n\nUn jaque es una pregunta, y el rival puede responderla. Este regaló la escotilla de salida."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "Cuenta la esquina",
+      "text": "Así que deja el jaque y cuenta.\n\nDesde h8 el rey negro tiene dos casillas: g8 y h7. La torre cubre la octava fila en cuanto llega, así que g8 se resuelve sola. h7 es la fuga, y ninguna torre del mundo llega a h7 desde la octava fila.\n\nTu rey de f6 ya cubre g7, y por eso la esquina solo tiene dos salidas. No cubre h7.\n\nCierra h7 mientras las Negras no tengan nada con qué responder, y el jaque que fallaba termina la partida."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "prompt": "Usa tu rey para quitarle h7 al rey negro, de modo que el jaque de la torre en la octava fila sea mate.",
+      "targetSan": [
+        "Kg6"
+      ],
+      "hint": "Dar jaque primero solo empuja al rey a h7, así que quítale esa casilla antes de dar jaque."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/8/8/R7 b - - 2 2",
+      "title": "Una sola jugada legal",
+      "text": "Tu rey en g6 le quita g7 y h7 a la vez, y nunca se acercó al rey negro. Cuenta las respuestas de las Negras: {{Kg8}}. Esa es toda la lista.\n\nAhora {{Ra8#}} llega a una fila que el rey no puede abandonar, y las tres casillas de debajo —f7, g7 y h7— son de tu rey.\n\nNada fue forzado. Primero se quitaron las respuestas, y la pregunta vino después."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "El peón que no puede moverse",
+      "text": "Un tablero nuevo, y el refugio negro está intacto: peones en f7, g7 y h7, torres en a8 y f8, un alfil en b7. Las Negras ya están perdidas.\n\nLee la columna g. Tu torre de g1 apunta directamente al rey de g8, y lo único entre ellos es el peón de g7.\n\nEse peón parece el defensor de f6 y h6. Está clavado: capturar en cualquiera de esas casillas lo sacaría de la columna g y dejaría a su propio rey en jaque de la torre, así que no puede capturar nada, y las casillas que parece vigilar no las vigila nadie."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "Más ruido es más lento",
+      "text": "Las jugadas ruidosas están ahí. {{Rxg7+}} lanza la torre contra el peón, y {{Bxg7}} lo captura con el alfil, que el rey no puede recapturar porque tu torre de g1 protege g7. Las dos ganan, y las dos dan a las Negras jugadas con las que responder.\n\nHay algo mejor. Coloca una pieza donde las Negras no tengan respuesta, amenaza mate para la jugada siguiente, y ninguna de las treinta y tantas jugadas legales de las Negras toca el problema."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "prompt": "Lleva tu dama a una casilla que el peón clavado solo finge proteger, con mate a continuación.",
+      "targetSan": [
+        "Qh6"
+      ],
+      "hint": "Un peón que expondría a su propio rey al capturar no protege nada en realidad."
+    }
+  ]
+}

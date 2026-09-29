@@ -1,0 +1,13 @@
+{
+  "id": "history-02",
+  "fen": "7k/8/p4N2/1p5p/8/8/8/2R3K1 w - - 0 1",
+  "solution": [
+    "Rc7",
+    "b4",
+    "Rh7#"
+  ],
+  "title": "Un Finale da Mansuba",
+  "setup": "Un problema in stile shatranj: torre e cavallo contro un re nell'angolo, e il Nero non ha altro che andirivieni di pedoni.",
+  "hint": "Non date ancora scacco. Il cavallo possiede già g8 e h7, quindi chiedetevi quale traversa serva alla torre prima che lo scacco valga la pena.",
+  "explanation": "## L'idea\n\nQuesto è il **matto arabo** delle più antiche raccolte di problemi: una torre accanto al re nell'angolo, un cavallo a difendere la torre.\n\nLa torre non può darlo da c1. {{Rc7}} è una mossa tranquilla: la torre si prende la settima traversa, il cavallo copre già g8, e al re non resta una casa. Il Nero può solo spingere un pedone, {{b4}} o un altro, e segue {{Rh7#}}, con il cavallo a difendere h7.\n\nDate prima scacco con {{Rc8+}} e il re sguscia in g7. Costruite la rete, poi date scacco."
+}

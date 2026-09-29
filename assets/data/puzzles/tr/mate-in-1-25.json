@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-25",
+  "fen": "4k3/R7/4K3/8/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Opozisyon ve Süpürme",
+  "setup": "Şahlar e dikeyinde karşı karşıya ve kaleniz yedinci yatayda bekliyor.",
+  "hint": "Kaleyi sekizinci yataya kaldırın. e6'daki şahınız yedinciyi zaten kapsıyor.",
+  "explanation": "## Fikir\n\nBu temel şah ve kale matıdır. Şahlar karşı karşıya durur ve kale uzaktan şah çeker.\n\n{{Ra8#}} arka yatay boyunca şah çeker. d8 ile f8 kalenin hattındadır, e6'daki şahınız d7, e7 ve f7'yi kapsar ve araya hiçbir şey giremez.\n\nKarşı karşıya şahlar, rakip şahın yatayında bir kale: şah ve kale oyun sonlarının çoğu tam olarak böyle biter."
+}

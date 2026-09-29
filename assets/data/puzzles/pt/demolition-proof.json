@@ -1,0 +1,13 @@
+{
+  "id": "demolition-proof",
+  "fen": "r5rk/5ppp/4q1n1/2Q5/8/4B3/PP6/K6R w - - 0 1",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Qh5#"
+  ],
+  "title": "Uma Torre pelo Peão h",
+  "setup": "O rei preto está em h8 atrás de três peões, e a tua torre em h1 fita-os pela coluna acima. Encontra maneira de atravessar esse abrigo.",
+  "hint": "O peão de h7 tem um guarda, o rei. Pergunta onde fica o rei depois de ter feito a sua guarda, e qual das tuas peças lá chega.",
+  "explanation": "## A Ideia\n\n{{Rxh7+}} gasta uma torre inteira num peão, e as pretas têm exatamente uma resposta legal: {{Kxh7}}. O abrigo desapareceu, e o rei está numa coluna aberta.\n\n{{Qh5#}}. A torre em g8 e o cavalo em g6 são das pretas, portanto ocupam duas saídas, o teu bispo de e3 cobre h6, e nada de preto chega a h6 para tapar. Um peão custou uma torre, e quem o pagou foi o rei."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "overload-proof",
+  "fen": "r5k1/1p3ppp/8/b7/1B6/8/P4PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxa5",
+    "Rxa5",
+    "Re8#"
+  ],
+  "title": "Une tour, deux tâches",
+  "setup": "La tour noire en a8 garde le fou en a5, et c'est aussi la seule pièce qui couvre la huitième rangée.",
+  "hint": "Rien n'a besoin d'être offert. Prenez quelque chose, et regardez quelle tâche la tour décide d'abandonner.",
+  "explanation": "## L'idée\n\n{{Bxa5}} est un simple échange, fou contre fou, mais il pose à la tour en a8 une question à laquelle elle ne peut pas répondre. Reprenez par {{Rxa5}} et la huitième rangée est vide derrière elle : {{Re8#}}, car depuis a5 la tour n'atteint ni e8 ni f8. Laissez plutôt le fou et la tour garde la dernière rangée, mais les Blancs ont simplement une pièce de plus. Rien n'a été offert et rien n'a été forcé. La tour avait deux tâches et un seul coup."
+}

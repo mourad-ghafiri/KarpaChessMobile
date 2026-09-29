@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-07",
+  "fen": "6k1/3N2pp/8/3r2B1/8/7Q/5PPP/4K3 w - - 0 1",
+  "solution": [
+    "Qe6+",
+    "Kh8",
+    "Qe8#"
+  ],
+  "rating": 1200,
+  "title": "O Cavalo Corta f8",
+  "setup": "O teu cavalo em d7 cobre f8 em silêncio, o que deixa ao rei preto muito menos casas do que ele julga.",
+  "hint": "Conta as casas de fuga do rei preto antes de dares xeque. Qual delas já é vigiada pelo teu cavalo?",
+  "explanation": "## A Ideia\n\nO cavalo de **d7** cobre f8, portanto um xeque na diagonal de a2 a g8 deixa ao rei uma só casa. {{Qe6+}} força {{Kh8}}, e {{Qe8#}} dá mate na linha de fundo: a dama cobre g8 e os peões de g7 e h7 fazem o resto."
+}

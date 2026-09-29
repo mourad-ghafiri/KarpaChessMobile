@@ -1,0 +1,14 @@
+{
+  "id": "deflection-09",
+  "fen": "4r1k1/pp1q2pp/6pQ/8/8/8/1B4PP/4RRK1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxg7#"
+  ],
+  "rating": 1410,
+  "title": "Fora da Sétima Linha",
+  "setup": "A dama e o bispo já apontam a g7, e só a dama de d7 a defende pela linha.",
+  "hint": "Conta os atacantes e os defensores de g7 e encontra depois o xeque que reduz os defensores em um.",
+  "explanation": "## A Ideia\n\n{{Rxe8+}} é xeque, e {{Qxe8}} é a única resposta das pretas — o que tira a dama da sétima linha. Segue-se {{Qxg7#}}, segura no lugar pelo bispo de b2. A torre é gasta para deixar um atacante a mais do que há defensores."
+}

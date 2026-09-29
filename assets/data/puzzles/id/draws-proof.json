@@ -1,0 +1,11 @@
+{
+  "id": "draws-proof",
+  "fen": "k3r3/8/8/8/8/p7/P1q5/K5Q1 w - - 0 1",
+  "solution": [
+    "Qa7+"
+  ],
+  "title": "Setengah Poin dari Ketiadaan",
+  "setup": "Anda tertinggal satu benteng, Hitam mengancam mat di b2, dan raja Anda di a1 tak punya langkah sah. Temukan setengah poinnya.",
+  "hint": "Hitung langkah sah Anda seandainya menteri tak ada di papan.",
+  "explanation": "## Ide\n\nRaja Anda di a1 tak bisa bergerak: menteri Hitam menguasai b1 dan b2, dan pion Anda di a2 terhalang. Menteri Anda satu-satunya buah yang masih punya langkah.\n\n{{Qa7+}} menyerahkannya dengan sekak. Raja di a8 tak bisa melangkah ke b7 atau b8, jadi ia harus menangkap. Lalu Putih tak punya langkah sah dan tidak dalam sekak: pat, setengah poin.\n\nPihak yang menang mewaspadai ini. Pihak yang kalah pergi mencarinya."
+}

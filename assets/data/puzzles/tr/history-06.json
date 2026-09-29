@@ -1,0 +1,13 @@
+{
+  "id": "history-06",
+  "fen": "bq1b3r/3n1k2/p3p1p1/Np1pPp1p/1P1N1P2/P2PB3/2Q3PP/2R3K1 w - - 4 27",
+  "solution": [
+    "Nac6",
+    "Qb7",
+    "Nxd8+"
+  ],
+  "title": "Delik Karşılığını Veriyor",
+  "setup": "Steinitz, Sellman'a karşı, Baltimore 1885; yirmi altı hamle sonra ve tek bir feda bile yok. Dersin bulduğu deliği bozdurma vakti.",
+  "hint": "Siyahın kampının derinliklerindeki bir kareye bir daha hiçbir piyon saldıramaz. İki at onu sahiplenebilir — yapacak daha iyi işi olmayanı seçin.",
+  "explanation": "## Fikir\n\nYirmi altı hamle sonra c6 hâlâ bir delik: siyahın b ve d piyonları temelli önünden geçmiştir.\n\n{{Nac6}} oraya iner ve aynı anda b8'deki vezire ve d8'deki file vurur. {{Qb7}} veziri kurtarır ve {{Nxd8+}} fili şah çekerek alır.\n\nKale geri alır ve taş dengesi eşitlenir, ama siyahın tek koyu kare fili gitmiştir. a5'teki atı kullanın: d4'teki at b5, e6 ve f5'e baskı yapar ve onu oynatmak üçünü birden elden çıkarır."
+}

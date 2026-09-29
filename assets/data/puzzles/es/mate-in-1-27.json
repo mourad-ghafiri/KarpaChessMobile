@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-27",
+  "fen": "k7/8/1K6/8/8/8/8/7R w - - 0 1",
+  "solution": [
+    "Rh8#"
+  ],
+  "title": "El martillo desde lejos",
+  "setup": "El rey negro está encajado en la esquina de a8, y tu rey de b6 cubre las casillas de delante.",
+  "hint": "Tu rey de b6 domina a7 y b7. Tu torre puede dar jaque desde el otro lado del tablero.",
+  "explanation": "## La idea\n\nOtra vez el mate de rey y torre en la esquina, con la torre dando jaque desde el lado lejano. Tu rey de b6 cubre a7 y b7.\n\n{{Rh8#}} da jaque por la última fila, y b8 también está en la línea de la torre. Nada puede tapar, y el rey no llega a la torre.\n\nUna vez que tu rey ha construido la jaula, la distancia no debilita el jaque de la torre."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "culture-08",
+  "fen": "1r2k1r1/pbppnp1p/1b3P2/8/Q7/B1PB1q2/P4PPP/3R2K1 w - - 0 21",
+  "solution": [
+    "Qxd7+",
+    "Kxd7",
+    "Bf5+"
+  ],
+  "title": "Les deux fous",
+  "setup": "Les Blancs ont une tour et un cavalier de moins, le roi noir n'a jamais roqué, et les deux fous blancs pointent vers lui.",
+  "hint": "Comptez les cases du roi noir avant de compter le matériel — que reste-t-il une fois retirées celles du fou en a3 et du pion en f6 ?",
+  "explanation": "## L'idée\n\n{{Qxd7+}} jette la dame sur un pion protégé. Refuser par {{Kf8}} est mat aussitôt en e7, donc {{Kxd7}}, et le roi se retrouve à découvert avec les deux fous pointés sur lui.\n\n{{Bf5+}} est un échec double, par le fou et par la tour derrière lui. {{Kc6}} tombe sur {{Bd7#}}, et après {{Ke8}}, {{Bd7+}} puis {{Bxe7#}} concluent avec les deux mêmes fous.\n\nAnderssen a joué cela à Berlin en 1852, un an après l'Immortelle."
+}

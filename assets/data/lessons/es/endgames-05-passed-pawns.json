@@ -1,0 +1,56 @@
+{
+  "id": "passed-pawns",
+  "title": "Los peones pasados",
+  "summary": "Traza el cuadrado antes de avanzar",
+  "proof": "endgame-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Nada en su camino",
+      "text": "Tu peón de e5 tiene un tablero vacío delante. No hay ningún peón negro en la columna e, ni en la d ni en la f, así que nunca se podrá empujar nada a su paso ni proteger las casillas que tiene que cruzar.\n\nEso es un **peón pasado**: un peón sin peón rival delante, ni en su columna ni en ninguna de las de al lado.\n\nLe queda una sola tarea, y solo una pieza del tablero puede discutírsela. El rey blanco de d1 está lejísimos, y eso aquí no cambia nada."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Traza el cuadrado",
+      "text": "Así que la única pregunta es si el rey negro puede llegar a tiempo, y esa pregunta tiene una respuesta exacta.\n\nTraza un cuadrado con el peón de e5 en una esquina y su casilla de coronación, e8, en otra: e5, h5, h8, e8. Un rey dentro de ese cuadrado, o capaz de entrar en su turno, atrapa al peón. Un rey fuera no lo atrapa nunca, por mucho que corra.\n\nEl rey negro de h4 está una fila por debajo del borde inferior. Al peón le bastan tres jugadas para llegar a e8; a ese rey le hacen falta cuatro."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "prompt": "Decide si ese rey puede atrapar al peón y juega la jugada que exige tu respuesta.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Dibuja el cuadrado e5–h5–h8–e8 y mira a qué lado del borde inferior está el rey negro."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/4P3/8/7k/8/8/3K4 b - - 0 5",
+      "title": "Una jugada tarde, siempre",
+      "text": "{{Kg5}} {{e7}} {{Kf6}} {{e8=Q}}. La persecución es honesta, y aun así pierde por una sola jugada.\n\nMira lo que el avance le hizo al cuadrado. Con el peón en e6, las esquinas son e6, g6, g8, e8: tres columnas de ancho en lugar de cuatro. Cada paso adelante reduce la zona en la que tiene que estar el defensor, así que un peón que ya va por delante solo se vuelve más difícil de atrapar.\n\nTampoco hay un camino ingenioso. El rey negro va por la línea más corta que tiene, y la aritmética no cambia nunca."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Un tablero donde correr pierde",
+      "text": "Nuevo tablero. Tu peón de e4 también es pasado, sin ningún peón negro en ninguna parte, y esta vez el rey negro de e8 no está fuera del cuadrado. Está aparcado en la casilla de coronación antes de que empiece la carrera.\n\n{{e5}} {{Ke7}} {{e6}}, y el peón ha ido a chocar contra un rey al que no puede adelantar. Nada saca a ese rey de la columna: tu propio rey en e1 está tres filas detrás del peón y ahí no le sirve de nada.\n\nEl peón no perdió la carrera. Nunca tuvo una."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Quién más puede ayudar",
+      "text": "Así que la pieza que hay que mover no es el peón. Mira qué más tienen las Blancas: un rey en e1 que no ha hecho nada en toda la partida, y una larga caminata por delante.\n\nEn realidad este peón ya ha corrido una casilla de más: contra una defensa perfecta, la carrera es ahora tablas. Ese es el precio de avanzar antes de escoltar, y la escolta todavía te da todas las opciones prácticas.\n\n> Un peón solo es un blanco. Un peón con un rey al lado es una amenaza.\n\nEl peón esperará. No tiene otro sitio donde estar."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Pon tu rey en marcha hacia el peón, subiendo por la columna en la que está el peón.",
+      "targetSan": [
+        "Ke2"
+      ],
+      "hint": "El camino es largo, así que toma el más corto: recto por la columna que el peón ya ocupa."
+    }
+  ]
+}

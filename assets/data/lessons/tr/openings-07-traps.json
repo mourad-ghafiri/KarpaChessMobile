@@ -1,0 +1,59 @@
+{
+  "id": "opening-traps",
+  "title": "Açılış Tuzakları",
+  "summary": "Saldıranları sayın, sonra açgözlüyü cezalandırın",
+  "proof": "openings-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "İki Saldıran, Bir Koruyucu",
+      "text": "Daha üç hamle olmuş ve beyaz bir veziri ve bir fili aynı kareye doğrultmuş. f7'yi sayın. Beyazın iki taşı ona saldırıyor. Siyahın tek bir taşı onu koruyor ve o taş şah; yani tahtadaki en kötü koruyucu: şah, arkasında desteği olan hiçbir şeyi alamaz.\n\nYani vezir sıradaki hamlede f7'ye inebilir ve bu mattır. Not alınıp sonra cevaplanacak bir tehdit değil. Mat.\n\nSiyahın aritmetiği değiştirmek için bir hamlesi var."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "Kaybettiren İyi Hamle",
+      "text": "Siyah {{Nf6}} ile bir at çıkarır — başka neredeyse her pozisyonda doğru olurdu — ve beyaz {{Qxf7#}} ile cevap verir.\n\nŞah veziri alamaz, çünkü arkasında c4'teki fil durur. Tahtada f7'ye ulaşan başka hiçbir şey yoktur. Dört hamle ve bir taraf oynamayı bırakmıştır.\n\nTuzak zekice değil. Bir tehdide, tehdidin istediği hamleyle değil, iyi bir hamleyle karşılık veren oyuncuyu yakalar."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "prompt": "f7'deki sayımı tek hamlede düzeltin ki oradaki saldıranlar koruyuculardan çok olmasın.",
+      "targetSan": [
+        "g6",
+        "Qe7",
+        "Qf6",
+        "Nh6"
+      ],
+      "hint": "Bir sayımı değiştirmenin iki dürüst yolu vardır: bir koruyucu eklemek ya da bir saldıranın gittiği yolu ortadan kaldırmak."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Açmaz Bir Bedeldir",
+      "text": "Yeni bir tahta ve başka türden bir açgözlülük. Siyahın h5'teki fili, f3'teki atı d1'deki vezire karşı açmaza alıyor: atı oynatın, vezir alınsın.\n\nBunların hepsi doğru ve hiçbiri atın oynayamayacağını söylemiyor. Açmaz hiçbir şeyi yasaklamaz. Bir bedel koyar ve bedel, açmazdaki taşın arkasında ne duruyorsa odur. Dokuz puan yüksek bir bedeldir. Sonsuz bir bedel değildir.\n\n> Açmaz, yalnızca açmazdaki taşın yapacak daha iyi bir işi olmadığı sürece tutar."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Geriye Tek Delik Kaldı",
+      "text": "Atın ne ettiğine karar vermeden önce siyah şahın çevresindeki kareleri sayın. c4'teki fil e6 ile f7'yi zaten gözlüyor. c3'teki at d5'e bir sıçrayış uzaklıkta ve d5'ten e7'yi kapsıyor. Siyahın kendi d8'deki veziri ile f8'deki fili iki kareyi daha kapatıyor.\n\nGeriye şahın bütün mahallesinde beyazın hiçbir taşının dokunmadığı tek bir kare kalıyor: d7.\n\nVe d7'yi kapsamaya bir sıçrayış uzaklıkta duran taş, siyahın açmaza aldığı attır."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Siyah Reddederse",
+      "text": "Siyah veziri almak zorunda değil ve almak kaybettiren seçim. Dikkatli cevap, e5'te geri almak ve h5'teki fili iade etmektir; çünkü at f3'ten ayrıldığı anda d1'deki vezir h5'i görür.\n\nO zaman ne mat olur ne de bedavaya verilmiş bir vezir; beyaz temiz bir piyon önde çıkar.\n\nBütün fikri oynamaya değer kılan da budur. Açgözlülük partiyi olduğu yerde bitirir, dikkat bir piyona mal olur ve siyahın üçüncü bir cevabı yoktur."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "prompt": "Açmazı umursamayın ve merkez piyonunu alın; siyah bunun karşılığında vezirinizi kazansa bile.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "O piyonun üzerinde durduğu kare, siyahın şahından d7'yi alan tek karedir."
+    }
+  ]
+}

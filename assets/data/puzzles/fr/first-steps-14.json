@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-14",
+  "fen": "4r2k/1q4pp/8/6B1/8/8/3P1PPP/3RKR2 w - - 0 1",
+  "solution": [
+    "Be3"
+  ],
+  "title": "Levez le bouclier",
+  "setup": "La tour noire met votre roi en échec le long de la colonne e ouverte, et vos propres pièces ont enfermé le roi. Il faut fermer la ligne.",
+  "hint": "Deux de vos coups parent l'échec. Un seul arrive sur une case qu'un allié protège.",
+  "explanation": "## L'idée\n\nUn échec le long d'une ligne a trois réponses : fuir, prendre ou s'interposer. Votre roi n'a aucune case et rien n'atteint la tour en e8, vous devez donc vous interposer.\n\n{{Be3}} s'interpose sur une case que protègent à la fois les pions de d2 et de f2, donc {{Rxe3+}} donnerait une tour contre un fou. {{Be7}} s'interpose aussi, mais rien ne protège e7, et {{Rxe7#}} est mat.\n\nLe meilleur bouclier est un bouclier protégé."
+}

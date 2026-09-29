@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-11",
+  "fen": "6k1/1r3ppp/7r/8/b2B3R/8/PP6/K1Q5 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Be8",
+    "Qxe8#"
+  ],
+  "rating": 1650,
+  "title": "Fili Eve Çağırın",
+  "setup": "Siyahın a4'teki fili şahından uzakta ve iki kalesi de b ile h dikeylerinde ava çıkmış.",
+  "hint": "Siyahın bir taşı sekizinci yataydan epey uzakta. Ona orada olmak zorunda kalması için bir sebep verin.",
+  "explanation": "## Fikir\n\n{{Qc8+}} {{Be8}} hamlesini zorlar ve fili kapatmak için ta geriye sürükler; {{Qxe8#}} de onu varır varmaz alır. Bir kareye tek hamlede ulaşabilen taş ile o kareyi koruyan taş aynı şey değildir."
+}

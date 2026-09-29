@@ -1,0 +1,56 @@
+{
+  "id": "chess-in-europe",
+  "title": "Nomi Nuovi, Mosse Vecchie",
+  "summary": "Ribattezzati alla frontiera, e immutati per cinquecento anni",
+  "proof": "history-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "La Strada d'Ingresso",
+      "text": "Gli scacchi entrarono in Europa senza lasciarsi dietro una data.\n\nLa strada meglio documentata passa per **al-Andalus**, la Spagna musulmana, dove si giocava a shatranj molto prima che un regno cristiano ne scrivesse una parola. La Sicilia araba è una seconda strada. Bisanzio, che chiamava il gioco *zatrikion*, è una terza, e i mercanti e gli eserciti dell'epoca le usarono tutte.\n\nQuello che sopravvive sono le carte all'altro capo. Un testamento redatto in Catalogna attorno al 1008 lascia una serie di pezzi da scacchi a un monastero, e chi lo scrisse non sentì alcun bisogno di spiegare che cosa fossero."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "La Dama e l'Elefante",
+      "text": "L'Europa non aveva visir, e così il **ferz** prese l'unica carica che sta bene accanto a un re: divenne la **donna**. *Regina* in latino, *dame* in francese. Quel cambio di nome avvenne presto e quasi ovunque.\n\nL'**alfil** non trovò un accordo simile. L'Italia ne fece l'*alfiere*, il portabandiera; la Francia il *fou*, il giullare; la Germania un corriere. L'Inghilterra non lo tradusse affatto e nel 1474 lo chiamava ancora *aufin*. **Bishop**, il *vescovo*, vince quella discussione solo nel Cinquecento, molto dopo che gli intagliatori l'avevano decisa — i pezzi di Lewis portano la mitra già nel 1200."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "I Nomi si Mossero, le Mosse No",
+      "text": "Cambiare nome non è una riforma.\n\nLa donna d'Europa strisciava ancora di una casa in diagonale, esattamente come faceva il ferz. L'alfiere d'Europa faceva ancora lo stesso salto di due case sopra la testa di qualunque cosa fosse di mezzo, atterrando sulla stessa cortissima lista di case a cui era sempre stato legato. Tutti e due i pezzi furono ricostruiti nella penisola iberica negli anni Settanta del Quattrocento, e questa è la lezione successiva.\n\nLa vostra scacchiera sta già al di là di quel confine. L'alfiere nero in c8 può entrare alla prossima mossa sulla grande diagonale chiara. Un alfil partito da c8 non avrebbe raggiunto una sola casa di quella diagonale in cento partite."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "prompt": "Portate l'alfiere di c8 su quella grande diagonale chiara, quella che corre per tutta la lunghezza della scacchiera.",
+      "hint": "Quell'alfiere ha esattamente due case a disposizione. Solo una delle due sta sulla diagonale.",
+      "targetSan": [
+        "Bb7"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Quattro Case e una Quinta",
+      "text": "Scacchiera nuova, muove il Bianco, e un alfiere in c1 che non è ancora andato da nessuna parte.\n\n{{Bd2}}, {{Be3}}, {{Bf4}}, {{Bh6}} — quattro case lungo una diagonale, con una quinta in mezzo a loro.\n\nUn alfil in c1 raggiungeva esattamente due case di tutta quella linea: e3, arrivandoci con un salto sopra d2 che d2 fosse occupata o no, e g5 con lo stesso salto ripetuto. Le altre tre gli restavano chiuse per l'intera partita.\n\nEcco che cosa comprò la riforma. Non si tratta soprattutto di distanza."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Attraverso, Non Sopra",
+      "text": "La distanza è la metà più piccola. La metà più grande è che un alfiere passa *attraverso* le case invece che sopra.\n\nUn alfil non poteva mai tenere fermo niente. Volava sopra quello che gli stava davanti, e così non restava mai nessuno preso davanti a lui. Un alfiere percorre la linea, e un pezzo che sta su quella linea ha un problema: se si sposta, quello che stava dietro di lui è improvvisamente lì da prendere.\n\nIl cavallo nero in f6 ha la donna in d8 proprio dietro, una diagonale, e7 vuota in mezzo. Non è ancora successo niente. Bisogna che qualcuno arrivi."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "prompt": "Arrivate su quella diagonale, in modo che il cavallo di f6 non possa muovere di una casa senza consegnare la donna che ha dietro.",
+      "hint": "L'alfiere di f1 ha davanti il proprio pedone in e2. L'altro non ha niente davanti.",
+      "targetSan": [
+        "Bg5"
+      ]
+    }
+  ]
+}

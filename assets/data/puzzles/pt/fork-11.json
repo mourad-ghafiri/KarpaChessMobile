@@ -1,0 +1,16 @@
+{
+  "id": "fork-11",
+  "fen": "3rr1k1/p5pp/8/8/4n3/8/P1Q3PP/3R3K b - - 1 1",
+  "solution": [
+    "Rxd1+",
+    "Qxd1",
+    "Nf2+",
+    "Kg1",
+    "Nxd1"
+  ],
+  "rating": 1070,
+  "title": "Trocar e Depois Garfar",
+  "setup": "O rei branco está em h1 atrás de dois peões, e a torre de d1 é defendida apenas pela dama.",
+  "hint": "Ainda não há garfo nenhum. Pergunta que peça branca podes obrigar a ir para a casa onde um garfo apareceria.",
+  "explanation": "## A Ideia\n\nA casa de garfo do teu cavalo é f2, atingindo h1 e d1 — mas a dama de c2 guarda-a, portanto o salto imediato só perde o cavalo. {{Rxd1+}} é xeque, portanto {{Qxd1}} é forçado, e a dama fica agora num dos alvos do garfo. {{Nf2+}}, {{Kg1}} é forçado, e {{Nxd1}} ganha-a."
+}

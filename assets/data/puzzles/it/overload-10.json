@@ -1,0 +1,14 @@
+{
+  "id": "overload-10",
+  "fen": "2Q1b2k/4rppp/8/8/4R3/8/PP6/K6R w - - 0 1",
+  "solution": [
+    "Qxe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1580,
+  "title": "Tutti e Due i Pezzi su una Colonna",
+  "setup": "Il Nero ha un alfiere in e8 e una torre in e7, e ogni vostro pezzo pesante punta su quella stessa colonna.",
+  "hint": "Quando due difensori stanno su una linea, si può prendere solo quello davanti. Chiedetevi che cosa stia facendo davvero il secondo.",
+  "explanation": "## L'idea\n\n{{Qxe8+}} forza {{Rxe8}} — la torre deve lasciare la settima — e {{Rxe8#}} è matto perché i pedoni hanno sigillato il re da soli. Impilare difensori su una colonna vuol dire perderli uno dopo l'altro."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pin-02",
+  "fen": "8/k2r4/bp4p1/1r6/R1P4R/1P6/3P4/1K6 w - - 0 1",
+  "solution": [
+    "cxb5"
+  ],
+  "rating": 840,
+  "title": "O Guarda Está Congelado",
+  "setup": "A tua torre em a4 olha a direito pela coluna a para o bispo preto, e para o rei atrás dele.",
+  "hint": "A torre de b5 tem exatamente um defensor. Antes de contares material, pergunta se esse defensor pode sequer mexer.",
+  "explanation": "## A Ideia\n\n{{cxb5}} ganha uma torre inteira. O bispo de **a6** é a única peça a guardar b5, e a tua torre de **a4** crava-o contra o rei de **a7**. Afastar-se deixaria o rei em xeque, portanto a recaptura não é uma jogada legal."
+}

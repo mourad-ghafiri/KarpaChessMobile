@@ -1,0 +1,14 @@
+{
+  "id": "decoy-03",
+  "fen": "6k1/pp3ppp/1q6/r7/8/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Qxd8",
+    "Rxd8#"
+  ],
+  "rating": 1230,
+  "title": "Una dama por una casilla",
+  "setup": "Tu dama y tu torre están apiladas en la columna d, y el rey negro no tiene aire detrás de sus peones.",
+  "hint": "La debilidad es la última fila. ¿Qué puedes poner en d8 que las Negras estén obligadas a comerse?",
+  "explanation": "## La idea\n\n{{Qd8+}} ofrece la dama en la única casilla que las Negras tienen que tomar: {{Qxd8}} es su única jugada legal. Ahora la dama negra está en la última fila delante de tu torre, y {{Rxd8#}} lo termina. Pregúntate qué casilla sería fatal para una pieza rival, y luego haz que vaya allí."
+}

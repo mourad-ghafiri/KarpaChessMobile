@@ -1,0 +1,50 @@
+{
+  "id": "zwischenzug",
+  "title": "Ara Hamle",
+  "summary": "Geri almayı ikinci sıraya alın, önce tehdit edin",
+  "proof": "zwischenzug-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "Kimsenin Korumadığı At",
+      "text": "Beyazın atı bir piyon zengin olarak d5'e inmiş ve onu koruyan hiçbir şey yok.\n\nOnu almak bedava olmalı. Değil: g5'teki fil, f6'daki atı d8'deki vezire karşı açmaza alıyor; yani o at yana çekildiği anda fil d8'e savrulur ve bir at karşılığında bir vezir toplar.\n\nBeyazın bütün fikri bu ve beyaz tam olarak buraya kadar saymış."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "Geri Almanın Ötesini Sayın",
+      "text": "Her değişimin erkenden öğrendiğiniz bir ritmi vardır. Siz alırsınız, rakibiniz alır ve ikiniz de tahtada ne kaldığına bakarsınız.\n\n**Ara hamle** o ritmi bozar. Geri almanın sırası gelmişken geri almak yerine, rakibin önce ilgilenmek zorunda olduğu bir şey oynarsınız — bir şah ya da askıdaki taştan daha değerli bir tehdit. Taşınız sonrasında hâlâ askıdadır. Yalnızca bekler.\n\nÖyleyse bir taş almanın taş kaybettirdiğine karar vermeden önce, toz duman dağıldığında hâlâ neyi tehdit ediyor olacağınızı sorun."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "prompt": "Cevap vezirinizi kazanacak olsa bile bedava taşı kapın — sayım bitmedi.",
+      "targetSan": [
+        "Nxd5"
+      ],
+      "hint": "Bir taş almayı reddetmeden önce, korktuğunuz cevaptan sonra tahtada hangi şahların duracağını sorun."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "Beyaza Tek Bir Bedava Hamle Yeter",
+      "text": "Vezir gitti ve onu alan d8'deki fili koruyan hiçbir şey yok.\n\nKapana kısıldığını varsaymayın. Önündeki çapraza bakın: e7, f6, g5 ve h4 hepsi boş. Beyaza sakin bir hamle verin, o fil h4'e çıksın; beyaz bir at karşılığında bir vezir önde olsun ve parti mücadele olmaktan çıksın.\n\nYani fil, yalnızca beyaz onu kurtaramayacak kadar meşgulken toplanabilir."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "Kaybettiren Geri Alma",
+      "text": "{{Kxd8}} borçlu hissettiren hamledir ve pozisyonu çöpe atar.\n\nSayın: siyah bir vezir verdi, karşılığında bir at ve bir fil aldı. Üç puan hafif ve beyaz hâlâ daha önceki fazladan piyonu elinde tutuyor.\n\nAynı pozisyon o filin parasını tam olarak ödüyor. Tek fark, siyahın onu almaya gitmeden önce ne yaptığı.\n\n> Alabileceğiniz bir taş, şimdi alındı diye daha değerli olmaz. Hamlenin başka ne yapabileceğini sorun."
+    },
+    {
+      "type": "play",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "prompt": "Beyazı fili kurtaramayacak kadar meşgul tutan şahı bulun ve fili sonra almaya dönün.",
+      "targetSan": [
+        "Bb4+"
+      ],
+      "hint": "Burada tam olarak siyahın tek bir taşı şah çekebiliyor ve o taş parti boyunca başlangıç karesinden hiç ayrılmadı."
+    }
+  ]
+}

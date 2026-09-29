@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-10",
+  "fen": "8/1k6/1p6/1P6/8/2K5/8/8 w - - 1 2",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1430,
+  "title": "Jalan Memutar yang Panjang",
+  "setup": "Raja Hitam baru saja menancap di depan pion-pion, dan tak satu pion pun bisa bergerak lagi.",
+  "hint": "Pion di b6 menguasai a5 dan c5, jadi tanyakan sisi papan mana yang masih boleh dipakai raja putih.",
+  "explanation": "## Ide\n\nPion di b6 menjaga a5 dan c5, jadi raja putih tak pernah bisa naik ke samping pionnya sendiri. {{Kd4}} memulai perjalanan melalui pusat: {{Kc7}} {{Ke5}} {{Kd7}} {{Kd5}} dan Putih merebut petak d5, e6 dan d7 satu per satu, lalu berjalan ke c6 dan mengambil di b6."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "openings-01",
+  "fen": "rnb1kbnr/pppp1ppp/8/4p3/2B1q3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 5",
+  "solution": [
+    "Bxf7+",
+    "Kxf7",
+    "Ng5+"
+  ],
+  "title": "La Donna Paga l'Affitto",
+  "setup": "La donna nera ha passato l'apertura a inseguire pedoni e ne ha appena preso uno al centro. Trovate il sacrificio che prepara una forchetta di cavallo.",
+  "hint": "Un salto di cavallo in g5 colpirebbe insieme f7 e e4. Che cosa servirebbe perché il re nero si trovi in f7?",
+  "explanation": "## L'idea\n\nLa donna nera ha passato l'apertura ad afferrare pedoni mentre il Bianco arroccava e sviluppava, e adesso arriva il conto.\n\n{{Bxf7+}} cede l'alfiere per tirare avanti il re. Se {{Kxf7}}, allora {{Ng5+}} inforchetta il re in f7 e la donna in e4, e la donna è persa.\n\nRifiutare con {{Kd8}} tiene la donna ma lascia il re nero arenato in mezzo, e il Bianco sta comunque vincendo.\n\nUna donna che va a caccia di pedoni in apertura finisce cacciata a sua volta."
+}

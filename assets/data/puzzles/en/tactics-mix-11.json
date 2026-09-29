@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-11",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+  "solution": [
+    "exd4"
+  ],
+  "title": "Answer the Center Pawn",
+  "setup": "White has pushed a second pawn to the center, where it attacks your pawn on e5.",
+  "hint": "Your e-pawn is attacked. Which answer removes White's center pawn instead of just defending?",
+  "explanation": "## The Idea\n\nWhite's pawn on d4 attacks your pawn on e5. {{exd4}} takes it, and White has only one center pawn left. If White takes back with {{Qxd4}}, that is the Center Game, and {{Nc6}} hits the queen with a developing move.\n\nIgnore the offer instead, and {{dxe5}} wins your pawn or a push to d5 gains space.\n\nWhen a center pawn is attacked, trading it for the attacker is often the cleanest answer."
+}

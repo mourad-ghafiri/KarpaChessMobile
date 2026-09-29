@@ -1,0 +1,56 @@
+{
+  "id": "promotion",
+  "title": "Ningún peón sigue siendo peón",
+  "summary": "Llega a la última fila y el peón desaparece: tú dices qué ocupa su lugar",
+  "proof": "first-steps-19.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Ahí no hay peones",
+      "text": "No existe un peón en la octava fila. Un peón blanco que llega a ella —o uno negro que llega a la primera— no puede seguir siendo lo que es.\n\nAsí que las reglas lo sustituyen. En la casilla a la que llega, en esa misma jugada, el peón sale del tablero y una **dama, torre, alfil o caballo** ocupa su lugar. Eso es la **promoción**, y es obligatoria. Al peón de e7 le queda una casilla y ninguna forma de seguir siendo peón.\n\nDos piezas nunca están en la lista: un rey y otro peón."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Di en qué se convierte",
+      "text": "Una jugada de promoción se escribe como cualquier otra —la casilla a la que llega el peón— y una cosa más.\n\n{{e8=Q}}. Un signo `=` y la letra de la pieza que quieres en esa casilla. Cambia la letra y cambia lo que aparece: `R`, `B` o `N` en su lugar.\n\nNo es un detalle menor. Una jugada que llega a la última fila sin nombrar una pieza no es una jugada terminada."
+    },
+    {
+      "type": "play",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Lleva el peón a la última fila y conviértelo en la pieza que vale nueve puntos.",
+      "targetSan": [
+        "e8=Q"
+      ],
+      "hint": "La jugada solo está terminada cuando has nombrado qué ocupa la casilla."
+    },
+    {
+      "type": "teach",
+      "fen": "4Q3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Nueve puntos de la nada",
+      "text": "Salió un punto; llegaron nueve. La dama de e8 es una dama como cualquier otra, que barre filas, columnas y diagonales desde el momento en que aparece: {{Qa4}}, {{Qh5}}.\n\nNo se cambió nada por ella. No la recuperas a cambio de algo que tu rival capturó, y da igual que tu primera dama siga en el tablero. Dos damas es legal. Tres, también.\n\n> Un peón en la séptima fila no vale un punto. Vale lo que está a punto de convertirse."
+    },
+    {
+      "type": "teach",
+      "fen": "5r2/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Entrar capturando",
+      "text": "La promoción no es solo para los peones que caminan. Un peón captura como siempre, una casilla en diagonal hacia delante, y la última fila no cambia nada.\n\nAquí importa. La torre negra de f8 también cubre e8, así que avanzar en línea recta entrega la nueva dama antes de que haga nada.\n\n{{exf8=Q}} hace las dos cosas en una jugada: la torre desaparece y una dama se queda en f8. La `x` y el `=` significan lo de siempre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "title": "Cuando la dama pierde",
+      "text": "La dama es casi siempre la respuesta correcta. Aquí te cuesta el mate.\n\n{{e8=Q}} {{Qc1+}} {{Qe1}} {{Qxe1#}}. Nueve puntos nuevos, y las Negras ni los miran: la dama de c7 da jaque por la primera fila, tu nueva dama solo puede interponerse, y tu rey, encerrado por sus propios peones, no tiene adónde ir.\n\nLa dama de e8 no tocaba ni al rey negro en g7 ni a la dama de c7. Corona un caballo y golpea a los dos. Elegir cualquier cosa que no sea una dama se llama **subpromoción**, y este es el motivo más habitual para hacerlo."
+    },
+    {
+      "type": "play",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "prompt": "Corona la pieza que da jaque al rey negro y ataca a la dama en la misma jugada.",
+      "targetSan": [
+        "e8=N+"
+      ],
+      "hint": "Prueba las cuatro opciones una a una y pregúntate qué atacaría cada una desde e8."
+    }
+  ]
+}

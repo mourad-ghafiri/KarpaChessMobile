@@ -1,0 +1,14 @@
+{
+  "id": "promotion-09",
+  "fen": "8/q1P1kppp/8/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "c8=N+",
+    "Kd7",
+    "Nxa7"
+  ],
+  "rating": 1310,
+  "title": "Dama Não",
+  "setup": "O teu peão c faz dama na próxima jogada, mas uma dama em c8 não tocaria no rei preto nem na dama preta.",
+  "hint": "A peça nova tem de atingir duas coisas ao mesmo tempo. Vê que promoção consegue.",
+  "explanation": "## A Ideia\n\n{{c8=N+}} garfa o rei de e7 e a dama de a7, duas casas que uma dama em c8 não atacaria de todo. Depois de {{Kd7}} o cavalo come em a7. Promove à peça que a posição pede, não à mais forte."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "the-fork",
+  "title": "Garpu",
+  "summary": "Satu langkah yang mengajukan dua pertanyaan, dan lawan yang hanya sempat menjawab satu",
+  "proof": "forks-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Dua Sekaligus",
+      "text": "Lawan Anda mendapat satu langkah untuk setiap langkah Anda. Itulah seluruh anggarannya, dan setiap taktik di depan Anda adalah cara meminta satu langkah itu menanggung lebih dari yang sanggup ia tanggung.\n\n**Garpu** adalah cara meminta yang paling sederhana. Satu langkah, dua buah lawan diserang, dan satu balasan yang harus menangani keduanya.\n\nRaja Hitam di c6 dan menteri di d5 berdiri berjarak satu petak. Kuda Anda di c2 belum menyerang keduanya, dan memang tak perlu. Ia butuh satu petak yang menyentuh keduanya."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Buah yang Tak Bisa Dijawab",
+      "text": "Gajah, benteng atau menteri menyerang di sepanjang garis, dan garis bisa diputus — letakkan apa saja di jalannya dan serangan berhenti di sana. Serangan kuda tak punya petak antara untuk menaruh apa pun.\n\nLalu bagian yang aneh. Buah yang diserang kuda hampir tak pernah bisa menangkap balik kuda itu. Untuk mencapai petak tempat kuda berdiri, ia harus bergerak membentuk L, dan hanya kuda lain yang bisa. Bahkan raja pun tidak: kuda yang memberi sekak tak pernah berdiri di sebelah raja yang disekaknya.\n\nJadi pihak yang bertahan tertinggal dengan daftar jawaban paling pendek dalam catur."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "prompt": "Temukan satu petak yang bisa dicapai kuda Anda dan menyerang raja serta menteri bersamaan.",
+      "targetSan": [
+        "Nb4+"
+      ],
+      "hint": "Hitung mundur dari sasarannya: petak mana yang menyerang c6, dan mana di antaranya yang juga menyerang d5?"
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Sembilan untuk Tiga, atau Sembilan untuk Nol",
+      "text": "{{Nb4+}}, dan sekak itu satu-satunya hal yang boleh dipikirkan Hitam. Tak ada yang bisa menghalanginya, dan b4 adalah petak yang tak bisa dicapai raja maupun menteri.\n\nMaka raja berjalan. Tujuh petak terbuka baginya, dan tepat dua di antaranya, d6 dan c5, masih menjaga d5. {{Kd6}} tampak menyelamatkan sampai Anda menghitungnya: {{Nxd5}} {{Kxd5}} menukar kuda dengan menteri. Lima petak lainnya menyerahkan menteri dengan cuma-cuma.\n\nSembilan untuk tiga, atau sembilan dengan gratis. Itulah seluruh pilihan yang ditinggalkan sebuah garpu.\n\nRaja dan menteri yang tertangkap bersama bahkan punya nama sendiri: **garpu kerajaan**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "Satu Sasaran Bukan Dua",
+      "text": "Papan baru, dan empat buah di atasnya. Hitam punya raja di e8 dan kuda di e5, dan itulah seluruh pasukannya.\n\nMenteri Anda di a1 sudah memandangi kuda itu. Diagonal panjang dari sudut melewati b2, c3, d4 dan tiba di e5, tanpa apa pun yang berdiri di sepanjangnya. Tak ada pula yang menjaga kuda itu.\n\nJadi kuda itu bisa langsung diambil — dan begitu ia hilang, Hitam hanya punya raja dan petak-petak kosong. Apa pun penangkapan itu, ia bukan garpu. Garpu butuh dua hal untuk diserang, dan posisi ini tak pernah punya dua."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "Sekak Bukanlah Hadiahnya",
+      "text": "Sekak saja tak menghasilkan apa-apa. {{Qa8+}} adalah sekak sungguhan — Hitam memindahkan raja ke samping, dan menteri Anda kini berada di sudut tempat ia sama sekali tak bisa melihat kuda lagi. Satu langkah terpakai untuk membuat posisi lebih buruk.\n\nSekak yang layak dimainkan adalah sekak yang tiba setelah melakukan sesuatu yang lain. Satu-satunya langkah Hitam dipakai untuk raja, dan sesuatu yang lain itu tetap ada di papan.\n\n> Garpu memberi satu langkah lawan Anda dua tugas. Sekak memilihkan tugasnya. Keduanya berhasil karena alasan yang sama: langkah itu hanya datang sekali."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "prompt": "Tangkap kuda dengan cara yang tak menyisakan balasan bagi Hitam selain langkah raja.",
+      "targetSan": [
+        "Qxe5+"
+      ],
+      "hint": "Kuda dan raja hitam berdiri di lajur yang sama, jadi tanyakan apa yang dilakukan menteri begitu ia mendarat di lajur itu."
+    }
+  ]
+}

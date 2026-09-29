@@ -1,0 +1,14 @@
+{
+  "id": "defence-02",
+  "fen": "3Q4/5R2/6k1/7b/2r5/1K6/5q2/8 w - - 0 1",
+  "solution": [
+    "Qg8+",
+    "Kh6",
+    "Rh7#"
+  ],
+  "rating": 1490,
+  "title": "Leur dame est sur votre seuil",
+  "setup": "La dame noire en f2 balaie la rangée à côté de votre roi et sa tour et son fou sont tous deux actifs — vous semblez complètement perdu.",
+  "hint": "Ne regardez pas du tout votre propre roi. Demandez-vous où peut aller le roi noir après un échec sur la huitième rangée.",
+  "explanation": "## L'idée\n\n{{Qg8+}} chasse le roi en h6 et {{Rh7#}} conclut, la dame en g8 soutenant la tour. Être attaqué n'est fatal que si vous avez un coup de retard ; ici, vous avez un coup d'avance."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "italian-game",
+  "title": "La Apertura Italiana",
+  "summary": "Dos alfiles y una larga discusión sobre d4",
+  "proof": "openings-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Dos alfiles, una casilla",
+      "text": "Tu alfil de c4 y el alfil negro de c5 son imágenes en el espejo, y cada uno mira fijamente la casilla del campo contrario que solo defiende un rey: f7 para ti, f2 para las Negras.\n\nPor eso los dos alfiles eligieron esas diagonales. Y por eso aquí no pasa nada. Un atacante contra un defensor no gana nada, y el segundo atacante está a varias jugadas, en los dos bandos.\n\nAsí que los alfiles se acomodan y esperan, y la partida busca algo por lo que pelear."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Por qué se pelean",
+      "text": "Lo encuentra en d4. Pon ahí un peón y mantenlo, y el alfil negro recibe un golpe en la diagonal donde acababa de instalarse, mientras tus peones se quedan con el centro del tablero.\n\nEmpuja ahora mismo y no consigues nada de eso. {{d4}} {{exd4}} y el peón que empujaste ya ha desaparecido; {{Nxd4}} pone en su lugar una pieza en la casilla, y el caballo de c6 la mira de frente.\n\nUn peón sostiene d4. Una pieza solo está de visita."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Juega la jugada tranquila que permita que sea un peón, y no una pieza, quien recaptura en d4 cuando por fin llegue el avance.",
+      "targetSan": [
+        "c3"
+      ],
+      "hint": "¿Cuál de tus peones puede dar un paso y quedarse protegiendo la casilla que quiere ocupar tu peón de d?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "La Italiana lenta",
+      "text": "Tres jugadas después, y nadie ha tocado a nadie. Tienes peones en c3 y d3, las Negras tienen el caballo en f6 y un peón en d6, y los dos reyes están a salvo en sus esquinas.\n\nNada está atacado. Ni siquiera amenazado. Los dos bandos han terminado la apertura a tiempo, y queda toda la partida por inventar.\n\nEsta es la versión en la que acaban la mayoría de las partidas italianas, y se decide por la preparación más que por un ataque sobre f7."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "Todavía no",
+      "text": "Podrías romper el centro ahora mismo. Cuenta lo que te espera: {{d4}} {{exd4}} {{cxd4}} y el alfil retrocede con {{Bb6}}, donde vuelve a presionar d4 con el caballo de c6 a su lado.\n\nDos piezas negras ya presionan el peón que acabas de construir, y las tuyas quedan atadas a sostenerlo. La ruptura no es mala, es prematura.\n\nAsí que gastas las jugadas de espera sumando peso. Todas las piezas blancas tienen aquí una tarea salvo una, y el peón de c3 está en la casilla que esa pieza siempre estuvo destinada a usar.\n\n> La Italiana se decide por quién está preparado cuando por fin llega d4."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "prompt": "Saca tu última pieza de su casilla inicial, hacia el centro y el flanco de rey donde está el resto de tu ejército.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "Tiene exactamente dos casillas: una en el borde, sin futuro, y otra en el centro, desde la que podrá seguir camino más adelante."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "endgames-01",
+  "fen": "8/8/8/8/3K4/8/4Q3/k7 w - - 0 1",
+  "solution": [
+    "Kc3",
+    "Kb1",
+    "Qb2#"
+  ],
+  "title": "La dame ne peut pas y arriver seule",
+  "setup": "Dame et roi contre un roi seul dans le coin. Tout est prêt sauf la pièce qui doit conclure.",
+  "hint": "Un coup tranquille ne laisse aux Noirs qu'une seule case légale — quelle pièce peut retirer le reste une fois qu'il s'y trouve ?",
+  "explanation": "## L'idée\n\nLa dame en e2 tient la deuxième rangée, donc le roi noir n'a que b1 et rien d'autre. Ce que la dame ne peut pas faire, c'est couvrir a1, b1 et b2 à la fois. C'est à cela que sert le roi.\n\n{{Kc3}} l'amène. Les Noirs n'ont qu'un coup légal, {{Kb1}}, et {{Qb2#}} se pose à côté du roi sur une case que défend le roi blanc.\n\nRetirer plutôt b1 par {{Qc2}} est pat. Comptez les cases du roi seul avant chaque coup tranquille : s'il n'y en a qu'une, seul un échec a le droit de la prendre."
+}

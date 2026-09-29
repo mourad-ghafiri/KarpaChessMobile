@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-01",
+  "fen": "1r4k1/p4ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rxb8#"
+  ],
+  "title": "Il Cambio che Sigilla",
+  "setup": "Tutti e due i re sono al riparo dietro i loro pedoni, e le torri si fronteggiano lungo la colonna b. Chi colpisce per primo sopravvive.",
+  "hint": "Prima di chiamare cambio una presa, stabilite quale pezzo nero potrebbe riprendere.",
+  "explanation": "## L'idea\n\nIl re nero in g8 non ha una casa sua: f7, g7 e h7 hanno i suoi pedoni, e f8 e h8 stanno sull'ottava traversa.\n\nQuindi la torre in b8 non è un partner di cambio. È l'unica guardia di quella traversa, e {{Rxb8#}} la prende e dà matto immediatamente: il re non arriva a b8, e i pedoni non muovono all'indietro.\n\nPrima di cambiare l'ultima torre su una colonna aperta, chiedetevi che cosa faceva oltre a starsene lì."
+}

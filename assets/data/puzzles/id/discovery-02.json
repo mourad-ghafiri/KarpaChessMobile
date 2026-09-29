@@ -1,0 +1,12 @@
+{
+  "id": "discovery-02",
+  "fen": "3r2k1/b4ppp/p7/8/3n4/5P2/P3Q1PP/4R1K1 b - - 0 1",
+  "solution": [
+    "Nxe2+"
+  ],
+  "rating": 1000,
+  "title": "Dua Sekak Sekaligus",
+  "setup": "Gajah Anda di a7 menyapu diagonal panjang sampai g1, dan kuda Anda sendiri di d4 menghalanginya.",
+  "hint": "Hitung berapa banyak buah Anda yang akan memberi sekak begitu kuda meninggalkan d4.",
+  "explanation": "## Ide\n\n{{Nxe2+}} adalah sekak ganda: kuda menyerang g1 dari e2 dan gajah menyerangnya di sepanjang diagonal a7-g1. Sekak ganda hanya bisa dijawab dengan langkah raja, jadi Rxe2 tidak sah, dan langkah berikutnya kuda tinggal pergi, setelah memenangkan menteri dengan cuma-cuma."
+}

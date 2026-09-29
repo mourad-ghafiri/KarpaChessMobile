@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-04",
+  "fen": "4k3/P7/8/8/8/1K6/7p/8 w - - 0 1",
+  "solution": [
+    "a8=Q+"
+  ],
+  "title": "Promotion With Check",
+  "setup": "Both sides have a pawn one step from queening, and it is your move.",
+  "hint": "Your new queen must also stop Black's pawn. A check gives it the time.",
+  "explanation": "## The Idea\n\n{{a8=Q+}} promotes with check. Black must spend its move on the king, and then {{Qh1}} blocks the h-pawn one square short of queening. Anything slower, such as {{Kc2}}, lets {{h1=Q}}, and you are left queen against queen.\n\nIn a race, the promotion that gives check is worth a whole tempo."
+}

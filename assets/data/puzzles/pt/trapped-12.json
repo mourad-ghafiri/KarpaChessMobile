@@ -1,0 +1,14 @@
+{
+  "id": "trapped-12",
+  "fen": "3r2k1/pp3ppp/8/2R5/1N6/3N3P/PP3PPK/q7 w - - 0 1",
+  "solution": [
+    "Rc1",
+    "Qxc1",
+    "Nxc1"
+  ],
+  "rating": 1400,
+  "title": "Dama no Canto",
+  "setup": "A dama preta comeu até se enfiar em a1, onde os teus próprios peões de a2 e b2 já a vedam.",
+  "hint": "A linha de fundo está escancarada para ela. Encontra a peça que a ataca e cobre as duas.",
+  "explanation": "## A Ideia\n\n{{Rc1}} ataca a dama e tira-lhe b1. a2 é guardada pelo cavalo de b4, b2 e c1 pelo cavalo de d3, portanto todas as capturas que ela tem perdem-na. {{Qxc1}} {{Nxc1}} é o melhor que há: uma dama por uma torre."
+}

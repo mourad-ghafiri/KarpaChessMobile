@@ -1,0 +1,15 @@
+{
+  "id": "openings-13",
+  "fen": "r1bq1rk1/p3nppp/1pnbp3/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 0 9",
+  "solution": [
+    "e5",
+    "Bxe5",
+    "Nxe5",
+    "Nxe5",
+    "Rxe5"
+  ],
+  "title": "Contate Prima di Stringere",
+  "setup": "Lo schieramento dell'Attacco Est-Indiano è completo, e il Nero ha appena spinto un pedone in b6 con un alfiere in d6. Giocate la spinta centrale per cui questo schieramento è costruito.",
+  "hint": "Una spinta prende spazio e offre un pedone nello stesso momento. Contate attaccanti e difensori su quella casa prima di impegnarvi.",
+  "explanation": "## L'idea\n\n{{e5}} è la spinta attorno a cui è costruito ogni Attacco Est-Indiano, e guadagna spazio con tempo sull'alfiere.\n\nE offre anche un pedone, e prenderlo è un errore. e5 è attaccata dall'alfiere in d6 e dal cavallo in c6, e difesa dal cavallo in f3 e dalla torre in e1. Dopo {{Bxe5}} {{Nxe5}} {{Nxe5}} {{Rxe5}}, il Bianco ha un alfiere per un pedone. Il meglio per il Nero è arretrare l'alfiere e concedere lo spazio.\n\nContate quanto vale ogni attaccante, non solo quanti sono."
+}

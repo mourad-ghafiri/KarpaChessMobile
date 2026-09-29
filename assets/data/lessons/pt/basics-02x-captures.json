@@ -1,0 +1,65 @@
+{
+  "id": "captures",
+  "title": "O Que Recaptura",
+  "summary": "Duas capturas, um salto cada, e só a resposta as distingue",
+  "proof": "first-steps-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Duas Coisas para Capturar",
+      "text": "O teu cavalo em e4 ataca duas peças pretas ao mesmo tempo: a torre em d6 e o bispo em f6. As duas capturas são legais, as duas são um salto, e da casa do cavalo parecem idênticas.\n\nNão são. Uma peça que nada defende está **pendurada**, e capturá-la não te custa rigorosamente nada. Uma peça que um companheiro guarda custa-te aquilo que esse guarda recapturar.\n\nO tabuleiro já diz qual é qual. Di-lo antes de jogares."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Três por Três",
+      "text": "{{Nxf6}} ganha um bispo. Depois {{gxf6}}, e o peão de g7 recaptura o cavalo ali mesmo.\n\nNão se perde nada. Um cavalo vale três, um bispo vale três, e os dois saem do tabuleiro juntos — a conta acaba onde começou.\n\nMas também não se ganha nada. É esse o resultado inteiro da captura: uma jogada gasta e a mesma posição, menos duas peças."
+    },
+    {
+      "type": "play",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "A outra captura não tem resposta nenhuma — joga-a e fica com o que tiras.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "Nada de preto chega a d6: o bispo de f6 não vê essa casa, e o peão de g7 só guarda f6 e h6."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Nove Contra Um",
+      "text": "A mesma pergunta, e agora quem a faz é a dama.\n\nA tua dama em d4 olha por duas diagonais desimpedidas para dois peões pretos, um em a7 e outro em g7. Qualquer das capturas ganha algo que vale um único ponto. Qualquer das capturas põe nove pontos na casa.\n\nÉ isso que faz da dama a pior peça com que ser descuidado. Um cavalo que adivinhe mal troca por igual. Uma dama que adivinhe mal não está a trocar coisa nenhuma."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Uma Jogada de Posse",
+      "text": "{{Qxa7}} ganha um peão e fica com ele exatamente uma jogada. {{Rxa7}} — a torre de a8 guardava aquele peão muito antes de lhe teres posto os olhos em cima, e agora tem a tua dama.\n\nNove pontos por um. Não há aritmética que transforme isso numa troca.\n\nÉ por isso que a dama come em último. Todas as peças que as pretas têm valem menos do que ela, portanto todos os guardas do tabuleiro são guardas que a dama tem de respeitar."
+    },
+    {
+      "type": "play",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "Um desses dois peões não tem nada a olhar para ele — captura esse.",
+      "targetSan": [
+        "Qxg7"
+      ],
+      "hint": "As pretas têm uma torre e dois peões: a torre vigia a coluna a e a oitava linha, e nenhum dos peões guarda o outro."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "title": "Guardado Não Quer Dizer Intocável",
+      "text": "Mais uma posição, e ela desfaz metade do que acabaste de ler.\n\nA dama preta em c5 está guardada: o peão de b6 cobre essa casa e recaptura logo.\n\nCaptura-a na mesma. Dás um cavalo que vale três, tiras uma dama que vale nove, e sais seis pontos acima. Guardado nunca quis dizer seguro. Sempre quis dizer apenas que a captura tem um preço — e o preço tem de ser menor do que o prémio.\n\n> Captura o que nada guarda. Antes de capturares o que alguma coisa guarda, conta o que dás e o que recebes."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "A melhor peça das pretas está guardada, e o guarda é só um peão — captura-a na mesma.",
+      "targetSan": [
+        "Nxc5"
+      ],
+      "hint": "Saem três pontos do tabuleiro e saem nove com eles — a recaptura faz parte do negócio, não é um acidente."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-01",
+  "fen": "2Rb4/k7/6p1/5QR1/6K1/2n5/8/r7 w - - 0 1",
+  "solution": [
+    "Qd7+",
+    "Ka6",
+    "Qc6+",
+    "Ka7",
+    "Ra8#"
+  ],
+  "rating": 1350,
+  "title": "Giring Raja ke Sudut",
+  "setup": "Raja Hitam duduk di a7 di samping gajahnya di d8, dan menteri serta kedua benteng Anda cukup dekat untuk menjangkaunya.",
+  "hint": "Setiap langkah harus berupa sekak. Biarkan menteri menggiring raja kembali ke a7, dan biarkan benteng memberi sekak terakhir.",
+  "explanation": "## Ide\n\n{{Qd7+}} dan {{Qc6+}} tidak berusaha memberi mat. Setiap sekak merampas petak, sampai raja kembali di a7 tanpa apa pun tersisa dan {{Ra8#}} tiba. Perburuan adalah rangkaian sekak yang masing-masing menyingkirkan satu pilihan."
+}

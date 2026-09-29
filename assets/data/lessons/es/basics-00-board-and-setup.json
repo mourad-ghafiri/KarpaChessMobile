@@ -1,0 +1,50 @@
+{
+  "id": "board-and-setup",
+  "title": "Sesenta y cuatro casillas",
+  "summary": "Nombra cualquier casilla de un vistazo y coloca el tablero bien siempre",
+  "proof": "board-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "title": "Cada casilla tiene nombre",
+      "text": "Sesenta y cuatro casillas, y cada una tiene su dirección. Dos cosas te la dan.\n\nLas líneas verticales son las **columnas**, marcadas con letras de la **a** a la **h** de izquierda a derecha según las ve el jugador de Blancas. Las horizontales son las **filas**, numeradas del **1** al **8** empezando por el borde del tablero de las Blancas.\n\nPrimero la letra, después el número. El rey blanco en e1 lo dice claro: columna e, fila 1. La esquina lejana, a la derecha de las Blancas, es h8.\n\nEl peón de a2 puede llegar a {{a3}} y {{a4}}: dos casillas más que ya sabes nombrar en voz alta."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "prompt": "Lee la dirección y lleva un peón a la casilla llamada h3.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Empieza por la columna h, pegada al borde derecho de las Blancas, y luego cuenta hacia arriba: fila 1, fila 2, fila 3."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "Blanca a la derecha",
+      "text": "Las casillas se alternan blancas y negras, y ese dibujo es lo que te dice si el tablero está bien colocado.\n\nAl sentarte, la esquina más cercana a tu mano derecha debe ser blanca. Para las Blancas, esa esquina es h1. Para las Negras, a8.\n\nSi la casilla de tu derecha es negra, todo el tablero ha girado un cuarto de vuelta: un error que a partir de ahora verás en salones y en películas el resto de tu vida."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "La dama en su color",
+      "text": "Cada dama empieza en una casilla de su propio color. La dama blanca en d1 está en casilla blanca; la dama negra en d8, en casilla negra. Misma columna, colores opuestos.\n\nAvanza en línea recta y el color cambia bajo tus pies a cada paso. El peón de d2 está en casilla negra, {{d3}} es blanca, {{d4}} otra vez negra.\n\nAsí que la dama ocupa la casilla central que coincide con su color, y el rey se queda con la que sobra.\n\n> Blanca a la derecha, dama en su color. Dos reglas, y tu tablero no volverá a estar mal colocado."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Cada uno a su puesto",
+      "text": "Treinta y dos piezas, y todas las partidas de la historia han empezado con ellas aquí.\n\nA lo largo de la primera fila de cada bando —la fila 1 para las Blancas, la 8 para las Negras—, desde las esquinas hacia dentro:\n\n- las **torres** en las esquinas, a1 y h1\n- los **caballos** a su lado, b1 y g1\n- los **alfiles** junto a ellos, c1 y f1\n- la **dama** en d1, el **rey** en e1\n\nOcho peones se colocan delante, en la segunda fila, y el ejército negro refleja al blanco al otro lado del tablero.\n\nLas Blancas siempre juegan primero —{{e4}}— y solo entonces responden las Negras, {{e5}}. A partir de ahí se alterna, una jugada cada uno, hasta el final."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "prompt": "Las Blancas juegan primero: abre la partida adelantando dos casillas el peón que está delante de la dama.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "La dama está en d1, así que el peón que tiene delante empieza en d2, y la primera jugada de un peón puede ser de una casilla o de dos."
+    }
+  ]
+}

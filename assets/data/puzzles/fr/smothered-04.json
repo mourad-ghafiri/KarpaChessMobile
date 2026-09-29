@@ -1,0 +1,12 @@
+{
+  "id": "smothered-04",
+  "fen": "2r3nk/pp4pp/1q6/4N3/8/8/PB3PPP/3R2K1 w - - 5 25",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1245,
+  "title": "Deux échecs, un mat",
+  "setup": "Les Noirs viennent de ramener leur cavalier en g8, laissant au roi trois voisins et aucune case vide.",
+  "hint": "Votre cavalier a ici deux échecs possibles ; déterminez lequel le pion h ne peut pas simplement manger.",
+  "explanation": "## L'idée\n\nDeux sauts de cavalier donnent échec, mais {{Ng6+}} tombe sur hxg6. {{Nf7#}} arrive sur la seule case qu'aucune pièce noire ne couvre, et avec g8, g7 et h7 toutes tenues par ses propres pièces, le roi n'a nulle part où aller. Vérifiez toujours si l'échec étouffant peut être pris."
+}

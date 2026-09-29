@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-03",
+  "fen": "8/8/2k5/1RP5/2K5/8/6r1/8 b - - 0 1",
+  "solution": [
+    "Rg4+"
+  ],
+  "rating": 1300,
+  "title": "Déplacez le défenseur",
+  "setup": "Le roi noir attaque déjà la tour en b5, et le roi blanc en c4 est la seule chose qui la défend.",
+  "hint": "La tour est défendue exactement une fois. Trouvez l'échec qui écarte ce défenseur et laisse votre propre tour en sécurité.",
+  "explanation": "## L'idée\n\n{{Rg4+}} repousse le défenseur : après {{Kc3}} {{Kxb5}}, le pion c tombe aussi et les Noirs ont une tour de plus. Le naturel {{Rc2+}} chasse aussi le roi, mais après {{Kb3}} il attaque votre tour, et les tours s'échangent dans une nulle morte."
+}

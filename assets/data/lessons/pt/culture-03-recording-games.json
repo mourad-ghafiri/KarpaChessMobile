@@ -1,0 +1,56 @@
+{
+  "id": "recording-games",
+  "title": "Pôr por Escrito",
+  "summary": "Um boletim é uma memória em que podes confiar",
+  "proof": "culture-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "A Folha ao Lado do Tabuleiro",
+      "text": "As jogadas que te esperam aqui ficam estranhas depressa, e um boletim tem de as aguentar a todas.\n\nNuma partida clássica a contar para o rating és obrigado a registar as jogadas dos dois lados, umas a seguir às outras, em notação algébrica, na folha que o organizador prescrever. Não as tuas jogadas. As dos dois. Essa folha é o que um árbitro lê quando algo é contestado, e a algébrica é o único sistema que uma prova FIDE reconhece — a inglesa mais antiga contava a partir do lado de cada jogador, portanto uma mesma casa tinha dois nomes conforme quem segurava a caneta."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "Primeiro a Jogada, Depois a Caneta",
+      "text": "Podes responder ao teu adversário antes de escreveres seja o que for, e quase todos os jogadores fortes fazem-no — o relógio anda e o tabuleiro é onde o pensamento deve estar. O que não podes é ficar para trás: a tua jogada anterior tem de estar na folha antes de jogares outra.\n\nEscrever uma jogada antes de a jogares é totalmente proibido. A única exceção que vais mesmo encontrar é um pedido de empate, em que quem reclama uma repetição ou a regra das cinquenta jogadas escreve a jogada que tenciona fazer, deixa-a por jogar e chama o árbitro."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "prompt": "Captura com o teu peão de e3 para ele aterrar ao lado do rei branco com xeque.",
+      "targetSan": [
+        "exf2+"
+      ],
+      "hint": "Esse peão tem exatamente uma captura no tabuleiro, e o rei branco está mesmo ao lado da casa onde ele aterraria."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Os Sinais Que Se Acrescentam",
+      "text": "As brancas levaram o rei a e2 em vez de comerem o peão de f2, e agora a caneta tem trabalho.\n\nUma captura leva um `x`, um xeque leva `+`, o mate leva `#`. Quando duas peças iguais podem chegar à mesma casa acrescenta-se de onde a jogada partiu — `Nbd2`, `R1e4` — porque quem tem só a folha na mão tem de poder rejogar a partida sem adivinhar. Uma promoção escreve-se com `=` e a letra da peça que escolheste."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "A Cópia a Papel Químico",
+      "text": "Um boletim é o treino mais barato do xadrez. Rejoga a partida nessa noite e o erro de que não te lembras de ter cometido está ali na tua própria letra, três jogadas antes de teres dado por alguma coisa. Quase todas as provas distribuem folhas em duplicado precisamente por isso: a cópia de cima vai para o organizador, a de baixo vai contigo para casa.\n\nHá um ponto em que a caneta se detém. Abaixo de cinco minutos no teu relógio, sem um incremento de trinta segundos ou mais, deixas de ser obrigado a escrever seja o que for."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Uma Casa, Quatro Partidas",
+      "text": "O teu peão em f2 tem exatamente uma casa de promoção, g1, e quatro peças à escolha. A folha tem de dizer qual escolheste.\n\n{{fxg1=Q}} cria a peça mais forte do tabuleiro e perde ali mesmo: {{Qxd8+}}, e as brancas ficam com a tua dama velha antes de a nova ter feito uma jogada. Às pretas resta uma única resposta legal.\n\n> O mesmo peão, a mesma casa, quatro partidas diferentes. Na página, o que as separa é uma letra depois do `=`."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "prompt": "Promove à única peça que chega a dar xeque, para as brancas nunca terem a jogada que te come a dama.",
+      "targetSan": [
+        "fxg1=N+"
+      ],
+      "hint": "Olha para onde está o rei branco e pergunta qual das quatro peças de promoção o estaria a atacar a partir de g1."
+    }
+  ]
+}

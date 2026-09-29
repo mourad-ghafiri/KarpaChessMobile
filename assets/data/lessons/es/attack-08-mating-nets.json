@@ -1,0 +1,56 @@
+{
+  "id": "mating-nets",
+  "title": "Redes de mate",
+  "summary": "Quita las casillas, luego quita el rey",
+  "proof": "mate-in-2-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Una habitación sin puertas",
+      "text": "Un jaque empuja al rey a algún sitio. Una **red de mate** quita primero ese sitio, para que el jaque, cuando por fin llegue, no tenga adónde empujar.\n\nLo que significa que cuentas las casillas del rey antes de contar tus propios jaques.\n\nEl rey negro de e8 puede ir a d7, d8, e7, f7 o f8. Hay un caballo en d7, una dama en d8, peones en e7 y f7 y un alfil en f8. Todos son de las Negras. La habitación ya está construida, y las Blancas no han gastado ni una jugada en construirla."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "El agujero en la pared",
+      "text": "Una habitación sin puertas no es mate. Alguien tiene que llamar.\n\nEl caballo de e4 está a un salto de d6, y desde d6 ataca e8. Un jaque de caballo no se puede tapar, y este rey no tiene adónde apartarse, así que un caballo que llegara a d6 terminaría la partida en el acto.\n\nSalvo que no la terminaría. {{Nd6+}} {{exd6}}, y el peón simplemente se lo come.\n\nUn solo peón negro es toda la defensa."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "prompt": "Quítale d6 al peón de e7, con una jugada tranquila que no da jaque.",
+      "targetSan": [
+        "Qe2"
+      ],
+      "hint": "El peón de e7 está justo delante de su propio rey: encuentra la pieza que puede volver ilegal una captura en d6."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b KQkq - 2 5",
+      "title": "Cerrarla en silencio",
+      "text": "La dama de e2 no da jaque y no ataca nada. Lo que hace es alinearse en la columna del rey negro, con solo el caballo de e4 en medio.\n\nAsí que las Negras hacen la jugada más natural del tablero y desarrollan el otro caballo. {{Ngf6}} {{Nd6#}}.\n\nEn cuanto el caballo sale de e4, esa columna se abre, y el peón de e7 queda clavado contra su propio rey. Sigue vigilando d6 y ya no tiene permiso para tocarla."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "title": "La red funciona en los dos sentidos",
+      "text": "Ahora es el rey blanco el que está en la caja, y la llenaron las Blancas.\n\nCuenta otra vez. El rey de e1 puede ir a d1, d2, e2, f1 o f2. Una dama en d1, un alfil en e2, una torre en f1, peones en d2 y f2. Cinco casillas, cinco piezas, todas blancas.\n\nUna primera fila abarrotada da sensación de seguridad. Es el mismo abarrotamiento que acaba de dar mate a las Negras."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "title": "Quién tiene libertad para capturar",
+      "text": "Las casillas son media red. La otra mitad es lo que pasa cuando llega tu pieza: ¿quién tiene permiso para capturarla?\n\nLa dama de e4 y el rey de e1 están en una misma columna con el alfil de e2 entre ellos. Ese alfil está clavado. No puede moverse legalmente, así que todas las casillas que parece proteger no las protege nadie.\n\nCuenta las salidas, luego los defensores, y pregúntate si los defensores están libres.\n\n> El mate rara vez es la jugada más ruidosa. Es la que deja al rey sin sitio donde quedarse."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "prompt": "El rey blanco está emparedado por sus propias piezas, así que da el único jaque al que nadie tiene libertad para responder.",
+      "targetSan": [
+        "Nf3#"
+      ],
+      "hint": "El rey blanco tiene cinco casillas vecinas y en las cinco hay piezas blancas, así que el jaque solo tiene que ser imposible de capturar."
+    }
+  ]
+}

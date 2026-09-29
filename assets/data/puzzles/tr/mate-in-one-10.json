@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-10",
+  "fen": "rnb2b1r/ppk2ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+  "solution": [
+    "Bd8#"
+  ],
+  "rating": 865,
+  "title": "Şahın Arkasında",
+  "setup": "Siyahın şahı c7'ye kaçmış; orada kendi atı ile fili b8 ile c8'i kapatıyor.",
+  "hint": "d dikeyini kaleniz çoktan mühürledi; öyleyse son çapraz kareyi elinden alan şahı arayın.",
+  "explanation": "## Fikir\n\nd1'deki kale d6 ile d7'yi kapsıyor; siyahın kendi atı ile fili b8 ile c8'i kapatıyor ve geriye b6 kalıyor. {{Bd8#}} çaprazın uzak ucundan şah çeker ve yolda b6'yı kapsar. Mat karesi şahın önünde değil, arkasında da olabilir."
+}

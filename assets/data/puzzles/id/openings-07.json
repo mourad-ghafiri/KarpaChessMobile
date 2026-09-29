@@ -1,0 +1,13 @@
+{
+  "id": "openings-07",
+  "fen": "r2qkbnr/ppp2ppp/2np4/4N3/2B1P3/2N4P/PPPP1PP1/R1BbK2R w KQk - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Nd5#"
+  ],
+  "title": "Jebakan Légal",
+  "setup": "Putih mengabaikan jepitan dan menangkap di e5, dan Hitam baru saja memetik hasilnya dengan mengambil menteri Anda.",
+  "hint": "Menteri sudah hilang dan itu tak penting. Hitung petak-petak di sekitar e8 dan temukan sekak yang merebut petak bebas terakhir.",
+  "explanation": "## Ide\n\nTiga buah ringan hendak memberi mat kepada raja yang seluruh pasukannya masih ada di papan.\n\n{{Bxf7+}} hanya menyisakan satu langkah bagi Hitam, {{Ke7}}: d8 dan f8 ditempati menteri dan gajah Hitam sendiri, dan d7 dikuasai kuda di e5. Lalu {{Nd5#}}: kuda memberi sekak dan menguasai f6, gajah menguasai e6 dan e8, dan d6 ditempati pion Hitam sendiri.\n\nKuda di e5 tak pernah soal pion. Dialah buah yang merebut d7.\n\nHitung petak-petak pelarian, bukan materinya."
+}

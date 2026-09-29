@@ -1,0 +1,67 @@
+{
+  "id": "check-and-mate",
+  "title": "Oynayacak Bir Şey Kalmaz",
+  "summary": "Cevap verilmesi zorunlu olan tek saldırı — ve cevap verilemeyen tek saldırı",
+  "proof": "mate-in-1-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "Cevap Vermek Zorunda Olduğunuz Saldırı",
+      "text": "Bir kaleye saldırın, rakibinizin seçeneği olur: onu oynatır, korur ya da bırakıp başka yerde daha büyüğünü alır.\n\nŞaha saldırın, hiçbir seçenek kalmaz. Şah asla alınmaz, bu yüzden kurallar saldırının öylece durmasına izin vermez — rakibinizin yapabileceği tek şey ona cevap vermektir. Buna **şah** denir.\n\n{{Qh5+}}, e8'deki siyah şahı çaprazdan ateş altına alır. Şah {{Kd8}} ile hattan çıkar ve parti devam eder. Şah çekildiğini `+` işareti yazar."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "Cevap Kalmadığında",
+      "text": "**Mat**, aynı saldırının bütün cevapları tükenmiş hâlidir. Şah saldırı altındadır ve saldırı altındaki tarafın hiçbir kurallı hamlesi yoktur — ne şahla ne de başka bir taşla. Parti orada biter.\n\nBunu `#` işareti gösterir ve `#` işaretinden sonra hiçbir şey yazılmaz.\n\nTahta başında bir partiyi kazanmanın tek yolu mattır. Partiler bir oyuncunun terk etmesiyle ya da süresinin bitmesiyle de sona erer; bunların ikisi de kendi dersinin konusu."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "prompt": "Şahınız d7, e7 ve f7 karelerini zaten tutuyor — kalan iki kareyi tek hamlede elinden alın.",
+      "targetSan": [
+        "Qb8#",
+        "Qh8#"
+      ],
+      "hint": "Geriye kalan iki kare de sekizinci yatayda ve vezirin oraya ulaşan iki çaprazı var."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "title": "Bu Neden İşe Yaradı",
+      "text": "Orada vezire özgü bir numara yoktu. Aynı iki taşı bir dikey yana kaydırın, mekanizma görünsün.\n\nd8'deki siyah şahın beş komşusu var. Bunlardan üçü — c7, d7 ve e7 — aynı zamanda d6'daki beyaz şaha değiyor ve hiçbir şah bir diğerinin yanında duramaz; yani o üç kare beyaz daha hamle yapmadan kapalıydı.\n\nGeriye ikisi kalıyor: c8 ve e8; ikisi de şahla aynı yatayı paylaşıyor. Sekizinci yatay boyunca çekilen tek bir şah bütün hattı kaplar."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "prompt": "Yine iki kare kaldı — sekizinci yatay boyunca ikisini birden alan şahı bulun.",
+      "targetSan": [
+        "Qa8#",
+        "Qg8#"
+      ],
+      "hint": "Beyazın kendi şahı d dikeyini kapatıyor, yani vezirin o yataya ulaşmak için çaprazdan gitmesi gerekiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Kendi Piyonlarının Arasına Kilitlenmiş",
+      "text": "Her zaman bir veziriniz olmayacak. Kulüp satrancında en sık görülen mat bir kale, boş bir yatay ve hiçbir risk ister: **arka yatay matı**.\n\ng8'deki siyah şah kendi f7, g7 ve h7 piyonlarının arkasına sinmiş. Bu üçü tahtayı tırmanan her şeyi dışarıda tutar — ve şaha tam olarak iki kare bırakır: f8 ile h8, ikisi de sekizinci yatayda.\n\nO yatay baştan sona boş. a dikeyi de öyle. Siyahın ikisini de gözleyen hiçbir şeyi yok."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Bir Pencere Açın",
+      "text": "Bunun tadını fazla çıkarmadan önce beyazın g1'deki kendi şahına bakın. Aynı köşe, aynı üç piyon, aynı iki kare — tek fark, beyazın bir kalesinin olması, siyahın olmaması.\n\nTek bir piyon hamlesi bunu düzeltir: {{h3}}. Bu hamle şaha h2'de bir **kaçış karesi** verir ve birinci yataya inen bir kale, partinin sonu değil, cevaplanacak bir şah hâline gelir.\n\n> Yedek bir hamleniz varken o piyonu erkenden sürün. Bu dersin bittiği mat, bunu hiç yapmamış oyuncuları yakalayan mattır."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Siyah hiç kaçış karesi açmadı — partiyi o piyonların arkasındaki yatayda bitirin.",
+      "targetSan": [
+        "Ra8#"
+      ],
+      "hint": "Siyahın hiçbir taşı sekizinci yatayı korumuyor ve araya hiçbir şey giremiyor."
+    }
+  ]
+}

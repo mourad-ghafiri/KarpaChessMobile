@@ -1,0 +1,13 @@
+{
+  "id": "culture-01",
+  "fen": "rnbqkbn1/ppppp3/7r/6pp/3P1p2/3BP1B1/PPP2PPP/RN1QK1NR w KQq - 2 7",
+  "solution": [
+    "Qxh5+",
+    "Rxh5",
+    "Bg6#"
+  ],
+  "title": "El orden de las operaciones",
+  "setup": "Las Negras han lanzado tres peones hacia delante y el rey sigue en casa. Dos de tus piezas quieren la misma esquina.",
+  "hint": "Tu dama y tu alfil pueden llegar cada uno a la diagonal que termina en el rey negro. Pregúntate a cuál de los dos puede capturar la torre de h6.",
+  "explanation": "## La idea\n\nLa dama de d1 y el alfil de d3 quieren los dos la diagonal hacia e8, y solo un orden funciona.\n\n{{Qxh5+}} va primero. Tapar con {{Rg6}} pierde enseguida, y tras {{Rxh5}} la torre ha salido de la sexta fila, así que nada protege g6: {{Bg6#}}. El alfil cubre f7, y los propios peones, la dama y el alfil negros ocupan el resto.\n\nEmpieza con el alfil y {{Bg6+}} recibe {{Rxg6}}. Pieza tocada, pieza movida: no podrás cambiar de idea."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-12",
+  "fen": "8/4P3/1R5K/8/8/4k3/8/4r3 b - - 0 1",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1600,
+  "title": "Fora da Coluna da Promoção",
+  "setup": "A torre preta segura o peão e a partir de e1 e o rei tem de correr para trás, mas só um trajeto sobrevive.",
+  "hint": "A tua torre guarda a casa de promoção pela coluna. Que passo de regresso a casa não tapa essa linha nem perde um tempo?",
+  "explanation": "## A Ideia\n\nA torre segura e8 pela coluna, portanto o rei não pode ficar nela: {{Ke4}} perde para {{e8=Q+}}, um xeque que espeta o rei à torre atrás dele. De d3 ou f3, {{Rb7}} ganha às brancas o tempo de que precisam. Depois de {{Kd4}}, {{e8=Q}} {{Rxe8}} deixa só um final de torres empatado."
+}

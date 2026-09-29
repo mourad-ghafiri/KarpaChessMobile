@@ -1,0 +1,67 @@
+{
+  "id": "check-and-mate",
+  "title": "Tak Ada Lagi yang Bisa Dimainkan",
+  "summary": "Satu serangan yang wajib dijawab — dan satu yang tak bisa dijawab",
+  "proof": "mate-in-1-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "Serangan yang Wajib Dijawab",
+      "text": "Serang sebuah benteng dan lawan Anda punya pilihan: memindahkannya, melindunginya, atau membiarkannya dan mengambil sesuatu yang lebih besar di tempat lain.\n\nSerang raja dan sama sekali tak ada pilihan. Raja tak pernah ditangkap, jadi aturan tak pernah membiarkan serangan itu tetap berdiri — menjawabnya adalah satu-satunya hal yang boleh dilakukan lawan Anda. Itulah **sekak**.\n\n{{Qh5+}} menempatkan raja hitam di e8 di bawah tembakan dari diagonal. Ia keluar dari garis itu dengan {{Kd8}}, dan partai berlanjut. Tanda `+` adalah cara sekak dicatat."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "Ketika Tak Ada Jawaban",
+      "text": "**Sekakmat** adalah serangan yang sama dengan semua jawaban lenyap. Raja diserang, dan pihak yang diserang sama sekali tak punya langkah sah — tidak dengan raja, tidak dengan buah lain mana pun. Partai berakhir di sana.\n\nTanda `#` menandainya, dan tak ada apa pun yang pernah ditulis sesudah `#`.\n\nSekakmat adalah satu-satunya cara memenangkan partai di papan. Partai juga berakhir ketika seorang pemain menyerah atau kehabisan waktu, dan keduanya punya pelajaran tersendiri."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "prompt": "Raja Anda sudah menguasai d7, e7 dan f7 — rebut dua petak terakhir dalam satu langkah.",
+      "targetSan": [
+        "Qb8#",
+        "Qh8#"
+      ],
+      "hint": "Kedua petak yang tersisa berada di baris kedelapan, dan menteri punya dua diagonal yang mencapainya."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "title": "Mengapa Itu Berhasil",
+      "text": "Tak ada trik menteri di sana. Geser kedua buah yang sama satu lajur ke samping dan cara kerjanya terlihat.\n\nRaja hitam di d8 punya lima tetangga. Tiga di antaranya — c7, d7 dan e7 — juga bersentuhan dengan raja putih di d6, dan tak ada raja yang boleh berdiri di sebelah raja lain, jadi ketiga petak itu sudah tertutup bahkan sebelum Putih melangkah.\n\nTersisa dua, c8 dan e8, dan keduanya berada di baris yang sama dengan raja itu sendiri. Satu sekak di sepanjang baris kedelapan menguasai seluruh garis itu."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "prompt": "Dua petak tersisa lagi — temukan sekak di sepanjang baris kedelapan yang merebut keduanya.",
+      "targetSan": [
+        "Qa8#",
+        "Qg8#"
+      ],
+      "hint": "Raja Putih sendiri menghalangi lajur d, jadi menteri harus menempuh diagonal untuk mencapai baris itu."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Terkunci oleh Pionnya Sendiri",
+      "text": "Anda tak akan selalu punya menteri. Mat yang paling sering terjadi di catur klub hanya memerlukan benteng, baris yang kosong, dan tanpa risiko sedikit pun: **mat baris belakang**.\n\nRaja hitam di g8 bersembunyi di balik pionnya sendiri di f7, g7 dan h7. Ketiganya menghalau apa pun yang naik dari bawah papan — dan hanya menyisakan dua petak bagi raja, f8 dan h8, keduanya di baris kedelapan.\n\nBaris itu kosong dari ujung ke ujung. Begitu pula lajur a. Hitam tak punya apa pun yang mengawasi keduanya."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Bukalah Jendela",
+      "text": "Lihat dulu raja Putih sendiri di g1 sebelum terlalu menikmatinya. Sudut yang sama, tiga pion yang sama, dua petak yang sama — bedanya, Putih punya benteng dan Hitam tidak.\n\nSatu langkah pion memperbaikinya: {{h3}}. Itu memberi raja **petak pelarian** di h2, dan benteng yang mendarat di baris pertama menjadi sekak yang harus dijawab, bukan akhir partai.\n\n> Dorong pion itu sejak awal, selagi Anda punya langkah luang. Mat yang menutup pelajaran ini adalah mat yang menjebak para pemain yang tak pernah melakukannya."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Hitam tak pernah membuka petak pelarian — akhiri partai di baris di belakang pion-pion itu.",
+      "targetSan": [
+        "Ra8#"
+      ],
+      "hint": "Tak ada buah hitam yang melindungi baris kedelapan, dan tak ada yang bisa masuk di antaranya."
+    }
+  ]
+}

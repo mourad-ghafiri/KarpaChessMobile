@@ -1,0 +1,11 @@
+{
+  "id": "forks-03",
+  "fen": "4k3/8/8/3q4/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nf6+"
+  ],
+  "title": "El caballo da una horquilla a la realeza",
+  "setup": "El rey negro de e8 y la dama de d5 están los dos a un salto de caballo de la misma casilla.",
+  "hint": "Busca una casilla a la que pueda llegar el caballo y que golpee **a la vez** al rey y a la dama.",
+  "explanation": "## La idea\n\nUna **horquilla real**: rey y dama golpeados por una sola jugada. La casilla f6 está a un salto de caballo de e8 y a un salto de caballo de d5, así que caer ahí toca a los dos a la vez.\n\nA {{Nf6+}} no se le puede tapar, porque un caballo nunca cruza las casillas intermedias, y ni el rey ni la dama llegan a f6 para capturarlo. El rey tiene que moverse, y {{Nxd5}} recoge la dama.\n\nEncuentra la casilla que está a un salto de caballo del rey y a un salto de caballo de algo valioso."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "knight-moves",
+  "title": "O L do Cavalo",
+  "summary": "A única peça que passa por cima do muro em vez de o contornar",
+  "proof": "first-steps-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Duas Casas, Depois Uma",
+      "text": "Duas casas, depois uma casa para o lado. É isso, e sempre foi isso, uma jogada de cavalo.\n\nO cavalo é a única peça que se recusa a viajar em linha reta. Não desliza ao longo de uma linha nem de uma coluna — salta, de onde está para onde aterra, e não toca em nada pelo meio.\n\nVê-o ir: {{Nf6}}. Duas casas tabuleiro acima a partir de e4, depois uma para a direita. Um **L**, desenhado numa só jogada."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Oito Casas de Aterragem",
+      "text": "Conta-as a partir de e4: {{Nd6}}, {{Nf6}}, {{Nc5}}, {{Ng5}}, {{Nc3}}, {{Ng3}}, {{Nd2}}, {{Nf2}}. Oito setas a sair da mesma casa ao mesmo tempo, e qualquer uma das oito é uma jogada legal.\n\nAgora põe o mesmo cavalo na casa do canto, a1, e conta outra vez: duas. Seis dos seus L saem pela borda do tabuleiro e levam as casas com eles.\n\nPor isso um cavalo quer o meio. É a única peça cuja força se lê na morada."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Salta com o cavalo para onde quer que um L o leve a partir de e4.",
+      "targetSan": [
+        "Nd6",
+        "Nf6",
+        "Nc5",
+        "Ng5",
+        "Nc3",
+        "Ng3",
+        "Nd2",
+        "Nf2"
+      ],
+      "hint": "Conta duas casas ao longo de uma linha ou de uma coluna e depois vira uma casa para o lado. Qualquer direção serve."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Nunca Duas Vezes na Mesma Cor",
+      "text": "A casa e4 é clara. Cada uma das oito casas que o cavalo acabou de alcançar é escura.\n\nIsso vale em todo o tabuleiro. Um cavalo muda a cor debaixo dos pés a cada salto, e não tem voto na matéria.\n\nO que te dá uma conta de graça: o que estiver numa casa clara está fora do alcance de um cavalo numa casa clara. Fora do alcance nesta jogada, pelo menos. Na jogada seguinte é ao contrário."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Por Cima do Muro",
+      "text": "Todas as partidas começam com um engarrafamento. Os bispos, as torres e a dama estão selados atrás dos seus próprios peões, e cada um deles tem de esperar que um peão saia da estrada.\n\nOs cavalos não esperam. {{Nf3}} atravessa a linha de peões logo na primeira jogada, e o peão de f2 nem sente a corrente de ar.\n\nÉ por isso que os cavalos são tantas vezes as primeiras peças a deixar a linha de fundo.\n\n> Toda a gente precisa de uma porta. O cavalo passa por cima do muro."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3p4/3pp3/2N5/8/8/4K3 w - - 0 1",
+      "prompt": "O teu cavalo está atacado: sai da casa e come o peão preto que ninguém está a guardar.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "Um cavalo ignora o que está no caminho, por isso olha para lá da muralha de peões — e depois pergunta qual dos peões de trás tem um segundo peão pronto a recapturar."
+    }
+  ]
+}

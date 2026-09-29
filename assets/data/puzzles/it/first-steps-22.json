@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-22",
+  "fen": "6k1/5p1p/1n2p1p1/8/6Q1/8/3b1PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qd4"
+  ],
+  "title": "La Casa Centrale Perfetta",
+  "setup": "Un cavallo nero in b6 e un alfiere in d2 stanno indifesi, ma la vostra donna non può ancora prendere né l'uno né l'altro. Trovate la casa che li attacca tutti e due.",
+  "hint": "Una donna attacca lungo colonne e diagonali insieme. Cercate la casa dove una colonna verso un pezzo incontra una diagonale verso l'altro.",
+  "explanation": "## L'idea\n\nDa {{Qd4}} la donna colpisce l'alfiere in d2 dritto lungo la colonna e il cavallo in b6 lungo la diagonale. Nessuno dei due pezzi neri attacca d4, e nessuno dei due difende l'altro.\n\nIl tentativo migliore del Nero puntella il cavallo con l'alfiere da a5. La donna si sposta semplicemente in c5 e li colpisce di nuovo tutti e due, e uno dei due cade lo stesso.\n\nQualunque altra mossa dà al Nero il tempo di mettere via tutti e due i pezzi."
+}

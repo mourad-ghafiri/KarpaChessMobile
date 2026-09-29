@@ -1,0 +1,13 @@
+{
+  "id": "endgames-01",
+  "fen": "8/8/8/8/3K4/8/4Q3/k7 w - - 0 1",
+  "solution": [
+    "Kc3",
+    "Kb1",
+    "Qb2#"
+  ],
+  "title": "La Donna Non Ce la Fa da Sola",
+  "setup": "Donna e re contro un re nudo nell'angolo. È tutto pronto tranne il pezzo che deve concludere.",
+  "hint": "Una mossa tranquilla lascia al Nero esattamente una casa legale — quale pezzo può togliergli il resto una volta che sta lì?",
+  "explanation": "## L'idea\n\nLa donna in e2 possiede la seconda traversa, quindi il re nero ha b1 e nient'altro. Quello che la donna non può fare è coprire a1, b1 e b2 insieme. È a questo che serve il re.\n\n{{Kc3}} lo porta su. Il Nero ha una mossa legale, {{Kb1}}, e {{Qb2#}} atterra accanto al re su una casa che il re bianco difende.\n\nTogliere invece b1 con {{Qc2}} è stallo. Contate le case del re nudo prima di ogni mossa tranquilla: se la risposta è una, può toglierla solo uno scacco."
+}

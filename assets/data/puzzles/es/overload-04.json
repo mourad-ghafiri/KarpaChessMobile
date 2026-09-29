@@ -1,0 +1,14 @@
+{
+  "id": "overload-04",
+  "fen": "2r3k1/5ppp/3R4/8/3Q4/1R6/PP6/K5b1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Qxd8#"
+  ],
+  "rating": 1370,
+  "title": "Primero la torre, luego la dama",
+  "setup": "Tu torre de d6 y tu dama de d4 miran por la columna d hacia una última fila que solo defiende la torre de c8.",
+  "hint": "El orden importa. Decide qué pieza se puede permitir que se la coman y cuál tiene que rematar.",
+  "explanation": "## La idea\n\n{{Rd8+}} es la barata: {{Rxd8}} es forzada y la torre de c8 deja la fila que defendía. {{Qxd8#}} remata. Abre con la pieza de la que puedes prescindir, y guarda la que da mate."
+}

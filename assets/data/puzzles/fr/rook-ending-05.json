@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-05",
+  "fen": "6R1/8/5r2/K7/3P3k/8/8/8 b - - 0 1",
+  "solution": [
+    "Rd6"
+  ],
+  "rating": 1390,
+  "title": "Sur son chemin",
+  "setup": "Le roi noir est échoué en h4, donc la tour doit régler seule le cas du pion d libre.",
+  "hint": "Attaquer le pion n'est pas l'arrêter. Sur quelle case le pion est-il obligé de venir buter ?",
+  "explanation": "## L'idée\n\n{{Rd6}} plante la tour juste devant le pion, et {{d5}} tombe maintenant sur {{Rxd5+}}. Frappez-le de côté par {{Rf4}} et les Blancs répondent {{Rd8}}, en le défendant par-derrière, après quoi le pion remonte l'échiquier."
+}

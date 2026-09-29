@@ -1,0 +1,11 @@
+{
+  "id": "strategy-01",
+  "fen": "rnbqk2r/p1p2pp1/1p2p1n1/3pP2p/3P3P/P1P3Q1/2P2PP1/R1B1KBNR b KQkq - 1 9",
+  "solution": [
+    "Ba6"
+  ],
+  "title": "El prisionero de c8",
+  "setup": "Tu alfil de c8 está encerrado detrás de tus propios peones, mientras que el alfil blanco de f1 tiene el camino libre. Ofrece tu peor pieza por la mejor de las Blancas.",
+  "hint": "Tu peón de b ya se ha apartado. ¿Adónde lleva la diagonal que abrió, y qué alfil está al otro extremo?",
+  "explanation": "## La idea\n\nEl alfil de c8 es la peor pieza negra: los peones de d5 y e6 están en su color y no se van a mover nunca. El alfil blanco de f1 es todo lo contrario, y desde d3 atacaría al caballo de g6.\n\n{{Ba6}} ofrece uno por otro. Si las Blancas comen, el caballo recaptura desde b8 y pasa un tiempo en la banda, pero las Negras han cambiado la pieza que no hacía nada por la pieza que estaba a punto de hacer más."
+}

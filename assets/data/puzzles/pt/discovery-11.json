@@ -1,0 +1,12 @@
+{
+  "id": "discovery-11",
+  "fen": "r6k/ppp5/7K/8/8/1B6/PP6/7R w - - 0 1",
+  "solution": [
+    "Kg6#"
+  ],
+  "rating": 1330,
+  "title": "O Rei Descobre",
+  "setup": "A tua torre em h1 olha pela coluna h para o rei preto, e a peça no caminho é o teu próprio rei.",
+  "hint": "Seja o que for pode estar à frente de uma bateria, até um rei. Que casa mantém todas as fugas cobertas?",
+  "explanation": "## A Ideia\n\n{{Kg6#}} é um xeque à descoberta: o rei sai da coluna h e a torre dá xeque de h1. g7 e h7 estão cobertas pelo próprio rei, g8 pelo bispo de b3, e nada pode tapar na coluna h vazia. Kg5 descobre o mesmo xeque, mas depois g7 fica livre."
+}

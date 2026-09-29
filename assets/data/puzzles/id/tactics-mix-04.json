@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-04",
+  "fen": "4k3/P7/8/8/8/1K6/7p/8 w - - 0 1",
+  "solution": [
+    "a8=Q+"
+  ],
+  "title": "Promosi dengan Sekak",
+  "setup": "Kedua pihak punya pion yang tinggal satu langkah dari menjadi menteri, dan giliran Anda melangkah.",
+  "hint": "Menteri baru Anda juga harus menghentikan pion Hitam. Sekak memberinya waktu.",
+  "explanation": "## Ide\n\n{{a8=Q+}} berpromosi dengan sekak. Hitam harus memakai langkahnya untuk raja, lalu {{Qh1}} menghalangi pion h satu petak sebelum menjadi menteri. Apa pun yang lebih lambat, seperti {{Kc2}}, membiarkan {{h1=Q}}, dan Anda tertinggal dengan menteri melawan menteri.\n\nDalam perlombaan, promosi yang memberi sekak bernilai satu tempo penuh."
+}

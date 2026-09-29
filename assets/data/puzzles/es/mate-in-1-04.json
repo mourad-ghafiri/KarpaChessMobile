@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-04",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Vía libre hacia el rey",
+  "setup": "La columna d está vacía desde tu torre hasta la octava fila, y los peones negros no le han dejado ventana al rey.",
+  "hint": "Desliza la torre a la última fila abierta: los peones de f7, g7 y h7 hacen el resto.",
+  "explanation": "## La idea\n\nUn **mate del pasillo** clásico. La columna d es una autopista despejada y el rey negro se asfixia detrás de sus propios peones.\n\n{{Rd8#}}: la torre cubre f8 y toda la octava fila, en f7, g7 y h7 están los propios peones negros, y nada puede interponerse entre d8 y g8. Cuando tu torre y el rey rival comparten una última fila abierta, cuenta primero las casillas de escape."
+}

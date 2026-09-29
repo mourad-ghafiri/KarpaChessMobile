@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-03",
+  "fen": "rnb1k1nr/ppp2ppp/3b4/8/8/2N3P1/PPPPP3/R1BQKBNR b KQkq - 0 6",
+  "solution": [
+    "Bxg3#"
+  ],
+  "rating": 655,
+  "title": "La dama fue el precio",
+  "setup": "Entregaste la dama en g3 en la jugada anterior, y a las Blancas no les queda peón en f2 ni en h2.",
+  "hint": "Las Blancas ya no tienen peón en f2. Encuentra la pieza que cubrirá ese agujero en cuanto llegue.",
+  "explanation": "## La idea\n\nSin f2 ni h2, la diagonal h4–e1 es de las Negras. {{Bxg3#}} se come el último peón de ese camino y nada puede recapturar: el caballo de g1 no llega a g3 y la torre de h1 está en la línea equivocada. f2 es la única casilla de escape, y el alfil la cubre."
+}

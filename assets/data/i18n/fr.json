@@ -1,0 +1,649 @@
+{
+  "language": {
+    "name": "Français"
+  },
+  "ui": {
+    "brand": {
+      "title": "KarpaChess"
+    },
+    "button": {
+      "flip": "Retourner",
+      "undo": "Annuler",
+      "hint": "Indice",
+      "dismiss": "Annuler",
+      "chooseFile": "Choisir un fichier…",
+      "settings": "Paramètres",
+      "close": "Fermer",
+      "back": "Retour",
+      "next": "Suivant",
+      "save": "Enregistrer"
+    },
+    "label": {
+      "difficulty": "Difficulté",
+      "playAs": "Jouer avec",
+      "timeControl": "Cadence"
+    },
+    "placeholder": {
+      "pgnInput": "Collez un PGN ou une liste de coups (ex : e4 e5 Nf3 Nc6)…",
+      "drawText": "Saisir…"
+    },
+    "aria": {
+      "capturedByWhite": "Pièces capturées par les Blancs",
+      "capturedByBlack": "Pièces capturées par les Noirs",
+      "chessBoard": "Échiquier",
+      "dismissHint": "Fermer l'indice"
+    },
+    "toast": {
+      "parseFail": "Impossible d'analyser : {error}",
+      "fileTooLarge": "Ce fichier est trop volumineux pour être importé."
+    }
+  },
+  "game": {
+    "result": {
+      "stalemate": "Pat",
+      "draw": "Nulle",
+      "timeout": "Temps écoulé"
+    },
+    "resultSub": {
+      "whiteWins": "Les Blancs gagnent",
+      "blackWins": "Les Noirs gagnent",
+      "stalemate": "Nulle par pat",
+      "fiftyMove": "Règle des 50 coups",
+      "insufficient": "Matériel insuffisant",
+      "repetition": "Triple répétition",
+      "whiteWinsTime": "Les Blancs gagnent au temps",
+      "blackWinsTime": "Les Noirs gagnent au temps"
+    },
+    "side": {
+      "white": "Blancs",
+      "black": "Noirs"
+    },
+    "playerDefault": {
+      "bottom": "Vous"
+    },
+    "playAsOption": {
+      "white": "Blancs",
+      "random": "Aléatoire",
+      "black": "Noirs"
+    },
+    "timeControl": {
+      "unlimited": "Illimité"
+    },
+    "difficulty": {
+      "1": "Débutant",
+      "2": "Occasionnel",
+      "3": "Club",
+      "4": "Pleine puissance"
+    }
+  },
+  "chess": {
+    "piece": {
+      "p": "pion",
+      "n": "cavalier",
+      "b": "fou",
+      "r": "tour",
+      "q": "dame",
+      "k": "roi"
+    },
+    "pieceCapital": {
+      "p": "Pion",
+      "n": "Cavalier",
+      "b": "Fou",
+      "r": "Tour",
+      "q": "Dame",
+      "k": "Roi"
+    },
+    "direction": {
+      "kingside": "aile roi",
+      "queenside": "aile dame"
+    }
+  },
+  "hint": {
+    "checkmate": "Donne <b>échec et mat</b>. Terminez la partie !",
+    "castle": "Roque sur l'{dir} — le roi se met à l'abri derrière un rideau de pions.",
+    "promote": "Pousse jusqu'à la dernière rangée et promeut en <b>{piece}</b>.",
+    "capture": "<b>{piece}</b> prend <b>{target}</b>.",
+    "develop": "Développe votre <b>{piece}</b> en <b>{square}</b>, améliorant l'activité et visant le centre.",
+    "pawn": "Avance votre <b>pion</b> en <b>{square}</b>, prenant de l'espace.",
+    "rook": "Active votre <b>tour</b> en <b>{square}</b> — les colonnes ouvertes adorent les tours.",
+    "queen": "Amène la <b>dame</b> en <b>{square}</b> avec un but précis.",
+    "quiet": "Améliore votre <b>{piece}</b> en <b>{square}</b>.",
+    "checkSuffix": " Donne aussi <b>échec</b>."
+  },
+  "coach": {
+    "whisper": {
+      "tip5": "Cherchez les pièces sans défenseur — les vôtres et celles de l'adversaire."
+    },
+    "builtin": {
+      "bestMove": {
+        "recommendation": "Ma recommandation : <b>{move}</b>.",
+        "noEngine": "Le moteur n'a pas répondu. Voici ce que la position elle-même montre.",
+        "whyHeader": "<b>Pourquoi c'est pertinent ici :</b>",
+        "castle": "• Le roi est encore au centre — roquer est une priorité absolue.",
+        "develop": {
+          "one": "• Une pièce mineure est encore en {squares} — développez-la.",
+          "other": "• Pièces mineures encore en {squares} — développez-les."
+        },
+        "center": "• Aucun pion sur les quatre cases centrales — une poussée de pion central est précieuse.",
+        "loose": {
+          "one": "• Chez l'adversaire — <b>une pièce non défendue</b> : {list}. Cherchez de quoi gagner du matériel.",
+          "other": "• Chez l'adversaire — <b>des pièces non défendues</b> : {list}. Cherchez de quoi gagner du matériel."
+        },
+        "oppKing": "• Le roi adverse est <b>{score}</b> — les coups d'attaque fonctionnent souvent.",
+        "ownKing": "• Votre roi est sous le feu — envisagez d'abord la défense.",
+        "passedEnd": {
+          "one": "• Vous avez <b>un pion passé</b> en {squares} — en avant !",
+          "other": "• Vous avez <b>des pions passés</b> en {squares} — en avant !"
+        },
+        "activeKing": "• Activez votre roi — en finale, c'est une pièce combattante.",
+        "ahead": {
+          "one": "• Vous avez une avance de {n} point — échangez les pièces, gardez les pions.",
+          "other": "• Vous avez une avance de {n} points — échangez les pièces, gardez les pions."
+        },
+        "behind": {
+          "one": "• Vous avez un retard de {n} point — créez des complications.",
+          "other": "• Vous avez un retard de {n} points — créez des complications."
+        },
+        "evalSuffix": "_Éval : {eval}_"
+      },
+      "tactics": {
+        "header": "<b>Analyse tactique pour les {side}</b>",
+        "loose": {
+          "one": "L'adversaire a {n} pièce non défendue : {list}.",
+          "other": "L'adversaire a {n} pièces non défendues : {list}."
+        },
+        "defended": "Les pièces adverses semblent défendues. Tactiques plus difficiles — cherchez des clouages, des attractions ou des coups de dégagement.",
+        "exposedKing": "Leur roi est <b>{score}</b> ({notes}) — des schémas de mat peuvent se cacher.",
+        "openLines": "lignes ouvertes",
+        "queenTarget": "Leur dame en <b>{square}</b> — pouvez-vous l'attaquer à peu de frais pour gagner du tempo ?",
+        "engineSuggests": "Le moteur suggère <b>{move}</b> — ce coup correspond-il à l'un des schémas ci-dessus ?",
+        "footer": "_Entraînez votre œil à repérer ces trois éléments à chaque coup : pièces non défendues, rois exposés, défenseurs surchargés._"
+      },
+      "plan": {
+        "header": "<b>Plan pour les {side}</b> _({phase})_",
+        "developMinors": {
+          "one": "Développez la pièce mineure restante depuis {squares}.",
+          "other": "Développez les pièces mineures restantes depuis {squares}."
+        },
+        "castle": "Roquez — la sécurité du roi d'abord.",
+        "queenEarly": "Attention — la dame a bougé avant que toutes les pièces mineures ne soient développées. Ne la laissez pas se faire chasser.",
+        "centerPawn": "Placez un pion sur les quatre cases centrales (d4/e4/d5/e5).",
+        "kingDanger": "Votre roi est en danger — améliorez la défense avant d'attaquer.",
+        "oppositeWings": "Les deux rois ont roqué — s'ils sont sur des ailes opposées, lancez vos pions à l'assaut du roi adverse.",
+        "pushPassed": {
+          "one": "Poussez votre pion passé en {squares}.",
+          "other": "Poussez vos pions passés en {squares}."
+        },
+        "isolated": {
+          "one": "Surveillez votre pion isolé en {squares} — l'activité compense la faiblesse.",
+          "other": "Surveillez vos pions isolés en {squares} — l'activité compense la faiblesse."
+        },
+        "improveWorst": "Améliorez votre pièce la moins active. Chaque coup doit rendre une de vos pièces meilleure.",
+        "racePassed": {
+          "one": "Lancez votre pion passé en {squares} vers la promotion.",
+          "other": "Lancez vos pions passés en {squares} vers la promotion."
+        },
+        "activateKing": "Activez votre roi — amenez-le dans l'action.",
+        "aheadTrade": {
+          "one": "Vous avez {n} point d'avance — échangez les pièces (pas les pions) pour simplifier vers une finale gagnante.",
+          "other": "Vous avez {n} points d'avance — échangez les pièces (pas les pions) pour simplifier vers une finale gagnante."
+        },
+        "behindKeep": {
+          "one": "Vous avez {n} point de retard — gardez les pièces sur l'échiquier, créez du contre-jeu, évitez les échanges.",
+          "other": "Vous avez {n} points de retard — gardez les pièces sur l'échiquier, créez du contre-jeu, évitez les échanges."
+        },
+        "fewPawns": "Peu de pions restants — pensez à l'opposition, au zugzwang et aux cases clés."
+      },
+      "lastMove": {
+        "none": "Aucun coup joué pour l'instant — commencez par un pion central (e4 ou d4) ou un coup de cavalier (Nf3).",
+        "capture": "a capturé du matériel",
+        "check": "a donné échec",
+        "checkmate": "a donné échec et mat",
+        "castleKingside": "a fait le petit roque",
+        "castleQueenside": "a fait le grand roque",
+        "promote": "a promu un pion",
+        "line": "<b>{san}</b> — {anns}.",
+        "quiet": "<b>{san}</b> — un coup positionnel tranquille.",
+        "evalLine": "Éval actuelle : {eval}. ",
+        "topChoice": "Meilleur choix du moteur pour la suite : <b>{move}</b>."
+      },
+      "evaluation": {
+        "header": "<b>Évaluation de la position</b> _({phase}, {side} au trait)_",
+        "material": "• <b>Matériel :</b> Blancs {w} vs Noirs {b}{diff}",
+        "equalSuffix": " (égal)",
+        "diffSuffix": " — les {side} ont +{n}",
+        "engine": "• <b>Moteur :</b> {eval}",
+        "whiteKing": "• <b>Roi blanc :</b> {score}{notes}",
+        "blackKing": "• <b>Roi noir :</b> {score}{notes}",
+        "notesFmt": " ({notes})",
+        "pawnWeaknessesWhite": "• <b>Problèmes de pions blancs :</b> {list}",
+        "pawnWeaknessesBlack": "• <b>Problèmes de pions noirs :</b> {list}",
+        "isolatedPrefix": "isolé en {sq}",
+        "doubledPrefix": "doublés sur la colonne {file}",
+        "passedWhite": {
+          "one": "• <b>Pion passé des Blancs :</b> {squares}",
+          "other": "• <b>Pions passés des Blancs :</b> {squares}"
+        },
+        "passedBlack": {
+          "one": "• <b>Pion passé des Noirs :</b> {squares}",
+          "other": "• <b>Pions passés des Noirs :</b> {squares}"
+        },
+        "topMove": "• <b>Meilleur coup du moteur :</b> <b>{move}</b>"
+      },
+      "kingSafety": {
+        "header": "<b>Sécurité du roi</b>",
+        "line": "• <b>Roi des {side}</b> ({who}) : {score}{castled}. {notes}",
+        "you": "vous",
+        "opponent": "adversaire",
+        "castledSuffix": " — a roqué",
+        "noConcerns": "Aucune inquiétude immédiate.",
+        "footer": "Si votre roi est exposé : défendez d'abord. Si celui de l'adversaire est exposé : cherchez les échecs, les levées de tour et l'infiltration de la dame."
+      },
+      "phase": {
+        "opening": "ouverture",
+        "middlegame": "milieu de partie",
+        "endgame": "finale"
+      },
+      "kingScore": {
+        "safe": "en sécurité",
+        "exposed": "exposé",
+        "danger": "en danger",
+        "shelter": "abrité",
+        "waiting": "en attente",
+        "active": "actif",
+        "unknown": "inconnu"
+      },
+      "kingNote": {
+        "tuckedCorner": "encore blotti dans le coin — centralisez-le",
+        "startingSquare": "roi sur sa case de départ — faites-le sortir",
+        "activeOn": "roi actif en {square}",
+        "wanderingOn": "roi errant en {square}",
+        "centerAfter8": "roi encore au centre après le 8e coup",
+        "thinShield": "couverture de pions mince ({count}/3)",
+        "enemyHeavy": "pièce lourde ennemie sur la colonne du roi",
+        "fullShield": "a roqué avec un bouclier de pions complet"
+      },
+      "eval": {
+        "unclear": "peu clair",
+        "balanced": "équilibré ({pawns})",
+        "better": "{sign}{pawns} — <b>les {side}</b> sont mieux"
+      },
+      "topLines": {
+        "header": "<b>Meilleurs candidats du moteur</b>",
+        "item": "{rank}. {san} — {eval}"
+      },
+      "threatLine": "<b>Attention :</b> si c'était au tour des {side}, la menace serait {san} ({eval}).",
+      "pieceOn": "{piece} en {square}"
+    },
+    "ask": {
+      "bestMove": "Meilleur coup",
+      "tactics": "Tactique",
+      "plan": "Plans",
+      "lastMove": "Ce coup",
+      "evaluation": "Évaluation",
+      "kingSafety": "Sécurité du roi"
+    },
+    "askAnother": "Autre question"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "boardTheme": "Thème de l'échiquier",
+    "toggle": {
+      "coords": "Afficher les coordonnées",
+      "legal": "Mettre en évidence les coups légaux",
+      "last": "Mettre en évidence le dernier coup",
+      "sound": "Son",
+      "animations": "Animations"
+    },
+    "language": "Langue",
+    "dangerZone": "Zone de danger",
+    "resetBtn": "Réinitialiser progression et paramètres",
+    "resetConfirm": "Réinitialiser toute la progression et les paramètres ?",
+    "about": "À propos",
+    "version": "Version {version}",
+    "licenses": "Licences open source",
+    "privacy": "Politique de confidentialité",
+    "privacyBody": "KarpaChess ne collecte aucune donnée personnelle. L'app n'a ni compte, ni publicité, ni mesure d'audience, ni pistage, et ne se connecte jamais à Internet. Votre progression, vos paramètres, vos parties et vos photos sont enregistrés uniquement sur votre appareil, et dans ses propres sauvegardes si vous les utilisez ; ils ne sont jamais envoyés, ni à nous ni à personne. Dans les paramètres, vous pouvez effacer votre progression, vos paramètres et votre photo de joueur, et supprimer l'app efface tout ce qu'elle a enregistré. La politique complète se trouve sur {url}",
+    "sourceNotice": "KarpaChess est un logiciel libre distribué sous licence GNU GPL v3. Son code source complet se trouve sur {url}"
+  },
+  "commentator": {
+    "importLede": "Collez un PGN, déposez un fichier ou choisissez une partie d'exemple ci-dessous pour commencer à commenter.",
+    "sampleGames": "Parties d'étude",
+    "searchGames": "Rechercher joueur, événement ou ECO",
+    "allGames": "Toutes",
+    "myGames": "Mes parties",
+    "noGames": "Aucune partie ne correspond à cette recherche.",
+    "moveCount": {
+      "one": "{n} coup",
+      "other": "{n} coups"
+    },
+    "import": "Importer",
+    "importTitle": "Importer une partie",
+    "importTileBlurb": "Collez un PGN ou ouvrez un fichier .pgn — il reste dans votre bibliothèque.",
+    "importFound": "Trouvé dans votre presse-papiers. L'importer ?",
+    "pasteInstead": "Coller autre chose",
+    "importName": "Nom",
+    "importNameHelp": "Facultatif — une liste de coups sans en-têtes en a besoin pour être retrouvée.",
+    "remove": "Retirer",
+    "removeGame": "Retirer cette partie ?",
+    "removeGameBody": "Elle quitte votre bibliothèque. Les parties fournies avec l'app ne sont pas touchées.",
+    "close": "Fermer cette partie et retourner à l'import",
+    "confirmClose": "Fermer cette partie et retourner à l'import ?",
+    "moves": "Coups",
+    "badgesShow": "Afficher les icônes du moteur sur l'échiquier",
+    "badgesHide": "Masquer les icônes du moteur sur l'échiquier",
+    "firstMove": "Premier coup (Home)",
+    "prevMove": "Précédent (←)",
+    "nextMove": "Suivant (→)",
+    "lastMove": "Dernier (End)",
+    "mainLine": "Retour à la ligne principale (↑)",
+    "untitled": "Sans titre",
+    "drawTools": {
+      "select": "Sélectionner",
+      "arrow": "Flèche",
+      "box": "Rectangle",
+      "circle": "Carré",
+      "pen": "Stylo",
+      "text": "Texte",
+      "deleteSelected": "Supprimer la sélection (Suppr)",
+      "clearAll": "Effacer toutes les formes sur ce coup",
+      "undo": "Annuler",
+      "redo": "Rétablir",
+      "editText": "Modifier le texte"
+    },
+    "result": {
+      "title": "Résumé de la partie",
+      "checkmate": "Échec et mat · victoire des {winner}",
+      "stalemate": "Pat · partie nulle",
+      "drawnGame": "Partie nulle",
+      "whiteWins": "Victoire des Blancs",
+      "blackWins": "Victoire des Noirs",
+      "white": "Blancs",
+      "black": "Noirs",
+      "accuracy": "Précision",
+      "analyzing": "Calcul de la précision…"
+    }
+  },
+  "review": {
+    "title": "Analyse de la partie",
+    "analyzing": "Analyse…",
+    "progress": "Analyse du coup {i} sur {total}…",
+    "tally": {
+      "best": "Meilleur",
+      "ok": "Bon",
+      "inaccurate": "Imprécis",
+      "mistake": "Erreur",
+      "blunder": "Gaffe"
+    },
+    "verdict": {
+      "brilliant": "Brillant !",
+      "best": "Meilleur coup",
+      "good": "Bon coup",
+      "inaccuracy": "Imprécision",
+      "mistake": "Erreur",
+      "blunder": "Gaffe"
+    },
+    "betterWas": "Le moteur préférait {san}.",
+    "takeaway": {
+      "great": "Exactement juste — c'est le choix même du moteur.",
+      "good": "Solide : la position reste sur de bons rails.",
+      "slip": "Un peu d'avantage s'échappe ici — {best} était plus précis.",
+      "bad": "Le tournant. {best} était le coup à trouver."
+    }
+  },
+  "gamify": {
+    "level": "Niveau {n}",
+    "dayStreak": "Série de {n} jours",
+    "earned": "+{n} XP",
+    "levelUp": "Niveau supérieur !",
+    "dailyGoal": "Objectif du jour"
+  },
+  "play": {
+    "nav": "Jouer",
+    "title": "Jouer contre Stockfish",
+    "rematch": "Revanche",
+    "review": "Analyse",
+    "youWon": "Victoire !",
+    "youLost": "Belle bataille",
+    "strengthHint": {
+      "1": "Débute à peine",
+      "2": "Soirée club détendue",
+      "3": "Joueur de club sérieux",
+      "4": "Pleine puissance moteur"
+    },
+    "editProfile": "Votre profil",
+    "yourName": "Votre nom",
+    "choosePicture": "Choisir une image",
+    "removePicture": "Retirer l'image",
+    "exitMatch": "Quitter la partie",
+    "exitConfirm": "Quitter la partie en cours et revenir à la configuration ?"
+  },
+  "studio": {
+    "nav": "Studio"
+  },
+  "nbSettings": {
+    "appearance": "Apparence",
+    "themeName": {
+      "tournament": "Tournoi",
+      "slate": "Ardoise",
+      "walnut": "Noyer",
+      "sheesham": "Sheesham",
+      "sage": "Sauge"
+    },
+    "pieceSet": "Pièces",
+    "pieceSetName": {
+      "classic": "Classique",
+      "wood": "Bois",
+      "marble": "Marbre",
+      "diagram": "Diagramme",
+      "modern": "Moderne",
+      "deco": "Art déco",
+      "facet": "Facettes",
+      "silhouette": "Silhouette",
+      "soft": "Doux",
+      "bold": "Robuste"
+    },
+    "appTheme": "Thème de l'app",
+    "appThemeName": {
+      "midnightGrove": "Bosquet de minuit",
+      "emberStudy": "Bureau de braise",
+      "slateFocus": "Ardoise studieuse",
+      "indigoHour": "Heure indigo",
+      "bronzeAge": "Âge de bronze",
+      "jadeTerrace": "Terrasse de jade",
+      "plumVelvet": "Velours prune",
+      "ivoryHall": "Salle d'ivoire",
+      "linenMorning": "Matin de lin",
+      "harborLight": "Lumière du port"
+    },
+    "soundFeel": "Son et sensations",
+    "soundPack": {
+      "wood": "Bois",
+      "plastic": "Plastique",
+      "soft": "Feutré"
+    },
+    "haptics": "Retour haptique",
+    "font": "Police",
+    "fontName": {
+      "classic": "Classique",
+      "modern": "Moderne",
+      "technical": "Technique"
+    }
+  },
+  "draw": {
+    "mode": "Mode dessin",
+    "paused": "Partie en pause"
+  },
+  "replay": {
+    "autoplay": "Lecture auto",
+    "position": "{i} / {total}"
+  },
+  "academy": {
+    "seeIt": "Observez",
+    "playIt": "Jouez-le",
+    "ownIt": "Maîtrisez-le",
+    "yourMove": "À vous de jouer",
+    "youPlay": "vous jouez les {side}",
+    "nav": "Apprendre",
+    "title": "La Voie du Maître",
+    "patternOwned": "Motif maîtrisé !",
+    "sharpen": "Aiguiser",
+    "sharpenDull": {
+      "one": "{n} motif s'émousse",
+      "other": "{n} motifs s'émoussent"
+    },
+    "sharpenAllSharp": "Tous les motifs affûtés",
+    "findTheMove": "Trouvez le coup",
+    "patternBook": "Livre des motifs",
+    "ownedCount": "{n} / {total} maîtrisés",
+    "continueBtn": "Continuer",
+    "art": {
+      "basics": "Les Fondations",
+      "history": "L'Histoire des Échecs",
+      "tactics": "La Lame",
+      "openings": "Les Premiers Coups",
+      "endgames": "La Finale",
+      "strategy": "Le Plan",
+      "attack": "La Chasse",
+      "culture": "Le Monde des Échecs"
+    },
+    "rank": {
+      "novice": "Novice",
+      "apprentice": "Apprenti",
+      "clubPlayer": "Joueur de club",
+      "tactician": "Tacticien",
+      "strategist": "Stratège",
+      "candidateMaster": "Candidat Maître",
+      "master": "Maître des Motifs",
+      "grandmaster": "Grand Maître des Motifs"
+    },
+    "starBronze": "Bronze",
+    "starSilver": "Argent",
+    "starGold": "Or",
+    "showAnswer": "Voici l'idée — essayez-la",
+    "finishLesson": "Terminer la leçon",
+    "continueLesson": "Continuer · {title}",
+    "addedToBook": "Ajouté à votre Livre des motifs 📖",
+    "bookIntro": "Chaque motif que vous possédez vit ici. Les étoiles grandissent à mesure que vous aiguisez. Les échiquiers pâlis s'émoussent — aiguisez-les avant qu'ils ne s'effacent.",
+    "starNone": "Pas encore aiguisé",
+    "due": "À aiguiser",
+    "sharp": "Affûté",
+    "reviewNow": "Aiguiser ce motif",
+    "replayLesson": "Rejouer la leçon",
+    "upNext": "À suivre",
+    "gotIt": "Compris",
+    "confirmClose": "Quitter cette leçon ? Vos XP et votre position sont conservés — vous pourrez reprendre où vous en étiez.",
+    "resume": "Continuer",
+    "restartLesson": "Recommencer la leçon",
+    "confirmRestart": "Reprendre cette leçon depuis le début ? Les XP déjà gagnés sont conservés.",
+    "bookEmpty": "Maîtrisez votre premier motif et il apparaîtra ici."
+  },
+  "puzzles": {
+    "nav": "Problèmes",
+    "title": "Problèmes",
+    "rating": "Classement",
+    "rated": "Classé",
+    "keepGoing": "Continuer",
+    "keepGoingBlurb": "Des problèmes choisis pour votre classement.",
+    "daily": "Problème du jour",
+    "dailyBlurb": "Un problème, le même toute la journée.",
+    "packs": "Séries",
+    "findTheMove": "Trouvez le meilleur coup.",
+    "solved": "Résolu",
+    "runComplete": "Plus rien ici",
+    "runSolved": "{n} résolus cette session",
+    "noneLeft": "Aucun problème disponible.",
+    "pack": {
+      "mate-in-one": {
+        "name": "Mat en 1",
+        "blurb": "Un coup, un mat."
+      },
+      "fork": {
+        "name": "Fourchettes",
+        "blurb": "Attaquez deux pièces à la fois."
+      },
+      "back-rank-mate": {
+        "name": "Dernière rangée",
+        "blurb": "Le roi piégé derrière ses propres pions."
+      },
+      "pin": {
+        "name": "Clouages",
+        "blurb": "Une pièce qui n'ose plus bouger."
+      },
+      "skewer": {
+        "name": "Enfilades",
+        "blurb": "Frappez la pièce de valeur placée devant."
+      },
+      "mate-in-two": {
+        "name": "Mat en 2",
+        "blurb": "Forcez-le en deux coups."
+      },
+      "discovery": {
+        "name": "Attaques à la découverte",
+        "blurb": "Bougez une pièce, en libérez une autre."
+      },
+      "trapped": {
+        "name": "Pièces piégées",
+        "blurb": "Retirez la dernière case sûre."
+      },
+      "promotion": {
+        "name": "Promotion",
+        "blurb": "Menez le pion jusqu'au bout."
+      },
+      "remove-guard": {
+        "name": "Élimination du défenseur",
+        "blurb": "Éliminez la pièce qui tient tout."
+      },
+      "deflection": {
+        "name": "Déviation",
+        "blurb": "Forcez un défenseur à quitter son poste."
+      },
+      "decoy": {
+        "name": "Attraction",
+        "blurb": "Attirez une pièce sur une case fatale."
+      },
+      "smothered": {
+        "name": "Mat étouffé",
+        "blurb": "Maté par sa propre armée."
+      },
+      "pawn-ending": {
+        "name": "Finales de pions",
+        "blurb": "Opposition, percées, le carré."
+      },
+      "rook-ending": {
+        "name": "Finales de tours",
+        "blurb": "La finale que vous atteindrez le plus."
+      },
+      "overload": {
+        "name": "Surcharge",
+        "blurb": "Un défenseur, deux tâches."
+      },
+      "zwischenzug": {
+        "name": "Coups intermédiaires",
+        "blurb": "Insérez une menace avant de reprendre."
+      },
+      "king-hunt": {
+        "name": "Chasse au roi",
+        "blurb": "Poussez le roi à découvert."
+      },
+      "zugzwang": {
+        "name": "Zugzwang",
+        "blurb": "Chaque coup aggrave la position."
+      },
+      "defence": {
+        "name": "Défense",
+        "blurb": "C'est vous qui êtes maté. Matez d'abord."
+      }
+    },
+    "confirmClose": "Terminer cette session de problèmes ?",
+    "practice": "Entraînement",
+    "playAgain": "Rejouer",
+    "replay": "Recommencer",
+    "showSolution": "Voir la solution",
+    "failed": "Raté",
+    "flawless": "Sans faute",
+    "continuePack": "Continuer",
+    "puzzleN": "Problème {n}",
+    "bestImproved": "Nouveau record ! +{xp} XP"
+  }
+}

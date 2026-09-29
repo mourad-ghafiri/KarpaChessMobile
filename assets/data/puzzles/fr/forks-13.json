@@ -1,0 +1,11 @@
+{
+  "id": "forks-13",
+  "fen": "4k3/pp3ppp/8/1N3q2/8/8/PP3PPP/R1B3K1 w - - 0 1",
+  "solution": [
+    "Nd6+"
+  ],
+  "title": "Le cavalier arrache la dame",
+  "setup": "La dame noire en f5 attaque votre cavalier en b5, et le roi noir est encore chez lui en e8.",
+  "hint": "Ne vous contentez pas de sauver le cavalier. Trouvez le saut qui met le roi en échec et frappe la dame.",
+  "explanation": "## L'idée\n\n{{Nd6+}} met le roi en e8 en échec et attaque la dame en f5. Aucun pion noir ne se trouve en c7 ou e7 pour protéger d6, donc le cavalier est en sécurité, et un échec de cavalier ne peut pas être paré par interposition. Le roi doit bouger, et {{Nxf5}} prend la dame contre un cavalier.\n\nAvant de replier une pièce attaquée, cherchez une case où elle contre-attaque avec échec."
+}

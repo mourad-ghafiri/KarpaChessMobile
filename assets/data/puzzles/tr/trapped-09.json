@@ -1,0 +1,12 @@
+{
+  "id": "trapped-09",
+  "fen": "5rk1/ppp1bpp1/3p1n1p/8/N7/2P4P/PP3PP1/3R1RK1 b - - 0 1",
+  "solution": [
+    "b5"
+  ],
+  "rating": 1300,
+  "title": "Tek Piyon Sürüşü",
+  "setup": "Beyazın atı a4'e gitmiş; oradaki tek kareleri b6, c5, c3 ve b2 ve bunlardan ikisi beyazın kendi piyonları.",
+  "hint": "Atın sıçrayışlarından ikisi beyazın kendi piyonlarına çarpıyor. a7 ve d6'daki piyonlarınız diğer ikisini zaten kapsıyor.",
+  "explanation": "## Fikir\n\n{{b5}} ata saldırır ve at zaten kuşatılmıştır: b2 ile c3'te beyazın piyonları durur, b6'ya axb6 ya da cxb6, c5'e dxc5 cevabı gelir. b5'teki piyonun kendisi alınamaz, yani at öylece düşer."
+}

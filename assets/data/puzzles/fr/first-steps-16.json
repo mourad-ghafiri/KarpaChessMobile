@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-16",
+  "fen": "6k1/5ppp/8/8/8/3n4/2P2PPP/4K3 w - - 0 1",
+  "solution": [
+    "cxd3"
+  ],
+  "title": "Prenez l'attaquant",
+  "setup": "Un cavalier noir audacieux a sauté pour mettre votre roi en échec — mais a-t-il regardé où il atterrissait ?",
+  "hint": "Votre roi pourrait fuir, mais pourquoi ? La réponse la plus cinglante à un échec est de prendre la pièce qui le donne — l'une de vos pièces peut-elle l'atteindre ?",
+  "explanation": "## L'idée\n\nLe cavalier en d3 donne échec, et un échec a trois réponses : déplacer le roi, barrer la ligne, ou prendre la pièce qui donne échec. Un échec de cavalier ne peut pas être paré par interposition, et ici la prise est possible.\n\nVotre pion en c2 attaque b3 et d3, donc {{cxd3}} élimine le cavalier, met fin à l'échec et gagne trois points en un coup. Les coups de roi échapperaient aussi à l'échec, mais ils laisseraient le cavalier en vie."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fork-01",
+  "fen": "3r3k/pp4pp/8/4N3/8/8/PP3PPP/6K1 w - - 1 2",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 700,
+  "title": "Échec, puis encaissement",
+  "setup": "Le roi noir est blotti en h8 et la tour se tient en d8, tous deux à un saut de cavalier de la même case.",
+  "hint": "Trouvez la case d'où votre cavalier touche le roi et la tour dans le même coup.",
+  "explanation": "## L'idée\n\n{{Nf7+}} attaque h8 et d8 à la fois. L'échec n'est pas facultatif : rien ne peut prendre en f7, et un échec de cavalier ne peut jamais être paré par interposition, donc {{Kg8}} est le seul coup légal des Noirs. Puis {{Nxd8}} ramasse la tour."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-01",
+  "fen": "2Rb4/k7/6p1/5QR1/6K1/2n5/8/r7 w - - 0 1",
+  "solution": [
+    "Qd7+",
+    "Ka6",
+    "Qc6+",
+    "Ka7",
+    "Ra8#"
+  ],
+  "rating": 1350,
+  "title": "Leva o Rei Até ao Canto",
+  "setup": "O rei preto está em a7 ao lado do bispo de d8, e a tua dama e as duas torres estão perto o suficiente para lhe chegarem.",
+  "hint": "Cada jogada deve ser xeque. Deixa a dama tocar o rei de volta para a7 e deixa uma torre dar o último.",
+  "explanation": "## A Ideia\n\n{{Qd7+}} e {{Qc6+}} não tentam dar mate. Cada xeque tira casas, até o rei estar de novo em a7 sem nada e chegar {{Ra8#}}. Uma caça é uma sequência de xeques que tiram uma opção de cada vez."
+}

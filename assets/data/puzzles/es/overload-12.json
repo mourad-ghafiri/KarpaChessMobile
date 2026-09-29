@@ -1,0 +1,14 @@
+{
+  "id": "overload-12",
+  "fen": "7k/4Rppp/3n4/5Qr1/8/4N3/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Nxc8",
+    "Re8#"
+  ],
+  "rating": 1650,
+  "title": "Manda lejos al guardián",
+  "setup": "El caballo negro de d6 cubre c8 y e8 a la vez, y tu torre ya está en la séptima fila.",
+  "hint": "Una pieza negra sostiene dos casillas. Ataca la que en realidad no quieres.",
+  "explanation": "## La idea\n\n{{Qc8+}} no es la casilla de mate: es la atracción. Las dos jugadas de caballo pierden, y {{Nxc8}} al menos se come algo y el caballo abandona e8, así que {{Re8#}} entra. Ofrécele al defensor la tarea que puede cumplir, y fallará en la que no puede."
+}

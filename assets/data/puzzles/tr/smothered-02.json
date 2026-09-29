@@ -1,0 +1,12 @@
+{
+  "id": "smothered-02",
+  "fen": "3r2k1/pp4pp/8/8/6n1/2N5/P1P3PP/6RK b - - 9 30",
+  "solution": [
+    "Nf2#"
+  ],
+  "rating": 1180,
+  "title": "Köşe Kendini Mühürlüyor",
+  "setup": "Beyaz az önce g piyonunu korumak için bir kaleyi g1'e savurdu ve kendi şahını köşeye gömdü.",
+  "hint": "Bir an için boştaki kaleyi boş verin ve beyazın şahının gerçekten gidebileceği kareleri sayın.",
+  "explanation": "## Fikir\n\nRg1 g piyonunu korudu ve şahı onun arkasına gömdü. {{Nf2#}} kimsenin gözlemediği bir kareden şah çeker: g1'deki kale ile g2 ve h2'deki piyonların hepsi ters yöne bakar. Şahınızın son çıkışını dolduran koruyucu hiçbir şeyi korumuyordur."
+}

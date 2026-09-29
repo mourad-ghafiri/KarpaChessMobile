@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-01",
+  "fen": "6k1/5ppp/8/8/8/8/1r3PPP/4R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 700,
+  "title": "El peón de la codicia",
+  "setup": "Las Negras acaban de comerse un peón en b2 con la torre, dejando su octava fila completamente vacía.",
+  "hint": "El rey negro tiene tres de sus propios peones justo delante. ¿Qué le deja eso?",
+  "explanation": "## La idea\n\n{{Re8#}}. El rey de g8 tiene f7, g7 y h7 tapadas por sus propios peones, y todas las casillas de la octava fila son de la torre. Un rey detrás de tres peones sin mover está a un jaque en la última fila del mate siempre que nada defienda esa fila."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-07",
+  "fen": "7R/2k5/8/1rPK4/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Rh7+"
+  ],
+  "rating": 1470,
+  "title": "Sekizinciye Geri",
+  "setup": "Siyahın şahı c piyonunun iki kare önünde duruyor, c7'den c6'yı tutuyor ve kalesi piyona b5'ten saldırıyor; yani henüz hiçbir şey kıpırdamıyor.",
+  "hint": "Bütün savunmayı, piyonun yanındaki kareden şah yapıyor. Ondan hangi hattı alabilirsiniz?",
+  "explanation": "## Fikir\n\nŞah c7'de oturduğu sürece beyaz ilerleyemez. {{Rh7+}} onu arka yataya sürer ve kale artık yedinci yatayın sahibi olur; böylece şah bir daha asla piyonun yanına dönemez. {{Kb8}} {{Kd6}} gelir ve beyazın şahı piyonu içeri yürütür."
+}

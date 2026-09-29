@@ -1,0 +1,62 @@
+{
+  "id": "caro-kann",
+  "title": "La Caro-Kann",
+  "summary": "Risolvete l'alfiere cattivo prima di costruire il muro",
+  "proof": "openings-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Un Pedone al Posto di un Pezzo",
+      "text": "Il Nero ha risposto a 1.e4 con un pedone c: una mossa che non attacca niente, non sviluppa niente e sembra una mossa buttata. Una mossa dopo si ripaga. Il ...d5 del Nero arriva sostenuto da un pedone anziché da un pezzo, e il centro della scacchiera si cambia via.\n\nÈ così che è nata questa posizione. Il Nero ha un pedone in c6 e un esercito ancora a casa. Il Bianco ha un pedone in d4 e il suo primo pezzo fuori, il cavallo in e4.\n\nLa Caro-Kann è la tesi che per il Nero questo sia un ottimo affare."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "L'Alfiere Dietro il Muro",
+      "text": "Quasi tutte le risposte a 1.e4 si appoggiano su ...e6, e quel pedone fa due cose insieme. Tiene il centro, e sta sulla strada dell'alfiere di c8.\n\n{{e6}}. Quell'alfiere ha esattamente una diagonale libera, da c8 fino a h3, e un pedone suo ci si è appena parcheggiato sopra. Quello che resta è d7, dove l'alfiere blocca la donna e non guarda niente.\n\nIl pedone c del Nero fa già il lavoro che altrove fa il pedone e. Quindi questo alfiere non ha nessuna ragione di starsene lì ad aspettare il muro."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Portate subito quell'alfiere fuori dai pedoni, sulla casa dove fissa anche il cavallo del Bianco.",
+      "targetSan": [
+        "Bf5"
+      ],
+      "hint": "Sulla scacchiera niente difende quel cavallo, e l'unica diagonale libera dell'alfiere ha esattamente una casa che lo attacca."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p5/5b2/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Due Mosse per l'Alfiere",
+      "text": "Il Bianco non lascia un cavallo lì da prendere. {{Ng3}} spinge via l'alfiere, {{Bg6}} tiene la diagonale, e {{h4}} minaccia di spingere ancora e di cacciarlo via per sempre. {{h6}} libera h7, così l'alfiere ha sempre una casa dietro di sé.\n\nContate quanto è costato. Il Nero ha mosso un alfiere due volte. Il Bianco ha mosso di nuovo il cavallo e ha mandato un pedone di torre due case avanti al re.\n\nTutti e due hanno speso tempo. Uno solo l'ha speso in pedoni, e un pedone non torna indietro."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Pagare Dopo Invece che Adesso",
+      "text": "Qui il Nero è indietro nello sviluppo, e la Caro-Kann lo ammette. Tre delle prime quattro mosse del Nero se ne sono andate in pedoni, quindi il Bianco finisce prima e sceglie lui dove si combatte.\n\nQuello che il tempo ha comprato è una struttura in cui il Bianco non riesce ad addentare, un re che può andare su tutte e due le ali, e l'alfiere in g6 che respira aria libera fuori dai propri pedoni.\n\nIl pedone h del Bianco, intanto, non torna più a casa. I pezzi escono, l'attacco si esaurisce, e quel pedone sta ancora lì dove il re era al sicuro."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Il Bianco Rifiuta il Cambio",
+      "text": "Un Bianco diverso, e siamo solo alla terza mossa. Invece di cambiare al centro, questo spinge il pedone oltre e chiude la porta: un pedone bianco in e5, un pedone bianco in d4, e il pedone nero in d5 senza nessun posto dove andare.\n\nDue pedoni su una diagonale, quello dietro che nutre quello davanti, sono una **catena di pedoni**. Quella del Bianco va da d4 a e5. Il danno lo fa il pedone in e5 — toglie f6 al cavallo nero — ed è d4 a tenerlo lì. A tenere su d4 non c'è nient'altro che i pezzi.\n\nQuindi una catena si attacca alla base, mai alla testa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Prima Fuori, Poi il Muro",
+      "text": "Il problema del Nero è il solito. Con il centro chiuso, ...e6 deve arrivare — puntella d5 e lascia respirare i pezzi dell'ala di re — ed è lo stesso pedone che chiuderebbe dentro l'alfiere.\n\nE allora il lavoro lo fa l'ordine. {{Bf5}} viene prima. Il Bianco risponde {{Nf3}}, e solo allora {{e6}}: il muro si alza dietro l'alfiere invece che davanti. {{Be2}}, e il Nero è pronto.\n\n> Portate fuori il vostro pezzo peggiore prima di costruire il muro che lo intrappolerebbe."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP1BPPP/RNBQK2R b KQkq - 1 5",
+      "prompt": "Attaccate il pedone che regge la catena del Bianco, usando l'unico vostro pedone che ci arriva.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "Seguite la catena del Bianco fino al pedone che nessun altro pedone difende, poi chiedetevi quale dei vostri riesce a raggiungerlo."
+    }
+  ]
+}

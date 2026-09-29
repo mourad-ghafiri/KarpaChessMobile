@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-03",
+  "fen": "7k/6pp/8/8/8/8/p4PPP/2R3K1 w - - 0 2",
+  "solution": [
+    "Rc8#"
+  ],
+  "rating": 780,
+  "title": "Chi Ci Arriva Prima",
+  "setup": "Il pedone a del Nero è appena arrivato in a2 e alla prossima mossa diventa donna, quindi avete esattamente una mossa.",
+  "hint": "Contare una corsa di pedoni è fatica sprecata se la partita finisce in questa mossa. Guardate l'ottava traversa del Nero.",
+  "explanation": "## L'idea\n\n{{Rc8#}} e il pedone non promuove mai. Il re in h8 è chiuso da g7 e h7, tutta l'ottava traversa appartiene alla torre, e niente di nero ci arriva per parare. Cercate sempre il matto prima di mettervi a contare una corsa."
+}

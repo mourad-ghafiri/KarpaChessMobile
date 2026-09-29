@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-03",
+  "fen": "7k/5ppp/8/1Pq1R3/N7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Qf8",
+    "Rxf8#"
+  ],
+  "rating": 1000,
+  "title": "Deflect the Blocker",
+  "setup": "Black's king hides behind three pawns on the eighth rank while its queen roams far away on c5.",
+  "hint": "A back-rank check the king has no answer to. Which single black piece can get in the way, and where?",
+  "explanation": "## The Idea\n\n{{Re8+}} hits the back rank. The king has no squares at all — f7, g7 and h7 are its own pawns — so the queen must interpose with {{Qf8}}. That is the whole point: {{Rxf8#}} removes the blocker and mates on the same square."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "smothered-04",
+  "fen": "2r3nk/pp4pp/1q6/4N3/8/8/PB3PPP/3R2K1 w - - 5 25",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1245,
+  "title": "Two Checks, One Mate",
+  "setup": "Black has just dropped its knight back to g8, leaving the king three neighbors and no empty square.",
+  "hint": "Your knight has two checks available here; work out which of them the h-pawn cannot simply eat.",
+  "explanation": "## The Idea\n\nTwo knight jumps give check, but {{Ng6+}} runs into hxg6. {{Nf7#}} lands on the one square no black piece covers, and with g8, g7 and h7 all held by its own pieces the king has nowhere to step. Always test whether the smothering check can be captured."
+}

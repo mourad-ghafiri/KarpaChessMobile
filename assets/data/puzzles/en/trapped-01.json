@@ -1,0 +1,12 @@
+{
+  "id": "trapped-01",
+  "fen": "5rk1/ppp2pp1/7p/8/8/5N1P/bPP2PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b3"
+  ],
+  "rating": 1000,
+  "title": "The Greedy Bishop",
+  "setup": "Black's bishop has just eaten the a2-pawn and now stands in the corner of your camp on a2.",
+  "hint": "Count the squares that bishop still has. Take the longer diagonal away and see what is left over.",
+  "explanation": "## The Idea\n\n{{b3}} shuts the diagonal toward g8 and leaves the bishop only b1, a square your rook covers from e1. Ra1 next move wins it. The pawn on b3 is safe because c2 defends it. A bishop that snacks on a wing pawn often cannot get home."
+}

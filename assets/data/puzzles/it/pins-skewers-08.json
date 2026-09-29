@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-08",
+  "fen": "3k4/3q4/3p4/3R4/3R4/8/8/3K4 w - - 0 1",
+  "solution": [
+    "Rxd6",
+    "Qxd6",
+    "Rxd6+"
+  ],
+  "title": "Prima Mangiate il Pedone Inchiodato",
+  "setup": "Il pedone, la donna e il re neri sono impilati sulla colonna d, uno dietro l'altro, e tutte e due le vostre torri la guardano.",
+  "hint": "Il pedone non può avanzare. Contate che cosa succede se cominciate dalla testa della pila.",
+  "explanation": "## L'idea\n\nIl pedone in d6 blocca tutte e due le vostre torri. {{Rxd6}} lo toglie, e adesso la donna in d7 è inchiodata contro il re che ha dietro. {{Qxd6}} è l'unico modo del Nero per non perdere la donna per niente, e {{Rxd6+}} riprende con la seconda torre: una torre per un pedone e una donna, e resta una torre contro un re nudo.\n\nCominciate dalla testa di una pila solo quando dietro avete qualcosa di vostro che riprenda."
+}

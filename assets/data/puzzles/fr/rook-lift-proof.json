@@ -1,0 +1,11 @@
+{
+  "id": "rook-lift-proof",
+  "fen": "rn2r1k1/pp3p1p/2p1bp2/8/P1B2P2/B1P2R2/6PP/3R2K1 w - - 2 20",
+  "solution": [
+    "Rg3+"
+  ],
+  "title": "À travers la troisième rangée",
+  "setup": "Tchigorine contre Lebedev, Moscou 1900/01. Votre tour a déjà quitté la dernière rangée, et la colonne g entre votre troisième rangée et le roi noir est vide.",
+  "hint": "D'abord monter, ensuite traverser. Quelle case de votre troisième rangée fait face au roi noir ?",
+  "explanation": "## L'idée\n\n{{Rg3+}} termine la levée : la tour montée en f3 glisse jusqu'à la colonne g vide et donne échec. Le roi ne peut pas utiliser f8, que couvre votre fou en a3, donc les Noirs ont deux réponses : {{Kh8}}, dans le coin, ou {{Bg4}}, un fou rendu rien que pour s'interposer.\n\nTchigorine a poursuivi par {{Be7}} et a gagné."
+}

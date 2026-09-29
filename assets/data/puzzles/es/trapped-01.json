@@ -1,0 +1,12 @@
+{
+  "id": "trapped-01",
+  "fen": "5rk1/ppp2pp1/7p/8/8/5N1P/bPP2PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b3"
+  ],
+  "rating": 1000,
+  "title": "El alfil glotón",
+  "setup": "El alfil negro acaba de comerse el peón de a2 y ahora está en la esquina de tu campo, en a2.",
+  "hint": "Cuenta las casillas que le quedan a ese alfil. Quítale la diagonal más larga y mira lo que sobra.",
+  "explanation": "## La idea\n\n{{b3}} cierra la diagonal hacia g8 y solo le deja al alfil b1, una casilla que tu torre cubre desde e1. Ra1 en la jugada siguiente lo gana. El peón de b3 está a salvo porque c2 lo defiende. Un alfil que pica un peón de flanco a menudo no puede volver a casa."
+}

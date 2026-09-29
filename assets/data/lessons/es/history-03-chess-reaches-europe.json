@@ -1,0 +1,56 @@
+{
+  "id": "chess-in-europe",
+  "title": "Nombres nuevos, jugadas viejas",
+  "summary": "Rebautizadas en la frontera, e iguales durante quinientos años",
+  "proof": "history-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "El camino de entrada",
+      "text": "El ajedrez entró en Europa sin dejar una fecha.\n\nEl camino mejor documentado pasa por **al-Ándalus**, donde se jugaba al shatranj mucho antes de que ningún reino cristiano escribiera una palabra sobre él. La Sicilia árabe es un segundo camino. Bizancio, que llamaba al juego *zatrikion*, un tercero, y los comerciantes y ejércitos de la época los usaron todos.\n\nLo que se conserva son los papeles del final del trayecto. Un testamento redactado en Cataluña hacia 1008 deja un juego de piezas de ajedrez a un monasterio, y nadie al redactarlo sintió la necesidad de explicar qué eran."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "La dama y el elefante",
+      "text": "Europa no tenía visires, así que el **alferza** ocupó el único cargo que encaja junto a un rey: se convirtió en la **dama**. *Regina* en latín, *dame* en francés. Ese cambio de nombre llegó pronto y casi a todas partes.\n\nEl **alfil** no logró tal acuerdo; el castellano conservó su nombre árabe. Italia lo hizo *alfiere*, el abanderado; Francia, *fou*, el bufón; Alemania, un corredor. Inglaterra no lo tradujo y seguía llamándolo *aufin* en 1474. *Bishop* solo gana esa discusión en el siglo XVI, mucho después de que los tallistas la resolvieran: las piezas de Lewis llevan mitra hacia 1200."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "Cambiaron los nombres, no las jugadas",
+      "text": "Cambiar un nombre no es reformar.\n\nLa dama europea seguía arrastrándose una casilla en diagonal, exactamente como el alferza. El alfil europeo seguía dando el mismo salto de dos casillas por encima de lo que hubiera en medio, y caía en la misma lista corta de casillas a la que siempre había estado condenado. Las dos piezas se reconstruyeron en la península ibérica en la década de 1470, y esa es la próxima lección.\n\nTu tablero ya está al otro lado. El alfil negro de c8 puede pasar a la gran diagonal blanca del tablero en la próxima jugada. Un alfil antiguo que empezara en c8 no habría alcanzado ni una casilla de esa diagonal en cien partidas."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "prompt": "Lleva el alfil de c8 a esa gran diagonal blanca, la que recorre todo el tablero.",
+      "hint": "Ese alfil tiene exactamente dos casillas disponibles. Solo una está en la diagonal.",
+      "targetSan": [
+        "Bb7"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Cuatro casillas y una quinta",
+      "text": "Nuevo tablero, juegan las Blancas, y un alfil en c1 que todavía no ha ido a ninguna parte.\n\n{{Bd2}}, {{Be3}}, {{Bf4}}, {{Bh6}}: cuatro casillas a lo largo de una diagonal, con una quinta entre ellas.\n\nUn alfil antiguo en c1 solo podía alcanzar dos casillas de toda esa línea: e3, saltando por encima de d2 estuviera ocupada o no, y g5 con el mismo salto otra vez. Las otras tres le estaban cerradas toda la partida.\n\nEso es lo que compró la reforma. Y no se trata sobre todo de distancia."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "A través, no por encima",
+      "text": "La distancia es la mitad pequeña. La grande es que un alfil pasa *a través* de las casillas en lugar de por encima de ellas.\n\nUn alfil antiguo nunca podía inmovilizar nada. Volaba sobre lo que hubiera en su camino, así que nada quedaba atrapado delante de él. Un alfil recorre la línea, y una pieza situada en esa línea tiene un problema: si se aparta, lo que tenía detrás queda de repente a merced.\n\nEl caballo negro de f6 tiene justo detrás a la dama de d8, en una misma diagonal, con e7 vacía entre ambos. Todavía no ha pasado nada. Alguien tiene que llegar."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "prompt": "Llega a esa diagonal, para que el caballo de f6 no pueda moverse ni una casilla sin entregar la dama que tiene detrás.",
+      "hint": "El alfil de f1 tiene su propio peón de e2 en medio. El otro no tiene nada delante.",
+      "targetSan": [
+        "Bg5"
+      ]
+    }
+  ]
+}

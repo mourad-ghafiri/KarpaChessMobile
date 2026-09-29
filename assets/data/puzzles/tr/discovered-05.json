@@ -1,0 +1,13 @@
+{
+  "id": "discovered-05",
+  "fen": "r3k3/8/4B3/8/4R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kd8",
+    "Bxa8"
+  ],
+  "title": "Fil Bataryayı Ateşliyor",
+  "setup": "Kaleniz ile filiniz e dikeyinde üst üste dizilmiş — fil önde, kale arkada dolu bekliyor.",
+  "hint": "Her fil hamlesi bir kale şahı açar. Aynı zamanda siyahın kurtaramayacağı bir şeye saldıranı seçin.",
+  "explanation": "## Fikir\n\ne6'daki fil, e4'teki kaleyi maskeliyor. O oynadığı anda kale dikeyden şah çeker, yani filin hamlesi yanında bedava bir tehditle gelir.\n\n{{Bd5+}} dikeyden çekilir ve a8'deki kaleyi gözler. Siyahın şaha cevap vermesi gerekir ve siyahın hiçbir taşı e5, e6 ya da e7'de araya giremez. {{Kd8}} geldikten sonra {{Bxa8}} kaleyi kasaya koyar.\n\nBataryanın öndeki taşı içinde hazır bir tehditle oynar; öyleyse çifte iş gördüğü kareyi seçin."
+}

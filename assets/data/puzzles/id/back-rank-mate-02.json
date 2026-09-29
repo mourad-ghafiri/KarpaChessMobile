@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-02",
+  "fen": "6k1/2r2ppp/8/8/8/8/5PPP/3Q2K1 w - - 1 2",
+  "solution": [
+    "Qd8#"
+  ],
+  "rating": 740,
+  "title": "Penjaganya Melangkah Pergi",
+  "setup": "Benteng Hitam baru saja turun ke c7, dan tak ada lagi apa pun di baris kedelapan selain rajanya.",
+  "hint": "Satu buah hitam menjaga seluruh baris kedelapan satu langkah lalu. Periksa apakah ia masih menjaganya.",
+  "explanation": "## Ide\n\n{{Qd8#}} mengakhirinya. Menteri memberi sekak di sepanjang baris kedelapan; benteng di c7 tak bisa mengambilnya maupun menghalangi di e8 atau f8, dan tembok pion di f7, g7 dan h7 menahan raja di rumah. Benteng yang meninggalkan baris belakang harus meninggalkan penggantinya."
+}

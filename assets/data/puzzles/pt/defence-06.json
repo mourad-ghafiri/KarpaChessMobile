@@ -1,0 +1,14 @@
+{
+  "id": "defence-06",
+  "fen": "8/7B/6R1/1K1k4/r4q2/4Q3/r7/8 w - - 0 1",
+  "solution": [
+    "Bg8+",
+    "Qf7",
+    "Bxf7#"
+  ],
+  "rating": 1650,
+  "title": "O Bispo Interpõe-se Por Ti",
+  "setup": "As pretas têm uma dama em f4 e torres em a4 e a2 apontadas ao teu rei de b5 — as ameaças estão por todo o lado.",
+  "hint": "Encontra o xeque a que as pretas só possam responder pondo a sua peça mais forte no caminho.",
+  "explanation": "## A Ideia\n\n{{Bg8+}} força {{Qf7}}, porque mais nada tapa, e {{Bxf7#}} leva a dama e o jogo de uma vez. Um xeque que exige um bloqueio específico vale mais do que um xeque que só incomoda."
+}

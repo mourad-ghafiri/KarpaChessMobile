@@ -1,0 +1,14 @@
+{
+  "id": "skewer-12",
+  "fen": "8/1r5R/2kpB3/1bp1R3/3P4/2P2P2/4P3/K7 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kb6",
+    "Rxb7+"
+  ],
+  "rating": 1300,
+  "title": "Bishop Sets, Rook Takes",
+  "setup": "Black's king on c6 has a rook right behind it on b7, and your rook already owns the seventh rank.",
+  "hint": "Which piece can check on a diagonal that carries on through the king to the rook waiting behind it?",
+  "explanation": "## The Idea\n\n{{Bd5+}} is the skewer: the diagonal d5–c6–b7 holds the king and, behind it, the rook. Your rook on **e5** guards d5, so the check cannot be taken. After {{Kb6}}, {{Rxb7+}} wins the rook, since the bishop now covers b7 too."
+}

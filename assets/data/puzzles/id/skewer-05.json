@@ -1,0 +1,14 @@
+{
+  "id": "skewer-05",
+  "fen": "8/Qp2p3/3k2qp/7p/2Pp1P2/6P1/1P5K/8 w - - 0 1",
+  "solution": [
+    "Qb6+",
+    "Kd7",
+    "Qxg6"
+  ],
+  "rating": 1060,
+  "title": "Baris Keenam Tembus",
+  "setup": "Raja Hitam di d6 dan menterinya di g6 berbagi baris keenam, dan petak-petak di antara keduanya kosong.",
+  "hint": "Beri sekak di baris keenam dari sisi yang memaksa raja menjauh dari menterinya sendiri.",
+  "explanation": "## Ide\n\n{{Qb6+}} memberi sekak di sepanjang baris keenam dengan menteri hitam terdampar di belakang rajanya. {{Kd7}} satu-satunya jawaban sah, dan langkah itu meninggalkan baris tersebut — jadi {{Qxg6}} tinggal mengambil menteri. Hadiahnya memang tak pernah dilindungi sama sekali."
+}

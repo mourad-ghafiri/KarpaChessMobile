@@ -1,0 +1,13 @@
+{
+  "id": "openings-01",
+  "fen": "rnb1kbnr/pppp1ppp/8/4p3/2B1q3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 5",
+  "solution": [
+    "Bxf7+",
+    "Kxf7",
+    "Ng5+"
+  ],
+  "title": "Vezir Kirayı Ödüyor",
+  "setup": "Siyahın veziri açılışı piyon kovalayarak geçirdi ve az önce merkezde bir tane daha aldı. At çatalını hazırlayan fedayı bulun.",
+  "hint": "g5'e bir at sıçrayışı aynı anda f7 ile e4'e vururdu. Siyahın şahının f7'de durması için ne gerekir?",
+  "explanation": "## Fikir\n\nSiyahın veziri açılışı piyon kaparak geçirdi, beyaz ise rok yapıp taşlarını geliştirdi; hesap şimdi ödenecek.\n\n{{Bxf7+}} şahı öne sürüklemek için fili verir. {{Kxf7}} gelirse {{Ng5+}} f7'deki şah ile e4'teki veziri çatallar ve vezir kaybolur.\n\n{{Kd8}} ile reddetmek veziri korur, ama siyahın şahını ortada mahsur bırakır ve beyaz zaten kazanır.\n\nAçılışta piyon avlayan vezir, sonunda kendisi avlanır."
+}

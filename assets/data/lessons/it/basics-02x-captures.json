@@ -1,0 +1,65 @@
+{
+  "id": "captures",
+  "title": "Chi Riprende",
+  "summary": "Due prese, un salto ciascuna, e a distinguerle è solo la risposta",
+  "proof": "first-steps-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Due Cose da Prendere",
+      "text": "Il vostro cavallo in e4 attacca due pezzi neri insieme: la torre in d6 e l'alfiere in f6. Tutte e due le prese sono legali, tutte e due sono un salto, e dalla casa del cavallo sembrano identiche.\n\nNon lo sono. Un pezzo che nessuno difende è **in presa**, e prenderlo non vi costa assolutamente nulla. Un pezzo difeso da un amico vi costa quanto riprende quel difensore.\n\nLa scacchiera dice già quale è quale. Lo dice prima che muoviate."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Tre Contro Tre",
+      "text": "{{Nxf6}} guadagna un alfiere. Poi arriva {{gxf6}} e il pedone in g7 si riprende subito il cavallo.\n\nLì non si perde nulla. Un cavallo vale tre, un alfiere vale tre, e i due lasciano la scacchiera insieme: il conto finisce dove era cominciato.\n\nMa nemmeno si guadagna nulla. È tutto il risultato della presa: una mossa spesa e la stessa posizione con due pezzi in meno."
+    },
+    {
+      "type": "play",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "L'altra presa non ha nessuna risposta: giocatela e tenetevi quello che prendete.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "Nulla del Nero arriva in d6: l'alfiere in f6 non vede quella casa e il pedone in g7 copre solo f6 e h6."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Nove Contro Uno",
+      "text": "Stessa domanda, e stavolta a farla è la donna.\n\nLa vostra donna in d4 guarda due diagonali libere verso due pedoni neri, uno in a7 e uno in g7. Entrambe le prese guadagnano qualcosa che vale un punto. Entrambe mettono nove punti su quella casa.\n\nÈ questo che rende la donna il pezzo con cui è peggio essere distratti. Un cavallo che sbaglia i conti fa un cambio alla pari. Una donna che sbaglia i conti non sta facendo nessun cambio."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Una Mossa di Proprietà",
+      "text": "{{Qxa7}} guadagna un pedone e lo possiede esattamente per una mossa. {{Rxa7}} — la torre in a8 difendeva quel pedone molto prima che voi ci guardaste, e adesso ha la vostra donna.\n\nNove punti per uno. Nessuna aritmetica trasforma questo in un cambio.\n\nEcco perché la donna mangia per ultima. Ogni pezzo del Nero vale meno di lei, quindi ogni difensore sulla scacchiera è un difensore di cui la donna deve tenere conto."
+    },
+    {
+      "type": "play",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "Uno di quei due pedoni non è guardato da nulla: prendete quello.",
+      "targetSan": [
+        "Qxg7"
+      ],
+      "hint": "Il Nero ha una torre e due pedoni: la torre sorveglia la colonna a e l'ottava traversa, e nessuno dei due pedoni difende l'altro."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "title": "Difeso Non Vuol Dire Intoccabile",
+      "text": "Un'ultima posizione, e smonta metà di quello che avete appena letto.\n\nLa donna nera in c5 è difesa: il pedone in b6 copre quella casa e riprende all'istante.\n\nPrendetela lo stesso. Date un cavallo che vale tre, togliete una donna che vale nove e uscite con sei punti di guadagno. Difeso non ha mai voluto dire sicuro. Ha sempre voluto dire soltanto che la presa ha un prezzo — e il prezzo deve essere più piccolo del premio.\n\n> Prendete ciò che nessuno difende. Prima di prendere ciò che qualcuno difende, contate quello che date e quello che ricevete."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Il pezzo migliore del Nero è difeso, e il difensore è solo un pedone: prendetelo lo stesso.",
+      "targetSan": [
+        "Nxc5"
+      ],
+      "hint": "Tre punti lasciano la scacchiera e ne portano via nove: la ripresa fa parte dell'affare, non è un incidente."
+    }
+  ]
+}

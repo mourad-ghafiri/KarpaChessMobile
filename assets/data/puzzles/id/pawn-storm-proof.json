@@ -1,0 +1,11 @@
+{
+  "id": "pawn-storm-proof",
+  "fen": "2rq1rk1/pb1nb2p/1p2p3/3pBpp1/2PPn3/1PNB1N2/P3QPPP/2RR2K1 b - - 1 15",
+  "solution": [
+    "g4"
+  ],
+  "title": "Botvinnik Terus Berbaris",
+  "setup": "Bogoljubow melawan Botvinnik, Nottingham 1936. Pion f dan g Anda sudah maju, dan kuda di f3 adalah yang menjaga sayap raja Putih.",
+  "hint": "Badai pion adalah pion yang menyerang buah. Buah putih mana yang bisa diserang salah satu pion Anda pada langkah ini?",
+  "explanation": "## Ide\n\n{{g4}} melemparkan pion badai ke kuda di f3, buah yang menjaga e5 dan petak-petak di depan raja Putih. Pion yang menyerang buah mendapat satu langkah, dan setiap langkah yang dipakai kuda untuk lari adalah langkah yang tak perlu dibayar badai itu.\n\nDalam partai itu kuda mundur ke e1, Botvinnik bertukar di e5 dan mengambil alih pusat, dan Hitam akhirnya menang."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "forks-05",
+  "fen": "6k1/5ppp/2q5/3N4/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Ne7+"
+  ],
+  "title": "Il Cavallo Aggancia una Donna",
+  "setup": "La donna nera in c6 sta attaccando il vostro cavallo in d5. Muovere il cavallo non basta; fategli reagire.",
+  "hint": "Un balzo di cavallo dà scacco e attacca la donna nello stesso momento.",
+  "explanation": "## L'idea\n\n{{Ne7+}} dà scacco al re in g8 e attacca la donna in c6 in un balzo solo. Niente di nero difende e7, e uno scacco di cavallo non si può parare, quindi il re deve muovere. Dopo {{Kf8}} o {{Kh8}}, {{Nxc6}} vince la donna.\n\nUna forchetta con scacco è la più forte: la mossa del re consuma il turno del Nero, e il secondo bersaglio cade."
+}

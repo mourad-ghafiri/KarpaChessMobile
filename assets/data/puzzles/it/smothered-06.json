@@ -1,0 +1,12 @@
+{
+  "id": "smothered-06",
+  "fen": "2r3k1/pp3ppp/8/8/3n4/8/PP3PPP/KR1R4 b - - 5 24",
+  "solution": [
+    "Nc2#"
+  ],
+  "rating": 1310,
+  "title": "La Guardia si Sposta",
+  "setup": "Il Bianco ha appena tolto la torre dalla colonna c aperta portandola in b1, e al suo re non resta una casa.",
+  "hint": "Due balzi di cavallo danno scacco dal lato dell'angolo; uno solo è fuori dalla portata di un pedone.",
+  "explanation": "## L'idea\n\nLa torre ha lasciato c1 e ha smesso di coprire c2. {{Nc2#}} dà scacco a un re i cui tre vicini, a2, b2 e b1, sono tutti suoi pezzi, e nessun pezzo bianco sorveglia c2. L'altro scacco, {{Nb3+}}, muore per axb3. Il matto affogato vive in ogni angolo, non solo in h8."
+}

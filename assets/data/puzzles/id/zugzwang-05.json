@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-05",
+  "fen": "5B2/8/8/7k/4K3/8/6p1/6Q1 w - - 0 1",
+  "solution": [
+    "Kf5",
+    "Kh4",
+    "Qh2#"
+  ],
+  "rating": 1530,
+  "title": "Raja Adalah Langkah Menunggu",
+  "setup": "Kedua raja berdiri di e4 dan h5, Hitam punya pion satu petak dari promosi di g2, dan menteri Anda menjaga g1.",
+  "hint": "Tak satu pun buah Anda boleh bergerak. Lihat buah yang belum Anda pertimbangkan.",
+  "explanation": "## Ide\n\n{{Kf5}} merebut g4, g5 dan g6 lalu menyerahkan giliran kepada Hitam. Hanya {{Kh4}} yang sah, dan {{Qh2#}} memberi mat pada raja yang terhimpit di tepi. Satu langkah raja adalah langkah menunggu yang sekaligus merajut jaringnya."
+}

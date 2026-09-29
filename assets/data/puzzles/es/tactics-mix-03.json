@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-03",
+  "fen": "4k3/8/8/8/3q4/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxd4"
+  ],
+  "title": "Dama gratis: cómetela",
+  "setup": "Dos damas frente a frente, pero solo una está defendida.",
+  "hint": "Busca siempre piezas colgadas. La táctica más sencilla es *cómete lo que te regalan*.",
+  "explanation": "## La idea\n\nEsta es la táctica más básica de todas: una pieza suelta. La dama negra de d4 no tiene defensor, y tu dama de d1 la ataca por la columna d.\n\n{{Qxd4}} gana una dama a cambio de nada. El rey de e8 está demasiado lejos para recapturar, y ninguna pieza negra defiende d4.\n\nAntes de cada jugada, busca piezas rivales sin defensa en las líneas que controlas. La regla de John Nunn lo dice mejor que nadie: las piezas sueltas se caen."
+}

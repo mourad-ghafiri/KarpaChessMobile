@@ -1,0 +1,14 @@
+{
+  "id": "skewer-02",
+  "fen": "8/3k3q/1B2p3/8/2Qp4/8/4bPP1/6K1 w - - 0 1",
+  "solution": [
+    "Qc7+",
+    "Ke8",
+    "Qxh7"
+  ],
+  "rating": 940,
+  "title": "Seventh-Rank Skewer",
+  "setup": "The black king on d7 and its queen on h7 share the seventh rank with nothing at all in between.",
+  "hint": "Which square beside the black king is already covered by another white piece? Check from the rank they share.",
+  "explanation": "## The Idea\n\nThe king on **d7** and the queen on **h7** sit on one rank. {{Qc7+}} checks from the other end, and the bishop on **b6** guards c7, so the king may not take. After {{Ke8}} the rank is clear and {{Qxh7}} collects the queen."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-06",
+  "fen": "1k6/8/3P4/1K6/8/7R/3r4/8 w - - 0 1",
+  "solution": [
+    "Kc6"
+  ],
+  "rating": 1430,
+  "title": "Prima la Scorta, Poi la Spinta",
+  "setup": "Il pedone d del Bianco è a una casa dalla settima, con la torre nera che aspetta dietro sulla colonna d.",
+  "hint": "Il pedone non ha proprio nessun difensore. Quale dei vostri due pezzi può coprire la casa su cui vuole stare?",
+  "explanation": "## L'idea\n\nSpingete subito e {{d7}} resta semplicemente in presa a {{Rxd7}}. {{Kc6}} copre prima d7, e solo allora il pedone muove: {{Rc2+}} {{Kd7}}, e il re lo accompagna a casa. Prima la scorta; il pedone muove per ultimo."
+}

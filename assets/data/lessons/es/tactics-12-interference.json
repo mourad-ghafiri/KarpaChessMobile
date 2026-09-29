@@ -1,0 +1,56 @@
+{
+  "id": "interference",
+  "title": "La interferencia",
+  "summary": "Ponte en el camino de su propio defensor",
+  "proof": "interference-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "En la puerta",
+      "text": "Tu peón de b7 está a una casilla de ser dama. La torre de h8 es la única razón por la que sigue siendo peón.\n\nPruébalo: {{b8=Q}} {{Rxb8}}. La torre nunca tuvo que moverse para cubrir b8: cinco casillas de fila vacía hicieron el trabajo, y la nueva dama dura un turno.\n\nNada tuyo ataca esa torre, y nada la echa de la octava fila. Pero la fila no es la torre. La fila es un camino, y los caminos se cierran."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "El muro equivocado",
+      "text": "La **interferencia** consiste en poner una pieza en el camino que usa un defensor. Aquí el camino es la octava fila.\n\n{{Re8}} lo cierra, e incluso el derribo —torre por torre y el alfil recaptura— no lo vuelve a abrir: el peón corona igual. Pero esa versión gasta una torre en un trabajo que puede hacer un alfil. Construye el muro con el alfil, y una torre negra que lo derribe paga cinco puntos por tres.\n\nCuando dos de tus piezas pueden construir el mismo muro, manda la que mejor puedas permitirte perder."
+    },
+    {
+      "type": "play",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Corta la octava fila con el muro más barato que las Negras no puedan quitar gratis.",
+      "targetSan": [
+        "Be8"
+      ],
+      "hint": "Busca la pieza que puede llegar a esa fila en una casilla que tu torre ya protege."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Pagado dos veces",
+      "text": "{{Be8}}. El alfil está protegido por la torre de e1, así que capturarlo empieza un cambio en lugar de acabar con una amenaza: la torre negra captura, tu torre recaptura y queda una torre blanca en la octava fila.\n\nIgnorar el alfil no es mejor. {{Kg6}} {{b8=Q}}, y la torre de h8 lo ha visto todo desde detrás de un muro que no podía atravesar.\n\nDe una forma u otra, la fila sigue cerrada exactamente el tiempo que necesita el peón.\n\n> Un defensor que trabaja a lo largo de una línea no protege una casilla. Protege un camino, y un camino se puede cerrar."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Atacado una vez, defendido una vez",
+      "text": "Un tablero nuevo. El caballo de e5 está atacado una vez y defendido una vez, lo que la mayoría de los días equivale a estar a salvo.\n\nEl alfil de b2 ataca, por la gran diagonal que pasa por c3 y d4. La dama de c7 defiende, por una diagonal más corta con exactamente una casilla vacía en medio.\n\n{{Bxe5}} {{Qxe5}}: un alfil por un caballo, un cambio igualado, y la dama negra aterriza en una casilla mejor que la que dejó. El caballo no es gratis mientras ese defensor llegue a él."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Un muro con su propia amenaza",
+      "text": "El muro del alfil aguantó porque detrás había una torre. Hay una segunda forma de que un muro aguante: que llegue con una amenaza propia.\n\nUn muro que ataca algo obliga a las Negras a responder a eso primero, así que no les queda jugada para volver a proteger el caballo. El muro sigue en pie cuando vienes a cobrar.\n\nAquí puedes tener las dos cosas a la vez. Uno de tus peones puede llegar a la casilla vacía de la diagonal de la dama, el otro peón lo protege ahí, y la dama está al alcance de lo que llegue."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "prompt": "Gana el caballo cortando la línea que lo protege.",
+      "targetSan": [
+        "d6"
+      ],
+      "hint": "El defensor trabaja por una diagonal con una casilla vacía: ocupa esa casilla con algo a lo que las Negras tengan que responder."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "draws-proof",
+  "fen": "k3r3/8/8/8/8/p7/P1q5/K5Q1 w - - 0 1",
+  "solution": [
+    "Qa7+"
+  ],
+  "title": "Medio punto de la nada",
+  "setup": "Tienes una torre de menos, las Negras amenazan mate en b2 y tu rey de a1 no tiene ninguna jugada legal. Encuentra el medio punto.",
+  "hint": "Cuenta tus jugadas legales como si la dama no estuviera en el tablero.",
+  "explanation": "## La idea\n\nTu rey de a1 no puede moverse: la dama negra cubre b1 y b2, y tu peón de a2 está bloqueado. Tu dama es la única pieza a la que le quedan jugadas.\n\n{{Qa7+}} la entrega con jaque. El rey de a8 no puede ir ni a b7 ni a b8, así que tiene que capturar. Entonces las Blancas no tienen ninguna jugada legal y no están en jaque: rey ahogado, medio punto.\n\nEl bando que gana está atento a esto. El que pierde sale a buscarlo."
+}

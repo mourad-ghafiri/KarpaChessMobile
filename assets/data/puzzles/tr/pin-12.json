@@ -1,0 +1,12 @@
+{
+  "id": "pin-12",
+  "fen": "5k2/7p/5p2/4n2B/2q3r1/2P2N1P/5Qb1/6K1 w - - 0 1",
+  "solution": [
+    "Nxe5"
+  ],
+  "rating": 1200,
+  "title": "Açmaz Son Anda Geliyor",
+  "setup": "Siyahın e5'teki atını f6 piyonu koruyor ve kendi f3'teki atınız vezirinizin önünü kesiyor.",
+  "hint": "e5'i koruyan piyon şu anda taş almakta serbest. Atınız f3'ten ayrıldığı anda f dikeyinde ne değişiyor?",
+  "explanation": "## Fikir\n\n{{Nxe5}} bir taş kazanır. f6 piyonu e5'i korur — ta ki atınız f3'ten çekilene ve **f2**'deki veziriniz bütün dikeyi **f8**'deki şaha kadar görene kadar. Piyon, tam ihtiyaç duyulduğu anda açmaza girer ve geri alamaz."
+}

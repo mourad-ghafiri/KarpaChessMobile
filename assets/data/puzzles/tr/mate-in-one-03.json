@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-03",
+  "fen": "rnb1k1nr/ppp2ppp/3b4/8/8/2N3P1/PPPPP3/R1BQKBNR b KQkq - 0 6",
+  "solution": [
+    "Bxg3#"
+  ],
+  "rating": 655,
+  "title": "Bedeli Vezirdi",
+  "setup": "Geçen hamle g3'te veziri verdiniz ve beyazın ne f2'de ne h2'de piyonu kaldı.",
+  "hint": "Beyazın artık f2'de piyonu yok. İndiği anda o deliği kapsayacak taşı bulun.",
+  "explanation": "## Fikir\n\nf2 ile h2 gittiğine göre h4–e1 çaprazı siyahındır. {{Bxg3#}} o yoldaki son piyonu alır ve hiçbir şey geri alamaz: g1'deki at g3'e ulaşmaz ve h1'deki kale yanlış hattadır. Tek kaçış karesi f2'dir ve onu fil kapsar."
+}

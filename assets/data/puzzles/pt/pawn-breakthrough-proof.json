@@ -1,0 +1,13 @@
+{
+  "id": "pawn-breakthrough-proof",
+  "fen": "8/5ppp/8/5PPP/4k3/8/8/K7 w - - 0 1",
+  "solution": [
+    "g6",
+    "fxg6",
+    "h6"
+  ],
+  "title": "Rompe Antes Que Ele Chegue",
+  "setup": "O rei preto em e4 vem buscar os teus peões, e o teu próprio rei está longe de mais para ajudar. Tens exatamente uma jogada que ganha.",
+  "hint": "Um peão preto só deixa a sua coluna para capturar. Que avanço pode ser comido dos dois lados, e o que deixa aberto cada captura?",
+  "explanation": "## A Ideia\n\n{{g6}} oferece o peão do meio aos dois peões pretos que estão ao lado. Todas as outras jogadas perdem, porque o rei preto simplesmente come os teus peões.\n\nDigamos que as pretas capturam com {{fxg6}}: {{h6}} oferece um segundo peão. Agora um dos teus passa, façam as pretas o que fizerem. Se comerem em h6, o peão f corre até f8 antes de o rei lá chegar. Se o deixarem, o teu peão h come em g7 e promove."
+}

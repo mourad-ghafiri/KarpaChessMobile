@@ -1,0 +1,12 @@
+{
+  "id": "trapped-10",
+  "fen": "rb4k1/p4pp1/7p/2p5/8/2N3PP/PP3P2/3B2K1 w - - 0 1",
+  "solution": [
+    "Bf3"
+  ],
+  "rating": 1330,
+  "title": "Benteng yang Terkurung",
+  "setup": "Benteng Hitam di a8 punya pionnya sendiri di a7 di bawahnya dan gajahnya sendiri di b8 tepat di sampingnya.",
+  "hint": "Benteng itu sama sekali tak punya langkah. Temukan diagonal panjang yang menjangkau sudut tempat ia terjebak.",
+  "explanation": "## Ide\n\n{{Bf3}} menyerang a8 di sepanjang diagonal h1-a8 dan benteng tak punya tempat: a7 adalah pion Hitam, b8 gajahnya. Tak ada yang bisa melindungi a8, dan gajah petak gelap tak akan pernah bisa menghalangi diagonal petak terang, jadi benteng itu begitu saja hilang."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-13",
+  "fen": "k4r2/8/8/7b/8/3n4/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "Sessiz Kare",
+  "setup": "Siyahın bir atı şah çekerek d3'e indi — ve atların şahı asla kapatılamaz.",
+  "hint": "h5'teki fil f3, e2 ve d1'i dilim dilim kesiyor. Kale f dikeyini koruyor. Kimsenin sözünü etmediği kareyi arayın.",
+  "explanation": "## Fikir\n\nd3'teki at şahınıza şah çekiyor ve atın şahına ancak şahı oynatarak ya da atı alarak cevap verilir. Sizin hiçbir şeyiniz d3'e ulaşmıyor, yani şahın oynaması gerekiyor.\n\nd1 ile e2, h5'teki filin çaprazında duruyor; f8'deki kale f1'i kapsıyor ve f2'yi atın kendisi kapsıyor. {{Kd2}} geriye kalan tek kare: atın tam yanında ve güvenli, çünkü at, hemen yanındaki karelere asla saldırmaz."
+}

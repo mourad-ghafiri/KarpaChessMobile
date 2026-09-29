@@ -1,0 +1,13 @@
+{
+  "id": "endgames-02",
+  "fen": "k7/8/2K5/8/8/8/8/1R6 w - - 0 1",
+  "solution": [
+    "Kc7",
+    "Ka7",
+    "Ra1#"
+  ],
+  "title": "Rapprochez le mur",
+  "setup": "La tour interdit déjà la colonne b, donc tout le monde du roi seul se réduit à a8 et a7. Deux coups blancs jettent la victoire.",
+  "hint": "La tour ne peut pas prendre seule les deux cases du roi noir — qui d'autre est assez proche, et quelle case garde la coupure active ?",
+  "explanation": "## L'idée\n\nLe mur est déjà en place : tant que la tour tient la colonne b, le roi seul ne peut jamais la franchir. Ce qui manque, c'est la seconde pièce, car la tour ne peut pas couvrir aussi a7 et a8.\n\n{{Kc7}} prend b8, b7 et b6. Les Noirs n'ont qu'un coup légal, {{Ka7}}, et {{Ra1#}} fait basculer le mur sur la colonne du roi — échec depuis un bout, aucune case à l'autre.\n\nLes deux façons de tout gâcher : {{Rb7}} couvre les deux cases et c'est pat, et {{Rb8+}} offre simplement la tour au roi."
+}

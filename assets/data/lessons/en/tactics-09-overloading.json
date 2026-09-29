@@ -1,0 +1,57 @@
+{
+  "id": "overloading",
+  "title": "Overloading",
+  "summary": "One guard, two duties, and you pick which one it drops",
+  "proof": "overload-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "One Square From a Queen",
+      "text": "White's pawn on a7 is one square away from becoming a queen, and one black piece is stopping it. The rook on c8 covers a8 along an empty rank, so {{a8=Q}} is answered by {{Rxa8}} and the new queen lasts exactly one move.\n\nThat is job one. The rook does it without moving. It stands on c8, and the pawn stays a pawn."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "And It Is Holding the Knight",
+      "text": "Now look down the c-file. Black's knight on c5 is attacked by White's bishop on e3, and the only thing defending it is that same rook on c8, reaching down past two empty squares.\n\nNothing else on Black's side comes near c5. The king on g8 is four files away, and no pawn is close enough to matter.\n\nOne rook, two jobs, and at this moment it is doing both of them without lifting a finger."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Leave It Exactly Where It Is",
+      "text": "Two ways of breaking a guard are already yours, and the rook on c8 survives both. Nothing of White's attacks it, so it cannot be taken off the board. There is nothing it has to accept, so it cannot be pulled off its square.\n\nGood. Leave it there. A piece covering two things at once is **overloaded**, and while nobody asks it for anything, two jobs are exactly as easy as one.\n\nSo ask. Defending is not standing still — it is a move, and there is only one rook."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "prompt": "Take one of the two things the rook is covering and let it decide which one it keeps.",
+      "targetSan": [
+        "Bxc5"
+      ],
+      "hint": "Only one of the rook's two jobs is a piece you can put your hands on, and White is already aimed at it."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "The Eighth Rank Is Nobody's",
+      "text": "Black took the bishop, and the trade was even — a bishop for a knight, three points each way. The rook on c5 is standing there because that is where it had to go to take back.\n\nWhich is the whole problem. From c5 the rook sees the c-file and the fifth rank, and a8 is on neither of them.\n\nRefusing was no better. The knight would simply be gone, and the pawn on a7 would still be sitting here."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "Finding the Next One",
+      "text": "There are two tests, and most players run only the first.\n\nName the enemy piece doing the most work and say its jobs out loud: this square, that piece. Then name everything else that covers them. A second defender anywhere and there is no overload — only a piece you cannot take.\n\nOne guard, two jobs, two different places to stand. Take whichever of the two you can reach, and the guard chooses the other one to lose.\n\n> Do not ask what a defender is guarding. Ask how many things, and what it has to leave behind to save any of them."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "prompt": "Nothing covers the eighth rank now, so collect what the rook was standing there to prevent.",
+      "targetSan": [
+        "a8=Q+",
+        "a8=R+"
+      ],
+      "hint": "The rook holds c5 and the fifth rank, and a8 is not on either of them."
+    }
+  ]
+}

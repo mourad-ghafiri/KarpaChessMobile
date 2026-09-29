@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-07",
+  "fen": "6k1/r4ppp/3B4/8/1R6/8/PP5Q/K2br3 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1530,
+  "title": "Linha de Fundo dos Dois Lados",
+  "setup": "As pretas têm uma torre em e1 e um bispo em d1 na tua linha de fundo enquanto o rei preto espera sossegado em g8.",
+  "hint": "Os dois lados têm uma primeira linha frágil. Conta qual delas cai em menos jogadas.",
+  "explanation": "## A Ideia\n\nAs pretas estão a uma jogada de te dar mate, e é exatamente por isso que {{Rb8+}} está certo. {{Re8}} é forçado e {{Rxe8#}} aterra primeiro. Numa corrida, o único número que interessa é quem dá xeque primeiro."
+}

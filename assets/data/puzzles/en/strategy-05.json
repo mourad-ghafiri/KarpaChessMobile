@@ -1,0 +1,11 @@
+{
+  "id": "strategy-05",
+  "fen": "rnbqkb1r/pp2pppp/1n6/2p1P3/2PP4/8/PP4PP/RNBQKBNR w KQkq - 0 7",
+  "solution": [
+    "d5"
+  ],
+  "title": "Push Past the Break",
+  "setup": "Black's c-pawn is hitting your pawn on d4. Your big center is what cramps Black, and a trade would hand the room back.",
+  "hint": "Defending d4 still lets Black trade on it. Where can that pawn go so the c-pawn has nothing left to hit?",
+  "explanation": "## The Idea\n\nWith more space, avoid trades: every swap gives the cramped side room. {{d5}} steps past the c-pawn instead of trading with it, and now White's pawns on c4, d5 and e5 take c6, d6, e6 and f6 away from Black's pieces.\n\n{{dxc5}} does the opposite. The queens come off with check, the knight on b6 jumps to a4, and Black is the one with room to play."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-02",
+  "fen": "6k1/5ppp/2n5/4b3/1P6/4PN2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "b5"
+  ],
+  "rating": 1090,
+  "title": "Persigue, no captures",
+  "setup": "El alfil de e5 cae ante tu caballo, y el caballo de c6 es la única pieza que lo sostiene todo.",
+  "hint": "Un defensor obligado a moverse es un defensor eliminado. ¿Qué peón puede subir y atacarlo?",
+  "explanation": "## La idea\n\n{{b5}} ataca al caballo, y cualquier casilla a la que vaya abandona e5; entonces {{Nxe5}}. Si las Negras salvan en cambio el alfil, {{bxc6}} se come el caballo. Echar a un defensor no te cuesta absolutamente nada."
+}

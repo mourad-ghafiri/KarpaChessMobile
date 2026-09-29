@@ -1,0 +1,56 @@
+{
+  "id": "remove-the-defender",
+  "title": "Singkirkan Pembela",
+  "summary": "Buah yang dijaga hanya seaman penjaganya",
+  "proof": "remove-defender-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Satu Penyerang, Satu Penjaga",
+      "text": "Gajah Hitam telah berjalan ke d4 dan berhenti di sana, jauh di separuh papan Putih, dan ia tidak tak terlindungi. Menteri di d1 punya lajur yang kosong menuju ke sana — itu satu penyerang. Kuda di c6 menguasai d4 — itu satu penjaga, dan penjaga itulah seluruh alasan gajah bisa berdiri di tempatnya.\n\nMenghitung penangkapan mengajari Anda menjumlahkan kedua sisi sebelum menangkap. Inilah yang harus dilakukan ketika hitungannya tak berpihak kepada Anda.\n\nBerhentilah berdebat dengan petaknya. Berdebatlah dengan penjaganya."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Dua Cara Menghentikan Penjaga",
+      "text": "Penjaga berhenti menjaga ketika ia keluar dari papan, dan berhenti menjaga ketika ia diusir dari petaknya. Cara pertama adalah yang bisa Anda hitung sampai tuntas, karena sesudah penangkapan tak ada lagi yang bisa salah.\n\nJadi sasarannya bukan gajah di tengah. Sasarannya adalah buah yang bertanggung jawab atasnya, dan buah itu berdiri di petak yang sudah bisa dicapai Putih.\n\n> Temukan langkah yang ingin Anda mainkan. Lalu temukan satu buah yang berkata tidak."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "prompt": "Ubah hitungan di d4 dengan menangkap satu-satunya buah hitam yang bertanggung jawab atasnya.",
+      "targetSan": [
+        "Bxc6+"
+      ],
+      "hint": "Hitung pembela d4. Hanya ada satu, dan sebuah buah Putih sudah membidiknya lurus-lurus."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Tak Ada yang Punya Langkah Luang",
+      "text": "Penangkapan itu datang dengan sekak, dan itulah yang membuatnya berhasil. Tanpa sekak, Hitam akan memakai langkahnya untuk menarik gajah dari d4. Sebaliknya, seluruh langkah itu habis untuk keluar dari sekak.\n\nMenteri menangkap balik di sini; pion b pun bisa menangkap balik. Bagaimanapun, pertukarannya seimbang — gajah untuk kuda, tiga untuk tiga, tak ada yang menang dan tak ada yang hilang.\n\nYang tak dimiliki penangkapan balik mana pun adalah waktu sejenak untuk d4."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Hitung Ulang Petaknya",
+      "text": "Gajah masih duduk di d4 dan menteri di d1 masih memandangnya lurus. Yang berubah adalah sisi lain dari penjumlahannya.\n\nMenteri di c6 tak mencapai d4. Tak ada pion yang menyentuhnya. Tak satu pun benteng berdiri di lajur d, dan raja di e8 sama sekali tak dekat.\n\nDiserang sekali, dijaga oleh tak seorang pun. Itulah hitungan yang Anda tunggu."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Satu Langkah, Bukan Sebuah Posisi",
+      "text": "Menangkap penjaga hanya membeli tepat satu langkah. Bukan keunggulan, bukan rencana — satu langkah.\n\nBeri Hitam satu giliran sebagai gantinya dan gajah berjalan meninggalkan d4 ke tempat yang tenang, atau sebuah benteng turun ke d8 dan melindunginya dari belakang. Tak ada yang menahan buah itu di tempatnya kecuali soal giliran siapa.\n\nAda harganya, dan harganya kecil. Begitu menteri Putih meninggalkan d1, tak ada yang menguasai c2, dan menteri Hitam punya jalan kosong di lajur c untuk memakan pion itu. Pion melawan gajah bukanlah hal yang perlu ditawar."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "prompt": "Ambil buah di d4 sebelum Hitam diberi langkah untuk membawanya pergi.",
+      "targetSan": [
+        "Qxd4"
+      ],
+      "hint": "Tak ada apa pun di pihak Hitam yang bertanggung jawab atas d4 saat ini, dan itu hanya berlaku satu langkah lagi."
+    }
+  ]
+}

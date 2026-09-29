@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-08",
+  "fen": "8/2P5/8/1K1k4/4R3/8/8/1r6 w - - 0 1",
+  "solution": [
+    "Rb4"
+  ],
+  "rating": 1500,
+  "title": "Köprüyü Kurun",
+  "setup": "c piyonu vezir olmaya bir adım uzaklıkta, ama beyaz b dikeyinde şah altında ve kalesi de saldırı altında.",
+  "hint": "İki sorun, tek hamle. Kalenizin şahı kapattığı ve şahınızın zaten nöbet tuttuğu bir kare var mı?",
+  "explanation": "## Fikir\n\n{{Rb4}} şahı, şahın koruduğu bir karede kapatır: köprü. {{Rxb4+}} {{Kxb4}} gelir ve piyon, siyahın şahı onu durduramadan vezir olur. Bunun yerine şahla yana çekilin, {{Rc1}} vaktinde piyonun arkasına insin."
+}

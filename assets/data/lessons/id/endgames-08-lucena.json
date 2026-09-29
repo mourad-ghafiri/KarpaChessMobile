@@ -1,0 +1,56 @@
+{
+  "id": "lucena-position",
+  "title": "Jembatan Lucena",
+  "summary": "Satu pion dari menteri, dan raja yang tak punya tempat berdiri",
+  "proof": "endgames-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "Kurang Satu Petak",
+      "text": "Pion di d7 tinggal satu petak dari baris kedelapan, dan raja Putih sendiri berdiri di petak itu.\n\nMinggirkan raja dan pion berpromosi pada giliran berikutnya. Itulah seluruh kemenangannya, dan argumen terbaik Hitam adalah benteng di a1, yang memberi sekak dari sisi papan yang jauh. Raja yang tertangkap di tempat terbuka dengan benteng di belakangnya bisa dikejar lama sekali, dan setiap sekak adalah langkah ketika pion diam di tempat.\n\nJadi ini bukan pertanyaan tentang pion. Ini pertanyaan tentang di mana raja bisa berdiri."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "Tak Ada Tempat Berlindung",
+      "text": "{{Ke7}}, dan {{Re1+}} langsung mendarat. Benteng berayun ke lajur mana pun yang dituju raja, dari jarak mana pun yang ia suka.\n\nJadi berikan raja sebuah tembok sebelum ia melangkah keluar, dan sekak-sekak itu tak lagi berarti. Hanya satu buah di papan ini yang bisa menjadi tembok itu. Benteng Anda di f2 sudah memikul tugas yang tak boleh dilepasnya: berdiri di lajur f, ia mengurung raja Hitam di luar pertarungan.\n\nJadi ia tetap di lajur itu. Ia naik di sepanjangnya — ke petak yang bisa didatangi dan dilindungi raja."
+    },
+    {
+      "type": "play",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "prompt": "Sebelum raja Anda melangkah keluar, kirim benteng naik di lajurnya untuk membangun tembok tempat raja akan berlindung.",
+      "targetSan": [
+        "Rf4"
+      ],
+      "hint": "Raja Anda akan keluar menyongsong tembok itu dan harus berakhir berdiri di sampingnya, jadi hitung seberapa jauh ke bawah lajur benteng harus ditempatkan."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "Buku yang Namanya Dipakai",
+      "text": "Benteng Hitam telah berayun ke d1, ke lajur pion itu sendiri, siap memberi sekak di sepanjangnya. Inilah posisi yang disebut Lucena oleh setiap buku akhir permainan.\n\nLuis Ramírez de Lucena mencetak buku tertua yang masih ada tentang cara memainkan catur modern, di Salamanca sekitar tahun 1497, dan posisi ini tidak ada di dalamnya. Posisi ini baru tercetak lebih dari seabad kemudian, dalam buku Alessandro Salvio tahun 1634. Namanya melekat pada buku yang salah dan tak pernah lepas lagi."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "Sekak yang Tak Merugikan Apa-Apa",
+      "text": "Sekarang raja berjalan, dan setiap langkahnya disambut. {{Ke7}} {{Re1+}} {{Kd6}} {{Rd1+}}.\n\nTak satu pun mengubah apa-apa. Benteng Hitam tak bisa mengusir raja dari petak yang penting, karena raja tidak sedang melarikan diri — ia berbaris menuju baris tempat tembok sudah diparkir. Setiap sekak menggeser benteng hitam satu lajur ke samping dan membawa Putih satu baris lebih dekat.\n\nHitam boleh terus memberi sekak. Rencananya tak peduli."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "title": "Berjarak Satu Baris",
+      "text": "Empat sekak kemudian raja Anda berdiri di d5, dan benteng di f4 duduk satu baris di bawahnya. Hitam memberi sekak lagi.\n\nBerlari sudah tak lagi menguntungkan. Melangkahlah ke {{Ke5}} dan lajur terbuka di belakang Anda: {{Rxd7}}, dan pion hilang. Melangkahlah ke c6 atau e6 dan benteng tinggal memberi sekak lagi di lajur yang baru. Jadi jawaban terbersih adalah memotong sekak itu, bukan lari darinya.\n\n> Penghalang yang bisa diambil lawan dengan gratis sama sekali bukan penghalang. Tempatkan ia di tempat yang sudah dijaga raja."
+    },
+    {
+      "type": "play",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "prompt": "Akhiri sekak-sekak itu untuk selamanya dengan menghalangi di satu-satunya petak yang sudah dilindungi raja Anda.",
+      "targetSan": [
+        "Rd4"
+      ],
+      "hint": "Benteng Anda cukup bergerak di sepanjang baris tempat ia sudah berada, dan hanya sejauh garis sekaknya."
+    }
+  ]
+}

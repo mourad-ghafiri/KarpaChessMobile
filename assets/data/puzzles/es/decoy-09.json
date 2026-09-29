@@ -1,0 +1,14 @@
+{
+  "id": "decoy-09",
+  "fen": "3q1bk1/pp3pp1/8/4N3/3P4/8/PPr2PP1/3R2KR w - - 1 2",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "Nxf7+"
+  ],
+  "rating": 1450,
+  "title": "Horquilla tras la caída",
+  "setup": "El rey negro está en g8 con su propio alfil y sus peones al lado, tu torre domina la columna h y tu caballo de e5 apunta a f7.",
+  "hint": "Desde f7 tu caballo atacaría dos piezas a la vez, pero solo si el rey estuviera en h8.",
+  "explanation": "## La idea\n\n{{Rh8+}} es una torre ofrecida a cambio de una casilla: {{Kxh8}} es forzada. Ahora {{Nxf7+}} da una horquilla al rey y a la dama, y el caballo vuelve con la dama. Las atracciones compran casillas, no material. Busca horquillas a las que solo les falte mover una pieza rival, y muévela tú mismo."
+}

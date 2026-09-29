@@ -1,0 +1,14 @@
+{
+  "id": "fork-05",
+  "fen": "1nb4k/p4pp1/2p4p/8/8/8/P1P2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Kh7",
+    "Rxc8"
+  ],
+  "rating": 840,
+  "title": "De l'air trop tard",
+  "setup": "Les Noirs viennent de jouer h6 pour donner de l'air à leur roi, et plus rien ne garde la huitième rangée.",
+  "hint": "La dernière rangée n'est plus un mat, mais c'est toujours la ligne la plus vide de l'échiquier.",
+  "explanation": "## L'idée\n\n{{Rd8+}} était mat il y a un coup ; c'est maintenant une fourchette. Depuis d8, la tour frappe toute la huitième rangée dans les deux sens à la fois — le roi d'un côté, le fou en c8 de l'autre. {{Kh7}} est forcé, et {{Rxc8}} gagne une pièce."
+}

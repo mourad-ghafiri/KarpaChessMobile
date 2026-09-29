@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-06",
+  "fen": "4k2b/8/p4R2/5Qr1/8/4K3/8/RB6 w - - 0 1",
+  "solution": [
+    "Rf8+",
+    "Ke7",
+    "Rf7+",
+    "Kd6",
+    "Rxa6#"
+  ],
+  "rating": 1520,
+  "title": "La torre que nunca para",
+  "setup": "El rey negro sigue en e8, con una torre en g5 y un alfil en h8, y tu torre ya está en f6.",
+  "hint": "Dos torres se reparten el trabajo: una guía al rey con jaques y la otra lo espera en una columna lejana.",
+  "explanation": "## La idea\n\n{{Rf8+}} y {{Rf7+}} sacan al rey a campo abierto, y {{Rxa6#}} da mate por la sexta con la dama de f5 sellando la quinta fila. Una torre saca al rey y la otra ya lo espera en la columna a."
+}

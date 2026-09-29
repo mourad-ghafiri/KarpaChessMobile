@@ -1,0 +1,14 @@
+{
+  "id": "promotion-04",
+  "fen": "1r4k1/6pp/1PP5/8/8/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "c7",
+    "Rc8",
+    "b7"
+  ],
+  "rating": 1120,
+  "title": "Due Pedoni, Una Torre",
+  "setup": "Due pedoni collegati stanno in b6 e c6 contro una sola torre in b8, e la torre può sorvegliarne uno solo.",
+  "hint": "Una torre sola non può tenere due pedoni collegati. Spingete quello che trascina la torre su una casa che potete attaccare.",
+  "explanation": "## L'idea\n\n{{c7}} attacca la torre e minaccia di promuovere, e {{Rc8}} è l'unica casa che ferma il pedone c. Adesso {{b7}} attacca la torre e minaccia anche b8=Q, quindi qualunque cosa giochi il Nero, uno dei due pedoni promuove. Due pedoni collegati in sesta battono una torre."
+}

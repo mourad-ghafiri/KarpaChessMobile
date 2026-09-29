@@ -1,0 +1,50 @@
+{
+  "id": "xray-attack",
+  "title": "Serangan Sinar-X",
+  "summary": "Buah jarak jauh bisa melihat menembus satu sama lain",
+  "proof": "xray-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Di Belakang Benteng Anda Sendiri",
+      "text": "Menteri Anda di d1 berdiri di belakang benteng Anda sendiri di d2, dan itu tampak seperti menteri yang terbuang. Pindahkan benteng dan menteri langsung melihat d7 pada saat itu juga, jadi selama benteng tetap di sana, menteri membidik lurus menembusnya.\n\nItulah **sinar-X**: buah jarak jauh yang menyerang menembus buahnya sendiri, dan terhitung sebagai penyerang sepanjang waktu.\n\nSekarang hitung lajur d. Benteng Hitam di d7 diserang dua kali, oleh benteng dan oleh menteri di belakangnya. Gajah di c8 menjaganya sekali. Dua mengalahkan satu."
+    },
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Mulai dari yang Murah",
+      "text": "Dua penyerang dan satu pembela, jadi d7 jatuh. Harganya sudah ditentukan sebelum penangkapan dilakukan, karena buah di depan adalah buah yang harus memulai.\n\nDi sini buah di depan adalah benteng. Ia masuk, gajah menangkapnya, menteri menuntaskan: lima poin dibayar, delapan diambil.\n\nTukar posisi keduanya, menteri di depan dan benteng di belakang, dan lajur yang sama merugi. Menteri masuk, gajah mengambil menteri, benteng mengambil gajah. Sembilan dibayar, delapan diambil.\n\nYang murah di depan, yang mahal di belakang."
+    },
+    {
+      "type": "play",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "prompt": "Uangkan lajur d, dimulai dengan penyerang yang paling sanggup Anda relakan.",
+      "targetSan": [
+        "Rxd7"
+      ],
+      "hint": "Hitung apa yang masih membidik petak itu setelah gajah Hitam menangkap balik."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "Penjaga yang Belum Ada",
+      "text": "Papan baru, giliran Hitam, dan kuda di e5 tampak gratis. Benteng Hitam di e4 menyerangnya, dan tak ada buah putih yang berdiri di dekatnya.\n\nLihat lebih jauh ke bawah lajur itu. Benteng Anda di e1 berada di lajur yang sama, dan satu-satunya yang berdiri di antara benteng itu dan kuda adalah benteng hitam itu sendiri.\n\nJadi kuda itu dijaga menembus buah yang ingin mengambilnya. Penghalang dan penyerangnya adalah benteng yang sama, dan ia tak bisa menangkap tanpa meninggalkan petak yang ia halangi."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "Kaya Selama Satu Langkah",
+      "text": "Hitam bisa mencoba mengosongkan lajur sebagai gantinya, dengan bertukar di e1 — tetapi raja di f1 menangkap balik, dan benteng yang menginginkan kuda keluar dari papan bersamanya.\n\nJadi Hitam mengambil kuda: {{Rxe5}}. Tiga poin, gratis, tepat selama satu langkah.\n\n> Hitung seluruh garis, bukan hanya buah pertama yang berdiri di sana."
+    },
+    {
+      "type": "play",
+      "fen": "2b3k1/ppp2ppp/8/4r3/8/8/PPP2PPP/4RK2 w - - 0 2",
+      "prompt": "Benteng Hitam telah mendarat di lajur yang sudah dikuasai benteng Anda sendiri, jadi ambillah.",
+      "targetSan": [
+        "Rxe5"
+      ],
+      "hint": "Tak ada yang berdiri di antara benteng Anda dan buah yang baru saja menangkap."
+    }
+  ]
+}

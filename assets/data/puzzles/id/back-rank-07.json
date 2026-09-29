@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-07",
+  "fen": "r5k1/5ppp/8/8/8/8/8/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "Tanpa Tembok Pion, Langsung Mat",
+  "setup": "Benteng-benteng saling berhadapan di lajur a. Raja Hitam di g8 duduk di balik tiga pion yang belum bergerak; raja Anda di g1 sama sekali tak punya pion.",
+  "hint": "Siapa yang menangkap lebih dulu di lajur a memberi sekak. Tanyakan ke mana masing-masing raja bisa melangkah sesudahnya.",
+  "explanation": "## Ide\n\n{{Rxa8#}} mengambil satu-satunya buah hitam yang bisa menjaga baris kedelapan, dan memberi sekak di sepanjang baris itu. Raja di g8 dikurung pionnya sendiri di f7, g7 dan h7, dan benteng menguasai f8 dan h8. Tak ada yang bisa menghalangi dan tak ada yang bisa menangkap balik.\n\nRaja Anda sendiri tak punya pion di depannya, dan justru karena itulah ia aman: f2, g2 dan h2 semuanya terbuka. Baris belakang hanya mematikan ketika pion-pion menutup pintunya."
+}

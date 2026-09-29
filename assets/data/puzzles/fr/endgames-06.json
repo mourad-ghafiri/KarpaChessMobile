@@ -1,0 +1,11 @@
+{
+  "id": "endgames-06",
+  "fen": "6k1/8/8/2P5/P7/2K5/7B/1b6 b - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "title": "Deux pions de moins, toujours nul",
+  "setup": "Les Blancs ont deux pions de plus et les fous se déplacent sur des couleurs différentes. Votre roi en g8 est loin, donc le fou doit tenir seul. Les Noirs jouent.",
+  "hint": "Le pion a termine en a8 et le pion c doit traverser c6. Ce sont deux cases blanches : trouvez la diagonale qui passe par les deux.",
+  "explanation": "## L'idée\n\na8 et c6 sont des cases blanches sur la même grande diagonale, et le vôtre est le fou de cases blanches. {{Be4}} le place sur cette diagonale, d'où il surveille les deux à la fois sans jamais avoir à la quitter. Le fou blanc en h2 vit sur les cases noires et ne pourra jamais le contester.\n\nTout ce qui est plus lent arrive trop tard : le roi blanc atteint b5, un pion se pose en c6 sous sa protection, et les pions de plus gagnent."
+}

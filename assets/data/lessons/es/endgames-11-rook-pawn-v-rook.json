@@ -1,0 +1,62 @@
+{
+  "id": "rook-pawn-vs-rook",
+  "title": "Torre y peón contra torre",
+  "summary": "Dos jugadas de torre que deciden todo el final",
+  "proof": "endgame-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "Dos columnas de ventaja",
+      "text": "Un peón en e4 no gana esto por sí solo. Un peón escoltado sí, y la escolta es todo el tema de un final de torres.\n\nMira la distancia. El rey negro de c7 está a dos columnas del camino de tu peón, y va hacia él. A tu torre de a1 nunca se le ha pedido que frene nada aquí, y es la única pieza que puede hacerlo.\n\nEl rey que se pone delante de un peón lo detiene. El rey que queda fuera mira."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "Un muro hecho de una torre",
+      "text": "Una torre en una columna abierta hace más que atacar por ella. El rey rival no puede pisar ninguna casilla que cubra la torre, así que la columna se convierte en un muro: una jugada para construirlo, y aguanta mientras la torre se quede.\n\nEso es **cortar al rey**. El rey rival queda encerrado a un lado de la línea, y todo lo del otro lado es tuyo.\n\nEl rey negro de c7 todavía no ha cruzado. Elige la línea que tiene que cruzar."
+    },
+    {
+      "type": "play",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "prompt": "Deja al rey negro fuera de la mitad del tablero donde está el peón antes de avanzar nada.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Cuenta las columnas entre el rey negro y el peón, y ocupa la primera que ese rey tiene que cruzar."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/3R4 b - - 1 1",
+      "title": "Vueltas y más vueltas",
+      "text": "El muro está levantado. Ahora mira lo que puede hacer el rey negro contra el peón.\n\n{{Kc6}} {{Kf4}} {{Kc5}} {{Kf5}}\n\nCuatro jugadas. El rey negro ha bajado por la columna c y sigue sin poder pisar la columna d, porque todas sus casillas pertenecen a una torre en d1. El rey blanco, mientras tanto, ha subido junto a su peón, que es lo que significa escoltar."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/4P1K1/8/3R4/8/8/5r2 b - - 0 8",
+      "title": "Qué final te toca",
+      "text": "Unas jugadas después, el peón está en e6 con su rey al lado en g6, y la torre sigue dominando la columna d. El rey negro de c7 está a dos columnas del camino del peón y no lo van a dejar entrar. Esa negativa elige el final.\n\nDeja que el rey defensor llegue a la casilla de delante del peón y las Negras hacen tablas: la posición de Philidor, cuatro lecciones atrás, no pide más que ese rey y una torre en la sexta fila.\n\nImpídelo, sube tu propio rey hasta la casilla de coronación, y te diriges en cambio a la posición de Lucena."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Cambia de silla",
+      "text": "Ahora eres las Negras, y una fila se usa contra ti igual que tú acabas de usar una columna. La torre de b7 domina la séptima, así que el rey negro de g8 queda retenido en la última fila.\n\nEl peón blanco de e5 es un peón pasado con un rey en d5 caminando a su lado, y el rey que debería frenarlo está atascado en el borde del tablero.\n\nAsí que la defensa la lleva la torre negra de h1, y adónde va es toda la cuestión."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Delante, al lado, detrás",
+      "text": "Una torre frente a un peón pasado tiene tres tipos de casilla, y no envejecen igual.\n\nDelante de él, la torre es un bloqueo que se encoge: cada avance le quita una casilla más, y en la octava fila se queda ahí sin hacer nada. A su lado, en una fila, la torre ataca al peón una vez y no gana nada cuando avanza.\n\nDetrás de él, el ataque se renueva. El peón avanza y la misma torre lo sigue mirando por la columna, mientras lo que protege al peón se aleja de casa.\n\n> Juzga una casilla por lo que vale después de que el peón avance, no antes."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "prompt": "Toma la única casilla cuyo valor crece cada vez que avanza el peón blanco.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "Lleva mentalmente el peón de e5 hasta la última fila y pregúntate qué puesto lo sigue atacando todo el camino."
+    }
+  ]
+}

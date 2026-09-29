@@ -1,0 +1,11 @@
+{
+  "id": "forks-08",
+  "fen": "r3k3/5ppp/8/PN6/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc7+"
+  ],
+  "title": "Horquilla familiar",
+  "setup": "El rey y la torre negros siguen en sus casillas iniciales, y tu caballo de b5 está cerca.",
+  "hint": "Hay una casilla de caballo que ataca a la vez al rey de e8 y a la torre de a8.",
+  "explanation": "## La idea\n\n{{Nc7+}} da jaque al rey de e8 y ataca a la torre de a8. El rey tiene que moverse, y {{Nxa8}} captura la torre.\n\nUn caballo en la esquina suele quedar atrapado ahí, pero este no: el peón de a5 protege b6, así que el caballo tiene una salida segura. Antes de capturar una pieza en la esquina, comprueba que tu caballo puede volver a casa."
+}

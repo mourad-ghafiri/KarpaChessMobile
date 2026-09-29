@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-12",
+  "fen": "5rk1/5ppp/8/8/8/8/3Q1PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Qd8",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "title": "Alihkan Pembelanya",
+  "setup": "Benteng di f8 menjaga baris belakang, dan menteri serta benteng Anda menguasai lajur d yang terbuka di sebelahnya. Alihkan penjaga itu.",
+  "hint": "Penjaga itu mengawasi d8 dari samping. Berikan sesuatu di petak itu yang tak bisa ditolaknya.",
+  "explanation": "## Ide\n\nBenteng di f8 menjaga seluruh baris kedelapan, termasuk d8. {{Qd8}} menempatkan menteri di petak itu dan menantang benteng untuk mengambilnya.\n\nJika {{Rxd8}}, maka {{Rxd8#}}: penjaganya telah pergi, dan pion di f7, g7 dan h7 mengurung raja. Hitam lebih baik menolak dengan langkah pion yang memberi raja ruang bernapas, tetapi {{Qxf8+}} {{Kxf8}} tetap menyisakan benteng Anda melawan raja sendirian."
+}

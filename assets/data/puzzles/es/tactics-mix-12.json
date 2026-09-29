@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-12",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3QK3 w - - 0 1",
+  "solution": [
+    "Qd8#"
+  ],
+  "title": "Mate del pasillo",
+  "setup": "El rey negro de g8 está encerrado por sus propios peones de f7, g7 y h7, sin nada que defienda la fila de detrás.",
+  "hint": "Cuando el rey rival está encerrado detrás de sus propios peones, busca la pieza que puede tomar una fila entera en una jugada.",
+  "explanation": "## La idea\n\nEl rey negro está en la octava fila, y sus propios peones de f7, g7 y h7 hacen que las únicas casillas que le quedan, f8 y h8, estén en esa misma fila.\n\n{{Qd8#}} toma toda la fila de golpe. Nada estorba, nada puede llegar a d8 para comer y el rey está demasiado lejos para hacerlo.\n\nUn rey detrás de tres peones sin mover está a una pieza mayor del mate, y por eso una sola jugada de peón, hecha a tiempo, es un seguro tan barato."
+}

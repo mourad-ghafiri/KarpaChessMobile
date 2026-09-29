@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-22",
+  "fen": "6k1/5p1p/1n2p1p1/8/6Q1/8/3b1PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qd4"
+  ],
+  "title": "La case centrale parfaite",
+  "setup": "Un cavalier noir en b6 et un fou en d2 sont sans protection, mais votre dame ne peut encore prendre ni l'un ni l'autre. Trouvez la case qui attaque les deux.",
+  "hint": "Une dame attaque à la fois le long des colonnes et des diagonales. Cherchez la case où une colonne vers une pièce croise une diagonale vers l'autre.",
+  "explanation": "## L'idée\n\nDepuis {{Qd4}}, la dame frappe le fou en d2 droit le long de la colonne et le cavalier en b6 le long de la diagonale. Aucune pièce noire n'attaque d4, et aucune ne protège l'autre.\n\nLe meilleur essai des Noirs soutient le cavalier avec le fou depuis a5. La dame va simplement en c5 et frappe de nouveau les deux, et l'un d'eux tombe quand même.\n\nTout autre coup laisse aux Noirs le temps de mettre les deux pièces à l'abri."
+}

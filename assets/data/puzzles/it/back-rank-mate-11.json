@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-11",
+  "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w - - 0 16",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1060,
+  "title": "Cedete la Donna",
+  "setup": "Il re nero sta ancora in e8, inscatolato dal proprio alfiere e dai propri pedoni, con un cavallo in d7 che blocca alla vostra torre la strada verso d8.",
+  "hint": "Un pezzo nero impedisce alla vostra torre di dare matto in d8. Che cosa lo farebbe andare via da quella casa?",
+  "explanation": "## L'idea\n\nLa torre in d1 vuole già d8, sulla sua strada c'è solo il cavallo in d7, e il vostro alfiere in g5 copre già d8 e e7. {{Qb8+}} costa una donna intera e forza {{Nxb8}}, l'unica risposta legale — e adesso il cavallo sta sulla casa sbagliata. {{Rd8#}} conclude."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "discovery-05",
+  "fen": "2rkr3/2p1pppp/4n3/3P4/8/5N2/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "dxe6#"
+  ],
+  "rating": 1120,
+  "title": "Dikeyden Çekilerek",
+  "setup": "Siyahın şahı d8'de kendi kaleleri ve piyonlarıyla duvara alınmış ve d dikeyini kendi piyonunuz kapatıyor.",
+  "hint": "Taş alan piyon, üzerinde durduğu dikeyi terk eder. Bunu yaptığı anda kalenizin ne göreceğini sorun.",
+  "explanation": "## Fikir\n\n{{dxe6#}} bir at kazanır, ama mesele bu değil: piyon d dikeyini terk eder ve d1'deki kale ta d8'e kadar şah çeker. c7, e7, c8 ve e8'de siyahın kendi taşları durur ve kalenin önüne hiçbir şey giremez. Piyonla yapılan bir açılma mat edebilir."
+}

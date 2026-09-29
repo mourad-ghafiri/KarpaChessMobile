@@ -1,0 +1,12 @@
+{
+  "id": "pin-07",
+  "fen": "8/8/2k2pp1/bR5p/P1P1r3/1P6/4B1KP/8 w - - 0 1",
+  "solution": [
+    "Bf3"
+  ],
+  "rating": 1040,
+  "title": "Un paso, una torre",
+  "setup": "La torre negra de e4 y el rey de c6 están en la misma diagonal con una sola casilla vacía entre ellos.",
+  "hint": "Tu alfil tiene un modesto paso que convierte a la torre negra en una estatua. ¿Qué diagonal llega al rey?",
+  "explanation": "## La idea\n\n{{Bf3}} ataca a la torre de **e4** y la clava contra el rey de **c6** en la misma jugada, porque la línea f3–e4–d5–c6 está despejada. La torre no tiene defensor y no puede huir, así que cae en la próxima jugada."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-04",
+  "fen": "8/8/8/3kp2P/8/8/8/4K3 b - - 0 1",
+  "solution": [
+    "Ke6"
+  ],
+  "rating": 1210,
+  "title": "The Blocked Door",
+  "setup": "Both sides have a runner, and the black king is standing one file outside the white pawn's box.",
+  "hint": "Count the h-pawn's box, then look at which of its entry squares one of your own pieces is sitting on.",
+  "explanation": "## The Idea\n\nThe box is h5–h8–e8–e5, and Black's own pawn occupies e5, the natural door. {{Ke6}} is the only other way in, and from there the king shadows the pawn to h8. Racing with {{e4}} loses by a single move. Count your own pieces before you count White's."
+}

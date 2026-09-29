@@ -1,0 +1,12 @@
+{
+  "id": "fork-03",
+  "fen": "rnbqkb1r/pppp1ppp/8/4p3/2B1N3/8/PPPP1PPP/R1BQK1NR b KQkq - 0 4",
+  "solution": [
+    "d5"
+  ],
+  "rating": 760,
+  "title": "Trik Garpu",
+  "setup": "Anda menyerahkan kuda di e4 satu langkah lalu, dan kini Putih punya kuda dan gajah di baris yang sama.",
+  "hint": "Satu langkah pion mana yang menyerang kuda dan gajah sekaligus?",
+  "explanation": "## Ide\n\n{{d5}} menyerang kuda di e4 dan gajah di c4 bersamaan, dan sekaligus membebaskan gajah Anda sendiri di c8. Inilah trik garpu: serahkan kuda untuk sebuah pion, lalu rebut kembali buahnya dengan sebuah pion."
+}

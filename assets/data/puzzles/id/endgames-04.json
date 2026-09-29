@@ -1,0 +1,11 @@
+{
+  "id": "endgames-04",
+  "fen": "4K3/k3P3/8/8/8/8/2R5/7r w - - 0 1",
+  "solution": [
+    "Rc4"
+  ],
+  "title": "Pasang Papan Jembatannya Dulu",
+  "setup": "Pion tinggal satu petak dari menjadi menteri dan raja Anda berdiri di petak yang dibutuhkannya. Bangun perlindungan raja dari sekak-sekak sebelum ia melangkah keluar.",
+  "hint": "Hitung di mana raja Anda akan berdiri ketika sekak-sekak dimulai, lalu berikan benteng petak yang bisa dilindungi raja itu.",
+  "explanation": "## Ide\n\n{{Rc4}} membangun jembatan sebelum raja melangkah keluar. Di baris keempat benteng menunggu sekak-sekak itu: begitu raja berjalan turun ke sampingnya, benteng melangkah menyeberang dan menghalangi di petak yang dilindungi raja. Dari c4 ia juga terus memotong raja Hitam dari pion.\n\nDengan raja Hitam sejauh ini, langsung melangkah keluar juga menang. Jembatan adalah metode yang berhasil di setiap posisi Lucena, itulah sebabnya ia layak dimainkan bahkan di sini."
+}

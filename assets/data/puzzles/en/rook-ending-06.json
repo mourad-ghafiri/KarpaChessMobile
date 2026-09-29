@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-06",
+  "fen": "1k6/8/3P4/1K6/8/7R/3r4/8 w - - 0 1",
+  "solution": [
+    "Kc6"
+  ],
+  "rating": 1430,
+  "title": "Escort, Then Push",
+  "setup": "White's d-pawn is one square from the seventh, with the black rook waiting behind it on the d-file.",
+  "hint": "The pawn has no defender at all. Which of your two pieces can cover the square it wants to stand on?",
+  "explanation": "## The Idea\n\nPush at once and {{d7}} simply hangs to {{Rxd7}}. {{Kc6}} covers d7 first, and only then does the pawn move: {{Rc2+}} {{Kd7}}, and the king shepherds it home. Bring the escort first; the pawn moves last."
+}

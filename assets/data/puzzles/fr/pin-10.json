@@ -1,0 +1,12 @@
+{
+  "id": "pin-10",
+  "fen": "5k2/5p2/3nq2R/4p1p1/1P2p2N/2PPP3/3r1Q2/6K1 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 1150,
+  "title": "La tour prend la dame",
+  "setup": "Votre dame en f2 remonte une colonne f vide jusqu'au pion noir en f7 et au roi qui se tient derrière lui.",
+  "hint": "La dame noire est protégée une fois, par un pion. Que fait votre propre dame à ce pion depuis f2 ?",
+  "explanation": "## L'idée\n\n{{Rxe6}} gagne la dame contre une tour. Le pion f7 est son seul défenseur, et il est cloué sur le roi en **f8** par votre dame en **f2**. Toutes les cases entre eux sont vides, donc la reprise est illégale et la dame est perdue."
+}

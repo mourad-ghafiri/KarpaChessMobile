@@ -1,0 +1,12 @@
+{
+  "id": "discovery-11",
+  "fen": "r6k/ppp5/7K/8/8/1B6/PP6/7R w - - 0 1",
+  "solution": [
+    "Kg6#"
+  ],
+  "rating": 1330,
+  "title": "The King Discovers",
+  "setup": "Your rook on h1 stares up the h-file at the black king, and the piece in the way is your own king.",
+  "hint": "Anything at all can stand in front of a battery, even a king. Which square keeps every flight covered?",
+  "explanation": "## The Idea\n\n{{Kg6#}} is a discovered check: the king steps off the h-file and the rook checks from h1. g7 and h7 are covered by the king itself, g8 by the bishop on b3, and nothing can block on the empty h-file. Kg5 discovers the same check, but then g7 is free."
+}

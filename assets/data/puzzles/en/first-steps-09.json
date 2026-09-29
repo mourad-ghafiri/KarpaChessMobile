@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-09",
+  "fen": "5k2/6pp/p7/1p3p2/8/3B4/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Bxf5"
+  ],
+  "title": "Two Pawns, One Safe",
+  "setup": "Your bishop on d3 attacks two black pawns, one on each diagonal. Only one of them can be taken for free.",
+  "hint": "Look one square diagonally behind each pawn. One has a friend standing there, and one stands alone.",
+  "explanation": "## The Idea\n\nBoth pawns sit on your bishop's diagonals, but only one is free.\n\n{{Bxb5}} loses the bishop to {{axb5}}, because the pawn on a6 guards b5. {{Bxf5}} wins a pawn outright, since nothing guards f5. Wait one move and Black plays {{g6}} to guard it.\n\nPawns guard the squares diagonally in front of them. Before you take, look one square diagonally behind the target."
+}

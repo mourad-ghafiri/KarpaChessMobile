@@ -1,0 +1,12 @@
+{
+  "id": "trapped-04",
+  "fen": "4r1k1/5ppp/p4n2/1pp5/8/1B3N1P/P1P2PP1/3R2K1 b - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "rating": 1130,
+  "title": "L'arche de Noé",
+  "setup": "Le fou blanc en b3 a ses propres pions derrière lui en a2 et c2, et sa propre tour en d1.",
+  "hint": "Comptez les cases de fuite de ce fou : les propres pions blancs en bloquent deux, et votre pion b en couvre une troisième.",
+  "explanation": "## L'idée\n\n{{c4}} ferme la dernière diagonale. a2 et c2 sont occupées par les propres pions blancs, a4 est couverte par le pion b5, et le pion désormais en c4 est protégé par b5, donc Bxc4 bxc4 coûte une pièce. Ce filet est assez ancien pour porter un nom : le piège de l'arche de Noé."
+}

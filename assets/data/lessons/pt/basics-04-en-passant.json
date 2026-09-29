@@ -1,0 +1,62 @@
+{
+  "id": "en-passant",
+  "title": "Apanhado de Passagem",
+  "summary": "Um peão passa a correr ao lado do teu e, durante exatamente uma jogada, não fica impune",
+  "proof": "en-passant-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "A Casa Que Ele Se Recusa a Atravessar",
+      "text": "O peão preto em d7 quer avançar, e uma casa à sua frente está proibida: o teu peão de e5 cobre d6, portanto um passo até d6 é um peão entregue.\n\nAs pretas têm outra opção. A partir da sua linha de partida o peão pode viajar duas casas de uma vez: {{d5}}. Passa por cima de d6 sem nunca lá estar e aterra ombro a ombro com o teu peão — fora de alcance, já que um peão golpeia para a frente e na diagonal, nunca de lado.\n\nÉ essa a brecha. O *en passant* fecha-a."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "De Passagem",
+      "text": "A resposta tem de vir imediatamente, na jogada logo a seguir. {{d5}} outra vez — e desta vez {{exd6}}.\n\nO teu peão avança na diagonal até d6, a casa onde as pretas se recusaram a parar, e o peão preto é levantado de d5. Lê outra vez essas duas casas: aterras numa e o peão capturado sai da outra. Todas as outras capturas do xadrez te põem na casa que a vítima estava a usar. Esta não, e é por isso que parece ilegal da primeira vez que a vês.\n\n*En passant* é francês para «de passagem», e o nome é a regra inteira."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Porque É Que a Regra Existe",
+      "text": "A primeira jogada de duas casas não é original. O xadrez andou séculos com os peões a rastejar uma casa de cada vez, e o passo duplo foi acrescentado mais tarde, para as partidas arrancarem mais depressa.\n\nResultou, e trouxe um problema: um peão passava agora a poder usar a velocidade extra para escapar a um peão inimigo que já vigiava o seu caminho. O guarda estava mesmo ali e não tinha voto na matéria. É exatamente isso que {{d5}} está a tentar fazer.\n\nO *en passant* é a correção, e mais nada. Acelerar o início, sim. Comprar um salvo-conduto, não."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "O Que Tem de Ser Verdade",
+      "text": "A regra é estreita, e todas as suas partes contam.\n\nO peão inimigo tem de chegar pela jogada de duas casas, diretamente da sua linha de partida — um peão que lá tenha ido um passo de cada vez está seguro para sempre. Tem de aterrar mesmo ao lado do teu peão, na mesma linha. O teu próprio peão tem de estar na sua quinta linha, porque é nessa linha que aterra quem corre duas casas.\n\nE é peão contra peão. Mais nada pode ser apanhado de passagem, e mais nada pode fazer a apanha."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "title": "Uma Jogada, e Só Uma",
+      "text": "Dois peões pretos estão ao lado do teu peão de e5, um em d5 e outro em f5, e só um deles pode ser apanhado de passagem.\n\nO peão d fez a sua corrida de duas casas antes de o teu peão sequer chegar a e5, portanto desse lado nunca houve oferta nenhuma. O peão f aterrou neste preciso instante, diretamente de f7, atravessando f6 — a casa que o teu peão de e5 vigia.\n\nPortanto a hipótese está aberta de um lado e fechada do outro. Joga aqui qualquer outra coisa e esta também se fecha, para sempre."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "prompt": "Come o peão que acabou de passar a correr por ti, antes que a hipótese caduque.",
+      "targetSan": [
+        "exf6"
+      ],
+      "hint": "Só o peão que andou duas casas nesta mesmíssima jogada pode ser apanhado, e tu aterras na casa que ele saltou."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/5P2/3p4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "A Casa Onde Nunca Estiveste",
+      "text": "O teu peão em f6, e f5 vazia por trás dele. O peão que capturaste estava ali há um instante.\n\nAs pretas recapturam com {{gxf6}} — uma captura vulgar, do género que tens feito desde o princípio, a aterrar exatamente onde estava aquilo que capturou. Põe as duas jogadas lado a lado e a estranheza da tua salta à vista.\n\n> Há uma captura no xadrez que tira uma peça de uma casa onde quem captura nunca põe o pé. É esta."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/8/8/2pPP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Agora a jogar de pretas: apanha o peão branco que acabou de saltar por cima do teu, enquanto o direito ainda existe.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Conta a partir do lado das pretas — o teu peão está na tua quinta linha, e aterras na casa que o corredor atravessou."
+    }
+  ]
+}

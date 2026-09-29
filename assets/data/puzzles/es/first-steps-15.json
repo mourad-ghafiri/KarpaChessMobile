@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-15",
+  "fen": "1k6/1b6/8/2b5/8/6p1/R7/7K w - - 0 1",
+  "solution": [
+    "Rg2"
+  ],
+  "title": "Cierra la ventana",
+  "setup": "El alfil de **b7** da jaque a tu rey por la diagonal más larga del tablero.",
+  "hint": "Tu rey no tiene casilla segura: g1 y h2 están cubiertas. ¿Puede tu torre meterse en la diagonal?",
+  "explanation": "## La idea\n\nEl alfil de b7 da jaque por toda la gran diagonal hasta tu rey de h1. Las salidas están selladas: el alfil de c5 cubre g1, y el peón de g3 cubre h2.\n\nUn jaque en diagonal sigue siendo un jaque por una línea, y las líneas se pueden tapar. {{Rg2}} se desliza por la segunda fila hasta el camino del alfil. Si sigue {{Bxg2+}}, {{Kxg2}} recaptura.\n\nUna torre no se mueve en diagonal, pero sí puede plantarse en una diagonal."
+}

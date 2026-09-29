@@ -1,0 +1,57 @@
+{
+  "id": "king-moves",
+  "title": "La pieza que nunca se va",
+  "summary": "Una casilla en cualquier dirección, menos todas las que vigila el rival",
+  "proof": "first-steps-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "title": "Nunca capturado, nunca cambiado",
+      "text": "Cualquier otra pieza tuya se puede cambiar, regalar o perder. El rey, no. Nunca es capturado y nunca sale del tablero: la partida termina antes.\n\nAsí que las reglas lo llevan con correa corta: **una casilla, en cualquiera de las ocho direcciones**. Desde e4 son {{Kd5}}, {{Ke5}}, {{Kf5}}, {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\nOcho vecinas. Nada más allá."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "prompt": "Mueve el rey a cualquier casilla que toque e4: aquí las ocho están libres.",
+      "targetSan": [
+        "Kd5",
+        "Ke5",
+        "Kf5",
+        "Kd4",
+        "Kf4",
+        "Kd3",
+        "Ke3",
+        "Kf3"
+      ],
+      "hint": "No hay nada más en el tablero, así que ninguna casilla del anillo es mejor que otra."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Algo está vigilando",
+      "text": "El tablero ya no está vacío. La torre negra en h5 barre toda la quinta fila, de punta a punta, como hacen las torres.\n\nMira lo que le cuesta eso al rey de e4. Tres de sus ocho vecinas —d5, e5 y f5— están en esa fila, a la vista de la torre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Tres casillas retiradas",
+      "text": "Esas tres casillas no son una mala idea. No son una opción en absoluto.\n\nUn rey **nunca puede ir a una casilla atacada por una pieza rival**. El tablero no lo permite: intenta ir a d5 y la jugada sencillamente no existe, igual que una línea recta no existe para un alfil.\n\nQuedan cinco: {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\n> Cuenta las casillas que tocan al rey y tacha todas las que vigila el rival. Lo que queda es todo el movimiento del rey."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3k4/8/3K4/8/8/8 w - - 0 1",
+      "title": "Los reyes guardan las distancias",
+      "text": "El caso más claro de esa regla son dos reyes. El rey negro en d6 está a dos casillas, y c5, d5 y e5 lo tocan.\n\nLo que significa que las tres están prohibidas para el rey blanco en d4. No puede dar ni un paso adelante: todo el frente de su anillo pertenece al otro rey.\n\nDos reyes nunca pueden estar uno al lado del otro. Ninguno puede entrar en el anillo del otro, así que entre ellos siempre queda una casilla vacía."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/4p3/4K3/8 w - - 0 1",
+      "prompt": "Ese peón ha cerrado las dos casillas junto al rey, pero no la suya: gánalo.",
+      "targetSan": [
+        "Kxe3"
+      ],
+      "hint": "Un peón ataca en diagonal hacia delante, nunca en línea recta, y en este tablero nada lo defiende."
+    }
+  ]
+}

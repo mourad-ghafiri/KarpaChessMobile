@@ -1,0 +1,11 @@
+{
+  "id": "discovered-03",
+  "fen": "4k3/r7/2N5/1B6/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxa7+"
+  ],
+  "title": "Le cavalier dégage la diagonale",
+  "setup": "Votre fou en b5 vise le roi — mais votre propre cavalier est sur le chemin. Ce n'est pas un problème ; c'est un coup.",
+  "hint": "Le cavalier doit bouger pour que l'échec apparaisse. Trouvez le saut qui ramasse quelque chose au passage.",
+  "explanation": "## L'idée\n\nLe cavalier en c6 bloque la diagonale du fou vers e8, donc tout coup de cavalier donne échec. Cette liberté est tout l'intérêt : le cavalier peut aller là où il gagne le plus.\n\n{{Nxa7+}} prend la tour pendant que le fou en b5 donne l'échec. Les Noirs doivent parer l'échec, donc rien ne reprend le cavalier, et les Blancs se retrouvent avec fou et cavalier contre un roi seul.\n\nAvec un échec à la découverte, dépensez le coup gratuit sur la plus grosse prise à portée."
+}

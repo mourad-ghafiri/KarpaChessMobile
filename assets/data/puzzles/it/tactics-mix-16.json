@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-16",
+  "fen": "r1b1k2r/ppp2ppp/2n5/3Bq3/8/2N1P2P/PP3PPQ/R4RK1 w - - 0 1",
+  "solution": [
+    "Bxc6+"
+  ],
+  "title": "Eliminate la Guardia con Scacco",
+  "setup": "Le due donne si fissano lungo la diagonale, e la donna nera in e5 è difesa solo dal cavallo in c6.",
+  "hint": "Cambiare le donne non ottiene niente. Togliete l'unica guardia della donna, e fatelo guadagnando un tempo.",
+  "explanation": "## L'idea\n\n{{Qxe5+}} subito cambia soltanto le donne dopo {{Nxe5}}. Il cavallo in c6 è l'unica guardia della donna, quindi toglietelo prima: {{Bxc6+}} prende il cavallo con scacco. Il Nero deve rispondere allo scacco, con {{bxc6}}, una parata in d7 o una mossa di re, e nessuna di esse rimette una guardia su e5, quindi {{Qxe5+}} vince la donna per un alfiere.\n\nQuando un pezzo ha una guardia sola, catturate la guardia con scacco."
+}

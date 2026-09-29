@@ -1,0 +1,11 @@
+{
+  "id": "interference-proof",
+  "fen": "6k1/5ppp/p7/8/q2N4/5B2/5PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "Un mur en travers de la diagonale",
+  "setup": "La dame noire en a4 est la seule pièce qui garde e8, et votre tour en e1 vise droit cette case.",
+  "hint": "Placez sur la diagonale de la dame quelque chose qu'elle ne peut pas ignorer, sur une case que votre cavalier couvre déjà.",
+  "explanation": "## L'idée\n\nLa dame en a4 garde e8 le long de la diagonale qui passe par b5, c6 et d7. {{Bc6}} se place au milieu, protégé par le cavalier en d4, et attaque aussi la dame. Prendre le fou coûte la dame, et prendre votre cavalier permet à votre tour de mater en e8. Les meilleurs essais de la dame passent par f8, mais alors votre tour donne échec en e8, la dame doit s'interposer en f8, clouée sur son propre roi, et elle est perdue contre une tour."
+}

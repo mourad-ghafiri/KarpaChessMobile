@@ -1,0 +1,56 @@
+{
+  "id": "lucena-position",
+  "title": "Lucena Köprüsü",
+  "summary": "Vezire bir piyon ve duracak yeri olmayan bir şah",
+  "proof": "endgames-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "Bir Kare Eksik",
+      "text": "d7'deki piyon sekizinci yataya bir kare uzaklıkta ve beyazın kendi şahı o karede duruyor.\n\nŞahı yana çekin, piyon sıradaki hamlede terfi etsin. Kazancın tamamı bu ve siyahın en iyi itirazı, tahtanın uzak tarafından şah çeken a1'deki kale. Arkasında bir kale varken açıkta yakalanan şah uzun süre kovalanabilir ve her şah, piyonun yerinde saydığı bir hamledir.\n\nYani bu, piyonla ilgili bir soru değil. Şahın nerede durabileceğiyle ilgili bir soru."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "Arkasına Saklanacak Bir Şey Yok",
+      "text": "{{Ke7}} gelir ve hemen {{Re1+}} iner. Kale, şahın adım attığı hangi dikeyse ona, istediği mesafeden savrulur.\n\nÖyleyse şah dışarı çıkmadan önce ona bir duvar verin, şahlar da önemini yitirsin. Bu tahtada duvar olabilecek tek bir taş var. f2'deki kaleniz, bırakmaması gereken bir işi zaten yürütüyor: f dikeyinde durarak siyahın şahını kavganın dışında tutuyor.\n\nDemek ki o dikeyde kalır. Dikeyde yukarı çıkar — şahın yürüyüp koruyabileceği bir kareye."
+    },
+    {
+      "type": "play",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "prompt": "Şahınız dışarı çıkmadan önce kaleyi kendi dikeyinde yukarı gönderin ve arkasına saklanacağı duvarı kurun.",
+      "targetSan": [
+        "Rf4"
+      ],
+      "hint": "Şahınız o duvarı karşılamaya çıkıyor ve sonunda yanında durmak zorunda; öyleyse bunun kaleyi dikeyde nereye koyduğunu hesaplayın."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "Adını Aldığı Kitap",
+      "text": "Siyahın kalesi d1'e, piyonun kendi dikeyine savrulmuş ve orada dikey boyunca şah çekmeye hazır. Bu, her oyun sonu kitabının Lucena dediği pozisyondur.\n\nLuis Ramírez de Lucena, modern oyunun nasıl oynandığına dair günümüze ulaşan en eski kitabı 1497 dolaylarında Salamanca'da bastırdı ve bu pozisyon o kitapta yok. Basılı olarak bir yüzyıldan fazla sonra, Alessandro Salvio'nun 1634 tarihli kitabında ortaya çıkıyor. Ad yanlış cildin üstüne kondu ve bir daha hiç düşmedi."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "Hiçbir Şeye Mal Olmayan Şahlar",
+      "text": "Şimdi şah yürür ve her adımına karşılık verilir. {{Ke7}} {{Re1+}} {{Kd6}} {{Rd1+}}.\n\nBunların hiçbiri bir şeyi değiştirmez. Siyahın kalesi şahı önemli bir kareden kovalayamaz, çünkü şah kaçmıyor — duvarın çoktan park ettiği yataya doğru yürüyor. Her şah, siyahın kalesini bir dikey yana iter ve beyazı bir yatay yaklaştırır.\n\nSiyah şah çekmeyi sürdürebilir. Planın umurunda değil."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "title": "Bir Yatay Arayla",
+      "text": "Dört şah sonra şahınız d5'te duruyor ve f4'teki kale onun bir yatay altında oturuyor. Siyah yine şah çeker.\n\nKaçmak artık kâr getirmiyor. {{Ke5}} ile adım atın, arkanızdaki dikey açılsın: {{Rxd7}} gelsin ve piyon gitsin. c6 ya da e6'ya adım atın, kale yeni dikeyde öylece yine şah çeksin. Yani en temiz cevap, şahtan kaçmak yerine onu kesmektir.\n\n> Rakibinizin bedavaya alabildiği bir kapatma, kapatma değildir. Onu şahın zaten nöbet tuttuğu yere koyun."
+    },
+    {
+      "type": "play",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "prompt": "Şahınızın zaten koruduğu tek kareye kapatarak şahları temelli bitirin.",
+      "targetSan": [
+        "Rd4"
+      ],
+      "hint": "Kalenizin yalnızca zaten üzerinde olduğu yatay boyunca ve yalnızca şahın hattına kadar gitmesi gerekiyor."
+    }
+  ]
+}

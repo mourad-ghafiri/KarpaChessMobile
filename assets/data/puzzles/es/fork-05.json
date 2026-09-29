@@ -1,0 +1,14 @@
+{
+  "id": "fork-05",
+  "fen": "1nb4k/p4pp1/2p4p/8/8/8/P1P2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Kh7",
+    "Rxc8"
+  ],
+  "rating": 840,
+  "title": "Aire demasiado tarde",
+  "setup": "Las Negras acaban de jugar h6 para darle aire a su rey, y ya no queda nada defendiendo la octava fila.",
+  "hint": "La última fila ya no es mate, pero sigue siendo la línea más vacía del tablero.",
+  "explanation": "## La idea\n\n{{Rd8+}} era mate hace una jugada; ahora es una horquilla. Desde d8 la torre ataca toda la octava fila en las dos direcciones a la vez: el rey por un lado y el alfil de c8 por el otro. {{Kh7}} es forzada, y {{Rxc8}} gana una pieza."
+}

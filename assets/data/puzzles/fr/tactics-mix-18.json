@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-18",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+  "solution": [
+    "dxe5"
+  ],
+  "title": "Ouvrez le centre",
+  "setup": "Les deux camps ont poussé leurs pions d et e, et les quatre se rencontrent maintenant au centre.",
+  "hint": "Quand quatre pions centraux se touchent, la première prise décide qui obtient les lignes ouvertes. Laquelle ouvre aussi une colonne vers la dame noire ?",
+  "explanation": "## L'idée\n\n{{dxe5}} prend le pion e et ouvre la colonne d. Si les Noirs répondent {{dxe4}}, alors {{Qxd8+}} échange les dames avec échec, le roi noir doit reprendre et perd le droit de roquer, et le pion en e4 est coupé de ses alliés. {{exd5}} permettrait plutôt à {{Qxd5}} de reprendre avec une dame au centre.\n\nQuand des pions centraux se rencontrent, prenez là où la colonne que vous ouvrez travaille pour vous."
+}

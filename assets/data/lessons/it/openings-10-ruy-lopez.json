@@ -1,0 +1,56 @@
+{
+  "id": "ruy-lopez-basics",
+  "title": "La Partita Spagnola",
+  "summary": "L'alfiere che non vince un pedone",
+  "proof": "openings-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "La Mossa del 1561",
+      "text": "L'alfiere bianco è andato in b5, dove guarda dritto il cavallo in c6 — e quel cavallo è l'unica cosa che difende il pedone in e5.\n\nCosì si legge come un attacco al pedone, a un passo di distanza. Non lo è, e sapere perché è la prima cosa che chiunque impara su questa apertura.\n\nRuy López de Segura, un sacerdote spagnolo, pubblicò un'analisi della mossa nel 1561. Quattro secoli e mezzo dopo è ancora una linea principale ai massimi livelli, il che è uno strano destino per una mossa che non minaccia niente."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "La Domanda È il Cavallo",
+      "text": "Il bersaglio è il cavallo in c6, non il pedone che ha dietro.\n\nSe quell'alfiere si cambia mai per il cavallo, il Nero riprende con un pedone e si ritrova due pedoni impilati sulla colonna c, uno davanti all'altro. I pedoni **doppiati** sono permanenti — un pedone non può spostarsi di lato per rimediare. In cambio il Nero ottiene tutti e due gli alfieri, quindi è una cosa duratura in cambio di un'altra.\n\nIl Bianco sta cercando qualcosa di permanente contro cui giocare. Il Nero preferisce decidere adesso i termini di quel cambio piuttosto che aspettare e vederseli imporre."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "Costringete l'alfiere a decidere subito — prendere il cavallo o tornare indietro — con una mossa di pedone che non vi costa niente.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "Quale dei vostri pedoni può attaccare l'alfiere in b5 in un passo, senza lasciarsi dietro niente di vostro in presa?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "title": "Incassare Subito",
+      "text": "Il Bianco può prendere in questo istante e contare il pedone. {{Bxc6}} {{dxc6}} {{Nxe5}}, e il formulario dice un pedone in più.\n\nPoi arriva {{Qd4}}, che colpisce insieme il cavallo in e5 e il pedone in e4. Uno dei due cade, il materiale torna pari, e il Nero si tiene tutti e due gli alfieri per il disturbo.\n\nL'alfiere non stava mai attaccando e5. Prendere in c6 è una decisione sui pedoni, e il Bianco deve essere disposto a conviverci.\n\n> L'alfiere spagnolo non vince materiale. Compra una lunga discussione."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Nove Mosse, Nessuna Presa",
+      "text": "Nove mosse e non è stato preso un pezzo. Tutti e due gli eserciti stanno ancora cercando case migliori, ed è questo che si intende per Spagnola chiusa.\n\nDue delle mosse del Bianco sembrano non essere niente. Il pedone in c3 non è sviluppo — è una casa di appoggio che aspetta l'arrivo di un pedone al centro. Nemmeno il pedone in h3 è sviluppo; toglie g4, così nessun alfiere nero può uscire a inchiodare il cavallo di f3.\n\nLe mosse spese a fermare le idee dell'avversario non sono sprecate in una posizione lenta."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "La Lunga Scivolata dell'Alfiere",
+      "text": "Seguite all'indietro l'alfiere campochiaro del Bianco. Stava in b5, è passato in a4 quando un pedone glielo ha chiesto, poi in b3 quando un altro ha fatto lo stesso. Tre case, due diagonali — e la seconda arriva fino a f7.\n\nChiedeteglielo ancora una volta e va in c2. Lì punta verso h7, dietro il proprio pedone e, fuori portata. Non è una ritirata che dispiaccia al Bianco: il pedone in c3 sta preparando l'apertura del centro, e un centro aperto è quello che l'alfiere aspettava.\n\nQuindi la caccia non serve a vincere un pezzo. Serve a decidere di quale diagonale il Bianco debba accontentarsi."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "prompt": "Date la caccia al miglior pezzo del Bianco: mettete un cavallo sulla casa della colonna a che attacca l'alfiere in b3.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "Tutti e due i vostri cavalli sono sulla scacchiera, ma solo quello dell'ala di donna ha una mossa che tocca b3."
+    }
+  ]
+}

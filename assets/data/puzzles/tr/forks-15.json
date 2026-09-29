@@ -1,0 +1,11 @@
+{
+  "id": "forks-15",
+  "fen": "r1b1k2r/ppp2ppp/4p3/8/7n/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qa4+"
+  ],
+  "title": "Vezir Şah Çekiyor ve Topluyor",
+  "setup": "Siyahın, vezirinize karşılık bir kalesi, bir fili ve bir atı var ve h4'teki at koruyucusuz biçimde kenara sürüklenmiş.",
+  "hint": "Aynı zamanda ata saldıran bir vezir şahı bulun.",
+  "explanation": "## Fikir\n\n{{Qa4+}} çapraz boyunca e8'deki şaha şah çeker ve dördüncü yatay boyunca h4'teki ata saldırır. Siyahın şaha cevap vermesi gerekir ve {{Bd7}}, {{c6}}, {{b5}} ya da bir şah hamlesi olsun, hiçbir cevap aynı zamanda atı korumaz. Sıradaki hamlede {{Qxh4}} onu alır ve taş dengesi sizin lehinize döner.\n\nVezir çatalı, bir hatta bir şah ve başka bir hatta boştaki bir taştır."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-03",
+  "fen": "7k/6pp/8/8/8/8/1R6/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Emparedado en h8",
+  "setup": "Tus dos torres están en la columna b, y el rey negro está atascado en la esquina detrás de dos de sus propios peones.",
+  "hint": "Los propios peones del rey lo emparedan. ¿Cuál de tus torres llega a su fila?",
+  "explanation": "## La idea\n\n{{Rb8#}} da jaque por la última fila. El rey de h8 no puede ir a g8, que está en la línea de la torre, y en g7 y h7 están sus propios peones. Nada negro puede capturar la torre ni tapar.\n\nLa segunda torre no participa: una torre basta cuando el rey rival está emparedado por sus propios peones."
+}

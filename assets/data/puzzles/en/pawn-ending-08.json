@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-08",
+  "fen": "8/8/3kp3/4P3/2K5/8/8/8 b - - 1 1",
+  "solution": [
+    "Kxe5"
+  ],
+  "rating": 1350,
+  "title": "The Pawn in Front",
+  "setup": "White's king has just arrived on c4, and the two e-pawns are jammed against each other.",
+  "hint": "White's king is two files away from the e-file; ask what changes if the blockade in front of your pawn goes.",
+  "explanation": "## The Idea\n\n{{Kxe5}} turns a dead pawn into a runner with its own king already ahead of it. White cannot hold the file: {{Kd3}} {{Kf4}} {{Ke2}} {{Ke4}} and Black outflanks it all the way down. Three of the king retreats lose outright, and the fourth only draws."
+}

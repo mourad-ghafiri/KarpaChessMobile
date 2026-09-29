@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-08",
+  "fen": "2n4k/8/8/2r1p2P/4Q1B1/3R4/PP6/7K w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Kg7",
+    "Qg6#"
+  ],
+  "rating": 1250,
+  "title": "Un Pedone Sostiene la Donna",
+  "setup": "La vostra torre può prendersi l'ottava traversa, e un modesto pedone in h5 sostiene in silenzio la casa g6.",
+  "hint": "Trovate la casa accanto al re che un vostro pedone difende già, poi toglietegli la traversa di fondo.",
+  "explanation": "## L'idea\n\n{{Rd8+}} si prende la traversa di fondo e forza {{Kg7}}; il cavallo in c8 non può parare. Poi {{Qg6#}}: la donna si mette proprio accanto al re, protetta dal pedone in **h5**, mentre la torre sigilla ogni casa dell'ottava traversa."
+}

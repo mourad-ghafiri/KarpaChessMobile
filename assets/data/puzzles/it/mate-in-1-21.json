@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-21",
+  "fen": "6k1/5ppp/8/8/8/8/8/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Il Muro di Pedoni",
+  "setup": "Lo scudo di pedoni del Nero in **f7**, **g7**, **h7** è intatto — ma senza una finestra di fuga, è una condanna a morte.",
+  "hint": "Fate scivolare la torre su per la colonna aperta. Il resto lo fanno i pedoni del Nero.",
+  "explanation": "## L'idea\n\nQuesto è il matto del corridoio nella sua forma più pura: una colonna aperta, una traversa di fondo vuota, e tre pedoni davanti al re.\n\n{{Rd8#}} dà scacco lungo l'ottava traversa. f8 e h8 stanno sulla linea della torre, f7, g7 e h7 hanno i pedoni del Nero, e niente può parare o catturare.\n\nLa cura è semplice: spingere uno di quei pedoni una mossa prima per dare al re una via d'uscita."
+}

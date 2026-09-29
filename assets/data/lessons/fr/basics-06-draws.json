@@ -1,0 +1,77 @@
+{
+  "id": "draws",
+  "title": "Le demi-point",
+  "summary": "Cinq façons dont une partie se termine sans vainqueur, et celle qui piège le joueur qui gagnait",
+  "proof": "draws-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Aucun coup, aucun échec",
+      "text": "Les Noirs n'ont qu'un roi. Les Blancs ont une dame, et le mat est à un coup — c'est exactement le moment où l'on gâche une partie.\n\nLe roi noir en h8 n'a qu'une seule case. Le roi blanc en g6 tient déjà g7 et h7, il ne reste donc que g8.\n\n{{Qd5}} prend aussi g8. Les Noirs ne sont pas en échec. Les Noirs n'ont plus aucun coup légal. C'est le **pat**, et la partie s'arrête là."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Un demi-point chacun",
+      "text": "Un pat est une **nulle**. Chaque joueur marque un demi-point, et peu importe que l'un possède une dame et l'autre un roi seul.\n\nC'est pour cela que la règle fait mal. Les Blancs gagnent ici selon tous les critères de l'échiquier et peuvent quand même repartir avec la moitié.\n\nIl existe une voie plus douce vers le même score : chaque joueur peut proposer la nulle, et si l'adversaire accepte, la partie s'arrête là. Celle-là ne demande aucune astuce."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "prompt": "Couvrez de nouveau g8, cette fois avec échec, pour que la partie se termine par un mat plutôt que par une poignée de main.",
+      "targetSan": [
+        "Qd8#"
+      ],
+      "hint": "Votre roi tient déjà g7 et h7, donc la dame vise la rangée où se tient le roi noir."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Plus rien pour mater",
+      "text": "Nouvel échiquier, nouvelle règle. Les Blancs ont un roi en c2 et un cavalier en c3. Les Noirs ont un roi en a5 et un pion en a2, à une case d'une nouvelle dame — et une dame contre un cavalier seul, c'est une partie que les Noirs devraient gagner.\n\nToute la partie tient donc dans ce pion. Retirez-le et l'armée noire se réduit à un roi qui se promène tout seul.\n\nUn roi et un cavalier ne peuvent jamais mater un roi seul. Ni de force, ni par chance, ni avec de l'aide."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Positions mortes",
+      "text": "Quand aucune suite de coups légaux ne peut mener au mat pour l'un ou l'autre camp, la partie est nulle sur-le-champ. Quatre finales sont concernées :\n\n- roi contre roi\n- roi et fou contre roi\n- roi et cavalier contre roi\n- roi et fou contre roi et fou, les deux fous sur des cases de même couleur\n\nDeux cavaliers contre un roi seul ne figurent pas sur cette liste. Le mat ne peut pas y être forcé, mais il peut arriver si le défenseur s'y jette, donc la partie continue."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "prompt": "Retirez de l'échiquier la seule pièce noire qui peut encore gagner cette partie.",
+      "targetSan": [
+        "Nxa2"
+      ],
+      "hint": "Comptez ce qui reste ensuite, et comparez avec la liste des quatre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Les nulles qu'il faut réclamer",
+      "text": "Deux autres chemins vers le demi-point, et cet échiquier est fait pour les deux : plus aucun pion à pousser, et une seule pièce qui pourrait encore être prise.\n\nCinquante coups de chaque camp sans prise ni coup de pion — chaque joueur peut alors réclamer la nulle. Ou bien la même **position** revient trois fois, avec le même camp au trait, les mêmes droits de roque et la même possibilité de prise en passant, et chaque joueur peut aussi la réclamer.\n\nC'est la position qui se répète, pas les coups qui y ont mené."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Personne ne la réclame pour vous",
+      "text": "Au cinquantième coup ou à la troisième répétition, rien ne se passe tout seul. Un joueur doit réclamer la nulle, et un joueur qui ne compte pas ne le fera pas.\n\nL'échec perpétuel n'est rien d'autre que cela. Donner échec au roi adverse indéfiniment n'est pas une règle à part — les échecs ramènent sans cesse la même position, et quelqu'un réclame la répétition.\n\nCela fait quatre jusqu'ici : le pat, la position morte, les cinquante coups, et la même position trois fois. La cinquième est la proposition que chaque joueur peut faire à tout moment."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "L'accident",
+      "text": "Maintenant, la règle se retourne contre vous. Les Noirs ont une dame entière de plus, le roi blanc en h1 est à court d'échiquier, et c'est aux Noirs de jouer.\n\n{{Qg3}} ressemble au filet qui se referme : g1, g2 et h2 couvertes d'un coup. Mais h1 n'est pas attaquée, ce n'est donc pas un échec, et les Blancs n'ont rien d'autre à jouer. Pat. Une partie gagnée, rendue.\n\n> Prenez la dernière case avec échec, ou ne la prenez pas encore."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "prompt": "La dame en a assez fait — rapprochez plutôt le roi d'une case du coin des Blancs.",
+      "targetSan": [
+        "Kd5"
+      ],
+      "hint": "c6 et h1 sont sur la même grande diagonale, donc le roi peut simplement la descendre."
+    }
+  ]
+}

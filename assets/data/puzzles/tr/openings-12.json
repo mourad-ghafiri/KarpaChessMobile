@@ -1,0 +1,13 @@
+{
+  "id": "openings-12",
+  "fen": "r3kbnr/pp1b1ppp/1qn1p3/3pP3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 2 8",
+  "solution": [
+    "Nxd4",
+    "Nxd4",
+    "Qxd4"
+  ],
+  "title": "Dip Düşüyor",
+  "setup": "İlerlemeli Fransız: beyaz fili d3'e, atı c3'e koydu ve zincirin dibindeki piyonu kimse saymadı.",
+  "hint": "Beyazın dipteki piyonunun saldıranlarını ve koruyucularını sayın. d3'teki fil, beyazın koruyucularından birinin önünde duruyor.",
+  "explanation": "## Fikir\n\nBeyazın zincirinin dibi d4'tür. c6'daki atınız ile b6'daki veziriniz ona saldırıyor ve onu yalnızca f3'teki at koruyor: d3'teki fil beyazın vezirinin yolunu kesmektedir.\n\n{{Nxd4}} onu alır ve {{Nxd4}} {{Qxd4}} geldikten sonra tertemiz bir piyon önde olursunuz. Her zamanki numara — beyazın vezirini açan b5'teki bir fil şahı — burada işlemez, çünkü at c6'dan ayrıldığında d7'deki filiniz b5'i kapsar.\n\nÖnce zincirin dibini sayın."
+}

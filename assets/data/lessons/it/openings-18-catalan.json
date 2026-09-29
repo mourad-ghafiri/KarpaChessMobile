@@ -1,0 +1,56 @@
+{
+  "id": "catalan-advanced",
+  "title": "La Catalana",
+  "summary": "Un pedone prestato, una diagonale tenuta per sempre",
+  "proof": "openings-18.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Barcellona, 1929",
+      "text": "Un torneo a Barcellona nel 1929 voleva un'apertura sua, e Tartakower ne fornì una. Le restò addosso il nome della regione attorno alla città.\n\nLa forma sono due pedoni in mezzo, poi un buco aperto nei pedoni dell'ala di re perché l'alfiere possa uscire in g2 e prendersi la diagonale più lunga della scacchiera.\n\nIl Nero ha appena preso il pedone che stava in c4. Il pedone nero in c4 è ciò che il Bianco ha pagato per quella diagonale, e il Bianco non ha nessuna fretta di richiederlo indietro."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Nessuno lo Insegue",
+      "text": "Contate quanto costerebbe recuperare adesso il pedone. Un pezzo, due o tre mosse, e finisce su una casa che non ha mai voluto.\n\nPoi contate quanto costa al Nero tenerselo. Nessun pezzo nero difende c4 da una casa che gli piaccia anche, e nessun pedone nero ci arriva senza spingere avanti l'ala di donna e lasciarsi dietro dei buchi.\n\nE allora il Bianco fa la cosa ordinaria: tira fuori tutto, arrocca, e lascia che il pedone sia un problema del suo proprietario. Il pedone torna dopo. La diagonale non deve tornare mai."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "prompt": "Sviluppate l'ultimo pezzo fra il vostro re e l'angolo, e puntatelo sul centro.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "Un pezzo leggero sta ancora a casa sull'ala di re, e la casa che vuole difende anche d4."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 1 5",
+      "title": "Come il Pedone Torna a Casa",
+      "text": "Il Nero riordina con {{Be7}} e il Bianco finisce l'ultimo compito con {{O-O}}. Il pedone in più sta ancora in c4, e il Bianco non ci ha speso una mossa.\n\nPoi {{a6}}, la prima mossa di un piano per tenere il pedone con un secondo pedone, e {{Qc2}}. La donna si prende la colonna che occupava il suo pedone c e la guarda dritta per tutta la sua lunghezza, mentre l'alfiere in g2 si tiene la diagonale per cui è stato messo lì.\n\nIl Nero ha un pedone in più ed è indietro nello sviluppo. Quel cambio va in una direzione sola."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "L'Altra Catalana",
+      "text": "Il Nero non è obbligato a prendere. Pedoni in c6, d5 e e6 costruiscono invece un muro, e il muro tiene — nessuna rottura, nessuna colonna aperta, niente che il Bianco possa colpire.\n\nIl Bianco è contento lo stesso. Il pedone in d4 e il pedone in c4 tengono più terreno di quelli del Nero, l'alfiere in g2 aspetta dietro il cavallo di f3 il giorno in cui il centro si aprirà, e ogni pezzo bianco ha già una casa.\n\nUna posizione senza debolezze si può comunque perdere lentamente. Al Nero serve un lavoro per un pezzo in particolare."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "L'Alfiere Senza Finestre",
+      "text": "Contate le mosse a disposizione dell'alfiere di c8. Il suo stesso cavallo in d7 sta su una diagonale e il suo stesso pedone in b7 sull'altra. Il conto è zero.\n\nIl Nero qui non sta tanto peggio quanto sta con un pezzo in meno, e il pezzo che manca non ha mai lasciato casa.\n\nL'alfiere in g2 indica la via d'uscita. Un alfiere senza strada attraverso il centro prende la strada lungo il bordo — lo stesso fianchetto, costruito dall'altro capo, finché i due si fissano lungo una diagonale.\n\n> In una posizione chiusa, trovate il pezzo senza futuro e dategliene uno."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "prompt": "Preparate il fianchetto che risponde a quello del Bianco: date al vostro alfiere bloccato una grande diagonale da guardare.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Il vostro alfiere di donna non ha nemmeno una mossa legale, quindi chiedetevi quale singolo passo di pedone gliene darebbe una."
+    }
+  ]
+}

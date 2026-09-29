@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-03",
+  "fen": "7k/6pp/8/8/8/8/1R6/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Emparedado em h8",
+  "setup": "As tuas duas torres estão na coluna b, e o rei preto está preso no canto atrás de dois peões seus.",
+  "hint": "Os próprios peões do rei emparedam-no. Qual das tuas torres consegue chegar à linha dele?",
+  "explanation": "## A Ideia\n\n{{Rb8#}} dá xeque pela linha de fundo. O rei de h8 não pode passar para g8, que está na linha da torre, e g7 e h7 têm os próprios peões. Nada de preto pode comer a torre nem tapar.\n\nA segunda torre não tem parte nisto: uma torre chega quando o rei inimigo está emparedado pelos seus próprios peões."
+}

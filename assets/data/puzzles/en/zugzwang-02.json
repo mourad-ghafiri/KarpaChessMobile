@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-02",
+  "fen": "7k/7B/8/p7/5Q2/8/8/1K6 w - - 0 1",
+  "solution": [
+    "Qf7",
+    "a4",
+    "Qg8#"
+  ],
+  "rating": 1435,
+  "title": "One Pawn, One Move",
+  "setup": "Black has a king on h8 and a pawn on a5, and once the king's squares are taken, that pawn is the only thing left that can move.",
+  "hint": "Count Black's legal moves. When the number is one, you only have to survive it.",
+  "explanation": "## The Idea\n\n{{Qf7}} seals g8 and h7 without giving check. Black must push with {{a4}}, and {{Qg8#}} is mate with the bishop covering. Take the squares first and let the pawn walk into the mate on its own."
+}

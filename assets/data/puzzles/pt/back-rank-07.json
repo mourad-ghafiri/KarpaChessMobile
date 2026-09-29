@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-07",
+  "fen": "r5k1/5ppp/8/8/8/8/8/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "Sem Muralha de Peões, Só Mate",
+  "setup": "As torres fitam-se ao longo da coluna a. O rei preto em g8 está atrás de três peões intocados; o teu em g1 não tem nenhum.",
+  "hint": "Quem capturar primeiro na coluna a dá xeque. Pergunta para onde cada rei poderia depois ir.",
+  "explanation": "## A Ideia\n\n{{Rxa8#}} come a única peça preta que poderia guardar a oitava linha, e dá xeque ao longo dela. O rei em g8 está encaixotado pelos seus peões de f7, g7 e h7, e a torre cobre f8 e h8. Nada pode tapar e nada pode recapturar.\n\nO teu próprio rei não tem peões à frente, e é por isso que está seguro: f2, g2 e h2 estão todas abertas. Uma linha de fundo só é mortal quando os peões fecham a porta."
+}

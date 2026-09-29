@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-09",
+  "fen": "6k1/5ppp/8/8/8/8/4R3/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "Rook Slides to Mate",
+  "setup": "Your rook and king against three black pawns, with Black's king still sitting behind them on g8. One move is enough.",
+  "hint": "The king cannot step off its back rank. Put your rook on that rank with check.",
+  "explanation": "## The Idea\n\n{{Re8#}} is mate in one. The rook leaves the second rank and checks along the eighth: f8 and h8 are on its line, f7, g7 and h7 hold Black's own pawns, and no black piece can capture or block.\n\nWhen the enemy king sits behind a row of unmoved pawns, look for a rook check on the back rank first."
+}

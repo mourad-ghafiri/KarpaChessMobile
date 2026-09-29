@@ -1,0 +1,57 @@
+{
+  "id": "kings-pawn-family",
+  "title": "The King's Pawn Openings",
+  "summary": "Every reply to 1.e4 is a different bargain",
+  "proof": "openings-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Two Lines in One Push",
+      "text": "One pawn move frees two pieces. Push the e-pawn and the queen and the light-squared bishop both get a road out of the back rank.\n\nSo these games fill up early. Pieces arrive, lines open, and the armies are touching while both kings are still standing in the middle. A slow move costs more here than it does in a quiet position, because somebody is already out there to punish it."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "The Pawn With No Guard",
+      "text": "Black copied, and copying has a price: the second player has to answer a question that was already asked.\n\nThe knight on f3 attacks the pawn on e5. Count the defenders of e5 and you get none.\n\nThere are two honest ways to fix that. A piece can guard the pawn and leave home in the same move, spending nothing. A pawn can guard it just as well, and pay for the job by standing in front of one of Black's own bishops for the rest of the game."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "prompt": "Guard the pawn White's knight has just attacked, and hold your share of the middle.",
+      "targetSan": [
+        "Nc6",
+        "d6"
+      ],
+      "hint": "One defender is a piece that wanted to come out anyway; the other is a pawn that pays a bishop for the work. Either is a main line."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "title": "The Oldest Argument",
+      "text": "Guard e5 with the knight and White has a move waiting. {{Bb5}} ignores the pawn on e5 entirely and goes after the piece defending it: take away the guard and the pawn is loose.\n\nBlack shoves the bishop with {{a6}}, the bishop slides back down the diagonal with {{Ba4}}, still aiming at the same knight and still costing nothing. That is the Ruy Lopez, four centuries old and still the most argued-over opening there is."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Three Ways to Refuse",
+      "text": "Most strong replies to the king's pawn never touch e5 at all. Each refuses in a different currency.\n\n- **The Sicilian** leaves e4 alone and fights for d4 with a pawn to c5, taking the half-open c-file when the pawns trade there.\n- **The Caro-Kann** and **the French** spend a quiet move on c6 or e6 first, so the push to d5 arrives with backup — the French shuts its light-squared bishop in behind the wall, the Caro-Kann keeps it out.\n- **Alekhine's Defense** sends a knight to f6 and dares White's pawns to chase it."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "title": "A Refusal in Progress",
+      "text": "Black spent move one on a pawn to c6, and White took everything on offer: two pawns abreast on d4 and e4, the widest center White ever gets for free.\n\nWide is not safe. A big pawn center has to be met while it is still only pawns — leave it alone and White's pieces come out behind it and the whole wall rolls forward.\n\nMove one was not modesty. It was a pawn stationed to back up a strike that has not happened yet.\n\n> A quiet first move is a loud second move waiting its turn."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "prompt": "Meet White's two-pawn center with the pawn that your quiet first move was posted to support.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "Move one was a pawn with a single job. Ask which square it covers, and notice that nobody has occupied that square yet."
+    }
+  ]
+}

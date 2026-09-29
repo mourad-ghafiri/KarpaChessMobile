@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-02",
+  "fen": "k7/2b2r2/5Q2/p7/3R4/1B6/KRp5/8 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Ka7",
+    "Rb7+",
+    "Ka8",
+    "Qa6#"
+  ],
+  "rating": 1385,
+  "title": "O Bispo Abre a Linha",
+  "setup": "O rei preto está preso no canto de a8, e o peão preto de c2 está a um passo de promover. O mate chega primeiro.",
+  "hint": "Uma das tuas peças está na coluna de que a tua torre precisa. Dá-lhe um trabalho que a mexa e dê xeque ao mesmo tempo.",
+  "explanation": "## A Ideia\n\n{{Bd5+}} liberta b3 e dá xeque; {{Rb7+}} empurra o rei de volta para o canto; {{Qa6#}} dá mate pela coluna a, com o bispo de d5 a segurar agora a torre de b7. Cada jogada de uma caça deve dar xeque e melhorar a rede."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-03",
+  "fen": "7k/8/8/6K1/8/Q7/8/8 w - - 0 1",
+  "solution": [
+    "Kg6",
+    "Kg8",
+    "Qa8#"
+  ],
+  "title": "Zugzwang Sıkıştırması",
+  "setup": "Veziriniz tahtanın yarısının sahibi, ama vezir tek başına bitiremez — son kareleri şahın alması gerekir.",
+  "hint": "Burada hiçbir şah kazanmıyor. Siyaha tam olarak tek bir kurallı hamle bırakan sessiz şah adımını bulun.",
+  "explanation": "## Fikir\n\nBir **zugzwang**: kazandıran hamle hiçbir tehdit kurmaz. Yalnızca siyaha tek bir kurallı hamle bırakır ve o hamle kaybettirir.\n\n{{Kg6}} sessizdir. Artık g7 ile h7 şahınıza aittir ve a3'teki vezir f8'i kapsar; yani siyahın tek hamlesi arka yataya giden {{Kg8}} olur. {{Qa8#}} o yatayın tamamını alır ve f7, g7 ile h7 şahınızındır.\n\nHer şah, şahın sıyrılmasına izin veriyorsa şah çekmeyi bırakın ve onun yerine kare alın."
+}

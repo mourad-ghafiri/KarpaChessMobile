@@ -1,0 +1,14 @@
+{
+  "id": "overload-04",
+  "fen": "2r3k1/5ppp/3R4/8/3Q4/1R6/PP6/K5b1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Qxd8#"
+  ],
+  "rating": 1370,
+  "title": "Rook First, Queen After",
+  "setup": "Your rook on d6 and queen on d4 both look down the d-file at a back rank guarded only by the rook on c8.",
+  "hint": "The order matters. Decide which piece can afford to be captured and which one has to deliver.",
+  "explanation": "## The Idea\n\n{{Rd8+}} is the cheap one: {{Rxd8}} is forced and the c8 rook leaves the rank it was guarding. {{Qxd8#}} finishes. Lead with the piece you can spare, and keep the one that mates."
+}

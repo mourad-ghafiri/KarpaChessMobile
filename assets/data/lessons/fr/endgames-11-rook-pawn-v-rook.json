@@ -1,0 +1,62 @@
+{
+  "id": "rook-pawn-vs-rook",
+  "title": "Tour et pion contre tour",
+  "summary": "Deux coups de tour qui décident de toute la finale",
+  "proof": "endgame-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "Deux colonnes d'écart",
+      "text": "Un pion en e4 ne gagne pas cela à lui seul. Un pion escorté, si, et l'escorte est tout le sujet d'une finale de tours.\n\nRegardez la distance. Le roi noir en c7 est à deux colonnes de la route de votre pion, et il marche vers elle. Votre tour en a1 n'a encore jamais eu à arrêter quoi que ce soit ici — et c'est la seule pièce qui le puisse.\n\nLe roi qui se place devant un pion l'arrête. Le roi qui se fait couper regarde."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "Un mur fait d'une seule tour",
+      "text": "Une tour sur une colonne ouverte ne fait pas qu'attaquer le long de celle-ci. Le roi adverse n'a le droit de se poser sur aucune case que couvre la tour, alors la colonne devient un mur : un coup pour le construire, et il tient aussi longtemps que la tour reste.\n\nC'est **couper le roi**. Le roi adverse est parqué d'un côté de la ligne, et tout ce qui est de l'autre côté est à vous.\n\nLe roi noir en c7 n'a pas encore traversé. Choisissez la ligne qu'il doit traverser."
+    },
+    {
+      "type": "play",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "prompt": "Coupez le roi noir de la moitié de l'échiquier où se trouve le pion avant de pousser quoi que ce soit.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Comptez les colonnes entre le roi noir et le pion, puis prenez celle que ce roi doit traverser en premier."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/3R4 b - - 1 1",
+      "title": "Tourner en rond",
+      "text": "Le mur est en place. Regardez maintenant ce que peut faire le roi noir contre le pion.\n\n{{Kc6}} {{Kf4}} {{Kc5}} {{Kf5}}\n\nQuatre coups. Le roi noir a descendu la colonne c et ne peut toujours pas poser le pied sur la colonne d, car chacune de ses cases appartient à une tour en d1. Le roi blanc, lui, est monté à côté de son pion, et c'est cela, escorter."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/4P1K1/8/3R4/8/8/5r2 b - - 0 8",
+      "title": "Quelle finale vous obtenez",
+      "text": "Quelques coups plus tard, le pion est en e6 avec son roi à côté de lui en g6, et la tour tient toujours la colonne d. Le roi noir en c7 est à deux colonnes de la route du pion et on ne le laissera pas y entrer. C'est ce refus qui choisit la finale.\n\nLaissez le roi défenseur atteindre la case devant le pion et les Noirs annulent — la position de Philidor, quatre leçons plus tôt, ne demande rien de plus que ce roi et une tour sur la sixième rangée.\n\nRefusez-le-lui, faites monter votre propre roi jusqu'à la case de promotion, et vous vous dirigez plutôt vers la position de Lucena."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Changez de chaise",
+      "text": "Vous jouez maintenant les Noirs, et une rangée est utilisée contre vous comme vous venez d'utiliser une colonne. La tour en b7 tient la septième, donc le roi noir en g8 est retenu sur la dernière rangée.\n\nLe pion blanc en e5 est un pion passé avec un roi en d5 qui marche à côté de lui, et le roi qui devrait l'arrêter est coincé au bord de l'échiquier.\n\nC'est donc la tour noire en h1 qui porte la défense, et l'endroit où elle va est toute la question."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Devant, à côté, derrière",
+      "text": "Une tour face à un pion passé a trois sortes de cases, et elles ne vieillissent pas de la même façon.\n\nDevant lui, la tour est un blocus qui rétrécit : chaque poussée retire une case de plus, et sur la huitième rangée elle se tient là sans rien faire. À côté de lui, sur une rangée, la tour attaque le pion une fois et ne gagne rien quand il avance.\n\nDerrière lui, l'attaque se renouvelle. Le pion avance et la même tour le fixe toujours le long de la colonne, pendant que ce qui protège le pion s'éloigne de chez lui.\n\n> Jugez une case d'après ce qu'elle vaut après que le pion a avancé, pas avant."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "prompt": "Prenez la seule case dont la valeur grandit à chaque fois que le pion blanc avance.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "Faites avancer mentalement le pion de e5 jusqu'à la dernière rangée, et demandez-vous quel poste continue de l'attaquer tout du long."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "discovered-02",
+  "fen": "rnbqkb1r/pppp2pp/8/8/4N3/8/PPP2PPP/2B1R1K1 w - - 0 1",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "Xeque Duplo na Coluna e",
+  "setup": "O teu cavalo em e4 é a única coisa entre a tua torre de e1 e o rei preto. Qualquer jogada de cavalo dá xeque. Encontra a que acaba a partida.",
+  "hint": "Duas casas de cavalo deixam também o cavalo dar xeque. Só uma delas cobre igualmente a casa para onde o rei fugiria.",
+  "explanation": "## A Ideia\n\nTodas as jogadas de cavalo descobrem a torre de e1, mas {{Nd6#}} dá xeque também com o cavalo. Contra um xeque duplo o rei tem de mexer, e não tem para onde: a sua própria dama e o seu bispo enchem d8 e f8, o seu peão enche d7, a torre vê e7, e o cavalo cobre f7.\n\nO outro xeque duplo, de f6, deixa f7 aberta, e o rei sai a passear."
+}

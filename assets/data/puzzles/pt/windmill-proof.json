@@ -1,0 +1,13 @@
+{
+  "id": "windmill-proof",
+  "fen": "r4n1k/pq1n2Rp/1p3B2/2p5/8/2P4P/PP3PP1/6K1 w - - 0 1",
+  "solution": [
+    "Rxd7+",
+    "Kg8",
+    "Rxb7"
+  ],
+  "title": "Rouba Primeiro o Guarda",
+  "setup": "A tua torre em g7 está entre o teu bispo e o rei preto, portanto qualquer jogada de torre dá xeque. Escolhe aquela a que as pretas não possam responder com uma captura.",
+  "hint": "A um xeque à descoberta pode responder-se capturando a peça que o dá. Descobre o que pode comer o teu bispo, e torna isso impossível.",
+  "explanation": "## A Ideia\n\nTodas as jogadas de torre dão xeque. Quase todas deixam o cavalo de d7 comer o bispo de f6, e os dois xeques duplos, em g8 e h7, entregam a tua torre ao rei. {{Rxd7+}} come antes esse cavalo, portanto o xeque mantém-se e {{Kg8}} é a única jogada legal.\n\nA torre em d7 olha agora pela sétima linha para a dama, e a dama não tem tempo de fugir: {{Rxb7}} come-a. A torre deu xeque e roubou duas vezes."
+}

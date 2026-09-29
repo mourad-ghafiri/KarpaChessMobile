@@ -1,0 +1,62 @@
+{
+  "id": "back-rank-mate",
+  "title": "La dernière rangée",
+  "summary": "Une faiblesse déjà là, qui attend qu'une tour la remarque",
+  "proof": "tactics-mix-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Cinq cases, une rangée",
+      "text": "Rien n'attaque le roi noir, et rien n'a encore besoin de le faire. Le piège est déjà construit.\n\nLe roi en g8 a cinq cases autour de lui. Trois sont occupées par ses propres pions — f7, g7, h7 — l'abri qui l'a protégé toute la partie. Les deux autres sont f8 et h8, et toutes deux sont sur la huitième rangée, celle où se tient le roi.\n\nToutes les cases utilisables par ce roi sont donc sur une seule ligne. Placez une tour sur cette ligne et la liste est vide."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Deux questions",
+      "text": "Un mat que l'on voit un coup avant qu'il tombe, c'est de la chance. Celui-ci se voit venir de loin, car il repose sur deux questions auxquelles on répond d'un coup d'œil.\n\nLe roi adverse peut-il quitter sa dernière rangée ? Quelque chose protège-t-il cette rangée ?\n\nIci, les réponses sont non et non, et c'était déjà non il y a dix coups. Il ne reste qu'à amener une tour ou une dame sur la huitième rangée — et rien ne se trouve sur la colonne c au-dessus de votre tour en c1.\n\nPosez ces deux questions à chaque coup et vous cesserez de trouver ce mat par hasard."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "prompt": "Aucune des cases qui restent au roi ne quitte la huitième rangée : prenez toute cette rangée en un seul coup.",
+      "targetSan": [
+        "Rc8#"
+      ],
+      "hint": "Une colonne devant votre tour est entièrement vide, et elle aboutit à la rangée que vous voulez."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Tour ou dame, rien d'autre",
+      "text": "La tour n'est pas l'essentiel. Une dame conclut de la même façon, car ce mat demande une pièce qui couvre toute une rangée d'un coup, et seules ces deux-là le font.\n\nUne vérification avant d'envoyer l'une ou l'autre. La case d'arrivée ne doit pas toucher le roi, sauf si l'une de vos pièces la défend. Arrivez en f8 ou en h8 ici et les Noirs ne sont pas mat du tout — le roi prend la pièce et s'échappe tranquillement par le trou que vous venez de créer.\n\nC'est la distance qui rendait c8 sûre."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Le remède coûte un coup",
+      "text": "Votre propre roi en g1 est dans les mêmes cinq cases, et vous connaissez déjà la réponse : donnez-lui une case de fuite. {{h3}} le fait — h2 s'ouvre, et une tour qui arrive sur votre première rangée devient un échec auquel vous répondez, pas une partie que vous perdez.\n\nCe coup n'est pas gratuit. Il n'attaque rien et ne défend rien, et l'abri se tient un pion plus en avant qu'avant.\n\nLe choix du pion compte aussi. Pousser plutôt le pion g abandonne f3 et h3 et ouvre la grande diagonale vers votre propre coin, alors le pion h est en général la case la moins chère à acheter."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "Un gardien chacun",
+      "text": "Un nouvel échiquier, et les deux rois sont enfermés dans la forme que vous reconnaissez maintenant. Une tour chacun, face à face sur la colonne d.\n\nComptez ce qui garde la huitième rangée des Noirs : la tour en d8, et rien d'autre. Comptez ce qui garde la première rangée des Blancs : la tour en d1, et rien d'autre.\n\nCe n'est pas une position équilibrée. Ce sont deux positions qui sont chacune à une pièce de la défaite, et un seul camp a le trait."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "L'échange qui n'en est pas un",
+      "text": "Même pièce, même colonne, même valeur. Échanger les tours ici ressemble au coup le plus ennuyeux de l'échiquier.\n\nPourtant, ce n'est pas un échange, car un échange suppose de quoi reprendre. Le roi noir ne peut pas sortir de derrière ses trois pions, et les pions ne reculent pas. La seule pièce qui pourrait reprendre en d8 est celle qui se fait prendre.\n\n> Avant d'échanger la dernière tour d'une colonne ouverte, demandez-vous ce qu'elle faisait d'autre que de se tenir là."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "prompt": "Prenez la seule pièce qui garde la huitième rangée des Noirs, et comptez ce qui reste pour la reprendre.",
+      "targetSan": [
+        "Rxd8#"
+      ],
+      "hint": "Avant d'appeler une prise un échange, cherchez quelle pièce noire pourrait légalement atteindre cette case."
+    }
+  ]
+}

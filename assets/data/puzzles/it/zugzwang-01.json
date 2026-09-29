@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-01",
+  "fen": "8/2QK4/6p1/8/8/8/8/3B3k w - - 0 1",
+  "solution": [
+    "Qg3",
+    "g5",
+    "Bf3#"
+  ],
+  "rating": 1400,
+  "title": "Non Fare Niente, Lentamente",
+  "setup": "Il re nero è incastrato nell'angolo in h1 e l'unico suo pezzo con un futuro è il pedone in g6.",
+  "hint": "Non c'è nessuno scacco che funzioni. Chiedetevi che cosa dovrebbe giocare il Nero se voi passaste e basta.",
+  "explanation": "## L'idea\n\n{{Qg3}} non dà scacco e si prende ogni casa che il re aveva. Al Nero resta solo {{g5}}, e segue {{Bf3#}}. Lo zugzwang è la mossa che trasforma l'obbligo di muovere in tutto il problema."
+}

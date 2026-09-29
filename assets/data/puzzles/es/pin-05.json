@@ -1,0 +1,12 @@
+{
+  "id": "pin-05",
+  "fen": "8/B1kb3R/p3r3/p7/3P4/4R3/1r4PK/8 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 960,
+  "title": "Cómete lo que defiende",
+  "setup": "Tu torre de h7 barre toda la séptima fila, atravesando al alfil negro hasta el rey de c7.",
+  "hint": "La torre de e6 tiene un defensor. Mira a lo largo de la séptima fila y pregúntate si ese defensor puede irse.",
+  "explanation": "## La idea\n\n{{Rxe6}} gana una torre sin más. El alfil de **d7** es el único defensor, y tu torre de **h7** lo clava contra el rey de **c7** por la séptima fila. Comer en e6 expondría al rey, así que el alfil no puede responder."
+}

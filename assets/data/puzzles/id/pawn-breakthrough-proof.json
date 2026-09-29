@@ -1,0 +1,13 @@
+{
+  "id": "pawn-breakthrough-proof",
+  "fen": "8/5ppp/8/5PPP/4k3/8/8/K7 w - - 0 1",
+  "solution": [
+    "g6",
+    "fxg6",
+    "h6"
+  ],
+  "title": "Tembus Sebelum Ia Tiba",
+  "setup": "Raja Hitam di e4 datang mengincar pion-pion Anda, dan raja Anda sendiri terlalu jauh untuk membantu. Anda hanya punya tepat satu langkah yang menang.",
+  "hint": "Pion hitam hanya meninggalkan lajurnya untuk menangkap. Dorongan mana yang bisa ditangkap dari kedua sisi, dan apa yang dibiarkan terbuka oleh masing-masing penangkapan?",
+  "explanation": "## Ide\n\n{{g6}} menawarkan pion tengah kepada kedua pion hitam di sampingnya. Setiap langkah lain kalah, karena raja Hitam tinggal memakan pion-pion Anda.\n\nMisalkan Hitam menangkap dengan {{fxg6}}: {{h6}} menawarkan pion kedua. Kini salah satu pion Anda lolos apa pun yang dilakukan Hitam. Tangkap di h6, dan pion f melaju ke f8 sebelum raja bisa mencapainya. Biarkan, dan pion h Anda menangkap di g7 lalu menjadi menteri."
+}

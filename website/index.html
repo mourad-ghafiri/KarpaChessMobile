@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KarpaChess — Learn chess one idea at a time</title>
+  <meta name="description" content="KarpaChess teaches chess on the board: 100 lessons, 441 puzzles, games against Stockfish 19 and a study library of 240 master games, in twelve languages. For iPhone, iPad and Android. No account, no ads, no tracking." />
+  <link rel="canonical" href="https://karpachess.com/" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#09130B" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#EFEAE2" media="(prefers-color-scheme: light)" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="KarpaChess" />
+  <meta property="og:url" content="https://karpachess.com/" />
+  <meta property="og:title" content="KarpaChess — Learn chess one idea at a time" />
+  <meta property="og:description" content="100 lessons, 441 puzzles, Stockfish 19 and 240 master games to study, in twelve languages. Offline, with no account and no tracking." />
+  <meta property="og:image" content="https://karpachess.com/images/social-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="The KarpaChess icon and name beside a lesson on the Greek gift sacrifice." />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  <link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ───────── Header ───────── -->
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="KarpaChess, back to top">
+      <img class="brand__mark" src="images/icon-192.png" alt="" width="36" height="36" />
+      <span class="brand__name">KarpaChess</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu">
+        <span class="visually-hidden">Menu</span>
+        <span class="nav__bar"></span><span class="nav__bar"></span><span class="nav__bar"></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#learn">How it teaches</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screens">Screens</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+        <li><a href="#support">Support</a></li>
+        <li><a class="nav__cta" href="#get">Get the app</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ───────── Hero ───────── -->
+    <section class="hero" id="top">
+      <div class="hero__copy">
+        <p class="eyebrow">For iPhone, iPad and Android</p>
+        <h1 class="hero__title">Learn chess one idea at a time.</h1>
+        <p class="hero__lead">
+          KarpaChess teaches on the board. A hundred lessons show you an idea,
+          let you play it, then ask you to prove it on a new position. Train on
+          rated puzzles, play <strong>Stockfish&nbsp;19</strong>, and study the
+          masters, in twelve languages.
+        </p>
+        <div class="stores">
+          <span class="store" role="img" aria-label="Coming soon to the App Store">
+            <span class="store__small">Coming soon to the</span>
+            <span class="store__name">App Store</span>
+          </span>
+          <span class="store" role="img" aria-label="Coming soon to Google Play">
+            <span class="store__small">Coming soon to</span>
+            <span class="store__name">Google Play</span>
+          </span>
+        </div>
+        <ul class="hero__facts">
+          <li>Free</li>
+          <li>No account</li>
+          <li>No ads</li>
+          <li>Works offline</li>
+        </ul>
+      </div>
+
+      <div class="hero__devices" aria-hidden="true">
+        <div class="device device--tablet">
+          <img src="images/screens/ipad/09-studio-drawing.webp" alt="" width="840" height="1120" />
+        </div>
+        <div class="device device--phone">
+          <img src="images/screens/iphone/02-lesson.webp" alt="" width="660" height="1434" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Numbers ───────── -->
+    <section class="numbers" aria-label="KarpaChess in numbers">
+      <dl class="numbers__list">
+        <div><dt>Lessons</dt><dd>100</dd></div>
+        <div><dt>Puzzles</dt><dd>441</dd></div>
+        <div><dt>Master games</dt><dd>240</dd></div>
+        <div><dt>Languages</dt><dd>12</dd></div>
+        <div><dt>Piece sets</dt><dd>10</dd></div>
+      </dl>
+    </section>
+
+    <!-- ───────── How it teaches ───────── -->
+    <section class="section" id="learn">
+      <header class="section__head">
+        <p class="eyebrow">How it teaches</p>
+        <h2 class="section__title">Every lesson ends with proof.</h2>
+        <p class="section__lead">
+          Each of the hundred lessons follows the same three beats, so an idea
+          goes from something you have seen to something you can do.
+        </p>
+      </header>
+
+      <ol class="journey">
+        <li class="journey__step">
+          <span class="journey__chip">See it</span>
+          <h3>The idea, on the board</h3>
+          <p>
+            Arrows and moves played out for you, with a short explanation. Each
+            beat teaches one thing.
+          </p>
+        </li>
+        <li class="journey__step">
+          <span class="journey__chip">Play it</span>
+          <h3>Now you make the moves</h3>
+          <p>
+            You play the idea yourself. Stuck? The hint is a sentence the
+            lesson's author wrote for exactly that position.
+          </p>
+        </li>
+        <li class="journey__step">
+          <span class="journey__chip">Own it</span>
+          <h3>Prove it somewhere new</h3>
+          <p>
+            A puzzle on a position you have not seen shows the pattern is yours.
+            It goes into your Pattern Book, and Sharpen brings it back before
+            you forget it.
+          </p>
+        </li>
+      </ol>
+
+      <p class="arts">
+        <span class="arts__label">Eight arts:</span>
+        Foundations · The Story of Chess · The Blade · The First Moves ·
+        The Finish · The Plan · The Hunt · The Chess World
+      </p>
+    </section>
+
+    <!-- ───────── Features ───────── -->
+    <section class="section section--panel" id="features">
+      <header class="section__head">
+        <p class="eyebrow">Features</p>
+        <h2 class="section__title">Six ways to get better.</h2>
+      </header>
+
+      <div class="features">
+        <article class="feature">
+          <svg class="feature__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5 12 3l9 3.5-9 3.5z"/><path d="M7 8.3v5.2c0 1.6 2.2 3 5 3s5-1.4 5-3V8.3"/><path d="M21 6.5v6"/></svg>
+          <h3>Learn</h3>
+          <p>
+            A hundred lessons, from setting up the board to the Greek gift and
+            the Lucena bridge. Each one counts toward your level, your rank and
+            your daily streak.
+          </p>
+        </article>
+        <article class="feature">
+          <svg class="feature__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16"/><path d="M6 20v-4h3v4"/><path d="M10.5 20v-8h3v8"/><path d="M15 20V8h3v12"/><path d="m5 11 5-5 3 3 6-6"/><path d="M15 3h4v4"/></svg>
+          <h3>Puzzles</h3>
+          <p>
+            A rated trainer: 240 puzzles in twenty packs, from 600 to 2000. Your
+            first try moves your rating. After that, replay any puzzle to beat
+            your best.
+          </p>
+        </article>
+        <article class="feature">
+          <svg class="feature__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5"/><path d="M9.5 2.5h5"/><path d="M12 2.5V5"/></svg>
+          <h3>Play</h3>
+          <p>
+            Games against Stockfish&nbsp;19 at four strengths, timed with a real
+            clock or untimed. A game you leave is still there when you come
+            back.
+          </p>
+        </article>
+        <article class="feature">
+          <svg class="feature__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4v16h16"/><path d="m7 15 4-5 3 3 5-6"/></svg>
+          <h3>Review</h3>
+          <p>
+            Every move of a finished game graded, with the turning point
+            explained:
+          </p>
+          <ul class="quality" aria-label="Move grades">
+            <li class="quality--best">Best</li>
+            <li class="quality--good">Good</li>
+            <li class="quality--inaccuracy">Inaccuracy</li>
+            <li class="quality--mistake">Mistake</li>
+            <li class="quality--blunder">Blunder</li>
+          </ul>
+        </article>
+        <article class="feature">
+          <svg class="feature__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5C6.5 4 9.5 4 12 6c2.5-2 5.5-2 8-.5V19c-2.5-1.5-5.5-1.5-8 .5-2.5-2-5.5-2-8-.5z"/><path d="M12 6v13.5"/></svg>
+          <h3>Studio</h3>
+          <p>
+            240 short master games in 24 collections, plus your own PGN files,
+            with their comments and variations kept. Brilliant moves are
+            flagged, and you can draw on the board.
+          </p>
+        </article>
+        <article class="feature">
+          <svg class="feature__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg>
+          <h3>A hint when you ask</h3>
+          <p>
+            One hint button, answered on your device. It looks at material,
+            king safety, pawn structure, development and loose pieces, and
+            says what matters.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ───────── Screens ───────── -->
+    <section class="section" id="screens">
+      <header class="section__head">
+        <p class="eyebrow">Screens</p>
+        <h2 class="section__title">Made for the phone, and the tablet.</h2>
+        <p class="section__lead">Tap a screen to see it larger.</p>
+        <div class="tabs" role="tablist" aria-label="Device">
+          <button class="tabs__tab" type="button" role="tab" id="tab-iphone" aria-selected="true" aria-controls="shots-iphone">iPhone</button>
+          <button class="tabs__tab" type="button" role="tab" id="tab-ipad" aria-selected="false" aria-controls="shots-ipad" tabindex="-1">iPad</button>
+        </div>
+      </header>
+
+      <div class="gallery">
+        <button class="gallery__step gallery__step--back" type="button" aria-label="Scroll back">&#8249;</button>
+        <div class="shots" id="shots-iphone" role="tabpanel" aria-labelledby="tab-iphone" tabindex="0">
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/iphone/01-learn.webp" alt="The Learn home: rank, streak and the eight arts" width="660" height="1434" loading="lazy" /></button><figcaption>Your path through eight arts</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/iphone/02-lesson.webp" alt="A lesson on the Greek gift, the king's four escape squares drawn as arrows" width="660" height="1434" loading="lazy" /></button><figcaption>A lesson: the Greek gift</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/iphone/03-puzzles.webp" alt="A rated puzzle: find the fork" width="660" height="1434" loading="lazy" /></button><figcaption>The rated puzzle trainer</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/iphone/04-play.webp" alt="A game against Stockfish with clocks" width="660" height="1434" loading="lazy" /></button><figcaption>Play Stockfish 19</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/iphone/05-coach.webp" alt="A hint about the plan for White" width="660" height="1434" loading="lazy" /></button><figcaption>A hint when you ask</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/iphone/06-review.webp" alt="Review of a finished game, a mistake explained" width="660" height="1434" loading="lazy" /></button><figcaption>Every move reviewed</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/iphone/07-studio-library.webp" alt="The Studio library of master games" width="660" height="1434" loading="lazy" /></button><figcaption>240 master games</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/iphone/08-studio-analysis.webp" alt="Réti against Tartakower, Vienna 1910, the queen sacrifice marked brilliant" width="660" height="1434" loading="lazy" /></button><figcaption>Réti–Tartakower, 1910</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/iphone/09-studio-drawing.webp" alt="Two arrows, a highlighted square, a ring round the king and a Mate in 3 label drawn on the board" width="660" height="1434" loading="lazy" /></button><figcaption>Draw on the board</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/iphone/10-personalize.webp" alt="Settings: themes, boards, piece sets and typefaces" width="660" height="1434" loading="lazy" /></button><figcaption>Make it yours</figcaption></figure>
+        </div>
+        <div class="shots shots--tablet" id="shots-ipad" role="tabpanel" aria-labelledby="tab-ipad" tabindex="0" hidden>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/ipad/01-learn.webp" alt="The Learn home on iPad" width="840" height="1120" loading="lazy" /></button><figcaption>Your path through eight arts</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/ipad/02-lesson.webp" alt="A lesson on the Greek gift on iPad" width="840" height="1120" loading="lazy" /></button><figcaption>A lesson: the Greek gift</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/ipad/03-puzzles.webp" alt="A rated puzzle on iPad" width="840" height="1120" loading="lazy" /></button><figcaption>The rated puzzle trainer</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/ipad/04-play.webp" alt="A game against Stockfish on iPad, with its move list" width="840" height="1120" loading="lazy" /></button><figcaption>Play Stockfish 19</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/ipad/05-coach.webp" alt="A hint on iPad" width="840" height="1120" loading="lazy" /></button><figcaption>A hint when you ask</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/ipad/06-review.webp" alt="Review of a finished game on iPad" width="840" height="1120" loading="lazy" /></button><figcaption>Every move reviewed</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/ipad/07-studio-library.webp" alt="The Studio library on iPad" width="840" height="1120" loading="lazy" /></button><figcaption>240 master games</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/ipad/08-studio-analysis.webp" alt="Réti against Tartakower on iPad" width="840" height="1120" loading="lazy" /></button><figcaption>Réti–Tartakower, 1910</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/ipad/09-studio-drawing.webp" alt="Drawing on the board on iPad" width="840" height="1120" loading="lazy" /></button><figcaption>Draw on the board</figcaption></figure>
+          <figure class="shot"><button type="button" class="shot__open"><img src="images/screens/ipad/10-personalize.webp" alt="Settings on iPad" width="840" height="1120" loading="lazy" /></button><figcaption>Make it yours</figcaption></figure>
+        </div>
+        <button class="gallery__step gallery__step--next" type="button" aria-label="Scroll forward">&#8250;</button>
+      </div>
+    </section>
+
+    <!-- ───────── Make it yours ───────── -->
+    <section class="section section--panel" id="yours">
+      <header class="section__head">
+        <p class="eyebrow">Make it yours</p>
+        <h2 class="section__title">A board you want to look at for hours.</h2>
+        <p class="section__lead">
+          Ten themes, five boards and ten piece sets, plus three typefaces and
+          three sound packs. Every piece set, and the icon, is original: drawn
+          in code and given to the public domain.
+        </p>
+      </header>
+
+      <h3 class="picker__title">Ten themes</h3>
+      <ul class="themes">
+        <li style="--sw-bg:#09130B;--sw-panel:#1A211B;--sw-accent:#79BB74;--sw-text:#E4EAE5">Midnight Grove</li>
+        <li style="--sw-bg:#1A0E04;--sw-panel:#271D18;--sw-accent:#F3985B;--sw-text:#F0E6E1">Ember Study</li>
+        <li style="--sw-bg:#091217;--sw-panel:#1A2025;--sw-accent:#74B6DC;--sw-text:#E4E9ED">Slate Focus</li>
+        <li style="--sw-bg:#0F101C;--sw-panel:#1D1F2A;--sw-accent:#A2A6EB;--sw-text:#E7E7F1">Indigo Hour</li>
+        <li style="--sw-bg:#171005;--sw-panel:#241F18;--sw-accent:#D3AE66;--sw-text:#ECE7E2">Bronze Age</li>
+        <li style="--sw-bg:#001413;--sw-panel:#132221;--sw-accent:#4FC0A8;--sw-text:#DFEBEA">Jade Terrace</li>
+        <li style="--sw-bg:#170E17;--sw-panel:#241D25;--sw-accent:#DA96C1;--sw-text:#ECE6ED">Plum Velvet</li>
+        <li style="--sw-bg:#EFEAE2;--sw-panel:#FBF6EE;--sw-accent:#39693B;--sw-text:#2F291E">Ivory Hall</li>
+        <li style="--sw-bg:#F2E9E4;--sw-panel:#FEF5F0;--sw-accent:#A24D32;--sw-text:#322821">Linen Morning</li>
+        <li style="--sw-bg:#E4ECF0;--sw-panel:#F0F8FC;--sw-accent:#00687A;--sw-text:#202C30">Harbor Light</li>
+      </ul>
+
+      <h3 class="picker__title">Five boards</h3>
+      <ul class="boards">
+        <li style="--light:#EEEED2;--dark:#769656">Tournament</li>
+        <li style="--light:#F0D9B5;--dark:#B58863">Walnut</li>
+        <li style="--light:#EAD8C0;--dark:#A16F4A">Sheesham</li>
+        <li style="--light:#DDE1DA;--dark:#8A968A">Slate</li>
+        <li style="--light:#EFE7CF;--dark:#7D8F69">Sage</li>
+      </ul>
+
+      <h3 class="picker__title">Ten piece sets</h3>
+      <ul class="sets">
+        <li><span class="set"><img src="images/pieces/classic/bK.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/classic/bN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/classic/wN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/classic/wQ.webp" alt="" width="64" height="64" loading="lazy" /></span>Classic</li>
+        <li><span class="set"><img src="images/pieces/wood/bK.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/wood/bN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/wood/wN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/wood/wQ.webp" alt="" width="64" height="64" loading="lazy" /></span>Wood</li>
+        <li><span class="set"><img src="images/pieces/marble/bK.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/marble/bN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/marble/wN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/marble/wQ.webp" alt="" width="64" height="64" loading="lazy" /></span>Marble</li>
+        <li><span class="set"><img src="images/pieces/diagram/bK.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/diagram/bN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/diagram/wN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/diagram/wQ.webp" alt="" width="64" height="64" loading="lazy" /></span>Diagram</li>
+        <li><span class="set"><img src="images/pieces/modern/bK.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/modern/bN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/modern/wN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/modern/wQ.webp" alt="" width="64" height="64" loading="lazy" /></span>Modern</li>
+        <li><span class="set"><img src="images/pieces/deco/bK.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/deco/bN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/deco/wN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/deco/wQ.webp" alt="" width="64" height="64" loading="lazy" /></span>Deco</li>
+        <li><span class="set"><img src="images/pieces/facet/bK.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/facet/bN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/facet/wN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/facet/wQ.webp" alt="" width="64" height="64" loading="lazy" /></span>Facet</li>
+        <li><span class="set"><img src="images/pieces/silhouette/bK.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/silhouette/bN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/silhouette/wN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/silhouette/wQ.webp" alt="" width="64" height="64" loading="lazy" /></span>Silhouette</li>
+        <li><span class="set"><img src="images/pieces/soft/bK.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/soft/bN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/soft/wN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/soft/wQ.webp" alt="" width="64" height="64" loading="lazy" /></span>Soft</li>
+        <li><span class="set"><img src="images/pieces/bold/bK.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/bold/bN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/bold/wN.webp" alt="" width="64" height="64" loading="lazy" /><img src="images/pieces/bold/wQ.webp" alt="" width="64" height="64" loading="lazy" /></span>Bold</li>
+      </ul>
+    </section>
+
+    <!-- ───────── Languages ───────── -->
+    <section class="section" id="languages">
+      <header class="section__head">
+        <p class="eyebrow">Languages</p>
+        <h2 class="section__title">Twelve languages, all the way down.</h2>
+        <p class="section__lead">
+          The app, every lesson and every puzzle, translated by hand. Arabic
+          reads right to left.
+        </p>
+      </header>
+      <ul class="langs">
+        <li><span class="langs__flag" aria-hidden="true">🇺🇸</span><span lang="en">English</span></li>
+        <li><span class="langs__flag" aria-hidden="true">🇫🇷</span><span lang="fr">Français</span></li>
+        <li><span class="langs__flag" aria-hidden="true">🇪🇸</span><span lang="es">Español</span></li>
+        <li><span class="langs__flag" aria-hidden="true">🇸🇦</span><span lang="ar" dir="rtl">العربية</span></li>
+        <li><span class="langs__flag" aria-hidden="true">🇨🇳</span><span lang="zh">中文</span></li>
+        <li><span class="langs__flag" aria-hidden="true">🇷🇺</span><span lang="ru">Русский</span></li>
+        <li><span class="langs__flag" aria-hidden="true">🇮🇩</span><span lang="id">Bahasa Indonesia</span></li>
+        <li><span class="langs__flag" aria-hidden="true">🇯🇵</span><span lang="ja">日本語</span></li>
+        <li><span class="langs__flag" aria-hidden="true">🇮🇳</span><span lang="hi">हिन्दी</span></li>
+        <li><span class="langs__flag" aria-hidden="true">🇹🇷</span><span lang="tr">Türkçe</span></li>
+        <li><span class="langs__flag" aria-hidden="true">🇮🇹</span><span lang="it">Italiano</span></li>
+        <li><span class="langs__flag" aria-hidden="true">🇵🇹</span><span lang="pt">Português</span></li>
+      </ul>
+    </section>
+
+    <!-- ───────── Privacy ───────── -->
+    <section class="section section--deep" id="privacy">
+      <header class="section__head">
+        <p class="eyebrow">Privacy</p>
+        <h2 class="section__title">Nothing you do leaves your device.</h2>
+        <p class="section__lead">KarpaChess collects no personal data. There is no server for it to send anything to.</p>
+      </header>
+      <div class="privacy">
+        <div class="privacy__card"><h3>No account</h3><p>Nothing to sign up for and nothing to log in to.</p></div>
+        <div class="privacy__card"><h3>No internet</h3><p>The app never connects. Stockfish thinks on your device.</p></div>
+        <div class="privacy__card"><h3>No tracking</h3><p>No ads, no analytics, no crash reporting.</p></div>
+        <div class="privacy__card"><h3>Yours alone</h3><p>Progress, settings and games stay on your device. Deleting the app removes them all.</p></div>
+      </div>
+      <p class="privacy__more"><a href="privacy.html">Read the privacy policy</a></p>
+    </section>
+
+    <!-- ───────── Open source ───────── -->
+    <section class="section" id="source">
+      <div class="source">
+        <div>
+          <p class="eyebrow">Open source</p>
+          <h2 class="section__title">Free software, in the open.</h2>
+          <p>
+            KarpaChess is licensed under the GNU GPL, version 3 or later. Its
+            complete source is public: the app, the lessons and puzzles, and
+            the bridge to its engine. It is built on
+            <a href="https://stockfishchess.org">Stockfish</a> and on lichess's
+            chessground and dartchess.
+          </p>
+        </div>
+        <div class="source__links">
+          <a class="button" href="https://github.com/mourad-ghafiri/KarpaChessMobile">Browse the source</a>
+          <a class="button button--quiet" href="https://github.com/mourad-ghafiri/KarpaChessMobile/issues">Report a problem</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Support ───────── -->
+    <section class="section section--panel" id="support">
+      <header class="section__head">
+        <p class="eyebrow">Support</p>
+        <h2 class="section__title">Questions or feedback?</h2>
+      </header>
+      <div class="support">
+        <div class="support__card">
+          <h3>Write to us</h3>
+          <p>Questions, feedback, or anything about privacy.</p>
+          <p class="support__contact"><a href="mailto:mourad.ghafiri38@gmail.com">mourad.ghafiri38@gmail.com</a></p>
+        </div>
+        <div class="support__card">
+          <h3>Report a problem</h3>
+          <p>A wrong move in a lesson, or a bug. The issue tracker is public.</p>
+          <p class="support__contact"><a href="https://github.com/mourad-ghafiri/KarpaChessMobile/issues">GitHub issues</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── Get the app ───────── -->
+    <section class="cta" id="get">
+      <img class="cta__mark" src="images/icon-192.png" alt="" width="88" height="88" />
+      <h2>Your next move.</h2>
+      <p>KarpaChess is free, for iPhone, iPad and Android phones and tablets.</p>
+      <div class="stores stores--center">
+        <span class="store" role="img" aria-label="Coming soon to the App Store">
+          <span class="store__small">Coming soon to the</span>
+          <span class="store__name">App Store</span>
+        </span>
+        <span class="store" role="img" aria-label="Coming soon to Google Play">
+          <span class="store__small">Coming soon to</span>
+          <span class="store__name">Google Play</span>
+        </span>
+      </div>
+    </section>
+  </main>
+
+  <!-- ───────── Footer ───────── -->
+  <footer class="site-footer">
+    <a class="brand" href="#top">
+      <img class="brand__mark" src="images/icon-192.png" alt="" width="28" height="28" />
+      <span class="brand__name">KarpaChess</span>
+    </a>
+    <nav class="site-footer__links" aria-label="Footer">
+      <a href="#features">Features</a>
+      <a href="#screens">Screens</a>
+      <a href="privacy.html">Privacy policy</a>
+      <a href="#support">Support</a>
+      <a href="https://github.com/mourad-ghafiri/KarpaChessMobile">Source code</a>
+    </nav>
+    <p class="site-footer__legal">© 2026 Mourad Ghafiri. KarpaChess is free software under the GNU GPL v3 or later.</p>
+  </footer>
+
+  <!-- ───────── Lightbox ───────── -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Screenshot" hidden>
+    <button class="lightbox__close" id="lightboxClose" type="button" aria-label="Close">&times;</button>
+    <button class="lightbox__step" id="lightboxPrev" type="button" aria-label="Previous screen">&#8249;</button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+      <figcaption class="lightbox__caption" id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox__step" id="lightboxNext" type="button" aria-label="Next screen">&#8250;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

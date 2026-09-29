@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-07",
+  "fen": "r4rk1/1pp2ppp/p1np4/4p3/2B1P3/2Pq1N2/PP2QPPP/R2R2K1 b - - 0 1",
+  "solution": [
+    "Qxe2"
+  ],
+  "title": "Cambiate le Donne per Salvarvi",
+  "setup": "La vostra donna in d3 è attaccata tre volte, niente la difende, e ogni casa in cui potrebbe scappare è coperta.",
+  "hint": "La donna non si può salvare. Chiedetevi qual è la cosa più preziosa che può prendere mentre esce.",
+  "explanation": "## L'idea\n\nLa donna in d3 è colpita dalla donna, dall'alfiere in c4 e dalla torre in d1, e ogni ritirata atterra su una casa difesa. È persa comunque, quindi fate pagare al Bianco il prezzo pieno. {{Qxe2}} la cambia con la donna bianca, e dopo {{Bxe2}} siete sotto di un pezzo per un pedone, ma non anche di una donna."
+}

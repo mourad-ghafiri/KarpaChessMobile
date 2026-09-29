@@ -1,0 +1,13 @@
+{
+  "id": "forks-07",
+  "fen": "3r3k/p5pp/8/4N3/8/8/P5PP/6K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "Une fourchette vers le coin",
+  "setup": "Le roi noir est blotti dans le coin h8 derrière ses propres pions, et la tour noire en d8 n'a aucun défenseur.",
+  "hint": "Trouvez l'échec de cavalier qui attaque aussi la tour. Le roi n'aura qu'une seule case où aller.",
+  "explanation": "## L'idée\n\n{{Nf7+}} met le roi en h8 en échec et attaque la tour en d8. Les pions en g7 et h7 ne laissent au roi qu'une case, et depuis g8 il ne peut pas atteindre d8. Après {{Kg8}}, {{Nxd8}} prend la tour, et vous passez d'une qualité de moins à un cavalier de plus.\n\nUn roi enfermé par ses propres pions est la cible la plus facile pour une fourchette."
+}

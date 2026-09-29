@@ -1,0 +1,56 @@
+{
+  "id": "french-defense-deep",
+  "title": "La Defensa Francesa",
+  "summary": "Dos cadenas, y las dos bases bajo el fuego",
+  "proof": "openings-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Un peón central, una jugada tarde",
+      "text": "{{e4}} {{e6}}. Las Negras responden a un peón central con uno tranquilo, porque lo importante es la jugada siguiente: {{d4}} {{d5}}, y ahora las Negras tienen un peón a la altura del blanco con otro detrás sosteniéndolo.\n\nEl coste está en c8. La diagonal de ese alfil choca directamente con el propio peón negro de e6, y liberarlo puede llevar veinte jugadas. París venció a Londres por correspondencia con ella en 1834, y la apertura lleva desde entonces el nombre de Francesa."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+      "title": "Apunta a la base",
+      "text": "Las Blancas avanzaron más allá, y los peones están bloqueados. La cadena blanca va de d4 a e5 y apunta al flanco de rey negro; la negra va de e6 a d5 y apunta al flanco de dama blanco. Cada ejército ataca hacia donde apuntan sus propios peones.\n\nEl peón de la base negra es e6, detrás de todo. El de las Blancas es d4, a la vista. El peón de c5 y el caballo de c6 ya lo golpean, mientras el peón de c3, el caballo de f3 y la dama de d1 lo sostienen. Dos contra tres, y juegan las Negras.\n\n> Una cadena de peones es tan fuerte como el peón de su base."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+      "prompt": "Apunta una tercera pieza a d4 desde detrás de tu propio peón de c; elige la casilla que además mira a b2.",
+      "targetSan": [
+        "Qb6"
+      ],
+      "hint": "Encuentra la pieza que golpea b2 ahora y golpeará d4 en cuanto tu peón de c se cambie."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5",
+      "title": "La otra Francesa",
+      "text": "Las mismas dos primeras jugadas, otra disputa. Las Blancas defendieron el peón de e con un caballo en c3 en lugar de avanzarlo, el alfil negro de casillas negras fue a b4 y clavó ese caballo contra el rey, y las Blancas avanzaron de todos modos. Ahora {{a3}} le pregunta al alfil qué piensa hacer.\n\nNo se retira. {{Bxc3+}} {{bxc3}}: las Negras entregan un alfil, y el peón de b blanco es arrastrado a la columna c, donde ahora hay dos peones blancos que nunca podrán desenredarse."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "title": "Leer el recibo",
+      "text": "Los dos bandos saben lo que han comprado. Las Blancas tienen dos alfiles contra uno, espacio en el flanco de rey y una columna b semiabierta para la torre de la esquina; las casillas negras de las Negras ya no tienen alfil que las cuide.\n\nLas Negras tienen los peones más sanos y un objetivo permanente: el peón de c3 no está defendido por nada. {{Qa5}} llega a la diagonal que termina en el rey blanco, y las Blancas tienen que gastar una jugada en {{Bd2}} para sostener el peón."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "title": "Tres casillas, dos respuestas",
+      "text": "El caballo de g8 tiene tres casillas, y dos de ellas ya tienen respuesta antes de que llegue.\n\nf6 está cubierta por el peón de e5, así que un caballo ahí pierde una pieza por un peón. h6 es legal, pero el alfil de c1 la mira directamente, y el cambio ahí deja en ruinas el refugio del rey negro.\n\nQueda una casilla. Desde ella el caballo está a un salto de f5, donde vuelve a atacar d4 y donde todavía no lo cubre ningún peón blanco."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "prompt": "Saca el caballo que está junto a tu rey a la única casilla que lo deja a un salto de f5.",
+      "targetSan": [
+        "Ne7"
+      ],
+      "hint": "Una de sus casillas está cubierta por un peón, y otra invita a un cambio que destroza la protección delante de tu rey; la tercera es la jugada."
+    }
+  ]
+}

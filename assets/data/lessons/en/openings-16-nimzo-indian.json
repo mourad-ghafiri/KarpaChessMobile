@@ -1,0 +1,50 @@
+{
+  "id": "nimzo-indian-advanced",
+  "title": "Nimzo-Indian Defense",
+  "summary": "A bishop traded for a permanent weakness",
+  "proof": "openings-16.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "A Bishop That Plans to Die",
+      "text": "Three moves old, and Black's bishop is already offering itself for a knight. A bishop is usually reckoned the slightly better piece, so this looks like the wrong end of a trade.\n\nIt is not generosity. The bishop on b4 has the knight on c3 pinned against the king on e1, and that knight is the only white piece covering e4. Black wants it off the board, and wants White forced into the one recapture that leaves a mark."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "The Question White Asks",
+      "text": "{{a3}}. The pawn walks up to the bishop and demands an answer: retreat, or take.\n\nRetreating hands White a free tempo, so the bishop takes. Now look at how White gets to take back. The bishop on c1 does not see c3, and neither does the queen, so the b-pawn has to do it — landing directly behind the pawn already sitting on c4."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/P1N5/1P2PPPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Take White's only guard of e4 and force the recapture that stacks two pawns on one file.",
+      "targetSan": [
+        "Bxc3+"
+      ],
+      "hint": "Only one black piece attacks c3, and its capture arrives with check, so White gets no free moment to prepare."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/P1P5/4PPPP/R1BQKBNR b KQkq - 0 5",
+      "title": "Stacked for Good",
+      "text": "There they are: white pawns on c3 and c4, one standing behind the other. Doubled, and stuck. The rear one can never get past the one in front, and neither will ever be defended by a pawn — the b-pawn is now one of the two, and the d-pawn has already gone by on d4.\n\n{{c5}} freezes the picture. Black hits d4 so the center cannot roll forward and bury the evidence.\n\nThe opening carries the name of Aron Nimzowitsch, who argued that a weakness nobody can repair outlasts any advantage that has to be used at once."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "title": "The Pawn Everything Points At",
+      "text": "Five moves on, and White has the center the two bishops were waiting for: pawns on c4, d4 and e4, with the bishop on d3 ready for the moment that row advances.\n\nBlack does not argue with all of it. One pawn there is different. The pawn on c4 has its partner stranded behind it, so no white pawn will ever guard it, and every threat Black makes against c4 must be answered by a piece. A piece tied to a pawn is a piece doing nothing else.\n\n> Attack the weakness a pawn cannot defend, and make the pieces do the guarding."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "prompt": "Send your knight to the rim, where it hits the pawn that no white pawn can ever defend.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "The target is the pawn on c4, and the white b-pawn that would normally chase a knight off that edge is standing on c3."
+    }
+  ]
+}

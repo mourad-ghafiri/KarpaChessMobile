@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-18",
+  "fen": "8/4P3/5k2/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "e8=Q"
+  ],
+  "title": "Le couronnement",
+  "setup": "Votre pion a marché jusqu'en **e7**, et le roi noir se tient juste à côté de lui.",
+  "hint": "Le roi noir attaque votre pion, et votre propre roi est loin. Profitez de ce coup avant que les Noirs profitent du suivant.",
+  "explanation": "## L'idée\n\nUn pion qui atteint la dernière rangée est promu : il se transforme, dans le même coup, en la pièce de votre choix.\n\n{{e8=Q}} transforme un pion d'un point en une dame de neuf points, et le roi en f6 ne peut pas atteindre e8 pour la prendre. Tout autre coup permet à {{Kxe7}} de retirer le pion, et la victoire s'envole. Avec une dame contre un roi seul, le mat suivra.\n\nUn pion à un pas du but mérite d'être promu tout de suite."
+}

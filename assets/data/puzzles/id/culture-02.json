@@ -1,0 +1,11 @@
+{
+  "id": "culture-02",
+  "fen": "rnbqk1nr/ppp2ppp/3b4/8/8/2N5/PPPPP1PP/R1BQKBNR b KQkq - 1 4",
+  "solution": [
+    "Qh4+"
+  ],
+  "title": "Sepuluh Detik Tersisa",
+  "setup": "Putih membuka dengan pion f, baru saja mengembangkan seekor kuda, dan tak pernah melihat diagonal yang terbuka pada langkah pertama.",
+  "hint": "Pion f meninggalkan rumah pada langkah pertama. Buah Anda mana yang bisa mencapai diagonal yang dibukanya, dengan sekak?",
+  "explanation": "## Ide\n\nPion f Putih pergi pada langkah pertama dan membuka diagonal e1–h4, dan tak ada yang menutupnya sejak itu.\n\n{{Qh4+}} hanya menyisakan satu jawaban bagi Putih, {{g3}}: raja tak bisa pergi ke f2, dan pion g satu-satunya yang bisa menghalangi. Lalu Hitam memberi mat dalam dua langkah dengan cara mana pun, {{Bxg3+}} {{hxg3}} {{Qxg3#}}, atau menteri lebih dulu dengan {{Qxg3+}} {{hxg3}} {{Bxg3#}}.\n\nKetika lawan menggerakkan pion f terlalu awal, pakai satu detik untuk memeriksa sekak menteri di h4."
+}

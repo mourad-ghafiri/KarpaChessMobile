@@ -1,0 +1,11 @@
+{
+  "id": "notation-proof",
+  "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Bc4"
+  ],
+  "title": "Sıradaki Kayıt",
+  "setup": "Basılı bir parti 1.e4 e5 2.Nf3 d6 diye gidiyor ve beyazın sıradaki kaydı `3.Bc4`. Adı geçen hamleyi oynayın.",
+  "hint": "Büyük harf taşı adlandırır, ardından gelen iki karakter de indiği kareyi.",
+  "explanation": "## Fikir\n\nB fildir ve c4 karedir. c4'e yalnızca f1'deki fil ulaşabilir, yani kaydın fazlasına ihtiyacı yoktur: {{Bc4}}.\n\nNumara size bunun beyazın üçüncü hamlesi olduğunu söyler ve ondan önceki hamleler her taşı şu anda gördüğünüz yere koymuştur. Taş için bir harf, indiği yer için bir kare."
+}

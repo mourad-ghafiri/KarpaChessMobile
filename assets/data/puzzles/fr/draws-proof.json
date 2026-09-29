@@ -1,0 +1,11 @@
+{
+  "id": "draws-proof",
+  "fen": "k3r3/8/8/8/8/p7/P1q5/K5Q1 w - - 0 1",
+  "solution": [
+    "Qa7+"
+  ],
+  "title": "Un demi-point sorti de rien",
+  "setup": "Vous avez une tour de moins, les Noirs menacent mat en b2, et votre roi en a1 n'a aucun coup légal. Trouvez le demi-point.",
+  "hint": "Comptez vos coups légaux si la dame n'était pas sur l'échiquier.",
+  "explanation": "## L'idée\n\nVotre roi en a1 ne peut pas bouger : la dame noire couvre b1 et b2, et votre pion en a2 est bloqué. Votre dame est la seule pièce qui a encore des coups.\n\n{{Qa7+}} la donne avec échec. Le roi en a8 ne peut aller ni en b7 ni en b8, il doit donc prendre. Les Blancs n'ont alors aucun coup légal et ne sont pas en échec : pat, un demi-point.\n\nLe camp qui gagne guette ce piège. Le camp qui perd va le chercher."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-01",
+  "fen": "2k5/8/3K4/7Q/8/8/8/8 w - - 2 2",
+  "solution": [
+    "Qb5",
+    "Kd8",
+    "Qb8#"
+  ],
+  "title": "La jaula en dos pasos",
+  "setup": "El rey negro de c8 todavía tiene tres casillas. Tu rey ya domina c7 y d7, y tu dama está lejos, en h5.",
+  "hint": "Aquí cualquier jaque deja salir al rey. Quítale sus casillas en silencio y déjale exactamente una jugada.",
+  "explanation": "## La idea\n\nDar jaque primero deja huir al rey. {{Qb5}} no da jaque en absoluto: toma toda la columna b, así que b8 y b7 desaparecen, y tu rey de d6 ya domina c7 y d7.\n\nLas Negras tienen una sola jugada legal, {{Kd8}}, y cae de lleno en {{Qb8#}}. La dama cubre la octava fila, tu rey cubre la séptima y el rey negro ya no tiene adónde ir. {{Qd7#}} también da mate."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "french-defense-deep",
+  "title": "Pertahanan Prancis",
+  "summary": "Dua rantai, dan kedua pangkalnya diserang",
+  "proof": "openings-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Pion Pusat, Terlambat Satu Langkah",
+      "text": "{{e4}} {{e6}}. Hitam menjawab pion pusat dengan pion yang tenang, karena intinya ada pada langkah berikutnya: {{d4}} {{d5}}, dan kini Hitam punya pion yang sejajar dengan pion Putih dengan pion lain di belakangnya yang menopangnya.\n\nHarganya ada di c8. Diagonal gajah itu menabrak pion Hitam sendiri di e6, dan membebaskannya bisa memakan dua puluh langkah. Paris mengalahkan London lewat pos dengan pembukaan ini pada tahun 1834, dan sejak itu pembukaan ini menyandang nama Prancis."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+      "title": "Bidik Bagian Bawah",
+      "text": "Putih mendorong melewatinya, dan pion-pion terkunci. Rantai Putih membentang dari d4 ke e5 dan mengarah ke sayap raja Hitam; rantai Hitam membentang dari e6 ke d5 dan mengarah ke sayap menteri Putih. Setiap pasukan menyerang ke arah bidikan pionnya sendiri.\n\nPion terbawah Hitam adalah e6, di belakang segalanya. Pion terbawah Putih adalah d4, di tempat terbuka. Pion di c5 dan kuda di c6 sudah menyerangnya, sementara pion di c3, kuda di f3 dan menteri di d1 menopangnya. Dua lawan tiga, dan giliran Hitam.\n\n> Rantai pion hanya sekuat pion di pangkalnya."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+      "prompt": "Bidikkan buah ketiga ke d4 dari belakang pion c Anda sendiri — pilih petak yang juga menatap b2.",
+      "targetSan": [
+        "Qb6"
+      ],
+      "hint": "Temukan buah yang menyerang b2 sekarang dan menyerang d4 begitu pion c Anda bertukar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5",
+      "title": "Prancis yang Lain",
+      "text": "Dua langkah pembuka yang sama, perselisihan yang berbeda. Putih melindungi pion e dengan kuda di c3 alih-alih mendorongnya, gajah gelap Hitam datang ke b4 dan menjepit kuda itu terhadap raja, dan Putih tetap mendorong melewatinya. Kini {{a3}} menanyakan apa maksud gajah itu.\n\nGajah tidak mundur. {{Bxc3+}} {{bxc3}}: Hitam menyerahkan gajah, dan pion b Putih terseret ke lajur c, tempat dua pion putih kini berdiri dan tak akan pernah bisa diurai."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "title": "Membaca Kuitansinya",
+      "text": "Kedua pihak tahu apa yang mereka beli. Putih memiliki dua gajah melawan satu, ruang di sayap raja, dan lajur b setengah terbuka untuk benteng di sudut; petak-petak gelap Hitam kini tak punya gajah yang mengurusnya.\n\nHitam memiliki pion yang lebih sehat dan sasaran yang tetap: pion di c3 sama sekali tak dilindungi apa pun. {{Qa5}} tiba di diagonal yang berujung di raja putih, dan Putih harus memakai satu langkah untuk {{Bd2}} demi menopang pion itu."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "title": "Tiga Petak, Dua Jawaban",
+      "text": "Kuda di g8 punya tiga petak, dan dua di antaranya sudah terjawab sebelum ia mendarat.\n\nf6 dikuasai pion di e5, jadi kuda di sana kehilangan buah demi pion. h6 sah, tetapi gajah di c1 menatap lurus ke sana, dan pertukaran di sana membuat perlindungan raja Hitam hancur.\n\nTersisa satu petak. Dari sana kuda tinggal satu lompatan dari f5, tempat ia kembali menyerang d4 dan belum ada pion putih yang menguasainya."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "prompt": "Keluarkan kuda di samping raja Anda ke satu-satunya petak yang membuatnya tinggal satu lompatan dari f5.",
+      "targetSan": [
+        "Ne7"
+      ],
+      "hint": "Satu petaknya dikuasai pion, dan satu lagi mengundang pertukaran yang merusak perlindungan di depan raja Anda; yang ketiga adalah langkahnya."
+    }
+  ]
+}

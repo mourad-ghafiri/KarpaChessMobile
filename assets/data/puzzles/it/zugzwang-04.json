@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-04",
+  "fen": "8/2B5/8/8/1p5Q/k7/2K5/8 w - - 0 1",
+  "solution": [
+    "Qc4",
+    "Ka4",
+    "Qa6#"
+  ],
+  "rating": 1500,
+  "title": "Date al Re una Casa",
+  "setup": "Il re nero è in a3 con un solo pedone in b4, e il vostro re in c2 fa già metà del lavoro.",
+  "hint": "Il vostro re copre più di quanto sembri. Stabilite su quale casa andrebbe il Nero e arrivateci prima.",
+  "explanation": "## L'idea\n\n{{Qc4}} non è scacco, ma si prende b3 e b4 mentre il vostro re tiene b2. Solo {{Ka4}} tiene il re lontano dal vostro bordo — {{b3+}} va addosso a {{Qxb3#}} — e {{Qa6#}} atterra. Un re sul bordo con una casa rimasta è già matto, solo che ancora non lo sa."
+}

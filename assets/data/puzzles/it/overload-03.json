@@ -1,0 +1,14 @@
+{
+  "id": "overload-03",
+  "fen": "r5k1/5ppp/8/8/3R4/8/PP2b3/K2R2Q1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1330,
+  "title": "Solo una Torre Torna Indietro",
+  "setup": "La torre nera difende la traversa di fondo da a8 e le vostre torri sono raddoppiate sulla colonna d con la donna che sorveglia da g1.",
+  "hint": "Contate quanti dei vostri pezzi arrivano all'ottava traversa, poi contate quanti di quelli neri possono rispondere.",
+  "explanation": "## L'idea\n\n{{Rd8+}} offre una torre che il difensore deve prendere, e {{Rxd8}} lo tira via da a8. La seconda torre segue con {{Rxd8#}}. Un difensore non può rispondere a due attaccanti sulla stessa casa; il conto è tutta la tattica."
+}

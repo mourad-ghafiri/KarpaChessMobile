@@ -1,0 +1,50 @@
+{
+  "id": "board-and-setup",
+  "title": "Enam Puluh Empat Petak",
+  "summary": "Sebut nama petak mana pun sekali lihat, dan susun papan dengan benar setiap kali",
+  "proof": "board-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "title": "Setiap Petak Punya Nama",
+      "text": "Enam puluh empat petak, dan masing-masing punya alamat. Dua hal memberikannya kepada Anda.\n\nKolom-kolomnya disebut **lajur**, diberi huruf **a** sampai **h** dari kiri Putih ke kanan Putih. Deret-deretnya disebut **baris**, diberi nomor **1** sampai **8** mulai dari tepi papan di sisi Putih.\n\nHuruf dulu, angka kemudian. Raja putih di e1 menyatakannya dengan jelas: lajur e, baris 1. Sudut jauh di sebelah kanan Putih adalah h8.\n\nPion di a2 dapat mencapai {{a3}} dan {{a4}} — dua petak lagi yang sudah bisa Anda sebut namanya."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "prompt": "Baca alamatnya dan gerakkan sebuah pion ke petak bernama h3.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Mulailah dari lajur h, tepat di tepi kanan Putih, lalu hitung ke atas: baris 1, baris 2, baris 3."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "Terang di Kanan",
+      "text": "Petak-petaknya bergantian terang dan gelap, dan pola itulah yang memberi tahu Anda apakah papan sudah menghadap dengan benar.\n\nSaat Anda duduk, sudut yang paling dekat dengan tangan kanan Anda harus terang. Bagi Putih, sudut itu adalah h1. Bagi Hitam, a8.\n\nJika petak di sebelah kanan Anda gelap, seluruh papan telah terputar seperempat putaran — kesalahan yang akan Anda kenali di ruang tamu dan di film sepanjang hidup Anda."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "Warna Milik Menteri",
+      "text": "Setiap menteri memulai di petak yang sewarna dengannya. Menteri putih di d1 berdiri di petak terang, menteri hitam di d8 di petak gelap. Lajur yang sama, warna yang berlawanan.\n\nMelangkahlah lurus ke depan dan warnanya berganti setiap kali. Pion di d2 berada di petak gelap, {{d3}} terang, {{d4}} gelap lagi.\n\nJadi menteri mengambil petak tengah yang sewarna dengannya, dan raja mengisi petak yang tersisa.\n\n> Terang di kanan, menteri di warnanya. Dua aturan, dan papan Anda tak akan pernah salah lagi."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Siap di Posisi",
+      "text": "Tiga puluh dua buah, dan setiap partai dalam sejarah dimulai dengan semuanya berdiri di sini.\n\nDi sepanjang baris belakang — baris 1 untuk Putih, baris 8 untuk Hitam — dari sudut ke arah dalam:\n\n- **Benteng** di sudut, a1 dan h1\n- **Kuda** di sebelahnya, b1 dan g1\n- **Gajah** di sebelah kuda, c1 dan f1\n- **Menteri** di d1, **raja** di e1\n\nDelapan pion berdiri di depan pada baris kedua, dan pasukan Hitam mencerminkan pasukan Putih di seberang papan.\n\nPutih selalu melangkah lebih dulu — {{e4}} — dan baru kemudian Hitam menjawab, {{e5}}. Sejak itu Anda bergantian, satu langkah masing-masing, sampai akhir."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "prompt": "Putih melangkah lebih dulu, jadi buka partai dengan memajukan pion di depan menteri dua petak ke atas papan.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Menteri berdiri di d1, jadi pion di depannya mulai dari d2 — dan langkah pertama sebuah pion boleh satu atau dua petak."
+    }
+  ]
+}

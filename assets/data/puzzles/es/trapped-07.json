@@ -1,0 +1,12 @@
+{
+  "id": "trapped-07",
+  "fen": "6k1/ppp2pp1/5n1p/8/8/7P/P1P1NPP1/1b1B2K1 w - - 0 1",
+  "solution": [
+    "Nc3"
+  ],
+  "rating": 1240,
+  "title": "Alfil en una caja",
+  "setup": "El alfil negro se ha colado hasta b1, donde sus dos únicos vecinos son tus peones de a2 y c2.",
+  "hint": "Ese alfil ya no tiene ninguna jugada. Trae una pieza que lo ataque y defienda a2 de un mismo golpe.",
+  "explanation": "## La idea\n\n{{Nc3}} ataca al alfil y cubre a2 a la vez, y c2 lo defiende el alfil de d1, así que tampoco hay ninguna captura con la que escapar. A una pieza que no tiene adónde ir le basta un atacante para caer."
+}

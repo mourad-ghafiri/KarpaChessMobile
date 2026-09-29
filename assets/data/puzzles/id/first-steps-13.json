@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-13",
+  "fen": "k4r2/8/8/7b/8/3n4/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "Petak yang Sepi",
+  "setup": "Seekor kuda hitam telah mendarat di d3 dengan sekak — dan kuda tak pernah bisa dihalangi.",
+  "hint": "Gajah di h5 menembus f3, e2, dan d1. Benteng menjaga lajur f. Carilah petak yang tak disebut siapa pun.",
+  "explanation": "## Ide\n\nKuda di d3 memberi sekak kepada raja Anda, dan sekak kuda hanya bisa dijawab dengan memindahkan raja atau mengambil kudanya. Tak ada milik Anda yang mencapai d3, jadi raja harus bergerak.\n\nd1 dan e2 berada di diagonal gajah h5, benteng di f8 menguasai f1, dan kuda itu sendiri menguasai f2. {{Kd2}} adalah satu-satunya petak yang tersisa: tepat di sebelah kuda, dan aman, karena kuda tak pernah menyerang petak yang bersentuhan dengannya."
+}

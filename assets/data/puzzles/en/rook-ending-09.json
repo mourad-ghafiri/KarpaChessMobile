@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-09",
+  "fen": "8/1r6/6P1/8/8/2R3K1/8/4k3 b - - 0 1",
+  "solution": [
+    "Rb6"
+  ],
+  "rating": 1530,
+  "title": "The Sixth Rank Swing",
+  "setup": "White's g-pawn is ready to run and the black king on e1 is much too far away to have any say in it.",
+  "hint": "Your rook has to meet the pawn in front, and it has to arrive with tempo. Which rank does both?",
+  "explanation": "## The Idea\n\nOnly one rank does the job. {{Rb6}} keeps the pawn under fire, and when it runs — {{g7}} — the rook swings across with check: {{Rg6+}} {{Kh2}} {{Rxg7}}. From b8 the rook can only block without check; from b5 it arrives behind the pawn, which is no use at all."
+}

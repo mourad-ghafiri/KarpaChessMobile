@@ -1,0 +1,12 @@
+{
+  "id": "pin-02",
+  "fen": "8/k2r4/bp4p1/1r6/R1P4R/1P6/3P4/1K6 w - - 0 1",
+  "solution": [
+    "cxb5"
+  ],
+  "rating": 840,
+  "title": "El guardián, congelado",
+  "setup": "Tu torre de a4 mira columna a arriba al alfil negro, y al rey que está detrás.",
+  "hint": "La torre de b5 tiene exactamente un defensor. Antes de contar material, pregúntate si ese defensor puede moverse siquiera.",
+  "explanation": "## La idea\n\n{{cxb5}} gana una torre entera. El alfil de **a6** es la única pieza que defiende b5, y tu torre de **a4** lo clava contra el rey de **a7**. Apartarse dejaría al rey en jaque, así que la recaptura no es una jugada legal."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-03",
+  "fen": "k7/pp3rpp/8/8/2B5/8/PP4PP/4K3 w - - 0 1",
+  "solution": [
+    "Bxf7"
+  ],
+  "title": "Long-Range Larceny",
+  "setup": "Your bishop on c4 looks up its light diagonal and finds a black rook standing on it.",
+  "hint": "Follow the diagonal from c4: d5, e6... what's on the next square?",
+  "explanation": "## The Idea\n\nThe bishop's diagonal from c4 runs d5, e6, f7, and the black rook on f7 stands right in its path with **nobody guarding it**. The black king on a8 is far too distant to help.\n\n{{Bxf7}} travels the whole line in one move and takes the rook for free.\n\nBishops strike from across the board. Trace each diagonal to its end before you decide nothing is loose."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "skewer-11",
+  "fen": "8/2q3k1/p7/2p1P2p/PR1p1P2/3Q4/2B3rP/5K2 w - - 0 1",
+  "solution": [
+    "Qh7+",
+    "Kf8",
+    "Qxc7"
+  ],
+  "rating": 1270,
+  "title": "Le fou derrière",
+  "setup": "Votre dame en d3 se tient devant votre fou, et le roi et la dame noirs partagent la septième rangée.",
+  "hint": "Votre dame bloque son propre fou. Où peut-elle aller pour que ce soit justement son départ qui la mette en sécurité ?",
+  "explanation": "## L'idée\n\n{{Qh7+}} ressemble à un cadeau jusqu'à ce qu'on voie ce que fait le départ de d3 : le fou en **c2** couvre maintenant h7 le long de la diagonale b1–h7, donc le roi ne peut pas prendre. {{Kf8}} est forcé, et la septième rangée s'offre nue à {{Qxc7}}."
+}

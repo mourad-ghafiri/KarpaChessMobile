@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-09",
+  "fen": "6k1/5ppp/8/8/8/8/4R3/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "A Torre Desliza para o Mate",
+  "setup": "A tua torre e o teu rei contra três peões pretos, com o rei preto ainda sentado atrás deles em g8. Basta uma jogada.",
+  "hint": "O rei não pode sair da sua linha de fundo. Põe a tua torre nessa linha com xeque.",
+  "explanation": "## A Ideia\n\n{{Re8#}} é mate em uma. A torre deixa a segunda linha e dá xeque pela oitava: f8 e h8 estão na sua linha, f7, g7 e h7 têm os peões das pretas, e nenhuma peça preta pode capturar nem tapar.\n\nQuando o rei inimigo está sentado atrás de uma fila de peões intocados, procura primeiro um xeque de torre na linha de fundo."
+}

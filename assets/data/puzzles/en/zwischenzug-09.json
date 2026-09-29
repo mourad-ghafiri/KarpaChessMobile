@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-09",
+  "fen": "7k/r4ppp/7Q/2b3r1/3R2B1/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Bf8",
+    "Rxf8#"
+  ],
+  "rating": 1590,
+  "title": "The Rook Goes First",
+  "setup": "Black's rook is on a7, its bishop on c5 and another rook on g5 — its pieces are everywhere and yours are not.",
+  "hint": "Your queen looks like the piece to play. Try the other one and see who is forced to block.",
+  "explanation": "## The Idea\n\n{{Rd8+}} sends the rook, not the queen. {{Bf8}} is the only interposition, and {{Rxf8#}} is mate, since g7 and h7 hold Black's own pawns. Send the piece you can afford to lose and keep the queen."
+}

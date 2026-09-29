@@ -1,0 +1,14 @@
+{
+  "id": "skewer-07",
+  "fen": "8/8/3q1k2/4Rpp1/2rP4/6RQ/5r2/6K1 w - - 0 1",
+  "solution": [
+    "Qh6+",
+    "Kf7",
+    "Qxd6"
+  ],
+  "rating": 1140,
+  "title": "Échec depuis le bord",
+  "setup": "Le roi noir en f6 a sa dame à deux cases de lui en d6, sur la même rangée.",
+  "hint": "Le roi et la dame noirs partagent une rangée. Où votre dame peut-elle entrer sur cette rangée avec échec et rester en sécurité ?",
+  "explanation": "## L'idée\n\n{{Qh6+}} glisse sur la sixième rangée avec échec, et la dame noire en **d6** est coincée derrière son propre roi. Le pion en g5 ne peut pas atteindre h6, donc l'échec tient. {{Kf7}} est le seul pas légal, et {{Qxd6}} prend la dame."
+}

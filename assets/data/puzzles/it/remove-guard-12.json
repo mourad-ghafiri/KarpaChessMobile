@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-12",
+  "fen": "8/pP3pkp/3b2p1/8/8/8/5PKP/3R4 w - - 1 2",
+  "solution": [
+    "Rxd6"
+  ],
+  "rating": 1450,
+  "title": "Comprate la Donna",
+  "setup": "Il vostro pedone in b7 è a una casa dalla promozione, e l'alfiere in d6 è l'unico pezzo che sorveglia b8.",
+  "hint": "Su questa scacchiera non conta niente tranne la colonna b. Quale pezzo nero sta fermando quel pedone?",
+  "explanation": "## L'idea\n\n{{Rxd6}} è una torre per un alfiere, ed è un affare: quell'alfiere era l'unico pezzo che copriva b8. Niente può riprendere, quindi {{b8=Q}} arriva alla mossa successiva. Cambiate tutto il materiale che volete per un pedone che promuove."
+}

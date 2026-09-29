@@ -1,0 +1,13 @@
+{
+  "id": "openings-12",
+  "fen": "r3kbnr/pp1b1ppp/1qn1p3/3pP3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 2 8",
+  "solution": [
+    "Nxd4",
+    "Nxd4",
+    "Qxd4"
+  ],
+  "title": "La base tombe",
+  "setup": "Une française avance : les Blancs ont placé le fou en d3 et le cavalier en c3, et personne n'a compté le pion à la base de la chaîne.",
+  "hint": "Comptez les attaquants et les défenseurs du pion de base blanc. Le fou en d3 se tient devant l'un des défenseurs blancs.",
+  "explanation": "## L'idée\n\nLa base de la chaîne blanche est d4. Votre cavalier en c6 et votre dame en b6 l'attaquent, et seul le cavalier en f3 la défend : le fou en d3 barre la route de la dame blanche.\n\n{{Nxd4}} le prend, et après {{Nxd4}} {{Qxd4}} vous avez un pion net de plus. L'astuce habituelle, un échec du fou en b5 qui découvre la dame blanche, échoue ici car votre fou en d7 couvre b5 dès que le cavalier a quitté c6.\n\nComptez d'abord la base de la chaîne."
+}

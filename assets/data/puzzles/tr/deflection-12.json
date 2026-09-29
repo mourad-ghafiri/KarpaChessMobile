@@ -1,0 +1,14 @@
+{
+  "id": "deflection-12",
+  "fen": "2kr3r/pp3ppp/2n5/8/Q1B2B1q/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "rating": 1500,
+  "title": "Boden'in Filleri",
+  "setup": "İki fil vezir kanadını çaprazlama kesiyor ve a6–c8 çaprazını kapalı tutan tek şey b7 piyonu.",
+  "hint": "İki fil de o köşeyi çoktan gösteriyor. Yolda hangi piyon var ve onu nasıl oynatırsınız?",
+  "explanation": "## Fikir\n\nBu **Boden matı**dır. {{Qxc6+}} hamlesinin tek cevabı vardır, {{bxc6}}, ve b7 piyonu a6–c8 çaprazından çekilir. {{Ba6#}} gelir: öteki fil b8 ile c7'yi kapsar ve siyahın kendi kalesi d8'i kapatır."
+}

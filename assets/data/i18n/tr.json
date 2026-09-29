@@ -1,0 +1,649 @@
+{
+  "language": {
+    "name": "Türkçe"
+  },
+  "ui": {
+    "brand": {
+      "title": "KarpaChess"
+    },
+    "button": {
+      "flip": "Çevir",
+      "undo": "Geri al",
+      "hint": "İpucu",
+      "dismiss": "İptal",
+      "chooseFile": "Dosya seçin…",
+      "settings": "Ayarlar",
+      "close": "Kapat",
+      "back": "Geri",
+      "next": "İleri",
+      "save": "Kaydet"
+    },
+    "label": {
+      "difficulty": "Zorluk",
+      "playAs": "Oynadığınız renk",
+      "timeControl": "Süre kontrolü"
+    },
+    "placeholder": {
+      "pgnInput": "PGN veya hamle listesi yapıştırın (örn. e4 e5 Nf3 Nc6)…",
+      "drawText": "Yazın…"
+    },
+    "aria": {
+      "capturedByWhite": "Beyazın aldığı taşlar",
+      "capturedByBlack": "Siyahın aldığı taşlar",
+      "chessBoard": "Satranç tahtası",
+      "dismissHint": "İpucunu kapat"
+    },
+    "toast": {
+      "parseFail": "Okunamadı: {error}",
+      "fileTooLarge": "Bu dosya içe aktarılamayacak kadar büyük."
+    }
+  },
+  "game": {
+    "result": {
+      "stalemate": "Pat",
+      "draw": "Beraberlik",
+      "timeout": "Süre bitti"
+    },
+    "resultSub": {
+      "whiteWins": "Beyaz kazanır",
+      "blackWins": "Siyah kazanır",
+      "stalemate": "Patla beraberlik",
+      "fiftyMove": "50 hamle kuralı",
+      "insufficient": "Yetersiz materyal",
+      "repetition": "Üç kez tekrar",
+      "whiteWinsTime": "Beyaz süreden kazanır",
+      "blackWinsTime": "Siyah süreden kazanır"
+    },
+    "side": {
+      "white": "Beyaz",
+      "black": "Siyah"
+    },
+    "playerDefault": {
+      "bottom": "Siz"
+    },
+    "playAsOption": {
+      "white": "Beyaz",
+      "random": "Rastgele",
+      "black": "Siyah"
+    },
+    "timeControl": {
+      "unlimited": "Sınırsız"
+    },
+    "difficulty": {
+      "1": "Başlangıç",
+      "2": "Rahat",
+      "3": "Kulüp",
+      "4": "Tam güç"
+    }
+  },
+  "chess": {
+    "piece": {
+      "p": "piyon",
+      "n": "at",
+      "b": "fil",
+      "r": "kale",
+      "q": "vezir",
+      "k": "şah"
+    },
+    "pieceCapital": {
+      "p": "Piyon",
+      "n": "At",
+      "b": "Fil",
+      "r": "Kale",
+      "q": "Vezir",
+      "k": "Şah"
+    },
+    "direction": {
+      "kingside": "şah kanadına",
+      "queenside": "vezir kanadına"
+    }
+  },
+  "hint": {
+    "checkmate": "<b>Mat</b> eder. Bitirin!",
+    "castle": "{dir} rok yapar — şahı piyon duvarının arkasına saklar.",
+    "promote": "Son yataya ilerler ve <b>{piece}</b> olarak terfi eder.",
+    "capture": "<b>{piece}</b> taşınız <b>{target}</b> taşını alır.",
+    "develop": "<b>{piece}</b> taşınızı <b>{square}</b> karesine geliştirir; etkinliği artırır ve merkeze bakar.",
+    "pawn": "<b>Piyonunuzu</b> <b>{square}</b> karesine sürer ve alan kazanır.",
+    "rook": "<b>Kalenizi</b> <b>{square}</b> karesinde etkinleştirir — açık dikeyler kaleleri sever.",
+    "queen": "<b>Veziri</b> bir amaçla <b>{square}</b> karesine getirir.",
+    "quiet": "<b>{piece}</b> taşınızı <b>{square}</b> karesine taşıyarak durumunu iyileştirir.",
+    "checkSuffix": " Ayrıca <b>şah</b> çeker."
+  },
+  "coach": {
+    "whisper": {
+      "tip5": "Korumasız taşları arayın — sizinkileri de rakibinkileri de."
+    },
+    "builtin": {
+      "bestMove": {
+        "recommendation": "Önerim: <b>{move}</b>.",
+        "noEngine": "Motor yanıt vermedi. İşte pozisyonun kendisinin gösterdikleri.",
+        "whyHeader": "<b>Burada bu neden mantıklı:</b>",
+        "castle": "• Şah hâlâ merkezde — rok en öncelikli iş.",
+        "develop": {
+          "one": "• Hafif bir taş hâlâ {squares} üzerinde — onu geliştirin.",
+          "other": "• Hafif taşlar hâlâ {squares} üzerinde — onları geliştirin."
+        },
+        "center": "• Ortadaki dört karede piyonunuz yok — merkeze piyon sürmek değerli.",
+        "loose": {
+          "one": "• Rakibin <b>korumasız bir taşı</b> var: {list}. Onu kazanmanın bir yolunu arayın.",
+          "other": "• Rakibin <b>korumasız taşları</b> var: {list}. Onları kazanmanın yollarını arayın."
+        },
+        "oppKing": "• Rakibin şahı <b>{score}</b> — saldırı hamleleri çoğu zaman işe yarar.",
+        "ownKing": "• Şahınız ateş altında — önce savunmayı düşünün.",
+        "passedEnd": {
+          "one": "• {squares} üzerinde <b>geçer piyonunuz</b> var — onu sürün!",
+          "other": "• {squares} üzerinde <b>geçer piyonlarınız</b> var — onları sürün!"
+        },
+        "activeKing": "• Şahınızı etkinleştirin — oyun sonunda o da savaşan bir taştır.",
+        "ahead": {
+          "one": "• {n} puan öndesiniz — taş değişin, piyonları tutun.",
+          "other": "• {n} puan öndesiniz — taş değişin, piyonları tutun."
+        },
+        "behind": {
+          "one": "• {n} puan geridesiniz — pozisyonu karıştırın.",
+          "other": "• {n} puan geridesiniz — pozisyonu karıştırın."
+        },
+        "evalSuffix": "_Değerlendirme: {eval}_"
+      },
+      "tactics": {
+        "header": "<b>{side} için taktik taraması</b>",
+        "loose": {
+          "one": "Rakibin {n} korumasız taşı var: {list}.",
+          "other": "Rakibin {n} korumasız taşı var: {list}."
+        },
+        "defended": "Rakibin taşları korunuyor gibi. Daha zor taktikler — açmaz, cezbetme veya hat açma hamlelerine bakın.",
+        "exposedKing": "Rakibin şahı <b>{score}</b> ({notes}) — mat desenleri pusuda olabilir.",
+        "openLines": "açık hatlar",
+        "queenTarget": "Rakibin veziri <b>{square}</b> karesinde — ona ucuza saldırıp tempo kazanabilir misiniz?",
+        "engineSuggests": "Motor <b>{move}</b> öneriyor — bu hamle yukarıdaki desenlerden birine uyuyor mu?",
+        "footer": "_Gözünüzü her hamlede şu üçünü görmeye alıştırın: korumasız taşlar, açıkta kalan şahlar, aşırı yüklenmiş koruyucular._"
+      },
+      "plan": {
+        "header": "<b>{side} için plan</b> _({phase})_",
+        "developMinors": {
+          "one": "Kalan hafif taşı geliştirin: {squares}.",
+          "other": "Kalan hafif taşları geliştirin: {squares}."
+        },
+        "castle": "Rok yapın — önce şahın güvenliği.",
+        "queenEarly": "Dikkat — bütün hafif taşlar gelişmeden vezir oynadı. Onun kovalanmasına izin vermeyin.",
+        "centerPawn": "Ortadaki dört kareden birine piyon koyun (d4/e4/d5/e5).",
+        "kingDanger": "Şahınız tehlikede — saldırmadan önce savunmayı düzeltin.",
+        "oppositeWings": "İki şah da rok yaptı — zıt kanatlardaysanız rakip şaha piyonlarınızla saldırın.",
+        "pushPassed": {
+          "one": "{squares} üzerindeki geçer piyonunuzu sürün.",
+          "other": "{squares} üzerindeki geçer piyonlarınızı sürün."
+        },
+        "isolated": {
+          "one": "{squares} üzerindeki izole piyonunuza dikkat edin — etkinlik zayıflığı telafi eder.",
+          "other": "{squares} üzerindeki izole piyonlarınıza dikkat edin — etkinlik zayıflığı telafi eder."
+        },
+        "improveWorst": "En kötü taşınızı iyileştirin. Her hamle taşlarınızdan birini daha iyi duruma getirmeli.",
+        "racePassed": {
+          "one": "{squares} üzerindeki geçer piyonunuzu terfiye koşturun.",
+          "other": "{squares} üzerindeki geçer piyonlarınızı terfiye koşturun."
+        },
+        "activateKing": "Şahınızı etkinleştirin — onu olayın içine yürütün.",
+        "aheadTrade": {
+          "one": "{n} puan öndesiniz — kazanan bir oyun sonuna sadeleşmek için piyon değil taş değişin.",
+          "other": "{n} puan öndesiniz — kazanan bir oyun sonuna sadeleşmek için piyon değil taş değişin."
+        },
+        "behindKeep": {
+          "one": "{n} puan geridesiniz — taşları tahtada tutun, karşı oyun yaratın, değişimlerden kaçının.",
+          "other": "{n} puan geridesiniz — taşları tahtada tutun, karşı oyun yaratın, değişimlerden kaçının."
+        },
+        "fewPawns": "Az piyon kaldı — opozisyonu, zugzwangı ve anahtar kareleri düşünün."
+      },
+      "lastMove": {
+        "none": "Henüz hamle oynanmadı — merkez piyonuyla (e4 ya da d4) veya bir at hamlesiyle (Nf3) başlayın.",
+        "capture": "taş aldı",
+        "check": "şah çekti",
+        "checkmate": "mat etti",
+        "castleKingside": "şah kanadına rok yaptı",
+        "castleQueenside": "vezir kanadına rok yaptı",
+        "promote": "bir piyonu terfi ettirdi",
+        "line": "<b>{san}</b> — {anns}.",
+        "quiet": "<b>{san}</b> — sessiz bir pozisyonel hamle.",
+        "evalLine": "Şimdiki değerlendirme: {eval}. ",
+        "topChoice": "Motorun bundan sonrası için ilk tercihi: <b>{move}</b>."
+      },
+      "evaluation": {
+        "header": "<b>Pozisyon değerlendirmesi</b> _({phase}, sıra {side} tarafında)_",
+        "material": "• <b>Taş dengesi:</b> beyaz {w} — siyah {b}{diff}",
+        "equalSuffix": " (eşit)",
+        "diffSuffix": " — {side} +{n} önde",
+        "engine": "• <b>Motor:</b> {eval}",
+        "whiteKing": "• <b>Beyazın şahı:</b> {score}{notes}",
+        "blackKing": "• <b>Siyahın şahı:</b> {score}{notes}",
+        "notesFmt": " ({notes})",
+        "pawnWeaknessesWhite": "• <b>Beyazın piyon sorunları:</b> {list}",
+        "pawnWeaknessesBlack": "• <b>Siyahın piyon sorunları:</b> {list}",
+        "isolatedPrefix": "{sq} izole",
+        "doubledPrefix": "{file} dikeyinde ikili",
+        "passedWhite": {
+          "one": "• <b>Beyazın geçer piyonu:</b> {squares}",
+          "other": "• <b>Beyazın geçer piyonları:</b> {squares}"
+        },
+        "passedBlack": {
+          "one": "• <b>Siyahın geçer piyonu:</b> {squares}",
+          "other": "• <b>Siyahın geçer piyonları:</b> {squares}"
+        },
+        "topMove": "• <b>Motorun ilk hamlesi:</b> <b>{move}</b>"
+      },
+      "kingSafety": {
+        "header": "<b>Şahın Güvenliği</b>",
+        "line": "• <b>{side} şahı</b> ({who}): {score}{castled}. {notes}",
+        "you": "siz",
+        "opponent": "rakip",
+        "castledSuffix": " — rok yapmış",
+        "noConcerns": "Şimdilik endişe yok.",
+        "footer": "Şahınız açıktaysa: önce savunun. Rakibinki açıktaysa: şahlara, kale kaldırmaya ve veziri içeri sızdırmaya bakın."
+      },
+      "phase": {
+        "opening": "açılış",
+        "middlegame": "orta oyun",
+        "endgame": "oyun sonu"
+      },
+      "kingScore": {
+        "safe": "güvende",
+        "exposed": "açıkta",
+        "danger": "tehlikede",
+        "shelter": "korunaklı",
+        "waiting": "bekliyor",
+        "active": "etkin",
+        "unknown": "belirsiz"
+      },
+      "kingNote": {
+        "tuckedCorner": "hâlâ köşeye sinmiş — onu merkeze getirin",
+        "startingSquare": "şah başlangıç karesinde — onu dışarı yürütün",
+        "activeOn": "{square} karesinde etkin şah",
+        "wanderingOn": "{square} karesinde başıboş dolaşan şah",
+        "centerAfter8": "8. hamleden sonra şah hâlâ merkezde",
+        "thinShield": "ince piyon örtüsü ({count}/3)",
+        "enemyHeavy": "şahın dikeyinde rakip ağır taş",
+        "fullShield": "tam piyon kalkanıyla rok yapılmış"
+      },
+      "eval": {
+        "unclear": "belirsiz",
+        "balanced": "dengeli ({pawns})",
+        "better": "{sign}{pawns} — <b>{side}</b> daha iyi"
+      },
+      "topLines": {
+        "header": "<b>Motorun en iyi adayları</b>",
+        "item": "{rank}. {san} — {eval}"
+      },
+      "threatLine": "<b>Dikkat:</b> sıra {side} tarafında olsaydı tehdit {san} olurdu ({eval}).",
+      "pieceOn": "{square} karesindeki {piece}"
+    },
+    "ask": {
+      "bestMove": "En iyi hamle",
+      "tactics": "Taktikler",
+      "plan": "Planlar",
+      "lastMove": "Bu hamle",
+      "evaluation": "Değerlendirme",
+      "kingSafety": "Şahın güvenliği"
+    },
+    "askAnother": "Başka bir soru"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "boardTheme": "Tahta teması",
+    "toggle": {
+      "coords": "Koordinatları göster",
+      "legal": "Kurallı hamleleri belirt",
+      "last": "Son hamleyi belirt",
+      "sound": "Ses",
+      "animations": "Animasyonlar"
+    },
+    "language": "Dil",
+    "dangerZone": "Tehlikeli alan",
+    "resetBtn": "İlerlemeyi ve ayarları sıfırla",
+    "resetConfirm": "Bütün ilerleme ve ayarlar sıfırlansın mı?",
+    "about": "Hakkında",
+    "version": "Sürüm {version}",
+    "licenses": "Açık kaynak lisansları",
+    "privacy": "Gizlilik politikası",
+    "privacyBody": "KarpaChess hiçbir kişisel veri toplamaz. Hesap, reklam, analiz ve izleme yoktur; uygulama internete hiç bağlanmaz. İlerlemeniz, ayarlarınız, partileriniz ve fotoğraflarınız yalnızca cihazınızda ve kullanıyorsanız cihazınızın kendi yedeklerinde saklanır; bize ya da başka birine asla gönderilmez. Ayarlardan ilerlemenizi, ayarlarınızı ve oyuncu fotoğrafınızı silebilirsiniz; uygulamayı silmek kaydettiği her şeyi kaldırır. Politikanın tamamı şu adreste: {url}",
+    "sourceNotice": "KarpaChess, GNU GPL v3 lisanslı özgür bir yazılımdır. Kaynak kodunun tamamı şu adreste: {url}"
+  },
+  "commentator": {
+    "importLede": "Bir PGN kopyalayın, burada görünsün; ya da aşağıdan bir dosya açın.",
+    "sampleGames": "Çalışma partileri",
+    "searchGames": "Oyuncu, turnuva veya ECO arayın",
+    "allGames": "Tümü",
+    "myGames": "Partilerim",
+    "noGames": "Bu aramaya uyan parti yok.",
+    "moveCount": {
+      "one": "{n} hamle",
+      "other": "{n} hamle"
+    },
+    "import": "İçe aktar",
+    "importTitle": "Bir parti içe aktarın",
+    "importTileBlurb": "Bir PGN yapıştırın ya da .pgn dosyası açın — kitaplığınızda kalır.",
+    "importFound": "Panonuzda bunu bulduk. İçe aktarılsın mı?",
+    "pasteInstead": "Başka bir şey yapıştır",
+    "importName": "Ad",
+    "importNameHelp": "İsteğe bağlı — başlıksız bir hamle listesinin bulunabilmesi için ad gerekir.",
+    "remove": "Kaldır",
+    "removeGame": "Bu parti kaldırılsın mı?",
+    "removeGameBody": "Kitaplığınızdan çıkar. Uygulamayla gelen partiler etkilenmez.",
+    "close": "Bu partiyi kapat ve içe aktarmaya dön",
+    "confirmClose": "Bu parti kapatılıp içe aktarma ekranına dönülsün mü?",
+    "moves": "Hamleler",
+    "badgesShow": "Motor simgelerini tahtada göster",
+    "badgesHide": "Motor simgelerini tahtada gizle",
+    "firstMove": "İlk hamle (Home)",
+    "prevMove": "Önceki (←)",
+    "nextMove": "Sonraki (→)",
+    "lastMove": "Son (End)",
+    "mainLine": "Ana varyanta dön (↑)",
+    "untitled": "Adsız",
+    "drawTools": {
+      "select": "Seç",
+      "arrow": "Ok",
+      "box": "Dikdörtgen",
+      "circle": "Kare",
+      "pen": "Kalem",
+      "text": "Metin",
+      "deleteSelected": "Seçileni sil (Del)",
+      "clearAll": "Bu hamledeki tüm şekilleri temizle",
+      "undo": "Geri al",
+      "redo": "Yinele",
+      "editText": "Metni düzenle"
+    },
+    "result": {
+      "title": "Parti özeti",
+      "checkmate": "Mat · {winner} kazanır",
+      "stalemate": "Pat · beraberlik",
+      "drawnGame": "Berabere biten parti",
+      "whiteWins": "Beyaz kazanır",
+      "blackWins": "Siyah kazanır",
+      "white": "Beyaz",
+      "black": "Siyah",
+      "accuracy": "İsabet",
+      "analyzing": "İsabet hesaplanıyor…"
+    }
+  },
+  "review": {
+    "title": "Parti İncelemesi",
+    "analyzing": "İnceleniyor…",
+    "progress": "{total} hamlenin {i}. hamlesi inceleniyor…",
+    "tally": {
+      "best": "En iyi",
+      "ok": "İyi",
+      "inaccurate": "Yanlışlık",
+      "mistake": "Hata",
+      "blunder": "Vahim hata"
+    },
+    "verdict": {
+      "brilliant": "Muhteşem!",
+      "best": "En iyi hamle",
+      "good": "İyi hamle",
+      "inaccuracy": "Yanlışlık",
+      "mistake": "Hata",
+      "blunder": "Vahim hata"
+    },
+    "betterWas": "Motor {san} hamlesini tercih etti.",
+    "takeaway": {
+      "great": "Tam isabet — motorun kendi seçimi bu.",
+      "good": "Sağlam: pozisyon yolunda gidiyor.",
+      "slip": "Burada üstünlüğün bir kısmı kaçıyor — {best} daha isabetliydi.",
+      "bad": "Dönüm noktası. Bulunması gereken hamle {best} idi."
+    }
+  },
+  "gamify": {
+    "level": "{n}. seviye",
+    "dayStreak": "{n} günlük seri",
+    "earned": "+{n} XP",
+    "levelUp": "Seviye atladınız!",
+    "dailyGoal": "Günlük hedef"
+  },
+  "play": {
+    "nav": "Oyna",
+    "title": "Stockfish'e karşı",
+    "rematch": "Rövanş",
+    "review": "İncele",
+    "youWon": "Kazandınız!",
+    "youLost": "Güzel mücadeleydi",
+    "strengthHint": {
+      "1": "Yeni öğreniyor",
+      "2": "Rahat bir kulüp akşamı",
+      "3": "Ciddi kulüp oyuncusu",
+      "4": "Motorun tam gücü"
+    },
+    "editProfile": "Profiliniz",
+    "yourName": "Adınız",
+    "choosePicture": "Fotoğraf seçin",
+    "removePicture": "Fotoğrafı kaldır",
+    "exitMatch": "Partiden çık",
+    "exitConfirm": "Bu parti bırakılıp kurulum ekranına dönülsün mü?"
+  },
+  "studio": {
+    "nav": "Stüdyo"
+  },
+  "nbSettings": {
+    "appearance": "Görünüm",
+    "themeName": {
+      "tournament": "Turnuva",
+      "slate": "Arduvaz",
+      "walnut": "Ceviz",
+      "sheesham": "Gül Ağacı",
+      "sage": "Adaçayı"
+    },
+    "pieceSet": "Taşlar",
+    "pieceSetName": {
+      "classic": "Klasik",
+      "wood": "Ahşap",
+      "marble": "Mermer",
+      "diagram": "Diyagram",
+      "modern": "Modern",
+      "deco": "Art Deco",
+      "facet": "Faset",
+      "silhouette": "Siluet",
+      "soft": "Yumuşak",
+      "bold": "Kalın"
+    },
+    "appTheme": "Uygulama teması",
+    "appThemeName": {
+      "midnightGrove": "Gece Korusu",
+      "emberStudy": "Kor Çalışması",
+      "slateFocus": "Arduvaz Odak",
+      "indigoHour": "Çivit Saati",
+      "bronzeAge": "Tunç Çağı",
+      "jadeTerrace": "Yeşim Teras",
+      "plumVelvet": "Erik Kadifesi",
+      "ivoryHall": "Fildişi Salon",
+      "linenMorning": "Keten Sabah",
+      "harborLight": "Liman Işığı"
+    },
+    "soundFeel": "Ses ve dokunuş",
+    "soundPack": {
+      "wood": "Ahşap",
+      "plastic": "Plastik",
+      "soft": "Yumuşak"
+    },
+    "haptics": "Titreşimli geri bildirim",
+    "font": "Yazı tipi",
+    "fontName": {
+      "classic": "Klasik",
+      "modern": "Modern",
+      "technical": "Teknik"
+    }
+  },
+  "draw": {
+    "mode": "Çizim modu",
+    "paused": "Parti duraklatıldı"
+  },
+  "replay": {
+    "autoplay": "Otomatik oynat",
+    "position": "{i} / {total}"
+  },
+  "academy": {
+    "seeIt": "Görün",
+    "playIt": "Oynayın",
+    "ownIt": "Sahiplenin",
+    "yourMove": "Sıra sizde",
+    "youPlay": "{side} oynuyorsunuz",
+    "nav": "Öğren",
+    "title": "Ustanın Yolu",
+    "patternOwned": "Desen sizin oldu!",
+    "sharpen": "Bileyin",
+    "sharpenDull": {
+      "one": "{n} desen körelmeye başladı",
+      "other": "{n} desen körelmeye başladı"
+    },
+    "sharpenAllSharp": "Bütün desenler keskin",
+    "findTheMove": "Hamleyi bulun",
+    "patternBook": "Desen Defteri",
+    "ownedCount": "{n} / {total} sizin",
+    "continueBtn": "Devam et",
+    "art": {
+      "basics": "Temeller",
+      "history": "Satrancın Hikâyesi",
+      "tactics": "Keskin Kılıç",
+      "openings": "İlk Hamleler",
+      "endgames": "Son Perde",
+      "strategy": "Plan",
+      "attack": "Av",
+      "culture": "Satranç Dünyası"
+    },
+    "rank": {
+      "novice": "Acemi",
+      "apprentice": "Çırak",
+      "clubPlayer": "Kulüp Oyuncusu",
+      "tactician": "Taktikçi",
+      "strategist": "Stratejist",
+      "candidateMaster": "Aday Usta",
+      "master": "Desenlerin Ustası",
+      "grandmaster": "Desenlerin Büyükustası"
+    },
+    "starBronze": "Bronz",
+    "starSilver": "Gümüş",
+    "starGold": "Altın",
+    "showAnswer": "Fikir bu — siz deneyin",
+    "finishLesson": "Dersi bitir",
+    "continueLesson": "Devam et · {title}",
+    "addedToBook": "Desen Defterinize eklendi 📖",
+    "bookIntro": "Sahiplendiğiniz her desen burada yaşar. Yıldızlar siz biledikçe büyür. Solmuş tahtalar körelmek üzeredir — elinizden kaçmadan bileyin.",
+    "starNone": "Henüz bilenmedi",
+    "due": "Bileme zamanı geldi",
+    "sharp": "Keskin",
+    "reviewNow": "Bu deseni bileyin",
+    "replayLesson": "Dersi yeniden oyna",
+    "upNext": "Sırada",
+    "gotIt": "Anladım",
+    "confirmClose": "Bu dersten çıkılsın mı? XP'niz ve kaldığınız yer korunur — istediğinizde devam edebilirsiniz.",
+    "resume": "Devam et",
+    "restartLesson": "Dersi baştan al",
+    "confirmRestart": "Bu ders baştan başlasın mı? Kazandığınız XP kalır.",
+    "bookEmpty": "İlk deseninizi sahiplenin, burada görünsün."
+  },
+  "puzzles": {
+    "nav": "Problemler",
+    "title": "Problemler",
+    "rating": "Puan",
+    "rated": "Puanlı",
+    "keepGoing": "Devam edin",
+    "keepGoingBlurb": "Puanınıza göre seçilmiş problemler.",
+    "daily": "Günün problemi",
+    "dailyBlurb": "Tek problem, gün boyu aynı.",
+    "packs": "Setler",
+    "findTheMove": "En iyi hamleyi bulun.",
+    "solved": "Çözüldü",
+    "runComplete": "Burada başka kalmadı",
+    "runSolved": "Bu turda {n} çözüm",
+    "noneLeft": "Uygun problem yok.",
+    "pack": {
+      "mate-in-one": {
+        "name": "Tek Hamlede Mat",
+        "blurb": "Tek hamle, tek mat."
+      },
+      "fork": {
+        "name": "Çatallar",
+        "blurb": "Aynı anda iki hedefe saldırın."
+      },
+      "back-rank-mate": {
+        "name": "Arka Yatay",
+        "blurb": "Kendi piyonlarının arkasında kapana kısılan şah."
+      },
+      "pin": {
+        "name": "Açmazlar",
+        "blurb": "Kımıldamaya cesaret edemeyen taş."
+      },
+      "skewer": {
+        "name": "Şişler",
+        "blurb": "Öndeki değerli taşı vurun."
+      },
+      "mate-in-two": {
+        "name": "İki Hamlede Mat",
+        "blurb": "İki hamlede zorlayın."
+      },
+      "discovery": {
+        "name": "Açılan Saldırılar",
+        "blurb": "Bir taşı oynayın, arkadakini serbest bırakın."
+      },
+      "trapped": {
+        "name": "Kapana Kısılan Taşlar",
+        "blurb": "Son güvenli kareyi de elinden alın."
+      },
+      "promotion": {
+        "name": "Terfi",
+        "blurb": "Piyonu eve ulaştırın."
+      },
+      "remove-guard": {
+        "name": "Koruyanı Uzaklaştırma",
+        "blurb": "Her şeyi bir arada tutan taşı ortadan kaldırın."
+      },
+      "deflection": {
+        "name": "Saptırma",
+        "blurb": "Koruyan taşı görevinden koparın."
+      },
+      "decoy": {
+        "name": "Cezbetme",
+        "blurb": "Bir taşı ölümcül kareye çekin."
+      },
+      "smothered": {
+        "name": "Boğmaca Matı",
+        "blurb": "Kendi ordusunun elinde mat."
+      },
+      "pawn-ending": {
+        "name": "Piyon Sonları",
+        "blurb": "Opozisyon, yarmalar, kare kuralı."
+      },
+      "rook-ending": {
+        "name": "Kale Sonları",
+        "blurb": "En çok karşınıza çıkacak oyun sonu."
+      },
+      "overload": {
+        "name": "Aşırı Yüklenme",
+        "blurb": "Tek koruyan taş, iki görev."
+      },
+      "zwischenzug": {
+        "name": "Ara Hamleler",
+        "blurb": "Geri almadan önce araya bir tehdit sıkıştırın."
+      },
+      "king-hunt": {
+        "name": "Şah Avı",
+        "blurb": "Şahı açığa sürün."
+      },
+      "zugzwang": {
+        "name": "Zugzwang",
+        "blurb": "Her hamle durumu daha da kötüleştirir."
+      },
+      "defence": {
+        "name": "Savunma",
+        "blurb": "Mat olan taraf sizsiniz. Önce siz mat edin."
+      }
+    },
+    "confirmClose": "Bu problem turu bitirilsin mi?",
+    "practice": "Alıştırma",
+    "playAgain": "Yeniden oyna",
+    "replay": "Tekrar dene",
+    "showSolution": "Çözümü göster",
+    "failed": "Bulunamadı",
+    "flawless": "Kusursuz",
+    "continuePack": "Devam et",
+    "puzzleN": "{n}. problem",
+    "bestImproved": "Yeni rekor! +{xp} XP"
+  }
+}

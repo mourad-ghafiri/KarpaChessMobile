@@ -1,0 +1,14 @@
+{
+  "id": "deflection-09",
+  "fen": "4r1k1/pp1q2pp/6pQ/8/8/8/1B4PP/4RRK1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxg7#"
+  ],
+  "rating": 1410,
+  "title": "Off the Seventh Rank",
+  "setup": "Queen and bishop already aim at g7, and only the queen on d7 defends it along the rank.",
+  "hint": "Count the attackers and the defenders of g7, then find the check that reduces the defenders by one.",
+  "explanation": "## The Idea\n\n{{Rxe8+}} is check, and {{Qxe8}} is Black's only reply — which takes the queen off the seventh rank. {{Qxg7#}} follows, held in place by the bishop on b2. The rook is spent to leave one attacker more than there are defenders."
+}

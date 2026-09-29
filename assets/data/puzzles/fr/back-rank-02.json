@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-02",
+  "fen": "5rk1/5ppp/8/8/8/8/4RPPP/4Q1K1 w - - 0 1",
+  "solution": [
+    "Re8",
+    "Rxe8",
+    "Qxe8#"
+  ],
+  "title": "Éliminez le défenseur",
+  "setup": "La tour en f8 est la seule pièce qui empêche vos pièces lourdes d'entrer sur la dernière rangée.",
+  "hint": "Votre tour et votre dame regardent toutes deux la colonne ouverte. Que se passe-t-il si l'unique gardienne est forcée de s'échanger ?",
+  "explanation": "## L'idée\n\nLe roi noir ne survit que parce que la tour en f8 couvre la huitième rangée. {{Re8}} offre votre tour sur la seule case que cette gardienne doit surveiller.\n\nSi {{Rxe8}}, alors {{Qxe8#}} : la gardienne a disparu, et les pions en f7, g7 et h7 bouchent toutes les cases de fuite. Les Noirs font mieux de refuser par un coup de pion qui donne de l'air au roi, mais cela ne fait qu'échanger les tours après {{Rxf8+}} {{Kxf8}}, et votre dame reste sur l'échiquier face à rien."
+}

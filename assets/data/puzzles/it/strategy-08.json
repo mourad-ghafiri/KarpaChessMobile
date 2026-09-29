@@ -1,0 +1,11 @@
+{
+  "id": "strategy-08",
+  "fen": "r1bqk2r/2p1bppp/p2p1n2/np2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w k - 1 9",
+  "solution": [
+    "Bc2"
+  ],
+  "title": "Non Vendete la Coppia",
+  "setup": "Il cavallo nero è saltato in a5 per cambiarsi con il vostro alfiere campochiaro. Tenetevi la coppia degli alfieri.",
+  "hint": "Il cavallo in a5 ha posto una domanda. Valutate il vostro alfiere per quanto varrà fra sei mosse, non per questa.",
+  "explanation": "## L'idea\n\nDue alfieri coprono ogni casa della scacchiera; uno ne copre metà. I giocatori forti valutano la coppia attorno a mezzo pedone e spendono mosse vere per tenersela.\n\n{{Bc2}} si toglie dalla portata e tiene tutti e due gli alfieri. Le altre ritirate falliscono: c4 è ancora nel raggio del cavallo, e a4 resta in presa al pedone b. Il Nero prosegue con {{c5}}, e il Bianco apre il centro con {{d4}}.\n\nStare fermi invita {{Nxb3}}, che consegna al Nero la coppia, doppia i pedoni b del Bianco e apre la colonna a in una mossa sola."
+}

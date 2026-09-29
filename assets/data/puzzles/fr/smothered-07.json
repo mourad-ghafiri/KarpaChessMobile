@@ -1,0 +1,14 @@
+{
+  "id": "smothered-07",
+  "fen": "r4r1k/pp4pp/7N/3Q4/8/8/P4PPP/6K1 w - - 6 31",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1345,
+  "title": "Déviez le gardien",
+  "setup": "Les Noirs viennent de ramener une tour en f8 pour tenir f7, et le cavalier en h6 est en prise.",
+  "hint": "La tour en f8 est la seule chose qui protège f7 — où pourriez-vous l'obliger à se tenir plutôt ?",
+  "explanation": "## L'idée\n\nLe cavalier couvre déjà g8, donc on ne peut pas répondre à {{Qg8+}} avec le roi, et {{Rxg8}} est la seule réponse légale. La tour qui protégeait f7 bouche maintenant la dernière sortie du roi, et {{Nf7#}} conclut. Le sacrifice dévie et étouffe en un seul coup."
+}

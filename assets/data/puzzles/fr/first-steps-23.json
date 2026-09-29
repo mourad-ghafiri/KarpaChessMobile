@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-23",
+  "fen": "7k/1n4p1/8/8/8/5n2/B4P1P/7K w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "title": "D'une pierre deux coups",
+  "setup": "Deux cavaliers noirs se sont égarés sur des cases blanches, et votre fou en a2 voit un carrefour qu'ils partagent.",
+  "hint": "Un fou attaque le long de quatre rayons à la fois. Trouvez la case où deux rayons aboutissent chacun à un cavalier.",
+  "explanation": "## L'idée\n\nUn fou tire le long de quatre rayons depuis sa case, alors cherchez la case où deux d'entre eux trouvent une cible.\n\nDepuis {{Bd5}}, un rayon passe par c6 jusqu'au cavalier en b7 et un autre passe par e4 jusqu'au cavalier en f3. Aucun cavalier ne peut atteindre d5, et aucun ne peut protéger l'autre, donc l'un d'eux tombe au coup suivant.\n\nVoyez le fou comme un X, pas comme une ligne."
+}

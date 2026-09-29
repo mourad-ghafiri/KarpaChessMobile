@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-01",
+  "fen": "7k/7p/5qp1/8/8/8/5PPP/B5K1 w - - 0 1",
+  "solution": [
+    "Bxf6+"
+  ],
+  "title": "Terpaku di Diagonal",
+  "setup": "Gajah Anda dan raja hitam berbagi diagonal panjang, dan menteri hitam berdiri di antara keduanya.",
+  "hint": "Menteri tak bisa melangkah keluar dari diagonal itu tanpa membuka rajanya, dan tak ada yang melindunginya di tempat ia berdiri.",
+  "explanation": "## Ide\n\nMenteri di f6 terjepit terhadap raja di h8: ia boleh meluncur naik turun di diagonal panjang, tetapi tak bisa meninggalkannya, dan tak ada yang melindunginya.\n\nJadi ambillah. {{Bxf6+}} memenangkan menteri dengan cuma-cuma, dan {{Kg8}} satu-satunya balasan Hitam.\n\nMelangkah lebih dulu itulah intinya: pada giliran Hitam, {{Qxa1}} akan menjadi mat. Buah yang terjepit bukanlah buah yang terlindungi — ia buah yang tak bisa lari."
+}

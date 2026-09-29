@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-23",
+  "fen": "7k/1n4p1/8/8/8/5n2/B4P1P/7K w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "title": "Dos pájaros de un tiro",
+  "setup": "Dos caballos negros se han metido en casillas blancas, y tu alfil de a2 ve un cruce que los dos comparten.",
+  "hint": "Un alfil ataca por cuatro rayos a la vez. Encuentra la casilla donde dos rayos terminan cada uno en un caballo.",
+  "explanation": "## La idea\n\nUn alfil dispara por cuatro rayos desde donde esté, así que busca la casilla donde dos de ellos encuentren un blanco.\n\nDesde {{Bd5}}, un rayo pasa por c6 hasta el caballo de b7 y otro por e4 hasta el caballo de f3. Ningún caballo llega a d5, y ninguno puede proteger al otro, así que uno de ellos cae en la jugada siguiente.\n\nPiensa en el alfil como una X, no como una línea."
+}

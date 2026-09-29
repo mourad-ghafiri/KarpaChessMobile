@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-12",
+  "fen": "3K2k1/1B6/8/6pR/8/8/5p1R/8 w - - 0 1",
+  "solution": [
+    "Ke7",
+    "f1=Q",
+    "Rxg5#"
+  ],
+  "rating": 1800,
+  "title": "Raja Anda Berkata Lewat",
+  "setup": "Raja Hitam di g8, satu pion di f2 hampir berpromosi dan satu lagi di g5; kedua benteng Anda berada di sayap raja.",
+  "hint": "Setiap langkah buah yang bisa Anda temukan merusak sesuatu. Masih ada satu buah yang bisa bergerak tanpa ongkos.",
+  "explanation": "## Ide\n\n{{Ke7}} menguasai f8 dan menyerahkan giliran kepada Hitam. {{f1=Q}} adalah percobaan terbaik di antara enam langkah Hitam dan ia muncul di sisi papan yang salah; {{Rxg5#}} memberi mat. Langkah menunggu yang paling sulit adalah yang dilakukan oleh raja."
+}

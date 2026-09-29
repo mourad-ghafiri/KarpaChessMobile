@@ -1,0 +1,65 @@
+{
+  "id": "opposition",
+  "title": "L'opposition",
+  "summary": "Deux rois, un temps, et celui qui doit céder",
+  "proof": "endgame-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "Les rois ne se touchent pas",
+      "text": "Aucun roi n'a jamais le droit de se placer à côté d'un autre roi, ce qui veut dire qu'ils ne peuvent jamais échanger de coups. Ils ne peuvent que se gêner.\n\nVotre roi en e4, le roi noir en e7, deux cases vides entre eux. Montez droit sur la colonne et les Noirs peuvent descendre droit à votre rencontre, et quelque part au milieu, vous manquez tous deux de route.\n\nCette dispute se tranche par la seule règle à laquelle personne n'échappe : à votre tour, vous devez jouer. C'est le zugzwang, et avec des rois seuls sur l'échiquier, c'est la seule arme de chaque camp."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "Le face-à-face a un nom",
+      "text": "Amenez les rois à une seule case vide l'un de l'autre sur la même colonne et la position se verrouille. Aucun roi ne peut entrer sur la case entre eux, car elle touche les deux. Aucun ne peut contourner par le côté sans entrer dans la portée de l'autre.\n\nCe verrou, c'est l'**opposition**. Elle appartient au joueur qui n'a pas à jouer, car celui qui doit jouer est obligé de la rompre, de s'écarter, et de laisser passer l'autre roi.\n\nComptez donc l'écart. Une case vide, votre adversaire au trait, et le terrain devant est à vous. Pour l'instant l'écart est de deux, et c'est à vous de jouer."
+    },
+    {
+      "type": "play",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "prompt": "Réduisez l'écart pour qu'une seule case vide sépare les rois et que ce soit aux Noirs de jouer.",
+      "targetSan": [
+        "Ke5"
+      ],
+      "hint": "Comptez l'écart avant et après votre coup : vous voulez le ramener à un, en passant le trait."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/4K3/8/8/8/8 b - - 5 3",
+      "title": "Les Noirs cèdent, vous suivez",
+      "text": "Une case vide entre les rois, et les Noirs doivent jouer. Chaque case légale abandonne du terrain : de côté ou en arrière, rien d'autre.\n\nDisons {{Kd7}}. Les Noirs gardent la distance mais ont dérivé d'une colonne vers l'aile dame, alors vous les suivez. {{Kd5}}, et le verrou est rétabli, une colonne plus loin, avec de nouveau les Noirs au trait.\n\nRien n'a été pris et rien n'a été menacé. Les Noirs ont simplement choisi une direction, vous l'avez copiée, et tout l'échiquier s'est rapproché d'un pas de là où vous alliez."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "title": "Un pion sans issue",
+      "text": "Nouvel échiquier, et un pion change l'objet de la dispute entre les rois. Votre roi en e6, votre pion en e5, le roi noir en e8, de nouveau verrouillés à une case l'un de l'autre.\n\nCette fois, c'est vous qui avez le trait, donc l'opposition appartient aux Noirs. Comptez vos coups légaux : il y en a quatre, tous des pas de roi. Le pion ne peut pas avancer du tout : votre propre roi se tient sur la case devant lui.\n\nLes Noirs tiennent la porte fermée et votre pion est coincé derrière vous. Quelque chose doit céder, et ce ne sera pas le pion."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "prompt": "Écartez-vous vers l'aile dame sans quitter la rangée que votre roi a déjà atteinte.",
+      "targetSan": [
+        "Kd6"
+      ],
+      "hint": "Reculer d'une rangée jette tout ce que le roi a gravi : cédez plutôt la colonne."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "title": "Le même verrou, une autre colonne",
+      "text": "Les Noirs ont copié le pas et les rois sont de nouveau verrouillés, à une case l'un de l'autre, avec toujours vous au trait. On dirait que rien n'a été gagné.\n\nRegardez la colonne e. Votre roi a quitté la case devant le pion, et le roi noir est à une colonne de la route du pion. Trois cases libres, et un roi blanc déjà posté sur la sixième rangée à côté d'elles.\n\n> L'opposition n'est jamais le but. Elle achète exactement un coup, et ce coup doit valoir quelque chose."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "prompt": "Mettez le pion en marche maintenant que votre roi ne stationne plus sur son chemin.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Rien ne s'améliore plus du côté des rois ; le progrès qui reste sur cet échiquier est tout entier sur la colonne e."
+    }
+  ]
+}

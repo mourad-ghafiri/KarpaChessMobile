@@ -1,0 +1,11 @@
+{
+  "id": "forks-09",
+  "fen": "6k1/ppp2ppp/8/2b1n3/8/2PP4/PP3PPP/R5K1 w - - 0 1",
+  "solution": [
+    "d4"
+  ],
+  "title": "Il Pedone che Inforchetta",
+  "setup": "L'alfiere e il cavallo neri stanno in c5 e e5, e i vostri pedoni sono proprio sotto di loro.",
+  "hint": "Un pedone attacca le due case diagonalmente davanti a sé. Quale passo di pedone tocca tutti e due i pezzi neri?",
+  "explanation": "## L'idea\n\n{{d4}} attacca insieme l'alfiere in c5 e il cavallo in e5, e il pedone in c3 lo difende. {{Bxd4}} {{cxd4}} colpisce di nuovo il cavallo, e {{Nf3+}} {{gxf3}} regala il cavallo con scacco. In ogni caso il Nero perde un pezzo per un pedone.\n\nIl pezzo più economico fa la forchetta migliore, perché tutto quello che colpisce vale di più."
+}

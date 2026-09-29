@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-18",
+  "fen": "7k/p5pp/8/8/8/8/8/R3R1K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "İki Kale, Tek Açık Dikey",
+  "setup": "Siyahın a7'deki piyonu bir dikeyi kapalı tutuyor, ama e dikeyi ta arka yataya kadar açık uzanıyor.",
+  "hint": "Kalelerinizden biri kapalı bir kapıya, öteki açık bir kapıya bakıyor. Açık olanı alın.",
+  "explanation": "## Fikir\n\nGerçekten açık olan tek bir dikey var: a dikeyini siyahın kendi a7 piyonu kapatıyor ve bir kaleye tek bir açık dikey yeter.\n\n{{Re8#}} arka yatay boyunca şah çeker. g8 kalenin hattındadır ve g7 ile h7'de siyahın kendi piyonları durur. Hiçbir şey kaleyi alamaz ya da araya giremez.\n\nKalelerinizi saymadan önce açık dikeyleri sayın."
+}

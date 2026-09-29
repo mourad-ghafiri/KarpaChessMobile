@@ -1,0 +1,13 @@
+{
+  "id": "deflection-proof",
+  "fen": "1r4k1/5ppp/8/8/2Q5/8/5PPP/2R3K1 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Rxc8",
+    "Rxc8#"
+  ],
+  "title": "Une offre, une seule réponse",
+  "setup": "Le roi noir n'a pas d'air, et la tour en b8 est la seule pièce qui couvre la huitième rangée.",
+  "hint": "Rien chez vous ne peut attaquer la tour en b8. Offrez-lui quelque chose qu'elle doit prendre, sur la case dont votre propre tour a besoin.",
+  "explanation": "## L'idée\n\nLa tour en b8 ne peut pas être attaquée, il faut donc l'envoyer ailleurs. {{Qc8+}} offre la dame sur la seule case que surveille la tour, et {{Rxc8}} est le seul coup légal des Noirs : les pions enferment le roi, et rien ne peut s'interposer. La tour se tient maintenant en c8, devant la vôtre, et {{Rxc8#}} conclut. La dame devait partir en premier, car c'était la pièce qui bloquait la colonne de votre tour."
+}

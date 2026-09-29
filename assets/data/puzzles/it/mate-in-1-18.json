@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-18",
+  "fen": "7k/p5pp/8/8/8/8/8/R3R1K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "Due Torri, Una Colonna Aperta",
+  "setup": "Il pedone nero in a7 tiene chiusa una colonna, ma la colonna e corre aperta fino alla traversa di fondo.",
+  "hint": "Una delle vostre torri guarda una porta chiusa, l'altra una aperta. Prendete quella aperta.",
+  "explanation": "## L'idea\n\nUna sola colonna è davvero aperta: la colonna a è chiusa dal pedone nero in a7, e a una torre basta una colonna aperta.\n\n{{Re8#}} dà scacco lungo la traversa di fondo. g8 sta sulla linea della torre, e g7 e h7 hanno i pedoni del Nero. Niente può catturare la torre o parare.\n\nContate le colonne aperte prima di contare le vostre torri."
+}

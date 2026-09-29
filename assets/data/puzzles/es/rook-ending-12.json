@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-12",
+  "fen": "8/4P3/1R5K/8/8/4k3/8/4r3 b - - 0 1",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1600,
+  "title": "Fuera de la columna de coronación",
+  "setup": "La torre negra frena el peón de e desde e1 y el rey tiene que volver deprisa, pero solo sobrevive una ruta.",
+  "hint": "Tu torre defiende la casilla de coronación desde abajo en la columna. ¿Qué paso de vuelta no tapa esa línea ni pierde un tiempo?",
+  "explanation": "## La idea\n\nLa torre sostiene e8 por la columna, así que el rey no debe ponerse en ella: {{Ke4}} pierde ante {{e8=Q+}}, un jaque en enfilada contra el rey y la torre de detrás. Desde d3 o f3, {{Rb7}} les da a las Blancas el tiempo que necesitan. Tras {{Kd4}}, {{e8=Q}} {{Rxe8}} solo deja un final de torres de tablas."
+}

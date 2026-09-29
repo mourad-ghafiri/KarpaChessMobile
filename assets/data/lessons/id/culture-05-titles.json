@@ -1,0 +1,56 @@
+{
+  "id": "titles-and-norms",
+  "title": "Gelar dan Norma",
+  "summary": "Diraih lewat sembilan babak, bukan satu langkah gemilang",
+  "proof": "culture-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Dinamai pada Tahun 1950",
+      "text": "FIDE mencetak daftar gelar pertamanya pada tahun 1950: dua puluh tujuh Grandmaster, ditetapkan dalam sebuah kongres, banyak di antaranya sudah lama melewati masa jayanya.\n\nTak satu pun di daftar itu kedaluwarsa. Gelar diberikan sekali dan dipegang seumur hidup. Grandmaster yang berhenti bermain, turun dua ratus poin rating, atau beralih menekuni berkebun tetaplah Grandmaster — rating mengatakan apa yang bisa Anda lakukan bulan ini, gelar mengatakan apa yang pernah Anda lakukan.\n\nMeraihnya butuh kira-kira setahun catur jenis yang tak pernah direkam kamera siapa pun."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Empat Anak Tangga",
+      "text": "Empat gelar terbuka, dari bawah: Candidate Master, FIDE Master, Master Internasional, Grandmaster. Masing-masing menyebut sebuah rating — 2200, 2300, 2400, 2500 — dan angka itu cukup dicapai satu kali saja, di satu daftar yang diterbitkan, kapan pun.\n\nDua yang terbawah berhenti di situ. Candidate Master dan FIDE Master diberikan hanya berdasarkan rating: capai angkanya, kirim berkasnya, dan gelar itu milik Anda.\n\nDua yang teratas tak bisa dibeli dengan angka berapa pun. Lewati 2500 dan FIDE sama sekali tak memberikan apa-apa. Dua anak tangga terakhir dibayar dengan norma."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "prompt": "Pakai satu tempo sekarang agar gajah di c8 tak pernah bisa keluar dan menjepit kuda Anda terhadap menteri.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Sebelum Anda menyentuh pusat, tanyakan petak mana yang diinginkan gajah Hitam dan pion Anda mana yang bisa merebutnya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Apa yang Diminta Sebuah Norma",
+      "text": "Norma adalah satu hasil, dalam satu turnamen yang memenuhi syarat, yang memenuhi setiap ketentuan sekaligus: sembilan babak atau lebih; lawan dari beberapa federasi; kira-kira separuhnya sudah bergelar; sejumlah tertentu di antaranya memegang gelar yang sedang Anda kejar; dan tingkat performa yang dipertahankan sepanjang acara. Lewatkan satu ketentuan dan turnamen itu tak menghasilkan apa-apa, sebaik apa pun Anda bermain.\n\nGrandmaster dan Master Internasional masing-masing menuntut norma yang tersebar dalam sedikitnya dua puluh tujuh partai — dalam praktiknya tiga norma.\n\nHitam mengejar gajah dengan {{Na5}}, gajah menyingkir dari jangkauan ke {{Bc2}}, dan {{c5}} menancapkan klaim di sayap menteri."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "Rangkaian yang Sejajar",
+      "text": "FIDE juga memberikan rangkaian kedua — WCM, WFM, WIM, WGM — terbuka bagi perempuan dan dua ratus poin di bawah gelar terbuka pada setiap anak tangga. Gelar-gelar ini berdiri di samping gelar terbuka, bukan menggantikannya: seorang perempuan boleh mengejar Grandmaster dengan syarat yang persis sama seperti semua orang.\n\nJudit Polgár melakukannya, meraih gelar Grandmaster terbuka pada Desember 1991 di usia lima belas tahun, lebih muda daripada siapa pun sebelumnya, dan tak sekali pun bermain dalam Kejuaraan Dunia Wanita."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "Partai yang Tak Pernah Dimainkan Ulang",
+      "text": "Sembilan babak tidak menghadiahi satu langkah gemilang. Sembilan babak menghadiahi pemain yang tak kalah dalam partai-partai biasa — yang memakai satu langkah penuh untuk pion benteng dua giliran lalu, sehingga kini tak ada yang bisa dijepit, tak ada yang perlu ditakuti, dan tangan bebas di pusat.\n\nProfilaksis adalah bahan sebenarnya dari sebuah norma. Formulir notasi tempat sebuah gelar berasal sebagian besar berisi langkah tenang dan remis singkat, dan buku turnamen hanya mencetak dua partainya.\n\n> Gelar bukanlah satu langkah hebat. Gelar adalah sembilan babak tanpa membuat satu langkah buruk."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "prompt": "Dengan g4 tertutup untuk selamanya, buka posisi dengan satu-satunya pion pusat yang masih berdiri di petak awalnya.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Pion pusat Anda mana yang sama sekali belum bergerak, dan apa yang menunggunya di tengah?"
+    }
+  ]
+}

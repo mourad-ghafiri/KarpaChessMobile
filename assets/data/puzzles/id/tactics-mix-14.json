@@ -1,0 +1,13 @@
+{
+  "id": "tactics-mix-14",
+  "fen": "5rk1/5ppp/1r3B2/8/b4Q2/7R/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qh6",
+    "gxh6",
+    "Rg3#"
+  ],
+  "title": "Menteri yang Tak Boleh Diambil",
+  "setup": "Gajah Anda di f6 sudah menggigit g7, dan benteng Anda di h3 menunggu di lajur h. Temukan langkah yang tak menyisakan jawaban bagus bagi Hitam.",
+  "hint": "Dua pion hitam satu-satunya perisai. Tanyakan apa yang akan dibuka pion g7 jika ia suatu saat harus menangkap sesuatu.",
+  "explanation": "## Ide\n\n{{Qh6}} tak memberi sekak dan tak mengambil apa pun, namun mengancam mat di g7 dan mat di h7 sekaligus, dan tak ada satu langkah hitam pun yang menghentikan keduanya.\n\nMenteri berdiri di tempat yang bisa diambil pion, dan {{gxh6}} adalah balasan terburuk dari semuanya: langkah itu mengosongkan lajur g, dan {{Rg3#}} menyusul, dengan gajah di f6 kini menguasai g7 dan h8."
+}

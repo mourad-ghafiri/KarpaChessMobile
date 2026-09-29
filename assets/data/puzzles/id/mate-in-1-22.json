@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-22",
+  "fen": "k7/2K5/8/8/8/8/8/7R w - - 0 1",
+  "solution": [
+    "Ra1#"
+  ],
+  "title": "Himpitan di Sudut",
+  "setup": "Raja Hitam di sudut a8, dan raja Anda di c7 menguasai b7 dan b8.",
+  "hint": "Raja Anda telah menutup petak-petak di samping sudut. Benteng tinggal memberi sekak di sepanjang tepi.",
+  "explanation": "## Ide\n\nInilah mat sudut klasik raja dan benteng. Raja Anda di c7 menguasai b7 dan b8, dua petak di samping sudut.\n\n{{Ra1#}} memberi sekak di sepanjang lajur a, dan a7 juga berada di garis benteng. Tak ada yang bisa menghalangi, dan raja tak bisa mencapai benteng.\n\nBegitu raja Anda menutup petak-petak di samping sudut, sekak aman mana pun di sepanjang tepi adalah mat."
+}

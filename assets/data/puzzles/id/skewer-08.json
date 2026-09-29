@@ -1,0 +1,14 @@
+{
+  "id": "skewer-08",
+  "fen": "8/N3R1R1/p1p2kr1/7n/P1p5/5r1P/P6K/8 w - - 0 1",
+  "solution": [
+    "Rgf7+",
+    "Kg5",
+    "Rxf3"
+  ],
+  "rating": 1180,
+  "title": "Benteng Ganda yang Menentukan",
+  "setup": "Benteng-benteng Anda berjajar ganda di baris ketujuh, dan sebuah benteng hitam duduk di lajur f di belakang rajanya sendiri.",
+  "hint": "Dua benteng di satu baris berarti satu bisa maju sementara yang lain tetap melindunginya. Lajur mana yang penting?",
+  "explanation": "## Ide\n\n{{Rgf7+}} menempatkan benteng di lajur f dengan raja di depan dan benteng di **f3** di belakang. Benteng di **e7** melindungi f7, jadi raja tak bisa menangkap. Sesudah {{Kg5}} lajurnya kosong dan {{Rxf3}} memenangkan benteng."
+}

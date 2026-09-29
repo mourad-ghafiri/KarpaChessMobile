@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-07",
+  "fen": "r4rk1/1pp2ppp/p1np4/4p3/2B1P3/2Pq1N2/PP2QPPP/R2R2K1 b - - 0 1",
+  "solution": [
+    "Qxe2"
+  ],
+  "title": "Échanger les dames pour sauver la partie",
+  "setup": "Votre dame en d3 est attaquée trois fois, rien ne la défend, et chaque case où elle pourrait fuir est couverte.",
+  "hint": "La dame ne peut pas être sauvée. Demandez-vous quelle est la chose la plus précieuse qu'elle peut prendre en partant.",
+  "explanation": "## L'idée\n\nLa dame en d3 est frappée par la dame, le fou en c4 et la tour en d1, et chaque retraite aboutit sur une case protégée. Elle est perdue de toute façon, alors faites payer le prix fort aux Blancs. {{Qxe2}} l'échange contre la dame blanche, et après {{Bxe2}} vous avez une pièce de moins contre un pion, mais vous n'avez plus une dame de moins en prime."
+}

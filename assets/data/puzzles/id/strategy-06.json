@@ -1,0 +1,11 @@
+{
+  "id": "strategy-06",
+  "fen": "rnbqnrk1/ppp1ppb1/6p1/4p3/3P4/2N2N2/PPP2PP1/R1BQKB1R w KQ - 0 9",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Beli Petak Gelap Terakhir",
+  "setup": "Lajur h terbuka ke arah raja Hitam, dan satu buah menjaga petak-petak gelap di sekitarnya: gajah di g7.",
+  "hint": "Gajah Anda di c1 bisa menantang penjaga itu secara langsung, dan benteng Anda di h1 sudah mendukung petak itu.",
+  "explanation": "## Ide\n\nPion h Hitam sudah hilang dan pion g sudah meninggalkan g7, jadi tak ada pion hitam yang akan pernah menguasai h6 lagi. Gajah di g7 mengerjakan tugas itu sendirian.\n\n{{Bh6}} menawarkan pertukaran, dan benteng di h1 berdiri di belakang gajah Anda. Begitu kedua gajah ditukar, Hitam tak punya gajah lagi untuk petak-petak gelap, dan setiap petak gelap di sekitar raja boleh Anda pakai."
+}

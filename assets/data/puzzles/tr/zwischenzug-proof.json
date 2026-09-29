@@ -1,0 +1,13 @@
+{
+  "id": "zwischenzug-proof",
+  "fen": "r1b2rk1/pp3ppp/1Q1p4/4p3/3nP3/8/PPP1BPPP/R1B2RK1 b - - 0 1",
+  "solution": [
+    "Nxe2+",
+    "Kh1",
+    "axb6"
+  ],
+  "title": "Vezir Bekleyebilir",
+  "setup": "Beyazın veziri az önce b6'da sizinkini aldı. Geri almak bariz hamledir ve en iyisi değildir.",
+  "hint": "Geri almanız bir hamle bekleyebilir; yeter ki ondan önceki hamle bir şah olsun.",
+  "explanation": "## Fikir\n\nHemen {{axb6}} oynamak eşit bir değişimdir ve ardından beyaz e2'deki fili atınızın menzilinden öylece çeker. Öyleyse önce şah çekin. {{Nxe2+}} fili alır ve {{Kh1}} beyazın tek kurallı hamlesidir. b6'daki vezir hâlâ orada durmaktadır ve {{axb6}} onu toplar. Bir hamle geç geri aldınız ve üstüne koca bir fil kazandınız."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-16",
+  "fen": "6k1/5ppp/8/8/8/3n4/2P2PPP/4K3 w - - 0 1",
+  "solution": [
+    "cxd3"
+  ],
+  "title": "Saldıranı Alın",
+  "setup": "Cesur bir siyah at, şahınıza şah çekmek için sıçradı — ama indiği yere bakmış mıydı?",
+  "hint": "Şahınız kaçabilir, ama neden? Şaha verilecek en kaba cevap şah çekeni almaktır — sizinkilerden biri ona ulaşabiliyor mu?",
+  "explanation": "## Fikir\n\nd3'teki at şah çekiyor ve şahın üç cevabı vardır: şahı oynatmak, hattı kapatmak ya da şah çekeni almak. Atın şahı kapatılamaz ve burada taş alma elinizde.\n\nc2'deki piyonunuz b3 ile d3'e saldırıyor, yani {{cxd3}} atı kaldırır, şahı bitirir ve tek hamlede üç puan kazanır. Bir şah hamlesi de kurtarırdı, ama atı hayatta bırakırdı."
+}

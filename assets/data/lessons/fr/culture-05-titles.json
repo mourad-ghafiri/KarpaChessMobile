@@ -1,0 +1,56 @@
+{
+  "id": "titles-and-norms",
+  "title": "Titres et normes",
+  "summary": "Gagnés sur neuf rondes, pas en un seul coup de génie",
+  "proof": "culture-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Nommés en 1950",
+      "text": "La FIDE a publié sa première liste de titres en 1950 : vingt-sept Grands Maîtres, désignés lors d'un congrès, beaucoup d'entre eux bien après leurs meilleures années.\n\nRien sur cette liste n'a expiré. Un titre est attribué une fois et conservé à vie. Un Grand Maître qui arrête de jouer, perd deux cents points de classement ou se met au jardinage reste Grand Maître — le classement dit ce que vous pouvez faire ce mois-ci, le titre dit ce que vous avez fait un jour.\n\nY arriver demande environ une année de ce genre d'échecs que personne ne filme."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Quatre échelons",
+      "text": "Quatre titres mixtes, en partant du bas : Candidat Maître, Maître FIDE, Maître International, Grand Maître International. Chacun correspond à un classement — 2200, 2300, 2400, 2500 — et ce nombre doit être atteint une seule fois, sur une seule liste publiée, dans toute une carrière.\n\nLes deux premiers s'arrêtent là. Candidat Maître et Maître FIDE s'obtiennent au seul classement : atteignez le nombre, envoyez le dossier, et le titre est à vous.\n\nLes deux derniers ne s'achètent à aucun nombre. Dépassez 2500 et la FIDE ne vous attribue rien du tout. Les deux derniers échelons se paient en normes."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "prompt": "Dépensez un temps maintenant pour que le fou en c8 ne puisse jamais sortir clouer votre cavalier sur la dame.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Avant de toucher au centre, demandez-vous quelle case veut le fou noir et lequel de vos pions peut la lui retirer."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Ce qu'exige une norme",
+      "text": "Une norme est un résultat, dans un tournoi qualificatif, qui remplit toutes les conditions à la fois : neuf rondes ou plus ; des adversaires de plusieurs fédérations ; environ la moitié d'entre eux déjà titrés ; un nombre fixé d'entre eux détenant le titre que vous visez ; et un niveau de performance tenu sur tout le tournoi. Qu'une condition manque, et le tournoi ne rapporte rien, aussi bien que vous ayez joué.\n\nGrand Maître et Maître International en demandent chacun sur au moins vingt-sept parties — trois normes en pratique.\n\nLes Noirs chassent le fou par {{Na5}}, il se met hors de portée en {{Bc2}}, et {{c5}} prend position sur l'aile dame."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "La série parallèle",
+      "text": "La FIDE attribue aussi une seconde série — WCM, WFM, WIM, WGM — réservée aux femmes et fixée deux cents points sous les titres mixtes à chaque échelon. Ces titres s'ajoutent aux titres mixtes au lieu de les remplacer : une femme peut viser le titre de Grand Maître exactement aux mêmes conditions que tout le monde.\n\nJudit Polgár l'a fait, obtenant le titre mixte de Grand Maître en décembre 1991 à quinze ans, plus jeune que quiconque avant elle, sans jamais disputer un seul championnat du monde féminin."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "Les parties que personne ne rejoue",
+      "text": "Neuf rondes ne récompensent pas un coup de génie. Elles récompensent le joueur qui ne perd pas les parties ordinaires — celui qui a dépensé un coup entier pour un pion de la tour deux tours plus tôt, si bien qu'il n'y a maintenant rien à clouer, rien à craindre, et les mains libres au centre.\n\nLa prophylaxie est ce dont est réellement faite une norme. Les feuilles de partie d'où sort un titre sont surtout faites de coups tranquilles et de nulles courtes, et le livre du tournoi en imprime deux.\n\n> Un titre n'est pas un grand coup. C'est neuf rondes sans en jouer un mauvais."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "prompt": "Avec g4 fermée pour de bon, ouvrez la position avec le seul pion central encore sur sa case de départ.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Lequel de vos pions centraux n'a pas bougé du tout, et qu'est-ce qui l'attend au centre ?"
+    }
+  ]
+}

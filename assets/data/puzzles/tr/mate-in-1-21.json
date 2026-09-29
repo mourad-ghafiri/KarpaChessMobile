@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-21",
+  "fen": "6k1/5ppp/8/8/8/8/8/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Piyon Duvarı",
+  "setup": "Siyahın **f7**, **g7**, **h7** piyon kalkanı sapasağlam — ama kaçış penceresi olmayınca bu bir ölüm fermanıdır.",
+  "hint": "Kaleyi açık dikeyde yukarı kaydırın. Gerisini siyahın kendi piyonları halleder.",
+  "explanation": "## Fikir\n\nBu, arka yatay matının en saf hâli: açık bir dikey, boş bir arka yatay ve şahın önünde üç piyon.\n\n{{Rd8#}} sekizinci yatay boyunca şah çeker. f8 ile h8 kalenin hattındadır, f7, g7 ve h7'de siyahın kendi piyonları durur ve hiçbir şey araya giremez ya da alamaz.\n\nÇaresi basit: o piyonlardan birini bir hamle önce sürüp şaha bir çıkış yolu vermek."
+}

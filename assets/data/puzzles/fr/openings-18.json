@@ -1,0 +1,15 @@
+{
+  "id": "openings-18",
+  "fen": "rnbqkb1r/p1p2ppp/4pn2/1p6/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq b6 0 6",
+  "solution": [
+    "a4",
+    "c6",
+    "axb5",
+    "cxb5",
+    "Ne5"
+  ],
+  "title": "Vous ne pourrez pas le garder",
+  "setup": "Les Noirs ont pris le pion de la Catalane et viennent de le soutenir par ...b5. Frappez cette chaîne de pions avant qu'elle s'installe.",
+  "hint": "Les Noirs tiennent le pion de plus avec une chaîne. Demandez-vous lequel de vos pions peut en atteindre la base, et ce qui s'ouvre derrière.",
+  "explanation": "## L'idée\n\nLa Catalane prête un pion. Le garder coûte aux Noirs leur aile dame.\n\n{{a4}} frappe la chaîne à sa base. Si les Noirs la soutiennent par {{c6}}, alors {{axb5}} {{cxb5}} retire le pion c de la grande diagonale, et {{Ne5}} dégage le reste : le fou en g2 fixe la tour en a8, et le cavalier vise c4.\n\nLes Noirs doivent couvrir a8, d'ordinaire par {{Nd5}}, et b5 n'a plus de défenseur.\n\nUn pion qu'il faut défendre avec d'autres pions est un pion que l'on paie."
+}

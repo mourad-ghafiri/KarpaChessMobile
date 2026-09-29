@@ -1,0 +1,12 @@
+{
+  "id": "trapped-05",
+  "fen": "3r2k1/1pp2pp1/7p/n2P4/8/3P3P/PP3PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b4"
+  ],
+  "rating": 1170,
+  "title": "Caballo arrinconado",
+  "setup": "El caballo negro ha caído en a5, donde sus cuatro saltos son b3, c4, c6 y b7, y en b7 está su propio peón.",
+  "hint": "Tus peones de a2, d3 y d5 ya vigilan tres de las cuatro casillas del caballo. Solo falta el ataque.",
+  "explanation": "## La idea\n\n{{b4}} ataca al caballo y no tiene adónde ir: b3 se topa con axb3, c4 con dxc4, c6 con dxc6, y b7 está tapada por el propio peón negro. Un caballo en a5 está a una jugada de peón de ser un excaballo."
+}

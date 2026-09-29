@@ -1,0 +1,11 @@
+{
+  "id": "forks-02",
+  "fen": "6k1/8/8/6n1/8/8/8/2Q3K1 w - - 0 1",
+  "solution": [
+    "Qxg5+"
+  ],
+  "title": "Cavallo Gratis, Scacco Gratis",
+  "setup": "Il cavallo nero in g5 sta indifeso sulla stessa colonna del re.",
+  "hint": "La diagonale della donna arriva al cavallo, e la colonna su cui atterrerebbe arriva al re.",
+  "explanation": "## L'idea\n\nIl cavallo in g5 non ha difensori, e sta sulla stessa colonna del re in g8.\n\n{{Qxg5+}} lo prende e dà scacco nella stessa mossa, quindi il Nero non ha mai una mossa da spendere su altro. La donna è arrivata lungo la diagonale; a dare scacco è la colonna su cui atterra, e il re è troppo lontano per riprendere.\n\nQuesta non è una forchetta — il bersaglio è sempre stato uno solo — ma funziona per la stessa ragione: la risposta è già impegnata."
+}

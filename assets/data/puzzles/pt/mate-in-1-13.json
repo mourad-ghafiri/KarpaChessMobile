@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-13",
+  "fen": "7k/8/8/5N2/8/8/6Q1/6K1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "Beijo Apoiado por Cavalo",
+  "setup": "O rei preto está preso no canto, e o teu cavalo de f5 já vigia g7 — a casa mesmo ao lado dele.",
+  "hint": "A dama quer ficar ao lado do rei. Qual das tuas peças já guarda essa casa?",
+  "explanation": "## A Ideia\n\nÉ o mesmo beijo de dama, apoiado por um cavalo em vez de um rei. O cavalo de f5 guarda g7, portanto a dama pode aterrar lá em segurança.\n\n{{Qg7#}} dá xeque. O rei de h8 não pode comer a dama, e g8 e h7 estão cobertas por ela. Um xeque da casa ao lado não se pode tapar.\n\nQualquer guarda serve para o beijo: rei, cavalo ou peão. Encontra a casa guardada mesmo ao lado do rei inimigo."
+}

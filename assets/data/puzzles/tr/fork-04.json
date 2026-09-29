@@ -1,0 +1,14 @@
+{
+  "id": "fork-04",
+  "fen": "r4bk1/p5pp/1p6/3p4/8/5B2/PP3PPP/2R3K1 w - d6 0 2",
+  "solution": [
+    "Bxd5+",
+    "Kh8",
+    "Bxa8"
+  ],
+  "rating": 800,
+  "title": "Alın ve Çatallayın",
+  "setup": "Siyah az önce bir piyonu d5'e sürdü; dosdoğru f3'teki filinizin yoluna.",
+  "hint": "Bir çaprazın ortasındaki taşı kaldırmak, çaprazın geri kalanını açar. O yolun nerede bittiğine bakın.",
+  "explanation": "## Fikir\n\n{{Bxd5+}} bir piyon kazanır ve aynı anda iki çaprazı birden aydınlatır: şah g8'e uzanır ve alınan piyonun arkasında fil artık a8'i görür. Siyahın kendi fili ve piyonları yalnızca {{Kh8}} bırakır ve {{Bxa8}} kaleyi alır."
+}

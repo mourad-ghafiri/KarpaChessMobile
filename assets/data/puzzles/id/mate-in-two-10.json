@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-10",
+  "fen": "b4k2/6p1/7p/8/2RB2Q1/8/6PP/7K w - - 0 1",
+  "solution": [
+    "Qxg7+",
+    "Ke8",
+    "Rc8#"
+  ],
+  "rating": 1320,
+  "title": "Korbankan Perlindungannya",
+  "setup": "Raja hitam di f8 tinggal punya satu pion di depannya, dan gajah Anda di d4 membidik lurus ke sana.",
+  "hint": "Pion di samping raja tampak seperti penjaga. Tanyakan apa yang dikuasai gajah Anda di petak di belakangnya.",
+  "explanation": "## Ide\n\n{{Qxg7+}} berhasil karena gajah di **d4** melindungi g7, jadi raja tak bisa menangkap. {{Ke8}} satu-satunya petak tersisa, dan kini menteri menyapu baris ketujuh sementara {{Rc8#}} merebut baris kedelapan. Dua garis, tanpa jalan keluar."
+}

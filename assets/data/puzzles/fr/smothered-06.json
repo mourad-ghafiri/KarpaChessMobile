@@ -1,0 +1,12 @@
+{
+  "id": "smothered-06",
+  "fen": "2r3k1/pp3ppp/8/8/3n4/8/PP3PPP/KR1R4 b - - 5 24",
+  "solution": [
+    "Nc2#"
+  ],
+  "rating": 1310,
+  "title": "Le gardien s'écarte",
+  "setup": "Les Blancs viennent de retirer leur tour de la colonne c ouverte vers b1, et leur roi n'a plus aucune case.",
+  "hint": "Deux sauts de cavalier donnent échec du côté du coin ; un seul est hors de portée d'un pion.",
+  "explanation": "## L'idée\n\nLa tour a quitté c1 et a cessé de couvrir c2. {{Nc2#}} met en échec un roi dont les trois voisines, a2, b2 et b1, sont toutes occupées par ses propres pièces, et aucune pièce blanche ne surveille c2. L'autre échec, {{Nb3+}}, meurt sur axb3. Le mat étouffé existe dans chaque coin, pas seulement en h8."
+}

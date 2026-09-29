@@ -1,0 +1,13 @@
+{
+  "id": "history-07",
+  "fen": "r4rk1/pp3ppp/5n2/8/8/3Q1R2/PP4PP/1B4K1 w - - 0 1",
+  "solution": [
+    "Rxf6",
+    "gxf6",
+    "Qxh7#"
+  ],
+  "title": "Son Koruyucuyu Kaldırın",
+  "setup": "Vezir de fil de h7'ye doğrultulmuş ve onları tam olarak tek bir siyah taş durduruyor.",
+  "hint": "Siyahın tek bir taşı yok olsa h7'de ne olurdu, sorun; sonra o taşın siyah için ne değerde olduğunu hesaplayın.",
+  "explanation": "## Fikir\n\nd3'teki vezir ile b1'deki fil h7'ye nişan alıyor ve vezirin oraya matla inmesini yalnızca f6'daki at engelliyor.\n\n{{Rxf6}} o at için bir kale verir. Siyah {{gxf6}} ile geri alırsa {{Qxh7#}} gelir: fil veziri korur, vezir g7 ile h8'i kapsar ve f7 ile f8'de siyahın kendi piyonu ile kalesi durur. Siyah reddederse beyaz öylece bir at önde olur.\n\nMat karesini tek bir taş koruyorsa onu matla tartın."
+}

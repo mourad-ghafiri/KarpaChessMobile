@@ -1,0 +1,13 @@
+{
+  "id": "forks-10",
+  "fen": "4q3/8/8/4k3/8/8/8/R6K w - - 0 1",
+  "solution": [
+    "Re1+",
+    "Kd6",
+    "Rxe8"
+  ],
+  "title": "L'enfilade sur la dame",
+  "setup": "Le roi noir en e5 et la dame noire en e8 se tiennent sur la même colonne, le roi devant.",
+  "hint": "Placez-vous sur cette colonne avec échec. Puis demandez-vous devant quoi se tient le roi.",
+  "explanation": "## L'idée\n\nLa pièce la plus précieuse est la plus proche. C'est une enfilade : frappez la pièce de devant et prenez ce qu'elle cachait.\n\n{{Re1+}} prend la colonne. Les six réponses sont toutes des coups de roi — rien ne peut s'interposer, car la dame devrait traverser son propre roi pour atteindre e2, e3 ou e4.\n\n{{Kd6}} en vaut une autre, et {{Rxe8}} ramasse la dame. Dans un clouage, la pièce précieuse est derrière ; dans une enfilade, elle est devant, et bouger coûte cher."
+}

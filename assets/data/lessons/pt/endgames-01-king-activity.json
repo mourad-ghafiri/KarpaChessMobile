@@ -1,0 +1,50 @@
+{
+  "id": "king-activity",
+  "title": "Ativa o Teu Rei",
+  "summary": "A peça que se escondeu a partida inteira agora comanda",
+  "proof": "endgame-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "Fora da Linha de Fundo",
+      "text": "A partida inteira o rei teve uma instrução: fica escondido. Deste tabuleiro desapareceram as damas e as torres, e com elas desaparece a razão para se esconder. O que resta aqui não consegue montar um ataque a um rei que esteja a descoberto.\n\nPor isso a instrução caduca. O rei branco em g1 é agora uma peça de combate — anda uma casa em qualquer direção, guarda tudo em que toca, e vale algures entre um bispo e uma torre. E está também tão longe da ação quanto uma peça pode estar."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "O Peão Não o Faz Sozinho",
+      "text": "O teu peão em e5 está entalado. {{e6}} {{Ke7}} — o peão dá um passo em frente, o rei preto sobe ao seu encontro, e no tabuleiro nada defende e6.\n\nO que deixa o rei. É a única peça aqui que pode melhorar alguma coisa, e melhora alguma coisa a cada passo em direção ao centro. A partir de g1, o centro está a três jogadas de rei. Não há nada melhor em que gastar três jogadas."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "prompt": "Aponta a d4 pela estrada mais curta que o rei tem.",
+      "targetSan": [
+        "Kf2"
+      ],
+      "hint": "Um passo na diagonal corta uma coluna e uma linha ao mesmo tempo — só um deles arranca uma caminhada de três jogadas."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/5K2/8 b - - 6 4",
+      "title": "Nada Além do Rei",
+      "text": "{{Ke7}} {{Ke3}} {{Ke8}} {{Kd4}}. Duas jogadas para cada lado, e nenhuma delas toca num peão.\n\nMesmo assim, repara no que mudou. O rei que tinha começado enterrado em g1 está agora em d4, ao lado do seu peão de e5 e pronto a escoltá-lo. O rei preto saiu para e7 e voltou logo, porque também não tinha nada melhor que fazer.\n\n> No final o rei vai à frente, e os peões seguem-no até casa."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "title": "Conta a Distância",
+      "text": "Cinco jogadas depois, o teu rei está em d6 e o preto foi à caça: até f6, a casa que quereria ao lado do teu peão, está vedada — guarda-a o próprio e5.\n\nAgora conta o outro lado do tabuleiro. O rei preto está a três passos do peão de d7. O teu está mais perto do que isso, e o preto já não guarda nada por aqui.\n\nUm rei ativo não precisa de nenhuma tática. Ganha material por estar no sítio certo no momento em que o outro rei está noutro sítio."
+    },
+    {
+      "type": "play",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "prompt": "Cobra a viagem do rei preto: come o peão que ele deixou de defender.",
+      "targetSan": [
+        "Kxd7"
+      ],
+      "hint": "Conta os defensores de d7 agora que o rei preto saiu até g7."
+    }
+  ]
+}

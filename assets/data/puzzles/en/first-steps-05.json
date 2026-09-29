@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-05",
+  "fen": "1k6/8/8/7r/8/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxh5"
+  ],
+  "title": "Queen's Reach",
+  "setup": "A black rook idles far away on the h-file, believing it is out of danger. Your queen knows better.",
+  "hint": "The queen moves like a bishop too. Trace the diagonal from d1 toward the h-file.",
+  "explanation": "## The Idea\n\nFrom d1 the queen's diagonal runs e2, f3, g4 and lands on h5, where the black rook sits with nothing guarding it.\n\n{{Qxh5}} crosses half the board in one move and takes the rook. It came along a diagonal, and a rook only watches straight lines.\n\nThe queen is a rook and a bishop in one. When you hunt with it, check both kinds of line."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-05",
+  "fen": "3r2k1/1p3ppp/2n5/b7/1N6/2P3P1/5P1P/R5K1 w - - 1 2",
+  "solution": [
+    "Nxc6"
+  ],
+  "rating": 1210,
+  "title": "Récupérez la pièce",
+  "setup": "Vous avez une pièce de moins. Votre tour regarde le long de la colonne a vers le fou en a5, défendu seulement par le cavalier en c6.",
+  "hint": "Le fou en a5 a un seul défenseur. Avant de prendre le fou, demandez-vous ce qui peut prendre le défenseur.",
+  "explanation": "## L'idée\n\n{{Nxc6}} élimine la seule pièce qui couvre a5. Après {{bxc6}}, {{Rxa5}} prend le fou : cavalier contre cavalier, puis un fou pour rien, et le matériel est de nouveau égal. Tout ce qui est plus lent permet à {{Bxb4}} d'échanger votre cavalier, et les Noirs gardent une pièce de plus.\n\nLe défenseur coûte souvent moins cher que la pièce qu'il protège."
+}

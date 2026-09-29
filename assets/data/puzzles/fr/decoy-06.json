@@ -1,0 +1,14 @@
+{
+  "id": "decoy-06",
+  "fen": "5rk1/pp3ppp/8/2Q5/7B/7q/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rd8#"
+  ],
+  "rating": 1350,
+  "title": "La dame pour le coin",
+  "setup": "Votre fou en h4 balaie e7, et le roi noir est enfermé par ses propres pions en f7 et g7.",
+  "hint": "Le mat a besoin du roi en f8, pas en g8. Quel est le prix pour l'y placer, et vaut-il la peine d'être payé ?",
+  "explanation": "## L'idée\n\n{{Qxf8+}} force {{Kxf8}} — rien d'autre ne peut prendre. En f8, le roi a e7 couverte par le fou et f7 et g7 bouchées par ses propres pions, donc {{Rd8#}} est mat. Une dame ne coûte pas cher quand l'alternative est de n'obtenir rien."
+}

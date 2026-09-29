@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-05",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "La marcha de la torre solitaria",
+  "setup": "El rey negro de g8 sigue detrás de tres peones intactos, y tu torre de b1 tiene delante una columna vacía.",
+  "hint": "Cuenta las casillas a las que llega el rey negro, y luego encuentra la fila que no puede abandonar.",
+  "explanation": "## La idea\n\nNi sacrificio ni cambio: la torre simplemente entra. {{Rb8#}} da jaque por la octava fila. Los peones de f7, g7 y h7 ocupan todas las casillas delante del rey, y la torre cubre f8 y h8. Nada negro puede tapar la fila ni capturar la torre.\n\nTres peones intactos delante de un rey son un muro hasta que se vacía la última fila. Entonces son la razón del mate."
+}

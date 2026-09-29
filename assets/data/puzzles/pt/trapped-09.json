@@ -1,0 +1,12 @@
+{
+  "id": "trapped-09",
+  "fen": "5rk1/ppp1bpp1/3p1n1p/8/N7/2P4P/PP3PP1/3R1RK1 b - - 0 1",
+  "solution": [
+    "b5"
+  ],
+  "rating": 1300,
+  "title": "Um Avanço de Peão",
+  "setup": "O cavalo branco foi para a4, onde as suas únicas casas são b6, c5, c3 e b2, e duas delas são peões das brancas.",
+  "hint": "Dois dos saltos do cavalo dão em peões das próprias brancas. Os teus peões de a7 e d6 já cobrem os outros dois.",
+  "explanation": "## A Ideia\n\n{{b5}} ataca o cavalo, que já está cercado: b2 e c3 têm os peões das brancas, a b6 responde-se axb6 ou cxb6, a c5 dxc5. O próprio peão de b5 não pode ser comido, portanto o cavalo cai simplesmente."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-18",
+  "fen": "7k/p5pp/8/8/8/8/8/R3R1K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "Dua Benteng, Satu Lajur Terbuka",
+  "setup": "Pion Hitam di a7 menutup satu lajur, tetapi lajur e terbuka sampai ke baris belakang.",
+  "hint": "Satu benteng Anda memandang pintu yang tertutup, yang lain memandang pintu yang terbuka. Ambil yang terbuka.",
+  "explanation": "## Ide\n\nHanya satu lajur yang benar-benar terbuka: lajur a ditutup pion Hitam sendiri di a7, dan satu lajur terbuka sudah cukup bagi benteng.\n\n{{Re8#}} memberi sekak di sepanjang baris belakang. g8 berada di garis benteng, dan g7 serta h7 ditempati pion Hitam sendiri. Tak ada yang bisa menangkap benteng atau menghalangi.\n\nHitung lajur-lajur terbuka sebelum Anda menghitung benteng."
+}

@@ -1,0 +1,71 @@
+{
+  "id": "common-mistakes",
+  "title": "Come si Regalano le Partite",
+  "summary": "Una donna uscita presto, un pedone che non era gratis e la mossa che non avete guardato",
+  "proof": "common-mistakes-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Consegnate a Mano",
+      "text": "Contate i modi in cui una buona partita viene restituita e la lista è corta: una donna uscita troppo presto, un pedone che sembrava gratis, una mossa dell'avversario che nessuno ha letto e un re lasciato in mezzo alla scacchiera.\n\nQuattro abitudini, e ognuna viene colta dalle tre domande che avete già. Quello che segue è ciò che fa la scacchiera quando nessuno se le pone."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "La Donna Esce",
+      "text": "{{e4}} {{e5}} {{Qh5}}. La donna è fuori alla seconda mossa, puntata su f7: l'unica casa del campo nero difesa soltanto dal re.\n\n{{Nc6}} sviluppa un cavallo e lascia f7 in pace: un solo attaccante su una casa difesa dal re non è una minaccia. {{Bc4}} ne fa due, e adesso è matto alla mossa successiva. Il Nero ha più di un modo per fermarlo; {{g6}} è quello che caccia anche la donna da quella diagonale.\n\n{{Qf3}} punta f7 lungo la colonna e il matto è di nuovo lì. {{Nf6}} lo para, ed è una mossa che il Nero era felice di giocare comunque."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq - 2 5",
+      "title": "Il Conto",
+      "text": "Contate le mosse. Entrambi ne hanno spese quattro. Quelle del Nero sono andate su un pedone centrale, su tutti e due i cavalli e su un pedone in g6 che valeva la pena giocare comunque.\n\nQuelle del Bianco sono andate su un pedone centrale, un alfiere e due mosse di donna per arrivare su una casa che poteva raggiungere in una — dove per giunta ostruisce il cavallo in g1.\n\nMuovere un pezzo due volte non è un reato. Lo farete per salvarlo, per prendere qualcosa, per riprendere. Muoverlo due volte per niente è il costo, e una donna uscita prima di tutti gli altri lo invita: ogni pezzo del Nero è abbastanza economico da scacciarla."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+      "title": "Un Pedone Che Non È Gratis",
+      "text": "Il Bianco ha cambiato un alfiere per un cavallo la mossa scorsa, e il Nero ha ripreso in c6 con il pedone d. Adesso ci sono due pedoni neri sulla colonna c — e la donna nera in d8 guarda cinque case vuote.\n\nIl pedone in e5 non ha difensori. Nessuno: contateli. {{Nxe5}} lo guadagna, e nulla riprende il cavallo.\n\nQuesta è la trappola, ed è silenziosa. Il Bianco qui non è perduto. Semplicemente il pedone torna indietro, e le mosse che il Bianco ha speso per prenderlo no."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4N3/4P3/8/PPPP1PPP/RNBQK2R b KQkq - 0 5",
+      "prompt": "Fate restituire subito il pedone al Bianco: trovate l'unica casa che colpisce insieme il cavallo ingordo e il pedone di e4.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "La vostra donna non ha mai mosso, e la colonna davanti a lei è libera quasi fino ai pedoni del Bianco."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "La Sua Mossa Aveva un Motivo",
+      "text": "Ogni mossa del vostro avversario ha un motivo, e il motivo viene annunciato di rado.\n\n{{Ng5}}. Sembra un pezzo che se ne va a spasso. È un secondo attaccante su f7, la casa che solo il re nero difende, e il cavallo in f6 sta fra la donna di d8 e g5, quindi nulla può prenderlo.\n\nGiocate qualcosa di ragionevole — {{d6}}, per dire — e arriva {{Nxf7}}, che colpisce insieme la donna in d8 e la torre in h8. Il re non può riprendere: l'alfiere in c4 difende f7."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 5 4",
+      "prompt": "Rispondete alla minaccia prima che arrivi: chiudete all'alfiere di c4 la strada verso f7.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "L'alfiere raggiunge f7 attraverso due case vuote. Uno dei vostri pedoni può occupare la più vicina."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "title": "La Mossa Noiosa",
+      "text": "Un'altra partita in un momento simile: l'alfiere nero è andato in c5, puntato su f2, e muove il Bianco. Una mossa qui non fa niente di emozionante e previene quasi tutto questo: l'arrocco.\n\nIl re lascia il centro, la torre di h1 si avvicina al centro, e f2, lo specchio di f7, riceve finalmente un secondo difensore.\n\n«Arrocca entro la decima mossa» è un'abitudine, non una regola: un re può restare al centro finché il centro resta chiuso. Ma è la sicurezza più economica che comprerete mai, e i principianti la comprano per ultima.\n\n> Ora conoscete tutte le regole degli scacchi. Quello che resta è accorgersi."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "prompt": "Fate la mossa più sicura della scacchiera: togliete il re dal centro e portate la torre in partita.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Il vostro re sta allo scoperto mentre una mossa che risolve tutto il problema aspetta ancora di essere spesa."
+    }
+  ]
+}

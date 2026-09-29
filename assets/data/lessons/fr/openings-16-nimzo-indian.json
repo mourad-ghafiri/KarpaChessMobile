@@ -1,0 +1,50 @@
+{
+  "id": "nimzo-indian-advanced",
+  "title": "La nimzo-indienne",
+  "summary": "Un fou échangé contre une faiblesse permanente",
+  "proof": "openings-16.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Un fou qui compte mourir",
+      "text": "Trois coups à peine, et le fou noir s'offre déjà contre un cavalier. On estime d'ordinaire le fou légèrement supérieur, alors cela ressemble au mauvais côté d'un échange.\n\nCe n'est pas de la générosité. Le fou en b4 cloue le cavalier en c3 sur le roi en e1, et ce cavalier est la seule pièce blanche qui couvre e4. Les Noirs veulent le retirer de l'échiquier, et obliger les Blancs à la seule reprise qui laisse une marque."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "La question que posent les Blancs",
+      "text": "{{a3}}. Le pion s'avance vers le fou et exige une réponse : reculer, ou prendre.\n\nReculer offre un temps gratuit aux Blancs, alors le fou prend. Regardez maintenant comment les Blancs peuvent reprendre. Le fou en c1 ne voit pas c3, la dame non plus, donc c'est le pion b qui doit s'en charger — et il atterrit juste derrière le pion déjà placé en c4."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/P1N5/1P2PPPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Prenez le seul gardien blanc de e4 et imposez la reprise qui empile deux pions sur une même colonne.",
+      "targetSan": [
+        "Bxc3+"
+      ],
+      "hint": "Une seule pièce noire attaque c3, et sa prise arrive avec échec, donc les Blancs n'ont aucun instant libre pour se préparer."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/P1P5/4PPPP/R1BQKBNR b KQkq - 0 5",
+      "title": "Empilés pour de bon",
+      "text": "Les voilà : des pions blancs en c3 et c4, l'un derrière l'autre. Doublés, et bloqués. Celui de derrière ne pourra jamais dépasser celui de devant, et aucun des deux ne sera jamais défendu par un pion — le pion b est désormais l'un des deux, et le pion d est déjà passé en d4.\n\n{{c5}} fige le tableau. Les Noirs frappent d4 pour que le centre ne puisse pas avancer et enterrer les preuves.\n\nL'ouverture porte le nom d'Aron Nimzowitsch, qui soutenait qu'une faiblesse que personne ne peut réparer survit à tout avantage qui doit être exploité tout de suite."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "title": "Le pion que tout vise",
+      "text": "Cinq coups plus tard, les Blancs ont le centre qu'attendait la paire de fous : pions en c4, d4 et e4, avec le fou en d3 prêt pour le moment où cette rangée avancera.\n\nLes Noirs ne contestent pas tout. L'un de ces pions est différent. Le pion en c4 a son partenaire bloqué derrière lui, donc aucun pion blanc ne le protégera jamais, et chaque menace noire contre c4 doit être parée par une pièce. Une pièce attachée à un pion est une pièce qui ne fait rien d'autre.\n\n> Attaquez la faiblesse qu'un pion ne peut pas défendre, et obligez les pièces à monter la garde."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "prompt": "Envoyez votre cavalier au bord, d'où il frappe le pion qu'aucun pion blanc ne pourra jamais défendre.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "La cible est le pion en c4, et le pion b blanc qui chasserait normalement un cavalier de ce bord se trouve en c3."
+    }
+  ]
+}

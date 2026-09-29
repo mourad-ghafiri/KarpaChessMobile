@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-11",
+  "fen": "1r3kr1/pbpBnp1p/1b3P2/8/8/B1P2q2/P4PPP/3R2K1 w - - 4 24",
+  "solution": [
+    "Bxe7#"
+  ],
+  "rating": 885,
+  "title": "İşi Piyon Görüyor",
+  "setup": "a3'teki filiniz e7'deki ata nişan alıyor ve f6'daki piyonunuz şahın yanındaki kareleri kapsıyor.",
+  "hint": "Siyahın şahı tek adım bile atamıyor; öyleyse piyonunuzun koruduğu bir kareye inen şahı bulun.",
+  "explanation": "## Fikir\n\nf8'deki şahı kendi g8'deki kalesi ve f7'deki piyonu duvara almış; f6'daki piyon g7 ile e7'yi elinden alıyor ve d7'deki fil e8'i kapsıyor. {{Bxe7#}} son koruyucuyu kaldırır ve yine o piyonun koruduğu bir kareden şah çeker, yani şah alamaz."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "birth-of-strategy",
+  "title": "Serangan Harus Diperoleh",
+  "summary": "1886, satu langkah pion, dan satu petak yang tak pernah bisa direbut kembali oleh Hitam",
+  "proof": "history-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Izin untuk Menyerang",
+      "text": "Abad Morphy menyerang berdasarkan naluri dan menghitung biayanya belakangan. Steinitz mengajukan pertanyaan yang lebih membosankan: apa yang memberi sebuah serangan hak untuk ada?\n\nPada tahun 1886 Wilhelm Steinitz mengalahkan Johannes Zukertort dalam pertandingan yang umumnya dianggap sebagai perebutan gelar juara dunia pertama — sepuluh kemenangan lawan lima, dengan lima remis. Steinitz memenangkannya dengan gaya yang oleh dunia catur masa itu dianggap lamban dan agak kurang sopan.\n\nKlaimnya tak pernah bahwa menyerang itu buruk. Klaimnya adalah bahwa serangan harus mendapat makanan. Tanpa keunggulan yang menghidupinya, pertahanan yang tepat menjawab setiap ancaman yang Anda ciptakan — dan Anda tertinggal dengan kelemahan yang Anda buat sendiri."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Baltimore, 1885",
+      "text": "Steinitz melawan Alexander Sellman, setahun sebelum pertandingan perebutan gelar.\n\nTak ada yang bisa diserang di sini. Pusatnya macet — pion Putih di e5 melawan pion Hitam di e6 — dan kedua pihak sekadar berdiri di sana.\n\nMaka Steinitz berbelanja sebagai gantinya. Sebuah petak, sebuah diagonal, sebuah buah yang tak punya tempat bagus untuk berdiri: hal-hal kecil yang awet. Kumpulkan cukup banyak dan serangan menjadi sah.\n\nGajah Hitam di c5 adalah buah Hitam yang paling bebas: ia memandang lurus ke f2, satu petak dari raja putih di e1."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "prompt": "Serang gajah hitam dengan pion sayap menteri dan rebut c5 darinya untuk selamanya.",
+      "hint": "Steinitz tak pernah bertanya apa yang menang saat ini. Langkah pion mana yang merebut sebuah petak dari buah lawan untuk selamanya — dan buah Putih mana yang sudah menjaga petak tempat pion itu akan mendarat?",
+      "targetSan": [
+        "b4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Apa yang Dibeli Satu Pion",
+      "text": "{{b4}}, dan gajah harus menyatakan di mana ia lebih suka tinggal. {{Be7}} adalah jawaban yang jujur — petak tempat ia hampir tak berbuat apa-apa — dan {{a3}} menopang pion itu sehingga pertanyaannya tak pernah diajukan lagi.\n\nTak ada yang dimenangkan. Tak ada yang berpindah tangan, dan masih tak ada angka yang bisa Anda tempelkan pada keunggulan Putih.\n\nYang berubah adalah bahwa buah Hitam yang paling bebas telah diam-diam disimpan di laci, dan langkah pion tak bisa ditarik kembali."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "Petak yang Tak Bisa Diperbaiki",
+      "text": "Sepuluh langkah kemudian, dan Steinitz masih belum menyerang apa pun.\n\nLihat c6. Pion menguasai c6 dari b7 atau dari d7 — dan pion b Hitam berada di b5, pion d di d5, dan pion tak berjalan mundur. Setiap pion hitam di papan ini sudah meninggalkan baris ketujuh.\n\nJadi c6 adalah **lubang** — **petak lemah** yang tak akan pernah bisa dikuasai pion lawan lagi, karena pion-pion yang bisa menguasainya sudah melewatinya untuk selamanya.\n\n> Kelemahan yang bisa diperbaiki lawan adalah sasaran. Kelemahan yang tak bisa mereka perbaiki adalah rumah bagi buah-buah Anda."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "Belum Saatnya",
+      "text": "Jadi tempatkan seekor kuda di sana. {{Nc6}} — dan {{Bxc6}}, karena c6 dijaga dua kali: oleh gajah di b7 dan oleh benteng di c8.\n\nTak satu pun penjaga itu permanen. Benteng bisa ditukar, dan gajah bisa diminta pindah. Pion-pion yang dulu bisa menjaga c6 dengan gratis adalah yang tak bisa kembali.\n\nItulah sebabnya kuda Putih yang lain menghabiskan sepuluh langkah terakhir untuk berjalan: d1, c3, b1, d2, b3. Tampaknya seperti orang yang kehilangan kunci, sampai Anda melihat ke mana ia menuju."
+    },
+    {
+      "type": "play",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "prompt": "Serang gajah di b7 dengan kuda, dengan memilih petak tempat kuda itu tak bisa begitu saja ditukar.",
+      "hint": "Dua langkah kuda menyerang b7. Satu mendarat di tempat kuda di d7 dan gajah di e7 sama-sama bisa menangkap balik. Petak yang lain hanya bisa dicapai menteri hitam, dan pion di b4 sedang menunggunya.",
+      "targetSan": [
+        "Na5"
+      ]
+    }
+  ]
+}

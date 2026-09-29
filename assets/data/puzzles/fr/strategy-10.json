@@ -1,0 +1,11 @@
+{
+  "id": "strategy-10",
+  "fen": "r1bq1rk1/5ppp/p1np1b2/1p1Np3/4P3/N1P5/PP3PPP/R2QKB1R w KQ - 1 12",
+  "solution": [
+    "Nc2"
+  ],
+  "title": "Le cavalier au bord",
+  "setup": "Le cavalier blanc a été chassé en a3 dans l'ouverture et n'a rien fait depuis. Les pions noirs couvrent ses sorties. Mettez-le sur un meilleur itinéraire.",
+  "hint": "Listez toutes les cases que ce cavalier peut légalement utiliser, puis rayez celles qu'un pion noir attaque déjà.",
+  "explanation": "## L'idée\n\nLe cavalier en a3 est la plus mauvaise pièce blanche. Les pions noirs lui retirent ses cases en avant : b5 est défendue par le pion a et c4 est couverte par le pion b, et rentrer en b1 ne fait qu'annuler un coup.\n\n{{Nc2}} n'est pas une retraite mais la première étape d'un itinéraire : c2, puis e3, où il soutient le cavalier en d5. Les Noirs poursuivent par {{Bg5}}, et les Blancs parcourent l'étape suivante par {{Nce3}}.\n\nQuelle pièce en fait le moins, où préférerait-elle se tenir, et quel est le chemin le plus court pour y aller ?"
+}

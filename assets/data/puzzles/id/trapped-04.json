@@ -1,0 +1,12 @@
+{
+  "id": "trapped-04",
+  "fen": "4r1k1/5ppp/p4n2/1pp5/8/1B3N1P/P1P2PP1/3R2K1 b - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "rating": 1130,
+  "title": "Bahtera Nuh",
+  "setup": "Gajah Putih di b3 punya pionnya sendiri di belakangnya di a2 dan c2, dan bentengnya sendiri duduk di d1.",
+  "hint": "Hitung petak-petak pelarian gajah itu: pion-pion Putih sendiri menutup dua, dan pion b Anda menguasai yang ketiga.",
+  "explanation": "## Ide\n\n{{c4}} menutup diagonal terakhir. a2 dan c2 ditempati pion Putih sendiri, a4 dikuasai pion b5, dan pion yang kini di c4 dijaga b5, jadi Bxc4 bxc4 merugikan sebuah buah. Jaring ini cukup tua untuk punya nama: jebakan Bahtera Nuh."
+}

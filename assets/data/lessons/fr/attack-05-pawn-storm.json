@@ -1,0 +1,56 @@
+{
+  "id": "pawn-storm",
+  "title": "L'assaut de pions",
+  "summary": "Lancez les pions qui gardent votre propre roi contre le leur",
+  "proof": "pawn-storm-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "Le centre est cloué",
+      "text": "Les deux rois sont sur la même aile, et les Noirs s'apprêtent à pousser droit vers les Blancs les pions placés devant le roi noir.\n\nD'habitude, c'est ainsi qu'on perd une partie. Pas ici, et la raison se trouve au milieu de l'échiquier : le pion blanc en d5 est bloqué contre d6, le pion noir en e5 contre e4. Il ne reste rien à échanger, et aucun camp ne peut y ouvrir une colonne.\n\nUne marche le long de l'aile coûte cinq ou six coups. La seule chose qui punit le jeu lent est une frappe rapide à travers le centre, et le centre a été supprimé."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "De quel côté penchent vos pions",
+      "text": "Les Noirs marchent donc. Faire rouler les pions placés devant votre propre roi vers le roi adverse, c'est un **assaut de pions**, et il revient au camp vers lequel ses propres pions pointent déjà.\n\nLes pions noirs penchent vers le roi blanc. Ceux des Blancs penchent vers l'aile dame, et c'est là que les Blancs pousseront de leur côté.\n\nUn détail décide où les Noirs commencent. Le pion blanc en e4 est ce qu'un pion noir peut aller frapper sur cette aile, et l'échanger est la façon d'ouvrir la colonne f pour la tour en f8."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "prompt": "Attaquez le pion blanc en e4 avec l'un de vos pions et commencez à forcer l'ouverture de la colonne f.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "Un seul des trois pions autour de votre roi peut arriver sur une case qui attaque e4."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 w - - 0 11",
+      "title": "Un pion n'est pas un assaut",
+      "text": "Un seul pion en avant ne fait rien. L'assaut, c'est ce qui vient derrière lui.\n\n{{Be3}} amène un fou blanc vers le combat, {{f4}} le repousse avant qu'il puisse s'installer, {{Bf2}} est là où il va, et {{g5}} amène le second pion noir à côté du premier.\n\nQuatre coups noirs, et aucun n'a déplacé une pièce. C'est le marché que conclut un assaut : les pions achètent des lignes avec du temps, et un centre bloqué rend ce temps abordable."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "La même poussée, un coup trop tôt",
+      "text": "Une autre partie, et les Blancs viennent de dépenser deux coups à pousser des pions d'aile, qui se tiennent maintenant en g4 et h3.\n\nIci, le centre n'est pas fermé. Le pion noir en e5 et le pion blanc en e4 ne se rencontrent jamais, un pion isolé en d3 tient le centre pour les Blancs, et une seule poussée de pion des Noirs transforme tout cela en lignes ouvertes.\n\nC'est toute la différence entre les deux échiquiers. Les coups de pion sont les mêmes coups de pion. Ce qui se trouve dessous ne l'est pas."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "Ce qui attend les Blancs au retour",
+      "text": "Ces deux poussées n'ont fait entrer aucune pièce dans le jeu. Chacune est un temps gratuit offert aux Noirs, et une attaque sur l'aile se contre au centre, car le centre s'ouvre plus vite qu'une aile ne peut arriver.\n\nComptez ensuite l'abri blanc. g2 est vide et le restera, puisque les pions ne reculent pas. Le pion en h3 est une chose à viser plutôt qu'une chose derrière laquelle se cacher, et le fou noir en c8 regarde déjà la diagonale qui y aboutit.\n\n> Un assaut de pions est une attaque tant que le centre est fermé. Sinon, c'est un trou creusé à côté de votre propre roi."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "prompt": "Punissez deux coups d'aile perdus en ouvrant le centre avant que les Blancs sortent une autre pièce.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "Le pion blanc en e4 a un défenseur, le pion en d3, et un attaquant, votre cavalier en f6 — envoyez un pion pour qu'ils soient deux."
+    }
+  ]
+}

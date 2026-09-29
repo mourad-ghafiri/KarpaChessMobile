@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-12",
+  "fen": "8/4P3/1R5K/8/8/4k3/8/4r3 b - - 0 1",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1600,
+  "title": "Terfi Dikeyinden Uzağa",
+  "setup": "Siyahın kalesi e piyonunu e1'den tutuyor ve şahın aceleyle geri dönmesi gerekiyor, ama yalnızca tek bir güzergâh sağ çıkıyor.",
+  "hint": "Kaleniz terfi karesini dikey boyunca koruyor. Eve giden hangi tek adım ne o hattı kapatır ne de bir tempo kaybettirir?",
+  "explanation": "## Fikir\n\nKale e8'i dikey boyunca tutuyor, yani şahın o dikeyde durmaması gerekir: {{Ke4}}, şahı arkasındaki kaleye şişe geçiren bir şah olan {{e8=Q+}} hamlesine kaybeder. d3 ya da f3'ten ise {{Rb7}} beyaza ihtiyacı olan tempoyu kazandırır. {{Kd4}} geldikten sonra {{e8=Q}} {{Rxe8}} gelir ve geriye yalnızca berabere biten bir kale sonu kalır."
+}

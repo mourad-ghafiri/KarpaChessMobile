@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-01",
+  "fen": "2R5/8/1k1P4/8/5K2/8/8/7r w - - 0 1",
+  "solution": [
+    "d7"
+  ],
+  "rating": 1200,
+  "title": "Le roi ne peut pas traverser",
+  "setup": "La tour blanche en c8 interdit la colonne c au roi noir et surveille la case vers laquelle se dirige le pion d.",
+  "hint": "Rien chez les Noirs ne peut atteindre la case de promotion à temps. Alors, qu'est-ce qui arrête vraiment le pion ?",
+  "explanation": "## L'idée\n\nLa tour en c8 fait deux choses à la fois : elle coupe le roi le long de la colonne c et elle protège d8. Le pion court donc tout simplement. {{d7}} {{Rh4+}} {{Kg5}} {{Rd4}} {{d8=Q+}} {{Rxd8}} {{Rxd8}}, et les Blancs ont une tour entière de plus."
+}

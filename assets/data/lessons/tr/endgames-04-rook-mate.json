@@ -1,0 +1,50 @@
+{
+  "id": "rook-mate",
+  "title": "Şah ve Kaleye Karşı Şah",
+  "summary": "Duvarı kale örer; kapıyı yalnızca şah kapatabilir",
+  "proof": "endgames-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "Kimsenin Geçemediği Dikey",
+      "text": "Tek kale, tek dikey ve parti çoktan belirlenmiş. Kaleniz g1'i tuttuğu sürece siyahın şahı g dikeyini asla geçemez, yani dünyası h7 ile h8'den ibarettir — iki kare, temelli.\n\nBu kesme işin çoğunu görür ve aynı zamanda bir kalenin tek başına yapabileceğinin de sonudur. Elinizdeki iki şah da g8'i elden çıkarır ve ikisi de hiç yoktan kötüdür: {{Rg8+}} {{Kxg8}} kaleyi elden verir, öteki şah ise siyahın şahını o kareye salıverir.\n\nDuvar yerinde kalır. Kapıyı kapatmaya başka bir şeyin gelmesi gerekir."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "Derli Toplu Bir Hamle, Yarım Puan",
+      "text": "{{Rg7}} aynı fikrin bir kare iyisi gibi görünür. g8 ile h7'yi birlikte alır, f6'daki şahınız onu koruduğu için alınamaz ve siyahın şahı şah altında değildir.\n\nAsıl felaket o son kısımda. Şah altında değil ve tahtanın hiçbir yerinde tek bir kurallı hamlesi yok: pat, yarım puan ve şahınız hâlâ başladığı yerde duruyor.\n\n> Kale parti boyunca kare elinden alır. Son kare, asla tek başına almaması gereken karedir."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "prompt": "Kaleniz bir şahın yanındaki kareleri alamaz; öyleyse alabilecek taşı getirin.",
+      "targetSan": [
+        "Kf7"
+      ],
+      "hint": "Duvarı tam olduğu yerde bırakın ve öteki taşınızı, iki şah bir kare arayla karşı karşıya gelene kadar siyaha doğru yürütün."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "Kalenin Yapamadığı Yarı",
+      "text": "Şahınız yürüyüşü yaptı, siyahın tek bir kurallı cevabı vardı ve iki şah artık yedinci yatayda tek bir kare arayla duruyor. Bu yine opozisyondur; ama bu kez tempo yerine karelerle karşılığını verir: f7'deki beyaz şah g6, g7 ve g8'i, yani tahtaya dönen bütün yolu kapsar.\n\nKale bir hat boyunca şah çeker ve şah da öylece hattan çıkar. Çıktığı karelerde onu bekleyen bir şey olması gerekir. Orada alınmadan bekleyebilecek tek taş sizin şahınızdır. Kale bu oyun sonunu asla tek başına kazanmaz."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "Duvarı İçeri Yürütmek",
+      "text": "Bunların hiçbiri köşeye bağlı değil. Herhangi bir pozisyondan tek bir döngüdür bu; tahta bitene kadar tekrarlanır.\n\nÇıplak şahı kalenizle kesin ki geçemeyeceği bir hat olsun. Kendi şahınızı, ikisi bir kare arayla yüz yüze gelene kadar ilerletin. Sonra çıplak şah duvar boyunca her yana adım attığında, duvarı arkasından bir dikey içeri alın.\n\nKutu her turda küçülür ve bir daha asla büyümez; bu oyun sonunun hesap değil teknik olmasının sebebi de budur."
+    },
+    {
+      "type": "play",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "prompt": "Siyahın iki karesi kaldı ve ikisi de tek bir hatta — o hattın tamamını kalenizle alın.",
+      "targetSan": [
+        "Rh1#"
+      ],
+      "hint": "Siyahın şahının menzilinin dışından, uzak uçtan gelin ki şah ile son boş kare aynı hamlede gelsin."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "the-fork",
+  "title": "La Forchetta",
+  "summary": "Una mossa che fa due domande, e un avversario che può risponderne a una",
+  "proof": "forks-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Due alla Volta",
+      "text": "Il vostro avversario ha una mossa per ogni mossa che fate voi. Il bilancio è tutto qui, e ogni tattica che vi aspetta è un modo di chiedere a quell'unica mossa di coprire più di quanto possa.\n\nUna **forchetta** è il modo più semplice di chiederlo. Una mossa, due pezzi avversari attaccati, e una sola risposta che deve occuparsi di tutti e due.\n\nIl re nero in c6 e la donna in d5 stanno a una casa di distanza. Il vostro cavallo in c2 non ne attacca ancora nessuno dei due, e non ne ha bisogno. Gli serve una casa che li tocchi entrambi."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Il Pezzo a cui Non si Risponde",
+      "text": "Un alfiere, una torre o una donna attaccano lungo una linea, e una linea si può interrompere — mettete qualcosa sulla strada e l'attacco si ferma lì. L'attacco di un cavallo non ha una casa intermedia su cui mettere qualcosa.\n\nPoi viene la parte strana. Un pezzo attaccato da un cavallo non può quasi mai riprendersi quel cavallo. Arrivare sulla casa dove sta un cavallo vuol dire muoversi a L, e lo fa solo un altro cavallo. Nemmeno un re ci riesce: un cavallo che dà scacco non sta mai accanto al re a cui lo dà.\n\nCosì al difensore resta la lista di risposte più corta degli scacchi."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "prompt": "Trovate l'unica casa che il vostro cavallo può raggiungere e che attacca il re e la donna insieme.",
+      "targetSan": [
+        "Nb4+"
+      ],
+      "hint": "Lavorate a ritroso dai bersagli: quali case attaccano c6, e quale di quelle attacca anche d5?"
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Nove per Tre, o Nove per Niente",
+      "text": "{{Nb4+}}, e lo scacco è l'unica cosa a cui il Nero ha il permesso di pensare. Niente lo para, e b4 è una casa che né il re né la donna raggiungono.\n\nE così il re cammina. Ha sette case libere, ed esattamente due di esse, d6 e c5, difendono ancora d5. {{Kd6}} sembra una salvezza finché non la contate: {{Nxd5}} {{Kxd5}} cambia un cavallo per una donna. Le altre cinque regalano la donna per niente.\n\nNove per tre, o nove gratis. È tutta qui la scelta che una forchetta lascia.\n\nRe e donna presi insieme hanno perfino un nome: **forchetta reale**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "Un Bersaglio Non Sono Due",
+      "text": "Scacchiera nuova, e quattro pezzi sopra. Il Nero ha un re in e8 e un cavallo in e5, e l'esercito è tutto lì.\n\nLa vostra donna in a1 guarda già quel cavallo. La grande diagonale che esce dall'angolo corre b2, c3, d4 e arriva a e5, senza niente in mezzo da nessuna parte. E il cavallo non è nemmeno difeso.\n\nQuindi il cavallo si può semplicemente prendere — e una volta sparito, il Nero possiede un re e case vuote. Qualunque cosa sia quella presa, non è una forchetta. Una forchetta ha bisogno di due cose da attaccare, e questa posizione non ne ha mai avute due."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "Lo Scacco Non È il Premio",
+      "text": "Lo scacco da solo non compra niente. {{Qa8+}} è uno scacco vero — il Nero sposta il re di lato, e la vostra donna adesso è in un angolo da cui non vede più affatto il cavallo. Una mossa spesa per peggiorare la posizione.\n\nLo scacco che vale la pena giocare è quello che arriva avendo già fatto qualcos'altro. L'unica mossa del Nero se ne va sul re, e quel qualcos'altro resta sulla scacchiera.\n\n> Una forchetta dà due lavori all'unica mossa del vostro avversario. Uno scacco sceglie il lavoro al posto suo. Funzionano tutti e due per la stessa ragione: la mossa arriva una volta sola."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "prompt": "Prendete il cavallo nel modo che non lascia al Nero altra risposta che una mossa di re.",
+      "targetSan": [
+        "Qxe5+"
+      ],
+      "hint": "Il cavallo e il re nero stanno sulla stessa colonna, quindi chiedetevi che cosa fa la donna una volta atterrata su quella colonna."
+    }
+  ]
+}

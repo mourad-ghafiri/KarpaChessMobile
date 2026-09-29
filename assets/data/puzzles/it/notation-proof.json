@@ -1,0 +1,11 @@
+{
+  "id": "notation-proof",
+  "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Bc4"
+  ],
+  "title": "La Voce Successiva",
+  "setup": "Una partita stampata dice 1.e4 e5 2.Nf3 d6, e la voce successiva del Bianco è `3.Bc4`. Giocate la mossa che nomina.",
+  "hint": "La lettera maiuscola nomina il pezzo, e i due caratteri dopo nominano la casa su cui atterra.",
+  "explanation": "## L'idea\n\nB è l'alfiere, e c4 è la casa. Solo l'alfiere in f1 arriva a c4, quindi alla voce non serve altro: {{Bc4}}.\n\nIl numero vi dice che è la terza mossa del Bianco, e le mosse precedenti hanno messo ogni pezzo dove lo vedete adesso. Una lettera per il pezzo, una casa per dove atterra."
+}

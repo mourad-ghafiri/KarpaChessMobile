@@ -1,0 +1,11 @@
+{
+  "id": "strategy-03",
+  "fen": "rnbqkb1r/pp1ppppp/8/2p1P3/8/2n2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 5",
+  "solution": [
+    "dxc3"
+  ],
+  "title": "Pion Mana yang Menangkap Balik",
+  "setup": "Kuda Hitam baru saja mengambil kuda Anda, dan dua pion Anda bisa menangkapnya balik. Bagaimanapun, Anda akan berakhir dengan dua pion di satu lajur.",
+  "hint": "Kedua penangkapan menumpuk pion c Anda. Yang mana yang juga meninggalkan pion tanpa tetangga sama sekali?",
+  "explanation": "## Ide\n\nPenangkapan mana pun membuat pion c Anda ganda, jadi hitung apa lagi yang dikorbankan masing-masing.\n\n{{bxc3}} juga membuat pion a terdampar tanpa pion di sampingnya: pion terisolasi, tanpa imbalan apa pun.\n\n{{dxc3}} menjaga setiap pion lain tetap bersambung dengan tetangganya, membuka lajur d ke arah menteri Hitam, dan mengosongkan jalan dari c1 ke h6 bagi gajah Anda. Menangkap menjauhi pusat benar di sini karena apa yang dibukanya."
+}

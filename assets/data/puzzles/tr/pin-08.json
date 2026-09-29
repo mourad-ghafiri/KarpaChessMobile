@@ -1,0 +1,12 @@
+{
+  "id": "pin-08",
+  "fen": "2k5/b3p3/4r1p1/8/1P1pp2P/P6R/2P1B1K1/8 w - - 0 1",
+  "solution": [
+    "Bg4"
+  ],
+  "rating": 1080,
+  "title": "Dört Kare Arayla",
+  "setup": "Siyahın e6'daki kalesi, kendi şahının köşede, c8'de saklandığı bir açık kare çaprazında duruyor.",
+  "hint": "Sizin tarafınızdan başlayıp kalenin içinden siyahın şahına uzanan açık kare çaprazını bulun.",
+  "explanation": "## Fikir\n\ng4, f5, e6, d7 ve c8 kareleri tek bir çapraz oluşturur. {{Bg4}} onun yakın ucunu işgal eder; böylece **e6**'daki kale **c8**'deki şaha karşı açmaza girer ve aynı anda saldırı altına girer. Kaleyi koruyan bir şey yoktur ve oynayamaz."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "queens-pawn-family",
+  "title": "The Queen's Pawn Openings",
+  "summary": "Occupy the center, or restrain it",
+  "proof": "openings-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Two Pawns That Never Touch",
+      "text": "Push the king's pawn two squares and the center pawns end up staring at each other, each one unguarded, each one a target from the very next move.\n\nThe queen's pawn covers the same ground and starts no fight at all. A pawn landing on d4 is guarded by the queen on d1 the moment it arrives, and a black pawn coming to d5 is guarded by its own queen just as well. Nothing can be taken.\n\nSo these games open without contact. What decides them is rarely a tactic on move eight. It is a square somebody owned better on move thirty."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Meeting It Head-On",
+      "text": "{{d4}} {{d5}}. Black takes the same share White took, and the two pawns block each other on squares neither of them can capture.\n\nSo White changes the subject: {{c4}}, a wing pawn offered for a center pawn. That is the Queen's Gambit, the oldest opening in the family.\n\nThe pawn is offered rather than given. Black can grab it, and often does, but holding on to it costs so many moves that the pawn usually comes back — with White's pieces already out and pointing at the middle."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Letting It Stand",
+      "text": "Black has not put a pawn in the middle, and that is a plan rather than a delay. The knight on f6 already stops White's e-pawn from reaching e4, and the pawn on e6 opens a road for a bishop.\n\nThese are the Indian defenses, and they split by which piece does the arguing.\n\n- **The King's Indian** hands the middle over, fianchettoes a bishop to g7 and breaks the wall open later.\n- **The Nimzo-Indian** sends a bishop to b4 to trade off the knight that would guard e4.\n- **The Queen's Indian** aims a bishop down the long light diagonal at that same square."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+      "prompt": "Open the long light-squared diagonal so your queen's bishop can join the argument over e4.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "The bishop on c8 has a diagonal that reaches e4, and one of your own pawns is parked on the first square of it."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "Both Bishops, One Diagonal",
+      "text": "White has claimed the same road. The pawn on g3 is not a developing move by itself — it is the door for a bishop to g2, which looks at e4 from the edge of the board.\n\n{{Bb7}} {{Bg2}}, and the bishops end up facing each other down the diagonal, with e4 in the middle. White adds a knight from c3 next, and the count on e4 tips.\n\nSo the straight answer is not enough on its own. Black has to find a second thing to hit."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "Nobody Is Watching c4",
+      "text": "Go back over White's four moves and ask which of them defends anything. The pawn on c4 is guarded by nothing at all: no piece stands behind it, and the pawn on b2 has not stepped up to hold it.\n\nThat is the standing cost of the wing pawn White pushed on move two. It grabs space, then it needs looking after, and a bishop headed for g2 is facing the other way.\n\nRestraint is not passivity. It is waiting for the move that has to be answered.\n\n> A pawn nobody defends decides where the game gets played."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "prompt": "Attack the pawn nothing defends, and make White prop it up with a pawn instead of a piece.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Your queen's bishop has two ways out of c8. One of them lands on a square that sees c4."
+    }
+  ]
+}

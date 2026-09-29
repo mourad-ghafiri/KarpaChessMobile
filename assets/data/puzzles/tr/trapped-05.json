@@ -1,0 +1,12 @@
+{
+  "id": "trapped-05",
+  "fen": "3r2k1/1pp2pp1/7p/n2P4/8/3P3P/PP3PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b4"
+  ],
+  "rating": 1170,
+  "title": "Köşeye Sıkışmış At",
+  "setup": "Siyahın atı a5'e inmiş; dört sıçrayışı b3, c4, c6 ve b7 ve b7 kendi piyonu.",
+  "hint": "a2, d3 ve d5'teki piyonlarınız atın dört karesinden üçünü zaten gözlüyor. Eksik olan yalnızca saldırı.",
+  "explanation": "## Fikir\n\n{{b4}} ata saldırır ve atın gidecek yeri yoktur: b3 axb3'e, c4 dxc4'e, c6 dxc6'ya yürür ve b7'yi siyahın kendi piyonu kapatır. a5'teki at, eski at olmaya tek bir piyon hamlesi uzaklıktadır."
+}

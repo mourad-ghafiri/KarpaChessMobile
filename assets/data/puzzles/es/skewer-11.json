@@ -1,0 +1,14 @@
+{
+  "id": "skewer-11",
+  "fen": "8/2q3k1/p7/2p1P2p/PR1p1P2/3Q4/2B3rP/5K2 w - - 0 1",
+  "solution": [
+    "Qh7+",
+    "Kf8",
+    "Qxc7"
+  ],
+  "rating": 1270,
+  "title": "El alfil detrás",
+  "setup": "Tu dama de d3 está delante de tu alfil, y el rey y la dama negros comparten la séptima fila.",
+  "hint": "Tu dama tapa a su propio alfil. ¿Adónde puede ir para que dejar la casilla sea justo lo que la mantiene a salvo?",
+  "explanation": "## La idea\n\n{{Qh7+}} parece un regalo hasta que ves lo que hace dejar d3: ahora el alfil de **c2** cubre h7 por la diagonal b1–h7, así que el rey no puede comer. {{Kf8}} es forzada, y la séptima fila queda desnuda para {{Qxc7}}."
+}

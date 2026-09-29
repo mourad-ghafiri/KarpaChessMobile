@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-02",
+  "fen": "k7/2b2r2/5Q2/p7/3R4/1B6/KRp5/8 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Ka7",
+    "Rb7+",
+    "Ka8",
+    "Qa6#"
+  ],
+  "rating": 1385,
+  "title": "Fil Hattı Açıyor",
+  "setup": "Siyahın şahı a8 köşesinde sıkışmış ve siyahın c2'deki piyonu terfi etmeye bir adım uzaklıkta. Önce mat geliyor.",
+  "hint": "Taşlarınızdan biri kalenizin ihtiyacı olan dikeyde duruyor. Ona hem oynatan hem şah çektiren bir iş verin.",
+  "explanation": "## Fikir\n\n{{Bd5+}} b3'ü temizler ve şah çeker; {{Rb7+}} şahı köşeye geri iter; {{Qa6#}} a dikeyinden mat eder ve d5'teki fil artık b7'deki kaleyi tutar. Bir avdaki her hamle hem şah çekmeli hem de ağı iyileştirmelidir."
+}

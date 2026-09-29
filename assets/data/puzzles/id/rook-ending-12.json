@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-12",
+  "fen": "8/4P3/1R5K/8/8/4k3/8/4r3 b - - 0 1",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1600,
+  "title": "Keluar dari Lajur Promosi",
+  "setup": "Benteng Hitam menahan pion e dari e1 dan raja harus bergegas kembali, tetapi hanya satu rute yang bertahan.",
+  "hint": "Benteng Anda menjaga petak promosi di sepanjang lajur. Satu langkah pulang mana yang tak menghalangi garis itu maupun kehilangan tempo?",
+  "explanation": "## Ide\n\nBenteng menahan e8 di sepanjang lajur, jadi raja tak boleh berdiri di sana: {{Ke4}} kalah karena {{e8=Q+}}, sekak yang menusuk raja terhadap benteng di belakangnya. Dari d3 atau f3, {{Rb7}} memberi Putih tempo yang dibutuhkannya. Sesudah {{Kd4}}, {{e8=Q}} {{Rxe8}} hanya menyisakan akhir permainan benteng yang remis."
+}

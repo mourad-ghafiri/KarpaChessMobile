@@ -1,0 +1,13 @@
+{
+  "id": "forks-12",
+  "fen": "r5k1/p5pp/1p6/2p5/7q/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qd5+",
+    "Kf8",
+    "Qxa8+"
+  ],
+  "title": "Satu Menteri, Dua Diagonal",
+  "setup": "Kedua menteri sudah keluar, materinya seimbang, dan benteng Hitam di a8 belum bergerak.",
+  "hint": "Menteri Anda bisa mencapai petak yang memberi sekak di sepanjang satu garis dan menyerang benteng di sepanjang garis lain.",
+  "explanation": "## Ide\n\n{{Qd5+}} memberi sekak kepada raja di g8 di sepanjang satu diagonal dan menyerang benteng di a8 di sepanjang diagonal yang lain. Dengan f7 kosong dan tak ada buah hitam yang bisa mencapai e6 atau f7, sekak itu tak bisa dihalangi, jadi raja harus menyingkir. Sesudah {{Kf8}}, {{Qxa8+}} mengambil benteng dengan sekak.\n\nMenteri menggarpu di sepanjang garis-garisnya: carilah petak tempat dua garis bertemu dua sasaran."
+}

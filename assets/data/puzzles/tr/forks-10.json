@@ -1,0 +1,13 @@
+{
+  "id": "forks-10",
+  "fen": "4q3/8/8/4k3/8/8/8/R6K w - - 0 1",
+  "solution": [
+    "Re1+",
+    "Kd6",
+    "Rxe8"
+  ],
+  "title": "Veziri Şişe Geçirin",
+  "setup": "e5'teki siyah şah ile e8'deki siyah vezir aynı dikeyde duruyor ve şah önde.",
+  "hint": "O dikeye şah çekerek girin. Sonra şahın neyin önünde durduğunu sorun.",
+  "explanation": "## Fikir\n\nDaha değerli taş yakın olandır. Şiş budur: öndeki taşa vurun ve onun sakladığını alın.\n\n{{Re1+}} dikeyi sahiplenir. Altı cevabın hepsi şah hamlesidir — araya hiçbir şey giremez, çünkü vezirin e2, e3 ya da e4'e ulaşmak için kendi şahının içinden geçmesi gerekirdi.\n\n{{Kd6}} da diğerleri kadar iyidir ve {{Rxe8}} veziri toplar. Açmazda değerli taş arkadadır; şişte öndedir ve oynamak pahalıya patlar."
+}

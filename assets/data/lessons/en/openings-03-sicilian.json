@@ -1,0 +1,56 @@
+{
+  "id": "sicilian",
+  "title": "The Sicilian Defense",
+  "summary": "A wing pawn for a center pawn, and two sides that can never copy each other again",
+  "proof": "openings-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "title": "A Pawn Off the Wing",
+      "text": "Every trade changes two things: what is left on the board, and what shape the pawns are left in. Here the second one is the whole point.\n\nWhite's pawn on d4 stands one diagonal from your pawn on c5, and the opening turns on whether you take. If you do, you hand over a pawn that started at the edge of the board and remove one standing in the middle. White recaptures, so nothing is won.\n\nThe shape does not come back. From that moment the two sides have different pawns on each wing, forever."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Trade your wing pawn for the pawn White has just planted in the middle.",
+      "targetSan": [
+        "cxd4"
+      ],
+      "hint": "Rank your own pawns by how close to the center they stand, then find the capture that improves that count."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "What the Trade Bought",
+      "text": "White has recaptured and material is level. The pawns tell the rest.\n\nYou have two of them in the middle, on d6 and e7, against White's one on e4. Out on the queenside White has three to your two. None of that is an advantage yet. It is an imbalance, and the imbalance is what you paid for.\n\nThe c-file is the receipt. Your pawn has left it and White's pawn on c2 has not — a **half-open file**, one where only a single army still has a pawn. You are the army that can use it."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "The Refusal to Mirror",
+      "text": "Answer White's king's pawn with your own and both armies want the same squares, the same files, the same plans. Sooner or later somebody offers a draw and nobody has a reason to refuse.\n\nThis structure cannot be copied. Different pawns on each wing mean different plans, and two different plans have to be played out until one of them is shown to be better.\n\nThat is the appeal, and it is why the Sicilian is the most played answer in the world to a first move of the king's pawn."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "Move Eleven",
+      "text": "Both sides have finished bringing pieces out, and the shape has held. Your pawns on d6 and e6 make a small center, side by side — cramped to look at, and very hard to crack. White's pawns on e4 and f4 own more room and want to tear a line open on the kingside.\n\nBlack spends the middlegame preparing one push: {{d5}}. The moment that pawn lands, the small center is a full one and every short-of-air piece stretches out. White's kingside plan is a race to get there first."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "The File You Emptied",
+      "text": "Your rook on a8 has not moved since the game began, and it is staring at your own pawn on a6. Two files over there is no pawn of yours at all.\n\nAt the far end of that file sit White's two softest points: the pawn on c2, which no white pawn can ever defend, and the knight on c3, which is holding the center together. Black's **counterplay** lives there — not in guarding the kingside, but in the file the trade opened.\n\n> A wing pawn is worth a center pawn whenever the file it opens points at something."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "prompt": "Bring your idle rook to the file your c-pawn left behind.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "No pawn of yours stands on that file anymore, and White's two weakest points sit at the far end of it."
+    }
+  ]
+}

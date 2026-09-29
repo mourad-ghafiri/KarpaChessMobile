@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-05",
+  "fen": "3r2k1/1p3ppp/2n5/b7/1N6/2P3P1/5P1P/R5K1 w - - 1 2",
+  "solution": [
+    "Nxc6"
+  ],
+  "rating": 1210,
+  "title": "Recupera a Peça",
+  "setup": "Estás uma peça abaixo. A tua torre olha pela coluna a para o bispo de a5, que é defendido apenas pelo cavalo de c6.",
+  "hint": "O bispo de a5 tem um defensor. Antes de comeres o bispo, pergunta o que pode comer o defensor.",
+  "explanation": "## A Ideia\n\n{{Nxc6}} elimina a única peça que cobre a5. Depois de {{bxc6}}, {{Rxa5}} come o bispo: cavalo por cavalo, e depois um bispo de graça, e o material fica outra vez igual. Qualquer coisa mais lenta deixa {{Bxb4}} trocar o teu cavalo, e as pretas continuam uma peça acima.\n\nO defensor é muitas vezes mais barato do que a peça que guarda."
+}

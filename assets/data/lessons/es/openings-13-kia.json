@@ -1,0 +1,50 @@
+{
+  "id": "kings-indian-attack",
+  "title": "El Ataque Indio de Rey",
+  "summary": "Ocho jugadas que siempre haces, y la carrera que siempre viene después",
+  "proof": "openings-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Ocho jugadas, ninguna pregunta",
+      "text": "Ocho jugadas, y las Blancas no se han preguntado ni una vez qué hacían las Negras. Caballo a f3, peón a g3, alfil a g2, rey a la esquina, peón a d3, caballo a d2, peón a e4, torre a e1: casi en cualquier orden, contra casi cualquier cosa.\n\nEso es el Ataque Indio de Rey. Es un planteamiento más que una variante, así que no hay teoría que cargar: el mismo medio juego llega en cada partida, y se aprende una sola vez. Fischer lo usó durante años contra la Francesa y la Siciliana, jugando cada vez las mismas jugadas."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Dos planes, direcciones opuestas",
+      "text": "Las Negras no esperan nada de eso. Los peones del flanco de dama son lo más rápido del tablero, y tienen una dirección: c2, y lo que quede protegiéndolo.\n\n{{b5}} es el primer empujón. Los demás lo siguen, la columna c se abre y las torres negras bajan por ella.\n\nNinguno de los dos va a defender. En una carrera, una jugada gastada en mirar atrás es una jugada regalada al otro corredor, así que las Blancas nunca responden en el flanco de dama. Responden en el otro flanco, adonde ya apuntan el peón de e4, el alfil de g2 y los dos caballos."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p3bppp/2n1pn2/1ppp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - b6 0 9",
+      "prompt": "Gana espacio delante de tus propias piezas con un avance de peón que desaloje al caballo más cercano al rey negro.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "El caballo de f6 es el único defensor real cerca de ese rey. ¿Cuál de tus peones puede atacarlo?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Por qué los flancos son seguros",
+      "text": "El peón de e5 está ahora nariz con nariz con el peón de e6. En el centro no queda nada que cambiar ni nada que abrir, y ese es exactamente el permiso que necesita un ataque en el flanco: sin línea por el centro, no hay camino hacia ninguno de los reyes por ahí.\n\nAsí que los dos bandos miran hacia los lados. Las Blancas juegan {{h4}}, las Negras responden {{b4}}, las Blancas empujan {{h5}}, y nadie manda una pieza a casa.\n\n> Ataca en el flanco donde tienes espacio, y mantén cerrado el centro mientras lo haces."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Falta un atacante",
+      "text": "Cuenta lo que las Blancas apuntan al rey negro: el alfil de g2, el caballo de f3, una dama y una torre no muy lejos. Ahora cuenta lo que las Negras tienen en casa. Está igualado, e igualado no basta.\n\nEl caballo de d2 es la pieza que lo decidiría, y está tan lejos de ese rey como puede estarlo una pieza. El camino corto por e4 lo cubre el peón negro de d5. El largo pasa por la casilla que dejó la torre al irse a e1, y desde ahí el caballo elige entre e3, que mira a d5 y f5, y h2, a un salto de g4."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "prompt": "Pon en marcha tu pieza más lenta hacia el rey negro, por el único camino que dejan abierto sus propios peones.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Mira las casillas vacías de tu primera fila. Una de ellas es la rampa de acceso de un caballo hacia el flanco de rey."
+    }
+  ]
+}

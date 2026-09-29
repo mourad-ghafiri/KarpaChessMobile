@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-15",
+  "fen": "8/4k3/8/3K4/8/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "title": "King in Front of the Pawn",
+  "setup": "Your king has marched ahead of its pawn, and Black's king is waiting on e7. The next king move decides the game.",
+  "hint": "Pushing the pawn wastes the king's work. Put your king where Black's king has to give way.",
+  "explanation": "## The Idea\n\n{{Ke5}} steps in front of the pawn and takes the opposition: the kings face each other with one square between them, and Black must move. Whichever way the black king goes, yours walks past it, for example {{Kd7}} {{Kf6}}, and the pawn follows. Push the pawn first with {{e4}}, or step anywhere else, and Black takes the opposition instead: a draw.\n\nIn a king and pawn ending, the king leads and the pawn follows."
+}

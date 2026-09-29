@@ -1,0 +1,11 @@
+{
+  "id": "strategy-06",
+  "fen": "rnbqnrk1/ppp1ppb1/6p1/4p3/3P4/2N2N2/PPP2PP1/R1BQKB1R w KQ - 0 9",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Son Koyu Kareyi Satın Alın",
+  "setup": "h dikeyi siyahın şahına doğru açık ve çevresindeki koyu kareleri tek bir taş koruyor: g7'deki fil.",
+  "hint": "c1'deki filiniz o koruyucuya doğrudan meydan okuyabilir ve h1'deki kaleniz kareyi çoktan destekliyor.",
+  "explanation": "## Fikir\n\nSiyahın h piyonu gitti ve g piyonu g7'yi terk etti; yani hiçbir siyah piyon h6'yı bir daha kapsamayacak. Bu işi tek başına g7'deki fil yapıyor.\n\n{{Bh6}} onu değişmeyi önerir ve h1'deki kale filinizin arkasında durur. Filler kalktıktan sonra siyahın koyu kareler için fili kalmaz ve şahın çevresindeki her koyu kare sizin kullanımınıza geçer."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "defence-03",
+  "fen": "8/5Q2/6R1/1k1K4/2r5/8/1q5b/8 w - - 0 1",
+  "solution": [
+    "Qb7+",
+    "Ka4",
+    "Ra6#"
+  ],
+  "rating": 1530,
+  "title": "Os Dois Reis ao Ar Livre",
+  "setup": "Os reis estão a duas casas de distância, em b5 e d5, e a dama, a torre e o bispo pretos apontam todos na tua direção.",
+  "hint": "Todas as jogadas silenciosas perdem. Procura o xeque que empurra o rei preto para a tua torre, não para longe dela.",
+  "explanation": "## A Ideia\n\n{{Qb7+}} manda o rei para a coluna a, {{Ka4}} ou {{Ka5}}, e de qualquer maneira a torre atravessa para {{Ra6#}}. Empurrar um rei para a berma nem sempre é o plano — empurrá-lo na direção das tuas peças é."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-11",
+  "fen": "7r/8/b1B5/3R4/K7/8/kpR5/5Q2 w - - 0 1",
+  "solution": [
+    "Rxb2+",
+    "Kxb2",
+    "Rd2+",
+    "Kc3",
+    "Qc1#"
+  ],
+  "rating": 1700,
+  "title": "Biarkan Raja Mengambilnya",
+  "setup": "Raja Hitam di a2 dengan pion di b2 yang hendak berpromosi, gajahnya di a6 dan benteng di h8 mengawasi dari jauh.",
+  "hint": "Pionnya bukan bahaya — raja di belakangnya yang berbahaya. Carilah pengorbanan yang mengubah tempat berlindung menjadi jalan.",
+  "explanation": "## Ide\n\n{{Rxb2+}} menyerahkan benteng untuk menarik raja ke baris yang dikuasai benteng Anda yang lain. {{Kxb2}} terpaksa, {{Rd2+}} menggiringnya ke c3, dan {{Qc1#}} mengakhirinya. Raja yang menangkap adalah raja yang sudah dipindahkan ke tempat yang Anda inginkan."
+}

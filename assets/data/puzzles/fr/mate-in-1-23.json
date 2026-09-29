@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-23",
+  "fen": "6k1/pp3ppp/8/8/8/8/PPR2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rc8#"
+  ],
+  "title": "Le marteau de la colonne ouverte",
+  "setup": "La colonne c est vide entre votre tour et la 8e rangée, et l'abri de pions noirs n'a aucune fenêtre de fuite.",
+  "hint": "Chargez sur la colonne c ouverte. Les propres pions noirs piègent le roi pour vous.",
+  "explanation": "## L'idée\n\nC'est un mat du couloir par une colonne ouverte : aucun pion d'aucune couleur n'est sur la colonne c, donc votre tour a une route dégagée jusqu'à la huitième rangée.\n\n{{Rc8#}} donne échec le long de la dernière rangée. f8 et h8 sont sur la ligne de la tour, f7, g7 et h7 sont occupées par les propres pions noirs, et aucune pièce noire ne peut s'interposer ni prendre.\n\nUne colonne ouverte est une autoroute vers la dernière rangée."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chess-origins",
+  "title": "Nacido en la India",
+  "summary": "Infantería, caballería, elefantes y carros, y cuáles sobrevivieron al viaje",
+  "proof": "history-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "Cuatro divisiones",
+      "text": "Retira de este tablero los dos reyes y las dos damas. Todo lo que queda en pie es una división de un ejército: infantería, caballería, elefantes, carros.\n\nLa mayoría de los historiadores sitúan ese ejército en el norte de la India hacia el siglo VI, en un juego llamado **chaturanga** —«de cuatro miembros»—, por las cuatro armas con que se formaba un ejército. Nadie puede nombrar a su inventor, ni el año.\n\nLas dos piezas que acabas de retirar nunca fueron divisiones. El rey mandaba, y junto al rey había un consejero. Ese consejero es tu dama."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "El camino del carro",
+      "text": "Un carro quiere una sola cosa: un camino sin nada en él.\n\nA ningún bando le queda el peón de e, así que la columna e está desnuda de punta a punta, salvo por dos piezas negras: el caballo de e4 y, al final del camino, el rey negro en e8.\n\nPon en esa columna algo que ataque a lo largo de ella y el caballo queda clavado donde está. Todas las casillas a las que llega su L están fuera de ese camino, y salir de él dejaría a su propio rey atacado."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "prompt": "Ya no quedan peones de e: toma ese camino vacío con una torre y clava el caballo delante de su rey.",
+      "hint": "Solo una de tus torres puede llegar. Mira qué le bloquea el paso a la otra.",
+      "targetSan": [
+        "Re1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQR1K1 b k - 2 10",
+      "title": "Una jugada tarde",
+      "text": "El caballo está atacado y no puede huir, y cualquier defensor que las Negras envíen a e4 abandona al otro caballo, al que ya apunta el peón blanco de d.\n\nAsí que las Negras sacan al rey de la discusión. {{Ne7}} interpone una pieza entre ambos, y el caballo atrapado vuelve a ser libre, pero juegan las Blancas.\n\n{{Rxe4}} lo recoge. Para eso sirve un carro. No tiene que alcanzar el objetivo en esta jugada: le basta con seguir apuntándolo."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Lo que se reescribió",
+      "text": "Nuevo tablero. El juego salió de la India y se reescribió más de una vez por el camino, y dos piezas se llevaron casi todos los cambios.\n\nEl elefante saltaba exactamente dos casillas en diagonal. Podía tocar ocho de las sesenta y cuatro casillas y ninguna más. Europa lo descartó. El consejero siguió el camino contrario: la pieza más débil del tablero volvió convertida en la más fuerte.\n\nEl carro y el caballo cruzaron intactos. El enroque le dio más tarde al carro un truco que ningún carro había tenido, pero su forma de cruzar el tablero es la de siempre."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "El caballo conservó su salto",
+      "text": "Todas las demás piezas viajan por una línea, y una línea funciona en los dos sentidos: el caballo que acabas de atrapar se perdió porque una línea lo atravesaba hasta su propio rey.\n\nUn salto no tiene línea. El caballo nunca cruza las casillas entre su salida y su llegada, así que no hay nada en lo que interponerse ni a lo largo de lo que apuntar. Un jaque de caballo deja exactamente dos respuestas: mover el rey o capturar el caballo.\n\n> Un camino se puede cortar. Un salto, no."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Encuentra el salto que da jaque al rey negro y ataca a la vez a la torre de c8.",
+      "hint": "Empieza por el rey: haz la lista de las casillas vecinas a las que llega tu caballo y pregúntate qué más toca cada una.",
+      "targetSan": [
+        "Ne7+"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "queens-pawn-family",
+  "title": "Las aperturas de peón de dama",
+  "summary": "Ocupar el centro, o frenarlo",
+  "proof": "openings-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Dos peones que nunca se tocan",
+      "text": "Avanza dos casillas el peón de rey y los peones centrales acaban mirándose de frente, cada uno sin protección, cada uno convertido en objetivo desde la jugada siguiente.\n\nEl peón de dama cubre el mismo terreno sin empezar ninguna pelea. Un peón que llega a d4 está protegido por la dama de d1 en cuanto aterriza, y un peón negro que llega a d5 lo protege igual de bien su propia dama. No se puede capturar nada.\n\nAsí que estas partidas empiezan sin contacto. Lo que las decide rara vez es una táctica en la jugada ocho. Es una casilla que alguien dominó mejor en la jugada treinta."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "De frente",
+      "text": "{{d4}} {{d5}}. Las Negras toman la misma parte que tomaron las Blancas, y los dos peones se bloquean en casillas donde ninguno puede capturar.\n\nAsí que las Blancas cambian de tema: {{c4}}, un peón de flanco ofrecido por un peón central. Es el Gambito de Dama, la apertura más antigua de la familia.\n\nEl peón se ofrece, no se regala. Las Negras pueden tomarlo, y a menudo lo hacen, pero conservarlo cuesta tantas jugadas que el peón suele volver, con las piezas blancas ya fuera y apuntando al centro."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Dejarlo estar",
+      "text": "Las Negras no han puesto un peón en el centro, y eso es un plan, no un retraso. El caballo de f6 ya impide que el peón de e blanco llegue a e4, y el peón de e6 abre camino a un alfil.\n\nSon las defensas indias, y se distinguen por qué pieza lleva la discusión.\n\n- **La India de Rey** cede el centro, coloca un alfil en fianchetto en g7 y derriba el muro más tarde.\n- **La Nimzo-India** lleva un alfil a b4 para cambiar el caballo que protegería e4.\n- **La India de Dama** apunta un alfil por la gran diagonal blanca a esa misma casilla."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+      "prompt": "Abre la gran diagonal blanca para que tu alfil de dama entre en la discusión sobre e4.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "El alfil de c8 tiene una diagonal que llega a e4, y uno de tus peones está aparcado en su primera casilla."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "Dos alfiles, una diagonal",
+      "text": "Las Blancas han reclamado el mismo camino. El peón de g3 no es una jugada de desarrollo por sí mismo: es la puerta para un alfil a g2, que mira a e4 desde el borde del tablero.\n\n{{Bb7}} {{Bg2}}, y los alfiles se enfrentan a lo largo de la diagonal, con e4 en medio. Luego las Blancas suman un caballo desde c3, y la cuenta sobre e4 se inclina.\n\nAsí que la respuesta directa no basta por sí sola. Las Negras tienen que encontrar una segunda cosa a la que golpear."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "Nadie vigila c4",
+      "text": "Repasa las cuatro jugadas blancas y pregúntate cuál defiende algo. El peón de c4 no está protegido por nada: ninguna pieza está detrás de él, y el peón de b2 no ha avanzado para sostenerlo.\n\nEse es el coste permanente del peón de flanco que las Blancas avanzaron en la segunda jugada. Gana espacio, luego hay que cuidarlo, y un alfil camino de g2 mira hacia el otro lado.\n\nFrenar no es ser pasivo. Es esperar la jugada a la que hay que responder.\n\n> Un peón que nadie defiende decide dónde se juega la partida."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "prompt": "Ataca el peón que nada defiende, y obliga a las Blancas a sostenerlo con un peón en lugar de con una pieza.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Tu alfil de dama tiene dos salidas desde c8. Una cae en una casilla que ve c4."
+    }
+  ]
+}

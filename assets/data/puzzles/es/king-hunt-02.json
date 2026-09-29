@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-02",
+  "fen": "k7/2b2r2/5Q2/p7/3R4/1B6/KRp5/8 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Ka7",
+    "Rb7+",
+    "Ka8",
+    "Qa6#"
+  ],
+  "rating": 1385,
+  "title": "El alfil abre la línea",
+  "setup": "El rey negro está atascado en la esquina de a8, y el peón negro de c2 está a un paso de coronar. El mate va primero.",
+  "hint": "Una de tus piezas está en la columna que necesita tu torre. Dale un trabajo que la mueva y dé jaque a la vez.",
+  "explanation": "## La idea\n\n{{Bd5+}} despeja b3 y da jaque; {{Rb7+}} devuelve al rey a la esquina; {{Qa6#}} da mate por la columna a, con el alfil de d5 sosteniendo ahora la torre de b7. Cada jugada de una caza debería dar jaque y estrechar la red a la vez."
+}

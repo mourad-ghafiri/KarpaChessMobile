@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-07",
+  "fen": "6k1/3N2pp/8/3r2B1/8/7Q/5PPP/4K3 w - - 0 1",
+  "solution": [
+    "Qe6+",
+    "Kh8",
+    "Qe8#"
+  ],
+  "rating": 1200,
+  "title": "Le cavalier coupe f8",
+  "setup": "Votre cavalier en d7 couvre discrètement f8, ce qui laisse au roi noir bien moins de cases qu'il ne le croit.",
+  "hint": "Comptez les cases de fuite du roi noir avant de donner échec. Laquelle votre cavalier surveille-t-il déjà ?",
+  "explanation": "## L'idée\n\nLe cavalier en **d7** couvre f8, donc un échec sur la diagonale a2–g8 ne laisse au roi qu'une case. {{Qe6+}} force {{Kh8}}, et {{Qe8#}} mate sur la dernière rangée : la dame couvre g8 et les pions en g7 et h7 font le reste."
+}

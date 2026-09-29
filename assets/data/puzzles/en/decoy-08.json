@@ -1,0 +1,14 @@
+{
+  "id": "decoy-08",
+  "fen": "6rk/pp1q2pp/8/5P1Q/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1420,
+  "title": "Queen Buys the File",
+  "setup": "Your queen on h5 stares at h7 and your rook on d1 is one swing away from the h-file.",
+  "hint": "The king cannot move a single square. What has to happen before your rook matters on the h-file?",
+  "explanation": "## The Idea\n\n{{Qxh7+}} is a whole queen for one pawn, but {{Kxh7}} is forced. The h-file is bare, the pawn on f5 covers g6, and {{Rh1#}} arrives with nothing left to stop it. Material counts for nothing once the king has no square to stand on."
+}

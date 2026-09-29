@@ -1,0 +1,12 @@
+{
+  "id": "pin-07",
+  "fen": "8/8/2k2pp1/bR5p/P1P1r3/1P6/4B1KP/8 w - - 0 1",
+  "solution": [
+    "Bf3"
+  ],
+  "rating": 1040,
+  "title": "Tek Adım, Tek Kale",
+  "setup": "Siyahın e4'teki kalesi ile c6'daki şahı, aralarında tek bir boş kareyle aynı çaprazda oturuyor.",
+  "hint": "Filinizin, siyahın kalesini heykele çeviren mütevazı bir adımı var. Hangi çapraz şaha ulaşıyor?",
+  "explanation": "## Fikir\n\n{{Bf3}} aynı hamlede **e4**'teki kaleye saldırır ve onu **c6**'daki şaha karşı açmaza alır, çünkü f3–e4–d5–c6 hattı boştur. Kalenin koruyucusu yoktur ve kaçmasına izin yoktur, yani sıradaki hamlede düşer."
+}

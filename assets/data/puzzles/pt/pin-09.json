@@ -1,0 +1,12 @@
+{
+  "id": "pin-09",
+  "fen": "7k/2R1pr2/1R6/4r2p/6P1/Bb6/2P5/6K1 w - - 0 1",
+  "solution": [
+    "Bb2"
+  ],
+  "rating": 1120,
+  "title": "Pela Grande Diagonal",
+  "setup": "O rei preto está encaixotado em h8, e uma das torres pretas estacionou na grande diagonal escura.",
+  "hint": "O rei preto em h8 está na ponta de uma diagonal famosa. Qual das tuas peças pode reclamar a outra ponta?",
+  "explanation": "## A Ideia\n\n{{Bb2}} toma a diagonal de a1 a h8, onde a torre de **e5** fica agora presa à frente do seu próprio rei. A torre está atacada, indefesa, e não pode sair. Descravar com uma jogada de rei chega uma jogada tarde de mais."
+}

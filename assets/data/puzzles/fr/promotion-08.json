@@ -1,0 +1,14 @@
+{
+  "id": "promotion-08",
+  "fen": "1R6/1P3ppk/7p/8/8/8/3r1PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "b8=Q+"
+  ],
+  "rating": 1280,
+  "title": "Écartez-vous du chemin",
+  "setup": "Votre pion en b7 veut b8, mais votre propre tour s'y trouve, et la tour noire est sans protection en d2.",
+  "hint": "C'est votre propre tour qui fait blocus ici. Elle doit partir, et partir avec quelque chose que les Noirs ne peuvent pas ignorer.",
+  "explanation": "## L'idée\n\n{{Rh8+}} dégage b8 avec échec. {{Kxh8}} est le mieux qu'aient les Noirs — {{Kg6}} laisse aussi la tour debout — et {{b8=Q+}} promeut de nouveau avec échec, et les Blancs ont une dame contre une tour d'avance. Une pièce posée sur sa propre case de promotion doit partir en gagnant un temps."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-01",
+  "fen": "6k1/5ppp/8/8/8/8/1r3PPP/4R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 700,
+  "title": "Merebut Pion",
+  "setup": "Hitam baru saja mengambil pion di b2 dengan bentengnya, membiarkan baris kedelapannya benar-benar kosong.",
+  "hint": "Raja hitam punya tiga pionnya sendiri tepat di depannya. Apa yang tersisa baginya?",
+  "explanation": "## Ide\n\n{{Re8#}}. Raja di g8 terhalang pionnya sendiri di f7, g7 dan h7, dan setiap petak di baris kedelapan milik benteng. Raja di balik tiga pion yang belum bergerak tinggal satu sekak baris belakang dari mat setiap kali tak ada yang menjaga baris itu."
+}

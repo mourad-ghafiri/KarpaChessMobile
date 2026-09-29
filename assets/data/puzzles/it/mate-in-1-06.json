@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-06",
+  "fen": "6k1/8/6K1/8/8/8/8/1Q6 w - - 0 1",
+  "solution": [
+    "Qb8#"
+  ],
+  "title": "Re Faccia a Faccia",
+  "setup": "I re si fronteggiano sulla colonna g, e la vostra donna aspetta in b1 con tutta la scacchiera a disposizione.",
+  "hint": "Il vostro re copre già f7, g7 e h7. Quale traversa resta da prendere alla donna?",
+  "explanation": "## L'idea\n\nI re si fronteggiano con una casa in mezzo, quindi il vostro copre f7, g7 e h7, ogni fuga sulla settima traversa. Alla donna basta prendersi l'ottava.\n\n{{Qb8#}} lo fa dall'altra parte della scacchiera: f8 e h8 stanno sulla sua traversa, il re in g8 è sotto scacco, e niente può parare.\n\nVicino a un re nudo, assicuratevi che l'ultima mossa dia scacco. Un re senza case e senza scacco è stallo."
+}

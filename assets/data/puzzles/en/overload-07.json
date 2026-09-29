@@ -1,0 +1,14 @@
+{
+  "id": "overload-07",
+  "fen": "1Q3bk1/R4ppp/8/6r1/8/8/PPR5/K7 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rc8#"
+  ],
+  "rating": 1490,
+  "title": "Queen for a Bishop",
+  "setup": "Black's bishop has come back to f8, and you have a rook on the seventh and another waiting on c2.",
+  "hint": "You are not counting material here — you are counting escape squares. Find the one piece that supplies them all.",
+  "explanation": "## The Idea\n\n{{Qxf8+}} looks absurd until you see that {{Kxf8}} is forced and the king is now on the rank the c2 rook commands. {{Rc8#}} ends it, with the rook on a7 covering e7, the one flight square the pawns do not take away themselves."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "endgame-03",
+  "fen": "8/8/7k/4P3/8/5K2/8/8 w - - 0 1",
+  "solution": [
+    "Ke4"
+  ],
+  "title": "Le roi d'abord, le pion ensuite",
+  "setup": "Votre pion en e5 est passé, mais le roi noir en h6 est assez proche pour le rattraper seul. Un seul coup garde la victoire.",
+  "hint": "Poussez le roi, pas le pion. Quelle case place votre roi à côté de la route du pion avant que le roi noir y arrive ?",
+  "explanation": "## L'idée\n\nLe roi noir en h6 se tient dans le carré du pion, donc le pion ne peut pas gagner la course à lui seul. Il lui faut une escorte.\n\n{{Ke4}} est le seul coup qui garde la victoire : le roi se dirige vers les cases à côté de la route du pion tant qu'il peut encore les atteindre le premier. Poussez plutôt {{e6}}, ou envoyez le roi n'importe où ailleurs, et la position est nulle.\n\nComptez le carré avant de pousser. Si le roi adverse est dedans, le roi passe en premier."
+}

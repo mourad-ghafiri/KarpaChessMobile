@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-09",
+  "fen": "1k6/5ppp/8/5PPP/8/8/1K6/8 w - - 1 2",
+  "solution": [
+    "g6"
+  ],
+  "rating": 1390,
+  "title": "Três Contra Três",
+  "setup": "Seis peões estão frente a frente na ala do rei enquanto os dois reis estão a um tabuleiro de distância.",
+  "hint": "Nenhum rei chega a tempo, portanto procura uma jogada de peão que abra um corredor entregando material.",
+  "explanation": "## A Ideia\n\n{{g6}} é a única jogada que ganha, e entrega um peão. {{hxg6}} {{f6}} {{gxf6}} {{h6}} e o peão h não pode ser apanhado; se as pretas comerem para o outro lado a mesma rutura funciona com o peão f. As jogadas silenciosas empatam, e várias delas perdem para a ideia idêntica."
+}

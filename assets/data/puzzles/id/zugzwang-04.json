@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-04",
+  "fen": "8/2B5/8/8/1p5Q/k7/2K5/8 w - - 0 1",
+  "solution": [
+    "Qc4",
+    "Ka4",
+    "Qa6#"
+  ],
+  "rating": 1500,
+  "title": "Beri Raja Satu Petak",
+  "setup": "Raja Hitam di a3 dengan satu pion di b4, dan raja Anda di c2 sudah mengerjakan separuh tugasnya.",
+  "hint": "Raja Anda menguasai lebih banyak daripada kelihatannya. Tentukan ke petak mana Hitam akan pergi, dan tiba di sana lebih dulu.",
+  "explanation": "## Ide\n\n{{Qc4}} bukan sekak, tetapi merebut b3 dan b4 sementara raja Anda menjaga b2. Hanya {{Ka4}} yang menjauhkan raja dari tepi Anda — {{b3+}} berujung pada {{Qxb3#}}, dan {{Qa6#}} mendarat. Raja di tepi dengan satu petak tersisa sebenarnya sudah mat — ia hanya belum tahu."
+}

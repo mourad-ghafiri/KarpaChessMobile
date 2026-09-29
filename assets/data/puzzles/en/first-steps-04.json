@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-04",
+  "fen": "k7/3q4/8/8/8/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Rxd7"
+  ],
+  "title": "Rook on an Open Road",
+  "setup": "Your rook and the black queen share the wide-open d-file — and it's your move.",
+  "hint": "The d-file is empty between the two heavyweights. Who strikes first?",
+  "explanation": "## The Idea\n\nYour rook and Black's queen face each other down the open d-file, and it is **White to move**. On a shared line, whoever moves first gets there first.\n\n{{Rxd7}} takes the queen. The black king on a8 is nowhere near d7, so nothing takes back.\n\nWhen your piece and an enemy piece stand on the same open line, check whose turn it is before anything else."
+}

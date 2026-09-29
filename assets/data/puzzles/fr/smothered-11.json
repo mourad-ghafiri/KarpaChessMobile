@@ -1,0 +1,18 @@
+{
+  "id": "smothered-11",
+  "fen": "1r5k/p5pp/8/3QN3/1B6/8/5PPP/6K1 w - - 7 31",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1470,
+  "title": "Le cavalier passe deux fois",
+  "setup": "Le roi noir vient de fuir la diagonale dans le coin, et le fou en b4 couvre f8 de loin.",
+  "hint": "Comptez les issues : f8 est couverte et les pions tiennent g7 et h7, donc le roi ne peut que faire la navette entre deux cases.",
+  "explanation": "## L'idée\n\n{{Nf7+}} chasse le roi, {{Kg8}} est forcé, et {{Nh6+}} revient avec un échec double, donc {{Kh8}} est de nouveau le seul coup. Le cavalier protège maintenant g8 : {{Qg8+}} {{Rxg8}} et {{Nf7#}}. C'est le legs de Philidor, et les deux sauts de cavalier n'existent que pour préparer le sacrifice."
+}

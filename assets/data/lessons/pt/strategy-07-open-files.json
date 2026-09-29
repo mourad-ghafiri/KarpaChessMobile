@@ -1,0 +1,56 @@
+{
+  "id": "open-files",
+  "title": "As Colunas Abertas",
+  "summary": "Estradas para as torres — e como se constrói uma",
+  "proof": "strategy-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Conta os Peões da Coluna e",
+      "text": "Não há nenhum. Saíram à terceira e à quarta jogadas, e o que fica é uma faixa que percorre o tabuleiro em toda a sua altura e acaba no rei preto de e8.\n\nEssa faixa é uma **coluna aberta**: uma coluna sem peão nenhum de nenhuma das cores. Há duas peças nela, o cavalo em e4 e o bispo em e7, e as peças mexem-se. Os peões são a única coisa num tabuleiro de xadrez que não se pode desviar para o lado do caminho de uma torre, e aqui não há nenhum para desviar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "De Quem É a Estrada",
+      "text": "Uma torre num tabuleiro fechado é uma espetadora. Dá-lhe uma coluna livre de peões e finalmente ganha o seu valor, porque uma coluna está para uma torre como uma diagonal está para um bispo — é a única coisa que ela come.\n\nQual das torres, no entanto. Uma das tuas está entalada atrás do seu cavalo de b1 e não consegue atravessar. A outra está livre.\n\nE vai a torre à frente, a dama atrás. Uma dama à cabeça da coluna é um alvo que qualquer peça menor enxota ganhando tempo."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "prompt": "Põe a peça que vive nas colunas na única coluna onde não ficou nenhum peão de pé.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "Tens duas torres e só uma delas chega a essa faixa num só passo."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Três Trabalhos, Uma Jogada",
+      "text": "{{Re1}} traz a torre para a partida, ataca o cavalo de e4 por uma faixa onde não há mais nada, e aponta a um rei que ainda não se mexeu.\n\nAs pretas têm de responder. {{Bg4}} crava o cavalo de f3 contra a dama de d1, e as brancas seguem com {{c4}}, a atingir o peão de d5.\n\nRepõe um peão branco na casa e2 e nada disto existe. A torre fica em casa atrás dele, e as brancas jogam o meio-jogo com uma peça a menos."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Quase uma Estrada",
+      "text": "Tabuleiro novo, problema mais difícil: aqui todas as colunas têm um peão, e as duas torres brancas não têm nada a que apontar.\n\nA coluna c é o que há de mais parecido com uma estrada. As brancas não têm peão c nenhum, portanto só o peão preto de c6 a mantém fechada — semiaberta, e semiaberta é uma coluna à espera de ser acabada.\n\nEsse peão nunca se vai embora por vontade própria. Um peão deixa a sua coluna por uma razão só: captura alguma coisa. Portanto as brancas têm de lhe dar alguma coisa para capturar."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Menos Peões, Mais Pressão",
+      "text": "Que peão é que faz a alavanca. Só um dos das brancas pode alguma vez tocar em c6: o peão em b4, com o peão em a2 atrás como reserva.\n\nDois peões brancos contra três pretos nessa ala soa ao lado errado de uma conta. É um **ataque de minorias**, e é um pé de cabra. As pretas ficam com três respostas a um peão enfiado por baixo de c6, e as três são concessões: capturar abre a coluna, avançar para lá deixa o peão c a não cobrir nada, e ficar quieto deixa as brancas trocar em c6 e deixar lá um peão fraco.\n\n> Uma torre não fica à espera de uma coluna aberta. Escolhe uma e abre-a."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "prompt": "Força a abertura da coluna c atacando o peão preto que está nela.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Conta os peões de cada ala e depois pergunta qual dos teus chega a c6 num só passo."
+    }
+  ]
+}

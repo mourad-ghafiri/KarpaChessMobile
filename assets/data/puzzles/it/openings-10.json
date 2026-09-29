@@ -1,0 +1,17 @@
+{
+  "id": "openings-10",
+  "fen": "r1bqkbnr/pppp1ppp/8/1B2N3/3nP3/8/PPPP1PPP/RNBQK2R b KQk - 0 4",
+  "solution": [
+    "Qg5",
+    "Nxf7",
+    "Qxg2",
+    "Rf1",
+    "Qxe4+",
+    "Be2",
+    "Nf3#"
+  ],
+  "title": "Il Pedone che Non Era Mai Gratis",
+  "setup": "Il Nero ha risposto all'alfiere spagnolo con il cavallo in d4, e il cavallo bianco ha appena arraffato un pedone. Attaccate quel cavallo e un pedone indifeso con una mossa sola.",
+  "hint": "Il cavallo ingordo e il pedone g sono tutti e due indifesi. Trovate l'unica casa che li guarda entrambi.",
+  "explanation": "## L'idea\n\nL'alfiere spagnolo non attaccava mai davvero e5, e il Bianco ha comunque appena arraffato il pedone.\n\n{{Qg5}} colpisce insieme il cavallo in e5 e il pedone in g2. Il Bianco dovrebbe limitare i danni adesso; se continua ad arraffare con {{Nxf7}}, allora {{Qxg2}}, {{Rf1}} {{Qxe4+}}, {{Be2}} finisce in {{Nf3#}}, matto dal cavallo partito da d4.\n\nPrendere l'alfiere con {{Nxb5}} è altrettanto forte. La mossa di donna mostra perché il pedone non fosse mai gratis."
+}

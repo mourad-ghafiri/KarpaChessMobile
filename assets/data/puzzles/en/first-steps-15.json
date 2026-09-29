@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-15",
+  "fen": "1k6/1b6/8/2b5/8/6p1/R7/7K w - - 0 1",
+  "solution": [
+    "Rg2"
+  ],
+  "title": "Close the Window",
+  "setup": "The bishop on **b7** checks your king along the longest diagonal on the board.",
+  "hint": "Your king has no safe square — g1 and h2 are both covered. Can your rook step into the diagonal?",
+  "explanation": "## The Idea\n\nThe bishop on b7 checks along the whole long diagonal into your king on h1. The exits are sealed: the bishop on c5 covers g1, and the pawn on g3 covers h2.\n\nA diagonal check is still a line check, and lines can be blocked. {{Rg2}} slides along the second rank into the bishop's path. If {{Bxg2+}} follows, {{Kxg2}} takes back.\n\nA rook cannot move diagonally, but it can stand on a diagonal."
+}

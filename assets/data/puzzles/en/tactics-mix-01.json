@@ -1,0 +1,15 @@
+{
+  "id": "tactics-mix-01",
+  "fen": "7k/2r2ppp/3B4/2r1Nb2/8/8/PP2Q1Rq/K7 w - - 0 1",
+  "solution": [
+    "Nxf7+",
+    "Rxf7",
+    "Qe8+",
+    "Rf8",
+    "Qxf8#"
+  ],
+  "title": "The Knight Clears the File",
+  "setup": "Your queen would love the e-file, but your own knight on e5 stands in the way. Find the move that clears it and gives Black no time.",
+  "hint": "Move the knight with check, so Black never gets a spare move to guard the eighth rank.",
+  "explanation": "## The Idea\n\n{{Nxf7+}} clears the e-file with check. If the king steps to g8, the queen mates on e8 at once, so Black takes the knight: {{Rxf7}}.\n\nNow {{Qe8+}}, and the only block is {{Rf8}}, the rook that just left the seventh rank. {{Qxf8#}}: your bishop on d6 guards the queen, and the king has no square left."
+}

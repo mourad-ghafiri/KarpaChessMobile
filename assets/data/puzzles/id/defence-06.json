@@ -1,0 +1,14 @@
+{
+  "id": "defence-06",
+  "fen": "8/7B/6R1/1K1k4/r4q2/4Q3/r7/8 w - - 0 1",
+  "solution": [
+    "Bg8+",
+    "Qf7",
+    "Bxf7#"
+  ],
+  "rating": 1650,
+  "title": "Gajah Menghalangi untuk Anda",
+  "setup": "Hitam punya menteri di f4 serta benteng di a4 dan a2 yang membidik raja Anda di b5 — ancaman ada di mana-mana.",
+  "hint": "Temukan sekak yang hanya bisa dijawab Hitam dengan menaruh buah terkuatnya sebagai penghalang.",
+  "explanation": "## Ide\n\n{{Bg8+}} memaksa {{Qf7}}, karena tak ada yang lain bisa menutup, dan {{Bxf7#}} mengambil menteri sekaligus memenangkan partai. Sekak yang menuntut satu penutup tertentu lebih berharga daripada sekak yang sekadar mengganggu."
+}

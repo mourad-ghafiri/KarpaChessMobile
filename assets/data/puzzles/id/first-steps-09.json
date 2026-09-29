@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-09",
+  "fen": "5k2/6pp/p7/1p3p2/8/3B4/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Bxf5"
+  ],
+  "title": "Dua Pion, Satu Aman",
+  "setup": "Gajah Anda di d3 menyerang dua pion hitam, satu di setiap diagonal. Hanya satu yang bisa diambil dengan gratis.",
+  "hint": "Lihat satu petak diagonal di belakang setiap pion. Satu punya kawan yang berdiri di sana, dan satu berdiri sendirian.",
+  "explanation": "## Ide\n\nKedua pion duduk di diagonal gajah Anda, tetapi hanya satu yang gratis.\n\n{{Bxb5}} kehilangan gajah karena {{axb5}}, sebab pion di a6 menjaga b5. {{Bxf5}} langsung memenangkan pion, karena tak ada yang menjaga f5. Tunggu satu langkah dan Hitam memainkan {{g6}} untuk menjaganya.\n\nPion menjaga petak-petak diagonal di depannya. Sebelum menangkap, lihat satu petak diagonal di belakang sasarannya."
+}

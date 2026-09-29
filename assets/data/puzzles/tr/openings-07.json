@@ -1,0 +1,13 @@
+{
+  "id": "openings-07",
+  "fen": "r2qkbnr/ppp2ppp/2np4/4N3/2B1P3/2N4P/PPPP1PP1/R1BbK2R w KQk - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Nd5#"
+  ],
+  "title": "Légal Tuzağı",
+  "setup": "Beyaz açmazı umursamadan e5'te aldı ve siyah az önce vezirinizi alarak bozdurdu.",
+  "hint": "Vezir gitti ve bunun önemi yok. e8'in çevresindeki kareleri sayın ve son boş olanı alan şahı bulun.",
+  "explanation": "## Fikir\n\nÜç hafif taş, bütün ordusu hâlâ tahtada olan bir şahı mat etmek üzere.\n\n{{Bxf7+}} siyaha tek bir hamle bırakır, {{Ke7}}: d8 ile f8'de siyahın kendi veziri ve fili durur ve d7'yi e5'teki at kapsar. Ardından {{Nd5#}}: at şah çeker ve f6'yı kapsar, fil e6 ile e8'i kapsar ve d6'da siyahın kendi piyonu durur.\n\ne5'teki at hiçbir zaman piyonla ilgili değildi. O, d7'yi elinden alan taştır.\n\nTaşları değil, kaçış karelerini sayın."
+}

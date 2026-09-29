@@ -1,0 +1,11 @@
+{
+  "id": "endgames-07",
+  "fen": "4QK2/8/8/8/8/8/4pk2/8 w - - 0 1",
+  "solution": [
+    "Qf7+"
+  ],
+  "title": "Un échec, et un seul",
+  "setup": "Le pion noir en e2 va à dame au coup suivant, et votre roi en f8 est loin. La dame doit gagner le temps toute seule.",
+  "hint": "Les Noirs doivent parer un échec avant de pousser. Trouvez l'échec auquel le roi noir ne peut pas répondre en prenant la dame.",
+  "explanation": "## L'idée\n\nUn échec doit être paré avant que le pion puisse bouger, et depuis e8 la dame a exactement un échec que le roi ne peut pas simplement prendre : {{Qf7+}}, le long de la colonne f. Tout autre coup laisse le pion aller à dame, et dame contre dame, c'est nul.\n\nDepuis f7, la dame continue de donner échec et de guider le roi jusqu'à ce qu'il se pose en e1, devant son propre pion. C'est le coup gratuit, et votre roi le dépense à se rapprocher."
+}

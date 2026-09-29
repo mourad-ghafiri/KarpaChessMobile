@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-09",
+  "fen": "4k3/8/1B6/1KpR4/8/7p/8/R7 w - - 0 1",
+  "solution": [
+    "Ra7",
+    "h2",
+    "Rd8#"
+  ],
+  "rating": 1650,
+  "title": "Tutte e Due le Torri sulla Traversa di Fondo",
+  "setup": "Il re nero siede in e8 con pedoni in c5 e h3, e le vostre torri comandano la quinta traversa e la colonna a.",
+  "hint": "Una torre possiede già la colonna che il re userebbe. Date all'altra la traversa che le serve, senza dare scacco.",
+  "explanation": "## L'idea\n\n{{Ra7}} si prende in silenzio la settima traversa, e al Nero non resta niente che fermi {{Rd8#}}. {{Rd8#}} segue sulla traversa di fondo. Due torri danno matto prendendosi due traverse — il trucco è prendersi la seconda in silenzio."
+}

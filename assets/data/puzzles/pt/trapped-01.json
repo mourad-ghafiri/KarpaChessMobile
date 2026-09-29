@@ -1,0 +1,12 @@
+{
+  "id": "trapped-01",
+  "fen": "5rk1/ppp2pp1/7p/8/8/5N1P/bPP2PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b3"
+  ],
+  "rating": 1000,
+  "title": "O Bispo Guloso",
+  "setup": "O bispo preto acabou de comer o peão de a2 e está agora no canto do teu campo, em a2.",
+  "hint": "Conta as casas que esse bispo ainda tem. Tira-lhe a diagonal mais longa e vê o que sobra.",
+  "explanation": "## A Ideia\n\n{{b3}} fecha a diagonal em direção a g8 e deixa ao bispo só b1, uma casa que a tua torre cobre a partir de e1. Ra1 na jogada seguinte ganha-o. O peão de b3 está seguro porque c2 o defende. Um bispo que petisca um peão de ala muitas vezes não consegue voltar para casa."
+}

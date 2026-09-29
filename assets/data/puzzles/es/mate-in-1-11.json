@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-11",
+  "fen": "7k/8/5K2/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "El beso de la muerte",
+  "setup": "El rey negro está acorralado en h8, tu rey monta guardia en f6 y tu dama tiene la columna g.",
+  "hint": "La dama puede permitirse ponerse justo al lado del rey: tu propio rey vigila la casilla de llegada.",
+  "explanation": "## La idea\n\nEste es el beso de la dama con apoyo: la dama se planta justo al lado del rey rival, y tu propio rey la hace intocable.\n\n{{Qg7#}} da jaque. El rey de f6 protege g7, así que el rey de h8 no puede capturar la dama, y g8 y h7 las cubre la dama. A un jaque desde la casilla de al lado no se le puede tapar.\n\nUna dama al lado del rey rival es mate siempre que algo la proteja y el rey no tenga otra casilla."
+}

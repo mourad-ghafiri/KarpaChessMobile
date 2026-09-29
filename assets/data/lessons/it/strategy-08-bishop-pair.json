@@ -1,0 +1,50 @@
+{
+  "id": "bishop-pair",
+  "title": "La Coppia degli Alfieri",
+  "summary": "Due alfieri coprono ogni casa della scacchiera",
+  "proof": "strategy-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/1pp2ppp/p1np4/4p3/B3P1b1/5N1P/PPPP1PP1/RNBQ1RK1 b k - 0 6",
+      "title": "Il Cambio che Resta",
+      "text": "L'alfiere nero in g4 è a una mossa dal consegnare al Bianco qualcosa che non si può ricomprare.\n\n{{Bxf3}} {{Qxf3}}. Il Nero prende un cavallo che stava lavorando sul serio, quindi non è un regalo. È una vendita. Il Bianco si tiene due alfieri, al Nero ne resta uno, e nessuna mossa successiva disfa la cosa.\n\nLa partita prosegue: {{Nf6}}, {{c3}}, {{Be7}}. Adesso il Bianco deve dimostrare che la cosa valga la pena di possederla."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "title": "Perché Due Battono Uno più Uno",
+      "text": "Un alfiere nasce su un colore e ci muore. Un alfiere, mezza scacchiera — le altre trentadue case sono per sempre affari di qualcun altro.\n\nPossedeteli tutti e due e le due metà si incastrano. Chiare e scure, niente lasciato scoperto, e i due non si contendono mai la stessa casa. Questa è la **coppia degli alfieri**: non un vantaggio di pezzi, visto che il conto dei punti è pari, ma un vantaggio di copertura che dura tutta la partita.\n\nI giocatori forti la pagano. Spendono una mossa, o un pedone, per impedire a un cavallo di cambiarsi con un alfiere."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "prompt": "Sfidate il pedone nero in e5 con un vostro pedone e aprite una strada all'alfiere che non ne ha.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Tutti e due i pedoni che recintano l'alfiere di c1 possono muovere — prendete quello che pone anche una domanda al centro del Nero."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "La Coppia È una Promessa",
+      "text": "Partita diversa, e il Bianco possiede di nuovo tutti e due gli alfieri. Uno dei due è un imbarazzo.\n\nL'alfiere in c1 non ha mosso per tutta la partita, e l'unica casa che raggiunge non cambia niente — il suo stesso pedone in e3 sta sulla diagonale che vorrebbe. Sei pedoni sono bloccati al centro, c4, d4 e e3 contro c6, d5 e e6, e nessun alfiere scavalca un pedone. Ai cavalli neri non importa. Saltano tutto l'ingorgo, e in questo momento sono i pezzi leggeri migliori."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "Che Cosa Aspetta la Coppia",
+      "text": "Due alfieri sono una scommessa su una scacchiera aperta, e la scommessa si paga in diagonali.\n\nOgni pedone che lascia il centro allunga una strada, e le strade lunghe sono ciò per cui esiste un alfiere. Un cavallo non guadagna niente dalla stessa sgomberata: quattro balzi su una scacchiera vuota, quattro balzi su una affollata. Quindi chi ha la coppia vuole meno pedoni, e li vuole via dal centro.\n\nQuesto ribalta l'istinto solito. Non state cercando un pezzo da cambiare. State cercando un pedone da combattere.\n\n> Due alfieri, un piano: cambiate pedoni, non pezzi."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "prompt": "Rompete l'ingorgo di pedoni in mezzo così che l'alfiere di c1 abbia finalmente una diagonale da guardare.",
+      "targetSan": [
+        "e4"
+      ],
+      "hint": "L'alfiere in c1 vuole la diagonale verso h6, ed esattamente un pedone bianco ci è parcheggiato sopra — muovere quel pedone pianta anche la bandierina di un secondo pedone al centro."
+    }
+  ]
+}

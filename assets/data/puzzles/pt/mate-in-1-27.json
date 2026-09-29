@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-27",
+  "fen": "k7/8/1K6/8/8/8/8/7R w - - 0 1",
+  "solution": [
+    "Rh8#"
+  ],
+  "title": "Martelo do Outro Lado",
+  "setup": "O rei preto está entalado no canto de a8, e o teu rei em b6 cobre as casas à frente dele.",
+  "hint": "O teu rei de b6 segura a7 e b7. A tua torre pode dar xeque do outro extremo do tabuleiro.",
+  "explanation": "## A Ideia\n\nÉ outra vez o mate de canto de rei e torre, com a torre a dar xeque do lado oposto. O teu rei de b6 cobre a7 e b7.\n\n{{Rh8#}} dá xeque pela linha de fundo, e b8 está também na linha da torre. Nada pode tapar, e o rei não chega à torre.\n\nAssim que o teu rei constrói a jaula, a distância não enfraquece o xeque da torre."
+}

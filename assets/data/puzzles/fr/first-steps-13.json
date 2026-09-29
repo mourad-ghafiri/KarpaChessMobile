@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-13",
+  "fen": "k4r2/8/8/7b/8/3n4/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "La case tranquille",
+  "setup": "Un cavalier noir a atterri en d3 avec échec — et on ne s'interpose jamais devant un cavalier.",
+  "hint": "Le fou en h5 traverse f3, e2 et d1. La tour garde la colonne f. Cherchez la case dont personne ne parle.",
+  "explanation": "## L'idée\n\nLe cavalier en d3 met votre roi en échec, et on ne répond à un échec de cavalier qu'en déplaçant le roi ou en prenant le cavalier. Rien chez vous n'atteint d3, donc le roi doit bouger.\n\nd1 et e2 sont sur la diagonale du fou de h5, la tour en f8 couvre f1, et le cavalier lui-même couvre f2. {{Kd2}} est la seule case qui reste : juste à côté du cavalier, et en sécurité, car un cavalier n'attaque jamais une case qu'il touche."
+}

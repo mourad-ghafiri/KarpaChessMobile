@@ -1,0 +1,13 @@
+{
+  "id": "history-03",
+  "fen": "6k1/5ppp/b7/3K4/8/8/P7/7R b - - 0 1",
+  "solution": [
+    "Bb7+",
+    "Kc4",
+    "Bxh1"
+  ],
+  "title": "La Strada Lunga",
+  "setup": "Il vostro alfiere in a6, il re bianco in d5 e una torre sola nell'angolo in h1: tre case che possono diventare una linea.",
+  "hint": "L'alfil faceva solo salti. Quale diagonale contiene già il re bianco e la torre, e quale passo d'alfiere ci si unisce?",
+  "explanation": "## L'idea\n\nÈ questo che la riforma degli anni Settanta del Quattrocento diede all'alfiere: ogni casa della sua diagonale, fino in fondo.\n\n{{Bb7+}} entra sulla grande diagonale chiara con scacco. Il re bianco in d5 sta davanti, la torre in h1 dietro, e nessun pezzo bianco arriva a c6, l'unica casa in mezzo. Qualunque casa scelga il re, {{Kc4}} o un'altra, lascia la linea.\n\n{{Bxh1}} prende la torre dall'altro capo della scacchiera. Un alfil in a6 non avrebbe mai raggiunto h1 in nessun modo."
+}

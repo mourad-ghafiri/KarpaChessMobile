@@ -1,0 +1,12 @@
+{
+  "id": "fork-03",
+  "fen": "rnbqkb1r/pppp1ppp/8/4p3/2B1N3/8/PPPP1PPP/R1BQK1NR b KQkq - 0 4",
+  "solution": [
+    "d5"
+  ],
+  "rating": 760,
+  "title": "O Truque do Garfo",
+  "setup": "Deste um cavalo em e4 há uma jogada, e as brancas têm agora um cavalo e um bispo na mesma linha.",
+  "hint": "Que jogada de peão ataca o cavalo e o bispo ao mesmo tempo?",
+  "explanation": "## A Ideia\n\n{{d5}} atinge o cavalo de e4 e o bispo de c4 em conjunto, e liberta ao mesmo tempo o teu próprio bispo de c8. É o truque do garfo: entregas um cavalo por um peão e ganhas a peça logo de volta com um peão."
+}

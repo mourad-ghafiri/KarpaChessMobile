@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-01",
+  "fen": "2R5/8/1k1P4/8/5K2/8/8/7r w - - 0 1",
+  "solution": [
+    "d7"
+  ],
+  "rating": 1200,
+  "title": "Il Re Non Può Attraversare",
+  "setup": "La torre bianca in c8 tiene il re nero fuori dalla colonna c e sorveglia la casa verso cui il pedone d è diretto.",
+  "hint": "Niente del Nero arriva in tempo alla casa di promozione. E allora che cosa sta fermando davvero il pedone?",
+  "explanation": "## L'idea\n\nLa torre in c8 fa due lavori insieme: taglia fuori il re lungo la colonna c e difende d8. E allora il pedone corre e basta. {{d7}} {{Rh4+}} {{Kg5}} {{Rd4}} {{d8=Q+}} {{Rxd8}} {{Rxd8}} e il Bianco è avanti di una torre intera."
+}

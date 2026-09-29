@@ -1,0 +1,11 @@
+{
+  "id": "endgames-07",
+  "fen": "4QK2/8/8/8/8/8/4pk2/8 w - - 0 1",
+  "solution": [
+    "Qf7+"
+  ],
+  "title": "Tek Bir Şah, Yalnızca Bir Tane",
+  "setup": "Siyahın e2'deki piyonu sıradaki hamlede vezir oluyor ve f8'deki şahınız ona hiç yakın değil. Vakti vezirin tek başına satın alması gerekiyor.",
+  "hint": "Siyahın sürmeden önce bir şaha cevap vermesi gerekir. Siyahın şahının veziri alarak cevaplayamayacağı şahı bulun.",
+  "explanation": "## Fikir\n\nPiyon oynamadan önce bir şaha cevap verilmek zorundadır ve vezirin e8'den, şahın öylece alamayacağı tam olarak tek bir şahı vardır: f dikeyinden {{Qf7+}}. Başka her hamle piyonun vezir olmasına izin verir ve vezire karşı vezir beraberliktir.\n\nVezir f7'den şah çekmeyi sürdürür ve şahı, kendi piyonunun önündeki e1'e adım atana kadar yönlendirir. Bedava hamle odur ve şahınız onu içeri yürüyerek harcar."
+}

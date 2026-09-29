@@ -1,0 +1,14 @@
+{
+  "id": "defence-08",
+  "fen": "4K3/5rQ1/3q4/r6k/8/8/B7/3R4 w - - 0 1",
+  "solution": [
+    "Rh1+",
+    "Qh2",
+    "Rxh2#"
+  ],
+  "rating": 1730,
+  "title": "La Donna Deve Tornare",
+  "setup": "La donna nera in d6 e le torri in a5 e f7 circondano il vostro re in e8, mentre il loro re siede in h5.",
+  "hint": "I pezzi neri stanno tutti dalla parte sbagliata. Date scacco sulla colonna dove sta il loro re e guardate chi può aiutarlo.",
+  "explanation": "## L'idea\n\n{{Rh1+}} costringe la donna a parare con {{Qh2}}, abbandonando tutto, e {{Rxh2#}} conclude. I pezzi che attaccano il vostro re sono pezzi che non stanno difendendo il loro."
+}

@@ -1,0 +1,77 @@
+{
+  "id": "pawn-structure",
+  "title": "La structure de pions",
+  "summary": "Doublés, isolés, arriérés — ce que coûte chacun",
+  "proof": "strategy-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "title": "Deux pions, une colonne",
+      "text": "Deux pions sur la même colonne ne peuvent jamais se défendre l'un l'autre. Aucun ne peut s'écarter pour couvrir l'autre, et à eux deux ils contrôlent une seule colonne là où deux voisins en contrôleraient deux.\n\nRegardez l'aile dame noire : des pions en a6, b7, c7 et d7, chacun couvrant des cases que les autres ne couvrent pas. Aucun n'a de défaut. Les Blancs vont changer cela par une seule prise, et le changement est définitif — un pion ne se déplace de côté que s'il y a quelque chose à prendre."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "prompt": "Imposez une reprise qui laisse deux pions noirs empilés sur une même colonne pour le reste de la partie.",
+      "hint": "Une seule pièce noire est défendue par deux pions différents, et chacun de ces pions arriverait sur une colonne déjà occupée.",
+      "targetSan": [
+        "Bxc6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 5",
+      "title": "Une dette à échéance",
+      "text": "Les pions c noirs sont maintenant empilés, et ils le resteront jusqu'à la fin de la partie. En échange, les Noirs ont la paire de fous et une colonne d semi-ouverte — une vraie compensation, et une compensation à échéance. Les fous ont besoin de positions ouvertes, et les positions ouvertes ont besoin de pièces.\n\nLes Blancs se dirigent donc vers la finale. {{d4}} {{exd4}} {{Qxd4}} propose un échange de dames difficile à refuser, et chaque paire qui disparaît rend ces fous plus silencieux et les pions empilés plus bruyants."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/8/3QP3/5N2/PPP2PPP/RNB1K2R b KQk - 0 6",
+      "title": "Comptez les ailes",
+      "text": "Les dames disparaissent avec {{Qxd4}}, et ce qui reste est un compte.\n\nLes Blancs ont quatre pions contre trois sur l'aile roi. Poussez-les correctement et l'un d'eux passe : un pion passé fabriqué à partir d'une simple majorité.\n\nLes Noirs ont quatre pions contre trois sur l'aile dame, et ils n'en feront jamais un. Deux de ces quatre sont empilés en c6 et c7, donc tout le groupe ne s'étend que sur trois colonnes, et les trois pions blancs couvrent les trois."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "Un pion sans voisins",
+      "text": "Un deuxième échiquier, et une deuxième sorte de dette. Le pion noir en d5 n'a aucun pion sur la colonne c ni sur la colonne e, et aucun moyen d'en faire pousser un — les deux ont disparu pour de bon. C'est un pion **isolé**.\n\nLe premier coût est évident. Seules des pièces peuvent le défendre, et une pièce attachée à un pion fait une tâche au lieu de trois.\n\nLe second coût est celui qui décide des parties, et ce n'est pas le pion du tout. C'est la case vide devant lui."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "La case qu'il ne peut pas garder",
+      "text": "Le pion c et le pion e noirs sont les seuls pions qui auraient jamais pu attaquer d4, et aucun des deux n'existe. d4 n'est donc pas une case que les Blancs doivent conquérir. C'est une case où les Blancs s'installent et restent.\n\nAucun pion ne peut en chasser une pièce. Les Noirs vivent avec l'intrus ou donnent une pièce pour l'éliminer, et chaque échange ensuite laisse au pion isolé moins de défenseurs et autant d'attaquants.\n\nLes deux cavaliers blancs peuvent atteindre d4. Un seul devrait y aller."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "prompt": "Placez un cavalier sur la case qu'aucun pion noir ne pourra jamais attaquer, et envoyez le cavalier qui n'est pas déjà occupé.",
+      "hint": "L'un de vos cavaliers protège e5 et g5 depuis sa case, donc le déplacer abandonne ces cases.",
+      "targetSan": [
+        "Nbd4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Faible et figé",
+      "text": "Un troisième échiquier, et la pire des trois dettes. Le pion noir en d6 a un voisin en c5 qui l'a déjà dépassé et plus aucun pion e, donc aucun pion ne le défendra plus jamais. Les pions ne reculent pas, et celui-ci ne peut pas non plus avancer : le pion blanc en d5 lui barre la route.\n\nIndéfendable et figé : c'est un **pion arriéré**. Un pion isolé, au moins, peut courir.\n\n> Des pions doublés vous coûtent un pion passé, un pion isolé vous coûte la case devant lui, et un pion arriéré vous coûte une pièce pour le surveiller."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Envoyez les pièces",
+      "text": "Chaque attaquant qu'ajoutent les Blancs exige une réponse, et les réponses coûtent plus aux Noirs que les attaquants aux Blancs : une pièce clouée à un pion a cessé de jouer aux échecs.\n\nLes pièces arrivent donc, et les deux camps prennent leur temps. {{Nd2}} lance un cavalier sur la longue route vers c4, et {{Na6}} envoie celui des Noirs vers c7. {{f3}} soutient e4, pour que le cavalier puisse quitter d2 plus tard sans perdre ce pion. {{Nc7}} arrive pour garder b5, {{a4}} retire b5 malgré tout, et {{b6}} est la réponse des Noirs.\n\nLes deux camps se disputent un seul pion qui ne peut pas bouger."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/p1n2pbp/1p1p1np1/2pP4/P3P3/2N2P2/1P1NB1PP/R1BQ1RK1 w - - 0 13",
+      "prompt": "Ajoutez un attaquant contre le pion que les Noirs ne pourront jamais défendre avec un pion.",
+      "hint": "Le cavalier en d2 a trois cases où aller ; une seule touche d6.",
+      "targetSan": [
+        "Nc4"
+      ]
+    }
+  ]
+}

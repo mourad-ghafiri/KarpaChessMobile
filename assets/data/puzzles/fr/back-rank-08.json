@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-08",
+  "fen": "6k1/5ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Longue marche, mat rapide",
+  "setup": "Le roi noir est derrière trois pions intacts, et votre tour en b1 a toute la colonne b pour elle.",
+  "hint": "Les pions noirs enferment le roi. Trouvez la case de la dernière rangée que votre tour peut atteindre avec échec.",
+  "explanation": "## L'idée\n\n{{Rb8#}} est mat immédiatement. La tour arrive sur la dernière rangée avec échec, et le roi en g8 n'a nulle part où aller : f7, g7 et h7 sont occupées par ses propres pions, et f8 et h8 sont sur la rangée de la tour. Rien ne peut prendre la tour ni s'interposer.\n\nUn seul pas de pion comme h6, joué plus tôt, aurait donné une case au roi et arrêté tout le motif."
+}

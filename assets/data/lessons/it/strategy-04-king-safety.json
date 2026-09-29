@@ -1,0 +1,59 @@
+{
+  "id": "king-safety",
+  "title": "La Sicurezza del Re",
+  "summary": "Arroccate prima che le porte si aprano, poi lasciate stare il muro",
+  "proof": "strategy-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "Il Re Rimasto a Casa",
+      "text": "Il pedone d del Bianco è sparito, e al suo posto c'è un alfiere in d2. Il re in e1 non ha un suo pedone sulla colonna accanto.\n\nIl Nero ha risposto a questa domanda parecchie mosse fa: il re in g8, tre pedoni intatti davanti.\n\nAl Bianco è offerto esattamente un arrocco. La torre in h1 è inscatolata dietro l'alfiere di f1 e il cavallo di g1, quindi l'ala di re è chiusa. L'ala di donna no — la donna, il cavallo e l'alfiere hanno tutti lasciato quel capo della traversa di fondo."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "Quanto Costa Aspettare",
+      "text": "Non c'è ancora niente che non vada. Ed è questo a rendere facile rimandare.\n\nSviluppate tranquillamente con {{Nf3}}, lasciate che il Nero porti una torre con {{Re8}}, aggiungete {{Bd3}}, e {{d5}} apre il centro con il re ancora in e1. Al Nero non è servito niente di astuto per arrivarci, solo mosse ordinarie.\n\nOgni linea che si apre da qui si apre verso il Bianco, e rispondere a ciascuna costa una mossa destinata a qualcos'altro."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "prompt": "Mettete al riparo il re sull'ala che i vostri pezzi hanno già lasciato, e portate una torre sulla colonna semiaperta nella stessa mossa.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "Tre pezzi hanno lasciato un lato della vostra traversa di fondo — contate le case vuote fra il vostro re e ciascuna torre."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "Il Muro che Non si Ricostruisce",
+      "text": "Il Nero ha inseguito un alfiere con due mosse di pedone e ha tolto due mattoni al riparo attorno al re in g8. Il pedone in h6 e il pedone in g5 facevano parte di quel muro, e quello in g5 sta colpendo l'alfiere in h4 proprio adesso.\n\nI tre del Bianco stanno ancora in f2, g2 e h2, esattamente dove li ha lasciati l'arrocco. Il Nero non può rimettere a posto gli altri due, perché nessun pedone muove mai all'indietro, ed è tutta qui la differenza fra questi due re.\n\n> Muovete un pedone davanti al vostro re quando dovete. Mai due."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "Dove Bussare",
+      "text": "Il pedone in g5 ha esattamente un difensore, il pedone in h6. Dietro di loro il re ha un'altra guardia, il cavallo in f6.\n\nLa risposta naturale a un alfiere attaccato è tirarlo indietro. Il riparo del Nero resta allora sottile, ma resta.\n\nC'è una risposta più rumorosa. Un riparo così sottile si può comprare, e il Bianco ha pezzi con cui pagare. Contate il prezzo in pedoni e il premio in linee aperte, poi decidete."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "prompt": "Rispondete all'attacco al vostro alfiere spaccando il riparo, anche se costa un pezzo.",
+      "targetSan": [
+        "Nxg5"
+      ],
+      "hint": "Prendete per primi in g5 con il pezzo che vi potete permettere di perdere, così che l'ultima parola spetti all'alfiere."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n2/2b1p1p1/2B1P2B/2NP4/PPP2PPP/R2Q1RK1 w - - 0 10",
+      "prompt": "Il Nero ha preso il cavallo: riprendete in modo che il cavallo nero di f6 resti inchiodato contro la donna.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "Contate adesso che cosa sta fra il vostro alfiere in h4 e la donna nera in d8."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "captures",
+  "title": "Qui reprend ?",
+  "summary": "Deux prises, un saut chacune, et seule la réponse les distingue",
+  "proof": "first-steps-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Deux choses à prendre",
+      "text": "Votre cavalier en e4 attaque deux pièces noires à la fois : la tour en d6 et le fou en f6. Les deux prises sont légales, chacune d'un seul saut, et vues de la case du cavalier elles se ressemblent.\n\nElles ne se valent pas. Une pièce que rien ne défend est **en prise**, et la prendre ne vous coûte exactement rien. Une pièce qu'une alliée protège vous coûte ce que cette protectrice reprend.\n\nL'échiquier dit déjà laquelle est laquelle. Il le dit avant que vous jouiez."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Trois pour trois",
+      "text": "{{Nxf6}} gagne un fou. Puis {{gxf6}}, et le pion en g7 reprend aussitôt le cavalier.\n\nRien n'est perdu. Un cavalier vaut trois, un fou vaut trois, et les deux quittent l'échiquier ensemble — le compte finit là où il a commencé.\n\nMais rien n'est gagné non plus. C'est tout le résultat de la prise : un coup dépensé, et la même position moins deux pièces."
+    },
+    {
+      "type": "play",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "L'autre prise n'a aucune réponse — jouez-la et gardez ce que vous prenez.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "Rien de noir n'atteint d6 : le fou en f6 ne voit pas cette case, et le pion en g7 ne protège que f6 et h6."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Neuf contre un",
+      "text": "Même question, et c'est maintenant la dame qui la pose.\n\nVotre dame en d4 voit, le long de deux diagonales dégagées, deux pions noirs, l'un en a7 et l'autre en g7. Chaque prise gagne quelque chose qui vaut un seul point. Chaque prise met neuf points sur la case.\n\nC'est ce qui fait de la dame la pire pièce avec laquelle être négligent. Un cavalier qui se trompe échange à égalité. Une dame qui se trompe n'échange rien du tout."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Propriétaire pour un coup",
+      "text": "{{Qxa7}} gagne un pion et le possède pendant exactement un coup. {{Rxa7}} — la tour en a8 protégeait ce pion bien avant que vous le regardiez, et maintenant elle a votre dame.\n\nNeuf points pour un. Aucun calcul ne transforme cela en échange.\n\nVoilà pourquoi la dame mange en dernier. Chaque pièce des Noirs vaut moins qu'elle, donc chaque protection sur l'échiquier est une protection que la dame doit respecter."
+    },
+    {
+      "type": "play",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "L'un de ces deux pions n'est surveillé par rien — prenez celui-là.",
+      "targetSan": [
+        "Qxg7"
+      ],
+      "hint": "Les Noirs ont une tour et deux pions : la tour surveille la colonne a et la huitième rangée, et aucun des deux pions ne protège l'autre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "title": "Protégé ne veut pas dire intouchable",
+      "text": "Une position de plus, et elle reprend la moitié de ce que vous venez de lire.\n\nLa dame noire en c5 est protégée : le pion en b6 couvre cette case et reprend aussitôt.\n\nPrenez quand même. Vous donnez un cavalier qui vaut trois, vous retirez une dame qui vaut neuf, et vous gagnez six points. Protégé n'a jamais voulu dire en sécurité. Cela a toujours voulu dire que la prise a un prix — et ce prix doit être inférieur au butin.\n\n> Prenez ce que rien ne protège. Avant de prendre ce qui est protégé, comptez ce que vous donnez et ce que vous recevez."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "La meilleure pièce des Noirs est protégée, et sa protection n'est qu'un pion — prenez-la quand même.",
+      "targetSan": [
+        "Nxc5"
+      ],
+      "hint": "Trois points quittent l'échiquier et neuf partent avec eux — la reprise fait partie du marché, ce n'est pas un accident."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "endgame-05",
+  "fen": "8/8/7r/4k3/2P5/2K5/8/5R2 w - - 0 1",
+  "solution": [
+    "Rd1"
+  ],
+  "title": "A Parede na Coluna d",
+  "setup": "O teu peão c tem muito caminho a fazer, e o rei preto em e5 vem ao seu encontro. Uma jogada de torre decide se ele alguma vez lá chega.",
+  "hint": "Conta as colunas entre o rei preto e o teu peão. O rei tem de atravessar uma delas primeiro, portanto fica com ela.",
+  "explanation": "## A Ideia\n\nEntre o rei preto e a estrada do teu peão só está a coluna d, portanto {{Rd1}} toma-a. O rei em e5 não pode entrar numa casa que a torre cubra, e agora ela cobre a coluna inteira: o rei fica fechado do outro lado enquanto a torre lá ficar.\n\nO teu rei sobe depois para junto do peão c e escolta-o até casa. Qualquer outra jogada deixa o rei preto passar para a coluna d e pôr-se à frente do peão, e o final é empate."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-03",
+  "fen": "8/8/2k5/1RP5/2K5/8/6r1/8 b - - 0 1",
+  "solution": [
+    "Rg4+"
+  ],
+  "rating": 1300,
+  "title": "Aparta al defensor",
+  "setup": "El rey negro ya ataca la torre de b5, y el rey blanco de c4 es lo único que la defiende.",
+  "hint": "La torre está defendida exactamente una vez. Encuentra el jaque que aleja a ese defensor y deja a salvo tu propia torre.",
+  "explanation": "## La idea\n\n{{Rg4+}} echa al defensor: tras {{Kc3}} {{Kxb5}}, cae también el peón de c y las Negras tienen una torre de más. La natural {{Rc2+}} también persigue al rey, pero tras {{Kb3}} ataca tu torre, y las torres se cambian en unas tablas muertas."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "opposition",
+  "title": "A Oposição",
+  "summary": "Dois reis, um tempo, e quem tem de ceder",
+  "proof": "endgame-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "Os Reis Não Se Tocam",
+      "text": "Nenhum rei pode alguma vez entrar numa casa ao lado de outro rei, o que quer dizer que os dois nunca podem trocar golpes. Só se podem apertar um ao outro.\n\nO teu rei em e4, o rei preto em e7, duas casas vazias entre eles. Sobe a direito pela coluna e as pretas podem descer por ela, e algures pelo meio ficam os dois sem estrada.\n\nQuem ganha essa discussão decide-se pela única regra que ninguém consegue evitar: na tua vez, tens de jogar. Isso é o zugzwang, e com reis nus no tabuleiro é a única arma que qualquer dos lados tem."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "O Impasse Tem Nome",
+      "text": "Leva os reis a ficarem a uma casa vazia um do outro na mesma coluna e a posição tranca-se. Nenhum dos reis pode entrar na casa do meio, porque ela toca nos dois. Nenhum se pode esgueirar pelo lado sem entrar no alcance do outro.\n\nEsse trancar é a **oposição**. Pertence a quem não tem de jogar, porque quem tem de jogar é obrigado a quebrá-la, a afastar-se e a deixar passar o outro rei.\n\nPortanto conta o espaço. Uma casa vazia, com o teu adversário a jogar, e o terreno à frente é teu. Neste momento o espaço é de duas, e a vez é tua."
+    },
+    {
+      "type": "play",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "prompt": "Fecha o espaço para que uma só casa vazia separe os reis e sejam as pretas a jogar.",
+      "targetSan": [
+        "Ke5"
+      ],
+      "hint": "Conta o espaço antes da tua jogada e depois dela: queres reduzi-lo a uma, com a vez entregue."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/4K3/8/8/8/8 b - - 5 3",
+      "title": "As Pretas Cedem, Tu Segues",
+      "text": "Uma casa vazia entre os reis, e as pretas têm de jogar. Todas as casas legais cedem terreno: de lado ou para trás, e mais nada.\n\nDigamos {{Kd7}}. As pretas mantêm a distância mas derivaram uma coluna para a ala da dama, e então tu acompanhas. {{Kd5}}, e o trancar está de volta, uma coluna ao lado, outra vez com as pretas a jogar.\n\nNão se capturou nada e não se ameaçou nada. As pretas escolheram apenas uma direção, tu copiaste-a, e o tabuleiro inteiro andou um passo na direção para onde ias."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "title": "Um Peão Sem Sítio para Onde Ir",
+      "text": "Tabuleiro novo, e um peão muda o motivo da discussão entre os reis. O teu rei em e6, o teu peão em e5, o rei preto em e8, outra vez trancados a uma casa de distância.\n\nDesta vez és tu a jogar, portanto a oposição é das pretas. Conta as tuas jogadas legais e são quatro, todas passos de rei. O peão não pode avançar de todo: o teu próprio rei está na casa à frente dele.\n\nAs pretas seguram a porta fechada e o teu peão está preso atrás de ti. Alguma coisa tem de ceder, e não vai ser o peão."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "prompt": "Dá um passo de lado em direção à ala da dama sem saíres da linha que o teu rei já alcançou.",
+      "targetSan": [
+        "Kd6"
+      ],
+      "hint": "Recuar uma linha deita fora tudo o que o rei subiu, portanto cede antes a coluna."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "title": "O Mesmo Trancar, uma Coluna Nova",
+      "text": "As pretas espelharam o passo e os reis estão outra vez trancados, a uma casa de distância, ainda contigo a jogar. Parece que não se ganhou nada.\n\nOlha para a coluna e. O teu rei saiu da casa à frente do peão, e o rei preto está a uma coluna da estrada do peão. Três casas livres, e um rei branco já sentado na sexta linha ao lado delas.\n\n> A oposição nunca é o objetivo. Compra exatamente uma jogada, e essa jogada tem de valer alguma coisa."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "prompt": "Põe o peão em marcha agora que o teu rei já não está estacionado no caminho dele.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Quanto aos reis já não há nada a melhorar daqui; o progresso que resta neste tabuleiro está todo na coluna e."
+    }
+  ]
+}

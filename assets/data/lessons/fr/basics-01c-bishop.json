@@ -1,0 +1,56 @@
+{
+  "id": "bishop-moves",
+  "title": "La moitié de l'échiquier",
+  "summary": "Les longues routes obliques, et la moitié de l'échiquier où un fou ne pose jamais le pied",
+  "proof": "first-steps-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "title": "Quatre routes depuis d4",
+      "text": "Le fou en d4 a quatre routes devant lui. Toutes partent en biais.\n\nUniquement les diagonales — jamais le long de la colonne, jamais le long de la rangée. Sur une diagonale dégagée, il va aussi loin qu'il veut, et sept cases ne lui coûtent pas plus qu'une.\n\n{{Bh8}} file vers un coin, {{Ba1}} vers le coin opposé. {{Ba7}} et {{Bg1}} s'arrêtent là où l'échiquier se termine. Deux diagonales se croisent en d4, et le fou emprunte l'une ou l'autre, dans un sens ou dans l'autre."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "prompt": "Choisissez l'une des quatre diagonales et arrêtez le fou où vous voulez sur celle-ci.",
+      "targetSan": [
+        "Bc5",
+        "Bb6",
+        "Ba7",
+        "Be5",
+        "Bf6",
+        "Bg7",
+        "Bh8",
+        "Bc3",
+        "Bb2",
+        "Ba1",
+        "Be3",
+        "Bf2",
+        "Bg1"
+      ],
+      "hint": "Près ou loin, peu importe — une case sur une diagonale est aussi légale que sept."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "title": "Une couleur pour toute la partie",
+      "text": "Quel que soit le coup que vous venez de jouer, il est arrivé sur une case noire. Comme tous les autres coups de fou possibles ici.\n\nd4 est noire. Un pas en diagonale change à la fois de colonne et de rangée, et ce double déplacement laisse la couleur exactement telle qu'elle était. Tout droit, la couleur change. En biais, jamais.\n\nC'est aussi pour cela qu'une armée reçoit deux fous : un pour les cases noires, un pour les blanches.\n\n> Un fou naît sur une couleur et ne la quitte jamais. Trente-deux cases sont chez lui ; les trente-deux autres pourraient aussi bien ne pas exister."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/1P6/4K3 w - - 0 1",
+      "title": "On ne saute par-dessus rien",
+      "text": "Un cavalier saute par-dessus les embouteillages. Un fou reste coincé dedans.\n\nSur la diagonale de gauche, votre propre pion en b2 barre la route. Le fou va jusqu'en {{Bc3}} et pas plus loin — a1 est derrière le pion, et derrière, c'est hors de portée.\n\nUne pièce adverse arrêterait la route sur la même case, à une différence près : le fou peut la prendre et s'arrêter à sa place. Votre propre pièce bloque la diagonale pour de bon. Une pièce ennemie la bloque seulement jusqu'à ce que vous la preniez."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/6p1/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "Un pion noir s'est aventuré sur une case que ce fou peut atteindre — gagnez-le.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "Ce fou et ce pion sont tous deux sur des cases noires, et la ligne qui les sépare est vide."
+    }
+  ]
+}

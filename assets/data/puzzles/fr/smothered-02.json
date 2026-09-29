@@ -1,0 +1,12 @@
+{
+  "id": "smothered-02",
+  "fen": "3r2k1/pp4pp/8/8/6n1/2N5/P1P3PP/6RK b - - 9 30",
+  "solution": [
+    "Nf2#"
+  ],
+  "rating": 1180,
+  "title": "Le coin se scelle tout seul",
+  "setup": "Les Blancs viennent de basculer une tour en g1 pour protéger le pion g, et ont emmuré leur propre roi dans le coin.",
+  "hint": "Oubliez un instant la tour sans protection et comptez les cases où le roi blanc pourrait vraiment aller.",
+  "explanation": "## L'idée\n\nRg1 a protégé le pion g et enterré le roi derrière lui. {{Nf2#}} donne échec depuis une case que personne ne surveille : la tour en g1 et les pions en g2 et h2 regardent tous dans la mauvaise direction. Un défenseur qui bouche la dernière sortie de votre roi ne défend rien du tout."
+}

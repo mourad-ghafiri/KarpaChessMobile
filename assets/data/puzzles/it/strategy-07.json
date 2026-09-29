@@ -1,0 +1,11 @@
+{
+  "id": "strategy-07",
+  "fen": "r4rk1/pp1b1ppp/2nqpn2/3p4/3P4/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 11",
+  "solution": [
+    "Rc1"
+  ],
+  "title": "Nessuno Possiede la Colonna c",
+  "setup": "Tutti e due i pedoni c sono spariti, e nessuno dei due ha messo una torre sulla colonna che si sono lasciati dietro. Una mossa se la prende.",
+  "hint": "Una colonna non ha sopra nessun pedone di nessuno dei due colori, e una sola delle vostre torri ha strada libera per arrivarci.",
+  "explanation": "## L'idea\n\nSulla colonna c non c'è nessun pedone di nessuno dei due colori, e nessuno dei due ci ha ancora messo una torre.\n\n{{Rc1}} se la prende per prima. L'altra torre non può, perché la donna in d1 le sta di mezzo. Per ora la torre sta dietro il proprio cavallo in c3, ma un cavallo può spostarsi in una mossa, e quando lo fa la colonna appartiene alla torre.\n\nPrima la torre, la donna dietro: una donna in testa a una colonna è un bersaglio che qualunque pezzo leggero può scacciare guadagnando un tempo."
+}

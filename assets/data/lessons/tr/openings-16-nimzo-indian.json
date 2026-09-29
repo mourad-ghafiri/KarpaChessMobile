@@ -1,0 +1,50 @@
+{
+  "id": "nimzo-indian-advanced",
+  "title": "Nimzo-Hint Savunması",
+  "summary": "Kalıcı bir zayıflığa değişilen bir fil",
+  "proof": "openings-16.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Ölmeyi Planlayan Fil",
+      "text": "Daha üç hamle olmuş ve siyahın fili kendini bir ata değişmeyi çoktan öneriyor. Fil genellikle biraz daha iyi taş sayılır, yani bu bir takasın yanlış ucu gibi görünür.\n\nBu bir cömertlik değil. b4'teki fil, c3'teki atı e1'deki şaha karşı açmaza almış durumda ve o at, e4'ü kapsayan tek beyaz taş. Siyah onu tahtadan kaldırmak ve beyazı iz bırakan tek geri almaya zorlamak istiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Beyazın Sorduğu Soru",
+      "text": "{{a3}}. Piyon filin yanına yürür ve cevap ister: ya geri çekil ya al.\n\nGeri çekilmek beyaza bedava bir tempo verir, bu yüzden fil alır. Şimdi beyazın nasıl geri alabildiğine bakın. c1'deki fil c3'ü görmüyor, vezir de görmüyor; yani işi b piyonu yapmak zorunda — ve doğrudan, c4'te zaten duran piyonun arkasına iniyor."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/P1N5/1P2PPPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Beyazın e4'ü koruyan tek taşını alın ve tek dikeye iki piyon dizen geri almayı zorunlu kılın.",
+      "targetSan": [
+        "Bxc3+"
+      ],
+      "hint": "c3'e siyahın yalnızca tek bir taşı saldırıyor ve bu taş alma şah çekerek geliyor; yani beyaz hazırlanacak bedava bir an bulamıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/P1P5/4PPPP/R1BQKBNR b KQkq - 0 5",
+      "title": "Temelli Üst Üste",
+      "text": "İşte oradalar: c3 ve c4'te, biri diğerinin arkasında duran beyaz piyonlar. İkili ve sıkışmış. Arkadaki asla öndekini geçemez ve ikisi de hiçbir zaman bir piyon tarafından korunmayacak — b piyonu artık bu ikisinden biri ve d piyonu çoktan d4'e geçmiş durumda.\n\n{{c5}} resmi dondurur. Siyah d4'e vurur ki merkez ileri yuvarlanıp delilleri gömemesin.\n\nAçılış, onarılamayan bir zayıflığın, hemen kullanılması gereken herhangi bir üstünlükten daha uzun ömürlü olduğunu savunan Aron Nimzowitsch'in adını taşır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "title": "Her Şeyin Gösterdiği Piyon",
+      "text": "Beş hamle sonra ve beyaz, iki filin beklediği merkeze kavuşmuş: c4, d4 ve e4'te piyonlar ve o sıra ilerlediği anda hazır bekleyen d3'teki fil.\n\nSiyah bunların hepsine itiraz etmez. Oradaki bir piyon farklıdır. c4'teki piyonun ortağı arkasında mahsur kalmıştır, yani onu hiçbir beyaz piyon asla koruyamayacaktır ve siyahın c4'e yönelttiği her tehdide bir taşla cevap verilmek zorundadır. Bir piyona bağlanmış taş, başka hiçbir şey yapmayan taştır.\n\n> Bir piyonun savunamadığı zayıflığa saldırın ve korumayı taşlara yaptırın."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "prompt": "Atınızı kenara gönderin; orada hiçbir beyaz piyonun asla koruyamayacağı piyona vursun.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "Hedef c4'teki piyon ve normalde bir atı o kenardan kovacak olan beyazın b piyonu c3'te duruyor."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "discovery-10",
+  "fen": "kr6/p1P3pp/8/3N1q2/8/8/PP5P/5RKB w - - 0 1",
+  "solution": [
+    "Nb6#"
+  ],
+  "rating": 1300,
+  "title": "Olvídate de la dama",
+  "setup": "Tu torre apunta a la dama negra y tu peón de c7 a la torre, mientras el rey negro espera en la esquina.",
+  "hint": "Tras cualquiera de esas dos capturas las Negras siguen vivas. Pregúntate mejor qué casilla daría jaque doble al rey arrinconado.",
+  "explanation": "## La idea\n\nRxf5 gana una dama y cxb8=Q+ gana una torre, pero {{Nb6#}} lo termina. El caballo da jaque desde b6 y descubre al alfil de h1 por la gran diagonal. En a7 y b8 hay piezas negras, y b7 la cubre ese alfil."
+}

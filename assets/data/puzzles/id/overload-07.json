@@ -1,0 +1,14 @@
+{
+  "id": "overload-07",
+  "fen": "1Q3bk1/R4ppp/8/6r1/8/8/PPR5/K7 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rc8#"
+  ],
+  "rating": 1490,
+  "title": "Menteri untuk Gajah",
+  "setup": "Gajah Hitam telah kembali ke f8, dan Anda punya benteng di baris ketujuh dan satu lagi menunggu di c2.",
+  "hint": "Anda tidak sedang menghitung materi di sini — Anda sedang menghitung petak pelarian. Temukan satu buah yang menyediakan semuanya.",
+  "explanation": "## Ide\n\n{{Qxf8+}} tampak mustahil sampai Anda melihat bahwa {{Kxf8}} terpaksa dan raja kini berada di baris yang dikuasai benteng c2. {{Rc8#}} mengakhirinya, dengan benteng di a7 menguasai e7, satu-satunya petak pelarian yang tak direbut pion-pion itu sendiri."
+}

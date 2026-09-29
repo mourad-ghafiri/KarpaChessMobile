@@ -1,0 +1,14 @@
+{
+  "id": "skewer-01",
+  "fen": "8/1R6/2p1kq2/4P3/1r6/3Q4/7P/6K1 w - - 0 1",
+  "solution": [
+    "Qd6+",
+    "Kf5",
+    "Qxf6+"
+  ],
+  "rating": 900,
+  "title": "La dame derrière",
+  "setup": "Le roi noir en e6 et sa dame en f6 se tiennent côte à côte sur la sixième rangée.",
+  "hint": "Donnez échec le long de la rangée qu'ils partagent, en entrant par le côté où la dame est celle qui se tient derrière.",
+  "explanation": "## L'idée\n\n{{Qd6+}} est une enfilade : l'échec arrive sur la sixième rangée avec la dame noire bloquée derrière son propre roi. Votre pion en **e5** couvre d6 et f6, donc le roi ne peut pas prendre. {{Kf5}} est forcé et {{Qxf6+}} prend la dame pour rien."
+}

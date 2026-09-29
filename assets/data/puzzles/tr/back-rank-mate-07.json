@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-07",
+  "fen": "6k1/1b3ppp/8/8/8/8/2r2PPP/R3R1K1 w - - 1 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 910,
+  "title": "Doğru Kaleyi Seçin",
+  "setup": "İki kaleniz de sekizinci yatayda şah çekebiliyor ve siyahın b7'deki fili bunlardan birini gözlüyor.",
+  "hint": "İki şah hamlesi var ve yalnızca biri mat. b7'deki filin neyi koruduğuna bakın.",
+  "explanation": "## Fikir\n\nRa8+ kaleyi öylece b7'deki file kaptırır. {{Re8#}} mattır: e8'i koruyan bir şey yok, araya hiçbir şey giremez ve f7, g7 ile h7'deki piyonlar şahı içeride tutar. Arka yatayda her zaman koruyucunun hangi kareleri hâlâ kapsadığını sorun."
+}

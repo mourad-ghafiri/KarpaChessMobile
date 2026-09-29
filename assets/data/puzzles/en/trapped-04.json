@@ -1,0 +1,12 @@
+{
+  "id": "trapped-04",
+  "fen": "4r1k1/5ppp/p4n2/1pp5/8/1B3N1P/P1P2PP1/3R2K1 b - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "rating": 1130,
+  "title": "Noah's Ark",
+  "setup": "White's bishop on b3 has its own pawns behind it on a2 and c2, and its own rook sitting on d1.",
+  "hint": "Count that bishop's escape squares: White's own pawns block two of them, and your b-pawn covers a third.",
+  "explanation": "## The Idea\n\n{{c4}} closes the last diagonal. a2 and c2 hold White's own pawns, a4 is covered by the b5-pawn, and the pawn now on c4 is guarded by b5, so Bxc4 bxc4 costs a piece. This net is old enough to have a name: the Noah's Ark trap."
+}

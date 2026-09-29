@@ -1,0 +1,11 @@
+{
+  "id": "openings-14",
+  "fen": "rnbqkb1r/5ppp/p2ppn2/8/Np1NPP2/1B6/PPP3PP/R1BQK2R b KQk - 1 9",
+  "solution": [
+    "Nxe4"
+  ],
+  "title": "O Peão Que o Cavalo Deixou para Trás",
+  "setup": "Os peões da Najdorf fizeram o seu trabalho: ...a6 e ...b5-b4 acabaram de empurrar o cavalo branco até a4. Recolhe o que esse cavalo guardava.",
+  "hint": "Um cavalo acabou de deixar o centro pela berma. Pergunta que peão branco perdeu o último defensor quando ele saiu.",
+  "explanation": "## A Ideia\n\nO cavalo empurrado até a4 era a única peça branca a guardar e4. Empurrar-lhe os peões da ala da dama era por causa dessa casa.\n\n{{Nxe4}} come o peão. As brancas ganham algum jogo com isso, mas o peão é das pretas. Atenção à grande diagonal: {{Qf3}} atinge o cavalo com a torre de a8 alinhada atrás, e {{Bb7}} ou {{d5}} fecham essa diagonal, enquanto {{Nc5}} perderia a torre.\n\nUm avanço de peão de ala é muitas vezes uma pergunta a uma peça do centro."
+}

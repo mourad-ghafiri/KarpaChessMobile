@@ -1,0 +1,11 @@
+{
+  "id": "pawn-storm-proof",
+  "fen": "2rq1rk1/pb1nb2p/1p2p3/3pBpp1/2PPn3/1PNB1N2/P3QPPP/2RR2K1 b - - 1 15",
+  "solution": [
+    "g4"
+  ],
+  "title": "Botvinnik Keeps Marching",
+  "setup": "Bogoljubow against Botvinnik, Nottingham 1936. Your f- and g-pawns have already advanced, and the knight on f3 is what guards White's kingside.",
+  "hint": "A pawn storm is pawns hitting pieces. Which white piece can one of your pawns attack this move?",
+  "explanation": "## The Idea\n\n{{g4}} throws the storm pawn at the knight on f3, the piece that guards e5 and the squares in front of White's king. A pawn attacking a piece gains a move, and every move the knight spends running is one the storm does not have to pay for.\n\nIn the game the knight went back to e1, Botvinnik traded on e5 and took over the center, and Black went on to win."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "decoy-03",
+  "fen": "6k1/pp3ppp/1q6/r7/8/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Qxd8",
+    "Rxd8#"
+  ],
+  "rating": 1230,
+  "title": "Bir Kare İçin Vezir",
+  "setup": "Veziriniz ile kaleniz d dikeyinde üst üste dizilmiş ve siyahın şahının piyonlarının arkasında havası yok.",
+  "hint": "Zayıflık arka yatay. d8'e, siyahın almak zorunda olduğu ne koyabilirsiniz?",
+  "explanation": "## Fikir\n\n{{Qd8+}} veziri, siyahın almak zorunda olduğu tek kareye ikram eder: {{Qxd8}} onun tek kurallı hamlesidir. Siyahın veziri artık arka yatayda, kalenizin önünde durur ve {{Rxd8#}} işi bitirir. Rakip bir taş için hangi karenin ölümcül olacağını sorun, sonra onu oraya gönderin."
+}

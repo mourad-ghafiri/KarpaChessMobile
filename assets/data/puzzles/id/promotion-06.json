@@ -1,0 +1,14 @@
+{
+  "id": "promotion-06",
+  "fen": "7k/ppp4p/8/PPP5/8/8/7P/7K w - - 0 1",
+  "solution": [
+    "b6",
+    "axb6",
+    "c6"
+  ],
+  "rating": 1200,
+  "title": "Bobol Tembok Pion",
+  "setup": "Tiga pion berhadapan dengan tiga pion di sayap menteri, dan kedua raja parkir jauh di sudut seberang.",
+  "hint": "Tiga sejajar melawan tiga sejajar. Relakan satu di tengah dan hitung tempo yang dibutuhkan dua lainnya.",
+  "explanation": "## Ide\n\n{{b6}} merelakan sebuah pion untuk membobol tembok. Sesudah {{axb6}}, {{c6}} menembus lagi: jika {{bxc6}}, pion a melaju ke a8 tanpa tersentuh, dan jika Hitam membiarkannya, {{cxb7}} dan pion menjadi menteri di b8. Sesudah {{cxb6}} sebagai gantinya, {{a6}} mengerjakan tugas yang sama dari sisi lain.\n\nPion yang direlakan di tengah tiga pion bisa membeli menteri di sayap."
+}

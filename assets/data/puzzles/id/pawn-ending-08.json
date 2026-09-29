@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-08",
+  "fen": "8/8/3kp3/4P3/2K5/8/8/8 b - - 1 1",
+  "solution": [
+    "Kxe5"
+  ],
+  "rating": 1350,
+  "title": "Pion di Depan",
+  "setup": "Raja Putih baru saja tiba di c4, dan kedua pion e macet saling berhadapan.",
+  "hint": "Raja Putih berjarak dua lajur dari lajur e; tanyakan apa yang berubah jika blokade di depan pion Anda hilang.",
+  "explanation": "## Ide\n\n{{Kxe5}} mengubah pion yang mati menjadi pelari dengan rajanya sendiri sudah di depannya. Putih tak bisa menahan lajur itu: {{Kd3}} {{Kf4}} {{Ke2}} {{Ke4}} dan Hitam terus mengungguli dari samping sampai ke bawah. Tiga langkah mundur raja langsung kalah, dan yang keempat hanya remis."
+}

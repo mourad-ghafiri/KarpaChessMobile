@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-18",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+  "solution": [
+    "dxe5"
+  ],
+  "title": "Merkezi Açın",
+  "setup": "İki taraf da d ve e piyonlarını sürdü ve dördü şimdi merkezde buluşuyor.",
+  "hint": "Dört merkez piyonu birbirine değdiğinde açık hatları kimin alacağına ilk taş alma karar verir. Hangisi aynı zamanda siyahın vezirine doğru bir dikey açıyor?",
+  "explanation": "## Fikir\n\n{{dxe5}} e piyonunu alır ve d dikeyini açar. Siyah {{dxe4}} ile cevap verirse {{Qxd8+}} vezirleri şah çekerek değişir, siyahın şahının geri alması gerekir ve rok hakkını kaybeder; e4'teki piyon da dostlarından kopar. Bunun yerine {{exd5}} oynamak, {{Qxd5}} ile merkeze bir vezirin gelip geri almasına izin verir.\n\nMerkez piyonları buluştuğunda, açtığınız dikeyin sizin için çalıştığı yerde alın."
+}

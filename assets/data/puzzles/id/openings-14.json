@@ -1,0 +1,11 @@
+{
+  "id": "openings-14",
+  "fen": "rnbqkb1r/5ppp/p2ppn2/8/Np1NPP2/1B6/PPP3PP/R1BQK2R b KQk - 1 9",
+  "solution": [
+    "Nxe4"
+  ],
+  "title": "Pion yang Ditinggalkan Kuda",
+  "setup": "Pion-pion Najdorf telah menjalankan tugasnya: ...a6 dan ...b5-b4 baru saja mengusir kuda Putih ke a4. Ambil apa yang tadi dijaga kuda itu.",
+  "hint": "Seekor kuda baru saja meninggalkan pusat menuju tepi. Tanyakan pion putih mana yang kehilangan pembela terakhirnya ketika kuda itu pergi.",
+  "explanation": "## Ide\n\nKuda yang diusir ke a4 adalah satu-satunya buah putih yang menjaga e4. Mendorong pion-pion sayap menteri ke arahnya memang demi petak itu.\n\n{{Nxe4}} mengambil pion itu. Putih mendapat sedikit permainan sebagai gantinya, tetapi pionnya milik Hitam. Waspadai diagonal panjang: {{Qf3}} menyerang kuda dengan benteng di a8 sejajar di belakangnya, dan {{Bb7}} atau {{d5}} menutup diagonal itu, sedangkan {{Nc5}} akan kehilangan benteng.\n\nDorongan pion sayap sering kali adalah pertanyaan bagi buah di pusat."
+}

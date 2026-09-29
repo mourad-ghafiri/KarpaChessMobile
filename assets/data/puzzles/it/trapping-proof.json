@@ -1,0 +1,11 @@
+{
+  "id": "trapping-proof",
+  "fen": "2kr4/Bpp2ppp/3b1n2/4p3/8/5N2/PPP2PPP/4R1K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "title": "Un Alfiere Arenato in a7",
+  "setup": "L'alfiere bianco ha appena preso un pedone e adesso siede in a7. Sembra al sicuro: niente di vostro lo attacca. Trovate la mossa che assicura che non se ne vada più.",
+  "hint": "Contate le case dell'alfiere. La sua unica strada di casa torna indietro lungo una diagonale, e un vostro pedone può stare su quella strada, difeso.",
+  "explanation": "## L'idea\n\n{{b6}} chiude l'unica strada di casa. All'alfiere in a7 restano due case: b8, che il vostro re in c8 copre, e b6, dove il pedone è difeso da quello in c7.\n\nNiente attacca ancora l'alfiere, e non serve. Il vostro re alla prossima cammina fino a b7 e se lo prende, e il massimo che il Bianco può recuperare è un pedone, cedendo l'alfiere in b6."
+}

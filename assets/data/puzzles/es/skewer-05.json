@@ -1,0 +1,14 @@
+{
+  "id": "skewer-05",
+  "fen": "8/Qp2p3/3k2qp/7p/2Pp1P2/6P1/1P5K/8 w - - 0 1",
+  "solution": [
+    "Qb6+",
+    "Kd7",
+    "Qxg6"
+  ],
+  "rating": 1060,
+  "title": "La sexta fila, de punta a punta",
+  "setup": "El rey negro de d6 y su dama de g6 comparten la sexta fila, y las casillas entre ellos están vacías.",
+  "hint": "Da jaque en la sexta fila desde el lado que obliga al rey a apartarse de su propia dama.",
+  "explanation": "## La idea\n\n{{Qb6+}} da jaque por la sexta fila con la dama negra varada detrás de su rey. {{Kd7}} es la única respuesta legal, y sale de la fila, así que {{Qxg6}} simplemente se come la dama. La presa nunca estuvo defendida."
+}

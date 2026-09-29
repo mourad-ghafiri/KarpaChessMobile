@@ -1,0 +1,12 @@
+{
+  "id": "pin-06",
+  "fen": "8/r7/pRp2k2/2Rr4/7P/8/8/K7 w - - 0 1",
+  "solution": [
+    "Rxd5"
+  ],
+  "rating": 1000,
+  "title": "Pembela Hanya Nama",
+  "setup": "Benteng Anda di b6 memotong di sepanjang baris keenam, menembus pion c hitam, sampai ke raja di f6.",
+  "hint": "Satu pion hitam melindungi benteng di d5. Periksa dulu apa yang dilakukan benteng Anda sendiri di b6 terhadap pion itu.",
+  "explanation": "## Ide\n\n{{Rxd5}} memenangkan satu benteng penuh. Pion di **c6** satu-satunya pembela d5, tetapi ia dijepit di sepanjang baris keenam oleh benteng Anda di **b6**: jika ia menangkap, raja di **f6** berdiri dalam sekak. Pion yang terjepit tak melindungi apa pun."
+}

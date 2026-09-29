@@ -1,0 +1,13 @@
+{
+  "id": "discovered-04",
+  "fen": "1r1k4/8/8/8/3N4/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Ke8",
+    "Nxb8"
+  ],
+  "title": "Scacco Doppio, e Poi la Torre",
+  "setup": "La vostra torre e il vostro cavallo condividono la colonna d con il re nero — il cavallo davanti, lo scacco che aspetta dietro.",
+  "hint": "Un balzo di cavallo può dare scacco da solo e scoprire anche lo scacco della torre. Scegliete il balzo che colpisce anche qualcosa.",
+  "explanation": "## L'idea\n\n{{Nc6+}} è uno scacco doppio: il cavallo attacca d8 da sé, e muoverlo scopre la torre in d1 dietro di lui. Contro due scacchi insieme non servono né una presa né una parata, quindi il re deve muovere. Ovunque vada, {{Nxb8}} raccoglie la torre che il cavallo teneva d'occhio da sempre, e anche se poi il re prende il cavallo, alla vostra torre resta un re nudo davanti. Lo scacco doppio è la mossa più forzante degli scacchi: il re deve muovere, e tutto il resto aspetta."
+}

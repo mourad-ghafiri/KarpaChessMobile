@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-10",
+  "fen": "3k4/p2b1ppp/6n1/1pP5/8/8/PP1R1PPP/6K1 w - - 0 1",
+  "solution": [
+    "c6"
+  ],
+  "title": "Alfil clavado, alfil perdido",
+  "setup": "El alfil negro está en la columna d entre tu torre y su propio rey, y tu peón de c está cerca.",
+  "hint": "Un alfil clavado no puede salir de su línea, ni siquiera para capturar. Atácalo con tu pieza más barata.",
+  "explanation": "## La idea\n\nEl alfil de d7 está clavado contra el rey de d8 por tu torre, así que no puede salir de la columna d. {{c6}} lo ataca, y el alfil no puede ni capturar el peón ni huir, así que {{cxd7}} lo gana en la jugada siguiente, a cambio de un peón como mucho.\n\nCapturar con la torre solo cambiaría torre por alfil. Ataca una pieza clavada con lo más barato que tengas."
+}

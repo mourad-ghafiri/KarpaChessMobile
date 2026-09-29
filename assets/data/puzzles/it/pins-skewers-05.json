@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-05",
+  "fen": "4k3/8/4q3/8/8/8/8/4R1K1 w - - 0 1",
+  "solution": [
+    "Rxe6+"
+  ],
+  "title": "Inchiodatura a Lunga Distanza",
+  "setup": "La vostra torre in e1, una donna nera e il re nero stanno tutti su una colonna aperta, e fra loro non c'è niente.",
+  "hint": "Una donna inchiodata può ancora scivolare lungo la linea su cui è inchiodata. Non regalatele quella mossa.",
+  "explanation": "## L'idea\n\nLa donna in e6 è inchiodata: se uscisse dalla colonna e la vostra torre attaccherebbe il re in e8. Ma può ancora scivolare lungo la colonna, e sta guardando dritto la vostra torre. Quindi non c'è tempo per accumularci sopra dei pezzi. {{Rxe6+}} la prende adesso, il re in e8 è troppo lontano per riprendere, e il Bianco ha una torre contro un re nudo."
+}

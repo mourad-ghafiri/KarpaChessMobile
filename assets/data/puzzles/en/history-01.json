@@ -1,0 +1,13 @@
+{
+  "id": "history-01",
+  "fen": "3r3k/pp4pp/8/2n1N3/8/8/PP4PP/R5K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "The Cavalry Leap",
+  "setup": "Chariots and cavalry, still moving the way they moved fifteen centuries ago.",
+  "hint": "The black king has one square to run to. Which leap checks it and attacks the rook at the same time?",
+  "explanation": "## The Idea\n\nA knight's check cannot be blocked: the knight never crosses the squares in between, so there is nothing to put in the way.\n\n{{Nf7+}} touches h8 and d8 in the same move. Black's only legal reply is {{Kg8}}, and {{Nxd8}} collects the rook, which never saw the check coming: f7 is on neither its rank nor its file.\n\nWhen the enemy king is short of squares, look for the knight square that touches the king and something valuable at once."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-24",
+  "fen": "6k1/5ppp/8/2n1n3/8/3P4/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "d4"
+  ],
+  "title": "Um Peão, Dois Cavalos",
+  "setup": "Os dois cavalos pretos atacam o teu peão de d3, e só a torre de d1 o guarda. O peão tem uma ideia melhor do que esperar.",
+  "hint": "Um peão ataca as duas casas em diagonal à sua frente. Onde teria este de estar para atacar c5 e e5?",
+  "explanation": "## A Ideia\n\n{{d4}} coloca o peão entre os cavalos, atacando c5 e e5 ao mesmo tempo. Nenhum cavalo o pode comer, porque um cavalo em c5 ou e5 nunca toca em d4, e a torre de d1 guarda-o de qualquer maneira.\n\nAs pretas salvam um cavalo e o peão come o outro: um ponto de peão por três de cavalo. Qualquer outra jogada deixa os dois cavalos vivos."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-16",
+  "fen": "6k1/5ppp/8/8/8/3n4/2P2PPP/4K3 w - - 0 1",
+  "solution": [
+    "cxd3"
+  ],
+  "title": "Prendete l'Attaccante",
+  "setup": "Un cavallo nero spavaldo è saltato dentro a dare scacco al vostro re — ma avrà guardato dove atterrava?",
+  "hint": "Il vostro re potrebbe scappare, ma perché? La risposta più sgarbata a uno scacco è prendere chi lo dà — c'è qualcosa di vostro che ci arriva?",
+  "explanation": "## L'idea\n\nIl cavallo in d3 dà scacco, e uno scacco ha tre risposte: muovere il re, parare la linea, o catturare chi lo dà. Uno scacco di cavallo non si può parare, e qui la presa è disponibile.\n\nIl vostro pedone in c2 attacca b3 e d3, quindi {{cxd3}} toglie il cavallo, chiude lo scacco e vince tre punti in una mossa. Anche una mossa di re sfuggirebbe, ma lascerebbe il cavallo vivo."
+}

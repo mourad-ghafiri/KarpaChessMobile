@@ -1,0 +1,12 @@
+{
+  "id": "trapped-02",
+  "fen": "2r3k1/pp3pp1/7p/4P2n/8/4B3/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1040,
+  "title": "Cavalier en bordure",
+  "setup": "Le cavalier noir s'est égaré en h5, une case qui n'a que quatre sorties, et aucune ne semble accueillante.",
+  "hint": "Chaque case que ce cavalier peut atteindre est déjà couverte ou occupée. Il ne lui manque plus qu'une poussée.",
+  "explanation": "## L'idée\n\n{{g4}} attaque le cavalier et h5 est une impasse : f6 reçoit exf6, f4 reçoit Bxf4, g3 reçoit hxg3, et g7 est le propre pion noir. Un cavalier au bord de l'échiquier a quatre cases au maximum. Couvrez-les et il n'a nulle part où fuir."
+}

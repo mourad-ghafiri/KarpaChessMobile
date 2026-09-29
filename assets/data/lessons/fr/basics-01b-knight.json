@@ -1,0 +1,57 @@
+{
+  "id": "knight-moves",
+  "title": "Le L du cavalier",
+  "summary": "La seule pièce qui passe par-dessus le mur au lieu de le contourner",
+  "proof": "first-steps-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Deux cases, puis une",
+      "text": "Deux cases, puis une case sur le côté. C'est le seul coup de cavalier qui ait jamais existé.\n\nLe cavalier est la seule pièce qui refuse d'aller en ligne droite. Il ne glisse pas le long d'une rangée ou d'une colonne — il saute, de sa case à sa case d'arrivée, sans rien toucher entre les deux.\n\nRegardez-le partir : {{Nf6}}. Deux cases vers le haut depuis e4, puis une vers la droite. Un **L**, tracé en un seul coup."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Huit cases d'arrivée",
+      "text": "Comptez-les depuis e4 : {{Nd6}}, {{Nf6}}, {{Nc5}}, {{Ng5}}, {{Nc3}}, {{Ng3}}, {{Nd2}}, {{Nf2}}. Huit flèches qui partent d'une même case, et chacune des huit est un coup légal.\n\nPlacez maintenant ce même cavalier dans le coin, en a1, et recomptez : deux. Six de ses L sortent de l'échiquier et emportent leurs cases avec eux.\n\nUn cavalier veut donc le centre. C'est la seule pièce dont on lit la force dans son adresse."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Faites sauter le cavalier partout où un L peut l'emmener depuis e4.",
+      "targetSan": [
+        "Nd6",
+        "Nf6",
+        "Nc5",
+        "Ng5",
+        "Nc3",
+        "Ng3",
+        "Nd2",
+        "Nf2"
+      ],
+      "hint": "Comptez deux cases le long d'une rangée ou d'une colonne, puis tournez d'une case sur le côté. Toutes les directions fonctionnent."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Jamais deux fois la même couleur",
+      "text": "La case e4 est blanche. Chacune des huit cases que le cavalier vient d'atteindre est noire.\n\nC'est vrai partout sur l'échiquier. Un cavalier change la couleur sous ses pieds à chaque saut, et il n'a pas son mot à dire.\n\nCe qui vous offre un calcul gratuit : tout ce qui se trouve sur une case blanche est hors de portée d'un cavalier posé sur une case blanche. Hors de portée pour ce coup-ci, du moins. Au coup suivant, c'est l'inverse."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Par-dessus le mur",
+      "text": "Chaque partie commence dans un embouteillage. Les fous, les tours et la dame sont enfermés derrière leurs propres pions, et chacun doit attendre qu'un pion libère la route.\n\nLes cavaliers, eux, n'attendent pas. {{Nf3}} franchit la ligne de pions dès le premier coup, et le pion en f2 ne sent même pas un courant d'air.\n\nVoilà pourquoi les cavaliers sont si souvent les premières pièces à quitter la dernière rangée.\n\n> Les autres ont besoin d'une porte. Le cavalier passe par-dessus le mur."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3p4/3pp3/2N5/8/8/4K3 w - - 0 1",
+      "prompt": "Votre cavalier est attaqué : quittez la case et prenez le pion noir que rien ne protège.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "Un cavalier ignore ce qui se trouve sur son chemin, alors regardez au-delà du mur de pions — puis demandez-vous quel pion derrière lui a un second pion prêt à reprendre."
+    }
+  ]
+}

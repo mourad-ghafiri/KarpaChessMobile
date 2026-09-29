@@ -1,0 +1,56 @@
+{
+  "id": "quiet-move",
+  "title": "Langkah Tenang",
+  "summary": "Tanpa sekak, tanpa penangkapan, tanpa ancaman, dan tak ada yang bisa dilakukan Hitam",
+  "proof": "quiet-move-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "Sekak yang Membebaskan Raja",
+      "text": "Raja Hitam terjebak di sudut di h8, dan Putih punya sekak yang menunggu di baris kedelapan.\n\n{{Ra8+}}, dan Hitam membalas {{Kh7}}. Itu satu-satunya langkah sah, dan itu satu-satunya petak yang tak dikuasai raja Anda di f6. Sudutnya kini kosong, benteng harus memulai lagi, dan Hitam sama sekali tak kehilangan apa pun.\n\nSekak adalah pertanyaan, dan lawan berhak menjawabnya. Sekak yang ini menyerahkan pintu darurat dengan gratis."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "Hitung Sudutnya",
+      "text": "Jadi tinggalkan sekak itu dan menghitunglah sebagai gantinya.\n\nDari h8 raja hitam punya dua petak: g8 dan h7. Benteng menguasai baris kedelapan begitu ia tiba di sana, jadi g8 beres dengan sendirinya. h7 adalah kebocorannya, dan tak ada benteng di dunia yang mencapai h7 dari baris kedelapan.\n\nRaja Anda di f6 sudah menguasai g7, itulah sebabnya sudut itu hanya punya dua jalan keluar. Ia tidak menguasai h7.\n\nTutup h7 selagi Hitam tak punya apa pun untuk menjawab, dan sekak yang tadi gagal justru mengakhiri partai."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "prompt": "Gunakan raja Anda untuk merebut h7 dari raja Hitam, sehingga sekak benteng di baris kedelapan menjadi mat.",
+      "targetSan": [
+        "Kg6"
+      ],
+      "hint": "Memberi sekak lebih dulu hanya mengusir raja ke h7, jadi rebut petak itu sebelum Anda memberi sekak."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/8/8/R7 b - - 2 2",
+      "title": "Satu Langkah Sah",
+      "text": "Raja Anda di g6 merebut g7 dan h7 sekaligus, dan ia tak pernah mendekati raja hitam. Hitung balasan Hitam: {{Kg8}}. Itulah seluruh daftarnya.\n\nKini {{Ra8#}} tiba di baris yang tak bisa ditinggalkan raja, dan tiga petak di bawahnya — f7, g7 dan h7 — semuanya milik raja Anda.\n\nTak ada yang dipaksakan. Jawaban-jawabannya dirampas lebih dulu, dan pertanyaannya datang sesudahnya."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "Pion yang Tak Bisa Bergerak",
+      "text": "Papan baru, dan perlindungan Hitam masih utuh: pion di f7, g7 dan h7, benteng di a8 dan f8, gajah di b7. Hitam sudah kalah.\n\nBaca lajur g. Benteng Anda di g1 membidik lurus ke atas ke raja di g8, dan satu-satunya yang berdiri di antara keduanya adalah pion di g7.\n\nPion itu tampak seperti penjaga f6 dan h6. Padahal ia terjepit: menangkap di salah satu petak itu akan membawanya keluar dari lajur g dan membiarkan rajanya sendiri dalam sekak dari benteng, jadi ia sama sekali tak bisa menangkap — dan petak-petak yang tampaknya ia awasi tak diawasi siapa pun."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "Makin Keras, Makin Lambat",
+      "text": "Langkah-langkah yang keras ada di sana. {{Rxg7+}} melemparkan benteng ke pion itu, dan {{Bxg7}} merebutnya dengan gajah, yang tak bisa ditangkap balik raja, karena benteng Anda di g1 menjaga g7. Keduanya menang, dan keduanya memberi Hitam langkah untuk menjawab.\n\nAda yang lebih baik. Daratkan sebuah buah di tempat yang tak punya jawaban bagi Hitam, ancam mat untuk langkah berikutnya, dan tak satu pun dari tiga puluh lebih langkah sah Hitam menyentuh masalahnya."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "prompt": "Bawa menteri Anda ke petak yang hanya pura-pura dijaga pion yang terjepit, dengan mat yang menyusul.",
+      "targetSan": [
+        "Qh6"
+      ],
+      "hint": "Pion yang akan membuka rajanya sendiri jika menangkap sebenarnya tidak menjaga apa pun."
+    }
+  ]
+}

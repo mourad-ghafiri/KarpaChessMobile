@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-01",
+  "fen": "4r2k/4Qppp/8/1b6/1r6/8/PP2R3/K1B5 w - - 0 1",
+  "solution": [
+    "Qxe8+",
+    "Bxe8",
+    "Rxe8#"
+  ],
+  "rating": 1300,
+  "title": "Büyük Taşla Alın",
+  "setup": "Siyahın e8'deki kalesini fil koruyor ve b4'teki kalesi vezir kanadınızı kemiriyor.",
+  "hint": "İki ağır taşınız da aynı kareye yükleniyor. Önce hangisinin girmesi gerektiğini hesaplayın.",
+  "explanation": "## Fikir\n\nİçgüdü vezir kanadını korumak der. Görmezden gelin. {{Qxe8+}} {{Bxe8}} hamlesini zorlar ve fili, kalenizin zaten hükmettiği kareye sürükler; {{Rxe8#}} de partiyi, siyahın karşı oyununun oynayacak bir hamlesi olmadan bitirir."
+}

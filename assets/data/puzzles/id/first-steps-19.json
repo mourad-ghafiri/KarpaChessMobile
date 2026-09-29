@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-19",
+  "fen": "8/7P/6k1/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "h8=Q"
+  ],
+  "title": "Perjalanan Panjang",
+  "setup": "Pion h Anda telah berbaris sampai ke baris ketujuh, dan raja Hitam di g6 tinggal selangkah lagi untuk memakannya.",
+  "hint": "Menunggu berarti kehilangan pion. Selesaikan perjalanannya sekarang, dan pilih buah terkuat yang bisa menjadi dirinya.",
+  "explanation": "## Ide\n\nRaja hitam di g6 bersentuhan dengan h7, jadi langkah tenang apa pun membiarkannya mengambil pion, dan raja sendirian melawan raja sendirian adalah remis. {{h8=Q}} mengakhiri itu: pion meninggalkan h7 pada langkah ketika ia diserang, dan h8 berada di luar jangkauan raja.\n\nBenteng juga akan menang, hanya lebih lambat. Menteri bernilai sembilan poin, dan raja serta menteri melawan raja sendirian selalu menang."
+}

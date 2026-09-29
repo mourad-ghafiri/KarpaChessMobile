@@ -1,0 +1,14 @@
+{
+  "id": "decoy-09",
+  "fen": "3q1bk1/pp3pp1/8/4N3/3P4/8/PPr2PP1/3R2KR w - - 1 2",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "Nxf7+"
+  ],
+  "rating": 1450,
+  "title": "La fourchette après la chute",
+  "setup": "Le roi noir est en g8 avec son propre fou et ses propres pions à côté de lui, votre tour tient la colonne h, et votre cavalier en e5 vise f7.",
+  "hint": "Depuis f7, votre cavalier frapperait deux pièces à la fois — mais seulement si le roi se tenait en h8.",
+  "explanation": "## L'idée\n\n{{Rh8+}} est une tour offerte pour une case : {{Kxh8}} est forcé. Maintenant {{Nxf7+}} fait une fourchette sur le roi et la dame, et le cavalier revient avec la dame. Les attractions achètent des cases, pas du matériel. Cherchez les fourchettes qui ont besoin qu'une pièce adverse bouge, puis faites-la bouger vous-même."
+}

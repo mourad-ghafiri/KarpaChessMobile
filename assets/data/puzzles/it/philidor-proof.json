@@ -1,0 +1,11 @@
+{
+  "id": "philidor-proof",
+  "fen": "3k4/5R2/8/r1PK4/8/8/8/8 b - - 0 1",
+  "solution": [
+    "Ra6"
+  ],
+  "title": "Chiudete la Sesta",
+  "setup": "Il re bianco in d5 è a un passo dalla sesta traversa, e da lì spinge via il vostro re dalla casa di promozione. Muove il Nero, ed è patta.",
+  "hint": "Al re bianco serve una di tre case della sesta traversa. Una torre che sta su una traversa ne copre ogni casa.",
+  "explanation": "## L'idea\n\nAl re bianco servono c6, d6 o e6, e una sola mossa di torre se le prende tutte e tre: {{Ra6}}. Una torre su una traversa è un recinto, e un re non può mettere piede su una casa che essa copre.\n\nOgni altra mossa lascia il re salire sulla sesta traversa, e con la torre in f7 che tiene il vostro re sulla traversa di fondo, il pedone entra. Se il Bianco spinge mai in c6, il recinto ha fatto il suo lavoro: portate la torre all'altro capo e date scacco da dietro."
+}

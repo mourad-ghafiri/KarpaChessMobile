@@ -1,0 +1,14 @@
+{
+  "id": "defence-02",
+  "fen": "3Q4/5R2/6k1/7b/2r5/1K6/5q2/8 w - - 0 1",
+  "solution": [
+    "Qg8+",
+    "Kh6",
+    "Rh7#"
+  ],
+  "rating": 1490,
+  "title": "Vezirleri Kapınızın Önünde",
+  "setup": "Siyahın f2'deki veziri şahınızın yanındaki yatayı tarıyor, kalesi ve fili de etkin — tamamen kaybetmiş görünüyorsunuz.",
+  "hint": "Kendi şahınıza hiç bakmayın. Sekizinci yataydaki bir şahtan sonra siyahın şahının nereye gidebileceğini sorun.",
+  "explanation": "## Fikir\n\n{{Qg8+}} şahı h6'ya sürer ve {{Rh7#}} işi bitirir; g8'deki vezir kaleyi tutar. Saldırı altında olmak yalnızca bir hamle geridiyseniz ölümcüldür; burada bir hamle öndesiniz."
+}

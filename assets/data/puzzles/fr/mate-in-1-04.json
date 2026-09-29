@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-04",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Une voie libre jusqu'au roi",
+  "setup": "La colonne d est vide depuis votre tour jusqu'à la huitième rangée, et les pions noirs n'ont laissé aucune fenêtre au roi.",
+  "hint": "Faites glisser la tour sur la dernière rangée ouverte — les pions en f7, g7 et h7 font le reste.",
+  "explanation": "## L'idée\n\nUn **mat du couloir** classique. La colonne d est une autoroute dégagée et le roi noir étouffe derrière ses propres pions.\n\n{{Rd8#}} : la tour couvre f8 et toute la huitième rangée, f7, g7 et h7 sont occupées par les propres pions noirs, et rien ne peut s'interposer entre d8 et g8. Quand votre tour et le roi adverse partagent une dernière rangée ouverte, comptez d'abord les cases de fuite."
+}

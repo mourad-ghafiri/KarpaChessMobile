@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-03",
+  "fen": "1r3R2/3p1R2/4Q3/1k2B3/b7/8/3p4/5K2 w - - 0 1",
+  "solution": [
+    "Rxb8+",
+    "Kc5",
+    "Qd6+",
+    "Kc4",
+    "Qd4#"
+  ],
+  "rating": 1420,
+  "title": "Prenez la tour, gardez l'échec",
+  "setup": "Le roi noir s'est aventuré en b5, sa tour est en b8 et un pion passé est à une case de la promotion en d2.",
+  "hint": "Vous n'avez pas le temps d'arrêter le pion. Trouvez la prise qui ouvre aussi une ligne vers le roi.",
+  "explanation": "## L'idée\n\n{{Rxb8+}} gagne une tour avec échec, et de là {{Qd6+}} et {{Qd4#}} font descendre le roi sur l'échiquier. Le pion d2 n'a jamais l'occasion de bouger, et c'est la seule défense contre lui qui compte."
+}

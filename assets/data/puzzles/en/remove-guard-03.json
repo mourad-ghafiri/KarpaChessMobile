@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-03",
+  "fen": "r5k1/5ppp/2p5/3n4/1b6/6P1/5PBP/1R4K1 w - - 1 2",
+  "solution": [
+    "Bxd5"
+  ],
+  "rating": 1130,
+  "title": "Knight Was the Glue",
+  "setup": "Your rook eyes the bishop on b4, and the knight on d5 is the only black piece defending it.",
+  "hint": "Your rook already attacks a defended piece. Look one square farther along: who is doing the defending?",
+  "explanation": "## The Idea\n\n{{Bxd5}} removes the knight that guards b4. After {{cxd5}} the bishop has nobody left and {{Rxb4}} wins it. Bishop for knight is an even trade; the bishop on b4 is the profit. Always ask who is holding the piece you want before you reach for it."
+}

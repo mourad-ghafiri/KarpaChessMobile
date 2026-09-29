@@ -1,0 +1,14 @@
+{
+  "id": "deflection-05",
+  "fen": "6rk/ppq3pp/8/4N3/8/6P1/P4PK1/3R4 w - - 1 2",
+  "solution": [
+    "Ng6+",
+    "hxg6",
+    "Rh1#"
+  ],
+  "rating": 1260,
+  "title": "The h-Pawn's One Job",
+  "setup": "The king on h8 is boxed in by its own rook and pawn, and only the h7 pawn keeps the h-file shut.",
+  "hint": "The h-file is the road to that king, and one pawn blocks it. What check forces the pawn to move?",
+  "explanation": "## The Idea\n\n{{Ng6+}} leaves Black one legal move: {{hxg6}}. The pawn has to capture, the h-file swings open, and {{Rh1#}} arrives. A pawn that must take is a pawn that has left its post. Look for defenders with no choice, not only for defenders you can capture."
+}

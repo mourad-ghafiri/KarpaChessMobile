@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-03",
+  "fen": "4k3/pp2qppp/8/8/8/8/PPB2KPP/3R4 w - - 0 1",
+  "solution": [
+    "Re1"
+  ],
+  "title": "Tepat Sasaran di Lajur e",
+  "setup": "Menteri Hitam berdiri di e7, tepat di depan rajanya sendiri, dan lajur e di bawahnya terbuka.",
+  "hint": "Ketika menteri menjadi perisai rajanya, ia menjadi sasaran yang diam di tempat.",
+  "explanation": "## Ide\n\n{{Re1}} menjepit menteri terhadap raja di e8. Menteri tak bisa keluar dari lajur e tanpa membuka rajanya, dan raja Anda di f2 menjaga e1, jadi melawan dengan {{Qxe1+}} berarti menyerahkan menteri untuk benteng sesudah {{Kxe1}}. Setiap balasan lain juga kehilangan menteri.\n\nBuah yang terjepit sebenarnya bukan buah: ia sasaran."
+}

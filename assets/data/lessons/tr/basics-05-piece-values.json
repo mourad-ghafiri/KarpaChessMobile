@@ -1,0 +1,62 @@
+{
+  "id": "piece-values",
+  "title": "Dokuz, Beş, Üç, Bir",
+  "summary": "Her taşın fiyatı ve vahim hatayı olmadan durduran sayma alışkanlığı",
+  "proof": "first-steps-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Fiyat Listesi",
+      "text": "Satranç taşlarının üstüne kimse fiyat basmaz. Oyuncular yine de, yüzyıllarca hangi değişimin iyi sonuç verdiğine bakarak bu fiyatları çıkardı.\n\nHer şey piyonla sayılır. Piyon 1'dir. At 3, fil de 3. Kale 5. Vezir 9.\n\nŞahın sayısı yoktur: asla değişilmez ve asla alınmaz, yani fiyatlanacak bir şey de yoktur.\n\nHâlâ elinizde olanları toplayın; bu toplam sizin **taş dengeniz**dir — pozisyonun parmakla sayabileceğiniz tek parçası.\n\n> Sayılar bir rehberdir, kanun değil. Bir pozisyon hepsini geçersiz kılabilir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Bire Bir",
+      "text": "Eşit bir değişimin geçişini izleyin: {{e4}} {{d5}} {{exd5}} {{Qxd5}}.\n\nBeyaz bir piyon kazanır. Siyah piyonu hemen geri kazanır. İki tarafın da elinde dört hamle önce neyi varsa o var ve hesap bir puan bile oynamadı.\n\nTaş almaların çoğu böyledir — eşitlerin takası; pozisyon değişir, taş dengesi değişmez. Peşine düşmeye değen taş almalar öteki türdür."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Beşe Karşı Üç",
+      "text": "e1'deki kale beş, f3'teki at üç eder. Yani ata karşı kale hiç değişim değildir — iki puanlık bir kârdır ve o kadar sık karşınıza çıkar ki kendi adı vardır: **kalite** kazanmak.\n\nYığınlar büyüdükçe sayıları toplamak daha az güvenilir olur. Bir at ile bir fil — **hafif taşlar** — toplam altı eder; bir kale ile bir piyon da altı eder, ama bu pazarlığın iyi ucunu genelde iki taş tutar. Üç hafif taş da dokuz eder, tıpkı vezir gibi, ve üçü genellikle veziri yener."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Bir At Önde",
+      "text": "Burada ne olduğunu sayın. İki tarafta da vezir, kale ve üçer piyon — ve beyazın üstüne bir de atı var. Tek bir taş ve iki taraf arasındaki bütün fark o.\n\nFazladan bir taş, geri kalan her şey azaldıkça daha çok değer kazanır. Bu yüzden önde olan taraf değişir: eşitlerin her takası, fazladan atınıza kalanın içinde daha büyük bir pay bırakır ve siyaha bir şeyler yapacak daha az taş bırakır.\n\nŞu anda eşit bir takas mevcut."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "prompt": "Bir at öndesiniz; siyaha, iki taraftan da en ağır taşı kaldıran takası önerin.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "İki vezir aralarında hiçbir şey olmadan zaten aynı dikeyi paylaşıyor ve siyahın kalesi o kareyi gözlüyor."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/3r4/8/5N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Takas Ne Getirdi",
+      "text": "Dokuza karşı dokuz. Vezirler gitti, hesap bir puan bile kaymadı: beyaz tam da önceki gibi bir at önde.\n\nDeğişen, çevresindeki her şey. Siyahın d5'te bir kalesi, üç piyonu ve bir şahı var ve hiçbiri, orada olmayan bir taş hakkında bir şey yapamaz. Ne kadar az taş kalırsa fazladan olan o kadar yüksek sesle konuşur.\n\nTaş dengesinde geridiyseniz tersini yapın ve taşları tahtada tutun. Ayakta kalan her taş, önde olan taraf için ters gidebilecek bir şey daha demektir."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "title": "Sayılmış ya da Sayılmamış",
+      "text": "Karşılıksız verilen taş bir **vahim hata**dır — karşılığında hiçbir şey gelmemiştir ve kurallar izin verse hamleyi geri alırdınız.\n\nBile isteye, önceden saydığınız ve geldiğini görebildiğiniz bir şey için verilen taş ise **feda**dır. Dışarıdan bakınca iki hamle birbirinin aynısıdır. Bütün fark, saymanın önce yapılıp yapılmadığıdır.\n\nSayma işinin taş almadan önce gelmesinin sebebi budur. Atınız burada iki siyah taşa ulaşıyor ve fiyatlar göründükleri gibi değil."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "prompt": "Bir taş alma bedava, biri atınıza mal oluyor — ikisini de sayın ve çok kazandıranı oynayın.",
+      "targetSan": [
+        "Nxc6"
+      ],
+      "hint": "Kale beş, piyon bir eder ve e5'teki at ikisine birden ulaşır."
+    }
+  ]
+}

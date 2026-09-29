@@ -1,0 +1,14 @@
+{
+  "id": "smothered-09",
+  "fen": "k2r3r/pp3ppp/N7/4Q3/8/8/5PPP/6K1 w - - 5 27",
+  "solution": [
+    "Qb8+",
+    "Rxb8",
+    "Nc7#"
+  ],
+  "rating": 1405,
+  "title": "b8'de Feda",
+  "setup": "Siyahın şahı az önce atın şahından köşeye kaçtı; a7 ve b7'de kendi piyonları duruyor.",
+  "hint": "a6'daki at b8'i zaten koruyor — bu, bir vezire şahın tam yanındaki karede ne yapma imkânı verir?",
+  "explanation": "## Fikir\n\n{{Qb8+}} dokunulmazdır, çünkü a6'daki at b8'i korur; yani {{Rxb8}} tahtadaki tek hamledir ve köşeyi siyahın kendi kalesi mühürler. Ardından {{Nc7#}} siyahın hiçbir taşının gözlemediği bir kareden şah çeker. Aynı feda iki köşede de işler."
+}

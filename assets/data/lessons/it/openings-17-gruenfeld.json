@@ -1,0 +1,56 @@
+{
+  "id": "gruenfeld-advanced",
+  "title": "La Difesa Grünfeld",
+  "summary": "Consegnate il centro, e poi sparategli addosso",
+  "proof": "openings-17.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+      "title": "Un'Offerta, Non una Rivendicazione",
+      "text": "Il pedone nero in d5 cammina dritto contro un pedone e un cavallo, e il Nero vuole che tutti e due colpiscano.\n\nOgni altra risposta ai due pedoni centrali del Bianco cerca di tenere terreno in mezzo. Questa lo vende. Il Nero cambia via il pedone di d5, lascia che il Bianco costruisca il centro più largo dei manuali d'apertura, e conta di passare il resto della partita a sparargli addosso da lontano.\n\nErnst Grünfeld la giocò nel 1922, quando regalare apposta il centro della scacchiera si leggeva come un errore di stampa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+      "title": "Perché il Bianco Prende",
+      "text": "{{cxd5}}, e il Bianco dovrebbe farlo volentieri. Rifiutare vuol dire lasciare al Nero un pedone in mezzo per niente.\n\nGuardate però che cosa compra la presa. Il Nero riprende con un pezzo, quindi il Nero non ha proprio nessun pedone al centro — e il Bianco è a una mossa dal piantare un secondo pedone accanto a d4. Sulla carta il Nero ha consegnato il centro della scacchiera e non ha ottenuto niente in cambio.\n\nIl guadagno non è ancora sulla scacchiera. Sta in quello che il Nero potrà prendere di mira una volta che i pedoni bianchi saranno sistemati."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3P4/3P4/2N5/PP2PPPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Scacciato Appena Arrivato",
+      "text": "{{Nxd5}} {{e4}}. Il cavallo arriva in mezzo e gli viene detto di andarsene alla mossa immediatamente successiva.\n\nI pedoni bianchi adesso stanno affiancati in d4 e e4, che è quello per cui il Bianco gioca dalla prima mossa: un centro largo, e ogni pezzo dietro con una casa dove andare.\n\nIl cavallo deve muovere. Ha una casa dove fa danno mentre esce, e trovare quella casa è tutta la ragione per cui il Nero ha permesso tutto questo."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3PP3/2N5/PP3PPP/R1BQKBNR b KQkq e3 0 5",
+      "prompt": "Il vostro cavallo è inseguito: lasciate la casa nel modo che costringe il Bianco a riprendere con un pedone d'ala.",
+      "targetSan": [
+        "Nxc3"
+      ],
+      "hint": "Ritirarsi regala il centro al Bianco; cercate invece il pezzo che il vostro cavallo può prendere mentre esce."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Quanto è Costata la Ripresa",
+      "text": "Il pedone b del Bianco è venuto in c3 a puntellare d4, e l'ala di donna che si è lasciato dietro è un disastro: un pedone in a2, e una torre in a1 che guarda una colonna b vuota.\n\nLa metà del patto che spetta al Nero è l'alfiere in g7. Il pedone è andato in g6 alla seconda mossa proprio perché l'alfiere potesse possedere quella diagonale, e la diagonale corre g7, f6, e5, d4 — dritta dentro i pedoni che il Bianco ha appena finito di costruire."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Contate le Guardie su d4",
+      "text": "Adesso tutto ruota su d4. Lo tengono su tre cose: il pedone in c3, il cavallo in f3 e la donna in d1. Una sola di esse è un pedone.\n\nUn pedone difende gratis. Un pezzo che difende un pedone è un pezzo con un lavoro da cui non può allontanarsi, quindi il Nero attacca d4 con la cosa più economica a disposizione e lascia decidere al Bianco quale pezzo resti bloccato a fare da balia. Prima il pedone, i pezzi dietro.\n\n> Un centro così grande è un ariete o un bersaglio, e a decidere quale dei due è quello che gli punta contro."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "Attaccate d4 con un pedone, scegliendo quello che non blocca la diagonale del vostro alfiere.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "La strada del vostro alfiere passa per e5 e d4, quindi il pedone che mandate deve venire dall'altra ala."
+    }
+  ]
+}

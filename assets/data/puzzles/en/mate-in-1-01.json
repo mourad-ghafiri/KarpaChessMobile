@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-01",
+  "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 1",
+  "solution": [
+    "Qxf7#"
+  ],
+  "title": "Scholar's Strike",
+  "setup": "Your queen on h5 and bishop on c4 are both aimed at the weakest square in Black's camp.",
+  "hint": "Two of your pieces converge on one soft square, and only the king defends it.",
+  "explanation": "## The Idea\n\nThis is the finishing move of Scholar's Mate. {{Qxf7#}} takes the pawn with check. The bishop on c4 guards f7, so the king cannot take the queen, and its only empty square, e7, is covered by the queen. Its other neighbors, d8, d7 and f8, hold its own pieces.\n\nAt the start of the game f7 is guarded only by the king, so a queen and bishop aimed at it are the oldest trick in chess."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-05",
+  "fen": "2r3k1/1q3ppp/8/8/8/8/2R2PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Rxc8#"
+  ],
+  "rating": 850,
+  "title": "Bertukar Menuju Mat",
+  "setup": "Kedua pihak punya benteng di lajur c, dan benteng Hitam di c8 hanya dilindungi menterinya.",
+  "hint": "Hitung penyerang dan pembela di petak baris belakang itu, dan ingat bahwa raja tak bisa membantu.",
+  "explanation": "## Ide\n\n{{Rxc8+}} memaksa {{Qxc8}} — raja tak punya petak dan menteri tak bisa menghalangi dari b7 — dan benteng kedua menuntaskan dengan {{Rxc8#}}. Satu pembela tak bisa mempertahankan petak yang diserang dua benteng."
+}

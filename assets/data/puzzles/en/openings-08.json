@@ -1,0 +1,13 @@
+{
+  "id": "openings-08",
+  "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Nxe5",
+    "fxe5",
+    "Qh5+"
+  ],
+  "title": "The Wrong Defender",
+  "setup": "Black has defended the e5 pawn with the f-pawn instead of a piece. Punish it by offering material that opens the diagonal to Black's king.",
+  "hint": "Ask what road opens if that new defender is forced to capture, and which white piece is waiting at the end of it.",
+  "explanation": "## The Idea\n\nDefending e5 with the f-pawn holds the pawn, but it opens the diagonal from h5 to the black king.\n\n{{Nxe5}} offers a piece to use it. If {{fxe5}}, then {{Qh5+}}: blocking on g6 loses the h8 rook after {{Qxe5+}} and the queen's next capture, and stepping to e7 lets the queen hunt the king in the open. Declining with {{Qe7}} wins the pawn back, but leaves Black's king and development clearly worse.\n\nDefend with pieces first. A pawn that has moved cannot come back."
+}

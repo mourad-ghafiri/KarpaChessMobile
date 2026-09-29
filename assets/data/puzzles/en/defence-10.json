@@ -1,0 +1,14 @@
+{
+  "id": "defence-10",
+  "fen": "8/7Q/2b4q/8/7k/6r1/5R1K/8 w - - 0 1",
+  "solution": [
+    "Qxh6+",
+    "Kg4",
+    "Rf4#"
+  ],
+  "rating": 1830,
+  "title": "Take the Queen With Check",
+  "setup": "Your king on h2 has Black's queen on h6, rook on g3 and bishop on c6 bearing down on it.",
+  "hint": "The obvious move is to save yourself. Try the capture that changes whose king is in the net.",
+  "explanation": "## The Idea\n\n{{Qxh6+}} takes the queen with check; {{Kg4}} is forced, and {{Rf4#}} mates with the rook cutting the fourth rank. Removing the attacker and gaining a tempo are the same move here."
+}

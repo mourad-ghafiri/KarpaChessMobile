@@ -1,0 +1,11 @@
+{
+  "id": "forks-04",
+  "fen": "8/p3k1pp/1r6/8/8/2N5/PP4PP/6K1 w - - 0 1",
+  "solution": [
+    "Nd5+"
+  ],
+  "title": "D'abord l'échec, ensuite l'encaissement",
+  "setup": "La tour noire en b6 n'a aucun défenseur, et le roi noir se tient au milieu de l'échiquier.",
+  "hint": "Trouvez un saut de cavalier qui donne échec et attaque autre chose en même temps.",
+  "explanation": "## L'idée\n\n{{Nd5+}} met le roi en e7 en échec et attaque la tour en b6 d'un seul saut. Rien de noir ne peut prendre le cavalier en d5, et le roi doit d'abord parer l'échec, donc après son déplacement {{Nxb6}} gagne la tour.\n\nUne fourchette de cavalier est la plus forte quand l'une des deux cibles est le roi : l'échec retire aux Noirs la possibilité de sauver l'autre pièce."
+}

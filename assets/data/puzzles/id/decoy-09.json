@@ -1,0 +1,14 @@
+{
+  "id": "decoy-09",
+  "fen": "3q1bk1/pp3pp1/8/4N3/3P4/8/PPr2PP1/3R2KR w - - 1 2",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "Nxf7+"
+  ],
+  "rating": 1450,
+  "title": "Garpu Sesudah Kejatuhan",
+  "setup": "Raja hitam duduk di g8 dengan gajah dan pionnya sendiri di sampingnya dan benteng Anda menguasai lajur h, dan kuda Anda di e5 mengincar f7.",
+  "hint": "Dari f7 kuda Anda akan menyerang dua buah sekaligus — tetapi hanya jika raja berdiri di h8.",
+  "explanation": "## Ide\n\n{{Rh8+}} adalah benteng yang ditawarkan demi satu petak: {{Kxh8}} terpaksa. Kini {{Nxf7+}} menggarpu raja dan menteri, dan kuda kembali membawa menteri. Umpan membeli petak, bukan materi. Carilah garpu yang membutuhkan satu buah lawan dipindahkan, lalu pindahkan sendiri."
+}

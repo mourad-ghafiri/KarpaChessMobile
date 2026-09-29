@@ -1,0 +1,14 @@
+{
+  "id": "defence-01",
+  "fen": "7r/7k/q7/7K/6Qb/1R6/8/8 w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Be7",
+    "Rxe7#"
+  ],
+  "rating": 1450,
+  "title": "Harcayacak Hamle Yok",
+  "setup": "Şahınız h5'te tek başına kalmış; siyahın veziri, kalesi ve fili menzilde — siyahın bir hamlesi daha ve iş biter.",
+  "hint": "Savunmak kaybettirir. Bunun yerine kendi şah hamlelerinizi sayın ve siyahın iki kez cevaplayamayacağı şahı bulun.",
+  "explanation": "## Fikir\n\nSiyah h6'da mat tehdit ediyor, yani savunmaya vakit yok. {{Rb7+}} önce şah çeker ve iki cevap bırakır. {{Be7}} kapatır ve {{Rxe7#}} kapatanı alır. {{Qxb7}} bunun yerine kaleyi alır ve {{Qg6#}} mat eder.\n\nİki şah da tehlikedeyken hamle sırasını şah çeken taraf belirler."
+}

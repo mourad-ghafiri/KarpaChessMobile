@@ -1,0 +1,59 @@
+{
+  "id": "notation",
+  "title": "Una Lettera e una Casa",
+  "summary": "Leggete una partita dalla pagina stampata e rigiocatela mossa per mossa",
+  "proof": "notation-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Due Caratteri, Una Mossa",
+      "text": "Due caratteri sono una mossa intera. Gli scacchi hanno una sola lingua scritta — la **notazione algebrica** — e registra soltanto dove un pezzo è **arrivato**, mai il viaggio che ha fatto.\n\nIl pedone è il caso più semplice. Non porta nessuna lettera, quindi la casa è tutta la mossa. Il pedone bianco in e2 può andare in {{e3}} o fare due case fino a {{e4}}, e un libro le stampa come `e3` ed `e4`.\n\nNon *pedone bianco, da e2 a e4*. Solo `e4`. Sapete già leggerlo."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppp1p/6p1/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "prompt": "Una partita stampata si apre con `1.e4 g6`, e la voce successiva è `2.d4`: giocate la mossa che indica.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Nessuna lettera maiuscola vuol dire che muove un pedone, e un pedone ancora sulla casa di partenza può fare una o due case."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "L'Alfabeto dei Pezzi",
+      "text": "Ogni pezzo tranne il pedone porta una lettera maiuscola, e la lettera va davanti alla casa. **K** è il re, **Q** la donna, **R** la torre, **B** l'alfiere. Al cavallo tocca **N**, perché la K era già presa.\n\nLe lettere vengono dai nomi inglesi — King, Queen, Rook, Bishop, Knight — e le trovate così in ogni app e in ogni libro internazionale; i formulari italiani usano anche R, D, T, A, C per re, donna, torre, alfiere e cavallo.\n\nUna mossa scritta è dunque una lettera e una casa, unite. L'alfiere bianco in f1 può arrivare in e2, c4 o b5, e ognuna è la stessa coppia di idee: {{Be2}}, {{Bc4}}, {{Bb5}}.\n\nNessuno dice *quale* alfiere. Su quella casa può arrivarne uno solo, quindi la lettera e la casa fanno tutto il lavoro."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "prompt": "La voce successiva del Bianco dice `Nf3`: mettete il pezzo che quella lettera indica sulla casa che segue.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "La maiuscola non è K, e la K appartiene al re: questa lettera indica il pezzo che ha dovuto accontentarsi della seconda lettera."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Una Mossa, Poi l'Altra",
+      "text": "Una partita su una pagina non è altro che questi piccoli indirizzi, uno dopo l'altro, con le due parti che si alternano.\n\nIl Nero risponde {{Nc6}} — N per il pezzo, c6 per la casa. Il Bianco replica {{Bc4}} — B per il pezzo, c4 per la casa. Guardatele giocare entrambe sulla scacchiera.\n\nTre domande leggono qualsiasi mossa tranquilla. C'è una lettera maiuscola? Quale lettera è? Quale casa segue? Prese e scacchi aggiungono un segno proprio, e ognuno avrà la sua lezione."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "Numeri e Puntini",
+      "text": "Le mosse vanno a coppie, e una partita stampata numera ogni coppia: `1.e4 e5 2.Nf3 Nc6 3.Bc4`. Numero, mossa del Bianco, mossa del Nero.\n\nVentitré caratteri, e ricostruiscono esattamente la posizione che avete davanti. Ecco perché le partite si stampano come righe di testo e non come figure.\n\nQuando una mossa del Nero deve stare da sola, tre puntini tengono il posto del Bianco: `2...Nc6` è la risposta del Nero alla seconda mossa. I puntini ci sono perché non perdiate mai il conto di chi tocca.\n\n> Una lettera per il pezzo, due caratteri per la casa, un numero per tenere il conto. Tutto il resto della notazione è costruito su questi tre."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "La voce successiva del libro è `3...Nf6`: leggetela e giocate la mossa del Nero.",
+      "targetSan": [
+        "Nf6"
+      ],
+      "hint": "Un cavallo nero è già uscito in c6; l'altro non ha ancora mosso e si trova in g8."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "thinking-process",
+  "title": "Before You Move",
+  "summary": "Three questions, asked in order, that catch the move you were about to regret",
+  "proof": "thinking-process-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "Three Questions",
+      "text": "Most games are not lost to a clever opponent. They are lost to a move played before anyone looked.\n\nThree questions stop that, and they are always the same three:\n\n1. What is my opponent **threatening** — what is the move they want to play next?\n2. What are my checks and captures?\n3. What happens after my move?\n\nTen seconds, in that order, every move. The first two questions find moves. The third one throws the bad ones away."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "What Just Changed",
+      "text": "Black's knight on f6 attacks nothing. Question one still has an answer.\n\nThat knight covers e4 and d5, the two center squares White most wants for its own pawns. Play {{e4}} without asking, and {{Nxe4}} takes it — nothing white defends that square, and nothing takes back.\n\nSo question one is not only \"what is attacked\". It is: what can that move do now that it could not do a moment ago? Sometimes the answer is a threat. Sometimes it is a square you have quietly lost."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "The Free Pawn",
+      "text": "A new game, three moves old. Black's knight on d4 has jumped into White's half of the board, and it has left the pawn on e5 guarded by nothing at all.\n\nQuestion two asks what you can take. The board answers in a second: {{Nxe5}}, a pawn for free.\n\nIt looks like the right move. Question two cannot tell you whether it is, because question two never asks what Black does next."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4N3/2BnP3/8/PPPP1PPP/RNBQK2R b KQkq - 0 4",
+      "prompt": "Play Black's answer: find the queen move that attacks the greedy knight and an undefended pawn at the same time.",
+      "targetSan": [
+        "Qg5"
+      ],
+      "hint": "The knight that just captured is defended by nothing, and neither is the pawn on g2 — one square sees both."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Question Three",
+      "text": "Back up to the board White was looking at. That queen move was findable from here, one move early, by the player about to take.\n\nAfter {{Nxe5}} {{Qg5}}, the knight and the pawn on g2 are both attacked, and even White's best reply from there leaves Black the better game. The free pawn was bait.\n\nThat is question three. Not \"is my move safe\", but: do I already know what my opponent does on the move after it?\n\n> Nobody loses to the move they looked at. They lose to the reply they did not."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Candidate Moves",
+      "text": "So the grab costs more than it wins, and only question three could see that. The fix starts before you choose.\n\nThe moves question two hands you are your **candidate moves**: a list, not an answer. White has three captures here, plus quiet moves like {{c3}}, which attacks the knight on d4 and gets answered by a trade on f3.\n\nPick two or three. Run question three on each. Play the one whose reply you can actually see."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Take the knight that jumped into your half of the board and leave the position with nothing to work out.",
+      "targetSan": [
+        "Nxd4"
+      ],
+      "hint": "One capture walks into the queen move you just found, one throws a bishop at a defended pawn, and one is an even trade."
+    }
+  ]
+}

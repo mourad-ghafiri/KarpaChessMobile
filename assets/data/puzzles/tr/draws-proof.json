@@ -1,0 +1,11 @@
+{
+  "id": "draws-proof",
+  "fen": "k3r3/8/8/8/8/p7/P1q5/K5Q1 w - - 0 1",
+  "solution": [
+    "Qa7+"
+  ],
+  "title": "Yoktan Yarım Puan",
+  "setup": "Bir kale geridesiniz, siyah b2'de mat tehdit ediyor ve a1'deki şahınızın hiç kurallı hamlesi yok. Yarım puanı bulun.",
+  "hint": "Vezir tahtada olmasaydı kaç kurallı hamleniz olurdu, sayın.",
+  "explanation": "## Fikir\n\na1'deki şahınız oynayamıyor: siyahın veziri b1 ile b2'yi kapsıyor ve a2'deki piyonunuz tıkalı. Hamlesi kalan tek taş veziriniz.\n\n{{Qa7+}} onu şah çekerek elden verir. a8'deki şah b7'ye de b8'e de adımlayamaz, yani alması gerekir. Ardından beyazın hiç kurallı hamlesi kalmaz ve şah altında da değildir: pat, yarım puan.\n\nKazanan taraf buna dikkat eder. Kaybeden taraf onu aramaya çıkar."
+}

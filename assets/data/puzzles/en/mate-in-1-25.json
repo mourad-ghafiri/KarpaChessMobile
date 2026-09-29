@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-25",
+  "fen": "4k3/R7/4K3/8/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Opposition and Sweep",
+  "setup": "The kings face each other on the e-file, and your rook waits on the seventh rank.",
+  "hint": "Lift the rook to the eighth rank. Your king on e6 already covers the seventh.",
+  "explanation": "## The Idea\n\nThis is the basic king and rook mate. The kings face each other, and the rook checks from a distance.\n\n{{Ra8#}} checks along the back rank. d8 and f8 are on the rook's line, your king on e6 covers d7, e7 and f7, and nothing can block.\n\nKings facing each other, rook on the enemy king's rank: most king and rook endings finish exactly like this."
+}

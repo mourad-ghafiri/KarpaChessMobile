@@ -1,0 +1,65 @@
+{
+  "id": "opening-principles",
+  "title": "I Tre Principi",
+  "summary": "Tre compiti, circa dieci mosse",
+  "proof": "openings-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Dieci Mosse, Tre Compiti",
+      "text": "Tutti e due hanno un pedone in mezzo e tutto il resto a casa. Da qui, una decina di mosse decide la forma della partita — il tempo che serve a finire tre compiti.\n\n1. **Prendetevi una parte del centro.** Un pedone in mezzo tiene case che i vostri pezzi vogliono.\n2. **Portate fuori un pezzo nuovo a ogni mossa.** Prima cavalli e alfieri; arrivano al lavoro in un balzo.\n3. **Mettete il re in un angolo.** Un re ancora in mezzo quando le linee si aprono è un bersaglio, non un pezzo.\n\nChi finisce per primo attacca mentre l'altro sta ancora mettendo in ordine."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Che Cosa Compra una Mossa",
+      "text": "{{Nf3}} {{Nc6}}. Due cavalli fuori dalla traversa di fondo, tutti e due puntati sul centro, e nessuno dei due deve muovere ancora per fare qualcosa.\n\nQuesto è lo **sviluppo** — un pezzo che ha lasciato casa e ha già un lavoro. Anche quello che ci spendete ha un nome: un **tempo** è una mossa, un turno. Ne avete uno per turno, e così il vostro avversario.\n\nQuindi un pezzo mosso due volte in apertura è costato due tempi e ha fatto il lavoro di uno. Tutta l'apertura è una discussione su quell'aritmetica."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "prompt": "Sviluppate un alfiere in modo che punti dritto all'unica casa del campo nero che il re difende da solo.",
+      "targetSan": [
+        "Bc4"
+      ],
+      "hint": "Il vostro alfiere di re ha cinque case sulla strada d'uscita, e una sola punta a quel pedone tenero."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+      "title": "La Donna Non È Sviluppata",
+      "text": "Il Nero ha portato fuori la donna alla seconda mossa, ed è l'unico pezzo nero fuori dalla traversa di fondo. Lo sviluppo più veloce della partita, sulla carta.\n\nSulla scacchiera è il più lento. Un pezzo è sviluppato quando l'avversario non può scacciarlo gratis, e la donna è l'unico pezzo che chiunque può scacciare — un cavallo, un alfiere, perfino un pedone. Nove punti devono scappare davanti a tre. L'attaccante resta dov'è atterrato e si tiene la casa che si è appena preso.\n\nOgnuna di quelle cacce è un tempo che il Nero consegna."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+      "prompt": "Portate fuori un cavallo su una casa dove attacca la donna nera, guadagnando una mossa mentre sviluppate.",
+      "targetSan": [
+        "Nc3"
+      ],
+      "hint": "Due cavalli, cinque case fra tutti e due, e una sola di quelle case guarda d5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 3",
+      "title": "Il Conto",
+      "text": "La donna deve rispondere al vostro cavallo, e rispondere è tutto quello che il Nero può fare. {{Qa5}} si toglie di mezzo. {{d4}} pianta un pedone in mezzo mentre la donna è occupata. {{Nf6}} è il primo pezzo nero ad arrivare su una casa che vuole, e ci arriva alla quarta mossa.\n\nContate quello che ciascuno possiede. Bianco: un cavallo in c3, un pedone in d4, e la parola su quello che succede dopo. Nero: un cavallo, e una donna che si può ancora scacciare. Avere quella parola è **l'iniziativa**.\n\n> Una donna che continua a scappare sta comprando mosse gratis all'avversario."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+      "title": "Due Mosse in un Turno",
+      "text": "Guardate che cosa non è finito. Il Bianco ha fuori un pedone in e4, un alfiere in c4 e un cavallo in f3; il re sta ancora in e1, e la torre in h1 non ha mai avuto una casa dove andare.\n\nUn turno risolve tutte e due le cose. Il re viaggia due case verso l'angolo e la torre gli salta oltre fino a f1 — il re adesso dietro tre pedoni che non hanno mai mosso, la torre adesso su una colonna dove ha qualcosa da fare.\n\nIl re nero sta su quella stessa colonna centrale, e muove prima il Bianco."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+      "prompt": "Finite l'ultimo dei tre compiti in una mossa sola, e fate entrare in gioco la torre nell'angolo.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Su questa scacchiera due compiti sono già fatti: un pedone al centro, due pezzi fuori. Il terzo riguarda il vostro re."
+    }
+  ]
+}

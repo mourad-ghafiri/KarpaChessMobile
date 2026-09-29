@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-06",
+  "fen": "6k1/8/6K1/8/8/8/8/1Q6 w - - 0 1",
+  "solution": [
+    "Qb8#"
+  ],
+  "title": "Kings Face to Face",
+  "setup": "The kings stand face to face on the g-file, and your queen waits on b1 with the whole board to itself.",
+  "hint": "Your king already covers f7, g7 and h7. Which rank is left for the queen to take?",
+  "explanation": "## The Idea\n\nThe kings face each other with one square between them, so yours covers f7, g7 and h7, every escape on the seventh rank. The queen only has to take the eighth.\n\n{{Qb8#}} does it from across the board: f8 and h8 sit on its rank, the king on g8 is in check, and nothing can block.\n\nNear a bare king, make sure the last move gives check. A king with no square and no check is stalemate."
+}

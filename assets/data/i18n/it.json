@@ -1,0 +1,649 @@
+{
+  "language": {
+    "name": "Italiano"
+  },
+  "ui": {
+    "brand": {
+      "title": "KarpaChess"
+    },
+    "button": {
+      "flip": "Ruota",
+      "undo": "Annulla",
+      "hint": "Indizio",
+      "dismiss": "Annulla",
+      "chooseFile": "Scegli un file…",
+      "settings": "Impostazioni",
+      "close": "Chiudi",
+      "back": "Indietro",
+      "next": "Avanti",
+      "save": "Salva"
+    },
+    "label": {
+      "difficulty": "Difficoltà",
+      "playAs": "Giocate con",
+      "timeControl": "Cadenza di gioco"
+    },
+    "placeholder": {
+      "pgnInput": "Incollate un PGN o una lista di mosse (es. e4 e5 Nf3 Nc6)…",
+      "drawText": "Scrivete…"
+    },
+    "aria": {
+      "capturedByWhite": "Pezzi presi dal Bianco",
+      "capturedByBlack": "Pezzi presi dal Nero",
+      "chessBoard": "Scacchiera",
+      "dismissHint": "Chiudi l'indizio"
+    },
+    "toast": {
+      "parseFail": "Lettura non riuscita: {error}",
+      "fileTooLarge": "Il file è troppo grande per essere importato."
+    }
+  },
+  "game": {
+    "result": {
+      "stalemate": "Stallo",
+      "draw": "Patta",
+      "timeout": "Tempo scaduto"
+    },
+    "resultSub": {
+      "whiteWins": "Vince il Bianco",
+      "blackWins": "Vince il Nero",
+      "stalemate": "Patta per stallo",
+      "fiftyMove": "Regola delle 50 mosse",
+      "insufficient": "Materiale insufficiente",
+      "repetition": "Triplice ripetizione",
+      "whiteWinsTime": "Il Bianco vince per tempo",
+      "blackWinsTime": "Il Nero vince per tempo"
+    },
+    "side": {
+      "white": "Bianco",
+      "black": "Nero"
+    },
+    "playerDefault": {
+      "bottom": "Voi"
+    },
+    "playAsOption": {
+      "white": "Bianco",
+      "random": "A caso",
+      "black": "Nero"
+    },
+    "timeControl": {
+      "unlimited": "Senza limite"
+    },
+    "difficulty": {
+      "1": "Principiante",
+      "2": "Amatoriale",
+      "3": "Da circolo",
+      "4": "Piena potenza"
+    }
+  },
+  "chess": {
+    "piece": {
+      "p": "pedone",
+      "n": "cavallo",
+      "b": "alfiere",
+      "r": "torre",
+      "q": "donna",
+      "k": "re"
+    },
+    "pieceCapital": {
+      "p": "Pedone",
+      "n": "Cavallo",
+      "b": "Alfiere",
+      "r": "Torre",
+      "q": "Donna",
+      "k": "Re"
+    },
+    "direction": {
+      "kingside": "sul lato di re",
+      "queenside": "sul lato di donna"
+    }
+  },
+  "hint": {
+    "checkmate": "Dà <b>scacco matto</b>. Chiudete la partita!",
+    "castle": "Arrocca {dir} e mette il re dietro un muro di pedoni.",
+    "promote": "Arriva all'ultima traversa e promuove a <b>{piece}</b>.",
+    "capture": "<b>{piece}</b> prende <b>{target}</b>.",
+    "develop": "Sviluppa il vostro <b>{piece}</b> in <b>{square}</b>: più attività e occhio al centro.",
+    "pawn": "Spinge il vostro <b>pedone</b> in <b>{square}</b> e guadagna spazio.",
+    "rook": "Attiva la vostra <b>torre</b> in <b>{square}</b>: le colonne aperte piacciono alle torri.",
+    "queen": "Porta la <b>donna</b> in <b>{square}</b> con uno scopo preciso.",
+    "quiet": "Migliora il vostro <b>{piece}</b> portandolo in <b>{square}</b>.",
+    "checkSuffix": " Dà anche <b>scacco</b>."
+  },
+  "coach": {
+    "whisper": {
+      "tip5": "Cercate i pezzi senza difensori: i vostri e quelli dell'avversario."
+    },
+    "builtin": {
+      "bestMove": {
+        "recommendation": "Il mio consiglio: <b>{move}</b>.",
+        "noEngine": "Il motore non ha risposto. Ecco cosa mostra la posizione stessa.",
+        "whyHeader": "<b>Perché qui ha senso:</b>",
+        "castle": "• Il re è ancora al centro: arroccare è la priorità.",
+        "develop": {
+          "one": "• Un pezzo leggero è ancora in {squares}: sviluppatelo.",
+          "other": "• Pezzi leggeri ancora in {squares}: sviluppateli."
+        },
+        "center": "• Nessun pedone sulle quattro case centrali: spingerne uno vale molto.",
+        "loose": {
+          "one": "• L'avversario è scoperto — <b>un pezzo indifeso</b>: {list}. Cercate il modo di guadagnare materiale.",
+          "other": "• L'avversario è scoperto — <b>pezzi indifesi</b>: {list}. Cercate il modo di guadagnare materiale."
+        },
+        "oppKing": "• Il re avversario è <b>{score}</b>: le mosse d'attacco spesso funzionano.",
+        "ownKing": "• Il vostro re è sotto tiro: pensate prima alla difesa.",
+        "passedEnd": {
+          "one": "• Avete <b>un pedone passato</b> in {squares}: spingetelo!",
+          "other": "• Avete <b>pedoni passati</b> in {squares}: spingeteli!"
+        },
+        "activeKing": "• Attivate il re: nei finali è un pezzo combattente.",
+        "ahead": {
+          "one": "• Siete avanti di {n} punto: cambiate i pezzi e tenete i pedoni.",
+          "other": "• Siete avanti di {n} punti: cambiate i pezzi e tenete i pedoni."
+        },
+        "behind": {
+          "one": "• Siete indietro di {n} punto: complicate la posizione.",
+          "other": "• Siete indietro di {n} punti: complicate la posizione."
+        },
+        "evalSuffix": "_Valutazione: {eval}_"
+      },
+      "tactics": {
+        "header": "<b>Scansione tattica per il {side}</b>",
+        "loose": {
+          "one": "L'avversario ha {n} pezzo senza difesa: {list}.",
+          "other": "L'avversario ha {n} pezzi senza difesa: {list}."
+        },
+        "defended": "I pezzi avversari sembrano difesi. Tattica più difficile: cercate inchiodature, adescamenti o mosse di sgombero.",
+        "exposedKing": "Il re avversario è <b>{score}</b> ({notes}): potrebbero esserci schemi di matto in agguato.",
+        "openLines": "linee aperte",
+        "queenTarget": "La donna avversaria è in <b>{square}</b>: potete attaccarla a poco prezzo e guadagnare un tempo?",
+        "engineSuggests": "Il motore propone <b>{move}</b>: rientra in uno degli schemi qui sopra?",
+        "footer": "_Abituate l'occhio a vedere queste tre cose a ogni mossa: pezzi indifesi, re esposti, difensori sovraccarichi._"
+      },
+      "plan": {
+        "header": "<b>Piano per il {side}</b> _({phase})_",
+        "developMinors": {
+          "one": "Sviluppate il pezzo leggero rimasto in {squares}.",
+          "other": "Sviluppate i pezzi leggeri rimasti in {squares}."
+        },
+        "castle": "Arroccate: prima la sicurezza del re.",
+        "queenEarly": "Attenzione: la donna è uscita prima che i pezzi leggeri fossero sviluppati. Non lasciate che venga scacciata.",
+        "centerPawn": "Mettete un pedone su una delle quattro case centrali (d4/e4/d5/e5).",
+        "kingDanger": "Il vostro re è in pericolo: sistemate la difesa prima di attaccare.",
+        "oppositeWings": "Entrambi i re sono arroccati: se da lati opposti, lanciate i pedoni contro il re avversario.",
+        "pushPassed": {
+          "one": "Spingete il pedone passato in {squares}.",
+          "other": "Spingete i pedoni passati in {squares}."
+        },
+        "isolated": {
+          "one": "Occhio al pedone isolato in {squares}: l'attività compensa la debolezza.",
+          "other": "Occhio ai pedoni isolati in {squares}: l'attività compensa la debolezza."
+        },
+        "improveWorst": "Migliorate il vostro pezzo peggiore. Ogni mossa dovrebbe rendere migliore uno dei vostri pezzi.",
+        "racePassed": {
+          "one": "Lanciate il pedone passato in {squares} verso la promozione.",
+          "other": "Lanciate i pedoni passati in {squares} verso la promozione."
+        },
+        "activateKing": "Attivate il re: portatelo dentro l'azione.",
+        "aheadTrade": {
+          "one": "Siete avanti di {n} punto: cambiate i pezzi (non i pedoni) per semplificare verso un finale vinto.",
+          "other": "Siete avanti di {n} punti: cambiate i pezzi (non i pedoni) per semplificare verso un finale vinto."
+        },
+        "behindKeep": {
+          "one": "Siete indietro di {n} punto: tenete i pezzi sulla scacchiera, create controgioco, evitate i cambi.",
+          "other": "Siete indietro di {n} punti: tenete i pezzi sulla scacchiera, create controgioco, evitate i cambi."
+        },
+        "fewPawns": "Restano pochi pedoni: pensate all'opposizione, allo zugzwang e alle case chiave."
+      },
+      "lastMove": {
+        "none": "Nessuna mossa giocata: cominciate con un pedone centrale (e4 o d4) o con una mossa di cavallo (Nf3).",
+        "capture": "ha preso materiale",
+        "check": "ha dato scacco",
+        "checkmate": "ha dato scacco matto",
+        "castleKingside": "ha arroccato corto",
+        "castleQueenside": "ha arroccato lungo",
+        "promote": "ha promosso un pedone",
+        "line": "<b>{san}</b> — {anns}.",
+        "quiet": "<b>{san}</b> — una tranquilla mossa posizionale.",
+        "evalLine": "Valutazione attuale: {eval}. ",
+        "topChoice": "La prima scelta del motore da qui: <b>{move}</b>."
+      },
+      "evaluation": {
+        "header": "<b>Valutazione della posizione</b> _({phase}, muove il {side})_",
+        "material": "• <b>Materiale:</b> Bianco {w} contro Nero {b}{diff}",
+        "equalSuffix": " (pari)",
+        "diffSuffix": " — il {side} è avanti di {n}",
+        "engine": "• <b>Motore:</b> {eval}",
+        "whiteKing": "• <b>Re bianco:</b> {score}{notes}",
+        "blackKing": "• <b>Re nero:</b> {score}{notes}",
+        "notesFmt": " ({notes})",
+        "pawnWeaknessesWhite": "• <b>Problemi nei pedoni bianchi:</b> {list}",
+        "pawnWeaknessesBlack": "• <b>Problemi nei pedoni neri:</b> {list}",
+        "isolatedPrefix": "isolato in {sq}",
+        "doubledPrefix": "doppiati sulla colonna {file}",
+        "passedWhite": {
+          "one": "• <b>Pedone passato del Bianco:</b> {squares}",
+          "other": "• <b>Pedoni passati del Bianco:</b> {squares}"
+        },
+        "passedBlack": {
+          "one": "• <b>Pedone passato del Nero:</b> {squares}",
+          "other": "• <b>Pedoni passati del Nero:</b> {squares}"
+        },
+        "topMove": "• <b>Prima mossa del motore:</b> <b>{move}</b>"
+      },
+      "kingSafety": {
+        "header": "<b>Sicurezza del re</b>",
+        "line": "• <b>Re del {side}</b> ({who}): {score}{castled}. {notes}",
+        "you": "voi",
+        "opponent": "avversario",
+        "castledSuffix": " — ha arroccato",
+        "noConcerns": "Nessun problema immediato.",
+        "footer": "Se il vostro re è esposto, pensate prima alla difesa. Se lo è quello avversario, cercate scacchi, sollevamenti di torre e infiltrazioni di donna."
+      },
+      "phase": {
+        "opening": "apertura",
+        "middlegame": "mediogioco",
+        "endgame": "finale"
+      },
+      "kingScore": {
+        "safe": "al sicuro",
+        "exposed": "esposto",
+        "danger": "in pericolo",
+        "shelter": "al riparo",
+        "waiting": "in attesa",
+        "active": "attivo",
+        "unknown": "incerto"
+      },
+      "kingNote": {
+        "tuckedCorner": "ancora rannicchiato nell'angolo: centralizzatelo",
+        "startingSquare": "il re è sulla casa di partenza: portatelo fuori",
+        "activeOn": "re attivo in {square}",
+        "wanderingOn": "re che vaga in {square}",
+        "centerAfter8": "re ancora al centro dopo l'ottava mossa",
+        "thinShield": "copertura di pedoni sottile ({count}/3)",
+        "enemyHeavy": "pezzo pesante avversario sulla colonna del re",
+        "fullShield": "ha arroccato con lo scudo di pedoni intatto"
+      },
+      "eval": {
+        "unclear": "poco chiara",
+        "balanced": "equilibrata ({pawns})",
+        "better": "{sign}{pawns} — sta meglio il <b>{side}</b>"
+      },
+      "topLines": {
+        "header": "<b>Le migliori candidate del motore</b>",
+        "item": "{rank}. {san} — {eval}"
+      },
+      "threatLine": "<b>Attenzione:</b> se muovesse il {side}, la minaccia sarebbe {san} ({eval}).",
+      "pieceOn": "{piece} in {square}"
+    },
+    "ask": {
+      "bestMove": "Mossa migliore",
+      "tactics": "Tattica",
+      "plan": "Piani",
+      "lastMove": "Questa mossa",
+      "evaluation": "Valutazione",
+      "kingSafety": "Sicurezza del re"
+    },
+    "askAnother": "Un'altra domanda"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "boardTheme": "Tema della scacchiera",
+    "toggle": {
+      "coords": "Mostra le coordinate",
+      "legal": "Evidenzia le mosse legali",
+      "last": "Evidenzia l'ultima mossa",
+      "sound": "Suono",
+      "animations": "Animazioni"
+    },
+    "language": "Lingua",
+    "dangerZone": "Zona pericolosa",
+    "resetBtn": "Azzera progressi e impostazioni",
+    "resetConfirm": "Volete azzerare tutti i progressi e le impostazioni?",
+    "about": "Informazioni",
+    "version": "Versione {version}",
+    "licenses": "Licenze open source",
+    "privacy": "Informativa sulla privacy",
+    "privacyBody": "KarpaChess non raccoglie alcun dato personale. Non ha account, pubblicità, statistiche d'uso né tracciamento, e non si collega mai a internet. I vostri progressi, le impostazioni, le partite e le foto sono salvati solo sul vostro dispositivo, e nei suoi backup se li usate; non vengono mai inviati né a noi né ad altri. Nelle impostazioni potete cancellare progressi, impostazioni e foto del giocatore, ed eliminare l'app cancella tutto ciò che ha salvato. L'informativa completa si trova su {url}",
+    "sourceNotice": "KarpaChess è software libero distribuito con licenza GNU GPL v3. Il codice sorgente completo si trova su {url}"
+  },
+  "commentator": {
+    "importLede": "Copiate un PGN e comparirà qui, oppure aprite un file qui sotto.",
+    "sampleGames": "Partite di studio",
+    "searchGames": "Cercate un giocatore, un torneo o un codice ECO",
+    "allGames": "Tutte",
+    "myGames": "Le mie partite",
+    "noGames": "Nessuna partita corrisponde a questa ricerca.",
+    "moveCount": {
+      "one": "{n} mossa",
+      "other": "{n} mosse"
+    },
+    "import": "Importa",
+    "importTitle": "Importate una partita",
+    "importTileBlurb": "Incollate un PGN o aprite un file .pgn: resterà nella vostra raccolta.",
+    "importFound": "L'abbiamo trovata negli appunti. Volete importarla?",
+    "pasteInstead": "Incolla qualcos'altro",
+    "importName": "Nome",
+    "importNameHelp": "Facoltativo: una lista di mosse senza intestazioni ha bisogno di un nome per essere ritrovata.",
+    "remove": "Rimuovi",
+    "removeGame": "Volete rimuovere questa partita?",
+    "removeGameBody": "Esce dalla vostra raccolta. Le partite fornite con l'app non vengono toccate.",
+    "close": "Chiudi questa partita e torna all'importazione",
+    "confirmClose": "Volete chiudere questa partita e tornare all'importazione?",
+    "moves": "Mosse",
+    "badgesShow": "Mostra le icone del motore sulla scacchiera",
+    "badgesHide": "Nascondi le icone del motore sulla scacchiera",
+    "firstMove": "Prima mossa (Home)",
+    "prevMove": "Precedente (←)",
+    "nextMove": "Successiva (→)",
+    "lastMove": "Ultima (End)",
+    "mainLine": "Torna alla linea principale (↑)",
+    "untitled": "Senza titolo",
+    "drawTools": {
+      "select": "Seleziona",
+      "arrow": "Freccia",
+      "box": "Rettangolo",
+      "circle": "Quadrato",
+      "pen": "Penna",
+      "text": "Testo",
+      "deleteSelected": "Elimina la selezione (Canc)",
+      "clearAll": "Cancella tutte le forme su questa mossa",
+      "undo": "Annulla",
+      "redo": "Ripristina",
+      "editText": "Modifica il testo"
+    },
+    "result": {
+      "title": "Riepilogo della partita",
+      "checkmate": "Scacco matto · vince il {winner}",
+      "stalemate": "Stallo · patta",
+      "drawnGame": "Partita patta",
+      "whiteWins": "Vince il Bianco",
+      "blackWins": "Vince il Nero",
+      "white": "Bianco",
+      "black": "Nero",
+      "accuracy": "Precisione",
+      "analyzing": "Calcolo della precisione…"
+    }
+  },
+  "review": {
+    "title": "Analisi della partita",
+    "analyzing": "Analisi in corso…",
+    "progress": "Analisi della mossa {i} di {total}…",
+    "tally": {
+      "best": "Migliore",
+      "ok": "Buona",
+      "inaccurate": "Imprecisione",
+      "mistake": "Errore",
+      "blunder": "Errore grave"
+    },
+    "verdict": {
+      "brilliant": "Brillante!",
+      "best": "Mossa migliore",
+      "good": "Buona mossa",
+      "inaccuracy": "Imprecisione",
+      "mistake": "Errore",
+      "blunder": "Errore grave"
+    },
+    "betterWas": "Il motore preferiva {san}.",
+    "takeaway": {
+      "great": "Esatto: è proprio la scelta del motore.",
+      "good": "Solida: la posizione resta in carreggiata.",
+      "slip": "Qui sfugge un po' di vantaggio: {best} era più preciso.",
+      "bad": "Il punto di svolta. La mossa da trovare era {best}."
+    }
+  },
+  "gamify": {
+    "level": "Livello {n}",
+    "dayStreak": "{n} giorni di fila",
+    "earned": "+{n} XP",
+    "levelUp": "Livello superato!",
+    "dailyGoal": "Obiettivo del giorno"
+  },
+  "play": {
+    "nav": "Gioca",
+    "title": "Sfida Stockfish",
+    "rematch": "Rivincita",
+    "review": "Analizza",
+    "youWon": "Avete vinto!",
+    "youLost": "Bella lotta",
+    "strengthHint": {
+      "1": "Sta imparando",
+      "2": "Serata al circolo",
+      "3": "Giocatore da circolo esperto",
+      "4": "Motore a piena potenza"
+    },
+    "editProfile": "Il vostro profilo",
+    "yourName": "Il vostro nome",
+    "choosePicture": "Scegli una foto",
+    "removePicture": "Togli la foto",
+    "exitMatch": "Esci dalla partita",
+    "exitConfirm": "Volete lasciare questa partita e tornare alla schermata iniziale?"
+  },
+  "studio": {
+    "nav": "Studio"
+  },
+  "nbSettings": {
+    "appearance": "Aspetto",
+    "themeName": {
+      "tournament": "Torneo",
+      "slate": "Ardesia",
+      "walnut": "Noce",
+      "sheesham": "Palissandro",
+      "sage": "Salvia"
+    },
+    "pieceSet": "Pezzi",
+    "pieceSetName": {
+      "classic": "Classico",
+      "wood": "Legno",
+      "marble": "Marmo",
+      "diagram": "Diagramma",
+      "modern": "Moderno",
+      "deco": "Déco",
+      "facet": "Sfaccettato",
+      "silhouette": "Sagoma",
+      "soft": "Morbido",
+      "bold": "Robusto"
+    },
+    "appTheme": "Tema dell'app",
+    "appThemeName": {
+      "midnightGrove": "Bosco di Mezzanotte",
+      "emberStudy": "Studio di Brace",
+      "slateFocus": "Ardesia Nitida",
+      "indigoHour": "Ora Indaco",
+      "bronzeAge": "Età del Bronzo",
+      "jadeTerrace": "Terrazza di Giada",
+      "plumVelvet": "Velluto Prugna",
+      "ivoryHall": "Sala d'Avorio",
+      "linenMorning": "Mattino di Lino",
+      "harborLight": "Luce del Porto"
+    },
+    "soundFeel": "Suono e tatto",
+    "soundPack": {
+      "wood": "Legno",
+      "plastic": "Plastica",
+      "soft": "Morbido"
+    },
+    "haptics": "Risposta aptica",
+    "font": "Carattere",
+    "fontName": {
+      "classic": "Classico",
+      "modern": "Moderno",
+      "technical": "Tecnico"
+    }
+  },
+  "draw": {
+    "mode": "Modalità disegno",
+    "paused": "Partita in pausa"
+  },
+  "replay": {
+    "autoplay": "Riproduzione automatica",
+    "position": "{i} / {total}"
+  },
+  "academy": {
+    "seeIt": "Guardate",
+    "playIt": "Giocate",
+    "ownIt": "Fatelo vostro",
+    "yourMove": "Tocca a voi",
+    "youPlay": "giocate con il {side}",
+    "nav": "Impara",
+    "title": "La Via del Maestro",
+    "patternOwned": "Schema conquistato!",
+    "sharpen": "Affila",
+    "sharpenDull": {
+      "one": "{n} schema si sta smussando",
+      "other": "{n} schemi si stanno smussando"
+    },
+    "sharpenAllSharp": "Tutti gli schemi sono affilati",
+    "findTheMove": "Trovate la mossa",
+    "patternBook": "Libro degli Schemi",
+    "ownedCount": "{n} / {total} conquistati",
+    "continueBtn": "Continua",
+    "art": {
+      "basics": "Fondamenta",
+      "history": "La Storia degli Scacchi",
+      "tactics": "La Lama",
+      "openings": "Le Prime Mosse",
+      "endgames": "Il Finale",
+      "strategy": "Il Piano",
+      "attack": "La Caccia",
+      "culture": "Il Mondo degli Scacchi"
+    },
+    "rank": {
+      "novice": "Novizio",
+      "apprentice": "Apprendista",
+      "clubPlayer": "Giocatore da circolo",
+      "tactician": "Tattico",
+      "strategist": "Stratega",
+      "candidateMaster": "Candidato Maestro",
+      "master": "Maestro degli Schemi",
+      "grandmaster": "Grande Maestro degli Schemi"
+    },
+    "starBronze": "Bronzo",
+    "starSilver": "Argento",
+    "starGold": "Oro",
+    "showAnswer": "Ecco l'idea: ora provatela",
+    "finishLesson": "Concludi la lezione",
+    "continueLesson": "Continua · {title}",
+    "addedToBook": "Aggiunto al vostro Libro degli Schemi 📖",
+    "bookIntro": "Ogni schema che conquistate vive qui. Le stelle crescono man mano che affilate. Le scacchiere sbiadite si stanno smussando: affilatele prima che vi sfuggano.",
+    "starNone": "Non ancora affilato",
+    "due": "È ora di affilare",
+    "sharp": "Affilato",
+    "reviewNow": "Affilate questo schema",
+    "replayLesson": "Rigioca la lezione",
+    "upNext": "Prossimo",
+    "gotIt": "Ho capito",
+    "confirmClose": "Volete uscire da questa lezione? I vostri XP e il punto in cui siete restano: potrete riprendere da lì.",
+    "resume": "Continua",
+    "restartLesson": "Ricomincia la lezione",
+    "confirmRestart": "Volete ricominciare questa lezione da capo? Gli XP già guadagnati restano.",
+    "bookEmpty": "Conquistate il vostro primo schema e comparirà qui."
+  },
+  "puzzles": {
+    "nav": "Problemi",
+    "title": "Problemi",
+    "rating": "Punteggio",
+    "rated": "Con punteggio",
+    "keepGoing": "Continuate",
+    "keepGoingBlurb": "Problemi scelti per il vostro punteggio.",
+    "daily": "Problema del giorno",
+    "dailyBlurb": "Un problema, lo stesso per tutto il giorno.",
+    "packs": "Raccolte",
+    "findTheMove": "Trovate la mossa migliore.",
+    "solved": "Risolto",
+    "runComplete": "Qui non è rimasto altro",
+    "runSolved": "{n} risolti in questa serie",
+    "noneLeft": "Nessun problema disponibile.",
+    "pack": {
+      "mate-in-one": {
+        "name": "Matto in una",
+        "blurb": "Una mossa, un matto."
+      },
+      "fork": {
+        "name": "Forchette",
+        "blurb": "Attaccate due cose insieme."
+      },
+      "back-rank-mate": {
+        "name": "Traversa di fondo",
+        "blurb": "Il re intrappolato dietro i suoi pedoni."
+      },
+      "pin": {
+        "name": "Inchiodature",
+        "blurb": "Un pezzo che non osa muoversi."
+      },
+      "skewer": {
+        "name": "Infilate",
+        "blurb": "Colpite il pezzo di valore che sta davanti."
+      },
+      "mate-in-two": {
+        "name": "Matto in due",
+        "blurb": "Forzatelo in due mosse."
+      },
+      "discovery": {
+        "name": "Attacchi di scoperta",
+        "blurb": "Muovete un pezzo e liberatene un altro."
+      },
+      "trapped": {
+        "name": "Pezzi intrappolati",
+        "blurb": "Togliete l'ultima casa sicura."
+      },
+      "promotion": {
+        "name": "Promozione",
+        "blurb": "Portate il pedone a casa."
+      },
+      "remove-guard": {
+        "name": "Eliminazione del difensore",
+        "blurb": "Togliete di mezzo il pezzo che tiene tutto insieme."
+      },
+      "deflection": {
+        "name": "Deviazione",
+        "blurb": "Costringete un difensore ad abbandonare il suo compito."
+      },
+      "decoy": {
+        "name": "Adescamento",
+        "blurb": "Attirate un pezzo su una casa fatale."
+      },
+      "smothered": {
+        "name": "Matto affogato",
+        "blurb": "Matto per mano del proprio esercito."
+      },
+      "pawn-ending": {
+        "name": "Finali di pedoni",
+        "blurb": "Opposizione, sfondamenti, la regola del quadrato."
+      },
+      "rook-ending": {
+        "name": "Finali di torre",
+        "blurb": "Il finale che incontrerete più spesso."
+      },
+      "overload": {
+        "name": "Sovraccarico",
+        "blurb": "Un difensore solo, due compiti."
+      },
+      "zwischenzug": {
+        "name": "Mosse intermedie",
+        "blurb": "Inserite una minaccia prima di riprendere."
+      },
+      "king-hunt": {
+        "name": "Caccia al re",
+        "blurb": "Spingete il re allo scoperto."
+      },
+      "zugzwang": {
+        "name": "Zugzwang",
+        "blurb": "Ogni mossa peggiora le cose."
+      },
+      "defence": {
+        "name": "Difesa",
+        "blurb": "Il matto lo state subendo voi. Datelo per primi."
+      }
+    },
+    "confirmClose": "Volete chiudere questa serie di problemi?",
+    "practice": "Allenamento",
+    "playAgain": "Gioca ancora",
+    "replay": "Riprova",
+    "showSolution": "Mostra la soluzione",
+    "failed": "Non risolto",
+    "flawless": "Impeccabile",
+    "continuePack": "Continua",
+    "puzzleN": "Problema {n}",
+    "bestImproved": "Nuovo record! +{xp} XP"
+  }
+}

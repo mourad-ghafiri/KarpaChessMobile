@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-03",
+  "fen": "7k/6pp/8/8/8/8/p4PPP/2R3K1 w - - 0 2",
+  "solution": [
+    "Rc8#"
+  ],
+  "rating": 780,
+  "title": "Oraya Önce Kim Varıyor",
+  "setup": "Siyahın a piyonu az önce a2'ye ulaştı ve sıradaki hamlede vezir oluyor; yani tam olarak tek bir hamleniz var.",
+  "hint": "Parti bu hamlede bitiyorsa piyon yarışını saymak boşa emektir. Siyahın sekizinci yatayına bakın.",
+  "explanation": "## Fikir\n\n{{Rc8#}} gelir ve piyon hiç terfi edemez. h8'deki şahı g7 ile h7 içeri kapatmıştır, bütün sekizinci yatay kaleye aittir ve siyahın hiçbir şeyi araya girmek için oraya ulaşamaz. Bir yarışı saymaya başlamadan önce her zaman matı arayın."
+}

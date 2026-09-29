@@ -1,0 +1,51 @@
+{
+  "id": "queens-gambit",
+  "title": "The Queen's Gambit",
+  "summary": "A pawn you are allowed to take, and not allowed to keep",
+  "proof": "openings-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Not Really a Gambit",
+      "text": "Two moves old, and White has already parked a pawn where Black can take it. A **gambit** is a pawn handed over early to buy something quicker — time, open lines, squares. This one hands over nothing, because Black cannot hold what it takes.\n\nWhat White is really after is d5. Swap the pawn on c4 for Black's d-pawn and White ends up as the only side with a pawn in the middle, free to build on it."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Taking Is Not Keeping",
+      "text": "{{dxc4}} answers White's question the wrong way. Black's pawn has left the middle, {{e4}} follows at once, and two white pawns stand abreast in the center with nothing left to shoot at them.\n\nTrying to keep the pawn costs more still. {{b5}} props it up, {{a4}} pries it loose, and White wins it back with the queenside torn open.\n\nSo the pawn was never the offer. The offer is a trade, and the price of refusing it is a second pawn move."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "prompt": "Back d5 up with a second pawn so the center holds, and accept that it shuts a door on one of your pieces.",
+      "targetSan": [
+        "e6",
+        "c6"
+      ],
+      "hint": "Two of your pawns can step to a square that guards d5 diagonally, and each one takes the best road away from a different piece."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "Two Against Three",
+      "text": "Nine moves on, out of that same argument: White traded on d5, Black took back with the e-pawn, and the middle went quiet. This shape has a name, the Carlsbad, and its logic is arithmetic.\n\nCount the queenside. White has two pawns there, Black has three. Marching the smaller group at the larger one is a **minority attack**, and it is not played to win anything. Push far enough, the pawns trade themselves off, and Black is left with a pawn on c6 that no black pawn can ever defend, on a half-open file."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "The Race That Never Meets",
+      "text": "Black is not defending. Those three queenside pawns are what White is coming for, so Black leaves them where they stand and plays at the white king instead: the knight on f8 swings out to g6, the rest of the pieces follow, and the f-pawn comes with them.\n\nTwo plans on opposite wings, and they never touch each other. Neither can be called back once it starts, so the game turns on which one arrives first.\n\n> Trading pawns is not always simplifying. Sometimes it is how a weakness gets built."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "prompt": "Send your smaller queenside group at Black's larger one and start building a target no black pawn will ever defend.",
+      "targetSan": [
+        "b4"
+      ],
+      "hint": "Both of your queenside pawns have to travel; the one that can make contact with Black's group leads, and the other comes up behind it."
+    }
+  ]
+}

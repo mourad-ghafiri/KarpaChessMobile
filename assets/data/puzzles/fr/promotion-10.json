@@ -1,0 +1,12 @@
+{
+  "id": "promotion-10",
+  "fen": "7R/1Ppkp3/p7/4PP2/8/8/6KP/q7 w - - 0 1",
+  "solution": [
+    "b8=N#"
+  ],
+  "rating": 1340,
+  "title": "Le cavalier donne mat",
+  "setup": "Le roi noir se tient en d7, emmuré par ses propres pions en c7 et e7, et votre pion b est prêt à arriver.",
+  "hint": "Une nouvelle dame en b8 ne donnerait même pas échec. Demandez-vous quelle promotion touche d7 depuis cette case.",
+  "explanation": "## L'idée\n\n{{b8=N#}} donne échec depuis b8, et le roi n'a aucune case : c6 est couverte par le cavalier, d6 par le pion e5, e6 par le pion f5, et c8, d8 et e8 par la tour en h8. c7 et e7 sont ses propres pions. Une dame à cet endroit ne donnerait aucun échec."
+}

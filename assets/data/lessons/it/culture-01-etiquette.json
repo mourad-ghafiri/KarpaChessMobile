@@ -1,0 +1,50 @@
+{
+  "id": "etiquette",
+  "title": "Le Buone Maniere alla Scacchiera",
+  "summary": "Le regole che nessuno stampa sulla scatola",
+  "proof": "culture-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "title": "La Mano Arriva Prima",
+      "text": "Toccate un vostro pezzo in una partita valida per il punteggio e l'avete scelto. Il pezzo che toccate è il pezzo che muove, purché abbia una mossa legale. Toccate un pezzo avversario con l'intenzione di prenderlo e lo prendete. Niente ritiro, niente scuse.\n\nIl Bianco è sotto scacco. Il re in e1 ha esattamente due case, {{Kf1}} e {{Ke2}}, e tutte e due rinunciano all'arrocco per il resto della partita.\n\nSu questa scacchiera c'è una mossa migliore. Sfiorate il re mentre la state ancora cercando ed è persa."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "prompt": "Conservate il diritto di arroccare parando lo scacco con il cavallo che copre anche d5 e b5.",
+      "targetSan": [
+        "Nc3"
+      ],
+      "hint": "Due case parano quella diagonale. Una chiude dentro il vostro alfiere di c1; l'altra guarda dentro la metà nera della scacchiera."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/2N2N2/PP3PPP/R1BQK2R b KQk - 2 7",
+      "title": "Ditelo Prima di Toccare",
+      "text": "Il vostro cavallo in c3 sta storto, mezzo su b3. Avete il permesso di raddrizzarlo. Non avete il permesso di allungare la mano e farlo e basta.\n\nDite prima «aggiusto» — *j'adoube* in francese — ad alta voce, prima che arrivino le dita, e solo quando è il vostro turno. Qui muove il Nero, quindi il cavallo resta storto e voi aspettate.\n\nIl vocabolario è quasi tutto qui. Nessuno annuncia lo scacco, nessuno commenta una mossa, e non si sbuffa quando l'avversario trova quella buona."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "L'Offerta ha un Ordine",
+      "text": "Scacchiera nuova, e questa è peggio: avete una donna in meno. L'alfiere nero in d1 se l'è presa la mossa scorsa, e il Nero ha appena offerto patta.\n\nPer farlo c'è un ordine. Fate la vostra mossa, offrite la patta, poi premete l'orologio. L'offerta non porta condizioni e non si può ritirare — resta valida finché il vostro avversario non l'accetta, non la rifiuta a voce, o non tocca un pezzo con l'intenzione di muoverlo, che è già di per sé un rifiuto.\n\nRioffrirla ogni poche mosse non è insistenza. È disturbo, e un arbitro ha il diritto di trattarla come tale."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "Come si Perde, e Quando Non Farlo",
+      "text": "Quando una partita è andata, ditelo. Le Regole vogliono una dichiarazione — ditelo con chiarezza — non un re rovesciato su un fianco, che è teatro e lascia l'avversario a indovinare. Poi la stretta di mano, che nessuna regola impone e che fanno tutti.\n\nNiente di tutto questo vale qui. Chi ha una donna intera in più non ha bisogno di una patta, quindi l'offerta è la mossa migliore che il Nero abbia trovato, e non sta sulla scacchiera.\n\nIl vostro re non è arroccato e la vostra donna è sparita. Nessuno dei due fatti importa ai pezzi già puntati su f7.\n\n> Decidete con la testa. La mano può solo dire di sì."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "prompt": "Il Nero ha una donna in più e offre patta: rifiutatela con lo scacco che forza il matto alla mossa successiva.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "Il vostro alfiere e il cavallo in e5 puntano sullo stesso pedone. Date scacco con quello che lascia al Nero una sola risposta legale."
+    }
+  ]
+}

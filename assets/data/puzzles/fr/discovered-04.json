@@ -1,0 +1,13 @@
+{
+  "id": "discovered-04",
+  "fen": "1r1k4/8/8/8/3N4/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Ke8",
+    "Nxb8"
+  ],
+  "title": "Échec double, puis la tour",
+  "setup": "Votre tour et votre cavalier partagent la colonne d avec le roi noir — le cavalier devant, l'échec qui attend derrière lui.",
+  "hint": "Un saut de cavalier peut à la fois mettre le roi en échec lui-même et découvrir l'échec de la tour. Choisissez le saut qui frappe aussi quelque chose.",
+  "explanation": "## L'idée\n\n{{Nc6+}} est un échec double : le cavalier attaque lui-même d8, et le déplacer découvre la tour en d1 derrière lui. Contre deux échecs à la fois, ni une prise ni une interposition n'aident, donc le roi doit bouger. Où qu'il aille, {{Nxb8}} ramasse la tour que le cavalier visait depuis le début, et même si le roi prend ensuite le cavalier, il vous reste une tour contre un roi seul. L'échec double est le coup le plus forçant des échecs : le roi doit bouger, et tout le reste attend."
+}

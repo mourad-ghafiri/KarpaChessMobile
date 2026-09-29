@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-12",
+  "fen": "3K2k1/1B6/8/6pR/8/8/5p1R/8 w - - 0 1",
+  "solution": [
+    "Ke7",
+    "f1=Q",
+    "Rxg5#"
+  ],
+  "rating": 1800,
+  "title": "Your King Says Pass",
+  "setup": "Black's king is on g8, a pawn on f2 is about to promote and another sits on g5; both your rooks are on the kingside.",
+  "hint": "Every piece move you can find spoils something. There is one piece left that can move without cost.",
+  "explanation": "## The Idea\n\n{{Ke7}} covers f8 and hands Black the move. {{f1=Q}} is the best try among Black's six moves and it arrives on the wrong side of the board; {{Rxg5#}} mates. The hardest waiting moves are the ones made by the king."
+}

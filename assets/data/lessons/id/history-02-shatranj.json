@@ -1,0 +1,56 @@
+{
+  "id": "shatranj",
+  "title": "Shāh Māt",
+  "summary": "Kata yang mengakhiri permainan, dan sebuah mat yang digubah seribu tahun lalu",
+  "proof": "history-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Kata di Akhir Partai",
+      "text": "Satu kali melintasi perbatasan memberi catur kata yang mengakhirinya.\n\nChaturanga bergerak ke barat meninggalkan India dan menjadi **chatrang** di Persia. Bahasa Arab tak punya bunyi *ch*, jadi dunia Arab membentuk ulang namanya menjadi **syatranj**, dan versi itulah yang dicatat sejarah. Raja disebut **shāh**, dan pemain yang tak punya apa-apa lagi untuk dicoba diberi tahu **shāh māt** — raja tak berdaya, tersergap, kehabisan jawaban.\n\nEropa mengikis ungkapan itu menjadi *jaque mate*, *scacco matto*, *échec et mat* — dan dalam bahasa kita, sekakmat."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Seorang Penasihat dan Seekor Gajah",
+      "text": "Menteri Anda adalah hasil tulis ulang Eropa.\n\nMenteri di d1 dulunya **ferz**, penasihat raja, dan ia bergerak satu petak secara diagonal. Hanya itu. Gajah adalah **alfil**, dan alfil melompat tepat dua petak secara diagonal, langsung melewati apa pun yang ada di antaranya — delapan petak papan untuk seluruh partai, dan tak ada jalan menuju lima puluh enam petak lainnya.\n\nPion maju satu petak setiap kali, tanpa langkah awal dua petak dan tanpa rokade untuk berlindung. Pion yang menyeberangi papan menjadi ferz."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Tiga Cara Menang",
+      "text": "Shāh māt bukan satu-satunya cara untuk menyelesaikan partai.\n\nSingkirkan buah terakhir dari papan, dan **raja sendirian** yang tersisa langsung kalah. Buat lawan Anda sama sekali tak punya langkah sah, dan Anda pun menang — pat adalah kemenangan, bukan remis.\n\nKedua aturan itu sudah hilang dari aturan yang Anda mainkan, dan keduanya mengatakan hal yang sama tentang syatranj. Dengan buah-buah selambat itu, kemenangan tidak direbut dalam satu pukulan. Kemenangan dirakit.\n\n> Selama hampir seribu tahun, buah terkuat dalam catur adalah benteng."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "title": "Digubah, Bukan Dimainkan",
+      "text": "Permainan selambat itu menaruh daya tariknya di akhir, maka para master mencatat akhir-akhir permainan. **Al-Adli** menyusun buku panduan tertua yang diketahui tentang cara bermain, sekitar tahun 840; **as-Suli** datang seabad kemudian dan begitu jauh di atas semua orang sehingga ungkapan *seperti as-Suli* masih bertahan dalam bahasa Arab sebagai pujian.\n\nNaskah-naskah mereka penuh dengan *mansubat* — posisi yang digubah alih-alih dimainkan, masing-masing dibangun di sekitar satu jawaban yang tepat.\n\nDua langkah dari papan ini berdiri **mat Arab**: benteng di samping raja, kuda menjaga benteng. Benteng di d7 dan kuda di e4 bergerak persis seperti dulu, dan kedua langkah itu milik Anda."
+    },
+    {
+      "type": "play",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "prompt": "Kirim kuda ke satu-satunya petak yang menjaga h7 dan menutup g8 bagi raja hitam sekaligus.",
+      "hint": "Telusuri delapan petak yang bisa dilompati kuda ini, dan tanyakan mana yang menyentuh h7 dan g8 bersamaan.",
+      "targetSan": [
+        "Nf6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "title": "Jangan Umumkan Dulu",
+      "text": "Kuda telah mendarat, dan Hitam tak punya apa pun untuk digerakkan selain sebuah pion.\n\nBenteng di d7 menyapu seluruh baris ketujuh, jadi g7 dan h7 tak pernah bisa dipakai raja hitam. Kuda di f6 telah menutup g8, petak terakhir — dan ia juga menjaga h7, yang merupakan bagian terpenting, karena di h7-lah benteng harus berdiri.\n\nJaringnya sudah tertutup. Satu-satunya cara tersisa untuk menyia-nyiakannya adalah ketidaksabaran: {{Rd8+}} tampak seperti kemajuan, padahal itu juga benteng yang meninggalkan baris ketujuh. {{Kg7}}, dan raja melenggang keluar dari sudut."
+    },
+    {
+      "type": "play",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "prompt": "Letakkan benteng di samping raja hitam, di petak yang sudah dilindungi kuda.",
+      "hint": "Dua petak kuda berada di sebelah raja; hanya satu di antaranya yang terletak di garis yang bisa ditempuh benteng.",
+      "targetSan": [
+        "Rh7#"
+      ]
+    }
+  ]
+}

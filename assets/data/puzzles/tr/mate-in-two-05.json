@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-05",
+  "fen": "n2b1k2/3r1p1p/1B4Q1/8/8/4R3/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qh6+",
+    "Kg8",
+    "Re8#"
+  ],
+  "rating": 1100,
+  "title": "Yana Adım, Sonra Arka Yatay",
+  "setup": "Siyahın f8'deki şahını kendi kalabalığı sıkıştırmış ve g6'daki veziriniz ona şah çekecek kadar yakın.",
+  "hint": "Şahı, kendi taşlarının bıraktığı tek kareye itin, sonra artık ayrılamayacağı yataya vurun.",
+  "explanation": "## Fikir\n\n{{Qh6+}} h6–f8 çaprazı boyunca şah çeker ve şahı g8'e sürer: {{Kg8}} tek hamledir. Ardından {{Re8#}}. Vezir g7'yi tutar, kalenin şahın içinden geçen hattı f8 ile h8'i alır, h7 piyonu gerisini doldurur ve hiçbir şey kaleyi alamaz."
+}

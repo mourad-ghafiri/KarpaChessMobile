@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-07",
+  "fen": "5k2/5p1K/3p4/5N2/8/8/Q7/8 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Queen-and-Knight Net",
+  "setup": "Black's king on f8 is hemmed in by its own pawn, your king on h7 stands close by, and your knight on f5 is watching.",
+  "hint": "Your king covers g7 and g8, and the knight covers e7. The queen only needs a check the king cannot step away from.",
+  "explanation": "## The Idea\n\n{{Qa8#}} checks along the back rank. e8 is on the queen's line, the knight on f5 covers e7, your king on h7 covers g7 and g8, and f7 holds Black's own pawn. Nothing can block on the eighth rank.\n\nTake the knight away and the king escapes to e7. In a mating net, each piece covers a square the others cannot."
+}

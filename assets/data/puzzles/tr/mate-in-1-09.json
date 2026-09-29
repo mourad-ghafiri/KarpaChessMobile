@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-09",
+  "fen": "7k/5K1p/8/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Kendi Piyonu, Kendi Kafesi",
+  "setup": "Siyahın şahı h7'deki kendi piyonunun arkasında, köşede oturuyor ve f7'deki şahınız yakınında duruyor.",
+  "hint": "Şahınız g7 ile g8'i zaten kapsıyor. Kalenin yalnızca arka yataya ulaşması gerekiyor.",
+  "explanation": "## Fikir\n\n{{Ra8#}} arka yatay boyunca şah çeker. f7'deki şahınız g7 ile g8'i kapsar, siyahın kendi piyonu h7'yi doldurur ve hiçbir şey kaleyi alamaz ya da şahı kapatamaz.\n\nŞah ve kale oyun sonunda şahınız rakip şahı kutuya alır, kale de şah çeker."
+}

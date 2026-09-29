@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-19",
+  "fen": "8/7P/6k1/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "h8=Q"
+  ],
+  "title": "La larga marcha",
+  "setup": "Tu peón de h ha marchado hasta la séptima fila, y el rey negro de g6 está a un paso de comérselo.",
+  "hint": "Esperar pierde el peón. Termina el viaje ahora, y elige la pieza más fuerte en la que puede convertirse.",
+  "explanation": "## La idea\n\nEl rey negro de g6 toca h7, así que cualquier jugada tranquila le deja capturar el peón, y rey solo contra rey solo es tablas. {{h8=Q}} lo resuelve: el peón sale de h7 en la misma jugada en que estaba atacado, y h8 queda fuera del alcance del rey.\n\nUna torre también ganaría, solo que despacio. La dama vale nueve puntos, y rey y dama contra rey solo siempre ganan."
+}

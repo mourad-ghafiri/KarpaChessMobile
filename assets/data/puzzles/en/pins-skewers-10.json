@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-10",
+  "fen": "3k4/p2b1ppp/6n1/1pP5/8/8/PP1R1PPP/6K1 w - - 0 1",
+  "solution": [
+    "c6"
+  ],
+  "title": "Bishop Pinned, Bishop Lost",
+  "setup": "Black's bishop stands on the d-file between your rook and its own king, and your c-pawn is close by.",
+  "hint": "A pinned bishop cannot step off its line, not even to capture. Attack it with your cheapest piece.",
+  "explanation": "## The Idea\n\nThe bishop on d7 is pinned to the king on d8 by your rook, so it cannot leave the d-file. {{c6}} attacks it, and the bishop can neither take the pawn nor run away, so {{cxd7}} wins it next move, for a pawn at most.\n\nTaking with the rook would only trade rook for bishop. Attack a pinned piece with the cheapest thing you have."
+}

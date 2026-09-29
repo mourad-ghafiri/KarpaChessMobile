@@ -1,0 +1,11 @@
+{
+  "id": "strategy-02",
+  "fen": "rn1q1rk1/4bppp/p2pbn2/4p3/Pp2P3/1NN1B3/1PPQBPPP/R4RK1 w - - 0 12",
+  "solution": [
+    "Nd5"
+  ],
+  "title": "Chassé dans le trou",
+  "setup": "Le pion noir en b4 vient de frapper votre cavalier en c3. Le cavalier doit aller quelque part, et votre pion en e4 regarde.",
+  "hint": "Toute retraite abandonne e4 au cavalier en f6. Existe-t-il une case en avant qu'aucun pion noir ne pourra jamais atteindre ?",
+  "explanation": "## L'idée\n\nLe cavalier a été chassé, et il répond en s'installant. Les Noirs n'ont pas de pion c et le pion e est allé en e5, donc aucun pion noir ne pourra plus jamais attaquer d5.\n\n{{Nd5}} frappe le fou en e7 et le cavalier en f6, et garde e4 à l'abri. Toute retraite livre ce pion au cavalier en f6.\n\nLes Noirs ne peuvent éliminer le cavalier qu'en donnant une pièce pour lui, et c'est alors un pion blanc qui prend la case."
+}

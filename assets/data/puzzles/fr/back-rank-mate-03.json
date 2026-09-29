@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-03",
+  "fen": "7k/6pp/8/8/8/8/p4PPP/2R3K1 w - - 0 2",
+  "solution": [
+    "Rc8#"
+  ],
+  "rating": 780,
+  "title": "Qui arrive le premier",
+  "setup": "Le pion a noir vient d'atteindre a2 et va à dame au coup suivant, donc vous avez exactement un coup.",
+  "hint": "Compter une course de pions ne sert à rien si la partie se termine à ce coup. Regardez la huitième rangée noire.",
+  "explanation": "## L'idée\n\n{{Rc8#}}, et le pion n'est jamais promu. Le roi en h8 est enfermé par g7 et h7, toute la huitième rangée appartient à la tour, et rien de noir ne peut l'atteindre pour s'interposer. Cherchez toujours un mat avant de commencer à compter une course."
+}

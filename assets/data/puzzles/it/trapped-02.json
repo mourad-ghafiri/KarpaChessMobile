@@ -1,0 +1,12 @@
+{
+  "id": "trapped-02",
+  "fen": "2r3k1/pp3pp1/7p/4P2n/8/4B3/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1040,
+  "title": "Cavallo sul Bordo",
+  "setup": "Il cavallo nero è finito a spasso in h5, una casa con sole quattro uscite, e nessuna sembra amichevole.",
+  "hint": "Ogni casa che quel cavallo raggiunge è già coperta o occupata. Adesso gli serve solo una spinta.",
+  "explanation": "## L'idea\n\n{{g4}} attacca il cavallo e h5 è un vicolo cieco: a f6 si risponde exf6, a f4 Bxf4, a g3 hxg3, e g7 è il pedone stesso del Nero. Un cavallo sul bordo della scacchiera ha al massimo quattro case. Copritele e non ha dove scappare."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "remove-guard-11",
+  "fen": "1rn3k1/p4ppp/6q1/3N4/8/8/5PPP/2R2QK1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Rxc8",
+    "Ne7+"
+  ],
+  "rating": 1420,
+  "title": "Kosongkan Petak Garpu",
+  "setup": "Kuda Anda ingin sekali ke e7, tempat ia menyerang raja dan menteri sekaligus, tetapi kuda di c8 menguasai petak itu.",
+  "hint": "Temukan petak tempat kuda Anda akan menyerang dua buah, lalu tanyakan siapa yang menjaganya.",
+  "explanation": "## Ide\n\n{{Rxc8+}} mengambil buah yang menguasai e7, dan {{Rxc8}} menangkap balik di petak yang tak menguasainya. {{Ne7+}} menggarpu raja dan menteri; setelah raja menyingkir, {{Nxg6}} memenangkan menteri dengan imbalan benteng."
+}

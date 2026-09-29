@@ -1,0 +1,11 @@
+{
+  "id": "endgame-01",
+  "fen": "8/8/8/4k3/2P5/2K5/8/8 b - - 0 1",
+  "solution": [
+    "Kd6"
+  ],
+  "title": "Mettetevi Davanti",
+  "setup": "Il re bianco scorta il suo pedone, e voi avete esattamente una mossa che tiene la patta.",
+  "hint": "Il difensore sta davanti al pedone. Quale passo porta il vostro re verso le case davanti a lui senza restare indietro di una mossa?",
+  "explanation": "## L'idea\n\nContro re e pedone, il re che difende sta davanti al pedone, di fronte all'altro re.\n\n{{Kd6}} è l'unica mossa che tiene la patta: punta alle case davanti al pedone finché c'è ancora tempo di prendersele, e da c6 o c7 può fronteggiare il re bianco attraverso una casa vuota. Ogni altro passo arriva con una mossa di ritardo, e il re bianco ci arriva davanti per primo.\n\nDavanti al pedone, e di fronte al re avversario. Tutte e due le cose, ogni volta."
+}

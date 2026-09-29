@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-01",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq g3 0 2",
+  "solution": [
+    "Qh4#"
+  ],
+  "rating": 600,
+  "title": "Two Pawns Too Far",
+  "setup": "White's first two moves opened the one diagonal that ends on its own king.",
+  "hint": "Only one line points at the white king, and only one black piece can step onto it this move.",
+  "explanation": "## The Idea\n\nThe f- and g-pawns are the two moves that strip e1 of cover on the h4–e1 diagonal. {{Qh4#}} arrives with nothing to block on and nothing able to capture it. Keep those two pawns at home while your king still lives behind them."
+}

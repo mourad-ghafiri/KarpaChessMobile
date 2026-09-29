@@ -1,0 +1,11 @@
+{
+  "id": "endgame-01",
+  "fen": "8/8/8/4k3/2P5/2K5/8/8 b - - 0 1",
+  "solution": [
+    "Kd6"
+  ],
+  "title": "Placez-vous devant lui",
+  "setup": "Le roi blanc escorte son pion, et vous avez exactement un coup qui tient la nulle.",
+  "hint": "Le défenseur doit se placer devant le pion. Quel pas amène votre roi vers les cases devant lui sans prendre un coup de retard ?",
+  "explanation": "## L'idée\n\nContre roi et pion, le roi défenseur doit se placer devant le pion, face à l'autre roi.\n\n{{Kd6}} est le seul coup qui garde la nulle : il se dirige vers les cases devant le pion tant qu'il est encore temps de les prendre, et depuis c6 ou c7 il peut affronter le roi blanc à une case vide d'écart. Tout autre pas arrive un coup trop tard, et le roi blanc passe devant le premier.\n\nDevant le pion, et face au roi adverse. Les deux, à chaque fois."
+}

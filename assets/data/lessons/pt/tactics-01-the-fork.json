@@ -1,0 +1,56 @@
+{
+  "id": "the-fork",
+  "title": "O Garfo",
+  "summary": "Uma jogada que faz duas perguntas, e um adversário que só pode responder a uma",
+  "proof": "forks-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Duas ao Mesmo Tempo",
+      "text": "O teu adversário tem uma jogada por cada jogada que fazes. O orçamento é esse, e todas as táticas que te esperam são maneiras de pedir a essa única jogada que cubra mais do que consegue.\n\nUm **garfo** é a maneira mais simples de o pedir. Uma jogada, duas peças inimigas atacadas, e uma única resposta que tem de tratar das duas.\n\nO rei preto em c6 e a dama em d5 estão a uma casa de distância. O teu cavalo em c2 ainda não ataca nenhum dos dois, e não precisa. Precisa de uma casa que toque nos dois."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "A Peça a Que Não Se Responde",
+      "text": "Um bispo, uma torre ou uma dama atacam ao longo de uma linha, e uma linha pode ser interrompida — mete o que for no caminho e o ataque acaba ali. O ataque de um cavalo não tem nenhuma casa pelo meio onde se meta seja o que for.\n\nDepois vem a parte estranha. Uma peça atacada por um cavalo quase nunca lhe pode tocar. Chegar à casa onde um cavalo está quer dizer mexer-se em L, e só outro cavalo faz isso. Nem sequer um rei consegue: um cavalo que dá xeque nunca está ao lado do rei a quem o dá.\n\nPortanto quem defende fica com a lista de respostas mais curta do xadrez."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "prompt": "Encontra a única casa que o teu cavalo alcança e que ataca ao mesmo tempo o rei e a dama.",
+      "targetSan": [
+        "Nb4+"
+      ],
+      "hint": "Trabalha a partir dos alvos: que casas atacam c6, e qual dessas ataca também d5?"
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Nove por Três, ou Nove por Nada",
+      "text": "{{Nb4+}}, e o xeque é a única coisa em que as pretas têm licença para pensar. Nada o tapa, e b4 é uma casa a que nem o rei nem a dama chegam.\n\nPortanto o rei anda. Tem sete casas abertas, e exatamente duas delas, d6 e c5, continuam a guardar d5. {{Kd6}} parece uma salvação até a contares: {{Nxd5}} {{Kxd5}} troca um cavalo por uma dama. As outras cinco dão a dama por nada.\n\nNove por três, ou nove de graça. É essa a escolha inteira que um garfo deixa.\n\nRei e dama apanhados juntos têm até nome próprio: **garfo real**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "Um Alvo Não São Dois",
+      "text": "Um tabuleiro novo, com quatro peças. As pretas têm um rei em e8 e um cavalo em e5, e é esse o exército inteiro.\n\nA tua dama em a1 já está a olhar para esse cavalo. A diagonal longa que sai do canto passa por b2, c3, d4 e chega a e5, sem nada no caminho em ponto nenhum. E o cavalo também não está guardado.\n\nPortanto o cavalo pode ser simplesmente capturado — e assim que desaparecer, as pretas ficam donas de um rei e de casas vazias. Seja o que for essa captura, não é um garfo. Um garfo precisa de duas coisas para atacar, e esta posição nunca teve duas."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "O Xeque Não É o Prémio",
+      "text": "O xeque por si só não compra nada. {{Qa8+}} é um xeque a sério — as pretas põem o rei de lado, e a tua dama fica num canto de onde já não vê o cavalo. Uma jogada gasta para piorar a posição.\n\nO xeque que vale a pena jogar é aquele que chega já tendo feito outra coisa. A única jogada das pretas vai para o rei, e essa outra coisa fica no tabuleiro.\n\n> Um garfo dá dois trabalhos à única jogada do teu adversário. Um xeque escolhe o trabalho por ele. Funcionam os dois pela mesma razão: a jogada só vem uma vez."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "prompt": "Come o cavalo da maneira que não deixa às pretas outra resposta senão uma jogada de rei.",
+      "targetSan": [
+        "Qxe5+"
+      ],
+      "hint": "O cavalo e o rei preto estão na mesma coluna, portanto pergunta o que faz a dama assim que aterrar nessa coluna."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "decoy-05",
+  "fen": "6rk/pp4pp/8/8/8/q7/5PP1/3Q2KR w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Qh5#"
+  ],
+  "rating": 1310,
+  "title": "Ouvrez le coin",
+  "setup": "Le roi noir se cache en h8 derrière sa propre tour et ses propres pions, avec seulement le pion h7 entre lui et votre tour.",
+  "hint": "Le roi n'a aucun coup légal. Quelle prise le force sur la seule case que vous pouvez atteindre ?",
+  "explanation": "## L'idée\n\n{{Rxh7+}} donne une tour pour un pion, et {{Kxh7}} est le seul coup des Noirs. Attiré en h7, le roi est coincé contre sa propre tour et son propre pion, et {{Qh5#}} arrive de loin. La tour n'a jamais été la cible. C'était la case h7."
+}

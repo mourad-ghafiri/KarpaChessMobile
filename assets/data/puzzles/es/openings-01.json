@@ -1,0 +1,13 @@
+{
+  "id": "openings-01",
+  "fen": "rnb1kbnr/pppp1ppp/8/4p3/2B1q3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 5",
+  "solution": [
+    "Bxf7+",
+    "Kxf7",
+    "Ng5+"
+  ],
+  "title": "La dama paga la cuenta",
+  "setup": "La dama negra se ha pasado la apertura persiguiendo peones y acaba de comerse uno en el centro. Encuentra el sacrificio que prepara una horquilla de caballo.",
+  "hint": "Un salto de caballo a g5 atacaría f7 y e4 a la vez. ¿Qué haría falta para que el rey negro estuviera en f7?",
+  "explanation": "## La idea\n\nLa dama negra se ha pasado la apertura comiendo peones mientras las Blancas enrocaban y desarrollaban, y ahora llega la cuenta.\n\n{{Bxf7+}} entrega el alfil para arrastrar al rey hacia delante. Si {{Kxf7}}, entonces {{Ng5+}} da una horquilla al rey en f7 y a la dama en e4, y la dama se pierde.\n\nRehusar con {{Kd8}} conserva la dama, pero deja al rey negro varado en el centro, y las Blancas ganan igualmente.\n\nUna dama que caza peones en la apertura acaba cazada ella misma."
+}

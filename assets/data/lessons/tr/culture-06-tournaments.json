@@ -1,0 +1,68 @@
+{
+  "id": "tournaments",
+  "title": "İlk Turnuvanız",
+  "summary": "İsviçre sistemi, baylar ve ortadaki kişi",
+  "proof": "culture-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Kırkıncı Masa, Birinci Tur",
+      "text": "İki yüz bir oyuncu kayıt yaptırdı ve eşleştirme listesi listeyi ikiye böldü: üst yarıdaki herkes alt yarıdan biriyle eşleşti. Hafta sonunuzun en güçlü rakibinin şu anda tam karşınızda, birinci turda ve hızlı oynuyor olmasının sebebi de bu.\n\nKimse elenmiyor. Bu partiyi kaybedin, öğle yemeğinden sonra yine eşleşin; bu kez de kaybetmiş biriyle."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Puanınıza Göre Eşleşirsiniz",
+      "text": "İkinci turdan itibaren eşleştirme programı herkesi puana göre sıralar ve her grubun içinde eşleştirir; böylece kazananlar kazananlarla, kaybedenler kaybedenlerle karşılaşır. Program ayrıca kimin hangi rengi aldığını izler ve eşleştirmelerin izin verdiği ölçüde ikisini turnuva boyunca dengeler. Aynı rakiple iki kez karşılaşmazsınız.\n\nBuna **İsviçre sistemi** denir ve iki yüz katılımcının dokuz turu uzun bir hafta içinde bitirmesini sağlayan şey de odur."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Bir Piyon Filinizin Üstüne Yürüyor",
+      "text": "Beyazın h piyonu h4'te oturuyor ve orada manzara için değil. Bir sürüş daha ve filiniz g6'yı kaybediyor.\n\nGeriye kalacak karelerini sayın. Çapraz boyunca tahtanın ortasına iner; orada bir piyon ile bir at onu kareden kareye kovalamak için bekler ve koşmayı sürdürmek zorunda kalan filin sonunda karesi tükenir. Bu açılışta taş kazanmanın en eski yolu budur: taktik değil, yalnızca yerinde duramayan bir şeyin üstüne yürüyen bir piyon."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "prompt": "Beyazın h piyonu filinizi g6'dan kovmadan önce ona gerekecek geri çekilme karesini açın.",
+      "targetSan": [
+        "h6"
+      ],
+      "hint": "Filin geri dönen tek yolu kendi şah kanadı piyonlarınızın arasından geçiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Tek Sayı",
+      "text": "Duvar tablosunda iki yüz bir isim var. Tek sayı, yani her turda bir oyuncu rakipsiz kalır ve bir bay alır; bu genellikle galibiyet olarak puanlanır.\n\nTurnuvaların çoğu, önceden izin aldığınız bir tur için yarım puanlık bay da verir; beşinci tura girmemek ile onu kaybetmek arasındaki fark budur. Bayları turun sabahında değil, kayıt olmadan önce sorun.\n\nBeyaz yine de sürer. {{h5}} gelir ve bu kez {{Bh7}} diye bir kare vardır."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "İşletmenin İki Başka Yolu",
+      "text": "Lig usulü herkesi herkesle eşleştirir: on oyuncu, dokuz tur ve çapraz tablo, bir averajın tahmin etmek zorunda kaldığı her soruyu cevaplar. Var olan en adil formattır; davetli turnuvaların onu kullanmasının sebebi de, yüz katılımcının onu hiç görmemesinin sebebi de budur: o, doksan dokuz tur ederdi.\n\nEleme usulü öteki uçtur. Tek maç, tek kaybeden ve katılımcıların yarısı akşam yemeğinden önce eve gider. Dünya Kupası böyle işler; iki partilik maçlar ve eşitlik hâlinde hızlı satranç averajlarıyla.\n\nHafta sonu turnuvaları ortayı tutar. Herkes oynamayı sürdürür ve sıralamayı eşleştirmeler yapar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "Kimlerle Oynadınız",
+      "text": "Yeni tahta, son tur ve siyah az önce e4'teki atınızı afiyetle yedi.\n\nEn yüksek puanı bitiren oyuncu sayısı ödül sayısından fazla olacak, yani kararı averajlar verecek ve bunlar birinci turdan önce yayımlanır. Onları orada okuyun. Çoğu, kimlerle oynadığınızı ölçer: Buchholz rakiplerinizin son puanlarını toplar, Sonneborn-Berger ise o puanları her birini yenip yenmediğinize ya da berabere kalıp kalmadığınıza göre ağırlıklandırır. Kimse averaja oynayamaz. Averaj yalnızca sonradan, turnuvayı kazanana kaybetmenin size neden ertesi sabah çekilen birine kaybetmekten daha ucuza geldiğini açıklar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "El Kaldırın",
+      "text": "Hakem eşleştirmeleri yapar, kuralları uygular ve talepleri karara bağlar. El kaldırın; tahtanın üstünden tartışmayın. Standart oyunda tamamladığınız ilk kuraldışı hamle rakibinize iki fazladan dakika verir ve ikincisi partiyi bitirir; bu yüzden işi kendiniz düzeltmek yerine hakemi çağırın.\n\nGeçen hamle uzun rok yaptınız ve d1'deki kale, önünü kendi filinin kestiği bir dikeyi gösteriyor. {{Qd8+}} {{Kxd8}} {{Bg5+}} iki kez şah çeker ve şahın iki karesi vardır. c7'de fil d8'den mat eder, bu yüzden siyah {{Ke8}} dener.\n\n> Eşleştirmeler, saat ve ödül listesi hakemindir. Tahta sizindir."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+      "prompt": "Siyahın şahı bunun yerine e8'e kaçtı; kalenizin zaten tuttuğu dikeyde tek hamlede matı bulun.",
+      "targetSan": [
+        "Rd8#"
+      ],
+      "hint": "g5'teki fil e7'yi kapsıyor ve iniş karesini koruyor; yani kalenin yalnızca şah çekerek varması gerekiyor."
+    }
+  ]
+}

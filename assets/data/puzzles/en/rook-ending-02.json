@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-02",
+  "fen": "8/R4Pr1/4k3/8/4K3/8/8/8 w - - 0 1",
+  "solution": [
+    "f8=Q"
+  ],
+  "rating": 1250,
+  "title": "Make the Right Piece",
+  "setup": "Black's rook attacks the f-pawn from g7, the king attacks it too, and one defender cannot hold it against two, so White has exactly one move to use it.",
+  "hint": "The pawn is lost next move whatever you do. Ask which new piece would touch the rook on g7.",
+  "explanation": "## The Idea\n\nThe pawn cannot be held, so spend it. {{f8=Q}} attacks the rook beside it and wins. {{f8=R}} and {{f8=N+}} leave g7 alone, and {{f8=B}} hits the rook but is not enough to win. Black must save the rook with {{Rxa7}}, and queen against rook is winning."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "discovery-04",
+  "fen": "2r5/pp4pk/5n1p/8/4N3/1P6/P4PPP/1B4K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kg8",
+    "Nxc8"
+  ],
+  "rating": 1080,
+  "title": "Escolhe a Casa de Aterragem",
+  "setup": "O teu cavalo em e4 está na diagonal do bispo até h7, portanto todas as jogadas de cavalo chegam com xeque.",
+  "hint": "Todos os saltos deste cavalo abrem a linha do bispo. Só um deles acerta também em alguma coisa.",
+  "explanation": "## A Ideia\n\nQualquer jogada de cavalo descobre o xeque, portanto a verdadeira pergunta é que casa rende material. {{Nd6+}} ataca a torre de c8 enquanto as pretas tratam do xeque. Depois de uma jogada de rei como {{Kg8}}, o cavalo recolhe-a com {{Nxc8}}, e tapar com Rc2 só põe a torre onde o teu bispo a come."
+}

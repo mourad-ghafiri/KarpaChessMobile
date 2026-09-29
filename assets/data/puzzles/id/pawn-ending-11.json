@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-11",
+  "fen": "3k4/8/4p3/4P3/8/4K3/8/8 w - - 1 2",
+  "solution": [
+    "Kf4"
+  ],
+  "rating": 1465,
+  "title": "Pergilah ke Tempat Raja Tak Ada",
+  "setup": "Raja Hitam baru saja mundur ke d8, menyerahkan seluruh sayap raja kepada Putih.",
+  "hint": "Pion di e6 butuh rajanya di samping; hitung sayap mana yang paling lama dicapai raja itu.",
+  "explanation": "## Ide\n\n{{Kf4}} menuju sayap yang baru saja ditinggalkan Hitam. {{Ke7}} {{Kg5}} {{Kf7}} {{Kh6}}, dan raja putih berjalan memutar melalui g6 dan g7. Hitam tak bisa menguasai d7 dan f7 sekaligus, jadi e6 jatuh dan pion bebas menjadi menteri. {{Kd4}} atau {{Ke4}} sebagai gantinya membiarkan Hitam mempertahankan segalanya."
+}

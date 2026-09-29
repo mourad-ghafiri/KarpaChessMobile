@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-01",
+  "fen": "8/8/8/7P/3k4/8/8/K7 b - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "rating": 1100,
+  "title": "Dentro del cuadrado",
+  "setup": "Las Blancas acaban de avanzar el peón de h a la quinta fila, y su propio rey está varado en la otra esquina.",
+  "hint": "Dibuja el cuadrado h5–h8–e8–e5 y pregúntate cuál de tus jugadas de rey cae realmente dentro.",
+  "explanation": "## La idea\n\nUn peón en h5 necesita tres jugadas para coronar, así que cualquier rey que pueda llegar al cuadrado h5–h8–e8–e5 lo alcanza. Desde d4 solo {{Ke5}} entra: {{h6}} {{Kf6}} y el rey sigue al peón como una sombra hasta h8. Cualquier otra jugada se queda a un tiempo."
+}

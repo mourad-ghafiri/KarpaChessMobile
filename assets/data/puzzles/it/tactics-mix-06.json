@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-06",
+  "fen": "4k3/8/2N5/4q3/B7/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxe5+"
+  ],
+  "title": "Lo Scacco di Scoperta Vince la Donna",
+  "setup": "La donna nera in e5 dà scacco al vostro re lungo la colonna e. Il vostro cavallo in c6 sta fra il vostro alfiere in a4 e il re nero.",
+  "hint": "Il cavallo sta bloccando uno scacco vostro. Muovetelo dove faccia del lavoro vero.",
+  "explanation": "## L'idea\n\nIl vostro re è sotto scacco, e la risposta è un contrattacco. Il cavallo in c6 blocca la diagonale del vostro alfiere verso e8.\n\n{{Nxe5+}} prende la donna che dà scacco, e muovere il cavallo scopre lo scacco dell'alfiere. {{Kd8}}, {{Kf8}} e {{Ke7}} sono le uniche mosse del Nero, e nessuna arriva al cavallo.\n\nQuando un vostro pezzo sta fra il vostro pezzo a lungo raggio e il re avversario, ogni mossa che fa arriva con scacco."
+}

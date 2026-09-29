@@ -1,0 +1,50 @@
+{
+  "id": "rook-mate",
+  "title": "Roi et tour contre roi",
+  "summary": "La tour construit le mur ; seul le roi peut fermer la porte",
+  "proof": "endgames-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "La colonne que personne ne franchit",
+      "text": "Une tour, une colonne, et la partie est déjà jouée. Tant que votre tour tient g1, le roi noir ne peut jamais franchir la colonne g, donc son monde se réduit à h7 et h8 — deux cases, pour toujours.\n\nCette coupure est l'essentiel du travail, et c'est aussi la limite de ce qu'une tour peut faire seule. Les deux échecs possibles abandonnent g8, et tous deux valent moins que rien : {{Rg8+}} {{Kxg8}} livre la tour, et l'autre échec laisse plutôt le roi noir sortir sur cette case.\n\nLe mur reste debout. Il faut que quelque chose d'autre vienne fermer la porte."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "Un coup soigné, un demi-point",
+      "text": "{{Rg7}} ressemble à la même idée, une case mieux. Il prend g8 et h7 ensemble, votre roi en f6 le protège pour qu'il ne puisse pas être pris, et le roi noir n'est pas en échec.\n\nCe dernier point est tout le désastre. Pas en échec, et pas un seul coup légal sur tout l'échiquier : pat, un demi-point, et votre roi toujours là où il a commencé.\n\n> Une tour retire des cases toute la partie. La dernière case est celle qu'elle ne doit jamais prendre seule."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "prompt": "Votre tour ne peut pas prendre les cases à côté d'un roi : amenez la pièce qui le peut.",
+      "targetSan": [
+        "Kf7"
+      ],
+      "hint": "Laissez le mur exactement où il est et avancez votre autre pièce vers les Noirs jusqu'à ce que les deux rois se fassent face à une case d'écart."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "Ce que la tour ne sait pas faire",
+      "text": "Votre roi a fait le chemin, les Noirs n'avaient qu'une réponse légale, et les deux rois se tiennent maintenant à une case l'un de l'autre sur la septième rangée. C'est de nouveau l'opposition, qui se rend utile en cases plutôt qu'en temps : le roi blanc en f7 couvre g6, g7 et g8, toute la route de retour vers l'échiquier.\n\nUne tour donne échec le long d'une ligne, et un roi se contente de quitter la ligne. Il faut que quelque chose attende sur les cases où il se rend. Votre roi est la seule pièce qui puisse y attendre sans être prise. La tour ne gagne jamais cette finale à elle seule."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "Faire avancer le mur",
+      "text": "Rien de tout cela ne dépend du coin. Depuis n'importe quelle position, c'est une seule boucle, répétée jusqu'à ce que l'échiquier s'épuise.\n\nCoupez le roi seul avec votre tour, pour qu'il y ait une ligne qu'il ne peut pas franchir. Faites monter votre propre roi jusqu'à ce que les deux se fassent face à une case d'écart. Puis, chaque fois que le roi seul se décale le long du mur, rapprochez le mur d'une colonne derrière lui.\n\nLa boîte rétrécit à chaque passage et ne grandit plus jamais, et c'est pourquoi cette finale relève de la technique plutôt que du calcul."
+    },
+    {
+      "type": "play",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "prompt": "Les Noirs ont deux cases, toutes deux sur une même ligne — prenez toute cette ligne avec votre tour.",
+      "targetSan": [
+        "Rh1#"
+      ],
+      "hint": "Venez par l'autre bout, hors de portée du roi noir, pour que l'échec et la dernière case libre arrivent dans le même coup."
+    }
+  ]
+}

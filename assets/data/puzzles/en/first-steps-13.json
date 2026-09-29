@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-13",
+  "fen": "k4r2/8/8/7b/8/3n4/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "The Quiet Square",
+  "setup": "A black knight has landed on d3 with check — and knights can never be blocked.",
+  "hint": "The bishop on h5 slices through f3, e2 and d1. The rook guards the f-file. Look for the square no one mentions.",
+  "explanation": "## The Idea\n\nThe knight on d3 checks your king, and a knight's check can only be answered by moving the king or taking the knight. Nothing of yours reaches d3, so the king has to move.\n\nd1 and e2 lie on the h5 bishop's diagonal, the rook on f8 covers f1, and the knight itself covers f2. {{Kd2}} is the one square left: right next to the knight, and safe, because a knight never attacks the squares right beside it."
+}

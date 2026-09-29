@@ -1,0 +1,12 @@
+{
+  "id": "promotion-05",
+  "fen": "4r1k1/4Pppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8"
+  ],
+  "rating": 1160,
+  "title": "Chassez le bloqueur",
+  "setup": "Votre pion en e7 est retenu par la tour en e8, la seule pièce noire qui puisse l'empêcher de devenir une dame.",
+  "hint": "La tour qui bloque a exactement une tâche. Attaquez-la avec quelque chose contre quoi elle ne peut pas se permettre de s'échanger.",
+  "explanation": "## L'idée\n\n{{Rd8}} attaque le bloqueur. {{Rxd8}} perd sur-le-champ sur exd8=Q+, et tout autre coup de tour laisse passer le pion, donc les Noirs doivent donner la tour contre le pion. Éliminez la pièce qui retient un pion passé et le pion devient dame."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "skewer-06",
+  "fen": "8/1R1p3p/2k2r2/8/4Pb2/2r5/3R1B1P/4K3 w - - 0 1",
+  "solution": [
+    "Rb6+",
+    "Kc7",
+    "Rxf6"
+  ],
+  "rating": 1100,
+  "title": "Torre detrás de torre",
+  "setup": "Las Negras tienen dos torres en juego, y una de ellas comparte la sexta fila con su rey de c6.",
+  "hint": "¿Qué casilla de la sexta fila defiende ya una de tus piezas? Da jaque desde ahí.",
+  "explanation": "## La idea\n\n{{Rb6+}} es una enfilada por la sexta fila: el rey delante, la torre de **f6** detrás. El alfil de **f2** defiende b6, así que no se pueden comer la pieza que da jaque, y todas las casillas de escape salvo c7 están cubiertas. {{Kc7}}, y {{Rxf6}} gana la torre."
+}

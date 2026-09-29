@@ -1,0 +1,14 @@
+{
+  "id": "skewer-12",
+  "fen": "8/1r5R/2kpB3/1bp1R3/3P4/2P2P2/4P3/K7 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kb6",
+    "Rxb7+"
+  ],
+  "rating": 1300,
+  "title": "Gajah Memasang, Benteng Mengambil",
+  "setup": "Raja Hitam di c6 punya benteng tepat di belakangnya di b7, dan benteng Anda sudah menguasai baris ketujuh.",
+  "hint": "Buah mana yang bisa memberi sekak di diagonal yang terus menembus raja sampai ke benteng yang menunggu di belakangnya?",
+  "explanation": "## Ide\n\n{{Bd5+}} adalah tusukannya: diagonal d5–c6–b7 memuat raja dan, di belakangnya, benteng. Benteng Anda di **e5** menjaga d5, jadi sekak tak bisa diambil. Sesudah {{Kb6}}, {{Rxb7+}} memenangkan benteng, karena gajah kini juga menguasai b7."
+}

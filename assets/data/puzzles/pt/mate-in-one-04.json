@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-04",
+  "fen": "r2q1bnr/ppp1kBpp/2np4/4N3/4P3/2N4P/PPPP1PP1/R1BbK2R w KQ - 1 8",
+  "solution": [
+    "Nd5#"
+  ],
+  "rating": 690,
+  "title": "O Preço de Uma Dama",
+  "setup": "Entregaste a dama em d1 para arrastar o rei preto até e7, e agora três peças tuas olham para ele.",
+  "hint": "Conta as casas que o rei tem e encontra depois a peça que tira a última enquanto dá xeque.",
+  "explanation": "## A Ideia\n\n{{Nd5#}} é o mate de Légal. O bispo de f7 e o cavalo de e5 cobrem d7, e6 e e8, portanto o segundo cavalo dá xeque enquanto tira f6 ele próprio. Uma dama não vale nada ao lado de um rei sem casas."
+}

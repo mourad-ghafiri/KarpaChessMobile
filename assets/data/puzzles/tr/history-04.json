@@ -1,0 +1,13 @@
+{
+  "id": "history-04",
+  "fen": "8/r4pk1/6p1/7p/8/8/5PPP/3Q2K1 w - - 0 1",
+  "solution": [
+    "Qd4+",
+    "Kg8",
+    "Qxa7"
+  ],
+  "title": "Aynı Anda İki Çapraz",
+  "setup": "a7'deki kaleyi koruyan hiçbir şey yok ve g7'deki şah açıkta — ve tek bir kare ikisini birden görüyor.",
+  "hint": "Kaleye kendi dikeyinden saldırırsanız sizi öylece alır. İki ayrı çaprazın zıt yönlere çıktığı kareyi arayın.",
+  "explanation": "## Fikir\n\nEski vezir çaprazda birer kare sürünürdü. Yenisi, iki uzun hattın kesiştiği yerde durur.\n\n{{Qd4+}} bir çaprazdan g7'deki şaha şah çeker, ötekinden a7'deki kaleye vurur. Kale karşılık veremez: d4 ne onun dikeyinde ne yatayındadır.\n\nSiyah şaha ne yaparsa yapsın — {{Kg8}} ya da başka bir şey — kale için bir şey yapmış olmaz ve {{Qxa7}} onu toplar.\n\nBunun yerine kaleyi a dikeyinde kovalarsanız vezirinizi alır."
+}

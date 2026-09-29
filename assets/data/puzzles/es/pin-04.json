@@ -1,0 +1,12 @@
+{
+  "id": "pin-04",
+  "fen": "8/3kb3/3p4/3P1r2/1Ppp1P2/5B2/4R3/K7 w - - 0 1",
+  "solution": [
+    "Bg4"
+  ],
+  "rating": 920,
+  "title": "Primero clava, luego come",
+  "setup": "La torre negra de f5 se ha extraviado en la misma diagonal que su rey, con una casilla vacía entre ellos.",
+  "hint": "¿Cuál de tus piezas puede atacar esa torre y congelarla de un solo golpe? Busca la línea que llega a d7.",
+  "explanation": "## La idea\n\nLa torre de **f5**, la casilla vacía e6 y el rey de **d7** están en una misma diagonal. {{Bg4}} ataca a la torre por ella, y la clavada hace ilegal mover la torre. Nada defiende f5, así que la torre es tuya en la próxima jugada."
+}

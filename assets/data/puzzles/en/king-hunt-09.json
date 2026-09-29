@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-09",
+  "fen": "r6Q/4B3/6K1/7p/6R1/1R6/8/5k1b w - - 0 1",
+  "solution": [
+    "Qf6+",
+    "Ke1",
+    "Rg1+",
+    "Kd2",
+    "Qb2#"
+  ],
+  "rating": 1620,
+  "title": "Drive the King Off the Edge",
+  "setup": "Black's king is on f1 with a bishop on h1 behind it, and your queen sits far away on h8.",
+  "hint": "The king is on the back rank, which sounds safe. Push it one file at a time and watch it stop being safe.",
+  "explanation": "## The Idea\n\n{{Qf6+}} and {{Rg1+}} drive the king from f1 to d2, and {{Qb2#}} catches it in the middle. A king pushed off the edge is more exposed than one left on it."
+}

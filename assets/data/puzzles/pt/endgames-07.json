@@ -1,0 +1,11 @@
+{
+  "id": "endgames-07",
+  "fen": "4QK2/8/8/8/8/8/4pk2/8 w - - 0 1",
+  "solution": [
+    "Qf7+"
+  ],
+  "title": "Um Xeque, e Um Só",
+  "setup": "O peão preto em e2 promove na jogada seguinte, e o teu rei em f8 não está nem perto dele. A dama tem de comprar o tempo sozinha.",
+  "hint": "As pretas têm de responder a um xeque antes de avançar. Encontra o xeque a que o rei preto não possa responder comendo a dama.",
+  "explanation": "## A Ideia\n\nA um xeque tem de se responder antes de o peão poder mexer, e de e8 a dama tem exatamente um xeque que o rei não pode simplesmente capturar: {{Qf7+}}, pela coluna f. Todas as outras jogadas deixam o peão promover, e dama contra dama é empate.\n\nDe f7 a dama continua a dar xeque e a conduzir o rei até ele pisar e1, à frente do seu próprio peão. Essa é a jogada grátis, e o teu rei gasta-a a caminhar."
+}

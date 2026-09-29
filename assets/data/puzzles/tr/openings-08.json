@@ -1,0 +1,13 @@
+{
+  "id": "openings-08",
+  "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Nxe5",
+    "fxe5",
+    "Qh5+"
+  ],
+  "title": "Yanlış Koruyucu",
+  "setup": "Siyah e5 piyonunu bir taşla değil, f piyonuyla korudu. Siyahın şahına giden çaprazı açan bir taş ikram ederek bunu cezalandırın.",
+  "hint": "O yeni koruyucu taş almak zorunda kalırsa hangi yolun açılacağını ve ucunda beyazın hangi taşının beklediğini sorun.",
+  "explanation": "## Fikir\n\ne5'i f piyonuyla korumak piyonu tutar, ama h5'ten siyahın şahına giden çaprazı açar.\n\n{{Nxe5}} bunu kullanmak için bir taş ikram eder. {{fxe5}} gelirse {{Qh5+}}: g6'da kapatmak, {{Qxe5+}} ve vezirin sıradaki taş almasından sonra h8'deki kaleyi kaybettirir; e7'ye adımlamak ise vezirin şahı açıkta avlamasına izin verir. {{Qe7}} ile reddetmek piyonu geri kazanır, ama siyahın şahını ve gelişimini belirgin biçimde kötü bırakır.\n\nÖnce taşlarla savunun. Oynamış bir piyon geri dönemez."
+}

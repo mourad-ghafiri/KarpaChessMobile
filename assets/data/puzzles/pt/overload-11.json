@@ -1,0 +1,14 @@
+{
+  "id": "overload-11",
+  "fen": "6k1/2n1Rppp/8/8/2N5/2r5/PP2Q3/K7 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Nxe8",
+    "Qxe8#"
+  ],
+  "rating": 1610,
+  "title": "O Cavalo Não Cobre Duas Vezes",
+  "setup": "O cavalo preto em c7 vigia e8, a tua torre chegou à sétima, e a dama espera em e2.",
+  "hint": "Um cavalo defende de forma desajeitada. Encontra a casa a que ele chega exatamente uma vez e obriga-o a ir lá.",
+  "explanation": "## A Ideia\n\n{{Re8+}} exige o cavalo, {{Nxe8}} é forçado, e a dama captura-o ali com {{Qxe8#}}. Um cavalo que defende uma casa só é defensor até ter de se pôr em cima dela."
+}

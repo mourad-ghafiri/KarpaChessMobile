@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-04",
+  "fen": "7k/6pp/8/bP6/3Q4/3R4/5PPP/2K5 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Bxd8",
+    "Rxd8#"
+  ],
+  "rating": 1050,
+  "title": "Arka Yatay İçin Vezir",
+  "setup": "Siyahın a5'teki fili d8'i gözleyen tek taş ve şahı h8'de iki piyonun arkasında oturuyor.",
+  "hint": "Kaleniz sekizinci yatayı istiyor, ama siyahın bir taşı giriş karesini kapsıyor. Ona ne önerebilirsiniz?",
+  "explanation": "## Fikir\n\n{{Qd8+}} bir saptırmadır. Şahı kendi g7 ve h7 piyonları duvara aldığı için filin alması gerekir: {{Bxd8}} tek kurallı hamledir. Artık arkasındaki d dikeyi temizdir ve {{Rxd8#}} arka yatayda işi bitirir."
+}

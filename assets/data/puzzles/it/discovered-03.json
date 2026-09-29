@@ -1,0 +1,11 @@
+{
+  "id": "discovered-03",
+  "fen": "4k3/r7/2N5/1B6/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxa7+"
+  ],
+  "title": "Il Cavallo Sgombra la Diagonale",
+  "setup": "Il vostro alfiere in b5 punta al re — ma il vostro stesso cavallo gli sta di mezzo. Non è un problema; è una mossa.",
+  "hint": "Il cavallo deve muovere perché lo scacco compaia. Trovate il balzo che afferra qualcosa strada facendo.",
+  "explanation": "## L'idea\n\nIl cavallo in c6 blocca la diagonale dell'alfiere verso e8, quindi qualunque mossa di cavallo dà scacco. Quella libertà è tutto il punto: il cavallo può andare dove guadagna di più.\n\n{{Nxa7+}} prende la torre mentre l'alfiere in b5 dà lo scacco. Il Nero deve rispondere allo scacco, quindi niente riprende il cavallo, e al Bianco restano alfiere e cavallo contro un re nudo.\n\nCon uno scacco di scoperta, spendete la mossa gratis sulla presa più grossa a portata."
+}

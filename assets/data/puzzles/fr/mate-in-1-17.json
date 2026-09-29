@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-17",
+  "fen": "2B1k3/8/4K3/8/8/8/8/7Q w - - 0 1",
+  "solution": [
+    "Qh8#"
+  ],
+  "title": "La rangée fait le travail",
+  "setup": "Votre roi en e6 se tient deux cases devant le roi noir, et votre dame est loin, dans le coin.",
+  "hint": "Votre roi couvre déjà toutes les cases de la septième rangée que le roi noir pourrait utiliser. Trouvez un échec sur la huitième.",
+  "explanation": "## L'idée\n\n{{Qh8#}} donne échec le long de la dernière rangée. Votre roi en e6 couvre d7, e7 et f7, et d8 et f8 sont toutes deux sur la ligne de la dame. Rien ne peut s'interposer entre h8 et e8.\n\nLe fou en c8 ne fait que couvrir d7 une seconde fois : ce sont votre roi et votre dame qui font le travail. Un roi deux cases devant le roi adverse ne laisse à la dame qu'une seule rangée à prendre."
+}

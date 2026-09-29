@@ -1,0 +1,14 @@
+{
+  "id": "overload-05",
+  "fen": "6k1/5ppp/1b6/5r2/7R/8/PP1R4/K2Q4 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Bxd8",
+    "Qxd8#"
+  ],
+  "rating": 1410,
+  "title": "Gajahnya Terlalu Jauh",
+  "setup": "Gajah Hitam di b6 mengawasi d8 di sepanjang diagonal sementara benteng di f5 telah hanyut jauh dari rumah.",
+  "hint": "Pembela jarak jauh tetap harus bisa kembali. Uji apakah petak yang diawasinya adalah petak yang bisa ia pertahankan.",
+  "explanation": "## Ide\n\nGajah menjaga d8 dari kejauhan, jadi {{Rd8+}} mengorbankan benteng dan {{Bxd8}} terpaksa. Kini diagonalnya kosong dan {{Qxd8#}} merebut petak itu. Menjaga sebuah petak dan mampu bertahan di petak itu adalah dua hal yang berbeda."
+}

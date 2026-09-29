@@ -1,0 +1,13 @@
+{
+  "id": "openings-01",
+  "fen": "rnb1kbnr/pppp1ppp/8/4p3/2B1q3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 5",
+  "solution": [
+    "Bxf7+",
+    "Kxf7",
+    "Ng5+"
+  ],
+  "title": "A Dama Paga a Renda",
+  "setup": "A dama preta passou a abertura a perseguir peões e acabou de comer um no centro. Encontra o sacrifício que prepara um garfo de cavalo.",
+  "hint": "Um salto de cavalo a g5 atingiria f7 e e4 ao mesmo tempo. O que seria preciso para pôr o rei preto em f7?",
+  "explanation": "## A Ideia\n\nA dama preta passou a abertura a agarrar peões enquanto as brancas rocavam e desenvolviam, e a fatura vence agora.\n\n{{Bxf7+}} cede o bispo para puxar o rei para a frente. Se {{Kxf7}}, então {{Ng5+}} garfa o rei em f7 e a dama em e4, e a dama está perdida.\n\nRecusar com {{Kd8}} guarda a dama mas deixa o rei preto encalhado no meio, e as brancas estão a ganhar à mesma.\n\nUma dama que caça peões na abertura acaba caçada ela própria."
+}

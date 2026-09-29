@@ -1,0 +1,13 @@
+{
+  "id": "history-02",
+  "fen": "7k/8/p4N2/1p5p/8/8/8/2R3K1 w - - 0 1",
+  "solution": [
+    "Rc7",
+    "b4",
+    "Rh7#"
+  ],
+  "title": "Um Final de Mansuba",
+  "setup": "Um problema ao estilo do shatranj: torre e cavalo contra um rei no canto, e as pretas não têm senão idas e vindas de peões.",
+  "hint": "Ainda não dês xeque. O cavalo já é dono de g8 e h7, portanto pergunta de que linha a torre precisa antes de valer a pena dar o xeque.",
+  "explanation": "## A Ideia\n\nEste é o **mate árabe** das mais antigas coleções de problemas: uma torre ao lado do rei no canto, um cavalo a guardar a torre.\n\nA torre não o pode dar de c1. {{Rc7}} é tranquila: a torre toma a sétima linha, o cavalo já cobre g8, e ao rei não resta casa nenhuma. As pretas só podem avançar um peão, {{b4}} ou outro, e segue-se {{Rh7#}}, com o cavalo a guardar h7.\n\nDá primeiro xeque com {{Rc8+}} e o rei escapa-se para g7. Constrói a rede e só depois dá xeque."
+}

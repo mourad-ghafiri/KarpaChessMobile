@@ -1,0 +1,13 @@
+{
+  "id": "forks-10",
+  "fen": "4q3/8/8/4k3/8/8/8/R6K w - - 0 1",
+  "solution": [
+    "Re1+",
+    "Kd6",
+    "Rxe8"
+  ],
+  "title": "Espeta a Dama",
+  "setup": "O rei preto em e5 e a dama preta em e8 estão na mesma coluna, com o rei à frente.",
+  "hint": "Entra nessa coluna com xeque. Pergunta depois à frente de quê está o rei.",
+  "explanation": "## A Ideia\n\nA peça mais valiosa é a mais próxima. Isso é um espeto: atinge a peça da frente e come o que ela escondia.\n\n{{Re1+}} reclama a coluna. As seis respostas são todas jogadas de rei — nada pode tapar, porque a dama teria de atravessar o próprio rei para chegar a e2, e3 ou e4.\n\n{{Kd6}} é tão boa como qualquer outra, e {{Rxe8}} recolhe a dama. Numa cravada a peça valiosa está atrás; num espeto está à frente, e mexer custa."
+}

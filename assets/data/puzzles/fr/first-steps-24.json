@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-24",
+  "fen": "6k1/5ppp/8/2n1n3/8/3P4/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "d4"
+  ],
+  "title": "Un pion, deux cavaliers",
+  "setup": "Les deux cavaliers noirs attaquent votre pion en d3, et seule la tour en d1 le protège. Le pion a une meilleure idée que d'attendre.",
+  "hint": "Un pion attaque les deux cases en diagonale devant lui. Où celui-ci devrait-il se tenir pour attaquer c5 et e5 ?",
+  "explanation": "## L'idée\n\n{{d4}} place le pion entre les cavaliers, attaquant c5 et e5 à la fois. Aucun cavalier ne peut le prendre, car un cavalier en c5 ou e5 ne touche jamais d4, et la tour en d1 le protège de toute façon.\n\nLes Noirs sauvent un cavalier et le pion prend l'autre : un point de pion contre trois points de cavalier. Tout autre coup laisse les deux cavaliers en vie."
+}

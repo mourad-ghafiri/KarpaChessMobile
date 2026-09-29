@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-02",
+  "fen": "8/4k3/R7/8/8/8/8/1R5K w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Ke8",
+    "Ra8#"
+  ],
+  "title": "Le mat de l'escalier",
+  "setup": "Deux tours contre le roi noir seul en e7, et la tour en a6 barre déjà toute la sixième rangée.",
+  "hint": "Une tour tient une rangée pendant que l'autre donne échec sur la suivante.",
+  "explanation": "## L'idée\n\nC'est le mat de l'escalier. La tour en a6 tient la sixième rangée, donc {{Rb7+}} donne échec le long de la septième et ne laisse au roi que la dernière rangée : {{Kd8}}, {{Ke8}} ou {{Kf8}}.\n\nOù qu'il aille, {{Ra8#}} monte sur la dernière rangée. La tour en b7 garde toute la septième, et le roi n'a plus nulle part où aller. Couper, donner échec, couper, donner échec : deux tours n'ont besoin de l'aide de personne."
+}

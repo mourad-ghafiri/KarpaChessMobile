@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-17",
+  "fen": "4r1k1/5p1p/8/3N4/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nf6+"
+  ],
+  "title": "İki Hedef, Tek Sıçrayış",
+  "setup": "Siyahın g8'deki şahı ile e8'deki kalesi, tek bir at sıçrayışının ikisine birden ulaşabildiği yerde duruyor.",
+  "hint": "Aynı sıçrayışta hem şah çeken hem de kaleye vuran kareyi bulun, sonra hiçbir piyonun orayı korumadığından emin olun.",
+  "explanation": "## Fikir\n\n{{Nf6+}} bir çataldır: at f6'dan g8'deki şaha şah çeker ve e8'deki kaleye saldırır. g piyonu gittiği için f6'yı koruyan hiçbir şey yok ve atın şahı kapatılamaz.\n\nŞahın oynaması gerekir ve {{Nxe8}} kaleyi toplar."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-14",
+  "fen": "7R/8/8/8/8/1K6/8/k7 w - - 0 1",
+  "solution": [
+    "Rh1#"
+  ],
+  "title": "Ujung Dunia",
+  "setup": "Raja Hitam terjebak di sudut a1, dan raja Anda di b3 menguasai a2 dan b2.",
+  "hint": "Raja Anda sudah menguasai petak-petak di atas raja Hitam. Benteng Anda tinggal memberi sekak di tempat raja itu berdiri.",
+  "explanation": "## Ide\n\nRaja Anda sudah mengerjakan bagian yang sulit: di b3 ia menguasai a2 dan b2, jadi raja Hitam hanya tinggal punya b1.\n\n{{Rh1#}} memberi sekak di sepanjang baris pertama, dan b1 juga berada di garis benteng. Tak ada yang bisa menghalangi, dan raja tak bisa mencapai benteng.\n\nDalam akhir permainan raja dan benteng, raja Anda merebut petak-petak di depan raja lawan, dan benteng memberi sekak dari kejauhan."
+}

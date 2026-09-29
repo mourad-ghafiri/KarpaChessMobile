@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-04",
+  "fen": "4k3/P7/8/8/8/1K6/7p/8 w - - 0 1",
+  "solution": [
+    "a8=Q+"
+  ],
+  "title": "Promoção Com Xeque",
+  "setup": "Os dois lados têm um peão a um passo de fazer dama, e é a tua vez.",
+  "hint": "A tua dama nova tem também de travar o peão preto. Um xeque dá-lhe esse tempo.",
+  "explanation": "## A Ideia\n\n{{a8=Q+}} promove com xeque. As pretas têm de gastar a jogada com o rei, e depois {{Qh1}} trava o peão h a uma casa da promoção. Qualquer coisa mais lenta, como {{Kc2}}, deixa {{h1=Q}}, e ficas com dama contra dama.\n\nNuma corrida, a promoção que dá xeque vale um tempo inteiro."
+}

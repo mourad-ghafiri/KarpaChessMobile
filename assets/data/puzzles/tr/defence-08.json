@@ -1,0 +1,14 @@
+{
+  "id": "defence-08",
+  "fen": "4K3/5rQ1/3q4/r6k/8/8/B7/3R4 w - - 0 1",
+  "solution": [
+    "Rh1+",
+    "Qh2",
+    "Rxh2#"
+  ],
+  "rating": 1730,
+  "title": "Vezirin Dönmesi Gerek",
+  "setup": "Siyahın d6'daki veziri ile a5 ve f7'deki kaleleri e8'deki şahınızı kuşatmış, kendi şahı ise h5'te oturuyor.",
+  "hint": "Siyahın taşlarının hepsi yanlış tarafta. Şahının durduğu dikeyde şah çekin ve kimin yardıma gelebildiğine bakın.",
+  "explanation": "## Fikir\n\n{{Rh1+}} veziri {{Qh2}} ile kapatmaya zorlar ve böylece vezir her şeyi bırakır; {{Rxh2#}} işi bitirir. Sizin şahınıza saldıran taşlar, kendi şahını korumayan taşlardır."
+}

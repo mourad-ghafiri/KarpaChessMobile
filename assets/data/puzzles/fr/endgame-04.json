@@ -1,0 +1,11 @@
+{
+  "id": "endgame-04",
+  "fen": "8/8/5k2/8/3K4/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Kd5"
+  ],
+  "title": "L'activité du roi gagne",
+  "setup": "Votre pion en e3 est loin de sa case de promotion, et le roi noir en f6 surveille les cases devant lui.",
+  "hint": "Ne poussez pas le pion. Gagnez une rangée avec le roi, sur une case que le roi noir ne peut pas contester.",
+  "explanation": "## L'idée\n\nLe pion ne peut pas ouvrir la marche. Poussé seul, il tombe sur le roi noir, qui couvre déjà les cases devant lui.\n\n{{Kd5}} gagne plutôt une rangée, sur une case que les Noirs ne peuvent pas disputer. Après {{Ke7}}, {{Ke5}} se place droit devant le roi noir, et votre roi continue de marcher devant son pion. Tout autre coup, poussée du pion comprise, permet au roi noir de tenir la nulle.\n\nGagnez d'abord les cases, et la marche du pion est assurée."
+}

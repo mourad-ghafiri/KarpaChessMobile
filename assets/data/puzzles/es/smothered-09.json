@@ -1,0 +1,14 @@
+{
+  "id": "smothered-09",
+  "fen": "k2r3r/pp3ppp/N7/4Q3/8/8/5PPP/6K1 w - - 5 27",
+  "solution": [
+    "Qb8+",
+    "Rxb8",
+    "Nc7#"
+  ],
+  "rating": 1405,
+  "title": "Sacrificio en b8",
+  "setup": "El rey negro acaba de huir del jaque del caballo a la esquina, con sus propios peones en a7 y b7.",
+  "hint": "El caballo de a6 ya defiende b8: ¿qué le permite eso hacer a una dama en una casilla justo al lado del rey?",
+  "explanation": "## La idea\n\n{{Qb8+}} es inmune, porque el caballo de a6 defiende b8, así que {{Rxb8}} es la única jugada del tablero y la esquina queda sellada por la propia torre negra. Luego {{Nc7#}} da jaque desde una casilla que no vigila ninguna pieza negra. El mismo sacrificio funciona en cualquiera de las dos esquinas."
+}

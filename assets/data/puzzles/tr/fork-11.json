@@ -1,0 +1,16 @@
+{
+  "id": "fork-11",
+  "fen": "3rr1k1/p5pp/8/8/4n3/8/P1Q3PP/3R3K b - - 1 1",
+  "solution": [
+    "Rxd1+",
+    "Qxd1",
+    "Nf2+",
+    "Kg1",
+    "Nxd1"
+  ],
+  "rating": 1070,
+  "title": "Önce Değişin, Sonra Çatallayın",
+  "setup": "Beyazın şahı iki piyonun arkasında h1'de oturuyor ve d1'deki kalesini yalnızca vezir koruyor.",
+  "hint": "Henüz çatallayan bir şey yok. Beyazın hangi taşını, çatalın ortaya çıkacağı kareye zorlayabileceğinizi sorun.",
+  "explanation": "## Fikir\n\nAtınızın çatal karesi f2; h1 ile d1'e vuruyor — ama c2'deki vezir orayı koruyor, yani hemen sıçramak atı düşürür. {{Rxd1+}} şahtır, yani {{Qxd1}} mecburidir ve vezir artık çatalın hedeflerinden birinde durur. {{Nf2+}} gelir, {{Kg1}} mecburidir ve {{Nxd1}} onu kazanır."
+}

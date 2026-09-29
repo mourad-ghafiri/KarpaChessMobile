@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-01",
+  "fen": "6k1/5ppp/8/8/8/8/1r3PPP/4R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 700,
+  "title": "La Presa del Pedone",
+  "setup": "Il Nero ha appena preso un pedone in b2 con la torre, lasciando la sua ottava traversa completamente nuda.",
+  "hint": "Il re nero ha tre suoi pedoni proprio davanti. Che cosa gli lascia questo?",
+  "explanation": "## L'idea\n\n{{Re8#}}. Il re in g8 ha f7, g7 e h7 bloccate dai propri pedoni, e ogni casa dell'ottava traversa appartiene alla torre. Un re dietro tre pedoni immobili è a uno scacco sulla traversa di fondo dal matto ogni volta che niente difende quella traversa."
+}

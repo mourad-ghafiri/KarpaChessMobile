@@ -1,0 +1,13 @@
+{
+  "id": "forks-07",
+  "fen": "3r3k/p5pp/8/4N3/8/8/P5PP/6K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "Köşeye Doğru Bir Çatal",
+  "setup": "Siyahın şahı kendi piyonlarının arkasında h8 köşesine çekilmiş ve siyahın d8'deki kalesinin koruyucusu yok.",
+  "hint": "Aynı zamanda kaleye saldıran at şahını bulun. Şahın gidecek yalnızca tek bir karesi olacak.",
+  "explanation": "## Fikir\n\n{{Nf7+}} h8'deki şaha şah çeker ve d8'deki kaleye saldırır. g7 ile h7'deki piyonlar şaha tek bir kare bırakır ve şah g8'den d8'e ulaşamaz. {{Kg8}} geldikten sonra {{Nxd8}} kaleyi alır ve siz bir kalite geriden bir at öne geçersiniz.\n\nKendi piyonlarıyla kutuya alınmış şah, bir çatal için en kolay hedeftir."
+}

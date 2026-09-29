@@ -1,0 +1,13 @@
+{
+  "id": "discovered-01",
+  "fen": "2r1k3/8/8/8/4N3/8/8/4R2K w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd8",
+    "Nxc8"
+  ],
+  "title": "Le cavalier bouge, la tour frappe",
+  "setup": "La tour blanche en e1 vise le roi noir, et le propre cavalier blanc est la seule chose sur le chemin.",
+  "hint": "Chaque coup de cavalier découvre la tour. Un seul atterrit aussi sur quelque chose.",
+  "explanation": "## L'idée\n\nTant que le cavalier est en e4, la tour ne fait rien. Déplacez-le et la ligne de la tour s'ouvre au même instant : la pièce qui bouge n'est pas la pièce qui attaque.\n\nPlusieurs coups de cavalier donnent cet échec, mais seul {{Nd6+}} accomplit une seconde tâche, en attaquant la tour en c8. C'est aussi un **échec double**, donc rien ne peut s'interposer et prendre l'une des pièces laisse l'autre donner échec.\n\nLe roi a trois cases. {{Kd8}} le garde tout près, et {{Nxc8}} gagne la tour — le roi reprend, et la qualité est à vous."
+}

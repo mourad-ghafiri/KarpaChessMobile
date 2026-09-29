@@ -1,0 +1,13 @@
+{
+  "id": "discovered-05",
+  "fen": "r3k3/8/4B3/8/4R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kd8",
+    "Bxa8"
+  ],
+  "title": "Le fou déclenche la batterie",
+  "setup": "Votre tour et votre fou sont empilés sur la colonne e — le fou devant, la tour chargée derrière lui.",
+  "hint": "Tout coup de fou découvre un échec de la tour. Choisissez celui qui attaque aussi quelque chose que les Noirs ne peuvent pas sauver.",
+  "explanation": "## L'idée\n\nLe fou en e6 masque la tour en e4. Dès qu'il bouge, la tour donne échec le long de la colonne, donc le coup du fou arrive avec une menace gratuite.\n\n{{Bd5+}} quitte la colonne et vise la tour en a8. Les Noirs doivent parer l'échec, et aucune pièce noire ne peut s'interposer en e5, e6 ou e7. Après {{Kd8}}, {{Bxa8}} encaisse la tour.\n\nLa pièce de devant d'une batterie bouge avec une menace intégrée, alors choisissez la case où elle fait double emploi."
+}

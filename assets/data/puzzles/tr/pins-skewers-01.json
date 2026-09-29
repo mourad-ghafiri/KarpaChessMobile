@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-01",
+  "fen": "7k/7p/5qp1/8/8/8/5PPP/B5K1 w - - 0 1",
+  "solution": [
+    "Bxf6+"
+  ],
+  "title": "Çapraza Çivilenmiş",
+  "setup": "Filiniz ile siyahın şahı uzun çaprazı paylaşıyor ve siyahın veziri ikisinin arasında duruyor.",
+  "hint": "Vezir, şahını açığa çıkarmadan o çaprazdan çekilemez ve durduğu yerde onu koruyan hiçbir şey yok.",
+  "explanation": "## Fikir\n\nf6'daki vezir h8'deki şaha karşı açmazda: uzun çapraz boyunca ileri geri kayabilir, ama onu terk edemez ve kimse onu korumaz.\n\nÖyleyse alın. {{Bxf6+}} veziri bedavaya kazanır ve {{Kg8}} siyahın tek cevabıdır.\n\nÖnce oynamak işin bütünüdür: sıra siyahta olsaydı {{Qxa1}} mat olurdu. Açmazdaki taş korunan taş değildir — kaçamayan taştır."
+}

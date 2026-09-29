@@ -1,0 +1,11 @@
+{
+  "id": "forks-03",
+  "fen": "4k3/8/8/3q4/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nf6+"
+  ],
+  "title": "Le cavalier fourchette la famille royale",
+  "setup": "Le roi noir en e8 et la dame en d5 sont tous deux à un saut de cavalier de la même case.",
+  "hint": "Cherchez une case où le cavalier peut atterrir en frappant **à la fois** le roi et la dame.",
+  "explanation": "## L'idée\n\nUne **fourchette royale** : le roi et la dame frappés d'un seul coup. La case f6 est à un saut de cavalier de e8 et à un saut de cavalier de d5, donc s'y poser touche les deux à la fois.\n\n{{Nf6+}} ne peut pas être paré par interposition, car un cavalier ne traverse jamais les cases intermédiaires, et ni le roi ni la dame ne peuvent atteindre f6 pour le prendre. Le roi doit bouger, et {{Nxd5}} ramasse la dame.\n\nTrouvez la case qui est à un saut de cavalier du roi et à un saut de cavalier de quelque chose de précieux."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "discovery-05",
+  "fen": "2rkr3/2p1pppp/4n3/3P4/8/5N2/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "dxe6#"
+  ],
+  "rating": 1120,
+  "title": "Fuori dalla Colonna",
+  "setup": "Il re nero è murato in d8 dalle proprie torri e dai propri pedoni, e un vostro pedone blocca la colonna d.",
+  "hint": "Un pedone che cattura lascia la colonna su cui stava. Chiedetevi che cosa vedrebbe la vostra torre nel momento in cui lo fa.",
+  "explanation": "## L'idea\n\n{{dxe6#}} vince un cavallo, ma non è questo il punto: il pedone lascia la colonna d e la torre in d1 dà scacco fino a d8. c7, e7, c8 e e8 hanno i pezzi del Nero, e niente può mettersi davanti alla torre. Una scoperta di pedone può dare matto."
+}

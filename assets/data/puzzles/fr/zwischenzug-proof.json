@@ -1,0 +1,13 @@
+{
+  "id": "zwischenzug-proof",
+  "fen": "r1b2rk1/pp3ppp/1Q1p4/4p3/3nP3/8/PPP1BPPP/R1B2RK1 b - - 0 1",
+  "solution": [
+    "Nxe2+",
+    "Kh1",
+    "axb6"
+  ],
+  "title": "La dame peut attendre",
+  "setup": "La dame blanche vient de prendre la vôtre en b6. Reprendre est le coup évident, et ce n'est pas le meilleur.",
+  "hint": "Votre reprise peut attendre un coup, à condition que le coup d'avant soit un échec.",
+  "explanation": "## L'idée\n\n{{axb6}} tout de suite est un échange égal, et les Blancs retirent alors simplement le fou en e2 de la portée de votre cavalier. Donnez donc échec d'abord. {{Nxe2+}} prend le fou, et {{Kh1}} est le seul coup légal des Blancs. La dame en b6 est toujours là, et {{axb6}} la ramasse. Vous avez repris un coup plus tard, et plus riche d'un fou entier."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "smothered-12",
+  "fen": "r5k1/2p3pp/1b6/1p2N3/8/B7/P1Q2PPP/6K1 w - - 6 28",
+  "solution": [
+    "Qb3+",
+    "Kh8",
+    "Nf7+",
+    "Kg8",
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1500,
+  "title": "Xeques Até ao Sufoco",
+  "setup": "As pretas acabaram de tirar o bispo da diagonal de a3 a f8, e o bispo branco cobre agora f8.",
+  "hint": "Começa com um xeque que o peão de b5 não possa castigar, e a partir daí nunca deixes ao rei uma casa vazia.",
+  "explanation": "## A Ideia\n\n{{Qb3+}} força {{Kh8}}, porque o bispo cobre f8. Depois {{Nf7+}} {{Kg8}} e {{Nh6+}} chega como xeque duplo, empurrando o rei de volta ao canto. A dama aterra em g8, a torre é obrigada a comer, e o cavalo volta a f7 para o mate. Todas as respostas das pretas são a única jogada legal."
+}

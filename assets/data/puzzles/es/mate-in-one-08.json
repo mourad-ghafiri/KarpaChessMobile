@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-08",
+  "fen": "rn1q1bnr/ppp1kB1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R w KQ - 1 7",
+  "solution": [
+    "Nd5#"
+  ],
+  "rating": 810,
+  "title": "El mate de Legal",
+  "setup": "Las Negras acaban de comerse tu dama en d1, y su rey está en e7 con tres piezas blancas alrededor.",
+  "hint": "La dama ya no está, así que cuenta las casillas del rey negro y encuentra la que queda por cubrir.",
+  "explanation": "## La idea\n\nEste es el mate de Legal. El alfil de f7 domina e6 y e8, el caballo de e5 domina d7, y {{Nd5#}} da jaque cubriendo f6. La dama, el alfil y el peón negros tapan el resto. Tres piezas menores pueden valer más que una dama."
+}

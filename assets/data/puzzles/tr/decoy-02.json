@@ -1,0 +1,14 @@
+{
+  "id": "decoy-02",
+  "fen": "1r4k1/pp3ppp/8/8/2q5/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1190,
+  "title": "Kaleyi Eve Çekin",
+  "setup": "b8'deki kale arka yatayın tek koruyucusu ve veziriniz d1'deki kalenizin önünde duruyor.",
+  "hint": "Bütün savunmayı kale yapıyor. Ona sekizinci yatayda almak zorunda olduğu bir şey önerin.",
+  "explanation": "## Fikir\n\n{{Qd8+}} veziri arka yataya atar ve {{Rxd8}} mecburidir. Kale, kendi kalenizin kapsadığı tek kareye çekilmiştir ve {{Rxd8#}} piyonlarıyla kilitlenmiş bir şahı mat eder."
+}

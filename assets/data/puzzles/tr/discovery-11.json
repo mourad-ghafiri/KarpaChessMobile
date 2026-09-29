@@ -1,0 +1,12 @@
+{
+  "id": "discovery-11",
+  "fen": "r6k/ppp5/7K/8/8/1B6/PP6/7R w - - 0 1",
+  "solution": [
+    "Kg6#"
+  ],
+  "rating": 1330,
+  "title": "Şah Açıyor",
+  "setup": "h1'deki kaleniz h dikeyinde siyahın şahına bakıyor ve yoldaki taş kendi şahınız.",
+  "hint": "Bir bataryanın önünde her şey durabilir, şah bile. Hangi kare her kaçışı kapalı tutuyor?",
+  "explanation": "## Fikir\n\n{{Kg6#}} bir açılan şahtır: şah h dikeyinden çekilir ve kale h1'den şah çeker. g7 ile h7'yi şahın kendisi, g8'i b3'teki fil kapsar ve boş h dikeyinde hiçbir şey araya giremez. Kg5 aynı şahı açar, ama o zaman g7 serbest kalır."
+}

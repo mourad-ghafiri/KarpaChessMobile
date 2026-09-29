@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-07",
+  "fen": "8/8/8/2P5/5p2/3K3k/8/8 w - - 0 2",
+  "solution": [
+    "c6"
+  ],
+  "rating": 1315,
+  "title": "Both Pawns Run",
+  "setup": "Black has just pushed its pawn to the fourth, and the white king is close enough to be tempted.",
+  "hint": "Turning back to stop its pawn costs a move; count both runs to the eighth rank before you decide.",
+  "explanation": "## The Idea\n\nChasing the f-pawn only draws. {{c6}} wins the race: after {{Kg3}} the pawn runs to c7 and queens on c8 while Black's pawn has only reached f3, and your new queen and king then stop the runner.\n\nIn a pure race, count both pawns' moves to the last rank before you turn back to chase."
+}

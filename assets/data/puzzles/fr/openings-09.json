@@ -1,0 +1,15 @@
+{
+  "id": "openings-09",
+  "fen": "rnbqkb1r/pppp1ppp/8/4P3/6n1/7P/PPPNPPP1/R1BQKBNR b KQkq - 0 4",
+  "solution": [
+    "Ne3",
+    "fxe3",
+    "Qh4+",
+    "g3",
+    "Qxg3#"
+  ],
+  "title": "Le cavalier qu'il ne faut pas prendre",
+  "setup": "Les Blancs ont répondu à votre cavalier par un passif cavalier en d2, ont pris le pion e5, et viennent de chasser votre cavalier par h3.",
+  "hint": "Votre cavalier est attaqué. Cherchez la case où le prendre arracherait le toit du propre roi blanc.",
+  "explanation": "## L'idée\n\nAvec le cavalier en d2 qui enferme le fou en c1, le roi blanc est peu abrité sur les cases noires.\n\n{{Ne3}} attaque la dame en d1 depuis une case que les Blancs aimeraient prendre. Prendre est la gaffe : après {{fxe3}}, {{Qh4+}} ne laisse que {{g3}}, et {{Qxg3#}} couvre f2 pendant que les propres pièces blanches bouchent le reste. Le mieux pour les Blancs est de sacrifier plutôt la dame.\n\nAvant de prendre une pièce venue exprès, demandez-vous ce que la prise ouvre."
+}

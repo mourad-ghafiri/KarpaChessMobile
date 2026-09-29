@@ -1,0 +1,52 @@
+{
+  "id": "london-system",
+  "title": "Londra Sistemi",
+  "summary": "Neredeyse her şeye karşı tek bir kurulum ve etrafına kurulduğu kare",
+  "proof": "openings-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "Önce Fil, Sonra Piyon",
+      "text": "İki hamle olmuş ve ikincisi bütün sistemi taşıyor.\n\nBeyaz c3, d4 ve e3'te küçük bir duvar örüyor: öğrenmesi ucuz, kırması zahmetli. Sorun e piyonunda. e3'e yerleştiği anda koyu kare filinin kapısını kapatır ve o fil partiyi kendi piyonlarının arkasında oturarak geçirir.\n\nBu yüzden önce fil çıkar. f4'te, duvarın dışında çoktan yerini almıştır; piyon sonra gelir. Siyah ne seçerse seçsin sıra hemen hemen aynı kalır — önce fil, sonra e3."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "Kimsenin Gözlemediği Piyon",
+      "text": "Arka yataydan erken ayrılmanın tam olarak tek bir bedeli vardır ve siyah hemen ona yönelir. Fil gittiğine göre b2'deki piyonu koruyan kimse yoktur.\n\n{{c5}} duvarın dibine vurur. {{e3}} duvarı yine de örer, {{Nc6}} d4'e ikinci bir saldıran ekler, {{c3}} onu destekler ve {{Qb6}}, b2'deki piyonun boşta olduğu b dikeyine iner. Aynı anda beyazın iki piyonuna soru sorulmaktadır.\n\nBu akın, Londra'nın cevaplaması gereken ilk gerçek sorudur ve her Londra oyuncusu onunla ilk on partisinde karşılaşır."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pp2pppp/1qn5/2pp4/3P1B2/2P1P3/PP3PPP/RN1QKBNR w KQkq - 1 5",
+      "prompt": "b2'deki boşta piyonu, ona bir piyon hamlesi harcamadan koruyun.",
+      "targetSan": [
+        "Qc1",
+        "Qc2",
+        "Qb3"
+      ],
+      "hint": "Burada piyon hamlesine gerek yok. Veziriniz b2'yi birden fazla kareden koruyabilir; d2 ile e2'yi atınıza ve filinize boş bırakan kareyi seçin."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Her Şeyin Gösterdiği Yer",
+      "text": "Altı sakin hamle sonra kurulum tamamlanmış ve her zamanki görüntüsünde: c3, d4 ve e3'te piyonlar, f4'te bir fil, d3'te bir fil daha, f3 ile d2'de atlar. Siyahın veziri b6'da, ısıracak bir şeyi kalmadan oturuyor.\n\nŞimdi açık çaprazı izleyin. d3'teki fil e4, f5, g6 ve ardından, hiçbir engel olmadan, siyahın şahına bir kare uzaklıktaki h7'yi görüyor. {{Qc2}} veziri onun arkasına getirir.\n\nh7'ye iki saldıran. Siyahın şahı orayı kapsıyor, f6'daki at da öyle. İkiye karşı iki ve bu henüz saldırı değil."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Hiçbir Piyonun Ulaşamayacağı Kare",
+      "text": "Üçüncü saldıran, kimsenin elinden alamayacağı bir eve ihtiyaç duyar. Öyleyse siyahın piyonlarının hâlâ ne yapabildiğini sorun.\n\nd5'teki piyon geri gidemez. e6'daki piyon d5 ile f5'i kapsar. c5'teki piyon b4 ile d4'ü kapsar. İkisi birlikte merkezde bir delik bırakır ve d4'teki piyonunuz orayı zaten koruyor.\n\nOraya gelip meydan okuyabilecek tek şey f7'deki piyondur — ve o piyon, rok yapmış bir şahın çatısıdır.\n\n> Bir piyonun asla gidemeyeceği yerde taş güvendedir."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "prompt": "Bir atı, yalnızca siyahın f piyonunun meydan okuyabileceği merkezdeki deliğe yerleştirin.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "O kareye siyahın tek taşı, c6'daki at dokunuyor ve ona katılabilecek tek piyon siyahın şahını örtüyor."
+    }
+  ]
+}

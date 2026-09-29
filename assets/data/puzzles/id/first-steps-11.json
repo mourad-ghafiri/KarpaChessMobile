@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-11",
+  "fen": "k2rr3/8/8/8/8/6p1/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kf1"
+  ],
+  "title": "Hanya Satu Pintu",
+  "setup": "Benteng di e8 memberi sekak kepada raja Anda — dan buah-buah Hitam yang lain diam-diam telah mengunci sebagian besar jalan keluar.",
+  "hint": "Benteng di d8 mengawasi lajur d dan pion di g3 menguasai f2. Apa yang tersisa?",
+  "explanation": "## Ide\n\nAnda terkena sekak dari benteng di e8, tanpa apa pun untuk menghalangi dan tanpa apa pun yang bisa menangkapnya. Raja harus bergerak, tetapi ke mana?\n\n- d1 dan d2 dikuasai benteng di d8\n- f2 diserang pion di g3\n- e2 masih di lajur e, masih dalam sekak\n- {{Kf1}} adalah satu-satunya petak yang tersisa\n\nSatu pintu dari lima. Periksa setiap petak yang bisa digunakan raja terhadap setiap buah lawan."
+}

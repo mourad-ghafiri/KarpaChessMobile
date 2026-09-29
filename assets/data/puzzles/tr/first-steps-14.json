@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-14",
+  "fen": "4r2k/1q4pp/8/6B1/8/8/3P1PPP/3RKR2 w - - 0 1",
+  "solution": [
+    "Be3"
+  ],
+  "title": "Kalkanı Kaldırın",
+  "setup": "Siyahın kalesi açık e dikeyi boyunca şahınıza şah çekiyor ve kendi taşlarınız şahı kutuya tıkmış. Hattın kapatılması gerekiyor.",
+  "hint": "İki hamleniz şahı kapatıyor. Yalnızca biri, bir dostun koruduğu kareye iniyor.",
+  "explanation": "## Fikir\n\nBir hat boyunca gelen şahın üç cevabı vardır: kaç, al ya da kapat. Şahınızın karesi yok ve hiçbir şey e8'deki kaleye ulaşmıyor, yani kapatmak zorundasınız.\n\n{{Be3}}, hem d2 hem f2 piyonunun koruduğu bir kareye kapatır; yani {{Rxe3+}} bir fil karşılığında kale vermek olurdu. {{Be7}} de kapatır, ama e7'yi koruyan hiçbir şey yoktur ve {{Rxe7#}} mattır.\n\nEn iyi kalkan korunan kalkandır."
+}

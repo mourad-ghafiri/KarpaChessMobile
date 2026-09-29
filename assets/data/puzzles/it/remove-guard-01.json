@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-01",
+  "fen": "6k1/1p3ppp/2n5/1B2b3/8/5N2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Bxc6"
+  ],
+  "rating": 1050,
+  "title": "Un Solo Difensore",
+  "setup": "Il vostro cavallo attacca l'alfiere in e5, che sta lì solo perché il cavallo in c6 lo difende.",
+  "hint": "L'alfiere che state attaccando ha esattamente un difensore. Chiedetevi quanto costa quel difensore, non che cosa tiene.",
+  "explanation": "## L'idea\n\n{{Bxc6}} prende l'unico pezzo che difende e5. Dopo {{bxc6}} l'alfiere è in presa e {{Nxe5}} lo raccoglie; se il Nero salva invece l'alfiere, il cavallo è semplicemente sparito. Contate i difensori di un bersaglio prima di contare gli attaccanti."
+}

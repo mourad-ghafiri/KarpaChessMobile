@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-05",
+  "fen": "4k3/8/4q3/8/8/8/8/4R1K1 w - - 0 1",
+  "solution": [
+    "Rxe6+"
+  ],
+  "title": "Cravada de Longo Alcance",
+  "setup": "A tua torre em e1, uma dama preta e o rei preto estão todos numa coluna aberta, e nada está pelo meio.",
+  "hint": "Uma dama cravada pode continuar a deslizar pela linha em que está cravada. Não lhe dês essa jogada.",
+  "explanation": "## A Ideia\n\nA dama de e6 está cravada: sai da coluna e e a tua torre estaria a atacar o rei de e8. Mas pode continuar a deslizar pela coluna, e está a olhar diretamente para a tua torre. Portanto não há tempo para acumular peças em cima dela. {{Rxe6+}} come-a agora, o rei de e8 está demasiado longe para a comer de volta, e as brancas ficam com uma torre contra um rei nu."
+}

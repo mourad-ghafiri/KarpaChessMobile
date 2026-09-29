@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-07",
+  "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qk - 1 7",
+  "solution": [
+    "Nf3#"
+  ],
+  "rating": 780,
+  "title": "Asfixiado por los suyos",
+  "setup": "Todas las casillas alrededor del rey blanco están ocupadas por sus propias piezas, y tu caballo sigue en d4.",
+  "hint": "El rey blanco no tiene ninguna casilla de escape, así que busca el único jaque que no pueda ni comer ni tapar.",
+  "explanation": "## La idea\n\nAl rey blanco lo asfixia su propio ejército, así que cualquier jaque seguro acaba la partida. Parece que a {{Nf3#}} se lo pueden comer, pero tu dama de e4 clava el alfil de e2, el peón de g2 hace tiempo que desapareció y un jaque de caballo nunca se puede tapar."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-07",
+  "fen": "4K3/7Q/1R3p2/2r3R1/8/5B2/b7/4k3 w - - 0 1",
+  "solution": [
+    "Qe4+",
+    "Kd2",
+    "Rg2+",
+    "Kc1",
+    "Qe1#"
+  ],
+  "rating": 1550,
+  "title": "Il Vostro Re Non È il Problema",
+  "setup": "Tutti e due i re sono esposti — il vostro in e8, quello nero in e1 — e il Nero ha in gioco una torre in c5 e un alfiere in a2.",
+  "hint": "Ignorate quello che il Nero minaccia e contate i vostri scacchi fino in fondo.",
+  "explanation": "## L'idea\n\n{{Qe4+}} apre la faccenda, {{Rg2+}} si prende la seconda traversa, e {{Qe1#}} atterra. Quando tutti e due i re sono allo scoperto, la caccia appartiene interamente a chi riesce a dare scacco per primo."
+}

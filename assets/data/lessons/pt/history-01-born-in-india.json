@@ -1,0 +1,56 @@
+{
+  "id": "chess-origins",
+  "title": "Nascido na Índia",
+  "summary": "Infantes, cavalos, elefantes, carros de guerra — e quais deles sobreviveram à viagem",
+  "proof": "history-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "Quatro Divisões",
+      "text": "Levanta deste tabuleiro os dois reis e as duas damas. Tudo o que fica de pé é uma divisão de um exército: infantes, cavalos, elefantes, carros de guerra.\n\nA maior parte dos historiadores coloca esse exército no norte da Índia por volta do século VI, num jogo chamado **chaturanga** — «de quatro membros», pelas quatro armas de que um exército era feito. Ninguém sabe dizer quem o inventou, e ninguém sabe dizer em que ano.\n\nAs duas peças que acabaste de levantar nunca foram divisões. O rei comandava, e ao lado do rei estava um conselheiro. Esse conselheiro é a tua dama."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "A Estrada do Carro",
+      "text": "Um carro de guerra quer uma coisa só, e é uma estrada sem nada em cima.\n\nAqui já não há peões na coluna e, de nenhum dos lados, por isso essa coluna está nua de uma ponta à outra, tirando duas peças pretas: o cavalo em e4 e, ao fundo da estrada, o rei preto em e8.\n\nPõe nessa coluna alguma coisa que golpeie ao longo dela e o cavalo fica preso onde está. Todas as casas a que o seu L chega estão fora dessa estrada, e sair da estrada poria o seu próprio rei sob ataque."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "prompt": "Já não há peão e de nenhum dos lados: toma essa estrada vazia com uma torre e prega o cavalo à frente do seu rei.",
+      "hint": "Só uma das tuas torres lá consegue chegar. Olha para o que está a impedir a outra.",
+      "targetSan": [
+        "Re1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQR1K1 b k - 2 10",
+      "title": "Uma Jogada Tarde de Mais",
+      "text": "O cavalo está atacado e não pode fugir, e todos os guardas que as pretas pudessem mandar a e4 afastam-se do outro cavalo — a que o peão d das brancas já está a estender a mão.\n\nPor isso as pretas tiram antes o rei da discussão. {{Ne7}} mete uma peça entre os dois, e o cavalo preso volta a estar livre — na jogada das brancas.\n\n{{Rxe4}} recolhe-o. É para isso que serve um carro de guerra. Não tem de chegar ao alvo nesta jogada, só de continuar a apontar-lhe."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "O Que Foi Reescrito",
+      "text": "Tabuleiro novo. O jogo saiu da Índia e foi reescrito mais do que uma vez pelo caminho, e duas peças levaram quase tudo.\n\nO elefante saltava exatamente duas casas na diagonal. Podia tocar em oito casas das sessenta e quatro e em mais nenhuma. A Europa deitou isso fora. O conselheiro foi exatamente na direção oposta: a peça mais fraca do tabuleiro voltou como a mais forte que lá há.\n\nO carro e o cavalo chegaram cá. O roque deu mais tarde ao carro um truque que nenhum carro alguma vez teve, mas a maneira como atravessa um tabuleiro é a de sempre."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "O Cavalo Ficou Com o Salto",
+      "text": "Todas as outras peças viajam ao longo de uma linha, e uma linha corre nos dois sentidos — o cavalo que acabaste de prender perdeu-se porque uma linha lhe passava através até ao seu próprio rei.\n\nUm salto não tem linha. O cavalo nunca atravessa as casas entre o sítio de onde parte e aquele onde aterra, portanto não há nada onde se meter nem nada ao longo do qual apontar. Um xeque de cavalo deixa exatamente duas respostas: mexer o rei ou capturar o cavalo.\n\n> Uma estrada pode ser bloqueada. Um salto não."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Encontra o salto que dá xeque ao rei preto e ataca a torre de c8 ao mesmo tempo.",
+      "hint": "Começa pelo rei: enumera as casas ao lado dele a que o teu cavalo chega e depois pergunta em que mais toca cada uma dessas casas.",
+      "targetSan": [
+        "Ne7+"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "birth-of-strategy",
+  "title": "El ataque hay que ganárselo",
+  "summary": "1886, una jugada de peón y una casilla que las Negras nunca podrán recuperar",
+  "proof": "history-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Permiso para atacar",
+      "text": "El siglo de Morphy atacaba por instinto y contaba el coste después. Steinitz hizo la pregunta más sosa: ¿qué le da a un ataque derecho a existir?\n\nEn 1886 Wilhelm Steinitz venció a Johannes Zukertort en lo que suele considerarse el primer match por el campeonato del mundo: diez victorias a cinco, con cinco tablas. Steinitz lo ganó con un estilo que sus contemporáneos encontraban lento y algo descortés.\n\nNunca dijo que atacar fuera malo. Dijo que un ataque tiene que alimentarse de algo. Sin una ventaja que lo alimente, una defensa correcta responde a cada amenaza que inventas, y te quedas con las debilidades que has creado."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Baltimore, 1885",
+      "text": "Steinitz contra Alexander Sellman, un año antes del match por el título.\n\nAquí no hay nada que atacar. El centro está bloqueado —el peón blanco de e5 contra el negro de e6— y los dos bandos simplemente están ahí.\n\nAsí que Steinitz sale de compras. Una casilla, una diagonal, una pieza sin un buen sitio donde estar: cosas pequeñas que duran. Reúne suficientes y el ataque se vuelve legítimo.\n\nEl alfil negro de c5 es la pieza más libre de las Negras: mira directamente a f2, a una casilla del rey blanco en e1."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "prompt": "Ataca al alfil negro con un peón del flanco de dama y quítale c5 para siempre.",
+      "hint": "Steinitz nunca pregunta qué gana ahora mismo. ¿Qué jugada de peón quita para siempre una casilla a una pieza rival, y qué pieza blanca protege ya la casilla adonde llegaría ese peón?",
+      "targetSan": [
+        "b4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Lo que compró un peón",
+      "text": "{{b4}}, y el alfil tiene que decir dónde prefiere vivir. {{Be7}} es la respuesta honesta —una casilla donde hace muy poco— y {{a3}} sostiene el peón para que la pregunta no vuelva a plantearse.\n\nNo se ganó nada. Nada cambió de manos, y todavía no hay un número que poner a la ventaja blanca.\n\nLo que cambió es que la pieza más libre de las Negras ha quedado discretamente archivada, y una jugada de peón no se puede deshacer."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "La casilla que no se arregla",
+      "text": "Diez jugadas después, Steinitz todavía no ha atacado nada.\n\nMira c6. Un peón cubre c6 desde b7 o desde d7, y el peón negro de b está en b5, el de d en d5, y los peones no retroceden. Todos los peones negros de este tablero ya han pasado de la séptima fila.\n\nAsí que c6 es un **agujero**: una **casilla débil** que ningún peón rival podrá volver a cubrir, porque los peones que podían hacerlo ya la han dejado atrás para siempre.\n\n> Una debilidad que el rival puede reparar es un objetivo. Una que no puede reparar es un hogar para tus piezas."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "Todavía no",
+      "text": "Así que instala ahí un caballo. {{Nc6}}, y {{Bxc6}}, porque c6 está protegida dos veces: por el alfil de b7 y por la torre de c8.\n\nNinguno de esos defensores es permanente. Las torres se cambian, y a un alfil se le puede pedir que se mueva. Los peones que habrían protegido c6 gratis son los que no pueden volver.\n\nPor eso el otro caballo blanco lleva diez jugadas caminando: d1, c3, b1, d2, b3. Parece alguien que ha perdido las llaves, hasta que ves adónde va."
+    },
+    {
+      "type": "play",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "prompt": "Ataca al alfil de b7 con un caballo, eligiendo la casilla donde no pueden simplemente cambiarlo.",
+      "hint": "Dos jugadas de caballo atacan b7. Una cae donde recapturan tanto el caballo de d7 como el alfil de e7. A la otra casilla solo llega la dama negra, y el peón de b4 la está esperando.",
+      "targetSan": [
+        "Na5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "deflection-08",
+  "fen": "2r3k1/pq4pp/6pQ/6N1/8/8/1B3PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Qxg7#"
+  ],
+  "rating": 1380,
+  "title": "Benteng demi Mat",
+  "setup": "Menteri dan gajah Anda sama-sama menyerang g7, dan menteri di b7 satu-satunya pembela tambahannya.",
+  "hint": "Benteng bernilai lebih rendah daripada mat. Sekak mana yang memaksa satu-satunya buah penjaga g7 untuk berpaling?",
+  "explanation": "## Ide\n\n{{Rxc8+}} harus dijawab dengan {{Qxc8}}, yang menyeret menteri keluar dari baris ketujuh. {{Qxg7#}} menuntaskan dengan gajah di b2 di belakangnya. Bentengnya tak pernah menjadi intinya. Ketika mat tersedia, hitung penjaga petaknya, bukan materinya."
+}

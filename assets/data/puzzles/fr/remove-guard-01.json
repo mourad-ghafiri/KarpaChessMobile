@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-01",
+  "fen": "6k1/1p3ppp/2n5/1B2b3/8/5N2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Bxc6"
+  ],
+  "rating": 1050,
+  "title": "Un seul défenseur",
+  "setup": "Votre cavalier attaque le fou en e5, et celui-ci ne reste là que parce que le cavalier en c6 le protège.",
+  "hint": "Le fou que vous attaquez a exactement un défenseur. Demandez-vous ce que coûte ce défenseur, pas ce qu'il tient.",
+  "explanation": "## L'idée\n\n{{Bxc6}} prend la seule pièce qui protège e5. Après {{bxc6}}, le fou est en prise et {{Nxe5}} le ramasse ; si les Noirs sauvent plutôt le fou, le cavalier est tout simplement perdu. Comptez les défenseurs d'une cible avant de compter les attaquants."
+}

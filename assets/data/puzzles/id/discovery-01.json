@@ -1,0 +1,12 @@
+{
+  "id": "discovery-01",
+  "fen": "3r3k/5p1p/6p1/4N3/8/3q4/1B3PPP/5RK1 w - - 0 1",
+  "solution": [
+    "Nxd3+"
+  ],
+  "rating": 960,
+  "title": "Buah di Depan",
+  "setup": "Gajah Anda di b2 membidik raja hitam, dan kuda Anda sendiri di e5 satu-satunya yang menghalangi.",
+  "hint": "Sesuatu milik Anda berdiri di antara gajah dan raja lawan. Apa yang terjadi begitu ia menyingkir?",
+  "explanation": "## Ide\n\nKuda adalah buah terdepan sebuah baterai. {{Nxd3+}} mengambil menteri dan menyingkap sekak gajah ke h8 pada langkah yang sama, jadi Hitam harus menjawab sekak alih-alih menangkap balik. Buah yang dilindungi sebenarnya tidak terlindungi ketika menangkapnya datang dengan sekak."
+}

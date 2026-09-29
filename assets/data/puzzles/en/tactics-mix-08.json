@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-08",
+  "fen": "8/8/8/6k1/8/8/P7/7K w - - 0 1",
+  "solution": [
+    "a4"
+  ],
+  "title": "Two Squares at Once",
+  "setup": "Your king is nowhere near, and Black's king on g5 is setting off after your a-pawn. Find the only way the pawn reaches the eighth rank.",
+  "hint": "Picture a box from your pawn up to its queening square and across. The black king must not be able to step inside it.",
+  "explanation": "## The Idea\n\n{{a4}} leaves the pawn four moves from a8. Draw the box from a4 up to a8 and across to the e-file: the king on g5 cannot step into it, so it never catches the pawn.\n\nA one-square step to a3 leaves five moves to go, the box stretches to the f-file, and the king steps inside at once. The pawn's double first step is the whole difference."
+}

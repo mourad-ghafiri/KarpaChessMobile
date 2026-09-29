@@ -1,0 +1,14 @@
+{
+  "id": "promotion-07",
+  "fen": "r5k1/P4pp1/7p/8/8/7P/5PP1/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Rxb8",
+    "axb8=Q+"
+  ],
+  "rating": 1240,
+  "title": "Il Pedone Difende",
+  "setup": "Il vostro pedone in a7 è bloccato dalla torre in a8, e la vostra torre è libera di scorrere lungo la prima traversa.",
+  "hint": "Quale casa accanto alla torre che blocca è già difesa dal pedone passato stesso?",
+  "explanation": "## L'idea\n\n{{Rb8+}} è scacco e la torre è intoccabile, perché il pedone in a7 difende b8. {{Rxb8}} va addosso a {{axb8=Q+}}, che promuove con scacco e ne esce con una donna per una torre. Spostarsi invece con Kh7 perde semplicemente la torre per Rxa8."
+}

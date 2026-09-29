@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-01",
+  "fen": "6k1/6pp/5p2/1R6/Q7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Kf7",
+    "Qe8#"
+  ],
+  "rating": 900,
+  "title": "Kale Açıyor, Vezir Bitiriyor",
+  "setup": "Siyahın şahı g7 ve h7'deki kendi piyonlarıyla duvara alınmış ve kalenizin önünde ardına kadar açık bir b dikeyi var.",
+  "hint": "Şahı, piyonlarının hâlâ izin verdiği tek kareye kovalayın, sonra kalenizin koruyabileceği matı bulun.",
+  "explanation": "## Fikir\n\n{{Rb8+}} arka yatayı ele geçirir. g7 ile h7'deki piyonlar kendi şahlarının önünü kestiği için {{Kf7}} tek kurallı hamledir. Ardından {{Qe8#}}: vezir şahın yanına iner, b8'deki kale onu korur ve her kaçış karesi kapsanmıştır."
+}

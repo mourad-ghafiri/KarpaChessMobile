@@ -1,0 +1,14 @@
+{
+  "id": "deflection-11",
+  "fen": "4kb1r/pp1n1ppp/8/7q/5Q1B/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1470,
+  "title": "Kapatanın Alması Gerek",
+  "setup": "d7'deki at, kalenizle d8 arasında duran tek şey.",
+  "hint": "At o kareden kendi isteğiyle ayrılmaz. Almak zorunda olduğu bir yere ne koyabilirsiniz?",
+  "explanation": "## Fikir\n\n{{Qb8+}} siyaha tek bir kurallı hamle bırakır: {{Nxb8}}. Kapatan taş d7'den sürüklenmiştir ve {{Rd8#}} onun durduğu yoldan mat eder. Bir dikeyi kapatan taş, bir şah onu çağırana kadar duvardır."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "chess-clock",
+  "title": "O Relógio",
+  "summary": "Dois mostradores, um recurso que não se pode voltar a ganhar",
+  "proof": "culture-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "O Tempo É o Segundo Tabuleiro",
+      "text": "Três minutos para cada um, e o bispo branco de c3 está a atacar a tua dama em b2.\n\nUm relógio de xadrez são dois mostradores numa caixa, e só um deles anda de cada vez. O teu anda enquanto a posição for problema teu. Carrega, e o teu deixa de andar e arranca o das brancas.\n\nIsso transforma cada pensamento longo numa compra. Compras precisão com um recurso que nada recarrega, e quanto mais curta for a partida mais alto é o preço. Podes ganhar todas as trocas do tabuleiro e perder na mesma, porque a partida joga-se em dois tabuleiros e um deles está em contagem decrescente."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "Uma Mão, Um Botão",
+      "text": "As Leis são precisas quanto à mão: mexes a peça e carregas no botão com a mesma. Essa única regra acaba com uma família de truques — nada de palma de reserva pousada sobre o relógio, nada de carregar antes de a peça chegar.\n\nUma jogada está feita quando a peça é largada. A tua vez não está feita enquanto o botão não descer, e cada segundo pelo meio é debitado a ti.\n\nPortanto carregar pertence à jogada em vez de vir a seguir a ela. O teu mostrador está a andar enquanto lês isto."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "prompt": "A tua dama está atacada e o relógio anda: salva-a numa jogada sem a mexeres.",
+      "targetSan": [
+        "Bb4"
+      ],
+      "hint": "Tudo o que capture em b2 tem primeiro de sair de c3 — o que poderias alinhar através dessa casa para sair de lá passar a ilegal?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqP1PPPP/RN1QKB1R w KQkq - 2 7",
+      "title": "Um Segundo Contra Três",
+      "text": "O bispo em b4 não defende nada. Torna antes a captura ilegal: capturar em b2 é sair da diagonal que faz de escudo ao rei de e1.\n\nEssa resposta custou-te cerca de um segundo, e custa mais do que isso às brancas. {{Qd2}} recompra a diagonal ficando em cima dela, e depois de um longo pensamento as brancas apenas voltaram a pôr a tua dama sob ataque.\n\nJogadas baratas para ti, caras para o teu adversário. É essa a taxa de câmbio que o relógio paga."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Recuperar Tempo",
+      "text": "Duas maneiras de um relógio devolver tempo, e comportam-se de forma completamente diferente.\n\nO **incremento** acrescenta uma quantidade fixa sempre que carregas, e o que não gastares acumula-se. Uma partida `3+2` são três minutos mais dois segundos por jogada, portanto quem joga depressa pode acabar com mais tempo do que tinha no princípio.\n\nO **atraso** espera, em vez disso. Cada jogada recebe uma pausa fixa antes de o teu tempo principal começar a descer, e toda a pausa que deixares por usar simplesmente desaparece.\n\n> O incremento paga aos rápidos. O atraso só protege os lentos."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Clássico, Rápidas, Blitz",
+      "text": "A FIDE arruma as partidas por um número: o tempo base mais sessenta vezes o incremento, que é mais ou menos o que uma partida de sessenta jogadas te daria.\n\nDez minutos ou menos é blitz. Mais do que isso e menos de uma hora é rápidas. De sessenta minutos para cima é clássico, onde uma partida pode durar seis horas e uma só jogada pode comer quarenta minutos dela.\n\nBullet — um minuto ou dois para a partida inteira — é uma palavra nascida na Internet. Não aparece em lado nenhum das Leis, o que nunca impediu ninguém de o jogar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Quando Cai a Bandeira",
+      "text": "Quatro segundos. A expressão vem da mecânica: um relógio mecânico trazia uma pequena bandeira de metal que o ponteiro dos minutos levantava e deixava cair, e ainda hoje se diz que o tempo acaba quando cai a bandeira.\n\nPerde a corrida e perdes a partida, com uma exceção. Se quem ainda tem tempo não conseguisse dar mate com o que lhe resta — um rei nu, por exemplo — o resultado é empate.\n\nA esta velocidade o olho agarra {{Qxa1}} e a mão prudente troca com {{Qxc3}}. Nenhuma das duas é a jogada."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "prompt": "Com dois segundos no mostrador, deixa a torre e a troca de damas em paz e come a peça que atacou a tua dama.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "Se as brancas recapturarem com a dama, a tua dama tem um xeque na primeira linha a que nada de branco pode responder."
+    }
+  ]
+}

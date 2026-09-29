@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-23",
+  "fen": "6k1/pp3ppp/8/8/8/8/PPR2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rc8#"
+  ],
+  "title": "Palu di Lajur Terbuka",
+  "setup": "Lajur c kosong di antara benteng Anda dan baris ke-8, dan perisai pion Hitam tak punya jendela pelarian.",
+  "hint": "Serbulah naik di lajur c yang terbuka. Pion-pion Hitam sendiri menjebak rajanya untuk Anda.",
+  "explanation": "## Ide\n\nIni mat baris belakang lewat lajur terbuka: tak ada pion dari warna mana pun di lajur c, jadi benteng Anda punya jalan kosong menuju baris kedelapan.\n\n{{Rc8#}} memberi sekak di sepanjang baris belakang. f8 dan h8 berada di garis benteng, f7, g7 dan h7 ditempati pion Hitam sendiri, dan tak ada buah hitam yang bisa menghalangi atau menangkap.\n\nLajur terbuka adalah jalan raya menuju baris belakang."
+}

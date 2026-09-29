@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-08",
+  "fen": "rn1q1bnr/ppp1kB1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R w KQ - 1 7",
+  "solution": [
+    "Nd5#"
+  ],
+  "rating": 810,
+  "title": "Légal's Mate",
+  "setup": "Black has just eaten your queen on d1, and its king stands on e7 with three white pieces around it.",
+  "hint": "The queen is already gone, so count the black king's squares instead and find the one nobody covers yet.",
+  "explanation": "## The Idea\n\nThis is Légal's Mate. The bishop on f7 owns e6 and e8, the knight on e5 owns d7, and {{Nd5#}} checks while covering f6. Black's own queen, bishop and pawn block the rest. Three minor pieces can be worth more than a queen."
+}

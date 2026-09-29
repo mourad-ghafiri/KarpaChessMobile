@@ -1,0 +1,13 @@
+{
+  "id": "openings-16",
+  "fen": "rnbqk2r/pp3ppp/4p3/2Pn4/8/P1P2P2/4P1PP/R1BQKBNR b KQkq - 0 8",
+  "solution": [
+    "Qa5",
+    "Bd2",
+    "Qxc5"
+  ],
+  "title": "Dos peones en una columna",
+  "setup": "Las Negras entregaron el alfil de casillas negras para doblar los peones de c blancos, y las Blancas acaban de comerse un peón en c5. Ataca a los dos peones de c a la vez.",
+  "hint": "Los peones de c blancos están en c3 y c5, en una columna y sin peón que defienda a ninguno. Encuentra la casilla que mira a los dos a la vez.",
+  "explanation": "## La idea\n\nEl alfil se cambió por un caballo para que los peones de c blancos acabaran apilados. Aquí eso cuesta algo.\n\n{{Qa5}} ataca a los dos: c3 por la diagonal y c5 por la quinta fila, y ningún peón blanco puede defender a ninguno. Si las Blancas sostienen c3 con {{Bd2}}, {{Qxc5}} recupera el peón. Lo mejor para las Blancas es avanzar primero el peón de e y echar a tu caballo de d5.\n\nEl material queda igualado, pero los peones doblados se quedan. Ataca la debilidad que un peón no puede defender."
+}

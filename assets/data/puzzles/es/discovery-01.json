@@ -1,0 +1,12 @@
+{
+  "id": "discovery-01",
+  "fen": "3r3k/5p1p/6p1/4N3/8/3q4/1B3PPP/5RK1 w - - 0 1",
+  "solution": [
+    "Nxd3+"
+  ],
+  "rating": 960,
+  "title": "La pieza de delante",
+  "setup": "Tu alfil de b2 apunta al rey negro, y tu propio caballo de e5 es lo único que estorba.",
+  "hint": "Algo tuyo está entre el alfil y el rey rival. ¿Qué pasa en el momento en que se aparta?",
+  "explanation": "## La idea\n\nEl caballo es la pieza delantera de una batería. {{Nxd3+}} se come la dama y destapa el jaque del alfil a h8 en la misma jugada, así que las Negras tienen que responder al jaque en lugar de recapturar. Una pieza defendida no está defendida de verdad cuando comérsela llega con jaque."
+}

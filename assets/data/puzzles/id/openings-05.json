@@ -1,0 +1,11 @@
+{
+  "id": "openings-05",
+  "fen": "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w KQk - 3 6",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "Mat Terkurung Caro-Kann",
+  "setup": "Hitam menjawab variasi utama dengan kuda ke d7 dan baru saja mengembangkan kuda yang lain ke f6, menyerang kuda Anda yang berada di tengah.",
+  "hint": "Satu pion hitam akan senang mengambil kuda Anda, dan sesuatu di lajur e mencegahnya. Temukan petak yang memanfaatkan hal itu.",
+  "explanation": "## Ide\n\nMenteri di e2 tampak seperti langkah pengembangan yang tenang. Padahal itu jebakan.\n\n{{Nd6#}} langsung mat. Pion e7 tak bisa menangkap, karena menteri menjepitnya terhadap raja. Menteri di d8 tak bisa menangkap, karena kudanya sendiri di d7 menghalangi, dan gajah f8 terhalang pion e7 yang sama. Setiap petak di sekitar raja ditempati buah hitam.\n\nPertahanan Caro-Kann dibangun untuk mengeluarkan buah, bukan untuk mengurung raja dengan buah-buah itu."
+}

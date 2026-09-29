@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-08",
+  "fen": "6k1/5ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Camino largo, mate corto",
+  "setup": "El rey negro está detrás de tres peones intactos, y tu torre de b1 tiene toda la columna b para ella.",
+  "hint": "Los peones negros encierran al rey. Encuentra la casilla de la última fila a la que llega tu torre con jaque.",
+  "explanation": "## La idea\n\n{{Rb8#}} es mate de inmediato. La torre llega a la última fila con jaque, y el rey de g8 no tiene adónde ir: en f7, g7 y h7 están sus propios peones, y f8 y h8 están en la fila de la torre. Nada puede capturar la torre ni tapar el jaque.\n\nUn solo paso de peón como h6, jugado antes, le habría dado al rey una casilla y habría frenado todo el patrón."
+}

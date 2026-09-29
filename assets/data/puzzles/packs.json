@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "mate-in-one",
+      "icon": "♛",
+      "puzzles": [
+        "mate-in-one-01.json",
+        "mate-in-one-02.json",
+        "mate-in-one-03.json",
+        "mate-in-one-04.json",
+        "mate-in-one-05.json",
+        "mate-in-one-06.json",
+        "mate-in-one-07.json",
+        "mate-in-one-08.json",
+        "mate-in-one-09.json",
+        "mate-in-one-10.json",
+        "mate-in-one-11.json",
+        "mate-in-one-12.json"
+      ]
+    },
+    {
+      "id": "fork",
+      "icon": "♞",
+      "puzzles": [
+        "fork-01.json",
+        "fork-02.json",
+        "fork-03.json",
+        "fork-04.json",
+        "fork-05.json",
+        "fork-06.json",
+        "fork-07.json",
+        "fork-08.json",
+        "fork-09.json",
+        "fork-10.json",
+        "fork-11.json",
+        "fork-12.json"
+      ]
+    },
+    {
+      "id": "back-rank-mate",
+      "icon": "♜",
+      "puzzles": [
+        "back-rank-mate-01.json",
+        "back-rank-mate-02.json",
+        "back-rank-mate-03.json",
+        "back-rank-mate-04.json",
+        "back-rank-mate-05.json",
+        "back-rank-mate-06.json",
+        "back-rank-mate-07.json",
+        "back-rank-mate-08.json",
+        "back-rank-mate-09.json",
+        "back-rank-mate-10.json",
+        "back-rank-mate-11.json",
+        "back-rank-mate-12.json"
+      ]
+    },
+    {
+      "id": "pin",
+      "icon": "♝",
+      "puzzles": [
+        "pin-01.json",
+        "pin-02.json",
+        "pin-03.json",
+        "pin-04.json",
+        "pin-05.json",
+        "pin-06.json",
+        "pin-07.json",
+        "pin-08.json",
+        "pin-09.json",
+        "pin-10.json",
+        "pin-11.json",
+        "pin-12.json"
+      ]
+    },
+    {
+      "id": "skewer",
+      "icon": "⚔",
+      "puzzles": [
+        "skewer-01.json",
+        "skewer-02.json",
+        "skewer-03.json",
+        "skewer-04.json",
+        "skewer-05.json",
+        "skewer-06.json",
+        "skewer-07.json",
+        "skewer-08.json",
+        "skewer-09.json",
+        "skewer-10.json",
+        "skewer-11.json",
+        "skewer-12.json"
+      ]
+    },
+    {
+      "id": "mate-in-two",
+      "icon": "♚",
+      "puzzles": [
+        "mate-in-two-01.json",
+        "mate-in-two-02.json",
+        "mate-in-two-03.json",
+        "mate-in-two-04.json",
+        "mate-in-two-05.json",
+        "mate-in-two-06.json",
+        "mate-in-two-07.json",
+        "mate-in-two-08.json",
+        "mate-in-two-09.json",
+        "mate-in-two-10.json",
+        "mate-in-two-11.json",
+        "mate-in-two-12.json"
+      ]
+    },
+    {
+      "id": "discovery",
+      "icon": "🎯",
+      "puzzles": [
+        "discovery-01.json",
+        "discovery-02.json",
+        "discovery-03.json",
+        "discovery-04.json",
+        "discovery-05.json",
+        "discovery-06.json",
+        "discovery-07.json",
+        "discovery-08.json",
+        "discovery-09.json",
+        "discovery-10.json",
+        "discovery-11.json",
+        "discovery-12.json"
+      ]
+    },
+    {
+      "id": "trapped",
+      "icon": "🕸",
+      "puzzles": [
+        "trapped-01.json",
+        "trapped-02.json",
+        "trapped-03.json",
+        "trapped-04.json",
+        "trapped-05.json",
+        "trapped-06.json",
+        "trapped-07.json",
+        "trapped-08.json",
+        "trapped-09.json",
+        "trapped-10.json",
+        "trapped-11.json",
+        "trapped-12.json"
+      ]
+    },
+    {
+      "id": "promotion",
+      "icon": "⇧",
+      "puzzles": [
+        "promotion-01.json",
+        "promotion-02.json",
+        "promotion-03.json",
+        "promotion-04.json",
+        "promotion-05.json",
+        "promotion-06.json",
+        "promotion-07.json",
+        "promotion-08.json",
+        "promotion-09.json",
+        "promotion-10.json",
+        "promotion-11.json",
+        "promotion-12.json"
+      ]
+    },
+    {
+      "id": "remove-guard",
+      "icon": "🛡",
+      "puzzles": [
+        "remove-guard-01.json",
+        "remove-guard-02.json",
+        "remove-guard-03.json",
+        "remove-guard-04.json",
+        "remove-guard-05.json",
+        "remove-guard-06.json",
+        "remove-guard-07.json",
+        "remove-guard-08.json",
+        "remove-guard-09.json",
+        "remove-guard-10.json",
+        "remove-guard-11.json",
+        "remove-guard-12.json"
+      ]
+    },
+    {
+      "id": "deflection",
+      "icon": "↗",
+      "puzzles": [
+        "deflection-01.json",
+        "deflection-02.json",
+        "deflection-03.json",
+        "deflection-04.json",
+        "deflection-05.json",
+        "deflection-06.json",
+        "deflection-07.json",
+        "deflection-08.json",
+        "deflection-09.json",
+        "deflection-10.json",
+        "deflection-11.json",
+        "deflection-12.json"
+      ]
+    },
+    {
+      "id": "decoy",
+      "icon": "🪤",
+      "puzzles": [
+        "decoy-01.json",
+        "decoy-02.json",
+        "decoy-03.json",
+        "decoy-04.json",
+        "decoy-05.json",
+        "decoy-06.json",
+        "decoy-07.json",
+        "decoy-08.json",
+        "decoy-09.json",
+        "decoy-10.json",
+        "decoy-11.json",
+        "decoy-12.json"
+      ]
+    },
+    {
+      "id": "smothered",
+      "icon": "♘",
+      "puzzles": [
+        "smothered-01.json",
+        "smothered-02.json",
+        "smothered-03.json",
+        "smothered-04.json",
+        "smothered-05.json",
+        "smothered-06.json",
+        "smothered-07.json",
+        "smothered-08.json",
+        "smothered-09.json",
+        "smothered-10.json",
+        "smothered-11.json",
+        "smothered-12.json"
+      ]
+    },
+    {
+      "id": "pawn-ending",
+      "icon": "♟",
+      "puzzles": [
+        "pawn-ending-01.json",
+        "pawn-ending-02.json",
+        "pawn-ending-03.json",
+        "pawn-ending-04.json",
+        "pawn-ending-05.json",
+        "pawn-ending-06.json",
+        "pawn-ending-07.json",
+        "pawn-ending-08.json",
+        "pawn-ending-09.json",
+        "pawn-ending-10.json",
+        "pawn-ending-11.json",
+        "pawn-ending-12.json"
+      ]
+    },
+    {
+      "id": "rook-ending",
+      "icon": "♖",
+      "puzzles": [
+        "rook-ending-01.json",
+        "rook-ending-02.json",
+        "rook-ending-03.json",
+        "rook-ending-04.json",
+        "rook-ending-05.json",
+        "rook-ending-06.json",
+        "rook-ending-07.json",
+        "rook-ending-08.json",
+        "rook-ending-09.json",
+        "rook-ending-10.json",
+        "rook-ending-11.json",
+        "rook-ending-12.json"
+      ]
+    },
+    {
+      "id": "overload",
+      "icon": "⚖",
+      "puzzles": [
+        "overload-01.json",
+        "overload-02.json",
+        "overload-03.json",
+        "overload-04.json",
+        "overload-05.json",
+        "overload-06.json",
+        "overload-07.json",
+        "overload-08.json",
+        "overload-09.json",
+        "overload-10.json",
+        "overload-11.json",
+        "overload-12.json"
+      ]
+    },
+    {
+      "id": "zwischenzug",
+      "icon": "⏸",
+      "puzzles": [
+        "zwischenzug-01.json",
+        "zwischenzug-02.json",
+        "zwischenzug-03.json",
+        "zwischenzug-04.json",
+        "zwischenzug-05.json",
+        "zwischenzug-06.json",
+        "zwischenzug-07.json",
+        "zwischenzug-08.json",
+        "zwischenzug-09.json",
+        "zwischenzug-10.json",
+        "zwischenzug-11.json",
+        "zwischenzug-12.json"
+      ]
+    },
+    {
+      "id": "king-hunt",
+      "icon": "👑",
+      "puzzles": [
+        "king-hunt-01.json",
+        "king-hunt-02.json",
+        "king-hunt-03.json",
+        "king-hunt-04.json",
+        "king-hunt-05.json",
+        "king-hunt-06.json",
+        "king-hunt-07.json",
+        "king-hunt-08.json",
+        "king-hunt-09.json",
+        "king-hunt-10.json",
+        "king-hunt-11.json",
+        "king-hunt-12.json"
+      ]
+    },
+    {
+      "id": "zugzwang",
+      "icon": "🔒",
+      "puzzles": [
+        "zugzwang-01.json",
+        "zugzwang-02.json",
+        "zugzwang-03.json",
+        "zugzwang-04.json",
+        "zugzwang-05.json",
+        "zugzwang-06.json",
+        "zugzwang-07.json",
+        "zugzwang-08.json",
+        "zugzwang-09.json",
+        "zugzwang-10.json",
+        "zugzwang-11.json",
+        "zugzwang-12.json"
+      ]
+    },
+    {
+      "id": "defence",
+      "icon": "🛟",
+      "puzzles": [
+        "defence-01.json",
+        "defence-02.json",
+        "defence-03.json",
+        "defence-04.json",
+        "defence-05.json",
+        "defence-06.json",
+        "defence-07.json",
+        "defence-08.json",
+        "defence-09.json",
+        "defence-10.json",
+        "defence-11.json",
+        "defence-12.json"
+      ]
+    }
+  ]
+}

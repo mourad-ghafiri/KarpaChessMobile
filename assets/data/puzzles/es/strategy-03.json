@@ -1,0 +1,11 @@
+{
+  "id": "strategy-03",
+  "fen": "rnbqkb1r/pp1ppppp/8/2p1P3/8/2n2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 5",
+  "solution": [
+    "dxc3"
+  ],
+  "title": "¿Qué peón recaptura?",
+  "setup": "El caballo negro acaba de comerse el tuyo, y dos de tus peones pueden recapturar. De cualquier modo acabas con dos peones en la misma columna.",
+  "hint": "Las dos capturas apilan tus peones de c. ¿Cuál de ellas deja además un peón sin ningún vecino?",
+  "explanation": "## La idea\n\nCualquiera de las dos capturas dobla tus peones de c, así que cuenta qué más cuesta cada una.\n\n{{bxc3}} deja además al peón de a sin ningún peón al lado: un peón aislado, a cambio de nada.\n\n{{dxc3}} mantiene a todos los demás peones unidos a un vecino, abre la columna d hacia la dama negra y despeja el camino de c1 a h6 para tu alfil. Aquí lo correcto es capturar alejándose del centro, por lo que abre."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "notation",
+  "title": "Bir Harf ve Bir Kare",
+  "summary": "Basılı sayfadaki partiyi okuyun ve hamle hamle yeniden oynayın",
+  "proof": "notation-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "İki Karakter, Bir Hamle",
+      "text": "İki karakter koca bir hamledir. Satrancın tek bir yazı dili vardır — **cebirsel notasyon** — ve yalnızca taşın **indiği** yeri kaydeder, gittiği yolu asla.\n\nEn yalın durum piyondur. Hiç harfi yoktur, yani hamlenin tamamı karedir. e2'deki beyaz piyon {{e3}} karesine adım atabilir ya da iki kare gidip {{e4}} karesine varabilir; kitap bunları `e3` ve `e4` diye basar.\n\n*Beyaz piyon e2'den e4'e* değil. Yalnızca `e4`. Bunu okumayı zaten biliyorsunuz."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppp1p/6p1/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "prompt": "Basılı bir parti `1.e4 g6` diye açılıyor ve sıradaki kayıt `2.d4` — adı geçen hamleyi oynayın.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Büyük harf yoksa sırada bir piyon var demektir ve hâlâ başlangıç karesindeki piyon bir ya da iki kare gidebilir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Taşların Alfabesi",
+      "text": "Piyon dışındaki her taş bir büyük harf taşır ve harf karenin önüne gelir. **K** şah, **Q** vezir, **R** kale, **B** fildir. Ata **N** düşer, çünkü K çoktan kapılmıştır.\n\nHarfler İngilizce adlardan gelir — King, Queen, Rook, Bishop, Knight. Türkiye'de Ş, V, K, F, A harfleri de yazılır; bu uygulama, uluslararası kitapların ve veri tabanlarının kullandığı harfleri gösterir.\n\nYani yazılmış bir hamle, birleşmiş bir harf ile bir karedir. f1'deki beyaz fil e2, c4 ya da b5 karesine ulaşabilir ve her biri aynı iki fikirdir: {{Be2}}, {{Bc4}}, {{Bb5}}.\n\nKimse *hangi* fil demez. Adı geçen kareye onlardan yalnızca biri gidebilir, yani harf ile kare bütün işi görür."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "prompt": "Beyazın sıradaki kaydı `Nf3` — o harfin adlandırdığı taşı, ardından gelen kareye koyun.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "Büyük harf K değil ve K şaha ait — yani bu harf, ikinci harfiyle yetinmek zorunda kalan taşı adlandırıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Bir Hamle, Sonra Öteki",
+      "text": "Sayfadaki bir parti, bu küçük adreslerin peş peşe dizilmesinden ibarettir; taraflar sırayla oynar.\n\nSiyah {{Nc6}} ile cevap verir — taş için N, kare için c6. Beyaz {{Bc4}} ile karşılık verir — taş için B, kare için c4. İkisini de tahtada oynarken izleyin.\n\nSakin bir hamleyi okumak için üç soru yeter. Büyük harf var mı? Hangi harf? Ardından hangi kare geliyor? Taş almalar ve şahlar kendi işaretlerini ekler; her biri ileride kendi dersini alır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "Sayılar ve Noktalar",
+      "text": "Hamleler ikişer ikişer gelir ve basılı bir parti her ikiliyi numaralandırır: `1.e4 e5 2.Nf3 Nc6 3.Bc4`. Numara, beyazın hamlesi, siyahın hamlesi.\n\nYirmi üç karakter ve önünüzdeki pozisyonu birebir yeniden kuruyorlar. Partilerin resim olarak değil, metin satırları olarak basılmasının sebebi budur.\n\nSiyahın bir hamlesi tek başına durmak zorunda kaldığında, beyazın yerini üç nokta tutar: `2...Nc6`, siyahın ikinci hamledeki cevabıdır. Noktalar oradadır ki sıranın kimde olduğunu asla şaşırmayın.\n\n> Taş için bir harf, kare için iki karakter, saymak için bir numara. Notasyondaki geri kalan her şey bu üçünün üstüne kurulur."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "Kitaptaki sıradaki kayıt `3...Nf6` — okuyun ve siyahın hamlesini oynayın.",
+      "targetSan": [
+        "Nf6"
+      ],
+      "hint": "Siyahın bir atı c6'da zaten çıkmış; öteki hiç oynamadı ve g8'de duruyor."
+    }
+  ]
+}

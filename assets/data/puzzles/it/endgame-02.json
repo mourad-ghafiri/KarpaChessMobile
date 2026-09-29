@@ -1,0 +1,11 @@
+{
+  "id": "endgame-02",
+  "fen": "8/8/8/3p4/3k4/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "L'Unica Casa che Tiene",
+  "setup": "Il Nero ha un pedone in più con il re a guidarlo, e voi avete esattamente una mossa che salva la partita.",
+  "hint": "I re stanno a tre case di distanza su una colonna. Quale mossa lascia una sola casa vuota fra loro, con il Nero al tratto?",
+  "explanation": "## L'idea\n\nIl re nero guida il suo pedone, e inseguirli perde. L'unica difesa è l'opposizione.\n\n{{Kd2}} lascia una casa vuota fra i re, con il Nero al tratto. Il pedone non può avanzare, perché il suo stesso re gli sta davanti, quindi il Nero deve spostare il re di lato — e il vostro re lo segue, riprendendosi l'opposizione.\n\nAndate invece in c2 o e2 e il Nero si prende l'opposizione, e il pedone torna a casa dietro il suo re."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-06",
+  "fen": "3r2k1/1n3ppp/8/8/8/8/5PPP/3RR1K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Nxd8",
+    "Re8#"
+  ],
+  "rating": 880,
+  "title": "The Knight Comes Back",
+  "setup": "Black's knight has just gone to b7, from where it can recapture on d8 and do nothing else.",
+  "hint": "Ask what the recapturing piece will cover once it lands, and what it will stop covering.",
+  "explanation": "## The Idea\n\n{{Rxd8+}} forces {{Nxd8}}, the only legal answer. But a knight on d8 covers b7, c6, e6 and f7 — never e8. {{Re8#}} lands on the one square the new defender cannot see. Where a piece recaptures matters as much as whether it can."
+}

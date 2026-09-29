@@ -1,0 +1,12 @@
+{
+  "id": "discovery-09",
+  "fen": "3q2k1/2p2p1p/p5p1/1r6/8/3B4/P4PPP/3R1RK1 w - - 0 1",
+  "solution": [
+    "Bxb5"
+  ],
+  "rating": 1270,
+  "title": "Tanpa Sekak, Tetap Fatal",
+  "setup": "Benteng Anda di d1 sejajar dengan menteri hitam, dengan hanya gajah Anda sendiri di d3 yang berdiri di antaranya.",
+  "hint": "Benteng di b5 dijaga sebuah pion. Tanyakan seperti apa lajur d begitu gajah Anda meninggalkannya.",
+  "explanation": "## Ide\n\n{{Bxb5}} memenangkan benteng karena tangkapan baliknya lebih mahal: sesudah axb5 lajur d terbuka dan Rxd8 mengambil menteri. Hitam harus membiarkan gajah di tempatnya, dan Putih mempertahankan benteng yang dimenangkannya. Penyingkapan tak butuh sekak untuk menentukan partai."
+}

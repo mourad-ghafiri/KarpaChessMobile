@@ -1,0 +1,12 @@
+{
+  "id": "discovery-11",
+  "fen": "r6k/ppp5/7K/8/8/1B6/PP6/7R w - - 0 1",
+  "solution": [
+    "Kg6#"
+  ],
+  "rating": 1330,
+  "title": "Le roi découvre",
+  "setup": "Votre tour en h1 fixe le roi noir le long de la colonne h, et la pièce sur le chemin est votre propre roi.",
+  "hint": "N'importe quelle pièce peut se tenir devant une batterie, même un roi. Quelle case garde toutes les fuites couvertes ?",
+  "explanation": "## L'idée\n\n{{Kg6#}} est un échec à la découverte : le roi quitte la colonne h et la tour donne échec depuis h1. g7 et h7 sont couvertes par le roi lui-même, g8 par le fou en b3, et rien ne peut s'interposer sur la colonne h vide. Kg5 découvre le même échec, mais g7 est alors libre."
+}

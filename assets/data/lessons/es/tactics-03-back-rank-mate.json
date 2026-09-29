@@ -1,0 +1,62 @@
+{
+  "id": "back-rank-mate",
+  "title": "La última fila",
+  "summary": "Una debilidad que ya está ahí, esperando a que una torre la descubra",
+  "proof": "tactics-mix-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Cinco casillas, una fila",
+      "text": "Nada ataca al rey negro, y nada tiene que hacerlo todavía. La trampa ya está construida.\n\nEl rey de g8 tiene cinco casillas alrededor. Tres las ocupan sus propios peones —f7, g7, h7—, el refugio que lo ha mantenido vivo toda la partida. Las otras dos son f8 y h8, y las dos están en la octava fila, la misma en la que está el rey.\n\nAsí que todas las casillas que ese rey puede usar están en una sola línea. Pon una torre en esa línea y la lista se queda vacía."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Dos preguntas",
+      "text": "Un mate que ves una jugada antes de que llegue es suerte. Este se ve venir de lejos, porque se construye con dos preguntas que se responden de un vistazo.\n\n¿Puede el rey rival salir de su última fila? ¿Algo protege esa fila?\n\nAquí las respuestas son no y no, y ya eran no hace diez jugadas. Solo queda llevar una torre o una dama a la octava fila, y no hay nada en la columna c por encima de tu torre de c1.\n\nHazte esas dos preguntas en cada jugada y dejarás de encontrar esto por casualidad."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "prompt": "Ninguna de las casillas que le quedan al rey sale de la octava fila: toma toda esa fila en una jugada.",
+      "targetSan": [
+        "Rc8#"
+      ],
+      "hint": "Una columna delante de tu torre no tiene nada, y termina en la fila que quieres."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Torre o dama, nada más",
+      "text": "La torre no es lo importante. Una dama lo termina igual, porque lo que el mate necesita es una pieza que cubra toda una fila de golpe, y solo esas dos lo hacen.\n\nUna comprobación antes de enviar cualquiera de ellas. La casilla a la que llegas no puede estar junto al rey, salvo que algo tuyo la defienda. Llega a f8 o h8 aquí y las Negras no reciben mate en absoluto: el rey captura la pieza y sale tranquilamente por el agujero que acabas de abrir.\n\nLa distancia es lo que hizo segura c8."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "El remedio cuesta una jugada",
+      "text": "Tu propio rey en g1 está en las mismas cinco casillas, y ya conoces la respuesta: dale una casilla de escape. {{h3}} lo hace: se abre h2, y una torre que llegue a tu primera fila se convierte en un jaque al que respondes, no en una partida que pierdes.\n\nLa jugada no es gratis. No ataca nada ni defiende nada, y el refugio queda un peón más adelantado que antes.\n\nTambién importa qué peón gastas. Avanzar el peón de g cede f3 y h3 y abre la gran diagonal hacia tu propia esquina, así que el peón de h suele ser la casilla más barata."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "Un defensor cada uno",
+      "text": "Un tablero nuevo, y los dos reyes están encerrados de la forma que ya reconoces. Una torre cada uno, cara a cara por la columna d.\n\nCuenta lo que protege la octava fila de las Negras: la torre de d8, y nada más. Cuenta lo que protege la primera fila de las Blancas: la torre de d1, y nada más.\n\nNo es una posición igualada. Son dos posiciones a una pieza de estar perdidas, y solo un bando tiene la jugada."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "El cambio que no es un cambio",
+      "text": "Misma pieza, misma columna, mismo valor. Cambiar torres aquí parece la jugada más aburrida del tablero.\n\nPero no es un cambio, porque un cambio necesita algo con lo que recapturar. El rey negro no puede salir de detrás de sus tres peones, y los peones no retroceden. La única pieza que podría recapturar en d8 es la que está siendo capturada.\n\n> Antes de cambiar la última torre de una columna abierta, pregúntate qué hacía aparte de estar ahí."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "prompt": "Captura la única pieza que protege la octava fila de las Negras, y cuenta qué queda para recapturar.",
+      "targetSan": [
+        "Rxd8#"
+      ],
+      "hint": "Antes de llamar cambio a una captura, averigua qué pieza negra podría llegar legalmente a esa casilla."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "openings-04",
+  "fen": "r1b1kb1r/pp1n1ppp/2p1p3/q2p2B1/2PPn3/2NBPN2/PPQ2PPP/R3K2R b KQkq - 5 8",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "Cambridge Springs Açmazı",
+  "setup": "d5'i c6 ve e6'daki piyonlarla destekleyip vezirinizi a5'e koydunuz. Beyazın veziri az önce e4'teki atınıza saldırdı.",
+  "hint": "Veziriniz c3'teki atı beyazın şahına karşı açmaza alıyor. O at donmuşken beyazın filini koruyan ne kalıyor?",
+  "explanation": "## Fikir\n\na5'teki veziriniz c3'teki atı beyazın şahına karşı açmaza alıyor, yani g5'teki filin tek koruyucusu var: f3'teki at.\n\n{{Nxg5}} fili yine de alır. {{Nxg5}} gelirse {{dxc4}} kendi piyonunuzu beşinci yataydan çeker ve vezir atı geri kazanır: bir taş önde. Beyazın öteki denemeleri taşı daha sessizce kaybeder.\n\nAçmazdaki taş hiçbir şeyi korumaz. Rakibinizin izin verir göründüğü her taş almadan önce bunu kontrol edin."
+}

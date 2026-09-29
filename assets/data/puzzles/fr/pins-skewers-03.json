@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-03",
+  "fen": "4k3/pp2qppp/8/8/8/8/PPB2KPP/3R4 w - - 0 1",
+  "solution": [
+    "Re1"
+  ],
+  "title": "Clouée sur la colonne e",
+  "setup": "La dame noire se tient en e7, juste devant son propre roi, et la colonne e sous elle est ouverte.",
+  "hint": "Quand la dame protège son roi, elle devient une cible immobile.",
+  "explanation": "## L'idée\n\n{{Re1}} cloue la dame sur le roi en e8. La dame ne peut pas quitter la colonne e sans exposer son roi, et votre roi en f2 protège e1, donc riposter par {{Qxe1+}} donne la dame contre une tour après {{Kxe1}}. Toute autre réponse perd aussi la dame.\n\nUne pièce clouée n'est plus vraiment une pièce : c'est une cible."
+}

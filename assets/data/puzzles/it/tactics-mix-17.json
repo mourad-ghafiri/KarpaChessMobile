@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-17",
+  "fen": "4r1k1/5p1p/8/3N4/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nf6+"
+  ],
+  "title": "Due Bersagli, un Balzo",
+  "setup": "Il re nero in g8 e la torre in e8 stanno dove un solo balzo di cavallo li raggiunge tutti e due.",
+  "hint": "Trovate la casa che dà scacco al re e colpisce la torre nello stesso balzo, poi assicuratevi che nessun pedone la difenda.",
+  "explanation": "## L'idea\n\n{{Nf6+}} è una forchetta: da f6 il cavallo dà scacco al re in g8 e attacca la torre in e8. Con il pedone g sparito, niente difende f6, e uno scacco di cavallo non si può parare.\n\nIl re deve muovere, e {{Nxe8}} raccoglie la torre."
+}

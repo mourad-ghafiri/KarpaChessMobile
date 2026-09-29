@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-02",
+  "fen": "7k/6pp/8/8/8/8/5PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Arka Yatayın Temeli",
+  "setup": "Siyahın şahı g7 ve h7'deki kendi piyonlarının arkasına, köşeye çekilmiş — penceresi olmayan bir duvar.",
+  "hint": "Sekizinci yatay ardına kadar açık ve siyah kaçış karesi açmak için piyonlardan hiçbirini sürmemiş.",
+  "explanation": "## Fikir\n\nDers kitaplarındaki **arka yatay matı**. {{Rb8#}} sekizinci yataya kayar ve şah kaçamaz: g7 ile h7'de kendi piyonları durur, g8 kalenin yatayındadır ve araya hiçbir şey giremez.\n\nBir hamle önce oynanacak h6 ya da g6, şaha hava verirdi. Onsuz duvar bir kafestir."
+}

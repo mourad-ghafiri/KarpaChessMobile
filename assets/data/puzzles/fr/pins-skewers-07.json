@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-07",
+  "fen": "2n1k3/pp2rppp/8/2B5/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxe7"
+  ],
+  "title": "Prenez avec la pièce la moins chère",
+  "setup": "La tour noire en e7 est clouée sur son roi par votre tour, et votre fou l'attaque aussi. Un cavalier en c8 la protège.",
+  "hint": "La tour clouée est attaquée deux fois et défendue une fois. Quelle prise rapporte ?",
+  "explanation": "## L'idée\n\nLa tour en e7 est clouée par votre tour en e1, attaquée par la tour et le fou, et défendue par le cavalier en c8.\n\n{{Bxe7}} prend avec la pièce la moins chère. Le roi ne peut pas reprendre, car votre tour protège e7, donc après {{Nxe7}} vous avez donné un fou pour une tour, et c'est maintenant le cavalier qui est cloué. {{Rxe7+}} d'abord n'échange qu'une tour contre une tour.\n\nEncaissez une pièce clouée avec votre attaquant le moins cher."
+}

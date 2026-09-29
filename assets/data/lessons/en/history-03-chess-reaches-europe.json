@@ -1,0 +1,56 @@
+{
+  "id": "chess-in-europe",
+  "title": "New Names, Old Moves",
+  "summary": "Renamed at the border, and unchanged for five hundred years",
+  "proof": "history-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "The Road In",
+      "text": "Chess crossed into Europe without leaving a date behind.\n\nThe best-attested road runs through **al-Andalus**, Muslim Spain, where shatranj was being played long before any Christian kingdom wrote a word about it. Arab Sicily is a second road. Byzantium, which called the game *zatrikion*, is a third, and the traders and armies of the day used all of them.\n\nWhat survives is the paperwork at the far end. A will drawn up in Catalonia around 1008 leaves a set of chess pieces to a monastery, and nobody drafting it felt any need to explain what they were."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "The Lady and the Elephant",
+      "text": "Europe had no viziers, so the **ferz** took the only office that fits beside a king: it became the **queen**. *Regina* in Latin, *dame* in French. That rename happened early and almost everywhere.\n\nThe **alfil** got no such agreement. Italy made it *alfiere*, the standard-bearer; France made it *fou*, the jester; Germany made it a runner. England did not translate it at all and was still calling it the *aufin* in 1474. **Bishop** only wins that argument in the 1500s, long after the carvers settled it — the Lewis chessmen wear a miter by 1200."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "The Names Moved, the Moves Did Not",
+      "text": "A renaming is not a reform.\n\nEurope's queen still crept one square diagonally, exactly as the ferz had. Europe's bishop still made the same two-square hop over the head of anything standing in the way, landing on the same short list of squares it had always been stuck with. Both pieces were rebuilt in Iberia in the 1470s, and that is the next lesson.\n\nYour board is already on the far side of it. Black's bishop on c8 can step onto the board's long light diagonal next move. An alfil that started on c8 could not have reached one square of that diagonal in a hundred games."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "prompt": "Move the bishop on c8 onto that long light diagonal, the one that runs the whole length of the board.",
+      "hint": "That bishop has exactly two squares available. Only one of them is on the diagonal.",
+      "targetSan": [
+        "Bb7"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Four Squares and a Fifth",
+      "text": "New board, White to move, and a bishop on c1 that has not been anywhere yet.\n\n{{Bd2}}, {{Be3}}, {{Bf4}}, {{Bh6}} — four squares up one diagonal, with a fifth sitting among them.\n\nAn alfil on c1 could reach exactly two squares of that whole line: e3, arrived at by jumping over d2 whether d2 was occupied or not, and g5 by the same leap again. The other three were shut to it for the entire game.\n\nThat is what the reform bought. It is not mainly about distance."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Through, Not Over",
+      "text": "Distance is the smaller half. The bigger half is that a bishop passes *through* squares instead of over them.\n\nAn alfil could never hold anything still. It flew over whatever stood in its way, so nothing was ever caught in front of it. A bishop travels the line, and a piece standing on that line has a problem: step aside, and whatever was behind it is suddenly there for the taking.\n\nBlack's knight on f6 has the queen on d8 directly behind it, one diagonal, e7 empty between them. Nothing has happened yet. Someone has to arrive."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "prompt": "Arrive on that diagonal, so the knight on f6 cannot move a square without handing over the queen behind it.",
+      "hint": "The bishop on f1 has its own pawn on e2 in the way. The other one has nothing in front of it.",
+      "targetSan": [
+        "Bg5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "smothered-10",
+  "fen": "r4rk1/pp3Npp/8/8/2Q5/8/P4PPP/6K1 w - - 9 33",
+  "solution": [
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1440,
+  "title": "Le cavalier choisit h6",
+  "setup": "Les Noirs viennent d'attaquer le cavalier en f7 avec une tour, pendant que la dame en c4 vise la diagonale a2–g8.",
+  "hint": "Votre cavalier se tient sur la diagonale de la dame, donc tout coup de cavalier donne un échec double — choisissez soigneusement sa case d'arrivée.",
+  "explanation": "## L'idée\n\n{{Nh6+}} est un échec double, donc la tour ne peut pas prendre et le roi doit bouger : {{Kh8}} est sa seule case. Maintenant {{Qg8+}} force {{Rxg8}}, et {{Nf7#}} l'étouffe. Le cavalier devait choisir h6 pour protéger g8 en vue du sacrifice."
+}

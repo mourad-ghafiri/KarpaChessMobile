@@ -1,0 +1,12 @@
+{
+  "id": "pin-02",
+  "fen": "8/k2r4/bp4p1/1r6/R1P4R/1P6/3P4/1K6 w - - 0 1",
+  "solution": [
+    "cxb5"
+  ],
+  "rating": 840,
+  "title": "Penjaganya Membeku",
+  "setup": "Benteng Anda di a4 menatap lurus ke atas lajur a ke arah gajah hitam, dan ke raja di belakangnya.",
+  "hint": "Benteng di b5 hanya punya tepat satu pembela. Sebelum menghitung materi, tanyakan apakah pembela itu boleh bergerak sama sekali.",
+  "explanation": "## Ide\n\n{{cxb5}} memenangkan satu benteng utuh. Gajah di **a6** satu-satunya buah yang menjaga b5, dan benteng Anda di **a4** menjepitnya terhadap raja di **a7**. Menyingkir akan membiarkan raja dalam sekak, jadi tangkapan balik itu bukan langkah yang sah."
+}

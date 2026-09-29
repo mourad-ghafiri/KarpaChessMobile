@@ -1,0 +1,16 @@
+{
+  "id": "smothered-10",
+  "fen": "r4rk1/pp3Npp/8/8/2Q5/8/P4PPP/6K1 w - - 9 33",
+  "solution": [
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1440,
+  "title": "The Knight Picks h6",
+  "setup": "Black has just attacked the knight on f7 with a rook, while the queen on c4 eyes the a2–g8 diagonal.",
+  "hint": "Your knight stands on the queen's diagonal, so any knight move checks twice — choose its landing square carefully.",
+  "explanation": "## The Idea\n\n{{Nh6+}} is a double check, so the rook cannot capture and the king must move: {{Kh8}} is its only square. Now {{Qg8+}} forces {{Rxg8}}, and {{Nf7#}} smothers it. The knight had to choose h6 so that it would guard g8 for the sacrifice."
+}

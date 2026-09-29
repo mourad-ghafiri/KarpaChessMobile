@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-05",
+  "fen": "6k1/2R2ppp/6r1/8/8/1B2r1Q1/PP6/K2b4 w - - 0 1",
+  "solution": [
+    "Rc8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1460,
+  "title": "Benteng ke Sudut",
+  "setup": "Gajah Hitam duduk di d1 dan benteng-bentengnya berdiri di g6 dan e3, dan raja Anda tampak jelas terbuka.",
+  "hint": "Jangan menjawab ancaman-ancaman itu. Temukan sekak yang memaksa buah hitam berdiri di baris yang akan dikuasai benteng Anda.",
+  "explanation": "## Ide\n\n{{Rc8+}} mengabaikan setiap ancaman terhadap raja Anda. {{Re8}} satu-satunya balasan, dan kini {{Rxe8#}} adalah mat karena benteng menguasai seluruh baris kedelapan dan pion-pion mengisi sisanya. Merebut tempo mengalahkan materi ketika ia mengakhiri partai."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "culture-07",
+  "fen": "rn1qkb1r/ppp2ppp/3p4/4N3/2B5/2P5/PPP2PPP/R1BbK2R w KQkq - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Bg5#"
+  ],
+  "title": "Yem Vezirdi",
+  "setup": "Siyah az önce vezirinizi aldı — kimsenin durup bakmadığı türden bir taş alma — ve sizin tek bir hamleniz var.",
+  "hint": "Siyahın şahının yalnızca bir boş karesi var. Onu oraya süren bir şah çekin ve öteki filinizin o karenin çaprazına ulaşabildiğinden emin olun.",
+  "explanation": "## Fikir\n\n{{Bxf7+}} kaçacak yeri olmayan bir şaha ikinci bir taş ikram eder. Şah f7'de alamaz, çünkü e5'teki at orayı korur; yani {{Ke7}} mecburidir. Ardından {{Bg5#}}: c1'den gelen fil e7'den geçen çapraz boyunca şah çeker ve şahın çevresindeki her kare ya kapsanmış ya kapatılmıştır.\n\nBir at, iki fil ve hiç vezir olmadan parti sekizinci hamlede biter.\n\nSıraya konmuş bir taş alma, karşısına hangi pozisyon çıkarsa ona ateş eder. Ön hamle olarak güvenli hamleyi girin, açgözlü taş almayı asla."
+}

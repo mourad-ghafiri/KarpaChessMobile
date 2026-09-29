@@ -1,0 +1,50 @@
+{
+  "id": "attacking-the-fianchetto",
+  "title": "Atacar o Fianqueto",
+  "summary": "Caça o bispo, não os peões",
+  "proof": "fianchetto-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Duas Casas Que Ninguém Guarda",
+      "text": "O abrigo das pretas parece sólido: três peões, um bispo, e um rei arrumado atrás deles. Conta o que esses peões cobrem de facto.\n\nO peão g foi para g6 e, no instante em que o fez, f6 e h6 saíram para sempre do alcance dos peões. Os peões não andam para trás. As duas casas são escuras, as duas estão a uma casa dos peões atrás dos quais o rei se esconde, e há uma peça a responder pelas duas — o bispo em g7."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "De Quem São os Peões Livres",
+      "text": "O rei branco em c1 está no extremo oposto do tabuleiro a tudo isto.\n\nUma avalanche de peões funciona quando o teu próprio rei não está atrás dos peões que gastas. O rei branco não está. O preto está — portanto os peões das pretas ficam em casa a defender, enquanto os das brancas estão livres para correr atrás de alguma coisa.\n\nA torre em h1 passou a partida à espera de que um deles lhe abrisse a coluna à frente."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "prompt": "Arranca a avalanche na ala onde vive o rei preto, e parte a toda a velocidade.",
+      "targetSan": [
+        "h4"
+      ],
+      "hint": "O peão em g6 é o que segura o abrigo das pretas — qual dos teus peões pode marchar e atingi-lo?"
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "Bloqueado Não É Acabado",
+      "text": "O peão preto em h5 para o teu a seco, e os peões não se contornam uns aos outros. Portanto as brancas trazem um segundo.\n\n{{g4}} atinge h5, {{hxg4}} captura, {{fxg4}} recaptura, e o peão h das brancas volta a correr com a torre de h1 atrás. Duas jogadas depois a coluna está aberta.\n\nÉ essa a estrada lenta, e funciona. E gasta também quatro jogadas para comprar uma coluna."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "A Estrada Mais Rápida",
+      "text": "Há uma resposta mais rápida, e não precisa da coluna de todo.\n\nTira o bispo de g7 do tabuleiro e h6 passa a casa de aterragem. Uma dama que lá chegue fita a direito g7, a uma casa do rei, e nenhum peão preto a poderá alguma vez empurrar dali — isso ficou decidido no instante em que o peão g foi para g6. A dama preta em d8 e a torre em c8 estão as duas viradas para o lado errado para ajudar.\n\n> Contra um fianqueto não estás a atacar peões. Estás a caçar um bispo."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "prompt": "Troca a única peça preta que guarda as casas escuras ao lado do rei preto.",
+      "targetSan": [
+        "Bh6"
+      ],
+      "hint": "O teu bispo em e3 anda nas mesmas casas escuras que o preto — manda-o cá fora até os dois se encontrarem."
+    }
+  ]
+}

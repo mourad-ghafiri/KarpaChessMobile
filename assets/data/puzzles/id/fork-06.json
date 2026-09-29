@@ -1,0 +1,14 @@
+{
+  "id": "fork-06",
+  "fen": "4r2k/pp4p1/5p2/2n5/8/5Q2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qh5+",
+    "Kg8",
+    "Qxe8+"
+  ],
+  "rating": 880,
+  "title": "Lajur dan Diagonal",
+  "setup": "Lajur h terbuka di depan raja hitam, dan bentengnya baru saja melangkah ke e8.",
+  "hint": "Menteri Anda menginginkan satu petak tempat sebuah lajur dan sebuah diagonal masing-masing berakhir pada buah hitam.",
+  "explanation": "## Ide\n\n{{Qh5+}} memberi sekak di sepanjang lajur h yang terbuka, dan di garis yang lain ia memandang menembus g6 dan f7 lurus ke benteng. Pion di g7 hanya menyisakan {{Kg8}} bagi Hitam, dan {{Qxe8+}} mengambil benteng dengan sekak. Menteri menggarpu karena ia adalah benteng dan gajah sekaligus."
+}

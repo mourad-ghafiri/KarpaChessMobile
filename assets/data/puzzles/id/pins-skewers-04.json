@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-04",
+  "fen": "3k4/8/8/3q4/8/8/3R4/3K4 w - - 0 1",
+  "solution": [
+    "Rxd5+"
+  ],
+  "title": "Terjepit dari Kejauhan",
+  "setup": "Menteri Hitam berdiri di lajur d di antara rajanya sendiri dan benteng Anda, dan giliran Anda melangkah.",
+  "hint": "Jarak bukanlah pertahanan ketika sebuah buah terjepit. Ambil saja.",
+  "explanation": "## Ide\n\nMenteri di d5 terjepit terhadap raja di d8, tetapi jepitan tidak membekukan buah: ia masih bisa bergerak di sepanjang garis jepitan, dan {{Qxd2+}} adalah ancaman Hitam.\n\nJadi tangkap lebih dulu. {{Rxd5+}} memenangkan menteri dengan sekak, dan raja di d8 terlalu jauh untuk menangkap balik. Langkah lain mana pun membiarkan Hitam menukar menteri dengan benteng, dan partai berakhir remis.\n\nBuah yang terjepit masih bisa menangkap di sepanjang garis yang menjepitnya."
+}

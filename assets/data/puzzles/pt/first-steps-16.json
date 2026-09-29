@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-16",
+  "fen": "6k1/5ppp/8/8/8/3n4/2P2PPP/4K3 w - - 0 1",
+  "solution": [
+    "cxd3"
+  ],
+  "title": "Come o Atacante",
+  "setup": "Um cavalo preto atrevido saltou para dentro a dar xeque ao teu rei — mas terá olhado para onde estava a aterrar?",
+  "hint": "O teu rei podia fugir, mas porquê? A resposta mais indelicada a um xeque é comer quem o dá — haverá algo de teu que lá chegue?",
+  "explanation": "## A Ideia\n\nO cavalo em d3 dá xeque, e um xeque tem três respostas: mexer o rei, tapar a linha, ou capturar quem o dá. Um xeque de cavalo não se pode tapar, e aqui a captura está disponível.\n\nO teu peão em c2 ataca b3 e d3, portanto {{cxd3}} tira o cavalo, acaba com o xeque e ganha três pontos numa jogada. Uma jogada de rei também escaparia, mas deixa o cavalo vivo."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-11",
+  "fen": "6k1/2n1Rppp/8/8/2N5/2r5/PP2Q3/K7 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Nxe8",
+    "Qxe8#"
+  ],
+  "rating": 1610,
+  "title": "At İki Kez Kapsayamaz",
+  "setup": "Siyahın c7'deki atı e8'i gözlüyor, kaleniz yedinciye ulaşmış ve veziriniz e2'de bekliyor.",
+  "hint": "At acemice korur. Onun tam olarak bir kez ulaşabildiği kareyi bulun ve oraya gitmesini sağlayın.",
+  "explanation": "## Fikir\n\n{{Re8+}} atı zorunlu kılar, {{Nxe8}} mecburidir ve vezir onu orada {{Qxe8#}} ile alır. Bir kareyi koruyan at, ancak o karenin üstünde durmak zorunda kalana kadar koruyucudur."
+}

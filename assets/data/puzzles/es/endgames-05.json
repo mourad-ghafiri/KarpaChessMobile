@@ -1,0 +1,11 @@
+{
+  "id": "endgames-05",
+  "fen": "8/8/8/8/B6k/p7/7p/2K5 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "De punta a punta en una jugada",
+  "setup": "El peón de h negro corona en la próxima jugada y al de a le faltan dos más. Tu alfil de a4 es la única pieza que puede llegar a tiempo al otro flanco.",
+  "hint": "El peón de h corona en una casilla blanca. Encuentra la diagonal blanca que pasa por h1, y luego la única casilla de ella a la que llega tu alfil.",
+  "explanation": "## La idea\n\nh1 es una casilla blanca, y la única diagonal blanca que pasa por ella va de a8 a h1. Desde a4 tu alfil la alcanza en una jugada, {{Bc6}}, y desde ahí vigila la casilla de coronación para siempre.\n\nTu rey de c1 se ocupa del otro corredor: está a un paso de b2, desde donde cubre a2 y a1. Un caballo en lugar del alfil no habría llegado a tiempo a una casilla que cubriera h1, y cualquier otra jugada deja coronar al peón de h."
+}

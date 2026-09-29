@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-23",
+  "fen": "7k/1n4p1/8/8/8/5n2/B4P1P/7K w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "title": "Sekali Dayung, Dua Pulau",
+  "setup": "Dua kuda hitam berkeliaran ke petak terang, dan gajah Anda di a2 melihat persimpangan yang dimiliki keduanya.",
+  "hint": "Gajah menyerang di sepanjang empat sinar sekaligus. Temukan petak tempat dua sinar masing-masing berakhir pada seekor kuda.",
+  "explanation": "## Ide\n\nGajah menembak di sepanjang empat sinar dari mana pun ia berdiri, jadi carilah petak tempat dua di antaranya menemukan sasaran.\n\nDari {{Bd5}}, satu sinar melewati c6 menuju kuda di b7 dan sinar lain melewati e4 menuju kuda di f3. Tak satu kuda pun bisa mencapai d5, dan tak satu pun bisa menjaga yang lain, jadi salah satunya jatuh pada langkah berikutnya.\n\nBayangkan gajah sebagai huruf X, bukan sebuah garis."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "quiet-move-proof",
+  "fen": "4b1rk/5ppp/8/8/3B3R/1r6/PP6/K4Q2 w - - 0 1",
+  "solution": [
+    "Qf5",
+    "h6",
+    "Rxh6#"
+  ],
+  "title": "Siyahın Yapabileceği Hiçbir Şey Yok",
+  "setup": "Siyahın kalesi piyonlarınızı yemeye başlamak üzere ve çekmeye değer bir şahınız yok. Siyaha tek bir işe yarar cevap bırakmayan hamleyi bulun.",
+  "hint": "h4'teki kaleniz h7'ye çoktan dikilmiş. Vezire bir kare seçmeden önce d4'teki filinizin g7 piyonuna ne yaptığına bakın.",
+  "explanation": "## Fikir\n\n{{Qf5}} şah çekmez ve hiçbir şey almaz. Veziri kalenin yanında h7'ye dizer ve h7 sıradaki hamlede düşer.\n\nSiyahın bunu durdurmanın hiçbir yolu yok. g7 piyonu d4'teki filiniz tarafından açmaza alınmıştır, yani ne oynayabilir ne taş alabilir. {{h6}} ile hava açmak yalnızca dikeyi açar: {{Rxh6#}} gelir ve açmazdaki piyon geri alamaz. Başka her cevap h dikeyinde mat olur."
+}

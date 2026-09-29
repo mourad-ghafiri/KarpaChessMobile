@@ -1,0 +1,65 @@
+{
+  "id": "space-advantage",
+  "title": "Alan Üstünlüğü",
+  "summary": "Sizin taşlarınıza daha çok yer, onlarınkine daha az",
+  "proof": "strategy-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "title": "Üçü Yarıyı Geçmiş",
+      "text": "Evden ayrılmış piyonları sayın. Beyazın üç tane var: c4, d4 ve e5'te. Siyahın bir tane.\n\nBu farkın bir adı var. **Alan üstünlüğü**, kendi piyonlarınızın arkasındaki yerdir: taşlarınızın üzerinde durabildiği ve öteki ordunun ulaşamadığı kareler.\n\nSiyahın ödediği hesaba bakın. At b6'ya geri kovalanmış, yedi taş hâlâ arka yatayda oturuyor ve oynamış tek piyon d6'daki.\n\nSıra beyazda ve alınacak daha çok yer var."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "prompt": "Şah kanadında bir piyonla bir kare daha alın ve bu arada e5'e ikinci bir koruyucu ekleyin.",
+      "targetSan": [
+        "f4"
+      ],
+      "hint": "Yalnızca tek bir piyon hamlesi, başka hiçbir şeyi elden bırakmadan e5'teki piyona ikinci bir koruyucu verir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Seçme Yeri",
+      "text": "Alan taş değildir. Burada kazanılmış bir şey yok ve puan hesabı tamamen eşit.\n\nBeyazın elindeki şey seçenektir. c4, d4, e5 ve f4'teki dört piyonun arkasında beyazın her taşının seçebileceği güzergâhlar vardır ve e5'teki piyon, siyahın atlarından f6'yı sessizce alır.\n\nb6'daki atla karşılaştırın. Kendini c4'te harcamak dışındaki seçenekleri şunlar: kenardaki {{Na4}}, beyazın c piyonunun öylece aldığı {{Nd5}} ve kendi filinin önünü kesen d7'ye geri dönüş. Sıkışık bir pozisyonun içeriden hissi budur: her hamlede kısa bir liste."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Hangi Taraf Değişir",
+      "text": "Alanınız varken taşları tahtada tutun. Sizin ordunuzun manevra yapacak yeri vardır, rakibinizinkinin yoktur; yani izin verdiğiniz her değişim kareleri geri verir.\n\nSıkışıkken tersini yapın. Ulaşabildiğiniz her şeyi değişin: tahtadan ayrılan her taş, kalanlara daha çok yer verir ve karesi az olan taraf önce tükenir.\n\nBurada sıra siyahta ve sıkışık taraf siyah. Yani aranacak hamle bir oyalanma değil."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "prompt": "Sıkışık taraf sizsiniz; tahtadan bir piyon kaldırın ve taşlarınıza nefes alacak yer verin.",
+      "targetSan": [
+        "dxe5"
+      ],
+      "hint": "Hangi taş alma vezirinizin önündeki dikeyi temizliyor?"
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn1p3/3PPb2/2P5/2N1BN2/PP4PP/R2QKB1R b KQk - 0 10",
+      "title": "Beş Hamle Sonra",
+      "text": "Beyaz yeniden sürdü ve artık c4, d5 ve e5'i elinde tutuyor. Siyahın cevabı öncekiyle aynı: kamaya vur, taşları kaldır.\n\n{{exd5}} {{cxd5}} gelir ve ileri çıkmış üçlü bir ikiliye iner.\n\nKazanılan bir şey olmadı. Puan hesabı kıpırdamadı ve merkez hâlâ beyazın. Ama iki piyon yoldan çekildi ve arkalarında duran taşların nihayet gidecek bir yeri var."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "title": "Yer Kiralıktır",
+      "text": "d5'e yürümüş piyon geri yürüyemez. Durduğu yerde tutulmak zorundadır ve onu tutan iki taş c3'teki at ile d1'deki vezirdir.\n\nHer büyük merkezdeki çatlak budur. Sıkışık taraf önce değişir, sonra kendisini sıkıştıran piyonlara yaslanır; çünkü eklenen her saldıran, istediğini yapmak yerine savunmaya çivilenmiş bir rakip taş daha demektir.\n\n> Daha çok alan, daha az değişim. Daha az alan, her şeyi değişin ve kalana yaslanın."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "prompt": "Beyazın d piyonuna üçüncü bir saldıran ekleyin ve aynı hamlede o piyonun vurduğu atı kurtarın.",
+      "targetSan": [
+        "Nb4"
+      ],
+      "hint": "Veziriniz ile b6'daki at d5'e zaten dokunuyor. Hangi kare c6'daki atın kaçıp onlara katılmasını sağlıyor?"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "promotion-01",
+  "fen": "7k/1P3pp1/3r3p/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "b8=Q+",
+    "Kh7",
+    "Qxd6"
+  ],
+  "rating": 1000,
+  "title": "Une dame avec une fourchette",
+  "setup": "Votre pion b est à un pas de la huitième rangée, et le roi noir se tient sur cette même rangée.",
+  "hint": "Une nouvelle dame arrive avec échec. Avant de la jouer, regardez ce qu'attaque d'autre la case de promotion.",
+  "explanation": "## L'idée\n\n{{b8=Q+}} donne échec le long de la huitième rangée et attaque en même temps la tour en d6 le long de la diagonale b8-h2. Les Noirs doivent parer l'échec, par {{Kh7}} ou en s'interposant par Rd8, et dans les deux cas la dame ramasse la tour, comme par {{Qxd6}}. Promouvez là où la nouvelle pièce fait deux choses."
+}

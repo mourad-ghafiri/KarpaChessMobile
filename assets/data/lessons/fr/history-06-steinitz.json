@@ -1,0 +1,56 @@
+{
+  "id": "birth-of-strategy",
+  "title": "L'attaque se mérite",
+  "summary": "1886, un coup de pion, et une case que les Noirs ne pourront jamais reprendre",
+  "proof": "history-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Le droit d'attaquer",
+      "text": "Le siècle de Morphy attaquait d'instinct et comptait les dégâts ensuite. Steinitz a posé la question la plus terne : qu'est-ce qui donne à une attaque le droit d'exister ?\n\nEn 1886, Wilhelm Steinitz a battu Johannes Zukertort dans ce que l'on considère en général comme le premier match pour le championnat du monde — dix victoires à cinq, et cinq nulles. Steinitz l'a emporté dans un style que ses contemporains trouvaient lent et un peu impoli.\n\nIl n'a jamais prétendu qu'attaquer était mauvais. Il disait qu'une attaque doit se nourrir de quelque chose. Sans avantage pour la nourrir, une défense correcte répond à chaque menace que vous inventez — et vous restez avec les faiblesses que vous avez créées."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Baltimore, 1885",
+      "text": "Steinitz contre Alexander Sellman, un an avant le match pour le titre.\n\nIl n'y a rien à attaquer ici. Le centre est bloqué — le pion blanc en e5 contre le pion noir en e6 — et les deux camps restent simplement là.\n\nSteinitz part donc faire ses emplettes. Une case, une diagonale, une pièce sans bon endroit où se poser : de petites choses qui se conservent. Accumulez-en assez, et l'attaque devient légitime.\n\nLe fou noir en c5 est la pièce la plus libre des Noirs : il regarde droit vers f2, à une case du roi blanc en e1."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "prompt": "Attaquez le fou noir avec un pion de l'aile dame et retirez-lui c5 pour de bon.",
+      "hint": "Steinitz ne se demande jamais ce qui gagne tout de suite. Quel coup de pion retire définitivement une case à une pièce adverse — et quelle pièce blanche protège déjà la case où ce pion arriverait ?",
+      "targetSan": [
+        "b4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Ce qu'un pion a acheté",
+      "text": "{{b4}}, et le fou doit dire où il préfère vivre. {{Be7}} est la réponse honnête — une case où il ne fait pas grand-chose — et {{a3}} soutient le pion pour que la question ne se pose plus jamais.\n\nRien n'a été gagné. Rien n'a changé de mains, et aucun chiffre ne mesure encore l'avantage des Blancs.\n\nCe qui a changé, c'est que la pièce la plus libre des Noirs a été discrètement rangée au placard, et qu'un coup de pion ne se reprend pas."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "La case irréparable",
+      "text": "Dix coups plus tard, Steinitz n'a toujours rien attaqué.\n\nRegardez c6. Un pion couvre c6 depuis b7 ou depuis d7 — or le pion b noir est en b5, le pion d en d5, et les pions ne reculent pas. Tous les pions noirs de cet échiquier ont déjà dépassé la septième rangée.\n\nc6 est donc un **trou** — une **case faible** qu'aucun pion adverse ne pourra plus jamais couvrir, parce que les pions qui auraient pu la couvrir l'ont dépassée pour toujours.\n\n> Une faiblesse que l'adversaire peut réparer est une cible. Celle qu'il ne peut pas réparer est une maison pour vos pièces."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "Pas encore",
+      "text": "Installez-y donc un cavalier. {{Nc6}} — et {{Bxc6}}, car c6 est protégée deux fois : par le fou en b7 et par la tour en c8.\n\nAucune de ces protections n'est permanente. Les tours s'échangent, et on peut prier un fou de bouger. Les pions qui auraient protégé c6 gratuitement sont ceux qui ne peuvent pas revenir.\n\nVoilà pourquoi l'autre cavalier blanc a passé les dix derniers coups à marcher : d1, c3, b1, d2, b3. On dirait quelqu'un qui a perdu ses clés, jusqu'à ce qu'on voie où il va."
+    },
+    {
+      "type": "play",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "prompt": "Attaquez le fou en b7 avec un cavalier, en choisissant la case où il ne peut pas simplement être échangé.",
+      "hint": "Deux coups de cavalier attaquent b7. L'un arrive là où le cavalier en d7 et le fou en e7 reprennent tous deux. L'autre case, seule la dame noire peut l'atteindre, et le pion en b4 l'y attend.",
+      "targetSan": [
+        "Na5"
+      ]
+    }
+  ]
+}

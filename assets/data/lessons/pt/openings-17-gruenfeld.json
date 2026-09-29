@@ -1,0 +1,56 @@
+{
+  "id": "gruenfeld-advanced",
+  "title": "A Defesa Grünfeld",
+  "summary": "Entrega o centro e depois dispara sobre ele",
+  "proof": "openings-17.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+      "title": "Uma Oferta, Não uma Reivindicação",
+      "text": "O peão preto de d5 vai a direito contra um peão e um cavalo, e as pretas querem que os dois lhe batam.\n\nTodas as outras respostas aos dois peões centrais das brancas tentam segurar terreno no meio. Esta vende-o. As pretas trocam o peão de d5, deixam as brancas construir o centro mais largo dos manuais de abertura, e tencionam passar o resto da partida a disparar-lhe de longe.\n\nErnst Grünfeld jogou isto em 1922, quando dar o meio do tabuleiro de propósito se lia como uma gralha."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+      "title": "Porque É Que as Brancas Capturam",
+      "text": "{{cxd5}}, e as brancas deviam fazê-lo de bom grado. Recusar quer dizer deixar as pretas ficar com um peão no meio por nada.\n\nOlha, ainda assim, para o que a captura compra. As pretas recapturam com uma peça, portanto as pretas não têm peão nenhum no centro — e as brancas estão a uma jogada de plantar um segundo peão ao lado de d4. No papel as pretas entregaram o meio do tabuleiro e não receberam nada.\n\nO ganho ainda não está no tabuleiro. Está naquilo a que as pretas poderão apontar assim que os peões brancos estiverem montados."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3P4/3P4/2N5/PP2PPPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Enxotado Mal Chega",
+      "text": "{{Nxd5}} {{e4}}. O cavalo chega ao meio e mandam-no embora logo na jogada seguinte.\n\nOs peões brancos estão agora lado a lado em d4 e e4, que é aquilo por que as brancas jogam desde a primeira jogada: um centro largo, e todas as peças atrás dele com uma casa para onde ir.\n\nO cavalo tem de se mexer. Tem uma casa onde faz estragos à saída, e encontrar essa casa é a razão inteira por que as pretas permitiram tudo isto."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3PP3/2N5/PP3PPP/R1BQKBNR b KQkq e3 0 5",
+      "prompt": "O teu cavalo está a ser perseguido: sai da casa da maneira que obriga as brancas a recapturar com um peão de ala.",
+      "targetSan": [
+        "Nxc3"
+      ],
+      "hint": "Recuar entrega o centro às brancas de graça; procura antes a peça que o teu cavalo pode capturar à saída."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Quanto Custou a Recaptura",
+      "text": "O peão b das brancas veio para c3 escorar d4, e a ala da dama que deixou para trás é uma desgraça: um peão em a2, e uma torre em a1 a olhar para uma coluna b vazia.\n\nA metade do negócio que cabe às pretas é o bispo em g7. O peão foi para g6 à segunda jogada precisamente para o bispo poder ficar dono daquela diagonal, e a diagonal corre g7, f6, e5, d4 — a direito para dentro dos peões que as brancas acabaram de construir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Conta os Guardas de d4",
+      "text": "Agora tudo gira à volta de d4. Três coisas o seguram: o peão de c3, o cavalo de f3 e a dama de d1. Só uma delas é um peão.\n\nUm peão guarda de graça. Uma peça a guardar um peão é uma peça com um trabalho de que não se pode afastar, portanto as pretas atacam d4 com a coisa mais barata que têm e deixam as brancas decidir que peça fica presa a fazer de ama. Primeiro o peão, as peças atrás dele.\n\n> Um centro assim tão grande é um aríete ou um alvo, e quem decide qual é o que lhe aponta."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "Ataca d4 com um peão, escolhendo aquele que não bloqueia a diagonal do teu bispo.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "A estrada do teu bispo passa por e5 e d4, portanto o peão que mandas tem de vir da outra ala."
+    }
+  ]
+}

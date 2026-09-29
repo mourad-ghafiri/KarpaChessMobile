@@ -1,0 +1,12 @@
+{
+  "id": "promotion-10",
+  "fen": "7R/1Ppkp3/p7/4PP2/8/8/6KP/q7 w - - 0 1",
+  "solution": [
+    "b8=N#"
+  ],
+  "rating": 1340,
+  "title": "Matı At Veriyor",
+  "setup": "Siyahın şahı d7'de kendi c7 ve e7 piyonlarıyla duvara alınmış ve b piyonunuz varmaya hazır.",
+  "hint": "b8'deki yeni bir vezir şah bile çekmez. O kareden d7'ye hangi terfinin dokunduğunu sorun.",
+  "explanation": "## Fikir\n\n{{b8=N#}} b8'den şah çeker ve şahın karesi yoktur: c6'yı at, d6'yı e5 piyonu, e6'yı f5 piyonu, c8, d8 ve e8'i de h8'deki kale kapsar. c7 ile e7 kendi piyonlarıdır. Oradaki bir vezir hiç şah çekmezdi."
+}

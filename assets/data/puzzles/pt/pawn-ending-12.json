@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-12",
+  "fen": "7K/8/k1P5/7p/8/8/8/8 w - - 1 2",
+  "solution": [
+    "Kg7"
+  ],
+  "rating": 1500,
+  "title": "Dois Trabalhos ao Mesmo Tempo",
+  "setup": "O rei das pretas acabou de chegar a a6, e o peão h parece estar a quatro jogadas limpas de fazer dama.",
+  "hint": "Não escolhas entre perseguir o peão preto e empurrar o teu — procura um trajeto que faça as duas coisas.",
+  "explanation": "## A Ideia\n\nPerseguir a direito pela coluna h não dá nada, portanto o rei caminha pela diagonal, em direção aos dois peões ao mesmo tempo. Se as pretas correrem com {{h4}}, {{Kf6}} e depois Ke6 trazem o rei para ao pé de d7, e o teu peão c faz dama ao mesmo tempo que o preto. Se as pretas forem ao peão c com {{Kb6}}, a mesma caminhada ganhou o tempo de apanhar o peão h. De uma maneira ou de outra é empate.\n\nEste é o estudo de Réti: um rei numa diagonal consegue perseguir duas coisas ao mesmo tempo."
+}

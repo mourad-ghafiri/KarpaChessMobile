@@ -1,0 +1,11 @@
+{
+  "id": "endgame-03",
+  "fen": "8/8/7k/4P3/8/5K2/8/8 w - - 0 1",
+  "solution": [
+    "Ke4"
+  ],
+  "title": "King First, Pawn Later",
+  "setup": "Your pawn on e5 is passed, but the black king on h6 is close enough to catch it alone. One move keeps the win.",
+  "hint": "Push the king, not the pawn. Which square puts your king beside the pawn's road before the black king gets there?",
+  "explanation": "## The Idea\n\nThe black king on h6 stands inside the pawn's square, so the pawn cannot win the race by itself. It needs an escort.\n\n{{Ke4}} is the only move that keeps the win: the king heads for the squares beside the pawn's road while it can still reach them first. Push {{e6}} instead, or send the king anywhere else, and the position is a draw.\n\nCount the square before you push. If the enemy king is inside it, the king goes first."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-13",
+  "fen": "7k/8/8/5N2/8/8/6Q1/6K1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "Beso respaldado por el caballo",
+  "setup": "El rey negro está atascado en la esquina, y tu caballo de f5 ya vigila g7, la casilla justo a su lado.",
+  "hint": "La dama quiere ponerse al lado del rey. ¿Cuál de tus piezas ya protege esa casilla?",
+  "explanation": "## La idea\n\nEs el mismo beso de la dama, respaldado por un caballo en lugar de un rey. El caballo de f5 protege g7, así que la dama puede caer ahí sin peligro.\n\n{{Qg7#}} da jaque. El rey de h8 no puede capturar la dama, y g8 y h7 las cubre ella. A un jaque desde la casilla de al lado no se le puede tapar.\n\nPara el beso sirve cualquier protector: rey, caballo o peón. Encuentra la casilla protegida junto al rey rival."
+}

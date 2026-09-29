@@ -1,0 +1,12 @@
+{
+  "id": "promotion-10",
+  "fen": "7R/1Ppkp3/p7/4PP2/8/8/6KP/q7 w - - 0 1",
+  "solution": [
+    "b8=N#"
+  ],
+  "rating": 1340,
+  "title": "Knight Delivers Mate",
+  "setup": "Black's king stands on d7 walled in by its own pawns on c7 and e7, and your b-pawn is ready to arrive.",
+  "hint": "A new queen on b8 would not even give check. Ask which promotion touches d7 from that square at all.",
+  "explanation": "## The Idea\n\n{{b8=N#}} checks from b8, and the king has no square: c6 is covered by the knight, d6 by the e5-pawn, e6 by the f5-pawn, and c8, d8 and e8 by the rook on h8. c7 and e7 are its own pawns. A queen there would give no check at all."
+}

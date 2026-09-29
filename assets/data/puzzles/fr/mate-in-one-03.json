@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-03",
+  "fen": "rnb1k1nr/ppp2ppp/3b4/8/8/2N3P1/PPPPP3/R1BQKBNR b KQkq - 0 6",
+  "solution": [
+    "Bxg3#"
+  ],
+  "rating": 655,
+  "title": "La dame était le prix",
+  "setup": "Vous avez sacrifié la dame en g3 au coup précédent, et les Blancs n'ont plus de pion en f2 ni en h2.",
+  "hint": "Les Blancs n'ont plus de pion en f2. Trouvez la pièce qui couvrira ce trou dès qu'elle arrivera.",
+  "explanation": "## L'idée\n\nAvec f2 et h2 disparus, la diagonale h4–e1 appartient aux Noirs. {{Bxg3#}} prend le dernier pion sur cette route et rien ne peut reprendre : le cavalier en g1 n'atteint pas g3 et la tour en h1 est sur la mauvaise ligne. f2 est la seule case de fuite, et le fou la couvre."
+}

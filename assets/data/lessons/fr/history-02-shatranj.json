@@ -1,0 +1,56 @@
+{
+  "id": "shatranj",
+  "title": "Shāh māt",
+  "summary": "Le mot qui termine la partie, et un mat composé il y a mille ans",
+  "proof": "history-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Le mot de la fin",
+      "text": "Le passage d'une seule frontière a donné aux échecs le mot qui les termine.\n\nLe chaturanga a voyagé vers l'ouest depuis l'Inde et il est devenu le **chatrang** en Perse. L'arabe n'a pas de son *tch*, alors le monde arabe a remodelé le nom en **shatranj**, et c'est cette version que l'histoire a retenue. Le roi était le **shāh**, et on disait au joueur qui n'avait plus rien à tenter **shāh māt** — le roi est impuissant, pris au piège, à court de réponses.\n\nL'Europe a usé l'expression jusqu'à en faire *jaque mate*, *scacco matto*, *checkmate* — et, en français, échec et mat."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Un conseiller et un éléphant",
+      "text": "Votre dame est une réécriture européenne.\n\nLa dame en d1 était le **ferz**, le conseiller du roi, et elle avançait d'une case en diagonale. C'était tout. Les fous étaient des **alfils**, des éléphants, et un alfil sautait d'exactement deux cases en diagonale, par-dessus tout ce qui se trouvait entre les deux — huit cases de l'échiquier pour toute une partie, et aucun chemin vers les cinquante-six autres.\n\nLes pions avançaient d'une case à la fois, sans double pas initial ni roque derrière lequel s'abriter. Un pion qui traversait l'échiquier devenait un ferz."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Trois façons de gagner",
+      "text": "Le shāh māt n'était pas la seule façon de conclure.\n\nRetirez la dernière pièce de l'échiquier, et le **roi dépouillé** resté seul avait perdu sur-le-champ. Laissez votre adversaire sans aucun coup légal et vous aviez gagné aussi — le pat était une victoire, pas une nulle.\n\nCes deux règles ont disparu de celles que vous jouez, et toutes deux disent la même chose du shatranj. Avec des pièces aussi lentes, les victoires ne se frappaient pas. Elles s'assemblaient.\n\n> Pendant presque mille ans, la pièce la plus forte des échecs a été la tour."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "title": "Composé, pas joué",
+      "text": "Un jeu aussi lent place l'intérêt à la fin, alors les maîtres ont mis les fins par écrit. **Al-Adli** a rédigé le plus ancien manuel connu sur la façon de jouer, vers 840 ; **as-Suli** est venu un siècle plus tard et dominait tellement ses contemporains que *jouer comme as-Suli* survit en arabe comme un éloge.\n\nLeurs manuscrits sont remplis de *mansubat* — des positions composées plutôt que jouées, chacune construite autour d'une réponse exacte.\n\nÀ deux coups de cet échiquier se trouve le **mat arabe** : une tour à côté du roi, un cavalier qui protège la tour. La tour en d7 et le cavalier en e4 se déplacent exactement comme à l'époque, et les deux coups sont à vous."
+    },
+    {
+      "type": "play",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "prompt": "Envoyez le cavalier sur la seule case qui protège h7 et ferme g8 au roi noir en même temps.",
+      "hint": "Passez en revue les huit cases où ce cavalier peut sauter, et demandez-vous laquelle touche à la fois h7 et g8.",
+      "targetSan": [
+        "Nf6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "title": "Ne l'annoncez pas encore",
+      "text": "Le cavalier a atterri, et les Noirs n'avaient plus qu'un pion à jouer.\n\nLa tour en d7 balaie toute la septième rangée, donc g7 et h7 n'ont jamais été accessibles au roi noir. Le cavalier en f6 a fermé g8, la dernière — et il protège aussi h7, ce qui est la moitié essentielle, car c'est en h7 que la tour doit se placer.\n\nLe filet est fermé. La seule façon de tout gâcher, c'est l'impatience : {{Rd8+}} a l'air d'un progrès, et c'est aussi la tour qui quitte la septième rangée. {{Kg7}}, et le roi sort tranquillement du coin."
+    },
+    {
+      "type": "play",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "prompt": "Posez la tour à côté du roi noir, sur une case que le cavalier défend déjà.",
+      "hint": "Deux des cases du cavalier touchent le roi ; une seule est sur une ligne que la tour peut parcourir.",
+      "targetSan": [
+        "Rh7#"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "catalan-advanced",
+  "title": "A Catalã",
+  "summary": "Um peão emprestado, uma diagonal guardada para sempre",
+  "proof": "openings-18.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Barcelona, 1929",
+      "text": "Um torneio em Barcelona em 1929 queria uma abertura própria, e Tartakower forneceu uma. Ficou-lhe o nome da região à volta da cidade.\n\nA forma são dois peões no meio e depois um buraco aberto nos peões da ala do rei para o bispo poder sair para g2 e ficar com a diagonal mais longa do tabuleiro.\n\nAs pretas acabaram de capturar o peão que estava em c4. O peão preto em c4 é o que as brancas pagaram por essa diagonal, e as brancas não têm pressa nenhuma de o pedir de volta."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Ninguém o Persegue",
+      "text": "Conta o que custaria recuperar já o peão. Uma peça, duas ou três jogadas, e acaba numa casa que nunca quis.\n\nDepois conta o que custa às pretas guardá-lo. Nenhuma peça preta guarda c4 a partir de uma casa de que também goste, e nenhum peão preto lá chega sem empurrar a ala da dama para a frente e deixar buracos atrás.\n\nPor isso as brancas fazem a coisa vulgar: tirar tudo cá para fora, rocar, e deixar o peão ser um problema do seu dono. O peão volta mais tarde. A diagonal nunca tem de voltar."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "prompt": "Desenvolve a última peça entre o teu rei e o canto, e aponta-a ao centro.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "Uma peça menor continua em casa na ala do rei, e a casa que ela quer guarda também d4."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 1 5",
+      "title": "Como o Peão Volta a Casa",
+      "text": "As pretas arrumam-se com {{Be7}} e as brancas acabam a última tarefa com {{O-O}}. O peão a mais continua em c4, e as brancas não gastaram uma jogada com ele.\n\nDepois {{a6}}, a primeira jogada de um plano para segurar o peão com um segundo peão, e {{Qc2}}. A dama fica com a coluna que o seu peão c ocupava e olha por ela acima, enquanto o bispo de g2 guarda a diagonal para que lá foi posto.\n\nAs pretas estão um peão à frente e atrasadas no desenvolvimento. Essa troca só corre num sentido."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "A Outra Catalã",
+      "text": "As pretas não são obrigadas a capturar. Peões em c6, d5 e e6 constroem antes uma parede, e a parede aguenta — sem rutura, sem coluna aberta, sem nada em que as brancas possam bater.\n\nAs brancas ficam contentes à mesma. O peão de d4 e o peão de c4 seguram mais terreno do que os das pretas, o bispo de g2 espera atrás do cavalo de f3 pelo dia em que o meio se abra, e todas as peças brancas já têm casa.\n\nUma posição sem fraquezas pode na mesma perder-se devagar. As pretas precisam de arranjar trabalho a uma peça em particular."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "O Bispo Sem Janelas",
+      "text": "Conta as jogadas de que o bispo de c8 dispõe. O seu próprio cavalo em d7 está numa diagonal e o seu próprio peão em b7 na outra. A conta é zero.\n\nAs pretas não estão aqui tanto pior como estão com uma peça a menos, e a peça que falta nunca saiu de casa.\n\nO bispo de g2 mostra a saída. Um bispo sem estrada pelo meio agarra a estrada pela berma — o mesmo fianqueto, construído a partir do outro extremo, até os dois se fitarem ao longo de uma diagonal.\n\n> Numa posição fechada, encontra a peça sem futuro e dá-lhe um."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "prompt": "Prepara o fianqueto que responde ao das brancas: dá ao teu bispo bloqueado uma grande diagonal para onde olhar.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "O teu bispo de dama não tem uma única jogada legal, portanto pergunta que passo de peão lhe daria uma."
+    }
+  ]
+}

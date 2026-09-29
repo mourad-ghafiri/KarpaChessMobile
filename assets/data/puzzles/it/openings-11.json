@@ -1,0 +1,15 @@
+{
+  "id": "openings-11",
+  "fen": "rnb2rk1/pp1nqppp/4p3/3pP3/3p1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 0 10",
+  "solution": [
+    "Bxh7+",
+    "Kxh7",
+    "Ng5+",
+    "Kg8",
+    "Qh5"
+  ],
+  "title": "Il Dono Greco",
+  "setup": "Una difesa francese diventata tranquilla: il centro è bloccato, il Nero ha arroccato, e nessun cavallo nero potrà mai più arrivare a f6. Spaccate il riparo del re.",
+  "hint": "L'alfiere punta su h7, un cavallo è a un balzo da g5, e la donna è a una mossa da h5. Contate quei tre, poi guardate il pedone in e5.",
+  "explanation": "## L'idea\n\nIl **dono greco**. Il pedone in e5 tiene ogni cavallo nero fuori da f6, l'unica condizione di cui il sacrificio ha bisogno.\n\n{{Bxh7+}} spalanca il riparo, e dopo {{Kxh7}} arriva {{Ng5+}}. La difesa più tenace del Nero è dare subito la donna per quel cavallo; ritirarsi con {{Kg8}} lascia {{Qh5}} preparare il matto in h7, e poi regge ancora solo cedendo la donna.\n\nPrima di un dono greco, verificate che l'alfiere arrivi a h7, che un cavallo arrivi a g5, che la donna arrivi a h5, e che niente di nero possa arrivare a f6."
+}

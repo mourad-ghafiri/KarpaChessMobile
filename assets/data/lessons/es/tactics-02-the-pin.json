@@ -1,0 +1,56 @@
+{
+  "id": "the-pin",
+  "title": "La clavada",
+  "summary": "Cuando mover una pieza es ilegal, y cuando simplemente es ruinoso",
+  "proof": "pins-skewers-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Nueve puntos que no van a ninguna parte",
+      "text": "La dama negra vale nueve puntos y no tiene permiso para salir de la columna d.\n\nTres piezas comparten esa columna: tu torre en d2, la dama negra en d6, el rey negro en d8. Saca la dama de la columna y el rey que tiene detrás queda expuesto a la torre. Esa jugada no es mala. Es ilegal, y el tablero no la permitirá.\n\nLa dama está **clavada**: sujeta en su sitio por lo que tiene detrás."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Por la línea, y por ningún otro sitio",
+      "text": "Una pieza clavada no está congelada. Puede moverse a lo largo de la línea de la clavada, donde el rey sigue cubierto: la dama puede ir a d7 o d5, e incluso capturar la torre. Todo lo demás del tablero está cerrado.\n\nEsta es una **clavada absoluta**: la pieza de detrás es el rey, así que salir de la línea está prohibido, no solo desaconsejado.\n\nTu torre está clavada exactamente igual, por la dama, contra tu rey en d1. Dos piezas clavadas, una columna. La única diferencia es a quién le toca jugar."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Tres piezas pueden hacerlo",
+      "text": "Una clavada es una línea, así que solo una pieza que ataca a lo largo de una línea puede crearla: la dama, la torre, el alfil. Esa es la lista completa.\n\nUn caballo no puede clavar. Su movimiento no toca nada entre la salida y la llegada, y ninguna línea continúa más allá de donde aterriza para que haya una segunda pieza. Un peón y un rey alcanzan una casilla y se detienen, lo que también los descarta.\n\nTres piezas pueden clavar. Cualquier pieza puede ser clavada."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "prompt": "Captura los nueve puntos que no pueden apartarse del camino de tu torre.",
+      "targetSan": [
+        "Rxd6+"
+      ],
+      "hint": "Nada defiende d6, y la jugada que lo gana nunca sale de la columna d."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Cuando moverse solo sale caro",
+      "text": "Pon detrás de la pieza clavada algo que no sea un rey y todo se suaviza.\n\nEl alfil blanco de g5 mira a través del caballo de f6 a la dama de d8, con e7 vacía en medio. El caballo negro puede moverse. A la casilla que quiera, con total legalidad, y cuesta una dama por un alfil.\n\nEso es una **clavada relativa**. Nada prohíbe la jugada; solo el precio la desaconseja, y de vez en cuando merece la pena pagarlo."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Desclavarse",
+      "text": "Una clavada termina de una de tres maneras. Capturar la pieza que clava. Poner algo en la línea entre las dos. O mover la pieza de detrás, para que no quede nada que ganar: aquí lo hace {{Qd6}}, y el caballo queda libre.\n\nNo hacer nada es la opción cara. Cada pieza que las Blancas lleven contra f6 llega contra un caballo que no puede esquivar, y una clavada que se tolera barata durante una jugada sale muy cara durante cinco."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "prompt": "Cierra la diagonal entre el alfil blanco y tu dama para que el caballo pueda volver a moverse.",
+      "targetSan": [
+        "Be7"
+      ],
+      "hint": "Entre el caballo clavado y tu dama hay una casilla vacía: ¿qué pieza puede ocuparla sin quedar colgada?"
+    }
+  ]
+}

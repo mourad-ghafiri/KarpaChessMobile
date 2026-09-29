@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-04",
+  "fen": "4k3/P7/8/8/8/1K6/7p/8 w - - 0 1",
+  "solution": [
+    "a8=Q+"
+  ],
+  "title": "Promotion avec échec",
+  "setup": "Les deux camps ont un pion à un pas de la promotion, et c'est à vous de jouer.",
+  "hint": "Votre nouvelle dame doit aussi arrêter le pion noir. Un échec lui en donne le temps.",
+  "explanation": "## L'idée\n\n{{a8=Q+}} promeut avec échec. Les Noirs doivent consacrer leur coup au roi, puis {{Qh1}} bloque le pion h à une case de la promotion. Tout ce qui est plus lent, comme {{Kc2}}, permet {{h1=Q}}, et il vous reste dame contre dame.\n\nDans une course, la promotion qui donne échec vaut un temps entier."
+}

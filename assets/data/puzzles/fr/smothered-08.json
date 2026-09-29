@@ -1,0 +1,14 @@
+{
+  "id": "smothered-08",
+  "fen": "6k1/pp4pp/8/2q5/8/7n/P1P3PP/3R1R1K b - - 7 28",
+  "solution": [
+    "Qg1+",
+    "Rxg1",
+    "Nf2#"
+  ],
+  "rating": 1375,
+  "title": "Une dame pour une case",
+  "setup": "Les Blancs viennent de descendre une tour de d2 sur la dernière rangée, et seule la tour en f1 surveille encore f2.",
+  "hint": "Votre cavalier en h3 couvre déjà g1 ; demandez-vous ce qui se passerait si une tour blanche était forcée de s'y tenir.",
+  "explanation": "## L'idée\n\nOn ne peut pas répondre à {{Qg1+}} avec le roi, car le cavalier en h3 défend g1. {{Rxg1}} est donc forcé, et la reprise remplit la case même dont le roi avait besoin. {{Nf2#}} arrive alors là où la tour, le roi et les deux pions regardent tous au-delà."
+}

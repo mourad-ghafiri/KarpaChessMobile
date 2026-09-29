@@ -1,0 +1,12 @@
+{
+  "id": "discovery-02",
+  "fen": "3r2k1/b4ppp/p7/8/3n4/5P2/P3Q1PP/4R1K1 b - - 0 1",
+  "solution": [
+    "Nxe2+"
+  ],
+  "rating": 1000,
+  "title": "Dois Xeques de Uma Vez",
+  "setup": "O teu bispo em a7 varre a grande diagonal até g1, e o teu próprio cavalo de d4 tapa-a.",
+  "hint": "Conta quantas peças tuas estariam a dar xeque no instante em que o cavalo deixasse d4.",
+  "explanation": "## A Ideia\n\n{{Nxe2+}} é um xeque duplo: o cavalo atinge g1 desde e2 e o bispo atinge-o pela diagonal de a7 a g1. A um xeque duplo só se pode responder com uma jogada de rei, portanto Rxe2 é ilegal, e na jogada seguinte o cavalo afasta-se simplesmente, tendo ganho a dama de graça."
+}

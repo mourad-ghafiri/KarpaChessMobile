@@ -1,0 +1,12 @@
+{
+  "id": "smothered-06",
+  "fen": "2r3k1/pp3ppp/8/8/3n4/8/PP3PPP/KR1R4 b - - 5 24",
+  "solution": [
+    "Nc2#"
+  ],
+  "rating": 1310,
+  "title": "El guardián se aparta",
+  "setup": "Las Blancas acaban de sacar su torre de la columna c abierta y llevarla a b1, y a su rey no le queda ninguna casilla.",
+  "hint": "Dos saltos de caballo dan jaque desde el lado de la esquina; solo uno de ellos está fuera del alcance de un peón.",
+  "explanation": "## La idea\n\nLa torre dejó c1 y dejó de cubrir c2. {{Nc2#}} da jaque a un rey cuyos tres vecinos, a2, b2 y b1, son todos piezas propias, y ninguna pieza blanca vigila c2. El otro jaque, {{Nb3+}}, muere ante axb3. El mate de la coz vive en todas las esquinas, no solo en h8."
+}

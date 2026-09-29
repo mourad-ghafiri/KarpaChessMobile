@@ -1,0 +1,50 @@
+{
+  "id": "etiquette",
+  "title": "Tahta Başında Görgü",
+  "summary": "Kimsenin kutunun üstüne basmadığı kurallar",
+  "proof": "culture-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "title": "Önce Eliniz Varır",
+      "text": "Puanlı bir partide kendi taşlarınızdan birine dokunursanız onu seçmiş olursunuz. Dokunduğunuz taş, kurallı bir hamlesi olduğu sürece oynayacak taştır. Almak niyetiyle rakip bir taşa dokunursanız onu alırsınız. Geri alma yok, özür yok.\n\nBeyaz şah altında. e1'deki şahın tam olarak iki karesi var, {{Kf1}} ve {{Ke2}}, ve ikisi de partinin sonuna kadar rok hakkını elden çıkarıyor.\n\nBu tahtada daha iyi bir hamle var. Onu ararken şaha değin, o hamle uçup gitsin."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "prompt": "Şahı, aynı zamanda d5 ile b5'i kapsayan atla kapatarak rok hakkınızı koruyun.",
+      "targetSan": [
+        "Nc3"
+      ],
+      "hint": "O çaprazı iki kare kapatıyor. Biri c1'deki filinizi içeri kilitliyor; öteki siyahın yarısına bakıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/2N2N2/PP3PPP/R1BQK2R b KQk - 2 7",
+      "title": "Dokunmadan Önce Söyleyin",
+      "text": "c3'teki atınız eğri duruyor, yarısı b3'e taşmış. Onu düzeltmeye hakkınız var. Öylece uzanıp düzeltmeye hakkınız yok.\n\nÖnce *j'adoube* deyin — Fransızca “düzeltiyorum” demek — parmaklarınız varmadan önce, yüksek sesle ve yalnızca sıra sizdeyken. Burada sıra siyahta, yani at eğri kalır ve siz beklersiniz.\n\nSözlüğün neredeyse tamamı bu kadar. Kimse şah çektiğini ilan etmez, kimse bir hamle hakkında yorum yapmaz ve rakibiniz iyi hamleyi bulduğunda inlemezsiniz."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "Teklifin Bir Sırası Var",
+      "text": "Yeni tahta ve bu daha kötü: bir vezir geridesiniz. Siyahın d1'deki fili geçen hamle onu topladı ve siyah az önce beraberlik teklif etti.\n\nBunun bir sırası var. Hamlenizi yapın, beraberliği teklif edin, sonra saate basın. Teklif hiçbir koşul taşımaz ve geri alınamaz — rakibiniz kabul edene, yüksek sesle reddedene ya da oynamak niyetiyle bir taşa dokunana kadar geçerlidir; ki bu dokunuş başlı başına bir reddir.\n\nBirkaç hamlede bir yeniden teklif etmek ısrar değildir. Dikkat dağıtmaktır ve hakem bunu öyle değerlendirebilir."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "Nasıl Kaybedilir ve Ne Zaman Kaybedilmez",
+      "text": "Bir parti gittiğinde bunu söyleyin. Kurallar bir beyan ister — açıkça söyleyin — yana devrilmiş bir şah değil; o tiyatrodur ve rakibinizi tahminde bırakır. Ardından el sıkışma gelir; hiçbir kural bunu gerektirmez ve herkes yapar.\n\nBunların hiçbiri burada geçerli değil. Tam bir vezir önde olan oyuncunun beraberliğe ihtiyacı yoktur, yani teklif siyahın bulabildiği en iyi hamledir ve tahtada değildir.\n\nŞahınız rok yapmamış ve veziriniz gitmiş. Bu iki olgunun da f7'ye çoktan doğrultulmuş taşlar için hiçbir önemi yok.\n\n> Kararı kafanızla verin. Elinizin görevi yalnızca onaylamaktır."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "prompt": "Siyah bir vezir önde ve beraberlik teklif ediyor; teklifi, sıradaki hamlede mat eden şahla geri çevirin.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "Filiniz ile e5'teki at aynı piyona doğrultulmuş. Siyaha tek bir kurallı cevap bırakan taşla şah çekin."
+    }
+  ]
+}

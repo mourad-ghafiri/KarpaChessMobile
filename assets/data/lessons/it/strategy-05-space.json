@@ -1,0 +1,65 @@
+{
+  "id": "space-advantage",
+  "title": "Il Vantaggio di Spazio",
+  "summary": "Più spazio per i vostri pezzi, meno per i loro",
+  "proof": "strategy-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "title": "Tre Oltre Metà Strada",
+      "text": "Contate i pedoni che hanno lasciato casa. Il Bianco ne ha tre, in c4, d4 e e5. Il Nero uno.\n\nQuella differenza ha un nome. Un **vantaggio di spazio** è lo spazio dietro i vostri pedoni: case su cui i vostri pezzi possono stare e che l'altro esercito non raggiunge.\n\nGuardate il conto che il Nero sta pagando. Il cavallo è stato ricacciato in b6, sette pezzi stanno ancora sulla traversa di fondo, e l'unico pedone che ha mosso è quello in d6.\n\nMuove il Bianco, e c'è altro spazio da prendere."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "prompt": "Prendetevi un'altra casa sull'ala di re con un pedone, e aggiungete strada facendo un secondo difensore a e5.",
+      "targetSan": [
+        "f4"
+      ],
+      "hint": "Solo una mossa di pedone dà al pedone di e5 un secondo difensore senza lasciar andare nient'altro."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Spazio per Scegliere",
+      "text": "Lo spazio non è materiale. Qui non si è vinto niente, e il conto dei punti è perfettamente pari.\n\nQuello che il Bianco ha è la scelta. Dietro quattro pedoni in c4, d4, e5 e f4, ogni pezzo bianco ha percorsi fra cui scegliere, e il pedone in e5 toglie in silenzio f6 ai cavalli neri.\n\nConfrontate il cavallo in b6. A parte buttarsi via in c4, le sue opzioni sono {{Na4}}, il bordo, {{Nd5}}, dove il pedone c del Bianco lo prende e basta, e un rientro in d7 che blocca il proprio alfiere. È questo che si prova dentro una posizione stretta: una lista corta, a ogni singola mossa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Chi Dei Due Cambia",
+      "text": "Con lo spazio, tenete i pezzi sulla scacchiera. Il vostro esercito ha spazio per manovrare e quello del vostro avversario no, quindi ogni cambio che concedete restituisce case.\n\nStretti, fate il contrario. Cambiate tutto quello che riuscite a raggiungere: ogni pezzo che lascia la scacchiera dà ai superstiti più spazio, e chi ha meno case le finisce per primo.\n\nQui muove il Nero, e il Nero è quello stretto. Quindi la mossa da cercare non è un andirivieni."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "prompt": "Voi siete la parte stretta: togliete un pedone dalla scacchiera e date ai vostri pezzi aria da respirare.",
+      "targetSan": [
+        "dxe5"
+      ],
+      "hint": "Quale presa libera la colonna davanti alla vostra donna?"
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn1p3/3PPb2/2P5/2N1BN2/PP4PP/R2QKB1R b KQk - 0 10",
+      "title": "Cinque Mosse Dopo",
+      "text": "Il Bianco ha spinto di nuovo e adesso tiene c4, d5 e e5. La risposta del Nero è quella di prima: colpire il cuneo, togliere pezzi.\n\n{{exd5}} {{cxd5}}, e il terzetto avanzato è una coppia.\n\nNon si è vinto niente. Il conto dei punti non si è mosso e il Bianco possiede ancora il centro. Ma due pedoni sono usciti dalla strada, e i pezzi che stavano dietro hanno finalmente dove andare."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "title": "Lo Spazio Si Affitta",
+      "text": "Un pedone che è arrivato a piedi in d5 non può tornare indietro. Va tenuto dov'è, e i due pezzi che lo tengono sono il cavallo in c3 e la donna in d1.\n\nÈ questa la crepa di ogni grande centro. La parte stretta prima cambia e poi si appoggia sui pedoni che l'hanno stretta, perché ogni attaccante aggiunto è un pezzo avversario in più inchiodato alla difesa invece che a fare quello che vuole.\n\n> Più spazio, meno cambi. Meno spazio, cambiate tutto e appoggiatevi su quello che resta."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "prompt": "Aggiungete un terzo attaccante al pedone d del Bianco, e salvate nella stessa mossa il cavallo che quel pedone sta colpendo.",
+      "targetSan": [
+        "Nb4"
+      ],
+      "hint": "La vostra donna e il cavallo in b6 toccano già d5. Quale casa lascia scappare il cavallo di c6 e lo fa unire a loro?"
+    }
+  ]
+}

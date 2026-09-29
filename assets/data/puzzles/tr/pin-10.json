@@ -1,0 +1,12 @@
+{
+  "id": "pin-10",
+  "fen": "5k2/5p2/3nq2R/4p1p1/1P2p2N/2PPP3/3r1Q2/6K1 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 1150,
+  "title": "Kale Veziri Alıyor",
+  "setup": "f2'deki veziriniz boş f dikeyinde f7'deki siyah piyona ve arkasında duran şaha bakıyor.",
+  "hint": "Siyahın vezirini bir kez, bir piyon koruyor. Kendi vezirinizin f2'den o piyona ne yaptığına bakın.",
+  "explanation": "## Fikir\n\n{{Rxe6}} bir kale karşılığında veziri kazanır. f7 piyonu onun tek koruyucusudur ve **f2**'deki veziriniz tarafından **f8**'deki şaha karşı açmaza alınmıştır. Aralarındaki her kare boştur, yani geri alma kuraldışıdır ve vezir gitmiştir."
+}

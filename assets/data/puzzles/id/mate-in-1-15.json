@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-15",
+  "fen": "6k1/4Rppp/8/8/1B6/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "Gajah Menutup Jendela",
+  "setup": "Benteng Anda di e7 tinggal satu langkah dari baris belakang, dan gajah Anda di b4 berdiri di belakangnya di diagonal menuju f8.",
+  "hint": "Ketika benteng bergerak, diagonal gajah terbuka. Petak mana yang dirampasnya dari raja?",
+  "explanation": "## Ide\n\n{{Re8#}} memberi sekak di sepanjang baris belakang, dan langkah itu sendiri membuka diagonal gajah: dengan benteng meninggalkan e7, gajah di b4 menguasai f8. h8 berada di garis benteng, dan f7, g7 dan h7 ditempati pion Hitam sendiri. Tak ada yang bisa menangkap benteng atau menghalangi.\n\nBuah yang melangkah keluar dari sebuah garis menyerahkan garis itu kepada buah di belakangnya."
+}

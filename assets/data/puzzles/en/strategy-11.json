@@ -1,0 +1,13 @@
+{
+  "id": "strategy-11",
+  "fen": "r1r3k1/pp1bpp1p/3p1npQ/q3n3/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+  "solution": [
+    "Rxc3",
+    "bxc3",
+    "Qxc3"
+  ],
+  "title": "Rook for Knight, Willingly",
+  "setup": "The dark-squared bishops have been traded, White's queen has wandered to h6, and both black rooks are already placed.",
+  "hint": "Only one white piece holds b5, d5 and e4 together, and only one white unit could take back if it vanished.",
+  "explanation": "## The Idea\n\nBlack gives five points for three because the pawns pay it back. {{Rxc3}} removes the knight that holds b5, d5 and e4 together, and {{bxc3}} is White's only legal recapture.\n\nNow count the position, not the material. The white king sits behind broken pawns, with no white pawn left on the b-file, and {{Qxc3}} wins a pawn back with the queen one move from checking on a1.\n\nSpend the exchange when the recapture wrecks the pawns and a follow-up comes quickly."
+}

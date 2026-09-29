@@ -1,0 +1,11 @@
+{
+  "id": "culture-02",
+  "fen": "rnbqk1nr/ppp2ppp/3b4/8/8/2N5/PPPPP1PP/R1BQKBNR b KQkq - 1 4",
+  "solution": [
+    "Qh4+"
+  ],
+  "title": "Dieci Secondi Rimasti",
+  "setup": "Il Bianco ha aperto con il pedone f, ha appena sviluppato un cavallo, e non ha mai guardato la diagonale che si è aperta alla prima mossa.",
+  "hint": "Il pedone f ha lasciato casa alla prima mossa. Quale dei vostri pezzi arriva alla diagonale che ha aperto, e con scacco?",
+  "explanation": "## L'idea\n\nIl pedone f del Bianco se n'è andato alla prima mossa e ha aperto la diagonale e1–h4, e da allora niente l'ha richiusa.\n\n{{Qh4+}} lascia al Bianco una risposta, {{g3}}: il re non può andare in f2, e il pedone g è l'unica cosa che può parare. Poi il Nero dà matto in due in tutti e due i modi, {{Bxg3+}} {{hxg3}} {{Qxg3#}}, oppure prima la donna con {{Qxg3+}} {{hxg3}} {{Bxg3#}}.\n\nQuando un avversario muove presto il pedone f, spendete un secondo su uno scacco di donna in h4."
+}

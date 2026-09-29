@@ -1,0 +1,11 @@
+{
+  "id": "endgames-07",
+  "fen": "4QK2/8/8/8/8/8/4pk2/8 w - - 0 1",
+  "solution": [
+    "Qf7+"
+  ],
+  "title": "One Check, and Only One",
+  "setup": "Black's pawn on e2 queens next move, and your king on f8 is nowhere near it. The queen has to buy the time on its own.",
+  "hint": "Black must answer a check before pushing. Find the check the black king cannot answer by taking the queen.",
+  "explanation": "## The Idea\n\nA check has to be answered before the pawn can move, and from e8 the queen has exactly one check the king cannot simply capture: {{Qf7+}}, down the f-file. Every other move lets the pawn queen, and queen against queen is a draw.\n\nFrom f7 the queen keeps checking and steering the king until it steps onto e1, in front of its own pawn. That is the free move, and your king spends it walking in."
+}

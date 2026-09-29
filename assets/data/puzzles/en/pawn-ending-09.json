@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-09",
+  "fen": "1k6/5ppp/8/5PPP/8/8/1K6/8 w - - 1 2",
+  "solution": [
+    "g6"
+  ],
+  "rating": 1390,
+  "title": "Three Against Three",
+  "setup": "Six pawns face each other on the kingside while both kings stand a whole board away.",
+  "hint": "Neither king can arrive in time, so look for a pawn move that opens a lane by giving material away.",
+  "explanation": "## The Idea\n\n{{g6}} is the only winning move, and it hands a pawn over. {{hxg6}} {{f6}} {{gxf6}} {{h6}} and the h-pawn cannot be caught; if Black takes the other way the same break works with the f-pawn. Quiet moves draw, and several of them lose to the identical idea."
+}

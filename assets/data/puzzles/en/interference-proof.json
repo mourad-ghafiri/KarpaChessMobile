@@ -1,0 +1,11 @@
+{
+  "id": "interference-proof",
+  "fen": "6k1/5ppp/p7/8/q2N4/5B2/5PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "A Wall Across the Diagonal",
+  "setup": "Black's queen on a4 is the only piece guarding e8, and your rook on e1 is aimed straight at that square.",
+  "hint": "Put something on the queen's diagonal that it cannot ignore, on a square your knight already covers.",
+  "explanation": "## The Idea\n\nThe queen on a4 guards e8 along the diagonal through b5, c6 and d7. {{Bc6}} stands in the middle of it, protected by the knight on d4, and attacks the queen as well. Taking the bishop costs the queen, and taking your knight lets your rook mate on e8. The queen's best tries reroute toward f8, but then your rook checks on e8, the queen has to block on f8, pinned to its own king, and it is lost for a rook."
+}

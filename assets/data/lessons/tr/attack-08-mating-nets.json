@@ -1,0 +1,56 @@
+{
+  "id": "mating-nets",
+  "title": "Mat Ağları",
+  "summary": "Önce kareleri alın, sonra şahı",
+  "proof": "mate-in-2-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Kapısı Olmayan Oda",
+      "text": "Şah, bir şahı bir yere iter. **Mat ağı** ise o yeri önceden ortadan kaldırır; böylece şah nihayet geldiğinde itecek bir şey bulamaz.\n\nBu da demektir ki kendi şah hamlelerinizi saymadan önce şahın karelerini sayarsınız.\n\nSiyahın e8'deki şahı d7, d8, e7, f7 ya da f8'e adım atabilir. d7'de bir at, d8'de bir vezir, e7 ile f7'de piyonlar, f8'de bir fil var. Hepsi siyahın. Oda çoktan kurulmuş ve beyaz onu kurmak için tek bir hamle bile harcamamış."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Duvardaki Delik",
+      "text": "Kapısı olmayan oda mat değildir. Yine de birinin kapıyı çalması gerekir.\n\ne4'teki at d6'ya bir sıçrayış uzaklıkta ve d6'dan e8'e saldırıyor. Atın şahı kapatılamaz ve bu şahın yana çekilecek yeri yok; yani d6'ya inen bir at partiyi olduğu yerde bitirirdi.\n\nAma bitirmezdi. {{Nd6+}} {{exd6}} gelir ve piyon onu öylece yer.\n\nBütün savunma tek bir siyah piyondan ibaret."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "prompt": "d6'yı e7'deki piyondan alın; bunu şah çekmeyen sessiz bir hamleyle yapın.",
+      "targetSan": [
+        "Qe2"
+      ],
+      "hint": "e7'deki piyon tam kendi şahının önünde duruyor — d6'da taş almayı kuraldışı kılabilecek taşı bulun."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b KQkq - 2 5",
+      "title": "Sessizce Kapatmak",
+      "text": "e2'deki vezir şah çekmiyor ve hiçbir şeye saldırmıyor. Yaptığı şey, siyahın şahının oturduğu dikeyde, arada yalnızca e4'teki at varken dizilmek.\n\nSiyah da tahtadaki en doğal hamleyi oynayıp öteki atı geliştirir. {{Ngf6}} {{Nd6#}}.\n\nAt e4'ten çekildiği anda o dikey açılır ve e7'deki piyon kendi şahına karşı açmaza girer. Hâlâ d6'yı gözlüyordur ve artık ona dokunmasına izin yoktur."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "title": "Ağ İki Yönde de İşler",
+      "text": "Şimdi kutudaki beyazın şahı ve onu oraya beyaz tıktı.\n\nYeniden sayın. e1'deki şah d1, d2, e2, f1 ya da f2'ye adım atabilir. d1'de bir vezir, e2'de bir fil, f1'de bir kale, d2 ile f2'de piyonlar. Beş kare, beş taş ve hepsi beyazın kendisinin.\n\nKalabalık bir arka yatay güvenlik gibi hissettirir. Az önce siyahı mat eden de aynı kalabalıktır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "title": "Kimin Taş Almaya Hakkı Var",
+      "text": "Kareler ağın yarısıdır. Öteki yarısı, taşınız vardığında ne olduğudur: onu almaya kimin izni var?\n\ne4'teki vezir ile e1'deki şah tek bir dikeyde duruyor ve aralarında e2'deki fil var. O fil açmazda. Kurallı olarak oynayamaz, yani koruduğu sanılan her kareyi koruyan hiçbir şey yoktur.\n\nÇıkışları sayın, sonra koruyucuları sayın — ve koruyucuların serbest olup olmadığını sorun.\n\n> Mat pek ender en gürültülü hamledir. Şaha duracak yer bırakmayan hamledir."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "prompt": "Beyazın şahı kendi taşlarıyla duvara alınmış; kimsenin cevap vermekte serbest olmadığı tek şahı çekin.",
+      "targetSan": [
+        "Nf3#"
+      ],
+      "hint": "Beyazın şahının beş komşu karesi var ve beşinde de beyaz taşlar duruyor; yani şahın yalnızca alınamaz olması yeterli."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-05",
+  "fen": "3r2k1/1p3ppp/2n5/b7/1N6/2P3P1/5P1P/R5K1 w - - 1 2",
+  "solution": [
+    "Nxc6"
+  ],
+  "rating": 1210,
+  "title": "Taşı Geri Kazanın",
+  "setup": "Bir taş geridesiniz. Kaleniz a dikeyinden a5'teki file bakıyor ve fili yalnızca c6'daki at koruyor.",
+  "hint": "a5'teki filin tek koruyucusu var. Fili almadan önce koruyucuyu neyin alabildiğini sorun.",
+  "explanation": "## Fikir\n\n{{Nxc6}} a5'i kapsayan tek taşı kaldırır. {{bxc6}} geldikten sonra {{Rxa5}} fili alır: ata karşı at, ardından bedavaya bir fil ve taş dengesi yeniden eşitlenir. Daha yavaş her şey {{Bxb4}} ile atınızın değişilmesine izin verir ve siyah bir taş önde kalır.\n\nKoruyucu çoğu zaman koruduğu taştan ucuzdur."
+}

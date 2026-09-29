@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-01",
+  "fen": "2Rb4/k7/6p1/5QR1/6K1/2n5/8/r7 w - - 0 1",
+  "solution": [
+    "Qd7+",
+    "Ka6",
+    "Qc6+",
+    "Ka7",
+    "Ra8#"
+  ],
+  "rating": 1350,
+  "title": "Portate il Re a Spasso fino all'Angolo",
+  "setup": "Il re nero siede in a7 accanto al suo alfiere in d8, e la vostra donna e le vostre due torri sono abbastanza vicine da raggiungerlo.",
+  "hint": "Ogni mossa dev'essere uno scacco. Lasciate che la donna riporti il re verso a7, e che sia una torre a dare l'ultimo.",
+  "explanation": "## L'idea\n\n{{Qd7+}} e {{Qc6+}} non cercano di dare matto. Ogni scacco toglie case, finché il re è di nuovo in a7 senza più niente e arriva {{Ra8#}}. Una caccia è una sequenza di scacchi che tolgono un'opzione per volta."
+}

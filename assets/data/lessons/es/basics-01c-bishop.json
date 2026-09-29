@@ -1,0 +1,56 @@
+{
+  "id": "bishop-moves",
+  "title": "Medio tablero",
+  "summary": "Los largos caminos en diagonal y la mitad del tablero que un alfil nunca pisa",
+  "proof": "first-steps-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "title": "Cuatro caminos desde d4",
+      "text": "El alfil de d4 tiene cuatro caminos de salida. Todos van en diagonal.\n\nSolo diagonales: nunca por la columna, nunca por la fila. En una diagonal despejada llega tan lejos como quiera, y siete casillas le cuestan lo mismo que una.\n\n{{Bh8}} corre hacia una esquina, {{Ba1}} hacia la opuesta. {{Ba7}} y {{Bg1}} se detienen donde se acaba el tablero. Dos diagonales se cruzan en d4, y el alfil recorre cualquiera de ellas, en cualquier sentido."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "prompt": "Elige una de las cuatro diagonales y detén el alfil donde quieras a lo largo de ella.",
+      "targetSan": [
+        "Bc5",
+        "Bb6",
+        "Ba7",
+        "Be5",
+        "Bf6",
+        "Bg7",
+        "Bh8",
+        "Bc3",
+        "Bb2",
+        "Ba1",
+        "Be3",
+        "Bf2",
+        "Bg1"
+      ],
+      "hint": "Cerca o lejos da igual: una casilla por una diagonal es tan legal como siete."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "title": "Un color para toda la partida",
+      "text": "Hayas hecho la jugada que hayas hecho, cayó en una casilla negra. Igual que cualquier otra jugada de alfil posible aquí.\n\nd4 es negra. Un paso en diagonal cambia a la vez de columna y de fila, y esa combinación deja el color tal como estaba. En línea recta, el color cambia. En diagonal, nunca.\n\nPor eso cada ejército tiene dos alfiles: uno para las casillas negras y otro para las blancas.\n\n> Un alfil nace en un color y nunca lo abandona. Treinta y dos casillas son su casa; las otras treinta y dos, como si no existieran."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/1P6/4K3 w - - 0 1",
+      "title": "No salta nada",
+      "text": "Un caballo salta por encima del tráfico. Un alfil se queda atascado en él.\n\nEn la diagonal de la izquierda, tu propio peón de b2 bloquea el camino. El alfil llega hasta {{Bc3}} y no más allá: a1 está detrás del peón, y lo que está detrás queda fuera de su alcance.\n\nUna pieza rival cortaría el camino en la misma casilla, con una diferencia: el alfil puede capturarla y quedarse en la casilla que ella ocupaba. Tu propia pieza bloquea la diagonal para siempre. Una rival, solo hasta que la capturas."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/6p1/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "Un peón negro se ha metido en una casilla que este alfil puede alcanzar: gánalo.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "Este alfil y ese peón están los dos en casillas negras, y la línea entre ellos está vacía."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "forks-06",
+  "fen": "6k1/pp2rpp1/7p/n7/3Q4/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kh7",
+    "Qxa5"
+  ],
+  "title": "La dame fourchette d'un bout à l'autre",
+  "setup": "Le cavalier noir en a5 a dérivé jusqu'au bord sans défenseur, et la dernière rangée noire est vide.",
+  "hint": "Trouvez un échec de dame qui arrive aussi sur la diagonale du cavalier.",
+  "explanation": "## L'idée\n\nUne fourchette de dame n'a pas besoin que les deux cibles soient proches, seulement qu'elles soient sur des lignes qui se croisent.\n\n{{Qd8+}} met le roi en g8 en échec le long de la dernière rangée et attaque le cavalier en a5 le long de la diagonale. Les Noirs doivent parer l'échec, par {{Kh7}} ou une interposition en e8, et aucune de ces réponses ne sauve le cavalier : {{Qxa5}} le ramasse d'un bout à l'autre de l'échiquier.\n\nCherchez la case où un échec et une pièce sans protection partagent les lignes de la dame."
+}

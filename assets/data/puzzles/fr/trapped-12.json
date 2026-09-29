@@ -1,0 +1,14 @@
+{
+  "id": "trapped-12",
+  "fen": "3r2k1/pp3ppp/8/2R5/1N6/3N3P/PP3PPK/q7 w - - 0 1",
+  "solution": [
+    "Rc1",
+    "Qxc1",
+    "Nxc1"
+  ],
+  "rating": 1400,
+  "title": "La dame dans le coin",
+  "setup": "La dame noire s'est frayé un chemin jusqu'en a1 à force de prises, et vos propres pions en a2 et b2 l'y encerclent déjà.",
+  "hint": "La dernière rangée lui est grande ouverte. Trouvez la pièce qui l'attaque et couvre à la fois ces deux pions.",
+  "explanation": "## L'idée\n\n{{Rc1}} attaque la dame et lui retire b1. a2 est protégée par le cavalier en b4, b2 et c1 par le cavalier en d3, donc chaque prise qu'elle peut faire la perd. {{Qxc1}} {{Nxc1}} est le mieux qu'elle puisse obtenir : une dame contre une tour."
+}

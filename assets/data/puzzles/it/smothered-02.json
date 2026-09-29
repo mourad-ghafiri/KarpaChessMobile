@@ -1,0 +1,12 @@
+{
+  "id": "smothered-02",
+  "fen": "3r2k1/pp4pp/8/8/6n1/2N5/P1P3PP/6RK b - - 9 30",
+  "solution": [
+    "Nf2#"
+  ],
+  "rating": 1180,
+  "title": "L'Angolo si Sigilla da Solo",
+  "setup": "Il Bianco ha appena portato una torre in g1 per difendere il pedone g, e ha murato il proprio re nell'angolo.",
+  "hint": "Ignorate per un momento la torre indifesa e contate le case su cui il re bianco possa davvero muoversi.",
+  "explanation": "## L'idea\n\nRg1 ha difeso il pedone g e ha sepolto il re dietro di lui. {{Nf2#}} dà scacco da una casa che nessuno sorveglia: la torre in g1 e i pedoni in g2 e h2 guardano tutti dalla parte sbagliata. Un difensore che riempie l'ultima uscita del vostro re non sta difendendo niente."
+}

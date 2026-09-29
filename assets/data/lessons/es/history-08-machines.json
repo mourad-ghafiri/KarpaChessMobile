@@ -1,0 +1,62 @@
+{
+  "id": "chess-and-machines",
+  "title": "Las máquinas",
+  "summary": "Turing sobre el papel, Deep Blue sobre el tablero y un campeón que abandonó en la jugada diecinueve",
+  "proof": "history-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "Un programa sin computadora",
+      "text": "Hacia 1948, Alan Turing y David Champernowne escribieron un programa de ajedrez sobre el papel. Existían computadoras; el problema era que ninguna de las que Turing tenía a su alcance podía ejecutarlo.\n\nTurochamp era una página de reglas: valorar la posición contando lo que tiene cada bando, mirar una o dos jugadas adelante y jugar la línea con mejor puntuación.\n\nEn 1952 Turing lo ejecutó a mano contra un colega, Alick Glennie: una media hora de cálculos por jugada. Turochamp perdió. Nunca funcionó en una computadora en vida de Turing, y todavía se considera el primer programa de ajedrez escrito."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "Nueva York, 1997",
+      "text": "Kaspárov venció a Deep Blue en 1996, cuatro partidas a dos. IBM se llevó la máquina, la reconstruyó y pidió la revancha.\n\nNueva York, mayo de 1997, de nuevo seis partidas. Deep Blue ganó por tres y medio a dos y medio: la primera vez que un campeón del mundo en ejercicio perdía un match contra una computadora. La diferencia fue una partida.\n\nEsta es la última de las seis, y las Blancas son la máquina."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "La puerta de f7",
+      "text": "Las Negras acaban de avanzar el peón a h6, lo que le pregunta al caballo de g5 dónde prefiere estar.\n\nEl rey negro de e8 tiene una sola cosa delante: el peón de f7. El alfil blanco de d3 ya apunta por la diagonal que pasa por f5 y g6, así que en cuanto ese peón se mueva, llega un jaque detrás.\n\n{{Bg6}} lo obliga a moverse. También pierde un alfil a cambio de nada: {{fxg6}}.\n\nUn peón no se mueve porque lo amenaces. Se mueve para capturar."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "prompt": "Ofrece al peón de f7 algo que capturar, y conserva el alfil que dará jaque detrás de él.",
+      "targetSan": [
+        "Nxe6"
+      ],
+      "hint": "Cuenta los defensores del peón negro de e6. Hay exactamente uno, y es el peón que necesitas mover."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Una sola jugada legal",
+      "text": "Captura el caballo enseguida y la cosa termina aquí: el alfil llega a g6 con jaque, y las Negras tienen exactamente una respuesta legal en todo el tablero. No una elección entre malas casillas. Una jugada.\n\nAsí que el rey negro de e7 se queda delante de su propia dama en d8 y de su propio alfil en f8, y el derecho a enrocar se pierde para siempre.\n\nCuenta el material y las Negras tienen un caballo de más por un peón. Cuenta las casillas y las Negras están perdidas."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Sin prisa",
+      "text": "Kaspárov no capturó el caballo enseguida. Salió la dama, y Deep Blue respondió enrocando, con el caballo todavía intacto en e6, una pieza entera esperando a ser capturada.\n\nEl sacrificio en sí ya estaba en los libros. Lo que inquietó a la gente fue la absoluta falta de prisa de la máquina después.\n\nLa captura llegó una jugada más tarde, lo que mandó al rey a d8 en lugar de a e7. Kaspárov abandonó en la jugada diecinueve, la partida más corta del match."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Lo que vino después",
+      "text": "Deep Blue era conocimiento ajedrecístico humano, escrito como reglas, que exploraba doscientos millones de posiciones por segundo.\n\nEn 2017 **AlphaZero** recibió las reglas y nada más, jugó millones de partidas contra sí mismo y llegó a un estilo que los románticos habrían reconocido. Desde 2020 **Stockfish**, el motor libre más fuerte y el que funciona dentro de esta aplicación, valora las posiciones con una pequeña red neuronal tomada del shogi.\n\nNadie ha resuelto el ajedrez. Las posiciones con siete piezas o menos se pueden consultar en una tabla; con treinta y dos, ni de lejos.\n\n> Una máquina llega contando cada línea. Tú llegas reconociendo la forma, y las formas que vienen tienen nombre."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "prompt": "Nada de las Negras se escapa, así que dedica la jugada a tu propio rey.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Hay exactamente una jugada en este tablero que mueve dos piezas blancas a la vez."
+    }
+  ]
+}

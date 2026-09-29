@@ -1,0 +1,12 @@
+{
+  "id": "discovery-10",
+  "fen": "kr6/p1P3pp/8/3N1q2/8/8/PP5P/5RKB w - - 0 1",
+  "solution": [
+    "Nb6#"
+  ],
+  "rating": 1300,
+  "title": "Ignore the Queen",
+  "setup": "Your rook eyes the black queen and your c7-pawn eyes the rook, while the black king waits in the corner.",
+  "hint": "Both of those captures leave Black alive. Ask instead which square would check the cornered king twice over.",
+  "explanation": "## The Idea\n\nRxf5 wins a queen and cxb8=Q+ wins a rook, but {{Nb6#}} ends it. The knight checks from b6 and uncovers the bishop on h1 down the long diagonal. a7 and b8 hold Black's own pieces, and b7 is covered by that bishop."
+}

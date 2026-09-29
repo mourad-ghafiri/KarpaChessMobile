@@ -1,0 +1,13 @@
+{
+  "id": "openings-15",
+  "fen": "rnbq1rk1/pp2ppbp/3p1np1/2P5/2P1PP2/2N2N2/PP4PP/R1BQKB1R b KQ - 0 7",
+  "solution": [
+    "Qa5",
+    "Bd3",
+    "Qxc5"
+  ],
+  "title": "Invitati, e Poi Ripresi",
+  "setup": "Il Bianco ha costruito un centro enorme e ha appena preso in c5, sperando di tenersi il pedone in più. Riprendetevelo con una mossa che inchiodi anche un cavallo.",
+  "hint": "Il re bianco è ancora a casa, e uno dei suoi cavalli sta sulla diagonale che ci arriva. Dove può fare due lavori la vostra donna?",
+  "explanation": "## L'idea\n\nL'Est-Indiana lascia che il Bianco afferri il centro, e poi chiede da che cosa sia tutto difeso.\n\n{{Qa5}} fa due lavori: inchioda il cavallo di c3 contro il re in e1, e attacca il pedone in c5 lungo la quinta traversa. Il meglio per il Bianco è sviluppare con {{Bd3}}, e {{Qxc5}} si riprende subito il pedone.\n\nIl materiale è pari, e i pedoni bianchi in c4, e4 e f4 adesso devono dimostrare di essere punti di forza e non bersagli.\n\nLo spazio è un vantaggio solo finché si riesce a difenderlo."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-09",
+  "fen": "rnbqkbn1/ppppp3/8/6pr/3P1p2/3BP1B1/PPP2PPP/RN2K1NR w KQq - 0 8",
+  "solution": [
+    "Bg6#"
+  ],
+  "rating": 840,
+  "title": "El agujero de f7",
+  "setup": "Las Negras acaban de comerse tu dama en h5, y f7 está vacía con su rey todavía en e8.",
+  "hint": "El rey negro tiene exactamente una casilla libre al lado. ¿Qué pieza puede atacarla y dar jaque a la vez?",
+  "explanation": "## La idea\n\nLas propias piezas negras ocupan d7, d8 y f8, así que f7 es la única casilla del rey, y {{Bg6#}} cubre f7 dando jaque justo a través de ella. La torre que acaba de comerse tu dama está a una casilla de impedirlo y no puede volver a tiempo."
+}

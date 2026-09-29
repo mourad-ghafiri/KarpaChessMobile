@@ -1,0 +1,14 @@
+{
+  "id": "skewer-07",
+  "fen": "8/8/3q1k2/4Rpp1/2rP4/6RQ/5r2/6K1 w - - 0 1",
+  "solution": [
+    "Qh6+",
+    "Kf7",
+    "Qxd6"
+  ],
+  "rating": 1140,
+  "title": "Check From the Edge",
+  "setup": "Black's king on f6 has its queen sitting two squares away on d6, on the very same rank.",
+  "hint": "The black king and queen share a rank. Where can your queen enter that rank with check and stay safe?",
+  "explanation": "## The Idea\n\n{{Qh6+}} slides onto the sixth rank with check, and the black queen on **d6** is stuck behind its own king. The pawn on g5 cannot reach h6, so the check stands. {{Kf7}} is the only legal step, and {{Qxd6}} takes the queen."
+}

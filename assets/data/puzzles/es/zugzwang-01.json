@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-01",
+  "fen": "8/2QK4/6p1/8/8/8/8/3B3k w - - 0 1",
+  "solution": [
+    "Qg3",
+    "g5",
+    "Bf3#"
+  ],
+  "rating": 1400,
+  "title": "No hagas nada, despacio",
+  "setup": "El rey negro está atascado en la esquina, en h1, y su única pieza con futuro es el peón de g6.",
+  "hint": "No hay ningún jaque que funcione. Pregúntate qué tendrían que jugar las Negras si simplemente pasaras.",
+  "explanation": "## La idea\n\n{{Qg3}} no da jaque y le quita al rey todas sus casillas. A las Negras solo les queda {{g5}}, y sigue {{Bf3#}}. El zugzwang es la jugada que convierte la obligación de mover en todo el problema."
+}

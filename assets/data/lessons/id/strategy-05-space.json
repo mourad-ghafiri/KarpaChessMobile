@@ -1,0 +1,65 @@
+{
+  "id": "space-advantage",
+  "title": "Keunggulan Ruang",
+  "summary": "Lebih banyak ruang bagi buah Anda, lebih sedikit bagi buah lawan",
+  "proof": "strategy-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "title": "Tiga Melewati Tengah",
+      "text": "Hitung pion yang sudah meninggalkan rumah. Putih punya tiga, di c4, d4 dan e5. Hitam punya satu.\n\nPerbedaan itu punya nama. **Keunggulan ruang** adalah ruang di belakang pion-pion Anda sendiri: petak-petak tempat buah Anda bisa berdiri dan tak bisa dicapai pasukan lawan.\n\nLihat tagihan yang sedang dibayar Hitam. Kuda telah diusir mundur ke b6, tujuh buah masih duduk di baris belakang, dan satu-satunya pion yang bergerak adalah yang di d6.\n\nGiliran Putih, dan masih ada ruang yang bisa direbut."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "prompt": "Rebut satu petak lagi di sayap raja dengan pion, dan tambahkan pembela kedua bagi e5 sambil berjalan.",
+      "targetSan": [
+        "f4"
+      ],
+      "hint": "Hanya satu langkah pion yang memberi pion di e5 pembela kedua tanpa melepaskan hal lain."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Ruang untuk Memilih",
+      "text": "Ruang bukanlah materi. Tak ada yang dimenangkan di sini, dan hitungan poinnya persis seimbang.\n\nYang dimiliki Putih adalah pilihan. Di belakang empat pion di c4, d4, e5 dan f4, setiap buah putih punya rute untuk dipilih, dan pion di e5 diam-diam merebut f6 dari kuda-kuda Hitam.\n\nBandingkan dengan kuda di b6. Selain membuang diri di c4, pilihannya adalah {{Na4}}, di tepi, {{Nd5}}, tempat pion c Putih tinggal mengambilnya, dan mundur ke d7 yang menghalangi gajahnya sendiri. Begitulah rasanya posisi yang sempit dari dalam: daftar yang pendek, setiap langkah."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Pihak Mana yang Bertukar",
+      "text": "Dengan ruang, pertahankan buah-buah di papan. Pasukan Anda punya ruang untuk bermanuver dan pasukan lawan tidak, jadi setiap pertukaran yang Anda izinkan mengembalikan petak-petak.\n\nKetika sempit, lakukan sebaliknya. Tukar apa pun yang bisa Anda jangkau: setiap buah yang meninggalkan papan memberi yang tersisa lebih banyak ruang, dan pihak dengan petak lebih sedikit kehabisan petak lebih dulu.\n\nGiliran Hitam di sini, dan Hitamlah pihak yang sempit. Jadi langkah yang dicari bukanlah geseran."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "prompt": "Anda pihak yang sempit, jadi singkirkan sebuah pion dari papan dan beri buah-buah Anda ruang untuk bernapas.",
+      "targetSan": [
+        "dxe5"
+      ],
+      "hint": "Penangkapan mana yang mengosongkan lajur di depan menteri Anda?"
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn1p3/3PPb2/2P5/2N1BN2/PP4PP/R2QKB1R b KQk - 0 10",
+      "title": "Lima Langkah Kemudian",
+      "text": "Putih mendorong lagi dan kini menguasai c4, d5 dan e5. Jawaban Hitam sama seperti tadi: serang bajinya, tukar buah-buahnya.\n\n{{exd5}} {{cxd5}}, dan trio yang maju itu tinggal sepasang.\n\nTak ada yang dimenangkan. Hitungan poin tak bergeser dan Putih masih menguasai pusat. Tetapi dua pion sudah tersingkir dari jalan, dan buah-buah di belakangnya akhirnya punya tempat untuk dituju."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "title": "Ruang Itu Disewa",
+      "text": "Pion yang sudah berjalan ke d5 tak bisa berjalan kembali. Ia harus ditopang di tempatnya berdiri, dan kuda di c3 serta menteri di d1 adalah dua buah yang menopangnya.\n\nItulah retakan di setiap pusat yang besar. Pihak yang sempit bertukar lebih dulu lalu menekan pion-pion yang membuatnya sempit, karena setiap penyerang yang ditambahkan adalah satu buah lawan lagi yang terpaku untuk bertahan, bukan mengerjakan apa yang diinginkannya.\n\n> Ruang lebih banyak, pertukaran lebih sedikit. Ruang lebih sedikit, tukar segalanya dan tekan apa yang tersisa."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "prompt": "Tambahkan penyerang ketiga terhadap pion d Putih, dan selamatkan kuda yang diserang pion itu pada langkah yang sama.",
+      "targetSan": [
+        "Nb4"
+      ],
+      "hint": "Menteri Anda dan kuda di b6 sudah menyentuh d5. Petak mana yang membiarkan kuda di c6 lolos dan bergabung dengannya?"
+    }
+  ]
+}

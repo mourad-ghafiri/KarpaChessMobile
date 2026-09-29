@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-03",
+  "fen": "8/8/2k5/1RP5/2K5/8/6r1/8 b - - 0 1",
+  "solution": [
+    "Rg4+"
+  ],
+  "rating": 1300,
+  "title": "Mexe o Defensor",
+  "setup": "O rei preto já ataca a torre de b5, e o rei branco de c4 é a única coisa a defendê-la.",
+  "hint": "A torre está defendida exatamente uma vez. Encontra o xeque que manda esse defensor embora e deixa a tua própria torre segura.",
+  "explanation": "## A Ideia\n\n{{Rg4+}} empurra o defensor para fora: depois de {{Kc3}} {{Kxb5}}, o peão c cai também e as pretas ficam com uma torre a mais. A natural {{Rc2+}} também persegue o rei, mas depois de {{Kb3}} ataca a tua torre, e as torres saem para um empate morto."
+}

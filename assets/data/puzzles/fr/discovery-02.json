@@ -1,0 +1,12 @@
+{
+  "id": "discovery-02",
+  "fen": "3r2k1/b4ppp/p7/8/3n4/5P2/P3Q1PP/4R1K1 b - - 0 1",
+  "solution": [
+    "Nxe2+"
+  ],
+  "rating": 1000,
+  "title": "Deux échecs à la fois",
+  "setup": "Votre fou en a7 balaie la grande diagonale jusqu'en g1, et votre propre cavalier en d4 la bloque.",
+  "hint": "Comptez combien de vos pièces donneraient échec à l'instant où le cavalier quitte d4.",
+  "explanation": "## L'idée\n\n{{Nxe2+}} est un échec double : le cavalier frappe g1 depuis e2 et le fou le frappe le long de la diagonale a7-g1. On ne peut répondre à un échec double que par un coup de roi, donc Rxe2 est illégal, et au coup suivant le cavalier s'en va tranquillement, après avoir gagné la dame pour rien."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-09",
+  "fen": "4nrk1/5p1p/6pQ/8/8/7P/qB3PPK/4R3 w - - 1 2",
+  "solution": [
+    "Rxe8"
+  ],
+  "rating": 1350,
+  "title": "g7'nin Nöbetçisi",
+  "setup": "Veziriniz ile filiniz g7'ye yükleniyor ve o kareyi şahtan başka kapsayan tek taş e8'deki at.",
+  "hint": "Mat bir hamle ötede ve siyahın tek bir taşı onu engelliyor. g7'yi hangi taş kapsıyor ve ona ne ulaşabilir?",
+  "explanation": "## Fikir\n\n{{Rxe8}} g7'yi kapsayan atı alır. {{Rxe8}} ile geri almak şaha hiçbir şey kazandırmaz ve {{Qg7#}} işi bitirir: veziri b2'deki fil tutar ve siyahın karesi kalmaz. Mat bir hamle ötedeyken taşı değil, koruyucuyu fiyatlayın."
+}

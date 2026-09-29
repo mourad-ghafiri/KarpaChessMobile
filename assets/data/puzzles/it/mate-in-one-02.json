@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-02",
+  "fen": "rnbqk2r/pppp1ppp/5n2/2b1p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4",
+  "solution": [
+    "Qxf7#"
+  ],
+  "rating": 630,
+  "title": "Due Attaccanti, Una Guardia",
+  "setup": "La vostra donna in h5 e il vostro alfiere in c4 fissano tutti e due f7, la casa che difende solo il re nero.",
+  "hint": "Due dei vostri pezzi colpiscono già la stessa casa. Contate quanti difensori neri ha.",
+  "explanation": "## L'idea\n\nf7 la difende il solo re, e due attaccanti battono un difensore. {{Qxf7#}} atterra accanto al re, difesa dall'alfiere in c4, quindi non si può prendere. e7 e f8 sono coperte dalla donna stessa; d7 e d8 sono bloccate dal Nero."
+}

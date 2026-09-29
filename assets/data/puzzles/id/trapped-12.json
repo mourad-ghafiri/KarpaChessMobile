@@ -1,0 +1,14 @@
+{
+  "id": "trapped-12",
+  "fen": "3r2k1/pp3ppp/8/2R5/1N6/3N3P/PP3PPK/q7 w - - 0 1",
+  "solution": [
+    "Rc1",
+    "Qxc1",
+    "Nxc1"
+  ],
+  "rating": 1400,
+  "title": "Menteri di Sudut",
+  "setup": "Menteri Hitam telah memakan jalan masuk ke a1, tempat pion-pion Anda sendiri di a2 dan b2 sudah memagarinya.",
+  "hint": "Baris belakang terbuka lebar baginya. Temukan buah yang menyerangnya dan menguasai keduanya.",
+  "explanation": "## Ide\n\n{{Rc1}} menyerang menteri dan merebut b1. a2 dijaga kuda di b4, b2 dan c1 oleh kuda di d3, jadi setiap penangkapan yang dimilikinya membuatnya hilang. {{Qxc1}} {{Nxc1}} adalah yang terbaik yang tersedia: menteri untuk benteng."
+}

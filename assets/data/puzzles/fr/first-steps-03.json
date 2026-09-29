@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-03",
+  "fen": "k7/pp3rpp/8/8/2B5/8/PP4PP/4K3 w - - 0 1",
+  "solution": [
+    "Bxf7"
+  ],
+  "title": "Larcin à longue portée",
+  "setup": "Votre fou en c4 regarde le long de sa diagonale blanche et y trouve une tour noire.",
+  "hint": "Suivez la diagonale depuis c4 : d5, e6… qu'y a-t-il sur la case suivante ?",
+  "explanation": "## L'idée\n\nLa diagonale du fou depuis c4 passe par d5, e6, f7, et la tour noire en f7 se tient juste sur son chemin, **sans personne pour la protéger**. Le roi noir en a8 est bien trop loin pour aider.\n\n{{Bxf7}} parcourt toute la ligne en un coup et prend la tour gratuitement.\n\nLes fous frappent d'un bout à l'autre de l'échiquier. Suivez chaque diagonale jusqu'au bout avant de décider que rien n'est sans protection."
+}

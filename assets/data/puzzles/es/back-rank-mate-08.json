@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-08",
+  "fen": "6k1/5ppp/6n1/8/1B6/8/2r2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Nf8",
+    "Rxf8#"
+  ],
+  "rating": 940,
+  "title": "Fuerza la interposición",
+  "setup": "El caballo negro de g6 puede llegar a f8, y tu alfil de b4 mira esa casilla por la diagonal.",
+  "hint": "Las Negras tienen exactamente una forma de responder a un jaque en la octava fila. ¿Dónde ponen el caballo?",
+  "explanation": "## La idea\n\n{{Rd8+}} deja a las Negras una sola jugada legal, {{Nf8}}, tapando. Esa casilla no es segura: el alfil de b4 la cubre por la diagonal, así que a {{Rxf8#}} no se puede responder con Kxf8. Tapar a la fuerza solo defiende si la casilla donde se tapa también está defendida."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "tactics-mix-01",
+  "fen": "7k/2r2ppp/3B4/2r1Nb2/8/8/PP2Q1Rq/K7 w - - 0 1",
+  "solution": [
+    "Nxf7+",
+    "Rxf7",
+    "Qe8+",
+    "Rf8",
+    "Qxf8#"
+  ],
+  "title": "At Dikeyi Temizliyor",
+  "setup": "Veziriniz e dikeyine bayılırdı, ama e5'teki kendi atınız yolda duruyor. Dikeyi temizleyen ve siyaha hiç vakit bırakmayan hamleyi bulun.",
+  "hint": "Atı şah çekerek oynatın ki siyah sekizinci yatayı korumak için hiç yedek hamle bulamasın.",
+  "explanation": "## Fikir\n\n{{Nxf7+}} e dikeyini şah çekerek temizler. Şah g8'e adımlarsa vezir hemen e8'de mat eder, bu yüzden siyah atı alır: {{Rxf7}}.\n\nŞimdi {{Qe8+}} gelir ve tek kapatma, az önce yedinci yataydan ayrılan kaleyle {{Rf8}} olur. {{Qxf8#}}: d6'daki filiniz veziri korur ve şaha kare kalmaz."
+}

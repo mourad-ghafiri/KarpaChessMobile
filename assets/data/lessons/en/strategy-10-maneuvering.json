@@ -1,0 +1,59 @@
+{
+  "id": "maneuvering",
+  "title": "Maneuvering",
+  "summary": "Three quiet moves to put one piece right",
+  "proof": "strategy-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Nothing to Take, Nothing to Stop",
+      "text": "No piece is hanging. Black threatens nothing, no check is available, and the center can wait: {{d5}} closes it, {{dxe5}} opens it, and neither has to happen this move.\n\nPositions like this are not rare. They are most of a game.\n\nSo the question changes. Not what can I win here, but which of my pieces is doing the least work, and where would it rather be standing. That answer takes three moves to play, and every one of them looks like nothing happening."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Start From the End",
+      "text": "White's knight on b1 has not moved all game, and everything worth attacking is on the other side of the board.\n\nThe square that knight wants is g3: from there it covers f5 and h5, two squares no black pawn is watching.\n\nNow the road. The short way runs through c3, where White's own pawn is parked. So the knight goes the long way around, and the first step of a long way around always looks like a wasted move."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "prompt": "Start the knight that has never moved on its road to the kingside, and keep it off the rim.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "From its home square that knight has exactly two moves: one parks it on the edge, the other keeps it in the game."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "title": "Worse Before Better",
+      "text": "Black's knight ran out of squares on the rim and has come back to c6, where it holds d4 and e5 again. Two players, the same idea, aimed in opposite directions.\n\nYour own knight is one leg in and, for the moment, in the way: on d2 it blocks the bishop on c1 and sits in front of the queen on d1. A knight in the middle of its own back rank is a knight in transit. It pays nothing until it arrives, which is why a maneuver is a decision to be slightly worse for two moves."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "prompt": "The traveling knight is only one leg in, so take the next step toward the other wing.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Three of that knight's four squares keep it on the queenside it is trying to leave; only one does not."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "title": "The Last Leg",
+      "text": "Two moves ago this knight had nothing to do. Now it stands one hop from the square that makes the whole trip worth it.\n\nLook at Black's kingside. No black pawn watches f5, and a knight that reaches f5 hits the bishop on e7 and the pawn on d6 at the same time. So the last leg is not about f5 itself. It is about the square that keeps f5 one jump away and covers h5 on the way.\n\n> Which of your pieces is doing the least, which square would you rather it stood on, and what is the shortest road there."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "prompt": "Complete the journey by putting the knight where it watches both f5 and h5.",
+      "targetSan": [
+        "Ng3"
+      ],
+      "hint": "Two of the knight's four squares look at f5, and only one of those also looks at h5."
+    }
+  ]
+}

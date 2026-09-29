@@ -1,0 +1,13 @@
+{
+  "id": "discovered-01",
+  "fen": "2r1k3/8/8/8/4N3/8/8/4R2K w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd8",
+    "Nxc8"
+  ],
+  "title": "Il Cavallo si Sposta, la Torre Colpisce",
+  "setup": "La torre bianca in e1 punta al re nero, e l'unica cosa di mezzo è il cavallo del Bianco.",
+  "hint": "Ogni mossa di cavallo scopre la torre. Una sola atterra anche su qualcosa.",
+  "explanation": "## L'idea\n\nFinché il cavallo sta in e4 la torre non fa niente. Muovetelo e la linea della torre si apre nello stesso istante: il pezzo che muove non è il pezzo che attacca.\n\nParecchie mosse di cavallo danno quello scacco, ma solo {{Nd6+}} fa un secondo lavoro, attaccando la torre in c8. Ed è anche uno **scacco doppio**, quindi niente può parare e prenderne uno lascia l'altro.\n\nIl re ha tre case. {{Kd8}} lo tiene vicino, e {{Nxc8}} vince la torre — il re riprende, e la qualità è vostra."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-18",
+  "fen": "8/4P3/5k2/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "e8=Q"
+  ],
+  "title": "Coronation",
+  "setup": "Your pawn has marched all the way to **e7**, and the black king is standing right beside it.",
+  "hint": "The black king attacks your pawn, and your own king is far away. Use this move before Black uses the next one.",
+  "explanation": "## The Idea\n\nA pawn that reaches the last rank promotes: it turns, as part of the same move, into any piece you choose.\n\n{{e8=Q}} turns a one-point pawn into a nine-point queen, and the king on f6 cannot reach e8 to take it. Any other move lets {{Kxe7}} remove the pawn, and the win is gone. With a queen against a bare king, checkmate follows.\n\nA pawn one step from the end is worth promoting now."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-10",
+  "fen": "3B4/8/7k/1K6/4p3/1R6/2p5/2R5 w - - 0 1",
+  "solution": [
+    "Rg3",
+    "e3",
+    "Rh1#"
+  ],
+  "rating": 1680,
+  "title": "Potong Lajurnya, Bukan Rajanya",
+  "setup": "Raja Hitam di h6 dengan dua pion yang berlari di c2 dan e4, dan benteng-benteng Anda di b3 dan c1.",
+  "hint": "Kedua pion hitam hampir berpromosi. Abaikan keduanya dan rebut lajur yang akan dipakai raja.",
+  "explanation": "## Ide\n\n{{Rg3}} merebut lajur g tanpa sekak, dan tak ada langkah Hitam yang menghentikan apa yang datang berikutnya. {{Rh1#}} memberi mat di lajur h dengan benteng di g3 menjaga g6 dan g7. Dua pion yang tinggal selangkah dari promosi tetap lebih lambat daripada satu benteng di lajur yang tepat."
+}

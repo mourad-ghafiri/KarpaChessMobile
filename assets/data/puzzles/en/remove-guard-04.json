@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-04",
+  "fen": "2r3k1/5ppp/8/p2b4/1n6/2B4P/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxb4"
+  ],
+  "rating": 1170,
+  "title": "Pull the Prop Away",
+  "setup": "Your rook on d1 attacks the bishop on d5, which is defended only by the knight on b4.",
+  "hint": "Follow the defense backward. Which black piece holds d5, and what of yours can reach that piece?",
+  "explanation": "## The Idea\n\n{{Bxb4}} trades a bishop for the knight that guards d5. After {{axb4}} the bishop has no protection left and {{Rxd5}} takes it. The first capture is even; the second one is free. Work backward from the target to the piece that keeps it alive."
+}

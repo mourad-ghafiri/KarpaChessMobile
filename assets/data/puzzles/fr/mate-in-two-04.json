@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-04",
+  "fen": "7k/6pp/8/bP6/3Q4/3R4/5PPP/2K5 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Bxd8",
+    "Rxd8#"
+  ],
+  "rating": 1050,
+  "title": "La dame pour la dernière rangée",
+  "setup": "Le fou noir en a5 est la seule pièce qui surveille d8, et son roi se tient derrière deux pions en h8.",
+  "hint": "Votre tour veut la huitième rangée, mais une pièce noire couvre la case d'entrée. Que pouvez-vous lui offrir ?",
+  "explanation": "## L'idée\n\n{{Qd8+}} est une déviation. Le roi est emmuré par ses propres pions en g7 et h7, donc le fou doit prendre : {{Bxd8}} est le seul coup légal. La colonne d est maintenant dégagée derrière lui, et {{Rxd8#}} conclut sur la dernière rangée."
+}

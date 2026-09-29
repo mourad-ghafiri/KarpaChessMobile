@@ -1,0 +1,68 @@
+{
+  "id": "tournaments",
+  "title": "Turnamen Terbuka Pertama Anda",
+  "summary": "Sistem Swiss, bye, dan orang yang berdiri di tengah",
+  "proof": "culture-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Meja Empat Puluh, Babak Pertama",
+      "text": "Dua ratus satu pemain mendaftar, dan lembar pasangan membelah daftar itu menjadi dua: setiap pemain di separuh atas mendapat lawan dari separuh bawah. Itulah sebabnya lawan terkuat Anda sepanjang akhir pekan sedang duduk di hadapan Anda sekarang, di babak pertama, bermain dengan cepat.\n\nTak ada yang tersingkir. Kalah dalam partai ini dan Anda dipasangkan lagi sesudah makan siang, melawan seseorang yang juga kalah."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Dipasangkan Menurut Skor",
+      "text": "Mulai babak kedua, program pemasangan mengurutkan semua pemain menurut skor dan memasangkan di dalam setiap kelompok, jadi yang menang bertemu yang menang dan yang kalah bertemu yang kalah. Program itu juga mencatat siapa sudah mendapat warna apa dan menyeimbangkan keduanya sepanjang acara sejauh pemasangan memungkinkan. Anda tak pernah mendapat lawan yang sama dua kali.\n\nItulah **sistem Swiss**, dan itulah yang memungkinkan dua ratus peserta menyelesaikan sembilan babak dalam satu pekan yang panjang."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Sebuah Pion Berjalan Menuju Gajah Anda",
+      "text": "Pion h Putih duduk di h4, dan ia tidak di sana untuk menikmati pemandangan. Satu dorongan lagi dan gajah Anda kehilangan g6.\n\nHitung petak-petak yang tersisa baginya. Menyusuri diagonal ia berlari ke tengah papan, tempat sebuah pion dan seekor kuda menunggu untuk mengejarnya dari petak ke petak, dan gajah yang harus terus berlari akhirnya kehabisan tempat. Inilah cara tertua memenangkan buah dalam pembukaan ini: bukan taktik, hanya sebuah pion yang berjalan menuju sesuatu yang tak bisa diam."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "prompt": "Buka petak mundur yang akan dibutuhkan gajah Anda sebelum pion h Putih mengusirnya dari g6.",
+      "targetSan": [
+        "h6"
+      ],
+      "hint": "Satu-satunya jalan mundur gajah melewati pion-pion sayap raja Anda sendiri."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Angka Ganjil",
+      "text": "Ada dua ratus satu nama di papan pengumuman. Angka ganjil, jadi setiap babak satu pemain tertinggal tanpa lawan dan mendapat bye, biasanya dinilai sebagai kemenangan.\n\nSebagian besar acara juga memberikan bye setengah poin untuk babak yang Anda minta libur sebelumnya, dan itulah bedanya antara melewatkan babak kelima dan kalah di babak itu. Tanyakan soal bye sebelum Anda mendaftar, bukan pada pagi hari babak itu.\n\nPutih tetap mendorong. {{h5}}, dan kali ini {{Bh7}} adalah petak yang tersedia."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Dua Cara Lain Menyelenggarakannya",
+      "text": "Sistem setengah kompetisi memasangkan setiap pemain dengan setiap pemain lain: sepuluh pemain, sembilan babak, dan tabel silang menjawab setiap pertanyaan yang harus ditebak penentu peringkat. Itulah format paling adil yang ada, itulah sebabnya acara undangan memakainya, dan itu jugalah sebabnya seratus peserta tak pernah memakainya: itu berarti sembilan puluh sembilan babak.\n\nSistem gugur adalah ekstrem yang lain. Satu pertandingan, satu yang kalah, dan separuh peserta pulang sebelum makan malam. Piala Dunia diselenggarakan dengan cara itu, dengan pertandingan dua partai dan tie-break catur cepat ketika hasilnya imbang.\n\nTurnamen terbuka akhir pekan mengambil jalan tengah. Semua orang terus bermain, dan pemasanganlah yang memilah."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "Dengan Siapa Anda Bertemu",
+      "text": "Papan baru, babak terakhir, dan Hitam baru saja mengambil kuda yang tadi Anda miliki di e4.\n\nLebih banyak pemain akan finis dengan skor teratas daripada jumlah hadiah yang ada, jadi penentu peringkatlah yang memutuskan, dan aturannya diumumkan sebelum babak pertama. Bacalah di sana. Sebagian besar mengukur dengan siapa Anda bertemu: Buchholz menjumlahkan skor akhir lawan-lawan Anda, Sonneborn-Berger membobot skor itu menurut apakah Anda mengalahkan atau remis melawan masing-masing. Tak ada yang bisa bermain demi penentu peringkat. Ia hanya menjelaskan, belakangan, mengapa kalah dari juara akhir lebih murah daripada kalah dari seseorang yang mundur keesokan paginya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "Angkat Tangan",
+      "text": "Wasit membuat pasangan, menegakkan aturan dan memutuskan klaim. Angkat tangan; jangan berdebat di seberang papan. Dalam catur standar, langkah tidak sah pertama Anda yang sudah selesai memberi lawan dua menit tambahan dan yang kedua mengakhiri partai, jadi panggil wasit alih-alih memperbaikinya sendiri.\n\nAnda melakukan rokade panjang langkah lalu, dan benteng di d1 membidik ke atas lajur yang terhalang gajahnya sendiri. {{Qd8+}} {{Kxd8}} {{Bg5+}} memberi sekak ganda, dan raja punya dua petak. Di c7 gajah memberi mat dari d8, jadi Hitam mencoba {{Ke8}}.\n\n> Pasangan, jam dan daftar hadiah milik wasit. Papan milik Anda."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+      "prompt": "Raja Hitam justru lari ke e8, jadi temukan mat dalam satu langkah di lajur yang sudah dikuasai benteng Anda.",
+      "targetSan": [
+        "Rd8#"
+      ],
+      "hint": "Gajah di g5 menguasai e7 dan menjaga petak pendaratan, jadi benteng hanya perlu tiba dengan sekak."
+    }
+  ]
+}

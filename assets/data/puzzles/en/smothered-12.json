@@ -1,0 +1,20 @@
+{
+  "id": "smothered-12",
+  "fen": "r5k1/2p3pp/1b6/1p2N3/8/B7/P1Q2PPP/6K1 w - - 6 28",
+  "solution": [
+    "Qb3+",
+    "Kh8",
+    "Nf7+",
+    "Kg8",
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1500,
+  "title": "Checks Until Smothered",
+  "setup": "Black has just moved its bishop off the a3–f8 diagonal, and the white bishop now covers f8.",
+  "hint": "Begin with a check the pawn on b5 cannot punish, and after that never leave the king an empty square.",
+  "explanation": "## The Idea\n\n{{Qb3+}} forces {{Kh8}}, because the bishop covers f8. Then {{Nf7+}} {{Kg8}} and {{Nh6+}} arrives as a double check, driving the king back to the corner. The queen lands on g8, the rook is obliged to take, and the knight returns to f7 for mate. Every black reply is the only legal move."
+}

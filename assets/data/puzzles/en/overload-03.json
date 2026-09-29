@@ -1,0 +1,14 @@
+{
+  "id": "overload-03",
+  "fen": "r5k1/5ppp/8/8/3R4/8/PP2b3/K2R2Q1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1330,
+  "title": "Only One Rook Comes Back",
+  "setup": "Black's rook guards the back rank from a8 and your rooks are doubled on the d-file with the queen watching from g1.",
+  "hint": "Count how many of your pieces can reach the eighth rank, then count how many of Black's can answer.",
+  "explanation": "## The Idea\n\n{{Rd8+}} offers a rook the defender must take, and {{Rxd8}} pulls it off a8. The second rook follows with {{Rxd8#}}. One defender cannot answer two attackers on the same square; the count is the whole tactic."
+}

@@ -1,0 +1,76 @@
+{
+  "id": "queen-moves",
+  "title": "Todos los caminos a la vez",
+  "summary": "Las líneas de la torre y las diagonales del alfil en una sola pieza, y por qué a todos los peones les encanta verla",
+  "proof": "first-steps-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Nada nuevo que aprender",
+      "text": "Aquí no hay un movimiento nuevo. Ya conoces sus dos mitades.\n\nLa dama en d4 va en línea recta como una torre —{{Qd8}} por la columna, {{Qa4}} por la fila— y en diagonal como un alfil, {{Qh8}} hasta la esquina lejana y {{Qg1}} hasta el borde inferior.\n\nCuatro caminos, mostrados juntos. Hay ocho: uno por cada dirección en que una fila, una columna o una diagonal puede salir de una casilla."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Veintisiete casillas",
+      "text": "Cuenta lo que toca la dama desde d4: catorce casillas como torre y trece más como alfil, veintisiete en total. Un caballo en esa misma casilla alcanza ocho.\n\nPero veintisiete es el número de un tablero vacío. La dama hereda los caminos de sus dos padres, y también sus límites, y ninguno de los dos salta. La primera pieza que hay en un camino lo corta, y todo lo que queda detrás está fuera de su alcance hasta que se despeje."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "Envía la dama por cualquiera de los ocho caminos que salen de d4, tan cerca o tan lejos como quieras.",
+      "targetSan": [
+        "Qc5",
+        "Qb6",
+        "Qa7",
+        "Qe5",
+        "Qf6",
+        "Qg7",
+        "Qh8",
+        "Qc3",
+        "Qb2",
+        "Qa1",
+        "Qe3",
+        "Qf2",
+        "Qg1",
+        "Qd5",
+        "Qd6",
+        "Qd7",
+        "Qd8",
+        "Qd3",
+        "Qd2",
+        "Qd1",
+        "Qc4",
+        "Qb4",
+        "Qa4",
+        "Qe4",
+        "Qf4",
+        "Qg4",
+        "Qh4"
+      ],
+      "hint": "Todo lo que una torre podría hacer desde esta casilla es una jugada de dama, y todo lo que podría hacer un alfil, también."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Todos quieren perseguirla",
+      "text": "La fuerza tiene un precio, y para la dama ese precio es la atención.\n\nTodas las demás piezas del tablero son más pequeñas, así que a todas les encanta atacar a la dama. Un peón que llega ofrece un cambio que la dama no puede aceptar: la pieza más grande de las Blancas por la más pequeña de las Negras. Así que la dama se va.\n\nSácala pronto y toda la partida será eso: la dama se mueve, y vuelve a moverse, mientras las Negras colocan tranquilamente sus piezas donde las quieren.\n\n> Nada en el tablero es más feliz que un peón que ha encontrado a la dama rival."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Cuenta lo que te está mirando",
+      "text": "Así que a la dama solo le queda un tipo de captura que merezca la pena: aquella a la que nada responde.\n\nAntes de capturar nada con ella, pregúntate qué vigila esa casilla. Si un peón la protege, el peón recaptura la dama en cuanto llega, y habrás entregado tu mejor pieza por la más barata de las Negras.\n\nSi nada la vigila —ningún defensor, nada detrás, ninguna respuesta—, la dama captura y no paga nada."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "prompt": "El último peón negro no tiene a nadie que lo defienda: captúralo sin pagar nada.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "La dama y ese peón ya comparten columna, y el camino entre ellos está vacío."
+    }
+  ]
+}

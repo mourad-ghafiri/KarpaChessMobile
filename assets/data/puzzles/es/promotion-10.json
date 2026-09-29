@@ -1,0 +1,12 @@
+{
+  "id": "promotion-10",
+  "fen": "7R/1Ppkp3/p7/4PP2/8/8/6KP/q7 w - - 0 1",
+  "solution": [
+    "b8=N#"
+  ],
+  "rating": 1340,
+  "title": "El caballo da mate",
+  "setup": "El rey negro está en d7, emparedado por sus propios peones de c7 y e7, y tu peón de b está listo para llegar.",
+  "hint": "Una nueva dama en b8 ni siquiera daría jaque. Pregúntate qué coronación alcanza d7 desde esa casilla.",
+  "explanation": "## La idea\n\n{{b8=N#}} da jaque desde b8, y el rey no tiene casillas: c6 la cubre el caballo, d6 el peón de e5, e6 el peón de f5, y c8, d8 y e8 la torre de h8. En c7 y e7 están sus propios peones. Una dama ahí no daría ningún jaque."
+}

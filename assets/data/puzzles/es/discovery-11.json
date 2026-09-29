@@ -1,0 +1,12 @@
+{
+  "id": "discovery-11",
+  "fen": "r6k/ppp5/7K/8/8/1B6/PP6/7R w - - 0 1",
+  "solution": [
+    "Kg6#"
+  ],
+  "rating": 1330,
+  "title": "El rey descubre",
+  "setup": "Tu torre de h1 mira columna h arriba al rey negro, y la pieza que estorba es tu propio rey.",
+  "hint": "Delante de una batería puede estar cualquier cosa, incluso un rey. ¿Qué casilla mantiene cubiertas todas las huidas?",
+  "explanation": "## La idea\n\n{{Kg6#}} es un jaque al descubierto: el rey sale de la columna h y la torre da jaque desde h1. El propio rey cubre g7 y h7, el alfil de b3 cubre g8 y nada puede tapar en la columna h vacía. Kg5 descubre el mismo jaque, pero entonces g7 queda libre."
+}

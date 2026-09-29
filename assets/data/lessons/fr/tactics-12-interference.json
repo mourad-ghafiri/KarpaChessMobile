@@ -1,0 +1,56 @@
+{
+  "id": "interference",
+  "title": "L'interception",
+  "summary": "Se placer en travers du chemin de leur propre défenseur",
+  "proof": "interference-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Debout sur le seuil",
+      "text": "Votre pion en b7 est à une case d'une dame. La tour en h8 est la seule raison pour laquelle il est encore un pion.\n\nEssayez : {{b8=Q}} {{Rxb8}}. La tour n'a jamais eu besoin de bouger pour couvrir b8 — cinq cases de rangée vide ont fait le travail, et la nouvelle dame dure un coup.\n\nRien de ce que vous possédez n'attaque cette tour, et rien ne la chasse de la huitième rangée. Mais la rangée n'est pas la tour. La rangée est une route, et une route se ferme."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Le mauvais mur",
+      "text": "L'**interception** consiste à placer une pièce sur la route qu'utilise un défenseur. Ici, la route est la huitième rangée.\n\n{{Re8}} la ferme, et même la démolition — tour prend tour, le fou reprend — ne la rouvre pas : le pion va quand même à dame. Mais cette version dépense une tour pour une tâche qu'un fou peut accomplir. Construisez le mur avec le fou, et une tour noire qui l'abat paie cinq points pour trois.\n\nQuand deux de vos pièces peuvent construire le même mur, envoyez celle que vous pouvez le plus facilement perdre."
+    },
+    {
+      "type": "play",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Coupez la huitième rangée avec le mur le moins cher que les Noirs ne peuvent pas retirer gratuitement.",
+      "targetSan": [
+        "Be8"
+      ],
+      "hint": "Cherchez la pièce qui peut atteindre cette rangée sur une case que votre tour protège déjà."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Payé deux fois",
+      "text": "{{Be8}}. Le fou est protégé par la tour en e1, donc le prendre lance un échange au lieu de mettre fin à une menace : la tour noire prend, votre tour reprend, et une tour blanche reste debout sur la huitième rangée.\n\nIgnorer le fou ne vaut pas mieux. {{Kg6}} {{b8=Q}}, et la tour en h8 a tout regardé de derrière un mur à travers lequel elle ne voyait pas.\n\nDans les deux cas, la rangée reste fermée exactement aussi longtemps que le pion en a besoin.\n\n> Un gardien qui agit le long d'une ligne ne garde pas une case. Il garde une route, et une route se ferme."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Attaqué une fois, protégé une fois",
+      "text": "Un nouvel échiquier. Le cavalier en e5 est attaqué une fois et protégé une fois, ce qui revient la plupart du temps à être en sécurité.\n\nLe fou en b2 attaque, le long de la grande diagonale qui passe par c3 et d4. La dame en c7 protège, le long d'une diagonale plus courte avec exactement une case vide au milieu.\n\n{{Bxe5}} {{Qxe5}} : un fou contre un cavalier, un échange égal, et la dame noire arrive sur une meilleure case que celle qu'elle a quittée. Le cavalier n'est pas gratuit tant que ce gardien l'atteint."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Un mur qui porte sa propre menace",
+      "text": "Le mur du fou a tenu parce qu'une tour se trouvait derrière lui. Il existe une seconde façon de faire tenir un mur : qu'il arrive avec sa propre menace.\n\nUn mur qui attaque quelque chose oblige les Noirs à y répondre d'abord, et il ne leur reste aucun coup pour protéger de nouveau le cavalier. Le mur est toujours debout quand vous venez encaisser.\n\nIci, vous pouvez avoir les deux à la fois. L'un de vos pions peut atteindre la case vide de la diagonale de la dame, l'autre pion l'y protège, et la dame se trouve à portée de ce qui y atterrit."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "prompt": "Gagnez le cavalier en coupant la ligne qui le protège.",
+      "targetSan": [
+        "d6"
+      ],
+      "hint": "Le gardien agit le long d'une diagonale où se trouve une case vide — occupez cette case avec quelque chose auquel les Noirs doivent répondre."
+    }
+  ]
+}

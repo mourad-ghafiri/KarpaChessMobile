@@ -1,0 +1,13 @@
+{
+  "id": "history-08",
+  "fen": "r4rk1/pp3ppp/8/8/8/2N5/PPP2PPb/R3RK2 w - - 0 1",
+  "solution": [
+    "g3",
+    "Bxg3",
+    "fxg3"
+  ],
+  "title": "La jugada más tranquila",
+  "setup": "El alfil negro acaba de servirse el peón de h2, y el rey blanco de f1 no llega a él.",
+  "hint": "No persigas al alfil con una pieza. El rey ya cubre g1, así que su única salida es la diagonal. ¿Qué jugada de peón la cierra?",
+  "explanation": "## La idea\n\nNi jaque ni nada que capturar: la jugada ganadora es la más tranquila del tablero, del tipo que encuentran los motores y que las personas se convencen de no jugar.\n\n{{g3}} cierra la diagonal del alfil, y el rey de f1 ya cubre g1. Ahora {{Bxg3}} es el intento menos malo de las Negras, y {{fxg3}} deja a las Blancas con una pieza de más por un peón. {{Bg1}} se lo entrega enseguida al rey, y esperar deja que {{Kg2}} vaya a por él.\n\nAntes de perseguir una pieza metida en tu campo, cuenta sus salidas."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "defence-12",
+  "fen": "8/3r4/5KR1/4r3/3B4/4qk2/Q7/8 w - - 0 1",
+  "solution": [
+    "Qg2+",
+    "Kf4",
+    "Qg4#"
+  ],
+  "rating": 2000,
+  "title": "Offrez la dame deux fois",
+  "setup": "La dame noire en e3 lorgne déjà les cases autour de votre roi en f6, soutenue par des tours en d7 et e5 — vous êtes à un coup du mat.",
+  "hint": "Vos deux échecs placent la dame là où elle peut être prise. Cherchez pourquoi aucune des deux prises n'est légale.",
+  "explanation": "## L'idée\n\n{{Qg2+}} est protégée par la tour en g6, donc {{Kf4}} est forcé, et {{Qg4#}} offre la dame une seconde fois sur une case d'où le roi ne peut pas la prendre. Une défense qui repose sur l'impossibilité de prendre reste une défense."
+}

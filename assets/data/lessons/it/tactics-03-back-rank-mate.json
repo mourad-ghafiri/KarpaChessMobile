@@ -1,0 +1,62 @@
+{
+  "id": "back-rank-mate",
+  "title": "La Traversa di Fondo",
+  "summary": "Una debolezza che è già lì, ad aspettare che una torre se ne accorga",
+  "proof": "tactics-mix-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Cinque Case, Una Traversa",
+      "text": "Niente attacca il re nero, e per ora non serve che qualcosa lo faccia. La trappola è già costruita.\n\nIl re in g8 ha cinque case attorno. Tre sono occupate dai suoi pedoni — f7, g7, h7 — il riparo che l'ha tenuto vivo per tutta la partita. Le altre due sono f8 e h8, e stanno tutte e due sull'ottava traversa, la stessa traversa su cui il re si trova.\n\nQuindi ogni casa che quel re può usare sta su un'unica linea. Mettete una torre su quella linea e la lista è vuota."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Due Domande",
+      "text": "Un matto che vedete una mossa prima che arrivi è fortuna. Questo lo vedete arrivare da lontano, perché è fatto di due domande e a tutte e due si risponde a colpo d'occhio.\n\nIl re avversario può scendere dalla sua traversa di fondo? C'è qualcosa che difende quella traversa?\n\nQui le risposte sono no e no, ed erano no anche dieci mosse fa. Non resta che portare una torre o una donna sull'ottava traversa — e sulla colonna c non c'è niente sopra la vostra torre in c1.\n\nFatevi queste due domande a ogni mossa e smetterete di trovare questa cosa per caso."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "prompt": "Nessuna delle due case rimaste al re lascia l'ottava traversa: prendetevi quella traversa intera in una mossa.",
+      "targetSan": [
+        "Rc8#"
+      ],
+      "hint": "Una colonna davanti alla vostra torre non ha niente sopra, e finisce sulla traversa che volete."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Torre o Donna, Nient'Altro",
+      "text": "La torre non è il punto. Una donna la chiude allo stesso modo, perché quello che serve al matto è un pezzo che copra un'intera traversa in un colpo solo, e solo quei due lo fanno.\n\nUn controllo prima di mandarci uno dei due. La casa su cui atterrate non deve stare accanto al re, a meno che qualcosa di vostro la difenda. Arrivate qui in f8 o in h8 e il Nero non è affatto matto — il re prende il pezzo ed esce a passeggio dal buco che avete appena aperto.\n\nÈ stata la distanza a rendere c8 sicura."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "La Cura Costa una Mossa",
+      "text": "Il vostro re in g1 sta nelle stesse cinque case, e la risposta la conoscete già: dategli una casa di fuga. {{h3}} lo fa — h2 si apre, e una torre che atterra sulla vostra prima traversa diventa uno scacco a cui rispondete, non una partita che perdete.\n\nLa mossa non è gratis. Non attacca niente e non difende niente, e il riparo sta un pedone più avanti di prima.\n\nConta anche quale pedone spendete. Spingere il pedone g regala f3 e h3 e apre la grande diagonale verso il vostro angolo, quindi di solito il pedone h è la casa più economica da comprare."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "Una Guardia per Uno",
+      "text": "Scacchiera nuova, e tutti e due i re sono sigillati nella forma che adesso riconoscete. Una torre a testa, l'una di fronte all'altra lungo la colonna d.\n\nContate che cosa difende l'ottava traversa del Nero: la torre in d8, e nient'altro. Contate che cosa difende la prima traversa del Bianco: la torre in d1, e nient'altro.\n\nNon è una posizione pari. Sono due posizioni che stanno ciascuna a un pezzo dall'essere perse, e muove uno solo dei due."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "Il Cambio che Non È un Cambio",
+      "text": "Stesso pezzo, stessa colonna, stesso valore. Cambiare le torri qui sembra la mossa più noiosa della scacchiera.\n\nSolo che non è un cambio, perché per un cambio serve qualcosa con cui riprendere. Il re nero non può uscire da dietro tre pedoni, e i pedoni non muovono all'indietro. L'unico pezzo che potrebbe riprendere in d8 è quello che viene preso.\n\n> Prima di cambiare l'ultima torre su una colonna aperta, chiedetevi che cosa faceva oltre a starsene lì."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "prompt": "Prendete l'unico pezzo che difende l'ottava traversa del Nero, e contate che cosa resta per riprenderlo.",
+      "targetSan": [
+        "Rxd8#"
+      ],
+      "hint": "Prima di chiamare cambio una presa, stabilite quale pezzo nero potrebbe legalmente raggiungere quella casa."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-12",
+  "fen": "r1bk3r/p2p1pNp/n2B1n2/1p1NP2P/6P1/3P4/P1P1K3/q5b1 w - - 0 23",
+  "solution": [
+    "Be7#"
+  ],
+  "rating": 900,
+  "title": "Three Pieces Are Enough",
+  "setup": "You are down a queen, two rooks and a bishop, and three white pieces stand around the black king on d8.",
+  "hint": "Material tells you nothing here. Count the black king's squares and find who already covers them.",
+  "explanation": "## The Idea\n\nThe knight on d5 covers c7 and e7, the knight on g7 covers e8, and Black's own bishop and pawn block c8 and d7. {{Be7#}} steps into the last gap, defended by the knight, and Black is mated with a queen, two rooks and a bishop extra."
+}

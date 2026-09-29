@@ -1,0 +1,14 @@
+{
+  "id": "deflection-11",
+  "fen": "4kb1r/pp1n1ppp/8/7q/5Q1B/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1470,
+  "title": "Le bloqueur doit prendre",
+  "setup": "Le cavalier en d7 est la seule chose entre votre tour et d8.",
+  "hint": "Le cavalier ne quittera pas cette case de lui-même. Que pouvez-vous placer là où il est obligé de prendre ?",
+  "explanation": "## L'idée\n\n{{Qb8+}} ne laisse aux Noirs qu'un seul coup légal : {{Nxb8}}. Le bloqueur a été arraché à d7, et {{Rd8#}} mate le long de la route où il se tenait. Une pièce qui ferme une colonne n'est un mur que jusqu'à ce qu'un échec l'appelle ailleurs."
+}

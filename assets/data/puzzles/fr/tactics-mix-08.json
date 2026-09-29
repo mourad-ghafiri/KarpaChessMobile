@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-08",
+  "fen": "8/8/8/6k1/8/8/P7/7K w - - 0 1",
+  "solution": [
+    "a4"
+  ],
+  "title": "Deux cases d'un coup",
+  "setup": "Votre roi est loin, et le roi noir en g5 part à la poursuite de votre pion a. Trouvez la seule façon dont le pion atteint la huitième rangée.",
+  "hint": "Imaginez un carré qui part de votre pion jusqu'à sa case de promotion et s'étend en largeur. Le roi noir ne doit pas pouvoir y entrer.",
+  "explanation": "## L'idée\n\n{{a4}} place le pion à quatre coups de a8. Tracez le carré de a4 à a8 et jusqu'à la colonne e : le roi en g5 ne peut pas y entrer, donc il ne rattrape jamais le pion.\n\nUn pas d'une seule case en a3 laisse cinq coups à faire, le carré s'étend jusqu'à la colonne f, et le roi y entre aussitôt. Le double pas initial du pion fait toute la différence."
+}

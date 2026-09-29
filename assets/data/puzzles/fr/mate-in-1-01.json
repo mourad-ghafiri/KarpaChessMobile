@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-01",
+  "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 1",
+  "solution": [
+    "Qxf7#"
+  ],
+  "title": "Le coup du berger",
+  "setup": "Votre dame en h5 et votre fou en c4 visent tous deux la case la plus faible du camp noir.",
+  "hint": "Deux de vos pièces convergent sur une case fragile, et seul le roi la défend.",
+  "explanation": "## L'idée\n\nC'est le coup final du coup du berger. {{Qxf7#}} prend le pion avec échec. Le fou en c4 protège f7, donc le roi ne peut pas prendre la dame, et sa seule case vide, e7, est couverte par la dame. Ses autres voisines, d8, d7 et f8, sont occupées par ses propres pièces.\n\nEn début de partie, f7 n'est protégée que par le roi, alors une dame et un fou pointés dessus forment la plus vieille astuce des échecs."
+}

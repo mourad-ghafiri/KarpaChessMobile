@@ -1,0 +1,65 @@
+{
+  "id": "prophylaxis",
+  "title": "La prophylaxie",
+  "summary": "Tuez le plan avant qu'il soit joué",
+  "proof": "strategy-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "La route vers g1",
+      "text": "Le roi blanc en g1 se tient au bout d'une route sur laquelle personne ne se trouve encore.\n\nSuivez-la : a7, b6, c5, d4, e3, f2, g1. Le pion f est allé en f4, donc f2 est vide et e3 aussi. La seule pièce sur toute cette diagonale est votre propre cavalier en d4.\n\nLa dame noire n'a pas encore bougé. Quand elle le fera, b6 est la case qu'elle voudra."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "La question à laquelle il faudrait répondre",
+      "text": "Améliorez une pièce de la façon naturelle : {{Bf3}} vise le centre.\n\n{{Qb6}}, et le cavalier en d4 est cloué sur votre roi — pas un peu, absolument. Il n'a plus aucun coup légal. La réparation est {{Be3}}, un coup entier dépensé pour que le cavalier respire de nouveau, et le fou en c1 était celui qui protégeait b2.\n\nLa **prophylaxie** est l'autre façon de dépenser ce coup : trouver le prochain bon coup de votre adversaire et le supprimer avant qu'il soit jamais joué."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "prompt": "Retirez la cible du bout de cette diagonale avant que la dame noire ne la regarde.",
+      "targetSan": [
+        "Kh1"
+      ],
+      "hint": "Le problème, c'est la case où se tient votre roi, pas une pièce noire."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K b - - 2 9",
+      "title": "Le plan en dessous",
+      "text": "b6 est désormais une case comme les autres. La diagonale existe toujours, et il n'y a rien au bout.\n\nLes Noirs se tournent donc vers le plan en dessous : {{Qc7}} d'abord, puis le pion b en b5 et jusqu'en b4, pour chasser le cavalier de c3, la pièce qui défend e4.\n\nC'est lent, et c'est la seule chose dans cette position qui pourrait jamais vous battre. La lenteur, c'est exactement ce contre quoi sert la prophylaxie. On la voit venir à quatre coups de distance."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K w - - 3 10",
+      "prompt": "Tout le plan noir sur l'aile dame commence par un pion qui atteint b5 : faites en sorte que cette case coûte du matériel.",
+      "targetSan": [
+        "a4"
+      ],
+      "hint": "Un seul de vos pions peut aller attaquer b5 avant que les Noirs n'y arrivent."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "Rien n'est gratuit",
+      "text": "Le pion en a4 n'était pas gratuit. Il a dépassé b4 pour toujours, et un cavalier noir qui s'y installe est difficile à déloger.\n\nC'est le marché que propose toujours la prophylaxie : vous achetez la suppression d'un plan contre une petite concession permanente. Acceptez le marché quand le plan vaut plus que la case."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "La dernière idée de la position",
+      "text": "L'aile dame est fermée et la route vers votre roi a disparu. Il reste la plus ancienne ressource du camp à l'étroit : un échange.\n\n{{Nc6}} développe et en propose un. Répondez par un coup naturel comme {{Be3}}, et {{Nxd4}} échange ; la position noire respire pour la première fois depuis dix coups.\n\nLes Noirs ne sont pas perdus. Les Noirs sont à court d'idées, et un joueur à court d'idées se laisse dériver.\n\n> Avant de vous demander ce que vous voulez, demandez-vous ce que veut votre adversaire — puis retirez-le-lui."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/1pq1bppp/p1nppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K w - - 1 11",
+      "prompt": "Le camp à l'étroit vit des échanges : retirez-lui le seul qui lui reste.",
+      "targetSan": [
+        "Nb3"
+      ],
+      "hint": "Les Noirs veulent échanger une paire de cavaliers — où ce cavalier peut-il se tenir tout en surveillant a5 et c5 ?"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "knight-moves",
+  "title": "La L del Cavallo",
+  "summary": "L'unico pezzo che scavalca il muro invece di aggirarlo",
+  "proof": "first-steps-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Due Case, Poi Una",
+      "text": "Due case, poi una di lato. Questa è ogni mossa di cavallo mai giocata.\n\nIl cavallo è l'unico pezzo che si rifiuta di viaggiare in linea retta. Non scivola lungo una traversa o una colonna: salta, da dove si trova a dove atterra, e non tocca nulla nel mezzo.\n\nGuardatelo andare: {{Nf6}}. Due case in su da e4, poi una a destra. Una **L**, disegnata in una mossa sola."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Otto Case di Atterraggio",
+      "text": "Contatele da e4: {{Nd6}}, {{Nf6}}, {{Nc5}}, {{Ng5}}, {{Nc3}}, {{Ng3}}, {{Nd2}}, {{Nf2}}. Otto frecce che partono dalla stessa casa nello stesso momento, e ognuna delle otto è una mossa legale.\n\nOra mettete lo stesso cavallo nell'angolo in a1 e contate di nuovo: due. Sei delle sue L escono dal bordo della scacchiera e si portano via le loro case.\n\nQuindi il cavallo vuole il centro. È l'unico pezzo la cui forza si legge dal suo indirizzo."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Fate saltare il cavallo ovunque una L possa portarlo da e4.",
+      "targetSan": [
+        "Nd6",
+        "Nf6",
+        "Nc5",
+        "Ng5",
+        "Nc3",
+        "Ng3",
+        "Nd2",
+        "Nf2"
+      ],
+      "hint": "Contate due case lungo una traversa o una colonna, poi girate di una casa di lato. Ogni direzione va bene."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Mai Due Volte lo Stesso Colore",
+      "text": "La casa e4 è chiara. Tutte e otto le case appena raggiunte dal cavallo sono scure.\n\nVale in ogni punto della scacchiera. Il cavallo cambia il colore sotto i piedi a ogni singolo salto, e non ha voce in capitolo.\n\nIl che vi regala un conto gratis: tutto ciò che sta su una casa chiara è fuori portata per un cavallo che sta su una casa chiara. Fuori portata per questa mossa, almeno. Alla prossima sarà il contrario."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Oltre il Muro",
+      "text": "Ogni partita comincia con un ingorgo. Gli alfieri, le torri e la donna sono chiusi dietro i propri pedoni, e ognuno deve aspettare che un pedone si tolga di mezzo.\n\nI cavalli non aspettano. {{Nf3}} scavalca la fila dei pedoni alla prima mossa, e il pedone in f2 non sente nemmeno lo spostamento d'aria.\n\nÈ per questo che i cavalli sono così spesso i primi pezzi a lasciare la traversa di fondo.\n\n> A tutti gli altri serve una porta. Il cavallo passa sopra il muro."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3p4/3pp3/2N5/8/8/4K3 w - - 0 1",
+      "prompt": "Il vostro cavallo è attaccato: lasciate la casa e prendete il pedone nero che nessuno difende.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "Il cavallo ignora ciò che gli sta davanti, quindi guardate oltre il muro di pedoni, poi chiedetevi quale pedone laggiù ha un secondo pedone pronto a riprendere."
+    }
+  ]
+}

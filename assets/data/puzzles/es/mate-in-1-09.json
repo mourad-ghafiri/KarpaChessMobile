@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-09",
+  "fen": "7k/5K1p/8/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Su propio peón, su propia jaula",
+  "setup": "El rey negro está en la esquina detrás de su propio peón de h7, y tu rey de f7 está cerca.",
+  "hint": "Tu rey ya cubre g7 y g8. La torre solo tiene que llegar a la última fila.",
+  "explanation": "## La idea\n\n{{Ra8#}} da jaque por la última fila. Tu rey de f7 cubre g7 y g8, el propio peón negro ocupa h7, y nada puede capturar la torre ni tapar el jaque.\n\nEn un final de rey y torre, tu rey encierra al rey rival y la torre da el jaque."
+}

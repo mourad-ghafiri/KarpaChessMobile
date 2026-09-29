@@ -1,0 +1,13 @@
+{
+  "id": "windmill-proof",
+  "fen": "r4n1k/pq1n2Rp/1p3B2/2p5/8/2P4P/PP3PP1/6K1 w - - 0 1",
+  "solution": [
+    "Rxd7+",
+    "Kg8",
+    "Rxb7"
+  ],
+  "title": "Dépouillez d'abord le gardien",
+  "setup": "Votre tour en g7 se tient entre votre fou et le roi noir, donc tout coup de tour donne échec. Choisissez celui auquel les Noirs ne peuvent pas répondre par une prise.",
+  "hint": "On peut répondre à un échec à la découverte en prenant la pièce qui le donne. Trouvez ce qui peut prendre votre fou, et rendez-le impossible.",
+  "explanation": "## L'idée\n\nChaque coup de tour donne échec. La plupart permettent au cavalier en d7 de prendre le fou en f6, et les deux échecs doubles, en g8 et h7, offrent votre tour au roi. {{Rxd7+}} prend plutôt ce cavalier, donc l'échec tient et {{Kg8}} est le seul coup légal.\n\nLa tour en d7 regarde maintenant la dame le long de la septième rangée, et la dame n'a pas le temps de fuir : {{Rxb7}} la prend. La tour a donné échec, et pillé deux fois."
+}

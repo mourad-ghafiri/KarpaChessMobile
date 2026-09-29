@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-01",
+  "fen": "2k5/8/3K4/7Q/8/8/8/8 w - - 2 2",
+  "solution": [
+    "Qb5",
+    "Kd8",
+    "Qb8#"
+  ],
+  "title": "İki Adımlık Kafes",
+  "setup": "Siyahın c8'deki şahının hâlâ üç karesi var. Şahınız c7 ile d7'yi zaten tutuyor ve veziriniz uzakta, h5'te.",
+  "hint": "Buradaki her şah, şahın kaçmasına izin verir. Karelerini sessizce elinden alın ve ona tam olarak tek bir hamle bırakın.",
+  "explanation": "## Fikir\n\nÖnce şah çekmek şahın kaçmasına izin verir. {{Qb5}} hiç şah çekmez: bütün b dikeyini alır, yani b8 ile b7 gider ve d6'daki şahınız c7 ile d7'yi zaten tutar.\n\nSiyahın tek kurallı hamlesi kalır, {{Kd8}}, ve o da {{Qb8#}} hamlesinin üstüne yürür. Vezir sekizinci yatayı, şahınız yedinciyi kapsar ve siyahın şahına yer kalmaz. {{Qd7#}} de aynı derecede mat eder."
+}

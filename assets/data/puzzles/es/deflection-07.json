@@ -1,0 +1,14 @@
+{
+  "id": "deflection-07",
+  "fen": "3r2k1/ppq3pp/b6Q/6N1/8/8/1B3PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Qxg7#"
+  ],
+  "rating": 1340,
+  "title": "El guardián sale de la séptima",
+  "setup": "Tu dama y tu alfil apuntan a g7, pero la dama negra de c7 cubre esa casilla por la séptima fila.",
+  "hint": "Dos piezas tuyas atacan g7 y dos suyas la defienden. ¿A qué defensor se le puede encargar un trabajo en otro sitio?",
+  "explanation": "## La idea\n\n{{Rxd8+}} obliga a {{Qxd8}}, y desde d8 la dama ya no ve g7. {{Qxg7#}} da mate, con el alfil de b2 sosteniendo a la dama. Cuenta los defensores de una casilla de mate y elimina uno. Las casillas de mate las defienden piezas, y a las piezas se les puede dar otro trabajo."
+}

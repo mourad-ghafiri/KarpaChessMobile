@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-09",
+  "fen": "1k6/5ppp/8/5PPP/8/8/1K6/8 w - - 1 2",
+  "solution": [
+    "g6"
+  ],
+  "rating": 1390,
+  "title": "Tre Contro Tre",
+  "setup": "Sei pedoni si fronteggiano sull'ala di re mentre i due re stanno a una scacchiera intera di distanza.",
+  "hint": "Nessuno dei due re arriva in tempo, quindi cercate una mossa di pedone che apra una corsia regalando materiale.",
+  "explanation": "## L'idea\n\n{{g6}} è l'unica mossa che vince, e consegna un pedone. {{hxg6}} {{f6}} {{gxf6}} {{h6}} e il pedone h non si può prendere; se il Nero prende dall'altra parte la stessa rottura funziona con il pedone f. Le mosse tranquille fanno patta, e parecchie di esse perdono per la medesima idea."
+}

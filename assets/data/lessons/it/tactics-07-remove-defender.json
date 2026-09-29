@@ -1,0 +1,56 @@
+{
+  "id": "remove-the-defender",
+  "title": "Eliminare il Difensore",
+  "summary": "Un pezzo difeso è sicuro quanto la sua guardia",
+  "proof": "remove-defender-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Un Attaccante, Una Guardia",
+      "text": "L'alfiere nero è entrato in d4 e si è fermato lì, in fondo al campo del Bianco, e non è in presa. La donna in d1 ha una colonna libera fino a lui — ecco un attaccante. Il cavallo in c6 copre d4 — ecco una guardia, e quella guardia è tutta la ragione per cui l'alfiere può stare dove sta.\n\nContare le prese vi ha insegnato a sommare tutti e due i lati prima di prendere. Ecco che cosa fare quando il conto non va come volete.\n\nSmettete di discutere con la casa. Discutete con la guardia."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Due Modi di Fermare una Guardia",
+      "text": "Una guardia smette di difendere quando esce dalla scacchiera, e smette di difendere quando viene cacciata dalla sua casa. Il primo è quello che potete contare fino in fondo, perché dopo una presa non resta niente che possa andare storto.\n\nQuindi il bersaglio non è l'alfiere al centro. Il bersaglio è il pezzo che ne risponde, e quel pezzo sta su una casa che il Bianco raggiunge già.\n\n> Trovate la mossa che volete giocare. Poi trovate l'unico pezzo che dice di no."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "prompt": "Cambiate il conto su d4 prendendo l'unico pezzo nero che ne risponde.",
+      "targetSan": [
+        "Bxc6+"
+      ],
+      "hint": "Contate i difensori di d4. Ce n'è esattamente uno, e qualcosa del Bianco gli punta già dritto addosso."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Nessuno Aveva una Mossa in Più",
+      "text": "La presa è arrivata con scacco, ed è questo che l'ha fatta funzionare. Senza lo scacco, il Nero avrebbe speso la mossa per togliere l'alfiere da d4. Invece la mossa se n'è andata tutta a uscire dallo scacco.\n\nQui ha ripreso la donna; avrebbe potuto riprendere il pedone b. In ogni caso il cambio è pari — un alfiere per un cavallo, tre contro tre, niente vinto e niente perso.\n\nQuello che nessuna ripresa aveva era un momento da spendere su d4."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Ricontate la Casa",
+      "text": "L'alfiere sta ancora in d4 e la donna in d1 lo guarda ancora dritto in faccia. Quello che è cambiato è l'altro lato della somma.\n\nLa donna in c6 non arriva a d4. Nessun pedone la tocca. Nessuna delle due torri sta sulla colonna d, e il re in e8 non è nemmeno vicino.\n\nAttaccato una volta, difeso da nessuno. È il conto che stavate aspettando."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Una Mossa, Non una Posizione",
+      "text": "Prendere una guardia compra esattamente una mossa. Non un vantaggio, non un piano — una mossa.\n\nDate invece un turno al Nero e l'alfiere se ne va da d4 in un posto tranquillo, oppure una torre scende in d8 e lo copre da dietro. Niente tiene fermo quel pezzo se non il fatto che tocca a voi.\n\nC'è un prezzo, ed è piccolo. Appena la donna bianca lascia d1 niente copre c2, e la donna nera ha strada libera lungo la colonna c per mangiarsi quel pedone. Un pedone contro un alfiere non è una trattativa."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "prompt": "Raccogliete il pezzo in d4 prima che al Nero venga data una mossa per portarlo via.",
+      "targetSan": [
+        "Qxd4"
+      ],
+      "hint": "Adesso niente dalla parte del Nero risponde di d4, ed è vero per esattamente una mossa ancora."
+    }
+  ]
+}

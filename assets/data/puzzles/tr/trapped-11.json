@@ -1,0 +1,12 @@
+{
+  "id": "trapped-11",
+  "fen": "3r2k1/pp3pp1/7p/4N3/8/2P4P/1b1P1PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "Nc4"
+  ],
+  "rating": 1370,
+  "title": "Son Kaçışı Alın",
+  "setup": "Siyahın b2'deki filinin çevresinde a1, c1 ve a3 diye üç boş kare var ve kaleniz ikisini çoktan gözlüyor.",
+  "hint": "Kaleniz arka yatayın sahibi ve d piyonunuz c3'ü koruyor. Hangi taş hâlâ boş olan tek kareye ulaşıyor?",
+  "explanation": "## Fikir\n\ne1'deki kale a1 ile c1'i kapsıyor ve c3'ü d2 piyonu koruyor; yani Bxc3 dxc3 bir kurtuluş değil. Yalnızca a3 boştu ve {{Nc4}} file saldırırken orayı da alır. Her kare hesaba katılmıştır ve taşın gitmesi gerekir."
+}

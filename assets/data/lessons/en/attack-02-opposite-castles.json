@@ -1,0 +1,56 @@
+{
+  "id": "opposite-castles",
+  "title": "Opposite-Side Castling Attacks",
+  "summary": "Two attacks, one race, no second prize",
+  "proof": "opposite-castles-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "Two Kings, One Wing Apart",
+      "text": "White's king sits on c1 and Black's on g8, one wing apart, and that single fact changes what every pawn on the board is for.\n\nCastle on the same side and every pawn you push opens a road to your own king, so you leave the pawns alone and move pieces instead. Here that bill never arrives. White's shelter is a2, b2 and c2, and the pawns White can throw at Black stand on the far wing, free to run as far as they like."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "A Footrace, Not a Game",
+      "text": "Black's position says the same thing with the colors swapped, so both players push at once, in opposite directions.\n\nThe winner is whoever tears the first line open at the enemy king — a file, a diagonal, any road a rook or a queen can drive down. Quiet defensive moves do not slow the other side down; they spend the moves you needed to win the race. There is no second prize."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "prompt": "Start the race by pushing the pawn that can chase Black's knight off f6.",
+      "targetSan": [
+        "g4"
+      ],
+      "hint": "Two kingside pawns can leap two squares, and only one of them lands where the pawn on f3 is already guarding."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/3nbppp/p2pbn2/1p2p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 12",
+      "title": "Push, and Push Back",
+      "text": "Black did not sit still. The pawn on b5 is already on its way, and both attacks now run at the same speed.\n\n{{g5}} kicks the knight on f6 away from the defense, {{Ne8}} is where it goes, {{f4}} brings the next pawn up, and {{b4}} hits the knight on c3 the same way White just hit Black's.\n\nNeither side is defending. Both sides are counting."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "What a Move Costs",
+      "text": "Five moves on, both attacks have arrived. White's pawns stand on f5 and g5; Black's stand on a4 and b4, with the rook on a8 lined up behind them.\n\nFrom here every move buys ground or it buys nothing. {{Nc5}} looks like a fine move — the knight steps off d7 onto a better square and eyes e4 — and it does nothing to White's king. Black would be trading a move in the race for a nicer-looking piece, and moves are the only thing either side has left to spend."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "A Pawn Is a Crowbar",
+      "text": "White needs one more push to reach Black's king. Black needs the a-file, and White's pawn on a2 is what closes it.\n\nBuying that line with a pawn is not an even trade, and it is not supposed to be. A pawn is one point. A rook landing next to a bare king ends the game. Material is what you count while nothing is happening; with both kings under fire, moves and lines are the only currency left.\n\n> When the kings sit on opposite wings, a pawn is not material. It is a crowbar."
+    },
+    {
+      "type": "play",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "prompt": "Spend a pawn to rip open the file your rook on a8 has been waiting for.",
+      "targetSan": [
+        "b3"
+      ],
+      "hint": "You do not want the pawn back — you want a capture that pulls White's a-pawn off the file your rook is already on."
+    }
+  ]
+}

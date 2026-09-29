@@ -1,0 +1,56 @@
+{
+  "id": "ruy-lopez-basics",
+  "title": "Ruy López",
+  "summary": "Gajah yang tidak memenangkan pion",
+  "proof": "openings-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "Langkah dari Tahun 1561",
+      "text": "Gajah Putih telah berjalan ke b5, tempat ia menatap lurus kuda di c6 — dan kuda itu satu-satunya yang menjaga pion di e5.\n\nJadi ia terbaca sebagai serangan terhadap pion, dengan satu perantara. Padahal bukan, dan memahami alasannya adalah hal pertama yang dipelajari siapa pun tentang pembukaan ini.\n\nRuy López de Segura, seorang pastor Spanyol, menerbitkan analisis langkah ini pada tahun 1561. Empat setengah abad kemudian langkah itu masih menjadi variasi utama di level tertinggi, nasib yang aneh bagi langkah yang tak mengancam apa pun."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "Pertanyaannya Adalah Kuda",
+      "text": "Sasarannya adalah kuda di c6, bukan pion di belakangnya.\n\nJika gajah itu suatu saat menukar dirinya dengan kuda, Hitam menangkap balik dengan pion dan berakhir dengan dua pion bertumpuk di lajur c, satu di depan yang lain. Pion **ganda** bersifat permanen — pion tak bisa melangkah ke samping untuk memperbaikinya. Hitam mendapat kedua gajah sebagai gantinya, jadi satu hal yang permanen ditukar dengan hal permanen yang lain.\n\nPutih sedang mencari sesuatu yang permanen untuk dijadikan sasaran. Hitam lebih suka menetapkan syarat pertukaran itu sekarang daripada menunggu dan menerimanya begitu saja."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "Paksa gajah memutuskan sekarang — ambil kuda atau mundur — dengan langkah pion yang tak merugikan Anda apa pun.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "Pion Anda mana yang bisa menyerang gajah di b5 dalam satu langkah, tanpa meninggalkan apa pun milik Anda tak terlindungi di belakangnya?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "title": "Menguangkannya",
+      "text": "Putih bisa menangkap sekarang juga dan menghitung pionnya. {{Bxc6}} {{dxc6}} {{Nxe5}}, dan catatan partai menyebut unggul satu pion.\n\nLalu {{Qd4}} datang, menyerang kuda di e5 dan pion di e4 sekaligus. Salah satunya jatuh, materi seimbang, dan Hitam mempertahankan kedua gajah sebagai upah kerepotannya.\n\nGajah itu tak pernah menyerang e5. Menangkap di c6 adalah keputusan tentang pion, dan Putih harus rela hidup dengannya.\n\n> Gajah Spanyol tidak memenangkan materi. Ia membeli perdebatan yang panjang."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Sembilan Langkah, Tanpa Penangkapan",
+      "text": "Sembilan langkah berjalan dan belum satu buah pun ditangkap. Kedua pasukan masih mencari petak yang lebih baik, dan itulah yang dimaksud orang dengan Spanyol Tertutup.\n\nDua langkah Putih tampak seperti tak berarti apa-apa. Pion di c3 bukan pengembangan — ia adalah petak penopang yang menunggu pion tiba di pusat. Pion di h3 juga bukan pengembangan; ia merebut g4, sehingga tak ada gajah hitam yang bisa keluar dan menjepit kuda di f3.\n\nLangkah yang dipakai untuk mencegah ide-ide lawan tidaklah sia-sia dalam posisi yang lambat."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Luncuran Panjang Sang Gajah",
+      "text": "Ikuti jejak gajah petak terang Putih ke belakang. Ia berdiri di b5, melangkah ke a4 ketika sebuah pion memintanya, lalu ke b3 ketika pion lain memintanya. Tiga petak, dua diagonal — dan diagonal kedua membentang sampai ke f7.\n\nMinta sekali lagi dan ia pergi ke c2. Di sana ia membidik ke arah h7, di belakang pion e-nya sendiri, di luar jangkauan. Itu bukan kemunduran yang dikeluhkan Putih: pion di c3 sedang bersiap membuka pusat, dan pusat yang terbuka adalah yang ditunggu gajah itu.\n\nJadi pengejaran ini bukan soal memenangkan buah. Ini soal diagonal mana yang harus diterima Putih."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "prompt": "Kejar buah terbaik Putih: tempatkan kuda di petak lajur a yang menyerang gajah di b3.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "Kedua kuda Anda ada di papan, tetapi hanya kuda sayap menteri yang punya langkah yang menyentuh b3."
+    }
+  ]
+}

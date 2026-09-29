@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-12",
+  "fen": "5r1k/6pp/7N/8/2Q5/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1400,
+  "title": "El mate de la coz",
+  "setup": "Al rey negro lo emparedan en h8 su propia torre y sus peones, a una casilla de una jaula famosa.",
+  "hint": "El rey está casi enterrado por sus propias piezas. ¿Qué casilla sigue libre, y puedes obligarle a llenarla?",
+  "explanation": "## La idea\n\nEste es el **mate de la coz**. {{Qg8+}} ofrece la dama en una casilla que defiende el caballo de **h6**, así que el rey no puede comer y {{Rxg8}} es forzada. Eso tapa la última casilla libre, y {{Nf7#}} cae donde ningún jaque de caballo se puede tapar jamás."
+}

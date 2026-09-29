@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-02",
+  "fen": "2k5/8/1K6/P7/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Kb8"
+  ],
+  "rating": 1140,
+  "title": "Corre a la esquina",
+  "setup": "El rey blanco acaba de subir a b6 para escoltar al peón de a hasta casa, y las Negras tienen tres casillas.",
+  "hint": "Un peón de torre solo tiene una columna propia; pregúntate qué esquina tiene que ocupar el rey defensor.",
+  "explanation": "## La idea\n\n{{Kb8}} es la única jugada. Un peón de torre no puede pasar escoltado frente a un rey que ocupa a8 y b8: {{a6}} {{Ka8}}, y tras a7 las Negras no tienen ninguna jugada legal, lo que es rey ahogado. Apártate en cambio a d7 o d8 y el rey blanco simplemente da la vuelta y corona."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-06",
+  "fen": "1B4k1/5ppp/2r3R1/4r3/8/3Q4/PP1b4/K7 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1500,
+  "title": "İşi Piyonlar Çoktan Yaptı",
+  "setup": "Siyahın kendi f7, g7 ve h7 piyonları şahı kutuya almış, ama siyahın e5'teki kalesi ile d2'deki fili etkin.",
+  "hint": "Mat bir şah ötede. Siyahın doldurmak zorunda kaldığı kareyi ve onu almak için geriye kimin kaldığını belirleyin.",
+  "explanation": "## Fikir\n\n{{Qd8+}} hamlesine yalnızca {{Re8}} ile karşılık verilebilir, çünkü her kaçış karesini piyonların kendisi almıştır. {{Qxe8#}} işi bitirir. Şahın kurduğu barınak, içinde öldüğü kafestir."
+}

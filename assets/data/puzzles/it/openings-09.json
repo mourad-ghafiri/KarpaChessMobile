@@ -1,0 +1,15 @@
+{
+  "id": "openings-09",
+  "fen": "rnbqkb1r/pppp1ppp/8/4P3/6n1/7P/PPPNPPP1/R1BQKBNR b KQkq - 0 4",
+  "solution": [
+    "Ne3",
+    "fxe3",
+    "Qh4+",
+    "g3",
+    "Qxg3#"
+  ],
+  "title": "Il Cavallo che Non Dovete Prendere",
+  "setup": "Il Bianco ha risposto al vostro cavallo con un passivo cavallo in d2, ha preso il pedone e5, e ha appena scacciato il vostro cavallo con h3.",
+  "hint": "Il vostro cavallo è attaccato. Cercate la casa dove prenderlo strapperebbe il tetto al re bianco.",
+  "explanation": "## L'idea\n\nCon il cavallo in d2 che chiude dentro l'alfiere di c1, il re bianco ha poca copertura sulle case scure.\n\n{{Ne3}} attacca la donna in d1 da una casa su cui il Bianco prenderebbe volentieri. Prendere è l'errore grave: dopo {{fxe3}}, {{Qh4+}} lascia solo {{g3}}, e {{Qxg3#}} copre f2 mentre i pezzi stessi del Bianco riempiono il resto. Il meglio per il Bianco è cedere invece la donna.\n\nPrima di prendere un pezzo che si è messo lì apposta, chiedetevi che cosa apre la presa."
+}

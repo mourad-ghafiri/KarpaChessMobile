@@ -1,0 +1,59 @@
+{
+  "id": "notation",
+  "title": "Uma Letra e uma Casa",
+  "summary": "Lê uma partida numa página impressa e joga-a de novo, jogada a jogada",
+  "proof": "notation-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Dois Caracteres, uma Jogada",
+      "text": "Dois caracteres são uma jogada inteira. O xadrez tem uma língua escrita — a **notação algébrica** — e regista apenas onde uma peça **aterrou**, nunca a viagem que fez.\n\nO peão é o caso simples. Não leva letra nenhuma, portanto a casa é a jogada inteira. O peão branco de e2 pode avançar para {{e3}} ou ir duas casas até {{e4}}, e um livro imprime isso como `e3` e `e4`.\n\nNão é *peão branco, de e2 para e4*. É só `e4`. Já sabes ler isso."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppp1p/6p1/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "prompt": "Uma partida impressa abre com `1.e4 g6`, e a entrada seguinte é `2.d4` — joga a jogada que ela nomeia.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Sem letra maiúscula quer dizer que é um peão a jogar, e um peão ainda na casa de partida pode viajar uma casa ou duas."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "O Alfabeto das Peças",
+      "text": "Todas as peças, menos o peão, levam uma letra maiúscula, e a letra vai à frente da casa. **K** é o rei, **Q** a dama, **R** a torre, **B** o bispo. O cavalo fica com **N**, porque o K já estava tomado.\n\nAs letras vêm dos nomes ingleses — King, Queen, Rook, Bishop, Knight — e é assim que as encontras em qualquer aplicação e em qualquer livro internacional; os boletins portugueses usam também R, D, T, B, C para rei, dama, torre, bispo e cavalo.\n\nPortanto uma jogada escrita é uma letra e uma casa, juntas. O bispo branco de f1 pode chegar a e2, c4 ou b5, e cada uma dessas é a mesma ideia duas vezes: {{Be2}}, {{Bc4}}, {{Bb5}}.\n\nNinguém diz *qual* dos bispos. Só um deles consegue chegar à casa nomeada, portanto a letra e a casa fazem o trabalho todo."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "prompt": "A entrada seguinte das brancas diz `Nf3` — põe a peça que essa letra nomeia na casa que vem a seguir.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "A maiúscula não é K, e o K pertence ao rei — portanto nomeia a peça que teve de se contentar com a sua segunda letra."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Uma Jogada, Depois a Outra",
+      "text": "Uma partida numa página não é mais do que estas pequenas moradas, umas a seguir às outras, com os lados a alternar.\n\nAs pretas respondem {{Nc6}} — N para a peça, c6 para a casa. As brancas replicam {{Bc4}} — B para a peça, c4 para a casa. Vê o tabuleiro jogar as duas.\n\nTrês perguntas leem qualquer jogada tranquila. Há letra maiúscula? Que letra é? Que casa vem a seguir? As capturas e os xeques acrescentam uma marca própria, e cada uma tem a sua lição mais à frente."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "Números e Pontos",
+      "text": "As jogadas vêm aos pares, e uma partida impressa numera cada par: `1.e4 e5 2.Nf3 Nc6 3.Bc4`. Número, jogada das brancas, jogada das pretas.\n\nVinte e três caracteres, e reconstroem a posição exata que tens à frente. É por isso que as partidas se imprimem como linhas de texto e não como imagens.\n\nQuando uma jogada das pretas tem de aparecer sozinha, três pontos guardam o lugar das brancas: `2...Nc6` é a resposta das pretas na segunda jogada. Os pontos estão lá para nunca perderes de vista de quem é a vez.\n\n> Uma letra para a peça, dois caracteres para a casa, um número para a contagem. Tudo o resto na notação assenta nesses três."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "A entrada seguinte do livro é `3...Nf6` — lê-a e joga a jogada das pretas.",
+      "targetSan": [
+        "Nf6"
+      ],
+      "hint": "Um cavalo preto já está fora, em c6; o outro ainda não se mexeu, e está em g8."
+    }
+  ]
+}

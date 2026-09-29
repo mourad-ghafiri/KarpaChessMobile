@@ -1,0 +1,11 @@
+{
+  "id": "endgames-07",
+  "fen": "4QK2/8/8/8/8/8/4pk2/8 w - - 0 1",
+  "solution": [
+    "Qf7+"
+  ],
+  "title": "Un jaque, y solo uno",
+  "setup": "El peón negro de e2 corona en la próxima jugada, y tu rey de f8 está lejísimos. La dama tiene que ganar el tiempo ella sola.",
+  "hint": "Las Negras tienen que responder a un jaque antes de avanzar. Encuentra el jaque al que el rey negro no puede responder capturando la dama.",
+  "explanation": "## La idea\n\nUn jaque hay que responderlo antes de que el peón pueda moverse, y desde e8 la dama tiene exactamente un jaque que el rey no puede simplemente capturar: {{Qf7+}}, por la columna f. Cualquier otra jugada deja coronar al peón, y dama contra dama es tablas.\n\nDesde f7 la dama sigue dando jaques y guiando al rey hasta que pisa e1, delante de su propio peón. Esa es la jugada libre, y tu rey la gasta en acercarse."
+}

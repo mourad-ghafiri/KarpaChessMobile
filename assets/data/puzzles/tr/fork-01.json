@@ -1,0 +1,14 @@
+{
+  "id": "fork-01",
+  "fen": "3r3k/pp4pp/8/4N3/8/8/PP3PPP/6K1 w - - 1 2",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 700,
+  "title": "Şah Çek ve Topla",
+  "setup": "Siyahın şahı h8'e çekilmiş ve kalesi d8'de oturuyor; ikisi de aynı kareye bir at sıçrayışı uzaklıkta.",
+  "hint": "Atınızın aynı hamlede hem şaha hem kaleye dokunduğu kareyi bulun.",
+  "explanation": "## Fikir\n\n{{Nf7+}} aynı anda h8 ile d8'e saldırır. Şah isteğe bağlı değildir: f7'de hiçbir şey taş alamaz ve atın şahı asla kapatılamaz, yani {{Kg8}} siyahın tek kurallı hamlesidir. Ardından {{Nxd8}} kaleyi toplar."
+}

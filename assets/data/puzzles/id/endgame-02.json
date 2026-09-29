@@ -1,0 +1,11 @@
+{
+  "id": "endgame-02",
+  "fen": "8/8/8/3p4/3k4/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "Satu-satunya Petak yang Bertahan",
+  "setup": "Hitam unggul satu pion dengan raja yang memimpinnya, dan Anda hanya punya tepat satu langkah yang menyelamatkan partai.",
+  "hint": "Kedua raja berjarak tiga petak di satu lajur. Langkah mana yang menyisakan satu petak kosong di antara keduanya, dengan giliran Hitam?",
+  "explanation": "## Ide\n\nRaja Hitam memimpin pionnya, dan mengejarnya berarti kalah. Satu-satunya pertahanan adalah oposisi.\n\n{{Kd2}} menyisakan satu petak kosong di antara kedua raja, dengan giliran Hitam. Pion tak bisa maju, karena rajanya sendiri berdiri di depannya, jadi Hitam harus memindahkan raja ke samping — dan raja Anda melangkah bersamanya, merebut oposisi lagi.\n\nPergi ke c2 atau e2 sebagai gantinya dan Hitam merebut oposisi, lalu pion berjalan pulang di belakang rajanya."
+}

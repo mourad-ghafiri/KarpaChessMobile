@@ -1,0 +1,56 @@
+{
+  "id": "outposts",
+  "title": "Os Postos Avançados",
+  "summary": "Casas em que nenhum peão inimigo pode tocar",
+  "proof": "strategy-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "A Casa Que Ninguém Pode Guardar",
+      "text": "Conta os peões pretos que alguma vez atacarão d5. O peão c foi trocado há várias jogadas. O peão de d6 e o peão de e5 apontam os dois para o outro lado, e nenhum peão anda para trás.\n\nNenhum. Nem nesta jogada, nem daqui a vinte, nunca.\n\nUma casa em território inimigo que nenhum peão inimigo poderá alguma vez atacar é um **posto avançado**. A palavra costuma amolecer-se em «uma casa jeitosa», o que perde a única parte que conta: *não pode*. Um buraco destes não se fecha."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "Quanto Custa Despejar",
+      "text": "São os peões que enxotam as peças. Um peão dá um passo em frente, a peça tem de mexer, e o peão quase nada gastou para o dizer.\n\nEm d5 não há peão desses, e nunca haverá. As pretas só conseguem libertar aquela casa dando uma peça a sério por ela — um bispo, digamos, por um cavalo, que é um negócio que ninguém propõe por gosto.\n\nÉ por isso que a peça que mandas é o cavalo. Um cavalo é lento e de pouco alcance, portanto uma morada fixa no fundo do terreno inimigo vale-lhe mais do que a qualquer outra peça."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "prompt": "Instala um cavalo onde nenhum peão preto o poderá voltar a atacar.",
+      "targetSan": [
+        "Nd5"
+      ],
+      "hint": "Há dois cavalos brancos no tabuleiro, e só um deles toca em d5."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/3Np3/4P3/1N2B3/PPP1BPPP/R2Q1RK1 b - - 7 10",
+      "title": "Chega a Fatura",
+      "text": "O cavalo está em d5 e nada de barato o consegue enxotar. Todos os peões pretos que podiam ter coberto a casa desapareceram ou estão virados para o lado errado.\n\nPor isso as pretas pagam. {{Bxd5}} entrega um bispo por um cavalo, e depois de {{exd5}} passa a ser um peão branco a segurar a casa, a tirar c6 e e6 a todas as peças pretas.\n\nA outra opção é deixar o cavalo onde está e jogar o resto da partida à volta dele. Nenhuma das linhas é agradável, e é esse o lucro: as duas escolhas das pretas pioraram."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "Faz o Teu",
+      "text": "Ninguém te oferece um buraco duas vezes. Os peões pretos aqui estão mais saudáveis — a7, b7, c6, d5, e6, f7, g7, h7, sem nada trocado e nada encalhado.\n\nOlha na mesma para a quinta linha. O peão em d5 já passou à frente das casas ao seu lado, e o peão em e6 cobre d5 e f5 e mais nada.\n\nIsso deixa uma casa no meio da metade preta que só o peão f poderia alguma vez disputar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "O Peão Que Não Vai Avançar",
+      "text": "O peão f das pretas é o único guarda que resta a essa casa, e não vem. O cavalo em f6 está-lhe no caminho, e assim que o cavalo se mexer, avançar o peão arranca a cobertura ao rei de g8.\n\nUma casa que o teu adversário não se pode dar ao luxo de disputar vale tanto como uma a que ele não chega.\n\nMais uma coisa. O peão branco de d4 já cobre a casa, portanto um cavalo que lá aterre aterra defendido — as pretas não o podem enxotar nem ganhar, só comprar com uma peça.\n\n> Os peões deles não se podem dar ao luxo de a disputar, o teu peão guarda-a, e o teu cavalo mora lá."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "prompt": "Planta um cavalo na casa a que os peões pretos renunciaram e que o teu próprio peão já guarda.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "O teu peão d guarda duas casas — uma delas está no meio do campo preto."
+    }
+  ]
+}

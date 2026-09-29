@@ -1,0 +1,14 @@
+{
+  "id": "smothered-09",
+  "fen": "k2r3r/pp3ppp/N7/4Q3/8/8/5PPP/6K1 w - - 5 27",
+  "solution": [
+    "Qb8+",
+    "Rxb8",
+    "Nc7#"
+  ],
+  "rating": 1405,
+  "title": "Sacrifício em b8",
+  "setup": "O rei das pretas acabou de fugir do xeque do cavalo para o canto, com os seus próprios peões em a7 e b7.",
+  "hint": "O cavalo de a6 já guarda b8 — o que é que isso permite a uma dama numa casa mesmo ao lado do rei?",
+  "explanation": "## A Ideia\n\n{{Qb8+}} é imune, porque o cavalo de a6 defende b8, portanto {{Rxb8}} é a única jogada do tabuleiro e o canto fica selado pela própria torre das pretas. {{Nc7#}} dá então xeque de uma casa que nenhuma peça preta vigia. O mesmo sacrifício funciona nos dois cantos."
+}

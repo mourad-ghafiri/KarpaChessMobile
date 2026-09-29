@@ -1,0 +1,77 @@
+{
+  "id": "pawn-structure",
+  "title": "Struktur Pion",
+  "summary": "Ganda, terisolasi, tertinggal — apa harga masing-masing",
+  "proof": "strategy-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "title": "Dua Pion, Satu Lajur",
+      "text": "Dua pion di lajur yang sama tak pernah bisa saling melindungi. Tak satu pun bisa menyingkir untuk melindungi yang lain, dan bersama-sama keduanya hanya menguasai satu lajur, padahal dua pion bertetangga menguasai dua.\n\nLihat sayap menteri Hitam di sini: pion di a6, b7, c7 dan d7, masing-masing menguasai petak yang tak dikuasai yang lain. Tak ada yang salah dengan satu pun di antaranya. Putih hendak mengubah itu dengan satu penangkapan, dan perubahannya permanen — pion hanya bergerak ke samping jika ada sesuatu di sana untuk ditangkap."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "prompt": "Paksa tangkapan balik yang meninggalkan dua pion hitam bertumpuk di satu lajur sepanjang sisa partai.",
+      "hint": "Hanya satu buah hitam yang dilindungi dua pion berbeda, dan pion mana pun dari keduanya akan mendarat di lajur yang sudah ditempati.",
+      "targetSan": [
+        "Bxc6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 5",
+      "title": "Utang yang Berjangka Waktu",
+      "text": "Pion-pion c Hitam kini bertumpuk, dan akan bertumpuk sepanjang sisa partai. Sebagai gantinya Hitam punya dua gajah dan lajur d setengah terbuka — kompensasi yang nyata, dan kompensasi yang berjangka waktu. Gajah butuh posisi terbuka, dan posisi terbuka butuh buah.\n\nJadi Putih mengarah ke akhir permainan. {{d4}} {{exd4}} {{Qxd4}} menawarkan pertukaran menteri yang sulit ditolak, dan setiap pasangan yang ditukar membuat kedua gajah itu makin sunyi dan pion-pion yang bertumpuk makin lantang."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/8/3QP3/5N2/PPP2PPP/RNB1K2R b KQk - 0 6",
+      "title": "Hitung Sayap-Sayapnya",
+      "text": "Menteri ditukar dengan {{Qxd4}}, dan yang tersisa adalah hitungan.\n\nPutih punya empat pion di sayap raja melawan tiga. Dorong dengan benar dan salah satunya lolos: pion bebas yang dibuat hanya dari mayoritas.\n\nHitam punya empat di sayap menteri melawan tiga, dan tak akan pernah menghasilkan satu pun. Dua dari empat itu bertumpuk di c6 dan c7, jadi seluruh kelompok hanya menjangkau tiga lajur, dan tiga pion Putih menguasai ketiganya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "Pion Tanpa Tetangga",
+      "text": "Papan kedua, dan jenis utang yang kedua. Pion Hitam di d5 tak punya pion di lajur c dan tak punya pion di lajur e, dan tak ada cara untuk menumbuhkannya — keduanya hilang untuk selamanya. Itulah pion **terisolasi**.\n\nHarga pertama sudah jelas. Hanya buah yang bisa melindunginya, dan buah yang terikat pada pion adalah buah yang mengerjakan satu tugas, bukan tiga.\n\nHarga kedua adalah yang menentukan partai, dan itu sama sekali bukan pionnya. Itu petak kosong di depannya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "Petak yang Tak Bisa Dijaganya",
+      "text": "Pion c dan pion e Hitam adalah satu-satunya pion yang pernah bisa menyerang d4, dan tak satu pun ada. Jadi d4 bukan petak yang harus diperebutkan Putih. Itu petak yang dimasuki Putih lalu ditempatinya terus.\n\nTak ada pion yang bisa mengusir buah dari sana. Hitam entah hidup berdampingan dengan penyusup itu atau menyerahkan buah untuk menyingkirkannya, dan setiap pertukaran sesudahnya membuat pion terisolasi itu punya lebih sedikit pembela dengan jumlah penyerang yang sama.\n\nKedua kuda Putih bisa mencapai d4. Hanya satu yang sebaiknya pergi."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "prompt": "Tempatkan kuda di petak yang tak akan pernah bisa diserang pion hitam, dan kirim kuda yang belum sibuk.",
+      "hint": "Salah satu kuda Anda menjaga e5 dan g5 dari tempatnya berdiri, jadi memindahkan yang itu menyerahkan petak-petak tersebut.",
+      "targetSan": [
+        "Nbd4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Lemah dan Membeku",
+      "text": "Papan ketiga, dan utang terburuk dari ketiganya. Pion Hitam di d6 punya tetangga di c5 yang sudah melewatinya dan sama sekali tak punya pion e, jadi tak akan ada pion yang melindunginya lagi. Pion tak berjalan mundur, dan yang ini juga tak bisa berjalan maju: pion Putih di d5 berdiri di tengah jalan.\n\nTak bisa dilindungi dan membeku: itulah **pion tertinggal**. Pion terisolasi setidaknya masih bisa berlari.\n\n> Pion ganda merugikan Anda sebuah pion bebas, pion terisolasi merugikan Anda petak di depannya, dan pion tertinggal merugikan Anda sebuah buah untuk mengasuhnya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Kirim Buah-Buahnya",
+      "text": "Setiap penyerang yang ditambahkan Putih harus dijawab, dan jawaban itu lebih mahal bagi Hitam daripada harga penyerangnya bagi Putih: buah yang terpaku pada pion telah berhenti bermain catur.\n\nJadi buah-buah datang, dan kedua pihak tak terburu-buru. {{Nd2}} memulai perjalanan panjang kuda menuju c4, dan {{Na6}} mengirim kuda Hitam menuju c7. {{f3}} menopang e4, agar kuda bisa meninggalkan d2 nanti tanpa kehilangan pion itu. {{Nc7}} tiba untuk menjaga b5, {{a4}} tetap merebut b5, dan {{b6}} adalah jawaban Hitam.\n\nKedua pihak memperdebatkan satu pion yang tak bisa bergerak."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/p1n2pbp/1p1p1np1/2pP4/P3P3/2N2P2/1P1NB1PP/R1BQ1RK1 w - - 0 13",
+      "prompt": "Tambahkan penyerang terhadap pion yang tak akan pernah bisa dilindungi Hitam dengan pion.",
+      "hint": "Kuda di d2 punya tiga petak untuk dituju; hanya satu di antaranya yang menyentuh d6.",
+      "targetSan": [
+        "Nc4"
+      ]
+    }
+  ]
+}

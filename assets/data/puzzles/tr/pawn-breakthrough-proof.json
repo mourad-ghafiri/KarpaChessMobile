@@ -1,0 +1,13 @@
+{
+  "id": "pawn-breakthrough-proof",
+  "fen": "8/5ppp/8/5PPP/4k3/8/8/K7 w - - 0 1",
+  "solution": [
+    "g6",
+    "fxg6",
+    "h6"
+  ],
+  "title": "Gelmeden Yarıp Geçin",
+  "setup": "Siyahın e4'teki şahı piyonlarınızın peşinde ve kendi şahınız yardıma gelemeyecek kadar uzakta. Kazandıran tam olarak tek bir hamleniz var.",
+  "hint": "Siyah piyonu dikeyini yalnızca taş almak için terk eder. Hangi sürüş iki taraftan da alınabilir ve her taş alma neyi açık bırakır?",
+  "explanation": "## Fikir\n\n{{g6}} ortadaki piyonu yanındaki iki siyah piyona birden ikram eder. Başka her hamle kaybeder, çünkü siyahın şahı piyonlarınızı öylece yer.\n\nDiyelim siyah {{fxg6}} ile aldı: {{h6}} ikinci bir piyon ikram eder. Artık siyah ne yaparsa yapsın sizinkilerden biri geçer. h6'da alın, f piyonu şah oraya varamadan f8'e koşsun. Bırakın, h piyonunuz g7'de alıp vezir olsun."
+}

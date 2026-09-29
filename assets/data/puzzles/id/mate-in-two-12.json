@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-12",
+  "fen": "5r1k/6pp/7N/8/2Q5/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1400,
+  "title": "Mat Terkurung",
+  "setup": "Raja Hitam dikurung di h8 oleh benteng dan pionnya sendiri, tinggal satu petak lagi dari kandang yang terkenal.",
+  "hint": "Raja hampir terkubur oleh buah-buahnya sendiri. Petak mana yang masih bebas, dan bisakah Anda membuatnya terisi?",
+  "explanation": "## Ide\n\nInilah **mat terkurung**. {{Qg8+}} menawarkan menteri di petak yang dilindungi kuda di **h6**, jadi raja tak bisa menangkap dan {{Rxg8}} terpaksa. Itu menyumbat petak bebas terakhir, dan {{Nf7#}} mendarat di tempat yang sekak kudanya tak pernah bisa dihalangi."
+}

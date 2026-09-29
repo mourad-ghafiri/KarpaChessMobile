@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-11",
+  "fen": "3rk3/8/8/4PK2/8/8/8/R7 b - - 0 1",
+  "solution": [
+    "Rd7"
+  ],
+  "rating": 1580,
+  "title": "Segura a Sétima",
+  "setup": "O rei preto segura e8 à frente do peão, e o rei branco está pronto a marchar por ele acima.",
+  "hint": "Encontra a linha que a tua torre consegue segurar, de onde possa dar xeque ao rei branco assim que ele suba.",
+  "explanation": "## A Ideia\n\n{{Rd7}} tira a sétima linha ao rei branco, e à tentativa {{Kf6}} responde-se {{Rf7+}}, empurrando-o logo para trás: o teu rei de e8 guarda a torre. De qualquer casa mais baixa da coluna d as brancas entram com {{Ke6}} em vez disso, e {{Rd6}} fica até pendurada para {{exd6}}."
+}

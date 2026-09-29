@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-11",
+  "fen": "7k/8/5K2/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "Mat Berdampingan",
+  "setup": "Raja hitam terpojok di h8, raja Anda berjaga di f6, dan menteri Anda menguasai lajur g.",
+  "hint": "Menteri bisa berdiri tepat di samping raja — raja Anda sendiri mengawasi petak pendaratannya.",
+  "explanation": "## Ide\n\nInilah mat berdampingan yang terlindungi: menteri mendarat tepat di samping raja lawan, dan raja Anda sendiri membuatnya tak tersentuh.\n\n{{Qg7#}} memberi sekak. Raja di f6 menjaga g7, jadi raja di h8 tak bisa mengambil menteri, dan g8 serta h7 sama-sama dikuasai menteri. Sekak dari petak sebelah tak bisa dihalangi.\n\nMenteri di samping raja lawan adalah mat setiap kali ada yang menjaganya dan raja tak punya petak lain."
+}

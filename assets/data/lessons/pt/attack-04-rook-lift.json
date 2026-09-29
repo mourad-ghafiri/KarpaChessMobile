@@ -1,0 +1,44 @@
+{
+  "id": "rook-lift",
+  "title": "A Elevação de Torre",
+  "summary": "Quando nenhuma coluna chega ao rei, passa por cima",
+  "proof": "rook-lift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Duas Torres em Casa",
+      "text": "O rei preto em g8 perdeu o peão g e o peão h, e a tua dama em h5 já está perto. A dama preta em g7 está à frente do rei, os dois em fila na coluna g.\n\nAs tuas torres continuam as duas na primeira linha. A coluna c e a coluna e estão abertas, e nenhuma delas passa perto de g8. A coluna g passa, e o teu próprio peão de g2 fecha-a.\n\nUma torre que não encontra coluna são cinco pontos de mobília."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Por Cima",
+      "text": "Uma torre não tem de chegar à luta por uma coluna acima. Pode subir à terceira linha e caminhar de lado por ela, por cima dos seus próprios peões em vez de através deles. Isso é uma **elevação de torre**: primeiro para cima, depois de través.\n\nA tua terceira linha está vazia de a3 a g3, e g3 é a casa que conta. Uma torre ali fica à frente do teu peão g, na coluna onde a dama e o rei pretos esperam em fila.\n\n> Quando nenhuma coluna se abrir, leva a torre por cima dos peões em vez de esperares atrás deles."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "prompt": "Põe uma torre a caminho da coluna g, onde a dama preta está à frente do seu rei.",
+      "targetSan": [
+        "Rc3"
+      ],
+      "hint": "As duas torres podem subir, mas só uma delas tem trabalho onde está. Olha para as casas a que o bispo preto chega."
+    },
+    {
+      "type": "teach",
+      "fen": "r3brk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/4R1K1 w - - 2 26",
+      "title": "A Torre Que Ficou em Casa",
+      "text": "As pretas veem a ameaça e respondem com uma delas: o bispo em e8 ataca a tua dama.\n\nSó que e8 está na coluna e aberta, e a tua outra torre nunca a deixou. {{Rxe8}} come o bispo, {{Raxe8}} recaptura, e nada tocou na torre de c3 nem nas casas vazias à frente dela.\n\nÉ por isso que a elevação começou em c1. A torre que sobe deve ser a que não tem nada que fazer onde está."
+    },
+    {
+      "type": "play",
+      "fen": "4rrk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/6K1 w - - 0 27",
+      "prompt": "Acaba a elevação e leva a torre de través até à coluna onde a dama preta está à frente do seu rei.",
+      "targetSan": [
+        "Rg3"
+      ],
+      "hint": "Assim que uma torre estiver nessa coluna, a dama não pode sair dela sem deixar o seu rei em xeque."
+    }
+  ]
+}

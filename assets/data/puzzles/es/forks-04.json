@@ -1,0 +1,11 @@
+{
+  "id": "forks-04",
+  "fen": "8/p3k1pp/1r6/8/8/2N5/PP4PP/6K1 w - - 0 1",
+  "solution": [
+    "Nd5+"
+  ],
+  "title": "Primero el jaque, luego el cobro",
+  "setup": "La torre negra de b6 no tiene defensor, y el rey negro está en mitad del tablero.",
+  "hint": "Encuentra un salto de caballo que dé jaque y ataque otra cosa a la vez.",
+  "explanation": "## La idea\n\n{{Nd5+}} da jaque al rey de e7 y ataca a la torre de b6 en un solo salto. Nada negro puede capturar el caballo de d5, y el rey tiene que responder primero al jaque, así que tras moverse, {{Nxb6}} gana la torre.\n\nUna horquilla de caballo es más fuerte cuando uno de los dos objetivos es el rey: el jaque le quita a las Negras la ocasión de salvar la otra pieza."
+}

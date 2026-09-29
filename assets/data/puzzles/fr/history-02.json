@@ -1,0 +1,13 @@
+{
+  "id": "history-02",
+  "fen": "7k/8/p4N2/1p5p/8/8/8/2R3K1 w - - 0 1",
+  "solution": [
+    "Rc7",
+    "b4",
+    "Rh7#"
+  ],
+  "title": "Une conclusion de mansuba",
+  "setup": "Un problème dans le style du shatranj : tour et cavalier contre un roi dans le coin, et les Noirs n'ont que des coups de pion.",
+  "hint": "Ne donnez pas encore échec. Le cavalier tient déjà g8 et h7, alors demandez-vous de quelle rangée la tour a besoin pour que l'échec vaille la peine.",
+  "explanation": "## L'idée\n\nC'est le **mat arabe** des plus anciens recueils de problèmes : une tour à côté du roi dans le coin, un cavalier qui protège la tour.\n\nLa tour ne peut pas le donner depuis c1. {{Rc7}} est tranquille : la tour prend la septième rangée, le cavalier couvre déjà g8, et le roi n'a plus aucune case. Les Noirs ne peuvent que pousser un pion, {{b4}} ou un autre, et {{Rh7#}} suit, le cavalier protégeant h7.\n\nDonnez d'abord échec par {{Rc8+}} et le roi s'échappe en g7. Construisez le filet, puis donnez échec."
+}

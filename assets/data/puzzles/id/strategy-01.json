@@ -1,0 +1,11 @@
+{
+  "id": "strategy-01",
+  "fen": "rnbqk2r/p1p2pp1/1p2p1n1/3pP2p/3P3P/P1P3Q1/2P2PP1/R1B1KBNR b KQkq - 1 9",
+  "solution": [
+    "Ba6"
+  ],
+  "title": "Tahanan di c8",
+  "setup": "Gajah Anda di c8 terkurung di balik pion Anda sendiri, sementara gajah Putih di f1 punya jalan terbuka. Tawarkan buah terburuk Anda untuk buah terbaik Putih.",
+  "hint": "Pion b Anda sudah menyingkir. Ke mana diagonal yang dibukanya mengarah, dan gajah siapa yang berdiri di ujung jauhnya?",
+  "explanation": "## Ide\n\nGajah di c8 adalah buah terburuk Hitam: pion di d5 dan e6 berdiri di warnanya dan tak akan pernah bergerak. Gajah Putih di f1 adalah kebalikannya, dan dari d3 ia akan menyerang kuda di g6.\n\n{{Ba6}} menawarkan yang satu untuk yang lain. Jika Putih mengambil, kuda menangkap balik dari b8 dan menghabiskan beberapa waktu di tepi, tetapi Hitam telah menukar buah yang tak berbuat apa-apa dengan buah yang hendak berbuat paling banyak."
+}

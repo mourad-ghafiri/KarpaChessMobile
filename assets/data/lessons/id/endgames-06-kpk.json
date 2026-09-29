@@ -1,0 +1,56 @@
+{
+  "id": "k-p-vs-k",
+  "title": "Raja dan Pion Melawan Raja",
+  "summary": "Tertinggal satu pion, dan dua petak yang mempertahankan remis",
+  "proof": "endgame-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "Satu Lajur dari Tepi",
+      "text": "Tertinggal satu pion dengan raja lawan yang sudah mengawalnya biasanya hanyalah formalitas. Tidak di lajur ini.\n\nPion Putih di a6 berpromosi di a8, dan a8 adalah petak sudut dengan tiga tetangga, bukan lima. Kekurangan itu menjadi masalah penyerang: untuk memaksa raja keluar dari b8 dan a8, Putih butuh petak-petak yang tak pernah disediakan tepi papan.\n\nRaja Anda di c8 punya satu langkah yang mengubah sudut menjadi tembok, dan dua langkah yang menyerahkan partai kepada Putih."
+    },
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "Langkah yang Kalah",
+      "text": "Menjauh dari pion terasa aman, dan di sini itu berakibat fatal.\n\n{{Kd8}} menjaga raja Anda satu lajur dengan nyaman. {{Kb7}} menjawabnya, dan setiap petak di sekitar pion kini milik Putih. {{Kd7}} satu-satunya langkah tersisa yang masih dekat, dan {{a7}} melepas pion dengan jalan yang kosong dan raja yang memegangi pintunya.\n\nAnda memang tak akan pernah bisa mendahului pion itu. Sudut adalah satu-satunya aset di papan, dan melangkah menjauh darinya berarti melepaskan sudut itu."
+    },
+    {
+      "type": "play",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "prompt": "Pindah ke satu-satunya petak yang sama sekali tak menyisakan ruang bagi raja Putih di samping pion.",
+      "targetSan": [
+        "Kb8"
+      ],
+      "hint": "Carilah petak tempat Putih harus merelakan pion atau membuat Anda sama sekali tak punya langkah sah."
+    },
+    {
+      "type": "teach",
+      "fen": "1k6/8/PK6/8/8/8/8/8 w - - 11 9",
+      "title": "Putih Kehabisan Papan",
+      "text": "Sekarang biarkan Putih mencoba.\n\n{{a7+}} adalah sekak, dan {{Ka8}} satu-satunya balasan yang tidak sekadar membiarkan pion menjadi menteri. Raja Anda di sudut, dan raja Putih di b6 butuh b7 untuk memanfaatkan pion itu. Ia tak bisa mendapatkan b7: raja Anda menguasai petak itu dari a8.\n\nJadi Putih harus menyingkir. {{Ka6}}, dan lihat apa yang Anda miliki — b7 dan b8 sama-sama dikuasai, raja Anda tak punya tempat untuk pergi, dan tak ada yang memberi sekak. Pat. Langkah putih lain mana pun membiarkan raja Anda berjalan ke a7 dan mengambil pion."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "Papan yang Lain",
+      "text": "Singkirkan sudutnya dan seluruh metodenya berubah. Pion berada di d5, dan d8 adalah petak biasa dengan lima tetangga biasa.\n\nRaja Anda di d7 sudah mengerjakan separuh tugasnya: ia berdiri di jalan pion, di depannya, dan pion tak bisa berjalan menembus raja.\n\nSeparuh yang lain adalah raja putih di c5, dan itulah separuh yang sering dilupakan.\n\n> Di depan pion, dan berhadapan dengan raja lawan dengan satu petak kosong di antaranya. Keduanya, setiap kali."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "Mundur Bukan Menyamping",
+      "text": "Naluri berkata mundurlah di lajur itu dan tetap jaga pion di depan Anda. Itu kalah.\n\n{{Kd8}} tampak seperti pertahanan yang sama, satu baris lebih ke belakang. {{Kd6}} menjawabnya: raja putih kini berada di depan pion, satu petak dari raja Anda, dan Andalah yang harus melangkah. {{Kc8}} menyingkir, dan e8 pun sama saja dengan arah dicerminkan, {{Ke7}} berjalan memutari Anda, dan pion menyusul dengan santai."
+    },
+    {
+      "type": "play",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "prompt": "Rebut oposisi terhadap raja Putih agar Putih, bukan Anda, yang harus berkomitmen.",
+      "targetSan": [
+        "Kc7"
+      ],
+      "hint": "Kedua raja saling berhadapan di satu lajur dengan satu petak kosong di antaranya, dan raja Putih tidak berada di lajur raja Anda."
+    }
+  ]
+}

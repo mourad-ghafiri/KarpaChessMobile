@@ -1,0 +1,56 @@
+{
+  "id": "passed-pawns",
+  "title": "Geçer Piyonlar",
+  "summary": "Sürmeden önce kareyi çizin",
+  "proof": "endgame-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Yolunda Hiçbir Şey Yok",
+      "text": "e5'teki piyonunuzun önünde boş bir tahta var. e dikeyinde hiç siyah piyon yok, d ve f dikeylerinde de yok; yani yoluna hiçbir şey sürülemez ve geçmesi gereken kareleri hiçbir şey koruyamaz.\n\nBu bir **geçer piyon**dur: kendi dikeyinde ya da yanındaki iki dikeyde önünde hiç rakip piyon olmayan piyon.\n\nGeriye tek bir işi kaldı ve tahtada onunla tartışabilecek tam olarak tek bir taş var. Beyazın d1'deki şahı fersah fersah uzakta ve bu, burada hiçbir şeyi değiştirmiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Kareyi Çizin",
+      "text": "Yani tek soru, siyahın şahının oraya vaktinde varıp varamayacağı ve bu sorunun kesin bir cevabı var.\n\nBir köşesinde e5'teki piyon, öteki köşesinde onun terfi karesi e8 olan bir kare çizin: e5, h5, h8, e8. Bu karenin içindeki ya da kendi sırasında içine adım atabilen bir şah piyonu yakalar. Dışındaki bir şah ne kadar hızlı koşarsa koşsun asla yakalayamaz.\n\nh4'teki siyah şah, alt kenarın bir yatay altında. Piyonu e8'e üç hamle götürür; o şahın dört hamleye ihtiyacı var."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "prompt": "O şahın piyonu yakalayıp yakalayamayacağına karar verin, sonra cevabınızın gerektirdiği hamleyi oynayın.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "e5–h5–h8–e8 karesini kabaca çizin ve siyahın şahının alt kenarın hangi tarafında durduğuna bakın."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/4P3/8/7k/8/8/3K4 b - - 0 5",
+      "title": "Her Seferinde Bir Hamle Geç",
+      "text": "{{Kg5}} {{e7}} {{Kf6}} {{e8=Q}}. Kovalamaca dürüst ve yine de tek bir hamleyle kaybediyor.\n\nSürüşün kutuya ne yaptığına bakın. Piyon e6'dayken köşeler e6, g6, g8, e8 olur: dört yerine üç dikey genişliğinde. Öne atılan her adım, savunanın içinde durmak zorunda olduğu alanı küçültür; yani zaten önde olan bir piyonu yakalamak yalnızca zorlaşır.\n\nKurnaz bir güzergâh da yok. Siyahın şahı elindeki en kısa hattı yürüyor ve aritmetik hiç değişmiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Koşmanın Kaybettirdiği Bir Tahta",
+      "text": "Yeni tahta. e4'teki piyonunuz da geçer; hiçbir yerde siyah piyon yok ve bu kez e8'deki siyah şah karenin dışında değil. Yarış başlamadan terfi karesine park etmiş durumda.\n\n{{e5}} {{Ke7}} {{e6}} gelir ve piyon dosdoğru, geçemeyeceği bir şahın üstüne yürümüş olur. O şahı dikeyden çıkaracak hiçbir şey yok: kendi e1'deki şahınız piyonun üç yatay gerisinde ve orada hiçbir işe yaramıyor.\n\nPiyon yarışı kaybetmedi. Hiç yarışı olmadı."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Başka Kim Yardım Edebilir",
+      "text": "Yani oynanacak taş piyon değil. Beyazın elinde başka ne olduğuna bakın: parti boyunca hiçbir şey yapmamış bir e1 şahı ve önünde uzun bir yürüyüş.\n\nDoğrusu bu piyon çoktan bir kare fazla koşmuş — kusursuz savunma karşısında yarış artık beraberlik. Eskort etmeden sürmenin bedeli budur ve eskort yine de size pratikte her şansı verir.\n\n> Tek başına piyon bir hedeftir. Yanında şahı olan piyon bir tehdittir.\n\nPiyon bekleyecek. Gidecek başka yeri yok."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Şahınızı piyona doğru yola çıkarın; piyonun üzerinde durduğu dikey boyunca yukarı gidin.",
+      "targetSan": [
+        "Ke2"
+      ],
+      "hint": "Yürüyüş uzun, o yüzden en kısa yolu seçin — piyonun zaten sahip olduğu dikey boyunca dümdüz yukarı."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "philidor-position",
+  "title": "La Patta di Philidor",
+  "summary": "Un pedone in meno in un finale di torri, e la patta è un recinto e poi una distanza",
+  "proof": "philidor-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Un Pedone in Meno e Pari",
+      "text": "Il Bianco ha un pedone in più e questa è comunque patta. Il vostro re in d8 difende c8, la casa che il pedone in c5 cerca di raggiungere, che è la prima metà della difesa e la metà che avete già.\n\nLa seconda metà è una mossa di torre, e deve arrivare adesso, mentre il pedone bianco sta ancora dov'è. Philidor mise per iscritto il metodo nel 1777 e da allora nessuno l'ha rotto. Due idee, giocate in un ordine fisso, e l'ordine è quasi tutto il trucco."
+    },
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Tre Porte sulla Sesta",
+      "text": "Il pedone non può arrivare a casa da solo; il vostro re fa la guardia alla strada, e la torre bianca in h7 lo tiene sulla traversa di fondo. Quindi il re bianco deve salire e spingere via il vostro con la spalla, e per salire deve attraversare la sesta traversa — traverse contate dal lato del Bianco qui, come sempre.\n\nQuella traversa ha esattamente tre porte: c6, d6 e e6. E una torre non è una guardia su una casa, è un recinto lungo una linea, il che vuol dire che tutte e tre le porte si chiudono in una mossa sola."
+    },
+    {
+      "type": "play",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "prompt": "Togliete al re bianco tutta la sesta traversa prima che possa usare una di quelle case.",
+      "targetSan": [
+        "Ra6"
+      ],
+      "hint": "Conta solo la traversa, e una torre la copre tutta da dovunque atterri."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "Quattro Case, Tre delle Quali Ritirate",
+      "text": "Il recinto è alzato, e il re bianco in d5 adesso può contare la sua lista intera: {{Kc4}}, {{Kd4}}, {{Ke4}}, {{Ke5}}.\n\nTre indietro, una di lato. c6, d6 e e6 hanno smesso di essere mosse, perché un re non può mettere piede su una casa che la vostra torre attacca. Il Bianco è libero di andare avanti e indietro là fuori per tutto il tempo che la pazienza regge. Andare avanti e indietro non porta a casa un pedone."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "La Spinta che Costa",
+      "text": "Una mossa cambia la posizione anziché il numero di mossa: {{c6}}.\n\nContate che cosa il Bianco ha appena pagato. Con il pedone in c5, il re aveva un tetto: stando in c6, davanti al proprio pedone, non poteva mai ricevere scacco da dietro, perché il pedone bloccava la colonna. Adesso la casa se l'è presa il pedone stesso, e il tetto successivo sarebbe c7, proprio accanto al vostro re.\n\nQuindi il vostro recinto ha finito il suo lavoro. Da qui in poi conta la distanza."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Andate all'Altro Capo",
+      "text": "La vostra torre lascia la sesta traversa e viaggia fino all'altro capo della scacchiera, dietro il re bianco, e da lì dà scacco.\n\nLa distanza è tutta la difesa. Un re si scrolla di dosso una torre che dà scacco da vicino salendo a minacciarla; dall'altro capo della scacchiera non c'è niente a cui salire, e il re bianco dovrebbe abbandonare il pedone in c6 per andarla a cercare. Ogni volta che esce a scortare quel pedone arriva un altro scacco, e gli scacchi non finiscono mai."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Perché Avete Aspettato",
+      "text": "L'ordine conta più di ciascuna delle due mosse. Mandate via la torre per prima, mentre il pedone sta ancora in c5, e il Bianco non deve affatto spingere: il suo re va in c6, davanti al proprio pedone, dove nessuno scacco da dietro lo raggiunge perché il pedone sta sulla strada della torre. Da sotto quel tetto entra, e la vittoria è del Bianco.\n\n> Tenete la traversa finché il pedone sta fermo. Nel momento in cui si muove, andate lontani da lui quanto la scacchiera permette."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "prompt": "Passate dal bloccare al dare scacco, da quanto più lontano questa scacchiera permetta.",
+      "targetSan": [
+        "Ra1"
+      ],
+      "hint": "Una torre che dà scacco e a cui il re può salire vicino non serve a niente: contate quanto lontano dal re bianco può arrivare la vostra torre."
+    }
+  ]
+}

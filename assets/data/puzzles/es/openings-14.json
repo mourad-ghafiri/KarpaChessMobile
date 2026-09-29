@@ -1,0 +1,11 @@
+{
+  "id": "openings-14",
+  "fen": "rnbqkb1r/5ppp/p2ppn2/8/Np1NPP2/1B6/PPP3PP/R1BQK2R b KQk - 1 9",
+  "solution": [
+    "Nxe4"
+  ],
+  "title": "El peón que dejó atrás el caballo",
+  "setup": "Los peones de la Najdorf han cumplido: ...a6 y ...b5-b4 acaban de echar al caballo blanco a a4. Cobra lo que ese caballo defendía.",
+  "hint": "Un caballo acaba de dejar el centro por la banda. Pregúntate qué peón blanco perdió a su último defensor cuando se fue.",
+  "explanation": "## La idea\n\nEl caballo expulsado a a4 era la única pieza blanca que defendía e4. Lanzar los peones del flanco de dama contra él iba de esa casilla.\n\n{{Nxe4}} se come el peón. Las Blancas obtienen algo de juego a cambio, pero el peón es de las Negras. Cuidado con la gran diagonal: {{Qf3}} ataca al caballo con la torre de a8 alineada detrás, y {{Bb7}} o {{d5}} cierran esa diagonal, mientras que {{Nc5}} dejaría caer la torre.\n\nUn avance de peones en el flanco suele ser una pregunta a una pieza del centro."
+}

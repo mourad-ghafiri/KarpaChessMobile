@@ -1,0 +1,13 @@
+{
+  "id": "openings-15",
+  "fen": "rnbq1rk1/pp2ppbp/3p1np1/2P5/2P1PP2/2N2N2/PP4PP/R1BQKB1R b KQ - 0 7",
+  "solution": [
+    "Qa5",
+    "Bd3",
+    "Qxc5"
+  ],
+  "title": "Invitado, y luego recuperado",
+  "setup": "Las Blancas levantaron un centro enorme y acaban de comer en c5, con la esperanza de quedarse el peón de más. Recupéralo con una jugada que además clave un caballo.",
+  "hint": "El rey blanco sigue en casa, y uno de sus caballos está en la diagonal que lleva hasta él. ¿Dónde puede tu dama hacer dos trabajos?",
+  "explanation": "## La idea\n\nLa India de Rey deja que las Blancas se queden con el centro y luego pregunta con qué lo defienden todo.\n\n{{Qa5}} hace dos trabajos: clava el caballo de c3 contra el rey de e1 y ataca el peón de c5 por la quinta fila. Lo mejor para las Blancas es desarrollar con {{Bd3}}, y {{Qxc5}} recupera el peón en el acto.\n\nEl material está igualado, y ahora los peones blancos de c4, e4 y f4 tienen que demostrar que son fortalezas y no objetivos.\n\nEl espacio solo es una ventaja mientras se pueda defender."
+}

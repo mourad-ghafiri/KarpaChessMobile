@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-02",
+  "fen": "8/R4Pr1/4k3/8/4K3/8/8/8 w - - 0 1",
+  "solution": [
+    "f8=Q"
+  ],
+  "rating": 1250,
+  "title": "Doğru Taşı Yapın",
+  "setup": "Siyahın kalesi f piyonuna g7'den saldırıyor, şahı da ona saldırıyor ve tek koruyucu ikisine karşı tutamaz; yani beyazın onu kullanmak için tam olarak tek bir hamlesi var.",
+  "hint": "Ne yaparsanız yapın piyon sıradaki hamlede kaybolur. Hangi yeni taşın g7'deki kaleye dokunacağını sorun.",
+  "explanation": "## Fikir\n\nPiyon tutulamaz, öyleyse harcayın. {{f8=Q}} yanındaki kaleye saldırır ve kazanır. {{f8=R}} ile {{f8=N+}} g7'ye dokunmaz ve {{f8=B}} kaleye vurur ama kazanmaya yetmez. Siyahın kaleyi {{Rxa7}} ile kurtarması gerekir ve kaleye karşı vezir kazanır."
+}

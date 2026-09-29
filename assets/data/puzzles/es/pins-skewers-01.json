@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-01",
+  "fen": "7k/7p/5qp1/8/8/8/5PPP/B5K1 w - - 0 1",
+  "solution": [
+    "Bxf6+"
+  ],
+  "title": "Clavada en la diagonal",
+  "setup": "Tu alfil y el rey negro comparten la gran diagonal, y la dama negra está entre ellos.",
+  "hint": "La dama no puede salir de esa diagonal sin exponer a su rey, y nada la defiende donde está.",
+  "explanation": "## La idea\n\nLa dama de f6 está clavada contra el rey de h8: puede deslizarse arriba y abajo por la gran diagonal, pero no salir de ella, y nada la defiende.\n\nAsí que captúrala. {{Bxf6+}} gana la dama a cambio de nada, y {{Kg8}} es la única respuesta negra.\n\nJugar primero es la clave: en el turno de las Negras, {{Qxa1}} habría sido mate. Una pieza clavada no es una pieza defendida: es una pieza que no puede huir."
+}

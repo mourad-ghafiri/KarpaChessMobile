@@ -1,0 +1,50 @@
+{
+  "id": "italian-game",
+  "title": "Permainan Italia",
+  "summary": "Dua gajah, satu perdebatan panjang tentang d4",
+  "proof": "openings-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Dua Gajah, Satu Petak",
+      "text": "Gajah Anda di c4 dan gajah Hitam di c5 saling bercermin, dan masing-masing menatap petak di kubu lawan yang hanya dilindungi raja: f7 bagi Anda, f2 bagi Hitam.\n\nItulah sebabnya kedua gajah memilih diagonal ini. Itu jugalah sebabnya tak ada yang terjadi di sini. Satu penyerang melawan satu pembela tak memenangkan apa pun, dan penyerang kedua masih beberapa langkah lagi di kedua pihak.\n\nJadi kedua gajah menetap dan menunggu, dan partai pergi mencari sesuatu untuk diperebutkan."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Apa yang Diperebutkan Keduanya",
+      "text": "Yang ditemukannya adalah d4. Daratkan pion di sana dan pertahankan, maka gajah Hitam diserang di diagonal yang baru saja ditempatinya, sementara pion-pion Anda menguasai tengah papan.\n\nDorong sekarang juga dan Anda tak mendapat satu pun dari itu. {{d4}} {{exd4}} dan pion yang Anda dorong sudah hilang; {{Nxd4}} menempatkan sebuah buah di petak itu sebagai gantinya, dan kuda di c6 menatapnya lurus.\n\nPion menguasai d4. Buah hanya berkunjung."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Mainkan langkah tenang yang memungkinkan pion, bukan buah, menangkap balik di d4 ketika dorongan itu akhirnya datang.",
+      "targetSan": [
+        "c3"
+      ],
+      "hint": "Pion Anda mana yang bisa maju satu langkah dan akhirnya menjaga petak yang ingin ditempati pion d Anda?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "Italia yang Lambat",
+      "text": "Tiga langkah kemudian, dan belum ada yang menyentuh siapa pun. Anda punya pion di c3 dan d3, Hitam punya kuda di f6 dan pion di d6, dan kedua raja aman di sudutnya.\n\nTak ada yang diserang. Tak ada yang bahkan diancam. Kedua pihak telah menyelesaikan pembukaan sesuai jadwal, sehingga seluruh partai masih harus diciptakan.\n\nInilah versi yang dituju sebagian besar Permainan Italia, dan ia ditentukan oleh persiapan, bukan oleh serangan ke f7."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "Belum Waktunya",
+      "text": "Anda bisa membongkar pusat detik ini juga. Hitung apa yang menyambutnya: {{d4}} {{exd4}} {{cxd4}} dan gajah mundur dengan {{Bb6}}, tempat ia kembali menekan d4 dengan kuda di c6 di sampingnya.\n\nDua buah hitam sudah menekan pion yang baru Anda bangun, dan buah-buah Anda terikat untuk mempertahankannya. Terobosan itu tidak salah, hanya terlalu cepat.\n\nJadi Anda memakai langkah-langkah menunggu untuk menambah bobot. Setiap buah putih di sini punya tugas kecuali satu, dan pion di c3 berdiri di petak yang sejak awal dimaksudkan untuk buah itu.\n\n> Permainan Italia ditentukan oleh siapa yang siap ketika d4 akhirnya didarati."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "prompt": "Keluarkan buah terakhir Anda dari petak awalnya, menuju pusat dan sayap raja tempat sisa pasukan Anda berada.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "Ia hanya punya tepat dua petak: satu di tepi tanpa masa depan, satu di tengah yang kelak bisa melanjutkan perjalanan."
+    }
+  ]
+}

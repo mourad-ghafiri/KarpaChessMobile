@@ -1,0 +1,11 @@
+{
+  "id": "forks-08",
+  "fen": "r3k3/5ppp/8/PN6/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc7+"
+  ],
+  "title": "Family Fork",
+  "setup": "Black's king and rook are both still on their home squares, and your knight on b5 is close by.",
+  "hint": "There is one knight square that attacks the king on e8 and the rook on a8 at the same time.",
+  "explanation": "## The Idea\n\n{{Nc7+}} checks the king on e8 and attacks the rook on a8. The king must move, and {{Nxa8}} takes the rook.\n\nA knight in the corner is often trapped there, but not this one: the pawn on a5 guards b6, so the knight has a safe way out. Before you grab a piece in the corner, check that your knight can get home."
+}

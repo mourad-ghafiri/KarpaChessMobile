@@ -1,0 +1,56 @@
+{
+  "id": "shatranj",
+  "title": "Shāh Māt",
+  "summary": "La parola con cui il gioco finisce, e un matto composto mille anni fa",
+  "proof": "history-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "La Parola della Fine",
+      "text": "Un solo passaggio di frontiera diede agli scacchi la parola con cui finiscono.\n\nIl chaturanga viaggiò verso occidente fuori dall'India e in Persia divenne **chatrang**. L'arabo non ha il suono *ch*, così il mondo arabo rimodellò il nome in **shatranj**, ed è questa la versione che la storia si è tenuta. Il re era lo **shāh**, e a un giocatore che non aveva più niente da tentare si diceva **shāh māt** — il re è inerme, in trappola, senza risposte.\n\nL'Europa consumò la frase fino a farne *jaque mate*, scacco matto, *échec et mat*, *checkmate*."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Un Consigliere e un Elefante",
+      "text": "La vostra donna è una riscrittura europea.\n\nLa donna in d1 era il **ferz**, il consigliere del re, e muoveva di una casa in diagonale. Tutto qui. Gli alfieri erano **alfil**, elefanti, e un alfil saltava esattamente due case in diagonale, scavalcando quello che c'era in mezzo — otto case della scacchiera per un'intera partita, e nessuna strada verso le altre cinquantasei.\n\nI pedoni andavano una casa per volta, senza doppio passo iniziale e senza arrocco dietro cui nascondersi. Un pedone che attraversava la scacchiera diventava un ferz."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Tre Modi di Vincere",
+      "text": "Lo shāh māt non era l'unico modo di finire.\n\nSe toglievate dalla scacchiera l'ultimo pezzo avversario, il **re nudo** rimasto in piedi aveva perso senz'altro. Se lasciavate il vostro avversario senza nemmeno una mossa legale, avevate vinto di nuovo — lo stallo era una vittoria, non una patta.\n\nTutti e due sono spariti dalle regole con cui giocate, e tutti e due dicono la stessa cosa sullo shatranj. Con pezzi così lenti, le vittorie non si colpivano. Si assemblavano.\n\n> Per quasi mille anni, il pezzo più forte degli scacchi fu la torre."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "title": "Composta, Non Giocata",
+      "text": "Un gioco così lento mette l'interesse nel finale, e così i maestri misero per iscritto i finali. **al-Adlī** compilò attorno all'840 il più antico manuale di gioco che conosciamo; **as-Sūlī** venne un secolo dopo e stava talmente sopra tutti gli altri che *come as-Sūlī* sopravvive in arabo come un elogio.\n\nI loro manoscritti sono pieni di *mansubat* — posizioni composte anziché giocate, ognuna costruita attorno a una risposta esatta.\n\nA due mosse da questa scacchiera sta il **matto arabo**: una torre accanto al re, un cavallo a difendere la torre. La torre in d7 e il cavallo in e4 muovono esattamente come allora, e tutte e due le mosse sono vostre."
+    },
+    {
+      "type": "play",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "prompt": "Mandate il cavallo sull'unica casa che difende h7 e chiude g8 al re nero nello stesso momento.",
+      "hint": "Passate in rassegna le otto case su cui questo cavallo può saltare, e chiedetevi quale di esse tocca h7 e g8 insieme.",
+      "targetSan": [
+        "Nf6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "title": "Non Annunciatelo Ancora",
+      "text": "Il cavallo è atterrato, e il Nero non aveva altro da muovere che un pedone.\n\nLa torre in d7 spazza tutta la settima traversa, quindi g7 e h7 non sono mai state a disposizione del re nero. Il cavallo in f6 ha chiuso g8, l'ultima — e difende anche h7, che è la metà che conta, perché h7 è dove la torre deve andare a stare.\n\nLa rete è chiusa. L'unico modo che resta di perderla è l'impazienza: {{Rd8+}} sembra un progresso, ed è anche la torre che lascia la settima traversa. {{Kg7}}, e il re esce a passeggio dall'angolo."
+    },
+    {
+      "type": "play",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "prompt": "Posate la torre accanto al re nero, su una casa che il cavallo difende già.",
+      "hint": "Due delle case del cavallo stanno accanto al re; solo una di esse è su una linea che la torre può percorrere.",
+      "targetSan": [
+        "Rh7#"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pin-06",
+  "fen": "8/r7/pRp2k2/2Rr4/7P/8/8/K7 w - - 0 1",
+  "solution": [
+    "Rxd5"
+  ],
+  "rating": 1000,
+  "title": "Yalnızca Adı Koruyucu",
+  "setup": "b6'daki kaleniz altıncı yatayı, siyahın c piyonunun içinden geçerek ta f6'daki şaha kadar kesiyor.",
+  "hint": "d5'teki kaleyi siyahın tek bir piyonu koruyor. Önce b6'daki kendi kalenizin o piyona ne yaptığına bakın.",
+  "explanation": "## Fikir\n\n{{Rxd5}} tam bir kale kazanır. **c6**'daki piyon d5'in tek koruyucusudur, ama **b6**'daki kaleniz tarafından altıncı yatay boyunca açmaza alınmıştır: taş alırsa **f6**'daki şah şah altında kalır. Açmazdaki piyon hiçbir şeyi korumaz."
+}

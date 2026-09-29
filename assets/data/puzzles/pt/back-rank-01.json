@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-01",
+  "fen": "1r4k1/p4ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rxb8#"
+  ],
+  "title": "A Troca Que Sela",
+  "setup": "Os dois reis estão arrumados atrás dos seus peões, e as torres fitam-se ao longo da coluna b. Quem golpear primeiro sobrevive.",
+  "hint": "Antes de chamares troca a uma captura, descobre que peça preta poderia recapturar.",
+  "explanation": "## A Ideia\n\nO rei preto em g8 não tem casa nenhuma sua: f7, g7 e h7 têm os seus peões, e f8 e h8 estão na oitava linha.\n\nPortanto a torre em b8 não é parceira de troca. É a única guarda dessa linha, e {{Rxb8#}} come-a e dá mate imediatamente: o rei não chega a b8, e os peões não andam para trás.\n\nAntes de trocares a última torre numa coluna aberta, pergunta o que é que ela fazia além de estar ali."
+}

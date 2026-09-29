@@ -1,0 +1,13 @@
+{
+  "id": "openings-01",
+  "fen": "rnb1kbnr/pppp1ppp/8/4p3/2B1q3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 5",
+  "solution": [
+    "Bxf7+",
+    "Kxf7",
+    "Ng5+"
+  ],
+  "title": "La dame paie le loyer",
+  "setup": "La dame noire a passé l'ouverture à chasser les pions et vient d'en prendre un au centre. Trouvez le sacrifice qui prépare une fourchette de cavalier.",
+  "hint": "Un saut de cavalier en g5 frapperait à la fois f7 et e4. Que faudrait-il pour que le roi noir se tienne en f7 ?",
+  "explanation": "## L'idée\n\nLa dame noire a passé l'ouverture à rafler des pions pendant que les Blancs roquaient et se développaient, et l'addition tombe maintenant.\n\n{{Bxf7+}} sacrifie le fou pour attirer le roi en avant. Si {{Kxf7}}, alors {{Ng5+}} fait une fourchette sur le roi en f7 et la dame en e4, et la dame est perdue.\n\nRefuser par {{Kd8}} garde la dame mais laisse le roi noir échoué au centre, et les Blancs gagnent de toute façon.\n\nUne dame qui chasse les pions dans l'ouverture finit elle-même chassée."
+}

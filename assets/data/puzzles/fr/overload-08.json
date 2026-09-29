@@ -1,0 +1,14 @@
+{
+  "id": "overload-08",
+  "fen": "2r3k1/3b1ppp/3Q4/8/3R4/2R5/PP6/K7 w - - 0 1",
+  "solution": [
+    "Rxc8+",
+    "Bxc8",
+    "Qd8#"
+  ],
+  "rating": 1520,
+  "title": "L'échange qui mène au mat",
+  "setup": "Le fou noir en d7 soutient la tour en c8 pendant que votre dame attend en d6.",
+  "hint": "Deux défenseurs peuvent ressembler à une défense doublée. Vérifiez s'ils gardent la même case ou s'ils se couvrent l'un l'autre.",
+  "explanation": "## L'idée\n\n{{Rxc8+}} est un simple échange, mais {{Bxc8}} arrache le fou de d7 et ouvre la colonne d, donc {{Qd8#}} suit. S'interposer par {{Be8}} à la place tombe sur {{Rxe8#}}. Le fou protégeait la tour et fermait la colonne d à la fois, et il ne peut pas faire les deux."
+}

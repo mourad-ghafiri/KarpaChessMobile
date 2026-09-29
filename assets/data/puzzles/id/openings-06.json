@@ -1,0 +1,13 @@
+{
+  "id": "openings-06",
+  "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2P1P3/2N2N2/PP1P1PPP/R1BQKB1R w KQk - 1 5",
+  "solution": [
+    "Nxe5",
+    "Nxe5",
+    "d4"
+  ],
+  "title": "Kosongkan Jalan ke d4",
+  "setup": "Sisilia terbalik: Hitam baru saja menempatkan gajah di c5, sejajar dengan pionnya di e5. Ambil pion itu, dengan mengandalkan garpu pion untuk merebut kembali buahnya.",
+  "hint": "Dua buah hitam berdiri di petak yang bisa diserang sekaligus oleh satu dorongan pion — tetapi ada sesuatu yang menghalangi lebih dulu.",
+  "explanation": "## Ide\n\nGajah Hitam di c5 dan pion di e5 duduk di dua petak yang akan diserang bersamaan oleh pion di d4, tetapi pion e5 menjaga d4, jadi sebuah buah harus menyingkirkannya lebih dulu.\n\n{{Nxe5}} melakukannya. Sesudah {{Nxe5}}, {{d4}} menggarpu kuda dan gajah, dan Putih merebut kembali buahnya. Materi berakhir kira-kira seimbang, tetapi Putih mempertahankan pusat dan keunggulan kecil.\n\nPembukaan sayap tetap memenangkan pertarungannya di tengah. Ia hanya mengambil jalan memutar."
+}

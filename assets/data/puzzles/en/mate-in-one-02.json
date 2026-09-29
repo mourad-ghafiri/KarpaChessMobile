@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-02",
+  "fen": "rnbqk2r/pppp1ppp/5n2/2b1p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4",
+  "solution": [
+    "Qxf7#"
+  ],
+  "rating": 630,
+  "title": "Two Attackers, One Guard",
+  "setup": "Your queen on h5 and bishop on c4 both stare at f7, the square only the black king defends.",
+  "hint": "Two of your pieces already hit the same square. Count how many black defenders it has.",
+  "explanation": "## The Idea\n\nf7 is defended by the king alone, and two attackers beat one defender. {{Qxf7#}} lands beside the king, guarded by the bishop on c4, so it cannot be taken. e7 and f8 are covered by the queen itself; d7 and d8 are blocked by Black."
+}

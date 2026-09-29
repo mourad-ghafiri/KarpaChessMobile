@@ -1,0 +1,14 @@
+{
+  "id": "smothered-07",
+  "fen": "r4r1k/pp4pp/7N/3Q4/8/8/P4PPP/6K1 w - - 6 31",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1345,
+  "title": "Desvía al guardián",
+  "setup": "Las Negras acaban de devolver una torre a f8 para sostener f7, y el caballo de h6 está colgado.",
+  "hint": "La torre de f8 es lo único que defiende f7: ¿dónde podrías obligarla a ponerse en su lugar?",
+  "explanation": "## La idea\n\nEl caballo ya cubre g8, así que el rey no puede responder a {{Qg8+}}, y {{Rxg8}} es la única respuesta legal. La torre que defendía f7 tapa ahora la última salida del rey, y {{Nf7#}} remata. El sacrificio desvía y asfixia en una sola jugada."
+}

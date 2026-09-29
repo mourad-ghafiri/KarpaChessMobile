@@ -1,0 +1,12 @@
+{
+  "id": "trapped-05",
+  "fen": "3r2k1/1pp2pp1/7p/n2P4/8/3P3P/PP3PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b4"
+  ],
+  "rating": 1170,
+  "title": "Cavallo all'Angolo",
+  "setup": "Il cavallo nero è atterrato in a5, dove i suoi quattro balzi sono b3, c4, c6 e b7, e b7 è il suo stesso pedone.",
+  "hint": "I vostri pedoni in a2, d3 e d5 sorvegliano già tre delle quattro case del cavallo. Manca solo l'attacco.",
+  "explanation": "## L'idea\n\n{{b4}} attacca il cavallo e il cavallo non ha dove andare: b3 va addosso ad axb3, c4 a dxc4, c6 a dxc6, e b7 è bloccata dal pedone stesso del Nero. Un cavallo in a5 è a una mossa di pedone dall'essere un ex cavallo."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "defence-06",
+  "fen": "8/7B/6R1/1K1k4/r4q2/4Q3/r7/8 w - - 0 1",
+  "solution": [
+    "Bg8+",
+    "Qf7",
+    "Bxf7#"
+  ],
+  "rating": 1650,
+  "title": "El alfil tapa por ti",
+  "setup": "Las Negras tienen una dama en f4 y torres en a4 y a2 apuntando a tu rey de b5: hay amenazas por todas partes.",
+  "hint": "Encuentra el jaque al que las Negras solo pueden responder poniendo en medio su pieza más fuerte.",
+  "explanation": "## La idea\n\n{{Bg8+}} obliga a {{Qf7}}, porque nada más puede tapar, y {{Bxf7#}} se come la dama y la partida de una vez. Un jaque que exige una interposición concreta vale más que un jaque que solo molesta."
+}

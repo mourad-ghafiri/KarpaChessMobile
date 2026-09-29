@@ -1,0 +1,56 @@
+{
+  "id": "shatranj",
+  "title": "Shāh Māt",
+  "summary": "A palavra com que o jogo acaba e um mate composto há mil anos",
+  "proof": "history-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "A Palavra do Fim",
+      "text": "Bastou uma passagem de fronteira para dar ao xadrez a palavra com que acaba.\n\nO chaturanga viajou para ocidente, saiu da Índia e na Pérsia tornou-se **chatrang**. O árabe não tem o som *ch*, por isso o mundo árabe remodelou o nome em **shatranj**, e foi essa a versão que a história guardou. O rei era o **shāh**, e a um jogador que já não tinha nada a tentar dizia-se **shāh māt** — o rei está inerme, cercado, sem respostas.\n\nA Europa foi gastando a expressão até dar *jaque mate*, *scacco matto*, *échec et mat*, *xeque-mate*."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Um Conselheiro e um Elefante",
+      "text": "A tua dama é uma reescrita europeia.\n\nA dama em d1 era o **ferz**, o conselheiro do rei, e andava uma casa na diagonal. Era tudo. Os bispos eram **elefantes** — *alfil* —, e um *alfil* saltava exatamente duas casas na diagonal, por cima do que estivesse pelo meio — oito casas do tabuleiro durante uma partida inteira, e caminho nenhum para as outras cinquenta e seis.\n\nOs peões iam uma casa de cada vez, sem primeiro passo duplo e sem roque atrás do qual se esconder. Um peão que atravessasse o tabuleiro tornava-se um ferz."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Três Maneiras de Ganhar",
+      "text": "O shāh māt não era a única maneira de acabar.\n\nSe tirasses do tabuleiro a última peça do adversário, o **rei nu** que ficasse de pé tinha perdido sem mais. Se deixasses o teu adversário sem uma única jogada legal, tinhas ganho outra vez — o afogamento era vitória, não empate.\n\nAs duas coisas desapareceram das regras com que jogas, e as duas dizem o mesmo sobre o shatranj. Com peças assim tão lentas, as vitórias não se desferiam. Montavam-se.\n\n> Durante quase mil anos, a peça mais forte do xadrez foi a torre."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "title": "Composta, Não Jogada",
+      "text": "Um jogo assim tão lento põe o interesse no fim, e por isso os mestres puseram os finais por escrito. **al-Adlī** compilou por volta de 840 o mais antigo manual de jogo que conhecemos; **as-Sūlī** veio um século depois e estava tão acima de toda a gente que *como as-Sūlī* sobrevive em árabe como elogio.\n\nOs seus manuscritos estão cheios de *mansubat* — posições compostas em vez de jogadas, cada uma construída à volta de uma resposta exata.\n\nA duas jogadas deste tabuleiro está o **mate árabe**: uma torre ao lado do rei, um cavalo a defender a torre. A torre em d7 e o cavalo em e4 movem-se exatamente como então, e as duas jogadas são tuas."
+    },
+    {
+      "type": "play",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "prompt": "Manda o cavalo para a única casa que guarda h7 e fecha g8 ao rei preto ao mesmo tempo.",
+      "hint": "Percorre as oito casas para onde este cavalo pode saltar e pergunta qual delas toca em h7 e g8 ao mesmo tempo.",
+      "targetSan": [
+        "Nf6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "title": "Ainda Não o Anuncies",
+      "text": "O cavalo aterrou, e as pretas não tinham mais nada para mexer a não ser um peão.\n\nA torre em d7 varre a sétima linha inteira, portanto g7 e h7 nunca estiveram disponíveis para o rei preto. O cavalo em f6 fechou g8, a última — e guarda também h7, que é a metade que conta, porque h7 é onde a torre tem de ficar.\n\nA rede está fechada. A única maneira que resta de perder isto é a impaciência: {{Rd8+}} parece um progresso, e é também a torre a deixar a sétima linha. {{Kg7}}, e o rei sai a passear do canto."
+    },
+    {
+      "type": "play",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "prompt": "Pousa a torre ao lado do rei preto, numa casa que o cavalo já defende.",
+      "hint": "Duas das casas do cavalo estão ao lado do rei; só uma delas está numa linha que a torre possa percorrer.",
+      "targetSan": [
+        "Rh7#"
+      ]
+    }
+  ]
+}

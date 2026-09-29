@@ -1,0 +1,14 @@
+{
+  "id": "defence-02",
+  "fen": "3Q4/5R2/6k1/7b/2r5/1K6/5q2/8 w - - 0 1",
+  "solution": [
+    "Qg8+",
+    "Kh6",
+    "Rh7#"
+  ],
+  "rating": 1490,
+  "title": "La Loro Donna È sulla Vostra Porta",
+  "setup": "La donna nera in f2 rastrella la traversa accanto al vostro re e la sua torre e il suo alfiere sono tutti e due attivi — sembrate completamente perduti.",
+  "hint": "Non guardate affatto il vostro re. Chiedetevi dove può andare il re nero dopo uno scacco sull'ottava.",
+  "explanation": "## L'idea\n\n{{Qg8+}} spinge il re in h6 e {{Rh7#}} conclude, con la donna in g8 a tenere la torre. Essere sotto attacco è fatale solo se siete una mossa più lenti; qui siete una mossa più veloci."
+}

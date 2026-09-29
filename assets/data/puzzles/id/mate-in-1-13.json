@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-13",
+  "fen": "7k/8/8/5N2/8/8/6Q1/6K1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "Berdampingan, Dijaga Kuda",
+  "setup": "Raja hitam terjebak di sudut, dan kuda Anda di f5 sudah mengawasi g7 — petak tepat di sampingnya.",
+  "hint": "Menteri ingin berdiri di samping raja. Buah Anda mana yang sudah menjaga petak itu?",
+  "explanation": "## Ide\n\nIni mat berdampingan yang sama, didukung kuda alih-alih raja. Kuda di f5 menjaga g7, jadi menteri bisa mendarat di sana dengan aman.\n\n{{Qg7#}} memberi sekak. Raja di h8 tak bisa mengambil menteri, dan g8 serta h7 dikuasai menteri. Sekak dari petak sebelah tak bisa dihalangi.\n\nPenjaga apa pun cukup untuk mat berdampingan: raja, kuda atau pion. Temukan petak terjaga di samping raja lawan."
+}

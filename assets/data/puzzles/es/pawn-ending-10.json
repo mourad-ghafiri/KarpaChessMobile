@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-10",
+  "fen": "8/1k6/1p6/1P6/8/2K5/8/8 w - - 1 2",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1430,
+  "title": "Dando un rodeo",
+  "setup": "El rey negro acaba de plantarse delante de los peones, y ninguno de los dos peones puede volver a moverse.",
+  "hint": "El peón de b6 cubre a5 y c5, así que pregúntate qué lado del tablero puede seguir usando el rey blanco.",
+  "explanation": "## La idea\n\nEl peón de b6 defiende a5 y c5, así que el rey blanco nunca puede ponerse junto a su propio peón. {{Kd4}} empieza la marcha por el centro: {{Kc7}} {{Ke5}} {{Kd7}} {{Kd5}} y las Blancas ganan una tras otra las casillas d5, e6 y d7, luego van a c6 y comen en b6."
+}

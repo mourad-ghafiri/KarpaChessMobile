@@ -1,0 +1,12 @@
+{
+  "id": "trapped-02",
+  "fen": "2r3k1/pp3pp1/7p/4P2n/8/4B3/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1040,
+  "title": "Caballo en la banda",
+  "setup": "El caballo negro se ha ido a h5, una casilla con solo cuatro salidas, y ninguna parece acogedora.",
+  "hint": "Todas las casillas a las que llega ese caballo ya están cubiertas u ocupadas. Solo le falta un empujón.",
+  "explanation": "## La idea\n\n{{g4}} ataca al caballo y h5 es un callejón sin salida: a f6 se responde con exf6, a f4 con Bxf4, a g3 con hxg3, y en g7 está un peón negro. Un caballo en el borde del tablero tiene como mucho cuatro casillas. Cúbrelas y no tendrá adónde huir."
+}

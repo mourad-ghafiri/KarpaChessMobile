@@ -1,0 +1,14 @@
+{
+  "id": "deflection-04",
+  "fen": "2br2k1/p4ppp/1q6/8/1n6/7P/1PN1QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Nxb4"
+  ],
+  "rating": 1220,
+  "title": "O Cavalo Espera Pela Dama",
+  "setup": "A dama de b6 escora a torre de d8 e o cavalo de b4, e o teu cavalo de c2 vigia b4.",
+  "hint": "Cavalo come cavalo é só uma troca enquanto o defensor ficar em casa. Que xeque o manda para outro lado?",
+  "explanation": "## A Ideia\n\n{{Rxd8+}} deixa exatamente uma jogada legal, {{Qxd8}}. A dama está fora da coluna b, portanto {{Nxb4}} ganha um cavalo limpo. Torre por torre primeiro, e o desvio sai de graça. Pergunta o que é que a peça mais bem colocada do adversário está calmamente encarregada de segurar."
+}

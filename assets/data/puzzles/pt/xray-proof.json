@@ -1,0 +1,13 @@
+{
+  "id": "xray-proof",
+  "fen": "6k1/pq3pp1/1p5p/4b3/4r3/5N1Q/PPP2PPP/4RK2 w - - 0 1",
+  "solution": [
+    "Nxe5",
+    "Rxe5",
+    "Rxe5"
+  ],
+  "title": "Guardado Através da Torre",
+  "setup": "O bispo em e5 tem um defensor, a torre que está à frente dele, e essa torre está na coluna da tua própria torre.",
+  "hint": "Conta o que guarda uma casa depois de a torre preta ter deixado e4, e não antes.",
+  "explanation": "## A Ideia\n\n{{Nxe5}} põe o teu cavalo onde a torre de e4 o pode comer, e é esse o ponto. A tua torre em e1 guarda e5 através da torre preta: no instante em que ela captura, abre a coluna atrás de si, e a tua torre recaptura. Portanto as pretas não podem de facto recapturar. O melhor que as pretas têm é trocar as torres em e1 e continuar uma peça abaixo."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-07",
+  "fen": "r4rk1/1pp2ppp/p1np4/4p3/2B1P3/2Pq1N2/PP2QPPP/R2R2K1 b - - 0 1",
+  "solution": [
+    "Qxe2"
+  ],
+  "title": "Trade Queens to Save the Day",
+  "setup": "Your queen on d3 is attacked three times, nothing defends it, and every square it could run to is covered.",
+  "hint": "The queen cannot be saved. Ask what the most valuable thing is that it can take on the way out.",
+  "explanation": "## The Idea\n\nThe queen on d3 is hit by the queen, the bishop on c4 and the rook on d1, and every retreat lands on a guarded square. It is lost either way, so make White pay the full price. {{Qxe2}} trades it for White's queen, and after {{Bxe2}} you are a piece for a pawn down, but no longer a queen down as well."
+}

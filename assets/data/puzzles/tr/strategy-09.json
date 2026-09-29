@@ -1,0 +1,11 @@
+{
+  "id": "strategy-09",
+  "fen": "rnb1kb1r/1pq2ppp/p2ppn2/8/3NP3/3B4/PPP1QPPP/RNB2RK1 w k - 0 8",
+  "solution": [
+    "c4"
+  ],
+  "title": "Siyahın Güvendiği Hamle",
+  "setup": "Siyahın a6'ya giden piyonunun ve c7'ye giden vezirinin arkasında tam olarak tek bir amaç var ve henüz gerçekleşmedi. Gerçekleşmeden durdurun.",
+  "hint": "Hiçbir şey yapmasanız siyahın sırada ne oynayacağını sorun, sonra o planı pahalıya getiren hamleyi bulun.",
+  "explanation": "## Fikir\n\nSiyahın kurulumu tek bir yönü gösteriyor: {{b5}}, ardından fili b7'ye ve uzun çaprazdan e4'e baskı.\n\n{{c4}} o planı siler. Piyon artık b5 ile d5'i kapsar, yani kırılma taş kaybettirir. Siyah {{Be7}} ile gelişir, beyaz {{Nc3}} ile kıskacı tamamlar ve hazırlanacak bir kırılma kalmaz.\n\nBedeli: c piyonu, d4'teki atı desteklemek için bir daha asla c3'e dönemez. Profilaktik hamle neredeyse her zaman küçük bir şeye mal olur. Sildiğiniz plan daha değerliyse bunu ödeyin."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-06",
+  "fen": "6rk/5ppp/4R3/8/bR5Q/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh4#"
+  ],
+  "rating": 1450,
+  "title": "Abre la columna h",
+  "setup": "El rey negro está en h8 detrás de tres peones, tu torre espera en b4 y la dama ya mira a h7.",
+  "hint": "El rey solo está a salvo mientras la columna que tiene delante siga cerrada. Calcula cuánto costaría abrirla.",
+  "explanation": "## La idea\n\nEl peón de h7 es la única protección, y solo lo defiende el rey. {{Qxh7+}} obliga a {{Kxh7}}, y la torre cruza para {{Rh4#}}. Un rey que tiene que recapturar se pone en la columna que estás a punto de abrir."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "forks-04",
+  "fen": "8/p3k1pp/1r6/8/8/2N5/PP4PP/6K1 w - - 0 1",
+  "solution": [
+    "Nd5+"
+  ],
+  "title": "Sekak Dulu, Lalu Ambil",
+  "setup": "Benteng Hitam di b6 tak punya pembela, dan raja hitam berdiri di tengah papan.",
+  "hint": "Temukan lompatan kuda yang memberi sekak dan sekaligus menyerang sesuatu yang lain.",
+  "explanation": "## Ide\n\n{{Nd5+}} memberi sekak kepada raja di e7 dan menyerang benteng di b6 dalam satu lompatan. Tak ada buah hitam yang bisa mengambil kuda di d5, dan raja harus menjawab sekak lebih dulu, jadi setelah ia bergerak, {{Nxb6}} memenangkan benteng.\n\nGarpu kuda paling kuat ketika salah satu dari dua sasarannya adalah raja: sekak merampas kesempatan Hitam untuk menyelamatkan buah yang lain."
+}

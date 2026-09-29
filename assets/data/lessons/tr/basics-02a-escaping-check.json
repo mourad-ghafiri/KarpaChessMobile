@@ -1,0 +1,77 @@
+{
+  "id": "escaping-check",
+  "title": "Üç Çıkış Yolu",
+  "summary": "Kaçırın, kapatın, alın — ve bunlardan ikisinin olmadığı şahlar",
+  "proof": "first-steps-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "title": "Dördüncü Cevap Yok",
+      "text": "Her şaha anında cevap verilmelidir ve satranç size tam olarak üç cevap verir.\n\nŞahı saldırı altındaki kareden **kaçırın**. Saldırının geldiği hattı **kapatın**. Şah çeken taşı **alın**.\n\nListe bundan ibaret. e8'deki siyah kale, e dikeyinden e1'deki şahınıza dosdoğru bakıyor ve bu üç şeyden biri olana kadar oynamak isteyeceğiniz başka hiçbir şey kurallı değil.\n\nListe hiç değişmez ve üç maddeliktir. Değişen, bu üçünden kaçının elinizde olduğudur."
+    },
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Hattın Dışına, Hat Boyunca Değil",
+      "text": "Fili tahtadan kaldırın, şah tek başına cevap versin.\n\ne1'deki bir şaha beş kare değer: d1, d2, e2, f1 ve f2. Dördü kalenin yolundan uzaktır. Beşincisi e2'dir — bir adım ileri, hâlâ e dikeyinde, hâlâ aynı kalenin altında. Hat *boyunca* koşmak kaçmak değildir.\n\nŞahı oynatmak önce kontrol etmeye değer ve hiçbir zaman garanti değildir. İstediğiniz karenin boş olması ve rakibinizin zaten saldırmadığı bir kare olması gerekir."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Şahınızı kalenin sahip olduğu dikeyden çıkarın.",
+      "targetSan": [
+        "Kd1",
+        "Kd2",
+        "Kf1",
+        "Kf2"
+      ],
+      "hint": "Kale bir dikeyi kaplıyor, başka bir şeyi değil; yana atılan tek bir adım meseleyi çözer."
+    },
+    {
+      "type": "teach",
+      "fen": "k7/8/8/b7/8/8/8/1N2K3 w - - 0 1",
+      "title": "Kapıyı Kapatın",
+      "text": "Başka bir şah ve bu kez şahın hiç oynaması gerekmiyor.\n\na5'teki siyah fil, e1'deki şahınıza b4, c3 ve d2 üzerinden geçen çaprazdan ulaşıyor. Ona o kareler *üzerinden* ulaşıyor — hat dediğimiz budur — ve bunlardan herhangi birinde duran bir taş saldırıyı bitirir.\n\nb1'deki atınızın seçebileceği iki kapı var: {{Nc3}} ya da {{Nd2}}. Fil hâlâ çapraz boyunca ters ters bakıyor. Sadece oraya varamıyor.\n\nAraya giren taş elbette alınabilir. Bir kapatma, ona harcadığınız taş kadar iyidir."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "Kaleye dönelim — filinizi onun yoluna koyun ve dikeyi kapatın.",
+      "targetSan": [
+        "Be3"
+      ],
+      "hint": "Fil çaprazlarda gider, bu yüzden aralarındaki altı kareden yalnızca biri onun menzilindedir."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "title": "Önüne Geçilecek Bir Şey Yok",
+      "text": "At bir hat boyunca gitmez. Varır.\n\nd3'teki siyah atla e1'deki şahınız arasında hiç kare yoktur, yani araya koyacak bir şey de yoktur. Bir atın şahı asla kapatılamaz. Şahın tam yanında duran bir taşın şahı da kapatılamaz — birbirine değen iki karenin arasında hiçbir şeye yer yoktur.\n\nYani burada liste iki maddeye iner. Ya şah yürür ya da at tahtadan kalkar."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "prompt": "Bunu atı tahtadan kaldırarak bitirin.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Piyonlar çaprazdan alır, asla dümdüz ileri değil."
+    },
+    {
+      "type": "teach",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "title": "Var Olmayan Taş Alma",
+      "text": "Taş alma cevapların en tatlısıdır ve en sık elde olmayanıdır.\n\nf3'teki at g1'deki şahınıza şah çekiyor ve iki taşınız ona saldırıyor. g2'deki piyon akla ilk geleni — bir piyonun at alması kelepirdir.\n\nAma o piyon aynı zamanda g8'deki siyah kale ile şahınız arasındaki tek şey. Onunla alırsanız şah kaleden gelen şahın altında kalır ve kendi şahınızı şah altında bırakan bir hamle hamle değildir. Şahına giden hattı tutan bir taş oradan ayrılmakta özgür değildir."
+    },
+    {
+      "type": "play",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "prompt": "Atı, şahınızın gözden çıkarabileceği taşla alın.",
+      "targetSan": [
+        "Rxf3"
+      ],
+      "hint": "İki saldırandan yalnızca biri, kendi şahınıza bir hat açmadan oynayabilir."
+    }
+  ]
+}

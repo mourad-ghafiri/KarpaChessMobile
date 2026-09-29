@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-20",
+  "fen": "4k3/6p1/4K3/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Enjaula o Rei Pelo Lado",
+  "setup": "Os reis estão frente a frente na coluna e, e o único peão que resta às pretas não ajuda em nada.",
+  "hint": "O teu rei veda a sétima linha. Manda a dama para a única linha que resta às pretas.",
+  "explanation": "## A Ideia\n\nOs reis estão outra vez frente a frente, e desta vez a dama chega do canto.\n\n{{Qa8#}} dá xeque pela linha de fundo. d8 e f8 estão na linha da dama, e o teu rei de e6 cobre d7, e7 e f7. O peão de g7 não tapa nada e não salva nada.\n\nMaterial a mais no tabuleiro não muda o padrão: um rei em frente mais uma dama na linha de fundo é mate."
+}

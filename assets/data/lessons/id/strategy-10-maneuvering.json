@@ -1,0 +1,59 @@
+{
+  "id": "maneuvering",
+  "title": "Manuver",
+  "summary": "Tiga langkah tenang untuk menempatkan satu buah dengan benar",
+  "proof": "strategy-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Tak Ada yang Diambil, Tak Ada yang Dihentikan",
+      "text": "Tak ada buah yang tak terlindungi. Hitam tak mengancam apa pun, tak ada sekak yang tersedia, dan pusat bisa menunggu: {{d5}} menutupnya, {{dxe5}} membukanya, dan tak satu pun harus terjadi pada langkah ini.\n\nPosisi seperti ini tidak langka. Posisi seperti inilah sebagian besar partai.\n\nJadi pertanyaannya berubah. Bukan apa yang bisa saya menangkan di sini, melainkan buah saya mana yang paling sedikit bekerja, dan di mana ia lebih suka berdiri. Jawaban itu butuh tiga langkah untuk dimainkan, dan masing-masing tampak seperti tak terjadi apa-apa."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Mulailah dari Ujungnya",
+      "text": "Kuda Putih di b1 belum bergerak sepanjang partai, dan segala sesuatu yang layak diserang ada di sisi papan yang lain.\n\nPetak yang diinginkan kuda itu adalah g3: dari sana ia menguasai f5 dan h5, dua petak yang tak diawasi pion hitam mana pun.\n\nSekarang jalannya. Jalan pendek melewati c3, tempat pion Putih sendiri diparkir. Jadi kuda mengambil jalan memutar yang panjang, dan langkah pertama dari jalan memutar yang panjang selalu tampak seperti langkah yang terbuang."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "prompt": "Mulailah perjalanan kuda yang belum pernah bergerak menuju sayap raja, dan jauhkan ia dari tepi.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "Dari petak awalnya kuda itu hanya punya tepat dua langkah: satu memarkirnya di tepi, yang lain menjaganya tetap dalam permainan."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "title": "Lebih Buruk Sebelum Lebih Baik",
+      "text": "Kuda Hitam kehabisan petak di tepi dan kembali ke c6, tempat ia menguasai d4 dan e5 lagi. Dua pemain, ide yang sama, diarahkan ke arah yang berlawanan.\n\nKuda Anda sendiri baru menempuh satu etape dan, untuk sementara, menghalangi: di d2 ia menghalangi gajah di c1 dan duduk di depan menteri di d1. Kuda di tengah baris belakangnya sendiri adalah kuda yang sedang dalam perjalanan. Ia tak menghasilkan apa-apa sampai tiba, itulah sebabnya manuver adalah keputusan untuk sedikit lebih buruk selama dua langkah."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "prompt": "Kuda yang sedang berjalan baru menempuh satu etape, jadi ambil langkah berikutnya menuju sayap yang lain.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Tiga dari empat petak kuda itu menahannya di sayap menteri yang ingin ditinggalkannya; hanya satu yang tidak."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "title": "Etape Terakhir",
+      "text": "Dua langkah lalu kuda ini tak punya pekerjaan. Kini ia berdiri satu lompatan dari petak yang membuat seluruh perjalanan itu sepadan.\n\nLihat sayap raja Hitam. Tak ada pion hitam yang mengawasi f5, dan kuda yang mencapai f5 menyerang gajah di e7 dan pion di d6 sekaligus. Jadi etape terakhir bukan tentang f5 itu sendiri. Etape itu tentang petak yang menjaga f5 tetap satu lompatan jauhnya dan menguasai h5 dalam perjalanannya.\n\n> Buah Anda mana yang paling sedikit bekerja, di petak mana Anda lebih suka ia berdiri, dan jalan mana yang terpendek ke sana."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "prompt": "Tuntaskan perjalanannya dengan menempatkan kuda di tempat ia mengawasi f5 dan h5 sekaligus.",
+      "targetSan": [
+        "Ng3"
+      ],
+      "hint": "Dua dari empat petak kuda memandang f5, dan hanya satu di antaranya yang juga memandang h5."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fork-05",
+  "fen": "1nb4k/p4pp1/2p4p/8/8/8/P1P2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Kh7",
+    "Rxc8"
+  ],
+  "rating": 840,
+  "title": "Air Too Late",
+  "setup": "Black has just played h6 to give its king air, and nothing is left guarding the eighth rank.",
+  "hint": "The back rank is no longer mate, but it is still the emptiest line on the board.",
+  "explanation": "## The Idea\n\n{{Rd8+}} was mate one move ago; now it is a fork. From d8 the rook hits the whole eighth rank in both directions at once — the king on one side, the bishop on c8 on the other. {{Kh7}} is forced, and {{Rxc8}} wins a piece."
+}

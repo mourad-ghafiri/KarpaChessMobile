@@ -1,0 +1,11 @@
+{
+  "id": "openings-02",
+  "fen": "r1bqk2r/pppp1ppp/1bn5/4P3/2B1n3/2P2N2/PP3PPP/RNBQK2R w KQk - 0 7",
+  "solution": [
+    "Qd5"
+  ],
+  "title": "O Centro Italiano Morde",
+  "setup": "As brancas prepararam d4 com c3 e avançaram, e as pretas acabaram de abocanhar um peão no centro com um cavalo.",
+  "hint": "Uma casa ataca o cavalo desprotegido e o ponto do campo preto que só o rei defende. Procura a sobreposição.",
+  "explanation": "## A Ideia\n\nÉ para isto que serve a construção com c3 e d4: assim que o centro se abre, as peças pretas não têm sítio seguro onde estar.\n\n{{Qd5}} é um ataque duplo. A dama atinge o cavalo de e4, e pela outra diagonal atinge f7, onde o bispo de c4 já espera: {{Qxf7#}} seria mate. As pretas têm de responder a isso primeiro, e o cavalo cai.\n\nNenhuma jogada de cavalo o salva segurando f7 ao mesmo tempo: em d6 cai para o peão de e5, em g5 para o cavalo de f3."
+}

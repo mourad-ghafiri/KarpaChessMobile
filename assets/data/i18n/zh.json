@@ -1,0 +1,633 @@
+{
+  "language": {
+    "name": "中文"
+  },
+  "ui": {
+    "brand": {
+      "title": "KarpaChess"
+    },
+    "button": {
+      "flip": "翻转",
+      "undo": "悔棋",
+      "hint": "提示",
+      "dismiss": "取消",
+      "chooseFile": "选择文件…",
+      "settings": "设置",
+      "close": "关闭",
+      "back": "返回",
+      "next": "下一步",
+      "save": "保存"
+    },
+    "label": {
+      "difficulty": "难度",
+      "playAs": "执子",
+      "timeControl": "时间控制"
+    },
+    "placeholder": {
+      "pgnInput": "粘贴 PGN 或着法列表（如 e4 e5 Nf3 Nc6）…",
+      "drawText": "输入…"
+    },
+    "aria": {
+      "capturedByWhite": "白方吃掉的子",
+      "capturedByBlack": "黑方吃掉的子",
+      "chessBoard": "国际象棋棋盘",
+      "dismissHint": "关闭提示"
+    },
+    "toast": {
+      "parseFail": "无法解析：{error}",
+      "fileTooLarge": "该文件太大，无法导入。"
+    }
+  },
+  "game": {
+    "result": {
+      "stalemate": "逼和",
+      "draw": "和棋",
+      "timeout": "超时"
+    },
+    "resultSub": {
+      "whiteWins": "白方获胜",
+      "blackWins": "黑方获胜",
+      "stalemate": "逼和成和棋",
+      "fiftyMove": "50 回合规则",
+      "insufficient": "子力不足",
+      "repetition": "三次重复局面",
+      "whiteWinsTime": "白方超时胜",
+      "blackWinsTime": "黑方超时胜"
+    },
+    "side": {
+      "white": "白方",
+      "black": "黑方"
+    },
+    "playerDefault": {
+      "bottom": "你"
+    },
+    "playAsOption": {
+      "white": "白方",
+      "random": "随机",
+      "black": "黑方"
+    },
+    "timeControl": {
+      "unlimited": "不限时"
+    },
+    "difficulty": {
+      "1": "初学者",
+      "2": "业余",
+      "3": "俱乐部",
+      "4": "全力"
+    }
+  },
+  "chess": {
+    "piece": {
+      "p": "兵",
+      "n": "马",
+      "b": "象",
+      "r": "车",
+      "q": "后",
+      "k": "王"
+    },
+    "pieceCapital": {
+      "p": "兵",
+      "n": "马",
+      "b": "象",
+      "r": "车",
+      "q": "后",
+      "k": "王"
+    },
+    "direction": {
+      "kingside": "王翼",
+      "queenside": "后翼"
+    }
+  },
+  "hint": {
+    "checkmate": "送上<b>将杀</b>。终结对局！",
+    "castle": "{dir}易位——将王藏在兵墙之后。",
+    "promote": "推进到底线并升变为<b>{piece}</b>。",
+    "capture": "你的<b>{piece}</b>吃掉<b>{target}</b>。",
+    "develop": "把你的<b>{piece}</b>出动到 <b>{square}</b>，提高活跃度并窥视中心。",
+    "pawn": "将你的<b>兵</b>推进到 <b>{square}</b>，占据空间。",
+    "rook": "将你的<b>车</b>激活到 <b>{square}</b>——车钟爱开放线。",
+    "queen": "把<b>后</b>有目的地调至 <b>{square}</b>。",
+    "quiet": "把你的<b>{piece}</b>优化到 <b>{square}</b>。",
+    "checkSuffix": " 同时送上<b>将军</b>。"
+  },
+  "coach": {
+    "whisper": {
+      "tip5": "留意没有防守的棋子——无论是你的还是对方的。"
+    },
+    "builtin": {
+      "bestMove": {
+        "recommendation": "我的推荐：<b>{move}</b>。",
+        "noEngine": "引擎没有给出答案。以下是局面本身显示的内容。",
+        "whyHeader": "<b>为什么这样走在这里合理：</b>",
+        "castle": "• 王仍在中央——王车易位是首要任务。",
+        "develop": {
+          "other": "• 轻子还留在 {squares}——该出动了。"
+        },
+        "center": "• 中心四格上没有己方兵——推一个中心兵很有价值。",
+        "loose": {
+          "other": "• 对手有<b>无防守子</b>：{list}。想办法拿下。"
+        },
+        "oppKing": "• 对方的王<b>{score}</b>——进攻性着法往往有效。",
+        "ownKing": "• 你的王受到攻击——先考虑防守。",
+        "passedEnd": {
+          "other": "• 你在 {squares} 上有<b>通路兵</b>——推上去！"
+        },
+        "activeKing": "• 激活你的王——残局中它是一枚战斗子力。",
+        "ahead": {
+          "other": "• 你领先 {n} 分——兑子，留兵。"
+        },
+        "behind": {
+          "other": "• 你落后 {n} 分——制造复杂局面。"
+        },
+        "evalSuffix": "_评估：{eval}_"
+      },
+      "tactics": {
+        "header": "<b>{side}的战术扫描</b>",
+        "loose": {
+          "other": "对手有 {n} 枚无防守的子：{list}。"
+        },
+        "defended": "对方的子看起来都有防守。战术较难——寻找牵制、引离或清路着法。",
+        "exposedKing": "对方的王<b>{score}</b>（{notes}）——可能潜伏着将杀图形。",
+        "openLines": "开放线",
+        "queenTarget": "他们的后在 <b>{square}</b>——你能廉价地攻击它以获得先手吗？",
+        "engineSuggests": "引擎建议 <b>{move}</b>——这步是否契合上述某种图形？",
+        "footer": "_每一步都训练眼睛去发现这三样：无防守子、暴露的王、超负荷的防守子。_"
+      },
+      "plan": {
+        "header": "<b>{side}的计划</b>_（{phase}）_",
+        "developMinors": {
+          "other": "把剩余在 {squares} 的轻子出动。"
+        },
+        "castle": "王车易位——王的安全第一。",
+        "queenEarly": "小心——轻子尚未全部出动，后就提前出动了。别让它被驱赶。",
+        "centerPawn": "把一个兵放在中央四格（d4/e4/d5/e5）。",
+        "kingDanger": "你的王处于险境——先改善防守再进攻。",
+        "oppositeWings": "双方都已王车易位——若易位方向相反，就用兵进攻对方一翼。",
+        "pushPassed": {
+          "other": "推进你在 {squares} 上的通路兵。"
+        },
+        "isolated": {
+          "other": "留意你在 {squares} 上的孤兵——活跃性可以弥补弱点。"
+        },
+        "improveWorst": "改善你最差的子。每一步都应让你的某枚子变得更好。",
+        "racePassed": {
+          "other": "让你在 {squares} 上的通路兵冲刺升变。"
+        },
+        "activateKing": "激活你的王——让它走进战场。",
+        "aheadTrade": {
+          "other": "你领先 {n} 分——兑子（不是兑兵）化简到必胜残局。"
+        },
+        "behindKeep": {
+          "other": "你落后 {n} 分——保留子力，制造反击机会，避免兑子。"
+        },
+        "fewPawns": "剩兵不多——考虑对王、迫移（zugzwang）与关键格。"
+      },
+      "lastMove": {
+        "none": "尚未走棋——用一个中心兵（e4 或 d4）或一步马（Nf3）开始。",
+        "capture": "吃掉了子力",
+        "check": "送出将军",
+        "checkmate": "送出将杀",
+        "castleKingside": "向王翼易位",
+        "castleQueenside": "向后翼易位",
+        "promote": "兵升变",
+        "line": "<b>{san}</b>——{anns}。",
+        "quiet": "<b>{san}</b>——一步平稳的位置性着法。",
+        "evalLine": "当前评估：{eval}。 ",
+        "topChoice": "引擎接下来的首选：<b>{move}</b>。"
+      },
+      "evaluation": {
+        "header": "<b>局面评估</b>_（{phase}，{side}行棋）_",
+        "material": "• <b>子力：</b>白方 {w}，黑方 {b}{diff}",
+        "equalSuffix": "（均势）",
+        "diffSuffix": "——{side}领先 +{n}",
+        "engine": "• <b>引擎：</b>{eval}",
+        "whiteKing": "• <b>白王：</b>{score}{notes}",
+        "blackKing": "• <b>黑王：</b>{score}{notes}",
+        "notesFmt": "（{notes}）",
+        "pawnWeaknessesWhite": "• <b>白方兵型问题：</b>{list}",
+        "pawnWeaknessesBlack": "• <b>黑方兵型问题：</b>{list}",
+        "isolatedPrefix": "孤兵 {sq}",
+        "doubledPrefix": "{file} 线叠兵",
+        "passedWhite": {
+          "other": "• <b>白方通路兵：</b>{squares}"
+        },
+        "passedBlack": {
+          "other": "• <b>黑方通路兵：</b>{squares}"
+        },
+        "topMove": "• <b>引擎首选：</b><b>{move}</b>"
+      },
+      "kingSafety": {
+        "header": "<b>王的安全</b>",
+        "line": "• <b>{side}王</b>（{who}）：{score}{castled}。{notes}",
+        "you": "你",
+        "opponent": "对手",
+        "castledSuffix": "——已易位",
+        "noConcerns": "暂无需担忧。",
+        "footer": "如果你的王暴露：先防守。如果对手的王暴露：寻找将军、车的抬升和后的渗透。"
+      },
+      "phase": {
+        "opening": "开局",
+        "middlegame": "中局",
+        "endgame": "残局"
+      },
+      "kingScore": {
+        "safe": "安全",
+        "exposed": "暴露",
+        "danger": "危险",
+        "shelter": "有屏障",
+        "waiting": "观望",
+        "active": "活跃",
+        "unknown": "未知"
+      },
+      "kingNote": {
+        "tuckedCorner": "仍蜷在角落——把它调向中央",
+        "startingSquare": "王在起始格——把它走出来",
+        "activeOn": "王在 {square} 活跃",
+        "wanderingOn": "王在 {square} 游荡",
+        "centerAfter8": "第 8 回合后王仍在中央",
+        "thinShield": "兵屏障薄弱（{count}/3）",
+        "enemyHeavy": "敌方重子占据王所在的直线",
+        "fullShield": "已易位，兵屏障完整"
+      },
+      "eval": {
+        "unclear": "不明",
+        "balanced": "均势（{pawns}）",
+        "better": "{sign}{pawns}——<b>{side}</b>占优"
+      },
+      "topLines": {
+        "header": "<b>引擎首选着法</b>",
+        "item": "{rank}. {san} — {eval}"
+      },
+      "threatLine": "<b>注意：</b>如果轮到{side}走，威胁将是 {san}（{eval}）。",
+      "pieceOn": "{square} 上的{piece}"
+    },
+    "ask": {
+      "bestMove": "最佳着法",
+      "tactics": "战术",
+      "plan": "计划",
+      "lastMove": "这步棋",
+      "evaluation": "局面评估",
+      "kingSafety": "王的安全"
+    },
+    "askAnother": "换个问题"
+  },
+  "settings": {
+    "title": "设置",
+    "boardTheme": "棋盘主题",
+    "toggle": {
+      "coords": "显示坐标",
+      "legal": "高亮合法着法",
+      "last": "高亮上一步",
+      "sound": "音效",
+      "animations": "动画"
+    },
+    "language": "语言",
+    "dangerZone": "危险区域",
+    "resetBtn": "重置进度与设置",
+    "resetConfirm": "重置所有进度和设置？",
+    "about": "关于",
+    "version": "版本 {version}",
+    "licenses": "开源许可",
+    "privacy": "隐私政策",
+    "privacyBody": "KarpaChess 不收集任何个人数据。它没有账号、广告、分析和跟踪，也从不连接互联网。你的进度、设置、对局和图片只保存在你的设备上，以及你启用的设备备份中；它们绝不会被发送给我们或任何人。你可以在设置中清除进度、设置和玩家图片，删除应用则会移除它保存的一切。完整政策见 {url}",
+    "sourceNotice": "KarpaChess 是依据 GNU GPL v3 发布的自由软件。完整源代码位于 {url}"
+  },
+  "commentator": {
+    "importLede": "复制一段 PGN，它就会出现在这里，或在下方打开文件。",
+    "sampleGames": "示例对局",
+    "searchGames": "搜索棋手、赛事或 ECO",
+    "allGames": "全部",
+    "myGames": "我的对局",
+    "noGames": "没有匹配的对局。",
+    "moveCount": {
+      "other": "{n} 步"
+    },
+    "import": "导入",
+    "importTitle": "导入对局",
+    "importTileBlurb": "粘贴 PGN 或打开 .pgn 文件——它会留在你的棋库中。",
+    "importFound": "在剪贴板中找到这局棋。导入吗？",
+    "pasteInstead": "粘贴其他内容",
+    "importName": "名称",
+    "importNameHelp": "可选——没有标签的着法列表需要名称才便于查找。",
+    "remove": "移除",
+    "removeGame": "移除这局棋？",
+    "removeGameBody": "它将离开你的棋库。应用自带的对局不受影响。",
+    "close": "关闭此对局并返回导入",
+    "confirmClose": "关闭此对局并返回导入？",
+    "moves": "着法",
+    "badgesShow": "在棋盘上显示引擎图标",
+    "badgesHide": "在棋盘上隐藏引擎图标",
+    "firstMove": "首着（Home）",
+    "prevMove": "上一步（←）",
+    "nextMove": "下一步（→）",
+    "lastMove": "末着（End）",
+    "mainLine": "返回主线（↑）",
+    "untitled": "未命名",
+    "drawTools": {
+      "select": "选择",
+      "arrow": "箭头",
+      "box": "矩形",
+      "circle": "方块",
+      "pen": "画笔",
+      "text": "文字",
+      "deleteSelected": "删除所选（Del）",
+      "clearAll": "清除本步上的所有图形",
+      "undo": "撤销",
+      "redo": "重做",
+      "editText": "编辑文字"
+    },
+    "result": {
+      "title": "对局总结",
+      "checkmate": "将杀 · {winner}获胜",
+      "stalemate": "逼和 · 和棋",
+      "drawnGame": "和棋",
+      "whiteWins": "白方获胜",
+      "blackWins": "黑方获胜",
+      "white": "白方",
+      "black": "黑方",
+      "accuracy": "准确率",
+      "analyzing": "正在计算准确率…"
+    }
+  },
+  "review": {
+    "title": "对局复盘",
+    "analyzing": "分析中…",
+    "progress": "正在分析第 {i} / {total} 步…",
+    "tally": {
+      "best": "最佳",
+      "ok": "良好",
+      "inaccurate": "不准确",
+      "mistake": "错着",
+      "blunder": "严重失误"
+    },
+    "verdict": {
+      "brilliant": "妙手！",
+      "best": "最佳着法",
+      "good": "好棋",
+      "inaccuracy": "不准确",
+      "mistake": "错着",
+      "blunder": "严重失误"
+    },
+    "betterWas": "引擎更倾向于 {san}。",
+    "takeaway": {
+      "great": "完全正确——这正是引擎自己的选择。",
+      "good": "稳健：局面保持在正轨上。",
+      "slip": "这里放走了一些优势——{best} 更精确。",
+      "bad": "转折点。应该找到 {best}。"
+    }
+  },
+  "gamify": {
+    "level": "等级 {n}",
+    "dayStreak": "连续 {n} 天",
+    "earned": "+{n} 经验",
+    "levelUp": "升级啦！",
+    "dailyGoal": "每日目标"
+  },
+  "play": {
+    "nav": "对弈",
+    "title": "挑战 Stockfish",
+    "rematch": "再来一局",
+    "review": "复盘",
+    "youWon": "你赢了！",
+    "youLost": "虽败犹荣",
+    "strengthHint": {
+      "1": "初学水平",
+      "2": "休闲棋友",
+      "3": "俱乐部强手",
+      "4": "引擎全力"
+    },
+    "editProfile": "你的资料",
+    "yourName": "你的名字",
+    "choosePicture": "选择图片",
+    "removePicture": "移除图片",
+    "exitMatch": "退出对局",
+    "exitConfirm": "离开当前对局并返回设置？"
+  },
+  "studio": {
+    "nav": "解说室"
+  },
+  "nbSettings": {
+    "appearance": "外观",
+    "themeName": {
+      "tournament": "锦标赛",
+      "slate": "石板",
+      "walnut": "胡桃木",
+      "sheesham": "黄檀木",
+      "sage": "鼠尾草绿"
+    },
+    "pieceSet": "棋子",
+    "pieceSetName": {
+      "classic": "经典",
+      "wood": "木质",
+      "marble": "大理石",
+      "diagram": "棋图",
+      "modern": "现代",
+      "deco": "装饰艺术",
+      "facet": "切面",
+      "silhouette": "剪影",
+      "soft": "柔和",
+      "bold": "醒目"
+    },
+    "appTheme": "应用主题",
+    "appThemeName": {
+      "midnightGrove": "午夜林",
+      "emberStudy": "炭火书房",
+      "slateFocus": "石板专注",
+      "indigoHour": "靛蓝时刻",
+      "bronzeAge": "青铜时代",
+      "jadeTerrace": "翡翠台",
+      "plumVelvet": "紫梅绒",
+      "ivoryHall": "象牙厅",
+      "linenMorning": "亚麻清晨",
+      "harborLight": "港湾之光"
+    },
+    "soundFeel": "声音与手感",
+    "soundPack": {
+      "wood": "木质",
+      "plastic": "塑料",
+      "soft": "轻柔"
+    },
+    "haptics": "触感反馈",
+    "font": "字体",
+    "fontName": {
+      "classic": "经典",
+      "modern": "现代",
+      "technical": "技术"
+    }
+  },
+  "draw": {
+    "mode": "绘图模式",
+    "paused": "对局已暂停"
+  },
+  "replay": {
+    "autoplay": "自动播放",
+    "position": "{i} / {total}"
+  },
+  "academy": {
+    "seeIt": "观察",
+    "playIt": "走",
+    "ownIt": "掌握",
+    "yourMove": "轮到你了",
+    "youPlay": "你执{side}",
+    "nav": "学习",
+    "title": "大师之路",
+    "patternOwned": "掌握新棋型！",
+    "sharpen": "磨练",
+    "sharpenDull": {
+      "other": "{n} 个棋型待磨练"
+    },
+    "sharpenAllSharp": "所有棋型保持锋利",
+    "findTheMove": "找出着法",
+    "patternBook": "棋型手册",
+    "ownedCount": "已掌握 {n} / {total}",
+    "continueBtn": "继续",
+    "art": {
+      "basics": "根基",
+      "history": "国际象棋的故事",
+      "tactics": "利刃",
+      "openings": "起手式",
+      "endgames": "终局",
+      "strategy": "谋略",
+      "attack": "猎杀",
+      "culture": "国际象棋世界"
+    },
+    "rank": {
+      "novice": "新手",
+      "apprentice": "学徒",
+      "clubPlayer": "俱乐部棋手",
+      "tactician": "战术家",
+      "strategist": "战略家",
+      "candidateMaster": "候补大师",
+      "master": "棋型大师",
+      "grandmaster": "棋型特级大师"
+    },
+    "starBronze": "铜",
+    "starSilver": "银",
+    "starGold": "金",
+    "showAnswer": "这就是思路——试试看",
+    "finishLesson": "完成课程",
+    "continueLesson": "继续 · {title}",
+    "addedToBook": "已加入你的棋型手册 📖",
+    "bookIntro": "你掌握的每个棋型都收录在这里。磨练越多，星星越多。变暗的棋盘正在钝化——趁没遗忘赶紧磨练。",
+    "starNone": "尚未磨练",
+    "due": "待磨练",
+    "sharp": "锋利",
+    "reviewNow": "磨练这个棋型",
+    "replayLesson": "重玩课程",
+    "upNext": "下一个",
+    "gotIt": "明白了",
+    "confirmClose": "离开本课？经验值和进度都会保留——下次可以从上次的位置继续。",
+    "resume": "继续",
+    "restartLesson": "重新开始课程",
+    "confirmRestart": "重新开始本课？已获得的经验值将保留。",
+    "bookEmpty": "掌握你的第一个棋型后，它就会出现在这里。"
+  },
+  "puzzles": {
+    "nav": "习题",
+    "title": "习题",
+    "rating": "等级分",
+    "rated": "计分",
+    "keepGoing": "继续闯关",
+    "keepGoingBlurb": "按你的等级分挑选的习题。",
+    "daily": "每日一题",
+    "dailyBlurb": "每天一题，全天相同。",
+    "packs": "题包",
+    "findTheMove": "找出最佳着法。",
+    "solved": "已解出",
+    "runComplete": "这里已全部完成",
+    "runSolved": "本轮解出 {n} 题",
+    "noneLeft": "暂无可用习题。",
+    "pack": {
+      "mate-in-one": {
+        "name": "一步杀",
+        "blurb": "一步棋，一记将杀。"
+      },
+      "fork": {
+        "name": "叉击",
+        "blurb": "同时攻击两个目标。"
+      },
+      "back-rank-mate": {
+        "name": "底线",
+        "blurb": "王被自家的兵困在底线。"
+      },
+      "pin": {
+        "name": "牵制",
+        "blurb": "一枚不敢动弹的棋子。"
+      },
+      "skewer": {
+        "name": "串击",
+        "blurb": "先打前面那枚贵重的。"
+      },
+      "mate-in-two": {
+        "name": "两步杀",
+        "blurb": "两步强制杀棋。"
+      },
+      "discovery": {
+        "name": "闪击",
+        "blurb": "动一枚子，放出另一枚。"
+      },
+      "trapped": {
+        "name": "困子",
+        "blurb": "夺走最后一个安全格。"
+      },
+      "promotion": {
+        "name": "升变",
+        "blurb": "把兵送到底线。"
+      },
+      "remove-guard": {
+        "name": "消除防守",
+        "blurb": "拿掉支撑全局的那枚子。"
+      },
+      "deflection": {
+        "name": "引离",
+        "blurb": "迫使防守子离开职守。"
+      },
+      "decoy": {
+        "name": "引入",
+        "blurb": "把棋子诱到致命的格子上。"
+      },
+      "smothered": {
+        "name": "闷杀",
+        "blurb": "被自家的棋子闷死。"
+      },
+      "pawn-ending": {
+        "name": "兵残局",
+        "blurb": "对王、突破与方框规则。"
+      },
+      "rook-ending": {
+        "name": "车残局",
+        "blurb": "你最常遇到的残局。"
+      },
+      "overload": {
+        "name": "超负荷",
+        "blurb": "一枚防守子，两份职责。"
+      },
+      "zwischenzug": {
+        "name": "中间着",
+        "blurb": "回吃之前先插入威胁。"
+      },
+      "king-hunt": {
+        "name": "猎王",
+        "blurb": "把王逼到空旷处。"
+      },
+      "zugzwang": {
+        "name": "迫移",
+        "blurb": "每走一步都更糟。"
+      },
+      "defence": {
+        "name": "防守",
+        "blurb": "你才是被将杀的一方。抢先送杀。"
+      }
+    },
+    "confirmClose": "结束本轮习题？",
+    "practice": "练习",
+    "playAgain": "再玩一次",
+    "replay": "重玩",
+    "showSolution": "显示解法",
+    "failed": "未解出",
+    "flawless": "一次通过",
+    "continuePack": "继续",
+    "puzzleN": "习题 {n}",
+    "bestImproved": "新纪录！+{xp} 经验"
+  }
+}

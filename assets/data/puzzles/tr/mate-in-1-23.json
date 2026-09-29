@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-23",
+  "fen": "6k1/pp3ppp/8/8/8/8/PPR2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rc8#"
+  ],
+  "title": "Açık Dikey Çekici",
+  "setup": "Kaleniz ile sekizinci yatay arasındaki c dikeyi boş ve siyahın piyon kalkanının kaçış penceresi yok.",
+  "hint": "Açık c dikeyinde hücuma kalkın. Şahı sizin için siyahın kendi piyonları kapana kıstırıyor.",
+  "explanation": "## Fikir\n\nBu, açık bir dikeyde gelen arka yatay matıdır: c dikeyinde iki renkten de piyon yok, yani kalenizin sekizinci yataya temiz bir yolu var.\n\n{{Rc8#}} arka yatay boyunca şah çeker. f8 ile h8 kalenin hattındadır, f7, g7 ve h7'de siyahın kendi piyonları durur ve siyahın hiçbir taşı araya giremez ya da alamaz.\n\nAçık dikey, arka yataya giden bir otoyoldur."
+}

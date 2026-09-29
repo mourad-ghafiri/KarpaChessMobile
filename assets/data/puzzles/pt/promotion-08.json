@@ -1,0 +1,14 @@
+{
+  "id": "promotion-08",
+  "fen": "1R6/1P3ppk/7p/8/8/8/3r1PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "b8=Q+"
+  ],
+  "rating": 1280,
+  "title": "Sai da Frente",
+  "setup": "O teu peão de b7 quer b8, mas a tua própria torre está em cima, e a torre preta está solta em d2.",
+  "hint": "A tua própria torre é o bloqueio aqui. Tem de sair, e tem de sair com algo que as pretas não possam ignorar.",
+  "explanation": "## A Ideia\n\n{{Rh8+}} liberta b8 com xeque. {{Kxh8}} é o melhor que as pretas têm — {{Kg6}} deixa a torre em pé na mesma — e {{b8=Q+}} promove outra vez com xeque e as brancas ficam com uma dama por uma torre a mais. Uma peça em cima da sua própria casa de promoção tem de sair com ganho de tempo."
+}

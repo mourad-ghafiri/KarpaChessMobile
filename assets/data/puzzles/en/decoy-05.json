@@ -1,0 +1,14 @@
+{
+  "id": "decoy-05",
+  "fen": "6rk/pp4pp/8/8/8/q7/5PP1/3Q2KR w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Qh5#"
+  ],
+  "rating": 1310,
+  "title": "Open the Corner",
+  "setup": "Black's king hides on h8 behind its own rook and pawns, with only the h7 pawn between it and your rook.",
+  "hint": "The king has no legal move at all. What capture forces it onto the one square you can reach?",
+  "explanation": "## The Idea\n\n{{Rxh7+}} is a rook for a pawn, and {{Kxh7}} is Black's only move. Dragged onto h7 the king is stuck against its own rook and pawn, and {{Qh5#}} lands from a distance. The rook was never the target. The square h7 was."
+}

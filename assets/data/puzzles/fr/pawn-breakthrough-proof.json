@@ -1,0 +1,13 @@
+{
+  "id": "pawn-breakthrough-proof",
+  "fen": "8/5ppp/8/5PPP/4k3/8/8/K7 w - - 0 1",
+  "solution": [
+    "g6",
+    "fxg6",
+    "h6"
+  ],
+  "title": "Percer avant qu'il arrive",
+  "setup": "Le roi noir en e4 vient chercher vos pions, et votre propre roi est trop loin pour aider. Vous avez exactement un coup qui gagne.",
+  "hint": "Un pion noir ne quitte sa colonne que pour prendre. Quelle poussée peut être prise des deux côtés, et qu'est-ce que chaque prise laisse ouvert ?",
+  "explanation": "## L'idée\n\n{{g6}} offre le pion du milieu aux deux pions noirs qui l'entourent. Tout autre coup perd, car le roi noir mange simplement vos pions.\n\nDisons que les Noirs prennent par {{fxg6}} : {{h6}} offre un second pion. Maintenant, l'un des vôtres passe quoi que fassent les Noirs. Prenez en h6, et le pion f court jusqu'en f8 avant que le roi puisse l'atteindre. Laissez-le, et votre pion h prend en g7 et va à dame."
+}

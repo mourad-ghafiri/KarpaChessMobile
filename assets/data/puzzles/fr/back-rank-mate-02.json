@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-02",
+  "fen": "6k1/2r2ppp/8/8/8/8/5PPP/3Q2K1 w - - 1 2",
+  "solution": [
+    "Qd8#"
+  ],
+  "rating": 740,
+  "title": "Le gardien s'est écarté",
+  "setup": "La tour noire vient de descendre en c7, et il ne reste sur la huitième rangée que le roi.",
+  "hint": "Une pièce noire tenait toute la huitième rangée il y a un coup. Vérifiez si c'est toujours le cas.",
+  "explanation": "## L'idée\n\n{{Qd8#}} conclut. La dame donne échec le long de la huitième rangée ; la tour en c7 ne peut ni la prendre ni s'interposer en e8 ou f8, et le mur de pions en f7, g7 et h7 retient le roi chez lui. Une tour qui quitte la dernière rangée doit laisser un remplaçant."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-02",
+  "fen": "k7/2b2r2/5Q2/p7/3R4/1B6/KRp5/8 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Ka7",
+    "Rb7+",
+    "Ka8",
+    "Qa6#"
+  ],
+  "rating": 1385,
+  "title": "Le fou ouvre la ligne",
+  "setup": "Le roi noir est coincé dans le coin a8, et le pion noir en c2 est à un pas de la promotion. Le mat vient d'abord.",
+  "hint": "L'une de vos pièces se tient sur la colonne dont votre tour a besoin. Donnez-lui une tâche qui la déplace et donne échec en même temps.",
+  "explanation": "## L'idée\n\n{{Bd5+}} dégage b3 et donne échec ; {{Rb7+}} repousse le roi dans le coin ; {{Qa6#}} mate le long de la colonne a, le fou en d5 soutenant maintenant la tour en b7. Chaque coup d'une chasse doit à la fois donner échec et resserrer le filet."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-09",
+  "fen": "8/1r6/6P1/8/8/2R3K1/8/4k3 b - - 0 1",
+  "solution": [
+    "Rb6"
+  ],
+  "rating": 1530,
+  "title": "La bascule sur la sixième rangée",
+  "setup": "Le pion g blanc est prêt à courir et le roi noir en e1 est bien trop loin pour avoir son mot à dire.",
+  "hint": "Votre tour doit affronter le pion par-devant, et elle doit arriver en gagnant un temps. Quelle rangée fait les deux ?",
+  "explanation": "## L'idée\n\nUne seule rangée fait l'affaire. {{Rb6}} garde le pion sous le feu, et quand il court — {{g7}} — la tour bascule avec échec : {{Rg6+}} {{Kh2}} {{Rxg7}}. Depuis b8, la tour ne peut que s'interposer sans échec ; depuis b5, elle arrive derrière le pion, ce qui ne sert à rien."
+}

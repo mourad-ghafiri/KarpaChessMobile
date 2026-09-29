@@ -1,0 +1,56 @@
+{
+  "id": "birth-of-strategy",
+  "title": "L'Attacco Va Meritato",
+  "summary": "1886, una mossa di pedone, e una casa che il Nero non si riprende più",
+  "proof": "history-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Il Permesso di Attaccare",
+      "text": "Il secolo di Morphy attaccava d'istinto e contava il costo dopo. Steinitz fece la domanda più noiosa: che cosa dà a un attacco il diritto di esistere?\n\nNel 1886 Wilhelm Steinitz batté Johannes Zukertort in quello che si conta generalmente come il primo match per il campionato del mondo — dieci vittorie a cinque, con cinque patte. Steinitz lo vinse giocando uno stile che il mondo scacchistico dell'epoca trovava lento e vagamente maleducato.\n\nLa tesi non fu mai che attaccare sia sbagliato. Era che un attacco deve nutrirsi di qualcosa. Senza un vantaggio che lo nutra, una difesa corretta risponde a ogni minaccia che inventate — e voi restate padroni delle debolezze che vi siete creati."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Baltimora, 1885",
+      "text": "Steinitz contro Alexander Sellman, un anno prima del match per il titolo.\n\nQui non c'è niente da attaccare. Il centro è bloccato — il pedone bianco in e5 contro quello nero in e6 — e tutti e due se ne stanno semplicemente lì.\n\nE allora Steinitz va invece a fare la spesa. Una casa, una diagonale, un pezzo che non ha un buon posto dove stare: cose piccole, che però durano. Raccoglietene abbastanza e l'attacco diventa legittimo.\n\nL'alfiere nero in c5 è il pezzo più libero del Nero: guarda dritto verso f2, a una casa dal re bianco in e1."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "prompt": "Attaccate l'alfiere nero con un pedone dell'ala di donna e toglietegli c5 per sempre.",
+      "hint": "Steinitz non chiede mai che cosa vince adesso. Quale mossa di pedone toglie per sempre una casa a un pezzo avversario — e che cosa, del Bianco, difende già la casa su cui quel pedone atterrerebbe?",
+      "targetSan": [
+        "b4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Che Cosa Comprò un Pedone",
+      "text": "{{b4}}, e l'alfiere deve dire dove preferirebbe abitare. {{Be7}} è la risposta onesta — una casa dove fa pochissimo — e {{a3}} puntella il pedone perché la domanda non venga più fatta.\n\nNon si è vinto niente. Niente ha cambiato padrone, e non c'è ancora un numero da mettere sul vantaggio del Bianco.\n\nQuello che è cambiato è che il pezzo più libero del Nero è stato archiviato in silenzio, e una mossa di pedone non si riprende."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "La Casa che Non si Ripara",
+      "text": "Dieci mosse dopo, e Steinitz non ha ancora attaccato niente.\n\nGuardate c6. Un pedone copre c6 da b7 o da d7 — e il pedone b del Nero sta in b5, il pedone d in d5, e i pedoni non camminano all'indietro. Ogni pedone nero su questa scacchiera ha già lasciato la settima traversa.\n\nQuindi c6 è un **buco** — una **casa debole** che nessun pedone avversario potrà mai più coprire, perché i pedoni che avrebbero potuto coprirla l'hanno superata per sempre.\n\n> Una debolezza che l'avversario può riparare è un bersaglio. Una che non può riparare è una casa per i vostri pezzi."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "Non Ancora",
+      "text": "E allora parcheggiateci un cavallo. {{Nc6}} — e {{Bxc6}}, perché c6 è difesa due volte: dall'alfiere in b7 e dalla torre in c8.\n\nNessuna delle due guardie è permanente. Le torri si cambiano, e a un alfiere si può chiedere di spostarsi. I pedoni che avrebbero difeso c6 gratis sono quelli che non possono tornare.\n\nEcco perché l'altro cavallo bianco ha passato le ultime dieci mosse a camminare: d1, c3, b1, d2, b3. Sembra qualcuno che ha perso le chiavi, finché non vedete dove sta andando."
+    },
+    {
+      "type": "play",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "prompt": "Attaccate l'alfiere di b7 con un cavallo, scegliendo la casa dove non può essere semplicemente cambiato.",
+      "hint": "Due mosse di cavallo attaccano b7. Una atterra dove riprendono sia il cavallo di d7 sia l'alfiere di e7. L'altra casa la raggiunge solo la donna nera, e il pedone in b4 la sta aspettando.",
+      "targetSan": [
+        "Na5"
+      ]
+    }
+  ]
+}

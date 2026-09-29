@@ -1,0 +1,13 @@
+{
+  "id": "history-03",
+  "fen": "6k1/5ppp/b7/3K4/8/8/P7/7R b - - 0 1",
+  "solution": [
+    "Bb7+",
+    "Kc4",
+    "Bxh1"
+  ],
+  "title": "The Long Road",
+  "setup": "Your bishop on a6, the white king on d5 and a rook alone in the h1 corner: three squares that can become one line.",
+  "hint": "The alfil only hopped. Which diagonal already holds the white king and the rook, and which bishop step joins it?",
+  "explanation": "## The Idea\n\nThis is what the reform of the 1470s gave the bishop: every square of its diagonal, all the way down.\n\n{{Bb7+}} steps onto the long light diagonal with check. The white king on d5 stands in front, the rook on h1 behind, and no white piece can reach c6, the one square between them. Whichever square the king picks, {{Kc4}} or any other, it leaves the line.\n\n{{Bxh1}} takes the rook from the far end of the board. An alfil on a6 could never have reached h1 at all."
+}

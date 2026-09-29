@@ -1,0 +1,62 @@
+{
+  "id": "najdorf-sicilian",
+  "title": "La Najdorf",
+  "summary": "Un pedone di torre, e la corsa che fa partire",
+  "proof": "openings-14.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Una Mossa di Pedone con una Biblioteca Dietro",
+      "text": "La quinta mossa del Nero qui va su un pedone di torre che non attacca niente, non difende niente e non porta fuori niente. Ed è anche una delle mosse più analizzate degli scacchi, con uno scaffale di teoria alle spalle e nessun segno che lo scaffale si accorci.\n\nMiguel Najdorf la giocò come opera di una vita e la variante ne porta il nome. Fischer e Kasparov ne fecero poi la risposta più tagliente al mondo a 1.e4.\n\nLa domanda, quindi, è che cosa possa mai valere un pedone sul bordo."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "La Spinta che il Nero Vuole Davvero",
+      "text": "Quello che il Nero vuole è il pedone e due case avanti, che butta il cavallo fuori dal centro e se ne prende una parte vera.\n\nProvateci adesso e guardate che cosa risponde: {{e5}} {{Bb5+}}. Lo scacco viene prima e tutto il resto aspetta. Il Nero ha sei risposte legali — un cavallo in d7 o in c6, l'alfiere o la donna lasciati cadere in d7, oppure un re che muove e non arrocca più.\n\nLa spinta è giusta. L'ordine delle mosse no."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Tre Pezzi, Una Casa",
+      "text": "Contate che cosa arriva a b5 da qui. Il cavallo in d4 ci salta. Il cavallo in c3 ci salta. L'alfiere in f1 ha una strada libera — e2, d3, c4 — che arriva a b5 con scacco.\n\nTre pezzi, una casa, e quella casa è tutta la ragione per cui la spinta centrale deve aspettare una mossa.\n\nUn passo tranquillo di pedone copre b5 e risponde a tutti e tre insieme. Non sviluppa niente e non crea nessuna minaccia. Chiude una porta prima che qualcuno ci passi."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "prompt": "Togliete b5 a tutti e due i cavalli bianchi e all'alfiere, prima di avvicinarvi al centro.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "Un solo pedone nero può difendere b5, e ci arriva in un passo senza lasciare la colonna di bordo."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+      "title": "Che Cosa ha Comprato il Pedone",
+      "text": "Adesso la stessa spinta arriva senza niente attaccato: {{Be3}} {{e5}} {{Nb3}} {{Be6}}.\n\nIl cavallo va indietro in b3 anziché avanti in b5, e il Nero possiede un pedone centrale in e5 con un alfiere fuori dietro di lui.\n\nIl conto è reale. Spingere il pedone e lascia un buco in d5 che nessun pedone nero potrà mai più difendere, e il Bianco passerà le mosse successive a cercare di parcheggiarci un pezzo. Il Nero lo paga lo stesso. Una casa contro una parte del centro è un cambio che vale la pena fare."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Ali Opposte",
+      "text": "Alla decima mossa tutti e due i re sono scappati, quello bianco in c1 e quello nero in g8. Quel solo fatto cambia a che cosa serve un pedone.\n\nI pedoni sono riparo solo dove sta il vostro re. Sull'ala opposta sono truppe d'assalto, e a casa non servono a nessuno. Così il Bianco manda il pedone g e il pedone h contro g8, il Nero manda il pedone a e il pedone b contro c1, e nessuno dei due si ferma a difendere.\n\nUna mossa difensiva qui è una mossa consegnata all'avversario."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Contare la Corsa",
+      "text": "Adesso il materiale è l'unità di misura sbagliata. Contate invece le mosse fino al re avversario: quante spinte prima che si apra una linea verso di lui, e chi arriva per primo.\n\nIl pedone g del Bianco deve fare due passi prima che il cavallo di f6 venga scacciato e la colonna g cominci a incrinarsi. Il pedone b del Nero ha due passi per arrivare a b4, dove il cavallo in c3 — il pezzo che sta davanti al re bianco — deve rispondere.\n\nStesso conto, e muove il Nero.\n\n> Su ali opposte non contate pedoni, contate mosse."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "prompt": "Fate partire la corsa sull'ala di donna con il pedone i cui due passi successivi sfrattano il cavallo che difende il re bianco.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Esattamente un vostro pedone può stare in b4 in due mosse, e sulla scacchiera niente glielo impedisce."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "promotion-01",
+  "fen": "7k/1P3pp1/3r3p/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "b8=Q+",
+    "Kh7",
+    "Qxd6"
+  ],
+  "rating": 1000,
+  "title": "Çatal Getiren Vezir",
+  "setup": "b piyonunuz sekizinci yataya bir adım uzaklıkta ve siyahın şahı tam o yatayda duruyor.",
+  "hint": "Yeni vezir şah çekerek gelir. Oynamadan önce terfi karesinin başka neye saldırdığına bakın.",
+  "explanation": "## Fikir\n\n{{b8=Q+}} sekizinci yatay boyunca şahtır ve aynı anda b8–h2 çaprazından d6'daki kaleye saldırır. Siyahın şaha cevap vermesi gerekir — {{Kh7}} ile ya da Rd8 ile kapatarak — ve her hâlükârda vezir kaleyi toplar; örneğin {{Qxd6}}. Yeni taşın iki iş göreceği yerde terfi edin."
+}

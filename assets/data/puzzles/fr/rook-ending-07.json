@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-07",
+  "fen": "7R/2k5/8/1rPK4/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Rh7+"
+  ],
+  "rating": 1470,
+  "title": "Retour sur la huitième",
+  "setup": "Le roi noir se tient deux cases devant le pion c, tenant c6 depuis c7, et sa tour l'attaque depuis b5, donc rien ne bouge encore.",
+  "hint": "Le roi noir fait toute la défense depuis la case voisine du pion. Quelle ligne pouvez-vous lui prendre ?",
+  "explanation": "## L'idée\n\nTant que le roi est en c7, les Blancs ne progressent pas. {{Rh7+}} le chasse sur la dernière rangée, et la tour possède alors la septième, donc le roi ne pourra jamais revenir à côté du pion. {{Kb8}} {{Kd6}}, et le roi blanc conduit le pion jusqu'au bout."
+}

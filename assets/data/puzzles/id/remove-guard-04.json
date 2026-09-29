@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-04",
+  "fen": "2r3k1/5ppp/8/p2b4/1n6/2B4P/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxb4"
+  ],
+  "rating": 1170,
+  "title": "Cabut Penyangganya",
+  "setup": "Benteng Anda di d1 menyerang gajah di d5, yang hanya dilindungi kuda di b4.",
+  "hint": "Telusuri pertahanannya ke belakang. Buah hitam mana yang menahan d5, dan buah Anda mana yang bisa mencapainya?",
+  "explanation": "## Ide\n\n{{Bxb4}} menukar gajah dengan kuda yang menjaga d5. Sesudah {{axb4}} gajah tak punya perlindungan lagi dan {{Rxd5}} mengambilnya. Penangkapan pertama seimbang; yang kedua gratis. Telusuri mundur dari sasaran ke buah yang membuatnya tetap hidup."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-08",
+  "fen": "8/8/8/6k1/8/8/P7/7K w - - 0 1",
+  "solution": [
+    "a4"
+  ],
+  "title": "Aynı Anda İki Kare",
+  "setup": "Şahınız çok uzakta ve siyahın g5'teki şahı a piyonunuzun peşine düşüyor. Piyonun sekizinci yataya ulaşmasının tek yolunu bulun.",
+  "hint": "Piyonunuzdan terfi karesine kadar ve yana doğru uzanan bir kutu düşünün. Siyahın şahı onun içine adım atabilmemeli.",
+  "explanation": "## Fikir\n\n{{a4}} piyonu a8'e dört hamle uzaklıkta bırakır. Kutuyu a4'ten a8'e ve yana e dikeyine kadar çizin: g5'teki şah içine adım atamaz, yani piyonu asla yakalayamaz.\n\na3'e atılacak tek karelik adım beş hamle bırakır, kutu f dikeyine kadar uzar ve şah hemen içine girer. Piyonun çift ilk adımı bütün farkı yaratır."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "smothered-11",
+  "fen": "1r5k/p5pp/8/3QN3/1B6/8/5PPP/6K1 w - - 7 31",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1470,
+  "title": "At İki Kez Gidiyor",
+  "setup": "Siyahın şahı az önce çaprazdan kaçıp köşeye girdi ve b4'teki fil f8'i uzaktan kapsıyor.",
+  "hint": "Kaçışları sayın: f8 kapsanmış ve piyonlar g7 ile h7'yi tutuyor, yani şah ancak iki kare arasında mekik dokuyabilir.",
+  "explanation": "## Fikir\n\n{{Nf7+}} şahı dışarı sürer, {{Kg8}} mecburidir ve {{Nh6+}} çifte şah olarak geri gelir; yani {{Kh8}} yine tek hamledir. Artık at g8'i korur: {{Qg8+}} {{Rxg8}} ve {{Nf7#}}. Bu, Philidor'un Mirası'dır ve iki at sıçrayışı yalnızca fedayı hazırlamak için vardır."
+}

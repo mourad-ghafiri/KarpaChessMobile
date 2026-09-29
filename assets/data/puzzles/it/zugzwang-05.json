@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-05",
+  "fen": "5B2/8/8/7k/4K3/8/6p1/6Q1 w - - 0 1",
+  "solution": [
+    "Kf5",
+    "Kh4",
+    "Qh2#"
+  ],
+  "rating": 1530,
+  "title": "Il Re È la Mossa d'Attesa",
+  "setup": "I re stanno in e4 e h5, il Nero ha un pedone a una casa dalla promozione in g2, e la vostra donna difende g1.",
+  "hint": "Nessuno dei vostri pezzi si può permettere di muovere. Guardate quello che non avete considerato.",
+  "explanation": "## L'idea\n\n{{Kf5}} si prende g4, g5 e g6 e consegna la mossa al Nero. Solo {{Kh4}} è legale, e {{Qh2#}} dà matto al re contro il bordo. Un passo di re è una mossa d'attesa che costruisce anche la rete."
+}

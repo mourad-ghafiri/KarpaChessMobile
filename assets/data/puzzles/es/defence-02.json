@@ -1,0 +1,14 @@
+{
+  "id": "defence-02",
+  "fen": "3Q4/5R2/6k1/7b/2r5/1K6/5q2/8 w - - 0 1",
+  "solution": [
+    "Qg8+",
+    "Kh6",
+    "Rh7#"
+  ],
+  "rating": 1490,
+  "title": "Su dama está a tu puerta",
+  "setup": "La dama negra de f2 barre la fila junto a tu rey y su torre y su alfil están activos: pareces completamente perdido.",
+  "hint": "No mires tu propio rey para nada. Pregúntate adónde puede ir el rey negro tras un jaque en la octava.",
+  "explanation": "## La idea\n\n{{Qg8+}} lleva al rey a h6 y {{Rh7#}} remata, con la dama de g8 sosteniendo la torre. Estar bajo ataque solo es fatal si vas una jugada por detrás; aquí vas una jugada por delante."
+}

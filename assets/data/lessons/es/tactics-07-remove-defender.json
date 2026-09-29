@@ -1,0 +1,56 @@
+{
+  "id": "remove-the-defender",
+  "title": "Eliminar al defensor",
+  "summary": "Una pieza protegida está tan a salvo como su protector",
+  "proof": "remove-defender-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Un atacante, un defensor",
+      "text": "El alfil negro se ha metido en d4 y se ha quedado ahí, en plena mitad blanca, y no está colgado. La dama de d1 tiene la columna despejada hasta él: ahí hay un atacante. El caballo de c6 cubre d4: ahí hay un defensor, y ese defensor es la única razón por la que el alfil puede estar donde está.\n\nContar capturas te enseñó a sumar los dos bandos antes de capturar. Esto es lo que se hace cuando la cuenta no sale a tu favor.\n\nDeja de discutir con la casilla. Discute con el defensor."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Dos formas de parar a un defensor",
+      "text": "Un defensor deja de defender cuando sale del tablero, y deja de defender cuando lo echan de su casilla. La primera es la que se puede calcular hasta el final, porque después de una captura ya no queda nada que pueda salir mal.\n\nAsí que el objetivo no es el alfil del centro. El objetivo es la pieza que responde por él, y esa pieza está en una casilla a la que las Blancas ya pueden llegar.\n\n> Encuentra la jugada que quieres hacer. Luego encuentra la única pieza que dice que no."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "prompt": "Cambia la cuenta en d4 capturando la única pieza negra que responde por esa casilla.",
+      "targetSan": [
+        "Bxc6+"
+      ],
+      "hint": "Cuenta los defensores de d4. Hay exactamente uno, y algo de las Blancas ya le apunta directamente."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Nadie tenía una jugada de sobra",
+      "text": "La captura llegó con jaque, y eso es lo que la hizo funcionar. Sin el jaque, las Negras habrían gastado la jugada en retirar el alfil de d4. En cambio, toda la jugada se fue en salir del jaque.\n\nAquí recapturó la dama; también podía haberlo hecho el peón de b. En cualquier caso el cambio es igualado: un alfil por un caballo, tres por tres, nada ganado y nada perdido.\n\nLo que no tuvo ninguna recaptura fue un momento para dedicárselo a d4."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Vuelve a contar la casilla",
+      "text": "El alfil sigue en d4 y la dama de d1 sigue mirándolo de frente. Lo que ha cambiado es el otro lado de la suma.\n\nLa dama de c6 no llega a d4. Ningún peón la toca. Ninguna de las torres está en la columna d, y el rey de e8 queda muy lejos.\n\nAtacado una vez, defendido por nadie. Esa es la cuenta que estabas esperando."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Una jugada, no una posición",
+      "text": "Capturar a un defensor compra exactamente una jugada. No una ventaja, no un plan: una jugada.\n\nDale un turno a las Negras y el alfil se retira de d4 a algún sitio tranquilo, o una torre cae en d8 y lo cubre desde atrás. Nada sujeta esa pieza en su sitio salvo a quién le toca jugar.\n\nHay un precio, y es pequeño. En cuanto la dama blanca sale de d1, nada cubre c2, y la dama negra tiene vía libre por la columna c para comerse ese peón. Un peón contra un alfil no admite negociación."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "prompt": "Recoge la pieza de d4 antes de que las Negras tengan una jugada para ponerla a salvo.",
+      "targetSan": [
+        "Qxd4"
+      ],
+      "hint": "Ahora mismo nada de las Negras responde por d4, y eso seguirá siendo cierto exactamente una jugada más."
+    }
+  ]
+}

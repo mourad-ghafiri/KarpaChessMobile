@@ -1,0 +1,14 @@
+{
+  "id": "trapped-12",
+  "fen": "3r2k1/pp3ppp/8/2R5/1N6/3N3P/PP3PPK/q7 w - - 0 1",
+  "solution": [
+    "Rc1",
+    "Qxc1",
+    "Nxc1"
+  ],
+  "rating": 1400,
+  "title": "Queen in the Corner",
+  "setup": "Black's queen has eaten its way into a1, where your own pawns on a2 and b2 already fence it in.",
+  "hint": "The back rank is wide open to it. Find the piece that attacks it and covers both of them.",
+  "explanation": "## The Idea\n\n{{Rc1}} attacks the queen and takes b1 away. a2 is guarded by the knight on b4, b2 and c1 by the knight on d3, so every capture it has loses it. {{Qxc1}} {{Nxc1}} is the best on offer: a queen for a rook."
+}

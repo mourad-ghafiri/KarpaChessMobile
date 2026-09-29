@@ -1,0 +1,13 @@
+{
+  "id": "zwischenzug-proof",
+  "fen": "r1b2rk1/pp3ppp/1Q1p4/4p3/3nP3/8/PPP1BPPP/R1B2RK1 b - - 0 1",
+  "solution": [
+    "Nxe2+",
+    "Kh1",
+    "axb6"
+  ],
+  "title": "La dama puede esperar",
+  "setup": "La dama blanca acaba de capturar la tuya en b6. Recapturar es la jugada obvia, y no es la mejor.",
+  "hint": "Tu recaptura puede esperar una jugada, siempre que la jugada anterior sea un jaque.",
+  "explanation": "## La idea\n\n{{axb6}} de inmediato es un cambio igualado, y luego las Blancas simplemente apartan el alfil de e2 de tu caballo. Así que da jaque primero. {{Nxe2+}} captura el alfil, y {{Kh1}} es la única jugada legal de las Blancas. La dama de b6 sigue ahí, y {{axb6}} la recoge. Recapturaste una jugada tarde y un alfil entero más rico."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "minor-piece-endings",
+  "title": "¿Alfil o caballo?",
+  "summary": "Cuenta jugadas, no puntos",
+  "proof": "endgames-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Una pieza, dos flancos",
+      "text": "Los peones negros corren por bordes opuestos del tablero: el peón de a4 por un lado, los de g6 y h7 por el otro. Las Blancas tienen una sola pieza para responder a ambos.\n\nEsa es la pregunta en torno a la que gira este final. No qué pieza es más bonita. Qué pieza puede estar en dos sitios.\n\nEl alfil de c2 ya mira a a4 por la diagonal de b3, y está a dos jugadas de h5, la casilla que mira a g6. La misma pieza, los dos flancos."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Cuatro jugadas contra una",
+      "text": "Pon un caballo donde está ese alfil y cuenta los saltos. Tres solo para llegar a una casilla que ataque a4, y un cuarto para capturarlo, y al peón le bastan tres jugadas para convertirse en dama.\n\nAl alfil le basta una. No porque sea la mejor pieza, sino porque es otra clase de pieza. Los dos valen tres puntos, y solo uno cruza el tablero en una jugada.\n\nPeones en dos flancos es la forma que premia al alfil. Las líneas están abiertas, nada estorba, y un alfil en un tablero abierto no viaja. Llega."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "prompt": "Captura al corredor del flanco lejano con la pieza que puede volver a proteger el otro lado una jugada después.",
+      "targetSan": [
+        "Bxa4"
+      ],
+      "hint": "El corredor y tu alfil están los dos en casillas blancas, así que lee la diagonal que los une."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5k1p/6p1/8/B7/8/8/4K3 w - - 1 2",
+      "title": "De vuelta antes de que importe",
+      "text": "El peón de a ha desaparecido, y el rey negro de f7 vigila lo que queda.\n\nTu alfil de a4 está ahora en el borde opuesto del tablero respecto a esos dos peones. {{Bd1}}, y la larga diagonal blanca se abre ante él —e2, f3, g4, h5—, con h5 mirando directamente a g6. Dos jugadas para cruzar todo el tablero. Un caballo que partiera de esa misma casilla necesitaría tres saltos solo para atacar g6.\n\n> Tres puntos es lo que cuesta una pieza. Lo que vale es lo rápido que llega al lado del tablero donde se juega la partida."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "Medio tablero, para siempre",
+      "text": "Una posición nueva, y el caso se da la vuelta. El alfil negro de c7 está en una casilla negra. El peón de a7 también. El de e7 también.\n\nMismo color no quiere decir seguro. Ningún peón protege al otro, y ninguna casilla a la que llegue el alfil en una jugada protege a los dos a la vez: puede plantarse delante de una puerta mientras la otra se abre.\n\nY todas las casillas blancas del tablero están totalmente fuera de su alcance, en esta jugada y para siempre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "Una pieza sin color",
+      "text": "Tu caballo de e5 está atacado ahora mismo por ese alfil. La diagonal va de c7 a d6 y e5, y no hay nada en ella. Así que el caballo se mueve.\n\nCada salto de caballo cae en el color contrario al que deja, y por eso un alfil nunca puede perseguir mucho tiempo a un caballo. El alfil negro vive en las casillas negras. Un caballo blanco aparcado en una casilla blanca está a salvo de él el resto de la partida.\n\nAsí que el caballo busca una casilla blanca. Lo que quiere es una casilla blanca que además trabaje."
+    },
+    {
+      "type": "play",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "prompt": "Lleva el caballo atacado a una casilla a la que el alfil negro nunca puede llegar, y golpea de paso a los dos peones sin defensa.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "Los peones están en a7 y e7, así que averigua qué casilla blanca toca a los dos a la vez."
+    }
+  ]
+}

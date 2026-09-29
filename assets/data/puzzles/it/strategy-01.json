@@ -1,0 +1,11 @@
+{
+  "id": "strategy-01",
+  "fen": "rnbqk2r/p1p2pp1/1p2p1n1/3pP2p/3P3P/P1P3Q1/2P2PP1/R1B1KBNR b KQkq - 1 9",
+  "solution": [
+    "Ba6"
+  ],
+  "title": "Il Prigioniero di c8",
+  "setup": "Il vostro alfiere in c8 è chiuso dietro i vostri stessi pedoni, mentre l'alfiere bianco in f1 ha strada libera. Offrite il vostro pezzo peggiore per il migliore del Bianco.",
+  "hint": "Il vostro pedone b si è già spostato. Dove porta la diagonale che ha aperto, e l'alfiere di chi sta all'altro capo?",
+  "explanation": "## L'idea\n\nL'alfiere in c8 è il pezzo peggiore del Nero: i pedoni in d5 e e6 stanno sul suo colore e non si muoveranno mai. L'alfiere bianco in f1 è l'opposto, e da d3 colpirebbe il cavallo in g6.\n\n{{Ba6}} offre l'uno per l'altro. Se il Bianco prende, il cavallo riprende da b8 e passa un po' di tempo sul bordo, ma il Nero ha cambiato il pezzo che non fa niente con quello che sta per fare di più."
+}

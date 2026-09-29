@@ -1,0 +1,50 @@
+{
+  "id": "etiquette",
+  "title": "Les bonnes manières devant l'échiquier",
+  "summary": "Les règles qu'on n'imprime pas sur la boîte",
+  "proof": "culture-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "title": "Votre main arrive en premier",
+      "text": "Touchez l'une de vos pièces dans une partie comptant pour le classement et vous l'avez choisie. La pièce touchée est la pièce jouée, pour peu qu'elle ait un coup légal. Touchez une pièce adverse dans l'intention de la prendre et vous la prenez. Pas de retour en arrière, pas d'excuses.\n\nLes Blancs sont en échec. Le roi en e1 a exactement deux cases, {{Kf1}} et {{Ke2}}, et toutes deux abandonnent le roque pour le reste de la partie.\n\nIl y a un meilleur coup sur cet échiquier. Effleurez le roi pendant que vous le cherchez encore, et il est perdu."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "prompt": "Gardez vos droits de roque en parant l'échec avec le cavalier qui couvre aussi d5 et b5.",
+      "targetSan": [
+        "Nc3"
+      ],
+      "hint": "Deux cases bloquent cette diagonale. L'une enferme votre fou en c1 ; l'autre regarde vers la moitié noire de l'échiquier."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/2N2N2/PP3PPP/R1BQK2R b KQk - 2 7",
+      "title": "Dites-le avant de toucher",
+      "text": "Votre cavalier en c3 est posé de travers, à moitié sur b3. Vous avez le droit de le redresser. Vous n'avez pas le droit de tendre la main et de le faire sans rien dire.\n\nDites d'abord « j'adoube » — à voix haute, avant que vos doigts arrivent, et seulement quand c'est votre tour. Ici, c'est aux Noirs de jouer, donc le cavalier reste de travers et vous attendez.\n\nC'est presque tout le vocabulaire. Personne n'annonce échec, personne ne commente un coup, et on ne soupire pas quand l'adversaire trouve le bon."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "La proposition a un ordre",
+      "text": "Nouvel échiquier, et celui-ci est pire : vous avez une dame de moins. Le fou noir en d1 l'a ramassée au coup précédent, et les Noirs viennent de proposer la nulle.\n\nCela obéit à un ordre. Jouez votre coup, proposez la nulle, puis appuyez sur la pendule. La proposition n'est assortie d'aucune condition et ne peut pas être retirée — elle tient jusqu'à ce que l'adversaire l'accepte, la refuse à voix haute, ou touche une pièce dans l'intention de la jouer, ce qui vaut refus.\n\nProposer à nouveau tous les trois coups n'est pas de la persévérance. C'est une manœuvre de déconcentration, et un arbitre a le droit de la traiter comme telle."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "Comment perdre, et quand ne pas le faire",
+      "text": "Quand une partie est perdue, dites-le. Les Règles demandent une déclaration — dites-le simplement — et non un roi couché sur le flanc, qui relève du théâtre et laisse l'adversaire dans le doute. Puis la poignée de main, qu'aucune règle n'impose et que tout le monde pratique.\n\nRien de tout cela ne s'applique ici. Un joueur avec une dame entière de plus n'a pas besoin de nulle, donc la proposition est le meilleur coup que les Noirs aient trouvé, et il n'est pas sur l'échiquier.\n\nVotre roi n'a pas roqué et votre dame est partie. Ni l'un ni l'autre n'importe aux pièces déjà pointées sur f7.\n\n> Décidez avec la tête. La main n'a qu'à suivre."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "prompt": "Les Noirs ont une dame de plus et proposent la nulle : refusez-la avec l'échec qui force le mat au coup suivant.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "Votre fou et le cavalier en e5 visent le même pion. Donnez échec avec celui qui ne laisse aux Noirs qu'une seule réponse légale."
+    }
+  ]
+}

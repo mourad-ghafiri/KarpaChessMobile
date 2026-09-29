@@ -1,0 +1,57 @@
+{
+  "id": "kings-pawn-family",
+  "title": "Şah Piyonu Açılışları",
+  "summary": "1.e4 hamlesine verilen her cevap ayrı bir pazarlıktır",
+  "proof": "openings-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Tek Sürüşte İki Hat",
+      "text": "Tek bir piyon hamlesi iki taşı serbest bırakır. e piyonunu sürün; hem vezir hem de açık kare fili arka yataydan çıkacak bir yol bulsun.\n\nBu yüzden bu partiler erkenden dolar. Taşlar gelir, hatlar açılır ve iki şah hâlâ ortada dururken ordular birbirine değer. Yavaş bir hamlenin bedeli burada sakin bir pozisyondakinden yüksektir, çünkü onu cezalandıracak biri çoktan dışarı çıkmıştır."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Koruyucusu Olmayan Piyon",
+      "text": "Siyah kopyaladı ve kopyalamanın bir bedeli var: ikinci oyuncunun, çoktan sorulmuş bir soruya cevap vermesi gerekir.\n\nf3'teki at e5'teki piyona saldırıyor. e5'i koruyanları sayın; hiç çıkmıyor.\n\nBunu düzeltmenin iki dürüst yolu var. Bir taş, aynı hamlede hem piyonu koruyup hem evden çıkabilir ve hiçbir şey harcamaz. Bir piyon da işi aynı derecede görür ve bedelini, partinin sonuna kadar siyahın kendi fillerinden birinin önünde durarak öder."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "prompt": "Beyazın atının az önce saldırdığı piyonu koruyun ve ortadaki payınızı elde tutun.",
+      "targetSan": [
+        "Nc6",
+        "d6"
+      ],
+      "hint": "Koruyuculardan biri zaten çıkmak isteyen bir taş; öteki ise iş için bir fil ödeyen bir piyon. İkisi de ana varyanttır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "title": "En Eski Tartışma",
+      "text": "e5'i atla koruyun, beyazın bekleyen bir hamlesi olsun. {{Bb5}}, e5'teki piyonu tümüyle görmezden gelir ve onu koruyan taşın peşine düşer: koruyucuyu ortadan kaldırın, piyon boşta kalsın.\n\nSiyah {{a6}} ile fili iter, fil {{Ba4}} ile çapraz boyunca geri kayar; hâlâ aynı ata nişan alır ve hâlâ hiçbir şeye mal olmaz. Bu, İspanyol Oyunu'dur; dört yüzyıllık ve hâlâ en çok tartışılan açılış."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Reddetmenin Üç Yolu",
+      "text": "Şah piyonuna verilen güçlü cevapların çoğu e5'e hiç dokunmaz. Her biri başka bir para birimiyle reddeder.\n\n- **Sicilya** e4'ü rahat bırakır ve c5'e sürdüğü piyonla d4 için savaşır; piyonlar orada değişildiğinde yarı açık c dikeyini alır.\n- **Caro-Kann** ile **Fransız Savunması** önce c6 ya da e6'ya sakin bir hamle harcar; böylece d5 sürüşü destekle gelir — Fransız, açık kare filini duvarın arkasına kapatır, Caro-Kann onu dışarıda tutar.\n- **Aljehin Savunması** atı f6'ya gönderir ve beyazın piyonlarını onu kovalamaya davet eder."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "title": "Devam Eden Bir Reddediş",
+      "text": "Siyah ilk hamlesini c6'ya giden bir piyona harcadı ve beyaz sunulan her şeyi aldı: d4 ile e4'te yan yana iki piyon; beyazın bedavaya sahip olabileceği en geniş merkez.\n\nGeniş olmak güvenli olmak değildir. Büyük bir piyon merkeziyle, o daha yalnızca piyonken hesaplaşmak gerekir — rahat bırakın, beyazın taşları arkasından çıksın ve bütün duvar ileri yuvarlansın.\n\nBirinci hamle alçakgönüllülük değildi. Henüz gerçekleşmemiş bir vuruşu desteklemek üzere yerleştirilmiş bir piyondu.\n\n> Sakin bir ilk hamle, sırasını bekleyen gürültülü bir ikinci hamledir."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "prompt": "Beyazın iki piyonlu merkezine, sakin ilk hamlenizin desteklemek için yerleştirildiği piyonla karşılık verin.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "Birinci hamle tek görevi olan bir piyondu. Hangi kareyi kapsadığını sorun ve o kareyi henüz kimsenin işgal etmediğine dikkat edin."
+    }
+  ]
+}

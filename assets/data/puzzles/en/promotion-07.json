@@ -1,0 +1,14 @@
+{
+  "id": "promotion-07",
+  "fen": "r5k1/P4pp1/7p/8/8/7P/5PP1/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Rxb8",
+    "axb8=Q+"
+  ],
+  "rating": 1240,
+  "title": "The Pawn Defends",
+  "setup": "Your a7-pawn is blocked by the rook on a8, and your own rook is free to swing along the first rank.",
+  "hint": "Which square beside the blockading rook is already guarded by the passed pawn itself?",
+  "explanation": "## The Idea\n\n{{Rb8+}} is check and the rook is untouchable, because the a7-pawn guards b8. {{Rxb8}} runs into {{axb8=Q+}}, promoting with check and coming out a queen for a rook. Stepping aside with Kh7 instead just loses the rook to Rxa8."
+}

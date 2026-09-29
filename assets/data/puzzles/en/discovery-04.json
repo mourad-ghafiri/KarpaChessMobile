@@ -1,0 +1,14 @@
+{
+  "id": "discovery-04",
+  "fen": "2r5/pp4pk/5n1p/8/4N3/1P6/P4PPP/1B4K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kg8",
+    "Nxc8"
+  ],
+  "rating": 1080,
+  "title": "Pick the Landing Square",
+  "setup": "Your knight on e4 sits on the bishop's diagonal to h7, so every knight move it makes arrives with check.",
+  "hint": "Every jump this knight makes opens the bishop's line. Only one of them also lands a hit on something.",
+  "explanation": "## The Idea\n\nAny knight move uncovers the check, so the real question is which square earns material. {{Nd6+}} attacks the rook on c8 while Black deals with the check. After a king move such as {{Kg8}}, the knight collects it with {{Nxc8}}, and blocking with Rc2 only puts the rook where your bishop takes it."
+}

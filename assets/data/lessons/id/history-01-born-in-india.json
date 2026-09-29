@@ -1,0 +1,56 @@
+{
+  "id": "chess-origins",
+  "title": "Lahir di India",
+  "summary": "Prajurit berjalan kaki, kuda, gajah, kereta perang — dan mana di antaranya yang selamat dalam perjalanan",
+  "proof": "history-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "Empat Divisi",
+      "text": "Angkat kedua raja dan kedua menteri dari papan ini. Semua yang masih berdiri adalah divisi sebuah pasukan: prajurit berjalan kaki, kuda, gajah, kereta perang.\n\nSebagian besar sejarawan menempatkan pasukan itu di India utara sekitar abad ke-6, dalam permainan bernama **chaturanga** — \"empat anggota\", menurut empat cabang yang membentuk sebuah pasukan. Tak ada yang bisa menyebut nama penemunya, dan tak ada yang bisa menyebut tahunnya.\n\nDua buah yang baru Anda angkat tak pernah menjadi divisi. Raja memimpin, dan di samping raja berdiri seorang penasihat. Penasihat itulah menteri Anda."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "Jalan Kereta Perang",
+      "text": "Kereta perang menginginkan satu hal, yaitu jalan yang kosong.\n\nDi sini tak satu pihak pun masih punya pion e, jadi lajur e kosong dari ujung ke ujung kecuali dua buah hitam: kuda di e4, dan di ujung jauh jalan itu, raja hitam di e8.\n\nTempatkan sesuatu di lajur itu yang menyerang di sepanjangnya, dan kuda itu terpaku di tempatnya. Setiap petak yang dicapai L-nya berada di luar jalan itu, dan meninggalkan jalan itu akan menempatkan rajanya sendiri di bawah serangan."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "prompt": "Kedua pion e sudah tiada, jadi kuasai jalan kosong itu dengan benteng dan pakukan kuda di depan rajanya.",
+      "hint": "Hanya satu benteng Anda yang bisa sampai di sana. Lihat apa yang menghalangi jalan benteng yang lain.",
+      "targetSan": [
+        "Re1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQR1K1 b k - 2 10",
+      "title": "Terlambat Satu Langkah",
+      "text": "Kuda itu diserang dan tak bisa lari, dan setiap penjaga yang bisa dikirim Hitam ke e4 meninggalkan kuda yang lain — yang sudah diincar pion d Putih.\n\nMaka Hitam mengeluarkan raja dari persoalan itu. {{Ne7}} menempatkan sebuah buah di antara keduanya, dan kuda yang terjebak kembali bebas — pada giliran Putih.\n\n{{Rxe4}} mengambilnya. Untuk itulah kereta perang ada. Ia tak perlu mencapai sasarannya pada langkah ini, cukup terus membidiknya."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Apa yang Ditulis Ulang",
+      "text": "Papan baru. Permainan ini meninggalkan India dan ditulis ulang lebih dari sekali dalam perjalanannya ke sini, dan dua buah menanggung hampir seluruh perubahan itu.\n\nLangkah gajah dulu berupa lompatan tepat dua petak secara diagonal. Ia hanya bisa menyentuh delapan dari enam puluh empat petak dan tak ada yang lain. Eropa membuang langkah itu. Penasihat berubah ke arah yang sepenuhnya berlawanan: buah terlemah di papan kembali sebagai yang terkuat.\n\nKereta perang dan kuda bertahan. Rokade belakangan memberi kereta perang sebuah trik yang tak pernah dimiliki kereta perang mana pun, tetapi caranya menyeberangi papan tetap sama seperti dulu."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Kuda Mempertahankan Lompatannya",
+      "text": "Setiap buah lain bergerak di sepanjang garis, dan garis berlaku ke dua arah — kuda yang baru saja Anda jebak hilang karena ada garis yang melewatinya menuju rajanya sendiri.\n\nLompatan tak punya garis. Kuda tak pernah melintasi petak-petak di antara tempat ia berangkat dan tempat ia mendarat, jadi tak ada tempat untuk menghadang dan tak ada garis untuk dibidik. Sekak dari kuda hanya menyisakan dua jawaban: pindahkan raja, atau tangkap kudanya.\n\n> Jalan bisa dihalangi. Lompatan tidak."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Temukan lompatan yang memberi sekak kepada raja hitam dan menyerang benteng di c8 sekaligus.",
+      "hint": "Mulailah dari raja: daftar petak di sebelahnya yang bisa dicapai kuda Anda, lalu tanyakan apa lagi yang disentuh setiap petak itu.",
+      "targetSan": [
+        "Ne7+"
+      ]
+    }
+  ]
+}

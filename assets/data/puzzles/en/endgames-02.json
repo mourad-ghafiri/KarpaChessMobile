@@ -1,0 +1,13 @@
+{
+  "id": "endgames-02",
+  "fen": "k7/8/2K5/8/8/8/8/1R6 w - - 0 1",
+  "solution": [
+    "Kc7",
+    "Ka7",
+    "Ra1#"
+  ],
+  "title": "Move the Wall In",
+  "setup": "The rook already forbids the b-file, so the lone king's whole world is a8 and a7. Two of White's moves throw the win away.",
+  "hint": "The rook cannot take both of the black king's squares by itself — who else is near enough, and which square keeps the cut alive?",
+  "explanation": "## The Idea\n\nThe wall is already up: while the rook holds the b-file the bare king can never cross it. What is missing is the second piece, because the rook cannot cover a7 and a8 as well.\n\n{{Kc7}} takes b8, b7 and b6. Black has one legal move, {{Ka7}}, and {{Ra1#}} swings the wall onto the king's file — check from one end, no square at the other.\n\nThe two ways to throw it away: {{Rb7}} covers both squares and is stalemate, and {{Rb8+}} simply hands the rook to the king."
+}

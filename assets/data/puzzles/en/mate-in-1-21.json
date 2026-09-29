@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-21",
+  "fen": "6k1/5ppp/8/8/8/8/8/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "The Wall of Pawns",
+  "setup": "Black's pawn shield on **f7**, **g7**, **h7** is intact — but with no escape window, that's a death sentence.",
+  "hint": "Slide the rook up the open file. Black's own pawns do the rest.",
+  "explanation": "## The Idea\n\nThis is the back-rank mate in its purest form: an open file, an empty back rank, and three pawns in front of the king.\n\n{{Rd8#}} checks along the eighth rank. f8 and h8 are on the rook's line, f7, g7 and h7 hold Black's own pawns, and nothing can block or capture.\n\nThe cure is simple: push one of those pawns a square earlier to give the king a way out."
+}

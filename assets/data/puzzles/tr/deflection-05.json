@@ -1,0 +1,14 @@
+{
+  "id": "deflection-05",
+  "fen": "6rk/ppq3pp/8/4N3/8/6P1/P4PK1/3R4 w - - 1 2",
+  "solution": [
+    "Ng6+",
+    "hxg6",
+    "Rh1#"
+  ],
+  "rating": 1260,
+  "title": "h Piyonunun Tek Görevi",
+  "setup": "h8'deki şah kendi kalesi ve piyonuyla kutuya alınmış ve h dikeyini kapalı tutan tek şey h7 piyonu.",
+  "hint": "h dikeyi o şaha giden yoldur ve onu tek bir piyon kapatır. Hangi şah, piyonu oynamaya zorlar?",
+  "explanation": "## Fikir\n\n{{Ng6+}} siyaha tek bir kurallı hamle bırakır: {{hxg6}}. Piyonun alması gerekir, h dikeyi ardına kadar açılır ve {{Rh1#}} gelir. Almak zorunda olan piyon, görev yerini terk etmiş piyondur. Yalnızca alabileceğiniz koruyucuları değil, seçeneği olmayan koruyucuları da arayın."
+}

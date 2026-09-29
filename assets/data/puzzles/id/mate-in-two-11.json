@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-11",
+  "fen": "3r4/5pk1/4R3/3P3B/8/5Q2/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qxf7+",
+    "Kh8",
+    "Rh6#"
+  ],
+  "rating": 1360,
+  "title": "Gajah Menjaga Pemberian",
+  "setup": "Raja Hitam di g7 dilindungi satu pion di f7, dan gajah Anda di h5 mengawasi petak itu.",
+  "hint": "Pion yang melindungi raja tampaknya hanya dilindungi raja. Apa lagi milik Anda yang menguasai petak itu?",
+  "explanation": "## Ide\n\n{{Qxf7+}} berhasil karena gajah di **h5** menguasai f7, jadi raja tak boleh menangkap. Benteng di e6 sudah merebut g6 dan h6, jadi {{Kh8}} terpaksa, dan {{Rh6#}} berayun menyeberang untuk memberi mat di sepanjang lajur h."
+}

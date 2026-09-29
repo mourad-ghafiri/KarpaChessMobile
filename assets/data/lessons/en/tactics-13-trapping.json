@@ -1,0 +1,44 @@
+{
+  "id": "trapping-pieces",
+  "title": "Trapping Pieces",
+  "summary": "Win a piece by taking away its squares",
+  "proof": "trapping-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "title": "Two Squares in the Whole World",
+      "text": "Count the squares White's bishop on b3 can go to. Two.\n\nIts own pawns sit on a2 and c2. Its own queen on d5 blocks the road past c4. What is left is a4 and c4, and Black's pawn on b5 already covers both of them.\n\nNothing on the board is attacking that bishop. Nothing has to be. A piece down to two squares only needs to lose one of them."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "prompt": "Put a defended pawn on one of the bishop's two squares, so wherever it goes it is lost.",
+      "hint": "Only one of those two squares can be reached by a pawn of yours, and the pawn on b5 is already covering it.",
+      "targetSan": [
+        "c4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "title": "Noah's Ark",
+      "text": "{{c4}}. No capture, no check. The pawn just stands on a square the bishop was counting on.\n\n{{Bxc4}} {{bxc4}} is the greedy version, and it hands over a bishop for two pawns at best. a4 is no better: the pawn on b5 covers that square too.\n\nThe pattern is old enough to have a name. In the **Noah's Ark trap** the pawns come at the bishop two by two, and no piece ever attacks it at all."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/PN1B4/rP3PPP/2K5 w - - 1 2",
+      "title": "A Rook in a Cupboard",
+      "text": "Now a rook. Black's has gone hunting along the second rank and cannot get home.\n\nIt has three squares: a1, a3 and b2. The knight on b3 covers a1. The pawn on a3 is held by the pawn on b2, and the pawn on b2 is held by the king on c1. Every exit costs the rook.\n\nNobody built this cage on purpose. Black walked in.\n\n> You do not chase a trapped piece. You count its squares, and then you knock."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/PN1B4/rP3PPP/2K5 w - - 1 2",
+      "prompt": "Attack the rook with your bishop, from a square the rook can never come to.",
+      "hint": "The rook's three squares are all covered already. It only needs an attacker it can never answer.",
+      "targetSan": [
+        "Bb1"
+      ]
+    }
+  ]
+}

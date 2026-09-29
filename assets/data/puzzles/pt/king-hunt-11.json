@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-11",
+  "fen": "7r/8/b1B5/3R4/K7/8/kpR5/5Q2 w - - 0 1",
+  "solution": [
+    "Rxb2+",
+    "Kxb2",
+    "Rd2+",
+    "Kc3",
+    "Qc1#"
+  ],
+  "rating": 1700,
+  "title": "Deixa o Rei Comer",
+  "setup": "O rei preto está em a2 com um peão em b2 prestes a promover, e o bispo de a6 e a torre de h8 a ver de longe.",
+  "hint": "O peão não é o perigo — o rei atrás dele é. Procura o sacrifício que transforma o abrigo numa estrada.",
+  "explanation": "## A Ideia\n\n{{Rxb2+}} dá uma torre para puxar o rei para a linha de que a tua outra torre é dona. {{Kxb2}} é forçado, {{Rd2+}} empurra-o para c3, e {{Qc1#}} acaba. Um rei que captura é um rei que foi levado para onde tu querias."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-05",
+  "fen": "6k1/5ppp/8/8/8/8/1R3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Martelo à Distância",
+  "setup": "A tua torre em b2 olha por uma coluna vazia, com a linha de fundo escancarada do outro lado.",
+  "hint": "O rei preto tem três peões seus à frente. Encontra a linha de que ele não pode sair.",
+  "explanation": "## A Ideia\n\nIsto é um mate da linha de fundo puro. {{Rb8#}} percorre a coluna b inteira e dá xeque pela oitava linha. f8 e h8 estão na linha da torre, f7, g7 e h7 têm os peões das próprias pretas, e nada pode comer a torre nem tapar.\n\nUma torre longe da ação pode dar mate à mesma numa jogada. Antes de mexeres, varre todas as colunas abertas à procura das tuas torres e todas as diagonais abertas à procura dos teus bispos."
+}

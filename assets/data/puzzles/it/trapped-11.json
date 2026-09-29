@@ -1,0 +1,12 @@
+{
+  "id": "trapped-11",
+  "fen": "3r2k1/pp3pp1/7p/4N3/8/2P4P/1b1P1PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "Nc4"
+  ],
+  "rating": 1370,
+  "title": "Prendetevi l'Ultima Fuga",
+  "setup": "L'alfiere nero in b2 ha attorno tre case vuote, a1, c1 e a3, e la vostra torre ne sorveglia già due.",
+  "hint": "La vostra torre possiede la traversa di fondo e il vostro pedone d difende c3. Quale pezzo arriva all'unica casa ancora libera?",
+  "explanation": "## L'idea\n\nLa torre in e1 copre a1 e c1, e c3 è difesa dal pedone in d2, quindi Bxc3 dxc3 non è una salvezza. Libera era solo a3, e {{Nc4}} se la prende attaccando l'alfiere. Ogni casa è messa in conto, e il pezzo deve andarsene."
+}

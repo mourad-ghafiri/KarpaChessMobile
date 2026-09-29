@@ -1,0 +1,15 @@
+{
+  "id": "tactics-mix-01",
+  "fen": "7k/2r2ppp/3B4/2r1Nb2/8/8/PP2Q1Rq/K7 w - - 0 1",
+  "solution": [
+    "Nxf7+",
+    "Rxf7",
+    "Qe8+",
+    "Rf8",
+    "Qxf8#"
+  ],
+  "title": "Il Cavallo Sgombra la Colonna",
+  "setup": "La vostra donna vorrebbe la colonna e, ma il vostro stesso cavallo in e5 le sta di mezzo. Trovate la mossa che la sgombra senza dare tempo al Nero.",
+  "hint": "Muovete il cavallo con scacco, così il Nero non ha mai una mossa in più per difendere l'ottava traversa.",
+  "explanation": "## L'idea\n\n{{Nxf7+}} sgombra la colonna e con scacco. Se il re va in g8, la donna dà subito matto in e8, quindi il Nero prende il cavallo: {{Rxf7}}.\n\nAdesso {{Qe8+}}, e l'unica parata è {{Rf8}}, la torre che ha appena lasciato la settima traversa. {{Qxf8#}}: il vostro alfiere in d6 difende la donna, e al re non resta una casa."
+}

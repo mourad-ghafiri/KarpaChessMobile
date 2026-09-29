@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-01",
+  "fen": "2R5/8/1k1P4/8/5K2/8/8/7r w - - 0 1",
+  "solution": [
+    "d7"
+  ],
+  "rating": 1200,
+  "title": "El rey no puede cruzar",
+  "setup": "La torre blanca de c8 mantiene al rey negro fuera de la columna c y vigila la casilla hacia la que va el peón de d.",
+  "hint": "Nada negro puede llegar a tiempo a la casilla de coronación. Entonces, ¿qué es lo que de verdad detiene al peón?",
+  "explanation": "## La idea\n\nLa torre de c8 hace dos trabajos a la vez: corta al rey por la columna c y defiende d8. Así que el peón simplemente corre. {{d7}} {{Rh4+}} {{Kg5}} {{Rd4}} {{d8=Q+}} {{Rxd8}} {{Rxd8}} y las Blancas tienen una torre entera de ventaja."
+}

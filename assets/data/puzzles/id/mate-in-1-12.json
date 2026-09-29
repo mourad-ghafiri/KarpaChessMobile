@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-12",
+  "fen": "7k/2Q4p/6K1/8/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Qxh7#"
+  ],
+  "title": "Ambil Pionnya, Ambil Rajanya",
+  "setup": "Pion di h7 memberi sekak kepada raja Anda di g6, dan menteri Anda di c7 menguasai seluruh baris ketujuh.",
+  "hint": "Perisai terakhir raja adalah pion yang bisa dicapai menteri Anda, dan raja Anda sendiri berdiri cukup dekat untuk mendukung penangkapannya.",
+  "explanation": "## Ide\n\nAnda dalam sekak, dan langkah yang menjawabnya juga memenangkan partai. {{Qxh7#}} mengambil pion pemberi sekak dan mendarat di samping raja hitam.\n\nRaja Anda di g6 menjaga h7, jadi raja di h8 tak bisa mengambil menteri, dan menteri menguasai g8 dan g7. Sekak dari petak sebelah tak bisa dihalangi.\n\nKetika Anda dalam sekak, lihat dulu kemungkinan menangkap buah yang memberikannya."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "history-01",
+  "fen": "3r3k/pp4pp/8/2n1N3/8/8/PP4PP/R5K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "Il Salto della Cavalleria",
+  "setup": "Carri da guerra e cavalleria, che si muovono ancora come si muovevano quindici secoli fa.",
+  "hint": "Il re nero ha una casa dove scappare. Quale salto gli dà scacco e attacca la torre nello stesso momento?",
+  "explanation": "## L'idea\n\nLo scacco di un cavallo non si può parare: il cavallo non attraversa mai le case in mezzo, quindi non c'è niente da mettere sulla strada.\n\n{{Nf7+}} tocca h8 e d8 nella stessa mossa. L'unica risposta legale del Nero è {{Kg8}}, e {{Nxd8}} raccoglie la torre, che non ha mai visto arrivare lo scacco: f7 non sta né sulla sua traversa né sulla sua colonna.\n\nQuando il re avversario è a corto di case, cercate la casa di cavallo che tocca insieme il re e qualcosa di prezioso."
+}

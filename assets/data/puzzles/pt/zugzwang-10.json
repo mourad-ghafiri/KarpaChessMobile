@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-10",
+  "fen": "3B4/8/7k/1K6/4p3/1R6/2p5/2R5 w - - 0 1",
+  "solution": [
+    "Rg3",
+    "e3",
+    "Rh1#"
+  ],
+  "rating": 1680,
+  "title": "Corta a Coluna, Não o Rei",
+  "setup": "O rei preto está em h6 com dois peões a correr em c2 e e4, e as tuas torres estão em b3 e c1.",
+  "hint": "Os dois peões pretos estão prestes a promover. Ignora-os e toma a coluna que o rei usaria.",
+  "explanation": "## A Ideia\n\n{{Rg3}} toma a coluna g sem xeque, e nada do que as pretas joguem trava o que vem a seguir. {{Rh1#}} dá mate pela coluna h com a torre de g3 a segurar g6 e g7. Dois peões a um passo de fazer dama continuam a ser mais lentos do que uma torre na coluna certa."
+}

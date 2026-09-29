@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-11",
+  "fen": "3r4/5pk1/4R3/3P3B/8/5Q2/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qxf7+",
+    "Kh8",
+    "Rh6#"
+  ],
+  "rating": 1360,
+  "title": "O Bispo Guarda a Oferta",
+  "setup": "O rei preto em g7 está protegido por um único peão em f7, e o teu bispo em h5 vigia essa casa.",
+  "hint": "O peão que protege o rei parece defendido só pelo rei. Que mais é que tu tens a cobrir essa casa?",
+  "explanation": "## A Ideia\n\n{{Qxf7+}} funciona porque o bispo de **h5** cobre f7, portanto o rei não pode capturar. A torre de e6 já tirou g6 e h6, portanto {{Kh8}} é forçado, e {{Rh6#}} atravessa para dar mate pela coluna h."
+}

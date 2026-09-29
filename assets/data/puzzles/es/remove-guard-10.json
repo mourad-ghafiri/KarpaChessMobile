@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-10",
+  "fen": "r4rk1/5ppp/5n2/6B1/8/8/2Q2PPP/1B4K1 w - - 1 2",
+  "solution": [
+    "Bxf6"
+  ],
+  "rating": 1390,
+  "title": "El centinela de h7",
+  "setup": "Tu dama y tu alfil están alineados hacia h7, y aparte del rey solo el caballo de f6 cubre esa casilla.",
+  "hint": "Tu batería ya apunta a h7. Exactamente una pieza negra le responde: ¿cuánto vale esa pieza?",
+  "explanation": "## La idea\n\n{{Bxf6}} elimina al único defensor de h7. Si las Negras recapturan con {{gxf6}}, {{Qxh7#}} es mate: la propia torre negra de f8 empareda al rey. Si no recapturan, el caballo se ha perdido a cambio de nada. Un cambio igualado que abre una casilla de mate nunca es igualado."
+}

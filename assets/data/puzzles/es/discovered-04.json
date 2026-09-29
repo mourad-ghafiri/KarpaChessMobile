@@ -1,0 +1,13 @@
+{
+  "id": "discovered-04",
+  "fen": "1r1k4/8/8/8/3N4/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Ke8",
+    "Nxb8"
+  ],
+  "title": "Jaque doble, y luego la torre",
+  "setup": "Tu torre y tu caballo comparten la columna d con el rey negro: el caballo delante, el jaque esperando detrás.",
+  "hint": "Un salto del caballo puede dar jaque al rey por sí mismo y destapar además el jaque de la torre. Elige el salto que también golpea algo.",
+  "explanation": "## La idea\n\n{{Nc6+}} es jaque doble: el propio caballo ataca d8, y moverlo destapa la torre de d1 que tenía detrás. Contra dos jaques a la vez no sirve ni capturar ni tapar, así que el rey tiene que moverse. Vaya adonde vaya, {{Nxb8}} recoge la torre a la que el caballo apuntaba desde el principio, e incluso si el rey captura después el caballo, te queda torre contra rey solo. El jaque doble es la jugada más forzante del ajedrez: el rey tiene que moverse, y todo lo demás espera."
+}

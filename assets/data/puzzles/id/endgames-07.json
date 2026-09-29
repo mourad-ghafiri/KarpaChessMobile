@@ -1,0 +1,11 @@
+{
+  "id": "endgames-07",
+  "fen": "4QK2/8/8/8/8/8/4pk2/8 w - - 0 1",
+  "solution": [
+    "Qf7+"
+  ],
+  "title": "Satu Sekak, dan Hanya Satu",
+  "setup": "Pion Hitam di e2 menjadi menteri pada langkah berikutnya, dan raja Anda di f8 sama sekali tak dekat. Menteri harus membeli waktu sendirian.",
+  "hint": "Hitam harus menjawab sekak sebelum mendorong. Temukan sekak yang tak bisa dijawab raja hitam dengan mengambil menteri.",
+  "explanation": "## Ide\n\nSekak harus dijawab sebelum pion bisa bergerak, dan dari e8 menteri hanya punya tepat satu sekak yang tak bisa langsung ditangkap raja: {{Qf7+}}, di sepanjang lajur f. Setiap langkah lain membiarkan pion menjadi menteri, dan menteri melawan menteri adalah remis.\n\nDari f7 menteri terus memberi sekak dan menggiring raja sampai ia melangkah ke e1, di depan pionnya sendiri. Itulah langkah gratisnya, dan raja Anda memakainya untuk berjalan mendekat."
+}

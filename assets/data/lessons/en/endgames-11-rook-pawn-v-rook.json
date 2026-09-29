@@ -1,0 +1,62 @@
+{
+  "id": "rook-pawn-vs-rook",
+  "title": "Rook and Pawn vs Rook",
+  "summary": "Two rook moves that decide the whole ending",
+  "proof": "endgame-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "Two Files of Daylight",
+      "text": "A pawn on e4 does not win this by itself. An escorted pawn does, and escort is the whole subject of a rook ending.\n\nLook at the distance. Black's king on c7 is two files from your pawn's road, and it is walking toward it. Your rook on a1 has never been asked to stop anything here — and it is the only piece that can.\n\nThe king that gets in front of a pawn stops it. The king that gets shut out watches."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "A Wall Made of One Rook",
+      "text": "A rook on an open file does more than attack down it. The enemy king may not step onto any square the rook covers, so the file becomes a wall: one move to build, and it stands as long as the rook stays.\n\nThat is a **cut**. The enemy king is penned on one side of the line, and everything on the other side is yours to use.\n\nBlack's king on c7 has not crossed yet. Pick the line it has to cross."
+    },
+    {
+      "type": "play",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "prompt": "Shut Black's king out of the pawn's half of the board before you push anything.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Count the files between Black's king and the pawn, then claim the one that king has to cross first."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/3R4 b - - 1 1",
+      "title": "Around and Around",
+      "text": "The wall is up. Now watch what Black's king is able to do about the pawn.\n\n{{Kc6}} {{Kf4}} {{Kc5}} {{Kf5}}\n\nFour moves. Black's king has walked down the c-file and still cannot set foot on the d-file, because every square of it belongs to a rook on d1. White's king, meanwhile, has walked up beside its pawn, which is what escort means."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/4P1K1/8/3R4/8/8/5r2 b - - 0 8",
+      "title": "Which Ending You Get",
+      "text": "A few moves on, the pawn stands on e6 with its king beside it on g6, and the rook still holds the d-file. Black's king on c7 is two files from the pawn's road and will not be let onto it. That refusal is what picks the ending.\n\nLet the defending king reach the square in front of the pawn and Black draws — Philidor, four lessons back, asks for nothing more than that king and a rook on the sixth rank.\n\nDeny it, march your own king up until it stands on the queening square, and you are steering for Lucena instead."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Swap Chairs",
+      "text": "You are Black now, and a rank is being used against you the way you just used a file. The rook on b7 owns the seventh, so Black's king on g8 is held on the back rank.\n\nWhite's pawn on e5 is a passed pawn with a king on d5 walking beside it, and the king that should be stopping it is stuck on the edge of the board.\n\nSo the black rook on h1 carries the defense, and where it goes is the whole question."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Front, Beside, Behind",
+      "text": "A rook facing a passed pawn has three kinds of square, and they do not age alike.\n\nIn front of it the rook is a blockade that shrinks: every push takes one more square away, and on the eighth rank it stands there doing nothing. Beside it, on a rank, the rook attacks the pawn once and gains nothing when it moves.\n\nBehind it, the attack renews. The pawn steps and the same rook is still staring down the file at it, while whatever guards the pawn gets further from home.\n\n> Judge a square by what it is worth after the pawn moves, not before."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "prompt": "Take the one square whose value grows every time White's pawn advances.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "Walk the pawn from e5 up to the last rank in your head, and ask which post keeps attacking it the whole way."
+    }
+  ]
+}

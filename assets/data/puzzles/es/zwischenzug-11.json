@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-11",
+  "fen": "6k1/1r3ppp/7r/8/b2B3R/8/PP6/K1Q5 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Be8",
+    "Qxe8#"
+  ],
+  "rating": 1650,
+  "title": "Haz que el alfil vuelva a casa",
+  "setup": "El alfil negro de a4 está lejos de su rey y sus dos torres se han ido de caza por las columnas b y h.",
+  "hint": "Una pieza negra está muy lejos de la octava fila. Dale un motivo para tener que estar ahí.",
+  "explanation": "## La idea\n\n{{Qc8+}} obliga a {{Be8}}, arrastrando al alfil todo el camino de vuelta para tapar, y {{Qxe8#}} se lo come nada más llegar. Una pieza que puede llegar a una casilla en una jugada no es lo mismo que una pieza que la defiende."
+}

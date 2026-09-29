@@ -1,0 +1,50 @@
+{
+  "id": "xray-attack",
+  "title": "El ataque de rayos X",
+  "summary": "Las piezas de largo alcance ven a través de otras",
+  "proof": "xray-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Detrás de tu propia torre",
+      "text": "Tu dama de d1 está detrás de tu propia torre de d2, y eso parece una dama desperdiciada. Aparta la torre y la dama ve d7 al instante, así que mientras la torre sigue ahí, la dama apunta a través de ella.\n\nEso son **rayos X**: una pieza de largo alcance que ataca a través de una pieza de su propio bando, y que cuenta como atacante todo el tiempo.\n\nAhora cuenta la columna d. La torre negra de d7 recibe dos ataques, de la torre y de la dama que tiene detrás. El alfil de c8 la protege una vez. Dos ganan a uno."
+    },
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Primero lo barato",
+      "text": "Dos atacantes y un defensor, así que d7 cae. Lo que cuesta queda decidido antes de que se haga ninguna captura, porque la pieza de delante es la que tiene que empezar.\n\nAquí la de delante es la torre. Entra, el alfil la captura y la dama termina: cinco puntos pagados y ocho cobrados.\n\nInvierte el orden, dama delante y torre detrás, y la misma columna pierde dinero. La dama entra, el alfil captura una dama, la torre captura el alfil. Nueve pagados, ocho cobrados.\n\nLo barato delante, lo caro detrás."
+    },
+    {
+      "type": "play",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "prompt": "Cobra en la columna d, empezando por el atacante que mejor puedes permitirte perder.",
+      "targetSan": [
+        "Rxd7"
+      ],
+      "hint": "Cuenta lo que sigue apuntando a esa casilla después de que el alfil negro haya recapturado."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "El defensor que todavía no está",
+      "text": "Un tablero nuevo, juegan las Negras, y el caballo de e5 parece gratis. La torre negra de e4 lo ataca, y ninguna pieza blanca está cerca.\n\nMira más abajo en la columna. Tu torre de e1 está en esa misma columna, y lo único que hay entre ella y el caballo es la propia torre negra.\n\nAsí que el caballo está protegido a través de la pieza que quiere capturarlo. El obstáculo y el atacante son la misma torre, y no puede capturar sin abandonar la casilla con la que tapa."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "Rico durante una jugada",
+      "text": "Las Negras podrían intentar despejar la columna cambiando en e1, pero el rey de f1 recaptura, y la torre que quería el caballo sale del tablero con ella.\n\nAsí que las Negras capturan el caballo: {{Rxe5}}. Tres puntos, gratis, durante exactamente una jugada.\n\n> Cuenta toda la línea, no la primera pieza que hay en ella."
+    },
+    {
+      "type": "play",
+      "fen": "2b3k1/ppp2ppp/8/4r3/8/8/PPP2PPP/4RK2 w - - 0 2",
+      "prompt": "La torre negra ha caído en la columna que ya domina tu propia torre: cóbrala.",
+      "targetSan": [
+        "Rxe5"
+      ],
+      "hint": "No hay nada entre tu torre y la pieza que acaba de capturar."
+    }
+  ]
+}

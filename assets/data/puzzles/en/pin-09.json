@@ -1,0 +1,12 @@
+{
+  "id": "pin-09",
+  "fen": "7k/2R1pr2/1R6/4r2p/6P1/Bb6/2P5/6K1 w - - 0 1",
+  "solution": [
+    "Bb2"
+  ],
+  "rating": 1120,
+  "title": "Down the Long Diagonal",
+  "setup": "Black's king is boxed into h8, and one of its rooks has parked on the long dark diagonal.",
+  "hint": "The black king on h8 sits at the end of one famous diagonal. Which of your pieces can claim the other end?",
+  "explanation": "## The Idea\n\n{{Bb2}} takes the a1–h8 diagonal, where the rook on **e5** is now stuck in front of its own king. The rook is attacked, undefended, and may not step aside. Unpinning with a king move arrives one move too late."
+}

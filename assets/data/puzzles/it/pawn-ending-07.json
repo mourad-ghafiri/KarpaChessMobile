@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-07",
+  "fen": "8/8/8/2P5/5p2/3K3k/8/8 w - - 0 2",
+  "solution": [
+    "c6"
+  ],
+  "rating": 1315,
+  "title": "Corrono Tutti e Due i Pedoni",
+  "setup": "Il Nero ha appena spinto il suo pedone sulla quarta, e il re bianco è abbastanza vicino da essere tentato.",
+  "hint": "Tornare indietro a fermare il suo pedone costa una mossa; contate tutte e due le corse fino all'ottava traversa prima di decidere.",
+  "explanation": "## L'idea\n\nInseguire il pedone f fa solo patta. {{c6}} vince la corsa: dopo {{Kg3}} il pedone corre in c7 e promuove in c8 mentre il pedone nero è arrivato solo in f3, e poi la vostra donna nuova e il vostro re fermano il corridore.\n\nIn una corsa pura, contate le mosse di tutti e due i pedoni fino all'ultima traversa prima di tornare indietro a inseguire."
+}

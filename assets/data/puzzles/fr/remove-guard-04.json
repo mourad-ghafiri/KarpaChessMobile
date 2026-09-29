@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-04",
+  "fen": "2r3k1/5ppp/8/p2b4/1n6/2B4P/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxb4"
+  ],
+  "rating": 1170,
+  "title": "Retirez l'étai",
+  "setup": "Votre tour en d1 attaque le fou en d5, qui n'est défendu que par le cavalier en b4.",
+  "hint": "Remontez la défense à rebours. Quelle pièce noire tient d5, et laquelle de vos pièces peut l'atteindre ?",
+  "explanation": "## L'idée\n\n{{Bxb4}} échange un fou contre le cavalier qui protège d5. Après {{axb4}}, le fou n'a plus de protection et {{Rxd5}} le prend. La première prise est égale ; la seconde est gratuite. Remontez de la cible jusqu'à la pièce qui la maintient en vie."
+}

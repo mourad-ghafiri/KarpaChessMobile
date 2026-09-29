@@ -1,0 +1,12 @@
+{
+  "id": "smothered-01",
+  "fen": "6rk/pp4pp/1q6/6N1/8/8/P4PPP/3R2K1 w - - 6 26",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1150,
+  "title": "Su propia torre",
+  "setup": "Las Negras acaban de llevar una torre a g8, y ahora todas las casillas junto a su rey están ocupadas.",
+  "hint": "Antes de buscar un jaque, cuenta a cuántas casillas vacías podría moverse de verdad el rey negro.",
+  "explanation": "## La idea\n\nAl rey de h8 lo emparedan su propia torre y sus propios peones, así que un jaque que no pueda comer es mate. Un caballo podría dar jaque desde g6, pero el peón de h se lo comería; {{Nf7#}} da jaque desde la casilla que no cubre ninguna pieza negra. Cuando un rey está encajonado, deja de contar material y empieza a contar jaques."
+}

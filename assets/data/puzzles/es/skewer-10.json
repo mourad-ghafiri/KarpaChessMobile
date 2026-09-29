@@ -1,0 +1,14 @@
+{
+  "id": "skewer-10",
+  "fen": "8/4p3/1Qpk2qB/NP6/3p4/PP1Pb3/2n4K/8 w - - 0 1",
+  "solution": [
+    "Qxc6+",
+    "Ke5",
+    "Qxg6"
+  ],
+  "rating": 1240,
+  "title": "Come un peón, gana la dama",
+  "setup": "El rey negro de d6 y la dama de g6 comparten la sexta fila, y un peón negro ocupa c6.",
+  "hint": "La casilla que tu dama necesita en la sexta fila está ocupada. ¿Puedes comértela, y se atrevería el rey a recapturar?",
+  "explanation": "## La idea\n\nTu dama quiere la sexta fila, y el peón de **c6** está en la casilla que necesita. {{Qxc6+}} se lo come con jaque, y el peón de **b5** cubre c6, así que el rey no puede comer. {{Ke5}} es forzada, y {{Qxg6}} gana la dama."
+}

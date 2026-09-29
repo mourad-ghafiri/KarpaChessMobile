@@ -1,0 +1,13 @@
+{
+  "id": "forks-14",
+  "fen": "2r1k3/p4ppp/8/8/4N3/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd7",
+    "Nxc8"
+  ],
+  "title": "Horquilla a la torre",
+  "setup": "La torre negra se ha acercado a c8, cerca de su rey. Tienes una calidad de menos, pero un peón de más.",
+  "hint": "Encuentra la casilla que da jaque al rey y ataca c8 a la vez. Está a un salto.",
+  "explanation": "## La idea\n\n{{Nd6+}} ataca a la vez al rey de e8 y a la torre de c8. No hay ningún peón negro en c7 ni en e7 que proteja d6, así que el caballo está a salvo. {{Kd7}} protege la torre, pero {{Nxc8}} la captura igualmente, y tras {{Kxc8}} las torres y los caballos han desaparecido. Lo que queda es un final de peones con tu peón de más.\n\nUna horquilla que solo gana la calidad puede bastar, cuando lleva a un final que puedes ganar."
+}

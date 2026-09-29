@@ -1,0 +1,57 @@
+{
+  "id": "overloading",
+  "title": "La sobrecarga",
+  "summary": "Un defensor, dos tareas, y tú eliges cuál abandona",
+  "proof": "overload-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "A una casilla de ser dama",
+      "text": "El peón blanco de a7 está a una casilla de convertirse en dama, y una sola pieza negra lo impide. La torre de c8 cubre a8 por una fila vacía, así que {{a8=Q}} recibe como respuesta {{Rxa8}} y la nueva dama dura exactamente una jugada.\n\nEsa es la primera tarea. La torre la cumple sin moverse. Está en c8, y el peón sigue siendo peón."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Y está sosteniendo al caballo",
+      "text": "Ahora mira la columna c. El caballo negro de c5 está atacado por el alfil blanco de e3, y lo único que lo defiende es esa misma torre de c8, que llega hasta él por encima de dos casillas vacías.\n\nNada más de las Negras se acerca a c5. El rey de g8 está a cuatro columnas, y ningún peón está lo bastante cerca como para contar.\n\nUna torre, dos tareas, y en este momento las cumple las dos sin mover un dedo."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Déjala exactamente donde está",
+      "text": "Ya conoces dos formas de romper a un defensor, y la torre de c8 sobrevive a las dos. Nada de las Blancas la ataca, así que no se la puede quitar del tablero. No hay nada que tenga que aceptar, así que no se la puede sacar de su casilla.\n\nBien. Déjala ahí. Una pieza que cubre dos cosas a la vez está **sobrecargada**, y mientras nadie le pida nada, dos tareas son tan fáciles como una.\n\nAsí que pídele. Defender no es quedarse quieto: es una jugada, y solo hay una torre."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "prompt": "Captura una de las dos cosas que cubre la torre y deja que decida con cuál se queda.",
+      "targetSan": [
+        "Bxc5"
+      ],
+      "hint": "Solo una de las dos tareas de la torre es una pieza a la que puedes echar mano, y las Blancas ya le apuntan."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "La octava fila no es de nadie",
+      "text": "Las Negras capturaron el alfil, y el cambio fue igualado: un alfil por un caballo, tres puntos por cada lado. La torre está en c5 porque ahí tenía que ir para recapturar.\n\nY ese es todo el problema. Desde c5 la torre ve la columna c y la quinta fila, y a8 no está en ninguna de las dos.\n\nNo recapturar no era mejor. El caballo simplemente habría desaparecido, y el peón de a7 seguiría ahí."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "Encontrar la siguiente",
+      "text": "Hay dos comprobaciones, y la mayoría de los jugadores solo hace la primera.\n\nNombra la pieza rival que más trabaja y di en voz alta sus tareas: esta casilla, esa pieza. Luego nombra todo lo demás que las cubre. Un segundo defensor en cualquier parte y no hay sobrecarga: solo una pieza que no puedes capturar.\n\nUn defensor, dos tareas, dos sitios distintos donde estar. Captura la de las dos que puedas alcanzar, y el defensor elige perder la otra.\n\n> No preguntes qué protege un defensor. Pregunta cuántas cosas, y qué tiene que abandonar para salvar cualquiera de ellas."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "prompt": "Ya nada cubre la octava fila: cobra lo que la torre estaba ahí para impedir.",
+      "targetSan": [
+        "a8=Q+",
+        "a8=R+"
+      ],
+      "hint": "La torre domina c5 y la quinta fila, y a8 no está en ninguna de las dos."
+    }
+  ]
+}

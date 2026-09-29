@@ -1,0 +1,59 @@
+{
+  "id": "king-safety",
+  "title": "La sécurité du roi",
+  "summary": "Roquez avant que les portes s'ouvrent, puis ne touchez plus au mur",
+  "proof": "strategy-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "Le roi resté à la maison",
+      "text": "Le pion d blanc a disparu, et un fou se tient en d2 à sa place. Le roi en e1 n'a plus de pion à lui sur la colonne voisine.\n\nLes Noirs ont réglé cette question il y a plusieurs coups : le roi en g8, trois pions intacts devant lui.\n\nLes Blancs n'ont droit qu'à un seul roque. La tour en h1 est enfermée derrière le fou en f1 et le cavalier en g1, donc l'aile roi est fermée. L'aile dame ne l'est pas — la dame, le cavalier et le fou ont tous quitté ce bout de la dernière rangée."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "Ce que coûte l'attente",
+      "text": "Rien ne va mal pour l'instant. C'est ce qui rend facile de remettre à plus tard.\n\nDéveloppez tranquillement avec {{Nf3}}, laissez les Noirs amener une tour par {{Re8}}, ajoutez {{Bd3}}, et {{d5}} ouvre le centre avec le roi toujours en e1. Les Noirs n'ont eu besoin de rien d'astucieux pour en arriver là, seulement de coups ordinaires.\n\nChaque ligne qui s'ouvre désormais s'ouvre vers les Blancs, et répondre à chacune coûte un coup prévu pour autre chose."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "prompt": "Mettez votre roi à l'abri sur l'aile que vos pièces ont déjà quittée, et amenez une tour sur la colonne semi-ouverte du même coup.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "Trois pièces ont quitté un côté de votre dernière rangée — comptez les cases vides entre votre roi et chaque tour."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "Le mur qu'on ne reconstruit pas",
+      "text": "Les Noirs ont chassé un fou par deux coups de pion et ont fait sauter deux briques de l'abri autour du roi en g8. Le pion en h6 et le pion en g5 faisaient partie de ce mur, et celui de g5 frappe en ce moment le fou en h4.\n\nLes trois pions blancs sont toujours en f2, g2 et h2, exactement là où le roque les a laissés. Les Noirs ne peuvent pas remettre les deux autres en place, car aucun pion ne recule jamais, et c'est toute la différence entre ces deux rois.\n\n> Bougez un pion devant votre roi quand il le faut. Jamais deux."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "Où frapper",
+      "text": "Le pion en g5 a exactement un défenseur, le pion en h6. Derrière eux, le roi a un gardien de plus, le cavalier en f6.\n\nLa réponse naturelle à un fou attaqué est de le reculer. L'abri noir reste alors mince, mais il reste.\n\nIl y a une réponse plus bruyante. Un abri aussi mince peut s'acheter, et les Blancs ont des pièces pour payer. Comptez le prix en pions et le butin en lignes ouvertes, puis décidez."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "prompt": "Répondez à l'attaque sur votre fou en ouvrant l'abri, même si cela coûte une pièce.",
+      "targetSan": [
+        "Nxg5"
+      ],
+      "hint": "Prenez d'abord en g5 avec la pièce que vous pouvez le plus facilement perdre, pour que le fou ait le dernier mot."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n2/2b1p1p1/2B1P2B/2NP4/PPP2PPP/R2Q1RK1 w - - 0 10",
+      "prompt": "Les Noirs ont pris le cavalier ; reprenez de façon à clouer le cavalier noir en f6 sur la dame.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "Comptez ce qui se trouve maintenant entre votre fou en h4 et la dame noire en d8."
+    }
+  ]
+}

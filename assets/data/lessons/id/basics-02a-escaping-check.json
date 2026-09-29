@@ -1,0 +1,77 @@
+{
+  "id": "escaping-check",
+  "title": "Tiga Jalan Keluar",
+  "summary": "Pindahkan, halangi, tangkap — dan sekak-sekak di mana dua di antaranya lenyap",
+  "proof": "first-steps-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "title": "Tak Ada Jawaban Keempat",
+      "text": "Setiap sekak harus dijawab saat itu juga, dan catur memberi Anda tepat tiga jawaban.\n\n**Pindahkan** raja dari petak yang diserang. **Halangi** garis yang dilalui serangan. **Tangkap** buah yang memberi sekak.\n\nItulah seluruh daftarnya. Benteng hitam di e8 memandang lurus ke bawah lajur e ke arah raja Anda di e1, dan sampai salah satu dari tiga hal itu terjadi, tak ada langkah lain yang ingin Anda mainkan yang sah.\n\nDaftarnya tak pernah berubah, dan panjangnya tiga. Yang berubah adalah berapa dari ketiganya yang tersedia."
+    },
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Keluar dari Garis, Bukan Menyusurinya",
+      "text": "Singkirkan gajah dari papan dan raja harus menjawab sendirian.\n\nLima petak bersentuhan dengan raja di e1: d1, d2, e2, f1 dan f2. Empat di antaranya berada di luar jalan benteng. Yang kelima adalah e2 — satu langkah ke depan, masih di lajur e, masih di bawah benteng yang sama. Berlari *menyusuri* garis bukanlah melarikan diri.\n\nMemindahkan raja layak diperiksa lebih dulu, tetapi tak pernah dijamin. Petak yang Anda inginkan harus kosong, dan harus petak yang belum diserang lawan Anda."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Langkahkan raja Anda keluar dari lajur yang dikuasai benteng.",
+      "targetSan": [
+        "Kd1",
+        "Kd2",
+        "Kf1",
+        "Kf2"
+      ],
+      "hint": "Benteng hanya menguasai satu lajur dan tak ada yang lain, jadi satu langkah ke samping sudah menyelesaikannya."
+    },
+    {
+      "type": "teach",
+      "fen": "k7/8/8/b7/8/8/8/1N2K3 w - - 0 1",
+      "title": "Tutup Pintunya",
+      "text": "Sekak yang lain, dan raja sama sekali tak perlu bergerak.\n\nGajah hitam di a5 mencapai raja Anda di e1 melalui diagonal yang melewati b4, c3 dan d2. Ia mencapainya *melalui* petak-petak itu — begitulah sebuah garis — dan buah yang berdiri di salah satunya mengakhiri serangan.\n\nKuda Anda di b1 punya dua pintu untuk dipilih: {{Nc3}} atau {{Nd2}}. Gajah masih melotot di sepanjang diagonal. Ia hanya tak bisa sampai.\n\nTentu saja buah penghalang bisa ditangkap. Sebuah halangan hanya sebaik buah yang Anda gunakan untuknya."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "Kembali ke benteng — tempatkan gajah Anda di jalannya dan tutup lajur itu.",
+      "targetSan": [
+        "Be3"
+      ],
+      "hint": "Gajah bergerak di diagonal, jadi hanya satu dari enam petak di antara keduanya yang ada dalam jangkauannya."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "title": "Tak Ada Tempat untuk Menghadang",
+      "text": "Kuda tidak bergerak di sepanjang garis. Ia tiba begitu saja.\n\nTak ada petak di antara kuda hitam di d3 dan raja Anda di e1, jadi tak ada yang bisa ditempatkan di tengah jalan. Sekak dari kuda tak pernah bisa dihalangi. Begitu pula sekak dari buah yang berdiri tepat di sebelah raja — di antara dua petak yang bersentuhan tak ada ruang untuk apa pun.\n\nJadi di sini daftarnya hanya dua. Raja bisa berjalan, atau kuda bisa dikeluarkan dari papan."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "prompt": "Akhiri sekak ini dengan mengeluarkan kuda dari papan.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Pion menangkap secara diagonal, tak pernah lurus ke depan."
+    },
+    {
+      "type": "teach",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "title": "Penangkapan yang Tak Tersedia",
+      "text": "Menangkap adalah jawaban yang paling manis dan yang paling sering tak tersedia.\n\nKuda di f3 memberi sekak kepada raja Anda di g1, dan dua buah Anda menyerangnya. Pion di g2 yang paling jelas — pion yang mengambil kuda adalah tawaran yang murah.\n\nNamun pion itu juga satu-satunya yang berdiri di antara benteng hitam di g8 dan raja Anda. Tangkap dengannya dan raja tertinggal dalam sekak dari benteng, dan langkah yang membiarkan raja Anda sendiri dalam sekak bukanlah langkah. Buah yang menahan garis menuju rajanya tak bebas untuk pergi."
+    },
+    {
+      "type": "play",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "prompt": "Tangkap kuda dengan buah yang bisa dilepaskan oleh raja Anda.",
+      "targetSan": [
+        "Rxf3"
+      ],
+      "hint": "Hanya satu dari kedua penyerang yang bisa bergerak tanpa membuka garis menuju raja Anda sendiri."
+    }
+  ]
+}

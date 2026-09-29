@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-07",
+  "fen": "4K3/7Q/1R3p2/2r3R1/8/5B2/b7/4k3 w - - 0 1",
+  "solution": [
+    "Qe4+",
+    "Kd2",
+    "Rg2+",
+    "Kc1",
+    "Qe1#"
+  ],
+  "rating": 1550,
+  "title": "Sorun Sizin Şahınız Değil",
+  "setup": "İki şah da açıkta — sizinki e8'de, siyahınki e1'de — ve siyahın c5'te bir kalesi, a2'de bir fili oyunda.",
+  "hint": "Siyahın neyi tehdit ettiğini boş verin ve kendi şahlarınızı sonuna kadar sayın.",
+  "explanation": "## Fikir\n\n{{Qe4+}} işi başlatır, {{Rg2+}} ikinci yatayı alır ve {{Qe1#}} iner. İki şah da açıktayken av, tamamen önce şah çekene aittir."
+}

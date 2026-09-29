@@ -1,0 +1,56 @@
+{
+  "id": "english",
+  "title": "İngiliz Açılışı",
+  "summary": "Renkleri değişmiş bir Sicilya ve elde bir hamle",
+  "proof": "openings-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Aynadaki Sicilya",
+      "text": "Beyazın açılış hamlesi kanada gitti, siyahın cevabı ise dosdoğru ortaya. Tahtayı ters çevirin: e5'teki piyonun karşısındaki c4 piyonu, renkleri değişmiş bir Sicilya'dır.\n\nGerçek bir Sicilya'da c piyonu, ikinci oynayan tarafa, siyaha aittir. Burada aynı yapı roller takas edilmiş hâlde tahtadadır ve c piyonunu elinde tutan taraf, önce oynayan taraftır.\n\nBir savunmanın yanlış ucunda, tam bir tempo."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Bilerek Yavaş",
+      "text": "{{Nc3}} {{Nf6}} {{g3}}. İki at çıktı ve sonra beyaz, hiçbir şey almayan ve hiçbir şeye saldırmayan bir piyona bir hamle harcadı.\n\nSiyah sunulan yeri alır: {{d5}} ortayı sahiplenir, {{cxd5}} {{Nxd5}} orayı temizler ve siyahın bir atı, yakınında hiç beyaz piyon olmadan d5'te durur.\n\nYedek temponun parasını ödediği şey buydu. g3'teki piyon tahtadaki en yavaş hamle gibi görünüyordu, ama bir kareyi boşalttı ve o kare h1'den a8'e uzanan çaprazda duruyor."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 5",
+      "prompt": "Açık kare filini çıkarın; uzun çaprazdan, siyahın az önce ortaya park ettiği ata baksın.",
+      "targetSan": [
+        "Bg2"
+      ],
+      "hint": "Bir çapraz köşeden köşeye, ta a8'e kadar uzanıyor ve bir piyon hamlesi sizin tarafınızı çoktan temizledi."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPPBP/R1BQK1NR b KQkq - 1 5",
+      "title": "Kenardaki Fil",
+      "text": "g2'deki fil tahtanın boyunca bakıyor ve karşılaştığı ilk şey d5'teki at. Oraya varmak için merkezi hiç geçmesi gerekmedi.\n\nBöyle geliştirilen bir fil, yani kendi at piyonunun boşalttığı kareye çıkan fil, **fianketto** yapılmış filidir. Yolculuğu piyon yapar, fil de arkasından yolu alır.\n\nTek taş ve bütün kanat açılışı tartışması: ortada durmadan ortayı tutmak."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Cevap Vermeden Önce Sormak",
+      "text": "Bu hamlenin en üst düzeyde ortaya çıkmayı sürdürmesinin ikinci sebebinin çaprazlarla ilgisi yok. Botvinnik üzerine bir sistem kurdu, Kasparov ile Carlsen de onu bir ana silah olarak elde tuttu.\n\nd2'deki piyon, kimsenin ateş edemeyeceği bir piyondur. Siyahın en keskin savunmalarından birkaçı, beyaz bir piyon d4'e adım attığında ona vurmak için vardır ve piyon oraya gitmeden hiçbiri başlayamaz.\n\nBu yüzden beyaz önce sorar. {{e6}} {{Nc3}} {{d5}} gelir ve siyah cevabını vermiştir: orta alınmış, c8'deki fil de arkasında kapalı kalmıştır."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "title": "Beklemenin Hesabı",
+      "text": "Beklemek bedava değildir. c4'teki piyon ne d4 ne de e4 için savaşır; yani ortayı alıp elinde tutan bir rakip, o kanat piyonunu partiyi kenardan izler hâlde bırakabilir.\n\nBeklemenin satın aldığı şey bilgidir ve bilgi ancak harcanırsa karşılığını verir. Siyah artık kendini bağlamış durumda: piyonlar d5 ile e6'ya sabitlenmiş, c8'deki fil onların arkasına kapanmış ve geçiş yapabileceği keskin bir savunma kalmamış.\n\n> Kanat açılışı, bilerek geç gelen bir merkez açılışıdır."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "prompt": "Siyahın kurulumu sabitlendiğine göre ortayı alın ve partiyi, siyahın artık kaçamayacağı bir Vezir Gambiti'ne yönlendirin.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Beyazın tek bir piyonu bunca zamandır evde durdu ve siyahın kampında onu dışarı çıktığı için cezalandıracak hiçbir şey hazır değil."
+    }
+  ]
+}

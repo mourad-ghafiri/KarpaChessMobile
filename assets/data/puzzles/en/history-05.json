@@ -1,0 +1,15 @@
+{
+  "id": "history-05",
+  "fen": "r1b1k1nr/p2p1ppp/n2B4/1p1NPN1P/6P1/3P1Q2/P1P1K3/q5b1 w kq - 2 21",
+  "solution": [
+    "Nxg7+",
+    "Kd8",
+    "Qf6+",
+    "Nxf6",
+    "Be7#"
+  ],
+  "title": "The Immortal Finish",
+  "setup": "Anderssen against Kieseritzky, London 1851. White has given away both rooks and a bishop. Count the finish before you count the material.",
+  "hint": "Begin with a check. Then count the black king's squares, find the one black piece still guarding them, and give it something it must take.",
+  "explanation": "## The Idea\n\nThe Immortal Game, played in London in 1851: White is two rooks and a bishop down, and mates anyway.\n\n{{Nxg7+}} takes a pawn with check, and {{Kd8}} is the only reply. Now c7 and e7 belong to the bishop on d6, and e8 to the knight on g7.\n\nOne black piece still guards e7: the knight on g8. {{Qf6+}} drags it off, because only that knight can answer the check. After {{Nxf6}}, {{Be7#}}, with the knight on d5 guarding the bishop."
+}

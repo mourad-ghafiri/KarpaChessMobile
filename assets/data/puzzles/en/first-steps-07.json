@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-07",
+  "fen": "7k/2p5/3p1b2/8/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxf6"
+  ],
+  "title": "Free or Guarded?",
+  "setup": "Your knight on e4 can capture two different black pieces — but only one of them is actually free.",
+  "hint": "Before you grab, ask: who takes back? Check the defenders of d6 and f6.",
+  "explanation": "## The Idea\n\nTwo captures beckon:\n\n- {{Nxd6}} snatches a pawn, but the pawn on c7 **defends d6** and takes back at once. You would trade a three-point knight for a one-point pawn.\n- {{Nxf6}} snatches the bishop, and **nothing defends f6**. Three clean points.\n\nThe right question is never \"what can I capture?\" but \"what can I capture for free?\" Count the defenders before every capture."
+}

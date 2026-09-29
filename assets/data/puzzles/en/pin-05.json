@@ -1,0 +1,12 @@
+{
+  "id": "pin-05",
+  "fen": "8/B1kb3R/p3r3/p7/3P4/4R3/1r4PK/8 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 960,
+  "title": "Take What It Guards",
+  "setup": "Your rook on h7 rakes the whole seventh rank, straight through the black bishop to the king on c7.",
+  "hint": "The rook on e6 has one guard. Look along the seventh rank and ask whether that guard is allowed to leave.",
+  "explanation": "## The Idea\n\n{{Rxe6}} simply wins a rook. The bishop on **d7** is the only defender, and your rook on **h7** pins it to the king on **c7** along the seventh rank. Capturing on e6 would expose the king, so the bishop cannot answer."
+}

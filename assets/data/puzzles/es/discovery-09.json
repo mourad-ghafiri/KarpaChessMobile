@@ -1,0 +1,12 @@
+{
+  "id": "discovery-09",
+  "fen": "3q2k1/2p2p1p/p5p1/1r6/8/3B4/P4PPP/3R1RK1 w - - 0 1",
+  "solution": [
+    "Bxb5"
+  ],
+  "rating": 1270,
+  "title": "Sin jaque, y aun así fatal",
+  "setup": "Tu torre de d1 está alineada con la dama negra, y solo tu propio alfil de d3 se interpone.",
+  "hint": "A la torre de b5 la defiende un peón. Pregúntate cómo quedará la columna d en cuanto tu alfil la haya dejado.",
+  "explanation": "## La idea\n\n{{Bxb5}} gana una torre porque la recaptura cuesta más: tras axb5 la columna d queda abierta y Rxd8 se come la dama. Las Negras tienen que dejar el alfil donde está, y las Blancas se quedan con la torre ganada. Un descubierto no necesita jaque para decidir una partida."
+}

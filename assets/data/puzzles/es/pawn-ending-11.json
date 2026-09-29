@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-11",
+  "fen": "3k4/8/4p3/4P3/8/4K3/8/8 w - - 1 2",
+  "solution": [
+    "Kf4"
+  ],
+  "rating": 1465,
+  "title": "Ve adonde no está el rey",
+  "setup": "El rey negro acaba de retroceder a d8, dejándoles todo el flanco de rey a las Blancas.",
+  "hint": "El peón de e6 necesita a su rey al lado; averigua a qué flanco tardaría más en llegar ese rey.",
+  "explanation": "## La idea\n\n{{Kf4}} se dirige al flanco que las Negras acaban de abandonar. {{Ke7}} {{Kg5}} {{Kf7}} {{Kh6}}, y el rey blanco da la vuelta por g6 y g7. Las Negras no pueden cubrir d7 y f7 a la vez, así que e6 cae y el peón pasado corona. {{Kd4}} o {{Ke4}}, en cambio, dejan que las Negras lo sostengan todo."
+}

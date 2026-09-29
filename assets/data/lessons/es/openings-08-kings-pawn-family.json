@@ -1,0 +1,57 @@
+{
+  "id": "kings-pawn-family",
+  "title": "Las aperturas de peón de rey",
+  "summary": "Cada respuesta a 1.e4 es un trato distinto",
+  "proof": "openings-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Dos líneas en un avance",
+      "text": "Una jugada de peón libera dos piezas. Avanza el peón de e y la dama y el alfil de casillas blancas tienen un camino para salir de la primera fila.\n\nPor eso estas partidas se llenan pronto. Llegan las piezas, se abren las líneas y los ejércitos ya se tocan con los dos reyes todavía en el centro. Una jugada lenta cuesta aquí más que en una posición tranquila, porque ya hay alguien fuera para castigarla."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "El peón sin defensa",
+      "text": "Las Negras imitaron, e imitar tiene un precio: el segundo jugador tiene que responder a una pregunta que ya se ha hecho.\n\nEl caballo de f3 ataca el peón de e5. Cuenta los defensores de e5 y no hay ninguno.\n\nHay dos formas honestas de arreglarlo. Una pieza puede proteger el peón y salir de casa en la misma jugada, sin gastar nada. Un peón puede protegerlo igual de bien, y pagar el trabajo quedándose delante de uno de los alfiles negros el resto de la partida."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "prompt": "Protege el peón que acaba de atacar el caballo blanco, y conserva tu parte del centro.",
+      "targetSan": [
+        "Nc6",
+        "d6"
+      ],
+      "hint": "Un defensor es una pieza que quería salir de todos modos; el otro es un peón que paga el trabajo con un alfil. Las dos son líneas principales."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "title": "La discusión más antigua",
+      "text": "Protege e5 con el caballo y las Blancas tienen una jugada esperando. {{Bb5}} ignora por completo el peón de e5 y va a por la pieza que lo defiende: quita el defensor y el peón queda suelto.\n\nLas Negras empujan al alfil con {{a6}}, el alfil retrocede por la diagonal con {{Ba4}}, sigue apuntando al mismo caballo y sigue sin costar nada. Esa es la Apertura Española, la Ruy López, con cuatro siglos a cuestas y todavía la apertura más discutida que existe."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Tres formas de rehusar",
+      "text": "La mayoría de las respuestas fuertes al peón de rey nunca tocan e5. Cada una rehúsa en una moneda distinta.\n\n- **La Siciliana** deja e4 en paz y lucha por d4 con un peón en c5, quedándose con la columna c semiabierta cuando los peones se cambian ahí.\n- **La Caro-Kann** y **la Francesa** gastan primero una jugada tranquila en c6 o e6, para que el avance a d5 llegue con apoyo: la Francesa encierra su alfil de casillas blancas detrás del muro, la Caro-Kann lo deja fuera.\n- **La Defensa Alekhine** saca un caballo a f6 y reta a los peones blancos a perseguirlo."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "title": "Un rechazo en marcha",
+      "text": "Las Negras gastaron la primera jugada en un peón a c6, y las Blancas tomaron todo lo que se ofrecía: dos peones uno junto al otro en d4 y e4, el centro más amplio que las Blancas consiguen gratis.\n\nAmplio no es seguro. Un gran centro de peones hay que combatirlo mientras siga siendo solo peones: déjalo en paz y las piezas blancas salen detrás de él y todo el muro avanza.\n\nLa primera jugada no fue modestia. Fue un peón colocado para respaldar un golpe que todavía no ha llegado.\n\n> Una primera jugada tranquila es una segunda jugada ruidosa esperando su turno."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "prompt": "Enfréntate al centro de dos peones de las Blancas con el peón que tu primera jugada tranquila estaba destinada a sostener.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "La primera jugada fue un peón con una sola tarea. Pregúntate qué casilla cubre, y fíjate en que nadie la ha ocupado todavía."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-10",
+  "fen": "rnb2b1r/ppk2ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+  "solution": [
+    "Bd8#"
+  ],
+  "rating": 865,
+  "title": "Detrás del rey",
+  "setup": "El rey negro ha huido a c7, donde su propio caballo y su alfil tapan b8 y c8.",
+  "hint": "Tu torre ya cierra la columna d, así que busca el jaque que le quita la última casilla de la diagonal.",
+  "explanation": "## La idea\n\nLa torre de d1 cubre d6 y d7, y el caballo y el alfil negros tapan b8 y c8, lo que deja b6. {{Bd8#}} da jaque desde el otro extremo de la diagonal y cubre b6 de paso. La casilla de mate puede estar detrás del rey, no delante."
+}

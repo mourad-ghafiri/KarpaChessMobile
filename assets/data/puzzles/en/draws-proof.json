@@ -1,0 +1,11 @@
+{
+  "id": "draws-proof",
+  "fen": "k3r3/8/8/8/8/p7/P1q5/K5Q1 w - - 0 1",
+  "solution": [
+    "Qa7+"
+  ],
+  "title": "Half a Point From Nothing",
+  "setup": "You are a rook down, Black threatens mate on b2, and your king on a1 has no legal move. Find the half point.",
+  "hint": "Count your legal moves if the queen were off the board.",
+  "explanation": "## The Idea\n\nYour king on a1 cannot move: Black's queen covers b1 and b2, and your pawn on a2 is blocked. Your queen is the only piece with moves left.\n\n{{Qa7+}} hands it over with check. The king on a8 cannot step to b7 or b8, so it has to take. Then White has no legal move and is not in check: stalemate, half a point.\n\nThe winning side watches for this. The losing side goes looking for it."
+}

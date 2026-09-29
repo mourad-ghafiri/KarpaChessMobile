@@ -1,0 +1,14 @@
+{
+  "id": "deflection-11",
+  "fen": "4kb1r/pp1n1ppp/8/7q/5Q1B/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1470,
+  "title": "The Blocker Must Take",
+  "setup": "The knight on d7 is the only thing standing between your rook and d8.",
+  "hint": "The knight will not leave that square by choice. What can you place where it is obliged to capture?",
+  "explanation": "## The Idea\n\n{{Qb8+}} leaves Black one legal move: {{Nxb8}}. The blocker has been dragged off d7, and {{Rd8#}} mates down the road it was standing in. A piece that shuts a file is only a wall until a check calls it away."
+}

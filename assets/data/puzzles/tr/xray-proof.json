@@ -1,0 +1,13 @@
+{
+  "id": "xray-proof",
+  "fen": "6k1/pq3pp1/1p5p/4b3/4r3/5N1Q/PPP2PPP/4RK2 w - - 0 1",
+  "solution": [
+    "Nxe5",
+    "Rxe5",
+    "Rxe5"
+  ],
+  "title": "Kalenin İçinden Korunuyor",
+  "setup": "e5'teki filin tek koruyucusu var, önündeki kale; ve o kale sizin kendi kalenizin dikeyinde duruyor.",
+  "hint": "Bir kareyi koruyanları, siyahın kalesi e4'ten ayrılmadan önce değil, ayrıldıktan sonra sayın.",
+  "explanation": "## Fikir\n\n{{Nxe5}} atınızı e4'teki kalenin alabileceği yere koyar ve bütün mesele budur. e1'deki kaleniz e5'i siyahın kalesinin içinden korur: o taş aldığı anda arkasındaki dikeyi açar ve kaleniz onu geri alır. Yani siyah aslında hiç geri alamaz. Siyahın elindeki en iyisi e1'de kaleleri değişip bir taş geride kalmaktır."
+}

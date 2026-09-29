@@ -1,0 +1,56 @@
+{
+  "id": "sacrifice-on-f7",
+  "title": "Il Sacrificio in f7",
+  "summary": "Un difensore, ed è il re",
+  "proof": "f7-sacrifice-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Tutti i Pedoni Tranne Due",
+      "text": "Ogni pedone davanti a un re ha un pezzo dietro, tranne due. f7 e f2 sono difese dal solo re, e restano così finché quel re non arrocca o finché non si trascina lì un pezzo ad aiutare.\n\nIl Nero non ha fatto né l'una né l'altra cosa. La torre in h8 non ha mai mosso, e nemmeno l'alfiere in f8, e la donna in d8 è occupata a tenere il cavallo in d5.\n\nQuindi a un pezzo che atterra in f7 non si può rispondere con una ripresa economica. Non è rimasto niente di economico con cui rispondere. Deve farlo il re di persona."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Valutato per Quello che Compra",
+      "text": "Un pezzo per un pedone è un cambio perdente sulla carta. Qui non è affatto un cambio, perché il Nero non ha modo di dire di no.\n\nContate le case che un cavallo raggiunge da f7. Due di esse sono d8 e h8, dove siedono la donna e la torre, quindi rifiutare costa più che accettare.\n\nE accettare trascina il re in f7 davanti a un esercito che non si è ancora mosso. Il vostro alfiere in c4 si appoggia già sul cavallo in d5, e quel cavallo è l'unica cosa che tiene chiusa la diagonale."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "prompt": "Cedete un pezzo per prendere l'unico pedone che il re nero difende, e tirate quel re allo scoperto.",
+      "targetSan": [
+        "Nxf7"
+      ],
+      "hint": "Un solo vostro pezzo riesce ad arrivare a f7 — l'altra strada è bloccata in d5."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/ppp2kpp/2n5/3np3/2B5/8/PPPP1PPP/RNBQK2R w KQ - 0 7",
+      "title": "Adesso il Problema È il Re",
+      "text": "Il re è fuori in f7 alla settima mossa, e la prima cosa che fa è mettersi in mezzo. Il vostro alfiere in c4 guarda attraverso il cavallo di d5 fino a quel re, quindi il cavallo è inchiodato e non può proprio muovere.\n\n{{Qf3+}} porta un secondo attaccante su d5 con scacco. Il re nero ha cinque case, e {{Ke6}} è quella che difende il cavallo inchiodato — un re che sale per tenere insieme un pezzo. Poi {{Nc3}}: tre attaccanti, due difensori, e uno dei difensori è il re stesso."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "Esca, e Prendetela Lo Stesso",
+      "text": "Scacchiera diversa, e qui f7 viene offerta. L'alfiere nero in c5 è stato appena piantato di fronte a f2, la casa che dalla vostra parte ha la stessa solitaria guardia.\n\nQuasi nessun sacrificio in f7 dà matto a qualcuno, e nemmeno questo lo farà. Quello che un pezzo compra qui è più piccolo e permanente. Il re nero non può prendere in f7 finché il cavallo di g5 la copre, e quindi si sposta in e7 o f8 e rinuncia all'arrocco per il resto della partita — parcheggiato davanti alla propria torre in h8, con l'alfiere in c8 murato dietro."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "Due Modi di Entrare",
+      "text": "Due dei vostri pezzi arrivano a f7, e comprano cose diverse.\n\n{{Nxf7}} inforchetta la donna e la torre, che è la mossa che la posizione precedente vi ha insegnato a volere. Ed è anche la mossa che l'ultima mossa del Nero ha invitato: {{Bxf2+}}, e adesso è il vostro re a essere sotto scacco, con tre mosse legali e una lotta selvaggia davanti. È giocabile, ma è la lotta che ha scelto il Nero.\n\n> Decidete che cosa state comprando prima di spendere il pezzo: un matto, oppure un re che non riesce più ad andarsene."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "prompt": "Prendete il pedone in f7 con il pezzo che il Nero non si augura, e chiudete per sempre l'arrocco del Nero.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "La presa di cavallo è quella per cui il Nero si è preparato — guardate che cosa fa l'altro attaccante mentre entra."
+    }
+  ]
+}

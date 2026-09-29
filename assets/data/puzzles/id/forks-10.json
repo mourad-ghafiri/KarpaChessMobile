@@ -1,0 +1,13 @@
+{
+  "id": "forks-10",
+  "fen": "4q3/8/8/4k3/8/8/8/R6K w - - 0 1",
+  "solution": [
+    "Re1+",
+    "Kd6",
+    "Rxe8"
+  ],
+  "title": "Tusuk Menterinya",
+  "setup": "Raja hitam di e5 dan menteri hitam di e8 berdiri di lajur yang sama, dengan raja di depan.",
+  "hint": "Masuklah ke lajur itu dengan sekak. Lalu tanyakan apa yang ada di belakang raja.",
+  "explanation": "## Ide\n\nBuah yang lebih berharga adalah yang lebih dekat. Itulah tusukan: serang buah di depan dan ambil apa yang tadi disembunyikannya.\n\n{{Re1+}} merebut lajur itu. Keenam jawabannya adalah langkah raja — tak ada yang bisa menghalangi, karena menteri harus melewati rajanya sendiri untuk mencapai e2, e3 atau e4.\n\n{{Kd6}} sama baiknya dengan yang lain, dan {{Rxe8}} mengambil menteri. Pada jepitan, buah yang berharga ada di belakang; pada tusukan, ia ada di depan, dan bergerak itu mahal harganya."
+}

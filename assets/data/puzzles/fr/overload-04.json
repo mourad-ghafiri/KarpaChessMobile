@@ -1,0 +1,14 @@
+{
+  "id": "overload-04",
+  "fen": "2r3k1/5ppp/3R4/8/3Q4/1R6/PP6/K5b1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Qxd8#"
+  ],
+  "rating": 1370,
+  "title": "La tour d'abord, la dame ensuite",
+  "setup": "Votre tour en d6 et votre dame en d4 regardent toutes deux le long de la colonne d une dernière rangée gardée seulement par la tour en c8.",
+  "hint": "L'ordre compte. Décidez quelle pièce peut se permettre d'être prise et laquelle doit conclure.",
+  "explanation": "## L'idée\n\n{{Rd8+}} est la pièce bon marché : {{Rxd8}} est forcé et la tour de c8 quitte la rangée qu'elle gardait. {{Qxd8#}} conclut. Ouvrez avec la pièce dont vous pouvez vous passer, et gardez celle qui mate."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "history-07",
+  "fen": "r4rk1/pp3ppp/5n2/8/8/3Q1R2/PP4PP/1B4K1 w - - 0 1",
+  "solution": [
+    "Rxf6",
+    "gxf6",
+    "Qxh7#"
+  ],
+  "title": "Elimina al último defensor",
+  "setup": "La dama y el alfil apuntan los dos a h7, y exactamente una pieza negra los detiene.",
+  "hint": "Pregúntate qué pasaría en h7 si desapareciera una sola pieza negra, y luego calcula cuánto vale esa pieza para las Negras.",
+  "explanation": "## La idea\n\nLa dama de d3 y el alfil de b1 apuntan a h7, y solo el caballo de f6 impide que la dama caiga ahí con mate.\n\n{{Rxf6}} entrega una torre por ese caballo. Recaptura con {{gxf6}} y sigue {{Qxh7#}}: el alfil protege a la dama, la dama cubre g7 y h8, y en f7 y f8 están el propio peón y la propia torre negros. Rehúsa, y las Blancas simplemente tienen un caballo de más.\n\nCuando una sola pieza protege la casilla de mate, ponla en la balanza contra el mate."
+}

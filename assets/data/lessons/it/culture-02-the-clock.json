@@ -1,0 +1,62 @@
+{
+  "id": "chess-clock",
+  "title": "L'Orologio",
+  "summary": "Due display, una risorsa che non si può riguadagnare",
+  "proof": "culture-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "Il Tempo È la Seconda Scacchiera",
+      "text": "Tre minuti a testa, e l'alfiere bianco in c3 sta attaccando la vostra donna in b2.\n\nUn orologio da scacchi sono due display in una cassa, e ne corre sempre e solo uno. Il vostro corre mentre la posizione è un problema vostro. Premete, e il vostro si ferma e parte quello del Bianco.\n\nQuesto trasforma ogni lungo pensiero in un acquisto. Comprate precisione con una risorsa che niente ricarica, e più la partita è breve più alto è il prezzo. Potete vincere ogni cambio sulla scacchiera e perdere lo stesso, perché la partita si gioca su due scacchiere e una delle due sta contando alla rovescia."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "Una Mano, un Pulsante",
+      "text": "Le Regole sono precise sulla mano: muovete il pezzo e premete il pulsante con la stessa. Quella sola regola chiude una famiglia di trucchi — niente palmo di riserva parcheggiato sopra l'orologio, niente pressione che arriva prima del pezzo.\n\nUna mossa è compiuta quando il pezzo viene lasciato. Il vostro turno non è compiuto finché il pulsante non è premuto, e ogni secondo in mezzo viene addebitato a voi.\n\nQuindi premere fa parte della mossa, non la segue. Il vostro display sta correndo mentre leggete questo."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "prompt": "La vostra donna è attaccata e l'orologio corre: salvatela in una mossa senza muoverla.",
+      "targetSan": [
+        "Bb4"
+      ],
+      "hint": "Qualunque cosa prenda in b2 deve prima lasciare c3 — che cosa potreste allineare attraverso quella casa perché andarsene sia illegale?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqP1PPPP/RN1QKB1R w KQkq - 2 7",
+      "title": "Un Secondo Contro Tre",
+      "text": "L'alfiere in b4 non difende niente. Rende invece illegale la presa: prendere in b2 vuol dire uscire dalla diagonale che fa da scudo al re in e1.\n\nQuella risposta vi è costata circa un secondo, e al Bianco costa di più. {{Qd2}} ricompra la diagonale standoci sopra, e dopo un lungo pensiero il Bianco ha soltanto rimesso la vostra donna sotto attacco.\n\nMosse economiche per voi, care per il vostro avversario. È questo il tasso di cambio che l'orologio paga."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Riavere il Tempo",
+      "text": "Due modi in cui un orologio restituisce tempo, e si comportano in modo del tutto diverso.\n\nL'**incremento** aggiunge una quantità fissa ogni volta che premete, e quello che non spendete si accumula. Una partita `3+2` è tre minuti più due secondi a mossa, quindi un giocatore rapido può finire con più tempo di quando ha cominciato.\n\nIl **ritardo** invece aspetta. Ogni mossa riceve una pausa fissa prima che il tempo principale cominci a scendere, e tutta la pausa che lasciate inutilizzata semplicemente svanisce.\n\n> L'incremento paga i veloci. Il ritardo protegge solo i lenti."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Classico, Rapid, Blitz",
+      "text": "La FIDE ordina le partite in base a un numero solo: il tempo base più sessanta volte l'incremento, che è più o meno quello che una partita di sessanta mosse vi consegnerebbe.\n\nDieci minuti o meno è blitz. Più di quello e sotto un'ora è rapid. Da sessanta minuti in su è classico, dove una partita può durare sei ore e una sola mossa può mangiarsene quaranta minuti.\n\nBullet — un minuto o due per tutta la partita — è una parola nata in rete. Non compare da nessuna parte nelle Regole, il che non ha mai impedito a nessuno di giocarlo."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Quando Cade la Bandierina",
+      "text": "Quattro secondi rimasti. L'espressione viene dalla meccanica: un orologio meccanico portava una piccola bandierina di metallo che la lancetta dei minuti sollevava e lasciava cadere, e ancora oggi si dice che il tempo finisce quando cade la bandierina.\n\nPerdete la corsa e perdete la partita, con un'eccezione. Se chi ha ancora tempo non potesse dare matto con quello che gli resta — un re nudo, poniamo — il risultato è patta.\n\nA questa velocità l'occhio afferra {{Qxa1}} e la mano prudente cambia con {{Qxc3}}. Non è la mossa né l'una né l'altra."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "prompt": "Con due secondi sul display, lasciate stare la torre e il cambio di donne, e prendete il pezzo che ha attaccato la vostra donna.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "Se il Bianco riprende con la donna, la vostra donna ha uno scacco sulla prima traversa a cui niente di bianco può rispondere."
+    }
+  ]
+}

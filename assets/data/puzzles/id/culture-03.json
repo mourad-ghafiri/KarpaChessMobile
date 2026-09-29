@@ -1,0 +1,11 @@
+{
+  "id": "culture-03",
+  "fen": "r3k2r/ppp2ppp/3b4/3p4/4n3/1P2Pn1K/PBPPQ1P1/RN3R2 b kq - 1 13",
+  "solution": [
+    "Neg5+"
+  ],
+  "title": "Kuda yang Mana?",
+  "setup": "Raja putih telah diseret ke h3, dan kedua kuda Anda bisa melompat ke g5 dengan sekak. Hanya satu yang menang.",
+  "hint": "Raja punya tepat satu tempat persembunyian. Kedua lompatan kuda tampak sama, dan hanya satu yang tetap menguasai tempat itu.",
+  "explanation": "## Ide\n\nKuda di f3 menguasai h4, satu-satunya petak tempat raja putih bisa lari, jadi kuda yang lain yang pergi.\n\n{{Neg5+}} hanya menyisakan satu balasan bagi raja, {{Kg4}}, dan {{h5+}} terus menggiringnya ke arah buah-buah Anda sampai ia dimat beberapa langkah kemudian. Kirim kuda yang salah, {{Nfg5+}}, dan raja lolos ke {{Kh4}}.\n\nKetika dua buah yang sama bisa mencapai satu petak, formulir notasi menyebut lajur asal buah itu. Di sini huruf itulah yang memisahkan mat paksa dari posisi yang sekadar bagus."
+}

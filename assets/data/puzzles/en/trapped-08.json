@@ -1,0 +1,12 @@
+{
+  "id": "trapped-08",
+  "fen": "3r2k1/ppp2p2/3p1n2/6pp/8/2N4B/PP3PP1/5RK1 b - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1270,
+  "title": "Fill the Last Square",
+  "setup": "White's bishop on h3 has its own pawn on g2 behind it and its own rook on f1 beyond that.",
+  "hint": "White's own pieces block one diagonal completely. The other one starts on a square your h-pawn already guards.",
+  "explanation": "## The Idea\n\n{{g4}} leaves the bishop with nothing: g2 is White's pawn, f1 its rook, and the pawn now on g4 is guarded by h5. White can only shed a piece, and ...gxh3 collects it next move. You trap a bishop by filling squares, not by chasing it."
+}

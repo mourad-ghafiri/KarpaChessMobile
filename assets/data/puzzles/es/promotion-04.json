@@ -1,0 +1,14 @@
+{
+  "id": "promotion-04",
+  "fen": "1r4k1/6pp/1PP5/8/8/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "c7",
+    "Rc8",
+    "b7"
+  ],
+  "rating": 1120,
+  "title": "Dos peones, una torre",
+  "setup": "Dos peones unidos en b6 y c6 contra una sola torre en b8, y la torre solo puede vigilar a uno.",
+  "hint": "Una torre no puede frenar a dos peones unidos. Avanza el que arrastra a la torre a una casilla que puedas atacar.",
+  "explanation": "## La idea\n\n{{c7}} ataca la torre y amenaza coronar, y {{Rc8}} es la única casilla que detiene al peón de c. Ahora {{b7}} ataca la torre y amenaza también b8=Q, así que, jueguen lo que jueguen las Negras, uno de los peones corona. Dos peones unidos en sexta le ganan a una torre."
+}

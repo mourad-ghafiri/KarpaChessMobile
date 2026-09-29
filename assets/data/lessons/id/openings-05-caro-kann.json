@@ -1,0 +1,62 @@
+{
+  "id": "caro-kann",
+  "title": "Pertahanan Caro-Kann",
+  "summary": "Selesaikan masalah gajah buruk sebelum Anda membangun tembok",
+  "proof": "openings-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Pion, Bukan Buah",
+      "text": "Hitam menjawab 1.e4 dengan pion c: langkah yang tak menyerang apa pun, tak mengembangkan apa pun, dan tampak seperti langkah yang dibuang. Satu langkah kemudian langkah itu membayar. ...d5 milik Hitam tiba ditopang pion, bukan buah, dan tengah papan pun ditukar.\n\nBegitulah posisi ini terjadi. Hitam punya satu pion di c6 dan pasukan yang masih di rumah. Putih punya pion di d4 dan buah pertamanya sudah keluar, kuda di e4.\n\nPertahanan Caro-Kann adalah klaim bahwa ini kesepakatan yang baik bagi Hitam."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Gajah di Balik Tembok",
+      "text": "Sebagian besar jawaban terhadap 1.e4 bertumpu pada ...e6, dan pion itu melakukan dua hal sekaligus. Ia menguasai pusat, dan ia menghalangi jalan gajah di c8.\n\n{{e6}}. Gajah itu hanya punya satu diagonal terbuka, dari c8 sampai h3, dan pionnya sendiri baru saja parkir di sana. Yang tersisa adalah d7, tempat gajah menghalangi menteri dan tak memandang apa pun.\n\nPion c Hitam sudah mengerjakan tugas yang di tempat lain dikerjakan pion e. Jadi gajah ini tak punya alasan untuk duduk menunggu temboknya berdiri."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Keluarkan gajah itu dari balik pion-pion sekarang, ke petak tempat ia juga menatap kuda Putih.",
+      "targetSan": [
+        "Bf5"
+      ],
+      "hint": "Tak ada apa pun di papan yang melindungi kuda itu, dan satu-satunya diagonal terbuka gajah punya tepat satu petak yang menyerangnya."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p5/5b2/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Dua Langkah untuk Gajah",
+      "text": "Putih tak akan membiarkan kudanya diambil. {{Ng3}} mendorong gajah maju, {{Bg6}} mempertahankan diagonal, dan {{h4}} mengancam mendorong lagi dan mengusir gajah dari sana untuk selamanya. {{h6}} mengosongkan h7, sehingga gajah selalu punya satu petak di belakangnya.\n\nHitung harganya. Hitam menggerakkan satu gajah dua kali. Putih menggerakkan kuda lagi dan mengirim pion benteng dua petak ke depan raja.\n\nKedua pihak memakai waktu. Hanya satu yang memakainya untuk pion, dan pion tak pernah kembali."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Membayar Nanti, Bukan Sekarang",
+      "text": "Hitam tertinggal dalam pengembangan di sini, dan Pertahanan Caro-Kann mengakuinya. Tiga dari empat langkah pertama Hitam dipakai untuk pion, jadi Putih selesai lebih dulu dan berhak memilih di mana partai diperjuangkan.\n\nYang dibeli waktu itu adalah struktur yang tak bisa digigit Putih, raja yang bisa pergi ke sayap mana pun, dan gajah di g6 yang menghirup udara bebas di luar pionnya sendiri.\n\nSementara itu pion h Putih tak akan pernah pulang. Buah-buah ditukar, serangan kehabisan tenaga, dan pion itu masih berdiri di tempat raja dulu aman."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Putih Menolak Bertukar",
+      "text": "Putih yang lain, dan baru langkah ketiga. Alih-alih bertukar di tengah, Putih yang ini mendorong pionnya melewati tengah dan mengunci pintu: pion putih di e5, pion putih di d4, dan pion Hitam di d5 tanpa tempat untuk pergi.\n\nDua pion di satu diagonal, yang belakang menopang yang depan, disebut **rantai pion**. Rantai Putih membentang dari d4 ke e5. Pion di e5 yang menimbulkan kerusakan — ia merebut f6 dari kuda Hitam — dan d4-lah yang menahannya di sana. Tak ada yang menopang d4 kecuali buah-buah.\n\nJadi rantai diserang di pangkalnya, tak pernah di kepalanya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Keluar Dulu, Tembok Kemudian",
+      "text": "Masalah Hitam adalah masalah lama. Dengan pusat terkunci, ...e6 harus dimainkan — ia menopang d5 dan membiarkan buah-buah sayap raja bernapas — dan itulah pion yang sama yang akan mengurung gajah.\n\nJadi urutannyalah yang bekerja. {{Bf5}} lebih dulu. Putih menjawab {{Nf3}}, dan baru kemudian {{e6}}: tembok dibangun di belakang gajah, bukan di depannya. {{Be2}}, dan Hitam siap.\n\n> Keluarkan buah terburuk Anda sebelum Anda membangun tembok yang akan menjebaknya."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP1BPPP/RNBQK2R b KQkq - 1 5",
+      "prompt": "Serang pion yang menopang rantai Putih, dengan satu-satunya pion Anda yang bisa mencapainya.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "Telusuri rantai Putih sampai ke pion yang tak dilindungi pion lain, lalu tanyakan pion Anda mana yang bisa menjangkaunya."
+    }
+  ]
+}

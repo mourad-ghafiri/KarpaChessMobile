@@ -1,0 +1,12 @@
+{
+  "id": "pin-01",
+  "fen": "6k1/2R5/1p2r3/2p1P3/3b4/5B2/8/5K2 w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "rating": 800,
+  "title": "Nailed to the King",
+  "setup": "Black's rook on e6 stands on the light diagonal that ends at its own king on g8.",
+  "hint": "Your bishop wants a square where the rook in front of it has nowhere left to run. Which line ends on g8?",
+  "explanation": "## The Idea\n\nThe rook on **e6** and the king on **g8** share the a2–g8 diagonal. {{Bd5}} steps onto it, and the rook is pinned: moving it would expose the king, which is illegal. Nothing defends e6 either, so the rook is simply collected next move."
+}

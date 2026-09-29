@@ -1,0 +1,14 @@
+{
+  "id": "defence-05",
+  "fen": "3Q4/bq6/5R2/8/8/7r/4K3/2k5 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kb1",
+    "Rf1#"
+  ],
+  "rating": 1610,
+  "title": "Dos jugadas, ni una más",
+  "setup": "Tu rey de e2 está encajonado por la dama, la torre y el alfil negros, y el rey negro se ha deslizado hasta c1.",
+  "hint": "No puedes defender y atacar a la vez. Calcula cuántos jaques tienes y si se te acaban.",
+  "explanation": "## La idea\n\n{{Qd2+}} obliga a {{Kb1}}, y {{Rf1#}} da mate por la primera fila. Nunca hubo una jugada defensiva que mereciera la pena: la posición la decidió qué ataque iba un tiempo más corto."
+}

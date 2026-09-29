@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-05",
+  "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/8/2Q2N2/PqP1PPPP/RN2KB1R b KQk - 0 8",
+  "solution": [
+    "Qc1#"
+  ],
+  "rating": 720,
+  "title": "Una Traversa Senza Spazio",
+  "setup": "La vostra donna si è già infilata in b2, e la traversa di fondo del Bianco è intasata dai suoi stessi pezzi.",
+  "hint": "Il re bianco ha due buchi accanto e nessun terzo, quindi cercate uno scacco a cui la sua prima traversa affollata non possa rispondere.",
+  "explanation": "## L'idea\n\nOgni casa attorno a e1 è o occupata dai pezzi del Bianco o spazzata dalla donna mentre atterra, quindi uno scacco sicuro sulla prima traversa chiude la partita. {{Qc1#}} non si può catturare: il cavallo in b1 chiude fuori la torre, e il pedone in c2 blocca la donna bianca."
+}

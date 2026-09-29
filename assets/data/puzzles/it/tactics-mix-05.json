@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-05",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "exd5"
+  ],
+  "title": "Vincete il Pedone Centrale",
+  "setup": "Il Nero ha appena spinto ...d5, offrendo un secondo pedone centrale al vostro pedone e. Prendete il pedone che il Nero ha appena offerto.",
+  "hint": "Quando potete prendere gratis un pedone centrale, fatelo quasi sempre.",
+  "explanation": "## L'idea\n\n{{exd5}} prende il pedone centrale offerto. La naturale {{Qxd5}} porta fuori presto la donna nera, e {{Nc3}} la colpisce immediatamente, una mossa di sviluppo gratis. Se il Nero spinge invece {{e4}}, il cavallo si sposta e voi restate comunque un pedone avanti.\n\nUn pedone centrale vale più di un pedone d'ala: quando potete prenderne uno e tenervelo, fatelo."
+}

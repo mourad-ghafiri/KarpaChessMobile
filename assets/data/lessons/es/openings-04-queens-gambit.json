@@ -1,0 +1,51 @@
+{
+  "id": "queens-gambit",
+  "title": "El Gambito de Dama",
+  "summary": "Un peón que puedes capturar, pero no conservar",
+  "proof": "openings-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "No es realmente un gambito",
+      "text": "Dos jugadas, y las Blancas ya han dejado un peón donde las Negras pueden capturarlo. Un **gambito** es un peón entregado pronto para comprar algo más rápido: tiempo, líneas abiertas, casillas. Este no entrega nada, porque las Negras no pueden quedarse con lo que capturan.\n\nLo que buscan de verdad las Blancas es d5. Cambia el peón de c4 por el peón de d negro y las Blancas se quedan como el único bando con un peón en el centro, libres para construir sobre él."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Capturar no es conservar",
+      "text": "{{dxc4}} responde mal a la pregunta de las Blancas. El peón negro ha dejado el centro, {{e4}} llega enseguida, y dos peones blancos quedan uno junto al otro en el centro sin nada que los hostigue.\n\nIntentar conservar el peón cuesta todavía más. {{b5}} lo sostiene, {{a4}} lo desencaja, y las Blancas lo recuperan con el flanco de dama hecho pedazos.\n\nAsí que el peón nunca fue la oferta. La oferta es un cambio, y el precio de rechazarlo es una segunda jugada de peón."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "prompt": "Sostén d5 con un segundo peón para que el centro aguante, y acepta que eso le cierra la puerta a una de tus piezas.",
+      "targetSan": [
+        "e6",
+        "c6"
+      ],
+      "hint": "Dos de tus peones pueden avanzar a una casilla que protege d5 en diagonal, y cada uno quita el mejor camino a una pieza distinta."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "Dos contra tres",
+      "text": "Nueve jugadas después, salidas de esa misma discusión: las Blancas cambiaron en d5, las Negras recapturaron con el peón de e, y el centro se calmó. Esta estructura tiene nombre, Carlsbad, y su lógica es aritmética.\n\nCuenta el flanco de dama. Las Blancas tienen dos peones, las Negras tres. Lanzar el grupo pequeño contra el grande es un **ataque de minorías**, y no se juega para ganar nada. Avanza lo suficiente, los peones se cambian solos, y a las Negras les queda un peón en c6 que ningún peón negro podrá defender nunca, en una columna semiabierta."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "La carrera que nunca se cruza",
+      "text": "Las Negras no defienden. Esos tres peones del flanco de dama son lo que vienen a buscar las Blancas, así que las Negras los dejan donde están y juegan contra el rey blanco: el caballo de f8 sale a g6, el resto de las piezas lo siguen y el peón de f va con ellas.\n\nDos planes en flancos opuestos que nunca se tocan. Ninguno se puede cancelar una vez empezado, así que la partida depende de cuál llega primero.\n\n> Cambiar peones no siempre simplifica. A veces es así como se construye una debilidad."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "prompt": "Lanza tu grupo pequeño del flanco de dama contra el grupo mayor de las Negras y empieza a fabricar un objetivo que ningún peón negro defenderá jamás.",
+      "targetSan": [
+        "b4"
+      ],
+      "hint": "Tus dos peones del flanco de dama tienen que avanzar; el que puede entrar en contacto con el grupo negro va delante, y el otro lo sigue."
+    }
+  ]
+}

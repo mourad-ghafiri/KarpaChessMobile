@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-23",
+  "fen": "7k/1n4p1/8/8/8/5n2/B4P1P/7K w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "title": "Dois Alvos, Uma Diagonal",
+  "setup": "Dois cavalos pretos foram parar a casas claras, e o teu bispo em a2 vê um cruzamento que ambos partilham.",
+  "hint": "Um bispo ataca por quatro raios ao mesmo tempo. Encontra a casa onde dois deles acabam num cavalo.",
+  "explanation": "## A Ideia\n\nUm bispo dispara por quatro raios a partir de onde estiver, portanto procura a casa onde dois deles encontram um alvo.\n\nDe {{Bd5}}, um raio passa por c6 até ao cavalo de b7 e outro passa por e4 até ao cavalo de f3. Nenhum cavalo chega a d5, e nenhum guarda o outro, portanto um deles cai na jogada seguinte.\n\nPensa no bispo como um X, não como uma linha."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "history-01",
+  "fen": "3r3k/pp4pp/8/2n1N3/8/8/PP4PP/R5K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "Lompatan Pasukan Berkuda",
+  "setup": "Kereta perang dan pasukan berkuda, masih bergerak seperti lima belas abad yang lalu.",
+  "hint": "Raja hitam hanya punya satu petak untuk melarikan diri. Lompatan mana yang memberi sekak kepadanya sekaligus menyerang benteng?",
+  "explanation": "## Ide\n\nSekak dari kuda tak bisa dihalangi: kuda tak pernah melintasi petak-petak di antaranya, jadi tak ada yang bisa ditempatkan di tengah jalan.\n\n{{Nf7+}} menyentuh h8 dan d8 dalam satu langkah. Satu-satunya balasan sah Hitam adalah {{Kg8}}, dan {{Nxd8}} mengambil benteng, yang tak pernah melihat sekak itu datang: f7 tidak berada di baris maupun lajurnya.\n\nKetika raja lawan kekurangan petak, carilah petak kuda yang menyentuh raja dan sesuatu yang berharga sekaligus."
+}

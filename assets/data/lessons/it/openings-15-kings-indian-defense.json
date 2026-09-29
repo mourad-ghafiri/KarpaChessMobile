@@ -1,0 +1,56 @@
+{
+  "id": "kings-indian-advanced",
+  "title": "La Difesa Est-Indiana",
+  "summary": "Invitateli al centro, e poi buttatelo giù",
+  "proof": "openings-15.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Lasciateglielo Prendere",
+      "text": "Il Bianco tiene c4, d4 e e4. Nessun'altra apertura lo consegna così in silenzio, e il Nero ha speso cinque mosse a rifiutare la discussione: cavallo in f6, pedone in g6, alfiere in g7, pedone in d6, re al riparo in g8.\n\nÈ questo il patto dell'Est-Indiana. Il Bianco si prende il centro. Il Nero si prende un'ala di re finita, un alfiere in g7 puntato lungo la grande diagonale, e un piano che non cambierà per le prossime venti mosse."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Niente Sta Toccando d4",
+      "text": "Contate che cosa attacca il centro del Bianco. Niente. L'alfiere in g7 punta lungo la grande diagonale su d4, ma il cavallo in f6 gli sta sulla strada, e un alfiere non può comunque fare una mossa di pedone.\n\nSolo un pedone chiede a un pedone di muoversi. Due pedoni neri possono colpire d4 in una spinta, e i due si appoggiano su ali opposte: uno verso l'ala di donna, dove i pedoni bianchi sono già fitti, e uno verso l'ala di re, dove il vostro re sta già e dove il loro è diretto."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "prompt": "Sfidate il pedone d del Bianco con un vostro pedone, scegliendo quello la cui catena si appoggerà poi verso l'ala di re del Bianco.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "Due spinte di pedone toccano d4. Una punta verso l'ala dove il Bianco è già fitto; l'altra verso l'ala dove volete attaccare."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQ - 0 7",
+      "title": "Tocca al Bianco Scegliere",
+      "text": "Adesso il pedone in d4 ha un pedone in faccia, e il Bianco deve dire che cosa sarà il centro.\n\n{{d5}} spinge oltre e chiude la posizione — che è proprio quello per cui il Nero gioca, perché un centro chiuso dice a tutti e due da che parte correre. {{dxe5}} cambia invece: la colonna d si apre, con essa di solito escono le donne, e tutto lo schema d'attacco del Nero se ne va insieme.\n\nLa terza scelta è arroccare e lasciare in piedi la tensione. È la più tagliente delle tre, e quella che chiede a tutti e due di sapere di più."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Due Catene, Due Direzioni",
+      "text": "Il Bianco ha spinto oltre, e tutti e due hanno usato le mosse successive per riorganizzarsi. I cavalli neri adesso stanno in d7 e e7, dietro i propri pedoni, in attesa che si apra una linea.\n\nIn mezzo non si può prendere niente. La catena di pedoni del Bianco va da c4 a d5 e si appoggia verso l'ala di donna; quella del Nero va da d6 a e5 e si appoggia verso l'ala di re. Ciascuno attacca nella direzione in cui puntano i propri pedoni, perché è l'unica direzione in cui quei pedoni possono avanzare e aprire qualcosa."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Chi Ci Arriva Prima",
+      "text": "Una corsa, dunque, e nessuno dei due corridori può girarsi. I pedoni che sono avanzati non tornano indietro, quindi l'aiuto mandato all'altro capo arriva tardi o non arriva.\n\nIl Bianco spinge il pedone c in c5, colpisce d6 e apre la colonna c sull'ala di donna del Nero. Il Nero fa rotolare i pedoni dell'ala di re contro il re bianco, e ogni pedone cambiato lì strappa un altro strato al suo riparo. Qui contate le mosse invece del materiale: una torre può essere un prezzo giusto per arrivare un turno prima.\n\n> Un centro bloccato non è una partita tranquilla. Sono due attacchi con un muro in mezzo."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "prompt": "Attaccate il pedone in e4 con un vostro pedone e aprite la strada verso il re bianco.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "Il vostro pedone in g6 difende già due case, e una di esse fissa dritto e4."
+    }
+  ]
+}

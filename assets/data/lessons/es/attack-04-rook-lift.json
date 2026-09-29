@@ -1,0 +1,44 @@
+{
+  "id": "rook-lift",
+  "title": "La elevación de torre",
+  "summary": "Cuando ninguna columna llega al rey, pasa por encima",
+  "proof": "rook-lift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Dos torres en casa",
+      "text": "El rey negro de g8 ha perdido su peón de g y su peón de h, y tu dama de h5 ya está cerca. La dama negra de g7 está delante del rey, los dos alineados en la columna g.\n\nTus dos torres siguen en la primera fila. Las columnas c y e están abiertas, y ninguna va cerca de g8. La columna g sí, y tu propio peón de g2 la cierra.\n\nUna torre que no encuentra columna son cinco puntos de mobiliario."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Por encima",
+      "text": "Una torre no tiene por qué llegar a la lucha subiendo por una columna. Puede subir a la tercera fila y desplazarse de lado por ella, por encima de sus propios peones en vez de a través de ellos. Eso es una **elevación de torre**: primero subir, después cruzar.\n\nTu tercera fila está vacía de a3 a g3, y g3 es la casilla que importa. Una torre ahí queda delante de tu peón de g, en la columna donde esperan en fila la dama y el rey negros.\n\n> Cuando ninguna columna se va a abrir, pasa la torre por encima de los peones en lugar de esperar detrás de ellos."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "prompt": "Pon una torre en camino hacia la columna g, donde la dama negra está delante de su rey.",
+      "targetSan": [
+        "Rc3"
+      ],
+      "hint": "Las dos torres pueden subir, pero solo una tiene una tarea donde está. Mira las casillas que puede alcanzar el alfil negro."
+    },
+    {
+      "type": "teach",
+      "fen": "r3brk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/4R1K1 w - - 2 26",
+      "title": "La torre que se quedó en casa",
+      "text": "Las Negras ven la amenaza y responden con una propia: el alfil de e8 ataca a tu dama.\n\nPero e8 está en la columna e abierta, y tu otra torre nunca la abandonó. {{Rxe8}} captura el alfil, {{Raxe8}} recaptura, y nada ha tocado la torre de c3 ni las casillas vacías que tiene delante.\n\nPor eso la elevación empezó desde c1. La torre que sube tiene que ser la que no tiene nada que hacer donde está."
+    },
+    {
+      "type": "play",
+      "fen": "4rrk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/6K1 w - - 0 27",
+      "prompt": "Termina la elevación y lleva la torre a la columna donde la dama negra está delante de su rey.",
+      "targetSan": [
+        "Rg3"
+      ],
+      "hint": "En cuanto una torre esté en esa columna, la dama no podrá salirse de ella sin dejar a su rey en jaque."
+    }
+  ]
+}

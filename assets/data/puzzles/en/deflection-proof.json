@@ -1,0 +1,13 @@
+{
+  "id": "deflection-proof",
+  "fen": "1r4k1/5ppp/8/8/2Q5/8/5PPP/2R3K1 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Rxc8",
+    "Rxc8#"
+  ],
+  "title": "An Offer With One Answer",
+  "setup": "Black's king has no air, and the rook on b8 is the only piece covering the eighth rank.",
+  "hint": "Nothing of yours can attack the rook on b8. Offer it something it has to take, on the square your own rook needs.",
+  "explanation": "## The Idea\n\nThe rook on b8 cannot be attacked, so it has to be sent away. {{Qc8+}} offers the queen on the one square the rook watches, and {{Rxc8}} is Black's only legal move: the pawns box the king in, and nothing can block. Now the rook stands on c8, in front of yours, and {{Rxc8#}} ends it. The queen had to go first, because it was the piece blocking your rook's file."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "ratings",
+  "title": "Puan Ne Anlama Gelir",
+  "summary": "Sonuçlara dair bir tahmin, hakkınızda bir hüküm değil",
+  "proof": "culture-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "Dört Yüz Puan Önde",
+      "text": "Beyazın puanı sizinkinden dört yüz fazla ve az önce filinize bir piyon dürttü; kendisine bir şeyler ikram edilmesini bekleyenlerin o sakin tavrıyla.\n\nPuan, bir skor tahminidir. İki sayı arasındaki farkı tek bir formüle verin, beklenen sonuç çıksın: eşit puanlar yarımşar puan öngörür, iki yüz puanlık fark yüksek olan için yaklaşık %76, dört yüz puanlık fark yaklaşık %91 öngörür.\n\nHiçbir fark seviyesinde kimsenin her partiyi kazanması öngörülmez. O bile."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "Farkın Fısıldadığı",
+      "text": "Dört yüz puan bir duvar değildir. Bir yüzdedir ve yüzdeler, tersine giden partilerden yapılır.\n\nFark, hasarını partiden önce verir. Size her şeyi tutmanızı, hiç risk almamanızı ve güçlü oyuncunun bunu kanıtlamasını beklemenizi söyler — ki bu tam da güçlü bir oyuncunun istediği partidir.\n\nBöylece fil kurtarılması gerekiyormuş gibi görünmeye başlar. {{Ba5}}, {{Bc5}}: iki sakin kare ve ikisi de büyük sayının sahibine bir şeyler borçlu olunduğunda hemfikir."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "prompt": "Fili olduğu yerde bırakın ve gambit piyonunu bir atla geri alın.",
+      "targetSan": [
+        "Ngxe5",
+        "Ncxe5"
+      ],
+      "hint": "Piyonu iki at da alabilir. Fil durduğu yerde göründüğünden daha güvende, o yüzden hamleyi ona harcamayın."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Puanlar Nereden Gelir",
+      "text": "Atlar e5'te kalktı, sonra beyaz fili aldı. Şimdi bir puanın gerçekte neyin parasını ödediğini sayın.\n\nTahminin üstünde skor yaptığınızda kazanırsınız, altında kaldığınızda kaybedersiniz. Aritmetiğin tamamı bu. Sizden çok yukarıdaki birini yenmek sayınızı çok oynatır, tam da tahmin yenemeyeceğinizi söylediği için — sistem sürprizin parasını öder ve ne kadar şaşırdıysa o oranda öder.\n\nBu yüzden bir şeyleri geri kapmak konunun dışındadır. {{Qxb4}} bir piyon toplar ve beyazın partiden sağ çıkmasına izin verir."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "K Denen Kadran",
+      "text": "Tek bir sonucun sayınızı ne kadar oynattığı, FIDE'nin K dediği bir çarpana bağlıdır. Yeni ve genç oyuncular için yüksek tutulur ki puanları doğru seviyeyi çabuk bulsun; oturmuş oyuncular için düşük tutulur ki kötü bir hafta sonu yılların emeğini silmesin. Bir yumuşatma kadranı, fazlası değil.\n\nPuanlar yükseldiği gibi düşer de ve düşüş, kötüleştiğinizin kanıtı değildir. Tahminin altında skor yaptığınız anlamına gelir; bu da oynamayı sürdüren herkesin başına gelir. Sayısı hiç düşmeyen tek oyuncular, oynamayı bırakmış olanlardır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Üç Ayrı Para Birimi",
+      "text": "Fizikçi ve güçlü bir amatör olan Arpad Elo, ölçeği Amerikan federasyonu için kurdu; federasyon onu 1960'ta benimsedi. FIDE 1970'te izledi ve ilk resmî listesini 1 Temmuz 1971'de yayımladı.\n\nO günden beri her site bu şekli kopyaladı, sayıları değil. Çevrimiçi bir yıldırım puanı, başka bir sitenin puanı ve bir FIDE puanı üç ayrı para birimidir ve hiçbiri diğerine çevrilmez. Unvanlar yalnızca FIDE ölçeğinden biçilir: FIDE ustası, uluslararası usta ve büyükusta için 2300, 2400 ve 2500.\n\n> Puan partiyi tahmin eder. Onu asla oynamaz."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "prompt": "Beyaz, tahminin bedava dediği taşı aldı; beyazın kendi taşlarının kendi şahının çevresine kurduğu matı bulun.",
+      "targetSan": [
+        "Nd3#"
+      ],
+      "hint": "e7'deki vezirinizden e dikeyine bakın ve şahın önündeki hangi beyaz piyonun oynamasına izin olmadığını sorun."
+    }
+  ]
+}

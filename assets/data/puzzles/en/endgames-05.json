@@ -1,0 +1,11 @@
+{
+  "id": "endgames-05",
+  "fen": "8/8/8/8/B6k/p7/7p/2K5 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "Across the Board in One",
+  "setup": "Black's h-pawn queens next move and the a-pawn needs two more. Your bishop on a4 is the only piece that can reach the far wing in time.",
+  "hint": "The h-pawn promotes on a light square. Find the light diagonal through h1, then the one square of it your bishop can reach.",
+  "explanation": "## The Idea\n\nh1 is a light square, and the only light diagonal through it runs from a8 to h1. From a4 your bishop joins it in one move, {{Bc6}}, and from there it watches the queening square for good.\n\nYour king on c1 handles the other runner: it is one step from b2, where it covers a2 and a1. A knight in the bishop's place could not have reached a square covering h1 in time, and every other move lets the h-pawn queen."
+}

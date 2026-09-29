@@ -1,0 +1,14 @@
+{
+  "id": "decoy-10",
+  "fen": "r2q1r1k/pp2N1pp/8/7Q/8/3R4/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh3#"
+  ],
+  "rating": 1490,
+  "title": "Il Matto di Anastasia",
+  "setup": "Il vostro cavallo in e7 copre g6 e g8, e fra il re e la vostra donna c'è solo il pedone di h7.",
+  "hint": "Il cavallo possiede già tutte e due le case g. Quello che manca è il re in h7 — come insistete?",
+  "explanation": "## L'idea\n\nQuesto è il **matto di Anastasia**. {{Qxh7+}} forza {{Kxh7}}, e il cavallo in e7 toglie g6 e g8. {{Rh3#}} completa la rete: il re sta su una colonna aperta senza nessun posto dove andare. Imparate l'immagine: cavallo in e7, re trascinato in h7, torre sulla colonna h."
+}

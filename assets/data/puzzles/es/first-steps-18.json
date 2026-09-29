@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-18",
+  "fen": "8/4P3/5k2/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "e8=Q"
+  ],
+  "title": "Coronación",
+  "setup": "Tu peón ha marchado hasta **e7**, y el rey negro está justo a su lado.",
+  "hint": "El rey negro ataca a tu peón, y tu propio rey está lejos. Aprovecha esta jugada antes de que las Negras aprovechen la siguiente.",
+  "explanation": "## La idea\n\nUn peón que llega a la última fila corona: se convierte, en esa misma jugada, en la pieza que elijas.\n\n{{e8=Q}} convierte un peón de un punto en una dama de nueve, y el rey de f6 no llega a e8 para capturarla. Cualquier otra jugada deja que {{Kxe7}} elimine el peón, y la victoria se esfuma. Con dama contra rey solo, sigue el mate.\n\nUn peón a un paso del final merece coronarse ya."
+}

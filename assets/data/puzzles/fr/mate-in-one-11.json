@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-11",
+  "fen": "1r3kr1/pbpBnp1p/1b3P2/8/8/B1P2q2/P4PPP/3R2K1 w - - 4 24",
+  "solution": [
+    "Bxe7#"
+  ],
+  "rating": 885,
+  "title": "Le pion fait le travail",
+  "setup": "Votre fou en a3 vise le cavalier en e7, et votre pion en f6 couvre les cases à côté du roi.",
+  "hint": "Le roi noir ne peut pas faire un pas, alors trouvez l'échec qui arrive sur une case que votre pion défend.",
+  "explanation": "## L'idée\n\nLe roi en f8 est emmuré par sa propre tour en g8 et son propre pion en f7, le pion en f6 lui retire g7 et e7, et le fou en d7 couvre e8. {{Bxe7#}} élimine le dernier défenseur et donne échec depuis une case que ce même pion protège, donc le roi ne peut pas prendre."
+}

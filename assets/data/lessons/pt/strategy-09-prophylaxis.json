@@ -1,0 +1,65 @@
+{
+  "id": "prophylaxis",
+  "title": "A Profilaxia",
+  "summary": "Mata o plano antes de ele ser jogado",
+  "proof": "strategy-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "A Estrada Até g1",
+      "text": "O rei branco em g1 está ao fundo de uma estrada em que ainda ninguém está.\n\nSegue-a: a7, b6, c5, d4, e3, f2, g1. O peão f foi para f4, portanto f2 está vazia e e3 com ela. A única peça em toda essa diagonal é o teu próprio cavalo de d4.\n\nA dama preta ainda não mexeu. Quando mexer, a casa que quer é b6."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "A Pergunta a Que Terias de Responder",
+      "text": "Melhora uma peça da maneira natural: {{Bf3}} aponta ao centro.\n\n{{Qb6}}, e o cavalo de d4 fica cravado contra o teu rei — não por alto, em absoluto. Não tem uma única jogada legal. A reparação é {{Be3}}, uma jogada inteira gasta para o cavalo poder voltar a respirar, e o bispo de c1 era quem guardava b2.\n\nA **profilaxia** é a outra maneira de gastar essa jogada: descobre a próxima boa jogada do teu adversário e apaga-a antes sequer de ela ser jogada."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "prompt": "Tira o alvo do outro extremo dessa diagonal antes de a dama preta olhar por ela.",
+      "targetSan": [
+        "Kh1"
+      ],
+      "hint": "O problema é a casa em que o teu rei está, não uma peça preta."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K b - - 2 9",
+      "title": "O Plano de Baixo",
+      "text": "b6 é agora uma casa como qualquer outra. A diagonal continua a correr, e ao fundo dela não há nada.\n\nPortanto as pretas passam ao plano de baixo: primeiro {{Qc7}}, depois o peão b para b5 e daí para b4, a enxotar o cavalo de c3, a peça que defende e4.\n\nÉ lento, e é a única coisa nesta posição que alguma vez te poderia bater. Lento é exatamente aquilo para que a profilaxia serve. Vês isso a chegar com quatro jogadas de antecedência."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K w - - 3 10",
+      "prompt": "O plano inteiro das pretas na ala da dama começa com um peão a chegar a b5: faz com que essa casa custe material.",
+      "targetSan": [
+        "a4"
+      ],
+      "hint": "Só um peão teu se pode esticar a atacar b5 antes de as pretas lá chegarem."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "Nada É Grátis",
+      "text": "O peão em a4 não foi grátis. Passou à frente de b4 de vez, e um cavalo preto que se instale ali é difícil de tirar.\n\nÉ esse o negócio que a profilaxia propõe sempre: compras o apagamento de um plano com uma pequena concessão permanente. Aceita o negócio quando o plano valer mais do que a casa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "A Última Ideia da Posição",
+      "text": "A ala da dama está fechada e a estrada até ao teu rei desapareceu. O que resta é o mais antigo recurso do lado apertado: uma troca.\n\n{{Nc6}} desenvolve e propõe uma. Responde com algo natural, como {{Be3}}, e sai {{Nxd4}}; a posição das pretas respira pela primeira vez em dez jogadas.\n\nAs pretas não estão perdidas. As pretas estão sem ideias, e um jogador sem ideias fica à deriva.\n\n> Antes de perguntares o que queres tu, pergunta o que quer o teu adversário — e depois tira-lho."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/1pq1bppp/p1nppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K w - - 1 11",
+      "prompt": "O lado apertado vive de trocas: tira às pretas a única que lhes resta.",
+      "targetSan": [
+        "Nb3"
+      ],
+      "hint": "As pretas querem um par de cavalos fora do tabuleiro — onde mais pode esse cavalo ficar e continuar a vigiar a5 e c5?"
+    }
+  ]
+}

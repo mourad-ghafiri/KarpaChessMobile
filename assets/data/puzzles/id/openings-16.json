@@ -1,0 +1,13 @@
+{
+  "id": "openings-16",
+  "fen": "rnbqk2r/pp3ppp/4p3/2Pn4/8/P1P2P2/4P1PP/R1BQKBNR b KQkq - 0 8",
+  "solution": [
+    "Qa5",
+    "Bd2",
+    "Qxc5"
+  ],
+  "title": "Dua Pion di Satu Lajur",
+  "setup": "Hitam menyerahkan gajah petak gelap untuk membuat pion c Putih menjadi ganda, dan Putih baru saja merebut pion di c5. Serang kedua pion c sekaligus.",
+  "hint": "Pion-pion c Putih berdiri di c3 dan c5, satu lajur dan tanpa pion yang menjaga keduanya. Temukan petak yang memandang keduanya sekaligus.",
+  "explanation": "## Ide\n\nGajah ditukar dengan kuda agar pion-pion c Putih akhirnya bertumpuk. Di sini hal itu ada harganya.\n\n{{Qa5}} menyerang keduanya: c3 di sepanjang diagonal dan c5 di sepanjang baris kelima, dan tak ada pion putih yang bisa melindungi salah satunya. Jika Putih menopang c3 dengan {{Bd2}}, {{Qxc5}} merebut pion itu kembali. Pilihan terbaik Putih adalah mendorong pion e lebih dulu dan mengusir kuda Anda dari d5.\n\nMateri berakhir seimbang, tetapi pion ganda tetap ada. Serang kelemahan yang tak bisa dilindungi pion."
+}

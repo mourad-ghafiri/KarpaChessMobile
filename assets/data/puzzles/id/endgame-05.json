@@ -1,0 +1,11 @@
+{
+  "id": "endgame-05",
+  "fen": "8/8/7r/4k3/2P5/2K5/8/5R2 w - - 0 1",
+  "solution": [
+    "Rd1"
+  ],
+  "title": "Tembok di Lajur d",
+  "setup": "Pion c Anda masih harus menempuh jalan panjang, dan raja Hitam di e5 berjalan mendekat untuk menyongsongnya. Satu langkah benteng menentukan apakah pion itu pernah tiba.",
+  "hint": "Hitung lajur di antara raja Hitam dan pion Anda. Raja harus menyeberangi salah satunya lebih dulu, jadi jadikan lajur itu milik Anda.",
+  "explanation": "## Ide\n\nHanya lajur d yang memisahkan raja Hitam dari jalan pion Anda, jadi {{Rd1}} merebutnya. Raja di e5 tak boleh melangkah ke petak yang dikuasai benteng, dan kini benteng menguasai seluruh lajur: raja terkurung di sisi seberang selama benteng tetap di sana.\n\nRaja Anda lalu berjalan naik ke samping pion c dan mengawalnya pulang. Langkah lain mana pun membiarkan raja Hitam menyeberang ke lajur d dan berdiri di depan pion, dan akhir permainannya remis."
+}

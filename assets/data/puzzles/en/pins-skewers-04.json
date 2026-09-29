@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-04",
+  "fen": "3k4/8/8/3q4/8/8/3R4/3K4 w - - 0 1",
+  "solution": [
+    "Rxd5+"
+  ],
+  "title": "Pinned at Distance",
+  "setup": "Black's queen stands on the d-file between its own king and your rook, and it is your move.",
+  "hint": "Distance is no defense when a piece is pinned. Take it.",
+  "explanation": "## The Idea\n\nThe queen on d5 is pinned to the king on d8, but a pin does not freeze a piece: it can still move along the pin line, and {{Qxd2+}} is Black's threat.\n\nSo take first. {{Rxd5+}} wins the queen with check, and the king on d8 is too far away to take back. Any other move lets Black trade queen for rook, and the game is drawn.\n\nA pinned piece can still capture along the line that pins it."
+}

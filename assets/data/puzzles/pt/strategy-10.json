@@ -1,0 +1,11 @@
+{
+  "id": "strategy-10",
+  "fen": "r1bq1rk1/5ppp/p1np1b2/1p1Np3/4P3/N1P5/PP3PPP/R2QKB1R w KQ - 1 12",
+  "solution": [
+    "Nc2"
+  ],
+  "title": "O Cavalo na Berma",
+  "setup": "O cavalo branco foi enxotado para a3 na abertura e desde então não fez nada. Os peões pretos cobrem-lhe as saídas. Põe-no numa estrada melhor.",
+  "hint": "Enumera todas as casas que esse cavalo pode usar legalmente e depois risca as que um peão preto já ataca.",
+  "explanation": "## A Ideia\n\nO cavalo em a3 é a pior peça das brancas. Os peões pretos tiram-lhe as casas em frente: b5 é defendida pelo peão a e c4 está coberta pelo peão b, e voltar a casa em b1 só desfaz uma jogada.\n\n{{Nc2}} não é uma retirada mas a primeira etapa de um percurso: c2, depois e3, onde apoia o cavalo de d5. As pretas seguem com {{Bg5}}, e as brancas caminham a etapa seguinte com {{Nce3}}.\n\nQual das tuas peças faz menos, em que casa preferirias que estivesse, e qual é a estrada mais curta até lá?"
+}

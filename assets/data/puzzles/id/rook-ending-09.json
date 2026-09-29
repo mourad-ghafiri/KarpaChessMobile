@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-09",
+  "fen": "8/1r6/6P1/8/8/2R3K1/8/4k3 b - - 0 1",
+  "solution": [
+    "Rb6"
+  ],
+  "rating": 1530,
+  "title": "Ayunan di Baris Keenam",
+  "setup": "Pion g Putih siap berlari dan raja hitam di e1 terlalu jauh untuk ikut menentukan.",
+  "hint": "Benteng Anda harus menghadang pion dari depan, dan harus tiba sambil mendapat tempo. Baris mana yang mengerjakan keduanya?",
+  "explanation": "## Ide\n\nHanya satu baris yang bisa mengerjakannya. {{Rb6}} menjaga pion tetap di bawah tembakan, dan ketika ia berlari — {{g7}} — benteng berayun menyeberang dengan sekak: {{Rg6+}} {{Kh2}} {{Rxg7}}. Dari b8 benteng hanya bisa menghalangi tanpa sekak; dari b5 ia tiba di belakang pion, yang sama sekali tak berguna."
+}

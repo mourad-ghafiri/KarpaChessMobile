@@ -1,0 +1,56 @@
+{
+  "id": "sacrifice-on-f7",
+  "title": "O Sacrifício em f7",
+  "summary": "Um defensor, e é o rei",
+  "proof": "f7-sacrifice-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Todos os Peões Menos Dois",
+      "text": "Todos os peões à frente de um rei têm uma peça atrás, menos dois. f7 e f2 são guardadas só pelo rei, e assim ficam até esse rei rocar ou até se arrastar para lá uma peça a ajudar.\n\nAs pretas não fizeram nem uma coisa nem outra. A torre em h8 nunca mexeu, o bispo em f8 também não, e a dama em d8 está ocupada a segurar o cavalo de d5.\n\nPortanto a uma peça que aterre em f7 não se pode responder com uma recaptura barata. Já não sobra nada de barato com que responder. Tem de ser o rei em pessoa."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Avaliado pelo Que Compra",
+      "text": "Uma peça por um peão é uma troca perdedora no papel. Aqui não é troca nenhuma, porque as pretas não têm hipótese de dizer que não.\n\nConta as casas a que um cavalo chega a partir de f7. Duas delas são d8 e h8, onde estão a dama e a torre, portanto recusar custa mais do que aceitar.\n\nE aceitar arrasta o rei até f7, à frente de um exército que ainda não se mexeu. O teu bispo em c4 já se apoia no cavalo de d5, e esse cavalo é a única coisa que mantém a diagonal fechada."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "prompt": "Cede uma peça para capturares o único peão que o rei preto guarda, e puxa esse rei para fora.",
+      "targetSan": [
+        "Nxf7"
+      ],
+      "hint": "Só uma peça tua chega sequer a f7 — a outra estrada está bloqueada em d5."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/ppp2kpp/2n5/3np3/2B5/8/PPPP1PPP/RNBQK2R w KQ - 0 7",
+      "title": "Agora o Problema É o Rei",
+      "text": "O rei está cá fora em f7 à sétima jogada, e a primeira coisa que faz é meter-se no caminho. O teu bispo em c4 olha a direito através do cavalo de d5 para esse rei, portanto o cavalo está cravado e não pode mexer de todo.\n\n{{Qf3+}} traz um segundo atacante a d5 com xeque. O rei preto tem cinco casas, e {{Ke6}} é a que guarda o cavalo cravado — um rei a subir o tabuleiro para segurar uma peça. Depois {{Nc3}}: três atacantes, dois defensores, e um dos defensores é o próprio rei."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "Isco, e Aceita na Mesma",
+      "text": "Outro tabuleiro, e aqui f7 está a ser oferecida. O bispo preto em c5 acaba de ser plantado em frente a f2, a casa que do teu lado tem o mesmo guarda solitário.\n\nQuase nenhum sacrifício em f7 dá mate a alguém, e este também não vai dar. O que uma peça compra aqui é mais pequeno e permanente. O rei preto não pode capturar em f7 enquanto o cavalo de g5 a cobrir, portanto desloca-se para e7 ou f8 e abdica do roque para o resto da partida — estacionado à frente da sua própria torre de h8, com o bispo de c8 emparedado atrás dele."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "Duas Maneiras de Entrar",
+      "text": "Duas peças tuas chegam a f7, e compram coisas diferentes.\n\n{{Nxf7}} garfa a dama e a torre, que é a jogada que a posição anterior te ensinou a querer. E é também a jogada que a última jogada das pretas convidou: {{Bxf2+}}, e agora é o teu rei que está em xeque, com três jogadas legais e uma luta selvagem pela frente. É jogável, mas é a luta que as pretas escolheram.\n\n> Decide o que estás a comprar antes de gastares a peça: um mate, ou um rei que nunca mais consegue sair."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "prompt": "Come o peão de f7 com a peça que as pretas não estão à espera, e acaba de vez com o roque das pretas.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "A captura de cavalo é aquela para que as pretas se prepararam — olha para o que o teu outro atacante faz ao entrar."
+    }
+  ]
+}

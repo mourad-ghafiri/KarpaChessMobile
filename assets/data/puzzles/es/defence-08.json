@@ -1,0 +1,14 @@
+{
+  "id": "defence-08",
+  "fen": "4K3/5rQ1/3q4/r6k/8/8/B7/3R4 w - - 0 1",
+  "solution": [
+    "Rh1+",
+    "Qh2",
+    "Rxh2#"
+  ],
+  "rating": 1730,
+  "title": "La dama tiene que volver",
+  "setup": "La dama negra de d6 y las torres de a5 y f7 rodean a tu rey de e8, mientras su propio rey está en h5.",
+  "hint": "Todas las piezas negras están en el lado equivocado. Da jaque por la columna en la que está su rey y mira quién puede ayudar.",
+  "explanation": "## La idea\n\n{{Rh1+}} obliga a la dama a tapar con {{Qh2}}, abandonándolo todo, y {{Rxh2#}} remata. Las piezas que atacan a tu rey son piezas que no defienden al suyo."
+}

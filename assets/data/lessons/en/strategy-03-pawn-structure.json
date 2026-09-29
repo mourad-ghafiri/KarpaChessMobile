@@ -1,0 +1,77 @@
+{
+  "id": "pawn-structure",
+  "title": "Pawn Structure",
+  "summary": "Doubled, isolated, backward — what each one costs",
+  "proof": "strategy-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "title": "Two Pawns, One File",
+      "text": "Two pawns on the same file can never defend each other. Neither one can step aside to cover the other, and between them they control one file where two neighbors would control two.\n\nLook at Black's queenside here: pawns on a6, b7, c7 and d7, each covering squares the others do not. Nothing is wrong with any of them. White is about to change that with a single capture, and the change is permanent — a pawn only moves sideways when there is something standing there to take."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "prompt": "Force a recapture that leaves two black pawns stacked on one file for the rest of the game.",
+      "hint": "Only one black piece is defended by two different pawns, and either of those pawns would land on a file that is already occupied.",
+      "targetSan": [
+        "Bxc6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 5",
+      "title": "A Debt With a Clock",
+      "text": "Black's c-pawns are stacked now, and they are stacked for the rest of the game. In return Black has two bishops and a half-open d-file — real compensation, and compensation with a clock on it. Bishops need open positions, and open positions need pieces.\n\nSo White heads for the ending. {{d4}} {{exd4}} {{Qxd4}} offers a trade of queens that is awkward to decline, and every pair that comes off makes those bishops quieter and the stacked pawns louder."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/8/3QP3/5N2/PPP2PPP/RNB1K2R b KQk - 0 6",
+      "title": "Count the Wings",
+      "text": "Queens come off with {{Qxd4}}, and what is left is a count.\n\nWhite has four pawns on the kingside against three. Push them properly and one of them gets through: a passed pawn made out of nothing but a majority.\n\nBlack has four on the queenside against three, and they will never make one. Two of those four are stacked on c6 and c7, so the whole group reaches across three files, and White's three cover all three."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "A Pawn With No Neighbors",
+      "text": "A second board, and a second kind of debt. Black's pawn on d5 has no pawn on the c-file and none on the e-file, and there is no way to grow one — both are gone for good. That is an **isolated** pawn.\n\nThe first cost is the obvious one. Only pieces can defend it, and a piece tied to a pawn is a piece doing one job instead of three.\n\nThe second cost is the one that decides games, and it is not the pawn at all. It is the empty square in front of it."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "The Square It Cannot Guard",
+      "text": "Black's c-pawn and e-pawn are the only pawns that could ever have attacked d4, and neither of them exists. So d4 is not a square White has to fight for. It is a square White moves into and stays on.\n\nNo pawn can chase a piece off it. Black either lives with the intruder or gives up a piece to remove it, and every trade after that leaves the isolated pawn with fewer defenders and the same number of attackers.\n\nBoth of White's knights can reach d4. Only one of them should."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "prompt": "Put a knight on the square no black pawn can ever attack, and send the knight that is not already busy.",
+      "hint": "One of your knights is guarding e5 and g5 from where it stands, so moving that one hands those squares over.",
+      "targetSan": [
+        "Nbd4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Weak and Frozen",
+      "text": "A third board, and the worst of the three debts. Black's pawn on d6 has a neighbor on c5 that has already gone past it and no e-pawn at all, so no pawn will ever defend it again. Pawns do not walk backward, and this one cannot walk forward either: White's pawn on d5 is standing in the road.\n\nUndefendable and frozen: that is a **backward pawn**. An isolated pawn can at least run.\n\n> Doubled pawns cost you a passed pawn, an isolated pawn costs you the square in front of it, and a backward pawn costs you a piece to babysit it."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Send the Pieces",
+      "text": "Every attacker White adds has to be answered, and the answers cost Black more than the attackers cost White: a piece nailed to a pawn has stopped playing chess.\n\nSo the pieces come, and both sides take their time. {{Nd2}} starts a knight on the long road to c4, and {{Na6}} sends Black's toward c7. {{f3}} props up e4, so the knight can leave d2 later without dropping that pawn. {{Nc7}} arrives to guard b5, {{a4}} takes b5 away anyway, and {{b6}} is Black's reply.\n\nBoth sides are arguing about one pawn that cannot move."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/p1n2pbp/1p1p1np1/2pP4/P3P3/2N2P2/1P1NB1PP/R1BQ1RK1 w - - 0 13",
+      "prompt": "Add an attacker to the pawn Black can never defend with a pawn.",
+      "hint": "The knight on d2 has three squares to go to; only one of them touches d6.",
+      "targetSan": [
+        "Nc4"
+      ]
+    }
+  ]
+}

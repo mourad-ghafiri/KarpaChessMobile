@@ -1,0 +1,14 @@
+{
+  "id": "defence-12",
+  "fen": "8/3r4/5KR1/4r3/3B4/4qk2/Q7/8 w - - 0 1",
+  "solution": [
+    "Qg2+",
+    "Kf4",
+    "Qg4#"
+  ],
+  "rating": 2000,
+  "title": "Ofrece la dama dos veces",
+  "setup": "La dama negra de e3 ya apunta a las casillas alrededor de tu rey de f6, respaldada por torres en d7 y e5: estás a una jugada del mate.",
+  "hint": "Tus dos jaques ponen la dama donde se la pueden comer. Averigua por qué ninguna de las dos capturas es legal.",
+  "explanation": "## La idea\n\n{{Qg2+}} está protegida por la torre de g6, así que {{Kf4}} es forzada, y {{Qg4#}} ofrece la dama por segunda vez en una casilla desde la que el rey no puede comer. Una defensa que se basa en no poder comer sigue siendo una defensa."
+}

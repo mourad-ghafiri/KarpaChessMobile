@@ -1,0 +1,11 @@
+{
+  "id": "discovered-02",
+  "fen": "rnbqkb1r/pppp2pp/8/8/4N3/8/PPP2PPP/2B1R1K1 w - - 0 1",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "Double Check on the e-File",
+  "setup": "Your knight on e4 is the only thing between your rook on e1 and Black's king. Any knight move gives check. Find the one that ends the game.",
+  "hint": "Two knight squares let the knight check as well. Only one of them also covers the square the king would run to.",
+  "explanation": "## The Idea\n\nEvery knight move uncovers the rook on e1, but {{Nd6#}} checks from the knight as well. Against a double check the king must move, and it has nowhere to go: its own queen and bishop fill d8 and f8, its own pawn fills d7, the rook sees e7, and the knight covers f7.\n\nThe other double check, from f6, leaves f7 open, and the king walks out."
+}

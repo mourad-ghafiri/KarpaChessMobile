@@ -1,0 +1,13 @@
+{
+  "id": "openings-03",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/2N2N1P/PP2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "Nxd4",
+    "Qh2#"
+  ],
+  "title": "Jebakan Siberia",
+  "setup": "Hitam mengambil pion yang ditawarkan Putih, menempatkan menteri di c7 dan melompatkan kuda ke g4; Putih baru saja memainkan h3.",
+  "hint": "Menteri dan satu kuda Anda sudah membidik petak yang sama di samping raja Putih. Tanyakan buah putih mana yang masih menjaganya.",
+  "explanation": "## Ide\n\nMenteri di c7 dan kuda di g4 sama-sama menyerang h2, dan selain raja hanya kuda di f3 yang menjaganya.\n\n{{Nd4}} menyerang menteri di e2 dan menawarkan seekor kuda untuk diambil Putih. Mengambil kuda yang ini berakibat fatal: {{Nxd4}} menyingkirkan penjaga terakhir h2, dan {{Qh2#}} menyusul, dengan kuda di g4 melindungi menteri. Pilihan terbaik Putih adalah merelakan menteri sebagai gantinya.\n\nSebelum Anda mengejar sebuah buah, hitung siapa yang menjaga petak di belakang Anda."
+}

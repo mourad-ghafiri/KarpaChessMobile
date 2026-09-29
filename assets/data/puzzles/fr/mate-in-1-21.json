@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-21",
+  "fen": "6k1/5ppp/8/8/8/8/8/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Le mur de pions",
+  "setup": "L'abri de pions noirs en **f7**, **g7**, **h7** est intact — mais sans fenêtre de fuite, c'est une condamnation.",
+  "hint": "Faites monter la tour sur la colonne ouverte. Les propres pions noirs font le reste.",
+  "explanation": "## L'idée\n\nC'est le mat du couloir dans sa forme la plus pure : une colonne ouverte, une dernière rangée vide, et trois pions devant le roi.\n\n{{Rd8#}} donne échec le long de la huitième rangée. f8 et h8 sont sur la ligne de la tour, f7, g7 et h7 sont occupées par les propres pions noirs, et rien ne peut s'interposer ni prendre.\n\nLe remède est simple : pousser l'un de ces pions d'une case plus tôt pour donner une sortie au roi."
+}

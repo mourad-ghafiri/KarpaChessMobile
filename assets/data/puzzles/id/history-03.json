@@ -1,0 +1,13 @@
+{
+  "id": "history-03",
+  "fen": "6k1/5ppp/b7/3K4/8/8/P7/7R b - - 0 1",
+  "solution": [
+    "Bb7+",
+    "Kc4",
+    "Bxh1"
+  ],
+  "title": "Jalan yang Jauh",
+  "setup": "Gajah Anda di a6, raja putih di d5 dan sebuah benteng sendirian di sudut h1: tiga petak yang bisa menjadi satu garis.",
+  "hint": "Alfil hanya melompat. Diagonal mana yang sudah memuat raja putih dan benteng, dan langkah gajah mana yang bergabung dengannya?",
+  "explanation": "## Ide\n\nInilah yang diberikan pembaruan tahun 1470-an kepada gajah: setiap petak diagonalnya, sampai ke ujung.\n\n{{Bb7+}} melangkah ke diagonal terang yang panjang dengan sekak. Raja putih di d5 berdiri di depan, benteng di h1 di belakang, dan tak ada buah putih yang bisa mencapai c6, satu-satunya petak di antara keduanya. Petak mana pun yang dipilih raja, {{Kc4}} atau yang lain, ia meninggalkan garis itu.\n\n{{Bxh1}} mengambil benteng dari ujung papan yang jauh. Alfil di a6 sama sekali tak akan pernah bisa mencapai h1."
+}

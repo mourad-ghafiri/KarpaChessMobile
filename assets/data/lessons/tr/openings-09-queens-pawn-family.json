@@ -1,0 +1,56 @@
+{
+  "id": "queens-pawn-family",
+  "title": "Vezir Piyonu Açılışları",
+  "summary": "Merkezi işgal edin ya da onu dizginleyin",
+  "proof": "openings-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Birbirine Hiç Değmeyen İki Piyon",
+      "text": "Şah piyonunu iki kare sürün; merkez piyonları birbirine dikilsin, her biri korumasız kalsın ve her biri bir sonraki hamleden itibaren hedef olsun.\n\nVezir piyonu aynı yeri kapsar ve hiç kavga başlatmaz. d4'e inen piyonu vardığı anda d1'deki vezir korur; d5'e gelen siyah piyonu da kendi veziri aynı şekilde korur. Alınabilecek bir şey yoktur.\n\nYani bu partiler temas olmadan açılır. Onları belirleyen, sekizinci hamledeki bir taktik değildir pek. Otuzuncu hamlede birinin daha iyi sahip olduğu bir karedir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Karşısına Dikilmek",
+      "text": "{{d4}} {{d5}}. Siyah, beyazın aldığı payın aynısını alır ve iki piyon, hiçbirinin taş alamayacağı karelerde birbirinin önünü keser.\n\nBeyaz da konuyu değiştirir: {{c4}}, bir merkez piyonu karşılığında önerilen bir kanat piyonu. Bu, ailenin en eski açılışı olan Vezir Gambiti'dir.\n\nPiyon verilmez, önerilir. Siyah onu kapabilir ve çoğu zaman kapar da; ama onu elde tutmak o kadar çok hamleye mal olur ki piyon genellikle geri döner — beyazın taşları çoktan çıkmış ve ortayı gösteriyorken."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Öylece Durmasına İzin Vermek",
+      "text": "Siyah ortaya piyon koymadı ve bu bir gecikme değil, bir plan. f6'daki at, beyazın e piyonunun e4'e ulaşmasını zaten engelliyor ve e6'daki piyon bir file yol açıyor.\n\nBunlar Hint savunmalarıdır ve tartışmayı hangi taşın yürüttüğüne göre ayrılırlar.\n\n- **Şah Hint Savunması** ortayı devreder, bir fili g7'ye fianketto eder ve duvarı sonradan kırar.\n- **Nimzo-Hint Savunması** e4'ü koruyacak atı değişip kaldırmak için bir fili b4'e gönderir.\n- **Vezir Hint Savunması** bir fili uzun açık çaprazdan aynı kareye doğrultur."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+      "prompt": "Uzun açık kare çaprazını açın ki vezir filiniz de e4 tartışmasına katılabilsin.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "c8'deki filin e4'e ulaşan bir çaprazı var ve o çaprazın ilk karesine kendi piyonlarınızdan biri park etmiş."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "İki Fil, Tek Çapraz",
+      "text": "Beyaz aynı yola talip oldu. g3'teki piyon tek başına bir gelişim hamlesi değil — g2'ye gidecek fil için açılmış bir kapı; o fil de e4'e tahtanın kenarından bakıyor.\n\n{{Bb7}} {{Bg2}} gelir ve filler çapraz boyunca karşı karşıya kalır, ortada e4 durur. Beyaz sırada c3'ten bir at ekler ve e4'teki sayım kayar.\n\nYani düz cevap tek başına yetmez. Siyahın vuracak ikinci bir şey bulması gerekir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "c4'e Bakan Yok",
+      "text": "Beyazın dört hamlesini gözden geçirin ve hangisinin bir şeyi koruduğunu sorun. c4'teki piyonu koruyan hiçbir şey yok: arkasında hiçbir taş durmuyor ve b2'deki piyon onu tutmak için öne çıkmamış.\n\nBeyazın ikinci hamlede sürdüğü kanat piyonunun kalıcı bedeli budur. Alan kapar, sonra bakım ister ve g2'ye giden bir fil ters tarafa bakmaktadır.\n\nDizginlemek edilgenlik değildir. Cevaplanmak zorunda olan hamleyi beklemektir.\n\n> Kimsenin korumadığı piyon, partinin nerede oynanacağını belirler."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "prompt": "Hiçbir şeyin korumadığı piyona saldırın ve beyaz onu taşla değil piyonla desteklemek zorunda kalsın.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Vezir filinizin c8'den iki çıkış yolu var. Bunlardan biri c4'ü gören bir kareye iniyor."
+    }
+  ]
+}

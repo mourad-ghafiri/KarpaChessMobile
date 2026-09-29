@@ -1,0 +1,50 @@
+{
+  "id": "weak-squares",
+  "title": "Weak Squares and Color Complexes",
+  "summary": "Holes a pawn can never cover again",
+  "proof": "strategy-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "Four Pawns, One Color",
+      "text": "Pawns never walk back. That single rule is what turns a square into permanent property.\n\nBlack's four center pawns stand on c6, d5, e6 and f5 — every one of them a light square, and not one able to reverse. A square that no pawn of yours can attack again is a **weak square**, or a **hole**. Look at e5. Only the d-pawn and the f-pawn ever covered it, and both have already marched past.\n\nPieces can watch a hole. Pawns are what hold one, and Black has none left for e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "Moving In",
+      "text": "{{Ne5}}, and the knight is home. Black tucks the king away with {{O-O}}, which changes nothing at all about e5 — no pawn is coming to evict a piece that stands there.\n\nThat is what a hole is worth. Not a square you visit. A square you occupy, with the option of sending a second piece after the first.\n\nOne black piece still argues: the bishop on d6. It is the only black piece that touches e5, and it is the whole of Black's dark-square defense."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/pp2q1pp/2pbpn2/3pNp2/2PP4/1P4P1/P3PPBP/RNBQ1RK1 w - - 3 9",
+      "prompt": "Guard your knight with a piece as well as the pawn, choosing one that can trade off Black's only dark-square defender.",
+      "targetSan": [
+        "Bf4"
+      ],
+      "hint": "Your bishop on c1 has two diagonals out of the corner, and only one of them crosses a square that covers e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "A Whole Color, Sold",
+      "text": "A new board, and the trade has already happened: Black's dark-squared bishop went for a knight, and there is no shop that sells another one.\n\nOne hole is a nuisance. A whole color is a plan. The knight on e7 stands on a dark square, which means every square it attacks is a light one. And no black pawn will ever defend g7 — the only squares one could do that from are f8 and h8, and a pawn arriving on the eighth rank stops being a pawn."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "What White Paid",
+      "text": "The two white pawns on the c-file are the receipt. White took doubled pawns and a king with no comfortable home on the queenside, and bought that bishop with them. Both sides knew the terms.\n\nNow collect. g7 is a pawn nobody defends, standing in the doorway of the home the black king still has to move into, and White's queen has a clear road toward it.\n\n> Before you trade a bishop, count the squares it was guarding. You are selling those too, and they do not come back."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "prompt": "Aim your queen at the kingside pawn that no black piece is left to defend.",
+      "targetSan": [
+        "Qg4"
+      ],
+      "hint": "Which pawn beside the black king has no defender at all now that the bishop is gone?"
+    }
+  ]
+}

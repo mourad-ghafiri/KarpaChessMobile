@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-07",
+  "fen": "2n1k3/pp2rppp/8/2B5/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxe7"
+  ],
+  "title": "Take With the Cheaper Piece",
+  "setup": "Black's rook on e7 is pinned to its king by your rook, and your bishop attacks it too. A knight on c8 guards it.",
+  "hint": "The pinned rook is attacked twice and defended once. Which capture turns a profit?",
+  "explanation": "## The Idea\n\nThe rook on e7 is pinned by your rook on e1, attacked by rook and bishop, and defended by the knight on c8.\n\n{{Bxe7}} takes with the cheaper piece. The king cannot take back, because your rook guards e7, so after {{Nxe7}} you have given a bishop for a rook, and the knight is pinned in turn. {{Rxe7+}} first only trades rook for rook.\n\nCash a pinned piece with your cheapest attacker."
+}

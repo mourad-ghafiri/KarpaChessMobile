@@ -1,0 +1,11 @@
+{
+  "id": "openings-17",
+  "fen": "rnb1k2r/pp2ppbp/6p1/q1PP4/5B2/2P1P3/P4PPP/2RQKBNR b Kkq - 0 9",
+  "solution": [
+    "Bxc3+"
+  ],
+  "title": "Çapraz Tahsil Ediyor",
+  "setup": "Siyah merkezi ve onunla birlikte iki piyonu devretti ve beyaz az önce c3'te b piyonuyla geri aldı.",
+  "hint": "Beyaz, yalnızca tek bir taşın koruduğu bir piyonla geri aldı ve filiniz dördüncü hamleden beri ona doğrultulmuş.",
+  "explanation": "## Fikir\n\ng7'deki fil dördüncü hamleden beri uzun çaprazı gösteriyor ve beklediği şey buydu.\n\n{{Bxc3+}} şah çekerek bir piyonu geri alır. {{Rxc3}} {{Qxc3+}} hamlesine yürür, çünkü a5'teki vezir filin arkasında durur; {{Qd2}} ise veziri {{Bxd2+}} ile düşürür. Beyazın en iyisi {{Ke2}} ile rok hakkından vazgeçip bir piyon önde kalmaktır.\n\nMerkezi yalnızca ona ateş edecek bir şeyiniz varken devredin."
+}

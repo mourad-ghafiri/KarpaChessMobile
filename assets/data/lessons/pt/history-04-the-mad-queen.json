@@ -1,0 +1,56 @@
+{
+  "id": "mad-queen",
+  "title": "A Dama Enfurecida",
+  "summary": "Duas peças lentas entram na década de 1470 e saem as mais rápidas do tabuleiro",
+  "proof": "history-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "O Xadrez da Dama",
+      "text": "A dama que a Europa jogou durante cinco séculos andava uma casa na diagonal e mais nada. No espaço de uma geração era a peça mais forte do jogo.\n\nO que sobrevive da mudança é um poema. *Scachs d'amor*, em valenciano, traz no seu comentário a mais antiga partida jogada com as regras novas que nos chegou. O manuscrito não tem data; «por volta de 1475» é a leitura habitual, e Valência é uma reconstrução que assenta em grande parte no próprio poema.\n\nA Espanha chamou ao jogo novo *axedrez de la dama*, o xadrez da dama. O italiano e o francês foram mais rudes: *alla rabiosa*, *la dame enragée*, para uma dama que não queria estar quieta."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "O Elefante Foi Com Ela",
+      "text": "A dama não foi reescrita sozinha.\n\nO salto do elefante — exatamente duas casas, por cima do que estivesse pelo meio, para uma das oito casas em que alguma vez tocaria — passou a ser o deslize do bispo pela diagonal inteira. Uma reforma, uma ideia aplicada duas vezes: dar às peças das diagonais a diagonal completa.\n\nPorquê os anos 1470? A sugestão habitual são as soberanas que então governavam a Europa, Isabel de Castela acima de todas — mas é uma sugestão, não um documento."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Duas Casas, e Depois Nada",
+      "text": "Volta a pôr a dama antiga em d1 e conta o que ela possuía.\n\nDuas casas. {{Qc2}} e {{Qe2}}, um arrastar de pés para cada lado, e a lista acabava ali. As duas são claras, e d1 também — essa dama nunca na vida esteve numa casa escura, portanto meio tabuleiro estava-lhe fechado antes de alguém jogar.\n\nQuatro desses arrastares levavam-na de d1 até h5. A dama que agora ali está cobre essa estrada numa só jogada, e pode chegar já a atacar.\n\n> A torre teve nove séculos como a peça mais forte do tabuleiro. Perdeu o título para uma peça que antes se arrastava."
+    },
+    {
+      "type": "play",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "prompt": "Leva a dama ao meio, de modo a que uma diagonal chegue ao rei de g8 e outra à torre de a8.",
+      "hint": "O rei de g8 e a torre de a8 estão os dois em casas claras, e a tua dama também — encontra a casa onde as duas diagonais se cruzam.",
+      "targetSan": [
+        "Qd5+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "As Duas Eram Diagonais",
+      "text": "As duas linhas que acabaste de usar eram diagonais. Um bispo que chegasse a d5 teria atingido g8 e a8 exatamente da mesma maneira — e o bispo recebeu o seu deslize na mesma reforma, portanto essa metade da dama não tem nada de novo.\n\nA outra metade tem. A partir de d5 a dama segura também a quinta linha inteira e a coluna d inteira, portanto as duas linhas que se cruzam debaixo dela nunca têm de ser do mesmo tipo: uma linha e uma diagonal, uma coluna e uma diagonal, o que a posição oferecer. Uma torre e um bispo num só corpo, e numa casa onde os dois tipos se cruzam só pode estar uma peça."
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "Sem Tempo para Fugir",
+      "text": "O xeque fez o seu trabalho. Responder-lhe não fez rigorosamente nada pela torre de a8, e é esse o rendimento inteiro de atingir duas coisas ao mesmo tempo: a segunda não tem tempo de fugir.\n\nTira isso e o rendimento desaparece. Dá às pretas uma jogada livre — {{h3}}, por exemplo — e {{Rc8}} responde, e não havia nada ali para ganhar.\n\nPortanto acaba com isto sem lhes dares nenhuma."
+    },
+    {
+      "type": "play",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "prompt": "Come a torre do canto, e come-a com xeque para as pretas nunca terem uma jogada para gastar.",
+      "hint": "Nada defende a8, portanto a única pergunta é se a tua captura aterra também numa linha que passe pelo rei preto de f8.",
+      "targetSan": [
+        "Qxa8+"
+      ]
+    }
+  ]
+}

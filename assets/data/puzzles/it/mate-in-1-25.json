@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-25",
+  "fen": "4k3/R7/4K3/8/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Opposizione e Spazzata",
+  "setup": "I re si fronteggiano sulla colonna e, e la vostra torre aspetta sulla settima traversa.",
+  "hint": "Portate la torre sull'ottava traversa. Il vostro re in e6 copre già la settima.",
+  "explanation": "## L'idea\n\nQuesto è il matto base di re e torre. I re si fronteggiano, e la torre dà scacco da lontano.\n\n{{Ra8#}} dà scacco lungo la traversa di fondo. d8 e f8 stanno sulla linea della torre, il vostro re in e6 copre d7, e7 e f7, e niente può parare.\n\nRe che si fronteggiano, torre sulla traversa del re avversario: quasi tutti i finali di re e torre finiscono esattamente così."
+}

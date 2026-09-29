@@ -1,0 +1,11 @@
+{
+  "id": "forks-04",
+  "fen": "8/p3k1pp/1r6/8/8/2N5/PP4PP/6K1 w - - 0 1",
+  "solution": [
+    "Nd5+"
+  ],
+  "title": "Önce Şah, Sonra Tahsilat",
+  "setup": "Siyahın b6'daki kalesinin koruyucusu yok ve siyahın şahı tahtanın ortasında duruyor.",
+  "hint": "Aynı anda hem şah çeken hem de başka bir şeye saldıran at sıçrayışını bulun.",
+  "explanation": "## Fikir\n\n{{Nd5+}} tek sıçrayışta e7'deki şaha şah çeker ve b6'daki kaleye saldırır. Siyahın hiçbir şeyi d5'teki atı alamaz ve şahın önce şaha cevap vermesi gerekir; o oynadıktan sonra {{Nxb6}} kaleyi kazanır.\n\nAt çatalı, iki hedeften biri şah olduğunda en güçlüdür: şah, siyahın öteki taşı kurtarma şansını elinden alır."
+}

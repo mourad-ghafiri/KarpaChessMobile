@@ -1,0 +1,59 @@
+{
+  "id": "king-safety",
+  "title": "King Safety",
+  "summary": "Castle before the doors open, then leave the wall alone",
+  "proof": "strategy-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "The King That Stayed Home",
+      "text": "White's d-pawn is gone, and a bishop stands on d2 in its place. The king on e1 has no pawn of its own on the file beside it.\n\nBlack answered this question moves ago: the king on g8, three untouched pawns in front of it.\n\nWhite is offered exactly one castle. The rook on h1 is boxed in behind the bishop on f1 and the knight on g1, so the kingside is shut. The queenside is not — the queen, the knight and the bishop have all stepped off that end of the back rank."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "What Waiting Costs",
+      "text": "Nothing is wrong yet. That is what makes it easy to put off.\n\nDevelop quietly with {{Nf3}}, let Black bring a rook over with {{Re8}}, add {{Bd3}}, and {{d5}} opens the center with the king still standing on e1. Black needed nothing clever to get there, only ordinary moves.\n\nEvery line that comes open from here comes open toward White, and answering each one costs a move that was meant for something else."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "prompt": "Tuck your king onto the wing your pieces have already left, and bring a rook to the half-open file in the same move.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "Three pieces have stepped off one side of your back rank — count the empty squares between your king and each rook."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "The Wall You Cannot Rebuild",
+      "text": "Black chased a bishop with two pawn moves and knocked two bricks out of the shelter around the king on g8. The pawn on h6 and the pawn on g5 were part of that wall, and the one on g5 is hitting the bishop on h4 right now.\n\nWhite's three are still sitting on f2, g2 and h2, exactly where castling left them. Black cannot put the other two back, because no pawn ever moves backward, and that is the whole difference between these two kings.\n\n> Move a pawn in front of your king when you must. Never move two."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "Where to Knock",
+      "text": "The pawn on g5 has exactly one defender, the pawn on h6. Behind them the king has one more guard, the knight on f6.\n\nThe natural reply to an attacked bishop is to step it back. Black's shelter then stays thin, but it stays.\n\nThere is a louder answer. A shelter this thin can be bought, and White has pieces to pay with. Count the price in pawns and the prize in open lines, then decide."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "prompt": "Answer the attack on your bishop by breaking the shelter open, even though it costs a piece.",
+      "targetSan": [
+        "Nxg5"
+      ],
+      "hint": "Take on g5 first with the piece you can best afford to lose, so that the bishop gets the last word."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n2/2b1p1p1/2B1P2B/2NP4/PPP2PPP/R2Q1RK1 w - - 0 10",
+      "prompt": "Black has taken the knight; take back so that Black's knight on f6 is pinned to the queen.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "Count what stands between your bishop on h4 and Black's queen on d8 now."
+    }
+  ]
+}

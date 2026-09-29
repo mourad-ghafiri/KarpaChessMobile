@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-15",
+  "fen": "1k6/1b6/8/2b5/8/6p1/R7/7K w - - 0 1",
+  "solution": [
+    "Rg2"
+  ],
+  "title": "Chiudete la Finestra",
+  "setup": "L'alfiere in **b7** dà scacco al vostro re lungo la diagonale più lunga della scacchiera.",
+  "hint": "Il vostro re non ha una casa sicura — g1 e h2 sono coperte tutte e due. La vostra torre può entrare nella diagonale?",
+  "explanation": "## L'idea\n\nL'alfiere in b7 dà scacco lungo tutta la grande diagonale fino al vostro re in h1. Le uscite sono sigillate: l'alfiere in c5 copre g1, e il pedone in g3 copre h2.\n\nUno scacco in diagonale resta uno scacco lungo una linea, e le linee si possono parare. {{Rg2}} scivola lungo la seconda traversa dentro il cammino dell'alfiere. Se segue {{Bxg2+}}, {{Kxg2}} riprende.\n\nUna torre non può muovere in diagonale, ma può stare su una diagonale."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "discovered-01",
+  "fen": "2r1k3/8/8/8/4N3/8/8/4R2K w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd8",
+    "Nxc8"
+  ],
+  "title": "Kuda Melangkah, Benteng Menyerang",
+  "setup": "Benteng putih di e1 membidik raja hitam, dan kuda Putih sendiri satu-satunya yang menghalangi.",
+  "hint": "Setiap langkah kuda menyingkap benteng. Hanya satu di antaranya yang juga mendarat pada sesuatu.",
+  "explanation": "## Ide\n\nSelama kuda duduk di e4, benteng tak berbuat apa-apa. Gerakkan kuda dan garis benteng terbuka pada saat itu juga: buah yang bergerak bukanlah buah yang menyerang.\n\nBeberapa langkah kuda memberi sekak itu, tetapi hanya {{Nd6+}} yang mengerjakan tugas kedua, menyerang benteng di c8. Ini juga **sekak ganda**, jadi tak ada yang bisa menghalangi dan menangkap satu pemberi sekak menyisakan yang lain.\n\nRaja punya tiga petak. {{Kd8}} menjaganya tetap dekat, dan {{Nxc8}} memenangkan benteng — raja menangkap balik, dan kualitas menjadi milik Anda."
+}

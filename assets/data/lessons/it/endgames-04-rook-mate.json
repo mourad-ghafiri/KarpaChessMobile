@@ -1,0 +1,50 @@
+{
+  "id": "rook-mate",
+  "title": "Re e Torre contro Re",
+  "summary": "La torre costruisce il muro; solo il re può chiudere la porta",
+  "proof": "endgames-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "La Colonna che Nessuno Attraversa",
+      "text": "Una torre, una colonna, e la partita è già decisa. Finché la vostra torre tiene g1 il re nero non può mai attraversare la colonna g, quindi il suo mondo è h7 e h8 — due case, per sempre.\n\nQuel taglio è quasi tutto il lavoro, ed è anche la fine di quello che una torre può fare da sola. Tutti e due gli scacchi disponibili consegnano g8, e tutti e due sono peggio di niente: {{Rg8+}} {{Kxg8}} consegna la torre, e l'altro scacco fa invece uscire il re nero proprio su quella casa.\n\nIl muro resta in piedi. Deve venire qualcos'altro a chiudere la porta."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "Una Mossa Ordinata, Mezzo Punto",
+      "text": "{{Rg7}} sembra la stessa idea una casa meglio. Prende g8 e h7 insieme, il vostro re in f6 la difende quindi non si può catturare, e il re nero non è sotto scacco.\n\nQuest'ultima parte è tutto il disastro. Non sotto scacco, e senza nemmeno una mossa legale su tutta la scacchiera: stallo, mezzo punto, e il vostro re ancora lì dov'era partito.\n\n> Una torre toglie case per tutta la partita. L'ultima casa è quella che non deve mai togliere da sola."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "prompt": "La vostra torre non può togliere le case accanto a un re: portate su il pezzo che può farlo.",
+      "targetSan": [
+        "Kf7"
+      ],
+      "hint": "Lasciate il muro esattamente dov'è e portate l'altro pezzo verso il Nero finché i due re si fronteggiano a una casa di distanza."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "La Metà che una Torre Non Può Fare",
+      "text": "Il vostro re ha fatto la camminata, il Nero ha avuto una risposta legale, e adesso i due re stanno a una casa di distanza sulla settima traversa. È di nuovo l'opposizione, che si guadagna la paga in case anziché in tempi: il re bianco in f7 copre g6, g7 e g8, tutta la strada di ritorno dentro la scacchiera.\n\nUna torre dà scacco lungo una linea, e un re si limita a uscire dalla linea. Deve esserci qualcosa ad aspettare sulle case dove esce. Il vostro re è l'unico pezzo che possa aspettare lì senza essere preso. La torre non vince mai questo finale da sola."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "Far Rientrare il Muro",
+      "text": "Niente di tutto questo dipende dall'angolo. Da qualunque posizione è un unico ciclo, ripetuto finché la scacchiera finisce.\n\nTagliate fuori il re nudo con la torre, così che ci sia una linea che non può attraversare. Fate marciare il vostro re finché i due si trovano faccia a faccia a una casa di distanza. Poi, ogni volta che il re nudo fa un passo di lato lungo il muro, spostate il muro di una colonna dietro di lui.\n\nLa scatola si stringe a ogni giro e non si allarga mai più, ed è per questo che questo finale è tecnica e non calcolo."
+    },
+    {
+      "type": "play",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "prompt": "Al Nero restano due case e stanno tutte e due su una linea: prendetevi quella linea intera con la torre.",
+      "targetSan": [
+        "Rh1#"
+      ],
+      "hint": "Venite dal capo lontano, fuori dalla portata del re nero, così che lo scacco e l'ultima casa libera arrivino nella stessa mossa."
+    }
+  ]
+}

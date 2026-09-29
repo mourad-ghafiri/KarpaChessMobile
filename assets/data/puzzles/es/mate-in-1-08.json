@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-08",
+  "fen": "7k/8/7K/7Q/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Qe8#"
+  ],
+  "title": "Apretón lateral",
+  "setup": "Tu rey y tu dama están apilados en la columna h, y el rey negro está atrapado en la esquina. El mate viene de lado.",
+  "hint": "Una jugada de dama tentadora quita todas las casillas sin dar jaque, y eso es ahogado. Da jaque desde donde tu rey siga cubriendo g7.",
+  "explanation": "## La idea\n\nLa natural {{Qg6}} es ahogado: sin jaque y sin jugada legal para las Negras, así que se pierde medio punto. {{Qe8#}} da jaque en cambio por la última fila. g8 está en la línea de la dama, tu rey de h6 cubre g7 y h7, y nada puede capturar la dama ni tapar.\n\nCon dama contra rey solo, asegúrate de que tu jugada da jaque antes de quitar la última casilla."
+}

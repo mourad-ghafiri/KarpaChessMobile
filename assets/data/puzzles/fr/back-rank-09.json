@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-09",
+  "fen": "6k1/5ppp/8/8/8/8/4R3/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "La tour glisse vers le mat",
+  "setup": "Votre tour et votre roi contre trois pions noirs, avec le roi noir toujours derrière eux en g8. Un coup suffit.",
+  "hint": "Le roi ne peut pas quitter sa dernière rangée. Placez votre tour sur cette rangée avec échec.",
+  "explanation": "## L'idée\n\n{{Re8#}} est mat en un. La tour quitte la deuxième rangée et donne échec le long de la huitième : f8 et h8 sont sur sa ligne, f7, g7 et h7 sont occupées par les propres pions noirs, et aucune pièce noire ne peut prendre ni s'interposer.\n\nQuand le roi adverse se tient derrière une rangée de pions intacts, cherchez d'abord un échec de tour sur la dernière rangée."
+}

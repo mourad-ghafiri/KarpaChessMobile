@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-05",
+  "fen": "6R1/8/5r2/K7/3P3k/8/8/8 b - - 0 1",
+  "solution": [
+    "Rd6"
+  ],
+  "rating": 1390,
+  "title": "No Caminho",
+  "setup": "O rei preto está encalhado em h4, portanto a torre tem de tratar do peão d livre completamente sozinha.",
+  "hint": "Atacar o peão não é o mesmo que travá-lo. Para que casa é que o peão tem de correr?",
+  "explanation": "## A Ideia\n\n{{Rd6}} planta a torre mesmo à frente do peão, e {{d5}} dá agora em {{Rxd5+}}. Atinge-o de lado com {{Rf4}} e as brancas respondem {{Rd8}}, defendendo por trás, e depois disso o peão sobe o tabuleiro."
+}

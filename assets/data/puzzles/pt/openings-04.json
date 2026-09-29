@@ -1,0 +1,11 @@
+{
+  "id": "openings-04",
+  "fen": "r1b1kb1r/pp1n1ppp/2p1p3/q2p2B1/2PPn3/2NBPN2/PPQ2PPP/R3K2R b KQkq - 5 8",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "A Cravada de Cambridge Springs",
+  "setup": "Apoiaste d5 com peões em c6 e e6 e puseste a dama em a5. A dama branca acabou de atacar o teu cavalo de e4.",
+  "hint": "A tua dama crava o cavalo de c3 contra o rei branco. Com esse cavalo congelado, o que resta a guardar o bispo das brancas?",
+  "explanation": "## A Ideia\n\nA tua dama em a5 crava o cavalo de c3 contra o rei branco, portanto o bispo de g5 tem uma só guarda, o cavalo de f3.\n\n{{Nxg5}} come o bispo à mesma. Se {{Nxg5}}, então {{dxc4}} tira o teu peão da quinta linha, e a dama recupera o cavalo: uma peça acima. As outras tentativas das brancas perdem a peça mais em silêncio.\n\nUma peça cravada não guarda nada. Verifica isso antes de cada captura que o teu adversário pareça permitir."
+}

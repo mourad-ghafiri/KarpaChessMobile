@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-15",
+  "fen": "8/4k3/8/3K4/8/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "title": "Le roi devant le pion",
+  "setup": "Votre roi a avancé devant son pion, et le roi noir attend en e7. Le prochain coup de roi décide de la partie.",
+  "hint": "Pousser le pion gaspille le travail du roi. Placez votre roi là où le roi noir doit céder.",
+  "explanation": "## L'idée\n\n{{Ke5}} se place devant le pion et prend l'opposition : les rois se font face avec une case entre eux, et les Noirs doivent jouer. Où que s'écarte le roi noir, le vôtre le dépasse, par exemple {{Kd7}} {{Kf6}}, et le pion suit. Poussez d'abord le pion par {{e4}}, ou allez n'importe où ailleurs, et ce sont les Noirs qui prennent l'opposition : nulle.\n\nDans une finale roi et pion, le roi ouvre la marche et le pion suit."
+}

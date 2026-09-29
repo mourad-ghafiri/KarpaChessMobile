@@ -1,0 +1,14 @@
+{
+  "id": "overload-03",
+  "fen": "r5k1/5ppp/8/8/3R4/8/PP2b3/K2R2Q1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1330,
+  "title": "Geri Yalnızca Bir Kale Dönüyor",
+  "setup": "Siyahın kalesi arka yatayı a8'den koruyor ve kaleleriniz d dikeyinde üst üste dizilmiş, vezir de g1'den gözlüyor.",
+  "hint": "Taşlarınızdan kaçının sekizinci yataya ulaşabildiğini sayın, sonra siyahınkilerden kaçının cevap verebildiğini sayın.",
+  "explanation": "## Fikir\n\n{{Rd8+}} koruyucunun almak zorunda olduğu bir kale ikram eder ve {{Rxd8}} onu a8'den çeker. İkinci kale {{Rxd8#}} ile arkasından gelir. Aynı karedeki iki saldırana tek koruyucu cevap veremez; taktiğin tamamı bu sayımdır."
+}

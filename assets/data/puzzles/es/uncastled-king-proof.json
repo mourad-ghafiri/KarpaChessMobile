@@ -1,0 +1,13 @@
+{
+  "id": "uncastled-king-proof",
+  "fen": "2b1kbnr/1pp2ppp/r3p3/p1q1P1B1/4N3/3B1N2/PPP2PPP/R2Q1RK1 w k - 5 10",
+  "solution": [
+    "Bb5+",
+    "Qxb5",
+    "Qd8#"
+  ],
+  "title": "Despeja la columna con jaque",
+  "setup": "El rey negro sigue en e8 en la décima jugada. Tu dama de d1 quiere la columna d, y tu propio alfil de d3 está en ella.",
+  "hint": "El alfil tiene que salir de la columna, y debería salir con una jugada a la que las Negras tengan que responder enseguida.",
+  "explanation": "## La idea\n\nEl rey nunca salió de e8, y sus propias piezas llenan sus salidas: el alfil en f8 y el peón en f7. Tu alfil de g5 cubre e7 y d8. Lo único entre tu dama y d8 es tu propio alfil de d3.\n\nAsí que sale con jaque. {{Bb5+}} exige respuesta, y todas las respuestas llegan tarde. Captúralo con {{Qxb5}} y cae {{Qd8#}}, protegida por el alfil de g5. Tapa con {{Bd7}} y es {{Bxd7#}} quien da mate."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-13",
+  "fen": "8/5ppp/6k1/8/8/8/5PPP/R3K3 w Q - 0 1",
+  "solution": [
+    "O-O-O"
+  ],
+  "title": "Castle Long",
+  "setup": "White's king and queenside rook have never moved, and every square between them is empty. Castle toward the rook on a1.",
+  "hint": "The king moves two squares toward the rook, and the rook lands on the square the king crossed.",
+  "explanation": "## The Idea\n\n{{O-O-O}} is one move for two pieces: the king steps from e1 to c1, and the rook on a1 comes over it to d1.\n\nEvery condition holds. Neither piece has moved, b1, c1 and d1 are empty, the king is not in check, and nothing attacks d1 or c1, the squares it crosses and lands on. The king leaves the center, and the rook arrives on an open file."
+}

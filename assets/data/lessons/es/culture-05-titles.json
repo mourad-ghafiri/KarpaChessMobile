@@ -1,0 +1,56 @@
+{
+  "id": "titles-and-norms",
+  "title": "Títulos y normas",
+  "summary": "Se ganan en nueve rondas, no con una genialidad",
+  "proof": "culture-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Nombrados en 1950",
+      "text": "La FIDE publicó su primera lista de títulos en 1950: veintisiete Grandes Maestros, nombrados en un congreso, muchos de ellos ya lejos de sus mejores años.\n\nNada de esa lista caducó. Un título se concede una vez y es para toda la vida. Un Gran Maestro que deja de jugar, pierde doscientos puntos de Elo o se dedica a la jardinería sigue siendo Gran Maestro: el Elo dice lo que puedes hacer este mes, el título dice lo que hiciste una vez.\n\nConseguirlo lleva más o menos un año del tipo de ajedrez que nadie graba."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Cuatro peldaños",
+      "text": "Cuatro títulos absolutos, de abajo arriba: Candidato a Maestro, Maestro FIDE, Maestro Internacional, Gran Maestro. Cada uno corresponde a un Elo —2200, 2300, 2400, 2500—, y basta con alcanzar ese número una vez, en una sola lista publicada, en toda la carrera.\n\nLos dos de abajo se quedan ahí. Candidato a Maestro y Maestro FIDE se conceden solo por Elo: alcanza el número, manda los papeles y el título es tuyo.\n\nLos dos de arriba no se venden a ningún número. Supera los 2500 y la FIDE no te concede nada. Los dos últimos peldaños se pagan con normas."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "prompt": "Gasta ahora un tiempo para que el alfil de c8 nunca pueda salir a clavar tu caballo contra la dama.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Antes de tocar el centro, pregúntate qué casilla quiere el alfil negro y cuál de tus peones puede quitársela."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Lo que pide una norma",
+      "text": "Una norma es un resultado, en un torneo válido, que cumple todas las condiciones a la vez: nueve rondas o más; rivales de varias federaciones; aproximadamente la mitad ya titulados; un número fijo de ellos con el título que persigues; y un nivel de rendimiento mantenido durante todo el torneo. Falla una condición y el torneo no da nada, por bien que hayas jugado.\n\nGran Maestro y Maestro Internacional piden normas que sumen al menos veintisiete partidas: en la práctica, tres normas.\n\nLas Negras persiguen al alfil con {{Na5}}, este se pone fuera de alcance en {{Bc2}}, y {{c5}} toma posiciones en el flanco de dama."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "La serie paralela",
+      "text": "La FIDE concede además una segunda serie —WCM, WFM, WIM, WGM—, abierta a las mujeres y fijada doscientos puntos por debajo de los títulos absolutos en cada peldaño. Están junto a los absolutos, no en su lugar: una mujer puede aspirar a Gran Maestro exactamente en las mismas condiciones que cualquiera.\n\nJudit Polgár lo hizo: obtuvo el título absoluto de Gran Maestro en diciembre de 1991 con quince años, más joven que nadie hasta entonces, y nunca jugó un Campeonato del Mundo Femenino."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "Las partidas que nadie repasa",
+      "text": "Nueve rondas no premian una genialidad. Premian al jugador que no pierde las partidas normales: el que gastó una jugada entera en un peón de torre dos turnos atrás, para que ahora no haya nada que clavar, nada que temer y las manos libres en el centro.\n\nLa profilaxis es de lo que está hecha realmente una norma. Las planillas de las que sale un título son sobre todo jugadas tranquilas y tablas cortas, y el libro del torneo publica dos de las partidas.\n\n> Un título no es una gran jugada. Son nueve rondas sin hacer una mala."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "prompt": "Con g4 cerrada para siempre, abre la posición con el único peón central que sigue en su casilla inicial.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "¿Cuál de tus peones centrales no se ha movido nada, y qué le espera en el centro?"
+    }
+  ]
+}

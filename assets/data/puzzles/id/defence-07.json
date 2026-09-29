@@ -1,0 +1,14 @@
+{
+  "id": "defence-07",
+  "fen": "1R6/1q6/4K1Q1/8/1b5k/8/5r2/8 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Qh7",
+    "Rxh7#"
+  ],
+  "rating": 1690,
+  "title": "Benteng ke Lajur yang Kosong",
+  "setup": "Raja Anda terbuka di e6 dengan menteri Hitam di b7, benteng di f2 dan gajah di b4 semuanya ikut bermain.",
+  "hint": "Raja hitam berada di lajur h yang kosong. Tanyakan apa yang bisa ia taruh di sana tepat waktu.",
+  "explanation": "## Ide\n\n{{Rh8+}} turun melalui lajur terbuka dan {{Qh7}} satu-satunya penutup. {{Rxh7#}} menyingkirkannya. Menteri Hitam sedang membela segalanya di sayap menteri dan tak bisa sekaligus berada di h7."
+}

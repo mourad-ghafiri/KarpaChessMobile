@@ -1,0 +1,13 @@
+{
+  "id": "culture-01",
+  "fen": "rnbqkbn1/ppppp3/7r/6pp/3P1p2/3BP1B1/PPP2PPP/RN1QK1NR w KQq - 2 7",
+  "solution": [
+    "Qxh5+",
+    "Rxh5",
+    "Bg6#"
+  ],
+  "title": "A Ordem das Operações",
+  "setup": "As pretas atiraram três peões para a frente e o rei continua em casa. Duas das tuas peças querem o mesmo canto.",
+  "hint": "A tua dama e o teu bispo chegam cada um à diagonal que acaba no rei preto. Pergunta qual deles a torre de h6 pode comer.",
+  "explanation": "## A Ideia\n\nA dama em d1 e o bispo em d3 querem os dois a diagonal até e8, e só funciona uma ordem.\n\n{{Qxh5+}} vai primeiro. Tapar com {{Rg6}} perde logo, e depois de {{Rxh5}} a torre deixou a sexta linha, portanto nada guarda g6: {{Bg6#}}. O bispo cobre f7, e o resto enchem-no os peões, a dama e o bispo do próprio rei preto.\n\nComeça pelo bispo e a {{Bg6+}} responde-se {{Rxg6}}. A regra da peça tocada não te deixa mudar de ideias."
+}

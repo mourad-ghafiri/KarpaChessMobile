@@ -1,0 +1,12 @@
+{
+  "id": "smothered-05",
+  "fen": "6rk/pp4pn/8/4N3/2b5/8/P4PPP/3R2K1 w - - 4 23",
+  "solution": [
+    "Ng6#"
+  ],
+  "rating": 1275,
+  "title": "h7'de Piyon Yok",
+  "setup": "Siyah az önce atını h7'ye geri çekti ve c4'teki fil hâlâ f7 karesini koruyor.",
+  "hint": "h7'de piyondan başka bir şey duruyor — bunun yanındaki kareler açısından neyi değiştirdiğini sorun.",
+  "explanation": "## Fikir\n\ng6'daki atı normalde h piyonu yerdi. Burada h7'de bir at duruyor ve at yanındaki hiçbir kareyi korumaz; yani {{Ng6#}} dokunulmazdır ve g8, g7 ile h7'nin hepsi siyahın kendi taşlarıyla doludur. Her zamanki boğma karesi olan f7'yi ise c4'teki fil kapsar."
+}

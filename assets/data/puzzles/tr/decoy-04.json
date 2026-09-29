@@ -1,0 +1,14 @@
+{
+  "id": "decoy-04",
+  "fen": "r6k/pp2P1pp/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "exd8=Q#"
+  ],
+  "rating": 1270,
+  "title": "Ablukacıyı Çekin",
+  "setup": "e7'deki piyonunuz sekizinci yatayı istiyor ve orayı yalnızca a8'deki kale bekliyor.",
+  "hint": "Savunmanın tamamı o kale. Onu almanın siyahın kalan tek hamlesi olduğu kareyi bulun.",
+  "explanation": "## Fikir\n\n{{Rd8+}} siyaha tek bir kurallı hamle bırakır, {{Rxd8}} — ve kale, piyonunuzun saldırdığı kareye sürüklenmiş olur. {{exd8=Q#}} matla terfi eder. Bir piyon vezir oluyorsa kale ucuzdur."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "recording-games",
+  "title": "Yazıya Geçirmek",
+  "summary": "Notasyon kâğıdı, güvenebileceğiniz bir hafızadır",
+  "proof": "culture-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "Tahtanın Yanındaki Kâğıt",
+      "text": "Buradan sonraki hamleler hızla tuhaflaşıyor ve notasyon kâğıdının hepsini tutması gerekiyor.\n\nPuanlı klasik bir partide iki tarafın hamlelerini de, peş peşe, cebirsel notasyonla, organizatörün verdiği kâğıda yazmak zorundasınız. Yalnızca kendi hamlelerinizi değil. İkisini de. Bir anlaşmazlıkta hakemin okuduğu şey o kâğıttır ve bir FIDE turnuvasının tanıdığı tek sistem cebirsel notasyondur — eski İngiliz sistemi her oyuncunun kendi tarafından sayardı, yani tek bir karenin, kalemi kimin tuttuğuna göre iki adı olurdu."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "Önce Hamle, Sonra Kalem",
+      "text": "Bir şey yazmadan önce rakibinize cevap verebilirsiniz ve güçlü oyuncuların çoğu öyle yapar — saat işliyor ve düşünmenin yeri tahtadır. Yapamayacağınız şey geride kalmaktır: bir sonraki hamlenizi oynamadan önce bir önceki hamleniz kâğıtta olmalıdır.\n\nBir hamleyi oynamadan önce yazmak tümüyle yasaktır. Gerçekten karşılaşacağınız tek istisna beraberlik talebidir; tekrar ya da elli hamle kuralıyla talepte bulunan oyuncu, oynamayı düşündüğü hamleyi yazar, onu oynamadan bırakır ve hakemi çağırır."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "prompt": "e3'teki piyonunuzla taş alın ki beyazın şahının yanına şah çekerek insin.",
+      "targetSan": [
+        "exf2+"
+      ],
+      "hint": "O piyonun tahtada tam olarak tek bir taş alması var ve beyazın şahı, ineceği karenin tam yanında duruyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Eklediğiniz İşaretler",
+      "text": "Beyaz f2'deki piyonu almak yerine şahı e2'ye adımladı ve şimdi kalemin biraz işi var.\n\nTaş alma bir `x` alır, şah `+` alır, mat `#` alır. Aynı türden iki taş aynı kareye ulaşabiliyorsa hamlenin nereden başladığını eklersiniz — `Nbd2`, `R1e4` — çünkü elinde yalnızca kâğıt olan biri partiyi tahmin yürütmeden yeniden oynayabilmelidir. Terfi, `=` ile ve seçtiğiniz taşın harfiyle yazılır."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Karbon Kopya",
+      "text": "Notasyon kâğıdı, satrancın en ucuz antrenörlüğüdür. Partiyi o akşam yeniden oynayın; yaptığınızı hatırlayamadığınız hata, bir şeylerin ters gittiğini fark etmenizden üç hamle önce, kendi el yazınızla orada oturuyor olsun. Turnuvaların çoğu tam da bu yüzden kopyalı kâğıt dağıtır: üstteki nüsha organizatöre gider, alttaki sizinle eve.\n\nKalemin durduğu bir nokta var. Saatinizde beş dakikanın altında süre kaldığında ve otuz saniye ya da daha fazla eklemeli süre yoksa, artık hiçbir şey yazmak zorunda değilsiniz."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Tek Kare, Dört Parti",
+      "text": "f2'deki piyonunuzun tam olarak tek bir terfi karesi var, g1, ve seçeceği dört taş. Kâğıdın hangisini aldığınızı söylemesi gerekiyor.\n\n{{fxg1=Q}} tahtadaki en güçlü taşı yaratır ve olduğu yerde kaybeder: {{Qxd8+}} gelir ve yeni vezir bir hamle bile oynamadan beyaz eski vezirinizi almış olur. Siyahın elinde tek bir kurallı cevap kalır.\n\n> Aynı piyon, aynı kare, dört farklı parti. Kâğıtta onları ayıran tek şey `=` işaretinden sonraki bir harftir."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "prompt": "Gelirken şah çeken tek taşa terfi edin ki beyaz vezirinizi alacak hamleyi hiç bulamasın.",
+      "targetSan": [
+        "fxg1=N+"
+      ],
+      "hint": "Beyazın şahının nerede durduğuna bakın, sonra dört terfi taşından hangisinin g1'den ona saldıracağını sorun."
+    }
+  ]
+}

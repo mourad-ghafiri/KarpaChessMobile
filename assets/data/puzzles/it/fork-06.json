@@ -1,0 +1,14 @@
+{
+  "id": "fork-06",
+  "fen": "4r2k/pp4p1/5p2/2n5/8/5Q2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qh5+",
+    "Kg8",
+    "Qxe8+"
+  ],
+  "rating": 880,
+  "title": "Colonna e Diagonale",
+  "setup": "La colonna h è aperta davanti al re nero, e la sua torre è appena passata in e8.",
+  "hint": "La vostra donna vuole l'unica casa dove una colonna e una diagonale finiscono ciascuna su un pezzo nero.",
+  "explanation": "## L'idea\n\n{{Qh5+}} dà scacco lungo la colonna h aperta, e sull'altra linea guarda attraverso g6 e f7 dritta la torre. Il pedone in g7 lascia al Nero solo {{Kg8}}, e {{Qxe8+}} prende la torre con scacco. Una donna inforchetta perché è una torre e un alfiere insieme."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fork-08",
+  "fen": "1kbr4/pp6/2P5/8/8/8/5PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "c7+",
+    "Ka8",
+    "cxd8=Q"
+  ],
+  "rating": 950,
+  "title": "El peón se lo lleva todo",
+  "setup": "Tu peón de c6 está a dos pasos de una nueva dama, con el rey negro en b8 y una torre en d8.",
+  "hint": "Un peón ataca dos casillas en diagonal. Encuentra el avance que ataca las dos y luego cuenta quién lo defiende.",
+  "explanation": "## La idea\n\n{{c7+}} ataca b8 y d8 a la vez, y la torre de c1 defiende al peón, así que el rey no puede comérselo. Sus propios peones y su alfil solo dejan {{Ka8}}, y {{cxd8=Q}} se come la torre y trae una nueva dama en una sola jugada."
+}

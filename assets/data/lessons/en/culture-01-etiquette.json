@@ -1,0 +1,50 @@
+{
+  "id": "etiquette",
+  "title": "Manners at the Board",
+  "summary": "The rules nobody prints on the box",
+  "proof": "culture-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "title": "Your Hand Arrives First",
+      "text": "Touch one of your own pieces in a rated game and you have chosen it. The piece you touch is the piece that moves, as long as it has a legal move at all. Touch an enemy piece meaning to take it and you take it. No take-back, no apology.\n\nWhite is in check. The king on e1 has exactly two squares, {{Kf1}} and {{Ke2}}, and both of them give up castling for the rest of the game.\n\nThere is a better move on this board. Brush the king while you are still looking for it and it is gone."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "prompt": "Keep your castling rights by blocking the check with the knight that also covers d5 and b5.",
+      "targetSan": [
+        "Nc3"
+      ],
+      "hint": "Two squares block that diagonal. One of them shuts in your bishop on c1; the other looks into Black's half of the board."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/2N2N2/PP3PPP/R1BQK2R b KQk - 2 7",
+      "title": "Say It Before You Touch It",
+      "text": "Your knight on c3 is sitting crooked, half onto b3. You are allowed to straighten it. You are not allowed to just reach out and do it.\n\nSay *j'adoube* first — French for \"I adjust\" — out loud, before your fingers arrive, and only when it is your turn. Here it is Black's move, so the knight stays crooked and you wait.\n\nThat is nearly the whole vocabulary. Nobody announces check, nobody comments on a move, and you do not groan when your opponent finds the good one."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "The Offer Has an Order",
+      "text": "New board, and this one is worse: you are a queen down. Black's bishop on d1 collected it last move, and Black has just offered a draw.\n\nThere is an order to that. Make your move, offer the draw, then press the clock. The offer carries no conditions and cannot be withdrawn — it stands until your opponent accepts it, declines out loud, or touches a piece meaning to move it, which is a refusal by itself.\n\nOffering again every few moves is not persistence. It is distraction, and an arbiter is allowed to treat it as one."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "How to Lose, and When Not To",
+      "text": "When a game is gone, say so. The Laws want a declaration — say it plainly — not a king knocked over on its side, which is theater and leaves your opponent guessing. Then the handshake, which no rule requires and everybody does.\n\nNone of that applies here. A player a whole queen up does not need a draw, so the offer is the best move Black could find, and it is not on the board.\n\nYour king is uncastled and your queen is gone. Neither fact matters to the pieces already pointed at f7.\n\n> Decide with your head. Your hand only gets to agree."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "prompt": "Black is a queen up and offering a draw, so decline it with the check that forces mate next move.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "Your bishop and the knight on e5 are aimed at the same pawn. Check with the one that leaves Black a single legal reply."
+    }
+  ]
+}

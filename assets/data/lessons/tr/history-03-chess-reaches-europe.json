@@ -1,0 +1,56 @@
+{
+  "id": "chess-in-europe",
+  "title": "Yeni Adlar, Eski Hamleler",
+  "summary": "Sınırda yeniden adlandırıldı ve beş yüz yıl boyunca hiç değişmedi",
+  "proof": "history-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "Giriş Yolu",
+      "text": "Satranç Avrupa'ya arkasında bir tarih bırakmadan geçti.\n\nEn sağlam kanıtlanan yol, Müslüman İspanya'sı olan **Endülüs**ten geçer; orada şatranc, Hristiyan hükümdarlıklarından hiçbiri konuyla ilgili tek satır yazmadan çok önce oynanıyordu. Arap Sicilyası ikinci yoldur. Oyuna *zatrikion* diyen Bizans üçüncüsüdür ve dönemin tüccarları ile orduları hepsini birden kullandı.\n\nGeriye kalan, yolun öteki ucundaki kâğıtlardır. Katalonya'da 1008 dolaylarında düzenlenen bir vasiyetname bir manastıra satranç takımı bırakır ve onu kaleme alan kimse bunların ne olduğunu açıklama gereği duymaz."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "Hanımefendi ile Fil",
+      "text": "Avrupa'da vezir diye bir makam yoktu, bu yüzden **ferz** bir şahın yanına yakışan tek makamı aldı: *kraliçe* oldu. Latincede *regina*, Fransızcada *dame*. Bu ad değişimi erken oldu ve neredeyse her yerde oldu.\n\n**Alfil** böyle bir uzlaşmaya kavuşmadı. İtalya onu sancaktar anlamında *alfiere* yaptı; Fransa soytarı anlamında *fou*; Almanya koşucu. İngiltere hiç çevirmedi ve 1474'te ona hâlâ *aufin* diyordu. **Bishop**, yani *piskopos*, o tartışmayı ancak 1500'lerde kazanır — oymacıların meseleyi çözmesinden çok sonra; Lewis satranç taşları daha 1200'de *piskopos* başlığı takar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "Adlar Değişti, Hamleler Değişmedi",
+      "text": "Ad değiştirmek reform yapmak değildir.\n\nAvrupa'nın *kraliçesi* hâlâ tam ferzin yaptığı gibi çaprazda bir kare sürünüyordu. Avrupa'nın fili hâlâ yolda ne varsa onun başının üstünden aynı iki karelik sıçramayı yapıyor ve hep sıkışıp kaldığı aynı kısacık kare listesine iniyordu. İki taş da 1470'lerde İber Yarımadası'nda yeniden kuruldu ve o da bir sonraki dersin konusu.\n\nSizin tahtanız bunun çoktan öte yakasında. Siyahın c8'deki fili sıradaki hamlede tahtanın uzun açık çaprazına adım atabilir. c8'de başlayan bir alfil, yüz partide o çaprazın tek bir karesine bile ulaşamazdı."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "prompt": "c8'deki fili, tahtanın bütün boyunca uzanan o uzun açık çaprazın üstüne götürün.",
+      "hint": "O filin tam iki karesi var. Bunlardan yalnızca biri o çaprazda.",
+      "targetSan": [
+        "Bb7"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Dört Kare ve Bir Beşincisi",
+      "text": "Yeni tahta, sıra beyazda ve c1'de daha hiçbir yere gitmemiş bir fil var.\n\n{{Bd2}}, {{Be3}}, {{Bf4}}, {{Bh6}} — bir çapraz boyunca dört kare ve aralarında duran bir beşincisi.\n\nc1'deki bir alfil bütün o hattın tam iki karesine ulaşabilirdi: d2 dolu olsun olmasın onun üstünden atlayarak varılan e3 ve yine aynı sıçrayışla g5. Diğer üçü bütün parti boyunca ona kapalıydı.\n\nReformun getirdiği budur. Mesele esas olarak mesafe değil."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Üstünden Değil, İçinden",
+      "text": "Mesafe küçük yarısıdır. Büyük yarısı, filin karelerin üstünden değil *içinden* geçmesidir.\n\nAlfil hiçbir şeyi yerinde tutamazdı. Yolunda ne varsa üstünden uçardı, yani önünde hiçbir şey yakalanmazdı. Fil ise hattı kat eder ve o hatta duran taşın bir sorunu olur: yana çekilsin, arkasında ne varsa birden alınmaya hazır hâle gelir.\n\nSiyahın f6'daki atının tam arkasında d8'deki vezir duruyor; tek çapraz, aralarında boş bir e7. Henüz hiçbir şey olmadı. Birinin gelmesi gerek."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "prompt": "O çapraza varın ki f6'daki at, arkasındaki veziri elden vermeden tek kare bile oynayamasın.",
+      "hint": "f1'deki filin yolunda kendi e2 piyonu var. Ötekinin önünde hiçbir şey yok.",
+      "targetSan": [
+        "Bg5"
+      ]
+    }
+  ]
+}

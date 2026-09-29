@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-04",
+  "fen": "8/2B5/8/8/1p5Q/k7/2K5/8 w - - 0 1",
+  "solution": [
+    "Qc4",
+    "Ka4",
+    "Qa6#"
+  ],
+  "rating": 1500,
+  "title": "Şaha Tek Kare Verin",
+  "setup": "Siyahın şahı a3'te, tek bir piyonu b4'te ve c2'deki şahınız işin yarısını çoktan yapıyor.",
+  "hint": "Şahınız göründüğünden fazlasını kapsıyor. Siyahın hangi kareye gideceğini hesaplayın ve orada önceden bulunun.",
+  "explanation": "## Fikir\n\n{{Qc4}} şah değildir, ama şahınız b2'yi tutarken b3 ile b4'ü alır. Şahı kenarınızdan uzak tutmanın tek yolu {{Ka4}}'tür — {{b3+}} {{Qxb3#}} hamlesine yürür — ve {{Qa6#}} iner. Kenarda tek karesi kalmış şah çoktan mat olmuştur; yalnızca henüz bilmemektedir."
+}

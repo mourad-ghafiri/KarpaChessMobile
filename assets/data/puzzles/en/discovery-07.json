@@ -1,0 +1,12 @@
+{
+  "id": "discovery-07",
+  "fen": "2r1k3/p1q2ppp/8/4B3/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxc7+"
+  ],
+  "rating": 1200,
+  "title": "Rook Behind Bishop",
+  "setup": "Black's king is still on e8 opposite your rook on e1, and only your own bishop keeps the file closed.",
+  "hint": "Your bishop is the one thing holding the e-file shut. Where can it go and pay for itself on the way?",
+  "explanation": "## The Idea\n\n{{Bxc7+}} takes the queen and opens the rook's check down the e-file at the same moment. The rook on c8 does defend c7, but Black must answer the check first and can only win the bishop back afterward: a queen for a bishop."
+}

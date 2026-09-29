@@ -1,0 +1,50 @@
+{
+  "id": "attacking-the-fianchetto",
+  "title": "Attaquer le fianchetto",
+  "summary": "Chassez le fou, pas les pions",
+  "proof": "fianchetto-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Deux cases que personne ne garde",
+      "text": "L'abri noir semble solide : trois pions, un fou, et un roi blotti derrière eux. Comptez ce que ces pions couvrent réellement.\n\nLe pion g est allé en g6, et à cet instant f6 et h6 sont sorties pour toujours de la portée des pions. Les pions ne reculent pas. Les deux cases sont noires, toutes deux à une case des pions derrière lesquels se cache le roi, et une seule pièce répond des deux — le fou en g7."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Quels pions sont libres",
+      "text": "Le roi blanc en c1 se tient à l'autre bout de l'échiquier par rapport à tout cela.\n\nUn assaut de pions fonctionne quand votre propre roi ne se tient pas derrière les pions que vous dépensez. Le roi blanc n'y est pas. Le roi noir, si — alors les pions noirs restent chez eux pour défendre, tandis que les pions blancs sont libres de courir sur quelque chose.\n\nLa tour en h1 attend depuis le début de la partie que l'un d'eux ouvre la colonne devant elle."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "prompt": "Lancez l'assaut sur l'aile où vit le roi noir, et partez à pleine vitesse.",
+      "targetSan": [
+        "h4"
+      ],
+      "hint": "Le pion en g6 est ce qui tient l'abri noir — lequel de vos pions peut monter le frapper ?"
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "Bloqué n'est pas fini",
+      "text": "Le pion noir en h5 arrête net le vôtre, et les pions ne peuvent pas se contourner. Les Blancs en amènent donc un second.\n\n{{g4}} frappe h5, {{hxg4}} prend, {{fxg4}} reprend, et le pion h blanc court de nouveau avec la tour en h1 derrière lui. Deux coups plus tard, la colonne est ouverte.\n\nC'est la route lente, et elle fonctionne. Elle dépense aussi quatre coups pour acheter une colonne."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "La route plus rapide",
+      "text": "Il existe une réponse plus rapide, et elle n'a pas du tout besoin de la colonne.\n\nRetirez le fou en g7 de l'échiquier et h6 devient une case d'atterrissage. Une dame qui y arrive fixe g7, à une case du roi, et aucun pion noir ne pourra jamais la repousser — c'était réglé dès que le pion g est allé en g6. La dame noire en d8 et la tour en c8 regardent toutes deux dans la mauvaise direction pour aider.\n\n> Contre un fianchetto, vous n'attaquez pas des pions. Vous chassez un fou."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "prompt": "Échangez la seule pièce noire qui garde les cases noires à côté du roi noir.",
+      "targetSan": [
+        "Bh6"
+      ],
+      "hint": "Votre fou en e3 parcourt les mêmes cases noires que celui des Noirs — envoyez-le jusqu'à ce qu'ils se rencontrent."
+    }
+  ]
+}

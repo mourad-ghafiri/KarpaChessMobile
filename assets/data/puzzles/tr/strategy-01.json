@@ -1,0 +1,11 @@
+{
+  "id": "strategy-01",
+  "fen": "rnbqk2r/p1p2pp1/1p2p1n1/3pP2p/3P3P/P1P3Q1/2P2PP1/R1B1KBNR b KQkq - 1 9",
+  "solution": [
+    "Ba6"
+  ],
+  "title": "c8'deki Tutsak",
+  "setup": "c8'deki filiniz kendi piyonlarınızın arkasına kapatılmış, beyazın f1'deki filinin ise açık bir yolu var. En kötü taşınızı beyazın en iyisine önerin.",
+  "hint": "b piyonunuz çoktan yana çekildi. Açtığı çapraz nereye gidiyor ve uzak ucunda kimin fili duruyor?",
+  "explanation": "## Fikir\n\nc8'deki fil siyahın en kötü taşıdır: d5 ile e6'daki piyonlar onun renginde durur ve hiçbir yere gitmez. Beyazın f1'deki fili ise tam tersidir ve d3'ten g6'daki ata vururdu.\n\n{{Ba6}} birini ötekine önerir. Beyaz alırsa at b8'den geri alır ve bir süre kenarda kalır, ama siyah hiçbir şey yapmayan taşı en çok işi yapmak üzere olan taşa değişmiş olur."
+}

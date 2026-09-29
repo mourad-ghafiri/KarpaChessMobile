@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-08",
+  "fen": "8/8/8/6k1/8/8/P7/7K w - - 0 1",
+  "solution": [
+    "a4"
+  ],
+  "title": "Dos casillas de golpe",
+  "setup": "Tu rey está lejísimos, y el rey negro de g5 sale en busca de tu peón de a. Encuentra la única forma de que el peón llegue a la octava fila.",
+  "hint": "Imagina un cuadrado desde tu peón hasta su casilla de coronación y hacia el lado. El rey negro no debe poder entrar en él.",
+  "explanation": "## La idea\n\n{{a4}} deja al peón a cuatro jugadas de a8. Dibuja el cuadrado de a4 a a8 y hacia el lado hasta la columna e: el rey de g5 no puede entrar en él, así que nunca alcanza al peón.\n\nUn paso de una casilla a a3 deja cinco jugadas por delante, el cuadrado se estira hasta la columna f y el rey entra en él de inmediato. El doble paso inicial del peón marca toda la diferencia."
+}

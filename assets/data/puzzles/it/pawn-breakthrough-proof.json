@@ -1,0 +1,13 @@
+{
+  "id": "pawn-breakthrough-proof",
+  "fen": "8/5ppp/8/5PPP/4k3/8/8/K7 w - - 0 1",
+  "solution": [
+    "g6",
+    "fxg6",
+    "h6"
+  ],
+  "title": "Sfondate Prima che Arrivi",
+  "setup": "Il re nero in e4 sta venendo a prendersi i vostri pedoni, e il vostro re è troppo lontano per aiutare. Avete esattamente una mossa che vince.",
+  "hint": "Un pedone nero lascia la sua colonna solo per catturare. Quale spinta può essere presa da tutte e due le parti, e che cosa lascia aperto ciascuna presa?",
+  "explanation": "## L'idea\n\n{{g6}} offre il pedone di mezzo a tutti e due i pedoni neri che gli stanno accanto. Ogni altra mossa perde, perché il re nero si mangia semplicemente i vostri pedoni.\n\nDiciamo che il Nero prenda con {{fxg6}}: {{h6}} offre un secondo pedone. Adesso uno dei vostri passa qualunque cosa faccia il Nero. Se prende in h6, il pedone f corre fino a f8 prima che il re ci arrivi. Se lo lascia stare, il vostro pedone h prende in g7 e promuove."
+}

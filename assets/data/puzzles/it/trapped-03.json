@@ -1,0 +1,12 @@
+{
+  "id": "trapped-03",
+  "fen": "3r2k1/pp3pp1/5n1p/8/7B/2N3P1/PP3P1P/4R1K1 b - - 0 1",
+  "solution": [
+    "g5"
+  ],
+  "rating": 1090,
+  "title": "Due Passi, Nessuna Uscita",
+  "setup": "L'alfiere bianco sta in h4, e il Bianco ha già giocato g3, chiudendo una delle sue due case di ritirata.",
+  "hint": "Il pedone stesso del Bianco blocca già una delle due uscite dell'alfiere. Chi controlla l'altra?",
+  "explanation": "## L'idea\n\n{{g5}} attacca l'alfiere, e h4 ha esattamente due case diagonali. g3 ha il pedone stesso del Bianco, e il pedone adesso in g5 è difeso da h6, quindi Bxg5 hxg5 consegna un pezzo per un pedone. Intrappolare riguarda le case, non gli attacchi."
+}

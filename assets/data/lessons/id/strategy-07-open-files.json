@@ -1,0 +1,56 @@
+{
+  "id": "open-files",
+  "title": "Lajur Terbuka",
+  "summary": "Jalan bagi benteng — dan cara membangunnya",
+  "proof": "strategy-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Hitung Pion-Pion e",
+      "text": "Tak ada. Keduanya sudah ditukar pada langkah ketiga dan keempat, dan yang tersisa adalah lorong yang membentang sepanjang tinggi papan, berujung di raja hitam di e8.\n\nLorong itu adalah **lajur terbuka**: lajur tanpa pion dari warna mana pun. Dua buah berdiri di sana, kuda di e4 dan gajah di e7, dan buah bisa bergerak. Pion adalah satu-satunya hal di papan catur yang tak bisa melangkah ke samping untuk menyingkir dari jalan benteng, dan di sini tak ada satu pun."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Milik Siapa Jalan Ini",
+      "text": "Benteng di papan yang tertutup hanyalah penonton. Beri ia lajur tanpa pion dan akhirnya ia menunjukkan nilainya, karena lajur bagi benteng sama seperti diagonal bagi gajah — satu-satunya santapannya.\n\nTetapi benteng yang mana. Salah satu benteng Anda terjebak di belakang kudanya sendiri di b1 dan tak bisa menyeberang. Yang lain bebas.\n\nDan benteng berjalan lebih dulu, menteri di belakangnya. Menteri di barisan terdepan adalah sasaran yang bisa diusir buah ringan mana pun sambil mendapat tempo."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "prompt": "Tempatkan buah yang hidup di lajur ke satu-satunya lajur yang tak lagi berisi pion.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "Anda punya dua benteng dan hanya satu yang bisa mencapai lorong itu dalam satu langkah."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Tiga Tugas, Satu Langkah",
+      "text": "{{Re1}} membawa benteng ke dalam permainan, menyerang kuda di e4 di lorong yang tak berisi apa pun lagi, dan membidik raja yang belum bergerak.\n\nHitam harus menjawab. {{Bg4}} menjepit kuda di f3 terhadap menteri di d1, dan Putih melanjutkan dengan {{c4}}, menyerang pion di d5.\n\nKembalikan pion putih ke petak e2 dan semua itu tak ada. Benteng duduk di rumah di belakangnya, dan Putih memainkan tengah permainan kurang satu buah."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Hampir Menjadi Jalan",
+      "text": "Papan baru, soal yang lebih sulit: setiap lajur di sini berisi pion, dan kedua benteng Putih tak punya apa pun untuk dibidik.\n\nLajur c yang paling mirip jalan. Putih sama sekali tak punya pion c, jadi hanya pion Hitam di c6 yang menutupnya — setengah terbuka, dan lajur setengah terbuka adalah lajur yang menunggu diselesaikan.\n\nPion itu tak akan pergi dengan sendirinya. Pion meninggalkan lajurnya hanya karena satu alasan: ia menangkap sesuatu. Jadi Putih harus memberinya sesuatu untuk ditangkap."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Pion Lebih Sedikit, Tekanan Lebih Besar",
+      "text": "Pion mana yang mencongkel. Hanya satu pion Putih yang bisa menyentuh c6: pion di b4, dengan pion di a2 di belakangnya sebagai cadangan.\n\nDua pion putih melawan tiga pion hitam di sayap itu terdengar seperti sisi hitungan yang salah. Itulah **serangan minoritas**, dan ia adalah linggis. Hitam punya tiga jawaban terhadap pion yang didorong ke bawah c6, dan ketiganya konsesi: tangkap dan lajurnya terbuka, dorong melewatinya dan pion c berhenti menguasai apa pun, diam saja dan Putih bertukar di c6, meninggalkan pion yang lemah.\n\n> Benteng tidak menunggu lajur terbuka. Ia memilih satu dan membukanya."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "prompt": "Paksa lajur c terbuka dengan menyerang pion hitam yang berdiri di sana.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Hitung pion di setiap sayap, lalu tanyakan pion Anda mana yang bisa mencapai c6 dalam satu langkah."
+    }
+  ]
+}

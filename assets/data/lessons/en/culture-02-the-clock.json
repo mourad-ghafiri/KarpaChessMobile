@@ -1,0 +1,62 @@
+{
+  "id": "chess-clock",
+  "title": "The Clock",
+  "summary": "Two displays, one resource you cannot earn back",
+  "proof": "culture-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "Time Is the Second Board",
+      "text": "Three minutes each, and White's bishop on c3 is attacking your queen on b2.\n\nA chess clock is two displays in one case, and only one of them ever runs. Yours runs while the position is your problem. Press, and yours stops and White's starts.\n\nThat turns every long think into a purchase. You buy accuracy with a resource nothing refills, and the shorter the game the higher the price. You can win every trade on the board and still lose, because the game is played on two boards and one of them is counting down."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "One Hand, One Button",
+      "text": "The Laws are specific about the hand: you move the piece and press the button with the same one. That single rule ends a family of tricks — no spare palm parked over the clock, no press that arrives before the piece does.\n\nA move is finished when the piece is let go. Your turn is not finished until the button goes down, and every second in between is charged to you.\n\nSo the press belongs to the move rather than following it. Your display is running while you read this."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "prompt": "Your queen is attacked and the clock is running, so save it in one move without moving it.",
+      "targetSan": [
+        "Bb4"
+      ],
+      "hint": "Anything that captures on b2 has to leave c3 first — what could you line up through it so that leaving is illegal?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqP1PPPP/RN1QKB1R w KQkq - 2 7",
+      "title": "One Second Against Three",
+      "text": "The bishop on b4 defends nothing. It makes the capture illegal instead: taking on b2 means stepping off the diagonal that shields the king on e1.\n\nThat answer cost you about a second, and it costs White more than that. {{Qd2}} buys the diagonal back by standing on it, and after a long think White has only put your queen under attack again.\n\nCheap moves for you, expensive ones for your opponent. That is the exchange rate the clock pays out on."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Getting Time Back",
+      "text": "Two ways a clock hands time back, and they behave nothing alike.\n\n**Increment** adds a fixed amount every time you press, and whatever you do not spend banks up. A `3+2` game is three minutes plus two seconds a move, so a quick player can finish with more time than they started with.\n\n**Delay** waits instead. Each move gets a fixed pause before your main time starts falling, and any of that pause you leave unused simply vanishes.\n\n> Increment pays the fast. Delay only shelters the slow."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Classical, Rapid, Blitz",
+      "text": "FIDE sorts games by one number: the base time plus sixty times the increment, which is roughly what a sixty-move game would hand you.\n\nTen minutes or less is blitz. More than that and under an hour is rapid. Sixty minutes and up is classical, where a game can run six hours and a single move can eat forty minutes of it.\n\nBullet — a minute or two for the whole game — is an online word. It appears nowhere in the Laws, which has never stopped anyone from playing it."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "When the Flag Falls",
+      "text": "Four seconds left. The phrase comes from the machinery: a mechanical clock carried a small metal flag that the minute hand lifted and let drop, and time is still said to run out when the flag falls.\n\nLose the race and you lose the game, with one exception. If the player who still has time could not checkmate with what remains — a bare king, say — the result is a draw.\n\nAt this speed the eye grabs {{Qxa1}} and the careful hand trades with {{Qxc3}}. Neither one is the move."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "prompt": "With two seconds showing, leave the rook and the queen trade alone, and take the piece that attacked your queen.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "If White takes back with the queen, your own queen has a check on the first rank that nothing white can answer."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "forks-01",
+  "fen": "8/5ppp/3k4/q7/8/8/1N3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc4+",
+    "Kc5",
+    "Nxa5"
+  ],
+  "title": "Dua Bangsawan, Satu Lompatan",
+  "setup": "Raja Hitam di d6 dan menteri di a5 berjarak dua petak, dan kuda Anda di b2 belum menyentuh keduanya.",
+  "hint": "Hitung mundur dari sasarannya: petak mana yang menyerang raja, dan mana di antaranya yang juga menyerang menteri?",
+  "explanation": "## Ide\n\nSekak kuda tak bisa dihalangi, dan buah yang diserangnya hampir tak pernah bisa menangkapnya balik. Jadi satu langkah kuda yang menyerang raja dan menteri bersamaan memenangkan menteri.\n\n{{Nc4+}} menyentuh d6 dan a5 sekaligus. Sekak harus dijawab lebih dulu, tak ada langkah raja yang mencapai a5 untuk melindungi menteri, dan sesudah {{Kc5}} kuda mengambilnya dengan {{Nxa5}}.\n\nDua sasaran, satu langkah, dan Hitam hanya pernah bisa menyelamatkan satu."
+}

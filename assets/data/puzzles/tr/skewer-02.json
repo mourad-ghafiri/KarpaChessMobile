@@ -1,0 +1,14 @@
+{
+  "id": "skewer-02",
+  "fen": "8/3k3q/1B2p3/8/2Qp4/8/4bPP1/6K1 w - - 0 1",
+  "solution": [
+    "Qc7+",
+    "Ke8",
+    "Qxh7"
+  ],
+  "rating": 940,
+  "title": "Yedinci Yatay Şişi",
+  "setup": "Siyahın d7'deki şahı ile h7'deki veziri, aralarında hiçbir şey olmadan yedinci yatayı paylaşıyor.",
+  "hint": "Siyahın şahının yanındaki hangi kareyi beyazın başka bir taşı zaten kapsıyor? Paylaştıkları yataydan şah çekin.",
+  "explanation": "## Fikir\n\n**d7**'deki şah ile **h7**'deki vezir tek bir yatayda oturuyor. {{Qc7+}} öteki uçtan şah çeker ve **b6**'daki fil c7'yi koruduğu için şah alamaz. {{Ke8}} geldikten sonra yatay temizlenir ve {{Qxh7}} veziri toplar."
+}

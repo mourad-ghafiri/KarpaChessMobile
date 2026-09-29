@@ -1,0 +1,62 @@
+{
+  "id": "piece-values",
+  "title": "Nove, Cinque, Tre, Uno",
+  "summary": "Il prezzo di ogni pezzo e il conto che ferma un errore grave prima che accada",
+  "proof": "first-steps-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Il Listino Prezzi",
+      "text": "Nessuno stampa un prezzo su un pezzo degli scacchi. I giocatori li hanno ricavati lo stesso, in secoli passati a guardare quali cambi finivano bene.\n\nSi conta tutto in pedoni. Un pedone è 1. Un cavallo è 3, e lo stesso vale per un alfiere. Una torre è 5. La donna è 9.\n\nIl re non ha numero: non viene mai cambiato né catturato, quindi non c'è nulla da prezzare.\n\nSommate quello che avete ancora e quel totale è il vostro **materiale**: l'unica parte di una posizione che potete contare sulle dita.\n\n> I numeri sono una guida, non una legge. Una posizione può smentirli tutti."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Uno per Uno",
+      "text": "Guardate passare un cambio alla pari: {{e4}} {{d5}} {{exd5}} {{Qxd5}}.\n\nIl Bianco guadagna un pedone. Il Nero se lo riprende subito. Tutti e due hanno esattamente quello che avevano quattro mosse fa, e il conto non si è spostato di un punto.\n\nSono così quasi tutte le prese: uno scambio fra uguali, in cui cambia la posizione e non il materiale. Le prese che vale la pena cercare sono dell'altro tipo."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Cinque Contro Tre",
+      "text": "La torre in e1 vale cinque, il cavallo in f3 vale tre. Una torre per un cavallo non è affatto un cambio: è un guadagno di due, e capita abbastanza spesso da avere un nome tutto suo: vincere la **qualità**.\n\nSommare i numeri diventa meno affidabile man mano che i mucchi crescono. Un cavallo e un alfiere — i **pezzi leggeri** — fanno sei, e sei fanno anche una torre e un pedone, ma di solito è la coppia di pezzi ad avere la parte migliore dell'affare. Anche tre pezzi leggeri fanno nove, come una donna, e in genere i tre pezzi battono la donna."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Un Cavallo in Più",
+      "text": "Contate quello che c'è. Donna, torre e tre pedoni per parte, e il Bianco ha in più un cavallo. Un pezzo solo, ed è tutta la differenza fra i due schieramenti.\n\nUn pezzo in più conta di più quando c'è meno di tutto il resto. Per questo chi è avanti cambia: ogni scambio alla pari lascia al vostro cavallo in più una fetta più grande di ciò che resta, e lascia al Nero meno pezzi con cui combinare qualcosa.\n\nUno scambio alla pari è disponibile proprio adesso."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "prompt": "Siete avanti di un cavallo: proponete al Nero il cambio che toglie da entrambe le parti il pezzo più pesante.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "Le due donne condividono già una colonna senza nulla in mezzo, e la torre nera sorveglia quella casa."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/3r4/8/5N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Che Cosa Ha Comprato il Cambio",
+      "text": "Nove per nove. Le donne se ne sono andate e il conto non si è spostato di un punto: il Bianco è avanti di un cavallo, esattamente come prima.\n\nQuello che è cambiato è tutto il resto. Il Nero ha una torre in d5, tre pedoni e un re, e nessuno di loro può fare nulla contro un pezzo che semplicemente non c'è. Meno pezzi restano, più forte parla quello in più.\n\nSe siete indietro di materiale fate il contrario e tenete i pezzi. Ogni pezzo ancora in piedi è una cosa in più che può andare storta per chi è avanti."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "title": "Contato, Oppure No",
+      "text": "Un pezzo regalato per niente è un **errore grave**: non è tornato indietro nessun materiale, e se le regole lo permettessero la mossa la riprendereste.\n\nUn pezzo dato apposta, per qualcosa che avete già contato e che vedete arrivare, è un **sacrificio**. Da fuori le due mosse sembrano identiche. Tutta la differenza sta nell'aver fatto i conti prima.\n\nEcco perché i conti vengono prima della presa. Qui il vostro cavallo raggiunge due pezzi neri, e i prezzi non sono quelli che sembrano."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "prompt": "Una presa è gratis e l'altra vi costa il cavallo: contatele entrambe e fate quella che rende di più.",
+      "targetSan": [
+        "Nxc6"
+      ],
+      "hint": "Una torre vale cinque e un pedone uno, e il cavallo in e5 li raggiunge tutti e due."
+    }
+  ]
+}

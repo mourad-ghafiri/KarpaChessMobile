@@ -1,0 +1,59 @@
+{
+  "id": "notation",
+  "title": "A Letter and a Square",
+  "summary": "Read a game off the printed page and play it back, move for move",
+  "proof": "notation-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Two Characters, One Move",
+      "text": "Two characters is a whole move. Chess has one written language — **algebraic notation** — and it records only where a piece **landed**, never the journey it took.\n\nThe pawn is the plain case. It carries no letter at all, so the square is the entire move. The white pawn on e2 can step to {{e3}} or go two squares to {{e4}}, and a book prints those as `e3` and `e4`.\n\nNot *white pawn, e2 to e4*. Just `e4`. You already know how to read that."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppp1p/6p1/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "prompt": "A printed game opens `1.e4 g6`, and the next entry is `2.d4` — play the move it names.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "No capital letter means a pawn is on the move, and a pawn still on its home square may travel one square or two."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "The Piece Alphabet",
+      "text": "Every piece except the pawn carries a capital letter, and the letter goes in front of the square. **K** is the king, **Q** the queen, **R** the rook, **B** the bishop. The knight gets **N**, because K was already spoken for.\n\nSo a written move is a letter and a square, joined. The white bishop on f1 can reach e2, c4 or b5, and each of those is the same two ideas: {{Be2}}, {{Bc4}}, {{Bb5}}.\n\nNobody says *which* bishop. Only one of them can get to the square named, so the letter and the square do the whole job."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "prompt": "White's next entry reads `Nf3` — set the piece that letter names on the square that follows.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "The capital is not K, and K belongs to the king — so it names the piece that had to settle for its second letter."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "One Move, Then the Other",
+      "text": "A game on a page is nothing but these little addresses, one after another, sides taking turns.\n\nBlack answers {{Nc6}} — N for the piece, c6 for the square. White replies {{Bc4}} — B for the piece, c4 for the square. Watch the board play both.\n\nThree questions read any quiet move. Is there a capital letter? Which letter is it? Which square follows? Captures and checks add a mark of their own, and each gets its own lesson later."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "Numbers and Dots",
+      "text": "Moves come in pairs, and a printed game numbers each pair: `1.e4 e5 2.Nf3 Nc6 3.Bc4`. Number, White's move, Black's move.\n\nTwenty-three characters, and they rebuild the exact position in front of you. That is why games are printed as lines of text and not as pictures.\n\nWhen a Black move has to stand alone, three dots hold White's place: `2...Nc6` is Black's answer on move two. The dots are there so you never lose track of whose turn it is.\n\n> A letter for the piece, two characters for the square, a number to keep count. Everything else in notation is built on those three."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "The next entry in the book is `3...Nf6` — read it and play Black's move.",
+      "targetSan": [
+        "Nf6"
+      ],
+      "hint": "One black knight is already out on c6; the other has not moved yet, and it stands on g8."
+    }
+  ]
+}

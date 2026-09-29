@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-29",
+  "fen": "7k/5K2/8/6N1/8/8/8/2B5 w - - 0 1",
+  "solution": [
+    "Bb2#"
+  ],
+  "title": "Long Diagonal Spear",
+  "setup": "Your knight on g5 and king on f7 surround Black's king in the corner, and your bishop is still at home on c1.",
+  "hint": "The knight and king cover every square around the king. Find the diagonal that reaches h8.",
+  "explanation": "## The Idea\n\nThe knight and king have done the boxing in: your king on f7 covers g7 and g8, and the knight on g5 covers h7.\n\n{{Bb2#}} steps onto the long diagonal and checks the king on h8 from the far corner. Nothing can block, and the king has no square left.\n\nThe long diagonal from a1 to h8 is a mating lane: once the king is boxed in the corner, a bishop can finish from across the board."
+}

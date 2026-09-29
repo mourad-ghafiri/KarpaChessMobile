@@ -1,0 +1,14 @@
+{
+  "id": "discovery-12",
+  "fen": "6k1/pb3ppp/3p4/8/8/8/2Q3rP/2R2N1K b - - 0 1",
+  "solution": [
+    "Rxc2+",
+    "Kg1",
+    "Rg2+"
+  ],
+  "rating": 1350,
+  "title": "Kincir Angin Berputar",
+  "setup": "Benteng Anda di g2 menghalangi garis gajah Anda sendiri menuju h1, dan menteri Putih di c2 dijaga sebuah benteng.",
+  "hint": "Benteng bisa pergi dengan sekak dan langsung kembali dengan sekak. Hitung mengapa g2 adalah petak yang tak pernah bisa diambil Putih.",
+  "explanation": "## Ide\n\n{{Rxc2+}} mengambil menteri yang dijaga, karena meninggalkan g2 menyingkap sekak gajah dari b7. {{Kg1}} terpaksa, dan {{Rg2+}} langsung kembali: raja tak bisa menangkap, karena gajah menguasai g2, dan f1 terhalang kuda Putih sendiri. Benteng itu tak tersentuh, dan menteri hilang dengan cuma-cuma."
+}

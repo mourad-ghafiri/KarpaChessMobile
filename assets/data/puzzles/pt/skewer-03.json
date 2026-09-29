@@ -1,0 +1,14 @@
+{
+  "id": "skewer-03",
+  "fen": "8/7p/4k3/1Q1p4/B2P3b/2P4q/8/K7 w - - 0 1",
+  "solution": [
+    "Qd7+",
+    "Kf6",
+    "Qxh3"
+  ],
+  "rating": 980,
+  "title": "Linha de Fogo Diagonal",
+  "setup": "O rei preto em e6 e a dama preta em h3 estão na mesma diagonal, e ela está completamente vazia.",
+  "hint": "Procura um xeque que aterre na diagonal em que a dama preta já está. O que guarda essa casa?",
+  "explanation": "## A Ideia\n\nAs casas d7, e6, f5, g4 e h3 formam uma só diagonal, rei à frente e dama na outra ponta. {{Qd7+}} entra nela, e o bispo de **a4** cobre d7 no instante em que a dama deixa b5, portanto o rei não pode comer. {{Kf6}}, e depois {{Qxh3}}."
+}

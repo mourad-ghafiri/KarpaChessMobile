@@ -1,0 +1,11 @@
+{
+  "id": "common-mistakes-proof",
+  "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/1Q6/PPPP1PPP/RNB1K1NR b KQkq - 3 5",
+  "solution": [
+    "Nd4"
+  ],
+  "title": "A Terceira Viagem da Dama",
+  "setup": "A dama branca mexeu três vezes em cinco jogadas, e de b3 volta a fitar f7. Fá-la pagar a viagem.",
+  "hint": "Atacar uma dama com uma peça mais barata ganha uma jogada. Encontra o ataque que também olha para c2, a um salto do rei e da torre das brancas.",
+  "explanation": "## A Ideia\n\nÀ dama que saiu cedo chega a fatura. {{Nd4}} ataca-a com um cavalo, e o cavalo olha também para c2, onde uma captura daria xeque ao rei e atingiria a torre de a1.\n\nA dama tem de mexer uma quarta vez, e todas as respostas deixam as pretas nitidamente melhor. Comer f7 primeiro não muda nada: depois de o bispo capturar com xeque, o rei vai para e7, e a dama continua atacada."
+}

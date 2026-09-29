@@ -1,0 +1,12 @@
+{
+  "id": "smothered-06",
+  "fen": "2r3k1/pp3ppp/8/8/3n4/8/PP3PPP/KR1R4 b - - 5 24",
+  "solution": [
+    "Nc2#"
+  ],
+  "rating": 1310,
+  "title": "The Guard Steps Aside",
+  "setup": "White has just pulled its rook off the open c-file to b1, and its king has no square left.",
+  "hint": "Two knight jumps give check from the corner side; only one of them is out of reach of a pawn.",
+  "explanation": "## The Idea\n\nThe rook left c1 and stopped covering c2. {{Nc2#}} checks a king whose three neighbors, a2, b2 and b1, are all its own pieces, and no white piece watches c2. The other check, {{Nb3+}}, dies to axb3. Smothered mate lives in every corner, not just h8."
+}

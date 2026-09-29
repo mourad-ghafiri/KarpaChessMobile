@@ -1,0 +1,12 @@
+{
+  "id": "fork-02",
+  "fen": "6k1/pp3ppp/3b1n2/8/3PP3/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "e5"
+  ],
+  "rating": 730,
+  "title": "Un Pedone, Due Pezzi",
+  "setup": "L'alfiere nero in d6 e il cavallo in f6 stanno a due case di distanza sulla stessa traversa.",
+  "hint": "Un pedone attacca due case insieme, quindi cercate la spinta che atterra fra due pezzi neri.",
+  "explanation": "## L'idea\n\n{{e5}} colpisce insieme d6 e f6, e il pedone in d4 la difende, quindi l'alfiere non può prendere e basta. Il Nero salva un pezzo e voi prendete l'altro. Due pezzi avversari sulla stessa traversa, a due colonne di distanza, sono una forchetta di pedone che aspetta di accadere."
+}

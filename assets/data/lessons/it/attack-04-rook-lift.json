@@ -1,0 +1,44 @@
+{
+  "id": "rook-lift",
+  "title": "Il Sollevamento di Torre",
+  "summary": "Quando nessuna colonna arriva al re, passate di sopra",
+  "proof": "rook-lift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Due Torri a Casa",
+      "text": "Il re nero in g8 ha perso il pedone g e il pedone h, e la vostra donna in h5 è già vicina. La donna nera in g7 sta davanti al re, i due in fila sulla colonna g.\n\nLe vostre torri sono ancora tutte e due sulla prima traversa. La colonna c e la colonna e sono aperte, e nessuna delle due passa vicino a g8. La colonna g sì, e il vostro stesso pedone in g2 la chiude.\n\nUna torre che non trova una colonna è cinque punti di arredamento."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Di Sopra",
+      "text": "Una torre non deve per forza raggiungere la battaglia salendo per una colonna. Può salire sulla terza traversa e camminare di lato lungo di essa, sopra i propri pedoni invece che attraverso. Questo è un **sollevamento di torre**: prima su, poi di traverso.\n\nLa vostra terza traversa è vuota da a3 a g3, e g3 è la casa che conta. Una torre lì sta davanti al vostro pedone g, sulla colonna dove la donna e il re neri aspettano in fila.\n\n> Quando nessuna colonna si aprirà, portate la torre sopra i pedoni invece di aspettare dietro di loro."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "prompt": "Avviate una torre verso la colonna g, dove la donna nera sta davanti al suo re.",
+      "targetSan": [
+        "Rc3"
+      ],
+      "hint": "Tutte e due le torri possono salire, ma una sola ha un lavoro dove sta. Guardate le case che l'alfiere nero raggiunge."
+    },
+    {
+      "type": "teach",
+      "fen": "r3brk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/4R1K1 w - - 2 26",
+      "title": "La Torre Rimasta a Casa",
+      "text": "Il Nero vede la minaccia e risponde con una sua: l'alfiere in e8 attacca la vostra donna.\n\nMa e8 sta sulla colonna e aperta, e l'altra vostra torre non l'ha mai lasciata. {{Rxe8}} prende l'alfiere, {{Raxe8}} riprende, e niente ha toccato la torre in c3 né le case vuote che ha davanti.\n\nEcco perché il sollevamento è partito da c1. La torre che sale dev'essere quella che non ha niente da fare dove sta."
+    },
+    {
+      "type": "play",
+      "fen": "4rrk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/6K1 w - - 0 27",
+      "prompt": "Completate il sollevamento e portate la torre di traverso fino alla colonna dove la donna nera sta davanti al suo re.",
+      "targetSan": [
+        "Rg3"
+      ],
+      "hint": "Una volta che una torre sta su quella colonna, la donna non può uscirne senza lasciare il proprio re sotto scacco."
+    }
+  ]
+}

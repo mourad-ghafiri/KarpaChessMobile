@@ -1,0 +1,12 @@
+{
+  "id": "pin-10",
+  "fen": "5k2/5p2/3nq2R/4p1p1/1P2p2N/2PPP3/3r1Q2/6K1 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 1150,
+  "title": "A Torre Come a Dama",
+  "setup": "A tua dama em f2 olha por uma coluna f vazia para o peão preto de f7 e para o rei atrás dele.",
+  "hint": "A dama preta está guardada uma vez, por um peão. O que é que a tua própria dama está a fazer a esse peão a partir de f2?",
+  "explanation": "## A Ideia\n\n{{Rxe6}} ganha a dama por uma torre. O peão de f7 é o único defensor, e está cravado contra o rei de **f8** pela tua dama de **f2**. Todas as casas entre eles estão vazias, portanto a recaptura é ilegal e a dama desapareceu."
+}

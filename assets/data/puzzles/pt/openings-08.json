@@ -1,0 +1,13 @@
+{
+  "id": "openings-08",
+  "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Nxe5",
+    "fxe5",
+    "Qh5+"
+  ],
+  "title": "O Defensor Errado",
+  "setup": "As pretas defenderam o peão de e5 com o peão f em vez de uma peça. Castiga isso oferecendo material que abra a diagonal até ao rei preto.",
+  "hint": "Pergunta que estrada se abre se esse novo defensor for obrigado a capturar, e que peça branca espera ao fundo dela.",
+  "explanation": "## A Ideia\n\nDefender e5 com o peão f segura o peão, mas abre a diagonal de h5 até ao rei preto.\n\n{{Nxe5}} oferece uma peça para a usar. Se {{fxe5}}, então {{Qh5+}}: tapar em g6 perde a torre de h8 depois de {{Qxe5+}} e da captura seguinte da dama, e ir a e7 deixa a dama caçar o rei a descoberto. Recusar com {{Qe7}} recupera o peão, mas deixa o rei e o desenvolvimento das pretas nitidamente piores.\n\nDefende primeiro com peças. Um peão que mexeu não volta atrás."
+}

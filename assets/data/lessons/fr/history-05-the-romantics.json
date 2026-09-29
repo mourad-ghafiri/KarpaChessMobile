@@ -1,0 +1,71 @@
+{
+  "id": "romantic-era",
+  "title": "Une soirée à l'Opéra",
+  "summary": "Paris, 1858, et ce que Morphy a acheté avec une tour",
+  "proof": "history-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Une loge à l'Opéra",
+      "text": "Paris, 1858. La partie la plus célèbre de l'histoire a été jouée par quelqu'un qui aurait préféré regarder l'opéra.\n\nPaul Morphy a vingt et un ans, il est américain, et il est à mi-chemin d'une tournée européenne où il a battu tous ceux qui acceptaient de s'asseoir face à lui. Le duc de Brunswick lui offre une loge à l'Opéra, où l'on donne un opéra italien, et une partie ; le duc et le comte Isouard prennent les Noirs ensemble, en débattant entre eux à chaque coup. Morphy prend les Blancs, garde un œil sur la scène, et conclut en dix-sept coups.\n\nLes sources ne s'accordent toujours pas sur l'œuvre qu'on chantait ce soir-là."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "Le marché romantique",
+      "text": "Comptez les tours : Morphy en a une, les Noirs deux.\n\nLes échecs dans lesquels Morphy a grandi croyaient une chose, et y croyaient totalement — sortir toutes les pièces, ouvrir toutes les routes vers le roi adverse, et payer cette vitesse en matériel. Plus tard, on lui a donné un nom : l'école **romantique**. La plupart des joueurs qui s'y sont essayés se sont simplement retrouvés avec une tour de moins.\n\nMorphy est celui pour qui cela a fonctionné, et la différence tenait au calcul. Ces lignes ouvertes ont coûté un cavalier et une tour, et les Blancs ont trois points de retard."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "Deux tours endormies",
+      "text": "Chaque camp a une tour qui n'a pas bougé de la partie, et un seul camp est en mesure de la réveiller.\n\nLa tour noire est en h8, avec le roi en e8 et un fou en f8 entre eux, et ce fou n'a aucune case légale.\n\nLa case animée, c'est d7. Le fou en b5 attaque la tour en d7 ; le roi en e8, la dame en e7 et le cavalier en f6 la défendent tous. Trois contre un — rien ne tombe encore. Mais toutes les pièces blanches sauf une visent déjà ce coin de l'échiquier."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "prompt": "Faites entrer la dernière tour sur la colonne où se tient la tour noire.",
+      "hint": "Une seule colonne est dégagée de la première rangée blanche jusqu'à une pièce noire, et une seule pièce blanche n'a jamais quitté sa case.",
+      "targetSan": [
+        "Rd1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 b k - 1 14",
+      "title": "Ce n'est pas pour la tour",
+      "text": "La tour arrive, et le compte sur d7 passe à deux attaquants contre trois défenseurs. Toujours rien.\n\nLes Noirs décalent la dame : {{Qe6}}. Elle protège d7 exactement comme depuis e7, et elle fait maintenant face à la dame blanche en b3 sur une même diagonale — une proposition d'échanger les dames et de désamorcer la partie.\n\nMorphy échange une autre paire. {{Bxd7+}} {{Nxd7}}, et la pièce qui se tient entre la tour en d1 et la case voisine du roi noir est un cavalier."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w k - 0 16",
+      "prompt": "Prendre le cavalier permet seulement aux Noirs de reprendre : obligez plutôt le cavalier noir à dégager lui-même la colonne.",
+      "hint": "Le roi noir n'a aucune case et la dame noire ne peut pas atteindre la huitième rangée, donc un échec là-bas n'aurait qu'une seule réponse.",
+      "targetSan": [
+        "Qb8+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Pourquoi la dame est partie",
+      "text": "La dame n'était pas un cadeau. C'était un avis d'expulsion.\n\nPrendre le cavalier avait toujours été possible et n'avait jamais rien rapporté : les Noirs reprennent en d7, la colonne se referme, et les Blancs ont donné une seconde tour pour un cavalier.\n\nUn échec en b8 posait une autre question. Les Noirs n'avaient qu'un seul coup légal sur tout l'échiquier, et c'était le cavalier venant prendre la dame."
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Comptez avant de jouer",
+      "text": "La colonne d est maintenant vide, de la tour en d1 jusqu'à la huitième rangée.\n\nLe fou en g5 fait deux choses à la fois : à travers la case vide f6, il défend d8 et couvre e7. Le roi en e8 n'a nulle part où aller — f8 est la case de son propre fou, et d7 est sur la colonne que la tour tient déjà. Une tour qui arrive juste à côté ne peut pas non plus être interceptée.\n\n> L'école romantique payait en matériel pour ouvrir des lignes. Cela n'a jamais fonctionné que pour les joueurs qui comptaient d'abord la conclusion."
+    },
+    {
+      "type": "play",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "prompt": "Deux pièces et plus de dame : concluez sur la colonne que le cavalier a quittée.",
+      "hint": "Une pièce blanche protège déjà la case d'arrivée et couvre la seule sortie du roi, alors la tour n'a plus qu'à arriver.",
+      "targetSan": [
+        "Rd8#"
+      ]
+    }
+  ]
+}

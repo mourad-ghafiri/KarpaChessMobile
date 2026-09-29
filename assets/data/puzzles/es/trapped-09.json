@@ -1,0 +1,12 @@
+{
+  "id": "trapped-09",
+  "fen": "5rk1/ppp1bpp1/3p1n1p/8/N7/2P4P/PP3PP1/3R1RK1 b - - 0 1",
+  "solution": [
+    "b5"
+  ],
+  "rating": 1300,
+  "title": "Un solo avance de peón",
+  "setup": "El caballo blanco se ha ido a a4, donde sus únicas casillas son b6, c5, c3 y b2, y en dos de ellas hay peones blancos.",
+  "hint": "Dos de los saltos del caballo se topan con los propios peones blancos. Tus peones de a7 y d6 ya cubren los otros dos.",
+  "explanation": "## La idea\n\n{{b5}} ataca al caballo, que ya está rodeado: en b2 y c3 hay peones blancos, a b6 se responde con axb6 o cxb6, a c5 con dxc5. Al propio peón de b5 no se lo pueden comer, así que el caballo simplemente cae."
+}

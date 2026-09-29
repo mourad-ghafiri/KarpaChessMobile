@@ -1,0 +1,50 @@
+{
+  "id": "demolition",
+  "title": "Demolição da Defesa",
+  "summary": "Dois bispos gastos em dois peões, e um rei deixado de pé em pleno descampado",
+  "proof": "demolition-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Um Peão na Estrada",
+      "text": "Emanuel Lasker deu um bispo há duas jogadas para arrancar o peão de h7, e foi isto que comprou. O rei preto em g8, a coluna h aberta e a dama branca em h5.\n\nO bispo em e5 olha pela diagonal longa em direção a h8. Um peão preto em g7 está na estrada.\n\n{{Qh8+}} {{Kxh8}}. Nada defende a dama quando ela aterra, portanto o rei come-a e o ataque acabou. Esse peão não está a guardar h8 — está a bloquear a peça que a guardaria."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Aritmética, Não Coragem",
+      "text": "Dar uma peça por um peão é aritmética, não coragem. Antes de a gastares, nomeia as jogadas que vêm depois — se não conseguires nomear duas, não tens ataque nenhum.\n\nAqui são fáceis de nomear. A dama em h5 já está no sítio, e a torre em f1 está a uma jogada da terceira linha e a outra da coluna h.\n\nDepois conta o outro lado. As torres pretas em a8 e f8 não têm estrada para a coluna h, e a dama em c6 aponta à outra metade do tabuleiro. Não volta nada a tempo."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "prompt": "Arranca o último peão de junto do rei preto, e paga uma peça inteira para o fazer.",
+      "targetSan": [
+        "Bxg7"
+      ],
+      "hint": "Uma peça tua chega a esse peão, e o que conta é o rei nu que ela deixa atrás."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "Chega a Conta",
+      "text": "Bauer capturou, e tinha poucas razões para não o fazer: um bispo branco vivo ao lado do rei, com a dama já na coluna h, não é coisa que se deixe de pé.\n\nE foi isto que os dois bispos compraram. O rei preto em g7 está em pleno descampado, e a conta diz que as brancas deram dois bispos por dois peões.\n\nEstar assim tão atrás só se aguenta enquanto as pretas estiverem a responder a xeques. Entrega uma jogada livre e as torres de a8 e f8 começam a atravessar, e então as brancas ficam com duas peças a menos e nada para mostrar."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "O Xeque Que Não Podes Usar",
+      "text": "Nem todos os xeques valem a pena. {{Qh7+}} parece forçante até reparares que nada de teu cobre h7: {{Kxh7}}, e o ataque fica uma dama mais leve por nada.\n\nUm xeque só funciona enquanto o rei não lhe puder responder capturando. O que queres é um xeque a partir de uma casa em que as pretas não possam tocar, dado enquanto a torre ainda tem tempo de atravessar.\n\n> Uma peça gasta num abrigo de peões não é bravura. É uma conta, e os xeques são a maneira de a pagar."
+    },
+    {
+      "type": "play",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "prompt": "Obriga o rei a mexer-se outra vez para a tua torre ter tempo de chegar à coluna h.",
+      "targetSan": [
+        "Qg4+"
+      ],
+      "hint": "Um xeque que o rei possa simplesmente capturar custa-te a partida, portanto encontra a casa de xeque em que as pretas não podem tocar."
+    }
+  ]
+}

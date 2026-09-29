@@ -1,0 +1,13 @@
+{
+  "id": "history-03",
+  "fen": "6k1/5ppp/b7/3K4/8/8/P7/7R b - - 0 1",
+  "solution": [
+    "Bb7+",
+    "Kc4",
+    "Bxh1"
+  ],
+  "title": "La longue route",
+  "setup": "Votre fou en a6, le roi blanc en d5 et une tour seule dans le coin h1 : trois cases qui peuvent devenir une seule ligne.",
+  "hint": "L'alfil ne faisait que sauter. Quelle diagonale porte déjà le roi blanc et la tour, et quel pas du fou la rejoint ?",
+  "explanation": "## L'idée\n\nVoilà ce que la réforme des années 1470 a donné au fou : chaque case de sa diagonale, jusqu'au bout.\n\n{{Bb7+}} arrive sur la grande diagonale blanche avec échec. Le roi blanc en d5 se tient devant, la tour en h1 derrière, et aucune pièce blanche ne peut atteindre c6, la seule case entre eux. Quelle que soit la case choisie par le roi, {{Kc4}} ou une autre, il quitte la ligne.\n\n{{Bxh1}} prend la tour depuis l'autre bout de l'échiquier. Un alfil en a6 n'aurait jamais pu atteindre h1."
+}

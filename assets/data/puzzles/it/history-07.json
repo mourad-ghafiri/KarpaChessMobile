@@ -1,0 +1,13 @@
+{
+  "id": "history-07",
+  "fen": "r4rk1/pp3ppp/5n2/8/8/3Q1R2/PP4PP/1B4K1 w - - 0 1",
+  "solution": [
+    "Rxf6",
+    "gxf6",
+    "Qxh7#"
+  ],
+  "title": "Eliminare l'Ultimo Difensore",
+  "setup": "La donna e l'alfiere puntano tutti e due su h7, ed esattamente un pezzo nero li ferma.",
+  "hint": "Chiedetevi che cosa succederebbe in h7 se un solo pezzo nero sparisse, poi stabilite quanto vale quel pezzo per il Nero.",
+  "explanation": "## L'idea\n\nLa donna in d3 e l'alfiere in b1 puntano su h7, e solo il cavallo in f6 impedisce alla donna di atterrarci dando matto.\n\n{{Rxf6}} dà una torre per quel cavallo. Riprendete con {{gxf6}} e segue {{Qxh7#}}: l'alfiere difende la donna, la donna copre g7 e h8, e f7 e f8 hanno il pedone e la torre del Nero. Se rifiuta, il Bianco è semplicemente un cavallo avanti.\n\nQuando un pezzo difende la casa del matto, pesatelo contro il matto."
+}

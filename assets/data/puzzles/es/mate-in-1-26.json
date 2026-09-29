@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-26",
+  "fen": "3k4/3P4/3K4/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Con cinturón y tirantes",
+  "setup": "Tu peón de d7 está justo delante del rey negro, y tu rey de d6 lo protege.",
+  "hint": "Barre con la torre hasta la octava fila: tu rey y tu peón ya vallan todo lo de debajo.",
+  "explanation": "## La idea\n\nEl peón de d7 no da jaque, pero trabaja: le quita d7 al rey y además ataca c8 y e8.\n\n{{Ra8#}} da jaque por la última fila. c8 y e8 están en la línea de la torre, tu rey de d6 cubre c7 y e7, y además protege el peón, así que el rey no puede capturarlo.\n\nHasta un humilde peón puede ser la pieza que cierra una red de mate."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "forks-08",
+  "fen": "r3k3/5ppp/8/PN6/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc7+"
+  ],
+  "title": "Forchetta di Famiglia",
+  "setup": "Il re e la torre del Nero stanno tutti e due ancora sulle loro case di casa, e il vostro cavallo in b5 è lì vicino.",
+  "hint": "C'è una casa di cavallo che attacca il re in e8 e la torre in a8 nello stesso momento.",
+  "explanation": "## L'idea\n\n{{Nc7+}} dà scacco al re in e8 e attacca la torre in a8. Il re deve muovere, e {{Nxa8}} prende la torre.\n\nUn cavallo nell'angolo spesso ci resta intrappolato, ma non questo: il pedone in a5 difende b6, quindi il cavallo ha una via d'uscita sicura. Prima di afferrare un pezzo nell'angolo, controllate che il vostro cavallo possa tornare a casa."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "openings-03",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/2N2N1P/PP2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "Nxd4",
+    "Qh2#"
+  ],
+  "title": "La Trappola Siberiana",
+  "setup": "Il Nero ha preso il pedone offerto dal Bianco, ha messo la donna in c7 e ha saltato con un cavallo in g4; il Bianco ha appena giocato h3.",
+  "hint": "La vostra donna e un cavallo puntano già sulla stessa casa accanto al re bianco. Chiedetevi quale pezzo bianco la difende ancora.",
+  "explanation": "## L'idea\n\nLa donna in c7 e il cavallo in g4 colpiscono tutti e due h2, e a parte il re la difende solo il cavallo in f3.\n\n{{Nd4}} attacca la donna in e2 e offre al Bianco un cavallo da prendere. Prendere questo è fatale: {{Nxd4}} toglie l'ultima guardia di h2, e segue {{Qh2#}}, con il cavallo in g4 a difendere la donna. Il meglio per il Bianco è cedere invece la donna.\n\nPrima di inseguire un pezzo, contate chi difende la casa dietro di voi."
+}

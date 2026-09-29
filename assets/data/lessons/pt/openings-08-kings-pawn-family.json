@@ -1,0 +1,57 @@
+{
+  "id": "kings-pawn-family",
+  "title": "As Aberturas de Peão de Rei",
+  "summary": "Cada resposta a 1.e4 é um negócio diferente",
+  "proof": "openings-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Duas Linhas num Avanço",
+      "text": "Uma jogada de peão liberta duas peças. Avança o peão e e tanto a dama como o bispo das casas claras ganham uma estrada para fora da linha de fundo.\n\nPor isso estas partidas enchem-se cedo. As peças chegam, as linhas abrem-se, e os exércitos estão a tocar-se enquanto os dois reis ainda estão de pé no meio. Uma jogada lenta custa aqui mais do que custaria numa posição tranquila, porque já lá está alguém para a castigar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "O Peão Sem Guarda",
+      "text": "As pretas copiaram, e copiar tem um preço: quem joga em segundo tem de responder a uma pergunta que já foi feita.\n\nO cavalo em f3 ataca o peão de e5. Conta os defensores de e5 e dá zero.\n\nHá duas maneiras honestas de arranjar isso. Uma peça pode guardar o peão e sair de casa na mesma jogada, sem gastar nada. Um peão guarda-o igualmente bem, e paga o trabalho ficando à frente de um dos bispos das pretas para o resto da partida."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "prompt": "Guarda o peão que o cavalo branco acabou de atacar, e fica com a tua parte do meio.",
+      "targetSan": [
+        "Nc6",
+        "d6"
+      ],
+      "hint": "Um defensor é uma peça que queria sair de qualquer maneira; o outro é um peão que paga o trabalho com um bispo. Qualquer deles é linha principal."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "title": "A Discussão Mais Antiga",
+      "text": "Guarda e5 com o cavalo e as brancas têm uma jogada à espera. {{Bb5}} ignora o peão de e5 por completo e vai atrás da peça que o defende: tira o guarda e o peão fica solto.\n\nAs pretas empurram o bispo com {{a6}}, o bispo desliza pela diagonal abaixo com {{Ba4}}, ainda apontado ao mesmo cavalo e ainda sem custar nada. Essa é a Abertura Espanhola, com quatro séculos e ainda a abertura sobre que mais se discute."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Três Maneiras de Recusar",
+      "text": "Quase todas as respostas fortes ao peão de rei nem tocam em e5. Cada uma recusa numa moeda diferente.\n\n- **A siciliana** deixa e4 em paz e disputa d4 com um peão para c5, ficando com a coluna c semiaberta quando os peões lá se trocam.\n- **A Caro-Kann** e **a francesa** gastam primeiro uma jogada tranquila em c6 ou e6, para o avanço a d5 chegar com apoio — a francesa fecha o seu bispo das casas claras atrás da parede, a Caro-Kann mantém-no fora.\n- **A defesa Alekhine** manda um cavalo para f6 e desafia os peões brancos a persegui-lo."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "title": "Uma Recusa em Curso",
+      "text": "As pretas gastaram a primeira jogada num peão para c6, e as brancas ficaram com tudo o que estava em oferta: dois peões lado a lado em d4 e e4, o centro mais largo que as brancas alguma vez recebem de graça.\n\nLargo não quer dizer seguro. Um grande centro de peões tem de ser enfrentado enquanto ainda são só peões — deixa-o em paz e as peças brancas saem por trás dele e a parede inteira rola para a frente.\n\nA primeira jogada não era modéstia. Era um peão colocado de guarda a apoiar um golpe que ainda não aconteceu.\n\n> Uma primeira jogada tranquila é uma segunda jogada barulhenta à espera da sua vez."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "prompt": "Enfrenta o centro de dois peões das brancas com o peão que a tua tranquila primeira jogada estava lá para apoiar.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "A primeira jogada foi um peão com um só trabalho. Pergunta que casa ele cobre, e repara que essa casa ainda não foi ocupada por ninguém."
+    }
+  ]
+}

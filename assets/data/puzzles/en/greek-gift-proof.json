@@ -1,0 +1,11 @@
+{
+  "id": "greek-gift-proof",
+  "fen": "r2q1rk1/pbpp2pp/1pn1pb2/7n/2PP1Pp1/P1NBP3/1PQ1N2P/R1B2RK1 w - - 0 12",
+  "solution": [
+    "Bxh7+"
+  ],
+  "title": "The Gift Nobody Can Take",
+  "setup": "Your bishop on d3 and queen on c2 share one diagonal, and only Black's king guards h7.",
+  "hint": "Count what stands behind your bishop. If the bishop leaves d3, which black move stops being legal?",
+  "explanation": "## The Idea\n\n{{Bxh7+}} hands the bishop over, and Black is not allowed to take it. The moment it leaves d3, the queen on c2 sees all the way to h7, so the king may not step onto that square. It has to walk to h8 or f7 instead.\n\nThe shelter is gone for free. After …Kh8 your queen follows with {{Qg6}}, and Black's kingside is wide open."
+}

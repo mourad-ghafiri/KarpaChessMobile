@@ -1,0 +1,56 @@
+{
+  "id": "open-files",
+  "title": "Las columnas abiertas",
+  "summary": "Caminos para las torres, y cómo construir uno",
+  "proof": "strategy-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Cuenta los peones de e",
+      "text": "No hay ninguno. Salieron en las jugadas tres y cuatro, y lo que queda es un carril que recorre toda la altura del tablero y termina en el rey negro de e8.\n\nEse carril es una **columna abierta**: una columna sin peón de ningún color. Dos piezas están en ella, el caballo de e4 y el alfil de e7, y las piezas se mueven. Los peones son lo único del tablero que no puede apartarse de lado del camino de una torre, y aquí no hay ninguno que se aparte."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "¿De quién es el camino?",
+      "text": "Una torre en un tablero cerrado es una espectadora. Dale una columna sin peones y por fin vale lo que vale, porque una columna es para la torre lo que una diagonal para el alfil: lo único de lo que se alimenta.\n\n¿Pero qué torre? Una de las tuyas está atascada detrás de su propio caballo de b1 y no puede cruzar. La otra está libre.\n\nY la torre va primero, con la dama detrás. Una dama a la cabeza de la columna es un blanco que cualquier pieza menor puede espantar ganando tiempo."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "prompt": "Pon la pieza que vive en las columnas en la única columna en la que no queda ningún peón.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "Tienes dos torres y solo una puede llegar a ese carril en un paso."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Tres tareas, una jugada",
+      "text": "{{Re1}} mete la torre en juego, ataca al caballo de e4 por un carril donde no hay nada más y apunta a un rey que todavía no se ha movido.\n\nLas Negras tienen que responder. {{Bg4}} clava el caballo de f3 contra la dama de d1, y las Blancas siguen con {{c4}}, golpeando el peón de d5.\n\nVuelve a poner un peón blanco en e2 y nada de eso existe. La torre se queda en casa detrás de él, y las Blancas juegan el medio juego con una pieza de menos."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Casi un camino",
+      "text": "Nuevo tablero, problema más difícil: todas las columnas tienen aquí un peón, y las dos torres blancas no tienen nada a lo que apuntar.\n\nLa columna c es lo más parecido a un camino. Las Blancas no tienen ningún peón de c, así que solo el peón negro de c6 la mantiene cerrada: semiabierta, y una columna semiabierta está esperando a que la terminen.\n\nEse peón nunca se irá por su cuenta. Un peón solo abandona su columna por un motivo: capturar algo. Así que las Blancas tienen que darle algo que capturar."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Menos peones, más presión",
+      "text": "¿Qué peón hace palanca? Solo uno de los peones blancos puede tocar c6 alguna vez: el de b4, con el de a2 detrás como reserva.\n\nDos peones blancos contra tres negros en ese flanco suena al lado malo de una cuenta. Es un **ataque de minorías**, y es una palanca. Las Negras tienen tres respuestas a un peón metido bajo c6, y las tres son concesiones: capturar, y la columna se abre; avanzar, y el peón de c deja de cubrir nada; quedarse quieto, y las Blancas cambian en c6 dejando un peón débil.\n\n> Una torre no espera a una columna abierta. Elige una y la abre."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "prompt": "Fuerza la apertura de la columna c atacando el peón negro que está en ella.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Cuenta los peones de cada flanco y pregúntate cuál de los tuyos llega a c6 en un paso."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-04",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Jalan Terbuka Menuju Raja",
+  "setup": "Lajur d kosong sepanjang jalan dari benteng Anda sampai baris kedelapan, dan pion-pion Hitam tak menyisakan jendela bagi rajanya.",
+  "hint": "Luncurkan benteng ke baris belakang yang terbuka — pion di f7, g7 dan h7 mengerjakan sisanya.",
+  "explanation": "## Ide\n\nSebuah **mat baris belakang** klasik. Lajur d adalah jalan raya yang lengang dan raja Hitam sesak napas di balik pionnya sendiri.\n\n{{Rd8#}}: benteng menguasai f8 dan seluruh baris kedelapan, f7, g7 dan h7 ditempati pion Hitam sendiri, dan tak ada yang bisa masuk di antara d8 dan g8. Ketika benteng Anda dan raja lawan berbagi baris belakang yang terbuka, hitung dulu petak-petak pelariannya."
+}

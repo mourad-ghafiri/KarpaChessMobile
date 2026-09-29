@@ -1,0 +1,11 @@
+{
+  "id": "endgame-02",
+  "fen": "8/8/8/3p4/3k4/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "La única casilla que aguanta",
+  "setup": "Las Negras tienen un peón de más con el rey por delante, y tienes exactamente una jugada que salva la partida.",
+  "hint": "Los reyes están a tres casillas en una misma columna. ¿Qué jugada deja una sola casilla vacía entre ellos, con las Negras al turno?",
+  "explanation": "## La idea\n\nEl rey negro abre la marcha de su peón, y perseguirlos pierde. La única defensa es la oposición.\n\n{{Kd2}} deja una casilla vacía entre los reyes, con las Negras al turno. El peón no puede avanzar, porque su propio rey está delante, así que las Negras tienen que apartar el rey, y tu rey se aparta con él, recuperando la oposición.\n\nVe en cambio a c2 o e2 y son las Negras las que toman la oposición, y el peón llega a coronar detrás de su rey."
+}

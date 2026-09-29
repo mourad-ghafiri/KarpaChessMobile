@@ -1,0 +1,11 @@
+{
+  "id": "endgame-03",
+  "fen": "8/8/7k/4P3/8/5K2/8/8 w - - 0 1",
+  "solution": [
+    "Ke4"
+  ],
+  "title": "Raja Dulu, Pion Kemudian",
+  "setup": "Pion Anda di e5 adalah pion bebas, tetapi raja hitam di h6 cukup dekat untuk menangkapnya sendirian. Satu langkah mempertahankan kemenangan.",
+  "hint": "Majukan rajanya, bukan pionnya. Petak mana yang menempatkan raja Anda di samping jalan pion sebelum raja hitam tiba di sana?",
+  "explanation": "## Ide\n\nRaja hitam di h6 berdiri di dalam persegi pion, jadi pion tak bisa memenangkan perlombaan sendirian. Ia butuh pengawal.\n\n{{Ke4}} satu-satunya langkah yang mempertahankan kemenangan: raja menuju petak-petak di samping jalan pion selagi masih bisa tiba lebih dulu. Dorong {{e6}} sebagai gantinya, atau kirim raja ke tempat lain, dan posisinya remis.\n\nHitung perseginya sebelum Anda mendorong. Jika raja lawan ada di dalamnya, raja yang berjalan lebih dulu."
+}

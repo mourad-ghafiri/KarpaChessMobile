@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-15",
+  "fen": "1k6/1b6/8/2b5/8/6p1/R7/7K w - - 0 1",
+  "solution": [
+    "Rg2"
+  ],
+  "title": "Fecha a Janela",
+  "setup": "O bispo em **b7** dá xeque ao teu rei pela diagonal mais longa do tabuleiro.",
+  "hint": "O teu rei não tem casa segura — g1 e h2 estão as duas cobertas. A tua torre consegue entrar na diagonal?",
+  "explanation": "## A Ideia\n\nO bispo em b7 dá xeque ao longo da grande diagonal inteira até ao teu rei de h1. As saídas estão seladas: o bispo de c5 cobre g1, e o peão de g3 cobre h2.\n\nUm xeque na diagonal continua a ser um xeque ao longo de uma linha, e as linhas podem ser tapadas. {{Rg2}} desliza pela segunda linha para dentro do caminho do bispo. Se se seguir {{Bxg2+}}, {{Kxg2}} recaptura.\n\nUma torre não pode andar na diagonal, mas pode estar numa diagonal."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-08",
+  "fen": "rn1q1bnr/ppp1kB1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R w KQ - 1 7",
+  "solution": [
+    "Nd5#"
+  ],
+  "rating": 810,
+  "title": "Mat Légal",
+  "setup": "Hitam baru saja memakan menteri Anda di d1, dan rajanya berdiri di e7 dengan tiga buah putih di sekitarnya.",
+  "hint": "Menteri sudah hilang, jadi hitung saja petak-petak raja hitam dan temukan petak yang belum dijaga siapa pun.",
+  "explanation": "## Ide\n\nInilah mat Legall. Gajah di f7 menguasai e6 dan e8, kuda di e5 menguasai d7, dan {{Nd5#}} memberi sekak sambil menguasai f6. Menteri, gajah dan pion Hitam sendiri menutup sisanya. Tiga buah ringan bisa lebih berharga daripada menteri."
+}

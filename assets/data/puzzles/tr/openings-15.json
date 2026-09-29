@@ -1,0 +1,13 @@
+{
+  "id": "openings-15",
+  "fen": "rnbq1rk1/pp2ppbp/3p1np1/2P5/2P1PP2/2N2N2/PP4PP/R1BQKB1R b KQ - 0 7",
+  "solution": [
+    "Qa5",
+    "Bd3",
+    "Qxc5"
+  ],
+  "title": "Davet Edildi, Sonra Geri Alındı",
+  "setup": "Beyaz kocaman bir merkez kurdu ve az önce fazladan piyonu tutmayı umarak c5'te aldı. Onu, aynı zamanda bir atı açmaza alan bir hamleyle geri kazanın.",
+  "hint": "Beyazın şahı hâlâ evinde ve atlarından biri ona uzanan çaprazda duruyor. Veziriniz nerede iki iş birden görebilir?",
+  "explanation": "## Fikir\n\nŞah Hint, beyazın merkezi kapmasına izin verir, sonra da bütün bunları neyin koruduğunu sorar.\n\n{{Qa5}} iki iş görür: c3'teki atı e1'deki şaha karşı açmaza alır ve beşinci yatay boyunca c5'teki piyona saldırır. Beyazın en iyisi {{Bd3}} ile gelişmektir ve {{Qxc5}} piyonu doğrudan geri alır.\n\nTaş dengesi eşittir ve beyazın c4, e4 ve f4'teki piyonlarının artık hedef değil güç olduklarını kanıtlaması gerekir.\n\nAlan, yalnızca savunulabildiği sürece üstünlüktür."
+}

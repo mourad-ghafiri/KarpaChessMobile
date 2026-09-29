@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-03",
+  "fen": "4k3/8/8/8/3q4/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxd4"
+  ],
+  "title": "Dame gratuite, prenez-la",
+  "setup": "Deux dames se font face — mais une seule est défendue.",
+  "hint": "Cherchez toujours les pièces en prise. La tactique la plus simple, c'est de *prendre ce qui est gratuit*.",
+  "explanation": "## L'idée\n\nC'est la tactique la plus élémentaire qui soit : une pièce sans protection. La dame noire en d4 n'a aucun défenseur, et votre dame en d1 l'attaque le long de la colonne d.\n\n{{Qxd4}} gagne une dame pour rien. Le roi en e8 est trop loin pour reprendre, et aucune pièce noire ne protège d4.\n\nAvant chaque coup, cherchez les pièces adverses que personne ne défend sur les lignes que vous contrôlez. La règle de John Nunn le dit le mieux : les pièces sans protection tombent."
+}

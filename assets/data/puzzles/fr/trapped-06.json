@@ -1,0 +1,12 @@
+{
+  "id": "trapped-06",
+  "fen": "2r3k1/Bpp2pp1/5n1p/p7/8/8/P1P2PPP/3R2K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "rating": 1210,
+  "title": "Fermez la porte",
+  "setup": "Le fou blanc a raflé un pion en a7, au fond de votre camp, et n'a que b8 et b6 pour rentrer.",
+  "hint": "Votre tour en c8 surveille déjà l'une des deux portes. Fermez l'autre avec quelque chose que le fou ne peut pas prendre sans danger.",
+  "explanation": "## L'idée\n\n{{b6}} prend la dernière case du fou, et le pion est défendu par c7, donc Bxb6 cxb6 gagne une pièce contre un pion. La tour couvre b8, le propre pion blanc a2 bloque la colonne a, et c7 empêche toute tour d'atteindre a7 le long de la rangée. Ra8 ensuite."
+}

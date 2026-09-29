@@ -1,0 +1,11 @@
+{
+  "id": "interference-proof",
+  "fen": "6k1/5ppp/p7/8/q2N4/5B2/5PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "Un Muro Attraverso la Diagonale",
+  "setup": "La donna nera in a4 è l'unico pezzo che difende e8, e la vostra torre in e1 punta dritta su quella casa.",
+  "hint": "Mettete sulla diagonale della donna qualcosa che non possa ignorare, su una casa che il vostro cavallo copre già.",
+  "explanation": "## L'idea\n\nLa donna in a4 difende e8 lungo la diagonale che passa per b5, c6 e d7. {{Bc6}} si mette nel mezzo, protetto dal cavallo in d4, e attacca anche la donna. Prendere l'alfiere costa la donna, e prendere il vostro cavallo lascia la vostra torre dare matto in e8. I tentativi migliori della donna la dirottano verso f8, ma allora la vostra torre dà scacco in e8, la donna deve parare in f8, inchiodata contro il proprio re, ed è persa per una torre."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "decoy-02",
+  "fen": "1r4k1/pp3ppp/8/8/2q5/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1190,
+  "title": "Lure the Rook Home",
+  "setup": "The rook on b8 is the only guard of the back rank, and your queen stands in front of your rook on d1.",
+  "hint": "The rook is doing all the defending. Offer it something on the eighth rank that it has to take.",
+  "explanation": "## The Idea\n\n{{Qd8+}} is a queen thrown onto the back rank, and {{Rxd8}} is forced. The rook has been pulled onto the one square your own rook covers, and {{Rxd8#}} mates a king locked in by its pawns."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-01",
+  "fen": "2Q2rk1/4Rppp/8/8/8/8/PP2R3/K4b2 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Re8#"
+  ],
+  "rating": 1250,
+  "title": "Dua Tugas, Satu Benteng",
+  "setup": "Menteri Anda mengincar f8 dan kedua benteng bertumpuk di lajur e, sementara benteng Hitam di f8 mengerjakan seluruh pertahanan sendirian.",
+  "hint": "Satu buah hitam menguasai dua petak masuk sekaligus. Tanyakan apa yang terjadi jika ia hanya diizinkan menguasai satu.",
+  "explanation": "## Ide\n\nBenteng di f8 punya dua tugas: menutup baris kedelapan dan menjauhkan e8 dari jangkauan. {{Qxf8+}} membeli tugas pertama dengan menteri, {{Kxf8}} terpaksa, dan kini {{Re8#}} berjalan masuk ke petak yang tak bisa lagi diawasinya. Pembela dengan dua tugas sebenarnya tak punya tugas apa pun."
+}

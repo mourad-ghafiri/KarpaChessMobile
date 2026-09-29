@@ -1,0 +1,71 @@
+{
+  "id": "deflection",
+  "title": "La Deviazione",
+  "summary": "Certe guardie non si possono catturare. Si possono comunque mandare via.",
+  "proof": "deflection-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "La Casa che Chiude la Partita",
+      "text": "e8 chiude questa partita. Qualunque pezzo bianco atterri lì dà scacco al re in g8, e quel re ha i suoi tre pedoni piantati dove dovrebbero esserci le case di fuga.\n\nIl Bianco ha due pezzi sulla colonna e, la donna davanti e la torre dietro. La torre non arriva a e8 — le sta di mezzo la sua stessa donna. La donna sì.\n\nE la donna lì si può anche prendere. La torre in d8 copre e8 lungo l'ottava traversa, e nessun altro pezzo nero lo fa."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Come si Muove un Pezzo Avversario",
+      "text": "Due modi di fermare una guardia li avete già: prenderla, o cacciarla dalla sua casa. Nessuno dei due è disponibile. Niente di ciò che il Bianco possiede attacca d8, e i pedoni del Bianco stanno tutti ancora sulla seconda traversa.\n\nQuindi la torre deve muoversi da sola. Non potete ordinare a un pezzo avversario di andare da nessuna parte. Potete solo far sì che un'altra casa valga per lui più di quella su cui sta — e la versione più forte è una casa su cui non ha alcuna scelta legale."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Fate lasciare d8 alla torre con una mossa che non ha modo legale di rifiutare.",
+      "targetSan": [
+        "Qe8+"
+      ],
+      "hint": "Un solo pezzo bianco arriva proprio a e8, e un solo pezzo nero può rispondergli."
+    },
+    {
+      "type": "teach",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "title": "Qui Non Si È Scelto Niente",
+      "text": "Il Nero non stava scegliendo fra opzioni. Su tutta la scacchiera esisteva una mossa legale, e questa è la posizione che ha prodotto.\n\nLa torre è in e8 e non è in d8. L'idea è questa, e ha un nome: una **deviazione** costringe un difensore a essere altrove nel momento in cui serve il suo lavoro. Che poi sopravviva al viaggio è un altro discorso.\n\nSull'ottava traversa adesso ci sono due unità nere, quella torre e il re in g8. Il re copre f8 e h8. e8 non la copre niente."
+    },
+    {
+      "type": "play",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "prompt": "Adesso niente difende l'ottava traversa: prendete la torre che ci sta sopra e chiudete la partita.",
+      "targetSan": [
+        "Rxe8#"
+      ],
+      "hint": "Su questa scacchiera esiste esattamente una presa possibile, e il re non ha dietro altro che i propri pedoni."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5pp1/7p/8/4Q3/8/5PPP/4R1K1 w - - 0 1",
+      "title": "Cambiate un Pedone",
+      "text": "Lì il Bianco ha consegnato una donna per una torre senza mai doverla contare, perché la mossa dopo era matto.\n\nQui il pedone h sta in h6 e il re ha una casa. {{Qe8+}} {{Rxe8}} {{Rxe8+}} {{Kh7}}: la torre ha preso, l'ottava traversa si è aperta, e il re è semplicemente uscito dall'angolo.\n\nIl Bianco ha pagato una donna per una torre, e il matto per cui l'ha pagata non c'è.\n\n> Una deviazione vale quanto la mossa che rende possibile."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "Un Cambio che Non Compra Niente",
+      "text": "Scacchiera diversa, e nessun matto da nessuna parte.\n\nIl vostro alfiere in b2 guarda lungo la grande diagonale il cavallo in e5. {{Bxe5}} vince un cavallo per circa mezzo secondo — l'alfiere nero in c7 riprende, tre contro tre, e avete speso un alfiere per non cambiare niente.\n\nQuindi guardate di nuovo e5. Un attaccante bianco, un difensore nero, e il difensore è quell'alfiere in c7, che niente del Bianco attacca e che nessun pedone bianco andrà mai a cacciare."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "Altrove, per Una Mossa",
+      "text": "L'alfiere in c7 deve stare altrove. Non sparito — altrove, e solo per l'unica mossa che vi serve.\n\nAttaccarlo non basta. Passa in d6 e guarda e5 da lì.\n\nQuindi smettete di guardare l'alfiere e guardate l'ottava traversa. La torre nera è in d8, la vostra torre in d1 la fissa dritta lungo la colonna, e il re in g8 ha tre pedoni e nessuna aria."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "prompt": "Costringete l'alfiere di c7 a smettere di guardare e5, con una mossa a cui il Nero ha una sola risposta.",
+      "targetSan": [
+        "Rxd8+"
+      ],
+      "hint": "Chiedetevi che cosa potrebbe riprendere in d8, e notate dove sta adesso quel pezzo."
+    }
+  ]
+}

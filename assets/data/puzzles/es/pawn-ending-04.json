@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-04",
+  "fen": "8/8/8/3kp2P/8/8/8/4K3 b - - 0 1",
+  "solution": [
+    "Ke6"
+  ],
+  "rating": 1210,
+  "title": "La puerta tapada",
+  "setup": "Los dos bandos tienen un peón corredor, y el rey negro está a una columna del cuadrado del peón blanco.",
+  "hint": "Cuenta el cuadrado del peón de h, y luego mira en cuál de sus casillas de entrada está una de tus propias piezas.",
+  "explanation": "## La idea\n\nEl cuadrado es h5–h8–e8–e5, y el propio peón negro ocupa e5, la puerta natural. {{Ke6}} es la única otra entrada, y desde ahí el rey sigue al peón como una sombra hasta h8. Correr con {{e4}} pierde por una sola jugada. Cuenta tus propias piezas antes de contar las de las Blancas."
+}

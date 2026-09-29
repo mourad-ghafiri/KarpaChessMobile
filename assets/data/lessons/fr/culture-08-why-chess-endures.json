@@ -1,0 +1,62 @@
+{
+  "id": "why-chess-endures",
+  "title": "Pourquoi les échecs durent",
+  "summary": "Quinze siècles, et toujours personne ne les a résolus",
+  "proof": "culture-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "Londres, 21 juin 1851",
+      "text": "Deux joueurs s'assoient entre deux rondes d'un tournoi pour une partie qui ne compte pour rien, et produisent la partie d'échecs la plus célèbre de l'histoire.\n\nAdolf Anderssen a les Blancs, Lionel Kieseritzky les Noirs, et aucun des deux ne joue pour un prix, un titre ou un point au classement. C'est exactement pourquoi Anderssen est libre de tout dépenser : une partie sans enjeu ne coûte rien à perdre.\n\nErnst Falkbeer l'a publiée quatre ans plus tard et l'a appelée l'Immortelle. Le nom est resté depuis."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "Ce qu'Anderssen ne sauvera pas",
+      "text": "La dame noire vient de manger en b2. De là, elle touche la tour en a1, et le fou en c5 regarde droit la tour en g1. Deux tours, et aucune ne sera défendue.\n\nEn sauver une coûte un coup, et un coup est la seule monnaie qui reste à l'attaque. Le roi noir en e8 n'a pas bougé de la partie, et il n'a qu'une route pour sortir du centre : le roque, derrière ses propres pions de l'aile roi.\n\nFermez cette route et le roi reste là où les cavaliers en d5 et f5 peuvent l'atteindre."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "prompt": "Ignorez les deux tours et couvrez la case que le roi noir doit traverser pour sortir du centre.",
+      "targetSan": [
+        "Bd6"
+      ],
+      "hint": "Le roque ferait traverser f8 au roi noir, alors demandez-vous laquelle de vos pièces peut commencer à surveiller cette case dès ce coup."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/3B4/1pbN1N1P/4P1P1/3P1Q2/PqP5/R4KR1 b kq - 1 18",
+      "title": "Kieseritzky encaisse",
+      "text": "Les Noirs prennent ce qu'on leur offre. {{Bxg1}} est la première tour, et Anderssen ne reprend pas : {{e5}} ferme la diagonale où se tient la dame noire en b2, qui ne voit plus du tout l'aile roi.\n\n{{Qxa1+}} prend la seconde tour, avec échec.\n\nLes Noirs ont deux tours et un fou de plus. Les Blancs ont une dame, deux cavaliers et un fou, tous tournés vers un roi qui n'est jamais sorti du centre."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Un dernier gardien",
+      "text": "Deux coups plus tard, le second cavalier blanc a pris en g7 avec échec, et le roi noir est allé en d8.\n\nComptez les cases du roi noir. d7 est son propre pion, c8 son propre fou, c7 et e7 appartiennent au fou en d6, et e8 est couverte par le cavalier en g7. Il n'y en a aucune.\n\nLa seule chose qui sépare donc les Noirs du mat est le cavalier en g8, qui atteint e7 et prendrait tout ce qui y arriverait. Une seule pièce. Tout le reste de l'armée noire est de l'autre côté de l'échiquier."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Cinq cents ans, un seul règlement",
+      "text": "Les Blancs ont donné les deux tours et un fou et vont pourtant gagner.\n\nLes règles qui ont produit cette position étaient fixées bien avant 1851. Les échecs sont nés dans le nord de l'Inde, ont traversé la Perse et le monde arabe puis atteint l'Europe, et vers 1475, à Valence, la dame et le fou ont reçu la longue portée qu'ils ont encore. Rien d'important n'a changé depuis. Anderssen jouait au même jeu que celui que vous pratiquez depuis cent leçons."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Personne ne les a résolus",
+      "text": "Le jeu de dames anglaises est terminé. En 2007, une équipe de chercheurs a prouvé qu'un jeu parfait depuis le départ aboutit à la nulle, et il n'y reste plus rien à découvrir.\n\nLes échecs ne sont pas terminés. Toutes les positions à sept pièces ou moins ont été calculées exactement en 2012, si bien que les derniers coups de chaque partie sont désormais un terrain connu. Au-delà de sept pièces, on ne sait rien : une estimation de 2021 place le nombre de positions légales autour de 4,8 × 10⁴⁴, et aucune machine n'en a approché le fond.\n\n> Quinze siècles plus tard, l'échiquier devant vous pose toujours la question."
+    },
+    {
+      "type": "play",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "prompt": "Le roi noir n'a plus aucune case : arrachez son unique gardien à e7.",
+      "targetSan": [
+        "Qf6+"
+      ],
+      "hint": "L'offre doit être impossible à refuser, alors cherchez l'échec auquel seul ce cavalier peut répondre."
+    }
+  ]
+}

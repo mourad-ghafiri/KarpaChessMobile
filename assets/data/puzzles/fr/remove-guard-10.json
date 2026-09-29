@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-10",
+  "fen": "r4rk1/5ppp/5n2/6B1/8/8/2Q2PPP/1B4K1 w - - 1 2",
+  "solution": [
+    "Bxf6"
+  ],
+  "rating": 1390,
+  "title": "La sentinelle de h7",
+  "setup": "Votre dame et votre fou sont alignés sur h7, et à part le roi, seul le cavalier en f6 couvre cette case.",
+  "hint": "Votre batterie vise déjà h7. Une seule pièce noire lui répond — que vaut cette pièce ?",
+  "explanation": "## L'idée\n\n{{Bxf6}} élimine le seul gardien de h7. Reprenez par {{gxf6}} et {{Qxh7#}} est mat : la propre tour noire en f8 emmure le roi. Refusez, et le cavalier est perdu pour rien. Un échange égal qui ouvre une case de mat n'est jamais égal."
+}

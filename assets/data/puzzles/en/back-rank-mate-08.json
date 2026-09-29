@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-08",
+  "fen": "6k1/5ppp/6n1/8/1B6/8/2r2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Nf8",
+    "Rxf8#"
+  ],
+  "rating": 940,
+  "title": "Force the Block",
+  "setup": "Black's knight on g6 can reach f8, and your bishop on b4 looks down the diagonal at that square.",
+  "hint": "Black has exactly one way to answer a check on the eighth rank. Where does it put its knight?",
+  "explanation": "## The Idea\n\n{{Rd8+}} leaves Black one legal move, {{Nf8}}, blocking. That square is not safe: the bishop on b4 covers it along the diagonal, so {{Rxf8#}} cannot be met by Kxf8. A forced block only defends if the blocking square is defended too."
+}

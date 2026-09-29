@@ -1,0 +1,12 @@
+{
+  "id": "trapped-01",
+  "fen": "5rk1/ppp2pp1/7p/8/8/5N1P/bPP2PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b3"
+  ],
+  "rating": 1000,
+  "title": "Le fou gourmand",
+  "setup": "Le fou noir vient de manger le pion a2 et se tient maintenant dans le coin de votre camp, en a2.",
+  "hint": "Comptez les cases qui restent à ce fou. Retirez-lui la plus longue diagonale et voyez ce qui reste.",
+  "explanation": "## L'idée\n\n{{b3}} ferme la diagonale vers g8 et ne laisse au fou que b1, une case que votre tour couvre depuis e1. Ra1 au coup suivant le gagne. Le pion en b3 est en sécurité car c2 le défend. Un fou qui grignote un pion d'aile ne peut souvent pas rentrer chez lui."
+}

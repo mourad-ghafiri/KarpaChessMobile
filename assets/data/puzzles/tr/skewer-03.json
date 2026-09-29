@@ -1,0 +1,14 @@
+{
+  "id": "skewer-03",
+  "fen": "8/7p/4k3/1Q1p4/B2P3b/2P4q/8/K7 w - - 0 1",
+  "solution": [
+    "Qd7+",
+    "Kf6",
+    "Qxh3"
+  ],
+  "rating": 980,
+  "title": "Çapraz Atış Hattı",
+  "setup": "Siyahın e6'daki şahı ile h3'teki veziri aynı çaprazda duruyor ve çapraz tamamen boş.",
+  "hint": "Siyahın vezirinin zaten üzerinde durduğu çapraza inen bir şah arayın. O kareyi ne koruyor?",
+  "explanation": "## Fikir\n\nd7, e6, f5, g4 ve h3 kareleri tek bir çapraz oluşturur; şah önde, vezir uzak uçtadır. {{Qd7+}} onun üstüne adımlar ve **a4**'teki fil, vezir b5'ten ayrılır ayrılmaz d7'yi kapsar; yani şah alamaz. {{Kf6}} gelir, sonra {{Qxh3}}."
+}

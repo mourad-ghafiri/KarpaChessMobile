@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-03",
+  "fen": "3k4/8/8/3K4/3P4/8/8/8 b - - 1 1",
+  "solution": [
+    "Kd7"
+  ],
+  "rating": 1175,
+  "title": "Imitez le roi",
+  "setup": "Le roi blanc vient de se placer devant le pion d, et les Noirs doivent choisir où se tenir.",
+  "hint": "Quelle que soit la case que vous prenez, les Blancs tenteront de passer sur une aile ; laquelle vous permet de les imiter des deux côtés ?",
+  "explanation": "## L'idée\n\n{{Kd7}} est la seule case qui tient. De là, les Noirs se contentent d'imiter : {{Kc5}} reçoit {{Kc7}}, et {{Ke5}} reçoit {{Ke7}}. Placez-vous n'importe où ailleurs et le roi blanc atteint la sixième rangée devant son pion, ce qui est tout ce dont un roi et un pion ont jamais besoin."
+}

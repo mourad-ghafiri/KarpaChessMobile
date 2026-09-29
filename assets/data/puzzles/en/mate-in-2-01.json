@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-01",
+  "fen": "2k5/8/3K4/7Q/8/8/8/8 w - - 2 2",
+  "solution": [
+    "Qb5",
+    "Kd8",
+    "Qb8#"
+  ],
+  "title": "Two-Step Cage",
+  "setup": "Black's king on c8 still has three squares. Your king already holds c7 and d7, and your queen is far away on h5.",
+  "hint": "Any check here lets the king out. Take its squares away quietly and leave it exactly one move.",
+  "explanation": "## The Idea\n\nChecking first lets the king run. {{Qb5}} gives no check at all: it takes the whole b-file, so b8 and b7 are gone, and your king on d6 already holds c7 and d7.\n\nBlack has one legal move, {{Kd8}}, and it walks into {{Qb8#}}. The queen covers the eighth rank, your king covers the seventh, and the black king has nowhere left. {{Qd7#}} mates just as well."
+}

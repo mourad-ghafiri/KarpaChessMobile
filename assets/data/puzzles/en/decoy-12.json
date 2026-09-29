@@ -1,0 +1,14 @@
+{
+  "id": "decoy-12",
+  "fen": "1r1q1r1k/6pp/7N/8/8/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1550,
+  "title": "Philidor's Legacy",
+  "setup": "The king on h8 is sealed in by its own pawns, and your knight on h6 already covers g8.",
+  "hint": "Every flight square is gone except one, and it is empty. How do you get a black piece to stand there?",
+  "explanation": "## The Idea\n\nThis is the **smothered mate**. {{Qg8+}} offers the queen so that Black must block its own escape: {{Rxg8}} is forced, since the knight guards g8. {{Nf7#}} then mates a king with nowhere to go."
+}

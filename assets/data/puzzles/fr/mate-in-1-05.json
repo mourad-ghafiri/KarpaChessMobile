@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-05",
+  "fen": "6k1/5ppp/8/8/8/8/1R3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Le marteau à longue distance",
+  "setup": "Votre tour en b2 fixe une colonne vide, avec la dernière rangée grande ouverte à l'autre bout.",
+  "hint": "Le roi noir a trois de ses propres pions devant lui. Trouvez la rangée qu'il ne peut pas quitter.",
+  "explanation": "## L'idée\n\nC'est un mat du couloir pur. {{Rb8#}} parcourt toute la colonne b et donne échec le long de la huitième rangée. f8 et h8 sont sur la ligne de la tour, f7, g7 et h7 sont occupées par les propres pions noirs, et rien ne peut prendre la tour ni s'interposer.\n\nUne tour loin de l'action peut quand même mater en un. Avant de jouer, examinez chaque colonne ouverte pour vos tours et chaque diagonale ouverte pour vos fous."
+}

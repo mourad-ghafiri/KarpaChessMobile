@@ -1,0 +1,12 @@
+{
+  "id": "discovery-01",
+  "fen": "3r3k/5p1p/6p1/4N3/8/3q4/1B3PPP/5RK1 w - - 0 1",
+  "solution": [
+    "Nxd3+"
+  ],
+  "rating": 960,
+  "title": "Il Pezzo Davanti",
+  "setup": "Il vostro alfiere in b2 punta al re nero, e il vostro stesso cavallo in e5 è l'unica cosa di mezzo.",
+  "hint": "Qualcosa di vostro sta fra l'alfiere e il re avversario. Che cosa succede nel momento in cui si sposta?",
+  "explanation": "## L'idea\n\nIl cavallo è il pezzo davanti di una batteria. {{Nxd3+}} prende la donna e smaschera lo scacco dell'alfiere su h8 nella stessa mossa, quindi il Nero deve rispondere allo scacco invece di riprendere. Un pezzo difeso non è davvero difeso quando prenderlo arriva con scacco."
+}

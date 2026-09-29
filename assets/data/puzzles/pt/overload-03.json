@@ -1,0 +1,14 @@
+{
+  "id": "overload-03",
+  "fen": "r5k1/5ppp/8/8/3R4/8/PP2b3/K2R2Q1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1330,
+  "title": "Só Uma Torre Volta",
+  "setup": "A torre preta guarda a linha de fundo a partir de a8 e as tuas torres estão dobradas na coluna d com a dama a ver de g1.",
+  "hint": "Conta quantas peças tuas chegam à oitava linha e conta depois quantas das pretas conseguem responder.",
+  "explanation": "## A Ideia\n\n{{Rd8+}} oferece uma torre que o defensor tem de comer, e {{Rxd8}} arranca-a de a8. A segunda torre segue com {{Rxd8#}}. Um defensor não consegue responder a dois atacantes na mesma casa; a conta é toda a tática."
+}

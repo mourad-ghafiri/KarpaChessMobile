@@ -1,0 +1,16 @@
+{
+  "id": "fork-12",
+  "fen": "7k/pp4pp/1q6/4N3/8/8/P1P2PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Qxd8",
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 1100,
+  "title": "Arrastra a la dama",
+  "setup": "El rey negro está encerrado detrás de g7 y h7, y su dama de b6 es la única pieza que vigila d8.",
+  "hint": "El rey negro no se puede mover en absoluto. Aprovéchalo para decidir adónde tendrá que ir su dama.",
+  "explanation": "## La idea\n\nEl rey de h8 no tiene casillas, así que a {{Rd8+}} solo se puede responder con {{Qxd8}}, que arrastra a la dama a d8, donde la alcanzará un jaque de caballo desde f7. {{Nf7+}} da una horquilla a la dama y al rey, {{Kg8}} es forzada, y {{Nxd8}} gana la dama por una torre."
+}

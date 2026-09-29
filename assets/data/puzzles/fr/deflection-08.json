@@ -1,0 +1,14 @@
+{
+  "id": "deflection-08",
+  "fen": "2r3k1/pq4pp/6pQ/6N1/8/8/1B3PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Qxg7#"
+  ],
+  "rating": 1380,
+  "title": "Une tour pour le mat",
+  "setup": "Votre dame et votre fou frappent tous deux g7, et la dame en b7 est son seul défenseur supplémentaire.",
+  "hint": "Une tour vaut moins qu'un mat. Quel échec oblige la seule pièce qui garde g7 à regarder ailleurs ?",
+  "explanation": "## L'idée\n\n{{Rxc8+}} doit recevoir pour réponse {{Qxc8}}, qui arrache la dame à la septième rangée. {{Qxg7#}} conclut avec le fou en b2 derrière elle. La tour n'a jamais été l'enjeu. Quand le mat est possible, comptez les gardiens de la case, pas le matériel."
+}

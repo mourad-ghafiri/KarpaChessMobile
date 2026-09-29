@@ -1,0 +1,14 @@
+{
+  "id": "promotion-02",
+  "fen": "1N6/1P2kppp/5n2/3r4/8/6P1/5PKP/8 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Kd7",
+    "b8=Q"
+  ],
+  "rating": 1040,
+  "title": "Pindahkan Buah Anda Sendiri",
+  "setup": "Pion Anda di b7 tinggal satu petak dari menteri baru, dan petak itu ditempati kuda Anda sendiri.",
+  "hint": "Kuda harus pergi, dan Hitam tak boleh diberi langkah gratis untuk menyusun blokade.",
+  "explanation": "## Ide\n\nKuda di b8 berdiri menghalangi pionnya sendiri. {{Nc6+}} menyingkir dengan sekak, jadi Hitam tak punya waktu untuk menguasai b8; sesudah {{Kd7}} pion berjalan masuk dengan {{b8=Q}}. Kosongkan petak promosi sambil mendapat tempo, jangan pernah dengan diam-diam."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "history-08",
+  "fen": "r4rk1/pp3ppp/8/8/8/2N5/PPP2PPb/R3RK2 w - - 0 1",
+  "solution": [
+    "g3",
+    "Bxg3",
+    "fxg3"
+  ],
+  "title": "En Sakin Hamle",
+  "setup": "Siyahın fili az önce h2 piyonuna el koydu ve beyazın f1'deki şahı ona ulaşamıyor.",
+  "hint": "Fili bir taşla kovalamayın. Şah g1'i zaten kapsıyor, yani filin tek çıkışı çapraz. Hangi piyon hamlesi onu kapatıyor?",
+  "explanation": "## Fikir\n\nŞah yok, alınacak bir şey yok: kazandıran hamle tahtadaki en sakin olanı; motorların bulduğu ve insanların kendilerini vazgeçirdiği türden.\n\n{{g3}} filin çaprazını kapatır ve f1'deki şah g1'i zaten kapsar. Artık siyahın en az kötü denemesi {{Bxg3}}'tür ve {{fxg3}} beyazı bir piyona karşılık bir taş önde bırakır. {{Bg1}} onu hemen şaha kaptırır ve beklemek {{Kg2}} hamlesinin gelip onu almasına izin verir.\n\nKampınızın derinliklerindeki bir taşı kovalamadan önce onun çıkış yolunu sayın."
+}

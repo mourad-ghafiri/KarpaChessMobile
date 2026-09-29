@@ -1,0 +1,14 @@
+{
+  "id": "skewer-12",
+  "fen": "8/1r5R/2kpB3/1bp1R3/3P4/2P2P2/4P3/K7 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kb6",
+    "Rxb7+"
+  ],
+  "rating": 1300,
+  "title": "L'Alfiere Prepara, la Torre Incassa",
+  "setup": "Il re nero in c6 ha una torre proprio dietro in b7, e la vostra torre possiede già la settima traversa.",
+  "hint": "Quale pezzo può dare scacco su una diagonale che prosegue attraverso il re fino alla torre che aspetta dietro?",
+  "explanation": "## L'idea\n\n{{Bd5+}} è l'infilata: la diagonale d5–c6–b7 contiene il re e, dietro di lui, la torre. La vostra torre in **e5** difende d5, quindi lo scacco non si può prendere. Dopo {{Kb6}}, {{Rxb7+}} vince la torre, visto che adesso l'alfiere copre anche b7."
+}

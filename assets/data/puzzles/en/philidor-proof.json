@@ -1,0 +1,11 @@
+{
+  "id": "philidor-proof",
+  "fen": "3k4/5R2/8/r1PK4/8/8/8/8 b - - 0 1",
+  "solution": [
+    "Ra6"
+  ],
+  "title": "Close the Sixth",
+  "setup": "White's king on d5 is one step from the sixth rank, and from there it walks your king off the queening square. Black to move, and it is a draw.",
+  "hint": "White's king needs one of three squares on the sixth rank. A rook standing on a rank covers every square of it.",
+  "explanation": "## The Idea\n\nWhite's king needs c6, d6 or e6, and one rook move takes all three: {{Ra6}}. A rook on a rank is a fence, and a king may not step onto a square it covers.\n\nEvery other move lets the king onto the sixth rank, and with the rook on f7 keeping your king on the back rank, the pawn walks in. If White ever pushes to c6, the fence has done its work: drop the rook to the far end and check from behind."
+}

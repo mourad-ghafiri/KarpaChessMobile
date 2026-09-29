@@ -1,0 +1,12 @@
+{
+  "id": "trapped-03",
+  "fen": "3r2k1/pp3pp1/5n1p/8/7B/2N3P1/PP3P1P/4R1K1 b - - 0 1",
+  "solution": [
+    "g5"
+  ],
+  "rating": 1090,
+  "title": "Two Steps, No Exit",
+  "setup": "White's bishop stands on h4, and White has already played g3, closing one of its two retreat squares.",
+  "hint": "White's own pawn already blocks one of the bishop's two exits. Who controls the other one?",
+  "explanation": "## The Idea\n\n{{g5}} attacks the bishop, and h4 has exactly two diagonal squares. g3 holds White's own pawn, and the pawn now on g5 is defended by h6, so Bxg5 hxg5 hands over a piece for a pawn. Trapping is about squares, not about attacks."
+}

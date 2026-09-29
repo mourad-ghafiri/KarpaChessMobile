@@ -1,0 +1,50 @@
+{
+  "id": "xray-attack",
+  "title": "X-Ray Attack",
+  "summary": "Long-range pieces see through each other",
+  "proof": "xray-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Behind Your Own Rook",
+      "text": "Your queen on d1 stands behind your own rook on d2, and that looks like a wasted queen. Move the rook away and the queen sees d7 the same instant, so while the rook stays, the queen is aiming straight through it.\n\nThat is an **x-ray**: a long-range piece attacking through a piece of its own, and counting as an attacker the whole time.\n\nNow count the d-file. Black's rook on d7 is hit twice, by the rook and by the queen behind it. The bishop on c8 guards it once. Two beats one."
+    },
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Cheap End First",
+      "text": "Two attackers and one defender, so d7 falls. What it costs is settled before a capture is made, because the piece in front is the piece that has to start.\n\nHere the front piece is the rook. It goes in, the bishop takes it, the queen finishes: five points paid, eight collected.\n\nSwap the two around, queen in front and rook behind, and the same file loses money. The queen goes in, the bishop takes a queen, the rook takes the bishop. Nine paid, eight collected.\n\nCheap in front, expensive behind."
+    },
+    {
+      "type": "play",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "prompt": "Cash in on the d-file, starting with the attacker you can most afford to lose.",
+      "targetSan": [
+        "Rxd7"
+      ],
+      "hint": "Count what is still aiming at that square once Black's bishop has recaptured."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "The Guard That Is Not There Yet",
+      "text": "A new board, Black to move, and the knight on e5 looks free. Black's rook on e4 attacks it, and no white piece is standing anywhere near it.\n\nLook farther down the file. Your rook on e1 is on that same file, and the only thing standing between it and the knight is the black rook itself.\n\nSo the knight is guarded through the piece that wants to take it. The blocker and the attacker are the same rook, and it cannot capture without stepping off the square it is blocking with."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "One Move Rich",
+      "text": "Black could try clearing the file instead, trading on e1 — but the king on f1 takes back, and the rook that wanted the knight comes off the board with it.\n\nSo Black takes the knight: {{Rxe5}}. Three points, for free, for exactly one move.\n\n> Count the whole line, not the first piece standing on it."
+    },
+    {
+      "type": "play",
+      "fen": "2b3k1/ppp2ppp/8/4r3/8/8/PPP2PPP/4RK2 w - - 0 2",
+      "prompt": "Black's rook has landed on the file your own rook already owns, so collect it.",
+      "targetSan": [
+        "Rxe5"
+      ],
+      "hint": "Nothing stands between your rook and the piece that has just captured."
+    }
+  ]
+}

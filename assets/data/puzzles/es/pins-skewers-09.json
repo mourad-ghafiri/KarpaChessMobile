@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-09",
+  "fen": "r3k3/pp2nppp/8/3P4/8/7B/PP2RPPP/6K1 w - - 0 1",
+  "solution": [
+    "d6"
+  ],
+  "title": "El caballo clavado",
+  "setup": "El caballo negro de e7 está atrapado entre tu torre y su propio rey, pero el rey lo protege.",
+  "hint": "Torre por caballo es un mal cambio. ¿Cuál de tus piezas puede atacar e7 más barato?",
+  "explanation": "## La idea\n\nUn caballo clavado contra su rey no puede moverse en absoluto, porque todos sus saltos salen de la línea. {{Rxe7+}} ahora perdería la torre ante {{Kxe7}}, así que trae un atacante más barato. {{d6}} golpea al caballo y además protege e7. Tras {{Rd8}}, {{Rxe7+}} captura el caballo, y el rey no puede recapturar.\n\nCuando una pieza clavada está defendida, no cambies contra ella: suma tu atacante más barato."
+}

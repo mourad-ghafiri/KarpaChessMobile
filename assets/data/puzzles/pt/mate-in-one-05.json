@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-05",
+  "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/8/2Q2N2/PqP1PPPP/RN2KB1R b KQk - 0 8",
+  "solution": [
+    "Qc1#"
+  ],
+  "rating": 720,
+  "title": "Uma Linha Sem Espaço",
+  "setup": "A tua dama já se enfiou até b2, e a linha de fundo das brancas está entupida com as próprias peças.",
+  "hint": "O rei branco tem dois buracos ao lado e não tem um terceiro, portanto procura um xeque a que a sua primeira linha atulhada não consiga responder.",
+  "explanation": "## A Ideia\n\nTodas as casas à volta de e1 estão ocupadas pelas próprias peças das brancas ou varridas pela dama ao aterrar, portanto um xeque seguro na primeira linha acaba o jogo. {{Qc1#}} não pode ser capturada: o cavalo de b1 fecha a torre de fora, e o peão de c2 tapa a dama branca."
+}

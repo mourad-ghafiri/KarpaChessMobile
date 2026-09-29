@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-06",
+  "fen": "4k3/pp4pp/8/8/3pK3/8/PP4PP/8 w - - 0 1",
+  "solution": [
+    "Kxd4"
+  ],
+  "title": "Il Re Combattente",
+  "setup": "Un pedone nero sta proprio accanto al vostro re, senza nessuna guardia del corpo in vista.",
+  "hint": "Il re cattura come muove: una casa in qualunque direzione. Il pedone di d4 è difeso?",
+  "explanation": "## L'idea\n\nIl re non è solo un pezzo da proteggere; può anche combattere. Il pedone nero in d4 è a un passo, e **niente lo difende**: il re nero in e8 è a quattro traverse di distanza.\n\n{{Kxd4}} lo prende senza rischi. Controllate sempre prima: un pedone nero in d4 attacca c3 e e3, non la casa su cui sta il vostro re né quella su cui atterra.\n\nUn re può catturare qualunque pezzo accanto a sé che niente difenda."
+}

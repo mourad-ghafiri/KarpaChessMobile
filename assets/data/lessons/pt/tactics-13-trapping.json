@@ -1,0 +1,44 @@
+{
+  "id": "trapping-pieces",
+  "title": "Encurralar Peças",
+  "summary": "Ganha uma peça tirando-lhe as casas",
+  "proof": "trapping-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "title": "Duas Casas em Todo o Mundo",
+      "text": "Conta as casas para onde o bispo branco de b3 pode ir. Duas.\n\nOs seus próprios peões estão em a2 e c2. A sua própria dama em d5 bloqueia a estrada para lá de c4. O que resta é a4 e c4, e o peão preto em b5 já cobre as duas.\n\nNada no tabuleiro está a atacar esse bispo. Nem é preciso. A uma peça reduzida a duas casas basta perder uma delas."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "prompt": "Põe um peão defendido numa das duas casas do bispo, para que vá para onde for esteja perdido.",
+      "hint": "Só uma dessas duas casas é alcançável por um peão teu, e o peão de b5 já a está a cobrir.",
+      "targetSan": [
+        "c4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "title": "A Arca de Noé",
+      "text": "{{c4}}. Sem captura, sem xeque. O peão limita-se a ficar numa casa com que o bispo contava.\n\n{{Bxc4}} {{bxc4}} é a versão gulosa, e entrega um bispo por dois peões na melhor das hipóteses. a4 não é melhor: o peão de b5 cobre também essa casa.\n\nO padrão é suficientemente antigo para ter nome. Na **armadilha da Arca de Noé** os peões vêm sobre o bispo dois a dois, e nenhuma peça chega sequer a atacá-lo."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/PN1B4/rP3PPP/2K5 w - - 1 2",
+      "title": "Uma Torre num Armário",
+      "text": "Agora uma torre. A das pretas foi à caça pela segunda linha e não consegue voltar a casa.\n\nTem três casas: a1, a3 e b2. O cavalo em b3 cobre a1. O peão em a3 é seguro pelo peão de b2, e o peão de b2 é seguro pelo rei de c1. Todas as saídas custam a torre.\n\nNinguém construiu esta jaula de propósito. As pretas entraram nela.\n\n> Uma peça encurralada não se persegue. Contam-se-lhe as casas e depois bate-se à porta."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/PN1B4/rP3PPP/2K5 w - - 1 2",
+      "prompt": "Ataca a torre com o teu bispo, a partir de uma casa a que a torre nunca poderá chegar.",
+      "hint": "As três casas da torre já estão todas cobertas. Só lhe falta um atacante a que nunca possa responder.",
+      "targetSan": [
+        "Bb1"
+      ]
+    }
+  ]
+}

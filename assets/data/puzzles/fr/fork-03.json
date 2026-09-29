@@ -1,0 +1,12 @@
+{
+  "id": "fork-03",
+  "fen": "rnbqkb1r/pppp1ppp/8/4p3/2B1N3/8/PPPP1PPP/R1BQK1NR b KQkq - 0 4",
+  "solution": [
+    "d5"
+  ],
+  "rating": 760,
+  "title": "L'astuce de la fourchette",
+  "setup": "Vous avez donné un cavalier en e4 il y a un coup, et les Blancs ont maintenant un cavalier et un fou sur la même rangée.",
+  "hint": "Quel coup de pion unique attaque à la fois le cavalier et le fou ?",
+  "explanation": "## L'idée\n\n{{d5}} frappe ensemble le cavalier en e4 et le fou en c4, et libère en même temps votre propre fou en c8. C'est l'astuce de la fourchette : livrer un cavalier contre un pion, puis regagner aussitôt la pièce avec un pion."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "deflection-03",
+  "fen": "2br2k1/5ppp/nq6/8/2B5/7P/PP2QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Bxa6"
+  ],
+  "rating": 1180,
+  "title": "Dois Deveres, Uma Dama",
+  "setup": "A dama de b6 segura a torre de d8 e o cavalo de a6, e o teu bispo já olha para a6.",
+  "hint": "O teu bispo aponta a um cavalo defendido. Encontra o defensor e dá-lhe um trabalho a que tenha de responder.",
+  "explanation": "## A Ideia\n\n{{Rxd8+}} é xeque e {{Qxd8}} é a única resposta. A dama deixou a sexta linha, portanto {{Bxa6}} come simplesmente o cavalo. Caça defensores que estejam a segurar duas peças ao mesmo tempo. Um defensor não tem de ser capturado, só de receber outro sítio onde estar."
+}

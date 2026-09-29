@@ -1,0 +1,14 @@
+{
+  "id": "deflection-04",
+  "fen": "2br2k1/p4ppp/1q6/8/1n6/7P/1PN1QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Nxb4"
+  ],
+  "rating": 1220,
+  "title": "Knight Waits for the Queen",
+  "setup": "The queen on b6 props up the rook on d8 and the knight on b4, and your knight on c2 is watching b4.",
+  "hint": "Knight takes knight is only a trade while the defender stays home. Which check sends it elsewhere?",
+  "explanation": "## The Idea\n\n{{Rxd8+}} leaves exactly one legal move, {{Qxd8}}. The queen is off the b-file, so {{Nxb4}} wins a knight outright. Rook for rook first, and the deflection is free. Ask what the opponent's best-placed piece is quietly being asked to hold."
+}

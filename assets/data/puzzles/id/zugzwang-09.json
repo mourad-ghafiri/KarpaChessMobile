@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-09",
+  "fen": "4k3/8/1B6/1KpR4/8/7p/8/R7 w - - 0 1",
+  "solution": [
+    "Ra7",
+    "h2",
+    "Rd8#"
+  ],
+  "rating": 1650,
+  "title": "Kedua Benteng di Baris Belakang",
+  "setup": "Raja Hitam duduk di e8 dengan pion di c5 dan h3, dan benteng-benteng Anda menguasai baris kelima dan lajur a.",
+  "hint": "Satu benteng sudah menguasai lajur yang akan dipakai raja. Beri benteng yang lain baris yang dibutuhkannya, tanpa memberi sekak.",
+  "explanation": "## Ide\n\n{{Ra7}} merebut baris ketujuh dengan tenang, dan Hitam tak punya apa pun untuk menghentikan {{Rd8#}}. {{Rd8#}} menyusul di baris belakang. Dua benteng memberi mat dengan merebut dua baris — kuncinya adalah merebut baris kedua dalam diam."
+}

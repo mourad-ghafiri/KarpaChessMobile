@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-02",
+  "fen": "8/4k3/R7/8/8/8/8/1R5K w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Ke8",
+    "Ra8#"
+  ],
+  "title": "Kale Merdiveni",
+  "setup": "Siyahın e7'deki çıplak şahına karşı iki kale ve a6'daki kale bütün altıncı yatayı çoktan çitlemiş.",
+  "hint": "Bir kale bir yatayı tutarken öteki bir üstündekinde şah çeker.",
+  "explanation": "## Fikir\n\nBu kale merdivenidir. a6'daki kale altıncı yatayı tutar, yani {{Rb7+}} yedinci boyunca şah çeker ve şaha yalnızca arka yatayı bırakır: {{Kd8}}, {{Ke8}} ya da {{Kf8}}.\n\nNereye giderse gitsin {{Ra8#}} son yataya tırmanır. b7'deki kale bütün yedinciyi tutar ve şaha yer kalmaz. Kes, şah çek, kes, şah çek: iki kalenin başka hiçbir şeye ihtiyacı yoktur."
+}

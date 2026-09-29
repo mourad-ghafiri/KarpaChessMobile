@@ -1,0 +1,11 @@
+{
+  "id": "board-proof",
+  "fen": "4k3/8/8/8/8/8/1PP2PP1/4K3 w - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "title": "Lee la dirección",
+  "setup": "Cada casilla tiene nombre. Lleva un peón a la casilla llamada c4.",
+  "hint": "Busca primero la columna c y luego cuenta hacia arriba desde el borde de las Blancas: fila 1, fila 2, fila 3, fila 4.",
+  "explanation": "## La idea\n\nPrimero la letra, después el número. La columna c es la tercera desde la izquierda de las Blancas, y la fila 4 es la cuarta desde su borde, así que c4 está donde se cruzan.\n\nEl peón de c2 es el único en esa columna, y en su primera jugada un peón puede avanzar dos casillas: {{c4}}. El peón de b2 podría llegar a b4, pero b4 es otra dirección."
+}

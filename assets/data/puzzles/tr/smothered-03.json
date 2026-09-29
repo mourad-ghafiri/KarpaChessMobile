@@ -1,0 +1,12 @@
+{
+  "id": "smothered-03",
+  "fen": "kr2r3/pp3ppp/8/1N6/8/8/P4PPP/3R2K1 w - - 7 29",
+  "solution": [
+    "Nc7#"
+  ],
+  "rating": 1215,
+  "title": "Öteki Köşe",
+  "setup": "Siyah az önce bir kaleyi c8'den b8'e adımladı ve köşedeki şahın hiç boşluğu kalmadı.",
+  "hint": "Boğmaca matı bir şah kanadı fikri değildir; a8'in çevresinde hangi karelerin hâlâ boş olduğuna bakın, sonra bir şah arayın.",
+  "explanation": "## Fikir\n\na7 ile b7'de piyonları ve b8'de kalesi olan a8'deki şah, h8'deki kadar gömülüdür. {{Nc7#}} ona şah çeken tek kareye iner ve onu kapsayan hiçbir şey yoktur — b8'deki kale yatayları ve dikeyleri korur, önündeki çapraz kareyi asla."
+}

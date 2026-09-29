@@ -1,0 +1,14 @@
+{
+  "id": "promotion-09",
+  "fen": "8/q1P1kppp/8/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "c8=N+",
+    "Kd7",
+    "Nxa7"
+  ],
+  "rating": 1310,
+  "title": "Not a Queen",
+  "setup": "Your c-pawn queens next move, but a queen on c8 would not touch the black king or the black queen.",
+  "hint": "The new piece has to hit two things at once. Check which promotion can.",
+  "explanation": "## The Idea\n\n{{c8=N+}} forks the king on e7 and the queen on a7, two squares a queen on c8 would not attack at all. After {{Kd7}} the knight takes on a7. Promote to the piece the position is asking for, not to the strongest one."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "fork-12",
+  "fen": "7k/pp4pp/1q6/4N3/8/8/P1P2PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Qxd8",
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 1100,
+  "title": "Trascinate Dentro la Donna",
+  "setup": "Il re nero è sigillato dietro g7 e h7, e la sua donna in b6 è l'unico pezzo che sorveglia d8.",
+  "hint": "Il re nero non può proprio muovere. Usate questo per stabilire dove dovrà andare la sua donna.",
+  "explanation": "## L'idea\n\nIl re in h8 non ha una casa, quindi a {{Rd8+}} si può rispondere solo {{Qxd8}} — il che trascina la donna in d8, dove uno scacco di cavallo da f7 la raggiunge. {{Nf7+}} inforchetta la donna e il re, {{Kg8}} è forzata, e {{Nxd8}} vince la donna per una torre."
+}

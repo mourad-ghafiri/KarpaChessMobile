@@ -1,0 +1,14 @@
+{
+  "id": "discovery-03",
+  "fen": "2r5/ppp4k/5b1p/8/4P3/7P/5P1K/1B4R1 w - - 0 1",
+  "solution": [
+    "e5+",
+    "Kh8",
+    "exf6"
+  ],
+  "rating": 1040,
+  "title": "El peón da el paso",
+  "setup": "Tu alfil de b1 apunta directamente a h7, y solo tu propio peón de e4 mantiene cerrada la diagonal.",
+  "hint": "El alfil negro es de casillas negras: nunca podrá pisar la diagonal b1-h7 para tapar nada.",
+  "explanation": "## La idea\n\n{{e5+}} abre la diagonal b1-h7 y ataca al alfil de un mismo golpe. Primero hay que responder al jaque, y ninguna pieza negra puede interponerse en una casilla blanca, así que tras {{Kh8}} el peón come en f6 gratis."
+}

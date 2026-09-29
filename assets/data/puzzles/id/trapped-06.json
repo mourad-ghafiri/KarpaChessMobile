@@ -1,0 +1,12 @@
+{
+  "id": "trapped-06",
+  "fen": "2r3k1/Bpp2pp1/5n1p/p7/8/8/P1P2PPP/3R2K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "rating": 1210,
+  "title": "Tutup Pintunya",
+  "setup": "Gajah Putih merebut pion di a7, jauh di dalam kubu Anda, dengan hanya b8 dan b6 sebagai jalan pulang.",
+  "hint": "Benteng Anda di c8 sudah mengawasi salah satu dari dua pintu. Tutup yang lain dengan sesuatu yang tak bisa diambil gajah dengan aman.",
+  "explanation": "## Ide\n\n{{b6}} merebut petak terakhir gajah, dan pion itu dilindungi c7, jadi Bxb6 cxb6 memenangkan buah dengan imbalan pion. Benteng menguasai b8, pion a2 milik Putih sendiri menghalangi lajur a, dan c7 mencegah benteng mana pun mencapai a7 di sepanjang baris. Ra8 berikutnya."
+}

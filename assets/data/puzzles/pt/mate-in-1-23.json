@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-23",
+  "fen": "6k1/pp3ppp/8/8/8/8/PPR2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rc8#"
+  ],
+  "title": "Martelo pela Coluna Aberta",
+  "setup": "A coluna c está vazia entre a tua torre e a oitava linha, e o escudo de peões das pretas não tem janela de fuga.",
+  "hint": "Carrega pela coluna c aberta. Os próprios peões das pretas encurralam o rei por ti.",
+  "explanation": "## A Ideia\n\nIsto é um mate da linha de fundo por uma coluna aberta: não há peão de nenhuma das cores na coluna c, portanto a tua torre tem estrada livre até à oitava linha.\n\n{{Rc8#}} dá xeque pela linha de fundo. f8 e h8 estão na linha da torre, f7, g7 e h7 têm os peões das próprias pretas, e nenhuma peça preta pode tapar nem capturar.\n\nUma coluna aberta é uma autoestrada até à linha de fundo."
+}

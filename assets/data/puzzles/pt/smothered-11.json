@@ -1,0 +1,18 @@
+{
+  "id": "smothered-11",
+  "fen": "1r5k/p5pp/8/3QN3/1B6/8/5PPP/6K1 w - - 7 31",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1470,
+  "title": "O Cavalo Vai Duas Vezes",
+  "setup": "O rei das pretas acabou de fugir da diagonal para o canto, e o bispo de b4 cobre f8 de longe.",
+  "hint": "Conta as fugas: f8 está coberta e os peões seguram g7 e h7, portanto o rei só pode andar entre duas casas.",
+  "explanation": "## A Ideia\n\n{{Nf7+}} tira o rei de lá, {{Kg8}} forçado, e {{Nh6+}} volta como xeque duplo, portanto {{Kh8}} é outra vez a única jogada. Agora o cavalo guarda g8: {{Qg8+}} {{Rxg8}} e {{Nf7#}}. Este é o Legado de Philidor, e os dois saltos de cavalo existem só para preparar o sacrifício."
+}

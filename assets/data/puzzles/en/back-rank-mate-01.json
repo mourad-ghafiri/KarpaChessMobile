@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-01",
+  "fen": "6k1/5ppp/8/8/8/8/1r3PPP/4R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 700,
+  "title": "The Pawn Grab",
+  "setup": "Black has just taken a pawn on b2 with its rook, leaving its eighth rank completely bare.",
+  "hint": "The black king has three of its own pawns directly in front of it. What does that leave it?",
+  "explanation": "## The Idea\n\n{{Re8#}}. The king on g8 has f7, g7 and h7 blocked by its own pawns, and every square on the eighth rank belongs to the rook. A king behind three unmoved pawns is one back-rank check from mate whenever nothing guards that rank."
+}

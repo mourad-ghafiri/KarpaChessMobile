@@ -1,0 +1,14 @@
+{
+  "id": "skewer-06",
+  "fen": "8/1R1p3p/2k2r2/8/4Pb2/2r5/3R1B1P/4K3 w - - 0 1",
+  "solution": [
+    "Rb6+",
+    "Kc7",
+    "Rxf6"
+  ],
+  "rating": 1100,
+  "title": "Torre Atrás de Torre",
+  "setup": "As pretas têm duas torres em jogo, e uma delas partilha a sexta linha com o seu rei, em c6.",
+  "hint": "Que casa da sexta linha já é defendida por uma peça tua? Dá xeque dali.",
+  "explanation": "## A Ideia\n\n{{Rb6+}} é um espeto pela sexta linha: o rei à frente, a torre de **f6** atrás. O bispo de **f2** guarda b6, portanto o xeque não pode ser comido, e todas as casas de fuga menos c7 estão cobertas. {{Kc7}}, e {{Rxf6}} ganha a torre."
+}

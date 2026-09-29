@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-01",
+  "fen": "6k1/5ppp/8/8/8/8/1r3PPP/4R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 700,
+  "title": "La razzia sur le pion",
+  "setup": "Les Noirs viennent de prendre un pion en b2 avec leur tour, laissant leur huitième rangée entièrement nue.",
+  "hint": "Le roi noir a trois de ses propres pions juste devant lui. Que lui reste-t-il ?",
+  "explanation": "## L'idée\n\n{{Re8#}}. Le roi en g8 a f7, g7 et h7 bouchées par ses propres pions, et chaque case de la huitième rangée appartient à la tour. Un roi derrière trois pions intacts est à un échec du mat du couloir dès que rien ne garde cette rangée."
+}

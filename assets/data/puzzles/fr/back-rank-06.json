@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-06",
+  "fen": "1r4k1/5ppp/8/8/8/8/4QPPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "title": "Le long chemin",
+  "setup": "La tour noire garde la dernière rangée depuis l'autre bout de l'échiquier — l'unique défenseur, loin de chez lui.",
+  "hint": "La gardienne peut atteindre e8, mais seulement en abandonnant tout le reste. Quelle est la plus grosse pièce que vous pouvez l'obliger à prendre ?",
+  "explanation": "## L'idée\n\nLa tour en b8 couvre toute la dernière rangée à distance, jusqu'à ce qu'on la force à s'engager.\n\n{{Qe8+}} offre la dame sur la case d'entrée. {{Rxe8}} est la seule réponse, qui traîne la gardienne à travers la rangée, et {{Rxe8#}} reprend avec les propres pions noirs qui bouchent toutes les cases de fuite.\n\nUn défenseur solitaire de la dernière rangée est une cible, pas un mur : obligez-le à prendre, et la reprise est mat."
+}

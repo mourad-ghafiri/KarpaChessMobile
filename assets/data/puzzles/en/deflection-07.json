@@ -1,0 +1,14 @@
+{
+  "id": "deflection-07",
+  "fen": "3r2k1/ppq3pp/b6Q/6N1/8/8/1B3PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Qxg7#"
+  ],
+  "rating": 1340,
+  "title": "Guard Off the Seventh",
+  "setup": "Your queen and bishop aim at g7, but Black's queen on c7 covers that square along the seventh rank.",
+  "hint": "Two of yours attack g7 and two of theirs defend it. Which defender can be handed a job elsewhere?",
+  "explanation": "## The Idea\n\n{{Rxd8+}} forces {{Qxd8}}, and from d8 the queen no longer sees g7. {{Qxg7#}} mates, the bishop on b2 holding the queen in place. Count the defenders of a mating square, then remove one. Mating squares are guarded by pieces, and pieces can be given other work."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-01",
+  "fen": "2Q2rk1/4Rppp/8/8/8/8/PP2R3/K4b2 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Re8#"
+  ],
+  "rating": 1250,
+  "title": "Dos trabajos, una torre",
+  "setup": "Tu dama apunta a f8 y tus dos torres están apiladas en la columna e, mientras la torre negra de f8 hace ella sola toda la defensa.",
+  "hint": "Una pieza negra cubre dos casillas de entrada a la vez. Pregúntate qué pasa si solo se le permite cubrir una.",
+  "explanation": "## La idea\n\nLa torre de f8 tiene dos trabajos: cerrar la octava fila y mantener e8 fuera de alcance. {{Qxf8+}} compra el primero con una dama, {{Kxf8}} es forzada, y ahora {{Re8#}} entra en la casilla que ya no puede vigilar. Un defensor con dos tareas no cumple ninguna."
+}

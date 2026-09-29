@@ -1,0 +1,14 @@
+{
+  "id": "overload-10",
+  "fen": "2Q1b2k/4rppp/8/8/4R3/8/PP6/K6R w - - 0 1",
+  "solution": [
+    "Qxe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1580,
+  "title": "Both Pieces on One File",
+  "setup": "Black has a bishop on e8 and a rook on e7, and every one of your heavy pieces is aimed at that same file.",
+  "hint": "When two defenders stand on one line, only the front one can be taken. Ask what the second is really doing.",
+  "explanation": "## The Idea\n\n{{Qxe8+}} forces {{Rxe8}} — the rook must leave the seventh — and {{Rxe8#}} is mate because the pawns have sealed the king in themselves. Stacking defenders on one file means losing them one after another."
+}

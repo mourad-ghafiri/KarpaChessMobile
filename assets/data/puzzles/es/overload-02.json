@@ -1,0 +1,14 @@
+{
+  "id": "overload-02",
+  "fen": "5Rbk/1r3ppp/8/8/8/7Q/PP2R3/K7 w - - 0 1",
+  "solution": [
+    "Rxg8+",
+    "Kxg8",
+    "Re8#"
+  ],
+  "rating": 1290,
+  "title": "El escudo que tapa",
+  "setup": "El alfil negro se ha retirado a g8 junto a su propio rey, y tu torre ya está en f8, a su lado.",
+  "hint": "La pieza que está delante del rey es la misma que mantiene cerrada la última fila. Oblígala a elegir.",
+  "explanation": "## La idea\n\nEl alfil de g8 protege al rey y a la vez tapa la octava fila. {{Rxg8+}} lo elimina con jaque, {{Kxg8}} es forzada, y {{Re8#}} llega por la columna que la otra torre ha tenido para ella sola todo el tiempo."
+}

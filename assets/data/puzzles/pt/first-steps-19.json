@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-19",
+  "fen": "8/7P/6k1/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "h8=Q"
+  ],
+  "title": "A Longa Marcha",
+  "setup": "O teu peão h marchou até à sétima linha, e o rei preto em g6 está a um passo de o comer.",
+  "hint": "Esperar perde o peão. Acaba já a viagem e escolhe a peça mais forte em que ele se pode transformar.",
+  "explanation": "## A Ideia\n\nO rei preto em g6 toca em h7, portanto qualquer jogada tranquila deixa-o comer o peão, e um rei sozinho contra um rei sozinho é empate. {{h8=Q}} encerra o assunto: o peão deixa h7 na jogada em que é atacado, e h8 está fora do alcance do rei.\n\nUma torre também ganharia, só que devagar. A dama vale nove pontos, e rei e dama contra um rei sozinho ganham sempre."
+}

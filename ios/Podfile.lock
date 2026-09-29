@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - karpa_engine (1.0.0):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - karpa_engine (from `.symlinks/plugins/karpa_engine/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  karpa_engine:
+    :path: ".symlinks/plugins/karpa_engine/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  karpa_engine: a31bd573c989756e0b2509855efc068dd72c6354
+
+PODFILE CHECKSUM: 352fcf90f17e1862e31388c51809cf5060099073
+
+COCOAPODS: 1.16.2

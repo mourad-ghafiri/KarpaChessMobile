@@ -1,0 +1,12 @@
+{
+  "id": "trapped-03",
+  "fen": "3r2k1/pp3pp1/5n1p/8/7B/2N3P1/PP3P1P/4R1K1 b - - 0 1",
+  "solution": [
+    "g5"
+  ],
+  "rating": 1090,
+  "title": "Dua Langkah, Tanpa Jalan Keluar",
+  "setup": "Gajah Putih berdiri di h4, dan Putih sudah memainkan g3, menutup salah satu dari dua petak mundurnya.",
+  "hint": "Pion Putih sendiri sudah menutup salah satu dari dua jalan keluar gajah. Siapa yang menguasai yang satunya?",
+  "explanation": "## Ide\n\n{{g5}} menyerang gajah, dan h4 hanya punya tepat dua petak diagonal. g3 ditempati pion Putih sendiri, dan pion yang kini di g5 dilindungi h6, jadi Bxg5 hxg5 menyerahkan buah untuk pion. Menjebak adalah soal petak, bukan soal serangan."
+}

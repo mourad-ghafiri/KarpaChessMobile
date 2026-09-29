@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-08",
+  "fen": "r3k3/rp4n1/3p4/5p2/3Q4/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "Qxg7"
+  ],
+  "title": "Look Before You Grab",
+  "setup": "Your queen on d4 sees a black rook on one diagonal and a knight on the other. Choose carefully.",
+  "hint": "A rook is worth more than a knight — but what stands behind the rook on a7?",
+  "explanation": "## The Idea\n\nGreed says take the rook. {{Qxa7}} wins five points, right up until the rook on a8 takes back and a nine-point queen has bought a five-point rook.\n\nThe knight is the real gift. {{Qxg7}} takes a free piece: the rook on a7 would love to answer, but its own pawn on b7 stands in the road, and nothing else on the board covers g7.\n\nThe most valuable target is not the best target. The undefended one is."
+}

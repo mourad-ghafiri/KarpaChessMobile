@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-10",
+  "fen": "8/2R2P1K/1k6/8/8/8/8/1r6 b - - 0 1",
+  "solution": [
+    "Rh1+"
+  ],
+  "rating": 1560,
+  "title": "Sekak dari Sudut",
+  "setup": "Pion f Putih tinggal satu langkah dari menjadi menteri, dan bentengnya di c7 tak terlindungi dari raja hitam di b6.",
+  "hint": "Anda butuh satu langkah cadangan untuk mengambil di c7. Lajur mana yang memberi sekak yang tak bisa begitu saja dihindari raja putih?",
+  "explanation": "## Ide\n\nHitam butuh satu tempo, dan hanya sekak dari kejauhan yang bisa membelinya. {{Rh1+}} {{Kg6}} {{Rg1+}} {{Kf5}}, dan kini {{Kxc7}} memenangkan benteng. Putih menjadikan pionnya menteri, tetapi {{Rf1+}} menusuk raja terhadap menteri baru dan langsung merebutnya kembali. Pergi ke belakang pion seketika dengan {{Rf1}} sebagai gantinya, dan Putih menjawab {{Re7}}, melindungi segalanya, dan pion lolos."
+}

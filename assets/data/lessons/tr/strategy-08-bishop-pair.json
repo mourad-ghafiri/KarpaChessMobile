@@ -1,0 +1,50 @@
+{
+  "id": "bishop-pair",
+  "title": "Fil İkilisi",
+  "summary": "İki fil tahtadaki her kareyi kapsar",
+  "proof": "strategy-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/1pp2ppp/p1np4/4p3/B3P1b1/5N1P/PPPP1PP1/RNBQ1RK1 b k - 0 6",
+      "title": "Kalıcı Olan Değişim",
+      "text": "Siyahın g4'teki fili, beyaza geri satın alınamayacak bir şey vermeye bir hamle uzaklıkta.\n\n{{Bxf3}} {{Qxf3}}. Siyah gerçekten iş gören bir atı alıyor, yani bu bir bağış değil. Bir satış. Beyaz iki fili birden elinde tutuyor, siyahın elinde bir fil kalıyor ve sonraki hiçbir hamle bunu geri almıyor.\n\nParti yuvarlanmayı sürdürür: {{Nf6}}, {{c3}}, {{Be7}}. Şimdi beyazın bu şeye sahip olmanın değdiğini kanıtlaması gerekiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "title": "İkisi Neden Birer Birerden İyi",
+      "text": "Fil bir renkte doğar ve o renkte ölür. Tek fil, yarım tahta — öteki otuz iki kare temelli bir başkasının işidir.\n\nİkisine birden sahip olun, iki yarı birbirine otursun. Açık ve koyu, kapsanmayan hiçbir şey kalmaz ve ikisi aynı kare için asla yarışmaz. **Fil ikilisi** budur: puan hesabı eşit olduğundan bir taş üstünlüğü değil, parti boyunca süren bir kapsama üstünlüğü.\n\nGüçlü oyuncular bunun parasını öder. Bir atın kendini bir file değişmesini engellemek için bir hamle, hatta bir piyon harcarlar."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "prompt": "Siyahın e5'teki piyonuna kendi piyonunuzla meydan okuyun ve yolu olmayan file bir yol açın.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "c1'deki fili çeviren iki piyon da oynayabilir — aynı zamanda siyahın merkezine soru soranı seçin."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "İkili Bir Vaattir",
+      "text": "Başka bir parti ve beyaz yine iki filin de sahibi. Bunlardan biri tam bir mahcubiyet.\n\nc1'deki fil parti boyunca hiç oynamadı ve ulaşabildiği tek kare hiçbir şeyi değiştirmiyor — istediği çaprazda kendi e3'teki piyonu oturuyor. Ortada altı piyon kilitli: c4, d4 ve e3'e karşı c6, d5 ve e6; ve hiçbir fil bir piyonun üstünden tırmanmaz. Siyahın atlarının umurunda değil. Bütün trafik sıkışıklığını sıçrayıp geçerler ve şu anda daha iyi hafif taşlar onlardır."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "İkilinin Beklediği Şey",
+      "text": "İki fil, açık bir tahtaya oynanmış bir bahistir ve bahis çaprazlarla ödenir.\n\nMerkezden ayrılan her piyon bir yolu uzatır ve uzun yollar filin varlık sebebidir. Aynı temizlikten at hiçbir şey kazanmaz: boş tahtada dört sıçrayış, kalabalık tahtada dört sıçrayış. Yani ikiliyi elinde tutan taraf daha az piyon ister ve onların ortadan gitmesini ister.\n\nBu, alışılmış içgüdüyü tersine çevirir. Değişecek bir taş aramıyorsunuz. Dövüşecek bir piyon arıyorsunuz.\n\n> İki fil, tek plan: taşları değil, piyonları değişin."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "prompt": "Ortadaki piyon tıkanıklığını kırın ki c1'deki filin nihayet bakacağı bir çaprazı olsun.",
+      "targetSan": [
+        "e4"
+      ],
+      "hint": "c1'deki fil h6'ya doğru giden çaprazı istiyor ve üzerinde tam olarak bir beyaz piyon park etmiş — o piyonu oynatmak aynı zamanda merkeze ikinci bir piyonun iddiasını koyar."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-03",
+  "fen": "1r3R2/3p1R2/4Q3/1k2B3/b7/8/3p4/5K2 w - - 0 1",
+  "solution": [
+    "Rxb8+",
+    "Kc5",
+    "Qd6+",
+    "Kc4",
+    "Qd4#"
+  ],
+  "rating": 1420,
+  "title": "Kaleyi Alın, Şahı Sürdürün",
+  "setup": "Siyahın şahı b5'e sürüklenmiş, kalesi b8'de oturuyor ve bir geçer piyon d2'de vezir olmaya bir kare uzaklıkta.",
+  "hint": "Piyonu durduracak vaktiniz yok. Aynı zamanda şaha bir hat açan taş almayı bulun.",
+  "explanation": "## Fikir\n\n{{Rxb8+}} şah çekerek bir kale kazanır ve oradan {{Qd6+}} ile {{Qd4#}} şahı tahtada aşağı sürer. d2'deki piyon hiç oynayamaz; ona karşı önemli olan tek savunma da budur."
+}

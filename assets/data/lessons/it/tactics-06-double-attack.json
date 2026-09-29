@@ -1,0 +1,71 @@
+{
+  "id": "double-attack",
+  "title": "Il Doppio Attacco",
+  "summary": "La famiglia a cui appartiene la forchetta, e i casi che non riesce a coprire",
+  "proof": "forks-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Tre Nomi, Una Forma",
+      "text": "Forchetta, attacco di scoperta, scacco di scoperta: tre nomi che vi sono stati consegnati, e una forma sola sotto tutti e tre.\n\nUna forchetta attacca due pezzi con un pezzo. Un attacco di scoperta sposta un pezzo perché sia un secondo pezzo ad attaccare. Tutti e due finiscono nello stesso posto. Il vostro avversario ha una mossa, e due problemi.\n\nIl nome di famiglia è **doppio attacco**: qualunque mossa che crei due minacce insieme, comunque il lavoro sia diviso fra i vostri pezzi. La forchetta è la versione in cui un pezzo solo fa tutto."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Fate Prima la Lista",
+      "text": "Prima di calcolare qualunque cosa, elencate i pezzi avversari che niente sta difendendo.\n\nQui la lista è corta: il cavallo in b4, il cavallo in h4, e basta. Il re in g8 difende i pedoni che ha accanto e nient'altro.\n\nSono i pezzi indifesi a trasformare una mossa qualunque in un doppio attacco, e quasi nessuno fa mai quella lista. Questi due cavalli condividono la quarta traversa, ogni casa fra loro è vuota, e la vostra donna ha una strada diritta per salirci."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "prompt": "Il Nero ha una mossa sola: trovate la casa dove la vostra donna attacca tutti e due i cavalli nello stesso momento.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "Lavorate a ritroso dai bersagli: i cavalli condividono già una traversa, e su quella traversa una sola casa è vostra da prendere."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Che Cosa Può Provare il Nero",
+      "text": "{{Qd4}}. Adesso contate che cosa il Nero ha il permesso di farci.\n\nNessun pezzo nero attacca d4, quindi la donna non si può catturare. Niente può mettersi fra la donna e uno dei due cavalli. E nessuna mossa singola li difende tutti e due, perché un cavallo difende case a una L di distanza e questi due non sono vicini per niente.\n\nResta scappare, e scappare abbandona l'altro. Così il Nero reagisce: {{Nf3+}} attacca la donna e dà scacco al re insieme, una forchetta giocata contro di voi. Fallisce per una ragione noiosa. Due pedoni coprono f3, e {{exf3}} chiude la faccenda."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "Quando un Pezzo Solo Non Arriva",
+      "text": "Scacchiera nuova, e niente di vostro attacca due cose insieme.\n\nIl vostro alfiere in b2 possiede la grande diagonale, ma il vostro stesso cavallo in e5 è parcheggiato nel bel mezzo. Più avanti su quella diagonale sta il cavallo in g7, difeso da niente. Lontano, sull'altra ala, anche l'alfiere nero in a5 è indifeso.\n\nNessun pezzo da solo arriva a tutti e due. Due ci arrivano. Muovete il cavallo e la diagonale si apre da sola, come avete già visto aprirsi una linea."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "Dove Atterra il Cavallo",
+      "text": "Ogni mossa di cavallo apre la diagonale. {{Nd3}}, {{Nf3}}, {{Ng4}}, {{Ng6}}, una qualunque.\n\nEd è per questo che quasi tutte la sprecano. Una minaccia è un problema, il Nero sposta il cavallo di g7, e il vostro cavallo ha speso un turno per stare in un posto inutile.\n\nL'alfiere dietro fornisce gratis la prima minaccia. La seconda deve fornirla il cavallo dove atterra, e su questa scacchiera c'è una cosa sola su cui valga la pena atterrare."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "prompt": "Aprite la diagonale del vostro alfiere con una mossa di cavallo che attacchi l'alfiere indifeso mentre arriva.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "Due case del cavallo attaccano a5, e il pedone nero in b5 ne copre una."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/2N5/bp6/8/8/1B6/6K1 b - - 1 1",
+      "title": "Contate le Vie d'Uscita",
+      "text": "Due minacce, due pezzi, e al Nero spetta una ricerca della mossa che risponda a tutte e due.\n\n- **Prendere l'attaccante.** Niente ci riesce. Il tentativo più vicino è {{Kd7}}, e {{Nxa5}} se ne va con l'alfiere.\n- **Difenderli entrambi.** L'alfiere in a5 e il cavallo in g7 non condividono nessuna casa.\n- **Scappare.** Quale che sia quello che muove, l'altro resta lì.\n- **Parare.** La diagonale si può chiudere, ed è questo il tentativo che vale la pena guardare.\n\nCi va vicino."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/2N5/1p6/8/2b5/1B6/6K1 w - - 2 2",
+      "prompt": "Il Nero ha chiuso la diagonale: raccogliete il pezzo che la parata ha messo di mezzo.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "Assolutamente niente difende c3, e la diagonale oltre quella casa è ancora vuota."
+    }
+  ]
+}

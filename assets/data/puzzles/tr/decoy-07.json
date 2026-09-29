@@ -1,0 +1,14 @@
+{
+  "id": "decoy-07",
+  "fen": "6rk/pp1q2pp/8/5P1R/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1390,
+  "title": "Önce Ödeyen Kale",
+  "setup": "h5'teki kaleniz h7'ye dikilmiş, öteki kaleniz d1'de bekliyor ve siyahın şahı tek kare bile oynayamıyor.",
+  "hint": "İkinci kalenizin işe yaraması için şahın hangi karede durması gerektiğini sorun, sonra bedelini ödeyin.",
+  "explanation": "## Fikir\n\n{{Rxh7+}} bir kaleye mal olur ve {{Kxh7}} mecburidir. h dikeyi artık arkasında çırılçıplaktır, f5'teki piyon g6'yı elinden alır ve {{Rh1#}} mat için karşıya savrulur. Önündeki dikey boşaldığı anda iki kale tek şahı yener."
+}

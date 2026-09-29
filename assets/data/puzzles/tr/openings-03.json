@@ -1,0 +1,13 @@
+{
+  "id": "openings-03",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/2N2N1P/PP2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "Nxd4",
+    "Qh2#"
+  ],
+  "title": "Sibirya Tuzağı",
+  "setup": "Siyah beyazın ikram ettiği piyonu aldı, veziri c7'ye koydu ve bir atı g4'e sıçrattı; beyaz az önce h3 oynadı.",
+  "hint": "Veziriniz ile bir atınız, beyazın şahının yanındaki aynı kareye çoktan nişan almış. Onu beyazın hangi taşının hâlâ koruduğunu sorun.",
+  "explanation": "## Fikir\n\nc7'deki vezir ile g4'teki at h2'ye vuruyor ve şah dışında orayı yalnızca f3'teki at koruyor.\n\n{{Nd4}} e2'deki vezire saldırır ve beyaza alması için bir at ikram eder. Bunu almak ölümcüldür: {{Nxd4}} h2'nin son koruyucusunu kaldırır ve {{Qh2#}} gelir; g4'teki at veziri korurken. Beyazın en iyisi bunun yerine veziri vermektir.\n\nBir taşı kovalamadan önce arkanızdaki kareyi kimin koruduğunu sayın."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-18",
+  "fen": "7k/p5pp/8/8/8/8/8/R3R1K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "Deux tours, une colonne ouverte",
+  "setup": "Le pion noir en a7 garde une colonne fermée, mais la colonne e est ouverte jusqu'à la dernière rangée.",
+  "hint": "L'une de vos tours regarde une porte fermée, l'autre une porte ouverte. Prenez celle qui est ouverte.",
+  "explanation": "## L'idée\n\nUne seule colonne est vraiment ouverte : la colonne a est fermée par le propre pion noir en a7, et une colonne ouverte suffit à une tour.\n\n{{Re8#}} donne échec le long de la dernière rangée. g8 est sur la ligne de la tour, et g7 et h7 sont occupées par les propres pions noirs. Rien ne peut prendre la tour ni s'interposer.\n\nComptez les colonnes ouvertes avant de compter vos tours."
+}

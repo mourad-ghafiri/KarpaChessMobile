@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-03",
+  "fen": "4k3/8/8/8/3q4/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxd4"
+  ],
+  "title": "Menteri Gratis, Ambillah",
+  "setup": "Dua menteri berhadapan — tetapi hanya satu yang dilindungi.",
+  "hint": "Selalu cari buah yang tak terlindungi. Taktik paling sederhana adalah *ambil yang gratis*.",
+  "explanation": "## Ide\n\nInilah taktik paling dasar dari semuanya: buah yang tak terlindungi. Menteri hitam di d4 tak punya pembela, dan menteri Anda di d1 menyerangnya di sepanjang lajur d.\n\n{{Qxd4}} memenangkan menteri dengan cuma-cuma. Raja di e8 terlalu jauh untuk menangkap balik, dan tak ada buah hitam yang menjaga d4.\n\nSebelum setiap langkah, pindai buah-buah lawan yang tak dilindungi siapa pun di garis-garis yang Anda kuasai. Aturan John Nunn merangkumnya dengan paling baik: buah yang tak terlindungi akan berjatuhan."
+}

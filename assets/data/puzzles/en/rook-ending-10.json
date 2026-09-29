@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-10",
+  "fen": "8/2R2P1K/1k6/8/8/8/8/1r6 b - - 0 1",
+  "solution": [
+    "Rh1+"
+  ],
+  "rating": 1560,
+  "title": "Checks From the Corner",
+  "setup": "White's f-pawn is a move from queening, and its rook on c7 is hanging to the black king on b6.",
+  "hint": "You need a spare move to take on c7. Which file gives checks the white king cannot simply walk away from?",
+  "explanation": "## The Idea\n\nBlack needs one tempo, and only distant checks buy it. {{Rh1+}} {{Kg6}} {{Rg1+}} {{Kf5}}, and now {{Kxc7}} wins the rook. White queens, but {{Rf1+}} skewers the king to the new queen and takes it straight back. Go behind the pawn at once with {{Rf1}} instead, and White answers {{Re7}}, defending everything, and the pawn goes in."
+}

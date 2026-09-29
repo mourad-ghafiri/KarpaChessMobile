@@ -1,0 +1,59 @@
+{
+  "id": "maneuvering",
+  "title": "La manœuvre",
+  "summary": "Trois coups tranquilles pour bien placer une pièce",
+  "proof": "strategy-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Rien à prendre, rien à empêcher",
+      "text": "Aucune pièce n'est en prise. Les Noirs ne menacent rien, aucun échec n'est disponible, et le centre peut attendre : {{d5}} le ferme, {{dxe5}} l'ouvre, et ni l'un ni l'autre ne s'impose à ce coup.\n\nCe genre de position n'est pas rare. C'est la plus grande partie d'une partie.\n\nLa question change donc. Pas : que puis-je gagner ici ? Mais : laquelle de mes pièces travaille le moins, et où préférerait-elle se tenir ? Cette réponse demande trois coups, et chacun ressemble à un coup où il ne se passe rien."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Partir de la fin",
+      "text": "Le cavalier blanc en b1 n'a pas bougé de la partie, et tout ce qui vaut la peine d'être attaqué est de l'autre côté de l'échiquier.\n\nLa case que veut ce cavalier est g3 : de là, il couvre f5 et h5, deux cases qu'aucun pion noir ne surveille.\n\nMaintenant la route. Le chemin court passe par c3, où est garé le propre pion blanc. Le cavalier fait donc le grand tour, et le premier pas d'un grand tour ressemble toujours à un coup perdu."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "prompt": "Mettez en route vers l'aile roi le cavalier qui n'a jamais bougé, sans le laisser sur le bord.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "Depuis sa case de départ, ce cavalier a exactement deux coups : l'un le gare au bord, l'autre le garde dans le jeu."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "title": "Pire avant d'être mieux",
+      "text": "Le cavalier noir a manqué de cases au bord et il est revenu en c6, où il tient de nouveau d4 et e5. Deux joueurs, la même idée, dans des directions opposées.\n\nVotre propre cavalier en est à la première étape et, pour l'instant, il gêne : en d2, il bloque le fou en c1 et se tient devant la dame en d1. Un cavalier au milieu de sa propre dernière rangée est un cavalier en transit. Il ne rapporte rien tant qu'il n'est pas arrivé, et c'est pourquoi une manœuvre est la décision d'être un peu moins bien pendant deux coups."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "prompt": "Le cavalier voyageur n'en est qu'à la première étape : faites le pas suivant vers l'autre aile.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Trois des quatre cases de ce cavalier le laissent sur l'aile dame qu'il veut quitter ; une seule, non."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "title": "La dernière étape",
+      "text": "Il y a deux coups, ce cavalier n'avait rien à faire. Il se tient maintenant à un saut de la case qui justifie tout le voyage.\n\nRegardez l'aile roi noire. Aucun pion noir ne surveille f5, et un cavalier qui atteint f5 frappe à la fois le fou en e7 et le pion en d6. La dernière étape ne concerne donc pas f5 lui-même. Elle concerne la case qui garde f5 à un saut et couvre h5 au passage.\n\n> Laquelle de vos pièces en fait le moins, sur quelle case préféreriez-vous la voir, et quel est le chemin le plus court pour y aller ?"
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "prompt": "Terminez le voyage en plaçant le cavalier là où il surveille à la fois f5 et h5.",
+      "targetSan": [
+        "Ng3"
+      ],
+      "hint": "Deux des quatre cases du cavalier regardent f5, et une seule regarde aussi h5."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "culture-05",
+  "fen": "2kr2nr/pp1n1ppp/2p1p3/8/1P1P1B2/2N2Q1P/1PPKBPP1/7q w - - 0 13",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "title": "Dua Pion, Satu Diagonal",
+  "setup": "Anda tertinggal jauh dalam materi dan raja Anda sendiri telah dikejar ke d2, tetapi raja hitam dikurung tembok oleh buah-buahnya sendiri.",
+  "hint": "Mulailah dengan menghitung petak-petak raja hitam, bukan materi Anda — lalu tanyakan apa yang sebenarnya dijaga pion di b7.",
+  "explanation": "## Ide\n\nRaja di c8 tak punya petak: d8, d7 dan b7 ditempati benteng, kuda dan pionnya sendiri, dan gajah di f4 menguasai c7 dan b8. Hanya pion di b7 yang menjauhkan gajah Anda yang lain dari a6.\n\n{{Qxc6+}} menyerahkan menteri untuk sebuah pion, dan {{bxc6}} satu-satunya langkah sah Hitam. Pion itu telah meninggalkan b7, dan {{Ba6#}} mendarat di petak yang dulu dijaganya.\n\nHitung petak-petak raja lawan sebelum Anda menghitung materi, dan menteri pun menjadi sesuatu yang bisa Anda belanjakan."
+}

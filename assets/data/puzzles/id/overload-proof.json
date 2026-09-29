@@ -1,0 +1,13 @@
+{
+  "id": "overload-proof",
+  "fen": "r5k1/1p3ppp/8/b7/1B6/8/P4PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxa5",
+    "Rxa5",
+    "Re8#"
+  ],
+  "title": "Satu Benteng, Dua Tugas",
+  "setup": "Benteng Hitam di a8 menjaga gajah di a5, dan ia juga satu-satunya buah yang menguasai baris kedelapan.",
+  "hint": "Tak ada yang perlu dikorbankan. Ambil sesuatu, dan perhatikan tugas mana yang dilepas benteng.",
+  "explanation": "## Ide\n\n{{Bxa5}} adalah pertukaran biasa, gajah untuk gajah, tetapi ia mengajukan pertanyaan yang tak bisa dijawab benteng di a8. Tangkap balik dengan {{Rxa5}} dan baris kedelapan kosong di belakangnya: {{Re8#}}, karena dari a5 benteng tak mencapai e8 maupun f8. Biarkan gajah itu sebagai gantinya dan benteng tetap menjaga baris belakang, tetapi Putih sekadar unggul satu buah. Tak ada yang ditawarkan dan tak ada yang dipaksakan. Benteng itu punya dua tugas dan satu langkah."
+}

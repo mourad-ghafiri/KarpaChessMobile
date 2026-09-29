@@ -1,0 +1,11 @@
+{
+  "id": "common-mistakes-proof",
+  "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/1Q6/PPPP1PPP/RNB1K1NR b KQkq - 3 5",
+  "solution": [
+    "Nd4"
+  ],
+  "title": "Le troisième voyage de la dame",
+  "setup": "La dame blanche a bougé trois fois en cinq coups, et depuis b3 elle fixe de nouveau f7. Faites-lui payer le voyage.",
+  "hint": "Attaquer une dame avec une pièce moins chère fait gagner un temps. Trouvez l'attaque qui vise aussi c2, à un saut du roi et de la tour blancs.",
+  "explanation": "## L'idée\n\nLa dame sortie trop tôt reçoit son addition. {{Nd4}} l'attaque avec un cavalier, et le cavalier vise aussi c2, où une prise mettrait le roi en échec et frapperait la tour en a1.\n\nLa dame doit bouger une quatrième fois, et chaque réponse laisse les Noirs nettement mieux. Prendre d'abord en f7 ne change rien : après la prise du fou avec échec, le roi va en e7, et la dame est toujours attaquée."
+}

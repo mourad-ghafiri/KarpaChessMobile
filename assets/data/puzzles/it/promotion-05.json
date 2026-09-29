@@ -1,0 +1,12 @@
+{
+  "id": "promotion-05",
+  "fen": "4r1k1/4Pppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8"
+  ],
+  "rating": 1160,
+  "title": "Cacciate Chi Blocca",
+  "setup": "Il vostro pedone in e7 è trattenuto dalla torre in e8, l'unico pezzo nero che può impedirgli di diventare donna.",
+  "hint": "La torre che blocca ha esattamente un compito. Attaccatela con qualcosa per cui non si possa permettere di cambiarsi.",
+  "explanation": "## L'idea\n\n{{Rd8}} attacca chi blocca. {{Rxd8}} perde sul posto per exd8=Q+, e qualunque altra mossa di torre lascia passare il pedone, quindi il Nero deve cedere la torre per il pedone. Togliete il pezzo che trattiene un pedone passato e il pedone è una donna."
+}

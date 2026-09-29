@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-08",
+  "fen": "2n4k/8/8/2r1p2P/4Q1B1/3R4/PP6/7K w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Kg7",
+    "Qg6#"
+  ],
+  "rating": 1250,
+  "title": "Um Peão Apoia a Dama",
+  "setup": "A tua torre pode tomar a oitava linha, e um modesto peão em h5 apoia em silêncio a casa g6.",
+  "hint": "Encontra a casa ao lado do rei que um dos teus peões já defende e tira-lhe depois a linha de fundo.",
+  "explanation": "## A Ideia\n\n{{Rd8+}} toma a linha de fundo e força {{Kg7}}; o cavalo de c8 não pode tapar. Depois {{Qg6#}}: a dama entra mesmo ao lado do rei, protegida pelo peão de **h5**, enquanto a torre sela todas as casas da oitava linha."
+}

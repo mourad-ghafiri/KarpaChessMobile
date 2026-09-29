@@ -1,0 +1,11 @@
+{
+  "id": "endgames-05",
+  "fen": "8/8/8/8/B6k/p7/7p/2K5 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "Tek Hamlede Tahtanın Öbür Ucuna",
+  "setup": "Siyahın h piyonu sıradaki hamlede vezir oluyor ve a piyonunun iki hamlesi daha var. a4'teki filiniz uzak kanada vaktinde ulaşabilecek tek taş.",
+  "hint": "h piyonu açık bir karede terfi ediyor. h1'den geçen açık çaprazı bulun, sonra filinizin ulaşabildiği tek karesini.",
+  "explanation": "## Fikir\n\nh1 açık bir karedir ve oradan geçen tek açık çapraz a8'den h1'e uzanır. Filiniz a4'ten ona tek hamlede katılır, {{Bc6}}, ve oradan terfi karesini temelli gözler.\n\nc1'deki şahınız öteki koşucuyu halleder: a2 ile a1'i kapsadığı b2'ye bir adım uzaklıktadır. Filin yerindeki bir at h1'i kapsayan bir kareye vaktinde ulaşamazdı ve başka her hamle h piyonunun vezir olmasına izin verir."
+}

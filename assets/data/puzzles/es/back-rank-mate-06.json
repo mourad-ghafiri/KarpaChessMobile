@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-06",
+  "fen": "3r2k1/1n3ppp/8/8/8/8/5PPP/3RR1K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Nxd8",
+    "Re8#"
+  ],
+  "rating": 880,
+  "title": "El caballo vuelve",
+  "setup": "El caballo negro acaba de ir a b7, desde donde puede recapturar en d8 y nada más.",
+  "hint": "Pregúntate qué cubrirá la pieza que recaptura en cuanto llegue, y qué dejará de cubrir.",
+  "explanation": "## La idea\n\n{{Rxd8+}} obliga a {{Nxd8}}, la única respuesta legal. Pero un caballo en d8 cubre b7, c6, e6 y f7, nunca e8. {{Re8#}} cae en la única casilla que el nuevo defensor no ve. Dónde recaptura una pieza importa tanto como si puede hacerlo."
+}

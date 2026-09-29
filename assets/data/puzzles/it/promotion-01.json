@@ -1,0 +1,14 @@
+{
+  "id": "promotion-01",
+  "fen": "7k/1P3pp1/3r3p/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "b8=Q+",
+    "Kh7",
+    "Qxd6"
+  ],
+  "rating": 1000,
+  "title": "Una Donna con una Forchetta",
+  "setup": "Il vostro pedone b è a un passo dall'ottava traversa, e il re nero sta proprio su quella traversa.",
+  "hint": "Una donna nuova arriva con scacco. Prima di giocarla, guardate che cos'altro attacchi la casa di promozione.",
+  "explanation": "## L'idea\n\n{{b8=Q+}} è scacco lungo l'ottava traversa e attacca insieme la torre in d6 lungo la diagonale b8-h2. Il Nero deve rispondere allo scacco, con {{Kh7}} o parando con Rd8, e in ogni caso la donna raccoglie la torre, come in {{Qxd6}}. Promuovete dove il pezzo nuovo fa due lavori."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "forks-06",
+  "fen": "6k1/pp2rpp1/7p/n7/3Q4/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kh7",
+    "Qxa5"
+  ],
+  "title": "Menteri Menggarpu dari Seberang Papan",
+  "setup": "Kuda Hitam di a5 hanyut ke tepi tanpa pembela, dan baris belakang Hitam kosong.",
+  "hint": "Temukan sekak menteri yang juga mendarat di diagonal kuda.",
+  "explanation": "## Ide\n\nGarpu menteri tak memerlukan kedua sasaran berdekatan, cukup berada di garis-garis yang bertemu.\n\n{{Qd8+}} memberi sekak kepada raja di g8 di sepanjang baris belakang dan menyerang kuda di a5 di sepanjang diagonal. Hitam harus menjawab sekak, dengan {{Kh7}} atau menghalangi di e8, dan tak satu pun menyelamatkan kuda: {{Qxa5}} mengambilnya dari seberang papan.\n\nCarilah petak tempat sebuah sekak dan buah yang tak terlindungi berbagi garis-garis menteri."
+}

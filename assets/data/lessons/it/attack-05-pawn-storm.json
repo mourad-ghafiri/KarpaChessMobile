@@ -1,0 +1,56 @@
+{
+  "id": "pawn-storm",
+  "title": "La Valanga di Pedoni",
+  "summary": "Fate marciare i pedoni che difendono il vostro re contro il loro",
+  "proof": "pawn-storm-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "Il Centro È Inchiodato",
+      "text": "I due re stanno sulla stessa ala, e il Nero sta per spingere i pedoni davanti al re nero dritti contro il Bianco.\n\nDi norma è così che si perde una partita. Non qui, e la ragione sta in mezzo alla scacchiera: il pedone bianco in d5 è incastrato contro d6 e il pedone nero in e5 contro e4. Non resta niente da cambiare, e lì nessuno dei due può aprire una colonna.\n\nUna marcia lungo l'ala costa cinque o sei mosse. L'unica cosa che punisce il gioco lento è un colpo rapido attraverso il centro, e il centro è stato tolto di mezzo."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "Da che Parte Pendono i Vostri Pedoni",
+      "text": "E allora il Nero marcia. Far rotolare i pedoni da davanti al proprio re giù per la scacchiera contro il re avversario è una **valanga di pedoni**, e appartiene alla parte i cui pedoni puntano già verso il re avversario.\n\nI pedoni del Nero pendono verso il re bianco. Quelli del Bianco pendono verso l'ala di donna, ed è lì che il Bianco spingerà invece.\n\nUn dettaglio decide da dove il Nero parte. Il pedone bianco in e4 è quello che su quest'ala un pedone nero può allungarsi a colpire, e cambiarlo è il modo in cui la colonna f si apre per la torre in f8."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "prompt": "Attaccate il pedone bianco in e4 con un vostro pedone e cominciate a far leva per aprire la colonna f.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "Solo uno dei tre pedoni attorno al vostro re può atterrare su una casa che attacca e4."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 w - - 0 11",
+      "title": "Un Pedone Non Fa Valanga",
+      "text": "Un solo pedone là davanti non fa niente. La valanga è quello che arriva dietro.\n\n{{Be3}} porta un alfiere bianco verso la battaglia, {{f4}} lo spinge via prima che si sistemi, {{Bf2}} è dove va, e {{g5}} porta su il secondo pedone nero accanto al primo.\n\nQuattro mosse nere, e non una ha mosso un pezzo. È questo il patto che stringe una valanga: i pedoni comprano linee con il tempo, e un centro bloccato è ciò che rende il tempo sostenibile."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "La Stessa Spinta, una Mossa Troppo Presto",
+      "text": "Partita diversa, e il Bianco ha appena speso due mosse a spingere pedoni d'ala, che adesso stanno in g4 e h3.\n\nQui il centro non è chiuso. Il pedone nero in e5 e il pedone bianco in e4 non si incontrano mai, un solo pedone in d3 tiene il centro per il Bianco, e una spinta di pedone del Nero trasforma tutto in linee aperte.\n\nÈ tutta qui la differenza fra le due scacchiere. Le mosse di pedone sono le stesse mosse di pedone. Quello che ci sta sotto no."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "Che Cosa Trova il Bianco Tornando a Casa",
+      "text": "Quelle due spinte non hanno portato in gioco nessun pezzo. Ognuna è un tempo regalato al Nero, e a un attacco d'ala si risponde al centro, perché il centro si apre più in fretta di quanto un'ala riesca ad arrivare.\n\nPoi contate il riparo del Bianco. g2 è vuota e resta vuota, visto che i pedoni non camminano all'indietro. Il pedone in h3 è qualcosa su cui puntare piuttosto che qualcosa dietro cui nascondersi, e l'alfiere nero in c8 guarda già lungo la diagonale che ci finisce sopra.\n\n> Una valanga di pedoni è un attacco finché il centro è chiuso. Altrimenti è una buca scavata accanto al vostro re."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "prompt": "Punite due mosse d'ala sprecate aprendo il centro prima che il Bianco tiri fuori un altro pezzo.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "Il pedone bianco in e4 ha un difensore, il pedone in d3, e un attaccante, il vostro cavallo in f6 — mandate un pedone a farli diventare due."
+    }
+  ]
+}

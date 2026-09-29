@@ -1,0 +1,11 @@
+{
+  "id": "forks-15",
+  "fen": "r1b1k2r/ppp2ppp/4p3/8/7n/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qa4+"
+  ],
+  "title": "La Donna dà Scacco e Incassa",
+  "setup": "Il Nero ha una torre, un alfiere e un cavallo per la vostra donna, e il cavallo in h4 è finito alla deriva sul bordo senza difensori.",
+  "hint": "Trovate uno scacco di donna che attacchi anche il cavallo.",
+  "explanation": "## L'idea\n\n{{Qa4+}} dà scacco al re in e8 lungo la diagonale e attacca il cavallo in h4 lungo la quarta traversa. Il Nero deve rispondere allo scacco, e nessuna risposta, che sia {{Bd7}}, {{c6}}, {{b5}} o una mossa di re, difende anche il cavallo. Alla mossa successiva {{Qxh4}} lo prende, e il materiale si sposta dalla vostra parte.\n\nUna forchetta di donna è uno scacco su una linea e un pezzo indifeso su un'altra."
+}

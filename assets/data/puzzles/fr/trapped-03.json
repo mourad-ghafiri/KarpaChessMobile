@@ -1,0 +1,12 @@
+{
+  "id": "trapped-03",
+  "fen": "3r2k1/pp3pp1/5n1p/8/7B/2N3P1/PP3P1P/4R1K1 b - - 0 1",
+  "solution": [
+    "g5"
+  ],
+  "rating": 1090,
+  "title": "Deux pas, aucune sortie",
+  "setup": "Le fou blanc se tient en h4, et les Blancs ont déjà joué g3, fermant l'une de ses deux cases de retraite.",
+  "hint": "Le propre pion blanc bloque déjà l'une des deux sorties du fou. Qui contrôle l'autre ?",
+  "explanation": "## L'idée\n\n{{g5}} attaque le fou, et h4 a exactement deux cases en diagonale. g3 est occupée par le propre pion blanc, et le pion désormais en g5 est défendu par h6, donc Bxg5 hxg5 livre une pièce contre un pion. Piéger, c'est une affaire de cases, pas d'attaques."
+}

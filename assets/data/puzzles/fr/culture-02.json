@@ -1,0 +1,11 @@
+{
+  "id": "culture-02",
+  "fen": "rnbqk1nr/ppp2ppp/3b4/8/8/2N5/PPPPP1PP/R1BQKBNR b KQkq - 1 4",
+  "solution": [
+    "Qh4+"
+  ],
+  "title": "Dix secondes",
+  "setup": "Les Blancs ont ouvert avec le pion f, viennent de développer un cavalier, et n'ont jamais regardé la diagonale ouverte au premier coup.",
+  "hint": "Le pion f a quitté sa case au premier coup. Laquelle de vos pièces peut atteindre la diagonale qu'il a ouverte, et avec échec ?",
+  "explanation": "## L'idée\n\nLe pion f blanc est parti au premier coup et a ouvert la diagonale e1–h4, et rien ne l'a refermée depuis.\n\n{{Qh4+}} ne laisse aux Blancs qu'une réponse, {{g3}} : le roi ne peut pas aller en f2, et le pion g est la seule chose qui puisse s'interposer. Les Noirs matent ensuite en deux coups dans les deux ordres, {{Bxg3+}} {{hxg3}} {{Qxg3#}}, ou la dame d'abord par {{Qxg3+}} {{hxg3}} {{Bxg3#}}.\n\nQuand un adversaire joue tôt le pion f, accordez une seconde à un échec de la dame en h4."
+}

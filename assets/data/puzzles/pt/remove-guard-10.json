@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-10",
+  "fen": "r4rk1/5ppp/5n2/6B1/8/8/2Q2PPP/1B4K1 w - - 1 2",
+  "solution": [
+    "Bxf6"
+  ],
+  "rating": 1390,
+  "title": "A Sentinela de h7",
+  "setup": "A tua dama e o teu bispo estão alinhados sobre h7, e além do rei só o cavalo de f6 cobre essa casa.",
+  "hint": "A tua bateria já aponta a h7. Exatamente uma peça preta lhe responde — quanto vale essa peça?",
+  "explanation": "## A Ideia\n\n{{Bxf6}} elimina o único guarda de h7. Recaptura com {{gxf6}} e {{Qxh7#}} é mate: a própria torre das pretas em f8 empareda o rei. Recusa, e o cavalo desapareceu de graça. Uma troca igual que abre uma casa de mate nunca é igual."
+}

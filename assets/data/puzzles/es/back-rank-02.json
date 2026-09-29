@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-02",
+  "fen": "5rk1/5ppp/8/8/8/8/4RPPP/4Q1K1 w - - 0 1",
+  "solution": [
+    "Re8",
+    "Rxe8",
+    "Qxe8#"
+  ],
+  "title": "Elimina al defensor",
+  "setup": "La torre de f8 es la única pieza que impide que tus piezas mayores entren en la última fila.",
+  "hint": "Tu torre y tu dama miran las dos por la columna abierta. ¿Qué pasa si se obliga al defensor solitario a cambiarse?",
+  "explanation": "## La idea\n\nEl rey negro solo sobrevive porque la torre de f8 cubre la octava fila. {{Re8}} ofrece tu torre en la única casilla que ese defensor tiene que vigilar.\n\nSi {{Rxe8}}, entonces {{Qxe8#}}: el defensor ha desaparecido, y los peones de f7, g7 y h7 sellan todas las casillas de escape. A las Negras les va mejor rehusar con una jugada de peón que dé aire al rey, pero eso solo cambia torres tras {{Rxf8+}} {{Kxf8}}, y tu dama sigue en el tablero frente a nada."
+}

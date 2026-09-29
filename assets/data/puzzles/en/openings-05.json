@@ -1,0 +1,11 @@
+{
+  "id": "openings-05",
+  "fen": "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w KQk - 3 6",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "The Caro-Kann Smother",
+  "setup": "Black met the main line with a knight to d7 and has just developed the other knight to f6, attacking your centralized knight.",
+  "hint": "One black pawn would happily take your knight, and something on the e-file is stopping it. Find the square that uses that.",
+  "explanation": "## The Idea\n\nThe queen on e2 looks like a quiet developing move. It is a trap.\n\n{{Nd6#}} is mate on the spot. The e7 pawn cannot take, because the queen pins it to the king. The queen on d8 cannot take, because its own knight on d7 is in the way, and the f8 bishop is blocked by that same e7 pawn. Every square around the king holds a black piece.\n\nThe Caro-Kann is built to get pieces out, not to wall the king in with them."
+}

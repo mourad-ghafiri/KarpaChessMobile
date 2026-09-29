@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-04",
+  "fen": "7k/6pp/8/bP6/3Q4/3R4/5PPP/2K5 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Bxd8",
+    "Rxd8#"
+  ],
+  "rating": 1050,
+  "title": "Queen for the Back Rank",
+  "setup": "Black's bishop on a5 is the only piece watching d8, and its king sits behind two pawns on h8.",
+  "hint": "Your rook wants the eighth rank, but one black piece covers the entry square. What can you offer it?",
+  "explanation": "## The Idea\n\n{{Qd8+}} is a deflection. The king is walled in by its own pawns on g7 and h7, so the bishop has to take: {{Bxd8}} is the only legal move. Now the d-file is clear behind it, and {{Rxd8#}} finishes on the back rank."
+}

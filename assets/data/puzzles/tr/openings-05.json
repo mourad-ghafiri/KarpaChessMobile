@@ -1,0 +1,11 @@
+{
+  "id": "openings-05",
+  "fen": "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w KQk - 3 6",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "Caro-Kann Boğması",
+  "setup": "Siyah ana varyanta d7'ye bir atla karşılık verdi ve az önce öteki atını f6'ya geliştirip merkezdeki atınıza saldırdı.",
+  "hint": "Siyahın bir piyonu atınızı seve seve alırdı ve e dikeyindeki bir şey onu engelliyor. Bunu kullanan kareyi bulun.",
+  "explanation": "## Fikir\n\ne2'deki vezir sessiz bir gelişim hamlesi gibi görünür. Bu bir tuzaktır.\n\n{{Nd6#}} olduğu yerde mattır. e7 piyonu alamaz, çünkü vezir onu şaha karşı açmaza alır. d8'deki vezir alamaz, çünkü kendi d7'deki atı yoldadır ve f8'deki fili de aynı e7 piyonu kapatır. Şahın çevresindeki her karede bir siyah taş durur.\n\nCaro-Kann taşları dışarı çıkarmak için kurulmuştur, şahı onlarla duvara almak için değil."
+}

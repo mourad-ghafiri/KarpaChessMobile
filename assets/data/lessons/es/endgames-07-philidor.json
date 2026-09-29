@@ -1,0 +1,62 @@
+{
+  "id": "philidor-position",
+  "title": "Las tablas de Philidor",
+  "summary": "Un peón de menos en un final de torres, y las tablas son primero una valla y luego una distancia",
+  "proof": "philidor-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Un peón de menos y en igualdad",
+      "text": "Las Blancas tienen un peón de más y esto sigue siendo tablas. Tu rey en d8 protege c8, la casilla a la que intenta llegar el peón de c5: es la primera mitad de la defensa, y ya la tienes.\n\nLa segunda mitad es una jugada de torre, y tiene que llegar ahora, mientras el peón blanco siga donde está. Philidor escribió el método en 1777 y nadie lo ha roto desde entonces. Dos ideas, jugadas en un orden fijo, y el orden es la mayor parte del truco."
+    },
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Tres puertas en la sexta",
+      "text": "El peón no puede llegar solo: tu rey vigila el camino, y la torre blanca de h7 lo mantiene en la última fila. Así que el rey blanco tiene que subir y apartar al tuyo a empujones, y para subir tiene que cruzar la sexta fila, contando siempre las filas desde el lado de las Blancas.\n\nEsa fila tiene exactamente tres puertas: c6, d6 y e6. Y una torre no vigila una casilla: es una valla a lo largo de una línea, lo que significa que las tres puertas se cierran en una sola jugada."
+    },
+    {
+      "type": "play",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "prompt": "Quítale al rey blanco toda la sexta fila antes de que pueda usar una de esas casillas.",
+      "targetSan": [
+        "Ra6"
+      ],
+      "hint": "Solo importa la fila, y una torre la cubre entera desde cualquier casilla a la que llegue."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "Cuatro casillas, tres retiradas",
+      "text": "La valla está puesta, y el rey blanco de d5 ya puede contar toda su lista: {{Kc4}}, {{Kd4}}, {{Ke4}}, {{Ke5}}.\n\nTres hacia atrás y una de lado. c6, d6 y e6 han dejado de ser jugadas, porque un rey no puede ir a una casilla que ataca tu torre. Las Blancas pueden dar vueltas por ahí fuera tanto como les dure la paciencia. Dar vueltas no lleva un peón a coronar."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "El avance que cuesta",
+      "text": "Una jugada cambia la posición en lugar del número de jugada: {{c6}}.\n\nCuenta lo que acaban de pagar las Blancas. Con el peón en c5, el rey tenía un techo: en c6, delante de su propio peón, nunca podía recibir jaque por detrás, porque el peón tapa la columna. Ahora el peón ha tomado esa casilla, y el siguiente techo sería c7, justo al lado de tu rey.\n\nAsí que tu valla ha terminado su trabajo. A partir de aquí lo que importa es la distancia."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Al otro extremo",
+      "text": "Tu torre deja la sexta fila y viaja al otro extremo del tablero, detrás del rey blanco, y da jaque desde ahí.\n\nLa distancia es toda la defensa. Un rey se quita de encima una torre que da jaque de cerca acercándose y amenazándola; desde el otro extremo del tablero no hay adónde acercarse, y el rey blanco tendría que abandonar el peón de c6 para ir a buscarla. Cada vez que sale a escoltar ese peón, llega otro jaque, y nunca se acaban."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Por qué esperaste",
+      "text": "El orden importa más que cualquiera de las dos jugadas. Manda primero la torre lejos, mientras el peón sigue en c5, y las Blancas nunca tienen que avanzar: su rey va a c6, delante de su propio peón, donde ningún jaque por detrás puede alcanzarlo porque el peón tapa la torre. Bajo ese techo entra, y la victoria es de las Blancas.\n\n> Mantén la fila mientras el peón esté quieto. En cuanto se mueva, aléjate de él todo lo que permita el tablero."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "prompt": "Pasa de bloquear a dar jaques, desde tan lejos como permite este tablero.",
+      "targetSan": [
+        "Ra1"
+      ],
+      "hint": "Una torre que da jaque y a la que el rey puede acercarse no sirve, así que cuenta lo lejos del rey blanco que puede llegar tu torre."
+    }
+  ]
+}

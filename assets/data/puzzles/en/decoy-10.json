@@ -1,0 +1,14 @@
+{
+  "id": "decoy-10",
+  "fen": "r2q1r1k/pp2N1pp/8/7Q/8/3R4/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh3#"
+  ],
+  "rating": 1490,
+  "title": "Anastasia's Mate",
+  "setup": "Your knight on e7 covers g6 and g8, and only the h7 pawn stands between the king and your queen.",
+  "hint": "The knight already owns both g-squares. What is missing is the king on h7 — how do you insist?",
+  "explanation": "## The Idea\n\nThis is **Anastasia's mate**. {{Qxh7+}} forces {{Kxh7}}, and the knight on e7 takes g6 and g8 away. {{Rh3#}} completes the net: the king stands on an open file with nowhere to step. Learn the picture: knight on e7, king dragged to h7, rook to the h-file."
+}

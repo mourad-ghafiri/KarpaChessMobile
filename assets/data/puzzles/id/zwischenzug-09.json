@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-09",
+  "fen": "7k/r4ppp/7Q/2b3r1/3R2B1/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Bf8",
+    "Rxf8#"
+  ],
+  "rating": 1590,
+  "title": "Benteng Pergi Lebih Dulu",
+  "setup": "Benteng Hitam di a7, gajahnya di c5 dan benteng lain di g5 — buah-buahnya ada di mana-mana dan buah-buah Anda tidak.",
+  "hint": "Menteri Anda tampak seperti buah yang harus dimainkan. Coba yang lain dan lihat siapa yang terpaksa menghalangi.",
+  "explanation": "## Ide\n\n{{Rd8+}} mengirim benteng, bukan menteri. {{Bf8}} satu-satunya penghalang, dan {{Rxf8#}} adalah mat, karena g7 dan h7 ditempati pion Hitam sendiri. Kirim buah yang sanggup Anda relakan dan simpan menterinya."
+}

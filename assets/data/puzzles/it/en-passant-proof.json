@@ -1,0 +1,11 @@
+{
+  "id": "en-passant-proof",
+  "fen": "r6k/pp5p/8/3pP3/8/2B5/PP3P1P/6RK w - d6 0 1",
+  "solution": [
+    "exd6#"
+  ],
+  "title": "Il Pedone che Avrebbe Potuto Parare",
+  "setup": "Il Nero ha appena spinto il pedone d di due case. Il vostro alfiere in c3 punta al re in h8, e la vostra torre in g1 difende la colonna accanto.",
+  "hint": "Il vostro pedone e è l'unica cosa sulla diagonale dell'alfiere. Quale pedone nero potrebbe rientrare in quella linea?",
+  "explanation": "## L'idea\n\nIl vostro pedone in e5 è tutto ciò che sta fra l'alfiere di c3 e il re in h8. Spingetelo con {{e6+}} e il pedone nero va in d4, di nuovo dentro la linea.\n\n{{exd6#}} apre la stessa diagonale e toglie dalla scacchiera il tappo nella stessa mossa. La torre copre g8, l'alfiere copre g7, e h7 ha il pedone del Nero.\n\nL'occasione è durata un turno. Una mossa dopo, quel pedone sarebbe stato fuori portata per sempre."
+}

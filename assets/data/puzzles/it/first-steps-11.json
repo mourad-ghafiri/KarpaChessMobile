@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-11",
+  "fen": "k2rr3/8/8/8/8/6p1/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kf1"
+  ],
+  "title": "Una Sola Porta",
+  "setup": "La torre in e8 dà scacco al vostro re — e gli altri pezzi neri hanno chiuso in silenzio quasi tutte le uscite.",
+  "hint": "La torre di d8 sorveglia la colonna d e il pedone in g3 copre f2. Che cosa resta?",
+  "explanation": "## L'idea\n\nSiete sotto scacco della torre in e8, senza niente con cui parare e niente che possa catturarla. Il re deve muovere, ma dove?\n\n- d1 e d2 sono coperte dalla torre in d8\n- f2 è attaccata dal pedone in g3\n- e2 sta ancora sulla colonna e, ancora sotto scacco\n- {{Kf1}} è l'unica casa rimasta\n\nUna porta su cinque. Controllate ogni casa che il re potrebbe usare contro ogni pezzo avversario."
+}

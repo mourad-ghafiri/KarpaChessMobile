@@ -1,0 +1,11 @@
+{
+  "id": "forks-03",
+  "fen": "4k3/8/8/3q4/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nf6+"
+  ],
+  "title": "Knight Forks the Royals",
+  "setup": "Black's king on e8 and queen on d5 are both one knight's jump from the same square.",
+  "hint": "Look for a square the knight can land on that hits **both** the king and the queen.",
+  "explanation": "## The Idea\n\nA **royal fork**: king and queen hit by one move. The square f6 is a knight's jump from e8 and a knight's jump from d5, so landing there touches both at once.\n\n{{Nf6+}} cannot be blocked, because a knight never crosses the squares between, and neither the king nor the queen can reach f6 to take it. The king has to move, and {{Nxd5}} collects the queen.\n\nFind the square that is a knight's jump from the king and a knight's jump from something valuable."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-02",
+  "fen": "7k/6pp/8/8/8/8/5PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "La base del pasillo",
+  "setup": "El rey negro está metido en la esquina detrás de sus propios peones de g7 y h7: un muro sin ventana.",
+  "hint": "La octava fila está totalmente abierta, y las Negras no han avanzado ningún peón para hacerse una casilla de escape.",
+  "explanation": "## La idea\n\nEl **mate del pasillo** de manual. {{Rb8#}} se desliza a la octava fila y el rey no puede escapar: en g7 y h7 están sus propios peones, g8 está en la fila de la torre y nada puede interponerse.\n\nUna jugada de peón antes, h6 o g6, habría dado aire al rey. Sin ella, el muro es una jaula."
+}

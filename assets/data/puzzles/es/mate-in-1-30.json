@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-30",
+  "fen": "7k/7p/5N1K/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Dama y caballo tejen la red",
+  "setup": "Tu caballo de f6 y tu rey de h6 rodean al rey negro en la esquina, y su propio peón de h7 tapa el último hueco.",
+  "hint": "El caballo y el rey cubren las casillas alrededor del rey. Manda la dama por la última fila.",
+  "explanation": "## La idea\n\nEl caballo y el rey han encerrado al rey: el caballo de f6 cubre g8, tu rey de h6 cubre g7 y en h7 está el propio peón negro.\n\n{{Qa8#}} da jaque por la última fila vacía desde la esquina opuesta, y nada puede tapar.\n\nUn caballo cerca de la esquina cubre casillas a las que la dama no llega en una jugada. Con dama, caballo y rey cerca de un rey acorralado, busca esta red."
+}

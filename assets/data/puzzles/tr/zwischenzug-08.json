@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-08",
+  "fen": "7k/4bppp/r5R1/1Q4B1/8/8/PP2r3/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Bf8",
+    "Qxf8#"
+  ],
+  "rating": 1560,
+  "title": "File İkram Edin",
+  "setup": "b5'teki veziriniz ile g6'daki kaleniz, yanında e7'de bir fille duran bir şaha doğrultulmuş.",
+  "hint": "Fil yalnızca tek bir karede araya girebilir. Onu o kareyi seçmeye zorlayan şahı seçin.",
+  "explanation": "## Fikir\n\n{{Qe8+}} {{Bf8}} hamlesini zorlar — fil alamaz ve şah oynayamaz. {{Qxf8#}} gelir: vezir g8'i kapsar ve g7 ile h7'de siyahın kendi piyonları durur. Şah matın kendisi değil, matı hazırlayan şeydir."
+}

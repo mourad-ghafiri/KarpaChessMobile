@@ -1,0 +1,13 @@
+{
+  "id": "history-07",
+  "fen": "r4rk1/pp3ppp/5n2/8/8/3Q1R2/PP4PP/1B4K1 w - - 0 1",
+  "solution": [
+    "Rxf6",
+    "gxf6",
+    "Qxh7#"
+  ],
+  "title": "Eliminar o Último Defensor",
+  "setup": "A dama e o bispo apontam os dois a h7, e exatamente uma peça preta os trava.",
+  "hint": "Pergunta o que aconteceria em h7 se uma só peça preta desaparecesse, e depois descobre quanto vale essa peça para as pretas.",
+  "explanation": "## A Ideia\n\nA dama em d3 e o bispo em b1 apontam a h7, e só o cavalo de f6 impede a dama de lá aterrar com mate.\n\n{{Rxf6}} dá uma torre por esse cavalo. Recaptura com {{gxf6}} e segue-se {{Qxh7#}}: o bispo guarda a dama, a dama cobre g7 e h8, e f7 e f8 têm o peão e a torre das pretas. Se recusar, as brancas ficam simplesmente um cavalo acima.\n\nQuando uma peça guarda a casa do mate, pesa-a contra o mate."
+}

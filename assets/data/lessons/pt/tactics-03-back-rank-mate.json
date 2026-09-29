@@ -1,0 +1,62 @@
+{
+  "id": "back-rank-mate",
+  "title": "A Linha de Fundo",
+  "summary": "Uma fraqueza que já lá está, à espera de que uma torre repare nela",
+  "proof": "tactics-mix-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Cinco Casas, Uma Linha",
+      "text": "Nada está a atacar o rei preto, e por enquanto não é preciso. A armadilha já está montada.\n\nO rei em g8 tem cinco casas à volta. Três delas têm os seus próprios peões — f7, g7, h7 — o abrigo que o manteve vivo a partida inteira. As outras duas são f8 e h8, e estão as duas na oitava linha, a mesma linha em que o rei está.\n\nPortanto todas as casas que aquele rei pode usar estão numa só linha. Põe uma torre nessa linha e a lista fica vazia."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Duas Perguntas",
+      "text": "Um mate que vês uma jogada antes de aterrar é sorte. Este vê-se chegar de longe, porque é feito de duas perguntas e às duas se responde com um olhar.\n\nO rei inimigo consegue sair da sua linha de fundo? Há alguma coisa a guardar essa linha?\n\nAqui as respostas são não e não, e eram não há dez jogadas. Só falta levar uma torre ou uma dama à oitava linha — e na coluna c não há nada acima da tua torre em c1.\n\nFaz estas duas perguntas a cada jogada e deixas de encontrar isto por acaso."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "prompt": "Nenhuma das duas casas que restam ao rei sai da oitava linha: toma essa linha inteira numa jogada.",
+      "targetSan": [
+        "Rc8#"
+      ],
+      "hint": "Uma coluna à frente da tua torre não tem nada em cima, e acaba na linha que queres."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "Torre ou Dama, Mais Nada",
+      "text": "A torre não é o ponto. Uma dama acaba com isto da mesma maneira, porque o que o mate precisa é de uma peça que cubra uma linha inteira de uma vez, e só essas duas o fazem.\n\nConfirma uma coisa antes de mandares qualquer uma delas. A casa onde aterras não pode ser ao lado do rei, a não ser que algo teu a defenda. Chega aqui a f8 ou a h8 e as pretas não levam mate nenhum — o rei come a peça e sai a passear pelo buraco que acabaste de abrir.\n\nFoi a distância que tornou c8 segura."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/p4ppp/8/8/8/8/P4PPP/2R3K1 w - - 0 1",
+      "title": "A Cura Custa Uma Jogada",
+      "text": "O teu próprio rei em g1 está nas mesmas cinco casas, e já sabes a resposta: dá-lhe uma casa de fuga. {{h3}} fá-lo — h2 abre, e uma torre que aterre na tua primeira linha passa a ser um xeque a que respondes, e não uma partida que perdes.\n\nA jogada não é grátis. Não ataca nada e não defende nada, e o abrigo fica com um peão mais à frente do que estava.\n\nTambém conta qual o peão que gastas. Avançar o peão g entrega f3 e h3 e abre a diagonal longa para o teu próprio canto, por isso o peão h costuma ser a casa mais barata de comprar."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "Um Guarda para Cada",
+      "text": "Tabuleiro novo, e os dois reis estão selados na forma que agora reconheces. Uma torre para cada um, frente a frente ao longo da coluna d.\n\nConta o que guarda a oitava linha das pretas: a torre em d8, e mais nada. Conta o que guarda a primeira linha das brancas: a torre em d1, e mais nada.\n\nNão é uma posição equilibrada. São duas posições que estão cada uma a uma peça de estarem perdidas, e só um dos lados é que joga."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "title": "A Troca Que Não É Troca",
+      "text": "A mesma peça, a mesma coluna, o mesmo valor. Trocar as torres aqui parece a jogada mais aborrecida do tabuleiro.\n\nSó que não é uma troca, porque uma troca precisa de alguma coisa com que recapturar. O rei preto não consegue sair de trás de três peões, e os peões não andam para trás. A única peça que podia recapturar em d8 é a que está a ser capturada.\n\n> Antes de trocares a última torre numa coluna aberta, pergunta o que é que ela fazia além de estar ali."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+      "prompt": "Come a única peça que guarda a oitava linha das pretas e conta o que resta para recapturar.",
+      "targetSan": [
+        "Rxd8#"
+      ],
+      "hint": "Antes de chamares troca a uma captura, descobre que peça preta poderia legalmente chegar a essa casa."
+    }
+  ]
+}

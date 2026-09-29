@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-11",
+  "fen": "3rk3/8/8/4PK2/8/8/8/R7 b - - 0 1",
+  "solution": [
+    "Rd7"
+  ],
+  "rating": 1580,
+  "title": "Tenez la septième",
+  "setup": "Le roi noir tient e8 devant le pion, et le roi blanc est prêt à monter le dépasser.",
+  "hint": "Trouvez la rangée que votre tour peut tenir, d'où elle peut mettre le roi blanc en échec dès qu'il monte.",
+  "explanation": "## L'idée\n\n{{Rd7}} retire la septième rangée au roi blanc, et l'essai {{Kf6}} reçoit {{Rf7+}}, qui le repousse aussitôt : votre roi en e8 protège la tour. Depuis n'importe quelle case plus basse de la colonne d, les Blancs entrent plutôt par {{Ke6}}, et {{Rd6}} est même en prise sur {{exd6}}."
+}

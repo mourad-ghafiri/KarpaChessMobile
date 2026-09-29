@@ -1,0 +1,13 @@
+{
+  "id": "forks-14",
+  "fen": "2r1k3/p4ppp/8/8/4N3/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd7",
+    "Nxc8"
+  ],
+  "title": "Inforchettate la Torre",
+  "setup": "La torre nera si è avvicinata fino a c8, vicino al suo re. Siete sotto di qualità, ma avete un pedone in più.",
+  "hint": "Trovate la casa che dà scacco al re e attacca c8 nello stesso momento. È a un balzo di distanza.",
+  "explanation": "## L'idea\n\n{{Nd6+}} attacca insieme il re in e8 e la torre in c8. Non c'è nessun pedone nero in c7 o e7 a difendere d6, quindi il cavallo è al sicuro. {{Kd7}} difende la torre, ma {{Nxc8}} la prende lo stesso, e dopo {{Kxc8}} torri e cavalli sono spariti. Quello che resta è un finale di pedoni con il vostro pedone in più.\n\nUna forchetta che vince solo la qualità può bastare lo stesso, quando porta a un finale che sapete vincere."
+}

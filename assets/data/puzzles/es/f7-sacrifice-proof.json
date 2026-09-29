@@ -1,0 +1,11 @@
+{
+  "id": "f7-sacrifice-proof",
+  "fen": "r1b1k1nr/1p1n1pbp/p1pQ2p1/4p3/2B1PB2/2q2N2/P1P2PPP/1R1R2K1 w kq - 2 15",
+  "solution": [
+    "Bxf7+"
+  ],
+  "title": "Tal captura en f7",
+  "setup": "Tal contra Tringov, Ámsterdam 1964. El rey negro no ha enrocado, y nada salvo el rey protege f7.",
+  "hint": "Solo el rey protege f7. ¿Dónde acaba si tiene que capturar, con tu dama ya en d6?",
+  "explanation": "## La idea\n\n{{Bxf7+}} entrega el alfil por el peón que protegía solo el rey, y fuerza el mate. Tras {{Kxf7}} {{Ng5+}} el rey tiene que volver a e8, porque la dama y el caballo cubren todas las demás casillas, y {{Qe6+}} da mate en dos jueguen lo que jueguen las Negras: Tringov abandonó ahí.\n\nEl rey nunca enrocó, así que f7 era la única puerta, y la dama, el caballo y el alfil blancos estaban todos a su alcance."
+}

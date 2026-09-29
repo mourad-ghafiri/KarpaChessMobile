@@ -1,0 +1,14 @@
+{
+  "id": "discovery-12",
+  "fen": "6k1/pb3ppp/3p4/8/8/8/2Q3rP/2R2N1K b - - 0 1",
+  "solution": [
+    "Rxc2+",
+    "Kg1",
+    "Rg2+"
+  ],
+  "rating": 1350,
+  "title": "Değirmen Dönüyor",
+  "setup": "g2'deki kaleniz kendi filinizin h1'e giden hattını kapatıyor ve beyazın c2'deki vezirini bir kale koruyor.",
+  "hint": "Kale şah çekerek ayrılabilir ve şah çekerek doğrudan geri dönebilir. g2'nin beyazın asla alamayacağı bir kare olmasının sebebini hesaplayın.",
+  "explanation": "## Fikir\n\n{{Rxc2+}} korunan veziri alır, çünkü g2'den ayrılmak b7'deki filin şahını açar. {{Kg1}} mecburidir ve {{Rg2+}} hemen geri döner: şah alamaz, çünkü fil g2'yi kapsar ve f1'i beyazın kendi atı kapatır. Kale dokunulmazdır ve vezir bedavaya gitmiştir."
+}

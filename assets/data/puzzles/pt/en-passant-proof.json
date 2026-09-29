@@ -1,0 +1,11 @@
+{
+  "id": "en-passant-proof",
+  "fen": "r6k/pp5p/8/3pP3/8/2B5/PP3P1P/6RK w - d6 0 1",
+  "solution": [
+    "exd6#"
+  ],
+  "title": "O Peão Que Podia Ter Tapado",
+  "setup": "As pretas acabaram de avançar o peão d duas casas. O teu bispo em c3 aponta ao rei de h8, e a tua torre em g1 guarda a coluna ao lado.",
+  "hint": "O teu peão e é a única coisa na diagonal do bispo. Que peão preto poderia voltar a entrar nessa linha?",
+  "explanation": "## A Ideia\n\nO teu peão em e5 é tudo o que está entre o bispo de c3 e o rei de h8. Avança-o com {{e6+}} e o peão preto vai para d4, de volta à linha.\n\n{{exd6#}} abre essa mesma diagonal e levanta o tampão do tabuleiro na mesma jogada. A torre cobre g8, o bispo cobre g7, e h7 tem o próprio peão das pretas.\n\nA hipótese durou uma jogada. Uma jogada depois, esse peão estaria fora de alcance para sempre."
+}

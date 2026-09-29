@@ -1,0 +1,57 @@
+{
+  "id": "knight-moves",
+  "title": "Huruf L Sang Kuda",
+  "summary": "Satu-satunya buah yang melompati tembok alih-alih memutarinya",
+  "proof": "first-steps-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Dua Petak, Lalu Satu",
+      "text": "Dua petak, lalu satu petak ke samping. Itulah setiap langkah kuda yang pernah ada.\n\nKuda satu-satunya buah yang menolak bergerak dalam garis lurus. Ia tidak meluncur di sepanjang baris atau lajur — ia melompat, dari tempatnya berdiri ke tempatnya mendarat, dan tak menyentuh apa pun di antaranya.\n\nLihat ia bergerak: {{Nf6}}. Dua petak ke atas papan dari e4, lalu satu ke kanan. Sebuah **L**, digambar dalam satu langkah."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Delapan Petak Pendaratan",
+      "text": "Hitung dari e4: {{Nd6}}, {{Nf6}}, {{Nc5}}, {{Ng5}}, {{Nc3}}, {{Ng3}}, {{Nd2}}, {{Nf2}}. Delapan panah meninggalkan satu petak sekaligus, dan kedelapannya adalah langkah yang sah.\n\nSekarang letakkan kuda yang sama di petak sudut a1 dan hitung lagi: dua. Enam bentuk L-nya keluar dari tepi papan dan membawa petak-petaknya pergi.\n\nJadi kuda menginginkan bagian tengah. Ia satu-satunya buah yang kekuatannya bisa Anda baca dari alamatnya."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Lompatkan kuda ke mana saja yang bisa dicapai sebuah L dari e4.",
+      "targetSan": [
+        "Nd6",
+        "Nf6",
+        "Nc5",
+        "Ng5",
+        "Nc3",
+        "Ng3",
+        "Nd2",
+        "Nf2"
+      ],
+      "hint": "Hitung dua petak di sepanjang baris atau lajur, lalu belok satu petak ke samping. Semua arah bisa."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Tak Pernah Warna yang Sama Dua Kali",
+      "text": "Petak e4 berwarna terang. Kedelapan petak yang baru saja dicapai kuda semuanya gelap.\n\nItu berlaku di seluruh papan. Kuda mengganti warna petak di bawahnya pada setiap lompatan, dan ia tak punya pilihan dalam hal itu.\n\nIni memberi Anda hitungan gratis: apa pun yang berdiri di petak terang berada di luar jangkauan kuda yang berada di petak terang. Setidaknya pada langkah ini. Langkah berikutnya, keadaannya berbalik."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Melompati Tembok",
+      "text": "Setiap partai dimulai dalam kemacetan. Gajah, benteng dan menteri terkurung di belakang pionnya sendiri, dan masing-masing harus menunggu sebuah pion menyingkir dari jalan.\n\nKuda tidak menunggu. {{Nf3}} melewati barisan pion pada langkah pertama, dan pion di f2 bahkan tak merasakan embusan anginnya.\n\nItulah sebabnya kuda begitu sering menjadi buah pertama yang meninggalkan baris belakang.\n\n> Buah lain memerlukan pintu. Kuda melompati tembok."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3p4/3pp3/2N5/8/8/4K3 w - - 0 1",
+      "prompt": "Kuda Anda diserang, jadi tinggalkan petaknya dan tangkap pion hitam yang tak dijaga apa pun.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "Kuda tak peduli apa yang menghalangi, jadi lihatlah melewati tembok pion — lalu tanyakan pion mana di baliknya yang punya pion kedua yang siap menangkap balik."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-19",
+  "fen": "8/7P/6k1/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "h8=Q"
+  ],
+  "title": "The Long March",
+  "setup": "Your h-pawn has marched all the way to the seventh rank, and Black's king on g6 is one step from eating it.",
+  "hint": "Waiting loses the pawn. Finish the journey now, and choose the strongest piece it can become.",
+  "explanation": "## The Idea\n\nThe black king on g6 touches h7, so any quiet move lets it take the pawn, and a lone king against a lone king is a draw. {{h8=Q}} ends that: the pawn leaves h7 on the move it was attacked, and h8 is out of the king's reach.\n\nA rook would also win, only slowly. The queen is nine points, and king and queen against a lone king always wins."
+}

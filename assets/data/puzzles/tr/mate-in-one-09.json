@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-09",
+  "fen": "rnbqkbn1/ppppp3/8/6pr/3P1p2/3BP1B1/PPP2PPP/RN2K1NR w KQq - 0 8",
+  "solution": [
+    "Bg6#"
+  ],
+  "rating": 840,
+  "title": "f7 Deliği",
+  "setup": "Siyah az önce h5'te vezirinizi aldı ve şahı hâlâ e8'deyken f7 boş duruyor.",
+  "hint": "Siyahın şahının yanında tam olarak bir boş kare var. Hangi taş hem ona saldırıp hem şah çekebilir?",
+  "explanation": "## Fikir\n\nSiyahın kendi taşları d7, d8 ve f8'i doldurur, yani f7 şahın tek karesidir ve {{Bg6#}} f7'yi kapsarken onun içinden şah çeker. Az önce vezirinizi alan kale bunu durdurmaya bir kare uzaklıktadır ve vaktinde geri dönemez."
+}

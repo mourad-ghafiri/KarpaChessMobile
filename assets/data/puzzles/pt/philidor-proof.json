@@ -1,0 +1,11 @@
+{
+  "id": "philidor-proof",
+  "fen": "3k4/5R2/8/r1PK4/8/8/8/8 b - - 0 1",
+  "solution": [
+    "Ra6"
+  ],
+  "title": "Fecha a Sexta",
+  "setup": "O rei branco em d5 está a um passo da sexta linha, e de lá afasta o teu rei da casa de promoção. Jogam as pretas, e é empate.",
+  "hint": "Ao rei branco faz falta uma de três casas da sexta linha. Uma torre numa linha cobre todas as casas dela.",
+  "explanation": "## A Ideia\n\nAo rei branco fazem falta c6, d6 ou e6, e uma só jogada de torre leva as três: {{Ra6}}. Uma torre numa linha é uma cerca, e um rei não pode entrar numa casa que ela cubra.\n\nTodas as outras jogadas deixam o rei subir à sexta linha e, com a torre em f7 a segurar o teu rei na linha de fundo, o peão entra. Se as brancas alguma vez avançarem para c6, a cerca já fez o seu trabalho: leva a torre ao extremo mais afastado e dá xeque por trás."
+}

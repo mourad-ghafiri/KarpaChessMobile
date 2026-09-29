@@ -1,0 +1,14 @@
+{
+  "id": "pawn-ending-06",
+  "fen": "5k2/8/5PK1/8/8/8/8/8 w - - 1 2",
+  "solution": [
+    "f7",
+    "Ke7",
+    "Kg7"
+  ],
+  "rating": 1280,
+  "title": "Tak Ada yang Lain yang Menang",
+  "setup": "Raja Hitam baru saja melangkah ke f8, tepat di depan pion, dan Putih harus memilih.",
+  "hint": "Lima dari enam langkah Putih membuang poinnya; tanyakan mana yang merebut petak-petak dari raja hitam.",
+  "explanation": "## Ide\n\n{{f7}} tampak mengurung pion, tetapi ia menguasai e8 dan g8, jadi {{Ke7}} terpaksa dan {{Kg7}} mengantar pion pulang. Langkah raja mana pun sebagai gantinya membiarkan raja Hitam mempertahankan tempatnya di depan pion, dan lalu akhir permainannya remis mati."
+}

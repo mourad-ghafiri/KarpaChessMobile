@@ -1,0 +1,56 @@
+{
+  "id": "outposts",
+  "title": "Gli Avamposti",
+  "summary": "Case che nessun pedone avversario può toccare",
+  "proof": "strategy-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "La Casa che Nessuno Può Difendere",
+      "text": "Contate i pedoni neri che attaccheranno mai d5. Il pedone c è stato cambiato via parecchie mosse fa. Il pedone in d6 e il pedone in e5 puntano tutti e due dall'altra parte, e nessun pedone cammina all'indietro.\n\nNessuno. Non in questa mossa, non fra venti mosse, mai.\n\nUna casa in territorio avversario che nessun pedone avversario potrà mai attaccare è un **avamposto**. La parola viene ammorbidita in «una bella casa», il che perde l'unica parte che conta: *non può*. Un buco così non si chiude."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "Quanto Costa Sfrattare",
+      "text": "Sono i pedoni a cacciare via i pezzi. Un pedone fa un passo avanti, il pezzo deve muoversi, e il pedone non ha speso quasi niente per dirlo.\n\nSu d5 un pedone così non c'è, e non ci sarà mai. Il Nero può liberare quella casa solo dando in cambio un pezzo vero — un alfiere, poniamo, per un cavallo, che è un affare che nessuno propone per scelta.\n\nEcco perché il pezzo che mandate è il cavallo. Un cavallo è lento e ha poca portata, quindi un indirizzo fisso in fondo al campo avversario vale per lui più che per qualunque altro pezzo."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "prompt": "Piazzate un cavallo dove nessun pedone nero potrà mai più attaccarlo.",
+      "targetSan": [
+        "Nd5"
+      ],
+      "hint": "Sulla scacchiera ci sono due cavalli bianchi, e uno solo dei due tocca d5."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/3Np3/4P3/1N2B3/PPP1BPPP/R2Q1RK1 b - - 7 10",
+      "title": "Arriva il Conto",
+      "text": "Il cavallo sta in d5 e niente di economico lo può scacciare. Ogni pedone nero che avrebbe potuto coprire la casa è sparito o guarda dalla parte sbagliata.\n\nE allora il Nero paga. {{Bxd5}} consegna un alfiere per un cavallo, e dopo {{exd5}} la casa la tiene invece un pedone bianco, che toglie c6 e e6 a ogni pezzo nero.\n\nL'altra opzione è lasciare il cavallo dov'è e giocare il resto della partita attorno a lui. Nessuna delle due linee è piacevole, ed è questo il guadagno: tutte e due le scelte del Nero sono peggiorate."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "Costruitevene Uno",
+      "text": "Nessuno vi regala un buco due volte. I pedoni neri qui sono più sani — a7, b7, c6, d5, e6, f7, g7, h7, senza niente di cambiato e niente di arenato.\n\nGuardate lo stesso la quinta traversa. Il pedone in d5 ha già superato le case accanto a sé, e il pedone in e6 copre d5 e f5 e nient'altro.\n\nResta una casa nel mezzo della metà nera che solo il pedone f potrebbe mai contendere."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "Il Pedone che Non Spingerà",
+      "text": "Il pedone f del Nero è l'unica guardia rimasta a quella casa, e non arriverà. Il cavallo in f6 gli sta sulla strada, e una volta che il cavallo si sposta, spingere il pedone strappa la copertura al re in g8.\n\nUna casa che il vostro avversario non può permettersi di contendere vale quanto una che non può raggiungere.\n\nAncora una cosa. Il pedone bianco in d4 copre già la casa, quindi un cavallo che ci atterra atterra difeso — il Nero non può scacciarlo e non può vincerlo, può solo comprarlo con un pezzo.\n\n> I loro pedoni non possono permettersi di contenderla, il vostro pedone la difende, e il vostro cavallo ci abita."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "prompt": "Piantate un cavallo sulla casa a cui i pedoni neri hanno rinunciato e che il vostro pedone difende già.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "Il vostro pedone d difende due case — una delle due è in mezzo al campo nero."
+    }
+  ]
+}

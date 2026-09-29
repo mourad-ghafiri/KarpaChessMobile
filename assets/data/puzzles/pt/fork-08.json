@@ -1,0 +1,14 @@
+{
+  "id": "fork-08",
+  "fen": "1kbr4/pp6/2P5/8/8/8/5PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "c7+",
+    "Ka8",
+    "cxd8=Q"
+  ],
+  "rating": 950,
+  "title": "O Peão Leva Tudo",
+  "setup": "O teu peão de c6 está a dois passos de uma dama nova, com o rei preto em b8 e uma torre em d8.",
+  "hint": "Um peão ataca duas casas em diagonal. Encontra o avanço que atinge as duas e conta depois quem o defende.",
+  "explanation": "## A Ideia\n\n{{c7+}} ataca b8 e d8 em conjunto, e a torre de c1 guarda o peão, portanto o rei não o pode comer. Os próprios peões e o bispo das pretas só deixam {{Ka8}}, e {{cxd8=Q}} come a torre e traz uma dama nova numa só jogada."
+}

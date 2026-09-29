@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-12",
+  "fen": "3K2k1/1B6/8/6pR/8/8/5p1R/8 w - - 0 1",
+  "solution": [
+    "Ke7",
+    "f1=Q",
+    "Rxg5#"
+  ],
+  "rating": 1800,
+  "title": "Şahınız Pas Diyor",
+  "setup": "Siyahın şahı g8'de, f2'deki piyonu terfi etmek üzere ve bir piyonu daha g5'te oturuyor; iki kaleniz de şah kanadında.",
+  "hint": "Bulabildiğiniz her taş hamlesi bir şeyi bozuyor. Bedel ödemeden oynayabilecek tek bir taş kaldı.",
+  "explanation": "## Fikir\n\n{{Ke7}} f8'i kapsar ve hamleyi siyaha devreder. Siyahın altı hamlesi içinde en iyi deneme {{f1=Q}}'dur ve tahtanın yanlış tarafına varır; {{Rxg5#}} mat eder. En zor bekleme hamleleri, şahın yaptığı hamlelerdir."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-10",
+  "fen": "2Q1b2k/4rppp/8/8/4R3/8/PP6/K6R w - - 0 1",
+  "solution": [
+    "Qxe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1580,
+  "title": "Deux pièces sur une colonne",
+  "setup": "Les Noirs ont un fou en e8 et une tour en e7, et chacune de vos pièces lourdes vise cette même colonne.",
+  "hint": "Quand deux défenseurs se tiennent sur une même ligne, seul celui de devant peut être pris. Demandez-vous ce que fait vraiment le second.",
+  "explanation": "## L'idée\n\n{{Qxe8+}} force {{Rxe8}} — la tour doit quitter la septième — et {{Rxe8#}} est mat parce que les pions ont eux-mêmes scellé le roi. Empiler des défenseurs sur une colonne, c'est les perdre l'un après l'autre."
+}

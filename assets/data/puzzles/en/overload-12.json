@@ -1,0 +1,14 @@
+{
+  "id": "overload-12",
+  "fen": "7k/4Rppp/3n4/5Qr1/8/4N3/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Nxc8",
+    "Re8#"
+  ],
+  "rating": 1650,
+  "title": "Send the Guard Away",
+  "setup": "Black's knight on d6 covers both c8 and e8, and your rook already sits on the seventh rank.",
+  "hint": "One black piece is holding two squares. Attack the one you do not actually want.",
+  "explanation": "## The Idea\n\n{{Qc8+}} is not the mating square — it is the decoy. Both knight moves lose, and {{Nxc8}} at least takes something and the knight abandons e8, so {{Re8#}} lands. Offer the defender the duty it can perform, and it will fail the one it cannot."
+}

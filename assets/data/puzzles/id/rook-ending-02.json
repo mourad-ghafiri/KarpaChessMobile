@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-02",
+  "fen": "8/R4Pr1/4k3/8/4K3/8/8/8 w - - 0 1",
+  "solution": [
+    "f8=Q"
+  ],
+  "rating": 1250,
+  "title": "Buat Buah yang Tepat",
+  "setup": "Benteng Hitam menyerang pion f dari g7, raja juga menyerangnya, dan satu pembela tak bisa menahannya melawan dua, jadi Putih punya tepat satu langkah untuk memanfaatkannya.",
+  "hint": "Pion itu hilang langkah berikutnya apa pun yang Anda lakukan. Tanyakan buah baru mana yang akan menyentuh benteng di g7.",
+  "explanation": "## Ide\n\nPion itu tak bisa dipertahankan, jadi belanjakan. {{f8=Q}} menyerang benteng di sampingnya dan menang. {{f8=R}} dan {{f8=N+}} membiarkan g7, dan {{f8=B}} menyerang benteng tetapi tak cukup untuk menang. Hitam harus menyelamatkan benteng dengan {{Rxa7}}, dan menteri melawan benteng adalah kemenangan."
+}

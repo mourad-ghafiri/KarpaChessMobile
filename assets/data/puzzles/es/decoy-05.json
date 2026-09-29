@@ -1,0 +1,14 @@
+{
+  "id": "decoy-05",
+  "fen": "6rk/pp4pp/8/8/8/q7/5PP1/3Q2KR w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Qh5#"
+  ],
+  "rating": 1310,
+  "title": "Abre la esquina",
+  "setup": "El rey negro se esconde en h8 detrás de su propia torre y sus peones, con solo el peón de h7 entre él y tu torre.",
+  "hint": "El rey no tiene ninguna jugada legal. ¿Qué captura lo obliga a ir a la única casilla que puedes alcanzar?",
+  "explanation": "## La idea\n\n{{Rxh7+}} es una torre por un peón, y {{Kxh7}} es la única jugada negra. Arrastrado a h7, el rey queda atascado contra su propia torre y su peón, y {{Qh5#}} llega desde lejos. La torre nunca fue el objetivo. Lo era la casilla h7."
+}

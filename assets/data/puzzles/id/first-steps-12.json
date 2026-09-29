@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-12",
+  "fen": "k6r/8/8/5p2/5p1K/8/P7/8 w - - 0 1",
+  "solution": [
+    "Kg5"
+  ],
+  "title": "Melangkah ke Samping",
+  "setup": "Benteng hitam memberi sekak kepada raja Anda di sepanjang **lajur h** yang terbuka, sementara dua pion hitam menjaga petak-petak pelarian.",
+  "hint": "Ingat: pion hitam menyerang secara diagonal *ke bawah* papan. Petak mana yang sebenarnya dikuasai f4 dan f5?",
+  "explanation": "## Ide\n\nBenteng di h8 menguasai seluruh lajur h, jadi h3 dan h5 tertutup. Kedua pion tampaknya juga menutup lajur g, tetapi lihat apa yang sebenarnya diserang keduanya: pion di f4 menguasai g3, pion di f5 menguasai g4, dan tak ada yang menguasai g5.\n\n{{Kg5}} menyelipkan raja di samping pion-pion hitam, aman karena pion tak pernah menangkap ke belakang.\n\nPion menyerang tepat dua petak, keduanya di depannya."
+}

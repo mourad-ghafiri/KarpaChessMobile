@@ -1,0 +1,12 @@
+{
+  "id": "discovery-05",
+  "fen": "2rkr3/2p1pppp/4n3/3P4/8/5N2/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "dxe6#"
+  ],
+  "rating": 1120,
+  "title": "Hors de la colonne",
+  "setup": "Le roi noir est emmuré en d8 par ses propres tours et pions, et votre propre pion bloque la colonne d.",
+  "hint": "Un pion qui prend quitte la colonne où il se tenait. Demandez-vous ce que verrait votre tour à cet instant.",
+  "explanation": "## L'idée\n\n{{dxe6#}} gagne un cavalier, mais là n'est pas l'essentiel : le pion quitte la colonne d et la tour en d1 donne échec jusqu'en d8. c7, e7, c8 et e8 sont occupées par les propres pièces noires, et rien ne peut se placer devant la tour. Une découverte de pion peut mater."
+}

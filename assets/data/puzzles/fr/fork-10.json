@@ -1,0 +1,12 @@
+{
+  "id": "fork-10",
+  "fen": "8/2q1P1kp/p7/8/8/8/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "e8=N+"
+  ],
+  "rating": 1030,
+  "title": "La mauvaise dame",
+  "setup": "Votre pion avance sur la huitième rangée à ce coup, avec le roi noir en g7 et sa dame en c7.",
+  "hint": "Une nouvelle dame ne change rien ici. Demandez-vous quelle pièce donnerait échec au roi depuis la case de promotion.",
+  "explanation": "## L'idée\n\nUne dame en e8 ne donne aucun échec, et les Noirs continuent simplement avec une position égale. {{e8=N+}} frappe g7 et c7 à la fois, les Noirs doivent parer l'échec, et la dame tombe au coup suivant. Promouvez en ce dont la position a besoin, pas en ce qui est le plus gros."
+}

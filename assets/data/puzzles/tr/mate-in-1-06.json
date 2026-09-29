@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-06",
+  "fen": "6k1/8/6K1/8/8/8/8/1Q6 w - - 0 1",
+  "solution": [
+    "Qb8#"
+  ],
+  "title": "Yüz Yüze Şahlar",
+  "setup": "Şahlar g dikeyinde yüz yüze duruyor ve veziriniz b1'de, bütün tahta kendisine kalmış hâlde bekliyor.",
+  "hint": "Şahınız f7, g7 ve h7'yi zaten kapsıyor. Vezirin alması için hangi yatay kaldı?",
+  "explanation": "## Fikir\n\nŞahlar aralarında bir kare olacak şekilde karşı karşıya; yani sizinki f7, g7 ve h7'yi, yedinci yataydaki bütün kaçışları kapsıyor. Vezirin yalnızca sekizinciyi alması gerekiyor.\n\n{{Qb8#}} bunu tahtanın öteki ucundan yapar: f8 ile h8 onun yatayındadır, g8'deki şah şah altındadır ve araya hiçbir şey giremez.\n\nÇıplak bir şahın yanında son hamlenin şah çektiğinden emin olun. Karesi kalmayan ve şah altında da olmayan şah pat demektir."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "skewer-06",
+  "fen": "8/1R1p3p/2k2r2/8/4Pb2/2r5/3R1B1P/4K3 w - - 0 1",
+  "solution": [
+    "Rb6+",
+    "Kc7",
+    "Rxf6"
+  ],
+  "rating": 1100,
+  "title": "Kalenin Arkasında Kale",
+  "setup": "Siyahın oyunda iki kalesi var ve biri altıncı yatayı c6'daki şahıyla paylaşıyor.",
+  "hint": "Altıncı yataydaki hangi kareyi taşlarınızdan biri zaten koruyor? Oradan şah çekin.",
+  "explanation": "## Fikir\n\n{{Rb6+}} altıncı yatay boyunca bir şiştir: önde şah, arkada **f6**'daki kale. **f2**'deki fil b6'yı koruduğu için şah alınamaz ve c7 dışındaki her kaçış karesi kapsanmıştır. {{Kc7}} gelir ve {{Rxf6}} kaleyi kazanır."
+}

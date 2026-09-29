@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-12",
+  "fen": "2Q1B2k/b4ppp/2r5/4r3/8/R7/PP6/K7 w - - 0 1",
+  "solution": [
+    "Bxc6+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1700,
+  "title": "Kosongkan Jalan dengan Sekak",
+  "setup": "Gajah Anda di e8 dan menteri di c8 bertumpuk di baris belakang, dan benteng-benteng Hitam di c6 dan e5 menahannya tetap utuh.",
+  "hint": "Buah Anda sendiri berdiri di petak mat. Temukan langkah yang menyingkirkannya sekaligus merebut tempo.",
+  "explanation": "## Ide\n\nGajah di e8 menghalangi jalan menteri. {{Bxc6+}} mengambil benteng, mengosongkan petak itu dan memberi sekak sekaligus; {{Re8}} terpaksa dan {{Qxe8#}} mengakhirinya. Langkah perantara terbaik adalah langkah yang mengerjakan tiga tugas."
+}

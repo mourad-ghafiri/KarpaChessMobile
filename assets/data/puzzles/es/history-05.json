@@ -1,0 +1,15 @@
+{
+  "id": "history-05",
+  "fen": "r1b1k1nr/p2p1ppp/n2B4/1p1NPN1P/6P1/3P1Q2/P1P1K3/q5b1 w kq - 2 21",
+  "solution": [
+    "Nxg7+",
+    "Kd8",
+    "Qf6+",
+    "Nxf6",
+    "Be7#"
+  ],
+  "title": "El final de la Inmortal",
+  "setup": "Anderssen contra Kieseritzky, Londres 1851. Las Blancas han entregado las dos torres y un alfil. Cuenta el final antes de contar el material.",
+  "hint": "Empieza con un jaque. Luego cuenta las casillas del rey negro, encuentra la única pieza negra que todavía las protege y dale algo que tenga que capturar.",
+  "explanation": "## La idea\n\nLa Inmortal, jugada en Londres en 1851: las Blancas tienen dos torres y un alfil de menos, y dan mate igualmente.\n\n{{Nxg7+}} captura un peón con jaque, y {{Kd8}} es la única respuesta. Ahora c7 y e7 son del alfil de d6, y e8 del caballo de g7.\n\nUna sola pieza negra protege todavía e7: el caballo de g8. {{Qf6+}} lo aparta, porque solo ese caballo puede responder al jaque. Tras {{Nxf6}}, {{Be7#}}, con el caballo de d5 protegiendo al alfil."
+}

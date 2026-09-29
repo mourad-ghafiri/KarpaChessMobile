@@ -1,0 +1,65 @@
+{
+  "id": "exchange-sacrifice",
+  "title": "Il Sacrificio di Qualità",
+  "summary": "Torre per cavallo, e i pedoni non si riprendono più",
+  "proof": "strategy-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "Un Pezzo che Fa Due Lavori",
+      "text": "Qui il materiale è perfettamente pari, e un pezzo bianco fa il lavoro di due. Il cavallo in c3 difende il pedone in e4, copre b5 e d5, e sta due case davanti al re bianco in c1.\n\nIl Nero lo vorrebbe fuori dai piedi. Un solo pezzo nero arriva proprio a c3 — la torre in c8, lungo una colonna vuota — e una torre vale cinque punti dove un cavallo ne vale tre.\n\nConsegnare una torre per un cavallo o un alfiere ha un nome suo: si cede **la qualità**."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "Il Listino Prezzi",
+      "text": "Un sacrificio si valuta prima di farlo, non dopo.\n\nMettiamo che il cavallo di c3 esca e che il Bianco riprenda. Esattamente un'unità bianca arriva a c3: il pedone in b2. Nient'altro sulla scacchiera tocca quella casa, quindi la ripresa è imposta a un pedone che lascia per sempre la colonna b.\n\nL'ala di donna del Bianco è allora tre pedoni su due colonne — uno arenato da solo sulla colonna a, due impilati sulla colonna c. Nessuno dei due ha un alfiere camposcuro, quindi a sorvegliare b2 resta solo il re, e a3 non la sorveglia proprio niente.\n\nDue punti, per un danno che non si può riparare."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "prompt": "Pagate due punti per sfasciare i pedoni davanti al re bianco e togliere il pezzo che tiene insieme il centro del Bianco.",
+      "targetSan": [
+        "Rxc3"
+      ],
+      "hint": "Esattamente un pezzo nero ha strada libera verso c3, ed è quello caro."
+    },
+    {
+      "type": "teach",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "title": "Adesso Contatelo Fuori dalla Scacchiera",
+      "text": "Il Bianco tiene due torri, un alfiere e un cavallo. Il Nero tiene una torre, un alfiere e due cavalli. Due punti, spariti, e non c'è modo di riaverli.\n\nAdesso l'altra colonna del bilancio. Il pedone in a2 non ha più un vicino, e nessun pedone lo difenderà mai più. I pedoni in c2 e c3 sono impilati su una colonna, e quello dietro non può proprio muovere. Sulla colonna b non c'è nessun pedone bianco, e il re in c1 sta accanto a quel vuoto.\n\nTutto quello che il Nero gioca da qui in poi deve spendere quello che la torre ha comprato."
+    },
+    {
+      "type": "play",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "prompt": "Mettete la donna dove colpisce in una mossa sia il pedone a arenato sia il pedone doppiato.",
+      "targetSan": [
+        "Qa5"
+      ],
+      "hint": "Una casa dell'ala di donna guarda dritto lungo la colonna a e lungo le case scure accanto al re bianco."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/2KR3R w - - 1 16",
+      "title": "Una Torre in Più e Nessun Posto Dove Metterla",
+      "text": "{{Kb1}}. Il Bianco esce prima dalla colonna c, il che è sensato e non fa niente per il resto della posizione.\n\nGuardate che cosa sta facendo la torre in più. La torre in d1 va a sbattere contro il cavallo bianco in d4. La torre in h1 va a sbattere contro il pedone bianco in h4. La colonna c è tappata dai due pedoni bianchi che ci stanno sopra. Tre colonne, e il Bianco non può usarne nessuna.\n\nUna torre vale cinque punti quando ha dove stare. Questa vale quello che riesce a raggiungere."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "title": "Quando Arriva il Conto",
+      "text": "Lo stesso cambio è una perdita secca di due punti in tre casi: se la ripresa lascia i pedoni sani, se il cambio consegna al vostro avversario una colonna da usare, o se non lo segue niente. Il materiale parla, e parla più forte più a lungo lo si lascia stare.\n\nQui non ha mai modo di dire una parola. Il re bianco in b1 non ha più un pedone sulla propria colonna, il pedone in c3 è già sotto tiro, e ogni pezzo nero punta sullo stesso angolo.\n\n> Non state vendendo una torre, state comprando case — e le case comprate vanno usate."
+    },
+    {
+      "type": "play",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "prompt": "Allineate la vostra ultima torre sul pedone con cui il Bianco è stato costretto a riprendere.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "Niente difende quel pedone, ma afferrarlo subito con la donna è prematuro. Portate prima l'ultima torre sulla colonna dove sta."
+    }
+  ]
+}

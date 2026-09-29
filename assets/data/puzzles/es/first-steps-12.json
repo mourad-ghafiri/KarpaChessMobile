@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-12",
+  "fen": "k6r/8/8/5p2/5p1K/8/P7/8 w - - 0 1",
+  "solution": [
+    "Kg5"
+  ],
+  "title": "Paso a un lado",
+  "setup": "La torre negra da jaque a tu rey por la **columna h** abierta, mientras dos peones negros vigilan las casillas de escape.",
+  "hint": "Recuerda: los peones negros atacan en diagonal *hacia abajo* del tablero. ¿Qué casillas cubren de verdad f4 y f5?",
+  "explanation": "## La idea\n\nLa torre de h8 domina toda la columna h, así que h3 y h5 quedan descartadas. Los dos peones parecen cerrar también la columna g, pero mira lo que atacan de verdad: el peón de f4 cubre g3, el de f5 cubre g4, y nada cubre g5.\n\n{{Kg5}} mete al rey junto a los peones negros, a salvo porque un peón nunca captura hacia atrás.\n\nUn peón ataca exactamente dos casillas, las dos delante de él."
+}

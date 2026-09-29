@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-06",
+  "fen": "1k6/8/3P4/1K6/8/7R/3r4/8 w - - 0 1",
+  "solution": [
+    "Kc6"
+  ],
+  "rating": 1430,
+  "title": "Escolta e Depois Empurra",
+  "setup": "O peão d das brancas está a uma casa da sétima, com a torre preta à espera atrás dele na coluna d.",
+  "hint": "O peão não tem defensor nenhum. Qual das tuas duas peças pode cobrir a casa em que ele quer ficar?",
+  "explanation": "## A Ideia\n\nEmpurra já e {{d7}} fica simplesmente pendurado para {{Rxd7}}. {{Kc6}} cobre d7 primeiro, e só depois é que o peão mexe: {{Rc2+}} {{Kd7}}, e o rei leva-o para casa. Traz primeiro a escolta; o peão mexe por último."
+}

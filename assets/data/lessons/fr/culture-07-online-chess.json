@@ -1,0 +1,62 @@
+{
+  "id": "online-chess",
+  "title": "Les échecs en ligne",
+  "summary": "La file d'attente, le pré-coup et le bannissement discret",
+  "proof": "culture-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Quatre secondes pour une partie",
+      "text": "Une partie en ligne commence en quatre secondes environ. Vous choisissez une cadence, le serveur vous place dans la file de tous ceux qui cherchent la même cadence près de votre classement, et il vous apparie avec le plus proche qui attend encore. Pas de droit d'inscription, pas de déplacement, pas de salle.\n\nCe que la file vous offre le plus souvent, c'est une partie rapide : trois minutes, ou une. La vitesse est le réglage par défaut du format, et c'est de vitesse qu'il s'agit dans cette position. Les Noirs viennent de soutenir le pion en e5 avec le pion f, le seul pion dont un roi ne peut pas se passer."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "title": "Chargé avant d'atterrir",
+      "text": "Un pré-coup (*premove*) est une réponse que vous chargez pendant que votre adversaire réfléchit encore. Dès que son coup arrive, le vôtre part : aucun temps de réaction, presque rien de décompté de votre pendule. C'est la seule raison pour laquelle une partie d'une minute est jouable.\n\nIl est aussi aveugle. Le coup en attente part dans la position qui arrive réellement, pas dans celle que vous imaginiez.\n\n{{Nxe5}} n'est donc pas une gaffe ici. C'est une invitation. {{fxe5}} y répond parce que la reprise était chargée avant même l'arrivée du cavalier, et le pion f était le seul abri du roi noir.\n\n> Un pré-coup achète du temps et dépense du jugement."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp2pp/8/4p3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+      "prompt": "La reprise préchargée a mis f7 à nu : sortez avec échec avant que les Noirs aient un autre coup pour réfléchir.",
+      "targetSan": [
+        "Qh5+"
+      ],
+      "hint": "L'une de vos pièces peut atteindre une case qui frappe à la fois le roi en e8 et le pion non protégé en e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Où s'est terminée cette promenade",
+      "text": "Quatre échecs plus tard, le roi noir se tient en h6, au huitième coup, avec les deux tours encore sur leurs cases de départ. La dame en f5 a mené le troupeau.\n\nAutour d'une table, cette promenade coûterait un après-midi à quelqu'un. En ligne, elle coûte quinze secondes, et la proposition de revanche arrive avant le choc. Voilà la première vraie différence entre les deux cadres, et c'est le volume. Une soirée en ligne contient plus de parties qu'un joueur de club de 1950 n'en jouait en une saison, et chacune est enregistrée, chronométrée et consultable."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Un coup ne prouve rien",
+      "text": "Tous ces échecs enregistrés sont aussi des preuves, et c'est ainsi que l'on fait respecter le *fair-play*.\n\nN'importe quel bon joueur trouve parfois le choix du moteur, et cette attaque figure dans des livres vieux de cinq cents ans. La détection est donc statistique. Vos choix sont comparés aux préférences du moteur sur des centaines de parties, pondérés par la difficulté de chaque position et par l'usage de la pendule. Quelqu'un qui trouve le seul coup dans six positions tranchantes, chaque fois dans les mêmes deux secondes monotones, n'est pas jugé sur un coup. C'est un schéma qui est mesuré."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Fermé sans nommer personne",
+      "text": "Les comptes sont fermés discrètement plutôt qu'annoncés. La preuve est une probabilité et non un aveu, et une accusation publique fondée sur une intuition fait plus de dégâts qu'un tricheur qui passe entre les mailles.\n\nL'étiquette qui s'est développée autour de tout cela est brève. Abandonnez une partie que vous avez décidé de ne pas jouer, plutôt que de laisser la pendule tourner jusqu'au bout. Répondez à la proposition de revanche, dans un sens ou dans l'autre. Et quand un inconnu vous bat proprement, le soupçon fugace qui arrive sans invitation est un coût du format, pas une conclusion à son sujet."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1bnr/pppp2pp/7k/5Q2/2B1P3/8/PPPP1PPP/RNB1K2R w KQ - 5 8",
+      "title": "Ce que la file a fait entrer",
+      "text": "Les streams, les entraîneurs de problèmes et les parties de trois minutes ont fait venir des millions de personnes qui ne s'assiéront jamais dans une salle de tournoi, et un joueur de blitz est un joueur d'échecs. Les échecs ont aussi cessé d'être un endroit où il faut se rendre : la même file est ouverte à deux heures du matin, là où s'enchaînent les revanches sans fin.\n\nLa chasse sur cet échiquier se déroule maintenant toute seule : {{d4+}} {{g5}} {{h4}} {{Kg7}} {{Qf7+}} {{Kh6}}."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1bnr/pppp1Q1p/7k/6p1/2BPP2P/8/PPP2PP1/RNB1K2R w KQ - 3 11",
+      "prompt": "Vos deux pièces qui peuvent prendre en g5 donnent échec — une seule de ces prises est mat.",
+      "targetSan": [
+        "hxg5#"
+      ],
+      "hint": "Le roi en h6 ne survit que tant que h5 reste hors d'atteinte, alors demandez-vous ce qui empêche actuellement de la couvrir."
+    }
+  ]
+}

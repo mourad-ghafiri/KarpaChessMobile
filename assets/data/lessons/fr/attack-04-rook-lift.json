@@ -1,0 +1,44 @@
+{
+  "id": "rook-lift",
+  "title": "La levée de tour",
+  "summary": "Quand aucune colonne n'atteint le roi, passez par-dessus",
+  "proof": "rook-lift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Deux tours à la maison",
+      "text": "Le roi noir en g8 a perdu son pion g et son pion h, et votre dame en h5 est déjà proche. La dame noire en g7 se tient devant le roi, tous deux alignés sur la colonne g.\n\nVos deux tours sont encore sur la première rangée. Les colonnes c et e sont ouvertes, et aucune ne s'approche de g8. La colonne g, si, et votre propre pion en g2 la ferme.\n\nUne tour qui ne trouve pas de colonne, ce sont cinq points de mobilier."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Par-dessus",
+      "text": "Une tour n'a pas besoin de rejoindre le combat par une colonne. Elle peut monter sur la troisième rangée et se déplacer latéralement le long de celle-ci, par-dessus ses propres pions plutôt qu'à travers eux. C'est une **levée de tour** : d'abord monter, ensuite traverser.\n\nVotre troisième rangée est vide de a3 à g3, et g3 est la case qui compte. Une tour là-bas se tient devant votre pion g, sur la colonne où la dame et le roi noirs attendent l'un derrière l'autre.\n\n> Quand aucune colonne ne veut s'ouvrir, faites passer la tour par-dessus les pions au lieu d'attendre derrière eux."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "prompt": "Mettez une tour en route vers la colonne g, où la dame noire se tient devant son roi.",
+      "targetSan": [
+        "Rc3"
+      ],
+      "hint": "Les deux tours peuvent monter, mais une seule a une tâche là où elle se trouve. Regardez les cases que peut atteindre le fou noir."
+    },
+    {
+      "type": "teach",
+      "fen": "r3brk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/4R1K1 w - - 2 26",
+      "title": "La tour restée à la maison",
+      "text": "Les Noirs voient la menace et répondent par une des leurs : le fou en e8 attaque votre dame.\n\nMais e8 est sur la colonne e ouverte, et votre autre tour ne l'a jamais quittée. {{Rxe8}} prend le fou, {{Raxe8}} reprend, et rien n'a touché la tour en c3 ni les cases vides devant elle.\n\nC'est pourquoi la levée est partie de c1. La tour qui monte doit être celle qui n'a rien à faire là où elle se trouve."
+    },
+    {
+      "type": "play",
+      "fen": "4rrk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/6K1 w - - 0 27",
+      "prompt": "Terminez la levée et amenez la tour sur la colonne où la dame noire se tient devant son roi.",
+      "targetSan": [
+        "Rg3"
+      ],
+      "hint": "Dès qu'une tour se tient sur cette colonne, la dame ne peut plus la quitter sans laisser son roi en échec."
+    }
+  ]
+}

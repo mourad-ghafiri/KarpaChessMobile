@@ -1,0 +1,77 @@
+{
+  "id": "escaping-check",
+  "title": "Trois façons de s'en sortir",
+  "summary": "Fuir, s'interposer, prendre — et les échecs où deux de ces réponses disparaissent",
+  "proof": "first-steps-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "title": "Pas de quatrième réponse",
+      "text": "Chaque échec doit recevoir une réponse immédiate, et le jeu vous en offre exactement trois.\n\n**Déplacer** le roi hors de la case attaquée. **Interposer** une pièce sur la ligne que suit l'attaque. **Prendre** la pièce qui donne échec.\n\nC'est toute la liste. La tour noire en e8 regarde droit le long de la colonne e vers votre roi en e1, et tant que l'une de ces trois choses n'arrive pas, rien d'autre de ce que vous voudriez jouer n'est légal.\n\nLa liste ne change jamais, et elle compte trois éléments. Ce qui change, c'est combien des trois sont disponibles."
+    },
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Hors de la ligne, pas le long d'elle",
+      "text": "Retirez le fou de l'échiquier et le roi doit répondre seul.\n\nCinq cases touchent un roi en e1 : d1, d2, e2, f1 et f2. Quatre d'entre elles sont hors de la trajectoire de la tour. La cinquième est e2 — un pas en avant, toujours sur la colonne e, toujours sous la même tour. Fuir *le long* de la ligne, ce n'est pas fuir.\n\nDéplacer le roi est la première chose à vérifier, et ce n'est jamais garanti. La case visée doit être vide, et votre adversaire ne doit pas déjà l'attaquer."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Sortez votre roi de la colonne que tient la tour.",
+      "targetSan": [
+        "Kd1",
+        "Kd2",
+        "Kf1",
+        "Kf2"
+      ],
+      "hint": "La tour couvre une colonne et rien d'autre, alors un seul pas de côté règle la question."
+    },
+    {
+      "type": "teach",
+      "fen": "k7/8/8/b7/8/8/8/1N2K3 w - - 0 1",
+      "title": "Fermez la porte",
+      "text": "Un autre échec, et cette fois le roi n'a pas besoin de bouger.\n\nLe fou noir en a5 atteint votre roi en e1 par la diagonale qui passe par b4, c3 et d2. Il l'atteint *à travers* ces cases — c'est cela, une ligne — et une pièce placée sur l'une d'elles met fin à l'attaque.\n\nVotre cavalier en b1 a deux portes au choix : {{Nc3}} ou {{Nd2}}. Le fou fixe toujours la diagonale. Il ne peut simplement plus passer.\n\nBien sûr, la pièce interposée peut être prise. Une interposition ne vaut que ce que vaut la pièce que vous y engagez."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "Retour à la tour — placez votre fou sur son chemin et fermez la colonne.",
+      "targetSan": [
+        "Be3"
+      ],
+      "hint": "Le fou se déplace en diagonale, donc une seule des six cases entre eux est à sa portée."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "title": "Rien devant quoi s'interposer",
+      "text": "Un cavalier ne suit pas une ligne. Il atterrit.\n\nIl n'y a aucune case entre le cavalier noir en d3 et votre roi en e1, donc rien à placer en travers. Un échec de cavalier ne peut jamais être paré par interposition. Pas plus qu'un échec donné par une pièce collée au roi — entre deux cases qui se touchent, il n'y a de place pour rien.\n\nIci, la liste se réduit donc à deux éléments. Le roi peut marcher, ou le cavalier peut quitter l'échiquier."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "prompt": "Réglez celui-ci en retirant le cavalier de l'échiquier.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Les pions prennent en diagonale, jamais tout droit."
+    },
+    {
+      "type": "teach",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "title": "La prise qui n'existe pas",
+      "text": "La prise est la réponse la plus agréable, et celle qui manque le plus souvent.\n\nLe cavalier en f3 met votre roi en g1 en échec, et deux de vos pièces l'attaquent. Le pion en g2 est l'évidence — un pion qui prend un cavalier, c'est une affaire.\n\nMais ce pion est aussi la seule chose entre la tour noire en g8 et votre roi. Prenez avec lui et le roi reste en échec par la tour, or un coup qui laisse votre propre roi en échec n'est pas un coup. Une pièce qui tient la ligne de son roi n'est pas libre de partir."
+    },
+    {
+      "type": "play",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "prompt": "Prenez le cavalier avec la pièce dont votre roi peut se passer.",
+      "targetSan": [
+        "Rxf3"
+      ],
+      "hint": "Un seul des deux attaquants peut bouger sans ouvrir une ligne vers votre propre roi."
+    }
+  ]
+}

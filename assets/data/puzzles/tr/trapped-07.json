@@ -1,0 +1,12 @@
+{
+  "id": "trapped-07",
+  "fen": "6k1/ppp2pp1/5n1p/8/8/7P/P1P1NPP1/1b1B2K1 w - - 0 1",
+  "solution": [
+    "Nc3"
+  ],
+  "rating": 1240,
+  "title": "Kutudaki Fil",
+  "setup": "Siyahın fili ta b1'e kadar sokulmuş; oradaki tek iki komşusu a2 ve c2'deki piyonlarınız.",
+  "hint": "O filin şimdiden hiç hamlesi yok. Aynı nefeste hem ona vuran hem de a2'yi koruyan bir taş getirin.",
+  "explanation": "## Fikir\n\n{{Nc3}} aynı anda file saldırır ve a2'yi kapsar; c2'yi de d1'deki fil koruduğu için kaçmak üzere yapılacak bir taş alma da yoktur. Gidecek yeri olmayan taşın düşmesi için tek bir saldıran yeter."
+}

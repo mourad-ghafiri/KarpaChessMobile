@@ -1,0 +1,14 @@
+{
+  "id": "fork-04",
+  "fen": "r4bk1/p5pp/1p6/3p4/8/5B2/PP3PPP/2R3K1 w - d6 0 2",
+  "solution": [
+    "Bxd5+",
+    "Kh8",
+    "Bxa8"
+  ],
+  "rating": 800,
+  "title": "Comer e Garfar",
+  "setup": "As pretas acabaram de empurrar um peão para d5, mesmo para dentro do caminho do teu bispo de f3.",
+  "hint": "Tirar a peça do meio de uma diagonal abre o resto dela. Vê onde acaba essa estrada.",
+  "explanation": "## A Ideia\n\n{{Bxd5+}} ganha um peão e acende duas diagonais ao mesmo tempo: o xeque corre até g8, e atrás do peão capturado o bispo passa a ver a8. O bispo e os peões das próprias pretas só deixam {{Kh8}}, e {{Bxa8}} come a torre."
+}

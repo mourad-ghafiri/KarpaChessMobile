@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-10",
+  "fen": "4k3/2P5/8/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "c8=Q+"
+  ],
+  "title": "Couronnez le pion",
+  "setup": "Le pion blanc a atteint **c7** — à un pas d'une toute nouvelle dame.",
+  "hint": "Promouvez toujours avec échec quand vous le pouvez. Cela prive le défenseur d'un coup gratuit.",
+  "explanation": "## L'idée\n\n{{c8=Q+}} promeut avec échec le long de la huitième rangée. Le roi ne peut pas prendre la nouvelle dame et rien ne peut s'interposer, donc les Noirs doivent consacrer leur coup au roi, et il vous reste roi et dame contre roi seul.\n\nAttendez plutôt un coup et {{Kd7}} attaque le pion, qui est perdu. Quand un pion peut être promu sans danger, promouvez-le tout de suite, et préférez la promotion qui donne échec."
+}

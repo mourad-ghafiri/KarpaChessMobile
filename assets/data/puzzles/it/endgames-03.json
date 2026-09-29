@@ -1,0 +1,11 @@
+{
+  "id": "endgames-03",
+  "fen": "3k4/8/8/1KP1r3/8/7R/8/8 b - - 0 1",
+  "solution": [
+    "Re6"
+  ],
+  "title": "Un Pedone in Meno e si Tiene",
+  "setup": "Il re bianco in b5 vuole la sesta traversa, e da lì spinge via il vostro re dalla strada del pedone. Muove il Nero, ed è patta.",
+  "hint": "Al re bianco servono a6, b6 o c6. Una torre che sta su una traversa ne copre ogni casa.",
+  "explanation": "## L'idea\n\nQui le traverse si contano dal lato del Bianco. Al re bianco servono a6, b6 o c6 per salire accanto al suo pedone, e una sola mossa di torre se le prende tutte e tre: {{Re6}}. Una torre su una traversa è un recinto, e un re non può mettere piede su una casa che essa copre.\n\nOgni altra mossa lascia il re salire sulla sesta, davanti al proprio pedone, dove nessuno scacco da dietro lo raggiunge, e il pedone entra."
+}

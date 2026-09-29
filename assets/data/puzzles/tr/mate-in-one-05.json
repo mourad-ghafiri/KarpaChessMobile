@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-05",
+  "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/8/2Q2N2/PqP1PPPP/RN2KB1R b KQk - 0 8",
+  "solution": [
+    "Qc1#"
+  ],
+  "rating": 720,
+  "title": "Yeri Olmayan Yatay",
+  "setup": "Veziriniz çoktan b2'ye kadar sokulmuş ve beyazın arka yatayı kendi taşlarıyla tıka basa dolu.",
+  "hint": "Beyazın şahının yanında iki delik var ve üçüncüsü yok; öyleyse kalabalık birinci yatayının cevap veremeyeceği bir şah arayın.",
+  "explanation": "## Fikir\n\ne1'in çevresindeki her kare ya beyazın kendi taşlarınca doludur ya da vezir inerken onu süpürür; yani birinci yatayda güvenli bir şah partiyi bitirir. {{Qc1#}} alınamaz: b1'deki at kalenin önünü keser ve c2'deki piyon beyazın vezirini kapatır."
+}

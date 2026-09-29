@@ -1,0 +1,11 @@
+{
+  "id": "strategy-05",
+  "fen": "rnbqkb1r/pp2pppp/1n6/2p1P3/2PP4/8/PP4PP/RNBQKBNR w KQkq - 0 7",
+  "solution": [
+    "d5"
+  ],
+  "title": "Avanza más allá de la ruptura",
+  "setup": "El peón de c negro ataca tu peón de d4. Tu gran centro es lo que agobia a las Negras, y un cambio les devolvería el espacio.",
+  "hint": "Defender d4 sigue dejando que las Negras cambien en esa casilla. ¿Adónde puede ir ese peón para que el peón de c no tenga nada que atacar?",
+  "explanation": "## La idea\n\nCon más espacio, evita los cambios: cada cambio le da aire al bando agobiado. {{d5}} pasa de largo al peón de c en lugar de cambiarse con él, y ahora los peones blancos de c4, d5 y e5 les quitan c6, d6, e6 y f6 a las piezas negras.\n\n{{dxc5}} hace lo contrario. Las damas se cambian con jaque, el caballo de b6 salta a a4, y son las Negras las que tienen espacio para jugar."
+}

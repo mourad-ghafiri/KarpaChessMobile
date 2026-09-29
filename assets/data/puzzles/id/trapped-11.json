@@ -1,0 +1,12 @@
+{
+  "id": "trapped-11",
+  "fen": "3r2k1/pp3pp1/7p/4N3/8/2P4P/1b1P1PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "Nc4"
+  ],
+  "rating": 1370,
+  "title": "Rebut Pelarian Terakhir",
+  "setup": "Gajah Hitam di b2 punya tiga petak kosong di sekitarnya, a1, c1 dan a3, dan benteng Anda sudah mengawasi dua di antaranya.",
+  "hint": "Benteng Anda menguasai baris belakang dan pion d Anda menjaga c3. Buah mana yang mencapai satu-satunya petak yang masih bebas?",
+  "explanation": "## Ide\n\nBenteng di e1 menguasai a1 dan c1, dan c3 dilindungi pion d2, jadi Bxc3 dxc3 bukanlah penyelamatan. Hanya a3 yang bebas, dan {{Nc4}} merebutnya sambil menyerang gajah. Setiap petak sudah diperhitungkan, dan buah itu harus pergi."
+}

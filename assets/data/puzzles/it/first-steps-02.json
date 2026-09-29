@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-02",
+  "fen": "4k3/pp4pp/8/4b3/8/5N2/PP4PP/4K3 w - - 0 1",
+  "solution": [
+    "Nxe5"
+  ],
+  "title": "Lo Spuntino del Cavallo",
+  "setup": "Il vostro cavallo in f3 tiene d'occhio otto case — e su una di esse siede un alfiere nero.",
+  "hint": "Le otto case del cavallo sono facili da trascurare. Su quale di esse c'è un pezzo nero?",
+  "explanation": "## L'idea\n\nDa f3 la L del cavallo arriva a e5: due case avanti, una di lato. L'alfiere nero che sta lì **non ha difensori**.\n\n{{Nxe5}} vince l'alfiere gratis. Nessuna linea retta unisce f3 e e5, ed è esattamente per questo che una presa così è facile da non vedere.\n\nPrima di ogni mossa, date un'occhiata a tutte e otto le case che il vostro cavallo raggiunge. Ai pezzi indifesi piace nascondercisi."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "notation",
+  "title": "Une lettre et une case",
+  "summary": "Lisez une partie imprimée et rejouez-la, coup après coup",
+  "proof": "notation-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Deux caractères, un coup",
+      "text": "Deux caractères suffisent à écrire un coup. Les échecs ont une seule langue écrite — la **notation algébrique** — et elle ne note que l'endroit où une pièce **arrive**, jamais le chemin parcouru.\n\nLe pion est le cas le plus simple. Il n'a aucune lettre, donc la case est tout le coup. Le pion blanc en e2 peut avancer en {{e3}} ou de deux cases en {{e4}}, et un livre les imprime `e3` et `e4`.\n\nPas *pion blanc, de e2 à e4*. Simplement `e4`. Vous savez déjà lire cela."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppp1p/6p1/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "prompt": "Une partie imprimée commence par `1.e4 g6`, et l'entrée suivante est `2.d4` — jouez le coup qu'elle désigne.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Pas de majuscule, c'est donc un pion qui joue, et un pion encore sur sa case de départ peut avancer d'une ou de deux cases."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "L'alphabet des pièces",
+      "text": "Toutes les pièces sauf le pion portent une lettre majuscule, placée devant la case. L'application utilise la notation internationale, dont les lettres viennent des noms anglais : **K** pour le roi, **Q** pour la dame, **R** pour la tour, **B** pour le fou. Le cavalier reçoit **N**, car le K était déjà pris.\n\nUn coup écrit, c'est donc une lettre et une case, accolées. Le fou blanc en f1 peut atteindre e2, c4 ou b5, et chacun de ces coups associe les deux mêmes idées : {{Be2}}, {{Bc4}}, {{Bb5}}.\n\nPersonne ne précise *quel* fou. Un seul d'entre eux peut atteindre la case nommée, alors la lettre et la case font tout le travail."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "prompt": "L'entrée suivante des Blancs est `Nf3` — placez la pièce que désigne cette lettre sur la case qui suit.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "La majuscule n'est pas K, et K appartient au roi — elle désigne donc la pièce qui a dû se contenter de la deuxième lettre de son nom anglais."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Un coup, puis l'autre",
+      "text": "Une partie sur une page n'est rien d'autre que ces petites adresses, l'une après l'autre, chaque camp à son tour.\n\nLes Noirs répondent {{Nc6}} — N pour la pièce, c6 pour la case. Les Blancs répliquent {{Bc4}} — B pour la pièce, c4 pour la case. Regardez l'échiquier jouer les deux.\n\nTrois questions suffisent à lire n'importe quel coup tranquille. Y a-t-il une majuscule ? Laquelle ? Quelle case suit ? Les prises et les échecs ajoutent leur propre signe, et chacun aura sa leçon plus tard."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "Numéros et points",
+      "text": "Les coups vont par paires, et une partie imprimée numérote chaque paire : `1.e4 e5 2.Nf3 Nc6 3.Bc4`. Le numéro, le coup des Blancs, le coup des Noirs.\n\nVingt-trois caractères, et ils reconstruisent exactement la position qui est devant vous. Voilà pourquoi les parties s'impriment en lignes de texte et non en images.\n\nQuand un coup noir doit apparaître seul, trois points tiennent la place des Blancs : `2...Nc6` est la réponse des Noirs au deuxième coup. Les points sont là pour que vous ne perdiez jamais de vue qui a le trait.\n\n> Une lettre pour la pièce, deux caractères pour la case, un numéro pour compter. Tout le reste de la notation repose sur ces trois éléments."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "L'entrée suivante du livre est `3...Nf6` — lisez-la et jouez le coup des Noirs.",
+      "targetSan": [
+        "Nf6"
+      ],
+      "hint": "Un cavalier noir est déjà sorti en c6 ; l'autre n'a pas encore bougé, et il se trouve en g8."
+    }
+  ]
+}

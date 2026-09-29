@@ -1,0 +1,65 @@
+{
+  "id": "captures",
+  "title": "What Takes Back",
+  "summary": "Two captures, one hop each, and only the reply tells them apart",
+  "proof": "first-steps-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Two Things to Take",
+      "text": "Your knight on e4 attacks two black pieces at once: the rook on d6 and the bishop on f6. Both captures are legal, both are one hop, and from the knight's square they look identical.\n\nThey are not. A piece nothing defends is **hanging**, and taking one costs you exactly nothing. A piece a friend guards costs you whatever that guard takes back.\n\nThe board already says which is which. It says so before you move."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Three for Three",
+      "text": "{{Nxf6}} wins a bishop. Then {{gxf6}}, and the pawn on g7 takes the knight straight back.\n\nNothing is lost there. A knight is worth three, a bishop is worth three, and the two of them leave the board together — the count ends where it began.\n\nBut nothing is won either. That is the whole result of the capture: a move spent, and the same position minus two pieces."
+    },
+    {
+      "type": "play",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "The other capture has no reply at all — play it and keep what you take.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "Nothing black reaches d6: the bishop on f6 does not see that square, and the pawn on g7 guards only f6 and h6."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Nine Against One",
+      "text": "Same question, and now the piece asking it is the queen.\n\nYour queen on d4 looks down two clear diagonals at two black pawns, one on a7 and one on g7. Either capture wins something worth a single point. Either capture puts nine points on the square.\n\nThat is what makes the queen the worst piece to be careless with. A knight that guesses wrong trades evenly. A queen that guesses wrong is not trading at all."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "One Move of Ownership",
+      "text": "{{Qxa7}} wins a pawn and owns it for exactly one move. {{Rxa7}} — the rook on a8 was guarding that pawn long before you looked at it, and now it has your queen.\n\nNine points for one. No arithmetic turns that into a trade.\n\nWhich is why the queen eats last. Every piece Black owns is worth less than it, so every guard on the board is a guard the queen has to respect."
+    },
+    {
+      "type": "play",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "One of those two pawns has nothing looking at it — take that one.",
+      "targetSan": [
+        "Qxg7"
+      ],
+      "hint": "Black owns a rook and two pawns: the rook watches the a-file and the eighth rank, and neither pawn guards the other."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "title": "Guarded Is Not Untouchable",
+      "text": "One more position, and it takes back half of what you have just read.\n\nBlack's queen on c5 is guarded: the pawn on b6 covers that square and recaptures at once.\n\nTake it anyway. You give a knight worth three, you remove a queen worth nine, and you come out six points ahead. Guarded never meant safe. It only ever meant the capture has a price — and the price has to be smaller than the prize.\n\n> Take what nothing guards. Before taking what something guards, count what you give and what you get."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Black's best piece is guarded, and the guard is only a pawn — take it anyway.",
+      "targetSan": [
+        "Nxc5"
+      ],
+      "hint": "Three points leave the board and nine come off with them — the recapture is part of the deal, not an accident."
+    }
+  ]
+}

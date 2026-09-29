@@ -1,0 +1,13 @@
+{
+  "id": "uncastled-king-proof",
+  "fen": "2b1kbnr/1pp2ppp/r3p3/p1q1P1B1/4N3/3B1N2/PPP2PPP/R2Q1RK1 w k - 5 10",
+  "solution": [
+    "Bb5+",
+    "Qxb5",
+    "Qd8#"
+  ],
+  "title": "Kosongkan Lajur dengan Sekak",
+  "setup": "Raja Hitam masih di e8 pada langkah kesepuluh. Menteri Anda di d1 menginginkan lajur d, dan gajah Anda sendiri di d3 berdiri di sana.",
+  "hint": "Gajah harus meninggalkan lajur itu, dan sebaiknya pergi dengan langkah yang harus segera dijawab Hitam.",
+  "explanation": "## Ide\n\nRaja tak pernah meninggalkan e8, dan buah-buahnya sendiri memenuhi jalan keluarnya: gajah di f8, pion di f7. Gajah Anda di g5 menguasai e7 dan d8. Satu-satunya yang berdiri di antara menteri Anda dan d8 adalah gajah Anda sendiri di d3.\n\nJadi ia pergi dengan sekak. {{Bb5+}} harus dijawab, dan setiap jawaban terlalu lambat. Ambil dengan {{Qxb5}} dan {{Qd8#}} mendarat, dijaga gajah di g5. Halangi dengan {{Bd7}} dan {{Bxd7#}} yang memberi mat."
+}

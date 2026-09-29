@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-20",
+  "fen": "4k3/6p1/4K3/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Ingabbiate il Re di Lato",
+  "setup": "I re si fronteggiano sulla colonna e, e l'unico pedone rimasto al Nero non serve a niente.",
+  "hint": "Il vostro re recinta la settima traversa. Mandate la donna sull'unica traversa che resta al Nero.",
+  "explanation": "## L'idea\n\nI re si fronteggiano di nuovo, e stavolta la donna arriva dall'angolo.\n\n{{Qa8#}} dà scacco lungo la traversa di fondo. d8 e f8 stanno sulla linea della donna, e il vostro re in e6 copre d7, e7 e f7. Il pedone in g7 non para niente e non salva niente.\n\nIl materiale in più sulla scacchiera non cambia lo schema: un re di fronte più una donna sulla traversa di fondo è matto."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-05",
+  "fen": "6k1/5ppp/1b6/5r2/7R/8/PP1R4/K2Q4 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Bxd8",
+    "Qxd8#"
+  ],
+  "rating": 1410,
+  "title": "L'Alfiere È Troppo Lontano",
+  "setup": "L'alfiere nero in b6 sorveglia d8 lungo la diagonale mentre la torre in f5 si è allontanata da casa.",
+  "hint": "Un difensore a lungo raggio deve comunque poter tornare. Verificate se la casa che sorveglia sia una casa su cui possa reggere.",
+  "explanation": "## L'idea\n\nL'alfiere difende d8 da lontano, quindi {{Rd8+}} costa una torre e {{Bxd8}} è forzata. Adesso la diagonale è vuota e {{Qxd8#}} si prende la casa. Difendere una casa e riuscire a sopravviverci sono cose diverse."
+}

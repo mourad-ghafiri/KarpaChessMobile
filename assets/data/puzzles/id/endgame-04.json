@@ -1,0 +1,11 @@
+{
+  "id": "endgame-04",
+  "fen": "8/8/5k2/8/3K4/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Kd5"
+  ],
+  "title": "Raja yang Aktif Menang",
+  "setup": "Pion Anda di e3 masih jauh dari tujuan, dan raja hitam di f6 mengawasi petak-petak di depannya.",
+  "hint": "Jangan dorong pionnya. Rebut satu baris dengan raja, di petak yang tak bisa diperebutkan raja hitam.",
+  "explanation": "## Ide\n\nPion tak bisa memimpin. Didorong sendirian, ia berjalan masuk ke raja hitam, yang sudah menguasai petak-petak di depannya.\n\n{{Kd5}} merebut satu baris sebagai gantinya, di petak yang tak bisa diperebutkan Hitam. Sesudah {{Ke7}}, {{Ke5}} melangkah tepat di depan raja hitam, dan raja Anda terus berjalan di depan pionnya. Setiap langkah lain, termasuk dorongan pion, membiarkan raja Hitam bertahan untuk remis.\n\nMenangkan petak-petaknya dulu, dan perjalanan pion menjadi aman."
+}

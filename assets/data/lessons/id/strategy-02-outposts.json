@@ -1,0 +1,56 @@
+{
+  "id": "outposts",
+  "title": "Pos Terdepan",
+  "summary": "Petak yang tak bisa disentuh pion lawan mana pun",
+  "proof": "strategy-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "Petak yang Tak Bisa Dijaga Siapa Pun",
+      "text": "Hitung pion hitam yang suatu saat akan menyerang d5. Pion c sudah ditukar beberapa langkah lalu. Pion di d6 dan pion di e5 sama-sama menghadap ke arah lain, dan tak ada pion yang berjalan mundur.\n\nTak ada. Tidak pada langkah ini, tidak dalam dua puluh langkah, tidak kapan pun.\n\nPetak di wilayah lawan yang tak akan pernah bisa diserang pion lawan disebut **pos terdepan**. Istilah ini sering dilunakkan menjadi \"petak yang bagus\", yang menghilangkan satu-satunya bagian yang penting: *tak bisa*. Lubang seperti ini tak akan tertutup."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "Harga untuk Mengusir",
+      "text": "Pionlah yang mengusir buah. Sebuah pion melangkah maju, buah harus pergi, dan pion itu hampir tak membayar apa-apa untuk mengatakannya.\n\nDi d5 tak ada pion seperti itu, dan tak akan pernah ada. Hitam hanya bisa mengosongkan petak itu dengan menyerahkan buah sungguhan — misalnya gajah untuk kuda, tawar-menawar yang tak akan ditawarkan siapa pun dengan sukarela.\n\nItulah sebabnya kudalah buah yang Anda kirim. Kuda lambat dan jangkauannya pendek, jadi alamat tetap jauh di wilayah lawan lebih berharga baginya daripada bagi buah lain mana pun."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "prompt": "Tempatkan kuda di tempat yang tak akan pernah bisa diserang pion hitam lagi.",
+      "targetSan": [
+        "Nd5"
+      ],
+      "hint": "Ada dua kuda putih di papan, dan hanya satu yang menyentuh d5."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/3Np3/4P3/1N2B3/PPP1BPPP/R2Q1RK1 b - - 7 10",
+      "title": "Tagihannya Tiba",
+      "text": "Kuda berdiri di d5 dan tak ada yang murah yang bisa mengusirnya. Setiap pion hitam yang mungkin menguasai petak itu sudah hilang atau menghadap ke arah yang salah.\n\nJadi Hitam membayar. {{Bxd5}} menyerahkan gajah untuk kuda, dan sesudah {{exd5}} sebuah pion putih menguasai petak itu sebagai gantinya, merebut c6 dan e6 dari setiap buah hitam.\n\nPilihan lainnya adalah membiarkan kuda di tempatnya dan memainkan sisa partai dengan mengitarinya. Tak satu pun variasi menyenangkan, dan itulah keuntungannya: kedua pilihan Hitam menjadi lebih buruk."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "Buat Sendiri",
+      "text": "Tak ada yang memberi Anda lubang dua kali. Pion-pion Hitam di sini lebih sehat — a7, b7, c6, d5, e6, f7, g7, h7, tanpa ada yang ditukar dan tanpa ada yang terdampar.\n\nTetap lihat baris kelima. Pion di d5 sudah melewati petak-petak di sampingnya, dan pion di e6 menguasai d5 dan f5 dan tak ada yang lain.\n\nItu menyisakan satu petak di tengah separuh papan Hitam yang hanya bisa ditantang pion f."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "Pion yang Tak Mau Didorong",
+      "text": "Pion f Hitam adalah satu-satunya penjaga yang tersisa bagi petak itu, dan ia tak akan datang. Kuda di f6 berdiri di jalannya, dan begitu kuda bergerak, mendorong pion itu melucuti perlindungan raja di g8.\n\nPetak yang tak sanggup ditantang lawan sama baiknya dengan petak yang tak bisa dicapai lawan.\n\nSatu hal lagi. Pion Putih di d4 sudah menguasai petak itu, jadi kuda yang mendarat di sana mendarat dalam keadaan terlindungi — Hitam tak bisa mengusirnya dan tak bisa memenangkannya, hanya bisa membelinya dengan sebuah buah.\n\n> Pion lawan tak sanggup menantangnya, pion Anda menjaganya, dan kuda Anda tinggal di sana."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "prompt": "Tanam kuda di petak yang sudah dilepaskan pion-pion Hitam dan sudah dijaga pion Anda sendiri.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "Pion d Anda menjaga dua petak — salah satunya berada di tengah kubu Hitam."
+    }
+  ]
+}

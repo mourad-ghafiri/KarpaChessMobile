@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-08",
+  "fen": "rn1q1bnr/ppp1kB1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R w KQ - 1 7",
+  "solution": [
+    "Nd5#"
+  ],
+  "rating": 810,
+  "title": "Légal Matı",
+  "setup": "Siyah az önce d1'de vezirinizi yedi ve şahı e7'de, çevresinde beyazın üç taşıyla duruyor.",
+  "hint": "Vezir zaten gitti; onun yerine siyahın şahının karelerini sayın ve henüz kimsenin kapsamadığı kareyi bulun.",
+  "explanation": "## Fikir\n\nBu Légal matıdır. f7'deki fil e6 ile e8'in sahibi, e5'teki at d7'nin sahibi ve {{Nd5#}} f6'yı kapsayarak şah çeker. Geri kalanı siyahın kendi veziri, fili ve piyonu kapatır. Üç hafif taş bir vezirden değerli olabilir."
+}

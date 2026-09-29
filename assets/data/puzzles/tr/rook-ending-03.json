@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-03",
+  "fen": "8/8/2k5/1RP5/2K5/8/6r1/8 b - - 0 1",
+  "solution": [
+    "Rg4+"
+  ],
+  "rating": 1300,
+  "title": "Koruyucuyu Oynatın",
+  "setup": "Siyahın şahı b5'teki kaleye çoktan saldırıyor ve c4'teki beyaz şah onu koruyan tek şey.",
+  "hint": "Kale tam olarak bir kez korunuyor. O koruyucuyu uzaklaştıran ve kendi kalenizi güvende bırakan şahı bulun.",
+  "explanation": "## Fikir\n\n{{Rg4+}} koruyucuyu iter: {{Kc3}} {{Kxb5}} geldikten sonra c piyonu da düşer ve siyah bir kale önde olur. Doğal görünen {{Rc2+}} de şahı kovalar, ama {{Kb3}} geldikten sonra kalenize saldırır ve kaleler kalkıp ölü bir beraberliğe girilir."
+}

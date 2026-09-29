@@ -1,0 +1,14 @@
+{
+  "id": "skewer-08",
+  "fen": "8/N3R1R1/p1p2kr1/7n/P1p5/5r1P/P6K/8 w - - 0 1",
+  "solution": [
+    "Rgf7+",
+    "Kg5",
+    "Rxf3"
+  ],
+  "rating": 1180,
+  "title": "Les tours doublées décident",
+  "setup": "Vos tours sont doublées sur la septième rangée, et une tour noire se tient sur la colonne f derrière son propre roi.",
+  "hint": "Deux tours sur une même rangée, cela veut dire que l'une peut avancer pendant que l'autre la protège. Quelle colonne compte ?",
+  "explanation": "## L'idée\n\n{{Rgf7+}} place une tour sur la colonne f avec le roi devant et la tour en **f3** derrière. La tour en **e7** défend f7, donc le roi ne peut pas prendre. Après {{Kg5}}, la colonne est dégagée et {{Rxf3}} gagne la tour."
+}

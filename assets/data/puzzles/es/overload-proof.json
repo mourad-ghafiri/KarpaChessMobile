@@ -1,0 +1,13 @@
+{
+  "id": "overload-proof",
+  "fen": "r5k1/1p3ppp/8/b7/1B6/8/P4PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxa5",
+    "Rxa5",
+    "Re8#"
+  ],
+  "title": "Una torre, dos tareas",
+  "setup": "La torre negra de a8 protege al alfil de a5, y además es la única pieza que cubre la octava fila.",
+  "hint": "No hace falta regalar nada. Captura algo y mira qué tarea decide abandonar la torre.",
+  "explanation": "## La idea\n\n{{Bxa5}} es un simple cambio, alfil por alfil, pero le plantea a la torre de a8 una pregunta que no puede responder. Recaptura con {{Rxa5}} y la octava fila queda vacía detrás: {{Re8#}}, porque desde a5 la torre no llega ni a e8 ni a f8. Deja el alfil y la torre conserva la última fila, pero las Blancas tienen simplemente una pieza de más. No se ofreció nada ni se forzó nada. La torre tenía dos tareas y una jugada."
+}

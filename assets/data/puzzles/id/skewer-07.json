@@ -1,0 +1,14 @@
+{
+  "id": "skewer-07",
+  "fen": "8/8/3q1k2/4Rpp1/2rP4/6RQ/5r2/6K1 w - - 0 1",
+  "solution": [
+    "Qh6+",
+    "Kf7",
+    "Qxd6"
+  ],
+  "rating": 1140,
+  "title": "Sekak dari Tepi",
+  "setup": "Raja Hitam di f6 punya menteri yang duduk dua petak jauhnya di d6, di baris yang sama.",
+  "hint": "Raja dan menteri hitam berbagi satu baris. Di mana menteri Anda bisa masuk ke baris itu dengan sekak dan tetap aman?",
+  "explanation": "## Ide\n\n{{Qh6+}} meluncur ke baris keenam dengan sekak, dan menteri hitam di **d6** terjebak di belakang rajanya sendiri. Pion di g5 tak bisa mencapai h6, jadi sekaknya bertahan. {{Kf7}} satu-satunya langkah sah, dan {{Qxd6}} mengambil menteri."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-08",
+  "fen": "rn1q1bnr/ppp1kB1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R w KQ - 1 7",
+  "solution": [
+    "Nd5#"
+  ],
+  "rating": 810,
+  "title": "Il Matto di Légal",
+  "setup": "Il Nero si è appena mangiato la vostra donna in d1, e il suo re sta in e7 con tre pezzi bianchi attorno.",
+  "hint": "La donna è già andata, quindi contate invece le case del re nero e trovate quella che ancora nessuno copre.",
+  "explanation": "## L'idea\n\nQuesto è il matto di Légal. L'alfiere in f7 possiede e6 e e8, il cavallo in e5 possiede d7, e {{Nd5#}} dà scacco coprendo f6. La donna, l'alfiere e il pedone del Nero bloccano il resto. Tre pezzi leggeri possono valere più di una donna."
+}

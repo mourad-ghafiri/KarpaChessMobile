@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-01",
+  "fen": "4r2k/4Qppp/8/1b6/1r6/8/PP2R3/K1B5 w - - 0 1",
+  "solution": [
+    "Qxe8+",
+    "Bxe8",
+    "Rxe8#"
+  ],
+  "rating": 1300,
+  "title": "Tangkap dengan Buah yang Besar",
+  "setup": "Benteng Hitam di e8 dilindungi gajah, dan bentengnya di b4 mengincar sayap menteri Anda.",
+  "hint": "Kedua buah berat Anda menekan petak yang sama. Hitung mana yang harus masuk lebih dulu.",
+  "explanation": "## Ide\n\nNaluri berkata: lindungi sayap menteri. Abaikan itu. {{Qxe8+}} memaksa {{Bxe8}}, menarik gajah ke petak yang sudah dikuasai benteng Anda, dan {{Rxe8#}} mengakhiri partai sebelum serangan balik Hitam sempat memainkan satu langkah pun."
+}

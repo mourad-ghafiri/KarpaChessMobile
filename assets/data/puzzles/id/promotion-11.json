@@ -1,0 +1,14 @@
+{
+  "id": "promotion-11",
+  "fen": "B5k1/P5p1/7p/8/8/8/2r2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kh8",
+    "a8=Q+"
+  ],
+  "rating": 1370,
+  "title": "Gajah Menyingkir",
+  "setup": "Pion a7 Anda tinggal satu petak dari menjadi menteri dan gajah Anda sendiri duduk di a8, tepat di jalannya.",
+  "hint": "Gajah harus pergi, dan sebaiknya mendarat di tempat yang tak memberi Hitam langkah gratis untuk ikut campur.",
+  "explanation": "## Ide\n\n{{Bd5+}} mengosongkan a8 dengan sekak di sepanjang diagonal a2-g8. Hitam harus menjawab sekak, dan tak satu jawaban pun menghentikan pion: sesudah {{Kh8}} atau {{Kf8}}, {{a8=Q+}} bahkan berpromosi dengan sekak, dan sesudah {{Kh7}} pion tetap menjadi menteri. Menyingkir dengan sekak itulah seluruh intinya."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-10",
+  "fen": "4r1k1/3q1ppp/8/4R3/8/8/5PPP/4Q1K1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxe8#"
+  ],
+  "rating": 1020,
+  "title": "A Torre Guia, a Dama Dá Mate",
+  "setup": "A tua torre e a tua dama estão empilhadas na coluna e, em frente à torre preta de e8 e à sua dama de d7.",
+  "hint": "Duas peças pesadas numa coluna só podem golpear numa ordem. Descobre qual delas tem de ir primeiro.",
+  "explanation": "## A Ideia\n\nA torre está à frente, portanto golpeia primeiro: {{Rxe8+}} força {{Qxe8}}, e a dama que está atrás entrega {{Qxe8#}}. Inverte a ordem e não há nada — a dama nunca chega a e8 com a sua própria torre no caminho."
+}

@@ -1,0 +1,77 @@
+{
+  "id": "draws",
+  "title": "El medio punto",
+  "summary": "Cinco formas en que una partida termina sin ganador, y la que sorprende al jugador que iba ganando",
+  "proof": "draws-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Sin jugadas y sin jaque",
+      "text": "Las Negras solo tienen el rey. Las Blancas tienen dama, y el mate está a una jugada: justo el momento en que se tira una partida.\n\nEl rey negro en h8 tiene una sola casilla. El rey blanco en g6 ya controla g7 y h7, así que solo queda g8.\n\n{{Qd5}} le quita también g8. Las Negras no están en jaque. Las Negras no tienen ninguna jugada legal. Eso es el **rey ahogado**, y la partida termina tal como está."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Medio punto para cada uno",
+      "text": "El rey ahogado son **tablas**. Cada jugador suma medio punto, y da igual que uno tenga una dama y el otro un rey solo.\n\nPor eso la regla duele. Las Blancas ganan aquí según cualquier criterio del tablero y aun así pueden irse con la mitad.\n\nHay un camino más amable hacia el mismo resultado: cualquier jugador puede ofrecer tablas, y si el rival acepta, la partida termina ahí. Ese no exige ningún ingenio."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "prompt": "Vuelve a cubrir g8, esta vez con jaque, para que la partida acabe en mate y no en un apretón de manos.",
+      "targetSan": [
+        "Qd8#"
+      ],
+      "hint": "Tu rey ya controla g7 y h7, así que la dama busca la fila en la que está el rey negro."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Nada con qué dar mate",
+      "text": "Nuevo tablero, nueva regla. Las Blancas tienen un rey en c2 y un caballo en c3. Las Negras tienen un rey en a5 y un peón en a2, a una casilla de una dama nueva, y una dama contra un caballo solitario es una partida que las Negras deberían ganar.\n\nAsí que toda la partida es ese peón. Quítalo y el ejército negro es un rey paseando solo.\n\nUn rey y un caballo nunca pueden dar mate a un rey solo. Ni a la fuerza, ni por suerte, ni con ayuda."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Posiciones muertas",
+      "text": "Cuando ninguna serie de jugadas legales puede producir un mate para ninguno de los dos, la partida es tablas en el acto. Cuatro finales cumplen la condición:\n\n- rey contra rey\n- rey y alfil contra rey\n- rey y caballo contra rey\n- rey y alfil contra rey y alfil, con los dos alfiles en casillas del mismo color\n\nDos caballos contra un rey solo no están en la lista. Ahí el mate no se puede forzar, pero se puede alcanzar si el defensor se mete en él, así que la partida sigue."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "prompt": "Quita del tablero la única pieza negra que todavía puede ganar esta partida.",
+      "targetSan": [
+        "Nxa2"
+      ],
+      "hint": "Cuenta lo que queda después y compáralo con la lista de cuatro."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Tablas que hay que reclamar",
+      "text": "Dos caminos más hacia el medio punto, y este tablero está hecho para los dos: no quedan peones que avanzar y solo queda una pieza que podría capturarse.\n\nCincuenta jugadas de cada bando sin captura ni movimiento de peón: cualquier jugador puede entonces reclamar tablas. O la misma **posición** aparece tres veces, con el mismo bando al turno, los mismos derechos de enroque y la misma posibilidad de captura al paso, y cualquier jugador puede reclamarlo también.\n\nLo que se repite es la posición, no las jugadas que llevaron a ella."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Nadie las reclama por ti",
+      "text": "En la jugada cincuenta o en la tercera repetición no pasa nada por sí solo. Un jugador tiene que reclamar las tablas, y un jugador que no está contando no lo hará.\n\nEso es todo lo que es el jaque perpetuo. Dar jaque a un rey para siempre no es una regla aparte: los jaques repiten una y otra vez la misma posición, y alguien reclama la repetición.\n\nAsí que ya van cuatro: rey ahogado, posición muerta, la regla de las cincuenta jugadas y la misma posición tres veces. La quinta es la oferta que cualquier jugador puede hacer en cualquier momento."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "El accidente",
+      "text": "Ahora la regla te apunta a ti. Las Negras tienen una dama entera de más, el rey blanco en h1 se ha quedado sin tablero, y juegan las Negras.\n\n{{Qg3}} parece la red cerrándose: g1, g2 y h2 cubiertas de golpe. Pero h1 no está atacada, así que no es jaque, y las Blancas no tienen nada más que mover. Rey ahogado. Una partida ganada, devuelta.\n\n> Quita la última casilla con jaque, o no la quites todavía."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "prompt": "La dama ya ha hecho bastante: acerca el rey una casilla a la esquina de las Blancas.",
+      "targetSan": [
+        "Kd5"
+      ],
+      "hint": "c6 y h1 están en la misma gran diagonal, así que el rey puede simplemente bajar por ella."
+    }
+  ]
+}

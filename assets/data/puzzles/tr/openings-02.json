@@ -1,0 +1,11 @@
+{
+  "id": "openings-02",
+  "fen": "r1bqk2r/pppp1ppp/1bn5/4P3/2B1n3/2P2N2/PP3PPP/RNBQK2R w KQk - 0 7",
+  "solution": [
+    "Qd5"
+  ],
+  "title": "İtalyan Merkezi Isırıyor",
+  "setup": "Beyaz d4'ü c3 ile hazırlayıp sürdü ve siyah az önce merkezde bir atla piyon kaptı.",
+  "hint": "Tek bir kare hem boştaki ata hem de siyahın kampında yalnızca şahın koruduğu noktaya saldırıyor. Kesişimi arayın.",
+  "explanation": "## Fikir\n\nc3 ve d4 kurulumunun amacı budur: merkez bir kez açıldığında siyahın taşlarının duracak güvenli yeri kalmaz.\n\n{{Qd5}} bir çifte tehdittir. Vezir e4'teki ata vurur ve öteki çaprazdan, c4'teki filin çoktan beklediği f7'ye vurur: {{Qxf7#}} mat olurdu. Siyahın önce buna cevap vermesi gerekir ve at düşer.\n\nHiçbir at hamlesi hem onu kurtarır hem f7'yi tutar: d6'da e5 piyonuna, g5'te f3'teki ata düşer."
+}

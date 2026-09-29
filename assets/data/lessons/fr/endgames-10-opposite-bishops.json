@@ -1,0 +1,58 @@
+{
+  "id": "opposite-bishops",
+  "title": "Les fous de couleurs opposées",
+  "summary": "Deux pions de plus, et rien à en tirer",
+  "proof": "endgames-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "Deux pions de plus, et bloqué",
+      "text": "Les Blancs ont deux pions de plus, ce qui clôt d'habitude la discussion. Pas ici.\n\nRegardez sur quoi se tiennent les fous. Le fou noir en c1 vit sur les cases noires. Le fou blanc en d3 vit sur les cases blanches. Ils ne s'attaqueront jamais, ne se bloqueront jamais, ne partageront jamais une case jusqu'à la fin de la partie.\n\nDeux armées sur un même échiquier qui ne peuvent pas se toucher. Les Noirs vont montrer ce que cela vaut, et cela vaut deux pions."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "Les cases dont les pions ont besoin",
+      "text": "Un pion est promu en atteignant la huitième rangée, alors demandez-vous quelles cases ces deux-là doivent encore emprunter. Le prochain pas du pion f est f6, et il terminerait en f8. Le pion h terminerait en h8. Les trois cases sont noires.\n\nLe fou blanc en d3 n'en contestera jamais aucune. C'est un fou de cases blanches, et un fou ne change jamais de couleur, ni en se déplaçant ni jamais.\n\nLes cases qui décident de cette finale sont donc des cases que seul le fou noir peut atteindre. Un coup le place sur une ligne qui passe par deux d'entre elles, et il n'a jamais besoin de la quitter."
+    },
+    {
+      "type": "play",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "prompt": "Avec deux pions de moins, tenez la nulle en garant votre fou sur la seule diagonale que les deux pions blancs doivent traverser.",
+      "targetSan": [
+        "Bb2"
+      ],
+      "hint": "Le pion f doit encore passer par f6 et le pion h doit finir en h8 — trouvez la diagonale qui passe par les deux."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Pousser droit dedans",
+      "text": "Les Blancs ont le trait, deux pions de plus, et nulle part où les mettre.\n\n{{f6}} avance sur une case noire, et {{Bxf6}} y répond. Le pion arrive sans protection : le roi blanc en e4 ne peut pas atteindre f6, et le fou blanc en d3 ne peut pas du tout regarder une case noire.\n\nC'est toute l'histoire de ces finales. Les pions de plus sont bien réels, et ils ont été achetés sur la mauvaise couleur."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Aussi loin qu'il peut aller",
+      "text": "Laissez plutôt courir le pion h. {{h6}}, et les Noirs n'ont aucune raison d'intervenir : {{Ba1}} garde la grande diagonale, et {{h7}} arrive.\n\nC'est le bout de la route. Le pion a besoin de h8, h8 est noire, et le fou la surveille depuis le coin d'une ligne qu'il n'a jamais eu à quitter. Chassez ce fou et il glisse d'un côté ou de l'autre, toujours aux aguets.\n\nDeux pions sur l'échiquier, et aucun des deux ne sera jamais une dame."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "title": "La couleur que votre fou a abandonnée",
+      "text": "Quelques coups plus tard, les Blancs ont trouvé le seul plan qui reste : faire monter le roi. Il se tient en g5, et g6 est la case qu'il vise, car depuis g6 le roi défend les deux pions et le fou noir n'a plus rien à attaquer.\n\nVérifiez maintenant la couleur de g6. Blanche. Le fou en b2 n'a jamais touché une case blanche et ne le fera jamais, alors celle-ci n'a jamais été son affaire.\n\n> Un fou garde la couleur où il est né. Tout le reste appartient au roi."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "prompt": "Le roi blanc vise une case que votre fou ne pourra jamais surveiller : retirez-lui cette case avec votre autre pièce.",
+      "targetSan": [
+        "Kf7",
+        "Kg7",
+        "Kh7"
+      ],
+      "hint": "Un fou ne couvre qu'une couleur, donc la case vers laquelle se dirigent les Blancs revient à votre autre pièce."
+    }
+  ]
+}

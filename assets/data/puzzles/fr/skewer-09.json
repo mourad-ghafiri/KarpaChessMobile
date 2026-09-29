@@ -1,0 +1,14 @@
+{
+  "id": "skewer-09",
+  "fen": "8/RR5B/1p2kr2/5b2/5P2/3P4/5N2/2K5 w - - 0 1",
+  "solution": [
+    "Rxb6+",
+    "Kd5",
+    "Rxf6"
+  ],
+  "rating": 1210,
+  "title": "Prendre avec échec",
+  "setup": "Vos tours tiennent la septième rangée, et un pion noir en b6 partage la sixième rangée avec le roi en e6.",
+  "hint": "Il existe une prise qui ouvre une ligne et donne échec en un seul coup. Demandez-vous ce qui se trouve au-delà du roi sur cette ligne.",
+  "explanation": "## L'idée\n\n{{Rxb6+}} prend un pion et, bien plus important, arrive sur la sixième rangée avec échec. La tour en **f6** se retrouve derrière son propre roi. {{Kd5}} est la seule réponse légale, et {{Rxf6}} gagne la tour."
+}

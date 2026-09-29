@@ -1,0 +1,62 @@
+{
+  "id": "why-chess-endures",
+  "title": "Why Chess Endures",
+  "summary": "Fifteen centuries, and still nobody has solved it",
+  "proof": "culture-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "London, June 21, 1851",
+      "text": "Two players sit down between rounds of a tournament for a game that counts for nothing, and produce the most famous chess game ever played.\n\nAdolf Anderssen has White, Lionel Kieseritzky has Black, and neither of them is playing for a prize, a title or a point in the standings. That is exactly why Anderssen is free to spend everything: a game with nothing at stake costs nothing to lose.\n\nErnst Falkbeer published it four years later and called it immortal. The name has held ever since."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "What Anderssen Will Not Save",
+      "text": "Black's queen has just eaten on b2. From there it touches the rook on a1, and the bishop on c5 looks straight down at the rook on g1. Two rooks, and neither is going to be defended.\n\nSaving one costs a move, and a move is the only currency the attack has left. The black king on e8 has not moved all game, and it has one road out of the middle: castling, behind its own pawns on the kingside.\n\nClose that road and the king stays where the knights on d5 and f5 can reach it."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "prompt": "Ignore both rooks and cover the square the black king has to cross on its way out of the middle.",
+      "targetSan": [
+        "Bd6"
+      ],
+      "hint": "Castling would carry the black king across f8, so ask which of your pieces can start watching that square this move."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/3B4/1pbN1N1P/4P1P1/3P1Q2/PqP5/R4KR1 b kq - 1 18",
+      "title": "Kieseritzky Collects",
+      "text": "Black takes what is offered. {{Bxg1}} is the first rook, and Anderssen does not take back: {{e5}} shuts the diagonal the black queen on b2 is standing on, so it can no longer see the kingside at all.\n\n{{Qxa1+}} takes the second rook, with check.\n\nBlack is two rooks and a bishop up. White has a queen, two knights and a bishop, all of them looking at a king that never got out of the middle."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "One Guard Left",
+      "text": "Two moves later the second white knight has taken on g7 with check, and the black king has stepped to d8.\n\nCount the black king's squares. d7 is its own pawn, c8 its own bishop, c7 and e7 belong to the bishop on d6, and e8 is covered by the knight on g7. There are none.\n\nSo the only thing standing between Black and mate is the knight on g8, which reaches back to e7 and would take anything that landed there. One piece. Everything else Black owns is on the far side of the board."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Five Hundred Years, One Rulebook",
+      "text": "White has given up both rooks and a bishop and is about to win anyway.\n\nThe rules that produced this position settled a long time before 1851. Chess came out of northern India, crossed Persia and the Arab world and reached Europe, and around 1475 in Valencia the queen and the bishop were given the long range they still have. Nothing important has changed since. Anderssen played the same game you have been playing for a hundred lessons."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Nobody Has Solved It",
+      "text": "Checkers is finished. In 2007 a research team proved that perfect play from the start is a draw, and there is nothing left in checkers to find.\n\nChess is not finished. Every position with seven pieces or fewer was computed exactly by 2012, so the last few moves of every game are now known ground. Above seven pieces nothing is known: a 2021 estimate puts the number of legal positions near 4.8 × 10⁴⁴, and no machine has come close to the bottom of that.\n\n> Fifteen centuries in, and the board in front of you is still asking."
+    },
+    {
+      "type": "play",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "prompt": "The black king has no square left, so pull its one guard away from e7.",
+      "targetSan": [
+        "Qf6+"
+      ],
+      "hint": "The offer has to be one Black cannot decline, so look for the check that only that knight is able to answer."
+    }
+  ]
+}

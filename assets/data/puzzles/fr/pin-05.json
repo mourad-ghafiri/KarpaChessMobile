@@ -1,0 +1,12 @@
+{
+  "id": "pin-05",
+  "fen": "8/B1kb3R/p3r3/p7/3P4/4R3/1r4PK/8 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 960,
+  "title": "Prenez ce qu'il protège",
+  "setup": "Votre tour en h7 balaie toute la septième rangée, à travers le fou noir jusqu'au roi en c7.",
+  "hint": "La tour en e6 a un seul gardien. Regardez le long de la septième rangée et demandez-vous si ce gardien a le droit de partir.",
+  "explanation": "## L'idée\n\n{{Rxe6}} gagne tout simplement une tour. Le fou en **d7** est le seul défenseur, et votre tour en **h7** le cloue sur le roi en **c7** le long de la septième rangée. Prendre en e6 exposerait le roi, donc le fou ne peut pas répondre."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "defence-03",
+  "fen": "8/5Q2/6R1/1k1K4/2r5/8/1q5b/8 w - - 0 1",
+  "solution": [
+    "Qb7+",
+    "Ka4",
+    "Ra6#"
+  ],
+  "rating": 1530,
+  "title": "İki Şah da Açıkta",
+  "setup": "Şahlar b5 ile d5'te iki kare arayla duruyor ve siyahın veziri, kalesi ve fili sizin tarafınızı gösteriyor.",
+  "hint": "Her sessiz hamle kaybettirir. Onun şahını kalenizden uzağa değil, ona doğru iten şahı arayın.",
+  "explanation": "## Fikir\n\n{{Qb7+}} şahı a dikeyine gönderir, {{Ka4}} ya da {{Ka5}}, ve her hâlükârda kale {{Ra6#}} için karşıya savrulur. Şahı kenara sürmek her zaman plan değildir — onu kendi taşlarınıza doğru sürmek plandır."
+}

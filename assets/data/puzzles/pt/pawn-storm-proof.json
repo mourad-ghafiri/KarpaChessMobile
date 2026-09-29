@@ -1,0 +1,11 @@
+{
+  "id": "pawn-storm-proof",
+  "fen": "2rq1rk1/pb1nb2p/1p2p3/3pBpp1/2PPn3/1PNB1N2/P3QPPP/2RR2K1 b - - 1 15",
+  "solution": [
+    "g4"
+  ],
+  "title": "Botvinnik Continua a Marchar",
+  "setup": "Bogoljubow contra Botvinnik, Nottingham 1936. Os teus peões f e g já avançaram, e o cavalo de f3 é o que guarda a ala do rei das brancas.",
+  "hint": "Uma avalanche de peões são peões a atingir peças. Que peça branca pode um dos teus peões atacar nesta jogada?",
+  "explanation": "## A Ideia\n\n{{g4}} atira o peão da avalanche contra o cavalo de f3, a peça que guarda e5 e as casas à frente do rei branco. Um peão a atacar uma peça ganha uma jogada, e cada jogada que o cavalo gasta a fugir é uma que a avalanche não tem de pagar.\n\nNa partida o cavalo voltou a e1, Botvinnik trocou em e5 e ficou com o centro, e as pretas acabaram por ganhar."
+}

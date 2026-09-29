@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "basics",
+      "icon": "♙",
+      "lessons": [
+        "basics-00-board-and-setup.json",
+        "basics-07-notation.json",
+        "basics-01a-pawn.json",
+        "basics-01b-knight.json",
+        "basics-01c-bishop.json",
+        "basics-01d-rook.json",
+        "basics-01e-queen.json",
+        "basics-01f-king.json",
+        "basics-05-piece-values.json",
+        "basics-02x-captures.json",
+        "basics-02-check-and-mate.json",
+        "basics-02a-escaping-check.json",
+        "basics-03-castling.json",
+        "basics-02b-promotion.json",
+        "basics-04-en-passant.json",
+        "basics-06-draws.json",
+        "basics-08-thinking-process.json",
+        "basics-09-common-mistakes.json"
+      ]
+    },
+    {
+      "id": "history",
+      "icon": "📜",
+      "lessons": [
+        "history-01-born-in-india.json",
+        "history-02-shatranj.json",
+        "history-03-chess-reaches-europe.json",
+        "history-04-the-mad-queen.json",
+        "history-05-the-romantics.json",
+        "history-06-steinitz.json",
+        "history-07-the-champions.json",
+        "history-08-machines.json"
+      ]
+    },
+    {
+      "id": "tactics",
+      "icon": "⚔",
+      "lessons": [
+        "tactics-01-the-fork.json",
+        "tactics-02-the-pin.json",
+        "tactics-03-back-rank-mate.json",
+        "tactics-04-the-skewer.json",
+        "tactics-05-discovered-attack.json",
+        "tactics-06-double-attack.json",
+        "tactics-07-remove-defender.json",
+        "tactics-08-deflection.json",
+        "tactics-09-overloading.json",
+        "tactics-10-zwischenzug.json",
+        "tactics-11-xray.json",
+        "tactics-12-interference.json",
+        "tactics-13-trapping.json",
+        "tactics-14-demolition.json",
+        "tactics-15-quiet-move.json",
+        "tactics-16-pawn-breakthrough.json",
+        "tactics-17-windmill.json"
+      ]
+    },
+    {
+      "id": "openings",
+      "icon": "♞",
+      "lessons": [
+        "openings-01-opening-principles.json",
+        "openings-02-italian-game.json",
+        "openings-03-sicilian.json",
+        "openings-04-queens-gambit.json",
+        "openings-05-caro-kann.json",
+        "openings-06-english.json",
+        "openings-07-traps.json",
+        "openings-08-kings-pawn-family.json",
+        "openings-09-queens-pawn-family.json",
+        "openings-10-ruy-lopez.json",
+        "openings-11-london-system.json",
+        "openings-12-french-defense.json",
+        "openings-13-kia.json",
+        "openings-14-najdorf.json",
+        "openings-15-kings-indian-defense.json",
+        "openings-16-nimzo-indian.json",
+        "openings-17-gruenfeld.json",
+        "openings-18-catalan.json"
+      ]
+    },
+    {
+      "id": "endgames",
+      "icon": "♔",
+      "lessons": [
+        "endgames-01-king-activity.json",
+        "endgames-02-queen-mate.json",
+        "endgames-03-opposition.json",
+        "endgames-04-rook-mate.json",
+        "endgames-05-passed-pawns.json",
+        "endgames-06-kpk.json",
+        "endgames-07-philidor.json",
+        "endgames-08-lucena.json",
+        "endgames-09-minor-piece.json",
+        "endgames-10-opposite-bishops.json",
+        "endgames-11-rook-pawn-v-rook.json",
+        "endgames-12-queen-vs-pawn.json"
+      ]
+    },
+    {
+      "id": "strategy",
+      "icon": "♗",
+      "lessons": [
+        "strategy-01-good-bad-pieces.json",
+        "strategy-02-outposts.json",
+        "strategy-03-pawn-structure.json",
+        "strategy-04-king-safety.json",
+        "strategy-05-space.json",
+        "strategy-06-weak-squares.json",
+        "strategy-07-open-files.json",
+        "strategy-08-bishop-pair.json",
+        "strategy-09-prophylaxis.json",
+        "strategy-10-maneuvering.json",
+        "strategy-11-exchange-sac.json"
+      ]
+    },
+    {
+      "id": "attack",
+      "icon": "⚡",
+      "lessons": [
+        "attack-01-uncastled-king.json",
+        "attack-02-opposite-castles.json",
+        "attack-03-greek-gift.json",
+        "attack-04-rook-lift.json",
+        "attack-05-pawn-storm.json",
+        "attack-06-attacking-the-fianchetto.json",
+        "attack-07-sacrifice-on-f7.json",
+        "attack-08-mating-nets.json"
+      ]
+    },
+    {
+      "id": "culture",
+      "icon": "🌍",
+      "lessons": [
+        "culture-01-etiquette.json",
+        "culture-02-the-clock.json",
+        "culture-03-recording-games.json",
+        "culture-04-ratings.json",
+        "culture-05-titles.json",
+        "culture-06-tournaments.json",
+        "culture-07-online-chess.json",
+        "culture-08-why-chess-endures.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "trapping-proof",
+  "fen": "2kr4/Bpp2ppp/3b1n2/4p3/8/5N2/PPP2PPP/4R1K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "title": "Un alfil varado en a7",
+  "setup": "El alfil blanco acaba de capturar un peón y ahora está en a7. Parece seguro: nada tuyo lo ataca. Encuentra la jugada que garantiza que nunca salga de ahí.",
+  "hint": "Cuenta las casillas del alfil. Su único camino de vuelta va por una diagonal, y un peón tuyo puede plantarse en ese camino, protegido.",
+  "explanation": "## La idea\n\n{{b6}} cierra el único camino de vuelta. Al alfil de a7 le quedan dos casillas: b8, que cubre tu rey de c8, y b6, donde el peón está protegido por el de c7.\n\nTodavía nada ataca al alfil, y no hace falta. Tu rey va a b7 la próxima jugada y lo captura, y lo máximo que pueden recuperar las Blancas es un peón, entregando el alfil en b6."
+}

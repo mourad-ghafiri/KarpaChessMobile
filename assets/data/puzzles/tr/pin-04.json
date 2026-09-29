@@ -1,0 +1,12 @@
+{
+  "id": "pin-04",
+  "fen": "8/3kb3/3p4/3P1r2/1Ppp1P2/5B2/4R3/K7 w - - 0 1",
+  "solution": [
+    "Bg4"
+  ],
+  "rating": 920,
+  "title": "Önce Açmaza Alın, Sonra Yiyin",
+  "setup": "Siyahın f5'teki kalesi kendi şahıyla aynı çaprazda, aralarında bir boş kareyle sokulmuş.",
+  "hint": "Taşlarınızdan hangisi hem o kaleye saldırıp hem aynı nefeste onu dondurabilir? d7'ye giden hattı arayın.",
+  "explanation": "## Fikir\n\n**f5**'teki kale, boş e6 karesi ve **d7**'deki şah tek bir çaprazda oturuyor. {{Bg4}} kaleye o çapraz boyunca saldırır ve açmaz, kaleyi oynatmayı kuraldışı kılar. f5'i koruyan hiçbir şey yok, yani kale sıradaki hamlede sizindir."
+}

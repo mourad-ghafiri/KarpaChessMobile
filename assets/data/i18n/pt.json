@@ -1,0 +1,649 @@
+{
+  "language": {
+    "name": "Português"
+  },
+  "ui": {
+    "brand": {
+      "title": "KarpaChess"
+    },
+    "button": {
+      "flip": "Rodar",
+      "undo": "Anular",
+      "hint": "Pista",
+      "dismiss": "Cancelar",
+      "chooseFile": "Escolher ficheiro…",
+      "settings": "Definições",
+      "close": "Fechar",
+      "back": "Recuar",
+      "next": "Avançar",
+      "save": "Guardar"
+    },
+    "label": {
+      "difficulty": "Dificuldade",
+      "playAs": "Jogas com",
+      "timeControl": "Ritmo de jogo"
+    },
+    "placeholder": {
+      "pgnInput": "Cola um PGN ou uma lista de jogadas (p. ex. e4 e5 Nf3 Nc6)…",
+      "drawText": "Escreve…"
+    },
+    "aria": {
+      "capturedByWhite": "Peças capturadas pelas brancas",
+      "capturedByBlack": "Peças capturadas pelas pretas",
+      "chessBoard": "Tabuleiro de xadrez",
+      "dismissHint": "Fechar a pista"
+    },
+    "toast": {
+      "parseFail": "Não foi possível ler: {error}",
+      "fileTooLarge": "Esse ficheiro é demasiado grande para importar."
+    }
+  },
+  "game": {
+    "result": {
+      "stalemate": "Afogamento",
+      "draw": "Empate",
+      "timeout": "Tempo esgotado"
+    },
+    "resultSub": {
+      "whiteWins": "As brancas ganham",
+      "blackWins": "As pretas ganham",
+      "stalemate": "Empate por afogamento",
+      "fiftyMove": "Regra das 50 jogadas",
+      "insufficient": "Material insuficiente",
+      "repetition": "Repetição tripla",
+      "whiteWinsTime": "As brancas ganham por tempo",
+      "blackWinsTime": "As pretas ganham por tempo"
+    },
+    "side": {
+      "white": "Brancas",
+      "black": "Pretas"
+    },
+    "playerDefault": {
+      "bottom": "Tu"
+    },
+    "playAsOption": {
+      "white": "Brancas",
+      "random": "Aleatório",
+      "black": "Pretas"
+    },
+    "timeControl": {
+      "unlimited": "Sem limite"
+    },
+    "difficulty": {
+      "1": "Principiante",
+      "2": "Ocasional",
+      "3": "Clube",
+      "4": "Força total"
+    }
+  },
+  "chess": {
+    "piece": {
+      "p": "peão",
+      "n": "cavalo",
+      "b": "bispo",
+      "r": "torre",
+      "q": "dama",
+      "k": "rei"
+    },
+    "pieceCapital": {
+      "p": "Peão",
+      "n": "Cavalo",
+      "b": "Bispo",
+      "r": "Torre",
+      "q": "Dama",
+      "k": "Rei"
+    },
+    "direction": {
+      "kingside": "na ala do rei",
+      "queenside": "na ala da dama"
+    }
+  },
+  "hint": {
+    "checkmate": "Dá <b>xeque-mate</b>. Acaba com isto!",
+    "castle": "Roca {dir} — arruma o rei atrás de uma muralha de peões.",
+    "promote": "Avança para a última linha e promove a <b>{piece}</b>.",
+    "capture": "<b>{piece}</b> captura <b>{target}</b>.",
+    "develop": "Desenvolve o teu <b>{piece}</b> para <b>{square}</b>, ganhando atividade e olhando para o centro.",
+    "pawn": "Avança o teu <b>peão</b> para <b>{square}</b>, conquistando espaço.",
+    "rook": "Ativa a tua <b>torre</b> em <b>{square}</b> — as colunas abertas são o lar das torres.",
+    "queen": "Leva a <b>dama</b> para <b>{square}</b> com um objetivo.",
+    "quiet": "Melhora o teu <b>{piece}</b> para <b>{square}</b>.",
+    "checkSuffix": " Também dá <b>xeque</b>."
+  },
+  "coach": {
+    "whisper": {
+      "tip5": "Procura peças sem defensores — as tuas e as do adversário."
+    },
+    "builtin": {
+      "bestMove": {
+        "recommendation": "A minha recomendação: <b>{move}</b>.",
+        "noEngine": "O motor não respondeu. Eis o que a própria posição mostra.",
+        "whyHeader": "<b>Porque é que isto faz sentido aqui:</b>",
+        "castle": "• O rei ainda está no centro — rocar é a primeira prioridade.",
+        "develop": {
+          "one": "• Uma peça menor ainda em {squares} — desenvolve-a.",
+          "other": "• Peças menores ainda em {squares} — desenvolve-as."
+        },
+        "center": "• Nenhum peão nas quatro casas centrais — um avanço central vale muito.",
+        "loose": {
+          "one": "• <b>Peça desprotegida</b> do adversário: {list}. Procura maneira de ganhar esse material.",
+          "other": "• <b>Peças desprotegidas</b> do adversário: {list}. Procura maneira de ganhar esse material."
+        },
+        "oppKing": "• O rei do adversário está <b>{score}</b> — as jogadas de ataque costumam funcionar.",
+        "ownKing": "• O teu rei está sob fogo — pensa primeiro na defesa.",
+        "passedEnd": {
+          "one": "• Tens <b>um peão passado</b> em {squares} — avança!",
+          "other": "• Tens <b>peões passados</b> em {squares} — avança!"
+        },
+        "activeKing": "• Ativa o teu rei — nos finais, é uma peça de combate.",
+        "ahead": {
+          "one": "• Estás a ganhar por {n} ponto — troca peças, guarda os peões.",
+          "other": "• Estás a ganhar por {n} pontos — troca peças, guarda os peões."
+        },
+        "behind": {
+          "one": "• Estás a perder por {n} ponto — cria complicações.",
+          "other": "• Estás a perder por {n} pontos — cria complicações."
+        },
+        "evalSuffix": "_Avaliação: {eval}_"
+      },
+      "tactics": {
+        "header": "<b>Varrimento tático para as {side}</b>",
+        "loose": {
+          "one": "O adversário tem {n} peça sem defesa: {list}.",
+          "other": "O adversário tem {n} peças sem defesa: {list}."
+        },
+        "defended": "As peças do adversário parecem defendidas. Táticas mais difíceis — procura cravadas, atrações ou jogadas de desobstrução.",
+        "exposedKing": "O rei do adversário está <b>{score}</b> ({notes}) — pode haver padrões de mate à espreita.",
+        "openLines": "linhas abertas",
+        "queenTarget": "A dama do adversário em <b>{square}</b> — consegues atacá-la a baixo custo para ganhar tempo?",
+        "engineSuggests": "O motor sugere <b>{move}</b> — essa jogada encaixa em algum dos padrões acima?",
+        "footer": "_Treina o olho para ver estes três em cada jogada: peças desprotegidas, reis expostos, defensores sobrecarregados._"
+      },
+      "plan": {
+        "header": "<b>Plano para as {side}</b> _({phase})_",
+        "developMinors": {
+          "one": "Desenvolve a peça menor ainda em casa: {squares}.",
+          "other": "Desenvolve as peças menores ainda em casa: {squares}."
+        },
+        "castle": "Roca — a segurança do rei primeiro.",
+        "queenEarly": "Cuidado — a dama saiu antes de todas as peças menores estarem desenvolvidas. Não a deixes ser perseguida.",
+        "centerPawn": "Põe um peão nas quatro casas centrais (d4/e4/d5/e5).",
+        "kingDanger": "O teu rei está em perigo — melhora a defesa antes de atacar.",
+        "oppositeWings": "Os dois já rocaram — se foi para lados opostos, avança os teus peões sobre o rei adversário.",
+        "pushPassed": {
+          "one": "Avança o teu peão passado em {squares}.",
+          "other": "Avança os teus peões passados em {squares}."
+        },
+        "isolated": {
+          "one": "Atenção ao teu peão isolado em {squares} — a atividade compensa a fraqueza.",
+          "other": "Atenção aos teus peões isolados em {squares} — a atividade compensa a fraqueza."
+        },
+        "improveWorst": "Melhora a tua pior peça. Cada jogada devia deixar uma das tuas peças melhor.",
+        "racePassed": {
+          "one": "Corre com o teu peão passado em {squares} até à promoção.",
+          "other": "Corre com os teus peões passados em {squares} até à promoção."
+        },
+        "activateKing": "Ativa o teu rei — leva-o para dentro da ação.",
+        "aheadTrade": {
+          "one": "Estás {n} ponto acima — troca peças (não peões) para simplificar num final ganho.",
+          "other": "Estás {n} pontos acima — troca peças (não peões) para simplificar num final ganho."
+        },
+        "behindKeep": {
+          "one": "Estás {n} ponto abaixo — guarda as peças no tabuleiro, cria contrajogo, evita trocas.",
+          "other": "Estás {n} pontos abaixo — guarda as peças no tabuleiro, cria contrajogo, evita trocas."
+        },
+        "fewPawns": "Restam poucos peões — pensa em oposição, zugzwang e casas-chave."
+      },
+      "lastMove": {
+        "none": "Ainda não houve jogadas — começa com um peão central (e4 ou d4) ou uma jogada de cavalo (Nf3).",
+        "capture": "capturou material",
+        "check": "deu xeque",
+        "checkmate": "deu xeque-mate",
+        "castleKingside": "rocou na ala do rei",
+        "castleQueenside": "rocou na ala da dama",
+        "promote": "promoveu um peão",
+        "line": "<b>{san}</b> — {anns}.",
+        "quiet": "<b>{san}</b> — uma jogada posicional silenciosa.",
+        "evalLine": "Avaliação agora: {eval}. ",
+        "topChoice": "A escolha principal do motor daqui para a frente: <b>{move}</b>."
+      },
+      "evaluation": {
+        "header": "<b>Avaliação da posição</b> _({phase}, jogam as {side})_",
+        "material": "• <b>Material:</b> brancas {w} contra pretas {b}{diff}",
+        "equalSuffix": " (igual)",
+        "diffSuffix": " — as {side} estão +{n}",
+        "engine": "• <b>Motor:</b> {eval}",
+        "whiteKing": "• <b>Rei branco:</b> {score}{notes}",
+        "blackKing": "• <b>Rei preto:</b> {score}{notes}",
+        "notesFmt": " ({notes})",
+        "pawnWeaknessesWhite": "• <b>Problemas nos peões brancos:</b> {list}",
+        "pawnWeaknessesBlack": "• <b>Problemas nos peões pretos:</b> {list}",
+        "isolatedPrefix": "isolado em {sq}",
+        "doubledPrefix": "dobrados na coluna {file}",
+        "passedWhite": {
+          "one": "• <b>Peão passado das brancas:</b> {squares}",
+          "other": "• <b>Peões passados das brancas:</b> {squares}"
+        },
+        "passedBlack": {
+          "one": "• <b>Peão passado das pretas:</b> {squares}",
+          "other": "• <b>Peões passados das pretas:</b> {squares}"
+        },
+        "topMove": "• <b>Melhor jogada do motor:</b> <b>{move}</b>"
+      },
+      "kingSafety": {
+        "header": "<b>Segurança do rei</b>",
+        "line": "• <b>Rei das {side}</b> ({who}): {score}{castled}. {notes}",
+        "you": "tu",
+        "opponent": "adversário",
+        "castledSuffix": " — rocado",
+        "noConcerns": "Nada a assinalar de imediato.",
+        "footer": "Se o teu rei está exposto: defende primeiro. Se o do adversário está exposto: procura xeques, elevações de torre e infiltrações de dama."
+      },
+      "phase": {
+        "opening": "abertura",
+        "middlegame": "meio-jogo",
+        "endgame": "final"
+      },
+      "kingScore": {
+        "safe": "seguro",
+        "exposed": "exposto",
+        "danger": "em perigo",
+        "shelter": "abrigado",
+        "waiting": "à espera",
+        "active": "ativo",
+        "unknown": "indefinido"
+      },
+      "kingNote": {
+        "tuckedCorner": "ainda encolhido no canto — centraliza-o",
+        "startingSquare": "rei na casa de partida — põe-no a andar",
+        "activeOn": "rei ativo em {square}",
+        "wanderingOn": "rei a vaguear em {square}",
+        "centerAfter8": "rei ainda no centro depois da oitava jogada",
+        "thinShield": "cobertura de peões escassa ({count}/3)",
+        "enemyHeavy": "peça pesada inimiga na coluna do rei",
+        "fullShield": "rocado com o escudo de peões completo"
+      },
+      "eval": {
+        "unclear": "pouco clara",
+        "balanced": "equilibrada ({pawns})",
+        "better": "{sign}{pawns} — as <b>{side}</b> estão melhor"
+      },
+      "topLines": {
+        "header": "<b>Melhores candidatas do motor</b>",
+        "item": "{rank}. {san} — {eval}"
+      },
+      "threatLine": "<b>Atenção:</b> se jogassem as {side}, {san} seria a ameaça ({eval}).",
+      "pieceOn": "{piece} em {square}"
+    },
+    "ask": {
+      "bestMove": "Melhor jogada",
+      "tactics": "Táticas",
+      "plan": "Planos",
+      "lastMove": "Esta jogada",
+      "evaluation": "Avaliação",
+      "kingSafety": "Segurança do rei"
+    },
+    "askAnother": "Outra pergunta"
+  },
+  "settings": {
+    "title": "Definições",
+    "boardTheme": "Tema do tabuleiro",
+    "toggle": {
+      "coords": "Mostrar coordenadas",
+      "legal": "Realçar jogadas legais",
+      "last": "Realçar a última jogada",
+      "sound": "Som",
+      "animations": "Animações"
+    },
+    "language": "Idioma",
+    "dangerZone": "Zona de risco",
+    "resetBtn": "Apagar progresso e definições",
+    "resetConfirm": "Apagar todo o progresso e as definições?",
+    "about": "Sobre",
+    "version": "Versão {version}",
+    "licenses": "Licenças de código aberto",
+    "privacy": "Política de privacidade",
+    "privacyBody": "O KarpaChess não recolhe nenhum dado pessoal. Não tem conta, publicidade, estatísticas de utilização nem rastreio, e nunca se liga à internet. O teu progresso, as tuas definições, as tuas partidas e as tuas fotografias ficam guardados apenas no teu dispositivo, e nas cópias de segurança dele se as usares; nunca são enviados para nós nem para mais ninguém. Nas definições podes apagar o teu progresso, as tuas definições e a tua fotografia de jogador, e apagar a aplicação remove tudo o que ela guardou. A política completa está em {url}",
+    "sourceNotice": "O KarpaChess é software livre com licença GNU GPL v3. O código-fonte completo está em {url}"
+  },
+  "commentator": {
+    "importLede": "Copia um PGN e ele aparece aqui, ou abre um ficheiro em baixo.",
+    "sampleGames": "Partidas de estudo",
+    "searchGames": "Procurar jogador, torneio ou ECO",
+    "allGames": "Todas",
+    "myGames": "As minhas partidas",
+    "noGames": "Nenhuma partida corresponde a essa procura.",
+    "moveCount": {
+      "one": "{n} jogada",
+      "other": "{n} jogadas"
+    },
+    "import": "Importar",
+    "importTitle": "Importar uma partida",
+    "importTileBlurb": "Cola um PGN ou abre um ficheiro .pgn — fica na tua biblioteca.",
+    "importFound": "Encontrei isto na tua área de transferência. Queres importar?",
+    "pasteInstead": "Colar outra coisa",
+    "importName": "Nome",
+    "importNameHelp": "Opcional — uma lista de jogadas sem cabeçalhos precisa de um para ser encontrada.",
+    "remove": "Remover",
+    "removeGame": "Remover esta partida?",
+    "removeGameBody": "Sai da tua biblioteca. As partidas que vieram com a aplicação não são afetadas.",
+    "close": "Fechar esta partida e voltar à importação",
+    "confirmClose": "Fechar esta partida e voltar à importação?",
+    "moves": "Jogadas",
+    "badgesShow": "Mostrar os ícones do motor no tabuleiro",
+    "badgesHide": "Esconder os ícones do motor no tabuleiro",
+    "firstMove": "Primeira jogada (Home)",
+    "prevMove": "Anterior (←)",
+    "nextMove": "Seguinte (→)",
+    "lastMove": "Última (End)",
+    "mainLine": "Voltar à linha principal (↑)",
+    "untitled": "Sem título",
+    "drawTools": {
+      "select": "Selecionar",
+      "arrow": "Seta",
+      "box": "Retângulo",
+      "circle": "Quadrícula",
+      "pen": "Caneta",
+      "text": "Texto",
+      "deleteSelected": "Eliminar a seleção (Del)",
+      "clearAll": "Limpar todos os desenhos desta jogada",
+      "undo": "Anular",
+      "redo": "Refazer",
+      "editText": "Editar o texto"
+    },
+    "result": {
+      "title": "Resumo da partida",
+      "checkmate": "Xeque-mate · ganham as {winner}",
+      "stalemate": "Afogamento · empate",
+      "drawnGame": "Partida empatada",
+      "whiteWins": "As brancas ganham",
+      "blackWins": "As pretas ganham",
+      "white": "Brancas",
+      "black": "Pretas",
+      "accuracy": "Precisão",
+      "analyzing": "A calcular a precisão…"
+    }
+  },
+  "review": {
+    "title": "Análise da partida",
+    "analyzing": "A analisar…",
+    "progress": "A analisar a jogada {i} de {total}…",
+    "tally": {
+      "best": "Melhores",
+      "ok": "Boas",
+      "inaccurate": "Imprecisas",
+      "mistake": "Erros",
+      "blunder": "Erros graves"
+    },
+    "verdict": {
+      "brilliant": "Brilhante!",
+      "best": "Melhor jogada",
+      "good": "Boa jogada",
+      "inaccuracy": "Imprecisão",
+      "mistake": "Erro",
+      "blunder": "Erro grave"
+    },
+    "betterWas": "O motor preferia {san}.",
+    "takeaway": {
+      "great": "Exatamente certo — é a escolha do próprio motor.",
+      "good": "Sólido: a posição mantém-se no rumo certo.",
+      "slip": "Aqui escapa alguma vantagem — {best} era mais preciso.",
+      "bad": "O ponto de viragem. {best} era a jogada a encontrar."
+    }
+  },
+  "gamify": {
+    "level": "Nível {n}",
+    "dayStreak": "Dias seguidos: {n}",
+    "earned": "+{n} XP",
+    "levelUp": "Subiste de nível!",
+    "dailyGoal": "Objetivo do dia"
+  },
+  "play": {
+    "nav": "Jogar",
+    "title": "Jogar contra o Stockfish",
+    "rematch": "Desforra",
+    "review": "Analisar",
+    "youWon": "Ganhaste!",
+    "youLost": "Boa luta",
+    "strengthHint": {
+      "1": "Mesmo a aprender",
+      "2": "Noite tranquila de clube",
+      "3": "Jogador de clube a sério",
+      "4": "Motor à força toda"
+    },
+    "editProfile": "O teu perfil",
+    "yourName": "O teu nome",
+    "choosePicture": "Escolher imagem",
+    "removePicture": "Remover a imagem",
+    "exitMatch": "Sair da partida",
+    "exitConfirm": "Sair da partida atual e voltar à preparação?"
+  },
+  "studio": {
+    "nav": "Estúdio"
+  },
+  "nbSettings": {
+    "appearance": "Aspeto",
+    "themeName": {
+      "tournament": "Torneio",
+      "slate": "Ardósia",
+      "walnut": "Nogueira",
+      "sheesham": "Sheesham",
+      "sage": "Sálvia"
+    },
+    "pieceSet": "Peças",
+    "pieceSetName": {
+      "classic": "Clássico",
+      "wood": "Madeira",
+      "marble": "Mármore",
+      "diagram": "Diagrama",
+      "modern": "Moderno",
+      "deco": "Art déco",
+      "facet": "Facetado",
+      "silhouette": "Silhueta",
+      "soft": "Suave",
+      "bold": "Robusto"
+    },
+    "appTheme": "Tema da aplicação",
+    "appThemeName": {
+      "midnightGrove": "Bosque à Meia-Noite",
+      "emberStudy": "Estúdio de Brasas",
+      "slateFocus": "Foco de Ardósia",
+      "indigoHour": "Hora Índigo",
+      "bronzeAge": "Idade do Bronze",
+      "jadeTerrace": "Terraço de Jade",
+      "plumVelvet": "Veludo Ameixa",
+      "ivoryHall": "Salão de Marfim",
+      "linenMorning": "Manhã de Linho",
+      "harborLight": "Luz do Porto"
+    },
+    "soundFeel": "Som e toque",
+    "soundPack": {
+      "wood": "Madeira",
+      "plastic": "Plástico",
+      "soft": "Suave"
+    },
+    "haptics": "Resposta tátil",
+    "font": "Tipo de letra",
+    "fontName": {
+      "classic": "Clássico",
+      "modern": "Moderno",
+      "technical": "Técnico"
+    }
+  },
+  "draw": {
+    "mode": "Modo de desenho",
+    "paused": "Partida em pausa"
+  },
+  "replay": {
+    "autoplay": "Reprodução automática",
+    "position": "{i} / {total}"
+  },
+  "academy": {
+    "seeIt": "Vê",
+    "playIt": "Joga",
+    "ownIt": "Domina",
+    "yourMove": "É a tua vez",
+    "youPlay": "jogas com as {side}",
+    "nav": "Aprender",
+    "title": "O Caminho do Mestre",
+    "patternOwned": "Padrão dominado!",
+    "sharpen": "Afiar",
+    "sharpenDull": {
+      "one": "{n} padrão a perder o fio",
+      "other": "{n} padrões a perder o fio"
+    },
+    "sharpenAllSharp": "Todos os padrões afiados",
+    "findTheMove": "Encontra a jogada",
+    "patternBook": "Livro de Padrões",
+    "ownedCount": "{n} / {total} dominados",
+    "continueBtn": "Continuar",
+    "art": {
+      "basics": "Fundamentos",
+      "history": "A História do Xadrez",
+      "tactics": "A Lâmina",
+      "openings": "As Primeiras Jogadas",
+      "endgames": "O Remate",
+      "strategy": "O Plano",
+      "attack": "A Caçada",
+      "culture": "O Mundo do Xadrez"
+    },
+    "rank": {
+      "novice": "Novato",
+      "apprentice": "Aprendiz",
+      "clubPlayer": "Jogador de clube",
+      "tactician": "Tático",
+      "strategist": "Estratega",
+      "candidateMaster": "Candidato a Mestre",
+      "master": "Mestre dos Padrões",
+      "grandmaster": "Grande Mestre dos Padrões"
+    },
+    "starBronze": "Bronze",
+    "starSilver": "Prata",
+    "starGold": "Ouro",
+    "showAnswer": "A ideia é esta — experimenta",
+    "finishLesson": "Terminar a lição",
+    "continueLesson": "Continuar · {title}",
+    "addedToBook": "Adicionado ao teu Livro de Padrões 📖",
+    "bookIntro": "Todos os padrões que dominas vivem aqui. As estrelas crescem à medida que os afias. Os tabuleiros esbatidos estão a perder o fio — afia-os antes que te escapem.",
+    "starNone": "Ainda por afiar",
+    "due": "Está na hora de afiar",
+    "sharp": "Afiado",
+    "reviewNow": "Afiar este padrão",
+    "replayLesson": "Repetir a lição",
+    "upNext": "A seguir",
+    "gotIt": "Percebi",
+    "confirmClose": "Sair desta lição? Os teus XP e o teu lugar ficam guardados — podes retomar onde paraste.",
+    "resume": "Continuar",
+    "restartLesson": "Recomeçar a lição",
+    "confirmRestart": "Recomeçar esta lição do início? Os XP que já ganhaste ficam.",
+    "bookEmpty": "Domina o teu primeiro padrão e ele aparece aqui."
+  },
+  "puzzles": {
+    "nav": "Problemas",
+    "title": "Problemas",
+    "rating": "Rating",
+    "rated": "Classificados",
+    "keepGoing": "Continuar",
+    "keepGoingBlurb": "Problemas escolhidos para o teu rating.",
+    "daily": "Problema do dia",
+    "dailyBlurb": "Um problema, o mesmo o dia inteiro.",
+    "packs": "Coleções",
+    "findTheMove": "Encontra a melhor jogada.",
+    "solved": "Resolvido",
+    "runComplete": "Já não resta nada por aqui",
+    "runSolved": "{n} resolvidos nesta sessão",
+    "noneLeft": "Não há problemas disponíveis.",
+    "pack": {
+      "mate-in-one": {
+        "name": "Mate em uma",
+        "blurb": "Uma jogada, um mate."
+      },
+      "fork": {
+        "name": "Garfos",
+        "blurb": "Ataca duas coisas ao mesmo tempo."
+      },
+      "back-rank-mate": {
+        "name": "Linha de fundo",
+        "blurb": "O rei preso atrás dos seus próprios peões."
+      },
+      "pin": {
+        "name": "Cravadas",
+        "blurb": "Uma peça que não se atreve a mexer."
+      },
+      "skewer": {
+        "name": "Espetos",
+        "blurb": "Atinge a peça valiosa que está à frente."
+      },
+      "mate-in-two": {
+        "name": "Mate em duas",
+        "blurb": "Força-o em duas jogadas."
+      },
+      "discovery": {
+        "name": "Ataques à descoberta",
+        "blurb": "Move uma peça e desencadeia outra."
+      },
+      "trapped": {
+        "name": "Peças encurraladas",
+        "blurb": "Tira-lhe a última casa segura."
+      },
+      "promotion": {
+        "name": "Promoção",
+        "blurb": "Leva o peão até ao fim."
+      },
+      "remove-guard": {
+        "name": "Eliminar o defensor",
+        "blurb": "Tira a peça que segura tudo."
+      },
+      "deflection": {
+        "name": "Desvio",
+        "blurb": "Obriga um defensor a largar o posto."
+      },
+      "decoy": {
+        "name": "Atração",
+        "blurb": "Atrai uma peça para uma casa fatal."
+      },
+      "smothered": {
+        "name": "Mate sufocado",
+        "blurb": "Mate dado pelo seu próprio exército."
+      },
+      "pawn-ending": {
+        "name": "Finais de peões",
+        "blurb": "Oposição, ruturas, o quadrado."
+      },
+      "rook-ending": {
+        "name": "Finais de torres",
+        "blurb": "O final a que vais chegar mais vezes."
+      },
+      "overload": {
+        "name": "Sobrecarga",
+        "blurb": "Um defensor, dois trabalhos."
+      },
+      "zwischenzug": {
+        "name": "Jogadas intermédias",
+        "blurb": "Mete uma ameaça antes de recapturar."
+      },
+      "king-hunt": {
+        "name": "Caça ao rei",
+        "blurb": "Leva o rei para o descampado."
+      },
+      "zugzwang": {
+        "name": "Zugzwang",
+        "blurb": "Cada jogada piora tudo."
+      },
+      "defence": {
+        "name": "Defesa",
+        "blurb": "És tu que estás a levar mate. Dá-o primeiro."
+      }
+    },
+    "confirmClose": "Terminar esta sessão de problemas?",
+    "practice": "Praticar",
+    "playAgain": "Jogar outra vez",
+    "replay": "Repetir",
+    "showSolution": "Mostrar a solução",
+    "failed": "Falhado",
+    "flawless": "Impecável",
+    "continuePack": "Continuar",
+    "puzzleN": "Problema {n}",
+    "bestImproved": "Novo recorde! +{xp} XP"
+  }
+}

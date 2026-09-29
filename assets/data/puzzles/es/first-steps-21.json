@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-21",
+  "fen": "8/5ppp/2k1b3/8/8/1N5P/4rPP1/3R2K1 w - - 0 1",
+  "solution": [
+    "Nd4+"
+  ],
+  "title": "Un salto, dos objetivos",
+  "setup": "Tu caballo de b3 está atacado por el alfil de e6 y tiene que moverse, así que elige la casilla donde golpee más fuerte.",
+  "hint": "Encuentra la casilla de caballo que da jaque al rey negro y ataca otra pieza negra a la vez.",
+  "explanation": "## La idea\n\nTu caballo tiene que moverse de todos modos, así que haz que la jugada haga dos trabajos. {{Nd4+}} da jaque al rey de c6 y ataca a la vez a la torre de e2.\n\nLas Negras tienen que responder primero al jaque, y ninguna pieza negra puede capturar el caballo de d4. En cuanto el rey se aparta, {{Nxe2}} se lleva la torre.\n\nA una amenaza se le puede responder. A dos amenazas en una jugada, normalmente no."
+}

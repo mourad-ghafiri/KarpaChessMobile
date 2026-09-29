@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-10",
+  "fen": "4k3/4p3/8/8/1n2R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Rxb4"
+  ],
+  "title": "La Torre Sceglie",
+  "setup": "La vostra torre in **e4** attacca lungo tutte e due le sue linee: un cavallo sta sulla traversa, un pedone sulla colonna.",
+  "hint": "Il pedone in e7 è allettante, ma guardate chi gli sta proprio dietro.",
+  "explanation": "## L'idea\n\nLa torre arriva a due pezzi neri, uno sulla sua colonna e uno sulla sua traversa.\n\n{{Rxe7+}} va addosso a {{Kxe7}}: il re in e8 difende e7, e avete cambiato una torre da cinque punti per un pedone da uno. {{Rxb4}} prende un cavallo che niente difende e si tiene tutti e tre i punti.\n\nIl re è un difensore vero, e tutto quello che gli sta accanto è difeso. Controllate tutta la traversa e tutta la colonna della vostra torre, poi prendete il bersaglio che nessuno protegge."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-10",
+  "fen": "4r1k1/3q1ppp/8/4R3/8/8/5PPP/4Q1K1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxe8#"
+  ],
+  "rating": 1020,
+  "title": "La tour ouvre, la dame mate",
+  "setup": "Votre tour et votre dame sont empilées sur la colonne e, face à la tour noire en e8 et à sa dame en d7.",
+  "hint": "Deux pièces lourdes sur une même colonne ne peuvent frapper que dans un seul ordre. Déterminez laquelle doit partir en premier.",
+  "explanation": "## L'idée\n\nLa tour se tient devant, donc elle frappe en premier : {{Rxe8+}} force {{Qxe8}}, et la dame derrière elle donne {{Qxe8#}}. Inversez l'ordre et il n'y a rien — la dame ne peut jamais atteindre e8 avec sa propre tour sur le chemin."
+}

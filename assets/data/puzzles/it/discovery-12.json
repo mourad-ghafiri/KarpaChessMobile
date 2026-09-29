@@ -1,0 +1,14 @@
+{
+  "id": "discovery-12",
+  "fen": "6k1/pb3ppp/3p4/8/8/8/2Q3rP/2R2N1K b - - 0 1",
+  "solution": [
+    "Rxc2+",
+    "Kg1",
+    "Rg2+"
+  ],
+  "rating": 1350,
+  "title": "Il Mulino Gira",
+  "setup": "La vostra torre in g2 blocca la linea del vostro stesso alfiere verso h1, e la donna bianca in c2 è difesa da una torre.",
+  "hint": "La torre può uscire con scacco e rientrare subito con scacco. Capite perché g2 sia una casa che il Bianco non può mai prendere.",
+  "explanation": "## L'idea\n\n{{Rxc2+}} prende la donna difesa, perché lasciare g2 scopre lo scacco dell'alfiere da b7. {{Kg1}} è forzata, e {{Rg2+}} torna immediatamente: il re non può catturare, visto che l'alfiere copre g2, e f1 è bloccata dal cavallo stesso del Bianco. La torre è intoccabile, e la donna se n'è andata per niente."
+}

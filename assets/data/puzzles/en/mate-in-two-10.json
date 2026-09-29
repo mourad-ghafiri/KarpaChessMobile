@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-10",
+  "fen": "b4k2/6p1/7p/8/2RB2Q1/8/6PP/7K w - - 0 1",
+  "solution": [
+    "Qxg7+",
+    "Ke8",
+    "Rc8#"
+  ],
+  "rating": 1320,
+  "title": "Sacrifice the Shelter",
+  "setup": "The black king on f8 has one pawn left in front of it, and your bishop on d4 aims straight at it.",
+  "hint": "The pawn beside the king looks like a guard. Ask what your bishop covers on the square behind it.",
+  "explanation": "## The Idea\n\n{{Qxg7+}} works because the bishop on **d4** defends g7, so the king cannot take. {{Ke8}} is the only square left, and now the queen rakes the seventh rank while {{Rc8#}} claims the eighth. Two lines, no escape."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-11",
+  "fen": "k2rr3/8/8/8/8/6p1/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kf1"
+  ],
+  "title": "Only One Door",
+  "setup": "The rook on e8 has your king in check — and Black's other pieces have quietly locked most of the exits.",
+  "hint": "The d8-rook watches the d-file and the g3-pawn covers f2. What's left?",
+  "explanation": "## The Idea\n\nYou are in check from the rook on e8, with nothing to block with and nothing that can capture it. The king must move, but where?\n\n- d1 and d2 are covered by the rook on d8\n- f2 is attacked by the pawn on g3\n- e2 is still on the e-file, still in check\n- {{Kf1}} is the only square left\n\nOne door out of five. Check every square the king could use against every enemy piece."
+}

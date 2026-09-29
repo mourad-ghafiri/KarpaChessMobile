@@ -1,0 +1,14 @@
+{
+  "id": "overload-11",
+  "fen": "6k1/2n1Rppp/8/8/2N5/2r5/PP2Q3/K7 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Nxe8",
+    "Qxe8#"
+  ],
+  "rating": 1610,
+  "title": "El caballo no puede cubrir dos veces",
+  "setup": "El caballo negro de c7 vigila e8, tu torre ha llegado a la séptima y la dama espera en e2.",
+  "hint": "Un caballo defiende de forma torpe. Encuentra la casilla a la que puede llegar exactamente una vez y oblígalo a ir allí.",
+  "explanation": "## La idea\n\n{{Re8+}} reclama al caballo, {{Nxe8}} es forzada, y la dama se lo come ahí con {{Qxe8#}}. Un caballo que defiende una casilla solo es defensor hasta que tiene que ponerse en ella."
+}

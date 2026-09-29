@@ -1,0 +1,56 @@
+{
+  "id": "discovered-attack",
+  "title": "El ataque al descubierto",
+  "summary": "La pieza que se mueve no es la pieza que ataca",
+  "proof": "discovered-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "La torre ya apuntaba",
+      "text": "Tu torre de e1 y el rey negro de e8 están en la misma columna, y lo único que hay entre ellos es tu propio caballo.\n\nEn todas las tácticas vistas hasta ahora, la pieza que tocabas era la que hacía el daño. Esta no. Mueve el caballo y la torre ataca a un rey al que ha estado apuntando todo el tiempo: el caballo ni se acerca a e8. Lo único que importa es que salga de la columna. Una torre que subiera y bajara por esa misma columna seguiría estorbando.\n\nUna pieza se mueve y otra ataca. Eso es un **ataque al descubierto**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Libre para ir a cualquier parte",
+      "text": "Ningún salto de caballo lo deja en la columna que abandona, así que las ocho casillas del caballo abren la línea de la torre, y las ocho dan jaque. Como la línea termina en un rey, esta versión tiene nombre propio: **jaque al descubierto**.\n\nEso es lo que hace atrevido al caballo. {{Nc3+}} se planta en la columna c, a la vista de la dama negra de c5, y la dama no puede capturarlo: tomar el caballo dejaría al rey negro en jaque de la torre, y esa no es una jugada legal.\n\nDurante un turno, la pieza que se ha movido es intocable."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Gasta la jugada libre del caballo en lo más caro que tienen las Negras.",
+      "targetSan": [
+        "Nxc5+"
+      ],
+      "hint": "Las ocho casillas del caballo no son iguales: en una de ellas hay algo."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Lo que compra el jaque",
+      "text": "{{Nxc5+}} captura la dama, y el jaque llega con ella, de una torre que ha pasado el turno sin moverse.\n\nLa línea que abres no tiene por qué terminar en un rey. Pon una dama negra al final de la columna y el mismo salto de caballo gana esa dama, pero entonces las Negras tienen opciones: defenderla, moverla o lanzar una amenaza mayor en otra parte.\n\nEl jaque elimina las tres. Esa es la única diferencia entre un ataque al descubierto y un jaque al descubierto, y es enorme."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Nada más que capturar",
+      "text": "La columna e está igual que antes: torre en e1, caballo en e4, rey negro en e8. Lo que falta es algo que comerse para el caballo. La torre negra de a8 no llega en absoluto a la columna e, y el peón de b7 no va a ningún sitio útil.\n\nAsí que la jugada libre tiene que comprar algo que no sea material, y hay una sola cosa en oferta. Pon el caballo en una casilla que también ataque e8, y la torre ya no da jaque sola."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Dos atacantes, una respuesta",
+      "text": "Dos piezas que dan jaque en la misma jugada son un **jaque doble**.\n\nUn jaque tiene tres respuestas: capturar la pieza que lo da, tapar la línea o mover el rey. El jaque doble elimina las dos primeras. Captura a uno de los atacantes y el otro sigue dando jaque. Tapar exigiría una pieza en dos líneas a la vez.\n\nAsí que el rey se mueve, y la torre de a8 es como si no existiera. Eso es todo lo que hace un jaque doble: por sí solo no gana nada. Lo que decide el resto es la casilla donde cae el caballo.\n\n> La pieza que te estorba es la pieza que hay que mover."
+    },
+    {
+      "type": "play",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Da jaque con las dos piezas a la vez, y deja el caballo donde además ataque algo.",
+      "targetSan": [
+        "Nd6+"
+      ],
+      "hint": "Dos casillas del caballo dan el jaque doble; solo una de ellas golpea también al peón de b7."
+    }
+  ]
+}

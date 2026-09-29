@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-03",
+  "fen": "r5k1/5ppp/2p5/3n4/1b6/6P1/5PBP/1R4K1 w - - 1 2",
+  "solution": [
+    "Bxd5"
+  ],
+  "rating": 1130,
+  "title": "Le cavalier était la colle",
+  "setup": "Votre tour vise le fou en b4, et le cavalier en d5 est la seule pièce noire qui le défend.",
+  "hint": "Votre tour attaque déjà une pièce défendue. Regardez une case plus loin : qui assure la défense ?",
+  "explanation": "## L'idée\n\n{{Bxd5}} élimine le cavalier qui protège b4. Après {{cxd5}}, le fou n'a plus personne et {{Rxb4}} le gagne. Fou contre cavalier est un échange égal ; le fou en b4 est le bénéfice. Demandez-vous toujours qui tient la pièce que vous voulez avant de tendre la main."
+}

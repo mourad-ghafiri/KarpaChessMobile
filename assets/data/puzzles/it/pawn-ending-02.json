@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-02",
+  "fen": "2k5/8/1K6/P7/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Kb8"
+  ],
+  "rating": 1140,
+  "title": "Corsa verso l'Angolo",
+  "setup": "Il re bianco è appena salito in b6 per portare a casa il pedone a, e il Nero ha tre case.",
+  "hint": "Un pedone di torre ha una colonna sola; chiedetevi quale angolo debba tenere il re che difende.",
+  "explanation": "## L'idea\n\n{{Kb8}} è l'unica mossa. Un pedone di torre non si può scortare oltre un re che tiene a8 e b8: {{a6}} {{Ka8}}, e dopo a7 il Nero non ha proprio nessuna mossa legale, il che è stallo. Allontanatevi invece in d7 o d8 e il re bianco gira semplicemente attorno e promuove."
+}

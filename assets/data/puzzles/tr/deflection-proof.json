@@ -1,0 +1,13 @@
+{
+  "id": "deflection-proof",
+  "fen": "1r4k1/5ppp/8/8/2Q5/8/5PPP/2R3K1 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Rxc8",
+    "Rxc8#"
+  ],
+  "title": "Tek Cevabı Olan Bir İkram",
+  "setup": "Siyahın şahının havası yok ve b8'deki kale sekizinci yatayı kapsayan tek taş.",
+  "hint": "Sizin hiçbir şeyiniz b8'deki kaleye saldıramıyor. Ona, kendi kalenizin ihtiyaç duyduğu karede, almak zorunda olduğu bir şey önerin.",
+  "explanation": "## Fikir\n\nb8'deki kaleye saldırılamaz, yani uzağa gönderilmesi gerekir. {{Qc8+}} veziri, kalenin gözlediği tek kareye ikram eder ve {{Rxc8}} siyahın tek kurallı hamlesidir: piyonlar şahı kutuya alır ve araya hiçbir şey giremez. Şimdi kale c8'de, sizinkinin önünde durur ve {{Rxc8#}} işi bitirir. Vezirin önce gitmesi gerekiyordu, çünkü kalenizin dikeyini kapatan taş oydu."
+}

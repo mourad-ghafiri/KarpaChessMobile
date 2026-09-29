@@ -1,0 +1,56 @@
+{
+  "id": "discovered-attack",
+  "title": "L'attaque à la découverte",
+  "summary": "La pièce qui bouge n'est pas la pièce qui attaque",
+  "proof": "discovered-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "La tour visait déjà",
+      "text": "Votre tour en e1 et le roi noir en e8 sont sur la même colonne, et la seule chose entre eux est votre propre cavalier.\n\nDans toutes les tactiques vues jusqu'ici, c'est la pièce que vous touchiez qui faisait les dégâts. Pas cette fois. Déplacez le cavalier et la tour attaque un roi qu'elle vise depuis le début — le cavalier ne s'approche jamais de e8. Tout ce qui compte, c'est qu'il quitte la colonne. Une tour qui monterait et descendrait sur cette même colonne resterait en travers.\n\nUne pièce bouge, une autre attaque. C'est une **attaque à la découverte**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Libre d'aller partout",
+      "text": "Aucun coup de cavalier ne le laisse sur la colonne qu'il quitte, donc les huit cases du cavalier ouvrent la ligne de la tour, et les huit donnent échec. Comme la ligne aboutit à un roi, cette version a son propre nom : l'**échec à la découverte**.\n\nC'est ce qui rend le cavalier audacieux. {{Nc3+}} se pose sur la colonne c, en pleine vue de la dame noire en c5, et la dame ne peut pas le prendre — prendre le cavalier laisserait le roi noir en échec par la tour, et ce n'est pas un coup légal.\n\nPendant un coup, la pièce qui a bougé est intouchable."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Utilisez le coup gratuit du cavalier sur ce que les Noirs possèdent de plus cher.",
+      "targetSan": [
+        "Nxc5+"
+      ],
+      "hint": "Les huit cases du cavalier ne se valent pas — sur l'une d'elles, il y a quelque chose."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Ce que l'échec rapporte",
+      "text": "{{Nxc5+}} prend la dame, et l'échec arrive avec elle, donné par une tour qui n'a pas bougé de tout le coup.\n\nLa ligne que vous ouvrez n'a pas besoin d'aboutir à un roi. Placez plutôt une dame noire au bout de la colonne, et le même coup de cavalier gagne cette dame — mais les Noirs ont alors des choix : la défendre, la déplacer, ou lancer une menace plus grosse ailleurs.\n\nL'échec supprime les trois. C'est la seule différence entre une attaque à la découverte et un échec à la découverte, et elle est de taille."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Plus rien à prendre",
+      "text": "La colonne e est disposée exactement comme avant : tour en e1, cavalier en e4, roi noir en e8. Ce qui manque, c'est quelque chose à manger pour le cavalier. La tour noire en a8 ne peut pas du tout atteindre la colonne e, et le pion en b7 ne va nulle part d'utile.\n\nLe coup gratuit doit donc rapporter autre chose que du matériel, et il y a une seule chose à prendre. Posez le cavalier sur une case qui attaque aussi e8, et la tour ne donne plus échec seule."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Deux attaquants, une seule réponse",
+      "text": "Deux pièces qui donnent échec au même coup, c'est un **échec double**.\n\nUn échec a trois réponses : prendre la pièce qui donne échec, s'interposer, ou déplacer le roi. Un échec double supprime les deux premières. Prenez l'une des pièces et l'autre donne toujours échec. S'interposer demanderait une pièce placée sur deux lignes à la fois.\n\nLe roi bouge donc, et la tour en a8 pourrait aussi bien ne pas exister. C'est tout ce que fait un échec double : en lui-même, il ne gagne rien. C'est la case où atterrit le cavalier qui décide du reste.\n\n> La pièce qui vous barre la route est celle qu'il faut bouger."
+    },
+    {
+      "type": "play",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Donnez échec avec les deux pièces à la fois, et posez le cavalier là où il attaque aussi quelque chose.",
+      "targetSan": [
+        "Nd6+"
+      ],
+      "hint": "Deux cases du cavalier donnent l'échec double ; une seule frappe aussi le pion en b7."
+    }
+  ]
+}

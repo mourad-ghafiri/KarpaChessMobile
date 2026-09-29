@@ -1,0 +1,13 @@
+{
+  "id": "uncastled-king-proof",
+  "fen": "2b1kbnr/1pp2ppp/r3p3/p1q1P1B1/4N3/3B1N2/PPP2PPP/R2Q1RK1 w k - 5 10",
+  "solution": [
+    "Bb5+",
+    "Qxb5",
+    "Qd8#"
+  ],
+  "title": "Liberate la Colonna con Scacco",
+  "setup": "Il re nero sta ancora in e8 alla decima mossa. La vostra donna in d1 vuole la colonna d, e il vostro stesso alfiere in d3 ci sta sopra.",
+  "hint": "L'alfiere deve lasciare la colonna, e dovrebbe farlo con una mossa a cui il Nero debba rispondere subito.",
+  "explanation": "## L'idea\n\nIl re non ha mai lasciato e8, e i suoi stessi pezzi gli riempiono le uscite: l'alfiere in f8, il pedone in f7. Il vostro alfiere in g5 copre e7 e d8. Fra la vostra donna e d8 c'è soltanto il vostro alfiere in d3.\n\nE allora se ne va con scacco. A {{Bb5+}} bisogna rispondere, e ogni risposta è troppo lenta. Prendetelo con {{Qxb5}} e {{Qd8#}} atterra, difesa dall'alfiere in g5. Parate con {{Bd7}} e dà matto invece {{Bxd7#}}."
+}

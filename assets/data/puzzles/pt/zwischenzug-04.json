@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-04",
+  "fen": "3B2k1/3Q1ppp/4r3/8/2b5/4R3/PP1r4/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1420,
+  "title": "A Tua Torre Pode Esperar",
+  "setup": "A torre preta aterrou em d2, fundo no teu campo, e a outra torre está em e6 — há muito com que te preocupares.",
+  "hint": "Estão a pedir-te que defendas. Dá xeque primeiro e vê se a defesa chega sequer a ser necessária.",
+  "explanation": "## A Ideia\n\n{{Qe8+}} ignora por completo a torre de d2. {{Rxe8}} é forçado, a coluna e é entregue, e {{Rxe8#}} chega. Um xeque intermédio não custa nada quando o jogo acaba antes de a ameaça aterrar."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-01",
+  "fen": "2Q2rk1/4Rppp/8/8/8/8/PP2R3/K4b2 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Re8#"
+  ],
+  "rating": 1250,
+  "title": "Due Compiti, Una Torre",
+  "setup": "La vostra donna tiene d'occhio f8 e tutte e due le torri sono impilate sulla colonna e, mentre la torre nera in f8 fa tutta la difesa da sola.",
+  "hint": "Un pezzo nero copre due case d'ingresso insieme. Chiedetevi che cosa succede se gli si permette di coprirne una sola.",
+  "explanation": "## L'idea\n\nLa torre in f8 ha due compiti: parare l'ottava traversa e tenere e8 fuori portata. {{Qxf8+}} compra il primo con una donna, {{Kxf8}} è forzata, e adesso {{Re8#}} entra sulla casa che non può più sorvegliare. Un difensore con due doveri non ne ha nessuno."
+}

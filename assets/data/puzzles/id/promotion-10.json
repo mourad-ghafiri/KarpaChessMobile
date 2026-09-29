@@ -1,0 +1,12 @@
+{
+  "id": "promotion-10",
+  "fen": "7R/1Ppkp3/p7/4PP2/8/8/6KP/q7 w - - 0 1",
+  "solution": [
+    "b8=N#"
+  ],
+  "rating": 1340,
+  "title": "Kuda Memberi Mat",
+  "setup": "Raja Hitam berdiri di d7 dikurung pionnya sendiri di c7 dan e7, dan pion b Anda siap tiba.",
+  "hint": "Menteri baru di b8 bahkan tak akan memberi sekak. Tanyakan promosi mana yang menyentuh d7 dari petak itu.",
+  "explanation": "## Ide\n\n{{b8=N#}} memberi sekak dari b8, dan raja tak punya petak: c6 dikuasai kuda, d6 oleh pion e5, e6 oleh pion f5, dan c8, d8 serta e8 oleh benteng di h8. c7 dan e7 adalah pionnya sendiri. Menteri di sana sama sekali tak akan memberi sekak."
+}

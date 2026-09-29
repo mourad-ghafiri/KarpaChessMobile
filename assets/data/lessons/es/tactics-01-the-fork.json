@@ -1,0 +1,56 @@
+{
+  "id": "the-fork",
+  "title": "La horquilla",
+  "summary": "Una jugada que hace dos preguntas, y un rival que solo puede responder a una",
+  "proof": "forks-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Dos a la vez",
+      "text": "Tu rival tiene una jugada por cada una de las tuyas. Ese es todo su presupuesto, y cada táctica que te espera es una forma de pedirle a esa única jugada que cubra más de lo que puede.\n\nLa **horquilla** es la forma más sencilla de pedirlo. Una jugada, dos piezas rivales atacadas y una sola respuesta que tiene que ocuparse de las dos.\n\nEl rey negro de c6 y la dama de d5 están a una casilla de distancia. Tu caballo de c2 todavía no ataca a ninguno, y no le hace falta. Necesita una casilla que toque a los dos."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "La pieza a la que no se responde",
+      "text": "Un alfil, una torre o una dama atacan a lo largo de una línea, y una línea se puede cortar: pon cualquier cosa en el camino y el ataque se detiene ahí. El ataque de un caballo no tiene ninguna casilla intermedia donde poner nada.\n\nY luego lo curioso. Una pieza atacada por un caballo casi nunca puede capturarlo. Llegar a la casilla de un caballo exige moverse en L, y eso solo lo hace otro caballo. Ni siquiera el rey: un caballo que da jaque nunca está al lado del rey al que se lo da.\n\nAsí que al defensor le queda la lista de respuestas más corta del ajedrez."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "prompt": "Encuentra la única casilla a la que llega tu caballo que ataca a la vez al rey y a la dama.",
+      "targetSan": [
+        "Nb4+"
+      ],
+      "hint": "Trabaja hacia atrás desde los objetivos: ¿qué casillas atacan c6, y cuál de ellas ataca también d5?"
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Nueve por tres, o nueve por nada",
+      "text": "{{Nb4+}}, y el jaque es lo único en lo que las Negras pueden pensar. Nada lo tapa, y b4 es una casilla a la que no llegan ni el rey ni la dama.\n\nAsí que el rey camina. Tiene siete casillas libres, y exactamente dos de ellas, d6 y c5, siguen protegiendo d5. {{Kd6}} parece un rescate hasta que haces la cuenta: {{Nxd5}} {{Kxd5}} cambia un caballo por una dama. Las otras cinco regalan la dama a cambio de nada.\n\nNueve por tres, o nueve gratis. Esa es toda la elección que deja una horquilla.\n\nRey y dama atrapados juntos tienen hasta nombre propio: la **horquilla real**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "Un objetivo no son dos",
+      "text": "Un tablero nuevo con cuatro piezas. Las Negras tienen un rey en e8 y un caballo en e5, y ese es todo su ejército.\n\nTu dama de a1 ya está mirando a ese caballo. La gran diagonal que sale de la esquina pasa por b2, c3, d4 y llega a e5, sin nada en todo el camino. Nada protege tampoco al caballo.\n\nAsí que el caballo se puede capturar sin más, y cuando desaparezca, las Negras tendrán un rey y casillas vacías. Sea lo que sea esa captura, no es una horquilla. Una horquilla necesita dos cosas que atacar, y esta posición nunca las tuvo."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "El jaque no es el premio",
+      "text": "Un jaque por sí solo no compra nada. {{Qa8+}} es un jaque real: las Negras apartan el rey, y tu dama queda en una esquina desde la que ya ni siquiera ve al caballo. Una jugada gastada en empeorar la posición.\n\nEl jaque que merece la pena es el que llega habiendo hecho ya otra cosa. La única jugada de las Negras se la lleva el rey, y la otra cosa se queda en el tablero.\n\n> Una horquilla le da dos tareas a la única jugada de tu rival. Un jaque le elige la tarea. Las dos funcionan por lo mismo: la jugada solo llega una vez."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "prompt": "Captura el caballo de forma que las Negras no tengan más respuesta que un movimiento de rey.",
+      "targetSan": [
+        "Qxe5+"
+      ],
+      "hint": "El caballo y el rey negro están en la misma columna, así que pregúntate qué hace la dama al llegar a esa columna."
+    }
+  ]
+}

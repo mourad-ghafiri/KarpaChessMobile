@@ -1,0 +1,11 @@
+{
+  "id": "endgames-04",
+  "fen": "4K3/k3P3/8/8/8/8/2R5/7r w - - 0 1",
+  "solution": [
+    "Rc4"
+  ],
+  "title": "Posate Prima la Passerella",
+  "setup": "Il pedone è a una casa dalla promozione e il vostro re sta sulla casa che gli serve. Costruite al re il riparo dagli scacchi prima che esca.",
+  "hint": "Stabilite dove starà il vostro re quando cominceranno gli scacchi, poi date alla torre una casa che quel re possa difendere.",
+  "explanation": "## L'idea\n\n{{Rc4}} costruisce il ponte prima che il re esca. Sulla quarta traversa la torre aspetta gli scacchi: una volta che il re è sceso accanto a lei, la torre attraversa e para su una casa che il re difende. Da c4 continua anche a tagliare fuori il re nero dal pedone.\n\nCon il re nero così lontano, uscire subito vince lo stesso. Il ponte è il metodo che funziona in ogni posizione di Lucena, ed è per questo che vale la pena giocarlo anche qui."
+}

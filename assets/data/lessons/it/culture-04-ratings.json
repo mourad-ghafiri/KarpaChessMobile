@@ -1,0 +1,57 @@
+{
+  "id": "ratings",
+  "title": "Che Cosa Vuol Dire un Punteggio",
+  "summary": "Una previsione di risultati, non un verdetto su di voi",
+  "proof": "culture-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "Quattrocento Punti Avanti",
+      "text": "Il Bianco vi supera di quattrocento punti e ha appena spinto un pedone contro il vostro alfiere, con la calma di chi si aspetta che le cose gli vengano consegnate.\n\nUn punteggio Elo è una previsione di punteggio finale. Date in pasto a una formula la differenza fra due numeri e ne esce un risultato atteso: punteggi pari prevedono mezzo punto a testa, duecento punti di differenza prevedono circa il 76% per il numero più alto, quattrocento punti circa il 91%.\n\nLa previsione non dà mai nessuno vincente in ogni partita, a nessuna distanza. Nemmeno quello lì."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "Che Cosa Sussurra la Differenza",
+      "text": "Quattrocento punti non sono un muro. Sono una percentuale, e le percentuali sono fatte di partite andate nell'altro senso.\n\nLa differenza fa il suo danno prima che lo faccia la partita. Vi dice di tenere tutto, di non rischiare niente e di lasciare che il giocatore più forte lo dimostri — che è esattamente la partita che un giocatore più forte vuole.\n\nE così l'alfiere comincia a sembrare un pezzo da salvare. {{Ba5}}, {{Bc5}}: due case tranquille, tutte e due d'accordo sul fatto che a chi possiede il numero più grande sia dovuto qualcosa."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "prompt": "Lasciate l'alfiere dov'è e riprendetevi il pedone del gambetto con un cavallo.",
+      "targetSan": [
+        "Ngxe5",
+        "Ncxe5"
+      ],
+      "hint": "Il pedone può prenderlo uno qualunque dei due cavalli. L'alfiere dov'è è più sicuro di quanto sembri, quindi non spendeteci la mossa."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Da Dove Vengono i Punti",
+      "text": "I cavalli sono usciti in e5, e poi il Bianco ha preso l'alfiere. Adesso contate che cosa paga davvero un punteggio.\n\nGuadagnate quando fate più della previsione e perdete quando fate meno. L'aritmetica è tutta qui. Battere qualcuno molto più in alto di voi muove il vostro numero di parecchio proprio perché la previsione diceva che non l'avreste fatto — il sistema paga la sorpresa, e la paga in proporzione a quanto è sorpreso.\n\nEd è per questo che riprendersi qualcosa non c'entra. {{Qxb4}} raccoglie un pedone e lascia sopravvivere il Bianco."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "La Manopola Chiamata K",
+      "text": "Di quanto un singolo risultato muove il vostro numero dipende da un moltiplicatore che la FIDE chiama K. È alto per i giocatori nuovi e giovani, così che i loro punteggi trovino in fretta il livello giusto, e basso per quelli consolidati, così che un brutto fine settimana non possa disfare anni di lavoro. Una manopola di smorzamento, e nient'altro.\n\nI punteggi scendono oltre che salire, e una discesa non è la prova che siate peggiorati. Vuol dire che avete fatto meno della previsione, il che capita a chiunque continui a giocare. Gli unici giocatori il cui numero non scende mai sono quelli che hanno smesso."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Tre Valute Separate",
+      "text": "Arpad Elo, fisico e forte dilettante, costruì la scala per la federazione statunitense, che la adottò nel 1960. La FIDE seguì nel 1970 e pubblicò la sua prima lista ufficiale il 1º luglio 1971.\n\nDa allora ogni sito ne ha copiato la forma, non i numeri. Un punteggio blitz online, il punteggio di un altro sito e un punteggio FIDE sono tre valute separate, e nessuna si converte. I titoli si tagliano sulla sola scala FIDE: 2300, 2400 e 2500 per Maestro FIDE, Maestro Internazionale e Grande Maestro.\n\n> Il punteggio prevede la partita. Non la gioca mai."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "prompt": "Il Bianco ha preso il pezzo che la previsione dava per gratis: trovate il matto che i pezzi bianchi hanno costruito attorno al loro re.",
+      "targetSan": [
+        "Nd3#"
+      ],
+      "hint": "Guardate lungo la colonna e a partire dalla vostra donna in e7 e chiedetevi quale pedone bianco davanti al re non ha il permesso di muoversi."
+    }
+  ]
+}

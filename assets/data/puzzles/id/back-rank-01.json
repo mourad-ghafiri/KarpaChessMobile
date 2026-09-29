@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-01",
+  "fen": "1r4k1/p4ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rxb8#"
+  ],
+  "title": "Pertukaran yang Menyegel",
+  "setup": "Kedua raja bersembunyi di balik pionnya, dan benteng-benteng saling berhadapan di lajur b. Siapa yang menyerang lebih dulu, dialah yang selamat.",
+  "hint": "Sebelum menyebut sebuah penangkapan sebagai pertukaran, hitung buah hitam mana yang bisa menangkap balik.",
+  "explanation": "## Ide\n\nRaja Hitam di g8 tak punya petak sendiri: f7, g7 dan h7 ditempati pionnya, dan f8 serta h8 terletak di baris kedelapan.\n\nJadi benteng di b8 bukanlah pasangan tukar. Ia satu-satunya penjaga baris itu, dan {{Rxb8#}} mengambilnya dan langsung memberi mat: raja tak bisa mencapai b8, dan pion tak bergerak mundur.\n\nSebelum menukar benteng terakhir dari lajur terbuka, tanyakan apa yang dikerjakannya selain berdiri di sana."
+}

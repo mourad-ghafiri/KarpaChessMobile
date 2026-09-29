@@ -1,0 +1,56 @@
+{
+  "id": "sicilian",
+  "title": "La Difesa Siciliana",
+  "summary": "Un pedone d'ala per un pedone centrale, e due schieramenti che non potranno mai più copiarsi",
+  "proof": "openings-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "title": "Un Pedone Via dall'Ala",
+      "text": "Ogni cambio cambia due cose: che cosa resta sulla scacchiera, e che forma prendono i pedoni. Qui la seconda è tutto il punto.\n\nIl pedone bianco in d4 sta a una diagonale dal vostro pedone in c5, e l'apertura si gioca sul fatto che prendiate o no. Se prendete, consegnate un pedone partito dal bordo della scacchiera e ne togliete uno che stava in mezzo. Il Bianco riprende, quindi non si vince niente.\n\nLa forma non torna più indietro. Da quel momento i due schieramenti hanno pedoni diversi su ogni ala, per sempre."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Cambiate il vostro pedone d'ala con il pedone che il Bianco ha appena piantato in mezzo.",
+      "targetSan": [
+        "cxd4"
+      ],
+      "hint": "Mettete in fila i vostri pedoni secondo quanto stanno vicini al centro, poi trovate la presa che migliora quel conto."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "Che Cosa ha Comprato il Cambio",
+      "text": "Il Bianco ha ripreso e il materiale è pari. Il resto lo dicono i pedoni.\n\nVoi ne avete due in mezzo, in d6 e e7, contro uno solo del Bianco in e4. Sull'ala di donna il Bianco ne ha tre contro i vostri due. Niente di tutto questo è ancora un vantaggio. È uno squilibrio, ed è lo squilibrio che avete pagato.\n\nLa ricevuta è la colonna c. Il vostro pedone l'ha lasciata e il pedone bianco in c2 no — una **colonna semiaperta**, una colonna dove un solo esercito ha ancora un pedone. L'esercito che può usarla siete voi."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "Il Rifiuto di Rispecchiarsi",
+      "text": "Rispondete al pedone di re del Bianco con il vostro e tutti e due gli eserciti vogliono le stesse case, le stesse colonne, gli stessi piani. Prima o poi qualcuno offre patta e nessuno ha una ragione per rifiutare.\n\nQuesta struttura non si può copiare. Pedoni diversi su ogni ala vogliono dire piani diversi, e due piani diversi vanno giocati fino in fondo finché non si vede quale dei due è migliore.\n\nÈ questo il richiamo, ed è per questo che la siciliana è la risposta più giocata al mondo a una prima mossa di pedone di re."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "Undicesima Mossa",
+      "text": "Tutti e due hanno finito di portare fuori i pezzi, e la forma ha tenuto. I vostri pedoni in d6 e e6 fanno un piccolo centro, fianco a fianco — stretto a vedersi, e molto difficile da spaccare. I pedoni bianchi in e4 e f4 possiedono più spazio e vogliono strappare aperta una linea sull'ala di re.\n\nIl Nero passa il mediogioco a preparare una spinta: {{d5}}. Nel momento in cui quel pedone atterra, il piccolo centro è un centro pieno e ogni pezzo a corto d'aria si distende. Il piano del Bianco sull'ala di re è una corsa per arrivare prima."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "La Colonna che Avete Svuotato",
+      "text": "La vostra torre in a8 non muove da quando la partita è cominciata, e fissa il vostro stesso pedone in a6. Due colonne più in là non c'è nessun pedone vostro.\n\nIn fondo a quella colonna stanno i due punti più teneri del Bianco: il pedone in c2, che nessun pedone bianco potrà mai difendere, e il cavallo in c3, che tiene insieme il centro. Il **controgioco** del Nero vive lì — non nel presidiare l'ala di re, ma nella colonna che il cambio ha aperto.\n\n> Un pedone d'ala vale un pedone centrale ogni volta che la colonna che apre punta su qualcosa."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "prompt": "Portate la torre inoperosa sulla colonna che il vostro pedone c si è lasciato dietro.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "Su quella colonna non c'è più nessun vostro pedone, e in fondo stanno i due punti più deboli del Bianco."
+    }
+  ]
+}

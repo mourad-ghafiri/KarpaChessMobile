@@ -1,0 +1,13 @@
+{
+  "id": "history-07",
+  "fen": "r4rk1/pp3ppp/5n2/8/8/3Q1R2/PP4PP/1B4K1 w - - 0 1",
+  "solution": [
+    "Rxf6",
+    "gxf6",
+    "Qxh7#"
+  ],
+  "title": "Remove the Last Defender",
+  "setup": "The queen and bishop are both aimed at h7, and exactly one black piece is stopping them.",
+  "hint": "Ask what would happen on h7 if a single black piece vanished, then work out what that piece is worth to Black.",
+  "explanation": "## The Idea\n\nThe queen on d3 and bishop on b1 aim at h7, and only the knight on f6 stops the queen landing there with mate.\n\n{{Rxf6}} gives a rook for that knight. Take back with {{gxf6}} and {{Qxh7#}} follows: the bishop guards the queen, the queen covers g7 and h8, and f7 and f8 hold Black's own pawn and rook. Decline, and White is simply a knight up.\n\nWhen one piece guards the mating square, weigh it against the mate."
+}

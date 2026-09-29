@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-03",
+  "fen": "4k3/8/8/8/3q4/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxd4"
+  ],
+  "title": "Bedava Vezir, Alın",
+  "setup": "İki vezir karşı karşıya — ama yalnızca biri korunuyor.",
+  "hint": "Her zaman askıdaki taşları arayın. En basit taktik *bedava olanı almaktır*.",
+  "explanation": "## Fikir\n\nBu, taktiklerin en temelidir: boştaki taş. Siyahın d4'teki vezirinin koruyucusu yok ve d1'deki veziriniz d dikeyinden ona saldırıyor.\n\n{{Qxd4}} bir veziri bedavaya kazanır. e8'deki şah geri almak için fazla uzaktadır ve siyahın hiçbir taşı d4'ü korumaz.\n\nHer hamleden önce kontrol ettiğiniz hatlarda kimsenin korumadığı rakip taşları tarayın. John Nunn'un kuralı bunu en iyi anlatır: boştaki taşlar düşer."
+}

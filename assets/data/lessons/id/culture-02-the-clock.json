@@ -1,0 +1,62 @@
+{
+  "id": "chess-clock",
+  "title": "Jam Catur",
+  "summary": "Dua layar, satu sumber daya yang tak bisa Anda peroleh kembali",
+  "proof": "culture-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "Waktu Adalah Papan Kedua",
+      "text": "Tiga menit masing-masing, dan gajah Putih di c3 menyerang menteri Anda di b2.\n\nJam catur adalah dua layar dalam satu wadah, dan hanya satu yang berjalan. Layar Anda berjalan selama posisi itu menjadi masalah Anda. Tekan, dan jam Anda berhenti sementara jam Putih mulai berjalan.\n\nItu mengubah setiap pemikiran panjang menjadi pembelian. Anda membeli ketepatan dengan sumber daya yang tak pernah terisi ulang, dan makin pendek partainya makin tinggi harganya. Anda bisa memenangkan setiap pertukaran di papan dan tetap kalah, karena partai dimainkan di dua papan dan salah satunya sedang menghitung mundur."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "title": "Satu Tangan, Satu Tombol",
+      "text": "Aturan catur tegas soal tangan: Anda menggerakkan buah dan menekan tombol dengan tangan yang sama. Satu aturan itu mengakhiri sekumpulan trik — tak ada telapak cadangan yang parkir di atas jam, tak ada tekanan yang tiba sebelum buahnya.\n\nSebuah langkah selesai ketika buah dilepaskan. Giliran Anda belum selesai sampai tombol ditekan, dan setiap detik di antaranya dibebankan kepada Anda.\n\nJadi tekanan tombol adalah bagian dari langkah, bukan susulannya. Jam Anda sedang berjalan selagi Anda membaca ini."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2B2N2/PqP1PPPP/RN1QKB1R b KQkq - 1 6",
+      "prompt": "Menteri Anda diserang dan jam berjalan, jadi selamatkan dalam satu langkah tanpa memindahkannya.",
+      "targetSan": [
+        "Bb4"
+      ],
+      "hint": "Apa pun yang menangkap di b2 harus meninggalkan c3 lebih dulu — apa yang bisa Anda sejajarkan menembusnya sehingga meninggalkan petak itu menjadi tidak sah?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqP1PPPP/RN1QKB1R w KQkq - 2 7",
+      "title": "Satu Detik Melawan Tiga",
+      "text": "Gajah di b4 tak melindungi apa pun. Ia justru membuat penangkapan itu tidak sah: mengambil di b2 berarti meninggalkan diagonal yang melindungi raja di e1.\n\nJawaban itu menghabiskan sekitar satu detik milik Anda, dan menghabiskan lebih banyak milik Putih. {{Qd2}} merebut kembali diagonal itu dengan berdiri di sana, dan setelah berpikir lama Putih hanya membuat menteri Anda diserang lagi.\n\nLangkah murah bagi Anda, langkah mahal bagi lawan Anda. Itulah nilai tukar yang dibayarkan jam."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Mendapat Waktu Kembali",
+      "text": "Ada dua cara jam mengembalikan waktu, dan keduanya sama sekali berbeda.\n\n**Tambahan waktu** menambahkan jumlah tetap setiap kali Anda menekan, dan apa pun yang tak Anda pakai tersimpan. Partai `3+2` berarti tiga menit ditambah dua detik per langkah, jadi pemain yang cepat bisa selesai dengan waktu lebih banyak daripada saat memulai.\n\n**Tunda** justru menunggu. Setiap langkah mendapat jeda tetap sebelum waktu utama Anda mulai berkurang, dan bagian jeda yang tak Anda pakai lenyap begitu saja.\n\n> Tambahan waktu menggaji yang cepat. Tunda hanya melindungi yang lambat."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Klasik, Cepat, Blitz",
+      "text": "FIDE mengelompokkan partai menurut satu angka: waktu dasar ditambah enam puluh kali tambahan waktu, kira-kira yang akan Anda terima dalam partai enam puluh langkah.\n\nSepuluh menit atau kurang adalah blitz. Lebih dari itu dan kurang dari satu jam adalah catur cepat. Enam puluh menit ke atas adalah klasik, tempat sebuah partai bisa berlangsung enam jam dan satu langkah bisa menghabiskan empat puluh menit darinya.\n\nBullet — satu atau dua menit untuk seluruh partai — adalah istilah daring. Istilah itu tak muncul di mana pun dalam aturan resmi, yang tak pernah menghentikan siapa pun memainkannya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "title": "Ketika Bendera Jatuh",
+      "text": "Empat detik tersisa. Ungkapan itu berasal dari mesinnya: jam mekanis punya bendera logam kecil yang diangkat jarum menit lalu dijatuhkan, dan waktu masih disebut habis ketika bendera jatuh.\n\nKalah dalam perlombaan itu dan Anda kalah dalam partai, dengan satu pengecualian. Jika pemain yang masih punya waktu tak mungkin memberi sekakmat dengan apa yang tersisa — misalnya hanya raja — hasilnya remis.\n\nPada kecepatan ini mata langsung meraih {{Qxa1}} dan tangan yang hati-hati bertukar dengan {{Qxc3}}. Tak satu pun adalah langkahnya."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/1b6/2B2N2/PqPQPPPP/RN2KB1R b KQkq - 3 7",
+      "prompt": "Dengan dua detik di layar, biarkan benteng dan pertukaran menteri, dan ambil buah yang tadi menyerang menteri Anda.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "Jika Putih menangkap balik dengan menteri, menteri Anda sendiri punya sekak di baris pertama yang tak bisa dijawab buah putih mana pun."
+    }
+  ]
+}

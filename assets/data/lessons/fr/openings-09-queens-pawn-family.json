@@ -1,0 +1,56 @@
+{
+  "id": "queens-pawn-family",
+  "title": "Les ouvertures du pion dame",
+  "summary": "Occuper le centre, ou le contenir",
+  "proof": "openings-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Deux pions qui ne se touchent jamais",
+      "text": "Poussez le pion roi de deux cases et les pions centraux finissent par se fixer du regard, chacun sans protection, chacun devenant une cible dès le coup suivant.\n\nLe pion dame couvre le même terrain sans déclencher aucun combat. Un pion qui arrive en d4 est protégé par la dame en d1 dès son arrivée, et un pion noir qui vient en d5 est tout aussi bien protégé par sa propre dame. Rien ne peut être pris.\n\nCes parties s'ouvrent donc sans contact. Ce qui les décide est rarement une tactique au huitième coup. C'est une case que quelqu'un a mieux possédée au trentième."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Affronter de face",
+      "text": "{{d4}} {{d5}}. Les Noirs prennent la même part que les Blancs, et les deux pions se bloquent sur des cases où aucun des deux ne peut prendre.\n\nLes Blancs changent donc de sujet : {{c4}}, un pion d'aile offert contre un pion central. C'est le Gambit Dame, la plus ancienne ouverture de la famille.\n\nLe pion est proposé plutôt que donné. Les Noirs peuvent le prendre, et le font souvent, mais le garder coûte tant de coups que le pion revient d'ordinaire — avec les pièces blanches déjà sorties et tournées vers le centre."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Le laisser en place",
+      "text": "Les Noirs n'ont pas mis de pion au centre, et c'est un plan plutôt qu'un retard. Le cavalier en f6 empêche déjà le pion e blanc d'atteindre e4, et le pion en e6 ouvre une route à un fou.\n\nCe sont les défenses indiennes, et elles se distinguent par la pièce qui mène la discussion.\n\n- **L'est-indienne** abandonne le centre, place un fou en fianchetto en g7 et fait sauter le mur plus tard.\n- **La nimzo-indienne** envoie un fou en b4 pour échanger le cavalier qui protégerait e4.\n- **L'ouest-indienne** pointe un fou le long de la grande diagonale blanche sur cette même case."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+      "prompt": "Ouvrez la grande diagonale de cases blanches pour que votre fou dame participe à la dispute autour de e4.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Le fou en c8 a une diagonale qui atteint e4, et l'un de vos propres pions est garé sur sa première case."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "Deux fous, une diagonale",
+      "text": "Les Blancs ont revendiqué la même route. Le pion en g3 n'est pas un coup de développement en soi — c'est la porte d'un fou vers g2, qui regarde e4 depuis le bord de l'échiquier.\n\n{{Bb7}} {{Bg2}}, et les fous se font face le long de la diagonale, avec e4 au milieu. Les Blancs ajoutent ensuite un cavalier en c3, et le compte sur e4 bascule.\n\nLa réponse directe ne suffit donc pas à elle seule. Les Noirs doivent trouver une seconde chose à frapper."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "title": "Personne ne surveille c4",
+      "text": "Reprenez les quatre coups des Blancs et demandez-vous lequel défend quelque chose. Le pion en c4 n'est protégé par rien du tout : aucune pièce ne se tient derrière lui, et le pion en b2 n'a pas avancé pour le soutenir.\n\nC'est le coût permanent du pion d'aile poussé par les Blancs au deuxième coup. Il prend de l'espace, puis il faut s'en occuper, et un fou en route vers g2 regarde de l'autre côté.\n\nContenir n'est pas subir. C'est attendre le coup auquel il faut répondre.\n\n> Un pion que personne ne défend décide de l'endroit où se joue la partie."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+      "prompt": "Attaquez le pion que rien ne défend, et obligez les Blancs à le soutenir avec un pion plutôt qu'avec une pièce.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Votre fou dame a deux sorties depuis c8. L'une arrive sur une case qui voit c4."
+    }
+  ]
+}

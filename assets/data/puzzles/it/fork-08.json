@@ -1,0 +1,14 @@
+{
+  "id": "fork-08",
+  "fen": "1kbr4/pp6/2P5/8/8/8/5PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "c7+",
+    "Ka8",
+    "cxd8=Q"
+  ],
+  "rating": 950,
+  "title": "Il Pedone Si Prende Tutto",
+  "setup": "Il vostro pedone in c6 è a due passi da una donna nuova, con il re nero in b8 e una torre in d8.",
+  "hint": "Un pedone attacca due case in diagonale. Trovate l'avanzata che le colpisce tutte e due, poi contate chi la difende.",
+  "explanation": "## L'idea\n\n{{c7+}} attacca insieme b8 e d8, e la torre in c1 difende il pedone, quindi il re non può mangiarlo. I suoi pedoni e il suo alfiere lasciano solo {{Ka8}}, e {{cxd8=Q}} prende la torre e porta una donna nuova in una mossa sola."
+}

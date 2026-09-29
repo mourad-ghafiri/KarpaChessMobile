@@ -1,0 +1,13 @@
+{
+  "id": "openings-15",
+  "fen": "rnbq1rk1/pp2ppbp/3p1np1/2P5/2P1PP2/2N2N2/PP4PP/R1BQKB1R b KQ - 0 7",
+  "solution": [
+    "Qa5",
+    "Bd3",
+    "Qxc5"
+  ],
+  "title": "Diundang, Lalu Direbut Kembali",
+  "setup": "Putih membangun pusat yang besar dan baru saja menangkap di c5, berharap mempertahankan pion tambahan. Rebut kembali pion itu dengan langkah yang juga menjepit seekor kuda.",
+  "hint": "Raja Putih masih di rumah, dan salah satu kudanya berdiri di diagonal yang menuju ke sana. Di mana menteri Anda bisa mengerjakan dua tugas?",
+  "explanation": "## Ide\n\nPertahanan India Raja membiarkan Putih merebut pusat, lalu menanyakan dengan apa semua itu dilindungi.\n\n{{Qa5}} mengerjakan dua tugas: menjepit kuda di c3 terhadap raja di e1, dan menyerang pion di c5 di sepanjang baris kelima. Pilihan terbaik Putih adalah mengembangkan buah dengan {{Bd3}}, dan {{Qxc5}} langsung merebut pion itu kembali.\n\nMateri seimbang, dan pion-pion Putih di c4, e4 dan f4 kini harus membuktikan bahwa semuanya kekuatan, bukan sasaran.\n\nRuang hanya menjadi keunggulan selama ruang itu bisa dipertahankan."
+}

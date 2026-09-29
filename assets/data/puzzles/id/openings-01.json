@@ -1,0 +1,13 @@
+{
+  "id": "openings-01",
+  "fen": "rnb1kbnr/pppp1ppp/8/4p3/2B1q3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 5",
+  "solution": [
+    "Bxf7+",
+    "Kxf7",
+    "Ng5+"
+  ],
+  "title": "Menteri Membayar Tagihan",
+  "setup": "Menteri Hitam menghabiskan pembukaan dengan mengejar pion dan baru saja mengambil satu di pusat. Temukan pengorbanan yang menyiapkan garpu kuda.",
+  "hint": "Lompatan kuda ke g5 akan menyerang f7 dan e4 sekaligus. Apa yang diperlukan agar raja hitam berdiri di f7?",
+  "explanation": "## Ide\n\nMenteri hitam menghabiskan pembukaan untuk merebut pion sementara Putih melakukan rokade dan mengembangkan buah, dan kini tagihannya jatuh tempo.\n\n{{Bxf7+}} menyerahkan gajah untuk menyeret raja maju. Jika {{Kxf7}}, maka {{Ng5+}} menggarpu raja di f7 dan menteri di e4, dan menteri hilang.\n\nMenolak dengan {{Kd8}} menyelamatkan menteri tetapi membuat raja hitam terdampar di tengah, dan Putih tetap menang.\n\nMenteri yang memburu pion di pembukaan akhirnya diburu sendiri."
+}

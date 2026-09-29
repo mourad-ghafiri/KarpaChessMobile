@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-01",
+  "fen": "8/8/8/7P/3k4/8/8/K7 b - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "rating": 1100,
+  "title": "Dentro do Quadrado",
+  "setup": "As brancas acabaram de empurrar o peão h para a quinta, e o próprio rei está encalhado no canto oposto.",
+  "hint": "Desenha o quadrado h5–h8–e8–e5 e pergunta qual das tuas jogadas de rei aterra mesmo lá dentro.",
+  "explanation": "## A Ideia\n\nUm peão em h5 precisa de três jogadas para fazer dama, portanto qualquer rei que chegue ao quadrado h5–h8–e8–e5 apanha-o. De d4 só {{Ke5}} entra: {{h6}} {{Kf6}} e o rei acompanha o peão até h8. Todas as outras jogadas ficam a um tempo de distância."
+}

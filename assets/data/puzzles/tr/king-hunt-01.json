@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-01",
+  "fen": "2Rb4/k7/6p1/5QR1/6K1/2n5/8/r7 w - - 0 1",
+  "solution": [
+    "Qd7+",
+    "Ka6",
+    "Qc6+",
+    "Ka7",
+    "Ra8#"
+  ],
+  "rating": 1350,
+  "title": "Şahı Köşeye Yürütün",
+  "setup": "Siyahın şahı a7'de, d8'deki filinin yanında oturuyor ve veziriniz ile iki kaleniz ona ulaşacak kadar yakın.",
+  "hint": "Her hamle bir şah olmalı. Bırakın vezir şahı a7'ye doğru gütsün, sonuncusunu da bir kale çeksin.",
+  "explanation": "## Fikir\n\n{{Qd7+}} ile {{Qc6+}} mat etmeye çalışmaz. Her şah bir kare alır; ta ki şah elinde hiçbir şey kalmadan a7'ye dönene ve {{Ra8#}} gelene kadar. Av, her biri bir seçeneği ortadan kaldıran şahlar dizisidir."
+}

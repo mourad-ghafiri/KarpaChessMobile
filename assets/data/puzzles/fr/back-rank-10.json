@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-10",
+  "fen": "6k1/5p1p/6p1/8/8/8/1B6/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "La trappe de secours qui n'en était pas une",
+  "setup": "Les Noirs ont dépensé un coup en g6 pour donner de l'air au roi — mais l'air n'aide que si la case de fuite est sûre.",
+  "hint": "Les Noirs comptent sur g7. Vérifiez ce que vise depuis le début votre pièce la plus discrète.",
+  "explanation": "## L'idée\n\nLes Noirs ont poussé le pion g pour donner au roi une case où fuir, et la case ainsi créée est g7. Le fou en b2 surveille la grande diagonale depuis le début, et g7 est dessus.\n\n{{Rd8#}} : f8 et h8 sont sur la rangée de la tour, f7 et h7 sont occupées par les propres pions noirs, et l'unique case de fuite construite par les Noirs est déjà couverte."
+}

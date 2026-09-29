@@ -1,0 +1,11 @@
+{
+  "id": "endgame-01",
+  "fen": "8/8/8/4k3/2P5/2K5/8/8 b - - 0 1",
+  "solution": [
+    "Kd6"
+  ],
+  "title": "Get in Front of It",
+  "setup": "White's king is escorting its pawn, and you have exactly one move that holds the draw.",
+  "hint": "The defender belongs in front of the pawn. Which step brings your king toward the squares ahead of it without falling a move behind?",
+  "explanation": "## The Idea\n\nAgainst king and pawn, the defending king belongs in front of the pawn, facing the other king.\n\n{{Kd6}} is the only move that keeps the draw: it heads for the squares ahead of the pawn while there is still time to take them, and from c6 or c7 it can meet the white king across one empty square. Every other step arrives a move late, and White's king gets in front first.\n\nIn front of the pawn, and facing the enemy king. Both, every time."
+}

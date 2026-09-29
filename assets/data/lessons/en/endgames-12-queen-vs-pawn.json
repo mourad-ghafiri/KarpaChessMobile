@@ -1,0 +1,50 @@
+{
+  "id": "queen-vs-pawn",
+  "title": "Queen vs a Pawn on the Seventh",
+  "summary": "Not a race — a way of buying moves",
+  "proof": "endgames-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "The Race Is Already Lost",
+      "text": "Black's pawn on d2 is one move from a queen, and White's king on h6 is nowhere near enough to stop it.\n\nChasing does not help either. The queen on a8 cannot take the pawn while the black king on c2 stands beside it, and a lone queen cannot force mate. That takes White's king, and White's king needs time.\n\nSo that is what the queen is playing for here. Not the pawn. The time."
+    },
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "Checks Are Currency",
+      "text": "A check has to be answered. While Black answers, Black is not pushing, and the move Black loses is the move White's king spends walking.\n\nSo the checks have a destination, and it is not the pawn. Drive the black king onto d1, the square its own pawn is trying to reach. A king parked there is a roadblock the pawn cannot go around and cannot ask to move.\n\nThen look at what Black has left: no check to answer, no pawn move, and a king with almost nowhere to stand. That is when White's king steps forward for free."
+    },
+    {
+      "type": "play",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "prompt": "You cannot reach the pawn in time, so start taking moves away from the king instead.",
+      "targetSan": [
+        "Qe4+"
+      ],
+      "hint": "Five checks are on offer; pick the one that also rakes the e-file, so the king can never slip past its pawn on that side."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "title": "Count Black's Replies",
+      "text": "The king is on d1 now, standing on the exact square its pawn wanted.\n\nCount what is left. The pawn on d2 cannot move; its own king is in the way. The queen on e4 covers e1, e2 and c2. That leaves c1. Black has exactly one legal move, and it is not a pawn move.\n\nWhich makes White's turn free. Walk the king, let Black shuffle, then check again and steer the king back in front of the pawn. Every cycle costs Black a move and gains White a square.\n\n> The queen is not chasing the pawn. It is buying moves for the king."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/K7/8/6Q1/8/7p/7k w - - 0 1",
+      "title": "Two Files That Hold",
+      "text": "The machine wins against a center pawn or a knight pawn. Against a rook pawn or a bishop pawn it can jam, and this is how.\n\nBlack's pawn on h2, the king on h1, White's queen on g4 holding g1 and g2: the same grip that won on the d-file. So spend the free move. {{Kb5}}, and it is Black's turn with no check to answer and no legal move on the board. Stalemate, half a point.\n\nThe blocked king has to have one square to crawl to. In the corner there is none."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "prompt": "Back on the d-file, Black's king blocks its own pawn and has nothing useful to do, so bank the free move.",
+      "targetSan": [
+        "Kg5"
+      ],
+      "hint": "Every move you bank has to shorten the journey, so pick the direction your king actually needs to travel."
+    }
+  ]
+}

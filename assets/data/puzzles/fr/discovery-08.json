@@ -1,0 +1,12 @@
+{
+  "id": "discovery-08",
+  "fen": "1rk1q3/1p3ppp/4p3/8/2B5/8/P4PPP/2Q3K1 w - - 0 1",
+  "solution": [
+    "Bb5+"
+  ],
+  "rating": 1240,
+  "title": "La dame derrière le fou",
+  "setup": "Votre dame en c1 vise le long de la colonne c, et votre propre fou en c4 est la seule chose qui la bloque.",
+  "hint": "Où le fou peut-il aller pour ouvrir la colonne et commencer à viser quelque chose sur la huitième rangée ?",
+  "explanation": "## L'idée\n\n{{Bb5+}} démasque l'échec de la dame le long de la colonne c et vise en même temps e8 le long de b5-c6-d7. Les Noirs doivent d'abord parer l'échec, donc après Kd8 le fou ramasse la dame. S'interposer par Qc6 ne fait que la livrer un coup plus tôt."
+}

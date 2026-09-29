@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-03",
+  "fen": "rnb1k1nr/ppp2ppp/3b4/8/8/2N3P1/PPPPP3/R1BQKBNR b KQkq - 0 6",
+  "solution": [
+    "Bxg3#"
+  ],
+  "rating": 655,
+  "title": "A Dama Foi o Preço",
+  "setup": "Entregaste a dama em g3 na jogada anterior, e as brancas já não têm peão em f2 nem em h2.",
+  "hint": "As brancas já não têm peão em f2. Encontra a peça que cobre esse buraco no momento em que aterra.",
+  "explanation": "## A Ideia\n\nSem f2 nem h2, a diagonal de h4 a e1 pertence às pretas. {{Bxg3#}} come o último peão dessa estrada e nada pode recapturar: o cavalo de g1 não chega a g3 e a torre de h1 está na linha errada. f2 é a única casa de fuga, e o bispo cobre-a."
+}

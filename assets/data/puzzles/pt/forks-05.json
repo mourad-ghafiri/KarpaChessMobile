@@ -1,0 +1,11 @@
+{
+  "id": "forks-05",
+  "fen": "6k1/5ppp/2q5/3N4/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Ne7+"
+  ],
+  "title": "O Cavalo Agarra Uma Dama",
+  "setup": "A dama preta em c6 ataca o teu cavalo de d5. Mexer o cavalo não chega; faz com que ele responda.",
+  "hint": "Um salto de cavalo dá xeque e ataca a dama ao mesmo tempo.",
+  "explanation": "## A Ideia\n\n{{Ne7+}} dá xeque ao rei de g8 e ataca a dama de c6 num só salto. Nada de preto guarda e7, e um xeque de cavalo não se pode tapar, portanto o rei tem de mexer. Depois de {{Kf8}} ou {{Kh8}}, {{Nxc6}} ganha a dama.\n\nUm garfo com xeque é o tipo mais forte: a jogada do rei gasta a vez das pretas, e o segundo alvo cai."
+}

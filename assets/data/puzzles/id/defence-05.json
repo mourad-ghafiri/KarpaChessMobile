@@ -1,0 +1,14 @@
+{
+  "id": "defence-05",
+  "fen": "3Q4/bq6/5R2/8/8/7r/4K3/2k5 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kb1",
+    "Rf1#"
+  ],
+  "rating": 1610,
+  "title": "Dua Langkah, Tak Lebih",
+  "setup": "Raja Anda di e2 terkurung oleh menteri, benteng dan gajah Hitam, dan raja Hitam telah merayap ke c1.",
+  "hint": "Anda tak bisa bertahan dan menyerang sekaligus. Hitung berapa sekak yang Anda punya dan apakah semuanya akan habis.",
+  "explanation": "## Ide\n\n{{Qd2+}} memaksa {{Kb1}}, dan {{Rf1#}} memberi mat di sepanjang baris pertama. Tak pernah ada langkah bertahan yang layak dimainkan — posisi ini ditentukan oleh serangan siapa yang satu tempo lebih pendek."
+}

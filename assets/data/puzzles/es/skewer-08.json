@@ -1,0 +1,14 @@
+{
+  "id": "skewer-08",
+  "fen": "8/N3R1R1/p1p2kr1/7n/P1p5/5r1P/P6K/8 w - - 0 1",
+  "solution": [
+    "Rgf7+",
+    "Kg5",
+    "Rxf3"
+  ],
+  "rating": 1180,
+  "title": "Las torres dobladas deciden",
+  "setup": "Tus torres están dobladas en la séptima fila, y una torre negra está en la columna f detrás de su propio rey.",
+  "hint": "Dos torres en una fila significan que una puede avanzar mientras la otra la defiende. ¿Qué columna importa?",
+  "explanation": "## La idea\n\n{{Rgf7+}} pone una torre en la columna f con el rey delante y la torre de **f3** detrás. La torre de **e7** defiende f7, así que el rey no puede comer. Tras {{Kg5}} la columna queda despejada y {{Rxf3}} gana la torre."
+}

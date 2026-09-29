@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-09",
+  "fen": "7k/5K1p/8/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Its Own Pawn, Its Own Cage",
+  "setup": "Black's king sits in the corner behind its own pawn on h7, and your king on f7 stands close by.",
+  "hint": "Your king already covers g7 and g8. The rook only has to reach the back rank.",
+  "explanation": "## The Idea\n\n{{Ra8#}} checks along the back rank. Your king on f7 covers g7 and g8, Black's own pawn fills h7, and nothing can capture the rook or block the check.\n\nIn a king and rook ending, your king boxes the enemy king in and the rook gives the check."
+}

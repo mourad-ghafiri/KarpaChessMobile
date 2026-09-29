@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-17",
+  "fen": "2B1k3/8/4K3/8/8/8/8/7Q w - - 0 1",
+  "solution": [
+    "Qh8#"
+  ],
+  "title": "İşi Yatay Görüyor",
+  "setup": "e6'daki şahınız siyahın şahının iki kare önünde duruyor ve veziriniz uzakta, köşede.",
+  "hint": "Şahınız yedinci yatayda siyahın şahının kullanabileceği her kareyi zaten kapsıyor. Sekizincide bir şah bulun.",
+  "explanation": "## Fikir\n\n{{Qh8#}} arka yatay boyunca şah çeker. e6'daki şahınız d7, e7 ve f7'yi kapsar; d8 ile f8 vezirin hattındadır. h8 ile e8 arasına hiçbir şey giremez.\n\nc8'deki fil yalnızca d7'yi ikinci kez kapsar: işi şahınız ile veziriniz görür. Rakip şahın iki kare önündeki bir şah, vezire alacak tek bir yatay bırakır."
+}

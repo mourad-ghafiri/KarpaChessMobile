@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-25",
+  "fen": "4k3/R7/4K3/8/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Oposición y barrido",
+  "setup": "Los reyes están frente a frente en la columna e, y tu torre espera en la séptima fila.",
+  "hint": "Sube la torre a la octava fila. Tu rey de e6 ya cubre la séptima.",
+  "explanation": "## La idea\n\nEs el mate básico de rey y torre. Los reyes se miran de frente, y la torre da jaque a distancia.\n\n{{Ra8#}} da jaque por la última fila. d8 y f8 están en la línea de la torre, tu rey de e6 cubre d7, e7 y f7, y nada puede tapar.\n\nReyes frente a frente y torre en la fila del rey rival: la mayoría de los finales de rey y torre terminan exactamente así."
+}

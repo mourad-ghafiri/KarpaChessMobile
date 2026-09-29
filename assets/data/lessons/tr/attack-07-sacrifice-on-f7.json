@@ -1,0 +1,56 @@
+{
+  "id": "sacrifice-on-f7",
+  "title": "f7 Fedası",
+  "summary": "Tek koruyucu ve o da şah",
+  "proof": "f7-sacrifice-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "İkisi Dışında Her Piyon",
+      "text": "Bir şahın önündeki her piyonun arkasında bir taş vardır, ikisi dışında. f7 ile f2'yi yalnızca şah korur ve o şah rok yapana ya da yardıma bir taş sürüklenene kadar da öyle kalır.\n\nSiyah bunların ikisini de yapmadı. h8'deki kale hiç oynamadı, f8'deki fil de oynamadı ve d8'deki vezir d5'teki atı tutmakla meşgul.\n\nYani f7'ye inen bir taşa ucuz bir geri almayla cevap verilemez. Cevap verecek ucuz bir şey kalmamıştır. İşi şahın bizzat yapması gerekir."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Satın Aldığına Göre Fiyatlanır",
+      "text": "Bir piyon karşılığında taş, kâğıt üstünde kaybettiren bir takastır. Burada hiç takas değildir, çünkü siyahın hayır deme hakkı yoktur.\n\nBir atın f7'den ulaştığı kareleri sayın. Bunlardan ikisi, vezirin ve kalenin oturduğu d8 ile h8'dir; yani reddetmek kabul etmekten pahalıya gelir.\n\nKabul etmek ise şahı, henüz hiç oynamamış bir ordunun önünde f7'ye sürükler. c4'teki filiniz d5'teki ata çoktan yaslanmış durumda ve çaprazı kapalı tutan tek şey o at."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "prompt": "Siyahın şahının koruduğu tek piyonu almak ve o şahı açığa çıkarmak için bir taş verin.",
+      "targetSan": [
+        "Nxf7"
+      ],
+      "hint": "f7'ye taşlarınızdan yalnızca biri ulaşabiliyor — öteki yol d5'te kapalı."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/ppp2kpp/2n5/3np3/2B5/8/PPPP1PPP/RNBQK2R w KQ - 0 7",
+      "title": "Artık Sorun Şahın Kendisi",
+      "text": "Şah yedinci hamlede f7'de dışarıda ve ilk yaptığı şey yolu kesmek oluyor. c4'teki filiniz d5'teki atın içinden dosdoğru o şaha bakıyor, yani at açmazda ve hiç oynayamıyor.\n\n{{Qf3+}} d5'e şah çekerek ikinci bir saldıran getirir. Siyahın şahının beş karesi var ve {{Ke6}}, açmazdaki atı koruyan karedir — bir taşı bir arada tutmak için tahtada yukarı yürüyen bir şah. Sonra {{Nc3}}: üç saldıran, iki koruyucu ve koruyuculardan biri şahın kendisi."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "Yem, Yine de Alın",
+      "text": "Başka bir tahta ve burada f7 ikram ediliyor. Siyahın c5'teki fili az önce, sizin tarafınızda aynı yalnız koruyucuya sahip kare olan f2'nin karşısına dikildi.\n\nf7 fedalarının çoğu kimseyi mat etmez ve bu da etmeyecek. Bir taşın burada satın aldığı şey daha küçük ve kalıcıdır. Siyahın şahı, g5'teki at f7'yi kapsadığı sürece orada alamaz; bu yüzden e7 ya da f8'e çekilir ve partinin sonuna kadar rok hakkından olur — kendi h8'deki kalesinin önüne park etmiş, c8'deki fil de arkasında duvara alınmış hâlde."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "İki Giriş Yolu",
+      "text": "Taşlarınızdan ikisi f7'ye ulaşabiliyor ve farklı şeyler satın alıyorlar.\n\n{{Nxf7}} veziri ve kaleyi çatallar; önceki pozisyonun size istemeyi öğrettiği hamle budur. Aynı zamanda siyahın son hamlesinin davet ettiği hamledir: {{Bxf2+}} gelir ve bu kez şah altında kalan sizin şahınız olur; üç kurallı hamle ve önünüzde çılgın bir kavga. Oynanabilir, ama bu, siyahın seçtiği kavgadır.\n\n> Taşı harcamadan önce ne satın aldığınıza karar verin: bir mat mı, yoksa hiç ayrılamayan bir şah mı."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "prompt": "f7'deki piyonu, siyahın ummadığı taşla alın ve siyahın rok hakkını temelli bitirin.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "Atla alma, siyahın hazırlandığı hamle — öteki saldıranınızın girerken ne yaptığına bakın."
+    }
+  ]
+}

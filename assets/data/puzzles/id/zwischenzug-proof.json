@@ -1,0 +1,13 @@
+{
+  "id": "zwischenzug-proof",
+  "fen": "r1b2rk1/pp3ppp/1Q1p4/4p3/3nP3/8/PPP1BPPP/R1B2RK1 b - - 0 1",
+  "solution": [
+    "Nxe2+",
+    "Kh1",
+    "axb6"
+  ],
+  "title": "Menteri Bisa Menunggu",
+  "setup": "Menteri Putih baru saja mengambil menteri Anda di b6. Menangkap balik adalah langkah yang jelas, dan bukan yang terbaik.",
+  "hint": "Tangkapan balik Anda bisa menunggu satu langkah, asalkan langkah sebelumnya adalah sekak.",
+  "explanation": "## Ide\n\n{{axb6}} seketika adalah pertukaran seimbang, lalu Putih tinggal memindahkan gajah di e2 menjauh dari kuda Anda. Jadi beri sekak dulu. {{Nxe2+}} mengambil gajah, dan {{Kh1}} satu-satunya langkah sah Putih. Menteri di b6 masih berdiri di sana, dan {{axb6}} mengambilnya. Anda menangkap balik terlambat satu langkah dan lebih kaya satu gajah utuh."
+}

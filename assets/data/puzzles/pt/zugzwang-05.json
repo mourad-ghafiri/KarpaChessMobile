@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-05",
+  "fen": "5B2/8/8/7k/4K3/8/6p1/6Q1 w - - 0 1",
+  "solution": [
+    "Kf5",
+    "Kh4",
+    "Qh2#"
+  ],
+  "rating": 1530,
+  "title": "O Rei É a Jogada de Espera",
+  "setup": "Os reis estão em e4 e h5, as pretas têm um peão a uma casa da promoção em g2, e a tua dama guarda g1.",
+  "hint": "Nenhuma das tuas peças se pode dar ao luxo de mexer. Olha para a que ainda não consideraste.",
+  "explanation": "## A Ideia\n\n{{Kf5}} tira g4, g5 e g6 e entrega a jogada às pretas. Só {{Kh4}} é legal, e {{Qh2#}} dá mate ao rei contra a berma. Um passo de rei é uma jogada de espera que constrói também a rede."
+}

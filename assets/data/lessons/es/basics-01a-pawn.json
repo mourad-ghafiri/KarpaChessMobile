@@ -1,0 +1,60 @@
+{
+  "id": "pawn-moves",
+  "title": "Un peón nunca retrocede",
+  "summary": "Avanza recto, captura en diagonal y jamás da un paso atrás",
+  "proof": "first-steps-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "Una casilla, una dirección",
+      "text": "Cada jugada de peón es para siempre. Un peón avanza recto, de casilla en casilla, y solo a una casilla vacía: una pieza delante de él es un muro.\n\nEl peón de e2 avanza a {{e3}}. Desde ahí puede seguir subiendo, pero nada en las reglas lo devolverá nunca a e2. Cualquier otra pieza puede volver por donde vino. El peón, no.\n\nEl terreno que cede un peón queda cedido para el resto de la partida."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "La primera jugada puede ser doble",
+      "text": "Una excepción, y cada peón la disfruta exactamente una vez.\n\nDesde su casilla inicial, un peón puede avanzar dos casillas en lugar de una, siempre que las dos estén vacías. Este peón de e tiene la opción ahora mismo: {{e3}} o {{e4}}. Ninguna es más correcta que la otra.\n\nLa oferta caduca en cuanto el peón sale de casa. Después es una casilla por jugada hasta la última fila, donde un peón que sobrevive a la marcha se convierte en algo mucho más fuerte, en una lección propia."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "prompt": "Avanza el peón: una casilla, o dos mientras siga en su casilla inicial.",
+      "targetSan": [
+        "e3",
+        "e4"
+      ],
+      "hint": "Un peón solo va hacia delante, y el salto de dos casillas solo se ofrece en su primera jugada."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "Lucha en diagonal",
+      "text": "Quitar una pieza rival es una **captura**: sale del tablero y tú ocupas su casilla. Todas las piezas capturan. El peón es la única que captura de forma distinta a como se mueve.\n\nUn peón nunca captura la pieza que tiene justo delante: recto es para caminar, y solo hacia casillas vacías. El golpe va una casilla en diagonal hacia delante, a la izquierda o a la derecha.\n\nEl peón negro de d5 se ha puesto a tiro. Está en una de las dos casillas que puede golpear tu peón de e4.\n\n> Recto para avanzar, en diagonal para capturar. Todo el peón cabe en esa asimetría."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "El peón negro de d5 está donde tu peón puede alcanzarlo: sácalo del tablero.",
+      "targetSan": [
+        "exd5"
+      ],
+      "hint": "El paso y el golpe de un peón van en direcciones distintas: cuenta una casilla en diagonal hacia delante desde e4."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "La marca de la captura",
+      "text": "Una captura se escribe con una **x**, entre la pieza que mueve y la casilla a la que llega.\n\nEl peón no tiene letra mayúscula, así que presta su columna. La jugada que acabas de hacer se escribe {{exd5}}: el peón de e captura en d5. La letra de delante dice qué peón salió; la casilla, adónde llegó.\n\nA partir de ahora esa **x** significa lo mismo, la haga quien la haga."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4pp2/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "El peón negro de e5 bloquea el camino: encuentra la única jugada que le queda a tu peón.",
+      "targetSan": [
+        "exf5"
+      ],
+      "hint": "Un peón no puede capturar la pieza que tiene justo delante, y junto a ese hay un segundo peón negro."
+    }
+  ]
+}

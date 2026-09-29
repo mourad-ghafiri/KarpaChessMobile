@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-11",
+  "fen": "3r2k1/2q2ppp/8/8/8/8/3R1PPP/3Q2K1 w - - 0 1",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Qxd8#"
+  ],
+  "title": "Belirleyici Üst Üste Diziliş",
+  "setup": "Kaleniz ile veziriniz açık d dikeyinde üst üste dizilmiş. Siyahın kalesi arka yatayı koruyor ve veziri c7'de onun arkasında duruyor.",
+  "hint": "Tek karede iki saldırana karşı iki koruyucu. Öndeki taşları değişin ve ayakta hangi taşın kaldığına bakın.",
+  "explanation": "## Fikir\n\nAçık bir dikeyde üst üste dizilmek aritmetiktir. Beyazın iki taşı d8'e vuruyor, siyahın iki taşı orayı koruyor.\n\n{{Rxd8+}} sayımı şah çekerek başlatır ve {{Qxd8}} tek kurallı cevaptır. Sonra {{Qxd8#}} matla geri alır: f8 ile h8 vezirin yatayındadır ve f7, g7 ile h7'de siyahın piyonları durur.\n\nSayılar eşit olduğunda önce alan taraf, karede kalan son taşı elinde tutar."
+}

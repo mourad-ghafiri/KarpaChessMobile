@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-06",
+  "fen": "1k6/8/8/5Q2/8/3Kp3/6B1/8 w - - 0 1",
+  "solution": [
+    "Qd7",
+    "e2",
+    "Qb7#"
+  ],
+  "rating": 1560,
+  "title": "Laissez courir le pion",
+  "setup": "Le roi noir est en b8 et son pion en e3 est à deux cases de la promotion, avec votre roi juste à côté en d3.",
+  "hint": "Le pion n'est pas le danger. Prenez les cases du roi et laissez-le avancer.",
+  "explanation": "## L'idée\n\n{{Qd7}} couvre a7, b7, c7 et c8 sans donner échec. Le seul coup légal des Noirs est {{e2}}, et {{Qb7#}} arrive le premier. Un pion passé qui va à dame un coup trop tard n'est pas un pion passé."
+}

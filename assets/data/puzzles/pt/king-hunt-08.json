@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-08",
+  "fen": "1b1K1R2/2R4p/2Q5/1B3r1k/1p6/8/8/8 w - - 0 1",
+  "solution": [
+    "Rxf5+",
+    "Kg4",
+    "Qf3+",
+    "Kh4",
+    "Rh5#"
+  ],
+  "rating": 1590,
+  "title": "Troca Para Dentro da Rede",
+  "setup": "O rei preto fugiu para h5 com uma torre sozinha em f5 ao lado, e a tua dama e as duas torres estão ali perto.",
+  "hint": "A torre que defende parece a peça a deixar em paz. Vê no que se tornam as casas do rei sem ela.",
+  "explanation": "## A Ideia\n\n{{Rxf5+}} ganha a torre com xeque, {{Qf3+}} empurra o rei para h4, e {{Rh5#}} é mate com a dama de f3 a segurar a torre. Comer o último defensor é uma jogada de caça, não uma jogada gulosa."
+}

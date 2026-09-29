@@ -1,0 +1,50 @@
+{
+  "id": "etiquette",
+  "title": "Tata Krama di Papan",
+  "summary": "Aturan yang tak pernah tercetak di kemasan catur",
+  "proof": "culture-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "title": "Tangan Anda Tiba Lebih Dulu",
+      "text": "Sentuh salah satu buah Anda sendiri dalam partai resmi dan Anda telah memilihnya. Buah yang Anda sentuh adalah buah yang bergerak, selama ia punya langkah sah. Sentuh buah lawan dengan maksud mengambilnya dan Anda harus mengambilnya. Tanpa menarik langkah, tanpa permintaan maaf.\n\nPutih dalam sekak. Raja di e1 hanya punya tepat dua petak, {{Kf1}} dan {{Ke2}}, dan keduanya melepaskan hak rokade untuk sisa partai.\n\nAda langkah yang lebih baik di papan ini. Senggol raja selagi Anda masih mencarinya dan langkah itu hilang."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "prompt": "Pertahankan hak rokade Anda dengan menghalangi sekak memakai kuda yang juga menguasai d5 dan b5.",
+      "targetSan": [
+        "Nc3"
+      ],
+      "hint": "Dua petak menghalangi diagonal itu. Satu mengurung gajah Anda di c1; yang lain memandang ke separuh papan Hitam."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/2N2N2/PP3PPP/R1BQK2R b KQk - 2 7",
+      "title": "Ucapkan Sebelum Menyentuh",
+      "text": "Kuda Anda di c3 duduk miring, setengahnya di b3. Anda boleh meluruskannya. Anda tidak boleh begitu saja mengulurkan tangan dan melakukannya.\n\nUcapkan *j'adoube* lebih dulu — bahasa Prancis untuk \"saya membetulkan\" — dengan suara yang terdengar, sebelum jari Anda tiba, dan hanya pada giliran Anda. Di sini giliran Hitam, jadi kuda tetap miring dan Anda menunggu.\n\nItu hampir seluruh kosakatanya. Tak ada yang mengumumkan sekak, tak ada yang mengomentari langkah, dan Anda tidak mengeluh ketika lawan Anda menemukan langkah yang bagus."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "Tawaran Punya Urutan",
+      "text": "Papan baru, dan yang ini lebih buruk: Anda tertinggal satu menteri. Gajah Hitam di d1 mengambilnya langkah lalu, dan Hitam baru saja menawarkan remis.\n\nAda urutannya. Mainkan langkah Anda, tawarkan remis, lalu tekan jam. Tawaran itu tak bersyarat dan tak bisa ditarik — ia berlaku sampai lawan Anda menerimanya, menolaknya dengan ucapan, atau menyentuh buah dengan maksud menggerakkannya, yang dengan sendirinya berarti menolak.\n\nMenawarkan lagi setiap beberapa langkah bukanlah kegigihan. Itu gangguan, dan wasit berhak menanganinya sebagai gangguan."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "Cara Kalah, dan Kapan Jangan",
+      "text": "Ketika sebuah partai sudah hilang, katakanlah. Aturan menghendaki pernyataan — ucapkan dengan jelas — bukan raja yang dirobohkan ke samping, yang hanyalah sandiwara dan membuat lawan Anda menebak-nebak. Lalu jabat tangan, yang tak diwajibkan aturan mana pun dan dilakukan semua orang.\n\nTak satu pun berlaku di sini. Pemain yang unggul satu menteri utuh tak butuh remis, jadi tawaran itu adalah langkah terbaik yang bisa ditemukan Hitam, dan langkah itu tak ada di papan.\n\nRaja Anda belum rokade dan menteri Anda sudah hilang. Tak satu pun fakta itu berarti bagi buah-buah yang sudah membidik f7.\n\n> Putuskan dengan kepala Anda. Tangan Anda hanya boleh menyetujuinya."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "prompt": "Hitam unggul satu menteri dan menawarkan remis, jadi tolaklah dengan sekak yang memaksakan mat pada langkah berikutnya.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "Gajah Anda dan kuda di e5 membidik pion yang sama. Beri sekak dengan yang hanya menyisakan satu balasan sah bagi Hitam."
+    }
+  ]
+}

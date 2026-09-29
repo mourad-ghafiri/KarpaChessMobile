@@ -1,0 +1,14 @@
+{
+  "id": "promotion-07",
+  "fen": "r5k1/P4pp1/7p/8/8/7P/5PP1/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Rxb8",
+    "axb8=Q+"
+  ],
+  "rating": 1240,
+  "title": "El peón defiende",
+  "setup": "Tu peón de a7 está bloqueado por la torre de a8, y tu propia torre puede desplazarse libremente por la primera fila.",
+  "hint": "¿Qué casilla junto a la torre bloqueadora ya defiende el propio peón pasado?",
+  "explanation": "## La idea\n\n{{Rb8+}} es jaque y la torre es intocable, porque el peón de a7 defiende b8. {{Rxb8}} se topa con {{axb8=Q+}}, que corona con jaque y deja una dama por una torre. Apartarse en cambio con Kh7 simplemente pierde la torre ante Rxa8."
+}

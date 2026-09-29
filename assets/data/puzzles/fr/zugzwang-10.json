@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-10",
+  "fen": "3B4/8/7k/1K6/4p3/1R6/2p5/2R5 w - - 0 1",
+  "solution": [
+    "Rg3",
+    "e3",
+    "Rh1#"
+  ],
+  "rating": 1680,
+  "title": "Coupez la colonne, pas le roi",
+  "setup": "Le roi noir est en h6 avec deux pions qui courent en c2 et e4, et vos tours sont en b3 et c1.",
+  "hint": "Les deux pions noirs sont sur le point d'être promus. Ignorez-les et prenez la colonne qu'utiliserait le roi.",
+  "explanation": "## L'idée\n\n{{Rg3}} s'empare de la colonne g sans échec, et rien de ce que jouent les Noirs n'arrête ce qui suit. {{Rh1#}} mate le long de la colonne h avec la tour en g3 qui tient g6 et g7. Deux pions à un pas de la promotion restent plus lents qu'une tour sur la bonne colonne."
+}

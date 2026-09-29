@@ -1,0 +1,11 @@
+{
+  "id": "endgames-06",
+  "fen": "6k1/8/8/2P5/P7/2K5/7B/1b6 b - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "title": "Due Pedoni in Meno, e Comunque Patta",
+  "setup": "Il Bianco ha due pedoni in più e gli alfieri viaggiano su colori diversi. Il vostro re in g8 è lontano, quindi l'alfiere deve tenere da solo. Muove il Nero.",
+  "hint": "Il pedone a finisce in a8 e il pedone c deve attraversare c6. Sono tutte e due case chiare, quindi trovate la diagonale che passa per entrambe.",
+  "explanation": "## L'idea\n\na8 e c6 sono case chiare sulla stessa grande diagonale, e il vostro è l'alfiere campochiaro. {{Be4}} lo mette su quella diagonale, dove le sorveglia tutte e due insieme e non deve mai andarsene. L'alfiere bianco in h2 vive sulle case scure e non potrà mai contendergliela.\n\nQualunque cosa più lenta arriva tardi: il re bianco arriva a b5, un pedone mette piede in c6 sotto la sua guardia, e i pedoni in più vincono."
+}

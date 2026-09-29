@@ -1,0 +1,14 @@
+{
+  "id": "promotion-01",
+  "fen": "7k/1P3pp1/3r3p/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "b8=Q+",
+    "Kh7",
+    "Qxd6"
+  ],
+  "rating": 1000,
+  "title": "Menteri dengan Garpu",
+  "setup": "Pion b Anda tinggal satu langkah dari baris kedelapan, dan raja hitam berdiri tepat di baris itu.",
+  "hint": "Menteri baru tiba dengan sekak. Sebelum memainkannya, lihat apa lagi yang diserang petak promosi itu.",
+  "explanation": "## Ide\n\n{{b8=Q+}} adalah sekak di sepanjang baris kedelapan dan sekaligus menyerang benteng di d6 di sepanjang diagonal b8-h2. Hitam harus menjawab sekak, dengan {{Kh7}} atau menghalangi dengan Rd8, dan bagaimanapun menteri mengambil benteng, seperti {{Qxd6}}. Promosikan di tempat buah baru mengerjakan dua tugas."
+}

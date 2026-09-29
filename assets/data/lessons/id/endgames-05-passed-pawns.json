@@ -1,0 +1,56 @@
+{
+  "id": "passed-pawns",
+  "title": "Pion Bebas",
+  "summary": "Gambar petaknya sebelum Anda mendorong",
+  "proof": "endgame-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Tak Ada yang Menghalangi Jalannya",
+      "text": "Pion Anda di e5 punya papan kosong di depannya. Tak ada pion hitam di lajur e, dan tak ada pula di lajur d atau f, jadi tak ada yang bisa didorong ke jalannya dan tak ada yang bisa menjaga petak-petak yang harus dilintasinya.\n\nItulah **pion bebas**: pion yang tak punya pion lawan di depannya, baik di lajurnya sendiri maupun di kedua lajur di sampingnya.\n\nIa tinggal punya satu tugas, dan tepat satu buah di papan yang bisa membantahnya. Raja Putih di d1 berada jauh sekali, dan itu tak mengubah apa pun di sini."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Gambar Petaknya",
+      "text": "Jadi satu-satunya pertanyaan adalah apakah raja hitam bisa tiba tepat waktu, dan pertanyaan itu punya jawaban yang pasti.\n\nGambar sebuah persegi dengan pion di e5 di satu sudut dan petak promosinya e8 di sudut lain: e5, h5, h8, e8. Raja yang berada di dalam persegi itu, atau bisa melangkah masuk pada gilirannya sendiri, menangkap pion. Raja di luarnya tak akan pernah bisa, secepat apa pun ia berlari.\n\nRaja hitam di h4 berada satu baris di bawah tepi bawah persegi. Tiga langkah membawa pion ke e8; raja itu butuh empat."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "prompt": "Putuskan apakah raja itu bisa menangkap pion, lalu mainkan langkah yang dituntut jawaban Anda.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Bayangkan persegi e5–h5–h8–e8 dan lihat di sisi mana dari tepi bawahnya raja hitam berdiri."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/4P3/8/7k/8/8/3K4 b - - 0 5",
+      "title": "Terlambat Satu Langkah, Setiap Kali",
+      "text": "{{Kg5}} {{e7}} {{Kf6}} {{e8=Q}}. Pengejarannya jujur, dan tetap kalah satu langkah.\n\nLihat apa yang dilakukan dorongan itu pada perseginya. Dengan pion di e6, sudut-sudutnya adalah e6, g6, g8, e8: lebarnya tiga lajur, bukan empat. Setiap langkah maju mengecilkan wilayah tempat pihak bertahan harus berdiri, jadi pion yang sudah unggul hanya makin sulit ditangkap.\n\nTak ada rute cerdik juga. Raja hitam menempuh garis terpendek yang dimilikinya, dan hitungannya tak pernah berubah."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Papan Tempat Berlari Berarti Kalah",
+      "text": "Papan baru. Pion Anda di e4 juga bebas, tanpa pion hitam di mana pun, dan kali ini raja hitam di e8 tidak berada di luar persegi. Ia sudah parkir di petak promosi sebelum perlombaan dimulai.\n\n{{e5}} {{Ke7}} {{e6}}, dan pion berjalan lurus menuju raja yang tak bisa dilewatinya. Tak ada yang menggeser raja itu dari lajurnya: raja Anda sendiri di e1 berada tiga baris di belakang pion dan tak berguna baginya di sana.\n\nPion itu tidak kalah dalam perlombaan. Ia memang tak pernah punya perlombaan."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Siapa Lagi yang Bisa Membantu",
+      "text": "Jadi pion bukanlah buah yang harus digerakkan. Lihat apa lagi yang dimiliki Putih: raja di e1 yang tak melakukan apa-apa sepanjang partai, dan perjalanan panjang di depannya.\n\nSebenarnya pion ini sudah berlari satu petak terlalu jauh — melawan pertahanan sempurna, perlombaannya kini remis. Itulah harga mendorong sebelum mengawal, dan pengawalan tetap memberi Anda setiap peluang praktis.\n\n> Pion yang sendirian adalah sasaran. Pion dengan raja di sampingnya adalah ancaman.\n\nPion itu akan menunggu. Ia tak punya tempat lain untuk dituju."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Jalankan raja Anda menuju pion, naik di lajur tempat pion itu berdiri.",
+      "targetSan": [
+        "Ke2"
+      ],
+      "hint": "Perjalanannya panjang, jadi ambil jalan terpendek — lurus naik di lajur yang sudah dimiliki pion."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "forks-15",
+  "fen": "r1b1k2r/ppp2ppp/4p3/8/7n/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qa4+"
+  ],
+  "title": "La dame donne échec et encaisse",
+  "setup": "Les Noirs ont une tour, un fou et un cavalier contre votre dame, et le cavalier en h4 s'est égaré au bord sans défenseur.",
+  "hint": "Trouvez un échec de dame qui attaque aussi le cavalier.",
+  "explanation": "## L'idée\n\n{{Qa4+}} met le roi en e8 en échec le long de la diagonale et attaque le cavalier en h4 le long de la quatrième rangée. Les Noirs doivent parer l'échec, et aucune réponse, qu'il s'agisse de {{Bd7}}, {{c6}}, {{b5}} ou d'un coup de roi, ne protège aussi le cavalier. Au coup suivant, {{Qxh4}} le prend, et le matériel bascule en votre faveur.\n\nUne fourchette de dame, c'est un échec sur une ligne et une pièce sans protection sur une autre."
+}

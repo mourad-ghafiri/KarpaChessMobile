@@ -1,0 +1,12 @@
+{
+  "id": "discovery-08",
+  "fen": "1rk1q3/1p3ppp/4p3/8/2B5/8/P4PPP/2Q3K1 w - - 0 1",
+  "solution": [
+    "Bb5+"
+  ],
+  "rating": 1240,
+  "title": "Filin Arkasındaki Vezir",
+  "setup": "c1'deki veziriniz c dikeyine doğrultulmuş ve onu kapatan tek şey kendi c4'teki filiniz.",
+  "hint": "Fil, hem dikeyi açacak hem de sekizinci yatayda bir şeyi gözlemeye başlayacak şekilde nereye gidebilir?",
+  "explanation": "## Fikir\n\n{{Bb5+}} vezirin c dikeyindeki şahını açar ve aynı anda b5–c6–d7 boyunca e8'i nişan alır. Siyahın önce şaha cevap vermesi gerekir, yani Kd8 geldikten sonra fil veziri toplar. Qc6 ile kapatmak onu yalnızca bir hamle erken elden çıkarır."
+}

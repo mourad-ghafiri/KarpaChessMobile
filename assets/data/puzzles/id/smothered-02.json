@@ -1,0 +1,12 @@
+{
+  "id": "smothered-02",
+  "fen": "3r2k1/pp4pp/8/8/6n1/2N5/P1P3PP/6RK b - - 9 30",
+  "solution": [
+    "Nf2#"
+  ],
+  "rating": 1180,
+  "title": "Sudut Menyegel Dirinya Sendiri",
+  "setup": "Putih baru saja mengayunkan benteng ke g1 untuk menjaga pion g, dan mengurung rajanya sendiri di sudut.",
+  "hint": "Abaikan dulu benteng yang tak terlindungi itu dan hitung petak-petak yang benar-benar bisa dituju raja putih.",
+  "explanation": "## Ide\n\nRg1 menjaga pion g dan mengubur raja di belakangnya. {{Nf2#}} memberi sekak dari petak yang tak diawasi siapa pun: benteng di g1 dan pion di g2 dan h2 semuanya menghadap ke arah yang salah. Pembela yang mengisi jalan keluar terakhir raja Anda tidak sedang melindungi apa pun."
+}

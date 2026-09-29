@@ -1,0 +1,11 @@
+{
+  "id": "strategy-03",
+  "fen": "rnbqkb1r/pp1ppppp/8/2p1P3/8/2n2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 5",
+  "solution": [
+    "dxc3"
+  ],
+  "title": "Which Pawn Takes Back",
+  "setup": "Black's knight has just taken yours, and two of your pawns can take it back. Either way you end up with two pawns on one file.",
+  "hint": "Both captures stack your c-pawns. Which one also leaves a pawn with no neighbor at all?",
+  "explanation": "## The Idea\n\nEither capture doubles your c-pawns, so count what else each one costs.\n\n{{bxc3}} also strands the a-pawn with no pawn beside it: an isolated pawn, for nothing.\n\n{{dxc3}} keeps every other pawn joined to a neighbor, opens the d-file toward Black's queen, and clears the road from c1 to h6 for your bishop. Capturing away from the center is right here because of what it opens."
+}

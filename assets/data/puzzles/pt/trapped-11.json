@@ -1,0 +1,12 @@
+{
+  "id": "trapped-11",
+  "fen": "3r2k1/pp3pp1/7p/4N3/8/2P4P/1b1P1PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "Nc4"
+  ],
+  "rating": 1370,
+  "title": "Tira a Última Fuga",
+  "setup": "O bispo preto em b2 tem três casas vazias à volta, a1, c1 e a3, e a tua torre já vigia duas.",
+  "hint": "A tua torre é dona da linha de fundo e o teu peão d guarda c3. Que peça chega à única casa ainda livre?",
+  "explanation": "## A Ideia\n\nA torre de e1 cobre a1 e c1, e c3 é defendida pelo peão de d2, portanto Bxc3 dxc3 não é salvação nenhuma. Só a3 estava livre, e {{Nc4}} toma-a enquanto ataca o bispo. Todas as casas estão contadas, e a peça tem de ir."
+}

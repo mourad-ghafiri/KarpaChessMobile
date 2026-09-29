@@ -1,0 +1,59 @@
+{
+  "id": "maneuvering",
+  "title": "A Manobra",
+  "summary": "Três jogadas tranquilas para pôr uma peça no sítio certo",
+  "proof": "strategy-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Nada para Capturar, Nada para Travar",
+      "text": "Nenhuma peça está pendurada. As pretas não ameaçam nada, não há xeque nenhum disponível, e o centro pode esperar: {{d5}} fecha-o, {{dxe5}} abre-o, e nenhuma das duas coisas tem de acontecer nesta jogada.\n\nPosições assim não são raras. São a maior parte de uma partida.\n\nPortanto a pergunta muda. Não «o que posso ganhar aqui», mas «qual das minhas peças trabalha menos, e onde preferiria estar». Essa resposta leva três jogadas a ser jogada, e cada uma delas parece que não está a acontecer nada."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Começa pelo Fim",
+      "text": "O cavalo branco em b1 não mexe a partida inteira, e tudo o que vale a pena atacar está do outro lado do tabuleiro.\n\nA casa que esse cavalo quer é g3: de lá cobre f5 e h5, duas casas que nenhum peão preto vigia.\n\nAgora a estrada. O caminho curto passa por c3, onde está estacionado um peão branco. Por isso o cavalo dá a volta longa, e o primeiro passo de uma volta longa parece sempre uma jogada desperdiçada."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "prompt": "Põe em marcha o cavalo que nunca mexeu, a caminho da ala do rei, e mantém-no fora da berma.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "Da sua casa de partida esse cavalo tem exatamente duas jogadas: uma estaciona-o na berma, a outra mantém-no em jogo."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "title": "Pior Antes de Melhor",
+      "text": "O cavalo preto ficou sem casas na berma e voltou a c6, onde volta a segurar d4 e e5. Dois jogadores, a mesma ideia, apontada em direções opostas.\n\nO teu cavalo está a uma etapa do caminho e, por agora, no meio: em d2 tapa o bispo de c1 e fica à frente da dama de d1. Um cavalo no meio da sua própria linha de fundo é um cavalo em trânsito. Não rende nada até chegar, e é por isso que uma manobra é a decisão de estar ligeiramente pior durante duas jogadas."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "prompt": "O cavalo em viagem só está a uma etapa do princípio: dá o passo seguinte em direção à outra ala.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Três das quatro casas desse cavalo mantêm-no na ala da dama que ele está a tentar deixar; só uma não."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "title": "A Última Etapa",
+      "text": "Há duas jogadas este cavalo não tinha nada que fazer. Agora está a um salto da casa que torna a viagem inteira digna dela.\n\nOlha para a ala do rei das pretas. Nenhum peão preto vigia f5, e um cavalo que chegue a f5 atinge ao mesmo tempo o bispo de e7 e o peão de d6. Portanto a última etapa não é sobre f5 em si. É sobre a casa que deixa f5 a um salto e que cobre h5 pelo caminho.\n\n> Qual das tuas peças faz menos, em que casa preferirias que estivesse, e qual é a estrada mais curta até lá."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "prompt": "Completa a viagem pondo o cavalo onde vigia f5 e h5.",
+      "targetSan": [
+        "Ng3"
+      ],
+      "hint": "Duas das quatro casas do cavalo olham para f5, e só uma delas olha também para h5."
+    }
+  ]
+}

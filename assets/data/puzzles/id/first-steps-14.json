@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-14",
+  "fen": "4r2k/1q4pp/8/6B1/8/8/3P1PPP/3RKR2 w - - 0 1",
+  "solution": [
+    "Be3"
+  ],
+  "title": "Angkat Perisai",
+  "setup": "Benteng hitam memberi sekak kepada raja Anda di sepanjang lajur e yang terbuka, dan buah-buah Anda sendiri mengurung raja. Garis itu harus ditutup.",
+  "hint": "Dua langkah Anda menghalangi sekak. Hanya satu yang mendarat di petak yang dilindungi kawan.",
+  "explanation": "## Ide\n\nSekak di sepanjang garis punya tiga jawaban: lari, tangkap atau halangi. Raja Anda tak punya petak dan tak ada yang mencapai benteng di e8, jadi Anda harus menghalangi.\n\n{{Be3}} menghalangi di petak yang dijaga pion d2 dan f2 sekaligus, jadi {{Rxe3+}} berarti menyerahkan benteng untuk gajah. {{Be7}} juga menghalangi, tetapi tak ada yang menjaga e7, dan {{Rxe7#}} adalah mat.\n\nPerisai terbaik adalah perisai yang terjaga."
+}

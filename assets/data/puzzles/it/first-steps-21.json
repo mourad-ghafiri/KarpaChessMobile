@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-21",
+  "fen": "8/5ppp/2k1b3/8/8/1N5P/4rPP1/3R2K1 w - - 0 1",
+  "solution": [
+    "Nd4+"
+  ],
+  "title": "Un Balzo, Due Bersagli",
+  "setup": "Il vostro cavallo in b3 è attaccato dall'alfiere in e6 e deve muovere, quindi scegliete la casa dove colpisce più forte.",
+  "hint": "Trovate la casa di cavallo che dà scacco al re nero e attacca un altro pezzo nero nello stesso momento.",
+  "explanation": "## L'idea\n\nIl vostro cavallo deve muovere comunque, quindi fate fare due lavori alla mossa. {{Nd4+}} dà scacco al re in c6 e attacca insieme la torre in e2.\n\nIl Nero deve prima rispondere allo scacco, e nessun pezzo nero può catturare il cavallo in d4. Dopo che il re si è spostato, {{Nxe2}} prende la torre.\n\nA una minaccia si può rispondere. A due minacce in una mossa di solito no."
+}

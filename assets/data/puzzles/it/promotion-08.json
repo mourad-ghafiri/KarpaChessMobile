@@ -1,0 +1,14 @@
+{
+  "id": "promotion-08",
+  "fen": "1R6/1P3ppk/7p/8/8/8/3r1PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "b8=Q+"
+  ],
+  "rating": 1280,
+  "title": "Togliersi di Mezzo",
+  "setup": "Il vostro pedone in b7 vuole b8, ma la vostra stessa torre ci sta sopra, e la torre nera è indifesa in d2.",
+  "hint": "Qui il blocco è la vostra stessa torre. Deve andarsene, e deve andarsene con qualcosa che il Nero non possa ignorare.",
+  "explanation": "## L'idea\n\n{{Rh8+}} libera b8 con scacco. {{Kxh8}} è il meglio che il Nero abbia — {{Kg6}} lascia comunque la torre lì — e {{b8=Q+}} promuove di nuovo con scacco e il Bianco è avanti di una donna per una torre. Un pezzo che sta sulla propria casa di promozione deve liberarla guadagnando un tempo."
+}

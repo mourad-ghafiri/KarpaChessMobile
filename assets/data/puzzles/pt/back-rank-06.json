@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-06",
+  "fen": "1r4k1/5ppp/8/8/8/8/4QPPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "title": "O Caminho Longo",
+  "setup": "A torre preta guarda a linha de fundo do outro lado do tabuleiro — o único defensor, e longe de casa.",
+  "hint": "A guarda chega a e8, mas só deixando tudo o resto. Qual é a maior coisa que a podes obrigar a capturar?",
+  "explanation": "## A Ideia\n\nA torre em b8 cobre à distância a linha de fundo inteira, até ser obrigada a comprometer-se.\n\n{{Qe8+}} entrega a dama na casa de entrada. {{Rxe8}} é a única resposta, e arrasta a guarda ao longo da linha, e {{Rxe8#}} recaptura com os próprios peões das pretas a selar todas as casas de fuga.\n\nUm defensor solitário da linha de fundo é um alvo e não uma parede: obriga-o a capturar, e a recaptura é mate."
+}

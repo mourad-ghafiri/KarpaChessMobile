@@ -1,0 +1,56 @@
+{
+  "id": "gruenfeld-advanced",
+  "title": "Grünfeld Savunması",
+  "summary": "Merkezi devredin, sonra ona ateş edin",
+  "proof": "openings-17.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+      "title": "Bir İddia Değil, Bir Teklif",
+      "text": "Siyahın d5'teki piyonu dosdoğru bir piyonun ve bir atın üstüne yürüyor ve siyah ikisinin de savrulmasını istiyor.\n\nBeyazın iki merkez piyonuna verilen başka her cevap ortada yer tutmaya çalışır. Bu cevap orayı satar. Siyah d5 piyonunu değişip kaldırır, beyazın açılış kitaplarındaki en geniş merkezi kurmasına izin verir ve partinin geri kalanını ona uzaktan ateş ederek geçirmeyi planlar.\n\nErnst Grünfeld bunu 1922'de oynadı; tahtanın ortasını bile isteye vermenin baskı hatası gibi okunduğu bir zamanda."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+      "title": "Beyaz Neden Alır",
+      "text": "{{cxd5}} gelir ve beyaz buna sevinmelidir. Reddetmek, siyahın ortada bedavaya piyon tutmasına izin vermek demektir.\n\nYine de bu taş almanın ne satın aldığına bakın. Siyah bir taşla geri alır, yani siyahın merkezde hiç piyonu kalmaz — ve beyaz, d4'ün yanına ikinci bir piyon dikmeye bir hamle uzaklıktadır. Kâğıt üstünde siyah tahtanın ortasını devretmiş ve karşılığında hiçbir şey almamıştır.\n\nKazanç henüz tahtada değil. Beyazın piyonları yerleştikten sonra siyahın nişan alacağı şeyin içinde."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3P4/3P4/2N5/PP2PPPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Varır Varmaz Kovuluyor",
+      "text": "{{Nxd5}} {{e4}}. At ortaya ulaşır ve daha bir sonraki hamlede ona çekip gitmesi söylenir.\n\nBeyazın piyonları artık d4 ile e4'te yan yana duruyor; beyazın birinci hamleden beri oynadığı şey de bu: geniş bir merkez ve arkasındaki her taş için gidecek bir kare.\n\nAtın oynaması gerekiyor. Çıkarken hasar verdiği tek bir karesi var ve siyahın bütün bunlara izin vermesinin sebebi o kareyi bulmak."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3PP3/2N5/PP3PPP/R1BQKBNR b KQkq e3 0 5",
+      "prompt": "Atınız kovalanıyor; kareyi, beyazı bir kanat piyonuyla geri almaya zorlayacak şekilde terk edin.",
+      "targetSan": [
+        "Nxc3"
+      ],
+      "hint": "Geri çekilmek merkezi beyaza bedavaya verir; onun yerine atınızın çıkarken alabileceği taşı arayın."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Geri Almanın Bedeli",
+      "text": "Beyazın b piyonu d4'ü desteklemek için c3'e geldi ve geride bıraktığı vezir kanadı darmadağın: a2'de tek bir piyon ve a1'de boş bir b dikeyine bakan bir kale.\n\nPazarlığın siyaha düşen yarısı g7'deki fil. Piyon ikinci hamlede g6'ya gitti ki fil o çaprazın sahibi olsun; çapraz da g7, f6, e5, d4 boyunca uzanıp beyazın az önce kurmayı bitirdiği piyonlara dalıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "d4'ün Koruyucularını Sayın",
+      "text": "Artık her şey d4'e bağlı. Onu üç şey ayakta tutuyor: c3'teki piyon, f3'teki at ve d1'deki vezir. Bunlardan yalnızca biri piyon.\n\nPiyon bedavaya korur. Bir piyonu koruyan taş ise yanından ayrılamayacağı bir işi olan taştır; bu yüzden siyah d4'e elindeki en ucuz şeyle saldırır ve hangi taşın bebek bakıcılığına takılacağına beyaz karar versin. Önce piyon, arkasından taşlar.\n\n> Bu kadar büyük bir merkez ya bir koçbaşıdır ya bir hedef ve hangisi olduğuna ona neyin nişan aldığı karar verir."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "d4'e bir piyonla saldırın; filinizin çaprazını kapatmayanı seçin.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "Filinizin yolu e5 ile d4'ten geçiyor, yani göndereceğiniz piyonun öteki kanattan gelmesi gerekiyor."
+    }
+  ]
+}

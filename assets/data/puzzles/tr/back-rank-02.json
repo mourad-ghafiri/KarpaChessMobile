@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-02",
+  "fen": "5rk1/5ppp/8/8/8/8/4RPPP/4Q1K1 w - - 0 1",
+  "solution": [
+    "Re8",
+    "Rxe8",
+    "Qxe8#"
+  ],
+  "title": "Koruyanı Uzaklaştırın",
+  "setup": "f8'deki kale, ağır taşlarınızı arka yataydan uzak tutan tek şey.",
+  "hint": "Kaleniz de veziriniz de açık dikeye bakıyor. Yalnız kalan koruyucu kendini değişmek zorunda kalırsa ne olur?",
+  "explanation": "## Fikir\n\nSiyahın şahı yalnızca f8'deki kale sekizinci yatayı kapsadığı için hayatta. {{Re8}} kalenizi, o koruyucunun gözlemek zorunda olduğu tek kareye sürer.\n\n{{Rxe8}} gelirse {{Qxe8#}} olur: koruyucu gitmiştir ve f7, g7 ile h7'deki piyonlar her kaçış karesini mühürler. Siyah, şaha hava veren bir piyon hamlesiyle reddederse daha iyisini yapar, ama bu da {{Rxf8+}} {{Kxf8}} sonrası yalnızca kaleleri değişir ve veziriniz karşısında hiçbir şey olmadan tahtada kalır."
+}

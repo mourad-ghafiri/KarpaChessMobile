@@ -1,0 +1,12 @@
+{
+  "id": "trapped-08",
+  "fen": "3r2k1/ppp2p2/3p1n2/6pp/8/2N4B/PP3PP1/5RK1 b - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1270,
+  "title": "Riempite l'Ultima Casa",
+  "setup": "L'alfiere bianco in h3 ha dietro il proprio pedone in g2 e più in là la propria torre in f1.",
+  "hint": "I pezzi stessi del Bianco bloccano completamente una diagonale. L'altra comincia su una casa che il vostro pedone h difende già.",
+  "explanation": "## L'idea\n\n{{g4}} lascia l'alfiere senza niente: g2 è il pedone bianco, f1 la sua torre, e il pedone adesso in g4 è difeso da h5. Il Bianco può solo perdere un pezzo, e ...gxh3 lo raccoglie alla mossa successiva. Un alfiere si intrappola riempiendo case, non inseguendolo."
+}

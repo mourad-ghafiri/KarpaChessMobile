@@ -1,0 +1,15 @@
+{
+  "id": "openings-18",
+  "fen": "rnbqkb1r/p1p2ppp/4pn2/1p6/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq b6 0 6",
+  "solution": [
+    "a4",
+    "c6",
+    "axb5",
+    "cxb5",
+    "Ne5"
+  ],
+  "title": "No te lo puedes quedar",
+  "setup": "Las Negras se comieron el peón de la Catalana y acaban de sostenerlo con ...b5. Golpea esa cadena de peones antes de que se asiente.",
+  "hint": "Las Negras sostienen el peón de más con una cadena. Pregúntate cuál de tus peones puede llegar a su base, y qué se abre detrás.",
+  "explanation": "## La idea\n\nLa Catalana presta un peón. Quedárselo les cuesta a las Negras el flanco de dama.\n\n{{a4}} golpea la cadena en su base. Si las Negras la sostienen con {{c6}}, entonces {{axb5}} {{cxb5}} quita el peón de c de la gran diagonal, y {{Ne5}} despeja el resto: el alfil de g2 mira directamente a la torre de a8, y el caballo apunta a c4.\n\nLas Negras tienen que cubrir a8, normalmente con {{Nd5}}, y b5 se queda sin defensor.\n\nUn peón que tienes que defender con más peones es un peón que estás pagando."
+}

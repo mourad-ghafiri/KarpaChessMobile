@@ -1,0 +1,11 @@
+{
+  "id": "rook-lift-proof",
+  "fen": "rn2r1k1/pp3p1p/2p1bp2/8/P1B2P2/B1P2R2/6PP/3R2K1 w - - 2 20",
+  "solution": [
+    "Rg3+"
+  ],
+  "title": "Através da Terceira Linha",
+  "setup": "Chigorin contra Lebedev, Moscovo 1900/01. A tua torre já subiu da linha de fundo, e a coluna g entre a tua terceira linha e o rei preto está vazia.",
+  "hint": "Primeiro para cima, depois de través. Que casa da tua terceira linha fica de frente para o rei preto?",
+  "explanation": "## A Ideia\n\n{{Rg3+}} acaba a elevação: a torre que subiu a f3 desliza para a coluna g vazia e dá xeque. O rei não pode usar f8, que o teu bispo de a3 cobre, portanto as pretas têm duas respostas: {{Kh8}}, para o canto, ou {{Bg4}}, um bispo devolvido só para tapar.\n\nChigorin seguiu com {{Be7}} e ganhou."
+}

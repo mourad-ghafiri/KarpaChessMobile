@@ -1,0 +1,12 @@
+{
+  "id": "smothered-02",
+  "fen": "3r2k1/pp4pp/8/8/6n1/2N5/P1P3PP/6RK b - - 9 30",
+  "solution": [
+    "Nf2#"
+  ],
+  "rating": 1180,
+  "title": "La esquina se sella sola",
+  "setup": "Las Blancas acaban de llevar una torre a g1 para defender el peón de g, y han emparedado a su propio rey en la esquina.",
+  "hint": "Olvídate un momento de la torre suelta y cuenta las casillas a las que el rey blanco podría moverse de verdad.",
+  "explanation": "## La idea\n\nRg1 defendió el peón de g y enterró al rey detrás. {{Nf2#}} da jaque desde una casilla que nadie vigila: la torre de g1 y los peones de g2 y h2 miran todos hacia otro lado. Un defensor que ocupa la última salida de tu rey no defiende nada."
+}

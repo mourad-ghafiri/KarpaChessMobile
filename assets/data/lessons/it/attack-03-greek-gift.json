@@ -1,0 +1,71 @@
+{
+  "id": "greek-gift",
+  "title": "Il Dono Greco",
+  "summary": "Un alfiere consegnato, per un re senza più un posto dove stare",
+  "proof": "greek-gift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "La Casa che Nessuno Difende",
+      "text": "Contate che cosa punta su h7. L'alfiere in d3 la guarda dritta lungo la diagonale da b1 a h7. Il cavallo in f3 è a un salto da g5, e da g5 colpisce h7 anch'esso. La donna in d1 sta ai piedi della diagonale da d1 a h5, che finisce sulla stessa colonna h.\n\nAdesso contate la guardia. Il cavallo che dovrebbe stare in f6 è stato ricacciato in d7 dal vostro pedone in e5, ed e5 copre ancora f6. L'unico pezzo rimasto a coprire h7 è il re che le sta accanto.\n\nTre contro uno, e l'uno è un re."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "Il Dono Greco",
+      "text": "Consegnare un alfiere per un solo pedone è un **sacrificio** con un nome. Il **dono greco** è l'alfiere scagliato nel riparo di pedoni davanti a un re arroccato. O chiude la partita o perde un pezzo, e quale dei due si decide prima di lasciarlo andare.\n\nQuattro condizioni. L'alfiere vede h7. Un cavallo è a una mossa da g5. La donna ha una strada verso la colonna h dietro quel cavallo. E qualunque cosa prenda in g5 viene ripresa, mentre niente arriva a f6 a coprire l'angolo.\n\n> Un dono che avete contato non è una scommessa."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "prompt": "L'angolo nero non lo difende altro che il re: trascinate quel re fuori dal suo riparo.",
+      "targetSan": [
+        "Bxh7+"
+      ],
+      "hint": "In questo momento un solo vostro pezzo attacca h7, quindi smettete di contare quanto vale e contate invece le guardie."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "title": "Il Vostro Stesso Cavallo Vi Sta di Mezzo",
+      "text": "Il re ha preso in h7 e davanti a lui non è rimasto niente. E avete anche un alfiere in meno per un pedone, che è la parte che concentra la mente.\n\nGuardate dove vuole andare la donna. La strada da d1 alla colonna h passa per e2, f3 e g4, e il vostro cavallo in f3 ci sta sopra.\n\nQuindi questa mossa non è una scelta fra buone idee. Qualunque cosa tranquilla lascia al Nero il tempo di tornare in g8 e di cominciare a trascinare pezzi verso l'angolo, e allora l'alfiere ha comprato un pedone e nient'altro."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "prompt": "Aprite la strada della donna verso la colonna h con una mossa a cui il Nero deve rispondere subito.",
+      "targetSan": [
+        "Ng5+"
+      ],
+      "hint": "Il cavallo deve muovere, e una sola delle sue case dà scacco — quella che il vostro pedone f difende già."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R b KQ - 1 11",
+      "title": "Quattro Case, Un Re",
+      "text": "La donna in e7 può prendere il cavallo, ma il vostro pedone in f4 riprende e il Nero ha pagato una donna per un cavallo. E lo scacco di un cavallo non si può nemmeno parare. Quindi il re muove, e ha esattamente quattro case: {{Kg8}}, {{Kh8}}, {{Kg6}}, {{Kh6}}.\n\nDue tornano nell'angolo. Le altre due fanno un passo avanti sulla scacchiera aperta, il che sembra sfuggire al cavallo ed è in realtà camminare verso tutto il resto di quello che possedete.\n\nSono quelle due che il vostro avversario vorrà giocare."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p1k1/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "Fuori a Prendere il Cavallo",
+      "text": "g6 attacca il cavallo in g5, ed è esattamente per questo che il Nero la gioca. Il re esce aspettandosi di essere un pezzo avanti in due mosse.\n\n{{Qg4}}. La donna sale dietro il cavallo sulla colonna g, così il cavallo è difeso e ogni casa su cui salta scopre uno scacco. E il vostro pedone f è a un passo da f5, dove colpirebbe di nuovo il re.\n\nPiù il re esce, più pezzi del vostro esercito lo raggiungono."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p2k/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "La Vecchia Strada dell'Alfiere",
+      "text": "h6 tiene il re fuori dall'angolo e attacca il cavallo in g5, quindi sembra la migliore delle quattro.\n\n{{Qd3}}. La donna si prende la diagonale che l'alfiere ha ceduto e punta dritta su h7. Il cavallo in g5 difende quella casa, il re non ha dove togliersi da lì, e il matto in h7 è minacciato per la mossa successiva. Il Nero non ha un buon modo di fermarlo."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqpp1/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "prompt": "Il Nero è tornato nell'angolo: portate l'ultimo attaccante sulla colonna h e minacciate matto.",
+      "targetSan": [
+        "Qh5"
+      ],
+      "hint": "Il cavallo copre già h7, e la torre nera in f8 ha tolto al suo stesso re una casa di fuga."
+    }
+  ]
+}

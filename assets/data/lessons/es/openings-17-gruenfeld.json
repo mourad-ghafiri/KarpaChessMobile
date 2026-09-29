@@ -1,0 +1,56 @@
+{
+  "id": "gruenfeld-advanced",
+  "title": "La Defensa Grünfeld",
+  "summary": "Entrega el centro y luego dispárale",
+  "proof": "openings-17.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+      "title": "Una oferta, no una reclamación",
+      "text": "El peón negro de d5 camina directo hacia un peón y un caballo, y las Negras quieren que los dos capturen.\n\nTodas las demás respuestas a los dos peones centrales blancos intentan mantener terreno en el centro. Esta lo vende. Las Negras cambian el peón de d5, dejan que las Blancas construyan el centro más amplio de los manuales de aperturas y piensan pasar el resto de la partida disparándole de lejos.\n\nErnst Grünfeld la jugó en 1922, cuando regalar a propósito el centro del tablero parecía una errata."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+      "title": "Por qué capturan las Blancas",
+      "text": "{{cxd5}}, y las Blancas deberían alegrarse. Rehusar es dejar que las Negras conserven gratis un peón en el centro.\n\nMira, sin embargo, lo que compra la captura. Las Negras recapturan con una pieza, así que no les queda ningún peón en el centro, y las Blancas están a una jugada de plantar un segundo peón junto a d4. Sobre el papel, las Negras han entregado el centro del tablero y no han recibido nada.\n\nLa ganancia todavía no está en el tablero. Está en lo que las Negras podrán apuntar cuando los peones blancos estén asentados."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3P4/3P4/2N5/PP2PPPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Echado nada más llegar",
+      "text": "{{Nxd5}} {{e4}}. El caballo llega al centro y lo invitan a irse en la jugada siguiente.\n\nLos peones blancos están ahora uno junto al otro en d4 y e4, que es lo que las Blancas buscaban desde la primera jugada: un centro amplio, y todas las piezas detrás con una casilla a la que ir.\n\nEl caballo tiene que moverse. Tiene una casilla donde hace daño al salir, y encontrarla es toda la razón por la que las Negras permitieron todo esto."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3PP3/2N5/PP3PPP/R1BQKBNR b KQkq e3 0 5",
+      "prompt": "Tu caballo está siendo perseguido: sal de la casilla de forma que las Blancas tengan que recapturar con un peón de flanco.",
+      "targetSan": [
+        "Nxc3"
+      ],
+      "hint": "Retirarse regala el centro a las Blancas; busca en cambio la pieza que tu caballo puede capturar al salir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Lo que costó la recaptura",
+      "text": "El peón de b blanco llegó a c3 para sostener d4, y el flanco de dama que dejó atrás es un desastre: un peón en a2 y una torre en a1 mirando una columna b vacía.\n\nLa mitad del trato para las Negras es el alfil de g7. El peón fue a g6 en la segunda jugada para que el alfil dominara esa diagonal, y la diagonal pasa por g7, f6, e5 y d4: directa contra los peones que las Blancas acaban de terminar de construir."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Cuenta los defensores de d4",
+      "text": "Ahora todo gira en torno a d4. Tres cosas lo sostienen: el peón de c3, el caballo de f3 y la dama de d1. Solo una es un peón.\n\nUn peón protege gratis. Una pieza que protege un peón es una pieza con una tarea que no puede abandonar, así que las Negras atacan d4 con lo más barato que tienen y dejan que las Blancas decidan qué pieza se queda de niñera. Primero el peón, las piezas detrás.\n\n> Un centro tan grande es un ariete o un blanco, y lo que le apunta decide cuál."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "Ataca d4 con un peón, eligiendo el que no tapa la diagonal de tu alfil.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "El camino de tu alfil pasa por e5 y d4, así que el peón que mandes tiene que venir del otro flanco."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "interference-proof",
+  "fen": "6k1/5ppp/p7/8/q2N4/5B2/5PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "Uma Parede Através da Diagonal",
+  "setup": "A dama preta em a4 é a única peça a guardar e8, e a tua torre em e1 aponta diretamente a essa casa.",
+  "hint": "Põe na diagonal da dama alguma coisa que ela não possa ignorar, numa casa que o teu cavalo já cubra.",
+  "explanation": "## A Ideia\n\nA dama em a4 guarda e8 pela diagonal através de b5, c6 e d7. {{Bc6}} fica no meio dela, protegido pelo cavalo de d4, e ataca também a dama. Comer o bispo custa a dama, e comer o teu cavalo deixa a tua torre dar mate em e8. As melhores tentativas da dama desviam-na para f8, mas então a tua torre dá xeque em e8, a dama tem de tapar em f8, cravada contra o seu próprio rei, e perde-se por uma torre."
+}

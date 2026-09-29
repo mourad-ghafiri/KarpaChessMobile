@@ -1,0 +1,14 @@
+{
+  "id": "deflection-03",
+  "fen": "2br2k1/5ppp/nq6/8/2B5/7P/PP2QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Bxa6"
+  ],
+  "rating": 1180,
+  "title": "Dos tareas, una dama",
+  "setup": "La dama de b6 sostiene la torre de d8 y el caballo de a6, y tu alfil ya apunta a a6.",
+  "hint": "Tu alfil apunta a un caballo defendido. Encuentra al defensor y dale un trabajo al que tenga que responder.",
+  "explanation": "## La idea\n\n{{Rxd8+}} es jaque y {{Qxd8}} es la única respuesta. La dama ha dejado la sexta fila, así que {{Bxa6}} simplemente se come el caballo. Busca defensores que sostengan dos piezas a la vez. A un defensor no hace falta comérselo, basta con darle otro sitio donde estar."
+}

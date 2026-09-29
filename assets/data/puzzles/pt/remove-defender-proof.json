@@ -1,0 +1,13 @@
+{
+  "id": "remove-defender-proof",
+  "fen": "6k1/5ppp/5n2/3n2B1/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Bxf6",
+    "gxf6",
+    "Rxd5"
+  ],
+  "title": "Come Primeiro o Guarda",
+  "setup": "A tua torre em d1 já fita o cavalo de d5, e o cavalo de f6 é a única coisa que o guarda.",
+  "hint": "Comer já em d5 troca uma torre por um cavalo. Conta o que guarda d5 antes de contares o que a ataca.",
+  "explanation": "## A Ideia\n\nA {{Rxd5}} logo responde-se {{Nxd5}}: uma torre por um cavalo. Portanto muda primeiro a conta. {{Bxf6}} come o único guarda de d5. Depois de {{gxf6}} nada toma conta de d5, e {{Rxd5}} recolhe o segundo cavalo. Recapturar com o outro cavalo é pior, porque então a tua torre dá xeque em d8 e o resto fá-lo a linha de fundo. Se as pretas deixarem o bispo em paz, ele ganha um cavalo por nada."
+}

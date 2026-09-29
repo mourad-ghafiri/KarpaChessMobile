@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-09",
+  "fen": "6k1/5pp1/7p/8/2n5/8/3r1PPP/1B2R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 980,
+  "title": "Olmayan Hava",
+  "setup": "Siyah az önce şahına h7'de bir kaçış karesi açmak için h6 oynadı.",
+  "hint": "Siyah şahının artık kaçacak bir deliği olduğuna inanıyor. O kareye başka kimin baktığını öğrenin.",
+  "explanation": "## Fikir\n\nYine de {{Re8#}}. Yeni kaçış karesi h7'yi, b1'deki fil çapraz boyunca ta oradan kapsıyor; yani piyon hamlesi hiçbir şey satın almadı. Kaçış kapağı, ancak açtığınız kareyi hiçbir rakip taş gözlemiyorsa işe yarar."
+}

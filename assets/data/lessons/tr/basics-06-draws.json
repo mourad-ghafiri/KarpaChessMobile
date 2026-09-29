@@ -1,0 +1,77 @@
+{
+  "id": "draws",
+  "title": "Yarım Puan",
+  "summary": "Bir partinin kazananı olmadan bitmesinin beş yolu ve kazanan oyuncuyu pusuda bekleyen biri",
+  "proof": "draws-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Hamle Yok, Şah Yok",
+      "text": "Siyahın bir şahı var, başka hiçbir şeyi yok. Beyazın veziri var ve mat bir hamle ötede — kazanılmış partinin çöpe atıldığı an tam olarak budur.\n\nh8'deki siyah şahın tek bir karesi var. Beyazın g6'daki şahı g7 ile h7'yi zaten tutuyor, yani geriye sadece g8 kalıyor.\n\n{{Qd5}} g8'i de alır. Siyah şah altında değildir. Siyahın hiçbir kurallı hamlesi yoktur. Buna **pat** denir ve parti olduğu yerde biter."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Yarımşar Puan",
+      "text": "Pat bir **beraberlik**tir. İki oyuncu da yarım puan alır ve birinin vezire, diğerinin çıplak şaha sahip olması hiçbir şey ifade etmez.\n\nKuralın canınızı yakmasının sebebi bu. Beyaz burada tahtadaki her ölçüye göre kazanıyor ve yine de yarım puanla çıkabiliyor.\n\nAynı sonuca giden daha yumuşak bir yol da var: iki oyuncudan biri beraberlik teklif edebilir ve rakip kabul ederse parti orada durur. Bu hiçbir zekâ gerektirmez."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "prompt": "g8'i yeniden kapatın, ama bu kez şah çekerek; parti el sıkışmayla değil matla bitsin.",
+      "targetSan": [
+        "Qd8#"
+      ],
+      "hint": "Şahınız g7 ile h7'yi zaten tutuyor, yani vezir siyah şahın üzerinde durduğu yatayı istiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Mat Edecek Bir Şey Kalmadı",
+      "text": "Yeni tahta, yeni kural. Beyazın c2'de şahı, c3'te atı var. Siyahın a5'te şahı, a2'de yeni bir vezire bir kare uzaklıkta piyonu var — ve tek ata karşı vezir, siyahın kazanması gereken bir partidir.\n\nYani bütün parti o piyondan ibaret. Onu kaldırın, siyahın ordusu tek başına dolaşan bir şaha insin.\n\nBir şah ile bir at, tek başına kalmış bir şahı asla mat edemez. Ne zorla, ne şansla, ne de yardımla."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Ölü Pozisyonlar",
+      "text": "Kurallı hamlelerin hiçbir dizisi iki taraftan biri için mat üretemiyorsa, parti olduğu yerde berabere biter. Dört bitiş buna girer:\n\n- şaha karşı şah\n- şah ve file karşı şah\n- şah ve ata karşı şah\n- şah ve file karşı şah ve fil, iki fil de aynı renk karelerde\n\nÇıplak şaha karşı iki at bu listede yoktur. Orada mat zorla edilemez, ama savunan taraf kendi ayağıyla girerse ortaya çıkabilir; bu yüzden parti sürer."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "prompt": "Bu partiyi hâlâ kazanabilecek tek siyah taşı tahtadan kaldırın.",
+      "targetSan": [
+        "Nxa2"
+      ],
+      "hint": "Sonrasında ne kaldığını sayın ve dörtlü listeyle karşılaştırın."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Talep Etmeniz Gereken Beraberlikler",
+      "text": "Yarım puana giden iki yol daha ve bu tahta ikisi için de biçilmiş kaftan: sürülecek piyon kalmamış ve alınabilecek tek bir taş kalmış.\n\nİki tarafın da elli hamle boyunca hiç taş almaması ve hiç piyon oynatmaması — bunun üzerine oyunculardan biri beraberlik talep edebilir. Ya da aynı **pozisyon**, aynı taraf hamle sırasındayken, aynı rok haklarıyla ve aynı geçerken alma olanağıyla üç kez ortaya çıkar; bunu da iki oyuncudan biri talep edebilir.\n\nTekrarlayan pozisyondur, ona götüren hamleler değil."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Kimse Sizin Yerinize Talep Etmez",
+      "text": "Elli hamlede ya da üçüncü tekrarda kendiliğinden hiçbir şey olmaz. Bir oyuncunun beraberliği talep etmesi gerekir ve saymayan oyuncu talep etmez.\n\nSürekli şah dediğimiz şey de bundan ibarettir. Rakip şaha sonsuza kadar şah çekmek kendi başına bir kural değildir — şahlar aynı pozisyonu tekrar tekrar getirir ve biri tekrarı talep eder.\n\nŞimdiye dek dört oldu: pat, ölü pozisyon, elli hamle sayımı ve aynı pozisyonun üç kez tekrarı. Beşincisi, iki oyuncunun da istediği anda yapabileceği tekliftir."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Kaza",
+      "text": "Şimdi kural sizi gösteriyor. Siyah tam bir vezir önde, h1'deki beyaz şahın tahtası tükenmiş ve sıra siyahta.\n\n{{Qg3}} ağın kapanması gibi duruyor: g1, g2 ve h2 aynı anda kapanıyor. Ama h1 saldırı altında değil, yani bu şah değil ve beyazın oynatacak başka bir şeyi yok. Pat. Kazanılmış bir parti geri verildi.\n\n> Son kareyi şah çekerek alın ya da henüz almayın."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "prompt": "Vezir yeterince çalıştı — bunun yerine şahı beyazın köşesine bir kare daha yaklaştırın.",
+      "targetSan": [
+        "Kd5"
+      ],
+      "hint": "c6 ile h1 aynı uzun çaprazda duruyor, yani şah o çapraz boyunca yürüyebilir."
+    }
+  ]
+}

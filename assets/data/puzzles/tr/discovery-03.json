@@ -1,0 +1,14 @@
+{
+  "id": "discovery-03",
+  "fen": "2r5/ppp4k/5b1p/8/4P3/7P/5P1K/1B4R1 w - - 0 1",
+  "solution": [
+    "e5+",
+    "Kh8",
+    "exf6"
+  ],
+  "rating": 1040,
+  "title": "Piyon Öne Çıkıyor",
+  "setup": "b1'deki filiniz dosdoğru h7'yi gösteriyor ve çaprazı kapalı tutan tek şey kendi e4'teki piyonunuz.",
+  "hint": "Siyahın fili koyu kare taşıdır: b1–h7 çaprazına adım atıp hiçbir şeyi kapatamaz.",
+  "explanation": "## Fikir\n\n{{e5+}} b1–h7 çaprazını açar ve aynı nefeste file saldırır. Önce şaha cevap verilmesi gerekir ve siyahın hiçbir taşı açık bir karede araya giremez; böylece {{Kh8}} geldikten sonra piyon f6'da bedavaya alır."
+}

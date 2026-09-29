@@ -1,0 +1,56 @@
+{
+  "id": "minor-piece-endings",
+  "title": "Gajah atau Kuda?",
+  "summary": "Hitung langkahnya, bukan poinnya",
+  "proof": "endgames-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Satu Buah, Dua Sayap",
+      "text": "Pion-pion Hitam berlari di tepi papan yang berlawanan — pion di a4 di satu sisi, pion di g6 dan h7 di sisi lain. Putih punya satu buah untuk menjawab keduanya.\n\nItulah pertanyaan yang menjadi poros akhir permainan ini. Bukan buah mana yang lebih indah. Buah mana yang bisa berada di dua tempat.\n\nGajah di c2 sudah memandang ke sepanjang diagonal b3 ke arah a4, dan ia berjarak dua langkah dari h5, petak yang menatap g6. Buah yang sama, kedua sayap."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Empat Langkah Melawan Satu",
+      "text": "Tempatkan kuda di tempat gajah itu berdiri dan hitung lompatannya. Tiga hanya untuk mencapai petak yang menyerang a4, yang keempat untuk mengambilnya — dan pion hanya butuh tiga langkah untuk menjadi menteri.\n\nGajah butuh satu. Bukan karena ia buah yang lebih baik, melainkan karena ia jenis buah yang berbeda. Keduanya bernilai tiga poin, dan hanya satu yang menyeberangi papan dalam satu langkah.\n\nPion di dua sayap adalah bentuk yang menguntungkan gajah. Garis-garisnya terbuka, tak ada yang menghalangi, dan gajah di papan terbuka tidak bepergian. Ia langsung tiba."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "prompt": "Ambil pion pelari di sayap jauh dengan buah yang bisa kembali menjaga sisi lain satu langkah kemudian.",
+      "targetSan": [
+        "Bxa4"
+      ],
+      "hint": "Pion pelari dan gajah Anda sama-sama berdiri di petak terang, jadi baca diagonal yang menghubungkan keduanya."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5k1p/6p1/8/B7/8/8/4K3 w - - 1 2",
+      "title": "Kembali Sebelum Berarti",
+      "text": "Pion a sudah hilang, dan raja Hitam di f7 berdiri mengawasi yang tersisa.\n\nGajah Anda di a4 kini berada di tepi papan yang jauh dari kedua pion itu. {{Bd1}}, dan diagonal terang yang panjang terbuka di depannya — e2, f3, g4, h5 — dengan h5 menatap lurus ke g6. Dua langkah untuk menyeberangi seluruh papan. Kuda yang berangkat dari petak yang sama butuh tiga lompatan hanya untuk menyerang g6.\n\n> Tiga poin adalah harga sebuah buah. Nilainya adalah seberapa cepat ia mencapai sisi papan tempat partai sedang berlangsung."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "Separuh Papan, Selamanya",
+      "text": "Posisi baru, dan keadaannya berbalik. Gajah Hitam di c7 berdiri di petak gelap. Begitu pula pion di a7. Begitu pula pion di e7.\n\nWarna yang sama tidak berarti aman. Tak satu pion pun menjaga yang lain, dan tak ada petak yang bisa dicapai gajah dalam satu langkah yang menjaga keduanya sekaligus — ia bisa berdiri di depan satu pintu sementara pintu yang lain terbuka lebar.\n\nDan setiap petak terang di papan sepenuhnya berada di luar jangkauannya, pada langkah ini dan untuk selamanya."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "Buah Tanpa Warna",
+      "text": "Kuda Anda di e5 sedang diserang gajah itu. Diagonalnya melewati c7, d6, e5, dan kosong. Jadi kuda bergerak.\n\nSetiap lompatan kuda mendarat di warna yang berlawanan dengan warna yang ditinggalkannya, itulah sebabnya gajah tak pernah bisa mengejar kuda lama-lama. Gajah Hitam hidup di petak gelap. Kuda putih yang diparkir di petak terang aman darinya sepanjang sisa partai.\n\nJadi kuda sedang mencari petak terang. Yang diinginkannya adalah petak terang yang juga bekerja."
+    },
+    {
+      "type": "play",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "prompt": "Pindahkan kuda yang diserang ke petak yang tak akan pernah bisa dicapai gajah Hitam, dan serang kedua pion yang tak terlindungi sekaligus.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "Pion-pionnya duduk di a7 dan e7, jadi hitung petak terang mana yang menyentuh keduanya sekaligus."
+    }
+  ]
+}

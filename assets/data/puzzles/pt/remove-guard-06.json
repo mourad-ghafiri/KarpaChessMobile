@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-06",
+  "fen": "2r3k1/p4p1p/6p1/5n2/3b4/7B/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxf5"
+  ],
+  "rating": 1250,
+  "title": "Segue a Defesa",
+  "setup": "A tua torre enfrenta o bispo de d4, que só fica onde está porque o cavalo de f5 o cobre.",
+  "hint": "Ainda não comas o bispo. Pergunta o que o defende, e se consegues trocar primeiro essa peça.",
+  "explanation": "## A Ideia\n\n{{Bxf5}} elimina o cavalo que guarda d4. {{gxf5}} repõe o material mas não a defesa, e {{Rxd4}} ganha uma peça. Ataca o defensor, não o defendido. Uma recaptura de peão repara o material, nunca a defesa."
+}

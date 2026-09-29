@@ -1,0 +1,44 @@
+{
+  "id": "rook-lift",
+  "title": "Kale Kaldırma",
+  "summary": "Hiçbir dikey şaha ulaşmıyorsa üstten geçin",
+  "proof": "rook-lift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Evdeki İki Kale",
+      "text": "Siyahın g8'deki şahı g piyonunu da h piyonunu da kaybetmiş ve h5'teki veziriniz çoktan yakınında. Siyahın g7'deki veziri şahın önünde duruyor; ikisi g dikeyinde aynı hatta.\n\nKalelerinizin ikisi de hâlâ birinci yatayda. c ve e dikeyleri açık ve ikisi de g8'in yakınına bile gitmiyor. g dikeyi gidiyor ve onu kendi g2'deki piyonunuz kapatıyor.\n\nKendine dikey bulamayan kale, beş puanlık mobilyadır."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "title": "Üstten",
+      "text": "Kalenin kavgaya bir dikeyden çıkması şart değil. Üçüncü yataya tırmanıp oradan yana yürüyebilir; kendi piyonlarının içinden değil, üstünden. Buna **kale kaldırma** denir: önce yukarı, sonra karşıya.\n\nÜçüncü yatayınız a3'ten g3'e kadar boş ve önemli olan kare g3. Oradaki bir kale, kendi g piyonunuzun önünde, siyahın vezirinin ve şahının sırayla beklediği dikeyde durur.\n\n> Hiçbir dikey açılmayacaksa, kaleyi piyonların arkasında beklemek yerine üstlerinden geçirin."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp1b2q1/5p2/3p3Q/3P4/7P/PP3PP1/2R1R1K1 w - - 0 25",
+      "prompt": "Bir kaleyi, siyahın vezirinin şahının önünde durduğu g dikeyine giden yola çıkarın.",
+      "targetSan": [
+        "Rc3"
+      ],
+      "hint": "İki kale de tırmanabilir, ama yalnızca birinin durduğu yerde bir işi var. Siyahın filinin ulaşabildiği karelere bakın."
+    },
+    {
+      "type": "teach",
+      "fen": "r3brk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/4R1K1 w - - 2 26",
+      "title": "Evde Kalan Kale",
+      "text": "Siyah tehdidi görür ve kendi tehdidiyle cevap verir: e8'deki fil vezirinize saldırır.\n\nAma e8 açık e dikeyinde ve öteki kaleniz oradan hiç ayrılmadı. {{Rxe8}} fili alır, {{Raxe8}} geri alır ve c3'teki kaleye de önündeki boş karelere de hiçbir şey dokunmamış olur.\n\nKaldırmanın c1'den başlamasının sebebi buydu. Tırmanan kale, durduğu yerde yapacak işi olmayan kale olmalıdır."
+    },
+    {
+      "type": "play",
+      "fen": "4rrk1/pp4q1/5p2/3p3Q/3P4/2R4P/PP3PP1/6K1 w - - 0 27",
+      "prompt": "Kaldırmayı tamamlayın ve kaleyi, siyahın vezirinin şahının önünde durduğu dikeye taşıyın.",
+      "targetSan": [
+        "Rg3"
+      ],
+      "hint": "Bir kale o dikeye kurulduğunda vezir, şahını şah altında bırakmadan dikeyden çıkamaz."
+    }
+  ]
+}

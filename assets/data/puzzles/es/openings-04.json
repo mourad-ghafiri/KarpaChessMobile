@@ -1,0 +1,11 @@
+{
+  "id": "openings-04",
+  "fen": "r1b1kb1r/pp1n1ppp/2p1p3/q2p2B1/2PPn3/2NBPN2/PPQ2PPP/R3K2R b KQkq - 5 8",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "La clavada de Cambridge Springs",
+  "setup": "Sostuviste d5 con peones en c6 y e6 y pusiste la dama en a5. La dama blanca acaba de atacar a tu caballo de e4.",
+  "hint": "Tu dama clava el caballo de c3 contra el rey blanco. Con ese caballo inmóvil, ¿qué queda defendiendo al alfil blanco?",
+  "explanation": "## La idea\n\nTu dama de a5 clava el caballo de c3 contra el rey blanco, así que el alfil de g5 tiene un solo defensor: el caballo de f3.\n\n{{Nxg5}} se come el alfil de todos modos. Si {{Nxg5}}, entonces {{dxc4}} quita tu propio peón de la quinta fila, y la dama recupera el caballo: una pieza de ventaja. Los demás intentos de las Blancas pierden la pieza con menos ruido.\n\nUna pieza clavada no defiende nada. Compruébalo antes de cada captura que tu rival parezca permitir."
+}

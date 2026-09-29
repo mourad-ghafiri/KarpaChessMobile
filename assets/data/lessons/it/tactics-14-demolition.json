@@ -1,0 +1,50 @@
+{
+  "id": "demolition",
+  "title": "Demolizione della Difesa",
+  "summary": "Due alfieri spesi per due pedoni, e un re lasciato in piena aria aperta",
+  "proof": "demolition-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Un Pedone sulla Strada",
+      "text": "Emanuel Lasker ha regalato un alfiere due mosse fa per strappare via il pedone da h7, ed ecco che cosa ha comprato. Il re nero in g8, la colonna h aperta, e la donna bianca in h5.\n\nL'alfiere in e5 guarda lungo la grande diagonale verso h8. Un pedone nero in g7 sta sulla strada.\n\n{{Qh8+}} {{Kxh8}}. Niente difende la donna quando atterra, quindi il re la prende e l'attacco è finito. Quel pedone non difende h8 — blocca il pezzo che lo farebbe."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Aritmetica, Non Coraggio",
+      "text": "Dare un pezzo per un pedone è aritmetica, non coraggio. Prima di spenderlo, nominate le mosse che vengono dopo — se non riuscite a nominarne due, non avete un attacco.\n\nQui è facile nominarle. La donna in h5 è già a posto, e la torre in f1 è a una mossa dalla terza traversa e a un'altra dalla colonna h.\n\nPoi contate l'altro lato. Le torri nere in a8 e f8 non hanno strada per la colonna h, e la donna in c6 punta sull'altra metà della scacchiera. Non torna indietro niente in tempo."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "prompt": "Strappate l'ultimo pedone dal re nero, e pagate un pezzo intero per farlo.",
+      "targetSan": [
+        "Bxg7"
+      ],
+      "hint": "Un vostro pezzo arriva a quel pedone, e quello che conta è il re nudo che lascia dietro di sé."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "Arriva il Conto",
+      "text": "Bauer ha preso, e aveva ben poche ragioni per non farlo: un alfiere bianco vivo accanto al re, con la donna già sulla colonna h, non è una cosa che si lascia in piedi.\n\nEd ecco che cosa hanno comprato i due alfieri. Il re nero in g7 sta in piena aria aperta, e il conto dice che il Bianco ha dato due alfieri per due pedoni.\n\nStare così indietro è sopportabile solo finché il Nero risponde a scacchi. Consegnate una mossa libera e le torri in a8 e f8 cominciano ad attraversare, e allora il Bianco ha due pezzi in meno e niente in mano."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "Lo Scacco che Non Potete Usare",
+      "text": "Non tutti gli scacchi valgono la pena. {{Qh7+}} sembra forzante finché non notate che niente di vostro copre h7: {{Kxh7}}, e l'attacco è una donna più leggero per niente.\n\nUno scacco funziona solo finché il re non può rispondergli prendendo. Quello che volete è uno scacco da una casa che il Nero non può toccare, dato mentre la torre ha ancora il tempo di attraversare.\n\n> Un pezzo speso su un riparo di pedoni non è coraggio. È un conto, e gli scacchi sono il modo in cui lo pagate."
+    },
+    {
+      "type": "play",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "prompt": "Costringete il re a muoversi di nuovo perché la vostra torre abbia il tempo di arrivare sulla colonna h.",
+      "targetSan": [
+        "Qg4+"
+      ],
+      "hint": "Uno scacco che il re può semplicemente catturare vi costa la partita: trovate la casa di scacco che il Nero non può toccare."
+    }
+  ]
+}

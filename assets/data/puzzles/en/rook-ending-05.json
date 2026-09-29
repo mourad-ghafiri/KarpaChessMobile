@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-05",
+  "fen": "6R1/8/5r2/K7/3P3k/8/8/8 b - - 0 1",
+  "solution": [
+    "Rd6"
+  ],
+  "rating": 1390,
+  "title": "In the Way",
+  "setup": "Black's king is stranded on h4, so the rook has to deal with the free d-pawn entirely on its own.",
+  "hint": "Attacking the pawn is not the same as stopping it. Which square does the pawn have to run into?",
+  "explanation": "## The Idea\n\n{{Rd6}} plants the rook straight in front of the pawn, and {{d5}} now runs into {{Rxd5+}}. Hit it from the side with {{Rf4}} and White answers {{Rd8}}, defending from behind, after which the pawn walks up the board."
+}

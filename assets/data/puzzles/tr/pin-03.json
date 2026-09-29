@@ -1,0 +1,12 @@
+{
+  "id": "pin-03",
+  "fen": "8/1k2pp2/1b6/3r4/8/P2BP3/3R4/4K3 w - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "rating": 880,
+  "title": "İki Saldıran, Kaçış Yok",
+  "setup": "d3'teki filiniz kendi kalenizin önünde duruyor ve siyahın d5'teki kalesi ikisinin de yolunda.",
+  "hint": "Filiniz kendi kalenizin önünü kesiyor. Siyahın kalesi yine tek kare bile oynayamayacak şekilde nereye gidebilir?",
+  "explanation": "## Fikir\n\n{{Be4}} aynı anda iki iş görür. **d5**'teki kaleyi **b7**'deki şaha karşı açmaza alır ve d3'ten ayrılarak **d2**'deki kalenizin de d5'e saldırmasını sağlar. İki saldıran, hiç koruyucu ve oynamasına izin olmayan bir kale."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "history-05",
+  "fen": "r1b1k1nr/p2p1ppp/n2B4/1p1NPN1P/6P1/3P1Q2/P1P1K3/q5b1 w kq - 2 21",
+  "solution": [
+    "Nxg7+",
+    "Kd8",
+    "Qf6+",
+    "Nxf6",
+    "Be7#"
+  ],
+  "title": "Il Finale Immortale",
+  "setup": "Anderssen contro Kieseritzky, Londra 1851. Il Bianco ha regalato tutte e due le torri e un alfiere. Contate il finale prima di contare il materiale.",
+  "hint": "Cominciate con uno scacco. Poi contate le case del re nero, trovate l'unico pezzo nero che ancora le difende, e dategli qualcosa che debba prendere.",
+  "explanation": "## L'idea\n\nLa Partita Immortale, giocata a Londra nel 1851: il Bianco ha due torri e un alfiere in meno, e dà matto lo stesso.\n\n{{Nxg7+}} prende un pedone con scacco, e {{Kd8}} è l'unica risposta. Adesso c7 e e7 appartengono all'alfiere in d6, e e8 al cavallo in g7.\n\nUn pezzo nero difende ancora e7: il cavallo in g8. {{Qf6+}} lo tira via, perché solo quel cavallo può rispondere allo scacco. Dopo {{Nxf6}}, {{Be7#}}, con il cavallo in d5 a difendere l'alfiere."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-07",
+  "fen": "5k2/5p1K/3p4/5N2/8/8/Q7/8 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Vezir ve At Ağı",
+  "setup": "Siyahın f8'deki şahını kendi piyonu sıkıştırmış, h7'deki şahınız yakınında duruyor ve f5'teki atınız gözlüyor.",
+  "hint": "Şahınız g7 ile g8'i, at e7'yi kapsıyor. Vezire yalnızca şahın yanından çekilemeyeceği bir şah gerekiyor.",
+  "explanation": "## Fikir\n\n{{Qa8#}} arka yatay boyunca şah çeker. e8 vezirin hattındadır, f5'teki at e7'yi kapsar, h7'deki şahınız g7 ile g8'i kapsar ve f7'de siyahın kendi piyonu durur. Sekizinci yatayda araya hiçbir şey giremez.\n\nAtı kaldırırsanız şah e7'ye kaçar. Bir mat ağında her taş, ötekilerin kapsayamadığı bir kareyi kapsar."
+}

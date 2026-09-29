@@ -1,0 +1,12 @@
+{
+  "id": "pin-05",
+  "fen": "8/B1kb3R/p3r3/p7/3P4/4R3/1r4PK/8 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 960,
+  "title": "Prendete Quello che Difende",
+  "setup": "La vostra torre in h7 rastrella tutta la settima traversa, dritta attraverso l'alfiere nero fino al re in c7.",
+  "hint": "La torre in e6 ha una guardia. Guardate lungo la settima traversa e chiedetevi se quella guardia abbia il permesso di andarsene.",
+  "explanation": "## L'idea\n\n{{Rxe6}} vince semplicemente una torre. L'alfiere in **d7** è l'unico difensore, e la vostra torre in **h7** lo inchioda contro il re in **c7** lungo la settima traversa. Catturare in e6 esporrebbe il re, quindi l'alfiere non può rispondere."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "philidor-proof",
+  "fen": "3k4/5R2/8/r1PK4/8/8/8/8 b - - 0 1",
+  "solution": [
+    "Ra6"
+  ],
+  "title": "Altıncıyı Kapatın",
+  "setup": "Beyazın d5'teki şahı altıncı yataya bir adım uzaklıkta ve oradan şahınızı terfi karesinden uzaklaştırır. Sıra siyahta ve bu bir beraberlik.",
+  "hint": "Beyazın şahına altıncı yataydaki üç kareden biri gerekiyor. Bir yatayda duran kale o yatayın her karesini kapsar.",
+  "explanation": "## Fikir\n\nBeyazın şahına c6, d6 ya da e6 gerekir ve tek bir kale hamlesi üçünü birden alır: {{Ra6}}. Bir yataydaki kale bir çittir ve şah, onun kapsadığı kareye adım atamaz.\n\nBaşka her hamle şahın altıncı yataya çıkmasına izin verir ve f7'deki kale sizin şahınızı arka yatayda tutarken piyon içeri yürür. Beyaz bir gün c6'ya sürerse çit işini görmüştür: kaleyi uzak uca indirin ve arkadan şah çekin."
+}

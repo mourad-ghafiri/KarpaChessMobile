@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-13",
+  "fen": "8/5ppp/6k1/8/8/8/5PPP/R3K3 w Q - 0 1",
+  "solution": [
+    "O-O-O"
+  ],
+  "title": "Enroca largo",
+  "setup": "El rey blanco y la torre del flanco de dama no se han movido nunca, y todas las casillas entre ellos están vacías. Enroca hacia la torre de a1.",
+  "hint": "El rey se mueve dos casillas hacia la torre, y la torre cae en la casilla que el rey cruzó.",
+  "explanation": "## La idea\n\n{{O-O-O}} es una jugada para dos piezas: el rey pasa de e1 a c1, y la torre de a1 salta por encima a d1.\n\nSe cumplen todas las condiciones. Ninguna de las dos piezas se ha movido, b1, c1 y d1 están vacías, el rey no está en jaque y nada ataca d1 ni c1, las casillas que cruza y donde cae. El rey sale del centro, y la torre llega a una columna abierta."
+}

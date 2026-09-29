@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-09",
+  "fen": "6k1/5pp1/7p/8/2n5/8/3r1PPP/1B2R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 980,
+  "title": "Air That Isn't There",
+  "setup": "Black has just played h6 to open a flight square on h7 for its king.",
+  "hint": "Black believes the king now has a hole to run to. Find out who else is looking at that square.",
+  "explanation": "## The Idea\n\n{{Re8#}} anyway. The new flight square h7 is covered by the bishop on b1, all the way down the diagonal, so the pawn move bought nothing. An escape hatch only helps if no enemy piece watches the square you open."
+}

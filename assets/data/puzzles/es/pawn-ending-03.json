@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-03",
+  "fen": "3k4/8/8/3K4/3P4/8/8/8 b - - 1 1",
+  "solution": [
+    "Kd7"
+  ],
+  "rating": 1175,
+  "title": "El rey en el espejo",
+  "setup": "El rey blanco acaba de ponerse delante del peón de d, y las Negras tienen que elegir dónde colocarse.",
+  "hint": "Tomes la casilla que tomes, las Blancas intentarán colarse por un flanco; ¿cuál te permite copiarlas por los dos lados?",
+  "explanation": "## La idea\n\n{{Kd7}} es la única casilla que aguanta. Desde ahí las Negras simplemente copian: a {{Kc5}} se responde con {{Kc7}}, y a {{Ke5}} con {{Ke7}}. Ponte en cualquier otro sitio y el rey blanco llega a la sexta fila delante de su peón, que es todo lo que necesitan siempre un rey y un peón."
+}

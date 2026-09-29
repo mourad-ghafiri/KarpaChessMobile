@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-02",
+  "fen": "2r3kb/1Q2rppp/8/R7/8/8/PP6/K5B1 w - - 0 1",
+  "solution": [
+    "Qxc8+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1340,
+  "title": "A Torre Tem de se Interpor",
+  "setup": "As pretas têm uma torre em c8, uma torre em e7 e um bispo em h8, e a tua dama está em b7 no meio disso tudo.",
+  "hint": "Pergunta que peça preta pode responder a um xeque na linha de fundo, e a que tem de renunciar para o fazer.",
+  "explanation": "## A Ideia\n\n{{Qxc8+}} elimina uma torre e a outra tem de tapar com {{Re8}} — o rei não tem casa. {{Qxe8#}} come-a de volta. Contar os defensores vale aqui mais do que contar o material."
+}

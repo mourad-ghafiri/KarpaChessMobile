@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-16",
+  "fen": "r1b1k2r/ppp2ppp/2n5/3Bq3/8/2N1P2P/PP3PPQ/R4RK1 w - - 0 1",
+  "solution": [
+    "Bxc6+"
+  ],
+  "title": "Elimina al defensor con jaque",
+  "setup": "Las dos damas se miran por la diagonal, y la dama negra de e5 solo la defiende el caballo de c6.",
+  "hint": "Cambiar damas no consigue nada. Quítale a la dama su único defensor, y hazlo ganando un tiempo.",
+  "explanation": "## La idea\n\n{{Qxe5+}} de inmediato solo cambia damas tras {{Nxe5}}. El caballo de c6 es el único defensor de la dama, así que elimínalo primero: {{Bxc6+}} se come el caballo con jaque. Las Negras tienen que responder al jaque, con {{bxc6}}, tapando en d7 o moviendo el rey, y ninguna de esas respuestas vuelve a defender e5, así que {{Qxe5+}} gana la dama por un alfil.\n\nCuando una pieza tiene un solo defensor, cómete al defensor con jaque."
+}

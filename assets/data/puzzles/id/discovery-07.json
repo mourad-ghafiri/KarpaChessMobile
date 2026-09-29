@@ -1,0 +1,12 @@
+{
+  "id": "discovery-07",
+  "fen": "2r1k3/p1q2ppp/8/4B3/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxc7+"
+  ],
+  "rating": 1200,
+  "title": "Benteng di Belakang Gajah",
+  "setup": "Raja Hitam masih di e8 berhadapan dengan benteng Anda di e1, dan hanya gajah Anda sendiri yang menutup lajur itu.",
+  "hint": "Gajah Anda satu-satunya yang menahan lajur e tetap tertutup. Ke mana ia bisa pergi sambil membayar dirinya sendiri di perjalanan?",
+  "explanation": "## Ide\n\n{{Bxc7+}} mengambil menteri dan membuka sekak benteng di sepanjang lajur e pada saat yang sama. Benteng di c8 memang melindungi c7, tetapi Hitam harus menjawab sekak lebih dulu dan hanya bisa merebut kembali gajah sesudahnya: menteri untuk gajah."
+}

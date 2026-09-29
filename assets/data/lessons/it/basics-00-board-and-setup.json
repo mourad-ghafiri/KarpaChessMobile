@@ -1,0 +1,50 @@
+{
+  "id": "board-and-setup",
+  "title": "Sessantaquattro Case",
+  "summary": "Riconoscete ogni casa a colpo d'occhio e montate la scacchiera sempre nel verso giusto",
+  "proof": "board-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "title": "Ogni Casa Ha un Nome",
+      "text": "Sessantaquattro case, e ognuna ha il suo indirizzo. A darglielo sono due cose.\n\nLe linee verticali si chiamano **colonne** e vanno dalla **a** alla **h**, da sinistra a destra per il Bianco. Le linee orizzontali sono le **traverse**, numerate da **1** a **8** a partire dal bordo del Bianco.\n\nPrima la lettera, poi il numero. Il re bianco in e1 lo dice chiaramente: colonna e, traversa 1. L'angolo lontano alla destra del Bianco è h8.\n\nIl pedone in a2 può arrivare in {{a3}} e in {{a4}}: due case in più che sapete già chiamare per nome."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "prompt": "Leggete l'indirizzo e portate un pedone sulla casa chiamata h3.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Partite dalla colonna h, quella incollata al bordo destro del Bianco, poi contate salendo: traversa 1, traversa 2, traversa 3."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "Il Chiaro a Destra",
+      "text": "Le case si alternano chiare e scure, ed è proprio quel disegno a dirvi se la scacchiera è messa nel verso giusto.\n\nQuando vi sedete, l'angolo più vicino alla vostra mano destra deve essere chiaro. Per il Bianco quell'angolo è h1, per il Nero è a8.\n\nSe la casa alla vostra destra è scura, l'intera scacchiera è ruotata di un quarto di giro: un errore che d'ora in poi noterete nei salotti e nei film per il resto della vostra vita."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "La Donna sul Proprio Colore",
+      "text": "Ogni donna parte da una casa del proprio colore. La donna bianca in d1 sta sul chiaro, la donna nera in d8 sullo scuro. Stessa colonna, colori opposti.\n\nFate un passo dritto in avanti e il colore sotto i piedi cambia ogni volta. Il pedone in d2 sta sullo scuro, {{d3}} è chiara, {{d4}} è di nuovo scura.\n\nCosì la donna prende la casa centrale che le corrisponde e il re occupa quella che resta.\n\n> Il chiaro a destra, la donna sul proprio colore. Due regole, e la scacchiera non sarà mai più sbagliata."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Ai Posti di Combattimento",
+      "text": "Trentadue pezzi, e ogni partita della storia è cominciata con loro schierati qui.\n\nLungo la traversa di fondo — la 1 per il Bianco, l'8 per il Nero — dagli angoli verso l'interno:\n\n- **Torri** negli angoli, a1 e h1\n- **Cavalli** accanto a loro, b1 e g1\n- **Alfieri** accanto ai cavalli, c1 e f1\n- **Donna** in d1, **re** in e1\n\nOtto pedoni davanti, sulla seconda traversa, e l'esercito del Nero rispecchia quello del Bianco dall'altra parte della scacchiera.\n\nMuove sempre prima il Bianco — {{e4}} — e solo allora risponde il Nero, {{e5}}. Da lì vi alternate, una mossa a testa, fino alla fine."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "prompt": "Muove per primo il Bianco: aprite la partita spingendo di due case il pedone davanti alla donna.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "La donna sta in d1, quindi il pedone che la precede parte da d2 — e alla prima mossa un pedone può avanzare di una o di due case."
+    }
+  ]
+}

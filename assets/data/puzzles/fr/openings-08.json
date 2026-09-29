@@ -1,0 +1,13 @@
+{
+  "id": "openings-08",
+  "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Nxe5",
+    "fxe5",
+    "Qh5+"
+  ],
+  "title": "Le mauvais défenseur",
+  "setup": "Les Noirs ont défendu le pion e5 avec le pion f au lieu d'une pièce. Punissez-les en offrant du matériel qui ouvre la diagonale vers le roi noir.",
+  "hint": "Demandez-vous quelle route s'ouvre si ce nouveau défenseur est forcé de prendre, et quelle pièce blanche attend au bout.",
+  "explanation": "## L'idée\n\nDéfendre e5 avec le pion f tient le pion, mais ouvre la diagonale de h5 vers le roi noir.\n\n{{Nxe5}} offre une pièce pour en profiter. Si {{fxe5}}, alors {{Qh5+}} : s'interposer en g6 perd la tour h8 après {{Qxe5+}} et la prise suivante de la dame, et aller en e7 laisse la dame chasser le roi à découvert. Refuser par {{Qe7}} regagne le pion, mais laisse le roi et le développement noirs nettement moins bien.\n\nDéfendez d'abord avec des pièces. Un pion qui a bougé ne peut pas revenir."
+}

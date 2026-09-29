@@ -1,0 +1,50 @@
+{
+  "id": "weak-squares",
+  "title": "Casillas débiles y complejos de color",
+  "summary": "Agujeros que ningún peón podrá volver a cubrir",
+  "proof": "strategy-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "Cuatro peones, un color",
+      "text": "Los peones nunca retroceden. Esa sola regla es la que convierte una casilla en propiedad permanente.\n\nLos cuatro peones centrales negros están en c6, d5, e6 y f5: todos en casillas blancas, y ninguno puede dar marcha atrás. Una casilla que ningún peón tuyo puede volver a atacar es una **casilla débil**, o un **agujero**. Mira e5. Solo el peón de d y el de f la cubrieron alguna vez, y los dos ya la han dejado atrás.\n\nLas piezas pueden vigilar un agujero. Los peones son los que lo sostienen, y a las Negras no les queda ninguno para e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "Instalarse",
+      "text": "{{Ne5}}, y el caballo está en casa. Las Negras ponen el rey a salvo con {{O-O}}, lo que no cambia nada en e5: ningún peón va a venir a desalojar a una pieza que esté ahí.\n\nEso es lo que vale un agujero. No una casilla que visitas. Una casilla que ocupas, con la opción de mandar una segunda pieza detrás de la primera.\n\nUna pieza negra todavía discute: el alfil de d6. Es la única pieza negra que toca e5, y es toda la defensa negra de las casillas negras."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/pp2q1pp/2pbpn2/3pNp2/2PP4/1P4P1/P3PPBP/RNBQ1RK1 w - - 3 9",
+      "prompt": "Protege tu caballo con una pieza además del peón, eligiendo una que pueda cambiar al único defensor negro de las casillas negras.",
+      "targetSan": [
+        "Bf4"
+      ],
+      "hint": "Tu alfil de c1 tiene dos diagonales para salir de la esquina, y solo una cruza una casilla que cubre e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "Un color entero, vendido",
+      "text": "Un tablero nuevo, y el cambio ya se ha producido: el alfil negro de casillas negras se fue por un caballo, y no hay tienda donde comprar otro.\n\nUn agujero es una molestia. Un color entero es un plan. El caballo de e7 está en casilla negra, lo que significa que todas las casillas que ataca son blancas. Y ningún peón negro defenderá jamás g7: las únicas casillas desde las que un peón podría hacerlo son f8 y h8, y un peón que llega a la octava fila deja de ser peón."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "Lo que pagaron las Blancas",
+      "text": "Los dos peones blancos de la columna c son el recibo. Las Blancas aceptaron peones doblados y un rey sin un hogar cómodo en el flanco de dama, y con eso compraron ese alfil. Los dos bandos conocían las condiciones.\n\nAhora toca cobrar. g7 es un peón que nadie defiende, en la puerta de la casa a la que el rey negro todavía tiene que mudarse, y la dama blanca tiene un camino despejado hacia él.\n\n> Antes de cambiar un alfil, cuenta las casillas que protegía. También las vendes, y no vuelven."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "prompt": "Apunta tu dama al peón del flanco de rey que ya no tiene ninguna pieza negra que lo defienda.",
+      "targetSan": [
+        "Qg4"
+      ],
+      "hint": "¿Qué peón junto al rey negro se ha quedado sin ningún defensor ahora que el alfil ya no está?"
+    }
+  ]
+}

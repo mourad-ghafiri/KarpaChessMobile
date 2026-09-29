@@ -1,0 +1,14 @@
+{
+  "id": "decoy-04",
+  "fen": "r6k/pp2P1pp/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "exd8=Q#"
+  ],
+  "rating": 1270,
+  "title": "Atrai Quem Bloqueia",
+  "setup": "O teu peão de e7 quer a oitava linha, e só a torre de a8 monta guarda.",
+  "hint": "A torre é a defesa toda. Encontra a casa onde comê-la seja a única jogada que resta às pretas.",
+  "explanation": "## A Ideia\n\n{{Rd8+}} deixa às pretas uma jogada legal, {{Rxd8}} — e a torre foi arrastada para a casa que o teu peão ataca. {{exd8=Q#}} promove com mate. Uma torre é barata quando um peão se torna dama."
+}

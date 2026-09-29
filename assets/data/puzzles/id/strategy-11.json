@@ -1,0 +1,13 @@
+{
+  "id": "strategy-11",
+  "fen": "r1r3k1/pp1bpp1p/3p1npQ/q3n3/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+  "solution": [
+    "Rxc3",
+    "bxc3",
+    "Qxc3"
+  ],
+  "title": "Benteng untuk Kuda, dengan Rela",
+  "setup": "Gajah-gajah petak gelap sudah ditukar, menteri Putih berkeliaran ke h6, dan kedua benteng hitam sudah ditempatkan.",
+  "hint": "Hanya satu buah putih yang menahan b5, d5 dan e4 tetap utuh, dan hanya satu buah putih yang bisa menangkap balik jika buah itu lenyap.",
+  "explanation": "## Ide\n\nHitam menyerahkan lima poin untuk tiga karena pion-pionnya membayar kembali. {{Rxc3}} menyingkirkan kuda yang menahan b5, d5 dan e4 tetap utuh, dan {{bxc3}} satu-satunya tangkapan balik yang sah bagi Putih.\n\nSekarang hitung posisinya, bukan materinya. Raja putih duduk di balik pion-pion yang rusak, tanpa pion putih lagi di lajur b, dan {{Qxc3}} merebut kembali sebuah pion dengan menteri tinggal satu langkah dari sekak di a1.\n\nKorbankan kualitas ketika tangkapan baliknya merusak pion-pion dan tindak lanjutnya datang dengan cepat."
+}

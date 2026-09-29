@@ -1,0 +1,62 @@
+{
+  "id": "uncastled-king",
+  "title": "Attaccare il Re Non Arroccato",
+  "summary": "Il re sta ancora in e8, e l'orologio corre",
+  "proof": "uncastled-king-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "Il Re che Non ha Mai Lasciato e8",
+      "text": "Il re nero sta ancora in e8 alla quinta mossa, e questo non è sviluppo lento. È un bersaglio.\n\nL'arrocco fa due lavori in una mossa: mette il re al riparo dietro tre pedoni immobili, e collega le torri fra loro. Un re che se lo risparmia sta sulla colonna più trafficata della scacchiera, a portata di tutte e due le ali, con i suoi stessi pezzi a bloccargli le uscite.\n\nQuindi questa è una scadenza. Il Nero è a un paio di mosse dalla salvezza, e ogni vostra mossa che non pone una domanda gliene consegna una."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "L'Inchiodatura che Avete il Permesso di Rompere",
+      "text": "L'alfiere nero in g4 inchioda il vostro cavallo di f3 contro la donna in d1, e un cavallo inchiodato dovrebbe stare fermo. È su quest'accordo che il Nero conta.\n\nAdesso contate l'altro capo della scacchiera. Il vostro alfiere in c4 guarda già f7, e f7 è difesa esattamente da un pezzo: il re che non se n'è mai andato. Anche un cavallo che arrivasse al centro guarderebbe f7.\n\nUn'inchiodatura tiene solo finché la donna dietro vale più di quello che il cavallo può fare."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "prompt": "Il re nero è bloccato in e8: puntate un secondo pezzo su f7 anche se vi costa la donna.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "Chiedetevi che cosa può prendere al centro il cavallo inchiodato, poi contate che cosa punterebbe su f7 una volta atterrato lì."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "La Donna Era l'Esca",
+      "text": "Una donna è una donna, e quindi il Nero incassa: {{Bxd1}}, e la vostra se n'è andata per un cavallo.\n\nAdesso f7. {{Bxf7+}} è scacco, e il Nero ha esattamente una risposta legale sulla scacchiera, {{Ke7}}, perché quella casa era difesa dal re e da nient'altro. Il re viene trascinato sulla colonna e aperta con tutto l'esercito nero ancora a casa, e {{Nd5#}} chiude la faccenda.\n\nIl Nero ha vinto una donna ed è stato matto due mosse dopo."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "Quanto Costa Rifiutare",
+      "text": "Mettiamo che il Nero fiuti il matto e prenda invece il cavallo: {{dxe5}}. La donna in d1 sopravvive, e con lei muore l'inchiodatura. Dietro l'alfiere di g4 adesso non c'è altro che case vuote, e {{Qxg4}} se lo prende.\n\nIl Bianco ha dato un cavallo e preso un alfiere e un pedone. Un sacrificio che dà matto se accettato e vince materiale se rifiutato non è una scommessa. È semplicemente la mossa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "Due Pezzi sulla Porta",
+      "text": "Apertura diversa, stessa malattia. La donna bianca in e2 e il re nero in e8 stanno su una colonna, e fra loro sono incuneati due pezzi: il cavallo nero in e4 e il cavallo bianco in e5.\n\nUno solo di quei due tappi è del Nero, ed è quello che fa il lavoro. Finché il cavallo in e4 sta lì, il cavallo bianco può andare dove gli pare e sulla colonna non lo segue niente.\n\nQuel cavallo nero è anche attaccato dalla donna, e niente del Nero lo difende."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "Il Cavallo Torna a Casa",
+      "text": "{{Nf6}} è la mossa che gioca quasi chiunque. Il cavallo esce dall'attacco, difende l'ala di re, e il Nero è a due mosse dall'arrocco.\n\nSolo che svuota e4. L'ultima cosa fra la donna bianca e il re nero adesso è un cavallo bianco, e un vostro pezzo in quel posto non blocca una linea. È carico. Per qualunque casa parta, lo scacco arriva dietro di lui.\n\n> Prima di sviluppare un pezzo, guardate lungo ogni linea puntata sul re avversario e chiedetevi che cosa potrebbe fare un vostro pezzo uscendo da una di esse."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/5n2/4N3/8/8/PPPPQPPP/RNB1KB1R w KQkq - 2 5",
+      "prompt": "Togliete il cavallo dalla colonna e perché lo scacco arrivi dietro di lui, e atterrate dove vi vince la donna nera.",
+      "targetSan": [
+        "Nc6+"
+      ],
+      "hint": "Lo scacco arriva ovunque vada il cavallo, quindi l'unica domanda che resta è quale pezzo nero il cavallo può colpire all'arrivo."
+    }
+  ]
+}

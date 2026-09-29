@@ -1,0 +1,56 @@
+{
+  "id": "lucena-position",
+  "title": "Le pont de Lucena",
+  "summary": "À un pion d'une dame, et un roi qui n'a nulle part où se tenir",
+  "proof": "endgames-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "Une case de trop peu",
+      "text": "Le pion en d7 est à une case de la huitième rangée, et le propre roi des Blancs se tient sur cette case.\n\nÉcartez le roi et le pion va à dame au coup suivant. C'est toute la victoire, et le meilleur argument des Noirs est la tour en a1, qui donne échec depuis l'autre côté de l'échiquier. Un roi pris à découvert avec une tour derrière lui peut être pourchassé longtemps, et chaque échec est un coup où le pion reste immobile.\n\nCe n'est donc pas une question de pion. C'est une question d'endroit où le roi peut se tenir."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "Rien derrière quoi se cacher",
+      "text": "{{Ke7}}, et {{Re1+}} tombe aussitôt. La tour bascule sur la colonne où va le roi, depuis la distance qui lui plaît.\n\nDonnez donc au roi un mur avant qu'il sorte, et les échecs cessent de compter. Une seule pièce sur cet échiquier peut en servir. Votre tour en f2 a déjà une tâche qu'elle ne doit pas lâcher : sur la colonne f, elle tient le roi noir à l'écart du combat.\n\nElle reste donc sur cette colonne. Elle y monte — jusqu'à une case où le roi peut venir et la défendre."
+    },
+    {
+      "type": "play",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "prompt": "Avant que votre roi sorte, faites monter la tour sur sa colonne pour construire le mur derrière lequel il se cachera.",
+      "targetSan": [
+        "Rf4"
+      ],
+      "hint": "Votre roi sort à la rencontre de ce mur et doit finir à côté de lui : comptez jusqu'où cela place la tour sur la colonne."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "Le livre qui lui donne son nom",
+      "text": "La tour noire a basculé en d1, sur la colonne même du pion, prête à donner échec le long de celle-ci. C'est la position que tous les livres de finales appellent la Lucena.\n\nLuis Ramírez de Lucena a imprimé le plus ancien livre conservé sur la façon de jouer le jeu moderne, à Salamanque vers 1497, et cette position n'y figure pas. Elle n'apparaît imprimée que plus d'un siècle plus tard, dans le livre d'Alessandro Salvio de 1634. Le nom s'est posé sur le mauvais volume et ne l'a jamais quitté."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "Des échecs qui ne coûtent rien",
+      "text": "Maintenant le roi marche, et chaque pas reçoit une réponse. {{Ke7}} {{Re1+}} {{Kd6}} {{Rd1+}}.\n\nRien de tout cela ne change quoi que ce soit. La tour noire ne peut pas chasser le roi d'une case qui compte, car le roi ne fuit pas — il marche vers la rangée où le mur est déjà garé. Chaque échec décale la tour noire d'une colonne et rapproche les Blancs d'une rangée.\n\nLes Noirs peuvent continuer à donner échec. Le plan s'en moque."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "title": "Une rangée d'écart",
+      "text": "Quatre échecs plus tard, votre roi se tient en d5, et la tour en f4 est une rangée en dessous. Les Noirs donnent de nouveau échec.\n\nFuir ne rapporte plus. Allez en {{Ke5}} et la colonne s'ouvre derrière vous : {{Rxd7}}, et le pion a disparu. Allez en c6 ou e6 et la tour donne simplement échec le long de la nouvelle colonne. La réponse la plus propre est donc de couper l'échec plutôt que de le fuir.\n\n> Une interposition que l'adversaire peut prendre gratuitement n'en est pas une. Placez-la là où le roi monte déjà la garde."
+    },
+    {
+      "type": "play",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "prompt": "Mettez fin aux échecs pour de bon en vous interposant sur la seule case que votre roi défend déjà.",
+      "targetSan": [
+        "Rd4"
+      ],
+      "hint": "Votre tour n'a qu'à se déplacer le long de la rangée où elle se trouve déjà, et seulement jusqu'à la ligne de l'échec."
+    }
+  ]
+}

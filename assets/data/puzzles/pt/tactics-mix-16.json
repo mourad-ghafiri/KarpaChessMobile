@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-16",
+  "fen": "r1b1k2r/ppp2ppp/2n5/3Bq3/8/2N1P2P/PP3PPQ/R4RK1 w - - 0 1",
+  "solution": [
+    "Bxc6+"
+  ],
+  "title": "Elimina o Guarda Com Xeque",
+  "setup": "As duas damas olham uma para a outra pela diagonal, e a dama preta de e5 é guardada apenas pelo cavalo de c6.",
+  "hint": "Trocar as damas não dá nada. Tira à dama o seu único guarda, e fá-lo com ganho de tempo.",
+  "explanation": "## A Ideia\n\n{{Qxe5+}} logo à partida só troca as damas depois de {{Nxe5}}. O cavalo de c6 é o único guarda da dama, portanto elimina-o primeiro: {{Bxc6+}} come o cavalo com xeque. As pretas têm de responder ao xeque, com {{bxc6}}, um bloqueio em d7 ou uma jogada de rei, e nenhuma delas volta a guardar e5, portanto {{Qxe5+}} ganha a dama por um bispo.\n\nQuando uma peça tem um só guarda, captura o guarda com xeque."
+}

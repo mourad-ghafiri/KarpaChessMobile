@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-03",
+  "fen": "7k/8/8/6K1/8/Q7/8/8 w - - 0 1",
+  "solution": [
+    "Kg6",
+    "Kg8",
+    "Qa8#"
+  ],
+  "title": "El apretón del zugzwang",
+  "setup": "Tu dama domina medio tablero, pero una dama sola no puede terminar: el rey tiene que quitar las últimas casillas.",
+  "hint": "Aquí ningún jaque gana. Encuentra el paso tranquilo de rey que deja a las Negras exactamente una jugada legal.",
+  "explanation": "## La idea\n\nUn **zugzwang**: la jugada ganadora no hace ninguna amenaza. Simplemente deja a las Negras una jugada legal, y esa jugada pierde.\n\n{{Kg6}} es tranquila. Ahora g7 y h7 son de tu rey y la dama de a3 cubre f8, así que la única jugada negra es {{Kg8}}, a la última fila. {{Qa8#}} se la lleva entera, y f7, g7 y h7 son de tu rey.\n\nCuando cada jaque deja escapar al rey, deja de dar jaques y quita casillas."
+}

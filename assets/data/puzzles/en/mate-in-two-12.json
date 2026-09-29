@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-12",
+  "fen": "5r1k/6pp/7N/8/2Q5/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1400,
+  "title": "The Smothered Mate",
+  "setup": "Black's king is walled in on h8 by its own rook and pawns, one square short of a famous cage.",
+  "hint": "The king is nearly buried by its own pieces. Which square is still free, and can you make it fill it?",
+  "explanation": "## The Idea\n\nThis is the **smothered mate**. {{Qg8+}} offers the queen on a square the knight on **h6** defends, so the king cannot take and {{Rxg8}} is forced. That plugs the last free square, and {{Nf7#}} lands where no knight check can ever be blocked."
+}

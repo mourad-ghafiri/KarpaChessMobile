@@ -1,0 +1,12 @@
+{
+  "id": "promotion-03",
+  "fen": "rk6/4Pppp/8/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "e8=Q+"
+  ],
+  "rating": 1080,
+  "title": "Allineate la Traversa",
+  "setup": "Il vostro pedone e arriva all'ottava traversa alla prossima mossa, e il re e la torre neri ci stanno già sopra.",
+  "hint": "Il re e la torre condividono una linea con la casa a cui il vostro pedone è diretto. Quale dei due sta davanti?",
+  "explanation": "## L'idea\n\n{{e8=Q+}} promuove con scacco lungo l'ottava traversa, quindi il Nero non ha il tempo di fermare il pedone. La torre in a8 sta dietro il re su quella stessa linea: andate in c7 e la donna nuova se la prende. {{Ka7}} o {{Kb7}} tengono la torre difesa, ma voi avete comunque una donna contro una torre.\n\nQuando il re avversario sta sulla vostra traversa di promozione, promuovete con scacco."
+}

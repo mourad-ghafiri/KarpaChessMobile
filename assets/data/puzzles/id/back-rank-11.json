@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-11",
+  "fen": "3r2k1/2q2ppp/8/8/8/8/3R1PPP/3Q2K1 w - - 0 1",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Qxd8#"
+  ],
+  "title": "Penggandaan yang Menentukan",
+  "setup": "Benteng dan menteri Anda berjajar ganda di lajur d yang terbuka. Benteng Hitam menjaga baris belakang, dengan menterinya di c7 berdiri di belakangnya.",
+  "hint": "Dua penyerang melawan dua pembela di satu petak. Tukar buah-buah terdepan dan lihat buah mana yang tersisa berdiri.",
+  "explanation": "## Ide\n\nMenggandakan buah di lajur terbuka adalah soal hitungan. Dua buah putih menyerang d8, dan dua buah hitam menjaganya.\n\n{{Rxd8+}} memulai hitungan dengan sekak, dan {{Qxd8}} satu-satunya balasan sah. Lalu {{Qxd8#}} menangkap balik dengan mat: f8 dan h8 berada di baris menteri, dan f7, g7 dan h7 ditempati pion-pion Hitam.\n\nKetika hitungannya sama, pihak yang menangkap lebih dulu mempertahankan buah terakhir di petak itu."
+}

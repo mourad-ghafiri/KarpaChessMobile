@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-07",
+  "fen": "8/5K2/8/8/2pQ4/8/2B5/7k w - - 0 1",
+  "solution": [
+    "Qf2",
+    "c3",
+    "Be4#"
+  ],
+  "rating": 1590,
+  "title": "Mat sur la grande diagonale",
+  "setup": "Le roi noir est en h1 avec un pion en c4, et votre fou en c2 est à un coup de la grande diagonale.",
+  "hint": "Le fou est à une case de la ligne dont il a besoin. Trouvez le coup qui couvre g1 et g2 à la fois.",
+  "explanation": "## L'idée\n\n{{Qf2}} prend tranquillement g1 et g2. Les Noirs doivent jouer {{c3}}, et {{Be4#}} mate sur la diagonale où arrive le fou. Le zugzwang vous donne le coup libre dont un motif de mat a besoin."
+}

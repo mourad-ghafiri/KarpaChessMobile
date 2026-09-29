@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-04",
+  "fen": "2r3k1/5ppp/8/p2b4/1n6/2B4P/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxb4"
+  ],
+  "rating": 1170,
+  "title": "Togliete il Puntello",
+  "setup": "La vostra torre in d1 attacca l'alfiere in d5, che è difeso solo dal cavallo in b4.",
+  "hint": "Seguite la difesa a ritroso. Quale pezzo nero tiene d5, e che cosa di vostro arriva a quel pezzo?",
+  "explanation": "## L'idea\n\n{{Bxb4}} cambia un alfiere per il cavallo che difende d5. Dopo {{axb4}} all'alfiere non resta protezione e {{Rxd5}} lo prende. La prima presa è pari; la seconda è gratis. Lavorate a ritroso dal bersaglio fino al pezzo che lo tiene in vita."
+}

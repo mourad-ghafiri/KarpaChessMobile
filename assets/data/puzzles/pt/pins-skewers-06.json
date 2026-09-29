@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-06",
+  "fen": "3k4/8/8/8/8/8/3q4/3R3K w - - 0 1",
+  "solution": [
+    "Rxd2+"
+  ],
+  "title": "Cravada de Ponta a Ponta",
+  "setup": "A dama preta foi parar à frente da torre branca, com o rei preto seis casas atrás, em d8.",
+  "hint": "Nada está entre a torre e o rei preto a não ser uma peça preta. Descobre o que essa peça pode fazer.",
+  "explanation": "## A Ideia\n\nA dama está cravada. Não congelada — pode continuar a deslizar para cima e para baixo na coluna d, e pode até comer a torre. O que não pode é sair da coluna, porque o rei de d8 ficaria na linha da torre, e essa jogada é ilegal.\n\nPortanto tem de ficar onde a torre lhe chega: {{Rxd2+}} come-a com xeque, e o rei está seis casas longe de mais para a comer de volta.\n\nUma cravada não impede uma peça de mexer. Prega-a a uma linha."
+}

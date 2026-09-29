@@ -1,0 +1,14 @@
+{
+  "id": "defence-06",
+  "fen": "8/7B/6R1/1K1k4/r4q2/4Q3/r7/8 w - - 0 1",
+  "solution": [
+    "Bg8+",
+    "Qf7",
+    "Bxf7#"
+  ],
+  "rating": 1650,
+  "title": "L'Alfiere si Interpone per Voi",
+  "setup": "Il Nero ha una donna in f4 e torri in a4 e a2 puntate sul vostro re in b5 — le minacce sono dappertutto.",
+  "hint": "Trovate lo scacco a cui il Nero può rispondere solo mettendo in mezzo il suo pezzo più forte.",
+  "explanation": "## L'idea\n\n{{Bg8+}} forza {{Qf7}}, perché nient'altro para, e {{Bxf7#}} prende la donna e la partita insieme. Uno scacco che pretende una parata precisa vale più di uno scacco che dà solo fastidio."
+}

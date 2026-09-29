@@ -1,0 +1,14 @@
+{
+  "id": "overload-08",
+  "fen": "2r3k1/3b1ppp/3Q4/8/3R4/2R5/PP6/K7 w - - 0 1",
+  "solution": [
+    "Rxc8+",
+    "Bxc8",
+    "Qd8#"
+  ],
+  "rating": 1520,
+  "title": "Takasla Mata Giden Yol",
+  "setup": "Siyahın d7'deki fili c8'deki kaleyi destekliyor ve veziriniz d6'da bekliyor.",
+  "hint": "İki koruyucu, iki kat savunma gibi görünebilir. Aynı kareyi mi koruyorlar yoksa birbirlerinin yerini mi dolduruyorlar, kontrol edin.",
+  "explanation": "## Fikir\n\n{{Rxc8+}} düpedüz bir değişimdir, ama {{Bxc8}} fili d7'den çeker ve d dikeyini açar; böylece {{Qd8#}} gelir. Bunun yerine {{Be8}} ile kapatmak {{Rxe8#}} hamlesine yürür. Fil aynı anda hem kaleyi koruyor hem d dikeyini kapatıyordu ve ikisini birden yapamaz."
+}

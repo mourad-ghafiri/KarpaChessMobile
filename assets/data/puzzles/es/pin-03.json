@@ -1,0 +1,12 @@
+{
+  "id": "pin-03",
+  "fen": "8/1k2pp2/1b6/3r4/8/P2BP3/3R4/4K3 w - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "rating": 880,
+  "title": "Dos atacantes, ninguna salida",
+  "setup": "Tu alfil de d3 está delante de tu propia torre, y la torre negra de d5 estorba a los dos.",
+  "hint": "Tu alfil tapa a tu propia torre. ¿Adónde puede ir para que la torre negra siga sin poder moverse ni una casilla?",
+  "explanation": "## La idea\n\n{{Be4}} hace dos trabajos a la vez. Clava la torre de **d5** contra el rey de **b7** y, al dejar d3, permite que tu torre de **d2** ataque también d5. Dos atacantes, ningún defensor y una torre que no tiene permitido moverse."
+}

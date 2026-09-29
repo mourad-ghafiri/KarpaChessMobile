@@ -1,0 +1,11 @@
+{
+  "id": "forks-04",
+  "fen": "8/p3k1pp/1r6/8/8/2N5/PP4PP/6K1 w - - 0 1",
+  "solution": [
+    "Nd5+"
+  ],
+  "title": "Prima lo Scacco, Poi l'Incasso",
+  "setup": "La torre nera in b6 non ha difensori, e il re nero sta in mezzo alla scacchiera.",
+  "hint": "Trovate un balzo di cavallo che dia scacco e attacchi qualcos'altro nello stesso momento.",
+  "explanation": "## L'idea\n\n{{Nd5+}} dà scacco al re in e7 e attacca la torre in b6 in un balzo solo. Niente di nero può prendere il cavallo in d5, e il re deve prima rispondere allo scacco, quindi dopo che si è spostato {{Nxb6}} vince la torre.\n\nUna forchetta di cavallo è più forte quando uno dei due bersagli è il re: lo scacco toglie al Nero l'occasione di salvare l'altro pezzo."
+}

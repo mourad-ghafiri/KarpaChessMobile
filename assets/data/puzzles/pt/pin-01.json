@@ -1,0 +1,12 @@
+{
+  "id": "pin-01",
+  "fen": "6k1/2R5/1p2r3/2p1P3/3b4/5B2/8/5K2 w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "rating": 800,
+  "title": "Pregado ao Rei",
+  "setup": "A torre preta em e6 está na diagonal clara que acaba no seu próprio rei, em g8.",
+  "hint": "O teu bispo quer uma casa onde a torre à sua frente já não tenha para onde fugir. Que linha acaba em g8?",
+  "explanation": "## A Ideia\n\nA torre de **e6** e o rei de **g8** partilham a diagonal de a2 a g8. {{Bd5}} entra nela, e a torre fica cravada: mexê-la exporia o rei, o que é ilegal. Nada defende e6 tão-pouco, portanto a torre é simplesmente recolhida na jogada seguinte."
+}

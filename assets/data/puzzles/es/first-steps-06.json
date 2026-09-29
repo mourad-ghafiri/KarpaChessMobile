@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-06",
+  "fen": "4k3/pp4pp/8/8/3pK3/8/PP4PP/8 w - - 0 1",
+  "solution": [
+    "Kxd4"
+  ],
+  "title": "El rey luchador",
+  "setup": "Un peón negro está justo al lado de tu rey, sin guardaespaldas a la vista.",
+  "hint": "El rey captura como se mueve: una casilla en cualquier dirección. ¿Está defendido el peón de d4?",
+  "explanation": "## La idea\n\nEl rey no es solo una pieza que proteger; también puede luchar. El peón negro de d4 está a un paso, y **nada lo defiende**: el rey negro de e8 está a cuatro filas.\n\n{{Kxd4}} lo captura sin peligro. Compruébalo siempre antes: un peón negro en d4 ataca c3 y e3, ni la casilla de tu rey ni aquella a la que llega.\n\nUn rey puede capturar cualquier pieza a su lado que nada defienda."
+}

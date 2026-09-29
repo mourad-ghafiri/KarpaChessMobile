@@ -1,0 +1,68 @@
+{
+  "id": "tournaments",
+  "title": "Votre premier open",
+  "summary": "Systèmes suisses, exempts, et la personne au milieu de la salle",
+  "proof": "culture-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Échiquier quarante, première ronde",
+      "text": "Deux cent un joueurs se sont inscrits, et la liste d'appariement a coupé la liste en deux : chacun dans la moitié haute a tiré quelqu'un de la moitié basse. C'est pourquoi l'adversaire le plus fort de votre week-end est assis en face de vous maintenant, à la première ronde, et joue vite.\n\nPersonne n'est éliminé. Perdez cette partie et vous serez de nouveau apparié après le déjeuner, contre quelqu'un qui a aussi perdu."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Apparié selon votre score",
+      "text": "À partir de la deuxième ronde, le logiciel d'appariement classe tout le monde par score et apparie à l'intérieur de chaque groupe, si bien que les gagnants rencontrent les gagnants et les perdants les perdants. Il suit aussi qui a eu quelle couleur et équilibre les deux sur le tournoi autant que les appariements le permettent. Vous ne rencontrez jamais deux fois le même adversaire.\n\nC'est un **système suisse**, et c'est ce qui permet à deux cents joueurs de terminer neuf rondes en une longue semaine."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Un pion marche sur votre fou",
+      "text": "Le pion h blanc se tient en h4, et ce n'est pas pour la vue. Une poussée de plus et votre fou perd g6.\n\nComptez les cases qui lui resteraient. En descendant la diagonale, il arrive au milieu de l'échiquier, où un pion et un cavalier l'attendent pour le chasser de case en case, et un fou qui doit sans cesse fuir finit par manquer de cases. C'est la plus vieille façon de gagner une pièce dans cette ouverture : pas une tactique, juste un pion qui marche sur quelque chose qui ne peut pas rester immobile."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "prompt": "Ouvrez la case de repli dont votre fou aura besoin avant que le pion h blanc le chasse de g6.",
+      "targetSan": [
+        "h6"
+      ],
+      "hint": "La seule route de retour du fou passe par vos propres pions de l'aile roi."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Le nombre impair",
+      "text": "Il y a deux cent un noms sur le tableau d'affichage. Un nombre impair, donc à chaque ronde un joueur reste sans adversaire et est exempt, ce qui compte en général comme une victoire.\n\nLa plupart des tournois accordent aussi un demi-point pour une ronde que vous réservez à l'avance, ce qui fait la différence entre manquer la cinquième ronde et la perdre. Renseignez-vous sur les exemptions avant de vous inscrire plutôt que le matin de la ronde.\n\nLes Blancs poussent quand même. {{h5}}, et cette fois {{Bh7}} est une case."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Deux autres formules",
+      "text": "Un tournoi toutes rondes fait jouer chacun contre chacun : dix joueurs, neuf rondes, et le tableau croisé répond à toutes les questions qu'un départage doit deviner. C'est la formule la plus juste qui soit, c'est pourquoi les tournois sur invitation l'utilisent, et c'est aussi pourquoi cent inscrits n'en voient jamais : il faudrait quatre-vingt-dix-neuf rondes.\n\nL'élimination directe est l'autre extrême. Un match, un perdant, et la moitié du plateau rentre chez elle avant le dîner. La Coupe du monde fonctionne ainsi, avec des matchs de deux parties et des départages en rapide en cas d'égalité.\n\nLes opens du week-end prennent le juste milieu. Tout le monde continue à jouer, et les appariements font le tri."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "La compagnie que vous avez eue",
+      "text": "Nouvel échiquier, dernière ronde, et les Noirs viennent de se servir du cavalier que vous aviez en e4.\n\nPlus de joueurs finiront avec le meilleur score qu'il n'y a de prix, donc ce sont les départages qui décident, et ils sont publiés avant la première ronde. Lisez-les à ce moment-là. La plupart mesurent la compagnie que vous avez eue : le Buchholz additionne les scores finaux de vos adversaires, le Sonneborn-Berger pondère ces scores selon que vous avez battu chacun d'eux ou fait nulle. Personne ne peut jouer pour un départage. Il explique seulement, après coup, pourquoi perdre contre le futur vainqueur vous a coûté moins que perdre contre quelqu'un qui a abandonné le tournoi le lendemain matin."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "Levez la main",
+      "text": "L'arbitre fait les appariements, veille au respect des Règles et tranche les réclamations. Levez la main ; ne discutez pas par-dessus l'échiquier. En cadence lente, votre premier coup illégal achevé donne deux minutes de plus à votre adversaire et le second termine la partie, alors appelez l'arbitre au lieu de corriger vous-même.\n\nVous avez fait le grand roque au coup précédent, et la tour en d1 vise une colonne que bloque son propre fou. {{Qd8+}} {{Kxd8}} {{Bg5+}} donne échec deux fois, et le roi a deux cases. En c7, le fou mate depuis d8, alors les Noirs tentent {{Ke8}}.\n\n> Les appariements, la pendule et la liste des prix appartiennent à l'arbitre. L'échiquier vous appartient."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+      "prompt": "Le roi noir s'est plutôt réfugié en e8 : trouvez le mat en un sur la colonne que votre tour tient déjà.",
+      "targetSan": [
+        "Rd8#"
+      ],
+      "hint": "Le fou en g5 couvre e7 et protège la case d'arrivée, donc la tour n'a qu'à arriver avec échec."
+    }
+  ]
+}

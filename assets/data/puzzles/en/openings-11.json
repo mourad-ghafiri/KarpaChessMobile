@@ -1,0 +1,15 @@
+{
+  "id": "openings-11",
+  "fen": "rnb2rk1/pp1nqppp/4p3/3pP3/3p1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 0 10",
+  "solution": [
+    "Bxh7+",
+    "Kxh7",
+    "Ng5+",
+    "Kg8",
+    "Qh5"
+  ],
+  "title": "The Greek Gift",
+  "setup": "A French Defense gone quiet: the center is locked, Black has castled, and no black knight can ever reach f6 again. Break open the king's shelter.",
+  "hint": "The bishop aims at h7, a knight is one hop from g5, and the queen is one move from h5. Count those three, then look at the pawn on e5.",
+  "explanation": "## The Idea\n\nThe **Greek gift**. The pawn on e5 keeps every black knight off f6, the one condition the sacrifice needs.\n\n{{Bxh7+}} rips the shelter open, and after {{Kxh7}} comes {{Ng5+}}. Black's toughest defense is to give the queen for that knight at once; retreating with {{Kg8}} lets {{Qh5}} set up mate on h7, and then only giving the queen still holds.\n\nBefore a Greek gift, check that the bishop reaches h7, a knight reaches g5, the queen reaches h5, and nothing black can reach f6."
+}

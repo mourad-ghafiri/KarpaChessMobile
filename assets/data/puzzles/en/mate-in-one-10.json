@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-10",
+  "fen": "rnb2b1r/ppk2ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+  "solution": [
+    "Bd8#"
+  ],
+  "rating": 865,
+  "title": "Behind the King",
+  "setup": "The black king has run to c7, where its own knight and bishop block b8 and c8.",
+  "hint": "The d-file is already sealed by your rook, so look for the check that takes the last diagonal square away.",
+  "explanation": "## The Idea\n\nThe rook on d1 covers d6 and d7, and Black's own knight and bishop block b8 and c8, leaving b6. {{Bd8#}} checks from the far end of the diagonal and covers b6 on its way. The mating square can be behind the king, not in front of it."
+}

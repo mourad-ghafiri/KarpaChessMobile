@@ -1,0 +1,11 @@
+{
+  "id": "openings-05",
+  "fen": "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w KQk - 3 6",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "L'étouffement de la Caro-Kann",
+  "setup": "Les Noirs ont répondu à la ligne principale par un cavalier en d7 et viennent de développer l'autre cavalier en f6, attaquant votre cavalier centralisé.",
+  "hint": "Un pion noir prendrait volontiers votre cavalier, et quelque chose sur la colonne e l'en empêche. Trouvez la case qui en profite.",
+  "explanation": "## L'idée\n\nLa dame en e2 ressemble à un tranquille coup de développement. C'est un piège.\n\n{{Nd6#}} est mat sur-le-champ. Le pion e7 ne peut pas prendre, car la dame le cloue sur le roi. La dame en d8 ne peut pas prendre, car son propre cavalier en d7 est sur le chemin, et le fou de f8 est bloqué par ce même pion e7. Chaque case autour du roi est occupée par une pièce noire.\n\nLa Caro-Kann est faite pour sortir les pièces, pas pour emmurer le roi avec elles."
+}

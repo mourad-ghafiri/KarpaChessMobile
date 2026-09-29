@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-01",
+  "fen": "6k1/6pp/5p2/1R6/Q7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Kf7",
+    "Qe8#"
+  ],
+  "rating": 900,
+  "title": "A Torre Abre, a Dama Acaba",
+  "setup": "O rei preto está emparedado pelos seus próprios peões de g7 e h7, e a tua torre tem a coluna b escancarada.",
+  "hint": "Empurra o rei para a única casa que os peões ainda lhe permitem e encontra depois o mate que a tua torre consegue proteger.",
+  "explanation": "## A Ideia\n\n{{Rb8+}} toma a linha de fundo. Os peões de g7 e h7 tapam o próprio rei, portanto {{Kf7}} é a única jogada legal. Depois {{Qe8#}}: a dama aterra ao lado do rei, guardada pela torre de b8, com todas as casas de fuga cobertas."
+}

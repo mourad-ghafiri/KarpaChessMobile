@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-03",
+  "fen": "7k/8/8/6K1/8/Q7/8/8 w - - 0 1",
+  "solution": [
+    "Kg6",
+    "Kg8",
+    "Qa8#"
+  ],
+  "title": "Aperto de Zugzwang",
+  "setup": "A tua dama é dona de meio tabuleiro, mas uma dama sozinha não consegue acabar — o rei tem de tirar as últimas casas.",
+  "hint": "Nenhum xeque ganha aqui. Encontra o passo silencioso de rei que deixa às pretas exatamente uma jogada legal.",
+  "explanation": "## A Ideia\n\nUm **zugzwang**: a jogada que ganha não faz ameaça nenhuma. Limita-se a deixar às pretas uma jogada legal, e essa jogada perde.\n\n{{Kg6}} é silenciosa. Agora g7 e h7 pertencem ao teu rei e a dama de a3 cobre f8, portanto a única jogada das pretas é {{Kg8}}, para a linha de fundo. {{Qa8#}} toma-a inteira, e f7, g7 e h7 são do teu rei.\n\nQuando todos os xeques deixam o rei escapar, deixa de dar xeque e tira casas."
+}

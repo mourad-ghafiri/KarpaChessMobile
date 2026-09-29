@@ -1,0 +1,14 @@
+{
+  "id": "promotion-08",
+  "fen": "1R6/1P3ppk/7p/8/8/8/3r1PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "b8=Q+"
+  ],
+  "rating": 1280,
+  "title": "Minggir dari Jalan",
+  "setup": "Pion Anda di b7 menginginkan b8, tetapi benteng Anda sendiri duduk di sana, dan benteng Hitam berkeliaran bebas di d2.",
+  "hint": "Benteng Anda sendirilah blokadenya di sini. Ia harus pergi, dan harus pergi dengan sesuatu yang tak bisa diabaikan Hitam.",
+  "explanation": "## Ide\n\n{{Rh8+}} mengosongkan b8 dengan sekak. {{Kxh8}} adalah yang terbaik bagi Hitam — {{Kg6}} juga membiarkan benteng tetap berdiri — dan {{b8=Q+}} berpromosi dengan sekak lagi dan Putih unggul menteri untuk benteng. Buah yang berdiri di petak promosinya sendiri harus pergi sambil mendapat tempo."
+}

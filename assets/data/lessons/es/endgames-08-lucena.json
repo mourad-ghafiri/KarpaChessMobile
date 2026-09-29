@@ -1,0 +1,56 @@
+{
+  "id": "lucena-position",
+  "title": "El puente de Lucena",
+  "summary": "A un peón de la dama, y un rey sin sitio donde ponerse",
+  "proof": "endgames-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "A una casilla",
+      "text": "El peón de d7 está a una casilla de la octava fila, y el propio rey blanco ocupa esa casilla.\n\nAparta el rey y el peón corona en el siguiente turno. Esa es toda la victoria, y el mejor argumento de las Negras es la torre de a1, que da jaques desde el otro lado del tablero. Un rey pillado a campo abierto con una torre detrás puede ser perseguido mucho tiempo, y cada jaque es una jugada en la que el peón no avanza.\n\nAsí que esto no es una cuestión sobre el peón. Es una cuestión sobre dónde puede ponerse el rey."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "Nada tras lo que esconderse",
+      "text": "{{Ke7}}, y {{Re1+}} llega al instante. La torre se desplaza a la columna a la que pase el rey, desde la distancia que quiera.\n\nAsí que dale al rey un muro antes de que salga, y los jaques dejarán de importar. Solo una pieza de este tablero puede serlo. Tu torre de f2 ya tiene una tarea que no puede soltar: en la columna f, mantiene al rey negro fuera de la lucha.\n\nAsí que se queda en esa columna. Sube por ella, hasta una casilla a la que el rey pueda ir y defenderla."
+    },
+    {
+      "type": "play",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "prompt": "Antes de que salga tu rey, sube la torre por su columna para construir el muro tras el que se esconderá.",
+      "targetSan": [
+        "Rf4"
+      ],
+      "hint": "Tu rey saldrá al encuentro de ese muro y tiene que acabar junto a él, así que cuenta hasta dónde de la columna tiene que llegar la torre."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "El libro que le da nombre",
+      "text": "La torre negra ha pasado a d1, a la columna del peón, lista para dar jaque por ella. Esta es la posición que todos los libros de finales llaman la Lucena.\n\nLuis Ramírez de Lucena imprimió el libro más antiguo que se conserva sobre cómo se juega el ajedrez moderno, en Salamanca hacia 1497, y esta posición no aparece en él. Llega a la imprenta más de un siglo después, en el libro de Alessandro Salvio de 1634. El nombre cayó en el volumen equivocado y nunca se ha despegado."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "Jaques que no cuestan nada",
+      "text": "Ahora el rey camina, y cada paso recibe respuesta. {{Ke7}} {{Re1+}} {{Kd6}} {{Rd1+}}.\n\nNada de eso cambia nada. La torre negra no puede echar al rey de una casilla que importe, porque el rey no huye: marcha hacia la fila donde el muro ya está aparcado. Cada jaque desplaza la torre negra una columna a un lado y acerca a las Blancas una fila.\n\nLas Negras pueden seguir dando jaques. Al plan le da igual."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "title": "Una fila de distancia",
+      "text": "Cuatro jaques después, tu rey está en d5 y la torre de f4 una fila por debajo. Las Negras vuelven a dar jaque.\n\nHuir ya no compensa. Ve a {{Ke5}} y la columna se abre detrás de ti: {{Rxd7}}, y el peón ha desaparecido. Ve a c6 o e6 y la torre simplemente vuelve a dar jaque por la nueva columna. Así que la respuesta más limpia es cortar el jaque en lugar de huir de él.\n\n> Una interposición que el rival puede capturar gratis no es una interposición. Ponla donde el rey ya esté montando guardia."
+    },
+    {
+      "type": "play",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "prompt": "Acaba con los jaques para siempre interponiéndote en la única casilla que tu rey ya defiende.",
+      "targetSan": [
+        "Rd4"
+      ],
+      "hint": "Tu torre solo tiene que desplazarse por la fila en la que ya está, y solo hasta la línea del jaque."
+    }
+  ]
+}

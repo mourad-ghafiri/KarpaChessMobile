@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-02",
+  "fen": "7k/6pp/8/8/8/8/5PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Dasar-Dasar Baris Belakang",
+  "setup": "Raja Hitam bersembunyi di sudut di balik pionnya sendiri di g7 dan h7 — tembok tanpa jendela.",
+  "hint": "Baris kedelapan terbuka lebar, dan Hitam belum mendorong satu pion pun untuk membuat petak pelarian.",
+  "explanation": "## Ide\n\n**Mat baris belakang** menurut buku pelajaran. {{Rb8#}} meluncur ke baris kedelapan dan raja tak bisa lolos: g7 dan h7 ditempati pionnya sendiri, g8 berada di baris benteng, dan tak ada yang bisa masuk di antaranya.\n\nSatu langkah pion lebih awal, h6 atau g6, akan memberi raja ruang bernapas. Tanpa itu, tembok menjadi kandang."
+}

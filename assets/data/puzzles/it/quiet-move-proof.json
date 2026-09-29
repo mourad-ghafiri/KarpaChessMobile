@@ -1,0 +1,13 @@
+{
+  "id": "quiet-move-proof",
+  "fen": "4b1rk/5ppp/8/8/3B3R/1r6/PP6/K4Q2 w - - 0 1",
+  "solution": [
+    "Qf5",
+    "h6",
+    "Rxh6#"
+  ],
+  "title": "Niente che il Nero Possa Fare",
+  "setup": "La torre nera sta per cominciare a mangiarsi i vostri pedoni, e non avete nessuno scacco che valga la pena. Trovate la mossa che lascia il Nero senza una sola risposta utile.",
+  "hint": "La vostra torre in h4 fissa già h7. Guardate che cosa fa il vostro alfiere di d4 al pedone in g7 prima di scegliere una casa per la donna.",
+  "explanation": "## L'idea\n\n{{Qf5}} non dà scacco e non prende niente. Allinea la donna su h7 accanto alla torre, e h7 cade alla mossa successiva.\n\nIl Nero non ha modo di fermarlo. Il pedone in g7 è inchiodato dal vostro alfiere in d4, quindi non può né muovere né catturare. Farsi aria con {{h6}} apre soltanto la colonna: {{Rxh6#}}, e il pedone inchiodato non può riprendere. Ogni altra risposta è matto sulla colonna h."
+}

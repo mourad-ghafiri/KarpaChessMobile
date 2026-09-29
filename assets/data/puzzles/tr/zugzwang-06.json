@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-06",
+  "fen": "1k6/8/8/5Q2/8/3Kp3/6B1/8 w - - 0 1",
+  "solution": [
+    "Qd7",
+    "e2",
+    "Qb7#"
+  ],
+  "rating": 1560,
+  "title": "Bırakın Piyon Koşsun",
+  "setup": "Siyahın şahı b8'de ve e3'teki piyonu vezir olmaya iki kare uzaklıkta; şahınız da tam yanında, d3'te.",
+  "hint": "Tehlike piyon değil. Şahın karelerini alın ve piyonun ilerlemesine izin verin.",
+  "explanation": "## Fikir\n\n{{Qd7}} şah çekmeden a7, b7, c7 ve c8'i kapsar. Siyahın tek kurallı hamlesi {{e2}}'dir ve {{Qb7#}} önce varır. Bir hamle geç terfi eden geçer piyon, geçer piyon değildir."
+}

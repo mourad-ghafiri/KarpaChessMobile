@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-03",
+  "fen": "3k4/8/8/3K4/3P4/8/8/8 b - - 1 1",
+  "solution": [
+    "Kd7"
+  ],
+  "rating": 1175,
+  "title": "Cerminkan Rajanya",
+  "setup": "Raja Putih baru saja melangkah ke depan pion d, dan Hitam harus memilih tempat berdiri.",
+  "hint": "Petak mana pun yang Anda ambil, Putih akan mencoba menyelinap lewat di salah satu sayap; mana yang membiarkan Anda menirunya ke dua arah?",
+  "explanation": "## Ide\n\n{{Kd7}} satu-satunya petak yang bertahan. Dari sana Hitam tinggal meniru: {{Kc5}} dijawab {{Kc7}}, dan {{Ke5}} dijawab {{Ke7}}. Berdirilah di tempat lain dan raja putih mencapai baris keenam di depan pionnya, dan hanya itulah yang pernah dibutuhkan raja dan pion."
+}

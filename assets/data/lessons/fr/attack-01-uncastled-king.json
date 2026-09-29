@@ -1,0 +1,62 @@
+{
+  "id": "uncastled-king",
+  "title": "Attaquer le roi non roqué",
+  "summary": "Le roi est toujours en e8, et l'horloge tourne",
+  "proof": "uncastled-king-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "Le roi qui n'a jamais quitté e8",
+      "text": "Le roi noir est toujours en e8 au cinquième coup, et ce n'est pas un développement lent. C'est une cible.\n\nLe roque fait deux choses en un coup : il met le roi à l'abri derrière trois pions intacts, et il permet aux tours de se voir. Un roi qui s'en passe se tient sur la colonne la plus fréquentée de l'échiquier, à portée des deux ailes, avec ses propres pièces qui bloquent ses sorties.\n\nC'est donc un compte à rebours. Les Noirs sont à quelques coups de la sécurité, et chacun de vos coups qui ne pose aucune question leur offre l'un de ces coups."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "Le clouage que vous avez le droit de rompre",
+      "text": "Le fou noir en g4 cloue votre cavalier en f3 sur la dame en d1, et un cavalier cloué est censé rester immobile. C'est l'accord sur lequel comptent les Noirs.\n\nComptez maintenant l'autre bout de l'échiquier. Votre fou en c4 regarde déjà f7, et f7 n'est protégée que par une seule pièce : le roi qui n'est jamais parti. Un cavalier arrivant au centre regarderait lui aussi f7.\n\nUn clouage ne tient que tant que la dame derrière vaut plus que ce que le cavalier peut faire."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "prompt": "Le roi noir est coincé en e8 : pointez une seconde pièce sur f7, même si cela coûte votre dame.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "Demandez-vous ce que le cavalier cloué peut prendre au centre, puis comptez ce qui viserait f7 une fois qu'il y serait."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "La dame était l'appât",
+      "text": "Une dame est une dame, alors les Noirs encaissent : {{Bxd1}}, et la vôtre est partie contre un cavalier.\n\nMaintenant f7. {{Bxf7+}} est échec, et les Noirs n'ont qu'une seule réponse légale sur l'échiquier, {{Ke7}}, car cette case n'était protégée que par le roi. Le roi est traîné sur la colonne e ouverte avec toute l'armée noire encore chez elle, et {{Nd5#}} referme le piège.\n\nLes Noirs ont gagné une dame et ont été matés deux coups plus tard."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "Ce que coûte le refus",
+      "text": "Supposons que les Noirs flairent le mat et prennent plutôt le cavalier : {{dxe5}}. La dame en d1 survit, et le clouage meurt avec. Il n'y a plus rien derrière le fou en g4 que des cases vides, et {{Qxg4}} le ramasse.\n\nLes Blancs ont donné un cavalier et pris un fou et un pion. Un sacrifice qui mate quand on l'accepte et gagne du matériel quand on le refuse n'est pas un pari. C'est simplement le coup."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "Deux pièces dans l'embrasure",
+      "text": "Une autre ouverture, la même maladie. La dame blanche en e2 et le roi noir en e8 se tiennent sur une même colonne, et deux pièces sont coincées entre eux : le cavalier noir en e4 et le cavalier blanc en e5.\n\nUn seul de ces obstacles appartient aux Noirs, et c'est lui qui fait le travail. Tant que le cavalier en e4 est là, le cavalier blanc peut aller où il veut sans que rien ne suive le long de la colonne.\n\nCe cavalier noir est aussi attaqué par la dame, et rien chez les Noirs ne le protège."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "Le cavalier rentre à la maison",
+      "text": "{{Nf6}} est le coup que presque tout le monde joue. Le cavalier sort de l'attaque, il protège l'aile roi, et les Noirs sont à deux coups du roque.\n\nMais il vide e4. La dernière chose entre la dame blanche et le roi noir est maintenant un cavalier blanc, et une pièce à vous à cet endroit ne bloque pas une ligne. Elle est chargée. Quelle que soit la case où elle part, l'échec arrive derrière elle.\n\n> Avant de développer une pièce, regardez chaque ligne qui vise le roi adverse et demandez-vous ce que votre propre pièce pourrait faire en quittant l'une d'elles."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/5n2/4N3/8/8/PPPPQPPP/RNB1KB1R w KQkq - 2 5",
+      "prompt": "Sortez le cavalier de la colonne e pour que l'échec arrive derrière lui, et posez-le là où il gagne la dame noire.",
+      "targetSan": [
+        "Nc6+"
+      ],
+      "hint": "L'échec arrive où que le cavalier aille, donc la seule question qui reste est de savoir quelle pièce noire le cavalier peut frapper en arrivant."
+    }
+  ]
+}

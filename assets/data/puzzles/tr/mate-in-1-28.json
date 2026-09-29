@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-28",
+  "fen": "1k6/pp6/1P6/8/8/8/8/1K4R1 w - - 0 1",
+  "solution": [
+    "Rg8#"
+  ],
+  "title": "Piyon Kaması Matı",
+  "setup": "b6'daki piyonunuz tam siyahın şahının önünde oturuyor ve siyahın kendi piyonları a7 ile b7'de duruyor.",
+  "hint": "Siyahın piyonları iki kareyi kapatıyor ve sizin piyonunuz üçüncüsünü koruyor. Kaleye arka yatay gerekiyor.",
+  "explanation": "## Fikir\n\nBu, sessiz bir piyon desteğiyle gelen arka yatay matıdır. b6'daki piyon şah çekmez, ama kalenin ulaşamadığı tek kareyi, c7'yi kapsar.\n\n{{Rg8#}} sekizinci yatay boyunca şah çeker. a8 ile c8 kalenin hattındadır, a7 ile b7'de siyahın kendi piyonları durur ve c7'yi piyonunuz kapsar. Araya hiçbir şey giremez.\n\nBir şah iki piyonun arkasında sıkıştığında, üçüncü kareyi kapsayan bir piyonunuzu arayın."
+}

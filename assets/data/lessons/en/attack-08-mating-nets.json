@@ -1,0 +1,56 @@
+{
+  "id": "mating-nets",
+  "title": "Mating Nets",
+  "summary": "Take the squares, then take the king",
+  "proof": "mate-in-2-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "A Room With No Doors",
+      "text": "Check pushes a king somewhere. A **mating net** takes the somewhere away first, so that the check, when it finally arrives, has nothing to push.\n\nWhich means you count the king's squares before you count your own checks.\n\nBlack's king on e8 can step to d7, d8, e7, f7 or f8. There is a knight on d7, a queen on d8, pawns on e7 and f7, a bishop on f8. Every one of them is Black's. The room is already built, and White has not spent a single move building it."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "The Hole in the Wall",
+      "text": "A room with no doors is not mate. Somebody still has to knock.\n\nThe knight on e4 is one hop from d6, and from d6 it attacks e8. A knight's check cannot be blocked, and this king has nowhere to step aside to, so a knight landing on d6 would end the game where it stood.\n\nExcept that it would not. {{Nd6+}} {{exd6}}, and the pawn simply eats it.\n\nOne black pawn is the whole defense."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "prompt": "Take d6 away from the pawn on e7, with a quiet move that gives no check.",
+      "targetSan": [
+        "Qe2"
+      ],
+      "hint": "The pawn on e7 stands directly in front of its own king — find the piece that can make a capture on d6 illegal."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b KQkq - 2 5",
+      "title": "Closing It Quietly",
+      "text": "The queen on e2 gives no check and attacks nothing. What it does is line up on the file Black's king sits on, with only the knight on e4 in the way.\n\nSo Black plays the most natural move on the board and develops the other knight. {{Ngf6}} {{Nd6#}}.\n\nThe moment the knight steps off e4 that file is open, and the pawn on e7 is pinned to its own king. It is still watching d6 and it is no longer allowed to touch it."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "title": "The Net Works Both Ways",
+      "text": "Now it is White's king in the box, and White packed it.\n\nCount again. The king on e1 can step to d1, d2, e2, f1 or f2. A queen on d1, a bishop on e2, a rook on f1, pawns on d2 and f2. Five squares, five pieces, all of them White's own.\n\nA crowded home rank feels like safety. It is the same crowding that just mated Black."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "title": "Who Is Free to Capture",
+      "text": "Squares are half the net. The other half is what happens when your piece arrives: who is allowed to take it?\n\nThe queen on e4 and the king on e1 stand on one file with the bishop on e2 between them. That bishop is pinned. It cannot legally move, so every square it appears to guard is guarded by nothing.\n\nCount the exits, then count the defenders — and ask whether the defenders are free.\n\n> Mate is rarely the loudest move. It is the one that leaves the king nowhere to stand."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "prompt": "White's king is walled in by its own pieces, so give the one check nobody is free to answer.",
+      "targetSan": [
+        "Nf3#"
+      ],
+      "hint": "White's king has five neighboring squares and white pieces stand on all five, so the check only has to be uncapturable."
+    }
+  ]
+}

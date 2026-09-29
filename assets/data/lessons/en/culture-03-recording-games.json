@@ -1,0 +1,56 @@
+{
+  "id": "recording-games",
+  "title": "Writing It Down",
+  "summary": "A scoresheet is a memory you can trust",
+  "proof": "culture-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "The Sheet Beside the Board",
+      "text": "The moves ahead of you here get strange fast, and a scoresheet has to hold every one of them.\n\nIn a rated classical game you are required to record both sides' moves, one after another, in algebraic notation, on the sheet the organizer prescribes. Not your own moves. Both. That sheet is what an arbiter reads when something is disputed, and algebraic is the only system a FIDE event recognizes — the older English one counted from each player's own side, so a single square had two names depending on who was holding the pen."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "Move First, Pen Second",
+      "text": "You may answer your opponent before you write anything, and most strong players do — the clock is running and the board is where the thinking belongs. What you cannot do is fall behind: your previous move has to be on the sheet before you play another one.\n\nWriting a move down before you play it is forbidden outright. The one exception you will actually meet is a draw claim, where a player claiming a repetition or the fifty-move rule writes the intended move, leaves it unplayed, and calls the arbiter over."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "prompt": "Capture with your pawn on e3 so it lands beside the white king with check.",
+      "targetSan": [
+        "exf2+"
+      ],
+      "hint": "That pawn has exactly one capture on the board, and White's king is standing right next to the square it would land on."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "The Marks You Add",
+      "text": "White stepped the king to e2 rather than take the pawn on f2, and now the pen has some work to do.\n\nA capture takes an `x`, a check takes `+`, mate takes `#`. When two identical pieces could reach the same square you add where the move started from — `Nbd2`, `R1e4` — because someone holding only the sheet has to replay the game without guessing. A promotion is written with `=` and the letter of the piece you chose."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "The Carbon Copy",
+      "text": "A scoresheet is the cheapest coaching in chess. Play the game back that evening and the mistake you cannot remember making is sitting there in your own handwriting, three moves before you noticed anything was wrong. Most events hand out duplicate sheets for exactly that reason: the top copy goes to the organizer, the copy underneath goes home with you.\n\nThere is a point where the pen stops. Under five minutes on your clock, with no increment of thirty seconds or more, you are no longer required to write anything down."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "One Square, Four Games",
+      "text": "Your pawn on f2 has exactly one promotion square, g1, and four pieces to choose between. The sheet has to say which one you took.\n\n{{fxg1=Q}} makes the strongest piece on the board and loses on the spot: {{Qxd8+}}, and White has your old queen before the new one has had a move. Black is down to a single legal reply.\n\n> Same pawn, same square, four different games. On the page, one letter after the `=` is all that separates them."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "prompt": "Promote to the one piece that arrives giving check, so White never gets the move that takes your queen.",
+      "targetSan": [
+        "fxg1=N+"
+      ],
+      "hint": "Look at where the white king is standing, then ask which of the four promotion pieces would be attacking it from g1."
+    }
+  ]
+}

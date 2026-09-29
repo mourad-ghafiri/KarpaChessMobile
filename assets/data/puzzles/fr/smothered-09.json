@@ -1,0 +1,14 @@
+{
+  "id": "smothered-09",
+  "fen": "k2r3r/pp3ppp/N7/4Q3/8/8/5PPP/6K1 w - - 5 27",
+  "solution": [
+    "Qb8+",
+    "Rxb8",
+    "Nc7#"
+  ],
+  "rating": 1405,
+  "title": "Sacrifice en b8",
+  "setup": "Le roi noir vient de fuir l'échec du cavalier dans le coin, avec ses propres pions en a7 et b7.",
+  "hint": "Le cavalier en a6 protège déjà b8 — qu'est-ce que cela permet à une dame sur une case juste à côté du roi ?",
+  "explanation": "## L'idée\n\n{{Qb8+}} est intouchable, car le cavalier en a6 défend b8, donc {{Rxb8}} est le seul coup de l'échiquier et le coin est scellé par la propre tour noire. {{Nc7#}} donne alors échec depuis une case qu'aucune pièce noire ne surveille. Le même sacrifice fonctionne dans les deux coins."
+}

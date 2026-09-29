@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-17",
+  "fen": "4r1k1/5p1p/8/3N4/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nf6+"
+  ],
+  "title": "Dos blancos, un salto",
+  "setup": "El rey negro de g8 y la torre de e8 están donde un solo salto de caballo puede alcanzar a los dos.",
+  "hint": "Encuentra la casilla que da jaque al rey y ataca la torre con el mismo salto, y luego asegúrate de que ningún peón la defiende.",
+  "explanation": "## La idea\n\n{{Nf6+}} es una horquilla: desde f6 el caballo da jaque al rey de g8 y ataca la torre de e8. Sin el peón de g, nada defiende f6, y el jaque de un caballo no se puede tapar.\n\nEl rey tiene que moverse, y {{Nxe8}} se lleva la torre."
+}

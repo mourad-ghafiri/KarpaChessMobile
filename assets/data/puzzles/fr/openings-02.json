@@ -1,0 +1,11 @@
+{
+  "id": "openings-02",
+  "fen": "r1bqk2r/pppp1ppp/1bn5/4P3/2B1n3/2P2N2/PP3PPP/RNBQK2R w KQk - 0 7",
+  "solution": [
+    "Qd5"
+  ],
+  "title": "Le centre italien mord",
+  "setup": "Les Blancs ont préparé d4 par c3 et ont poussé, et les Noirs viennent de rafler un pion central avec un cavalier.",
+  "hint": "Une case attaque le cavalier sans protection et le point du camp noir que seul le roi défend. Cherchez le recoupement.",
+  "explanation": "## L'idée\n\nC'est à cela que sert la préparation c3 et d4 : dès que le centre s'ouvre, les pièces noires n'ont plus de case sûre.\n\n{{Qd5}} est une attaque double. La dame frappe le cavalier en e4, et le long de l'autre diagonale elle frappe f7, où attend déjà le fou en c4 : {{Qxf7#}} serait mat. Les Noirs doivent d'abord parer cela, et le cavalier tombe.\n\nAucun coup de cavalier ne le sauve tout en tenant f7 : en d6, il tombe sur le pion e5, en g5, sur le cavalier en f3."
+}

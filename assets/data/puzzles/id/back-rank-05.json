@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-05",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Barisan Benteng Tunggal",
+  "setup": "Raja Hitam di g8 masih berdiri di balik tiga pion yang belum bergerak, dan benteng Anda di b1 punya lajur kosong di depannya.",
+  "hint": "Hitung petak-petak yang bisa dicapai raja Hitam, lalu temukan baris yang tak bisa ditinggalkannya.",
+  "explanation": "## Ide\n\nTanpa pengorbanan dan tanpa pertukaran: benteng tinggal berjalan masuk. {{Rb8#}} memberi sekak di sepanjang baris kedelapan. Pion di f7, g7 dan h7 merebut setiap petak di depan raja, dan benteng menguasai f8 dan h8. Tak ada buah Hitam yang bisa menghalangi baris itu atau mengambil benteng.\n\nTiga pion yang belum bergerak di depan raja adalah tembok sampai baris belakang kosong. Lalu merekalah alasan terjadinya mat."
+}

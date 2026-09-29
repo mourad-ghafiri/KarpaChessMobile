@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-07",
+  "fen": "4K3/7Q/1R3p2/2r3R1/8/5B2/b7/4k3 w - - 0 1",
+  "solution": [
+    "Qe4+",
+    "Kd2",
+    "Rg2+",
+    "Kc1",
+    "Qe1#"
+  ],
+  "rating": 1550,
+  "title": "O Teu Rei Não É o Problema",
+  "setup": "Os dois reis estão expostos — o teu em e8, o preto em e1 — e as pretas têm uma torre em c5 e um bispo em a2 no jogo.",
+  "hint": "Ignora o que as pretas ameaçam e conta os teus próprios xeques até ao fim.",
+  "explanation": "## A Ideia\n\n{{Qe4+}} começa, {{Rg2+}} toma a segunda linha, e {{Qe1#}} aterra. Quando os dois reis estão ao ar livre, a caça pertence inteiramente a quem der xeque primeiro."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-05",
+  "fen": "2r3k1/1q3ppp/8/8/8/8/2R2PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Rxc8#"
+  ],
+  "rating": 850,
+  "title": "Cambia hacia el mate",
+  "setup": "Los dos bandos tienen torres en la columna c, y a la torre negra de c8 solo la defiende su dama.",
+  "hint": "Cuenta atacantes y defensores de la casilla de la última fila, y recuerda que el rey no puede ayudar.",
+  "explanation": "## La idea\n\n{{Rxc8+}} obliga a {{Qxc8}} —el rey no tiene casillas y la dama no puede tapar desde b7—, y la segunda torre remata con {{Rxc8#}}. Un defensor no puede sostener una casilla que atacan dos torres."
+}

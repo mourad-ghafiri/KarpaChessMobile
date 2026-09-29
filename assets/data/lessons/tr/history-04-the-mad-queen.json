@@ -1,0 +1,56 @@
+{
+  "id": "mad-queen",
+  "title": "Çılgın Vezir",
+  "summary": "İki ağır taş 1470'lere girer ve tahtanın en hızlısı olarak çıkar",
+  "proof": "history-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Vezirin Satrancı",
+      "text": "Avrupa'nın beş yüzyıl oynadığı vezir çaprazda bir kare giderdi, o kadar. Bir kuşak içinde oyunun en güçlü taşı oldu.\n\nDeğişimden geriye bir şiir kalmıştır. Valensiyaca yazılmış *Scachs d'amor*, yeni kurallarla oynanmış günümüze ulaşan en eski partiyi yorumlarının içine gömülü olarak taşır. Yazmanın tarihi yoktur; genellikle 1475 dolayları okunur ve Valensiya, büyük ölçüde şiirin kendisine dayanan bir yeniden kurgudur.\n\nİspanya yeni oyuna *axedrez de la dama*, yani hanımefendinin satrancı adını verdi. İtalyanca ile Fransızca daha kabaydı: yerinde duramayan bir taş için *alla rabiosa*, *la dame enragée*."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Fil de Onunla Gitti",
+      "text": "Vezir tek başına yeniden yazılmadı.\n\nFilin sıçrayışı — tam iki kare, aradakinin üstünden, hiç dokunamayacağı sekiz kareden birine — filin bütün çapraz boyunca kaymasına dönüştü. Tek bir reform, iki kez uygulanmış tek bir fikir: çapraz taşlarına çaprazın tamamını vermek.\n\nNeden 1470'ler? Sık öne sürülen açıklama, o dönemde Avrupa'da hüküm süren hükümdar kadınlar, her şeyden önce Kastilyalı Isabel'dir — ama bu bir öneridir, kayıt değil."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "İki Kare, Sonra Hiçbir Şey",
+      "text": "Eski veziri yeniden d1'e koyun ve neye sahip olduğunu sayın.\n\nİki kare. {{Qc2}} ve {{Qe2}}, her biri tek bir adım, liste bu kadar. İkisi de açık kare ve d1 de öyle — o vezir ömrü boyunca koyu bir kareye hiç basmadı, yani daha kimse oynamadan tahtanın yarısı ona kapalıydı.\n\nBu adımların dördü onu d1'den h5'e taşırdı. Şimdi orada duran vezir o yolu tek hamlede kapatır ve varır varmaz saldırıyor olabilir.\n\n> Kale, tahtanın en güçlü taşı olarak dokuz yüzyıl geçirdi. Unvanı, eskiden adım adım sürünen bir taşa kaptırdı."
+    },
+    {
+      "type": "play",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "prompt": "Veziri ortaya adımlayın; bir çaprazı g8'deki şaha, diğeri a8'deki kaleye ulaşsın.",
+      "hint": "g8'deki şah da a8'deki kale de açık karelerde duruyor, veziriniz de öyle — iki çaprazlarının kesiştiği kareyi bulun.",
+      "targetSan": [
+        "Qd5+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "İkisi de Çaprazdı",
+      "text": "Az önce kullandığınız iki hat da çaprazdı. d5'e ulaşan bir fil de g8 ile a8'e tam olarak aynı şekilde vururdu — üstelik fil kaymasını aynı reformda aldı, yani vezirin o yarısında yeni bir şey yok.\n\nÖteki yarısında var. Vezir d5'ten bütün beşinci yatayı ve bütün d dikeyini de tutar; yani altında kesişen iki hattın aynı türden olması gerekmez: bir yatay ile bir çapraz, bir dikey ile bir çapraz, pozisyon ne sunuyorsa. Tek bedende bir kale ve bir fil; ve bu iki türün kesiştiği yerde ancak tek bir taş durabilir."
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "Kaçacak Vakit Yok",
+      "text": "Şah işini gördü. Ona verilen cevap a8'deki kale için hiçbir şey yapmadı; aynı anda iki şeye vurmanın bütün getirisi de budur: ikincisine kaçacak vakit kalmaz.\n\nBunu ortadan kaldırın, getiri de yok olsun. Siyaha bedava bir hamle verin — diyelim {{h3}} — {{Rc8}} cevabı gelsin ve kazanılacak hiçbir şey kalmasın.\n\nO yüzden bedava hamle vermeden bitirin."
+    },
+    {
+      "type": "play",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "prompt": "Köşedeki kaleyi alın ve şah çekerek alın ki siyahın harcayacak bir hamlesi hiç olmasın.",
+      "hint": "a8'i koruyan bir şey yok, yani tek soru şu: aldığınız kare aynı zamanda f8'deki siyah şahtan geçen bir hatta iniyor mu?",
+      "targetSan": [
+        "Qxa8+"
+      ]
+    }
+  ]
+}

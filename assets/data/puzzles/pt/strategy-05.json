@@ -1,0 +1,11 @@
+{
+  "id": "strategy-05",
+  "fen": "rnbqkb1r/pp2pppp/1n6/2p1P3/2PP4/8/PP4PP/RNBQKBNR w KQkq - 0 7",
+  "solution": [
+    "d5"
+  ],
+  "title": "Avança para Lá da Rutura",
+  "setup": "O peão c das pretas está a bater no teu peão de d4. O teu grande centro é o que aperta as pretas, e uma troca devolvia-lhes o espaço.",
+  "hint": "Defender d4 continua a deixar as pretas trocar nele. Para onde pode esse peão ir de modo a que ao peão c não sobre nada para atingir?",
+  "explanation": "## A Ideia\n\nCom mais espaço, evita trocas: cada troca dá sítio ao lado apertado. {{d5}} passa à frente do peão c em vez de se trocar com ele, e agora os peões brancos de c4, d5 e e5 tiram c6, d6, e6 e f6 às peças pretas.\n\n{{dxc5}} faz o contrário. As damas saem com xeque, o cavalo de b6 salta para a4, e é o lado preto que fica com sítio para jogar."
+}

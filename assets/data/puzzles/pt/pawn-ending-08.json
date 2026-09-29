@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-08",
+  "fen": "8/8/3kp3/4P3/2K5/8/8/8 b - - 1 1",
+  "solution": [
+    "Kxe5"
+  ],
+  "rating": 1350,
+  "title": "O Peão da Frente",
+  "setup": "O rei das brancas acabou de chegar a c4, e os dois peões e estão encravados um contra o outro.",
+  "hint": "O rei branco está a duas colunas da coluna e; pergunta o que muda se o bloqueio à frente do teu peão desaparecer.",
+  "explanation": "## A Ideia\n\n{{Kxe5}} transforma um peão morto num corredor com o próprio rei já à frente dele. As brancas não conseguem segurar a coluna: {{Kd3}} {{Kf4}} {{Ke2}} {{Ke4}} e as pretas contornam-no até ao fim. Três dos recuos de rei perdem logo, e o quarto só empata."
+}

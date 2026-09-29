@@ -1,0 +1,56 @@
+{
+  "id": "titles-and-norms",
+  "title": "Titles and Norms",
+  "summary": "Earned across nine rounds, not one brilliancy",
+  "proof": "culture-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Named in 1950",
+      "text": "FIDE printed its first list of titles in 1950: twenty-seven Grandmasters, named at a congress, many of them long past their best years.\n\nNothing on that list expired. A title is awarded once and held for life. A Grandmaster who stops playing, drops two hundred rating points, or takes up gardening is a Grandmaster still — the rating says what you can do this month, the title says what you once did.\n\nDoing it takes about a year of the kind of chess nobody films."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Four Rungs",
+      "text": "Four open titles, from the bottom: Candidate Master, FIDE Master, International Master, Grandmaster. Each names a rating — 2200, 2300, 2400, 2500 — and the number only has to be reached once, on one published list, ever.\n\nThe bottom two stop there. Candidate Master and FIDE Master are granted on rating alone: reach the number, send in the paperwork, and the title is yours.\n\nThe top two are not for sale at any number. Cross 2500 and FIDE awards nothing at all. The last two rungs are paid for in norms."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "prompt": "Spend a tempo now so the bishop on c8 can never come out and pin your knight against the queen.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Before you touch the center, ask which square Black's bishop wants and which pawn of yours can take it away."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "What a Norm Asks",
+      "text": "A norm is one result, in one qualifying tournament, that satisfies every condition at the same time: nine rounds or more; opponents from several federations; roughly half of them titled already; a set number of them holding the title you are chasing; and a performance level held across the whole event. Miss one condition and the tournament yields nothing, however well you played.\n\nGrandmaster and International Master each want them across at least twenty-seven games — three norms in practice.\n\nBlack chases the bishop with {{Na5}}, it steps out of reach to {{Bc2}}, and {{c5}} stakes out the queenside."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "The Parallel Set",
+      "text": "FIDE awards a second set as well — WCM, WFM, WIM, WGM — open to women and cut two hundred points below the open titles at every rung. They sit beside the open ones rather than in place of them: a woman may chase Grandmaster on exactly the terms everyone else does.\n\nJudit Polgár did, taking the open Grandmaster title in December 1991 at fifteen, younger than anyone had before, and never once played in a Women's World Championship."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "The Games Nobody Replays",
+      "text": "Nine rounds do not reward one brilliancy. They reward the player who does not lose the ordinary games — the one who spent a whole move on a rook's pawn two turns back, so that now there is nothing to pin, nothing to fear, and a free hand in the center.\n\nProphylaxis is what a norm is actually made of. The scoresheet a title comes from is mostly quiet moves and short draws, and the tournament book prints two of the games.\n\n> A title is not one great move. It is nine rounds of not making a bad one."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "prompt": "With g4 shut for good, open the position with the one center pawn still standing on its starting square.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Which of your center pawns has not moved at all, and what is waiting for it in the middle?"
+    }
+  ]
+}

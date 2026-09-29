@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-04",
+  "fen": "3r3k/5ppp/8/8/8/8/5PPP/3R1K2 w - - 0 1",
+  "solution": [
+    "Rxd8#"
+  ],
+  "title": "Mat en miroir",
+  "setup": "Les deux tours se fixent sur la colonne d ouverte, mais un seul roi survivrait à un échec de tour sur sa dernière rangée.",
+  "hint": "Les tours semblent symétriques. Les rois ne le sont pas : l'un d'eux a une case où aller.",
+  "explanation": "## L'idée\n\nTour contre tour sur l'unique colonne ouverte, et la différence, ce sont les rois. Le vôtre en f1 pourrait répondre à un échec de tour en allant en e2. Celui des Noirs est blotti dans le coin derrière ses propres pions.\n\n{{Rxd8#}} est mat sur-le-champ : g8 est balayée par la tour, et g7 et h7 sont occupées par les pions noirs.\n\nDans une position en miroir, c'est le roi qui a une case hors de la dernière rangée qui survit."
+}

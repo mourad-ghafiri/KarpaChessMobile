@@ -1,0 +1,14 @@
+{
+  "id": "decoy-08",
+  "fen": "6rk/pp1q2pp/8/5P1Q/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1420,
+  "title": "Vezir Dikeyi Satın Alıyor",
+  "setup": "h5'teki veziriniz h7'ye dikilmiş ve d1'deki kaleniz h dikeyine bir savruluş uzaklıkta.",
+  "hint": "Şah tek bir kare bile oynayamıyor. Kalenizin h dikeyinde işe yaraması için önce ne olmalı?",
+  "explanation": "## Fikir\n\n{{Qxh7+}} tek bir piyon için koca bir vezirdir, ama {{Kxh7}} mecburidir. h dikeyi çıplaktır, f5'teki piyon g6'yı kapsar ve {{Rh1#}} onu durduracak hiçbir şey kalmadan gelir. Şahın duracak karesi kalmadığında taş dengesi hiçbir şey ifade etmez."
+}

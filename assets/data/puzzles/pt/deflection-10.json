@@ -1,0 +1,14 @@
+{
+  "id": "deflection-10",
+  "fen": "5rk1/pp3p1p/2n3p1/q7/8/1B6/PB4PP/4RQ1K w - - 1 2",
+  "solution": [
+    "Qxf7+",
+    "Rxf7",
+    "Re8#"
+  ],
+  "rating": 1440,
+  "title": "Fora da Linha de Fundo",
+  "setup": "A torre preta em f8 segura o peão de f7 e a linha de fundo ao mesmo tempo, e o teu bispo de b3 corta através de f7.",
+  "hint": "A torre é a única peça a guardar a oitava linha. O que lhe podes dar que ela tenha de comer?",
+  "explanation": "## A Ideia\n\n{{Qxf7+}} não pode ser comida pelo rei, já que o bispo de b3 cobre f7, portanto {{Rxf7}} é forçado. A torre fica agora cravada e fora da linha de fundo, e {{Re8#}} acaba o jogo. Uma torre que tem de recapturar é uma torre que deixou de defender."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "openings-06",
+  "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2P1P3/2N2N2/PP1P1PPP/R1BQKB1R w KQk - 1 5",
+  "solution": [
+    "Nxe5",
+    "Nxe5",
+    "d4"
+  ],
+  "title": "d4'e Giden Yolu Temizleyin",
+  "setup": "Renkleri değişmiş bir Sicilya: siyah az önce fili c5'e, e5'teki piyonuyla aynı hizaya koydu. O piyonu alın ve taşı geri kazanacak piyon çatalına güvenin.",
+  "hint": "Siyahın iki birimi, tek bir piyon sürüşünün aynı anda vurabileceği karelerde duruyor — ama önce yolda bir şey var.",
+  "explanation": "## Fikir\n\nSiyahın c5'teki fili ile e5'teki piyonu, d4'teki bir piyonun birlikte vuracağı iki karede oturuyor; ama e5 piyonu d4'ü koruduğu için önce bir taşın orayı temizlemesi gerekiyor.\n\n{{Nxe5}} bunu yapar. {{Nxe5}} geldikten sonra {{d4}} atı ve fili çatallar ve beyaz taşı geri kazanır. Taş dengesi kabaca eşit biter, ama beyaz merkezi ve küçük bir üstünlüğü elinde tutar.\n\nKanat açılışı da kavgalarını yine ortada kazanır. Yalnızca uzun yoldan gider."
+}

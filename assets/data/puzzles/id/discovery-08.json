@@ -1,0 +1,12 @@
+{
+  "id": "discovery-08",
+  "fen": "1rk1q3/1p3ppp/4p3/8/2B5/8/P4PPP/2Q3K1 w - - 0 1",
+  "solution": [
+    "Bb5+"
+  ],
+  "rating": 1240,
+  "title": "Menteri di Belakang Gajah",
+  "setup": "Menteri Anda di c1 membidik ke atas lajur c, dan gajah Anda sendiri di c4 satu-satunya yang menghalanginya.",
+  "hint": "Ke mana gajah bisa pergi sehingga ia membuka lajur dan mulai mengincar sesuatu di baris kedelapan?",
+  "explanation": "## Ide\n\n{{Bb5+}} menyingkap sekak menteri di sepanjang lajur c dan sekaligus membidik e8 melalui b5-c6-d7. Hitam harus menjawab sekak lebih dulu, jadi sesudah Kd8 gajah mengambil menteri. Menghalangi dengan Qc6 hanya menyerahkannya satu langkah lebih cepat."
+}

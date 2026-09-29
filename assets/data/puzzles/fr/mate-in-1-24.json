@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-24",
+  "fen": "7k/6pp/6K1/7R/8/8/B7/8 w - - 0 1",
+  "solution": [
+    "Rxh7#"
+  ],
+  "title": "Le fou sur la grande diagonale",
+  "setup": "Le pion en h7 met votre roi en g6 en échec. Votre tour en h5 et votre fou en a2 sont tous deux prêts.",
+  "hint": "Le dernier bouclier du roi est un pion, et votre roi comme votre fou lointain surveillent déjà les cases autour de lui.",
+  "explanation": "## L'idée\n\nVous êtes en échec, et la réponse est mat. {{Rxh7#}} prend le pion qui donne échec et met le roi en h8 en échec depuis la case voisine.\n\nVotre roi en g6 protège h7, donc le roi ne peut pas prendre la tour. Le fou en a2 couvre g8 d'un bout à l'autre de l'échiquier, et g7 est occupée par le propre pion noir.\n\nUn fou lointain sur une diagonale ouverte peut quand même couvrir la seule case dont un mat a besoin."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "promotion-01",
+  "fen": "7k/1P3pp1/3r3p/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "b8=Q+",
+    "Kh7",
+    "Qxd6"
+  ],
+  "rating": 1000,
+  "title": "Una dama con horquilla",
+  "setup": "Tu peón de b está a un paso de la octava fila, y el rey negro está justo en esa fila.",
+  "hint": "La nueva dama llega con jaque. Antes de jugarla, mira qué más ataca la casilla de coronación.",
+  "explanation": "## La idea\n\n{{b8=Q+}} da jaque por la octava fila y a la vez ataca la torre de d6 por la diagonal b8-h2. Las Negras tienen que responder al jaque, con {{Kh7}} o tapando con Rd8, y de cualquier modo la dama se lleva la torre, como en {{Qxd6}}. Corona donde la nueva pieza haga dos trabajos."
+}

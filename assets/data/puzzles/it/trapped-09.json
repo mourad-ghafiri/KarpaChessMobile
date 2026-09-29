@@ -1,0 +1,12 @@
+{
+  "id": "trapped-09",
+  "fen": "5rk1/ppp1bpp1/3p1n1p/8/N7/2P4P/PP3PP1/3R1RK1 b - - 0 1",
+  "solution": [
+    "b5"
+  ],
+  "rating": 1300,
+  "title": "Una Spinta di Pedone",
+  "setup": "Il cavallo bianco è andato in a4, dove le sue uniche case sono b6, c5, c3 e b2, e due di esse sono pedoni bianchi.",
+  "hint": "Due balzi del cavallo vanno addosso ai pedoni stessi del Bianco. I vostri pedoni in a7 e d6 coprono già gli altri due.",
+  "explanation": "## L'idea\n\n{{b5}} attacca il cavallo, che è già circondato: b2 e c3 hanno i pedoni bianchi, a b6 si risponde axb6 o cxb6, a c5 dxc5. Il pedone in b5 stesso non si può prendere, quindi il cavallo cade e basta."
+}

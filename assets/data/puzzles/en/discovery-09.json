@@ -1,0 +1,12 @@
+{
+  "id": "discovery-09",
+  "fen": "3q2k1/2p2p1p/p5p1/1r6/8/3B4/P4PPP/3R1RK1 w - - 0 1",
+  "solution": [
+    "Bxb5"
+  ],
+  "rating": 1270,
+  "title": "No Check, Still Fatal",
+  "setup": "Your rook on d1 is lined up on the black queen, with only your own bishop on d3 standing in between.",
+  "hint": "The rook on b5 is guarded by a pawn. Ask what the d-file will look like once your bishop has left it.",
+  "explanation": "## The Idea\n\n{{Bxb5}} wins a rook because the recapture costs more: after axb5 the d-file is open and Rxd8 takes the queen. Black has to leave the bishop where it is, and White keeps the rook it won. A discovery does not need a check to decide a game."
+}

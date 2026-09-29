@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-31",
+  "fen": "k7/8/1K6/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "La cage du coin",
+  "setup": "Le roi noir est acculé en a8, avec votre roi à un saut de cavalier, qui garde les deux cases de fuite.",
+  "hint": "Votre roi tient déjà a7 et b7. Un seul coup de dame prend tout le reste.",
+  "explanation": "## L'idée\n\nÀ un roi acculé, il suffit de retirer sa rangée. Votre roi en b6 couvre a7 et b7.\n\n{{Qg8#}} donne échec depuis l'autre côté de l'échiquier, b8 est sur la ligne de la dame, et rien ne peut s'interposer.\n\nContre un roi acculé, votre propre roi scelle les cases voisines et tout échec le long de la dernière rangée est mat."
+}

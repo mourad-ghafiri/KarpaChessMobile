@@ -1,0 +1,14 @@
+{
+  "id": "decoy-04",
+  "fen": "r6k/pp2P1pp/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "exd8=Q#"
+  ],
+  "rating": 1270,
+  "title": "Lure the Blockader",
+  "setup": "Your pawn on e7 wants the eighth rank, and only the rook on a8 stands guard over it.",
+  "hint": "The rook is the whole defense. Find the square where taking it is the only move Black has left.",
+  "explanation": "## The Idea\n\n{{Rd8+}} leaves Black one legal move, {{Rxd8}} — and the rook has been dragged onto the square your pawn attacks. {{exd8=Q#}} promotes with mate. A rook is cheap when a pawn becomes a queen."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-17",
+  "fen": "4r1k1/5p1p/8/3N4/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nf6+"
+  ],
+  "title": "Deux cibles, un saut",
+  "setup": "Le roi noir en g8 et la tour en e8 se tiennent là où un seul saut de cavalier peut les atteindre tous deux.",
+  "hint": "Trouvez la case qui met le roi en échec et frappe la tour dans le même saut, puis vérifiez qu'aucun pion ne la protège.",
+  "explanation": "## L'idée\n\n{{Nf6+}} est une fourchette : depuis f6, le cavalier met le roi en g8 en échec et attaque la tour en e8. Le pion g ayant disparu, rien ne protège f6, et un échec de cavalier ne peut pas être paré par interposition.\n\nLe roi doit bouger, et {{Nxe8}} ramasse la tour."
+}

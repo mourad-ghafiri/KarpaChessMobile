@@ -1,0 +1,14 @@
+{
+  "id": "skewer-08",
+  "fen": "8/N3R1R1/p1p2kr1/7n/P1p5/5r1P/P6K/8 w - - 0 1",
+  "solution": [
+    "Rgf7+",
+    "Kg5",
+    "Rxf3"
+  ],
+  "rating": 1180,
+  "title": "Doubled Rooks Decide",
+  "setup": "Your rooks are doubled on the seventh rank, and a black rook sits on the f-file behind its own king.",
+  "hint": "Two rooks on one rank means one of them can step forward while the other keeps it defended. Which file matters?",
+  "explanation": "## The Idea\n\n{{Rgf7+}} puts a rook on the f-file with the king in front and the rook on **f3** behind. The rook on **e7** defends f7, so the king cannot capture. After {{Kg5}} the file is clear and {{Rxf3}} wins the rook."
+}

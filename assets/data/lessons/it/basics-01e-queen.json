@@ -1,0 +1,76 @@
+{
+  "id": "queen-moves",
+  "title": "Tutte le Strade Insieme",
+  "summary": "Le linee della torre e le oblique dell'alfiere in un pezzo solo — e perché ogni pedone è felice di vederla",
+  "proof": "first-steps-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Niente di Nuovo da Imparare",
+      "text": "Qui non c'è nessuna mossa nuova. Conoscete già tutte e due le sue metà.\n\nLa donna in d4 corre in linea retta come una torre — {{Qd8}} su per la colonna, {{Qa4}} lungo la traversa — e in obliquo come un alfiere, {{Qh8}} verso l'angolo lontano e {{Qg1}} giù fino al bordo.\n\nQuattro strade, mostrate insieme. In realtà sono otto: una per ogni direzione in cui una traversa, una colonna o una diagonale possono lasciare una casa."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Ventisette Case",
+      "text": "Contate che cosa tocca la donna da d4: quattordici case come torre, altre tredici come alfiere, ventisette in tutto. Un cavallo messo lì ne raggiunge otto.\n\nMa ventisette è il numero di una scacchiera vuota. La donna eredita le strade di entrambi i genitori e anche i loro limiti, e nessuno dei due scavalca. Il primo pezzo fermo su una strada la chiude, e tutto ciò che sta dietro resta fuori portata finché la strada non si libera."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "Mandate la donna lungo una qualsiasi delle otto strade che partono da d4, vicino o lontano quanto volete.",
+      "targetSan": [
+        "Qc5",
+        "Qb6",
+        "Qa7",
+        "Qe5",
+        "Qf6",
+        "Qg7",
+        "Qh8",
+        "Qc3",
+        "Qb2",
+        "Qa1",
+        "Qe3",
+        "Qf2",
+        "Qg1",
+        "Qd5",
+        "Qd6",
+        "Qd7",
+        "Qd8",
+        "Qd3",
+        "Qd2",
+        "Qd1",
+        "Qc4",
+        "Qb4",
+        "Qa4",
+        "Qe4",
+        "Qf4",
+        "Qg4",
+        "Qh4"
+      ],
+      "hint": "Tutto ciò che una torre potrebbe fare da questa casa è una mossa di donna, e lo stesso vale per tutto ciò che potrebbe fare un alfiere."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Tutti Vogliono Darle la Caccia",
+      "text": "La forza ha un prezzo, e per la donna il prezzo sono le attenzioni.\n\nOgni altro pezzo sulla scacchiera vale meno di lei, e proprio per questo ogni altro pezzo è felice di attaccarla. Un pedone che arriva le propone un cambio che la donna non può accettare: il pezzo più grande del Bianco contro il più piccolo del Nero. Così la donna se ne va.\n\nFatela uscire presto ed è tutta la partita: la donna muove, e muove ancora, mentre il Nero sistema in silenzio i pezzi dove servono.\n\n> Non c'è niente di più felice, sulla scacchiera, di un pedone che ha trovato la donna avversaria."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Contate Chi Vi Guarda",
+      "text": "Alla donna resta quindi un solo tipo di presa che valga la pena: quella a cui nessuno risponde.\n\nPrima di prendere qualcosa con lei, chiedetevi chi controlla quella casa. Se la difende un pedone, il pedone si riprende la donna nell'istante in cui arriva, e voi avrete consegnato il pezzo migliore che avete per il più economico che aveva il Nero.\n\nSe non guarda nessuno — nessun difensore, niente dietro, nessuna risposta — la donna prende e non paga nulla."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "prompt": "L'ultimo pedone del Nero non ha nessuno alle spalle a difenderlo: prendetelo senza pagare nulla.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "La donna e quel pedone condividono già una colonna, e la strada fra loro è libera."
+    }
+  ]
+}

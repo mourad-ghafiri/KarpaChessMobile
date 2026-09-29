@@ -1,0 +1,14 @@
+{
+  "id": "overload-06",
+  "fen": "6rk/5ppp/4R3/8/bR5Q/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh4#"
+  ],
+  "rating": 1450,
+  "title": "Ouvrez la colonne h",
+  "setup": "Le roi noir est en h8 derrière trois pions, votre tour attend en b4, et la dame regarde déjà h7.",
+  "hint": "Le roi n'est en sécurité que tant que la colonne devant lui reste fermée. Calculez ce que coûterait son ouverture.",
+  "explanation": "## L'idée\n\nLe pion h7 est le seul abri, et il n'est défendu que par le roi. {{Qxh7+}} force {{Kxh7}}, et la tour bascule pour {{Rh4#}}. Un roi qui doit reprendre se pose sur la colonne que vous êtes sur le point d'ouvrir."
+}

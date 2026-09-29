@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-03",
+  "fen": "k7/pp3rpp/8/8/2B5/8/PP4PP/4K3 w - - 0 1",
+  "solution": [
+    "Bxf7"
+  ],
+  "title": "Robo a larga distancia",
+  "setup": "Tu alfil de c4 mira por su diagonal blanca y encuentra en ella una torre negra.",
+  "hint": "Sigue la diagonal desde c4: d5, e6… ¿qué hay en la casilla siguiente?",
+  "explanation": "## La idea\n\nLa diagonal del alfil desde c4 pasa por d5, e6 y f7, y la torre negra de f7 está justo en su camino, **sin nadie que la proteja**. El rey negro de a8 está demasiado lejos para ayudar.\n\n{{Bxf7}} recorre toda la línea en una jugada y se lleva la torre gratis.\n\nLos alfiles golpean desde la otra punta del tablero. Sigue cada diagonal hasta el final antes de decidir que no hay nada suelto."
+}

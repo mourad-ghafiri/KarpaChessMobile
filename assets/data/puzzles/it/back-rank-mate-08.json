@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-08",
+  "fen": "6k1/5ppp/6n1/8/1B6/8/2r2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Nf8",
+    "Rxf8#"
+  ],
+  "rating": 940,
+  "title": "Costringete alla Parata",
+  "setup": "Il cavallo nero in g6 può arrivare a f8, e il vostro alfiere in b4 guarda quella casa lungo la diagonale.",
+  "hint": "Il Nero ha esattamente un modo di rispondere a uno scacco sull'ottava traversa. Dove mette il cavallo?",
+  "explanation": "## L'idea\n\n{{Rd8+}} lascia al Nero una mossa legale, {{Nf8}}, che para. Quella casa non è sicura: l'alfiere in b4 la copre lungo la diagonale, quindi a {{Rxf8#}} non si può rispondere Kxf8. Una parata forzata difende solo se anche la casa che para è difesa."
+}

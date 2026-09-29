@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-06",
+  "fen": "2r3k1/p4p1p/6p1/5n2/3b4/7B/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxf5"
+  ],
+  "rating": 1250,
+  "title": "Savunmayı İzleyin",
+  "setup": "Kaleniz d4'teki filin karşısında ve fil yalnızca f5'teki at onu kapsadığı için orada duruyor.",
+  "hint": "Fili henüz almayın. Onu neyin koruduğunu ve o taşı önce değişip değişemeyeceğinizi sorun.",
+  "explanation": "## Fikir\n\n{{Bxf5}} d4'ü koruyan atı kaldırır. {{gxf5}} taş dengesini onarır ama savunmayı onarmaz ve {{Rxd4}} bir taş kazanır. Korunana değil, koruyana saldırın. Piyonla geri alma taş dengesini onarır, savunmayı asla."
+}

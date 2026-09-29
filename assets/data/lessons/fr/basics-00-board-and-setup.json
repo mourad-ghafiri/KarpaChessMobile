@@ -1,0 +1,50 @@
+{
+  "id": "board-and-setup",
+  "title": "Soixante-quatre cases",
+  "summary": "Nommez n'importe quelle case d'un coup d'œil, et installez l'échiquier correctement à chaque fois",
+  "proof": "board-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "title": "Chaque case a un nom",
+      "text": "Soixante-quatre cases, et chacune a une adresse. Deux repères vous la donnent.\n\nLes lignes verticales sont les **colonnes**, marquées de **a** à **h** de la gauche des Blancs vers leur droite. Les lignes horizontales sont les **rangées**, numérotées de **1** à **8** en partant du bord de l'échiquier côté Blancs.\n\nLa lettre d'abord, le chiffre ensuite. Le roi blanc en e1 le dit clairement : colonne e, rangée 1. Le coin opposé, sur la droite des Blancs, est h8.\n\nLe pion en a2 peut atteindre {{a3}} et {{a4}} — deux cases de plus que vous savez déjà nommer à voix haute."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "prompt": "Lisez l'adresse et amenez un pion sur la case nommée h3.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Partez de la colonne h, tout contre le bord droit des Blancs, puis comptez vers le haut : rangée 1, rangée 2, rangée 3."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "Blanche à droite",
+      "text": "Les cases alternent blanches et noires, et c'est ce motif qui vous dit si l'échiquier est dans le bon sens.\n\nQuand vous vous asseyez, la case du coin le plus proche de votre main droite doit être blanche. Pour les Blancs, ce coin est h1. Pour les Noirs, a8.\n\nSi la case à votre droite est noire, tout l'échiquier a tourné d'un quart de tour — une erreur que vous repérerez désormais dans les salons et dans les films pour le reste de votre vie."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "La dame sur sa couleur",
+      "text": "Chaque dame commence sur une case de sa propre couleur. La dame blanche en d1 se tient sur une case blanche, la dame noire en d8 sur une case noire. Même colonne, couleurs opposées.\n\nAvancez tout droit et la couleur change sous vos pieds à chaque pas. Le pion en d2 est sur une case noire, {{d3}} est blanche, {{d4}} de nouveau noire.\n\nLa dame prend donc la case centrale qui lui ressemble, et le roi occupe celle qui reste.\n\n> Blanche à droite, dame sur sa couleur. Deux règles, et votre échiquier ne sera plus jamais faux."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "À vos postes",
+      "text": "Trente-deux pièces, et toutes les parties de l'histoire ont commencé avec elles, placées ici.\n\nLe long de la dernière rangée — rangée 1 pour les Blancs, rangée 8 pour les Noirs — des coins vers le centre :\n\n- les **tours** dans les coins, a1 et h1\n- les **cavaliers** à côté, b1 et g1\n- les **fous** à côté d'eux, c1 et f1\n- la **dame** en d1, le **roi** en e1\n\nHuit pions se tiennent devant, sur la deuxième rangée, et l'armée noire reflète l'armée blanche de l'autre côté de l'échiquier.\n\nLes Blancs jouent toujours en premier — {{e4}} — et alors seulement les Noirs répondent, {{e5}}. Ensuite, chacun son tour, un coup chacun, jusqu'à la fin."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "prompt": "Les Blancs commencent : ouvrez la partie en avançant de deux cases le pion placé devant la dame.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "La dame est en d1, donc le pion devant elle part de d2 — et le premier coup d'un pion peut être d'une ou de deux cases."
+    }
+  ]
+}

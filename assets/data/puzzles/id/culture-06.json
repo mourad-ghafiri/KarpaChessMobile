@@ -1,0 +1,13 @@
+{
+  "id": "culture-06",
+  "fen": "r1bqkb1r/pppp1pp1/2n5/1B2p3/4P1p1/8/PPPP1PP1/RNBQNRK1 b k - 1 7",
+  "solution": [
+    "Qh4",
+    "f4",
+    "g3"
+  ],
+  "title": "Lajur Terbuka Itulah Intinya",
+  "setup": "Kuda Anda pergi ke g4 dan Putih mengambilnya, dan kedua pion h telah meninggalkan lajur h sementara benteng Anda masih duduk di h8.",
+  "hint": "Benteng Anda sudah menatap lajur h yang terbuka tanpa sasaran apa pun — buah mana yang bisa bergabung dengannya sehingga h2 tak bisa dipertahankan?",
+  "explanation": "## Ide\n\n{{Qh4}} tidak memberi sekak, dan justru karena itulah sulit dijawab. Menteri dan benteng kini berbagi lajur h yang terbuka, kuda Putih sudah mundur ke e1, dan gajah di b5 berada di sayap yang salah.\n\n{{f4}}, memberi ruang bagi raja, adalah upaya terbaik Putih. {{g3}} menjawabnya, dan mat tak bisa dihentikan: bahkan {{Qh5}}, menghalangi lajur, hanya menunda {{Qh1#}} satu langkah.\n\nLajur terbuka di samping raja yang sudah rokade lebih berharga daripada seekor kuda."
+}

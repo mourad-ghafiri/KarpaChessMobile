@@ -1,0 +1,14 @@
+{
+  "id": "skewer-05",
+  "fen": "8/Qp2p3/3k2qp/7p/2Pp1P2/6P1/1P5K/8 w - - 0 1",
+  "solution": [
+    "Qb6+",
+    "Kd7",
+    "Qxg6"
+  ],
+  "rating": 1060,
+  "title": "Rank Six Runs Through",
+  "setup": "Black's king on d6 and its queen on g6 share the sixth rank, and the squares between them are bare.",
+  "hint": "Check on the sixth rank from the side that forces the king to step away from its own queen.",
+  "explanation": "## The Idea\n\n{{Qb6+}} checks along the sixth rank with the black queen stranded behind its king. {{Kd7}} is the only legal answer, and it steps off the rank — so {{Qxg6}} simply takes the queen. The prize was never defended at all."
+}

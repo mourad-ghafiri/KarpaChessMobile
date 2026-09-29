@@ -1,0 +1,13 @@
+{
+  "id": "endgames-01",
+  "fen": "8/8/8/8/3K4/8/4Q3/k7 w - - 0 1",
+  "solution": [
+    "Kc3",
+    "Kb1",
+    "Qb2#"
+  ],
+  "title": "La dama no puede sola",
+  "setup": "Dama y rey contra un rey solo en la esquina. Todo está listo salvo la pieza que tiene que rematar.",
+  "hint": "Una jugada tranquila deja a las Negras exactamente una casilla legal: ¿qué pieza puede quitarle el resto una vez que esté ahí?",
+  "explanation": "## La idea\n\nLa dama de e2 domina la segunda fila, así que el rey negro tiene b1 y nada más. Lo que la dama no puede hacer es cubrir a la vez a1, b1 y b2. Para eso está el rey.\n\n{{Kc3}} lo acerca. Las Negras tienen una sola jugada legal, {{Kb1}}, y {{Qb2#}} cae junto al rey en una casilla que defiende el rey blanco.\n\nQuitar b1 con {{Qc2}} en su lugar es ahogado. Cuenta las casillas del rey solo antes de cada jugada tranquila: si la respuesta es una, solo un jaque puede quitarla."
+}

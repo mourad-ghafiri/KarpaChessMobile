@@ -1,0 +1,14 @@
+{
+  "id": "defence-08",
+  "fen": "4K3/5rQ1/3q4/r6k/8/8/B7/3R4 w - - 0 1",
+  "solution": [
+    "Rh1+",
+    "Qh2",
+    "Rxh2#"
+  ],
+  "rating": 1730,
+  "title": "The Queen Has to Come Back",
+  "setup": "Black's queen on d6 and rooks on a5 and f7 surround your king on e8, while its own king sits on h5.",
+  "hint": "Black's pieces are all on the wrong side. Check on the file its king is standing on and see who can help.",
+  "explanation": "## The Idea\n\n{{Rh1+}} forces the queen to block with {{Qh2}}, abandoning everything, and {{Rxh2#}} finishes. Pieces attacking your king are pieces that are not defending their own."
+}

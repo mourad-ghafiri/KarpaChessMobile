@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-19",
+  "fen": "Q7/5Bpk/7p/8/8/8/8/7K w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "O Bispo Apoia a Dama",
+  "setup": "O rei preto está em h7, apertado pelos seus próprios peões de g7 e h6, e o teu bispo de f7 está ali perto.",
+  "hint": "O teu bispo transforma uma casa ao lado do rei em terreno amigo — a dama pode dar-se ao luxo de ficar lá.",
+  "explanation": "## A Ideia\n\nO bispo de f7 transforma g8 numa casa guardada, portanto a dama pode aterrar lá ao lado do rei.\n\n{{Qg8#}} dá xeque da casa ao lado. O bispo guarda g8, portanto o rei não pode comer a dama. h8 está coberta pela dama, g6 pelo bispo, e g7 e h6 têm os peões das próprias pretas.\n\nQuando a tua dama e o teu bispo chegam os dois à vizinhança do rei, procura uma casa guardada mesmo ao lado dele."
+}

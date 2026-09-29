@@ -1,0 +1,74 @@
+{
+  "id": "pawn-breakthrough",
+  "title": "Terobosan Pion",
+  "summary": "Relakan dua pion, jadikan yang ketiga menteri",
+  "proof": "pawn-breakthrough-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Tiga Lawan Tiga",
+      "text": "Enam pion berdiri dalam dua deret dan tak satu pun bisa bergerak tanpa ditangkap. Putih punya a5, b5 dan c5; Hitam punya a7, b7 dan c7. Kedua raja parkir di sisi papan yang jauh, terlalu lambat untuk berarti.\n\nSiapa pun yang lebih dulu mencapai baris kedelapan langsung memenangkan partai, dan saat ini tak ada yang mencapai apa pun. Setiap dorongan masuk ke penangkapan, dan pion tak pernah mundur.\n\nGiliran Putih melangkah, dan Putih sedang menang."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Pion Hanya Berbelok untuk Menangkap",
+      "text": "{{a6}} tampak seperti kemajuan sampai {{bxa6}} menjawabnya. Sebuah pion diserahkan dengan cuma-cuma, dan Hitam masih punya tiga pion melawan dua milik Putih.\n\nAlasannya ada pada bentuk langkahnya. Pion maju lurus dan menangkap secara miring, jadi tak ada yang Anda lakukan di depan pion hitam yang akan menggesernya dari lajurnya. Penjaga hanya meninggalkan lajur yang dijaganya dengan menangkap sesuatu di lajur sebelahnya.\n\nRaja Anda bisa berjalan ke sana dan menang dengan lambat. Pion-pion bisa menyelesaikannya sekarang, jika Anda menempatkan sesuatu di lajur itu dan rela kehilangannya."
+    },
+    {
+      "type": "play",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "prompt": "Tawarkan sebuah pion di tengah deret Hitam sehingga penangkapan mana pun menyeret sebuah penjaga ke samping.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Hanya satu dari tiga dorongan Anda yang bisa dijawab dengan dua penangkapan berbeda, dan keduanya mengosongkan sebuah lajur."
+    },
+    {
+      "type": "play",
+      "fen": "7k/1pp5/1p6/P1P5/8/8/8/6K1 w - - 0 3",
+      "prompt": "Korbankan pion kedua untuk menarik penjaga terakhir dari lajur yang diinginkan pion a Anda.",
+      "targetSan": [
+        "c6"
+      ],
+      "hint": "Pion di b7 satu-satunya yang mengawasi jalan pion a Anda, jadi tawarkan sesuatu di lajur sebelahnya."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/2p5/1pp5/P7/8/8/8/6K1 w - - 0 4",
+      "title": "Dua Pion untuk Satu Jalan",
+      "text": "Dua pion terpakai, dan lihat apa yang dibelinya. Tiga pion Hitam yang tersisa berdesakan di b6, c6 dan c7, dan begitu pion Anda mencapai a6 tak satu pun dari pion-pion itu bisa menyentuhnya lagi.\n\n{{a6}} {{c5}} {{a7}} {{c4}} {{a8=Q}}. Pion Hitam yang tercepat masih di baris keempat ketika pion Anda tiba, dan raja hitam di h8 tak pernah terlibat dalam urusan ini.\n\nTak satu pun pengorbanan itu berusaha bertahan hidup. Masing-masing meminta sebuah pion hitam melangkah menyeberang ke lajur berikutnya, dan penjaga yang menyeberang berhenti menjaga."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "title": "Raja di Ujung Diagonal",
+      "text": "Ide yang sama, jalan yang berbeda, dan yang ini berakhir pada sebuah raja. Gajah Anda di b2 memandang ke atas diagonal panjang, dan hal pertama yang menghalanginya adalah pion hitam di g7.\n\n{{Bxg7}} akan mencabut sumbatnya dengan tangan, tetapi sesudah {{Kxg7}} Anda telah membayar gajah untuk pion, dan justru raja hitam yang berdiri di diagonal yang terbuka.\n\nLebih baik pion itu pergi dengan sendirinya. Pion hanya pernah meninggalkan lajurnya untuk mengambil sesuatu."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "prompt": "Tawarkan sebuah pion kepada pion g7 sehingga penangkapan yang ingin dilakukannya adalah penangkapan yang membuka diagonal Anda.",
+      "targetSan": [
+        "f6"
+      ],
+      "hint": "Pion hanya meninggalkan petaknya untuk menangkap, jadi tempatkan sesuatu di petak yang diserang pion g7."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2p1p/2np1p2/8/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 0 3",
+      "title": "Sumbatnya Tercabut",
+      "text": "Hitam menangkap, dan sumbatnya tercabut: g7 kosong dan diagonal panjang terbentang sampai ke sudut. Menolak pun tak akan menyelamatkan Hitam, karena lalu pion Anda sendiri yang menangkap di g7.\n\n{{Bxf6}} menangkap balik di diagonal panjang, dan dari f6 gajah menguasai kedua petak kosong di samping raja hitam, g7 dan h8. Hitam sudah kalah. {{Qd8}} adalah balasan yang wajar, menyerang gajah, dan langkah itu berjalan lurus menuju akhir.\n\n> Tanyakan apa yang akan dibuka sebuah pion jika ia ditangkap, bukan apakah ia bisa ditangkap dengan aman."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp3p1p/2np1B2/8/4P3/1P3N2/P2Q2PP/R4RK1 w - - 1 4",
+      "prompt": "Mat dalam satu — beri sekak kepada raja hitam di sepanjang lajur g sementara gajah Anda menguasai kedua petak pelarian.",
+      "targetSan": [
+        "Qg5#"
+      ],
+      "hint": "Gajah Anda sudah mengawasi g7 dan h8, jadi raja tak punya tempat untuk lari dan Anda hanya perlu tiba dengan sekak."
+    }
+  ]
+}

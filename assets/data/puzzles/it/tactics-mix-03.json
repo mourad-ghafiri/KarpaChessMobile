@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-03",
+  "fen": "4k3/8/8/8/3q4/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxd4"
+  ],
+  "title": "Donna Gratis, Prendetela",
+  "setup": "Due donne si fronteggiano — ma una sola è difesa.",
+  "hint": "Cercate sempre i pezzi in presa. La tattica più semplice è *prendere quello che è gratis*.",
+  "explanation": "## L'idea\n\nQuesta è la tattica più elementare di tutte: un pezzo indifeso. La donna nera in d4 non ha difensori, e la vostra donna in d1 la attacca lungo la colonna d.\n\n{{Qxd4}} vince una donna per niente. Il re in e8 è troppo lontano per riprendere, e nessun pezzo nero difende d4.\n\nPrima di ogni mossa, passate in rassegna le linee che controllate cercando pezzi avversari che nessuno difende. La regola di John Nunn lo dice meglio di tutti: i pezzi indifesi cadono."
+}

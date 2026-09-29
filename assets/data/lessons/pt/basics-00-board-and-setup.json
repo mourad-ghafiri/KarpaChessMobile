@@ -1,0 +1,50 @@
+{
+  "id": "board-and-setup",
+  "title": "Sessenta e Quatro Casas",
+  "summary": "Nomeia qualquer casa de olhos postos nela e monta o tabuleiro certo todas as vezes",
+  "proof": "board-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "title": "Cada Casa Tem um Nome",
+      "text": "Sessenta e quatro casas, e cada uma delas tem uma morada. São duas coisas que ta dão.\n\nAs filas verticais são as **colunas**, com letras de **a** a **h**, da esquerda das brancas até à sua direita. As filas horizontais são as **linhas**, numeradas de **1** a **8** a partir do bordo das brancas.\n\nPrimeiro a letra, depois o número. O rei branco em e1 di-lo sem rodeios: coluna e, linha 1. O canto ao fundo, à direita das brancas, é h8.\n\nO peão em a2 pode chegar a {{a3}} e a {{a4}} — mais duas casas que já sabes nomear em voz alta."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "prompt": "Lê a morada e leva um peão à casa chamada h3.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Começa na coluna h, colada ao bordo direito das brancas, e depois conta a subir: linha 1, linha 2, linha 3."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "Casa Clara à Direita",
+      "text": "As casas alternam entre claras e escuras, e é esse padrão que te diz que o tabuleiro está bem voltado.\n\nQuando te sentas, o canto mais perto da tua mão direita tem de ser claro. Para as brancas esse canto é h1. Para as pretas é a8.\n\nSe a casa à tua direita for escura, o tabuleiro levou um quarto de volta — um erro que vais passar a detetar em salas de estar e em filmes para o resto da vida."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "A Cor da Própria Dama",
+      "text": "Cada dama começa numa casa da sua própria cor. A dama branca em d1 está numa casa clara, a dama preta em d8 numa escura. A mesma coluna, cores opostas.\n\nDá um passo em frente e a cor muda debaixo dos pés de cada vez. O peão em d2 está numa casa escura, {{d3}} é clara, {{d4}} volta a ser escura.\n\nPortanto a dama fica com a casa central que lhe corresponde, e o rei ocupa a que sobra.\n\n> Casa clara à direita, dama na sua cor. Duas regras, e o tabuleiro nunca mais fica errado."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Postos de Combate",
+      "text": "Trinta e duas peças, e todas as partidas da história começaram com elas aqui.\n\nAo longo da linha de fundo — a linha 1 para as brancas, a linha 8 para as pretas — dos cantos para dentro:\n\n- **Torres** nos cantos, a1 e h1\n- **Cavalos** ao lado delas, b1 e g1\n- **Bispos** a seguir, c1 e f1\n- **Dama** em d1, **rei** em e1\n\nOito peões ficam à frente, na segunda linha, e o exército preto espelha o branco do outro lado do tabuleiro.\n\nAs brancas jogam sempre primeiro — {{e4}} — e só depois respondem as pretas, {{e5}}. Daí em diante alternam, uma jogada cada, até ao fim."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "prompt": "As brancas jogam primeiro: abre a partida enviando o peão que está à frente da dama duas casas tabuleiro acima.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "A dama está em d1, portanto o peão à frente dela começa em d2 — e a primeira jogada de um peão pode ser de uma casa ou de duas."
+    }
+  ]
+}

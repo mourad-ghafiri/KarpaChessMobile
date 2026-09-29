@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-18",
+  "fen": "8/4P3/5k2/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "e8=Q"
+  ],
+  "title": "Coroação",
+  "setup": "O teu peão marchou até **e7**, e o rei preto está mesmo ao lado dele.",
+  "hint": "O rei preto ataca o teu peão, e o teu rei está longe. Usa esta jogada antes de as pretas usarem a seguinte.",
+  "explanation": "## A Ideia\n\nUm peão que chega à última linha promove: transforma-se, como parte da mesma jogada, na peça que escolheres.\n\n{{e8=Q}} transforma um peão de um ponto numa dama de nove, e o rei de f6 não chega a e8 para a comer. Qualquer outra jogada deixa {{Kxe7}} tirar o peão, e a vitória desapareceu. Com uma dama contra um rei nu, o mate segue-se.\n\nUm peão a um passo do fim promove-se agora."
+}

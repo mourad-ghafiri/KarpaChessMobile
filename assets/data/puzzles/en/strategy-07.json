@@ -1,0 +1,11 @@
+{
+  "id": "strategy-07",
+  "fen": "r4rk1/pp1b1ppp/2nqpn2/3p4/3P4/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 11",
+  "solution": [
+    "Rc1"
+  ],
+  "title": "Nobody Owns the c-File",
+  "setup": "Both c-pawns are gone, and neither side has put a rook on the file they left behind. One move claims it.",
+  "hint": "One file has no pawn of either color on it, and only one of your rooks has a clear path to reach it.",
+  "explanation": "## The Idea\n\nThe c-file has no pawn of either color on it, and neither side has put a rook there yet.\n\n{{Rc1}} claims it first. The other rook cannot, because the queen on d1 is in the way. For now the rook stands behind its own knight on c3, but a knight can step aside in one move, and when it does the file belongs to the rook.\n\nRook first, queen behind: a queen at the head of a file is a target any minor piece can chase with tempo."
+}

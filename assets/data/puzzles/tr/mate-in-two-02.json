@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-02",
+  "fen": "7k/5ppp/1n5R/2N5/8/7R/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Rxh7+",
+    "Kg8",
+    "Rh8#"
+  ],
+  "rating": 950,
+  "title": "h Dikeyinde Üst Üste",
+  "setup": "Kaleleriniz h dikeyinde üst üste dizilmiş ve siyahın şahı üç piyonun arkasında köşeye sıkışmış.",
+  "hint": "Tek dikeydeki iki kale, öndekinin verilebileceği anlamına gelir. Sonrasında arkadakinin neyi kontrol ettiğini sorun.",
+  "explanation": "## Fikir\n\n{{Rxh7+}} güvenlidir, çünkü h3'teki kale h7'yi korur; yani {{Kg8}} mecburidir. Ardından {{Rh8#}} mat eder: şah hâlâ alamaz, f7 ile g7 kendi piyonlarıdır ve f8'e adımlamak onu kalenin saldırdığı yatayda tutar."
+}

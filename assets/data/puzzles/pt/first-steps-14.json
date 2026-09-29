@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-14",
+  "fen": "4r2k/1q4pp/8/6B1/8/8/3P1PPP/3RKR2 w - - 0 1",
+  "solution": [
+    "Be3"
+  ],
+  "title": "Ergue o Escudo",
+  "setup": "A torre preta dá xeque ao teu rei pela coluna e aberta, e as tuas próprias peças encaixotaram o rei. A linha tem de ser fechada.",
+  "hint": "Duas das tuas jogadas tapam o xeque. Só uma delas aterra numa casa que um amigo protege.",
+  "explanation": "## A Ideia\n\nUm xeque ao longo de uma linha tem três respostas: fugir, capturar ou tapar. O teu rei não tem casa e nada chega à torre de e8, portanto tens de tapar.\n\n{{Be3}} tapa numa casa que os peões de d2 e f2 guardam os dois, portanto {{Rxe3+}} daria uma torre por um bispo. {{Be7}} também tapa, mas nada guarda e7, e {{Rxe7#}} é mate.\n\nO melhor escudo é um escudo defendido."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "defence-03",
+  "fen": "8/5Q2/6R1/1k1K4/2r5/8/1q5b/8 w - - 0 1",
+  "solution": [
+    "Qb7+",
+    "Ka4",
+    "Ra6#"
+  ],
+  "rating": 1530,
+  "title": "Les deux rois à découvert",
+  "setup": "Les rois sont à deux cases l'un de l'autre, en b5 et d5, et la dame, la tour et le fou noirs pointent tous vers vous.",
+  "hint": "Chaque coup tranquille perd. Cherchez l'échec qui pousse le roi adverse vers votre tour, pas loin d'elle.",
+  "explanation": "## L'idée\n\n{{Qb7+}} envoie le roi sur la colonne a, {{Ka4}} ou {{Ka5}}, et dans les deux cas la tour bascule pour {{Ra6#}}. Chasser un roi vers le bord n'est pas toujours le plan — le chasser vers vos propres pièces, si."
+}

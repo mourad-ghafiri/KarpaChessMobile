@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-10",
+  "fen": "r4rk1/5ppp/5n2/6B1/8/8/2Q2PPP/1B4K1 w - - 1 2",
+  "solution": [
+    "Bxf6"
+  ],
+  "rating": 1390,
+  "title": "The h7 Sentry",
+  "setup": "Your queen and bishop are lined up at h7, and besides the king, only the knight on f6 covers that square.",
+  "hint": "Your battery already points at h7. Exactly one black piece answers it — what is that piece worth?",
+  "explanation": "## The Idea\n\n{{Bxf6}} removes the only guard of h7. Recapture with {{gxf6}} and {{Qxh7#}} is mate: Black's own rook on f8 walls the king in. Decline, and the knight is gone for nothing. An even trade that opens a mating square is never even."
+}

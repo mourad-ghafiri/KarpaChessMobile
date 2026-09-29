@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-03",
+  "fen": "2r3k1/1R1B1ppp/8/2Qr4/7b/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qxc8+",
+    "Bd8",
+    "Qxd8#"
+  ],
+  "rating": 1380,
+  "title": "Two Rooks, Neither Helps",
+  "setup": "Black's rooks stand on c8 and d5 and its bishop on h4 is eyeing your position, while your own pieces are scattered.",
+  "hint": "The obvious capture wins a rook. Look instead for the capture that leaves Black with only one legal answer.",
+  "explanation": "## The Idea\n\nTaking on d5 wins a rook and the game goes on. {{Qxc8+}} wins the other one and ends it: {{Bd8}} is the only block, and {{Qxd8#}} follows. Choose the capture that gives check, not the one that gives more."
+}

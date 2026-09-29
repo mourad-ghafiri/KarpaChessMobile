@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-01",
+  "fen": "1r4k1/p4ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rxb8#"
+  ],
+  "title": "El cambio que sella",
+  "setup": "Los dos reyes están resguardados tras sus peones, y las torres se enfrentan por la columna b. Quien golpee primero sobrevive.",
+  "hint": "Antes de llamar cambio a una captura, averigua qué pieza negra podría recapturar.",
+  "explanation": "## La idea\n\nEl rey negro de g8 no tiene ninguna casilla propia: en f7, g7 y h7 están sus peones, y f8 y h8 están en la octava fila.\n\nAsí que la torre de b8 no es una pareja de cambio. Es la única que protege esa fila, y {{Rxb8#}} la captura y da mate en el acto: el rey no llega a b8, y los peones no retroceden.\n\nAntes de cambiar la última torre de una columna abierta, pregúntate qué hacía aparte de estar ahí."
+}

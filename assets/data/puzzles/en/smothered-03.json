@@ -1,0 +1,12 @@
+{
+  "id": "smothered-03",
+  "fen": "kr2r3/pp3ppp/8/1N6/8/8/P4PPP/3R2K1 w - - 7 29",
+  "solution": [
+    "Nc7#"
+  ],
+  "rating": 1215,
+  "title": "The Other Corner",
+  "setup": "Black has just stepped a rook from c8 across to b8, and the king in the corner has no gap left.",
+  "hint": "Smothering is not a kingside idea; check which squares around a8 are still empty, then look for a check.",
+  "explanation": "## The Idea\n\nA king on a8 with pawns on a7 and b7 and a rook on b8 is as buried as one on h8. {{Nc7#}} arrives on the only square that checks it, and nothing covers it — a rook on b8 guards ranks and files, never the square diagonally in front of it."
+}

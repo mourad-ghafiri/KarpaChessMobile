@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-06",
+  "fen": "3r2k1/1n3ppp/8/8/8/8/5PPP/3RR1K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Nxd8",
+    "Re8#"
+  ],
+  "rating": 880,
+  "title": "Il Cavallo Torna Indietro",
+  "setup": "Il cavallo nero è appena andato in b7, da dove può riprendere in d8 e non fare nient'altro.",
+  "hint": "Chiedetevi che cosa coprirà il pezzo che riprende una volta atterrato, e che cosa smetterà di coprire.",
+  "explanation": "## L'idea\n\n{{Rxd8+}} forza {{Nxd8}}, l'unica risposta legale. Ma un cavallo in d8 copre b7, c6, e6 e f7 — mai e8. {{Re8#}} atterra sull'unica casa che il nuovo difensore non vede. Dove un pezzo riprende conta quanto il fatto che possa farlo."
+}

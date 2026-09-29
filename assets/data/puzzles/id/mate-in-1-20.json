@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-20",
+  "fen": "4k3/6p1/4K3/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Kurung Raja dari Samping",
+  "setup": "Kedua raja berhadapan di lajur e, dan satu-satunya pion Hitam yang tersisa sama sekali tak membantu.",
+  "hint": "Raja Anda memagari baris ketujuh. Kirim menteri ke satu-satunya baris yang tersisa bagi Hitam.",
+  "explanation": "## Ide\n\nKedua raja kembali berhadapan, dan kali ini menteri tiba dari sudut.\n\n{{Qa8#}} memberi sekak di sepanjang baris belakang. d8 dan f8 berada di garis menteri, dan raja Anda di e6 menguasai d7, e7 dan f7. Pion di g7 tak menghalangi apa pun dan tak menyelamatkan apa pun.\n\nMateri tambahan di papan tak mengubah polanya: raja yang berhadapan ditambah menteri di baris belakang adalah mat."
+}

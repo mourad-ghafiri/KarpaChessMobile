@@ -1,0 +1,12 @@
+{
+  "id": "promotion-05",
+  "fen": "4r1k1/4Pppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8"
+  ],
+  "rating": 1160,
+  "title": "Persigue al bloqueador",
+  "setup": "A tu peón de e7 lo frena la torre de e8, la única pieza negra que puede impedir que se convierta en dama.",
+  "hint": "La torre que bloquea tiene exactamente un trabajo. Atácala con algo por lo que no se pueda permitir cambiarse.",
+  "explanation": "## La idea\n\n{{Rd8}} ataca al bloqueador. {{Rxd8}} pierde en el acto ante exd8=Q+, y cualquier otra jugada de torre deja pasar al peón, así que las Negras tienen que dar la torre por el peón. Elimina la pieza que frena a un peón pasado y el peón será dama."
+}

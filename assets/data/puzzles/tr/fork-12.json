@@ -1,0 +1,16 @@
+{
+  "id": "fork-12",
+  "fen": "7k/pp4pp/1q6/4N3/8/8/P1P2PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Qxd8",
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 1100,
+  "title": "Veziri İçeri Çekin",
+  "setup": "Siyahın şahı g7 ile h7'nin arkasında mühürlenmiş ve b6'daki veziri d8'i gözleyen tek taş.",
+  "hint": "Siyahın şahı hiç oynayamıyor. Bunu, vezirinin nereye gitmek zorunda kalacağına karar vermek için kullanın.",
+  "explanation": "## Fikir\n\nh8'deki şahın karesi yok, yani {{Rd8+}} hamlesine ancak {{Qxd8}} ile cevap verilebilir — bu da veziri d8'e sürükler; orada f7'den gelen bir at şahı ona ulaşır. {{Nf7+}} onu ve şahı çatallar, {{Kg8}} mecburidir ve {{Nxd8}} bir kale karşılığında veziri kazanır."
+}

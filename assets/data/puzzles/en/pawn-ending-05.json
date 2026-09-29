@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-05",
+  "fen": "8/4k3/4P3/4K3/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Ke8"
+  ],
+  "rating": 1245,
+  "title": "One Square Holds",
+  "setup": "White's king has just come up behind its pawn on the sixth, and Black has three squares to pick from.",
+  "hint": "Two of your three squares let the white king step around to d7 or f7. One of them does not.",
+  "explanation": "## The Idea\n\n{{Ke8}} is the only move. Answer {{Kd6}} with {{Kd8}}, and {{e7+}} then drives the king back in front of the pawn, where White has nothing left but stalemate. Go to d8 or f8 instead and White takes the opposition and queens."
+}

@@ -1,0 +1,71 @@
+{
+  "id": "common-mistakes",
+  "title": "Bagaimana Partai Diserahkan",
+  "summary": "Menteri yang keluar terlalu awal, pion yang ternyata tak gratis, dan langkah yang tak pernah Anda perhatikan",
+  "proof": "common-mistakes-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Diserahkan Begitu Saja",
+      "text": "Hitung cara partai yang bagus diserahkan kembali, dan daftarnya pendek: menteri yang keluar terlalu awal, pion yang tampak gratis, langkah lawan yang tak dibaca siapa pun, dan raja yang dibiarkan berdiri di tengah.\n\nEmpat kebiasaan, dan masing-masing tertangkap oleh tiga pertanyaan yang sudah Anda miliki. Berikut ini adalah apa yang dilakukan papan ketika tak ada yang mengajukannya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Menteri Keluar",
+      "text": "{{e4}} {{e5}} {{Qh5}}. Menteri keluar pada langkah kedua, menatap f7 — satu-satunya petak di kubu Hitam yang hanya dijaga raja.\n\n{{Nc6}} mengeluarkan kuda dan membiarkan f7; satu penyerang pada petak yang dilindungi raja bukanlah ancaman. {{Bc4}} menjadikannya dua, dan kini mat terjadi langkah berikutnya. Hitam punya lebih dari satu cara untuk mencegahnya; {{g6}} adalah cara yang juga mengusir menteri dari diagonal itu.\n\n{{Qf3}} membidik f7 lewat lajur dan ancaman mat kembali. {{Nf6}} menghalanginya — langkah yang memang senang dimainkan Hitam."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq - 2 5",
+      "title": "Tagihannya",
+      "text": "Hitung langkahnya. Kedua pihak telah memakai empat. Langkah Hitam dipakai untuk pion pusat, kedua kuda, dan pion di g6 yang memang layak dimainkan.\n\nLangkah Putih dipakai untuk pion pusat, satu gajah, dan dua langkah menteri untuk mencapai petak yang bisa dicapai dalam satu langkah — tempat ia kini menghalangi kuda di g1.\n\nMenggerakkan satu buah dua kali bukan kejahatan. Anda akan melakukannya untuk menyelamatkannya, untuk mengambil sesuatu, untuk menangkap balik. Menggerakkannya dua kali tanpa hasil adalah biayanya, dan menteri yang keluar mendahului semua buah lain mengundangnya: setiap buah milik Hitam cukup murah untuk mengejarnya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+      "title": "Pion yang Tak Gratis",
+      "text": "Putih menukar gajah dengan kuda langkah lalu, dan Hitam menangkap balik di c6 dengan pion d. Kini ada dua pion hitam di lajur c — dan menteri Hitam di d8 memandang ke bawah lima petak kosong.\n\nPion di e5 tak punya pembela. Sama sekali: hitung saja. {{Nxe5}} memenangkannya, dan tak ada yang menangkap balik kuda itu.\n\nItulah jebakannya, dan jebakan yang senyap. Putih tidak kalah di sini. Pion itu hanya kembali, sedangkan langkah-langkah yang dipakai Putih untuk mengambilnya tidak."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4N3/4P3/8/PPPP1PPP/RNBQK2R b KQkq - 0 5",
+      "prompt": "Paksa Putih langsung mengembalikan pion itu: temukan satu petak yang menyerang kuda yang serakah dan pion e4 bersamaan.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "Menteri Anda belum pernah bergerak, dan lajur di depannya kosong hampir sampai ke pion-pion Putih."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Langkah Lawan Punya Alasan",
+      "text": "Setiap langkah lawan Anda punya alasan, dan alasannya jarang diumumkan.\n\n{{Ng5}}. Tampaknya seperti buah yang berkeliaran. Padahal itu penyerang kedua terhadap f7, petak yang hanya dijaga raja Hitam, dan kuda di f6 berdiri di antara menteri di d8 dan g5, jadi tak ada yang bisa menangkapnya.\n\nMainkan sesuatu yang wajar — {{d6}}, misalnya — dan {{Nxf7}} datang, menyerang menteri di d8 dan benteng di h8 sekaligus. Raja tak bisa menangkap balik: gajah di c4 menjaga f7."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 5 4",
+      "prompt": "Jawab ancaman itu sebelum mendarat: tutup jalan gajah di c4 menuju f7.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "Gajah mencapai f7 melintasi dua petak kosong. Salah satu pion Anda bisa melangkah ke petak yang lebih dekat."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "title": "Langkah yang Membosankan",
+      "text": "Partai lain pada saat yang serupa: gajah Hitam telah pergi ke c5, membidik f2, dan giliran Putih melangkah. Satu langkah di sini tak menghasilkan apa pun yang seru dan mencegah sebagian besar masalah tadi: rokade.\n\nRaja meninggalkan tengah, benteng di h1 bergerak ke arah pusat, dan f2, cerminan f7, akhirnya mendapat penjaga kedua.\n\n\"Rokade sebelum langkah kesepuluh\" adalah kebiasaan, bukan aturan — raja bisa tetap di tengah selama bagian tengah tetap tertutup. Tetapi inilah keamanan termurah yang akan pernah Anda beli, dan para pemula membelinya paling akhir.\n\n> Kini Anda mengenal setiap aturan catur. Yang tersisa adalah kejelian untuk melihat."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "prompt": "Mainkan langkah paling aman di papan: keluarkan raja dari tengah dan bawa benteng ke dalam permainan.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Raja Anda berdiri di tempat terbuka sementara satu langkah yang menyelesaikan seluruh masalah belum dipakai."
+    }
+  ]
+}

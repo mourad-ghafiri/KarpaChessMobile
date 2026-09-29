@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-11",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+  "solution": [
+    "exd4"
+  ],
+  "title": "Jawab Pion Pusat",
+  "setup": "Putih telah mendorong pion kedua ke pusat, tempat ia menyerang pion Anda di e5.",
+  "hint": "Pion e Anda diserang. Jawaban mana yang menyingkirkan pion pusat Putih alih-alih sekadar bertahan?",
+  "explanation": "## Ide\n\nPion Putih di d4 menyerang pion Anda di e5. {{exd4}} mengambilnya, dan Putih hanya tinggal punya satu pion pusat. Jika Putih menangkap balik dengan {{Qxd4}}, itulah Permainan Pusat, dan {{Nc6}} menyerang menteri dengan langkah pengembangan.\n\nAbaikan tawaran itu sebagai gantinya, dan {{dxe5}} memenangkan pion Anda atau dorongan ke d5 merebut ruang.\n\nKetika pion pusat diserang, menukarnya dengan penyerang sering kali adalah jawaban yang paling bersih."
+}

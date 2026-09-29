@@ -1,0 +1,58 @@
+{
+  "id": "opposite-bishops",
+  "title": "Bispos de Cores Opostas",
+  "summary": "Dois peões a mais e nada para mostrar",
+  "proof": "endgames-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "Dois Peões à Frente, e Entalados",
+      "text": "As brancas têm dois peões a mais, o que normalmente encerra a discussão. Aqui não.\n\nOlha para onde estão os bispos. O bispo preto em c1 vive nas casas escuras. O bispo branco em d3 vive nas claras. Nunca se atacarão, nunca se bloquearão, nunca partilharão uma casa durante o resto da partida.\n\nDois exércitos num tabuleiro que não se podem tocar. As pretas estão prestes a mostrar quanto isso vale, e vale dois peões."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "As Casas de Que os Peões Precisam",
+      "text": "Um peão promove ao chegar à oitava linha, portanto pergunta que casas estes dois ainda têm de usar. O próximo passo do peão f é f6, e acabaria em f8. O peão h acabaria em h8. As três casas são escuras.\n\nO bispo branco em d3 nunca disputará nenhuma delas. É um bispo das casas claras, e um bispo nunca muda de cor, nem a andar nem de nenhuma outra maneira.\n\nPortanto as casas que decidem este final são casas a que só o bispo preto poderá chegar. Uma jogada põe-no numa linha que atravessa duas delas, e dali nunca mais tem de sair."
+    },
+    {
+      "type": "play",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "prompt": "Com dois peões a menos, segura o empate estacionando o teu bispo na única diagonal que os dois peões brancos têm de atravessar.",
+      "targetSan": [
+        "Bb2"
+      ],
+      "hint": "O peão f ainda tem de pisar f6 e o peão h tem de acabar em h8 — encontra a diagonal que passa pelas duas."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Empurrar para Dentro Dela",
+      "text": "As brancas têm a vez, dois peões a mais, e nenhum sítio onde os pôr.\n\n{{f6}} pisa uma casa escura, e responde {{Bxf6}}. O peão chega sem defesa: o rei branco em e4 não chega a f6, e o bispo branco em d3 não consegue sequer olhar para uma casa escura.\n\nÉ essa a história inteira destes finais. Os peões a mais são reais, e foram comprados na cor errada."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Até Onde Vai",
+      "text": "Deixa antes correr o peão h. {{h6}}, e as pretas não têm razão nenhuma para intervir: {{Ba1}} mantém a grande diagonal, e {{h7}} chega.\n\nÉ o fim da estrada. O peão precisa de h8, h8 é escura, e o bispo vigia-a do canto de uma linha que nunca teve de deixar. Persegue esse bispo e ele desliza para um lado ou para o outro, e continua a vigiar.\n\nDois peões no tabuleiro, e nenhum deles alguma vez será dama."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "title": "A Cor a Que o Teu Bispo Renuncia",
+      "text": "Umas jogadas depois, as brancas encontraram o único plano que resta: trazer o rei. Está em g5, e a casa que quer é g6, porque de g6 o rei defende os dois peões e o bispo preto fica sem nada para atacar.\n\nAgora repara na cor de g6. Clara. O bispo em b2 nunca tocou numa casa clara e nunca tocará, portanto esta nunca foi trabalho dele.\n\n> Um bispo fica com a cor em que nasceu. Todo o resto pertence ao rei."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "prompt": "O rei branco quer uma casa que o teu bispo nunca poderá vigiar: tira-lha com a outra peça.",
+      "targetSan": [
+        "Kf7",
+        "Kg7",
+        "Kh7"
+      ],
+      "hint": "Um bispo cobre uma cor apenas, portanto a casa a que as brancas se dirigem pertence à tua outra peça."
+    }
+  ]
+}

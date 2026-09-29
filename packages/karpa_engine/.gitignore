@@ -1,0 +1,20 @@
+# Verified NNUE networks cached by android/CMakeLists.txt (see tool/fetch_nnue.sh).
+.nnue/
+
+# CMake's intermediate tree from the Android native build.
+android/.cxx/
+
+# Host build output from tool/build_host.sh — the content gates drive a real
+# Stockfish, but the binary, its objects and its ~94 MB embedded net are
+# generated, not sources. Rebuild with:
+#   sh packages/karpa_engine/tool/build_host.sh
+#
+# At any depth: tool/sync_sources.sh copies stockfish/ wholesale into ios/ and
+# macos/, so after a host build these land in the pod copies too — and the
+# objects and the binary carry this machine's absolute build paths.
+**/stockfish/src/stockfish
+**/stockfish/src/*.o
+**/stockfish/src/*.nnue
+**/stockfish/src/.depend
+**/stockfish/src/.build_*.txt
+**/stockfish/src/temp_builds/

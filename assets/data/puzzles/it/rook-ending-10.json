@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-10",
+  "fen": "8/2R2P1K/1k6/8/8/8/8/1r6 b - - 0 1",
+  "solution": [
+    "Rh1+"
+  ],
+  "rating": 1560,
+  "title": "Scacchi dall'Angolo",
+  "setup": "Il pedone f del Bianco è a una mossa dalla promozione, e la sua torre in c7 è in presa al re nero in b6.",
+  "hint": "Vi serve una mossa in più per prendere in c7. Quale colonna dà scacchi da cui il re bianco non possa semplicemente allontanarsi?",
+  "explanation": "## L'idea\n\nAl Nero serve un tempo, e lo comprano solo gli scacchi da lontano. {{Rh1+}} {{Kg6}} {{Rg1+}} {{Kf5}}, e adesso {{Kxc7}} vince la torre. Il Bianco promuove, ma {{Rf1+}} infilza il re contro la donna nuova e se la riprende subito. Andate invece immediatamente dietro il pedone con {{Rf1}}, e il Bianco risponde {{Re7}}, difendendo tutto, e il pedone entra."
+}

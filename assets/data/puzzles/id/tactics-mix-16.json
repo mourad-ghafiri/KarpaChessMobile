@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-16",
+  "fen": "r1b1k2r/ppp2ppp/2n5/3Bq3/8/2N1P2P/PP3PPQ/R4RK1 w - - 0 1",
+  "solution": [
+    "Bxc6+"
+  ],
+  "title": "Singkirkan Penjaga dengan Sekak",
+  "setup": "Kedua menteri saling menatap di seberang diagonal, dan menteri Hitam di e5 hanya dijaga kuda di c6.",
+  "hint": "Menukar menteri tak menghasilkan apa-apa. Rampas satu-satunya penjaga menteri, dan lakukan sambil mendapat tempo.",
+  "explanation": "## Ide\n\n{{Qxe5+}} seketika hanya menukar menteri sesudah {{Nxe5}}. Kuda di c6 satu-satunya penjaga menteri, jadi singkirkan ia lebih dulu: {{Bxc6+}} mengambil kuda dengan sekak. Hitam harus menjawab sekak, dengan {{bxc6}}, menghalangi di d7 atau langkah raja, dan tak satu pun menjaga e5 lagi, jadi {{Qxe5+}} memenangkan menteri dengan imbalan gajah.\n\nKetika sebuah buah punya satu penjaga, tangkap penjaganya dengan sekak."
+}

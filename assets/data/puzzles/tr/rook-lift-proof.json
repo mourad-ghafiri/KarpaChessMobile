@@ -1,0 +1,11 @@
+{
+  "id": "rook-lift-proof",
+  "fen": "rn2r1k1/pp3p1p/2p1bp2/8/P1B2P2/B1P2R2/6PP/3R2K1 w - - 2 20",
+  "solution": [
+    "Rg3+"
+  ],
+  "title": "Üçüncü Yatay Boyunca",
+  "setup": "Çigorin, Lebedev'e karşı, Moskova 1900/01. Kaleniz arka yataydan çoktan tırmandı ve üçüncü yatayınızla siyahın şahı arasındaki g dikeyi boş.",
+  "hint": "Önce yukarı, sonra karşıya. Üçüncü yatayınızdaki hangi kare siyahın şahına bakıyor?",
+  "explanation": "## Fikir\n\n{{Rg3+}} kaldırmayı tamamlar: f3'e tırmanan kale boş g dikeyine kayar ve şah çeker. Şah f8'i kullanamaz; orayı a3'teki filiniz kapsar. Siyahın iki cevabı vardır: köşeye giden {{Kh8}} ya da yalnızca kapatmak için geri verilen bir fille {{Bg4}}.\n\nÇigorin {{Be7}} ile devam etti ve kazandı."
+}

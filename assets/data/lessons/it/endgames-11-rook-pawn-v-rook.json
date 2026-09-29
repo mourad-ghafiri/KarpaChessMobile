@@ -1,0 +1,62 @@
+{
+  "id": "rook-pawn-vs-rook",
+  "title": "Torre e Pedone contro Torre",
+  "summary": "Due mosse di torre che decidono tutto il finale",
+  "proof": "endgame-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "Due Colonne di Luce",
+      "text": "Un pedone in e4 non vince da solo. Un pedone scortato sì, e la scorta è tutto l'argomento di un finale di torri.\n\nGuardate la distanza. Il re nero in c7 è a due colonne dalla strada del vostro pedone, e ci sta camminando incontro. Alla vostra torre in a1 non è mai stato chiesto di fermare niente, qui — ed è l'unico pezzo che possa farlo.\n\nIl re che arriva davanti a un pedone lo ferma. Il re che resta chiuso fuori guarda."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "Un Muro Fatto di una Torre Sola",
+      "text": "Una torre su una colonna aperta fa più che attaccare lungo di essa. Il re avversario non può mettere piede su nessuna casa che la torre copre, quindi la colonna diventa un muro: una mossa per costruirlo, e resta in piedi finché la torre resta.\n\nQuesto è un **taglio**. Il re avversario è rinchiuso da un lato della linea, e tutto quello che sta dall'altro è vostro da usare.\n\nIl re nero in c7 non ha ancora attraversato. Scegliete la linea che deve attraversare."
+    },
+    {
+      "type": "play",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "prompt": "Chiudete il re nero fuori dalla metà di scacchiera del pedone prima di spingere qualunque cosa.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Contate le colonne fra il re nero e il pedone, poi prendetevi quella che quel re deve attraversare per prima."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/3R4 b - - 1 1",
+      "title": "Gira e Rigira",
+      "text": "Il muro è alzato. Adesso guardate che cosa riesce a fare il re nero riguardo al pedone.\n\n{{Kc6}} {{Kf4}} {{Kc5}} {{Kf5}}\n\nQuattro mosse. Il re nero è sceso lungo la colonna c e non riesce ancora a mettere piede sulla colonna d, perché ogni casa di quella colonna appartiene a una torre in d1. Il re bianco, intanto, è salito accanto al suo pedone, ed è questo che vuol dire scortare."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/4P1K1/8/3R4/8/8/5r2 b - - 0 8",
+      "title": "Quale Finale vi Tocca",
+      "text": "Qualche mossa dopo, il pedone sta in e6 con il suo re accanto in g6, e la torre tiene ancora la colonna d. Il re nero in c7 è a due colonne dalla strada del pedone e non ci verrà lasciato entrare. È quel rifiuto a scegliere il finale.\n\nLasciate che il re difendente arrivi sulla casa davanti al pedone e il Nero fa patta — Philidor, quattro lezioni fa, non chiede altro che quel re e una torre sulla sesta traversa.\n\nNegateglielo, fate marciare il vostro re fino alla casa di promozione, e state puntando invece verso Lucena."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Scambio di Sedie",
+      "text": "Adesso siete il Nero, e una traversa viene usata contro di voi come voi avete appena usato una colonna. La torre in b7 possiede la settima, quindi il re nero in g8 è tenuto sulla traversa di fondo.\n\nIl pedone bianco in e5 è un pedone passato con un re in d5 che gli cammina accanto, e il re che dovrebbe fermarlo è bloccato sul bordo della scacchiera.\n\nQuindi la difesa la porta la torre nera in h1, e dove va è tutta la questione."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Davanti, Accanto, Dietro",
+      "text": "Una torre di fronte a un pedone passato ha tre tipi di casa, e non invecchiano allo stesso modo.\n\nDavanti a lui la torre è un blocco che si restringe: ogni spinta le toglie un'altra casa, e sull'ottava traversa sta lì a non fare niente. Accanto, su una traversa, la torre attacca il pedone una volta e non guadagna niente quando il pedone muove.\n\nDietro, l'attacco si rinnova. Il pedone fa un passo e la stessa torre lo fissa ancora lungo la colonna, mentre quello che difende il pedone si allontana sempre di più da casa.\n\n> Giudicate una casa per quanto vale dopo che il pedone ha mosso, non prima."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "prompt": "Prendetevi l'unica casa il cui valore cresce ogni volta che il pedone bianco avanza.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "Fate camminare il pedone da e5 all'ultima traversa con la mente, e chiedetevi quale postazione continua ad attaccarlo per tutto il tragitto."
+    }
+  ]
+}

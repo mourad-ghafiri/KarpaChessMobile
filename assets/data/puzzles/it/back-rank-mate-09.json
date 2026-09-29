@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-09",
+  "fen": "6k1/5pp1/7p/8/2n5/8/3r1PPP/1B2R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 980,
+  "title": "Aria che Non C'È",
+  "setup": "Il Nero ha appena giocato h6 per aprire una casa di fuga in h7 per il suo re.",
+  "hint": "Il Nero crede che adesso il re abbia un buco in cui scappare. Scoprite chi altro guarda quella casa.",
+  "explanation": "## L'idea\n\n{{Re8#}} lo stesso. La nuova casa di fuga h7 è coperta dall'alfiere in b1, per tutta la lunghezza della diagonale, quindi la mossa di pedone non ha comprato niente. Una via di fuga aiuta solo se nessun pezzo avversario sorveglia la casa che aprite."
+}

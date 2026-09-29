@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-18",
+  "fen": "7k/p5pp/8/8/8/8/8/R3R1K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "Two Rooks, One Open File",
+  "setup": "Black's pawn on a7 keeps one file shut, but the e-file runs open all the way to the back rank.",
+  "hint": "One of your rooks looks at a closed door, the other at an open one. Take the open one.",
+  "explanation": "## The Idea\n\nOnly one file is truly open: the a-file is shut by Black's own pawn on a7, and one open file is all a rook needs.\n\n{{Re8#}} checks along the back rank. g8 is on the rook's line, and g7 and h7 hold Black's own pawns. Nothing can capture the rook or block.\n\nCount the open files before you count your rooks."
+}

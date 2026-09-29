@@ -1,0 +1,12 @@
+{
+  "id": "promotion-05",
+  "fen": "4r1k1/4Pppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8"
+  ],
+  "rating": 1160,
+  "title": "Persegue Quem Bloqueia",
+  "setup": "O teu peão de e7 está travado pela torre de e8, a única peça preta que o pode impedir de ser dama.",
+  "hint": "A torre que bloqueia tem exatamente um trabalho. Ataca-a com algo por que ela não se pode dar ao luxo de trocar.",
+  "explanation": "## A Ideia\n\n{{Rd8}} ataca quem bloqueia. {{Rxd8}} perde de imediato para exd8=Q+, e qualquer outra jogada de torre deixa o peão passar, portanto as pretas têm de dar a torre pelo peão. Tira a peça que segura um peão passado e o peão é uma dama."
+}

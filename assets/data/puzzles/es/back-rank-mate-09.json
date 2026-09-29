@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-09",
+  "fen": "6k1/5pp1/7p/8/2n5/8/3r1PPP/1B2R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 980,
+  "title": "Un aire que no existe",
+  "setup": "Las Negras acaban de jugar h6 para abrirle a su rey una casilla de escape en h7.",
+  "hint": "Las Negras creen que el rey ya tiene un hueco al que huir. Averigua quién más mira esa casilla.",
+  "explanation": "## La idea\n\n{{Re8#}} de todos modos. La nueva casilla de escape h7 la cubre el alfil de b1, a lo largo de toda la diagonal, así que el avance de peón no compró nada. Una vía de escape solo ayuda si ninguna pieza rival vigila la casilla que abres."
+}

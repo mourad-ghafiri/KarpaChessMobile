@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-12",
+  "fen": "5rk1/5ppp/3Q4/5N2/8/1q6/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rd8#"
+  ],
+  "rating": 1100,
+  "title": "Puxa o Rei para Dentro",
+  "setup": "A torre preta acabou de deixar d8 por f8, a abrir-te a coluna e a pôr-se mesmo ao lado do seu próprio rei.",
+  "hint": "O rei está mais seguro onde está. Encontra o xeque que o arrasta para a linha que possuis.",
+  "explanation": "## A Ideia\n\n{{Qxf8+}} é uma dama por uma torre, e {{Kxf8}} é a única resposta legal. O rei fica agora na oitava linha aberta com a tua coluna livre atrás dele: {{Rd8#}}. O cavalo em f5 tira e7, e os seus próprios peões fazem o resto."
+}

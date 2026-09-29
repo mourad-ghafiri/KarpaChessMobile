@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-11",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+  "solution": [
+    "exd4"
+  ],
+  "title": "Merkez Piyonuna Cevap Verin",
+  "setup": "Beyaz merkeze ikinci bir piyon sürdü ve orada e5'teki piyonunuza saldırıyor.",
+  "hint": "e piyonunuz saldırı altında. Hangi cevap yalnızca savunmakla kalmayıp beyazın merkez piyonunu ortadan kaldırıyor?",
+  "explanation": "## Fikir\n\nBeyazın d4'teki piyonu e5'teki piyonunuza saldırıyor. {{exd4}} onu alır ve beyazın yalnızca tek bir merkez piyonu kalır. Beyaz {{Qxd4}} ile geri alırsa bu Merkez Oyunu'dur ve {{Nc6}} bir gelişim hamlesiyle vezire vurur.\n\nBunun yerine teklifi görmezden gelin; {{dxe5}} piyonunuzu kazansın ya da d5'e sürüş alan kazansın.\n\nBir merkez piyonu saldırı altındayken onu saldıranla değişmek çoğu zaman en temiz cevaptır."
+}

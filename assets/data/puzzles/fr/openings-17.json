@@ -1,0 +1,11 @@
+{
+  "id": "openings-17",
+  "fen": "rnb1k2r/pp2ppbp/6p1/q1PP4/5B2/2P1P3/P4PPP/2RQKBNR b Kkq - 0 9",
+  "solution": [
+    "Bxc3+"
+  ],
+  "title": "La diagonale encaisse",
+  "setup": "Les Noirs ont cédé le centre et deux pions avec, et les Blancs viennent de reprendre en c3 avec le pion b.",
+  "hint": "Les Blancs ont repris avec un pion qu'une seule pièce protège, et votre fou le vise depuis le quatrième coup.",
+  "explanation": "## L'idée\n\nLe fou en g7 tire le long de la grande diagonale depuis le quatrième coup, et voici ce qu'il attendait.\n\n{{Bxc3+}} reprend un pion avec échec. {{Rxc3}} tombe sur {{Qxc3+}}, car la dame en a5 se tient derrière le fou, et {{Qd2}} perd la dame sur {{Bxd2+}}. Le mieux pour les Blancs est {{Ke2}}, qui renonce au roque pour garder un pion de plus.\n\nNe cédez le centre que si vous avez de quoi tirer dessus."
+}

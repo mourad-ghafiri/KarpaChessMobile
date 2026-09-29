@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-01",
+  "fen": "4k3/pp4pp/8/3n4/4P3/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "exd5"
+  ],
+  "title": "Pion Menangkap Kuda",
+  "setup": "Seekor kuda hitam berkeliaran dekat pion e Anda. Pion Anda bisa memenangkannya, asalkan Anda ingat ke arah mana pion menangkap.",
+  "hint": "Pion menangkap satu petak diagonal ke depan. Dua petak mana yang diserang pion di e4?",
+  "explanation": "## Ide\n\nPion berjalan lurus tetapi **menangkap secara diagonal**, dan kuda di d5 berdiri di salah satu dari dua petak yang diserang pion Anda di e4.\n\n{{exd5}} dan pion itu mengambil seekor kuda utuh. Tak ada yang menjaga d5, jadi tak ada yang menangkap balik: kuda itu begitu saja menjadi milik Anda.\n\nSetiap pion menjaga dua petak diagonal di depannya. Apa pun yang melangkah ke sana bisa ditangkap."
+}

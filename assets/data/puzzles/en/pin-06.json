@@ -1,0 +1,12 @@
+{
+  "id": "pin-06",
+  "fen": "8/r7/pRp2k2/2Rr4/7P/8/8/K7 w - - 0 1",
+  "solution": [
+    "Rxd5"
+  ],
+  "rating": 1000,
+  "title": "A Defender in Name Only",
+  "setup": "Your rook on b6 cuts along the sixth rank, through the black c-pawn, all the way to the king on f6.",
+  "hint": "One black pawn defends the rook on d5. Check what your own rook on b6 is doing to that pawn first.",
+  "explanation": "## The Idea\n\n{{Rxd5}} wins a full rook. The pawn on **c6** is the only defender of d5, but it is pinned along the sixth rank by your rook on **b6**: if it captures, the king on **f6** stands in check. A pinned pawn defends nothing."
+}

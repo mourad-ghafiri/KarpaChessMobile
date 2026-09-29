@@ -1,0 +1,11 @@
+{
+  "id": "endgame-05",
+  "fen": "8/8/7r/4k3/2P5/2K5/8/5R2 w - - 0 1",
+  "solution": [
+    "Rd1"
+  ],
+  "title": "Le mur sur la colonne d",
+  "setup": "Votre pion c a un long chemin à parcourir, et le roi noir en e5 marche à sa rencontre. Un seul coup de tour décide s'il arrivera jamais.",
+  "hint": "Comptez les colonnes entre le roi noir et votre pion. Le roi doit d'abord en traverser une, alors faites-en la vôtre.",
+  "explanation": "## L'idée\n\nSeule la colonne d sépare le roi noir de la route de votre pion, donc {{Rd1}} la prend. Le roi en e5 ne peut pas se poser sur une case que couvre la tour, et elle couvre maintenant toute la colonne : le roi est parqué de l'autre côté aussi longtemps que la tour reste.\n\nVotre roi monte ensuite à côté du pion c et l'escorte jusqu'au bout. Tout autre coup permet au roi noir de passer sur la colonne d et de se placer devant le pion, et la finale est nulle."
+}

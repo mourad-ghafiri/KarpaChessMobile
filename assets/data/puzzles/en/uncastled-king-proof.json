@@ -1,0 +1,13 @@
+{
+  "id": "uncastled-king-proof",
+  "fen": "2b1kbnr/1pp2ppp/r3p3/p1q1P1B1/4N3/3B1N2/PPP2PPP/R2Q1RK1 w k - 5 10",
+  "solution": [
+    "Bb5+",
+    "Qxb5",
+    "Qd8#"
+  ],
+  "title": "Clear the File With Check",
+  "setup": "Black's king is still on e8 at move ten. Your queen on d1 wants the d-file, and your own bishop on d3 is standing in it.",
+  "hint": "The bishop has to leave the file, and it should leave with a move Black must answer at once.",
+  "explanation": "## The Idea\n\nThe king never left e8, and its own pieces fill its exits: the bishop on f8, the pawn on f7. Your bishop on g5 covers e7 and d8. All that stands between your queen and d8 is your own bishop on d3.\n\nSo it leaves with check. {{Bb5+}} has to be answered, and every answer is too slow. Take it with {{Qxb5}} and {{Qd8#}} lands, guarded by the bishop on g5. Block with {{Bd7}} and {{Bxd7#}} mates instead."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kings-indian-attack",
+  "title": "Şah Hint Saldırısı",
+  "summary": "Her zaman oynadığınız sekiz hamle ve ardından her zaman gelen yarış",
+  "proof": "openings-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Sekiz Hamle, Sıfır Soru",
+      "text": "Sekiz hamle geçmiş ve beyaz bir kez bile siyahın ne yaptığını sormamış. At f3'e, piyon g3'e, fil g2'ye, şah köşeye, piyon d3'e, at d2'ye, piyon e4'e, kale e1'e — neredeyse her sırayla, neredeyse her şeye karşı.\n\nŞah Hint Saldırısı budur. Bir varyant değil, bir kurulumdur; yani taşınacak teori yoktur: her partide aynı orta oyun gelir ve onu bir kez öğrenirsiniz. Fischer bunu yıllarca Fransız'a ve Sicilya'ya karşı, her seferinde aynı hamleleri oynayarak kullandı."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "İki Plan, Zıt Yönler",
+      "text": "Siyah bunların hiçbirini beklemiyor. Vezir kanadındaki piyonlar tahtadaki en hızlı şey ve bir adresleri var: c2 ve orayı koruyan ne kaldıysa.\n\n{{b5}} ilk itiştir. Gerisi arkasından gelir, c dikeyi açılır ve siyahın kaleleri oradan aşağı akar.\n\nİki taraf da savunmayacak. Bir yarışta geriye bakmaya harcanan hamle, öteki koşucuya verilmiş bir hamledir — bu yüzden beyaz vezir kanadında hiç cevap vermez. Beyaz, e4'teki piyonun, g2'deki filin ve iki atın çoktan gösterdiği uzak kanatta cevap verir."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p3bppp/2n1pn2/1ppp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - b6 0 9",
+      "prompt": "Kendi taşlarınızın önünde alan kapın; siyahın şahına en yakın atı kovan piyon sürüşünü oynayın.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "O şahın yanındaki tek gerçek koruyucu f6'daki at. Piyonlarınızdan hangisi ona saldırabilir?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Kanatlar Neden Güvenli",
+      "text": "e5'teki piyon şimdi e6'daki piyonla burun buruna duruyor. Ortada değişilecek de açılacak da bir şey kalmadı ve bir kanat saldırısının ihtiyaç duyduğu izin tam olarak budur: merkezden geçen hat yoksa, oradan iki şaha da giden yol yok demektir.\n\nBöylece iki taraf da yanlara bakar. Beyaz {{h4}} oynar, siyah {{b4}} ile cevap verir, beyaz {{h5}} ile sürer ve kimse eve taş göndermez.\n\n> Yeriniz olan kanatta saldırın ve bunu yaparken ortayı kapalı tutun."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Bir Saldıran Eksik",
+      "text": "Beyazın siyahın şahına doğrulttuklarını sayın: g2'deki fil, f3'teki at, çok geride olmayan bir vezir ve bir kale. Şimdi siyahın evde ne bıraktığını sayın. Sonuç yakın ve yakın olmak yetmez.\n\nMeseleyi çözecek taş d2'deki at ve o şaha bir taşın olabileceği kadar uzakta duruyor. e4'ten geçen kısa yolu siyahın d5'teki piyonu kapsıyor. Uzun yol, kalenin e1'e giderken boşalttığı kareden geçiyor — ve at oradan, d5 ile f5'i gözleyen e3 ile g4'e bir sıçrayış uzaklıktaki h2 arasında seçim yapıyor."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "prompt": "En yavaş taşınızı, kendi piyonlarının açık bıraktığı tek yoldan siyahın şahına doğru yola çıkarın.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Kendi birinci yatayınızdaki boş karelere bakın. Biri, at için şah kanadına giden bir giriş rampası."
+    }
+  ]
+}

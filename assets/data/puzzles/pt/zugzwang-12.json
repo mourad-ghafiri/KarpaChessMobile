@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-12",
+  "fen": "3K2k1/1B6/8/6pR/8/8/5p1R/8 w - - 0 1",
+  "solution": [
+    "Ke7",
+    "f1=Q",
+    "Rxg5#"
+  ],
+  "rating": 1800,
+  "title": "O Teu Rei Passa a Vez",
+  "setup": "O rei preto está em g8, um peão em f2 está prestes a promover e outro está em g5; as tuas duas torres estão na ala do rei.",
+  "hint": "Todas as jogadas de peça que encontras estragam alguma coisa. Resta uma peça que pode mexer sem custo.",
+  "explanation": "## A Ideia\n\n{{Ke7}} cobre f8 e entrega a jogada às pretas. {{f1=Q}} é a melhor tentativa entre as seis jogadas das pretas e chega ao lado errado do tabuleiro; {{Rxg5#}} dá mate. As jogadas de espera mais difíceis são as que o rei faz."
+}

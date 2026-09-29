@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-03",
+  "fen": "7k/8/8/6K1/8/Q7/8/8 w - - 0 1",
+  "solution": [
+    "Kg6",
+    "Kg8",
+    "Qa8#"
+  ],
+  "title": "Stretta di Zugzwang",
+  "setup": "La vostra donna possiede mezza scacchiera, ma una donna da sola non può concludere — deve essere il re a togliere le ultime case.",
+  "hint": "Qui nessuno scacco vince. Trovate il passo tranquillo di re che lascia al Nero esattamente una mossa legale.",
+  "explanation": "## L'idea\n\nUno **zugzwang**: la mossa che vince non fa nessuna minaccia. Si limita a lasciare al Nero una mossa legale, e quella mossa perde.\n\n{{Kg6}} è tranquilla. Adesso g7 e h7 appartengono al vostro re e la donna in a3 copre f8, quindi l'unica mossa del Nero è {{Kg8}}, sulla traversa di fondo. {{Qa8#}} se la prende tutta, e f7, g7 e h7 sono del vostro re.\n\nQuando ogni scacco lascia sgusciare via il re, smettete di dare scacco e prendetevi invece le case."
+}

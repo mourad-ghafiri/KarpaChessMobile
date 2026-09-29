@@ -1,0 +1,13 @@
+{
+  "id": "remove-defender-proof",
+  "fen": "6k1/5ppp/5n2/3n2B1/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Bxf6",
+    "gxf6",
+    "Rxd5"
+  ],
+  "title": "Önce Koruyucuyu Alın",
+  "setup": "d1'deki kaleniz d5'teki ata çoktan dikilmiş ve f6'daki at onu koruyan tek şey.",
+  "hint": "d5'te hemen almak bir at karşılığında kale verir. d5'e saldıranları saymadan önce onu koruyanları sayın.",
+  "explanation": "## Fikir\n\nHemen {{Rxd5}} oynamaya {{Nxd5}} cevabı gelir: ata karşılık kale. Öyleyse önce sayımı değiştirin. {{Bxf6}} d5'in tek koruyucusunu alır. {{gxf6}} geldikten sonra d5'e bakan kalmaz ve {{Rxd5}} ikinci atı toplar. Öteki atla geri almak daha kötüdür, çünkü o zaman kaleniz d8'de şah çeker ve gerisini arka yatay halleder. Fili rahat bırakın, at bedavaya kazanılmış olsun."
+}

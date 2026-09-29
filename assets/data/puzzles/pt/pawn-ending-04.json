@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-04",
+  "fen": "8/8/8/3kp2P/8/8/8/4K3 b - - 0 1",
+  "solution": [
+    "Ke6"
+  ],
+  "rating": 1210,
+  "title": "A Porta Tapada",
+  "setup": "Os dois lados têm um corredor, e o rei preto está a uma coluna de fora do quadrado do peão branco.",
+  "hint": "Conta o quadrado do peão h e olha depois para qual das casas de entrada tem uma peça tua em cima.",
+  "explanation": "## A Ideia\n\nO quadrado é h5–h8–e8–e5, e o peão das próprias pretas ocupa e5, a porta natural. {{Ke6}} é a única outra entrada, e dali o rei acompanha o peão até h8. Correr com {{e4}} perde por uma única jogada. Conta as tuas peças antes de contares as das brancas."
+}

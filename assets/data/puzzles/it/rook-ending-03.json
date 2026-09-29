@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-03",
+  "fen": "8/8/2k5/1RP5/2K5/8/6r1/8 b - - 0 1",
+  "solution": [
+    "Rg4+"
+  ],
+  "rating": 1300,
+  "title": "Spostate il Difensore",
+  "setup": "Il re nero attacca già la torre in b5, e il re bianco in c4 è l'unica cosa che la difende.",
+  "hint": "La torre è difesa esattamente una volta. Trovate lo scacco che manda via quel difensore lasciando al sicuro la vostra torre.",
+  "explanation": "## L'idea\n\n{{Rg4+}} spinge via il difensore: dopo {{Kc3}} {{Kxb5}}, cade anche il pedone c e il Nero è avanti di una torre. La naturale {{Rc2+}} insegue anch'essa il re, ma dopo {{Kb3}} attacca la vostra torre, e le torri escono in una patta secca."
+}

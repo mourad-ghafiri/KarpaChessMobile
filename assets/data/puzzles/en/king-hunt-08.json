@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-08",
+  "fen": "1b1K1R2/2R4p/2Q5/1B3r1k/1p6/8/8/8 w - - 0 1",
+  "solution": [
+    "Rxf5+",
+    "Kg4",
+    "Qf3+",
+    "Kh4",
+    "Rh5#"
+  ],
+  "rating": 1590,
+  "title": "Trade Into the Net",
+  "setup": "Black's king has run to h5 with a lone rook on f5 beside it, and your queen and both rooks are close by.",
+  "hint": "The defending rook looks like the thing to leave alone. Check what the king's squares become without it.",
+  "explanation": "## The Idea\n\n{{Rxf5+}} wins the rook with check, {{Qf3+}} drives the king to h4, and {{Rh5#}} is mate with the queen on f3 holding the rook. Capturing the last defender is a hunting move, not a greedy one."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "skewer-08",
+  "fen": "8/N3R1R1/p1p2kr1/7n/P1p5/5r1P/P6K/8 w - - 0 1",
+  "solution": [
+    "Rgf7+",
+    "Kg5",
+    "Rxf3"
+  ],
+  "rating": 1180,
+  "title": "Decidono le Torri Raddoppiate",
+  "setup": "Le vostre torri sono raddoppiate sulla settima traversa, e una torre nera siede sulla colonna f dietro il proprio re.",
+  "hint": "Due torri su una traversa vogliono dire che una può farsi avanti mentre l'altra la difende. Quale colonna conta?",
+  "explanation": "## L'idea\n\n{{Rgf7+}} mette una torre sulla colonna f con il re davanti e la torre in **f3** dietro. La torre in **e7** difende f7, quindi il re non può catturare. Dopo {{Kg5}} la colonna è libera e {{Rxf3}} vince la torre."
+}

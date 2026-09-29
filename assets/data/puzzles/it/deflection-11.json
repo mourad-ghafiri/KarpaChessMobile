@@ -1,0 +1,14 @@
+{
+  "id": "deflection-11",
+  "fen": "4kb1r/pp1n1ppp/8/7q/5Q1B/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1470,
+  "title": "Chi Blocca Deve Prendere",
+  "setup": "Il cavallo in d7 è l'unica cosa fra la vostra torre e d8.",
+  "hint": "Il cavallo non lascerà quella casa per scelta. Che cosa potete mettere dove sia obbligato a catturare?",
+  "explanation": "## L'idea\n\n{{Qb8+}} lascia al Nero una mossa legale: {{Nxb8}}. Il tappo è stato trascinato via da d7, e {{Rd8#}} dà matto lungo la strada su cui stava. Un pezzo che chiude una colonna è un muro solo finché uno scacco non lo chiama altrove."
+}

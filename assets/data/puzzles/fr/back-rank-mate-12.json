@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-12",
+  "fen": "5rk1/5ppp/3Q4/5N2/8/1q6/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rd8#"
+  ],
+  "rating": 1100,
+  "title": "Attirez le roi",
+  "setup": "La tour noire vient de quitter d8 pour f8, ouvrant votre colonne et se plaçant juste à côté de son propre roi.",
+  "hint": "Le roi est le plus en sécurité là où il se trouve. Trouvez l'échec qui le traîne sur la rangée que vous possédez.",
+  "explanation": "## L'idée\n\n{{Qxf8+}} est une dame contre une tour, et {{Kxf8}} est la seule réponse légale. Le roi se tient maintenant sur la huitième rangée ouverte avec votre colonne dégagée derrière : {{Rd8#}}. Le cavalier en f5 retire e7, et ses propres pions font le reste."
+}

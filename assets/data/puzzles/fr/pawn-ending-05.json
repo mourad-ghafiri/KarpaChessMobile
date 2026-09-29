@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-05",
+  "fen": "8/4k3/4P3/4K3/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Ke8"
+  ],
+  "rating": 1245,
+  "title": "Une seule case tient",
+  "setup": "Le roi blanc vient de monter derrière son pion en sixième rangée, et les Noirs ont trois cases au choix.",
+  "hint": "Deux de vos trois cases laissent le roi blanc contourner par d7 ou f7. Une seule, non.",
+  "explanation": "## L'idée\n\n{{Ke8}} est le seul coup. Répondez à {{Kd6}} par {{Kd8}}, et {{e7+}} ramène alors le roi devant le pion, où il ne reste aux Blancs que le pat. Allez plutôt en d8 ou f8 et les Blancs prennent l'opposition et vont à dame."
+}

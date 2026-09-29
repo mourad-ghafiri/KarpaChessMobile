@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-08",
+  "fen": "r3k3/rp4n1/3p4/5p2/3Q4/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "Qxg7"
+  ],
+  "title": "Olha Antes de Agarrar",
+  "setup": "A tua dama em d4 vê uma torre preta numa diagonal e um cavalo na outra. Escolhe com cuidado.",
+  "hint": "Uma torre vale mais do que um cavalo — mas o que está atrás da torre de a7?",
+  "explanation": "## A Ideia\n\nA ganância diz para comeres a torre. {{Qxa7}} ganha cinco pontos, até ao momento em que a torre de a8 recaptura e uma dama de nove pontos comprou uma torre de cinco.\n\nA verdadeira prenda é o cavalo. {{Qxg7}} come uma peça grátis: a torre de a7 responderia de bom grado, mas o seu próprio peão de b7 está-lhe na estrada, e mais nada no tabuleiro cobre g7.\n\nO alvo mais valioso não é o melhor alvo. É o desprotegido."
+}

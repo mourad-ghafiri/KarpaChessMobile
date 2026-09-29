@@ -1,0 +1,62 @@
+{
+  "id": "en-passant",
+  "title": "Tertangkap Sambil Lewat",
+  "summary": "Sebuah pion melesat melewati pion Anda, dan tepat selama satu giliran ia tak bisa lolos begitu saja",
+  "proof": "en-passant-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Petak yang Enggan Dilintasinya",
+      "text": "Pion Hitam di d7 ingin maju, dan satu petak di depannya terlarang: pion Anda di e5 menguasai d6, jadi melangkah ke d6 berarti menyerahkan sebuah pion.\n\nHitam punya pilihan lain. Dari baris awalnya, pion boleh maju dua petak sekaligus: {{d5}}. Ia melewati d6 tanpa pernah berdiri di sana dan mendarat berdampingan dengan pion Anda — di luar jangkauan, karena pion menyerang ke depan secara diagonal, tak pernah ke samping.\n\nItulah celahnya. En passant menutupnya."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Sambil Lewat",
+      "text": "Jawabannya harus datang segera, tepat pada giliran berikutnya. {{d5}} lagi — dan kali ini {{exd6}}.\n\nPion Anda melangkah diagonal ke d6, petak yang enggan ditempati Hitam, dan pion hitam diangkat dari d5. Baca kedua petak itu sekali lagi: Anda mendarat di satu petak, pion yang ditangkap keluar dari petak yang lain. Setiap penangkapan lain dalam catur menempatkan Anda di petak yang ditempati korban Anda. Yang satu ini tidak, dan itulah sebabnya ia tampak tidak sah saat pertama kali Anda melihatnya.\n\nIstilah Prancis yang berarti *sambil lewat*, dan namanya adalah seluruh aturannya."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Mengapa Aturan Ini Ada",
+      "text": "Langkah pertama dua petak bukanlah aturan asli. Catur dimainkan berabad-abad dengan pion yang merangkak satu petak setiap kali, dan langkah ganda ditambahkan belakangan, agar partai bisa dimulai lebih cepat.\n\nItu berhasil, dan membawa masalah: kini pion bisa memakai kecepatan tambahan itu untuk menyelinap melewati pion lawan yang sudah mengawasi jalannya. Penjaganya berdiri tepat di sana dan tak diberi kesempatan. Itulah persis yang sedang dicoba {{d5}}.\n\nEn passant adalah koreksinya, tak lebih. Mempercepat awal partai, ya. Membeli izin lewat gratis, tidak."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Apa yang Harus Terpenuhi",
+      "text": "Aturannya sempit, dan setiap bagiannya penting.\n\nPion lawan harus tiba dengan langkah dua petak, langsung dari baris awalnya — pion yang sampai di sana selangkah demi selangkah aman untuk selamanya. Ia harus mendarat tepat di samping pion Anda, di baris yang sama. Pion Anda sendiri harus berdiri di baris kelimanya, karena di baris itulah pion yang melesat dua petak mendarat.\n\nDan ini pion melawan pion. Tak ada buah lain yang bisa ditangkap sambil lewat, dan tak ada buah lain yang bisa menangkap dengan cara ini."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "title": "Satu Giliran, dan Hanya Satu",
+      "text": "Dua pion hitam berdiri di samping pion Anda di e5, satu di d5 dan satu di f5, dan hanya satu di antaranya yang bisa ditangkap sambil lewat.\n\nPion d melakukan lesatan dua petaknya sebelum pion Anda sampai di e5, jadi tak ada tawaran sama sekali di sisi itu. Pion f mendarat saat ini juga, langsung dari f7, melintasi f6 — petak yang diawasi pion e5 Anda.\n\nJadi kesempatannya terbuka di satu sisi dan tertutup di sisi lain. Mainkan langkah lain di sini dan kesempatan yang ini pun tertutup, untuk selamanya."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "prompt": "Tangkap pion yang baru saja melesat melewati Anda, sebelum kesempatannya berakhir.",
+      "targetSan": [
+        "exf6"
+      ],
+      "hint": "Hanya pion yang bergerak dua petak pada giliran ini yang bisa ditangkap, dan Anda mendarat di petak yang dilewatinya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/5P2/3p4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Petak yang Tak Pernah Anda Tempati",
+      "text": "Pion Anda di f6, dan f5 kosong di belakangnya. Pion yang Anda tangkap berdiri di sana sesaat yang lalu.\n\nHitam menangkap balik dengan {{gxf6}} — penangkapan biasa, jenis yang selama ini Anda lakukan, mendarat tepat di tempat buah yang ditangkapnya berada. Letakkan kedua langkah itu berdampingan dan keanehan langkah Anda terlihat jelas.\n\n> Hanya satu penangkapan dalam catur yang menyingkirkan buah dari petak yang tak pernah disentuh penangkapnya. Inilah penangkapan itu."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/8/8/2pPP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Kini bermain sebagai Hitam: tangkap pion putih yang baru saja melompat melewati pion Anda, selagi haknya masih ada.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Hitung dari sisi Hitam — pion Anda berada di baris kelimanya sendiri, dan Anda mendarat di petak yang dilintasi pion pelari itu."
+    }
+  ]
+}

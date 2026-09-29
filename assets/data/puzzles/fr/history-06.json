@@ -1,0 +1,13 @@
+{
+  "id": "history-06",
+  "fen": "bq1b3r/3n1k2/p3p1p1/Np1pPp1p/1P1N1P2/P2PB3/2Q3PP/2R3K1 w - - 4 27",
+  "solution": [
+    "Nac6",
+    "Qb7",
+    "Nxd8+"
+  ],
+  "title": "Le trou rapporte",
+  "setup": "Steinitz contre Sellman, Baltimore 1885, vingt-six coups plus tard et pas un seul sacrifice. Il est temps d'encaisser le trou que la leçon a trouvé.",
+  "hint": "Une case au fond du camp noir ne pourra plus jamais être attaquée par un pion. Deux cavaliers pourraient la prendre — choisissez celui qui n'a rien de mieux à faire.",
+  "explanation": "## L'idée\n\nVingt-six coups plus tard, c6 est toujours un trou : les pions b et d noirs l'ont dépassé pour toujours.\n\n{{Nac6}} s'y pose et frappe à la fois la dame en b8 et le fou en d8. {{Qb7}} sauve la dame, et {{Nxd8+}} prend le fou avec échec.\n\nLa tour reprend et le matériel est égal, mais le seul fou de cases noires des Noirs a disparu. Utilisez le cavalier de a5 : celui de d4 pèse sur b5, e6 et f5, et le déplacer lâcherait les trois."
+}

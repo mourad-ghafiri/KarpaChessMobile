@@ -1,0 +1,14 @@
+{
+  "id": "deflection-03",
+  "fen": "2br2k1/5ppp/nq6/8/2B5/7P/PP2QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Bxa6"
+  ],
+  "rating": 1180,
+  "title": "İki Görev, Tek Vezir",
+  "setup": "b6'daki vezir d8'deki kaleyi ve a6'daki atı tutuyor ve filiniz a6'yı çoktan gözlüyor.",
+  "hint": "Filiniz korunan bir ata doğrultulmuş. Koruyucuyu bulun ve ona cevap vermek zorunda olduğu bir iş verin.",
+  "explanation": "## Fikir\n\n{{Rxd8+}} şahtır ve {{Qxd8}} tek cevaptır. Vezir altıncı yatayı terk etmiştir, yani {{Bxa6}} atı öylece alır. Aynı anda iki taşı tutan koruyucuları avlayın. Koruyucunun alınması gerekmez, yalnızca başka bir yerde olması yeter."
+}

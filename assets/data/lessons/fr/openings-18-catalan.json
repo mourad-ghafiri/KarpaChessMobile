@@ -1,0 +1,56 @@
+{
+  "id": "catalan-advanced",
+  "title": "La Catalane",
+  "summary": "Un pion prêté, une diagonale gardée pour toujours",
+  "proof": "openings-18.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Barcelone, 1929",
+      "text": "Un tournoi à Barcelone, en 1929, voulait une ouverture à lui, et Tartakower en a fourni une. Le nom de la région autour de la ville lui est resté.\n\nLa forme : deux pions au centre, puis une brèche taillée dans les pions de l'aile roi pour que le fou sorte en g2 et prenne la plus longue diagonale de l'échiquier.\n\nLes Noirs viennent de prendre le pion qui se trouvait en c4. Le pion noir en c4 est le prix qu'ont payé les Blancs pour cette diagonale, et les Blancs ne sont pas pressés de le réclamer."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Personne ne le chasse",
+      "text": "Comptez ce que coûterait la récupération du pion tout de suite. Une pièce, deux ou trois coups, et elle finit sur une case dont elle ne voulait pas.\n\nPuis comptez ce que coûte aux Noirs de le garder. Aucune pièce noire ne protège c4 depuis une case qui lui plaise aussi, et aucun pion noir ne peut l'atteindre sans pousser l'aile dame en avant et laisser des trous derrière.\n\nLes Blancs font donc la chose ordinaire : sortir tout, roquer, et laisser le pion être un problème pour son propriétaire. Le pion revient plus tard. La diagonale, elle, n'a jamais besoin de revenir."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "prompt": "Développez la dernière pièce qui se tient entre votre roi et le coin, et pointez-la vers le centre.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "Une pièce mineure est encore chez elle sur l'aile roi, et la case qu'elle veut protège aussi d4."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 1 5",
+      "title": "Comment le pion rentre",
+      "text": "Les Noirs se rangent avec {{Be7}} et les Blancs terminent la dernière tâche avec {{O-O}}. Le pion de plus est toujours en c4, et les Blancs n'ont pas dépensé un coup pour lui.\n\nPuis {{a6}}, le premier coup d'un plan pour tenir le pion avec un second pion, et {{Qc2}}. La dame prend la colonne qu'occupait autrefois son propre pion c et la regarde de bas en haut, pendant que le fou en g2 garde la diagonale pour laquelle on l'a placé là.\n\nLes Noirs ont un pion de plus et du retard de développement. Ce marché ne va que dans un sens."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "L'autre Catalane",
+      "text": "Les Noirs ne sont pas obligés de prendre. Des pions en c6, d5 et e6 construisent plutôt un mur, et le mur tient — pas de rupture, pas de colonne ouverte, rien à frapper pour les Blancs.\n\nLes Blancs sont satisfaits quand même. Le pion en d4 et le pion en c4 tiennent plus de terrain que ceux des Noirs, le fou en g2 attend derrière le cavalier en f3 le jour où le centre s'ouvrira, et chaque pièce blanche a déjà sa case.\n\nUne position sans faiblesse peut tout de même se perdre lentement. Les Noirs ont besoin d'une tâche pour une pièce en particulier."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "Le fou sans fenêtre",
+      "text": "Comptez les coups dont dispose le fou en c8. Son propre cavalier en d7 se tient sur une diagonale et son propre pion en b7 sur l'autre. Le compte est de zéro.\n\nLes Noirs ne sont pas tant moins bien qu'à court d'une pièce, et la pièce manquante n'a jamais quitté sa case.\n\nLe fou en g2 montre la sortie. Un fou sans route à travers le centre prend la route du bord — le même fianchetto, construit par l'autre bout, jusqu'à ce que les deux se fixent le long d'une même diagonale.\n\n> Dans une position fermée, trouvez la pièce sans avenir et donnez-lui-en un."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "prompt": "Préparez le fianchetto qui répond à celui des Blancs : offrez à votre fou coincé la grande diagonale à regarder.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Votre fou dame n'a aucun coup légal, alors demandez-vous quel pas de pion unique lui en donnerait un."
+    }
+  ]
+}

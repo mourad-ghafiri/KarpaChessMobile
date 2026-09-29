@@ -1,0 +1,50 @@
+{
+  "id": "good-bad-pieces",
+  "title": "Good vs Bad Pieces",
+  "summary": "Three points on paper, nothing on the board",
+  "proof": "strategy-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Worth Three, Doing Nothing",
+      "text": "Black's bishop on c8 is worth three points on paper and has not used one of them. Look at what is in the way: the pawns on d5 and e6 belong to Black, and a bishop may not capture its own army.\n\nBoth of those pawns sit on light squares. So does the bishop. It travels on exactly the color its own pawns are parked on, and that is what makes it a **bad bishop** — walled in by the side it plays for.\n\nIts whole freedom is {{Bd7}}. Same cage, one square over."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "The Other Bishop",
+      "text": "White owns the same piece for the same three points, and it is a different animal.\n\nWhite's center pawns stand on c3, d4 and e5, all dark squares; the bishop on f1 is a light-squared piece. They keep out of each other's way. The whole road from f1 to a6 is already empty, and one stop on it, d3, looks straight down at h7.\n\nThat is a **good bishop**: its own pawns are on the other color, and it can see."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "Your bishop can never climb over its own pawns, so open the one diagonal that runs the other way.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Which pawn is sitting on the bishop's only other road, and how far can it step without walking into White's bishop?"
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "Free and Still Bad",
+      "text": "b7 is empty, and the bishop on c8 finally has choices. White has answered by putting the good bishop on d3, aimed at h7.\n\n{{Bd7}} and {{Bb7}} each hand Black's bishop a new square and the same view: a wall of black pawns on d5 and e6 that is not going anywhere. A bad bishop allowed to walk around is still a bad bishop.\n\nSo the question is not where the piece can go. It is what the piece is worth once it arrives."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "Worst for Best",
+      "text": "There is a better prize here than freedom.\n\nA piece that cannot be made good should be traded, and traded for whichever enemy piece is doing the most work. Black's light-squared bishop has no future in this position. White's has the run of the board. Swap them and the point count does not move at all, while Black gives up a piece doing nothing and takes off one doing everything.\n\n> Improve your worst piece. When it cannot be improved, trade it for their best."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "prompt": "Offer your worst piece to the enemy bishop that is doing the most damage.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Follow the diagonal you just opened all the way out until it runs into White's bishop."
+    }
+  ]
+}

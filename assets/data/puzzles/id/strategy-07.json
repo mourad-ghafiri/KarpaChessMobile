@@ -1,0 +1,11 @@
+{
+  "id": "strategy-07",
+  "fen": "r4rk1/pp1b1ppp/2nqpn2/3p4/3P4/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 11",
+  "solution": [
+    "Rc1"
+  ],
+  "title": "Tak Ada yang Memiliki Lajur c",
+  "setup": "Kedua pion c sudah hilang, dan tak satu pihak pun menempatkan benteng di lajur yang ditinggalkan keduanya. Satu langkah merebutnya.",
+  "hint": "Satu lajur tak berisi pion dari warna mana pun, dan hanya satu benteng Anda yang punya jalan kosong untuk mencapainya.",
+  "explanation": "## Ide\n\nLajur c tak berisi pion dari warna mana pun, dan tak satu pihak pun sudah menempatkan benteng di sana.\n\n{{Rc1}} merebutnya lebih dulu. Benteng yang lain tak bisa, karena menteri di d1 menghalangi. Untuk sementara benteng berdiri di belakang kudanya sendiri di c3, tetapi kuda bisa menyingkir dalam satu langkah, dan ketika itu terjadi lajurnya menjadi milik benteng.\n\nBenteng dulu, menteri di belakang: menteri di barisan terdepan lajur adalah sasaran yang bisa diusir buah ringan mana pun sambil mendapat tempo."
+}

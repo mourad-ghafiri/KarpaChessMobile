@@ -1,0 +1,14 @@
+{
+  "id": "defence-12",
+  "fen": "8/3r4/5KR1/4r3/3B4/4qk2/Q7/8 w - - 0 1",
+  "solution": [
+    "Qg2+",
+    "Kf4",
+    "Qg4#"
+  ],
+  "rating": 2000,
+  "title": "Offrite la Donna Due Volte",
+  "setup": "La donna nera in e3 tiene già d'occhio le case attorno al vostro re in f6, sostenuta dalle torri in d7 e e5 — siete a una mossa dal matto.",
+  "hint": "Tutti e due i vostri scacchi mettono la donna dove può essere presa. Capite perché nessuna delle due prese sia legale.",
+  "explanation": "## L'idea\n\n{{Qg2+}} è protetta dalla torre in g6, quindi {{Kf4}} è forzata, e {{Qg4#}} offre la donna una seconda volta su una casa da cui il re non può prenderla. Una difesa che si regge sul non poter catturare è comunque una difesa."
+}

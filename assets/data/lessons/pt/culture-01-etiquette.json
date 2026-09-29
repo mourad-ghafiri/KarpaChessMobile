@@ -1,0 +1,50 @@
+{
+  "id": "etiquette",
+  "title": "Boas Maneiras ao Tabuleiro",
+  "summary": "As regras que ninguém imprime na caixa",
+  "proof": "culture-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "title": "A Tua Mão Chega Primeiro",
+      "text": "Toca numa peça tua numa partida a contar para o rating e escolheste-a. A peça em que tocas é a peça que joga, desde que tenha alguma jogada legal. Toca numa peça inimiga com intenção de a capturar e tens de a capturar. Sem voltar atrás, sem desculpas.\n\nAs brancas estão em xeque. O rei em e1 tem exatamente duas casas, {{Kf1}} e {{Ke2}}, e as duas abdicam do roque para o resto da partida.\n\nHá uma jogada melhor neste tabuleiro. Roça no rei enquanto ainda a procuras e ela desapareceu."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQk - 1 7",
+      "prompt": "Guarda o direito de rocar tapando o xeque com o cavalo que também cobre d5 e b5.",
+      "targetSan": [
+        "Nc3"
+      ],
+      "hint": "Duas casas tapam essa diagonal. Uma delas fecha o teu bispo de c1; a outra olha para dentro da metade preta do tabuleiro."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/2N2N2/PP3PPP/R1BQK2R b KQk - 2 7",
+      "title": "Di-lo Antes de Tocares",
+      "text": "O teu cavalo em c3 está torto, meio em cima de b3. Tens licença para o endireitar. Não tens licença para estenderes simplesmente a mão e o fazeres.\n\nDiz primeiro «componho» — *j'adoube* em francês — em voz alta, antes de os dedos lá chegarem, e só quando for a tua vez. Aqui jogam as pretas, portanto o cavalo fica torto e tu esperas.\n\nO vocabulário é quase todo isso. Ninguém anuncia o xeque, ninguém comenta uma jogada, e não se resmunga quando o adversário encontra a boa."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "A Proposta Tem uma Ordem",
+      "text": "Tabuleiro novo, e este é pior: estás uma dama abaixo. O bispo preto em d1 levou-a na jogada passada, e as pretas acabam de propor empate.\n\nHá uma ordem para isso. Faz a tua jogada, propõe o empate, e depois carrega no relógio. A proposta não leva condições e não se pode retirar — fica de pé até o teu adversário a aceitar, a recusar em voz alta, ou tocar numa peça com intenção de a jogar, o que já é uma recusa por si só.\n\nVoltar a propô-la de poucas em poucas jogadas não é insistência. É incomodar, e um árbitro tem o direito de a tratar como tal."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "title": "Como Se Perde, e Quando Não",
+      "text": "Quando uma partida está perdida, di-lo. As Leis querem uma declaração — di-lo com clareza — e não um rei derrubado de lado, que é teatro e deixa o adversário a adivinhar. Depois o aperto de mão, que nenhuma regra exige e toda a gente faz.\n\nNada disso se aplica aqui. Quem tem uma dama inteira a mais não precisa de um empate, portanto a proposta é a melhor jogada que as pretas encontraram, e não está no tabuleiro.\n\nO teu rei não está rocado e a tua dama desapareceu. Nenhum dos dois factos importa às peças que já apontam a f7.\n\n> Decide com a cabeça. A mão só pode concordar."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w KQkq - 0 6",
+      "prompt": "As pretas têm uma dama a mais e propõem empate: recusa-o com o xeque que força mate na jogada seguinte.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "O teu bispo e o cavalo de e5 apontam ao mesmo peão. Dá xeque com aquele que deixa às pretas uma só resposta legal."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "kings-indian-advanced",
+  "title": "King's Indian Defense",
+  "summary": "Invite the center, then knock it down",
+  "proof": "openings-15.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Let Them Have It",
+      "text": "White holds c4, d4 and e4. No other opening hands that over so quietly, and Black has spent five moves declining to argue: knight to f6, pawn to g6, bishop to g7, pawn to d6, king tucked away on g8.\n\nThat is the bargain of the King's Indian. White takes the middle. Black takes a finished kingside, a bishop on g7 aimed down the long diagonal, and a plan that will not change for the next twenty moves."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Nothing Is Touching d4",
+      "text": "Count what attacks White's center. Nothing does. The bishop on g7 points down the long diagonal at d4, but the knight on f6 stands in the road, and a bishop cannot make a pawn move in any case.\n\nOnly a pawn asks a pawn to move. Two black pawns can hit d4 in a single push, and the two of them lean at opposite wings: one at the queenside, where White's pawns are already thick, and one at the kingside, where your king already sits and White's is headed."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "prompt": "Challenge White's d-pawn with a pawn of your own, choosing the one whose chain will then lean toward White's kingside.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "Two pawn pushes touch d4. One heads for the wing where White is already thick; the other heads for the wing where you want to attack."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQ - 0 7",
+      "title": "White's Turn to Choose",
+      "text": "The pawn on d4 has a pawn in its face now, and White has to say what the center is going to be.\n\n{{d5}} shoves past and shuts the position — which is what Black is playing for, because a shut center tells both sides which way to run. {{dxe5}} trades instead: the d-file opens, the queens usually come off with it, and Black's whole attacking scheme leaves with them.\n\nThe third choice is to castle and let the tension stand. It is the sharpest of the three, and the one that asks both players to know the most."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Two Chains, Two Directions",
+      "text": "White shoved past, and both sides used the moves that followed to regroup. Black's knights now stand on d7 and e7, behind their own pawns, waiting for a line to open.\n\nNothing in the middle can be taken. White's pawn chain runs c4-d5 and leans at the queenside; Black's runs d6-e5 and leans at the kingside. Each side attacks in the direction its own pawns point, because that is the only direction those pawns can advance and open something."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Who Gets There First",
+      "text": "A race, then, and neither runner can turn around. Pawns that have advanced do not come back, so help sent to the far end arrives late or not at all.\n\nWhite pushes the c-pawn to c5, hits d6 and opens the c-file at Black's queenside. Black rolls the kingside pawns at the white king, and every pawn traded there strips another layer off its shelter. Count moves rather than material here: a rook can be a fair price for arriving one turn earlier.\n\n> A locked center is not a quiet game. It is two attacks with a wall between them."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "prompt": "Attack the pawn on e4 with a pawn of your own and open the way toward White's king.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "Your pawn on g6 already guards two squares, and one of them stares straight at e4."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "en-passant",
+  "title": "Presi al Volo",
+  "summary": "Un pedone sfreccia accanto al vostro e per esattamente un turno non la passa liscia",
+  "proof": "en-passant-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "La Casa Che Si Rifiuta di Attraversare",
+      "text": "Il pedone nero in d7 vuole avanzare, e la casa proprio davanti a lui è vietata: il vostro pedone in e5 copre d6, quindi un passo in d6 è un pedone regalato.\n\nIl Nero ha un'altra possibilità. Dalla sua traversa di partenza il pedone può percorrere due case in una volta: {{d5}}. Supera d6 senza mai fermarcisi e atterra spalla a spalla con il vostro pedone — fuori portata, perché un pedone colpisce in avanti e in diagonale, mai di lato.\n\nQuesta è la scappatoia. La presa en passant la chiude."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Al Volo",
+      "text": "La risposta deve arrivare subito, al turno immediatamente successivo. Di nuovo {{d5}} — e stavolta {{exd6}}.\n\nIl vostro pedone va in diagonale in d6, la casa su cui il Nero ha evitato di fermarsi, e il pedone nero viene tolto da d5. Rileggete quelle due case: voi arrivate sull'una, il pedone preso esce dall'altra. Ogni altra presa negli scacchi vi mette sulla casa che la vittima stava usando. Questa no, ed è il motivo per cui la prima volta sembra illegale.\n\nIn francese vuol dire *al volo*, e il nome è tutta la regola."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Perché la Regola Esiste",
+      "text": "La mossa doppia iniziale non c'è da sempre. Gli scacchi sono andati avanti per secoli con i pedoni che strisciavano una casa alla volta, e il passo doppio è stato aggiunto dopo, per far cominciare prima le partite.\n\nHa funzionato, e ha portato un problema: un pedone poteva ora usare quella velocità in più per sgusciare accanto a un pedone avversario che ne sorvegliava già il cammino. La sentinella era proprio lì e non aveva voce in capitolo. È esattamente quello che {{d5}} sta cercando di fare.\n\nLa presa en passant è la correzione, niente di più. Velocizzare l'inizio, sì. Comprarsi un lasciapassare, no."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Che Cosa Dev'Essere Vero",
+      "text": "La regola è stretta e ogni sua parte conta.\n\nIl pedone avversario deve arrivare con la mossa di due case, direttamente dalla sua traversa di partenza: un pedone che ci è arrivato un passo alla volta è al sicuro per sempre. Deve atterrare proprio accanto al vostro pedone, sulla stessa traversa. E il vostro pedone deve trovarsi sulla sua quinta traversa, perché è lì che atterra chi corre di due case.\n\nE si tratta di pedone contro pedone. Nient'altro può essere preso al volo, e nient'altro può fare la presa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "title": "Un Turno, e Uno Soltanto",
+      "text": "Accanto al vostro pedone in e5 ci sono due pedoni neri, uno in d5 e uno in f5, e solo uno dei due può essere preso al volo.\n\nIl pedone d ha fatto la sua corsa di due case prima ancora che il vostro pedone arrivasse in e5, quindi da quella parte non c'è mai stata nessuna offerta. Il pedone f è atterrato in questo istante, direttamente da f7, attraversando f6, la casa che il vostro pedone di e5 sorveglia.\n\nCosì l'occasione è aperta da un lato e chiusa dall'altro. Giocate qualsiasi altra cosa e si chiude anche questa, per sempre."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "prompt": "Prendete il pedone che vi è appena sfrecciato accanto, prima che l'occasione scada.",
+      "targetSan": [
+        "exf6"
+      ],
+      "hint": "Si può prendere solo il pedone che ha mosso di due case proprio in questo turno, e voi arrivate sulla casa che ha saltato."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/5P2/3p4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "La Casa su Cui Non Vi Siete Mai Fermati",
+      "text": "Il vostro pedone in f6, e f5 vuota alle sue spalle. Il pedone che avete preso stava lì un momento fa.\n\nIl Nero riprende con {{gxf6}}: una presa ordinaria, di quelle che avete fatto da sempre, che atterra esattamente dove stava ciò che ha preso. Mettete le due mosse una accanto all'altra e la stranezza della vostra salta all'occhio.\n\n> Una sola presa negli scacchi toglie un pezzo da una casa che chi prende non tocca mai. È questa."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/8/8/2pPP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Ora giocate con il Nero: prendete il pedone bianco che è appena saltato accanto al vostro, finché il diritto esiste.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Contate dalla parte del Nero: il vostro pedone è sulla sua quinta traversa e arrivate sulla casa che il corridore ha attraversato."
+    }
+  ]
+}

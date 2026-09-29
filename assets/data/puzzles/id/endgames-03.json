@@ -1,0 +1,11 @@
+{
+  "id": "endgames-03",
+  "fen": "3k4/8/8/1KP1r3/8/7R/8/8 b - - 0 1",
+  "solution": [
+    "Re6"
+  ],
+  "title": "Tertinggal Satu Pion dan Bertahan",
+  "setup": "Raja Putih di b5 menginginkan baris keenam, dan dari sana ia mengusir raja Anda dari jalan pion. Giliran Hitam, dan ini remis.",
+  "hint": "Raja Putih butuh a6, b6 atau c6. Benteng yang berdiri di sebuah baris menguasai setiap petaknya.",
+  "explanation": "## Ide\n\nBaris dihitung dari sisi Putih di sini. Raja Putih butuh a6, b6 atau c6 untuk naik ke samping pionnya, dan satu langkah benteng merebut ketiganya: {{Re6}}. Benteng di sebuah baris adalah pagar, dan raja tak boleh melangkah ke petak yang dikuasainya.\n\nSetiap langkah lain membiarkan raja naik ke baris keenam, di depan pionnya sendiri, tempat tak ada sekak dari belakang yang bisa menjangkaunya, dan pion berjalan masuk."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "decoy-01",
+  "fen": "1R3rk1/5ppp/7q/8/8/8/5PPP/3Q2K1 w - - 1 2",
+  "solution": [
+    "Rxf8+",
+    "Kxf8",
+    "Qd8#"
+  ],
+  "rating": 1150,
+  "title": "Trascinate il Re in f8",
+  "setup": "La vostra torre siede già sulla traversa di fondo, e il re nero non ha proprio aria dietro i suoi pedoni.",
+  "hint": "Il re è al sicuro in g8 e perduto in f8. Che cosa potete regalare per fargli fare quel passo?",
+  "explanation": "## L'idea\n\n{{Rxf8+}} ha una sola risposta legale: {{Kxf8}}. Adesso il re sta sull'ottava traversa aperta con i propri pedoni a murarlo, e {{Qd8#}} conclude. Prima l'esca, poi il matto. Un re al sicuro su una casa è spesso perduto su quella immediatamente accanto."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-17",
+  "fen": "4k3/pp6/8/8/7q/8/PP6/4K2R w - - 0 1",
+  "solution": [
+    "Rxh4"
+  ],
+  "title": "Veziri Cezalandırın",
+  "setup": "Siyahın veziri az önce şah çekerek daldı; dosdoğru kalenizin görüş hattına.",
+  "hint": "Evet, şah yana çekilebilir. Ama ona dokunmadan önce h dikeyine bakın.",
+  "explanation": "## Fikir\n\nh4'teki vezir, e1'e giden çapraz boyunca şahınıza şah çekiyor ve yana çekilmek doğal geliyor. Ama vezir açık h dikeyine inmiş durumda; h1'deki kaleniz orada bekliyor.\n\n{{Rxh4}} şah çekeni doğrudan alır: şah biter ve dokuz puan kazanılır. {{Kd2}} gibi bir şah hamlesi bunun tersini yapar, çünkü {{Qxh1}} bu kez sizin kalenizi alır.\n\nŞah çeken taşın bir yerde durması gerekir; öyleyse o karede neye saldırdığınızı sorun."
+}

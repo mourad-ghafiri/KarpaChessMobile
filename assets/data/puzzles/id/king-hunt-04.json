@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-04",
+  "fen": "5B2/5k2/7r/8/2R3p1/R5K1/b7/6Q1 w - - 0 1",
+  "solution": [
+    "Qa7+",
+    "Ke6",
+    "Ra6+",
+    "Kd5",
+    "Qd4#"
+  ],
+  "rating": 1455,
+  "title": "Dua Benteng di Dua Baris",
+  "setup": "Raja Hitam di f7 dengan benteng di h6 dan gajah di a2, dan benteng-benteng Anda menguasai baris ketiga dan keempat.",
+  "hint": "Satu-satunya petak aman raja ada di depannya. Hitung di mana ia berakhir setelah dua sekak, dan tempatkan buah di sana lebih dulu.",
+  "explanation": "## Ide\n\n{{Qa7+}} menggiringnya ke e6, {{Ra6+}} ke d5, dan {{Qd4#}} sudah menunggu. Benteng-benteng tak pernah menangkap apa pun — keduanya ada untuk merampas baris, dan menteri yang memetik hasilnya."
+}

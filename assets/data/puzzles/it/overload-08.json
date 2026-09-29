@@ -1,0 +1,14 @@
+{
+  "id": "overload-08",
+  "fen": "2r3k1/3b1ppp/3Q4/8/3R4/2R5/PP6/K7 w - - 0 1",
+  "solution": [
+    "Rxc8+",
+    "Bxc8",
+    "Qd8#"
+  ],
+  "rating": 1520,
+  "title": "Cambiate Dentro il Matto",
+  "setup": "L'alfiere nero in d7 puntella la torre in c8 mentre la vostra donna aspetta in d6.",
+  "hint": "Due difensori possono sembrare il doppio della difesa. Controllate se difendano la stessa casa o se si coprano a vicenda.",
+  "explanation": "## L'idea\n\n{{Rxc8+}} è un semplice cambio, ma {{Bxc8}} trascina l'alfiere via da d7 e apre la colonna d, quindi segue {{Qd8#}}. Parare invece con {{Be8}} va addosso a {{Rxe8#}}. L'alfiere difendeva la torre e chiudeva la colonna d insieme, e non può fare tutte e due le cose."
+}

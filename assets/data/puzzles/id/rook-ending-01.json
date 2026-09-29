@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-01",
+  "fen": "2R5/8/1k1P4/8/5K2/8/8/7r w - - 0 1",
+  "solution": [
+    "d7"
+  ],
+  "rating": 1200,
+  "title": "Raja Tak Bisa Menyeberang",
+  "setup": "Benteng Putih di c8 menjauhkan raja hitam dari lajur c dan mengawasi petak yang dituju pion d.",
+  "hint": "Tak ada milik Hitam yang bisa mencapai petak promosi tepat waktu. Jadi apa yang sebenarnya menghentikan pion?",
+  "explanation": "## Ide\n\nBenteng di c8 mengerjakan dua tugas sekaligus: ia memotong raja di sepanjang lajur c dan menjaga d8. Jadi pion tinggal berlari. {{d7}} {{Rh4+}} {{Kg5}} {{Rd4}} {{d8=Q+}} {{Rxd8}} {{Rxd8}} dan Putih unggul satu benteng utuh."
+}

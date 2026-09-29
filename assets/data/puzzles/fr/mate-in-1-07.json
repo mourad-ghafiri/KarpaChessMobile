@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-07",
+  "fen": "5k2/5p1K/3p4/5N2/8/8/Q7/8 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Le filet dame et cavalier",
+  "setup": "Le roi noir en f8 est gêné par son propre pion, votre roi en h7 se tient tout près, et votre cavalier en f5 surveille.",
+  "hint": "Votre roi couvre g7 et g8, et le cavalier couvre e7. La dame n'a besoin que d'un échec dont le roi ne peut pas s'écarter.",
+  "explanation": "## L'idée\n\n{{Qa8#}} donne échec le long de la dernière rangée. e8 est sur la ligne de la dame, le cavalier en f5 couvre e7, votre roi en h7 couvre g7 et g8, et f7 est occupée par le propre pion noir. Rien ne peut s'interposer sur la huitième rangée.\n\nRetirez le cavalier et le roi s'échappe en e7. Dans un filet de mat, chaque pièce couvre une case que les autres ne peuvent pas couvrir."
+}

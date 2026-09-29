@@ -1,0 +1,14 @@
+{
+  "id": "defence-01",
+  "fen": "7r/7k/q7/7K/6Qb/1R6/8/8 w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Be7",
+    "Rxe7#"
+  ],
+  "rating": 1450,
+  "title": "Ninguna jugada de sobra",
+  "setup": "Tu rey está varado en h5 con la dama, la torre y el alfil negros a tiro: una jugada negra más y se acabó.",
+  "hint": "Defender pierde. Cuenta en cambio tus propios jaques y encuentra el que las Negras no pueden responder dos veces.",
+  "explanation": "## La idea\n\nLas Negras amenazan mate en h6, así que no hay tiempo para defender. {{Rb7+}} da jaque primero y deja dos respuestas. {{Be7}} tapa, y {{Rxe7#}} se come a la pieza que tapa. {{Qxb7}} se come en cambio la torre, y {{Qg6#}} da mate.\n\nCuando los dos reyes están en peligro, el bando que da jaque marca el orden de las jugadas."
+}

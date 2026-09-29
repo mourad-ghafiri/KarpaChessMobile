@@ -1,0 +1,13 @@
+{
+  "id": "openings-06",
+  "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2P1P3/2N2N2/PP1P1PPP/R1BQKB1R w KQk - 1 5",
+  "solution": [
+    "Nxe5",
+    "Nxe5",
+    "d4"
+  ],
+  "title": "Desimpede a Estrada até d4",
+  "setup": "Uma siciliana invertida: as pretas acabaram de pôr o bispo em c5, à altura do seu peão de e5. Come esse peão, confiando num garfo de peão para recuperares a peça.",
+  "hint": "Duas unidades pretas estão nas duas casas que um só avanço de peão atingiria ao mesmo tempo — mas primeiro há alguma coisa no caminho.",
+  "explanation": "## A Ideia\n\nO bispo preto em c5 e o peão em e5 estão nas duas casas que um peão em d4 atingiria ao mesmo tempo, mas o peão de e5 guarda d4, portanto uma peça tem de a desimpedir primeiro.\n\n{{Nxe5}} faz isso. Depois de {{Nxe5}}, {{d4}} garfa o cavalo e o bispo, e as brancas recuperam a peça. O material acaba grosso modo igual, mas as brancas ficam com o centro e uma pequena vantagem.\n\nUma abertura de flanco continua a ganhar as suas lutas no meio. Só lá chega pelo caminho mais longo."
+}

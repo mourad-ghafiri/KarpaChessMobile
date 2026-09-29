@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-07",
+  "fen": "r5k1/5ppp/8/8/8/8/8/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "Piyon Duvarı Yok, Sadece Mat",
+  "setup": "Kaleler a dikeyinde karşı karşıya. Siyahın g8'deki şahı hiç oynamamış üç piyonun arkasında oturuyor; sizin g1'deki şahınızın hiç piyonu yok.",
+  "hint": "a dikeyinde önce alan şah çeker. Sonrasında her iki şahın nereye adım atabileceğini sorun.",
+  "explanation": "## Fikir\n\n{{Rxa8#}} sekizinci yatayı koruyabilecek tek siyah taşı alır ve o yatay boyunca şah çeker. g8'deki şah kendi f7, g7 ve h7 piyonlarıyla kutuya alınmıştır ve kale f8 ile h8'i kapsar. Araya hiçbir şey giremez ve hiçbir şey geri alamaz.\n\nKendi şahınızın önünde piyon yok ve güvende olmasının sebebi de bu: f2, g2 ve h2 açık. Arka yatay yalnızca piyonlar kapıyı kapattığında ölümcüldür."
+}

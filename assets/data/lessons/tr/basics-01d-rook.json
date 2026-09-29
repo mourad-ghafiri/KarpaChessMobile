@@ -1,0 +1,72 @@
+{
+  "id": "rook-moves",
+  "title": "Uzun Yol",
+  "summary": "Her yerden on dört kare ve bir yolun bitmesinin iki yolu",
+  "proof": "first-steps-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Çizgiler Boyunca",
+      "text": "Tahta çizgilerden oluşan bir ızgara gibi çizilir. Kale, bu çizgiler boyunca — ve yalnızca onlar boyunca — giden taştır: yataylar ve dikeyler, başka bir şey yok.\n\nÇapraz yok. Üstünden atlama yok. Ama mesafe bedavadır — bir kare kayan kale ile bütün tahtayı kat eden kale aynı işi yapmıştır.\n\nd4'ten yol dört yana gider. d dikeyinde yukarı {{Rd8}}, aşağı {{Rd1}} ve dördüncü yatay boyunca {{Ra4}} ya da {{Rh4}}."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Nerede Durursa Dursun, On Dört",
+      "text": "Bu kalenin d4'ten neleri kapladığını sayın. d dikeyinde yukarı ve aşağı yedi kare, dördüncü yatayda yedi kare. On dört.\n\nŞimdi boş bir tahtanın köşesine tek başına bir kale koyun ve yeniden sayın. On dört. Toplam hiç değişmez; değişen tek şey bu sayının iki hat arasında nasıl bölündüğüdür.\n\nAt aynı köşede sekiz sıçrayışının altısını kaybediyordu. Fil kenarda çapraz karelerinin neredeyse yarısından oluyor. Kale kenarın orada olduğunu fark etmiyor."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "prompt": "Kaleyi kendi dikeyindeki ya da yatayındaki herhangi bir kareye götürün.",
+      "targetSan": [
+        "Rd5",
+        "Rd6",
+        "Rd7",
+        "Rd8",
+        "Rd3",
+        "Rd2",
+        "Rd1",
+        "Rc4",
+        "Rb4",
+        "Ra4",
+        "Re4",
+        "Rf4",
+        "Rg4",
+        "Rh4"
+      ],
+      "hint": "Buradan on dört kare kurallıdır ve yanlışı yoktur — bir yön seçin ve canınızın istediği yerde durun."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "Yolun Bittiği Yer",
+      "text": "Aynı kaleyi a1'e koyun, on dört altıya düşsün.\n\na dikeyinde yukarı en fazla {{Ra3}} karesine kadar gider, çünkü a4'teki siyah piyon yolu tutmuştur. Birinci yatayda en fazla {{Rd1}} karesine kadar gider, çünkü o yolda da e1'deki kendi şahınız durur.\n\nBu iki duruş aynı duruş değil. Şah kalıcıdır — kendi taşınızın içinden kale geçirmezsiniz. Piyon geçicidir. a dikeyini tam olarak hayatta kaldığı sürece tutar."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "Açık Dikey",
+      "text": "Üzerinde hiç piyon olmayan dikeye **açık dikey** denir ve bir kale, bir tanesine yerleşmek için partiler harcar.\n\nSebebi yeterince açık. Açık dikeyde kale sütunu baştan sona görür ve oraya adım atan her şey kalenin hattına adım atmış olur. Piyonlarla tıkalı bir dikeyde ise aynı kale bir piyon görür.\n\na dikeyi açık olmaya bir piyon uzaklıkta ve o piyon alınabilir.\n\n> Kale üstünde hiçbir şey olmayan bir yol ister. Ya bir tane bulun ya da bir tane açın."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "prompt": "Yolda duran tek şeyi alarak a dikeyini açın.",
+      "targetSan": [
+        "Rxa4"
+      ],
+      "hint": "Siyahın o kareyi koruyacak bir şeyi kalmadı ve oraya giden yol boş."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/ppp1pppp/8/8/8/8/PPP1PPPP/R5K1 w - - 0 1",
+      "prompt": "Üzerinde piyon olmayan tek dikeyi bulun ve kalenizi oraya koyun.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Gözünüzü sekiz sütunda da yukarı doğru gezdirin — yedisinde yolda bir piyon var."
+    }
+  ]
+}

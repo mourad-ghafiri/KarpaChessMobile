@@ -1,0 +1,56 @@
+{
+  "id": "thinking-process",
+  "title": "Antes de mover",
+  "summary": "Tres preguntas, en orden, que atrapan la jugada de la que te ibas a arrepentir",
+  "proof": "thinking-process-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "Tres preguntas",
+      "text": "La mayoría de las partidas no se pierden ante un rival ingenioso. Se pierden por una jugada hecha antes de que nadie mirara.\n\nTres preguntas lo evitan, y siempre son las mismas tres:\n\n1. ¿Qué **amenaza** mi rival? ¿Qué jugada quiere hacer a continuación?\n2. ¿Cuáles son mis jaques y mis capturas?\n3. ¿Qué pasa después de mi jugada?\n\nDiez segundos, en ese orden, en cada jugada. Las dos primeras preguntas encuentran jugadas. La tercera descarta las malas."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "Lo que acaba de cambiar",
+      "text": "El caballo negro de f6 no ataca nada. Aun así, la primera pregunta tiene respuesta.\n\nEse caballo cubre e4 y d5, las dos casillas centrales que las Blancas más quieren para sus peones. Juega {{e4}} sin preguntar y {{Nxe4}} lo captura: nada blanco defiende esa casilla, y nada recaptura.\n\nAsí que la primera pregunta no es solo «¿qué está atacado?». Es: ¿qué puede hacer esa jugada ahora que no podía hacer hace un momento? A veces la respuesta es una amenaza. A veces es una casilla que has perdido sin darte cuenta."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "El peón gratis",
+      "text": "Una partida nueva, de tres jugadas. El caballo negro de d4 ha saltado a la mitad blanca del tablero y ha dejado el peón de e5 sin ninguna protección.\n\nLa segunda pregunta es qué puedes capturar. El tablero responde en un segundo: {{Nxe5}}, un peón gratis.\n\nParece la jugada correcta. La segunda pregunta no puede decirte si lo es, porque nunca pregunta qué juegan después las Negras."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4N3/2BnP3/8/PPPP1PPP/RNBQK2R b KQkq - 0 4",
+      "prompt": "Juega la respuesta de las Negras: encuentra la jugada de dama que ataca a la vez al caballo glotón y a un peón indefenso.",
+      "targetSan": [
+        "Qg5"
+      ],
+      "hint": "El caballo que acaba de capturar no está defendido por nada, y el peón de g2 tampoco: una casilla ve a los dos."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "La tercera pregunta",
+      "text": "Vuelve al tablero que miraban las Blancas. Esa jugada de dama podía encontrarse desde aquí, una jugada antes, por el jugador que estaba a punto de capturar.\n\nTras {{Nxe5}} {{Qg5}}, el caballo y el peón de g2 están atacados a la vez, e incluso la mejor respuesta blanca deja a las Negras con mejor partida. El peón gratis era un cebo.\n\nEsa es la tercera pregunta. No «¿es segura mi jugada?», sino: ¿sé ya lo que hará mi rival en la jugada siguiente?\n\n> Nadie pierde por la jugada que miró. Pierde por la respuesta que no vio."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Jugadas candidatas",
+      "text": "Así que la captura cuesta más de lo que gana, y solo la tercera pregunta podía verlo. El remedio empieza antes de elegir.\n\nLas jugadas que te da la segunda pregunta son tus **jugadas candidatas**: una lista, no una respuesta. Aquí las Blancas tienen tres capturas, más jugadas tranquilas como {{c3}}, que ataca al caballo de d4 y recibe como respuesta un cambio en f3.\n\nElige dos o tres. Hazle la tercera pregunta a cada una. Juega aquella cuya respuesta realmente ves."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Captura el caballo que saltó a tu mitad del tablero y deja una posición sin nada que calcular.",
+      "targetSan": [
+        "Nxd4"
+      ],
+      "hint": "Una captura cae en la jugada de dama que acabas de encontrar, otra lanza un alfil contra un peón defendido, y la tercera es un cambio igualado."
+    }
+  ]
+}

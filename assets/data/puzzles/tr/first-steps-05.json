@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-05",
+  "fen": "1k6/8/8/7r/8/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxh5"
+  ],
+  "title": "Vezirin Menzili",
+  "setup": "Siyahın bir kalesi h dikeyinde uzakta, tehlikeden uzak olduğuna inanarak oyalanıyor. Veziriniz daha iyisini biliyor.",
+  "hint": "Vezir fil gibi de oynar. d1'den h dikeyine doğru giden çaprazı izleyin.",
+  "explanation": "## Fikir\n\nVezirin d1'den çıkan çaprazı e2, f3, g4 boyunca gider ve h5'e iner; orada siyahın kalesi, koruyan hiçbir şey olmadan oturuyor.\n\n{{Qxh5}} tahtanın yarısını tek hamlede geçer ve kaleyi alır. Çaprazdan geldi ve kale yalnızca düz hatları gözler.\n\nVezir, tek bedende bir kale ve bir fildir. Onunla avlanırken iki tür hatta da bakın."
+}

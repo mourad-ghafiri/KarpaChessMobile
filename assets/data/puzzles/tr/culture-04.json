@@ -1,0 +1,13 @@
+{
+  "id": "culture-04",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/P1N2N1P/1P2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "hxg4",
+    "Nxe2+"
+  ],
+  "title": "Geri Çekilmeyin",
+  "setup": "Beyaz az önce h piyonuyla atınızı kovaladı ve dört yüz puan önde olarak onu geri oynatmanızı bekliyor.",
+  "hint": "g4'teki atınız saldırı altında; onu savunmayı bırakın ve öteki atınızın bunun yerine neye vurabileceğini sorun.",
+  "explanation": "## Fikir\n\n{{Nd4}} saldırı altındaki atı görmezden gelir ve e2'deki vezire vurur; o vezir hem c4'teki fili hem f3'teki atı tutan tek taştır.\n\nBeyazın en iyisi {{hxg4}}'tür ve {{Nxe2+}} veziri alır. Bir vezire karşılık iki at, sizi tertemiz bir taş önde bırakır.\n\nDoğal görünen taş alma çok daha kötüdür. {{Nxd4}} geldikten sonra h2'yi koruyan at ayrılmıştır ve {{Qh2#}} işi bitirir; g4'teki at veziri korurken.\n\nBir taş saldırı altındayken bir kare aramadan önce daha büyük bir saldırı arayın."
+}

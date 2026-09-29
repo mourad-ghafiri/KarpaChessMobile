@@ -1,0 +1,14 @@
+{
+  "id": "overload-08",
+  "fen": "2r3k1/3b1ppp/3Q4/8/3R4/2R5/PP6/K7 w - - 0 1",
+  "solution": [
+    "Rxc8+",
+    "Bxc8",
+    "Qd8#"
+  ],
+  "rating": 1520,
+  "title": "Trade Into the Mate",
+  "setup": "Black's bishop on d7 is propping up the rook on c8 while your queen waits on d6.",
+  "hint": "Two defenders can look like twice the defense. Check whether they are guarding the same square or covering for one another.",
+  "explanation": "## The Idea\n\n{{Rxc8+}} is a straight trade, but {{Bxc8}} drags the bishop off d7 and opens the d-file, so {{Qd8#}} follows. Blocking with {{Be8}} instead runs into {{Rxe8#}}. The bishop was guarding the rook and shutting the d-file at once, and it cannot do both."
+}

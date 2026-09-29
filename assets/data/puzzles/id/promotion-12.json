@@ -1,0 +1,12 @@
+{
+  "id": "promotion-12",
+  "fen": "8/2P5/8/8/3r4/8/2K5/k7 w - - 0 1",
+  "solution": [
+    "c8=R"
+  ],
+  "rating": 1400,
+  "title": "Benteng Saavedra",
+  "setup": "Pion Anda menjadi menteri di c8 dengan raja hitam terpojok di a1 dan bentengnya mengawasi dari d4.",
+  "hint": "Raja hitam tinggal punya sudut terakhirnya. Tanyakan apa yang akan dilakukan menteri yang baru terhadap kenyataan itu.",
+  "explanation": "## Ide\n\n{{c8=Q}} dijawab dengan {{Rc4+}}, dan Qxc4 adalah pat, karena raja di a1 tak punya tempat untuk pergi. {{c8=R}} justru mengancam mat Rc1, dan sesudah Ra4 Putih memainkan Kb3 dan memenangkan benteng. Inilah posisi Saavedra, diterbitkan pada tahun 1895."
+}

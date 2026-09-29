@@ -1,0 +1,62 @@
+{
+  "id": "najdorf-sicilian",
+  "title": "The Najdorf",
+  "summary": "One rook pawn, and the race it starts",
+  "proof": "openings-14.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "A Pawn Move With a Library Behind It",
+      "text": "Black's fifth move here goes to a rook pawn that attacks nothing, defends nothing and brings out nothing. It is also one of the most analyzed moves in chess, with a shelf of theory behind it and no sign of the shelf getting shorter.\n\nMiguel Najdorf played it as a life's work and the variation carries the name. Fischer and Kasparov then made it the sharpest answer to 1.e4 in the world.\n\nSo the question is what a pawn on the rim can possibly be worth."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "The Push Black Actually Wants",
+      "text": "What Black wants is the e-pawn two squares forward, throwing the knight out of the middle and taking a real share of it.\n\nTry that right now and watch what answers: {{e5}} {{Bb5+}}. The check comes first and everything else waits. Black has six legal replies to it — a knight to d7 or c6, the bishop or queen dropped onto d7, or a king that moves and never castles.\n\nThe push is right. The move order is not."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Three Pieces, One Square",
+      "text": "Count what reaches b5 from here. The knight on d4 jumps to it. The knight on c3 jumps to it. The bishop on f1 has an empty road — e2, d3, c4 — that arrives on b5 with check.\n\nThree pieces, one square, and that square is the whole reason the center push has to wait a move.\n\nOne quiet pawn step covers b5 and answers all three at once. Nothing is developed by it and no threat is made. A door is closed before anyone walks through it."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "prompt": "Take b5 away from both white knights and the bishop, before you go anywhere near the center.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "Only one black pawn can guard b5, and it gets there in a single step without leaving the edge file."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+      "title": "What the Pawn Bought",
+      "text": "Now the same push arrives with nothing attached to it: {{Be3}} {{e5}} {{Nb3}} {{Be6}}.\n\nThe knight goes backward to b3 rather than forward to b5, and Black owns a center pawn on e5 with a bishop out behind it.\n\nThe bill is real. Pushing the e-pawn leaves a hole on d5 that no black pawn can ever guard again, and White will spend the next several moves trying to park a piece on it. Black pays it anyway. One square against a share of the middle is a trade worth making."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Opposite Wings",
+      "text": "By move ten both kings have run, White's to c1 and Black's to g8. That one fact changes what a pawn is for.\n\nPawns are shelter only where your own king is standing. On the far wing they are soldiers, and nobody needs them at home. So White sends the g-pawn and the h-pawn at g8, Black sends the a-pawn and the b-pawn at c1, and neither side stops to defend.\n\nA defensive move here is a move handed to the opponent."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Counting the Race",
+      "text": "Material is the wrong unit now. Count moves to the enemy king instead: how many pushes until a line opens onto it, and who arrives first.\n\nWhite's g-pawn has two steps to make before the knight on f6 is kicked and the g-file starts to crack. Black's b-pawn has two steps to reach b4, where the knight on c3 — the piece standing in front of White's king — has to answer.\n\nSame count, and Black is on move.\n\n> On opposite wings you are not counting pawns, you are counting moves."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "prompt": "Start the queenside race with the pawn whose next two steps evict the knight guarding White's king.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Exactly one of your pawns can stand on b4 in two moves, and nothing on the board is stopping it."
+    }
+  ]
+}

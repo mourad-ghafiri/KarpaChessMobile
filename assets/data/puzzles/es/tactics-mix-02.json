@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-02",
+  "fen": "6k1/ppp2p1p/6p1/8/8/2N1P3/PPP2PPb/5K2 w - - 0 1",
+  "solution": [
+    "g3"
+  ],
+  "title": "Cierra la puerta de h2",
+  "setup": "El alfil negro acaba de comerse tu peón de h. Encuentra la jugada que se asegura de que nunca vuelva a salir.",
+  "hint": "Cuenta los caminos de vuelta del alfil. Una sola jugada de peón puede cerrar los dos, siempre que ese peón esté defendido.",
+  "explanation": "## La idea\n\n{{g3}} empareda al alfil. Desde h2 tiene dos salidas, y las dos han desaparecido: tu rey de f1 cubre g1, y el peón de g3 está defendido por el peón de f2.\n\nLuego viene Kg2, y el alfil está perdido. Lo máximo que pueden sacar las Negras por él es un peón, comiendo en g3."
+}

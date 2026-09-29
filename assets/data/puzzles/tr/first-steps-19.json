@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-19",
+  "fen": "8/7P/6k1/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "h8=Q"
+  ],
+  "title": "Uzun Yürüyüş",
+  "setup": "h piyonunuz ta yedinci yataya kadar yürüdü ve siyahın g6'daki şahı onu yemeye bir adım uzaklıkta.",
+  "hint": "Beklemek piyonu kaybettirir. Yolculuğu şimdi tamamlayın ve dönüşebileceği en güçlü taşı seçin.",
+  "explanation": "## Fikir\n\ng6'daki siyah şah h7'ye değiyor, yani her sakin hamle onun piyonu almasına izin verir ve tek şaha karşı tek şah beraberliktir. {{h8=Q}} buna son verir: piyon, saldırı altına alındığı hamlede h7'den ayrılır ve h8 şahın menzilinin dışındadır.\n\nKale de kazanırdı, yalnızca yavaş. Vezir dokuz puandır ve çıplak şaha karşı şah ile vezir her zaman kazanır."
+}

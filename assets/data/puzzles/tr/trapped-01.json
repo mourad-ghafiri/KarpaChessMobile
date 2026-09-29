@@ -1,0 +1,12 @@
+{
+  "id": "trapped-01",
+  "fen": "5rk1/ppp2pp1/7p/8/8/5N1P/bPP2PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b3"
+  ],
+  "rating": 1000,
+  "title": "Açgözlü Fil",
+  "setup": "Siyahın fili az önce a2 piyonunu yedi ve şimdi sizin kampınızın köşesinde, a2'de duruyor.",
+  "hint": "O filin hâlâ kaç karesi olduğunu sayın. Uzun çaprazı elinden alın ve geriye ne kaldığına bakın.",
+  "explanation": "## Fikir\n\n{{b3}} g8'e giden çaprazı kapatır ve file yalnızca b1'i bırakır; kaleniz de e1'den orayı kapsar. Sıradaki hamlede Ra1 onu kazanır. b3'teki piyon güvendedir, çünkü c2 onu korur. Bir kanat piyonunu atıştıran fil çoğu zaman eve dönemez."
+}

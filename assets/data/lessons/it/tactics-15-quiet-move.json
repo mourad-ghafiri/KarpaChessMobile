@@ -1,0 +1,56 @@
+{
+  "id": "quiet-move",
+  "title": "La Mossa Tranquilla",
+  "summary": "Nessuno scacco, nessuna presa, nessuna minaccia, e niente che il Nero possa farci",
+  "proof": "quiet-move-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "Lo Scacco che Libera il Re",
+      "text": "Il re nero è bloccato nell'angolo in h8, e il Bianco ha uno scacco pronto sull'ottava traversa.\n\n{{Ra8+}}, e il Nero risponde {{Kh7}}. È l'unica mossa legale, ed è l'unica casa che il vostro re in f6 non copre. Adesso l'angolo è vuoto, la torre deve ricominciare, e il Nero non ha perso assolutamente niente.\n\nUno scacco è una domanda, e all'avversario tocca rispondere. Questo ha consegnato la via di fuga gratis."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "Contate l'Angolo",
+      "text": "E allora lasciate stare lo scacco e contate.\n\nDa h8 il re nero ha due case: g8 e h7. La torre copre l'ottava traversa nel momento in cui ci arriva, quindi g8 si risolve da sola. h7 è la falla, e nessuna torre al mondo arriva a h7 dall'ottava traversa.\n\nIl vostro re in f6 copre già g7, ed è per questo che l'angolo ha solo due uscite. h7 non la copre.\n\nChiudete h7 mentre il Nero non ha niente da rispondere, e lo scacco che falliva chiude invece la partita."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "prompt": "Usate il vostro re per togliere h7 al re nero, così che lo scacco di torre sull'ottava traversa sia matto.",
+      "targetSan": [
+        "Kg6"
+      ],
+      "hint": "Dare prima scacco spinge solo il re in h7: togliete quella casa prima di dare scacco."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/8/8/R7 b - - 2 2",
+      "title": "Una Mossa Legale",
+      "text": "Il vostro re in g6 toglie g7 e h7 insieme, e non si è mai avvicinato al re nero. Contate le risposte del Nero: {{Kg8}}. La lista è tutta qui.\n\nAdesso {{Ra8#}} arriva su una traversa che il re non può lasciare, e le tre case sotto di lui — f7, g7 e h7 — appartengono tutte al vostro re.\n\nNon è stato forzato niente. Prima sono state tolte le risposte, e la domanda è venuta dopo."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "Il Pedone che Non Può Muovere",
+      "text": "Scacchiera nuova, e il riparo del Nero è intatto: pedoni in f7, g7 e h7, torri in a8 e f8, un alfiere in b7. Il Nero è già perduto.\n\nLeggete la colonna g. La vostra torre in g1 punta dritto verso il re in g8, e l'unica cosa fra loro è il pedone in g7.\n\nQuel pedone sembra la guardia di f6 e h6. È inchiodato: prendere su una delle due case lo toglierebbe dalla colonna g e lascerebbe il suo re sotto scacco della torre, quindi non può prendere affatto — e le case che sembra sorvegliare non le sorveglia nessuno."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "Più Rumoroso È Più Lento",
+      "text": "Le mosse rumorose ci sono. {{Rxg7+}} scaglia la torre contro il pedone, e {{Bxg7}} se lo prende con l'alfiere, che il re non può riprendere, visto che la vostra torre in g1 difende g7. Vincono tutte e due, e tutte e due danno al Nero delle mosse con cui rispondere.\n\nC'è di meglio. Fate atterrare un pezzo dove il Nero non ha risposta, minacciate matto per la mossa successiva, e nessuna delle sue trenta e passa mosse legali tocca il problema."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "prompt": "Portate la donna su una casa che il pedone inchiodato solo finge di difendere, con matto a seguire.",
+      "targetSan": [
+        "Qh6"
+      ],
+      "hint": "Un pedone che prendendo esporrebbe il proprio re non sta difendendo davvero niente."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "piece-values",
+  "title": "Nove, Cinco, Três, Um",
+  "summary": "O preço de cada peça, e a contagem que trava um erro grave antes de ele acontecer",
+  "proof": "first-steps-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "A Tabela de Preços",
+      "text": "Ninguém carimba um preço numa peça de xadrez. Os jogadores acabaram por os calcular à mesma, ao longo de séculos a ver que trocas corriam bem.\n\nConta-se tudo em peões. Um peão é 1. Um cavalo é 3, e um bispo também. Uma torre é 5. A dama é 9.\n\nO rei não tem número: nunca é trocado nem capturado, portanto não há nada a que pôr preço.\n\nSoma o que ainda tens e esse total é o teu **material** — a única parte de uma posição que consegues contar pelos dedos.\n\n> Os números são um guia, não uma lei. Uma posição pode passar por cima de qualquer um deles."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Um por Um",
+      "text": "Repara numa troca equilibrada a passar: {{e4}} {{d5}} {{exd5}} {{Qxd5}}.\n\nAs brancas ganham um peão. As pretas ganham o peão logo de volta. Os dois lados têm exatamente o que tinham quatro jogadas atrás, e a conta não mexeu um ponto.\n\nÉ isso que a maior parte das capturas são — uma troca de iguais, em que a posição muda e o material não. As capturas que vale a pena caçar são as outras."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Cinco Contra Três",
+      "text": "A torre em e1 vale cinco, o cavalo em f3 três. Portanto uma torre por um cavalo não é troca nenhuma — é um lucro de dois, e acontece com frequência suficiente para ter nome próprio: ganhar **a qualidade**.\n\nSomar os números torna-se menos fiável à medida que os montes crescem. Um cavalo e um bispo — as **peças menores** — somam seis, e uma torre e um peão também, mas as duas peças costumam ficar com o melhor lado desse negócio. Três peças menores somam também nove, tal como uma dama, e três delas costumam ganhar à dama."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Um Cavalo à Frente",
+      "text": "Conta o que está aqui. Dama, torre e três peões de cada lado — e as brancas têm ainda um cavalo por cima. Uma peça, e é essa a diferença inteira entre os dois lados.\n\nUma peça a mais conta mais quando há menos de tudo o resto. Por isso quem está à frente troca: cada troca de iguais deixa o teu cavalo extra com uma fatia maior do que resta, e deixa as pretas com menos peças para tentar fazer alguma coisa.\n\nHá uma troca de iguais disponível neste momento."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "prompt": "Estás um cavalo à frente: oferece às pretas a troca que tira a peça mais pesada de cada lado.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "As duas damas já partilham uma coluna sem nada pelo meio, e a torre preta está a vigiar essa casa."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/3r4/8/5N2/5PPP/4R1K1 w - - 0 1",
+      "title": "O Que a Troca Comprou",
+      "text": "Nove por nove. As damas saíram e a conta não mexeu um ponto: as brancas estão um cavalo à frente, exatamente como antes.\n\nO que mudou foi tudo à volta. As pretas têm uma torre em d5, três peões e um rei, e nenhum deles pode fazer seja o que for quanto a uma peça que simplesmente não existe. Quantas menos peças restam, mais alto fala a que está a mais.\n\nAtrás no material, faz o contrário e guarda as peças no tabuleiro. Cada peça ainda de pé é mais uma coisa que pode correr mal a quem está à frente."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "title": "Contado, ou Não",
+      "text": "Uma peça entregue por nada é um **erro grave** — não veio material nenhum em troca, e voltarias atrás se as regras deixassem.\n\nUma peça entregue de propósito, por algo que já contaste e que consegues ver a chegar, é um **sacrifício**. De fora as duas jogadas parecem iguais. A diferença inteira está em se a contagem aconteceu primeiro.\n\nÉ por isso que a contagem vem antes da captura. O teu cavalo chega aqui a duas peças pretas, e os preços não são o que parecem."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "prompt": "Uma captura é grátis e a outra custa-te o cavalo — conta as duas e faz a que rende mais.",
+      "targetSan": [
+        "Nxc6"
+      ],
+      "hint": "Uma torre são cinco e um peão é um, e o cavalo de e5 chega às duas."
+    }
+  ]
+}

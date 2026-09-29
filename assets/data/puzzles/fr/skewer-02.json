@@ -1,0 +1,14 @@
+{
+  "id": "skewer-02",
+  "fen": "8/3k3q/1B2p3/8/2Qp4/8/4bPP1/6K1 w - - 0 1",
+  "solution": [
+    "Qc7+",
+    "Ke8",
+    "Qxh7"
+  ],
+  "rating": 940,
+  "title": "Enfilade sur la septième rangée",
+  "setup": "Le roi noir en d7 et sa dame en h7 partagent la septième rangée, sans rien du tout entre eux.",
+  "hint": "Quelle case voisine du roi noir est déjà couverte par une autre pièce blanche ? Donnez échec depuis la rangée qu'ils partagent.",
+  "explanation": "## L'idée\n\nLe roi en **d7** et la dame en **h7** sont sur une même rangée. {{Qc7+}} donne échec depuis l'autre bout, et le fou en **b6** protège c7, donc le roi n'a pas le droit de prendre. Après {{Ke8}}, la rangée est dégagée et {{Qxh7}} ramasse la dame."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "smothered-08",
+  "fen": "6k1/pp4pp/8/2q5/8/7n/P1P3PP/3R1R1K b - - 7 28",
+  "solution": [
+    "Qg1+",
+    "Rxg1",
+    "Nf2#"
+  ],
+  "rating": 1375,
+  "title": "A Queen for One Square",
+  "setup": "White has just dropped a rook from d2 to the back rank, and only the rook on f1 still watches f2.",
+  "hint": "Your knight on h3 already covers g1; ask what would happen if a white rook were forced to stand there.",
+  "explanation": "## The Idea\n\n{{Qg1+}} cannot be answered by the king, because the knight on h3 defends g1. So {{Rxg1}} is forced, and the recapture fills the very square the king needed. {{Nf2#}} then lands where the rook, the king and both pawns all look straight past it."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "forks-12",
+  "fen": "r5k1/p5pp/1p6/2p5/7q/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qd5+",
+    "Kf8",
+    "Qxa8+"
+  ],
+  "title": "Uma Dama, Duas Diagonais",
+  "setup": "As duas damas estão fora, o material está igual, e a torre preta de a8 ainda não mexeu.",
+  "hint": "A tua dama pode chegar a uma casa que dá xeque por uma linha e atinge a torre por outra.",
+  "explanation": "## A Ideia\n\n{{Qd5+}} dá xeque ao rei de g8 por uma diagonal e ataca a torre de a8 pela outra. Com f7 vazia e nenhuma peça preta capaz de chegar a e6 ou f7, o xeque não se pode tapar, portanto o rei tem de se afastar. Depois de {{Kf8}}, {{Qxa8+}} come a torre com xeque.\n\nUma dama garfa pelas suas linhas: procura a casa onde duas delas encontram dois alvos."
+}

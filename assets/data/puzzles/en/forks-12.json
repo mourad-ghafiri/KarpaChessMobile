@@ -1,0 +1,13 @@
+{
+  "id": "forks-12",
+  "fen": "r5k1/p5pp/1p6/2p5/7q/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qd5+",
+    "Kf8",
+    "Qxa8+"
+  ],
+  "title": "One Queen, Two Diagonals",
+  "setup": "Both queens are out, the material is level, and Black's rook on a8 has not moved yet.",
+  "hint": "Your queen can reach a square that gives check along one line and hits the rook along another.",
+  "explanation": "## The Idea\n\n{{Qd5+}} checks the king on g8 along one diagonal and attacks the rook on a8 along the other. With f7 empty and no black piece able to reach e6 or f7, the check cannot be blocked, so the king must step aside. After {{Kf8}}, {{Qxa8+}} takes the rook with check.\n\nA queen forks along its lines: look for the square where two of them meet two targets."
+}

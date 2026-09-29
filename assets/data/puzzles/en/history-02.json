@@ -1,0 +1,13 @@
+{
+  "id": "history-02",
+  "fen": "7k/8/p4N2/1p5p/8/8/8/2R3K1 w - - 0 1",
+  "solution": [
+    "Rc7",
+    "b4",
+    "Rh7#"
+  ],
+  "title": "A Mansuba Finish",
+  "setup": "A shatranj-style problem: rook and knight against a king in the corner, and Black has nothing but pawn shuffles.",
+  "hint": "Do not check yet. The knight already owns g8 and h7, so ask which rank the rook needs before the check is worth giving.",
+  "explanation": "## The Idea\n\nThis is the **Arabian mate** from the oldest problem collections: a rook beside the king in the corner, a knight guarding the rook.\n\nThe rook cannot give it from c1. {{Rc7}} is quiet: the rook takes the seventh rank, the knight already covers g8, and the king has no square left. Black can only push a pawn, {{b4}} or any other, and {{Rh7#}} follows, the knight guarding h7.\n\nCheck first with {{Rc8+}} and the king slips out to g7. Build the net, then check."
+}

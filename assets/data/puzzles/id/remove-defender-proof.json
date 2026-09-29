@@ -1,0 +1,13 @@
+{
+  "id": "remove-defender-proof",
+  "fen": "6k1/5ppp/5n2/3n2B1/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Bxf6",
+    "gxf6",
+    "Rxd5"
+  ],
+  "title": "Ambil Penjaganya Dulu",
+  "setup": "Benteng Anda di d1 sudah menatap kuda di d5, dan kuda di f6 satu-satunya yang menjaganya.",
+  "hint": "Langsung menangkap di d5 menukar benteng dengan kuda. Hitung apa yang menjaga d5 sebelum Anda menghitung apa yang menyerangnya.",
+  "explanation": "## Ide\n\n{{Rxd5}} seketika dijawab dengan {{Nxd5}}: benteng untuk kuda. Jadi ubah hitungannya lebih dulu. {{Bxf6}} mengambil satu-satunya penjaga d5. Sesudah {{gxf6}} tak ada yang mengurus d5, dan {{Rxd5}} mengambil kuda kedua. Menangkap balik dengan kuda yang lain lebih buruk, karena benteng Anda lalu memberi sekak di d8 dan baris belakang mengerjakan sisanya. Biarkan gajah itu, dan ia telah memenangkan kuda dengan cuma-cuma."
+}

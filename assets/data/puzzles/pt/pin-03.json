@@ -1,0 +1,12 @@
+{
+  "id": "pin-03",
+  "fen": "8/1k2pp2/1b6/3r4/8/P2BP3/3R4/4K3 w - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "rating": 880,
+  "title": "Dois Atacantes, Sem Fuga",
+  "setup": "O teu bispo em d3 está à frente da tua própria torre, e a torre preta de d5 está no caminho das duas.",
+  "hint": "O teu bispo tapa a tua própria torre. Para onde pode ir de maneira que a torre preta continue sem poder mexer uma casa?",
+  "explanation": "## A Ideia\n\n{{Be4}} faz dois trabalhos ao mesmo tempo. Crava a torre de **d5** contra o rei de **b7**, e ao deixar d3 permite que a tua torre de **d2** ataque também d5. Dois atacantes, nenhum defensor, e uma torre que não pode mexer."
+}

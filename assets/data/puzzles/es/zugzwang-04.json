@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-04",
+  "fen": "8/2B5/8/8/1p5Q/k7/2K5/8 w - - 0 1",
+  "solution": [
+    "Qc4",
+    "Ka4",
+    "Qa6#"
+  ],
+  "rating": 1500,
+  "title": "Déjale una casilla al rey",
+  "setup": "El rey negro está en a3 con un solo peón en b4, y tu rey de c2 ya hace la mitad del trabajo.",
+  "hint": "Tu rey cubre más de lo que parece. Averigua a qué casilla iría el rey negro y llega tú antes.",
+  "explanation": "## La idea\n\n{{Qc4}} no es jaque, pero toma b3 y b4 mientras tu rey sostiene b2. Solo {{Ka4}} aleja al rey de tu borde —{{b3+}} se topa con {{Qxb3#}}—, y {{Qa6#}} cae. Un rey en el borde con una sola casilla ya está mate; solo que todavía no lo sabe."
+}

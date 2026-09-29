@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-24",
+  "fen": "7k/6pp/6K1/7R/8/8/B7/8 w - - 0 1",
+  "solution": [
+    "Rxh7#"
+  ],
+  "title": "Gajah di Diagonal Panjang",
+  "setup": "Pion di h7 memberi sekak kepada raja Anda di g6. Benteng Anda di h5 dan gajah Anda di a2 sama-sama siap.",
+  "hint": "Perisai terakhir raja adalah sebuah pion, dan raja Anda maupun gajah Anda yang jauh sudah mengawasi petak-petak di sekitarnya.",
+  "explanation": "## Ide\n\nAnda dalam sekak, dan jawabannya adalah mat. {{Rxh7#}} mengambil pion pemberi sekak dan memberi sekak kepada raja di h8 dari petak sebelah.\n\nRaja Anda di g6 menjaga h7, jadi raja tak bisa mengambil benteng. Gajah di a2 menguasai g8 dari seberang papan, dan g7 ditempati pion Hitam sendiri.\n\nGajah yang jauh di diagonal terbuka tetap bisa menguasai satu petak yang dibutuhkan sebuah mat."
+}

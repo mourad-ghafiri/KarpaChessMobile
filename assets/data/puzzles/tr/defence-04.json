@@ -1,0 +1,14 @@
+{
+  "id": "defence-04",
+  "fen": "K7/8/2Q5/1q2r3/8/1r1B4/R7/3k4 w - - 0 1",
+  "solution": [
+    "Qc2+",
+    "Ke1",
+    "Qc1#"
+  ],
+  "rating": 1570,
+  "title": "Veziri Şaha Verin",
+  "setup": "Siyahın b5'teki veziri ile b3 ve e5'teki kaleleri şahınızı köşeye sıkıştırmış, kendi şahı ise d1'de boşta duruyor.",
+  "hint": "Vezirinizin alınamayacağı tek bir kare var. Onu bulun ve şaha ne kaldığına bakın.",
+  "explanation": "## Fikir\n\n{{Qc2+}} şahın yanına dokunulmaz olarak adımlar — a2'deki kale onu korur — ve {{Ke1}} mecburidir. {{Qc1#}} gelir. Tahtadaki en savunmacı hamle, meğer bir vezir ikramıymış."
+}

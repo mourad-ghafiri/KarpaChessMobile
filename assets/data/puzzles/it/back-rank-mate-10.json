@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-10",
+  "fen": "4r1k1/3q1ppp/8/4R3/8/8/5PPP/4Q1K1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxe8#"
+  ],
+  "rating": 1020,
+  "title": "La Torre Guida, la Donna dà Matto",
+  "setup": "La vostra torre e la vostra donna sono impilate sulla colonna e, di fronte alla torre nera in e8 e alla sua donna in d7.",
+  "hint": "Due pezzi pesanti su una colonna possono colpire in un ordine solo. Stabilite quale dei due deve andare per primo.",
+  "explanation": "## L'idea\n\nLa torre sta davanti, quindi colpisce per prima: {{Rxe8+}} forza {{Qxe8}}, e la donna dietro chiude con {{Qxe8#}}. Invertite l'ordine e non c'è niente — la donna non arriva mai a e8 con la propria torre di mezzo."
+}

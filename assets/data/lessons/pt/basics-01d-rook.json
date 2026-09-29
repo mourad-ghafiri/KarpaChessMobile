@@ -1,0 +1,72 @@
+{
+  "id": "rook-moves",
+  "title": "A Estrada Longa",
+  "summary": "Catorze casas a partir de qualquer sítio, e as duas maneiras de uma estrada acabar",
+  "proof": "first-steps-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Ao Longo das Linhas",
+      "text": "O tabuleiro está desenhado como uma grelha. A torre é a peça que anda ao longo dos seus traços, e só ao longo deles: linhas e colunas, mais nada.\n\nSem diagonais. Sem saltar nada. A distância, essa, é grátis — uma torre que anda uma casa e uma torre que atravessa o tabuleiro inteiro fizeram o mesmo trabalho.\n\nA partir de d4 a estrada segue em quatro sentidos. Pela coluna d acima até {{Rd8}}, por ela abaixo até {{Rd1}}, e ao longo da quarta linha até {{Ra4}} ou {{Rh4}}."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Catorze, Esteja Onde Estiver",
+      "text": "Conta o que esta torre cobre a partir de d4. Sete casas para cima e para baixo na coluna d, sete ao longo da quarta linha. Catorze.\n\nAgora põe uma torre sozinha no canto de um tabuleiro vazio e conta outra vez. Catorze. O total nunca se mexe; o que muda é só como se reparte pelas duas linhas.\n\nO cavalo perdeu seis dos seus oito saltos nesse mesmo canto. O bispo cede quase metade das suas casas na borda. A torre nem dá pela borda."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "prompt": "Leva a torre a qualquer casa da sua coluna ou da sua linha.",
+      "targetSan": [
+        "Rd5",
+        "Rd6",
+        "Rd7",
+        "Rd8",
+        "Rd3",
+        "Rd2",
+        "Rd1",
+        "Rc4",
+        "Rb4",
+        "Ra4",
+        "Re4",
+        "Rf4",
+        "Rg4",
+        "Rh4"
+      ],
+      "hint": "Catorze casas são legais a partir daqui e nenhuma está errada — escolhe uma direção e para onde te apetecer."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "Onde a Estrada Acaba",
+      "text": "Põe essa torre em a1 e as catorze passam a seis.\n\nPela coluna a acima chega até {{Ra3}}, porque um peão preto em a4 está no meio da estrada. Ao longo da primeira linha chega até {{Rd1}}, porque o teu próprio rei em e1 está no meio dessa.\n\nAs duas paragens não são a mesma paragem. O rei é permanente — nunca farás passar uma torre através de uma peça tua. O peão é temporário. Segura a coluna a exatamente enquanto sobreviver."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "A Coluna Aberta",
+      "text": "Uma coluna sem peões nenhuns é uma **coluna aberta**, e uma torre passa partidas inteiras a tentar chegar a uma.\n\nA razão é simples. Numa coluna aberta a torre vê a coluna de ponta a ponta, e tudo o que lá entre entra na linha da torre. Numa coluna cheia de peões, essa mesma torre vê um peão.\n\nÀ coluna a falta-lhe um peão para estar aberta, e esse peão pode ser capturado.\n\n> Uma torre quer uma estrada com nada em cima. Encontra uma, ou abre uma."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "prompt": "Abre a coluna a: captura a única coisa que está nela.",
+      "targetSan": [
+        "Rxa4"
+      ],
+      "hint": "As pretas já não têm nada com que guardem essa casa, e a estrada até lá está vazia."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/ppp1pppp/8/8/8/8/PPP1PPPP/R5K1 w - - 0 1",
+      "prompt": "Encontra a única coluna sem peões nenhuns e põe lá a tua torre.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Percorre com os olhos as oito colunas — sete delas têm um peão no caminho."
+    }
+  ]
+}

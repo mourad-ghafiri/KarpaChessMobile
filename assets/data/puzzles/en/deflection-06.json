@@ -1,0 +1,14 @@
+{
+  "id": "deflection-06",
+  "fen": "krN5/pp5q/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Nb6+",
+    "axb6",
+    "Ra1#"
+  ],
+  "rating": 1300,
+  "title": "The a-Pawn Must Take",
+  "setup": "Black's king sits in the corner behind its own rook and pawns, and the a-file is the only way in.",
+  "hint": "The king has no legal move at all. Find the check whose only answer opens the file you want.",
+  "explanation": "## The Idea\n\n{{Nb6+}} can be answered in exactly one way, {{axb6}}. The a-pawn is dragged off the a-file, and {{Ra1#}} runs straight down the open road. Give anything to a defender that has no choice."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "why-chess-endures",
+  "title": "Mengapa Catur Bertahan",
+  "summary": "Lima belas abad, dan masih belum ada yang memecahkannya",
+  "proof": "culture-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "London, 21 Juni 1851",
+      "text": "Dua pemain duduk di sela babak sebuah turnamen untuk partai yang tak dihitung, dan menghasilkan partai catur paling terkenal yang pernah dimainkan.\n\nAdolf Anderssen memegang Putih, Lionel Kieseritzky memegang Hitam, dan tak satu pun bermain untuk hadiah, gelar, atau poin di klasemen. Justru karena itulah Anderssen bebas membelanjakan segalanya: partai yang tak dipertaruhkan apa pun tak merugikan apa-apa jika kalah.\n\nErnst Falkbeer menerbitkannya empat tahun kemudian dan menyebutnya abadi. Nama itu bertahan sejak saat itu."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "title": "Apa yang Tak Akan Diselamatkan Anderssen",
+      "text": "Menteri Hitam baru saja memakan di b2. Dari sana ia menyentuh benteng di a1, dan gajah di c5 menatap lurus ke benteng di g1. Dua benteng, dan tak satu pun akan dilindungi.\n\nMenyelamatkan salah satunya menghabiskan satu langkah, dan langkah adalah satu-satunya mata uang yang tersisa bagi serangan itu. Raja hitam di e8 belum bergerak sepanjang partai, dan ia punya satu jalan keluar dari tengah: rokade, ke balik pion-pionnya sendiri di sayap raja.\n\nTutup jalan itu dan raja tetap berada di tempat yang bisa dijangkau kuda-kuda di d5 dan f5."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w kq - 0 18",
+      "prompt": "Abaikan kedua benteng dan kuasai petak yang harus dilintasi raja hitam untuk keluar dari tengah.",
+      "targetSan": [
+        "Bd6"
+      ],
+      "hint": "Rokade akan membawa raja hitam melintasi f8, jadi tanyakan buah Anda mana yang bisa mulai mengawasi petak itu pada langkah ini."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k1nr/p2p1ppp/3B4/1pbN1N1P/4P1P1/3P1Q2/PqP5/R4KR1 b kq - 1 18",
+      "title": "Kieseritzky Memetik",
+      "text": "Hitam mengambil apa yang ditawarkan. {{Bxg1}} adalah benteng pertama, dan Anderssen tidak menangkap balik: {{e5}} menutup diagonal tempat menteri hitam di b2 berdiri, sehingga ia sama sekali tak bisa melihat sayap raja lagi.\n\n{{Qxa1+}} mengambil benteng kedua, dengan sekak.\n\nHitam unggul dua benteng dan satu gajah. Putih punya menteri, dua kuda dan satu gajah, semuanya memandang raja yang tak pernah keluar dari tengah."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Tinggal Satu Penjaga",
+      "text": "Dua langkah kemudian kuda putih kedua telah mengambil di g7 dengan sekak, dan raja hitam melangkah ke d8.\n\nHitung petak-petak raja hitam. d7 ditempati pionnya sendiri, c8 gajahnya sendiri, c7 dan e7 milik gajah di d6, dan e8 dikuasai kuda di g7. Tak ada satu pun.\n\nJadi satu-satunya yang berdiri di antara Hitam dan mat adalah kuda di g8, yang menjangkau balik ke e7 dan akan mengambil apa pun yang mendarat di sana. Satu buah. Segala milik Hitam yang lain berada di sisi papan yang jauh."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Lima Ratus Tahun, Satu Buku Aturan",
+      "text": "Putih telah menyerahkan kedua benteng dan satu gajah dan tetap hampir menang.\n\nAturan yang menghasilkan posisi ini sudah mapan lama sebelum tahun 1851. Catur lahir di India utara, menyeberangi Persia dan dunia Arab lalu tiba di Eropa, dan sekitar tahun 1475 di Valencia menteri dan gajah diberi jangkauan panjang yang masih dimilikinya kini. Tak ada yang penting berubah sejak itu. Anderssen memainkan permainan yang sama dengan yang Anda mainkan selama seratus pelajaran ini."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "title": "Belum Ada yang Memecahkannya",
+      "text": "Dam sudah tuntas. Pada tahun 2007 sebuah tim peneliti membuktikan bahwa permainan sempurna sejak awal berakhir remis, dan tak ada lagi yang bisa ditemukan dalam dam.\n\nCatur belum tuntas. Setiap posisi dengan tujuh buah atau kurang sudah dihitung secara pasti pada tahun 2012, jadi beberapa langkah terakhir setiap partai kini wilayah yang dikenal. Di atas tujuh buah, tak ada yang diketahui: perkiraan tahun 2021 menempatkan jumlah posisi sah di sekitar 4,8 × 10⁴⁴, dan tak ada mesin yang mendekati dasar angka itu.\n\n> Lima belas abad berlalu, dan papan di depan Anda masih terus bertanya."
+    },
+    {
+      "type": "play",
+      "fen": "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w - - 1 22",
+      "prompt": "Raja hitam tak punya petak lagi, jadi tarik satu-satunya penjaganya menjauh dari e7.",
+      "targetSan": [
+        "Qf6+"
+      ],
+      "hint": "Tawarannya harus yang tak bisa ditolak Hitam, jadi carilah sekak yang hanya bisa dijawab oleh kuda itu."
+    }
+  ]
+}

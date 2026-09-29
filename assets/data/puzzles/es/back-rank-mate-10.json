@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-10",
+  "fen": "4r1k1/3q1ppp/8/4R3/8/8/5PPP/4Q1K1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxe8#"
+  ],
+  "rating": 1020,
+  "title": "La torre abre, la dama remata",
+  "setup": "Tu torre y tu dama están apiladas en la columna e, frente a la torre negra de e8 y su dama de d7.",
+  "hint": "Dos piezas mayores en una columna solo pueden golpear en un orden. Averigua cuál tiene que ir primero.",
+  "explanation": "## La idea\n\nLa torre está delante, así que golpea primero: {{Rxe8+}} obliga a {{Qxe8}}, y la dama de detrás da {{Qxe8#}}. Invierte el orden y no hay nada: la dama nunca puede llegar a e8 con su propia torre en medio."
+}

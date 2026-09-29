@@ -1,0 +1,13 @@
+{
+  "id": "endgames-02",
+  "fen": "k7/8/2K5/8/8/8/8/1R6 w - - 0 1",
+  "solution": [
+    "Kc7",
+    "Ka7",
+    "Ra1#"
+  ],
+  "title": "Fate Rientrare il Muro",
+  "setup": "La torre vieta già la colonna b, quindi tutto il mondo del re solitario è a8 e a7. Due mosse del Bianco buttano via la vittoria.",
+  "hint": "La torre non può togliere da sola tutte e due le case del re nero — chi altro è abbastanza vicino, e quale casa tiene vivo il taglio?",
+  "explanation": "## L'idea\n\nIl muro è già alzato: finché la torre tiene la colonna b il re nudo non può mai attraversarla. Quello che manca è il secondo pezzo, perché la torre non può coprire anche a7 e a8.\n\n{{Kc7}} prende b8, b7 e b6. Il Nero ha una mossa legale, {{Ka7}}, e {{Ra1#}} porta il muro sulla colonna del re — scacco da un capo, nessuna casa all'altro.\n\nI due modi di buttarla via: {{Rb7}} copre tutte e due le case ed è stallo, e {{Rb8+}} consegna semplicemente la torre al re."
+}

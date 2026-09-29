@@ -1,0 +1,11 @@
+{
+  "id": "endgames-04",
+  "fen": "4K3/k3P3/8/8/8/8/2R5/7r w - - 0 1",
+  "solution": [
+    "Rc4"
+  ],
+  "title": "Posez d'abord la planche",
+  "setup": "Le pion est à une case de la promotion et votre roi se tient sur la case dont il a besoin. Construisez l'abri du roi contre les échecs avant qu'il sorte.",
+  "hint": "Déterminez où se tiendra votre roi quand les échecs commenceront, puis donnez à la tour une case que ce roi peut défendre.",
+  "explanation": "## L'idée\n\n{{Rc4}} construit le pont avant que le roi sorte. Sur la quatrième rangée, la tour attend les échecs : une fois le roi descendu à côté d'elle, la tour se décale et s'interpose sur une case que le roi défend. Depuis c4, elle continue aussi de couper le roi noir du pion.\n\nAvec le roi noir aussi loin, sortir tout de suite gagne aussi. Le pont est la méthode qui fonctionne dans toutes les positions de Lucena, et c'est pourquoi il vaut la peine d'être joué même ici."
+}

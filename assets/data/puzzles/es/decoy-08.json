@@ -1,0 +1,14 @@
+{
+  "id": "decoy-08",
+  "fen": "6rk/pp1q2pp/8/5P1Q/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1420,
+  "title": "La dama compra la columna",
+  "setup": "Tu dama de h5 mira a h7 y tu torre de d1 está a un desplazamiento de la columna h.",
+  "hint": "El rey no puede moverse ni una sola casilla. ¿Qué tiene que ocurrir antes de que tu torre importe en la columna h?",
+  "explanation": "## La idea\n\n{{Qxh7+}} es una dama entera por un peón, pero {{Kxh7}} es forzada. La columna h está desnuda, el peón de f5 cubre g6 y {{Rh1#}} llega sin que nada pueda detenerla. El material no cuenta para nada cuando el rey no tiene casilla donde ponerse."
+}

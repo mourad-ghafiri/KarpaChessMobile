@@ -1,0 +1,14 @@
+{
+  "id": "skewer-02",
+  "fen": "8/3k3q/1B2p3/8/2Qp4/8/4bPP1/6K1 w - - 0 1",
+  "solution": [
+    "Qc7+",
+    "Ke8",
+    "Qxh7"
+  ],
+  "rating": 940,
+  "title": "Enfilada en la séptima",
+  "setup": "El rey negro de d7 y su dama de h7 comparten la séptima fila sin nada en medio.",
+  "hint": "¿Qué casilla junto al rey negro cubre ya otra pieza blanca? Da jaque desde la fila que comparten.",
+  "explanation": "## La idea\n\nEl rey de **d7** y la dama de **h7** están en una misma fila. {{Qc7+}} da jaque desde el otro extremo, y el alfil de **b6** defiende c7, así que el rey no puede comer. Tras {{Ke8}} la fila queda despejada y {{Qxh7}} se lleva la dama."
+}

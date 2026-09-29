@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-05",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "exd5"
+  ],
+  "title": "Merkez Piyonunu Kazanın",
+  "setup": "Siyah az önce ...d5 ile sürdü ve e piyonunuza ikinci bir merkez piyonu ikram etti. Siyahın az önce ikram ettiği piyonu alın.",
+  "hint": "Bir merkez piyonunu bedavaya alabiliyorsanız neredeyse her zaman alın.",
+  "explanation": "## Fikir\n\n{{exd5}} ikram edilen merkez piyonunu alır. Doğal görünen {{Qxd5}} siyahın vezirini erken çıkarır ve {{Nc3}} ona hemen vurur; bedava bir gelişim hamlesi. Siyah bunun yerine {{e4}} ile sürerse at yana çekilir ve siz yine bir piyon önde olursunuz.\n\nMerkez piyonu kanat piyonundan değerlidir: birini alıp elinizde tutabiliyorsanız alın."
+}

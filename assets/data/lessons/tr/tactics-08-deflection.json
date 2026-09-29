@@ -1,0 +1,71 @@
+{
+  "id": "deflection",
+  "title": "Saptırma",
+  "summary": "Bazı koruyucular alınamaz. Yine de uzağa gönderilebilirler.",
+  "proof": "deflection-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "İşi Bitiren Kare",
+      "text": "Bu partiyi e8 bitirir. Beyazın oraya inen her taşı g8'deki şaha şah çeker ve o şahın kaçış kareleri olması gereken yerde kendi üç piyonu durur.\n\nBeyazın e dikeyinde iki taşı var; önde vezir, arkada kale. Kale e8'e ulaşamıyor — yolunda kendi veziri var. Vezir ulaşabiliyor.\n\nVezir orada alınabiliyor da. d8'deki kale e8'i sekizinci yatay boyunca kapsıyor ve siyahın başka hiçbir taşı bunu yapmıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Rakip Bir Taşı Nasıl Oynatırsınız",
+      "text": "Bir koruyucuyu durdurmanın iki yolunu zaten biliyorsunuz: onu almak ya da karesinden kovmak. İkisi de elinizde yok. Beyazın hiçbir taşı d8'e saldırmıyor ve beyazın piyonlarının hepsi hâlâ ikinci yatayda oturuyor.\n\nYani kalenin kendiliğinden oynaması gerek. Rakip bir taşa hiçbir yere gitmesini emredemezsiniz. Yalnızca başka bir kareyi, üzerinde durduğu kareden daha değerli kılabilirsiniz — ve bunun en güçlü hâli, hakkında hiçbir kurallı seçeneğinin olmadığı bir karedir."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "d8'deki kaleyi, kurallı olarak reddetmesinin hiçbir yolu olmayan bir hamleyle d8'den ayrılmaya zorlayın.",
+      "targetSan": [
+        "Qe8+"
+      ],
+      "hint": "e8'e beyazın yalnızca tek bir taşı ulaşabiliyor ve ona yalnızca siyahın tek bir taşı cevap verebiliyor."
+    },
+    {
+      "type": "teach",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "title": "Burada Seçilen Bir Şey Yoktu",
+      "text": "Siyah seçenekler arasından seçmiyordu. Bütün tahtada tek bir kurallı hamle vardı ve ortaya çıkardığı pozisyon bu.\n\nKale e8'de ve d8'de değil. Fikir bu ve bir adı var: **saptırma**, bir koruyucuyu, işinin gerektiği anda başka bir yerde olmaya zorlar. Yolculuktan sağ çıkıp çıkmaması konu dışıdır.\n\nSekizinci yatayda artık siyahın iki birliği duruyor: o kale ve g8'deki şah. Şah f8 ile h8'i kapsıyor. e8'i kapsayan yok."
+    },
+    {
+      "type": "play",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "prompt": "Sekizinci yatayı artık koruyan yok; üzerinde duran kaleyi alın ve partiyi bitirin.",
+      "targetSan": [
+        "Rxe8#"
+      ],
+      "hint": "Bu tahtada tam olarak tek bir taş alma var ve şahın arkasında kendi piyonlarından başka bir şey yok."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5pp1/7p/8/4Q3/8/5PPP/4R1K1 w - - 0 1",
+      "title": "Tek Bir Piyonu Değiştirin",
+      "text": "Beyaz orada bir kale karşılığında vezir verdi ve hiç saymak zorunda kalmadı, çünkü sonraki hamle mattı.\n\nBurada h piyonu h6'da duruyor ve şahın bir karesi var. {{Qe8+}} {{Rxe8}} {{Rxe8+}} {{Kh7}}: kale aldı, sekizinci yatay açıldı ve şah köşeden öylece çıkıverdi.\n\nBeyaz bir kale için vezir ödedi ve karşılığında ödediği mat ortada yok.\n\n> Saptırma, ancak mümkün kıldığı hamle kadar iyidir."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "Hiçbir Şey Kazandırmayan Değişim",
+      "text": "Başka bir tahta ve üzerinde hiçbir yerde mat yok.\n\nb2'deki filiniz uzun çaprazdan e5'teki ata bakıyor. {{Bxe5}} yarım saniyeliğine bir at kazanır — siyahın c7'deki fili geri alır, üçe üç, ve siz hiçbir şeyi değiştirmek için bir fil harcamış olursunuz.\n\nÖyleyse e5'e bir daha bakın. Bir beyaz saldıran, bir siyah koruyucu; ve koruyucu, beyazın hiçbir taşının saldırmadığı ve hiçbir beyaz piyonun asla kovalayamayacağı c7'deki o fil."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "Bir Hamleliğine Başka Bir Yerde",
+      "text": "c7'deki filin başka bir yerde olması gerek. Yok olması değil — başka bir yerde ve yalnızca ihtiyacınız olan tek hamle boyunca.\n\nOna saldırmak bunu yapmaz. Yana, d6'ya geçer ve e5'i oradan gözler.\n\nÖyleyse file bakmayı bırakıp sekizinci yataya bakın. Siyahın kalesi d8'de, d1'deki kaleniz dikeyden dosdoğru ona bakıyor ve g8'deki şahın üç piyonu var, havası yok."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "prompt": "c7'deki fili e5'i gözlemeyi bırakmaya zorlayın; siyahın tek bir cevabı olan bir hamleyle.",
+      "targetSan": [
+        "Rxd8+"
+      ],
+      "hint": "d8'de neyin geri alabileceğini sorun ve o taşın şu anda nerede durduğuna dikkat edin."
+    }
+  ]
+}

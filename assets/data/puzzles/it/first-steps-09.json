@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-09",
+  "fen": "5k2/6pp/p7/1p3p2/8/3B4/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Bxf5"
+  ],
+  "title": "Due Pedoni, Uno Sicuro",
+  "setup": "Il vostro alfiere in d3 attacca due pedoni neri, uno per diagonale. Uno solo dei due si può prendere gratis.",
+  "hint": "Guardate una casa diagonalmente dietro ciascun pedone. Uno ha un amico lì, e uno è da solo.",
+  "explanation": "## L'idea\n\nTutti e due i pedoni stanno sulle diagonali del vostro alfiere, ma uno solo è gratis.\n\n{{Bxb5}} perde l'alfiere per {{axb5}}, perché il pedone in a6 difende b5. {{Bxf5}} vince un pedone senz'altro, visto che niente difende f5. Aspettate una mossa e il Nero gioca {{g6}} per difenderlo.\n\nI pedoni difendono le case diagonalmente davanti a sé. Prima di prendere, guardate una casa diagonalmente dietro il bersaglio."
+}

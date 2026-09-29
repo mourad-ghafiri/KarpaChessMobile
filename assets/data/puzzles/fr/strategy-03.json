@@ -1,0 +1,11 @@
+{
+  "id": "strategy-03",
+  "fen": "rnbqkb1r/pp1ppppp/8/2p1P3/8/2n2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 5",
+  "solution": [
+    "dxc3"
+  ],
+  "title": "Quel pion reprend",
+  "setup": "Le cavalier noir vient de prendre le vôtre, et deux de vos pions peuvent reprendre. Dans les deux cas, vous finirez avec deux pions sur une même colonne.",
+  "hint": "Les deux prises empilent vos pions c. Laquelle laisse en plus un pion sans aucun voisin ?",
+  "explanation": "## L'idée\n\nLes deux prises doublent vos pions c, alors comptez ce que chacune coûte d'autre.\n\n{{bxc3}} isole aussi le pion a sans pion à côté de lui : un pion isolé, pour rien.\n\n{{dxc3}} garde chaque autre pion relié à un voisin, ouvre la colonne d vers la dame noire, et dégage la route de c1 à h6 pour votre fou. Prendre en s'éloignant du centre est le bon choix ici, en raison de ce que cela ouvre."
+}

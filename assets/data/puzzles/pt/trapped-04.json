@@ -1,0 +1,12 @@
+{
+  "id": "trapped-04",
+  "fen": "4r1k1/5ppp/p4n2/1pp5/8/1B3N1P/P1P2PP1/3R2K1 b - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "rating": 1130,
+  "title": "A Arca de Noé",
+  "setup": "O bispo branco em b3 tem os seus próprios peões atrás, em a2 e c2, e a sua própria torre em d1.",
+  "hint": "Conta as casas de fuga desse bispo: os próprios peões das brancas tapam duas, e o teu peão b cobre uma terceira.",
+  "explanation": "## A Ideia\n\n{{c4}} fecha a última diagonal. a2 e c2 têm os peões das próprias brancas, a4 está coberta pelo peão de b5, e o peão agora em c4 é guardado por b5, portanto Bxc4 bxc4 custa uma peça. Esta rede é suficientemente antiga para ter nome: a armadilha da Arca de Noé."
+}

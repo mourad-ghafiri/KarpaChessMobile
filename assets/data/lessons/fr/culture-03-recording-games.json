@@ -1,0 +1,56 @@
+{
+  "id": "recording-games",
+  "title": "Noter la partie",
+  "summary": "Une feuille de partie est une mémoire fiable",
+  "proof": "culture-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "La feuille à côté de l'échiquier",
+      "text": "Les coups qui vous attendent ici deviennent vite étranges, et une feuille de partie doit tous les contenir.\n\nDans une partie classique comptant pour le classement, vous êtes tenu de noter les coups des deux camps, l'un après l'autre, en notation algébrique, sur la feuille prévue par l'organisateur. Pas seulement vos coups. Les deux. Cette feuille est ce que lit l'arbitre en cas de litige, et la notation algébrique est le seul système reconnu dans une compétition FIDE — l'ancienne notation descriptive anglaise comptait depuis le côté de chaque joueur, si bien qu'une même case portait deux noms selon qui tenait le stylo."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "Le coup d'abord, le stylo ensuite",
+      "text": "Vous pouvez répondre à votre adversaire avant d'écrire quoi que ce soit, et la plupart des joueurs forts le font — la pendule tourne et c'est devant l'échiquier que se fait la réflexion. Ce que vous ne pouvez pas faire, c'est prendre du retard : votre coup précédent doit être sur la feuille avant que vous en jouiez un autre.\n\nÉcrire un coup avant de le jouer est purement et simplement interdit. La seule exception que vous rencontrerez vraiment est la réclamation de nulle, où le joueur qui réclame une répétition ou la règle des cinquante coups écrit le coup qu'il compte jouer, ne le joue pas, et appelle l'arbitre."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "prompt": "Prenez avec votre pion en e3 pour qu'il arrive à côté du roi blanc avec échec.",
+      "targetSan": [
+        "exf2+"
+      ],
+      "hint": "Ce pion n'a qu'une seule prise sur l'échiquier, et le roi blanc se tient juste à côté de la case où il arriverait."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Les signes que vous ajoutez",
+      "text": "Les Blancs ont avancé le roi en e2 plutôt que de prendre le pion en f2, et le stylo a maintenant du travail.\n\nUne prise prend un `x`, un échec un `+`, un mat un `#`. Quand deux pièces identiques peuvent atteindre la même case, on ajoute leur point de départ — `Nbd2`, `R1e4` — car quelqu'un qui n'a que la feuille doit pouvoir rejouer la partie sans deviner. Une promotion s'écrit avec `=` et la lettre de la pièce choisie."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Le double carbone",
+      "text": "Une feuille de partie est la leçon d'échecs la moins chère qui soit. Rejouez la partie le soir même et l'erreur dont vous ne vous souvenez pas est là, de votre propre écriture, trois coups avant que vous ayez remarqué quoi que ce soit. La plupart des tournois distribuent des feuilles en double exemplaire pour cette raison précise : l'original va à l'organisateur, la copie en dessous repart avec vous.\n\nIl arrive un moment où le stylo s'arrête. Avec moins de cinq minutes à votre pendule, et sans incrément d'au moins trente secondes, vous n'êtes plus tenu de noter quoi que ce soit."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Une case, quatre parties",
+      "text": "Votre pion en f2 n'a qu'une seule case de promotion, g1, et quatre pièces entre lesquelles choisir. La feuille doit indiquer laquelle vous avez prise.\n\n{{fxg1=Q}} crée la pièce la plus forte de l'échiquier et perd sur-le-champ : {{Qxd8+}}, et les Blancs ont votre ancienne dame avant que la nouvelle ait joué un coup. Les Noirs n'ont plus qu'une seule réponse légale.\n\n> Même pion, même case, quatre parties différentes. Sur la feuille, une seule lettre après le `=` les sépare."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "prompt": "Promouvez en la seule pièce qui arrive en donnant échec, pour que les Blancs n'aient jamais le coup qui prend votre dame.",
+      "targetSan": [
+        "fxg1=N+"
+      ],
+      "hint": "Regardez où se tient le roi blanc, puis demandez-vous laquelle des quatre pièces de promotion l'attaquerait depuis g1."
+    }
+  ]
+}

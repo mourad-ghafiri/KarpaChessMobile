@@ -1,0 +1,14 @@
+{
+  "id": "decoy-01",
+  "fen": "1R3rk1/5ppp/7q/8/8/8/5PPP/3Q2K1 w - - 1 2",
+  "solution": [
+    "Rxf8+",
+    "Kxf8",
+    "Qd8#"
+  ],
+  "rating": 1150,
+  "title": "Attirez le roi en f8",
+  "setup": "Votre tour est déjà sur la dernière rangée, et le roi noir n'a aucun air derrière ses pions.",
+  "hint": "Le roi est en sécurité en g8 et perdu en f8. Que pouvez-vous sacrifier pour le faire passer de l'un à l'autre ?",
+  "explanation": "## L'idée\n\n{{Rxf8+}} n'a qu'une réponse légale : {{Kxf8}}. Le roi se tient maintenant sur la huitième rangée ouverte, emmuré par ses propres pions, et {{Qd8#}} conclut. D'abord attirer, ensuite mater. Un roi en sécurité sur une case est souvent perdu sur la case voisine."
+}

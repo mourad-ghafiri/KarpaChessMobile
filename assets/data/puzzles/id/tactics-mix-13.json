@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-13",
+  "fen": "8/5ppp/6k1/8/8/8/5PPP/R3K3 w Q - 0 1",
+  "solution": [
+    "O-O-O"
+  ],
+  "title": "Rokade Panjang",
+  "setup": "Raja Putih dan benteng sayap menterinya belum pernah bergerak, dan setiap petak di antara keduanya kosong. Lakukan rokade ke arah benteng di a1.",
+  "hint": "Raja bergerak dua petak ke arah benteng, dan benteng mendarat di petak yang dilintasi raja.",
+  "explanation": "## Ide\n\n{{O-O-O}} adalah satu langkah untuk dua buah: raja melangkah dari e1 ke c1, dan benteng di a1 melewatinya ke d1.\n\nSemua syarat terpenuhi. Tak satu pun dari kedua buah pernah bergerak, b1, c1 dan d1 kosong, raja tidak dalam sekak, dan tak ada yang menyerang d1 atau c1, petak yang dilintasi dan ditempati raja. Raja meninggalkan pusat, dan benteng tiba di lajur terbuka."
+}

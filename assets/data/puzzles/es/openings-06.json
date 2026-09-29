@@ -1,0 +1,13 @@
+{
+  "id": "openings-06",
+  "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2P1P3/2N2N2/PP1P1PPP/R1BQKB1R w KQk - 1 5",
+  "solution": [
+    "Nxe5",
+    "Nxe5",
+    "d4"
+  ],
+  "title": "Despeja el camino a d4",
+  "setup": "Una siciliana invertida: las Negras acaban de poner el alfil en c5, a la altura de su peón de e5. Cómete ese peón, confiando en que una horquilla de peón recupere la pieza.",
+  "hint": "Dos unidades negras están en casillas que un solo avance de peón atacaría a la vez, pero antes hay algo que estorba.",
+  "explanation": "## La idea\n\nEl alfil negro de c5 y el peón de e5 están en las dos casillas que un peón en d4 atacaría juntas, pero el peón de e5 defiende d4, así que antes una pieza tiene que quitarlo de en medio.\n\n{{Nxe5}} lo hace. Tras {{Nxe5}}, {{d4}} da una horquilla al caballo y al alfil, y las Blancas recuperan la pieza. El material queda más o menos igualado, pero las Blancas conservan el centro y una pequeña ventaja.\n\nUna apertura de flanco también gana sus batallas en el centro. Solo que da un rodeo para llegar."
+}

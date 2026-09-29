@@ -1,0 +1,14 @@
+{
+  "id": "skewer-05",
+  "fen": "8/Qp2p3/3k2qp/7p/2Pp1P2/6P1/1P5K/8 w - - 0 1",
+  "solution": [
+    "Qb6+",
+    "Kd7",
+    "Qxg6"
+  ],
+  "rating": 1060,
+  "title": "La sixième rangée traverse",
+  "setup": "Le roi noir en d6 et sa dame en g6 partagent la sixième rangée, et les cases entre eux sont nues.",
+  "hint": "Donnez échec sur la sixième rangée depuis le côté qui oblige le roi à s'éloigner de sa propre dame.",
+  "explanation": "## L'idée\n\n{{Qb6+}} donne échec le long de la sixième rangée avec la dame noire bloquée derrière son roi. {{Kd7}} est la seule réponse légale, et elle quitte la rangée — donc {{Qxg6}} prend simplement la dame. Le butin n'a jamais été défendu du tout."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-08",
+  "fen": "7k/8/7K/7Q/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Qe8#"
+  ],
+  "title": "Himpitan dari Samping",
+  "setup": "Raja dan menteri Anda bertumpuk di lajur h, dan raja Hitam terjebak di sudut. Matnya datang dari samping.",
+  "hint": "Satu langkah menteri yang menggoda merebut setiap petak tanpa memberi sekak, dan itu pat. Beri sekak dari tempat raja Anda masih menguasai g7.",
+  "explanation": "## Ide\n\n{{Qg6}} yang tampak wajar adalah pat: tanpa sekak, dan tanpa langkah sah bagi Hitam, jadi setengah poin hilang. {{Qe8#}} justru memberi sekak di sepanjang baris belakang. g8 berada di garis menteri, raja Anda di h6 menguasai g7 dan h7, dan tak ada yang bisa menangkap menteri atau menghalangi.\n\nDengan menteri melawan raja sendirian, pastikan langkah Anda memberi sekak sebelum Anda merebut petak terakhir."
+}

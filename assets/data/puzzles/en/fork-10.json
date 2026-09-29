@@ -1,0 +1,12 @@
+{
+  "id": "fork-10",
+  "fen": "8/2q1P1kp/p7/8/8/8/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "e8=N+"
+  ],
+  "rating": 1030,
+  "title": "The Wrong Queen",
+  "setup": "Your pawn steps to the eighth rank this move, with the black king on g7 and its queen on c7.",
+  "hint": "A new queen changes nothing here. Ask which piece would check the king from the promotion square.",
+  "explanation": "## The Idea\n\nA queen on e8 gives no check at all, and Black simply plays on with the position level. {{e8=N+}} hits g7 and c7 at once, Black must answer the check, and the queen falls next move. Promote to whatever the position needs, not to whatever is biggest."
+}

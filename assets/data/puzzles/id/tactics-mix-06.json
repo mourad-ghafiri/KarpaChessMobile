@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-06",
+  "fen": "4k3/8/2N5/4q3/B7/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxe5+"
+  ],
+  "title": "Sekak Tersingkap Memenangkan Menteri",
+  "setup": "Menteri hitam di e5 memberi sekak kepada raja Anda di sepanjang lajur e. Kuda Anda di c6 berdiri di antara gajah Anda di a4 dan raja Hitam.",
+  "hint": "Kuda sedang menghalangi sekak milik Anda sendiri. Gerakkan ia ke tempat ia benar-benar bekerja.",
+  "explanation": "## Ide\n\nRaja Anda dalam sekak, dan jawabannya adalah serangan balik. Kuda di c6 menghalangi diagonal gajah Anda menuju e8.\n\n{{Nxe5+}} mengambil menteri pemberi sekak, dan memindahkan kuda menyingkap sekak dari gajah. {{Kd8}}, {{Kf8}} dan {{Ke7}} satu-satunya langkah Hitam, dan tak satu pun mencapai kuda.\n\nKetika buah Anda berdiri di antara buah jarak jauh Anda dan raja lawan, setiap langkahnya datang dengan sekak."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "promotion",
+  "title": "Nothing Stays a Pawn",
+  "summary": "Reach the far rank and the pawn is gone — you say what stands there",
+  "proof": "first-steps-19.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "No Pawn Stands There",
+      "text": "There is no such thing as a pawn on the eighth rank. A white pawn that reaches it — or a black pawn that reaches the first — cannot stay what it is.\n\nSo the rules swap it out. On the square it lands on, in that same move, the pawn leaves the board and a **queen, rook, bishop or knight** takes its place. That is **promotion**, and it is compulsory. The pawn on e7 has one square to go and no way to stay one.\n\nTwo pieces are never on the list: a king, and another pawn."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Say What It Becomes",
+      "text": "A promoting move is written like any other move — the square the pawn arrives on — and then one thing more.\n\n{{e8=Q}}. An `=` sign, and the letter of the piece you want standing there. Change that letter and you change what appears: `R`, `B` or `N` instead.\n\nIt is not a footnote. A move that reaches the last rank without naming a piece is not a finished move."
+    },
+    {
+      "type": "play",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Send the pawn to the last rank and bring back the piece worth nine points.",
+      "targetSan": [
+        "e8=Q"
+      ],
+      "hint": "The move is only finished once you have named what stands on the square."
+    },
+    {
+      "type": "teach",
+      "fen": "4Q3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Nine Points Out of Nothing",
+      "text": "One point set out; nine points arrived. The queen on e8 is a queen like any other, sweeping ranks, files and diagonals from the moment it lands: {{Qa4}}, {{Qh5}}.\n\nNothing was traded for it. You are not buying it back with something your opponent captured, and it makes no difference whether your first queen is still on the board. Two queens is legal. So is three.\n\n> A pawn on the seventh rank is not worth one point. It is worth whatever it is about to become."
+    },
+    {
+      "type": "teach",
+      "fen": "5r2/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Take Your Way In",
+      "text": "Promotion is not only for pawns that walk. A pawn captures the way it always has, one square diagonally forward, and the last rank changes nothing about that.\n\nIt matters here. The black rook on f8 also covers e8, so stepping straight ahead hands the new queen away before it has done anything.\n\n{{exf8=Q}} does both jobs in one move: the rook comes off, and a queen stands on f8. The `x` and the `=` mean what they have always meant."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "title": "When the Queen Loses",
+      "text": "The queen is almost always the right answer. Here it gets you mated.\n\n{{e8=Q}} {{Qc1+}} {{Qe1}} {{Qxe1#}}. Nine new points, and Black never looks at them: the queen on c7 checks along the first rank, your new queen can only step in the way, and your king, boxed in by its own pawns, has nowhere to go.\n\nThe queen on e8 touched neither the black king on g7 nor the queen on c7. Promote to a knight instead and it hits both. Choosing anything but a queen is called **underpromotion**, and this is the everyday reason for it."
+    },
+    {
+      "type": "play",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "prompt": "Promote to the piece that checks the black king and attacks the queen in the same move.",
+      "targetSan": [
+        "e8=N+"
+      ],
+      "hint": "Take each of the four choices in turn and ask what it would attack from e8."
+    }
+  ]
+}

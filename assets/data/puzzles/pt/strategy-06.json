@@ -1,0 +1,11 @@
+{
+  "id": "strategy-06",
+  "fen": "rnbqnrk1/ppp1ppb1/6p1/4p3/3P4/2N2N2/PPP2PP1/R1BQKB1R w KQ - 0 9",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Compra a Última Casa Escura",
+  "setup": "A coluna h está aberta na direção do rei preto, e uma peça guarda as casas escuras à volta dele: o bispo de g7.",
+  "hint": "O teu bispo de c1 pode desafiar essa guarda de frente, e a tua torre de h1 já apoia a casa.",
+  "explanation": "## A Ideia\n\nO peão h das pretas desapareceu e o peão g deixou g7, portanto nenhum peão preto voltará a cobrir h6. O bispo de g7 faz esse trabalho sozinho.\n\n{{Bh6}} propõe trocá-lo, e a torre de h1 está atrás do teu bispo. Assim que os bispos saírem, as pretas ficam sem bispo para as casas escuras, e cada uma delas à volta do rei é tua para usar."
+}

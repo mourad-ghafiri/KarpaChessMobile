@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-20",
+  "fen": "4r3/1k1P4/8/8/8/8/8/6K1 w - - 0 1",
+  "solution": [
+    "dxe8=Q"
+  ],
+  "title": "Promotion With a Prize",
+  "setup": "Your pawn on d7 is one step from the last rank, and a black rook is standing diagonally ahead of it.",
+  "hint": "Pawns capture diagonally, even on their very last step. Two rewards in a single move.",
+  "explanation": "## The Idea\n\nA pawn's last step follows the usual pawn rules, diagonal capture included. Promoting straight ahead with {{d8=Q}} lets {{Rxd8}} take the new queen.\n\n{{dxe8=Q}} captures the rook and promotes in the same move: five points taken and nine created, and the king on b7 cannot reach e8.\n\nBefore you push a pawn to the last rank, compare the straight step with the capture."
+}

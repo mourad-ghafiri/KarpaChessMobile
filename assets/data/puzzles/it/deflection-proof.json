@@ -1,0 +1,13 @@
+{
+  "id": "deflection-proof",
+  "fen": "1r4k1/5ppp/8/8/2Q5/8/5PPP/2R3K1 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Rxc8",
+    "Rxc8#"
+  ],
+  "title": "Un'Offerta con Una Risposta",
+  "setup": "Il re nero non ha aria, e la torre in b8 è l'unico pezzo che copre l'ottava traversa.",
+  "hint": "Niente di vostro può attaccare la torre in b8. Offritele qualcosa che debba prendere, sulla casa che serve alla vostra torre.",
+  "explanation": "## L'idea\n\nLa torre in b8 non si può attaccare, quindi va mandata via. {{Qc8+}} offre la donna sull'unica casa che la torre sorveglia, e {{Rxc8}} è l'unica mossa legale del Nero: i pedoni inscatolano il re, e niente può parare. Adesso la torre sta in c8, davanti alla vostra, e {{Rxc8#}} chiude la partita. La donna doveva andare per prima, perché era il pezzo che bloccava la colonna della vostra torre."
+}

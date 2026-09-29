@@ -1,0 +1,56 @@
+{
+  "id": "thinking-process",
+  "title": "Oynamadan Önce",
+  "summary": "Sırayla sorulan ve pişman olacağınız hamleyi yakalayan üç soru",
+  "proof": "thinking-process-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "Üç Soru",
+      "text": "Partilerin çoğu zeki bir rakibe kaybedilmez. Kimse bakmadan oynanan bir hamleye kaybedilir.\n\nÜç soru bunu durdurur ve her zaman aynı üç sorudur:\n\n1. Rakibim neyi **tehdit ediyor** — sırada oynamak istediği hamle nedir?\n2. Benim şahlarım ve taş almalarım neler?\n3. Hamlemden sonra ne olur?\n\nHer hamlede, bu sırayla, on saniye. İlk iki soru hamle bulur. Üçüncüsü kötüleri çöpe atar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "Az Önce Ne Değişti",
+      "text": "Siyahın f6'daki atı hiçbir şeye saldırmıyor. Birinci sorunun yine de bir cevabı var.\n\nO at, beyazın kendi piyonları için en çok istediği iki merkez karesini, e4 ile d5'i kapsıyor. Sormadan {{e4}} oynayın, {{Nxe4}} onu alsın — beyazın o kareyi koruyan hiçbir şeyi yok ve geri alan da yok.\n\nYani birinci soru yalnızca “neye saldırılıyor” değildir. Şudur: o hamle, bir an önce yapamadığı neyi şimdi yapabiliyor? Bazen cevap bir tehdittir. Bazen de sessizce kaybettiğiniz bir karedir."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Bedava Piyon",
+      "text": "Yeni bir parti, üç hamlelik. Siyahın d4'teki atı beyazın yarısına sıçramış ve e5'teki piyonu hiçbir şeyin korumadığı hâlde bırakmış.\n\nİkinci soru neyi alabileceğinizi sorar. Tahta bir saniyede cevap verir: {{Nxe5}}, bedava bir piyon.\n\nDoğru hamle gibi görünüyor. İkinci soru bunun doğru olup olmadığını söyleyemez, çünkü ikinci soru siyahın sırada ne yapacağını hiç sormaz."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4N3/2BnP3/8/PPPP1PPP/RNBQK2R b KQkq - 0 4",
+      "prompt": "Siyahın cevabını oynayın: aynı anda hem açgözlü ata hem de korumasız bir piyona saldıran vezir hamlesini bulun.",
+      "targetSan": [
+        "Qg5"
+      ],
+      "hint": "Az önce taş alan atı hiçbir şey korumuyor, g2'deki piyonu da öyle — tek bir kare ikisini birden görüyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Üçüncü Soru",
+      "text": "Beyazın baktığı tahtaya geri dönün. O vezir hamlesi buradan da, bir hamle önceden, taş almak üzere olan oyuncu tarafından bulunabilirdi.\n\n{{Nxe5}} {{Qg5}} geldiğinde hem at hem de g2'deki piyon saldırı altındadır ve beyazın oradan oynayacağı en iyi cevap bile siyaha daha iyi bir parti bırakır. Bedava piyon yemdi.\n\nÜçüncü soru budur. “Hamlem güvenli mi” değil; şudur: rakibimin ondan sonraki hamlede ne yapacağını şimdiden biliyor muyum?\n\n> Kimse baktığı hamleye kaybetmez. Bakmadığı cevaba kaybeder."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Aday Hamleler",
+      "text": "Demek ki bu kapmanın bedeli kazandığından fazla ve bunu yalnızca üçüncü soru görebiliyordu. Çözüm siz seçmeden önce başlar.\n\nİkinci sorunun size verdiği hamleler sizin **aday hamleleriniz**dir: bir liste, bir cevap değil. Beyazın burada üç taş alması var; ayrıca {{c3}} gibi sakin hamleler de var — bu hamle d4'teki ata saldırır ve f3'te bir değişimle cevaplanır.\n\nİki ya da üç tane seçin. Her birine üçüncü soruyu uygulayın. Cevabını gerçekten görebildiğinizi oynayın."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Sizin yarınıza sıçrayan atı alın ve pozisyonu çözülecek hiçbir şey kalmadan bırakın.",
+      "targetSan": [
+        "Nxd4"
+      ],
+      "hint": "Taş almalardan biri az önce bulduğunuz vezir hamlesine gider, biri korunan bir piyona fil savurur, biri de eşit bir değişimdir."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "deflection-04",
+  "fen": "2br2k1/p4ppp/1q6/8/1n6/7P/1PN1QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Nxb4"
+  ],
+  "rating": 1220,
+  "title": "Il Cavallo Aspetta la Donna",
+  "setup": "La donna in b6 puntella la torre in d8 e il cavallo in b4, e il vostro cavallo in c2 sorveglia b4.",
+  "hint": "Cavallo prende cavallo è solo un cambio finché il difensore resta a casa. Quale scacco lo manda altrove?",
+  "explanation": "## L'idea\n\n{{Rxd8+}} lascia esattamente una mossa legale, {{Qxd8}}. La donna è fuori dalla colonna b, quindi {{Nxb4}} vince senz'altro un cavallo. Prima torre per torre, e la deviazione è gratis. Chiedetevi che cosa al pezzo meglio piazzato dell'avversario venga chiesto in silenzio di tenere."
+}

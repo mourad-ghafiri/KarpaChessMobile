@@ -1,0 +1,11 @@
+{
+  "id": "discovered-02",
+  "fen": "rnbqkb1r/pppp2pp/8/8/4N3/8/PPP2PPP/2B1R1K1 w - - 0 1",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "e Dikeyinde Çifte Şah",
+  "setup": "e4'teki atınız, e1'deki kaleniz ile siyahın şahı arasındaki tek şey. Her at hamlesi şah çeker. Partiyi bitireni bulun.",
+  "hint": "İki at karesi atın da şah çekmesini sağlıyor. Yalnızca biri aynı zamanda şahın kaçacağı kareyi kapsıyor.",
+  "explanation": "## Fikir\n\nHer at hamlesi e1'deki kaleyi açar, ama {{Nd6#}} atın kendisiyle de şah çeker. Çifte şaha karşı şahın oynaması gerekir ve gidecek yeri yoktur: kendi veziri ile fili d8 ile f8'i doldurur, kendi piyonu d7'yi doldurur, kale e7'yi görür ve at f7'yi kapsar.\n\nÖteki çifte şah, f6'dan gelen, f7'yi açık bırakır ve şah dışarı yürür."
+}

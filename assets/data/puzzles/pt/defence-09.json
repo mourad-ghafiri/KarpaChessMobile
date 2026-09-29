@@ -1,0 +1,14 @@
+{
+  "id": "defence-09",
+  "fen": "1Q6/2K5/5r2/7R/3q4/5b2/k7/8 w - - 0 1",
+  "solution": [
+    "Ra5+",
+    "Qa4",
+    "Rxa4#"
+  ],
+  "rating": 1770,
+  "title": "Leva a Torre de Través",
+  "setup": "A dama, a torre e o bispo pretos pesam todos sobre o teu rei de c7, e o rei preto está escondido em a2.",
+  "hint": "A tua torre está na coluna errada mas na linha certa. Encontra a casa onde o único bloqueio custa uma dama.",
+  "explanation": "## A Ideia\n\n{{Ra5+}} chega pela quinta linha. {{Qa4}} é o único bloqueio, e {{Rxa4#}} é mate. A torre nunca avançou — atravessou, que é a direção a que o rei da coluna a não podia responder."
+}

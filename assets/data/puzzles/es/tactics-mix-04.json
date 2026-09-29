@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-04",
+  "fen": "4k3/P7/8/8/8/1K6/7p/8 w - - 0 1",
+  "solution": [
+    "a8=Q+"
+  ],
+  "title": "Coronar con jaque",
+  "setup": "Los dos bandos tienen un peón a un paso de coronar, y te toca jugar.",
+  "hint": "Tu nueva dama también tiene que detener al peón negro. Un jaque le da el tiempo.",
+  "explanation": "## La idea\n\n{{a8=Q+}} corona con jaque. Las Negras tienen que gastar su jugada en el rey, y luego {{Qh1}} bloquea al peón de h a una casilla de coronar. Cualquier cosa más lenta, como {{Kc2}}, permite {{h1=Q}}, y te quedas con dama contra dama.\n\nEn una carrera, la coronación que da jaque vale un tiempo entero."
+}

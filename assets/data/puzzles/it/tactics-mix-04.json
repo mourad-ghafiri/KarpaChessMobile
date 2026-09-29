@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-04",
+  "fen": "4k3/P7/8/8/8/1K6/7p/8 w - - 0 1",
+  "solution": [
+    "a8=Q+"
+  ],
+  "title": "Promozione con Scacco",
+  "setup": "Tutti e due hanno un pedone a un passo dalla promozione, e muovete voi.",
+  "hint": "La vostra nuova donna deve anche fermare il pedone del Nero. Uno scacco le dà il tempo.",
+  "explanation": "## L'idea\n\n{{a8=Q+}} promuove con scacco. Il Nero deve spendere la sua mossa sul re, e poi {{Qh1}} blocca il pedone h a una casa dalla promozione. Qualunque cosa più lenta, come {{Kc2}}, lascia {{h1=Q}}, e vi ritrovate donna contro donna.\n\nIn una corsa, la promozione che dà scacco vale un tempo intero."
+}

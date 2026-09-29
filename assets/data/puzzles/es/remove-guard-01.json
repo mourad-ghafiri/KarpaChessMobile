@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-01",
+  "fen": "6k1/1p3ppp/2n5/1B2b3/8/5N2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Bxc6"
+  ],
+  "rating": 1050,
+  "title": "Un solo defensor",
+  "setup": "Tu caballo ataca al alfil de e5, que solo aguanta ahí porque lo defiende el caballo de c6.",
+  "hint": "El alfil que atacas tiene exactamente un defensor. Pregúntate cuánto cuesta ese defensor, no qué sostiene.",
+  "explanation": "## La idea\n\n{{Bxc6}} se come la única pieza que defiende e5. Tras {{bxc6}} el alfil queda colgado y {{Nxe5}} se lo lleva; si las Negras salvan en cambio el alfil, el caballo simplemente se ha perdido. Cuenta los defensores de un objetivo antes de contar los atacantes."
+}

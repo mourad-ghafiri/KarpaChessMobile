@@ -1,0 +1,13 @@
+{
+  "id": "xray-proof",
+  "fen": "6k1/pq3pp1/1p5p/4b3/4r3/5N1Q/PPP2PPP/4RK2 w - - 0 1",
+  "solution": [
+    "Nxe5",
+    "Rxe5",
+    "Rxe5"
+  ],
+  "title": "Protegido a través de la torre",
+  "setup": "El alfil de e5 tiene un solo defensor, la torre que tiene delante, y esa torre está en la columna de tu propia torre.",
+  "hint": "Cuenta lo que protege una casilla después de que la torre negra haya salido de e4, no antes.",
+  "explanation": "## La idea\n\n{{Nxe5}} pone tu caballo donde la torre de e4 puede capturarlo, y ese es el objetivo. Tu torre de e1 protege e5 a través de la torre negra: en cuanto esta captura, abre la columna detrás de sí, y tu torre la recaptura. Así que las Negras no pueden recapturar de verdad. Lo mejor que tienen es cambiar torres en e1 y quedarse con una pieza de menos."
+}

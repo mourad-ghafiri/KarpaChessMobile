@@ -1,0 +1,74 @@
+{
+  "id": "pawn-breakthrough",
+  "title": "Pawn Breakthrough",
+  "summary": "Give up two pawns, queen the third",
+  "proof": "pawn-breakthrough-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Three Against Three",
+      "text": "Six pawns stand in two rows and not one of them can move without being taken. White has a5, b5 and c5; Black has a7, b7 and c7. Both kings are parked on the far side of the board, too slow to matter.\n\nWhoever reaches the eighth rank first wins the game outright, and right now nobody is reaching anything. Every push walks into a capture, and pawns never go back.\n\nWhite is to move, and White is winning."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Pawns Only Turn to Capture",
+      "text": "{{a6}} looks like progress until {{bxa6}} answers it. A pawn given away for nothing, and Black still has three pawns to White's two.\n\nThe reason is the shape of the move. A pawn goes straight ahead and takes on the slant, so nothing you do in front of a black pawn will ever shift it off its file. A guard only leaves the file it is guarding by capturing something on the file next door.\n\nYour king could walk over and win this slowly. The pawns can settle it now, if you put something on that file and are willing to lose it."
+    },
+    {
+      "type": "play",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "prompt": "Offer a pawn in the middle of Black's row so that either capture drags a guard sideways.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Only one of your three pushes can be answered by two different captures, and both of them empty a file."
+    },
+    {
+      "type": "play",
+      "fen": "7k/1pp5/1p6/P1P5/8/8/8/6K1 w - - 0 3",
+      "prompt": "Spend a second pawn to pull the last guard off the file your a-pawn wants.",
+      "targetSan": [
+        "c6"
+      ],
+      "hint": "The pawn on b7 is the only thing watching your a-pawn's road, so offer it something on the file beside it."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/2p5/1pp5/P7/8/8/8/6K1 w - - 0 4",
+      "title": "Two Pawns for One Road",
+      "text": "Two pawns spent, and look at what they bought. Black's three remaining pawns are jammed onto b6, c6 and c7, and once your pawn reaches a6 not one of them can ever touch it again.\n\n{{a6}} {{c5}} {{a7}} {{c4}} {{a8=Q}}. Black's quickest pawn is still on the fourth rank when yours arrives, and the black king on h8 was never in the conversation.\n\nNeither sacrifice was trying to survive. Each one asked a black pawn to step across onto the next file, and a guard that steps across stops guarding."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "title": "A King at the End of the Diagonal",
+      "text": "Same idea, different road, and this one ends at a king. Your bishop on b2 looks up the long diagonal, and the first thing in its way is the black pawn on g7.\n\n{{Bxg7}} would pull the cork out by hand, but after {{Kxg7}} you have paid a bishop for a pawn, and it is the black king that stands on the open diagonal.\n\nBetter to have the pawn leave on its own. A pawn only ever leaves its file to take something."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "prompt": "Offer a pawn to the g7 pawn so that the capture it wants to make is the one that opens your diagonal.",
+      "targetSan": [
+        "f6"
+      ],
+      "hint": "A pawn only leaves its square in order to capture, so put something on a square the g7 pawn attacks."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2p1p/2np1p2/8/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 0 3",
+      "title": "The Cork Is Out",
+      "text": "Black took, and the cork is out: g7 is empty and the long diagonal runs all the way to the corner. Declining would not have saved Black either, because then your pawn takes on g7 itself.\n\n{{Bxf6}} takes back on the long diagonal, and from f6 the bishop covers both empty squares beside the black king, g7 and h8. Black is already lost. {{Qd8}} is the natural reply, attacking the bishop, and it walks straight into the end.\n\n> Ask what a pawn would open if it were captured, not whether it can be captured safely."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp3p1p/2np1B2/8/4P3/1P3N2/P2Q2PP/R4RK1 w - - 1 4",
+      "prompt": "Mate in one — check the black king along the g-file while your bishop covers both escape squares.",
+      "targetSan": [
+        "Qg5#"
+      ],
+      "hint": "Your bishop already watches g7 and h8, so the king has nowhere to run and you only need to arrive with check."
+    }
+  ]
+}

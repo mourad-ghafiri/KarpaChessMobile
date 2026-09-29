@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-04",
+  "fen": "2r3k1/5ppp/8/p2b4/1n6/2B4P/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxb4"
+  ],
+  "rating": 1170,
+  "title": "Desteği Çekin",
+  "setup": "d1'deki kaleniz d5'teki file saldırıyor ve fili yalnızca b4'teki at koruyor.",
+  "hint": "Savunmayı geriye doğru izleyin. Siyahın hangi taşı d5'i tutuyor ve sizin neyiniz o taşa ulaşabiliyor?",
+  "explanation": "## Fikir\n\n{{Bxb4}} bir fili, d5'i koruyan ata değişir. {{axb4}} geldikten sonra filin hiçbir koruması kalmaz ve {{Rxd5}} onu alır. İlk taş alma eşittir; ikincisi bedavadır. Hedeften geriye, onu hayatta tutan taşa doğru çalışın."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-17",
+  "fen": "4k3/pp6/8/8/7q/8/PP6/4K2R w - - 0 1",
+  "solution": [
+    "Rxh4"
+  ],
+  "title": "Castiga a Dama",
+  "setup": "A dama preta acabou de aparecer com xeque, mesmo dentro do campo de visão da tua torre.",
+  "hint": "Sim, o rei pode dar um passo de lado. Mas olha pela coluna h antes de lhe tocares.",
+  "explanation": "## A Ideia\n\nA dama em h4 dá xeque ao teu rei pela diagonal até e1, e afastar-se parece natural. Mas a dama aterrou na coluna h aberta, onde a tua torre de h1 está à espera.\n\n{{Rxh4}} captura sem mais quem dá o xeque: o xeque acabou e nove pontos estão ganhos. Uma jogada de rei como {{Kd2}} faz o contrário, porque {{Qxh1}} come-te a torre.\n\nUma peça que dá xeque tem de estar nalgum sítio, portanto pergunta o que atacas nessa casa."
+}

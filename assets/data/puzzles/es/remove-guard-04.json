@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-04",
+  "fen": "2r3k1/5ppp/8/p2b4/1n6/2B4P/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxb4"
+  ],
+  "rating": 1170,
+  "title": "Quita el puntal",
+  "setup": "Tu torre de d1 ataca al alfil de d5, defendido solo por el caballo de b4.",
+  "hint": "Sigue la defensa hacia atrás. ¿Qué pieza negra sostiene d5, y qué pieza tuya puede llegar a ella?",
+  "explanation": "## La idea\n\n{{Bxb4}} cambia un alfil por el caballo que defiende d5. Tras {{axb4}} al alfil no le queda protección y {{Rxd5}} se lo come. La primera captura es un cambio igualado; la segunda es gratis. Trabaja hacia atrás desde el objetivo hasta la pieza que lo mantiene con vida."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "fork-11",
+  "fen": "3rr1k1/p5pp/8/8/4n3/8/P1Q3PP/3R3K b - - 1 1",
+  "solution": [
+    "Rxd1+",
+    "Qxd1",
+    "Nf2+",
+    "Kg1",
+    "Nxd1"
+  ],
+  "rating": 1070,
+  "title": "Échanger, puis fourchetter",
+  "setup": "Le roi blanc est en h1 derrière deux pions, et sa tour en d1 n'est défendue que par la dame.",
+  "hint": "Rien ne fait encore fourchette. Demandez-vous quelle pièce blanche vous pouvez forcer sur la case où une fourchette apparaîtrait.",
+  "explanation": "## L'idée\n\nLa case de fourchette de votre cavalier est f2, qui frappe h1 et d1 — mais la dame en c2 la protège, donc le saut immédiat perd simplement le cavalier. {{Rxd1+}} est échec, donc {{Qxd1}} est forcé, et la dame se tient maintenant sur l'une des cibles de la fourchette. {{Nf2+}}, {{Kg1}} est forcé, et {{Nxd1}} la gagne."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "windmill",
+  "title": "Kincir Angin",
+  "summary": "Benteng yang memberi sekak, merampas, lalu kembali",
+  "proof": "windmill-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "title": "Menteri Adalah Umpannya",
+      "text": "Moskwa, 1925: Carlos Torre, bermain sebagai Putih, hendak menyerahkan menteri kepada Emanuel Lasker dan keluar dari pertukaran itu unggul tiga pion.\n\nSemua milik Putih sudah membidik satu petak. Benteng di g3 menguasai seluruh lajur g begitu lajur itu dikosongkan. Gajah di g5 adalah yang menghalangi jalan. Dan g7, pion yang melindungi raja hitam, hanya dijaga raja itu dan tak ada yang lain.\n\nMenteri Hitam di b5 tak melindungi apa pun di sisi papan itu."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "prompt": "Tambahkan penyerang kedua terhadap g7, dan terimalah bahwa membuka jalan itu mengorbankan menteri Anda.",
+      "targetSan": [
+        "Bf6"
+      ],
+      "hint": "Benteng di g3 sudah membidik g7, dan satu-satunya yang menghalangi jalannya adalah buah Anda sendiri yang bisa dipindahkan."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3ppB1p/7q/1P1P4/4N1R1/P4PPP/4R1K1 w - - 0 26",
+      "title": "Benteng Melangkah Masuk",
+      "text": "Lasker mengambil menteri, dan lajur g terbuka dengan gajah putih duduk di f6, tepat menempel pada perlindungan raja.\n\n{{Rxg7+}}. Raja tak bisa mengambil benteng, karena gajah di f6 menjaga g7. Kuda Hitam sendiri duduk di f8, jadi tak ada tempat lain untuk dituju: {{Kh8}} satu-satunya langkah sah di papan.\n\nHitam unggul satu menteri. Sekarang lihat di mana ketiga buah itu berakhir."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "Benteng di Tengah",
+      "text": "Gajah di f6, benteng di g7 dan raja hitam di h8 berdiri di satu diagonal, dalam urutan itu, dengan benteng di tengah.\n\nLangkahkan benteng keluar dari diagonal itu dan sekak tersingkap dari gajah datang di belakangnya, jadi benteng mengambil apa pun yang dilewatinya sementara Hitam menjawab. Langkahkan ia kembali ke g7 dan benteng memberi sekak sendiri, dijaga gajah. Raja bolak-balik di antara dua petak dan tak pernah mendapat langkah untuk dirinya sendiri. Itulah kincir angin.\n\n> Benteng yang memberi sekak dengan meninggalkan diagonal dan memberi sekak lagi dengan kembali menguasai seluruh baris."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "Satu Putaran Penuh",
+      "text": "{{Rxf7+}} mengambil pion dan mengosongkan diagonal, jadi sekaknya datang dari gajah. {{Kg8}}, satu-satunya langkah. {{Rg7+}} mengembalikan benteng ke tengah, dan {{Kh8}}, lagi-lagi satu-satunya langkah.\n\nHitung apa yang berubah. Raja kembali di h8, benteng kembali di g7, diagonal tersusun persis seperti semula, dan Hitam kehilangan satu pion. Tak ada yang mencegah Putih melakukan semuanya lagi.\n\nTorre memutarnya sekali lagi, lalu melangkahkan benteng ke g5 dan mengambil menteri di h5."
+    },
+    {
+      "type": "play",
+      "fen": "r3rn1k/pb4R1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 3 29",
+      "prompt": "Putar kincirnya sekali lagi, keluar dari diagonal untuk menangkap satu-satunya buah yang bisa diambil benteng Anda di baris ketujuh.",
+      "targetSan": [
+        "Rxb7+"
+      ],
+      "hint": "Meninggalkan diagonal membawa serta sekak dari gajah, jadi telusuri baris ketujuh untuk hadiah terbesar."
+    }
+  ]
+}

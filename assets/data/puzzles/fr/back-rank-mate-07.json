@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-07",
+  "fen": "6k1/1b3ppp/8/8/8/8/2r2PPP/R3R1K1 w - - 1 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 910,
+  "title": "Choisissez la bonne tour",
+  "setup": "Vos deux tours peuvent donner échec sur la huitième rangée, et le fou noir en b7 surveille l'une d'elles.",
+  "hint": "Deux échecs sont possibles et un seul est mat. Regardez ce que défend le fou en b7.",
+  "explanation": "## L'idée\n\nRa8+ perd simplement une tour sur le fou en b7. {{Re8#}} est mat : rien ne défend e8, rien ne peut s'interposer, et les pions en f7, g7 et h7 retiennent le roi. Sur la dernière rangée, demandez-vous toujours quelles cases le défenseur couvre encore."
+}

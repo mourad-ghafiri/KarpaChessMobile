@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-07",
+  "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qk - 1 7",
+  "solution": [
+    "Nf3#"
+  ],
+  "rating": 780,
+  "title": "Étouffé par les siens",
+  "setup": "Chaque case autour du roi blanc est occupée par ses propres pièces, et votre cavalier est toujours en d4.",
+  "hint": "Le roi blanc n'a aucune case de fuite, alors cherchez le seul échec qu'il ne peut ni prendre ni parer.",
+  "explanation": "## L'idée\n\nLe roi blanc est étouffé par sa propre armée, donc tout échec sûr termine la partie. {{Nf3#}} semble pouvoir être pris, mais le fou en e2 est cloué par votre dame en e4, le pion g2 a disparu depuis longtemps, et un échec de cavalier ne peut jamais être paré par interposition."
+}

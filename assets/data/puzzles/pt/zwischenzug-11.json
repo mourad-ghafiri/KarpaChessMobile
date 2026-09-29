@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-11",
+  "fen": "6k1/1r3ppp/7r/8/b2B3R/8/PP6/K1Q5 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Be8",
+    "Qxe8#"
+  ],
+  "rating": 1650,
+  "title": "Obriga o Bispo a Voltar Para Casa",
+  "setup": "O bispo preto em a4 está longe do seu rei e as duas torres pretas foram à caça pelas colunas b e h.",
+  "hint": "Uma peça preta está muito longe da oitava linha. Dá-lhe um motivo para ter de estar lá.",
+  "explanation": "## A Ideia\n\n{{Qc8+}} força {{Be8}}, arrastando o bispo todo o caminho de volta para tapar, e {{Qxe8#}} come-o à chegada. Uma peça que chega a uma casa numa jogada não é o mesmo que uma peça que a defende."
+}

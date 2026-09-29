@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-12",
+  "fen": "5rk1/5ppp/3Q4/5N2/8/1q6/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rd8#"
+  ],
+  "rating": 1100,
+  "title": "Pull the King In",
+  "setup": "Black's rook has just left d8 for f8, opening your file and stepping right beside its own king.",
+  "hint": "The king is safest where it stands. Find the check that drags it onto the rank you own.",
+  "explanation": "## The Idea\n\n{{Qxf8+}} is a queen for a rook, and {{Kxf8}} is the only legal answer. The king now stands on the open eighth rank with your file clear behind it: {{Rd8#}}. The knight on f5 takes e7 away, and its own pawns do the rest."
+}

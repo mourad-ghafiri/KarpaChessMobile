@@ -1,0 +1,14 @@
+{
+  "id": "skewer-12",
+  "fen": "8/1r5R/2kpB3/1bp1R3/3P4/2P2P2/4P3/K7 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kb6",
+    "Rxb7+"
+  ],
+  "rating": 1300,
+  "title": "Le fou aligne, la tour prend",
+  "setup": "Le roi noir en c6 a une tour juste derrière lui en b7, et votre tour tient déjà la septième rangée.",
+  "hint": "Quelle pièce peut donner échec sur une diagonale qui se prolonge à travers le roi jusqu'à la tour qui attend derrière ?",
+  "explanation": "## L'idée\n\n{{Bd5+}} est l'enfilade : la diagonale d5–c6–b7 porte le roi et, derrière lui, la tour. Votre tour en **e5** protège d5, donc l'échec ne peut pas être pris. Après {{Kb6}}, {{Rxb7+}} gagne la tour, puisque le fou couvre maintenant aussi b7."
+}

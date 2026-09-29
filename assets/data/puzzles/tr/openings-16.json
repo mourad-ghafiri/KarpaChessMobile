@@ -1,0 +1,13 @@
+{
+  "id": "openings-16",
+  "fen": "rnbqk2r/pp3ppp/4p3/2Pn4/8/P1P2P2/4P1PP/R1BQKBNR b KQkq - 0 8",
+  "solution": [
+    "Qa5",
+    "Bd2",
+    "Qxc5"
+  ],
+  "title": "Tek Dikeyde İki Piyon",
+  "setup": "Siyah, beyazın c piyonlarını ikilemek için koyu kare filini verdi ve beyaz az önce c5'te bir piyon kaptı. İki c piyonuna birden saldırın.",
+  "hint": "Beyazın c piyonları c3 ile c5'te, tek dikeyde ve hiçbirini koruyan piyon yok. İkisine birden bakan kareyi bulun.",
+  "explanation": "## Fikir\n\nFil, beyazın c piyonları üst üste kalsın diye bir ata değişilmişti. Burada bir bedeli oluyor.\n\n{{Qa5}} ikisine de saldırır: c3'e çaprazdan, c5'e beşinci yataydan; ve hiçbir beyaz piyon ikisini de koruyamaz. Beyaz c3'ü {{Bd2}} ile desteklerse {{Qxc5}} piyonu geri alır. Beyazın en iyisi önce e piyonunu sürüp atınızı d5'ten kovmaktır.\n\nTaş dengesi eşit çıkar, ama ikili piyonlar kalır. Bir piyonun savunamadığı zayıflığa saldırın."
+}

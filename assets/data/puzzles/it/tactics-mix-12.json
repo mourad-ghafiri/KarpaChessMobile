@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-12",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3QK3 w - - 0 1",
+  "solution": [
+    "Qd8#"
+  ],
+  "title": "Matto del Corridoio",
+  "setup": "Il re nero in g8 è chiuso dai propri pedoni in f7, g7 e h7, e la traversa dietro di lui non la difende niente.",
+  "hint": "Quando il re avversario è chiuso dietro i propri pedoni, cercate il pezzo che può prendersi un'intera traversa in una mossa.",
+  "explanation": "## L'idea\n\nIl re nero sta sull'ottava traversa, e i suoi pedoni in f7, g7 e h7 fanno sì che le uniche case rimaste, f8 e h8, stiano su quella stessa traversa.\n\n{{Qd8#}} se la prende tutta in un colpo. Niente sta in mezzo, niente arriva a d8 per catturare, e il re è troppo lontano per prenderla.\n\nUn re dietro tre pedoni immobili è a un pezzo pesante dal matto, ed è questo che rende una sola mossa di pedone, giocata in tempo, un'assicurazione così economica."
+}

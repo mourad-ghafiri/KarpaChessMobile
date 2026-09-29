@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-05",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Yalnız Kalenin Yürüyüşü",
+  "setup": "Siyahın g8'deki şahı hâlâ hiç oynamamış üç piyonun arkasında duruyor ve b1'deki kalenizin önünde boş bir dikey var.",
+  "hint": "Siyahın şahının ulaşabildiği kareleri sayın, sonra ayrılamayacağı yatayı bulun.",
+  "explanation": "## Fikir\n\nNe feda ne değişim: kale öylece içeri yürüyor. {{Rb8#}} sekizinci yatay boyunca şah çeker. f7, g7 ve h7'deki piyonlar şahın önündeki her kareyi alır ve kale f8 ile h8'i kapsar. Siyahın hiçbir şeyi yatayı kapatamaz ya da kaleyi alamaz.\n\nBir şahın önündeki hiç oynamamış üç piyon, arka yatay boşalana kadar bir duvardır. Sonra matın sebebi olurlar."
+}

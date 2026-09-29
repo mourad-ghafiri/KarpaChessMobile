@@ -1,0 +1,12 @@
+{
+  "id": "pin-08",
+  "fen": "2k5/b3p3/4r1p1/8/1P1pp2P/P6R/2P1B1K1/8 w - - 0 1",
+  "solution": [
+    "Bg4"
+  ],
+  "rating": 1080,
+  "title": "A Quatro Casas de Distância",
+  "setup": "A torre preta em e6 está numa diagonal clara que acaba no seu próprio rei, escondido no canto em c8.",
+  "hint": "Encontra a diagonal clara que corre do teu lado do tabuleiro através da torre até ao rei preto.",
+  "explanation": "## A Ideia\n\nAs casas g4, f5, e6, d7 e c8 formam uma só diagonal. {{Bg4}} ocupa a ponta mais próxima, portanto a torre de **e6** fica cravada contra o rei de **c8** e atacada ao mesmo tempo. Nada guarda a torre, e ela não pode mexer."
+}

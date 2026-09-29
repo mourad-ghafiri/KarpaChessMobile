@@ -1,0 +1,11 @@
+{
+  "id": "thinking-process-proof",
+  "fen": "6k1/5ppp/1Q6/4r3/4n2P/7P/5PP1/1qR3K1 b - - 0 1",
+  "solution": [
+    "Qxc1+"
+  ],
+  "title": "Two Captures, One Check",
+  "setup": "White's queen on b6 is standing loose, and the rook on c1 is attacking your queen. Ask the three questions before you take anything.",
+  "hint": "White threatens a check on the eighth rank that your king cannot escape. One of your captures comes with check, and a check cannot be ignored.",
+  "explanation": "## The Idea\n\nQuestion one: White is threatening to take your queen, and to check on the eighth rank, where your king has no square to run to.\n\nQuestion two finds two captures. {{Qxb6}} wins a queen, and question three throws it away: the rook checks on c8, and mate follows.\n\n{{Qxc1+}} wins a rook with check, from a square nothing attacks. White has to answer the check, and you are a rook and a knight ahead, with time to deal with the threat."
+}

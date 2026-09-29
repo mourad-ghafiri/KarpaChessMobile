@@ -1,0 +1,56 @@
+{
+  "id": "the-fork",
+  "title": "Çatal",
+  "summary": "İki soru soran tek hamle ve yalnızca birine cevap verebilen bir rakip",
+  "proof": "forks-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Aynı Anda İkisi",
+      "text": "Siz her hamle yaptığınızda rakibiniz de bir hamle alır. Bütün bütçe bu kadar ve önünüzdeki her taktik, o tek hamleden taşıyabileceğinden fazlasını istemenin bir yoludur.\n\n**Çatal**, bunu istemenin en yalın yoludur. Tek hamle, saldırı altındaki iki rakip taş ve ikisiyle birden ilgilenmek zorunda olan tek bir cevap.\n\nSiyahın c6'daki şahı ile d5'teki veziri bir kare arayla duruyor. c2'deki atınız henüz ikisine de saldırmıyor ve saldırmasına gerek de yok. Ona ikisine birden dokunan tek bir kare gerekiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Cevap Veremediğiniz Taş",
+      "text": "Fil, kale ya da vezir bir hat boyunca saldırır ve hat kesilebilir — yola bir şey koyun, saldırı orada dursun. Atın saldırısının ise araya bir şey konacak hiçbir karesi yoktur.\n\nSonra tuhaf kısmı geliyor. Bir atın saldırdığı taş, o atı neredeyse hiçbir zaman geri alamaz. Atın durduğu kareye ulaşmak L çizerek oynamak demektir ve bunu yalnızca başka bir at yapar. Şah bile yapamaz: şah çeken bir at, şah çektiği şahın yanında durmaz.\n\nBöylece savunan tarafa satrancın en kısa cevap listesi kalır."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "prompt": "Atınızın ulaşabildiği, şah ile vezire birlikte saldıran tek kareyi bulun.",
+      "targetSan": [
+        "Nb4+"
+      ],
+      "hint": "Hedeflerden geriye doğru çalışın: hangi kareler c6'ya saldırıyor ve bunlardan hangisi aynı zamanda d5'e saldırıyor?"
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Üçe Dokuz ya da Bedavaya Dokuz",
+      "text": "{{Nb4+}} gelir ve siyahın düşünmesine izin verilen tek şey şahtır. Onu kapatan bir şey yok ve b4, ne şahın ne de vezirin ulaşabildiği bir kare.\n\nŞah da yürür. Ona yedi kare açık ve bunlardan tam olarak ikisi, d6 ile c5, hâlâ d5'i koruyor. {{Kd6}} bir kurtuluş gibi görünür, ta ki sayana kadar: {{Nxd5}} {{Kxd5}} bir atı bir vezire değişir. Diğer beşi veziri bedavaya verir.\n\nÜçe dokuz ya da bedavaya dokuz. Bir çatalın bıraktığı seçim bundan ibaret.\n\nŞah ile vezirin birlikte yakalanmasının kendi adı bile var: **şah çatalı**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "Tek Hedef İki Etmez",
+      "text": "Yeni bir tahta ve üzerinde dört taş. Siyahın e8'de bir şahı, e5'te bir atı var; ordunun tamamı bu.\n\na1'deki veziriniz o ata çoktan bakıyor. Köşeden çıkan uzun çapraz b2, c3, d4 üzerinden geçip e5'e varıyor ve hattın hiçbir yerinde duran bir şey yok. Atı koruyan da yok.\n\nYani at öylece alınabilir — ve o gittiğinde siyahın elinde bir şah ile çıplak kareler kalır. O taş alma her neyse, çatal değildir. Çatalın saldıracak iki şeye ihtiyacı vardır ve bu pozisyonda hiçbir zaman iki şey olmadı."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "Ödül Şah Değildir",
+      "text": "Şah tek başına hiçbir şey kazandırmaz. {{Qa8+}} gerçek bir şahtır — siyah şahı yana çeker ve veziriniz artık atı hiç göremediği bir köşededir. Pozisyonu kötüleştirmek için harcanmış bir hamle.\n\nOynamaya değen şah, gelirken zaten başka bir iş görmüş olandır. Siyahın tek hamlesi şaha gider ve o başka iş tahtada kalır.\n\n> Çatal, rakibinizin tek hamlesine iki görev yükler. Şah ise o görevi onun yerine seçer. İkisi de aynı sebeple işe yarar: hamle yalnızca bir kez gelir."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "prompt": "Atı, siyaha şah hamlesinden başka cevap bırakmayacak şekilde alın.",
+      "targetSan": [
+        "Qxe5+"
+      ],
+      "hint": "At ile siyah şah aynı dikeyde duruyor; öyleyse vezir o dikeye indiğinde ne yapıyor, onu sorun."
+    }
+  ]
+}

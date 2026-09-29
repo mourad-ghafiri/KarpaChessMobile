@@ -1,0 +1,11 @@
+{
+  "id": "endgame-03",
+  "fen": "8/8/7k/4P3/8/5K2/8/8 w - - 0 1",
+  "solution": [
+    "Ke4"
+  ],
+  "title": "Prima il Re, Poi il Pedone",
+  "setup": "Il vostro pedone in e5 è passato, ma il re nero in h6 è abbastanza vicino da prenderlo da solo. Una mossa mantiene la vittoria.",
+  "hint": "Spingete il re, non il pedone. Quale casa mette il vostro re accanto alla strada del pedone prima che ci arrivi il re nero?",
+  "explanation": "## L'idea\n\nIl re nero in h6 sta dentro il quadrato del pedone, quindi il pedone non può vincere la corsa da solo. Gli serve una scorta.\n\n{{Ke4}} è l'unica mossa che mantiene la vittoria: il re punta alle case accanto alla strada del pedone finché può ancora arrivarci prima. Spingete invece {{e6}}, o mandate il re da qualunque altra parte, e la posizione è patta.\n\nContate il quadrato prima di spingere. Se il re avversario è dentro, va prima il re."
+}

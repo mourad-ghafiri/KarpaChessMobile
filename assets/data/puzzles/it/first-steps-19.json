@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-19",
+  "fen": "8/7P/6k1/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "h8=Q"
+  ],
+  "title": "La Lunga Marcia",
+  "setup": "Il vostro pedone h ha marciato fino alla settima traversa, e il re nero in g6 è a un passo dal mangiarselo.",
+  "hint": "Aspettare perde il pedone. Finite adesso il viaggio, e scegliete il pezzo più forte in cui possa trasformarsi.",
+  "explanation": "## L'idea\n\nIl re nero in g6 tocca h7, quindi qualunque mossa tranquilla gli lascia prendere il pedone, e un re solo contro un re solo è patta. {{h8=Q}} chiude la questione: il pedone lascia h7 nella mossa in cui è attaccato, e h8 è fuori dalla portata del re.\n\nAnche una torre vincerebbe, solo più lentamente. La donna vale nove punti, e re e donna contro un re solo vincono sempre."
+}

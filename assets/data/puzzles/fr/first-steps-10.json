@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-10",
+  "fen": "4k3/4p3/8/8/1n2R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Rxb4"
+  ],
+  "title": "La tour choisit",
+  "setup": "Votre tour en **e4** attaque le long de ses deux lignes : un cavalier se trouve sur la rangée, un pion sur la colonne.",
+  "hint": "Le pion en e7 est tentant, mais regardez qui se tient juste derrière lui.",
+  "explanation": "## L'idée\n\nLa tour atteint deux pièces noires, l'une sur sa colonne et l'autre sur sa rangée.\n\n{{Rxe7+}} tombe sur {{Kxe7}} : le roi en e8 protège e7, et vous avez échangé une tour de cinq points contre un pion d'un point. {{Rxb4}} prend un cavalier que rien ne protège et garde les trois points.\n\nLe roi est un vrai défenseur, et tout ce qui se tient à côté de lui est protégé. Vérifiez toute la rangée et toute la colonne de votre tour, puis prenez la cible que personne ne protège."
+}

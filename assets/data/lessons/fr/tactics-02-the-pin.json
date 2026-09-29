@@ -1,0 +1,56 @@
+{
+  "id": "the-pin",
+  "title": "Le clouage",
+  "summary": "Quand bouger une pièce est illégal, et quand c'est simplement ruineux",
+  "proof": "pins-skewers-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Neuf points qui ne vont nulle part",
+      "text": "La dame noire vaut neuf points, et elle n'a pas le droit de quitter la colonne d.\n\nTrois pièces partagent cette colonne : votre tour en d2, la dame noire en d6, le roi noir en d8. Envoyez la dame n'importe où hors de la colonne et le roi derrière elle se retrouve exposé à la tour. Ce coup n'est pas mauvais. Il est illégal, et l'échiquier refusera de le jouer.\n\nLa dame est **clouée** — retenue sur place par ce qui se tient derrière elle."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Le long de la ligne, et nulle part ailleurs",
+      "text": "Une pièce clouée n'est pas figée. Elle peut se déplacer le long de la ligne du clouage, où le roi reste couvert : la dame peut aller en d7 ou en d5, et elle peut même prendre la tour. Partout ailleurs sur l'échiquier, c'est fermé.\n\nC'est un **clouage absolu** — la pièce derrière est le roi, donc quitter la ligne est interdit, pas seulement imprudent.\n\nVotre tour est clouée exactement de la même façon, par la dame, contre votre roi en d1. Deux pièces clouées, une seule colonne. La seule différence, c'est qui a le trait."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Trois pièces peuvent le faire",
+      "text": "Un clouage est une ligne, donc seule une pièce qui attaque le long d'une ligne peut en créer un : la dame, la tour, le fou. C'est la liste complète.\n\nUn cavalier ne peut pas clouer. Son déplacement ne touche rien entre le départ et l'arrivée, et aucune ligne ne se prolonge au-delà de sa case d'arrivée pour qu'une seconde pièce s'y tienne. Un pion et un roi atteignent une case et s'arrêtent, ce qui les exclut aussi.\n\nTrois pièces peuvent clouer. N'importe quelle pièce peut être clouée."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "prompt": "Prenez les neuf points qui ne peuvent pas s'écarter du chemin de votre tour.",
+      "targetSan": [
+        "Rxd6+"
+      ],
+      "hint": "Rien ne défend d6, et le coup qui le ramasse ne quitte jamais la colonne d."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Quand bouger coûte simplement cher",
+      "text": "Placez derrière la pièce clouée autre chose qu'un roi, et tout s'adoucit.\n\nLe fou blanc en g5 regarde à travers le cavalier en f6 jusqu'à la dame en d8, avec e7 vide entre eux. Le cavalier noir peut bouger. Sur n'importe quelle case, en toute légalité — et cela coûte une dame contre un fou.\n\nC'est un **clouage relatif**. Rien n'interdit le coup ; seul le prix plaide contre lui, et de temps en temps ce prix vaut la peine d'être payé."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Se décrocher",
+      "text": "Un clouage prend fin de trois façons. Prendre la pièce qui cloue. Placer quelque chose sur la ligne entre les deux. Ou déplacer la pièce de derrière, pour qu'il n'y ait plus rien à gagner — {{Qd6}} le fait ici, et le cavalier est libre.\n\nNe rien faire est l'option la plus coûteuse. Chaque pièce que les Blancs amènent contre f6 arrive face à un cavalier qui ne peut pas esquiver, et un clouage qu'on tolère à peu de frais pendant un coup coûte très cher sur cinq."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "prompt": "Fermez la diagonale entre le fou blanc et votre dame pour que le cavalier puisse de nouveau bouger.",
+      "targetSan": [
+        "Be7"
+      ],
+      "hint": "Une case vide sépare le cavalier cloué de votre dame — quelle pièce peut l'occuper sans être en prise ?"
+    }
+  ]
+}

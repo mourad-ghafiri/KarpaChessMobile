@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-08",
+  "fen": "6k1/2q1nppp/8/3b2B1/7Q/6P1/5PBP/6K1 w - - 1 2",
+  "solution": [
+    "Bxe7"
+  ],
+  "rating": 1320,
+  "title": "Cut the Support",
+  "setup": "Your bishop on g2 stares at the bishop on d5, which survives only because the knight on e7 guards it.",
+  "hint": "Two bishops face off on the long diagonal. One black piece decides that duel — can you get at it?",
+  "explanation": "## The Idea\n\n{{Bxe7}} removes the only defender of d5. After {{Qxe7}} the bishop is undefended and {{Bxd5}} wins a clean piece. The trade on e7 is even; the piece it uncovers is not. A duel on a diagonal is decided by whoever supports the pieces."
+}

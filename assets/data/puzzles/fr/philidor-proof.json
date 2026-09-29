@@ -1,0 +1,11 @@
+{
+  "id": "philidor-proof",
+  "fen": "3k4/5R2/8/r1PK4/8/8/8/8 b - - 0 1",
+  "solution": [
+    "Ra6"
+  ],
+  "title": "Fermez la sixième",
+  "setup": "Le roi blanc en d5 est à un pas de la sixième rangée, et de là il chasse votre roi de la case de promotion. Les Noirs jouent, et c'est nul.",
+  "hint": "Le roi blanc a besoin de l'une des trois cases de la sixième rangée. Une tour placée sur une rangée en couvre toutes les cases.",
+  "explanation": "## L'idée\n\nLe roi blanc a besoin de c6, d6 ou e6, et un seul coup de tour prend les trois : {{Ra6}}. Une tour sur une rangée est une barrière, et un roi ne peut pas se poser sur une case qu'elle couvre.\n\nTout autre coup laisse le roi entrer sur la sixième rangée, et avec la tour en f7 qui maintient votre roi sur la dernière rangée, le pion avance jusqu'au bout. Si les Blancs poussent un jour en c6, la barrière a fait son travail : envoyez la tour à l'autre bout et donnez échec par-derrière."
+}

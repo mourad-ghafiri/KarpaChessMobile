@@ -1,0 +1,11 @@
+{
+  "id": "endgames-05",
+  "fen": "8/8/8/8/B6k/p7/7p/2K5 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "Atravessa o Tabuleiro Numa Jogada",
+  "setup": "O peão h das pretas promove na jogada seguinte e ao peão a faltam mais duas. O teu bispo em a4 é a única peça que chega a tempo à ala mais distante.",
+  "hint": "O peão h promove numa casa clara. Encontra a diagonal clara que passa por h1, e depois a única casa dela a que o teu bispo chega.",
+  "explanation": "## A Ideia\n\nh1 é uma casa clara, e a única diagonal clara que lá passa vai de a8 a h1. De a4 o teu bispo junta-se-lhe numa jogada, {{Bc6}}, e daí vigia a casa de promoção para sempre.\n\nO teu rei em c1 trata do outro corredor: está a um passo de b2, de onde cobre a2 e a1. Um cavalo no lugar do bispo não teria chegado a tempo a uma casa que cobrisse h1, e todas as outras jogadas deixam o peão h promover."
+}

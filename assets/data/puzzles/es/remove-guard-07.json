@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-07",
+  "fen": "3r2k1/p4ppp/4n3/2b5/6B1/7P/P4PP1/2R3K1 w - - 1 2",
+  "solution": [
+    "Bxe6"
+  ],
+  "rating": 1290,
+  "title": "Un paso por detrás",
+  "setup": "Tu torre de c1 apunta al alfil de c5, y el caballo de e6 es lo único que lo mantiene con vida.",
+  "hint": "El objetivo está defendido una vez. Mira a ese único defensor y pregúntate cuál de tus piezas puede alcanzarlo.",
+  "explanation": "## La idea\n\n{{Bxe6}} se come el caballo que defiende c5. Tras {{fxe6}} el alfil queda suelto y {{Rxc5}} se lo lleva. Alfil por caballo es un cambio justo; el alfil de c5 es la propina. Un cambio igualado puede destapar una pieza entera gratis."
+}

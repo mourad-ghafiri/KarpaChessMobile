@@ -1,0 +1,14 @@
+{
+  "id": "skewer-06",
+  "fen": "8/1R1p3p/2k2r2/8/4Pb2/2r5/3R1B1P/4K3 w - - 0 1",
+  "solution": [
+    "Rb6+",
+    "Kc7",
+    "Rxf6"
+  ],
+  "rating": 1100,
+  "title": "Torre Dietro Torre",
+  "setup": "Il Nero ha due torri in gioco, e una di esse condivide la sesta traversa con il suo re in c6.",
+  "hint": "Quale casa della sesta traversa difende già un vostro pezzo? Date scacco da lì.",
+  "explanation": "## L'idea\n\n{{Rb6+}} è un'infilata lungo la sesta traversa: il re davanti, la torre in **f6** dietro. L'alfiere in **f2** difende b6, quindi lo scacco non si può prendere, e ogni casa di fuga tranne c7 è coperta. {{Kc7}}, e {{Rxf6}} vince la torre."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "culture-06",
+  "fen": "r1bqkb1r/pppp1pp1/2n5/1B2p3/4P1p1/8/PPPP1PP1/RNBQNRK1 b k - 1 7",
+  "solution": [
+    "Qh4",
+    "f4",
+    "g3"
+  ],
+  "title": "La Colonna Aperta Era il Punto",
+  "setup": "Il vostro cavallo è andato in g4 e il Bianco l'ha preso, e tutti e due i pedoni h hanno lasciato la colonna h con la vostra torre ancora seduta in h8.",
+  "hint": "La vostra torre fissa già una colonna h aperta senza niente in fondo — quale pezzo può unirsi a lei perché h2 non sia tenibile?",
+  "explanation": "## L'idea\n\n{{Qh4}} non dà scacco, ed è per questo che è difficile da affrontare. Adesso donna e torre condividono la colonna h aperta, il cavallo bianco è tornato in e1, e l'alfiere in b5 sta sull'ala sbagliata.\n\n{{f4}}, che fa spazio al re, è il tentativo migliore del Bianco. {{g3}} risponde, e il matto non si può fermare: perfino {{Qh5}}, che para la colonna, ritarda {{Qh1#}} di una sola mossa.\n\nUna colonna aperta accanto a un re arroccato vale più di un cavallo."
+}

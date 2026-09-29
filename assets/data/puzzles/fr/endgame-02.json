@@ -1,0 +1,11 @@
+{
+  "id": "endgame-02",
+  "fen": "8/8/8/3p4/3k4/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "La seule case qui tient",
+  "setup": "Les Noirs ont un pion de plus avec le roi devant lui, et vous avez exactement un coup qui sauve la partie.",
+  "hint": "Les rois sont à trois cases l'un de l'autre sur une même colonne. Quel coup laisse une seule case vide entre eux, avec les Noirs au trait ?",
+  "explanation": "## L'idée\n\nLe roi noir mène son pion, et les poursuivre perd. La seule défense est l'opposition.\n\n{{Kd2}} laisse une seule case vide entre les rois, avec les Noirs au trait. Le pion ne peut pas avancer, car son propre roi se tient devant lui, donc les Noirs doivent écarter le roi — et votre roi se décale avec lui, reprenant l'opposition.\n\nAllez plutôt en c2 ou e2 et ce sont les Noirs qui prennent l'opposition, et le pion avance jusqu'au bout derrière son roi."
+}

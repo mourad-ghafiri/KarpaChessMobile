@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-11",
+  "fen": "3rk3/8/8/4PK2/8/8/8/R7 b - - 0 1",
+  "solution": [
+    "Rd7"
+  ],
+  "rating": 1580,
+  "title": "Hold the Seventh",
+  "setup": "Black's king holds e8 in front of the pawn, and the white king is ready to march up past it.",
+  "hint": "Find the rank your rook can hold, from which it can check the white king the moment it steps up.",
+  "explanation": "## The Idea\n\n{{Rd7}} takes the seventh rank away from the white king, and the try {{Kf6}} is answered by {{Rf7+}}, driving it straight back: your king on e8 guards the rook. From any lower square on the d-file White walks in with {{Ke6}} instead, and {{Rd6}} even hangs to {{exd6}}."
+}

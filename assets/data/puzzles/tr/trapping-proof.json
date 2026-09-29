@@ -1,0 +1,11 @@
+{
+  "id": "trapping-proof",
+  "fen": "2kr4/Bpp2ppp/3b1n2/4p3/8/5N2/PPP2PPP/4R1K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "title": "a7'de Mahsur Kalan Fil",
+  "setup": "Beyazın fili az önce bir piyon aldı ve şimdi a7'de oturuyor. Güvenli görünüyor: sizin hiçbir şeyiniz ona saldırmıyor. Oradan bir daha asla ayrılamamasını sağlayan hamleyi bulun.",
+  "hint": "Filin karelerini sayın. Eve giden tek yolu tek bir çaprazdan geri döner ve piyonlarınızdan biri, korunarak, o yolun üstünde durabilir.",
+  "explanation": "## Fikir\n\n{{b6}} eve giden tek yolu kapatır. a7'deki file iki kare kalır: c8'deki şahınızın kapsadığı b8 ve piyonun c7'deki piyonla korunduğu b6.\n\nFile henüz hiçbir şey saldırmıyor ve saldırması da gerekmiyor. Şahınız sırada b7'ye yürüyüp onu alır ve beyazın geri alabileceği en fazla şey, fili b6'da vererek kazanacağı bir piyondur."
+}

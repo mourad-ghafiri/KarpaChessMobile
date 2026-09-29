@@ -1,0 +1,14 @@
+{
+  "id": "skewer-11",
+  "fen": "8/2q3k1/p7/2p1P2p/PR1p1P2/3Q4/2B3rP/5K2 w - - 0 1",
+  "solution": [
+    "Qh7+",
+    "Kf8",
+    "Qxc7"
+  ],
+  "rating": 1270,
+  "title": "The Bishop Behind",
+  "setup": "Your queen on d3 stands in front of your bishop, and the black king and queen share the seventh rank.",
+  "hint": "Your queen is blocking its own bishop. Where can it go so that leaving the square is what keeps it safe?",
+  "explanation": "## The Idea\n\n{{Qh7+}} looks like a giveaway until you see what leaving d3 does: the bishop on **c2** now covers h7 along the b1–h7 diagonal, so the king cannot take. {{Kf8}} is forced, and the seventh rank lies bare for {{Qxc7}}."
+}

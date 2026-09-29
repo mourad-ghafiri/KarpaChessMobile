@@ -1,0 +1,14 @@
+{
+  "id": "fork-08",
+  "fen": "1kbr4/pp6/2P5/8/8/8/5PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "c7+",
+    "Ka8",
+    "cxd8=Q"
+  ],
+  "rating": 950,
+  "title": "Pion Mengambil Semuanya",
+  "setup": "Pion c6 Anda tinggal dua langkah dari menteri baru, dengan raja hitam di b8 dan benteng di d8.",
+  "hint": "Pion menyerang dua petak secara diagonal. Temukan dorongan yang menyerang keduanya, lalu hitung siapa yang melindunginya.",
+  "explanation": "## Ide\n\n{{c7+}} menyerang b8 dan d8 bersamaan, dan benteng di c1 menjaga pion, jadi raja tak bisa memakannya. Pion dan gajahnya sendiri hanya menyisakan {{Ka8}}, dan {{cxd8=Q}} mengambil benteng dan menghadirkan menteri baru dalam satu langkah."
+}

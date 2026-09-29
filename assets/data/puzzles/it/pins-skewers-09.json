@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-09",
+  "fen": "r3k3/pp2nppp/8/3P4/8/7B/PP2RPPP/6K1 w - - 0 1",
+  "solution": [
+    "d6"
+  ],
+  "title": "Il Cavallo Inchiodato",
+  "setup": "Il cavallo nero in e7 è bloccato fra la vostra torre e il suo re, ma il re lo difende.",
+  "hint": "Torre per cavallo è un cattivo cambio. Quale dei vostri pezzi può attaccare e7 più a buon mercato?",
+  "explanation": "## L'idea\n\nUn cavallo inchiodato contro il suo re non può proprio muovere, perché ogni balzo lascia la linea. {{Rxe7+}} adesso perderebbe la torre per {{Kxe7}}, quindi portate un attaccante più economico. {{d6}} colpisce il cavallo e difende anche e7. Dopo {{Rd8}}, {{Rxe7+}} prende il cavallo, e il re non può riprendere.\n\nQuando un pezzo inchiodato è difeso, non cambiateci dentro: aggiungete il vostro attaccante più economico."
+}

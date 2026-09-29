@@ -1,0 +1,56 @@
+{
+  "id": "kings-indian-advanced",
+  "title": "Pertahanan India Raja",
+  "summary": "Undang lawan ke pusat, lalu robohkan pusatnya",
+  "proof": "openings-15.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Biarkan Putih Memilikinya",
+      "text": "Putih menguasai c4, d4 dan e4. Tak ada pembukaan lain yang menyerahkannya dengan begitu tenang, dan Hitam telah memakai lima langkah untuk menolak berdebat: kuda ke f6, pion ke g6, gajah ke g7, pion ke d6, raja aman di g8.\n\nItulah tawar-menawar Pertahanan India Raja. Putih mengambil tengah. Hitam mengambil sayap raja yang sudah rampung, gajah di g7 yang membidik ke sepanjang diagonal panjang, dan rencana yang tak akan berubah selama dua puluh langkah berikutnya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Tak Ada yang Menyentuh d4",
+      "text": "Hitung apa yang menyerang pusat Putih. Tak ada. Gajah di g7 membidik ke sepanjang diagonal panjang ke arah d4, tetapi kuda di f6 berdiri di tengah jalan, dan bagaimanapun gajah tak bisa membuat pion bergerak.\n\nHanya pion yang bisa meminta pion bergerak. Dua pion hitam bisa menyerang d4 dalam satu dorongan, dan keduanya condong ke sayap yang berlawanan: satu ke sayap menteri, tempat pion-pion Putih sudah tebal, dan satu ke sayap raja, tempat raja Anda sudah duduk dan raja Putih akan menuju."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "prompt": "Tantang pion d Putih dengan pion Anda sendiri, dengan memilih pion yang rantainya kemudian condong ke sayap raja Putih.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "Dua dorongan pion menyentuh d4. Satu menuju sayap tempat Putih sudah tebal; yang lain menuju sayap tempat Anda ingin menyerang."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQ - 0 7",
+      "title": "Giliran Putih Memilih",
+      "text": "Pion di d4 kini berhadapan dengan sebuah pion, dan Putih harus menyatakan akan menjadi apa pusatnya.\n\n{{d5}} mendorong melewatinya dan menutup posisi — dan itulah yang diincar Hitam, karena pusat yang tertutup memberi tahu kedua pihak ke arah mana harus berlari. {{dxe5}} bertukar sebagai gantinya: lajur d terbuka, menteri-menteri biasanya ikut ditukar, dan seluruh skema serangan Hitam pergi bersamanya.\n\nPilihan ketiga adalah rokade dan membiarkan ketegangan tetap ada. Itulah yang paling tajam dari ketiganya, dan yang menuntut kedua pemain paling banyak tahu."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Dua Rantai, Dua Arah",
+      "text": "Putih mendorong melewatinya, dan kedua pihak memakai langkah-langkah sesudahnya untuk menata ulang. Kuda-kuda Hitam kini berdiri di d7 dan e7, di belakang pionnya sendiri, menunggu sebuah garis terbuka.\n\nTak ada apa pun di tengah yang bisa ditangkap. Rantai pion Putih membentang dari c4 ke d5 dan condong ke sayap menteri; rantai Hitam membentang dari d6 ke e5 dan condong ke sayap raja. Setiap pihak menyerang ke arah yang ditunjuk pionnya sendiri, karena hanya ke arah itulah pion-pion tersebut bisa maju dan membuka sesuatu."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Siapa yang Tiba Lebih Dulu",
+      "text": "Maka ini perlombaan, dan tak satu pelari pun bisa berbalik. Pion yang sudah maju tak kembali, jadi bantuan yang dikirim ke ujung seberang tiba terlambat atau tak tiba sama sekali.\n\nPutih mendorong pion c ke c5, menyerang d6 dan membuka lajur c ke arah sayap menteri Hitam. Hitam menggulirkan pion-pion sayap raja ke arah raja putih, dan setiap pion yang ditukar di sana mengelupas satu lapis lagi perlindungannya. Hitunglah langkah, bukan materi, di sini: sebuah benteng bisa menjadi harga yang pantas untuk tiba satu giliran lebih awal.\n\n> Pusat yang terkunci bukanlah partai yang tenang. Itu dua serangan dengan tembok di antaranya."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "prompt": "Serang pion di e4 dengan pion Anda sendiri dan buka jalan menuju raja Putih.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "Pion Anda di g6 sudah menjaga dua petak, dan salah satunya menatap lurus ke e4."
+    }
+  ]
+}

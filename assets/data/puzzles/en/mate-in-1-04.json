@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-04",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Open Lane to the King",
+  "setup": "The d-file is empty all the way from your rook to the eighth rank, and Black's pawns have left the king no window.",
+  "hint": "Slide the rook to the open back rank — the pawns on f7, g7 and h7 do the rest.",
+  "explanation": "## The Idea\n\nA classic **back-rank mate**. The d-file is a clean highway and Black's king is suffocating behind its own pawns.\n\n{{Rd8#}}: the rook covers f8 and the whole eighth rank, f7, g7 and h7 hold Black's own pawns, and nothing can step between d8 and g8. When your rook and the enemy king share an open back rank, count the escape squares first."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "quiet-move",
+  "title": "A Jogada Silenciosa",
+  "summary": "Sem xeque, sem captura, sem ameaça, e nada que as pretas possam fazer",
+  "proof": "quiet-move-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "O Xeque Que Liberta o Rei",
+      "text": "O rei preto está preso no canto, em h8, e as brancas têm um xeque à espera na oitava linha.\n\n{{Ra8+}}, e as pretas respondem {{Kh7}}. É a única jogada legal, e é a única casa que o teu rei em f6 não cobre. O canto está agora vazio, a torre tem de recomeçar, e as pretas não perderam absolutamente nada.\n\nUm xeque é uma pergunta, e é ao adversário que cabe responder. Este entregou a saída de emergência de graça."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "Conta o Canto",
+      "text": "Então deixa o xeque em paz e conta.\n\nA partir de h8 o rei preto tem duas casas: g8 e h7. A torre cobre a oitava linha no instante em que lá chega, portanto g8 resolve-se sozinha. h7 é a fuga, e nenhuma torre do mundo chega a h7 a partir da oitava linha.\n\nO teu rei em f6 já cobre g7, e é por isso que o canto só tem duas saídas. O que não cobre é h7.\n\nFecha h7 enquanto as pretas não têm nada a responder, e o xeque que falhava passa a acabar a partida."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "prompt": "Usa o teu rei para tirar h7 ao rei preto, para que o xeque de torre na oitava linha seja mate.",
+      "targetSan": [
+        "Kg6"
+      ],
+      "hint": "Dar xeque primeiro só empurra o rei para h7: tira essa casa antes de dares xeque."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/8/8/R7 b - - 2 2",
+      "title": "Uma Jogada Legal",
+      "text": "O teu rei em g6 tira g7 e h7 ao mesmo tempo, e nunca chegou perto do rei preto. Conta as respostas das pretas: {{Kg8}}. A lista é essa.\n\nAgora {{Ra8#}} chega a uma linha que o rei não pode deixar, e as três casas por baixo dele — f7, g7 e h7 — pertencem todas ao teu rei.\n\nNão se forçou nada. Tiraram-se primeiro as respostas, e a pergunta veio depois."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "O Peão Que Não Pode Mexer",
+      "text": "Tabuleiro novo, e o abrigo das pretas está intacto: peões em f7, g7 e h7, torres em a8 e f8, um bispo em b7. As pretas já estão perdidas.\n\nLê a coluna g. A tua torre em g1 aponta diretamente ao rei de g8, e a única coisa entre eles é o peão de g7.\n\nEsse peão parece o guarda de f6 e h6. Está cravado: capturar em qualquer dessas casas tirá-lo-ia da coluna g e deixaria o seu próprio rei em xeque da torre, portanto não pode capturar de todo — e as casas que parece vigiar não as vigia ninguém."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "Mais Barulhento É Mais Lento",
+      "text": "As jogadas barulhentas estão lá. {{Rxg7+}} atira a torre contra o peão, e {{Bxg7}} agarra-o com o bispo, que o rei não pode recapturar, já que a tua torre de g1 guarda g7. As duas ganham, e as duas dão às pretas jogadas com que responder.\n\nHá melhor. Faz uma peça aterrar onde as pretas não lhe têm resposta, ameaça mate para a jogada seguinte, e nenhuma das suas trinta e tal jogadas legais toca no problema."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "prompt": "Leva a tua dama a uma casa que o peão cravado só finge guardar, com mate a seguir.",
+      "targetSan": [
+        "Qh6"
+      ],
+      "hint": "Um peão que ao capturar exporia o seu próprio rei não está a guardar coisa nenhuma."
+    }
+  ]
+}

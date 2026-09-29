@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-03",
+  "fen": "8/8/2k5/1RP5/2K5/8/6r1/8 b - - 0 1",
+  "solution": [
+    "Rg4+"
+  ],
+  "rating": 1300,
+  "title": "Move the Defender",
+  "setup": "Black's king already attacks the rook on b5, and the white king on c4 is the only thing defending it.",
+  "hint": "The rook is defended exactly once. Find the check that sends that defender away and leaves your own rook safe.",
+  "explanation": "## The Idea\n\n{{Rg4+}} pushes the defender off: after {{Kc3}} {{Kxb5}}, the c-pawn falls as well and Black is a rook up. The natural {{Rc2+}} chases the king too, but after {{Kb3}} it attacks your rook, and the rooks come off into a dead draw."
+}

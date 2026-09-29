@@ -1,0 +1,57 @@
+{
+  "id": "ratings",
+  "title": "Qué significa un Elo",
+  "summary": "Una predicción de resultados, no un veredicto sobre ti",
+  "proof": "culture-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "Cuatrocientos puntos por encima",
+      "text": "Las Blancas te sacan cuatrocientos puntos de Elo y acaban de acercarle un peón a tu alfil, con la calma de quien espera que le entreguen cosas.\n\nUn Elo es un pronóstico de resultado. Mete la diferencia entre dos números en una fórmula y sale un resultado esperado: Elos iguales predicen medio punto para cada uno, doscientos puntos de diferencia predicen alrededor de un 76 % para el número más alto, cuatrocientos puntos alrededor de un 91 %.\n\nA nadie se le pronostica ganar todas las partidas, con ninguna diferencia. Ni siquiera a ese."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "Lo que susurra la diferencia",
+      "text": "Cuatrocientos puntos no son un muro. Son un porcentaje, y los porcentajes están hechos de partidas que salieron al revés.\n\nLa diferencia hace su daño antes que la partida. Te dice que lo sostengas todo, que no arriesgues nada y que dejes que el jugador más fuerte lo demuestre, que es exactamente la partida que quiere un jugador más fuerte.\n\nAsí que el alfil empieza a parecer algo que hay que salvar. {{Ba5}}, {{Bc5}}: dos casillas tranquilas, que dan por hecho que quien tiene el número mayor merece algo."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "prompt": "Deja el alfil donde está y recupera el peón del gambito con un caballo.",
+      "targetSan": [
+        "Ngxe5",
+        "Ncxe5"
+      ],
+      "hint": "Cualquiera de los dos caballos puede capturar el peón. El alfil está más seguro donde está de lo que parece, así que no gastes la jugada en él."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "De dónde salen los puntos",
+      "text": "Los caballos se cambiaron en e5, y luego las Blancas se llevaron el alfil. Ahora cuenta lo que paga de verdad un Elo.\n\nGanas cuando puntúas por encima del pronóstico y pierdes cuando puntúas por debajo. Esa es toda la aritmética. Vencer a alguien muy por encima de ti mueve mucho tu número precisamente porque el pronóstico decía que no lo harías: el sistema paga la sorpresa, y paga en proporción a lo sorprendido que está.\n\nPor eso recuperar algo no es lo que importa. {{Qxb4}} se lleva un peón y deja que las Blancas sobrevivan a la partida."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "El regulador llamado K",
+      "text": "Cuánto mueve tu número un solo resultado depende de un coeficiente que la FIDE llama K. Es alto para los jugadores nuevos y jóvenes, para que su Elo encuentre enseguida su nivel, y bajo para los consolidados, para que un mal fin de semana no deshaga años de trabajo. Un regulador de suavizado, nada más.\n\nLos Elos bajan igual que suben, y una bajada no demuestra que hayas empeorado. Significa que puntuaste por debajo del pronóstico, algo que le pasa a todo el que sigue jugando. Los únicos jugadores cuyo número nunca baja son los que dejaron de jugar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Tres monedas distintas",
+      "text": "Arpad Elo, físico y aficionado fuerte, construyó la escala para la federación estadounidense, que la adoptó en 1960. La FIDE la siguió en 1970 y publicó su primera lista oficial el 1 de julio de 1971.\n\nDesde entonces, todos los sitios han copiado la forma, no los números. Un Elo de blitz en línea, el Elo de otro sitio y un Elo FIDE son tres monedas distintas, y ninguna se convierte en otra. Los títulos se fijan solo en la escala FIDE: 2300, 2400 y 2500 para Maestro FIDE, Maestro Internacional y Gran Maestro.\n\n> El Elo pronostica la partida. Nunca la juega."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "prompt": "Las Blancas capturaron la pieza que el pronóstico decía que era gratis, así que encuentra el mate que las propias piezas blancas han construido alrededor de su rey.",
+      "targetSan": [
+        "Nd3#"
+      ],
+      "hint": "Mira por la columna e desde tu dama en e7 y pregúntate qué peón blanco delante del rey no tiene permiso para moverse."
+    }
+  ]
+}

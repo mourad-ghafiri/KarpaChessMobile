@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-02",
+  "fen": "2r3kb/1Q2rppp/8/R7/8/8/PP6/K5B1 w - - 0 1",
+  "solution": [
+    "Qxc8+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1340,
+  "title": "La Torre Deve Interporsi",
+  "setup": "Il Nero ha una torre in c8, una torre in e7 e un alfiere in h8, e la vostra donna siede in b7 in mezzo a tutto questo.",
+  "hint": "Chiedetevi quale pezzo nero possa rispondere a uno scacco sulla traversa di fondo, e a che cosa debba rinunciare per farlo.",
+  "explanation": "## L'idea\n\n{{Qxc8+}} toglie una torre e l'altra deve parare con {{Re8}} — il re non ha una casa. {{Qxe8#}} la riprende. Qui contare i difensori vale più che contare il materiale."
+}

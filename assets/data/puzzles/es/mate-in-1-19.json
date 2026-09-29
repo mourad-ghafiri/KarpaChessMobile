@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-19",
+  "fen": "Q7/5Bpk/7p/8/8/8/8/7K w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "El alfil respalda a la dama",
+  "setup": "El rey negro está en h7, encajonado por sus propios peones de g7 y h6, y tu alfil de f7 está cerca.",
+  "hint": "Tu alfil convierte una casilla junto al rey en terreno amigo: la dama puede permitirse ponerse ahí.",
+  "explanation": "## La idea\n\nEl alfil de f7 convierte g8 en una casilla protegida, así que la dama puede caer ahí, junto al rey.\n\n{{Qg8#}} da jaque desde la casilla de al lado. El alfil protege g8, así que el rey no puede capturar la dama. h8 la cubre la dama, g6 el alfil, y en g7 y h6 están los propios peones negros.\n\nCuando tu dama y tu alfil llegan los dos a las inmediaciones del rey, busca una casilla protegida justo a su lado."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "openings-15",
+  "fen": "rnbq1rk1/pp2ppbp/3p1np1/2P5/2P1PP2/2N2N2/PP4PP/R1BQKB1R b KQ - 0 7",
+  "solution": [
+    "Qa5",
+    "Bd3",
+    "Qxc5"
+  ],
+  "title": "Convidados, e Depois Retomados",
+  "setup": "As brancas construíram um centro enorme e acabaram de comer em c5, na esperança de ficar com o peão a mais. Recupera-o com uma jogada que também crave um cavalo.",
+  "hint": "O rei branco continua em casa, e um dos seus cavalos está na diagonal que lá vai dar. Onde pode a tua dama fazer dois trabalhos?",
+  "explanation": "## A Ideia\n\nA Índia do Rei deixa as brancas agarrar o centro e depois pergunta com o que é que ele está todo defendido.\n\n{{Qa5}} faz dois trabalhos: crava o cavalo de c3 contra o rei de e1, e ataca o peão de c5 ao longo da quinta linha. O melhor para as brancas é desenvolver com {{Bd3}}, e {{Qxc5}} recupera logo o peão.\n\nO material está igual, e os peões brancos de c4, e4 e f4 têm agora de provar que são forças e não alvos.\n\nO espaço só é uma vantagem enquanto se conseguir defender."
+}

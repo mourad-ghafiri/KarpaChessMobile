@@ -1,0 +1,20 @@
+{
+  "id": "smothered-12",
+  "fen": "r5k1/2p3pp/1b6/1p2N3/8/B7/P1Q2PPP/6K1 w - - 6 28",
+  "solution": [
+    "Qb3+",
+    "Kh8",
+    "Nf7+",
+    "Kg8",
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1500,
+  "title": "Jaques hasta la asfixia",
+  "setup": "Las Negras acaban de sacar su alfil de la diagonal a3–f8, y ahora el alfil blanco cubre f8.",
+  "hint": "Empieza con un jaque que el peón de b5 no pueda castigar, y a partir de ahí no le dejes nunca al rey una casilla vacía.",
+  "explanation": "## La idea\n\n{{Qb3+}} obliga a {{Kh8}}, porque el alfil cubre f8. Luego {{Nf7+}} {{Kg8}} y {{Nh6+}} llega como jaque doble, devolviendo al rey a la esquina. La dama cae en g8, la torre está obligada a comer y el caballo vuelve a f7 para dar mate. Cada respuesta negra es la única jugada legal."
+}

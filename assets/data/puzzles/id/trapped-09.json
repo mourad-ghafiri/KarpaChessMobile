@@ -1,0 +1,12 @@
+{
+  "id": "trapped-09",
+  "fen": "5rk1/ppp1bpp1/3p1n1p/8/N7/2P4P/PP3PP1/3R1RK1 b - - 0 1",
+  "solution": [
+    "b5"
+  ],
+  "rating": 1300,
+  "title": "Satu Dorongan Pion",
+  "setup": "Kuda Putih telah pergi ke a4, tempat petak-petaknya hanya b6, c5, c3 dan b2, dan dua di antaranya adalah pion Putih.",
+  "hint": "Dua lompatan kuda menabrak pion Putih sendiri. Pion a7 dan d6 Anda sudah menguasai dua lainnya.",
+  "explanation": "## Ide\n\n{{b5}} menyerang kuda, yang sudah terkepung: b2 dan c3 ditempati pion Putih, b6 dijawab axb6 atau cxb6, c5 dijawab dxc5. Pion b5 itu sendiri tak bisa diambil, jadi kuda begitu saja jatuh."
+}

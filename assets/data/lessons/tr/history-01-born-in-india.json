@@ -1,0 +1,56 @@
+{
+  "id": "chess-origins",
+  "title": "Hindistan'da Doğdu",
+  "summary": "Yaya askerler, atlar, filler, savaş arabaları — ve yolculuktan hangileri sağ çıktı",
+  "proof": "history-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "Dört Sınıf",
+      "text": "Bu tahtadan iki şahı ve iki veziri kaldırın. Ayakta kalan her şey bir ordunun sınıfıdır: *piyade*ler, atlar, filler, savaş arabaları.\n\nTarihçilerin çoğu bu orduyu 6. yüzyıl dolaylarında Kuzey Hindistan'a, **çaturanga** adlı bir oyuna yerleştirir — bir ordunun kurulduğu dört koldan ötürü “dört kollu”. Mucidini kimse söyleyemez, yılını da kimse söyleyemez.\n\nAz önce kaldırdığınız iki taş hiçbir zaman birer sınıf değildi. Şah komuta ederdi ve yanında bir danışman dururdu. O danışman sizin vezirinizdir."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "Savaş Arabasının Yolu",
+      "text": "Savaş arabası tek bir şey ister: üstünde hiçbir şey olmayan bir yol.\n\nBurada iki tarafın da e piyonu kalmamış, yani e dikeyi iki siyah taş dışında baştan sona çıplak: e4'teki at ve yolun ta ucundaki e8'deki siyah şah.\n\nO dikeye, hat boyunca vuran bir şey koyun, at olduğu yere çakılsın. L'sinin ulaştığı her kare o yolun dışındadır ve yoldan ayrılmak kendi şahını saldırı altında bırakır."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "prompt": "İki e piyonu da gitti; o boş yolu bir kaleyle alın ve atı şahının önüne çivileyin.",
+      "hint": "Oraya kalelerinizden yalnızca biri gidebiliyor. Ötekinin yolunda ne durduğuna bakın.",
+      "targetSan": [
+        "Re1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQR1K1 b k - 2 10",
+      "title": "Bir Hamle Geç",
+      "text": "At saldırı altında ve kaçamıyor; siyahın e4'e gönderebileceği her koruyucu da öbür attan uzaklaşıyor — üstelik beyazın d piyonu ona şimdiden uzanıyor.\n\nSiyah da bunun yerine şahı tartışmanın dışına çıkarır. {{Ne7}} ikisinin arasına bir taş koyar ve kapana kısılmış at yeniden özgürdür — ama sıra beyazdadır.\n\n{{Rxe4}} onu toplar. Savaş arabası tam da bunun içindir. Hedefe bu hamlede varması gerekmez; yalnızca onu göstermeye devam etmesi yeter."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Yeniden Yazılanlar",
+      "text": "Yeni tahta. Oyun Hindistan'dan çıktı ve buraya gelene kadar birden çok kez yeniden yazıldı; bunun neredeyse tamamını iki taş üstlendi.\n\nFilin hamlesi çaprazda tam iki karelik bir sıçramaydı. Altmış dört karenin ancak sekizine dokunabilir, başkasına dokunamazdı. Avrupa bunu çöpe attı. Danışman ise tam ters yöne gitti: tahtanın en zayıf taşı, en güçlüsü olarak geri döndü.\n\nSavaş arabası ile at sağ çıktı. Rok, sonradan savaş arabasına hiçbir savaş arabasının sahip olmadığı bir hüner verdi, ama onun tahtayı kat ediş biçimi her zamanki biçimidir."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "At Sıçrayışını Korudu",
+      "text": "Başka her taş bir hat boyunca gider ve hat iki yöne birden işler — az önce kapana kıstırdığınız at, içinden kendi şahına bir hat geçtiği için kaybedildi.\n\nSıçrayışın hattı yoktur. At, çıktığı yerle indiği yer arasındaki kareleri hiç geçmez; yani araya girecek bir şey de, boyunca gösterilecek bir hat da yoktur. Attan gelen bir şahın tam olarak iki cevabı vardır: şahı oynatmak ya da atı almak.\n\n> Bir yol kapatılabilir. Bir sıçrayış kapatılamaz."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Aynı anda hem siyah şaha şah çeken hem de c8'deki kaleye saldıran sıçrayışı bulun.",
+      "hint": "Şahtan başlayın: atınızın ulaşabildiği, şahın yanındaki kareleri sıralayın, sonra bu karelerin her birinin başka neye dokunduğunu sorun.",
+      "targetSan": [
+        "Ne7+"
+      ]
+    }
+  ]
+}

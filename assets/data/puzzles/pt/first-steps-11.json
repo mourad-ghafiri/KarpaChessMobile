@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-11",
+  "fen": "k2rr3/8/8/8/8/6p1/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kf1"
+  ],
+  "title": "Uma Só Porta",
+  "setup": "A torre em e8 dá xeque ao teu rei — e as outras peças pretas fecharam em silêncio quase todas as saídas.",
+  "hint": "A torre de d8 vigia a coluna d e o peão de g3 cobre f2. O que resta?",
+  "explanation": "## A Ideia\n\nEstás em xeque da torre de e8, sem nada com que tapar e sem nada que a possa capturar. O rei tem de mexer, mas para onde?\n\n- d1 e d2 estão cobertas pela torre de d8\n- f2 está atacada pelo peão de g3\n- e2 continua na coluna e, continua em xeque\n- {{Kf1}} é a única casa que resta\n\nUma porta em cinco. Verifica cada casa que o rei poderia usar contra cada peça inimiga."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "culture-01",
+  "fen": "rnbqkbn1/ppppp3/7r/6pp/3P1p2/3BP1B1/PPP2PPP/RN1QK1NR w KQq - 2 7",
+  "solution": [
+    "Qxh5+",
+    "Rxh5",
+    "Bg6#"
+  ],
+  "title": "Order of Operations",
+  "setup": "Black has thrown three pawns forward and the king is still at home. Two of your pieces want the same corner.",
+  "hint": "Your queen and your bishop can each reach the diagonal that ends at the black king. Ask which of them the rook on h6 can take.",
+  "explanation": "## The Idea\n\nThe queen on d1 and the bishop on d3 both want the diagonal to e8, and only one order works.\n\n{{Qxh5+}} goes first. Blocking with {{Rg6}} loses at once, and after {{Rxh5}} the rook has left the sixth rank, so nothing guards g6: {{Bg6#}}. The bishop covers f7, and the king's own pawns, queen and bishop fill the rest.\n\nStart with the bishop and {{Bg6+}} is met by {{Rxg6}}. Touch-move will not let you change your mind."
+}

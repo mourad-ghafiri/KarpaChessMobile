@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-02",
+  "fen": "rnbqk2r/pppp1ppp/5n2/2b1p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4",
+  "solution": [
+    "Qxf7#"
+  ],
+  "rating": 630,
+  "title": "Dua Penyerang, Satu Penjaga",
+  "setup": "Menteri Anda di h5 dan gajah di c4 sama-sama menatap f7, petak yang hanya dilindungi raja hitam.",
+  "hint": "Dua buah Anda sudah menyerang petak yang sama. Hitung berapa pembela hitam yang dimilikinya.",
+  "explanation": "## Ide\n\nf7 hanya dilindungi raja, dan dua penyerang mengalahkan satu pembela. {{Qxf7#}} mendarat di samping raja, dijaga gajah di c4, jadi tak bisa diambil. e7 dan f8 dikuasai menteri sendiri; d7 dan d8 ditutup buah Hitam."
+}

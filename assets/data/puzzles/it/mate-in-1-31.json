@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-31",
+  "fen": "k7/8/1K6/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "Gabbia d'Angolo",
+  "setup": "Il re nero è messo all'angolo in a8 con il vostro re a un balzo di cavallo, a sorvegliare tutte e due le case di fuga.",
+  "hint": "Il vostro re possiede già a7 e b7. Una mossa di donna prende tutto il resto.",
+  "explanation": "## L'idea\n\nA un re messo all'angolo basta che gli si tolga la traversa. Il vostro re in b6 copre a7 e b7.\n\n{{Qg8#}} dà scacco dall'altra parte della scacchiera, b8 sta sulla linea della donna, e niente può parare.\n\nContro un re messo all'angolo, il vostro re sigilla le case accanto a lui e qualunque scacco lungo la traversa di fondo è matto."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "endgame-02",
+  "fen": "8/8/8/3p4/3k4/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "A Única Casa Que Segura",
+  "setup": "As pretas têm um peão a mais com o rei a guiá-lo, e tens exatamente uma jogada que salva a partida.",
+  "hint": "Os reis estão a três casas de distância numa coluna. Que jogada deixa uma só casa vazia entre eles, com as pretas a jogar?",
+  "explanation": "## A Ideia\n\nO rei preto guia o seu peão, e persegui-los perde. A única defesa é a oposição.\n\n{{Kd2}} deixa uma casa vazia entre os reis, com as pretas a jogar. O peão não pode avançar, porque o seu próprio rei está à frente dele, portanto as pretas têm de afastar o rei — e o teu rei acompanha-o, voltando a tomar a oposição.\n\nVai antes a c2 ou e2 e as pretas tomam a oposição, e o peão vai para casa atrás do seu rei."
+}

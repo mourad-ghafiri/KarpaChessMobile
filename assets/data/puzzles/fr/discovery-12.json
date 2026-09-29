@@ -1,0 +1,14 @@
+{
+  "id": "discovery-12",
+  "fen": "6k1/pb3ppp/3p4/8/8/8/2Q3rP/2R2N1K b - - 0 1",
+  "solution": [
+    "Rxc2+",
+    "Kg1",
+    "Rg2+"
+  ],
+  "rating": 1350,
+  "title": "Le moulin tourne",
+  "setup": "Votre tour en g2 bloque la ligne de votre propre fou vers h1, et la dame blanche en c2 est protégée par une tour.",
+  "hint": "La tour peut partir avec échec et revenir aussitôt avec échec. Cherchez pourquoi g2 est une case que les Blancs ne peuvent jamais prendre.",
+  "explanation": "## L'idée\n\n{{Rxc2+}} prend la dame protégée, car quitter g2 découvre l'échec du fou depuis b7. {{Kg1}} est forcé, et {{Rg2+}} revient aussitôt : le roi ne peut pas prendre, puisque le fou couvre g2, et f1 est bouchée par le propre cavalier blanc. La tour est intouchable, et la dame est perdue pour rien."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-18",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+  "solution": [
+    "dxe5"
+  ],
+  "title": "Buka Pusatnya",
+  "setup": "Kedua pihak telah mendorong pion d dan e mereka, dan keempatnya kini bertemu di pusat.",
+  "hint": "Ketika empat pion pusat bersentuhan, penangkapan pertama menentukan siapa yang mendapat garis terbuka. Mana yang juga membuka lajur ke arah menteri Hitam?",
+  "explanation": "## Ide\n\n{{dxe5}} mengambil pion e dan membuka lajur d. Jika Hitam menjawab {{dxe4}}, maka {{Qxd8+}} menukar menteri dengan sekak, raja Hitam harus menangkap balik dan kehilangan hak rokade, dan pion di e4 terputus dari kawan-kawannya. {{exd5}} sebagai gantinya membiarkan {{Qxd5}} menangkap balik dengan menteri di pusat.\n\nKetika pion-pion pusat bertemu, tangkaplah di tempat lajur yang Anda buka bekerja untuk Anda."
+}

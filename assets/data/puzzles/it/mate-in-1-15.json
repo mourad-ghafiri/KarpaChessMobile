@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-15",
+  "fen": "6k1/4Rppp/8/8/1B6/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "L'Alfiere Taglia la Finestra",
+  "setup": "La vostra torre in e7 è a un passo dalla traversa di fondo, e il vostro alfiere in b4 le sta dietro sulla diagonale verso f8.",
+  "hint": "Quando la torre muove, la diagonale dell'alfiere si apre. Quale casa toglie questo al re?",
+  "explanation": "## L'idea\n\n{{Re8#}} dà scacco lungo la traversa di fondo, e la mossa stessa apre la diagonale dell'alfiere: con la torre andata via da e7, l'alfiere in b4 copre f8. h8 sta sulla linea della torre, e f7, g7 e h7 hanno i pedoni del Nero. Niente può catturare la torre o parare.\n\nUn pezzo che esce da una linea consegna quella linea al pezzo che ha dietro."
+}

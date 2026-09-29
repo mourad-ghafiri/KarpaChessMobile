@@ -1,0 +1,13 @@
+{
+  "id": "history-02",
+  "fen": "7k/8/p4N2/1p5p/8/8/8/2R3K1 w - - 0 1",
+  "solution": [
+    "Rc7",
+    "b4",
+    "Rh7#"
+  ],
+  "title": "Penyelesaian Mansuba",
+  "setup": "Soal bergaya syatranj: benteng dan kuda melawan raja di sudut, dan Hitam tak punya apa-apa selain menggeser pion.",
+  "hint": "Jangan sekak dulu. Kuda sudah menguasai g8 dan h7, jadi tanyakan baris mana yang dibutuhkan benteng sebelum sekak layak diberikan.",
+  "explanation": "## Ide\n\nInilah **mat Arab** dari kumpulan soal tertua: benteng di samping raja di sudut, kuda menjaga benteng.\n\nBenteng tak bisa memberikannya dari c1. {{Rc7}} adalah langkah tenang: benteng merebut baris ketujuh, kuda sudah menguasai g8, dan raja tak punya petak lagi. Hitam hanya bisa mendorong pion, {{b4}} atau yang lain, dan {{Rh7#}} menyusul, dengan kuda menjaga h7.\n\nSekak lebih dulu dengan {{Rc8+}} dan raja lolos ke g7. Bangun jaringnya, baru beri sekak."
+}

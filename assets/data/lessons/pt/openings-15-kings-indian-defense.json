@@ -1,0 +1,56 @@
+{
+  "id": "kings-indian-advanced",
+  "title": "A Defesa Índia do Rei",
+  "summary": "Convida-os ao centro e depois deita-o abaixo",
+  "proof": "openings-15.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Deixa-os Ficar Com Ele",
+      "text": "As brancas seguram c4, d4 e e4. Nenhuma outra abertura entrega isso tão em silêncio, e as pretas gastaram cinco jogadas a recusar a discussão: cavalo para f6, peão para g6, bispo para g7, peão para d6, rei arrumado em g8.\n\nÉ esse o negócio da Índia do Rei. As brancas ficam com o meio. As pretas ficam com uma ala do rei acabada, um bispo em g7 apontado pela grande diagonal, e um plano que não muda nas próximas vinte jogadas."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Nada Está a Tocar em d4",
+      "text": "Conta o que ataca o centro das brancas. Nada. O bispo em g7 aponta pela grande diagonal a d4, mas o cavalo de f6 está na estrada, e um bispo não pode de qualquer maneira fazer uma jogada de peão.\n\nSó um peão pede a um peão que se mexa. Dois peões pretos podem atingir d4 num só avanço, e os dois inclinam-se para alas opostas: um para a ala da dama, onde os peões brancos já estão densos, e outro para a ala do rei, onde o teu rei já está e para onde o deles vai."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "prompt": "Desafia o peão d das brancas com um peão teu, escolhendo aquele cuja cadeia se inclinará depois para a ala do rei das brancas.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "Dois avanços de peão tocam em d4. Um aponta para a ala onde as brancas já estão densas; o outro aponta para a ala onde queres atacar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQ - 0 7",
+      "title": "É a Vez de as Brancas Escolherem",
+      "text": "O peão em d4 tem agora um peão na cara, e as brancas têm de dizer o que vai ser o centro.\n\n{{d5}} empurra para lá dele e fecha a posição — que é aquilo por que as pretas jogam, porque um centro fechado diz aos dois lados para que lado correr. {{dxe5}} troca antes: a coluna d abre-se, com ela saem normalmente as damas, e o esquema de ataque das pretas sai com elas.\n\nA terceira escolha é rocar e deixar a tensão de pé. É a mais aguda das três, e a que pede aos dois jogadores que saibam mais."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Duas Cadeias, Duas Direções",
+      "text": "As brancas empurraram para lá, e os dois lados usaram as jogadas seguintes para se reorganizar. Os cavalos pretos estão agora em d7 e e7, atrás dos seus próprios peões, à espera de que uma linha se abra.\n\nNo meio não se pode capturar nada. A cadeia de peões das brancas vai de c4 a d5 e inclina-se para a ala da dama; a das pretas vai de d6 a e5 e inclina-se para a ala do rei. Cada lado ataca na direção para onde os seus próprios peões apontam, porque é a única direção em que esses peões podem avançar e abrir alguma coisa."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Quem Lá Chega Primeiro",
+      "text": "Uma corrida, então, e nenhum dos corredores pode dar meia-volta. Os peões que avançaram não voltam, portanto a ajuda enviada para o outro extremo chega tarde ou não chega.\n\nAs brancas avançam o peão c até c5, atingem d6 e abrem a coluna c na ala da dama das pretas. As pretas fazem rolar os peões da ala do rei contra o rei branco, e cada peão trocado ali arranca-lhe mais uma camada de abrigo. Aqui conta as jogadas em vez do material: uma torre pode ser um preço justo por chegar uma vez mais cedo.\n\n> Um centro trancado não é uma partida tranquila. São dois ataques com uma parede pelo meio."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "prompt": "Ataca o peão de e4 com um peão teu e abre o caminho até ao rei branco.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "O teu peão em g6 já guarda duas casas, e uma delas fita diretamente e4."
+    }
+  ]
+}

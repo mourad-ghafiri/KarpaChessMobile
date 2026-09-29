@@ -1,0 +1,60 @@
+{
+  "id": "pawn-moves",
+  "title": "Un pion ne recule jamais",
+  "summary": "Il avance tout droit, frappe en diagonale, et ne fait jamais un pas en arrière",
+  "proof": "first-steps-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "Une case, une direction",
+      "text": "Chaque coup de pion est définitif. Un pion avance tout droit, une case à la fois, et seulement vers une case vide — une pièce placée devant lui est un mur.\n\nLe pion en e2 avance en {{e3}}. De là, il peut continuer à monter, mais rien dans les règles ne le ramènera jamais en e2. Toutes les autres pièces peuvent revenir d'où elles viennent. Le pion, non.\n\nLe terrain qu'un pion abandonne est abandonné pour le reste de la partie."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "Le premier coup peut faire deux cases",
+      "text": "Une exception, et chaque pion en profite exactement une fois.\n\nSur sa case de départ, un pion peut avancer de deux cases au lieu d'une, à condition que les deux cases devant lui soient vides. Ce pion e a le choix dès maintenant : {{e3}} ou {{e4}}. Aucun des deux n'est plus correct que l'autre.\n\nL'offre expire dès que le pion quitte sa case de départ. Ensuite, c'est une case par coup, jusqu'à la dernière rangée — où un pion qui survit à la marche est promu en une pièce bien plus forte, dans une leçon qui lui est consacrée."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "prompt": "Avancez le pion — d'une case, ou de deux tant qu'il est encore sur sa case de départ.",
+      "targetSan": [
+        "e3",
+        "e4"
+      ],
+      "hint": "Un pion va toujours tout droit, et le saut de deux cases n'est offert qu'à son premier coup."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "Il combat en diagonale",
+      "text": "Retirer une pièce adverse, c'est une **prise** : elle quitte l'échiquier, et vous prenez sa place sur sa case. Toutes les pièces prennent. Le pion est le seul à prendre autrement qu'il ne se déplace.\n\nUn pion ne prend jamais la pièce placée juste devant lui — tout droit, c'est pour marcher, et seulement vers une case vide. Il frappe d'une case en diagonale vers l'avant, à gauche ou à droite.\n\nLe pion noir en d5 s'est avancé à portée. Il se trouve sur l'une des deux cases que votre pion en e4 peut frapper.\n\n> Tout droit pour avancer, en diagonale pour prendre. Tout le pion tient dans cette asymétrie."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Le pion noir en d5 se tient là où votre pion peut l'atteindre — retirez-le de l'échiquier.",
+      "targetSan": [
+        "exd5"
+      ],
+      "hint": "Le pas et la frappe d'un pion vont dans des directions différentes — comptez une case en diagonale vers l'avant depuis e4."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "Le signe de la prise",
+      "text": "Une prise s'écrit avec un **x**, placé entre la pièce qui joue et la case où elle arrive.\n\nLe pion n'a pas de lettre majuscule, alors il prête sa colonne. Le coup que vous venez de jouer s'écrit {{exd5}} : le pion e, qui prend, en d5. La lettre devant dit quel pion est parti, la case dit où il est arrivé.\n\nDésormais, ce **x** veut dire la même chose, quelle que soit la pièce qui joue."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4pp2/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Le pion noir en e5 bloque la route — trouvez le seul coup qui reste à votre pion.",
+      "targetSan": [
+        "exf5"
+      ],
+      "hint": "Un pion ne peut pas prendre la pièce placée juste devant lui, et il y a un second pion noir à côté de celui-ci."
+    }
+  ]
+}

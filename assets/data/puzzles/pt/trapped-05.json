@@ -1,0 +1,12 @@
+{
+  "id": "trapped-05",
+  "fen": "3r2k1/1pp2pp1/7p/n2P4/8/3P3P/PP3PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b4"
+  ],
+  "rating": 1170,
+  "title": "Cavalo Encurralado",
+  "setup": "O cavalo preto aterrou em a5, onde os seus quatro saltos são b3, c4, c6 e b7, e b7 é um peão seu.",
+  "hint": "Os teus peões de a2, d3 e d5 já vigiam três das quatro casas do cavalo. Só falta o ataque.",
+  "explanation": "## A Ideia\n\n{{b4}} ataca o cavalo e ele não tem para onde ir: b3 dá em axb3, c4 em dxc4, c6 em dxc6, e b7 está tapada pelo peão das próprias pretas. Um cavalo em a5 está a uma jogada de peão de ser um ex-cavalo."
+}

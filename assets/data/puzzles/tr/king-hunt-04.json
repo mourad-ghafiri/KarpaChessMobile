@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-04",
+  "fen": "5B2/5k2/7r/8/2R3p1/R5K1/b7/6Q1 w - - 0 1",
+  "solution": [
+    "Qa7+",
+    "Ke6",
+    "Ra6+",
+    "Kd5",
+    "Qd4#"
+  ],
+  "rating": 1455,
+  "title": "İki Yatayda İki Kale",
+  "setup": "Siyahın şahı f7'de, h6'da bir kalesi ve a2'de bir fili var; sizin kaleleriniz üçüncü ve dördüncü yataylara hükmediyor.",
+  "hint": "Şahın güvenli kareleri yalnızca önünde. İki şahtan sonra nerede son bulduğunu hesaplayın ve oraya önce bir taş koyun.",
+  "explanation": "## Fikir\n\n{{Qa7+}} onu e6'ya sürer, {{Ra6+}} d5'e ve {{Qd4#}} çoktan beklemektedir. Kaleler hiçbir şey almaz — yatay elinden almak için vardırlar, toplamayı vezir yapar."
+}

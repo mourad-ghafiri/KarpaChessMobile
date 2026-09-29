@@ -1,0 +1,14 @@
+{
+  "id": "defence-01",
+  "fen": "7r/7k/q7/7K/6Qb/1R6/8/8 w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Be7",
+    "Rxe7#"
+  ],
+  "rating": 1450,
+  "title": "Nemmeno una Mossa in Più",
+  "setup": "Il vostro re è arenato in h5 con la donna, la torre e l'alfiere neri tutti a portata — un'altra mossa nera ed è finita.",
+  "hint": "Difendere perde. Contate invece i vostri scacchi e trovate quello a cui il Nero non può rispondere due volte.",
+  "explanation": "## L'idea\n\nIl Nero minaccia matto in h6, quindi non c'è tempo per difendere. {{Rb7+}} dà scacco per primo e lascia due risposte. {{Be7}} para, e {{Rxe7#}} prende chi para. {{Qxb7}} prende invece la torre, e {{Qg6#}} dà matto.\n\nQuando tutti e due i re sono in pericolo, l'ordine delle mosse lo detta chi dà scacco."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "catalan-advanced",
+  "title": "Pembukaan Katalan",
+  "summary": "Pion yang dipinjamkan, diagonal yang dipertahankan selamanya",
+  "proof": "openings-18.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Barcelona, 1929",
+      "text": "Sebuah turnamen di Barcelona pada tahun 1929 menginginkan pembukaan sendiri, dan Tartakower menyediakannya. Nama wilayah di sekitar kota itu melekat padanya.\n\nBentuknya dua pion di tengah, lalu sebuah lubang dibuat di pion-pion sayap raja agar gajah bisa keluar ke g2 dan menguasai diagonal terpanjang di papan.\n\nHitam baru saja mengambil pion yang berdiri di c4. Pion hitam di c4 itu adalah harga yang dibayar Putih untuk diagonal tersebut, dan Putih tak terburu-buru memintanya kembali."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Tak Ada yang Mengejarnya",
+      "text": "Hitung berapa harga merebut kembali pion itu sekarang juga. Satu buah, dua atau tiga langkah, dan buah itu berakhir di petak yang tak pernah diinginkannya.\n\nLalu hitung berapa harga mempertahankannya bagi Hitam. Tak ada buah hitam yang menjaga c4 dari petak yang juga disukainya, dan tak ada pion hitam yang bisa mencapainya tanpa mendorong sayap menteri maju dan meninggalkan lubang di belakang.\n\nJadi Putih melakukan hal yang biasa: keluarkan semua buah, rokade, dan biarkan pion itu menjadi masalah bagi pemiliknya. Pion itu akan kembali nanti. Diagonalnya tak pernah perlu kembali."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "prompt": "Kembangkan buah terakhir yang berdiri di antara raja Anda dan sudut, dan arahkan ia ke pusat.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "Satu buah ringan masih di rumah di sayap raja, dan petak yang diinginkannya juga menjaga d4."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 1 5",
+      "title": "Bagaimana Pion Itu Pulang",
+      "text": "Hitam berbenah dengan {{Be7}} dan Putih menyelesaikan tugas terakhir dengan {{O-O}}. Pion tambahan masih duduk di c4, dan Putih belum memakai satu langkah pun untuknya.\n\nLalu {{a6}}, langkah pertama dari rencana mempertahankan pion itu dengan pion kedua, dan {{Qc2}}. Menteri mengambil lajur yang dulu ditempati pion c-nya sendiri dan memandang lurus ke atasnya, sementara gajah di g2 tetap menguasai diagonal yang menjadi alasan ia ditempatkan di sana.\n\nHitam unggul satu pion dan tertinggal dalam pengembangan. Pertukaran seperti itu hanya menguntungkan satu arah."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "Katalan yang Lain",
+      "text": "Hitam tak harus mengambil. Pion di c6, d5 dan e6 membangun tembok sebagai gantinya, dan tembok itu bertahan — tanpa terobosan, tanpa lajur terbuka, tanpa apa pun untuk diserang Putih.\n\nPutih tetap puas. Pion di d4 dan pion di c4 menguasai lebih banyak wilayah daripada pion Hitam, gajah di g2 menunggu di balik kuda di f3 sampai hari tengah papan terbuka, dan setiap buah putih sudah punya petak.\n\nPosisi tanpa kelemahan tetap bisa kalah perlahan-lahan. Hitam butuh pekerjaan untuk satu buah tertentu."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "Gajah Tanpa Jendela",
+      "text": "Hitung langkah yang tersedia bagi gajah di c8. Kudanya sendiri di d7 berdiri di satu diagonal dan pionnya sendiri di b7 berdiri di diagonal yang lain. Hitungannya nol.\n\nHitam di sini tidak lebih buruk, melainkan kurang satu buah, dan buah yang kurang itu tak pernah meninggalkan rumah.\n\nGajah di g2 menunjukkan jalan keluarnya. Gajah yang tak punya jalan melalui tengah mengambil jalan di sepanjang tepi — fianchetto yang sama, dibangun dari ujung yang lain, sampai keduanya saling menatap di satu diagonal.\n\n> Dalam posisi tertutup, temukan buah yang tak punya masa depan dan berikan ia satu."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "prompt": "Siapkan fianchetto yang menjawab fianchetto Putih: berikan diagonal panjang kepada gajah Anda yang terjebak.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Gajah menteri Anda sama sekali tak punya langkah sah, jadi tanyakan langkah pion tunggal mana yang akan memberinya satu."
+    }
+  ]
+}

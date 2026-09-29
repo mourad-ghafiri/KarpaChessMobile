@@ -1,0 +1,62 @@
+{
+  "id": "caro-kann",
+  "title": "The Caro-Kann",
+  "summary": "Solve the bad bishop before you build the wall",
+  "proof": "openings-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "A Pawn Instead of a Piece",
+      "text": "Black met 1.e4 with a c-pawn: a move that attacks nothing, develops nothing and looks like a move thrown away. A move later it pays. Black's ...d5 arrives held up by a pawn rather than by a piece, and the middle of the board gets traded off.\n\nThat is how this position happened. Black has one pawn on c6 and an army still at home. White has a pawn on d4 and its first piece out, the knight on e4.\n\nThe Caro-Kann is the claim that this is a fine deal for Black."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "The Bishop Behind the Wall",
+      "text": "Most answers to 1.e4 lean on ...e6, and that pawn does two things at once. It holds the center, and it stands in the road of the bishop on c8.\n\n{{e6}}. That bishop has exactly one open diagonal, c8 through h3, and a pawn of its own has just parked on it. What is left is d7, where the bishop blocks the queen and looks at nothing.\n\nBlack's c-pawn is already doing the job the e-pawn does elsewhere. So this bishop has no reason to sit and wait for the wall."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Get that bishop outside the pawns now, onto the square where it also stares at White's knight.",
+      "targetSan": [
+        "Bf5"
+      ],
+      "hint": "Nothing on the board defends that knight, and the bishop's one open diagonal has exactly one square that attacks it."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p5/5b2/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Two Moves for the Bishop",
+      "text": "White is not leaving a knight to be taken. {{Ng3}} pushes the bishop along, {{Bg6}} keeps the diagonal, and {{h4}} threatens to push again and drive the bishop off it for good. {{h6}} clears h7, so the bishop always has one square behind it.\n\nCount what that cost. Black moved one bishop twice. White moved the knight again and sent a rook's pawn two squares out in front of the king.\n\nBoth sides spent time. Only one of them spent it on pawns, and a pawn does not come back."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Paying Later Instead of Now",
+      "text": "Black is behind in development here, and the Caro-Kann admits it. Three of Black's first four moves went on pawns, so White finishes first and gets to choose where the game is fought.\n\nWhat the time bought is a structure White cannot bite into, a king that can go to either wing, and the bishop on g6 breathing free air outside its own pawns.\n\nWhite's h-pawn, meanwhile, is never coming home. Pieces come off, the attack runs out, and that pawn is still standing where the king used to be safe."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "White Refuses the Trade",
+      "text": "A different White, and only move three. Rather than trade in the middle, this one shoves the pawn past it and locks the door: a white pawn on e5, a white pawn on d4, and Black's pawn on d5 with nowhere to go.\n\nTwo pawns on a diagonal, the back one feeding the front one, are a **pawn chain**. White's runs d4 to e5. The pawn on e5 does the damage — it takes f6 away from Black's knight — and d4 is what holds it there. Nothing but pieces holds up d4.\n\nSo a chain is attacked at the foot, never at the head."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Out First, Wall Second",
+      "text": "Black's problem is the old problem. With the center locked, ...e6 has to come — it props up d5 and lets the kingside pieces breathe — and it is the same pawn that would shut the bishop in.\n\nSo the order does the work. {{Bf5}} goes first. White answers {{Nf3}}, and only then {{e6}}: the wall goes up behind the bishop instead of in front of it. {{Be2}}, and Black is ready.\n\n> Get your worst piece out before you build the wall that would trap it."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP1BPPP/RNBQK2R b KQkq - 1 5",
+      "prompt": "Attack the pawn holding White's chain up, using the only pawn of yours that can reach it.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "Trace White's chain down to the pawn that no other pawn defends, then ask which of yours can get at it."
+    }
+  ]
+}

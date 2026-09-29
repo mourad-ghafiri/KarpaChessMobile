@@ -1,0 +1,56 @@
+{
+  "id": "pawn-storm",
+  "title": "La avalancha de peones",
+  "summary": "Lanza contra su rey los peones que protegen al tuyo",
+  "proof": "pawn-storm-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "El centro está clavado",
+      "text": "Los dos reyes están en el mismo flanco, y las Negras están a punto de empujar directamente contra las Blancas los peones que tienen delante de su rey.\n\nNormalmente así es como se pierde una partida. Aquí no, y la razón está en el centro del tablero: el peón blanco de d5 está atascado contra d6, el peón negro de e5 contra e4, no queda nada que cambiar y ningún bando puede abrir allí una columna.\n\nUna marcha por el flanco cuesta cinco o seis jugadas. Lo único que castiga el juego lento es un golpe rápido por el centro, y el centro ha desaparecido."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "Hacia dónde apuntan tus peones",
+      "text": "Así que las Negras marchan. Hacer rodar los peones de delante de tu propio rey contra el rey rival es una **avalancha de peones**, y le corresponde al bando cuyos peones ya apuntan al rey rival.\n\nLos peones negros apuntan hacia el rey blanco. Los blancos apuntan al flanco de dama, que es donde empujarán las Blancas.\n\nUn detalle decide por dónde empiezan las Negras. El peón blanco de e4 es lo que un peón negro puede ir a golpear en este flanco, y cambiarlo es la forma de abrir la columna f para la torre de f8."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "prompt": "Ataca el peón blanco de e4 con uno de tus peones y empieza a abrir la columna f.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "Solo uno de los tres peones que rodean a tu rey puede llegar a una casilla que ataque e4."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 w - - 0 11",
+      "title": "Un peón no es una avalancha",
+      "text": "Un solo peón adelantado no hace nada. La avalancha es lo que viene detrás.\n\n{{Be3}} acerca un alfil blanco a la lucha, {{f4}} lo echa antes de que se asiente, {{Bf2}} es adonde va, y {{g5}} sube el segundo peón negro junto al primero.\n\nCuatro jugadas negras, y ninguna movió una pieza. Ese es el trato de una avalancha: los peones compran líneas con tiempo, y un centro cerrado es lo que hace asumible ese tiempo."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "El mismo avance, una jugada antes",
+      "text": "Otra partida, y las Blancas acaban de gastar dos jugadas en empujar peones de flanco, que ahora están en g4 y h3.\n\nAquí el centro no está cerrado. El peón negro de e5 y el blanco de e4 nunca se encuentran, un peón solitario en d3 sostiene el centro blanco, y un solo avance de peón negro lo convierte todo en líneas abiertas.\n\nEsa es toda la diferencia entre los dos tableros. Las jugadas de peón son las mismas. Lo que hay debajo, no."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "Lo que les espera a las Blancas en casa",
+      "text": "Esos dos avances no metieron ninguna pieza en juego. Cada uno es un tiempo regalado a las Negras, y un ataque en el flanco se contesta en el centro, porque el centro se abre más rápido de lo que llega un flanco.\n\nLuego cuenta el refugio blanco. g2 está vacía y así seguirá, porque los peones no retroceden. El peón de h3 es algo a lo que apuntar y no algo tras lo que esconderse, y el alfil negro de c8 ya mira la diagonal que termina en él.\n\n> Una avalancha de peones es un ataque mientras el centro está cerrado. Si no, es un agujero cavado junto a tu propio rey."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "prompt": "Castiga dos jugadas de flanco perdidas abriendo el centro antes de que las Blancas saquen otra pieza.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "El peón blanco de e4 tiene un defensor, el peón de d3, y un atacante, tu caballo de f6: manda un peón para que sean dos."
+    }
+  ]
+}

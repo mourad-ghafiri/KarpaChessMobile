@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-12",
+  "fen": "2Q1B2k/b4ppp/2r5/4r3/8/R7/PP6/K7 w - - 0 1",
+  "solution": [
+    "Bxc6+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1700,
+  "title": "Liberate la Strada con Scacco",
+  "setup": "Il vostro alfiere in e8 e la vostra donna in c8 sono impilati sulla traversa di fondo, e le torri nere in c6 e e5 tengono insieme la cosa.",
+  "hint": "Un vostro pezzo sta sulla casa del matto. Trovate la mossa che lo toglie e guadagna un tempo nello stesso momento.",
+  "explanation": "## L'idea\n\nL'alfiere in e8 sta sulla strada della donna. {{Bxc6+}} prende una torre, libera la casa e dà scacco tutto insieme; {{Re8}} è forzata e {{Qxe8#}} chiude la partita. La migliore mossa intermedia è quella che fa tre lavori."
+}

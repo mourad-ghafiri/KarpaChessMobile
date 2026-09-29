@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-19",
+  "fen": "Q7/5Bpk/7p/8/8/8/8/7K w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "Bishop Backs the Queen",
+  "setup": "Black's king is on h7, hemmed in by its own pawns on g7 and h6, and your bishop on f7 is close by.",
+  "hint": "Your bishop turns one square beside the king into friendly ground — the queen can afford to stand there.",
+  "explanation": "## The Idea\n\nThe bishop on f7 turns g8 into a guarded square, so the queen can land there next to the king.\n\n{{Qg8#}} gives check from the next square. The bishop guards g8, so the king cannot take the queen. h8 is covered by the queen, g6 by the bishop, and g7 and h6 hold Black's own pawns.\n\nWhen your queen and bishop both reach the king's neighborhood, look for a guarded square right beside it."
+}

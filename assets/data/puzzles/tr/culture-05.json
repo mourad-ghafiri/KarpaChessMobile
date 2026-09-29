@@ -1,0 +1,13 @@
+{
+  "id": "culture-05",
+  "fen": "2kr2nr/pp1n1ppp/2p1p3/8/1P1P1B2/2N2Q1P/1PPKBPP1/7q w - - 0 13",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "title": "İki Piyon, Tek Çapraz",
+  "setup": "Taş dengesinde epey geridesiniz ve kendi şahınız d2'ye kovalanmış, ama siyahın şahı kendi taşlarıyla duvara alınmış.",
+  "hint": "Taşlarınızı değil, siyahın şahının karelerini saymakla başlayın — sonra b7'deki piyonun gerçekte neyi tuttuğunu sorun.",
+  "explanation": "## Fikir\n\nc8'deki şahın karesi yok: d8, d7 ve b7'de kendi kalesi, atı ve piyonu durur ve f4'teki fil c7 ile b8'i kapsar. Öteki filinizi a6'dan uzak tutan tek şey b7'deki piyondur.\n\n{{Qxc6+}} bir piyon için veziri verir ve {{bxc6}} siyahın tek kurallı hamlesidir. Piyon b7'yi terk etmiştir ve {{Ba6#}} onun eskiden koruduğu kareye iner.\n\nTaşları saymadan önce rakip şahın karelerini sayın; vezir o zaman harcayabileceğiniz bir şeye dönüşür."
+}

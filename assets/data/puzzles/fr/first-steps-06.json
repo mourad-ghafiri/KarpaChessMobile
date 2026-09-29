@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-06",
+  "fen": "4k3/pp4pp/8/8/3pK3/8/PP4PP/8 w - - 0 1",
+  "solution": [
+    "Kxd4"
+  ],
+  "title": "Le roi combattant",
+  "setup": "Un pion noir se tient juste à côté de votre roi, sans garde du corps en vue.",
+  "hint": "Le roi prend comme il se déplace : d'une case dans n'importe quelle direction. Le pion en d4 est-il défendu ?",
+  "explanation": "## L'idée\n\nLe roi n'est pas seulement une pièce à protéger ; il peut aussi combattre. Le pion noir en d4 est à un pas, et **rien ne le défend** : le roi noir en e8 est quatre rangées plus loin.\n\n{{Kxd4}} le prend sans danger. Vérifiez toujours d'abord : un pion noir en d4 attaque c3 et e3, ni la case où se tient votre roi, ni celle où il arrive.\n\nUn roi peut prendre toute pièce voisine que rien ne défend."
+}

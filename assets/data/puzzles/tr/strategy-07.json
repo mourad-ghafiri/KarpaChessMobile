@@ -1,0 +1,11 @@
+{
+  "id": "strategy-07",
+  "fen": "r4rk1/pp1b1ppp/2nqpn2/3p4/3P4/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 11",
+  "solution": [
+    "Rc1"
+  ],
+  "title": "c Dikeyi Kimsenin Değil",
+  "setup": "İki c piyonu da gitti ve iki taraf da geride bıraktıkları dikeye kale koymadı. Tek hamle onu sahiplenir.",
+  "hint": "Tek bir dikeyde iki renkten de piyon yok ve kalelerinizden yalnızca birinin oraya açık yolu var.",
+  "explanation": "## Fikir\n\nc dikeyinde iki renkten de piyon yok ve iki taraf da oraya henüz kale koymadı.\n\n{{Rc1}} onu önce sahiplenir. Öteki kale bunu yapamaz, çünkü d1'deki vezir yoldadır. Şimdilik kale kendi c3'teki atının arkasında durur, ama at tek hamlede yana çekilebilir ve çekildiğinde dikey kaleye ait olur.\n\nÖnce kale, arkasında vezir: bir dikeyin başındaki vezir, herhangi bir hafif taşın tempoyla kovalayabileceği bir hedeftir."
+}

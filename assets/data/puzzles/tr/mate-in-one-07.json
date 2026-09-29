@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-07",
+  "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qk - 1 7",
+  "solution": [
+    "Nf3#"
+  ],
+  "rating": 780,
+  "title": "Kendi Ordusuna Boğulmuş",
+  "setup": "Beyazın şahının çevresindeki her kareyi kendi taşları tutuyor ve atınız hâlâ d4'te oturuyor.",
+  "hint": "Beyazın şahının hiç kaçış karesi yok; öyleyse ne alabildiği ne kapatabildiği tek şahı avlayın.",
+  "explanation": "## Fikir\n\nBeyazın şahı kendi ordusuna boğulmuş durumda, yani güvenli her şah partiyi bitirir. {{Nf3#}} alınabilir gibi görünür, ama e2'deki fil e4'teki vezirinize karşı açmazdadır, g2 piyonu çoktan gitmiştir ve atın şahı asla kapatılamaz."
+}

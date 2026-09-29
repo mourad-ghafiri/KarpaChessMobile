@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-04",
+  "fen": "3r3k/5ppp/8/8/8/8/5PPP/3R1K2 w - - 0 1",
+  "solution": [
+    "Rxd8#"
+  ],
+  "title": "Aynadaki Mat",
+  "setup": "İki kale de açık d dikeyinde birbirine dikilmiş, ama arka yatayında bir kale şahına yalnızca bir şah dayanabilir.",
+  "hint": "Kaleler simetrik görünüyor. Şahlar değil: birinin adım atacak bir karesi var.",
+  "explanation": "## Fikir\n\nTek açık dikeyde kale kaleye bakıyor ve farkı şahlar yaratıyor. Sizinki f1'de, bir kale şahına e2'ye adımlayarak cevap verebilirdi. Siyahınki kendi piyonlarının arkasında köşeye çekilmiş.\n\n{{Rxd8#}} olduğu yerde mattır: g8'i kale süpürür ve g7 ile h7'de siyahın piyonları durur.\n\nAynadaki bir pozisyonda hayatta kalan, arka yatayın dışında bir karesi olan şahtır."
+}

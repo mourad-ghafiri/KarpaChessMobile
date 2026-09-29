@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-01",
+  "fen": "4k3/pp4pp/8/3n4/4P3/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "exd5"
+  ],
+  "title": "Le pion prend le cavalier",
+  "setup": "Un cavalier noir s'est aventuré près de votre pion e. Votre pion peut le gagner, si vous vous souvenez de la façon dont un pion prend.",
+  "hint": "Les pions prennent d'une case en diagonale vers l'avant. Quelles sont les deux cases qu'attaque le pion en e4 ?",
+  "explanation": "## L'idée\n\nUn pion avance tout droit mais **prend en diagonale**, et le cavalier en d5 se tient sur l'une des deux cases qu'attaque votre pion en e4.\n\n{{exd5}}, et le pion prend un cavalier entier. Rien ne protège d5, donc rien ne reprend : le cavalier est simplement à vous.\n\nChaque pion protège les deux cases en diagonale devant lui. Tout ce qui s'y aventure peut être pris."
+}

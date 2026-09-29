@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-07",
+  "fen": "2n1k3/pp2rppp/8/2B5/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxe7"
+  ],
+  "title": "Tangkap dengan Buah yang Lebih Murah",
+  "setup": "Benteng Hitam di e7 dijepit terhadap rajanya oleh benteng Anda, dan gajah Anda juga menyerangnya. Seekor kuda di c8 menjaganya.",
+  "hint": "Benteng yang terjepit diserang dua kali dan dilindungi sekali. Penangkapan mana yang menghasilkan untung?",
+  "explanation": "## Ide\n\nBenteng di e7 dijepit oleh benteng Anda di e1, diserang benteng dan gajah, dan dilindungi kuda di c8.\n\n{{Bxe7}} menangkap dengan buah yang lebih murah. Raja tak bisa menangkap balik, karena benteng Anda menjaga e7, jadi sesudah {{Nxe7}} Anda telah menyerahkan gajah untuk benteng, dan kuda itu gantian terjepit. {{Rxe7+}} lebih dulu hanya menukar benteng dengan benteng.\n\nUangkan buah yang terjepit dengan penyerang termurah Anda."
+}

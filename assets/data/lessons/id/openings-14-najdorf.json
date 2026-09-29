@@ -1,0 +1,62 @@
+{
+  "id": "najdorf-sicilian",
+  "title": "Najdorf",
+  "summary": "Satu pion benteng, dan perlombaan yang dimulainya",
+  "proof": "openings-14.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Langkah Pion dengan Perpustakaan di Belakangnya",
+      "text": "Langkah kelima Hitam di sini jatuh pada pion benteng yang tak menyerang apa pun, tak melindungi apa pun dan tak mengeluarkan apa pun. Ia juga salah satu langkah yang paling banyak dianalisis dalam catur, dengan rak teori di belakangnya dan tak ada tanda rak itu akan memendek.\n\nMiguel Najdorf memainkannya sebagai karya seumur hidup dan variasi ini menyandang namanya. Fischer dan Kasparov lalu menjadikannya jawaban paling tajam di dunia terhadap 1.e4.\n\nJadi pertanyaannya adalah berapa nilai sebuah pion di tepi papan."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Dorongan yang Sebenarnya Diinginkan Hitam",
+      "text": "Yang diinginkan Hitam adalah pion e maju dua petak, mengusir kuda dari tengah dan merebut bagian yang sungguhan di sana.\n\nCoba sekarang juga dan lihat apa yang menjawab: {{e5}} {{Bb5+}}. Sekak datang lebih dulu dan segala yang lain harus menunggu. Hitam punya enam balasan sah — kuda ke d7 atau c6, gajah atau menteri ditaruh di d7, atau raja yang bergerak dan tak pernah rokade.\n\nDorongannya benar. Urutan langkahnya yang tidak."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Tiga Buah, Satu Petak",
+      "text": "Hitung apa yang mencapai b5 dari sini. Kuda di d4 melompat ke sana. Kuda di c3 melompat ke sana. Gajah di f1 punya jalan yang kosong — e2, d3, c4 — yang tiba di b5 dengan sekak.\n\nTiga buah, satu petak, dan petak itulah seluruh alasan dorongan pusat harus menunggu satu langkah.\n\nSatu langkah pion yang tenang menguasai b5 dan menjawab ketiganya sekaligus. Tak ada yang dikembangkan olehnya dan tak ada ancaman yang dibuat. Sebuah pintu ditutup sebelum ada yang melewatinya."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "prompt": "Rebut b5 dari kedua kuda putih dan gajah, sebelum Anda pergi ke mana pun di dekat pusat.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "Hanya satu pion hitam yang bisa menjaga b5, dan ia sampai di sana dalam satu langkah tanpa meninggalkan lajur tepi."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+      "title": "Apa yang Dibeli Pion Itu",
+      "text": "Kini dorongan yang sama tiba tanpa beban apa pun: {{Be3}} {{e5}} {{Nb3}} {{Be6}}.\n\nKuda mundur ke b3 alih-alih maju ke b5, dan Hitam memiliki pion pusat di e5 dengan gajah yang sudah keluar di belakangnya.\n\nTagihannya nyata. Mendorong pion e meninggalkan lubang di d5 yang tak akan pernah bisa dijaga pion hitam mana pun lagi, dan Putih akan menghabiskan beberapa langkah berikutnya untuk memarkir sebuah buah di sana. Hitam tetap membayarnya. Satu petak demi bagian dari tengah adalah pertukaran yang layak."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Sayap yang Berlawanan",
+      "text": "Pada langkah kesepuluh kedua raja sudah berlari, raja Putih ke c1 dan raja Hitam ke g8. Satu fakta itu mengubah fungsi sebuah pion.\n\nPion hanya menjadi pelindung di tempat raja Anda sendiri berdiri. Di sayap seberang pion adalah prajurit, dan tak ada yang membutuhkannya di rumah. Jadi Putih mengirim pion g dan pion h ke g8, Hitam mengirim pion a dan pion b ke c1, dan tak satu pihak pun berhenti untuk bertahan.\n\nLangkah bertahan di sini adalah langkah yang diserahkan kepada lawan."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Menghitung Perlombaan",
+      "text": "Materi kini satuan yang salah. Hitunglah langkah menuju raja lawan: berapa dorongan sampai sebuah garis terbuka ke arahnya, dan siapa yang tiba lebih dulu.\n\nPion g Putih harus melangkah dua kali sebelum kuda di f6 terusir dan lajur g mulai retak. Pion b Hitam harus melangkah dua kali untuk mencapai b4, tempat kuda di c3 — buah yang berdiri di depan raja Putih — harus menjawab.\n\nHitungan yang sama, dan giliran Hitam.\n\n> Di sayap yang berlawanan, Anda tidak menghitung pion, Anda menghitung langkah."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "prompt": "Mulailah perlombaan sayap menteri dengan pion yang dua langkah berikutnya mengusir kuda penjaga raja Putih.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Tepat satu pion Anda yang bisa berdiri di b4 dalam dua langkah, dan tak ada apa pun di papan yang menghentikannya."
+    }
+  ]
+}

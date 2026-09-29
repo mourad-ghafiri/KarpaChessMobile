@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-10",
+  "fen": "3r4/2B5/8/1R4p1/3R4/K1Qb4/6k1/8 w - - 0 1",
+  "solution": [
+    "Rb2+",
+    "Kg1",
+    "Rg4+",
+    "Kf1",
+    "Qc1#"
+  ],
+  "rating": 1660,
+  "title": "Duas Torres, Duas Direções",
+  "setup": "O rei preto está solto em g2, com um bispo em d3 ao lado da tua dama e uma torre à espera em d8.",
+  "hint": "Nenhuma das torres dá mate sozinha. Encontra a ordem em que cada uma tira uma casa que a outra não tira.",
+  "explanation": "## A Ideia\n\n{{Rb2+}} toma a segunda linha, {{Rg4+}} toma a coluna g, e com as duas tomadas, {{Qc1#}} dá mate pela primeira linha. As torres caçam aos pares, cobrindo linhas perpendiculares."
+}

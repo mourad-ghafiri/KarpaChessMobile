@@ -1,0 +1,13 @@
+{
+  "id": "culture-06",
+  "fen": "r1bqkb1r/pppp1pp1/2n5/1B2p3/4P1p1/8/PPPP1PP1/RNBQNRK1 b k - 1 7",
+  "solution": [
+    "Qh4",
+    "f4",
+    "g3"
+  ],
+  "title": "Mesele Açık Dikeydi",
+  "setup": "Atınız g4'e gitti ve beyaz onu aldı; iki h piyonu da h dikeyinden ayrıldı ve kaleniz hâlâ h8'de oturuyor.",
+  "hint": "Kaleniz açık h dikeyinde hiçbir şeye bakıyor — hangi taş ona katılırsa h2 tutulamaz hâle gelir?",
+  "explanation": "## Fikir\n\n{{Qh4}} şah çekmez; cevap vermesi zor olmasının sebebi de budur. Vezir ile kale artık açık h dikeyini paylaşır, beyazın atı e1'e dönmüştür ve b5'teki fil yanlış kanattadır.\n\nŞaha yer açan {{f4}} beyazın en iyi denemesidir. {{g3}} ona cevap verir ve mat durdurulamaz: dikeyi kapatan {{Qh5}} bile {{Qh1#}} hamlesini yalnızca bir hamle geciktirir.\n\nRok yapmış bir şahın yanındaki açık dikey bir attan değerlidir."
+}

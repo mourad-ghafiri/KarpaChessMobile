@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-01",
+  "fen": "8/2QK4/6p1/8/8/8/8/3B3k w - - 0 1",
+  "solution": [
+    "Qg3",
+    "g5",
+    "Bf3#"
+  ],
+  "rating": 1400,
+  "title": "Hiçbir Şey Yapmayın, Yavaşça",
+  "setup": "Siyahın şahı h1 köşesine sıkışmış ve geleceği olan tek taşı g6'daki piyonu.",
+  "hint": "İşe yarayan bir şah yok. Siz öylece pas geçseydiniz siyahın ne oynamak zorunda kalacağını sorun.",
+  "explanation": "## Fikir\n\n{{Qg3}} şah çekmez ve şahın elindeki her kareyi alır. Siyaha yalnızca {{g5}} kalır ve {{Bf3#}} gelir. Zugzwang, oynamak zorunda olmayı bütün soruna çeviren hamledir."
+}

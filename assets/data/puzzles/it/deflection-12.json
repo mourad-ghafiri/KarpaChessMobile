@@ -1,0 +1,14 @@
+{
+  "id": "deflection-12",
+  "fen": "2kr3r/pp3ppp/2n5/8/Q1B2B1q/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "rating": 1500,
+  "title": "Gli Alfieri di Boden",
+  "setup": "Due alfieri tagliano attraverso l'ala di donna, e il pedone in b7 è tutto ciò che tiene chiusa la diagonale da a6 a c8.",
+  "hint": "Tutti e due gli alfieri puntano già su quell'angolo. Quale pedone sta di mezzo, e come lo fate muovere?",
+  "explanation": "## L'idea\n\nQuesto è il **matto di Boden**. {{Qxc6+}} ha una sola risposta, {{bxc6}}, e il pedone di b7 esce dalla diagonale da a6 a c8. {{Ba6#}} arriva: l'altro alfiere copre b8 e c7, e la torre stessa del Nero blocca d8."
+}

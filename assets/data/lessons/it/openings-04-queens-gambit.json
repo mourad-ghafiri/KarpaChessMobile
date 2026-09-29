@@ -1,0 +1,51 @@
+{
+  "id": "queens-gambit",
+  "title": "Il Gambetto di Donna",
+  "summary": "Un pedone che potete prendere, e che non potete tenere",
+  "proof": "openings-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Non Proprio un Gambetto",
+      "text": "Due mosse di vita, e il Bianco ha già parcheggiato un pedone dove il Nero può prenderlo. Un **gambetto** è un pedone consegnato presto per comprare qualcosa di più rapido — tempo, linee aperte, case. Questo non consegna niente, perché il Nero non può tenersi quello che prende.\n\nQuello che il Bianco vuole davvero è d5. Cambiate il pedone di c4 con il pedone d del Nero e il Bianco resta l'unico dei due con un pedone in mezzo, libero di costruirci sopra."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Prendere Non È Tenere",
+      "text": "{{dxc4}} risponde alla domanda del Bianco nel modo sbagliato. Il pedone nero ha lasciato il centro, {{e4}} segue immediatamente, e due pedoni bianchi stanno affiancati al centro senza più niente che li possa colpire.\n\nCercare di tenere il pedone costa ancora di più. {{b5}} lo puntella, {{a4}} lo scalza, e il Bianco se lo riprende con l'ala di donna spalancata.\n\nQuindi il pedone non è mai stata l'offerta. L'offerta è un cambio, e il prezzo per rifiutarla è una seconda mossa di pedone."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "prompt": "Sostenete d5 con un secondo pedone perché il centro tenga, e accettate che questo chiuda una porta a uno dei vostri pezzi.",
+      "targetSan": [
+        "e6",
+        "c6"
+      ],
+      "hint": "Due dei vostri pedoni possono fare un passo su una casa che difende d5 in diagonale, e ognuno dei due toglie la strada migliore a un pezzo diverso."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "Due Contro Tre",
+      "text": "Nove mosse dopo, uscendo da quella stessa discussione: il Bianco ha cambiato in d5, il Nero ha ripreso con il pedone e, e il centro si è calmato. Questa forma ha un nome, Carlsbad, e la sua logica è aritmetica.\n\nContate l'ala di donna. Il Bianco ne ha due, il Nero tre. Far marciare il gruppo più piccolo contro quello più grande è un **attacco di minoranza**, e non si gioca per vincere qualcosa. Spingete abbastanza avanti, i pedoni si cambiano fra loro, e al Nero resta un pedone in c6 che nessun pedone nero potrà mai difendere, su una colonna semiaperta."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "La Corsa che Non si Incrocia Mai",
+      "text": "Il Nero non difende. Quei tre pedoni sull'ala di donna sono ciò per cui il Bianco sta arrivando, quindi il Nero li lascia dove stanno e gioca invece contro il re bianco: il cavallo di f8 esce in g6, gli altri pezzi seguono, e il pedone f viene con loro.\n\nDue piani su ali opposte, e non si toccano mai. Nessuno dei due si può richiamare indietro una volta partito, quindi la partita si decide su quale dei due arriva prima.\n\n> Cambiare pedoni non è sempre semplificare. A volte è il modo in cui si costruisce una debolezza."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "prompt": "Mandate il vostro gruppo più piccolo dell'ala di donna contro quello più grande del Nero e cominciate a costruire un bersaglio che nessun pedone nero difenderà mai.",
+      "targetSan": [
+        "b4"
+      ],
+      "hint": "Tutti e due i vostri pedoni dell'ala di donna devono viaggiare; guida quello che può entrare in contatto con il gruppo nero, e l'altro sale dietro."
+    }
+  ]
+}

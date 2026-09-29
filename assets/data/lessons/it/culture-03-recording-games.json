@@ -1,0 +1,56 @@
+{
+  "id": "recording-games",
+  "title": "Metterlo per Iscritto",
+  "summary": "Un formulario è una memoria di cui vi potete fidare",
+  "proof": "culture-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "Il Foglio Accanto alla Scacchiera",
+      "text": "Le mosse che vi aspettano qui diventano strane in fretta, e un formulario deve reggerle tutte.\n\nIn una partita classica valida per il punteggio siete tenuti a registrare le mosse di tutti e due, una dopo l'altra, in notazione algebrica, sul foglio che l'organizzatore prescrive. Non le vostre mosse. Tutte e due. Quel foglio è ciò che un arbitro legge quando qualcosa è contestato, e l'algebrica è l'unico sistema che un evento FIDE riconosce — quella inglese più antica contava dal lato di ciascun giocatore, quindi una singola casa aveva due nomi a seconda di chi teneva la penna."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "Prima la Mossa, Poi la Penna",
+      "text": "Potete rispondere al vostro avversario prima di scrivere qualsiasi cosa, e quasi tutti i giocatori forti lo fanno — l'orologio corre e la scacchiera è dove il pensiero deve stare. Quello che non potete fare è restare indietro: la vostra mossa precedente deve essere sul foglio prima che ne giochiate un'altra.\n\nScrivere una mossa prima di giocarla è del tutto vietato. L'unica eccezione che incontrerete davvero è la richiesta di patta, dove chi reclama una ripetizione o la regola delle cinquanta mosse scrive la mossa che intende fare, la lascia non giocata e chiama l'arbitro."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "prompt": "Catturate con il pedone in e3 in modo che atterri accanto al re bianco con scacco.",
+      "targetSan": [
+        "exf2+"
+      ],
+      "hint": "Quel pedone ha esattamente una presa sulla scacchiera, e il re bianco sta proprio accanto alla casa su cui atterrerebbe."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "I Segni che si Aggiungono",
+      "text": "Il Bianco ha portato il re in e2 anziché prendere il pedone in f2, e adesso la penna ha del lavoro da fare.\n\nUna presa vuole una `x`, uno scacco un `+`, il matto un `#`. Quando due pezzi identici potrebbero arrivare sulla stessa casa si aggiunge da dove la mossa è partita — `Nbd2`, `R1e4` — perché chi ha in mano solo il foglio deve poter rigiocare la partita senza indovinare. Una promozione si scrive con `=` e la lettera del pezzo che avete scelto."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "La Copia Carbone",
+      "text": "Un formulario è l'allenamento più economico degli scacchi. Rigiocatevi la partita la sera stessa e l'errore che non ricordate di aver commesso sta lì nella vostra calligrafia, tre mosse prima che vi accorgeste di qualcosa. Quasi tutti i tornei distribuiscono fogli in duplice copia esattamente per questo: la copia sopra va all'organizzatore, quella sotto torna a casa con voi.\n\nC'è un punto in cui la penna si ferma. Sotto i cinque minuti sul vostro orologio, senza un incremento di trenta secondi o più, non siete più tenuti a scrivere niente."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Una Casa, Quattro Partite",
+      "text": "Il vostro pedone in f2 ha esattamente una casa di promozione, g1, e quattro pezzi fra cui scegliere. Il foglio deve dire quale avete preso.\n\n{{fxg1=Q}} crea il pezzo più forte della scacchiera e perde sul posto: {{Qxd8+}}, e il Bianco ha la vostra vecchia donna prima ancora che quella nuova abbia fatto una mossa. Al Nero resta una sola risposta legale.\n\n> Stesso pedone, stessa casa, quattro partite diverse. Sulla pagina, a separarle basta una lettera dopo l'`=`."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "prompt": "Promuovete all'unico pezzo che arriva dando scacco, così il Bianco non ha mai la mossa per prendervi la donna.",
+      "targetSan": [
+        "fxg1=N+"
+      ],
+      "hint": "Guardate dove sta il re bianco, poi chiedetevi quale dei quattro pezzi di promozione lo attaccherebbe da g1."
+    }
+  ]
+}

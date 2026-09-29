@@ -1,0 +1,50 @@
+{
+  "id": "rook-mate",
+  "title": "Raja & Benteng Melawan Raja",
+  "summary": "Benteng membangun tembok; hanya raja yang bisa menutup pintunya",
+  "proof": "endgames-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "Lajur yang Tak Dilintasi Siapa Pun",
+      "text": "Satu benteng, satu lajur, dan partai sudah ditentukan. Selama benteng Anda menguasai g1, raja hitam tak akan pernah bisa melintasi lajur g, jadi dunianya hanya h7 dan h8 — dua petak, untuk selamanya.\n\nPemotongan itu adalah sebagian besar pekerjaannya, dan juga batas dari apa yang bisa dilakukan benteng sendirian. Kedua sekak yang tersedia menyerahkan g8, dan keduanya lebih buruk daripada tidak melakukan apa-apa: {{Rg8+}} {{Kxg8}} menyerahkan benteng, dan sekak yang lain membiarkan raja hitam keluar ke petak itu.\n\nTemboknya tetap berdiri. Sesuatu yang lain harus datang dan menutup pintunya."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "Satu Langkah Rapi, Setengah Poin",
+      "text": "{{Rg7}} tampak seperti ide yang sama, satu petak lebih baik. Ia merebut g8 dan h7 sekaligus, raja Anda di f6 melindunginya sehingga ia tak bisa ditangkap, dan raja hitam tidak dalam sekak.\n\nBagian terakhir itulah seluruh bencananya. Tidak dalam sekak, dan tak ada satu langkah sah pun di seluruh papan: pat, setengah poin, dan raja Anda masih berdiri di tempat ia memulai.\n\n> Benteng merebut petak sepanjang partai. Petak terakhir adalah petak yang tak boleh ia rebut sendirian."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "prompt": "Benteng Anda tak bisa merebut petak di samping raja, jadi bawa buah yang bisa melakukannya.",
+      "targetSan": [
+        "Kf7"
+      ],
+      "hint": "Biarkan temboknya tepat di tempatnya dan jalankan buah Anda yang lain ke arah Hitam sampai kedua raja berhadapan dengan satu petak di antaranya."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "Separuh yang Tak Bisa Dikerjakan Benteng",
+      "text": "Raja Anda telah berjalan, Hitam punya satu balasan sah, dan kedua raja kini berdiri berjarak satu petak di baris ketujuh. Itulah oposisi lagi, kali ini bekerja dalam petak, bukan tempo: raja putih di f7 menguasai g6, g7 dan g8, seluruh jalan kembali ke dalam papan.\n\nBenteng memberi sekak di sepanjang garis, dan raja sekadar melangkah keluar dari garis itu. Sesuatu harus menunggu di petak-petak tempat ia melangkah. Raja Anda satu-satunya buah yang bisa menunggu di sana tanpa ditangkap. Benteng tak pernah memenangkan akhir permainan ini sendirian."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "Menggeser Tembok ke Dalam",
+      "text": "Semua ini tak bergantung pada sudut. Dari posisi mana pun, ini adalah satu putaran yang diulang sampai papannya habis.\n\nPotong raja sendirian dengan benteng Anda, sehingga ada garis yang tak bisa ia lintasi. Majukan raja Anda sendiri sampai keduanya berhadapan dengan satu petak di antaranya. Lalu, setiap kali raja sendirian melangkah ke samping menyusuri tembok, geser tembok satu lajur ke dalam di belakangnya.\n\nKandangnya mengecil setiap putaran dan tak pernah membesar lagi, itulah sebabnya akhir permainan ini soal teknik, bukan hitungan."
+    },
+    {
+      "type": "play",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "prompt": "Hitam tinggal punya dua petak dan keduanya berada di satu garis — rebut seluruh garis itu dengan benteng Anda.",
+      "targetSan": [
+        "Rh1#"
+      ],
+      "hint": "Datanglah dari ujung yang jauh, di luar jangkauan raja hitam, sehingga sekak dan petak bebas terakhir direbut pada langkah yang sama."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-12",
+  "fen": "7K/8/k1P5/7p/8/8/8/8 w - - 1 2",
+  "solution": [
+    "Kg7"
+  ],
+  "rating": 1500,
+  "title": "Dos trabajos a la vez",
+  "setup": "El rey negro acaba de llegar a a6, y el peón de h parece estar a cuatro jugadas limpias de coronar.",
+  "hint": "No elijas entre perseguir su peón y avanzar el tuyo: busca un camino que haga las dos cosas.",
+  "explanation": "## La idea\n\nPerseguirlo directamente por la columna h no tiene remedio, así que el rey camina por la diagonal, hacia los dos peones a la vez. Si las Negras corren con {{h4}}, {{Kf6}} y luego Ke6 llevan al rey junto a d7, y tu peón de c corona igual que el negro. Si las Negras van a por el peón de c con {{Kb6}}, la misma marcha ha ganado el tiempo para alcanzar el peón de h. En ambos casos son tablas.\n\nEs el estudio de Réti: un rey en una diagonal puede perseguir dos cosas a la vez."
+}

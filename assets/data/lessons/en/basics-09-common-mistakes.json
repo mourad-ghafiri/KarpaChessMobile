@@ -1,0 +1,71 @@
+{
+  "id": "common-mistakes",
+  "title": "How Games Are Given Away",
+  "summary": "An early queen, a pawn that wasn't free, and the move you never looked at",
+  "proof": "common-mistakes-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Handed Over",
+      "text": "Count the ways a good game gets handed back and the list is short: a queen out too early, a pawn that looked free, a move the opponent made that nobody read, and a king left standing in the middle.\n\nFour habits, and every one of them is caught by the three questions you already have. What follows is what the board does when nobody asks them."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "The Queen Comes Out",
+      "text": "{{e4}} {{e5}} {{Qh5}}. The queen is out on move two, staring at f7 — the one square in Black's camp that only the king guards.\n\n{{Nc6}} brings a knight out and leaves f7 alone; one attacker on a square the king defends is not a threat. {{Bc4}} makes it two, and now it is mate next move. Black has more than one way to stop it; {{g6}} is the one that also chases the queen off that diagonal.\n\n{{Qf3}} points at f7 down the file and the mate is on again. {{Nf6}} blocks it — a move Black was glad to play anyway."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq - 2 5",
+      "title": "The Bill",
+      "text": "Count the moves. Both sides have spent four. Black's went on a center pawn, both knights and a pawn on g6 that was worth playing anyway.\n\nWhite's went on a center pawn, one bishop, and two queen moves to reach a square it could have reached in one — where it now blocks the knight on g1.\n\nMoving a piece twice is not a crime. You will do it to save it, to take something, to take back. Moving it twice for nothing is the cost, and a queen out ahead of everything else invites it: every piece Black owns is cheap enough to chase it."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+      "title": "A Pawn That Isn't Free",
+      "text": "White traded a bishop for a knight last move, and Black took back on c6 with the d-pawn. Two black pawns on the c-file now — and Black's queen on d8 looking down five empty squares.\n\nThe pawn on e5 has no defender. None: count them. {{Nxe5}} wins it, and nothing takes the knight back.\n\nThat is the trap, and it is a quiet one. White is not lost here. The pawn simply comes back, and the moves White spent taking it do not."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4N3/4P3/8/PPPP1PPP/RNBQK2R b KQkq - 0 5",
+      "prompt": "Make White give the pawn straight back: find the one square that hits the greedy knight and the e4-pawn together.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "Your queen has never moved, and the file in front of it is empty almost all the way to White's pawns."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Their Move Had a Reason",
+      "text": "Every move your opponent makes has a reason, and the reason is rarely announced.\n\n{{Ng5}}. It looks like a piece wandering off. It is a second attacker on f7, the square only Black's king guards, and the knight on f6 stands between the queen on d8 and g5, so nothing can take it.\n\nPlay something reasonable — {{d6}}, say — and {{Nxf7}} arrives, hitting the queen on d8 and the rook on h8 at the same time. The king cannot take back: the bishop on c4 guards f7."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 5 4",
+      "prompt": "Answer the threat before it lands: shut the bishop on c4 out of f7.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "The bishop reaches f7 across two empty squares. One of your pawns can step onto the nearer one."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "title": "The Boring Move",
+      "text": "A different game at a similar moment: Black's bishop has gone to c5, aimed at f2, and it is White's move. One move here does nothing exciting and heads off most of this: castling.\n\nThe king leaves the middle, the rook on h1 comes toward the center, and f2, the mirror of f7, finally gets a second guard.\n\n\"Castle by move ten\" is a habit, not a rule — a king can sit in the middle while the middle stays shut. But it is the cheapest safety you will ever buy, and beginners buy it last.\n\n> You now know every rule in chess. What is left is noticing."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "prompt": "Take the safest move on the board: get the king out of the middle and the rook into the game.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Your king is standing in the open while a move that solves the whole problem sits unspent."
+    }
+  ]
+}

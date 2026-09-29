@@ -1,0 +1,13 @@
+{
+  "id": "endgames-01",
+  "fen": "8/8/8/8/3K4/8/4Q3/k7 w - - 0 1",
+  "solution": [
+    "Kc3",
+    "Kb1",
+    "Qb2#"
+  ],
+  "title": "A Dama Não o Faz Sozinha",
+  "setup": "Dama e rei contra um rei nu no canto. Está tudo pronto menos a peça que tem de concluir.",
+  "hint": "Uma jogada tranquila deixa às pretas exatamente uma casa legal — que peça lhes pode tirar o resto assim que estiver ali?",
+  "explanation": "## A Ideia\n\nA dama em e2 é dona da segunda linha, portanto o rei preto tem b1 e mais nada. O que a dama não consegue é cobrir a1, b1 e b2 ao mesmo tempo. É para isso que serve o rei.\n\n{{Kc3}} trá-lo. As pretas têm uma jogada legal, {{Kb1}}, e {{Qb2#}} aterra ao lado do rei numa casa que o rei branco defende.\n\nTirar antes b1 com {{Qc2}} é afogamento. Conta as casas do rei nu antes de cada jogada tranquila: se a resposta for uma, só um xeque a pode tirar."
+}

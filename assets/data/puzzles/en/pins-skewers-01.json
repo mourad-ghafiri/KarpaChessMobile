@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-01",
+  "fen": "7k/7p/5qp1/8/8/8/5PPP/B5K1 w - - 0 1",
+  "solution": [
+    "Bxf6+"
+  ],
+  "title": "Nailed to the Diagonal",
+  "setup": "Your bishop and the black king share the long diagonal, and the black queen is standing between them.",
+  "hint": "The queen cannot step off that diagonal without exposing its king, and nothing defends it where it stands.",
+  "explanation": "## The Idea\n\nThe queen on f6 is pinned to the king on h8: it may slide up and down the long diagonal, but it cannot leave it, and nothing defends it.\n\nSo take it. {{Bxf6+}} wins the queen for nothing, and {{Kg8}} is Black's only reply.\n\nMoving first is the whole point: on Black's turn {{Qxa1}} would have been mate. A pinned piece is not a defended piece — it is a piece that cannot run."
+}

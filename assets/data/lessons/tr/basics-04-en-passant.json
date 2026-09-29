@@ -1,0 +1,62 @@
+{
+  "id": "en-passant",
+  "title": "Geçerken Yakalanmak",
+  "summary": "Bir piyon sizinkinin yanından koşar ve tam olarak bir hamle boyunca bunu yanına bırakmazsınız",
+  "proof": "en-passant-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Üstüne Basmayı Reddettiği Kare",
+      "text": "Siyahın d7'deki piyonu ileri gelmek istiyor ve tam önündeki kare yasak: e5'teki piyonunuz d6'yı kapsıyor, yani d6'ya atılan adım elden verilmiş bir piyondur.\n\nSiyahın başka bir seçeneği var. Kendi başlangıç yatayından piyon bir seferde iki kare gidebilir: {{d5}}. d6 karesine hiç basmadan onu geçer ve piyonunuzun tam yanına, omuz omuza iner — menzil dışıdır, çünkü piyon ileri ve çapraz vurur, asla yana değil.\n\nAçık kapı bu. Geçerken alma onu kapatır."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Geçerken",
+      "text": "Cevabın hemen, hemen bir sonraki hamlede gelmesi gerekir. Yine {{d5}} — ve bu kez {{exd6}}.\n\nPiyonunuz çaprazdan d6'ya, yani siyahın üstüne basmaya yanaşmadığı kareye adım atar; siyah piyon da d5'ten kaldırılır. Bu iki kareyi bir daha okuyun: siz birine inersiniz, alınan piyon diğerinden kalkar. Satrançtaki her taş alma sizi kurbanınızın bulunduğu kareye koyar. Bu koymaz; ilk gördüğünüzde kuraldışı görünmesinin sebebi de budur.\n\nFransızca *geçerken* demektir ve kuralın tamamı bu addadır."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Kural Neden Var",
+      "text": "İki karelik ilk hamle en baştan beri yoktu. Satranç yüzyıllarca piyonlar birer kare sürünerek oynandı; çift adım, partiler daha hızlı başlasın diye sonradan eklendi.\n\nİşe yaradı ve bir sorun getirdi: artık bir piyon, bu fazladan hızı kullanarak yolunu zaten gözleyen bir rakip piyonun yanından sıvışabiliyordu. Nöbetçi tam oracıkta duruyordu ve söz hakkı yoktu. {{d5}} tam da bunu yapmaya çalışıyor.\n\nGeçerken alma bu düzeltmedir, fazlası değil. Başlangıcı hızlandırmak, evet. Bedava geçiş hakkı satın almak, hayır."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Doğru Olması Gerekenler",
+      "text": "Kural dardır ve her parçasının önemi vardır.\n\nRakip piyon iki karelik hamleyle, doğrudan kendi başlangıç yatayından gelmiş olmalıdır — oraya birer kare yürüyerek gelen bir piyon sonsuza dek güvendedir. Piyonunuzun tam yanına, aynı yataya inmelidir. Kendi piyonunuz kendi beşinci yatayında duruyor olmalıdır, çünkü iki kare koşan bir piyon tam o yataya iner.\n\nVe bu, piyona karşı piyondur. Geçerken başka hiçbir şey yakalanamaz ve yakalayan da başka bir şey olamaz."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "title": "Tek Hamle, Yalnızca Bir",
+      "text": "e5'teki piyonunuzun yanında iki siyah piyon duruyor, biri d5'te biri f5'te, ve yalnızca biri geçerken alınabilir.\n\nd piyonu iki karelik koşusunu, sizin piyonunuz daha e5'e varmadan yapmıştı; yani o tarafta hiçbir teklif ortaya çıkmadı. f piyonu ise tam şu anda, doğrudan f7'den, e5 piyonunuzun gözlediği f6 karesinin üstünden geçerek indi.\n\nDemek ki fırsat bir tarafta açık, öbür tarafta kapalı. Burada başka bir şey oynayın, bu taraf da temelli kapansın."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "prompt": "Yanınızdan az önce koşup geçen piyonu, fırsat sona ermeden alın.",
+      "targetSan": [
+        "exf6"
+      ],
+      "hint": "Yalnızca tam bu hamlede iki kare oynayan piyon yakalanabilir ve siz onun atladığı kareye inersiniz."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/5P2/3p4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Hiç Basmadığınız Kare",
+      "text": "Piyonunuz f6'da, arkasındaki f5 boş. Aldığınız piyon az önce oradaydı.\n\nSiyah {{gxf6}} ile geri alır — sıradan bir taş alma, baştan beri yaptığınız türden; aldığı şeyin durduğu yere tam olarak iner. İki hamleyi yan yana koyun, sizinkinin tuhaflığı apaçık görünsün.\n\n> Satrançta bir taş alma, alan taşın hiç dokunmadığı bir kareden taş kaldırır. İşte bu odur."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/8/8/2pPP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Şimdi siyahı oynuyorsunuz: sizinkinin yanından az önce sıçrayan beyaz piyonu, hak hâlâ varken yakalayın.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Siyahın tarafından sayın — piyonunuz kendi beşinci yatayında ve siz koşucunun geçtiği kareye inersiniz."
+    }
+  ]
+}

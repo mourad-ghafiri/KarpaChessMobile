@@ -1,0 +1,13 @@
+{
+  "id": "opposite-castles-proof",
+  "fen": "4r1k1/pp2pp1p/2bp1npQ/q2N4/4PN2/5P2/PPP5/2K4R w - - 3 24",
+  "solution": [
+    "e5",
+    "Bxd5",
+    "exf6"
+  ],
+  "title": "O Peão Pé de Cabra",
+  "setup": "Reis em alas opostas. A tua dama e a tua torre partilham a coluna h, a dama preta de a5 olha para a2, e só o cavalo de f6 ajuda o rei a guardar h7.",
+  "hint": "Tira o cavalo de f6 de cima de h7 com a peça mais barata que tens, e faz com que custe às pretas qualquer que seja a resposta.",
+  "explanation": "## A Ideia\n\nReis em alas opostas fazem disto uma corrida, e a dama preta já aponta ao teu rei. És tu a atacar primeiro, com um peão. {{e5}} atinge o cavalo de f6, a única peça além do rei a guardar h7.\n\nO melhor das pretas é recuperar um cavalo com {{Bxd5}}. Não muda nada: {{exf6}} elimina o guarda na mesma. Assim que as pretas recapturam, a dama e a torre da coluna h passam por h7, e {{Qxh7+}} e {{Qh8+}} empurram o rei para o meio, onde perde muito mais do que uma peça."
+}

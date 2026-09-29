@@ -1,0 +1,14 @@
+{
+  "id": "overload-05",
+  "fen": "6k1/5ppp/1b6/5r2/7R/8/PP1R4/K2Q4 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Bxd8",
+    "Qxd8#"
+  ],
+  "rating": 1410,
+  "title": "El alfil está demasiado lejos",
+  "setup": "El alfil negro de b6 vigila d8 por la diagonal mientras la torre de f5 se ha alejado de casa.",
+  "hint": "Un defensor de largo alcance también tiene que poder volver. Comprueba si la casilla que vigila es una que puede sostener.",
+  "explanation": "## La idea\n\nEl alfil defiende d8 a distancia, así que {{Rd8+}} cuesta una torre y {{Bxd8}} es forzada. Ahora la diagonal está vacía y {{Qxd8#}} toma la casilla. Defender una casilla y poder sobrevivir en ella son cosas distintas."
+}

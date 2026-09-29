@@ -1,0 +1,11 @@
+{
+  "id": "openings-05",
+  "fen": "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w KQk - 3 6",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "La asfixia de la Caro-Kann",
+  "setup": "Las Negras respondieron a la línea principal con un caballo a d7 y acaban de desarrollar el otro caballo a f6, atacando a tu caballo centralizado.",
+  "hint": "Un peón negro se comería encantado tu caballo, y algo en la columna e se lo impide. Encuentra la casilla que lo aprovecha.",
+  "explanation": "## La idea\n\nLa dama en e2 parece una tranquila jugada de desarrollo. Es una trampa.\n\n{{Nd6#}} es mate al instante. El peón de e7 no puede comer, porque la dama lo clava contra el rey. La dama de d8 no puede comer, porque su propio caballo de d7 estorba, y el alfil de f8 está bloqueado por ese mismo peón de e7. Todas las casillas alrededor del rey están ocupadas por piezas negras.\n\nLa Caro-Kann está pensada para sacar las piezas, no para emparedar al rey con ellas."
+}

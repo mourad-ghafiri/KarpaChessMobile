@@ -1,0 +1,65 @@
+{
+  "id": "opening-principles",
+  "title": "Tiga Prinsip",
+  "summary": "Tiga tugas, sekitar sepuluh langkah",
+  "proof": "openings-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Sepuluh Langkah, Tiga Tugas",
+      "text": "Kedua pihak punya satu pion di tengah dan segala yang lain masih di rumah. Dari sini, sekitar sepuluh langkah menentukan bentuk partai — waktu yang dibutuhkan untuk menyelesaikan tiga tugas.\n\n1. **Rebut bagian dari pusat.** Pion di tengah menguasai petak-petak yang diinginkan buah-buah Anda.\n2. **Keluarkan buah baru setiap langkah.** Kuda dan gajah lebih dulu; keduanya mencapai tempat kerjanya dalam satu lompatan.\n3. **Tempatkan raja di sudut.** Raja yang masih di tengah ketika garis-garis terbuka adalah sasaran, bukan buah.\n\nSiapa yang selesai lebih dulu menyerang sementara pihak lain masih berbenah."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Apa yang Dibeli Satu Langkah",
+      "text": "{{Nf3}} {{Nc6}}. Dua kuda keluar dari baris belakang, keduanya mengarah ke pusat, dan tak satu pun perlu bergerak lagi untuk mengerjakan sesuatu.\n\nItulah **pengembangan** — buah yang telah meninggalkan rumah dan sudah punya tugas. Yang Anda belanjakan untuknya juga punya nama: **tempo** adalah satu langkah, satu giliran. Anda mendapat satu setiap giliran dan begitu pula lawan Anda.\n\nJadi buah yang digerakkan dua kali di pembukaan telah menghabiskan dua tempo dan mengerjakan tugas satu tempo. Seluruh pembukaan adalah perdebatan tentang hitungan itu."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "prompt": "Kembangkan gajah sehingga ia membidik lurus ke satu-satunya petak di kubu Hitam yang hanya dilindungi raja.",
+      "targetSan": [
+        "Bc4"
+      ],
+      "hint": "Gajah raja Anda punya lima petak di jalan keluarnya, dan hanya satu di antaranya yang membidik pion yang lemah itu."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Menteri Bukanlah Buah yang Berkembang",
+      "text": "Hitam mengeluarkan menteri pada langkah kedua, dan hanya menteri itulah buah hitam yang sudah meninggalkan baris belakang. Pengembangan tercepat dalam partai, di atas kertas.\n\nDi atas papan, itulah yang paling lambat. Sebuah buah dianggap berkembang ketika lawan tak bisa mengejarnya dengan gratis, dan menteri adalah buah yang bisa dikejar siapa saja — kuda, gajah, bahkan pion. Sembilan poin harus lari dari tiga. Penyerangnya tetap di tempat ia mendarat dan mempertahankan petak yang baru direbutnya.\n\nSetiap pengejaran seperti itu adalah tempo yang diserahkan Hitam."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+      "prompt": "Keluarkan kuda ke petak tempat ia menyerang menteri hitam, sehingga Anda mendapat satu langkah sambil mengembangkan buah.",
+      "targetSan": [
+        "Nc3"
+      ],
+      "hint": "Dua kuda, lima petak di antara keduanya, dan hanya satu dari petak itu yang memandang ke d5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 3",
+      "title": "Menghitung Tagihannya",
+      "text": "Menteri harus menjawab kuda Anda, dan menjawab adalah satu-satunya yang bisa dilakukan Hitam. {{Qa5}} menyingkir. {{d4}} menanam pion di tengah selagi menteri sibuk. {{Nf6}} adalah buah hitam pertama yang mencapai petak yang diinginkannya, dan ia tiba pada langkah keempat.\n\nHitung apa yang dimiliki masing-masing pihak. Putih: kuda di c3, pion di d4, dan kendali atas apa yang terjadi berikutnya. Hitam: satu kuda, dan menteri yang masih bisa dikejar. Memegang kendali itu disebut **inisiatif**.\n\n> Menteri yang terus berlari sedang membelikan langkah gratis bagi pihak lawan."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+      "title": "Dua Gerakan dalam Satu Giliran",
+      "text": "Lihat apa yang belum selesai. Putih punya pion di e4, gajah di c4 dan kuda di f3 yang sudah keluar; raja masih di e1, dan benteng di h1 belum pernah punya petak untuk dituju.\n\nSatu giliran membereskan keduanya. Raja berpindah dua petak ke arah sudut dan benteng melompatinya ke f1 — raja kini di balik tiga pion yang belum pernah bergerak, benteng kini di lajur tempat ia punya pekerjaan.\n\nRaja Hitam berada di lajur tengah yang sama, dan Putih melangkah lebih dulu."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+      "prompt": "Selesaikan tugas terakhir dari ketiganya dalam satu langkah, dan biarkan benteng di sudut ikut bergabung.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Dua tugas sudah selesai di papan ini: satu pion di pusat, dua buah sudah keluar. Tugas ketiga menyangkut raja Anda."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "endgames-07",
+  "fen": "4QK2/8/8/8/8/8/4pk2/8 w - - 0 1",
+  "solution": [
+    "Qf7+"
+  ],
+  "title": "Uno Scacco, e Uno Solo",
+  "setup": "Il pedone nero in e2 promuove alla prossima mossa, e il vostro re in f8 non gli è neanche vicino. La donna deve comprarsi il tempo da sola.",
+  "hint": "Il Nero deve rispondere a uno scacco prima di spingere. Trovate lo scacco a cui il re nero non può rispondere prendendo la donna.",
+  "explanation": "## L'idea\n\nA uno scacco bisogna rispondere prima che il pedone possa muovere, e da e8 la donna ha esattamente uno scacco che il re non può semplicemente catturare: {{Qf7+}}, lungo la colonna f. Ogni altra mossa lascia promuovere il pedone, e donna contro donna è patta.\n\nDa f7 la donna continua a dare scacco e a guidare il re finché non mette piede in e1, davanti al proprio pedone. Quella è la mossa gratis, e il vostro re la spende camminando."
+}

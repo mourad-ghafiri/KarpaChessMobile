@@ -1,0 +1,57 @@
+{
+  "id": "ratings",
+  "title": "Ce que veut dire un classement",
+  "summary": "Une prévision de résultats, pas un verdict sur vous",
+  "proof": "culture-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "Quatre cents points d'avance",
+      "text": "Les Blancs ont quatre cents points de classement de plus que vous et viennent de pousser un pion contre votre fou, avec le calme de quelqu'un qui s'attend à ce qu'on lui offre des choses.\n\nUn classement est une prévision de score. Faites passer l'écart entre deux nombres dans une formule et il en sort un résultat attendu : des classements égaux prédisent un demi-point chacun, deux cents points d'écart prédisent environ 76 % pour le nombre le plus élevé, quatre cents points environ 91 %.\n\nPersonne n'est censé gagner toutes ses parties, quel que soit l'écart. Pas même celui-là."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "Ce que murmure l'écart",
+      "text": "Quatre cents points ne sont pas un mur. C'est un pourcentage, et les pourcentages sont faits de parties qui ont tourné dans l'autre sens.\n\nL'écart fait ses dégâts avant la partie. Il vous dit de tout tenir, de ne prendre aucun risque, et de laisser le joueur le plus fort le prouver — ce qui est exactement la partie que veut un joueur plus fort.\n\nAlors le fou commence à avoir l'air de devoir être sauvé. {{Ba5}}, {{Bc5}} : deux cases tranquilles, qui admettent toutes deux que le détenteur du plus grand nombre a droit à quelque chose."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "prompt": "Laissez le fou où il est et reprenez le pion du gambit avec un cavalier.",
+      "targetSan": [
+        "Ngxe5",
+        "Ncxe5"
+      ],
+      "hint": "Les deux cavaliers peuvent prendre le pion. Le fou est plus en sécurité qu'il n'y paraît, alors ne dépensez pas le coup pour lui."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "D'où viennent les points",
+      "text": "Les cavaliers se sont échangés en e5, puis les Blancs ont pris le fou. Comptez maintenant ce que rémunère réellement un classement.\n\nVous gagnez des points quand vous marquez au-dessus de la prévision et vous en perdez quand vous marquez en dessous. C'est tout le calcul. Battre quelqu'un de bien mieux classé fait beaucoup bouger votre nombre justement parce que la prévision disait que vous perdriez — le système paie la surprise, et il paie en proportion de sa surprise.\n\nC'est pourquoi récupérer quelque chose n'est pas la question. {{Qxb4}} ramasse un pion et laisse les Blancs survivre."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Le curseur appelé K",
+      "text": "L'ampleur avec laquelle un seul résultat fait bouger votre nombre dépend d'un coefficient que la FIDE appelle K. Il est élevé pour les nouveaux et les jeunes joueurs, pour que leur classement trouve vite le bon niveau, et faible pour les joueurs établis, pour qu'un mauvais week-end ne puisse pas défaire des années de travail. Un curseur de lissage, rien de plus.\n\nLes classements baissent autant qu'ils montent, et une baisse ne prouve pas que vous avez régressé. Elle signifie que vous avez marqué sous la prévision, ce qui arrive à tous ceux qui continuent à jouer. Les seuls joueurs dont le nombre ne baisse jamais sont ceux qui ont arrêté."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Trois monnaies distinctes",
+      "text": "Arpad Elo, physicien et amateur de bon niveau, a construit l'échelle pour la fédération américaine, qui l'a adoptée en 1960. La FIDE a suivi en 1970 et a publié sa première liste officielle le 1er juillet 1971.\n\nDepuis, chaque site a copié la forme, pas les nombres. Un classement de blitz en ligne, le classement d'un autre site et un classement FIDE sont trois monnaies distinctes, et aucune ne se convertit. Les titres se découpent sur la seule échelle FIDE : 2300, 2400 et 2500 pour Maître FIDE, Maître International et Grand Maître International.\n\n> Le classement prévoit la partie. Il ne la joue jamais."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "prompt": "Les Blancs ont pris la pièce que la prévision disait gratuite : trouvez le mat que les propres pièces blanches ont construit autour de leur roi.",
+      "targetSan": [
+        "Nd3#"
+      ],
+      "hint": "Regardez le long de la colonne e depuis votre dame en e7 et demandez-vous quel pion blanc devant le roi n'a pas le droit de bouger."
+    }
+  ]
+}

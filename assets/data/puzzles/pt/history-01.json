@@ -1,0 +1,13 @@
+{
+  "id": "history-01",
+  "fen": "3r3k/pp4pp/8/2n1N3/8/8/PP4PP/R5K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "O Salto da Cavalaria",
+  "setup": "Carros de guerra e cavalaria, ainda a mover-se como se moviam há quinze séculos.",
+  "hint": "O rei preto tem uma casa para onde fugir. Que salto lhe dá xeque e ataca a torre ao mesmo tempo?",
+  "explanation": "## A Ideia\n\nO xeque de um cavalo não se pode tapar: o cavalo nunca atravessa as casas pelo meio, portanto não há nada para meter no caminho.\n\n{{Nf7+}} toca em h8 e d8 na mesma jogada. A única resposta legal das pretas é {{Kg8}}, e {{Nxd8}} recolhe a torre, que nunca viu o xeque a chegar: f7 não está na sua linha nem na sua coluna.\n\nQuando o rei inimigo está com poucas casas, procura a casa de cavalo que toca ao mesmo tempo no rei e em algo valioso."
+}

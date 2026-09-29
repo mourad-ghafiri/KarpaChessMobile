@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-08",
+  "fen": "8/8/8/6k1/8/8/P7/7K w - - 0 1",
+  "solution": [
+    "a4"
+  ],
+  "title": "Duas Casas de Uma Vez",
+  "setup": "O teu rei não está nem perto, e o rei preto em g5 parte atrás do teu peão a. Encontra a única maneira de o peão chegar à oitava linha.",
+  "hint": "Imagina um quadrado desde o teu peão até à casa de promoção e para o lado. O rei preto não pode conseguir entrar nele.",
+  "explanation": "## A Ideia\n\n{{a4}} deixa o peão a quatro jogadas de a8. Desenha o quadrado de a4 até a8 e para o lado até à coluna e: o rei de g5 não consegue entrar nele, portanto nunca apanha o peão.\n\nUm passo de uma casa até a3 deixa cinco jogadas por fazer, o quadrado estica-se até à coluna f, e o rei entra de imediato. O primeiro passo duplo do peão é toda a diferença."
+}

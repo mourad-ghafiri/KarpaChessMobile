@@ -1,0 +1,14 @@
+{
+  "id": "trapped-12",
+  "fen": "3r2k1/pp3ppp/8/2R5/1N6/3N3P/PP3PPK/q7 w - - 0 1",
+  "solution": [
+    "Rc1",
+    "Qxc1",
+    "Nxc1"
+  ],
+  "rating": 1400,
+  "title": "Dama en la esquina",
+  "setup": "La dama negra se ha abierto paso comiendo hasta a1, donde tus propios peones de a2 y b2 ya la tienen cercada.",
+  "hint": "La última fila está completamente abierta para ella. Encuentra la pieza que la ataca y cubre las dos casillas.",
+  "explanation": "## La idea\n\n{{Rc1}} ataca a la dama y le quita b1. A a2 la defiende el caballo de b4, a b2 y c1 el caballo de d3, así que cualquier captura que haga la pierde. {{Qxc1}} {{Nxc1}} es lo mejor que tiene: una dama por una torre."
+}

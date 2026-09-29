@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-07",
+  "fen": "8/5K2/8/8/2pQ4/8/2B5/7k w - - 0 1",
+  "solution": [
+    "Qf2",
+    "c3",
+    "Be4#"
+  ],
+  "rating": 1590,
+  "title": "Matto sulla Grande Diagonale",
+  "setup": "Il re nero è in h1 con un pedone in c4, e il vostro alfiere in c2 è a una mossa dalla grande diagonale.",
+  "hint": "L'alfiere è a una casa dalla linea che gli serve. Trovate la mossa che copre insieme g1 e g2.",
+  "explanation": "## L'idea\n\n{{Qf2}} si prende in silenzio sia g1 sia g2. Il Nero deve giocare {{c3}}, e {{Be4#}} dà matto sulla diagonale su cui l'alfiere entra. Lo zugzwang vi dà la mossa libera di cui uno schema di matto ha bisogno."
+}

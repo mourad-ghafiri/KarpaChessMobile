@@ -1,0 +1,12 @@
+{
+  "id": "discovery-01",
+  "fen": "3r3k/5p1p/6p1/4N3/8/3q4/1B3PPP/5RK1 w - - 0 1",
+  "solution": [
+    "Nxd3+"
+  ],
+  "rating": 960,
+  "title": "The Piece in Front",
+  "setup": "Your bishop on b2 is aimed at the black king, and your own knight on e5 is the only thing in the way.",
+  "hint": "Something of yours is standing between the bishop and the enemy king. What happens the moment it steps aside?",
+  "explanation": "## The Idea\n\nThe knight is the front piece of a battery. {{Nxd3+}} takes the queen and unmasks the bishop's check on h8 in the same move, so Black must answer the check instead of recapturing. A defended piece is not really defended when taking it comes with check."
+}

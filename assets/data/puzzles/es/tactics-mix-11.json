@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-11",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+  "solution": [
+    "exd4"
+  ],
+  "title": "Responde al peón central",
+  "setup": "Las Blancas han llevado un segundo peón al centro, donde ataca a tu peón de e5.",
+  "hint": "Tu peón de e está atacado. ¿Qué respuesta elimina el peón central blanco en lugar de limitarse a defender?",
+  "explanation": "## La idea\n\nEl peón blanco de d4 ataca a tu peón de e5. {{exd4}} se lo come, y a las Blancas solo les queda un peón central. Si las Blancas recapturan con {{Qxd4}}, eso es la Partida del Centro, y {{Nc6}} ataca a la dama con una jugada de desarrollo.\n\nSi en cambio ignoras la oferta, {{dxe5}} gana tu peón, o un avance a d5 gana espacio.\n\nCuando un peón central está atacado, cambiarlo por el atacante suele ser la respuesta más limpia."
+}

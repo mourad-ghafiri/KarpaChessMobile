@@ -1,0 +1,12 @@
+{
+  "id": "trapped-01",
+  "fen": "5rk1/ppp2pp1/7p/8/8/5N1P/bPP2PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b3"
+  ],
+  "rating": 1000,
+  "title": "L'Alfiere Ingordo",
+  "setup": "L'alfiere nero si è appena mangiato il pedone in a2 e adesso sta nell'angolo del vostro campo, in a2.",
+  "hint": "Contate le case che restano a quell'alfiere. Toglietegli la diagonale più lunga e guardate che cosa avanza.",
+  "explanation": "## L'idea\n\n{{b3}} chiude la diagonale verso g8 e lascia all'alfiere soltanto b1, una casa che la vostra torre copre da e1. Ra1 alla mossa successiva lo vince. Il pedone in b3 è al sicuro perché c2 lo difende. Un alfiere che spilucca un pedone d'ala spesso non riesce a tornare a casa."
+}

@@ -1,0 +1,71 @@
+{
+  "id": "double-attack",
+  "title": "El ataque doble",
+  "summary": "La familia a la que pertenece la horquilla, y los miembros que ella no abarca",
+  "proof": "forks-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Tres nombres, una forma",
+      "text": "Horquilla, ataque al descubierto, jaque al descubierto: tres nombres que ya te han dado, y una sola forma debajo de todos.\n\nUna horquilla ataca dos piezas con una sola pieza. Un ataque al descubierto aparta una pieza para que ataque otra. Los dos terminan en el mismo sitio. Tu rival tiene una jugada y dos problemas.\n\nEl apellido de la familia es **ataque doble**: cualquier jugada que cree dos amenazas a la vez, repartan como repartan el trabajo tus piezas. La horquilla es la versión en la que una sola pieza lo hace todo."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Primero la lista",
+      "text": "Antes de calcular nada, nombra las piezas rivales que nada protege.\n\nAquí la lista es corta: el caballo de b4, el caballo de h4, y nada más. El rey de g8 protege los peones que tiene al lado y nada más.\n\nLas piezas sin defensa son las que convierten una jugada normal en un ataque doble, y la mayoría de los jugadores nunca hace la lista. Estos dos caballos comparten la cuarta fila, todas las casillas entre ellos están vacías y tu dama tiene un camino directo hasta ella."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "prompt": "Las Negras tienen una sola jugada: encuentra la casilla donde tu dama ataca a los dos caballos a la vez.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "Trabaja desde los objetivos: los caballos ya comparten una fila, y solo una casilla de ella está a tu alcance."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Lo que pueden intentar las Negras",
+      "text": "{{Qd4}}. Ahora cuenta lo que les está permitido hacer a las Negras.\n\nNinguna pieza negra ataca d4, así que la dama no se puede capturar. Nada puede interponerse entre la dama y cualquiera de los caballos. Y ninguna jugada protege a los dos, porque un caballo defiende casillas a una L de distancia y estos dos están lejos el uno del otro.\n\nQueda huir, y huir abandona al otro. Así que las Negras contraatacan: {{Nf3+}} ataca a la dama y da jaque al rey a la vez, una horquilla contra ti. Falla por un motivo aburrido. Dos peones cubren f3, y {{exf3}} lo termina."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "Cuando una pieza no llega",
+      "text": "Un tablero nuevo, y ninguna de tus piezas ataca dos cosas a la vez.\n\nTu alfil de b2 domina la gran diagonal, pero tu propio caballo de e5 está aparcado en mitad de ella. Más allá, en esa diagonal, está el caballo de g7, sin defensa. En el otro flanco, el alfil negro de a5 también está suelto.\n\nNinguna pieza llega a los dos. Dos piezas, sí. Mueve el caballo y la diagonal se abre sola, como ya has visto abrirse una línea."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "Donde cae el caballo",
+      "text": "Cualquier salto del caballo abre la diagonal. {{Nd3}}, {{Nf3}}, {{Ng4}}, {{Ng6}}, cualquiera.\n\nPor eso casi todos la desperdician. Una amenaza es un problema, las Negras mueven el caballo de g7, y tu caballo ha gastado un turno en plantarse en un sitio inútil.\n\nEl alfil de detrás pone gratis la primera amenaza. El caballo tiene que poner la segunda allí donde caiga, y en este tablero solo hay una cosa sobre la que merezca la pena caer."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "prompt": "Abre la diagonal de tu alfil con un salto de caballo que ataque al llegar al alfil sin defensa.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "Dos casillas del caballo atacan a5, y el peón negro de b5 cubre una de ellas."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/2N5/bp6/8/8/1B6/6K1 b - - 1 1",
+      "title": "Cuenta las salidas",
+      "text": "Dos amenazas, dos piezas, y las Negras tienen derecho a buscar la jugada que responda a ambas.\n\n- **Capturar al atacante.** Nada puede. El intento más cercano es {{Kd7}}, y {{Nxa5}} se lleva el alfil.\n- **Proteger las dos.** El alfil de a5 y el caballo de g7 no comparten ninguna casilla.\n- **Huir.** Se mueva la que se mueva, la otra sigue ahí.\n- **Tapar.** La diagonal se puede cerrar, y este es el intento que merece la pena mirar.\n\nCasi funciona."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/2N5/1p6/8/2b5/1B6/6K1 w - - 2 2",
+      "prompt": "Las Negras han cerrado la diagonal: recoge la pieza que han puesto en medio.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "Nada en absoluto defiende c3, y la diagonal más allá sigue vacía."
+    }
+  ]
+}

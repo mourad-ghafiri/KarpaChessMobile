@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-06",
+  "fen": "3r2k1/1n3ppp/8/8/8/8/5PPP/3RR1K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Nxd8",
+    "Re8#"
+  ],
+  "rating": 880,
+  "title": "At Geri Dönüyor",
+  "setup": "Siyahın atı az önce b7'ye gitti; oradan d8'de geri alabilir ve başka bir şey yapamaz.",
+  "hint": "Geri alan taşın indiğinde neyi kapsayacağını ve neyi kapsamayı bırakacağını sorun.",
+  "explanation": "## Fikir\n\n{{Rxd8+}} tek kurallı cevap olan {{Nxd8}} hamlesini zorlar. Ama d8'deki at b7, c6, e6 ve f7'yi kapsar — e8'i asla. {{Re8#}} yeni koruyucunun göremediği tek kareye iner. Bir taşın nerede geri aldığı, alıp alamadığı kadar önemlidir."
+}

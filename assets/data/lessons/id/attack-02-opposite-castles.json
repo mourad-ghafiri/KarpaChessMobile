@@ -1,0 +1,56 @@
+{
+  "id": "opposite-castles",
+  "title": "Serangan Rokade Berlawanan",
+  "summary": "Dua serangan, satu perlombaan, tanpa juara kedua",
+  "proof": "opposite-castles-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "Dua Raja, Berbeda Sayap",
+      "text": "Raja Putih duduk di c1 dan raja Hitam di g8, di sayap yang berbeda, dan satu fakta itu mengubah fungsi setiap pion di papan.\n\nRokade di sisi yang sama dan setiap pion yang Anda dorong membuka jalan menuju raja Anda sendiri, jadi Anda membiarkan pion-pion dan menggerakkan buah sebagai gantinya. Di sini tagihan itu tak pernah datang. Perlindungan Putih adalah a2, b2 dan c2, dan pion-pion yang bisa dilemparkan Putih ke arah Hitam berdiri di sayap seberang, bebas berlari sejauh yang diinginkan."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "Adu Lari, Bukan Permainan",
+      "text": "Posisi Hitam mengatakan hal yang sama dengan warna ditukar, jadi kedua pemain mendorong bersamaan, ke arah yang berlawanan.\n\nPemenangnya adalah siapa pun yang lebih dulu merobek garis pertama menuju raja lawan — lajur, diagonal, jalan apa pun yang bisa dilalui benteng atau menteri. Langkah bertahan yang tenang tidak memperlambat pihak lain; langkah itu menghabiskan langkah yang Anda butuhkan untuk memenangkan perlombaan. Tak ada juara kedua."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "prompt": "Mulailah perlombaannya dengan mendorong pion yang bisa mengusir kuda Hitam dari f6.",
+      "targetSan": [
+        "g4"
+      ],
+      "hint": "Dua pion sayap raja bisa melompat dua petak, dan hanya satu yang mendarat di tempat yang sudah dijaga pion di f3."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/3nbppp/p2pbn2/1p2p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 12",
+      "title": "Dorong, dan Didorong Balik",
+      "text": "Hitam tidak diam. Pion di b5 sudah dalam perjalanan, dan kedua serangan kini berjalan dengan kecepatan yang sama.\n\n{{g5}} mengusir kuda di f6 dari pertahanan, {{Ne8}} adalah tujuannya, {{f4}} membawa pion berikutnya maju, dan {{b4}} menyerang kuda di c3 dengan cara yang sama seperti Putih baru saja menyerang kuda Hitam.\n\nTak satu pihak pun bertahan. Kedua pihak sedang menghitung."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "Harga Satu Langkah",
+      "text": "Lima langkah kemudian, kedua serangan sudah tiba. Pion Putih berdiri di f5 dan g5; pion Hitam berdiri di a4 dan b4, dengan benteng di a8 sejajar di belakangnya.\n\nMulai sekarang setiap langkah membeli wilayah atau tak membeli apa-apa. {{Nc5}} tampak seperti langkah bagus — kuda meninggalkan d7 ke petak yang lebih baik dan mengincar e4 — dan tak berbuat apa-apa terhadap raja Putih. Hitam akan menukar satu langkah dalam perlombaan dengan buah yang tampak lebih rapi, dan langkah adalah satu-satunya hal yang masih bisa dibelanjakan kedua pihak."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "Pion Adalah Linggis",
+      "text": "Putih butuh satu dorongan lagi untuk mencapai raja Hitam. Hitam butuh lajur a, dan pion Putih di a2-lah yang menutupnya.\n\nMembeli garis itu dengan pion bukanlah pertukaran seimbang, dan memang tak dimaksudkan begitu. Pion bernilai satu poin. Benteng yang mendarat di samping raja tanpa pelindung mengakhiri partai. Materi adalah hal yang Anda hitung ketika tak ada yang terjadi; dengan kedua raja di bawah tembakan, langkah dan garis adalah satu-satunya mata uang yang tersisa.\n\n> Ketika kedua raja duduk di sayap yang berlawanan, pion bukanlah materi. Pion adalah linggis."
+    },
+    {
+      "type": "play",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "prompt": "Korbankan sebuah pion untuk merobek lajur yang ditunggu benteng Anda di a8.",
+      "targetSan": [
+        "b3"
+      ],
+      "hint": "Anda tak menginginkan pion itu kembali — Anda menginginkan penangkapan yang menarik pion a Putih dari lajur tempat benteng Anda sudah berada."
+    }
+  ]
+}

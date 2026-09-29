@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-08",
+  "fen": "7k/4bppp/r5R1/1Q4B1/8/8/PP2r3/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Bf8",
+    "Qxf8#"
+  ],
+  "rating": 1560,
+  "title": "Tawarkan kepada Gajah",
+  "setup": "Menteri Anda di b5 dan benteng di g6 membidik raja yang hanya ditemani gajah di e7.",
+  "hint": "Gajah hanya bisa menghalangi di satu petak. Pilih sekak yang membuatnya memilih petak itu.",
+  "explanation": "## Ide\n\n{{Qe8+}} memaksa {{Bf8}} — gajah tak bisa menangkap dan raja tak bisa bergerak. {{Qxf8#}} menyusul: menteri menguasai g8, dan g7 serta h7 ditempati pion Hitam sendiri. Sekak itu bukan matnya; sekak itulah yang menata matnya."
+}

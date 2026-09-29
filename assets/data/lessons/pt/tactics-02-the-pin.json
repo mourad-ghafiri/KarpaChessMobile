@@ -1,0 +1,56 @@
+{
+  "id": "the-pin",
+  "title": "A Cravada",
+  "summary": "Quando mexer uma peça é ilegal e quando é apenas ruinoso",
+  "proof": "pins-skewers-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Nove Pontos Sem Ir a Lado Nenhum",
+      "text": "A dama preta vale nove pontos e não tem licença para sair da coluna d.\n\nTrês peças partilham essa coluna: a tua torre em d2, a dama preta em d6, o rei preto em d8. Manda a dama para onde for fora da coluna e o rei atrás dela fica exposto à torre. Essa jogada não é má. É ilegal, e o tabuleiro não a faz.\n\nA dama está **cravada** — segura no lugar pelo que está atrás dela."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Ao Longo da Linha, e Mais Nada",
+      "text": "Uma peça cravada não está congelada. Pode viajar ao longo da linha da cravada, onde o rei continua coberto: a dama pode ir a d7 ou a d5, e pode até capturar a torre. Todo o resto do tabuleiro está fechado.\n\nIsto é uma **cravada absoluta** — a peça de trás é o rei, portanto sair da linha é proibido e não apenas imprudente.\n\nA tua torre está cravada exatamente da mesma maneira, pela dama, contra o teu rei em d1. Duas peças cravadas, uma coluna. A única diferença é de quem é a vez."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Três Peças Conseguem Fazê-lo",
+      "text": "Uma cravada é uma linha, portanto só a pode fazer uma peça que ataque ao longo de uma linha: a dama, a torre, o bispo. A lista é essa.\n\nUm cavalo não crava. A sua jogada não toca em nada entre a partida e a chegada, e nenhuma linha continua para lá de onde ele aterra para uma segunda peça lá estar. Um peão e um rei chegam a uma casa e param, o que também os exclui.\n\nTrês peças cravam. Qualquer peça pode ser cravada."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "prompt": "Leva os nove pontos que não se conseguem tirar do caminho da tua torre.",
+      "targetSan": [
+        "Rxd6+"
+      ],
+      "hint": "Nada defende d6, e a jogada que os recolhe nunca sai da coluna d."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Quando Mexer É Apenas Caro",
+      "text": "Põe atrás da peça cravada algo que não seja um rei e tudo se suaviza.\n\nO bispo branco em g5 olha através do cavalo de f6 para a dama em d8, com e7 vazia pelo meio. O cavalo preto pode mexer. Para qualquer casa que lhe apeteça, com toda a legalidade — e custa uma dama por um bispo.\n\nIsso é uma **cravada relativa**. Nada proíbe a jogada; só o preço a desaconselha, e de vez em quando o preço vale a pena."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Soltar-se",
+      "text": "Uma cravada acaba de uma de três maneiras. Capturas a peça que crava. Metes alguma coisa na linha entre as duas. Ou mexes a peça de trás, para já não haver nada a ganhar — {{Qd6}} faz exatamente isso aqui, e o cavalo fica solto.\n\nNão fazer nada é a opção cara. Todas as peças que as brancas apontarem a f6 chegam contra um cavalo que não se pode desviar, e uma cravada que custa pouco aguentar durante uma jogada custa bastante ao longo de cinco."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "prompt": "Fecha a diagonal entre o bispo branco e a tua dama, para o cavalo poder voltar a mexer.",
+      "targetSan": [
+        "Be7"
+      ],
+      "hint": "Entre o cavalo cravado e a tua dama há uma casa vazia — que peça a pode ocupar sem ficar pendurada?"
+    }
+  ]
+}

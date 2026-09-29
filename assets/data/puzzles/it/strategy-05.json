@@ -1,0 +1,11 @@
+{
+  "id": "strategy-05",
+  "fen": "rnbqkb1r/pp2pppp/1n6/2p1P3/2PP4/8/PP4PP/RNBQKBNR w KQkq - 0 7",
+  "solution": [
+    "d5"
+  ],
+  "title": "Spingete Oltre la Rottura",
+  "setup": "Il pedone c del Nero sta colpendo il vostro pedone in d4. Il vostro grande centro è ciò che stringe il Nero, e un cambio restituirebbe lo spazio.",
+  "hint": "Difendere d4 lascia comunque al Nero la possibilità di cambiare lì. Dove può andare quel pedone perché al pedone c non resti niente da colpire?",
+  "explanation": "## L'idea\n\nCon più spazio, evitate i cambi: ogni scambio dà spazio alla parte stretta. {{d5}} supera il pedone c invece di cambiarsi con quello, e adesso i pedoni bianchi in c4, d5 e e5 tolgono c6, d6, e6 e f6 ai pezzi neri.\n\n{{dxc5}} fa il contrario. Le donne escono con scacco, il cavallo di b6 salta in a4, e a giocare con spazio è il Nero."
+}

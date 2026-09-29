@@ -1,0 +1,65 @@
+{
+  "id": "exchange-sacrifice",
+  "title": "Le sacrifice de qualité",
+  "summary": "Une tour pour un cavalier, et les pions ne s'en remettent jamais",
+  "proof": "strategy-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "Une pièce qui fait deux tâches",
+      "text": "Le matériel est parfaitement égal ici, et une pièce blanche fait le travail de deux. Le cavalier en c3 protège le pion en e4, couvre b5 et d5, et se tient deux cases devant le roi blanc en c1.\n\nLes Noirs adoreraient le voir disparaître. Une seule pièce noire atteint c3 — la tour en c8, le long d'une colonne vide — et une tour vaut cinq points quand un cavalier en vaut trois.\n\nDonner une tour pour un cavalier ou un fou porte un nom : vous sacrifiez **la qualité**."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "La liste des prix",
+      "text": "Évaluez un sacrifice avant de le faire, pas après.\n\nDisons que le cavalier en c3 disparaît et que les Blancs reprennent. Une seule unité blanche atteint c3 : le pion en b2. Rien d'autre sur l'échiquier ne touche la case, donc la reprise est imposée à un pion qui quitte la colonne b pour toujours.\n\nL'aile dame blanche compte alors trois pions sur deux colonnes — l'un isolé sur la colonne a, deux empilés sur la colonne c. Aucun camp n'a plus de fou de cases noires, donc b2 n'a plus que le roi pour la surveiller, et a3 n'a plus rien du tout.\n\nDeux points, pour des dégâts irréparables."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "prompt": "Payez deux points pour briser les pions devant le roi blanc et éliminer la pièce qui tient le centre blanc.",
+      "targetSan": [
+        "Rxc3"
+      ],
+      "hint": "Une seule pièce noire a une route dégagée jusqu'en c3, et c'est la plus chère."
+    },
+    {
+      "type": "teach",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "title": "Maintenant, comptez hors de l'échiquier",
+      "text": "Les Blancs ont deux tours, un fou et un cavalier. Les Noirs ont une tour, un fou et deux cavaliers. Deux points, partis, et impossible de les récupérer.\n\nMaintenant l'autre colonne du bilan. Le pion en a2 n'a plus de voisin, et aucun pion ne le défendra plus jamais. Les pions en c2 et c3 sont empilés sur une même colonne, et celui de derrière ne peut plus bouger du tout. La colonne b n'a plus de pion blanc, et le roi en c1 se tient à côté de ce vide.\n\nTout ce que jouent les Noirs désormais doit dépenser ce que la tour a acheté."
+    },
+    {
+      "type": "play",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "prompt": "Placez votre dame là où elle frappe d'un seul coup le pion a isolé et le pion doublé.",
+      "targetSan": [
+        "Qa5"
+      ],
+      "hint": "Une case de l'aile dame regarde droit le long de la colonne a et le long des cases noires à côté du roi blanc."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/2KR3R w - - 1 16",
+      "title": "Une tour de plus et nulle part où la mettre",
+      "text": "{{Kb1}}. Les Blancs quittent d'abord la colonne c, ce qui est raisonnable et ne fait rien pour le reste de la position.\n\nRegardez ce que fait la tour de plus. La tour en d1 bute sur le propre cavalier blanc en d4. La tour en h1 bute sur le propre pion blanc en h4. La colonne c est bouchée par les deux pions blancs qui s'y trouvent. Trois colonnes, et les Blancs ne peuvent en utiliser aucune.\n\nUne tour vaut cinq points quand elle a un endroit où se tenir. Celle-ci vaut ce qu'elle peut atteindre."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "title": "Quand l'addition arrive",
+      "text": "Le même échange est une simple perte de deux points dans trois cas : la reprise laisse les pions sains, l'échange offre à l'adversaire une colonne où travailler, ou rien ne suit. Le matériel parle, et il parle d'autant plus fort qu'on le laisse tranquille longtemps.\n\nIci, il n'a jamais la parole. Le roi blanc en b1 n'a plus de pion sur sa propre colonne, le pion en c3 est déjà sous le feu, et toutes les pièces noires visent le même coin.\n\n> Vous ne vendez pas une tour, vous achetez des cases — et des cases achetées doivent servir."
+    },
+    {
+      "type": "play",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "prompt": "Alignez votre dernière tour sur le pion avec lequel les Blancs ont été forcés de reprendre.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "Rien ne défend ce pion, mais le prendre tout de suite avec la dame est prématuré. Amenez d'abord votre dernière tour sur sa colonne."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "king-activity",
+  "title": "Şahınızı Etkinleştirin",
+  "summary": "Parti boyunca saklanan taş artık öne geçiyor",
+  "proof": "endgame-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "Arka Yataydan Çıkın",
+      "text": "Parti boyunca şahın tek bir talimatı vardı: saklan. Bu tahtada vezirler ve kaleler gitti; onlarla birlikte saklanma sebebi de gitti. Burada kalan hiçbir şey, açıkta duran bir şaha saldırı kuramaz.\n\nYani talimatın süresi doldu. Beyazın g1'deki şahı artık savaşan bir taş — her yöne bir kare yürür, dokunduğu her şeyi korur ve değeri bir filin üstü, bir kalenin altı bir yerdedir. Aynı zamanda olaya bir taşın olabileceği kadar uzaktadır."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "Piyon Bunu Tek Başına Yapamaz",
+      "text": "e5'teki piyonunuz sıkışmış. {{e6}} {{Ke7}} — piyon ilerler, siyahın şahı onu karşılamaya çıkar ve tahtada e6'yı koruyan hiçbir şey yoktur.\n\nGeriye şah kalır. Burada bir şeyi iyileştirebilen tek taş odur ve merkeze attığı her adımla bir şeyi iyileştirir. g1'den merkez üç şah hamlesi uzaklıkta. Üç hamleyi harcayacak daha iyi bir şey yok."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "prompt": "Şahın elindeki en kısa yoldan d4'e yönelin.",
+      "targetSan": [
+        "Kf2"
+      ],
+      "hint": "Çapraz bir adım aynı anda bir dikey ile bir yatay keser — bunlardan yalnızca biri üç hamlelik yürüyüşü başlatır."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/5K2/8 b - - 6 4",
+      "title": "Şahtan Başka Bir Şey Yok",
+      "text": "{{Ke7}} {{Ke3}} {{Ke8}} {{Kd4}}. İkişer hamle ve hiçbiri bir piyona dokunmuyor.\n\nYine de neyin değiştiğine bakın. g1'de gömülü başlayan şah artık d4'te, kendi e5 piyonunun yanında ve ona eşlik etmeye hazır duruyor. Siyahın şahı e7'ye çıkıp dosdoğru geri döndü, çünkü onun da yapacak daha iyi bir işi yoktu.\n\n> Oyun sonunda önce şah gider, piyonlar onun peşinden eve yürür."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "title": "Mesafeyi Sayın",
+      "text": "Beş hamle sonra şahınız d6'da duruyor ve siyahınki ava çıkmış: piyonunuzun yanında isteyeceği kare olan f6 bile çitle çevrili — orayı e5'in kendisi koruyor.\n\nŞimdi tahtanın öteki tarafını sayın. Siyahın şahı d7'deki piyona üç adım uzaklıkta. Sizinki bundan daha yakın ve siyahınki bu tarafta artık hiçbir şeyi korumuyor.\n\nEtkin bir şahın taktiğe ihtiyacı yoktur. Öteki şah başka bir yerdeyken doğru yerde durarak taş kazanır."
+    },
+    {
+      "type": "play",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "prompt": "Siyah şahın gezintisinin kârını toplayın: korumayı bıraktığı piyonu alın.",
+      "targetSan": [
+        "Kxd7"
+      ],
+      "hint": "Siyahın şahı g7'ye çıktığına göre d7'yi koruyanları sayın."
+    }
+  ]
+}

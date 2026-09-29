@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-01",
+  "fen": "1r4k1/p4ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rxb8#"
+  ],
+  "title": "L'échange qui scelle",
+  "setup": "Les deux rois sont blottis derrière leurs pions, et les tours se font face sur la colonne b. Celui qui frappe le premier survit.",
+  "hint": "Avant d'appeler une prise un échange, cherchez quelle pièce noire pourrait reprendre.",
+  "explanation": "## L'idée\n\nLe roi noir en g8 n'a aucune case à lui : f7, g7 et h7 sont occupées par ses pions, et f8 et h8 sont sur la huitième rangée.\n\nLa tour en b8 n'est donc pas un partenaire d'échange. C'est la seule gardienne de cette rangée, et {{Rxb8#}} la prend et mate aussitôt : le roi ne peut pas atteindre b8, et les pions ne reculent pas.\n\nAvant d'échanger la dernière tour d'une colonne ouverte, demandez-vous ce qu'elle faisait d'autre que de se tenir là."
+}

@@ -1,0 +1,71 @@
+{
+  "id": "double-attack",
+  "title": "L'attaque double",
+  "summary": "La famille à laquelle appartient la fourchette, et les membres qu'elle ne couvre pas",
+  "proof": "forks-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Trois noms, une seule forme",
+      "text": "Fourchette, attaque à la découverte, échec à la découverte : trois noms qu'on vous a donnés, et une seule forme sous chacun d'eux.\n\nUne fourchette attaque deux pièces avec une seule pièce. Une attaque à la découverte écarte une pièce pour qu'une seconde attaque. Les deux aboutissent au même endroit. Votre adversaire a un coup, et deux problèmes.\n\nLe nom de famille est l'**attaque double** : tout coup qui crée deux menaces à la fois, quelle que soit la répartition du travail entre vos pièces. La fourchette est la version où une seule pièce fait tout."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "D'abord la liste",
+      "text": "Avant de calculer quoi que ce soit, nommez les pièces adverses que rien ne protège.\n\nIci, la liste est courte : le cavalier en b4, le cavalier en h4, et c'est tout. Le roi en g8 protège les pions à côté de lui et rien d'autre.\n\nCe sont les pièces non protégées qui transforment un coup ordinaire en attaque double, et la plupart des joueurs ne font jamais la liste. Ces deux cavaliers partagent la quatrième rangée, toutes les cases entre eux sont vides, et votre dame a une route directe pour y arriver."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "prompt": "Les Noirs n'ont qu'un coup : trouvez la case où votre dame attaque les deux cavaliers en même temps.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "Partez des cibles : les cavaliers partagent déjà une rangée, et une seule case de cette rangée est à votre portée."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Ce que les Noirs peuvent tenter",
+      "text": "{{Qd4}}. Comptez maintenant ce que les Noirs ont le droit d'y faire.\n\nAucune pièce noire n'attaque d4, donc la dame ne peut pas être prise. Rien ne peut s'interposer entre la dame et l'un ou l'autre cavalier. Et aucun coup ne protège les deux, car un cavalier défend des cases à un L de distance et ces deux-là sont loin l'un de l'autre.\n\nIl reste la fuite, et fuir abandonne l'autre. Les Noirs contre-attaquent donc : {{Nf3+}} attaque la dame et met le roi en échec à la fois, une fourchette jouée contre vous. Elle échoue pour une raison banale. Deux pions couvrent f3, et {{exf3}} règle la question."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "Quand une seule pièce ne suffit pas",
+      "text": "Un nouvel échiquier, et aucune de vos pièces n'attaque deux choses à la fois.\n\nVotre fou en b2 tient la grande diagonale, mais votre propre cavalier en e5 est garé en plein milieu. Plus loin sur cette diagonale se trouve le cavalier en g7, que rien ne défend. Sur l'autre aile, le fou noir en a5 est lui aussi sans protection.\n\nAucune pièce ne peut atteindre les deux. Deux pièces le peuvent. Déplacez le cavalier et la diagonale s'ouvre d'elle-même, comme vous avez déjà vu une ligne s'ouvrir."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "Où le cavalier atterrit",
+      "text": "Tous les coups de cavalier ouvrent la diagonale. {{Nd3}}, {{Nf3}}, {{Ng4}}, {{Ng6}}, n'importe lequel.\n\nC'est pourquoi la plupart la gaspillent. Une menace, c'est un problème, les Noirs déplacent le cavalier en g7, et votre cavalier a dépensé un coup pour se poser quelque part sans intérêt.\n\nLe fou derrière lui fournit gratuitement la première menace. Le cavalier doit fournir la seconde là où il atterrit, et il n'y a qu'une seule chose sur cet échiquier sur laquelle il vaille la peine d'atterrir."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "prompt": "Ouvrez la diagonale de votre fou avec un coup de cavalier qui attaque en arrivant le fou non protégé.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "Deux cases du cavalier attaquent a5, et le pion noir en b5 couvre l'une d'elles."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/2N5/bp6/8/8/1B6/6K1 b - - 1 1",
+      "title": "Comptez les issues",
+      "text": "Deux menaces, deux pièces, et les Noirs ont droit à une recherche du coup qui répond aux deux.\n\n- **Prendre l'attaquant.** Rien ne le peut. L'essai le plus proche est {{Kd7}}, et {{Nxa5}} part avec le fou.\n- **Protéger les deux.** Le fou en a5 et le cavalier en g7 n'ont aucune case en commun.\n- **Fuir.** Quelle que soit la pièce qui bouge, l'autre est toujours là.\n- **S'interposer.** La diagonale peut être fermée, et c'est l'essai qui mérite l'attention.\n\nCela marche presque."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/2N5/1p6/8/2b5/1B6/6K1 w - - 2 2",
+      "prompt": "Les Noirs ont fermé la diagonale : ramassez la pièce que cette interposition a mise en travers.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "Rien du tout ne défend c3, et la diagonale au-delà est toujours vide."
+    }
+  ]
+}

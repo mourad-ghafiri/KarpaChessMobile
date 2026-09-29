@@ -1,0 +1,14 @@
+{
+  "id": "smothered-09",
+  "fen": "k2r3r/pp3ppp/N7/4Q3/8/8/5PPP/6K1 w - - 5 27",
+  "solution": [
+    "Qb8+",
+    "Rxb8",
+    "Nc7#"
+  ],
+  "rating": 1405,
+  "title": "Pengorbanan di b8",
+  "setup": "Raja Hitam baru saja lari dari sekak kuda ke sudut, dengan pionnya sendiri di a7 dan b7.",
+  "hint": "Kuda di a6 sudah menjaga b8 — apa yang dimungkinkannya bagi menteri di petak tepat di samping raja?",
+  "explanation": "## Ide\n\n{{Qb8+}} kebal, karena kuda di a6 melindungi b8, jadi {{Rxb8}} satu-satunya langkah di papan dan sudut itu tersegel oleh benteng Hitam sendiri. {{Nc7#}} lalu memberi sekak dari petak yang tak diawasi buah hitam mana pun. Pengorbanan yang sama berhasil di sudut mana pun."
+}

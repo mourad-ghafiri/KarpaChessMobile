@@ -1,0 +1,12 @@
+{
+  "id": "trapped-08",
+  "fen": "3r2k1/ppp2p2/3p1n2/6pp/8/2N4B/PP3PP1/5RK1 b - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1270,
+  "title": "Son Kareyi Doldurun",
+  "setup": "Beyazın h3'teki filinin arkasında kendi g2 piyonu, onun ötesinde de kendi f1'deki kalesi duruyor.",
+  "hint": "Beyazın kendi taşları bir çaprazı tamamen kapatıyor. Öteki çapraz, h piyonunuzun zaten koruduğu bir kareden başlıyor.",
+  "explanation": "## Fikir\n\n{{g4}} file hiçbir şey bırakmaz: g2 beyazın piyonu, f1 kalesidir ve şimdi g4'teki piyonu h5 korur. Beyaz ancak bir taş elden çıkarabilir ve ...gxh3 sıradaki hamlede onu toplar. Fil kovalayarak değil, kareleri doldurarak kapana kıstırılır."
+}

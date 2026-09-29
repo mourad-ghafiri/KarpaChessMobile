@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-02",
+  "fen": "7k/5ppp/1n5R/2N5/8/7R/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Rxh7+",
+    "Kg8",
+    "Rh8#"
+  ],
+  "rating": 950,
+  "title": "Doublées sur la colonne h",
+  "setup": "Vos tours sont empilées sur la colonne h, et le roi noir est coincé dans le coin derrière trois pions.",
+  "hint": "Deux tours sur une même colonne, cela veut dire que celle de devant peut être sacrifiée. Demandez-vous ce que contrôle ensuite celle de derrière.",
+  "explanation": "## L'idée\n\n{{Rxh7+}} est sans danger car la tour en h3 défend h7, donc {{Kg8}} est forcé. {{Rh8#}} mate ensuite : le roi ne peut toujours pas prendre, f7 et g7 sont ses propres pions, et aller en f8 le laisse sur la rangée que la tour attaque."
+}

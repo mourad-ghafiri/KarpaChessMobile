@@ -1,0 +1,14 @@
+{
+  "id": "fork-01",
+  "fen": "3r3k/pp4pp/8/4N3/8/8/PP3PPP/6K1 w - - 1 2",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 700,
+  "title": "Xeque e Recolha",
+  "setup": "O rei preto está encolhido em h8 e a torre está em d8, ambos a um salto de cavalo da mesma casa.",
+  "hint": "Encontra a casa de onde o teu cavalo toca no rei e na torre na mesma jogada.",
+  "explanation": "## A Ideia\n\n{{Nf7+}} ataca h8 e d8 ao mesmo tempo. O xeque não é opcional: nada pode capturar em f7, e um xeque de cavalo nunca se pode tapar, portanto {{Kg8}} é a única jogada legal das pretas. Depois {{Nxd8}} recolhe a torre."
+}

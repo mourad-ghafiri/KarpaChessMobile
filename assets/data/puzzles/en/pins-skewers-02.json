@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-02",
+  "fen": "r7/6pp/8/3k4/8/8/1K2B1PP/8 w - - 0 1",
+  "solution": [
+    "Bf3+",
+    "Kd4",
+    "Bxa8"
+  ],
+  "title": "Long Diagonal Skewer",
+  "setup": "Black's king on d5 and rook on a8 stand on the same long diagonal, and your bishop is one step from claiming it.",
+  "hint": "Check the king along the line it shares with the rook, and see what is left when it steps aside.",
+  "explanation": "## The Idea\n\nThis is a skewer: the more valuable piece stands in front. {{Bf3+}} checks the king on d5 along the long diagonal, with the rook on a8 behind it on the same line. The king must step off the line, and after {{Kd4}}, {{Bxa8}} collects what was hiding behind it.\n\nA pin attacks through the cheap piece at the expensive one. A skewer attacks through the expensive piece at the cheap one."
+}

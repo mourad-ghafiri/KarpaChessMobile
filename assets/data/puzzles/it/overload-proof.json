@@ -1,0 +1,13 @@
+{
+  "id": "overload-proof",
+  "fen": "r5k1/1p3ppp/8/b7/1B6/8/P4PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxa5",
+    "Rxa5",
+    "Re8#"
+  ],
+  "title": "Una Torre, Due Compiti",
+  "setup": "La torre nera in a8 difende l'alfiere in a5, ed è anche l'unico pezzo che copre l'ottava traversa.",
+  "hint": "Non c'è bisogno di regalare niente. Prendete qualcosa, e guardate quale compito la torre decide di lasciar cadere.",
+  "explanation": "## L'idea\n\n{{Bxa5}} è un semplice cambio, alfiere per alfiere, ma pone alla torre di a8 una domanda a cui non può rispondere. Riprendete con {{Rxa5}} e dietro di lei l'ottava traversa è vuota: {{Re8#}}, perché da a5 la torre non arriva né a e8 né a f8. Lasciate invece stare l'alfiere e la torre si tiene la traversa di fondo, ma il Bianco è semplicemente un pezzo avanti. Non si è offerto niente e non si è forzato niente. La torre aveva due compiti e una mossa."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-04",
+  "fen": "8/8/1P6/5r2/3K4/k7/8/3R4 b - - 0 1",
+  "solution": [
+    "Rb5"
+  ],
+  "rating": 1350,
+  "title": "Behind the Pawn",
+  "setup": "White's b-pawn is a step from the seventh, and the black king on a3 is far too slow to catch it.",
+  "hint": "The pawn is going to run. Which square keeps your rook attacking it however far it gets?",
+  "explanation": "## The Idea\n\nA rook behind a passed pawn keeps hitting it at every step. {{Rb5}} {{b7}} {{Rxb7}}, and there is nothing left to queen. Attack from the side with {{Rf6}} instead, and White plays {{Rb1}}, backing its pawn up, and it goes through."
+}

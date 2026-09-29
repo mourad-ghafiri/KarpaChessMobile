@@ -1,0 +1,71 @@
+{
+  "id": "greek-gift",
+  "title": "Le sacrifice grec",
+  "summary": "Un fou offert, contre un roi qui n'a plus nulle part où se tenir",
+  "proof": "greek-gift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "La case que personne ne garde",
+      "text": "Comptez ce qui vise h7. Le fou en d3 la regarde droit le long de la diagonale b1-h7. Le cavalier en f3 est à un saut de g5, et depuis g5 il frappe aussi h7. La dame en d1 se tient au pied de la diagonale d1-h5, qui aboutit sur la même colonne h.\n\nComptez maintenant la garde. Le cavalier qui devrait être en f6 a été repoussé en d7 par votre pion en e5, et e5 couvre toujours f6. La seule pièce qui couvre encore h7 est le roi à côté d'elle.\n\nTrois contre un, et cet un est un roi."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "Le sacrifice grec",
+      "text": "Donner un fou pour un seul pion est un **sacrifice** qui porte un nom. Le **sacrifice grec**, c'est le fou jeté dans l'abri de pions devant un roi roqué. Soit il termine la partie, soit il perd une pièce, et l'issue est décidée avant que vous lâchiez la pièce.\n\nQuatre conditions. Le fou voit h7. Un cavalier est à un coup de g5. La dame a une route vers la colonne h derrière ce cavalier. Et ce qui prend en g5 est repris, tandis que rien ne peut atteindre f6 pour couvrir le coin.\n\n> Un cadeau que vous avez calculé n'est pas un pari."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "prompt": "Rien d'autre que le roi ne garde le coin noir : arrachez ce roi à son abri.",
+      "targetSan": [
+        "Bxh7+"
+      ],
+      "hint": "Une seule de vos pièces attaque h7 en ce moment, alors cessez de compter ce qu'elle vaut et comptez plutôt les gardiens."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "title": "Votre propre cavalier gêne",
+      "text": "Le roi a pris en h7 et il n'y a plus rien devant lui. Vous avez aussi un fou de moins contre un pion, ce qui aide à se concentrer.\n\nRegardez où veut aller la dame. La route de d1 vers la colonne h passe par e2, f3 et g4, et votre propre cavalier en f3 se tient dessus.\n\nCe coup n'est donc pas un choix entre de bonnes idées. Tout coup tranquille permet aux Noirs de revenir en g8 et de commencer à ramener des pièces vers le coin, et alors le fou n'aura acheté qu'un pion."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "prompt": "Ouvrez la route de la dame vers la colonne h avec un coup auquel les Noirs doivent répondre immédiatement.",
+      "targetSan": [
+        "Ng5+"
+      ],
+      "hint": "Votre cavalier doit bouger, et une seule de ses cases donne échec — celle que votre pion f protège déjà."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R b KQ - 1 11",
+      "title": "Quatre cases, un roi",
+      "text": "La dame en e7 peut prendre le cavalier, mais votre pion en f4 reprend et les Noirs ont payé une dame pour un cavalier. Un échec de cavalier ne peut pas non plus être paré par interposition. Le roi bouge donc, et il a exactement quatre cases : {{Kg8}}, {{Kh8}}, {{Kg6}}, {{Kh6}}.\n\nDeux d'entre elles retournent dans le coin. Les deux autres avancent sur un échiquier ouvert, ce qui ressemble à une fuite loin du cavalier et revient en réalité à marcher vers tout le reste de votre armée.\n\nCe sont ces deux-là que votre adversaire aura envie de jouer."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p1k1/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "Sorti prendre le cavalier",
+      "text": "g6 attaque le cavalier en g5, et c'est exactement pour cela que les Noirs le jouent. Le roi sort en comptant avoir une pièce de plus dans deux coups.\n\n{{Qg4}}. La dame vient se placer derrière le cavalier sur la colonne g, donc le cavalier est protégé et chaque case où il saute découvre un échec. Et votre pion f est à un pas de f5, d'où il frapperait de nouveau le roi.\n\nPlus le roi s'avance, plus votre armée peut l'atteindre."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p2k/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "L'ancienne route du fou",
+      "text": "h6 garde le roi hors du coin et attaque le cavalier en g5, alors cela ressemble au meilleur des quatre.\n\n{{Qd3}}. La dame reprend la diagonale que le fou a abandonnée et vise droit h7. Le cavalier en g5 protège cette case, le roi ne peut pas s'en écarter, et le mat en h7 est menacé au coup suivant. Les Noirs n'ont aucun bon moyen de l'empêcher."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqpp1/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "prompt": "Les Noirs sont revenus dans le coin : amenez votre dernier attaquant sur la colonne h et menacez mat.",
+      "targetSan": [
+        "Qh5"
+      ],
+      "hint": "Le cavalier couvre déjà h7, et la propre tour noire en f8 a retiré une case de fuite au roi."
+    }
+  ]
+}

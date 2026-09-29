@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-02",
+  "fen": "6k1/2r2ppp/8/8/8/8/5PPP/3Q2K1 w - - 1 2",
+  "solution": [
+    "Qd8#"
+  ],
+  "rating": 740,
+  "title": "El guardián se fue",
+  "setup": "La torre negra acaba de bajar a c7, y en la octava fila no queda nada más que su rey.",
+  "hint": "Hace una jugada, una pieza negra sostenía toda la octava fila. Comprueba si todavía lo hace.",
+  "explanation": "## La idea\n\n{{Qd8#}} lo termina. La dama da jaque por la octava fila; la torre de c7 no puede comérsela ni tapar en e8 o f8, y el muro de peones de f7, g7 y h7 mantiene al rey en casa. Una torre que deja la última fila tiene que dejar un sustituto."
+}

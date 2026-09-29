@@ -1,0 +1,13 @@
+{
+  "id": "discovered-01",
+  "fen": "2r1k3/8/8/8/4N3/8/8/4R2K w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd8",
+    "Nxc8"
+  ],
+  "title": "El caballo se mueve, la torre golpea",
+  "setup": "La torre blanca de e1 apunta al rey negro, y el propio caballo blanco es lo único que hay en medio.",
+  "hint": "Cualquier salto del caballo destapa la torre. Solo uno de ellos cae además sobre algo.",
+  "explanation": "## La idea\n\nMientras el caballo está en e4, la torre no hace nada. Muévelo y la línea de la torre se abre en el mismo instante: la pieza que se mueve no es la que ataca.\n\nVarios saltos de caballo dan ese jaque, pero solo {{Nd6+}} hace un segundo trabajo, atacando a la torre de c8. También es un **jaque doble**, así que nada puede tapar y capturar a uno deja al otro.\n\nEl rey tiene tres casillas. {{Kd8}} lo mantiene cerca, y {{Nxc8}} gana la torre: el rey recaptura, y la calidad es tuya."
+}

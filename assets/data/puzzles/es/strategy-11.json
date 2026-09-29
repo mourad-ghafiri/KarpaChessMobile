@@ -1,0 +1,13 @@
+{
+  "id": "strategy-11",
+  "fen": "r1r3k1/pp1bpp1p/3p1npQ/q3n3/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+  "solution": [
+    "Rxc3",
+    "bxc3",
+    "Qxc3"
+  ],
+  "title": "Torre por caballo, con gusto",
+  "setup": "Los alfiles de casillas negras se han cambiado, la dama blanca se ha ido hasta h6 y las dos torres negras ya están colocadas.",
+  "hint": "Solo una pieza blanca mantiene unidas b5, d5 y e4, y solo una unidad blanca podría recapturar si desapareciera.",
+  "explanation": "## La idea\n\nLas Negras dan cinco puntos por tres porque los peones se lo devuelven. {{Rxc3}} elimina al caballo que mantiene unidas b5, d5 y e4, y {{bxc3}} es la única recaptura legal de las Blancas.\n\nAhora cuenta la posición, no el material. El rey blanco está detrás de peones rotos, sin ningún peón blanco en la columna b, y {{Qxc3}} recupera un peón con la dama a una jugada de dar jaque en a1.\n\nEntrega la calidad cuando la recaptura destroce los peones y la continuación llegue rápido."
+}

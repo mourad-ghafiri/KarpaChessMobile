@@ -1,0 +1,14 @@
+{
+  "id": "deflection-02",
+  "fen": "2br2k1/p4ppp/1q6/8/1n6/2B4P/PP2QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Bxb4"
+  ],
+  "rating": 1140,
+  "title": "Arrachée à la colonne",
+  "setup": "La dame en b6 protège la tour en d8 par une diagonale et le cavalier en b4 le long de la colonne b.",
+  "hint": "Quelle pièce noire tient deux choses à la fois, et que pouvez-vous lui offrir qu'elle doive prendre ?",
+  "explanation": "## L'idée\n\n{{Rxd8+}} force {{Qxd8}}, la seule réponse légale, et la dame abandonne b4. {{Bxb4}} gagne une pièce. Il suffit de poser une question de trop à un défenseur surchargé. L'échec n'est pas l'essentiel ; c'est la case que la dame doit quitter."
+}

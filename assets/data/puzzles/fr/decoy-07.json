@@ -1,0 +1,14 @@
+{
+  "id": "decoy-07",
+  "fen": "6rk/pp1q2pp/8/5P1R/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1390,
+  "title": "La tour qui paie d'abord",
+  "setup": "Votre tour en h5 fixe h7, votre autre tour attend en d1, et le roi noir ne peut pas bouger d'une case.",
+  "hint": "Demandez-vous sur quelle case le roi doit se tenir pour que votre seconde tour compte, puis payez pour l'y amener.",
+  "explanation": "## L'idée\n\n{{Rxh7+}} coûte une tour et {{Kxh7}} est forcé. La colonne h est maintenant nue derrière lui, le pion en f5 retire g6, et {{Rh1#}} bascule pour mater. Deux tours battent un roi dès que la colonne devant lui est vide."
+}

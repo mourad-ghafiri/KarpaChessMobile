@@ -1,0 +1,56 @@
+{
+  "id": "k-p-vs-k",
+  "title": "Re e Pedone contro Re",
+  "summary": "Un pedone in meno, e le due case che tengono la patta",
+  "proof": "endgame-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "A una Colonna dal Bordo",
+      "text": "Un pedone in meno con il re avversario già a scortarlo è di norma una formalità. Non su questa colonna.\n\nIl pedone bianco in a6 promuove in a8, e a8 è una casa d'angolo con tre vicine invece di cinque. Quella penuria è a carico dell'attaccante: per cacciare un re da b8 e a8, al Bianco servono case che il bordo della scacchiera non ha mai fornito.\n\nIl vostro re in c8 ha un passo che trasforma l'angolo in un muro, e due che consegnano al Bianco la partita."
+    },
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "Il Passo che Perde",
+      "text": "Stare lontani dal pedone dà una sensazione di sicurezza, e qui è fatale.\n\n{{Kd8}} tiene il vostro re a una comoda colonna di distanza. {{Kb7}} risponde, e adesso ogni casa attorno al pedone appartiene al Bianco. {{Kd7}} è l'unico passo rimasto che stia ancora nei paraggi, e {{a7}} manda avanti il pedone con la strada libera e un re a tenere la porta.\n\nNon avreste mai superato quel pedone in velocità. L'angolo era l'unica risorsa sulla scacchiera, e allontanarsene l'ha ceduto."
+    },
+    {
+      "type": "play",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "prompt": "Andate sull'unica casa che non lascia al re bianco nessuno spazio accanto al pedone.",
+      "targetSan": [
+        "Kb8"
+      ],
+      "hint": "Cercate la casa dove il Bianco deve o cedere il pedone o lasciarvi senza nemmeno una mossa legale."
+    },
+    {
+      "type": "teach",
+      "fen": "1k6/8/PK6/8/8/8/8/8 w - - 11 9",
+      "title": "Al Bianco Finisce la Scacchiera",
+      "text": "Adesso lasciate provare il Bianco.\n\n{{a7+}} è scacco, e {{Ka8}} è l'unica risposta che non lasci semplicemente promuovere il pedone. Il vostro re è nell'angolo, e al re bianco in b6 serve b7 per cavare qualcosa dal pedone. b7 non può averla: il vostro re copre quella casa da a8.\n\nQuindi il Bianco deve spostarsi di lato. {{Ka6}}, e guardate che cosa possedete — b7 e b8 sono coperte tutte e due, il vostro re non ha dove andare, e niente dà scacco. Stallo. Qualunque altro passo bianco lascia camminare il vostro re fino ad a7 a prendersi il pedone."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "L'Altra Scacchiera",
+      "text": "Togliete l'angolo e tutto il metodo cambia. Il pedone è in d5, e d8 è una casa ordinaria con le sue ordinarie cinque vicine.\n\nIl vostro re in d7 sta già facendo metà del lavoro: sta sulla strada del pedone, davanti a lui, e un pedone non può attraversare un re.\n\nL'altra metà è il re bianco in c5, ed è la metà che ci si dimentica.\n\n> Davanti al pedone, e di fronte al re avversario attraverso una casa vuota. Tutte e due le cose, ogni volta."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "Indietro Non È di Lato",
+      "text": "L'istinto è arretrare lungo la colonna e tenersi il pedone davanti. Perde.\n\n{{Kd8}} sembra la stessa difesa una traversa più indietro. Risponde {{Kd6}}: adesso il re bianco sta davanti al pedone, a una casa dal vostro, e a muovere siete voi. {{Kc8}} si sposta di lato, con e8 che è la stessa storia allo specchio, {{Ke7}} vi gira attorno, e il pedone segue con tutto comodo."
+    },
+    {
+      "type": "play",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "prompt": "Prendetevi l'opposizione contro il re bianco così che sia il Bianco, e non voi, a doversi impegnare.",
+      "targetSan": [
+        "Kc7"
+      ],
+      "hint": "I re si fronteggiano lungo una colonna con una casa vuota in mezzo, e il re bianco non sta sulla colonna del vostro."
+    }
+  ]
+}

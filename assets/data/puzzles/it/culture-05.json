@@ -1,0 +1,13 @@
+{
+  "id": "culture-05",
+  "fen": "2kr2nr/pp1n1ppp/2p1p3/8/1P1P1B2/2N2Q1P/1PPKBPP1/7q w - - 0 13",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "title": "Due Pedoni, Una Diagonale",
+  "setup": "Siete molto indietro di materiale e il vostro re è stato spinto fino a d2, ma il re nero è murato dai suoi stessi pezzi.",
+  "hint": "Cominciate contando le case del re nero invece del vostro materiale — poi chiedetevi che cosa stia tenendo davvero il pedone in b7.",
+  "explanation": "## L'idea\n\nIl re in c8 non ha una casa: d8, d7 e b7 hanno la sua torre, il suo cavallo e il suo pedone, e l'alfiere in f4 copre c7 e b8. Solo il pedone in b7 tiene il vostro altro alfiere fuori da a6.\n\n{{Qxc6+}} dà la donna per un pedone, e {{bxc6}} è l'unica mossa legale del Nero. Il pedone ha lasciato b7, e {{Ba6#}} atterra sulla casa che difendeva.\n\nContate le case del re avversario prima di contare il materiale, e una donna diventa qualcosa che potete spendere."
+}

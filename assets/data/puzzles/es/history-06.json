@@ -1,0 +1,13 @@
+{
+  "id": "history-06",
+  "fen": "bq1b3r/3n1k2/p3p1p1/Np1pPp1p/1P1N1P2/P2PB3/2Q3PP/2R3K1 w - - 4 27",
+  "solution": [
+    "Nac6",
+    "Qb7",
+    "Nxd8+"
+  ],
+  "title": "El agujero da sus frutos",
+  "setup": "Steinitz contra Sellman, Baltimore 1885, veintiséis jugadas después y sin un solo sacrificio. Es hora de cobrar el agujero que encontró la lección.",
+  "hint": "Una casilla en lo hondo del campo negro nunca más podrá ser atacada por un peón. Dos caballos podrían ocuparla: elige el que no tiene nada mejor que hacer.",
+  "explanation": "## La idea\n\nVeintiséis jugadas después, c6 sigue siendo un agujero: los peones de b y de d negros la han dejado atrás para siempre.\n\n{{Nac6}} cae ahí y golpea a la vez a la dama de b8 y al alfil de d8. {{Qb7}} salva la dama, y {{Nxd8+}} captura el alfil con jaque.\n\nLa torre recaptura y el material queda igualado, pero el único alfil de casillas negras de las Negras ha desaparecido. Usa el caballo de a5: el de d4 presiona b5, e6 y f5, y moverlo suelta las tres."
+}

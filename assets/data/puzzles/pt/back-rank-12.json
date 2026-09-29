@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-12",
+  "fen": "5rk1/5ppp/8/8/8/8/3Q1PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Qd8",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "title": "Desviar o Defensor",
+  "setup": "A torre em f8 guarda a linha de fundo, e a tua dama e a tua torre são donas da coluna d ao lado. Desvia essa guarda.",
+  "hint": "A guarda vigia d8 de lado. Dá-lhe nessa casa alguma coisa que não possa recusar.",
+  "explanation": "## A Ideia\n\nA torre em f8 guarda a oitava linha inteira, d8 incluída. {{Qd8}} põe a dama nessa casa e desafia a torre a comê-la.\n\nSe {{Rxd8}}, então {{Rxd8#}}: a guarda saiu, e os peões de f7, g7 e h7 selam o rei. As pretas fazem melhor em recusar com uma jogada de peão que dê ar ao rei, mas {{Qxf8+}} {{Kxf8}} deixa na mesma a tua torre contra um rei nu."
+}

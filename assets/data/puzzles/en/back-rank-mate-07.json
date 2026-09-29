@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-07",
+  "fen": "6k1/1b3ppp/8/8/8/8/2r2PPP/R3R1K1 w - - 1 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 910,
+  "title": "Pick the Right Rook",
+  "setup": "Both of your rooks can check on the eighth rank, and Black's bishop on b7 is watching one of them.",
+  "hint": "Two checks are on offer and only one of them is mate. Look at what the bishop on b7 defends.",
+  "explanation": "## The Idea\n\nRa8+ simply loses a rook to the bishop on b7. {{Re8#}} is mate: nothing defends e8, nothing can block, and the pawns on f7, g7 and h7 hold the king in. On the back rank, always ask which squares the defender still covers."
+}

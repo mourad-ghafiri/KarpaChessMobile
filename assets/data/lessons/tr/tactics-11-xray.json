@@ -1,0 +1,50 @@
+{
+  "id": "xray-attack",
+  "title": "Röntgen Saldırısı",
+  "summary": "Uzun menzilli taşlar birbirinin içinden görür",
+  "proof": "xray-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Kendi Kalenizin Arkasında",
+      "text": "d1'deki veziriniz kendi d2'deki kalenizin arkasında duruyor ve bu, boşa harcanmış bir vezir gibi görünüyor. Kaleyi yoldan çekin, vezir aynı anda d7'yi görsün; yani kale orada dururken vezir dosdoğru onun içinden nişan alıyor demektir.\n\nBuna **röntgen** denir: uzun menzilli bir taşın kendi taşının içinden saldırması ve bu süre boyunca saldıran sayılması.\n\nŞimdi d dikeyini sayın. Siyahın d7'deki kalesine iki kez vuruluyor: kale ve arkasındaki vezir tarafından. c8'deki fil onu bir kez koruyor. İki, biri yener."
+    },
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Önce Ucuz Olan",
+      "text": "İki saldıran, bir koruyucu; yani d7 düşer. Bunun neye mal olacağı, daha hiçbir taş alınmadan bellidir, çünkü işe başlaması gereken taş öndeki taştır.\n\nBurada öndeki taş kale. O girer, fil onu alır, vezir işi bitirir: beş puan ödendi, sekiz puan toplandı.\n\nİkisinin yerini değiştirin, vezir önde kale arkada olsun; aynı dikey para kaybetsin. Vezir girer, fil bir vezir alır, kale fili alır. Dokuz ödendi, sekiz toplandı.\n\nUcuz olan önde, pahalı olan arkada."
+    },
+    {
+      "type": "play",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "prompt": "d dikeyinden kârı toplayın; kaybetmeyi en çok göze alabileceğiniz saldıranla başlayın.",
+      "targetSan": [
+        "Rxd7"
+      ],
+      "hint": "Siyahın fili geri aldıktan sonra o kareye hâlâ nişan alan ne kaldığını sayın."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "Henüz Orada Olmayan Koruyucu",
+      "text": "Yeni bir tahta, sıra siyahta ve e5'teki at bedava görünüyor. Siyahın e4'teki kalesi ona saldırıyor ve beyazın hiçbir taşı yakınında durmuyor.\n\nDikeyde daha aşağıya bakın. e1'deki kaleniz aynı dikeyde ve onunla at arasında duran tek şey siyahın kendi kalesi.\n\nYani at, onu almak isteyen taşın içinden korunuyor. Kapatan da saldıran da aynı kale ve kapatmayı sağladığı kareden çekilmeden taş alamaz."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "Bir Hamlelik Zenginlik",
+      "text": "Siyah bunun yerine dikeyi temizlemeyi, e1'de değişmeyi deneyebilir — ama f1'deki şah geri alır ve atı isteyen kale de onunla birlikte tahtadan çıkar.\n\nSiyah da atı alır: {{Rxe5}}. Üç puan, bedavaya, tam olarak bir hamleliğine.\n\n> Hattın tamamını sayın, üzerinde duran ilk taşı değil."
+    },
+    {
+      "type": "play",
+      "fen": "2b3k1/ppp2ppp/8/4r3/8/8/PPP2PPP/4RK2 w - - 0 2",
+      "prompt": "Siyahın kalesi, kendi kalenizin zaten sahip olduğu dikeye indi; onu toplayın.",
+      "targetSan": [
+        "Rxe5"
+      ],
+      "hint": "Kalenizle az önce taş alan taş arasında hiçbir şey durmuyor."
+    }
+  ]
+}

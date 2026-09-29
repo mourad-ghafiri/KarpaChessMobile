@@ -1,0 +1,14 @@
+{
+  "id": "decoy-11",
+  "fen": "7k/pp2n1pp/7N/q7/1r6/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Nxg8",
+    "Nf7#"
+  ],
+  "rating": 1520,
+  "title": "Beri Makan Kudanya",
+  "setup": "Raja di h8 terkubur di balik pionnya sendiri, dan kuda Hitam di e7 satu-satunya buah hitam yang menjangkau g8.",
+  "hint": "Sudut itu sudah menjadi kandang. Apa yang rela Anda berikan agar g8 ditempati buah hitam?",
+  "explanation": "## Ide\n\n{{Qg8+}} tak bisa diambil raja, karena kuda Anda di h6 menguasai g8 — jadi {{Nxg8}} satu-satunya langkah. Petak pelarian terakhir terhalang kuda Hitam sendiri, dan {{Nf7#}} adalah mat terkurung."
+}

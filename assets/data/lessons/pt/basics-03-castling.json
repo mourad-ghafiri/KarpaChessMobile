@@ -1,0 +1,71 @@
+{
+  "id": "castling",
+  "title": "Duas Peças, Uma Jogada",
+  "summary": "A única jogada que mexe duas peças tuas — e as seis coisas que têm de se verificar primeiro",
+  "proof": "tactics-mix-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "As Duas ao Mesmo Tempo",
+      "text": "Todas as jogadas que fizeste até agora mexeram uma peça. O roque mexe duas.\n\n{{O-O}}. O rei de e1 viaja duas casas até g1, e a torre de h1 salta-lhe por cima e aterra em f1. Uma jogada. As duas peças arrumadas.\n\nIsso é o roque curto, jogado para o lado do próprio rei, e escreve-se com duas letras e um hífen — a única jogada do xadrez cuja forma escrita não nomeia casa nenhuma."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "O Caminho Longo",
+      "text": "A outra torre também o pode fazer.\n\n{{O-O-O}}: o rei de e1 vai duas casas para o outro lado, até c1, e a torre de a1 passa-lhe por cima até d1. Três letras em vez de duas, e a mesma regra por baixo — o rei anda exatamente duas casas e a torre para na casa que o rei atravessou.\n\nO que difere é quanto tem de estar desimpedido. Duas casas do lado curto, f1 e g1. Três do lado longo: b1, c1 e d1."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Ainda Ninguém Se Mexeu",
+      "text": "Começa por três das seis condições: duas sobre o passado, uma sobre o presente.\n\nO rei nunca pode ter jogado. A torre com que rocas nunca pode ter jogado. Não é ter saído e voltado — é ter saído, ponto final. Tira o rei de e1 uma única vez e os dois roques desaparecem para o resto da partida. Mexe a torre de h1 e o roque curto vai com ela, enquanto o longo, apoiado numa torre de a1 intocada, sobrevive.\n\nA terceira é sobre o presente: as casas entre o rei e a torre têm de estar vazias. Todas as peças que estiverem entre eles têm de sair primeiro."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Fora de, Para Dentro de, Através de",
+      "text": "As outras três são sobre esta jogada.\n\nNão **fora de** xeque: se o rei está atacado neste momento, isso tem de ser respondido de outra maneira. Não **para dentro de** xeque: a casa onde o rei aterra tem de ser segura. Não **através de** xeque: a casa que ele atravessa também tem de ser segura — um rei não tem licença para passar a correr por uma casa onde não podia estar.\n\nSeis ao todo. Falha uma e a jogada simplesmente não existe; o tabuleiro não te deixa fazê-la."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "prompt": "Arruma o rei do lado curto — joga {{O-O}}.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Mexe o próprio rei, duas casas na direção da torre de h1, e a torre vem sozinha."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "title": "O Que a Torre Pode Fazer Impunemente",
+      "text": "Jogam as pretas, e o roque longo traz uma brecha que vale a pena conhecer.\n\nSó as casas **do rei** têm de ser seguras. A torre não está a entrar em lado nenhum — está a ser levantada por cima — por isso pode ficar sob ataque, e pode atravessar uma casa sob ataque, e o roque continua legal.\n\nDeste lado isso conta. {{O-O-O}}: o rei de e8 para em c8, mas a torre de a8 viaja até d8, por cima de b8. Uma peça inimiga a vigiar b8 não impede o roque. Uma a vigiar c8 ou d8 impede.\n\n> O passeio do rei tem de ser seguro. O da torre não é da conta de ninguém."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "prompt": "Joga o roque longo das pretas, aquele em que tiveram de ficar livres três casas em vez de duas.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "O rei preto viaja duas casas na direção da torre de a8, e a torre aterra na casa que ele atravessou."
+    },
+    {
+      "type": "teach",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "title": "Torres Que se Veem Uma à Outra",
+      "text": "Os dois reis estão arrumados — as brancas do lado curto, as pretas do longo — e a primeira e a oitava linha mudaram de forma.\n\nAs torres brancas estão em a1 e f1 com quatro casas vazias entre elas. As pretas, em d8 e h8, têm três. Antes dos roques, cada par estava separado pelo seu próprio rei no meio da linha; agora qualquer torre pode deslizar até encontrar a outra.\n\nÉ essa a segunda metade do que o roque te compra. O rei saiu do centro, e as torres encontraram-se."
+    },
+    {
+      "type": "play",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "prompt": "As duas torres brancas chegam a e1 — traz a que passou a partida inteira no canto.",
+      "targetSan": [
+        "Rae1"
+      ],
+      "hint": "A torre de f1 só lá chegou na jogada passada; a outra nunca se mexeu."
+    }
+  ]
+}

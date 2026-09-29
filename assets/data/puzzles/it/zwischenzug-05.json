@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-05",
+  "fen": "6k1/2R2ppp/6r1/8/8/1B2r1Q1/PP6/K2b4 w - - 0 1",
+  "solution": [
+    "Rc8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1460,
+  "title": "La Torre Dentro l'Angolo",
+  "setup": "L'alfiere nero siede in d1 e le sue torri stanno in g6 e e3 — il vostro re sembra decisamente scoperto.",
+  "hint": "Non rispondete alle minacce. Trovate lo scacco che costringe un pezzo nero sulla traversa che la vostra torre possiederà.",
+  "explanation": "## L'idea\n\n{{Rc8+}} ignora ogni minaccia contro il vostro re. {{Re8}} è l'unica risposta, e adesso {{Rxe8#}} è matto perché la torre si prende tutta l'ottava traversa e i pedoni si prendono il resto. Il tempo batte il materiale quando il tempo chiude la partita."
+}

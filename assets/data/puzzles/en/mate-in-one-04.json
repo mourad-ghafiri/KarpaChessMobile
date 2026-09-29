@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-04",
+  "fen": "r2q1bnr/ppp1kBpp/2np4/4N3/4P3/2N4P/PPPP1PP1/R1BbK2R w KQ - 1 8",
+  "solution": [
+    "Nd5#"
+  ],
+  "rating": 690,
+  "title": "The Price of a Queen",
+  "setup": "You gave up the queen on d1 to drag the black king to e7, and now three of your pieces are looking at it.",
+  "hint": "Count the squares the king has, then find the piece that takes the last one while giving check.",
+  "explanation": "## The Idea\n\n{{Nd5#}} is Légal's Mate. The bishop on f7 and the knight on e5 cover d7, e6 and e8, so the second knight checks while taking f6 away itself. A queen is worth nothing next to a king with no squares."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-11",
+  "fen": "7k/8/5K2/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "Ölüm Öpücüğü",
+  "setup": "Siyahın şahı h8'de köşeye sıkışmış, şahınız f6'da nöbet tutuyor ve veziriniz g dikeyine sahip.",
+  "hint": "Vezir şahın tam yanında durmayı göze alabilir — iniş karesini kendi şahınız gözlüyor.",
+  "explanation": "## Fikir\n\nBu, desteklenen vezir öpücüğüdür: vezir rakip şahın tam yanına iner ve kendi şahınız onu dokunulmaz kılar.\n\n{{Qg7#}} şah çeker. f6'daki şah g7'yi koruduğu için h8'deki şah veziri alamaz ve g8 ile h7'yi vezir kapsar. Yandaki kareden gelen şah kapatılamaz.\n\nRakip şahın yanındaki vezir, onu koruyan bir şey varken ve şahın başka karesi yokken her zaman mattır."
+}

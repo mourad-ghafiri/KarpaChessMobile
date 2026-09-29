@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-24",
+  "fen": "7k/6pp/6K1/7R/8/8/B7/8 w - - 0 1",
+  "solution": [
+    "Rxh7#"
+  ],
+  "title": "Bishop on the Long Diagonal",
+  "setup": "The pawn on h7 is checking your king on g6. Your rook on h5 and your bishop on a2 are both ready.",
+  "hint": "The king's last shield is a pawn, and both your king and your far-away bishop already watch the squares around it.",
+  "explanation": "## The Idea\n\nYou are in check, and the answer is mate. {{Rxh7#}} takes the checking pawn and checks the king on h8 from the next square.\n\nYour king on g6 guards h7, so the king cannot take the rook. The bishop on a2 covers g8 from across the board, and g7 holds Black's own pawn.\n\nA bishop far away on an open diagonal can still cover the one square a mate needs."
+}

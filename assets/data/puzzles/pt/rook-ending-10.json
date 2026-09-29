@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-10",
+  "fen": "8/2R2P1K/1k6/8/8/8/8/1r6 b - - 0 1",
+  "solution": [
+    "Rh1+"
+  ],
+  "rating": 1560,
+  "title": "Xeques do Canto",
+  "setup": "O peão f das brancas está a uma jogada de fazer dama, e a torre branca de c7 está pendurada para o rei preto de b6.",
+  "hint": "Precisas de uma jogada sobrante para comer em c7. Que coluna dá xeques de que o rei branco não se possa afastar à vontade?",
+  "explanation": "## A Ideia\n\nAs pretas precisam de um tempo, e só os xeques distantes o compram. {{Rh1+}} {{Kg6}} {{Rg1+}} {{Kf5}}, e agora {{Kxc7}} ganha a torre. As brancas fazem dama, mas {{Rf1+}} espeta o rei à dama nova e come-a logo de volta. Vai já para trás do peão com {{Rf1}} em vez disso, e as brancas respondem {{Re7}}, a defender tudo, e o peão entra."
+}

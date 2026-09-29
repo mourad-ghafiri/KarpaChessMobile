@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-13",
+  "fen": "k4r2/8/8/7b/8/3n4/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "La casilla tranquila",
+  "setup": "Un caballo negro ha caído en d3 con jaque, y a un caballo nunca se le puede tapar.",
+  "hint": "El alfil de h5 atraviesa f3, e2 y d1. La torre protege la columna f. Busca la casilla que nadie menciona.",
+  "explanation": "## La idea\n\nEl caballo de d3 da jaque a tu rey, y a un jaque de caballo solo se responde moviendo el rey o capturando el caballo. Nada tuyo llega a d3, así que el rey tiene que moverse.\n\nd1 y e2 están en la diagonal del alfil de h5, la torre de f8 cubre f1 y el propio caballo cubre f2. {{Kd2}} es la única casilla que queda: justo al lado del caballo, y segura, porque un caballo nunca ataca una casilla contigua."
+}

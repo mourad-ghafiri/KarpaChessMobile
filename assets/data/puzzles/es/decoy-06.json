@@ -1,0 +1,14 @@
+{
+  "id": "decoy-06",
+  "fen": "5rk1/pp3ppp/8/2Q5/7B/7q/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rd8#"
+  ],
+  "rating": 1350,
+  "title": "Una dama por la esquina",
+  "setup": "Tu alfil de h4 barre e7, y al rey negro lo encierran sus propios peones de f7 y g7.",
+  "hint": "El mate necesita al rey en f8, no en g8. ¿Cuánto cuesta ponerlo ahí, y merece la pena pagarlo?",
+  "explanation": "## La idea\n\n{{Qxf8+}} obliga a {{Kxf8}}: nada más puede comer. En f8, el alfil le cubre e7 al rey y sus propios peones le tapan f7 y g7, así que {{Rd8#}} es mate. Una dama sale barata cuando la alternativa es no conseguir nada."
+}

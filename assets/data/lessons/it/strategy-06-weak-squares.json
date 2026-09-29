@@ -1,0 +1,50 @@
+{
+  "id": "weak-squares",
+  "title": "Case Deboli e Complessi di Colore",
+  "summary": "Buchi che un pedone non potrà mai più coprire",
+  "proof": "strategy-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "Quattro Pedoni, Un Colore",
+      "text": "I pedoni non camminano mai all'indietro. Quella sola regola è ciò che trasforma una casa in proprietà permanente.\n\nI quattro pedoni centrali del Nero stanno in c6, d5, e6 e f5 — ognuno di loro su una casa chiara, e nessuno in grado di fare marcia indietro. Una casa che nessun vostro pedone può più attaccare è una **casa debole**, o un **buco**. Guardate e5. La coprivano solo il pedone d e il pedone f, e tutti e due l'hanno già superata.\n\nI pezzi possono sorvegliare un buco. A tenerne uno sono i pedoni, e al Nero per e5 non ne resta nessuno."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "Il Trasloco",
+      "text": "{{Ne5}}, e il cavallo è a casa. Il Nero mette via il re con {{O-O}}, il che non cambia assolutamente niente riguardo a e5 — non arriverà nessun pedone a sfrattare un pezzo che sta lì.\n\nEcco quanto vale un buco. Non una casa che si visita. Una casa che si occupa, con l'opzione di mandare un secondo pezzo dietro al primo.\n\nUn pezzo nero ancora discute: l'alfiere in d6. È l'unico pezzo nero che tocca e5, ed è tutta la difesa delle case scure del Nero."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/pp2q1pp/2pbpn2/3pNp2/2PP4/1P4P1/P3PPBP/RNBQ1RK1 w - - 3 9",
+      "prompt": "Difendete il cavallo con un pezzo oltre che con il pedone, scegliendone uno che possa cambiare l'unico difensore delle case scure del Nero.",
+      "targetSan": [
+        "Bf4"
+      ],
+      "hint": "Il vostro alfiere in c1 ha due diagonali per uscire dall'angolo, e una sola di esse attraversa una casa che copre e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "Un Colore Intero, Venduto",
+      "text": "Scacchiera nuova, e il cambio è già avvenuto: l'alfiere camposcuro del Nero se n'è andato per un cavallo, e non c'è nessun negozio che ne venda un altro.\n\nUn buco è una seccatura. Un colore intero è un piano. Il cavallo in e7 sta su una casa scura, il che vuol dire che ogni casa che attacca è chiara. E nessun pedone nero difenderà mai g7 — le uniche case da cui uno potrebbe farlo sono f8 e h8, e un pedone che arriva sull'ottava traversa smette di essere un pedone."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "Che Cosa ha Pagato il Bianco",
+      "text": "I due pedoni bianchi sulla colonna c sono la ricevuta. Il Bianco si è preso pedoni doppiati e un re senza una casa comoda sull'ala di donna, e con quelli ha comprato quell'alfiere. Le condizioni le sapevano tutti e due.\n\nAdesso incassate. g7 è un pedone che nessuno difende, piantato sulla soglia della casa in cui il re nero deve ancora entrare, e la donna bianca ha una strada libera verso di lui.\n\n> Prima di cambiare un alfiere, contate le case che stava difendendo. Vendete anche quelle, e non tornano indietro."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "prompt": "Puntate la donna sul pedone dell'ala di re che non è rimasto nessun pezzo nero a difendere.",
+      "targetSan": [
+        "Qg4"
+      ],
+      "hint": "Quale pedone accanto al re nero non ha più nessun difensore adesso che l'alfiere è sparito?"
+    }
+  ]
+}

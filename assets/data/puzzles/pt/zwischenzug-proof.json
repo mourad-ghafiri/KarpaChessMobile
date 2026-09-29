@@ -1,0 +1,13 @@
+{
+  "id": "zwischenzug-proof",
+  "fen": "r1b2rk1/pp3ppp/1Q1p4/4p3/3nP3/8/PPP1BPPP/R1B2RK1 b - - 0 1",
+  "solution": [
+    "Nxe2+",
+    "Kh1",
+    "axb6"
+  ],
+  "title": "A Dama Pode Esperar",
+  "setup": "A dama branca acabou de capturar a tua em b6. Recapturar é a jogada óbvia, e não é a melhor.",
+  "hint": "A tua recaptura pode esperar uma jogada, desde que a jogada anterior seja um xeque.",
+  "explanation": "## A Ideia\n\n{{axb6}} logo é uma troca equilibrada, e depois as brancas afastam simplesmente o bispo de e2 do teu cavalo. Portanto dá primeiro xeque. {{Nxe2+}} come o bispo, e {{Kh1}} é a única jogada legal das brancas. A dama em b6 continua ali, e {{axb6}} recolhe-a. Recapturaste uma jogada mais tarde e um bispo inteiro mais rico."
+}

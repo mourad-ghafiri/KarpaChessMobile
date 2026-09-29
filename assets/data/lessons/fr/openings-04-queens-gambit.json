@@ -1,0 +1,51 @@
+{
+  "id": "queens-gambit",
+  "title": "Le Gambit Dame",
+  "summary": "Un pion que vous avez le droit de prendre, mais pas de garder",
+  "proof": "openings-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Pas vraiment un gambit",
+      "text": "Deux coups à peine, et les Blancs ont déjà garé un pion là où les Noirs peuvent le prendre. Un **gambit** est un pion offert tôt pour acheter quelque chose plus vite — du temps, des lignes ouvertes, des cases. Celui-ci n'offre rien, car les Noirs ne peuvent pas garder ce qu'ils prennent.\n\nCe que veulent vraiment les Blancs, c'est d5. Échangez le pion en c4 contre le pion d noir, et les Blancs se retrouvent seuls à avoir un pion au centre, libres de bâtir dessus."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Prendre n'est pas garder",
+      "text": "{{dxc4}} répond mal à la question des Blancs. Le pion noir a quitté le centre, {{e4}} suit aussitôt, et deux pions blancs se tiennent côte à côte au centre sans plus rien pour les viser.\n\nEssayer de garder le pion coûte encore plus cher. {{b5}} le soutient, {{a4}} le déloge, et les Blancs le récupèrent avec l'aile dame en lambeaux.\n\nLe pion n'a donc jamais été l'offre. L'offre est un échange, et le prix du refus est un second coup de pion."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "prompt": "Soutenez d5 avec un second pion pour que le centre tienne, et acceptez que cela ferme une porte à l'une de vos pièces.",
+      "targetSan": [
+        "e6",
+        "c6"
+      ],
+      "hint": "Deux de vos pions peuvent avancer sur une case qui protège d5 en diagonale, et chacun barre la meilleure route à une pièce différente."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "Deux contre trois",
+      "text": "Neuf coups plus tard, issus de cette même dispute : les Blancs ont échangé en d5, les Noirs ont repris avec le pion e, et le centre s'est calmé. Cette structure a un nom, Carlsbad, et sa logique est arithmétique.\n\nComptez l'aile dame. Les Blancs y ont deux pions, les Noirs trois. Lancer le petit groupe contre le grand, c'est l'**attaque de minorité**, et elle ne se joue pas pour gagner quoi que ce soit. Poussez assez loin, les pions s'échangent d'eux-mêmes, et les Noirs se retrouvent avec un pion en c6 qu'aucun pion noir ne pourra jamais défendre, sur une colonne semi-ouverte."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "La course qui ne se croise jamais",
+      "text": "Les Noirs ne défendent pas. Ces trois pions de l'aile dame sont ce que viennent chercher les Blancs, alors les Noirs les laissent où ils sont et jouent plutôt contre le roi blanc : le cavalier en f8 bascule en g6, les autres pièces suivent, et le pion f vient avec elles.\n\nDeux plans sur des ailes opposées, qui ne se touchent jamais. Aucun ne peut être rappelé une fois lancé, alors la partie se joue sur celui qui arrive le premier.\n\n> Échanger des pions ne simplifie pas toujours. C'est parfois ainsi qu'on fabrique une faiblesse."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "prompt": "Lancez votre petit groupe de l'aile dame contre le grand groupe noir et commencez à fabriquer une cible qu'aucun pion noir ne défendra jamais.",
+      "targetSan": [
+        "b4"
+      ],
+      "hint": "Vos deux pions de l'aile dame doivent avancer ; celui qui peut entrer en contact avec le groupe noir ouvre la marche, et l'autre suit derrière."
+    }
+  ]
+}

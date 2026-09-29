@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-03",
+  "fen": "r5k1/5ppp/2p5/3n4/1b6/6P1/5PBP/1R4K1 w - - 1 2",
+  "solution": [
+    "Bxd5"
+  ],
+  "rating": 1130,
+  "title": "Yapıştırıcı Attı",
+  "setup": "Kaleniz b4'teki fili gözlüyor ve d5'teki at onu koruyan tek siyah taş.",
+  "hint": "Kaleniz korunan bir taşa çoktan saldırıyor. Bir kare ötesine bakın: koruma işini kim yapıyor?",
+  "explanation": "## Fikir\n\n{{Bxd5}} b4'ü koruyan atı kaldırır. {{cxd5}} geldikten sonra filin kimsesi kalmaz ve {{Rxb4}} onu kazanır. Ata karşılık fil eşit bir değişimdir; kâr b4'teki fildir. İstediğiniz taşa uzanmadan önce onu kimin tuttuğunu her zaman sorun."
+}

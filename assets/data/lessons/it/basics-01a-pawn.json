@@ -1,0 +1,60 @@
+{
+  "id": "pawn-moves",
+  "title": "Un Pedone Non Torna Mai Indietro",
+  "summary": "Cammina dritto, colpisce in diagonale e non fa mai un passo indietro",
+  "proof": "first-steps-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "Una Casa, Una Direzione",
+      "text": "Ogni mossa di pedone è definitiva. Il pedone cammina dritto in avanti, una casa alla volta, e può muovere solo su una casa vuota: un pezzo che gli sta davanti è un muro.\n\nIl pedone in e2 avanza in {{e3}}. Da lì può continuare a salire, ma nessuna regola lo riporterà mai in e2. Ogni altro pezzo può tornare da dove è venuto. Il pedone no.\n\nIl terreno che un pedone abbandona resta abbandonato per tutta la partita."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "La Prima Mossa Può Essere Doppia",
+      "text": "Un'unica eccezione, e ogni pedone la riceve esattamente una volta.\n\nSulla sua casa di partenza un pedone può avanzare di due case invece che di una, purché entrambe le case davanti siano libere. Questo pedone e ha la scelta proprio ora: {{e3}} oppure {{e4}}. Nessuna delle due è più giusta dell'altra.\n\nL'offerta scade nel momento in cui il pedone lascia casa. Da lì in poi è una casa per mossa, fino alla traversa opposta: là il pedone che sopravvive alla marcia viene promosso in qualcosa di molto più forte, ma è argomento di una lezione a parte."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "prompt": "Spingete il pedone in avanti: di una casa, oppure di due finché si trova ancora sulla casa di partenza.",
+      "targetSan": [
+        "e3",
+        "e4"
+      ],
+      "hint": "Il pedone va sempre e solo dritto in avanti, e il salto di due case è offerto soltanto alla prima mossa."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "Combatte in Diagonale",
+      "text": "Prendere un pezzo avversario è una **presa**: quel pezzo esce dalla scacchiera e voi occupate la casa che stava usando. Tutti i pezzi prendono. Il pedone è l'unico che prende in modo diverso da come muove.\n\nUn pedone non prende mai il pezzo che ha davanti: dritto si cammina, e solo su terreno libero. Il colpo va di una casa in diagonale in avanti, a sinistra o a destra.\n\nIl pedone nero in d5 è entrato nel raggio d'azione. Si trova su una delle due case che il vostro pedone in e4 può colpire.\n\n> Dritto per muovere, in diagonale per prendere. Tutto il pedone sta in questa asimmetria."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Il pedone nero in d5 si è messo dove il vostro pedone può raggiungerlo: toglietelo dalla scacchiera.",
+      "targetSan": [
+        "exd5"
+      ],
+      "hint": "Il passo e il colpo del pedone vanno in direzioni diverse: contate una casa in diagonale in avanti da e4."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "Il Segno della Presa",
+      "text": "Una presa si scrive con una **x**, messa fra il pezzo che muove e la casa su cui arriva.\n\nIl pedone non ha una lettera maiuscola, e allora presta la sua colonna. La mossa che avete appena giocato si scrive {{exd5}}: il pedone e, che prende, in d5. La lettera davanti dice quale pedone è partito, la casa dice dove è arrivato.\n\nD'ora in poi quella **x** significa la stessa cosa, chiunque faccia la mossa."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4pp2/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Il pedone nero in e5 sbarra la strada: trovate l'unica mossa che al vostro pedone resta.",
+      "targetSan": [
+        "exf5"
+      ],
+      "hint": "Un pedone non può prendere il pezzo che ha esattamente davanti, e accanto a quel pedone ce n'è un secondo."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-06",
+  "fen": "3k4/8/8/8/8/8/3q4/3R3K w - - 0 1",
+  "solution": [
+    "Rxd2+"
+  ],
+  "title": "Clavada de lado a lado",
+  "setup": "La dama negra se ha metido delante de la torre blanca, con el rey negro seis casillas detrás, en d8.",
+  "hint": "Entre la torre y el rey negro no hay nada salvo una pieza negra. Averigua qué tiene permitido hacer esa pieza.",
+  "explanation": "## La idea\n\nLa dama está clavada. No congelada: todavía puede deslizarse arriba y abajo por la columna d, e incluso capturar la torre. Lo que no puede hacer es salir de la columna, porque el rey de d8 quedaría en la línea de la torre, y esa jugada es ilegal.\n\nAsí que tiene que quedarse donde la torre la alcanza: {{Rxd2+}} la captura con jaque, y el rey está seis casillas demasiado lejos para recapturar.\n\nUna clavada no impide que una pieza se mueva. La sujeta a una línea."
+}

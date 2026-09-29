@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-09",
+  "fen": "1k6/5ppp/8/5PPP/8/8/1K6/8 w - - 1 2",
+  "solution": [
+    "g6"
+  ],
+  "rating": 1390,
+  "title": "Üçe Karşı Üç",
+  "setup": "Şah kanadında altı piyon karşı karşıya dururken iki şah da koca bir tahta uzakta.",
+  "hint": "Hiçbir şah vaktinde varamaz; öyleyse taş vererek bir şerit açan piyon hamlesini arayın.",
+  "explanation": "## Fikir\n\n{{g6}} kazandıran tek hamledir ve bir piyonu elden verir. {{hxg6}} {{f6}} {{gxf6}} {{h6}} gelir ve h piyonu yakalanamaz; siyah öbür türlü alırsa aynı kırılma f piyonuyla işler. Sakin hamleler berabere kalır ve birkaçı da aynı fikirle kaybeder."
+}

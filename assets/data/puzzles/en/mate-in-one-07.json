@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-07",
+  "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qk - 1 7",
+  "solution": [
+    "Nf3#"
+  ],
+  "rating": 780,
+  "title": "Smothered by Its Own",
+  "setup": "Every square around the white king is taken by its own pieces, and your knight still sits on d4.",
+  "hint": "The white king has no escape squares at all, so hunt for the one check it can neither take nor block.",
+  "explanation": "## The Idea\n\nWhite's king is smothered by its own army, so any safe check finishes the game. {{Nf3#}} looks capturable, but the bishop on e2 is pinned by your queen on e4, the g2 pawn is long gone, and a knight check can never be blocked."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-10",
+  "fen": "r4rk1/5ppp/5n2/6B1/8/8/2Q2PPP/1B4K1 w - - 1 2",
+  "solution": [
+    "Bxf6"
+  ],
+  "rating": 1390,
+  "title": "Penjaga h7",
+  "setup": "Menteri dan gajah Anda berjajar membidik h7, dan selain raja, hanya kuda di f6 yang menguasai petak itu.",
+  "hint": "Baterai Anda sudah mengarah ke h7. Tepat satu buah hitam yang menjawabnya — berapa nilai buah itu?",
+  "explanation": "## Ide\n\n{{Bxf6}} menyingkirkan satu-satunya penjaga h7. Tangkap balik dengan {{gxf6}} dan {{Qxh7#}} adalah mat: benteng Hitam sendiri di f8 mengurung raja. Tolak, dan kuda itu hilang dengan cuma-cuma. Pertukaran seimbang yang membuka petak mat tak pernah benar-benar seimbang."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pin-04",
+  "fen": "8/3kb3/3p4/3P1r2/1Ppp1P2/5B2/4R3/K7 w - - 0 1",
+  "solution": [
+    "Bg4"
+  ],
+  "rating": 920,
+  "title": "Pin First, Take Later",
+  "setup": "Black's rook on f5 has strayed onto the same diagonal as its king, with one empty square between them.",
+  "hint": "Which of your pieces can attack that rook and freeze it in the same breath? Look for the line to d7.",
+  "explanation": "## The Idea\n\nThe rook on **f5**, the empty square e6 and the king on **d7** sit on one diagonal. {{Bg4}} attacks the rook along it, and the pin makes moving the rook illegal. Nothing guards f5, so the rook is yours next move."
+}

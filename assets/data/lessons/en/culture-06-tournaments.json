@@ -1,0 +1,68 @@
+{
+  "id": "tournaments",
+  "title": "Your First Open",
+  "summary": "Swisses, byes, and the person in the middle",
+  "proof": "culture-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Board Forty, Round One",
+      "text": "Two hundred and one players entered, and the pairing sheet cut the list in half: everyone in the top half drew someone from the bottom half. Which is why the strongest opponent of your weekend is sitting across from you now, in round one, playing quickly.\n\nNobody is knocked out. Lose this game and you are paired again after lunch, against somebody who also lost."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Paired by Your Score",
+      "text": "From round two the pairing program sorts everyone by score and pairs inside each group, so winners meet winners and losers meet losers. It also tracks who has had which color and evens the two out across the event as far as the pairings allow. You never get the same opponent twice.\n\nThat is a **Swiss**, and it is what lets two hundred entrants finish nine rounds in a long week."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "A Pawn Walks at Your Bishop",
+      "text": "White's h-pawn sits on h4, and it is not there for the view. One more push and your bishop loses g6.\n\nCount the squares it would have left. Down the diagonal it runs into the middle of the board, where a pawn and a knight are waiting to chase it from square to square, and a bishop that has to keep running eventually runs out. This is the oldest way to win a piece in this opening: not a tactic, just a pawn walking at something that cannot stand still."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "prompt": "Open the retreat square your bishop will need before White's h-pawn drives it off g6.",
+      "targetSan": [
+        "h6"
+      ],
+      "hint": "The bishop's only road back runs through your own kingside pawns."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "The Odd Number",
+      "text": "There are two hundred and one names on the wall chart. An odd number, so every round one player is left without an opponent and takes a bye, normally scored as a win.\n\nMost events also grant a half-point bye for a round you book off in advance, which is the difference between missing round five and losing it. Ask about byes before you enter rather than on the morning of the round.\n\nWhite pushes anyway. {{h5}}, and this time {{Bh7}} is a square."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Two Other Ways to Run It",
+      "text": "A round robin pairs everybody with everybody: ten players, nine rounds, and the crosstable answers every question a tie-break has to guess at. It is the fairest format there is, which is why invitational events use it, and also why a hundred entrants never see one: that would be ninety-nine rounds.\n\nA knockout is the other extreme. One match, one loser, and half the field goes home before dinner. The World Cup runs that way, with two-game matches and rapid tie-breaks when they finish level.\n\nWeekend opens take the middle. Everybody keeps playing, and the pairings do the sorting."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "The Company You Kept",
+      "text": "New board, last round, and Black has just helped itself to the knight you had on e4.\n\nMore players will finish on the top score than there are prizes, so tie-breaks decide, and they are published before round one. Read them there. Most of them measure the company you kept: Buchholz adds up your opponents' final scores, Sonneborn-Berger weights those scores by whether you beat or drew each of them. Nobody can play for a tie-break. It only explains, later, why losing to the eventual winner cost you less than losing to someone who withdrew the next morning."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "Raise a Hand",
+      "text": "The arbiter makes the pairings, keeps the Laws and settles claims. Raise a hand; do not argue across the board. In standard play your first completed illegal move gives your opponent two extra minutes and your second ends the game, so call the arbiter instead of fixing it yourself.\n\nYou castled long last move, and the rook on d1 points up a file its own bishop blocks. {{Qd8+}} {{Kxd8}} {{Bg5+}} checks twice, and the king has two squares. On c7 the bishop mates from d8, so Black tries {{Ke8}}.\n\n> The pairings, the clock and the prize list belong to the arbiter. The board belongs to you."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+      "prompt": "Black's king has run to e8 instead, so find the mate in one on the file your rook already holds.",
+      "targetSan": [
+        "Rd8#"
+      ],
+      "hint": "The bishop on g5 covers e7 and guards the landing square, so the rook only has to arrive with check."
+    }
+  ]
+}

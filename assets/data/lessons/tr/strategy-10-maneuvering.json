@@ -1,0 +1,59 @@
+{
+  "id": "maneuvering",
+  "title": "Manevra",
+  "summary": "Tek bir taşı yerine koymak için üç sessiz hamle",
+  "proof": "strategy-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Alınacak Bir Şey Yok, Durdurulacak Bir Şey Yok",
+      "text": "Askıda taş yok. Siyah hiçbir şeyi tehdit etmiyor, oynanacak şah yok ve merkez bekleyebilir: {{d5}} onu kapatır, {{dxe5}} onu açar ve ikisinin de bu hamlede olması gerekmiyor.\n\nBöyle pozisyonlar ender değildir. Bir partinin çoğu bunlardan ibarettir.\n\nBu yüzden soru değişir. Burada ne kazanabilirim değil; taşlarımdan hangisi en az iş yapıyor ve nerede durmayı yeğlerdi. Bu cevabın oynanması üç hamle alır ve her biri hiçbir şey olmuyormuş gibi görünür."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Sondan Başlayın",
+      "text": "Beyazın b1'deki atı parti boyunca hiç oynamadı ve saldırmaya değer ne varsa tahtanın öteki tarafında.\n\nO atın istediği kare g3: oradan f5 ile h5'i, yani hiçbir siyah piyonun gözlemediği iki kareyi kapsar.\n\nŞimdi yolu bulun. Kısa yol c3'ten geçiyor ve orada beyazın kendi piyonu park etmiş. Yani at uzun yoldan dolaşır ve uzun yolun ilk adımı her zaman boşa harcanmış bir hamle gibi görünür."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "prompt": "Hiç oynamamış atı şah kanadına giden yola çıkarın ve onu kenardan uzak tutun.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "O atın başlangıç karesinden tam olarak iki hamlesi var: biri onu kenara park eder, öteki oyunun içinde tutar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "title": "İyileşmeden Önce Kötüleşme",
+      "text": "Siyahın atının kenarda kareleri tükendi ve c6'ya geri döndü; orada yeniden d4 ile e5'i tutuyor. İki oyuncu, aynı fikir, zıt yönlere doğrultulmuş.\n\nSizin atınız yolun bir ayağını tamamladı ve şimdilik yolda duruyor: d2'de c1'deki filin önünü kesiyor ve d1'deki vezirin önünde oturuyor. Kendi arka yatayının ortasındaki at, yolculuk hâlindeki attır. Varana kadar hiçbir şey kazandırmaz; bir manevranın, iki hamle boyunca biraz daha kötü olmayı göze almak demek olmasının sebebi de budur."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "prompt": "Yolcu at daha bir ayak ilerlemiş durumda; öteki kanada doğru bir sonraki adımı atın.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "O atın dört karesinden üçü onu terk etmeye çalıştığı vezir kanadında tutuyor; yalnızca biri tutmuyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "title": "Son Ayak",
+      "text": "İki hamle önce bu atın yapacak hiçbir şeyi yoktu. Şimdi bütün yolculuğu değerli kılan kareye bir sıçrayış uzaklıkta duruyor.\n\nSiyahın şah kanadına bakın. Hiçbir siyah piyon f5'i gözlemiyor ve f5'e ulaşan bir at aynı anda e7'deki file ve d6'daki piyona vuruyor. Yani son ayak f5'in kendisiyle ilgili değil. f5'i bir sıçrayış uzaklıkta tutan ve yolda h5'i de kapsayan kareyle ilgili.\n\n> Taşlarınızdan hangisi en az iş yapıyor, hangi karede durmasını yeğlerdiniz ve oraya giden en kısa yol hangisi."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "prompt": "Atı hem f5'i hem h5'i gözlediği kareye koyarak yolculuğu tamamlayın.",
+      "targetSan": [
+        "Ng3"
+      ],
+      "hint": "Atın dört karesinden ikisi f5'e bakıyor ve bunlardan yalnızca biri aynı zamanda h5'e de bakıyor."
+    }
+  ]
+}

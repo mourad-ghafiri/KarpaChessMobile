@@ -1,0 +1,11 @@
+{
+  "id": "endgames-04",
+  "fen": "4K3/k3P3/8/8/8/8/2R5/7r w - - 0 1",
+  "solution": [
+    "Rc4"
+  ],
+  "title": "Assenta Primeiro a Prancha",
+  "setup": "O peão está a uma casa da promoção e o teu próprio rei está na casa de que ele precisa. Constrói ao rei o abrigo contra os xeques antes de ele sair.",
+  "hint": "Descobre onde estará o teu rei quando os xeques começarem, e depois dá à torre uma casa que esse rei possa defender.",
+  "explanation": "## A Ideia\n\n{{Rc4}} constrói a ponte antes de o rei sair. Na quarta linha a torre espera pelos xeques: assim que o rei tiver descido para junto dela, a torre atravessa e tapa numa casa que o rei defende. De c4 continua também a cortar o rei preto do peão.\n\nCom o rei preto tão longe, sair já também ganha. A ponte é o método que funciona em todas as posições de Lucena, e é por isso que vale a pena jogá-la mesmo aqui."
+}

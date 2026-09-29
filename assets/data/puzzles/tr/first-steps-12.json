@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-12",
+  "fen": "k6r/8/8/5p2/5p1K/8/P7/8 w - - 0 1",
+  "solution": [
+    "Kg5"
+  ],
+  "title": "Yana Adım",
+  "setup": "Siyahın kalesi açık **h dikeyi** boyunca şahınıza şah çekiyor; siyahın iki piyonu da kaçış karelerini koruyor.",
+  "hint": "Unutmayın: siyah piyonlar tahtada *aşağı* doğru çaprazdan saldırır. f4 ile f5 gerçekte hangi kareleri kapsıyor?",
+  "explanation": "## Fikir\n\nh8'deki kale bütün h dikeyinin sahibi, yani h3 ile h5 elendi. İki piyon g dikeyini de kapatmış gibi duruyor, ama gerçekte neye saldırdıklarına bakın: f4'teki piyon g3'ü, f5'teki piyon g4'ü kapsıyor ve g5'i kapsayan hiçbir şey yok.\n\n{{Kg5}} şahı siyahın piyonlarının yanına çeker; güvendedir, çünkü piyon asla geriye doğru taş almaz.\n\nPiyon tam olarak iki kareye saldırır ve ikisi de önündedir."
+}

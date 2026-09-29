@@ -1,0 +1,14 @@
+{
+  "id": "deflection-10",
+  "fen": "5rk1/pp3p1p/2n3p1/q7/8/1B6/PB4PP/4RQ1K w - - 1 2",
+  "solution": [
+    "Qxf7+",
+    "Rxf7",
+    "Re8#"
+  ],
+  "rating": 1440,
+  "title": "Hors de la dernière rangée",
+  "setup": "La tour noire en f8 tient à la fois le pion f7 et la dernière rangée, et votre fou en b3 traverse f7.",
+  "hint": "La tour est la seule pièce qui garde la huitième rangée. Que pouvez-vous lui donner qu'elle doive prendre ?",
+  "explanation": "## L'idée\n\n{{Qxf7+}} ne peut pas être prise par le roi, puisque le fou en b3 couvre f7, donc {{Rxf7}} est forcé. La tour est maintenant clouée et hors de la dernière rangée, et {{Re8#}} termine la partie. Une tour qui doit reprendre est une tour qui ne défend plus."
+}

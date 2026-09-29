@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-09",
+  "fen": "6k1/5pp1/7p/8/2n5/8/3r1PPP/1B2R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 980,
+  "title": "Ar Que Não Existe",
+  "setup": "As pretas acabaram de jogar h6 para abrir uma casa de fuga em h7 para o seu rei.",
+  "hint": "As pretas acreditam que o rei tem agora um buraco para onde fugir. Descobre quem mais está a olhar para essa casa.",
+  "explanation": "## A Ideia\n\n{{Re8#}} à mesma. A nova casa de fuga h7 está coberta pelo bispo de b1, por toda a extensão da diagonal, portanto a jogada de peão não comprou nada. Uma saída de emergência só ajuda se nenhuma peça inimiga vigiar a casa que abres."
+}

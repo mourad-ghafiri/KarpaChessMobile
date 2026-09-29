@@ -1,0 +1,56 @@
+{
+  "id": "interference",
+  "title": "Interference",
+  "summary": "Stand in the way of their own defender",
+  "proof": "interference-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Standing in the Doorway",
+      "text": "Your pawn on b7 is one square from a queen. The rook on h8 is the only reason it is still a pawn.\n\nTry it: {{b8=Q}} {{Rxb8}}. The rook never had to move to cover b8 — five squares of empty rank did the work, and the new queen lasts one turn.\n\nNothing you own attacks that rook, and nothing chases it off the eighth rank. But the rank is not the rook. The rank is a road, and roads can be closed."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "The Wrong Wall",
+      "text": "**Interference** is putting a piece in the road a defender is using. The road here is the eighth rank.\n\n{{Re8}} closes it, and even the knock-down — rook takes rook, bishop takes back — does not reopen it: the pawn still queens. But that version spends a rook on a job a bishop can do. Build the wall with the bishop, and a black rook that knocks it down pays five points for three.\n\nWhen two of your pieces can build the same wall, send the one you can best afford to lose."
+    },
+    {
+      "type": "play",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Cut the eighth rank with the cheapest wall that Black cannot remove for free.",
+      "targetSan": [
+        "Be8"
+      ],
+      "hint": "Look for the piece that can reach that rank on a square your rook already guards."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Paid for Twice",
+      "text": "{{Be8}}. The bishop is protected by the rook on e1, so taking it starts a trade instead of ending a threat: Black's rook takes, your rook takes back, and a white rook is left standing on the eighth rank.\n\nIgnoring the bishop is no better. {{Kg6}} {{b8=Q}}, and the rook on h8 watched the whole thing from behind a wall it could not see through.\n\nEither way the rank stays shut for exactly as long as the pawn needs.\n\n> A guard that works along a line is not guarding a square. It is guarding a road, and a road can be closed."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Attacked Once, Guarded Once",
+      "text": "A new board. The knight on e5 is attacked once and guarded once, which on most days is the same as safe.\n\nThe bishop on b2 does the attacking, along the long diagonal through c3 and d4. The queen on c7 does the guarding, along a shorter diagonal with exactly one empty square in the middle of it.\n\n{{Bxe5}} {{Qxe5}}: a bishop for a knight, an even trade, and Black's queen lands on a better square than it left. The knight is not free while that guard reaches it."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "A Wall With Its Own Threat",
+      "text": "The bishop wall held because a rook stood behind it. There is a second way to make a wall stick: it arrives carrying a threat of its own.\n\nA wall that attacks something forces Black to answer that instead, so no move is left over to re-guard the knight. The wall is still standing when you come to collect.\n\nHere you can have both at once. One of your pawns can reach the empty square on the queen's diagonal, the other pawn covers it there, and the queen is standing within reach of whatever lands."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "prompt": "Win the knight by shutting off the line that guards it.",
+      "targetSan": [
+        "d6"
+      ],
+      "hint": "The guard travels along a diagonal with one empty square on it — occupy that square with something Black must answer."
+    }
+  ]
+}

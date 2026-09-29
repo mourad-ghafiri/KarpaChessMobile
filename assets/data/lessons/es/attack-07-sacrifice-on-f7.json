@@ -1,0 +1,56 @@
+{
+  "id": "sacrifice-on-f7",
+  "title": "El sacrificio en f7",
+  "summary": "Un solo defensor, y es el rey",
+  "proof": "f7-sacrifice-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Todos los peones menos dos",
+      "text": "Cada peón delante de un rey tiene una pieza detrás, salvo dos. f7 y f2 solo los protege el rey, y así siguen hasta que ese rey enroca o se trae una pieza para ayudar.\n\nLas Negras no han hecho ninguna de las dos cosas. La torre de h8 no se ha movido nunca, el alfil de f8 tampoco, y la dama de d8 está ocupada sosteniendo al caballo de d5.\n\nAsí que una pieza que llega a f7 no puede recibir una recaptura barata. No queda nada barato con lo que responder. El rey tiene que hacerlo en persona."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Tasado por lo que compra",
+      "text": "Una pieza por un peón es un cambio perdedor sobre el papel. Aquí no es un cambio en absoluto, porque las Negras no pueden decir que no.\n\nCuenta las casillas a las que llega un caballo desde f7. Dos de ellas son d8 y h8, donde están la dama y la torre, así que rehusar cuesta más que aceptar.\n\nY aceptar arrastra al rey hasta f7 delante de un ejército que todavía no se ha movido. Tu alfil de c4 ya presiona al caballo de d5, y ese caballo es lo único que mantiene cerrada la diagonal."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "prompt": "Entrega una pieza para capturar el único peón que protege el rey negro, y saca a ese rey a campo abierto.",
+      "targetSan": [
+        "Nxf7"
+      ],
+      "hint": "Solo una de tus piezas llega a f7: el otro camino está bloqueado en d5."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/ppp2kpp/2n5/3np3/2B5/8/PPPP1PPP/RNBQK2R w KQ - 0 7",
+      "title": "Ahora el problema es el rey",
+      "text": "El rey ha salido a f7 en la séptima jugada, y lo primero que hace es estorbar. Tu alfil de c4 mira a través del caballo de d5 a ese rey, así que el caballo está clavado y no puede moverse en absoluto.\n\n{{Qf3+}} trae un segundo atacante sobre d5 con jaque. El rey negro tiene cinco casillas, y {{Ke6}} es la que protege al caballo clavado: un rey subiendo por el tablero para mantener una pieza en pie. Luego {{Nc3}}: tres atacantes, dos defensores, y uno de los defensores es el propio rey."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "El cebo, y tomarlo igualmente",
+      "text": "Otro tablero, y aquí f7 se está ofreciendo. El alfil negro de c5 acaba de plantarse frente a f2, la casilla de tu lado con el mismo defensor solitario.\n\nLa mayoría de los sacrificios en f7 nunca dan mate, y este tampoco lo hará. Lo que compra aquí una pieza es más pequeño y permanente. El rey negro no puede capturar en f7 mientras el caballo de g5 la cubra, así que se desplaza a e7 o f8 y renuncia al enroque para el resto de la partida, aparcado delante de su propia torre de h8, con el alfil de c8 emparedado detrás."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "Dos formas de entrar",
+      "text": "Dos de tus piezas llegan a f7, y compran cosas distintas.\n\n{{Nxf7}} da una horquilla a la dama y a la torre, que es la jugada que la posición anterior te enseñó a querer. También es la jugada a la que invitaba la última jugada negra: {{Bxf2+}}, y ahora es tu propio rey el que está en jaque, con tres jugadas legales y una lucha salvaje por delante. Es jugable, pero es la lucha que eligieron las Negras.\n\n> Decide qué compras antes de gastar la pieza: un mate, o un rey que nunca podrá irse."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "prompt": "Captura el peón de f7 con la pieza que las Negras no esperan, y acaba con el enroque negro para siempre.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "La captura de caballo es la que las Negras han preparado: mira qué hace tu otro atacante al entrar."
+    }
+  ]
+}

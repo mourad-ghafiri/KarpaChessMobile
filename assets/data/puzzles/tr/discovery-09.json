@@ -1,0 +1,12 @@
+{
+  "id": "discovery-09",
+  "fen": "3q2k1/2p2p1p/p5p1/1r6/8/3B4/P4PPP/3R1RK1 w - - 0 1",
+  "solution": [
+    "Bxb5"
+  ],
+  "rating": 1270,
+  "title": "Şah Yok, Yine de Ölümcül",
+  "setup": "d1'deki kaleniz siyahın vezirine dizilmiş ve aralarında yalnızca kendi d3'teki filiniz duruyor.",
+  "hint": "b5'teki kaleyi bir piyon koruyor. Filiniz d dikeyinden ayrıldığında o dikeyin neye benzeyeceğini sorun.",
+  "explanation": "## Fikir\n\n{{Bxb5}} bir kale kazanır, çünkü geri almak daha pahalıya gelir: axb5 geldikten sonra d dikeyi açılır ve Rxd8 veziri alır. Siyahın fili olduğu yerde bırakması gerekir ve beyaz kazandığı kaleyi elinde tutar. Bir açılmanın partiyi belirlemesi için şaha ihtiyacı yoktur."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-02",
+  "fen": "rnbqk2r/pppp1ppp/5n2/2b1p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4",
+  "solution": [
+    "Qxf7#"
+  ],
+  "rating": 630,
+  "title": "Dois Atacantes, Um Guarda",
+  "setup": "A tua dama em h5 e o teu bispo em c4 olham ambos para f7, a casa que só o rei preto defende.",
+  "hint": "Duas peças tuas já atingem a mesma casa. Conta quantos defensores pretos ela tem.",
+  "explanation": "## A Ideia\n\nf7 é defendida só pelo rei, e dois atacantes vencem um defensor. {{Qxf7#}} aterra ao lado do rei, guardada pelo bispo de c4, portanto não pode ser comida. e7 e f8 estão cobertas pela própria dama; d7 e d8 estão tapadas pelas pretas."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-10",
+  "fen": "6k1/5p1p/6p1/8/8/8/1B6/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "La escotilla que no lo era",
+  "setup": "Las Negras gastaron una jugada en g6 para darle aire al rey, pero el aire solo ayuda si la casilla de escape es segura.",
+  "hint": "Las Negras cuentan con g7. Mira a qué ha estado apuntando todo el tiempo tu pieza más discreta.",
+  "explanation": "## La idea\n\nLas Negras avanzaron el peón de g para dar al rey una casilla a la que huir, y la casilla que crearon es g7. El alfil de b2 ha estado vigilando la gran diagonal todo el tiempo, y g7 está en ella.\n\n{{Rd8#}}: f8 y h8 están en la fila de la torre, en f7 y h7 están los propios peones negros, y la única casilla de escape que construyeron las Negras ya está cubierta."
+}

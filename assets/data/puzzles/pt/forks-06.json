@@ -1,0 +1,13 @@
+{
+  "id": "forks-06",
+  "fen": "6k1/pp2rpp1/7p/n7/3Q4/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kh7",
+    "Qxa5"
+  ],
+  "title": "A Dama Garfa de Ponta a Ponta",
+  "setup": "O cavalo preto em a5 foi parar à berma sem defensor, e a linha de fundo das pretas está vazia.",
+  "hint": "Encontra um xeque de dama que aterre também na diagonal do cavalo.",
+  "explanation": "## A Ideia\n\nUm garfo de dama não precisa que os dois alvos estejam perto um do outro, só que estejam em linhas que se encontram.\n\n{{Qd8+}} dá xeque ao rei de g8 pela linha de fundo e ataca o cavalo de a5 pela diagonal. As pretas têm de responder ao xeque, com {{Kh7}} ou tapando em e8, e nenhuma das duas salva o cavalo: {{Qxa5}} recolhe-o do outro lado do tabuleiro.\n\nProcura a casa onde um xeque e uma peça desprotegida partilham as linhas da dama."
+}

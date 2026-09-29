@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-10",
+  "fen": "4r1k1/3q1ppp/8/4R3/8/8/5PPP/4Q1K1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxe8#"
+  ],
+  "rating": 1020,
+  "title": "Benteng Memimpin, Menteri Memberi Mat",
+  "setup": "Benteng dan menteri Anda bertumpuk di lajur e, berhadapan dengan benteng Hitam di e8 dan menterinya di d7.",
+  "hint": "Dua buah berat di satu lajur hanya bisa menyerang dalam satu urutan. Hitung mana yang harus pergi lebih dulu.",
+  "explanation": "## Ide\n\nBenteng berdiri di depan, jadi ia menyerang lebih dulu: {{Rxe8+}} memaksa {{Qxe8}}, dan menteri di belakangnya memberikan {{Qxe8#}}. Balik urutannya dan tak ada apa-apa — menteri tak akan pernah bisa mencapai e8 dengan bentengnya sendiri menghalangi."
+}

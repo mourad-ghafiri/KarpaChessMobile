@@ -1,0 +1,11 @@
+{
+  "id": "fianchetto-proof",
+  "fen": "5rk1/pp1bppbp/3p1np1/q7/2r1P1P1/2N1BP2/PPPQN3/2KR3R w - - 3 17",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Karpov Hunts the Bishop",
+  "setup": "Karpov against Korchnoi, Moscow 1974. Your pawns have come up the kingside, and one black piece still guards the dark squares around Black's king.",
+  "hint": "Against a fianchetto you are hunting one piece. Which of yours walks the same squares as it?",
+  "explanation": "## The Idea\n\n{{Bh6}} offers your dark-squared bishop for Black's, the one piece that answers for f6 and h6. After {{Bxh6}} {{Qxh6}} the queen lands on the square the g-pawn gave up and stares at g7 and h7, and no black pawn can ever chase it away.\n\nKarpov kept coming with the g-pawn and the rooks, and Black resigned ten moves later."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-07",
+  "fen": "5k2/5p1K/3p4/5N2/8/8/Q7/8 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "La red de dama y caballo",
+  "setup": "El rey negro de f8 está encajonado por su propio peón, tu rey de h7 está cerca y tu caballo de f5 vigila.",
+  "hint": "Tu rey cubre g7 y g8, y el caballo cubre e7. La dama solo necesita un jaque del que el rey no pueda apartarse.",
+  "explanation": "## La idea\n\n{{Qa8#}} da jaque por la última fila. e8 está en la línea de la dama, el caballo de f5 cubre e7, tu rey de h7 cubre g7 y g8, y en f7 está el propio peón negro. Nada puede tapar en la octava fila.\n\nQuita el caballo y el rey se escapa a e7. En una red de mate, cada pieza cubre una casilla que las demás no pueden cubrir."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-11",
+  "fen": "k2rr3/8/8/8/8/6p1/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kf1"
+  ],
+  "title": "Una sola puerta",
+  "setup": "La torre de e8 da jaque a tu rey, y las demás piezas negras han cerrado discretamente casi todas las salidas.",
+  "hint": "La torre de d8 vigila la columna d y el peón de g3 cubre f2. ¿Qué queda?",
+  "explanation": "## La idea\n\nEstás en jaque de la torre de e8, sin nada con qué tapar y sin nada que pueda capturarla. El rey tiene que moverse, pero ¿adónde?\n\n- d1 y d2 las cubre la torre de d8\n- f2 la ataca el peón de g3\n- e2 sigue en la columna e, sigue en jaque\n- {{Kf1}} es la única casilla que queda\n\nUna puerta de cinco. Comprueba cada casilla que podría usar el rey contra cada pieza rival."
+}

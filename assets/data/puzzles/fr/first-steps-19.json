@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-19",
+  "fen": "8/7P/6k1/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "h8=Q"
+  ],
+  "title": "La longue marche",
+  "setup": "Votre pion h a marché jusqu'à la septième rangée, et le roi noir en g6 est à un pas de le manger.",
+  "hint": "Attendre perd le pion. Terminez le voyage maintenant, et choisissez la pièce la plus forte qu'il puisse devenir.",
+  "explanation": "## L'idée\n\nLe roi noir en g6 touche h7, donc tout coup tranquille lui permet de prendre le pion, et un roi seul contre un roi seul, c'est nul. {{h8=Q}} règle cela : le pion quitte h7 au moment même où il est attaqué, et h8 est hors de portée du roi.\n\nUne tour gagnerait aussi, mais lentement. La dame vaut neuf points, et roi et dame contre roi seul gagnent toujours."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fork-05",
+  "fen": "1nb4k/p4pp1/2p4p/8/8/8/P1P2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Kh7",
+    "Rxc8"
+  ],
+  "rating": 840,
+  "title": "Hava Çok Geç Geldi",
+  "setup": "Siyah az önce şahına hava vermek için h6 oynadı ve sekizinci yatayı koruyan hiçbir şey kalmadı.",
+  "hint": "Arka yatay artık mat değil, ama tahtanın hâlâ en boş hattı.",
+  "explanation": "## Fikir\n\n{{Rd8+}} bir hamle önce mattı; şimdi bir çatal. Kale d8'den bütün sekizinci yataya aynı anda iki yöne birden vurur — bir yanda şah, öteki yanda c8'deki fil. {{Kh7}} mecburidir ve {{Rxc8}} bir taş kazanır."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "discovery-01",
+  "fen": "3r3k/5p1p/6p1/4N3/8/3q4/1B3PPP/5RK1 w - - 0 1",
+  "solution": [
+    "Nxd3+"
+  ],
+  "rating": 960,
+  "title": "La pièce de devant",
+  "setup": "Votre fou en b2 vise le roi noir, et votre propre cavalier en e5 est la seule chose sur le chemin.",
+  "hint": "Une de vos pièces se tient entre le fou et le roi adverse. Que se passe-t-il à l'instant où elle s'écarte ?",
+  "explanation": "## L'idée\n\nLe cavalier est la pièce de devant d'une batterie. {{Nxd3+}} prend la dame et démasque l'échec du fou sur h8 dans le même coup, donc les Noirs doivent parer l'échec au lieu de reprendre. Une pièce défendue n'est pas vraiment défendue quand la prendre arrive avec échec."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-11",
+  "fen": "k2rr3/8/8/8/8/6p1/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kf1"
+  ],
+  "title": "Tek Bir Kapı",
+  "setup": "e8'deki kale şahınıza şah çekiyor — ve siyahın öteki taşları sessizce çıkışların çoğunu kilitlemiş.",
+  "hint": "d8'deki kale d dikeyini gözlüyor ve g3'teki piyon f2'yi kapsıyor. Geriye ne kaldı?",
+  "explanation": "## Fikir\n\ne8'deki kaleden şah altındasınız; kapatacak bir şey de onu alabilecek bir şey de yok. Şahın oynaması gerekiyor, peki nereye?\n\n- d1 ile d2'yi d8'deki kale kapsıyor\n- f2'ye g3'teki piyon saldırıyor\n- e2 hâlâ e dikeyinde, hâlâ şah altında\n- {{Kf1}} geriye kalan tek kare\n\nBeş kapıdan biri. Şahın kullanabileceği her kareyi, rakibin her taşına karşı kontrol edin."
+}

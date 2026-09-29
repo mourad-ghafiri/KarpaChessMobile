@@ -1,0 +1,50 @@
+{
+  "id": "zwischenzug",
+  "title": "A Jogada Intermédia",
+  "summary": "Recaptura em segundo, ameaça em primeiro",
+  "proof": "zwischenzug-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "O Cavalo Que Ninguém Defende",
+      "text": "O cavalo branco aterrou em d5, um peão mais rico, e não o defende absolutamente nada.\n\nCapturá-lo devia ser de graça. Não é: o bispo em g5 crava o cavalo de f6 contra a dama de d8, portanto no instante em que esse cavalo se afasta o bispo cai em d8 e leva uma dama por um cavalo.\n\nÉ essa a ideia inteira das brancas, e as brancas contaram-na exatamente até aí."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "Conta para Lá da Recaptura",
+      "text": "Todas as trocas têm um ritmo que se aprende cedo. Eu capturo, tu capturas, e os dois olhamos para o que ficou no tabuleiro.\n\nUma **jogada intermédia** quebra esse ritmo. Em vez de recapturares na jogada em que a recaptura é devida, jogas algo de que o adversário tem de tratar primeiro — um xeque, ou uma ameaça que valha mais do que a peça pendurada. A tua peça continua pendurada depois. Simplesmente espera.\n\nPortanto, antes de decidires que uma captura perde material, pergunta o que ainda estarias a ameaçar depois de o fumo assentar."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "prompt": "Agarra a peça grátis mesmo que a resposta te ganhe a dama — a conta não acabou.",
+      "targetSan": [
+        "Nxd5"
+      ],
+      "hint": "Antes de recusares uma captura, pergunta que xeques continuariam no tabuleiro depois da resposta que te assusta."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "Às Brancas Basta uma Jogada Livre",
+      "text": "A dama foi-se, e o bispo em d8 que a comeu não tem nada a defendê-lo.\n\nNão partas do princípio de que está encurralado. Olha para a diagonal à frente dele: e7, f6, g5 e h4 estão todas vazias. Dá uma jogada tranquila às brancas e esse bispo sai para h4, à frente por uma dama contra um cavalo, e a partida deixa de ser uma disputa.\n\nPortanto o bispo só se pode recolher enquanto as brancas estiverem demasiado ocupadas para o salvar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "A Recaptura Que Perde",
+      "text": "{{Kxd8}} é a jogada que parece devida, e deita a posição fora.\n\nConta-a: as pretas entregaram uma dama e recuperaram um cavalo e um bispo. Três pontos a menos, e as brancas ainda ficam com o peão extra de há pouco.\n\nEsta mesmíssima posição paga esse bispo por inteiro. A única diferença é o que as pretas fazem antes de o irem buscar.\n\n> Uma peça que é tua para capturar não vale mais por a capturares já. Pergunta o que mais é que a jogada podia estar a fazer."
+    },
+    {
+      "type": "play",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "prompt": "Encontra o xeque que mantém as brancas demasiado ocupadas para salvar o bispo, e volta depois para o ir buscar.",
+      "targetSan": [
+        "Bb4+"
+      ],
+      "hint": "Exatamente uma peça preta pode dar xeque aqui, e não saiu da casa de partida a partida inteira."
+    }
+  ]
+}

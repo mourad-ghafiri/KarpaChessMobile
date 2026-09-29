@@ -1,0 +1,56 @@
+{
+  "id": "kings-indian-advanced",
+  "title": "Şah Hint Savunması",
+  "summary": "Merkezi davet edin, sonra yıkın",
+  "proof": "openings-15.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "Bırakın Alsınlar",
+      "text": "Beyaz c4, d4 ve e4'ü elinde tutuyor. Başka hiçbir açılış merkezi bu kadar sessizce devretmez ve siyah beş hamlesini tartışmamaya harcamıştır: at f6'ya, piyon g6'ya, fil g7'ye, piyon d6'ya, şah g8'e çekilmiş.\n\nŞah Hint Savunması'nın pazarlığı budur. Beyaz ortayı alır. Siyah ise bitmiş bir şah kanadı, uzun çaprazı gösteren bir g7 fili ve önümüzdeki yirmi hamle boyunca değişmeyecek bir plan alır."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "title": "d4'e Dokunan Yok",
+      "text": "Beyazın merkezine neyin saldırdığını sayın. Hiçbir şey saldırmıyor. g7'deki fil uzun çaprazdan d4'ü gösteriyor, ama f6'daki at yolda duruyor ve zaten bir fil piyon hamlesi yapamaz.\n\nBir piyondan oynamasını yalnızca bir piyon ister. Siyahın iki piyonu tek sürüşle d4'e vurabilir ve bu ikisi zıt kanatlara yaslanır: biri beyazın piyonlarının çoktan yoğun olduğu vezir kanadına, öteki sizin şahınızın çoktan oturduğu ve beyazınkinin yöneldiği şah kanadına."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+      "prompt": "Beyazın d piyonuna kendi piyonunuzla meydan okuyun; zinciri sonrasında beyazın şah kanadına yaslanacak olanı seçin.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "İki piyon sürüşü d4'e dokunuyor. Biri beyazın zaten kalabalık olduğu kanada yöneliyor; öteki sizin saldırmak istediğiniz kanada."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQ - 0 7",
+      "title": "Seçme Sırası Beyazda",
+      "text": "d4'teki piyonun artık suratına dikilmiş bir piyon var ve beyazın merkezin ne olacağını söylemesi gerekiyor.\n\n{{d5}} yanından ileri iter ve pozisyonu kapatır — siyahın oynadığı şey de budur, çünkü kapalı merkez iki tarafa da hangi yöne koşacağını söyler. {{dxe5}} ise değişir: d dikeyi açılır, vezirler genellikle onunla birlikte kalkar ve siyahın bütün saldırı düzeni onlarla birlikte gider.\n\nÜçüncü seçenek rok yapıp gerilimi olduğu gibi bırakmaktır. Üçünün en keskini budur ve iki oyuncudan da en çok bilgi isteyeni."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "İki Zincir, İki Yön",
+      "text": "Beyaz yanından sürdü ve iki taraf da sonraki hamleleri yeniden dizilmeye harcadı. Siyahın atları artık d7 ile e7'de, kendi piyonlarının arkasında, bir hattın açılmasını bekliyor.\n\nOrtada alınabilecek bir şey yok. Beyazın piyon zinciri c4-d5 boyunca uzanıp vezir kanadına yaslanıyor; siyahınki d6-e5 boyunca uzanıp şah kanadına yaslanıyor. Her taraf kendi piyonlarının gösterdiği yönde saldırır, çünkü o piyonların ilerleyip bir şey açabileceği tek yön odur."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "title": "Oraya Önce Kim Varır",
+      "text": "Demek ki bir yarış ve iki koşucu da geri dönemiyor. İlerlemiş piyonlar geri gelmez, yani uzak uca gönderilen yardım ya geç varır ya hiç varmaz.\n\nBeyaz c piyonunu c5'e sürer, d6'ya vurur ve siyahın vezir kanadında c dikeyini açar. Siyah şah kanadı piyonlarını beyazın şahına yuvarlar ve orada değişilen her piyon barınaktan bir kat daha söker. Burada taş değil, hamle sayın: bir tur önce varmak için bir kale bile makul bir bedel olabilir.\n\n> Kilitli merkez sakin bir parti değildir. Aralarında duvar olan iki saldırıdır."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2NN4/PP2BPPP/R1BQ1RK1 b - - 4 10",
+      "prompt": "e4'teki piyona kendi piyonunuzla saldırın ve beyazın şahına giden yolu açın.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "g6'daki piyonunuz iki kareyi zaten koruyor ve bunlardan biri dosdoğru e4'e dikiliyor."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "strategy-03",
+  "fen": "rnbqkb1r/pp1ppppp/8/2p1P3/8/2n2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 5",
+  "solution": [
+    "dxc3"
+  ],
+  "title": "Quale Pedone Riprende",
+  "setup": "Il cavallo nero ha appena preso il vostro, e due dei vostri pedoni possono riprenderlo. In entrambi i casi finite con due pedoni su una colonna.",
+  "hint": "Tutte e due le prese impilano i vostri pedoni c. Quale delle due lascia anche un pedone senza nessun vicino?",
+  "explanation": "## L'idea\n\nTutte e due le prese doppiano i vostri pedoni c, quindi contate che cos'altro costa ciascuna.\n\n{{bxc3}} lascia anche il pedone a arenato senza un pedone accanto: un pedone isolato, per niente.\n\n{{dxc3}} tiene ogni altro pedone unito a un vicino, apre la colonna d verso la donna nera, e sgombra la strada da c1 a h6 per il vostro alfiere. Qui prendere verso l'esterno è giusto per quello che apre."
+}

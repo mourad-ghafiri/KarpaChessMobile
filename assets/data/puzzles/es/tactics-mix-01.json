@@ -1,0 +1,15 @@
+{
+  "id": "tactics-mix-01",
+  "fen": "7k/2r2ppp/3B4/2r1Nb2/8/8/PP2Q1Rq/K7 w - - 0 1",
+  "solution": [
+    "Nxf7+",
+    "Rxf7",
+    "Qe8+",
+    "Rf8",
+    "Qxf8#"
+  ],
+  "title": "El caballo despeja la columna",
+  "setup": "A tu dama le encantaría la columna e, pero tu propio caballo de e5 estorba. Encuentra la jugada que la despeja sin darles tiempo a las Negras.",
+  "hint": "Mueve el caballo con jaque, para que las Negras nunca tengan una jugada libre con la que defender la octava fila.",
+  "explanation": "## La idea\n\n{{Nxf7+}} despeja la columna e con jaque. Si el rey va a g8, la dama da mate en e8 al instante, así que las Negras se comen el caballo: {{Rxf7}}.\n\nAhora {{Qe8+}}, y la única forma de tapar es {{Rf8}}, la torre que acaba de dejar la séptima fila. {{Qxf8#}}: tu alfil de d6 defiende a la dama, y al rey no le queda ninguna casilla."
+}

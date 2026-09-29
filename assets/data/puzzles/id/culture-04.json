@@ -1,0 +1,13 @@
+{
+  "id": "culture-04",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/P1N2N1P/1P2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "hxg4",
+    "Nxe2+"
+  ],
+  "title": "Jangan Mundur",
+  "setup": "Putih baru saja mengusir kuda Anda dengan pion h dan, unggul empat ratus poin, sepenuhnya berharap Anda memundurkannya.",
+  "hint": "Kuda Anda di g4 diserang, jadi berhentilah mempertahankannya dan tanyakan apa yang bisa diserang kuda Anda yang lain.",
+  "explanation": "## Ide\n\n{{Nd4}} mengabaikan kuda yang diserang dan menyerang menteri di e2, satu-satunya buah yang menahan gajah di c4 dan kuda di f3.\n\nPilihan terbaik Putih adalah {{hxg4}}, dan {{Nxe2+}} mengambil menteri. Dua kuda untuk satu menteri membuat Anda unggul satu buah bersih.\n\nPenangkapan yang wajar jauh lebih buruk. Sesudah {{Nxd4}} kuda yang menjaga h2 telah pergi, dan {{Qh2#}} mengakhirinya, dengan kuda di g4 menjaga menteri.\n\nKetika sebuah buah diserang, carilah serangan yang lebih besar sebelum Anda mencari petak."
+}

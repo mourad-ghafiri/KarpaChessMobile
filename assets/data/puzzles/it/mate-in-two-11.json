@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-11",
+  "fen": "3r4/5pk1/4R3/3P3B/8/5Q2/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qxf7+",
+    "Kh8",
+    "Rh6#"
+  ],
+  "rating": 1360,
+  "title": "L'Alfiere Protegge il Dono",
+  "setup": "Il re nero in g7 è schermato da un solo pedone in f7, e il vostro alfiere in h5 sorveglia quella casa.",
+  "hint": "Il pedone che scherma il re sembra difeso solo dal re. Che cos'altro di vostro copre quella casa?",
+  "explanation": "## L'idea\n\n{{Qxf7+}} funziona perché l'alfiere in **h5** copre f7, quindi il re non può catturare. La torre in e6 ha già tolto g6 e h6, quindi {{Kh8}} è forzata, e {{Rh6#}} attraversa per dare matto lungo la colonna h."
+}

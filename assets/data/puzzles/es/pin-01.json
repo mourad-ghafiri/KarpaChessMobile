@@ -1,0 +1,12 @@
+{
+  "id": "pin-01",
+  "fen": "6k1/2R5/1p2r3/2p1P3/3b4/5B2/8/5K2 w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "rating": 800,
+  "title": "Clavada contra el rey",
+  "setup": "La torre negra de e6 está en la diagonal blanca que termina en su propio rey de g8.",
+  "hint": "Tu alfil busca una casilla donde la torre que tiene delante no pueda huir a ningún sitio. ¿Qué línea termina en g8?",
+  "explanation": "## La idea\n\nLa torre de **e6** y el rey de **g8** comparten la diagonal a2–g8. {{Bd5}} entra en ella, y la torre queda clavada: moverla expondría al rey, lo cual es ilegal. Tampoco nada defiende e6, así que la torre cae sin más en la próxima jugada."
+}

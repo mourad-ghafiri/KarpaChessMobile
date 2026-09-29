@@ -1,0 +1,12 @@
+{
+  "id": "pin-09",
+  "fen": "7k/2R1pr2/1R6/4r2p/6P1/Bb6/2P5/6K1 w - - 0 1",
+  "solution": [
+    "Bb2"
+  ],
+  "rating": 1120,
+  "title": "Le long de la grande diagonale",
+  "setup": "Le roi noir est enfermé en h8, et l'une de ses tours s'est garée sur la grande diagonale noire.",
+  "hint": "Le roi noir en h8 se tient au bout d'une célèbre diagonale. Laquelle de vos pièces peut en prendre l'autre bout ?",
+  "explanation": "## L'idée\n\n{{Bb2}} prend la diagonale a1–h8, où la tour en **e5** est maintenant coincée devant son propre roi. La tour est attaquée, sans défense, et n'a pas le droit de s'écarter. Se déclouer par un coup de roi arrive un coup trop tard."
+}

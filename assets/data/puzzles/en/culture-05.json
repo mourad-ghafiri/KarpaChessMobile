@@ -1,0 +1,13 @@
+{
+  "id": "culture-05",
+  "fen": "2kr2nr/pp1n1ppp/2p1p3/8/1P1P1B2/2N2Q1P/1PPKBPP1/7q w - - 0 13",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "title": "Two Pawns, One Diagonal",
+  "setup": "You are far behind on material and your own king has been chased to d2, but the black king is walled in by its own pieces.",
+  "hint": "Start by counting the black king's squares rather than your material — then ask what the pawn on b7 is really holding.",
+  "explanation": "## The Idea\n\nThe king on c8 has no square: d8, d7 and b7 hold its own rook, knight and pawn, and the bishop on f4 covers c7 and b8. Only the pawn on b7 keeps your other bishop off a6.\n\n{{Qxc6+}} gives the queen for a pawn, and {{bxc6}} is Black's only legal move. The pawn has left b7, and {{Ba6#}} lands on the square it used to guard.\n\nCount the enemy king's squares before you count material, and a queen becomes something you can spend."
+}

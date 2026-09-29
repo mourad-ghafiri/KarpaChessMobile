@@ -1,0 +1,14 @@
+{
+  "id": "promotion-02",
+  "fen": "1N6/1P2kppp/5n2/3r4/8/6P1/5PKP/8 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Kd7",
+    "b8=Q"
+  ],
+  "rating": 1040,
+  "title": "Mueve tu propia pieza",
+  "setup": "Tu peón de b7 está a una casilla de una nueva dama, y esa casilla la ocupa tu propio caballo.",
+  "hint": "El caballo tiene que irse, y no hay que regalarles a las Negras una jugada libre para organizar un bloqueo.",
+  "explanation": "## La idea\n\nEl caballo de b8 le estorba a su propio peón. {{Nc6+}} se aparta con jaque, así que las Negras no tienen tiempo de cubrir b8; tras {{Kd7}} el peón entra con {{b8=Q}}. Despeja una casilla de coronación ganando un tiempo, nunca en silencio."
+}

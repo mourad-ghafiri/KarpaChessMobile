@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-12",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3QK3 w - - 0 1",
+  "solution": [
+    "Qd8#"
+  ],
+  "title": "Mate na Linha de Fundo",
+  "setup": "O rei preto em g8 está apertado pelos seus próprios peões de f7, g7 e h7, sem nada a guardar a linha atrás dele.",
+  "hint": "Quando o rei inimigo está trancado atrás dos seus peões, procura a peça que pode tomar uma linha inteira numa jogada.",
+  "explanation": "## A Ideia\n\nO rei preto está na oitava linha, e os seus próprios peões em f7, g7 e h7 fazem com que as únicas casas que lhe restam, f8 e h8, estejam nessa mesma linha.\n\n{{Qd8#}} toma a linha inteira de uma vez. Nada está no caminho, nada chega a d8 para capturar, e o rei está longe de mais para a comer.\n\nUm rei atrás de três peões que nunca mexeram está a uma peça pesada do mate, que é o que torna uma única jogada de peão, feita a tempo, um seguro tão barato."
+}

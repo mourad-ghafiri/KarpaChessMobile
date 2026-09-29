@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-13",
+  "fen": "k4r2/8/8/7b/8/3n4/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "A Casa Tranquila",
+  "setup": "Um cavalo preto aterrou em d3 com xeque — e os xeques de cavalo nunca se podem tapar.",
+  "hint": "O bispo em h5 corta através de f3, e2 e d1. A torre guarda a coluna f. Procura a casa de que ninguém fala.",
+  "explanation": "## A Ideia\n\nO cavalo em d3 dá xeque ao teu rei, e a um xeque de cavalo só se pode responder mexendo o rei ou comendo o cavalo. Nada de teu chega a d3, portanto o rei tem de mexer.\n\nd1 e e2 estão na diagonal do bispo de h5, a torre de f8 cobre f1, e o próprio cavalo cobre f2. {{Kd2}} é a única casa que resta: mesmo ao lado do cavalo, e segura, porque um cavalo nunca ataca as casas mesmo ao seu lado."
+}

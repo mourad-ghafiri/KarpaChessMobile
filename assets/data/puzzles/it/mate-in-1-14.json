@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-14",
+  "fen": "7R/8/8/8/8/1K6/8/k7 w - - 0 1",
+  "solution": [
+    "Rh1#"
+  ],
+  "title": "Il Bordo del Mondo",
+  "setup": "Il re nero è bloccato nell'angolo a1, e il vostro re in b3 copre a2 e b2.",
+  "hint": "Il vostro re copre già le case sopra il re nero. Alla vostra torre basta dargli scacco da dov'è.",
+  "explanation": "## L'idea\n\nIl vostro re ha fatto il lavoro difficile: in b3 copre a2 e b2, quindi al re nero resta solo b1.\n\n{{Rh1#}} dà scacco lungo la prima traversa, e anche b1 sta sulla linea della torre. Niente può parare, e il re non arriva alla torre.\n\nIn un finale di re e torre, il vostro re prende le case davanti al re avversario, e la torre dà scacco da lontano."
+}

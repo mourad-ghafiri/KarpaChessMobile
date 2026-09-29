@@ -1,0 +1,12 @@
+{
+  "id": "pin-04",
+  "fen": "8/3kb3/3p4/3P1r2/1Ppp1P2/5B2/4R3/K7 w - - 0 1",
+  "solution": [
+    "Bg4"
+  ],
+  "rating": 920,
+  "title": "Jepit Dulu, Ambil Kemudian",
+  "setup": "Benteng Hitam di f5 tersesat ke diagonal yang sama dengan rajanya, dengan satu petak kosong di antara keduanya.",
+  "hint": "Buah Anda mana yang bisa menyerang benteng itu sekaligus membekukannya? Carilah garis menuju d7.",
+  "explanation": "## Ide\n\nBenteng di **f5**, petak kosong e6 dan raja di **d7** berada di satu diagonal. {{Bg4}} menyerang benteng di sepanjang diagonal itu, dan jepitan membuat memindahkan benteng tidak sah. Tak ada yang menjaga f5, jadi benteng itu milik Anda pada langkah berikutnya."
+}

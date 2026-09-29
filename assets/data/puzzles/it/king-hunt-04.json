@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-04",
+  "fen": "5B2/5k2/7r/8/2R3p1/R5K1/b7/6Q1 w - - 0 1",
+  "solution": [
+    "Qa7+",
+    "Ke6",
+    "Ra6+",
+    "Kd5",
+    "Qd4#"
+  ],
+  "rating": 1455,
+  "title": "Due Torri su Due Traverse",
+  "setup": "Il re nero è in f7 con una torre in h6 e un alfiere in a2, e le vostre torri comandano la terza e la quarta traversa.",
+  "hint": "Le uniche case sicure del re stanno davanti a lui. Stabilite dove finisce dopo due scacchi, e mettetevi prima un pezzo.",
+  "explanation": "## L'idea\n\n{{Qa7+}} lo spinge in e6, {{Ra6+}} in d5, e {{Qd4#}} lo aspetta. Le torri non catturano mai niente — esistono per togliere traverse, e la donna incassa."
+}

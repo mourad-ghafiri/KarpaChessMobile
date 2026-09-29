@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-07",
+  "fen": "8/5K2/8/8/2pQ4/8/2B5/7k w - - 0 1",
+  "solution": [
+    "Qf2",
+    "c3",
+    "Be4#"
+  ],
+  "rating": 1590,
+  "title": "Uzun Çaprazda Mat",
+  "setup": "Siyahın şahı h1'de, piyonu c4'te ve c2'deki filiniz uzun çapraza bir hamle uzaklıkta.",
+  "hint": "Fil, ihtiyaç duyduğu hattın bir kare dışında. Aynı anda g1 ile g2'yi kapsayan hamleyi bulun.",
+  "explanation": "## Fikir\n\n{{Qf2}} sessizce hem g1'i hem g2'yi alır. Siyahın {{c3}} oynaması gerekir ve {{Be4#}} filin adım attığı çaprazda mat eder. Zugzwang, bir mat deseninin ihtiyaç duyduğu bedava hamleyi size verir."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-01",
+  "fen": "6k1/1p3ppp/2n5/1B2b3/8/5N2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Bxc6"
+  ],
+  "rating": 1050,
+  "title": "Only One Defender",
+  "setup": "Your knight attacks the bishop on e5, and it stands there only because the knight on c6 guards it.",
+  "hint": "The bishop you are attacking has exactly one defender. Ask what that defender costs, not what it holds.",
+  "explanation": "## The Idea\n\n{{Bxc6}} takes the only piece guarding e5. After {{bxc6}} the bishop hangs and {{Nxe5}} collects it; if Black rescues the bishop instead, the knight is simply gone. Count the defenders of a target before you count the attackers."
+}

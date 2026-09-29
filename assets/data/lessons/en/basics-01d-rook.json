@@ -1,0 +1,72 @@
+{
+  "id": "rook-moves",
+  "title": "The Long Road",
+  "summary": "Fourteen squares from anywhere, and the two ways a road ends",
+  "proof": "first-steps-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Along the Lines",
+      "text": "The board is drawn as a grid of lines. The rook is the piece that moves along them, and only along them: ranks and files, nothing else.\n\nNo diagonals. Nothing jumped over. Distance is free, though — a rook that shifts one square and a rook that crosses the whole board have done the same amount of work.\n\nFrom d4 the road runs four ways. Up the d-file to {{Rd8}}, back down it to {{Rd1}}, and out along the fourth rank to {{Ra4}} or {{Rh4}}."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Fourteen, Wherever It Stands",
+      "text": "Count what this rook covers from d4. Seven squares up and down the d-file, seven across the fourth rank. Fourteen.\n\nNow stand a rook alone in the corner of an empty board and count again. Fourteen. The total never moves; all that changes is how it splits between the two lines.\n\nThe knight lost six of its eight jumps in that same corner. The bishop gives up nearly half its diagonal squares at the edge. The rook does not notice the edge is there."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "prompt": "Move the rook to any square on its file or its rank.",
+      "targetSan": [
+        "Rd5",
+        "Rd6",
+        "Rd7",
+        "Rd8",
+        "Rd3",
+        "Rd2",
+        "Rd1",
+        "Rc4",
+        "Rb4",
+        "Ra4",
+        "Re4",
+        "Rf4",
+        "Rg4",
+        "Rh4"
+      ],
+      "hint": "Fourteen squares are legal from here and there is no wrong one — pick a direction and stop where you please."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "Where the Road Ends",
+      "text": "Put that rook on a1 and the fourteen becomes six.\n\nUp the a-file it gets as far as {{Ra3}}, because a black pawn on a4 is sitting in the road. Along the first rank it gets as far as {{Rd1}}, because your own king on e1 is sitting in that one.\n\nThe two stops are not the same stop. The king is permanent — you will never move a rook through your own piece. The pawn is temporary. It holds the a-file for exactly as long as it survives."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "The Open File",
+      "text": "A file with no pawns anywhere on it is an **open file**, and a rook will spend whole games trying to get onto one.\n\nThe reason is plain enough. On an open file a rook sees the column end to end, and anything that steps onto it steps into the rook's line. On a file stuffed with pawns, the same rook sees a pawn.\n\nThe a-file is one pawn short of open, and that pawn can be taken.\n\n> A rook wants a road with nothing on it. Find one, or clear one."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "prompt": "Open the a-file by taking the one thing standing in it.",
+      "targetSan": [
+        "Rxa4"
+      ],
+      "hint": "Black has nothing left to guard that square with, and the road up to it is empty."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/ppp1pppp/8/8/8/8/PPP1PPPP/R5K1 w - - 0 1",
+      "prompt": "Find the only file with no pawn on it and put your rook there.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Run your eye up all eight columns — seven of them have a pawn in the way."
+    }
+  ]
+}

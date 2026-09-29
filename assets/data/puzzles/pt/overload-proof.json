@@ -1,0 +1,13 @@
+{
+  "id": "overload-proof",
+  "fen": "r5k1/1p3ppp/8/b7/1B6/8/P4PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxa5",
+    "Rxa5",
+    "Re8#"
+  ],
+  "title": "Uma Torre, Dois Trabalhos",
+  "setup": "A torre preta em a8 está a guardar o bispo de a5, e é também a única peça a cobrir a oitava linha.",
+  "hint": "Não é preciso entregar nada. Captura alguma coisa e vê qual dos trabalhos a torre decide largar.",
+  "explanation": "## A Ideia\n\n{{Bxa5}} é uma troca simples, bispo por bispo, mas põe à torre de a8 uma pergunta a que ela não pode responder. Recaptura com {{Rxa5}} e a oitava linha fica vazia atrás dela: {{Re8#}}, porque de a5 a torre não chega nem a e8 nem a f8. Deixa antes o bispo em paz e a torre fica com a linha de fundo, mas as brancas estão simplesmente uma peça acima. Não se ofereceu nada e não se forçou nada. A torre tinha dois trabalhos e uma jogada."
+}

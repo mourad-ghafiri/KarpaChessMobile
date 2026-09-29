@@ -1,0 +1,14 @@
+{
+  "id": "smothered-07",
+  "fen": "r4r1k/pp4pp/7N/3Q4/8/8/P4PPP/6K1 w - - 6 31",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1345,
+  "title": "Deflect the Guard",
+  "setup": "Black has just brought a rook back to f8 to hold f7, and the knight on h6 is hanging.",
+  "hint": "The rook on f8 is the only thing guarding f7 — where could you make it stand instead?",
+  "explanation": "## The Idea\n\nThe knight already covers g8, so {{Qg8+}} cannot be met by the king, and {{Rxg8}} is the only legal reply. The rook that was guarding f7 is now plugging the king's last exit, and {{Nf7#}} finishes. The sacrifice deflects and smothers in one move."
+}

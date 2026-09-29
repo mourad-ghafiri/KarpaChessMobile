@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-04",
+  "fen": "k7/3q4/8/8/8/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Rxd7"
+  ],
+  "title": "Torre en camino abierto",
+  "setup": "Tu torre y la dama negra comparten la columna d totalmente abierta, y te toca jugar.",
+  "hint": "La columna d está vacía entre los dos pesos pesados. ¿Quién golpea primero?",
+  "explanation": "## La idea\n\nTu torre y la dama negra se miran por la columna d abierta, y **juegan las Blancas**. En una línea compartida, el que juega primero llega primero.\n\n{{Rxd7}} captura la dama. El rey negro de a8 está lejos de d7, así que nada recaptura.\n\nCuando tu pieza y una pieza rival están en la misma línea abierta, comprueba antes que nada a quién le toca."
+}

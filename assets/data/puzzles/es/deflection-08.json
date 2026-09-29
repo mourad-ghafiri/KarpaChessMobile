@@ -1,0 +1,14 @@
+{
+  "id": "deflection-08",
+  "fen": "2r3k1/pq4pp/6pQ/6N1/8/8/1B3PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Qxg7#"
+  ],
+  "rating": 1380,
+  "title": "Una torre por el mate",
+  "setup": "Tu dama y tu alfil golpean g7, y la dama de b7 es el único defensor adicional de esa casilla.",
+  "hint": "Una torre vale menos que un mate. ¿Qué jaque obliga a la única pieza que defiende g7 a mirar hacia otro lado?",
+  "explanation": "## La idea\n\nA {{Rxc8+}} hay que responder con {{Qxc8}}, que arrastra a la dama fuera de la séptima fila. {{Qxg7#}} remata con el alfil de b2 detrás. La torre nunca fue lo importante. Cuando hay mate en el aire, cuenta los guardianes de la casilla, no el material."
+}

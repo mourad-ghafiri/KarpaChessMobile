@@ -1,0 +1,56 @@
+{
+  "id": "the-pin",
+  "title": "Açmaz",
+  "summary": "Bir taşı oynatmanın kuraldışı olduğu ve yalnızca yıkıcı olduğu durumlar",
+  "proof": "pins-skewers-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Dokuz Puan, Gidecek Yeri Yok",
+      "text": "Siyahın veziri dokuz puan ediyor ve d dikeyinden ayrılmasına izin yok.\n\nO dikeyi üç taş paylaşıyor: d2'deki kaleniz, siyahın d6'daki veziri, siyahın d8'deki şahı. Veziri dikeyin dışında bir yere gönderin, arkasındaki şah kaleye açık kalsın. O hamle kötü değil. Kuraldışı ve tahta onu oynamaz.\n\nVezir **açmazda** — arkasında duran şey onu yerinde tutuyor."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Hat Boyunca, Başka Hiçbir Yere",
+      "text": "Açmazdaki taş donmuş değildir. Şahın örtülü kaldığı açmaz hattı boyunca gidebilir: vezir d7'ye ya da d5'e gidebilir, hatta kaleyi alabilir. Tahtanın geri kalanı ona kapalıdır.\n\nBu bir **mutlak açmaz**tır — arkadaki taş şahtır, yani hattı terk etmek akılsızca değil, yasaktır.\n\nSizin kaleniz de tam aynı şekilde, vezir tarafından, d1'deki şahınıza karşı açmazdadır. Açmazdaki iki taş, tek dikey. Tek fark, sıranın kimde olduğu."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Bunu Üç Taş Yapabilir",
+      "text": "Açmaz bir hattır, yani onu ancak hat boyunca saldıran bir taş kurabilir: vezir, kale, fil. Liste bundan ibaret.\n\nAt açmaza alamaz. Hamlesi başlangıçla varış arasında hiçbir şeye dokunmaz ve indiği yerin ötesine, ikinci bir taşın durabileceği bir hat uzanmaz. Piyon ile şah tek kareye ulaşıp durur; bu da onları listeden çıkarır.\n\nÜç taş açmaza alabilir. Açmaza alınabilecek taş ise her taştır."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "prompt": "Kalenizin yolundan çekilemeyen dokuz puanı alın.",
+      "targetSan": [
+        "Rxd6+"
+      ],
+      "hint": "d6'yı koruyan hiçbir şey yok ve onu toplayan hamle d dikeyinden hiç ayrılmıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Oynamanın Yalnızca Pahalı Olduğu Yer",
+      "text": "Açmazdaki taşın arkasına şahtan başka bir şey koyun, bütün mesele yumuşasın.\n\nBeyazın g5'teki fili, arada e7 boşken f6'daki atın içinden d8'deki vezire bakıyor. Siyahın atı oynayabilir. Canının istediği kareye, tamamen kurallı biçimde — ve bu, bir fil karşılığında bir vezire mal olur.\n\nBu bir **göreceli açmaz**tır. Hamleyi yasaklayan bir şey yok; ona karşı çıkan yalnızca bedeldir ve arada bir o bedeli ödemeye değer."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Kurtulmak",
+      "text": "Açmaz üç yoldan biriyle biter. Açmaza alan taşı alın. İkisinin arasındaki hatta bir şey koyun. Ya da arkadaki taşı oynatın ki kazanılacak bir şey kalmasın — burada {{Qd6}} bunu yapar ve at serbest kalır.\n\nHiçbir şey yapmamak pahalı seçenektir. Beyazın f6'ya yönelttiği her taş, kaçamayan bir atın karşısına varır ve bir hamle katlanmanın az tuttuğu bir açmaz, beş hamlede epey tutar."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "prompt": "Beyazın fili ile vezirinizin arasındaki çaprazı kapatın ki at yeniden oynayabilsin.",
+      "targetSan": [
+        "Be7"
+      ],
+      "hint": "Açmazdaki at ile vezirinizin arasında tek bir boş kare var — hangi taş orayı askıda kalmadan tutabilir?"
+    }
+  ]
+}

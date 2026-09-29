@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-07",
+  "fen": "3r2k1/p4ppp/4n3/2b5/6B1/7P/P4PP1/2R3K1 w - - 1 2",
+  "solution": [
+    "Bxe6"
+  ],
+  "rating": 1290,
+  "title": "Un pas derrière",
+  "setup": "Votre tour en c1 vise le fou en c5, et le cavalier en e6 est la seule chose qui le maintient en vie.",
+  "hint": "La cible est défendue une fois. Regardez cet unique défenseur et demandez-vous laquelle de vos pièces peut l'atteindre.",
+  "explanation": "## L'idée\n\n{{Bxe6}} prend le cavalier qui protège c5. Après {{fxe6}}, le fou est sans protection et {{Rxc5}} le ramasse. Fou contre cavalier est un échange équitable — le fou en c5 est la prime. Un seul échange égal peut découvrir toute une pièce gratuite."
+}

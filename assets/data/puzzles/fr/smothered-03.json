@@ -1,0 +1,12 @@
+{
+  "id": "smothered-03",
+  "fen": "kr2r3/pp3ppp/8/1N6/8/8/P4PPP/3R2K1 w - - 7 29",
+  "solution": [
+    "Nc7#"
+  ],
+  "rating": 1215,
+  "title": "L'autre coin",
+  "setup": "Les Noirs viennent de déplacer une tour de c8 à b8, et le roi dans le coin n'a plus aucun espace.",
+  "hint": "L'étouffement n'est pas qu'une idée de l'aile roi ; vérifiez quelles cases autour de a8 sont encore vides, puis cherchez un échec.",
+  "explanation": "## L'idée\n\nUn roi en a8 avec des pions en a7 et b7 et une tour en b8 est aussi enterré qu'un roi en h8. {{Nc7#}} arrive sur la seule case qui lui donne échec, et rien ne la couvre — une tour en b8 garde des rangées et des colonnes, jamais la case en diagonale devant elle."
+}

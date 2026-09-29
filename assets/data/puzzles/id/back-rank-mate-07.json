@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-07",
+  "fen": "6k1/1b3ppp/8/8/8/8/2r2PPP/R3R1K1 w - - 1 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 910,
+  "title": "Pilih Benteng yang Tepat",
+  "setup": "Kedua benteng Anda bisa memberi sekak di baris kedelapan, dan gajah Hitam di b7 mengawasi salah satunya.",
+  "hint": "Dua sekak tersedia dan hanya satu yang merupakan mat. Lihat apa yang dilindungi gajah di b7.",
+  "explanation": "## Ide\n\nRa8+ hanya kehilangan benteng karena gajah di b7. {{Re8#}} adalah mat: tak ada yang melindungi e8, tak ada yang bisa menghalangi, dan pion di f7, g7 dan h7 menahan raja. Di baris belakang, selalu tanyakan petak mana yang masih dikuasai pihak bertahan."
+}

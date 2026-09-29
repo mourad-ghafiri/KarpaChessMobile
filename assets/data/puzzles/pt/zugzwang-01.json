@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-01",
+  "fen": "8/2QK4/6p1/8/8/8/8/3B3k w - - 0 1",
+  "solution": [
+    "Qg3",
+    "g5",
+    "Bf3#"
+  ],
+  "rating": 1400,
+  "title": "Não Faças Nada, Devagar",
+  "setup": "O rei preto está entalado no canto de h1 e a sua única peça com futuro é o peão de g6.",
+  "hint": "Não há xeque que funcione. Pergunta o que as pretas teriam de jogar se tu simplesmente passasses a vez.",
+  "explanation": "## A Ideia\n\n{{Qg3}} não dá xeque e tira todas as casas que o rei tinha. Às pretas resta só {{g5}}, e segue-se {{Bf3#}}. O zugzwang é a jogada que transforma a obrigação de jogar em todo o problema."
+}

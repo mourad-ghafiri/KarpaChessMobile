@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-11",
+  "fen": "6k1/1r3ppp/7r/8/b2B3R/8/PP6/K1Q5 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Be8",
+    "Qxe8#"
+  ],
+  "rating": 1650,
+  "title": "Faites rentrer le fou",
+  "setup": "Le fou noir en a4 est loin de son roi et ses deux tours sont parties chasser sur les colonnes b et h.",
+  "hint": "Une pièce noire est très loin de la huitième rangée. Donnez-lui une raison d'être obligée d'y aller.",
+  "explanation": "## L'idée\n\n{{Qc8+}} force {{Be8}}, ramenant le fou tout du long pour s'interposer, et {{Qxe8#}} le prend dès son arrivée. Une pièce qui peut atteindre une case en un coup n'est pas la même chose qu'une pièce qui la défend."
+}

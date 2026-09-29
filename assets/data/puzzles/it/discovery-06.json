@@ -1,0 +1,14 @@
+{
+  "id": "discovery-06",
+  "fen": "3q3k/2p2p1p/2P3p1/r3N3/8/8/PB3PPP/5RK1 w - - 0 1",
+  "solution": [
+    "Nxf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 1160,
+  "title": "Scacco da Tutti e Due i Lati",
+  "setup": "Il re nero è inscatolato in h8 dai propri pedoni, e il vostro cavallo arriva a f7 in un balzo solo.",
+  "hint": "Quando due pezzi danno scacco insieme il re deve muovere: niente può catturare o parare. Quale casa lo fa?",
+  "explanation": "## L'idea\n\n{{Nxf7+}} è uno scacco doppio, dal cavallo in f7 e dall'alfiere lungo la grande diagonale. Il Nero non può catturare né interporsi, quindi {{Kg8}} è forzata, e adesso il cavallo è libero di inghiottire la donna con {{Nxd8}}."
+}

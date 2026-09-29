@@ -1,0 +1,12 @@
+{
+  "id": "discovery-07",
+  "fen": "2r1k3/p1q2ppp/8/4B3/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxc7+"
+  ],
+  "rating": 1200,
+  "title": "Torre Atrás do Bispo",
+  "setup": "O rei preto continua em e8 em frente da tua torre de e1, e só o teu próprio bispo mantém a coluna fechada.",
+  "hint": "O teu bispo é a única coisa a manter a coluna e fechada. Para onde pode ir e pagar-se a si próprio pelo caminho?",
+  "explanation": "## A Ideia\n\n{{Bxc7+}} come a dama e abre o xeque da torre pela coluna e no mesmo momento. A torre de c8 defende de facto c7, mas as pretas têm de responder primeiro ao xeque e só depois conseguem recuperar o bispo: uma dama por um bispo."
+}

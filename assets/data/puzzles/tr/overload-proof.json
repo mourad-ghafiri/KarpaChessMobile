@@ -1,0 +1,13 @@
+{
+  "id": "overload-proof",
+  "fen": "r5k1/1p3ppp/8/b7/1B6/8/P4PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxa5",
+    "Rxa5",
+    "Re8#"
+  ],
+  "title": "Tek Kale, İki Görev",
+  "setup": "Siyahın a8'deki kalesi a5'teki fili koruyor ve aynı zamanda sekizinci yatayı kapsayan tek taş.",
+  "hint": "Hiçbir şey vermeye gerek yok. Bir şey alın ve kalenin hangi görevi bırakmaya karar verdiğini izleyin.",
+  "explanation": "## Fikir\n\n{{Bxa5}} düpedüz bir değişimdir, file karşı fil; ama a8'deki kaleye cevaplayamayacağı bir soru sorar. {{Rxa5}} ile geri alın, arkasındaki sekizinci yatay boşalsın: {{Re8#}}, çünkü kale a5'ten ne e8'e ne f8'e ulaşır. Bunun yerine fili rahat bırakın, kale arka yatayı korusun, ama beyaz öylece bir taş önde olsun. Ortada ne bir ikram vardı ne de bir zorlama. Kalenin iki görevi ve tek hamlesi vardı."
+}

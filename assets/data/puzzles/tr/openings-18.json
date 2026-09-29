@@ -1,0 +1,15 @@
+{
+  "id": "openings-18",
+  "fen": "rnbqkb1r/p1p2ppp/4pn2/1p6/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq b6 0 6",
+  "solution": [
+    "a4",
+    "c6",
+    "axb5",
+    "cxb5",
+    "Ne5"
+  ],
+  "title": "Onu Tutamazsınız",
+  "setup": "Siyah Katalan piyonunu aldı ve az önce ...b5 ile onu destekledi. O piyon zincirine yerleşmeden vurun.",
+  "hint": "Siyah fazladan piyonu bir zincirle tutuyor. Piyonlarınızdan hangisinin onun dibine ulaşabildiğini ve arkasında neyin açıldığını sorun.",
+  "explanation": "## Fikir\n\nKatalan bir piyon ödünç verir. Onu elde tutmak siyaha vezir kanadına mal olur.\n\n{{a4}} zincire dibinden vurur. Siyah onu {{c6}} ile desteklerse {{axb5}} {{cxb5}} c piyonunu uzun çaprazdan kaldırır ve {{Ne5}} geri kalanını temizler: g2'deki fil dosdoğru a8'deki kaleye bakar ve at c4'ü gözler.\n\nSiyahın a8'i kapsaması gerekir, genellikle {{Nd5}} ile, ve b5'in hiç koruyucusu yoktur.\n\nDaha çok piyonla savunmak zorunda olduğunuz piyon, parasını ödediğiniz piyondur."
+}

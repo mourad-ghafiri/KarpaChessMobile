@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-07",
+  "fen": "3r2k1/p4ppp/4n3/2b5/6B1/7P/P4PP1/2R3K1 w - - 1 2",
+  "solution": [
+    "Bxe6"
+  ],
+  "rating": 1290,
+  "title": "One Step Behind",
+  "setup": "Your rook on c1 eyes the bishop on c5, and the knight on e6 is the only thing keeping it alive.",
+  "hint": "The target is defended once. Look at that single defender and ask which of your pieces can reach it.",
+  "explanation": "## The Idea\n\n{{Bxe6}} takes the knight guarding c5. After {{fxe6}} the bishop is loose and {{Rxc5}} collects it. Bishop for knight is a fair trade — the bishop on c5 is the bonus. One even trade can uncover a whole free piece."
+}

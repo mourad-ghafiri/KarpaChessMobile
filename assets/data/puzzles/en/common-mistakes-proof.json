@@ -1,0 +1,11 @@
+{
+  "id": "common-mistakes-proof",
+  "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/1Q6/PPPP1PPP/RNB1K1NR b KQkq - 3 5",
+  "solution": [
+    "Nd4"
+  ],
+  "title": "The Queen's Third Trip",
+  "setup": "White's queen has moved three times in five moves, and from b3 it stares at f7 again. Make it pay for the trip.",
+  "hint": "Attacking a queen with a cheaper piece gains a move. Find the attack that also eyes c2, one jump from White's king and rook.",
+  "explanation": "## The Idea\n\nThe early queen gets its bill. {{Nd4}} attacks it with a knight, and the knight also eyes c2, where a capture would check the king and hit the rook on a1.\n\nThe queen has to move a fourth time, and every reply leaves Black clearly better. Grabbing f7 first changes nothing: after the bishop takes with check, the king steps to e7, and the queen is still attacked."
+}

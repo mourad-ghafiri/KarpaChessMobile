@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-03",
+  "fen": "rnb1k1nr/ppp2ppp/3b4/8/8/2N3P1/PPPPP3/R1BQKBNR b KQkq - 0 6",
+  "solution": [
+    "Bxg3#"
+  ],
+  "rating": 655,
+  "title": "The Queen Was the Price",
+  "setup": "You gave up the queen on g3 last move, and White has no pawn left on f2 or h2.",
+  "hint": "White has no pawn on f2 anymore. Find the piece that will cover that hole the moment it lands.",
+  "explanation": "## The Idea\n\nWith f2 and h2 gone, the h4–e1 diagonal belongs to Black. {{Bxg3#}} takes the last pawn on that road and nothing can recapture: the knight on g1 does not reach g3 and the rook on h1 is on the wrong line. f2 is the only flight square, and the bishop covers it."
+}

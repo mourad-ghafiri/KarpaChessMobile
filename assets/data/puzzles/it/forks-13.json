@@ -1,0 +1,11 @@
+{
+  "id": "forks-13",
+  "fen": "4k3/pp3ppp/8/1N3q2/8/8/PP3PPP/R1B3K1 w - - 0 1",
+  "solution": [
+    "Nd6+"
+  ],
+  "title": "Il Cavallo Strappa Via la Donna",
+  "setup": "La donna nera in f5 sta attaccando il vostro cavallo in b5, e il re nero è ancora a casa in e8.",
+  "hint": "Non limitatevi a salvare il cavallo. Trovate il balzo che dà scacco al re e colpisce la donna.",
+  "explanation": "## L'idea\n\n{{Nd6+}} dà scacco al re in e8 e attacca la donna in f5. Non c'è nessun pedone nero in c7 o e7 a difendere d6, quindi il cavallo è al sicuro, e uno scacco di cavallo non si può parare. Il re deve muovere, e {{Nxf5}} prende la donna per un cavallo.\n\nPrima di ritirare un pezzo attaccato, cercate una casa da cui reagisca con scacco."
+}

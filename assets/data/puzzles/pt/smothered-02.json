@@ -1,0 +1,12 @@
+{
+  "id": "smothered-02",
+  "fen": "3r2k1/pp4pp/8/8/6n1/2N5/P1P3PP/6RK b - - 9 30",
+  "solution": [
+    "Nf2#"
+  ],
+  "rating": 1180,
+  "title": "O Canto Sela-se Sozinho",
+  "setup": "As brancas acabaram de trazer uma torre para g1 para guardar o peão g, e emparedaram o próprio rei no canto.",
+  "hint": "Ignora por um momento a torre solta e conta as casas a que o rei branco poderia genuinamente mexer.",
+  "explanation": "## A Ideia\n\nRg1 guardou o peão g e enterrou o rei atrás dele. {{Nf2#}} dá xeque de uma casa que ninguém vigia: a torre de g1 e os peões de g2 e h2 olham todos para o lado errado. Um defensor que tapa a última saída do teu rei não está a defender nada."
+}

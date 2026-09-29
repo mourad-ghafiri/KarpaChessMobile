@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-05",
+  "fen": "3r2k1/1p3ppp/2n5/b7/1N6/2P3P1/5P1P/R5K1 w - - 1 2",
+  "solution": [
+    "Nxc6"
+  ],
+  "rating": 1210,
+  "title": "Riprendetevi il Pezzo",
+  "setup": "Siete sotto di un pezzo. La vostra torre fissa giù per la colonna a l'alfiere in a5, difeso solo dal cavallo in c6.",
+  "hint": "L'alfiere in a5 ha un difensore. Prima di prendere l'alfiere, chiedetevi che cosa possa prendere il difensore.",
+  "explanation": "## L'idea\n\n{{Nxc6}} toglie l'unico pezzo che copre a5. Dopo {{bxc6}}, {{Rxa5}} prende l'alfiere: cavallo per cavallo, poi un alfiere per niente, e il materiale torna pari. Qualunque cosa più lenta lascia {{Bxb4}} cambiare il vostro cavallo, e il Nero resta un pezzo avanti.\n\nIl difensore è spesso più economico del pezzo che difende."
+}

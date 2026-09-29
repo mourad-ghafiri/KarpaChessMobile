@@ -1,0 +1,62 @@
+{
+  "id": "chess-and-machines",
+  "title": "Les machines",
+  "summary": "Turing sur le papier, Deep Blue sur l'échiquier, et un champion qui abandonne au dix-neuvième coup",
+  "proof": "history-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "Un programme sans ordinateur",
+      "text": "Vers 1948, Alan Turing et David Champernowne ont écrit un programme d'échecs sur papier. Les ordinateurs existaient — le problème, c'est qu'aucun de ceux auxquels Turing avait accès ne pouvait le faire tourner.\n\nTurochamp tenait en une page de règles : évaluer la position en comptant ce que possède chaque camp, regarder un coup ou deux plus loin, jouer la ligne qui obtient le meilleur score.\n\nEn 1952, Turing l'a exécuté à la main contre un collègue, Alick Glennie — environ une demi-heure de calcul par coup. Turochamp a perdu. Il n'a jamais tourné sur un ordinateur du vivant de Turing, et il est toujours considéré comme le premier programme d'échecs jamais écrit."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "New York, 1997",
+      "text": "Kasparov a battu Deep Blue en 1996, quatre parties à deux. IBM a retiré la machine, l'a reconstruite, et a demandé une revanche.\n\nNew York, mai 1997, six parties de nouveau. Deep Blue l'a emporté trois et demi à deux et demi — la première fois qu'un champion du monde en titre perdait un match contre un ordinateur. L'écart était d'une partie.\n\nVoici la dernière des six, et les Blancs, c'est la machine."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "La porte en f7",
+      "text": "Les Noirs viennent de pousser le pion en h6, ce qui demande au cavalier en g5 où il préférerait être.\n\nLe roi noir en e8 n'a qu'une chose devant lui : le pion en f7. Le fou blanc en d3 vise déjà la diagonale qui passe par f5 et g6, donc dès que ce pion part, un échec arrive derrière lui.\n\n{{Bg6}} le fait partir. Mais il perd aussi un fou pour rien — {{fxg6}}.\n\nUn pion ne bouge pas parce qu'on le menace. Il bouge pour prendre."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "prompt": "Offrez au pion en f7 quelque chose à prendre, et gardez le fou qui donnera échec derrière lui.",
+      "targetSan": [
+        "Nxe6"
+      ],
+      "hint": "Comptez les défenseurs du pion noir en e6. Il y en a exactement un, et c'est le pion que vous devez faire bouger."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Un seul coup légal",
+      "text": "Prenez le cavalier tout de suite, et voici où l'on arrive : le fou atterrit en g6 avec échec, et les Noirs n'ont qu'une seule réponse légale sur tout l'échiquier. Pas un choix entre de mauvaises cases. Un seul coup.\n\nLe roi noir en e7 se retrouve donc devant sa propre dame en d8 et son propre fou en f8, et le droit de roquer est perdu pour toujours.\n\nComptez le matériel : les Noirs ont un cavalier contre un pion. Comptez les cases : les Noirs sont perdus."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Rien ne presse",
+      "text": "Kasparov n'a pas pris le cavalier tout de suite. La dame est sortie à la place — et Deep Blue a répondu en roquant, avec le cavalier toujours en e6, une pièce entière à prendre.\n\nLe sacrifice lui-même figurait déjà dans les livres. Ce qui a troublé les gens, c'est l'absence totale de précipitation de la machine ensuite.\n\nLa prise est venue un coup plus tard, ce qui a envoyé ce roi en d8 plutôt qu'en e7. Kasparov a abandonné au dix-neuvième coup, la partie la plus courte du match."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Ce qui est venu ensuite",
+      "text": "Deep Blue, c'était le savoir échiquéen humain, écrit sous forme de règles, qui explorait deux cents millions de positions par seconde.\n\nEn 2017, **AlphaZero** a reçu les règles et rien d'autre, a joué des millions de parties contre lui-même, et a abouti à un style que les romantiques auraient reconnu. Depuis 2020, **Stockfish**, le moteur libre le plus fort et celui qui fonctionne dans cette application, évalue les positions avec un petit réseau de neurones emprunté au shogi.\n\nPersonne n'a résolu les échecs. Avec sept pièces ou moins, on peut consulter une table ; avec trente-deux, on en est loin.\n\n> Une machine y arrive en comptant chaque ligne. Vous y arrivez en reconnaissant la forme — et les formes qui vous attendent ont des noms."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "prompt": "Aucune pièce noire ne s'échappe, alors consacrez ce coup à votre propre roi.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Il existe exactement un coup sur cet échiquier qui déplace deux pièces blanches à la fois."
+    }
+  ]
+}

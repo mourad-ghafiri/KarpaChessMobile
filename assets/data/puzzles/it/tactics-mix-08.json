@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-08",
+  "fen": "8/8/8/6k1/8/8/P7/7K w - - 0 1",
+  "solution": [
+    "a4"
+  ],
+  "title": "Due Case alla Volta",
+  "setup": "Il vostro re non è neanche vicino, e il re nero in g5 si sta mettendo in caccia del vostro pedone a. Trovate l'unico modo in cui il pedone arriva all'ottava traversa.",
+  "hint": "Immaginate una scatola dal vostro pedone fino alla sua casa di promozione e di traverso. Il re nero non deve poterci mettere piede dentro.",
+  "explanation": "## L'idea\n\n{{a4}} lascia il pedone a quattro mosse da a8. Disegnate la scatola da a4 fino ad a8 e di traverso fino alla colonna e: il re in g5 non può entrarci, quindi non prende mai il pedone.\n\nUn passo di una casa in a3 lascia cinque mosse da fare, la scatola si allarga fino alla colonna f, e il re ci entra subito. Il doppio passo iniziale del pedone è tutta la differenza."
+}

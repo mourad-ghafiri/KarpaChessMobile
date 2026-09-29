@@ -1,0 +1,14 @@
+{
+  "id": "discovery-04",
+  "fen": "2r5/pp4pk/5n1p/8/4N3/1P6/P4PPP/1B4K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kg8",
+    "Nxc8"
+  ],
+  "rating": 1080,
+  "title": "Choisissez la case d'arrivée",
+  "setup": "Votre cavalier en e4 se tient sur la diagonale du fou vers h7, donc chacun de ses coups arrive avec échec.",
+  "hint": "Chaque saut de ce cavalier ouvre la ligne du fou. Un seul atterrit aussi en frappant quelque chose.",
+  "explanation": "## L'idée\n\nTout coup de cavalier découvre l'échec, donc la vraie question est de savoir quelle case rapporte du matériel. {{Nd6+}} attaque la tour en c8 pendant que les Noirs s'occupent de l'échec. Après un coup de roi comme {{Kg8}}, le cavalier la ramasse par {{Nxc8}}, et s'interposer par Rc2 ne fait que placer la tour là où votre fou la prend."
+}

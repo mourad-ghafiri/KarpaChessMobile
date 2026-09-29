@@ -1,0 +1,14 @@
+{
+  "id": "pawn-ending-06",
+  "fen": "5k2/8/5PK1/8/8/8/8/8 w - - 1 2",
+  "solution": [
+    "f7",
+    "Ke7",
+    "Kg7"
+  ],
+  "rating": 1280,
+  "title": "Nothing Else Wins",
+  "setup": "Black's king has just stepped across to f8, straight in front of the pawn, and White must choose.",
+  "hint": "Five of White's six moves throw the point away; ask which one takes squares off the black king.",
+  "explanation": "## The Idea\n\n{{f7}} looks like it walls the pawn in, but it covers e8 and g8, so {{Ke7}} is forced and {{Kg7}} walks the pawn home. Any king move instead lets Black's king keep its place in front of the pawn, and then the ending is a dead draw."
+}

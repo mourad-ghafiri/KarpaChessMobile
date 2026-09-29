@@ -1,0 +1,13 @@
+{
+  "id": "history-06",
+  "fen": "bq1b3r/3n1k2/p3p1p1/Np1pPp1p/1P1N1P2/P2PB3/2Q3PP/2R3K1 w - - 4 27",
+  "solution": [
+    "Nac6",
+    "Qb7",
+    "Nxd8+"
+  ],
+  "title": "Il Buco Rende",
+  "setup": "Steinitz contro Sellman, Baltimora 1885, ventisei mosse dopo e senza un solo sacrificio. È ora di incassare il buco che la lezione ha trovato.",
+  "hint": "Una casa in fondo al campo nero non potrà mai più essere attaccata da un pedone. Due cavalli potrebbero prendersela — scegliete quello che non ha niente di meglio da fare.",
+  "explanation": "## L'idea\n\nVentisei mosse dopo, c6 è ancora un buco: i pedoni b e d del Nero l'hanno superata per sempre.\n\n{{Nac6}} ci atterra e colpisce insieme la donna in b8 e l'alfiere in d8. {{Qb7}} salva la donna, e {{Nxd8+}} prende l'alfiere con scacco.\n\nLa torre riprende e il materiale è pari, ma l'unico alfiere camposcuro del Nero è sparito. Usate il cavallo di a5: quello in d4 preme su b5, e6 e f5, e muoverlo lascia andare tutte e tre."
+}

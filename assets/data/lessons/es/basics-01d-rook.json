@@ -1,0 +1,72 @@
+{
+  "id": "rook-moves",
+  "title": "El camino largo",
+  "summary": "Catorce casillas desde cualquier sitio, y las dos formas en que termina un camino",
+  "proof": "first-steps-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "A lo largo de las líneas",
+      "text": "El tablero está dibujado como una cuadrícula. La torre es la pieza que se mueve por sus líneas, y solo por ellas: filas y columnas, nada más.\n\nNada de diagonales. Nada de saltos. La distancia, eso sí, sale gratis: una torre que se desplaza una casilla y una que cruza todo el tablero han hecho el mismo esfuerzo.\n\nDesde d4 el camino sale en cuatro direcciones. Subiendo por la columna d hasta {{Rd8}}, bajando hasta {{Rd1}}, y por la cuarta fila hasta {{Ra4}} o {{Rh4}}."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Catorce, esté donde esté",
+      "text": "Cuenta lo que domina esta torre desde d4. Siete casillas arriba y abajo por la columna d, siete a lo largo de la cuarta fila. Catorce.\n\nAhora pon una torre sola en la esquina de un tablero vacío y vuelve a contar. Catorce. El total nunca cambia; solo cambia cómo se reparte entre las dos líneas.\n\nEl caballo perdía seis de sus ocho saltos en esa misma esquina. El alfil pierde casi la mitad de sus casillas en el borde. La torre ni se entera de que el borde existe."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "prompt": "Lleva la torre a cualquier casilla de su columna o de su fila.",
+      "targetSan": [
+        "Rd5",
+        "Rd6",
+        "Rd7",
+        "Rd8",
+        "Rd3",
+        "Rd2",
+        "Rd1",
+        "Rc4",
+        "Rb4",
+        "Ra4",
+        "Re4",
+        "Rf4",
+        "Rg4",
+        "Rh4"
+      ],
+      "hint": "Desde aquí hay catorce casillas legales y ninguna es mala: elige una dirección y detente donde quieras."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "Donde termina el camino",
+      "text": "Pon esa torre en a1 y las catorce se quedan en seis.\n\nPor la columna a llega hasta {{Ra3}}, porque un peón negro en a4 corta el camino. Por la primera fila llega hasta {{Rd1}}, porque tu propio rey en e1 corta ese otro.\n\nLas dos paradas no son iguales. El rey es permanente: nunca harás pasar una torre a través de tu propia pieza. El peón es provisional. Cierra la columna a exactamente mientras sobreviva."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "La columna abierta",
+      "text": "Una columna sin ningún peón es una **columna abierta**, y una torre se pasará partidas enteras intentando ocupar una.\n\nLa razón es sencilla. En una columna abierta la torre ve la columna de punta a punta, y todo lo que se meta en ella se mete en su línea. En una columna llena de peones, la misma torre ve un peón.\n\nA la columna a le falta un peón para estar abierta, y ese peón se puede capturar.\n\n> Una torre quiere un camino sin nada en él. Encuentra uno, o despeja uno."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "prompt": "Abre la columna a capturando lo único que hay en ella.",
+      "targetSan": [
+        "Rxa4"
+      ],
+      "hint": "A las Negras no les queda nada para defender esa casilla, y el camino hasta ella está vacío."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/ppp1pppp/8/8/8/8/PPP1PPPP/R5K1 w - - 0 1",
+      "prompt": "Encuentra la única columna sin peón y coloca ahí tu torre.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Recorre con la vista las ocho columnas: siete tienen un peón en medio."
+    }
+  ]
+}

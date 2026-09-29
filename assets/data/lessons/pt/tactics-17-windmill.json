@@ -1,0 +1,50 @@
+{
+  "id": "windmill",
+  "title": "O Moinho",
+  "summary": "Uma torre que dá xeque, rouba e volta",
+  "proof": "windmill-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "title": "A Dama É o Isco",
+      "text": "Moscovo, 1925: Carlos Torre, com as brancas, está prestes a entregar a dama a Emanuel Lasker e a sair dali com três peões a mais.\n\nTudo o que as brancas têm já aponta a uma só casa. A torre em g3 fica com a coluna g inteira assim que ela for desimpedida. O bispo em g5 é o que está na estrada. E g7, o peão que serve de escudo ao rei preto, é guardado por esse rei e por mais nada.\n\nA dama preta em b5 não defende nada desse lado do tabuleiro."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "prompt": "Junta um segundo atacante a g7, e aceita que desimpedir o caminho te custa a dama.",
+      "targetSan": [
+        "Bf6"
+      ],
+      "hint": "A torre de g3 já aponta a g7, e a única coisa na sua estrada é tua para mexeres."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3ppB1p/7q/1P1P4/4N1R1/P4PPP/4R1K1 w - - 0 26",
+      "title": "A Torre Entra",
+      "text": "Lasker comeu a dama, e a coluna g abriu-se com um bispo branco em f6, mesmo encostado ao abrigo do rei.\n\n{{Rxg7+}}. O rei não pode comer a torre, porque o bispo de f6 guarda g7. O cavalo das pretas está em f8, portanto não há mais nenhum sítio para onde ir: {{Kh8}} é a única jogada legal do tabuleiro.\n\nAs pretas estão uma dama à frente. Agora olha para onde foram parar aquelas três peças."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "A Torre no Meio",
+      "text": "O bispo em f6, a torre em g7 e o rei preto em h8 estão numa diagonal, por essa ordem, com a torre no meio.\n\nTira a torre dessa diagonal e o xeque à descoberta do bispo chega atrás dela, portanto a torre captura o que encontrar enquanto as pretas respondem. Volta a pô-la em g7 e a torre dá xeque sozinha, defendida pelo bispo. O rei anda entre duas casas e nunca tem uma jogada sua. É esse o moinho.\n\n> Uma torre que dá xeque ao sair de uma diagonal e volta a dar xeque ao regressar é dona da linha inteira."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "Uma Volta Completa",
+      "text": "{{Rxf7+}} come um peão e desimpede a diagonal, portanto o xeque vem do bispo. {{Kg8}}, única jogada. {{Rg7+}} põe a torre outra vez no meio, e {{Kh8}}, outra vez única jogada.\n\nConta o que mudou. Rei outra vez em h8, torre outra vez em g7, a diagonal montada exatamente como estava, e as pretas um peão mais pobres. Nada impede as brancas de fazerem tudo de novo.\n\nTorre deu mais uma volta ao moinho, depois levou a torre a g5 e recolheu a dama em h5."
+    },
+    {
+      "type": "play",
+      "fen": "r3rn1k/pb4R1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 3 29",
+      "prompt": "Dá mais uma volta ao moinho: sai da diagonal para capturar a única peça que a tua torre alcança na sétima linha.",
+      "targetSan": [
+        "Rxb7+"
+      ],
+      "hint": "Sair da diagonal traz consigo o xeque do bispo: percorre a sétima linha à procura do maior prémio."
+    }
+  ]
+}

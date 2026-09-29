@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-11",
+  "fen": "6k1/1r3ppp/7r/8/b2B3R/8/PP6/K1Q5 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Be8",
+    "Qxe8#"
+  ],
+  "rating": 1650,
+  "title": "Make the Bishop Come Home",
+  "setup": "Black's bishop on a4 is far from its king and both its rooks have gone hunting on the b- and h-files.",
+  "hint": "One black piece is a long way from the eighth rank. Give it a reason to have to be there.",
+  "explanation": "## The Idea\n\n{{Qc8+}} forces {{Be8}}, hauling the bishop all the way back to block, and {{Qxe8#}} takes it on arrival. A piece that can reach a square in one move is not the same as a piece defending it."
+}

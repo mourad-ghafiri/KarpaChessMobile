@@ -1,0 +1,50 @@
+{
+  "id": "kings-indian-attack",
+  "title": "L'attaque est-indienne",
+  "summary": "Huit coups que vous jouez toujours, et la course qui suit toujours",
+  "proof": "openings-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Huit coups, aucune question",
+      "text": "Huit coups joués, et les Blancs ne se sont pas demandé une seule fois ce que faisaient les Noirs. Cavalier en f3, pion en g3, fou en g2, roi dans le coin, pion en d3, cavalier en d2, pion en e4, tour en e1 — dans presque n'importe quel ordre, contre presque n'importe quoi.\n\nC'est l'attaque est-indienne. C'est une mise en place plutôt qu'une variante, donc aucune théorie à retenir : le même milieu de partie revient à chaque fois, et on l'apprend une fois pour toutes. Fischer l'a employée pendant des années contre la française et la sicilienne, en jouant chaque fois les mêmes coups."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Deux plans, deux directions",
+      "text": "Les Noirs n'attendent rien de tout cela. Les pions de l'aile dame sont ce qu'il y a de plus rapide sur l'échiquier, et ils ont une adresse : c2, et tout ce qui reste pour le garder.\n\n{{b5}} est la première poussée. Les autres suivent, la colonne c s'ouvre, et les tours noires s'y engouffrent.\n\nAucun camp ne défendra. Dans une course, un coup passé à regarder en arrière est un coup offert à l'autre coureur — alors les Blancs ne répondent jamais sur l'aile dame. Ils répondent sur l'autre aile, où visent déjà le pion en e4, le fou en g2 et les deux cavaliers."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p3bppp/2n1pn2/1ppp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - b6 0 9",
+      "prompt": "Prenez de l'espace devant vos propres pièces avec une poussée de pion qui chasse le cavalier le plus proche du roi noir.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "Le cavalier en f6 est le seul vrai défenseur près de ce roi. Lequel de vos pions peut l'attaquer ?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Pourquoi les ailes sont sûres",
+      "text": "Le pion en e5 se tient maintenant nez à nez avec le pion en e6. Au centre, il n'y a plus rien à échanger ni à ouvrir, et c'est précisément l'autorisation dont a besoin une attaque sur l'aile : pas de ligne à travers le centre, pas de route vers l'un ou l'autre roi par là.\n\nLes deux camps regardent donc sur les côtés. Les Blancs jouent {{h4}}, les Noirs répondent {{b4}}, les Blancs poussent {{h5}}, et personne ne renvoie une pièce à la maison.\n\n> Attaquez sur l'aile où vous avez de la place, et gardez le centre fermé pendant ce temps."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Un attaquant de moins",
+      "text": "Comptez ce que les Blancs ont pointé vers le roi noir : le fou en g2, le cavalier en f3, une dame et une tour pas loin derrière. Comptez maintenant ce qui reste aux Noirs pour la défense. C'est serré, et serré ne suffit pas.\n\nLe cavalier en d2 est la pièce qui ferait la différence, et il se tient aussi loin de ce roi qu'une pièce peut l'être. La route courte par e4 est couverte par le pion noir en d5. La route longue passe par la case que la tour a quittée pour aller en e1 — et de là, le cavalier choisit entre e3, qui vise d5 et f5, et h2, à un saut de g4."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "prompt": "Mettez en route votre pièce la plus lente vers le roi noir, par la seule route que ses propres pions laissent ouverte.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Regardez les cases vides de votre première rangée. L'une d'elles est la bretelle d'accès d'un cavalier vers l'aile roi."
+    }
+  ]
+}

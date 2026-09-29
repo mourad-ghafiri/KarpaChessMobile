@@ -1,0 +1,32 @@
+name: karpa_engine
+description: >-
+  KarpaChess's first-party Stockfish integration: official Stockfish 19
+  compiled into the app with an in-memory UCI bridge (no pipes, no polling)
+  and a NativeCallable-based line stream.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.12.0
+  flutter: '>=3.22.0'
+
+dependencies:
+  ffi: ^2.1.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.karpachess.karpa_engine
+        pluginClass: KarpaEnginePlugin
+      ios:
+        pluginClass: KarpaEnginePlugin
+      macos:
+        pluginClass: KarpaEnginePlugin

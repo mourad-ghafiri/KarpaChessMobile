@@ -1,0 +1,77 @@
+{
+  "id": "pawn-structure",
+  "title": "A Estrutura de Peões",
+  "summary": "Dobrados, isolados, atrasados — quanto custa cada um",
+  "proof": "strategy-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "title": "Dois Peões, Uma Coluna",
+      "text": "Dois peões na mesma coluna nunca se podem defender um ao outro. Nenhum deles se pode desviar para cobrir o outro, e entre os dois controlam uma coluna onde dois vizinhos controlariam duas.\n\nOlha aqui para a ala da dama das pretas: peões em a6, b7, c7 e d7, cada um a cobrir casas que os outros não cobrem. Não há nada de errado com nenhum deles. As brancas estão prestes a mudar isso com uma só captura, e a mudança é permanente — um peão só se desloca de lado quando há lá alguma coisa para capturar."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "prompt": "Força uma recaptura que deixe dois peões pretos empilhados numa coluna para o resto da partida.",
+      "hint": "Só uma peça preta é defendida por dois peões diferentes, e qualquer desses peões aterraria numa coluna já ocupada.",
+      "targetSan": [
+        "Bxc6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 5",
+      "title": "Uma Dívida com Relógio",
+      "text": "Os peões c das pretas estão agora empilhados, e ficam empilhados para o resto da partida. Em troca as pretas têm dois bispos e uma coluna d semiaberta — uma compensação a sério, e uma compensação com relógio ligado. Os bispos precisam de posições abertas, e as posições abertas precisam de peças.\n\nPor isso as brancas apontam ao final. {{d4}} {{exd4}} {{Qxd4}} propõe uma troca de damas incómoda de recusar, e cada par que sai torna esses bispos mais silenciosos e os peões empilhados mais barulhentos."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/8/3QP3/5N2/PPP2PPP/RNB1K2R b KQk - 0 6",
+      "title": "Conta as Alas",
+      "text": "As damas saem com {{Qxd4}}, e o que fica é uma conta.\n\nAs brancas têm quatro peões na ala do rei contra três. Avança-os como deve ser e um deles passa: um peão passado feito de nada a não ser uma maioria.\n\nAs pretas têm quatro na ala da dama contra três, e nunca farão nenhum. Dois desses quatro estão empilhados em c6 e c7, portanto o grupo inteiro estende-se por três colunas, e os três peões brancos cobrem as três."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "Um Peão Sem Vizinhos",
+      "text": "Segundo tabuleiro, segundo tipo de dívida. O peão preto em d5 não tem peão na coluna c nem na coluna e, e não há maneira de fazer crescer nenhum — desapareceram os dois para sempre. Isso é um peão **isolado**.\n\nO primeiro custo é o óbvio. Só peças o podem defender, e uma peça presa a um peão é uma peça a fazer um trabalho em vez de três.\n\nO segundo custo é o que decide partidas, e não é o peão de todo. É a casa vazia à frente dele."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "A Casa Que Ele Não Pode Guardar",
+      "text": "O peão c e o peão e das pretas eram os únicos peões que alguma vez poderiam ter atacado d4, e não existe nem um nem outro. Portanto d4 não é uma casa por que as brancas tenham de lutar. É uma casa onde as brancas entram e ficam.\n\nNenhum peão consegue enxotar dali uma peça. As pretas ou vivem com o intruso ou entregam uma peça para o tirar, e cada troca depois disso deixa o peão isolado com menos defensores e o mesmo número de atacantes.\n\nOs dois cavalos brancos chegam a d4. Só um deles é que deve ir."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "prompt": "Põe um cavalo na casa que nenhum peão preto poderá atacar, e manda o que ainda não está ocupado.",
+      "hint": "Um dos teus cavalos guarda e5 e g5 de onde está, portanto mexer esse entrega essas casas.",
+      "targetSan": [
+        "Nbd4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Fraco e Congelado",
+      "text": "Terceiro tabuleiro, e a pior das três dívidas. O peão preto em d6 tem um vizinho em c5 que já lhe passou à frente e não tem peão e nenhum, portanto nenhum peão o voltará a defender. Os peões não andam para trás, e este também não pode andar para a frente: o peão branco em d5 está na estrada.\n\nIndefensável e congelado: isso é um peão **atrasado**. Um peão isolado pelo menos pode correr.\n\n> Os peões dobrados custam-te um peão passado, um peão isolado custa-te a casa à frente dele, e um peão atrasado custa-te uma peça a fazer-lhe de ama."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Manda as Peças",
+      "text": "A cada atacante que as brancas juntam tem de se responder, e as respostas custam mais às pretas do que os atacantes custam às brancas: uma peça pregada a um peão deixou de jogar xadrez.\n\nPor isso as peças vêm, e os dois lados vão com calma. {{Nd2}} põe um cavalo na longa estrada até c4, e {{Na6}} manda o das pretas na direção de c7. {{f3}} escora e4, para o cavalo poder sair de d2 mais tarde sem perder esse peão. {{Nc7}} chega a guardar b5, {{a4}} tira b5 à mesma, e {{b6}} é a resposta das pretas.\n\nOs dois lados estão a discutir por causa de um peão que não se pode mexer."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/p1n2pbp/1p1p1np1/2pP4/P3P3/2N2P2/1P1NB1PP/R1BQ1RK1 w - - 0 13",
+      "prompt": "Junta um atacante ao peão que as pretas nunca poderão defender com um peão.",
+      "hint": "O cavalo em d2 tem três casas para onde ir; só uma delas toca em d6.",
+      "targetSan": [
+        "Nc4"
+      ]
+    }
+  ]
+}

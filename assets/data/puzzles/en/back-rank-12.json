@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-12",
+  "fen": "5rk1/5ppp/8/8/8/8/3Q1PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Qd8",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "title": "Deflect the Defender",
+  "setup": "The rook on f8 guards the back rank, and your queen and rook own the open d-file next to it. Deflect that guard.",
+  "hint": "The guard watches d8 from the side. Give it something on that square it cannot refuse.",
+  "explanation": "## The Idea\n\nThe rook on f8 guards the whole eighth rank, d8 included. {{Qd8}} puts the queen on that square and dares the rook to take it.\n\nIf {{Rxd8}}, then {{Rxd8#}}: the guard has left, and the pawns on f7, g7 and h7 seal the king in. Black does better to decline with a pawn move that gives the king air, but {{Qxf8+}} {{Kxf8}} still leaves your rook against a bare king."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "smothered-01",
+  "fen": "6rk/pp4pp/1q6/6N1/8/8/P4PPP/3R2K1 w - - 6 26",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1150,
+  "title": "Bentengnya Sendiri",
+  "setup": "Hitam baru saja menggeser benteng ke g8, dan setiap petak di samping rajanya kini ditempati.",
+  "hint": "Sebelum Anda memburu sekak, hitung berapa petak kosong yang benar-benar bisa dituju raja hitam.",
+  "explanation": "## Ide\n\nRaja di h8 dikurung benteng dan pionnya sendiri, jadi sekak yang tak bisa ditangkapnya adalah mat. Kuda bisa memberi sekak dari g6, tetapi pion h akan mengambilnya; {{Nf7#}} memberi sekak dari petak yang tak dikuasai buah hitam mana pun. Ketika raja terkurung, berhentilah menghitung materi dan mulailah menghitung sekak."
+}

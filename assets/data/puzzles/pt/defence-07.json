@@ -1,0 +1,14 @@
+{
+  "id": "defence-07",
+  "fen": "1R6/1q6/4K1Q1/8/1b5k/8/5r2/8 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Qh7",
+    "Rxh7#"
+  ],
+  "rating": 1690,
+  "title": "Torre Para a Coluna Vazia",
+  "setup": "O teu rei está exposto em e6 com a dama preta em b7, a torre em f2 e o bispo em b4 todos em jogo.",
+  "hint": "O rei preto está na coluna h sem nada nela. Pergunta o que ele consegue pôr lá a tempo.",
+  "explanation": "## A Ideia\n\n{{Rh8+}} desce pela coluna aberta e {{Qh7}} é o único bloqueio. {{Rxh7#}} elimina-o. A dama preta defendia tudo na ala da dama e não podia estar também em h7."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "openings-16",
+  "fen": "rnbqk2r/pp3ppp/4p3/2Pn4/8/P1P2P2/4P1PP/R1BQKBNR b KQkq - 0 8",
+  "solution": [
+    "Qa5",
+    "Bd2",
+    "Qxc5"
+  ],
+  "title": "Deux pions sur une colonne",
+  "setup": "Les Noirs ont cédé le fou de cases noires pour doubler les pions c blancs, et les Blancs viennent de rafler un pion en c5. Attaquez les deux pions c à la fois.",
+  "hint": "Les pions c blancs sont en c3 et c5, sur une même colonne et sans pion pour protéger l'un ou l'autre. Trouvez la case qui regarde les deux à la fois.",
+  "explanation": "## L'idée\n\nLe fou a été échangé contre un cavalier pour que les pions c blancs finissent empilés. Ici, ils coûtent quelque chose.\n\n{{Qa5}} attaque les deux : c3 le long de la diagonale et c5 le long de la cinquième rangée, et aucun pion blanc ne peut défendre l'un ou l'autre. Si les Blancs soutiennent c3 par {{Bd2}}, {{Qxc5}} reprend le pion. Le mieux pour les Blancs est de pousser d'abord le pion e pour chasser votre cavalier de d5.\n\nLe matériel finit égal, mais les pions doublés restent. Attaquez la faiblesse qu'un pion ne peut pas défendre."
+}

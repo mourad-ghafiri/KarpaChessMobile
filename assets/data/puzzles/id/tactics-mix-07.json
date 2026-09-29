@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-07",
+  "fen": "r4rk1/1pp2ppp/p1np4/4p3/2B1P3/2Pq1N2/PP2QPPP/R2R2K1 b - - 0 1",
+  "solution": [
+    "Qxe2"
+  ],
+  "title": "Tukar Menteri untuk Menyelamatkan Keadaan",
+  "setup": "Menteri Anda di d3 diserang tiga kali, tak ada yang melindunginya, dan setiap petak tempat ia bisa lari dikuasai.",
+  "hint": "Menteri tak bisa diselamatkan. Tanyakan apa hal paling berharga yang bisa ia ambil dalam perjalanan keluarnya.",
+  "explanation": "## Ide\n\nMenteri di d3 diserang menteri, gajah di c4 dan benteng di d1, dan setiap langkah mundur mendarat di petak yang dijaga. Ia hilang bagaimanapun juga, jadi buat Putih membayar harga penuhnya. {{Qxe2}} menukarnya dengan menteri Putih, dan sesudah {{Bxe2}} Anda tertinggal satu buah dengan imbalan satu pion, tetapi tak lagi tertinggal satu menteri juga."
+}

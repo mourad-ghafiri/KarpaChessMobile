@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-06",
+  "fen": "1r4k1/5ppp/8/8/8/8/4QPPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "title": "El largo camino",
+  "setup": "La torre negra protege la última fila desde el otro extremo del tablero: el único defensor, lejos de casa.",
+  "hint": "El defensor puede llegar a e8, pero solo abandonando todo lo demás. ¿Qué es lo más grande que puedes obligarle a capturar?",
+  "explanation": "## La idea\n\nLa torre de b8 cubre toda la última fila a distancia, hasta que se la obliga a comprometerse.\n\n{{Qe8+}} entrega la dama en la casilla de entrada. {{Rxe8}} es la única respuesta, arrastrando al defensor por la fila, y {{Rxe8#}} recaptura con los propios peones negros sellando todas las casillas de escape.\n\nUn defensor solitario de la última fila es un blanco, no un muro: oblígalo a capturar, y la recaptura es mate."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "history-07",
+  "fen": "r4rk1/pp3ppp/5n2/8/8/3Q1R2/PP4PP/1B4K1 w - - 0 1",
+  "solution": [
+    "Rxf6",
+    "gxf6",
+    "Qxh7#"
+  ],
+  "title": "Singkirkan Pembela Terakhir",
+  "setup": "Menteri dan gajah sama-sama membidik h7, dan tepat satu buah hitam yang menghentikan keduanya.",
+  "hint": "Tanyakan apa yang akan terjadi di h7 jika satu buah hitam lenyap, lalu hitung berapa nilai buah itu bagi Hitam.",
+  "explanation": "## Ide\n\nMenteri di d3 dan gajah di b1 membidik h7, dan hanya kuda di f6 yang mencegah menteri mendarat di sana dengan mat.\n\n{{Rxf6}} menyerahkan benteng untuk kuda itu. Tangkap balik dengan {{gxf6}} dan {{Qxh7#}} menyusul: gajah menjaga menteri, menteri menguasai g7 dan h8, dan f7 serta f8 ditempati pion dan benteng Hitam sendiri. Tolak, dan Putih sekadar unggul satu kuda.\n\nKetika satu buah menjaga petak mat, timbang nilainya terhadap mat itu."
+}

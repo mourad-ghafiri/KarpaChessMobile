@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-08",
+  "fen": "3k4/3q4/3p4/3R4/3R4/8/8/3K4 w - - 0 1",
+  "solution": [
+    "Rxd6",
+    "Qxd6",
+    "Rxd6+"
+  ],
+  "title": "Önce Açmazdaki Piyonu Yiyin",
+  "setup": "Siyahın piyonu, veziri ve şahı d dikeyinde biri diğerinin arkasında dizilmiş ve iki kaleniz de dikeye bakıyor.",
+  "hint": "Piyon ileri gidemez. Yığının önünden başlarsanız ne olacağını sayın.",
+  "explanation": "## Fikir\n\nd6'daki piyon iki kalenizin de önünü kesiyor. {{Rxd6}} onu kaldırır ve artık d7'deki vezir arkasındaki şaha karşı açmaza girer. {{Qxd6}}, siyahın veziri bedavaya kaybetmekten kaçınmasının tek yoludur ve {{Rxd6+}} ikinci kaleyle geri alır: bir piyon ve bir vezir karşılığında bir kale ve geriye çıplak şaha karşı bir kale kalır.\n\nBir yığının önünden ancak arkanızda geri alacak bir taşınız varken başlayın."
+}

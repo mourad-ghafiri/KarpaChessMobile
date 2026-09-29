@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-06",
+  "fen": "4k3/8/2N5/4q3/B7/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxe5+"
+  ],
+  "title": "El jaque al descubierto gana la dama",
+  "setup": "La dama negra de e5 da jaque a tu rey por la columna e. Tu caballo de c6 está entre tu alfil de a4 y el rey negro.",
+  "hint": "El caballo está tapando un jaque tuyo. Muévelo a una casilla donde haga un trabajo de verdad.",
+  "explanation": "## La idea\n\nTu rey está en jaque, y la respuesta es un contraataque. El caballo de c6 tapa la diagonal de tu alfil hacia e8.\n\n{{Nxe5+}} se come la dama que da jaque, y al mover el caballo el alfil descubre jaque. {{Kd8}}, {{Kf8}} y {{Ke7}} son las únicas jugadas negras, y ninguna alcanza al caballo.\n\nCuando una pieza tuya está entre tu pieza de largo alcance y el rey rival, cada jugada que haga llega con jaque."
+}

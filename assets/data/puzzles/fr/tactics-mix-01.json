@@ -1,0 +1,15 @@
+{
+  "id": "tactics-mix-01",
+  "fen": "7k/2r2ppp/3B4/2r1Nb2/8/8/PP2Q1Rq/K7 w - - 0 1",
+  "solution": [
+    "Nxf7+",
+    "Rxf7",
+    "Qe8+",
+    "Rf8",
+    "Qxf8#"
+  ],
+  "title": "Le cavalier dégage la colonne",
+  "setup": "Votre dame adorerait la colonne e, mais votre propre cavalier en e5 est sur le chemin. Trouvez le coup qui la dégage sans laisser de temps aux Noirs.",
+  "hint": "Déplacez le cavalier avec échec, pour que les Noirs n'aient jamais un coup de libre pour garder la huitième rangée.",
+  "explanation": "## L'idée\n\n{{Nxf7+}} dégage la colonne e avec échec. Si le roi va en g8, la dame mate aussitôt en e8, donc les Noirs prennent le cavalier : {{Rxf7}}.\n\nMaintenant {{Qe8+}}, et la seule interposition est {{Rf8}}, la tour qui vient de quitter la septième rangée. {{Qxf8#}} : votre fou en d6 protège la dame, et le roi n'a plus aucune case."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-12",
+  "fen": "7K/8/k1P5/7p/8/8/8/8 w - - 1 2",
+  "solution": [
+    "Kg7"
+  ],
+  "rating": 1500,
+  "title": "Two Jobs at Once",
+  "setup": "Black's king has just come to a6, and the h-pawn looks four clear moves from queening.",
+  "hint": "Do not choose between chasing its pawn and pushing your own — look for a route that does both.",
+  "explanation": "## The Idea\n\nChasing straight down the h-file is hopeless, so the king walks the diagonal, toward both pawns at once. If Black runs with {{h4}}, {{Kf6}} and then Ke6 bring the king next to d7, and your c-pawn queens just as Black's does. If Black goes for the c-pawn with {{Kb6}}, the same walk has gained the time to catch the h-pawn. Either way it is a draw.\n\nThis is Réti's study: a king on a diagonal can chase two things at once."
+}

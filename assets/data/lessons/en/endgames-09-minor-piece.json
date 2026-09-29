@@ -1,0 +1,56 @@
+{
+  "id": "minor-piece-endings",
+  "title": "Bishop or Knight?",
+  "summary": "Count the moves, not the points",
+  "proof": "endgames-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "One Piece, Two Wings",
+      "text": "Black's pawns are running on opposite edges of the board — the pawn on a4 on one side, the pawns on g6 and h7 on the other. White has one piece to answer both.\n\nThat is the question this ending turns on. Not which piece is prettier. Which piece can be in two places.\n\nThe bishop on c2 is already looking down the b3 diagonal at a4, and it stands two moves from h5, the square that stares at g6. Same piece, both wings."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Four Moves Against One",
+      "text": "Put a knight where that bishop stands and count the hops. Three just to reach a square that attacks a4, a fourth to take it — and the pawn needs only three moves to become a queen.\n\nThe bishop needs one. Not because it is the better piece, but because it is a different kind of piece. Both are worth three points, and only one of them crosses the board in a single move.\n\nPawns on two wings is the shape that pays a bishop. The lines are open, nothing stands in the way, and a bishop on an open board does not travel. It arrives."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "prompt": "Take the runner on the far wing with the piece that can be back guarding the other side a move later.",
+      "targetSan": [
+        "Bxa4"
+      ],
+      "hint": "Both the runner and your bishop stand on light squares, so read the diagonal that joins them."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5k1p/6p1/8/B7/8/8/4K3 w - - 1 2",
+      "title": "Back Before It Matters",
+      "text": "The a-pawn is gone, and Black's king on f7 stands over what is left.\n\nYour bishop on a4 is now on the far edge of the board from those two pawns. {{Bd1}}, and the long light diagonal opens in front of it — e2, f3, g4, h5 — with h5 looking straight at g6. Two moves to cross the whole board. A knight starting from that same square would need three hops just to attack g6.\n\n> Three points is what a piece costs. What it is worth is how quickly it reaches the side of the board the game is on."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "Half a Board, Forever",
+      "text": "A new position, and the case turns over. Black's bishop on c7 stands on a dark square. So does the pawn on a7. So does the pawn on e7.\n\nSame color is not the same thing as safe. Neither pawn guards the other, and no square the bishop can reach in one move guards both of them at once — it can stand in front of one door while the other swings open.\n\nAnd every light square on the board is beyond it entirely, this move and forever."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "A Piece With No Color",
+      "text": "Your knight on e5 is attacked right now by that bishop. The diagonal runs c7, d6, e5, and there is nothing in it. So the knight moves.\n\nEvery knight hop lands on the opposite color from the one it left, which is why a bishop can never chase a knight for long. Black's bishop lives on the dark squares. A white knight parked on a light square is safe from it for the rest of the game.\n\nSo the knight is shopping for a light square. What it wants is a light square that also does some work."
+    },
+    {
+      "type": "play",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "prompt": "Move the attacked knight to a square Black's bishop can never reach, and hit both loose pawns on the way.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "The pawns sit on a7 and e7, so work out which light square touches both of them at once."
+    }
+  ]
+}

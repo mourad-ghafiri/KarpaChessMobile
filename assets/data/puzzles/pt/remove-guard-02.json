@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-02",
+  "fen": "6k1/5ppp/2n5/4b3/1P6/4PN2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "b5"
+  ],
+  "rating": 1090,
+  "title": "Persegue, Não Captures",
+  "setup": "O bispo de e5 está pendurado para o teu cavalo, e o cavalo de c6 é a peça que segura tudo.",
+  "hint": "Um defensor obrigado a mexer é um defensor que já eliminaste. Que peão pode subir e atacá-lo?",
+  "explanation": "## A Ideia\n\n{{b5}} atinge o cavalo, e todas as casas a que ele chega abandonam e5 — e depois {{Nxe5}}. Se as pretas salvarem antes o bispo, {{bxc6}} come o cavalo. Escorraçar um guarda não te custa absolutamente nada."
+}

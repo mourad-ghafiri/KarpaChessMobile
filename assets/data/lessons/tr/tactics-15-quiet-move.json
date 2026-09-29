@@ -1,0 +1,56 @@
+{
+  "id": "quiet-move",
+  "title": "Sessiz Hamle",
+  "summary": "Şah yok, taş alma yok, tehdit yok ve siyahın yapabileceği hiçbir şey yok",
+  "proof": "quiet-move-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "Şahı Serbest Bırakan Şah",
+      "text": "Siyahın şahı h8 köşesine sıkışmış ve beyazın sekizinci yatayda bekleyen bir şahı var.\n\n{{Ra8+}} gelir, siyah {{Kh7}} ile cevap verir. Bu tek kurallı hamledir ve f6'daki şahınızın kapsamadığı tek karedir. Köşe artık boş, kalenin baştan başlaması gerekiyor ve siyah hiçbir şey kaybetmedi.\n\nŞah bir sorudur ve cevabı rakip verir. Bu soru, kaçış kapağını bedavaya elden çıkardı."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "Köşeyi Sayın",
+      "text": "Öyleyse şahı bırakın ve bunun yerine sayın.\n\nh8'den siyahın şahının iki karesi var: g8 ve h7. Kale sekizinci yataya vardığı anda o yatayı kapsar, yani g8 kendi başının çaresine bakar. Sızıntı h7 ve dünyada hiçbir kale sekizinci yataydan h7'ye ulaşamaz.\n\nf6'daki şahınız g7'yi zaten kapsıyor; köşenin yalnızca iki çıkışı olmasının sebebi de bu. h7'yi kapsamıyor.\n\nSiyahın cevap verecek bir şeyi yokken h7'yi kapatın, başarısız olan şah partiyi bitirsin."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "prompt": "Şahınızı kullanarak h7'yi siyahın şahından alın ki kalenin sekizinci yataydaki şahı mat olsun.",
+      "targetSan": [
+        "Kg6"
+      ],
+      "hint": "Önce şah çekmek şahı yalnızca h7'ye kovalar; öyleyse şah çekmeden önce o kareyi elinden alın."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/8/8/R7 b - - 2 2",
+      "title": "Tek Kurallı Hamle",
+      "text": "g6'daki şahınız g7 ile h7'yi aynı anda elinden alıyor ve siyah şahın yakınına hiç gitmedi. Siyahın cevaplarını sayın: {{Kg8}}. Listenin tamamı bu.\n\nŞimdi {{Ra8#}} şahın ayrılamayacağı bir yataya iner ve altındaki üç kare — f7, g7 ve h7 — hepsi sizin şahınıza ait.\n\nZorlanan bir şey olmadı. Önce cevaplar alındı, soru sonra geldi."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "Oynayamayan Piyon",
+      "text": "Yeni bir tahta ve siyahın barınağına dokunulmamış: f7, g7 ve h7'de piyonlar, a8 ile f8'de kaleler, b7'de bir fil. Siyah çoktan kaybetmiş durumda.\n\ng dikeyini okuyun. g1'deki kaleniz dosdoğru g8'deki şaha bakıyor ve aralarındaki tek şey g7'deki piyon.\n\nO piyon f6 ile h6'nın koruyucusu gibi görünüyor. Oysa açmazda: iki kareden birinde taş almak onu g dikeyinden çıkarır ve kendi şahını kaleden gelen şahın altında bırakır; yani hiçbir taş alamaz — ve gözlediği sanılan kareleri gözleyen kimse yoktur."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "Gürültülü Olan Daha Yavaş",
+      "text": "Gürültülü hamleler ortada. {{Rxg7+}} kaleyi piyonun üstüne atar; {{Bxg7}} ise onu filinizle kapar ve g1'deki kaleniz g7'yi koruduğu için şah geri alamaz. İkisi de kazanır ve ikisi de siyaha cevap verecek hamleler bırakır.\n\nDaha iyisi var. Bir taşı, siyahın hiçbir cevabının olmadığı bir kareye indirin, sıradaki hamle için mat tehdit edin ve siyahın otuz küsur kurallı hamlesinden hiçbiri soruna dokunmasın."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "prompt": "Vezirinizi, açmazdaki piyonun yalnızca korurmuş gibi yaptığı bir kareye getirin; ardından mat gelsin.",
+      "targetSan": [
+        "Qh6"
+      ],
+      "hint": "Taş alarak kendi şahını açığa çıkaracak olan piyon, aslında hiçbir şeyi korumuyordur."
+    }
+  ]
+}

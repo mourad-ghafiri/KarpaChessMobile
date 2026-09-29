@@ -1,0 +1,17 @@
+{
+  "id": "openings-10",
+  "fen": "r1bqkbnr/pppp1ppp/8/1B2N3/3nP3/8/PPPP1PPP/RNBQK2R b KQk - 0 4",
+  "solution": [
+    "Qg5",
+    "Nxf7",
+    "Qxg2",
+    "Rf1",
+    "Qxe4+",
+    "Be2",
+    "Nf3#"
+  ],
+  "title": "The Pawn That Was Never Free",
+  "setup": "Black answered the Spanish bishop with the knight to d4, and White's knight has just grabbed a pawn. Attack that knight and a loose pawn with one move.",
+  "hint": "The greedy knight and the g-pawn are both unguarded. Find the one square that looks at each of them.",
+  "explanation": "## The Idea\n\nThe Spanish bishop never really attacked e5, and White has just grabbed the pawn anyway.\n\n{{Qg5}} hits the knight on e5 and the g2 pawn at once. White should cut the losses now; keep grabbing with {{Nxf7}}, and {{Qxg2}}, {{Rf1}} {{Qxe4+}}, {{Be2}} ends in {{Nf3#}}, mate by the knight that started on d4.\n\nTaking the bishop with {{Nxb5}} is just as strong. The queen move shows why the pawn was never free."
+}

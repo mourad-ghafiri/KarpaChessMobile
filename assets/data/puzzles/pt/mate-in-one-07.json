@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-07",
+  "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qk - 1 7",
+  "solution": [
+    "Nf3#"
+  ],
+  "rating": 780,
+  "title": "Sufocado Pelos Seus",
+  "setup": "Todas as casas à volta do rei branco estão tomadas pelas próprias peças, e o teu cavalo continua em d4.",
+  "hint": "O rei branco não tem casas de fuga nenhumas, portanto procura o xeque que ele não pode comer nem tapar.",
+  "explanation": "## A Ideia\n\nO rei das brancas está sufocado pelo seu próprio exército, portanto qualquer xeque seguro acaba o jogo. {{Nf3#}} parece capturável, mas o bispo de e2 está cravado pela tua dama de e4, o peão de g2 desapareceu há muito, e um xeque de cavalo nunca se pode tapar."
+}

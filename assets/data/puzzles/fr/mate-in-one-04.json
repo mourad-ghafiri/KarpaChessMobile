@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-04",
+  "fen": "r2q1bnr/ppp1kBpp/2np4/4N3/4P3/2N4P/PPPP1PP1/R1BbK2R w KQ - 1 8",
+  "solution": [
+    "Nd5#"
+  ],
+  "rating": 690,
+  "title": "Le prix d'une dame",
+  "setup": "Vous avez sacrifié la dame en d1 pour attirer le roi noir en e7, et trois de vos pièces le regardent maintenant.",
+  "hint": "Comptez les cases du roi, puis trouvez la pièce qui prend la dernière tout en donnant échec.",
+  "explanation": "## L'idée\n\n{{Nd5#}} est le mat de Légal. Le fou en f7 et le cavalier en e5 couvrent d7, e6 et e8, donc le second cavalier donne échec en retirant lui-même f6. Une dame ne vaut rien à côté d'un roi sans cases."
+}

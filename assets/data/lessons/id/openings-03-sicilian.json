@@ -1,0 +1,56 @@
+{
+  "id": "sicilian",
+  "title": "Pertahanan Sisilia",
+  "summary": "Pion sayap untuk pion pusat, dan dua pihak yang tak akan pernah bisa saling meniru lagi",
+  "proof": "openings-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "title": "Pion dari Sayap",
+      "text": "Setiap pertukaran mengubah dua hal: apa yang tersisa di papan, dan bentuk apa yang ditinggalkan pion-pion. Di sini hal kedua itulah intinya.\n\nPion Putih di d4 berdiri satu diagonal dari pion Anda di c5, dan pembukaan ini berporos pada apakah Anda menangkap. Jika ya, Anda menyerahkan pion yang berangkat dari tepi papan dan menyingkirkan pion yang berdiri di tengah. Putih menangkap balik, jadi tak ada yang dimenangkan.\n\nBentuknya tak kembali. Sejak saat itu kedua pihak punya pion yang berbeda di setiap sayap, untuk selamanya."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Tukar pion sayap Anda dengan pion yang baru saja ditanam Putih di tengah.",
+      "targetSan": [
+        "cxd4"
+      ],
+      "hint": "Urutkan pion-pion Anda menurut seberapa dekat masing-masing dengan pusat, lalu temukan penangkapan yang memperbaiki hitungan itu."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "Apa yang Dibeli Pertukaran Itu",
+      "text": "Putih telah menangkap balik dan materi seimbang. Pion-pionlah yang menceritakan sisanya.\n\nAnda punya dua di tengah, di d6 dan e7, melawan satu milik Putih di e4. Di sayap menteri Putih punya tiga melawan dua milik Anda. Belum ada yang menjadi keunggulan. Itu ketidakseimbangan, dan ketidakseimbangan itulah yang Anda bayar.\n\nLajur c adalah kuitansinya. Pion Anda telah meninggalkannya dan pion Putih di c2 belum — **lajur setengah terbuka**, lajur yang hanya masih berisi pion satu pasukan. Andalah pasukan yang bisa memakainya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "Menolak Bercermin",
+      "text": "Jawab pion raja Putih dengan pion raja Anda sendiri dan kedua pasukan menginginkan petak yang sama, lajur yang sama, rencana yang sama. Cepat atau lambat seseorang menawarkan remis dan tak ada yang punya alasan menolak.\n\nStruktur ini tak bisa ditiru. Pion yang berbeda di setiap sayap berarti rencana yang berbeda, dan dua rencana yang berbeda harus dimainkan sampai salah satunya terbukti lebih baik.\n\nItulah daya tariknya, dan itulah sebabnya Pertahanan Sisilia menjadi jawaban yang paling banyak dimainkan di dunia terhadap langkah pertama pion raja."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "Langkah Kesebelas",
+      "text": "Kedua pihak selesai mengeluarkan buah, dan bentuknya bertahan. Pion Anda di d6 dan e6 membentuk pusat kecil, berdampingan — tampak sempit, dan sangat sulit dipecahkan. Pion Putih di e4 dan f4 menguasai lebih banyak ruang dan ingin merobek sebuah garis di sayap raja.\n\nHitam menghabiskan tengah permainan untuk menyiapkan satu dorongan: {{d5}}. Begitu pion itu mendarat, pusat kecil menjadi pusat penuh dan setiap buah yang sesak napas bisa meregang. Rencana sayap raja Putih adalah perlombaan untuk tiba lebih dulu."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "Lajur yang Anda Kosongkan",
+      "text": "Benteng Anda di a8 belum bergerak sejak partai dimulai, dan ia menatap pion Anda sendiri di a6. Dua lajur dari sana, sama sekali tak ada pion Anda.\n\nDi ujung jauh lajur itu duduk dua titik terlemah Putih: pion di c2, yang tak akan pernah bisa dilindungi pion putih mana pun, dan kuda di c3, yang menahan pusat tetap utuh. **Serangan balik** Hitam hidup di sana — bukan dalam menjaga sayap raja, melainkan di lajur yang dibuka pertukaran tadi.\n\n> Pion sayap sepadan dengan pion pusat setiap kali lajur yang dibukanya mengarah ke sesuatu."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "prompt": "Bawa benteng Anda yang menganggur ke lajur yang ditinggalkan pion c Anda.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "Tak ada lagi pion Anda di lajur itu, dan dua titik terlemah Putih berada di ujung jauhnya."
+    }
+  ]
+}

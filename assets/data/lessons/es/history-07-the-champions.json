@@ -1,0 +1,68 @@
+{
+  "id": "the-champions",
+  "title": "Quién tiene el título",
+  "summary": "De 1886 a hoy, dieciocho campeones, y las cuatro veces que se rompió la línea",
+  "proof": "history-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Reikiavik, 1972",
+      "text": "Un match de ajedrez salió en portada en países que nunca habían seguido uno.\n\nBobby Fischer llegó a Islandia tarde, se quejó de las cámaras, perdió la primera partida y luego se negó a jugar la segunda. Borís Spaski tenía el título, y el título no había salido de manos soviéticas desde 1948.\n\nEsta es la sexta partida. Fischer lleva las Blancas, y juegan las Blancas. Lo que todavía se cuenta de esta partida no es el resultado, sino lo que hizo Spaski cuando terminó."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Undécimo de la lista",
+      "text": "Fischer se convierte en el undécimo campeón del mundo ese mismo verano, y los diez que tuvieron el título antes no estaban de acuerdo en casi nada.\n\nSteinitz decía que un ataque hay que ganárselo. Lasker conservó el título veintisiete años, más que nadie antes o después, y se decía que jugaba contra la persona tanto como contra el tablero. Capablanca hacía que ganar pareciera no costar nada. Los jugadores que surgieron en la década de 1920 defendían que se podía controlar el centro sin poner nunca un peón en él. La escuela soviética convirtió la preparación en una industria y mantuvo el título veinticuatro años seguidos."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "El último guardián",
+      "text": "El caballo negro de f6 hace dos trabajos a la vez.\n\nCubre g8 y h7, las dos únicas casillas a las que puede ir el rey de h8. Y tapa la columna f, donde las Blancas han apilado las torres en f5 y f3.\n\nNo va a llegar nada más a ayudar. El peón blanco de e6 está a dos casillas de la octava fila, así que la torre de e7 tiene que quedarse delante de él y la dama de e8 ocupa la casilla que quiere ese peón. La torre de c7 puede ir a cualquier parte y no tiene nada que hacer cuando llega."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "prompt": "Entrega una torre por el caballo que cubre g8 y h7, y haz que la recaptura le quite un peón al rey.",
+      "targetSan": [
+        "Rxf6"
+      ],
+      "hint": "El rey de h8 tiene un peón al lado. Si ese peón tiene que capturar, ¿qué casilla deja atrás?"
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Salta el techo",
+      "text": "{{Rxf6}}, y rehusar no es una opción que merezca la pena: dejar la torre en paz regala a las Blancas un caballo entero.\n\n{{gxf6}}, entonces. Ahora g7 está vacía. El peón que estaba junto al rey está en f6, donde la torre de f3 lo mira de frente, y al rey de h8 ya solo le queda el peón de h6."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4Pp1p/p1p5/P2pQ2P/1P1B1R2/6P1/6K1 w - - 0 39",
+      "title": "La segunda torre",
+      "text": "{{Rxf6}}. La misma casilla, y esta vez nada recaptura: ninguna pieza negra llega a f6.\n\n{{Kg8}} {{Bc4}} {{Kh8}}: Spaski saca el rey y lo vuelve a meter, y Fischer lleva el alfil a proteger el peón de e6. Las Negras han gastado dos jugadas sin moverse del sitio. Las Blancas han gastado una y ya tienen el alfil donde lo querían."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Donde se rompió",
+      "text": "Al ajedrez le gusta contar el título como una sola línea que pasa de mano en mano desde 1886. Se ha roto cuatro veces.\n\nAlekhine murió siendo campeón en 1946, y nadie tuvo el título hasta 1948. Fischer nunca lo defendió: en 1975 pasó a Kárpov sin que se jugara una jugada. Kaspárov y su aspirante disputaron su match de 1993 fuera de la FIDE, que coronó a un campeón rival, y hubo dos títulos mundiales durante trece años, hasta que Krámnik venció a Topálov en 2006. Carlsen renunció a defender el título en 2023, y así Ding Liren se convirtió en campeón, y así Gukesh Dommaraju se lo quitó a Ding en diciembre de 2024, con dieciocho años, el más joven de la historia."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Nada que mover",
+      "text": "Las Negras tienen dos torres contra una de las Blancas y no pueden usar ninguna.\n\nLa torre de e7 sigue siendo lo único delante del peón de e6, y la dama de e8 sigue ocupando la casilla que quiere ese peón. Ninguna de las dos puede irse. La torre de c7 puede ir adonde quiera, y no hay nada para ella en ninguna parte.\n\nQueda el peón de h6, que nadie protege, con la torre de f6 mirándolo ya a lo largo de la sexta fila.\n\n> Una pieza que no puede abandonar su casilla ha dejado de ser una pieza."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "prompt": "Suma la dama al ataque de la torre sobre h6, en una casilla donde nada puede capturarla y donde la torre de f6 gana un defensor.",
+      "targetSan": [
+        "Qf4"
+      ],
+      "hint": "Descarta todas las casillas donde la dama negra o el peón de h6 podrían capturar tu dama, y luego quédate en la columna que ya domina la torre."
+    }
+  ]
+}

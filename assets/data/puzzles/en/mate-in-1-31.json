@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-31",
+  "fen": "k7/8/1K6/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "Corner Cage",
+  "setup": "The black king is cornered on a8 with your king one knight-hop away, guarding both escape squares.",
+  "hint": "Your king already owns a7 and b7. One queen move takes everything else.",
+  "explanation": "## The Idea\n\nA cornered king needs only its rank taken away. Your king on b6 covers a7 and b7.\n\n{{Qg8#}} checks from the far side of the board, b8 is on the queen's line, and nothing can block.\n\nAgainst a cornered king, your own king seals the squares beside it and any check along the back rank is mate."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "endgames-06",
+  "fen": "6k1/8/8/2P5/P7/2K5/7B/1b6 b - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "title": "Tertinggal Dua Pion, Tetap Remis",
+  "setup": "Putih unggul dua pion dan kedua gajah berjalan di warna yang berbeda. Raja Anda di g8 berada jauh, jadi gajah harus bertahan sendirian. Giliran Hitam.",
+  "hint": "Pion a berakhir di a8 dan pion c harus melintasi c6. Keduanya petak terang, jadi temukan diagonal yang melewati keduanya.",
+  "explanation": "## Ide\n\na8 dan c6 adalah petak terang di diagonal panjang yang sama, dan gajah Anda adalah gajah petak terang. {{Be4}} menempatkannya di diagonal itu, tempat ia mengawasi keduanya sekaligus dan tak pernah perlu pergi. Gajah Putih di h2 hidup di petak gelap dan tak akan pernah bisa menantangnya.\n\nApa pun yang lebih lambat sudah terlambat: raja Putih mencapai b5, sebuah pion melangkah ke c6 di bawah penjagaannya, dan pion-pion tambahan itu menang."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "openings-13",
+  "fen": "r1bq1rk1/p3nppp/1pnbp3/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 0 9",
+  "solution": [
+    "e5",
+    "Bxe5",
+    "Nxe5",
+    "Nxe5",
+    "Rxe5"
+  ],
+  "title": "Count Before You Clamp",
+  "setup": "The King's Indian Attack setup is complete, and Black has just pushed a pawn to b6 with a bishop on d6. Play the central push this setup was built for.",
+  "hint": "One push grabs space and offers a pawn at the same time. Count attackers and defenders on that square before you commit.",
+  "explanation": "## The Idea\n\n{{e5}} is the push every King's Indian Attack is built around, and it gains space with tempo on the bishop.\n\nIt also offers a pawn, and taking is a mistake. e5 is attacked by the bishop on d6 and the knight on c6, and defended by the knight on f3 and the rook on e1. After {{Bxe5}} {{Nxe5}} {{Nxe5}} {{Rxe5}}, White is a bishop for a pawn up. Black's best is to step the bishop back and concede the space.\n\nCount what each attacker is worth, not just how many."
+}

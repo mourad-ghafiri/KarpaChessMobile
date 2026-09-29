@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-17",
+  "fen": "4r1k1/5p1p/8/3N4/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nf6+"
+  ],
+  "title": "Dua Sasaran, Satu Lompatan",
+  "setup": "Raja Hitam di g8 dan benteng di e8 berdiri di tempat yang bisa dijangkau satu lompatan kuda sekaligus.",
+  "hint": "Temukan petak yang memberi sekak kepada raja dan menyerang benteng dalam lompatan yang sama, lalu pastikan tak ada pion yang menjaganya.",
+  "explanation": "## Ide\n\n{{Nf6+}} adalah garpu: dari f6 kuda memberi sekak kepada raja di g8 dan menyerang benteng di e8. Dengan pion g sudah hilang, tak ada yang menjaga f6, dan sekak kuda tak bisa dihalangi.\n\nRaja harus bergerak, dan {{Nxe8}} mengambil benteng."
+}

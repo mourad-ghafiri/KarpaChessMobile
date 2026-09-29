@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-01",
+  "fen": "6k1/6pp/5p2/1R6/Q7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Kf7",
+    "Qe8#"
+  ],
+  "rating": 900,
+  "title": "La Torre Apre, la Donna Chiude",
+  "setup": "Il re nero è murato dai suoi pedoni in g7 e h7, e la vostra torre ha una colonna b spalancata.",
+  "hint": "Spingete il re sull'unica casa che i suoi pedoni gli lasciano ancora, poi trovate il matto che la vostra torre può proteggere.",
+  "explanation": "## L'idea\n\n{{Rb8+}} si prende la traversa di fondo. I pedoni in g7 e h7 bloccano il loro stesso re, quindi {{Kf7}} è l'unica mossa legale. Poi {{Qe8#}}: la donna atterra accanto al re, difesa dalla torre in b8, con ogni casa di fuga coperta."
+}

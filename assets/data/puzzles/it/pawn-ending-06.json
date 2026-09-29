@@ -1,0 +1,14 @@
+{
+  "id": "pawn-ending-06",
+  "fen": "5k2/8/5PK1/8/8/8/8/8 w - - 1 2",
+  "solution": [
+    "f7",
+    "Ke7",
+    "Kg7"
+  ],
+  "rating": 1280,
+  "title": "Nient'Altro Vince",
+  "setup": "Il re nero è appena passato in f8, dritto davanti al pedone, e il Bianco deve scegliere.",
+  "hint": "Cinque delle sei mosse del Bianco buttano via il punto; chiedetevi quale toglie case al re nero.",
+  "explanation": "## L'idea\n\n{{f7}} sembra murare dentro il pedone, ma copre e8 e g8, quindi {{Ke7}} è forzata e {{Kg7}} porta a casa il pedone. Qualunque mossa di re lascia invece al re nero il suo posto davanti al pedone, e allora il finale è patta secca."
+}

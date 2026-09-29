@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-06",
+  "fen": "1k6/8/8/5Q2/8/3Kp3/6B1/8 w - - 0 1",
+  "solution": [
+    "Qd7",
+    "e2",
+    "Qb7#"
+  ],
+  "rating": 1560,
+  "title": "Let the Pawn Run",
+  "setup": "Black's king is on b8 and its pawn on e3 is two squares from queening, with your king right beside it on d3.",
+  "hint": "The pawn is not the danger. Take the king's squares and let it advance.",
+  "explanation": "## The Idea\n\n{{Qd7}} covers a7, b7, c7 and c8 without checking. Black's only legal move is {{e2}}, and {{Qb7#}} arrives first. A passed pawn that promotes a move too late is not a passed pawn."
+}

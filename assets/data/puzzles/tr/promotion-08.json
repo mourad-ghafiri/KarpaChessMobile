@@ -1,0 +1,14 @@
+{
+  "id": "promotion-08",
+  "fen": "1R6/1P3ppk/7p/8/8/8/3r1PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "b8=Q+"
+  ],
+  "rating": 1280,
+  "title": "Yoldan Çekilin",
+  "setup": "b7'deki piyonunuz b8'i istiyor, ama üzerinde kendi kaleniz oturuyor ve siyahın kalesi d2'de boşta duruyor.",
+  "hint": "Buradaki abluka kendi kalenizdir. Ayrılması gerekir ve siyahın görmezden gelemeyeceği bir şeyle ayrılmalıdır.",
+  "explanation": "## Fikir\n\n{{Rh8+}} b8'i şah çekerek boşaltır. {{Kxh8}} siyahın elindeki en iyisidir — {{Kg6}} kaleyi de ayakta bırakır — ve {{b8=Q+}} yine şah çekerek terfi eder; beyaz bir kaleye karşı bir vezir önde çıkar. Kendi terfi karesinde duran taş, orayı tempoyla boşaltmalıdır."
+}

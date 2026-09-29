@@ -1,0 +1,56 @@
+{
+  "id": "opposite-castles",
+  "title": "Ataques com Roques Opostos",
+  "summary": "Dois ataques, uma corrida, nenhum segundo prémio",
+  "proof": "opposite-castles-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "Dois Reis, Uma Ala de Distância",
+      "text": "O rei branco está em c1 e o preto em g8, a uma ala de distância, e esse simples facto muda para que servem todos os peões do tabuleiro.\n\nRoca do mesmo lado e cada peão que avanças abre uma estrada até ao teu próprio rei, portanto deixas os peões em paz e mexes antes as peças. Aqui essa fatura nunca chega. O abrigo das brancas é a2, b2 e c2, e os peões que as brancas podem atirar às pretas estão na ala oposta, livres de correr o que lhes apetecer."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "title": "Uma Corrida, Não uma Partida",
+      "text": "A posição das pretas diz o mesmo com as cores trocadas, por isso os dois jogadores avançam ao mesmo tempo, em direções opostas.\n\nGanha quem rasgar primeiro uma linha até ao rei inimigo — uma coluna, uma diagonal, qualquer estrada por onde uma torre ou uma dama se possa lançar. As jogadas defensivas tranquilas não abrandam o outro lado; gastam as jogadas de que precisavas para ganhar a corrida. Não há segundo prémio."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
+      "prompt": "Arranca a corrida avançando o peão que pode enxotar o cavalo preto de f6.",
+      "targetSan": [
+        "g4"
+      ],
+      "hint": "Dois peões da ala do rei podem saltar duas casas, e só um deles aterra onde o peão de f3 já está a guardar."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/3nbppp/p2pbn2/1p2p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R w - - 0 12",
+      "title": "Avanço e Contra-Avanço",
+      "text": "As pretas não ficaram quietas. O peão em b5 já vem a caminho, e os dois ataques correm agora à mesma velocidade.\n\n{{g5}} afasta o cavalo de f6 da defesa, {{Ne8}} é para onde ele vai, {{f4}} traz o peão seguinte, e {{b4}} atinge o cavalo de c3 tal como as brancas acabaram de atingir o das pretas.\n\nNenhum dos lados está a defender. Os dois estão a contar."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "Quanto Custa uma Jogada",
+      "text": "Cinco jogadas depois, os dois ataques chegaram. Os peões brancos estão em f5 e g5; os pretos em a4 e b4, com a torre de a8 alinhada atrás deles.\n\nDaqui em diante cada jogada compra terreno ou não compra nada. {{Nc5}} parece uma excelente jogada — o cavalo sai de d7 para uma casa melhor e fica de olho em e4 — e não faz nada ao rei branco. As pretas estariam a trocar uma jogada da corrida por uma peça mais bonita, e as jogadas são a única coisa que resta aos dois lados para gastar."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "title": "Um Peão É um Pé de Cabra",
+      "text": "Às brancas falta mais um avanço para chegarem ao rei preto. Às pretas falta a coluna a, e o peão branco de a2 é o que a fecha.\n\nComprar essa linha com um peão não é uma troca equilibrada, e não é suposto ser. Um peão é um ponto. Uma torre que aterre ao lado de um rei nu acaba a partida. O material é o que se conta enquanto não acontece nada; com os dois reis sob fogo, as jogadas e as linhas são a única moeda que resta.\n\n> Quando os reis estão em alas opostas, um peão não é material. É um pé de cabra."
+    },
+    {
+      "type": "play",
+      "fen": "r2qnrk1/3nbppp/3pb3/4pPP1/pp1NP3/4B3/PPPQN2P/2KR1B1R b - - 1 16",
+      "prompt": "Gasta um peão para rasgar a coluna que a tua torre de a8 esperava.",
+      "targetSan": [
+        "b3"
+      ],
+      "hint": "Não queres o peão de volta — queres uma captura que arranque o peão a das brancas da coluna onde a tua torre já está."
+    }
+  ]
+}

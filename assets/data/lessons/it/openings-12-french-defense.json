@@ -1,0 +1,56 @@
+{
+  "id": "french-defense-deep",
+  "title": "La Difesa Francese",
+  "summary": "Due catene, e tutte e due le basi sotto tiro",
+  "proof": "openings-12.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Un Pedone Centrale, in Ritardo di una Mossa",
+      "text": "{{e4}} {{e6}}. Il Nero risponde a un pedone centrale con uno tranquillo, perché il punto è la mossa dopo: {{d4}} {{d5}}, e adesso il Nero ha un pedone affiancato a quello del Bianco e un altro dietro che lo sostiene.\n\nIl costo sta in c8. La diagonale di quell'alfiere finisce dritta contro il pedone nero in e6, e liberarlo può richiedere venti mosse. Parigi batté Londra per corrispondenza con questa nel 1834, e da allora l'apertura porta il nome francese."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+      "title": "Puntate alla Base",
+      "text": "Il Bianco ha spinto oltre, e i pedoni sono bloccati. La catena del Bianco va da d4 a e5 e punta verso l'ala di re del Nero; quella del Nero va da e6 a d5 e punta verso l'ala di donna del Bianco. Ogni esercito attacca dove sono puntati i suoi pedoni.\n\nIl pedone alla base del Nero è e6, dietro a tutto. Quello del Bianco è d4, allo scoperto. Il pedone in c5 e il cavallo in c6 lo colpiscono già, mentre il pedone in c3, il cavallo in f3 e la donna in d1 lo tengono su. Due contro tre, e muove il Nero.\n\n> Una catena di pedoni è forte quanto il pedone alla sua base."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+      "prompt": "Puntate un terzo pezzo su d4 da dietro il vostro stesso pedone c — scegliete la casa che fissa anche b2.",
+      "targetSan": [
+        "Qb6"
+      ],
+      "hint": "Trovate il pezzo che colpisce b2 adesso e colpirà d4 nel momento in cui il vostro pedone c si sarà cambiato."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5",
+      "title": "L'Altra Francese",
+      "text": "Le stesse due mosse d'apertura, una lite diversa. Il Bianco ha difeso il pedone e con un cavallo in c3 invece di spingerlo, l'alfiere camposcuro del Nero è andato in b4 e ha inchiodato quel cavallo contro il re, e il Bianco ha spinto oltre lo stesso. Adesso {{a3}} chiede all'alfiere che cosa intenda fare.\n\nNon si ritira. {{Bxc3+}} {{bxc3}}: il Nero consegna un alfiere, e il pedone b del Bianco viene trascinato sulla colonna c, dove adesso stanno due pedoni bianchi che non si districheranno mai."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "title": "Leggere la Ricevuta",
+      "text": "Tutti e due sanno che cosa hanno comprato. Il Bianco possiede due alfieri contro uno, spazio sull'ala di re, e una colonna b semiaperta per la torre nell'angolo; le case scure del Nero adesso non hanno un alfiere che se ne occupi.\n\nIl Nero possiede i pedoni più sani e un bersaglio stabile: il pedone in c3 non è difeso da niente. {{Qa5}} arriva sulla diagonale che finisce sul re bianco, e il Bianco deve spendere una mossa in {{Bd2}} per puntellare il pedone."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "title": "Tre Case, Due Risposte",
+      "text": "Il cavallo in g8 ha tre case, e a due si risponde prima ancora che atterri.\n\nf6 è coperta dal pedone in e5, quindi un cavallo lì perde un pezzo per un pedone. h6 è legale, ma l'alfiere in c1 la guarda dritto dall'alto, e il cambio lì lascia in rovina il riparo del re nero.\n\nResta una casa. Da lì il cavallo è a un balzo da f5, dove attacca d4 un'altra volta e dove nessun pedone bianco lo copre ancora."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "prompt": "Portate fuori il cavallo accanto al re sull'unica casa che lo lascia a un balzo da f5.",
+      "targetSan": [
+        "Ne7"
+      ],
+      "hint": "Una delle sue case è coperta da un pedone, e una invita un cambio che rovina la copertura davanti al vostro re; la terza è la mossa."
+    }
+  ]
+}

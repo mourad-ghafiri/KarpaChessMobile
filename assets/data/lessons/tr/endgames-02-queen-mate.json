@@ -1,0 +1,51 @@
+{
+  "id": "queen-mate",
+  "title": "Şah ve Vezire Karşı Şah",
+  "summary": "Kenarda mat ve onu çalan pat",
+  "proof": "endgames-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Çıplak Şah Nerede Ölür",
+      "text": "Vezir, tek başına kalmış bir şahı tahtanın ortasında asla mat etmez. Orada şahın kaçacak bir yeri her zaman vardır. Kareleri ancak bir kenarda tükenir ve siyahın şahı çoktan bir kenarda duruyor.\n\nNe kaldığını sayın. f5'teki beyaz şah g5 ile g6'yı alıyor. d4'teki vezir e5 ile f6 üzerinden g7'ye giden çaprazın sahibi, yani o kare de gitti.\n\nSiyahın elinde h5 ile h7 var. h dikeyinin iki karesi, ikisi de duvara dayalı ve bütün tahtada başka hiçbir şey yok."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Sırayla Üç İş",
+      "text": "Bu tablo, her pozisyondan varılacak yerdir ve üç parçadan kurulur.\n\nVezir, çıplak şah bir kenar boyunca ince bir şeritte yürüyene kadar hatları elinden alır. Sonra sizin şahınız onun arkasından yürür, çünkü vezir işi tek başına bitiremez — bir şahın yanında duran ve kimsenin korumadığı vezir öylece alınır. Ancak ondan sonra vezir, şahın çıkamayacağı bir hatta işi bitirir.\n\nÜçünden ikisi burada çoktan bitmiş. {{Kh5}} gelir ve siyah duvarın hangi ucuna yaslanacağını seçmiş olur."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/5K1k/3Q4/8/8/8 w - - 9 6",
+      "prompt": "Şahınız kaçış karelerini zaten kapsıyor; işi siyahın cevap veremeyeceği tek bir vezir hamlesiyle bitirin.",
+      "targetSan": [
+        "Qh8#"
+      ],
+      "hint": "Siyahın şahı tahtanın kenarına bastırılmış — üzerinde durduğu hattı bulun ve o hattın tamamını alın."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "Kafeste Saklanan Beraberlik",
+      "text": "Yeni tahta, bitmesine bir hamle. h8'deki siyah şahın tek bir karesi kalmış, g8: g6'daki şahınız g7 ile h7'yi zaten kapsıyor ve siyah şah altında değil.\n\nYani kafesi bir çentik daha sıkmak kazancı çöpe atar. {{Qd5}} temiz teknik gibi görünür — vezir çaprazdan g8'i de toplar, şahın çevresindeki her kare kapsanmıştır, askıda bir şey yoktur.\n\nBu pattır. Siyahın kurallı hamlesi ve cevaplayacağı bir şah yoktur; tahtada fazladan bir vezir olan parti berabere biter."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "Sıkmadan Önce Sayın",
+      "text": "Bu oyun sonunda ters giden egzotik bir şey yoktur. Ters giden şey, derli toplu oyundur — tek karesi kalmış bir şahtan sessizce bir kare daha almak.\n\nBu yüzden buradaki her vezir hamlesinden önce çıplak şahın üzerinde durabileceği kareleri sayın. Cevap birse, hamleniz ya şah çekerek gelmeli ya da o şaha gidecek bir yer bırakmalı.\n\n> Kapısı olmayan kafes beraberliktir. İstediğiniz kadar küçültün, ama şah çekmeden asla sıfıra indirmeyin."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "prompt": "Tek hamlede mat — bunu iki farklı vezir hamlesi yapıyor ve diğer her sıkma beraberlik.",
+      "targetSan": [
+        "Qa8#",
+        "Qd8#"
+      ],
+      "hint": "Hangi vezir hamleleri g8'i elinden alıyor ve aynı hamlede şah çekiyor?"
+    }
+  ]
+}

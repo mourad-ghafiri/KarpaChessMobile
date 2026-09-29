@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-09",
+  "fen": "4nrk1/5p1p/6pQ/8/8/7P/qB3PPK/4R3 w - - 1 2",
+  "solution": [
+    "Rxe8"
+  ],
+  "rating": 1350,
+  "title": "La Guardia di g7",
+  "setup": "La vostra donna e il vostro alfiere puntano tutti e due su g7, e il cavallo in e8 è l'unico pezzo oltre al re che copre quella casa.",
+  "hint": "Il matto è a una mossa e un pezzo nero lo impedisce. Quale pezzo copre g7, e che cosa ci arriva?",
+  "explanation": "## L'idea\n\n{{Rxe8}} prende il cavallo che copre g7. La ripresa {{Rxe8}} non fa niente per il re, e {{Qg7#}} conclude: la donna è tenuta dall'alfiere in b2 e al Nero non resta una casa. Quando il matto è a una mossa, valutate il difensore, non il pezzo."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-11",
+  "fen": "3r4/5pk1/4R3/3P3B/8/5Q2/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qxf7+",
+    "Kh8",
+    "Rh6#"
+  ],
+  "rating": 1360,
+  "title": "Fil Hediyeyi Koruyor",
+  "setup": "Siyahın g7'deki şahını f7'deki tek bir piyon örtüyor ve h5'teki filiniz o kareyi gözlüyor.",
+  "hint": "Şahı örten piyonu yalnızca şah koruyor gibi duruyor. Sizin başka neyiniz o kareyi kapsıyor?",
+  "explanation": "## Fikir\n\n{{Qxf7+}} işe yarar, çünkü **h5**'teki fil f7'yi kapsar; yani şah alamaz. e6'daki kale g6 ile h6'yı çoktan elinden almıştır, böylece {{Kh8}} mecburidir ve {{Rh6#}} karşıya savrulup h dikeyinden mat eder."
+}

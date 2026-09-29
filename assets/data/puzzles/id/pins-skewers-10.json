@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-10",
+  "fen": "3k4/p2b1ppp/6n1/1pP5/8/8/PP1R1PPP/6K1 w - - 0 1",
+  "solution": [
+    "c6"
+  ],
+  "title": "Gajah Terjepit, Gajah Hilang",
+  "setup": "Gajah Hitam berdiri di lajur d di antara benteng Anda dan rajanya sendiri, dan pion c Anda berada dekat.",
+  "hint": "Gajah yang terjepit tak bisa keluar dari garisnya, bahkan untuk menangkap. Serang ia dengan buah termurah Anda.",
+  "explanation": "## Ide\n\nGajah di d7 dijepit benteng Anda terhadap raja di d8, jadi ia tak bisa meninggalkan lajur d. {{c6}} menyerangnya, dan gajah tak bisa mengambil pion maupun lari, jadi {{cxd7}} memenangkannya pada langkah berikutnya, paling banyak dengan harga satu pion.\n\nMenangkap dengan benteng hanya menukar benteng dengan gajah. Serang buah yang terjepit dengan hal termurah yang Anda miliki."
+}

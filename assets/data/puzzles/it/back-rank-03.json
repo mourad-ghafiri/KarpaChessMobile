@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-03",
+  "fen": "r5k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "Primi sulla Traversa di Fondo",
+  "setup": "Le torri si fronteggiano lungo la colonna a aperta, e nessuno dei due re ha mosso un pedone davanti a sé.",
+  "hint": "I pedoni del Nero recintano il re sulla traversa di fondo. Quale presa arriva su quella traversa con scacco?",
+  "explanation": "## L'idea\n\n{{Rxa8#}} prende la torre con scacco lungo la traversa di fondo. Niente può riprendere e niente può parare, e le case del re fuori dalla traversa, f7, g7 e h7, hanno i suoi stessi pedoni.\n\nTutti e due i re erano chiusi allo stesso modo, quindi ha vinto chi ha mosso per primo. Un passo di pedone come h6 giocato prima avrebbe dato una casa al re nero."
+}

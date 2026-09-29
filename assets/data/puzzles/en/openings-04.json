@@ -1,0 +1,11 @@
+{
+  "id": "openings-04",
+  "fen": "r1b1kb1r/pp1n1ppp/2p1p3/q2p2B1/2PPn3/2NBPN2/PPQ2PPP/R3K2R b KQkq - 5 8",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "The Cambridge Springs Pin",
+  "setup": "You backed d5 with pawns on c6 and e6 and put your queen on a5. White's queen has just attacked your knight on e4.",
+  "hint": "Your queen pins the knight on c3 to the white king. With that knight frozen, what is left guarding White's bishop?",
+  "explanation": "## The Idea\n\nYour queen on a5 pins the knight on c3 to the white king, so the bishop on g5 has a single guard, the knight on f3.\n\n{{Nxg5}} takes the bishop anyway. If {{Nxg5}}, then {{dxc4}} clears your own pawn off the fifth rank, and the queen wins the knight back: a piece up. White's other tries lose the piece more quietly.\n\nA pinned piece guards nothing. Check that before every capture your opponent seems to allow."
+}

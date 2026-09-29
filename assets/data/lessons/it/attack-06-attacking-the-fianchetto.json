@@ -1,0 +1,50 @@
+{
+  "id": "attacking-the-fianchetto",
+  "title": "Attaccare il Fianchetto",
+  "summary": "Date la caccia all'alfiere, non ai pedoni",
+  "proof": "fianchetto-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Due Case che Nessuno Difende",
+      "text": "Il riparo del Nero sembra solido: tre pedoni, un alfiere, e un re al riparo dietro di loro. Contate che cosa coprono davvero quei pedoni.\n\nIl pedone g è andato in g6 e, nel momento in cui l'ha fatto, f6 e h6 sono uscite per sempre dalla portata dei pedoni. I pedoni non camminano all'indietro. Tutte e due le case sono scure, tutte e due stanno a una casa dai pedoni dietro cui il re si nasconde, e a rispondere di entrambe c'è un pezzo solo — l'alfiere in g7."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Di Chi Sono i Pedoni Liberi",
+      "text": "Il re bianco in c1 siede all'altro capo della scacchiera rispetto a tutto questo.\n\nUna valanga di pedoni funziona quando il vostro re non sta dietro i pedoni che spendete. Il re bianco non ci sta. Quello nero sì — quindi i pedoni del Nero restano a casa a difendere, mentre quelli del Bianco sono liberi di correre addosso a qualcosa.\n\nLa torre in h1 ha aspettato tutta la partita che uno di loro le aprisse la colonna davanti."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "prompt": "Fate partire la valanga sull'ala dove abita il re nero, e partite a tutta velocità.",
+      "targetSan": [
+        "h4"
+      ],
+      "hint": "Il pedone in g6 è quello che tiene insieme il riparo del Nero — quale dei vostri pedoni può salire a colpirlo?"
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "Bloccato Non Vuol Dire Finito",
+      "text": "Il pedone nero in h5 ferma il vostro di netto, e i pedoni non possono aggirarsi a vicenda. Quindi il Bianco ne porta un secondo.\n\n{{g4}} colpisce h5, {{hxg4}} prende, {{fxg4}} riprende, e il pedone h del Bianco corre di nuovo con la torre in h1 dietro. Due mosse dopo la colonna è aperta.\n\nQuesta è la strada lenta, e funziona. E spende anche quattro mosse per comprare una colonna."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "La Strada Più Veloce",
+      "text": "C'è una risposta più rapida, e non ha affatto bisogno della colonna.\n\nTogliete dalla scacchiera l'alfiere di g7 e h6 diventa una casa d'arrivo. Una donna che ci arriva fissa dritta g7, a una casa dal re, e nessun pedone nero potrà mai spingerla via — è stato deciso nel momento in cui il pedone g è andato in g6. La donna nera in d8 e la torre in c8 guardano tutte e due dalla parte sbagliata per aiutare.\n\n> Contro un fianchetto non state attaccando dei pedoni. State dando la caccia a un alfiere."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "prompt": "Cambiate l'unico pezzo nero che difende le case scure accanto al re nero.",
+      "targetSan": [
+        "Bh6"
+      ],
+      "hint": "Il vostro alfiere in e3 cammina sulle stesse case scure di quello nero — mandatelo fuori finché i due non si incontrano."
+    }
+  ]
+}

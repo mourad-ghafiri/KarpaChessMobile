@@ -1,0 +1,13 @@
+{
+  "id": "deflection-proof",
+  "fen": "1r4k1/5ppp/8/8/2Q5/8/5PPP/2R3K1 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Rxc8",
+    "Rxc8#"
+  ],
+  "title": "Uma Oferta Com Uma Resposta",
+  "setup": "O rei preto não tem ar, e a torre em b8 é a única peça a cobrir a oitava linha.",
+  "hint": "Nada de teu pode atacar a torre de b8. Oferece-lhe alguma coisa que tenha de comer, na casa de que a tua torre precisa.",
+  "explanation": "## A Ideia\n\nA torre em b8 não pode ser atacada, portanto tem de ser mandada embora. {{Qc8+}} oferece a dama na única casa que a torre vigia, e {{Rxc8}} é a única jogada legal das pretas: os peões encaixotam o rei, e nada pode tapar. Agora a torre está em c8, à frente da tua, e {{Rxc8#}} encerra o assunto. A dama tinha de ir primeiro, porque era ela a bloquear a coluna da tua torre."
+}

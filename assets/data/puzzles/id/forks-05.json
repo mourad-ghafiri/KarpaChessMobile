@@ -1,0 +1,11 @@
+{
+  "id": "forks-05",
+  "fen": "6k1/5ppp/2q5/3N4/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Ne7+"
+  ],
+  "title": "Kuda Menjerat Menteri",
+  "setup": "Menteri Hitam di c6 menyerang kuda Anda di d5. Memindahkan kuda tidak cukup; buat ia membalas serangan.",
+  "hint": "Satu lompatan kuda memberi sekak dan menyerang menteri sekaligus.",
+  "explanation": "## Ide\n\n{{Ne7+}} memberi sekak kepada raja di g8 dan menyerang menteri di c6 dalam satu lompatan. Tak ada buah hitam yang menjaga e7, dan sekak kuda tak bisa dihalangi, jadi raja harus bergerak. Sesudah {{Kf8}} atau {{Kh8}}, {{Nxc6}} memenangkan menteri.\n\nGarpu dengan sekak adalah jenis yang terkuat: langkah raja menghabiskan giliran Hitam, dan sasaran kedua jatuh."
+}

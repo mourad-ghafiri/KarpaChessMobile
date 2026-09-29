@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-12",
+  "fen": "1B1R2r1/3Qb3/8/1K6/2p5/8/5k2/6R1 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kxg1",
+    "Qh2+",
+    "Kf1",
+    "Rd1#"
+  ],
+  "rating": 1750,
+  "title": "Give the Rook Away",
+  "setup": "Black's king is on f2 right beside your rook on g1, with a bishop on e7 and a rook on g8 still defending.",
+  "hint": "Your rook is attacked and the king is next to it. Ask what happens if it is allowed to take it.",
+  "explanation": "## The Idea\n\n{{Qd2+}} leaves the king nothing better than {{Kxg1}} — the king walks into the corner to collect. {{Qh2+}} seals h2 and {{Rd1#}} mates down the file the queen vacated. The best hunting move often hands over the piece the king wants."
+}

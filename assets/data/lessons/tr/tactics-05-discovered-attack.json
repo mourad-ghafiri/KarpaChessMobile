@@ -1,0 +1,56 @@
+{
+  "id": "discovered-attack",
+  "title": "Açılan Saldırı",
+  "summary": "Oynayan taş, saldıran taş değildir",
+  "proof": "discovered-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Kale Zaten Doğrultulmuştu",
+      "text": "e1'deki kaleniz ile siyahın e8'deki şahı aynı dikeyde duruyor ve aralarındaki tek şey kendi atınız.\n\nŞimdiye kadarki her taktikte hasarı, dokunduğunuz taş veriyordu. Bunda öyle değil. Atı oynatın, kale baştan beri doğrultulmuş olduğu şaha saldırsın — at e8'in yakınına bile gitmez. Önemli olan yalnızca dikeyden ayrılmasıdır. Aynı dikeyde aşağı yukarı gezinen bir kale ise hâlâ yolda olurdu.\n\nBir taş oynar, başka bir taş saldırır. Buna **açılan saldırı** denir."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "İstediği Yere Gitmekte Özgür",
+      "text": "Hiçbir at hamlesi atı ayrıldığı dikeyde tutmaz, yani atın sekiz karesinin sekizi de kalenin hattını açar ve sekizi de şahtır. Hat bir şahta bittiği için bu sürümün kendi adı vardır: **açılan şah**.\n\nAtı cesur kılan da budur. {{Nc3+}} siyahın c5'teki vezirinin göz önünde c dikeyine adım atar ve vezir onu alamaz — atı almak siyah şahı kaleden gelen şahın altında bırakır ve bu kurallı bir hamle değildir.\n\nBir hamleliğine, oynayan taşa dokunulamaz."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "Atın bedava hamlesini siyahın sahip olduğu en pahalı şeye harcayın.",
+      "targetSan": [
+        "Nxc5+"
+      ],
+      "hint": "Atın sekiz karesi eşit değil — birinin üstünde bir şey duruyor."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/2q5/4N3/8/8/4R2K w - - 1 2",
+      "title": "Şahın Kazandırdığı",
+      "text": "{{Nxc5+}} veziri alır ve şah da onunla birlikte gelir; hamleyi yerinde durarak geçiren bir kaleden.\n\nAçtığınız hattın bir şahta bitmesi şart değil. Dikeyin ucuna bunun yerine siyah bir vezir koyun, aynı at hamlesi o veziri kazansın — ama o zaman siyahın seçenekleri olur: onu korumak, oynatmak ya da başka bir yerde daha büyük bir tehdit başlatmak.\n\nŞah bu üçünü de ortadan kaldırır. Açılan saldırı ile açılan şah arasındaki tek fark budur ve büyük bir farktır."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "Alınacak Bir Şey Kalmadı",
+      "text": "e dikeyi tam önceki gibi kurulmuş: e1'de kale, e4'te at, e8'de siyahın şahı. Eksik olan, atın yiyebileceği herhangi bir şey. Siyahın a8'deki kalesi e dikeyine hiç ulaşamıyor ve b7'deki piyon işe yarar hiçbir yere gitmiyor.\n\nYani bedava hamlenin taştan başka bir şey satın alması gerekiyor ve ortada tek bir teklif var. Atı e8'e de saldıran bir kareye indirin, kale tek başına şah çekmesin."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "title": "İki Şah Çeken, Tek Cevap",
+      "text": "Aynı hamlede iki taşın şah çekmesine **çifte şah** denir.\n\nBir şahın üç cevabı vardır: şah çekeni almak, hattı kapatmak ya da şahı oynatmak. Çifte şah ilk ikisini ortadan kaldırır. Şah çekenlerden birini alın, öteki hâlâ şah çekiyor olsun. Kapatmak içinse tek bir taşın aynı anda iki hatta durması gerekirdi.\n\nYani şah oynar ve a8'deki kale hiç yokmuş gibi olur. Çifte şahın yaptığı yalnızca budur: tek başına hiçbir şey kazanmaz. Gerisini, atın hangi kareye indiği belirler.\n\n> Kendi yolunuzdaki taş, oynatmanız gereken taştır."
+    },
+    {
+      "type": "play",
+      "fen": "r3k3/1p6/8/8/4N3/8/8/4R2K w - - 1 2",
+      "prompt": "İki taşla birden şah çekin ve atı aynı zamanda bir şeye saldırdığı kareye indirin.",
+      "targetSan": [
+        "Nd6+"
+      ],
+      "hint": "İki at karesi çifte şahı veriyor; bunlardan yalnızca biri aynı zamanda b7'deki piyona vuruyor."
+    }
+  ]
+}

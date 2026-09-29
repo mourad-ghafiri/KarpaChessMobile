@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-10",
+  "fen": "4r1k1/3q1ppp/8/4R3/8/8/5PPP/4Q1K1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxe8#"
+  ],
+  "rating": 1020,
+  "title": "Rook Leads, Queen Mates",
+  "setup": "Your rook and queen are stacked on the e-file, facing Black's rook on e8 and its queen on d7.",
+  "hint": "Two heavy pieces on one file can only strike in one order. Work out which of them must go first.",
+  "explanation": "## The Idea\n\nThe rook stands in front, so it strikes first: {{Rxe8+}} forces {{Qxe8}}, and the queen behind it delivers {{Qxe8#}}. Reverse the order and there is nothing — the queen can never reach e8 with its own rook in the way."
+}

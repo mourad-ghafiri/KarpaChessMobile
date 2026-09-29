@@ -1,0 +1,56 @@
+{
+  "id": "birth-of-strategy",
+  "title": "The Attack Has to Be Earned",
+  "summary": "1886, one pawn move, and a square Black can never take back",
+  "proof": "history-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Permission to Attack",
+      "text": "Morphy's century attacked on instinct and counted the cost afterward. Steinitz asked the duller question: what gives an attack the right to exist?\n\nIn 1886 Wilhelm Steinitz beat Johannes Zukertort in what is generally counted the first world championship match — ten wins to five, with five draws. Steinitz won it playing a style the chess world of the day found slow and faintly rude.\n\nThe claim was never that attacking is bad. It was that an attack has to feed on something. With no advantage to feed it, correct defense answers every threat you invent — and you are left owning the weaknesses you made."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Baltimore, 1885",
+      "text": "Steinitz against Alexander Sellman, a year before the title match.\n\nThere is nothing here to attack. The center is jammed — White's pawn on e5 against Black's on e6 — and both sides are simply standing there.\n\nSo Steinitz goes shopping instead. A square, a diagonal, a piece with nowhere good to stand: small things that keep. Collect enough of them and the attack becomes legal.\n\nBlack's bishop on c5 is Black's freest piece: it looks straight down at f2, one square from the white king on e1."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "prompt": "Attack the black bishop with a queenside pawn and take c5 away from it for good.",
+      "hint": "Steinitz never asks what wins right now. Which pawn move takes a square away from an enemy piece for good — and what of White's already guards the square that pawn would land on?",
+      "targetSan": [
+        "b4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "What One Pawn Bought",
+      "text": "{{b4}}, and the bishop has to say where it would rather live. {{Be7}} is the honest answer — a square where it does very little — and {{a3}} props the pawn up so the question is never asked again.\n\nNothing was won. Nothing changed hands, and there is still no number you could put on White's edge.\n\nWhat changed is that Black's freest piece has been quietly filed away, and a pawn move cannot be taken back."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "The Square That Cannot Be Fixed",
+      "text": "Ten moves on, and Steinitz has still not attacked anything.\n\nLook at c6. A pawn covers c6 from b7 or from d7 — and Black's b-pawn sits on b5, the d-pawn on d5, and pawns do not walk backward. Every black pawn on this board has already left the seventh rank.\n\nSo c6 is a **hole** — a **weak square** no enemy pawn can ever cover again, because the pawns that could have covered it are past it for good.\n\n> A weakness the opponent can repair is a target. One they cannot repair is a home for your pieces."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "Not Yet",
+      "text": "So park a knight on it. {{Nc6}} — and {{Bxc6}}, because c6 is guarded twice: by the bishop on b7 and by the rook on c8.\n\nNeither guard is permanent. Rooks get traded, and a bishop can be asked to move. The pawns that would have guarded c6 for free are the ones that cannot come back.\n\nWhich is why White's other knight has spent the last ten moves walking: d1, c3, b1, d2, b3. That looks like someone who has lost their keys until you see where it is going."
+    },
+    {
+      "type": "play",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "prompt": "Attack the bishop on b7 with a knight, choosing the square where it cannot simply be traded off.",
+      "hint": "Two knight moves attack b7. One lands where the knight on d7 and the bishop on e7 both take back. The other square only the black queen can reach, and the pawn on b4 is waiting for it.",
+      "targetSan": [
+        "Na5"
+      ]
+    }
+  ]
+}

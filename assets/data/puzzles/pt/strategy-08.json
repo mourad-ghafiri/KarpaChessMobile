@@ -1,0 +1,11 @@
+{
+  "id": "strategy-08",
+  "fen": "r1bqk2r/2p1bppp/p2p1n2/np2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w k - 1 9",
+  "solution": [
+    "Bc2"
+  ],
+  "title": "Não Vendas o Par",
+  "setup": "O cavalo preto saltou para a5 para se trocar pelo teu bispo das casas claras. Fica com o par de bispos.",
+  "hint": "O cavalo em a5 fez uma pergunta. Avalia o teu bispo pelo que valerá daqui a seis jogadas, não por esta.",
+  "explanation": "## A Ideia\n\nDois bispos cobrem todas as casas do tabuleiro; um cobre metade. Os jogadores fortes avaliam o par em cerca de meio peão e gastam jogadas a sério para ficar com ele.\n\n{{Bc2}} sai do alcance e fica com os dois bispos. As outras retiradas falham: c4 continua ao alcance do cavalo, e a4 fica pendurada para o peão b. As pretas seguem com {{c5}}, e as brancas abrem o centro com {{d4}}.\n\nFicar quieto convida {{Nxb3}}, que entrega o par às pretas, dobra os peões b das brancas e abre a coluna a numa só jogada."
+}

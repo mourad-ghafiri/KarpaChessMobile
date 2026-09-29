@@ -1,0 +1,11 @@
+{
+  "id": "draws-proof",
+  "fen": "k3r3/8/8/8/8/p7/P1q5/K5Q1 w - - 0 1",
+  "solution": [
+    "Qa7+"
+  ],
+  "title": "Meio Ponto Tirado do Nada",
+  "setup": "Tens uma torre a menos, as pretas ameaçam mate em b2, e o teu rei em a1 não tem uma única jogada legal. Encontra o meio ponto.",
+  "hint": "Conta as tuas jogadas legais se a dama estivesse fora do tabuleiro.",
+  "explanation": "## A Ideia\n\nO teu rei em a1 não pode mexer: a dama preta cobre b1 e b2, e o teu peão em a2 está bloqueado. A tua dama é a única peça a que restam jogadas.\n\n{{Qa7+}} entrega-a com xeque. O rei em a8 não pode ir a b7 nem a b8, portanto tem de a comer. Depois as brancas não têm jogada legal e não estão em xeque: afogamento, meio ponto.\n\nQuem está a ganhar fica de olho nisto. Quem está a perder vai à procura."
+}

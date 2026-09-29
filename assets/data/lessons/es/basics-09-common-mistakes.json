@@ -1,0 +1,71 @@
+{
+  "id": "common-mistakes",
+  "title": "Cómo se regala una partida",
+  "summary": "Una dama que sale pronto, un peón que no era gratis y la jugada que nunca miraste",
+  "proof": "common-mistakes-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Regalada",
+      "text": "Cuenta las formas en que se regala una buena partida y la lista es corta: una dama que sale demasiado pronto, un peón que parecía gratis, una jugada del rival que nadie leyó y un rey que se queda en el centro.\n\nCuatro hábitos, y las tres preguntas que ya tienes los atrapan todos. Lo que sigue es lo que hace el tablero cuando nadie las hace."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Sale la dama",
+      "text": "{{e4}} {{e5}} {{Qh5}}. La dama sale en la segunda jugada con la mirada puesta en f7, la única casilla del campo negro que solo defiende el rey.\n\n{{Nc6}} desarrolla un caballo y deja f7 en paz; un atacante contra una casilla que defiende el rey no es una amenaza. {{Bc4}} hace dos, y ahora hay mate en la siguiente. Las Negras tienen más de una forma de impedirlo; {{g6}} es la que además echa a la dama de esa diagonal.\n\n{{Qf3}} apunta a f7 por la columna y el mate vuelve. {{Nf6}} lo tapa: una jugada que las Negras querían hacer de todos modos."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq - 2 5",
+      "title": "La cuenta",
+      "text": "Cuenta las jugadas. Los dos bandos han hecho cuatro. Las de las Negras fueron un peón central, los dos caballos y un peón en g6 que valía la pena de todas formas.\n\nLas de las Blancas fueron un peón central, un alfil y dos jugadas de dama para llegar a una casilla a la que podía haber llegado en una, donde ahora tapa al caballo de g1.\n\nMover una pieza dos veces no es un delito. Lo harás para salvarla, para capturar algo, para recapturar. Moverla dos veces para nada es el coste, y una dama que sale antes que todo lo demás lo provoca: cada pieza de las Negras es lo bastante barata como para perseguirla."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+      "title": "Un peón que no es gratis",
+      "text": "Las Blancas cambiaron un alfil por un caballo en la jugada anterior, y las Negras recapturaron en c6 con el peón de d. Ahora hay dos peones negros en la columna c, y la dama negra de d8 mira cinco casillas vacías.\n\nEl peón de e5 no tiene defensor. Ninguno: cuéntalos. {{Nxe5}} lo gana, y nada recaptura el caballo.\n\nEsa es la trampa, y es silenciosa. Las Blancas no están perdidas. El peón simplemente vuelve, y las jugadas que las Blancas gastaron en capturarlo no."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4N3/4P3/8/PPPP1PPP/RNBQK2R b KQkq - 0 5",
+      "prompt": "Obliga a las Blancas a devolver el peón en el acto: encuentra la única casilla que ataca al caballo glotón y al peón de e4 a la vez.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "Tu dama nunca se ha movido, y la columna que tiene delante está vacía casi hasta los peones blancos."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Su jugada tenía un motivo",
+      "text": "Cada jugada de tu rival tiene un motivo, y ese motivo rara vez se anuncia.\n\n{{Ng5}}. Parece una pieza que se va de paseo. Es un segundo atacante sobre f7, la casilla que solo defiende el rey negro, y el caballo de f6 se interpone entre la dama de d8 y g5, así que nada puede capturarlo.\n\nJuega algo razonable —{{d6}}, por ejemplo— y llega {{Nxf7}}, que ataca a la vez la dama de d8 y la torre de h8. El rey no puede recapturar: el alfil de c4 protege f7."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 5 4",
+      "prompt": "Responde a la amenaza antes de que llegue: corta al alfil de c4 el camino hacia f7.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "El alfil llega a f7 cruzando dos casillas vacías. Uno de tus peones puede avanzar a la más cercana."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "title": "La jugada aburrida",
+      "text": "Otra partida en un momento parecido: el alfil negro ha ido a c5, apuntando a f2, y juegan las Blancas. Aquí hay una jugada que no hace nada emocionante y previene casi todo esto: el enroque.\n\nEl rey sale del centro, la torre de h1 se acerca al centro, y f2, el reflejo de f7, recibe por fin un segundo defensor.\n\n«Enroca antes de la jugada diez» es un hábito, no una regla: un rey puede quedarse en el centro mientras el centro siga cerrado. Pero es la seguridad más barata que comprarás nunca, y los principiantes la compran la última.\n\n> Ya conoces todas las reglas del ajedrez. Lo que queda es darse cuenta."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5",
+      "prompt": "Haz la jugada más segura del tablero: saca al rey del centro y mete la torre en juego.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Tu rey está a la intemperie mientras una jugada que resuelve todo el problema sigue sin hacerse."
+    }
+  ]
+}

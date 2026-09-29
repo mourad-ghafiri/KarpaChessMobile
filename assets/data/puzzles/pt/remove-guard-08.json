@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-08",
+  "fen": "6k1/2q1nppp/8/3b2B1/7Q/6P1/5PBP/6K1 w - - 1 2",
+  "solution": [
+    "Bxe7"
+  ],
+  "rating": 1320,
+  "title": "Corta o Apoio",
+  "setup": "O teu bispo em g2 olha para o bispo de d5, que só sobrevive porque o cavalo de e7 o guarda.",
+  "hint": "Dois bispos enfrentam-se na grande diagonal. Uma peça preta decide esse duelo — consegues chegar-lhe?",
+  "explanation": "## A Ideia\n\n{{Bxe7}} elimina o único defensor de d5. Depois de {{Qxe7}} o bispo fica indefeso e {{Bxd5}} ganha uma peça limpa. A troca em e7 é igual; a peça que ela descobre não é. Um duelo numa diagonal decide-se por quem apoia as peças."
+}

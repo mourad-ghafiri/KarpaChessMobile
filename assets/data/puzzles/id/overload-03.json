@@ -1,0 +1,14 @@
+{
+  "id": "overload-03",
+  "fen": "r5k1/5ppp/8/8/3R4/8/PP2b3/K2R2Q1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1330,
+  "title": "Hanya Satu Benteng yang Kembali",
+  "setup": "Benteng Hitam menjaga baris belakang dari a8 dan benteng-benteng Anda berjajar ganda di lajur d dengan menteri mengawasi dari g1.",
+  "hint": "Hitung berapa banyak buah Anda yang bisa mencapai baris kedelapan, lalu hitung berapa banyak buah Hitam yang bisa menjawab.",
+  "explanation": "## Ide\n\n{{Rd8+}} menawarkan benteng yang harus diambil pembela, dan {{Rxd8}} menariknya dari a8. Benteng kedua menyusul dengan {{Rxd8#}}. Satu pembela tak bisa menjawab dua penyerang di petak yang sama; hitungan itulah seluruh taktiknya."
+}

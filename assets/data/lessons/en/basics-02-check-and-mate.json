@@ -1,0 +1,67 @@
+{
+  "id": "check-and-mate",
+  "title": "Nothing Left to Play",
+  "summary": "The one attack that must be answered — and the one that cannot be",
+  "proof": "mate-in-1-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "An Attack You Must Answer",
+      "text": "Attack a rook and your opponent has a choice: move it, defend it, or leave it and take something bigger elsewhere.\n\nAttack the king and there is no choice at all. A king is never captured, so the rules never let the attack stand — answering it is the only thing your opponent may do. That is **check**.\n\n{{Qh5+}} puts the black king on e8 under fire from the diagonal. It steps out of the line with {{Kd8}}, and the game goes on. The `+` is how a check is written down."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "When There Is No Answer",
+      "text": "**Checkmate** is that same attack with every answer gone. The king is attacked, and the side under attack has no legal move at all — not with the king, not with any other piece. The game ends there.\n\nA `#` marks it, and nothing is ever written after a `#`.\n\nCheckmate is the only way to win a game at the board. Games also end when a player resigns or runs out of time, and both of those have a lesson of their own."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "prompt": "Your king already holds d7, e7 and f7 — take the last two squares away in one move.",
+      "targetSan": [
+        "Qb8#",
+        "Qh8#"
+      ],
+      "hint": "Both squares that are left sit on the eighth rank, and the queen has two diagonals that reach it."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "title": "Why It Worked",
+      "text": "Nothing there was a queen trick. Shift the same two pieces one file over and the machinery shows.\n\nThe black king on d8 has five neighbors. Three of them — c7, d7 and e7 — also touch the white king on d6, and no king may stand next to another, so those three were closed before White moved at all.\n\nTwo are left, c8 and e8, and they share a rank with the king itself. One check along the eighth rank covers the whole line."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "prompt": "Two squares are left again — find the check along the eighth rank that takes both.",
+      "targetSan": [
+        "Qa8#",
+        "Qg8#"
+      ],
+      "hint": "White's own king blocks the d-file, so the queen has to travel by diagonal to reach that rank."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Locked In by Its Own Pawns",
+      "text": "You will not always have a queen. The most common mate in club chess needs a rook, an empty rank and no risk whatsoever: the **back-rank mate**.\n\nThe black king on g8 is tucked in behind its own pawns on f7, g7 and h7. Those three keep out everything climbing the board — and leave the king exactly two squares, f8 and h8, both on the eighth rank.\n\nThat rank is empty from end to end. So is the a-file. Black has nothing watching either one."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Open a Window",
+      "text": "Look at White's own king on g1 before enjoying that too much. Same corner, same three pawns, same two squares — the difference is that White owns a rook and Black does not.\n\nOne pawn move fixes it: {{h3}}. That gives the king an **escape square** on h2, and a rook landing on the first rank becomes a check to answer rather than the end of the game.\n\n> Push that pawn early, while you have a spare move. The mate this lesson ends on is the one that catches players who never did."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Black never opened an escape square — end the game on the rank behind those pawns.",
+      "targetSan": [
+        "Ra8#"
+      ],
+      "hint": "No black piece defends the eighth rank, and nothing can step in between."
+    }
+  ]
+}

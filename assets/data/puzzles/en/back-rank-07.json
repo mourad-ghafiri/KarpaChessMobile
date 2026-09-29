@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-07",
+  "fen": "r5k1/5ppp/8/8/8/8/8/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "No Pawn Wall, Just Mate",
+  "setup": "The rooks face each other down the a-file. Black's king on g8 sits behind three unmoved pawns; yours on g1 has none at all.",
+  "hint": "Whoever captures first on the a-file gives check. Ask where each king could step afterward.",
+  "explanation": "## The Idea\n\n{{Rxa8#}} takes the only black piece that could guard the eighth rank, and gives check along it. The king on g8 is boxed in by its own pawns on f7, g7 and h7, and the rook covers f8 and h8. Nothing can block and nothing can take back.\n\nYour own king has no pawns in front of it, and that is why it is safe: f2, g2 and h2 are all open. A back rank is only deadly when pawns shut the door."
+}

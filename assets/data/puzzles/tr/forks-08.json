@@ -1,0 +1,11 @@
+{
+  "id": "forks-08",
+  "fen": "r3k3/5ppp/8/PN6/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc7+"
+  ],
+  "title": "Aile Çatalı",
+  "setup": "Siyahın şahı da kalesi de hâlâ başlangıç karelerinde ve b5'teki atınız yakınlarda.",
+  "hint": "Aynı anda e8'deki şaha ve a8'deki kaleye saldıran tek bir at karesi var.",
+  "explanation": "## Fikir\n\n{{Nc7+}} e8'deki şaha şah çeker ve a8'deki kaleye saldırır. Şahın oynaması gerekir ve {{Nxa8}} kaleyi alır.\n\nKöşedeki at çoğu zaman orada kapana kısılır, ama bu at öyle değil: a5'teki piyon b6'yı koruyor, yani atın güvenli bir çıkış yolu var. Köşede bir taş kapmadan önce atınızın eve dönebildiğinden emin olun."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-16",
+  "fen": "3k4/8/3K4/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "The Long Swing",
+  "setup": "The kings stand in direct opposition on the d-file, and your queen sits far away in the corner of the board.",
+  "hint": "Distance means nothing to a queen. Which rank does your king already fence off?",
+  "explanation": "## The Idea\n\nThe kings face each other on the d-file, so your king on d6 covers c7, d7 and e7.\n\n{{Qg8#}} swings the queen to the back rank from the far corner. c8 and e8 are both on its line, and nothing can block.\n\nWhen your king faces the enemy king across one empty square, a check along the edge is often mate."
+}

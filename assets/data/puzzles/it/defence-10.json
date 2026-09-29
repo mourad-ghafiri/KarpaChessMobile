@@ -1,0 +1,14 @@
+{
+  "id": "defence-10",
+  "fen": "8/7Q/2b4q/8/7k/6r1/5R1K/8 w - - 0 1",
+  "solution": [
+    "Qxh6+",
+    "Kg4",
+    "Rf4#"
+  ],
+  "rating": 1830,
+  "title": "Prendete la Donna con Scacco",
+  "setup": "Il vostro re in h2 ha addosso la donna nera in h6, la torre in g3 e l'alfiere in c6.",
+  "hint": "La mossa ovvia è salvarvi. Provate la presa che cambia quale dei due re è nella rete.",
+  "explanation": "## L'idea\n\n{{Qxh6+}} prende la donna con scacco; {{Kg4}} è forzata, e {{Rf4#}} dà matto con la torre che taglia la quarta traversa. Qui togliere l'attaccante e guadagnare un tempo sono la stessa mossa."
+}

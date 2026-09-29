@@ -1,0 +1,12 @@
+{
+  "id": "smothered-01",
+  "fen": "6rk/pp4pp/1q6/6N1/8/8/P4PPP/3R2K1 w - - 6 26",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1150,
+  "title": "Kendi Kalesi",
+  "setup": "Siyah az önce bir kaleyi g8'e kaydırdı ve şahının yanındaki her kare artık dolu.",
+  "hint": "Bir şah hamlesi avlamadan önce siyahın şahının gerçekte kaç boş kareye gidebildiğini sayın.",
+  "explanation": "## Fikir\n\nh8'deki şah kendi kalesi ve kendi piyonlarıyla duvara alınmış, yani alamayacağı bir şah mattır. At g6'dan şah çekebilirdi, ama h piyonu onu alırdı; {{Nf7#}} siyahın hiçbir taşının kapsamadığı kareden şah çeker. Bir şah kutuya alındığında taş saymayı bırakın, şah saymaya başlayın."
+}

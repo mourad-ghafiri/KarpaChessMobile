@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-23",
+  "fen": "6k1/pp3ppp/8/8/8/8/PPR2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rc8#"
+  ],
+  "title": "Martello sulla Colonna Aperta",
+  "setup": "La colonna c è vuota fra la vostra torre e l'ottava traversa, e lo scudo di pedoni del Nero non ha una finestra di fuga.",
+  "hint": "Caricate su per la colonna c aperta. I pedoni del Nero vi intrappolano il re da soli.",
+  "explanation": "## L'idea\n\nQuesto è un matto del corridoio lungo una colonna aperta: sulla colonna c non c'è nessun pedone di nessuno dei due colori, quindi la vostra torre ha strada libera verso l'ottava traversa.\n\n{{Rc8#}} dà scacco lungo la traversa di fondo. f8 e h8 stanno sulla linea della torre, f7, g7 e h7 hanno i pedoni del Nero, e nessun pezzo nero può parare o catturare.\n\nUna colonna aperta è un'autostrada verso la traversa di fondo."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "forks-12",
+  "fen": "r5k1/p5pp/1p6/2p5/7q/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qd5+",
+    "Kf8",
+    "Qxa8+"
+  ],
+  "title": "Une dame, deux diagonales",
+  "setup": "Les deux dames sont sorties, le matériel est égal, et la tour noire en a8 n'a pas encore bougé.",
+  "hint": "Votre dame peut atteindre une case qui donne échec le long d'une ligne et frappe la tour le long d'une autre.",
+  "explanation": "## L'idée\n\n{{Qd5+}} met le roi en g8 en échec le long d'une diagonale et attaque la tour en a8 le long de l'autre. Avec f7 vide et aucune pièce noire capable d'atteindre e6 ou f7, l'échec ne peut pas être paré par interposition, donc le roi doit s'écarter. Après {{Kf8}}, {{Qxa8+}} prend la tour avec échec.\n\nUne dame fait une fourchette le long de ses lignes : cherchez la case où deux d'entre elles rencontrent deux cibles."
+}

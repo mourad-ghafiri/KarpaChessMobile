@@ -1,0 +1,13 @@
+{
+  "id": "openings-06",
+  "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2P1P3/2N2N2/PP1P1PPP/R1BQKB1R w KQk - 1 5",
+  "solution": [
+    "Nxe5",
+    "Nxe5",
+    "d4"
+  ],
+  "title": "Sgomberate la Strada per d4",
+  "setup": "Una siciliana invertita: il Nero ha appena messo l'alfiere in c5, all'altezza del suo pedone in e5. Prendete quel pedone, fidandovi di una forchetta di pedone per riavere il pezzo.",
+  "hint": "Due unità nere stanno sulle due case che una sola spinta di pedone colpirebbe insieme — ma prima c'è qualcosa di mezzo.",
+  "explanation": "## L'idea\n\nL'alfiere nero in c5 e il pedone in e5 stanno sulle due case che un pedone in d4 colpirebbe insieme, ma il pedone e5 difende d4, quindi prima un pezzo deve sgomberarla.\n\n{{Nxe5}} lo fa. Dopo {{Nxe5}}, {{d4}} inforchetta il cavallo e l'alfiere, e il Bianco si riprende il pezzo. Il materiale finisce grosso modo pari, ma il Bianco si tiene il centro e un piccolo vantaggio.\n\nUn'apertura di fianco vince comunque le sue battaglie in mezzo. Ci arriva solo per la strada lunga."
+}

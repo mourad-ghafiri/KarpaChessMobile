@@ -1,0 +1,12 @@
+{
+  "id": "smothered-06",
+  "fen": "2r3k1/pp3ppp/8/8/3n4/8/PP3PPP/KR1R4 b - - 5 24",
+  "solution": [
+    "Nc2#"
+  ],
+  "rating": 1310,
+  "title": "Penjaganya Menyingkir",
+  "setup": "Putih baru saja menarik bentengnya dari lajur c yang terbuka ke b1, dan rajanya tak punya petak lagi.",
+  "hint": "Dua lompatan kuda memberi sekak dari sisi sudut; hanya satu yang berada di luar jangkauan pion.",
+  "explanation": "## Ide\n\nBenteng meninggalkan c1 dan berhenti menguasai c2. {{Nc2#}} memberi sekak kepada raja yang ketiga tetangganya, a2, b2 dan b1, semuanya ditempati buahnya sendiri, dan tak ada buah putih yang mengawasi c2. Sekak yang lain, {{Nb3+}}, mati karena axb3. Mat terkurung hidup di setiap sudut, bukan hanya di h8."
+}

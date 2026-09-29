@@ -1,0 +1,11 @@
+{
+  "id": "en-passant-proof",
+  "fen": "r6k/pp5p/8/3pP3/8/2B5/PP3P1P/6RK w - d6 0 1",
+  "solution": [
+    "exd6#"
+  ],
+  "title": "The Pawn That Could Have Blocked",
+  "setup": "Black has just pushed the d-pawn two squares. Your bishop on c3 aims at the king on h8, and your rook on g1 guards the file beside it.",
+  "hint": "Your e-pawn is the only thing on the bishop's diagonal. Which black pawn could step back into that line?",
+  "explanation": "## The Idea\n\nYour pawn on e5 is all that stands between the bishop on c3 and the king on h8. Push it with {{e6+}} and Black's pawn steps to d4, back into the line.\n\n{{exd6#}} opens the same diagonal and lifts the blocker off the board in the same move. The rook covers g8, the bishop covers g7, and h7 holds Black's own pawn.\n\nThe chance lasted one turn. A move later, that pawn would have been out of reach for good."
+}

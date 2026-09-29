@@ -1,0 +1,50 @@
+{
+  "id": "nimzo-indian-advanced",
+  "title": "La Defensa Nimzo-India",
+  "summary": "Un alfil cambiado por una debilidad permanente",
+  "proof": "openings-16.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Un alfil que piensa morir",
+      "text": "Tres jugadas, y el alfil negro ya se ofrece por un caballo. Normalmente se considera que el alfil es la pieza ligeramente mejor, así que esto parece el lado malo de un cambio.\n\nNo es generosidad. El alfil de b4 clava el caballo de c3 contra el rey de e1, y ese caballo es la única pieza blanca que cubre e4. Las Negras lo quieren fuera del tablero, y quieren obligar a las Blancas a la única recaptura que deja huella."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "La pregunta de las Blancas",
+      "text": "{{a3}}. El peón se acerca al alfil y exige una respuesta: retirarse o capturar.\n\nRetirarse regala un tiempo a las Blancas, así que el alfil captura. Ahora mira cómo pueden recapturar las Blancas. El alfil de c1 no ve c3, y la dama tampoco, así que tiene que hacerlo el peón de b, que cae justo detrás del peón que ya estaba en c4."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/P1N5/1P2PPPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Elimina el único defensor blanco de e4 y fuerza la recaptura que apila dos peones en una columna.",
+      "targetSan": [
+        "Bxc3+"
+      ],
+      "hint": "Solo una pieza negra ataca c3, y su captura llega con jaque, así que las Blancas no tienen un momento libre para prepararse."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/P1P5/4PPPP/R1BQKBNR b KQkq - 0 5",
+      "title": "Apilados para siempre",
+      "text": "Ahí están: peones blancos en c3 y c4, uno detrás del otro. Doblados, y atascados. El de atrás nunca podrá adelantar al de delante, y ninguno de los dos será defendido jamás por un peón: el peón de b es ahora uno de ellos, y el de d ya pasó a d4.\n\n{{c5}} congela la imagen. Las Negras golpean d4 para que el centro no pueda avanzar y enterrar las pruebas.\n\nLa apertura lleva el nombre de Aron Nimzowitsch, que sostenía que una debilidad que nadie puede reparar sobrevive a cualquier ventaja que haya que usar de inmediato."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "title": "El peón al que todo apunta",
+      "text": "Cinco jugadas después, las Blancas tienen el centro que esperaba la pareja de alfiles: peones en c4, d4 y e4, con el alfil de d3 listo para el momento en que esa fila avance.\n\nLas Negras no lo discuten todo. Uno de esos peones es distinto. El peón de c4 tiene a su compañero varado detrás, así que ningún peón blanco lo protegerá nunca, y cada amenaza negra contra c4 tiene que responderla una pieza. Una pieza atada a un peón es una pieza que no hace nada más.\n\n> Ataca la debilidad que un peón no puede defender, y obliga a las piezas a hacer de guardia."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "prompt": "Lleva tu caballo al borde, donde golpea el peón que ningún peón blanco podrá defender jamás.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "El objetivo es el peón de c4, y el peón de b blanco que normalmente echaría a un caballo de ese borde está en c3."
+    }
+  ]
+}

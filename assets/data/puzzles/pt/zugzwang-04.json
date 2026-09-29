@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-04",
+  "fen": "8/2B5/8/8/1p5Q/k7/2K5/8 w - - 0 1",
+  "solution": [
+    "Qc4",
+    "Ka4",
+    "Qa6#"
+  ],
+  "rating": 1500,
+  "title": "Dá Uma Casa ao Rei",
+  "setup": "O rei preto está em a3 com um único peão em b4, e o teu rei em c2 já faz metade do trabalho.",
+  "hint": "O teu rei cobre mais do que parece. Descobre para que casa as pretas iriam e chega lá primeiro.",
+  "explanation": "## A Ideia\n\n{{Qc4}} não é xeque, mas tira b3 e b4 enquanto o teu rei segura b2. Só {{Ka4}} mantém o rei longe da tua berma — {{b3+}} dá em {{Qxb3#}} — e {{Qa6#}} aterra. Um rei na berma com uma casa a restar já está mate — só ainda não sabe."
+}

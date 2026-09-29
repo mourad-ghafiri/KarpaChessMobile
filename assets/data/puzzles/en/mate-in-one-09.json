@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-09",
+  "fen": "rnbqkbn1/ppppp3/8/6pr/3P1p2/3BP1B1/PPP2PPP/RN2K1NR w KQq - 0 8",
+  "solution": [
+    "Bg6#"
+  ],
+  "rating": 840,
+  "title": "The f7 Hole",
+  "setup": "Black has just taken your queen on h5, and f7 stands empty with its king still on e8.",
+  "hint": "The black king has exactly one free square beside it. Which piece can attack it and check at once?",
+  "explanation": "## The Idea\n\nBlack's own pieces fill d7, d8 and f8, so f7 is the king's only square, and {{Bg6#}} covers f7 while checking straight through it. The rook that just took your queen is one square from stopping this and cannot come back in time."
+}

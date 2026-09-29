@@ -1,0 +1,57 @@
+{
+  "id": "overloading",
+  "title": "Aşırı Yüklenme",
+  "summary": "Tek koruyucu, iki görev; hangisini bırakacağını siz seçersiniz",
+  "proof": "overload-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Vezire Bir Kare",
+      "text": "Beyazın a7'deki piyonu vezir olmaya bir kare uzaklıkta ve onu tek bir siyah taş durduruyor. c8'deki kale a8'i boş bir yatay boyunca kapsıyor, yani {{a8=Q}} hamlesine {{Rxa8}} cevabı gelir ve yeni vezir tam olarak bir hamle yaşar.\n\nBirinci görev bu. Kale bunu hiç oynamadan yapıyor. c8'de duruyor ve piyon piyon olarak kalıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Bir de Atı Tutuyor",
+      "text": "Şimdi c dikeyine bakın. Siyahın c5'teki atına beyazın e3'teki fili saldırıyor ve onu koruyan tek şey, iki boş karenin ötesinden uzanan yine o c8'deki kale.\n\nSiyahın başka hiçbir şeyi c5'in yakınına gelmiyor. g8'deki şah dört dikey uzakta ve hiçbir piyon konuya karışacak kadar yakın değil.\n\nTek kale, iki görev ve şu anda parmağını kıpırdatmadan ikisini de yapıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Onu Tam Olarak Olduğu Yerde Bırakın",
+      "text": "Bir koruyucuyu kırmanın iki yolu çoktan sizin ve c8'deki kale ikisinden de sağ çıkıyor. Beyazın hiçbir taşı ona saldırmıyor, yani tahtadan kaldırılamaz. Kabul etmek zorunda olduğu bir şey yok, yani karesinden de çekilemez.\n\nGüzel. Orada bırakın. Aynı anda iki şeyi kapsayan taş **aşırı yüklenmiş**tir ve kimse ondan bir şey istemediği sürece iki görev, bir görev kadar kolaydır.\n\nÖyleyse isteyin. Korumak yerinde durmak değildir — bir hamledir ve ortada tek bir kale vardır."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "prompt": "Kalenin kapsadığı iki şeyden birini alın ve hangisini tutacağına kendisi karar versin.",
+      "targetSan": [
+        "Bxc5"
+      ],
+      "hint": "Kalenin iki görevinden yalnızca biri elinizi uzatabileceğiniz bir taş ve beyaz ona çoktan doğrultulmuş durumda."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "Sekizinci Yatay Kimsenin Değil",
+      "text": "Siyah fili aldı ve değişim eşitti — ata karşı fil, iki yönde de üç puan. c5'teki kale orada duruyor, çünkü geri almak için gitmesi gereken yer orasıydı.\n\nBütün sorun da bu. Kale c5'ten c dikeyini ve beşinci yatayı görüyor; a8 ise ikisinde de değil.\n\nReddetmek de daha iyi olmazdı. At öylece gitmiş olurdu ve a7'deki piyon yine burada oturuyor olurdu."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "Bir Sonrakini Bulmak",
+      "text": "İki sınama vardır ve oyuncuların çoğu yalnızca birincisini uygular.\n\nEn çok çalışan rakip taşın adını koyun ve görevlerini yüksek sesle söyleyin: şu kare, şu taş. Sonra onları kapsayan başka ne varsa adını koyun. Herhangi bir yerde ikinci bir koruyucu varsa aşırı yüklenme yoktur — yalnızca alamadığınız bir taş vardır.\n\nTek koruyucu, iki görev, durulacak iki ayrı yer. İkisinden ulaşabildiğinizi alın, koruyucu da kaybedeceği ötekini seçsin.\n\n> Bir koruyucunun neyi koruduğunu sormayın. Kaç şeyi koruduğunu ve herhangi birini kurtarmak için neyi geride bırakmak zorunda olduğunu sorun."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "prompt": "Sekizinci yatayı artık kapsayan yok; kalenin orada durarak engellediği şeyi toplayın.",
+      "targetSan": [
+        "a8=Q+",
+        "a8=R+"
+      ],
+      "hint": "Kale c5'i ve beşinci yatayı tutuyor; a8 ise ikisinde de değil."
+    }
+  ]
+}

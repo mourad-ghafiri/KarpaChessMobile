@@ -1,0 +1,11 @@
+{
+  "id": "openings-02",
+  "fen": "r1bqk2r/pppp1ppp/1bn5/4P3/2B1n3/2P2N2/PP3PPP/RNBQK2R w KQk - 0 7",
+  "solution": [
+    "Qd5"
+  ],
+  "title": "El centro italiano muerde",
+  "setup": "Las Blancas prepararon d4 con c3 y avanzaron, y las Negras acaban de comerse un peón central con un caballo.",
+  "hint": "Una casilla ataca al caballo suelto y al punto del campo negro que solo defiende el rey. Busca dónde coinciden.",
+  "explanation": "## La idea\n\nPara esto sirve la preparación con c3 y d4: en cuanto el centro se abre, las piezas negras no tienen dónde estar a salvo.\n\n{{Qd5}} es un ataque doble. La dama ataca al caballo de e4 y, por la otra diagonal, a f7, donde ya apunta el alfil de c4: {{Qxf7#}} sería mate. Las Negras tienen que atender eso primero, y el caballo cae.\n\nNinguna jugada de caballo lo salva y defiende f7 a la vez: en d6 cae ante el peón de e5, en g5 ante el caballo de f3."
+}

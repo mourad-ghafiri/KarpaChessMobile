@@ -1,0 +1,14 @@
+{
+  "id": "decoy-12",
+  "fen": "1r1q1r1k/6pp/7N/8/8/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1550,
+  "title": "Warisan Philidor",
+  "setup": "Raja di h8 terkunci oleh pionnya sendiri, dan kuda Anda di h6 sudah menguasai g8.",
+  "hint": "Setiap petak pelarian sudah hilang kecuali satu, dan petak itu kosong. Bagaimana Anda membuat buah hitam berdiri di sana?",
+  "explanation": "## Ide\n\nInilah **mat terkurung**. {{Qg8+}} menawarkan menteri agar Hitam harus menghalangi jalan pelariannya sendiri: {{Rxg8}} terpaksa, karena kuda menjaga g8. {{Nf7#}} lalu memberi mat kepada raja yang tak punya tempat untuk pergi."
+}

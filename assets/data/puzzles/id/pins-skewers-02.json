@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-02",
+  "fen": "r7/6pp/8/3k4/8/8/1K2B1PP/8 w - - 0 1",
+  "solution": [
+    "Bf3+",
+    "Kd4",
+    "Bxa8"
+  ],
+  "title": "Tusukan di Diagonal Panjang",
+  "setup": "Raja Hitam di d5 dan benteng di a8 berdiri di diagonal panjang yang sama, dan gajah Anda tinggal satu langkah untuk menguasainya.",
+  "hint": "Beri sekak kepada raja di sepanjang garis yang ia bagi dengan benteng, dan lihat apa yang tersisa ketika ia menyingkir.",
+  "explanation": "## Ide\n\nIni tusukan: buah yang lebih berharga berdiri di depan. {{Bf3+}} memberi sekak kepada raja di d5 di sepanjang diagonal panjang, dengan benteng di a8 di belakangnya di garis yang sama. Raja harus keluar dari garis itu, dan sesudah {{Kd4}}, {{Bxa8}} mengambil apa yang tadi bersembunyi di belakangnya.\n\nJepitan menyerang menembus buah murah ke arah buah mahal. Tusukan menyerang menembus buah mahal ke arah buah murah."
+}

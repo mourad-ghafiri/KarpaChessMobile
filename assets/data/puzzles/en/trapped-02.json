@@ -1,0 +1,12 @@
+{
+  "id": "trapped-02",
+  "fen": "2r3k1/pp3pp1/7p/4P2n/8/4B3/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1040,
+  "title": "Knight on the Rim",
+  "setup": "Black's knight has wandered to h5, a square with only four exits, and none of them look friendly.",
+  "hint": "Every square that knight can reach is already covered or occupied. All it needs now is a shove.",
+  "explanation": "## The Idea\n\n{{g4}} attacks the knight and h5 is a dead end: f6 is met by exf6, f4 by Bxf4, g3 by hxg3, and g7 is Black's own pawn. A knight at the edge of the board has four squares at most. Cover them and it has nowhere to run."
+}

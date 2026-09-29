@@ -1,0 +1,13 @@
+{
+  "id": "culture-05",
+  "fen": "2kr2nr/pp1n1ppp/2p1p3/8/1P1P1B2/2N2Q1P/1PPKBPP1/7q w - - 0 13",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "title": "Dois Peões, Uma Diagonal",
+  "setup": "Estás muito atrás no material e o teu próprio rei foi empurrado até d2, mas o rei preto está emparedado pelas suas próprias peças.",
+  "hint": "Começa por contar as casas do rei preto em vez do teu material — e depois pergunta o que está o peão de b7 realmente a segurar.",
+  "explanation": "## A Ideia\n\nO rei em c8 não tem casa: d8, d7 e b7 têm a sua torre, o seu cavalo e o seu peão, e o bispo de f4 cobre c7 e b8. Só o peão de b7 mantém o teu outro bispo fora de a6.\n\n{{Qxc6+}} dá a dama por um peão, e {{bxc6}} é a única jogada legal das pretas. O peão deixou b7, e {{Ba6#}} aterra na casa que ele guardava.\n\nConta as casas do rei inimigo antes de contares material, e uma dama passa a ser algo que podes gastar."
+}

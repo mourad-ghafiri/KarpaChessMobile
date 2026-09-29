@@ -1,0 +1,14 @@
+{
+  "id": "promotion-11",
+  "fen": "B5k1/P5p1/7p/8/8/8/2r2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kh8",
+    "a8=Q+"
+  ],
+  "rating": 1370,
+  "title": "Le fou s'écarte",
+  "setup": "Votre pion a7 est à une case de la promotion et votre propre fou se tient en a8, juste sur sa route.",
+  "hint": "Le fou doit libérer la case, et il doit arriver quelque part d'où il ne laisse aux Noirs aucun coup gratuit pour intervenir.",
+  "explanation": "## L'idée\n\n{{Bd5+}} dégage a8 avec échec le long de la diagonale a2-g8. Les Noirs doivent parer l'échec, et aucune réponse n'arrête le pion : après {{Kh8}} ou {{Kf8}}, {{a8=Q+}} promeut même avec échec, et après {{Kh7}} le pion va tout de même à dame. Libérer la case avec échec, c'est tout l'enjeu."
+}

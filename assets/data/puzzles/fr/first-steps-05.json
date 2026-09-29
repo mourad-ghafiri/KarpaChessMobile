@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-05",
+  "fen": "1k6/8/8/7r/8/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxh5"
+  ],
+  "title": "La portée de la dame",
+  "setup": "Une tour noire se prélasse au loin sur la colonne h, en se croyant hors de danger. Votre dame en sait plus.",
+  "hint": "La dame se déplace aussi comme un fou. Suivez la diagonale depuis d1 vers la colonne h.",
+  "explanation": "## L'idée\n\nDepuis d1, la diagonale de la dame passe par e2, f3, g4 et arrive en h5, où se trouve la tour noire sans rien pour la protéger.\n\n{{Qxh5}} traverse la moitié de l'échiquier en un coup et prend la tour. Elle est arrivée par une diagonale, et une tour ne surveille que les lignes droites.\n\nLa dame, c'est une tour et un fou réunis. Quand vous chassez avec elle, vérifiez les deux sortes de lignes."
+}

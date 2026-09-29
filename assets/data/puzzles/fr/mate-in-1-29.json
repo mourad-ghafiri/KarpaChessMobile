@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-29",
+  "fen": "7k/5K2/8/6N1/8/8/8/2B5 w - - 0 1",
+  "solution": [
+    "Bb2#"
+  ],
+  "title": "La lance de la grande diagonale",
+  "setup": "Votre cavalier en g5 et votre roi en f7 encerclent le roi noir dans le coin, et votre fou est encore chez lui en c1.",
+  "hint": "Le cavalier et le roi couvrent toutes les cases autour du roi. Trouvez la diagonale qui atteint h8.",
+  "explanation": "## L'idée\n\nLe cavalier et le roi ont fait l'encerclement : votre roi en f7 couvre g7 et g8, et le cavalier en g5 couvre h7.\n\n{{Bb2#}} arrive sur la grande diagonale et met le roi en h8 en échec depuis le coin opposé. Rien ne peut s'interposer, et le roi n'a plus aucune case.\n\nLa grande diagonale de a1 à h8 est un couloir de mat : une fois le roi enfermé dans le coin, un fou peut conclure d'un bout à l'autre de l'échiquier."
+}

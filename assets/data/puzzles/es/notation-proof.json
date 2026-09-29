@@ -1,0 +1,11 @@
+{
+  "id": "notation-proof",
+  "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Bc4"
+  ],
+  "title": "La siguiente anotación",
+  "setup": "Una partida impresa dice 1.e4 e5 2.Nf3 d6, y la siguiente anotación de las Blancas es `3.Bc4`. Juega la jugada que indica.",
+  "hint": "La mayúscula nombra la pieza, y los dos caracteres que la siguen nombran la casilla a la que llega.",
+  "explanation": "## La idea\n\nB es el alfil, y c4 es la casilla. Solo el alfil de f1 puede llegar a c4, así que la anotación no necesita nada más: {{Bc4}}.\n\nEl número te dice que es la tercera jugada de las Blancas, y las jugadas anteriores colocaron cada pieza donde la ves ahora. Una letra para la pieza, una casilla para donde llega."
+}

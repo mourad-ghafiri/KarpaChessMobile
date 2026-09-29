@@ -1,0 +1,14 @@
+{
+  "id": "deflection-05",
+  "fen": "6rk/ppq3pp/8/4N3/8/6P1/P4PK1/3R4 w - - 1 2",
+  "solution": [
+    "Ng6+",
+    "hxg6",
+    "Rh1#"
+  ],
+  "rating": 1260,
+  "title": "Satu Tugas Pion h",
+  "setup": "Raja di h8 dikurung benteng dan pionnya sendiri, dan hanya pion h7 yang menjaga lajur h tetap tertutup.",
+  "hint": "Lajur h adalah jalan menuju raja itu, dan satu pion menghalanginya. Sekak apa yang memaksa pion itu bergerak?",
+  "explanation": "## Ide\n\n{{Ng6+}} hanya menyisakan satu langkah sah bagi Hitam: {{hxg6}}. Pion itu harus menangkap, lajur h terbuka lebar, dan {{Rh1#}} tiba. Pion yang harus menangkap adalah pion yang telah meninggalkan posnya. Carilah pembela yang tak punya pilihan, bukan hanya pembela yang bisa Anda tangkap."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-09",
+  "fen": "rnbqkbn1/ppppp3/8/6pr/3P1p2/3BP1B1/PPP2PPP/RN2K1NR w KQq - 0 8",
+  "solution": [
+    "Bg6#"
+  ],
+  "rating": 840,
+  "title": "Le trou de f7",
+  "setup": "Les Noirs viennent de prendre votre dame en h5, et f7 est vide avec leur roi toujours en e8.",
+  "hint": "Le roi noir a exactement une case libre à côté de lui. Quelle pièce peut l'attaquer et donner échec en même temps ?",
+  "explanation": "## L'idée\n\nLes propres pièces noires occupent d7, d8 et f8, donc f7 est la seule case du roi, et {{Bg6#}} couvre f7 en donnant échec droit à travers elle. La tour qui vient de prendre votre dame est à une case de l'empêcher et ne peut pas revenir à temps."
+}

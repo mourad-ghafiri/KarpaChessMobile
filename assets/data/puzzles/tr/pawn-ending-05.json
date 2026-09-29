@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-05",
+  "fen": "8/4k3/4P3/4K3/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Ke8"
+  ],
+  "rating": 1245,
+  "title": "Tek Kare Yetiyor",
+  "setup": "Beyazın şahı az önce altıncıdaki piyonunun arkasından yukarı geldi ve siyahın seçeceği üç kare var.",
+  "hint": "Üç karenizden ikisi beyazın şahının dolanıp d7 ya da f7'ye adımlamasına izin veriyor. Biri vermiyor.",
+  "explanation": "## Fikir\n\n{{Ke8}} tek hamledir. {{Kd6}} hamlesine {{Kd8}} ile cevap verin; ardından {{e7+}} şahı piyonun önüne geri sürer ve beyazın elinde pattan başka bir şey kalmaz. Bunun yerine d8 ya da f8'e gidin, beyaz opozisyonu alsın ve vezir olsun."
+}

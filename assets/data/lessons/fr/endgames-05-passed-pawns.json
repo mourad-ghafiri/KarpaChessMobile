@@ -1,0 +1,56 @@
+{
+  "id": "passed-pawns",
+  "title": "Les pions passés",
+  "summary": "Tracez le carré avant de pousser",
+  "proof": "endgame-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Rien sur sa route",
+      "text": "Votre pion en e5 a un échiquier vide devant lui. Aucun pion noir sur la colonne e, ni sur d ou f, donc rien ne pourra jamais être poussé sur son chemin ni protéger les cases qu'il doit traverser.\n\nC'est un **pion passé** : un pion sans pion adverse devant lui, ni sur sa colonne ni sur les colonnes voisines.\n\nIl ne lui reste qu'une tâche, et une seule pièce sur l'échiquier peut le contester. Le roi blanc en d1 est à des lieues, et cela ne change rien ici."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Tracez le carré",
+      "text": "La seule question est donc de savoir si le roi noir peut arriver à temps, et cette question a une réponse exacte.\n\nTracez un carré avec le pion en e5 à un coin et sa case de promotion e8 à l'autre : e5, h5, h8, e8. Un roi à l'intérieur de ce carré, ou capable d'y entrer à son tour de jouer, rattrape le pion. Un roi à l'extérieur ne le rattrape jamais, aussi vite qu'il coure.\n\nLe roi noir en h4 est une rangée sous le bord inférieur. Trois coups amènent le pion en e8 ; il en faut quatre à ce roi."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "prompt": "Décidez si ce roi peut rattraper le pion, puis jouez le coup qu'exige votre réponse.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Esquissez le carré e5–h5–h8–e8 et voyez de quel côté du bord inférieur se tient le roi noir."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/4P3/8/7k/8/8/3K4 b - - 0 5",
+      "title": "Un coup de retard, à chaque fois",
+      "text": "{{Kg5}} {{e7}} {{Kf6}} {{e8=Q}}. La poursuite est honnête, et elle perd quand même d'un seul coup.\n\nRegardez ce que la poussée a fait au carré. Avec le pion en e6, les coins sont e6, g6, g8, e8 : trois colonnes de large au lieu de quatre. Chaque pas en avant réduit la zone où doit se trouver le défenseur, donc un pion déjà en avance ne devient que plus difficile à rattraper.\n\nIl n'y a pas non plus de chemin astucieux. Le roi noir suit la ligne la plus courte qu'il a, et le calcul ne change jamais."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Un échiquier où courir perd",
+      "text": "Nouvel échiquier. Votre pion en e4 est passé lui aussi, sans aucun pion noir nulle part, et cette fois le roi noir en e8 n'est pas hors du carré. Il est garé sur la case de promotion avant même le départ de la course.\n\n{{e5}} {{Ke7}} {{e6}}, et le pion est venu se heurter à un roi qu'il ne peut pas dépasser. Rien ne déloge ce roi de la colonne : votre propre roi en e1 est trois rangées derrière le pion et ne lui sert à rien là-bas.\n\nLe pion n'a pas perdu la course. Il n'en a jamais eu une."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Qui d'autre peut aider",
+      "text": "Ce n'est donc pas le pion qu'il faut jouer. Regardez ce que possèdent d'autre les Blancs : un roi en e1 qui n'a rien fait de toute la partie, et une longue marche devant lui.\n\nEn vérité, ce pion a déjà couru une case de trop — contre une défense parfaite, la course est maintenant nulle. C'est le prix d'avoir poussé avant d'escorter, et l'escorte vous laisse encore toutes les chances pratiques.\n\n> Un pion seul est une cible. Un pion avec un roi à ses côtés est une menace.\n\nLe pion attendra. Il n'a nulle part ailleurs où être."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Mettez votre roi en route vers le pion, en montant par la colonne où se tient le pion.",
+      "targetSan": [
+        "Ke2"
+      ],
+      "hint": "La marche est longue, alors prenez le chemin le plus court — tout droit sur la colonne que le pion possède déjà."
+    }
+  ]
+}

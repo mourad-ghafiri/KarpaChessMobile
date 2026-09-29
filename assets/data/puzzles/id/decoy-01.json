@@ -1,0 +1,14 @@
+{
+  "id": "decoy-01",
+  "fen": "1R3rk1/5ppp/7q/8/8/8/5PPP/3Q2K1 w - - 1 2",
+  "solution": [
+    "Rxf8+",
+    "Kxf8",
+    "Qd8#"
+  ],
+  "rating": 1150,
+  "title": "Seret Raja ke f8",
+  "setup": "Benteng Anda sudah duduk di baris belakang, dan raja Hitam sama sekali tak punya ruang bernapas di balik pion-pionnya.",
+  "hint": "Raja aman di g8 dan kalah di f8. Apa yang bisa Anda serahkan agar ia melangkah menyeberang?",
+  "explanation": "## Ide\n\n{{Rxf8+}} hanya punya satu jawaban sah: {{Kxf8}}. Raja kini berdiri di baris kedelapan yang terbuka dengan pion-pionnya sendiri mengurungnya, dan {{Qd8#}} menuntaskan. Pancing dulu, mat kemudian. Raja yang aman di satu petak sering kali kalah di petak sebelahnya."
+}

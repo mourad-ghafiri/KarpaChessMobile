@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-07",
+  "fen": "2n1k3/pp2rppp/8/2B5/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxe7"
+  ],
+  "title": "Ucuz Taşla Alın",
+  "setup": "Siyahın e7'deki kalesi kaleniz tarafından şahına karşı açmaza alınmış ve filiniz de ona saldırıyor. c8'deki bir at onu koruyor.",
+  "hint": "Açmazdaki kaleye iki kez saldırılıyor ve bir kez korunuyor. Hangi taş alma kâr getirir?",
+  "explanation": "## Fikir\n\ne7'deki kale, e1'deki kaleniz tarafından açmaza alınmış; kale ve fil ona saldırıyor, c8'deki at onu koruyor.\n\n{{Bxe7}} ucuz taşla alır. Şah geri alamaz, çünkü kaleniz e7'yi koruyor; yani {{Nxe7}} geldikten sonra bir kale karşılığında bir fil vermiş olursunuz ve bu kez at açmaza girer. Önce {{Rxe7+}} oynamak yalnızca kaleyi kaleye değişir.\n\nAçmazdaki bir taşı en ucuz saldıranınızla bozdurun."
+}

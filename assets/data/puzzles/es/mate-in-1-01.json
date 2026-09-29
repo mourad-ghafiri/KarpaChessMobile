@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-01",
+  "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 1",
+  "solution": [
+    "Qxf7#"
+  ],
+  "title": "El mate del pastor",
+  "setup": "Tu dama de h5 y tu alfil de c4 apuntan los dos a la casilla más débil del campo negro.",
+  "hint": "Dos de tus piezas convergen en una casilla blanda, y solo el rey la defiende.",
+  "explanation": "## La idea\n\nEsta es la jugada final del mate del pastor. {{Qxf7#}} captura el peón con jaque. El alfil de c4 protege f7, así que el rey no puede capturar la dama, y su única casilla vacía, e7, la cubre la dama. Sus otras vecinas, d8, d7 y f8, las ocupan sus propias piezas.\n\nAl principio de la partida f7 solo la protege el rey, así que una dama y un alfil apuntándole son el truco más viejo del ajedrez."
+}

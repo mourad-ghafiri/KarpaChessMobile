@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-14",
+  "fen": "7R/8/8/8/8/1K6/8/k7 w - - 0 1",
+  "solution": [
+    "Rh1#"
+  ],
+  "title": "Fim do Mundo",
+  "setup": "O rei preto está preso no canto de a1, e o teu rei em b3 cobre a2 e b2.",
+  "hint": "O teu rei já cobre as casas por cima do rei preto. À tua torre só falta dar-lhe xeque onde ele está.",
+  "explanation": "## A Ideia\n\nO teu rei já fez o trabalho difícil: em b3 cobre a2 e b2, portanto ao rei preto só resta b1.\n\n{{Rh1#}} dá xeque pela primeira linha, e b1 está também na linha da torre. Nada pode tapar, e o rei não chega à torre.\n\nNum final de rei e torre, o teu rei toma as casas à frente do rei inimigo, e a torre dá xeque à distância."
+}

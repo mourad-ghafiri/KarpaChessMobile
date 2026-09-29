@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-04",
+  "fen": "3k4/8/8/3q4/8/8/3R4/3K4 w - - 0 1",
+  "solution": [
+    "Rxd5+"
+  ],
+  "title": "Inchiodata a Distanza",
+  "setup": "La donna nera sta sulla colonna d fra il suo re e la vostra torre, e muovete voi.",
+  "hint": "La distanza non difende un pezzo inchiodato. Prendetela.",
+  "explanation": "## L'idea\n\nLa donna in d5 è inchiodata contro il re in d8, ma un'inchiodatura non congela un pezzo: può ancora muovere lungo la linea dell'inchiodatura, e {{Qxd2+}} è la minaccia del Nero.\n\nQuindi prendete per primi. {{Rxd5+}} vince la donna con scacco, e il re in d8 è troppo lontano per riprendere. Qualunque altra mossa lascia il Nero cambiare donna per torre, e la partita è patta.\n\nUn pezzo inchiodato può ancora catturare lungo la linea che lo inchioda."
+}

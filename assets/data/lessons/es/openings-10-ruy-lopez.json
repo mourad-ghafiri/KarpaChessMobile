@@ -1,0 +1,56 @@
+{
+  "id": "ruy-lopez-basics",
+  "title": "La Apertura Española",
+  "summary": "El alfil que no gana un peón",
+  "proof": "openings-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "La jugada de 1561",
+      "text": "El alfil blanco ha ido a b5, desde donde mira directamente al caballo de c6, y ese caballo es lo único que protege el peón de e5.\n\nAsí que parece un ataque al peón, con un paso de por medio. No lo es, y saber por qué es lo primero que aprende cualquiera sobre esta apertura.\n\nRuy López de Segura, un sacerdote español, publicó un análisis de esta jugada en 1561. Cuatro siglos y medio después sigue siendo una línea principal en la élite, un destino curioso para una jugada que no amenaza nada."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "La pregunta es el caballo",
+      "text": "El objetivo es el caballo de c6, no el peón que tiene detrás.\n\nSi ese alfil llega a cambiarse por el caballo, las Negras recapturan con un peón y acaban con dos peones apilados en la columna c, uno delante del otro. Los peones **doblados** son permanentes: un peón no puede moverse de lado para arreglarlo. A cambio las Negras se quedan con la pareja de alfiles, así que es una cosa duradera por otra.\n\nLas Blancas van buscando algo permanente contra lo que jugar. Las Negras prefieren fijar ahora las condiciones de ese cambio antes que esperar a que se las impongan."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "Obliga al alfil a decidirse ya —capturar el caballo o retirarse— con una jugada de peón que no te cuesta nada.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "¿Cuál de tus peones puede atacar al alfil de b5 de un solo paso, sin dejar nada tuyo suelto detrás?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "title": "Cobrárselo",
+      "text": "Las Blancas pueden capturar ahora mismo y contar el peón. {{Bxc6}} {{dxc6}} {{Nxe5}}, y la planilla dice un peón de ventaja.\n\nLuego llega {{Qd4}}, que golpea a la vez al caballo de e5 y al peón de e4. Uno de los dos cae, el material se iguala, y las Negras conservan la pareja de alfiles por las molestias.\n\nEl alfil nunca atacó e5. Capturar en c6 es una decisión sobre peones, y las Blancas tienen que estar dispuestas a vivir con ella.\n\n> El alfil de la Española no gana material. Compra una larga discusión."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Nueve jugadas, ninguna captura",
+      "text": "Nueve jugadas y no se ha capturado ni una pieza. Los dos ejércitos siguen buscando mejores casillas, y eso es lo que se llama la Española Cerrada.\n\nDos jugadas blancas parecen no hacer nada. El peón de c3 no es desarrollo: es un apoyo que espera a que llegue un peón al centro. El peón de h3 tampoco; quita g4, para que ningún alfil negro pueda salir a clavar al caballo de f3.\n\nEn una posición lenta, las jugadas gastadas en impedir las ideas del rival no son jugadas perdidas."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "El largo deslizamiento del alfil",
+      "text": "Sigue hacia atrás al alfil blanco de casillas blancas. Estaba en b5, pasó a a4 cuando un peón se lo pidió y a b3 cuando se lo pidió otro. Tres casillas, dos diagonales, y la segunda llega hasta f7.\n\nPregúntale una vez más y se va a c2. Desde ahí apunta a h7, detrás de su propio peón de e, fuera de alcance. No es una retirada que moleste a las Blancas: el peón de c3 prepara la apertura del centro, y un centro abierto es lo que ese alfil ha estado esperando.\n\nAsí que la persecución no va de ganar una pieza. Va de con qué diagonal tendrán que conformarse las Blancas."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "prompt": "Persigue a la mejor pieza blanca: coloca un caballo en la casilla de la columna a que ataca al alfil de b3.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "Tus dos caballos están en el tablero, pero solo el del flanco de dama tiene una jugada que toque b3."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "lucena-position",
+  "title": "The Lucena Bridge",
+  "summary": "One pawn from a queen, and a king with nowhere to stand",
+  "proof": "endgames-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "One Square Short",
+      "text": "The pawn on d7 is one square from the eighth rank, and White's own king is standing on that square.\n\nStep the king aside and the pawn promotes next turn. That is the whole win, and Black's best argument is the rook on a1, checking from the far side of the board. A king caught in the open with a rook behind it can be chased for a long time, and every check is a move the pawn stands still.\n\nSo this is not a question about the pawn. It is a question about where the king can stand."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "Nothing to Hide Behind",
+      "text": "{{Ke7}}, and {{Re1+}} lands at once. The rook swings onto whatever file the king steps to, from any distance it likes.\n\nSo give the king a wall before it steps out, and the checks stop mattering. Only one piece on this board can be one. Your rook on f2 already holds a job it must not drop: standing on the f-file, it keeps Black's king shut out of the fight.\n\nIt stays on that file, then. It goes up it — to a square the king can walk to and defend."
+    },
+    {
+      "type": "play",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "prompt": "Before your king steps out, send the rook up its file to build the wall it will hide behind.",
+      "targetSan": [
+        "Rf4"
+      ],
+      "hint": "Your king is coming out to meet that wall and must end up standing beside it, so count how far down the file that puts the rook."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "The Book It Is Named For",
+      "text": "Black's rook has swung to d1, onto the pawn's own file, ready to check along it. This is the position every endgame book calls the Lucena.\n\nLuis Ramírez de Lucena printed the oldest surviving book on how the modern game is played, in Salamanca around 1497, and this position is not in it. It reaches print more than a century later, in Alessandro Salvio's book of 1634. The name landed on the wrong volume and has never come off."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "Checks That Cost Nothing",
+      "text": "Now the king walks, and every step is met. {{Ke7}} {{Re1+}} {{Kd6}} {{Rd1+}}.\n\nNone of it changes anything. Black's rook cannot chase the king off a square that matters, because the king is not fleeing — it is marching toward the rank where the wall is already parked. Each check pushes the black rook one file sideways and puts White one rank closer.\n\nBlack can go on checking. The plan does not care."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "title": "One Rank Apart",
+      "text": "Four checks later your king stands on d5, and the rook on f4 sits one rank below it. Black checks again.\n\nRunning has stopped paying. Step to {{Ke5}} and the file opens behind you: {{Rxd7}}, and the pawn is gone. Step to c6 or e6 and the rook simply checks again down the new file. So the cleanest answer is to cut the check rather than run from it.\n\n> A block your opponent can take for nothing is no block at all. Put it where the king is already standing guard."
+    },
+    {
+      "type": "play",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "prompt": "End the checks for good by blocking on the one square your king already defends.",
+      "targetSan": [
+        "Rd4"
+      ],
+      "hint": "Your rook only has to travel along the rank it is already on, and only as far as the line of the check."
+    }
+  ]
+}

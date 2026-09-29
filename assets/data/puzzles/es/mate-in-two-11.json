@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-11",
+  "fen": "3r4/5pk1/4R3/3P3B/8/5Q2/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qxf7+",
+    "Kh8",
+    "Rh6#"
+  ],
+  "rating": 1360,
+  "title": "El alfil protege el regalo",
+  "setup": "Al rey negro de g7 lo protege un solo peón en f7, y tu alfil de h5 vigila esa casilla.",
+  "hint": "Parece que el peón que protege al rey solo lo defiende el rey. ¿Qué otra pieza tuya cubre esa casilla?",
+  "explanation": "## La idea\n\n{{Qxf7+}} funciona porque el alfil de **h5** cubre f7, así que el rey no puede comer. La torre de e6 ya le ha quitado g6 y h6, así que {{Kh8}} es forzada, y {{Rh6#}} pasa al otro lado para dar mate por la columna h."
+}

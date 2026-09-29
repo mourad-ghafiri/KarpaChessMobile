@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-10",
+  "fen": "4k3/2P5/8/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "c8=Q+"
+  ],
+  "title": "Corona el peón",
+  "setup": "El peón blanco ha llegado a **c7**, a un paso de una dama nueva.",
+  "hint": "Corona con jaque siempre que puedas. Le niega al defensor una jugada libre.",
+  "explanation": "## La idea\n\n{{c8=Q+}} corona con jaque por la octava fila. El rey no puede comerse la nueva dama y nada puede tapar, así que las Negras tienen que gastar su jugada en el rey, y te quedas con rey y dama contra rey solo.\n\nEspera una jugada y {{Kd7}} ataca al peón, que se pierde. Cuando un peón pueda coronar con seguridad, corónalo ya, y prefiere la coronación que da jaque."
+}

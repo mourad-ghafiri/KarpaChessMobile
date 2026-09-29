@@ -1,0 +1,68 @@
+{
+  "id": "the-champions",
+  "title": "Qui détient le titre",
+  "summary": "De 1886 à aujourd'hui, dix-huit champions, et les quatre fois où la lignée s'est rompue",
+  "proof": "history-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Reykjavík, 1972",
+      "text": "Un match d'échecs a fait la une dans des pays qui n'en avaient jamais suivi un seul.\n\nBobby Fischer est arrivé en Islande en retard, s'est plaint des caméras, a perdu la première partie puis refusé de jouer la deuxième. Boris Spassky détenait le titre, et le titre n'avait pas quitté les mains soviétiques depuis 1948.\n\nVoici la sixième partie. Fischer a les Blancs, et c'est aux Blancs de jouer. Ce que l'on raconte encore de cette partie n'est pas le résultat — c'est ce que Spassky a fait une fois qu'elle a été terminée."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Onzième de la lignée",
+      "text": "Fischer devient le onzième champion du monde à la fin de cet été-là, et les dix qui ont détenu le titre avant lui n'étaient d'accord sur presque rien.\n\nSteinitz disait qu'une attaque doit se mériter. Lasker a gardé le titre vingt-sept ans, plus longtemps que quiconque avant ou après lui, et on disait qu'il jouait l'homme autant que l'échiquier. Capablanca faisait paraître la victoire facile. Les joueurs apparus dans les années 1920 soutenaient qu'on pouvait contrôler le centre sans jamais y poser un pion. L'école soviétique a fait de la préparation une industrie et a conservé le titre vingt-quatre ans d'affilée."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Le dernier gardien",
+      "text": "Le cavalier noir en f6 assure deux tâches à la fois.\n\nIl couvre g8 et h7, les deux seules cases où le roi en h8 peut aller. Et il bloque la colonne f, où les Blancs ont empilé leurs tours en f5 et f3.\n\nRien d'autre ne viendra l'aider. Le pion blanc en e6 est à deux cases de la huitième rangée, donc la tour en e7 doit rester devant lui et la dame en e8 occupe la case que ce pion convoite. La tour en c7 est libre d'aller partout et n'a rien à faire une fois arrivée."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "prompt": "Donnez une tour pour le cavalier qui couvre g8 et h7, et faites en sorte que la reprise arrache un pion au roi.",
+      "targetSan": [
+        "Rxf6"
+      ],
+      "hint": "Le roi en h8 a un pion à côté de lui. Si c'est ce pion qui doit reprendre, quelle case laisse-t-il derrière lui ?"
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Le toit s'envole",
+      "text": "{{Rxf6}}, et refuser n'est pas une option intéressante — laisser la tour tranquille offre aux Blancs un cavalier entier.\n\n{{gxf6}}, donc. g7 est maintenant vide. Le pion qui se tenait à côté du roi est en f6, où la tour en f3 le regarde droit dans les yeux, et le roi en h8 n'a plus que le pion en h6."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4Pp1p/p1p5/P2pQ2P/1P1B1R2/6P1/6K1 w - - 0 39",
+      "title": "La seconde tour",
+      "text": "{{Rxf6}}. Même case, et cette fois rien ne reprend : aucune pièce noire n'atteint f6.\n\n{{Kg8}} {{Bc4}} {{Kh8}} — Spassky fait sortir et rentrer son roi, Fischer amène le fou protéger le pion en e6. Les Noirs ont passé deux coups à faire du surplace. Les Blancs en ont passé un, et le fou est maintenant là où ils le voulaient."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Là où elle s'est rompue",
+      "text": "On aime raconter le titre comme une lignée unique, transmise de main en main depuis 1886. Elle s'est rompue quatre fois.\n\nAlekhine est mort en détenant le titre en 1946, et personne ne l'a détenu jusqu'en 1948. Fischer ne l'a jamais défendu : en 1975, il est passé à Karpov sans qu'un coup soit joué. Kasparov et son challenger ont disputé leur match de 1993 hors de la FIDE, qui a couronné un champion rival, et il y a eu deux titres mondiaux pendant treize ans, jusqu'à la victoire de Kramnik sur Topalov en 2006. Carlsen a renoncé à défendre son titre en 2023, et c'est ainsi que Ding Liren est devenu champion — puis que Gukesh Dommaraju le lui a pris en décembre 2024, à dix-huit ans, le plus jeune de l'histoire."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Plus rien à jouer",
+      "text": "Les Noirs ont deux tours contre une seule aux Blancs et ne peuvent utiliser ni l'une ni l'autre.\n\nLa tour en e7 est toujours la seule chose devant le pion en e6, et la dame en e8 occupe toujours la case que ce pion convoite. Aucune des deux ne peut partir. La tour en c7 peut aller où elle veut, et il n'y a rien pour elle nulle part.\n\nReste le pion en h6, que personne ne protège, avec la tour en f6 qui le regarde déjà le long de la sixième rangée.\n\n> Une pièce qui ne peut pas quitter sa case a cessé d'être une pièce."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "prompt": "Ajoutez la dame à l'attaque de la tour sur h6, sur une case où rien ne peut la prendre et où la tour en f6 gagne un défenseur.",
+      "targetSan": [
+        "Qf4"
+      ],
+      "hint": "Écartez toutes les cases où la dame noire ou le pion en h6 pourraient prendre la dame, puis restez sur la colonne que la tour tient déjà."
+    }
+  ]
+}

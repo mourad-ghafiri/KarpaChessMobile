@@ -1,0 +1,14 @@
+{
+  "id": "overload-09",
+  "fen": "7k/4bppp/4R3/r7/3Q4/5R2/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Bxd8",
+    "Re8#"
+  ],
+  "rating": 1550,
+  "title": "Dale una casilla a la dama",
+  "setup": "Tu torre ya está en e6 y hay otra en f3, y el alfil negro de e7 es la última pieza que sostiene la octava fila.",
+  "hint": "Busca la casilla donde el defensor tiene que comer, no la casilla donde quiere comer.",
+  "explanation": "## La idea\n\n{{Qd8+}} pone la dama donde el alfil tiene que venir a comérsela; {{Bf8}} solo pierde más rápido. {{Bxd8}} vacía e7, y {{Re8#}} baja por la columna que tapaba el alfil. Lo importante no es la dama, sino la columna que despeja."
+}

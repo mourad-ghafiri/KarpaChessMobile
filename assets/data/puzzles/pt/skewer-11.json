@@ -1,0 +1,14 @@
+{
+  "id": "skewer-11",
+  "fen": "8/2q3k1/p7/2p1P2p/PR1p1P2/3Q4/2B3rP/5K2 w - - 0 1",
+  "solution": [
+    "Qh7+",
+    "Kf8",
+    "Qxc7"
+  ],
+  "rating": 1270,
+  "title": "O Bispo Atrás",
+  "setup": "A tua dama em d3 está à frente do teu próprio bispo, e o rei e a dama pretos partilham a sétima linha.",
+  "hint": "A tua dama tapa o seu próprio bispo. Para onde pode ir de maneira que sair da casa seja o que a mantém segura?",
+  "explanation": "## A Ideia\n\n{{Qh7+}} parece uma oferta até se ver o que sair de d3 faz: o bispo de **c2** cobre agora h7 pela diagonal de b1 a h7, portanto o rei não pode comer. {{Kf8}} é forçado, e a sétima linha fica nua para {{Qxc7}}."
+}

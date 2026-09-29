@@ -1,0 +1,13 @@
+{
+  "id": "forks-14",
+  "fen": "2r1k3/p4ppp/8/8/4N3/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd7",
+    "Nxc8"
+  ],
+  "title": "Garfa a Torre",
+  "setup": "A torre preta foi-se aproximando até c8, perto do rei. Estás uma qualidade abaixo, mas um peão acima.",
+  "hint": "Encontra a casa que dá xeque ao rei e ataca c8 ao mesmo tempo. Está a um salto.",
+  "explanation": "## A Ideia\n\n{{Nd6+}} ataca o rei de e8 e a torre de c8 ao mesmo tempo. Não há peão preto em c7 nem em e7 a guardar d6, portanto o cavalo está seguro. {{Kd7}} guarda a torre, mas {{Nxc8}} come-a à mesma, e depois de {{Kxc8}} as torres e os cavalos desapareceram. O que fica é um final de peões com o teu peão a mais.\n\nUm garfo que só ganha a qualidade pode chegar perfeitamente, quando leva a um final que consegues ganhar."
+}

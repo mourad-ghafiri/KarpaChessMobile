@@ -1,0 +1,57 @@
+{
+  "id": "king-moves",
+  "title": "La pièce qui ne part jamais",
+  "summary": "Une case dans n'importe quelle direction, moins toutes les cases que l'adversaire surveille",
+  "proof": "first-steps-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "title": "Jamais pris, jamais échangé",
+      "text": "Toutes vos autres pièces peuvent être échangées, données ou perdues. Pas le roi. Il n'est jamais pris et ne quitte jamais l'échiquier — la partie se termine avant.\n\nLes règles le tiennent donc en laisse courte : **une case, dans n'importe laquelle des huit directions**. Depuis e4, cela donne {{Kd5}}, {{Ke5}}, {{Kf5}}, {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\nHuit voisines. Rien du tout au-delà."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "prompt": "Avancez le roi sur n'importe quelle case qui touche e4 — les huit sont libres ici.",
+      "targetSan": [
+        "Kd5",
+        "Ke5",
+        "Kf5",
+        "Kd4",
+        "Kf4",
+        "Kd3",
+        "Ke3",
+        "Kf3"
+      ],
+      "hint": "Il n'y a rien d'autre sur l'échiquier, donc aucune case de l'anneau ne vaut mieux qu'une autre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Quelque chose surveille",
+      "text": "L'échiquier n'est plus vide. La tour noire en h5 balaie toute la cinquième rangée, d'un bout à l'autre, comme le fait une tour.\n\nRegardez ce que cela coûte au roi en e4. Trois de ses huit voisines — d5, e5 et f5 — sont sur cette rangée, en pleine vue de la tour."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Trois cases retirées",
+      "text": "Ces trois cases ne sont pas une mauvaise idée. Ce ne sont pas des choix du tout.\n\nUn roi ne peut **jamais aller sur une case attaquée par une pièce adverse**. L'échiquier ne le permet pas : tendez la main vers d5 et le coup n'existe tout simplement pas, de la même façon qu'une ligne droite n'existe pas pour un fou.\n\nIl en reste cinq : {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\n> Comptez les cases qui touchent le roi, puis rayez toutes celles que l'adversaire surveille. Ce qui reste, c'est tout le déplacement du roi."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3k4/8/3K4/8/8/8 w - - 0 1",
+      "title": "Les rois gardent leurs distances",
+      "text": "Le cas le plus simple de cette règle, ce sont deux rois. Le roi noir en d6 se tient à deux cases, et c5, d5 et e5 le touchent tous.\n\nCe qui veut dire que les trois sont interdites au roi blanc en d4. Il ne peut pas faire un seul pas en avant — tout l'avant de son anneau appartient à l'autre roi.\n\nDeux rois ne peuvent jamais se tenir côte à côte. Aucun n'a le droit d'entrer dans l'anneau de l'autre, alors une case vide les sépare toujours."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/4p3/4K3/8 w - - 0 1",
+      "prompt": "Ce pion a fermé les deux cases à côté du roi, mais pas celle où il se tient — gagnez-le.",
+      "targetSan": [
+        "Kxe3"
+      ],
+      "hint": "Un pion attaque en diagonale vers l'avant, jamais tout droit, et rien sur cet échiquier ne le protège."
+    }
+  ]
+}

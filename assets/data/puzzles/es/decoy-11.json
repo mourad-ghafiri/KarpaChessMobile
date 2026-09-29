@@ -1,0 +1,14 @@
+{
+  "id": "decoy-11",
+  "fen": "7k/pp2n1pp/7N/q7/1r6/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Nxg8",
+    "Nf7#"
+  ],
+  "rating": 1520,
+  "title": "Dale de comer al caballo",
+  "setup": "El rey de h8 está enterrado detrás de sus propios peones, y el caballo negro de e7 es la única pieza negra que llega a g8.",
+  "hint": "La esquina ya es una jaula. ¿Qué darías por tener g8 ocupada por una pieza negra?",
+  "explanation": "## La idea\n\nEl rey no puede comerse a {{Qg8+}}, porque tu caballo de h6 cubre g8, así que {{Nxg8}} es la única jugada. La última casilla de escape queda tapada por el propio caballo negro, y {{Nf7#}} es mate de la coz."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "maneuvering",
+  "title": "La maniobra",
+  "summary": "Tres jugadas tranquilas para colocar bien una pieza",
+  "proof": "strategy-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Nada que capturar, nada que impedir",
+      "text": "Ninguna pieza está colgada. Las Negras no amenazan nada, no hay jaques disponibles, y el centro puede esperar: {{d5}} lo cierra, {{dxe5}} lo abre, y ninguna de las dos cosas tiene que ocurrir en esta jugada.\n\nPosiciones así no son raras. Son la mayor parte de una partida.\n\nAsí que la pregunta cambia. No qué puedo ganar aquí, sino cuál de mis piezas trabaja menos y dónde preferiría estar. Esa respuesta cuesta tres jugadas, y cada una parece que no pasa nada."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "title": "Empieza por el final",
+      "text": "El caballo blanco de b1 no se ha movido en toda la partida, y todo lo que merece la pena atacar está al otro lado del tablero.\n\nLa casilla que quiere ese caballo es g3: desde ahí cubre f5 y h5, dos casillas que ningún peón negro vigila.\n\nAhora el camino. El atajo pasa por c3, donde está aparcado el propio peón blanco. Así que el caballo da la vuelta larga, y el primer paso de una vuelta larga siempre parece una jugada perdida."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+      "prompt": "Pon en camino hacia el flanco de rey al caballo que nunca se ha movido, sin mandarlo al borde.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "Desde su casilla inicial ese caballo tiene exactamente dos jugadas: una lo aparca en el borde y la otra lo mantiene en juego."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "title": "Peor antes que mejor",
+      "text": "El caballo negro se quedó sin casillas en el borde y ha vuelto a c6, donde controla de nuevo d4 y e5. Dos jugadores, la misma idea, en direcciones opuestas.\n\nTu propio caballo lleva un tramo recorrido y, por ahora, estorba: en d2 tapa al alfil de c1 y está delante de la dama de d1. Un caballo en mitad de su propia primera fila es un caballo en tránsito. No rinde nada hasta que llega, y por eso una maniobra es la decisión de estar un poco peor durante dos jugadas."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13",
+      "prompt": "El caballo viajero solo lleva un tramo, así que da el siguiente paso hacia el otro flanco.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Tres de las cuatro casillas de ese caballo lo dejan en el flanco de dama que intenta abandonar; solo una no."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "title": "El último tramo",
+      "text": "Hace dos jugadas este caballo no tenía nada que hacer. Ahora está a un salto de la casilla que justifica todo el viaje.\n\nMira el flanco de rey negro. Ningún peón negro vigila f5, y un caballo que llega a f5 golpea a la vez al alfil de e7 y al peón de d6. Así que el último tramo no es sobre f5 en sí. Es sobre la casilla que mantiene f5 a un salto y cubre h5 por el camino.\n\n> ¿Qué pieza tuya hace menos, en qué casilla preferirías que estuviera y cuál es el camino más corto hasta ella?"
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/2qbbppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 5 14",
+      "prompt": "Completa el viaje llevando el caballo adonde vigile a la vez f5 y h5.",
+      "targetSan": [
+        "Ng3"
+      ],
+      "hint": "Dos de las cuatro casillas del caballo miran a f5, y solo una de ellas mira también a h5."
+    }
+  ]
+}

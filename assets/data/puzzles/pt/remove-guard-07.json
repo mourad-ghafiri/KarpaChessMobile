@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-07",
+  "fen": "3r2k1/p4ppp/4n3/2b5/6B1/7P/P4PP1/2R3K1 w - - 1 2",
+  "solution": [
+    "Bxe6"
+  ],
+  "rating": 1290,
+  "title": "Um Passo Atrás",
+  "setup": "A tua torre em c1 olha para o bispo de c5, e o cavalo de e6 é a única coisa que o mantém vivo.",
+  "hint": "O alvo está defendido uma vez. Olha para esse único defensor e pergunta qual das tuas peças lhe chega.",
+  "explanation": "## A Ideia\n\n{{Bxe6}} come o cavalo que guarda c5. Depois de {{fxe6}} o bispo fica solto e {{Rxc5}} recolhe-o. Bispo por cavalo é uma troca justa — o bispo de c5 é o bónus. Uma troca igual pode descobrir uma peça inteira de graça."
+}

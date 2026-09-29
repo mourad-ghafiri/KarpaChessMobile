@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-14",
+  "fen": "7R/8/8/8/8/1K6/8/k7 w - - 0 1",
+  "solution": [
+    "Rh1#"
+  ],
+  "title": "Dünyanın Kenarı",
+  "setup": "Siyahın şahı a1 köşesinde sıkışmış ve b3'teki şahınız a2 ile b2'yi kapsıyor.",
+  "hint": "Şahınız siyahın şahının üstündeki kareleri zaten kapsıyor. Kalenizin yalnızca onu durduğu yerde şah çekmesi gerekiyor.",
+  "explanation": "## Fikir\n\nZor işi şahınız yaptı: b3'ten a2 ile b2'yi kapsıyor, yani siyahın şahına yalnızca b1 kalıyor.\n\n{{Rh1#}} birinci yatay boyunca şah çeker ve b1 de kalenin hattındadır. Araya hiçbir şey giremez ve şah kaleye ulaşamaz.\n\nŞah ve kale oyun sonunda şahınız rakip şahın önündeki kareleri alır, kale de uzaktan şah çeker."
+}

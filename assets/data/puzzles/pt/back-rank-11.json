@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-11",
+  "fen": "3r2k1/2q2ppp/8/8/8/8/3R1PPP/3Q2K1 w - - 0 1",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Qxd8#"
+  ],
+  "title": "O Duplicar Decisivo",
+  "setup": "A tua torre e a tua dama estão duplicadas na coluna d aberta. A torre preta guarda a linha de fundo, com a sua dama em c7 atrás dela.",
+  "hint": "Dois atacantes contra dois defensores numa casa. Troca as peças da frente e vê qual fica de pé.",
+  "explanation": "## A Ideia\n\nDuplicar numa coluna aberta é aritmética. Duas peças brancas atingem d8, e duas peças pretas guardam-na.\n\n{{Rxd8+}} abre a conta com xeque, e {{Qxd8}} é a única resposta legal. Depois {{Qxd8#}} recaptura com mate: f8 e h8 estão na linha da dama, e f7, g7 e h7 têm os peões das pretas.\n\nQuando as contas estão iguais, quem captura primeiro fica com a última peça na casa."
+}

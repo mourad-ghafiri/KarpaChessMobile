@@ -1,0 +1,56 @@
+{
+  "id": "chess-origins",
+  "title": "Born in India",
+  "summary": "Foot soldiers, horses, elephants, chariots — and which of them survived the trip",
+  "proof": "history-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "Four Divisions",
+      "text": "Lift the two kings and the two queens off this board. Everything still standing is a division of an army: foot soldiers, horses, elephants, chariots.\n\nMost historians place that army in northern India around the 6th century, in a game called **chaturanga** — four-limbed, after the four arms an army was built from. Nobody can name the inventor, and nobody can name the year.\n\nThe two pieces you just lifted were never divisions. The king commanded, and next to the king stood a counselor. That counselor is your queen."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "The Chariot's Road",
+      "text": "A chariot wants one thing, and it is a road with nothing on it.\n\nNeither side has an e-pawn left here, so the e-file is bare from end to end except for two black pieces: the knight on e4, and at the far end of the road, the black king on e8.\n\nPut something on that file that strikes along it and the knight is stuck where it stands. Every square its L reaches is off that road, and leaving the road would put its own king under attack."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "prompt": "Both e-pawns are gone, so take that empty road with a rook and nail the knight in front of its king.",
+      "hint": "Only one of your rooks can get there. Look at what is standing in the other one's way.",
+      "targetSan": [
+        "Re1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQR1K1 b k - 2 10",
+      "title": "One Move Too Late",
+      "text": "The knight is attacked and it cannot run, and every guard Black could send to e4 walks away from the other knight — which White's d-pawn is already reaching for.\n\nSo Black gets the king out of the argument instead. {{Ne7}} puts a piece between the two, and the trapped knight is free again — on White's move.\n\n{{Rxe4}} collects it. That is what a chariot is for. It does not have to reach the target this move, only to keep pointing at it."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "What Got Rewritten",
+      "text": "New board. The game left India and was rewritten more than once on the way here, and two pieces took nearly all of it.\n\nThe elephant's move was a jump of exactly two squares diagonally. It could touch eight squares of the sixty-four and no others. Europe threw that out. The counselor went the other way entirely: the weakest piece on the board came back as the strongest one on it.\n\nThe chariot and the horse came through. Castling later gave the chariot a trick no chariot ever had, but the way it crosses a board is the way it always crossed one."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "The Horse Kept Its Leap",
+      "text": "Every other piece travels along a line, and a line runs both ways — the knight you just trapped was lost because one ran through it to its own king.\n\nA leap has no line. The horse never crosses the squares between where it starts and where it lands, so there is nothing to stand in and nothing to point along. A check from a horse leaves exactly two answers: move the king, or take the horse.\n\n> A road can be blocked. A leap cannot."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Find the leap that checks the black king and attacks the rook on c8 at the same time.",
+      "hint": "Start at the king: list the squares next to it that your knight can reach, then ask what else each of those squares touches.",
+      "targetSan": [
+        "Ne7+"
+      ]
+    }
+  ]
+}

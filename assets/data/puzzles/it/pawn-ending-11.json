@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-11",
+  "fen": "3k4/8/4p3/4P3/8/4K3/8/8 w - - 1 2",
+  "solution": [
+    "Kf4"
+  ],
+  "rating": 1465,
+  "title": "Andate Dove il Re Non C'È",
+  "setup": "Il re nero è appena tornato indietro in d8, lasciando al Bianco tutta l'ala di re.",
+  "hint": "Al pedone in e6 serve il suo re accanto; stabilite quale fianco quel re impiegherebbe più tempo a raggiungere.",
+  "explanation": "## L'idea\n\n{{Kf4}} punta sull'ala che il Nero ha appena lasciato. {{Ke7}} {{Kg5}} {{Kf7}} {{Kh6}}, e il re bianco gira attraverso g6 e g7. Il Nero non può coprire insieme d7 e f7, quindi e6 cade e il pedone passato promuove. {{Kd4}} o {{Ke4}} lasciano invece il Nero tenere tutto."
+}

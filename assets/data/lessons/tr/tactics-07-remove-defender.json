@@ -1,0 +1,56 @@
+{
+  "id": "remove-the-defender",
+  "title": "Koruyanı Uzaklaştırın",
+  "summary": "Korunan bir taş, ancak koruyucusu kadar güvendedir",
+  "proof": "remove-defender-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Tek Saldıran, Tek Koruyucu",
+      "text": "Siyahın fili beyazın yarısının derinliklerine, d4'e yürümüş ve orada durmuş; üstelik askıda değil. d1'deki vezirin ona açık bir dikeyi var — bu bir saldıran eder. c6'daki at d4'ü kapsıyor — bu da bir koruyucu eder ve filin durduğu yerde durabilmesinin bütün sebebi o koruyucudur.\n\nTaş almaları saymak size, almadan önce iki tarafı da toplamayı öğretti. Bu, sayım sizin lehinize çıkmadığında yapılacak şeydir.\n\nKareyle tartışmayı bırakın. Koruyucuyla tartışın."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Bir Koruyucuyu Durdurmanın İki Yolu",
+      "text": "Koruyucu, tahtadan kalktığında korumayı bırakır; karesinden kovulduğunda da korumayı bırakır. Sonuna kadar sayabileceğiniz olan birincisidir, çünkü bir taş almadan sonra ters gidecek bir şey kalmaz.\n\nYani hedef merkezdeki fil değil. Hedef, onun hesabını veren taş ve o taş, beyazın hâlihazırda ulaşabildiği bir karede duruyor.\n\n> Oynamak istediğiniz hamleyi bulun. Sonra hayır diyen tek taşı bulun."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "prompt": "d4'teki sayımı, onun hesabını veren tek siyah taşı alarak değiştirin.",
+      "targetSan": [
+        "Bxc6+"
+      ],
+      "hint": "d4'ü koruyanları sayın. Tam bir tane var ve beyazın bir taşı ona çoktan doğrultulmuş durumda."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Kimsenin Yedek Hamlesi Yoktu",
+      "text": "Taş alma şah çekerek geldi ve işe yaramasını sağlayan da buydu. Şah olmasaydı siyah hamlesini fili d4'ten çekmeye harcardı. Oysa bütün hamle şahtan kurtulmaya gitti.\n\nBurada geri almayı vezir yaptı; bunun yerine b piyonu da geri alabilirdi. Her hâlükârda değişim eşit — ata karşı fil, üçe üç, ne kazanılan ne kaybedilen var.\n\nGeri almaların hiçbirinde olmayan şey, d4'e harcanacak bir andı."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Kareyi Yeniden Sayın",
+      "text": "Fil hâlâ d4'te oturuyor ve d1'deki vezir hâlâ dosdoğru ona bakıyor. Değişen, toplamın öteki tarafı.\n\nc6'daki vezir d4'e ulaşmıyor. Hiçbir piyon ona dokunmuyor. Kalelerin ikisi de d dikeyinde değil ve e8'deki şah ona fersah fersah uzak.\n\nBir kez saldırı altında, kimse tarafından korunmuyor. Beklediğiniz sayım buydu."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Bir Hamle, Bir Pozisyon Değil",
+      "text": "Bir koruyucuyu almak tam olarak bir hamle kazandırır. Üstünlük değil, plan değil — bir hamle.\n\nBunun yerine siyaha sıra verin, fil d4'ten sessiz bir yere yürüsün ya da bir kale d8'e insin ve onu arkadan kapsasın. O taşı yerinde tutan tek şey sıranın kimde olduğudur.\n\nBir de bedel var ve küçük. Beyazın veziri d1'den ayrıldığında c2'yi kapsayan bir şey kalmaz ve siyahın veziri c dikeyinden aşağı koşup o piyonu yiyebilir. Bir file karşı bir piyon pazarlık konusu değildir."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "prompt": "Siyaha onu yürütecek bir hamle verilmeden d4'teki taşı toplayın.",
+      "targetSan": [
+        "Qxd4"
+      ],
+      "hint": "Şu anda siyahın hiçbir taşı d4'ün hesabını vermiyor ve bu, tam olarak bir hamle daha böyle."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-11",
+  "fen": "q7/5ppp/8/k7/8/7P/5PPK/6R1 w - - 0 1",
+  "solution": [
+    "Ra1+",
+    "Kb6",
+    "Rxa8"
+  ],
+  "title": "Showdown on the a-File",
+  "setup": "Black is up a queen for a rook, but its king on a5 and queen on a8 are standing on the same file.",
+  "hint": "Check the king along the line it shares with the queen, and see what is left when it steps aside.",
+  "explanation": "## The Idea\n\nThis is a skewer: the king stands in front and the queen behind. {{Ra1+}} checks the king on a5 down the a-file. Nothing can block, so the king has to leave the file, and after {{Kb6}}, {{Rxa8}} takes the queen.\n\nIn a pin the more valuable piece hides behind. In a skewer it stands in front, and when it moves, whatever is behind it falls."
+}

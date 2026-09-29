@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-08",
+  "fen": "7k/4bppp/r5R1/1Q4B1/8/8/PP2r3/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Bf8",
+    "Qxf8#"
+  ],
+  "rating": 1560,
+  "title": "Offritela all'Alfiere",
+  "setup": "La vostra donna in b5 e la vostra torre in g6 puntano su un re che ha per compagnia un alfiere in e7.",
+  "hint": "L'alfiere può parare su una casa sola. Scegliete lo scacco che lo costringe a scegliere quella casa.",
+  "explanation": "## L'idea\n\n{{Qe8+}} forza {{Bf8}} — l'alfiere non può prendere e il re non può muovere. Segue {{Qxf8#}}: la donna copre g8, e g7 e h7 hanno i pedoni del Nero. Lo scacco non è il matto; è ciò che dispone il matto."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "endgame-04",
+  "fen": "8/8/5k2/8/3K4/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Kd5"
+  ],
+  "title": "L'Attività del Re Vince",
+  "setup": "Il vostro pedone in e3 è molto lontano da casa, e il re nero in f6 sorveglia le case davanti a sé.",
+  "hint": "Non spingete il pedone. Guadagnate una traversa con il re, su una casa che il re nero non può contendere.",
+  "explanation": "## L'idea\n\nIl pedone non può guidare. Spinto da solo va addosso al re nero, che copre già le case davanti a sé.\n\n{{Kd5}} guadagna invece una traversa, su una casa che il Nero non può contendere. Dopo {{Ke7}}, {{Ke5}} si mette dritto davanti al re nero, e il vostro re continua a camminare davanti al suo pedone. Ogni altra mossa, spinta di pedone compresa, lascia al re nero la patta.\n\nConquistate prima le case, e la marcia del pedone è al sicuro."
+}

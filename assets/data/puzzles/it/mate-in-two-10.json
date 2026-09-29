@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-10",
+  "fen": "b4k2/6p1/7p/8/2RB2Q1/8/6PP/7K w - - 0 1",
+  "solution": [
+    "Qxg7+",
+    "Ke8",
+    "Rc8#"
+  ],
+  "rating": 1320,
+  "title": "Sacrificate il Riparo",
+  "setup": "Al re nero in f8 resta un pedone davanti, e il vostro alfiere in d4 gli punta dritto addosso.",
+  "hint": "Il pedone accanto al re sembra una guardia. Chiedetevi che cosa copre il vostro alfiere sulla casa dietro di lui.",
+  "explanation": "## L'idea\n\n{{Qxg7+}} funziona perché l'alfiere in **d4** difende g7, quindi il re non può prendere. {{Ke8}} è l'unica casa rimasta, e adesso la donna rastrella la settima traversa mentre {{Rc8#}} si prende l'ottava. Due linee, nessuna fuga."
+}

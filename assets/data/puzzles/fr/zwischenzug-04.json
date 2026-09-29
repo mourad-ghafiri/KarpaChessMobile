@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-04",
+  "fen": "3B2k1/3Q1ppp/4r3/8/2b5/4R3/PP1r4/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1420,
+  "title": "Votre tour peut attendre",
+  "setup": "La tour noire s'est posée en d2, au fond de votre camp, et son autre tour se tient en e6 — il y a de quoi s'inquiéter.",
+  "hint": "On vous demande de défendre. Donnez d'abord échec, et voyez si la défense devient jamais nécessaire.",
+  "explanation": "## L'idée\n\n{{Qe8+}} ignore complètement la tour en d2. {{Rxe8}} est forcé, la colonne e est cédée, et {{Rxe8#}} arrive. Un échec intermédiaire ne coûte rien quand la partie se termine avant que la menace tombe."
+}

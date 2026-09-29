@@ -1,0 +1,13 @@
+{
+  "id": "strategy-11",
+  "fen": "r1r3k1/pp1bpp1p/3p1npQ/q3n3/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+  "solution": [
+    "Rxc3",
+    "bxc3",
+    "Qxc3"
+  ],
+  "title": "Ata Karşılık Kale, İsteyerek",
+  "setup": "Koyu kare filleri değişildi, beyazın veziri h6'ya kadar gitti ve siyahın iki kalesi de çoktan yerleşti.",
+  "hint": "b5, d5 ve e4'ü bir arada tutan tek bir beyaz taş var ve o yok olursa geri alabilecek tek bir beyaz birim var.",
+  "explanation": "## Fikir\n\nSiyah, üç puan için beş puan verir; çünkü bedeli piyonlar öder. {{Rxc3}} b5, d5 ve e4'ü bir arada tutan atı kaldırır ve {{bxc3}} beyazın tek kurallı geri almasıdır.\n\nŞimdi taşları değil, pozisyonu sayın. Beyazın şahı kırık piyonların arkasında oturur, b dikeyinde hiç beyaz piyon kalmamıştır ve {{Qxc3}} bir piyonu geri kazanırken vezir a1'de şah çekmeye bir hamle uzaklıktadır.\n\nGeri alma piyonları mahvediyorsa ve devamı hızlı geliyorsa kaliteyi harcayın."
+}

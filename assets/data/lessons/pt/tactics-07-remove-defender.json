@@ -1,0 +1,56 @@
+{
+  "id": "remove-the-defender",
+  "title": "Eliminar o Defensor",
+  "summary": "Uma peça guardada é tão segura quanto o seu guarda",
+  "proof": "remove-defender-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Um Atacante, Um Guarda",
+      "text": "O bispo preto entrou em d4 e ficou por ali, no fundo da metade branca, e não está pendurado. A dama em d1 tem uma coluna desimpedida até ele — está aí um atacante. O cavalo em c6 cobre d4 — está aí um guarda, e é todo esse guarda a razão pela qual o bispo pode estar onde está.\n\nContar capturas ensinou-te a somar os dois lados antes de capturares. Isto é o que fazer quando a conta não te dá jeito.\n\nPara de discutir com a casa. Discute com o guarda."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "title": "Duas Maneiras de Parar um Guarda",
+      "text": "Um guarda deixa de guardar quando sai do tabuleiro, e deixa de guardar quando é enxotado da sua casa. A primeira é a que consegues contar até ao fim, porque depois de uma captura não fica nada por dar errado.\n\nPortanto o alvo não é o bispo no centro. O alvo é a peça que responde por ele, e essa peça está numa casa a que as brancas já chegam.\n\n> Encontra a jogada que queres fazer. Depois encontra a única peça que diz que não."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/ppq1pppp/2n5/3B4/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 1",
+      "prompt": "Muda a conta em d4 capturando a única peça preta que responde por ele.",
+      "targetSan": [
+        "Bxc6+"
+      ],
+      "hint": "Conta os defensores de d4. Há exatamente um, e algo das brancas já lhe aponta diretamente."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Ninguém Tinha uma Jogada a Mais",
+      "text": "A captura chegou com xeque, e foi isso que a fez funcionar. Sem o xeque, as pretas teriam gasto a jogada a tirar o bispo de d4. Em vez disso a jogada inteira foi para sair do xeque.\n\nAqui recapturou a dama; podia ter recapturado o peão b. Em qualquer dos casos a troca é equilibrada — um bispo por um cavalo, três por três, nada ganho e nada perdido.\n\nO que nenhuma recaptura tinha era um momento para gastar em d4."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Reconta a Casa",
+      "text": "O bispo continua em d4 e a dama em d1 continua a olhar diretamente para ele. O que mudou foi o outro lado da soma.\n\nA dama em c6 não chega a d4. Nenhum peão lhe toca. Nenhuma das torres está na coluna d, e o rei em e8 não está sequer perto.\n\nAtacado uma vez, guardado por ninguém. É essa a conta que estavas à espera."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "title": "Uma Jogada, Não uma Posição",
+      "text": "Capturar um guarda compra exatamente uma jogada. Não uma vantagem, não um plano — uma jogada.\n\nDá antes uma vez às pretas e o bispo sai de d4 para um sítio sossegado, ou uma torre desce até d8 e cobre-o por trás. Nada segura essa peça no lugar a não ser o facto de ser a tua vez.\n\nHá um preço, e é pequeno. Assim que a dama branca deixar d1, nada cobre c2, e a dama preta tem estrada livre pela coluna c para comer esse peão. Um peão contra um bispo não é uma negociação."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pp2pppp/2q5/8/3bP3/8/PPP2PPP/R1BQ1RK1 w kq - 0 2",
+      "prompt": "Recolhe a peça em d4 antes que às pretas seja dada uma jogada para a levarem dali.",
+      "targetSan": [
+        "Qxd4"
+      ],
+      "hint": "Neste momento nada do lado das pretas responde por d4, e isso é verdade por exatamente mais uma jogada."
+    }
+  ]
+}

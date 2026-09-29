@@ -1,0 +1,14 @@
+{
+  "id": "defence-11",
+  "fen": "Bq6/4r3/8/8/6R1/2K5/8/Q1r1k3 w - - 0 1",
+  "solution": [
+    "Qxc1+",
+    "Ke2",
+    "Rg2#"
+  ],
+  "rating": 1900,
+  "title": "Take the Rook on Your Doorstep",
+  "setup": "Black's rook on c1 is checking your king on c3, and Black's queen on b8 and rook on e7 are waiting behind it.",
+  "hint": "The piece giving you trouble is also the piece nearest Black's king. Ask what your rook can do once it is gone.",
+  "explanation": "## The Idea\n\n{{Qxc1+}} removes the intruder with check. {{Ke2}} and {{Kf2}} lose alike to {{Rg2#}}, because the bishop on a8 guards g2 from the far corner. The move that saved your king and the move that trapped Black's were the same one."
+}

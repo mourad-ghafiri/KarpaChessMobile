@@ -1,0 +1,14 @@
+{
+  "id": "overload-08",
+  "fen": "2r3k1/3b1ppp/3Q4/8/3R4/2R5/PP6/K7 w - - 0 1",
+  "solution": [
+    "Rxc8+",
+    "Bxc8",
+    "Qd8#"
+  ],
+  "rating": 1520,
+  "title": "Troca Para Dentro do Mate",
+  "setup": "O bispo preto em d7 escora a torre de c8 enquanto a tua dama espera em d6.",
+  "hint": "Dois defensores podem parecer o dobro da defesa. Verifica se guardam a mesma casa ou se se cobrem um ao outro.",
+  "explanation": "## A Ideia\n\n{{Rxc8+}} é uma troca simples, mas {{Bxc8}} arranca o bispo de d7 e abre a coluna d, portanto segue-se {{Qd8#}}. Tapar com {{Be8}} em vez disso dá em {{Rxe8#}}. O bispo guardava a torre e fechava a coluna d ao mesmo tempo, e não consegue fazer as duas coisas."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-09",
+  "fen": "rnbqkbn1/ppppp3/8/6pr/3P1p2/3BP1B1/PPP2PPP/RN2K1NR w KQq - 0 8",
+  "solution": [
+    "Bg6#"
+  ],
+  "rating": 840,
+  "title": "Lubang di f7",
+  "setup": "Hitam baru saja mengambil menteri Anda di h5, dan f7 kosong dengan raja masih di e8.",
+  "hint": "Raja hitam hanya punya tepat satu petak bebas di sampingnya. Buah mana yang bisa menyerangnya sambil memberi sekak?",
+  "explanation": "## Ide\n\nBuah-buah Hitam sendiri mengisi d7, d8 dan f8, jadi f7 satu-satunya petak raja, dan {{Bg6#}} menguasai f7 sambil memberi sekak lurus menembusnya. Benteng yang baru mengambil menteri Anda tinggal satu petak untuk mencegah ini dan tak bisa kembali tepat waktu."
+}

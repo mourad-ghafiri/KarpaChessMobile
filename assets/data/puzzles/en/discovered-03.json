@@ -1,0 +1,11 @@
+{
+  "id": "discovered-03",
+  "fen": "4k3/r7/2N5/1B6/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxa7+"
+  ],
+  "title": "Knight Clears the Diagonal",
+  "setup": "Your bishop on b5 aims at the king — but your own knight stands in the way. That is not a problem; it is a move.",
+  "hint": "The knight must move for the check to appear. Find the jump that grabs something on the way.",
+  "explanation": "## The Idea\n\nThe knight on c6 blocks the bishop's diagonal to e8, so any knight move gives check. That freedom is the point: the knight can go wherever it gains most.\n\n{{Nxa7+}} takes the rook while the bishop on b5 gives the check. Black must answer the check, so nothing takes the knight back, and White is left with bishop and knight against a bare king.\n\nWith a discovered check, spend the free move on the biggest capture in reach."
+}

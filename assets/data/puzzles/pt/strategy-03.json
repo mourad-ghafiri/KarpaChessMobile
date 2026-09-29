@@ -1,0 +1,11 @@
+{
+  "id": "strategy-03",
+  "fen": "rnbqkb1r/pp1ppppp/8/2p1P3/8/2n2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 5",
+  "solution": [
+    "dxc3"
+  ],
+  "title": "Que Peão Recaptura",
+  "setup": "O cavalo preto acabou de comer o teu, e dois dos teus peões o podem recapturar. Em qualquer dos casos ficas com dois peões numa coluna.",
+  "hint": "As duas capturas empilham os teus peões c. Qual delas deixa também um peão sem vizinho nenhum?",
+  "explanation": "## A Ideia\n\nQualquer das capturas dobra os teus peões c, portanto conta o que mais cada uma custa.\n\n{{bxc3}} deixa também o peão a encalhado sem um peão ao lado: um peão isolado, por nada.\n\n{{dxc3}} mantém todos os outros peões ligados a um vizinho, abre a coluna d na direção da dama preta, e desimpede a estrada de c1 até h6 para o teu bispo. Aqui capturar para fora do centro está certo pelo que abre."
+}

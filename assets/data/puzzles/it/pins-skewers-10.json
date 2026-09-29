@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-10",
+  "fen": "3k4/p2b1ppp/6n1/1pP5/8/8/PP1R1PPP/6K1 w - - 0 1",
+  "solution": [
+    "c6"
+  ],
+  "title": "Alfiere Inchiodato, Alfiere Perduto",
+  "setup": "L'alfiere nero sta sulla colonna d fra la vostra torre e il suo re, e il vostro pedone c è lì vicino.",
+  "hint": "Un alfiere inchiodato non può uscire dalla sua linea, nemmeno per catturare. Attaccatelo con il vostro pezzo più economico.",
+  "explanation": "## L'idea\n\nL'alfiere in d7 è inchiodato contro il re in d8 dalla vostra torre, quindi non può lasciare la colonna d. {{c6}} lo attacca, e l'alfiere non può né prendere il pedone né scappare, quindi {{cxd7}} lo vince alla mossa successiva, per un pedone al massimo.\n\nPrendere con la torre cambierebbe solo torre per alfiere. Attaccate un pezzo inchiodato con la cosa più economica che avete."
+}

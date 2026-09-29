@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-06",
+  "fen": "1k6/8/8/5Q2/8/3Kp3/6B1/8 w - - 0 1",
+  "solution": [
+    "Qd7",
+    "e2",
+    "Qb7#"
+  ],
+  "rating": 1560,
+  "title": "Lasciate Correre il Pedone",
+  "setup": "Il re nero è in b8 e il suo pedone in e3 è a due case dalla promozione, con il vostro re proprio accanto in d3.",
+  "hint": "Il pedone non è il pericolo. Prendetevi le case del re e lasciatelo avanzare.",
+  "explanation": "## L'idea\n\n{{Qd7}} copre a7, b7, c7 e c8 senza dare scacco. L'unica mossa legale del Nero è {{e2}}, e {{Qb7#}} arriva prima. Un pedone passato che promuove una mossa troppo tardi non è un pedone passato."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-05",
+  "fen": "3R4/8/2b3p1/4K3/2k5/8/6Q1/r4R1B w - - 0 1",
+  "solution": [
+    "Qxc6+",
+    "Kb3",
+    "Rb8+",
+    "Ka2",
+    "Qa4#"
+  ],
+  "rating": 1490,
+  "title": "Beli Diagonalnya",
+  "setup": "Kedua raja saling berhadapan di pusat, raja Hitam di c4, dan gajahnya di c6 adalah buah yang menahan semuanya tetap utuh.",
+  "hint": "Satu buah hitam menjaga petak-petak yang diinginkan menteri Anda. Hitung harganya, lalu beri sekak di sepanjang garis yang tadi dikuasainya.",
+  "explanation": "## Ide\n\n{{Qxc6+}} menyingkirkan gajah dengan sekak. {{Rb8+}} menggiring raja ke tepi dan {{Qa4#}} menutup kandangnya. Mengambil pembela adalah langkah perburuan ketika penangkapannya datang dengan sekak."
+}

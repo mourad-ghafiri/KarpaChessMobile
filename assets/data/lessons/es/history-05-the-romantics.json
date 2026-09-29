@@ -1,0 +1,71 @@
+{
+  "id": "romantic-era",
+  "title": "Una noche en la ópera",
+  "summary": "París, 1858, y lo que Morphy compró con una torre",
+  "proof": "history-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Un palco en la ópera",
+      "text": "París, 1858. La partida más famosa de la historia la jugó alguien que habría preferido ver la ópera.\n\nPaul Morphy tiene veintiún años, es estadounidense y está a mitad de una gira europea en la que ha vencido a todo el que quiso sentarse frente a él. El duque de Brunswick le ofrece un palco en la ópera italiana y una partida; el duque y el conde Isouard llevan juntos las Negras, discutiendo entre ellos cada jugada. Morphy lleva las Blancas, tiene un ojo puesto en el escenario y termina en diecisiete jugadas.\n\nLas fuentes todavía no se ponen de acuerdo sobre qué se cantaba."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "El trato romántico",
+      "text": "Cuenta las torres: Morphy tiene una y las Negras dos.\n\nEl ajedrez en el que creció Morphy creía una cosa, y la creía por completo: sacar todas las piezas, abrir todos los caminos hacia el rey rival y pagar esa velocidad con material. Más tarde recibió un nombre: la escuela **romántica**. La mayoría de quienes lo intentaron acabaron simplemente con una torre de menos.\n\nMorphy es aquel al que le funcionó, y la diferencia era aritmética. Estas líneas abiertas han costado un caballo y una torre, y las Blancas van tres puntos por detrás."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "Dos torres dormidas",
+      "text": "Los dos bandos tienen una torre que no se ha movido en toda la partida, y solo uno está en condiciones de despertarla.\n\nLa torre negra está en h8 con el rey en e8 y un alfil en f8 entre ambos, y ese alfil no tiene ninguna casilla legal.\n\nLa casilla con movimiento es d7. El alfil de b5 ataca a la torre de d7; el rey de e8, la dama de e7 y el caballo de f6 la defienden. Tres contra uno: todavía no cae nada. Pero todas las piezas blancas salvo una ya apuntan a este rincón del tablero."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "prompt": "Mete la última torre en juego por la columna donde está la torre negra.",
+      "hint": "Solo una columna va despejada desde la primera fila blanca hasta una pieza negra, y solo una pieza blanca no ha salido nunca de casa.",
+      "targetSan": [
+        "Rd1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 b k - 1 14",
+      "title": "No es por la torre",
+      "text": "La torre llega, y la cuenta en d7 pasa a dos atacantes contra tres defensores. Todavía nada.\n\nLas Negras apartan la dama a un lado: {{Qe6}}. Protege d7 igual que desde e7, y ahora se enfrenta a la dama blanca de b3 por una misma diagonal: una oferta para cambiar damas y quitarle hierro a la partida.\n\nMorphy cambia otra pareja. {{Bxd7+}} {{Nxd7}}, y la pieza que queda entre la torre de d1 y la casilla junto al rey negro es un caballo."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w k - 0 16",
+      "prompt": "Capturar el caballo solo permite recapturar a las Negras: obliga al propio caballo negro a despejar la columna.",
+      "hint": "El rey negro no tiene casilla y la dama negra no llega a la octava fila, así que un jaque ahí tendría exactamente una respuesta.",
+      "targetSan": [
+        "Qb8+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Por qué se fue la dama",
+      "text": "La dama no fue un regalo. Fue una orden de desalojo.\n\nCapturar el caballo siempre había sido posible y nunca había servido de nada: las Negras recapturan en d7, la columna se vuelve a cerrar y las Blancas han dado una segunda torre por un caballo.\n\nUn jaque en b8 planteaba otra pregunta. Las Negras tenían exactamente una jugada legal en todo el tablero, y era el caballo viniendo a capturar la dama."
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Cuéntalo antes de jugarlo",
+      "text": "La columna d está ahora vacía, desde la torre de d1 hasta la octava fila.\n\nEl alfil de g5 hace dos cosas a la vez: a través de la casilla vacía f6 defiende d8 y cubre e7. El rey de e8 no tiene adónde ir: f8 es la casilla de su propio alfil, y d7 está en la columna que ya domina la torre. A una torre que llega justo al lado tampoco se le puede cortar el paso.\n\n> La escuela romántica pagaba material por líneas abiertas. Solo les funcionó a los jugadores que contaban primero el final."
+    },
+    {
+      "type": "play",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "prompt": "Dos piezas y ninguna dama: remata en la columna que dejó el caballo.",
+      "hint": "Una pieza blanca ya protege la casilla de llegada y cubre la única salida del rey, así que la torre solo tiene que llegar.",
+      "targetSan": [
+        "Rd8#"
+      ]
+    }
+  ]
+}

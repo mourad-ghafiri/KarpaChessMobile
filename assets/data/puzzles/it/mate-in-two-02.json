@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-02",
+  "fen": "7k/5ppp/1n5R/2N5/8/7R/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Rxh7+",
+    "Kg8",
+    "Rh8#"
+  ],
+  "rating": 950,
+  "title": "Raddoppiate sulla Colonna h",
+  "setup": "Le vostre torri sono impilate sulla colonna h, e il re nero è incastrato nell'angolo dietro tre pedoni.",
+  "hint": "Due torri su una colonna vogliono dire che quella davanti si può regalare. Chiedetevi che cosa controlla poi quella dietro.",
+  "explanation": "## L'idea\n\n{{Rxh7+}} è sicura perché la torre in h3 difende h7, quindi {{Kg8}} è forzata. {{Rh8#}} dà allora matto: il re continua a non poter prendere, f7 e g7 sono i suoi stessi pedoni, e andare in f8 lo lascia sulla traversa che la torre attacca."
+}

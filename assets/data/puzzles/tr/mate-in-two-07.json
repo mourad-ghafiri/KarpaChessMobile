@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-07",
+  "fen": "6k1/3N2pp/8/3r2B1/8/7Q/5PPP/4K3 w - - 0 1",
+  "solution": [
+    "Qe6+",
+    "Kh8",
+    "Qe8#"
+  ],
+  "rating": 1200,
+  "title": "At f8'i Kesiyor",
+  "setup": "d7'deki atınız sessizce f8'i kapsıyor ve bu, siyahın şahına sandığından çok daha az kare bırakıyor.",
+  "hint": "Şah çekmeden önce siyahın şahının kaçış karelerini sayın. Atınız bunlardan hangisini zaten gözlüyor?",
+  "explanation": "## Fikir\n\n**d7**'deki at f8'i kapsar, yani a2–g8 çaprazındaki bir şah, şaha tek kare bırakır. {{Qe6+}} {{Kh8}} hamlesini zorlar ve {{Qe8#}} arka yatayda mat eder: vezir g8'i kapsar, g7 ile h7'deki piyonlar gerisini halleder."
+}

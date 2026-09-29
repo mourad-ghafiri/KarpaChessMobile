@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-29",
+  "fen": "7k/5K2/8/6N1/8/8/8/2B5 w - - 0 1",
+  "solution": [
+    "Bb2#"
+  ],
+  "title": "Lancia sulla Grande Diagonale",
+  "setup": "Il vostro cavallo in g5 e il vostro re in f7 circondano il re nero nell'angolo, e il vostro alfiere è ancora a casa in c1.",
+  "hint": "Il cavallo e il re coprono ogni casa attorno al re. Trovate la diagonale che arriva a h8.",
+  "explanation": "## L'idea\n\nIl cavallo e il re hanno fatto il lavoro di inscatolamento: il vostro re in f7 copre g7 e g8, e il cavallo in g5 copre h7.\n\n{{Bb2#}} entra sulla grande diagonale e dà scacco al re in h8 dall'angolo opposto. Niente può parare, e al re non resta una casa.\n\nLa grande diagonale da a1 a h8 è una corsia di matto: una volta inscatolato il re nell'angolo, un alfiere può concludere dall'altra parte della scacchiera."
+}

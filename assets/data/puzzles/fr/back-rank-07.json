@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-07",
+  "fen": "r5k1/5ppp/8/8/8/8/8/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "Pas de mur de pions, juste le mat",
+  "setup": "Les tours se font face sur la colonne a. Le roi noir en g8 est derrière trois pions intacts ; le vôtre en g1 n'en a aucun.",
+  "hint": "Celui qui prend le premier sur la colonne a donne échec. Demandez-vous où chaque roi pourrait aller ensuite.",
+  "explanation": "## L'idée\n\n{{Rxa8#}} prend la seule pièce noire qui pouvait garder la huitième rangée, et donne échec le long de celle-ci. Le roi en g8 est enfermé par ses propres pions en f7, g7 et h7, et la tour couvre f8 et h8. Rien ne peut s'interposer ni reprendre.\n\nVotre propre roi n'a aucun pion devant lui, et c'est pour cela qu'il est en sécurité : f2, g2 et h2 sont toutes ouvertes. Une dernière rangée n'est mortelle que lorsque des pions ferment la porte."
+}

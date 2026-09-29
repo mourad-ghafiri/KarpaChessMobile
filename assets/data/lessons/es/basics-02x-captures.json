@@ -1,0 +1,65 @@
+{
+  "id": "captures",
+  "title": "¿Quién recaptura?",
+  "summary": "Dos capturas, un salto cada una, y solo la respuesta las distingue",
+  "proof": "first-steps-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Dos cosas que capturar",
+      "text": "Tu caballo de e4 ataca a dos piezas negras a la vez: la torre de d6 y el alfil de f6. Las dos capturas son legales, las dos son de un solo salto, y desde la casilla del caballo parecen idénticas.\n\nNo lo son. Una pieza que nada defiende está **colgada**, y capturarla no te cuesta absolutamente nada. Una pieza protegida por una compañera te cuesta lo que esa protectora recaptura.\n\nEl tablero ya dice cuál es cuál. Lo dice antes de que muevas."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Tres por tres",
+      "text": "{{Nxf6}} gana un alfil. Luego {{gxf6}}, y el peón de g7 recaptura el caballo al instante.\n\nNo se pierde nada. Un caballo vale tres, un alfil vale tres, y los dos salen juntos del tablero: la cuenta termina donde empezó.\n\nPero tampoco se gana nada. Ese es todo el resultado de la captura: una jugada gastada y la misma posición con dos piezas menos."
+    },
+    {
+      "type": "play",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "La otra captura no tiene respuesta: juégala y quédate con lo que capturas.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "Nada negro llega a d6: el alfil de f6 no ve esa casilla, y el peón de g7 solo protege f6 y h6."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Nueve contra uno",
+      "text": "La misma pregunta, y ahora la hace la dama.\n\nTu dama en d4 mira por dos diagonales despejadas a dos peones negros, uno en a7 y otro en g7. Cualquiera de las dos capturas gana algo que vale un solo punto. Cualquiera de las dos pone nueve puntos en esa casilla.\n\nEso hace de la dama la peor pieza con la que ser descuidado. Un caballo que se equivoca cambia en igualdad. Una dama que se equivoca no está cambiando nada."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Propietario durante una jugada",
+      "text": "{{Qxa7}} gana un peón y es suyo durante exactamente una jugada. {{Rxa7}}: la torre de a8 protegía ese peón mucho antes de que lo miraras, y ahora tiene a tu dama.\n\nNueve puntos por uno. Ninguna cuenta convierte eso en un cambio.\n\nPor eso la dama come la última. Cada pieza de las Negras vale menos que ella, así que cada defensor del tablero es un defensor que la dama tiene que respetar."
+    },
+    {
+      "type": "play",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "Uno de esos dos peones no tiene nada mirándolo: captura ese.",
+      "targetSan": [
+        "Qxg7"
+      ],
+      "hint": "Las Negras tienen una torre y dos peones: la torre vigila la columna a y la octava fila, y ningún peón protege al otro."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "title": "Protegido no es intocable",
+      "text": "Una posición más, y desmiente la mitad de lo que acabas de leer.\n\nLa dama negra de c5 está protegida: el peón de b6 cubre esa casilla y recaptura en el acto.\n\nCaptúrala igualmente. Das un caballo que vale tres, quitas una dama que vale nueve y sales ganando seis puntos. Protegido nunca significó seguro. Solo ha significado que la captura tiene un precio, y ese precio tiene que ser menor que el premio.\n\n> Captura lo que nada protege. Antes de capturar lo protegido, cuenta lo que das y lo que recibes."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "La mejor pieza de las Negras está protegida, y su protector es solo un peón: captúrala igualmente.",
+      "targetSan": [
+        "Nxc5"
+      ],
+      "hint": "Salen tres puntos del tablero y con ellos salen nueve: la recaptura es parte del trato, no un accidente."
+    }
+  ]
+}

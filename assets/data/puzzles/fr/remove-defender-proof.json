@@ -1,0 +1,13 @@
+{
+  "id": "remove-defender-proof",
+  "fen": "6k1/5ppp/5n2/3n2B1/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Bxf6",
+    "gxf6",
+    "Rxd5"
+  ],
+  "title": "Prenez d'abord le gardien",
+  "setup": "Votre tour en d1 fixe déjà le cavalier en d5, et le cavalier en f6 est la seule chose qui le protège.",
+  "hint": "Prendre tout de suite en d5 échange une tour contre un cavalier. Comptez ce qui protège d5 avant de compter ce qui l'attaque.",
+  "explanation": "## L'idée\n\n{{Rxd5}} tout de suite reçoit pour réponse {{Nxd5}} : une tour contre un cavalier. Changez donc d'abord le compte. {{Bxf6}} prend le seul gardien de d5. Après {{gxf6}}, plus rien ne veille sur d5, et {{Rxd5}} ramasse le second cavalier. Reprendre avec l'autre cavalier est pire, car votre tour donne alors échec en d8 et la dernière rangée fait le reste. Laissez le fou tranquille, et il a gagné un cavalier pour rien."
+}

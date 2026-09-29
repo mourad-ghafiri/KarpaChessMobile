@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-11",
+  "fen": "6k1/1r3ppp/7r/8/b2B3R/8/PP6/K1Q5 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Be8",
+    "Qxe8#"
+  ],
+  "rating": 1650,
+  "title": "Pulangkan Gajahnya",
+  "setup": "Gajah Hitam di a4 jauh dari rajanya dan kedua bentengnya pergi berburu di lajur b dan h.",
+  "hint": "Satu buah hitam berada jauh dari baris kedelapan. Beri ia alasan yang mengharuskannya berada di sana.",
+  "explanation": "## Ide\n\n{{Qc8+}} memaksa {{Be8}}, menyeret gajah jauh kembali untuk menghalangi, dan {{Qxe8#}} mengambilnya begitu ia tiba. Buah yang bisa mencapai sebuah petak dalam satu langkah tidak sama dengan buah yang melindunginya."
+}

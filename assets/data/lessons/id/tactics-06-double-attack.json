@@ -1,0 +1,71 @@
+{
+  "id": "double-attack",
+  "title": "Serangan Ganda",
+  "summary": "Keluarga tempat garpu berasal, dan anggota-anggota yang tak bisa dijangkaunya",
+  "proof": "forks-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Tiga Nama, Satu Bentuk",
+      "text": "Garpu, serangan tersingkap, sekak tersingkap: tiga nama yang telah diberikan kepada Anda, dan satu bentuk di balik semuanya.\n\nGarpu menyerang dua buah dengan satu buah. Serangan tersingkap menyingkirkan satu buah agar buah kedua yang menyerang. Keduanya berakhir di tempat yang sama. Lawan Anda punya satu langkah, dan dua masalah.\n\nNama keluarganya adalah **serangan ganda**: langkah apa pun yang membuat dua ancaman sekaligus, bagaimanapun pekerjaan itu dibagi di antara buah-buah Anda. Garpu adalah versi di mana satu buah mengerjakan semuanya."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Buat Daftarnya Dulu",
+      "text": "Sebelum Anda menghitung apa pun, sebutkan buah-buah lawan yang tak dijaga apa pun.\n\nDi sini daftarnya pendek: kuda di b4, kuda di h4, dan itu saja. Raja di g8 menjaga pion-pion di sampingnya dan tak ada yang lain.\n\nBuah yang tak terlindungi adalah hal yang mengubah langkah biasa menjadi serangan ganda, dan kebanyakan pemain tak pernah membuat daftarnya. Kedua kuda ini berbagi baris keempat, setiap petak di antara keduanya kosong, dan menteri Anda punya jalan lurus menuju ke sana."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "prompt": "Hitam hanya mendapat satu langkah, jadi temukan petak tempat menteri Anda menyerang kedua kuda sekaligus.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "Hitung mundur dari sasarannya: kedua kuda sudah berbagi baris, dan hanya satu petak di baris itu yang bisa Anda rebut."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Apa yang Boleh Dicoba Hitam",
+      "text": "{{Qd4}}. Sekarang hitung apa yang boleh dilakukan Hitam terhadapnya.\n\nTak ada buah hitam yang menyerang d4, jadi menteri tak bisa ditangkap. Tak ada yang bisa masuk di antara menteri dan salah satu kuda. Dan tak ada satu langkah pun yang menjaga keduanya, karena kuda melindungi petak berjarak satu L dan kedua kuda ini sama sekali tak berdekatan.\n\nTersisa melarikan diri, dan melarikan diri berarti meninggalkan yang lain. Maka Hitam membalas: {{Nf3+}} menyerang menteri dan memberi sekak kepada raja sekaligus, sebuah garpu yang dimainkan melawan Anda. Garpu itu gagal karena alasan yang sepele. Dua pion menguasai f3, dan {{exf3}} mengakhirinya."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "Ketika Satu Buah Tak Sampai",
+      "text": "Papan baru, dan tak ada buah Anda yang menyerang dua hal sekaligus.\n\nGajah Anda di b2 menguasai diagonal panjang, tetapi kuda Anda sendiri di e5 parkir di tengahnya. Lebih jauh di diagonal itu duduk kuda di g7, tak dilindungi apa pun. Jauh di sayap yang lain, gajah Hitam di a5 juga tak terlindungi.\n\nTak ada satu buah pun yang bisa mencapai keduanya. Dua buah bisa. Gerakkan kuda dan diagonal itu terbuka dengan sendirinya, seperti garis yang pernah Anda lihat terbuka sebelumnya."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "Di Mana Kuda Mendarat",
+      "text": "Setiap langkah kuda membuka diagonal itu. {{Nd3}}, {{Nf3}}, {{Ng4}}, {{Ng6}}, yang mana saja.\n\nItulah sebabnya kebanyakan langkah itu menyia-nyiakannya. Satu ancaman adalah satu masalah, Hitam memindahkan kuda di g7, dan kuda Anda telah memakai satu giliran untuk berdiri di tempat yang tak berguna.\n\nGajah di belakangnya memberikan ancaman pertama dengan gratis. Kuda harus memberikan ancaman kedua di tempat ia mendarat, dan hanya ada satu hal di papan ini yang layak didarati."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "prompt": "Buka diagonal gajah Anda dengan langkah kuda yang menyerang gajah yang tak terlindungi saat kuda itu tiba.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "Dua petak kuda menyerang a5, dan pion Hitam di b5 menguasai salah satunya."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/2N5/bp6/8/8/1B6/6K1 b - - 1 1",
+      "title": "Hitung Jalan Keluarnya",
+      "text": "Dua ancaman, dua buah, dan Hitam berhak mencari langkah yang menjawab keduanya.\n\n- **Tangkap penyerangnya.** Tak ada yang bisa. Percobaan terdekat adalah {{Kd7}}, dan {{Nxa5}} pergi membawa gajahnya.\n- **Jaga keduanya.** Gajah di a5 dan kuda di g7 tak berbagi petak apa pun.\n- **Lari.** Yang mana pun yang bergerak, yang lain masih berdiri di sana.\n- **Halangi.** Diagonal bisa ditutup, dan inilah percobaan yang layak diperhatikan.\n\nHampir berhasil."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/2N5/1p6/8/2b5/1B6/6K1 w - - 2 2",
+      "prompt": "Hitam telah menutup diagonal, jadi ambil buah yang ditempatkan untuk menghalanginya.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "Sama sekali tak ada yang melindungi c3, dan diagonal di baliknya masih kosong."
+    }
+  ]
+}

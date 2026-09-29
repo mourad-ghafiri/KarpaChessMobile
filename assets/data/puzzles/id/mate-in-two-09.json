@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-09",
+  "fen": "4r1k1/4Q3/3R4/3nP3/3N4/8/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Rg6+",
+    "Kh8",
+    "Qh4#"
+  ],
+  "rating": 1280,
+  "title": "Angkat Benteng, Ayun Menteri",
+  "setup": "Menteri Anda menguasai baris ketujuh, dan benteng Anda di d6 bisa berayun ke lajur g dalam satu langkah.",
+  "hint": "Menteri Anda sudah menyegel satu baris penuh. Bawa buah kedua naik, lalu lihat lajur h yang kosong.",
+  "explanation": "## Ide\n\nMenteri di **e7** menguasai seluruh baris ketujuh, jadi raja terkurung di baris kedelapan. {{Rg6+}} memaksa {{Kh8}}, dan benteng kini juga menjaga g7 dan g8. Itu membebaskan menteri untuk {{Qh4#}} di sepanjang lajur h yang kosong."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-11",
+  "fen": "q7/5ppp/8/k7/8/7P/5PPK/6R1 w - - 0 1",
+  "solution": [
+    "Ra1+",
+    "Kb6",
+    "Rxa8"
+  ],
+  "title": "Duelo na Coluna a",
+  "setup": "As pretas estão à frente por uma dama contra uma torre, mas o rei de a5 e a dama de a8 estão na mesma coluna.",
+  "hint": "Dá xeque ao rei pela linha que ele partilha com a dama e vê o que fica quando ele se afastar.",
+  "explanation": "## A Ideia\n\nIsto é um espeto: o rei está à frente e a dama atrás. {{Ra1+}} dá xeque ao rei de a5 pela coluna a. Nada pode tapar, portanto o rei tem de deixar a coluna, e depois de {{Kb6}}, {{Rxa8}} come a dama.\n\nNuma cravada a peça mais valiosa esconde-se atrás. Num espeto está à frente, e quando mexe, cai o que estiver atrás dela."
+}

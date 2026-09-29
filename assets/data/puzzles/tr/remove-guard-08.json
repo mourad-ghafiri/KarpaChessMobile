@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-08",
+  "fen": "6k1/2q1nppp/8/3b2B1/7Q/6P1/5PBP/6K1 w - - 1 2",
+  "solution": [
+    "Bxe7"
+  ],
+  "rating": 1320,
+  "title": "Desteği Kesin",
+  "setup": "g2'deki filiniz d5'teki file dikilmiş ve o fil yalnızca e7'deki at onu koruduğu için hayatta.",
+  "hint": "İki fil uzun çaprazda karşı karşıya. Bu düelloyu siyahın tek bir taşı belirliyor — ona ulaşabilir misiniz?",
+  "explanation": "## Fikir\n\n{{Bxe7}} d5'in tek koruyucusunu kaldırır. {{Qxe7}} geldikten sonra fil korumasız kalır ve {{Bxd5}} tertemiz bir taş kazanır. e7'deki değişim eşittir; açığa çıkardığı taş değildir. Çaprazdaki bir düelloyu, taşları kimin desteklediği belirler."
+}

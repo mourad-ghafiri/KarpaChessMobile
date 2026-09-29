@@ -1,0 +1,77 @@
+{
+  "id": "escaping-check",
+  "title": "Tres salidas",
+  "summary": "Mover, interponer, capturar, y los jaques en los que dos de ellas desaparecen",
+  "proof": "first-steps-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "title": "No hay cuarta respuesta",
+      "text": "Todo jaque debe responderse en el acto, y el ajedrez te da exactamente tres respuestas.\n\n**Mover** el rey fuera de la casilla atacada. **Interponer** una pieza en la línea por la que llega el ataque. **Capturar** la pieza que da jaque.\n\nEsa es toda la lista. La torre negra en e8 mira directamente por la columna e hacia tu rey en e1, y hasta que ocurra una de esas tres cosas, nada más de lo que quisieras jugar es legal.\n\nLa lista nunca cambia y tiene tres elementos. Lo que cambia es cuántos de los tres están disponibles."
+    },
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Fuera de la línea, no a lo largo de ella",
+      "text": "Quita el alfil del tablero y el rey tiene que responder solo.\n\nCinco casillas tocan a un rey en e1: d1, d2, e2, f1 y f2. Cuatro están fuera del camino de la torre. La quinta es e2: un paso adelante, todavía en la columna e, todavía bajo la misma torre. Huir *a lo largo* de la línea no es huir.\n\nMover el rey es lo primero que conviene comprobar, y nunca está garantizado. La casilla que quieres tiene que estar vacía, y tu rival no puede estar atacándola ya."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Saca tu rey de la columna que domina la torre.",
+      "targetSan": [
+        "Kd1",
+        "Kd2",
+        "Kf1",
+        "Kf2"
+      ],
+      "hint": "La torre cubre una columna y nada más, así que un solo paso a un lado lo resuelve."
+    },
+    {
+      "type": "teach",
+      "fen": "k7/8/8/b7/8/8/8/1N2K3 w - - 0 1",
+      "title": "Cierra la puerta",
+      "text": "Otro jaque, y esta vez el rey no tiene que moverse.\n\nEl alfil negro en a5 llega a tu rey en e1 por la diagonal que pasa por b4, c3 y d2. Llega *a través* de esas casillas —eso es una línea—, y una pieza colocada en cualquiera de ellas corta el ataque.\n\nTu caballo en b1 tiene dos puertas para elegir: {{Nc3}} o {{Nd2}}. El alfil sigue mirando por la diagonal. Simplemente ya no puede llegar.\n\nLa pieza que se interpone puede ser capturada, claro. Una interposición vale lo que vale la pieza que gastas en ella."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "Volvamos a la torre: pon tu alfil en su camino y cierra la columna.",
+      "targetSan": [
+        "Be3"
+      ],
+      "hint": "El alfil se mueve en diagonal, así que solo una de las seis casillas entre ellos está a su alcance."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "title": "Nada ante lo que interponerse",
+      "text": "Un caballo no viaja por una línea. Aterriza.\n\nNo hay casillas entre el caballo negro de d3 y tu rey en e1, así que no hay nada que poner en medio. El jaque de caballo nunca se puede tapar. Tampoco el de una pieza pegada al rey: entre dos casillas que se tocan no cabe nada.\n\nAsí que aquí la lista se reduce a dos elementos. El rey puede caminar, o el caballo puede salir del tablero."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "prompt": "Resuelve este capturando el caballo.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Los peones capturan en diagonal, nunca en línea recta."
+    },
+    {
+      "type": "teach",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "title": "La captura que no existe",
+      "text": "Capturar es la respuesta más dulce, y la que con más frecuencia no está disponible.\n\nEl caballo de f3 da jaque a tu rey en g1, y dos de tus piezas lo atacan. El peón de g2 es la obvia: un peón que captura un caballo es una ganga.\n\nPero ese peón también es lo único que hay entre la torre negra de g8 y tu rey. Captura con él y el rey queda en jaque de la torre, y una jugada que deja a tu propio rey en jaque no es una jugada. Una pieza que protege la línea de su rey no es libre de irse."
+    },
+    {
+      "type": "play",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "prompt": "Captura el caballo con la pieza de la que tu rey puede prescindir.",
+      "targetSan": [
+        "Rxf3"
+      ],
+      "hint": "Solo uno de los dos atacantes puede moverse sin abrir una línea hacia tu propio rey."
+    }
+  ]
+}

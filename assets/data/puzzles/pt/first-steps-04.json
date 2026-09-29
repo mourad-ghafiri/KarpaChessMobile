@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-04",
+  "fen": "k7/3q4/8/8/8/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Rxd7"
+  ],
+  "title": "A Torre Numa Estrada Aberta",
+  "setup": "A tua torre e a dama preta partilham a coluna d escancarada — e jogas tu.",
+  "hint": "A coluna d está vazia entre os dois pesos-pesados. Quem golpeia primeiro?",
+  "explanation": "## A Ideia\n\nA tua torre e a dama preta fitam-se ao longo da coluna d aberta, e **jogam as brancas**. Numa linha partilhada, quem joga primeiro chega primeiro.\n\n{{Rxd7}} come a dama. O rei preto em a8 não está nem perto de d7, portanto nada recaptura.\n\nQuando uma peça tua e uma peça inimiga estão na mesma linha aberta, verifica de quem é a vez antes de mais nada."
+}

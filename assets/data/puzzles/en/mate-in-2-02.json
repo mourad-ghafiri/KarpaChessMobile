@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-02",
+  "fen": "8/4k3/R7/8/8/8/8/1R5K w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Ke8",
+    "Ra8#"
+  ],
+  "title": "The Rook Ladder",
+  "setup": "Two rooks against Black's bare king on e7, and the rook on a6 already fences off the whole sixth rank.",
+  "hint": "One rook holds a rank while the other checks on the next one up.",
+  "explanation": "## The Idea\n\nThis is the rook ladder. The rook on a6 holds the sixth rank, so {{Rb7+}} checks along the seventh and leaves the king only the back rank: {{Kd8}}, {{Ke8}} or {{Kf8}}.\n\nWherever it goes, {{Ra8#}} climbs to the last rank. The rook on b7 keeps the whole seventh, and the king has nowhere left. Cut, check, cut, check: two rooks need no help from anything else."
+}

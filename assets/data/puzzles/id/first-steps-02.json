@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-02",
+  "fen": "4k3/pp4pp/8/4b3/8/5N2/PP4PP/4K3 w - - 0 1",
+  "solution": [
+    "Nxe5"
+  ],
+  "title": "Camilan Sang Kuda",
+  "setup": "Kuda Anda di f3 mengincar delapan petak — dan sebuah gajah hitam sedang duduk di salah satunya.",
+  "hint": "Delapan petak kuda mudah terlewatkan. Yang mana di antaranya ditempati buah hitam?",
+  "explanation": "## Ide\n\nDari f3, L sang kuda mencapai e5: dua petak ke depan, satu ke samping. Gajah hitam yang berdiri di sana **tak punya pembela**.\n\n{{Nxe5}} memenangkan gajah itu dengan cuma-cuma. Tak ada garis lurus yang menghubungkan f3 dan e5, dan justru karena itulah penangkapan seperti ini mudah terlewat.\n\nSebelum setiap langkah, lirik kedelapan petak yang dicapai kuda Anda. Buah yang tak terlindungi suka bersembunyi di sana."
+}

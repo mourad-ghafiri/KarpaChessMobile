@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-07",
+  "fen": "6k1/r4ppp/3B4/8/1R6/8/PP5Q/K2br3 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1530,
+  "title": "La dernière rangée dans les deux sens",
+  "setup": "Les Noirs ont une tour en e1 et un fou en d1 sur votre dernière rangée pendant que leur roi attend tranquillement en g8.",
+  "hint": "Les deux camps ont une première rangée faible. Comptez laquelle tombe en moins de coups.",
+  "explanation": "## L'idée\n\nLes Noirs sont à un coup de vous mater, et c'est exactement pour cela que {{Rb8+}} est juste. {{Re8}} est forcé et {{Rxe8#}} tombe le premier. Dans une course, le seul chiffre qui compte, c'est qui donne échec le premier."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-10",
+  "fen": "b4k2/6p1/7p/8/2RB2Q1/8/6PP/7K w - - 0 1",
+  "solution": [
+    "Qxg7+",
+    "Ke8",
+    "Rc8#"
+  ],
+  "rating": 1320,
+  "title": "Sacrifica el refugio",
+  "setup": "Al rey negro de f8 le queda un peón delante, y tu alfil de d4 apunta directamente a él.",
+  "hint": "El peón junto al rey parece un guardián. Pregúntate qué cubre tu alfil en la casilla de detrás.",
+  "explanation": "## La idea\n\n{{Qxg7+}} funciona porque el alfil de **d4** defiende g7, así que el rey no puede comer. {{Ke8}} es la única casilla que queda, y ahora la dama barre la séptima fila mientras {{Rc8#}} se queda la octava. Dos líneas, ninguna salida."
+}

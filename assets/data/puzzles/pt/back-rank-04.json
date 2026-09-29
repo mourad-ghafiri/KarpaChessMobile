@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-04",
+  "fen": "3r3k/5ppp/8/8/8/8/5PPP/3R1K2 w - - 0 1",
+  "solution": [
+    "Rxd8#"
+  ],
+  "title": "Mate ao Espelho",
+  "setup": "As duas torres fitam-se ao longo da coluna d aberta, mas só um dos reis sobreviveria a um xeque de torre na sua linha de fundo.",
+  "hint": "As torres parecem simétricas. Os reis não: um deles tem uma casa para onde ir.",
+  "explanation": "## A Ideia\n\nTorre contra torre na única coluna aberta, e a diferença são os reis. O teu em f1 podia responder a um xeque de torre indo para e2. O preto está arrumado no canto atrás dos seus próprios peões.\n\n{{Rxd8#}} é mate ali mesmo: g8 é varrida pela torre, e g7 e h7 têm os peões das pretas.\n\nNuma posição em espelho, o rei que sobrevive é o que tem uma casa fora da linha de fundo."
+}

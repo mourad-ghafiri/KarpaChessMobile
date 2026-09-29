@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-08",
+  "fen": "3B3k/8/8/8/8/1K6/4p3/5Q2 w - - 0 1",
+  "solution": [
+    "Qf7",
+    "e1=Q",
+    "Bf6#"
+  ],
+  "rating": 1620,
+  "title": "Uma Dama Nova Não Muda Nada",
+  "setup": "O rei preto está em h8, e o peão preto de e2 vai ser dama já na jogada seguinte.",
+  "hint": "Deixa as pretas ficarem com a dama. O que interessa é se a peça nova chega a tempo à casa do mate.",
+  "explanation": "## A Ideia\n\n{{Qf7}} cobre g8 e g7 e recusa-se a ser distraída. {{e1=Q}} faz uma dama que não está nem perto de h8, e {{Bf6#}} dá mate na diagonal. O material é irrelevante quando o adversário tem de jogar e todas as jogadas perdem."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "defence-12",
+  "fen": "8/3r4/5KR1/4r3/3B4/4qk2/Q7/8 w - - 0 1",
+  "solution": [
+    "Qg2+",
+    "Kf4",
+    "Qg4#"
+  ],
+  "rating": 2000,
+  "title": "Veziri İki Kez İkram Edin",
+  "setup": "Siyahın e3'teki veziri f6'daki şahınızın çevresindeki kareleri çoktan gözlüyor ve arkasında d7 ile e5'te kaleleri var — mata bir hamle uzaktasınız.",
+  "hint": "İki şah hamleniz de veziri alınabileceği yere koyuyor. İki taş almanın da neden kuraldışı olduğunu hesaplayın.",
+  "explanation": "## Fikir\n\n{{Qg2+}} hamlesini g6'daki kale korur, yani {{Kf4}} mecburidir ve {{Qg4#}} veziri ikinci kez, şahın alamayacağı bir karede ikram eder. Alınamamaya dayanan savunma da bir savunmadır."
+}

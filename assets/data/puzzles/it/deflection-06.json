@@ -1,0 +1,14 @@
+{
+  "id": "deflection-06",
+  "fen": "krN5/pp5q/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Nb6+",
+    "axb6",
+    "Ra1#"
+  ],
+  "rating": 1300,
+  "title": "Il Pedone a Deve Prendere",
+  "setup": "Il re nero siede nell'angolo dietro la propria torre e i propri pedoni, e la colonna a è l'unica via d'ingresso.",
+  "hint": "Il re non ha proprio nessuna mossa legale. Trovate lo scacco la cui unica risposta apre la colonna che volete.",
+  "explanation": "## L'idea\n\nA {{Nb6+}} si può rispondere in un modo solo, {{axb6}}. Il pedone a viene trascinato via dalla colonna a, e {{Ra1#}} corre dritta lungo la strada aperta. Date qualunque cosa a un difensore che non ha scelta."
+}

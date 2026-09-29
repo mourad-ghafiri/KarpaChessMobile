@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-10",
+  "fen": "b4k2/6p1/7p/8/2RB2Q1/8/6PP/7K w - - 0 1",
+  "solution": [
+    "Qxg7+",
+    "Ke8",
+    "Rc8#"
+  ],
+  "rating": 1320,
+  "title": "Sacrifiez l'abri",
+  "setup": "Le roi noir en f8 n'a plus qu'un pion devant lui, et votre fou en d4 le vise droit.",
+  "hint": "Le pion à côté du roi ressemble à un gardien. Demandez-vous ce que couvre votre fou sur la case derrière lui.",
+  "explanation": "## L'idée\n\n{{Qxg7+}} fonctionne car le fou en **d4** défend g7, donc le roi ne peut pas prendre. {{Ke8}} est la seule case qui reste, et maintenant la dame balaie la septième rangée pendant que {{Rc8#}} prend la huitième. Deux lignes, aucune issue."
+}

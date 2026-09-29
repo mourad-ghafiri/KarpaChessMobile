@@ -1,0 +1,14 @@
+{
+  "id": "deflection-08",
+  "fen": "2r3k1/pq4pp/6pQ/6N1/8/8/1B3PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Qxg7#"
+  ],
+  "rating": 1380,
+  "title": "Uma Torre Pelo Mate",
+  "setup": "A tua dama e o teu bispo batem os dois em g7, e a dama de b7 é o único defensor extra dessa casa.",
+  "hint": "Uma torre vale menos do que um mate. Que xeque obriga a única peça que guarda g7 a olhar para outro lado?",
+  "explanation": "## A Ideia\n\nA {{Rxc8+}} tem de se responder {{Qxc8}}, o que arranca a dama da sétima linha. {{Qxg7#}} acaba com o bispo de b2 por trás. A torre nunca foi o objetivo. Quando há mate, conta os guardas da casa, não o material."
+}

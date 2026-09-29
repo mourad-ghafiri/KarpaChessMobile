@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-07",
+  "fen": "7R/2k5/8/1rPK4/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Rh7+"
+  ],
+  "rating": 1470,
+  "title": "Back to the Eighth",
+  "setup": "Black's king stands two squares in front of the c-pawn, holding c6 from c7, and its rook attacks the pawn from b5, so nothing is moving yet.",
+  "hint": "The black king is doing all the defending from the square next to the pawn. Which line can you take from it?",
+  "explanation": "## The Idea\n\nWhile the king sits on c7, White makes no progress. {{Rh7+}} drives it to the back rank and the rook then owns the seventh, so the king can never come back beside the pawn. {{Kb8}} {{Kd6}} and White's king walks the pawn in."
+}

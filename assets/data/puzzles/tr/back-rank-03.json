@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-03",
+  "fen": "r5k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "Arka Yataya İlk Varan",
+  "setup": "Kaleler açık a dikeyinde karşı karşıya ve iki şah da önündeki piyonlardan birini bile oynatmamış.",
+  "hint": "Siyahın şahını arka yatayda kendi piyonları çitliyor. Hangi taş alma o yataya şah çekerek varıyor?",
+  "explanation": "## Fikir\n\n{{Rxa8#}} kaleyi arka yatay boyunca şah çekerek alır. Hiçbir şey geri alamaz, araya hiçbir şey giremez ve şahın yatay dışındaki kareleri olan f7, g7 ile h7'de kendi piyonları durur.\n\nİki şah da aynı şekilde kapatılmıştı, yani önce oynayan kazandı. Daha önce oynanacak h6 gibi bir piyon adımı siyahın şahına bir kare verirdi."
+}

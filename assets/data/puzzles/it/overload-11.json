@@ -1,0 +1,14 @@
+{
+  "id": "overload-11",
+  "fen": "6k1/2n1Rppp/8/8/2N5/2r5/PP2Q3/K7 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Nxe8",
+    "Qxe8#"
+  ],
+  "rating": 1610,
+  "title": "Il Cavallo Non Può Coprire Due Volte",
+  "setup": "Il cavallo nero in c7 sorveglia e8, la vostra torre è arrivata alla settima, e la donna aspetta in e2.",
+  "hint": "Un cavallo difende in modo scomodo. Trovate la casa che raggiunge esattamente una volta e fatecelo andare.",
+  "explanation": "## L'idea\n\n{{Re8+}} reclama il cavallo, {{Nxe8}} è forzata, e la donna se lo prende lì con {{Qxe8#}}. Un cavallo che difende una casa è un difensore solo finché non deve andarci a stare sopra."
+}

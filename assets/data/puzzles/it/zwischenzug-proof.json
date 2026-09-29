@@ -1,0 +1,13 @@
+{
+  "id": "zwischenzug-proof",
+  "fen": "r1b2rk1/pp3ppp/1Q1p4/4p3/3nP3/8/PPP1BPPP/R1B2RK1 b - - 0 1",
+  "solution": [
+    "Nxe2+",
+    "Kh1",
+    "axb6"
+  ],
+  "title": "La Donna Può Aspettare",
+  "setup": "La donna bianca ha appena catturato la vostra in b6. Riprendere è la mossa ovvia, e non è la migliore.",
+  "hint": "La vostra ripresa può aspettare una mossa, purché la mossa prima sia uno scacco.",
+  "explanation": "## L'idea\n\n{{axb6}} subito è un cambio pari, e poi il Bianco sposta semplicemente l'alfiere di e2 lontano dal vostro cavallo. Quindi prima lo scacco. {{Nxe2+}} prende l'alfiere, e {{Kh1}} è l'unica mossa legale del Bianco. La donna in b6 sta ancora lì, e {{axb6}} se la prende. Avete ripreso con una mossa di ritardo e un alfiere intero più ricchi."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pin-10",
+  "fen": "5k2/5p2/3nq2R/4p1p1/1P2p2N/2PPP3/3r1Q2/6K1 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 1150,
+  "title": "Benteng Mengambil Menteri",
+  "setup": "Menteri Anda di f2 memandang ke atas lajur f yang kosong ke arah pion hitam di f7 dan raja yang berdiri di belakangnya.",
+  "hint": "Menteri hitam dijaga sekali, oleh sebuah pion. Apa yang dilakukan menteri Anda sendiri terhadap pion itu dari f2?",
+  "explanation": "## Ide\n\n{{Rxe6}} memenangkan menteri dengan imbalan benteng. Pion f7 satu-satunya pembelanya, dan pion itu dijepit terhadap raja di **f8** oleh menteri Anda di **f2**. Setiap petak di antara keduanya kosong, jadi tangkapan baliknya tidak sah dan menteri hilang."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "remove-guard-11",
+  "fen": "1rn3k1/p4ppp/6q1/3N4/8/8/5PPP/2R2QK1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Rxc8",
+    "Ne7+"
+  ],
+  "rating": 1420,
+  "title": "Çatal Karesini Temizleyin",
+  "setup": "Atınız e7'ye bayılırdı; orada aynı anda şaha ve vezire vuruyor, ama c8'deki at o kareyi kapsıyor.",
+  "hint": "Atınızın iki taşa birden vuracağı kareyi bulun, sonra orayı kimin koruduğunu sorun.",
+  "explanation": "## Fikir\n\n{{Rxc8+}} e7'yi kapsayan taşı alır ve {{Rxc8}}, orayı kapsamayan bir karede geri alır. {{Ne7+}} şah ile veziri çatallar; şah yana çekildikten sonra {{Nxg6}} bir kale karşılığında veziri kazanır."
+}

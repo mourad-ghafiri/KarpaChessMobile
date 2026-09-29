@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-01",
+  "fen": "6k1/1p3ppp/2n5/1B2b3/8/5N2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Bxc6"
+  ],
+  "rating": 1050,
+  "title": "Tek Koruyucu",
+  "setup": "Atınız e5'teki file saldırıyor ve fil orada yalnızca c6'daki at onu koruduğu için duruyor.",
+  "hint": "Saldırdığınız filin tam olarak tek bir koruyucusu var. O koruyucunun neyi tuttuğunu değil, kaça mal olduğunu sorun.",
+  "explanation": "## Fikir\n\n{{Bxc6}} e5'i koruyan tek taşı alır. {{bxc6}} geldikten sonra fil askıda kalır ve {{Nxe5}} onu toplar; siyah bunun yerine fili kurtarırsa at öylece gitmiş olur. Bir hedefin saldıranlarını saymadan önce koruyucularını sayın."
+}

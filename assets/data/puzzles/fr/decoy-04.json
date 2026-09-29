@@ -1,0 +1,14 @@
+{
+  "id": "decoy-04",
+  "fen": "r6k/pp2P1pp/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "exd8=Q#"
+  ],
+  "rating": 1270,
+  "title": "Attirez le bloqueur",
+  "setup": "Votre pion en e7 veut la huitième rangée, et seule la tour en a8 monte la garde.",
+  "hint": "La tour est toute la défense. Trouvez la case où la prendre est le seul coup qui reste aux Noirs.",
+  "explanation": "## L'idée\n\n{{Rd8+}} ne laisse aux Noirs qu'un seul coup légal, {{Rxd8}} — et la tour a été attirée sur la case qu'attaque votre pion. {{exd8=Q#}} promeut avec mat. Une tour ne coûte pas cher quand un pion devient une dame."
+}

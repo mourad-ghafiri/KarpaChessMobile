@@ -1,0 +1,72 @@
+{
+  "id": "rook-moves",
+  "title": "Jalan yang Panjang",
+  "summary": "Empat belas petak dari mana saja, dan dua cara sebuah jalan berakhir",
+  "proof": "first-steps-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Di Sepanjang Garis",
+      "text": "Papan digambar sebagai kisi-kisi garis. Benteng adalah buah yang bergerak di sepanjang garis itu, dan hanya di sepanjangnya: baris dan lajur, tak ada yang lain.\n\nTanpa diagonal. Tanpa melompati apa pun. Tetapi jarak itu gratis — benteng yang bergeser satu petak dan benteng yang menyeberangi seluruh papan melakukan kerja yang sama banyaknya.\n\nDari d4, jalannya menuju empat arah. Naik di lajur d ke {{Rd8}}, turun kembali ke {{Rd1}}, dan menyusuri baris keempat ke {{Ra4}} atau {{Rh4}}."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Empat Belas, di Mana Pun Ia Berdiri",
+      "text": "Hitung petak yang dikuasai benteng ini dari d4. Tujuh petak naik dan turun di lajur d, tujuh melintasi baris keempat. Empat belas.\n\nSekarang letakkan sebuah benteng sendirian di sudut papan kosong dan hitung lagi. Empat belas. Jumlahnya tak pernah berubah; yang berubah hanya cara jumlah itu terbagi di antara dua garisnya.\n\nKuda kehilangan enam dari delapan lompatannya di sudut yang sama. Gajah kehilangan hampir separuh petak diagonalnya di tepi. Benteng bahkan tak menyadari tepi itu ada."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "prompt": "Gerakkan benteng ke petak mana saja di lajurnya atau di barisnya.",
+      "targetSan": [
+        "Rd5",
+        "Rd6",
+        "Rd7",
+        "Rd8",
+        "Rd3",
+        "Rd2",
+        "Rd1",
+        "Rc4",
+        "Rb4",
+        "Ra4",
+        "Re4",
+        "Rf4",
+        "Rg4",
+        "Rh4"
+      ],
+      "hint": "Empat belas petak sah dari sini dan tak ada yang salah — pilih satu arah dan berhentilah di mana Anda suka."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "Tempat Jalan Berakhir",
+      "text": "Letakkan benteng itu di a1, dan empat belas menjadi enam.\n\nNaik di lajur a, ia hanya sampai {{Ra3}}, karena sebuah pion hitam di a4 duduk di tengah jalan. Menyusuri baris pertama, ia hanya sampai {{Rd1}}, karena raja Anda sendiri di e1 duduk di jalan yang itu.\n\nKedua hambatan itu tidak sama. Raja bersifat tetap — Anda tak akan pernah menggerakkan benteng menembus buah Anda sendiri. Pion bersifat sementara. Ia menutup lajur a tepat selama ia masih bertahan hidup."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "Lajur Terbuka",
+      "text": "Lajur yang sama sekali tak berisi pion disebut **lajur terbuka**, dan benteng rela menghabiskan seluruh partai untuk berusaha masuk ke sana.\n\nAlasannya cukup sederhana. Di lajur terbuka, benteng melihat kolom itu dari ujung ke ujung, dan apa pun yang melangkah ke sana masuk ke garis benteng. Di lajur yang penuh pion, benteng yang sama hanya melihat sebuah pion.\n\nLajur a kurang satu pion untuk menjadi terbuka, dan pion itu bisa ditangkap.\n\n> Benteng menginginkan jalan yang kosong. Temukan satu, atau kosongkan satu."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "prompt": "Buka lajur a dengan menangkap satu-satunya yang berdiri di sana.",
+      "targetSan": [
+        "Rxa4"
+      ],
+      "hint": "Hitam tak punya apa-apa lagi untuk menjaga petak itu, dan jalan ke sana kosong."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/ppp1pppp/8/8/8/8/PPP1PPPP/R5K1 w - - 0 1",
+      "prompt": "Temukan satu-satunya lajur yang tak berisi pion dan tempatkan benteng Anda di sana.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Sapukan pandangan ke atas kedelapan kolom — tujuh di antaranya terhalang pion."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "check-and-mate",
+  "title": "Plus rien à jouer",
+  "summary": "La seule attaque à laquelle il faut répondre — et celle à laquelle on ne peut pas répondre",
+  "proof": "mate-in-1-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "Une attaque à laquelle il faut répondre",
+      "text": "Attaquez une tour et votre adversaire a le choix : la déplacer, la défendre, ou l'abandonner pour prendre quelque chose de plus gros ailleurs.\n\nAttaquez le roi et il n'y a plus aucun choix. Un roi n'est jamais pris, alors les règles ne laissent jamais l'attaque subsister — y répondre est la seule chose que votre adversaire a le droit de faire. C'est l'**échec**.\n\n{{Qh5+}} met le roi noir en e8 sous le feu de la diagonale. Il sort de la ligne avec {{Kd8}}, et la partie continue. Le signe `+` est la façon d'écrire un échec."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "Quand il n'y a pas de réponse",
+      "text": "L'**échec et mat**, c'est cette même attaque sans plus aucune réponse. Le roi est attaqué, et le camp attaqué n'a plus aucun coup légal — ni avec le roi, ni avec une autre pièce. La partie s'arrête là.\n\nOn le note `#`, et rien ne s'écrit jamais après un `#`.\n\nLe mat est la seule façon de gagner une partie sur l'échiquier. Une partie se termine aussi quand un joueur abandonne ou dépasse son temps, et chacun de ces cas a sa propre leçon."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "prompt": "Votre roi tient déjà d7, e7 et f7 — retirez les deux dernières cases en un seul coup.",
+      "targetSan": [
+        "Qb8#",
+        "Qh8#"
+      ],
+      "hint": "Les deux cases qui restent sont sur la huitième rangée, et la dame a deux diagonales qui l'atteignent."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "title": "Pourquoi cela a fonctionné",
+      "text": "Il n'y avait là aucun tour de magie de la dame. Décalez les deux mêmes pièces d'une colonne et le mécanisme apparaît.\n\nLe roi noir en d8 a cinq voisines. Trois d'entre elles — c7, d7 et e7 — touchent aussi le roi blanc en d6, et aucun roi ne peut se placer à côté d'un autre, donc ces trois-là étaient fermées avant même que les Blancs jouent.\n\nIl en reste deux, c8 et e8, et elles sont sur la même rangée que le roi. Un seul échec le long de la huitième rangée couvre toute la ligne."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "prompt": "Il reste encore deux cases — trouvez l'échec sur la huitième rangée qui prend les deux.",
+      "targetSan": [
+        "Qa8#",
+        "Qg8#"
+      ],
+      "hint": "Le roi blanc bloque lui-même la colonne d, donc la dame doit passer par une diagonale pour atteindre cette rangée."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Enfermé par ses propres pions",
+      "text": "Vous n'aurez pas toujours une dame. Le mat le plus fréquent en club ne demande qu'une tour, une rangée vide et aucun risque : le **mat du couloir**.\n\nLe roi noir en g8 est blotti derrière ses propres pions en f7, g7 et h7. Ces trois pions arrêtent tout ce qui monte sur l'échiquier — et ne laissent au roi que deux cases, f8 et h8, toutes deux sur la huitième rangée.\n\nCette rangée est vide d'un bout à l'autre. La colonne a aussi. Rien chez les Noirs ne surveille l'une ou l'autre."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Ouvrez une fenêtre",
+      "text": "Regardez votre propre roi en g1 avant de trop vous réjouir. Même coin, mêmes trois pions, mêmes deux cases — la différence, c'est que les Blancs ont une tour et les Noirs non.\n\nUn seul coup de pion règle le problème : {{h3}}. Il donne au roi une **case de fuite** en h2, et une tour qui arrive sur la première rangée devient un échec auquel répondre plutôt que la fin de la partie.\n\n> Poussez ce pion tôt, tant que vous avez un coup de libre. Le mat qui termine cette leçon est celui qui attrape les joueurs qui ne l'ont jamais fait."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Les Noirs n'ont jamais ouvert de case de fuite — terminez la partie sur la rangée derrière ces pions.",
+      "targetSan": [
+        "Ra8#"
+      ],
+      "hint": "Aucune pièce noire ne défend la huitième rangée, et rien ne peut s'interposer."
+    }
+  ]
+}

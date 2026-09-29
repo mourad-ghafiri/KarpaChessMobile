@@ -1,0 +1,56 @@
+{
+  "id": "thinking-process",
+  "title": "Prima di Muovere",
+  "summary": "Tre domande, fatte in ordine, che fermano la mossa di cui stavate per pentirvi",
+  "proof": "thinking-process-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "Tre Domande",
+      "text": "Quasi nessuna partita si perde per un avversario geniale. Si perde per una mossa giocata prima che qualcuno guardasse.\n\nTre domande lo impediscono, e sono sempre le stesse tre:\n\n1. Che cosa **minaccia** il mio avversario: qual è la mossa che vuole giocare subito dopo?\n2. Quali sono i miei scacchi e le mie prese?\n3. Che cosa succede dopo la mia mossa?\n\nDieci secondi, in quest'ordine, a ogni mossa. Le prime due domande trovano le mosse. La terza butta via quelle cattive."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "Che Cosa È Appena Cambiato",
+      "text": "Il cavallo nero in f6 non attacca nulla. La prima domanda ha comunque una risposta.\n\nQuel cavallo copre e4 e d5, le due case centrali che il Bianco vuole di più per i propri pedoni. Giocate {{e4}} senza chiedervelo e {{Nxe4}} se lo prende: nulla del Bianco difende quella casa, e nulla riprende.\n\nQuindi la prima domanda non è solo «che cosa è attaccato». È: che cosa può fare adesso quella mossa che un attimo fa non poteva? A volte la risposta è una minaccia. A volte è una casa che avete perso in silenzio."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Il Pedone Gratis",
+      "text": "Nuova partita, tre mosse di vita. Il cavallo nero in d4 è saltato nella metà campo del Bianco e ha lasciato il pedone in e5 senza nessuna difesa.\n\nLa seconda domanda chiede che cosa potete prendere. La scacchiera risponde in un secondo: {{Nxe5}}, un pedone gratis.\n\nSembra la mossa giusta. La seconda domanda non può dirvi se lo è, perché la seconda domanda non chiede mai che cosa fa il Nero dopo."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4N3/2BnP3/8/PPPP1PPP/RNBQK2R b KQkq - 0 4",
+      "prompt": "Giocate la risposta del Nero: trovate la mossa di donna che attacca insieme il cavallo ingordo e un pedone indifeso.",
+      "targetSan": [
+        "Qg5"
+      ],
+      "hint": "Il cavallo che ha appena preso non è difeso da nulla, e nemmeno il pedone in g2: una sola casa li vede entrambi."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "La Terza Domanda",
+      "text": "Tornate alla scacchiera che il Bianco stava guardando. Quella mossa di donna si poteva trovare già da qui, una mossa prima, da parte di chi stava per prendere.\n\nDopo {{Nxe5}} {{Qg5}} il cavallo e il pedone in g2 sono attaccati entrambi, e anche la risposta migliore del Bianco lascia al Nero la partita migliore. Il pedone gratis era un'esca.\n\nQuesta è la terza domanda. Non «la mia mossa è sicura», ma: so già che cosa fa il mio avversario alla mossa dopo?\n\n> Nessuno perde per la mossa che ha guardato. Si perde per la risposta che non ha guardato."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Mosse Candidate",
+      "text": "Quindi la scorpacciata costa più di quello che guadagna, e solo la terza domanda poteva vederlo. Il rimedio comincia prima di scegliere.\n\nLe mosse che la seconda domanda vi consegna sono le vostre **mosse candidate**: una lista, non una risposta. Qui il Bianco ha tre prese, più mosse tranquille come {{c3}}, che attacca il cavallo in d4 e si becca un cambio in f3.\n\nSceglietene due o tre. Applicate a ciascuna la terza domanda. Giocate quella di cui riuscite davvero a vedere la risposta."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Prendete il cavallo che è saltato nella vostra metà campo e lasciate la posizione senza più nulla da calcolare.",
+      "targetSan": [
+        "Nxd4"
+      ],
+      "hint": "Una presa finisce dentro la mossa di donna che avete appena trovato, una scaglia un alfiere contro un pedone difeso, e una è un cambio alla pari."
+    }
+  ]
+}

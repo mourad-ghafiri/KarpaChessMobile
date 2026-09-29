@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-03",
+  "fen": "3k4/8/8/3K4/3P4/8/8/8 b - - 1 1",
+  "solution": [
+    "Kd7"
+  ],
+  "rating": 1175,
+  "title": "Espelha o Rei",
+  "setup": "O rei das brancas acabou de se pôr à frente do peão d, e as pretas têm de escolher onde ficar.",
+  "hint": "Tomes a casa que tomares, as brancas vão tentar passar por uma das alas; qual delas te deixa copiá-las nos dois sentidos?",
+  "explanation": "## A Ideia\n\n{{Kd7}} é a única casa que segura. Dali as pretas limitam-se a copiar: a {{Kc5}} responde-se {{Kc7}}, e a {{Ke5}} responde-se {{Ke7}}. Fica em qualquer outro lado e o rei branco chega à sexta linha à frente do peão, que é tudo aquilo de que um rei e um peão alguma vez precisam."
+}

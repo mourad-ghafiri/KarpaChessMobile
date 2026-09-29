@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-21",
+  "fen": "8/5ppp/2k1b3/8/8/1N5P/4rPP1/3R2K1 w - - 0 1",
+  "solution": [
+    "Nd4+"
+  ],
+  "title": "One Jump, Two Targets",
+  "setup": "Your knight on b3 is attacked by the bishop on e6 and must move, so pick the square where it hits hardest.",
+  "hint": "Find the knight square that checks the black king and attacks another black piece at the same time.",
+  "explanation": "## The Idea\n\nYour knight must move anyway, so make the move do two jobs. {{Nd4+}} checks the king on c6 and attacks the rook on e2 at once.\n\nBlack has to answer the check first, and no black piece can capture the knight on d4. After the king steps away, {{Nxe2}} takes the rook.\n\nOne threat can be answered. Two threats in one move usually cannot."
+}

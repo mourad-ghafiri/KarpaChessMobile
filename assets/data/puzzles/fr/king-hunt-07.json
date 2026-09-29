@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-07",
+  "fen": "4K3/7Q/1R3p2/2r3R1/8/5B2/b7/4k3 w - - 0 1",
+  "solution": [
+    "Qe4+",
+    "Kd2",
+    "Rg2+",
+    "Kc1",
+    "Qe1#"
+  ],
+  "rating": 1550,
+  "title": "Votre roi n'est pas le problème",
+  "setup": "Les deux rois sont exposés — le vôtre en e8, celui des Noirs en e1 — et les Noirs ont une tour en c5 et un fou en a2 en jeu.",
+  "hint": "Ignorez ce que menacent les Noirs et comptez vos propres échecs jusqu'au bout.",
+  "explanation": "## L'idée\n\n{{Qe4+}} lance la chasse, {{Rg2+}} prend la deuxième rangée, et {{Qe1#}} tombe. Quand les deux rois sont à découvert, la chasse appartient entièrement à celui qui donne échec le premier."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "gruenfeld-advanced",
+  "title": "Grünfeld Defense",
+  "summary": "Hand over the center, then shoot at it",
+  "proof": "openings-17.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+      "title": "An Offer, Not a Claim",
+      "text": "Black's pawn on d5 walks straight at a pawn and a knight, and Black wants both of them to swing.\n\nEvery other reply to White's two center pawns tries to hold ground in the middle. This one sells it. Black trades the d5 pawn off, lets White build the broadest center in the opening books, and plans to spend the rest of the game shooting at it from long range.\n\nErnst Grünfeld played this in 1922, when giving away the middle of the board on purpose read like a misprint."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+      "title": "Why White Takes",
+      "text": "{{cxd5}}, and White should be glad to. Refusing means letting Black keep a pawn in the middle for nothing.\n\nLook at what the capture buys, though. Black recaptures with a piece, so Black has no pawn in the center at all — and White is one move from planting a second pawn beside d4. On paper Black has handed over the middle of the board and gained nothing back.\n\nThe gain is not on the board yet. It is in what Black gets to aim at once White's pawns are set."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3P4/3P4/2N5/PP2PPPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Kicked on Arrival",
+      "text": "{{Nxd5}} {{e4}}. The knight reaches the middle and is told to leave on the very next move.\n\nWhite's pawns stand side by side on d4 and e4 now, which is what White has been playing for since move one: a broad center, and every piece behind it with a square to go to.\n\nThe knight has to move. It has one square where it does damage on the way out, and finding that square is the whole reason Black allowed any of this."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3PP3/2N5/PP3PPP/R1BQKBNR b KQkq e3 0 5",
+      "prompt": "Your knight is being chased, so leave the square in the way that forces White to recapture with a wing pawn.",
+      "targetSan": [
+        "Nxc3"
+      ],
+      "hint": "Retreating hands White the center for free; look instead for the piece your knight can take on its way out."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "What the Recapture Cost",
+      "text": "White's b-pawn came to c3 to prop up d4, and the queenside it left behind is a mess: one pawn on a2, and a rook on a1 looking at an empty b-file.\n\nBlack's half of the bargain is the bishop on g7. The pawn went to g6 on move two so that the bishop could own that diagonal, and the diagonal runs g7, f6, e5, d4 — straight into the pawns White has just finished building."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Count the Guards on d4",
+      "text": "Everything now turns on d4. Three things hold it up: the pawn on c3, the knight on f3 and the queen on d1. Only one of them is a pawn.\n\nA pawn guards for free. A piece guarding a pawn is a piece with a job it cannot walk away from, so Black attacks d4 with the cheapest thing available and lets White decide which piece gets stuck babysitting. Pawn first, pieces behind it.\n\n> A center that big is a battering ram or a target, and what points at it decides which."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "Attack d4 with a pawn, choosing the one that does not block your bishop's diagonal.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "Your bishop's road runs through e5 and d4, so the pawn you send has to come from the other wing."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-11",
+  "fen": "6k1/2n1Rppp/8/8/2N5/2r5/PP2Q3/K7 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Nxe8",
+    "Qxe8#"
+  ],
+  "rating": 1610,
+  "title": "The Knight Cannot Cover Twice",
+  "setup": "Black's knight on c7 is watching e8, your rook has reached the seventh, and the queen is waiting on e2.",
+  "hint": "A knight guards awkwardly. Find the square it can reach exactly once and make it go there.",
+  "explanation": "## The Idea\n\n{{Re8+}} demands the knight, {{Nxe8}} is forced, and the queen captures it there with {{Qxe8#}}. A knight defending a square is only a defender until it has to stand on it."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "prophylaxis",
+  "title": "La profilaxis",
+  "summary": "Mata el plan antes de que se juegue",
+  "proof": "strategy-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "El camino hacia g1",
+      "text": "El rey blanco de g1 está al final de un camino en el que todavía no hay nadie.\n\nSíguelo: a7, b6, c5, d4, e3, f2, g1. El peón de f fue a f4, así que f2 está vacía y e3 también. La única pieza en toda esa diagonal es tu propio caballo de d4.\n\nLa dama negra todavía no se ha movido. Cuando lo haga, b6 es la casilla que querrá."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "La pregunta que tendrías que responder",
+      "text": "Mejora una pieza de la forma natural: {{Bf3}} apunta al centro.\n\n{{Qb6}}, y el caballo de d4 queda clavado contra tu rey, y no a medias: de forma absoluta. No tiene ninguna jugada legal. La reparación es {{Be3}}, una jugada entera gastada para que el caballo vuelva a respirar, y el alfil de c1 era el que protegía b2.\n\nLa **profilaxis** es la otra forma de gastar esa jugada: averiguar la próxima buena jugada de tu rival y borrarla antes de que llegue a jugarse."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "prompt": "Quita el objetivo del final de esa diagonal antes de que la dama negra se asome a ella.",
+      "targetSan": [
+        "Kh1"
+      ],
+      "hint": "El problema es la casilla en la que está tu rey, no ninguna pieza negra."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K b - - 2 9",
+      "title": "El plan de debajo",
+      "text": "b6 es ahora una casilla como cualquier otra. La diagonal sigue ahí, y al final no hay nada.\n\nAsí que las Negras pasan al plan de debajo: primero {{Qc7}}, luego el peón de b a b5 y hasta b4, echando al caballo de c3, la pieza que defiende e4.\n\nEs lento, y es lo único en esta posición que podría ganarte. Lo lento es justo aquello contra lo que sirve la profilaxis. Lo ves venir desde cuatro jugadas de distancia."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K w - - 3 10",
+      "prompt": "Todo el plan negro en el flanco de dama empieza con un peón que llega a b5, así que haz que esa casilla cueste material.",
+      "targetSan": [
+        "a4"
+      ],
+      "hint": "Solo uno de tus peones puede ir a atacar b5 antes de que las Negras lleguen ahí."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "Nada es gratis",
+      "text": "El peón de a4 no fue gratis. Ha dejado atrás b4 para siempre, y a un caballo negro que se instale ahí cuesta desalojarlo.\n\nEse es el trato que ofrece siempre la profilaxis: compras la eliminación de un plan con una pequeña concesión permanente. Acepta el trato cuando el plan vale más que la casilla."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "La última idea de la posición",
+      "text": "El flanco de dama está cerrado y el camino hacia tu rey ha desaparecido. Queda el recurso más antiguo del bando apretado: un cambio.\n\n{{Nc6}} desarrolla y ofrece uno. Responde con algo natural como {{Be3}}, y {{Nxd4}} cambia; la posición negra respira por primera vez en diez jugadas.\n\nLas Negras no están perdidas. Las Negras se han quedado sin ideas, y un jugador sin ideas va a la deriva.\n\n> Antes de preguntarte qué quieres, pregúntate qué quiere tu rival, y luego quítaselo."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/1pq1bppp/p1nppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K w - - 1 11",
+      "prompt": "El bando apretado vive de los cambios, así que quítale el único que le queda.",
+      "targetSan": [
+        "Nb3"
+      ],
+      "hint": "Las Negras quieren cambiar un par de caballos: ¿dónde más puede ponerse ese caballo y seguir vigilando a5 y c5?"
+    }
+  ]
+}

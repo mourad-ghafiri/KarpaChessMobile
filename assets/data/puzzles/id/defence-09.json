@@ -1,0 +1,14 @@
+{
+  "id": "defence-09",
+  "fen": "1Q6/2K5/5r2/7R/3q4/5b2/k7/8 w - - 0 1",
+  "solution": [
+    "Ra5+",
+    "Qa4",
+    "Rxa4#"
+  ],
+  "rating": 1770,
+  "title": "Ayunkan Benteng ke Samping",
+  "setup": "Menteri, benteng dan gajah Hitam semuanya membidik raja Anda di c7, dan rajanya sendiri bersembunyi di a2.",
+  "hint": "Benteng Anda berada di lajur yang salah tetapi di baris yang tepat. Temukan petak tempat satu-satunya penghalang berharga satu menteri.",
+  "explanation": "## Ide\n\n{{Ra5+}} tiba melalui baris kelima. {{Qa4}} satu-satunya penutup, dan {{Rxa4#}} adalah mat. Benteng tak pernah maju — ia bergerak menyamping, arah yang tak bisa dijawab raja di lajur a."
+}

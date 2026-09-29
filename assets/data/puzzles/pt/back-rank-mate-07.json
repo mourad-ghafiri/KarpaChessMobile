@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-07",
+  "fen": "6k1/1b3ppp/8/8/8/8/2r2PPP/R3R1K1 w - - 1 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 910,
+  "title": "Escolhe a Torre Certa",
+  "setup": "As duas torres podem dar xeque na oitava linha, e o bispo preto de b7 está a vigiar uma delas.",
+  "hint": "Há dois xeques disponíveis e só um deles é mate. Olha para o que o bispo de b7 defende.",
+  "explanation": "## A Ideia\n\nRa8+ perde simplesmente uma torre para o bispo de b7. {{Re8#}} é mate: nada defende e8, nada pode tapar, e os peões de f7, g7 e h7 seguram o rei. Na linha de fundo, pergunta sempre que casas o defensor ainda cobre."
+}

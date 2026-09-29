@@ -1,0 +1,15 @@
+{
+  "id": "openings-13",
+  "fen": "r1bq1rk1/p3nppp/1pnbp3/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 0 9",
+  "solution": [
+    "e5",
+    "Bxe5",
+    "Nxe5",
+    "Nxe5",
+    "Rxe5"
+  ],
+  "title": "Cuenta antes de cerrar",
+  "setup": "El esquema del Ataque Indio de Rey está completo, y las Negras acaban de avanzar un peón a b6 con un alfil en d6. Juega el avance central para el que se construyó este esquema.",
+  "hint": "Un avance gana espacio y ofrece un peón al mismo tiempo. Cuenta atacantes y defensores de esa casilla antes de comprometerte.",
+  "explanation": "## La idea\n\n{{e5}} es el avance en torno al cual se construye todo Ataque Indio de Rey, y gana espacio con tiempo sobre el alfil.\n\nTambién ofrece un peón, y comerlo es un error. A e5 lo atacan el alfil de d6 y el caballo de c6, y lo defienden el caballo de f3 y la torre de e1. Tras {{Bxe5}} {{Nxe5}} {{Nxe5}} {{Rxe5}}, las Blancas tienen un alfil por un peón. Lo mejor para las Negras es retirar el alfil y ceder el espacio.\n\nCuenta lo que vale cada atacante, no solo cuántos hay."
+}

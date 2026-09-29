@@ -1,0 +1,14 @@
+{
+  "id": "promotion-06",
+  "fen": "7k/ppp4p/8/PPP5/8/8/7P/7K w - - 0 1",
+  "solution": [
+    "b6",
+    "axb6",
+    "c6"
+  ],
+  "rating": 1200,
+  "title": "Break the Pawn Wall",
+  "setup": "Three pawns face three pawns on the queenside, and both kings are parked away in the far corner.",
+  "hint": "Three abreast against three abreast. Give one away in the middle and count the tempi the other two need.",
+  "explanation": "## The Idea\n\n{{b6}} gives a pawn away to break the wall. After {{axb6}}, {{c6}} breaks through again: if {{bxc6}}, the a-pawn runs to a8 untouched, and if Black leaves it, {{cxb7}} and the pawn queens on b8. After {{cxb6}} instead, {{a6}} does the same job from the other side.\n\nA pawn given up in the middle of three can buy a queen on the wing."
+}

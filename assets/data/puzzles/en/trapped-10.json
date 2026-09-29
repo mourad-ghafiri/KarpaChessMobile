@@ -1,0 +1,12 @@
+{
+  "id": "trapped-10",
+  "fen": "rb4k1/p4pp1/7p/2p5/8/2N3PP/PP3P2/3B2K1 w - - 0 1",
+  "solution": [
+    "Bf3"
+  ],
+  "rating": 1330,
+  "title": "The Boxed Rook",
+  "setup": "Black's rook on a8 has its own pawn on a7 beneath it and its own bishop on b8 right beside it.",
+  "hint": "That rook has no move at all. Find the long diagonal that reaches into the corner it is stuck in.",
+  "explanation": "## The Idea\n\n{{Bf3}} hits a8 down the h1-a8 diagonal and the rook has nowhere: a7 is Black's pawn, b8 its bishop. Nothing can defend a8, and the dark-squared bishop can never block a light-squared diagonal, so the rook is simply lost."
+}

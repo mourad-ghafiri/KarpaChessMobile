@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-07",
+  "fen": "5k2/5p1K/3p4/5N2/8/8/Q7/8 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Rete di Donna e Cavallo",
+  "setup": "Il re nero in f8 è chiuso dal suo stesso pedone, il vostro re in h7 gli sta vicino, e il vostro cavallo in f5 sorveglia.",
+  "hint": "Il vostro re copre g7 e g8, e il cavallo copre e7. Alla donna serve solo uno scacco da cui il re non possa spostarsi.",
+  "explanation": "## L'idea\n\n{{Qa8#}} dà scacco lungo la traversa di fondo. e8 sta sulla linea della donna, il cavallo in f5 copre e7, il vostro re in h7 copre g7 e g8, e f7 ha il pedone del Nero. Niente può parare sull'ottava traversa.\n\nTogliete il cavallo e il re scappa in e7. In una rete di matto, ogni pezzo copre una casa che gli altri non possono coprire."
+}

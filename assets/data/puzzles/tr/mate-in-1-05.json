@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-05",
+  "fen": "6k1/5ppp/8/8/8/8/1R3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Uzaktan Çekiç",
+  "setup": "b2'deki kaleniz boş bir dikeye bakıyor ve dikeyin öteki ucunda arka yatay ardına kadar açık.",
+  "hint": "Siyahın şahının önünde kendi üç piyonu var. Ayrılamayacağı yatayı bulun.",
+  "explanation": "## Fikir\n\nBu saf bir arka yatay matıdır. {{Rb8#}} b dikeyini boydan boya koşar ve sekizinci yatay boyunca şah çeker. f8 ile h8 kalenin hattındadır; f7, g7 ve h7'de siyahın kendi piyonları durur ve hiçbir şey kaleyi alamaz ya da araya giremez.\n\nOlaydan uzaktaki kale de tek hamlede mat edebilir. Oynamadan önce kaleleriniz için her açık dikeyi, filleriniz için her açık çaprazı tarayın."
+}

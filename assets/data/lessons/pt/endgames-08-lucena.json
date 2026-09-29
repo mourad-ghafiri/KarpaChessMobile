@@ -1,0 +1,56 @@
+{
+  "id": "lucena-position",
+  "title": "A Ponte de Lucena",
+  "summary": "A um peão de uma dama, e um rei sem sítio onde estar",
+  "proof": "endgames-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "A Uma Casa do Fim",
+      "text": "O peão em d7 está a uma casa da oitava linha, e é o próprio rei branco que está nessa casa.\n\nTira o rei de lado e o peão promove na jogada seguinte. É essa a vitória inteira, e o melhor argumento das pretas é a torre em a1, a dar xeque do outro extremo do tabuleiro. Um rei apanhado a descoberto com uma torre atrás pode ser perseguido durante muito tempo, e cada xeque é uma jogada em que o peão fica quieto.\n\nPortanto isto não é uma pergunta sobre o peão. É uma pergunta sobre onde o rei pode estar."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "title": "Nada Atrás de Que Se Esconder",
+      "text": "{{Ke7}}, e {{Re1+}} chega logo. A torre cai sobre a coluna para onde o rei for, da distância que lhe apetecer.\n\nPortanto dá ao rei uma parede antes de ele sair, e os xeques deixam de contar. Neste tabuleiro só uma peça pode sê-lo. A tua torre em f2 já tem um trabalho de que não pode abdicar: ao ficar na coluna f, mantém o rei preto fora da luta.\n\nPortanto fica nessa coluna. Sobe por ela — até uma casa a que o rei possa ir e que possa defender."
+    },
+    {
+      "type": "play",
+      "fen": "3K4/3P3k/8/8/8/8/5R2/r7 w - - 6 4",
+      "prompt": "Antes de o teu rei sair, manda a torre pela sua coluna acima para construir a parede atrás da qual ele se vai esconder.",
+      "targetSan": [
+        "Rf4"
+      ],
+      "hint": "O teu rei vem ter com essa parede e tem de acabar ao lado dela, portanto conta a que altura da coluna isso põe a torre."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "O Livro de Que Tem o Nome",
+      "text": "A torre preta caiu sobre d1, a coluna do próprio peão, pronta a dar xeque por ela. Esta é a posição a que todos os livros de finais chamam Lucena.\n\nLuis Ramírez de Lucena imprimiu o mais antigo livro sobrevivente sobre como se joga o jogo moderno, em Salamanca por volta de 1497, e esta posição não está lá. Chega à imprensa mais de um século depois, no livro de Alessandro Salvio de 1634. O nome foi parar ao volume errado e nunca mais de lá saiu."
+    },
+    {
+      "type": "teach",
+      "fen": "3K4/3P3k/8/8/5R2/8/8/3r4 w - - 8 5",
+      "title": "Xeques Que Não Custam Nada",
+      "text": "Agora o rei caminha, e a cada passo responde-se. {{Ke7}} {{Re1+}} {{Kd6}} {{Rd1+}}.\n\nNada disto muda coisa nenhuma. A torre preta não consegue enxotar o rei de uma casa que importe, porque o rei não está a fugir — está a marchar em direção à linha onde a parede já está estacionada. Cada xeque empurra a torre preta uma coluna de lado e põe as brancas uma linha mais perto.\n\nAs pretas podem continuar a dar xeque. Ao plano é indiferente."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "title": "A Uma Linha de Distância",
+      "text": "Quatro xeques depois o teu rei está em d5, e a torre em f4 está uma linha abaixo dele. As pretas dão xeque outra vez.\n\nFugir deixou de compensar. Vai a {{Ke5}} e a coluna abre-se atrás de ti: {{Rxd7}}, e o peão desapareceu. Vai a c6 ou e6 e a torre dá simplesmente xeque outra vez pela coluna nova. Portanto a resposta mais limpa é cortar o xeque em vez de fugir dele.\n\n> Um bloqueio que o teu adversário pode capturar de graça não é bloqueio nenhum. Põe-na onde o rei já está de guarda."
+    },
+    {
+      "type": "play",
+      "fen": "8/3P3k/8/3K4/5R2/8/8/3r4 w - - 16 9",
+      "prompt": "Acaba de vez com os xeques tapando na única casa que o teu rei já defende.",
+      "targetSan": [
+        "Rd4"
+      ],
+      "hint": "A tua torre só tem de viajar ao longo da linha em que já está, e só até à linha do xeque."
+    }
+  ]
+}

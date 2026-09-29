@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-04",
+  "fen": "k7/3q4/8/8/8/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Rxd7"
+  ],
+  "title": "Açık Yoldaki Kale",
+  "setup": "Kaleniz ile siyahın veziri ardına kadar açık d dikeyini paylaşıyor — ve sıra sizde.",
+  "hint": "İki ağır taşın arasındaki d dikeyi boş. Önce kim vuruyor?",
+  "explanation": "## Fikir\n\nKaleniz ile siyahın veziri açık d dikeyinde karşı karşıya ve sıra **beyazda**. Paylaşılan bir hatta önce oynayan önce varır.\n\n{{Rxd7}} veziri alır. a8'deki siyah şah d7'nin yakınında bile değil, yani geri alan yok.\n\nTaşınız ile rakip bir taş aynı açık hatta durduğunda, her şeyden önce sıranın kimde olduğuna bakın."
+}

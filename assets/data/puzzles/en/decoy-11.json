@@ -1,0 +1,14 @@
+{
+  "id": "decoy-11",
+  "fen": "7k/pp2n1pp/7N/q7/1r6/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Nxg8",
+    "Nf7#"
+  ],
+  "rating": 1520,
+  "title": "Feed the Knight",
+  "setup": "The king on h8 is buried behind its own pawns, and Black's knight on e7 is the only black piece that reaches g8.",
+  "hint": "The corner is already a cage. What would you give to have g8 occupied by a black piece?",
+  "explanation": "## The Idea\n\n{{Qg8+}} cannot be taken by the king, because your knight on h6 covers g8 — so {{Nxg8}} is the only move. The last flight square is blocked by Black's own knight, and {{Nf7#}} is smothered mate."
+}

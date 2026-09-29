@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-09",
+  "fen": "1k6/5ppp/8/5PPP/8/8/1K6/8 w - - 1 2",
+  "solution": [
+    "g6"
+  ],
+  "rating": 1390,
+  "title": "Tiga Lawan Tiga",
+  "setup": "Enam pion saling berhadapan di sayap raja sementara kedua raja berdiri satu papan penuh jauhnya.",
+  "hint": "Tak satu raja pun bisa tiba tepat waktu, jadi carilah langkah pion yang membuka jalan dengan merelakan materi.",
+  "explanation": "## Ide\n\n{{g6}} satu-satunya langkah yang menang, dan langkah itu menyerahkan sebuah pion. {{hxg6}} {{f6}} {{gxf6}} {{h6}} dan pion h tak bisa ditangkap; jika Hitam menangkap dengan cara lain, terobosan yang sama berhasil dengan pion f. Langkah-langkah tenang berakhir remis, dan beberapa di antaranya kalah oleh ide yang persis sama."
+}

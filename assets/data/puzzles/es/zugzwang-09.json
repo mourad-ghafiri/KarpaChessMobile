@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-09",
+  "fen": "4k3/8/1B6/1KpR4/8/7p/8/R7 w - - 0 1",
+  "solution": [
+    "Ra7",
+    "h2",
+    "Rd8#"
+  ],
+  "rating": 1650,
+  "title": "Las dos torres a la última fila",
+  "setup": "El rey negro está en e8 con peones en c5 y h3, y tus torres dominan la quinta fila y la columna a.",
+  "hint": "Una torre ya domina la columna que usaría el rey. Dale a la otra la fila que necesita, sin dar jaque.",
+  "explanation": "## La idea\n\n{{Ra7}} toma la séptima fila en silencio, sin dejarles a las Negras nada que detenga {{Rd8#}}. Sigue {{Rd8#}} en la última fila. Dos torres dan mate tomando dos filas; el truco está en tomar la segunda en silencio."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fork-08",
+  "fen": "1kbr4/pp6/2P5/8/8/8/5PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "c7+",
+    "Ka8",
+    "cxd8=Q"
+  ],
+  "rating": 950,
+  "title": "Piyon Hepsini Alıyor",
+  "setup": "c6'daki piyonunuz yeni bir vezire iki adım uzaklıkta; siyahın şahı b8'de, bir kalesi d8'de.",
+  "hint": "Piyon çaprazda iki kareye saldırır. İkisine birden vuran ilerleyişi bulun, sonra onu kimin koruduğunu sayın.",
+  "explanation": "## Fikir\n\n{{c7+}} b8 ile d8'e birlikte saldırır ve c1'deki kale piyonu koruduğu için şah onu yiyemez. Kendi piyonları ile fili yalnızca {{Ka8}} bırakır ve {{cxd8=Q}} tek hamlede hem kaleyi alır hem yeni bir vezir getirir."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-05",
+  "fen": "6k1/2R2ppp/6r1/8/8/1B2r1Q1/PP6/K2b4 w - - 0 1",
+  "solution": [
+    "Rc8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1460,
+  "title": "Kale Köşeye",
+  "setup": "Siyahın fili d1'de oturuyor ve kaleleri g6 ile e3'te duruyor — şahınız epey havadar görünüyor.",
+  "hint": "Tehditlere cevap vermeyin. Siyahın bir taşını, kalenizin sahip olacağı yataya zorlayan şahı bulun.",
+  "explanation": "## Fikir\n\n{{Rc8+}} şahınıza yönelik her tehdidi görmezden gelir. {{Re8}} tek cevaptır ve şimdi {{Rxe8#}} mattır, çünkü kale bütün sekizinci yatayı, piyonlar da gerisini alır. Tempo partiyi bitiriyorsa taş dengesini yener."
+}

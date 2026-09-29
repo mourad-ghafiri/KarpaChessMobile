@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-01",
+  "fen": "8/2QK4/6p1/8/8/8/8/3B3k w - - 0 1",
+  "solution": [
+    "Qg3",
+    "g5",
+    "Bf3#"
+  ],
+  "rating": 1400,
+  "title": "Tidak Berbuat Apa-apa, Pelan-pelan",
+  "setup": "Raja Hitam terjepit di sudut h1 dan satu-satunya buahnya yang masih punya masa depan adalah pion di g6.",
+  "hint": "Tidak ada sekak yang berhasil. Tanyakan apa yang harus dimainkan Hitam jika Anda sekadar melewatkan giliran.",
+  "explanation": "## Ide\n\n{{Qg3}} tidak memberi sekak dan merebut setiap petak yang dimiliki raja. Hitam hanya punya {{g5}}, dan {{Bf3#}} menyusul. Zugzwang adalah langkah yang membuat kewajiban melangkah menjadi seluruh masalahnya."
+}

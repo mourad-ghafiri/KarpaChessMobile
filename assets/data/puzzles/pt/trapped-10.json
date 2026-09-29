@@ -1,0 +1,12 @@
+{
+  "id": "trapped-10",
+  "fen": "rb4k1/p4pp1/7p/2p5/8/2N3PP/PP3P2/3B2K1 w - - 0 1",
+  "solution": [
+    "Bf3"
+  ],
+  "rating": 1330,
+  "title": "A Torre Encaixotada",
+  "setup": "A torre preta em a8 tem o seu próprio peão em a7 por baixo e o seu próprio bispo em b8 mesmo ao lado.",
+  "hint": "Essa torre não tem jogada nenhuma. Encontra a grande diagonal que chega ao canto onde ela está presa.",
+  "explanation": "## A Ideia\n\n{{Bf3}} atinge a8 pela diagonal de h1 a a8 e a torre não tem para onde ir: a7 é o peão das pretas, b8 o seu bispo. Nada pode defender a8, e o bispo das casas escuras nunca pode tapar uma diagonal clara, portanto a torre perde-se simplesmente."
+}

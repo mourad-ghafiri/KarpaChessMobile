@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-26",
+  "fen": "3k4/3P4/3K4/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "İki Katlı Güvence",
+  "setup": "d7'deki piyonunuz tam siyahın şahının önünde duruyor ve d6'daki şahınız onu koruyor.",
+  "hint": "Kaleyi sekizinci yataya süpürün — altındaki her şeyi şahınız ile piyonunuz çoktan çitlemiş.",
+  "explanation": "## Fikir\n\nd7'deki piyon şah çekmiyor, ama işini görüyor: d7'yi şahtan alıyor ve ayrıca c8 ile e8'e saldırıyor.\n\n{{Ra8#}} arka yatay boyunca şah çeker. c8 ile e8 kalenin hattındadır, d6'daki şahınız c7 ile e7'yi kapsar ve aynı zamanda piyonu korur; yani şah onu alamaz.\n\nMütevazı bir piyon bile mat ağını kapatan taş olabilir."
+}

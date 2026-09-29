@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-04",
+  "fen": "k7/3q4/8/8/8/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Rxd7"
+  ],
+  "title": "La tour sur une route ouverte",
+  "setup": "Votre tour et la dame noire partagent la colonne d grande ouverte — et c'est à vous de jouer.",
+  "hint": "La colonne d est vide entre les deux poids lourds. Qui frappe le premier ?",
+  "explanation": "## L'idée\n\nVotre tour et la dame noire se font face sur la colonne d ouverte, et **les Blancs ont le trait**. Sur une ligne partagée, celui qui joue le premier arrive le premier.\n\n{{Rxd7}} prend la dame. Le roi noir en a8 est loin de d7, donc rien ne reprend.\n\nQuand votre pièce et une pièce adverse se tiennent sur la même ligne ouverte, vérifiez avant tout à qui c'est le tour."
+}

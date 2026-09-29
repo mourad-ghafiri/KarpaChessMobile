@@ -1,0 +1,633 @@
+{
+  "language": {
+    "name": "日本語"
+  },
+  "ui": {
+    "brand": {
+      "title": "KarpaChess"
+    },
+    "button": {
+      "flip": "反転",
+      "undo": "元に戻す",
+      "hint": "ヒント",
+      "dismiss": "キャンセル",
+      "chooseFile": "ファイルを選択…",
+      "settings": "設定",
+      "close": "閉じる",
+      "back": "戻る",
+      "next": "次へ",
+      "save": "保存"
+    },
+    "label": {
+      "difficulty": "難易度",
+      "playAs": "使用する側",
+      "timeControl": "持ち時間"
+    },
+    "placeholder": {
+      "pgnInput": "PGNまたは指し手リストを貼り付けてください（例：e4 e5 Nf3 Nc6）…",
+      "drawText": "入力…"
+    },
+    "aria": {
+      "capturedByWhite": "白が取った駒",
+      "capturedByBlack": "黒が取った駒",
+      "chessBoard": "チェス盤",
+      "dismissHint": "ヒントを閉じる"
+    },
+    "toast": {
+      "parseFail": "解析できませんでした：{error}",
+      "fileTooLarge": "このファイルは大きすぎるため読み込めません。"
+    }
+  },
+  "game": {
+    "result": {
+      "stalemate": "ステイルメイト",
+      "draw": "引き分け",
+      "timeout": "時間切れ"
+    },
+    "resultSub": {
+      "whiteWins": "白の勝ち",
+      "blackWins": "黒の勝ち",
+      "stalemate": "ステイルメイトによる引き分け",
+      "fiftyMove": "50手ルール",
+      "insufficient": "駒数不足",
+      "repetition": "同一局面の3回繰り返し",
+      "whiteWinsTime": "時間切れで白の勝ち",
+      "blackWinsTime": "時間切れで黒の勝ち"
+    },
+    "side": {
+      "white": "白",
+      "black": "黒"
+    },
+    "playerDefault": {
+      "bottom": "あなた"
+    },
+    "playAsOption": {
+      "white": "白",
+      "random": "ランダム",
+      "black": "黒"
+    },
+    "timeControl": {
+      "unlimited": "無制限"
+    },
+    "difficulty": {
+      "1": "初心者",
+      "2": "カジュアル",
+      "3": "クラブ",
+      "4": "全力"
+    }
+  },
+  "chess": {
+    "piece": {
+      "p": "ポーン",
+      "n": "ナイト",
+      "b": "ビショップ",
+      "r": "ルーク",
+      "q": "クイーン",
+      "k": "キング"
+    },
+    "pieceCapital": {
+      "p": "ポーン",
+      "n": "ナイト",
+      "b": "ビショップ",
+      "r": "ルーク",
+      "q": "クイーン",
+      "k": "キング"
+    },
+    "direction": {
+      "kingside": "キングサイド",
+      "queenside": "クイーンサイド"
+    }
+  },
+  "hint": {
+    "checkmate": "<b>チェックメイト</b>を決める手。決めましょう！",
+    "castle": "{dir}へキャスリング ― キングをポーンの壁の後ろに隠します。",
+    "promote": "最奥段へ進めて<b>{piece}</b>に昇格します。",
+    "capture": "あなたの<b>{piece}</b>が<b>{target}</b>を取ります。",
+    "develop": "<b>{piece}</b>を<b>{square}</b>へ展開し、活動性を高めて中央を睨みます。",
+    "pawn": "<b>ポーン</b>を<b>{square}</b>へ進め、スペースを確保します。",
+    "rook": "<b>ルーク</b>を<b>{square}</b>で活用 ― オープンファイルはルークの舞台です。",
+    "queen": "<b>クイーン</b>を<b>{square}</b>へ意味を持って展開します。",
+    "quiet": "<b>{piece}</b>を<b>{square}</b>へ動かし、働きを高めます。",
+    "checkSuffix": " さらに<b>チェック</b>もかかります。"
+  },
+  "coach": {
+    "whisper": {
+      "tip5": "守られていない駒を探しましょう ― 自分のも相手のも。"
+    },
+    "builtin": {
+      "bestMove": {
+        "recommendation": "私のおすすめ：<b>{move}</b>。",
+        "noEngine": "エンジンから回答がありませんでした。局面そのものから読み取れることを示します。",
+        "whyHeader": "<b>ここでこれが理にかなう理由：</b>",
+        "castle": "・キングがまだ中央にあります ― キャスリングが最優先です。",
+        "develop": {
+          "other": "・マイナーピースがまだ{squares}にあります ― 展開しましょう。"
+        },
+        "center": "・中央4マスにポーンがありません ― 中央のポーンプッシュは価値があります。",
+        "loose": {
+          "other": "・相手に<b>守られていない駒</b>があります：{list}。これを取る方法を探しましょう。"
+        },
+        "oppKing": "・相手のキングは<b>{score}</b>です ― 攻撃手がよく効きます。",
+        "ownKing": "・あなたのキングが攻撃されています ― まず守りを考えましょう。",
+        "passedEnd": {
+          "other": "・<b>パスポーン</b>が{squares}にあります ― 進めましょう！"
+        },
+        "activeKing": "・キングを活用しましょう ― エンドゲームでは戦う駒です。",
+        "ahead": {
+          "other": "・あなたは{n}ポイントリードです ― 駒を交換し、ポーンを残しましょう。"
+        },
+        "behind": {
+          "other": "・あなたは{n}ポイントビハインドです ― 複雑化を図りましょう。"
+        },
+        "evalSuffix": "_評価：{eval}_"
+      },
+      "tactics": {
+        "header": "<b>{side}のための戦術スキャン</b>",
+        "loose": {
+          "other": "相手には守られていない駒が{n}枚あります：{list}。"
+        },
+        "defended": "相手の駒は守られているようです。難しい戦術 ― ピン、デコイ、クリアランス手を探しましょう。",
+        "exposedKing": "相手のキングは<b>{score}</b>です（{notes}） ― 詰みのパターンが潜んでいるかもしれません。",
+        "openLines": "オープンライン",
+        "queenTarget": "相手のクイーンが<b>{square}</b>にいます ― 軽い手段で攻撃してテンポを稼げますか？",
+        "engineSuggests": "エンジンの提案は<b>{move}</b>です ― この手は上記のパターンに当てはまりますか？",
+        "footer": "_毎手、次の3点を見抜く眼を鍛えましょう：守られていない駒、露出したキング、働き過ぎの守り駒。_"
+      },
+      "plan": {
+        "header": "<b>{side}のプラン</b> _（{phase}）_",
+        "developMinors": {
+          "other": "残りのマイナーピースを{squares}から展開しましょう。"
+        },
+        "castle": "キャスリング ― まずキングの安全を。",
+        "queenEarly": "注意 ― マイナーピースの展開前にクイーンが動きました。追い回されないようにしましょう。",
+        "centerPawn": "中央4マス（d4/e4/d5/e5）にポーンを置きましょう。",
+        "kingDanger": "キングが危険です ― 攻撃する前に守りを固めましょう。",
+        "oppositeWings": "両者キャスリングしました ― 互いに反対側なら、ポーンで相手のキングを攻めましょう。",
+        "pushPassed": {
+          "other": "{squares}のパスポーンを進めましょう。"
+        },
+        "isolated": {
+          "other": "{squares}の孤立ポーンに注意 ― 活動性で弱点を補いましょう。"
+        },
+        "improveWorst": "最も働きの悪い駒を改善しましょう。毎手、どれか一つの駒を良くするべきです。",
+        "racePassed": {
+          "other": "{squares}のパスポーンを昇格へ向けて競争させましょう。"
+        },
+        "activateKing": "キングを活用しましょう ― 戦いの中心へ歩かせましょう。",
+        "aheadTrade": {
+          "other": "{n}ポイント優勢です ― 駒を交換（ポーンではなく）して、勝ちエンドゲームへ単純化しましょう。"
+        },
+        "behindKeep": {
+          "other": "{n}ポイント劣勢です ― 駒を盤上に残し、反撃を作り、交換を避けましょう。"
+        },
+        "fewPawns": "残りポーンが少ないです ― オポジション、ツークツワンク、キーマスを意識しましょう。"
+      },
+      "lastMove": {
+        "none": "まだ指し手がありません ― 中央ポーン（e4またはd4）かナイトの手（Nf3）から始めましょう。",
+        "capture": "駒を取った",
+        "check": "チェックをかけた",
+        "checkmate": "チェックメイトを決めた",
+        "castleKingside": "キングサイドへキャスリングした",
+        "castleQueenside": "クイーンサイドへキャスリングした",
+        "promote": "ポーンを昇格させた",
+        "line": "<b>{san}</b> ― {anns}。",
+        "quiet": "<b>{san}</b> ― 静かな位置的な手。",
+        "evalLine": "現在の評価：{eval}。",
+        "topChoice": "エンジンの今後のトップ候補：<b>{move}</b>。"
+      },
+      "evaluation": {
+        "header": "<b>局面評価</b> _（{phase}、{side}の手番）_",
+        "material": "・<b>駒の損得：</b>白{w}対黒{b}{diff}",
+        "equalSuffix": "（互角）",
+        "diffSuffix": " ― {side}が+{n}",
+        "engine": "・<b>エンジン：</b>{eval}",
+        "whiteKing": "・<b>白キング：</b>{score}{notes}",
+        "blackKing": "・<b>黒キング：</b>{score}{notes}",
+        "notesFmt": "（{notes}）",
+        "pawnWeaknessesWhite": "・<b>白ポーンの問題点：</b>{list}",
+        "pawnWeaknessesBlack": "・<b>黒ポーンの問題点：</b>{list}",
+        "isolatedPrefix": "{sq}で孤立",
+        "doubledPrefix": "{file}で二重",
+        "passedWhite": {
+          "other": "・<b>白のパスポーン：</b>{squares}"
+        },
+        "passedBlack": {
+          "other": "・<b>黒のパスポーン：</b>{squares}"
+        },
+        "topMove": "・<b>エンジンのトップ手：</b><b>{move}</b>"
+      },
+      "kingSafety": {
+        "header": "<b>キングの安全</b>",
+        "line": "・<b>{side}キング</b>（{who}）：{score}{castled}。{notes}",
+        "you": "あなた",
+        "opponent": "相手",
+        "castledSuffix": " ― キャスリング済み",
+        "noConcerns": "直近の懸念はありません。",
+        "footer": "自分のキングが露出している場合：まず守る。相手のキングが露出している場合：チェック、ルークリフト、クイーン侵入を探しましょう。"
+      },
+      "phase": {
+        "opening": "オープニング",
+        "middlegame": "ミドルゲーム",
+        "endgame": "エンドゲーム"
+      },
+      "kingScore": {
+        "safe": "安全",
+        "exposed": "露出",
+        "danger": "危険",
+        "shelter": "避難",
+        "waiting": "待機",
+        "active": "活動的",
+        "unknown": "不明"
+      },
+      "kingNote": {
+        "tuckedCorner": "まだ隅に隠れています ― 中央化しましょう",
+        "startingSquare": "初期マスのキング ― 歩き出させましょう",
+        "activeOn": "{square}で活動的なキング",
+        "wanderingOn": "{square}を彷徨うキング",
+        "centerAfter8": "8手を過ぎてもキングが中央にいます",
+        "thinShield": "薄いポーンの盾（{count}/3）",
+        "enemyHeavy": "敵の重駒がキングのファイルに",
+        "fullShield": "完全なポーンの盾でキャスリング済み"
+      },
+      "eval": {
+        "unclear": "不明瞭",
+        "balanced": "均衡（{pawns}）",
+        "better": "{sign}{pawns} ― <b>{side}</b>が優勢"
+      },
+      "topLines": {
+        "header": "<b>エンジン候補手</b>",
+        "item": "{rank}. {san} — {eval}"
+      },
+      "threatLine": "<b>注意：</b>{side}の手番なら{san}が脅威になります（{eval}）。",
+      "pieceOn": "{square}の{piece}"
+    },
+    "ask": {
+      "bestMove": "最善手",
+      "tactics": "戦術",
+      "plan": "プラン",
+      "lastMove": "この手",
+      "evaluation": "形勢判断",
+      "kingSafety": "キングの安全"
+    },
+    "askAnother": "別の質問"
+  },
+  "settings": {
+    "title": "設定",
+    "boardTheme": "盤面テーマ",
+    "toggle": {
+      "coords": "座標を表示",
+      "legal": "合法手をハイライト",
+      "last": "最後の手をハイライト",
+      "sound": "サウンド",
+      "animations": "アニメーション"
+    },
+    "language": "言語",
+    "dangerZone": "危険な操作",
+    "resetBtn": "進捗と設定をリセット",
+    "resetConfirm": "すべての進捗と設定をリセットしますか？",
+    "about": "このアプリについて",
+    "version": "バージョン{version}",
+    "licenses": "オープンソースライセンス",
+    "privacy": "プライバシーポリシー",
+    "privacyBody": "KarpaChessは個人データを一切収集しません。アカウント、広告、アクセス解析、トラッキングはなく、インターネットに接続することもありません。進捗、設定、対局、画像はお使いの端末と、ご利用の場合は端末自体のバックアップにのみ保存され、当方を含め誰にも送信されることはありません。設定から進捗、設定、プレイヤー画像を消去でき、アプリを削除すると保存されたものはすべて削除されます。ポリシーの全文は{url}で公開しています。",
+    "sourceNotice": "KarpaChessはGNU GPL v3で提供されるフリーソフトウェアです。完全なソースコードは{url}で公開しています。"
+  },
+  "commentator": {
+    "importLede": "PGNをコピーするとここに表示されます。下からファイルを開くこともできます。",
+    "sampleGames": "研究用の対局",
+    "searchGames": "プレイヤー、大会、ECOで検索",
+    "allGames": "すべて",
+    "myGames": "マイ対局",
+    "noGames": "該当する対局はありません。",
+    "moveCount": {
+      "other": "{n}手"
+    },
+    "import": "インポート",
+    "importTitle": "対局をインポート",
+    "importTileBlurb": "PGNを貼り付けるか.pgnファイルを開きましょう ― ライブラリに残ります。",
+    "importFound": "クリップボードに見つかりました。インポートしますか？",
+    "pasteInstead": "別のものを貼り付ける",
+    "importName": "名前",
+    "importNameHelp": "任意 ― ヘッダーのない指し手リストは名前がないと探せません。",
+    "remove": "削除",
+    "removeGame": "この対局を削除しますか？",
+    "removeGameBody": "ライブラリから削除されます。アプリ収録の対局は影響を受けません。",
+    "close": "この対局を閉じてインポートに戻る",
+    "confirmClose": "この対局を閉じてインポートに戻りますか？",
+    "moves": "指し手",
+    "badgesShow": "盤上にエンジンアイコンを表示",
+    "badgesHide": "盤上のエンジンアイコンを非表示",
+    "firstMove": "最初の手（Home）",
+    "prevMove": "前へ（←）",
+    "nextMove": "次へ（→）",
+    "lastMove": "最後（End）",
+    "mainLine": "メインラインに戻る（↑）",
+    "untitled": "無題",
+    "drawTools": {
+      "select": "選択",
+      "arrow": "矢印",
+      "box": "長方形",
+      "circle": "四角",
+      "pen": "ペン",
+      "text": "テキスト",
+      "deleteSelected": "選択を削除（Del）",
+      "clearAll": "この手のすべての図形をクリア",
+      "undo": "元に戻す",
+      "redo": "やり直し",
+      "editText": "テキストを編集"
+    },
+    "result": {
+      "title": "対局のまとめ",
+      "checkmate": "チェックメイト · {winner}の勝ち",
+      "stalemate": "ステイルメイト · 引き分け",
+      "drawnGame": "引き分け",
+      "whiteWins": "白の勝ち",
+      "blackWins": "黒の勝ち",
+      "white": "白",
+      "black": "黒",
+      "accuracy": "正確度",
+      "analyzing": "正確度を計算中…"
+    }
+  },
+  "review": {
+    "title": "対局レビュー",
+    "analyzing": "解析中…",
+    "progress": "{total}手中{i}手目を解析中…",
+    "tally": {
+      "best": "最善",
+      "ok": "好手",
+      "inaccurate": "不正確",
+      "mistake": "ミス",
+      "blunder": "大悪手"
+    },
+    "verdict": {
+      "brilliant": "妙手！",
+      "best": "最善手",
+      "good": "好手",
+      "inaccuracy": "不正確",
+      "mistake": "ミス",
+      "blunder": "大悪手"
+    },
+    "betterWas": "エンジンは{san}を推していました。",
+    "takeaway": {
+      "great": "まさに正解 ― エンジン自身の選択です。",
+      "good": "堅実：局面は順調です。",
+      "slip": "ここで優位が少し逃げます ― {best}がより正確でした。",
+      "bad": "転換点です。{best}を見つけるべきでした。"
+    }
+  },
+  "gamify": {
+    "level": "レベル{n}",
+    "dayStreak": "{n}日連続",
+    "earned": "+{n} XP",
+    "levelUp": "レベルアップ！",
+    "dailyGoal": "今日の目標"
+  },
+  "play": {
+    "nav": "対局",
+    "title": "Stockfishと対局",
+    "rematch": "再戦",
+    "review": "振り返り",
+    "youWon": "勝利！",
+    "youLost": "健闘",
+    "strengthHint": {
+      "1": "覚えたて",
+      "2": "気軽な相手",
+      "3": "実力派",
+      "4": "エンジン全力"
+    },
+    "editProfile": "プロフィール",
+    "yourName": "お名前",
+    "choosePicture": "画像を選ぶ",
+    "removePicture": "画像を削除",
+    "exitMatch": "対局を終了",
+    "exitConfirm": "現在の対局を終了して設定に戻りますか？"
+  },
+  "studio": {
+    "nav": "スタジオ"
+  },
+  "nbSettings": {
+    "appearance": "外観",
+    "themeName": {
+      "tournament": "トーナメント",
+      "slate": "スレート",
+      "walnut": "ウォルナット",
+      "sheesham": "シーシャム",
+      "sage": "セージ"
+    },
+    "pieceSet": "駒",
+    "pieceSetName": {
+      "classic": "クラシック",
+      "wood": "木製",
+      "marble": "大理石",
+      "diagram": "ダイアグラム",
+      "modern": "モダン",
+      "deco": "アールデコ",
+      "facet": "ファセット",
+      "silhouette": "シルエット",
+      "soft": "ソフト",
+      "bold": "ボールド"
+    },
+    "appTheme": "アプリテーマ",
+    "appThemeName": {
+      "midnightGrove": "真夜中の森",
+      "emberStudy": "燠火の書斎",
+      "slateFocus": "スレート・フォーカス",
+      "indigoHour": "藍の時間",
+      "bronzeAge": "青銅時代",
+      "jadeTerrace": "翡翠のテラス",
+      "plumVelvet": "プラムベルベット",
+      "ivoryHall": "アイボリーホール",
+      "linenMorning": "リネンの朝",
+      "harborLight": "ハーバーライト"
+    },
+    "soundFeel": "サウンドと手応え",
+    "soundPack": {
+      "wood": "木製",
+      "plastic": "プラスチック",
+      "soft": "ソフト"
+    },
+    "haptics": "触覚フィードバック",
+    "font": "書体",
+    "fontName": {
+      "classic": "クラシック",
+      "modern": "モダン",
+      "technical": "テクニカル"
+    }
+  },
+  "draw": {
+    "mode": "描画モード",
+    "paused": "対局一時停止"
+  },
+  "replay": {
+    "autoplay": "自動再生",
+    "position": "{i} / {total}"
+  },
+  "academy": {
+    "seeIt": "見る",
+    "playIt": "指す",
+    "ownIt": "習得",
+    "yourMove": "あなたの番",
+    "youPlay": "あなたは{side}",
+    "nav": "学ぶ",
+    "title": "マスターへの道",
+    "patternOwned": "パターン習得！",
+    "sharpen": "研ぎ",
+    "sharpenDull": {
+      "other": "{n}個のパターンが鈍ってきています"
+    },
+    "sharpenAllSharp": "すべて鋭い状態",
+    "findTheMove": "正解手を探せ",
+    "patternBook": "パターン図鑑",
+    "ownedCount": "{n}/{total}習得",
+    "continueBtn": "続ける",
+    "art": {
+      "basics": "基礎",
+      "history": "チェスの歴史",
+      "tactics": "刃",
+      "openings": "最初の一手",
+      "endgames": "フィニッシュ",
+      "strategy": "構想",
+      "attack": "狩り",
+      "culture": "チェスの世界"
+    },
+    "rank": {
+      "novice": "ノービス",
+      "apprentice": "見習い",
+      "clubPlayer": "クラブプレイヤー",
+      "tactician": "タクティシャン",
+      "strategist": "ストラテジスト",
+      "candidateMaster": "マスター候補",
+      "master": "パターンマスター",
+      "grandmaster": "パターングランドマスター"
+    },
+    "starBronze": "ブロンズ",
+    "starSilver": "シルバー",
+    "starGold": "ゴールド",
+    "showAnswer": "これが答え ― 指してみましょう",
+    "finishLesson": "レッスンを終える",
+    "continueLesson": "続ける · {title}",
+    "addedToBook": "パターンブックに追加されました 📖",
+    "bookIntro": "習得したパターンはすべてここに集まります。研ぐほど星が増えます。色あせた盤は鈍りかけ — 消えてしまう前に研ぎ直しましょう。",
+    "starNone": "まだ研いでいません",
+    "due": "研ぎどき",
+    "sharp": "鋭い",
+    "reviewNow": "このパターンを研ぐ",
+    "replayLesson": "レッスンをもう一度",
+    "upNext": "次はこれ",
+    "gotIt": "わかった",
+    "confirmClose": "このレッスンを終了しますか？獲得したXPと進行状況は保持され、続きから再開できます。",
+    "resume": "続きから",
+    "restartLesson": "レッスンを最初から",
+    "confirmRestart": "このレッスンを最初からやり直しますか？獲得済みのXPは保持されます。",
+    "bookEmpty": "最初のパターンを習得すると、ここに表示されます。"
+  },
+  "puzzles": {
+    "nav": "パズル",
+    "title": "パズル",
+    "rating": "レーティング",
+    "rated": "レート戦",
+    "keepGoing": "続ける",
+    "keepGoingBlurb": "あなたのレーティングに合ったパズル。",
+    "daily": "今日のパズル",
+    "dailyBlurb": "1日1問、その日はずっと同じ。",
+    "packs": "パック",
+    "findTheMove": "最善手を見つけましょう。",
+    "solved": "正解",
+    "runComplete": "残りはありません",
+    "runSolved": "今回{n}問正解",
+    "noneLeft": "利用できるパズルがありません。",
+    "pack": {
+      "mate-in-one": {
+        "name": "1手詰め",
+        "blurb": "一手、それで詰み。"
+      },
+      "fork": {
+        "name": "フォーク",
+        "blurb": "2つの駒を同時に攻撃。"
+      },
+      "back-rank-mate": {
+        "name": "バックランク",
+        "blurb": "自ポーンの後ろに閉じ込められたキング。"
+      },
+      "pin": {
+        "name": "ピン",
+        "blurb": "動くに動けない駒。"
+      },
+      "skewer": {
+        "name": "スキュア",
+        "blurb": "前にいる価値の高い駒を突く。"
+      },
+      "mate-in-two": {
+        "name": "2手詰め",
+        "blurb": "2手で強制的に詰ませる。"
+      },
+      "discovery": {
+        "name": "ディスカバードアタック",
+        "blurb": "一つの駒を動かし、別の駒を解き放つ。"
+      },
+      "trapped": {
+        "name": "捕まった駒",
+        "blurb": "最後の安全なマスを奪う。"
+      },
+      "promotion": {
+        "name": "昇格",
+        "blurb": "ポーンを最奥段まで運ぶ。"
+      },
+      "remove-guard": {
+        "name": "守り駒の排除",
+        "blurb": "支えている駒を取り除く。"
+      },
+      "deflection": {
+        "name": "ディフレクション",
+        "blurb": "守り駒を任務からそらす。"
+      },
+      "decoy": {
+        "name": "デコイ",
+        "blurb": "致命的なマスへ誘い込む。"
+      },
+      "smothered": {
+        "name": "スマザードメイト",
+        "blurb": "自分の駒に囲まれて詰み。"
+      },
+      "pawn-ending": {
+        "name": "ポーンエンディング",
+        "blurb": "オポジション、突破、スクエアの法則。"
+      },
+      "rook-ending": {
+        "name": "ルークエンディング",
+        "blurb": "最も多く現れるエンドゲーム。"
+      },
+      "overload": {
+        "name": "オーバーロード",
+        "blurb": "守り駒一つに仕事が二つ。"
+      },
+      "zwischenzug": {
+        "name": "中間手",
+        "blurb": "取り返す前に脅威を挟む。"
+      },
+      "king-hunt": {
+        "name": "キングハント",
+        "blurb": "キングを守りのない場所へ引きずり出す。"
+      },
+      "zugzwang": {
+        "name": "ツークツワンク",
+        "blurb": "どの手を指しても悪くなる。"
+      },
+      "defence": {
+        "name": "防御",
+        "blurb": "詰まされるのはあなた。先に詰ませる。"
+      }
+    },
+    "confirmClose": "今回のパズルを終了しますか？",
+    "practice": "練習",
+    "playAgain": "もう一度",
+    "replay": "再挑戦",
+    "showSolution": "解答を見る",
+    "failed": "不正解",
+    "flawless": "ノーミス",
+    "continuePack": "続ける",
+    "puzzleN": "パズル{n}",
+    "bestImproved": "自己ベスト更新！+{xp} XP"
+  }
+}

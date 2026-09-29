@@ -1,0 +1,11 @@
+{
+  "id": "notation-proof",
+  "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Bc4"
+  ],
+  "title": "L'entrée suivante",
+  "setup": "Une partie imprimée se lit 1.e4 e5 2.Nf3 d6, et l'entrée suivante des Blancs est `3.Bc4`. Jouez le coup qu'elle désigne.",
+  "hint": "La majuscule désigne la pièce, et les deux caractères qui suivent désignent la case où elle arrive.",
+  "explanation": "## L'idée\n\nB est le fou, et c4 est la case. Seul le fou en f1 peut atteindre c4, donc l'entrée n'a besoin de rien de plus : {{Bc4}}.\n\nLe numéro vous dit que c'est le troisième coup des Blancs, et les coups précédents ont placé chaque pièce là où vous la voyez maintenant. Une lettre pour la pièce, une case pour l'arrivée."
+}

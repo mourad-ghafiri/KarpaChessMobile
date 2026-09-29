@@ -1,0 +1,12 @@
+{
+  "id": "pin-05",
+  "fen": "8/B1kb3R/p3r3/p7/3P4/4R3/1r4PK/8 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 960,
+  "title": "Come o Que Ele Guarda",
+  "setup": "A tua torre em h7 varre a sétima linha inteira, a direito através do bispo preto até ao rei de c7.",
+  "hint": "A torre de e6 tem um guarda. Olha pela sétima linha e pergunta se esse guarda pode sair.",
+  "explanation": "## A Ideia\n\n{{Rxe6}} ganha simplesmente uma torre. O bispo de **d7** é o único defensor, e a tua torre de **h7** crava-o contra o rei de **c7** pela sétima linha. Capturar em e6 exporia o rei, portanto o bispo não pode responder."
+}

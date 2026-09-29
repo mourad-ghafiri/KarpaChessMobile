@@ -1,0 +1,62 @@
+{
+  "id": "piece-values",
+  "title": "Neuf, cinq, trois, un",
+  "summary": "Le prix de chaque pièce, et le calcul qui arrête une gaffe avant qu'elle arrive",
+  "proof": "first-steps-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "La liste des prix",
+      "text": "Personne n'a gravé de prix sur une pièce d'échecs. Les joueurs les ont pourtant établis, au fil de siècles passés à observer quels échanges tournaient bien.\n\nTout se compte en pions. Un pion vaut 1. Un cavalier vaut 3, un fou aussi. Une tour vaut 5. La dame vaut 9.\n\nLe roi n'a pas de chiffre : il n'est jamais échangé ni pris, il n'y a donc rien à évaluer.\n\nAdditionnez ce qui vous reste et ce total est votre **matériel** — la seule partie d'une position que l'on compte sur ses doigts.\n\n> Les chiffres sont un guide, pas une loi. Une position peut contredire chacun d'eux."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Un pour un",
+      "text": "Regardez passer un échange égal : {{e4}} {{d5}} {{exd5}} {{Qxd5}}.\n\nLes Blancs gagnent un pion. Les Noirs regagnent aussitôt un pion. Chaque camp possède exactement ce qu'il possédait quatre coups plus tôt, et le compte n'a pas bougé d'un point.\n\nC'est ce que sont la plupart des prises — un échange entre égaux, où la position change et le matériel non. Les prises qui valent la chasse sont de l'autre sorte."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Cinq contre trois",
+      "text": "La tour en e1 vaut cinq, le cavalier en f3 trois. Une tour contre un cavalier n'est donc pas un échange du tout — c'est un bénéfice de deux, et cela arrive assez souvent pour porter un nom : gagner **la qualité**.\n\nAdditionner devient moins fiable à mesure que les tas grossissent. Un cavalier et un fou — les **pièces mineures** — font six, tout comme une tour et un pion, mais les deux pièces ont généralement le meilleur bout. Trois pièces mineures font aussi neuf, autant qu'une dame, et trois pièces mineures battent en général la dame."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Un cavalier d'avance",
+      "text": "Comptez ce qu'il y a ici. Dame, tour et trois pions de chaque côté — et les Blancs ont un cavalier en plus. Une pièce, et c'est toute la différence entre les deux camps.\n\nUne pièce de plus compte davantage quand il reste moins de tout le reste. Le camp qui mène échange donc : chaque échange entre égaux donne à votre cavalier en plus une part plus grande de ce qui reste, et laisse aux Noirs moins de pièces pour tenter quelque chose.\n\nUn échange entre égaux est possible dès maintenant."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/3q4/8/3Q1N2/5PPP/4R1K1 w - - 0 1",
+      "prompt": "Vous avez un cavalier de plus : proposez aux Noirs l'échange qui retire la pièce la plus lourde de chaque camp.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "Les deux dames sont déjà sur la même colonne sans rien entre elles, et la tour noire surveille cette case."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/3r4/8/5N2/5PPP/4R1K1 w - - 0 1",
+      "title": "Ce que l'échange a rapporté",
+      "text": "Neuf contre neuf. Les dames sont parties et le compte n'a pas bougé d'un point : les Blancs ont toujours un cavalier de plus, exactement comme avant.\n\nCe qui a changé, c'est tout le reste. Les Noirs ont une tour en d5, trois pions et un roi, et aucun d'eux ne peut rien contre une pièce qui n'existe tout simplement pas chez eux. Moins il reste de pièces, plus celle en trop se fait entendre.\n\nEn retard de matériel, faites l'inverse et gardez les pièces. Chaque pièce encore debout est une chose de plus qui peut mal tourner pour le camp qui mène."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "title": "Calculé, ou pas",
+      "text": "Une pièce donnée pour rien est une **gaffe** — aucun matériel n'est revenu en échange, et vous reprendriez le coup si les règles le permettaient.\n\nUne pièce donnée exprès, contre quelque chose que vous avez déjà compté et que vous voyez arriver, est un **sacrifice**. Vus de l'extérieur, les deux coups sont identiques. Toute la différence tient à ceci : le calcul a-t-il eu lieu avant ?\n\nVoilà pourquoi on compte avant de prendre. Votre cavalier atteint ici deux pièces noires, et les prix ne sont pas ce qu'ils paraissent."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/3p4/2r5/4N3/8/8/8/6K1 w - - 0 1",
+      "prompt": "Une prise est gratuite et l'autre coûte votre cavalier — comptez les deux et prenez celle qui rapporte le plus.",
+      "targetSan": [
+        "Nxc6"
+      ],
+      "hint": "Une tour vaut cinq et un pion un, et le cavalier en e5 atteint les deux."
+    }
+  ]
+}

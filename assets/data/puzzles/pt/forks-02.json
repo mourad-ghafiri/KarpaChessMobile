@@ -1,0 +1,11 @@
+{
+  "id": "forks-02",
+  "fen": "6k1/8/8/6n1/8/8/8/2Q3K1 w - - 0 1",
+  "solution": [
+    "Qxg5+"
+  ],
+  "title": "Cavalo Grátis, Xeque Grátis",
+  "setup": "O cavalo preto em g5 está desprotegido na mesma coluna que o rei.",
+  "hint": "A diagonal da dama chega ao cavalo, e a coluna em que ela aterraria chega ao rei.",
+  "explanation": "## A Ideia\n\nO cavalo em g5 não tem defensor, e está na mesma coluna que o rei de g8.\n\n{{Qxg5+}} come-o e dá xeque na mesma jogada, portanto as pretas nunca ganham uma jogada para gastar noutra coisa. A dama veio pela diagonal; a coluna em que aterra é a que dá o xeque, e o rei está demasiado longe para a comer.\n\nIsto não é um garfo — houve sempre um só alvo — mas funciona pela mesma razão: a resposta já está tomada."
+}

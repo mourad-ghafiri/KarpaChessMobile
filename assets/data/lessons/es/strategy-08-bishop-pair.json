@@ -1,0 +1,50 @@
+{
+  "id": "bishop-pair",
+  "title": "La pareja de alfiles",
+  "summary": "Dos alfiles cubren todas las casillas del tablero",
+  "proof": "strategy-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/1pp2ppp/p1np4/4p3/B3P1b1/5N1P/PPPP1PP1/RNBQ1RK1 b k - 0 6",
+      "title": "El cambio que se queda",
+      "text": "El alfil negro de g4 está a una jugada de darles a las Blancas algo que no se puede recomprar.\n\n{{Bxf3}} {{Qxf3}}. Las Negras se llevan un caballo que estaba haciendo un trabajo real, así que no es un regalo. Es una venta. Las Blancas conservan dos alfiles, a las Negras les queda uno, y ninguna jugada posterior lo deshace.\n\nLa partida sigue: {{Nf6}}, {{c3}}, {{Be7}}. Ahora las Blancas tienen que demostrar que merece la pena tenerla."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "title": "Por qué dos ganan a uno más uno",
+      "text": "Un alfil nace en un color y muere en él. Un alfil, medio tablero: las otras treinta y dos casillas son asunto de otro para siempre.\n\nTen los dos y las mitades encajan. Blancas y negras, nada sin cubrir, y los dos nunca compiten por la misma casilla. Esa es la **pareja de alfiles**: no una ventaja de pieza, porque la cuenta de puntos está igualada, sino una ventaja de cobertura que dura toda la partida.\n\nLos jugadores fuertes pagan por ella. Gastarán una jugada, o un peón, para impedir que un caballo se cambie por un alfil."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "prompt": "Desafía el peón negro de e5 con uno de tus peones y ábrele camino al alfil que no tiene ninguno.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Los dos peones que encierran al alfil de c1 pueden moverse: elige el que además le plantea una pregunta al centro negro."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "La pareja es una promesa",
+      "text": "Otra partida, y las Blancas vuelven a tener los dos alfiles. Uno de ellos es una vergüenza.\n\nEl alfil de c1 no se ha movido en toda la partida, y la única casilla a la que llega no cambia nada: su propio peón de e3 ocupa la diagonal que quiere. Seis peones están bloqueados en el centro, c4, d4 y e3 contra c6, d5 y e6, y ningún alfil salta por encima de un peón. A los caballos negros les da igual. Saltan por encima de todo el atasco, y ahora mismo son las mejores piezas menores."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "Lo que espera la pareja",
+      "text": "Dos alfiles son una apuesta por un tablero abierto, y la apuesta se cobra en diagonales.\n\nCada peón que sale del centro alarga un camino, y los caminos largos son la razón de ser de un alfil. Un caballo no gana nada con el mismo despeje: cuatro saltos en un tablero vacío, cuatro saltos en uno lleno. Así que el bando con la pareja quiere menos peones, y los quiere fuera del centro.\n\nEso le da la vuelta al instinto habitual. No buscas una pieza que cambiar. Buscas un peón con el que pelear.\n\n> Dos alfiles, un plan: cambia peones, no piezas."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "prompt": "Rompe el atasco de peones del centro para que el alfil de c1 por fin tenga una diagonal por la que mirar.",
+      "targetSan": [
+        "e4"
+      ],
+      "hint": "El alfil de c1 quiere la diagonal hacia h6, y exactamente un peón blanco está aparcado en ella: moverlo además pone un segundo peón a reclamar el centro."
+    }
+  ]
+}

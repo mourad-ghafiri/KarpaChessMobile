@@ -1,0 +1,15 @@
+{
+  "id": "openings-11",
+  "fen": "rnb2rk1/pp1nqppp/4p3/3pP3/3p1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 0 10",
+  "solution": [
+    "Bxh7+",
+    "Kxh7",
+    "Ng5+",
+    "Kg8",
+    "Qh5"
+  ],
+  "title": "A Oferta Grega",
+  "setup": "Uma defesa francesa que ficou tranquila: o centro está trancado, as pretas rocaram, e nenhum cavalo preto poderá voltar a chegar a f6. Abre o abrigo do rei.",
+  "hint": "O bispo aponta a h7, um cavalo está a um salto de g5, e a dama está a uma jogada de h5. Conta esses três e depois olha para o peão de e5.",
+  "explanation": "## A Ideia\n\nA **oferta grega**. O peão em e5 mantém todos os cavalos pretos fora de f6, a única condição de que o sacrifício precisa.\n\n{{Bxh7+}} rasga o abrigo, e depois de {{Kxh7}} vem {{Ng5+}}. A defesa mais tenaz das pretas é dar já a dama por esse cavalo; recuar com {{Kg8}} deixa {{Qh5}} preparar mate em h7, e depois só ceder a dama ainda segura.\n\nAntes de uma oferta grega, confirma que o bispo chega a h7, que um cavalo chega a g5, que a dama chega a h5, e que nada de preto pode chegar a f6."
+}

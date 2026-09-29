@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-01",
+  "fen": "4k3/pp4pp/8/3n4/4P3/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "exd5"
+  ],
+  "title": "El peón captura al caballo",
+  "setup": "Un caballo negro se ha acercado demasiado a tu peón de e. Tu peón puede ganarlo, si recuerdas cómo captura un peón.",
+  "hint": "Los peones capturan una casilla en diagonal hacia delante. ¿Qué dos casillas ataca el peón de e4?",
+  "explanation": "## La idea\n\nUn peón avanza recto pero **captura en diagonal**, y el caballo de d5 está en una de las dos casillas que ataca tu peón de e4.\n\n{{exd5}}, y el peón se lleva un caballo entero. Nada protege d5, así que nada recaptura: el caballo es tuyo sin más.\n\nCada peón protege las dos casillas en diagonal que tiene delante. Todo lo que pise ahí se puede capturar."
+}

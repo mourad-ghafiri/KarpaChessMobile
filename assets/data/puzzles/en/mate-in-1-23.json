@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-23",
+  "fen": "6k1/pp3ppp/8/8/8/8/PPR2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rc8#"
+  ],
+  "title": "Open File Hammer",
+  "setup": "The c-file is empty between your rook and the eighth rank, and Black's pawn shield has no escape window.",
+  "hint": "Charge up the open c-file. Black's own pawns trap the king for you.",
+  "explanation": "## The Idea\n\nThis is a back-rank mate down an open file: no pawn of either color stands on the c-file, so your rook has a clear road to the eighth rank.\n\n{{Rc8#}} checks along the back rank. f8 and h8 are on the rook's line, f7, g7 and h7 hold Black's own pawns, and no black piece can block or capture.\n\nAn open file is a highway to the back rank."
+}

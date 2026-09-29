@@ -1,0 +1,50 @@
+{
+  "id": "attacking-the-fianchetto",
+  "title": "Menyerang Fianchetto",
+  "summary": "Buru gajahnya, bukan pionnya",
+  "proof": "fianchetto-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Dua Petak yang Tak Dijaga Siapa Pun",
+      "text": "Perlindungan Hitam tampak kokoh: tiga pion, satu gajah, dan raja yang terselip di belakangnya. Hitung apa yang sebenarnya dikuasai pion-pion itu.\n\nPion g sudah pergi ke g6, dan saat itu juga f6 dan h6 keluar dari jangkauan pion untuk selamanya. Pion tak berjalan mundur. Kedua petak itu gelap, keduanya berada satu petak dari pion-pion tempat raja bersembunyi, dan satu buah bertanggung jawab atas keduanya — gajah di g7."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "title": "Pion Siapa yang Bebas",
+      "text": "Raja Putih di c1 duduk di ujung papan yang lain dari semua ini.\n\nBadai pion berhasil ketika raja Anda sendiri tidak berdiri di belakang pion-pion yang Anda korbankan. Raja Putih tidak. Raja Hitam iya — jadi pion-pion Hitam tetap di rumah dan bertahan, sementara pion-pion Putih bebas berlari menuju sesuatu.\n\nBenteng di h1 sudah menunggu sepanjang partai agar salah satunya membuka lajur di depannya."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppbp/3p1np1/4n3/3NP3/1BN1BP2/PPPQ2PP/2KR3R w - - 9 12",
+      "prompt": "Mulailah badainya di sayap tempat raja Hitam tinggal, dan berangkatlah dengan kecepatan penuh.",
+      "targetSan": [
+        "h4"
+      ],
+      "hint": "Pion di g6-lah yang menahan perlindungan Hitam tetap utuh — pion Anda mana yang bisa berbaris naik dan menyerangnya?"
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "Terhalang Bukan Berarti Selesai",
+      "text": "Pion Hitam di h5 menghentikan pion Anda di tempat, dan pion tak bisa saling memutar. Jadi Putih membawa pion kedua.\n\n{{g4}} menyerang h5, {{hxg4}} menangkap, {{fxg4}} menangkap balik, dan pion h Putih berlari lagi dengan benteng di h1 di belakangnya. Dua langkah kemudian lajurnya terbuka.\n\nItulah jalan yang lambat, dan ia berhasil. Tetapi ia juga menghabiskan empat langkah untuk membeli sebuah lajur."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "title": "Jalan yang Lebih Cepat",
+      "text": "Ada jawaban yang lebih cepat, dan ia sama sekali tak butuh lajur itu.\n\nSingkirkan gajah di g7 dari papan dan h6 berubah menjadi petak pendaratan. Menteri yang tiba di sana menatap lurus ke g7, satu petak dari raja, dan tak ada pion hitam yang akan pernah bisa mengusirnya — itu sudah ditentukan sejak pion g pergi ke g6. Menteri Hitam di d8 dan benteng di c8 sama-sama menghadap ke arah yang salah untuk membantu.\n\n> Melawan fianchetto, Anda tidak sedang menyerang pion. Anda sedang memburu satu gajah."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bppb1/3p1np1/4n2p/3NP2P/1BN1BP2/PPPQ2P1/2KR3R w - h6 0 13",
+      "prompt": "Tukar satu-satunya buah hitam yang menjaga petak-petak gelap di samping raja Hitam.",
+      "targetSan": [
+        "Bh6"
+      ],
+      "hint": "Gajah Anda di e3 berjalan di petak-petak gelap yang sama dengan gajah Hitam — kirim ia keluar sampai keduanya bertemu."
+    }
+  ]
+}

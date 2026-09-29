@@ -1,0 +1,14 @@
+{
+  "id": "decoy-09",
+  "fen": "3q1bk1/pp3pp1/8/4N3/3P4/8/PPr2PP1/3R2KR w - - 1 2",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "Nxf7+"
+  ],
+  "rating": 1450,
+  "title": "Düşüşten Sonra Çatal",
+  "setup": "Siyahın şahı g8'de, yanında kendi fili ve piyonlarıyla oturuyor; kaleniz h dikeyinin sahibi ve e5'teki atınız f7'yi gözlüyor.",
+  "hint": "Atınız f7'den aynı anda iki taşa vururdu — ama yalnızca şah h8'de dururken.",
+  "explanation": "## Fikir\n\n{{Rh8+}} tek bir kare için ikram edilen kaledir: {{Kxh8}} mecburidir. Şimdi {{Nxf7+}} şah ile veziri çatallar ve at vezirle birlikte geri döner. Çekmeler taş değil, kare satın alır. Rakibin tek bir taşının oynamasını gerektiren çatalları arayın, sonra o taşı kendiniz oynatın."
+}

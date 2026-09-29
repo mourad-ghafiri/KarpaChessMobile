@@ -1,0 +1,14 @@
+{
+  "id": "overload-08",
+  "fen": "2r3k1/3b1ppp/3Q4/8/3R4/2R5/PP6/K7 w - - 0 1",
+  "solution": [
+    "Rxc8+",
+    "Bxc8",
+    "Qd8#"
+  ],
+  "rating": 1520,
+  "title": "Tukar demi Mat",
+  "setup": "Gajah Hitam di d7 menopang benteng di c8 sementara menteri Anda menunggu di d6.",
+  "hint": "Dua pembela bisa tampak seperti pertahanan dua kali lipat. Periksa apakah keduanya menjaga petak yang sama atau saling menutupi.",
+  "explanation": "## Ide\n\n{{Rxc8+}} adalah pertukaran biasa, tetapi {{Bxc8}} menyeret gajah keluar dari d7 dan membuka lajur d, jadi {{Qd8#}} menyusul. Menghalangi dengan {{Be8}} sebagai gantinya menabrak {{Rxe8#}}. Gajah itu menjaga benteng sekaligus menutup lajur d, dan ia tak bisa mengerjakan keduanya."
+}

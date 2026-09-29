@@ -1,0 +1,77 @@
+{
+  "id": "draws",
+  "title": "The Half Point",
+  "summary": "Five ways a game ends with no winner, and the one that ambushes the player who was winning",
+  "proof": "draws-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "No Moves, No Check",
+      "text": "Black has a king and nothing else. White has a queen, and mate is one move away — which is exactly the moment a game gets thrown away.\n\nThe black king on h8 has a single square. White's king on g6 already holds g7 and h7, so g8 is all that is left.\n\n{{Qd5}} takes g8 too. Black is not in check. Black has no legal move at all. That is **stalemate**, and it ends the game where it stands."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Half a Point Each",
+      "text": "A stalemate is a **draw**. Both players score half a point, and it counts for nothing that one of them owns a queen and the other has a bare king.\n\nThat is why the rule bites. White is winning here by every measure on the board and can still walk out with half.\n\nThere is a gentler road to the same score: either player may offer a draw, and if the opponent accepts, the game stops there. That one costs no cleverness at all."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "prompt": "Cover g8 again, this time with check, so the game ends in mate instead of a handshake.",
+      "targetSan": [
+        "Qd8#"
+      ],
+      "hint": "Your king holds g7 and h7 already, so the queen wants the rank the black king is standing on."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Nothing Left to Mate With",
+      "text": "New board, new rule. White has a king on c2 and a knight on c3. Black has a king on a5 and a pawn on a2, one square from a new queen — and a queen against a lone knight is a game Black should win.\n\nSo the whole game is that pawn. Take it off and Black's army is one king, walking around by itself.\n\nA king and a knight can never checkmate a lone king. Not by force, not by luck, not with help."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Dead Positions",
+      "text": "When no series of legal moves can produce checkmate for either side, the game is drawn on the spot. Four endings qualify:\n\n- king against king\n- king and bishop against king\n- king and knight against king\n- king and bishop against king and bishop, both bishops on squares of the same color\n\nTwo knights against a bare king is not on that list. Mate cannot be forced there, but it can be reached if the defender walks into it, so the game goes on."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "prompt": "Take off the board the only thing Black has left that can still win this game.",
+      "targetSan": [
+        "Nxa2"
+      ],
+      "hint": "Count what is left afterward, and check it against the list of four."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Draws You Have to Claim",
+      "text": "Two more roads to half a point, and this board is built for both: no pawns left to push, and only one piece left that could be captured.\n\nFifty moves by each side with no capture and no pawn move — either player may then claim a draw. Or the same **position** turns up three times, with the same side to move, the same castling rights and the same en passant possibility, and either player may claim that too.\n\nThe position repeats, not the moves that led to it."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Nobody Claims It for You",
+      "text": "At fifty moves or a third repetition, nothing happens by itself. A player has to claim the draw, and a player who is not counting will not.\n\nThat is also all perpetual check is. Checking an enemy king forever is not a rule of its own — the checks bring the same position back again and again, and somebody claims the repetition.\n\nSo four so far: stalemate, a dead position, the fifty-move count, and the same position three times. The fifth is the offer either player can make at any point."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "The Accident",
+      "text": "Now the rule points at you. Black is a whole queen up, the white king on h1 has run out of board, and it is Black to move.\n\n{{Qg3}} looks like the net closing: g1, g2 and h2 all covered at once. But h1 is not attacked, so this is not check, and White has nothing else to move. Stalemate. A won game, handed back.\n\n> Take the last square with check, or do not take it yet."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "prompt": "The queen has done enough — bring the king a square nearer to White's corner instead.",
+      "targetSan": [
+        "Kd5"
+      ],
+      "hint": "c6 and h1 sit on the same long diagonal, so the king can simply walk down it."
+    }
+  ]
+}

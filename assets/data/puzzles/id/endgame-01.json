@@ -1,0 +1,11 @@
+{
+  "id": "endgame-01",
+  "fen": "8/8/8/4k3/2P5/2K5/8/8 b - - 0 1",
+  "solution": [
+    "Kd6"
+  ],
+  "title": "Berdirilah di Depannya",
+  "setup": "Raja Putih sedang mengawal pionnya, dan Anda hanya punya tepat satu langkah yang mempertahankan remis.",
+  "hint": "Pihak bertahan seharusnya berada di depan pion. Langkah mana yang membawa raja Anda ke petak-petak di depannya tanpa tertinggal satu langkah?",
+  "explanation": "## Ide\n\nMelawan raja dan pion, raja yang bertahan seharusnya berada di depan pion, berhadapan dengan raja yang lain.\n\n{{Kd6}} satu-satunya langkah yang mempertahankan remis: ia menuju petak-petak di depan pion selagi masih ada waktu untuk merebutnya, dan dari c6 atau c7 ia bisa menghadapi raja putih dengan satu petak kosong di antaranya. Setiap langkah lain tiba terlambat satu langkah, dan raja Putih lebih dulu berdiri di depan.\n\nDi depan pion, dan berhadapan dengan raja lawan. Keduanya, setiap kali."
+}

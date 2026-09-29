@@ -1,0 +1,59 @@
+{
+  "id": "king-safety",
+  "title": "La seguridad del rey",
+  "summary": "Enroca antes de que se abran las puertas, y luego deja el muro en paz",
+  "proof": "strategy-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "El rey que se quedó en casa",
+      "text": "El peón de d blanco ha desaparecido, y un alfil ocupa d2 en su lugar. El rey de e1 no tiene ningún peón propio en la columna de al lado.\n\nLas Negras respondieron a esta pregunta hace jugadas: el rey en g8, tres peones intactos delante.\n\nA las Blancas solo les queda un enroque. La torre de h1 está encerrada detrás del alfil de f1 y el caballo de g1, así que el flanco de rey está cerrado. El de dama no: la dama, el caballo y el alfil han salido de ese extremo de la primera fila."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "Lo que cuesta esperar",
+      "text": "Todavía no pasa nada malo. Eso es lo que hace fácil aplazarlo.\n\nDesarrolla tranquilamente con {{Nf3}}, deja que las Negras traigan una torre con {{Re8}}, añade {{Bd3}}, y {{d5}} abre el centro con el rey todavía en e1. A las Negras no les hizo falta nada ingenioso para llegar ahí, solo jugadas normales.\n\nCada línea que se abre a partir de aquí se abre hacia las Blancas, y responder a cada una cuesta una jugada pensada para otra cosa."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "prompt": "Mete tu rey en el flanco que tus piezas ya han abandonado, y lleva una torre a la columna semiabierta en la misma jugada.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "Tres piezas han salido de un lado de tu primera fila: cuenta las casillas vacías entre tu rey y cada torre."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "El muro que no se reconstruye",
+      "text": "Las Negras persiguieron un alfil con dos jugadas de peón y arrancaron dos ladrillos del refugio del rey de g8. El peón de h6 y el de g5 formaban parte de ese muro, y el de g5 está golpeando ahora mismo al alfil de h4.\n\nLos tres peones blancos siguen en f2, g2 y h2, exactamente donde los dejó el enroque. Las Negras no pueden volver a colocar los otros dos, porque ningún peón retrocede nunca, y esa es toda la diferencia entre estos dos reyes.\n\n> Mueve un peón delante de tu rey cuando no quede otra. Nunca dos."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "Dónde llamar",
+      "text": "El peón de g5 tiene exactamente un defensor, el peón de h6. Detrás de ellos, el rey tiene un guardián más, el caballo de f6.\n\nLa respuesta natural a un alfil atacado es retirarlo. Entonces el refugio negro queda fino, pero queda.\n\nHay una respuesta más ruidosa. Un refugio tan fino se puede comprar, y las Blancas tienen piezas con las que pagar. Cuenta el precio en peones y el premio en líneas abiertas, y luego decide."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "prompt": "Responde al ataque sobre tu alfil abriendo el refugio, aunque cueste una pieza.",
+      "targetSan": [
+        "Nxg5"
+      ],
+      "hint": "Captura primero en g5 con la pieza que mejor puedas permitirte perder, para que el alfil tenga la última palabra."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n2/2b1p1p1/2B1P2B/2NP4/PPP2PPP/R2Q1RK1 w - - 0 10",
+      "prompt": "Las Negras han capturado el caballo; recaptura de forma que el caballo negro de f6 quede clavado contra la dama.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "Cuenta lo que hay ahora entre tu alfil de h4 y la dama negra de d8."
+    }
+  ]
+}

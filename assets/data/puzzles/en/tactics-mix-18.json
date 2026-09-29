@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-18",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+  "solution": [
+    "dxe5"
+  ],
+  "title": "Open the Center",
+  "setup": "Both sides have pushed their d- and e-pawns, and all four now meet in the center.",
+  "hint": "When four center pawns touch, the first capture decides who gets the open lines. Which one also opens a file toward Black's queen?",
+  "explanation": "## The Idea\n\n{{dxe5}} takes the e-pawn and opens the d-file. If Black answers {{dxe4}}, then {{Qxd8+}} trades queens with check, Black's king has to take back and loses the right to castle, and the pawn on e4 is cut off from its friends. {{exd5}} instead lets {{Qxd5}} recapture with a queen in the center.\n\nWhen center pawns meet, capture where the file you open works for you."
+}

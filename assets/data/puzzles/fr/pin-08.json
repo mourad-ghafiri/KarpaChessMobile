@@ -1,0 +1,12 @@
+{
+  "id": "pin-08",
+  "fen": "2k5/b3p3/4r1p1/8/1P1pp2P/P6R/2P1B1K1/8 w - - 0 1",
+  "solution": [
+    "Bg4"
+  ],
+  "rating": 1080,
+  "title": "Quatre cases d'écart",
+  "setup": "La tour noire en e6 se tient sur une diagonale blanche qui aboutit à son propre roi, blotti dans le coin en c8.",
+  "hint": "Trouvez la diagonale blanche qui part de votre côté de l'échiquier, traverse la tour et aboutit au roi noir.",
+  "explanation": "## L'idée\n\nLes cases g4, f5, e6, d7 et c8 forment une seule diagonale. {{Bg4}} en occupe l'extrémité proche, donc la tour en **e6** est clouée sur le roi en **c8** et attaquée en même temps. Rien ne protège la tour, et elle ne peut pas bouger."
+}

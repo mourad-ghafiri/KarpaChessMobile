@@ -1,0 +1,62 @@
+{
+  "id": "philidor-position",
+  "title": "Philidor Beraberliği",
+  "summary": "Kale sonunda bir piyon geride ve beraberlik önce bir çit, sonra bir mesafe",
+  "proof": "philidor-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Bir Piyon Geride ve Eşit",
+      "text": "Beyaz bir piyon önde ve bu yine de beraberlik. d8'deki şahınız, c5'teki piyonun ulaşmaya çalıştığı c8 karesini koruyor; savunmanın ilk yarısı bu ve zaten elinizde olan yarı da bu.\n\nİkinci yarı bir kale hamlesi ve şimdi gelmesi gerekiyor; beyazın piyonu hâlâ olduğu yerdeyken. Philidor yöntemi 1777'de yazıya geçirdi ve o günden beri kimse onu kıramadı. İki fikir, sabit bir sırayla oynanır ve hünerin çoğu o sıradadır."
+    },
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Altıncı Yatayda Üç Kapı",
+      "text": "Piyon eve tek başına gidemez; şahınız yolu koruyor ve beyazın h7'deki kalesi onu arka yatayda tutuyor. Yani beyazın şahının yukarı çıkıp sizinkini omuzlaması gerekiyor ve yukarı çıkmak için altıncı yatayı geçmesi lazım — burada da her zamanki gibi yataylar beyazın tarafından sayılıyor.\n\nO yatayın tam olarak üç kapısı var: c6, d6 ve e6. Kale de bir karedeki nöbetçi değil, bir hat boyunca uzanan bir çittir; yani üç kapı da tek bir hamlede kapanır."
+    },
+    {
+      "type": "play",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "prompt": "Beyazın şahı o karelerden birini kullanamadan altıncı yatayın tamamını elinden alın.",
+      "targetSan": [
+        "Ra6"
+      ],
+      "hint": "Önemli olan yalnızca yatay ve kale, indiği her yerden onun tamamını kapsar."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "Dört Kare, Üçü Geri Çekiliş",
+      "text": "Çit kuruldu ve beyazın d5'teki şahı artık bütün listesini sayabilir: {{Kc4}}, {{Kd4}}, {{Ke4}}, {{Ke5}}.\n\nÜçü geri, biri yana. c6, d6 ve e6 artık hamle olmaktan çıktı, çünkü bir şah kalenizin saldırdığı kareye adım atamaz. Beyaz sabrı yettiği sürece orada oyalanabilir. Oyalanmak bir piyonu eve yürütmez."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "Bedeli Olan Sürüş",
+      "text": "Tek bir hamle, hamle numarasını değil pozisyonu değiştirir: {{c6}}.\n\nBeyazın az önce ne ödediğini sayın. Piyon c5'teyken şahın bir çatısı vardı: kendi piyonunun önünde, c6'da dururken arkadan asla şah yiyemezdi, çünkü piyon dikeyi kapatıyordu. Şimdi o kareyi piyonun kendisi aldı ve bir sonraki çatı, tam şahınızın yanındaki c7 olurdu.\n\nYani çitiniz işini bitirdi. Buradan sonra önemli olan mesafedir."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Uzak Uca Gidin",
+      "text": "Kaleniz altıncı yatayı terk eder, tahtanın öteki ucuna, beyazın şahının arkasına gider ve oradan şah çeker.\n\nSavunmanın tamamı mesafedir. Bir şah, yakından şah çeken kaleden, üstüne yürüyüp onu tehdit ederek kurtulur; tahtanın uzak ucundan gelen şaha yürüyecek bir yer yoktur ve beyazın şahının onu aramak için c6'daki piyonu bırakması gerekir. O piyona eşlik etmek için her çıkışında bir şah daha gelir ve şahlar hiç tükenmez."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Neden Beklediniz",
+      "text": "Sıra, iki hamlenin herhangi birinden daha önemlidir. Kaleyi önce uzağa gönderin — piyon hâlâ c5'teyken — beyazın piyonu sürmesi hiç gerekmesin: şahı kendi piyonunun önündeki c6'ya adımlar; orada arkadan gelen hiçbir şah ona ulaşamaz, çünkü kalenin yolunda piyon durur. O çatının altından içeri yürür ve kazanç beyazın olur.\n\n> Piyon yerinde dururken yatayı tutun. O oynadığı anda tahtanın izin verdiği kadar ondan uzaklaşın."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "prompt": "Kapatmaktan şah çekmeye geçin; bu tahtanın izin verdiği en uzak yerden.",
+      "targetSan": [
+        "Ra1"
+      ],
+      "hint": "Şahın üstüne yürüyebildiği bir kale hiçbir işe yaramaz; öyleyse kalenizin beyazın şahından ne kadar uzaklaşabildiğini sayın."
+    }
+  ]
+}

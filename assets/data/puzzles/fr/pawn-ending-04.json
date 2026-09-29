@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-04",
+  "fen": "8/8/8/3kp2P/8/8/8/4K3 b - - 0 1",
+  "solution": [
+    "Ke6"
+  ],
+  "rating": 1210,
+  "title": "La porte bloquée",
+  "setup": "Chaque camp a un coureur, et le roi noir se tient une colonne à l'extérieur du carré du pion blanc.",
+  "hint": "Comptez le carré du pion h, puis regardez sur laquelle de ses cases d'entrée se trouve l'une de vos propres pièces.",
+  "explanation": "## L'idée\n\nLe carré est h5–h8–e8–e5, et le propre pion noir occupe e5, la porte naturelle. {{Ke6}} est la seule autre entrée, et de là le roi suit le pion comme son ombre jusqu'en h8. Faire la course par {{e4}} perd d'un seul coup. Comptez vos propres pièces avant de compter celles des Blancs."
+}

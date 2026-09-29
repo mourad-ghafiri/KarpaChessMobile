@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-02",
+  "fen": "8/4k3/R7/8/8/8/8/1R5K w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Ke8",
+    "Ra8#"
+  ],
+  "title": "O Mate em Escada",
+  "setup": "Duas torres contra o rei nu das pretas em e7, e a torre de a6 já veda a sexta linha inteira.",
+  "hint": "Uma torre segura uma linha enquanto a outra dá xeque na linha seguinte.",
+  "explanation": "## A Ideia\n\nIsto é o mate em escada. A torre de a6 segura a sexta linha, portanto {{Rb7+}} dá xeque pela sétima e deixa ao rei só a linha de fundo: {{Kd8}}, {{Ke8}} ou {{Kf8}}.\n\nVá ele para onde for, {{Ra8#}} sobe até à última linha. A torre de b7 fica com a sétima inteira, e ao rei não resta nada. Cortar, dar xeque, cortar, dar xeque: duas torres não precisam da ajuda de mais nada."
+}

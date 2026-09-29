@@ -1,0 +1,14 @@
+{
+  "id": "skewer-05",
+  "fen": "8/Qp2p3/3k2qp/7p/2Pp1P2/6P1/1P5K/8 w - - 0 1",
+  "solution": [
+    "Qb6+",
+    "Kd7",
+    "Qxg6"
+  ],
+  "rating": 1060,
+  "title": "La Sesta Traversa Passa da Parte a Parte",
+  "setup": "Il re nero in d6 e la sua donna in g6 condividono la sesta traversa, e le case in mezzo sono nude.",
+  "hint": "Date scacco sulla sesta traversa dal lato che costringe il re ad allontanarsi dalla propria donna.",
+  "explanation": "## L'idea\n\n{{Qb6+}} dà scacco lungo la sesta traversa con la donna nera arenata dietro il suo re. {{Kd7}} è l'unica risposta legale, ed esce dalla traversa — quindi {{Qxg6}} prende semplicemente la donna. Il premio non è mai stato difeso."
+}

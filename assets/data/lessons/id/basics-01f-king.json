@@ -1,0 +1,57 @@
+{
+  "id": "king-moves",
+  "title": "Buah yang Tak Pernah Pergi",
+  "summary": "Satu petak ke segala arah, dikurangi setiap petak yang diawasi lawan",
+  "proof": "first-steps-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "title": "Tak Pernah Ditangkap, Tak Pernah Ditukar",
+      "text": "Setiap buah lain milik Anda bisa ditukar, diberikan atau hilang. Raja tidak. Ia tak pernah ditangkap dan tak pernah meninggalkan papan — partai berakhir sebelum itu bisa terjadi.\n\nKarena itu aturan menahannya dengan tali pendek: **satu petak, ke salah satu dari delapan arah**. Dari e4, itu berarti {{Kd5}}, {{Ke5}}, {{Kf5}}, {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\nDelapan tetangga. Tak ada apa pun di luar itu."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "prompt": "Langkahkan raja ke petak mana saja yang bersentuhan dengan e4 — kedelapannya terbuka di sini.",
+      "targetSan": [
+        "Kd5",
+        "Ke5",
+        "Kf5",
+        "Kd4",
+        "Kf4",
+        "Kd3",
+        "Ke3",
+        "Kf3"
+      ],
+      "hint": "Tak ada buah lain di papan, jadi tak ada petak di lingkaran itu yang lebih baik daripada yang lain."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Ada yang Mengawasi",
+      "text": "Papan tak lagi kosong. Benteng Hitam di h5 menyapu seluruh baris kelima, dari ujung ke ujung, sebagaimana benteng bekerja.\n\nLihat apa akibatnya bagi raja di e4. Tiga dari delapan tetangganya — d5, e5 dan f5 — berada di baris itu, terlihat jelas oleh benteng."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Tiga Petak Ditarik Kembali",
+      "text": "Ketiga petak itu bukan sekadar pilihan yang buruk. Ketiganya sama sekali bukan pilihan.\n\nRaja **tak pernah boleh melangkah ke petak yang diserang buah lawan**. Papan tak akan mengizinkannya: coba raih d5 dan langkah itu memang tak ada, sama seperti garis lurus tak ada bagi gajah.\n\nTersisa lima: {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\n> Hitung petak yang bersentuhan dengan raja, lalu coret setiap petak yang diawasi lawan. Yang tersisa adalah seluruh langkah raja."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3k4/8/3K4/8/8/8 w - - 0 1",
+      "title": "Raja Saling Menjaga Jarak",
+      "text": "Contoh paling sederhana dari aturan itu adalah dua raja. Raja Hitam di d6 berdiri dua petak jauhnya, dan c5, d5 serta e5 semuanya bersentuhan dengannya.\n\nArtinya ketiga petak itu tertutup bagi raja Putih di d4. Ia tak bisa maju selangkah pun — seluruh bagian depan lingkarannya milik raja yang lain.\n\nDua raja tak pernah bisa berdiri bersebelahan. Tak satu pun boleh masuk ke lingkaran yang lain, sehingga selalu ada satu petak kosong di antara keduanya."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/4p3/4K3/8 w - - 0 1",
+      "prompt": "Pion itu telah menutup dua petak di samping raja, tetapi bukan petak tempat ia berdiri — menangkan pion itu.",
+      "targetSan": [
+        "Kxe3"
+      ],
+      "hint": "Serangan pion mengarah diagonal ke depan, tak pernah lurus ke depan, dan tak ada apa pun di papan ini yang menjaganya."
+    }
+  ]
+}

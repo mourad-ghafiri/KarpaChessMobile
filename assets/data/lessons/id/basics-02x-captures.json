@@ -1,0 +1,65 @@
+{
+  "id": "captures",
+  "title": "Apa yang Menangkap Balik",
+  "summary": "Dua penangkapan, masing-masing satu lompatan, dan hanya balasannya yang membedakan keduanya",
+  "proof": "first-steps-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Dua Hal untuk Diambil",
+      "text": "Kuda Anda di e4 menyerang dua buah hitam sekaligus: benteng di d6 dan gajah di f6. Kedua penangkapan sah, keduanya satu lompatan, dan dari petak kuda keduanya tampak sama.\n\nPadahal tidak. Buah yang tak dilindungi apa pun disebut **tak terlindungi**, dan mengambilnya tak membuat Anda membayar apa-apa. Buah yang dijaga kawannya membuat Anda membayar dengan apa pun yang ditangkap balik oleh penjaga itu.\n\nPapan sudah memberi tahu mana yang mana. Ia memberi tahu sebelum Anda melangkah."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Tiga untuk Tiga",
+      "text": "{{Nxf6}} memenangkan gajah. Lalu {{gxf6}}, dan pion di g7 langsung menangkap balik kudanya.\n\nTak ada yang hilang di sana. Kuda bernilai tiga, gajah bernilai tiga, dan keduanya meninggalkan papan bersama — hitungannya berakhir di tempat ia bermula.\n\nTetapi tak ada yang dimenangkan juga. Itulah seluruh hasil penangkapan tersebut: satu langkah terpakai, dan posisi yang sama dikurangi dua buah."
+    },
+    {
+      "type": "play",
+      "fen": "8/6p1/3r1b2/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Penangkapan yang lain sama sekali tak punya balasan — mainkan dan simpan apa yang Anda ambil.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "Tak ada buah hitam yang mencapai d6: gajah di f6 tak melihat petak itu, dan pion di g7 hanya menjaga f6 dan h6."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Sembilan Lawan Satu",
+      "text": "Pertanyaan yang sama, dan kini yang bertanya adalah menteri.\n\nMenteri Anda di d4 memandang ke sepanjang dua diagonal kosong ke arah dua pion hitam, satu di a7 dan satu di g7. Penangkapan mana pun memenangkan sesuatu yang bernilai satu poin. Penangkapan mana pun menaruh sembilan poin di petak itu.\n\nItulah yang membuat menteri menjadi buah yang paling berbahaya untuk dimainkan sembarangan. Kuda yang salah tebak bertukar secara seimbang. Menteri yang salah tebak sama sekali tidak sedang bertukar."
+    },
+    {
+      "type": "teach",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Dimiliki Hanya Satu Langkah",
+      "text": "{{Qxa7}} memenangkan sebuah pion dan memilikinya tepat selama satu langkah. {{Rxa7}} — benteng di a8 sudah menjaga pion itu jauh sebelum Anda melihatnya, dan kini ia mendapatkan menteri Anda.\n\nSembilan poin untuk satu. Tak ada hitungan yang bisa mengubahnya menjadi pertukaran.\n\nItulah sebabnya menteri makan paling akhir. Setiap buah milik Hitam bernilai lebih rendah darinya, jadi setiap penjaga di papan adalah penjaga yang harus dihormati menteri."
+    },
+    {
+      "type": "play",
+      "fen": "r7/p5p1/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "Salah satu dari dua pion itu tak diawasi apa pun — ambil yang itu.",
+      "targetSan": [
+        "Qxg7"
+      ],
+      "hint": "Hitam memiliki satu benteng dan dua pion: benteng mengawasi lajur a dan baris kedelapan, dan tak satu pion pun menjaga pion yang lain."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "title": "Dijaga Bukan Berarti Tak Tersentuh",
+      "text": "Satu posisi lagi, dan posisi ini membatalkan separuh dari apa yang baru saja Anda baca.\n\nMenteri Hitam di c5 dijaga: pion di b6 menguasai petak itu dan langsung menangkap balik.\n\nTetap ambil. Anda memberikan kuda bernilai tiga, Anda menyingkirkan menteri bernilai sembilan, dan Anda unggul enam poin. Dijaga tak pernah berarti aman. Artinya hanyalah penangkapan itu punya harga — dan harganya harus lebih kecil daripada hadiahnya.\n\n> Ambil apa yang tak dijaga. Sebelum mengambil apa yang dijaga, hitung apa yang Anda berikan dan apa yang Anda dapatkan."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/1p6/2q5/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Buah terbaik Hitam dijaga, dan penjaganya hanya sebuah pion — tetap ambil.",
+      "targetSan": [
+        "Nxc5"
+      ],
+      "hint": "Tiga poin meninggalkan papan dan sembilan poin ikut keluar bersamanya — penangkapan balik adalah bagian dari kesepakatan, bukan kecelakaan."
+    }
+  ]
+}

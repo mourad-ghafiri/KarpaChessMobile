@@ -1,0 +1,13 @@
+{
+  "id": "forks-06",
+  "fen": "6k1/pp2rpp1/7p/n7/3Q4/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kh7",
+    "Qxa5"
+  ],
+  "title": "La Donna Inforchetta da Un Capo all'Altro",
+  "setup": "Il cavallo nero in a5 è finito alla deriva sul bordo senza difensori, e la traversa di fondo del Nero è vuota.",
+  "hint": "Trovate uno scacco di donna che atterri anche sulla diagonale del cavallo.",
+  "explanation": "## L'idea\n\nUna forchetta di donna non ha bisogno che i due bersagli siano vicini, solo che stiano su linee che si incontrano.\n\n{{Qd8+}} dà scacco al re in g8 lungo la traversa di fondo e attacca il cavallo in a5 lungo la diagonale. Il Nero deve rispondere allo scacco, con {{Kh7}} o parando in e8, e nessuna delle due cose salva il cavallo: {{Qxa5}} se lo prende dall'altra parte della scacchiera.\n\nCercate la casa dove uno scacco e un pezzo indifeso condividono le linee della donna."
+}

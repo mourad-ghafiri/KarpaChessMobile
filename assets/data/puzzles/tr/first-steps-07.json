@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-07",
+  "fen": "7k/2p5/3p1b2/8/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxf6"
+  ],
+  "title": "Bedava mı, Korunuyor mu?",
+  "setup": "e4'teki atınız siyahın iki farklı taşını alabiliyor — ama bunlardan yalnızca biri gerçekten bedava.",
+  "hint": "Kapmadan önce sorun: geri alan kim? d6 ile f6'nın koruyucularını kontrol edin.",
+  "explanation": "## Fikir\n\nİki taş alma göz kırpıyor:\n\n- {{Nxd6}} bir piyon kapar, ama c7'deki piyon **d6'yı koruyor** ve hemen geri alıyor. Üç puanlık atı bir puanlık piyona değişmiş olurdunuz.\n- {{Nxf6}} fili kapar ve **f6'yı koruyan hiçbir şey yok**. Tertemiz üç puan.\n\nDoğru soru asla “ne alabilirim?” değil, “neyi bedavaya alabilirim?” sorusudur. Her taş almadan önce koruyucuları sayın."
+}

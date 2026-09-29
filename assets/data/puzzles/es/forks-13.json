@@ -1,0 +1,11 @@
+{
+  "id": "forks-13",
+  "fen": "4k3/pp3ppp/8/1N3q2/8/8/PP3PPP/R1B3K1 w - - 0 1",
+  "solution": [
+    "Nd6+"
+  ],
+  "title": "El caballo arranca la dama",
+  "setup": "La dama negra de f5 ataca tu caballo de b5, y el rey negro sigue en casa en e8.",
+  "hint": "No te limites a salvar el caballo. Encuentra el salto que da jaque al rey y golpea a la dama.",
+  "explanation": "## La idea\n\n{{Nd6+}} da jaque al rey de e8 y ataca a la dama de f5. No hay ningún peón negro en c7 ni en e7 que proteja d6, así que el caballo está a salvo, y a un jaque de caballo no se le puede tapar. El rey tiene que moverse, y {{Nxf5}} captura la dama por un caballo.\n\nAntes de retirar una pieza atacada, busca una casilla desde la que contraataque con jaque."
+}

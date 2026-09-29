@@ -1,0 +1,12 @@
+{
+  "id": "discovery-07",
+  "fen": "2r1k3/p1q2ppp/8/4B3/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxc7+"
+  ],
+  "rating": 1200,
+  "title": "La tour derrière le fou",
+  "setup": "Le roi noir est toujours en e8 face à votre tour en e1, et seul votre propre fou tient la colonne fermée.",
+  "hint": "Votre fou est la seule chose qui tient la colonne e fermée. Où peut-il aller en se payant au passage ?",
+  "explanation": "## L'idée\n\n{{Bxc7+}} prend la dame et ouvre en même temps l'échec de la tour le long de la colonne e. La tour en c8 défend bien c7, mais les Noirs doivent d'abord parer l'échec et ne peuvent récupérer le fou qu'ensuite : une dame contre un fou."
+}

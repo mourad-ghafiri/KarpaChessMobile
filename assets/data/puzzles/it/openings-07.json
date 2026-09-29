@@ -1,0 +1,13 @@
+{
+  "id": "openings-07",
+  "fen": "r2qkbnr/ppp2ppp/2np4/4N3/2B1P3/2N4P/PPPP1PP1/R1BbK2R w KQk - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Nd5#"
+  ],
+  "title": "La Trappola di Légal",
+  "setup": "Il Bianco ha ignorato l'inchiodatura e ha preso in e5, e il Nero ha appena incassato prendendovi la donna.",
+  "hint": "La donna è sparita e non importa. Contate le case attorno a e8 e trovate lo scacco che toglie l'ultima libera.",
+  "explanation": "## L'idea\n\nTre pezzi leggeri stanno per dare matto a un re il cui esercito è ancora tutto sulla scacchiera.\n\n{{Bxf7+}} lascia al Nero una mossa, {{Ke7}}: d8 e f8 hanno la donna e l'alfiere del Nero, e d7 è coperta dal cavallo in e5. Poi {{Nd5#}}: il cavallo dà scacco e copre f6, l'alfiere copre e6 e e8, e d6 ha il pedone del Nero.\n\nIl cavallo in e5 non ha mai riguardato il pedone. È il pezzo che toglie d7.\n\nContate le case di fuga, non il materiale."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-01",
+  "fen": "4k3/pp4pp/8/3n4/4P3/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "exd5"
+  ],
+  "title": "Piyon Atı Alır",
+  "setup": "Siyahın bir atı e piyonunuzun yakınına sokulmuş. Piyonun hangi yönde taş aldığını hatırlarsanız onu kazanabilirsiniz.",
+  "hint": "Piyonlar bir kare çapraz ileri alır. e4 piyonu hangi iki kareye saldırıyor?",
+  "explanation": "## Fikir\n\nPiyon düz yürür ama **çaprazdan alır** ve d5'teki at, e4'teki piyonunuzun saldırdığı iki kareden birinde duruyor.\n\n{{exd5}} gelir ve piyon koca bir atı alır. d5'i koruyan bir şey yok, yani geri alan da yok: at öylece sizin olur.\n\nHer piyon önündeki iki çapraz kareyi korur. Oraya adım atan her şey alınabilir."
+}

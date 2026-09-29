@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-01",
+  "fen": "6k1/6pp/5p2/1R6/Q7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Kf7",
+    "Qe8#"
+  ],
+  "rating": 900,
+  "title": "Rook Opens, Queen Ends",
+  "setup": "Black's king is walled in by its own pawns on g7 and h7, and your rook has a wide-open b-file.",
+  "hint": "Chase the king to the one square its pawns still allow, then find the mate your rook can protect.",
+  "explanation": "## The Idea\n\n{{Rb8+}} seizes the back rank. The pawns on g7 and h7 block their own king, so {{Kf7}} is the only legal move. Then {{Qe8#}}: the queen lands beside the king, guarded by the rook on b8, with every escape square covered."
+}

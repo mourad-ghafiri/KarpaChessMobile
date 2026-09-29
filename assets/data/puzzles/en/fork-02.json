@@ -1,0 +1,12 @@
+{
+  "id": "fork-02",
+  "fen": "6k1/pp3ppp/3b1n2/8/3PP3/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "e5"
+  ],
+  "rating": 730,
+  "title": "One Pawn, Two Pieces",
+  "setup": "Black's bishop on d6 and knight on f6 stand two squares apart on the same rank.",
+  "hint": "A pawn attacks two squares at once, so look for the push that lands between two black pieces.",
+  "explanation": "## The Idea\n\n{{e5}} hits d6 and f6 together, and the pawn on d4 defends it, so the bishop cannot simply take. Black rescues one piece and you take the other. Two enemy pieces on the same rank, two files apart, are a pawn fork waiting to happen."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-11",
+  "fen": "6k1/2n1Rppp/8/8/2N5/2r5/PP2Q3/K7 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Nxe8",
+    "Qxe8#"
+  ],
+  "rating": 1610,
+  "title": "Kuda Tak Bisa Menjaga Dua Kali",
+  "setup": "Kuda Hitam di c7 mengawasi e8, benteng Anda telah mencapai baris ketujuh, dan menteri menunggu di e2.",
+  "hint": "Kuda menjaga dengan canggung. Temukan petak yang bisa dicapainya tepat sekali dan buat ia pergi ke sana.",
+  "explanation": "## Ide\n\n{{Re8+}} menuntut kuda, {{Nxe8}} terpaksa, dan menteri menangkapnya di sana dengan {{Qxe8#}}. Kuda yang menjaga sebuah petak hanyalah pembela sampai ia harus berdiri di petak itu."
+}

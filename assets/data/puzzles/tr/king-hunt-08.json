@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-08",
+  "fen": "1b1K1R2/2R4p/2Q5/1B3r1k/1p6/8/8/8 w - - 0 1",
+  "solution": [
+    "Rxf5+",
+    "Kg4",
+    "Qf3+",
+    "Kh4",
+    "Rh5#"
+  ],
+  "rating": 1590,
+  "title": "Değişerek Ağa",
+  "setup": "Siyahın şahı h5'e kaçmış, yanında tek bir kalesi f5'te duruyor ve veziriniz ile iki kaleniz yakınında.",
+  "hint": "Savunan kale rahat bırakılacak şey gibi görünüyor. O olmadan şahın karelerinin neye dönüştüğüne bakın.",
+  "explanation": "## Fikir\n\n{{Rxf5+}} şah çekerek kaleyi kazanır, {{Qf3+}} şahı h4'e sürer ve {{Rh5#}} mattır; f3'teki vezir kaleyi tutar. Son koruyucuyu almak açgözlü bir hamle değil, bir av hamlesidir."
+}

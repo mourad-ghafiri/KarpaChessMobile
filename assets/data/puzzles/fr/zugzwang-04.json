@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-04",
+  "fen": "8/2B5/8/8/1p5Q/k7/2K5/8 w - - 0 1",
+  "solution": [
+    "Qc4",
+    "Ka4",
+    "Qa6#"
+  ],
+  "rating": 1500,
+  "title": "Donnez une case au roi",
+  "setup": "Le roi noir est en a3 avec un seul pion en b4, et votre roi en c2 fait déjà la moitié du travail.",
+  "hint": "Votre roi couvre plus qu'il n'y paraît. Déterminez sur quelle case irait le roi noir, et soyez-y le premier.",
+  "explanation": "## L'idée\n\n{{Qc4}} n'est pas échec, mais prend b3 et b4 pendant que votre roi tient b2. Seul {{Ka4}} éloigne le roi de votre bord — {{b3+}} tombe sur {{Qxb3#}} — et {{Qa6#}} arrive. Un roi au bord avec une seule case restante est déjà maté — il ne le sait simplement pas encore."
+}

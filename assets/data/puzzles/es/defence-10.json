@@ -1,0 +1,14 @@
+{
+  "id": "defence-10",
+  "fen": "8/7Q/2b4q/8/7k/6r1/5R1K/8 w - - 0 1",
+  "solution": [
+    "Qxh6+",
+    "Kg4",
+    "Rf4#"
+  ],
+  "rating": 1830,
+  "title": "Captura la dama con jaque",
+  "setup": "Tu rey de h2 tiene encima a la dama negra de h6, la torre de g3 y el alfil de c6.",
+  "hint": "La jugada obvia es salvarte. Prueba la captura que cambia de quién es el rey que está en la red.",
+  "explanation": "## La idea\n\n{{Qxh6+}} se come la dama con jaque; {{Kg4}} es forzada, y {{Rf4#}} da mate con la torre cortando la cuarta fila. Aquí eliminar al atacante y ganar un tiempo son la misma jugada."
+}

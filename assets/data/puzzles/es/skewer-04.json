@@ -1,0 +1,14 @@
+{
+  "id": "skewer-04",
+  "fen": "8/5p2/3kp3/6QR/P7/3r1P2/Pq3P2/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kc6",
+    "Qxd3"
+  ],
+  "rating": 1020,
+  "title": "Por la columna d",
+  "setup": "El rey negro de d6 y su torre de d3 están alineados en la columna d con casillas vacías entre ellos.",
+  "hint": "Encuentra el jaque que pone tu dama en la columna donde ya está la torre negra, detrás de su rey.",
+  "explanation": "## La idea\n\n{{Qd8+}} alinea la dama delante del rey en la columna d, con la torre de **d3** atrapada en el otro extremo. Toda respuesta legal saca al rey de la columna, y {{Kc6}} es la única, así que {{Qxd3}} gana la torre."
+}

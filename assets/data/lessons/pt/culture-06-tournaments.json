@@ -1,0 +1,68 @@
+{
+  "id": "tournaments",
+  "title": "O Teu Primeiro Open",
+  "summary": "Suíços, byes, e a pessoa que está no meio",
+  "proof": "culture-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Tabuleiro Quarenta, Primeira Ronda",
+      "text": "Inscreveram-se duzentos e um jogadores, e a folha de emparelhamentos cortou a lista ao meio: toda a gente da metade de cima calhou com alguém da metade de baixo. É por isso que o adversário mais forte do teu fim de semana está sentado à tua frente agora, na primeira ronda, a jogar depressa.\n\nNinguém é eliminado. Perde esta partida e voltas a ser emparelhado depois do almoço, com alguém que também perdeu."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Emparelhados pela Pontuação",
+      "text": "A partir da segunda ronda o programa de emparelhamento ordena toda a gente por pontuação e empareja dentro de cada grupo, para que os vencedores encontrem vencedores e os derrotados encontrem derrotados. Também vai registando quem teve que cor e equilibra as duas ao longo da prova, tanto quanto os emparelhamentos permitirem. Nunca calhas com o mesmo adversário duas vezes.\n\nIsso é um **sistema suíço**, e é o que permite a duzentos inscritos acabarem nove rondas numa semana longa."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Um Peão Caminha Contra o Teu Bispo",
+      "text": "O peão h das brancas está em h4, e não está ali pela paisagem. Mais um avanço e o teu bispo perde g6.\n\nConta as casas que lhe ficariam. Pela diagonal abaixo vai dar ao meio do tabuleiro, onde um peão e um cavalo esperam para o perseguir de casa em casa, e um bispo obrigado a fugir acaba por ficar sem nenhuma. É a maneira mais antiga de ganhar uma peça nesta abertura: não uma tática, apenas um peão a caminhar contra algo que não pode ficar quieto."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "prompt": "Abre a casa de retirada de que o teu bispo vai precisar antes de o peão h das brancas o expulsar de g6.",
+      "targetSan": [
+        "h6"
+      ],
+      "hint": "A única estrada de regresso do bispo passa pelos teus próprios peões da ala do rei."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "O Número Ímpar",
+      "text": "Há duzentos e um nomes no quadro da parede. Um número ímpar, portanto em cada ronda fica um jogador sem adversário e recebe um bye, normalmente pontuado como vitória.\n\nQuase todas as provas concedem também meio ponto de bye por uma ronda que reserves com antecedência, que é a diferença entre faltar à quinta ronda e perdê-la. Informa-te sobre os byes antes de te inscreveres, e não na manhã da ronda.\n\nAs brancas avançam à mesma. {{h5}}, e desta vez {{Bh7}} é uma casa."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Outras Duas Maneiras de o Organizar",
+      "text": "Um torneio todos-contra-todos empareja toda a gente com toda a gente: dez jogadores, nove rondas, e a tabela cruzada responde a todas as perguntas que um desempate teria de adivinhar. É o sistema mais justo que há, e é por isso que as provas por convite o usam, e também por isso que cem inscritos nunca verão um: seriam noventa e nove rondas.\n\nUma eliminatória é o outro extremo. Um match, um derrotado, e metade do campo vai para casa antes do jantar. A Taça do Mundo funciona assim, com matches de duas partidas e desempates em rápidas quando acabam empatados.\n\nOs opens de fim de semana ficam pelo meio. Continuam todos a jogar, e quem ordena são os emparelhamentos."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "A Companhia Que Tiveste",
+      "text": "Tabuleiro novo, última ronda, e as pretas acabam de se servir do cavalo que tinhas em e4.\n\nVão acabar na pontuação mais alta mais jogadores do que há prémios, portanto decidem os desempates, e são publicados antes da primeira ronda. Lê-os aí. Quase todos medem a companhia que tiveste: o Buchholz soma as pontuações finais dos teus adversários, o Sonneborn-Berger pesa essas pontuações conforme os tenhas batido ou empatado. Ninguém pode jogar para um desempate. Só explica, depois, porque é que perder com o vencedor final te custou menos do que perder com alguém que desistiu na manhã seguinte."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "Levanta uma Mão",
+      "text": "O árbitro faz os emparelhamentos, guarda as Leis e resolve as reclamações. Levanta uma mão; não discutas por cima do tabuleiro. No jogo normal a tua primeira jogada ilegal completada dá dois minutos extra ao teu adversário e a segunda acaba a partida, portanto chama o árbitro em vez de a corrigires sozinho.\n\nRocaste longo na jogada passada, e a torre em d1 aponta por uma coluna que o seu próprio bispo bloqueia. {{Qd8+}} {{Kxd8}} {{Bg5+}} dá xeque duas vezes, e o rei tem duas casas. Em c7 o bispo dá mate a partir de d8, portanto as pretas tentam {{Ke8}}.\n\n> Os emparelhamentos, o relógio e a lista de prémios pertencem ao árbitro. O tabuleiro pertence-te a ti."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+      "prompt": "O rei preto fugiu antes para e8: encontra o mate em uma na coluna que a tua torre já segura.",
+      "targetSan": [
+        "Rd8#"
+      ],
+      "hint": "O bispo em g5 cobre e7 e guarda a casa de chegada, portanto à torre basta chegar com xeque."
+    }
+  ]
+}

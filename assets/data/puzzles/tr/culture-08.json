@@ -1,0 +1,13 @@
+{
+  "id": "culture-08",
+  "fen": "1r2k1r1/pbppnp1p/1b3P2/8/Q7/B1PB1q2/P4PPP/3R2K1 w - - 0 21",
+  "solution": [
+    "Qxd7+",
+    "Kxd7",
+    "Bf5+"
+  ],
+  "title": "İki Fil Birden",
+  "setup": "Beyaz bir kale ve bir at geride, siyahın şahı hiç rok yapmadı ve beyazın iki fili de ona doğrultulmuş.",
+  "hint": "Taşları saymadan önce siyahın şahının karelerini sayın — a3'teki fil ile f6'daki piyon çıkarıldığında geriye ne kalıyor?",
+  "explanation": "## Fikir\n\n{{Qxd7+}} veziri korunan bir piyonun üstüne atar. {{Kf8}} ile reddetmek e7'de anında mattır, yani {{Kxd7}} gelir ve şah, iki fil de ona doğrultulmuş hâlde açıkta kalır.\n\n{{Bf5+}} bir çifte şahtır; hem filden hem arkasındaki kaleden gelir. {{Kc6}} {{Bd7#}} hamlesine yürür ve {{Ke8}} geldikten sonra {{Bd7+}} ile {{Bxe7#}} işi aynı iki fille bitirir.\n\nAnderssen bunu, Ölümsüz Parti'den bir yıl sonra, 1852'de Berlin'de oynadı."
+}

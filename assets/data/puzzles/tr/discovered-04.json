@@ -1,0 +1,13 @@
+{
+  "id": "discovered-04",
+  "fen": "1r1k4/8/8/8/3N4/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Ke8",
+    "Nxb8"
+  ],
+  "title": "Çifte Şah, Sonra Kale",
+  "setup": "Kaleniz ile atınız d dikeyini siyahın şahıyla paylaşıyor — at önde, şah arkasında bekliyor.",
+  "hint": "Tek bir at sıçrayışı hem kendisi şah çekebilir hem de kalenin şahını açabilir. Aynı zamanda bir şeye vuran sıçrayışı seçin.",
+  "explanation": "## Fikir\n\n{{Nc6+}} bir çifte şahtır: at d8'e kendisi saldırır ve onu oynatmak arkasındaki d1'deki kaleyi açar. Aynı anda gelen iki şaha karşı ne taş almak ne kapatmak işe yarar, yani şahın oynaması gerekir. Nereye giderse gitsin {{Nxb8}} atın baştan beri gözlediği kaleyi toplar ve şah sonra atı alsa bile kaleniz çıplak bir şahın karşısında kalır. Çifte şah satrancın en zorlayıcı hamlesidir: şah oynamak zorundadır ve geri kalan her şey bekler."
+}

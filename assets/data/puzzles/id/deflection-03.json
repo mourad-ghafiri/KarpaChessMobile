@@ -1,0 +1,14 @@
+{
+  "id": "deflection-03",
+  "fen": "2br2k1/5ppp/nq6/8/2B5/7P/PP2QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Bxa6"
+  ],
+  "rating": 1180,
+  "title": "Dua Tugas, Satu Menteri",
+  "setup": "Menteri di b6 menahan benteng di d8 dan kuda di a6, dan gajah Anda sudah mengincar a6.",
+  "hint": "Gajah Anda membidik kuda yang dilindungi. Temukan pembelanya dan beri ia tugas yang harus dijawabnya.",
+  "explanation": "## Ide\n\n{{Rxd8+}} adalah sekak dan {{Qxd8}} satu-satunya jawaban. Menteri telah meninggalkan baris keenam, jadi {{Bxa6}} tinggal mengambil kuda. Burulah pembela yang menahan dua buah sekaligus. Pembela tak harus ditangkap, cukup diberi tempat lain untuk berada."
+}

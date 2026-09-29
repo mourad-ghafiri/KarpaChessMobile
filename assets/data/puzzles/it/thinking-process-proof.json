@@ -1,0 +1,11 @@
+{
+  "id": "thinking-process-proof",
+  "fen": "6k1/5ppp/1Q6/4r3/4n2P/7P/5PP1/1qR3K1 b - - 0 1",
+  "solution": [
+    "Qxc1+"
+  ],
+  "title": "Due Prese, Uno Scacco",
+  "setup": "La donna bianca in b6 sta lì indifesa, e la torre in c1 sta attaccando la vostra donna. Fatevi le tre domande prima di prendere qualcosa.",
+  "hint": "Il Bianco minaccia uno scacco sull'ottava traversa a cui il vostro re non sfugge. Una delle vostre prese arriva con scacco, e uno scacco non si può ignorare.",
+  "explanation": "## L'idea\n\nPrima domanda: il Bianco minaccia di prendere la vostra donna, e di dare scacco sull'ottava traversa, dove il vostro re non ha una casa in cui scappare.\n\nLa seconda domanda trova due prese. {{Qxb6}} vince una donna, e la terza domanda la butta via: la torre dà scacco in c8, e segue il matto.\n\n{{Qxc1+}} vince una torre con scacco, da una casa che niente attacca. Il Bianco deve rispondere allo scacco, e voi siete avanti di una torre e un cavallo, con il tempo per occuparvi della minaccia."
+}

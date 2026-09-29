@@ -1,0 +1,11 @@
+{
+  "id": "forks-05",
+  "fen": "6k1/5ppp/2q5/3N4/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Ne7+"
+  ],
+  "title": "Le cavalier accroche une dame",
+  "setup": "La dame noire en c6 attaque votre cavalier en d5. Déplacer le cavalier ne suffit pas ; faites-le riposter.",
+  "hint": "Un saut de cavalier donne échec et attaque la dame en même temps.",
+  "explanation": "## L'idée\n\n{{Ne7+}} met le roi en g8 en échec et attaque la dame en c6 d'un seul saut. Rien de noir ne protège e7, et un échec de cavalier ne peut pas être paré par interposition, donc le roi doit bouger. Après {{Kf8}} ou {{Kh8}}, {{Nxc6}} gagne la dame.\n\nUne fourchette avec échec est la plus forte : le coup de roi consomme le tour des Noirs, et la seconde cible tombe."
+}

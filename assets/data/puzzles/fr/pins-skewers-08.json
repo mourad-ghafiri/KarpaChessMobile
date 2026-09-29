@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-08",
+  "fen": "3k4/3q4/3p4/3R4/3R4/8/8/3K4 w - - 0 1",
+  "solution": [
+    "Rxd6",
+    "Qxd6",
+    "Rxd6+"
+  ],
+  "title": "Mangez d'abord le pion cloué",
+  "setup": "Le pion, la dame et le roi noirs sont empilés sur la colonne d, l'un derrière l'autre, et vos deux tours la regardent.",
+  "hint": "Le pion ne peut pas avancer. Comptez ce qui se passe si vous commencez par l'avant de la pile.",
+  "explanation": "## L'idée\n\nLe pion en d6 bloque vos deux tours. {{Rxd6}} l'élimine, et maintenant la dame en d7 est clouée sur le roi derrière elle. {{Qxd6}} est le seul moyen pour les Noirs d'éviter de perdre la dame pour rien, et {{Rxd6+}} reprend avec la seconde tour : une tour contre un pion et une dame, ce qui laisse une tour contre un roi seul.\n\nNe commencez par l'avant d'une pile que si l'une de vos pièces se tient derrière pour reprendre."
+}

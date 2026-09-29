@@ -1,0 +1,65 @@
+{
+  "id": "opposition",
+  "title": "Opozisyon",
+  "summary": "İki şah, tek tempo ve gözünü kimin kırpacağı",
+  "proof": "endgame-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "Şahlar Birbirine Değemez",
+      "text": "Hiçbir şah bir başka şahın yanındaki kareye adım atamaz; bu da ikisinin asla birbiriyle vuruşamayacağı anlamına gelir. Yalnızca birbirini sıkıştırabilirler.\n\ne4'te sizin şahınız, e7'de siyahın şahı, aralarında iki boş kare. Dikey boyunca dümdüz yukarı yürüyün, siyah da dümdüz aşağı yürüyebilsin; ortada bir yerde ikinizin de yolu tükensin.\n\nBu tartışmayı kimin kazandığını, kimsenin kaçamadığı tek kural belirler: sıra sizdeyse oynamak zorundasınız. Buna zugzwang denir ve tahtada çıplak şahlar varken iki tarafın da elindeki tek silah odur."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "Bu Kapışmanın Bir Adı Var",
+      "text": "Şahları aynı dikeyde aralarında bir boş kare kalacak şekilde getirin, pozisyon kilitlensin. Aradaki kareye hiçbir şah giremez, çünkü o kare ikisine de değer. Hiçbiri de ötekinin menziline girmeden yandan dolanamaz.\n\nBu kilide **opozisyon** denir. Oynamak zorunda olmayan oyuncuya aittir, çünkü oynamak zorunda olan onu bozmak, yana çekilmek ve öteki şahı geçirmek zorundadır.\n\nÖyleyse aralığı sayın. Bir boş kare ve sıra rakipteyse önünüzdeki topraklar sizindir. Şu anda aralık iki ve sıra sizde."
+    },
+    {
+      "type": "play",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "prompt": "Aralığı kapatın; şahları tek bir boş kare ayırsın ve sıra siyahta olsun.",
+      "targetSan": [
+        "Ke5"
+      ],
+      "hint": "Aralığı hamlenizden önce ve sonra sayın: sırayı devrederek onu bire indirmek istiyorsunuz."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/4K3/8/8/8/8 b - - 5 3",
+      "title": "Siyah Yol Veriyor, Siz İzliyorsunuz",
+      "text": "Şahlar arasında bir boş kare var ve siyahın oynaması gerekiyor. Her kurallı kare yer bırakır: ya yana ya geriye, başka bir şey yok.\n\nDiyelim {{Kd7}}. Siyah mesafeyi korur ama bir dikey vezir kanadına kaymıştır; siz de onunla birlikte gidersiniz. {{Kd5}} gelir, kilit bir dikey ötede yeniden kurulur ve sıra yine siyahtadır.\n\nAlınan bir şey olmadı, tehdit edilen bir şey olmadı. Siyah yalnızca bir yön seçti, siz onu kopyaladınız ve bütün tahta gitmek istediğiniz yere bir adım yaklaştı."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "title": "Gidecek Yeri Olmayan Piyon",
+      "text": "Yeni tahta ve tek bir piyon, şahların ne için tartıştığını değiştiriyor. Şahınız e6'da, piyonunuz e5'te, siyahın şahı e8'de; yine bir kare arayla kilitliler.\n\nBu kez oynaması gereken sizsiniz, yani opozisyon siyahın. Kurallı hamlelerinizi sayın: dört tane var ve hepsi birer şah adımı. Piyon hiç ilerleyemez: önündeki karede kendi şahınız duruyor.\n\nSiyah kapıyı kapalı tutuyor ve piyonunuz arkanızda sıkışmış. Bir şeyin kırılması gerek ve bu piyon olmayacak."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "prompt": "Şahınızın çoktan ulaştığı yataydan ayrılmadan vezir kanadına doğru yana adım atın.",
+      "targetSan": [
+        "Kd6"
+      ],
+      "hint": "Bir yatay geri düşmek şahın tırmandığı her şeyi çöpe atar; onun yerine dikeyden vazgeçin."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "title": "Aynı Kilit, Yeni Dikey",
+      "text": "Siyah adımı aynaladı ve şahlar yine bir kare arayla kilitlendi; sıra hâlâ sizde. Kazanılan bir şey yokmuş gibi görünüyor.\n\ne dikeyine bakın. Şahınız piyonun önündeki kareden çekildi ve siyahın şahı piyonun yolundan bir dikey uzakta. Üç temiz kare ve yanlarında altıncı yatayda çoktan oturan bir beyaz şah.\n\n> Opozisyon hiçbir zaman amaç değildir. Tam olarak bir hamle satın alır ve o hamlenin bir işe yaraması gerekir."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "prompt": "Şahınız artık yolunda durmadığına göre piyonu yürütmeye başlayın.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Şahlar konusunda buradan sonra iyileşen bir şey yok; bu tahtada kalan ilerlemenin tamamı e dikeyinde."
+    }
+  ]
+}

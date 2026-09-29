@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-02",
+  "fen": "7k/5ppp/1n5R/2N5/8/7R/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Rxh7+",
+    "Kg8",
+    "Rh8#"
+  ],
+  "rating": 950,
+  "title": "Dobladas en la columna h",
+  "setup": "Tus torres están apiladas en la columna h, y el rey negro está metido en la esquina detrás de tres peones.",
+  "hint": "Dos torres en una columna significan que la de delante se puede entregar. Pregúntate qué controla después la de detrás.",
+  "explanation": "## La idea\n\n{{Rxh7+}} es segura porque la torre de h3 defiende h7, así que {{Kg8}} es forzada. Luego {{Rh8#}} da mate: el rey sigue sin poder comer, f7 y g7 son sus propios peones, y pasar a f8 lo deja en la fila que ataca la torre."
+}

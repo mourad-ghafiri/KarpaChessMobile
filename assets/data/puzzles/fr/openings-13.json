@@ -1,0 +1,15 @@
+{
+  "id": "openings-13",
+  "fen": "r1bq1rk1/p3nppp/1pnbp3/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 0 9",
+  "solution": [
+    "e5",
+    "Bxe5",
+    "Nxe5",
+    "Nxe5",
+    "Rxe5"
+  ],
+  "title": "Comptez avant de serrer l'étau",
+  "setup": "La mise en place de l'attaque est-indienne est terminée, et les Noirs viennent de pousser un pion en b6 avec un fou en d6. Jouez la poussée centrale pour laquelle cette mise en place a été construite.",
+  "hint": "Une poussée prend de l'espace et offre un pion en même temps. Comptez les attaquants et les défenseurs de cette case avant de vous engager.",
+  "explanation": "## L'idée\n\n{{e5}} est la poussée autour de laquelle se construit toute attaque est-indienne, et elle gagne de l'espace en gagnant un temps sur le fou.\n\nElle offre aussi un pion, et le prendre est une erreur. e5 est attaquée par le fou en d6 et le cavalier en c6, et défendue par le cavalier en f3 et la tour en e1. Après {{Bxe5}} {{Nxe5}} {{Nxe5}} {{Rxe5}}, les Blancs ont un fou contre un pion de plus. Le mieux pour les Noirs est de reculer le fou et de céder l'espace.\n\nComptez ce que vaut chaque attaquant, pas seulement combien il y en a."
+}

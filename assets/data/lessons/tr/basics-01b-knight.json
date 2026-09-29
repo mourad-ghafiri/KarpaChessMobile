@@ -1,0 +1,57 @@
+{
+  "id": "knight-moves",
+  "title": "Atın L'si",
+  "summary": "Duvarın etrafından değil, üstünden geçen tek taş",
+  "proof": "first-steps-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "İki Kare, Sonra Bir",
+      "text": "İki kare, sonra yana bir kare. Şimdiye kadar oynanmış her at hamlesi budur.\n\nAt, düz bir hat boyunca gitmeyi reddeden tek taştır. Bir yatay ya da dikey üzerinde kaymaz — durduğu yerden indiği yere sıçrar ve aradaki hiçbir şeye dokunmaz.\n\nGidişini izleyin: {{Nf6}}. e4'ten iki kare yukarı, sonra bir kare sağa. Tek hamlede çizilmiş bir **L**."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Sekiz İniş Karesi",
+      "text": "e4'ten sayın: {{Nd6}}, {{Nf6}}, {{Nc5}}, {{Ng5}}, {{Nc3}}, {{Ng3}}, {{Nd2}}, {{Nf2}}. Aynı kareden aynı anda çıkan sekiz ok ve sekizi de kurallı birer hamle.\n\nŞimdi aynı atı a1 köşesine koyup yeniden sayın: iki. L'lerinin altısı tahtanın kenarından taşar ve karelerini de yanında götürür.\n\nDemek ki at ortayı ister. Gücünü adresinden okuyabileceğiniz tek taş odur."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Atı e4'ten bir L'nin götürebildiği herhangi bir kareye sıçratın.",
+      "targetSan": [
+        "Nd6",
+        "Nf6",
+        "Nc5",
+        "Ng5",
+        "Nc3",
+        "Ng3",
+        "Nd2",
+        "Nf2"
+      ],
+      "hint": "Bir yatay ya da dikey boyunca iki kare sayın, sonra yana bir kare dönün. Her yön işe yarar."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Asla Üst Üste Aynı Renk Değil",
+      "text": "e4 karesi açıktır. Atın az önce ulaştığı sekiz karenin hepsi koyudur.\n\nBu kural tahtanın her yerinde geçerlidir. At her sıçrayışta ayağının altındaki rengi değiştirir ve bu konuda hiçbir seçim hakkı yoktur.\n\nBu da size bedava bir hesap verir: açık karede duran hiçbir şey, açık karedeki bir atın menzilinde değildir. En azından bu hamlede değil. Bir sonraki hamlede iş tersine döner."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Duvarın Üstünden",
+      "text": "Her parti bir trafik sıkışıklığıyla başlar. Filler, kaleler ve vezir kendi piyonlarının arkasında kapalı kalır; her biri bir piyonun yoldan çekilmesini beklemek zorundadır.\n\nAtlar beklemez. {{Nf3}} daha ilk hamlede piyon dizisini aşar ve f2'deki piyonun esamisi bile okunmaz.\n\nAtların arka yataydan ilk ayrılan taşlar olması bu yüzdendir.\n\n> Herkesin bir kapıya ihtiyacı var. At duvarın üstünden geçer."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3p4/3pp3/2N5/8/8/4K3 w - - 0 1",
+      "prompt": "Atınız saldırı altında; kareyi terk edin ve hiçbir şeyin korumadığı siyah piyonu alın.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "At yolundakileri umursamaz, o yüzden piyon duvarının ötesine bakın — sonra sorun: ötedeki piyonlardan hangisinin arkasında geri alacak ikinci bir piyon var?"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "promotion-03",
+  "fen": "rk6/4Pppp/8/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "e8=Q+"
+  ],
+  "rating": 1080,
+  "title": "Yatayı Dizin",
+  "setup": "e piyonunuz sıradaki hamlede sekizinci yataya ulaşıyor ve siyahın şahı ile kalesi çoktan o yataydalar.",
+  "hint": "Şah ile kale, piyonunuzun gittiği kareyle bir hat paylaşıyor. İkisinden hangisi önde?",
+  "explanation": "## Fikir\n\n{{e8=Q+}} sekizinci yatay boyunca şah çekerek terfi eder, yani siyahın piyonu durduracak vakti olmaz. a8'deki kale aynı hatta şahın arkasında durur: c7'ye adımlasın, yeni vezir onu alsın. {{Ka7}} ya da {{Kb7}} kaleyi korur, ama siz yine bir kaleye karşı bir vezir öndesiniz.\n\nRakip şah terfi yatayınızda duruyorsa şah çekerek terfi edin."
+}

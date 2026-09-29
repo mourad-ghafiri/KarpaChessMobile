@@ -1,0 +1,15 @@
+{
+  "id": "forks-11",
+  "fen": "3rk3/8/8/8/4n3/8/2Q3PP/3R3K b - - 0 1",
+  "solution": [
+    "Rxd1+",
+    "Qxd1",
+    "Nf2+",
+    "Kg1",
+    "Nxd1"
+  ],
+  "title": "Il Cavallo Mangia la Donna",
+  "setup": "Il re bianco siede in h1 dietro due pedoni, e la sua torre in d1 è difesa solo dalla donna.",
+  "hint": "Non c'è ancora nessuna forchetta. Chiedetevi quale pezzo bianco potete costringere sulla casa dove comparirebbe una forchetta.",
+  "explanation": "## L'idea\n\nLa casa di forchetta del vostro cavallo è f2, che colpisce h1 e d1, ma la donna in c2 la difende, quindi il balzo immediato perde e basta il cavallo. {{Rxd1+}} è scacco, e {{Qxd1}} è forzata, quindi adesso la donna sta su uno dei bersagli della forchetta. {{Nf2+}}, {{Kg1}} è forzata, e {{Nxd1}} vince la donna: eravate sotto di una donna, e adesso il materiale è pari.\n\nQuando la casa di una forchetta è difesa, trascinate la guardia su uno dei bersagli della forchetta."
+}

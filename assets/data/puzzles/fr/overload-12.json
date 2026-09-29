@@ -1,0 +1,14 @@
+{
+  "id": "overload-12",
+  "fen": "7k/4Rppp/3n4/5Qr1/8/4N3/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qc8+",
+    "Nxc8",
+    "Re8#"
+  ],
+  "rating": 1650,
+  "title": "Envoyez le gardien ailleurs",
+  "setup": "Le cavalier noir en d6 couvre à la fois c8 et e8, et votre tour se tient déjà sur la septième rangée.",
+  "hint": "Une pièce noire tient deux cases. Attaquez celle que vous ne voulez pas vraiment.",
+  "explanation": "## L'idée\n\n{{Qc8+}} n'est pas la case du mat — c'est l'appât. Les deux coups de cavalier perdent, et {{Nxc8}} prend au moins quelque chose et le cavalier abandonne e8, donc {{Re8#}} tombe. Offrez au défenseur la tâche qu'il peut accomplir, et il échouera à celle qu'il ne peut pas accomplir."
+}

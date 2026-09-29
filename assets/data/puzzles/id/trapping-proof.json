@@ -1,0 +1,11 @@
+{
+  "id": "trapping-proof",
+  "fen": "2kr4/Bpp2ppp/3b1n2/4p3/8/5N2/PPP2PPP/4R1K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "title": "Gajah yang Terdampar di a7",
+  "setup": "Gajah Putih baru saja mengambil sebuah pion dan kini duduk di a7. Tampaknya aman: tak ada milik Anda yang menyerangnya. Temukan langkah yang memastikan ia tak pernah pergi.",
+  "hint": "Hitung petak-petak gajah. Satu-satunya jalan pulangnya kembali menyusuri satu diagonal, dan sebuah pion Anda bisa berdiri di jalan itu, terlindungi.",
+  "explanation": "## Ide\n\n{{b6}} menutup satu-satunya jalan pulang. Gajah di a7 tinggal punya dua petak: b8, yang dikuasai raja Anda di c8, dan b6, tempat pion dijaga pion di c7.\n\nBelum ada yang menyerang gajah, dan memang tak perlu. Raja Anda berjalan ke b7 selanjutnya dan mengambilnya, dan paling banyak Putih hanya bisa mendapat kembali sebuah pion, dengan merelakan gajah di b6."
+}

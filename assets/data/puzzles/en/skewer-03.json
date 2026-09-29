@@ -1,0 +1,14 @@
+{
+  "id": "skewer-03",
+  "fen": "8/7p/4k3/1Q1p4/B2P3b/2P4q/8/K7 w - - 0 1",
+  "solution": [
+    "Qd7+",
+    "Kf6",
+    "Qxh3"
+  ],
+  "rating": 980,
+  "title": "Diagonal Firing Line",
+  "setup": "The black king on e6 and the black queen on h3 stand on the same diagonal, and it is completely empty.",
+  "hint": "Look for a check that lands on the diagonal the black queen is already standing on. What guards that square?",
+  "explanation": "## The Idea\n\nThe squares d7, e6, f5, g4 and h3 form one diagonal, king in front and queen at the far end. {{Qd7+}} steps onto it, and the bishop on **a4** covers d7 the instant the queen leaves b5, so the king cannot take. {{Kf6}}, then {{Qxh3}}."
+}

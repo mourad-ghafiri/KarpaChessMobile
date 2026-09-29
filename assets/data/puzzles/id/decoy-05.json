@@ -1,0 +1,14 @@
+{
+  "id": "decoy-05",
+  "fen": "6rk/pp4pp/8/8/8/q7/5PP1/3Q2KR w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Qh5#"
+  ],
+  "rating": 1310,
+  "title": "Buka Sudutnya",
+  "setup": "Raja Hitam bersembunyi di h8 di balik benteng dan pionnya sendiri, dengan hanya pion h7 di antaranya dan benteng Anda.",
+  "hint": "Raja sama sekali tak punya langkah sah. Penangkapan apa yang memaksanya ke satu-satunya petak yang bisa Anda jangkau?",
+  "explanation": "## Ide\n\n{{Rxh7+}} adalah benteng untuk pion, dan {{Kxh7}} satu-satunya langkah Hitam. Terseret ke h7, raja terjepit oleh benteng dan pionnya sendiri, dan {{Qh5#}} mendarat dari kejauhan. Bentengnya tak pernah menjadi sasaran. Petak h7-lah sasarannya."
+}

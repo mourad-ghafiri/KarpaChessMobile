@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-07",
+  "fen": "7R/2k5/8/1rPK4/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Rh7+"
+  ],
+  "rating": 1470,
+  "title": "De vuelta a la octava",
+  "setup": "El rey negro está dos casillas por delante del peón de c, sosteniendo c6 desde c7, y su torre lo ataca desde b5, así que todavía no se mueve nada.",
+  "hint": "El rey negro hace toda la defensa desde la casilla junto al peón. ¿Qué línea puedes quitarle?",
+  "explanation": "## La idea\n\nMientras el rey esté en c7, las Blancas no progresan. {{Rh7+}} lo lleva a la última fila y luego la torre domina la séptima, así que el rey nunca podrá volver junto al peón. {{Kb8}} {{Kd6}} y el rey blanco lleva el peón hasta coronar."
+}

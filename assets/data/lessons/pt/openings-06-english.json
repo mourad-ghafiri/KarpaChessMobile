@@ -1,0 +1,56 @@
+{
+  "id": "english",
+  "title": "A Abertura Inglesa",
+  "summary": "Uma siciliana com as cores trocadas, e um tempo na mão",
+  "proof": "openings-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Uma Siciliana ao Espelho",
+      "text": "A primeira jogada das brancas foi para a ala, e a resposta das pretas foi direita ao meio. Roda o tabuleiro: um peão em c4 à frente de um peão em e5 é uma siciliana com as cores trocadas.\n\nNuma siciliana a sério o peão c é das pretas, o lado que joga em segundo. Aqui a mesma estrutura está no tabuleiro com os papéis invertidos, e quem tem o peão c é quem jogou primeiro.\n\nUm tempo inteiro, do lado errado de uma defesa."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Lento de Propósito",
+      "text": "{{Nc3}} {{Nf6}} {{g3}}. Dois cavalos cá fora, e depois as brancas gastam uma jogada num peão que não captura nada nem ataca nada.\n\nAs pretas ficam com o espaço que lhes oferecem: {{d5}} reclama o meio, {{cxd5}} {{Nxd5}} limpa-o, e um cavalo preto acaba em d5 sem nenhum peão branco por perto.\n\nFoi isso que o tempo a mais pagou. O peão em g3 parecia a jogada mais lenta do tabuleiro, mas esvaziou uma casa, e essa casa está na diagonal que vai de h1 a a8."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 5",
+      "prompt": "Tira o bispo das casas claras para que olhe pela grande diagonal ao cavalo que as pretas acabaram de estacionar no meio.",
+      "targetSan": [
+        "Bg2"
+      ],
+      "hint": "Uma diagonal corre de canto a canto até a8, e uma jogada de peão já desimpediu o teu lado dela."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/8/3np3/8/2N3P1/PP1PPPBP/R1BQK1NR b KQkq - 1 5",
+      "title": "Um Bispo na Berma",
+      "text": "O bispo em g2 olha por todo o comprimento do tabuleiro, e a primeira coisa que encontra é o cavalo em d5. Nunca teve de atravessar o centro para lá chegar.\n\nUm bispo desenvolvido assim, para a casa que o peão do seu próprio cavalo deixou, é um **fianqueto**. Quem viaja é o peão e o bispo fica com a estrada atrás dele.\n\nUma peça, e a tese inteira das aberturas de flanco: segurar o meio sem lá estar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Perguntar Antes de Responder",
+      "text": "A outra razão por que esta jogada continua a aparecer no topo não tem nada a ver com diagonais. Botvinnik construiu um sistema sobre ela, e Kasparov e Carlsen guardaram-na os dois como arma principal.\n\nUm peão em d2 é um peão que ninguém consegue atingir. Várias das defesas mais agudas das pretas existem para atingir um peão branco assim que ele avança para d4, e nenhuma delas pode arrancar enquanto ele lá não for.\n\nPortanto as brancas perguntam primeiro. {{e6}} {{Nc3}} {{d5}}, e as pretas responderam: o meio tomado, o bispo de c8 fechado atrás dele."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "title": "A Conta da Espera",
+      "text": "Esperar não é grátis. Um peão em c4 não luta por d4 nem por e4, portanto um adversário que tome o meio e o guarde pode deixar esse peão de flanco a ver a partida da berma.\n\nO que a espera compra é informação, e a informação só rende se for gasta. Agora as pretas estão comprometidas: peões fixos em d5 e e6, o bispo de c8 encaixotado atrás deles, e nenhuma defesa aguda para onde mudar.\n\n> Uma abertura de flanco é uma abertura de centro que chega tarde de propósito."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq d6 0 3",
+      "prompt": "Toma o meio agora que o esquema das pretas está fixo, e leva a partida para um Gambito de Dama que as pretas já não conseguem evitar.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Um peão branco ficou em casa este tempo todo, e nada no campo preto está montado para o castigar se ele sair."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "uncastled-king",
+  "title": "Atacar o Rei Sem Roque",
+  "summary": "O rei continua em e8, e o relógio está a andar",
+  "proof": "uncastled-king-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "O Rei Que Nunca Saiu de e8",
+      "text": "O rei preto continua em e8 à quinta jogada, e isso não é desenvolvimento lento. É um alvo.\n\nO roque faz dois trabalhos numa jogada: arruma o rei atrás de três peões intocados e deixa as torres verem-se uma à outra. Um rei que o dispensa fica na coluna com mais movimento do tabuleiro, ao alcance das duas alas, com as suas próprias peças a tapar-lhe as saídas.\n\nPortanto isto é um prazo. As pretas estão a um par de jogadas da segurança, e cada jogada tua que não faça uma pergunta entrega-lhes uma dessas."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "A Cravada Que Tens Licença para Quebrar",
+      "text": "O bispo preto em g4 crava o teu cavalo de f3 contra a dama de d1, e um cavalo cravado é suposto ficar quieto. É com esse acordo que as pretas contam.\n\nAgora conta o outro extremo do tabuleiro. O teu bispo em c4 já olha para f7, e f7 é guardada exatamente por uma peça: o rei que nunca saiu. Um cavalo que chegasse ao centro olharia também para f7.\n\nUma cravada só segura enquanto a dama que está atrás valer mais do que aquilo que o cavalo consegue fazer."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "prompt": "O rei preto está preso em e8: aponta uma segunda peça a f7 mesmo que isso te custe a dama.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "Pergunta o que o cavalo cravado pode capturar no centro e depois conta o que apontaria a f7 assim que ele lá aterrasse."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "A Dama Era o Isco",
+      "text": "Uma dama é uma dama, portanto as pretas cobram: {{Bxd1}}, e a tua foi-se por um cavalo.\n\nAgora f7. {{Bxf7+}} é xeque, e as pretas têm exatamente uma resposta legal no tabuleiro, {{Ke7}}, porque essa casa era guardada pelo rei e por mais nada. O rei é arrastado para a coluna e aberta com o exército preto todo ainda em casa, e {{Nd5#}} encerra o assunto.\n\nAs pretas ganharam uma dama e levaram mate duas jogadas depois."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "Quanto Custa Recusar",
+      "text": "Supõe que as pretas cheiram o mate e comem antes o cavalo: {{dxe5}}. A dama de d1 sobrevive, e com ela morre a cravada. Atrás do bispo de g4 já não há senão casas vazias, e {{Qxg4}} apanha-o.\n\nAs brancas deram um cavalo e ficaram com um bispo e um peão. Um sacrifício que dá mate se for aceite e ganha material se for recusado não é uma aposta. É simplesmente a jogada."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "Duas Peças à Porta",
+      "text": "Outra abertura, a mesma doença. A dama branca em e2 e o rei preto em e8 estão na mesma coluna, e há duas peças encravadas entre eles: o cavalo preto em e4 e o cavalo branco em e5.\n\nSó um desses tampões é das pretas, e é o que está a fazer o trabalho. Enquanto o cavalo de e4 lá estiver, o cavalo branco pode ir para onde quiser e nada o segue pela coluna.\n\nEsse cavalo preto está também atacado pela dama, e nada das pretas o defende."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "O Cavalo Volta para Casa",
+      "text": "{{Nf6}} é a jogada que quase toda a gente faz. O cavalo sai do ataque, guarda a ala do rei, e as pretas ficam a duas jogadas do roque.\n\nSó que esvazia e4. A última coisa entre a dama branca e o rei preto passa a ser um cavalo branco, e uma peça tua nesse sítio não está a tapar uma linha. Está carregada. Para a casa que escolher, o xeque chega atrás dela.\n\n> Antes de desenvolveres uma peça, olha por todas as linhas que apontam ao rei inimigo e pergunta o que a tua própria peça poderia fazer ao sair de uma delas."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/5n2/4N3/8/8/PPPPQPPP/RNB1KB1R w KQkq - 2 5",
+      "prompt": "Tira o cavalo da coluna e para o xeque chegar atrás dele, e aterra onde te ganha a dama preta.",
+      "targetSan": [
+        "Nc6+"
+      ],
+      "hint": "O xeque chega para onde quer que o cavalo vá, portanto a única pergunta que resta é que peça preta o cavalo consegue atingir à chegada."
+    }
+  ]
+}

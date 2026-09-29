@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-19",
+  "fen": "Q7/5Bpk/7p/8/8/8/8/7K w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "Fil Veziri Destekliyor",
+  "setup": "Siyahın şahı h7'de, kendi g7 ve h6 piyonlarının arasına sıkışmış ve f7'deki filiniz yakınında.",
+  "hint": "Filiniz şahın yanındaki bir kareyi dost toprağa çeviriyor — vezir orada durmayı göze alabilir.",
+  "explanation": "## Fikir\n\nf7'deki fil g8'i korunan bir kareye çevirir, böylece vezir şahın yanına oraya inebilir.\n\n{{Qg8#}} yandaki kareden şah çeker. Fil g8'i koruduğu için şah veziri alamaz. h8'i vezir, g6'yı fil kapsar ve g7 ile h6'da siyahın kendi piyonları durur.\n\nVeziriniz ile filiniz birlikte şahın mahallesine ulaştığında, onun tam yanındaki korunan kareyi arayın."
+}

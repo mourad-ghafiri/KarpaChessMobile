@@ -1,0 +1,50 @@
+{
+  "id": "italian-game",
+  "title": "A Abertura Italiana",
+  "summary": "Dois bispos, uma longa discussão sobre d4",
+  "proof": "openings-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Dois Bispos, Uma Casa",
+      "text": "O teu bispo em c4 e o bispo preto em c5 são imagens espelhadas um do outro, e cada um fita a casa que no campo contrário só um rei defende: f7 para ti, f2 para as pretas.\n\nÉ por isso que os dois bispos escolheram estas diagonais. E é também por isso que aqui não acontece nada. Um atacante contra um defensor não ganha nada, e o segundo atacante está a várias jogadas de distância dos dois lados.\n\nPor isso os bispos instalam-se e esperam, e a partida vai à procura de alguma coisa por que discutir."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Por Que É Que Discutem",
+      "text": "Encontra-a em d4. Faz aterrar lá um peão e fica com ele, e o bispo preto é atingido na diagonal em que acabou de se instalar, enquanto os teus peões tomam o meio do tabuleiro.\n\nAvança já e não recebes nada disso. {{d4}} {{exd4}} e o peão que avançaste já desapareceu; {{Nxd4}} põe antes uma peça na casa, e o cavalo de c6 está a olhar diretamente para ela.\n\nUm peão segura d4. Uma peça só a visita."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Joga a jogada tranquila que deixará um peão, e não uma peça, recapturar em d4 quando o avanço finalmente chegar.",
+      "targetSan": [
+        "c3"
+      ],
+      "hint": "Qual dos teus peões pode dar um passo e acabar a guardar a casa que o teu peão d quer ocupar?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "A Italiana Lenta",
+      "text": "Três jogadas depois, e ninguém tocou em ninguém. Tens peões em c3 e d3, as pretas têm o cavalo em f6 e um peão em d6, e os dois reis estão arrumados nos seus cantos.\n\nNada está atacado. Nada está sequer ameaçado. Os dois lados acabaram a abertura dentro do prazo, o que deixa a partida inteira por inventar.\n\nÉ nesta versão que a maior parte das italianas se transforma, e decide-se pela preparação e não por um ataque a f7."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "Ainda Não",
+      "text": "Podias abrir o centro neste preciso instante. Conta o que o recebe: {{d4}} {{exd4}} {{cxd4}} e o bispo recua com {{Bb6}}, onde volta a apoiar-se em d4 com o cavalo de c6 ao seu lado.\n\nDuas peças pretas já se apoiam no peão que acabaste de construir, e as tuas estão presas a segurá-lo. A rutura não está errada, está cedo.\n\nPortanto as jogadas de espera gastam-se a juntar peso. Aqui todas as peças brancas têm trabalho menos uma, e o peão de c3 está precisamente na casa que essa peça devia usar.\n\n> A italiana decide-se por quem está pronto quando d4 finalmente aterra."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "prompt": "Tira a última peça da casa de partida, em direção ao centro e à ala do rei, onde está o resto do teu exército.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "Tem exatamente duas casas disponíveis: uma na berma, sem futuro, e outra no meio, que mais tarde pode continuar caminho."
+    }
+  ]
+}

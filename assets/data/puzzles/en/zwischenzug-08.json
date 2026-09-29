@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-08",
+  "fen": "7k/4bppp/r5R1/1Q4B1/8/8/PP2r3/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Bf8",
+    "Qxf8#"
+  ],
+  "rating": 1560,
+  "title": "Offer It to the Bishop",
+  "setup": "Your queen on b5 and rook on g6 are aimed at a king with a bishop on e7 for company.",
+  "hint": "The bishop can only block on one square. Pick the check that makes it choose that square.",
+  "explanation": "## The Idea\n\n{{Qe8+}} forces {{Bf8}} — the bishop cannot take and the king cannot move. {{Qxf8#}} follows: the queen covers g8, and g7 and h7 hold Black's own pawns. The check is not the mate; it is what arranges the mate."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "strategy-02",
+  "fen": "rn1q1rk1/4bppp/p2pbn2/4p3/Pp2P3/1NN1B3/1PPQBPPP/R4RK1 w - - 0 12",
+  "solution": [
+    "Nd5"
+  ],
+  "title": "Deliğe Doğru Kovuldu",
+  "setup": "Siyahın b4'teki piyonu az önce c3'teki atınıza vurdu. Atın bir yere gitmesi gerekiyor ve e4'teki piyonunuz izliyor.",
+  "hint": "Her geri çekiliş e4'ü f6'daki ata bırakır. Hiçbir siyah piyonun asla ulaşamayacağı ileri bir kare var mı?",
+  "explanation": "## Fikir\n\nAt kovuldu ve cevabı içeri yerleşmek oluyor. Siyahın c piyonu yok ve e piyonu e5'e yürümüş; yani hiçbir siyah piyon d5'e bir daha saldıramaz.\n\n{{Nd5}} e7'deki file ve f6'daki ata vurur ve e4'ü güvende tutar. Her geri çekiliş o piyonu f6'daki ata teslim eder.\n\nSiyah atı ancak karşılığında bir taş vererek kaldırabilir ve o zaman da kareyi bir beyaz piyon alır."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "deflection-09",
+  "fen": "4r1k1/pp1q2pp/6pQ/8/8/8/1B4PP/4RRK1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxg7#"
+  ],
+  "rating": 1410,
+  "title": "Keluar dari Baris Ketujuh",
+  "setup": "Menteri dan gajah sudah membidik g7, dan hanya menteri di d7 yang melindunginya di sepanjang baris.",
+  "hint": "Hitung penyerang dan pembela g7, lalu temukan sekak yang mengurangi pembelanya satu.",
+  "explanation": "## Ide\n\n{{Rxe8+}} adalah sekak, dan {{Qxe8}} satu-satunya balasan Hitam — yang membawa menteri keluar dari baris ketujuh. {{Qxg7#}} menyusul, ditahan di tempatnya oleh gajah di b2. Benteng dikorbankan agar penyerang lebih banyak satu daripada pembela."
+}

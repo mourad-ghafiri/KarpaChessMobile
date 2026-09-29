@@ -1,0 +1,11 @@
+{
+  "id": "openings-14",
+  "fen": "rnbqkb1r/5ppp/p2ppn2/8/Np1NPP2/1B6/PPP3PP/R1BQK2R b KQk - 1 9",
+  "solution": [
+    "Nxe4"
+  ],
+  "title": "Atın Geride Bıraktığı Piyon",
+  "setup": "Najdorf piyonları işini gördü: ...a6 ve ...b5-b4 az önce beyazın atını a4'e sürdü. O atın koruduğu şeyi toplayın.",
+  "hint": "Bir at az önce merkezden kenara gitti. Gittiğinde hangi beyaz piyonun son koruyucusunu kaybettiğini sorun.",
+  "explanation": "## Fikir\n\na4'e kovalanan at, e4'ü koruyan tek beyaz taştı. Vezir kanadı piyonlarını onun üstüne sürmek de o kareyle ilgiliydi.\n\n{{Nxe4}} piyonu alır. Beyaz karşılığında biraz oyun bulur, ama piyon siyahındır. Uzun çaprazı gözleyin: {{Qf3}} ata vurur ve a8'deki kale arkasına dizilir; {{Bb7}} ya da {{d5}} o çaprazı kapatır, {{Nc5}} ise kaleyi düşürür.\n\nKanat piyonu sürüşü çoğu zaman merkezdeki bir taşa sorulmuş bir sorudur."
+}

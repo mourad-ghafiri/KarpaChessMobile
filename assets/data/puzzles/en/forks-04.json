@@ -1,0 +1,11 @@
+{
+  "id": "forks-04",
+  "fen": "8/p3k1pp/1r6/8/8/2N5/PP4PP/6K1 w - - 0 1",
+  "solution": [
+    "Nd5+"
+  ],
+  "title": "Check First, Then Collect",
+  "setup": "Black's rook on b6 has no defender, and the black king stands in the middle of the board.",
+  "hint": "Find a knight jump that gives check and attacks something else at the same time.",
+  "explanation": "## The Idea\n\n{{Nd5+}} checks the king on e7 and attacks the rook on b6 in one jump. Nothing black can take the knight on d5, and the king has to answer the check first, so after it moves, {{Nxb6}} wins the rook.\n\nA knight fork is strongest when one of the two targets is the king: the check takes away Black's chance to save the other piece."
+}

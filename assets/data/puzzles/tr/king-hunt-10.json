@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-10",
+  "fen": "3r4/2B5/8/1R4p1/3R4/K1Qb4/6k1/8 w - - 0 1",
+  "solution": [
+    "Rb2+",
+    "Kg1",
+    "Rg4+",
+    "Kf1",
+    "Qc1#"
+  ],
+  "rating": 1660,
+  "title": "İki Kale, İki Yön",
+  "setup": "Siyahın şahı g2'de boşta duruyor; d3'te bir fili vezirinizin yanında ve d8'de bir kalesi bekliyor.",
+  "hint": "Hiçbir kale tek başına mat etmez. Her birinin ötekinin alamayacağı bir kareyi aldığı sırayı bulun.",
+  "explanation": "## Fikir\n\n{{Rb2+}} ikinci yatayı, {{Rg4+}} g dikeyini alır ve ikisi de gittiğinde {{Qc1#}} birinci yatay boyunca mat eder. Kaleler, birbirine dik hatları kapsayarak çiftler hâlinde avlanır."
+}

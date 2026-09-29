@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-05",
+  "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/8/2Q2N2/PqP1PPPP/RN2KB1R b KQk - 0 8",
+  "solution": [
+    "Qc1#"
+  ],
+  "rating": 720,
+  "title": "A Rank With No Room",
+  "setup": "Your queen has already burrowed to b2, and White's back rank is jammed with its own pieces.",
+  "hint": "The white king has two holes beside it and no third, so look for a check its crowded first rank cannot answer.",
+  "explanation": "## The Idea\n\nEvery square around e1 is either taken by White's own pieces or swept by the queen as it lands, so a safe check on the first rank ends the game. {{Qc1#}} cannot be captured: the knight on b1 shuts the rook out, and the pawn on c2 blocks the white queen."
+}

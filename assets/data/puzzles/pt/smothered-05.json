@@ -1,0 +1,12 @@
+{
+  "id": "smothered-05",
+  "fen": "6rk/pp4pn/8/4N3/2b5/8/P4PPP/3R2K1 w - - 4 23",
+  "solution": [
+    "Ng6#"
+  ],
+  "rating": 1275,
+  "title": "Sem Peão em h7",
+  "setup": "As pretas acabaram de recuar o cavalo para h7, e o bispo de c4 continua a guardar a casa f7.",
+  "hint": "Há algo que não é um peão em cima de h7 — pergunta o que isso muda nas casas ao lado.",
+  "explanation": "## A Ideia\n\nUm cavalo em g6 é normalmente comido pelo peão h. Aqui h7 tem um cavalo, que não guarda nada ao lado, portanto {{Ng6#}} é intocável e g8, g7 e h7 estão todas preenchidas pelas próprias peças das pretas. A casa habitual do sufoco, f7, está coberta pelo bispo de c4."
+}

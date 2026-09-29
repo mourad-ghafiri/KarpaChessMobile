@@ -1,0 +1,11 @@
+{
+  "id": "strategy-04",
+  "fen": "r1bq1rk1/ppp2p2/2np1n1p/1B2p1p1/1b2P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "Due Mattoni Mancanti",
+  "setup": "Il Nero ha spinto due pedoni per inseguire il vostro alfiere, e il re in g8 abita dietro di loro. L'alfiere in h4 è attaccato.",
+  "hint": "Il pedone in g5 ha un difensore. Una ritirata è sicura; contate quanto vale quel riparo prima di giocarla.",
+  "explanation": "## L'idea\n\nI pedoni in h6 e g5 erano la facciata del riparo del re nero, e nessuno dei due può tornare indietro. {{Nxg5}} dà un cavallo per loro.\n\nSe il Nero prende, l'alfiere riprende in g5, inchioda il cavallo di f6 contro la donna, e il re resta nudo. Il Nero fa meglio a cedere l'alfiere di b4 per il vostro cavallo di c3, e il Bianco ne esce comunque avanti. Una ritirata in g3 avrebbe lasciato al Nero tutto quanto."
+}

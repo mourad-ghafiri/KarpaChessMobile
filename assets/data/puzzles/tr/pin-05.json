@@ -1,0 +1,12 @@
+{
+  "id": "pin-05",
+  "fen": "8/B1kb3R/p3r3/p7/3P4/4R3/1r4PK/8 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 960,
+  "title": "Koruduğu Şeyi Alın",
+  "setup": "h7'deki kaleniz bütün yedinci yatayı, siyahın filinin içinden geçerek c7'deki şaha kadar tarıyor.",
+  "hint": "e6'daki kalenin tek koruyucusu var. Yedinci yatay boyunca bakın ve o koruyucunun ayrılmasına izin olup olmadığını sorun.",
+  "explanation": "## Fikir\n\n{{Rxe6}} öylece bir kale kazanır. **d7**'deki fil tek koruyucudur ve **h7**'deki kaleniz onu yedinci yatay boyunca **c7**'deki şaha karşı açmaza alır. e6'da taş almak şahı açığa çıkarırdı, yani fil cevap veremez."
+}

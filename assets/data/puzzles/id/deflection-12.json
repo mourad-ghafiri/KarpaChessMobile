@@ -1,0 +1,14 @@
+{
+  "id": "deflection-12",
+  "fen": "2kr3r/pp3ppp/2n5/8/Q1B2B1q/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "rating": 1500,
+  "title": "Dua Gajah Boden",
+  "setup": "Dua gajah memotong melintasi sayap menteri, dan pion b7 satu-satunya yang menjaga diagonal a6-c8 tetap tertutup.",
+  "hint": "Kedua gajah sudah mengarah ke sudut itu. Pion mana yang menghalangi, dan bagaimana Anda membuatnya bergerak?",
+  "explanation": "## Ide\n\nInilah **mat Boden**. {{Qxc6+}} hanya punya satu jawaban, {{bxc6}}, dan pion b7 keluar dari diagonal a6-c8. {{Ba6#}} tiba: gajah yang lain menguasai b8 dan c7, dan benteng Hitam sendiri menghalangi d8."
+}

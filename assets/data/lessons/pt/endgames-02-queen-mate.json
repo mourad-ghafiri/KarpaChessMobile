@@ -1,0 +1,51 @@
+{
+  "id": "queen-mate",
+  "title": "Rei e Dama contra Rei",
+  "summary": "O mate na berma, e o afogamento que rouba a vitória",
+  "proof": "endgames-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Onde Morre um Rei Nu",
+      "text": "Uma dama nunca dá mate a um rei solitário no meio do tabuleiro. Lá fora o rei tem sempre para onde fugir. Só fica sem casas numa berma, e o rei preto já está numa.\n\nConta o que resta. O rei branco em f5 tira g5 e g6. A dama em d4 é dona da diagonal que passa por e5 e f6 até g7, portanto essa casa também desapareceu.\n\nÀs pretas ficam h5 e h7. Duas casas da coluna h, as duas contra a parede, e mais nada em todo o tabuleiro."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Três Tarefas, por Ordem",
+      "text": "Esse retrato é o destino a partir de qualquer posição, e constrói-se em três partes.\n\nA dama vai tirando linhas até o rei nu andar numa faixa estreita ao longo de uma berma. Depois o teu rei sobe atrás dele, porque a dama não acaba sozinha — uma dama ao lado de um rei sem nada a guardá-la é simplesmente capturada. Só então a dama entrega o mate, numa linha de que o rei não pode sair.\n\nDuas das três já estão feitas aqui. {{Kh5}}, e as pretas escolheram contra que ponta da parede ficam."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/5K1k/3Q4/8/8/8 w - - 9 6",
+      "prompt": "O teu rei já cobre as casas de fuga: acaba com isto com uma jogada de dama a que as pretas não possam responder.",
+      "targetSan": [
+        "Qh8#"
+      ],
+      "hint": "O rei preto está encostado ao lado do tabuleiro — encontra a linha em que ele está e toma-a inteira."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "O Empate Escondido na Jaula",
+      "text": "Tabuleiro novo, a uma jogada do fim. Ao rei preto em h8 resta uma única casa, g8: o teu rei em g6 já cobre g7 e h7, e as pretas não estão em xeque.\n\nPortanto apertar a jaula mais um furo deita a vitória fora. {{Qd5}} parece técnica limpa — a dama apanha g8 pela diagonal, todas as casas à volta do rei estão cobertas, nada está pendurado.\n\nÉ afogamento. As pretas não têm jogada legal e não têm xeque a que responder, e uma partida com uma dama a mais no tabuleiro fica empatada."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "Conta Antes de Apertares",
+      "text": "Neste final não corre mal nada de exótico. O que corre mal é o jogo arrumadinho — mais uma casa tirada, em silêncio, a um rei que tinha uma casa.\n\nPortanto, antes de cada jogada de dama aqui, conta em que é que o rei nu pode estar. Se a resposta for uma, a tua jogada tem de chegar com xeque, ou tem de deixar a esse rei algum sítio para onde ir.\n\n> Uma jaula sem porta é um empate. Encolhe-a à vontade, mas nunca até zero sem xeque."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "prompt": "Mate em uma: duas jogadas de dama diferentes fazem-no, e todos os outros apertos são empate.",
+      "targetSan": [
+        "Qa8#",
+        "Qd8#"
+      ],
+      "hint": "Que jogadas de dama tiram g8 e dão xeque nessa mesmíssima jogada?"
+    }
+  ]
+}

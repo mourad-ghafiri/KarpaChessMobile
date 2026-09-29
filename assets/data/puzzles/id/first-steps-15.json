@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-15",
+  "fen": "1k6/1b6/8/2b5/8/6p1/R7/7K w - - 0 1",
+  "solution": [
+    "Rg2"
+  ],
+  "title": "Tutup Jendelanya",
+  "setup": "Gajah di **b7** memberi sekak kepada raja Anda di sepanjang diagonal terpanjang di papan.",
+  "hint": "Raja Anda tak punya petak aman — g1 dan h2 sama-sama dikuasai. Bisakah benteng Anda melangkah ke diagonal itu?",
+  "explanation": "## Ide\n\nGajah di b7 memberi sekak di sepanjang seluruh diagonal panjang menuju raja Anda di h1. Jalan keluarnya tertutup: gajah di c5 menguasai g1, dan pion di g3 menguasai h2.\n\nSekak diagonal tetaplah sekak di sepanjang garis, dan garis bisa dihalangi. {{Rg2}} meluncur di sepanjang baris kedua ke jalan gajah. Jika {{Bxg2+}} menyusul, {{Kxg2}} menangkap balik.\n\nBenteng tak bisa bergerak secara diagonal, tetapi ia bisa berdiri di sebuah diagonal."
+}

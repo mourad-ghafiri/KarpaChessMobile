@@ -1,0 +1,59 @@
+{
+  "id": "king-safety",
+  "title": "Keamanan Raja",
+  "summary": "Rokade sebelum pintu-pintu terbuka, lalu biarkan temboknya utuh",
+  "proof": "strategy-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "Raja yang Tinggal di Rumah",
+      "text": "Pion d Putih sudah hilang, dan seekor gajah berdiri di d2 menggantikannya. Raja di e1 tak punya pion sendiri di lajur di sampingnya.\n\nHitam sudah menjawab pertanyaan ini beberapa langkah lalu: raja di g8, tiga pion utuh di depannya.\n\nPutih hanya ditawari satu rokade. Benteng di h1 terkurung di belakang gajah di f1 dan kuda di g1, jadi sayap raja tertutup. Sayap menteri tidak — menteri, kuda dan gajah semuanya sudah meninggalkan ujung baris belakang itu."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "Harga Menunggu",
+      "text": "Belum ada yang salah. Itulah yang membuatnya mudah ditunda.\n\nKembangkan buah dengan tenang lewat {{Nf3}}, biarkan Hitam membawa benteng dengan {{Re8}}, tambahkan {{Bd3}}, dan {{d5}} membuka pusat dengan raja masih berdiri di e1. Hitam tak butuh apa pun yang cerdik untuk sampai ke sana, hanya langkah-langkah biasa.\n\nSetiap garis yang terbuka mulai sekarang terbuka ke arah Putih, dan menjawab masing-masing menghabiskan satu langkah yang semula dimaksudkan untuk hal lain."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "prompt": "Amankan raja Anda di sayap yang sudah ditinggalkan buah-buah Anda, dan bawa benteng ke lajur setengah terbuka pada langkah yang sama.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "Tiga buah sudah meninggalkan satu sisi baris belakang Anda — hitung petak kosong di antara raja Anda dan masing-masing benteng."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "Tembok yang Tak Bisa Dibangun Ulang",
+      "text": "Hitam mengejar gajah dengan dua langkah pion dan melepas dua batu bata dari perlindungan di sekitar raja di g8. Pion di h6 dan pion di g5 dulu bagian dari tembok itu, dan pion di g5 sedang menyerang gajah di h4 sekarang.\n\nTiga pion Putih masih duduk di f2, g2 dan h2, persis di tempat rokade meninggalkannya. Hitam tak bisa mengembalikan kedua pion itu, karena pion tak pernah bergerak mundur, dan itulah seluruh perbedaan antara kedua raja ini.\n\n> Gerakkan satu pion di depan raja Anda bila terpaksa. Jangan pernah dua."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "Di Mana Harus Mengetuk",
+      "text": "Pion di g5 hanya punya satu pembela, pion di h6. Di belakangnya raja punya satu penjaga lagi, kuda di f6.\n\nJawaban wajar terhadap gajah yang diserang adalah memundurkannya. Perlindungan Hitam lalu tetap tipis, tetapi tetap ada.\n\nAda jawaban yang lebih keras. Perlindungan setipis ini bisa dibeli, dan Putih punya buah untuk membayarnya. Hitung harganya dalam pion dan hadiahnya dalam garis terbuka, lalu putuskan."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "prompt": "Jawab serangan terhadap gajah Anda dengan membongkar perlindungannya, meskipun itu mengorbankan sebuah buah.",
+      "targetSan": [
+        "Nxg5"
+      ],
+      "hint": "Tangkap di g5 lebih dulu dengan buah yang paling sanggup Anda relakan, agar gajah yang mengucapkan kata terakhir."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n2/2b1p1p1/2B1P2B/2NP4/PPP2PPP/R2Q1RK1 w - - 0 10",
+      "prompt": "Hitam telah mengambil kuda; tangkap balik sehingga kuda Hitam di f6 terjepit terhadap menteri.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "Hitung apa yang kini berdiri di antara gajah Anda di h4 dan menteri Hitam di d8."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-04",
+  "fen": "5B2/5k2/7r/8/2R3p1/R5K1/b7/6Q1 w - - 0 1",
+  "solution": [
+    "Qa7+",
+    "Ke6",
+    "Ra6+",
+    "Kd5",
+    "Qd4#"
+  ],
+  "rating": 1455,
+  "title": "Duas Torres em Duas Linhas",
+  "setup": "O rei preto está em f7 com uma torre em h6 e um bispo em a2, e as tuas torres comandam a terceira e a quarta linhas.",
+  "hint": "As únicas casas seguras do rei estão à frente dele. Descobre onde ele acaba depois de dois xeques e põe lá uma peça primeiro.",
+  "explanation": "## A Ideia\n\n{{Qa7+}} empurra-o para e6, {{Ra6+}} para d5, e {{Qd4#}} está à espera. As torres nunca capturam nada — existem para tirar linhas, e a dama recolhe."
+}

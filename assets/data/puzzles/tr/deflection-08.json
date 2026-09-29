@@ -1,0 +1,14 @@
+{
+  "id": "deflection-08",
+  "fen": "2r3k1/pq4pp/6pQ/6N1/8/8/1B3PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Qxg7#"
+  ],
+  "rating": 1380,
+  "title": "Mat İçin Kale",
+  "setup": "Veziriniz ile filiniz g7'ye vuruyor ve b7'deki vezir onun tek fazladan koruyucusu.",
+  "hint": "Kale mattan ucuzdur. Hangi şah, g7'yi koruyan tek taşı başka yöne baktırır?",
+  "explanation": "## Fikir\n\n{{Rxc8+}} hamlesine {{Qxc8}} ile karşılık verilmek zorundadır ve bu, veziri yedinci yataydan çeker. {{Qxg7#}} arkasındaki b2 filiyle işi bitirir. Kale hiçbir zaman mesele değildi. Mat varken taşı değil, karenin koruyucularını sayın."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "remove-guard-11",
+  "fen": "1rn3k1/p4ppp/6q1/3N4/8/8/5PPP/2R2QK1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Rxc8",
+    "Ne7+"
+  ],
+  "rating": 1420,
+  "title": "Liberta a Casa do Garfo",
+  "setup": "O teu cavalo adorava e7, onde atinge o rei e a dama ao mesmo tempo, mas o cavalo de c8 cobre essa casa.",
+  "hint": "Encontra a casa de onde o teu cavalo atingiria duas peças e pergunta depois quem a guarda.",
+  "explanation": "## A Ideia\n\n{{Rxc8+}} come a peça que cobre e7, e {{Rxc8}} recaptura numa casa que não a cobre. {{Ne7+}} garfa o rei e a dama; depois de o rei se afastar, {{Nxg6}} ganha a dama por uma torre."
+}

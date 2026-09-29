@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-05",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "La Marcia della Torre Solitaria",
+  "setup": "Il re nero in g8 sta ancora dietro tre pedoni immobili, e la vostra torre in b1 ha una colonna vuota davanti.",
+  "hint": "Contate le case che il re nero può raggiungere, poi trovate la traversa che non può lasciare.",
+  "explanation": "## L'idea\n\nNessun sacrificio e nessun cambio: la torre entra e basta. {{Rb8#}} dà scacco lungo l'ottava traversa. I pedoni in f7, g7 e h7 si prendono ogni casa davanti al re, e la torre copre f8 e h8. Niente del Nero può parare la traversa o prendere la torre.\n\nTre pedoni immobili davanti a un re sono un muro finché la traversa di fondo non si svuota. Poi sono la ragione per cui è matto."
+}

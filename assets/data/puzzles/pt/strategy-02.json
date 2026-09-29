@@ -1,0 +1,11 @@
+{
+  "id": "strategy-02",
+  "fen": "rn1q1rk1/4bppp/p2pbn2/4p3/Pp2P3/1NN1B3/1PPQBPPP/R4RK1 w - - 0 12",
+  "solution": [
+    "Nd5"
+  ],
+  "title": "Enxotado para Dentro do Buraco",
+  "setup": "O peão preto em b4 acabou de atingir o teu cavalo de c3. O cavalo tem de ir para algum lado, e o teu peão de e4 está a ver.",
+  "hint": "Todas as retiradas deixam e4 ao cavalo de f6. Haverá uma casa em frente a que nenhum peão preto poderá alguma vez chegar?",
+  "explanation": "## A Ideia\n\nO cavalo foi enxotado, e responde entrando. As pretas não têm peão c e o peão e caminhou até e5, portanto nenhum peão preto poderá voltar a atacar d5.\n\n{{Nd5}} atinge o bispo de e7 e o cavalo de f6, e mantém e4 segura. Todas as retiradas entregam esse peão ao cavalo de f6.\n\nAs pretas só conseguem tirar o cavalo dando-lhe uma peça em troca, e então a casa fica para um peão branco."
+}

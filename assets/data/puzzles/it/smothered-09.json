@@ -1,0 +1,14 @@
+{
+  "id": "smothered-09",
+  "fen": "k2r3r/pp3ppp/N7/4Q3/8/8/5PPP/6K1 w - - 5 27",
+  "solution": [
+    "Qb8+",
+    "Rxb8",
+    "Nc7#"
+  ],
+  "rating": 1405,
+  "title": "Sacrificio in b8",
+  "setup": "Il re nero è appena fuggito nell'angolo per sottrarsi allo scacco del cavallo, con i propri pedoni in a7 e b7.",
+  "hint": "Il cavallo in a6 difende già b8 — che cosa permette questo a una donna su una casa proprio accanto al re?",
+  "explanation": "## L'idea\n\n{{Qb8+}} è immune, perché il cavallo in a6 difende b8, quindi {{Rxb8}} è l'unica mossa sulla scacchiera e l'angolo è sigillato dalla torre stessa del Nero. {{Nc7#}} dà poi scacco da una casa che nessun pezzo nero sorveglia. Lo stesso sacrificio funziona in tutti e due gli angoli."
+}

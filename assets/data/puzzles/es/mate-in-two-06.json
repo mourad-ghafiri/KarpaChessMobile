@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-06",
+  "fen": "1b4k1/1pp5/1Q6/3P4/8/B7/6PP/4K3 w - - 0 1",
+  "solution": [
+    "Qg6+",
+    "Kh8",
+    "Bb2#"
+  ],
+  "rating": 1150,
+  "title": "Remate por la gran diagonal",
+  "setup": "El rey negro está en g8, y una gran diagonal completamente vacía va de a1 a la esquina de al lado.",
+  "hint": "Primero empuja al rey a la casilla donde una sola diagonal lo decide todo. ¿Qué diagonal es?",
+  "explanation": "## La idea\n\n{{Qg6+}} lleva al rey a la esquina, y {{Kh8}} es forzada. La diagonal a1–h8 está completamente vacía, así que {{Bb2#}} llega con jaque mientras la dama cubre g7, g8 y h7. El alfil de b8 está encerrado por su propio peón."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "passed-pawns",
+  "title": "I Pedoni Passati",
+  "summary": "Disegnate il quadrato prima di spingere",
+  "proof": "endgame-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Niente sulla Sua Strada",
+      "text": "Il vostro pedone in e5 ha davanti una scacchiera vuota. Nessun pedone nero sta sulla colonna e, e nessuno nemmeno sulla d o sulla f, quindi non si potrà mai spingere niente sul suo cammino e niente potrà mai difendere le case che deve attraversare.\n\nQuesto è un **pedone passato**: un pedone senza nessun pedone avversario davanti sulla propria colonna né su una delle due colonne accanto.\n\nGli resta un lavoro solo, ed esattamente un pezzo sulla scacchiera può discuterne. Il re bianco in d1 è lontanissimo, e questo non cambia niente."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Disegnate il Quadrato",
+      "text": "Quindi l'unica domanda è se il re nero riesce ad arrivarci in tempo, e quella domanda ha una risposta esatta.\n\nDisegnate un quadrato con il pedone in e5 a un angolo e la sua casa di promozione e8 all'altro: e5, h5, h8, e8. Un re dentro quel quadrato, o capace di entrarci al proprio turno, prende il pedone. Un re fuori non ci riesce mai, per quanto corra.\n\nIl re nero in h4 è una traversa sotto il bordo inferiore. Tre mosse portano il pedone in e8; a quel re ne servono quattro."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "prompt": "Decidete se quel re può prendere il pedone, poi giocate la mossa che la vostra risposta impone.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Abbozzate il quadrato e5–h5–h8–e8 e guardate da quale parte del bordo inferiore sta il re nero."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/4P3/8/7k/8/8/3K4 b - - 0 5",
+      "title": "In Ritardo di una Mossa, Ogni Volta",
+      "text": "{{Kg5}} {{e7}} {{Kf6}} {{e8=Q}}. L'inseguimento è onesto, e perde comunque per una sola mossa.\n\nGuardate che cosa ha fatto la spinta alla scatola. Con il pedone in e6 gli angoli sono e6, g6, g8, e8: larga tre colonne invece di quattro. Ogni passo avanti restringe l'area in cui il difensore deve trovarsi, quindi un pedone già avanti diventa solo più difficile da prendere.\n\nE non c'è nemmeno un percorso astuto. Il re nero cammina sulla linea più corta che ha, e l'aritmetica non cambia mai."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Una Scacchiera Dove Correre Perde",
+      "text": "Scacchiera nuova. Anche il vostro pedone in e4 è passato, senza nessun pedone nero da nessuna parte, e stavolta il re nero in e8 non è fuori dal quadrato. È parcheggiato sulla casa di promozione prima ancora che la corsa cominci.\n\n{{e5}} {{Ke7}} {{e6}}, e il pedone è andato dritto addosso a un re che non può superare. Niente sposta quel re dalla colonna: il vostro re in e1 è tre traverse dietro il pedone e lì non gli serve a niente.\n\nIl pedone non ha perso la corsa. Non ne ha mai avuta una."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Chi Altro Può Aiutare",
+      "text": "Quindi il pedone non è il pezzo da muovere. Guardate che cos'altro possiede il Bianco: un re in e1 che non ha fatto niente per tutta la partita, e una lunga camminata davanti.\n\nA dire il vero questo pedone è già andato avanti una casa di troppo — contro una difesa perfetta adesso la corsa è patta. È questo il prezzo di spingere prima di scortare, e la scorta vi dà comunque ogni possibilità pratica.\n\n> Un pedone da solo è un bersaglio. Un pedone con un re accanto è una minaccia.\n\nIl pedone aspetterà. Non ha nessun altro posto dove stare."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Avviate il re verso il pedone, salendo lungo la colonna su cui il pedone sta.",
+      "targetSan": [
+        "Ke2"
+      ],
+      "hint": "La camminata è lunga, quindi prendete la strada più breve — dritti su per la colonna che il pedone possiede già."
+    }
+  ]
+}

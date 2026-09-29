@@ -1,0 +1,14 @@
+{
+  "id": "deflection-10",
+  "fen": "5rk1/pp3p1p/2n3p1/q7/8/1B6/PB4PP/4RQ1K w - - 1 2",
+  "solution": [
+    "Qxf7+",
+    "Rxf7",
+    "Re8#"
+  ],
+  "rating": 1440,
+  "title": "Arka Yataydan Uzağa",
+  "setup": "Siyahın f8'deki kalesi aynı anda hem f7 piyonunu hem arka yatayı tutuyor ve b3'teki filiniz f7'yi kesiyor.",
+  "hint": "Sekizinci yatayı koruyan tek taş o kale. Ona alması zorunlu ne verebilirsiniz?",
+  "explanation": "## Fikir\n\n{{Qxf7+}} şah tarafından alınamaz, çünkü b3'teki fil f7'yi kapsar; yani {{Rxf7}} mecburidir. Kale artık açmazdadır ve arka yataydan çıkmıştır; {{Re8#}} partiyi bitirir. Geri almak zorunda olan kale, artık korumayan kaledir."
+}

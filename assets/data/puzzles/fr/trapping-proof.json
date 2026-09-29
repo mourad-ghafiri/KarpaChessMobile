@@ -1,0 +1,11 @@
+{
+  "id": "trapping-proof",
+  "fen": "2kr4/Bpp2ppp/3b1n2/4p3/8/5N2/PPP2PPP/4R1K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "title": "Un fou échoué en a7",
+  "setup": "Le fou blanc vient de prendre un pion et se trouve maintenant en a7. Il semble en sécurité : rien chez vous ne l'attaque. Trouvez le coup qui garantit qu'il ne repartira jamais.",
+  "hint": "Comptez les cases du fou. Sa seule route de retour passe par une diagonale, et l'un de vos pions peut se tenir sur cette route, protégé.",
+  "explanation": "## L'idée\n\n{{b6}} ferme la seule route de retour. Il ne reste au fou en a7 que deux cases : b8, que couvre votre roi en c8, et b6, où le pion est protégé par celui de c7.\n\nRien n'attaque encore le fou, et rien n'en a besoin. Votre roi va en b7 au coup suivant et le prend, et le mieux que puissent récupérer les Blancs est un pion, en sacrifiant le fou en b6."
+}

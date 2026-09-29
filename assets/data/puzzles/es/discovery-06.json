@@ -1,0 +1,14 @@
+{
+  "id": "discovery-06",
+  "fen": "3q3k/2p2p1p/2P3p1/r3N3/8/8/PB3PPP/5RK1 w - - 0 1",
+  "solution": [
+    "Nxf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 1160,
+  "title": "Jaque por los dos lados",
+  "setup": "Al rey negro lo encajonan en h8 sus propios peones, y tu caballo puede llegar a f7 de un salto.",
+  "hint": "Cuando dos piezas dan jaque a la vez, el rey tiene que moverse: no se puede ni comer ni tapar. ¿Qué casilla lo consigue?",
+  "explanation": "## La idea\n\n{{Nxf7+}} es un jaque doble, del caballo de f7 y del alfil por la gran diagonal. Las Negras no pueden comer ni interponerse, así que {{Kg8}} es forzada, y el caballo queda libre para engullir la dama con {{Nxd8}}."
+}

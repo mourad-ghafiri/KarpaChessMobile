@@ -1,0 +1,57 @@
+{
+  "id": "ratings",
+  "title": "O Que Quer Dizer um Rating",
+  "summary": "Uma previsão de resultados, não um veredicto sobre ti",
+  "proof": "culture-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "Quatrocentos Pontos à Frente",
+      "text": "As brancas têm mais quatrocentos pontos do que tu e acabaram de empurrar um peão contra o teu bispo, com a calma de quem espera que lhe entreguem as coisas.\n\nUm rating é uma previsão de pontuação. Mete a diferença entre dois números numa fórmula e sai de lá um resultado esperado: ratings iguais preveem meio ponto para cada um, duzentos pontos de diferença preveem cerca de 76% para o número mais alto, quatrocentos pontos cerca de 91%.\n\nNinguém está previsto ganhar todas as partidas, em diferença nenhuma. Nem aquele ali."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "title": "O Que a Diferença Sussurra",
+      "text": "Quatrocentos pontos não são uma parede. São uma percentagem, e as percentagens são feitas de partidas que correram ao contrário.\n\nA diferença faz o estrago antes de a partida o fazer. Diz-te para segurares tudo, não arriscares nada e deixares o jogador mais forte prová-lo — que é exatamente a partida que um jogador mais forte quer.\n\nE assim o bispo começa a parecer que precisa de ser salvo. {{Ba5}}, {{Bc5}}: duas casas tranquilas, as duas de acordo em que a quem tem o número maior se deve alguma coisa."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 7",
+      "prompt": "Deixa o bispo onde está e recupera o peão do gambito com um cavalo.",
+      "targetSan": [
+        "Ngxe5",
+        "Ncxe5"
+      ],
+      "hint": "Qualquer dos dois cavalos pode comer o peão. O bispo está mais seguro onde está do que parece, portanto não gastes a jogada com ele."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "De Onde Vêm os Pontos",
+      "text": "Os cavalos saíram em e5, e depois as brancas comeram o bispo. Agora conta o que um rating paga de facto.\n\nGanhas quando pontuas acima da previsão e perdes quando pontuas abaixo. A aritmética é essa. Bater alguém muito acima de ti mexe muito o teu número, precisamente porque a previsão dizia que não ias — o sistema paga a surpresa, e paga-a na proporção do espanto.\n\nE é por isso que agarrar alguma coisa de volta não vem ao caso. {{Qxb4}} recolhe um peão e deixa as brancas sobreviver à partida."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "O Botão Chamado K",
+      "text": "Quanto um único resultado mexe o teu número depende de um multiplicador a que a FIDE chama K. É alto para jogadores novos e jovens, para os seus ratings encontrarem depressa o nível certo, e baixo para os já estabelecidos, para um mau fim de semana não poder desfazer anos de trabalho. Um botão de amortecimento, e mais nada.\n\nOs ratings descem tanto como sobem, e uma descida não é prova de que pioraste. Quer dizer que pontuaste abaixo da previsão, o que acontece a toda a gente que continue a jogar. Os únicos jogadores cujo número nunca desce são os que pararam."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "title": "Três Moedas Separadas",
+      "text": "Arpad Elo, físico e forte amador, construiu a escala para a federação norte-americana, que a adotou em 1960. A FIDE seguiu em 1970 e publicou a sua primeira lista oficial a 1 de julho de 1971.\n\nDesde então todos os sites lhe copiaram a forma, não os números. Um rating de blitz online, o rating de outro site e um rating FIDE são três moedas separadas, e nenhuma se converte. Os títulos cortam-se só na escala FIDE: 2300, 2400 e 2500 para Mestre FIDE, Mestre Internacional e Grande Mestre.\n\n> O rating prevê a partida. Nunca a joga."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/ppppqppp/8/4n3/1PP2B2/8/1P1NPPPP/R2QKB1R b KQkq - 0 9",
+      "prompt": "As brancas comeram a peça que a previsão dava por grátis: encontra o mate que as peças brancas construíram à volta do seu rei.",
+      "targetSan": [
+        "Nd3#"
+      ],
+      "hint": "Olha pela coluna e a partir da tua dama de e7 e pergunta que peão branco à frente do rei não tem licença para mexer."
+    }
+  ]
+}

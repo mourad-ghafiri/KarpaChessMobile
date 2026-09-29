@@ -1,0 +1,50 @@
+{
+  "id": "bishop-pair",
+  "title": "The Bishop Pair",
+  "summary": "Two bishops cover every square on the board",
+  "proof": "strategy-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/1pp2ppp/p1np4/4p3/B3P1b1/5N1P/PPPP1PP1/RNBQ1RK1 b k - 0 6",
+      "title": "The Trade That Sticks",
+      "text": "Black's bishop on g4 is one move from handing White something that cannot be bought back.\n\n{{Bxf3}} {{Qxf3}}. Black takes a knight that was doing real work, so this is not a giveaway. It is a sale. White keeps two bishops, Black is left with one, and no later move undoes that.\n\nThe game rolls on: {{Nf6}}, {{c3}}, {{Be7}}. Now White has to prove the thing is worth owning."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "title": "Why Two Beat One Plus One",
+      "text": "A bishop is born on one color and dies on it. One bishop, half a board — the other thirty-two squares are somebody else's business forever.\n\nOwn both and the halves click together. Light and dark, nothing left uncovered, and the two of them never compete for the same square. That is the **bishop pair**: not a piece advantage, since the point count is level, but a coverage advantage that lasts the whole game.\n\nStrong players pay for it. They will spend a move, or a pawn, to keep a knight from swapping itself off for a bishop."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "prompt": "Challenge Black's pawn on e5 with a pawn of your own and open a road for the bishop that has none.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Both pawns fencing in the bishop on c1 can move — take the one that also puts a question to Black's center."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "The Pair Is a Promise",
+      "text": "A different game, and White owns both bishops again. One of them is an embarrassment.\n\nThe bishop on c1 has not moved all game, and the one square it can reach changes nothing — its own pawn on e3 sits on the diagonal it wants. Six pawns are locked in the middle, c4, d4 and e3 against c6, d5 and e6, and no bishop climbs over a pawn. Black's knights do not care. They hop the whole traffic jam, and right now they are the better minor pieces."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "What the Pair Is Waiting For",
+      "text": "Two bishops are a bet on an open board, and the bet is paid in diagonals.\n\nEvery pawn that leaves the center lengthens a road, and long roads are what a bishop is for. A knight gains nothing from the same clearance: four hops across an empty board, four hops across a crowded one. So the side holding the pair wants fewer pawns, and wants them gone from the middle.\n\nThat flips the usual instinct. You are not hunting for a piece to swap. You are hunting for a pawn to fight.\n\n> Two bishops, one plan: trade pawns, not pieces."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "prompt": "Break the pawn jam in the middle so the bishop on c1 finally has a diagonal to look down.",
+      "targetSan": [
+        "e4"
+      ],
+      "hint": "The bishop on c1 wants the diagonal toward h6, and exactly one white pawn is parked on it — moving that pawn also stakes a second pawn's claim in the center."
+    }
+  ]
+}

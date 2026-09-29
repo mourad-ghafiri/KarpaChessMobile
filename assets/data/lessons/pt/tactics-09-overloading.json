@@ -1,0 +1,57 @@
+{
+  "id": "overloading",
+  "title": "A Sobrecarga",
+  "summary": "Um guarda, dois deveres, e escolhes tu qual ele deixa cair",
+  "proof": "overload-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "A Uma Casa de uma Dama",
+      "text": "O peão branco em a7 está a uma casa de se tornar dama, e é uma peça preta que o impede. A torre em c8 cobre a8 ao longo de uma linha vazia, portanto a {{a8=Q}} responde-se {{Rxa8}} e a dama nova dura exatamente uma jogada.\n\nÉ esse o primeiro dever. A torre cumpre-o sem se mexer. Fica em c8, e o peão continua peão."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "E Está a Segurar o Cavalo",
+      "text": "Agora olha pela coluna c abaixo. O cavalo preto em c5 é atacado pelo bispo branco de e3, e a única coisa que o defende é essa mesma torre de c8, a chegar lá por cima de duas casas vazias.\n\nMais nada do lado das pretas se aproxima de c5. O rei em g8 está a quatro colunas, e nenhum peão está perto o suficiente para contar.\n\nUma torre, dois deveres, e neste momento está a cumprir os dois sem levantar um dedo."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Deixa-a Exatamente Onde Está",
+      "text": "Duas maneiras de quebrar um guarda já são tuas, e a torre de c8 sobrevive às duas. Nada das brancas a ataca, portanto não pode ser tirada do tabuleiro. Não há nada que ela seja obrigada a aceitar, portanto não pode ser puxada da sua casa.\n\nAinda bem. Deixa-a ali. Uma peça que cobre duas coisas ao mesmo tempo está **sobrecarregada**, e enquanto ninguém lhe pedir nada, dois deveres são exatamente tão fáceis como um.\n\nEntão pede. Defender não é ficar quieto — é uma jogada, e a torre é uma só."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "prompt": "Captura uma das duas coisas que a torre cobre e deixa-a decidir com qual fica.",
+      "targetSan": [
+        "Bxc5"
+      ],
+      "hint": "Só um dos dois deveres da torre é uma peça em que possas pôr as mãos, e as brancas já lhe apontam."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "A Oitava Linha Não É de Ninguém",
+      "text": "As pretas capturaram o bispo, e a troca foi equilibrada — um bispo por um cavalo, três pontos para cada lado. A torre está em c5 porque era para ali que tinha de ir para recapturar.\n\nE é aí todo o problema. De c5 a torre vê a coluna c e a quinta linha, e a8 não está em nenhuma delas.\n\nRecusar não era melhor. O cavalo simplesmente desaparecia, e o peão de a7 continuaria aqui."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "Encontrar o Próximo",
+      "text": "Há dois testes, e quase toda a gente só faz o primeiro.\n\nNomeia a peça inimiga que mais trabalha e diz os seus deveres em voz alta: esta casa, aquela peça. Depois nomeia tudo o resto que os cobre. Um segundo defensor em qualquer sítio e não há sobrecarga — há só uma peça que não podes capturar.\n\nUm guarda, dois deveres, dois sítios diferentes onde estar. Captura aquele dos dois a que consegues chegar, e o guarda escolhe o outro para perder.\n\n> Não perguntes o que um defensor está a guardar. Pergunta quantas coisas, e o que tem de deixar para trás para salvar alguma delas."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "prompt": "Agora nada cobre a oitava linha: recolhe aquilo que a torre ali estava para impedir.",
+      "targetSan": [
+        "a8=Q+",
+        "a8=R+"
+      ],
+      "hint": "A torre segura c5 e a quinta linha, e a8 não está em nenhuma das duas."
+    }
+  ]
+}

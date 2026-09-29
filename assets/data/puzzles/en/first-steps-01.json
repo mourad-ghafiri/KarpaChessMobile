@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-01",
+  "fen": "4k3/pp4pp/8/3n4/4P3/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "exd5"
+  ],
+  "title": "Pawn Takes Knight",
+  "setup": "A black knight has wandered close to your e-pawn. Your pawn can win it, if you remember which way a pawn captures.",
+  "hint": "Pawns capture one square diagonally forward. Which two squares does the e4-pawn attack?",
+  "explanation": "## The Idea\n\nA pawn moves straight but **captures diagonally**, and the knight on d5 is standing on one of the two squares your pawn on e4 attacks.\n\n{{exd5}} and the pawn takes a whole knight. Nothing guards d5, so nothing takes back: the knight is simply yours.\n\nEvery pawn guards the two squares diagonally in front of it. Anything that steps onto them can be taken."
+}

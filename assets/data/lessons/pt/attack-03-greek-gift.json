@@ -1,0 +1,71 @@
+{
+  "id": "greek-gift",
+  "title": "A Oferta Grega",
+  "summary": "Um bispo entregue, por um rei que fica sem sítio onde estar",
+  "proof": "greek-gift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "A Casa Que Ninguém Guarda",
+      "text": "Conta o que aponta a h7. O bispo em d3 olha a direito pela diagonal de b1 a h7. O cavalo em f3 está a um salto de g5, e de g5 atinge h7 também. A dama em d1 está aos pés da diagonal de d1 a h5, que acaba nessa mesma coluna h.\n\nAgora conta o guarda. O cavalo que devia estar em f6 foi empurrado para d7 pelo teu peão de e5, e e5 continua a cobrir f6. A única peça que resta a cobrir h7 é o rei que está ao lado dela.\n\nTrês contra um, e o um é um rei."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "A Oferta Grega",
+      "text": "Entregar um bispo por um único peão é um **sacrifício** com nome. A **oferta grega** é o bispo atirado para dentro do abrigo de peões à frente de um rei rocado. Ou acaba a partida ou perde uma peça, e qual das duas decide-se antes de o largares.\n\nQuatro condições. O bispo vê h7. Um cavalo está a uma jogada de g5. A dama tem estrada até à coluna h atrás desse cavalo. E o que quer que capture em g5 é recapturado, enquanto nada chega a f6 para cobrir o canto.\n\n> Uma oferta que contaste não é uma aposta."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "prompt": "O canto preto não o guarda nada a não ser o rei: arrasta esse rei para fora do abrigo.",
+      "targetSan": [
+        "Bxh7+"
+      ],
+      "hint": "Neste momento só uma peça tua ataca h7, portanto para de contar quanto ela vale e conta antes os guardas."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "title": "O Teu Próprio Cavalo Está no Caminho",
+      "text": "O rei capturou em h7 e à frente dele não ficou nada. E tens também um bispo a menos por um peão, que é a parte que concentra o espírito.\n\nOlha para onde a dama quer ir. A estrada de d1 até à coluna h passa por e2, f3 e g4, e o teu próprio cavalo de f3 está nela.\n\nPortanto esta jogada não é uma escolha entre boas ideias. Qualquer coisa tranquila deixa as pretas voltar a g8 e começar a arrastar peças para o canto, e então o bispo comprou um peão e mais nada."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "prompt": "Abre a estrada da dama até à coluna h com uma jogada a que as pretas tenham de responder logo.",
+      "targetSan": [
+        "Ng5+"
+      ],
+      "hint": "O cavalo tem de mexer, e só uma das suas casas dá xeque — aquela que o teu peão f já guarda."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R b KQ - 1 11",
+      "title": "Quatro Casas, Um Rei",
+      "text": "A dama em e7 pode comer o cavalo, mas o teu peão de f4 recaptura e as pretas pagaram uma dama por um cavalo. E um xeque de cavalo também não se pode tapar. Portanto o rei mexe-se, e tem exatamente quatro casas: {{Kg8}}, {{Kh8}}, {{Kg6}}, {{Kh6}}.\n\nDuas voltam para o canto. As outras duas dão um passo em frente para o tabuleiro aberto, o que parece fugir ao cavalo e é na verdade caminhar em direção a todo o resto do que tens.\n\nSão essas duas que o teu adversário vai querer jogar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p1k1/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "Sai a Comer o Cavalo",
+      "text": "g6 ataca o cavalo de g5, e é precisamente por isso que as pretas a jogam. O rei sai à espera de estar uma peça acima dentro de duas jogadas.\n\n{{Qg4}}. A dama sobe atrás do cavalo na coluna g, portanto o cavalo fica defendido e todas as casas para onde ele salte descobrem um xeque. E o teu peão f está a um passo de f5, onde voltaria a atingir o rei.\n\nQuanto mais longe o rei sai, mais partes do teu exército lhe chegam."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p2k/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "A Velha Estrada do Bispo",
+      "text": "h6 mantém o rei fora do canto e ataca o cavalo de g5, portanto parece a melhor das quatro.\n\n{{Qd3}}. A dama toma conta da diagonal a que o bispo renunciou e aponta a direito a h7. O cavalo em g5 guarda essa casa, o rei não tem como sair dela, e o mate em h7 fica ameaçado para a jogada seguinte. As pretas não têm boa maneira de o travar."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqpp1/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "prompt": "As pretas voltaram ao canto: leva o último atacante à coluna h e ameaça mate.",
+      "targetSan": [
+        "Qh5"
+      ],
+      "hint": "O cavalo já cobre h7, e a torre preta de f8 tirou ao próprio rei uma casa de fuga."
+    }
+  ]
+}

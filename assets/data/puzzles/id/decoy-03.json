@@ -1,0 +1,14 @@
+{
+  "id": "decoy-03",
+  "fen": "6k1/pp3ppp/1q6/r7/8/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Qxd8",
+    "Rxd8#"
+  ],
+  "rating": 1230,
+  "title": "Menteri untuk Sebuah Petak",
+  "setup": "Menteri dan benteng Anda bertumpuk di lajur d, dan raja hitam tak punya ruang bernapas di balik pion-pionnya.",
+  "hint": "Baris belakang adalah kelemahannya. Apa yang bisa Anda tempatkan di d8 yang wajib diambil Hitam?",
+  "explanation": "## Ide\n\n{{Qd8+}} menawarkan menteri di satu-satunya petak yang harus diambil Hitam: {{Qxd8}} satu-satunya langkah sahnya. Menteri hitam kini berdiri di baris belakang di depan benteng Anda, dan {{Rxd8#}} mengakhirinya. Tanyakan petak mana yang fatal bagi buah lawan, lalu buat ia pergi ke sana."
+}

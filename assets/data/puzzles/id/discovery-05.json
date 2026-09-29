@@ -1,0 +1,12 @@
+{
+  "id": "discovery-05",
+  "fen": "2rkr3/2p1pppp/4n3/3P4/8/5N2/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "dxe6#"
+  ],
+  "rating": 1120,
+  "title": "Keluar dari Lajur",
+  "setup": "Raja Hitam dikurung di d8 oleh benteng dan pionnya sendiri, dan pion Anda sendiri menghalangi lajur d.",
+  "hint": "Pion yang menangkap meninggalkan lajur tempat ia berdiri. Tanyakan apa yang akan dilihat benteng Anda begitu itu terjadi.",
+  "explanation": "## Ide\n\n{{dxe6#}} memenangkan kuda, tetapi bukan itu intinya: pion meninggalkan lajur d dan benteng di d1 memberi sekak lurus sampai ke d8. c7, e7, c8 dan e8 ditempati buah Hitam sendiri, dan tak ada yang bisa masuk ke depan benteng. Penyingkapan oleh pion pun bisa memberi mat."
+}

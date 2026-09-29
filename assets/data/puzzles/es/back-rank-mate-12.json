@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-12",
+  "fen": "5rk1/5ppp/3Q4/5N2/8/1q6/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rd8#"
+  ],
+  "rating": 1100,
+  "title": "Atrae al rey",
+  "setup": "La torre negra acaba de dejar d8 para ir a f8, abriendo tu columna y poniéndose justo al lado de su propio rey.",
+  "hint": "El rey está más seguro donde está. Encuentra el jaque que lo arrastra a la fila que dominas.",
+  "explanation": "## La idea\n\n{{Qxf8+}} es una dama por una torre, y {{Kxf8}} es la única respuesta legal. Ahora el rey está en la octava fila abierta, con tu columna despejada detrás: {{Rd8#}}. El caballo de f5 le quita e7, y sus propios peones hacen el resto."
+}

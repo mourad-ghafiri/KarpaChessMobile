@@ -1,0 +1,14 @@
+{
+  "id": "fork-06",
+  "fen": "4r2k/pp4p1/5p2/2n5/8/5Q2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qh5+",
+    "Kg8",
+    "Qxe8+"
+  ],
+  "rating": 880,
+  "title": "Coluna e Diagonal",
+  "setup": "A coluna h está aberta em frente ao rei preto, e a torre preta acabou de passar para e8.",
+  "hint": "A tua dama quer uma casa onde uma coluna e uma diagonal acabem cada uma numa peça preta.",
+  "explanation": "## A Ideia\n\n{{Qh5+}} dá xeque pela coluna h aberta, e na outra linha olha através de g6 e f7 diretamente para a torre. O peão de g7 só deixa às pretas {{Kg8}}, e {{Qxe8+}} come a torre com xeque. Uma dama garfa porque é uma torre e um bispo ao mesmo tempo."
+}

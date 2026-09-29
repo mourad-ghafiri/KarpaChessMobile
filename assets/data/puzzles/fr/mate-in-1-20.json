@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-20",
+  "fen": "4k3/6p1/4K3/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Encager le roi par le côté",
+  "setup": "Les rois se font face sur la colonne e, et le dernier pion noir n'aide en rien.",
+  "hint": "Votre roi barre la septième rangée. Envoyez la dame sur la seule rangée qui reste aux Noirs.",
+  "explanation": "## L'idée\n\nLes rois se font de nouveau face, et cette fois la dame arrive du coin.\n\n{{Qa8#}} donne échec le long de la dernière rangée. d8 et f8 sont sur la ligne de la dame, et votre roi en e6 couvre d7, e7 et f7. Le pion en g7 ne bloque rien et ne sauve rien.\n\nDu matériel en plus sur l'échiquier ne change pas le motif : un roi en face plus une dame sur la dernière rangée, c'est mat."
+}

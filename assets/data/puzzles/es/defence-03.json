@@ -1,0 +1,14 @@
+{
+  "id": "defence-03",
+  "fen": "8/5Q2/6R1/1k1K4/2r5/8/1q5b/8 w - - 0 1",
+  "solution": [
+    "Qb7+",
+    "Ka4",
+    "Ra6#"
+  ],
+  "rating": 1530,
+  "title": "Los dos reyes al descubierto",
+  "setup": "Los reyes están a dos casillas, en b5 y d5, y la dama, la torre y el alfil negros apuntan hacia ti.",
+  "hint": "Toda jugada tranquila pierde. Busca el jaque que empuja a su rey hacia tu torre, no lejos de ella.",
+  "explanation": "## La idea\n\n{{Qb7+}} manda al rey a la columna a, {{Ka4}} o {{Ka5}}, y en ambos casos la torre cruza para {{Ra6#}}. Llevar a un rey al borde no siempre es el plan; llevarlo hacia tus propias piezas, sí."
+}

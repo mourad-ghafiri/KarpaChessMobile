@@ -1,0 +1,14 @@
+{
+  "id": "promotion-11",
+  "fen": "B5k1/P5p1/7p/8/8/8/2r2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kh8",
+    "a8=Q+"
+  ],
+  "rating": 1370,
+  "title": "O Bispo Sai de Cima",
+  "setup": "O teu peão de a7 está a uma casa de fazer dama e o teu próprio bispo está em a8, mesmo no caminho.",
+  "hint": "O bispo tem de sair, e deve aterrar num sítio que não dê às pretas uma jogada de borla para interferir.",
+  "explanation": "## A Ideia\n\n{{Bd5+}} liberta a8 com xeque pela diagonal de a2 a g8. As pretas têm de responder ao xeque, e nenhuma das respostas trava o peão: depois de {{Kh8}} ou {{Kf8}}, {{a8=Q+}} promove até com xeque, e depois de {{Kh7}} o peão faz dama na mesma. Sair com xeque é o essencial."
+}

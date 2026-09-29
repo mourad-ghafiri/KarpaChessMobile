@@ -1,0 +1,14 @@
+{
+  "id": "overload-04",
+  "fen": "2r3k1/5ppp/3R4/8/3Q4/1R6/PP6/K5b1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Qxd8#"
+  ],
+  "rating": 1370,
+  "title": "Torre Primeiro, Dama Depois",
+  "setup": "A tua torre em d6 e a tua dama em d4 olham ambas pela coluna d para uma linha de fundo guardada só pela torre de c8.",
+  "hint": "A ordem interessa. Decide que peça se pode dar ao luxo de ser capturada e qual tem de rematar.",
+  "explanation": "## A Ideia\n\n{{Rd8+}} é a barata: {{Rxd8}} é forçado e a torre de c8 deixa a linha que guardava. {{Qxd8#}} acaba. Vai à frente com a peça de que podes abrir mão e guarda a que dá mate."
+}

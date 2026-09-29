@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-29",
+  "fen": "7k/5K2/8/6N1/8/8/8/2B5 w - - 0 1",
+  "solution": [
+    "Bb2#"
+  ],
+  "title": "Tombak di Diagonal Panjang",
+  "setup": "Kuda Anda di g5 dan raja Anda di f7 mengepung raja Hitam di sudut, dan gajah Anda masih di rumah di c1.",
+  "hint": "Kuda dan raja menguasai setiap petak di sekitar raja. Temukan diagonal yang mencapai h8.",
+  "explanation": "## Ide\n\nKuda dan raja sudah mengurungnya: raja Anda di f7 menguasai g7 dan g8, dan kuda di g5 menguasai h7.\n\n{{Bb2#}} melangkah ke diagonal panjang dan memberi sekak kepada raja di h8 dari sudut yang jauh. Tak ada yang bisa menghalangi, dan raja tak punya petak lagi.\n\nDiagonal panjang dari a1 ke h8 adalah lorong mat: begitu raja terkurung di sudut, gajah bisa menuntaskannya dari seberang papan."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "bishop-moves",
+  "title": "Half the Board",
+  "summary": "The long slanted roads, and the half of the board a bishop can never set foot on",
+  "proof": "first-steps-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "title": "Four Roads Out of d4",
+      "text": "The bishop on d4 has four roads out. Every one of them runs at an angle.\n\nDiagonals only — never up the file, never along the rank. On a clear diagonal it travels as far as it likes, and seven squares cost exactly what one does.\n\n{{Bh8}} runs to one corner, {{Ba1}} to the corner opposite. {{Ba7}} and {{Bg1}} stop where the board runs out. Two diagonals cross on d4, and the bishop rides either of them, either way."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "prompt": "Pick one of the four diagonals and stop the bishop anywhere along it.",
+      "targetSan": [
+        "Bc5",
+        "Bb6",
+        "Ba7",
+        "Be5",
+        "Bf6",
+        "Bg7",
+        "Bh8",
+        "Bc3",
+        "Bb2",
+        "Ba1",
+        "Be3",
+        "Bf2",
+        "Bg1"
+      ],
+      "hint": "Near or far makes no difference — one square along a diagonal is as legal as seven."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "title": "One Color, All Game",
+      "text": "Whatever move you just played, it landed on a dark square. So does every other bishop move available here.\n\nd4 is dark. A diagonal step goes one file across and one rank up or down at once, and that pairing leaves the color underfoot exactly as it found it. Straight ahead the color flips. On the slant it never does.\n\nThat is also why an army gets two bishops: one for the dark squares, one for the light.\n\n> A bishop is born on one color and never leaves it. Thirty-two squares are home; the other thirty-two might as well not exist."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/1P6/4K3 w - - 0 1",
+      "title": "Nothing Gets Jumped",
+      "text": "A knight hops over traffic. A bishop sits in it.\n\nDown the left-hand diagonal your own pawn on b2 is standing in the road. The bishop gets as far as {{Bc3}} and no farther — a1 is behind the pawn, and behind is out of reach.\n\nAn enemy piece would end the road at the same square, with one difference: the bishop can take it and stop where it stood. Your own piece blocks the diagonal for good. An enemy one blocks it only until you take it."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/6p1/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "Black's pawn has strayed onto a square this bishop can reach — win it.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "Both this bishop and that pawn stand on dark squares, and the line between them is empty."
+    }
+  ]
+}

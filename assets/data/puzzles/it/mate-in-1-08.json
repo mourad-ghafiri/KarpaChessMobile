@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-08",
+  "fen": "7k/8/7K/7Q/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Qe8#"
+  ],
+  "title": "Stretta in Diagonale",
+  "setup": "Il vostro re e la vostra donna sono impilati sulla colonna h, e il re nero è intrappolato nell'angolo. Il matto arriva di lato.",
+  "hint": "Una mossa di donna allettante toglie ogni casa senza dare scacco, ed è stallo. Date scacco da dove il vostro re copre ancora g7.",
+  "explanation": "## L'idea\n\nLa naturalissima {{Qg6}} è stallo: nessuno scacco, e nessuna mossa legale per il Nero, quindi mezzo punto è andato. {{Qe8#}} dà invece scacco lungo la traversa di fondo. g8 sta sulla linea della donna, il vostro re in h6 copre g7 e h7, e niente può catturare la donna o parare.\n\nCon una donna contro un re nudo, assicuratevi che la vostra mossa dia scacco prima di togliere l'ultima casa."
+}

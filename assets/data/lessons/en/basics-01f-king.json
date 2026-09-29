@@ -1,0 +1,57 @@
+{
+  "id": "king-moves",
+  "title": "The Piece That Never Leaves",
+  "summary": "One square in any direction, minus every square the enemy is watching",
+  "proof": "first-steps-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "title": "Never Taken, Never Traded",
+      "text": "Every other piece you own can be swapped off, given away or lost. The king cannot. It is never captured and never leaves the board — the game ends before that can happen.\n\nSo the rules keep it on a short leash: **one square, in any of the eight directions**. From e4 that is {{Kd5}}, {{Ke5}}, {{Kf5}}, {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\nEight neighbors. Nothing at all beyond them."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "prompt": "Step the king onto any square that touches e4 — all eight are open here.",
+      "targetSan": [
+        "Kd5",
+        "Ke5",
+        "Kf5",
+        "Kd4",
+        "Kf4",
+        "Kd3",
+        "Ke3",
+        "Kf3"
+      ],
+      "hint": "Nothing else stands on the board, so no square in the ring is any better than another."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Something Is Watching",
+      "text": "The board is not empty anymore. Black's rook on h5 sweeps the whole fifth rank, end to end, the way a rook does.\n\nLook at what that costs the king on e4. Three of its eight neighbors — d5, e5 and f5 — sit on that rank, in plain view of the rook."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Three Squares, Withdrawn",
+      "text": "Those three squares are not a bad idea. They are not a choice at all.\n\nA king may **never move onto a square an enemy piece attacks**. The board will not let it: reach for d5 and the move simply is not there, the same way a straight line is not there for a bishop.\n\nThat leaves five: {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\n> Count the squares touching the king, then cross off every one the enemy is watching. What is left is the whole of the king's move."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3k4/8/3K4/8/8/8 w - - 0 1",
+      "title": "Kings Keep Their Distance",
+      "text": "The plainest case of that rule is two kings. Black's king on d6 stands two squares away, and c5, d5 and e5 all touch it.\n\nWhich means all three are closed to White's king on d4. It cannot take a single step forward — the whole front of its ring belongs to the other king.\n\nTwo kings can never stand side by side. Neither may enter the other's ring, so a square of empty board always sits between them."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/4p3/4K3/8 w - - 0 1",
+      "prompt": "That pawn has closed the two squares beside the king, but not the one it stands on — win it.",
+      "targetSan": [
+        "Kxe3"
+      ],
+      "hint": "A pawn's attacks run diagonally forward, never straight ahead, and nothing on this board is guarding it."
+    }
+  ]
+}

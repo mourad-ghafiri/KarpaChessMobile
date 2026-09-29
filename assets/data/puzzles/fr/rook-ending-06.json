@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-06",
+  "fen": "1k6/8/3P4/1K6/8/7R/3r4/8 w - - 0 1",
+  "solution": [
+    "Kc6"
+  ],
+  "rating": 1430,
+  "title": "Escorter, puis pousser",
+  "setup": "Le pion d blanc est à une case de la septième rangée, avec la tour noire qui attend derrière lui sur la colonne d.",
+  "hint": "Le pion n'a aucun défenseur. Laquelle de vos deux pièces peut couvrir la case où il veut se poser ?",
+  "explanation": "## L'idée\n\nPoussez tout de suite et {{d7}} est simplement en prise sur {{Rxd7}}. {{Kc6}} couvre d'abord d7, et alors seulement le pion avance : {{Rc2+}} {{Kd7}}, et le roi le conduit jusqu'au bout. Amenez d'abord l'escorte ; le pion bouge en dernier."
+}

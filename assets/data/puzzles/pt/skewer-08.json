@@ -1,0 +1,14 @@
+{
+  "id": "skewer-08",
+  "fen": "8/N3R1R1/p1p2kr1/7n/P1p5/5r1P/P6K/8 w - - 0 1",
+  "solution": [
+    "Rgf7+",
+    "Kg5",
+    "Rxf3"
+  ],
+  "rating": 1180,
+  "title": "As Torres Dobradas Decidem",
+  "setup": "As tuas torres estão dobradas na sétima linha, e uma torre preta está na coluna f atrás do seu próprio rei.",
+  "hint": "Duas torres numa linha querem dizer que uma pode avançar enquanto a outra a mantém defendida. Que coluna interessa?",
+  "explanation": "## A Ideia\n\n{{Rgf7+}} põe uma torre na coluna f com o rei à frente e a torre de **f3** atrás. A torre de **e7** defende f7, portanto o rei não pode capturar. Depois de {{Kg5}} a coluna está livre e {{Rxf3}} ganha a torre."
+}

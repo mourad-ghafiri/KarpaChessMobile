@@ -1,0 +1,11 @@
+{
+  "id": "forks-13",
+  "fen": "4k3/pp3ppp/8/1N3q2/8/8/PP3PPP/R1B3K1 w - - 0 1",
+  "solution": [
+    "Nd6+"
+  ],
+  "title": "At Veziri Koparıyor",
+  "setup": "Siyahın f5'teki veziri b5'teki atınıza saldırıyor ve siyahın şahı hâlâ evinde, e8'de.",
+  "hint": "Yalnızca atı kurtarmayın. Hem şah çeken hem de vezire vuran sıçrayışı bulun.",
+  "explanation": "## Fikir\n\n{{Nd6+}} e8'deki şaha şah çeker ve f5'teki vezire saldırır. d6'yı koruyacak bir siyah piyon ne c7'de ne e7'de duruyor, yani at güvende ve atın şahı kapatılamaz. Şahın oynaması gerekir ve {{Nxf5}} bir at karşılığında veziri alır.\n\nSaldırı altındaki bir taşı geri çekmeden önce, onun şah çekerek karşılık verdiği bir kare olup olmadığına bakın."
+}

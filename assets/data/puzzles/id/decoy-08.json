@@ -1,0 +1,14 @@
+{
+  "id": "decoy-08",
+  "fen": "6rk/pp1q2pp/8/5P1Q/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1420,
+  "title": "Menteri Membeli Lajurnya",
+  "setup": "Menteri Anda di h5 menatap h7 dan benteng Anda di d1 tinggal satu ayunan dari lajur h.",
+  "hint": "Raja tak bisa bergerak satu petak pun. Apa yang harus terjadi sebelum benteng Anda berarti di lajur h?",
+  "explanation": "## Ide\n\n{{Qxh7+}} adalah satu menteri utuh untuk satu pion, tetapi {{Kxh7}} terpaksa. Lajur h kosong, pion di f5 menguasai g6, dan {{Rh1#}} tiba tanpa ada lagi yang bisa menghentikannya. Materi tak berarti apa-apa begitu raja tak punya petak untuk berdiri."
+}

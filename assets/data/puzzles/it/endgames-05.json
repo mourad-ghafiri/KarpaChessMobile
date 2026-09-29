@@ -1,0 +1,11 @@
+{
+  "id": "endgames-05",
+  "fen": "8/8/8/8/B6k/p7/7p/2K5 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "Attraverso la Scacchiera in Una Mossa",
+  "setup": "Il pedone h del Nero promuove alla prossima mossa e al pedone a ne servono altre due. Il vostro alfiere in a4 è l'unico pezzo che arriva in tempo sull'ala lontana.",
+  "hint": "Il pedone h promuove su una casa chiara. Trovate la diagonale chiara che passa per h1, e poi l'unica casa di essa che il vostro alfiere raggiunge.",
+  "explanation": "## L'idea\n\nh1 è una casa chiara, e l'unica diagonale chiara che ci passa va da a8 a h1. Da a4 il vostro alfiere ci si unisce in una mossa, {{Bc6}}, e da lì sorveglia per sempre la casa di promozione.\n\nIl vostro re in c1 si occupa dell'altro corridore: è a un passo da b2, da dove copre a2 e a1. Un cavallo al posto dell'alfiere non avrebbe raggiunto in tempo una casa che copra h1, e ogni altra mossa lascia promuovere il pedone h."
+}

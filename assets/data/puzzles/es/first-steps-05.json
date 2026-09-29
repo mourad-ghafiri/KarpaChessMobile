@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-05",
+  "fen": "1k6/8/8/7r/8/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxh5"
+  ],
+  "title": "El alcance de la dama",
+  "setup": "Una torre negra holgazanea lejos, en la columna h, creyéndose fuera de peligro. Tu dama sabe que no.",
+  "hint": "La dama también se mueve como un alfil. Sigue la diagonal desde d1 hacia la columna h.",
+  "explanation": "## La idea\n\nDesde d1, la diagonal de la dama pasa por e2, f3 y g4 y llega a h5, donde está la torre negra sin nada que la proteja.\n\n{{Qxh5}} cruza medio tablero en una jugada y captura la torre. Llegó por una diagonal, y una torre solo vigila líneas rectas.\n\nLa dama es una torre y un alfil en uno. Cuando cazas con ella, revisa los dos tipos de línea."
+}

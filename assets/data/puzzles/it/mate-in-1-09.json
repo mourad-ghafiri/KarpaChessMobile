@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-09",
+  "fen": "7k/5K1p/8/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Il Suo Stesso Pedone, la Sua Stessa Gabbia",
+  "setup": "Il re nero siede nell'angolo dietro il proprio pedone in h7, e il vostro re in f7 gli sta vicino.",
+  "hint": "Il vostro re copre già g7 e g8. Alla torre basta arrivare alla traversa di fondo.",
+  "explanation": "## L'idea\n\n{{Ra8#}} dà scacco lungo la traversa di fondo. Il vostro re in f7 copre g7 e g8, il pedone del Nero riempie h7, e niente può catturare la torre o parare lo scacco.\n\nIn un finale di re e torre, il vostro re inscatola il re avversario e la torre dà lo scacco."
+}

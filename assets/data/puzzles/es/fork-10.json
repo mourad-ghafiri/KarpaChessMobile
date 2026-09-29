@@ -1,0 +1,12 @@
+{
+  "id": "fork-10",
+  "fen": "8/2q1P1kp/p7/8/8/8/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "e8=N+"
+  ],
+  "rating": 1030,
+  "title": "La dama equivocada",
+  "setup": "Tu peón llega a la octava fila en esta jugada, con el rey negro en g7 y su dama en c7.",
+  "hint": "Una dama nueva aquí no cambia nada. Pregúntate qué pieza daría jaque al rey desde la casilla de coronación.",
+  "explanation": "## La idea\n\nUna dama en e8 no da ningún jaque, y las Negras siguen jugando con la posición igualada. {{e8=N+}} ataca g7 y c7 a la vez, las Negras tienen que responder al jaque y la dama cae en la jugada siguiente. Corona en lo que pida la posición, no en lo más grande."
+}

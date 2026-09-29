@@ -1,0 +1,13 @@
+{
+  "id": "history-01",
+  "fen": "3r3k/pp4pp/8/2n1N3/8/8/PP4PP/R5K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "Süvari Sıçrayışı",
+  "setup": "Savaş arabaları ve süvariler; on beş yüzyıl önce nasıl oynuyorlarsa hâlâ öyle oynuyorlar.",
+  "hint": "Siyahın şahının kaçacak tek bir karesi var. Hangi sıçrayış hem ona şah çekiyor hem de aynı anda kaleye saldırıyor?",
+  "explanation": "## Fikir\n\nAtın şahı kapatılamaz: at aradaki kareleri hiç geçmez, yani araya konacak bir şey de yoktur.\n\n{{Nf7+}} aynı hamlede h8 ile d8'e dokunur. Siyahın tek kurallı cevabı {{Kg8}}'dir ve {{Nxd8}} şahın gelişini hiç göremediği kaleyi toplar: f7 ne onun yatayında ne dikeyindedir.\n\nRakip şahın kareleri azaldığında, aynı anda hem şaha hem değerli bir şeye dokunan at karesini arayın."
+}

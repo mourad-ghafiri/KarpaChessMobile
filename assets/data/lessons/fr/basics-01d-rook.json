@@ -1,0 +1,72 @@
+{
+  "id": "rook-moves",
+  "title": "La longue route",
+  "summary": "Quatorze cases depuis n'importe où, et les deux façons dont une route s'arrête",
+  "proof": "first-steps-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Le long des lignes",
+      "text": "L'échiquier est dessiné comme un quadrillage. La tour est la pièce qui se déplace le long de ses lignes, et seulement le long d'elles : rangées et colonnes, rien d'autre.\n\nPas de diagonales. Aucun saut. La distance, en revanche, est gratuite — une tour qui se décale d'une case et une tour qui traverse tout l'échiquier ont fourni le même effort.\n\nDepuis d4, la route part dans quatre directions. En haut de la colonne d jusqu'en {{Rd8}}, en bas jusqu'en {{Rd1}}, et le long de la quatrième rangée jusqu'en {{Ra4}} ou {{Rh4}}."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "title": "Quatorze, où qu'elle soit",
+      "text": "Comptez ce que cette tour contrôle depuis d4. Sept cases sur la colonne d, sept sur la quatrième rangée. Quatorze.\n\nPlacez maintenant une tour seule dans le coin d'un échiquier vide et recomptez. Quatorze. Le total ne bouge jamais ; seule change la répartition entre les deux lignes.\n\nLe cavalier perdait six de ses huit sauts dans ce même coin. Le fou abandonne près de la moitié de ses cases au bord. La tour ne remarque même pas que le bord existe."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3R4/8/8/4K3 w - - 0 1",
+      "prompt": "Amenez la tour sur n'importe quelle case de sa colonne ou de sa rangée.",
+      "targetSan": [
+        "Rd5",
+        "Rd6",
+        "Rd7",
+        "Rd8",
+        "Rd3",
+        "Rd2",
+        "Rd1",
+        "Rc4",
+        "Rb4",
+        "Ra4",
+        "Re4",
+        "Rf4",
+        "Rg4",
+        "Rh4"
+      ],
+      "hint": "Quatorze cases sont légales d'ici et aucune n'est mauvaise — choisissez une direction et arrêtez-vous où vous voulez."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "Là où la route s'arrête",
+      "text": "Placez cette tour en a1 et les quatorze deviennent six.\n\nSur la colonne a, elle va jusqu'en {{Ra3}}, parce qu'un pion noir en a4 barre la route. Sur la première rangée, elle va jusqu'en {{Rd1}}, parce que votre propre roi en e1 barre celle-là.\n\nCes deux arrêts ne se valent pas. Le roi est permanent — vous ne ferez jamais passer une tour à travers votre propre pièce. Le pion est provisoire. Il tient la colonne a exactement aussi longtemps qu'il survit."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "title": "La colonne ouverte",
+      "text": "Une colonne sans aucun pion s'appelle une **colonne ouverte**, et une tour passera des parties entières à essayer d'en occuper une.\n\nLa raison est simple. Sur une colonne ouverte, la tour voit la colonne d'un bout à l'autre, et tout ce qui s'y aventure entre dans sa ligne de mire. Sur une colonne encombrée de pions, la même tour voit un pion.\n\nLa colonne a n'est qu'à un pion d'être ouverte, et ce pion peut être pris.\n\n> Une tour veut une route où il n'y a rien. Trouvez-en une, ou dégagez-en une."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/p7/8/8/R3K3 w - - 0 1",
+      "prompt": "Ouvrez la colonne a en prenant la seule chose qui s'y trouve.",
+      "targetSan": [
+        "Rxa4"
+      ],
+      "hint": "Les Noirs n'ont plus rien pour garder cette case, et la route jusqu'à elle est vide."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/ppp1pppp/8/8/8/8/PPP1PPPP/R5K1 w - - 0 1",
+      "prompt": "Trouvez la seule colonne sans pion et placez-y votre tour.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Parcourez des yeux les huit colonnes — sept d'entre elles ont un pion en travers."
+    }
+  ]
+}

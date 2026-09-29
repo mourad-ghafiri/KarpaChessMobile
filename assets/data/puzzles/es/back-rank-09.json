@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-09",
+  "fen": "6k1/5ppp/8/8/8/8/4R3/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "La torre se desliza al mate",
+  "setup": "Tu torre y tu rey contra tres peones negros, con el rey negro todavía detrás de ellos en g8. Basta una jugada.",
+  "hint": "El rey no puede salir de su última fila. Pon tu torre en esa fila con jaque.",
+  "explanation": "## La idea\n\n{{Re8#}} es mate en una. La torre sale de la segunda fila y da jaque por la octava: f8 y h8 están en su línea, en f7, g7 y h7 están los propios peones negros, y ninguna pieza negra puede capturar ni tapar.\n\nCuando el rey rival está detrás de una fila de peones intactos, busca primero un jaque de torre en la última fila."
+}

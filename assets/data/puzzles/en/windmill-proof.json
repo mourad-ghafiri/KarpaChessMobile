@@ -1,0 +1,13 @@
+{
+  "id": "windmill-proof",
+  "fen": "r4n1k/pq1n2Rp/1p3B2/2p5/8/2P4P/PP3PP1/6K1 w - - 0 1",
+  "solution": [
+    "Rxd7+",
+    "Kg8",
+    "Rxb7"
+  ],
+  "title": "Rob the Guard First",
+  "setup": "Your rook on g7 stands between your bishop and Black's king, so any rook move gives check. Pick the one Black cannot answer with a capture.",
+  "hint": "A discovered check can be answered by capturing the piece that gives it. Find what can take your bishop, and make that impossible.",
+  "explanation": "## The Idea\n\nEvery rook move checks. Most let the knight on d7 take the bishop on f6, and the two double checks, on g8 and h7, hand the king your rook. {{Rxd7+}} takes that knight instead, so the check stands and {{Kg8}} is the only legal move.\n\nThe rook on d7 now looks along the seventh rank at the queen, and the queen has no time to escape: {{Rxb7}} takes it. The rook checked, and robbed twice."
+}

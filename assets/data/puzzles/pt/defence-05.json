@@ -1,0 +1,14 @@
+{
+  "id": "defence-05",
+  "fen": "3Q4/bq6/5R2/8/8/7r/4K3/2k5 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kb1",
+    "Rf1#"
+  ],
+  "rating": 1610,
+  "title": "Duas Jogadas, Nem Mais",
+  "setup": "O teu rei em e2 está encaixotado pela dama, pela torre e pelo bispo pretos, e o rei preto chegou-se a c1.",
+  "hint": "Não podes defender e atacar ao mesmo tempo. Descobre quantos xeques tens e se eles se esgotam.",
+  "explanation": "## A Ideia\n\n{{Qd2+}} força {{Kb1}}, e {{Rf1#}} dá mate pela primeira linha. Nunca houve uma jogada defensiva que valesse a pena — a posição foi decidida por quem tinha o ataque um tempo mais curto."
+}

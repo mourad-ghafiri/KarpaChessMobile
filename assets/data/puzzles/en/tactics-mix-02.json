@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-02",
+  "fen": "6k1/ppp2p1p/6p1/8/8/2N1P3/PPP2PPb/5K2 w - - 0 1",
+  "solution": [
+    "g3"
+  ],
+  "title": "Shut the Door on h2",
+  "setup": "Black's bishop has just taken your h-pawn. Find the move that makes sure it never gets back out.",
+  "hint": "Count the bishop's ways home. One pawn move can shut both, as long as that pawn is guarded.",
+  "explanation": "## The Idea\n\n{{g3}} walls the bishop in. From h2 it has two ways out, and both are gone: your king on f1 covers g1, and the pawn on g3 is guarded by the pawn on f2.\n\nNext comes Kg2, and the bishop is lost. The most Black can get for it is a single pawn, by taking on g3."
+}

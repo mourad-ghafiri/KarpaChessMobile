@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-11",
+  "fen": "1r3kr1/pbpBnp1p/1b3P2/8/8/B1P2q2/P4PPP/3R2K1 w - - 4 24",
+  "solution": [
+    "Bxe7#"
+  ],
+  "rating": 885,
+  "title": "O Peão Faz o Trabalho",
+  "setup": "O teu bispo em a3 aponta ao cavalo de e7, e o teu peão em f6 cobre as casas ao lado do rei.",
+  "hint": "O rei preto não pode dar um passo, portanto encontra o xeque que aterra numa casa que o teu peão defende.",
+  "explanation": "## A Ideia\n\nO rei de f8 está emparedado pela sua própria torre de g8 e pelo peão de f7, o peão de f6 tira g7 e e7, e o bispo de d7 cobre e8. {{Bxe7#}} elimina o último defensor e dá xeque de uma casa que esse mesmo peão guarda, portanto o rei não pode capturar."
+}

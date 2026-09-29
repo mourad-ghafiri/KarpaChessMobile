@@ -1,0 +1,12 @@
+{
+  "id": "smothered-01",
+  "fen": "6rk/pp4pp/1q6/6N1/8/8/P4PPP/3R2K1 w - - 6 26",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1150,
+  "title": "La Sua Stessa Torre",
+  "setup": "Il Nero ha appena fatto scivolare una torre in g8, e adesso ogni casa accanto al suo re è occupata.",
+  "hint": "Prima di andare a caccia di uno scacco, contate quante case vuote il re nero possa davvero usare.",
+  "explanation": "## L'idea\n\nIl re in h8 è murato dalla propria torre e dai propri pedoni, quindi uno scacco che non può catturare è matto. Un cavallo potrebbe dare scacco da g6, ma il pedone h lo prenderebbe; {{Nf7#}} dà scacco dall'unica casa che nessun pezzo nero copre. Quando un re è inscatolato, smettete di contare il materiale e cominciate a contare gli scacchi."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "forks-03",
+  "fen": "4k3/8/8/3q4/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nf6+"
+  ],
+  "title": "Il Cavallo Inforchetta i Reali",
+  "setup": "Il re nero in e8 e la donna in d5 sono tutti e due a un balzo di cavallo dalla stessa casa.",
+  "hint": "Cercate una casa su cui il cavallo possa atterrare colpendo **insieme** il re e la donna.",
+  "explanation": "## L'idea\n\nUna **forchetta reale**: re e donna colpiti da una mossa. La casa f6 è a un balzo di cavallo da e8 e a un balzo di cavallo da d5, quindi atterrarci li tocca tutti e due insieme.\n\n{{Nf6+}} non si può parare, perché un cavallo non attraversa mai le case in mezzo, e né il re né la donna arrivano a f6 a prenderlo. Il re deve muovere, e {{Nxd5}} raccoglie la donna.\n\nTrovate la casa che è a un balzo di cavallo dal re e a un balzo di cavallo da qualcosa di prezioso."
+}

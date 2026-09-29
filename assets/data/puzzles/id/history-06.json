@@ -1,0 +1,13 @@
+{
+  "id": "history-06",
+  "fen": "bq1b3r/3n1k2/p3p1p1/Np1pPp1p/1P1N1P2/P2PB3/2Q3PP/2R3K1 w - - 4 27",
+  "solution": [
+    "Nac6",
+    "Qb7",
+    "Nxd8+"
+  ],
+  "title": "Lubang Itu Membayar",
+  "setup": "Steinitz melawan Sellman, Baltimore 1885, dua puluh enam langkah kemudian dan tanpa satu pun pengorbanan. Saatnya menguangkan lubang yang ditemukan pelajaran tadi.",
+  "hint": "Satu petak jauh di kubu Hitam tak akan pernah bisa diserang pion lagi. Dua kuda bisa merebutnya — pilih kuda yang tak punya pekerjaan lebih baik.",
+  "explanation": "## Ide\n\nDua puluh enam langkah kemudian, c6 masih sebuah lubang: pion b dan pion d Hitam sudah melewatinya untuk selamanya.\n\n{{Nac6}} mendarat di sana dan menyerang menteri di b8 dan gajah di d8 sekaligus. {{Qb7}} menyelamatkan menteri, dan {{Nxd8+}} mengambil gajah dengan sekak.\n\nBenteng menangkap balik dan materi seimbang, tetapi satu-satunya gajah petak gelap milik Hitam sudah hilang. Gunakan kuda di a5: kuda di d4 menekan b5, e6 dan f5, dan memindahkannya melepaskan ketiganya."
+}

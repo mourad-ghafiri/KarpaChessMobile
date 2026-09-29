@@ -1,0 +1,14 @@
+{
+  "id": "fork-09",
+  "fen": "3rr1k1/5ppp/8/8/3n4/8/5PPP/2Q2RK1 b - - 1 1",
+  "solution": [
+    "Ne2+",
+    "Kh1",
+    "Nxc1"
+  ],
+  "rating": 990,
+  "title": "The Royal Fork",
+  "setup": "White has just moved its rook to f1, leaving its king and its queen a knight leap apart.",
+  "hint": "The white king and queen stand on two squares that a single knight square touches. Find it, then check it is safe.",
+  "explanation": "## The Idea\n\n{{Ne2+}} hits g1 and c1 on the same move, and nothing covers e2: the rook on f1 and the queen on c1 both look past it. {{Kh1}} is the only square left, and {{Nxc1}} takes the queen. King and queen a knight leap apart is the fork you check for first."
+}

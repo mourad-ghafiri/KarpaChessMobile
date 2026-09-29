@@ -1,0 +1,11 @@
+{
+  "id": "forks-04",
+  "fen": "8/p3k1pp/1r6/8/8/2N5/PP4PP/6K1 w - - 0 1",
+  "solution": [
+    "Nd5+"
+  ],
+  "title": "Xeque Primeiro, Recolha Depois",
+  "setup": "A torre preta em b6 não tem defensor, e o rei preto está no meio do tabuleiro.",
+  "hint": "Encontra um salto de cavalo que dê xeque e ataque outra coisa ao mesmo tempo.",
+  "explanation": "## A Ideia\n\n{{Nd5+}} dá xeque ao rei de e7 e ataca a torre de b6 num só salto. Nada de preto pode comer o cavalo em d5, e o rei tem de responder primeiro ao xeque, portanto depois de ele mexer, {{Nxb6}} ganha a torre.\n\nUm garfo de cavalo é mais forte quando um dos dois alvos é o rei: o xeque tira às pretas a hipótese de salvar a outra peça."
+}

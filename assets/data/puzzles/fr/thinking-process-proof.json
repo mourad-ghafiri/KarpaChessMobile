@@ -1,0 +1,11 @@
+{
+  "id": "thinking-process-proof",
+  "fen": "6k1/5ppp/1Q6/4r3/4n2P/7P/5PP1/1qR3K1 b - - 0 1",
+  "solution": [
+    "Qxc1+"
+  ],
+  "title": "Deux prises, un échec",
+  "setup": "La dame blanche en b6 est sans protection, et la tour en c1 attaque votre dame. Posez les trois questions avant de prendre quoi que ce soit.",
+  "hint": "Les Blancs menacent un échec sur la huitième rangée auquel votre roi ne peut pas échapper. L'une de vos prises arrive avec échec, et un échec ne peut pas être ignoré.",
+  "explanation": "## L'idée\n\nPremière question : les Blancs menacent de prendre votre dame, et de donner échec sur la huitième rangée, où votre roi n'a aucune case de fuite.\n\nLa deuxième question trouve deux prises. {{Qxb6}} gagne une dame, et la troisième question l'écarte : la tour donne échec en c8, et le mat suit.\n\n{{Qxc1+}} gagne une tour avec échec, depuis une case que rien n'attaque. Les Blancs doivent parer l'échec, et vous avez une tour et un cavalier d'avance, avec le temps de régler la menace."
+}

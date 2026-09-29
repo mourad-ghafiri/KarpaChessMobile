@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-01",
+  "fen": "6k1/5ppp/8/8/8/8/1r3PPP/4R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 700,
+  "title": "Agarrar o Peão",
+  "setup": "As pretas acabaram de comer um peão em b2 com a torre, deixando a sua oitava linha completamente nua.",
+  "hint": "O rei preto tem três peões seus mesmo à frente. O que é que isso lhe deixa?",
+  "explanation": "## A Ideia\n\n{{Re8#}}. O rei em g8 tem f7, g7 e h7 bloqueadas pelos seus próprios peões, e todas as casas da oitava linha pertencem à torre. Um rei atrás de três peões intocados está a um xeque na linha de fundo do mate sempre que nada guarde essa linha."
+}

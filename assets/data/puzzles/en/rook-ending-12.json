@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-12",
+  "fen": "8/4P3/1R5K/8/8/4k3/8/4r3 b - - 0 1",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1600,
+  "title": "Off the Promotion File",
+  "setup": "Black's rook holds the e-pawn from e1 and the king must hurry back, but only one route survives.",
+  "hint": "Your rook guards the queening square down the file. Which single step home neither blocks that line nor loses a tempo?",
+  "explanation": "## The Idea\n\nThe rook holds e8 along the file, so the king must not stand on it: {{Ke4}} loses to {{e8=Q+}}, a check that skewers the king to the rook behind it. From d3 or f3, {{Rb7}} gains White the tempo it needs. After {{Kd4}}, {{e8=Q}} {{Rxe8}} leaves only a drawn rook ending."
+}

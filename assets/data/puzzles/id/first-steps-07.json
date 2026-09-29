@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-07",
+  "fen": "7k/2p5/3p1b2/8/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxf6"
+  ],
+  "title": "Gratis atau Dijaga?",
+  "setup": "Kuda Anda di e4 dapat menangkap dua buah hitam yang berbeda — tetapi hanya satu yang benar-benar gratis.",
+  "hint": "Sebelum merebut, tanyakan: siapa yang menangkap balik? Periksa pembela d6 dan f6.",
+  "explanation": "## Ide\n\nDua penangkapan menggoda:\n\n- {{Nxd6}} merebut sebuah pion, tetapi pion di c7 **melindungi d6** dan langsung menangkap balik. Anda akan menukar kuda bernilai tiga poin dengan pion bernilai satu poin.\n- {{Nxf6}} merebut gajah, dan **tak ada yang melindungi f6**. Tiga poin bersih.\n\nPertanyaan yang benar bukanlah \"apa yang bisa saya tangkap?\" melainkan \"apa yang bisa saya tangkap dengan gratis?\" Hitung para pembela sebelum setiap penangkapan."
+}

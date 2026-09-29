@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-06",
+  "fen": "r1b1k2r/ppppqppp/2n5/4n3/1PP2B2/5N2/1P1NPPPP/R2QKB1R b KQk - 0 8",
+  "solution": [
+    "Nd3#"
+  ],
+  "rating": 750,
+  "title": "El peón no puede comer",
+  "setup": "Las Blancas acaban de ganar un alfil en b4, y su rey se ha quedado encajonado en e1 detrás de sus propias piezas.",
+  "hint": "Tu dama de e7 ya domina la columna e. ¿Qué significa eso para el peón que está en ella?",
+  "explanation": "## La idea\n\n{{Nd3#}} cae en una casilla que solo defiende el peón de e2, y ese peón no se puede mover: la dama de e7 daría jaque por la columna e abierta. Un jaque de caballo nunca se puede tapar, y todas las casillas junto a e1 están ocupadas por piezas blancas."
+}

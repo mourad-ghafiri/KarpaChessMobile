@@ -1,0 +1,14 @@
+{
+  "id": "deflection-05",
+  "fen": "6rk/ppq3pp/8/4N3/8/6P1/P4PK1/3R4 w - - 1 2",
+  "solution": [
+    "Ng6+",
+    "hxg6",
+    "Rh1#"
+  ],
+  "rating": 1260,
+  "title": "O Único Trabalho do Peão h",
+  "setup": "O rei de h8 está encaixotado pela sua própria torre e pelo seu peão, e só o peão de h7 mantém a coluna h fechada.",
+  "hint": "A coluna h é a estrada até esse rei, e um peão tapa-a. Que xeque obriga o peão a mexer?",
+  "explanation": "## A Ideia\n\n{{Ng6+}} deixa às pretas uma jogada legal: {{hxg6}}. O peão tem de capturar, a coluna h escancara-se, e {{Rh1#}} chega. Um peão que tem de comer é um peão que deixou o seu posto. Procura defensores sem escolha, não só defensores que possas capturar."
+}

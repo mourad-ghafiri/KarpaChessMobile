@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-12",
+  "fen": "1B1R2r1/3Qb3/8/1K6/2p5/8/5k2/6R1 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kxg1",
+    "Qh2+",
+    "Kf1",
+    "Rd1#"
+  ],
+  "rating": 1750,
+  "title": "Serahkan Bentengnya",
+  "setup": "Raja Hitam di f2 tepat di samping benteng Anda di g1, dengan gajah di e7 dan benteng di g8 masih bertahan.",
+  "hint": "Benteng Anda diserang dan raja berada di sampingnya. Tanyakan apa yang terjadi jika ia dibiarkan mengambilnya.",
+  "explanation": "## Ide\n\n{{Qd2+}} tak menyisakan pilihan yang lebih baik bagi raja daripada {{Kxg1}} — raja berjalan ke sudut untuk mengambil. {{Qh2+}} menyegel h2 dan {{Rd1#}} memberi mat di lajur yang dikosongkan menteri. Langkah perburuan terbaik sering kali menyerahkan buah yang diinginkan raja."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-05",
+  "fen": "1k6/8/8/7r/8/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxh5"
+  ],
+  "title": "Jangkauan Menteri",
+  "setup": "Sebuah benteng hitam bersantai jauh di lajur h, merasa aman dari bahaya. Menteri Anda tahu yang sebenarnya.",
+  "hint": "Menteri juga bergerak seperti gajah. Telusuri diagonal dari d1 ke arah lajur h.",
+  "explanation": "## Ide\n\nDari d1, diagonal menteri melewati e2, f3, g4 dan tiba di h5, tempat benteng hitam duduk tanpa ada yang menjaganya.\n\n{{Qxh5}} menyeberangi separuh papan dalam satu langkah dan mengambil benteng itu. Ia datang lewat diagonal, sedangkan benteng hanya mengawasi garis lurus.\n\nMenteri adalah benteng dan gajah dalam satu buah. Saat berburu dengannya, periksa kedua jenis garis."
+}

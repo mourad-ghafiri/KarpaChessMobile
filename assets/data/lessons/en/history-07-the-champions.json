@@ -1,0 +1,68 @@
+{
+  "id": "the-champions",
+  "title": "Who Holds the Title",
+  "summary": "1886 to now, eighteen champions, and the four times the line broke",
+  "proof": "history-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Reykjavík, 1972",
+      "text": "A chess match made the front pages in countries that had never followed one.\n\nBobby Fischer arrived in Iceland late, complained about the cameras, lost the first game and then refused to play the second. Boris Spassky held the title, and the title had not left Soviet hands since 1948.\n\nThis is game six. Fischer has White, and it is White to move. What people still repeat about this game is not the result — it is what Spassky did once it was over."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Eleventh in Line",
+      "text": "Fischer becomes the eleventh world champion later that summer, and the ten who held the title before agreed on almost nothing.\n\nSteinitz said an attack has to be earned. Lasker kept the title for twenty-seven years, longer than anyone before or since, and was said to play the person as much as the board. Capablanca made winning look like nothing at all. The players who came up in the 1920s argued you could control the center without ever putting a pawn in it. The Soviet school turned preparation into an industry and held the title for twenty-four straight years."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "The Last Guard",
+      "text": "Black's knight on f6 is holding two jobs at once.\n\nIt covers g8 and h7, the only two squares the king on h8 can move to. And it blocks the f-file, where White has stacked rooks on f5 and f3.\n\nNothing else is coming to help. White's pawn on e6 is two squares from the eighth rank, so the rook on e7 has to stand in front of it and the queen on e8 is sitting on the square that pawn wants. The rook on c7 is free to go anywhere and has nothing to do when it gets there."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "prompt": "Give up a rook for the knight that covers g8 and h7, and make the recapture pull a pawn off the king.",
+      "targetSan": [
+        "Rxf6"
+      ],
+      "hint": "The king on h8 has one pawn beside it. If that pawn has to do the taking, which square does it leave behind?"
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "The Roof Comes Off",
+      "text": "{{Rxf6}}, and declining is not an option worth having — leaving the rook alone hands White a whole knight.\n\n{{gxf6}}, then. Now g7 is empty. The pawn that stood beside the king is on f6, where the rook on f3 is looking straight at it, and the king on h8 has nothing left but the pawn on h6."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4Pp1p/p1p5/P2pQ2P/1P1B1R2/6P1/6K1 w - - 0 39",
+      "title": "The Second Rook",
+      "text": "{{Rxf6}}. Same square, and this time nothing takes back: no black piece reaches f6 at all.\n\n{{Kg8}} {{Bc4}} {{Kh8}} — Spassky steps the king out and back, Fischer walks the bishop across to guard the pawn on e6. Black has spent two moves standing still. White has spent one and now has the bishop where it wanted it."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Where It Snapped",
+      "text": "Chess likes to tell the title as one line running hand to hand from 1886. It has snapped four times.\n\nAlekhine died holding it in 1946, and nobody held it until 1948. Fischer never defended: in 1975 it went to Karpov without a move being played. Kasparov and the challenger took their 1993 match outside FIDE, which crowned a rival champion, and there were two world titles for thirteen years, until Kramnik beat Topalov in 2006. Carlsen declined to defend in 2023, which is how Ding Liren became champion — and how Gukesh Dommaraju took it from Ding in December 2024, at eighteen, the youngest there has been."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Nothing Left to Move",
+      "text": "Black has two rooks to White's one and cannot use either.\n\nThe rook on e7 is still the only thing in front of the pawn on e6, and the queen on e8 is still standing on the square that pawn wants. Neither can leave. The rook on c7 may go where it likes, and there is nothing for it anywhere.\n\nWhich leaves the pawn on h6, guarded by nobody, with the rook on f6 already looking along the sixth rank at it.\n\n> A piece that cannot leave its square has stopped being a piece."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "prompt": "Add the queen to the rook's attack on h6, landing where nothing can take it and the rook on f6 gains a defender.",
+      "targetSan": [
+        "Qf4"
+      ],
+      "hint": "Rule out every square where the black queen or the pawn on h6 could take the queen, then stay on the file the rook already holds."
+    }
+  ]
+}

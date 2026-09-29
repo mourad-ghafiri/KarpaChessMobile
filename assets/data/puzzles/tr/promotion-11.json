@@ -1,0 +1,14 @@
+{
+  "id": "promotion-11",
+  "fen": "B5k1/P5p1/7p/8/8/8/2r2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kh8",
+    "a8=Q+"
+  ],
+  "rating": 1370,
+  "title": "Fil Kenara Çekiliyor",
+  "setup": "a7 piyonunuz vezir olmaya bir kare uzaklıkta ve kendi filiniz tam yolunda, a8'de oturuyor.",
+  "hint": "Filin boşaltması gerekiyor ve siyaha karışacak bedava bir hamle bırakmayan bir yere inmeli.",
+  "explanation": "## Fikir\n\n{{Bd5+}} a8'i, a2–g8 çaprazı boyunca şah çekerek boşaltır. Siyahın şaha cevap vermesi gerekir ve cevapların hiçbiri piyonu durdurmaz: {{Kh8}} ya da {{Kf8}} geldikten sonra {{a8=Q+}} üstelik şah çekerek terfi eder; {{Kh7}} geldikten sonra da piyon aynı şekilde vezir olur. Bütün mesele şah çekerek boşaltmaktır."
+}

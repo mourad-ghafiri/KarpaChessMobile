@@ -1,0 +1,11 @@
+{
+  "id": "rook-lift-proof",
+  "fen": "rn2r1k1/pp3p1p/2p1bp2/8/P1B2P2/B1P2R2/6PP/3R2K1 w - - 2 20",
+  "solution": [
+    "Rg3+"
+  ],
+  "title": "Por la tercera fila",
+  "setup": "Chigorin contra Lebedev, Moscú 1900/01. Tu torre ya ha subido de la última fila, y la columna g entre tu tercera fila y el rey negro está vacía.",
+  "hint": "Primero subir, después cruzar. ¿Qué casilla de tu tercera fila está frente al rey negro?",
+  "explanation": "## La idea\n\n{{Rg3+}} termina la elevación: la torre que subió a f3 se desliza hasta la columna g vacía y da jaque. El rey no puede usar f8, que cubre tu alfil de a3, así que las Negras tienen dos respuestas: {{Kh8}}, a la esquina, o {{Bg4}}, un alfil devuelto solo para tapar.\n\nChigorin siguió con {{Be7}} y ganó."
+}

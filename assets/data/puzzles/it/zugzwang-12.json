@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-12",
+  "fen": "3K2k1/1B6/8/6pR/8/8/5p1R/8 w - - 0 1",
+  "solution": [
+    "Ke7",
+    "f1=Q",
+    "Rxg5#"
+  ],
+  "rating": 1800,
+  "title": "Il Vostro Re Dice Passo",
+  "setup": "Il re nero è in g8, un pedone in f2 sta per promuovere e un altro sta in g5; tutte e due le vostre torri sono sull'ala di re.",
+  "hint": "Ogni mossa di pezzo che trovate rovina qualcosa. Resta un pezzo che può muovere senza costi.",
+  "explanation": "## L'idea\n\n{{Ke7}} copre f8 e consegna la mossa al Nero. {{f1=Q}} è il tentativo migliore fra le sei mosse del Nero e arriva dalla parte sbagliata della scacchiera; {{Rxg5#}} dà matto. Le mosse d'attesa più difficili sono quelle fatte dal re."
+}

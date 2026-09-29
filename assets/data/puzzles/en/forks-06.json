@@ -1,0 +1,13 @@
+{
+  "id": "forks-06",
+  "fen": "6k1/pp2rpp1/7p/n7/3Q4/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kh7",
+    "Qxa5"
+  ],
+  "title": "Queen Forks Across the Board",
+  "setup": "Black's knight on a5 has drifted to the edge with no defender, and Black's back rank is empty.",
+  "hint": "Find a queen check that also lands on the knight's diagonal.",
+  "explanation": "## The Idea\n\nA queen fork does not need the two targets to be close together, only on lines that meet.\n\n{{Qd8+}} checks the king on g8 along the back rank and attacks the knight on a5 along the diagonal. Black has to answer the check, with {{Kh7}} or a block on e8, and neither saves the knight: {{Qxa5}} collects it from across the board.\n\nLook for the square where a check and a loose piece share the queen's lines."
+}

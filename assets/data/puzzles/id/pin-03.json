@@ -1,0 +1,12 @@
+{
+  "id": "pin-03",
+  "fen": "8/1k2pp2/1b6/3r4/8/P2BP3/3R4/4K3 w - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "rating": 880,
+  "title": "Dua Penyerang, Tanpa Jalan Keluar",
+  "setup": "Gajah Anda di d3 berdiri di depan benteng Anda sendiri, dan benteng hitam di d5 menghalangi keduanya.",
+  "hint": "Gajah Anda menghalangi benteng Anda sendiri. Ke mana ia bisa pergi sehingga benteng hitam tetap tak bisa bergerak satu petak pun?",
+  "explanation": "## Ide\n\n{{Be4}} mengerjakan dua tugas sekaligus. Ia menjepit benteng di **d5** terhadap raja di **b7**, dan dengan meninggalkan d3 ia membiarkan benteng Anda di **d2** ikut menyerang d5. Dua penyerang, tanpa pembela, dan benteng yang tak diizinkan bergerak."
+}

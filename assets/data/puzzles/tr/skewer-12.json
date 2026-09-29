@@ -1,0 +1,14 @@
+{
+  "id": "skewer-12",
+  "fen": "8/1r5R/2kpB3/1bp1R3/3P4/2P2P2/4P3/K7 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kb6",
+    "Rxb7+"
+  ],
+  "rating": 1300,
+  "title": "Fil Kuruyor, Kale Alıyor",
+  "setup": "Siyahın c6'daki şahının tam arkasında b7'de bir kalesi var ve kaleniz yedinci yatayın çoktan sahibi.",
+  "hint": "Hangi taş, şahın içinden geçip arkasında bekleyen kaleye kadar uzanan bir çaprazda şah çekebilir?",
+  "explanation": "## Fikir\n\n{{Bd5+}} şiştir: d5–c6–b7 çaprazı şahı ve arkasındaki kaleyi taşır. **e5**'teki kaleniz d5'i koruduğu için şah alınamaz. {{Kb6}} geldikten sonra {{Rxb7+}} kaleyi kazanır, çünkü fil artık b7'yi de kapsar."
+}

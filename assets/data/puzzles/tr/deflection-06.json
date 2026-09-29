@@ -1,0 +1,14 @@
+{
+  "id": "deflection-06",
+  "fen": "krN5/pp5q/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Nb6+",
+    "axb6",
+    "Ra1#"
+  ],
+  "rating": 1300,
+  "title": "a Piyonu Almak Zorunda",
+  "setup": "Siyahın şahı kendi kalesi ve piyonlarının arkasında köşede oturuyor ve içeri giden tek yol a dikeyi.",
+  "hint": "Şahın hiç kurallı hamlesi yok. Tek cevabı, istediğiniz dikeyi açan şahı bulun.",
+  "explanation": "## Fikir\n\n{{Nb6+}} hamlesine tam olarak tek bir şekilde cevap verilebilir: {{axb6}}. a piyonu a dikeyinden sürüklenir ve {{Ra1#}} açılan yoldan dosdoğru iner. Seçeneği olmayan bir koruyucuya her şeyi verin."
+}

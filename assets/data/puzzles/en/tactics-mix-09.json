@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-09",
+  "fen": "r3k3/8/8/8/8/8/R7/4K3 w - - 0 1",
+  "solution": [
+    "Rxa8+"
+  ],
+  "title": "Take the Loose Rook",
+  "setup": "Two rooks face each other on the **a-file** — and Black's king is also on the back rank.",
+  "hint": "Check which of the two rooks on the a-file has a defender.",
+  "explanation": "## The Idea\n\nThe black rook on a8 has no defender: the king on e8 is four squares away. {{Rxa8+}} takes it with check, the king must step off the back rank, and you are left with king and rook against a bare king, a forced win.\n\nYour rook on a2 was just as loose, so with Black to move it would have fallen instead. When two loose pieces face each other, whoever moves first wins."
+}

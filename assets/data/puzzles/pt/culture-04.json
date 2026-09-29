@@ -1,0 +1,13 @@
+{
+  "id": "culture-04",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/P1N2N1P/1P2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "hxg4",
+    "Nxe2+"
+  ],
+  "title": "Não Recues",
+  "setup": "As brancas acabaram de enxotar o teu cavalo com o peão h e, com quatrocentos pontos a mais, esperam plenamente que o mandes de volta.",
+  "hint": "O teu cavalo em g4 está atacado: para de o defender e pergunta o que poderia o outro cavalo atingir.",
+  "explanation": "## A Ideia\n\n{{Nd4}} ignora o cavalo atacado e atinge a dama de e2, a única peça que segura o bispo de c4 e o cavalo de f3.\n\nO melhor para as brancas é {{hxg4}}, e {{Nxe2+}} come a dama. Dois cavalos por uma dama deixam-te uma peça limpa à frente.\n\nA captura natural é muito pior. Depois de {{Nxd4}} o cavalo que guardava h2 desapareceu, e {{Qh2#}} encerra o assunto, com o cavalo de g4 a defender a dama.\n\nQuando uma peça está atacada, procura um ataque maior antes de procurares uma casa."
+}

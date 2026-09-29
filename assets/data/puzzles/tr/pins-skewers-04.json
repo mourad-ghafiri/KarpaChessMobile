@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-04",
+  "fen": "3k4/8/8/3q4/8/8/3R4/3K4 w - - 0 1",
+  "solution": [
+    "Rxd5+"
+  ],
+  "title": "Uzaktan Açmaz",
+  "setup": "Siyahın veziri d dikeyinde, kendi şahı ile kaleniz arasında duruyor ve sıra sizde.",
+  "hint": "Bir taş açmazdayken mesafe savunma değildir. Alın.",
+  "explanation": "## Fikir\n\nd5'teki vezir d8'deki şaha karşı açmazda, ama açmaz bir taşı dondurmaz: açmaz hattı boyunca hâlâ oynayabilir ve {{Qxd2+}} siyahın tehdididir.\n\nÖyleyse önce siz alın. {{Rxd5+}} veziri şah çekerek kazanır ve d8'deki şah geri almak için fazla uzaktadır. Başka her hamle siyahın veziri kaleye değişmesine izin verir ve parti berabere biter.\n\nAçmazdaki taş, kendisini açmaza alan hat boyunca hâlâ taş alabilir."
+}

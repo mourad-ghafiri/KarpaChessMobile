@@ -1,0 +1,14 @@
+{
+  "id": "smothered-08",
+  "fen": "6k1/pp4pp/8/2q5/8/7n/P1P3PP/3R1R1K b - - 7 28",
+  "solution": [
+    "Qg1+",
+    "Rxg1",
+    "Nf2#"
+  ],
+  "rating": 1375,
+  "title": "Menteri untuk Satu Petak",
+  "setup": "Putih baru saja menurunkan benteng dari d2 ke baris belakang, dan hanya benteng di f1 yang masih mengawasi f2.",
+  "hint": "Kuda Anda di h3 sudah menguasai g1; tanyakan apa yang akan terjadi jika benteng putih dipaksa berdiri di sana.",
+  "explanation": "## Ide\n\n{{Qg1+}} tak bisa dijawab raja, karena kuda di h3 melindungi g1. Jadi {{Rxg1}} terpaksa, dan tangkapan balik itu mengisi petak yang justru dibutuhkan raja. {{Nf2#}} lalu mendarat di tempat benteng, raja dan kedua pion semuanya memandang melewatinya."
+}

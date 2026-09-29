@@ -1,0 +1,71 @@
+{
+  "id": "deflection",
+  "title": "La déviation",
+  "summary": "Certains gardiens ne peuvent pas être pris. On peut quand même les envoyer ailleurs.",
+  "proof": "deflection-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "La case qui conclut",
+      "text": "e8 conclut cette partie. Toute pièce blanche qui y arrive met en échec le roi en g8, et ce roi a ses trois propres pions là où devraient être ses cases de fuite.\n\nLes Blancs ont deux pièces sur la colonne e, la dame devant et la tour derrière. La tour ne peut pas atteindre e8 — sa propre dame est en travers. La dame, si.\n\nMais la dame peut aussi y être prise. La tour en d8 couvre e8 le long de la huitième rangée, et aucune autre pièce noire ne le fait."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Comment déplacer une pièce adverse",
+      "text": "Vous avez déjà deux façons d'arrêter un gardien : le prendre, ou le chasser de sa case. Aucune n'est disponible. Rien chez les Blancs n'attaque d8, et tous les pions blancs sont encore sur la deuxième rangée.\n\nLa tour doit donc bouger d'elle-même. Vous ne pouvez envoyer une pièce adverse nulle part. Vous pouvez seulement rendre une autre case plus précieuse pour elle que celle où elle se tient — et la version la plus forte, c'est une case sur laquelle elle n'a légalement pas le choix."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Obligez la tour en d8 à quitter d8 avec un coup qu'elle n'a aucun moyen légal de refuser.",
+      "targetSan": [
+        "Qe8+"
+      ],
+      "hint": "Une seule pièce blanche peut atteindre e8, et une seule pièce noire peut y répondre."
+    },
+    {
+      "type": "teach",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "title": "Personne n'a choisi ici",
+      "text": "Les Noirs ne choisissaient pas entre plusieurs options. Il existait un seul coup légal sur tout l'échiquier, et voici la position qu'il a produite.\n\nLa tour est en e8 et elle n'est plus en d8. C'est toute l'idée, et elle a un nom : une **déviation** oblige un défenseur à se trouver ailleurs au moment où l'on a besoin de lui. Qu'il survive au déplacement n'a aucune importance.\n\nLa huitième rangée compte maintenant deux pièces noires, cette tour et le roi en g8. Le roi couvre f8 et h8. Rien ne couvre e8."
+    },
+    {
+      "type": "play",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "prompt": "Plus rien ne garde la huitième rangée : prenez la tour qui s'y trouve et terminez la partie.",
+      "targetSan": [
+        "Rxe8#"
+      ],
+      "hint": "Il n'existe qu'une seule prise sur cet échiquier, et le roi n'a que ses propres pions derrière lui."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5pp1/7p/8/4Q3/8/5PPP/4R1K1 w - - 0 1",
+      "title": "Changez un seul pion",
+      "text": "Les Blancs ont donné une dame contre une tour sans jamais avoir à compter, parce que le coup suivant était mat.\n\nIci, le pion h est en h6 et le roi a une case. {{Qe8+}} {{Rxe8}} {{Rxe8+}} {{Kh7}} : la tour a pris, la huitième rangée s'est ouverte, et le roi est simplement sorti du coin.\n\nLes Blancs ont payé une dame pour une tour, et le mat pour lequel ils ont payé n'existe pas.\n\n> Une déviation ne vaut que ce que vaut le coup qu'elle rend possible."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "Un échange qui ne rapporte rien",
+      "text": "Un autre échiquier, et aucun mat nulle part.\n\nVotre fou en b2 regarde le long de la grande diagonale le cavalier en e5. {{Bxe5}} gagne un cavalier pendant environ une demi-seconde — le fou noir en c7 reprend, trois contre trois, et vous avez dépensé un fou pour ne rien changer.\n\nRegardez donc de nouveau e5. Un attaquant blanc, un défenseur noir, et ce défenseur est le fou en c7, que rien chez les Blancs n'attaque et qu'aucun pion blanc ne viendra jamais chasser."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "Ailleurs, pour un coup",
+      "text": "Le fou en c7 doit être ailleurs. Pas disparu — ailleurs, et seulement pendant le coup dont vous avez besoin.\n\nL'attaquer ne suffit pas. Il se décale en d6 et surveille e5 depuis là.\n\nCessez donc de regarder le fou et regardez la huitième rangée. La tour noire est en d8, votre tour en d1 la fixe droit le long de la colonne, et le roi en g8 a trois pions et pas d'air."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "prompt": "Obligez le fou en c7 à cesser de surveiller e5, avec un coup auquel les Noirs n'ont qu'une seule réponse.",
+      "targetSan": [
+        "Rxd8+"
+      ],
+      "hint": "Demandez-vous ce qui pourrait reprendre en d8, et remarquez où se trouve cette pièce en ce moment."
+    }
+  ]
+}

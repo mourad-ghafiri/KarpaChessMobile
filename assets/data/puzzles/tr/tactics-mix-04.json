@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-04",
+  "fen": "4k3/P7/8/8/8/1K6/7p/8 w - - 0 1",
+  "solution": [
+    "a8=Q+"
+  ],
+  "title": "Şahla Gelen Terfi",
+  "setup": "İki tarafın da vezir olmaya bir adım kalmış birer piyonu var ve sıra sizde.",
+  "hint": "Yeni vezirinizin aynı zamanda siyahın piyonunu durdurması gerekiyor. Vakti ona bir şah kazandırır.",
+  "explanation": "## Fikir\n\n{{a8=Q+}} şah çekerek terfi eder. Siyahın hamlesini şaha harcaması gerekir ve ardından {{Qh1}}, h piyonunu vezir olmasına bir kare kala durdurur. {{Kc2}} gibi daha yavaş her şey {{h1=Q}} hamlesine izin verir ve elinizde vezire karşı vezir kalır.\n\nBir yarışta şah çekerek yapılan terfi tam bir tempo değerindedir."
+}

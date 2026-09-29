@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-02",
+  "fen": "rnbqk2r/pppp1ppp/5n2/2b1p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4",
+  "solution": [
+    "Qxf7#"
+  ],
+  "rating": 630,
+  "title": "İki Saldıran, Bir Koruyucu",
+  "setup": "h5'teki veziriniz ile c4'teki filiniz f7'ye, yani yalnızca siyahın şahının koruduğu kareye dikilmiş.",
+  "hint": "İki taşınız aynı kareye çoktan vuruyor. Siyahın orada kaç koruyucusu olduğunu sayın.",
+  "explanation": "## Fikir\n\nf7'yi yalnızca şah korur ve iki saldıran bir koruyucuyu yener. {{Qxf7#}} şahın yanına iner; c4'teki fil onu koruduğu için alınamaz. e7 ile f8'i vezirin kendisi kapsar; d7 ile d8'i siyahın kendi taşları kapatır."
+}

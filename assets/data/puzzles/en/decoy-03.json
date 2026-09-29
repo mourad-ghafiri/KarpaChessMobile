@@ -1,0 +1,14 @@
+{
+  "id": "decoy-03",
+  "fen": "6k1/pp3ppp/1q6/r7/8/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Qxd8",
+    "Rxd8#"
+  ],
+  "rating": 1230,
+  "title": "Queen for a Square",
+  "setup": "Your queen and rook are stacked on the d-file, and the black king has no air behind its pawns.",
+  "hint": "The back rank is the weakness. What can you put on d8 that Black is obliged to capture?",
+  "explanation": "## The Idea\n\n{{Qd8+}} offers the queen on the one square Black must take: {{Qxd8}} is its only legal move. The black queen now stands on the back rank in front of your rook, and {{Rxd8#}} ends it. Ask which square would be fatal for an enemy piece, then make it go there."
+}

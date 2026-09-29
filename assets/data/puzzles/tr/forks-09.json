@@ -1,0 +1,11 @@
+{
+  "id": "forks-09",
+  "fen": "6k1/ppp2ppp/8/2b1n3/8/2PP4/PP3PPP/R5K1 w - - 0 1",
+  "solution": [
+    "d4"
+  ],
+  "title": "Çatallayan Piyon",
+  "setup": "Siyahın fili ile atı c5 ve e5'te duruyor ve piyonlarınız tam altlarında.",
+  "hint": "Piyon önündeki iki çapraz kareye saldırır. Hangi piyon adımı siyahın iki taşına birden dokunuyor?",
+  "explanation": "## Fikir\n\n{{d4}} aynı anda c5'teki file ve e5'teki ata saldırır ve c3'teki piyon onu korur. {{Bxd4}} {{cxd4}} yine yalnızca ata vurur ve {{Nf3+}} {{gxf3}} atı şahla birlikte elden çıkarır. Her hâlükârda siyah bir piyon karşılığında bir taş kaybeder.\n\nEn ucuz taş en iyi çatalı yapar, çünkü vurduğu her şey ondan değerlidir."
+}

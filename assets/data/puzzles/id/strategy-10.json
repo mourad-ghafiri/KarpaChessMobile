@@ -1,0 +1,11 @@
+{
+  "id": "strategy-10",
+  "fen": "r1bq1rk1/5ppp/p1np1b2/1p1Np3/4P3/N1P5/PP3PPP/R2QKB1R w KQ - 1 12",
+  "solution": [
+    "Nc2"
+  ],
+  "title": "Kuda di Tepi",
+  "setup": "Kuda Putih diusir ke a3 pada pembukaan dan sejak itu tak berbuat apa-apa. Pion-pion Hitam menguasai jalan keluarnya. Mulailah perjalanannya di rute yang lebih baik.",
+  "hint": "Daftar setiap petak yang secara sah bisa dipakai kuda itu, lalu coret yang sudah diserang pion hitam.",
+  "explanation": "## Ide\n\nKuda di a3 adalah buah terburuk Putih. Pion-pion Hitam merebut petak-petak di depannya: b5 dilindungi pion a dan c4 dikuasai pion b, dan pulang ke b1 hanya membatalkan satu langkah.\n\n{{Nc2}} bukan kemunduran, melainkan etape pertama sebuah rute: c2, lalu e3, tempat ia menopang kuda di d5. Hitam melanjutkan dengan {{Bg5}}, dan Putih menempuh etape berikutnya dengan {{Nce3}}.\n\nBuah mana yang paling sedikit bekerja, di mana ia lebih suka berdiri, dan jalan mana yang terpendek ke sana?"
+}

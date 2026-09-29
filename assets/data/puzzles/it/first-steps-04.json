@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-04",
+  "fen": "k7/3q4/8/8/8/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Rxd7"
+  ],
+  "title": "La Torre su una Strada Aperta",
+  "setup": "La vostra torre e la donna nera condividono la colonna d spalancata — e muovete voi.",
+  "hint": "La colonna d è vuota fra i due pezzi pesanti. Chi colpisce per primo?",
+  "explanation": "## L'idea\n\nLa vostra torre e la donna nera si fronteggiano lungo la colonna d aperta, e **muove il Bianco**. Su una linea condivisa, chi muove per primo ci arriva per primo.\n\n{{Rxd7}} prende la donna. Il re nero in a8 non è neanche vicino a d7, quindi niente riprende.\n\nQuando un vostro pezzo e un pezzo avversario stanno sulla stessa linea aperta, prima di ogni altra cosa controllate di chi è il tratto."
+}

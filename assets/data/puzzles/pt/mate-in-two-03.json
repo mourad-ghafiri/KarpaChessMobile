@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-03",
+  "fen": "7k/5ppp/8/1Pq1R3/N7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Qf8",
+    "Rxf8#"
+  ],
+  "rating": 1000,
+  "title": "Desvia Quem Tapa",
+  "setup": "O rei preto esconde-se atrás de três peões na oitava linha enquanto a dama preta vagueia lá longe, em c5.",
+  "hint": "Um xeque na linha de fundo a que o rei não tem resposta. Que peça preta se pode meter pelo caminho, e onde?",
+  "explanation": "## A Ideia\n\n{{Re8+}} atinge a linha de fundo. O rei não tem casa nenhuma — f7, g7 e h7 são os seus próprios peões — portanto a dama tem de se interpor com {{Qf8}}. É esse o objetivo: {{Rxf8#}} elimina quem tapa e dá mate na mesma casa."
+}

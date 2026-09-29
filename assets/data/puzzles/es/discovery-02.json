@@ -1,0 +1,12 @@
+{
+  "id": "discovery-02",
+  "fen": "3r2k1/b4ppp/p7/8/3n4/5P2/P3Q1PP/4R1K1 b - - 0 1",
+  "solution": [
+    "Nxe2+"
+  ],
+  "rating": 1000,
+  "title": "Dos jaques a la vez",
+  "setup": "Tu alfil de a7 barre la gran diagonal hasta g1, y tu propio caballo de d4 la tapa.",
+  "hint": "Cuenta cuántas de tus piezas darían jaque en el instante en que el caballo deje d4.",
+  "explanation": "## La idea\n\n{{Nxe2+}} es un jaque doble: el caballo ataca g1 desde e2 y el alfil lo ataca por la diagonal a7-g1. A un jaque doble solo se puede responder moviendo el rey, así que Rxe2 es ilegal, y en la jugada siguiente el caballo simplemente se va, tras ganar la dama a cambio de nada."
+}

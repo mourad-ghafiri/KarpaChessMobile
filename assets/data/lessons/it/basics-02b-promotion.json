@@ -1,0 +1,56 @@
+{
+  "id": "promotion",
+  "title": "Niente Resta Pedone",
+  "summary": "Arrivate alla traversa opposta e il pedone sparisce: chi ci sta al suo posto lo dite voi",
+  "proof": "first-steps-19.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Lì Nessun Pedone Può Restare",
+      "text": "Un pedone sull'ottava traversa non esiste. Un pedone bianco che ci arriva — o un pedone nero che arriva sulla prima — non può restare quello che è.\n\nAllora le regole lo sostituiscono. Sulla casa su cui arriva, nella stessa mossa, il pedone lascia la scacchiera e al suo posto compare una **donna, una torre, un alfiere o un cavallo**. Questa è la **promozione**, ed è obbligatoria. Al pedone in e7 manca una casa e non ha modo di restare pedone.\n\nDue pezzi non sono mai in lista: un re e un altro pedone."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Dite in Che Cosa Si Trasforma",
+      "text": "Una mossa di promozione si scrive come ogni altra — la casa su cui il pedone arriva — e poi una cosa in più.\n\n{{e8=Q}}. Un segno `=` e la lettera del pezzo che volete lì. Cambiate quella lettera e cambiate ciò che compare: `R`, `B` oppure `N`.\n\nNon è una nota a piè di pagina. Una mossa che arriva sull'ultima traversa senza indicare un pezzo non è una mossa conclusa."
+    },
+    {
+      "type": "play",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Portate il pedone sull'ultima traversa e fate comparire il pezzo che vale nove punti.",
+      "targetSan": [
+        "e8=Q"
+      ],
+      "hint": "La mossa è conclusa solo quando avete detto chi resta su quella casa."
+    },
+    {
+      "type": "teach",
+      "fen": "4Q3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Nove Punti dal Nulla",
+      "text": "Un punto parte, nove punti arrivano. La donna in e8 è una donna come tutte le altre e spazza traverse, colonne e diagonali dall'istante in cui atterra: {{Qa4}}, {{Qh5}}.\n\nIn cambio non è stato dato nulla. Non la state ricomprando con qualcosa che il vostro avversario ha catturato, e non fa differenza se la vostra prima donna è ancora sulla scacchiera. Due donne sono legali. Anche tre.\n\n> Un pedone sulla settima traversa non vale un punto. Vale quello che sta per diventare."
+    },
+    {
+      "type": "teach",
+      "fen": "5r2/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Entrate Prendendo",
+      "text": "La promozione non è solo per i pedoni che camminano. Un pedone prende come ha sempre preso, una casa in diagonale in avanti, e l'ultima traversa non cambia niente.\n\nQui la cosa conta. La torre nera in f8 copre anche e8, quindi avanzare dritti significa regalare la nuova donna prima che abbia fatto qualcosa.\n\n{{exf8=Q}} svolge entrambi i compiti in una mossa: la torre esce e una donna si piazza in f8. La `x` e l'`=` significano quello che hanno sempre significato."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "title": "Quando la Donna Perde",
+      "text": "La donna è quasi sempre la risposta giusta. Qui vi fa prendere matto.\n\n{{e8=Q}} {{Qc1+}} {{Qe1}} {{Qxe1#}}. Nove punti nuovi, e il Nero non li guarda nemmeno: la donna in c7 dà scacco lungo la prima traversa, la vostra donna nuova può solo mettersi in mezzo e il vostro re, chiuso dai suoi stessi pedoni, non ha dove andare.\n\nLa donna in e8 non toccava né il re nero in g7 né la donna in c7. Promuovete invece a cavallo e li colpisce entrambi. Scegliere qualcosa di diverso dalla donna si chiama **sottopromozione**, e questo è il motivo quotidiano per farlo."
+    },
+    {
+      "type": "play",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "prompt": "Promuovete al pezzo che nella stessa mossa dà scacco al re nero e attacca la donna.",
+      "targetSan": [
+        "e8=N+"
+      ],
+      "hint": "Prendete una per una le quattro possibilità e chiedetevi che cosa attaccherebbero da e8."
+    }
+  ]
+}

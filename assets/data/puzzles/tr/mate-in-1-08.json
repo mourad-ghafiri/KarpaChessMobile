@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-08",
+  "fen": "7k/8/7K/7Q/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Qe8#"
+  ],
+  "title": "Çaprazdan Sıkıştırma",
+  "setup": "Şahınız ile veziriniz h dikeyinde üst üste duruyor ve siyahın şahı köşede kapana kısılmış. Mat yandan geliyor.",
+  "hint": "Cazip görünen bir vezir hamlesi şah çekmeden bütün kareleri alıyor; bu pattır. Şahınızın hâlâ g7'yi kapsadığı yerden şah çekin.",
+  "explanation": "## Fikir\n\nDoğal görünen {{Qg6}} pattır: şah yok ve siyahın kurallı hamlesi yok, yani yarım puan uçar. Bunun yerine {{Qe8#}} arka yatay boyunca şah çeker. g8 vezirin hattındadır, h6'daki şahınız g7 ile h7'yi kapsar ve hiçbir şey veziri alamaz ya da araya giremez.\n\nÇıplak şaha karşı vezirle oynarken son kareyi almadan önce hamlenizin şah çektiğinden emin olun."
+}

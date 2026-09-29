@@ -1,0 +1,13 @@
+{
+  "id": "openings-07",
+  "fen": "r2qkbnr/ppp2ppp/2np4/4N3/2B1P3/2N4P/PPPP1PP1/R1BbK2R w KQk - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Nd5#"
+  ],
+  "title": "A Armadilha de Légal",
+  "setup": "As brancas ignoraram a cravada e comeram em e5, e as pretas acabaram de cobrar comendo-te a dama.",
+  "hint": "A dama desapareceu e não faz diferença. Conta as casas à volta de e8 e encontra o xeque que tira a última livre.",
+  "explanation": "## A Ideia\n\nTrês peças menores estão prestes a dar mate a um rei cujo exército inteiro continua no tabuleiro.\n\n{{Bxf7+}} deixa às pretas uma jogada, {{Ke7}}: d8 e f8 têm a dama e o bispo das pretas, e d7 está coberta pelo cavalo de e5. Depois {{Nd5#}}: o cavalo dá xeque e cobre f6, o bispo cobre e6 e e8, e d6 tem o peão das pretas.\n\nO cavalo em e5 nunca esteve ali pelo peão. É a peça que tira d7.\n\nConta as casas de fuga, não o material."
+}

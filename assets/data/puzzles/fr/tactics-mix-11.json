@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-11",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+  "solution": [
+    "exd4"
+  ],
+  "title": "Répondez au pion central",
+  "setup": "Les Blancs ont poussé un second pion au centre, où il attaque votre pion en e5.",
+  "hint": "Votre pion e est attaqué. Quelle réponse élimine le pion central blanc au lieu de simplement défendre ?",
+  "explanation": "## L'idée\n\nLe pion blanc en d4 attaque votre pion en e5. {{exd4}} le prend, et les Blancs n'ont plus qu'un pion central. Si les Blancs reprennent par {{Qxd4}}, c'est la Partie du centre, et {{Nc6}} frappe la dame avec un coup de développement.\n\nIgnorez plutôt l'offre, et {{dxe5}} gagne votre pion, ou une poussée en d5 gagne de l'espace.\n\nQuand un pion central est attaqué, l'échanger contre l'attaquant est souvent la réponse la plus propre."
+}

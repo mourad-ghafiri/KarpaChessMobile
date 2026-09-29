@@ -1,0 +1,14 @@
+{
+  "id": "overload-10",
+  "fen": "2Q1b2k/4rppp/8/8/4R3/8/PP6/K6R w - - 0 1",
+  "solution": [
+    "Qxe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1580,
+  "title": "Kedua Buah di Satu Lajur",
+  "setup": "Hitam punya gajah di e8 dan benteng di e7, dan setiap buah berat Anda membidik lajur yang sama.",
+  "hint": "Ketika dua pembela berdiri di satu garis, hanya yang di depan yang bisa ditangkap. Tanyakan apa yang sebenarnya dilakukan yang kedua.",
+  "explanation": "## Ide\n\n{{Qxe8+}} memaksa {{Rxe8}} — benteng harus meninggalkan baris ketujuh — dan {{Rxe8#}} adalah mat karena pion-pion sendiri telah mengurung raja. Menumpuk pembela di satu lajur berarti kehilangannya satu demi satu."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "windmill",
+  "title": "Il Mulino",
+  "summary": "Una torre che dà scacco, deruba e torna indietro",
+  "proof": "windmill-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "title": "La Donna È l'Esca",
+      "text": "Mosca, 1925: Carlos Torre, con il Bianco, sta per consegnare la donna a Emanuel Lasker e uscirne con tre pedoni in più.\n\nTutto quello che il Bianco possiede punta già su una casa sola. La torre in g3 ha l'intera colonna g nel momento in cui viene sgombrata. L'alfiere in g5 è quello che sta sulla strada. E g7, il pedone che fa da scudo al re nero, è difeso da quel re e da nient'altro.\n\nLa donna nera in b5 non difende niente da quella parte della scacchiera."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "prompt": "Aggiungete un secondo attaccante su g7, e accettate che sgombrare la strada vi costi la donna.",
+      "targetSan": [
+        "Bf6"
+      ],
+      "hint": "La torre in g3 punta già su g7, e l'unica cosa che le sta sulla strada è vostra da muovere."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pb3pp1/3ppB1p/7q/1P1P4/4N1R1/P4PPP/4R1K1 w - - 0 26",
+      "title": "La Torre Entra",
+      "text": "Lasker ha preso la donna, e la colonna g si è aperta con un alfiere bianco seduto in f6, proprio addosso al riparo del re.\n\n{{Rxg7+}}. Il re non può prendere la torre, perché l'alfiere in f6 difende g7. Il cavallo del Nero sta in f8, quindi non c'è nessun altro posto dove andare: {{Kh8}} è l'unica mossa legale sulla scacchiera.\n\nIl Nero ha una donna in più. Adesso guardate dove sono finiti quei tre pezzi."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "La Torre in Mezzo",
+      "text": "L'alfiere in f6, la torre in g7 e il re nero in h8 stanno su una diagonale, in quest'ordine, con la torre in mezzo.\n\nTogliete la torre da quella diagonale e dietro di lei arriva lo scacco di scoperta dell'alfiere, così la torre prende quello che incontra mentre il Nero risponde. Riportatela in g7 e la torre dà scacco da sola, difesa dall'alfiere. Il re fa la spola fra due case e non ha mai una mossa sua. Questo è il mulino.\n\n> Una torre che dà scacco lasciando una diagonale e lo dà di nuovo tornandoci possiede l'intera traversa."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "title": "Un Giro Completo",
+      "text": "{{Rxf7+}} prende un pedone e sgombra la diagonale, quindi lo scacco arriva dall'alfiere. {{Kg8}}, unica mossa. {{Rg7+}} rimette la torre in mezzo, e {{Kh8}}, di nuovo unica mossa.\n\nContate che cosa è cambiato. Re di nuovo in h8, torre di nuovo in g7, la diagonale disposta esattamente come prima, e il Nero un pedone più povero. Niente impedisce al Bianco di rifare tutto daccapo.\n\nTorre fece girare il mulino ancora una volta, poi portò la torre in g5 e raccolse la donna in h5."
+    },
+    {
+      "type": "play",
+      "fen": "r3rn1k/pb4R1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 3 29",
+      "prompt": "Fate girare il mulino un'altra volta: uscite dalla diagonale per catturare l'unico pezzo che la vostra torre può prendere sulla settima traversa.",
+      "targetSan": [
+        "Rxb7+"
+      ],
+      "hint": "Lasciare la diagonale porta con sé lo scacco dell'alfiere: leggete lungo la settima traversa alla ricerca del premio più grosso."
+    }
+  ]
+}

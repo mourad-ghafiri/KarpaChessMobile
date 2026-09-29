@@ -1,0 +1,58 @@
+{
+  "id": "opposite-bishops",
+  "title": "Zıt Renk Filler",
+  "summary": "İki piyon önde ve elde hiçbir şey yok",
+  "proof": "endgames-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "İki Piyon Önde ve Sıkışmış",
+      "text": "Beyaz iki piyon önde; bu genellikle tartışmanın sonudur. Burada değil.\n\nFillerin ne üstünde durduğuna bakın. Siyahın c1'deki fili koyu karelerde yaşıyor. Beyazın d3'teki fili açık karelerde. Partinin sonuna kadar birbirlerine asla saldırmayacak, birbirlerinin önünü asla kesmeyecek, aynı kareyi asla paylaşmayacaklar.\n\nTek tahtada, birbirine dokunamayan iki ordu. Siyah bunun ne değerde olduğunu göstermek üzere ve değeri iki piyon."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "Piyonların İhtiyaç Duyduğu Kareler",
+      "text": "Piyon, sekizinci yataya ulaşarak terfi eder; öyleyse bu ikisinin hâlâ hangi kareleri kullanması gerektiğini sorun. f piyonunun sıradaki adımı f6 ve işini f8'de bitirir. h piyonu h8'de bitirir. Üç kare de koyu.\n\nBeyazın d3'teki fili bunların hiçbirine asla itiraz edemeyecek. O bir açık kare filidir ve bir fil rengini asla değiştirmez, ne oynayarak ne de başka bir yolla.\n\nYani bu oyun sonunu belirleyen kareler, yalnızca siyahın filinin ulaşabildiği karelerdir. Tek bir hamle onu, bunlardan ikisinden geçen bir hatta koyar ve oradan hiç ayrılması gerekmez."
+    },
+    {
+      "type": "play",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "prompt": "İki piyon geridesiniz; filinizi beyazın iki piyonunun da geçmek zorunda olduğu tek çaprazda park ederek beraberliği tutun.",
+      "targetSan": [
+        "Bb2"
+      ],
+      "hint": "f piyonunun hâlâ f6'ya adım atması, h piyonunun da h8'de bitirmesi gerekiyor — ikisinden birden geçen çaprazı bulun."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Üstüne Sürmek",
+      "text": "Sıra beyazda, iki fazladan piyonu var ve onları koyacak yeri yok.\n\n{{f6}} koyu bir kareye adım atar ve {{Bxf6}} cevabı gelir. Piyon korumasız varır: beyazın e4'teki şahı f6'ya ulaşamaz ve beyazın d3'teki fili koyu bir kareye hiç bakamaz.\n\nBu oyun sonlarının bütün hikâyesi budur. Fazladan piyonlar gerçektir ve yanlış renkte satın alınmıştır."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Gidebildiği Kadar",
+      "text": "Bunun yerine h piyonu koşsun. {{h6}} gelir ve siyahın karışmak için hiçbir sebebi yoktur: {{Ba1}} uzun çaprazı korur ve {{h7}} varır.\n\nYolun sonu burasıdır. Piyonun h8'e ihtiyacı var, h8 koyu ve fil onu, hiç ayrılmak zorunda kalmadığı bir hattın köşesinden izliyor. O fili kovalayın, o da bir yana ya da öbür yana kaysın; yine izlemeyi sürdürsün.\n\nTahtada iki piyon ve hiçbiri asla vezir olmayacak."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "title": "Filinizin Vazgeçtiği Renk",
+      "text": "Birkaç hamle sonra beyaz kalan tek planı bulmuş: şahı yukarı getirmek. Şah g5'te duruyor ve istediği kare g6, çünkü g6'dan şah iki piyonu da korur ve siyahın filinin saldıracak bir şeyi kalmaz.\n\nŞimdi g6'nın rengini kontrol edin. Açık. b2'deki fil hiçbir zaman açık bir kareye dokunmadı ve asla dokunmayacak; yani bu kare hiçbir zaman onun işi değildi.\n\n> Fil doğduğu rengi elinde tutar. Geri kalan her şey şaha aittir."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "prompt": "Beyazın şahı, filinizin asla gözleyemeyeceği bir kare istiyor; o kareyi öteki taşınızla elinden alın.",
+      "targetSan": [
+        "Kf7",
+        "Kg7",
+        "Kh7"
+      ],
+      "hint": "Fil yalnızca tek bir rengi kapsar, yani beyazın yöneldiği kare öteki taşınıza ait."
+    }
+  ]
+}

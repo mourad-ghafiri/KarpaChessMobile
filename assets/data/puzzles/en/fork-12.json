@@ -1,0 +1,16 @@
+{
+  "id": "fork-12",
+  "fen": "7k/pp4pp/1q6/4N3/8/8/P1P2PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Qxd8",
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 1100,
+  "title": "Drag the Queen In",
+  "setup": "Black's king is sealed behind g7 and h7, and its queen on b6 is the only piece watching d8.",
+  "hint": "The black king cannot move at all. Use that to decide where its queen will have to go.",
+  "explanation": "## The Idea\n\nThe king on h8 has no square, so {{Rd8+}} can only be met by {{Qxd8}} — which drags the queen onto d8, where a knight check from f7 will reach it. {{Nf7+}} forks it and the king, {{Kg8}} is forced, and {{Nxd8}} wins the queen for a rook."
+}

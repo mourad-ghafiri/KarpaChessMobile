@@ -1,0 +1,12 @@
+{
+  "id": "trapped-10",
+  "fen": "rb4k1/p4pp1/7p/2p5/8/2N3PP/PP3P2/3B2K1 w - - 0 1",
+  "solution": [
+    "Bf3"
+  ],
+  "rating": 1330,
+  "title": "La torre encajonada",
+  "setup": "La torre negra de a8 tiene su propio peón de a7 debajo y su propio alfil de b8 justo al lado.",
+  "hint": "Esa torre no tiene ninguna jugada. Encuentra la gran diagonal que llega hasta la esquina donde está atascada.",
+  "explanation": "## La idea\n\n{{Bf3}} ataca a8 por la diagonal h1-a8 y la torre no tiene adónde ir: en a7 está el peón negro, en b8 su alfil. Nada puede defender a8, y el alfil de casillas negras nunca puede tapar una diagonal blanca, así que la torre simplemente se pierde."
+}

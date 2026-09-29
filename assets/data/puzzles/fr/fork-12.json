@@ -1,0 +1,16 @@
+{
+  "id": "fork-12",
+  "fen": "7k/pp4pp/1q6/4N3/8/8/P1P2PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Qxd8",
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 1100,
+  "title": "Attirez la dame",
+  "setup": "Le roi noir est scellé derrière g7 et h7, et sa dame en b6 est la seule pièce qui surveille d8.",
+  "hint": "Le roi noir ne peut pas bouger du tout. Servez-vous-en pour décider où devra aller sa dame.",
+  "explanation": "## L'idée\n\nLe roi en h8 n'a aucune case, donc {{Rd8+}} ne peut recevoir pour réponse que {{Qxd8}} — ce qui attire la dame en d8, où un échec de cavalier depuis f7 l'atteindra. {{Nf7+}} fait une fourchette sur elle et le roi, {{Kg8}} est forcé, et {{Nxd8}} gagne la dame contre une tour."
+}

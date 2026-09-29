@@ -1,0 +1,12 @@
+{
+  "id": "trapped-09",
+  "fen": "5rk1/ppp1bpp1/3p1n1p/8/N7/2P4P/PP3PP1/3R1RK1 b - - 0 1",
+  "solution": [
+    "b5"
+  ],
+  "rating": 1300,
+  "title": "Une poussée de pion",
+  "setup": "Le cavalier blanc est allé en a4, où ses seules cases sont b6, c5, c3 et b2, et deux d'entre elles sont occupées par les pions blancs.",
+  "hint": "Deux des sauts du cavalier tombent sur les propres pions blancs. Vos pions a7 et d6 couvrent déjà les deux autres.",
+  "explanation": "## L'idée\n\n{{b5}} attaque le cavalier, qui est déjà encerclé : b2 et c3 sont occupées par les pions blancs, b6 reçoit axb6 ou cxb6, c5 reçoit dxc5. Le pion b5 lui-même ne peut pas être pris, donc le cavalier tombe tout simplement."
+}

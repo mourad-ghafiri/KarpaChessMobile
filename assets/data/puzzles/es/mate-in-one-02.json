@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-02",
+  "fen": "rnbqk2r/pppp1ppp/5n2/2b1p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4",
+  "solution": [
+    "Qxf7#"
+  ],
+  "rating": 630,
+  "title": "Dos atacantes, un defensor",
+  "setup": "Tu dama de h5 y tu alfil de c4 miran a f7, la casilla que solo defiende el rey negro.",
+  "hint": "Dos de tus piezas ya atacan la misma casilla. Cuenta cuántos defensores negros tiene.",
+  "explanation": "## La idea\n\nA f7 solo la defiende el rey, y dos atacantes pueden con un defensor. {{Qxf7#}} cae junto al rey, defendida por el alfil de c4, así que no se la pueden comer. La propia dama cubre e7 y f8; d7 y d8 están tapadas por piezas negras."
+}

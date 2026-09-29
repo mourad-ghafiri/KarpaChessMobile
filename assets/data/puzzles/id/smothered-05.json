@@ -1,0 +1,12 @@
+{
+  "id": "smothered-05",
+  "fen": "6rk/pp4pn/8/4N3/2b5/8/P4PPP/3R2K1 w - - 4 23",
+  "solution": [
+    "Ng6#"
+  ],
+  "rating": 1275,
+  "title": "Tanpa Pion di h7",
+  "setup": "Hitam baru saja memundurkan kudanya ke h7, dan gajah di c4 masih menjaga petak f7.",
+  "hint": "Sesuatu selain pion berdiri di h7 — tanyakan apa yang diubahnya pada petak-petak di sampingnya.",
+  "explanation": "## Ide\n\nKuda di g6 biasanya dimakan pion h. Di sini h7 ditempati kuda, yang tak menjaga apa pun di sebelahnya, jadi {{Ng6#}} tak tersentuh dan g8, g7 dan h7 semuanya diisi buah Hitam sendiri. Petak pengurung yang biasa, f7, dikuasai gajah di c4."
+}

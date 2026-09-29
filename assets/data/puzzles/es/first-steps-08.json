@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-08",
+  "fen": "r3k3/rp4n1/3p4/5p2/3Q4/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "Qxg7"
+  ],
+  "title": "Mira antes de lanzarte",
+  "setup": "Tu dama de d4 ve una torre negra en una diagonal y un caballo en la otra. Elige con cuidado.",
+  "hint": "Una torre vale más que un caballo, pero ¿qué hay detrás de la torre de a7?",
+  "explanation": "## La idea\n\nLa codicia dice que captures la torre. {{Qxa7}} gana cinco puntos, justo hasta que la torre de a8 recaptura y una dama de nueve puntos ha comprado una torre de cinco.\n\nEl caballo es el verdadero regalo. {{Qxg7}} se lleva una pieza gratis: a la torre de a7 le encantaría responder, pero su propio peón de b7 le corta el paso, y nada más en el tablero cubre g7.\n\nEl objetivo más valioso no es el mejor objetivo. El mejor es el que no está defendido."
+}

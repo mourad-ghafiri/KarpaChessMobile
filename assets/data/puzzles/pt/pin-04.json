@@ -1,0 +1,12 @@
+{
+  "id": "pin-04",
+  "fen": "8/3kb3/3p4/3P1r2/1Ppp1P2/5B2/4R3/K7 w - - 0 1",
+  "solution": [
+    "Bg4"
+  ],
+  "rating": 920,
+  "title": "Cravar Primeiro, Comer Depois",
+  "setup": "A torre preta em f5 foi parar à mesma diagonal do seu rei, com uma casa vazia pelo meio.",
+  "hint": "Qual das tuas peças pode atacar essa torre e congelá-la no mesmo fôlego? Procura a linha até d7.",
+  "explanation": "## A Ideia\n\nA torre de **f5**, a casa vazia e6 e o rei de **d7** estão numa só diagonal. {{Bg4}} ataca a torre por ela, e a cravada torna ilegal mexê-la. Nada guarda f5, portanto a torre é tua na jogada seguinte."
+}

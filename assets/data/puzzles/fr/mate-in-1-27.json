@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-27",
+  "fen": "k7/8/1K6/8/8/8/8/7R w - - 0 1",
+  "solution": [
+    "Rh8#"
+  ],
+  "title": "Le marteau venu de loin",
+  "setup": "Le roi noir est coincé dans le coin a8, et votre roi en b6 couvre les cases devant lui.",
+  "hint": "Votre roi en b6 tient a7 et b7. Votre tour peut donner échec depuis l'autre côté de l'échiquier.",
+  "explanation": "## L'idée\n\nC'est de nouveau le mat roi et tour dans le coin, avec la tour qui donne échec depuis l'autre côté. Votre roi en b6 couvre a7 et b7.\n\n{{Rh8#}} donne échec le long de la dernière rangée, et b8 est aussi sur la ligne de la tour. Rien ne peut s'interposer, et le roi ne peut pas atteindre la tour.\n\nUne fois la cage construite par votre roi, la distance n'affaiblit pas l'échec de la tour."
+}

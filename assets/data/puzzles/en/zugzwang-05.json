@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-05",
+  "fen": "5B2/8/8/7k/4K3/8/6p1/6Q1 w - - 0 1",
+  "solution": [
+    "Kf5",
+    "Kh4",
+    "Qh2#"
+  ],
+  "rating": 1530,
+  "title": "The King Is the Waiting Move",
+  "setup": "The kings stand on e4 and h5, Black has a pawn one square from promotion on g2, and your queen guards g1.",
+  "hint": "None of your pieces can afford to move. Look at the one you have not considered.",
+  "explanation": "## The Idea\n\n{{Kf5}} takes g4, g5 and g6 and hands Black the move. Only {{Kh4}} is legal, and {{Qh2#}} mates the king against the edge. A king step is a waiting move that also builds the net."
+}

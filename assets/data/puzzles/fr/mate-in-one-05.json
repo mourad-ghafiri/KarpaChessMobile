@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-05",
+  "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/8/2Q2N2/PqP1PPPP/RN2KB1R b KQk - 0 8",
+  "solution": [
+    "Qc1#"
+  ],
+  "rating": 720,
+  "title": "Une rangée sans place",
+  "setup": "Votre dame s'est déjà infiltrée en b2, et la dernière rangée blanche est encombrée de ses propres pièces.",
+  "hint": "Le roi blanc a deux trous à côté de lui et pas de troisième, alors cherchez un échec auquel sa première rangée encombrée ne peut pas répondre.",
+  "explanation": "## L'idée\n\nChaque case autour de e1 est soit occupée par les propres pièces blanches, soit balayée par la dame à son arrivée, donc un échec sûr sur la première rangée termine la partie. {{Qc1#}} ne peut pas être prise : le cavalier en b1 coupe la tour, et le pion en c2 bloque la dame blanche."
+}

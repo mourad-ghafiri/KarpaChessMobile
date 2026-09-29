@@ -1,0 +1,12 @@
+{
+  "id": "smothered-03",
+  "fen": "kr2r3/pp3ppp/8/1N6/8/8/P4PPP/3R2K1 w - - 7 29",
+  "solution": [
+    "Nc7#"
+  ],
+  "rating": 1215,
+  "title": "O Outro Canto",
+  "setup": "As pretas acabaram de passar uma torre de c8 para b8, e o rei no canto ficou sem brecha nenhuma.",
+  "hint": "Sufocar não é uma ideia da ala do rei; vê que casas à volta de a8 continuam vazias e procura depois um xeque.",
+  "explanation": "## A Ideia\n\nUm rei em a8 com peões em a7 e b7 e uma torre em b8 está tão enterrado como um em h8. {{Nc7#}} chega à única casa que lhe dá xeque, e nada a cobre — uma torre em b8 guarda linhas e colunas, nunca a casa na diagonal à sua frente."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-06",
+  "fen": "3k4/8/8/8/8/8/3q4/3R3K w - - 0 1",
+  "solution": [
+    "Rxd2+"
+  ],
+  "title": "Pinned Across the Board",
+  "setup": "The black queen has wandered in front of the white rook, with the black king six squares behind it on d8.",
+  "hint": "Nothing stands between the rook and the black king except one black piece. Work out what that piece is allowed to do.",
+  "explanation": "## The Idea\n\nThe queen is pinned. Not frozen — it can still slide up and down the d-file, and it can even take the rook. What it cannot do is leave the file, because the king on d8 would then stand in the rook's line, and that move is illegal.\n\nSo it has to sit where the rook can reach it: {{Rxd2+}} takes it with check, and the king is six squares too far away to take back.\n\nA pin does not freeze a piece. It nails it to one line."
+}

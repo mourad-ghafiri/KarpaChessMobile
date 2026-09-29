@@ -1,0 +1,56 @@
+{
+  "id": "quiet-move",
+  "title": "Le coup tranquille",
+  "summary": "Ni échec, ni prise, ni menace, et les Noirs n'y peuvent rien",
+  "proof": "quiet-move-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "L'échec qui libère le roi",
+      "text": "Le roi noir est coincé dans le coin en h8, et les Blancs ont un échec qui attend sur la huitième rangée.\n\n{{Ra8+}}, et les Noirs répondent {{Kh7}}. C'est le seul coup légal, et c'est la seule case que votre roi en f6 ne couvre pas. Le coin est maintenant vide, la tour doit tout recommencer, et les Noirs n'ont rien perdu du tout.\n\nUn échec est une question, et l'adversaire a le droit d'y répondre. Celui-ci a offert la trappe de sortie gratuitement."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "Comptez le coin",
+      "text": "Laissez donc l'échec de côté et comptez.\n\nDepuis h8, le roi noir a deux cases : g8 et h7. La tour couvre la huitième rangée dès qu'elle y arrive, donc g8 se règle toute seule. h7 est la fuite, et aucune tour au monde n'atteint h7 depuis la huitième rangée.\n\nVotre roi en f6 couvre déjà g7, ce qui explique que le coin n'ait que deux sorties. Il ne couvre pas h7.\n\nFermez h7 pendant que les Noirs n'ont rien à répondre, et l'échec qui échouait conclut la partie."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "prompt": "Servez-vous de votre roi pour retirer h7 au roi noir, afin que l'échec de la tour sur la huitième rangée soit mat.",
+      "targetSan": [
+        "Kg6"
+      ],
+      "hint": "Donner échec d'abord ne fait que chasser le roi en h7 : retirez-lui cette case avant de donner échec."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/8/8/R7 b - - 2 2",
+      "title": "Un seul coup légal",
+      "text": "Votre roi en g6 retire g7 et h7 d'un coup, et il ne s'est jamais approché du roi noir. Comptez les réponses des Noirs : {{Kg8}}. C'est toute la liste.\n\nMaintenant {{Ra8#}} arrive sur une rangée que le roi ne peut pas quitter, et les trois cases en dessous — f7, g7 et h7 — appartiennent toutes à votre roi.\n\nRien n'a été forcé. Les réponses ont été retirées d'abord, et la question est venue ensuite."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "Le pion qui ne peut pas bouger",
+      "text": "Un nouvel échiquier, et l'abri noir est intact : pions en f7, g7 et h7, tours en a8 et f8, un fou en b7. Les Noirs sont déjà perdus.\n\nLisez la colonne g. Votre tour en g1 pointe droit vers le roi en g8, et la seule chose entre eux est le pion en g7.\n\nCe pion semble garder f6 et h6. Il est cloué : prendre sur l'une de ces cases le ferait quitter la colonne g et laisserait son propre roi en échec par la tour, donc il ne peut rien prendre du tout — et les cases qu'il semble surveiller ne sont surveillées par personne."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "Plus bruyant, c'est plus lent",
+      "text": "Les coups bruyants sont là. {{Rxg7+}} jette la tour sur le pion, et {{Bxg7}} le prend avec le fou, que le roi ne peut pas reprendre puisque votre tour en g1 protège g7. Les deux gagnent, et les deux laissent aux Noirs des coups pour répondre.\n\nIl y a mieux. Posez une pièce là où les Noirs n'ont aucune réponse, menacez mat au coup suivant, et aucun de la trentaine de coups légaux des Noirs ne règle le problème."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "prompt": "Amenez votre dame sur une case que le pion cloué fait seulement semblant de garder, avec mat à suivre.",
+      "targetSan": [
+        "Qh6"
+      ],
+      "hint": "Un pion qui exposerait son propre roi en prenant ne garde en réalité rien du tout."
+    }
+  ]
+}

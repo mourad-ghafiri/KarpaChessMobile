@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-05",
+  "fen": "n2b1k2/3r1p1p/1B4Q1/8/8/4R3/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qh6+",
+    "Kg8",
+    "Re8#"
+  ],
+  "rating": 1100,
+  "title": "Un paso al lado y última fila",
+  "setup": "Al rey negro de f8 lo rodea su propia multitud, y tu dama de g6 ya está lo bastante cerca para darle jaque.",
+  "hint": "Empuja al rey a la única casilla que le dejan sus propias piezas, y luego golpea la fila de la que ya no puede salir.",
+  "explanation": "## La idea\n\n{{Qh6+}} da jaque por la diagonal h6–f8 y lleva al rey a g8: {{Kg8}} es la única jugada. Luego {{Re8#}}. La dama retiene g7, la línea de la torre a través del rey toma f8 y h8, el peón de h7 ocupa el resto y nada puede comerse la torre."
+}

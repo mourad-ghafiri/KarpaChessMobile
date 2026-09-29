@@ -1,0 +1,12 @@
+{
+  "id": "pin-08",
+  "fen": "2k5/b3p3/4r1p1/8/1P1pp2P/P6R/2P1B1K1/8 w - - 0 1",
+  "solution": [
+    "Bg4"
+  ],
+  "rating": 1080,
+  "title": "Berjarak Empat Petak",
+  "setup": "Benteng Hitam di e6 berdiri di diagonal terang yang berujung di rajanya sendiri, yang bersembunyi di sudut di c8.",
+  "hint": "Temukan diagonal terang yang membentang dari sisi papan Anda menembus benteng sampai ke raja hitam.",
+  "explanation": "## Ide\n\nPetak g4, f5, e6, d7 dan c8 membentuk satu diagonal. {{Bg4}} menempati ujung dekatnya, jadi benteng di **e6** terjepit terhadap raja di **c8** dan sekaligus diserang. Tak ada yang menjaga benteng, dan ia tak bisa bergerak."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "openings-10",
+  "fen": "r1bqkbnr/pppp1ppp/8/1B2N3/3nP3/8/PPPP1PPP/RNBQK2R b KQk - 0 4",
+  "solution": [
+    "Qg5",
+    "Nxf7",
+    "Qxg2",
+    "Rf1",
+    "Qxe4+",
+    "Be2",
+    "Nf3#"
+  ],
+  "title": "Hiçbir Zaman Bedava Olmayan Piyon",
+  "setup": "Siyah İspanyol filine d4'e giden atla cevap verdi ve beyazın atı az önce bir piyon kaptı. O ata ve boştaki bir piyona tek hamlede saldırın.",
+  "hint": "Açgözlü at da g piyonu da korumasız. İkisine birden bakan tek kareyi bulun.",
+  "explanation": "## Fikir\n\nİspanyol fili aslında hiçbir zaman e5'e saldırmıyordu ve beyaz yine de piyonu kaptı.\n\n{{Qg5}} aynı anda e5'teki ata ve g2 piyonuna vurur. Beyaz zararı şimdi kesmelidir; {{Nxf7}} ile kapmayı sürdürürse {{Qxg2}}, {{Rf1}} {{Qxe4+}}, {{Be2}} gelir ve iş {{Nf3#}} ile biter; matı d4'te başlayan at verir.\n\n{{Nxb5}} ile fili almak da aynı derecede güçlüdür. Vezir hamlesi, piyonun neden hiçbir zaman bedava olmadığını gösterir."
+}

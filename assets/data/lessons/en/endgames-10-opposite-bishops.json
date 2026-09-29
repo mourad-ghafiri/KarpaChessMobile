@@ -1,0 +1,58 @@
+{
+  "id": "opposite-bishops",
+  "title": "Opposite-Colored Bishops",
+  "summary": "Two pawns up and nothing to show for it",
+  "proof": "endgames-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "Two Pawns Up, and Stuck",
+      "text": "White is two pawns up, which is usually the end of the argument. Not here.\n\nLook at what the bishops stand on. Black's bishop on c1 lives on dark squares. White's bishop on d3 lives on light ones. They will never attack each other, never block each other, never share a square with each other for the rest of the game.\n\nTwo armies on one board that cannot touch. Black is about to show what that is worth, and it is worth two pawns."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "The Squares the Pawns Need",
+      "text": "A pawn promotes by reaching the eighth rank, so ask which squares these two still have to use. The f-pawn's next step is f6, and it would finish on f8. The h-pawn would finish on h8. All three squares are dark.\n\nWhite's bishop on d3 will never contest any of them. It is a light-squared bishop, and a bishop never changes color, not by moving and not ever.\n\nSo the squares that decide this ending are squares only Black's bishop can ever reach. One move puts it on a line through two of them, and it never has to leave."
+    },
+    {
+      "type": "play",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "prompt": "Two pawns down, hold the draw by parking your bishop on the one diagonal both white pawns must cross.",
+      "targetSan": [
+        "Bb2"
+      ],
+      "hint": "The f-pawn still has to step onto f6 and the h-pawn has to finish on h8 — find the diagonal that runs through both."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Pushing Into It",
+      "text": "White has the move, two extra pawns, and nowhere to put them.\n\n{{f6}} steps onto a dark square, and {{Bxf6}} answers it. The pawn arrives undefended: White's king on e4 cannot reach f6, and White's bishop on d3 cannot look at a dark square at all.\n\nThat is the whole story of these endings. The extra pawns are real, and they were bought on the wrong color."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "As Far as It Goes",
+      "text": "Let the h-pawn run instead. {{h6}}, and Black has no reason to interfere: {{Ba1}} keeps the long diagonal, and {{h7}} arrives.\n\nThat is the end of the road. The pawn needs h8, h8 is dark, and the bishop watches it from the corner of a line it never had to leave. Chase that bishop and it slides one way or the other, still watching.\n\nTwo pawns on the board, and neither of them will ever be a queen."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "title": "The Color Your Bishop Gave Up",
+      "text": "A few moves later, White has found the only plan left: bring the king up. It stands on g5, and g6 is the square it wants, because from g6 the king defends both pawns and Black's bishop has nothing to attack.\n\nNow check the color of g6. Light. The bishop on b2 has never touched a light square and never will, so this one was never its job.\n\n> A bishop holds the color it was born on. Everything else belongs to the king."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "prompt": "White's king wants a square your bishop can never watch, so take that square away with your other piece.",
+      "targetSan": [
+        "Kf7",
+        "Kg7",
+        "Kh7"
+      ],
+      "hint": "A bishop covers one color only, so the square White is heading for belongs to your other piece."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "board-proof",
+  "fen": "4k3/8/8/8/8/8/1PP2PP1/4K3 w - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "title": "Baca Alamatnya",
+  "setup": "Setiap petak punya nama. Gerakkan sebuah pion ke petak bernama c4.",
+  "hint": "Temukan lajur c lebih dulu, lalu hitung ke atas dari tepi Putih: baris 1, baris 2, baris 3, baris 4.",
+  "explanation": "## Ide\n\nHuruf dulu, angka kemudian. Lajur c adalah kolom ketiga dari kiri Putih, dan baris 4 adalah deret keempat dari tepi Putih, jadi c4 adalah tempat keduanya bertemu.\n\nPion di c2 satu-satunya yang berdiri di lajur itu, dan pada langkah pertamanya sebuah pion boleh maju dua petak: {{c4}}. Pion di b2 bisa mencapai b4, tetapi b4 adalah alamat yang lain."
+}

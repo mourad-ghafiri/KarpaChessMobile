@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-07",
+  "fen": "6k1/3N2pp/8/3r2B1/8/7Q/5PPP/4K3 w - - 0 1",
+  "solution": [
+    "Qe6+",
+    "Kh8",
+    "Qe8#"
+  ],
+  "rating": 1200,
+  "title": "The Knight Cuts f8",
+  "setup": "Your knight on d7 quietly covers f8, which leaves the black king far fewer squares than it thinks.",
+  "hint": "Count the black king's escape squares before you check. Which of them is your knight already watching?",
+  "explanation": "## The Idea\n\nThe knight on **d7** covers f8, so a check on the a2–g8 diagonal leaves the king one square. {{Qe6+}} forces {{Kh8}}, and {{Qe8#}} mates on the back rank: the queen covers g8 and the pawns on g7 and h7 do the rest."
+}

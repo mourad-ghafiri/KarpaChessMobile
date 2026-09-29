@@ -1,0 +1,13 @@
+{
+  "id": "culture-05",
+  "fen": "2kr2nr/pp1n1ppp/2p1p3/8/1P1P1B2/2N2Q1P/1PPKBPP1/7q w - - 0 13",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "title": "Deux pions, une diagonale",
+  "setup": "Vous êtes loin derrière au matériel et votre propre roi a été chassé en d2, mais le roi noir est emmuré par ses propres pièces.",
+  "hint": "Commencez par compter les cases du roi noir plutôt que votre matériel — puis demandez-vous ce que tient vraiment le pion en b7.",
+  "explanation": "## L'idée\n\nLe roi en c8 n'a aucune case : d8, d7 et b7 sont occupées par sa propre tour, son propre cavalier et son propre pion, et le fou en f4 couvre c7 et b8. Seul le pion en b7 empêche votre autre fou d'aller en a6.\n\n{{Qxc6+}} donne la dame pour un pion, et {{bxc6}} est le seul coup légal des Noirs. Le pion a quitté b7, et {{Ba6#}} arrive sur la case qu'il protégeait.\n\nComptez les cases du roi adverse avant de compter le matériel, et une dame devient quelque chose que l'on peut dépenser."
+}

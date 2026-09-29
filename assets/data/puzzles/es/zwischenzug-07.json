@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-07",
+  "fen": "6k1/r4ppp/3B4/8/1R6/8/PP5Q/K2br3 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1530,
+  "title": "La última fila, en los dos sentidos",
+  "setup": "Las Negras tienen una torre en e1 y un alfil en d1 en tu primera fila, mientras su rey espera tranquilo en g8.",
+  "hint": "Los dos bandos tienen una primera fila débil. Cuenta cuál cae en menos jugadas.",
+  "explanation": "## La idea\n\nLas Negras están a una jugada de darte mate, y justo por eso {{Rb8+}} es lo correcto. {{Re8}} es forzada y {{Rxe8#}} llega primero. En una carrera, el único número que importa es quién da jaque primero."
+}

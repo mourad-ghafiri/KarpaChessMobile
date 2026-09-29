@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-07",
+  "fen": "6k1/r4ppp/3B4/8/1R6/8/PP5Q/K2br3 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1530,
+  "title": "Back Rank Both Ways",
+  "setup": "Black has a rook on e1 and a bishop on d1 sitting on your back rank while its king waits quietly on g8.",
+  "hint": "Both sides have a weak first rank. Count which one falls in fewer moves.",
+  "explanation": "## The Idea\n\nBlack is a move away from mating you, which is exactly why {{Rb8+}} is right. {{Re8}} is forced and {{Rxe8#}} lands first. In a race, the only number that matters is who checks first."
+}

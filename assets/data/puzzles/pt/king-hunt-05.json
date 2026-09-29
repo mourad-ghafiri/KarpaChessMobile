@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-05",
+  "fen": "3R4/8/2b3p1/4K3/2k5/8/6Q1/r4R1B w - - 0 1",
+  "solution": [
+    "Qxc6+",
+    "Kb3",
+    "Rb8+",
+    "Ka2",
+    "Qa4#"
+  ],
+  "rating": 1490,
+  "title": "Compra a Diagonal",
+  "setup": "Os dois reis estão frente a frente no centro, o preto em c4, e o bispo de c6 é a peça que segura tudo.",
+  "hint": "Uma peça preta guarda as casas que a tua dama quer. Põe-lhe um preço e dá depois xeque pela linha que ela cobria.",
+  "explanation": "## A Ideia\n\n{{Qxc6+}} tira o bispo com xeque. {{Rb8+}} empurra o rei para a berma e {{Qa4#}} fecha a caixa. Comer um defensor é uma jogada de caça quando a captura vem com xeque."
+}

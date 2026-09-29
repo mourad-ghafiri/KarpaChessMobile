@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-12",
+  "fen": "5rk1/5ppp/3Q4/5N2/8/1q6/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rd8#"
+  ],
+  "rating": 1100,
+  "title": "Tarik Rajanya Masuk",
+  "setup": "Benteng Hitam baru saja meninggalkan d8 menuju f8, membuka lajur Anda dan melangkah tepat di samping rajanya sendiri.",
+  "hint": "Raja paling aman di tempatnya berdiri. Temukan sekak yang menyeretnya ke baris yang Anda kuasai.",
+  "explanation": "## Ide\n\n{{Qxf8+}} menyerahkan menteri untuk benteng, dan {{Kxf8}} satu-satunya jawaban sah. Raja kini berdiri di baris kedelapan yang terbuka dengan lajur Anda kosong di belakangnya: {{Rd8#}}. Kuda di f5 merebut e7, dan pion-pionnya sendiri mengerjakan sisanya."
+}

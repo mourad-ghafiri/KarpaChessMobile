@@ -1,0 +1,11 @@
+{
+  "id": "rook-lift-proof",
+  "fen": "rn2r1k1/pp3p1p/2p1bp2/8/P1B2P2/B1P2R2/6PP/3R2K1 w - - 2 20",
+  "solution": [
+    "Rg3+"
+  ],
+  "title": "Attraverso la Terza Traversa",
+  "setup": "Chigorin contro Lebedev, Mosca 1900/01. La vostra torre è già salita dalla traversa di fondo, e la colonna g fra la vostra terza traversa e il re nero è vuota.",
+  "hint": "Prima su, poi di traverso. Quale casa della vostra terza traversa fronteggia il re nero?",
+  "explanation": "## L'idea\n\n{{Rg3+}} completa il sollevamento: la torre salita in f3 scivola sulla colonna g vuota e dà scacco. Il re non può usare f8, che il vostro alfiere in a3 copre, quindi il Nero ha due risposte: {{Kh8}}, dentro l'angolo, o {{Bg4}}, un alfiere restituito solo per parare.\n\nChigorin proseguì con {{Be7}} e vinse."
+}

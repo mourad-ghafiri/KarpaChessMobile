@@ -1,0 +1,12 @@
+{
+  "id": "promotion-12",
+  "fen": "8/2P5/8/8/3r4/8/2K5/k7 w - - 0 1",
+  "solution": [
+    "c8=R"
+  ],
+  "rating": 1400,
+  "title": "Saavedra'nın Kalesi",
+  "setup": "Piyonunuz c8'de vezir oluyor; siyahın şahı a1 köşesinde sıkışmış ve kalesi d4'ten gözlüyor.",
+  "hint": "Siyahın şahının son köşesi kalmış. Yepyeni bir vezirin bu duruma ne yapacağını sorun.",
+  "explanation": "## Fikir\n\n{{c8=Q}} hamlesine {{Rc4+}} cevabı gelir ve Qxc4 pattır, çünkü a1'deki şahın gidecek yeri yoktur. {{c8=R}} bunun yerine Rc1 matını tehdit eder ve Ra4 geldikten sonra beyaz Kb3 oynayıp kaleyi kazanır. Bu, 1895'te yayımlanan Saavedra pozisyonudur."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "en-passant",
+  "title": "Pris au passage",
+  "summary": "Un pion file devant le vôtre, et pendant exactement un coup, il ne s'en tire pas à si bon compte",
+  "proof": "en-passant-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "La case qu'il refuse de traverser",
+      "text": "Le pion noir en d7 veut avancer, et une case devant lui est interdite : votre pion en e5 couvre d6, donc un pas en d6, c'est un pion offert.\n\nLes Noirs ont une autre option. Depuis sa rangée de départ, le pion peut avancer de deux cases d'un coup : {{d5}}. Il dépasse d6 sans jamais s'y arrêter et atterrit coude à coude avec votre pion — hors de portée, puisqu'un pion frappe en diagonale vers l'avant, jamais sur le côté.\n\nVoilà la faille. La prise en passant la referme."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "En passant",
+      "text": "La réponse doit venir immédiatement, au coup suivant. De nouveau {{d5}} — et cette fois {{exd6}}.\n\nVotre pion avance en diagonale en d6, la case où les Noirs ont refusé de s'arrêter, et le pion noir est retiré de d5. Relisez ces deux cases : vous arrivez sur l'une, le pion pris disparaît de l'autre. Toutes les autres prises aux échecs vous placent sur la case qu'occupait votre victime. Pas celle-ci, et c'est pourquoi elle paraît illégale la première fois qu'on la voit.\n\nEn passant, c'est-à-dire au passage : le nom dit toute la règle."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Pourquoi cette règle existe",
+      "text": "Le premier coup de deux cases n'est pas d'origine. Pendant des siècles, les pions ont avancé d'une case à la fois, et le double pas a été ajouté plus tard, pour que les parties démarrent plus vite.\n\nCela a fonctionné, et cela a créé un problème : un pion pouvait désormais profiter de cette vitesse pour se faufiler devant un pion adverse qui surveillait déjà son chemin. Le gardien était là et n'avait pas son mot à dire. C'est exactement ce que {{d5}} essaie de faire.\n\nLa prise en passant est la correction, rien de plus. Accélérer le début, oui. Offrir un laissez-passer, non."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Ce qui doit être vrai",
+      "text": "La règle est étroite, et chacune de ses parties compte.\n\nLe pion adverse doit arriver par le coup de deux cases, directement depuis sa rangée de départ — un pion venu là pas à pas est à l'abri pour toujours. Il doit atterrir juste à côté de votre pion, sur la même rangée. Votre pion doit se trouver sur sa cinquième rangée, car c'est là qu'atterrit un pion qui fait le double pas.\n\nEt c'est pion contre pion. Rien d'autre ne peut être pris en passant, et rien d'autre ne peut prendre ainsi."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "title": "Un coup, et un seul",
+      "text": "Deux pions noirs se tiennent à côté de votre pion en e5, l'un en d5 et l'autre en f5, et un seul d'entre eux peut être pris en passant.\n\nLe pion d a fait son double pas avant même que votre pion atteigne e5, donc aucune occasion ne s'est jamais présentée de ce côté. Le pion f vient d'arriver à l'instant, directement depuis f7, en traversant f6 — la case que surveille votre pion de e5.\n\nL'occasion est donc ouverte d'un côté et fermée de l'autre. Jouez n'importe quoi d'autre ici et celle-ci se ferme aussi, pour de bon."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "prompt": "Prenez le pion qui vient de filer devant vous, avant que l'occasion expire.",
+      "targetSan": [
+        "exf6"
+      ],
+      "hint": "Seul le pion qui a avancé de deux cases à ce coup-ci peut être pris, et vous arrivez sur la case qu'il a sautée."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/5P2/3p4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "La case où vous n'étiez jamais",
+      "text": "Votre pion en f6, et f5 vide derrière lui. Le pion que vous avez pris s'y tenait il y a un instant.\n\nLes Noirs reprennent par {{gxf6}} — une prise ordinaire, comme toutes celles que vous avez faites jusqu'ici, qui arrive exactement là où se trouvait la pièce prise. Mettez les deux coups côte à côte et l'étrangeté du vôtre saute aux yeux.\n\n> Une seule prise aux échecs retire une pièce d'une case que le preneur ne touche jamais. C'est celle-ci."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/8/8/2pPP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Vous jouez les Noirs : attrapez le pion blanc qui vient de sauter devant le vôtre, tant que le droit existe.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Comptez depuis le côté des Noirs — votre pion est sur sa cinquième rangée, et vous arrivez sur la case que le coureur a traversée."
+    }
+  ]
+}

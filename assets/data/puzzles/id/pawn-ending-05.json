@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-05",
+  "fen": "8/4k3/4P3/4K3/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Ke8"
+  ],
+  "rating": 1245,
+  "title": "Satu Petak yang Bertahan",
+  "setup": "Raja Putih baru saja naik di belakang pionnya di baris keenam, dan Hitam punya tiga petak untuk dipilih.",
+  "hint": "Dua dari tiga petak Anda membiarkan raja putih melangkah memutar ke d7 atau f7. Satu tidak.",
+  "explanation": "## Ide\n\n{{Ke8}} satu-satunya langkah. Jawab {{Kd6}} dengan {{Kd8}}, dan {{e7+}} lalu menggiring raja kembali ke depan pion, tempat Putih tak punya apa-apa lagi selain pat. Pergi ke d8 atau f8 sebagai gantinya dan Putih merebut oposisi lalu menjadikan pionnya menteri."
+}

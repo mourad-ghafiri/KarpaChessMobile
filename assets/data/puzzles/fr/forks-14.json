@@ -1,0 +1,13 @@
+{
+  "id": "forks-14",
+  "fen": "2r1k3/p4ppp/8/8/4N3/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd7",
+    "Nxc8"
+  ],
+  "title": "Fourchette sur la tour",
+  "setup": "La tour noire s'est glissée en c8, près de son roi. Vous avez une qualité de moins, mais un pion de plus.",
+  "hint": "Trouvez la case qui met le roi en échec et attaque c8 en même temps. Elle est à un saut.",
+  "explanation": "## L'idée\n\n{{Nd6+}} attaque à la fois le roi en e8 et la tour en c8. Aucun pion noir ne se trouve en c7 ou e7 pour protéger d6, donc le cavalier est en sécurité. {{Kd7}} protège la tour, mais {{Nxc8}} la prend quand même, et après {{Kxc8}} les tours et les cavaliers ont disparu. Il reste une finale de pions avec votre pion de plus.\n\nUne fourchette qui ne gagne que la qualité peut suffire, quand elle mène à une finale que vous pouvez gagner."
+}

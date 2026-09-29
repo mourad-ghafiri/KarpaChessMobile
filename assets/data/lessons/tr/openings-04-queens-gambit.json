@@ -1,0 +1,51 @@
+{
+  "id": "queens-gambit",
+  "title": "Vezir Gambiti",
+  "summary": "Almanıza izin verilen, tutmanıza izin verilmeyen bir piyon",
+  "proof": "openings-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Aslında Gambit Değil",
+      "text": "Daha iki hamle olmuş ve beyaz şimdiden siyahın alabileceği bir yere piyon park etmiş. **Gambit**, daha hızlı bir şey satın almak için erkenden verilen piyondur — zaman, açık hatlar, kareler. Bu ise hiçbir şey vermez, çünkü siyah aldığını tutamaz.\n\nBeyazın asıl derdi d5. c4'teki piyonu siyahın d piyonuna değişin, beyaz ortada piyonu olan tek taraf olarak kalsın ve üstüne rahatça inşa etsin."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "title": "Almak Tutmak Değildir",
+      "text": "{{dxc4}}, beyazın sorusuna yanlış cevap verir. Siyahın piyonu ortadan ayrılmıştır, hemen ardından {{e4}} gelir ve merkezde iki beyaz piyon yan yana dizilir; onlara ateş edecek hiçbir şey kalmaz.\n\nPiyonu tutmaya çalışmak daha da pahalıdır. {{b5}} onu destekler, {{a4}} yerinden oynatır ve beyaz piyonu, vezir kanadı yarılmış hâlde geri kazanır.\n\nYani teklif hiçbir zaman piyon değildi. Teklif bir değişim ve reddetmenin bedeli ikinci bir piyon hamlesi."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "prompt": "d5'i ikinci bir piyonla destekleyin ki merkez tutsun; bunun taşlarınızdan birine bir kapıyı kapattığını da kabul edin.",
+      "targetSan": [
+        "e6",
+        "c6"
+      ],
+      "hint": "İki piyonunuz d5'i çaprazdan koruyan bir kareye adım atabilir ve her biri farklı bir taşın en iyi yolunu kapatır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "İkiye Karşı Üç",
+      "text": "Dokuz hamle sonra, aynı tartışmanın içinden: beyaz d5'te değişti, siyah e piyonuyla geri aldı ve orta sessizleşti. Bu şeklin bir adı var, Carlsbad, ve mantığı aritmetik.\n\nVezir kanadını sayın. Beyazın orada iki piyonu, siyahın üç piyonu var. Küçük grubu büyük grubun üstüne yürütmeye **azınlık saldırısı** denir ve bir şey kazanmak için oynanmaz. Yeterince ilerleyin, piyonlar kendiliğinden değişilsin ve siyahta yarı açık bir dikeyde, hiçbir siyah piyonun asla koruyamayacağı bir c6 piyonu kalsın."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "title": "Hiç Karşılaşmayan Yarış",
+      "text": "Siyah savunmuyor. Beyazın peşine düştüğü şey vezir kanadındaki o üç piyon; siyah da onları oldukları yerde bırakıp beyazın şahına oynuyor: f8'deki at g6'ya açılıyor, taşların geri kalanı arkadan geliyor ve f piyonu da onlarla birlikte geliyor.\n\nZıt kanatlarda iki plan ve birbirlerine hiç dokunmuyorlar. Başladıktan sonra hiçbiri geri çağrılamaz, yani parti hangisinin önce vardığına göre belirlenir.\n\n> Piyon değişmek her zaman sadeleştirmek değildir. Bazen bir zayıflık böyle kurulur."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqrnk1/pp2bppp/2p2n2/3p2B1/3P4/2NBP3/PP2NPPP/1R1Q1RK1 w - - 0 11",
+      "prompt": "Vezir kanadındaki küçük grubunuzu siyahın büyük grubunun üstüne gönderin ve hiçbir siyah piyonun asla koruyamayacağı bir hedef kurmaya başlayın.",
+      "targetSan": [
+        "b4"
+      ],
+      "hint": "Vezir kanadındaki iki piyonunuzun da yol alması gerek; siyahın grubuyla temas kurabilen önden gider, öteki arkasından gelir."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-21",
+  "fen": "6k1/5ppp/8/8/8/8/8/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "A Parede de Peões",
+  "setup": "O escudo de peões das pretas em **f7**, **g7**, **h7** está intacto — mas sem janela de fuga, isso é uma sentença de morte.",
+  "hint": "Desliza a torre pela coluna aberta. Os próprios peões das pretas fazem o resto.",
+  "explanation": "## A Ideia\n\nIsto é o mate da linha de fundo na sua forma mais pura: uma coluna aberta, uma linha de fundo vazia e três peões à frente do rei.\n\n{{Rd8#}} dá xeque pela oitava linha. f8 e h8 estão na linha da torre, f7, g7 e h7 têm os peões das próprias pretas, e nada pode tapar nem capturar.\n\nA cura é simples: empurra um desses peões uma jogada mais cedo para dar saída ao rei."
+}

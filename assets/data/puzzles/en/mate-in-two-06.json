@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-06",
+  "fen": "1b4k1/1pp5/1Q6/3P4/8/B7/6PP/4K3 w - - 0 1",
+  "solution": [
+    "Qg6+",
+    "Kh8",
+    "Bb2#"
+  ],
+  "rating": 1150,
+  "title": "Long Diagonal Finish",
+  "setup": "Black's king sits on g8, and an entirely empty long diagonal runs from a1 to the corner beside it.",
+  "hint": "First push the king to the square where one single diagonal decides everything. Which diagonal is that?",
+  "explanation": "## The Idea\n\n{{Qg6+}} drives the king to the corner, and {{Kh8}} is forced. The a1–h8 diagonal is completely empty, so {{Bb2#}} arrives with check while the queen covers g7, g8 and h7. The bishop on b8 is shut in by its own pawn."
+}

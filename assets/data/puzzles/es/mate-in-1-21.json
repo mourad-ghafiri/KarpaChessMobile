@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-21",
+  "fen": "6k1/5ppp/8/8/8/8/8/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "El muro de peones",
+  "setup": "El escudo de peones negro de **f7**, **g7** y **h7** está intacto, pero sin ventana de escape eso es una sentencia.",
+  "hint": "Sube la torre por la columna abierta. Los propios peones negros hacen el resto.",
+  "explanation": "## La idea\n\nEs el mate del pasillo en su forma más pura: una columna abierta, una última fila vacía y tres peones delante del rey.\n\n{{Rd8#}} da jaque por la octava fila. f8 y h8 están en la línea de la torre, en f7, g7 y h7 están los propios peones negros, y nada puede tapar ni capturar.\n\nEl remedio es sencillo: avanzar uno de esos peones una casilla antes para darle una salida al rey."
+}

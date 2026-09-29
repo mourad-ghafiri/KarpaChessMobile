@@ -1,0 +1,59 @@
+{
+  "id": "king-safety",
+  "title": "Şahın Güvenliği",
+  "summary": "Kapılar açılmadan rok yapın, sonra duvara dokunmayın",
+  "proof": "strategy-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "Evde Kalan Şah",
+      "text": "Beyazın d piyonu gitmiş ve yerinde d2'de bir fil duruyor. e1'deki şahın yanındaki dikeyde kendine ait bir piyonu yok.\n\nSiyah bu soruyu hamleler önce cevapladı: şah g8'de, önünde el değmemiş üç piyon.\n\nBeyaza tam olarak tek bir rok sunuluyor. h1'deki kale, f1'deki filin ve g1'deki atın arkasında kapalı kalmış, yani şah kanadı kapalı. Vezir kanadı değil — vezir, at ve fil arka yatayın o ucundan çekilmiş durumda."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "title": "Beklemenin Bedeli",
+      "text": "Henüz bir sorun yok. Bunu ertelemeyi kolaylaştıran da bu.\n\n{{Nf3}} ile sessizce gelişin, siyah {{Re8}} ile bir kaleyi karşıya getirsin, {{Bd3}} ekleyin ve {{d5}} merkezi, şah hâlâ e1'de dururken açsın. Siyahın buraya gelmek için kurnaz bir şeye ihtiyacı olmadı, yalnızca sıradan hamlelere.\n\nBuradan sonra açılan her hat beyaza doğru açılır ve her birine cevap vermek, başka bir şey için ayrılmış bir hamleye mal olur."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/8/1b2P3/2N1Q3/PPPB1PPP/R3KBNR w KQ - 7 7",
+      "prompt": "Şahınızı, taşlarınızın çoktan boşalttığı kanada çekin ve aynı hamlede bir kaleyi yarı açık dikeye getirin.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "Arka yatayınızın bir tarafından üç taş çekilmiş — şahınızla her iki kale arasındaki boş kareleri sayın."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "Yeniden Öremeyeceğiniz Duvar",
+      "text": "Siyah iki piyon hamlesiyle bir fili kovaladı ve g8'deki şahın çevresindeki barınaktan iki tuğla söktü. h6'daki piyon da g5'teki piyon da o duvarın parçasıydı ve g5'teki, şu anda h4'teki file vuruyor.\n\nBeyazın üç piyonu hâlâ f2, g2 ve h2'de, rokün onları bıraktığı yerde oturuyor. Siyah o iki tuğlayı geri koyamaz, çünkü hiçbir piyon geri yürümez; bu iki şah arasındaki bütün fark da budur.\n\n> Şahınızın önündeki bir piyonu ancak mecbur kalınca oynatın. Asla ikisini birden oynatmayın."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "title": "Nereye Vurmalı",
+      "text": "g5'teki piyonun tam olarak tek koruyucusu var: h6'daki piyon. Onların arkasında şahın bir koruyucusu daha var, f6'daki at.\n\nSaldırı altındaki file verilecek doğal cevap onu geri çekmektir. Siyahın barınağı o zaman ince kalır ama kalır.\n\nDaha gürültülü bir cevap da var. Bu kadar ince bir barınak satın alınabilir ve beyazın ödeyecek taşları var. Bedeli piyonla, ödülü açık hatlarla sayın ve sonra karar verin."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n1p/2b1p1p1/2B1P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+      "prompt": "Filinize yapılan saldırıya, bir taşa mal olsa bile barınağı açarak cevap verin.",
+      "targetSan": [
+        "Nxg5"
+      ],
+      "hint": "g5'te önce kaybetmeyi en çok göze alabileceğiniz taşla alın ki son sözü fil söylesin."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2p2/2np1n2/2b1p1p1/2B1P2B/2NP4/PPP2PPP/R2Q1RK1 w - - 0 10",
+      "prompt": "Siyah atı aldı; geri alın ve siyahın f6'daki atı vezire karşı açmaza girsin.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "h4'teki filinizle siyahın d8'deki veziri arasında şu anda ne durduğunu sayın."
+    }
+  ]
+}

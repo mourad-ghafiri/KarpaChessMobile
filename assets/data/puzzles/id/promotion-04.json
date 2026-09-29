@@ -1,0 +1,14 @@
+{
+  "id": "promotion-04",
+  "fen": "1r4k1/6pp/1PP5/8/8/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "c7",
+    "Rc8",
+    "b7"
+  ],
+  "rating": 1120,
+  "title": "Dua Pion, Satu Benteng",
+  "setup": "Dua pion yang bersambung berdiri di b6 dan c6 melawan satu benteng di b8, dan benteng hanya bisa mengawasi satu.",
+  "hint": "Satu benteng tak bisa menahan dua pion yang bersambung. Dorong pion yang menyeret benteng ke petak yang bisa Anda serang.",
+  "explanation": "## Ide\n\n{{c7}} menyerang benteng dan mengancam menjadi menteri, dan {{Rc8}} satu-satunya petak yang menghentikan pion c. Kini {{b7}} menyerang benteng dan juga mengancam b8=Q, jadi apa pun yang dimainkan Hitam, salah satu pion menjadi menteri. Dua pion bersambung di baris keenam mengalahkan benteng."
+}

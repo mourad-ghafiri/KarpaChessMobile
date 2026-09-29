@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-02",
+  "fen": "8/R4Pr1/4k3/8/4K3/8/8/8 w - - 0 1",
+  "solution": [
+    "f8=Q"
+  ],
+  "rating": 1250,
+  "title": "Créez la bonne pièce",
+  "setup": "La tour noire attaque le pion f depuis g7, le roi l'attaque aussi, et un seul défenseur ne peut pas le tenir contre deux, donc les Blancs ont exactement un coup pour s'en servir.",
+  "hint": "Le pion est perdu au coup suivant quoi que vous fassiez. Demandez-vous quelle nouvelle pièce toucherait la tour en g7.",
+  "explanation": "## L'idée\n\nLe pion ne peut pas être tenu, alors dépensez-le. {{f8=Q}} attaque la tour voisine et gagne. {{f8=R}} et {{f8=N+}} laissent g7 tranquille, et {{f8=B}} frappe la tour mais ne suffit pas pour gagner. Les Noirs doivent sauver la tour par {{Rxa7}}, et dame contre tour, c'est gagnant."
+}

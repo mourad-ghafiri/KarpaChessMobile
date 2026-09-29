@@ -1,0 +1,13 @@
+{
+  "id": "endgames-01",
+  "fen": "8/8/8/8/3K4/8/4Q3/k7 w - - 0 1",
+  "solution": [
+    "Kc3",
+    "Kb1",
+    "Qb2#"
+  ],
+  "title": "The Queen Cannot Do It Alone",
+  "setup": "Queen and king against a bare king in the corner. Everything is ready except the piece that has to finish it.",
+  "hint": "One quiet move leaves Black exactly one legal square — which piece can take the rest away once it is standing there?",
+  "explanation": "## The Idea\n\nThe queen on e2 owns the second rank, so the black king has b1 and nothing else. What the queen cannot do is cover a1, b1 and b2 at once. That is what the king is for.\n\n{{Kc3}} brings it up. Black has one legal move, {{Kb1}}, and {{Qb2#}} lands beside the king on a square the white king defends.\n\nTaking b1 away with {{Qc2}} instead is stalemate. Count the bare king's squares before every quiet move: if the answer is one, only a check may take it."
+}

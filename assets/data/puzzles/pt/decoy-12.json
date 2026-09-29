@@ -1,0 +1,14 @@
+{
+  "id": "decoy-12",
+  "fen": "1r1q1r1k/6pp/7N/8/8/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1550,
+  "title": "O Legado de Philidor",
+  "setup": "O rei de h8 está selado pelos seus próprios peões, e o teu cavalo de h6 já cobre g8.",
+  "hint": "Todas as casas de fuga desapareceram menos uma, e essa está vazia. Como pões uma peça preta em cima dela?",
+  "explanation": "## A Ideia\n\nEste é o **mate sufocado**. {{Qg8+}} oferece a dama para que as pretas tenham de tapar a sua própria fuga: {{Rxg8}} é forçado, já que o cavalo guarda g8. {{Nf7#}} dá então mate a um rei sem sítio para onde ir."
+}

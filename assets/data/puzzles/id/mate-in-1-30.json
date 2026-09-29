@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-30",
+  "fen": "7k/7p/5N1K/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Jaring Menteri dan Kuda di Sudut",
+  "setup": "Kuda Anda di f6 dan raja Anda di h6 mengepung raja Hitam di sudut, dan pionnya sendiri di h7 mengisi celah terakhir.",
+  "hint": "Kuda dan raja menguasai petak-petak di sekitar raja. Kirim menteri di sepanjang baris belakang.",
+  "explanation": "## Ide\n\nKuda dan raja sudah mengurung raja itu: kuda di f6 menguasai g8, raja Anda di h6 menguasai g7, dan h7 ditempati pion Hitam sendiri.\n\n{{Qa8#}} memberi sekak di sepanjang baris belakang yang kosong dari sudut yang jauh, dan tak ada yang bisa menghalangi.\n\nKuda yang dekat dengan sudut menguasai petak-petak yang tak bisa dicapai menteri dalam satu langkah. Dengan menteri, kuda dan raja di dekat raja yang terpojok, carilah jaring ini."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-07",
+  "fen": "6k1/1b3ppp/8/8/8/8/2r2PPP/R3R1K1 w - - 1 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 910,
+  "title": "Elige la torre correcta",
+  "setup": "Tus dos torres pueden dar jaque en la octava fila, y el alfil negro de b7 vigila a una de ellas.",
+  "hint": "Hay dos jaques disponibles y solo uno es mate. Mira qué defiende el alfil de b7.",
+  "explanation": "## La idea\n\nRa8+ simplemente pierde una torre ante el alfil de b7. {{Re8#}} es mate: nada defiende e8, nada puede tapar y los peones de f7, g7 y h7 retienen al rey. En la última fila, pregúntate siempre qué casillas sigue cubriendo el defensor."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-01",
+  "fen": "8/8/8/7P/3k4/8/8/K7 b - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "rating": 1100,
+  "title": "Di dalam Persegi",
+  "setup": "Putih baru saja mendorong pion h ke baris kelima, dan rajanya sendiri terdampar di sudut yang jauh.",
+  "hint": "Bayangkan persegi h5–h8–e8–e5 dan tanyakan langkah raja Anda mana yang benar-benar mendarat di dalamnya.",
+  "explanation": "## Ide\n\nPion di h5 butuh tiga langkah untuk menjadi menteri, jadi raja mana pun yang bisa mencapai persegi h5–h8–e8–e5 menangkapnya. Dari d4 hanya {{Ke5}} yang melangkah masuk: {{h6}} {{Kf6}} dan raja membayangi pion sampai ke h8. Setiap langkah lain kurang satu tempo."
+}

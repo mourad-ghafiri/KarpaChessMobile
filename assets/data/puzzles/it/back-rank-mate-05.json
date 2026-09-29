@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-05",
+  "fen": "2r3k1/1q3ppp/8/8/8/8/2R2PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Rxc8#"
+  ],
+  "rating": 850,
+  "title": "Cambiare fin Dentro il Matto",
+  "setup": "Tutti e due hanno torri sulla colonna c, e la torre nera in c8 è difesa dalla sola donna.",
+  "hint": "Contate attaccanti e difensori sulla casa della traversa di fondo, e ricordate che il re non può aiutare.",
+  "explanation": "## L'idea\n\n{{Rxc8+}} forza {{Qxc8}} — il re non ha una casa e la donna non può parare da b7 — e la seconda torre conclude con {{Rxc8#}}. Un difensore non può tenere una casa che due torri attaccano."
+}

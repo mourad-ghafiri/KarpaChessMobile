@@ -1,0 +1,11 @@
+{
+  "id": "pawn-storm-proof",
+  "fen": "2rq1rk1/pb1nb2p/1p2p3/3pBpp1/2PPn3/1PNB1N2/P3QPPP/2RR2K1 b - - 1 15",
+  "solution": [
+    "g4"
+  ],
+  "title": "Botvinnik continue de marcher",
+  "setup": "Bogoljubov contre Botvinnik, Nottingham 1936. Vos pions f et g ont déjà avancé, et le cavalier en f3 est ce qui garde l'aile roi blanche.",
+  "hint": "Un assaut de pions, ce sont des pions qui frappent des pièces. Quelle pièce blanche l'un de vos pions peut-il attaquer à ce coup ?",
+  "explanation": "## L'idée\n\n{{g4}} lance le pion d'assaut sur le cavalier en f3, la pièce qui garde e5 et les cases devant le roi blanc. Un pion qui attaque une pièce gagne un temps, et chaque coup que le cavalier passe à fuir est un coup que l'assaut n'a pas à payer.\n\nDans la partie, le cavalier est revenu en e1, Botvinnik a échangé en e5 et pris le contrôle du centre, et les Noirs ont fini par gagner."
+}

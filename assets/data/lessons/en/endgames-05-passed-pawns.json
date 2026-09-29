@@ -1,0 +1,56 @@
+{
+  "id": "passed-pawns",
+  "title": "Passed Pawns",
+  "summary": "Draw the square before you push",
+  "proof": "endgame-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Nothing in Its Road",
+      "text": "Your pawn on e5 has an empty board in front of it. No black pawn stands on the e-file, and none on d or f either, so nothing can ever be pushed into its path and nothing can ever guard the squares it must cross.\n\nThat is a **passed pawn**: a pawn with no enemy pawn ahead of it on its own file or on either file beside it.\n\nIt has one job left, and exactly one piece on the board can argue with it. White's king on d1 is miles away, and that changes nothing here."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "title": "Draw the Square",
+      "text": "So the only question is whether the black king can get there in time, and that question has an exact answer.\n\nDraw a square with the pawn on e5 at one corner and its promotion square e8 at the other: e5, h5, h8, e8. A king inside that square, or able to step into it on its own turn, catches the pawn. A king outside it never does, however fast it runs.\n\nThe black king on h4 is one rank under the bottom edge. Three moves take the pawn to e8; that king needs four."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/4P3/7k/8/8/3K4 w - - 7 5",
+      "prompt": "Decide whether that king can catch the pawn, then play the move your answer demands.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Sketch the square e5–h5–h8–e8 and see which side of the bottom edge the black king is standing on."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/4P3/8/7k/8/8/3K4 b - - 0 5",
+      "title": "One Move Late, Every Time",
+      "text": "{{Kg5}} {{e7}} {{Kf6}} {{e8=Q}}. The chase is honest, and it still loses by a single move.\n\nLook at what the push did to the box. With the pawn on e6 the corners are e6, g6, g8, e8: three files wide instead of four. Every step forward shrinks the area the defender has to be standing in, so a pawn that is already ahead only gets harder to catch.\n\nThere is no clever route either. The black king is walking the shortest line it has, and the arithmetic never changes."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "A Board Where Running Loses",
+      "text": "New board. Your pawn on e4 is passed as well, with no black pawn anywhere, and this time the black king on e8 is not outside the square. It is parked on the promotion square before the race has begun.\n\n{{e5}} {{Ke7}} {{e6}}, and the pawn has walked straight into a king it cannot pass. Nothing shifts that king off the file: your own king on e1 is three ranks behind the pawn and no use to it there.\n\nThe pawn did not lose the race. It never had one."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "title": "Who Else Can Help",
+      "text": "So the pawn is not the piece to move. Look at what else White owns: a king on e1 that has done nothing for the whole game, and a long walk ahead of it.\n\nIn truth this pawn has already run one square too far — against perfect defense the race is now a draw. That is the price of pushing before escorting, and the escort still gives you every practical chance.\n\n> A pawn on its own is a target. A pawn with a king beside it is a threat.\n\nThe pawn will wait. It has nowhere else to be."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/8/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Start your king toward the pawn, moving up the file the pawn stands on.",
+      "targetSan": [
+        "Ke2"
+      ],
+      "hint": "The walk is long, so take the shortest road — straight up the file the pawn already owns."
+    }
+  ]
+}

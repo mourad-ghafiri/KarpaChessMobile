@@ -1,0 +1,12 @@
+{
+  "id": "smothered-03",
+  "fen": "kr2r3/pp3ppp/8/1N6/8/8/P4PPP/3R2K1 w - - 7 29",
+  "solution": [
+    "Nc7#"
+  ],
+  "rating": 1215,
+  "title": "La otra esquina",
+  "setup": "Las Negras acaban de pasar una torre de c8 a b8, y al rey de la esquina no le queda ningún hueco.",
+  "hint": "El mate de la coz no es solo cosa del flanco de rey; comprueba qué casillas alrededor de a8 siguen vacías, y luego busca un jaque.",
+  "explanation": "## La idea\n\nUn rey en a8 con peones en a7 y b7 y una torre en b8 está tan enterrado como uno en h8. {{Nc7#}} llega a la única casilla que le da jaque, y nada la cubre: una torre en b8 defiende filas y columnas, nunca la casilla que tiene delante en diagonal."
+}

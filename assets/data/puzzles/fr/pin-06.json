@@ -1,0 +1,12 @@
+{
+  "id": "pin-06",
+  "fen": "8/r7/pRp2k2/2Rr4/7P/8/8/K7 w - - 0 1",
+  "solution": [
+    "Rxd5"
+  ],
+  "rating": 1000,
+  "title": "Un défenseur qui n'en a que le nom",
+  "setup": "Votre tour en b6 file le long de la sixième rangée, à travers le pion c noir, jusqu'au roi en f6.",
+  "hint": "Un seul pion noir défend la tour en d5. Vérifiez d'abord ce que votre propre tour en b6 fait à ce pion.",
+  "explanation": "## L'idée\n\n{{Rxd5}} gagne une tour entière. Le pion en **c6** est le seul défenseur de d5, mais il est cloué le long de la sixième rangée par votre tour en **b6** : s'il prend, le roi en **f6** se retrouve en échec. Un pion cloué ne défend rien."
+}

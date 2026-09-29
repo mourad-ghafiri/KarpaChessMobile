@@ -1,0 +1,12 @@
+{
+  "id": "trapped-06",
+  "fen": "2r3k1/Bpp2pp1/5n1p/p7/8/8/P1P2PPP/3R2K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "rating": 1210,
+  "title": "Chiudete la Porta",
+  "setup": "L'alfiere bianco ha arraffato un pedone in a7, in fondo al vostro campo, con solo b8 e b6 per tornare a casa.",
+  "hint": "La vostra torre in c8 sorveglia già una delle due porte. Chiudete l'altra con qualcosa che l'alfiere non possa prendere senza rischi.",
+  "explanation": "## L'idea\n\n{{b6}} toglie all'alfiere l'ultima casa, e il pedone è difeso da c7, quindi Bxb6 cxb6 vince un pezzo per un pedone. La torre copre b8, il pedone stesso del Bianco in a2 blocca la colonna a, e c7 impedisce a qualunque torre di arrivare ad a7 lungo la traversa. Poi Ra8."
+}

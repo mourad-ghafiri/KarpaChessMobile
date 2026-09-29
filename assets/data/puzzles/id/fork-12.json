@@ -1,0 +1,16 @@
+{
+  "id": "fork-12",
+  "fen": "7k/pp4pp/1q6/4N3/8/8/P1P2PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Qxd8",
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 1100,
+  "title": "Seret Menterinya Masuk",
+  "setup": "Raja Hitam terkunci di balik g7 dan h7, dan menterinya di b6 satu-satunya buah yang mengawasi d8.",
+  "hint": "Raja hitam sama sekali tak bisa bergerak. Manfaatkan itu untuk menentukan ke mana menterinya harus pergi.",
+  "explanation": "## Ide\n\nRaja di h8 tak punya petak, jadi {{Rd8+}} hanya bisa dijawab dengan {{Qxd8}} — yang menyeret menteri ke d8, tempat sekak kuda dari f7 akan menjangkaunya. {{Nf7+}} menggarpu menteri dan raja, {{Kg8}} terpaksa, dan {{Nxd8}} memenangkan menteri dengan imbalan benteng."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "discovered-05",
+  "fen": "r3k3/8/4B3/8/4R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kd8",
+    "Bxa8"
+  ],
+  "title": "L'Alfiere Fa Scattare la Batteria",
+  "setup": "La vostra torre e il vostro alfiere sono impilati sulla colonna e — l'alfiere davanti, la torre carica dietro.",
+  "hint": "Qualunque mossa d'alfiere scopre uno scacco di torre. Scegliete quella che attacca anche qualcosa che il Nero non può salvare.",
+  "explanation": "## L'idea\n\nL'alfiere in e6 maschera la torre in e4. Nel momento in cui muove, la torre dà scacco lungo la colonna, quindi la mossa dell'alfiere arriva con una minaccia in omaggio.\n\n{{Bd5+}} esce dalla colonna e tiene d'occhio la torre in a8. Il Nero deve rispondere allo scacco, e nessun pezzo nero può parare in e5, e6 o e7. Dopo {{Kd8}}, {{Bxa8}} incassa la torre.\n\nIl pezzo davanti di una batteria muove con una minaccia incorporata, quindi scegliete la casa dove fa doppio servizio."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "xray-proof",
+  "fen": "6k1/pq3pp1/1p5p/4b3/4r3/5N1Q/PPP2PPP/4RK2 w - - 0 1",
+  "solution": [
+    "Nxe5",
+    "Rxe5",
+    "Rxe5"
+  ],
+  "title": "Dijaga Menembus Benteng",
+  "setup": "Gajah di e5 punya satu pembela, benteng di depannya, dan benteng itu berdiri di lajur benteng Anda sendiri.",
+  "hint": "Hitung apa yang menjaga sebuah petak setelah benteng Hitam meninggalkan e4, bukan sebelumnya.",
+  "explanation": "## Ide\n\n{{Nxe5}} menempatkan kuda Anda di tempat yang bisa diambil benteng di e4, dan justru itulah intinya. Benteng Anda di e1 menjaga e5 menembus benteng hitam: begitu ia menangkap, ia membuka lajur di belakangnya, dan benteng Anda menangkap balik. Jadi Hitam sebenarnya sama sekali tak bisa menangkap balik. Yang terbaik bagi Hitam adalah menukar benteng di e1 dan tetap tertinggal satu buah."
+}

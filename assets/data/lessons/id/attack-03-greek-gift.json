@@ -1,0 +1,71 @@
+{
+  "id": "greek-gift",
+  "title": "Hadiah Yunani",
+  "summary": "Satu gajah diserahkan, demi raja yang tak punya tempat lagi untuk berdiri",
+  "proof": "greek-gift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "Petak yang Tak Dijaga Siapa Pun",
+      "text": "Hitung apa yang membidik h7. Gajah di d3 memandang lurus ke sana di sepanjang diagonal b1-h7. Kuda di f3 tinggal satu lompatan dari g5, dan dari g5 ia juga menyerang h7. Menteri di d1 berdiri di pangkal diagonal d1-h5, yang berujung di lajur h yang sama.\n\nSekarang hitung penjaganya. Kuda yang seharusnya di f6 telah didorong mundur ke d7 oleh pion Anda di e5, dan e5 masih menguasai f6. Satu-satunya buah yang tersisa untuk menjaga h7 adalah raja yang berdiri di sampingnya.\n\nTiga lawan satu, dan yang satu itu adalah raja."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "Hadiah Yunani",
+      "text": "Menyerahkan gajah untuk satu pion adalah **pengorbanan** yang punya nama. **Hadiah Yunani** adalah gajah yang dilemparkan ke perlindungan pion di depan raja yang sudah rokade. Ia entah mengakhiri partai atau kehilangan sebuah buah, dan yang mana ditentukan sebelum Anda melepaskannya.\n\nEmpat syarat. Gajah melihat h7. Seekor kuda tinggal satu langkah dari g5. Menteri punya jalan menuju lajur h di belakang kuda itu. Dan apa pun yang menangkap di g5 akan ditangkap balik, sementara tak ada yang bisa mencapai f6 untuk menjaga sudut.\n\n> Hadiah yang sudah Anda hitung bukanlah untung-untungan."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "prompt": "Tak ada kecuali raja yang menjaga sudut Hitam, jadi seret raja itu keluar dari perlindungannya.",
+      "targetSan": [
+        "Bxh7+"
+      ],
+      "hint": "Hanya satu buah Anda yang menyerang h7 saat ini, jadi berhentilah menghitung nilainya dan hitunglah penjaganya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "title": "Kuda Anda Sendiri Menghalangi",
+      "text": "Raja telah menangkap di h7 dan tak ada lagi apa pun di depannya. Anda juga tertinggal satu gajah dengan imbalan satu pion, dan bagian itulah yang membuat pikiran fokus.\n\nLihat ke mana menteri ingin pergi. Jalan dari d1 ke lajur h melewati e2, f3 dan g4, dan kuda Anda sendiri di f3 berdiri di sana.\n\nJadi langkah ini bukan pilihan di antara ide-ide bagus. Langkah tenang apa pun membiarkan Hitam mundur ke g8 dan mulai menarik buah-buah ke sudut, lalu gajah itu hanya membeli satu pion dan tak lebih."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "prompt": "Buka jalan menteri ke lajur h dengan langkah yang harus segera dijawab Hitam.",
+      "targetSan": [
+        "Ng5+"
+      ],
+      "hint": "Kuda Anda harus bergerak, dan hanya satu petaknya yang memberi sekak — petak yang sudah dijaga pion f Anda."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R b KQ - 1 11",
+      "title": "Empat Petak, Satu Raja",
+      "text": "Menteri di e7 bisa mengambil kuda, tetapi pion Anda di f4 menangkap balik dan Hitam telah membayar menteri untuk kuda. Sekak kuda juga tak bisa dihalangi. Jadi raja bergerak, dan ia punya tepat empat petak: {{Kg8}}, {{Kh8}}, {{Kg6}}, {{Kh6}}.\n\nDua di antaranya kembali ke sudut. Dua lainnya melangkah maju ke papan terbuka, yang tampak seperti lolos dari kuda padahal sebenarnya berjalan menuju semua buah lain milik Anda.\n\nDua itulah yang ingin dimainkan lawan Anda."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p1k1/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "Keluar untuk Mengambil Kuda",
+      "text": "g6 menyerang kuda di g5, dan justru itulah sebabnya Hitam memainkannya. Raja berjalan keluar dengan harapan unggul satu buah dalam dua langkah.\n\n{{Qg4}}. Menteri melangkah naik di belakang kuda di lajur g, sehingga kuda terlindungi dan setiap petak tujuan lompatannya menyingkap sekak. Dan pion f Anda tinggal satu langkah dari f5, tempat ia akan menyerang raja lagi.\n\nMakin jauh raja keluar, makin banyak pasukan Anda yang bisa menjangkaunya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p2k/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "Jalan Lama Sang Gajah",
+      "text": "h6 menjauhkan raja dari sudut dan menyerang kuda di g5, jadi tampaknya itulah yang terbaik dari keempatnya.\n\n{{Qd3}}. Menteri mengambil alih diagonal yang ditinggalkan gajah dan membidik lurus ke h7. Kuda di g5 menjaga petak itu, raja tak punya tempat untuk menyingkir dari garisnya, dan mat di h7 diancam pada langkah berikutnya. Hitam tak punya cara yang baik untuk menghentikannya."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqpp1/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "prompt": "Hitam kembali ke sudut, jadi bawa penyerang terakhir Anda ke lajur h dan ancam mat.",
+      "targetSan": [
+        "Qh5"
+      ],
+      "hint": "Kuda sudah menguasai h7, dan benteng Hitam sendiri di f8 telah merebut satu petak pelarian dari raja."
+    }
+  ]
+}

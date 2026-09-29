@@ -1,0 +1,62 @@
+{
+  "id": "caro-kann",
+  "title": "La Caro-Kann",
+  "summary": "Resuelve el alfil malo antes de construir el muro",
+  "proof": "openings-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Un peón en lugar de una pieza",
+      "text": "Las Negras respondieron a 1.e4 con el peón de c: una jugada que no ataca nada, no desarrolla nada y parece tirada. Una jugada después, rinde. El ...d5 negro llega sostenido por un peón en lugar de por una pieza, y el centro se cambia.\n\nAsí se llegó a esta posición. Las Negras tienen un peón en c6 y el ejército todavía en casa. Las Blancas tienen un peón en d4 y su primera pieza fuera, el caballo de e4.\n\nLa Caro-Kann es la afirmación de que este es un buen trato para las Negras."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "title": "El alfil detrás del muro",
+      "text": "La mayoría de las respuestas a 1.e4 se apoyan en ...e6, y ese peón hace dos cosas a la vez. Sostiene el centro, y se interpone en el camino del alfil de c8.\n\n{{e6}}. Ese alfil tiene exactamente una diagonal abierta, de c8 a h3, y un peón propio acaba de aparcar en ella. Le queda d7, donde el alfil tapa a la dama y no mira nada.\n\nEl peón negro de c ya está haciendo el trabajo que en otras aperturas hace el peón de e. Así que este alfil no tiene por qué quedarse sentado esperando el muro."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Saca ese alfil fuera de los peones ahora, a la casilla desde la que además mira al caballo blanco.",
+      "targetSan": [
+        "Bf5"
+      ],
+      "hint": "Nada en el tablero defiende a ese caballo, y la única diagonal abierta del alfil tiene exactamente una casilla que lo ataca."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p5/5b2/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Dos jugadas para el alfil",
+      "text": "Las Blancas no van a dejar un caballo para que se lo capturen. {{Ng3}} empuja al alfil, {{Bg6}} conserva la diagonal y {{h4}} amenaza con volver a empujar y echar al alfil de ella para siempre. {{h6}} despeja h7, para que el alfil siempre tenga una casilla detrás.\n\nCuenta lo que costó. Las Negras movieron un alfil dos veces. Las Blancas volvieron a mover el caballo y adelantaron dos casillas un peón de torre delante de su rey.\n\nLos dos bandos gastaron tiempo. Solo uno lo gastó en peones, y un peón no vuelve."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Pagar después en lugar de ahora",
+      "text": "Aquí las Negras van por detrás en desarrollo, y la Caro-Kann lo admite. Tres de las cuatro primeras jugadas negras fueron de peón, así que las Blancas terminan primero y eligen dónde se juega la partida.\n\nLo que ese tiempo compró es una estructura a la que las Blancas no pueden hincar el diente, un rey que puede ir a cualquiera de los dos flancos y el alfil de g6 respirando aire libre fuera de sus propios peones.\n\nEl peón de h blanco, mientras tanto, no volverá nunca a casa. Las piezas se cambian, el ataque se agota y ese peón sigue donde antes el rey estaba seguro."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Las Blancas rechazan el cambio",
+      "text": "Otras Blancas, y solo en la tercera jugada. En lugar de cambiar en el centro, estas empujan el peón más allá y cierran la puerta con llave: un peón blanco en e5, otro en d4, y el peón negro de d5 sin adónde ir.\n\nDos peones en diagonal, el de atrás sosteniendo al de delante, forman una **cadena de peones**. La blanca va de d4 a e5. El peón de e5 es el que hace daño —le quita f6 al caballo negro— y d4 es lo que lo sostiene ahí. A d4 solo lo sostienen piezas.\n\nAsí que una cadena se ataca por la base, nunca por la cabeza."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "Primero fuera, luego el muro",
+      "text": "El problema de las Negras es el de siempre. Con el centro bloqueado, ...e6 tiene que llegar —sostiene d5 y deja respirar a las piezas del flanco de rey—, y es el mismo peón que encerraría al alfil.\n\nAsí que el orden hace el trabajo. {{Bf5}} va primero. Las Blancas responden {{Nf3}}, y solo entonces {{e6}}: el muro se levanta detrás del alfil en lugar de delante. {{Be2}}, y las Negras están listas.\n\n> Saca tu peor pieza antes de construir el muro que la atraparía."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP1BPPP/RNBQK2R b KQkq - 1 5",
+      "prompt": "Ataca el peón que sostiene la cadena blanca, con el único peón tuyo que puede alcanzarlo.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "Sigue la cadena blanca hasta el peón que ningún otro peón defiende, y luego pregúntate cuál de los tuyos llega a él."
+    }
+  ]
+}

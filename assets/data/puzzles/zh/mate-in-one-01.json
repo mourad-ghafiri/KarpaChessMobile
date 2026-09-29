@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-01",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq g3 0 2",
+  "solution": [
+    "Qh4#"
+  ],
+  "rating": 600,
+  "title": "两步走错",
+  "setup": "白方的前两步打开了唯一一条通向自己王的斜线。",
+  "hint": "只有一条线指向白王，也只有一枚黑棋这一步能走上去。",
+  "explanation": "## 思路\n\nf 兵和 g 兵这两步，让 e1 在 h4–e1 斜线上失去了掩护。{{Qh4#}} 落下，没有东西能挡，也没有东西能吃掉它。只要你的王还住在这两个兵后面，就让它们待在家里。"
+}

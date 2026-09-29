@@ -1,0 +1,13 @@
+{
+  "id": "openings-12",
+  "fen": "r3kbnr/pp1b1ppp/1qn1p3/3pP3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 2 8",
+  "solution": [
+    "Nxd4",
+    "Nxd4",
+    "Qxd4"
+  ],
+  "title": "The Base Falls",
+  "setup": "An Advance French: White has put the bishop on d3 and the knight on c3, and nobody has counted the pawn at the base of the chain.",
+  "hint": "Count the attackers and defenders of White's base pawn. The bishop on d3 is standing in front of one of White's defenders.",
+  "explanation": "## The Idea\n\nThe base of White's chain is d4. Your knight on c6 and queen on b6 attack it, and only the knight on f3 defends it: the bishop on d3 blocks the white queen's road.\n\n{{Nxd4}} takes it, and after {{Nxd4}} {{Qxd4}} you are a clean pawn up. The usual trick, a bishop check on b5 that uncovers White's queen, fails here because your bishop on d7 covers b5 once the knight has left c6.\n\nCount the base of the chain first."
+}

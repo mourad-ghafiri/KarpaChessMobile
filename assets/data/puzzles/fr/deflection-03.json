@@ -1,0 +1,14 @@
+{
+  "id": "deflection-03",
+  "fen": "2br2k1/5ppp/nq6/8/2B5/7P/PP2QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Bxa6"
+  ],
+  "rating": 1180,
+  "title": "Deux tâches, une dame",
+  "setup": "La dame en b6 tient la tour en d8 et le cavalier en a6, et votre fou vise déjà a6.",
+  "hint": "Votre fou vise un cavalier défendu. Trouvez le défenseur et donnez-lui une tâche à laquelle il doit répondre.",
+  "explanation": "## L'idée\n\n{{Rxd8+}} est échec et {{Qxd8}} est la seule réponse. La dame a quitté la sixième rangée, donc {{Bxa6}} prend simplement le cavalier. Chassez les défenseurs qui tiennent deux pièces à la fois. Un défenseur n'a pas besoin d'être pris, seulement d'avoir un autre endroit où aller."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-12",
+  "fen": "k6r/8/8/5p2/5p1K/8/P7/8 w - - 0 1",
+  "solution": [
+    "Kg5"
+  ],
+  "title": "Le pas de côté",
+  "setup": "La tour noire met votre roi en échec le long de la **colonne h** ouverte, tandis que deux pions noirs gardent les cases de fuite.",
+  "hint": "Rappelez-vous : les pions noirs attaquent en diagonale *vers le bas* de l'échiquier. Quelles cases couvrent vraiment f4 et f5 ?",
+  "explanation": "## L'idée\n\nLa tour en h8 tient toute la colonne h, donc h3 et h5 sont exclues. Les deux pions semblent aussi verrouiller la colonne g, mais regardez ce qu'ils attaquent vraiment : le pion en f4 couvre g3, le pion en f5 couvre g4, et rien ne couvre g5.\n\n{{Kg5}} glisse le roi à côté des pions noirs, en sécurité car un pion ne prend jamais en arrière.\n\nUn pion attaque exactement deux cases, toutes deux devant lui."
+}

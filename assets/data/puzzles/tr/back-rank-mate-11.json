@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-11",
+  "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w - - 0 16",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1060,
+  "title": "Veziri Verin",
+  "setup": "Siyahın şahı hâlâ e8'de, kendi fili ve piyonlarıyla kutuya alınmış; d7'deki at da kalenizin d8'e giden yolunu kesiyor.",
+  "hint": "Siyahın tek bir taşı kalenizin d8'de mat etmesini engelliyor. Onu o kareden ne ayırır?",
+  "explanation": "## Fikir\n\nd1'deki kale d8'i çoktan istiyor, yolunda yalnızca d7'deki at duruyor ve g5'teki filiniz d8 ile e7'yi zaten kapsıyor. {{Qb8+}} koca bir vezire mal olur ve tek kurallı cevap olan {{Nxb8}} hamlesini zorlar — at artık yanlış karededir. {{Rd8#}} işi bitirir."
+}

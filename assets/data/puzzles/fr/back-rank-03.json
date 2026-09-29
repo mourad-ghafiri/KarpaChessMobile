@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-03",
+  "fen": "r5k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "Le premier sur la dernière rangée",
+  "setup": "Les tours se font face sur la colonne a ouverte, et aucun des deux rois n'a bougé un pion devant lui.",
+  "hint": "Les propres pions noirs enferment le roi sur la dernière rangée. Quelle prise atteint cette rangée avec échec ?",
+  "explanation": "## L'idée\n\n{{Rxa8#}} prend la tour avec échec le long de la dernière rangée. Rien ne peut reprendre ni s'interposer, et les cases du roi hors de la rangée, f7, g7 et h7, sont occupées par ses propres pions.\n\nLes deux rois étaient enfermés de la même façon, donc celui qui a joué le premier a gagné. Un pas de pion comme h6 plus tôt aurait donné une case au roi noir."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "promotion-07",
+  "fen": "r5k1/P4pp1/7p/8/8/7P/5PP1/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Rxb8",
+    "axb8=Q+"
+  ],
+  "rating": 1240,
+  "title": "Piyon Koruyor",
+  "setup": "a7 piyonunuzu a8'deki kale tıkıyor ve kendi kaleniz birinci yatay boyunca savrulmakta serbest.",
+  "hint": "Abluka kuran kalenin yanındaki hangi kareyi geçer piyonun kendisi zaten koruyor?",
+  "explanation": "## Fikir\n\n{{Rb8+}} şahtır ve kale dokunulmazdır, çünkü a7 piyonu b8'i korur. {{Rxb8}} {{axb8=Q+}} hamlesine yürür; şah çekerek terfi edilir ve bir kale karşılığında vezirle çıkılır. Bunun yerine Kh7 ile yana çekilmek ise kaleyi Rxa8'e kaptırır."
+}

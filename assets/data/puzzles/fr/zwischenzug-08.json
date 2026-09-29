@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-08",
+  "fen": "7k/4bppp/r5R1/1Q4B1/8/8/PP2r3/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Bf8",
+    "Qxf8#"
+  ],
+  "rating": 1560,
+  "title": "Offrez-la au fou",
+  "setup": "Votre dame en b5 et votre tour en g6 visent un roi qui a un fou en e7 pour compagnie.",
+  "hint": "Le fou ne peut s'interposer que sur une seule case. Choisissez l'échec qui l'oblige à choisir cette case.",
+  "explanation": "## L'idée\n\n{{Qe8+}} force {{Bf8}} — le fou ne peut pas prendre et le roi ne peut pas bouger. {{Qxf8#}} suit : la dame couvre g8, et g7 et h7 sont occupées par les propres pions noirs. L'échec n'est pas le mat ; c'est ce qui prépare le mat."
+}

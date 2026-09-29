@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-10",
+  "fen": "b4k2/6p1/7p/8/2RB2Q1/8/6PP/7K w - - 0 1",
+  "solution": [
+    "Qxg7+",
+    "Ke8",
+    "Rc8#"
+  ],
+  "rating": 1320,
+  "title": "Sacrifica o Abrigo",
+  "setup": "O rei preto em f8 tem um peão à frente, e o teu bispo de d4 aponta diretamente para ele.",
+  "hint": "O peão ao lado do rei parece um guarda. Pergunta o que o teu bispo cobre na casa por trás dele.",
+  "explanation": "## A Ideia\n\n{{Qxg7+}} funciona porque o bispo de **d4** defende g7, portanto o rei não pode comer. {{Ke8}} é a única casa que resta, e agora a dama varre a sétima linha enquanto {{Rc8#}} reclama a oitava. Duas linhas, sem fuga."
+}

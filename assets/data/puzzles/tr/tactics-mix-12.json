@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-12",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3QK3 w - - 0 1",
+  "solution": [
+    "Qd8#"
+  ],
+  "title": "Arka Yatay Matı",
+  "setup": "g8'deki siyah şahı kendi f7, g7 ve h7 piyonları sıkıştırmış ve arkasındaki yatayı koruyan hiçbir şey yok.",
+  "hint": "Rakip şah kendi piyonlarının arkasına kilitlendiğinde, tek hamlede bütün bir yatayı alabilen taşı arayın.",
+  "explanation": "## Fikir\n\nSiyahın şahı sekizinci yatayda duruyor ve f7, g7 ile h7'deki kendi piyonları yüzünden ona kalan tek kareler olan f8 ile h8 de aynı yatayda.\n\n{{Qd8#}} bütün yatayı tek seferde alır. Yolda hiçbir şey yoktur, hiçbir şey almak için d8'e ulaşamaz ve şah onu alamayacak kadar uzaktadır.\n\nHiç oynamamış üç piyonun arkasındaki şah, mata tek bir ağır taş uzaklıktadır; vaktinde oynanan tek bir piyon hamlesini bu kadar ucuz bir sigortaya çeviren de budur."
+}

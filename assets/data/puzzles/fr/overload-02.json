@@ -1,0 +1,14 @@
+{
+  "id": "overload-02",
+  "fen": "5Rbk/1r3ppp/8/8/8/7Q/PP2R3/K7 w - - 0 1",
+  "solution": [
+    "Rxg8+",
+    "Kxg8",
+    "Re8#"
+  ],
+  "rating": 1290,
+  "title": "Le bouclier qui bouche",
+  "setup": "Le fou noir s'est replié en g8 à côté de son propre roi, et votre tour est déjà en f8 à côté de lui.",
+  "hint": "La pièce devant le roi est la même pièce qui tient la dernière rangée fermée. Obligez-la à choisir.",
+  "explanation": "## L'idée\n\nLe fou en g8 abrite le roi et bouche la huitième rangée. {{Rxg8+}} l'élimine avec échec, {{Kxg8}} est forcé, et {{Re8#}} arrive sur la colonne que l'autre tour a eue pour elle seule depuis le début."
+}

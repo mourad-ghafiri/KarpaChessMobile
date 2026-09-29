@@ -1,0 +1,14 @@
+{
+  "id": "overload-07",
+  "fen": "1Q3bk1/R4ppp/8/6r1/8/8/PPR5/K7 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rc8#"
+  ],
+  "rating": 1490,
+  "title": "Una Donna per un Alfiere",
+  "setup": "L'alfiere nero è tornato in f8, e voi avete una torre sulla settima e un'altra che aspetta in c2.",
+  "hint": "Qui non state contando il materiale — state contando le case di fuga. Trovate l'unico pezzo che le fornisce tutte.",
+  "explanation": "## L'idea\n\n{{Qxf8+}} sembra assurda finché non vedete che {{Kxf8}} è forzata e che adesso il re sta sulla traversa che la torre di c2 comanda. {{Rc8#}} chiude la partita, con la torre in a7 a coprire e7, l'unica casa di fuga che i pedoni non si tolgono da soli."
+}

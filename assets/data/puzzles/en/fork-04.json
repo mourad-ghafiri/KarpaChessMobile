@@ -1,0 +1,14 @@
+{
+  "id": "fork-04",
+  "fen": "r4bk1/p5pp/1p6/3p4/8/5B2/PP3PPP/2R3K1 w - d6 0 2",
+  "solution": [
+    "Bxd5+",
+    "Kh8",
+    "Bxa8"
+  ],
+  "rating": 800,
+  "title": "Take and Fork",
+  "setup": "Black has just pushed a pawn to d5, straight into the path of your bishop on f3.",
+  "hint": "Removing the piece in the middle of a diagonal opens the rest of it. Check where that road ends.",
+  "explanation": "## The Idea\n\n{{Bxd5+}} wins a pawn and lights up two diagonals at once: the check runs to g8, and behind the captured pawn the bishop now sees a8. Black's own bishop and pawns leave only {{Kh8}}, and {{Bxa8}} takes the rook."
+}

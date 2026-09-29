@@ -1,0 +1,50 @@
+{
+  "id": "xray-attack",
+  "title": "O Ataque de Raios X",
+  "summary": "As peças de longo alcance veem através umas das outras",
+  "proof": "xray-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Atrás da Tua Torre",
+      "text": "A tua dama em d1 está atrás da tua própria torre de d2, e isso parece uma dama desperdiçada. Tira a torre dali e a dama vê d7 no mesmo instante, portanto enquanto a torre ficar, a dama aponta diretamente através dela.\n\nIsso são os **raios X**: uma peça de longo alcance a atacar através de uma peça sua, e a contar como atacante o tempo todo.\n\nAgora conta a coluna d. A torre preta em d7 é atingida duas vezes, pela torre e pela dama que está atrás. O bispo em c8 defende-a uma vez. Dois batem um."
+    },
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Primeiro o Barato",
+      "text": "Dois atacantes e um defensor, portanto d7 cai. Quanto custa fica decidido antes de se capturar seja o que for, porque a peça da frente é a peça que tem de começar.\n\nAqui a peça da frente é a torre. Entra ela, o bispo captura-a, a dama acaba o serviço: cinco pontos pagos, oito recolhidos.\n\nTroca os dois de lugar, a dama à frente e a torre atrás, e a mesma coluna perde dinheiro. Entra a dama, o bispo come uma dama, a torre come o bispo. Nove pagos, oito recolhidos.\n\nBarato à frente, caro atrás."
+    },
+    {
+      "type": "play",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "prompt": "Levanta o dinheiro na coluna d, a começar pelo atacante que mais te podes dar ao luxo de perder.",
+      "targetSan": [
+        "Rxd7"
+      ],
+      "hint": "Conta o que ainda aponta a essa casa depois de o bispo preto ter recapturado."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "O Guarda Que Ainda Não Existe",
+      "text": "Tabuleiro novo, jogam as pretas, e o cavalo em e5 parece grátis. A torre preta em e4 ataca-o, e não há nenhuma peça branca ali perto.\n\nOlha mais abaixo na coluna. A tua torre em e1 está nessa mesma coluna, e a única coisa entre ela e o cavalo é a própria torre preta.\n\nPortanto o cavalo está guardado através da peça que o quer capturar. Quem bloqueia e quem ataca são a mesma torre, e ela não pode capturar sem sair da casa com que bloqueia."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "Rica por Uma Jogada",
+      "text": "As pretas podiam tentar antes limpar a coluna, trocando em e1 — mas o rei em f1 recaptura, e a torre que queria o cavalo sai do tabuleiro com ele.\n\nPortanto as pretas capturam o cavalo: {{Rxe5}}. Três pontos, de graça, por exatamente uma jogada.\n\n> Conta a linha inteira, não a primeira peça que está em cima dela."
+    },
+    {
+      "type": "play",
+      "fen": "2b3k1/ppp2ppp/8/4r3/8/8/PPP2PPP/4RK2 w - - 0 2",
+      "prompt": "A torre preta aterrou na coluna que a tua torre já possui: recolhe-a.",
+      "targetSan": [
+        "Rxe5"
+      ],
+      "hint": "Entre a tua torre e a peça que acabou de capturar não há nada."
+    }
+  ]
+}

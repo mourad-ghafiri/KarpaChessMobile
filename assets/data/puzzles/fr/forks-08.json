@@ -1,0 +1,11 @@
+{
+  "id": "forks-08",
+  "fen": "r3k3/5ppp/8/PN6/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc7+"
+  ],
+  "title": "Fourchette familiale",
+  "setup": "Le roi et la tour noirs sont tous deux encore sur leurs cases de départ, et votre cavalier en b5 est tout près.",
+  "hint": "Il existe une case de cavalier qui attaque à la fois le roi en e8 et la tour en a8.",
+  "explanation": "## L'idée\n\n{{Nc7+}} met le roi en e8 en échec et attaque la tour en a8. Le roi doit bouger, et {{Nxa8}} prend la tour.\n\nUn cavalier dans le coin y est souvent piégé, mais pas celui-ci : le pion en a5 protège b6, donc le cavalier a une sortie sûre. Avant de prendre une pièce dans le coin, vérifiez que votre cavalier peut rentrer."
+}

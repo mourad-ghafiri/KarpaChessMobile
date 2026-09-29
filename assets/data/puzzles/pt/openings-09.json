@@ -1,0 +1,15 @@
+{
+  "id": "openings-09",
+  "fen": "rnbqkb1r/pppp1ppp/8/4P3/6n1/7P/PPPNPPP1/R1BQKBNR b KQkq - 0 4",
+  "solution": [
+    "Ne3",
+    "fxe3",
+    "Qh4+",
+    "g3",
+    "Qxg3#"
+  ],
+  "title": "O Cavalo Que Não Deves Comer",
+  "setup": "As brancas responderam ao teu cavalo com um passivo cavalo em d2, comeram o peão de e5, e acabaram de enxotar o teu cavalo com h3.",
+  "hint": "O teu cavalo está atacado. Procura a casa onde comê-lo arrancaria o telhado ao próprio rei branco.",
+  "explanation": "## A Ideia\n\nCom o cavalo em d2 a fechar o bispo de c1, o rei branco tem pouca cobertura nas casas escuras.\n\n{{Ne3}} ataca a dama de d1 a partir de uma casa que as brancas adorariam comer. Comer é o erro grave: depois de {{fxe3}}, {{Qh4+}} deixa só {{g3}}, e {{Qxg3#}} cobre f2 enquanto as próprias peças brancas enchem o resto. O melhor para as brancas é ceder antes a dama.\n\nAntes de comeres uma peça que se meteu ali de propósito, pergunta o que a captura abre."
+}

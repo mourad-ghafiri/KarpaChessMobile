@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-10",
+  "fen": "rnb2b1r/ppk2ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+  "solution": [
+    "Bd8#"
+  ],
+  "rating": 865,
+  "title": "Por Trás do Rei",
+  "setup": "O rei preto fugiu para c7, onde o seu próprio cavalo e o seu bispo tapam b8 e c8.",
+  "hint": "A coluna d já está selada pela tua torre, portanto procura o xeque que tira a última casa da diagonal.",
+  "explanation": "## A Ideia\n\nA torre de d1 cobre d6 e d7, e o cavalo e o bispo das próprias pretas tapam b8 e c8, deixando b6. {{Bd8#}} dá xeque do extremo oposto da diagonal e cobre b6 pelo caminho. A casa do mate pode estar atrás do rei, e não à frente."
+}

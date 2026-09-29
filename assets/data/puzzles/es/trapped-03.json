@@ -1,0 +1,12 @@
+{
+  "id": "trapped-03",
+  "fen": "3r2k1/pp3pp1/5n1p/8/7B/2N3P1/PP3P1P/4R1K1 b - - 0 1",
+  "solution": [
+    "g5"
+  ],
+  "rating": 1090,
+  "title": "Dos pasos, ninguna salida",
+  "setup": "El alfil blanco está en h4, y las Blancas ya han jugado g3, cerrando una de sus dos casillas de retirada.",
+  "hint": "El propio peón blanco ya tapa una de las dos salidas del alfil. ¿Quién controla la otra?",
+  "explanation": "## La idea\n\n{{g5}} ataca al alfil, y h4 tiene exactamente dos casillas en diagonal. En g3 está el propio peón blanco, y el peón que ahora está en g5 lo defiende h6, así que Bxg5 hxg5 entrega una pieza por un peón. Atrapar va de casillas, no de ataques."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mating-nets",
+  "title": "Le Reti di Matto",
+  "summary": "Prima prendete le case, poi il re",
+  "proof": "mate-in-2-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Una Stanza Senza Porte",
+      "text": "Uno scacco spinge un re da qualche parte. Una **rete di matto** toglie prima quel «da qualche parte», così che lo scacco, quando finalmente arriva, non abbia niente da spingere.\n\nIl che vuol dire che contate le case del re prima di contare i vostri scacchi.\n\nIl re nero in e8 può andare in d7, d8, e7, f7 o f8. C'è un cavallo in d7, una donna in d8, pedoni in e7 e f7, un alfiere in f8. Sono tutti del Nero. La stanza è già costruita, e il Bianco non ha speso una sola mossa a costruirla."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Il Buco nel Muro",
+      "text": "Una stanza senza porte non è matto. Bisogna comunque che qualcuno bussi.\n\nIl cavallo in e4 è a un balzo da d6, e da d6 attacca e8. Uno scacco di cavallo non si può parare, e questo re non ha dove spostarsi di lato, quindi un cavallo che atterrasse in d6 chiuderebbe la partita stando lì.\n\nSolo che non la chiuderebbe. {{Nd6+}} {{exd6}}, e il pedone se lo mangia e basta.\n\nUn pedone nero è tutta la difesa."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "prompt": "Togliete d6 al pedone di e7, con una mossa tranquilla che non dia scacco.",
+      "targetSan": [
+        "Qe2"
+      ],
+      "hint": "Il pedone in e7 sta esattamente davanti al suo re — trovate il pezzo che può rendere illegale una presa in d6."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b KQkq - 2 5",
+      "title": "Chiuderla in Silenzio",
+      "text": "La donna in e2 non dà scacco e non attacca niente. Quello che fa è allinearsi sulla colonna dove siede il re nero, con in mezzo soltanto il cavallo in e4.\n\nE allora il Nero gioca la mossa più naturale della scacchiera e sviluppa l'altro cavallo. {{Ngf6}} {{Nd6#}}.\n\nNel momento in cui il cavallo lascia e4 quella colonna è aperta, e il pedone in e7 è inchiodato contro il proprio re. Continua a sorvegliare d6 e non ha più il permesso di toccarla."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "title": "La Rete Funziona in Tutte e Due le Direzioni",
+      "text": "Adesso è il re bianco a stare nella scatola, e a impacchettarlo è stato il Bianco.\n\nContate di nuovo. Il re in e1 può andare in d1, d2, e2, f1 o f2. Una donna in d1, un alfiere in e2, una torre in f1, pedoni in d2 e f2. Cinque case, cinque pezzi, tutti del Bianco.\n\nUna traversa di partenza affollata dà una sensazione di sicurezza. È lo stesso affollamento che ha appena dato matto al Nero."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "title": "Chi È Libero di Catturare",
+      "text": "Le case sono metà della rete. L'altra metà è quello che succede quando il vostro pezzo arriva: chi ha il permesso di prenderlo?\n\nLa donna in e4 e il re in e1 stanno su una colonna con l'alfiere in e2 in mezzo. Quell'alfiere è inchiodato. Non può muovere legalmente, quindi ogni casa che sembra difendere non la difende nessuno.\n\nContate le uscite, poi contate i difensori — e chiedetevi se i difensori siano liberi.\n\n> Il matto è raramente la mossa più rumorosa. È quella che lascia il re senza un posto dove stare."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "prompt": "Il re bianco è murato dai suoi stessi pezzi: date l'unico scacco a cui nessuno è libero di rispondere.",
+      "targetSan": [
+        "Nf3#"
+      ],
+      "hint": "Il re bianco ha cinque case vicine e su tutte e cinque ci sono pezzi bianchi, quindi allo scacco basta essere non catturabile."
+    }
+  ]
+}

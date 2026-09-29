@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-01",
+  "fen": "4k3/pp4pp/8/3n4/4P3/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "exd5"
+  ],
+  "title": "Il Pedone Prende il Cavallo",
+  "setup": "Un cavallo nero si è avvicinato al vostro pedone e. Il vostro pedone può vincerlo, se vi ricordate in che modo prende un pedone.",
+  "hint": "I pedoni catturano di una casa in diagonale in avanti. Quali due case attacca il pedone di e4?",
+  "explanation": "## L'idea\n\nUn pedone muove dritto ma **cattura in diagonale**, e il cavallo in d5 sta su una delle due case che il vostro pedone in e4 attacca.\n\n{{exd5}} e il pedone si prende un cavallo intero. Niente difende d5, quindi niente riprende: il cavallo è semplicemente vostro.\n\nOgni pedone difende le due case diagonalmente davanti a sé. Qualunque cosa ci metta piede può essere presa."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "ruy-lopez-basics",
+  "title": "İspanyol Oyunu",
+  "summary": "Piyon kazanmayan fil",
+  "proof": "openings-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "1561'den Gelen Hamle",
+      "text": "Beyazın fili b5'e yürüdü ve oradan dosdoğru c6'daki ata bakıyor — o at da e5'teki piyonu koruyan tek şey.\n\nBu yüzden bir adım ötesinden piyona yapılmış bir saldırı gibi okunuyor. Öyle değil ve nedenini bilmek, bu açılış hakkında öğrenilen ilk şeydir.\n\nİspanyol bir rahip olan Ruy López de Segura, hamlenin analizini 1561'de yayımladı. Dört buçuk yüzyıl sonra hâlâ oyunun en üst düzeyinde bir ana varyant; hiçbir şeyi tehdit etmeyen bir hamle için tuhaf bir kader."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "Soru Attır",
+      "text": "Hedef c6'daki at, arkasındaki piyon değil.\n\nO fil kendini atla değişirse siyah bir piyonla geri alır ve c dikeyinde, biri diğerinin önünde, üst üste iki piyonla kalır. **İkili** piyonlar kalıcıdır — bir piyon onları düzeltmek için yana adım atamaz. Siyah karşılığında iki fili birden alır, yani kalıcı bir şeye karşılık kalıcı bir şey.\n\nBeyaz, karşısında oynayacak kalıcı bir şey arıyor. Siyah ise bu değişimin şartlarını, bekleyip kendisine dayatılmasındansa şimdi belirlemeyi yeğler."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "Fili şimdi karar vermeye zorlayın — ya atı alsın ya geri çekilsin — ve bunu size hiçbir şeye mal olmayan bir piyon hamlesiyle yapın.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "Piyonlarınızdan hangisi b5'teki file tek adımda saldırabilir ve arkasında sizin hiçbir şeyinizi boşta bırakmaz?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "title": "Bozdurmak",
+      "text": "Beyaz tam şimdi alıp piyonu sayabilir. {{Bxc6}} {{dxc6}} {{Nxe5}} gelir ve kâğıt bir piyon önde olduğunu söyler.\n\nSonra {{Qd4}} gelir; aynı anda e5'teki ata ve e4'teki piyona vurur. Biri düşer, taş dengesi eşitlenir ve siyah bu zahmetin karşılığında iki fili birden elinde tutar.\n\nFil hiçbir zaman e5'e saldırmıyordu. c6'da almak piyonlarla ilgili bir karardır ve beyazın bununla yaşamaya razı olması gerekir.\n\n> İspanyol fili taş kazanmaz. Uzun bir tartışma satın alır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Dokuz Hamle, Hiç Taş Alınmadı",
+      "text": "Dokuz hamle geçti ve tek bir taş alınmadı. İki ordu da hâlâ daha iyi kareler arıyor; insanların Kapalı İspanyol derken kastettiği de bu.\n\nBeyazın iki hamlesi hiçbir şey gibi duruyor. c3'teki piyon gelişim değil — merkeze bir piyonun gelmesini bekleyen bir destek karesi. h3'teki piyon da gelişim değil; g4'ü ortadan kaldırır, böylece hiçbir siyah fil çıkıp f3'teki atı açmaza alamaz.\n\nKarşı tarafın fikirlerini durdurmaya harcanan hamleler, yavaş bir pozisyonda boşa gitmiş sayılmaz."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Filin Uzun Kayışı",
+      "text": "Beyazın açık kare filini geriye doğru izleyin. b5'te duruyordu, bir piyon rica edince a4'e adımladı, bir piyon daha rica edince b3'e. Üç kare, iki çapraz — ve ikincisi ta f7'ye kadar uzanıyor.\n\nBir kez daha rica edin, c2'ye gitsin. Orada kendi e piyonunun arkasından h7'ye nişan alır, menzil dışındadır. Beyazın umursadığı bir geri çekiliş değildir bu: c3'teki piyon merkezi açmaya hazırlanıyor ve filin baştan beri beklediği şey açık bir merkez.\n\nYani kovalamaca bir taş kazanmakla ilgili değil. Beyazın hangi çaprazla yetinmek zorunda kalacağıyla ilgili."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "prompt": "Beyazın en iyi taşını kovalayın: bir atı, a dikeyinde b3'teki file saldıran kareye koyun.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "İki atınız da tahtada, ama yalnızca vezir kanadındakinin b3'e dokunan bir hamlesi var."
+    }
+  ]
+}

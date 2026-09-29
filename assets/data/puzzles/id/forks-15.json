@@ -1,0 +1,11 @@
+{
+  "id": "forks-15",
+  "fen": "r1b1k2r/ppp2ppp/4p3/8/7n/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qa4+"
+  ],
+  "title": "Menteri Memberi Sekak dan Memetik",
+  "setup": "Hitam punya benteng, gajah dan kuda untuk menteri Anda, dan kuda di h4 berkeliaran ke tepi tanpa pembela.",
+  "hint": "Temukan sekak menteri yang juga menyerang kuda.",
+  "explanation": "## Ide\n\n{{Qa4+}} memberi sekak kepada raja di e8 di sepanjang diagonal dan menyerang kuda di h4 di sepanjang baris keempat. Hitam harus menjawab sekak, dan tak ada jawaban, entah {{Bd7}}, {{c6}}, {{b5}} atau langkah raja, yang juga menjaga kuda. Langkah berikutnya, {{Qxh4}} mengambilnya, dan materi berayun ke pihak Anda.\n\nGarpu menteri adalah sekak di satu garis dan buah tak terlindungi di garis lain."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-01",
+  "fen": "4r2k/4Qppp/8/1b6/1r6/8/PP2R3/K1B5 w - - 0 1",
+  "solution": [
+    "Qxe8+",
+    "Bxe8",
+    "Rxe8#"
+  ],
+  "rating": 1300,
+  "title": "Take With the Big Piece",
+  "setup": "Black's rook on e8 is defended by the bishop, and its rook on b4 is chewing at your queenside.",
+  "hint": "Both of your heavy pieces bear on the same square. Work out which one has to go in first.",
+  "explanation": "## The Idea\n\nThe instinct is to protect the queenside. Ignore it. {{Qxe8+}} forces {{Bxe8}}, dragging the bishop onto the square your rook already commands, and {{Rxe8#}} ends the game before Black's counterplay has a move to make."
+}

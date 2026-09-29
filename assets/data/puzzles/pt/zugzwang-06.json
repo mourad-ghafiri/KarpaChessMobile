@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-06",
+  "fen": "1k6/8/8/5Q2/8/3Kp3/6B1/8 w - - 0 1",
+  "solution": [
+    "Qd7",
+    "e2",
+    "Qb7#"
+  ],
+  "rating": 1560,
+  "title": "Deixa o Peão Correr",
+  "setup": "O rei preto está em b8 e o peão preto de e3 está a duas casas de fazer dama, com o teu rei mesmo ao lado, em d3.",
+  "hint": "O peão não é o perigo. Tira as casas ao rei e deixa-o avançar.",
+  "explanation": "## A Ideia\n\n{{Qd7}} cobre a7, b7, c7 e c8 sem dar xeque. A única jogada legal das pretas é {{e2}}, e {{Qb7#}} chega primeiro. Um peão passado que promove uma jogada tarde de mais não é um peão passado."
+}

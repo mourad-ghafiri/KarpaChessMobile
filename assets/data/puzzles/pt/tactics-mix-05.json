@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-05",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "exd5"
+  ],
+  "title": "Ganha o Peão Central",
+  "setup": "As pretas acabaram de empurrar ...d5, oferecendo um segundo peão central ao teu peão e. Come o peão que as pretas acabaram de oferecer.",
+  "hint": "Quando podes comer um peão central de graça, fá-lo quase sempre.",
+  "explanation": "## A Ideia\n\n{{exd5}} come o peão central oferecido. A natural {{Qxd5}} traz a dama preta para fora cedo, e {{Nc3}} atinge-a logo, uma jogada de desenvolvimento de graça. Se as pretas empurrarem {{e4}} em vez disso, o cavalo afasta-se e continuas um peão acima.\n\nUm peão central vale mais do que um peão de ala: quando podes comer um e ficar com ele, come."
+}

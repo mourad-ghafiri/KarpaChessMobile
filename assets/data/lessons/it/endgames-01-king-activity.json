@@ -1,0 +1,50 @@
+{
+  "id": "king-activity",
+  "title": "Attivate il Re",
+  "summary": "Il pezzo che si è nascosto tutta la partita adesso guida",
+  "proof": "endgame-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "Fuori dalla Traversa di Fondo",
+      "text": "Per tutta la partita il re ha avuto un'istruzione sola: resta nascosto. Da questa scacchiera le donne e le torri sono sparite, e con loro sparisce il motivo di nascondersi. Quello che resta qui non può costruire un attacco contro un re che sta allo scoperto.\n\nE così l'istruzione scade. Il re bianco in g1 adesso è un pezzo combattente — cammina di una casa in qualunque direzione, difende tutto quello che tocca, e vale fra un alfiere e una torre. Ed è anche lontano dall'azione quanto un pezzo può essere."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "title": "Il Pedone Non Ce la Fa da Solo",
+      "text": "Il vostro pedone in e5 è bloccato. {{e6}} {{Ke7}} — il pedone fa un passo avanti, il re nero sale a incontrarlo, e sulla scacchiera niente difende e6.\n\nIl che lascia il re. È l'unico pezzo qui che può migliorare qualcosa, e migliora qualcosa a ogni passo verso il centro. Da g1, il centro è a tre mosse di re. Non c'è niente di meglio su cui spendere tre mosse."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/3p4/8/4P3/8/8/8/6K1 w - - 5 4",
+      "prompt": "Puntate a d4 per la strada più breve che il re abbia.",
+      "targetSan": [
+        "Kf2"
+      ],
+      "hint": "Un passo in diagonale taglia insieme una colonna e una traversa — una sola di esse fa partire una camminata di tre mosse."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/3p4/8/4P3/8/8/5K2/8 b - - 6 4",
+      "title": "Nient'Altro che Re",
+      "text": "{{Ke7}} {{Ke3}} {{Ke8}} {{Kd4}}. Due mosse per parte, e non una tocca un pedone.\n\nGuardate lo stesso che cosa è cambiato. Il re che era partito sepolto in g1 adesso sta in d4, accanto al suo pedone in e5 e pronto a scortarlo. Il re nero è uscito in e7 ed è tornato indietro subito, perché nemmeno lì aveva niente di meglio da fare.\n\n> Nel finale il re va per primo, e i pedoni lo seguono a casa."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "title": "Contate la Distanza",
+      "text": "Cinque mosse dopo, il vostro re sta in d6 e quello nero è andato a caccia: perfino f6, la casa che vorrebbe accanto al vostro pedone, è recintata — la difende e5 stesso.\n\nAdesso contate l'altro lato della scacchiera. Il re nero è a tre passi dal pedone in d7. Il vostro è più vicino di così, e quello nero da questa parte non difende più niente.\n\nUn re attivo non ha bisogno di una tattica. Vince materiale stando nel posto giusto nel momento in cui l'altro re sta da un'altra parte."
+    },
+    {
+      "type": "play",
+      "fen": "8/3p2k1/3K4/4P3/8/8/8/8 w - - 15 9",
+      "prompt": "Incassate la gita del re nero: prendete il pedone che ha smesso di difendere.",
+      "targetSan": [
+        "Kxd7"
+      ],
+      "hint": "Contate i difensori di d7 adesso che il re nero è uscito fino a g7."
+    }
+  ]
+}

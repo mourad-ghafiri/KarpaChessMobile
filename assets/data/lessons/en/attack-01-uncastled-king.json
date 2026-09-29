@@ -1,0 +1,62 @@
+{
+  "id": "uncastled-king",
+  "title": "Attacking the Uncastled King",
+  "summary": "The king is still on e8, and the clock is running",
+  "proof": "uncastled-king-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "The King That Never Left e8",
+      "text": "Black's king is still on e8 at move five, and that is not slow development. It is a target.\n\nCastling does two jobs in one move: it tucks the king behind three unmoved pawns, and it lets the rooks see each other. A king that skips it stands on the busiest file on the board, in range of both wings, with its own pieces blocking its exits.\n\nSo this is a deadline. Black is a couple of moves from safety, and every move of yours that asks no question hands one of those moves over."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "The Pin You Are Allowed to Break",
+      "text": "Black's bishop on g4 pins your knight on f3 against the queen on d1, and a pinned knight is supposed to sit still. That is the agreement Black is counting on.\n\nNow count the other end of the board. Your bishop on c4 already looks at f7, and f7 is guarded by exactly one piece: the king that never left. A knight arriving in the center would look at f7 as well.\n\nA pin only holds while the queen behind it is worth more than what the knight can do."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "prompt": "Black's king is stuck on e8, so aim a second piece at f7 even if it costs your queen.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "Ask what the pinned knight can take in the center, then count what would be aimed at f7 once it lands there."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "The Queen Was the Bait",
+      "text": "A queen is a queen, so Black collects: {{Bxd1}}, and yours is gone for a knight.\n\nNow f7. {{Bxf7+}} is check, and Black has exactly one legal reply on the board, {{Ke7}}, because that square was guarded by the king and by nothing else. The king is dragged onto the open e-file with the whole black army still at home, and {{Nd5#}} closes it.\n\nBlack won a queen and was mated two moves later."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "What Declining Costs",
+      "text": "Suppose Black smells the mate and takes the knight instead: {{dxe5}}. The queen on d1 survives, and the pin dies with it. There is nothing behind the bishop on g4 now but empty squares, and {{Qxg4}} picks it off.\n\nWhite gave a knight and took a bishop and a pawn. A sacrifice that mates when it is accepted and wins material when it is refused is not a gamble. It is just the move."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "Two Pieces in the Doorway",
+      "text": "A different opening, the same illness. White's queen on e2 and Black's king on e8 stand on one file, and two pieces are wedged between them: Black's knight on e4 and White's knight on e5.\n\nOnly one of those blockers belongs to Black, and it is the one doing the work. While the knight on e4 stands there, White's knight can go wherever it likes and nothing follows it down the file.\n\nThat black knight is also attacked by the queen, and nothing of Black's guards it."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "The Knight Comes Home",
+      "text": "{{Nf6}} is the move nearly everyone plays. The knight steps out of the attack, it guards the kingside, and Black is two moves from castling.\n\nBut it empties e4. The last thing standing between White's queen and Black's king is now a white knight, and a piece of yours in that spot is not blocking a line. It is loaded. Whatever square it leaves for, the check arrives behind it.\n\n> Before you develop a piece, look down every line pointing at the enemy king and ask what your own piece could do on the way out of one."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/5n2/4N3/8/8/PPPPQPPP/RNB1KB1R w KQkq - 2 5",
+      "prompt": "Step the knight off the e-file so the check arrives behind it, and land where it wins Black's queen.",
+      "targetSan": [
+        "Nc6+"
+      ],
+      "hint": "The check comes wherever the knight goes, so the only question left is which black piece the knight can hit on arrival."
+    }
+  ]
+}

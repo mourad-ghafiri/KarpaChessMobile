@@ -1,0 +1,14 @@
+{
+  "id": "decoy-08",
+  "fen": "6rk/pp1q2pp/8/5P1Q/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1420,
+  "title": "A Dama Compra a Coluna",
+  "setup": "A tua dama em h5 olha para h7 e a tua torre em d1 está a um passo da coluna h.",
+  "hint": "O rei não pode mexer uma única casa. O que tem de acontecer antes de a tua torre contar na coluna h?",
+  "explanation": "## A Ideia\n\n{{Qxh7+}} é uma dama inteira por um peão, mas {{Kxh7}} é forçado. A coluna h está nua, o peão de f5 cobre g6, e {{Rh1#}} chega sem nada que a trave. O material não conta para nada assim que o rei não tem casa onde estar."
+}

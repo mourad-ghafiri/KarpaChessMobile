@@ -1,0 +1,56 @@
+{
+  "id": "mating-nets",
+  "title": "Jaring Mat",
+  "summary": "Rebut petak-petaknya, lalu rebut rajanya",
+  "proof": "mate-in-2-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Kamar Tanpa Pintu",
+      "text": "Sekak mendorong raja ke suatu tempat. **Jaring mat** merebut tempat itu lebih dulu, sehingga sekak, ketika akhirnya datang, tak punya apa pun untuk didorong.\n\nArtinya Anda menghitung petak-petak raja sebelum menghitung sekak-sekak Anda sendiri.\n\nRaja Hitam di e8 bisa melangkah ke d7, d8, e7, f7 atau f8. Ada kuda di d7, menteri di d8, pion di e7 dan f7, gajah di f8. Semuanya milik Hitam. Kamarnya sudah terbangun, dan Putih belum memakai satu langkah pun untuk membangunnya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "title": "Lubang di Dinding",
+      "text": "Kamar tanpa pintu belum tentu mat. Seseorang masih harus mengetuk.\n\nKuda di e4 tinggal satu lompatan dari d6, dan dari d6 ia menyerang e8. Sekak kuda tak bisa dihalangi, dan raja ini tak punya tempat untuk menyingkir, jadi kuda yang mendarat di d6 akan mengakhiri partai seketika.\n\nKecuali ternyata tidak. {{Nd6+}} {{exd6}}, dan pion tinggal memakannya.\n\nSatu pion hitam adalah seluruh pertahanannya."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "prompt": "Rebut d6 dari pion di e7, dengan langkah tenang yang tak memberi sekak.",
+      "targetSan": [
+        "Qe2"
+      ],
+      "hint": "Pion di e7 berdiri tepat di depan rajanya sendiri — temukan buah yang bisa membuat penangkapan di d6 menjadi tidak sah."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b KQkq - 2 5",
+      "title": "Menutupnya dengan Tenang",
+      "text": "Menteri di e2 tak memberi sekak dan tak menyerang apa pun. Yang dilakukannya adalah berjajar di lajur tempat raja Hitam duduk, dengan hanya kuda di e4 di antaranya.\n\nJadi Hitam memainkan langkah paling wajar di papan dan mengembangkan kuda yang lain. {{Ngf6}} {{Nd6#}}.\n\nBegitu kuda melangkah keluar dari e4, lajur itu terbuka, dan pion di e7 terjepit terhadap rajanya sendiri. Ia masih mengawasi d6 dan tak lagi diizinkan menyentuhnya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "title": "Jaring Bekerja ke Dua Arah",
+      "text": "Kini raja Putih yang ada di dalam kandang, dan Putih sendiri yang mengisinya.\n\nHitung lagi. Raja di e1 bisa melangkah ke d1, d2, e2, f1 atau f2. Menteri di d1, gajah di e2, benteng di f1, pion di d2 dan f2. Lima petak, lima buah, semuanya milik Putih sendiri.\n\nBaris rumah yang penuh sesak terasa aman. Itu kepadatan yang sama yang baru saja membuat Hitam dimat."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "title": "Siapa yang Bebas Menangkap",
+      "text": "Petak-petak adalah separuh jaring. Separuh lainnya adalah apa yang terjadi ketika buah Anda tiba: siapa yang diizinkan mengambilnya?\n\nMenteri di e4 dan raja di e1 berdiri di satu lajur dengan gajah di e2 di antaranya. Gajah itu terjepit. Ia tak boleh bergerak secara sah, jadi setiap petak yang tampaknya ia jaga sebenarnya tak dijaga apa pun.\n\nHitung jalan keluarnya, lalu hitung pembelanya — dan tanyakan apakah pembela itu bebas.\n\n> Mat jarang merupakan langkah yang paling keras. Mat adalah langkah yang tak menyisakan tempat berdiri bagi raja."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b Qkq - 1 7",
+      "prompt": "Raja Putih dikurung tembok oleh buah-buahnya sendiri, jadi berikan satu sekak yang tak bebas dijawab siapa pun.",
+      "targetSan": [
+        "Nf3#"
+      ],
+      "hint": "Raja Putih punya lima petak tetangga dan buah putih berdiri di kelimanya, jadi sekaknya hanya perlu tak bisa ditangkap."
+    }
+  ]
+}

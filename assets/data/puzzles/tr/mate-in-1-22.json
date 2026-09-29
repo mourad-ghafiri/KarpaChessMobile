@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-22",
+  "fen": "k7/2K5/8/8/8/8/8/7R w - - 0 1",
+  "solution": [
+    "Ra1#"
+  ],
+  "title": "Köşede Sıkıştırma",
+  "setup": "Siyahın şahı a8 köşesinde ve c7'deki şahınız b7 ile b8'i kapsıyor.",
+  "hint": "Şahınız köşenin yanındaki kareleri mühürledi. Kalenin yalnızca kenar boyunca şah çekmesi gerekiyor.",
+  "explanation": "## Fikir\n\nBu klasik şah ve kale köşe matıdır. c7'deki şahınız köşenin yanındaki iki kareyi, b7 ile b8'i kapsıyor.\n\n{{Ra1#}} a dikeyinden aşağı şah çeker ve a7 de kalenin hattındadır. Araya hiçbir şey giremez ve şah kaleye ulaşamaz.\n\nŞahınız köşenin yanındaki kareleri mühürledikten sonra kenar boyunca çekilen her güvenli şah mattır."
+}

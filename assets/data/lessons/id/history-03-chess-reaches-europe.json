@@ -1,0 +1,56 @@
+{
+  "id": "chess-in-europe",
+  "title": "Nama Baru, Langkah Lama",
+  "summary": "Diberi nama baru di perbatasan, dan tak berubah selama lima ratus tahun",
+  "proof": "history-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "Jalan Masuk",
+      "text": "Catur menyeberang ke Eropa tanpa meninggalkan tanggal.\n\nJalan yang paling kuat buktinya melewati **al-Andalus**, Spanyol Muslim, tempat syatranj sudah dimainkan jauh sebelum kerajaan Kristen mana pun menulis sepatah kata tentangnya. Sisilia Arab adalah jalan kedua. Bizantium, yang menyebut permainan ini *zatrikion*, adalah jalan ketiga, dan para pedagang serta pasukan pada masa itu menggunakan semuanya.\n\nYang tersisa adalah catatan di ujung perjalanan. Sebuah surat wasiat yang dibuat di Katalonia sekitar tahun 1008 mewariskan satu set buah catur kepada sebuah biara, dan tak seorang pun yang menyusunnya merasa perlu menjelaskan benda apa itu."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "Permaisuri dan Sang Gajah",
+      "text": "Eropa tak mengenal wazir, maka **ferz** mengambil satu-satunya jabatan yang pantas di samping raja: ia menjadi *ratu*. *Regina* dalam bahasa Latin, *dame* dalam bahasa Prancis. Penggantian nama itu terjadi sejak awal dan hampir di mana-mana — meski dalam bahasa kita buah itu tetap bernama menteri.\n\n**Alfil** tak mendapat kesepakatan semacam itu. Italia menjadikannya *alfiere*, sang pembawa panji; Prancis menjadikannya *fou*, sang badut istana; Jerman menjadikannya pelari. Inggris sama sekali tak menerjemahkannya dan masih menyebutnya *aufin* pada tahun 1474. Nama *bishop* (uskup) baru menang dalam perdebatan itu pada tahun 1500-an, lama sesudah para pemahat menyelesaikannya — buah catur Lewis sudah mengenakan mitra uskup pada tahun 1200."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "Namanya Berpindah, Langkahnya Tidak",
+      "text": "Penggantian nama bukanlah pembaruan.\n\nMenteri Eropa masih merayap satu petak secara diagonal, persis seperti ferz. Gajah Eropa masih melakukan lompatan dua petak yang sama melewati kepala apa pun yang menghalangi, mendarat di daftar petak pendek yang sama yang selalu mengungkungnya. Kedua buah itu dibangun ulang di Iberia pada tahun 1470-an, dan itulah pelajaran berikutnya.\n\nPapan Anda sudah berada di seberang perubahan itu. Gajah Hitam di c8 bisa melangkah ke diagonal terang yang panjang di papan pada langkah berikutnya. Alfil yang berangkat dari c8 tak akan bisa mencapai satu petak pun dari diagonal itu dalam seratus partai."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "prompt": "Gerakkan gajah di c8 ke diagonal terang yang panjang itu, yang membentang sepanjang papan.",
+      "hint": "Gajah itu hanya punya dua petak yang tersedia. Hanya satu di antaranya yang berada di diagonal itu.",
+      "targetSan": [
+        "Bb7"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Empat Petak dan yang Kelima",
+      "text": "Papan baru, giliran Putih, dan gajah di c1 yang belum pergi ke mana pun.\n\n{{Bd2}}, {{Be3}}, {{Bf4}}, {{Bh6}} — empat petak di sepanjang satu diagonal, dengan petak kelima terselip di antaranya.\n\nAlfil di c1 hanya bisa mencapai tepat dua petak dari seluruh garis itu: e3, dicapai dengan melompati d2 entah d2 ditempati atau tidak, dan g5 dengan lompatan yang sama sekali lagi. Tiga petak lainnya tertutup baginya sepanjang partai.\n\nItulah yang diberikan pembaruan tersebut. Intinya bukan terutama soal jarak."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Melalui, Bukan Melompati",
+      "text": "Jarak adalah separuh yang lebih kecil. Separuh yang lebih besar adalah bahwa gajah melewati petak *melalui* petak itu, bukan melompatinya.\n\nAlfil tak pernah bisa menahan apa pun di tempatnya. Ia terbang melewati apa pun yang menghalanginya, jadi tak ada yang pernah terjebak di depannya. Gajah menempuh garisnya, dan buah yang berdiri di garis itu punya masalah: minggir sedikit, dan apa pun yang ada di belakangnya tiba-tiba siap diambil.\n\nKuda Hitam di f6 punya menteri di d8 tepat di belakangnya, di satu diagonal, dengan e7 kosong di antara keduanya. Belum ada yang terjadi. Seseorang harus datang."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "prompt": "Datanglah ke diagonal itu, sehingga kuda di f6 tak bisa bergerak satu petak pun tanpa menyerahkan menteri di belakangnya.",
+      "hint": "Gajah di f1 terhalang pionnya sendiri di e2. Gajah yang lain tak terhalang apa pun di depannya.",
+      "targetSan": [
+        "Bg5"
+      ]
+    }
+  ]
+}

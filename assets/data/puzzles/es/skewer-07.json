@@ -1,0 +1,14 @@
+{
+  "id": "skewer-07",
+  "fen": "8/8/3q1k2/4Rpp1/2rP4/6RQ/5r2/6K1 w - - 0 1",
+  "solution": [
+    "Qh6+",
+    "Kf7",
+    "Qxd6"
+  ],
+  "rating": 1140,
+  "title": "Jaque desde la banda",
+  "setup": "El rey negro de f6 tiene a su dama a dos casillas, en d6, en la misma fila.",
+  "hint": "El rey y la dama negros comparten una fila. ¿Por dónde puede entrar tu dama en esa fila con jaque y quedar a salvo?",
+  "explanation": "## La idea\n\n{{Qh6+}} se desliza a la sexta fila con jaque, y la dama negra de **d6** se queda atascada detrás de su propio rey. El peón de g5 no llega a h6, así que el jaque se mantiene. {{Kf7}} es el único paso legal, y {{Qxd6}} se come la dama."
+}

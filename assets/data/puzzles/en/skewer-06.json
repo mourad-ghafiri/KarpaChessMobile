@@ -1,0 +1,14 @@
+{
+  "id": "skewer-06",
+  "fen": "8/1R1p3p/2k2r2/8/4Pb2/2r5/3R1B1P/4K3 w - - 0 1",
+  "solution": [
+    "Rb6+",
+    "Kc7",
+    "Rxf6"
+  ],
+  "rating": 1100,
+  "title": "Rook Behind Rook",
+  "setup": "Black has two rooks in play, and one of them shares the sixth rank with its king on c6.",
+  "hint": "Which square on the sixth rank does one of your pieces already defend? Check from there.",
+  "explanation": "## The Idea\n\n{{Rb6+}} is a skewer along the sixth rank: the king in front, the rook on **f6** behind. The bishop on **f2** guards b6, so the check cannot be taken, and every flight square but c7 is covered. {{Kc7}}, and {{Rxf6}} wins the rook."
+}

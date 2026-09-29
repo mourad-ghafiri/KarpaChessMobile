@@ -1,0 +1,11 @@
+{
+  "id": "endgames-03",
+  "fen": "3k4/8/8/1KP1r3/8/7R/8/8 b - - 0 1",
+  "solution": [
+    "Re6"
+  ],
+  "title": "Un pion de moins, et la position tient",
+  "setup": "Le roi blanc en b5 veut la sixième rangée, et de là il écarte votre roi du chemin du pion. Les Noirs jouent, et c'est nul.",
+  "hint": "Le roi blanc a besoin de a6, b6 ou c6. Une tour placée sur une rangée en couvre toutes les cases.",
+  "explanation": "## L'idée\n\nLes rangées se comptent ici du côté des Blancs. Le roi blanc a besoin de a6, b6 ou c6 pour monter à côté de son pion, et un seul coup de tour prend les trois : {{Re6}}. Une tour sur une rangée est une barrière, et un roi ne peut pas se poser sur une case qu'elle couvre.\n\nTout autre coup laisse le roi entrer sur la sixième, devant son propre pion, où aucun échec par-derrière ne peut l'atteindre, et le pion avance jusqu'au bout."
+}

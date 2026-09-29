@@ -1,0 +1,11 @@
+{
+  "id": "endgame-05",
+  "fen": "8/8/7r/4k3/2P5/2K5/8/5R2 w - - 0 1",
+  "solution": [
+    "Rd1"
+  ],
+  "title": "El muro en la columna d",
+  "setup": "Tu peón de c tiene un largo camino por delante, y el rey negro de e5 va a su encuentro. Una jugada de torre decide si llega alguna vez.",
+  "hint": "Cuenta las columnas entre el rey negro y tu peón. El rey tiene que cruzar una primero, así que hazla tuya.",
+  "explanation": "## La idea\n\nSolo la columna d separa al rey negro del camino de tu peón, así que {{Rd1}} la toma. El rey de e5 no puede pisar una casilla que cubra la torre, y ahora cubre toda la columna: el rey queda encerrado al otro lado mientras la torre siga ahí.\n\nTu rey sube entonces junto al peón de c y lo escolta hasta coronar. Cualquier otra jugada deja que el rey negro cruce a la columna d y se ponga delante del peón, y el final es tablas."
+}

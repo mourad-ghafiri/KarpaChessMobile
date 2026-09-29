@@ -1,0 +1,50 @@
+{
+  "id": "queen-vs-pawn",
+  "title": "Yedinci Yataydaki Piyona Karşı Vezir",
+  "summary": "Bir yarış değil — hamle satın almanın bir yolu",
+  "proof": "endgames-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "Yarış Çoktan Kaybedildi",
+      "text": "Siyahın d2'deki piyonu vezir olmaya bir hamle uzaklıkta ve beyazın h6'daki şahı onu durduracak kadar yakın hiç değil.\n\nKovalamak da yardımcı olmuyor. a8'deki vezir, c2'deki siyah şah yanında dururken piyonu alamaz ve tek başına bir vezir mat zorlayamaz. Bunun için beyazın şahı gerekir ve beyazın şahının vakte ihtiyacı vardır.\n\nVezirin burada oynadığı şey de o. Piyon değil. Vakit."
+    },
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "Şahlar Para Birimidir",
+      "text": "Bir şaha cevap verilmek zorundadır. Siyah cevap verirken siyah piyon sürmüyordur ve siyahın kaybettiği hamle, beyazın şahının yürüyerek harcadığı hamledir.\n\nYani şahların bir varış noktası var ve orası piyon değil. Siyahın şahını, kendi piyonunun ulaşmaya çalıştığı kare olan d1'e sürün. Oraya park etmiş bir şah, piyonun ne etrafından dolanabildiği ne de çekilmesini isteyebildiği bir barikattır.\n\nSonra siyahın elinde ne kaldığına bakın: cevaplanacak şah yok, piyon hamlesi yok ve neredeyse duracak yeri olmayan bir şah. Beyazın şahının bedavaya öne adım attığı an işte odur."
+    },
+    {
+      "type": "play",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "prompt": "Piyona vaktinde ulaşamazsınız; onun yerine şahtan hamle almaya başlayın.",
+      "targetSan": [
+        "Qe4+"
+      ],
+      "hint": "Beş şah hamlesi var; aynı zamanda e dikeyini tarayanı seçin ki şah o taraftan piyonunun yanından asla sıvışamasın."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "title": "Siyahın Cevaplarını Sayın",
+      "text": "Şah artık d1'de, piyonunun istediği tam o karede duruyor.\n\nNe kaldığını sayın. d2'deki piyon oynayamaz; yolunda kendi şahı durur. e4'teki vezir e1, e2 ve c2'yi kapsıyor. Geriye c1 kalıyor. Siyahın tam olarak tek bir kurallı hamlesi var ve o da bir piyon hamlesi değil.\n\nBu da beyazın sırasını bedavaya çeviriyor. Şahı yürütün, siyah oyalansın, sonra yeniden şah çekip şahı piyonun önüne geri sürün. Her döngü siyaha bir hamleye mal olur ve beyaza bir kare kazandırır.\n\n> Vezir piyonu kovalamıyor. Şah için hamle satın alıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/K7/8/6Q1/8/7p/7k w - - 0 1",
+      "title": "Tutan İki Dikey",
+      "text": "Bu düzenek, merkez piyonuna ya da at piyonuna karşı kazanır. Kale piyonuna ya da fil piyonuna karşı tıkanabilir ve şöyle olur.\n\nSiyahın h2'deki piyonu, h1'deki şahı, g1 ile g2'yi tutan beyazın g4'teki veziri: d dikeyinde kazanan aynı kavrama. Öyleyse bedava hamleyi harcayın. {{Kb5}} gelir ve sıra siyahtadır; cevaplayacak şah yok, tahtada kurallı hamle yok. Pat, yarım puan.\n\nTıkanan şahın sürünüp gideceği bir karesi olmak zorundadır. Köşede öyle bir kare yoktur."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "prompt": "d dikeyine geri dönüldü; siyahın şahı kendi piyonunun önünü kesiyor ve yapacak işe yarar bir şeyi yok, öyleyse bedava hamleyi kasaya koyun.",
+      "targetSan": [
+        "Kg5"
+      ],
+      "hint": "Kasaya koyduğunuz her hamlenin yolculuğu kısaltması gerekir; öyleyse şahınızın gerçekten gitmesi gereken yönü seçin."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-09",
+  "fen": "4nrk1/5p1p/6pQ/8/8/7P/qB3PPK/4R3 w - - 1 2",
+  "solution": [
+    "Rxe8"
+  ],
+  "rating": 1350,
+  "title": "Penjaga g7",
+  "setup": "Menteri dan gajah Anda sama-sama menekan g7, dan kuda di e8 satu-satunya buah selain raja yang menguasai petak itu.",
+  "hint": "Mat tinggal satu langkah dan satu buah hitam mencegahnya. Buah mana yang menguasai g7, dan apa yang bisa mencapainya?",
+  "explanation": "## Ide\n\n{{Rxe8}} mengambil kuda yang menguasai g7. Tangkapan balik {{Rxe8}} tak menolong raja sama sekali, dan {{Qg7#}} menuntaskan: menteri ditopang gajah di b2 dan Hitam tak punya petak lagi. Ketika mat tinggal satu langkah, hitung harga pembelanya, bukan harga buahnya."
+}

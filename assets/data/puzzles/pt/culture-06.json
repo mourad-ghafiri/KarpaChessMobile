@@ -1,0 +1,13 @@
+{
+  "id": "culture-06",
+  "fen": "r1bqkb1r/pppp1pp1/2n5/1B2p3/4P1p1/8/PPPP1PP1/RNBQNRK1 b k - 1 7",
+  "solution": [
+    "Qh4",
+    "f4",
+    "g3"
+  ],
+  "title": "A Coluna Aberta Era o Ponto",
+  "setup": "O teu cavalo foi a g4 e as brancas comeram-no, e os dois peões h deixaram a coluna h com a tua torre ainda sentada em h8.",
+  "hint": "A tua torre já fita uma coluna h aberta sem nada ao fundo — que peça se lhe pode juntar para h2 não ser defensável?",
+  "explanation": "## A Ideia\n\n{{Qh4}} não dá xeque, e é por isso que é difícil de enfrentar. Agora a dama e a torre partilham a coluna h aberta, o cavalo branco voltou a e1, e o bispo de b5 está na ala errada.\n\n{{f4}}, a abrir espaço ao rei, é a melhor tentativa das brancas. {{g3}} responde, e o mate não se consegue travar: até {{Qh5}}, a tapar a coluna, só atrasa {{Qh1#}} uma jogada.\n\nUma coluna aberta ao lado de um rei rocado vale mais do que um cavalo."
+}

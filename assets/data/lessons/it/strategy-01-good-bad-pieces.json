@@ -1,0 +1,50 @@
+{
+  "id": "good-bad-pieces",
+  "title": "Pezzi Buoni e Pezzi Cattivi",
+  "summary": "Tre punti sulla carta, niente sulla scacchiera",
+  "proof": "strategy-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Vale Tre, Non Fa Niente",
+      "text": "L'alfiere nero in c8 vale tre punti sulla carta e non ne ha usato nemmeno uno. Guardate che cosa gli sta di mezzo: i pedoni in d5 e e6 sono del Nero, e un alfiere non può catturare il proprio esercito.\n\nTutti e due quei pedoni stanno su case chiare. Anche l'alfiere. Viaggia esattamente sul colore su cui sono parcheggiati i suoi pedoni, ed è questo che ne fa un **alfiere cattivo** — murato dentro dalla parte per cui gioca.\n\nTutta la sua libertà è {{Bd7}}. Stessa gabbia, una casa più in là."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "L'Altro Alfiere",
+      "text": "Il Bianco possiede lo stesso pezzo per gli stessi tre punti, ed è un animale diverso.\n\nI pedoni centrali del Bianco stanno in c3, d4 e e5, tutte case scure; l'alfiere in f1 è un pezzo campochiaro. Si tengono fuori dai piedi a vicenda. Tutta la strada da f1 ad a6 è già vuota, e una fermata su di essa, d3, guarda dritto verso h7.\n\nQuesto è un **alfiere buono**: i suoi pedoni stanno sull'altro colore, e l'alfiere ci vede."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "Il vostro alfiere non potrà mai scavalcare i propri pedoni: aprite l'unica diagonale che corre dall'altra parte.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Quale pedone sta sull'unica altra strada dell'alfiere, e fino a dove può fare un passo senza andare addosso all'alfiere bianco?"
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "Libero e Ancora Cattivo",
+      "text": "b7 è vuota, e l'alfiere in c8 ha finalmente delle scelte. Il Bianco ha risposto mettendo il suo alfiere buono in d3, puntato su h7.\n\n{{Bd7}} e {{Bb7}} danno ciascuno all'alfiere nero una casa nuova e la stessa vista: un muro di pedoni neri in d5 e e6 che non andrà da nessuna parte. Un alfiere cattivo a cui si permette di passeggiare resta un alfiere cattivo.\n\nQuindi la domanda non è dove possa andare il pezzo. È quanto valga il pezzo una volta arrivato."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "Il Peggiore per il Migliore",
+      "text": "Qui c'è un premio migliore della libertà.\n\nUn pezzo che non si può rendere buono va cambiato, e cambiato con qualunque pezzo avversario stia lavorando di più. L'alfiere campochiaro del Nero non ha futuro in questa posizione. Quello del Bianco ha tutta la scacchiera a disposizione. Scambiateli e il conto dei punti non si muove di un millimetro, mentre il Nero cede un pezzo che non fa niente e toglie dalla scacchiera uno che fa tutto.\n\n> Migliorate il vostro pezzo peggiore. Quando non si può migliorare, cambiatelo con il loro migliore."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "prompt": "Offrite il vostro pezzo peggiore all'alfiere avversario che sta facendo più danni.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Seguite fino in fondo la diagonale che avete appena aperto, finché non va a sbattere contro l'alfiere bianco."
+    }
+  ]
+}

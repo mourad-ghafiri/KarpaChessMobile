@@ -1,0 +1,12 @@
+{
+  "id": "trapped-02",
+  "fen": "2r3k1/pp3pp1/7p/4P2n/8/4B3/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1040,
+  "title": "Cavalo na Berma",
+  "setup": "O cavalo preto foi parar a h5, uma casa com apenas quatro saídas, e nenhuma delas parece amiga.",
+  "hint": "Todas as casas a que esse cavalo chega já estão cobertas ou ocupadas. Só lhe falta agora um empurrão.",
+  "explanation": "## A Ideia\n\n{{g4}} ataca o cavalo e h5 é um beco sem saída: a f6 responde-se exf6, a f4 Bxf4, a g3 hxg3, e g7 é um peão das próprias pretas. Um cavalo na berma do tabuleiro tem quatro casas no máximo. Cobre-as e ele não tem para onde fugir."
+}

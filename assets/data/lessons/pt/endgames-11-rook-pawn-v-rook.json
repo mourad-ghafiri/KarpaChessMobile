@@ -1,0 +1,62 @@
+{
+  "id": "rook-pawn-vs-rook",
+  "title": "Torre e Peão contra Torre",
+  "summary": "Duas jogadas de torre que decidem o final inteiro",
+  "proof": "endgame-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "Duas Colunas de Luz",
+      "text": "Um peão em e4 não ganha isto sozinho. Um peão escoltado ganha, e a escolta é o assunto inteiro de um final de torres.\n\nOlha para a distância. O rei preto em c7 está a duas colunas da estrada do teu peão, e vem a caminho dela. À tua torre em a1 nunca foi pedido que travasse nada aqui — e é a única peça que o pode fazer.\n\nO rei que chega à frente de um peão detém-no. O rei que fica de fora vê."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "Uma Parede Feita de Uma Torre",
+      "text": "Uma torre numa coluna aberta faz mais do que atacar por ela abaixo. O rei inimigo não pode entrar em nenhuma casa que a torre cubra, portanto a coluna passa a ser uma parede: uma jogada para a construir, e fica de pé enquanto a torre lá ficar.\n\nIsso é um **corte**. O rei inimigo fica fechado de um lado da linha, e tudo o que está do outro lado é teu para usar.\n\nO rei preto em c7 ainda não atravessou. Escolhe a linha que ele tem de atravessar."
+    },
+    {
+      "type": "play",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "prompt": "Fecha o rei preto fora da metade do tabuleiro do peão antes de avançares seja o que for.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Conta as colunas entre o rei preto e o peão e depois toma aquela que esse rei tem de atravessar primeiro."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/3R4 b - - 1 1",
+      "title": "Às Voltas",
+      "text": "A parede está de pé. Agora vê o que o rei preto consegue fazer quanto ao peão.\n\n{{Kc6}} {{Kf4}} {{Kc5}} {{Kf5}}\n\nQuatro jogadas. O rei preto desceu pela coluna c e continua sem conseguir pôr um pé na coluna d, porque todas as casas dela pertencem a uma torre em d1. O rei branco, entretanto, subiu para junto do seu peão, e é isso que escoltar quer dizer."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/4P1K1/8/3R4/8/8/5r2 b - - 0 8",
+      "title": "Que Final Te Calha",
+      "text": "Umas jogadas depois, o peão está em e6 com o seu rei ao lado em g6, e a torre continua a segurar a coluna d. O rei preto em c7 está a duas colunas da estrada do peão e não o vão deixar entrar nela. É essa recusa que escolhe o final.\n\nDeixa o rei que defende chegar à casa à frente do peão e as pretas empatam — Philidor, quatro lições atrás, não pede mais do que esse rei e uma torre na sexta linha.\n\nNega-lho, marcha com o teu rei até à casa de promoção, e estás antes a apontar a Lucena."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Trocar de Cadeira",
+      "text": "Agora és tu as pretas, e estão a usar uma linha contra ti como tu acabaste de usar uma coluna. A torre em b7 é dona da sétima, portanto o rei preto em g8 está preso à linha de fundo.\n\nO peão branco em e5 é um peão passado com um rei em d5 a caminhar ao seu lado, e o rei que o devia parar está entalado na berma do tabuleiro.\n\nPortanto a defesa fica por conta da torre preta em h1, e para onde ela vai é a questão inteira."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "À Frente, ao Lado, Atrás",
+      "text": "Uma torre à frente de um peão passado tem três tipos de casa, e não envelhecem por igual.\n\nÀ frente dele a torre é um bloqueio que encolhe: cada avanço tira-lhe mais uma casa, e na oitava linha fica ali sem fazer nada. Ao lado, numa linha, a torre ataca o peão uma vez e não ganha nada quando ele se mexe.\n\nAtrás, o ataque renova-se. O peão dá um passo e a mesma torre continua a fitá-lo pela coluna, enquanto o que guarda o peão se afasta cada vez mais de casa.\n\n> Julga uma casa pelo que vale depois de o peão mexer, não antes."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "prompt": "Toma a única casa cujo valor cresce sempre que o peão branco avança.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "Faz o peão andar de e5 até à última linha na tua cabeça e pergunta que posto o continua a atacar durante todo o percurso."
+    }
+  ]
+}

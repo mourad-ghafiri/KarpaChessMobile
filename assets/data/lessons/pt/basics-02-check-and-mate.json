@@ -1,0 +1,67 @@
+{
+  "id": "check-and-mate",
+  "title": "Já Não Há Nada para Jogar",
+  "summary": "O único ataque a que tens de responder — e aquele a que não podes",
+  "proof": "mate-in-1-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "Um Ataque a Que Tens de Responder",
+      "text": "Ataca uma torre e o teu adversário tem uma escolha: mexê-la, defendê-la, ou deixá-la e tirar algo maior noutro sítio.\n\nAtaca o rei e não há escolha nenhuma. Um rei nunca é capturado, por isso as regras nunca deixam o ataque ficar de pé — responder-lhe é a única coisa que o teu adversário pode fazer. Isso é **xeque**.\n\n{{Qh5+}} põe o rei preto de e8 sob fogo a partir da diagonal. Ele sai da linha com {{Kd8}}, e a partida continua. O `+` é como se escreve um xeque."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "Quando Não Há Resposta",
+      "text": "O **xeque-mate** é esse mesmo ataque com todas as respostas esgotadas. O rei está atacado e o lado atacado não tem uma única jogada legal — nem com o rei, nem com qualquer outra peça. A partida acaba ali.\n\nMarca-se com `#`, e nunca se escreve nada depois de um `#`.\n\nO xeque-mate é a única maneira de ganhar uma partida ao tabuleiro. As partidas também acabam quando um jogador abandona ou fica sem tempo, e cada uma dessas coisas tem lição própria."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "prompt": "O teu rei já segura d7, e7 e f7 — tira as duas últimas casas numa só jogada.",
+      "targetSan": [
+        "Qb8#",
+        "Qh8#"
+      ],
+      "hint": "As duas casas que sobram estão na oitava linha, e a dama tem duas diagonais que lá chegam."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "title": "Porque É Que Resultou",
+      "text": "Não houve ali nenhum truque de dama. Desloca as mesmas duas peças uma coluna para o lado e a engrenagem fica à vista.\n\nO rei preto em d8 tem cinco vizinhas. Três delas — c7, d7 e e7 — também tocam no rei branco em d6, e nenhum rei pode ficar ao lado do outro, por isso essas três já estavam fechadas antes de as brancas jogarem seja o que for.\n\nSobram duas, c8 e e8, e partilham uma linha com o próprio rei. Um xeque ao longo da oitava linha cobre a linha inteira."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "prompt": "Sobram outra vez duas casas — encontra o xeque ao longo da oitava linha que leva as duas.",
+      "targetSan": [
+        "Qa8#",
+        "Qg8#"
+      ],
+      "hint": "O próprio rei branco bloqueia a coluna d, portanto a dama tem de viajar pela diagonal para chegar a essa linha."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Trancado pelos Próprios Peões",
+      "text": "Nem sempre terás uma dama. O mate mais comum no xadrez de clube precisa de uma torre, de uma linha vazia e de risco nenhum: o **mate da linha de fundo**.\n\nO rei preto em g8 está encolhido atrás dos seus peões de f7, g7 e h7. Esses três impedem a entrada de tudo o que sobe o tabuleiro — e deixam ao rei exatamente duas casas, f8 e h8, ambas na oitava linha.\n\nEssa linha está vazia de ponta a ponta. E a coluna a também. As pretas não têm nada a vigiar nenhuma das duas."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Abre uma Janela",
+      "text": "Olha para o próprio rei branco em g1 antes de te alegrares de mais. O mesmo canto, os mesmos três peões, as mesmas duas casas — a diferença é que as brancas têm uma torre e as pretas não.\n\nUma jogada de peão resolve isso: {{h3}}. Dá ao rei uma **casa de fuga** em h2, e uma torre que aterre na primeira linha passa a ser um xeque a que se responde, e não o fim da partida.\n\n> Avança esse peão cedo, enquanto tens uma jogada a mais. O mate em que esta lição acaba é o que apanha quem nunca o fez."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "As pretas nunca abriram uma casa de fuga — acaba a partida na linha que fica atrás desses peões.",
+      "targetSan": [
+        "Ra8#"
+      ],
+      "hint": "Nenhuma peça preta defende a oitava linha, e nada se consegue meter pelo meio."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-04",
+  "fen": "2r3k1/5ppp/3R4/8/3Q4/1R6/PP6/K5b1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Qxd8#"
+  ],
+  "rating": 1370,
+  "title": "Önce Kale, Sonra Vezir",
+  "setup": "d6'daki kaleniz ile d4'teki veziriniz d dikeyinden, yalnızca c8'deki kalenin koruduğu bir arka yataya bakıyor.",
+  "hint": "Sıra önemli. Hangi taşın alınmayı göze alabileceğine ve hangisinin matı vermesi gerektiğine karar verin.",
+  "explanation": "## Fikir\n\n{{Rd8+}} ucuz olanıdır: {{Rxd8}} mecburidir ve c8'deki kale koruduğu yatayı terk eder. {{Qxd8#}} işi bitirir. Önden, gözden çıkarabileceğiniz taşı gönderin ve mat edeni saklayın."
+}

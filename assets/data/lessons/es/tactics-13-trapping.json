@@ -1,0 +1,44 @@
+{
+  "id": "trapping-pieces",
+  "title": "Atrapar piezas",
+  "summary": "Gana una pieza quitándole sus casillas",
+  "proof": "trapping-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "title": "Dos casillas en todo el mundo",
+      "text": "Cuenta las casillas a las que puede ir el alfil blanco de b3. Dos.\n\nSus propios peones están en a2 y c2. Su propia dama en d5 le corta el camino más allá de c4. Quedan a4 y c4, y el peón negro de b5 ya cubre las dos.\n\nNada en el tablero ataca a ese alfil. No hace falta. Una pieza con solo dos casillas solo necesita perder una."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "prompt": "Pon un peón protegido en una de las dos casillas del alfil, para que vaya adonde vaya esté perdido.",
+      "hint": "Solo a una de esas dos casillas puede llegar un peón tuyo, y el peón de b5 ya la cubre.",
+      "targetSan": [
+        "c4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "title": "El Arca de Noé",
+      "text": "{{c4}}. Ni captura ni jaque. El peón simplemente se planta en una casilla con la que contaba el alfil.\n\n{{Bxc4}} {{bxc4}} es la versión codiciosa, y entrega un alfil por dos peones como mucho. a4 no es mejor: el peón de b5 cubre también esa casilla.\n\nEl patrón es tan antiguo que tiene nombre. En la **trampa del Arca de Noé** los peones van hacia el alfil de dos en dos, y ninguna pieza llega a atacarlo."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/PN1B4/rP3PPP/2K5 w - - 1 2",
+      "title": "Una torre en un armario",
+      "text": "Ahora una torre. La de las Negras ha salido de caza por la segunda fila y no puede volver a casa.\n\nTiene tres casillas: a1, a3 y b2. El caballo de b3 cubre a1. El peón de a3 está protegido por el peón de b2, y el de b2 por el rey de c1. Cada salida le cuesta la torre.\n\nNadie construyó esta jaula a propósito. Las Negras entraron solas.\n\n> A una pieza atrapada no se la persigue. Se cuentan sus casillas y luego se llama a la puerta."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/PN1B4/rP3PPP/2K5 w - - 1 2",
+      "prompt": "Ataca la torre con tu alfil desde una casilla a la que la torre nunca puede llegar.",
+      "hint": "Las tres casillas de la torre ya están cubiertas. Solo le falta un atacante al que nunca pueda responder.",
+      "targetSan": [
+        "Bb1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "birth-of-strategy",
+  "title": "Saldırı Hak Edilmelidir",
+  "summary": "1886, tek bir piyon hamlesi ve siyahın bir daha asla geri alamayacağı bir kare",
+  "proof": "history-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Saldırı İzni",
+      "text": "Morphy'nin yüzyılı içgüdüyle saldırdı, bedeli sonradan saydı. Steinitz daha sıkıcı soruyu sordu: bir saldırıya var olma hakkını ne verir?\n\n1886'da Wilhelm Steinitz, genellikle ilk dünya şampiyonluğu maçı sayılan karşılaşmada Johannes Zukertort'u yendi — beşe on galibiyet ve beş beraberlik. Steinitz bunu, dönemin satranç dünyasının yavaş ve biraz da kaba bulduğu bir tarzla kazandı.\n\nİddia hiçbir zaman saldırmanın kötü olduğu değildi. Bir saldırının besleneceği bir şey olması gerektiğiydi. Onu besleyecek bir üstünlük yoksa, doğru savunma uydurduğunuz her tehdide cevap verir — ve elinizde yalnızca kendi yarattığınız zayıflıklar kalır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Baltimore, 1885",
+      "text": "Steinitz, unvan maçından bir yıl önce Alexander Sellman'a karşı.\n\nBurada saldırılacak bir şey yok. Merkez tıkanmış — beyazın e5 piyonu siyahın e6 piyonuna karşı — ve iki taraf da öylece duruyor.\n\nSteinitz de bunun yerine alışverişe çıkar. Bir kare, bir çapraz, duracak iyi bir yeri olmayan bir taş: saklanabilen küçük şeyler. Yeterince toplayın, saldırı kurallı hâle gelsin.\n\nSiyahın c5'teki fili siyahın en özgür taşı: doğrudan f2'ye bakıyor, e1'deki beyaz şaha bir kare uzaklıkta."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "prompt": "Siyahın filine vezir kanadından bir piyonla saldırın ve c5'i ondan temelli alın.",
+      "hint": "Steinitz asla şu anda ne kazandırdığını sormaz. Hangi piyon hamlesi rakip bir taştan bir kareyi temelli alır — ve beyazın neyi, o piyonun ineceği kareyi şimdiden koruyor?",
+      "targetSan": [
+        "b4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1b1k2r/3n1ppp/pq2p3/1pbpP3/5P2/3P1N2/PP1BQ1PP/R2NK2R w KQk - 1 13",
+      "title": "Bir Piyonun Aldığı",
+      "text": "{{b4}} gelir ve filin nerede yaşamayı yeğlediğini söylemesi gerekir. {{Be7}} dürüst cevaptır — çok az iş gördüğü bir kare — ve {{a3}} piyonu destekler ki soru bir daha hiç sorulmasın.\n\nKazanılan bir şey yok. El değiştiren bir şey yok ve beyazın üstünlüğüne koyabileceğiniz bir sayı hâlâ yok.\n\nDeğişen şu: siyahın en özgür taşı sessizce dosyalanıp kaldırıldı ve bir piyon hamlesi geri alınamaz."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "Onarılamayan Kare",
+      "text": "On hamle sonra ve Steinitz hâlâ hiçbir şeye saldırmış değil.\n\nc6'ya bakın. c6'yı bir piyon ya b7'den ya da d7'den kapsar — oysa siyahın b piyonu b5'te, d piyonu d5'te ve piyonlar geri yürümez. Bu tahtadaki her siyah piyon yedinci yatayı çoktan geride bırakmış.\n\nYani c6 bir **delik**tir — hiçbir rakip piyonun bir daha kapsayamayacağı bir **zayıf kare**; çünkü onu kapsayabilecek piyonlar temelli önünden geçmiştir.\n\n> Rakibin onarabildiği zayıflık bir hedeftir. Onaramadığı zayıflık, taşlarınız için bir evdir."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "title": "Henüz Değil",
+      "text": "Öyleyse oraya bir at park edin. {{Nc6}} — ve {{Bxc6}} gelir, çünkü c6 iki kez korunuyor: b7'deki fil ve c8'deki kale tarafından.\n\nKoruyucuların hiçbiri kalıcı değil. Kaleler değişilir ve bir filden çekilmesi istenebilir. c6'yı bedavaya koruyacak olan piyonlar ise geri gelemeyecek olanlardır.\n\nBeyazın öteki atının son on hamleyi yürüyerek geçirmesinin sebebi de bu: d1, c3, b1, d2, b3. Nereye gittiğini görene kadar anahtarlarını kaybetmiş biri gibi durur."
+    },
+    {
+      "type": "play",
+      "fen": "2rq3r/1b1nbk2/p3p1p1/1p1pPp1p/1P1N1P2/PN1PB3/4Q1PP/2R2RK1 w - - 4 23",
+      "prompt": "b7'deki file bir atla saldırın ve öyle bir kare seçin ki at öylece değişilemesin.",
+      "hint": "İki at hamlesi b7'ye saldırıyor. Biri, d7'deki atın da e7'deki filin de geri aldığı kareye iniyor. Öteki kareye yalnızca siyahın veziri ulaşabiliyor ve b4'teki piyon onu bekliyor.",
+      "targetSan": [
+        "Na5"
+      ]
+    }
+  ]
+}

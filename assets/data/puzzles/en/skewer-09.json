@@ -1,0 +1,14 @@
+{
+  "id": "skewer-09",
+  "fen": "8/RR5B/1p2kr2/5b2/5P2/3P4/5N2/2K5 w - - 0 1",
+  "solution": [
+    "Rxb6+",
+    "Kd5",
+    "Rxf6"
+  ],
+  "rating": 1210,
+  "title": "Capture With Check",
+  "setup": "Your rooks own the seventh rank, and a black pawn on b6 shares the sixth rank with the king on e6.",
+  "hint": "There is a capture that opens a line and gives check in one move. Ask what stands beyond the king on that line.",
+  "explanation": "## The Idea\n\n{{Rxb6+}} takes a pawn and, far more importantly, arrives on the sixth rank with check. The rook on **f6** is now behind its own king. {{Kd5}} is the only legal reply, and {{Rxf6}} wins the rook."
+}

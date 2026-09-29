@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-07",
+  "fen": "7R/2k5/8/1rPK4/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Rh7+"
+  ],
+  "rating": 1470,
+  "title": "De Volta à Oitava",
+  "setup": "O rei preto está duas casas à frente do peão c, a segurar c6 a partir de c7, e a torre preta ataca-o de b5, portanto nada está a mexer ainda.",
+  "hint": "O rei preto faz toda a defesa a partir da casa ao lado do peão. Que linha lhe podes tirar?",
+  "explanation": "## A Ideia\n\nEnquanto o rei estiver em c7 as brancas não progridem. {{Rh7+}} empurra-o para a linha de fundo e a torre passa a ser dona da sétima, portanto o rei nunca mais pode voltar para ao pé do peão. {{Kb8}} {{Kd6}} e o rei branco leva o peão para dentro."
+}

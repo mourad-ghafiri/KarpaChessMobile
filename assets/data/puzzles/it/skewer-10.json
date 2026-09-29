@@ -1,0 +1,14 @@
+{
+  "id": "skewer-10",
+  "fen": "8/4p3/1Qpk2qB/NP6/3p4/PP1Pb3/2n4K/8 w - - 0 1",
+  "solution": [
+    "Qxc6+",
+    "Ke5",
+    "Qxg6"
+  ],
+  "rating": 1240,
+  "title": "Preso il Pedone, Vinta la Donna",
+  "setup": "Il re nero in d6 e la donna in g6 condividono la sesta traversa, e un pedone nero occupa c6.",
+  "hint": "La casa che serve alla vostra donna sulla sesta traversa è occupata. Potete prenderla, e il re oserebbe riprendere?",
+  "explanation": "## L'idea\n\nLa vostra donna vuole la sesta traversa, e il pedone in **c6** sta sulla casa che le serve. {{Qxc6+}} lo prende con scacco, e il pedone in **b5** copre c6 quindi il re non può catturare. {{Ke5}} è forzata, e {{Qxg6}} vince la donna."
+}

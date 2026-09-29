@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-06",
+  "fen": "r1b1k2r/ppppqppp/2n5/4n3/1PP2B2/5N2/1P1NPPPP/R2QKB1R b KQk - 0 8",
+  "solution": [
+    "Nd3#"
+  ],
+  "rating": 750,
+  "title": "O Peão Não Pode Comer",
+  "setup": "As brancas acabaram de ganhar um bispo em b4, deixando o rei encaixotado em e1 atrás das próprias peças.",
+  "hint": "A tua dama de e7 já é dona da coluna e. O que é que isso faz ao peão que está nela?",
+  "explanation": "## A Ideia\n\n{{Nd3#}} aterra numa casa que só o peão de e2 guarda, e esse peão não pode mexer: a dama de e7 estaria a dar xeque pela coluna e aberta. Um xeque de cavalo nunca se pode tapar, e todas as casas ao lado de e1 estão ocupadas pelas próprias peças das brancas."
+}

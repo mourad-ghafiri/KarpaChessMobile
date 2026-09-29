@@ -1,0 +1,14 @@
+{
+  "id": "promotion-06",
+  "fen": "7k/ppp4p/8/PPP5/8/8/7P/7K w - - 0 1",
+  "solution": [
+    "b6",
+    "axb6",
+    "c6"
+  ],
+  "rating": 1200,
+  "title": "Piyon Duvarını Kırın",
+  "setup": "Vezir kanadında üç piyon üç piyona karşı duruyor ve iki şah da uzak köşeye park etmiş.",
+  "hint": "Üçe karşı üç, yan yana. Ortadakini verin ve diğer ikisinin kaç tempoya ihtiyacı olduğunu sayın.",
+  "explanation": "## Fikir\n\n{{b6}} duvarı kırmak için bir piyon verir. {{axb6}} geldikten sonra {{c6}} yeniden yarar: {{bxc6}} gelirse a piyonu a8'e dokunulmadan koşar; siyah onu bırakırsa {{cxb7}} gelir ve piyon b8'de vezir olur. Bunun yerine {{cxb6}} gelirse {{a6}} aynı işi öteki taraftan yapar.\n\nÜçlünün ortasında verilen bir piyon, kanatta bir vezir satın alabilir."
+}

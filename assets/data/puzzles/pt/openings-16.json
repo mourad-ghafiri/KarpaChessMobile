@@ -1,0 +1,13 @@
+{
+  "id": "openings-16",
+  "fen": "rnbqk2r/pp3ppp/4p3/2Pn4/8/P1P2P2/4P1PP/R1BQKBNR b KQkq - 0 8",
+  "solution": [
+    "Qa5",
+    "Bd2",
+    "Qxc5"
+  ],
+  "title": "Dois Peões Numa Coluna",
+  "setup": "As pretas cederam o bispo das casas escuras para dobrar os peões c das brancas, e as brancas acabaram de abocanhar um peão em c5. Ataca os dois peões c ao mesmo tempo.",
+  "hint": "Os peões c das brancas estão em c3 e c5, uma coluna e nenhum peão a defender qualquer deles. Encontra a casa que olha para os dois ao mesmo tempo.",
+  "explanation": "## A Ideia\n\nO bispo foi trocado por um cavalo para os peões c das brancas acabarem empilhados. Aqui custam alguma coisa.\n\n{{Qa5}} ataca os dois: c3 pela diagonal e c5 ao longo da quinta linha, e nenhum peão branco pode defender qualquer deles. Se as brancas escorarem c3 com {{Bd2}}, {{Qxc5}} recupera o peão. O melhor para as brancas é avançar primeiro o peão e e enxotar o teu cavalo de d5.\n\nO material sai igual, mas os peões dobrados ficam. Ataca a fraqueza que um peão não pode defender."
+}

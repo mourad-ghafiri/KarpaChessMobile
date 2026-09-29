@@ -1,0 +1,68 @@
+{
+  "id": "tournaments",
+  "title": "Il Vostro Primo Open",
+  "summary": "Svizzeri, bye, e la persona in mezzo",
+  "proof": "culture-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Scacchiera Quaranta, Primo Turno",
+      "text": "Si sono iscritti duecentouno giocatori, e il tabellone degli abbinamenti ha tagliato la lista a metà: tutti quelli della metà alta hanno pescato qualcuno della metà bassa. Ed è per questo che l'avversario più forte del vostro fine settimana vi siede di fronte adesso, al primo turno, e gioca in fretta.\n\nNessuno viene eliminato. Perdete questa partita e verrete riabbinati dopo pranzo, contro qualcuno che ha perso anche lui."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Abbinati per Punteggio",
+      "text": "Dal secondo turno il programma di abbinamento ordina tutti per punteggio e abbina dentro ciascun gruppo, così che i vincitori incontrino i vincitori e i perdenti i perdenti. Tiene anche traccia di chi ha avuto quale colore e li pareggia lungo tutto il torneo per quanto gli abbinamenti lo permettano. Lo stesso avversario non capita mai due volte.\n\nQuesto è un **sistema svizzero**, ed è ciò che permette a duecento iscritti di finire nove turni in una settimana lunga."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Un Pedone Cammina Verso il Vostro Alfiere",
+      "text": "Il pedone h del Bianco sta in h4, e non è lì per il panorama. Un'altra spinta e il vostro alfiere perde g6.\n\nContate le case che gli resterebbero. Giù lungo la diagonale va a finire in mezzo alla scacchiera, dove un pedone e un cavallo aspettano di inseguirlo di casa in casa, e un alfiere costretto a scappare prima o poi resta senza case. È il modo più antico di vincere un pezzo in questa apertura: non una tattica, solo un pedone che cammina verso qualcosa che non può stare fermo."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "prompt": "Aprite la casa di ritirata che servirà al vostro alfiere prima che il pedone h del Bianco lo cacci da g6.",
+      "targetSan": [
+        "h6"
+      ],
+      "hint": "L'unica strada di ritorno dell'alfiere passa attraverso i vostri pedoni dell'ala di re."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Il Numero Dispari",
+      "text": "Sul tabellone murale ci sono duecentouno nomi. Un numero dispari, quindi a ogni turno un giocatore resta senza avversario e prende un bye, di norma contato come una vittoria.\n\nQuasi tutti i tornei concedono anche un mezzo punto di bye per un turno che prenotate in anticipo, che è la differenza fra saltare il quinto turno e perderlo. Informatevi sui bye prima di iscrivervi, non la mattina del turno.\n\nIl Bianco spinge lo stesso. {{h5}}, e stavolta {{Bh7}} è una casa."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Altri Due Modi di Organizzarlo",
+      "text": "Un girone all'italiana abbina tutti con tutti: dieci giocatori, nove turni, e la tabella incrociata risponde a ogni domanda che uno spareggio dovrebbe indovinare. È il sistema più equo che ci sia, ed è per questo che i tornei a inviti lo usano, ed è anche il motivo per cui cento iscritti non ne vedranno mai uno: sarebbero novantanove turni.\n\nUn'eliminazione diretta è l'altro estremo. Un match, un perdente, e metà del campo torna a casa prima di cena. La Coppa del Mondo va così, con match di due partite e spareggi rapid quando finiscono in parità.\n\nGli open di fine settimana stanno nel mezzo. Continuano a giocare tutti, e a ordinare le cose sono gli abbinamenti."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "La Compagnia che Avete Frequentato",
+      "text": "Scacchiera nuova, ultimo turno, e il Nero si è appena servito il cavallo che avevate in e4.\n\nFiniranno al punteggio più alto più giocatori di quanti siano i premi, quindi decidono gli spareggi tecnici, e sono pubblicati prima del primo turno. Leggeteli lì. Quasi tutti misurano la compagnia che avete frequentato: il Buchholz somma i punteggi finali dei vostri avversari, il Sonneborn-Berger pesa quei punteggi a seconda che li abbiate battuti o pattati. Nessuno può giocare per uno spareggio tecnico. Spiega soltanto, dopo, perché perdere contro il vincitore finale vi sia costato meno che perdere contro qualcuno che si è ritirato la mattina dopo."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "Alzate una Mano",
+      "text": "L'arbitro fa gli abbinamenti, custodisce le Regole e risolve i reclami. Alzate una mano; non discutete al di sopra della scacchiera. Nel gioco standard la vostra prima mossa illegale compiuta dà al vostro avversario due minuti in più e la seconda chiude la partita, quindi chiamate l'arbitro invece di rimediare da soli.\n\nAvete arroccato lungo la mossa scorsa, e la torre in d1 punta lungo una colonna che il suo stesso alfiere blocca. {{Qd8+}} {{Kxd8}} {{Bg5+}} dà scacco due volte, e il re ha due case. In c7 l'alfiere dà matto da d8, quindi il Nero prova {{Ke8}}.\n\n> Gli abbinamenti, l'orologio e la lista premi appartengono all'arbitro. La scacchiera appartiene a voi."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+      "prompt": "Il re nero è invece scappato in e8: trovate il matto in una sulla colonna che la vostra torre tiene già.",
+      "targetSan": [
+        "Rd8#"
+      ],
+      "hint": "L'alfiere in g5 copre e7 e difende la casa d'arrivo, quindi alla torre basta arrivare con scacco."
+    }
+  ]
+}

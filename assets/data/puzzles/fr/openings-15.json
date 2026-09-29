@@ -1,0 +1,13 @@
+{
+  "id": "openings-15",
+  "fen": "rnbq1rk1/pp2ppbp/3p1np1/2P5/2P1PP2/2N2N2/PP4PP/R1BQKB1R b KQ - 0 7",
+  "solution": [
+    "Qa5",
+    "Bd3",
+    "Qxc5"
+  ],
+  "title": "Invité, puis repris",
+  "setup": "Les Blancs ont bâti un énorme centre et viennent de prendre en c5, en espérant garder le pion de plus. Regagnez-le avec un coup qui cloue aussi un cavalier.",
+  "hint": "Le roi blanc est encore chez lui, et l'un de ses cavaliers se tient sur la diagonale qui y mène. Où votre dame peut-elle faire deux choses à la fois ?",
+  "explanation": "## L'idée\n\nL'est-indienne laisse les Blancs prendre le centre, puis demande ce qui le défend.\n\n{{Qa5}} fait deux choses : elle cloue le cavalier en c3 sur le roi en e1, et elle attaque le pion en c5 le long de la cinquième rangée. Le mieux pour les Blancs est de se développer par {{Bd3}}, et {{Qxc5}} reprend aussitôt le pion.\n\nLe matériel est égal, et les pions blancs en c4, e4 et f4 doivent maintenant prouver qu'ils sont des forces, pas des cibles.\n\nL'espace n'est un avantage que tant qu'on peut le défendre."
+}

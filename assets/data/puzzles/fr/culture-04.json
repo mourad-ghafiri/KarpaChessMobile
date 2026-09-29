@@ -1,0 +1,13 @@
+{
+  "id": "culture-04",
+  "fen": "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/P1N2N1P/1P2QPP1/R1B2RK1 b k - 0 9",
+  "solution": [
+    "Nd4",
+    "hxg4",
+    "Nxe2+"
+  ],
+  "title": "Ne reculez pas",
+  "setup": "Les Blancs viennent de chasser votre cavalier avec le pion h et, avec quatre cents points de plus, s'attendent pleinement à ce que vous le repliiez.",
+  "hint": "Votre cavalier en g4 est attaqué : cessez de le défendre et demandez-vous ce que votre autre cavalier pourrait frapper à la place.",
+  "explanation": "## L'idée\n\n{{Nd4}} ignore le cavalier attaqué et frappe la dame en e2, la seule pièce qui tient à la fois le fou en c4 et le cavalier en f3.\n\nLe mieux pour les Blancs est {{hxg4}}, et {{Nxe2+}} prend la dame. Deux cavaliers pour une dame vous laissent une pièce nette d'avance.\n\nLa prise naturelle est bien pire. Après {{Nxd4}}, le cavalier qui gardait h2 est parti, et {{Qh2#}} conclut, avec le cavalier en g4 qui protège la dame.\n\nQuand une pièce est attaquée, cherchez une attaque plus grosse avant de chercher une case."
+}

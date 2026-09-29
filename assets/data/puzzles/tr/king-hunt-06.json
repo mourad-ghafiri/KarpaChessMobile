@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-06",
+  "fen": "4k2b/8/p4R2/5Qr1/8/4K3/8/RB6 w - - 0 1",
+  "solution": [
+    "Rf8+",
+    "Ke7",
+    "Rf7+",
+    "Kd6",
+    "Rxa6#"
+  ],
+  "rating": 1520,
+  "title": "Hiç Durmayan Kale",
+  "setup": "Siyahın şahı hâlâ e8'de; g5'te bir kalesi, h8'de bir fili var ve kaleniz çoktan f6'da oturuyor.",
+  "hint": "İki kale işi bölüşür: biri şahı şahlarla güder, öteki onu uzak bir dikeyde bekler.",
+  "explanation": "## Fikir\n\n{{Rf8+}} ile {{Rf7+}} şahı açığa yürütür ve {{Rxa6#}} altıncı yatay boyunca mat eder; f5'teki vezir de beşinci yatayı mühürler. Bir kale şahı dışarı yürütür, öteki a dikeyinde çoktan beklemektedir."
+}

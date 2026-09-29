@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-07",
+  "fen": "2n1k3/pp2rppp/8/2B5/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxe7"
+  ],
+  "title": "Come Com a Peça Mais Barata",
+  "setup": "A torre preta em e7 está cravada contra o seu rei pela tua torre, e o teu bispo ataca-a também. Um cavalo em c8 guarda-a.",
+  "hint": "A torre cravada está atacada duas vezes e defendida uma. Que captura dá lucro?",
+  "explanation": "## A Ideia\n\nA torre de e7 está cravada pela tua torre de e1, atacada por torre e bispo, e defendida pelo cavalo de c8.\n\n{{Bxe7}} come com a peça mais barata. O rei não pode comer de volta, porque a tua torre guarda e7, portanto depois de {{Nxe7}} deste um bispo por uma torre, e o cavalo fica cravado por sua vez. {{Rxe7+}} primeiro só troca torre por torre.\n\nCobra uma peça cravada com o teu atacante mais barato."
+}

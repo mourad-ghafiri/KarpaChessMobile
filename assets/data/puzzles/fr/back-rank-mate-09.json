@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-09",
+  "fen": "6k1/5pp1/7p/8/2n5/8/3r1PPP/1B2R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 980,
+  "title": "De l'air qui n'existe pas",
+  "setup": "Les Noirs viennent de jouer h6 pour ouvrir une case de fuite en h7 à leur roi.",
+  "hint": "Les Noirs croient que le roi a maintenant un trou où fuir. Découvrez qui d'autre regarde cette case.",
+  "explanation": "## L'idée\n\n{{Re8#}} quand même. La nouvelle case de fuite h7 est couverte par le fou en b1, tout le long de la diagonale, donc le coup de pion n'a rien acheté. Une trappe de secours n'aide que si aucune pièce adverse ne surveille la case que vous ouvrez."
+}

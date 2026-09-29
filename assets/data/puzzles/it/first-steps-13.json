@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-13",
+  "fen": "k4r2/8/8/7b/8/3n4/P7/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "La Casa Tranquilla",
+  "setup": "Un cavallo nero è atterrato in d3 con scacco — e gli scacchi di cavallo non si possono mai parare.",
+  "hint": "L'alfiere in h5 taglia attraverso f3, e2 e d1. La torre sorveglia la colonna f. Cercate la casa di cui nessuno parla.",
+  "explanation": "## L'idea\n\nIl cavallo in d3 dà scacco al vostro re, e a uno scacco di cavallo si può rispondere solo muovendo il re o prendendo il cavallo. Niente di vostro arriva a d3, quindi il re deve muovere.\n\nd1 e e2 stanno sulla diagonale dell'alfiere di h5, la torre in f8 copre f1, e il cavallo stesso copre f2. {{Kd2}} è l'unica casa rimasta: proprio accanto al cavallo, e sicura, perché un cavallo non attacca mai le case che ha subito accanto."
+}

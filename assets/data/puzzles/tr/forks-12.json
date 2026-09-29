@@ -1,0 +1,13 @@
+{
+  "id": "forks-12",
+  "fen": "r5k1/p5pp/1p6/2p5/7q/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qd5+",
+    "Kf8",
+    "Qxa8+"
+  ],
+  "title": "Tek Vezir, İki Çapraz",
+  "setup": "İki vezir de dışarıda, taş dengesi eşit ve siyahın a8'deki kalesi henüz oynamadı.",
+  "hint": "Veziriniz, bir hat boyunca şah çeken ve bir başka hat boyunca kaleye vuran bir kareye ulaşabiliyor.",
+  "explanation": "## Fikir\n\n{{Qd5+}} bir çapraz boyunca g8'deki şaha şah çeker ve öteki çapraz boyunca a8'deki kaleye saldırır. f7 boş olduğundan ve siyahın hiçbir taşı e6 ya da f7'ye ulaşamadığından şah kapatılamaz; yani şahın yana çekilmesi gerekir. {{Kf8}} geldikten sonra {{Qxa8+}} kaleyi şah çekerek alır.\n\nVezir kendi hatları boyunca çatallar: bunlardan ikisinin iki hedefle buluştuğu kareyi arayın."
+}

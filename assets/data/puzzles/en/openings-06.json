@@ -1,0 +1,13 @@
+{
+  "id": "openings-06",
+  "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2P1P3/2N2N2/PP1P1PPP/R1BQKB1R w KQk - 1 5",
+  "solution": [
+    "Nxe5",
+    "Nxe5",
+    "d4"
+  ],
+  "title": "Clear the Road to d4",
+  "setup": "A reversed Sicilian: Black has just put the bishop on c5, level with its pawn on e5. Take that pawn, trusting a pawn fork to win the piece back.",
+  "hint": "Two black units stand on squares one pawn push could hit at once — but something is standing in the way first.",
+  "explanation": "## The Idea\n\nBlack's bishop on c5 and pawn on e5 sit on the two squares a pawn on d4 would hit together, but the e5 pawn guards d4, so a piece has to clear it first.\n\n{{Nxe5}} does that. After {{Nxe5}}, {{d4}} forks the knight and the bishop, and White wins the piece back. Material ends roughly level, but White keeps the center and a small edge.\n\nA flank opening still wins its fights in the middle. It just takes the long way around."
+}

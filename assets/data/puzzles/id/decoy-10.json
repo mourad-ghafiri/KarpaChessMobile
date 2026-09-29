@@ -1,0 +1,14 @@
+{
+  "id": "decoy-10",
+  "fen": "r2q1r1k/pp2N1pp/8/7Q/8/3R4/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qxh7+",
+    "Kxh7",
+    "Rh3#"
+  ],
+  "rating": 1490,
+  "title": "Mat Anastasia",
+  "setup": "Kuda Anda di e7 menguasai g6 dan g8, dan hanya pion h7 yang berdiri di antara raja dan menteri Anda.",
+  "hint": "Kuda sudah menguasai kedua petak g. Yang kurang adalah raja di h7 — bagaimana Anda memaksanya?",
+  "explanation": "## Ide\n\nInilah **mat Anastasia**. {{Qxh7+}} memaksa {{Kxh7}}, dan kuda di e7 merebut g6 dan g8. {{Rh3#}} menuntaskan jaringnya: raja berdiri di lajur terbuka tanpa tempat untuk melangkah. Ingat gambarnya: kuda di e7, raja diseret ke h7, benteng ke lajur h."
+}

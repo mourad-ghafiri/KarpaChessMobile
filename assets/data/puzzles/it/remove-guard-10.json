@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-10",
+  "fen": "r4rk1/5ppp/5n2/6B1/8/8/2Q2PPP/1B4K1 w - - 1 2",
+  "solution": [
+    "Bxf6"
+  ],
+  "rating": 1390,
+  "title": "La Sentinella di h7",
+  "setup": "La vostra donna e il vostro alfiere sono allineati su h7, e oltre al re solo il cavallo in f6 copre quella casa.",
+  "hint": "La vostra batteria punta già su h7. Esattamente un pezzo nero le risponde — quanto vale quel pezzo?",
+  "explanation": "## L'idea\n\n{{Bxf6}} toglie l'unica guardia di h7. Riprendete con {{gxf6}} e {{Qxh7#}} è matto: la torre stessa del Nero in f8 mura dentro il re. Se rifiuta, il cavallo è sparito per niente. Un cambio pari che apre una casa di matto non è mai pari."
+}

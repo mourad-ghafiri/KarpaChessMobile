@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-15",
+  "fen": "8/4k3/8/3K4/8/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "title": "Raja di Depan Pion",
+  "setup": "Raja Anda telah berbaris di depan pionnya, dan raja Hitam menunggu di e7. Langkah raja berikutnya menentukan partai.",
+  "hint": "Mendorong pion menyia-nyiakan kerja raja. Tempatkan raja Anda di tempat raja Hitam harus mengalah.",
+  "explanation": "## Ide\n\n{{Ke5}} melangkah ke depan pion dan merebut oposisi: kedua raja saling berhadapan dengan satu petak di antaranya, dan Hitam harus melangkah. Ke mana pun raja hitam pergi, raja Anda berjalan melewatinya, misalnya {{Kd7}} {{Kf6}}, dan pion menyusul. Dorong pion lebih dulu dengan {{e4}}, atau melangkah ke tempat lain, dan Hitam yang merebut oposisi: remis.\n\nDalam akhir permainan raja dan pion, raja memimpin dan pion mengikuti."
+}

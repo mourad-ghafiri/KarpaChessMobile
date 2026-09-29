@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-05",
+  "fen": "8/4k3/4P3/4K3/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Ke8"
+  ],
+  "rating": 1245,
+  "title": "Una Casa Tiene",
+  "setup": "Il re bianco è appena salito dietro il suo pedone sulla sesta, e il Nero ha tre case fra cui scegliere.",
+  "hint": "Due delle vostre tre case lasciano il re bianco girare in d7 o f7. Una no.",
+  "explanation": "## L'idea\n\n{{Ke8}} è l'unica mossa. Rispondete a {{Kd6}} con {{Kd8}}, e {{e7+}} respinge poi il re davanti al pedone, dove al Bianco non resta altro che lo stallo. Andate invece in d8 o f8 e il Bianco si prende l'opposizione e promuove."
+}

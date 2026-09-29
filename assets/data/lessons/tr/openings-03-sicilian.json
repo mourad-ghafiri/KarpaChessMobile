@@ -1,0 +1,56 @@
+{
+  "id": "sicilian",
+  "title": "Sicilya Savunması",
+  "summary": "Merkez piyonuna karşı kanat piyonu ve bir daha asla birbirini kopyalayamayacak iki taraf",
+  "proof": "openings-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "title": "Kanattan Bir Piyon",
+      "text": "Her değişim iki şeyi değiştirir: tahtada ne kaldığını ve piyonların hangi şekilde kaldığını. Burada bütün mesele ikincisi.\n\nBeyazın d4'teki piyonu, sizin c5'teki piyonunuza bir çapraz uzaklıkta duruyor ve açılış, alıp almamanıza bağlı. Alırsanız tahtanın kenarında başlamış bir piyonu verir, ortada duran bir piyonu kaldırırsınız. Beyaz geri alır, yani kazanılan bir şey olmaz.\n\nŞekil ise geri gelmez. O andan itibaren iki tarafın her kanatta farklı piyonları olur, temelli."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Kanat piyonunuzu, beyazın az önce ortaya diktiği piyona değişin.",
+      "targetSan": [
+        "cxd4"
+      ],
+      "hint": "Kendi piyonlarınızı merkeze ne kadar yakın durduklarına göre sıralayın, sonra bu sıralamayı iyileştiren taş almayı bulun."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "Değişimin Getirdiği",
+      "text": "Beyaz geri aldı ve taş dengesi eşit. Gerisini piyonlar anlatıyor.\n\nOrtada sizin d6 ile e7'de iki piyonunuz var, beyazın e4'te bir piyonu. Vezir kanadında ise beyazın üç, sizin iki piyonunuz var. Bunların hiçbiri henüz üstünlük değil. Bu bir dengesizlik ve parasını ödediğiniz şey de o dengesizlik.\n\nc dikeyi makbuz. Sizin piyonunuz oradan ayrıldı, beyazın c2'deki piyonu ayrılmadı — bu bir **yarı açık dikey**dir; yalnızca tek bir ordunun hâlâ piyonu olan dikey. Onu kullanabilecek ordu sizsiniz."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "title": "Aynalamayı Reddetmek",
+      "text": "Beyazın şah piyonuna kendi şah piyonunuzla cevap verin; iki ordu da aynı kareleri, aynı dikeyleri, aynı planları istesin. Er ya da geç biri beraberlik teklif eder ve kimsenin reddetmek için sebebi olmaz.\n\nBu yapı kopyalanamaz. Her kanatta farklı piyonlar, farklı planlar demektir ve iki farklı plan, biri diğerinden iyi olduğunu gösterene kadar sonuna kadar oynanmak zorundadır.\n\nÇekiciliği budur ve Sicilya'nın, şah piyonuyla yapılan ilk hamleye dünyada en çok oynanan cevap olmasının sebebi de budur."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "On Birinci Hamle",
+      "text": "İki taraf da taşlarını çıkarmayı bitirdi ve şekil korundu. d6 ile e6'daki piyonlarınız yan yana duran küçük bir merkez kuruyor — bakması sıkışık, kırması çok zor. Beyazın e4 ile f4'teki piyonları daha çok yere sahip ve şah kanadında bir hat açmak istiyor.\n\nSiyah orta oyunu tek bir sürüşe hazırlanarak geçirir: {{d5}}. O piyon indiği anda küçük merkez tam bir merkeze dönüşür ve havasız kalan her taş gerinir. Beyazın şah kanadı planı ise oraya önce varma yarışıdır."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "title": "Boşalttığınız Dikey",
+      "text": "a8'deki kaleniz parti başladığından beri hiç oynamadı ve kendi a6'daki piyonunuza bakıyor. İki dikey ötede ise sizin hiç piyonunuz yok.\n\nO dikeyin ucunda beyazın en yumuşak iki noktası oturuyor: hiçbir beyaz piyonun asla koruyamayacağı c2'deki piyon ve merkezi bir arada tutan c3'teki at. Siyahın **karşı oyunu** orada yaşar — şah kanadını korumakta değil, değişimin açtığı dikeyde.\n\n> Bir kanat piyonu, açtığı dikey bir şeyi gösterdiği her seferde bir merkez piyonu değerindedir."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/1p1bbppp/p1nppn2/8/P2NPP2/2N1B3/1PP1B1PP/R2Q1R1K b - - 2 11",
+      "prompt": "Boşta duran kalenizi, c piyonunuzun geride bıraktığı dikeye getirin.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "O dikeyde artık sizin hiçbir piyonunuz durmuyor ve beyazın en zayıf iki noktası dikeyin öteki ucunda."
+    }
+  ]
+}

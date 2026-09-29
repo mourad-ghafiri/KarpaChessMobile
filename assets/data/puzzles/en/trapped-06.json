@@ -1,0 +1,12 @@
+{
+  "id": "trapped-06",
+  "fen": "2r3k1/Bpp2pp1/5n1p/p7/8/8/P1P2PPP/3R2K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "rating": 1210,
+  "title": "Shut the Door",
+  "setup": "White's bishop has grabbed a pawn on a7, deep in your camp, with only b8 and b6 to come home through.",
+  "hint": "Your rook on c8 already watches one of the two doors. Close the other with something the bishop cannot safely take.",
+  "explanation": "## The Idea\n\n{{b6}} takes the bishop's last square, and the pawn is defended by c7, so Bxb6 cxb6 wins a piece for a pawn. The rook covers b8, White's own a2-pawn blocks the a-file, and c7 stops any rook from reaching a7 along the rank. Ra8 next."
+}

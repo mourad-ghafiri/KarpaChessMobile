@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-01",
+  "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 1",
+  "solution": [
+    "Qxf7#"
+  ],
+  "title": "Çoban Darbesi",
+  "setup": "h5'teki veziriniz ile c4'teki filiniz siyahın kampındaki en zayıf kareye doğrultulmuş.",
+  "hint": "İki taşınız tek bir yumuşak karede birleşiyor ve orayı yalnızca şah koruyor.",
+  "explanation": "## Fikir\n\nBu, çoban matının bitirici hamlesidir. {{Qxf7#}} piyonu şah çekerek alır. c4'teki fil f7'yi koruduğu için şah veziri alamaz ve tek boş karesi olan e7'yi vezir kapsar. Öteki komşuları d8, d7 ve f8'de kendi taşları durur.\n\nPartinin başında f7'yi yalnızca şah korur; bu yüzden ona doğrultulmuş bir vezir ile fil, satrancın en eski numarasıdır."
+}

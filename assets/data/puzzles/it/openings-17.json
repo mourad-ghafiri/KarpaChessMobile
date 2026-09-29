@@ -1,0 +1,11 @@
+{
+  "id": "openings-17",
+  "fen": "rnb1k2r/pp2ppbp/6p1/q1PP4/5B2/2P1P3/P4PPP/2RQKBNR b Kkq - 0 9",
+  "solution": [
+    "Bxc3+"
+  ],
+  "title": "La Diagonale Incassa",
+  "setup": "Il Nero ha consegnato il centro e con esso due pedoni, e il Bianco ha appena ripreso in c3 con il pedone b.",
+  "hint": "Il Bianco ha ripreso con un pedone che un solo pezzo difende, e il vostro alfiere gli punta contro dalla quarta mossa.",
+  "explanation": "## L'idea\n\nL'alfiere in g7 punta lungo la grande diagonale dalla quarta mossa, ed è questo che aspettava.\n\n{{Bxc3+}} riprende un pedone con scacco. {{Rxc3}} va a sbattere contro {{Qxc3+}}, perché la donna in a5 sta dietro l'alfiere, e {{Qd2}} perde la donna per {{Bxd2+}}. Il meglio per il Bianco è {{Ke2}}, che rinuncia all'arrocco per restare un pedone avanti.\n\nConsegnate il centro solo quando avete qualcosa con cui sparargli addosso."
+}

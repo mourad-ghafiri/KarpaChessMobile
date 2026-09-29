@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-10",
+  "fen": "6k1/5p1p/6p1/8/8/8/1B6/3R2K1 w - - 0 1",
+  "solution": [
+    "Rd8#"
+  ],
+  "title": "Pintu Darurat yang Semu",
+  "setup": "Hitam memakai satu langkah untuk g6 agar raja punya ruang bernapas — tetapi ruang bernapas hanya membantu jika petak pintunya aman.",
+  "hint": "Hitam mengandalkan g7. Periksa apa yang sejak tadi dibidik buah Anda yang paling tenang.",
+  "explanation": "## Ide\n\nHitam mendorong pion g untuk memberi raja petak tempat lari, dan petak yang dibuatnya adalah g7. Gajah di b2 sudah mengawasi diagonal panjang sepanjang waktu, dan g7 berada di sana.\n\n{{Rd8#}}: f8 dan h8 berada di baris benteng, f7 dan h7 ditempati pion Hitam sendiri, dan satu-satunya petak pelarian yang dibangun Hitam sudah dikuasai."
+}

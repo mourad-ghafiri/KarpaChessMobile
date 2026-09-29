@@ -1,0 +1,50 @@
+{
+  "id": "kings-indian-attack",
+  "title": "Attacco Est-Indiano",
+  "summary": "Otto mosse che giocate sempre, e la corsa che segue sempre",
+  "proof": "openings-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Otto Mosse, Nessuna Domanda",
+      "text": "Otto mosse, e il Bianco non ha chiesto neanche una volta che cosa stesse facendo il Nero. Cavallo in f3, pedone in g3, alfiere in g2, re nell'angolo, pedone in d3, cavallo in d2, pedone in e4, torre in e1 — in quasi qualunque ordine, contro quasi qualunque cosa.\n\nQuesto è l'Attacco Est-Indiano. È uno schieramento più che una linea, quindi non c'è teoria da portarsi dietro: lo stesso mediogioco arriva a ogni partita, e lo imparate una volta sola. Fischer lo usò per anni contro la francese e la siciliana, giocando ogni volta le stesse mosse."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Due Piani, Direzioni Opposte",
+      "text": "Il Nero non aspetta niente di tutto questo. I pedoni dell'ala di donna sono la cosa più veloce sulla scacchiera, e hanno un indirizzo: c2, e tutto quello che resta a difenderla.\n\n{{b5}} è la prima spallata. Le altre seguono, la colonna c si apre, e le torri nere ci si riversano dentro.\n\nNessuno dei due difenderà. In una corsa, una mossa spesa a guardare indietro è una mossa consegnata all'altro corridore — quindi il Bianco non risponde affatto sull'ala di donna. Il Bianco risponde sull'ala opposta, dove il pedone in e4, l'alfiere in g2 e tutti e due i cavalli puntano già."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p3bppp/2n1pn2/1ppp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - b6 0 9",
+      "prompt": "Prendetevi spazio davanti ai vostri pezzi con una spinta di pedone che sfratti il cavallo più vicino al re nero.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "Il cavallo in f6 è l'unico vero difensore vicino a quel re. Quale dei vostri pedoni può attaccarlo?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Perché le Ali Sono al Sicuro",
+      "text": "Il pedone in e5 adesso sta naso a naso con il pedone in e6. In mezzo non resta niente da cambiare e niente da aprire, ed è esattamente il permesso di cui un attacco d'ala ha bisogno: nessuna linea attraverso il centro vuol dire nessuna strada verso i due re attraverso di esso.\n\nE allora tutti e due guardano di lato. Il Bianco gioca {{h4}}, il Nero risponde {{b4}}, il Bianco spinge {{h5}}, e nessuno richiama a casa un pezzo.\n\n> Attaccate sull'ala dove avete lo spazio, e tenete chiuso il centro mentre lo fate."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Un Attaccante in Meno",
+      "text": "Contate che cosa il Bianco ha puntato sul re nero: l'alfiere in g2, il cavallo in f3, una donna e una torre non lontano dietro. Adesso contate che cosa il Nero ha lasciato a casa. È una cosa stretta, e stretta non basta.\n\nIl cavallo in d2 è il pezzo che la deciderebbe, e sta lontano da quel re quanto un pezzo può stare. La strada breve per e4 è coperta dal pedone nero in d5. La strada lunga passa per la casa che la torre ha lasciato andando in e1 — e da lì il cavallo sceglie fra e3, che guarda d5 e f5, e h2, a un balzo da g4."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "prompt": "Mettete in viaggio il vostro pezzo più lento verso il re nero, per l'unica strada che i suoi stessi pedoni lasciano aperta.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Guardate le case vuote sulla vostra prima traversa. Una di esse è la rampa d'accesso di un cavallo verso l'ala di re."
+    }
+  ]
+}

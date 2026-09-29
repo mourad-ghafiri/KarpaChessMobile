@@ -1,0 +1,12 @@
+{
+  "id": "pin-05",
+  "fen": "8/B1kb3R/p3r3/p7/3P4/4R3/1r4PK/8 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 960,
+  "title": "Ambil Apa yang Dijaganya",
+  "setup": "Benteng Anda di h7 menyapu seluruh baris ketujuh, lurus menembus gajah hitam sampai raja di c7.",
+  "hint": "Benteng di e6 punya satu penjaga. Lihat di sepanjang baris ketujuh dan tanyakan apakah penjaga itu boleh pergi.",
+  "explanation": "## Ide\n\n{{Rxe6}} begitu saja memenangkan benteng. Gajah di **d7** satu-satunya pembela, dan benteng Anda di **h7** menjepitnya terhadap raja di **c7** di sepanjang baris ketujuh. Menangkap di e6 akan membuka raja, jadi gajah tak bisa menjawab."
+}

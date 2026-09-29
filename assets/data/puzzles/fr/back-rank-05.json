@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-05",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "La marche de la tour solitaire",
+  "setup": "Le roi noir en g8 se tient toujours derrière trois pions intacts, et votre tour en b1 a une colonne vide devant elle.",
+  "hint": "Comptez les cases que peut atteindre le roi noir, puis trouvez la rangée qu'il ne peut pas quitter.",
+  "explanation": "## L'idée\n\nPas de sacrifice ni d'échange : la tour entre simplement. {{Rb8#}} donne échec le long de la huitième rangée. Les pions en f7, g7 et h7 prennent toutes les cases devant le roi, et la tour couvre f8 et h8. Rien chez les Noirs ne peut barrer la rangée ni prendre la tour.\n\nTrois pions intacts devant un roi forment un mur jusqu'à ce que la dernière rangée se vide. Ensuite, ils sont la raison du mat."
+}

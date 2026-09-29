@@ -1,0 +1,11 @@
+{
+  "id": "strategy-08",
+  "fen": "r1bqk2r/2p1bppp/p2p1n2/np2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w k - 1 9",
+  "solution": [
+    "Bc2"
+  ],
+  "title": "No vendas la pareja",
+  "setup": "El caballo negro ha saltado a a5 para cambiarse por tu alfil de casillas blancas. Conserva la pareja de alfiles.",
+  "hint": "El caballo de a5 te ha hecho una pregunta. Valora tu alfil por lo que valdrá dentro de seis jugadas, no en esta.",
+  "explanation": "## La idea\n\nDos alfiles cubren todas las casillas del tablero; uno cubre la mitad. Los jugadores fuertes valoran la pareja en medio peón, más o menos, y gastan jugadas de verdad en conservarla.\n\n{{Bc2}} se pone fuera de alcance y conserva los dos alfiles. Las otras retiradas fallan: c4 sigue al alcance del caballo, y en a4 cae ante el peón de b. Las Negras siguen con {{c5}}, y las Blancas abren el centro con {{d4}}.\n\nQuedarse quieto invita a {{Nxb3}}, que en una sola jugada les da la pareja a las Negras, dobla los peones de b blancos y abre la columna a."
+}

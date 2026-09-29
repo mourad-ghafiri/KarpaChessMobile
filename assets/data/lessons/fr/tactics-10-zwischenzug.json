@@ -1,0 +1,50 @@
+{
+  "id": "zwischenzug",
+  "title": "Le coup intermédiaire",
+  "summary": "Reprendre ensuite, menacer d'abord",
+  "proof": "zwischenzug-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "Le cavalier que personne ne défend",
+      "text": "Le cavalier blanc a atterri en d5, avec un pion de plus, et rien du tout ne le défend.\n\nLe prendre devrait être gratuit. Il n'en est rien : le fou en g5 cloue le cavalier en f6 sur la dame en d8, donc dès que ce cavalier s'écarte, le fou file en d8 et ramasse une dame pour un cavalier.\n\nC'est toute l'idée des Blancs, et les Blancs l'ont calculée exactement jusque-là."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "title": "Comptez au-delà de la reprise",
+      "text": "Chaque échange a un rythme que l'on apprend tôt. Je prends, vous prenez, et nous regardons tous deux ce qui reste sur l'échiquier.\n\nUn **coup intermédiaire** casse ce rythme. Au lieu de reprendre au moment où la reprise est attendue, vous jouez quelque chose dont l'adversaire doit s'occuper d'abord — un échec, ou une menace qui vaut plus que la pièce en prise. Votre pièce reste en prise ensuite. Elle attend, simplement.\n\nAlors, avant de décider qu'une prise perd du matériel, demandez-vous ce que vous menaceriez encore une fois la poussière retombée."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pppn1ppp/5n2/3N2B1/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 6",
+      "prompt": "Prenez la pièce gratuite même si la réponse gagne votre dame — le compte n'est pas terminé.",
+      "targetSan": [
+        "Nxd5"
+      ],
+      "hint": "Avant de refuser une prise, demandez-vous quels échecs resteraient sur l'échiquier après la réponse que vous redoutez."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "Un seul coup libre suffit aux Blancs",
+      "text": "La dame est partie, et le fou en d8 qui l'a prise n'a rien pour le défendre.\n\nNe supposez pas qu'il est piégé. Regardez la diagonale devant lui : e7, f6, g5 et h4 sont toutes vides. Offrez aux Blancs un coup tranquille et ce fou sort en h4, avec une dame contre un cavalier d'avance, et la partie cesse d'être un combat.\n\nLe fou n'est donc à prendre que tant que les Blancs sont trop occupés pour le sauver."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "title": "La reprise qui perd",
+      "text": "{{Kxd8}} est le coup qui semble dû, et il gâche la position.\n\nComptez : les Noirs ont donné une dame et repris un cavalier et un fou. Trois points de moins, et les Blancs ont toujours le pion de plus gagné plus tôt.\n\nCette même position paie ce fou au prix fort. La seule différence, c'est ce que jouent les Noirs avant d'aller le chercher.\n\n> Une pièce qui vous revient ne vaut pas plus parce que vous la prenez tout de suite. Demandez-vous ce que le coup pourrait faire d'autre."
+    },
+    {
+      "type": "play",
+      "fen": "r1bBkb1r/pppn1ppp/8/3n4/3P4/8/PP2PPPP/R2QKBNR b KQk - 0 7",
+      "prompt": "Trouvez l'échec qui occupe trop les Blancs pour qu'ils sauvent le fou, et revenez le chercher ensuite.",
+      "targetSan": [
+        "Bb4+"
+      ],
+      "hint": "Une seule pièce noire peut donner échec ici, et elle n'a pas quitté sa case de départ de toute la partie."
+    }
+  ]
+}

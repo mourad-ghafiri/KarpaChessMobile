@@ -1,0 +1,14 @@
+{
+  "id": "decoy-02",
+  "fen": "1r4k1/pp3ppp/8/8/2q5/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1190,
+  "title": "Ramenez la tour chez elle",
+  "setup": "La tour en b8 est l'unique gardienne de la dernière rangée, et votre dame se tient devant votre tour en d1.",
+  "hint": "La tour fait toute la défense. Offrez-lui sur la huitième rangée quelque chose qu'elle doit prendre.",
+  "explanation": "## L'idée\n\n{{Qd8+}} jette la dame sur la dernière rangée, et {{Rxd8}} est forcé. La tour a été attirée sur la seule case que couvre votre propre tour, et {{Rxd8#}} mate un roi enfermé par ses pions."
+}

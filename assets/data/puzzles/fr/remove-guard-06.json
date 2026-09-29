@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-06",
+  "fen": "2r3k1/p4p1p/6p1/5n2/3b4/7B/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxf5"
+  ],
+  "rating": 1250,
+  "title": "Suivez la défense",
+  "setup": "Votre tour fait face au fou en d4, qui ne reste en place que parce que le cavalier en f5 le couvre.",
+  "hint": "Ne prenez pas encore le fou. Demandez-vous ce qui le défend, et si vous pouvez d'abord échanger cette pièce.",
+  "explanation": "## L'idée\n\n{{Bxf5}} élimine le cavalier qui protège d4. {{gxf5}} rétablit le matériel mais pas la défense, et {{Rxd4}} gagne une pièce. Attaquez le défenseur, pas le défendu. Une reprise de pion répare le matériel, jamais la défense."
+}

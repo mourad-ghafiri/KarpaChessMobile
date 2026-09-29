@@ -1,0 +1,12 @@
+{
+  "id": "pin-03",
+  "fen": "8/1k2pp2/1b6/3r4/8/P2BP3/3R4/4K3 w - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "rating": 880,
+  "title": "Due Attaccanti, Nessuna Fuga",
+  "setup": "Il vostro alfiere in d3 sta davanti alla vostra stessa torre, e la torre nera in d5 sta sulla strada di tutti e due.",
+  "hint": "Il vostro alfiere sta bloccando la vostra torre. Dove può andare in modo che la torre nera continui a non potersi muovere di una casa?",
+  "explanation": "## L'idea\n\n{{Be4}} fa due lavori insieme. Inchioda la torre in **d5** contro il re in **b7**, e lasciando d3 permette anche alla vostra torre in **d2** di attaccare d5. Due attaccanti, nessun difensore, e una torre che non ha il permesso di muovere."
+}

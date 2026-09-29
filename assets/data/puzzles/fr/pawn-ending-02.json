@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-02",
+  "fen": "2k5/8/1K6/P7/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Kb8"
+  ],
+  "rating": 1140,
+  "title": "Courez vers le coin",
+  "setup": "Le roi blanc vient de monter en b6 pour escorter le pion a, et les Noirs ont trois cases.",
+  "hint": "Un pion de la tour n'a qu'une colonne à lui ; demandez-vous quel coin le roi défenseur doit tenir.",
+  "explanation": "## L'idée\n\n{{Kb8}} est le seul coup. Un pion de la tour ne peut pas être escorté au-delà d'un roi qui tient a8 et b8 : {{a6}} {{Ka8}}, et après a7 les Noirs n'ont plus aucun coup légal, c'est pat. Écartez-vous plutôt en d7 ou d8, et le roi blanc contourne simplement et va à dame."
+}

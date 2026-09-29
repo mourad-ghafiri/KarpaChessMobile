@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-07",
+  "fen": "8/5K2/8/8/2pQ4/8/2B5/7k w - - 0 1",
+  "solution": [
+    "Qf2",
+    "c3",
+    "Be4#"
+  ],
+  "rating": 1590,
+  "title": "Mate na Grande Diagonal",
+  "setup": "O rei preto está em h1 com um peão em c4, e o teu bispo de c2 está a uma jogada da grande diagonal.",
+  "hint": "O bispo está a uma casa da linha de que precisa. Encontra a jogada que cobre g1 e g2 ao mesmo tempo.",
+  "explanation": "## A Ideia\n\n{{Qf2}} tira g1 e g2 em silêncio. As pretas têm de jogar {{c3}}, e {{Be4#}} dá mate na diagonal para onde o bispo entra. O zugzwang dá-te a jogada de borla de que um padrão de mate precisa."
+}

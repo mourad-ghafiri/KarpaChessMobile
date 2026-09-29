@@ -1,0 +1,56 @@
+{
+  "id": "recording-games",
+  "title": "Mencatat Partai",
+  "summary": "Formulir notasi adalah ingatan yang bisa Anda percaya",
+  "proof": "culture-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "Lembaran di Samping Papan",
+      "text": "Langkah-langkah di depan Anda di sini cepat menjadi aneh, dan formulir notasi harus memuat setiap langkahnya.\n\nDalam partai klasik resmi Anda wajib mencatat langkah kedua pihak, satu demi satu, dalam notasi aljabar, di lembaran yang ditentukan penyelenggara. Bukan hanya langkah Anda. Keduanya. Lembaran itulah yang dibaca wasit ketika ada yang dipersengketakan, dan notasi aljabar adalah satu-satunya sistem yang diakui dalam acara FIDE — sistem Inggris yang lebih lama menghitung dari sisi masing-masing pemain, sehingga satu petak punya dua nama tergantung siapa yang memegang pena."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "Langkah Dulu, Pena Kemudian",
+      "text": "Anda boleh menjawab lawan sebelum menulis apa pun, dan kebanyakan pemain kuat melakukannya — jam berjalan dan pikiran semestinya ada di papan. Yang tak boleh Anda lakukan adalah tertinggal: langkah Anda sebelumnya harus sudah tercatat sebelum Anda memainkan langkah berikutnya.\n\nMenuliskan langkah sebelum memainkannya sama sekali dilarang. Satu-satunya pengecualian yang benar-benar akan Anda temui adalah klaim remis, ketika pemain yang mengklaim pengulangan atau aturan lima puluh langkah menuliskan langkah yang dimaksud, tidak memainkannya, lalu memanggil wasit."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "prompt": "Tangkap dengan pion Anda di e3 sehingga ia mendarat di samping raja putih dengan sekak.",
+      "targetSan": [
+        "exf2+"
+      ],
+      "hint": "Pion itu hanya punya tepat satu penangkapan di papan, dan raja Putih berdiri tepat di sebelah petak tempat ia akan mendarat."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Tanda yang Anda Tambahkan",
+      "text": "Putih memindahkan raja ke e2 alih-alih mengambil pion di f2, dan kini pena punya pekerjaan.\n\nPenangkapan diberi `x`, sekak diberi `+`, mat diberi `#`. Ketika dua buah yang sama bisa mencapai petak yang sama, Anda menambahkan asal langkahnya — `Nbd2`, `R1e4` — karena seseorang yang hanya memegang lembaran itu harus bisa memainkan ulang partai tanpa menebak. Promosi ditulis dengan `=` dan huruf buah yang Anda pilih."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Salinan Kedua",
+      "text": "Formulir notasi adalah pelatihan termurah dalam catur. Mainkan ulang partai malam itu dan kesalahan yang tak Anda ingat pernah dibuat terpampang di sana dalam tulisan tangan Anda sendiri, tiga langkah sebelum Anda menyadari ada yang salah. Kebanyakan acara membagikan lembaran rangkap justru karena alasan itu: salinan atas untuk penyelenggara, salinan di bawahnya dibawa pulang oleh Anda.\n\nAda saatnya pena berhenti. Di bawah lima menit di jam Anda, tanpa tambahan waktu tiga puluh detik atau lebih, Anda tak lagi wajib mencatat apa pun."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Satu Petak, Empat Partai",
+      "text": "Pion Anda di f2 hanya punya tepat satu petak promosi, g1, dan empat buah untuk dipilih. Lembaran itu harus menyebutkan mana yang Anda ambil.\n\n{{fxg1=Q}} menciptakan buah terkuat di papan dan langsung kalah: {{Qxd8+}}, dan Putih mendapat menteri lama Anda sebelum menteri yang baru sempat melangkah. Hitam tinggal punya satu balasan sah.\n\n> Pion yang sama, petak yang sama, empat partai yang berbeda. Di atas kertas, satu huruf sesudah `=` adalah satu-satunya pemisahnya."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "prompt": "Promosikan menjadi satu-satunya buah yang tiba sambil memberi sekak, agar Putih tak pernah mendapat langkah untuk mengambil menteri Anda.",
+      "targetSan": [
+        "fxg1=N+"
+      ],
+      "hint": "Lihat di mana raja putih berdiri, lalu tanyakan buah promosi mana dari keempatnya yang akan menyerangnya dari g1."
+    }
+  ]
+}

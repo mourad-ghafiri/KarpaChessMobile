@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-08",
+  "fen": "8/8/3kp3/4P3/2K5/8/8/8 b - - 1 1",
+  "solution": [
+    "Kxe5"
+  ],
+  "rating": 1350,
+  "title": "El peón de delante",
+  "setup": "El rey blanco acaba de llegar a c4, y los dos peones de e están atascados el uno contra el otro.",
+  "hint": "El rey blanco está a dos columnas de la columna e; pregúntate qué cambia si desaparece el bloqueo de delante de tu peón.",
+  "explanation": "## La idea\n\n{{Kxe5}} convierte un peón muerto en un corredor con su propio rey ya por delante. Las Blancas no pueden sostener la columna: {{Kd3}} {{Kf4}} {{Ke2}} {{Ke4}} y las Negras lo rodean hasta abajo. Tres de las retiradas del rey pierden directamente, y la cuarta solo hace tablas."
+}

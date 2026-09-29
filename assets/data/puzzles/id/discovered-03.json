@@ -1,0 +1,11 @@
+{
+  "id": "discovered-03",
+  "fen": "4k3/r7/2N5/1B6/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxa7+"
+  ],
+  "title": "Kuda Mengosongkan Diagonal",
+  "setup": "Gajah Anda di b5 membidik raja — tetapi kuda Anda sendiri menghalangi. Itu bukan masalah; itu sebuah langkah.",
+  "hint": "Kuda harus bergerak agar sekaknya muncul. Temukan lompatan yang merebut sesuatu dalam perjalanannya.",
+  "explanation": "## Ide\n\nKuda di c6 menghalangi diagonal gajah menuju e8, jadi langkah kuda mana pun memberi sekak. Kebebasan itulah intinya: kuda bisa pergi ke mana pun ia paling untung.\n\n{{Nxa7+}} mengambil benteng sementara gajah di b5 memberi sekak. Hitam harus menjawab sekak, jadi tak ada yang menangkap balik kuda, dan Putih tinggal punya gajah dan kuda melawan raja sendirian.\n\nDengan sekak tersingkap, pakai langkah gratis itu untuk penangkapan terbesar yang terjangkau."
+}

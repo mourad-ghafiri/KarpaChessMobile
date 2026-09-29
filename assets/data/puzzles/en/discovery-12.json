@@ -1,0 +1,14 @@
+{
+  "id": "discovery-12",
+  "fen": "6k1/pb3ppp/3p4/8/8/8/2Q3rP/2R2N1K b - - 0 1",
+  "solution": [
+    "Rxc2+",
+    "Kg1",
+    "Rg2+"
+  ],
+  "rating": 1350,
+  "title": "The Windmill Turns",
+  "setup": "Your rook on g2 blocks your own bishop's line to h1, and White's queen on c2 is guarded by a rook.",
+  "hint": "The rook can leave with check and come straight back with check. Work out why g2 is a square White can never take.",
+  "explanation": "## The Idea\n\n{{Rxc2+}} takes the guarded queen, because leaving g2 uncovers the bishop's check from b7. {{Kg1}} is forced, and {{Rg2+}} returns at once: the king cannot capture, since the bishop covers g2, and f1 is blocked by White's own knight. The rook is untouchable, and the queen is gone for nothing."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-07",
+  "fen": "1Q3bk1/R4ppp/8/6r1/8/8/PPR5/K7 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rc8#"
+  ],
+  "rating": 1490,
+  "title": "Uma Dama Por Um Bispo",
+  "setup": "O bispo preto voltou para f8, e tens uma torre na sétima e outra à espera em c2.",
+  "hint": "Não estás a contar material aqui — estás a contar casas de fuga. Encontra a peça que as fornece todas.",
+  "explanation": "## A Ideia\n\n{{Qxf8+}} parece absurdo até se ver que {{Kxf8}} é forçado e o rei fica na linha que a torre de c2 comanda. {{Rc8#}} acaba, com a torre de a7 a cobrir e7, a única casa de fuga que os peões não tiram sozinhos."
+}

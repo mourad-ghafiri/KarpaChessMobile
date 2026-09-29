@@ -1,0 +1,71 @@
+{
+  "id": "castling",
+  "title": "Deux pièces, un seul coup",
+  "summary": "Le seul coup qui déplace deux de vos pièces — et les six conditions à remplir d'abord",
+  "proof": "tactics-mix-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Les deux à la fois",
+      "text": "Jusqu'ici, chacun de vos coups déplaçait une seule pièce. Le roque en déplace deux.\n\n{{O-O}}. Le roi en e1 se déplace de deux cases jusqu'en g1, et la tour en h1 saute par-dessus lui pour atterrir en f1. Un seul coup. Les deux pièces sont en place.\n\nC'est le petit roque, joué vers le bord du côté du roi, et il s'écrit avec deux lettres et un tiret — le seul coup des échecs dont la notation ne nomme aucune case."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Le grand chemin",
+      "text": "L'autre tour peut le faire aussi.\n\n{{O-O-O}} : le roi en e1 va de deux cases dans l'autre sens, jusqu'en c1, et la tour en a1 passe par-dessus lui jusqu'en d1. Trois lettres au lieu de deux, et la même règle en dessous — le roi se déplace d'exactement deux cases, et la tour s'arrête sur la case que le roi a enjambée.\n\nCe qui change, c'est l'espace à dégager. Deux cases du côté du petit roque, f1 et g1. Trois du côté du grand : b1, c1 et d1."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Personne n'a encore bougé",
+      "text": "Commençons par trois des six conditions : deux sur le passé, une sur le présent.\n\nLe roi ne doit jamais avoir bougé. La tour avec laquelle vous roquez ne doit jamais avoir bougé. Pas bougé puis revenue — bougé tout court. Sortez le roi de e1 pour un seul coup et les deux roques disparaissent pour le reste de la partie. Déplacez la tour de h1 et le petit roque s'en va avec elle, tandis que le grand, qui repose sur une tour de a1 intacte, survit.\n\nLa troisième concerne le présent : les cases entre le roi et la tour doivent être vides. Chaque pièce placée entre eux doit d'abord partir."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Hors de, vers, à travers",
+      "text": "Les trois autres concernent ce coup-ci.\n\nPas pour sortir **d'un échec** : si le roi est attaqué en ce moment, il faut répondre autrement. Pas **vers un échec** : la case d'arrivée du roi doit être sûre. Pas **à travers un échec** : la case qu'il traverse doit être sûre aussi — un roi n'a pas le droit de filer au-delà d'une case où il ne pourrait pas se tenir.\n\nSix en tout. Qu'il en manque une, et le coup n'existe tout simplement pas ; l'échiquier ne vous laissera pas le jouer."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "prompt": "Mettez le roi à l'abri du côté du petit roque — jouez {{O-O}}.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Déplacez le roi lui-même, de deux cases vers la tour de h1, et la tour suit toute seule."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "title": "Ce que la tour peut se permettre",
+      "text": "Aux Noirs de jouer, et le grand roque cache une subtilité qui vaut la peine d'être connue.\n\nSeules les cases **du roi** doivent être sûres. La tour ne va se jeter dans rien — elle est transportée de l'autre côté — donc elle peut être attaquée, elle peut traverser une case attaquée, et le roque reste légal.\n\nC'est important de ce côté-ci. {{O-O-O}} : le roi en e8 s'arrête en c8, mais la tour en a8 va jusqu'en d8, en passant par b8. Une pièce adverse qui surveille b8 n'empêche pas le roque. Une pièce qui surveille c8 ou d8, si.\n\n> Le chemin du roi doit être sûr. Celui de la tour ne regarde personne."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "prompt": "Faites le grand roque avec les Noirs, du côté où il fallait dégager trois cases au lieu de deux.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "Le roi noir se déplace de deux cases vers la tour de a8, et la tour atterrit sur la case qu'il a traversée."
+    },
+    {
+      "type": "teach",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "title": "Des tours qui se voient",
+      "text": "Les deux rois sont à l'abri — les Blancs par le petit roque, les Noirs par le grand — et la première et la huitième rangée ont changé de visage.\n\nLes tours blanches sont en a1 et f1, avec quatre cases vides entre elles. Les noires, en d8 et h8, en ont trois. Avant les roques, chaque paire était séparée par son propre roi au milieu de la rangée ; désormais chaque tour peut glisser jusqu'à l'autre.\n\nC'est la seconde moitié de ce que rapporte le roque. Le roi a quitté le centre, et les tours se sont trouvées."
+    },
+    {
+      "type": "play",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "prompt": "Les deux tours blanches peuvent atteindre e1 — amenez celle qui est restée dans son coin toute la partie.",
+      "targetSan": [
+        "Rae1"
+      ],
+      "hint": "La tour en f1 n'y est arrivée qu'au coup précédent ; l'autre n'a jamais bougé."
+    }
+  ]
+}

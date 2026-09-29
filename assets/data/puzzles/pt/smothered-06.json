@@ -1,0 +1,12 @@
+{
+  "id": "smothered-06",
+  "fen": "2r3k1/pp3ppp/8/8/3n4/8/PP3PPP/KR1R4 b - - 5 24",
+  "solution": [
+    "Nc2#"
+  ],
+  "rating": 1310,
+  "title": "O Guarda Sai de Cima",
+  "setup": "As brancas acabaram de tirar a torre da coluna c aberta para b1, e o rei ficou sem casa nenhuma.",
+  "hint": "Dois saltos de cavalo dão xeque pelo lado do canto; só um deles está fora do alcance de um peão.",
+  "explanation": "## A Ideia\n\nA torre deixou c1 e parou de cobrir c2. {{Nc2#}} dá xeque a um rei cujos três vizinhos, a2, b2 e b1, são todos peças suas, e nenhuma peça branca vigia c2. O outro xeque, {{Nb3+}}, morre para axb3. O mate sufocado vive em todos os cantos, não só em h8."
+}

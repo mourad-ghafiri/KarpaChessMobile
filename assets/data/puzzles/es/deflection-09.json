@@ -1,0 +1,14 @@
+{
+  "id": "deflection-09",
+  "fen": "4r1k1/pp1q2pp/6pQ/8/8/8/1B4PP/4RRK1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxg7#"
+  ],
+  "rating": 1410,
+  "title": "Fuera de la séptima fila",
+  "setup": "La dama y el alfil ya apuntan a g7, y solo la dama de d7 la defiende por la fila.",
+  "hint": "Cuenta los atacantes y los defensores de g7, y luego encuentra el jaque que reduce los defensores en uno.",
+  "explanation": "## La idea\n\n{{Rxe8+}} es jaque, y {{Qxe8}} es la única respuesta de las Negras, que saca a la dama de la séptima fila. Sigue {{Qxg7#}}, sostenida por el alfil de b2. La torre se gasta para dejar un atacante más que defensores."
+}

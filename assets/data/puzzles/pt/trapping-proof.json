@@ -1,0 +1,11 @@
+{
+  "id": "trapping-proof",
+  "fen": "2kr4/Bpp2ppp/3b1n2/4p3/8/5N2/PPP2PPP/4R1K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "title": "Um Bispo Encalhado em a7",
+  "setup": "O bispo branco acabou de comer um peão e está agora em a7. Parece seguro: nada de teu o ataca. Encontra a jogada que garante que ele nunca mais sai.",
+  "hint": "Conta as casas do bispo. A sua única estrada de casa volta por uma diagonal, e um peão teu pode estar nessa estrada, defendido.",
+  "explanation": "## A Ideia\n\n{{b6}} fecha a única estrada de casa. Ao bispo em a7 restam duas casas: b8, que o teu rei de c8 cobre, e b6, onde o peão é defendido pelo de c7.\n\nNada ataca ainda o bispo, e não é preciso. O teu rei caminha a seguir até b7 e come-o, e o máximo que as brancas recuperam é um peão, entregando o bispo em b6."
+}

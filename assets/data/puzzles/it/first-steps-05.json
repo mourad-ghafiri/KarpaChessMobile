@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-05",
+  "fen": "1k6/8/8/7r/8/8/8/3QK3 w - - 0 1",
+  "solution": [
+    "Qxh5"
+  ],
+  "title": "La Portata della Donna",
+  "setup": "Una torre nera se ne sta lontana sulla colonna h, convinta di essere fuori pericolo. La vostra donna la pensa diversamente.",
+  "hint": "La donna muove anche come un alfiere. Seguite la diagonale da d1 verso la colonna h.",
+  "explanation": "## L'idea\n\nDa d1 la diagonale della donna corre e2, f3, g4 e atterra su h5, dove siede la torre nera senza niente che la difenda.\n\n{{Qxh5}} attraversa mezza scacchiera in una mossa e prende la torre. È arrivata lungo una diagonale, e una torre sorveglia solo linee rette.\n\nLa donna è una torre e un alfiere in uno. Quando ci andate a caccia, controllate tutti e due i tipi di linea."
+}

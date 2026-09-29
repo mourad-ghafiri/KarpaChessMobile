@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-01",
+  "fen": "8/2QK4/6p1/8/8/8/8/3B3k w - - 0 1",
+  "solution": [
+    "Qg3",
+    "g5",
+    "Bf3#"
+  ],
+  "rating": 1400,
+  "title": "Do Nothing, Slowly",
+  "setup": "Black's king is jammed in the corner on h1 and its only piece with a future is the pawn on g6.",
+  "hint": "There is no check that works. Ask what Black would have to play if you simply passed.",
+  "explanation": "## The Idea\n\n{{Qg3}} gives no check and takes every square the king had. Black is left with only {{g5}}, and {{Bf3#}} follows. Zugzwang is the move that makes the obligation to move the whole problem."
+}

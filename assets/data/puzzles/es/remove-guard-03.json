@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-03",
+  "fen": "r5k1/5ppp/2p5/3n4/1b6/6P1/5PBP/1R4K1 w - - 1 2",
+  "solution": [
+    "Bxd5"
+  ],
+  "rating": 1130,
+  "title": "El caballo era el pegamento",
+  "setup": "Tu torre apunta al alfil de b4, y el caballo de d5 es la única pieza negra que lo defiende.",
+  "hint": "Tu torre ya ataca una pieza defendida. Mira una casilla más allá: ¿quién la está defendiendo?",
+  "explanation": "## La idea\n\n{{Bxd5}} elimina al caballo que defiende b4. Tras {{cxd5}} al alfil no le queda nadie y {{Rxb4}} lo gana. Alfil por caballo es un cambio equilibrado; el alfil de b4 es la ganancia. Pregúntate siempre quién sostiene la pieza que quieres antes de ir a por ella."
+}

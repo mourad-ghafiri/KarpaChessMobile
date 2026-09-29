@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-15",
+  "fen": "6k1/4Rppp/8/8/1B6/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "Bishop Cuts the Window",
+  "setup": "Your rook on e7 is one step from the back rank, and your bishop on b4 stands behind it on the diagonal toward f8.",
+  "hint": "When the rook moves, the bishop's diagonal opens. Which square does that take away from the king?",
+  "explanation": "## The Idea\n\n{{Re8#}} checks along the back rank, and the move itself opens the bishop's diagonal: with the rook gone from e7, the bishop on b4 covers f8. h8 is on the rook's line, and f7, g7 and h7 hold Black's own pawns. Nothing can capture the rook or block.\n\nA piece that steps out of a line hands that line to the piece behind it."
+}

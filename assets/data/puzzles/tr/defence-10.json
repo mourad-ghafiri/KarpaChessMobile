@@ -1,0 +1,14 @@
+{
+  "id": "defence-10",
+  "fen": "8/7Q/2b4q/8/7k/6r1/5R1K/8 w - - 0 1",
+  "solution": [
+    "Qxh6+",
+    "Kg4",
+    "Rf4#"
+  ],
+  "rating": 1830,
+  "title": "Veziri Şah Çekerek Alın",
+  "setup": "h2'deki şahınıza siyahın h6'daki veziri, g3'teki kalesi ve c6'daki fili yükleniyor.",
+  "hint": "Bariz hamle kendinizi kurtarmak. Ağdaki şahın kimin şahı olduğunu değiştiren taş almayı deneyin.",
+  "explanation": "## Fikir\n\n{{Qxh6+}} veziri şah çekerek alır; {{Kg4}} mecburidir ve {{Rf4#}} mat eder, kale dördüncü yatayı keserken. Saldıranı kaldırmak ile bir tempo kazanmak burada aynı hamledir."
+}

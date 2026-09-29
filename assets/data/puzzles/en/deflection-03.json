@@ -1,0 +1,14 @@
+{
+  "id": "deflection-03",
+  "fen": "2br2k1/5ppp/nq6/8/2B5/7P/PP2QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Bxa6"
+  ],
+  "rating": 1180,
+  "title": "Two Duties, One Queen",
+  "setup": "The queen on b6 holds the rook on d8 and the knight on a6, and your bishop already eyes a6.",
+  "hint": "Your bishop is aimed at a defended knight. Find the defender and hand it a job it must answer.",
+  "explanation": "## The Idea\n\n{{Rxd8+}} is check and {{Qxd8}} is the only answer. The queen has left the sixth rank, so {{Bxa6}} simply takes the knight. Hunt for defenders that are holding two pieces at once. A defender does not have to be captured, only given somewhere else to be."
+}

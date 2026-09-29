@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-10",
+  "fen": "3r4/2B5/8/1R4p1/3R4/K1Qb4/6k1/8 w - - 0 1",
+  "solution": [
+    "Rb2+",
+    "Kg1",
+    "Rg4+",
+    "Kf1",
+    "Qc1#"
+  ],
+  "rating": 1660,
+  "title": "Deux tours, deux directions",
+  "setup": "Le roi noir est libre en g2, avec un fou en d3 à côté de votre dame et une tour qui attend en d8.",
+  "hint": "Aucune tour ne mate seule. Trouvez l'ordre dans lequel chacune prend une case que l'autre ne peut pas prendre.",
+  "explanation": "## L'idée\n\n{{Rb2+}} prend la deuxième rangée, {{Rg4+}} prend la colonne g, et une fois les deux perdues {{Qc1#}} mate le long de la première rangée. Les tours chassent en duo en couvrant des lignes perpendiculaires."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "trapped-11",
+  "fen": "3r2k1/pp3pp1/7p/4N3/8/2P4P/1b1P1PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "Nc4"
+  ],
+  "rating": 1370,
+  "title": "Prenez la dernière fuite",
+  "setup": "Le fou noir en b2 a trois cases vides autour de lui, a1, c1 et a3, et votre tour en surveille déjà deux.",
+  "hint": "Votre tour tient la dernière rangée et votre pion d protège c3. Quelle pièce atteint la seule case encore libre ?",
+  "explanation": "## L'idée\n\nLa tour en e1 couvre a1 et c1, et c3 est défendue par le pion d2, donc Bxc3 dxc3 n'est pas un sauvetage. Seule a3 était libre, et {{Nc4}} la prend en attaquant le fou. Chaque case est prise en compte, et la pièce doit tomber."
+}

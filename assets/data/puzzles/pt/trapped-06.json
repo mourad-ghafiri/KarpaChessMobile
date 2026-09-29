@@ -1,0 +1,12 @@
+{
+  "id": "trapped-06",
+  "fen": "2r3k1/Bpp2pp1/5n1p/p7/8/8/P1P2PPP/3R2K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "rating": 1210,
+  "title": "Fecha a Porta",
+  "setup": "O bispo branco agarrou um peão em a7, fundo no teu campo, com só b8 e b6 por onde voltar para casa.",
+  "hint": "A tua torre de c8 já vigia uma das duas portas. Fecha a outra com algo que o bispo não possa comer em segurança.",
+  "explanation": "## A Ideia\n\n{{b6}} tira a última casa ao bispo, e o peão é defendido por c7, portanto Bxb6 cxb6 ganha uma peça por um peão. A torre cobre b8, o próprio peão de a2 das brancas tapa a coluna a, e c7 impede qualquer torre de chegar a a7 pela linha. Ra8 a seguir."
+}

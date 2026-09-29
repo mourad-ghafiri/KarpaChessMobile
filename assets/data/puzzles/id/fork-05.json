@@ -1,0 +1,14 @@
+{
+  "id": "fork-05",
+  "fen": "1nb4k/p4pp1/2p4p/8/8/8/P1P2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Kh7",
+    "Rxc8"
+  ],
+  "rating": 840,
+  "title": "Ruang Bernapas yang Terlambat",
+  "setup": "Hitam baru saja memainkan h6 untuk memberi rajanya ruang bernapas, dan tak ada lagi yang menjaga baris kedelapan.",
+  "hint": "Baris belakang tak lagi menjadi mat, tetapi masih menjadi garis paling kosong di papan.",
+  "explanation": "## Ide\n\n{{Rd8+}} adalah mat satu langkah lalu; kini ia adalah garpu. Dari d8 benteng menyerang seluruh baris kedelapan ke dua arah sekaligus — raja di satu sisi, gajah di c8 di sisi lain. {{Kh7}} terpaksa, dan {{Rxc8}} memenangkan sebuah buah."
+}

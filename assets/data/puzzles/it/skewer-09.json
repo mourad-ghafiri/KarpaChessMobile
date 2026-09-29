@@ -1,0 +1,14 @@
+{
+  "id": "skewer-09",
+  "fen": "8/RR5B/1p2kr2/5b2/5P2/3P4/5N2/2K5 w - - 0 1",
+  "solution": [
+    "Rxb6+",
+    "Kd5",
+    "Rxf6"
+  ],
+  "rating": 1210,
+  "title": "Presa con Scacco",
+  "setup": "Le vostre torri possiedono la settima traversa, e un pedone nero in b6 condivide la sesta traversa con il re in e6.",
+  "hint": "C'è una presa che apre una linea e dà scacco in una mossa sola. Chiedetevi che cosa sta oltre il re su quella linea.",
+  "explanation": "## L'idea\n\n{{Rxb6+}} prende un pedone e, molto più importante, arriva sulla sesta traversa con scacco. La torre in **f6** adesso sta dietro il proprio re. {{Kd5}} è l'unica risposta legale, e {{Rxf6}} vince la torre."
+}

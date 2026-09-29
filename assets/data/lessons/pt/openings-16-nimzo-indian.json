@@ -1,0 +1,50 @@
+{
+  "id": "nimzo-indian-advanced",
+  "title": "A Defesa Nimzo-Índia",
+  "summary": "Um bispo trocado por uma fraqueza permanente",
+  "proof": "openings-16.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Um Bispo Que Tenciona Morrer",
+      "text": "Três jogadas de vida, e o bispo preto já se está a oferecer por um cavalo. Um bispo é normalmente tido como a peça ligeiramente melhor, portanto isto parece o lado errado de uma troca.\n\nNão é generosidade. O bispo em b4 tem o cavalo de c3 cravado contra o rei de e1, e esse cavalo é a única peça branca que cobre e4. As pretas querem-no fora do tabuleiro, e querem as brancas obrigadas à única recaptura que deixa marca."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "A Pergunta Que as Brancas Fazem",
+      "text": "{{a3}}. O peão sobe até ao bispo e exige uma resposta: recua, ou captura.\n\nRecuar dá às brancas um tempo de graça, portanto o bispo captura. Agora olha para como as brancas podem recapturar. O bispo de c1 não vê c3, e a dama também não, portanto tem de ser o peão b — a aterrar mesmo atrás do peão que já está em c4."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/P1N5/1P2PPPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Captura o único guarda que as brancas têm em e4 e força a recaptura que empilha dois peões numa coluna.",
+      "targetSan": [
+        "Bxc3+"
+      ],
+      "hint": "Só uma peça preta ataca c3, e a sua captura chega com xeque, portanto as brancas não têm um momento livre para se prepararem."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/P1P5/4PPPP/R1BQKBNR b KQkq - 0 5",
+      "title": "Empilhados para Sempre",
+      "text": "Ali estão: peões brancos em c3 e c4, um atrás do outro. Dobrados, e entalados. O de trás nunca poderá passar à frente do da frente, e nenhum deles será defendido por um peão — o peão b é agora um dos dois, e o peão d já passou à frente, em d4.\n\n{{c5}} congela o retrato. As pretas atingem d4 para o centro não poder rolar para a frente e enterrar as provas.\n\nA abertura leva o nome de Aron Nimzowitsch, que defendia que uma fraqueza que ninguém consegue reparar sobrevive a qualquer vantagem que tenha de ser usada já."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "title": "O Peão para Onde Tudo Aponta",
+      "text": "Cinco jogadas depois, e as brancas têm o centro por que os dois bispos esperavam: peões em c4, d4 e e4, com o bispo em d3 pronto para o momento em que essa fileira avançar.\n\nAs pretas não discutem tudo isso. Há ali um peão diferente dos outros. O peão em c4 tem o companheiro encalhado atrás, portanto nenhum peão branco alguma vez o guardará, e todas as ameaças que as pretas lhe fizerem têm de ser respondidas por uma peça. Uma peça presa a um peão é uma peça que não faz mais nada.\n\n> Ataca a fraqueza que um peão não pode defender, e obriga as peças a fazer de guarda."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "prompt": "Manda o teu cavalo para a berma, onde atinge o peão que nenhum peão branco poderá defender.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "O alvo é o peão em c4, e o peão b das brancas, que normalmente enxotaria um cavalo dessa berma, está em c3."
+    }
+  ]
+}

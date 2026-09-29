@@ -1,0 +1,14 @@
+{
+  "id": "overload-01",
+  "fen": "2Q2rk1/4Rppp/8/8/8/8/PP2R3/K4b2 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Re8#"
+  ],
+  "rating": 1250,
+  "title": "Deux tâches, une tour",
+  "setup": "Votre dame vise f8 et vos deux tours sont empilées sur la colonne e, tandis que la tour noire en f8 fait toute la défense à elle seule.",
+  "hint": "Une pièce noire couvre deux cases d'entrée à la fois. Demandez-vous ce qui se passe si elle n'a le droit d'en couvrir qu'une.",
+  "explanation": "## L'idée\n\nLa tour en f8 a deux tâches : bloquer la huitième rangée et tenir e8 hors de portée. {{Qxf8+}} achète la première avec une dame, {{Kxf8}} est forcé, et maintenant {{Re8#}} entre sur la case qu'elle ne peut plus surveiller. Un défenseur à deux tâches n'en assure aucune."
+}

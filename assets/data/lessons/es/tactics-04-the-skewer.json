@@ -1,0 +1,71 @@
+{
+  "id": "the-skewer",
+  "title": "La enfilada",
+  "summary": "La geometría de la clavada con los valores al revés, y paga la pieza de detrás",
+  "proof": "forks-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Valores invertidos",
+      "text": "La misma columna, la misma torre, las mismas dos piezas negras que en la clavada, y los valores están al revés.\n\nUna clavada ataca a la pieza de delante, pero el premio está detrás: la pieza más valiosa, a menudo el rey. Eso es lo que sujeta a la pieza de delante en la línea.\n\nUna enfilada los intercambia. El rey de d3 está delante y la dama de d6 detrás. Ataca por la columna, el rey se aparta y no puede llevarse la dama con él.\n\nGolpea primero a la pieza grande y recoge lo que tenía detrás. Eso es una **enfilada**."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Las mismas tres piezas",
+      "text": "Tres piezas pueden hacer una enfilada, y son las tres que pueden clavar: dama, torre y alfil. Una enfilada es una línea, y solo esas tres atacan a lo largo de una.\n\nLo que se puede enfilar es otra lista. Dos piezas rivales cualesquiera en una línea sirven, siempre que la más cercana valga más: un rey delante de una dama, una dama delante de una torre, una torre delante de un alfil. Eso lo decide el tablero, no tú. Tu trabajo es encontrar la línea y colocarte en ella."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Dos jaques",
+      "text": "Aquí tienes dos jaques, y solo uno es una enfilada.\n\n{{Ra3+}} llega a la tercera fila y da jaque al rey de lado. También llega a una casilla que alcanza la dama: {{Qxa3}}, y se pierde una torre para nada.\n\nNo es el jaque lo que hace funcionar una enfilada. Es la línea. Lo que importa es por qué línea llega el jaque: la que tiene a las dos piezas negras."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "prompt": "Ataca al rey negro por la columna que comparte con la dama, para que tenga que moverse.",
+      "targetSan": [
+        "Rd1+"
+      ],
+      "hint": "Las dos piezas negras están en la columna d, y todas las casillas entre ellas y tu primera fila están vacías."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "Seis casillas, todas iguales",
+      "text": "El jaque dejó a las Negras seis jugadas legales, y todas eran de rey: nada podía taparlo en una columna vacía y nada podía alcanzar la torre. Las Negras eligieron e3. Las otras cinco regalan la dama igual de fácil.\n\nFíjate en lo poco que hizo la torre. Hasta ahora no había atacado a la dama ni una vez: atacó al rey, y el rey se quitó de en medio solo. La línea ya estaba ahí. Lo único que tenía que hacer la torre era colocarse en ella."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "El jaque no es obligatorio",
+      "text": "Una enfilada no necesita jaque. Apunta un alfil a una dama con una torre detrás en la misma diagonal, desde una casilla que nada puede capturar, y la torre cae igualmente.\n\nLo que quita el jaque son las opciones. Sin él, tu rival puede tapar la línea entre las dos, capturar la pieza que hace la enfilada o abandonar la de delante y lanzar una amenaza mayor en otra parte. Contra un jaque, nada de eso es legal a menos que también responda al jaque."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "prompt": "Captura la dama delante de la cual estaba el rey.",
+      "targetSan": [
+        "Rxd6"
+      ],
+      "hint": "Cuenta los defensores de d6, y luego las casillas vacías entre ella y tu torre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "title": "Una línea es una línea",
+      "text": "Nuevo tablero, y la misma forma girada cuarenta y cinco grados.\n\nEl rey negro de d4 y la torre de g7 están en la gran diagonal que va de a1 a h8, con solo e5 y f6 entre ellos. La pieza grande es la más cercana. Ese es todo el patrón: dos piezas rivales en una línea, la valiosa delante.\n\nTu alfil de c1 se mueve por diagonales. Encuentra la que importa.\n\n> Una línea, dos piezas, y la táctica que tienes entre manos depende solo de cuál de ellas está delante."
+    },
+    {
+      "type": "play",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "prompt": "Lleva tu alfil a la diagonal que comparten las dos piezas negras, con jaque.",
+      "targetSan": [
+        "Bb2+"
+      ],
+      "hint": "Tu alfil tiene siete casillas disponibles; exactamente una cae en la gran diagonal."
+    }
+  ]
+}

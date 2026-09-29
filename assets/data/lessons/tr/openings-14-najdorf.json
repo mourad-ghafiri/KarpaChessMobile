@@ -1,0 +1,62 @@
+{
+  "id": "najdorf-sicilian",
+  "title": "Najdorf",
+  "summary": "Tek bir kale piyonu ve başlattığı yarış",
+  "proof": "openings-14.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Arkasında Kütüphane Olan Piyon Hamlesi",
+      "text": "Siyahın buradaki beşinci hamlesi, hiçbir şeye saldırmayan, hiçbir şeyi korumayan ve hiçbir şeyi çıkarmayan bir kale piyonuna gidiyor. Aynı zamanda satrancın en çok analiz edilmiş hamlelerinden biri; arkasında bir raf dolusu teori var ve rafın kısalacağına dair hiçbir işaret yok.\n\nMiguel Najdorf onu bir ömür boyu oynadı ve varyant onun adını taşıyor. Sonra Fischer ile Kasparov, onu dünyada 1.e4'e verilen en keskin cevap hâline getirdi.\n\nYani soru şu: kenardaki bir piyon ne işe yarayabilir?"
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Siyahın Asıl İstediği Sürüş",
+      "text": "Siyahın istediği şey, e piyonunu iki kare ileri sürmek; atı ortadan atmak ve ortadan gerçek bir pay almak.\n\nBunu hemen deneyin ve cevabı görün: {{e5}} {{Bb5+}}. Önce şah gelir, geri kalan her şey bekler. Siyahın buna altı kurallı cevabı var — d7 ya da c6'ya bir at, d7'ye bırakılan fil ya da vezir veya oynayıp bir daha rok yapamayan bir şah.\n\nSürüş doğru. Hamle sırası değil."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "title": "Üç Taş, Tek Kare",
+      "text": "Buradan b5'e neyin ulaştığını sayın. d4'teki at oraya sıçrar. c3'teki at oraya sıçrar. f1'deki filin açık bir yolu var — e2, d3, c4 — ve b5'e şah çekerek varır.\n\nÜç taş, tek kare; ve merkez sürüşünün bir hamle beklemesinin bütün sebebi o kare.\n\nSakin tek bir piyon adımı b5'i kapsar ve üçüne birden cevap verir. Bununla hiçbir şey gelişmez ve hiçbir tehdit kurulmaz. Kimse geçmeden önce bir kapı kapanır."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "prompt": "Merkezin yakınına gitmeden önce b5'i beyazın iki atından da, filinden de alın.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "b5'i yalnızca siyahın tek bir piyonu koruyabilir ve oraya kenar dikeyinden ayrılmadan, tek adımda varır."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+      "title": "Piyonun Satın Aldığı",
+      "text": "Şimdi aynı sürüş, yanında hiçbir şey olmadan geliyor: {{Be3}} {{e5}} {{Nb3}} {{Be6}}.\n\nAt ileri b5'e değil, geri b3'e gider ve siyahın e5'te bir merkez piyonu ile onun arkasında çıkmış bir fili olur.\n\nHesap gerçek. e piyonunu sürmek d5'te hiçbir siyah piyonun bir daha koruyamayacağı bir delik bırakır ve beyaz sonraki birkaç hamleyi oraya bir taş park etmeye çalışarak geçirir. Siyah yine de öder. Ortadan alınan bir paya karşılık bir kare, yapmaya değer bir takastır."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Zıt Kanatlar",
+      "text": "Onuncu hamlede iki şah da kaçmış; beyazınki c1'e, siyahınki g8'e. Bu tek olgu, bir piyonun ne işe yaradığını değiştirir.\n\nPiyonlar yalnızca kendi şahınızın durduğu yerde barınaktır. Uzak kanatta ise askerdir ve kimsenin onlara evde ihtiyacı yoktur. Beyaz g ve h piyonlarını g8'e gönderir, siyah a ve b piyonlarını c1'e gönderir ve iki taraf da savunmak için durmaz.\n\nBuradaki savunma hamlesi, rakibe verilmiş bir hamledir."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "title": "Yarışı Saymak",
+      "text": "Artık taş yanlış birim. Bunun yerine rakip şaha kaç hamle olduğunu sayın: ona bir hat açılana kadar kaç sürüş gerekiyor ve önce kim varıyor.\n\nBeyazın g piyonunun, f6'daki at kovulup g dikeyi çatlamaya başlamadan önce iki adımı var. Siyahın b piyonunun, beyazın şahının önünde duran c3'teki atın cevap vermek zorunda kalacağı b4'e varmak için iki adımı var.\n\nSayı aynı ve sıra siyahta.\n\n> Zıt kanatlarda piyon saymazsınız, hamle sayarsınız."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b - - 4 10",
+      "prompt": "Vezir kanadı yarışını, sonraki iki adımı beyazın şahını koruyan atı kovan piyonla başlatın.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Piyonlarınızdan tam olarak biri iki hamlede b4'te durabilir ve tahtada onu durduran hiçbir şey yok."
+    }
+  ]
+}

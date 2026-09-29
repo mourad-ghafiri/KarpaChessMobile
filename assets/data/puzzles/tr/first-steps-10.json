@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-10",
+  "fen": "4k3/4p3/8/8/1n2R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Rxb4"
+  ],
+  "title": "Kale Seçiyor",
+  "setup": "**e4**'teki kaleniz iki hattı boyunca da saldırıyor: yatayda bir at, dikeyde bir piyon var.",
+  "hint": "e7'deki piyon cazip görünüyor, ama tam arkasında kimin durduğuna bakın.",
+  "explanation": "## Fikir\n\nKale siyahın iki taşına ulaşıyor; biri kendi dikeyinde, biri yatayında.\n\n{{Rxe7+}} {{Kxe7}} hamlesinin üstüne yürür: e8'deki şah e7'yi koruyor ve siz beş puanlık kaleyi bir puanlık piyona değişmiş olursunuz. {{Rxb4}} ise hiçbir şeyin korumadığı bir atı alır ve üç puanın hepsini elde tutar.\n\nŞah gerçek bir koruyucudur ve yanında duran her şey korunuyordur. Kalenizin bütün yatayını ve dikeyini kontrol edin, sonra kimsenin korumadığı hedefi alın."
+}

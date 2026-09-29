@@ -1,0 +1,11 @@
+{
+  "id": "discovered-03",
+  "fen": "4k3/r7/2N5/1B6/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxa7+"
+  ],
+  "title": "At Çaprazı Temizliyor",
+  "setup": "b5'teki filiniz şaha nişan alıyor — ama kendi atınız yolda duruyor. Bu bir sorun değil; bir hamledir.",
+  "hint": "Şahın ortaya çıkması için atın oynaması gerekiyor. Yolda bir şey kapan sıçrayışı bulun.",
+  "explanation": "## Fikir\n\nc6'daki at, filin e8'e giden çaprazını kapatıyor, yani her at hamlesi şah çeker. Bu serbestlik işin özüdür: at en çok kazandığı yere gidebilir.\n\n{{Nxa7+}} kaleyi alırken şahı b5'teki fil çeker. Siyahın şaha cevap vermesi gerekir, yani hiçbir şey atı geri alamaz ve beyaz çıplak bir şaha karşı fil ile atla kalır.\n\nAçılan şahta bedava hamleyi menzilinizdeki en büyük taş almaya harcayın."
+}

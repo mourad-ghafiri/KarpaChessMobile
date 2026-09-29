@@ -1,0 +1,13 @@
+{
+  "id": "discovered-04",
+  "fen": "1r1k4/8/8/8/3N4/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Ke8",
+    "Nxb8"
+  ],
+  "title": "Double Check, Then the Rook",
+  "setup": "Your rook and knight share the d-file with the black king — the knight in front, the check waiting behind it.",
+  "hint": "One knight jump can check the king by itself and uncover the rook's check as well. Pick the jump that also hits something.",
+  "explanation": "## The Idea\n\n{{Nc6+}} is a double check: the knight attacks d8 itself, and moving it uncovers the rook on d1 behind it. Against two checks at once neither a capture nor a block helps, so the king has to move. Wherever it goes, {{Nxb8}} collects the rook the knight was eyeing all along, and even if the king then takes the knight, your rook is left against a bare king. Double check is the most forcing move in chess: the king must move, and everything else waits."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-03",
+  "fen": "4k3/pp2qppp/8/8/8/8/PPB2KPP/3R4 w - - 0 1",
+  "solution": [
+    "Re1"
+  ],
+  "title": "Diana en la columna e",
+  "setup": "La dama negra está en e7, justo delante de su propio rey, y la columna e por debajo está abierta.",
+  "hint": "Cuando la dama hace de escudo de su rey, se convierte en un blanco fijo.",
+  "explanation": "## La idea\n\n{{Re1}} clava a la dama contra el rey de e8. La dama no puede salir de la columna e sin exponer a su rey, y tu rey de f2 protege e1, así que contraatacar con {{Qxe1+}} entrega la dama por una torre tras {{Kxe1}}. Cualquier otra respuesta también pierde la dama.\n\nUna pieza clavada no es realmente una pieza: es un blanco."
+}

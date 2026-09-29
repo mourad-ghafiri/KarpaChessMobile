@@ -1,0 +1,12 @@
+{
+  "id": "promotion-03",
+  "fen": "rk6/4Pppp/8/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "e8=Q+"
+  ],
+  "rating": 1080,
+  "title": "Jajarkan di Barisnya",
+  "setup": "Pion e Anda mencapai baris kedelapan pada langkah berikutnya, dan raja serta benteng hitam sudah berdiri di sana.",
+  "hint": "Raja dan benteng berbagi garis dengan petak yang dituju pion Anda. Mana dari keduanya yang berada di depan?",
+  "explanation": "## Ide\n\n{{e8=Q+}} berpromosi dengan sekak di sepanjang baris kedelapan, jadi Hitam tak punya waktu untuk menghentikan pion. Benteng di a8 berdiri di belakang raja di garis yang sama: melangkah ke c7 dan menteri baru mengambilnya. {{Ka7}} atau {{Kb7}} tetap menjaga benteng, tetapi Anda tetap unggul menteri melawan benteng.\n\nKetika raja lawan berdiri di baris promosi Anda, promosikan dengan sekak."
+}

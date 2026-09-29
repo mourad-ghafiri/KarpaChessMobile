@@ -1,0 +1,14 @@
+{
+  "id": "discovery-03",
+  "fen": "2r5/ppp4k/5b1p/8/4P3/7P/5P1K/1B4R1 w - - 0 1",
+  "solution": [
+    "e5+",
+    "Kh8",
+    "exf6"
+  ],
+  "rating": 1040,
+  "title": "Le pion s'avance",
+  "setup": "Votre fou en b1 vise droit h7, et seul votre propre pion en e4 tient la diagonale fermée.",
+  "hint": "Le fou noir est une pièce de cases noires : il ne peut jamais se placer sur la diagonale b1-h7 pour bloquer quoi que ce soit.",
+  "explanation": "## L'idée\n\n{{e5+}} ouvre la diagonale b1-h7 et attaque le fou du même coup. L'échec doit être paré d'abord, et aucune pièce noire ne peut s'interposer sur une case blanche, donc après {{Kh8}} le pion prend en f6 gratuitement."
+}

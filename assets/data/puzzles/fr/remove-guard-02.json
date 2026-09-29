@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-02",
+  "fen": "6k1/5ppp/2n5/4b3/1P6/4PN2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "b5"
+  ],
+  "rating": 1090,
+  "title": "Chassez, ne prenez pas",
+  "setup": "Le fou en e5 est en prise sur votre cavalier, et le cavalier en c6 est la seule pièce qui tient tout ensemble.",
+  "hint": "Un défenseur forcé de bouger est un défenseur éliminé. Quel pion peut monter l'attaquer ?",
+  "explanation": "## L'idée\n\n{{b5}} frappe le cavalier, et chaque case qu'il peut atteindre abandonne e5 — puis {{Nxe5}}. Si les Noirs sauvent plutôt le fou, {{bxc6}} prend le cavalier. Chasser un gardien ne vous coûte absolument rien."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "strategy-02",
+  "fen": "rn1q1rk1/4bppp/p2pbn2/4p3/Pp2P3/1NN1B3/1PPQBPPP/R4RK1 w - - 0 12",
+  "solution": [
+    "Nd5"
+  ],
+  "title": "Expulsado al agujero",
+  "setup": "El peón negro de b4 acaba de atacar a tu caballo de c3. El caballo tiene que irse a algún sitio, y tu peón de e4 está pendiente.",
+  "hint": "Toda retirada le deja e4 al caballo de f6. ¿Hay alguna casilla hacia delante que ningún peón negro pueda alcanzar jamás?",
+  "explanation": "## La idea\n\nAl caballo lo han echado, y responde instalándose. Las Negras no tienen peón de c y el peón de e ya ha llegado a e5, así que ningún peón negro podrá volver a atacar d5.\n\n{{Nd5}} ataca al alfil de e7 y al caballo de f6, y mantiene e4 a salvo. Toda retirada le entrega ese peón al caballo de f6.\n\nLas Negras solo pueden eliminar al caballo dando una pieza por él, y entonces un peón blanco ocupa la casilla en su lugar."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-15",
+  "fen": "6k1/4Rppp/8/8/1B6/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "Le fou ferme la fenêtre",
+  "setup": "Votre tour en e7 est à un pas de la dernière rangée, et votre fou en b4 se tient derrière elle sur la diagonale vers f8.",
+  "hint": "Quand la tour bouge, la diagonale du fou s'ouvre. Quelle case cela retire-t-il au roi ?",
+  "explanation": "## L'idée\n\n{{Re8#}} donne échec le long de la dernière rangée, et le coup lui-même ouvre la diagonale du fou : la tour ayant quitté e7, le fou en b4 couvre f8. h8 est sur la ligne de la tour, et f7, g7 et h7 sont occupées par les propres pions noirs. Rien ne peut prendre la tour ni s'interposer.\n\nUne pièce qui sort d'une ligne donne cette ligne à la pièce derrière elle."
+}

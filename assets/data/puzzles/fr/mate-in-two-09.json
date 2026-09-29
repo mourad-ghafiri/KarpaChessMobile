@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-09",
+  "fen": "4r1k1/4Q3/3R4/3nP3/3N4/8/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Rg6+",
+    "Kh8",
+    "Qh4#"
+  ],
+  "rating": 1280,
+  "title": "Levée de tour, bascule de dame",
+  "setup": "Votre dame tient la septième rangée, et votre tour en d6 peut basculer sur la colonne g en un coup.",
+  "hint": "Votre dame scelle déjà toute une rangée. Faites monter une seconde pièce, puis regardez la colonne h vide.",
+  "explanation": "## L'idée\n\nLa dame en **e7** couvre toute la septième rangée, donc le roi est confiné à la huitième. {{Rg6+}} force {{Kh8}}, et la tour garde maintenant aussi g7 et g8. Cela libère la dame pour {{Qh4#}} le long de la colonne h vide."
+}

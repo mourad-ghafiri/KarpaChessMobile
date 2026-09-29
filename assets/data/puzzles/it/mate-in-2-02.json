@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-02",
+  "fen": "8/4k3/R7/8/8/8/8/1R5K w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Ke8",
+    "Ra8#"
+  ],
+  "title": "La Scaletta di Torri",
+  "setup": "Due torri contro il re nudo nero in e7, e la torre in a6 recinta già tutta la sesta traversa.",
+  "hint": "Una torre tiene una traversa mentre l'altra dà scacco su quella successiva.",
+  "explanation": "## L'idea\n\nQuesto è il matto a scaletta. La torre in a6 tiene la sesta traversa, quindi {{Rb7+}} dà scacco lungo la settima e lascia al re solo la traversa di fondo: {{Kd8}}, {{Ke8}} o {{Kf8}}.\n\nOvunque vada, {{Ra8#}} sale sull'ultima traversa. La torre in b7 si tiene tutta la settima, e al re non resta niente. Taglia, scacco, taglia, scacco: due torri non hanno bisogno di aiuto da nessuno."
+}

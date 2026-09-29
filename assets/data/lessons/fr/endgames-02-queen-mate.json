@@ -1,0 +1,51 @@
+{
+  "id": "queen-mate",
+  "title": "Roi et dame contre roi",
+  "summary": "Le mat au bord, et le pat qui le vole",
+  "proof": "endgames-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Où meurt un roi seul",
+      "text": "Une dame ne mate jamais un roi seul au milieu de l'échiquier. Là-bas, le roi a toujours un endroit où fuir. Il ne manque de cases qu'au bord, et le roi noir s'y trouve déjà.\n\nComptez ce qui reste. Le roi blanc en f5 lui retire g5 et g6. La dame en d4 tient la diagonale qui passe par e5 et f6 jusqu'en g7, donc cette case a disparu aussi.\n\nLes Noirs ont h5 et h7. Deux cases de la colonne h, toutes deux contre le mur, et rien d'autre sur tout l'échiquier."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Trois tâches, dans l'ordre",
+      "text": "Cette image est la destination depuis n'importe quelle position, et elle se construit en trois temps.\n\nLa dame retire des lignes jusqu'à ce que le roi seul marche sur une étroite bande le long d'un bord. Votre propre roi s'approche alors derrière elle, car la dame ne peut pas conclure seule — une dame qui se pose à côté d'un roi sans rien pour la protéger est simplement prise. Alors seulement la dame conclut, sur une ligne que le roi ne peut pas quitter.\n\nDeux des trois sont déjà faites ici. {{Kh5}}, et les Noirs ont choisi contre quel bout du mur se tenir."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/5K1k/3Q4/8/8/8 w - - 9 6",
+      "prompt": "Votre roi couvre déjà les cases de fuite : concluez avec un coup de dame auquel les Noirs ne peuvent pas répondre.",
+      "targetSan": [
+        "Qh8#"
+      ],
+      "hint": "Le roi noir est plaqué contre le bord de l'échiquier — trouvez la ligne où il se tient et prenez-la tout entière."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "La nulle cachée dans la cage",
+      "text": "Nouvel échiquier, à un coup de la fin. Le roi noir en h8 n'a plus qu'une case, g8 : votre roi en g6 couvre déjà g7 et h7, et les Noirs ne sont pas en échec.\n\nResserrer la cage d'un cran jette donc la victoire. {{Qd5}} ressemble à une technique propre — la dame prend g8 par la diagonale, toutes les cases autour du roi sont couvertes, rien n'est en prise.\n\nC'est pat. Les Noirs n'ont aucun coup légal et aucun échec à parer, et une partie avec une dame de plus sur l'échiquier est nulle."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "Comptez avant de resserrer",
+      "text": "Rien d'exotique ne tourne mal dans cette finale. Ce qui tourne mal, c'est le jeu soigné — une case de plus prise, tranquillement, à un roi qui n'en avait qu'une.\n\nAvant chaque coup de dame ici, comptez donc les cases où le roi seul peut se tenir. Si la réponse est une, votre coup doit arriver avec échec, ou laisser à ce roi un endroit où aller.\n\n> Une cage sans porte, c'est la nulle. Rétrécissez-la autant que vous voulez, jamais jusqu'à rien sans échec."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "prompt": "Mat en un — deux coups de dame différents y parviennent, et tout autre resserrement est nul.",
+      "targetSan": [
+        "Qa8#",
+        "Qd8#"
+      ],
+      "hint": "Quels coups de dame retirent g8 et donnent échec dans le même coup ?"
+    }
+  ]
+}

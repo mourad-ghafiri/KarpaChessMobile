@@ -1,0 +1,11 @@
+{
+  "id": "discovered-02",
+  "fen": "rnbqkb1r/pppp2pp/8/8/4N3/8/PPP2PPP/2B1R1K1 w - - 0 1",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "Jaque doble en la columna e",
+  "setup": "Tu caballo de e4 es lo único entre tu torre de e1 y el rey negro. Cualquier salto del caballo da jaque. Encuentra el que termina la partida.",
+  "hint": "Dos casillas del caballo le permiten dar jaque también. Solo una cubre además la casilla a la que huiría el rey.",
+  "explanation": "## La idea\n\nCualquier salto destapa la torre de e1, pero {{Nd6#}} también da jaque con el caballo. Contra un jaque doble el rey tiene que moverse, y no tiene adónde ir: su propia dama y su propio alfil ocupan d8 y f8, su propio peón ocupa d7, la torre ve e7 y el caballo cubre f7.\n\nEl otro jaque doble, desde f6, deja libre f7, y el rey se escapa."
+}

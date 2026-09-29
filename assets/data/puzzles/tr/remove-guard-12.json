@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-12",
+  "fen": "8/pP3pkp/3b2p1/8/8/8/5PKP/3R4 w - - 1 2",
+  "solution": [
+    "Rxd6"
+  ],
+  "rating": 1450,
+  "title": "Veziri Satın Alın",
+  "setup": "b7'deki piyonunuz vezir olmaya bir kare uzaklıkta ve d6'daki fil b8'i gözleyen tek taş.",
+  "hint": "Bu tahtada b dikeyi dışında hiçbir şeyin önemi yok. O piyonu siyahın hangi taşı durduruyor?",
+  "explanation": "## Fikir\n\n{{Rxd6}} bir fil karşılığında kaledir ve kelepirdir: o fil b8'i kapsayan tek taştı. Hiçbir şey geri alamaz, yani {{b8=Q}} sıradaki hamlede gelir. Vezir olacak bir piyon için canınızın istediği kadar taş verin."
+}

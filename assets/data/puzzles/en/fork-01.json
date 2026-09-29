@@ -1,0 +1,14 @@
+{
+  "id": "fork-01",
+  "fen": "3r3k/pp4pp/8/4N3/8/8/PP3PPP/6K1 w - - 1 2",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 700,
+  "title": "Check and Collect",
+  "setup": "The black king is tucked on h8 and the rook sits on d8, both one knight leap from the same square.",
+  "hint": "Find the square from which your knight touches the king and the rook on the same move.",
+  "explanation": "## The Idea\n\n{{Nf7+}} attacks h8 and d8 at once. The check is not optional: nothing can capture on f7, and a knight check can never be blocked, so {{Kg8}} is Black's only legal move. Then {{Nxd8}} collects the rook."
+}

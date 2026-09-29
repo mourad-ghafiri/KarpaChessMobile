@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-10",
+  "fen": "7k/5K1p/8/8/8/8/8/6R1 w - - 0 1",
+  "solution": [
+    "Rg8#"
+  ],
+  "title": "Chiudete il Coperchio",
+  "setup": "Il re nero è incastrato in h8 dietro il proprio pedone in h7, e il vostro re in f7 sta proprio accanto alle sue case di fuga.",
+  "hint": "Salite con la torre lungo la colonna g — il vostro re e il pedone del Nero chiudono il coperchio.",
+  "explanation": "## L'idea\n\n{{Rg8#}} dà scacco al re dalla casa accanto. Il vostro re in f7 difende g8, quindi il re non può prendere la torre. g7 è coperta dal vostro re e dalla torre, e h7 ha il pedone del Nero.\n\nQuando il vostro re difende una casa accanto al re avversario, la torre può dare scacco proprio da lì."
+}

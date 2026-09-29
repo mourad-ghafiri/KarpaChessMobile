@@ -1,0 +1,13 @@
+{
+  "id": "opposite-castles-proof",
+  "fen": "4r1k1/pp2pp1p/2bp1npQ/q2N4/4PN2/5P2/PPP5/2K4R w - - 3 24",
+  "solution": [
+    "e5",
+    "Bxd5",
+    "exf6"
+  ],
+  "title": "The Crowbar Pawn",
+  "setup": "Kings on opposite wings. Your queen and rook share the h-file, Black's queen on a5 eyes a2, and only the knight on f6 helps the king guard h7.",
+  "hint": "Take the knight on f6 away from h7 with the cheapest piece you own, and make it cost Black whatever the reply.",
+  "explanation": "## The Idea\n\nOpposite kings make it a race, and Black's queen is already aimed at your king. You strike first, with a pawn. {{e5}} hits the knight on f6, the one piece besides the king that guards h7.\n\nBlack's best is to grab a knight back with {{Bxd5}}. It changes nothing: {{exf6}} removes the guard anyway. Once Black recaptures, the queen and rook on the h-file come through h7, and {{Qxh7+}} and {{Qh8+}} drive the king into the middle, where it loses far more than a piece."
+}

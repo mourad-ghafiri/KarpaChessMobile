@@ -1,0 +1,14 @@
+{
+  "id": "skewer-04",
+  "fen": "8/5p2/3kp3/6QR/P7/3r1P2/Pq3P2/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kc6",
+    "Qxd3"
+  ],
+  "rating": 1020,
+  "title": "d Dikeyinden Aşağı",
+  "setup": "Siyahın d6'daki şahı ile d3'teki kalesi, aralarında boş karelerle d dikeyinde dizilmiş.",
+  "hint": "Vezirinizi, siyahın kalesinin kendi şahının arkasında durduğu dikeye koyan şahı bulun.",
+  "explanation": "## Fikir\n\n{{Qd8+}} veziri d dikeyinde şahın önüne dizer; **d3**'teki kale de uzak uçta kapana kısılır. Şahın dikeyden çıkması gerekir ve {{Kc6}} onun tek kurallı hamlesidir — böylece {{Qxd3}} kaleyi kazanır."
+}

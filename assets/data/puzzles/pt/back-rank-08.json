@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-08",
+  "fen": "6k1/5ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Caminhada Longa, Mate Curto",
+  "setup": "O rei preto está atrás de três peões intocados, e a tua torre em b1 tem a coluna b toda para si.",
+  "hint": "Os peões das pretas selam o rei. Encontra a casa da linha de fundo a que a tua torre chega com xeque.",
+  "explanation": "## A Ideia\n\n{{Rb8#}} é mate imediato. A torre chega à linha de fundo com xeque, e o rei em g8 não tem para onde ir: f7, g7 e h7 têm os seus próprios peões, e f8 e h8 estão na linha da torre. Nada pode capturar a torre nem tapar o xeque.\n\nUm passo de peão como h6, jogado antes, teria dado uma casa ao rei e travado o esquema inteiro."
+}

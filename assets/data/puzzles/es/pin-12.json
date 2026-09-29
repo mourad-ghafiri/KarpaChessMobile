@@ -1,0 +1,12 @@
+{
+  "id": "pin-12",
+  "fen": "5k2/7p/5p2/4n2B/2q3r1/2P2N1P/5Qb1/6K1 w - - 0 1",
+  "solution": [
+    "Nxe5"
+  ],
+  "rating": 1200,
+  "title": "La clavada llega tarde",
+  "setup": "El caballo negro de e5 está defendido por el peón de f6, y tu propio caballo de f3 tapa a tu dama.",
+  "hint": "El peón que defiende e5 puede comer ahora mismo. ¿Qué cambia en la columna f en el momento en que tu caballo se va?",
+  "explanation": "## La idea\n\n{{Nxe5}} gana una pieza. El peón de f6 defiende e5, hasta que tu caballo deja f3 y tu dama de **f2** ve toda la columna hasta el rey de **f8**. El peón queda clavado justo cuando se le necesita, así que no puede recapturar."
+}

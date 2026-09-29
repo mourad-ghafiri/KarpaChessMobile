@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-06",
+  "fen": "2r3k1/p4p1p/6p1/5n2/3b4/7B/P4PP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Bxf5"
+  ],
+  "rating": 1250,
+  "title": "Seguite la Difesa",
+  "setup": "La vostra torre fronteggia l'alfiere in d4, che resta dov'è solo perché il cavallo in f5 lo copre.",
+  "hint": "Non prendete ancora l'alfiere. Chiedetevi che cosa lo difenda, e se potete prima cambiare quel pezzo.",
+  "explanation": "## L'idea\n\n{{Bxf5}} toglie il cavallo che difende d4. {{gxf5}} ripristina il materiale ma non la difesa, e {{Rxd4}} vince un pezzo. Attaccate il difensore, non il difeso. Una ripresa di pedone ripara il materiale, mai la difesa."
+}

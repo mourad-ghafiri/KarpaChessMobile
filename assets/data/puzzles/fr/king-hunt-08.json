@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-08",
+  "fen": "1b1K1R2/2R4p/2Q5/1B3r1k/1p6/8/8/8 w - - 0 1",
+  "solution": [
+    "Rxf5+",
+    "Kg4",
+    "Qf3+",
+    "Kh4",
+    "Rh5#"
+  ],
+  "rating": 1590,
+  "title": "Échanger vers le filet",
+  "setup": "Le roi noir s'est enfui en h5 avec une tour isolée en f5 à côté de lui, et votre dame et vos deux tours sont toutes proches.",
+  "hint": "La tour qui défend semble être la chose à laisser tranquille. Regardez ce que deviennent les cases du roi sans elle.",
+  "explanation": "## L'idée\n\n{{Rxf5+}} gagne la tour avec échec, {{Qf3+}} chasse le roi en h4, et {{Rh5#}} est mat avec la dame en f3 qui soutient la tour. Prendre le dernier défenseur est un coup de chasse, pas un coup de gourmandise."
+}

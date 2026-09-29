@@ -1,0 +1,11 @@
+{
+  "id": "en-passant-proof",
+  "fen": "r6k/pp5p/8/3pP3/8/2B5/PP3P1P/6RK w - d6 0 1",
+  "solution": [
+    "exd6#"
+  ],
+  "title": "Araya Girebilecek Olan Piyon",
+  "setup": "Siyah az önce d piyonunu iki kare sürdü. c3'teki filiniz h8'deki şaha nişan alıyor ve g1'deki kaleniz yanındaki dikeyi koruyor.",
+  "hint": "Filin çaprazındaki tek şey e piyonunuz. Siyahın hangi piyonu o hatta geri adım atabilir?",
+  "explanation": "## Fikir\n\ne5'teki piyonunuz, c3'teki fille h8'deki şah arasında duran tek şeydir. Onu {{e6+}} ile sürerseniz siyahın piyonu d4'e adımlar ve yeniden hatta girer.\n\n{{exd6#}} aynı çaprazı açar ve aynı hamlede araya gireni tahtadan kaldırır. Kale g8'i, fil g7'yi kapsar ve h7'de siyahın kendi piyonu durur.\n\nFırsat tek bir hamle sürdü. Bir hamle sonra o piyon temelli menzil dışında olurdu."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "overloading",
+  "title": "La surcharge",
+  "summary": "Un gardien, deux tâches, et c'est vous qui choisissez celle qu'il abandonne",
+  "proof": "overload-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "À une case d'une dame",
+      "text": "Le pion blanc en a7 est à une case de devenir une dame, et une seule pièce noire l'en empêche. La tour en c8 couvre a8 le long d'une rangée vide, donc {{a8=Q}} reçoit pour réponse {{Rxa8}} et la nouvelle dame vit exactement un coup.\n\nC'est la première tâche. La tour s'en acquitte sans bouger. Elle se tient en c8, et le pion reste un pion."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Et elle tient le cavalier",
+      "text": "Regardez maintenant la colonne c. Le cavalier noir en c5 est attaqué par le fou blanc en e3, et la seule chose qui le défend est cette même tour en c8, qui descend par-dessus deux cases vides.\n\nRien d'autre dans le camp noir n'approche de c5. Le roi en g8 est à quatre colonnes, et aucun pion n'est assez près pour compter.\n\nUne tour, deux tâches, et en ce moment elle accomplit les deux sans lever le petit doigt."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Laissez-la exactement où elle est",
+      "text": "Vous connaissez déjà deux façons de briser un gardien, et la tour en c8 survit aux deux. Rien chez les Blancs ne l'attaque, donc on ne peut pas la retirer de l'échiquier. Rien ne l'oblige à accepter quoi que ce soit, donc on ne peut pas l'arracher à sa case.\n\nTrès bien. Laissez-la là. Une pièce qui couvre deux choses à la fois est **surchargée**, et tant que personne ne lui demande rien, deux tâches sont aussi faciles qu'une.\n\nDemandez donc. Défendre, ce n'est pas rester immobile — c'est un coup, et il n'y a qu'une tour."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "prompt": "Prenez l'une des deux choses que couvre la tour et laissez-la décider laquelle elle garde.",
+      "targetSan": [
+        "Bxc5"
+      ],
+      "hint": "Une seule des deux tâches de la tour est une pièce sur laquelle vous pouvez mettre la main, et les Blancs la visent déjà."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "La huitième rangée n'est à personne",
+      "text": "Les Noirs ont pris le fou, et l'échange était égal — un fou contre un cavalier, trois points de chaque côté. La tour se tient en c5 parce que c'est là qu'elle devait aller pour reprendre.\n\nEt c'est tout le problème. Depuis c5, la tour voit la colonne c et la cinquième rangée, et a8 n'est ni sur l'une ni sur l'autre.\n\nRefuser ne valait pas mieux. Le cavalier aurait simplement disparu, et le pion en a7 serait toujours là."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "Trouver la suivante",
+      "text": "Il y a deux vérifications, et la plupart des joueurs ne font que la première.\n\nNommez la pièce adverse qui travaille le plus et énoncez ses tâches à voix haute : cette case, cette pièce. Puis nommez tout ce qui les couvre d'autre. Un second défenseur n'importe où et il n'y a pas de surcharge — seulement une pièce que vous ne pouvez pas prendre.\n\nUn gardien, deux tâches, deux endroits différents où se tenir. Prenez celle des deux que vous pouvez atteindre, et le gardien choisit de perdre l'autre.\n\n> Ne demandez pas ce que protège un défenseur. Demandez combien de choses, et ce qu'il doit abandonner pour sauver l'une d'elles."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "prompt": "Plus rien ne couvre la huitième rangée : encaissez ce que la tour était là pour empêcher.",
+      "targetSan": [
+        "a8=Q+",
+        "a8=R+"
+      ],
+      "hint": "La tour tient c5 et la cinquième rangée, et a8 n'est ni sur l'une ni sur l'autre."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pin-03",
+  "fen": "8/1k2pp2/1b6/3r4/8/P2BP3/3R4/4K3 w - - 0 1",
+  "solution": [
+    "Be4"
+  ],
+  "rating": 880,
+  "title": "Two Attackers, No Escape",
+  "setup": "Your bishop on d3 stands in front of your own rook, and the black rook on d5 is in both their way.",
+  "hint": "Your bishop is blocking your own rook. Where can it go so that the black rook still cannot move a square?",
+  "explanation": "## The Idea\n\n{{Be4}} does two jobs at once. It pins the rook on **d5** to the king on **b7**, and by leaving d3 it lets your rook on **d2** attack d5 as well. Two attackers, no defenders, and a rook that is not allowed to move."
+}

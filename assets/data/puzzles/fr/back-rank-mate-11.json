@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-11",
+  "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w - - 0 16",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1060,
+  "title": "Donnez la dame",
+  "setup": "Le roi noir est toujours en e8, enfermé par son propre fou et ses propres pions, avec un cavalier en d7 qui barre à votre tour la route de d8.",
+  "hint": "Une seule pièce noire empêche votre tour de mater en d8. Qu'est-ce qui la ferait quitter cette case ?",
+  "explanation": "## L'idée\n\nLa tour en d1 veut déjà d8, seul le cavalier en d7 lui barre la route, et votre fou en g5 couvre déjà d8 et e7. {{Qb8+}} coûte une dame entière et force {{Nxb8}}, la seule réponse légale — et le cavalier est maintenant sur la mauvaise case. {{Rd8#}} conclut."
+}

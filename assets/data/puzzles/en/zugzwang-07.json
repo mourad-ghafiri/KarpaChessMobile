@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-07",
+  "fen": "8/5K2/8/8/2pQ4/8/2B5/7k w - - 0 1",
+  "solution": [
+    "Qf2",
+    "c3",
+    "Be4#"
+  ],
+  "rating": 1590,
+  "title": "Mate on the Long Diagonal",
+  "setup": "Black's king is on h1 with a pawn on c4, and your bishop on c2 is one move from the long diagonal.",
+  "hint": "The bishop is one square off the line it needs. Find the move that covers g1 and g2 at once.",
+  "explanation": "## The Idea\n\n{{Qf2}} takes both g1 and g2 quietly. Black must play {{c3}}, and {{Be4#}} mates on the diagonal the bishop steps onto. Zugzwang gives you the free move a mating pattern needs."
+}

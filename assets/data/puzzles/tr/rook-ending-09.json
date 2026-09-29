@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-09",
+  "fen": "8/1r6/6P1/8/8/2R3K1/8/4k3 b - - 0 1",
+  "solution": [
+    "Rb6"
+  ],
+  "rating": 1530,
+  "title": "Altıncı Yataydan Savruluş",
+  "setup": "Beyazın g piyonu koşmaya hazır ve e1'deki siyah şah söz sahibi olamayacak kadar uzakta.",
+  "hint": "Kalenizin piyonu önden karşılaması ve tempoyla varması gerekiyor. İkisini birden hangi yatay yapıyor?",
+  "explanation": "## Fikir\n\nİşi yalnızca tek bir yatay görür. {{Rb6}} piyonu ateş altında tutar ve piyon koştuğunda — {{g7}} — kale şah çekerek savrulur: {{Rg6+}} {{Kh2}} {{Rxg7}}. b8'den kale ancak şahsız kapatabilir; b5'ten ise piyonun arkasına varır ki bu hiçbir işe yaramaz."
+}

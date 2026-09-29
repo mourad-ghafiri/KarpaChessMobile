@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-30",
+  "fen": "7k/7p/5N1K/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Rete di Donna con Cavallo",
+  "setup": "Il vostro cavallo in f6 e il vostro re in h6 circondano il re nero nell'angolo, e il suo stesso pedone in h7 riempie l'ultimo vuoto.",
+  "hint": "Il cavallo e il re coprono le case attorno al re. Mandate la donna lungo la traversa di fondo.",
+  "explanation": "## L'idea\n\nIl cavallo e il re hanno inscatolato il re: il cavallo in f6 copre g8, il vostro re in h6 copre g7, e h7 ha il pedone del Nero.\n\n{{Qa8#}} dà scacco lungo la traversa di fondo vuota dall'angolo opposto, e niente può parare.\n\nUn cavallo vicino all'angolo copre le case che una donna non raggiunge in una mossa. Con donna, cavallo e re vicini a un re messo all'angolo, cercate questa rete."
+}

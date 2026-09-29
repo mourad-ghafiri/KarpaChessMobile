@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-11",
+  "fen": "7r/8/b1B5/3R4/K7/8/kpR5/5Q2 w - - 0 1",
+  "solution": [
+    "Rxb2+",
+    "Kxb2",
+    "Rd2+",
+    "Kc3",
+    "Qc1#"
+  ],
+  "rating": 1700,
+  "title": "Deja que el rey la coma",
+  "setup": "El rey negro está en a2 con un peón en b2 a punto de coronar, y su alfil de a6 y su torre de h8 miran desde lejos.",
+  "hint": "El peligro no es el peón, sino el rey que está detrás. Busca el sacrificio que convierte el refugio en un camino.",
+  "explanation": "## La idea\n\n{{Rxb2+}} entrega una torre para atraer al rey a la fila que domina tu otra torre. {{Kxb2}} es forzada, {{Rd2+}} lo lleva a c3 y {{Qc1#}} lo termina. Un rey que come es un rey que ha ido a donde tú querías."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "uncastled-king-proof",
+  "fen": "2b1kbnr/1pp2ppp/r3p3/p1q1P1B1/4N3/3B1N2/PPP2PPP/R2Q1RK1 w k - 5 10",
+  "solution": [
+    "Bb5+",
+    "Qxb5",
+    "Qd8#"
+  ],
+  "title": "Desimpede a Coluna com Xeque",
+  "setup": "O rei preto continua em e8 à décima jogada. A tua dama em d1 quer a coluna d, e o teu próprio bispo de d3 está nela.",
+  "hint": "O bispo tem de deixar a coluna, e deve deixá-la com uma jogada a que as pretas tenham de responder logo.",
+  "explanation": "## A Ideia\n\nO rei nunca deixou e8, e as suas próprias peças enchem-lhe as saídas: o bispo em f8, o peão em f7. O teu bispo em g5 cobre e7 e d8. Entre a tua dama e d8 está apenas o teu próprio bispo de d3.\n\nPortanto ele sai com xeque. A {{Bb5+}} tem de se responder, e todas as respostas são lentas de mais. Come-o com {{Qxb5}} e {{Qd8#}} aterra, guardada pelo bispo de g5. Tapa com {{Bd7}} e dá mate {{Bxd7#}}."
+}

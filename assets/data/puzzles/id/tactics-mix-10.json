@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-10",
+  "fen": "4k3/2P5/8/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "c8=Q+"
+  ],
+  "title": "Mahkotai Pionnya",
+  "setup": "Pion putih telah mencapai **c7** — tinggal satu langkah dari menteri yang baru.",
+  "hint": "Selalu promosikan dengan sekak jika Anda bisa. Itu merampas langkah gratis dari pihak yang bertahan.",
+  "explanation": "## Ide\n\n{{c8=Q+}} berpromosi dengan sekak di sepanjang baris kedelapan. Raja tak bisa mengambil menteri baru dan tak ada yang bisa menghalangi, jadi Hitam harus memakai langkahnya untuk raja, dan Anda tinggal punya raja dan menteri melawan raja sendirian.\n\nTunggu satu langkah sebagai gantinya dan {{Kd7}} menyerang pion, dan pion itu hilang. Ketika pion bisa berpromosi dengan aman, promosikan sekarang, dan utamakan promosi yang memberi sekak."
+}

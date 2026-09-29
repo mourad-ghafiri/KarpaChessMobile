@@ -1,0 +1,14 @@
+{
+  "id": "deflection-04",
+  "fen": "2br2k1/p4ppp/1q6/8/1n6/7P/1PN1QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Nxb4"
+  ],
+  "rating": 1220,
+  "title": "Le cavalier attend la dame",
+  "setup": "La dame en b6 soutient la tour en d8 et le cavalier en b4, et votre cavalier en c2 surveille b4.",
+  "hint": "Cavalier contre cavalier n'est qu'un échange tant que le défenseur reste chez lui. Quel échec l'envoie ailleurs ?",
+  "explanation": "## L'idée\n\n{{Rxd8+}} ne laisse qu'un seul coup légal, {{Qxd8}}. La dame a quitté la colonne b, donc {{Nxb4}} gagne un cavalier net. Tour contre tour d'abord, et la déviation est gratuite. Demandez-vous ce qu'on demande discrètement de tenir à la pièce adverse la mieux placée."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-09",
+  "fen": "7k/4bppp/4R3/r7/3Q4/5R2/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Bxd8",
+    "Re8#"
+  ],
+  "rating": 1550,
+  "title": "Beri Menteri Sebuah Petak",
+  "setup": "Benteng Anda sudah duduk di e6 dengan satu lagi di f3, dan gajah Hitam di e7 adalah buah terakhir yang menahan baris kedelapan.",
+  "hint": "Carilah petak tempat pembela harus menangkap, bukan petak tempat ia ingin menangkap.",
+  "explanation": "## Ide\n\n{{Qd8+}} menempatkan menteri di tempat gajah harus datang dan mengambilnya — {{Bf8}} hanya kalah lebih cepat. {{Bxd8}} mengosongkan e7, dan {{Re8#}} melaju di lajur yang tadi dihalangi gajah. Intinya bukan menteri — melainkan lajur yang dikosongkannya."
+}

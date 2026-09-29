@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-03",
+  "fen": "2r3k1/1R1B1ppp/8/2Qr4/7b/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qxc8+",
+    "Bd8",
+    "Qxd8#"
+  ],
+  "rating": 1380,
+  "title": "Deux tours, aucune n'aide",
+  "setup": "Les tours noires sont en c8 et d5 et son fou en h4 lorgne votre position, tandis que vos propres pièces sont dispersées.",
+  "hint": "La prise évidente gagne une tour. Cherchez plutôt la prise qui ne laisse aux Noirs qu'une seule réponse.",
+  "explanation": "## L'idée\n\nPrendre en d5 gagne une tour et la partie continue. {{Qxc8+}} gagne l'autre et la termine : {{Bd8}} est la seule interposition, et {{Qxd8#}} suit. Choisissez la prise qui donne échec, pas celle qui rapporte le plus."
+}

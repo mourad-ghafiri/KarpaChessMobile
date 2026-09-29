@@ -1,0 +1,11 @@
+{
+  "id": "endgame-01",
+  "fen": "8/8/8/4k3/2P5/2K5/8/8 b - - 0 1",
+  "solution": [
+    "Kd6"
+  ],
+  "title": "Ponte delante",
+  "setup": "El rey blanco escolta a su peón, y tienes exactamente una jugada que mantiene las tablas.",
+  "hint": "El defensor tiene que estar delante del peón. ¿Qué paso lleva a tu rey hacia las casillas de delante sin quedarse una jugada atrás?",
+  "explanation": "## La idea\n\nContra rey y peón, el rey defensor tiene que ponerse delante del peón, frente al otro rey.\n\n{{Kd6}} es la única jugada que mantiene las tablas: va hacia las casillas de delante del peón mientras todavía hay tiempo de tomarlas, y desde c6 o c7 puede enfrentarse al rey blanco con una casilla vacía entre ellos. Cualquier otro paso llega una jugada tarde, y el rey blanco se pone delante primero.\n\nDelante del peón, y frente al rey rival. Las dos cosas, siempre."
+}

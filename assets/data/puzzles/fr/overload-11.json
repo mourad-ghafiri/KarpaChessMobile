@@ -1,0 +1,14 @@
+{
+  "id": "overload-11",
+  "fen": "6k1/2n1Rppp/8/8/2N5/2r5/PP2Q3/K7 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Nxe8",
+    "Qxe8#"
+  ],
+  "rating": 1610,
+  "title": "Le cavalier ne couvre pas deux fois",
+  "setup": "Le cavalier noir en c7 surveille e8, votre tour a atteint la septième rangée, et la dame attend en e2.",
+  "hint": "Un cavalier protège maladroitement. Trouvez la case qu'il peut atteindre exactement une fois et obligez-le à y aller.",
+  "explanation": "## L'idée\n\n{{Re8+}} exige le cavalier, {{Nxe8}} est forcé, et la dame le prend sur place par {{Qxe8#}}. Un cavalier qui défend une case n'est un défenseur que jusqu'à ce qu'il doive s'y tenir."
+}

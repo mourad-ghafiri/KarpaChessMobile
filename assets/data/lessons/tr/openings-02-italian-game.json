@@ -1,0 +1,50 @@
+{
+  "id": "italian-game",
+  "title": "İtalyan Oyunu",
+  "summary": "İki fil, d4 üstüne uzun bir tartışma",
+  "proof": "openings-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "İki Fil, Tek Kare",
+      "text": "c4'teki filiniz ile siyahın c5'teki fili birbirinin aynadaki görüntüsü ve her biri, karşı kampta yalnızca şahın koruduğu kareye dikilmiş: sizin için f7, siyah için f2.\n\nİki filin de bu çaprazları seçmesinin sebebi bu. Burada hiçbir şey olmamasının sebebi de bu. Tek koruyucuya karşı tek saldıran hiçbir şey kazanmaz ve ikinci saldıran iki tarafta da birkaç hamle uzakta.\n\nBöylece filler yerleşip bekler ve parti, uğruna dövüşecek bir şey aramaya çıkar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Uğruna Dövüştükleri Şey",
+      "text": "Aradığını d4'te bulur. Oraya bir piyon indirip tutabilirseniz, siyahın fili tam da yerleştiği çaprazda vurulur ve piyonlarınız tahtanın ortasını alır.\n\nHemen şimdi sürerseniz bunların hiçbirini alamazsınız. {{d4}} {{exd4}} gelir ve sürdüğünüz piyon çoktan gitmiştir; {{Nxd4}} ise kareye piyon yerine bir taş koyar ve c6'daki at dosdoğru ona bakar.\n\nd4'ü bir piyon tutar. Taş yalnızca ziyaret eder."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Sürüş nihayet geldiğinde d4'te taşın değil piyonun geri almasını sağlayan sessiz hamleyi oynayın.",
+      "targetSan": [
+        "c3"
+      ],
+      "hint": "Piyonlarınızdan hangisi tek adım atıp d piyonunuzun işgal etmek istediği kareyi korur hâle gelir?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "Yavaş İtalyan",
+      "text": "Üç hamle sonra ve kimse kimseye dokunmuş değil. Sizin c3 ile d3'te piyonlarınız var, siyahın f6'da atı ve d6'da piyonu var; iki şah da köşesine çekilmiş.\n\nSaldırı altında bir şey yok. Tehdit edilen bile bir şey yok. İki taraf da açılışı zamanında bitirdi; bu da bütün partinin daha icat edilmeyi beklediği anlamına geliyor.\n\nİtalyan oyunlarının çoğunun dönüştüğü sürüm budur ve f7'ye yapılan bir saldırıyla değil, hazırlıkla belirlenir."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "Henüz Değil",
+      "text": "Merkezi tam bu saniyede açabilirsiniz. Karşılığında ne geldiğini sayın: {{d4}} {{exd4}} {{cxd4}} gelir ve fil {{Bb6}} ile geri çekilip yine d4'e yaslanır; c6'daki at da yanı başındadır.\n\nAz önce kurduğunuz piyona siyahın iki taşı çoktan yaslanmış durumda, sizinkiler ise onu tutmaya bağlanmış. Kırılma yanlış değil, erken.\n\nBu yüzden bekleme hamlelerini ağırlık eklemeye harcarsınız. Buradaki her beyaz taşın bir işi var, biri hariç; ve c3'teki piyon, o taşın baştan beri kullanması gereken karede duruyor.\n\n> İtalyan, d4 nihayet indiğinde kimin hazır olduğuna göre belirlenir."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "prompt": "Son taşınızı başlangıç karesinden çıkarın; merkeze ve ordunuzun geri kalanının olduğu şah kanadına doğru.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "Tam olarak iki karesi var: biri kenarda, geleceği olmayan bir kare; öteki ortada, sonradan yoluna devam edebileceği bir kare."
+    }
+  ]
+}

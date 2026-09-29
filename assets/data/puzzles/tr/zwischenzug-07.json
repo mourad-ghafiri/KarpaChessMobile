@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-07",
+  "fen": "6k1/r4ppp/3B4/8/1R6/8/PP5Q/K2br3 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1530,
+  "title": "İki Tarafta da Arka Yatay",
+  "setup": "Siyahın e1'de bir kalesi ve d1'de bir fili arka yatayınızda otururken şahı g8'de sessizce bekliyor.",
+  "hint": "İki tarafın da birinci yatayı zayıf. Hangisinin daha az hamlede düştüğünü sayın.",
+  "explanation": "## Fikir\n\nSiyah sizi mat etmeye bir hamle uzaklıkta ve {{Rb8+}} tam da bu yüzden doğrudur. {{Re8}} mecburidir ve {{Rxe8#}} önce iner. Bir yarışta önemli olan tek sayı, kimin önce şah çektiğidir."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "opening-traps",
+  "title": "Jebakan Pembukaan",
+  "summary": "Hitung penyerangnya, lalu hukum yang serakah",
+  "proof": "openings-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "Dua Penyerang, Satu Pembela",
+      "text": "Baru tiga langkah, dan Putih sudah membidikkan menteri dan gajah ke petak yang sama. Hitung f7. Dua buah putih menyerangnya. Satu buah hitam melindunginya, dan buah itu adalah raja, pembela terburuk di papan: raja tak bisa menangkap apa pun yang datang dengan dukungan di belakangnya.\n\nJadi menteri bisa mendarat di f7 langkah berikutnya, dan itu mat. Bukan ancaman untuk dicatat dan dijawab nanti. Mat.\n\nHitam punya satu langkah untuk mengubah hitungannya."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "Langkah Bagus yang Kalah",
+      "text": "Hitam mengeluarkan kuda dengan {{Nf6}}, yang akan benar di hampir setiap posisi lain, dan Putih menjawab {{Qxf7#}}.\n\nRaja tak bisa mengambil menteri, karena gajah di c4 berdiri di belakangnya. Tak ada apa pun lagi di papan yang mencapai f7. Empat langkah, dan satu pihak berhenti bermain.\n\nJebakan ini tidak cerdik. Ia menangkap pemain yang menjawab ancaman dengan langkah yang bagus, alih-alih langkah yang diminta ancaman itu."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "prompt": "Perbaiki hitungan di f7 dalam satu langkah, sehingga penyerang di sana tak lagi lebih banyak daripada pembelanya.",
+      "targetSan": [
+        "g6",
+        "Qe7",
+        "Qf6",
+        "Nh6"
+      ],
+      "hint": "Ada dua cara jujur untuk mengubah hitungan: menambah pembela, atau memutus jalan yang ditempuh salah satu penyerang."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Jepitan Adalah Harga",
+      "text": "Papan baru, dan jenis keserakahan yang lain. Gajah Hitam di h5 menjepit kuda di f3 terhadap menteri di d1: gerakkan kuda, dan menteri diambil.\n\nSemua itu benar, dan tak satu pun mengatakan kuda tak boleh bergerak. Jepitan tidak melarang apa pun. Ia menetapkan harga, dan harganya adalah apa pun yang berdiri di belakang buah yang terjepit. Sembilan poin adalah harga yang tinggi. Tetapi tidak tak terhingga.\n\n> Jepitan hanya bertahan selama buah yang terjepit tak punya pekerjaan yang lebih baik."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Tinggal Satu Lubang",
+      "text": "Hitung petak-petak di sekitar raja Hitam sebelum Anda memutuskan berapa nilai kuda itu. Gajah di c4 sudah mengawasi e6 dan f7. Kuda di c3 tinggal satu lompatan dari d5, dan dari d5 ia menguasai e7. Menteri Hitam sendiri di d8 dan gajah di f8 menutup dua petak lagi.\n\nTersisa satu petak di seluruh lingkungan raja yang tak disentuh buah putih mana pun: d7.\n\nDan buah yang tinggal satu lompatan untuk menguasai d7 adalah kuda yang dijepit Hitam."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "Jika Hitam Menolak",
+      "text": "Hitam tak wajib mengambil menteri, dan mengambilnya justru pilihan yang kalah. Balasan yang hati-hati adalah menangkap balik di e5 dan mengembalikan gajah di h5, karena menteri di d1 melihat h5 begitu kuda meninggalkan f3.\n\nMaka tak ada mat, tak ada menteri yang diserahkan, dan Putih unggul satu pion bersih tanpa membayar apa-apa.\n\nItulah yang membuat seluruh ide ini layak dimainkan. Keserakahan mengakhiri partai seketika, kehati-hatian berharga satu pion, dan Hitam tak punya jawaban ketiga."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "prompt": "Abaikan jepitan dan ambil pion pusat, meskipun Hitam memenangkan menteri Anda karenanya.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "Petak tempat pion itu berdiri adalah satu-satunya petak yang merebut d7 dari raja Hitam."
+    }
+  ]
+}

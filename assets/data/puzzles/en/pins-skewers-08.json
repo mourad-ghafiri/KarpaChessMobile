@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-08",
+  "fen": "3k4/3q4/3p4/3R4/3R4/8/8/3K4 w - - 0 1",
+  "solution": [
+    "Rxd6",
+    "Qxd6",
+    "Rxd6+"
+  ],
+  "title": "Eat the Pinned Pawn First",
+  "setup": "Black's pawn, queen and king are stacked on the d-file, one behind the other, and both your rooks are looking up it.",
+  "hint": "The pawn cannot move forward. Count what happens if you start at the front of the pile.",
+  "explanation": "## The Idea\n\nThe pawn on d6 blocks both your rooks. {{Rxd6}} removes it, and now the queen on d7 is pinned to the king behind it. {{Qxd6}} is Black's only way to avoid losing the queen for nothing, and {{Rxd6+}} takes back with the second rook: a rook for a pawn and a queen, leaving a rook against a bare king.\n\nStart at the front of a pile only when something of yours stands behind to take back."
+}

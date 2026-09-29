@@ -1,0 +1,14 @@
+{
+  "id": "promotion-02",
+  "fen": "1N6/1P2kppp/5n2/3r4/8/6P1/5PKP/8 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Kd7",
+    "b8=Q"
+  ],
+  "rating": 1040,
+  "title": "Kendi Taşınızı Oynatın",
+  "setup": "b7'deki piyonunuz yeni bir vezire bir kare uzaklıkta ve kareyi kendi atınız işgal ediyor.",
+  "hint": "Atın ayrılması gerekiyor ve siyaha abluka kuracak bedava bir hamle verilmemeli.",
+  "explanation": "## Fikir\n\nb8'deki at, kendi piyonunun yolunda duruyor. {{Nc6+}} şah çekerek yana çekilir, yani siyahın b8'i kapsayacak vakti olmaz; {{Kd7}} geldikten sonra piyon {{b8=Q}} ile içeri yürür. Terfi karesini sessizce değil, tempoyla temizleyin."
+}

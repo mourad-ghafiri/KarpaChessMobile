@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-03",
+  "fen": "1r3R2/3p1R2/4Q3/1k2B3/b7/8/3p4/5K2 w - - 0 1",
+  "solution": [
+    "Rxb8+",
+    "Kc5",
+    "Qd6+",
+    "Kc4",
+    "Qd4#"
+  ],
+  "rating": 1420,
+  "title": "Prendete la Torre, Tenetevi lo Scacco",
+  "setup": "Il re nero è finito a spasso in b5, la sua torre siede in b8 e un pedone passato è a una casa dalla promozione in d2.",
+  "hint": "Non avete tempo di fermare il pedone. Trovate la presa che apre anche una linea sul re.",
+  "explanation": "## L'idea\n\n{{Rxb8+}} vince una torre con scacco, e da lì {{Qd6+}} e {{Qd4#}} spingono il re giù per la scacchiera. Il pedone in d2 non arriva mai a muoversi, che è l'unica difesa contro di lui che conti."
+}

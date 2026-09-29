@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-05",
+  "fen": "5B2/8/8/7k/4K3/8/6p1/6Q1 w - - 0 1",
+  "solution": [
+    "Kf5",
+    "Kh4",
+    "Qh2#"
+  ],
+  "rating": 1530,
+  "title": "Le roi est le coup d'attente",
+  "setup": "Les rois se tiennent en e4 et h5, les Noirs ont un pion à une case de la promotion en g2, et votre dame garde g1.",
+  "hint": "Aucune de vos pièces ne peut se permettre de bouger. Regardez celle que vous n'avez pas envisagée.",
+  "explanation": "## L'idée\n\n{{Kf5}} prend g4, g5 et g6 et passe le trait aux Noirs. Seul {{Kh4}} est légal, et {{Qh2#}} mate le roi contre le bord. Un pas de roi est un coup d'attente qui construit aussi le filet."
+}

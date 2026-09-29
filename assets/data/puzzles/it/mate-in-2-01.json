@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-01",
+  "fen": "2k5/8/3K4/7Q/8/8/8/8 w - - 2 2",
+  "solution": [
+    "Qb5",
+    "Kd8",
+    "Qb8#"
+  ],
+  "title": "Gabbia in Due Tempi",
+  "setup": "Il re nero in c8 ha ancora tre case. Il vostro re tiene già c7 e d7, e la vostra donna è lontana in h5.",
+  "hint": "Qualunque scacco qui lascia uscire il re. Toglietegli le case in silenzio e lasciategli esattamente una mossa.",
+  "explanation": "## L'idea\n\nDare prima scacco lascia scappare il re. {{Qb5}} non dà nessuno scacco: si prende tutta la colonna b, quindi b8 e b7 sono andate, e il vostro re in d6 tiene già c7 e d7.\n\nIl Nero ha una mossa legale, {{Kd8}}, e va dentro {{Qb8#}}. La donna copre l'ottava traversa, il vostro re copre la settima, e al re nero non resta niente. Anche {{Qd7#}} dà matto altrettanto bene."
+}

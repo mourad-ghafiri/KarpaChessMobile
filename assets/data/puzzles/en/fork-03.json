@@ -1,0 +1,12 @@
+{
+  "id": "fork-03",
+  "fen": "rnbqkb1r/pppp1ppp/8/4p3/2B1N3/8/PPPP1PPP/R1BQK1NR b KQkq - 0 4",
+  "solution": [
+    "d5"
+  ],
+  "rating": 760,
+  "title": "The Fork Trick",
+  "setup": "You gave up a knight on e4 a move ago, and White now has a knight and a bishop on the same rank.",
+  "hint": "Which single pawn move attacks the knight and the bishop at the same time?",
+  "explanation": "## The Idea\n\n{{d5}} hits the knight on e4 and the bishop on c4 together, and it frees your own bishop on c8 at the same time. This is the fork trick: hand over a knight for a pawn, then win the piece straight back with a pawn."
+}

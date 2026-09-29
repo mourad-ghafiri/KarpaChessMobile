@@ -1,0 +1,20 @@
+{
+  "id": "smothered-12",
+  "fen": "r5k1/2p3pp/1b6/1p2N3/8/B7/P1Q2PPP/6K1 w - - 6 28",
+  "solution": [
+    "Qb3+",
+    "Kh8",
+    "Nf7+",
+    "Kg8",
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1500,
+  "title": "Scacchi Fino al Soffocamento",
+  "setup": "Il Nero ha appena tolto l'alfiere dalla diagonale a3–f8, e adesso l'alfiere bianco copre f8.",
+  "hint": "Cominciate con uno scacco che il pedone in b5 non possa punire, e dopo non lasciate mai al re una casa vuota.",
+  "explanation": "## L'idea\n\n{{Qb3+}} forza {{Kh8}}, perché l'alfiere copre f8. Poi {{Nf7+}} {{Kg8}} e {{Nh6+}} arriva come scacco doppio, respingendo il re nell'angolo. La donna atterra in g8, la torre è obbligata a prendere, e il cavallo torna in f7 per il matto. Ogni risposta nera è l'unica mossa legale."
+}

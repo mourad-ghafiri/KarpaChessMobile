@@ -1,0 +1,12 @@
+{
+  "id": "discovery-05",
+  "fen": "2rkr3/2p1pppp/4n3/3P4/8/5N2/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "dxe6#"
+  ],
+  "rating": 1120,
+  "title": "Fora da Coluna",
+  "setup": "O rei preto está emparedado em d8 pelas suas próprias torres e peões, e o teu próprio peão tapa a coluna d.",
+  "hint": "Um peão que captura deixa a coluna onde estava. Pergunta o que a tua torre veria no instante em que isso acontecesse.",
+  "explanation": "## A Ideia\n\n{{dxe6#}} ganha um cavalo, mas não é isso que interessa: o peão deixa a coluna d e a torre de d1 dá xeque a direito até d8. c7, e7, c8 e e8 têm as próprias peças das pretas, e nada se pode pôr à frente da torre. Uma descoberta de peão pode dar mate."
+}

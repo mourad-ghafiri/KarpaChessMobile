@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-10",
+  "fen": "4r1k1/3q1ppp/8/4R3/8/8/5PPP/4Q1K1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxe8#"
+  ],
+  "rating": 1020,
+  "title": "Önden Kale, Matı Vezir",
+  "setup": "Kaleniz ile veziriniz e dikeyinde üst üste dizilmiş; karşılarında siyahın e8'deki kalesi ve d7'deki veziri var.",
+  "hint": "Tek dikeydeki iki ağır taş yalnızca tek bir sırayla vurabilir. Hangisinin önce gitmesi gerektiğini hesaplayın.",
+  "explanation": "## Fikir\n\nKale önde durur, yani önce o vurur: {{Rxe8+}} {{Qxe8}} hamlesini zorlar ve arkasındaki vezir {{Qxe8#}} ile matı verir. Sırayı ters çevirirseniz ortada hiçbir şey kalmaz — kendi kalesi yoldayken vezir e8'e asla ulaşamaz."
+}

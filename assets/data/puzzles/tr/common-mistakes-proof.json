@@ -1,0 +1,11 @@
+{
+  "id": "common-mistakes-proof",
+  "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/1Q6/PPPP1PPP/RNB1K1NR b KQkq - 3 5",
+  "solution": [
+    "Nd4"
+  ],
+  "title": "Vezirin Üçüncü Yolculuğu",
+  "setup": "Beyazın veziri beş hamlede üç kez oynadı ve b3'ten yine f7'ye dikiliyor. Bu yolculuğun bedelini ödetin.",
+  "hint": "Bir vezire daha ucuz bir taşla saldırmak hamle kazandırır. Aynı zamanda c2'yi gözleyen saldırıyı bulun; orası beyazın şahına ve kalesine bir sıçrayış uzaklıkta.",
+  "explanation": "## Fikir\n\nErken çıkan vezir hesabını alıyor. {{Nd4}} ona bir atla saldırır ve at aynı zamanda c2'yi gözler; oradaki bir taş alma şaha şah çeker ve a1'deki kaleye vurur.\n\nVezirin dördüncü kez oynaması gerekir ve her cevap siyahı belirgin biçimde iyi bırakır. Önce f7'yi kapmak hiçbir şeyi değiştirmez: fil şah çekerek aldıktan sonra şah e7'ye adımlar ve vezir hâlâ saldırı altındadır."
+}

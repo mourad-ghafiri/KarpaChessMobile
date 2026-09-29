@@ -1,0 +1,56 @@
+{
+  "id": "the-fork",
+  "title": "The Fork",
+  "summary": "One move that asks two questions, and an opponent who gets to answer one",
+  "proof": "forks-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Two at Once",
+      "text": "Your opponent gets one move for every move you make. That is the whole budget, and every tactic ahead of you is a way of asking that one move to cover more than it can.\n\nA **fork** is the simplest way of asking. One move, two enemy pieces attacked, and a single reply that has to deal with both.\n\nBlack's king on c6 and the queen on d5 are standing one square apart. Your knight on c2 attacks neither of them yet, and does not need to. It needs one square that touches both."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "The Piece You Cannot Answer",
+      "text": "A bishop, a rook or a queen attacks along a line, and a line can be interrupted — put anything in the road and the attack stops there. A knight's attack has no in-between square to put anything on.\n\nThen the strange part. A piece a knight is attacking can almost never take that knight back. Reaching the square a knight stands on means moving in an L, and only another knight does that. Not even a king can: a knight giving check is never standing next to the king it checks.\n\nSo the defender is left with the shortest list of answers in chess."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "prompt": "Find the one square your knight can reach that attacks the king and the queen together.",
+      "targetSan": [
+        "Nb4+"
+      ],
+      "hint": "Work backward from the targets: which squares attack c6, and which of those also attacks d5?"
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/3q4/8/8/2N1K3/8 w - - 0 1",
+      "title": "Nine for Three, or Nine for Nothing",
+      "text": "{{Nb4+}}, and the check is the only thing Black is allowed to think about. Nothing blocks it, and b4 is a square neither the king nor the queen can reach.\n\nSo the king walks. Seven squares are open to it, and exactly two of them, d6 and c5, still guard d5. {{Kd6}} looks like a save until you count it: {{Nxd5}} {{Kxd5}} trades a knight for a queen. The other five give the queen away for nothing.\n\nNine for three, or nine for free. That is the whole choice a fork leaves.\n\nKing and queen caught together even has its own name: a **royal fork**."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "One Target Is Not Two",
+      "text": "A new board, and four pieces on it. Black has a king on e8 and a knight on e5, and that is the entire army.\n\nYour queen on a1 is already looking at that knight. The long diagonal out of the corner runs b2, c3, d4 and arrives at e5, with nothing standing anywhere along it. Nothing guards the knight either.\n\nSo the knight can simply be taken — and once it is gone, Black owns a king and bare squares. Whatever that capture is, it is not a fork. A fork needs two things to attack, and this position never had two."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "title": "Check Is Not the Prize",
+      "text": "Check on its own buys nothing. {{Qa8+}} is a real check — Black moves the king aside, and your queen is now in a corner where it can no longer see the knight at all. A move spent to make the position worse.\n\nThe check worth playing is the one that arrives having already done something else. Black's single move goes to the king, and the something else stays on the board.\n\n> A fork gives your opponent's one move two jobs. A check picks its job for them. Both work for the same reason: the move only comes once."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4n3/8/8/8/Q3K3 w - - 0 1",
+      "prompt": "Take the knight in the way that leaves Black no reply except a king move.",
+      "targetSan": [
+        "Qxe5+"
+      ],
+      "hint": "The knight and the black king stand on the same file, so ask what the queen is doing once it lands on that file."
+    }
+  ]
+}

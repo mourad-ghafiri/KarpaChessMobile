@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-15",
+  "fen": "8/4k3/8/3K4/8/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "title": "O Rei à Frente do Peão",
+  "setup": "O teu rei marchou à frente do seu peão, e o rei preto espera em e7. A próxima jogada de rei decide o jogo.",
+  "hint": "Empurrar o peão deita fora o trabalho do rei. Põe o teu rei onde o rei preto tenha de ceder.",
+  "explanation": "## A Ideia\n\n{{Ke5}} põe-se à frente do peão e toma a oposição: os reis ficam frente a frente com uma casa pelo meio, e as pretas têm de mexer. Vá o rei preto para onde for, o teu passa por ele, por exemplo {{Kd7}} {{Kf6}}, e o peão segue. Empurra primeiro o peão com {{e4}}, ou vai para qualquer outro lado, e são as pretas a tomar a oposição: empate.\n\nNum final de rei e peão, o rei vai à frente e o peão segue."
+}

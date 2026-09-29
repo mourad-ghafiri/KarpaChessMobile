@@ -1,0 +1,14 @@
+{
+  "id": "fork-07",
+  "fen": "5rk1/p4ppp/2r5/5N2/8/8/P4PPP/4R1K1 w - - 1 2",
+  "solution": [
+    "Ne7+",
+    "Kh8",
+    "Nxc6"
+  ],
+  "rating": 910,
+  "title": "Altıncıya Sıçrayış",
+  "setup": "Siyah az önce bir kaleyi c6'ya kaldırdı; şahı ise üç piyonun arkasında, f8'de bir kaleyle saklanıyor.",
+  "hint": "Tek bir at karesi aynı anda şahın köşesine ve altıncı yataya dokunuyor ve kaleniz orayı zaten koruyor.",
+  "explanation": "## Fikir\n\n{{Ne7+}} şah ile c6'daki kaleyi çatallar ve e1'deki kale atı koruduğu için hiçbir şey onu alamaz. Siyahın kendi kalesi f8'i doldurur, yani {{Kh8}} tek hamledir ve {{Nxc6}} koca bir kale kazanır."
+}

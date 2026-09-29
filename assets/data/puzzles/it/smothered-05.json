@@ -1,0 +1,12 @@
+{
+  "id": "smothered-05",
+  "fen": "6rk/pp4pn/8/4N3/2b5/8/P4PPP/3R2K1 w - - 4 23",
+  "solution": [
+    "Ng6#"
+  ],
+  "rating": 1275,
+  "title": "Niente Pedone in h7",
+  "setup": "Il Nero ha appena ritirato il cavallo in h7, e l'alfiere in c4 difende ancora la casa f7.",
+  "hint": "In h7 sta qualcosa che non è un pedone — chiedetevi che cosa cambia questo riguardo alle case accanto.",
+  "explanation": "## L'idea\n\nUn cavallo in g6 di norma viene mangiato dal pedone h. Qui h7 ha un cavallo, che non difende niente accanto a sé, quindi {{Ng6#}} è intoccabile e g8, g7 e h7 sono tutte riempite dai pezzi del Nero. La solita casa del soffocato, f7, è coperta dall'alfiere in c4."
+}

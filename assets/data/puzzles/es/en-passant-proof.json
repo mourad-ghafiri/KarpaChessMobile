@@ -1,0 +1,11 @@
+{
+  "id": "en-passant-proof",
+  "fen": "r6k/pp5p/8/3pP3/8/2B5/PP3P1P/6RK w - d6 0 1",
+  "solution": [
+    "exd6#"
+  ],
+  "title": "El peón que podía tapar",
+  "setup": "Las Negras acaban de avanzar dos casillas el peón de d. Tu alfil de c3 apunta al rey de h8, y tu torre de g1 protege la columna de al lado.",
+  "hint": "Tu peón de e es lo único que hay en la diagonal del alfil. ¿Qué peón negro podría volver a meterse en esa línea?",
+  "explanation": "## La idea\n\nTu peón de e5 es lo único entre el alfil de c3 y el rey de h8. Avánzalo con {{e6+}} y el peón negro va a d4, de vuelta a la línea.\n\n{{exd6#}} abre la misma diagonal y quita el obstáculo del tablero en la misma jugada. La torre cubre g8, el alfil cubre g7 y en h7 está el propio peón negro.\n\nLa oportunidad duró un turno. Una jugada después, ese peón habría quedado fuera de alcance para siempre."
+}

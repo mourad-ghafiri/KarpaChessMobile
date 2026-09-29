@@ -1,0 +1,11 @@
+{
+  "id": "discovered-03",
+  "fen": "4k3/r7/2N5/1B6/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxa7+"
+  ],
+  "title": "El caballo despeja la diagonal",
+  "setup": "Tu alfil de b5 apunta al rey, pero tu propio caballo está en medio. Eso no es un problema; es una jugada.",
+  "hint": "El caballo tiene que moverse para que aparezca el jaque. Encuentra el salto que se lleva algo por el camino.",
+  "explanation": "## La idea\n\nEl caballo de c6 tapa la diagonal del alfil hacia e8, así que cualquier salto del caballo da jaque. Esa libertad es la clave: el caballo puede ir adonde más gane.\n\n{{Nxa7+}} captura la torre mientras el alfil de b5 da el jaque. Las Negras tienen que responder al jaque, así que nada recaptura el caballo, y las Blancas se quedan con alfil y caballo contra rey solo.\n\nCon un jaque al descubierto, gasta la jugada libre en la mayor captura a tu alcance."
+}

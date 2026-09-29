@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-06",
+  "fen": "1B4k1/5ppp/2r3R1/4r3/8/3Q4/PP1b4/K7 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1500,
+  "title": "Les pions ont déjà fait le travail",
+  "setup": "Les propres pions noirs en f7, g7 et h7 enferment le roi, mais la tour noire en e5 et le fou en d2 sont actifs.",
+  "hint": "Le mat est à un échec. Identifiez la case que les Noirs sont forcés de remplir et qui reste pour la prendre.",
+  "explanation": "## L'idée\n\n{{Qd8+}} ne reçoit pour réponse que {{Re8}}, puisque les pions ont pris eux-mêmes toutes les cases de fuite. {{Qxe8#}} conclut. L'abri que s'est construit le roi est la cage où il meurt."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-01",
+  "fen": "7k/7p/5qp1/8/8/8/5PPP/B5K1 w - - 0 1",
+  "solution": [
+    "Bxf6+"
+  ],
+  "title": "Inchiodata alla Diagonale",
+  "setup": "Il vostro alfiere e il re nero condividono la grande diagonale, e la donna nera sta in mezzo a loro.",
+  "hint": "La donna non può uscire da quella diagonale senza esporre il suo re, e dov'è non la difende niente.",
+  "explanation": "## L'idea\n\nLa donna in f6 è inchiodata contro il re in h8: può scivolare su e giù per la grande diagonale, ma non può lasciarla, e niente la difende.\n\nE allora prendetela. {{Bxf6+}} vince la donna per niente, e {{Kg8}} è l'unica risposta del Nero.\n\nMuovere per primi è tutto il punto: al tratto del Nero {{Qxa1}} sarebbe stato matto. Un pezzo inchiodato non è un pezzo difeso — è un pezzo che non può scappare."
+}

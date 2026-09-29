@@ -1,0 +1,13 @@
+{
+  "id": "forks-06",
+  "fen": "6k1/pp2rpp1/7p/n7/3Q4/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kh7",
+    "Qxa5"
+  ],
+  "title": "La dama da una horquilla de lado a lado",
+  "setup": "El caballo negro de a5 se ha ido al borde sin defensor, y la última fila negra está vacía.",
+  "hint": "Encuentra un jaque de dama que además caiga en la diagonal del caballo.",
+  "explanation": "## La idea\n\nUna horquilla de dama no necesita que los dos objetivos estén cerca, solo que estén en líneas que se crucen.\n\n{{Qd8+}} da jaque al rey de g8 por la última fila y ataca al caballo de a5 por la diagonal. Las Negras tienen que responder al jaque, con {{Kh7}} o tapando en e8, y ninguna respuesta salva al caballo: {{Qxa5}} lo recoge desde el otro lado del tablero.\n\nBusca la casilla donde un jaque y una pieza suelta comparten las líneas de la dama."
+}

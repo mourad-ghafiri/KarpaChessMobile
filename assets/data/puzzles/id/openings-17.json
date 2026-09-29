@@ -1,0 +1,11 @@
+{
+  "id": "openings-17",
+  "fen": "rnb1k2r/pp2ppbp/6p1/q1PP4/5B2/2P1P3/P4PPP/2RQKBNR b Kkq - 0 9",
+  "solution": [
+    "Bxc3+"
+  ],
+  "title": "Diagonal Itu Memetik Hasil",
+  "setup": "Hitam menyerahkan pusat berikut dua pion, dan Putih baru saja menangkap balik di c3 dengan pion b.",
+  "hint": "Putih menangkap balik dengan pion yang hanya dijaga satu buah, dan gajah Anda sudah membidiknya sejak langkah keempat.",
+  "explanation": "## Ide\n\nGajah di g7 sudah membidik ke sepanjang diagonal panjang sejak langkah keempat, dan inilah yang ditunggunya.\n\n{{Bxc3+}} merebut kembali sebuah pion dengan sekak. {{Rxc3}} menabrak {{Qxc3+}}, karena menteri di a5 berdiri di belakang gajah, dan {{Qd2}} kehilangan menteri karena {{Bxd2+}}. Pilihan terbaik Putih adalah {{Ke2}}, merelakan hak rokade demi tetap unggul satu pion.\n\nSerahkan pusat hanya jika Anda punya sesuatu untuk menembakinya."
+}

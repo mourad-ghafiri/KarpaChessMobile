@@ -1,0 +1,14 @@
+{
+  "id": "skewer-06",
+  "fen": "8/1R1p3p/2k2r2/8/4Pb2/2r5/3R1B1P/4K3 w - - 0 1",
+  "solution": [
+    "Rb6+",
+    "Kc7",
+    "Rxf6"
+  ],
+  "rating": 1100,
+  "title": "Benteng di Belakang Benteng",
+  "setup": "Hitam punya dua benteng yang aktif, dan salah satunya berbagi baris keenam dengan rajanya di c6.",
+  "hint": "Petak mana di baris keenam yang sudah dilindungi salah satu buah Anda? Beri sekak dari sana.",
+  "explanation": "## Ide\n\n{{Rb6+}} adalah tusukan di sepanjang baris keenam: raja di depan, benteng di **f6** di belakang. Gajah di **f2** menjaga b6, jadi sekak itu tak bisa diambil, dan setiap petak pelarian kecuali c7 dikuasai. {{Kc7}}, dan {{Rxf6}} memenangkan benteng."
+}

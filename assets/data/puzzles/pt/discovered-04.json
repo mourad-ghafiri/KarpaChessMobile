@@ -1,0 +1,13 @@
+{
+  "id": "discovered-04",
+  "fen": "1r1k4/8/8/8/3N4/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Ke8",
+    "Nxb8"
+  ],
+  "title": "Xeque Duplo, e Depois a Torre",
+  "setup": "A tua torre e o teu cavalo partilham a coluna d com o rei preto — o cavalo à frente, o xeque à espera atrás.",
+  "hint": "Um salto de cavalo pode dar xeque por si e descobrir também o xeque da torre. Escolhe o salto que atinge igualmente alguma coisa.",
+  "explanation": "## A Ideia\n\n{{Nc6+}} é um xeque duplo: o cavalo ataca d8 por si, e mexê-lo descobre a torre de d1 atrás dele. Contra dois xeques ao mesmo tempo não serve nem uma captura nem um bloqueio, portanto o rei tem de mexer. Vá para onde for, {{Nxb8}} recolhe a torre que o cavalo tinha debaixo de olho desde sempre, e mesmo que o rei coma depois o cavalo, fica a tua torre contra um rei nu. O xeque duplo é a jogada mais forçante do xadrez: o rei tem de mexer, e tudo o resto espera."
+}

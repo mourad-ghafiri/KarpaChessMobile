@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-06",
+  "fen": "1k6/8/3P4/1K6/8/7R/3r4/8 w - - 0 1",
+  "solution": [
+    "Kc6"
+  ],
+  "rating": 1430,
+  "title": "Kawal Dulu, Baru Dorong",
+  "setup": "Pion d Putih tinggal satu petak dari baris ketujuh, dengan benteng hitam menunggu di belakangnya di lajur d.",
+  "hint": "Pion itu sama sekali tak punya pembela. Buah Anda mana dari keduanya yang bisa menguasai petak yang ingin ditempatinya?",
+  "explanation": "## Ide\n\nDorong seketika dan {{d7}} tinggal dimakan {{Rxd7}}. {{Kc6}} menguasai d7 lebih dulu, dan baru sesudah itu pion bergerak: {{Rc2+}} {{Kd7}}, dan raja menggiringnya pulang. Bawa pengawalnya lebih dulu; pionnya bergerak paling akhir."
+}

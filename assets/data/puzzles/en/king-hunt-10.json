@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-10",
+  "fen": "3r4/2B5/8/1R4p1/3R4/K1Qb4/6k1/8 w - - 0 1",
+  "solution": [
+    "Rb2+",
+    "Kg1",
+    "Rg4+",
+    "Kf1",
+    "Qc1#"
+  ],
+  "rating": 1660,
+  "title": "Two Rooks, Two Directions",
+  "setup": "Black's king is loose on g2, with a bishop on d3 beside your queen and a rook waiting on d8.",
+  "hint": "Neither rook mates on its own. Find the order in which each one takes a square the other cannot.",
+  "explanation": "## The Idea\n\n{{Rb2+}} takes the second rank, {{Rg4+}} takes the g-file, and with both gone {{Qc1#}} mates along the first rank. Rooks hunt in pairs by covering perpendicular lines."
+}

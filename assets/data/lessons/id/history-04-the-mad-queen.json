@@ -1,0 +1,56 @@
+{
+  "id": "mad-queen",
+  "title": "Menteri yang Mengamuk",
+  "summary": "Dua buah yang lamban memasuki tahun 1470-an dan keluar sebagai yang tercepat di papan",
+  "proof": "history-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Catur Sang Menteri",
+      "text": "Menteri yang dimainkan Eropa selama lima abad bergerak satu petak secara diagonal dan tak lebih jauh. Dalam satu generasi, ia menjadi buah terkuat dalam permainan.\n\nYang tersisa dari perubahan itu adalah sebuah puisi. *Scachs d'amor*, dalam bahasa Valencia, memuat partai tertua yang masih ada yang dimainkan dengan aturan baru, tersisip dalam uraiannya. Naskahnya tak bertanggal; sekitar tahun 1475 adalah perkiraan yang lazim, dan Valencia adalah rekonstruksi yang sebagian besar bersandar pada puisi itu sendiri.\n\nSpanyol menamai permainan baru itu *axedrez de la dama*, catur sang permaisuri. Italia dan Prancis lebih kasar: *alla rabiosa*, *la dame enragée* — si pemarah, untuk buah yang tak mau diam."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Gajah Ikut Berubah",
+      "text": "Menteri tidak ditulis ulang sendirian.\n\nLompatan gajah — tepat dua petak, melewati apa pun yang ada di antaranya, mendarat di salah satu dari delapan petak yang akan pernah disentuhnya — menjadi luncuran gajah di sepanjang seluruh diagonal. Satu pembaruan, satu gagasan yang diterapkan dua kali: berikan seluruh diagonal kepada buah-buah diagonal.\n\nMengapa tahun 1470-an? Dugaan yang lazim adalah para perempuan yang saat itu bertakhta di Eropa, terutama Isabella dari Kastilia — tetapi itu dugaan, bukan catatan sejarah."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Dua Petak, Lalu Tak Ada Apa-Apa",
+      "text": "Kembalikan menteri lama ke d1 dan hitung apa yang dimilikinya.\n\nDua petak. {{Qc2}} dan {{Qe2}}, masing-masing satu geseran, dan itulah seluruh daftarnya. Keduanya terang, begitu pula d1 — menteri itu tak pernah berdiri di petak gelap seumur hidupnya, jadi separuh papan sudah tertutup baginya sebelum siapa pun melangkah.\n\nEmpat geseran seperti itu membawanya dari d1 ke h5. Menteri yang berdiri di sana sekarang menempuh jalan itu dalam satu langkah, dan bisa tiba sambil langsung menyerang.\n\n> Benteng menjadi buah terkuat di papan selama sembilan abad. Ia kehilangan gelar itu kepada buah yang dulu hanya bisa bergeser."
+    },
+    {
+      "type": "play",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "prompt": "Langkahkan menteri ke tengah sehingga satu diagonal mencapai raja di g8 dan diagonal lain mencapai benteng di a8.",
+      "hint": "Raja di g8 dan benteng di a8 sama-sama berdiri di petak terang, begitu pula menteri Anda — temukan petak tempat kedua diagonalnya bersilangan.",
+      "targetSan": [
+        "Qd5+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "Keduanya Diagonal",
+      "text": "Kedua garis yang baru saja Anda gunakan adalah diagonal. Gajah yang mencapai d5 akan menyerang g8 dan a8 dengan cara yang persis sama — dan gajah mendapat luncurannya dalam pembaruan yang sama, jadi separuh menteri itu bukan hal baru.\n\nSeparuh yang lain baru. Dari d5, menteri juga menguasai seluruh baris kelima dan seluruh lajur d, jadi dua garis yang bersilangan di bawahnya tak harus sejenis: baris dan diagonal, lajur dan diagonal, apa pun yang ditawarkan posisi. Benteng dan gajah dalam satu tubuh, dan hanya satu buah yang bisa berdiri di tempat kedua jenis garis itu bersilangan."
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "Tak Ada Waktu untuk Lari",
+      "text": "Sekak itu telah melakukan tugasnya. Menjawabnya sama sekali tak menolong benteng di a8, dan itulah seluruh hasil dari menyerang dua hal sekaligus: sasaran kedua tak mendapat waktu untuk lari.\n\nHilangkan itu dan hasilnya lenyap. Beri Hitam satu langkah bebas — {{h3}}, misalnya — dan {{Rc8}} menjawabnya, dan tak ada lagi yang bisa dimenangkan.\n\nJadi selesaikan tanpa memberikan langkah bebas itu."
+    },
+    {
+      "type": "play",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "prompt": "Ambil benteng di sudut, dan ambil dengan sekak agar Hitam tak pernah mendapat langkah untuk dipakai.",
+      "hint": "Tak ada yang melindungi a8, jadi satu-satunya pertanyaan adalah apakah penangkapan Anda juga mendarat di garis yang melewati raja hitam di f8.",
+      "targetSan": [
+        "Qxa8+"
+      ]
+    }
+  ]
+}

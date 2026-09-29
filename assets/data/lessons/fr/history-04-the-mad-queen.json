@@ -1,0 +1,56 @@
+{
+  "id": "mad-queen",
+  "title": "La dame enragée",
+  "summary": "Deux pièces lentes entrent dans les années 1470 et en ressortent les plus rapides de l'échiquier",
+  "proof": "history-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Les échecs de la dame",
+      "text": "La dame que l'Europe a jouée pendant cinq siècles avançait d'une case en diagonale, pas plus. En une génération, elle est devenue la pièce la plus forte du jeu.\n\nCe qui reste de ce changement, c'est un poème. *Scachs d'amor*, en valencien, contient dans son commentaire la plus ancienne partie connue jouée selon les nouvelles règles. Le manuscrit n'est pas daté ; on le situe d'ordinaire vers 1475, et Valence est une reconstitution qui repose en grande partie sur le poème lui-même.\n\nL'Espagne a appelé le nouveau jeu *axedrez de la dama*, les échecs de la dame. L'italien et le français ont été moins polis : *alla rabiosa*, *la dame enragée*, pour une dame qui ne tenait pas en place."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "L'éléphant a suivi",
+      "text": "La dame n'a pas été réécrite seule.\n\nLe saut de l'éléphant — exactement deux cases, par-dessus ce qui se trouvait entre les deux, vers l'une des huit cases qu'il toucherait jamais — est devenu la glissade du fou le long de toute la diagonale. Une réforme, une idée appliquée deux fois : donner aux pièces diagonales la diagonale entière.\n\nPourquoi les années 1470 ? On évoque d'ordinaire les souveraines qui régnaient alors en Europe, Isabelle de Castille en tête — mais c'est une hypothèse, pas une archive."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Deux cases, puis plus rien",
+      "text": "Remettez l'ancienne dame en d1 et comptez ce qu'elle possédait.\n\nDeux cases. {{Qc2}} et {{Qe2}}, un petit pas chacune, et c'était toute la liste. Les deux sont blanches, et d1 aussi — cette dame ne s'est jamais tenue sur une case noire de sa vie, alors la moitié de l'échiquier lui était fermée avant le premier coup.\n\nQuatre de ces petits pas la menaient de d1 à h5. La dame qui s'y trouve aujourd'hui parcourt cette route en un seul coup, et peut arriver en attaquant déjà.\n\n> La tour a été pendant neuf siècles la pièce la plus forte de l'échiquier. Elle a perdu son titre au profit d'une pièce qui avançait à petits pas."
+    },
+    {
+      "type": "play",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "prompt": "Amenez la dame au centre pour qu'une diagonale atteigne le roi en g8 et une autre la tour en a8.",
+      "hint": "Le roi en g8 et la tour en a8 sont tous deux sur des cases blanches, comme votre dame — trouvez la case où leurs deux diagonales se croisent.",
+      "targetSan": [
+        "Qd5+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "Les deux étaient des diagonales",
+      "text": "Les deux lignes que vous venez d'utiliser étaient des diagonales. Un fou arrivé en d5 aurait frappé g8 et a8 exactement de la même façon — et le fou a reçu sa glissade dans la même réforme, alors cette moitié de la dame n'a rien de nouveau.\n\nL'autre moitié, si. Depuis d5, la dame tient aussi toute la cinquième rangée et toute la colonne d, donc les deux lignes qui se croisent sous elle n'ont jamais besoin d'être du même type : une rangée et une diagonale, une colonne et une diagonale, tout ce que la position propose. Une tour et un fou dans un seul corps, et une seule pièce peut se tenir là où les deux sortes de lignes se croisent."
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "Pas le temps de fuir",
+      "text": "L'échec a fait son travail. Y répondre n'a rien fait du tout pour la tour en a8, et c'est tout le bénéfice de frapper deux choses à la fois : la seconde n'a pas le temps de fuir.\n\nRetirez cela et le bénéfice s'évanouit. Offrez aux Noirs un coup gratuit — {{h3}}, par exemple — et {{Rc8}} y répond, et il n'y avait plus rien à gagner.\n\nConcluez donc sans en offrir un."
+    },
+    {
+      "type": "play",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "prompt": "Prenez la tour dans le coin, et prenez-la avec échec pour que les Noirs n'aient jamais un coup à dépenser.",
+      "hint": "Rien ne défend a8, la seule question est donc de savoir si votre prise arrive aussi sur une ligne qui passe par le roi noir en f8.",
+      "targetSan": [
+        "Qxa8+"
+      ]
+    }
+  ]
+}

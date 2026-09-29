@@ -1,0 +1,15 @@
+{
+  "id": "openings-18",
+  "fen": "rnbqkb1r/p1p2ppp/4pn2/1p6/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq b6 0 6",
+  "solution": [
+    "a4",
+    "c6",
+    "axb5",
+    "cxb5",
+    "Ne5"
+  ],
+  "title": "Non Potete Tenerlo",
+  "setup": "Il Nero ha preso il pedone della catalana e l'ha appena puntellato con ...b5. Colpite quella catena di pedoni prima che si assesti.",
+  "hint": "Il Nero tiene il pedone in più con una catena. Chiedetevi quale dei vostri pedoni ne raggiunge la base, e che cosa si apre dietro.",
+  "explanation": "## L'idea\n\nLa catalana presta un pedone. Tenerselo costa al Nero l'ala di donna.\n\n{{a4}} colpisce la catena alla base. Se il Nero la puntella con {{c6}}, allora {{axb5}} {{cxb5}} toglie il pedone c dalla grande diagonale, e {{Ne5}} ne sgombra il resto: l'alfiere in g2 guarda dritto la torre in a8, e il cavallo tiene d'occhio c4.\n\nIl Nero deve coprire a8, di solito con {{Nd5}}, e b5 non ha un difensore.\n\nUn pedone che dovete difendere con altri pedoni è un pedone che state pagando."
+}

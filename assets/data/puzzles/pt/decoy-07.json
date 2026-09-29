@@ -1,0 +1,14 @@
+{
+  "id": "decoy-07",
+  "fen": "6rk/pp1q2pp/8/5P1R/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1390,
+  "title": "A Torre Que Paga Primeiro",
+  "setup": "A tua torre em h5 olha para h7, a outra torre espera em d1, e o rei preto não pode mexer uma casa.",
+  "hint": "Pergunta em que casa o rei tem de estar para a tua segunda torre contar, e paga por ela.",
+  "explanation": "## A Ideia\n\n{{Rxh7+}} custa uma torre e {{Kxh7}} é forçado. A coluna h fica agora nua atrás dele, o peão de f5 tira g6, e {{Rh1#}} atravessa para o mate. Duas torres vencem um rei assim que a coluna à frente dele está vazia."
+}

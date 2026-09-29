@@ -1,0 +1,71 @@
+{
+  "id": "romantic-era",
+  "title": "Operada Bir Gece",
+  "summary": "Paris, 1858 ve Morphy'nin bir kaleyle satın aldığı şey",
+  "proof": "history-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Operada Bir Loca",
+      "text": "Paris, 1858. Şimdiye kadar oynanmış en ünlü partiyi, o sırada opera izlemeyi yeğleyecek biri oynadı.\n\nPaul Morphy yirmi bir yaşında, Amerikalı ve karşısına oturmaya razı olan herkesi yendiği bir Avrupa turunun ortasında. Brunswick Dükü İtalyan operasında bir loca ve bir parti önerir; Dük ile Kont Isouard siyahı birlikte alır ve her hamlede aralarında tartışırlar. Morphy beyazı alır, bir gözü sahnede, on yedi hamlede işi bitirir.\n\nKaynaklar o akşam ne söylendiği konusunda hâlâ anlaşamıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "Romantik Pazarlık",
+      "text": "Kaleleri sayın: Morphy'nin bir tane, siyahın iki tane.\n\nMorphy'nin içinde büyüdüğü satranç tek bir şeye inanıyordu ve ona eksiksiz inanıyordu — bütün taşları çıkar, rakip şaha giden bütün yolları aç ve bu hızın bedelini taşla öde. Sonradan bir adı oldu: **romantik** okul. Bunu deneyen oyuncuların çoğu yalnızca bir kale geride kalıyordu.\n\nMorphy, işin yaradığı kişidir ve fark aritmetikti. Bu açık hatlar bir ata ve bir kaleye mal oldu; beyaz üç puan geride."
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "title": "Uyuyan İki Kale",
+      "text": "İki tarafın da parti boyunca hiç oynamamış bir kalesi var ve onu uyandıracak durumda olan taraf yalnızca bir tane.\n\nSiyahın kalesi h8'de; şah e8'de, aralarında f8'de bir fil var ve o filin tek bir kurallı karesi bile yok.\n\nİşlek kare d7. b5'teki fil d7'deki kaleye saldırıyor; e8'deki şah, e7'deki vezir ve f6'daki at hepsi onu koruyor. Üçe bir — henüz düşen bir şey yok. Ama beyazın biri dışında bütün taşları tahtanın bu köşesine çoktan çevrilmiş durumda."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+      "prompt": "Son kaleyi de siyahın kendi kalesinin durduğu dikeye getirin.",
+      "hint": "Beyazın birinci yatayından bir siyah taşa kadar tek bir dikey açık uzanıyor ve beyazın yalnızca tek bir taşı hiç evden çıkmadı.",
+      "targetSan": [
+        "Rd1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 b k - 1 14",
+      "title": "Mesele Kale Değil",
+      "text": "Kale iner ve d7'deki sayım üç koruyucuya karşı iki saldırana çıkar. Yine bir şey yok.\n\nSiyah veziri yana adımlar: {{Qe6}}. Vezir d7'yi e7'den koruduğu gibi korumaya devam eder ve artık bir çapraz boyunca b3'teki beyaz vezirle karşı karşıyadır — vezirleri değişip partinin zehrini alma teklifi.\n\nMorphy başka bir ikiliyi değişir. {{Bxd7+}} {{Nxd7}} ve d1'deki kale ile siyah şahın yanındaki kare arasında duran taş artık bir attır."
+    },
+    {
+      "type": "play",
+      "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w k - 0 16",
+      "prompt": "Atı almak yalnızca siyahın geri almasını sağlar; bunun yerine dikeyi siyahın kendi atına boşalttırın.",
+      "hint": "Siyahın şahının karesi yok ve siyahın veziri sekizinci yataya ulaşamıyor; yani oradaki bir şahın tam olarak tek bir cevabı olurdu.",
+      "targetSan": [
+        "Qb8+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Vezir Neden Gitti",
+      "text": "Vezir bir armağan değildi. Bir tahliye emriydi.\n\nAtı almak baştan beri mümkündü ve hiçbir zaman bir işe yaramıyordu: siyah d7'de geri alır, dikey yeniden kapanır ve beyaz bir at karşılığında ikinci bir kaleyi de vermiş olur.\n\nb8'deki şah başka bir soru sordu. Siyahın bütün tahtada tam olarak tek bir kurallı hamlesi vardı ve o da atın gelip veziri almasıydı."
+    },
+    {
+      "type": "teach",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "title": "Oynamadan Önce Sayın",
+      "text": "d dikeyi artık boş; d1'deki kaleden sekizinci yataya kadar.\n\ng5'teki fil aynı anda iki iş yapıyor: boş f6 karesinin üzerinden d8'i koruyor ve e7'yi kapsıyor. e8'deki şahın gidecek başka yeri yok — f8 kendi filinin karesi ve d7, kalenin zaten sahip olduğu dikeyde. Yan kareye inen bir kalenin de önü kesilemez.\n\n> Romantik okul açık hatlar için taş ödedi. Bu, yalnızca bitişi önceden sayan oyuncularda işe yaradı."
+    },
+    {
+      "type": "play",
+      "fen": "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w k - 0 17",
+      "prompt": "İki taş ve vezir yok: işi atın boşalttığı dikeyde bitirin.",
+      "hint": "Beyazın bir taşı hem iniş karesini koruyor hem de şahın tek çıkışını kapsıyor; yani kalenin varmaktan başka yapacağı bir şey yok.",
+      "targetSan": [
+        "Rd8#"
+      ]
+    }
+  ]
+}

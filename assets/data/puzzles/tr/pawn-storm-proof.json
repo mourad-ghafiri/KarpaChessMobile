@@ -1,0 +1,11 @@
+{
+  "id": "pawn-storm-proof",
+  "fen": "2rq1rk1/pb1nb2p/1p2p3/3pBpp1/2PPn3/1PNB1N2/P3QPPP/2RR2K1 b - - 1 15",
+  "solution": [
+    "g4"
+  ],
+  "title": "Botvinnik Yürümeyi Sürdürüyor",
+  "setup": "Bogoljubow, Botvinnik'e karşı, Nottingham 1936. f ve g piyonlarınız çoktan ilerledi ve beyazın şah kanadını koruyan taş f3'teki at.",
+  "hint": "Piyon fırtınası, piyonların taşlara vurmasıdır. Bu hamlede piyonlarınızdan biri beyazın hangi taşına saldırabilir?",
+  "explanation": "## Fikir\n\n{{g4}} fırtına piyonunu f3'teki atın üstüne atar; o at e5'i ve beyazın şahının önündeki kareleri koruyan taştır. Bir taşa saldıran piyon hamle kazandırır ve atın kaçarak harcadığı her hamle, fırtınanın ödemediği bir hamledir.\n\nPartide at e1'e döndü, Botvinnik e5'te değişip merkezi devraldı ve siyah partiyi kazandı."
+}

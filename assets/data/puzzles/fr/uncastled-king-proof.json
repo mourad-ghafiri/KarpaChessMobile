@@ -1,0 +1,13 @@
+{
+  "id": "uncastled-king-proof",
+  "fen": "2b1kbnr/1pp2ppp/r3p3/p1q1P1B1/4N3/3B1N2/PPP2PPP/R2Q1RK1 w k - 5 10",
+  "solution": [
+    "Bb5+",
+    "Qxb5",
+    "Qd8#"
+  ],
+  "title": "Dégager la colonne avec échec",
+  "setup": "Le roi noir est toujours en e8 au dixième coup. Votre dame en d1 veut la colonne d, et votre propre fou en d3 s'y trouve.",
+  "hint": "Le fou doit quitter la colonne, et il doit la quitter avec un coup auquel les Noirs doivent répondre aussitôt.",
+  "explanation": "## L'idée\n\nLe roi n'a jamais quitté e8, et ses propres pièces bouchent ses sorties : le fou en f8, le pion en f7. Votre fou en g5 couvre e7 et d8. Tout ce qui sépare votre dame de d8 est votre propre fou en d3.\n\nIl part donc avec échec. {{Bb5+}} exige une réponse, et chaque réponse est trop lente. Prenez-le par {{Qxb5}} et {{Qd8#}} tombe, protégée par le fou en g5. Interposez par {{Bd7}} et c'est {{Bxd7#}} qui mate."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chess-in-europe",
+  "title": "Nomes Novos, Jogadas Velhas",
+  "summary": "Rebatizados na fronteira e inalterados durante quinhentos anos",
+  "proof": "history-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "A Estrada de Entrada",
+      "text": "O xadrez entrou na Europa sem deixar uma data para trás.\n\nA estrada mais bem documentada passa pelo **al-Andalus**, a Espanha muçulmana, onde se jogava shatranj muito antes de qualquer reino cristão escrever uma palavra sobre ele. A Sicília árabe é uma segunda estrada. Bizâncio, que chamava ao jogo *zatrikion*, é uma terceira, e os mercadores e os exércitos da época usaram-nas todas.\n\nO que sobrevive são os papéis do outro lado. Um testamento lavrado na Catalunha por volta de 1008 deixa um jogo de peças de xadrez a um mosteiro, e quem o redigiu não sentiu necessidade nenhuma de explicar o que eram."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "A Dama e o Elefante",
+      "text": "A Europa não tinha vizires, por isso o **ferz** ficou com o único cargo que assenta ao lado de um rei: passou a **dama**. *Regina* em latim, *dame* em francês. Essa mudança de nome deu-se cedo e quase por toda a parte.\n\nO *alfil* não encontrou acordo semelhante. A Itália fez dele *alfiere*, o porta-estandarte; a França *fou*, o bobo; a Alemanha um correio. A Inglaterra não o traduziu de todo e em 1474 ainda lhe chamava *aufin*. **Bishop**, o bispo, só ganha essa discussão no século XVI, muito depois de os entalhadores a terem decidido — as peças de Lewis já usam mitra em 1200. O português foi buscar a mesma palavra da igreja, e por isso o nosso bispo não precisa de desculpas."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "title": "Os Nomes Mexeram-se, as Jogadas Não",
+      "text": "Mudar de nome não é uma reforma.\n\nA dama da Europa continuava a rastejar uma casa na diagonal, exatamente como o ferz fazia. O bispo da Europa continuava a dar o mesmo salto de duas casas por cima da cabeça do que estivesse no caminho, a aterrar na mesma lista curtíssima de casas a que sempre esteve preso. As duas peças foram reconstruídas na península ibérica na década de 1470, e essa é a lição seguinte.\n\nO teu tabuleiro já está do outro lado disso. O bispo preto de c8 pode entrar na próxima jogada na grande diagonal clara. Um *alfil* saído de c8 não teria chegado a uma única casa dessa diagonal em cem partidas."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+      "prompt": "Leva o bispo de c8 a essa grande diagonal clara, a que percorre o tabuleiro em todo o seu comprimento.",
+      "hint": "Esse bispo tem exatamente duas casas disponíveis. Só uma delas está na diagonal.",
+      "targetSan": [
+        "Bb7"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Quatro Casas e uma Quinta",
+      "text": "Tabuleiro novo, jogam as brancas, e um bispo em c1 que ainda não foi a lado nenhum.\n\n{{Bd2}}, {{Be3}}, {{Bf4}}, {{Bh6}} — quatro casas ao longo de uma diagonal, com uma quinta pelo meio.\n\nUm *alfil* em c1 chegava a exatamente duas casas dessa linha inteira: e3, alcançada com um salto por cima de d2 estivesse d2 ocupada ou não, e g5 com o mesmo salto repetido. As outras três ficavam-lhe fechadas durante a partida inteira.\n\nFoi isso que a reforma comprou. E não é sobretudo uma questão de distância."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Através, Não por Cima",
+      "text": "A distância é a metade mais pequena. A metade maior é que um bispo passa *através* das casas em vez de passar por cima.\n\nUm *alfil* nunca conseguia segurar nada. Voava por cima do que lhe estivesse à frente, portanto nunca ficava ninguém preso à sua frente. Um bispo percorre a linha, e uma peça que esteja nessa linha tem um problema: se se afasta, o que estava atrás dela fica de repente ali para ser levado.\n\nO cavalo preto em f6 tem a dama em d8 mesmo atrás, uma diagonal, e7 vazia pelo meio. Ainda não aconteceu nada. Falta que alguém chegue."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "prompt": "Chega a essa diagonal, para que o cavalo de f6 não possa mexer uma casa sem entregar a dama que tem atrás.",
+      "hint": "O bispo de f1 tem o seu próprio peão de e2 no caminho. O outro não tem nada à frente.",
+      "targetSan": [
+        "Bg5"
+      ]
+    }
+  ]
+}

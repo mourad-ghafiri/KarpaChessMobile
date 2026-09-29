@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-01",
+  "fen": "7k/7p/5qp1/8/8/8/5PPP/B5K1 w - - 0 1",
+  "solution": [
+    "Bxf6+"
+  ],
+  "title": "Clouée sur la diagonale",
+  "setup": "Votre fou et le roi noir partagent la grande diagonale, et la dame noire se tient entre eux.",
+  "hint": "La dame ne peut pas quitter cette diagonale sans exposer son roi, et rien ne la défend là où elle est.",
+  "explanation": "## L'idée\n\nLa dame en f6 est clouée sur le roi en h8 : elle peut glisser le long de la grande diagonale, mais pas la quitter, et rien ne la défend.\n\nPrenez-la donc. {{Bxf6+}} gagne la dame pour rien, et {{Kg8}} est la seule réponse des Noirs.\n\nJouer le premier est tout l'enjeu : au tour des Noirs, {{Qxa1}} aurait été mat. Une pièce clouée n'est pas une pièce défendue — c'est une pièce qui ne peut pas fuir."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "chess-and-machines",
+  "title": "As Máquinas",
+  "summary": "Turing no papel, o Deep Blue no tabuleiro e um campeão que abandonou à décima nona",
+  "proof": "history-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "Um Programa Sem Computador",
+      "text": "Por volta de 1948, Alan Turing e David Champernowne escreveram no papel um programa de xadrez. Os computadores existiam — o problema era que nenhum dos que Turing tinha ao alcance o conseguia correr.\n\nO *Turochamp* era uma página de regras: pontua a posição contando o que cada lado tem, olha uma jogada ou duas em frente, joga a linha que pontuar melhor.\n\nEm 1952 Turing executou-o à mão contra um colega, Alick Glennie — cerca de meia hora de contas por jogada. O *Turochamp* perdeu. Nunca correu num computador enquanto Turing foi vivo, e continua a contar-se como o primeiro programa de xadrez alguma vez escrito."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "Nova Iorque, 1997",
+      "text": "Kasparov bateu o Deep Blue em 1996, por quatro partidas a duas. A IBM levou a máquina, reconstruiu-a e pediu a desforra.\n\nNova Iorque, maio de 1997, outra vez seis partidas. O Deep Blue ganhou por três e meio a dois e meio — a primeira vez que um campeão do mundo em título perdeu um match contra um computador. A margem foi uma partida.\n\nEsta é a última das seis, e as brancas são a máquina."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "A Porta em f7",
+      "text": "As pretas acabaram de avançar o peão para h6, o que pergunta ao cavalo de g5 onde prefere estar.\n\nO rei preto em e8 tem uma coisa à frente: o peão de f7. O bispo branco em d3 já aponta pela diagonal através de f5 e g6, portanto no instante em que esse peão sair, chega um xeque por trás dele.\n\n{{Bg6}} fá-lo sair. E também perde um bispo por nada — {{fxg6}}.\n\nUm peão não se mexe por o ameaçares. Mexe-se para capturar."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "prompt": "Oferece ao peão de f7 alguma coisa para capturar, e fica com o bispo que vai dar xeque atrás dele.",
+      "targetSan": [
+        "Nxe6"
+      ],
+      "hint": "Conta os defensores do peão preto de e6. Há exatamente um, e é o peão que precisas de fazer mexer."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Uma Jogada Legal",
+      "text": "Captura já o cavalo e é aqui que se acaba: o bispo aterra em g6 com xeque, e as pretas têm exatamente uma resposta legal em todo o tabuleiro. Não é uma escolha entre casas más. É uma jogada.\n\nE assim o rei preto em e7 fica à frente da sua própria dama em d8 e do seu próprio bispo em f8, e o direito ao roque desapareceu para sempre.\n\nConta o material e as pretas ganharam um cavalo por um peão. Conta as casas e as pretas estão acabadas."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Sem Pressa",
+      "text": "Kasparov não capturou já o cavalo. Saiu antes a dama — e o Deep Blue respondeu com o roque, com o cavalo ainda ali por capturar em e6, uma peça inteira à espera de quem a quisesse.\n\nO sacrifício em si já estava nos livros. O que abalou as pessoas foi a completa ausência de pressa da máquina depois disso.\n\nA captura chegou uma jogada mais tarde, o que mandou aquele rei para d8 em vez de e7. Kasparov abandonou à décima nona jogada, a partida mais curta do match."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "O Que Veio Depois",
+      "text": "O Deep Blue era o conhecimento humano do xadrez, escrito como regras e pesquisado a duzentos milhões de posições por segundo.\n\nEm 2017 deram ao **AlphaZero** as regras e mais nada, ele jogou milhões de partidas contra si próprio e chegou a um estilo que os românticos teriam reconhecido. Desde 2020 o **Stockfish**, o motor de código aberto mais forte e o que está dentro desta aplicação, julga as posições com uma pequena rede neuronal emprestada do shogi.\n\nNinguém resolveu o xadrez. Sete peças ou menos podem consultar-se numa tabela; trinta e duas nem sequer estão perto.\n\n> Uma máquina lá chega a contar todas as linhas. Tu lá chegas a reconhecer a forma — e as formas que te esperam têm nome."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "prompt": "Não foge nada das pretas, portanto gasta a jogada no teu próprio rei.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Existe exatamente uma jogada neste tabuleiro que mexe duas peças brancas ao mesmo tempo."
+    }
+  ]
+}

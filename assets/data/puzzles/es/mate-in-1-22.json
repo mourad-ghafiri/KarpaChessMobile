@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-22",
+  "fen": "k7/2K5/8/8/8/8/8/7R w - - 0 1",
+  "solution": [
+    "Ra1#"
+  ],
+  "title": "Apretón en la esquina",
+  "setup": "El rey negro está en la esquina de a8, y tu rey de c7 cubre b7 y b8.",
+  "hint": "Tu rey ha sellado las casillas junto a la esquina. La torre solo tiene que dar jaque por el borde.",
+  "explanation": "## La idea\n\nEs el mate clásico de rey y torre en la esquina. Tu rey de c7 cubre b7 y b8, las dos casillas junto a la esquina.\n\n{{Ra1#}} da jaque por la columna a, y a7 también está en la línea de la torre. Nada puede tapar, y el rey no llega a la torre.\n\nEn cuanto tu rey sella las casillas junto a la esquina, cualquier jaque seguro por el borde es mate."
+}

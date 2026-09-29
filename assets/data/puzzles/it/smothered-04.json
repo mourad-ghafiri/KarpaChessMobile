@@ -1,0 +1,12 @@
+{
+  "id": "smothered-04",
+  "fen": "2r3nk/pp4pp/1q6/4N3/8/8/PB3PPP/3R2K1 w - - 5 25",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1245,
+  "title": "Due Scacchi, Un Matto",
+  "setup": "Il Nero ha appena riportato il cavallo in g8, lasciando al re tre vicini e nessuna casa vuota.",
+  "hint": "Il vostro cavallo ha qui due scacchi disponibili; stabilite quale di essi il pedone h non possa semplicemente mangiare.",
+  "explanation": "## L'idea\n\nDue balzi di cavallo danno scacco, ma {{Ng6+}} va addosso a hxg6. {{Nf7#}} atterra sull'unica casa che nessun pezzo nero copre, e con g8, g7 e h7 tutte occupate dai suoi pezzi il re non ha dove mettere piede. Verificate sempre se lo scacco che soffoca possa essere catturato."
+}

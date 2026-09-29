@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-09",
+  "fen": "4k3/8/1B6/1KpR4/8/7p/8/R7 w - - 0 1",
+  "solution": [
+    "Ra7",
+    "h2",
+    "Rd8#"
+  ],
+  "rating": 1650,
+  "title": "Arka Yatayda İki Kale",
+  "setup": "Siyahın şahı e8'de, piyonları c5 ile h3'te oturuyor ve kaleleriniz beşinci yataya ve a dikeyine hükmediyor.",
+  "hint": "Bir kale, şahın kullanacağı dikeyin çoktan sahibi. Ötekine, şah çekmeden, ihtiyaç duyduğu yatayı verin.",
+  "explanation": "## Fikir\n\n{{Ra7}} yedinci yatayı sessizce alır ve siyaha {{Rd8#}} hamlesini durduracak hiçbir şey bırakmaz. {{Rd8#}} arka yatayda gelir. İki kale, iki yatay alarak mat eder — hüner, ikincisini sessizce almaktır."
+}

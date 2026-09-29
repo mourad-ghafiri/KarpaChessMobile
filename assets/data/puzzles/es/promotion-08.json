@@ -1,0 +1,14 @@
+{
+  "id": "promotion-08",
+  "fen": "1R6/1P3ppk/7p/8/8/8/3r1PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "b8=Q+"
+  ],
+  "rating": 1280,
+  "title": "Quítate de en medio",
+  "setup": "Tu peón de b7 quiere b8, pero tu propia torre está ahí, y la torre negra de d2 está suelta.",
+  "hint": "Aquí el bloqueo es tu propia torre. Tiene que irse, y tiene que hacerlo con algo que las Negras no puedan ignorar.",
+  "explanation": "## La idea\n\n{{Rh8+}} despeja b8 con jaque. {{Kxh8}} es lo mejor que tienen las Negras —{{Kg6}} también deja la torre en pie—, y {{b8=Q+}} vuelve a coronar con jaque, y las Blancas quedan con una dama por una torre de ventaja. Una pieza que está en su propia casilla de coronación tiene que dejarla ganando un tiempo."
+}

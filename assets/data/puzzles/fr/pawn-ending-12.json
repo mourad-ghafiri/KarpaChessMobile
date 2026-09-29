@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-12",
+  "fen": "7K/8/k1P5/7p/8/8/8/8 w - - 1 2",
+  "solution": [
+    "Kg7"
+  ],
+  "rating": 1500,
+  "title": "Deux tâches à la fois",
+  "setup": "Le roi noir vient d'arriver en a6, et le pion h semble n'être qu'à quatre coups de la promotion, la route libre.",
+  "hint": "Ne choisissez pas entre poursuivre son pion et pousser le vôtre — cherchez un itinéraire qui fait les deux.",
+  "explanation": "## L'idée\n\nPoursuivre tout droit le long de la colonne h est sans espoir, alors le roi emprunte la diagonale, vers les deux pions à la fois. Si les Noirs courent par {{h4}}, {{Kf6}} puis Ke6 amènent le roi à côté de d7, et votre pion c va à dame en même temps que celui des Noirs. Si les Noirs vont chercher le pion c par {{Kb6}}, la même marche a fait gagner le temps de rattraper le pion h. Dans les deux cas, c'est nul.\n\nC'est l'étude de Réti : un roi sur une diagonale peut poursuivre deux choses à la fois."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-27",
+  "fen": "k7/8/1K6/8/8/8/8/7R w - - 0 1",
+  "solution": [
+    "Rh8#"
+  ],
+  "title": "Martello dall'Altro Capo",
+  "setup": "Il re nero è incastrato nell'angolo a8, e il vostro re in b6 copre le case davanti al re nero.",
+  "hint": "Il vostro re in b6 tiene a7 e b7. La vostra torre può dare scacco dall'altra parte della scacchiera.",
+  "explanation": "## L'idea\n\nQuesto è di nuovo il matto d'angolo con re e torre, con la torre che dà scacco dall'altro capo. Il vostro re in b6 copre a7 e b7.\n\n{{Rh8#}} dà scacco lungo la traversa di fondo, e anche b8 sta sulla linea della torre. Niente può parare, e il re non arriva alla torre.\n\nUna volta che il vostro re ha costruito la gabbia, la distanza non indebolisce lo scacco della torre."
+}

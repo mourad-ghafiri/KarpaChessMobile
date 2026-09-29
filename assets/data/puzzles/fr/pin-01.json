@@ -1,0 +1,12 @@
+{
+  "id": "pin-01",
+  "fen": "6k1/2R5/1p2r3/2p1P3/3b4/5B2/8/5K2 w - - 0 1",
+  "solution": [
+    "Bd5"
+  ],
+  "rating": 800,
+  "title": "Clouée sur le roi",
+  "setup": "La tour noire en e6 se tient sur la diagonale blanche qui aboutit à son propre roi en g8.",
+  "hint": "Votre fou cherche une case d'où la tour devant lui n'a plus nulle part où fuir. Quelle ligne aboutit en g8 ?",
+  "explanation": "## L'idée\n\nLa tour en **e6** et le roi en **g8** partagent la diagonale a2–g8. {{Bd5}} s'y place, et la tour est clouée : la déplacer exposerait le roi, ce qui est illégal. Rien ne défend e6 non plus, donc la tour est simplement ramassée au coup suivant."
+}

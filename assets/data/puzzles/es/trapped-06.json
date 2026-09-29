@@ -1,0 +1,12 @@
+{
+  "id": "trapped-06",
+  "fen": "2r3k1/Bpp2pp1/5n1p/p7/8/8/P1P2PPP/3R2K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "rating": 1210,
+  "title": "Cierra la puerta",
+  "setup": "El alfil blanco se ha comido un peón en a7, en lo más hondo de tu campo, y solo puede volver a casa por b8 y b6.",
+  "hint": "Tu torre de c8 ya vigila una de las dos puertas. Cierra la otra con algo que el alfil no pueda comerse sin riesgo.",
+  "explanation": "## La idea\n\n{{b6}} le quita al alfil su última casilla, y el peón está defendido por c7, así que Bxb6 cxb6 gana una pieza por un peón. La torre cubre b8, el propio peón blanco de a2 tapa la columna a, y c7 impide que una torre llegue a a7 por la fila. Luego Ra8."
+}

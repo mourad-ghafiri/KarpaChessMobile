@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-14",
+  "fen": "4r2k/1q4pp/8/6B1/8/8/3P1PPP/3RKR2 w - - 0 1",
+  "solution": [
+    "Be3"
+  ],
+  "title": "Alzate lo Scudo",
+  "setup": "La torre nera dà scacco al vostro re lungo la colonna e aperta, e i vostri stessi pezzi hanno inscatolato il re. La linea va chiusa.",
+  "hint": "Due delle vostre mosse parano lo scacco. Una sola atterra su una casa che un amico protegge.",
+  "explanation": "## L'idea\n\nUno scacco lungo una linea ha tre risposte: scappare, catturare o parare. Il vostro re non ha una casa e niente arriva alla torre in e8, quindi dovete parare.\n\n{{Be3}} para su una casa che i pedoni in d2 e f2 difendono tutti e due, quindi {{Rxe3+}} darebbe una torre per un alfiere. Anche {{Be7}} para, ma e7 non la difende niente, e {{Rxe7#}} è matto.\n\nIl miglior scudo è uno scudo difeso."
+}

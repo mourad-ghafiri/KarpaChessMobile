@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-05",
+  "fen": "6k1/2R2ppp/6r1/8/8/1B2r1Q1/PP6/K2b4 w - - 0 1",
+  "solution": [
+    "Rc8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1460,
+  "title": "La tour dans le coin",
+  "setup": "Le fou noir est en d1 et ses tours se tiennent en g6 et e3 — votre roi semble franchement exposé.",
+  "hint": "Ne répondez pas aux menaces. Trouvez l'échec qui force une pièce noire sur la rangée que possédera votre tour.",
+  "explanation": "## L'idée\n\n{{Rc8+}} ignore toutes les menaces contre votre roi. {{Re8}} est la seule réponse, et maintenant {{Rxe8#}} est mat parce que la tour prend toute la huitième rangée et les pions le reste. Le temps bat le matériel quand ce temps termine la partie."
+}

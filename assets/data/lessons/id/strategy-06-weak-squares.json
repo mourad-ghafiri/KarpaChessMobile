@@ -1,0 +1,50 @@
+{
+  "id": "weak-squares",
+  "title": "Petak Lemah dan Kompleks Warna",
+  "summary": "Lubang yang tak akan pernah bisa dikuasai pion lagi",
+  "proof": "strategy-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "Empat Pion, Satu Warna",
+      "text": "Pion tak pernah berjalan mundur. Satu aturan itulah yang mengubah sebuah petak menjadi milik permanen.\n\nEmpat pion pusat Hitam berdiri di c6, d5, e6 dan f5 — semuanya petak terang, dan tak satu pun bisa berbalik. Petak yang tak akan pernah bisa diserang lagi oleh pion Anda disebut **petak lemah**, atau **lubang**. Lihat e5. Hanya pion d dan pion f yang pernah menguasainya, dan keduanya sudah berbaris melewatinya.\n\nBuah bisa mengawasi sebuah lubang. Pionlah yang menguasainya, dan Hitam tak punya satu pun yang tersisa untuk e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1k2r/pp2q1pp/2pbpn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w kq - 1 8",
+      "title": "Pindah Masuk",
+      "text": "{{Ne5}}, dan kuda pun tiba di rumahnya. Hitam mengamankan raja dengan {{O-O}}, yang sama sekali tak mengubah apa pun tentang e5 — tak ada pion yang akan datang mengusir buah yang berdiri di sana.\n\nItulah nilai sebuah lubang. Bukan petak yang Anda kunjungi. Petak yang Anda tempati, dengan pilihan mengirim buah kedua menyusul yang pertama.\n\nSatu buah hitam masih membantah: gajah di d6. Ia satu-satunya buah hitam yang menyentuh e5, dan dialah seluruh pertahanan petak gelap Hitam."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/pp2q1pp/2pbpn2/3pNp2/2PP4/1P4P1/P3PPBP/RNBQ1RK1 w - - 3 9",
+      "prompt": "Jaga kuda Anda dengan sebuah buah selain pion, dengan memilih buah yang bisa menukar satu-satunya pembela petak gelap Hitam.",
+      "targetSan": [
+        "Bf4"
+      ],
+      "hint": "Gajah Anda di c1 punya dua diagonal keluar dari sudut, dan hanya satu di antaranya yang melintasi petak yang menguasai e5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "Seluruh Warna Dijual",
+      "text": "Papan baru, dan pertukarannya sudah terjadi: gajah petak gelap Hitam ditukar dengan kuda, dan tak ada toko yang menjual gajah pengganti.\n\nSatu lubang hanyalah gangguan. Seluruh warna adalah rencana. Kuda di e7 berdiri di petak gelap, artinya setiap petak yang diserangnya adalah petak terang. Dan tak ada pion hitam yang akan pernah melindungi g7 — satu-satunya petak dari mana pion bisa melakukannya adalah f8 dan h8, dan pion yang tiba di baris kedelapan berhenti menjadi pion."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "title": "Apa yang Dibayar Putih",
+      "text": "Dua pion putih di lajur c adalah kuitansinya. Putih menerima pion ganda dan raja yang tak punya rumah nyaman di sayap menteri, dan membeli gajah itu dengan keduanya. Kedua pihak tahu syaratnya.\n\nSekarang tagihlah. g7 adalah pion yang tak dilindungi siapa pun, berdiri di ambang pintu rumah yang masih harus dimasuki raja hitam, dan menteri Putih punya jalan kosong ke arahnya.\n\n> Sebelum Anda menukar gajah, hitung petak-petak yang dijaganya. Anda juga menjual petak-petak itu, dan petak-petak itu tak akan kembali."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "prompt": "Bidikkan menteri Anda ke pion sayap raja yang tak lagi punya buah hitam untuk melindunginya.",
+      "targetSan": [
+        "Qg4"
+      ],
+      "hint": "Pion mana di samping raja hitam yang sama sekali tak punya pembela sekarang setelah gajahnya hilang?"
+    }
+  ]
+}

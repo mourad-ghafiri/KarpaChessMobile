@@ -1,0 +1,11 @@
+{
+  "id": "interference-proof",
+  "fen": "6k1/5ppp/p7/8/q2N4/5B2/5PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "Çaprazı Kesen Duvar",
+  "setup": "Siyahın a4'teki veziri e8'i koruyan tek taş ve e1'deki kaleniz dosdoğru o kareye doğrultulmuş.",
+  "hint": "Vezirin çaprazına, atınızın zaten kapsadığı bir karede, görmezden gelemeyeceği bir şey koyun.",
+  "explanation": "## Fikir\n\na4'teki vezir e8'i b5, c6 ve d7 üzerinden geçen çapraz boyunca korur. {{Bc6}} tam ortasına dikilir, d4'teki atın korumasındadır ve üstelik vezire saldırır. Fili almak vezire mal olur; atınızı almak ise kalenizin e8'de mat etmesine izin verir. Vezirin en iyi denemeleri f8'e doğru yön değiştirir, ama o zaman kaleniz e8'de şah çeker, vezirin f8'de kapatması gerekir ve kendi şahına karşı açmaza girip bir kale karşılığında gider."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-05",
+  "fen": "3R4/8/2b3p1/4K3/2k5/8/6Q1/r4R1B w - - 0 1",
+  "solution": [
+    "Qxc6+",
+    "Kb3",
+    "Rb8+",
+    "Ka2",
+    "Qa4#"
+  ],
+  "rating": 1490,
+  "title": "Çaprazı Satın Alın",
+  "setup": "İki şah merkezde karşı karşıya, siyahınki c4'te ve c6'daki fili her şeyi bir arada tutan taş.",
+  "hint": "Siyahın bir taşı vezirinizin istediği kareleri koruyor. Onu fiyatlayın, sonra kapsadığı hat boyunca şah çekin.",
+  "explanation": "## Fikir\n\n{{Qxc6+}} fili şah çekerek kaldırır. {{Rb8+}} şahı kenara sürer ve {{Qa4#}} kutuyu kapatır. Bir koruyucuyu almak, taş alma şahla birlikte geldiğinde bir av hamlesidir."
+}

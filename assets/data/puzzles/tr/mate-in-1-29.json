@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-29",
+  "fen": "7k/5K2/8/6N1/8/8/8/2B5 w - - 0 1",
+  "solution": [
+    "Bb2#"
+  ],
+  "title": "Uzun Çapraz Mızrağı",
+  "setup": "g5'teki atınız ile f7'deki şahınız siyahın şahını köşede kuşatmış ve filiniz hâlâ evinde, c1'de.",
+  "hint": "At ile şah, şahın çevresindeki her kareyi kapsıyor. h8'e ulaşan çaprazı bulun.",
+  "explanation": "## Fikir\n\nKutuya alma işini at ile şah yaptı: f7'deki şahınız g7 ile g8'i, g5'teki at h7'yi kapsıyor.\n\n{{Bb2#}} uzun çapraza adımlar ve h8'deki şaha uzak köşeden şah çeker. Araya hiçbir şey giremez ve şahın karesi kalmamıştır.\n\na1'den h8'e uzanan uzun çapraz bir mat şerididir: şah köşede kutuya alındıktan sonra fil işi tahtanın öteki ucundan bitirebilir."
+}

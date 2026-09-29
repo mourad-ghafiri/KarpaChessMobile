@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-03",
+  "fen": "7k/5ppp/8/1Pq1R3/N7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Qf8",
+    "Rxf8#"
+  ],
+  "rating": 1000,
+  "title": "Déviez le bloqueur",
+  "setup": "Le roi noir se cache derrière trois pions sur la huitième rangée pendant que sa dame erre au loin en c5.",
+  "hint": "Un échec sur la dernière rangée auquel le roi n'a pas de réponse. Quelle pièce noire peut s'interposer, et où ?",
+  "explanation": "## L'idée\n\n{{Re8+}} frappe la dernière rangée. Le roi n'a aucune case — f7, g7 et h7 sont ses propres pions — donc la dame doit s'interposer par {{Qf8}}. C'est tout l'intérêt : {{Rxf8#}} élimine l'obstacle et mate sur la même case."
+}

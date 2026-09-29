@@ -1,0 +1,14 @@
+{
+  "id": "promotion-02",
+  "fen": "1N6/1P2kppp/5n2/3r4/8/6P1/5PKP/8 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Kd7",
+    "b8=Q"
+  ],
+  "rating": 1040,
+  "title": "Muovete il Vostro Pezzo",
+  "setup": "Il vostro pedone in b7 è a una casa da una donna nuova, e la casa è occupata dal vostro stesso cavallo.",
+  "hint": "Il cavallo deve andarsene, e al Nero non va consegnata una mossa libera per organizzare un blocco.",
+  "explanation": "## L'idea\n\nIl cavallo in b8 sta sulla strada del proprio pedone. {{Nc6+}} si sposta con scacco, quindi il Nero non ha il tempo di coprire b8; dopo {{Kd7}} il pedone entra con {{b8=Q}}. Liberate una casa di promozione guadagnando un tempo, mai in silenzio."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "promotion-07",
+  "fen": "r5k1/P4pp1/7p/8/8/7P/5PP1/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Rxb8",
+    "axb8=Q+"
+  ],
+  "rating": 1240,
+  "title": "O Peão Defende",
+  "setup": "O teu peão de a7 está travado pela torre de a8, e a tua própria torre está livre para correr pela primeira linha.",
+  "hint": "Que casa ao lado da torre que bloqueia já é guardada pelo próprio peão passado?",
+  "explanation": "## A Ideia\n\n{{Rb8+}} é xeque e a torre é intocável, porque o peão de a7 guarda b8. {{Rxb8}} dá em {{axb8=Q+}}, promovendo com xeque e saindo com uma dama por uma torre. Afastar-se com Kh7 em vez disso perde simplesmente a torre para Rxa8."
+}

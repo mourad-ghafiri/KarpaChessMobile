@@ -1,0 +1,56 @@
+{
+  "id": "k-p-vs-k",
+  "title": "Şah ve Piyona Karşı Şah",
+  "summary": "Bir piyon geride ve beraberliği tutan iki kare",
+  "proof": "endgame-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "Kenara Bir Dikey",
+      "text": "Rakip şah piyona çoktan eşlik ediyorken bir piyon geride olmak normalde formalitedir. Bu dikeyde değil.\n\nBeyazın a6'daki piyonu a8'de terfi eder ve a8, beş yerine üç komşusu olan bir köşe karesidir. Bu eksiklik saldıran tarafındır: bir şahı b8 ile a8'den söküp atmak için beyaza tahtanın kenarının hiçbir zaman vermediği kareler gerekir.\n\nc8'deki şahınızın bir adımı köşeyi duvara çevirir, iki adımı da partiyi beyaza verir."
+    },
+    {
+      "type": "teach",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "title": "Kaybettiren Adım",
+      "text": "Piyondan uzaklaşmak güvenli hissettirir ve burada ölümcüldür.\n\n{{Kd8}} şahınızı rahat bir dikey uzakta tutar. {{Kb7}} cevabı gelir ve piyonun çevresindeki her kare artık beyazındır. {{Kd7}}, yakınlarda kalan tek adımdır ve {{a7}} piyonu açık bir yolla, kapıyı tutan bir şahla birlikte yola çıkarır.\n\nO piyonu geçmek gibi bir ihtimaliniz zaten yoktu. Tahtadaki tek varlık köşeydi ve ondan uzaklaşmak köşeyi elden çıkarmaktı."
+    },
+    {
+      "type": "play",
+      "fen": "2k5/8/PK6/8/8/8/8/8 b - - 10 8",
+      "prompt": "Beyazın şahına piyonun yanında hiç yer bırakmayan tek kareye gidin.",
+      "targetSan": [
+        "Kb8"
+      ],
+      "hint": "Beyazın ya piyonu vermek ya da size hiç kurallı hamle bırakmamak zorunda kalacağı kareyi arayın."
+    },
+    {
+      "type": "teach",
+      "fen": "1k6/8/PK6/8/8/8/8/8 w - - 11 9",
+      "title": "Beyazın Tahtası Tükeniyor",
+      "text": "Şimdi beyaz denesin.\n\n{{a7+}} şahtır ve {{Ka8}}, piyonun öylece vezir olmasına izin vermeyen tek cevaptır. Şahınız köşededir ve beyazın b6'daki şahının piyondan bir şey çıkarmak için b7'ye ihtiyacı vardır. b7'yi alamaz: şahınız a8'den o kareyi kapsar.\n\nYani beyazın yana çekilmesi gerekir. {{Ka6}} gelir ve neye sahip olduğunuza bakın — b7 ile b8 kapsanmış, şahınızın gidecek yeri yok ve şah çeken bir şey de yok. Pat. Beyazın başka her adımı, şahınızın a7'ye yürüyüp piyonu almasına izin verir."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "Öteki Tahta",
+      "text": "Köşeyi ortadan kaldırın, bütün yöntem değişsin. Piyon d5'te ve d8 sıradan beş komşusu olan sıradan bir kare.\n\nd7'deki şahınız işin yarısını zaten yapıyor: piyonun yolunda, onun önünde duruyor ve piyon bir şahın içinden yürüyemez.\n\nÖteki yarısı c5'teki beyaz şah ve unutulan yarı da o.\n\n> Piyonun önünde ve rakip şahla bir boş kare arayla yüz yüze. Her seferinde ikisi birden."
+    },
+    {
+      "type": "teach",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "title": "Geriye Gitmek Yana Gitmek Değildir",
+      "text": "İçgüdü, dikeyde geriye çekilip piyonu önünüzde tutmaktır. Kaybettirir.\n\n{{Kd8}} aynı savunmanın bir yatay gerisi gibi görünür. {{Kd6}} cevabı gelir: beyazın şahı artık piyonun önünde, sizinkine bir kare uzaklıkta ve oynamak zorunda olan sizsiniz. {{Kc8}} yana çekilir — e8 de aynı hikâyenin aynadaki hâlidir — {{Ke7}} çevrenizden dolanır ve piyon keyfince arkasından gelir."
+    },
+    {
+      "type": "play",
+      "fen": "8/3k4/8/2KP4/8/8/8/8 b - - 3 2",
+      "prompt": "Beyazın şahına karşı opozisyonu alın ki kendini bağlamak zorunda kalan siz değil beyaz olsun.",
+      "targetSan": [
+        "Kc7"
+      ],
+      "hint": "Şahlar bir dikey boyunca aralarında bir boş kare olacak şekilde yüz yüze gelir ve beyazın şahı sizinkinin bulunduğu dikeyde değil."
+    }
+  ]
+}

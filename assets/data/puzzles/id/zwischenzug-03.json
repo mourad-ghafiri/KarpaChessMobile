@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-03",
+  "fen": "2r3k1/1R1B1ppp/8/2Qr4/7b/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qxc8+",
+    "Bd8",
+    "Qxd8#"
+  ],
+  "rating": 1380,
+  "title": "Dua Benteng, Tak Ada yang Menolong",
+  "setup": "Benteng-benteng Hitam berdiri di c8 dan d5 dan gajahnya di h4 membidik posisi Anda, sementara buah-buah Anda tersebar.",
+  "hint": "Penangkapan yang jelas memenangkan benteng. Carilah justru penangkapan yang hanya menyisakan satu jawaban sah bagi Hitam.",
+  "explanation": "## Ide\n\nMenangkap di d5 memenangkan benteng dan partai berlanjut. {{Qxc8+}} memenangkan benteng yang lain dan mengakhirinya: {{Bd8}} satu-satunya penghalang, dan {{Qxd8#}} menyusul. Pilih penangkapan yang memberi sekak, bukan yang memberi lebih banyak."
+}

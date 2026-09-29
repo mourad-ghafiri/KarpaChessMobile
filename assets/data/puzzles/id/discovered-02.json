@@ -1,0 +1,11 @@
+{
+  "id": "discovered-02",
+  "fen": "rnbqkb1r/pppp2pp/8/8/4N3/8/PPP2PPP/2B1R1K1 w - - 0 1",
+  "solution": [
+    "Nd6#"
+  ],
+  "title": "Sekak Ganda di Lajur e",
+  "setup": "Kuda Anda di e4 satu-satunya yang berdiri di antara benteng Anda di e1 dan raja Hitam. Langkah kuda mana pun memberi sekak. Temukan yang mengakhiri partai.",
+  "hint": "Dua petak kuda membuat kuda juga memberi sekak. Hanya satu di antaranya yang juga menguasai petak tempat raja akan lari.",
+  "explanation": "## Ide\n\nSetiap langkah kuda menyingkap benteng di e1, tetapi {{Nd6#}} juga memberi sekak dari kuda. Melawan sekak ganda raja harus bergerak, dan ia tak punya tempat untuk dituju: menteri dan gajahnya sendiri mengisi d8 dan f8, pionnya sendiri mengisi d7, benteng melihat e7, dan kuda menguasai f7.\n\nSekak ganda yang lain, dari f6, membiarkan f7 terbuka, dan raja berjalan keluar."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "promotion-10",
+  "fen": "7R/1Ppkp3/p7/4PP2/8/8/6KP/q7 w - - 0 1",
+  "solution": [
+    "b8=N#"
+  ],
+  "rating": 1340,
+  "title": "Il Cavallo Dà Matto",
+  "setup": "Il re nero sta in d7 murato dai propri pedoni in c7 e e7, e il vostro pedone b è pronto ad arrivare.",
+  "hint": "Una donna nuova in b8 non darebbe nemmeno scacco. Chiedetevi quale promozione tocchi d7 da quella casa.",
+  "explanation": "## L'idea\n\n{{b8=N#}} dà scacco da b8, e il re non ha una casa: c6 è coperta dal cavallo, d6 dal pedone in e5, e6 dal pedone in f5, e c8, d8 e e8 dalla torre in h8. c7 e e7 sono i suoi pedoni. Una donna lì non darebbe proprio nessuno scacco."
+}

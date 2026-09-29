@@ -1,0 +1,15 @@
+{
+  "id": "openings-13",
+  "fen": "r1bq1rk1/p3nppp/1pnbp3/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 0 9",
+  "solution": [
+    "e5",
+    "Bxe5",
+    "Nxe5",
+    "Nxe5",
+    "Rxe5"
+  ],
+  "title": "Conta Antes de Apertares",
+  "setup": "O esquema do Ataque Índio do Rei está completo, e as pretas acabaram de avançar um peão para b6 com um bispo em d6. Joga o avanço central para que este esquema foi construído.",
+  "hint": "Um avanço agarra espaço e oferece um peão ao mesmo tempo. Conta atacantes e defensores dessa casa antes de te comprometeres.",
+  "explanation": "## A Ideia\n\n{{e5}} é o avanço à volta do qual todo o Ataque Índio do Rei é construído, e ganha espaço com tempo sobre o bispo.\n\nE oferece também um peão, e comê-lo é um erro. e5 é atacada pelo bispo de d6 e pelo cavalo de c6, e defendida pelo cavalo de f3 e pela torre de e1. Depois de {{Bxe5}} {{Nxe5}} {{Nxe5}} {{Rxe5}}, as brancas ficam com um bispo por um peão. O melhor para as pretas é recuar o bispo e ceder o espaço.\n\nConta quanto vale cada atacante, e não só quantos são."
+}

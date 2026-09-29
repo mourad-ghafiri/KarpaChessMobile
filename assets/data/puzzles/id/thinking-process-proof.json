@@ -1,0 +1,11 @@
+{
+  "id": "thinking-process-proof",
+  "fen": "6k1/5ppp/1Q6/4r3/4n2P/7P/5PP1/1qR3K1 b - - 0 1",
+  "solution": [
+    "Qxc1+"
+  ],
+  "title": "Dua Penangkapan, Satu Sekak",
+  "setup": "Menteri Putih di b6 berdiri tanpa perlindungan, dan benteng di c1 menyerang menteri Anda. Ajukan ketiga pertanyaan sebelum Anda mengambil apa pun.",
+  "hint": "Putih mengancam sekak di baris kedelapan yang tak bisa dihindari raja Anda. Salah satu penangkapan Anda datang dengan sekak, dan sekak tak bisa diabaikan.",
+  "explanation": "## Ide\n\nPertanyaan pertama: Putih mengancam mengambil menteri Anda, dan memberi sekak di baris kedelapan, tempat raja Anda tak punya petak untuk melarikan diri.\n\nPertanyaan kedua menemukan dua penangkapan. {{Qxb6}} memenangkan menteri, dan pertanyaan ketiga membuangnya: benteng memberi sekak di c8, dan mat menyusul.\n\n{{Qxc1+}} memenangkan benteng dengan sekak, dari petak yang tak diserang apa pun. Putih harus menjawab sekak itu, dan Anda unggul satu benteng dan satu kuda, dengan waktu untuk menghadapi ancamannya."
+}

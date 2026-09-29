@@ -1,0 +1,56 @@
+{
+  "id": "mad-queen",
+  "title": "The Mad Queen",
+  "summary": "Two slow pieces go into the 1470s and come out the fastest on the board",
+  "proof": "history-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Queen's Chess",
+      "text": "The queen Europe played for five centuries moved one square diagonally and no further. Within a generation it was the strongest piece in the game.\n\nWhat survives of the change is a poem. *Scachs d'amor*, in Valencian, carries the earliest surviving game played under the new rules, embedded in its commentary. The manuscript is undated; around 1475 is the usual reading, and Valencia is a reconstruction resting largely on the poem itself.\n\nSpain named the new game *axedrez de la dama*, the queen's chess. Italian and French were ruder: *alla rabiosa*, *la dame enragée*, for a queen that would not stay still."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "The Elephant Went With It",
+      "text": "The queen was not rewritten alone.\n\nThe elephant's hop — exactly two squares, over whatever stood between, onto one of the eight squares it would ever touch — became the bishop's slide down the whole diagonal. One reform, one idea applied twice: give the diagonal pieces the entire diagonal.\n\nWhy the 1470s? The usual suggestion is the queens then ruling in Europe, Isabella of Castile above all — but it is a suggestion, not a record."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Two Squares, and Then Nothing",
+      "text": "Set the old queen back on d1 and count what it owned.\n\nTwo squares. {{Qc2}} and {{Qe2}}, one shuffle each, and that was the whole list. Both are light, and so is d1 — that queen never stood on a dark square in its life, so half the board was shut to it before anyone moved.\n\nFour of those shuffles carried it from d1 to h5. The queen standing there now covers that road in a single move, and can arrive already attacking.\n\n> The rook had nine centuries as the strongest piece on the board. It lost the title to a piece that used to shuffle."
+    },
+    {
+      "type": "play",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "prompt": "Step the queen into the middle so one diagonal reaches the king on g8 and another reaches the rook on a8.",
+      "hint": "The king on g8 and the rook on a8 both stand on light squares, and so does your queen — find the square where their two diagonals cross.",
+      "targetSan": [
+        "Qd5+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "Both of Those Were Diagonals",
+      "text": "Both of the lines you just used were diagonals. A bishop reaching d5 would have hit g8 and a8 exactly the same way — and the bishop got its slide in the same reform, so that half of the queen is nothing new.\n\nThe other half is. From d5 the queen also holds the whole fifth rank and the whole d-file, so the two lines crossing under it never have to match: a rank and a diagonal, a file and a diagonal, whatever the position offers. A rook and a bishop in one body, and only one piece can stand where the two kinds cross."
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "No Time to Run",
+      "text": "The check has done its work. Answering it did nothing at all for the rook on a8, and that is the whole return on hitting two things at once: the second one gets no time to run.\n\nTake that away and the return vanishes. Hand Black a free move — {{h3}}, say — and {{Rc8}} answers it, and there was nothing there to win.\n\nSo finish it without handing one over."
+    },
+    {
+      "type": "play",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "prompt": "Take the rook in the corner, and take it with check so Black never gets a move to spend.",
+      "hint": "Nothing defends a8, so the only question is whether your capture also lands on a line through the black king on f8.",
+      "targetSan": [
+        "Qxa8+"
+      ]
+    }
+  ]
+}

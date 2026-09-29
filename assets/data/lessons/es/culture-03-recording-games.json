@@ -1,0 +1,56 @@
+{
+  "id": "recording-games",
+  "title": "Anotar la partida",
+  "summary": "Una planilla es una memoria de la que te puedes fiar",
+  "proof": "culture-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "La planilla junto al tablero",
+      "text": "Las jugadas que te esperan aquí se vuelven raras enseguida, y la planilla tiene que guardarlas todas.\n\nEn una partida clásica oficial estás obligado a anotar las jugadas de los dos bandos, una tras otra, en notación algebraica, en la planilla que indique el organizador. No solo las tuyas. Las dos. Esa planilla es lo que lee el árbitro cuando hay una disputa, y la algebraica es el único sistema que reconoce un torneo FIDE: la antigua notación descriptiva inglesa contaba desde el lado de cada jugador, así que una misma casilla tenía dos nombres según quién tuviera el bolígrafo."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "title": "Primero la jugada, luego el bolígrafo",
+      "text": "Puedes responder a tu rival antes de escribir nada, y casi todos los jugadores fuertes lo hacen: el reloj corre y el pensamiento pertenece al tablero. Lo que no puedes es ir con retraso: tu jugada anterior tiene que estar en la planilla antes de hacer otra.\n\nEscribir una jugada antes de hacerla está directamente prohibido. La única excepción con la que te encontrarás de verdad es la reclamación de tablas, en la que un jugador que reclama una repetición o la regla de las cincuenta jugadas escribe la jugada que piensa hacer, no la hace y llama al árbitro."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b KQkq - 0 6",
+      "prompt": "Captura con tu peón de e3 para que llegue junto al rey blanco con jaque.",
+      "targetSan": [
+        "exf2+"
+      ],
+      "hint": "Ese peón tiene exactamente una captura en el tablero, y el rey blanco está justo al lado de la casilla a la que llegaría."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Las marcas que añades",
+      "text": "Las Blancas llevaron el rey a e2 en lugar de capturar el peón de f2, y ahora el bolígrafo tiene trabajo.\n\nUna captura lleva una `x`, un jaque un `+`, un mate un `#`. Cuando dos piezas iguales pueden llegar a la misma casilla, añades desde dónde salió la jugada —`Nbd2`, `R1e4`—, porque alguien que solo tenga la planilla tiene que poder reproducir la partida sin adivinar. Una promoción se escribe con `=` y la letra de la pieza que elegiste."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "La copia de papel carbón",
+      "text": "Una planilla es la clase de ajedrez más barata que existe. Repasa la partida esa noche y el error que no recuerdas haber cometido está ahí, con tu propia letra, tres jugadas antes de que notaras que algo iba mal. La mayoría de los torneos reparten planillas por duplicado justamente por eso: el original va al organizador y la copia de abajo se va contigo a casa.\n\nHay un punto en el que el bolígrafo se detiene. Con menos de cinco minutos en tu reloj, y sin un incremento de treinta segundos o más, ya no estás obligado a anotar nada."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "title": "Una casilla, cuatro partidas",
+      "text": "Tu peón de f2 tiene exactamente una casilla de coronación, g1, y cuatro piezas entre las que elegir. La planilla tiene que decir cuál tomaste.\n\n{{fxg1=Q}} crea la pieza más fuerte del tablero y pierde en el acto: {{Qxd8+}}, y las Blancas tienen tu antigua dama antes de que la nueva haya hecho una jugada. A las Negras solo les queda una respuesta legal.\n\n> Mismo peón, misma casilla, cuatro partidas distintas. En el papel, solo una letra después del `=` las separa."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b kq - 1 7",
+      "prompt": "Corona la única pieza que llega dando jaque, para que las Blancas nunca tengan la jugada que se lleva tu dama.",
+      "targetSan": [
+        "fxg1=N+"
+      ],
+      "hint": "Mira dónde está el rey blanco y pregúntate cuál de las cuatro piezas de promoción lo atacaría desde g1."
+    }
+  ]
+}

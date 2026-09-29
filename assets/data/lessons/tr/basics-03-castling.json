@@ -1,0 +1,71 @@
+{
+  "id": "castling",
+  "title": "İki Taş, Tek Hamle",
+  "summary": "Kendi taşlarınızdan ikisini birden oynatan tek hamle — ve önce tutması gereken altı şart",
+  "proof": "tactics-mix-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "İkisi Birden",
+      "text": "Şimdiye kadar yaptığınız her hamle tek bir taşı oynattı. Rok iki taşı oynatır.\n\n{{O-O}}. e1'deki şah iki kare gidip g1'e varır, h1'deki kale de onun üstünden atlayıp f1'e iner. Tek hamle. İki taş da yerini aldı.\n\nBuna kısa rok denir; şahın kendi kenarına doğru yapılır ve iki harfle bir kısa çizgiyle yazılır — satrançta yazılışında hiçbir kare adı geçmeyen tek hamle budur."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Uzun Yol",
+      "text": "Öteki kale de bunu yapabilir.\n\n{{O-O-O}}: e1'deki şah öbür yöne iki kare gider, c1'e varır; a1'deki kale de onun üstünden geçip d1'e gelir. İki yerine üç harf ve altında yatan aynı kural — şah tam iki kare gider, kale de şahın üstünden geçtiği karede durur.\n\nDeğişen, ne kadar yerin boş olması gerektiğidir. Kısa tarafta iki kare, f1 ve g1. Uzun tarafta üç kare: b1, c1 ve d1."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Henüz Kimse Oynamadı",
+      "text": "Altı şartın üçüyle başlayalım: ikisi geçmişle, biri şu anla ilgili.\n\nŞah hiç oynamamış olmalı. Rok yapacağınız kale hiç oynamamış olmalı. Oynayıp geri dönmüş değil — hiç oynamamış. Şahı e1'den tek bir hamleliğine kaldırın, iki rok da partinin sonuna kadar yok olur. h1'deki kaleyi oynatın, kısa rok onunla birlikte gider; el değmemiş a1 kalesine dayanan uzun rok ise hayatta kalır.\n\nÜçüncüsü şu anla ilgili: şahla kalenin arasındaki kareler boş olmalı. Aralarındaki her taşın önce çekilmesi gerekir."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "İçinden, İçine, Üstünden",
+      "text": "Diğer üçü bu hamleyle ilgili.\n\nŞah altından çıkarak olmaz: şah şu anda saldırı altındaysa buna başka bir yolla cevap verilmelidir. Şah altına girerek olmaz: şahın indiği kare güvenli olmalı. Şahın üstünden geçtiği kare de güvenli olmalı — şahın, üzerinde duramayacağı bir karenin yanından koşup geçmesine izin verilmez.\n\nToplam altı şart. Birini kaçırın, hamle ortada yoktur; tahta onu oynamanıza izin vermez."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "prompt": "Şahı kısa taraftan güvene alın — {{O-O}} oynayın.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Şahın kendisini h1 kalesine doğru iki kare oynatın, kale kendiliğinden gelsin."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "title": "Kalenin Yanına Kâr Kalanlar",
+      "text": "Sıra siyahta ve uzun rok, sahip olmaya değer bir açık kapı taşıyor.\n\nYalnızca **şahın** kareleri güvenli olmak zorundadır. Kale bir şeyin içine yürümüyor — üstünden taşınıyor — bu yüzden saldırı altında durabilir, saldırı altındaki bir karenin üstünden geçebilir ve rok yine de kurallıdır.\n\nBu tarafta bunun önemi var. {{O-O-O}}: e8'deki şah c8'de durur, ama a8'deki kale b8'in üstünden geçip d8'e gider. b8'i gözleyen bir rakip taş rokü engellemez. c8'i ya da d8'i gözleyen engeller.\n\n> Şahın yürüyüşü güvenli olmalıdır. Kalenin yürüyüşü kimseyi ilgilendirmez."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "prompt": "Siyahla uzun taraftan rok yapın; iki yerine üç karenin boşaltılması gereken taraftan.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "Siyah şah a8 kalesine doğru iki kare gider, kale de şahın üstünden geçtiği kareye iner."
+    },
+    {
+      "type": "teach",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "title": "Birbirini Gören Kaleler",
+      "text": "İki şah da evine çekildi — beyaz kısa, siyah uzun — ve birinci ile sekizinci yatayın şekli değişti.\n\nBeyazın kaleleri a1 ve f1'de, aralarında dört boş kare var. Siyahınkiler d8 ile h8'de, aralarında üç kare var. Roklardan önce her ikili, yatayın ortasındaki kendi şahıyla bölünmüştü; artık her kale kayıp diğerine kavuşabilir.\n\nRokün size sağladığı şeyin ikinci yarısı budur. Şah merkezden ayrıldı ve kaleler birbirini buldu."
+    },
+    {
+      "type": "play",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "prompt": "Beyazın iki kalesi de e1'e ulaşabiliyor — parti boyunca köşede oturanı getirin.",
+      "targetSan": [
+        "Rae1"
+      ],
+      "hint": "f1'deki kale oraya daha geçen hamle geldi; öteki hiç oynamadı."
+    }
+  ]
+}

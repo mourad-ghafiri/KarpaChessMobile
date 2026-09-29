@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-18",
+  "fen": "8/4P3/5k2/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "e8=Q"
+  ],
+  "title": "Taç Giyme",
+  "setup": "Piyonunuz ta **e7**'ye kadar yürüdü ve siyahın şahı tam yanında duruyor.",
+  "hint": "Siyahın şahı piyonunuza saldırıyor ve kendi şahınız uzakta. Bu hamleyi, siyah bir sonrakini kullanmadan kullanın.",
+  "explanation": "## Fikir\n\nSon yataya ulaşan piyon terfi eder: aynı hamlenin içinde, seçtiğiniz herhangi bir taşa dönüşür.\n\n{{e8=Q}} bir puanlık piyonu dokuz puanlık vezire çevirir ve f6'daki şah onu almak için e8'e ulaşamaz. Başka her hamle {{Kxe7}} ile piyonun kalkmasına izin verir ve kazanç uçar. Çıplak şaha karşı vezirle mat gelir.\n\nSona bir adım kalmış piyon, şimdi terfi etmeye değer."
+}

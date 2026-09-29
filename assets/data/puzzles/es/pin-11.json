@@ -1,0 +1,12 @@
+{
+  "id": "pin-11",
+  "fen": "8/2pr1k2/7Q/5p2/B1p1q3/1b1P4/1P3R1K/8 w - - 0 1",
+  "solution": [
+    "dxe4"
+  ],
+  "rating": 1180,
+  "title": "Un peón se come la dama",
+  "setup": "La dama negra se ha aparcado en e4, a un paso de tu peón de d3 y defendida solo por el peón de f5.",
+  "hint": "Cuenta los defensores de la dama negra, y luego mira la columna f antes de decidir que ahí está a salvo.",
+  "explanation": "## La idea\n\n{{dxe4}} se come la dama con un peón. Recapturar con el peón de f es ilegal, porque tu torre de **f2** lo clava contra el rey de **f7** por la columna f abierta. Un peón clavado no puede ser el guardaespaldas de nadie."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-10",
+  "fen": "8/2R2P1K/1k6/8/8/8/8/1r6 b - - 0 1",
+  "solution": [
+    "Rh1+"
+  ],
+  "rating": 1560,
+  "title": "Jaques desde la esquina",
+  "setup": "El peón de f blanco está a una jugada de coronar, y su torre de c7 está colgada ante el rey negro de b6.",
+  "hint": "Necesitas una jugada de sobra para comer en c7. ¿Qué columna da jaques de los que el rey blanco no puede simplemente alejarse?",
+  "explanation": "## La idea\n\nLas Negras necesitan un tiempo, y solo los jaques a distancia lo compran. {{Rh1+}} {{Kg6}} {{Rg1+}} {{Kf5}}, y ahora {{Kxc7}} gana la torre. Las Blancas coronan, pero {{Rf1+}} da una enfilada al rey y a la nueva dama y la recupera en el acto. Ponte en cambio de inmediato detrás del peón con {{Rf1}}, y las Blancas responden {{Re7}}, defendiéndolo todo, y el peón corona."
+}

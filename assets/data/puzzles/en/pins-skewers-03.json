@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-03",
+  "fen": "4k3/pp2qppp/8/8/8/8/PPB2KPP/3R4 w - - 0 1",
+  "solution": [
+    "Re1"
+  ],
+  "title": "e-File Pinpoint",
+  "setup": "Black's queen stands on e7, right in front of its own king, and the e-file below it is open.",
+  "hint": "When the queen shields its king, it becomes a sitting target.",
+  "explanation": "## The Idea\n\n{{Re1}} pins the queen to the king on e8. The queen cannot step off the e-file without exposing its king, and your king on f2 guards e1, so fighting back with {{Qxe1+}} gives the queen for a rook after {{Kxe1}}. Every other reply loses the queen too.\n\nA pinned piece is not really a piece: it is a target."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-07",
+  "fen": "r5k1/5ppp/8/8/8/8/8/R5K1 w - - 0 1",
+  "solution": [
+    "Rxa8#"
+  ],
+  "title": "Niente Muro di Pedoni, Solo Matto",
+  "setup": "Le torri si fronteggiano lungo la colonna a. Il re nero in g8 siede dietro tre pedoni immobili; il vostro in g1 non ne ha nemmeno uno.",
+  "hint": "Chi cattura per primo sulla colonna a dà scacco. Chiedetevi dove potrebbe andare poi ciascun re.",
+  "explanation": "## L'idea\n\n{{Rxa8#}} prende l'unico pezzo nero che potrebbe difendere l'ottava traversa, e dà scacco lungo di essa. Il re in g8 è inscatolato dai suoi pedoni in f7, g7 e h7, e la torre copre f8 e h8. Niente può parare e niente può riprendere.\n\nIl vostro re non ha pedoni davanti, ed è per questo che è al sicuro: f2, g2 e h2 sono tutte aperte. Una traversa di fondo è letale solo quando i pedoni chiudono la porta."
+}

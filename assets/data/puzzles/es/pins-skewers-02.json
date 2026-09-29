@@ -1,0 +1,13 @@
+{
+  "id": "pins-skewers-02",
+  "fen": "r7/6pp/8/3k4/8/8/1K2B1PP/8 w - - 0 1",
+  "solution": [
+    "Bf3+",
+    "Kd4",
+    "Bxa8"
+  ],
+  "title": "Enfilada en la gran diagonal",
+  "setup": "El rey negro de d5 y la torre de a8 están en la misma gran diagonal, y tu alfil está a un paso de ocuparla.",
+  "hint": "Da jaque al rey por la línea que comparte con la torre, y mira qué queda cuando se aparta.",
+  "explanation": "## La idea\n\nEsto es una enfilada: la pieza más valiosa está delante. {{Bf3+}} da jaque al rey de d5 por la gran diagonal, con la torre de a8 detrás en la misma línea. El rey tiene que salir de la línea, y tras {{Kd4}}, {{Bxa8}} recoge lo que se escondía detrás.\n\nUna clavada ataca a la pieza cara a través de la barata. Una enfilada ataca a la barata a través de la cara."
+}

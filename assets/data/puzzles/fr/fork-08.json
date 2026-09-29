@@ -1,0 +1,14 @@
+{
+  "id": "fork-08",
+  "fen": "1kbr4/pp6/2P5/8/8/8/5PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "c7+",
+    "Ka8",
+    "cxd8=Q"
+  ],
+  "rating": 950,
+  "title": "Le pion prend tout",
+  "setup": "Votre pion c6 est à deux pas d'une nouvelle dame, avec le roi noir en b8 et une tour en d8.",
+  "hint": "Un pion attaque deux cases en diagonale. Trouvez l'avancée qui frappe les deux, puis comptez qui la défend.",
+  "explanation": "## L'idée\n\n{{c7+}} attaque b8 et d8 ensemble, et la tour en c1 protège le pion, donc le roi ne peut pas le manger. Ses propres pions et son fou ne laissent que {{Ka8}}, et {{cxd8=Q}} prend la tour et amène une nouvelle dame en un seul coup."
+}

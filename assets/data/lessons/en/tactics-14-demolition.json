@@ -1,0 +1,50 @@
+{
+  "id": "demolition",
+  "title": "Demolition of Defense",
+  "summary": "Two bishops spent on two pawns, and a king left standing in open air",
+  "proof": "demolition-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "One Pawn in the Road",
+      "text": "Emanuel Lasker gave away a bishop two moves ago to tear the pawn off h7, and this is what it bought. Black's king on g8, the h-file open, and White's queen on h5.\n\nThe bishop on e5 looks down the long diagonal toward h8. A black pawn on g7 stands in the road.\n\n{{Qh8+}} {{Kxh8}}. Nothing defends the queen when it lands, so the king takes it and the attack is over. That pawn is not guarding h8 — it is blocking the piece that would."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Arithmetic, Not Courage",
+      "text": "Giving a piece for a pawn is arithmetic, not courage. Before you spend it, name the moves that come after — if you cannot name two, you do not have an attack.\n\nHere they are easy to name. The queen on h5 is already in place, and the rook on f1 is one move from the third rank and one more from the h-file.\n\nThen count the other side. Black's rooks on a8 and f8 have no road to the h-file, and the queen on c6 is aimed at the other half of the board. Nothing comes back in time."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "prompt": "Strip the last pawn off Black's king, and pay a whole piece to do it.",
+      "targetSan": [
+        "Bxg7"
+      ],
+      "hint": "One piece of yours can reach that pawn, and what matters is the bare king it leaves behind."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "The Bill Comes Due",
+      "text": "Bauer took, and had little reason not to: a white bishop alive beside the king, with the queen already on the h-file, is not something you leave standing.\n\nSo this is what the two bishops bought. The black king on g7 stands in open air, and the count says White has given two bishops for two pawns.\n\nBeing that far down is only bearable while Black is answering checks. Hand over one free move and the rooks on a8 and f8 start coming across, and then White is two pieces short with nothing to show for it."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "The Check You Cannot Use",
+      "text": "Not every check is worth having. {{Qh7+}} looks forcing until you notice that nothing of yours covers h7: {{Kxh7}}, and the attack is a queen lighter for nothing.\n\nA check only works while the king cannot answer it by taking. What you want is a check from a square Black cannot touch, given while the rook still has time to swing across.\n\n> A piece spent on a pawn shelter is not bravery. It is a bill, and the checks are how you pay it."
+    },
+    {
+      "type": "play",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "prompt": "Force the king to move again so your rook has time to reach the h-file.",
+      "targetSan": [
+        "Qg4+"
+      ],
+      "hint": "A check the king can simply capture costs you the game, so find the checking square Black cannot touch."
+    }
+  ]
+}

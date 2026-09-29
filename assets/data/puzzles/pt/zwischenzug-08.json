@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-08",
+  "fen": "7k/4bppp/r5R1/1Q4B1/8/8/PP2r3/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Bf8",
+    "Qxf8#"
+  ],
+  "rating": 1560,
+  "title": "Oferece-a ao Bispo",
+  "setup": "A tua dama em b5 e a tua torre em g6 apontam a um rei que tem um bispo em e7 por companhia.",
+  "hint": "O bispo só pode tapar numa casa. Escolhe o xeque que o obriga a escolher essa casa.",
+  "explanation": "## A Ideia\n\n{{Qe8+}} força {{Bf8}} — o bispo não pode comer e o rei não pode mexer. Segue-se {{Qxf8#}}: a dama cobre g8, e g7 e h7 têm os peões das próprias pretas. O xeque não é o mate; é o que arruma o mate."
+}

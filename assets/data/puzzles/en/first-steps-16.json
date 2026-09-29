@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-16",
+  "fen": "6k1/5ppp/8/8/8/3n4/2P2PPP/4K3 w - - 0 1",
+  "solution": [
+    "cxd3"
+  ],
+  "title": "Take the Attacker",
+  "setup": "A bold black knight has leapt in to check your king — but did it look where it was landing?",
+  "hint": "Your king could run, but why? The rudest answer to a check is to take the checker — can anything of yours reach it?",
+  "explanation": "## The Idea\n\nThe knight on d3 gives check, and a check has three answers: move the king, block the line, or capture the checker. A knight's check cannot be blocked, and here the capture is on offer.\n\nYour pawn on c2 attacks b3 and d3, so {{cxd3}} removes the knight, ends the check and wins three points in one move. A king move would escape too, but it leaves the knight alive."
+}

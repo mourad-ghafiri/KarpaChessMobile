@@ -1,0 +1,71 @@
+{
+  "id": "greek-gift",
+  "title": "El sacrificio griego",
+  "summary": "Un alfil entregado a cambio de un rey sin sitio donde quedarse",
+  "proof": "greek-gift-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "La casilla que nadie protege",
+      "text": "Cuenta lo que apunta a h7. El alfil de d3 la mira directamente por la diagonal b1-h7. El caballo de f3 está a un salto de g5, y desde g5 también golpea h7. La dama de d1 está al pie de la diagonal d1-h5, que termina en la misma columna h.\n\nAhora cuenta la defensa. El caballo que debería estar en f6 ha sido empujado a d7 por tu peón de e5, y e5 sigue cubriendo f6. La única pieza que cubre h7 es el rey que está a su lado.\n\nTres contra uno, y ese uno es un rey."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "title": "El sacrificio griego",
+      "text": "Entregar un alfil por un solo peón es un **sacrificio** con nombre propio. El **sacrificio griego** es el alfil lanzado contra el refugio de peones de un rey enrocado. O termina la partida o pierde una pieza, y cuál de las dos se decide antes de soltarlo.\n\nCuatro condiciones. El alfil ve h7. Un caballo está a una jugada de g5. La dama tiene camino hacia la columna h detrás de ese caballo. Y lo que capture en g5 es recapturado, mientras nada puede llegar a f6 para cubrir la esquina.\n\n> Un regalo que has contado no es una apuesta."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqppp/2n1p3/2ppP3/3P1P2/2NB1N2/PPP3PP/R2QK2R w KQ - 2 10",
+      "prompt": "Nada salvo el rey protege la esquina negra, así que arranca a ese rey de su refugio.",
+      "targetSan": [
+        "Bxh7+"
+      ],
+      "hint": "Ahora mismo solo una de tus piezas ataca h7, así que deja de contar lo que vale y cuenta los defensores."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "title": "Tu propio caballo estorba",
+      "text": "El rey ha capturado en h7 y ya no tiene nada delante. También tienes un alfil menos por un peón, que es lo que concentra la mente.\n\nMira adónde quiere ir la dama. El camino de d1 a la columna h pasa por e2, f3 y g4, y tu propio caballo de f3 está en él.\n\nAsí que esta jugada no es una elección entre buenas ideas. Cualquier cosa tranquila deja que las Negras vuelvan a g8 y empiecen a arrastrar piezas hacia la esquina, y entonces el alfil habrá comprado un peón y nada más."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP3/3P1P2/2N2N2/PPP3PP/R2QK2R w KQ - 0 11",
+      "prompt": "Abre el camino de la dama hacia la columna h con una jugada a la que las Negras tengan que responder enseguida.",
+      "targetSan": [
+        "Ng5+"
+      ],
+      "hint": "Tu caballo tiene que moverse, y solo una de sus casillas da jaque: la que ya protege tu peón de f."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqppk/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R b KQ - 1 11",
+      "title": "Cuatro casillas, un rey",
+      "text": "La dama de e7 puede capturar el caballo, pero tu peón de f4 recaptura y las Negras han pagado una dama por un caballo. Un jaque de caballo tampoco se puede tapar. Así que el rey se mueve, y tiene exactamente cuatro casillas: {{Kg8}}, {{Kh8}}, {{Kg6}}, {{Kh6}}.\n\nDos de ellas vuelven a la esquina. Las otras dos salen a un tablero abierto, lo que parece escapar del caballo y en realidad es caminar hacia todo lo demás que tienes.\n\nEsas dos son las que tu rival querrá jugar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p1k1/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "Salir a por el caballo",
+      "text": "g6 ataca al caballo de g5, y por eso lo juegan las Negras. El rey sale esperando tener una pieza de más en dos jugadas.\n\n{{Qg4}}. La dama se coloca detrás del caballo en la columna g, así que el caballo queda protegido y cada casilla a la que salte descubre un jaque. Y tu peón de f está a un paso de f5, donde volvería a golpear al rey.\n\nCuanto más sale el rey, más de tu ejército puede alcanzarlo."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2r2/pp1nqpp1/2n1p2k/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "title": "El viejo camino del alfil",
+      "text": "h6 mantiene al rey fuera de la esquina y ataca al caballo de g5, así que parece la mejor de las cuatro.\n\n{{Qd3}}. La dama toma la diagonal que dejó el alfil y apunta directamente a h7. El caballo de g5 protege esa casilla, el rey no puede salirse de ella y el mate en h7 queda amenazado para la siguiente jugada. Las Negras no tienen una buena forma de impedirlo."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/pp1nqpp1/2n1p3/2ppP1N1/3P1P2/2N5/PPP3PP/R2QK2R w KQ - 2 12",
+      "prompt": "Las Negras han vuelto a la esquina, así que lleva tu último atacante a la columna h y amenaza mate.",
+      "targetSan": [
+        "Qh5"
+      ],
+      "hint": "El caballo ya cubre h7, y la propia torre negra de f8 le ha quitado una casilla de escape al rey."
+    }
+  ]
+}

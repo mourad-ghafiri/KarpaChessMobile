@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-12",
+  "fen": "3K2k1/1B6/8/6pR/8/8/5p1R/8 w - - 0 1",
+  "solution": [
+    "Ke7",
+    "f1=Q",
+    "Rxg5#"
+  ],
+  "rating": 1800,
+  "title": "Votre roi dit « je passe »",
+  "setup": "Le roi noir est en g8, un pion en f2 va être promu et un autre se tient en g5 ; vos deux tours sont sur l'aile roi.",
+  "hint": "Chaque coup de pièce que vous trouvez gâche quelque chose. Il reste une pièce qui peut bouger sans rien coûter.",
+  "explanation": "## L'idée\n\n{{Ke7}} couvre f8 et passe le trait aux Noirs. {{f1=Q}} est le meilleur essai parmi les six coups noirs et il arrive du mauvais côté de l'échiquier ; {{Rxg5#}} mate. Les coups d'attente les plus difficiles sont ceux que fait le roi."
+}

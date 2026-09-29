@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-07",
+  "fen": "7R/2k5/8/1rPK4/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Rh7+"
+  ],
+  "rating": 1470,
+  "title": "Ritorno all'Ottava",
+  "setup": "Il re nero sta due case davanti al pedone c, tenendo c6 da c7, e la sua torre attacca il pedone da b5, quindi per ora non si muove niente.",
+  "hint": "Il re nero fa tutta la difesa dalla casa accanto al pedone. Quale linea potete prendergli?",
+  "explanation": "## L'idea\n\nFinché il re siede in c7, il Bianco non fa progressi. {{Rh7+}} lo spinge sulla traversa di fondo e la torre si prende allora la settima, così il re non può più tornare accanto al pedone. {{Kb8}} {{Kd6}} e il re bianco porta dentro il pedone."
+}

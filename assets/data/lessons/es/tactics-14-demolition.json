@@ -1,0 +1,50 @@
+{
+  "id": "demolition",
+  "title": "Demolición del enroque",
+  "summary": "Dos alfiles entregados por dos peones, y un rey a la intemperie",
+  "proof": "demolition-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Un peón en el camino",
+      "text": "Emanuel Lasker entregó un alfil hace dos jugadas para arrancar el peón de h7, y esto es lo que compró. El rey negro en g8, la columna h abierta y la dama blanca en h5.\n\nEl alfil de e5 mira por la gran diagonal hacia h8. Un peón negro en g7 le corta el paso.\n\n{{Qh8+}} {{Kxh8}}. Nada defiende a la dama cuando llega, así que el rey la captura y el ataque se acabó. Ese peón no protege h8: bloquea a la pieza que lo haría."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Cuentas, no valor",
+      "text": "Dar una pieza por un peón es aritmética, no valentía. Antes de gastarla, nombra las jugadas que vienen después: si no puedes nombrar dos, no tienes un ataque.\n\nAquí son fáciles de nombrar. La dama de h5 ya está en su sitio, y la torre de f1 está a una jugada de la tercera fila y a otra de la columna h.\n\nLuego cuenta el otro lado. Las torres negras de a8 y f8 no tienen camino hacia la columna h, y la dama de c6 apunta a la otra mitad del tablero. Nada vuelve a tiempo."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "prompt": "Arranca el último peón que protege al rey negro, y paga una pieza entera por ello.",
+      "targetSan": [
+        "Bxg7"
+      ],
+      "hint": "Solo una de tus piezas llega a ese peón, y lo que importa es el rey desnudo que deja atrás."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "Llega la factura",
+      "text": "Bauer capturó, y tenía pocos motivos para no hacerlo: un alfil blanco vivo junto al rey, con la dama ya en la columna h, no es algo que se deje en pie.\n\nAsí que esto es lo que compraron los dos alfiles. El rey negro de g7 está a la intemperie, y la cuenta dice que las Blancas han dado dos alfiles por dos peones.\n\nIr tan por detrás solo es soportable mientras las Negras estén respondiendo a jaques. Dales una jugada libre y las torres de a8 y f8 empiezan a cruzar, y entonces las Blancas tienen dos piezas de menos y nada que mostrar."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "El jaque que no sirve",
+      "text": "No todos los jaques valen la pena. {{Qh7+}} parece forzante hasta que te das cuenta de que nada tuyo cubre h7: {{Kxh7}}, y el ataque se queda sin dama a cambio de nada.\n\nUn jaque solo funciona mientras el rey no pueda responder capturando. Lo que quieres es un jaque desde una casilla que las Negras no puedan tocar, dado mientras la torre todavía tiene tiempo de cruzar.\n\n> Una pieza gastada en un refugio de peones no es valentía. Es una factura, y los jaques son la forma de pagarla."
+    },
+    {
+      "type": "play",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "prompt": "Obliga al rey a moverse otra vez para que tu torre tenga tiempo de llegar a la columna h.",
+      "targetSan": [
+        "Qg4+"
+      ],
+      "hint": "Un jaque que el rey puede simplemente capturar te cuesta la partida: encuentra la casilla de jaque que las Negras no pueden tocar."
+    }
+  ]
+}

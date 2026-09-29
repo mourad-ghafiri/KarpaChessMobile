@@ -1,0 +1,50 @@
+{
+  "id": "bishop-pair",
+  "title": "Pasangan Gajah",
+  "summary": "Dua gajah menguasai setiap petak di papan",
+  "proof": "strategy-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/1pp2ppp/p1np4/4p3/B3P1b1/5N1P/PPPP1PP1/RNBQ1RK1 b k - 0 6",
+      "title": "Pertukaran yang Menetap",
+      "text": "Gajah Hitam di g4 tinggal satu langkah lagi dari menyerahkan kepada Putih sesuatu yang tak bisa dibeli kembali.\n\n{{Bxf3}} {{Qxf3}}. Hitam mengambil kuda yang benar-benar bekerja, jadi ini bukan pemberian cuma-cuma. Ini penjualan. Putih mempertahankan dua gajah, Hitam tinggal punya satu, dan tak ada langkah kemudian yang bisa membatalkannya.\n\nPartai berlanjut: {{Nf6}}, {{c3}}, {{Be7}}. Kini Putih harus membuktikan bahwa hal itu layak dimiliki."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "title": "Mengapa Dua Lebih dari Satu Tambah Satu",
+      "text": "Gajah lahir di satu warna dan mati di warna itu. Satu gajah, separuh papan — tiga puluh dua petak lainnya urusan orang lain untuk selamanya.\n\nMiliki keduanya dan kedua separuh itu menyatu. Terang dan gelap, tak ada yang tersisa tanpa penjagaan, dan keduanya tak pernah bersaing untuk petak yang sama. Itulah **pasangan gajah**: bukan keunggulan buah, karena hitungan poinnya seimbang, melainkan keunggulan jangkauan yang bertahan sepanjang partai.\n\nPemain kuat rela membayar untuknya. Mereka akan memakai satu langkah, atau satu pion, agar kuda tak bisa menukar dirinya dengan gajah."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "prompt": "Tantang pion Hitam di e5 dengan pion Anda sendiri dan buka jalan bagi gajah yang belum punya jalan.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Kedua pion yang memagari gajah di c1 bisa bergerak — pilih yang juga mengajukan pertanyaan kepada pusat Hitam."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "Pasangan Itu Adalah Janji",
+      "text": "Partai lain, dan Putih lagi-lagi memiliki kedua gajah. Salah satunya memalukan.\n\nGajah di c1 belum bergerak sepanjang partai, dan satu-satunya petak yang bisa dicapainya tak mengubah apa pun — pionnya sendiri di e3 duduk di diagonal yang diinginkannya. Enam pion terkunci di tengah, c4, d4 dan e3 melawan c6, d5 dan e6, dan tak ada gajah yang bisa memanjat melewati pion. Kuda-kuda Hitam tak peduli. Keduanya melompati seluruh kemacetan itu, dan saat ini keduanyalah buah ringan yang lebih baik."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "Yang Ditunggu Pasangan Itu",
+      "text": "Dua gajah adalah taruhan pada papan yang terbuka, dan hasilnya dibayar dalam diagonal.\n\nSetiap pion yang meninggalkan pusat memperpanjang sebuah jalan, dan jalan panjang adalah untuk apa gajah ada. Kuda tak mendapat apa-apa dari pembersihan yang sama: empat lompatan melintasi papan kosong, empat lompatan melintasi papan yang padat. Jadi pihak yang memegang pasangan gajah menginginkan lebih sedikit pion, dan menginginkannya hilang dari tengah.\n\nItu membalikkan naluri yang biasa. Anda tidak sedang mencari buah untuk ditukar. Anda sedang mencari pion untuk diperangi.\n\n> Dua gajah, satu rencana: tukar pion, bukan buah."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "prompt": "Pecahkan kemacetan pion di tengah agar gajah di c1 akhirnya punya diagonal untuk dipandang.",
+      "targetSan": [
+        "e4"
+      ],
+      "hint": "Gajah di c1 menginginkan diagonal menuju h6, dan tepat satu pion putih diparkir di sana — memindahkan pion itu juga menegaskan klaim pion kedua atas pusat."
+    }
+  ]
+}

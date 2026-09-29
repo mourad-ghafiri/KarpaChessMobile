@@ -1,0 +1,13 @@
+{
+  "id": "forks-10",
+  "fen": "4q3/8/8/4k3/8/8/8/R6K w - - 0 1",
+  "solution": [
+    "Re1+",
+    "Kd6",
+    "Rxe8"
+  ],
+  "title": "Skewer the Queen",
+  "setup": "The black king on e5 and the black queen on e8 are standing on the same file, with the king in front.",
+  "hint": "Get on that file with check. Then ask what the king is standing in front of.",
+  "explanation": "## The Idea\n\nThe more valuable piece is the nearer one. That is a skewer: hit the piece in front and take what it was hiding.\n\n{{Re1+}} claims the file. All six answers are king moves — nothing can block, because the queen would have to travel through its own king to reach e2, e3 or e4.\n\n{{Kd6}} is as good as any, and {{Rxe8}} collects the queen. In a pin the valuable piece is behind; in a skewer it is in front, and moving costs."
+}

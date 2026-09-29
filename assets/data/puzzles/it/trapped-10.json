@@ -1,0 +1,12 @@
+{
+  "id": "trapped-10",
+  "fen": "rb4k1/p4pp1/7p/2p5/8/2N3PP/PP3P2/3B2K1 w - - 0 1",
+  "solution": [
+    "Bf3"
+  ],
+  "rating": 1330,
+  "title": "La Torre Inscatolata",
+  "setup": "La torre nera in a8 ha sotto il proprio pedone in a7 e proprio accanto il proprio alfiere in b8.",
+  "hint": "Quella torre non ha nemmeno una mossa. Trovate la grande diagonale che arriva dentro l'angolo in cui è bloccata.",
+  "explanation": "## L'idea\n\n{{Bf3}} colpisce a8 lungo la diagonale h1-a8 e la torre non ha dove andare: a7 è il pedone nero, b8 il suo alfiere. Niente può difendere a8, e l'alfiere camposcuro non potrà mai parare una diagonale chiara, quindi la torre è semplicemente perduta."
+}

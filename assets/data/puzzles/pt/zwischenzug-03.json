@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-03",
+  "fen": "2r3k1/1R1B1ppp/8/2Qr4/7b/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qxc8+",
+    "Bd8",
+    "Qxd8#"
+  ],
+  "rating": 1380,
+  "title": "Duas Torres, Nenhuma Ajuda",
+  "setup": "As torres pretas estão em c8 e d5 e o bispo de h4 olha para a tua posição, enquanto as tuas próprias peças estão espalhadas.",
+  "hint": "A captura óbvia ganha uma torre. Procura antes a captura que deixa às pretas uma só resposta legal.",
+  "explanation": "## A Ideia\n\nComer em d5 ganha uma torre e o jogo continua. {{Qxc8+}} ganha a outra e acaba: {{Bd8}} é o único bloqueio, e segue-se {{Qxd8#}}. Escolhe a captura que dá xeque, não a que dá mais."
+}

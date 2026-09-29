@@ -1,0 +1,13 @@
+{
+  "id": "culture-07",
+  "fen": "rn1qkb1r/ppp2ppp/3p4/4N3/2B5/2P5/PPP2PPP/R1BbK2R w KQkq - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Bg5#"
+  ],
+  "title": "La Donna Era l'Esca",
+  "setup": "Il Nero ha appena catturato la vostra donna, il tipo di presa che nessuno si ferma a guardare, e voi avete una mossa.",
+  "hint": "Il re nero ha una sola casa libera. Date uno scacco che ce lo spinga, e assicuratevi che l'altro vostro alfiere arrivi alla diagonale di quella casa.",
+  "explanation": "## L'idea\n\n{{Bxf7+}} offre un secondo pezzo a un re che non ha dove scappare. Il re non può prendere in f7, perché il cavallo in e5 la difende, quindi {{Ke7}} è forzata. Poi {{Bg5#}}: l'alfiere da c1 dà scacco lungo la diagonale che passa per e7, e ogni casa attorno al re è coperta o bloccata.\n\nUn cavallo, due alfieri e nessuna donna chiudono la partita all'ottava mossa.\n\nUna presa in coda parte dentro la posizione che arriva davvero. Mettete in premossa la mossa sicura, mai la presa ingorda."
+}

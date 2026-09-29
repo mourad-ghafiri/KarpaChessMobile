@@ -1,0 +1,71 @@
+{
+  "id": "castling",
+  "title": "Two Pieces, One Turn",
+  "summary": "The only move that moves two of your own — and the six things that must hold first",
+  "proof": "tactics-mix-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Both at Once",
+      "text": "Every move you have made so far moved one piece. Castling moves two.\n\n{{O-O}}. The king on e1 travels two squares to g1, and the rook on h1 jumps over it and lands on f1. One turn. Both pieces done.\n\nThat is the short castle, played toward the king's own edge of the board, and it is written with two letters and a hyphen — the only move in chess whose written form names no square at all."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "The Long Way",
+      "text": "The other rook can do it too.\n\n{{O-O-O}}: the king on e1 goes two squares the other way, to c1, and the rook on a1 comes over it to d1. Three letters instead of two, and the same rule underneath — the king moves exactly two squares, and the rook stops on the square the king stepped over.\n\nWhat differs is how much has to be clear. Two squares on the short side, f1 and g1. Three on the long side: b1, c1 and d1."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Nobody Has Moved Yet",
+      "text": "Start with three of the six conditions: two about history, one about the present.\n\nThe king must never have moved. The rook you are castling with must never have moved. Not moved and returned — moved at all. Take the king off e1 for a single turn and both castles are gone for the rest of the game. Shift the h1-rook and the short castle goes with it, while the long one, resting on an untouched a1-rook, survives.\n\nThe third is about the present: the squares between king and rook must be empty. Every piece between them has to leave first."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "title": "Out Of, Into, Through",
+      "text": "The other three are about this turn.\n\nNot **out of** check: if the king is under attack right now, that has to be answered some other way. Not **into** check: the square the king lands on must be safe. Not **through** check: the square it crosses must be safe as well — a king is not allowed to sprint past a square it could not stand on.\n\nSix in all. Miss one and the move is simply not there; the board will not let you play it."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R w KQkq - 0 1",
+      "prompt": "Tuck the king away on the short side — play {{O-O}}.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Move the king itself, two squares toward the h1-rook, and the rook comes along on its own."
+    },
+    {
+      "type": "teach",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "title": "What the Rook Gets Away With",
+      "text": "Black's turn, and the long castle carries a loophole worth owning.\n\nOnly the **king's** squares have to be safe. The rook is not walking into anything — it is being lifted across — so it may stand under attack, and it may cross a square under attack, and the castle is still legal.\n\nThat matters on this side. {{O-O-O}}: the king on e8 stops at c8, but the rook on a8 travels to d8, over b8. An enemy piece watching b8 does not stop the castle. One watching c8 or d8 does.\n\n> The king's walk has to be safe. The rook's is nobody's business."
+    },
+    {
+      "type": "play",
+      "fen": "r3k2r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R3K2R b KQkq - 0 1",
+      "prompt": "Castle Black the long way, the side where three squares had to be cleared instead of two.",
+      "targetSan": [
+        "O-O-O"
+      ],
+      "hint": "The black king travels two squares toward the a8-rook, and the rook lands on the square it crossed."
+    },
+    {
+      "type": "teach",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "title": "Rooks That Can See Each Other",
+      "text": "Both kings are home — White short, Black long — and the first and eighth ranks have changed shape.\n\nWhite's rooks stand on a1 and f1 with four empty squares between them. Black's, on d8 and h8, have three. Before the castles, each pair was split by its own king in the middle of the rank; now every rook can slide across to meet the other.\n\nThat is the second half of what castling buys you. The king left the center, and the rooks found each other."
+    },
+    {
+      "type": "play",
+      "fen": "2kr3r/pppq1ppp/2n1pn2/3p4/3P4/2N1PN2/PPPQ1PPP/R4RK1 w - - 0 1",
+      "prompt": "Both white rooks can reach e1 — bring the one that has sat in the corner all game.",
+      "targetSan": [
+        "Rae1"
+      ],
+      "hint": "The rook on f1 only arrived there last move; the other one has never moved at all."
+    }
+  ]
+}

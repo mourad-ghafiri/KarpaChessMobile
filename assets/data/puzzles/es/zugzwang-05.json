@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-05",
+  "fen": "5B2/8/8/7k/4K3/8/6p1/6Q1 w - - 0 1",
+  "solution": [
+    "Kf5",
+    "Kh4",
+    "Qh2#"
+  ],
+  "rating": 1530,
+  "title": "El rey es la jugada de espera",
+  "setup": "Los reyes están en e4 y h5, las Negras tienen un peón a una casilla de coronar en g2 y tu dama defiende g1.",
+  "hint": "Ninguna de tus piezas se puede permitir moverse. Mira la que no has tenido en cuenta.",
+  "explanation": "## La idea\n\n{{Kf5}} toma g4, g5 y g6 y les pasa el turno a las Negras. Solo {{Kh4}} es legal, y {{Qh2#}} da mate al rey contra el borde. Un paso de rey es una jugada de espera que además construye la red."
+}

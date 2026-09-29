@@ -1,0 +1,11 @@
+{
+  "id": "forks-05",
+  "fen": "6k1/5ppp/2q5/3N4/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Ne7+"
+  ],
+  "title": "El caballo atrapa a una dama",
+  "setup": "La dama negra de c6 ataca tu caballo de d5. Mover el caballo no basta; haz que devuelva el golpe.",
+  "hint": "Un salto de caballo da jaque y ataca a la dama al mismo tiempo.",
+  "explanation": "## La idea\n\n{{Ne7+}} da jaque al rey de g8 y ataca a la dama de c6 en un solo salto. Nada negro protege e7, y a un jaque de caballo no se le puede tapar, así que el rey tiene que moverse. Tras {{Kf8}} o {{Kh8}}, {{Nxc6}} gana la dama.\n\nUna horquilla con jaque es la más fuerte: la jugada de rey gasta el turno de las Negras, y el segundo objetivo cae."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-01",
+  "fen": "2R5/8/1k1P4/8/5K2/8/8/7r w - - 0 1",
+  "solution": [
+    "d7"
+  ],
+  "rating": 1200,
+  "title": "The King Cannot Cross",
+  "setup": "White's rook on c8 keeps the black king off the c-file and watches the square the d-pawn is heading for.",
+  "hint": "Nothing of Black's can reach the queening square in time. So what is actually stopping the pawn?",
+  "explanation": "## The Idea\n\nThe rook on c8 does two jobs at once: it cuts the king off along the c-file and it guards d8. So the pawn simply runs. {{d7}} {{Rh4+}} {{Kg5}} {{Rd4}} {{d8=Q+}} {{Rxd8}} {{Rxd8}} and White is a whole rook up."
+}

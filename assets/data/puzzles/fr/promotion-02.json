@@ -1,0 +1,14 @@
+{
+  "id": "promotion-02",
+  "fen": "1N6/1P2kppp/5n2/3r4/8/6P1/5PKP/8 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Kd7",
+    "b8=Q"
+  ],
+  "rating": 1040,
+  "title": "Déplacez votre propre pièce",
+  "setup": "Votre pion en b7 est à une case d'une nouvelle dame, et la case est occupée par votre propre cavalier.",
+  "hint": "Le cavalier doit partir, et il ne faut pas offrir aux Noirs un coup gratuit pour organiser un blocus.",
+  "explanation": "## L'idée\n\nLe cavalier en b8 barre la route à son propre pion. {{Nc6+}} s'écarte avec échec, donc les Noirs n'ont pas le temps de couvrir b8 ; après {{Kd7}}, le pion entre par {{b8=Q}}. Dégagez une case de promotion en gagnant un temps, jamais tranquillement."
+}

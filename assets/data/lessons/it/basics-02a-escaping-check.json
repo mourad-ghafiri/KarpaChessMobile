@@ -1,0 +1,77 @@
+{
+  "id": "escaping-check",
+  "title": "Tre Vie d'Uscita",
+  "summary": "Muoverlo, pararlo, prenderlo — e gli scacchi in cui due di queste non ci sono",
+  "proof": "first-steps-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "title": "Non C'è una Quarta Risposta",
+      "text": "A ogni scacco si deve rispondere sul momento, e gli scacchi vi danno esattamente tre risposte.\n\n**Muovete** il re fuori dalla casa attaccata. **Parate** la linea lungo cui viaggia l'attacco. **Prendete** il pezzo che dà scacco.\n\nLa lista è tutta qui. La torre nera in e8 guarda dritta giù per la colonna e verso il vostro re in e1, e finché non succede una di quelle tre cose, nient'altro che vorreste giocare è legale.\n\nLa lista non cambia mai ed è lunga tre voci. Quello che cambia è quante delle tre sono disponibili."
+    },
+    {
+      "type": "teach",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Fuori dalla Linea, Non Lungo la Linea",
+      "text": "Togliete l'alfiere dalla scacchiera e il re deve rispondere da solo.\n\nCinque case toccano un re in e1: d1, d2, e2, f1 e f2. Quattro sono fuori dalla portata della torre. La quinta è e2 — un passo avanti, sempre sulla colonna e, sempre sotto la stessa torre. Correre *lungo* la linea non è scappare.\n\nMuovere il re è la prima cosa da verificare e non è mai garantita. La casa che volete deve essere vuota e non deve essere già attaccata dal vostro avversario."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Portate il re fuori dalla colonna che la torre possiede.",
+      "targetSan": [
+        "Kd1",
+        "Kd2",
+        "Kf1",
+        "Kf2"
+      ],
+      "hint": "La torre copre una colonna e nient'altro: basta un passo di lato."
+    },
+    {
+      "type": "teach",
+      "fen": "k7/8/8/b7/8/8/8/1N2K3 w - - 0 1",
+      "title": "Chiudete la Porta",
+      "text": "Uno scacco diverso, e il re non deve muoversi affatto.\n\nL'alfiere nero in a5 raggiunge il vostro re in e1 lungo la diagonale che passa per b4, c3 e d2. Lo raggiunge *attraverso* quelle case — è questo che significa linea — e un pezzo fermo su una qualsiasi di esse chiude l'attacco.\n\nIl vostro cavallo in b1 ha due porte fra cui scegliere: {{Nc3}} oppure {{Nd2}}. L'alfiere continua a fissare la diagonale. Semplicemente non ci arriva più.\n\nChi para può ovviamente essere preso. Una parata vale quanto il pezzo che ci spendete."
+    },
+    {
+      "type": "play",
+      "fen": "4r3/8/8/8/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "Torniamo alla torre: mettete il vostro alfiere sulla sua strada e chiudete la colonna.",
+      "targetSan": [
+        "Be3"
+      ],
+      "hint": "L'alfiere viaggia in diagonale, quindi delle sei case fra loro solo una è alla sua portata."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "title": "Non C'è Niente Davanti a Cui Mettersi",
+      "text": "Un cavallo non viaggia lungo una linea. Arriva.\n\nFra il cavallo nero in d3 e il vostro re in e1 non ci sono case, quindi non c'è nulla da mettere in mezzo. Lo scacco di un cavallo non si può mai parare. Nemmeno lo scacco di un pezzo fermo proprio accanto al re: fra due case che si toccano non c'è spazio per niente.\n\nQui la lista scende a due voci. O il re cammina, o il cavallo esce dalla scacchiera."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/3n4/2P5/4K3 w - - 0 1",
+      "prompt": "Chiudete la questione togliendo il cavallo dalla scacchiera.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "I pedoni prendono in diagonale, mai dritti."
+    },
+    {
+      "type": "teach",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "title": "La Presa Che Non C'è",
+      "text": "Prendere è la risposta più dolce e quella che più spesso non è disponibile.\n\nIl cavallo in f3 dà scacco al vostro re in g1, e due dei vostri pezzi lo attaccano. Il pedone in g2 è quello ovvio: un pedone che prende un cavallo è un affare.\n\nQuel pedone è però anche l'unica cosa fra la torre nera in g8 e il vostro re. Prendete con lui e il re resta sotto scacco della torre, e una mossa che lascia il proprio re sotto scacco non è una mossa. Un pezzo che tiene la linea verso il proprio re non è libero di andarsene."
+    },
+    {
+      "type": "play",
+      "fen": "k5r1/8/8/8/8/5n2/6P1/5RK1 w - - 0 1",
+      "prompt": "Prendete il cavallo con il pezzo di cui il vostro re può fare a meno.",
+      "targetSan": [
+        "Rxf3"
+      ],
+      "hint": "Solo uno dei due attaccanti può muoversi senza aprire una linea verso il vostro re."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-12",
+  "fen": "8/pP3pkp/3b2p1/8/8/8/5PKP/3R4 w - - 1 2",
+  "solution": [
+    "Rxd6"
+  ],
+  "rating": 1450,
+  "title": "Beli Menterinya",
+  "setup": "Pion Anda di b7 tinggal satu petak dari menjadi menteri, dan gajah di d6 satu-satunya buah yang mengawasi b8.",
+  "hint": "Tak ada yang penting di papan ini kecuali lajur b. Buah hitam mana yang menghentikan pion itu?",
+  "explanation": "## Ide\n\n{{Rxd6}} adalah benteng untuk gajah, dan tawaran yang murah: gajah itu satu-satunya buah yang menguasai b8. Tak ada yang bisa menangkap balik, jadi {{b8=Q}} tiba pada langkah berikutnya. Tukar materi apa pun yang Anda suka demi pion yang menjadi menteri."
+}

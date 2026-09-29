@@ -1,0 +1,56 @@
+{
+  "id": "bishop-moves",
+  "title": "Tahtanın Yarısı",
+  "summary": "Uzun eğik yollar ve filin asla ayak basamayacağı yarım tahta",
+  "proof": "first-steps-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "title": "d4'ten Çıkan Dört Yol",
+      "text": "d4'teki filin dört çıkış yolu var. Hepsi de eğik gider.\n\nYalnızca çaprazlar — asla dikey boyunca, asla yatay boyunca değil. Açık bir çaprazda canı ne kadar isterse o kadar gider ve yedi kare tam olarak bir kare kadara mal olur.\n\n{{Bh8}} bir köşeye koşar, {{Ba1}} karşı köşeye. {{Ba7}} ile {{Bg1}} tahta bittiği yerde durur. d4'te iki çapraz kesişir; fil ikisine de, iki yöne de biner."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "prompt": "Dört çaprazdan birini seçin ve fili o hattın herhangi bir yerinde durdurun.",
+      "targetSan": [
+        "Bc5",
+        "Bb6",
+        "Ba7",
+        "Be5",
+        "Bf6",
+        "Bg7",
+        "Bh8",
+        "Bc3",
+        "Bb2",
+        "Ba1",
+        "Be3",
+        "Bf2",
+        "Bg1"
+      ],
+      "hint": "Yakın ya da uzak fark etmez — bir çaprazda tek kare de yedi kare kadar kurallıdır."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "title": "Tek Renk, Parti Boyunca",
+      "text": "Az önce hangi hamleyi oynadıysanız oynayın, koyu bir kareye indi. Buradaki bütün fil hamleleri öyle.\n\nd4 koyudur. Çapraz bir adım aynı anda bir dikey yana ve bir yatay yukarı ya da aşağı gider; bu ikili, ayağın altındaki rengi bulduğu gibi bırakır. Dümdüz ileri renk değişir. Eğik gidişte asla değişmez.\n\nBir orduya iki fil verilmesinin sebebi de budur: biri koyu kareler, biri açık kareler için.\n\n> Fil bir renkte doğar ve o rengi hiç terk etmez. Otuz iki kare onun evidir; diğer otuz iki kare hiç olmasa da olur."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/1P6/4K3 w - - 0 1",
+      "title": "Kimse Atlanmaz",
+      "text": "At trafiğin üstünden atlar. Fil trafiğin içinde kalır.\n\nSoldaki çaprazda kendi b2 piyonunuz yolu tutuyor. Fil en fazla {{Bc3}} karesine kadar gider — a1 piyonun arkasındadır ve arkası menzil dışıdır.\n\nRakip bir taş da yolu aynı karede bitirirdi, tek farkla: fil onu alıp durduğu yerde kalabilir. Kendi taşınız çaprazı temelli kapatır. Rakibin taşı ise yalnızca siz onu alana kadar kapatır."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/6p1/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "Siyahın piyonu bu filin ulaşabildiği bir kareye sapmış — onu kazanın.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "Bu fil de o piyon da koyu karelerde duruyor ve aralarındaki hat boş."
+    }
+  ]
+}

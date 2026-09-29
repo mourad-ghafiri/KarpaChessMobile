@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-09",
+  "fen": "5k2/6pp/p7/1p3p2/8/3B4/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Bxf5"
+  ],
+  "title": "İki Piyon, Biri Güvende",
+  "setup": "d3'teki filiniz her çaprazda birer tane olmak üzere siyahın iki piyonuna saldırıyor. Bunlardan yalnızca biri bedavaya alınabilir.",
+  "hint": "Her piyonun bir kare çapraz arkasına bakın. Birinin orada bir dostu duruyor, öteki yalnız.",
+  "explanation": "## Fikir\n\nİki piyon da filinizin çaprazlarında oturuyor, ama yalnızca biri bedava.\n\n{{Bxb5}} filinizi {{axb5}} hamlesine kaptırır, çünkü a6'daki piyon b5'i koruyor. {{Bxf5}} ise doğrudan bir piyon kazanır, çünkü f5'i koruyan hiçbir şey yok. Bir hamle beklerseniz siyah {{g6}} ile orayı korur.\n\nPiyonlar önlerindeki çapraz kareleri korur. Almadan önce hedefin bir kare çapraz arkasına bakın."
+}

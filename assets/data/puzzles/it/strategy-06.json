@@ -1,0 +1,11 @@
+{
+  "id": "strategy-06",
+  "fen": "rnbqnrk1/ppp1ppb1/6p1/4p3/3P4/2N2N2/PPP2PP1/R1BQKB1R w KQ - 0 9",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Comprate l'Ultima Casa Scura",
+  "setup": "La colonna h è aperta verso il re nero, e le case scure attorno a lui le difende un pezzo solo: l'alfiere in g7.",
+  "hint": "Il vostro alfiere in c1 può sfidare quella guardia di petto, e la vostra torre in h1 sostiene già la casa.",
+  "explanation": "## L'idea\n\nIl pedone h del Nero è sparito e il pedone g ha lasciato g7, quindi nessun pedone nero coprirà mai più h6. L'alfiere in g7 fa quel lavoro da solo.\n\n{{Bh6}} offre di cambiarlo, e la torre in h1 sta dietro il vostro alfiere. Una volta usciti gli alfieri, al Nero non resta un alfiere per le case scure, e ognuna di quelle attorno al re è vostra da usare."
+}

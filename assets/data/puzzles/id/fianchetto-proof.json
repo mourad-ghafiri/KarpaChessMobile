@@ -1,0 +1,11 @@
+{
+  "id": "fianchetto-proof",
+  "fen": "5rk1/pp1bppbp/3p1np1/q7/2r1P1P1/2N1BP2/PPPQN3/2KR3R w - - 3 17",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Karpov Memburu Sang Gajah",
+  "setup": "Karpov melawan Korchnoi, Moskwa 1974. Pion-pion Anda sudah maju di sayap raja, dan satu buah hitam masih menjaga petak-petak gelap di sekitar raja Hitam.",
+  "hint": "Melawan fianchetto Anda memburu satu buah. Buah Anda mana yang berjalan di petak-petak yang sama dengannya?",
+  "explanation": "## Ide\n\n{{Bh6}} menawarkan gajah petak gelap Anda untuk gajah Hitam, satu-satunya buah yang bertanggung jawab atas f6 dan h6. Sesudah {{Bxh6}} {{Qxh6}} menteri mendarat di petak yang dilepaskan pion g dan menatap g7 dan h7, dan tak ada pion hitam yang akan pernah bisa mengusirnya.\n\nKarpov terus maju dengan pion g dan benteng-bentengnya, dan Hitam menyerah sepuluh langkah kemudian."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "fork-02",
+  "fen": "6k1/pp3ppp/3b1n2/8/3PP3/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "e5"
+  ],
+  "rating": 730,
+  "title": "Um Peão, Duas Peças",
+  "setup": "O bispo preto em d6 e o cavalo em f6 estão a duas casas de distância na mesma linha.",
+  "hint": "Um peão ataca duas casas ao mesmo tempo, portanto procura o avanço que aterra entre duas peças pretas.",
+  "explanation": "## A Ideia\n\n{{e5}} atinge d6 e f6 em conjunto, e o peão de d4 defende-o, portanto o bispo não o pode simplesmente comer. As pretas salvam uma peça e tu comes a outra. Duas peças inimigas na mesma linha, a duas colunas de distância, são um garfo de peão à espera de acontecer."
+}

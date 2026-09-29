@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-08",
+  "fen": "8/8/3kp3/4P3/2K5/8/8/8 b - - 1 1",
+  "solution": [
+    "Kxe5"
+  ],
+  "rating": 1350,
+  "title": "Il Pedone Davanti",
+  "setup": "Il re bianco è appena arrivato in c4, e i due pedoni e sono incastrati l'uno contro l'altro.",
+  "hint": "Il re bianco è a due colonne dalla colonna e; chiedetevi che cosa cambia se il blocco davanti al vostro pedone sparisce.",
+  "explanation": "## L'idea\n\n{{Kxe5}} trasforma un pedone morto in un corridore con il proprio re già davanti. Il Bianco non può tenere la colonna: {{Kd3}} {{Kf4}} {{Ke2}} {{Ke4}} e il Nero lo aggira fino in fondo. Tre delle ritirate di re perdono senz'altro, e la quarta fa solo patta."
+}

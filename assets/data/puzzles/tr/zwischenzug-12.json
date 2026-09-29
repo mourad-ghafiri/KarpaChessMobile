@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-12",
+  "fen": "2Q1B2k/b4ppp/2r5/4r3/8/R7/PP6/K7 w - - 0 1",
+  "solution": [
+    "Bxc6+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1700,
+  "title": "Yolu Şah Çekerek Açın",
+  "setup": "e8'deki filiniz ile c8'deki veziriniz arka yatayda üst üste dizilmiş ve siyahın c6 ile e5'teki kaleleri her şeyi bir arada tutuyor.",
+  "hint": "Kendi taşınız mat karesinde duruyor. Onu kaldıran ve aynı anda bir tempo kazandıran hamleyi bulun.",
+  "explanation": "## Fikir\n\ne8'deki fil vezirin yolunda. {{Bxc6+}} aynı anda bir kale alır, kareyi boşaltır ve şah çeker; {{Re8}} mecburidir ve {{Qxe8#}} işi bitirir. En iyi ara hamle, üç iş birden görendir."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-15",
+  "fen": "1k6/1b6/8/2b5/8/6p1/R7/7K w - - 0 1",
+  "solution": [
+    "Rg2"
+  ],
+  "title": "Fermez la fenêtre",
+  "setup": "Le fou en **b7** met votre roi en échec le long de la plus longue diagonale de l'échiquier.",
+  "hint": "Votre roi n'a aucune case sûre — g1 et h2 sont toutes deux couvertes. Votre tour peut-elle se placer sur la diagonale ?",
+  "explanation": "## L'idée\n\nLe fou en b7 donne échec le long de toute la grande diagonale jusqu'à votre roi en h1. Les sorties sont scellées : le fou en c5 couvre g1, et le pion en g3 couvre h2.\n\nUn échec en diagonale reste un échec le long d'une ligne, et une ligne peut être barrée. {{Rg2}} glisse le long de la deuxième rangée sur le chemin du fou. Si {{Bxg2+}} suit, {{Kxg2}} reprend.\n\nUne tour ne se déplace pas en diagonale, mais elle peut se tenir sur une diagonale."
+}

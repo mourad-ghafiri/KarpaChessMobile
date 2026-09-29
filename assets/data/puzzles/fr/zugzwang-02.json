@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-02",
+  "fen": "7k/7B/8/p7/5Q2/8/8/1K6 w - - 0 1",
+  "solution": [
+    "Qf7",
+    "a4",
+    "Qg8#"
+  ],
+  "rating": 1435,
+  "title": "Un pion, un coup",
+  "setup": "Les Noirs ont un roi en h8 et un pion en a5, et une fois les cases du roi prises, ce pion est la seule chose qui puisse encore bouger.",
+  "hint": "Comptez les coups légaux des Noirs. Quand il n'en reste qu'un, il vous suffit d'y survivre.",
+  "explanation": "## L'idée\n\n{{Qf7}} scelle g8 et h7 sans donner échec. Les Noirs doivent pousser par {{a4}}, et {{Qg8#}} est mat avec le fou qui couvre. Prenez d'abord les cases et laissez le pion marcher tout seul vers le mat."
+}

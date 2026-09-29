@@ -1,0 +1,14 @@
+{
+  "id": "skewer-11",
+  "fen": "8/2q3k1/p7/2p1P2p/PR1p1P2/3Q4/2B3rP/5K2 w - - 0 1",
+  "solution": [
+    "Qh7+",
+    "Kf8",
+    "Qxc7"
+  ],
+  "rating": 1270,
+  "title": "L'Alfiere Dietro",
+  "setup": "La vostra donna in d3 sta davanti al vostro alfiere, e il re e la donna neri condividono la settima traversa.",
+  "hint": "La vostra donna blocca il proprio alfiere. Dove può andare in modo che sia proprio il lasciare la casa a tenerla al sicuro?",
+  "explanation": "## L'idea\n\n{{Qh7+}} sembra un regalo finché non vedete che cosa comporta lasciare d3: l'alfiere in **c2** adesso copre h7 lungo la diagonale b1–h7, quindi il re non può prendere. {{Kf8}} è forzata, e la settima traversa resta nuda per {{Qxc7}}."
+}

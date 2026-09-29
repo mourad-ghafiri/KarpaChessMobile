@@ -1,0 +1,13 @@
+{
+  "id": "forks-07",
+  "fen": "3r3k/p5pp/8/4N3/8/8/P5PP/6K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "Una Forchetta Dentro l'Angolo",
+  "setup": "Il re nero è al riparo nell'angolo h8 dietro i propri pedoni, e la torre nera in d8 non ha difensori.",
+  "hint": "Trovate lo scacco di cavallo che attacca anche la torre. Il re avrà una sola casa dove andare.",
+  "explanation": "## L'idea\n\n{{Nf7+}} dà scacco al re in h8 e attacca la torre in d8. I pedoni in g7 e h7 lasciano al re una casa, e da g8 non arriva a d8. Dopo {{Kg8}}, {{Nxd8}} prende la torre, e passate dall'essere sotto di qualità all'essere avanti di un cavallo.\n\nUn re inscatolato dai propri pedoni è il bersaglio più facile per una forchetta."
+}

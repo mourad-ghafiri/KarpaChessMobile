@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-09",
+  "fen": "4k3/8/1B6/1KpR4/8/7p/8/R7 w - - 0 1",
+  "solution": [
+    "Ra7",
+    "h2",
+    "Rd8#"
+  ],
+  "rating": 1650,
+  "title": "Both Rooks on the Back Rank",
+  "setup": "Black's king sits on e8 with pawns on c5 and h3, and your rooks command the fifth rank and the a-file.",
+  "hint": "One rook already owns the file the king would use. Give the other one the rank it needs, without checking.",
+  "explanation": "## The Idea\n\n{{Ra7}} takes the seventh rank quietly, leaving Black nothing that stops {{Rd8#}}. {{Rd8#}} follows on the back rank. Two rooks mate by taking two ranks — the trick is taking the second one in silence."
+}

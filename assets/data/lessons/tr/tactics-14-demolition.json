@@ -1,0 +1,50 @@
+{
+  "id": "demolition",
+  "title": "Savunmayı Yıkmak",
+  "summary": "İki piyon için harcanan iki fil ve açık havada kalakalan bir şah",
+  "proof": "demolition-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Yoldaki Tek Piyon",
+      "text": "Emanuel Lasker iki hamle önce h7'deki piyonu sökmek için bir fil verdi ve satın aldığı şey bu. Siyahın şahı g8'de, h dikeyi açık ve beyazın veziri h5'te.\n\ne5'teki fil uzun çaprazdan h8'e doğru bakıyor. Yolda g7'de bir siyah piyon duruyor.\n\n{{Qh8+}} {{Kxh8}}. Vezir indiğinde onu koruyan hiçbir şey yok, yani şah onu alır ve saldırı biter. O piyon h8'i korumuyor — koruyacak taşın yolunu kesiyor."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "title": "Cesaret Değil, Aritmetik",
+      "text": "Bir piyon için taş vermek cesaret değil, aritmetiktir. Harcamadan önce sonrasında gelecek hamlelerin adını koyun — iki tanesinin adını koyamıyorsanız, elinizde saldırı yoktur.\n\nBurada adlarını koymak kolay. h5'teki vezir çoktan yerinde ve f1'deki kale üçüncü yataya bir hamle, oradan h dikeyine bir hamle uzaklıkta.\n\nSonra öteki tarafı sayın. Siyahın a8 ve f8'deki kalelerinin h dikeyine giden yolu yok ve c6'daki vezir tahtanın öteki yarısına doğrultulmuş. Vaktinde geri dönen hiçbir şey yok."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/1b2bpp1/ppq1p3/2ppB2Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 1 17",
+      "prompt": "Siyahın şahının yanındaki son piyonu sökün ve bunun için koca bir taş ödeyin.",
+      "targetSan": [
+        "Bxg7"
+      ],
+      "hint": "Sizin bir taşınız o piyona ulaşabiliyor ve önemli olan, geride bıraktığı çıplak şah."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "Hesap Geliyor",
+      "text": "Bauer aldı ve almamak için pek sebebi yoktu: vezir çoktan h dikeyindeyken şahın yanında hayatta duran bir beyaz fil, öylece bırakılacak bir şey değildir.\n\nİşte iki filin satın aldığı şey bu. Siyahın şahı g7'de açık havada duruyor ve sayım, beyazın iki piyon için iki fil verdiğini söylüyor.\n\nBu kadar geride olmak yalnızca siyah şahlara cevap verirken katlanılabilir. Bir tane bedava hamle verin, a8 ve f8'deki kaleler karşıya geçmeye başlasın; beyaz o zaman elinde hiçbir şey olmadan iki taş eksik kalsın."
+    },
+    {
+      "type": "teach",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "title": "Kullanamayacağınız Şah",
+      "text": "Her şah sahip olmaya değmez. {{Qh7+}}, sizin hiçbir taşınızın h7'yi kapsamadığını fark edene kadar zorlayıcı görünür: {{Kxh7}} gelir ve saldırı bedavaya bir vezir hafifler.\n\nBir şah yalnızca, şahın onu alarak cevap veremediği sürece işe yarar. İstediğiniz şey, siyahın dokunamayacağı bir kareden gelen ve kalenin hâlâ karşıya geçecek vakti varken çekilen bir şahtır.\n\n> Bir piyon barınağı için harcanan taş yiğitlik değildir. Bir borçtur ve onu şahlarla ödersiniz."
+    },
+    {
+      "type": "play",
+      "fen": "r4r2/1b2bpk1/ppq1p3/2pp3Q/5P2/1P2P3/P1PP2PP/R4RK1 w - - 0 18",
+      "prompt": "Şahı yeniden oynamaya zorlayın ki kalenizin h dikeyine ulaşacak vakti olsun.",
+      "targetSan": [
+        "Qg4+"
+      ],
+      "hint": "Şahın öylece alabileceği bir şah size partiyi kaybettirir; öyleyse siyahın dokunamayacağı şah karesini bulun."
+    }
+  ]
+}

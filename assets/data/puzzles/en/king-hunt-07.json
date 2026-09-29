@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-07",
+  "fen": "4K3/7Q/1R3p2/2r3R1/8/5B2/b7/4k3 w - - 0 1",
+  "solution": [
+    "Qe4+",
+    "Kd2",
+    "Rg2+",
+    "Kc1",
+    "Qe1#"
+  ],
+  "rating": 1550,
+  "title": "Your King Is Not the Problem",
+  "setup": "Both kings are exposed — yours on e8, Black's on e1 — and Black has a rook on c5 and a bishop on a2 in the game.",
+  "hint": "Ignore what Black is threatening and count your own checks to the end.",
+  "explanation": "## The Idea\n\n{{Qe4+}} starts it, {{Rg2+}} takes the second rank, and {{Qe1#}} lands. When two kings are both in the open, the hunt belongs entirely to whoever gets to check first."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-20",
+  "fen": "4r3/1k1P4/8/8/8/8/8/6K1 w - - 0 1",
+  "solution": [
+    "dxe8=Q"
+  ],
+  "title": "Promoção Com Prémio",
+  "setup": "O teu peão em d7 está a um passo da última linha, e uma torre preta está na diagonal à frente dele.",
+  "hint": "Os peões capturam na diagonal, mesmo no último passo. Duas recompensas numa só jogada.",
+  "explanation": "## A Ideia\n\nO último passo de um peão segue as regras habituais dos peões, captura em diagonal incluída. Promover a direito com {{d8=Q}} deixa {{Rxd8}} comer a dama nova.\n\n{{dxe8=Q}} captura a torre e promove na mesma jogada: cinco pontos comidos e nove criados, e o rei de b7 não chega a e8.\n\nAntes de avançares um peão para a última linha, compara o passo a direito com a captura."
+}

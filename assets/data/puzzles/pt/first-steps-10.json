@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-10",
+  "fen": "4k3/4p3/8/8/1n2R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Rxb4"
+  ],
+  "title": "A Torre Escolhe",
+  "setup": "A tua torre em **e4** ataca pelas suas duas linhas: um cavalo na linha, um peão na coluna.",
+  "hint": "O peão de e7 é tentador, mas olha para quem está mesmo atrás dele.",
+  "explanation": "## A Ideia\n\nA torre chega a duas peças pretas, uma na sua coluna e outra na sua linha.\n\n{{Rxe7+}} vai dar a {{Kxe7}}: o rei em e8 guarda e7, e trocaste uma torre de cinco pontos por um peão de um. {{Rxb4}} come um cavalo que nada guarda e fica com os três pontos.\n\nO rei é um defensor a sério, e tudo o que esteja ao lado dele está guardado. Verifica a linha e a coluna inteiras da tua torre e depois come o alvo que ninguém protege."
+}

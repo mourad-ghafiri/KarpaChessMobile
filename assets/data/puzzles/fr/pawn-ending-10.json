@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-10",
+  "fen": "8/1k6/1p6/1P6/8/2K5/8/8 w - - 1 2",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1430,
+  "title": "Le grand détour",
+  "setup": "Le roi noir vient de se planter devant les pions, et aucun des deux pions ne peut plus bouger.",
+  "hint": "Le pion en b6 couvre a5 et c5 : demandez-vous de quel côté de l'échiquier le roi blanc a encore le droit de passer.",
+  "explanation": "## L'idée\n\nLe pion en b6 garde a5 et c5, donc le roi blanc ne pourra jamais monter à côté de son propre pion. {{Kd4}} commence la marche par le centre : {{Kc7}} {{Ke5}} {{Kd7}} {{Kd5}}, et les Blancs gagnent tour à tour les cases d5, e6 et d7, puis vont en c6 et prennent en b6."
+}

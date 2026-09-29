@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-01",
+  "fen": "6k1/5ppp/8/8/8/8/1r3PPP/4R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 700,
+  "title": "Piyon Kapma",
+  "setup": "Siyah az önce kalesiyle b2'de bir piyon aldı ve sekizinci yatayını bomboş bıraktı.",
+  "hint": "Siyahın şahının tam önünde kendi üç piyonu var. Bu ona ne bırakıyor?",
+  "explanation": "## Fikir\n\n{{Re8#}}. g8'deki şahın f7, g7 ve h7'si kendi piyonlarınca kapatılmıştır ve sekizinci yataydaki her kare kaleye aittir. Hiç oynamamış üç piyonun arkasındaki şah, o yatayı koruyan bir şey olmadığı sürece mata bir arka yatay şahı uzaklıktadır."
+}

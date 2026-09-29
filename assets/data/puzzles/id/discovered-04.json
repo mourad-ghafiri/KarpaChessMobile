@@ -1,0 +1,13 @@
+{
+  "id": "discovered-04",
+  "fen": "1r1k4/8/8/8/3N4/8/8/3RK3 w - - 0 1",
+  "solution": [
+    "Nc6+",
+    "Ke8",
+    "Nxb8"
+  ],
+  "title": "Sekak Ganda, Lalu Bentengnya",
+  "setup": "Benteng dan kuda Anda berbagi lajur d dengan raja hitam — kuda di depan, sekak menunggu di belakangnya.",
+  "hint": "Satu lompatan kuda bisa memberi sekak kepada raja sendiri dan juga menyingkap sekak benteng. Pilih lompatan yang juga menyerang sesuatu.",
+  "explanation": "## Ide\n\n{{Nc6+}} adalah sekak ganda: kuda sendiri menyerang d8, dan memindahkannya menyingkap benteng di d1 di belakangnya. Melawan dua sekak sekaligus, baik penangkapan maupun penghalangan tak menolong, jadi raja harus bergerak. Ke mana pun ia pergi, {{Nxb8}} mengambil benteng yang diincar kuda sejak awal, dan bahkan jika raja lalu mengambil kuda, benteng Anda tersisa melawan raja sendirian. Sekak ganda adalah langkah paling memaksa dalam catur: raja harus bergerak, dan segala yang lain menunggu."
+}

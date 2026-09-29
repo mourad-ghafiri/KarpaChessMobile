@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-21",
+  "fen": "8/5ppp/2k1b3/8/8/1N5P/4rPP1/3R2K1 w - - 0 1",
+  "solution": [
+    "Nd4+"
+  ],
+  "title": "Satu Lompatan, Dua Sasaran",
+  "setup": "Kuda Anda di b3 diserang gajah di e6 dan harus bergerak, jadi pilih petak tempat ia menyerang paling keras.",
+  "hint": "Temukan petak kuda yang memberi sekak kepada raja hitam dan sekaligus menyerang buah hitam lain.",
+  "explanation": "## Ide\n\nKuda Anda memang harus bergerak, jadi buat langkah itu mengerjakan dua tugas. {{Nd4+}} memberi sekak kepada raja di c6 dan menyerang benteng di e2 sekaligus.\n\nHitam harus menjawab sekak lebih dulu, dan tak ada buah hitam yang bisa menangkap kuda di d4. Setelah raja menyingkir, {{Nxe2}} mengambil benteng.\n\nSatu ancaman bisa dijawab. Dua ancaman dalam satu langkah biasanya tidak."
+}

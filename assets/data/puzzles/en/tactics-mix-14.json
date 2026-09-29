@@ -1,0 +1,13 @@
+{
+  "id": "tactics-mix-14",
+  "fen": "5rk1/5ppp/1r3B2/8/b4Q2/7R/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qh6",
+    "gxh6",
+    "Rg3#"
+  ],
+  "title": "The Queen Nobody Should Take",
+  "setup": "Your bishop on f6 already bites at g7, and your rook on h3 is waiting on the h-file. Find the move that leaves Black no good answer.",
+  "hint": "Two black pawns are the only shield. Ask what the g7 pawn would open if it ever had to capture something.",
+  "explanation": "## The Idea\n\n{{Qh6}} gives no check and takes nothing, yet it threatens mate on g7 and mate on h7 at once, and no single black move stops both.\n\nThe queen stands where a pawn can take it, and {{gxh6}} is the worst reply of all: it empties the g-file, and {{Rg3#}} follows, with the bishop on f6 now covering both g7 and h8."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-06",
+  "fen": "1B4k1/5ppp/2r3R1/4r3/8/3Q4/PP1b4/K7 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1500,
+  "title": "Pion-Pion Sudah Bekerja",
+  "setup": "Pion Hitam sendiri di f7, g7 dan h7 mengurung raja, tetapi benteng Hitam di e5 dan gajahnya di d2 aktif.",
+  "hint": "Mat tinggal satu sekak lagi. Tentukan petak yang dipaksa diisi Hitam dan siapa yang tersisa untuk mengambilnya.",
+  "explanation": "## Ide\n\n{{Qd8+}} hanya bisa dijawab {{Re8}}, karena pion-pion sendiri sudah merebut semua petak pelarian. {{Qxe8#}} menuntaskan. Perlindungan yang dibangun raja itulah kandang tempat ia jatuh."
+}

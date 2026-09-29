@@ -1,0 +1,11 @@
+{
+  "id": "en-passant-proof",
+  "fen": "r6k/pp5p/8/3pP3/8/2B5/PP3P1P/6RK w - d6 0 1",
+  "solution": [
+    "exd6#"
+  ],
+  "title": "Le pion qui aurait pu s'interposer",
+  "setup": "Les Noirs viennent de pousser le pion d de deux cases. Votre fou en c3 vise le roi en h8, et votre tour en g1 garde la colonne voisine.",
+  "hint": "Votre pion e est la seule chose sur la diagonale du fou. Quel pion noir pourrait revenir sur cette ligne ?",
+  "explanation": "## L'idée\n\nVotre pion en e5 est tout ce qui sépare le fou en c3 du roi en h8. Poussez-le par {{e6+}} et le pion noir avance en d4, de nouveau sur la ligne.\n\n{{exd6#}} ouvre la même diagonale et retire l'obstacle de l'échiquier dans le même coup. La tour couvre g8, le fou couvre g7, et h7 est occupée par le propre pion noir.\n\nL'occasion a duré un coup. Un coup plus tard, ce pion aurait été hors de portée pour toujours."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "trapped-01",
+  "fen": "5rk1/ppp2pp1/7p/8/8/5N1P/bPP2PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "b3"
+  ],
+  "rating": 1000,
+  "title": "Gajah yang Serakah",
+  "setup": "Gajah Hitam baru saja memakan pion a2 dan kini berdiri di sudut kubu Anda di a2.",
+  "hint": "Hitung petak-petak yang masih dimiliki gajah itu. Rampas diagonal yang lebih panjang dan lihat apa yang tersisa.",
+  "explanation": "## Ide\n\n{{b3}} menutup diagonal menuju g8 dan hanya menyisakan b1 bagi gajah, petak yang dikuasai benteng Anda dari e1. Ra1 pada langkah berikutnya memenangkannya. Pion di b3 aman karena c2 melindunginya. Gajah yang mencicipi pion sayap sering kali tak bisa pulang."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "bishop-moves",
+  "title": "Separuh Papan",
+  "summary": "Jalan-jalan miring yang panjang, dan separuh papan yang tak pernah bisa diinjak gajah",
+  "proof": "first-steps-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "title": "Empat Jalan Keluar dari d4",
+      "text": "Gajah di d4 punya empat jalan keluar. Semuanya berjalan miring.\n\nHanya diagonal — tak pernah naik di lajur, tak pernah menyusuri baris. Di diagonal yang kosong ia melaju sejauh yang ia mau, dan tujuh petak sama murahnya dengan satu.\n\n{{Bh8}} melaju ke satu sudut, {{Ba1}} ke sudut seberangnya. {{Ba7}} dan {{Bg1}} berhenti di tempat papan berakhir. Dua diagonal bersilangan di d4, dan gajah menempuh salah satunya, ke arah mana pun."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "prompt": "Pilih salah satu dari empat diagonal dan hentikan gajah di mana saja di sepanjangnya.",
+      "targetSan": [
+        "Bc5",
+        "Bb6",
+        "Ba7",
+        "Be5",
+        "Bf6",
+        "Bg7",
+        "Bh8",
+        "Bc3",
+        "Bb2",
+        "Ba1",
+        "Be3",
+        "Bf2",
+        "Bg1"
+      ],
+      "hint": "Dekat atau jauh tak ada bedanya — satu petak di sepanjang diagonal sama sahnya dengan tujuh."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/8/4K3 w - - 0 1",
+      "title": "Satu Warna, Sepanjang Partai",
+      "text": "Langkah apa pun yang baru Anda mainkan, ia mendarat di petak gelap. Begitu pula setiap langkah gajah lain yang tersedia di sini.\n\nd4 gelap. Langkah diagonal berpindah satu lajur ke samping dan satu baris naik atau turun sekaligus, dan pasangan itu membiarkan warna di bawahnya tetap seperti semula. Lurus ke depan, warnanya berganti. Di jalan miring, warnanya tak pernah berganti.\n\nItulah juga sebabnya setiap pasukan mendapat dua gajah: satu untuk petak gelap, satu untuk petak terang.\n\n> Gajah lahir di satu warna dan tak pernah meninggalkannya. Tiga puluh dua petak adalah rumahnya; tiga puluh dua lainnya seolah tak pernah ada."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3B4/8/1P6/4K3 w - - 0 1",
+      "title": "Tak Ada yang Dilompati",
+      "text": "Kuda melompati kemacetan. Gajah terjebak di dalamnya.\n\nDi diagonal sebelah kiri bawah, pion Anda sendiri di b2 berdiri di tengah jalan. Gajah hanya sampai di {{Bc3}} dan tak lebih jauh — a1 ada di balik pion, dan yang di balik berada di luar jangkauan.\n\nBuah lawan akan mengakhiri jalan di petak yang sama, dengan satu perbedaan: gajah bisa menangkapnya dan berhenti di tempatnya. Buah Anda sendiri menutup diagonal itu untuk seterusnya. Buah lawan menutupnya hanya sampai Anda menangkapnya."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/6p1/8/8/3B4/4K3 w - - 0 1",
+      "prompt": "Pion Hitam tersesat ke petak yang bisa dicapai gajah ini — menangkan pion itu.",
+      "targetSan": [
+        "Bxg5"
+      ],
+      "hint": "Gajah ini dan pion itu sama-sama berdiri di petak gelap, dan garis di antara keduanya kosong."
+    }
+  ]
+}

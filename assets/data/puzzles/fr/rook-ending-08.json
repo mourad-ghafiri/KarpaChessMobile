@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-08",
+  "fen": "8/2P5/8/1K1k4/4R3/8/8/1r6 w - - 0 1",
+  "solution": [
+    "Rb4"
+  ],
+  "rating": 1500,
+  "title": "Construisez le pont",
+  "setup": "Le pion c est à un pas de la promotion, mais les Blancs sont en échec sur la colonne b et leur tour est aussi attaquée.",
+  "hint": "Deux problèmes, un coup. Existe-t-il une case où votre tour pare l'échec et où votre roi monte déjà la garde ?",
+  "explanation": "## L'idée\n\n{{Rb4}} s'interpose sur une case que le roi défend : le pont. {{Rxb4+}} {{Kxb4}}, et le pion va à dame avant que le roi noir puisse l'arrêter. Écartez plutôt le roi, et {{Rc1}} se glisse à temps derrière le pion."
+}

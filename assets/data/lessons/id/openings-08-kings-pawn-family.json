@@ -1,0 +1,57 @@
+{
+  "id": "kings-pawn-family",
+  "title": "Pembukaan Pion Raja",
+  "summary": "Setiap jawaban terhadap 1.e4 adalah tawar-menawar yang berbeda",
+  "proof": "openings-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Dua Garis dalam Satu Dorongan",
+      "text": "Satu langkah pion membebaskan dua buah. Dorong pion e dan menteri serta gajah petak terang sama-sama mendapat jalan keluar dari baris belakang.\n\nJadi partai-partai ini cepat terisi. Buah-buah tiba, garis-garis terbuka, dan kedua pasukan sudah bersentuhan sementara kedua raja masih berdiri di tengah. Langkah yang lambat lebih mahal di sini daripada di posisi yang tenang, karena sudah ada yang di luar sana siap menghukumnya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Pion Tanpa Penjaga",
+      "text": "Hitam meniru, dan meniru ada harganya: pemain kedua harus menjawab pertanyaan yang sudah diajukan.\n\nKuda di f3 menyerang pion di e5. Hitung pembela e5 dan hasilnya nol.\n\nAda dua cara jujur untuk memperbaikinya. Sebuah buah bisa menjaga pion itu dan meninggalkan rumah pada langkah yang sama, tanpa membayar apa-apa. Sebuah pion bisa menjaganya sama baiknya, dan membayar tugas itu dengan berdiri di depan salah satu gajah Hitam sendiri sepanjang sisa partai."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "prompt": "Jaga pion yang baru saja diserang kuda Putih, dan pertahankan bagian Anda di tengah.",
+      "targetSan": [
+        "Nc6",
+        "d6"
+      ],
+      "hint": "Satu pembela adalah buah yang memang ingin keluar; yang lain adalah pion yang membayar dengan seekor gajah. Keduanya variasi utama."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "title": "Perdebatan Tertua",
+      "text": "Jaga e5 dengan kuda dan Putih sudah punya langkah yang menunggu. {{Bb5}} sama sekali mengabaikan pion di e5 dan mengincar buah yang melindunginya: singkirkan penjaganya dan pion itu tak terlindungi.\n\nHitam mendorong gajah dengan {{a6}}, gajah mundur menyusuri diagonal dengan {{Ba4}}, masih membidik kuda yang sama dan masih tak membayar apa-apa. Itulah Ruy López, berumur empat abad dan masih menjadi pembukaan yang paling banyak diperdebatkan."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Tiga Cara Menolak",
+      "text": "Sebagian besar jawaban kuat terhadap pion raja sama sekali tak menyentuh e5. Masing-masing menolak dengan mata uang yang berbeda.\n\n- **Pertahanan Sisilia** membiarkan e4 dan memperebutkan d4 dengan pion ke c5, lalu mengambil lajur c setengah terbuka ketika pion-pion bertukar di sana.\n- **Pertahanan Caro-Kann** dan **Pertahanan Prancis** memakai langkah tenang di c6 atau e6 lebih dulu, sehingga dorongan ke d5 tiba dengan dukungan — Pertahanan Prancis mengurung gajah petak terangnya di balik tembok, Pertahanan Caro-Kann mengeluarkannya.\n- **Pertahanan Alekhine** mengirim kuda ke f6 dan menantang pion-pion Putih untuk mengejarnya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "title": "Penolakan yang Sedang Berlangsung",
+      "text": "Hitam memakai langkah pertama untuk pion ke c6, dan Putih mengambil semua yang ditawarkan: dua pion sejajar di d4 dan e4, pusat terluas yang pernah didapat Putih dengan gratis.\n\nLuas tidak berarti aman. Pusat pion yang besar harus dihadapi selagi masih berupa pion saja — biarkan, dan buah-buah Putih keluar di belakangnya lalu seluruh tembok bergulir maju.\n\nLangkah pertama tadi bukan kerendahan hati. Itu pion yang ditempatkan untuk mendukung serangan yang belum terjadi.\n\n> Langkah pertama yang tenang adalah langkah kedua yang keras yang sedang menunggu gilirannya."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "prompt": "Hadapi pusat dua pion Putih dengan pion yang didukung oleh langkah pertama Anda yang tenang tadi.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "Langkah pertama adalah pion dengan satu tugas. Tanyakan petak mana yang dikuasainya, dan perhatikan bahwa belum ada yang menempati petak itu."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "trapped-03",
+  "fen": "3r2k1/pp3pp1/5n1p/8/7B/2N3P1/PP3P1P/4R1K1 b - - 0 1",
+  "solution": [
+    "g5"
+  ],
+  "rating": 1090,
+  "title": "Dois Passos, Sem Saída",
+  "setup": "O bispo das brancas está em h4, e as brancas já jogaram g3, fechando uma das suas duas casas de recuo.",
+  "hint": "O próprio peão das brancas já tapa uma das duas saídas do bispo. Quem controla a outra?",
+  "explanation": "## A Ideia\n\n{{g5}} ataca o bispo, e h4 tem exatamente duas casas na diagonal. g3 tem o peão das próprias brancas, e o peão agora em g5 é defendido por h6, portanto Bxg5 hxg5 entrega uma peça por um peão. Encurralar é uma questão de casas, não de ataques."
+}

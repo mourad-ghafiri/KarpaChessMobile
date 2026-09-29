@@ -1,0 +1,14 @@
+{
+  "id": "deflection-07",
+  "fen": "3r2k1/ppq3pp/b6Q/6N1/8/8/1B3PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Qxg7#"
+  ],
+  "rating": 1340,
+  "title": "Guardia Via dalla Settima",
+  "setup": "La vostra donna e il vostro alfiere puntano su g7, ma la donna nera in c7 copre quella casa lungo la settima traversa.",
+  "hint": "Due dei vostri attaccano g7 e due dei loro la difendono. A quale difensore si può dare un compito altrove?",
+  "explanation": "## L'idea\n\n{{Rxd8+}} forza {{Qxd8}}, e da d8 la donna non vede più g7. {{Qxg7#}} dà matto, con l'alfiere in b2 a tenere la donna al suo posto. Contate i difensori di una casa di matto, poi toglietene uno. Le case di matto sono difese da pezzi, e ai pezzi si può dare un altro lavoro."
+}

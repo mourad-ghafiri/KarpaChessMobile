@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-09",
+  "fen": "r3k3/8/8/8/8/8/R7/4K3 w - - 0 1",
+  "solution": [
+    "Rxa8+"
+  ],
+  "title": "Prendete la Torre Indifesa",
+  "setup": "Due torri si fronteggiano sulla **colonna a** — e anche il re nero sta sulla traversa di fondo.",
+  "hint": "Controllate quale delle due torri sulla colonna a abbia un difensore.",
+  "explanation": "## L'idea\n\nLa torre nera in a8 non ha difensori: il re in e8 è a quattro case. {{Rxa8+}} la prende con scacco, il re deve scendere dalla traversa di fondo, e vi restano re e torre contro un re nudo, una vittoria forzata.\n\nLa vostra torre in a2 era indifesa allo stesso modo, quindi al tratto del Nero sarebbe caduta quella. Quando due pezzi indifesi si fronteggiano, vince chi muove per primo."
+}

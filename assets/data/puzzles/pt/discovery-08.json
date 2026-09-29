@@ -1,0 +1,12 @@
+{
+  "id": "discovery-08",
+  "fen": "1rk1q3/1p3ppp/4p3/8/2B5/8/P4PPP/2Q3K1 w - - 0 1",
+  "solution": [
+    "Bb5+"
+  ],
+  "rating": 1240,
+  "title": "Dama Atrás do Bispo",
+  "setup": "A tua dama em c1 aponta pela coluna c acima, e o teu próprio bispo de c4 é a única coisa a tapá-la.",
+  "hint": "Para onde pode ir o bispo de maneira que abra a coluna e comece a olhar para algo na oitava linha?",
+  "explanation": "## A Ideia\n\n{{Bb5+}} desmascara o xeque da dama pela coluna c e aponta ao mesmo tempo a e8 por b5-c6-d7. As pretas têm de responder primeiro ao xeque, portanto depois de Kd8 o bispo recolhe a dama. Tapar com Qc6 só a entrega uma jogada mais cedo."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "smothered-11",
+  "fen": "1r5k/p5pp/8/3QN3/1B6/8/5PPP/6K1 w - - 7 31",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1470,
+  "title": "Il Cavallo Va Due Volte",
+  "setup": "Il re nero è appena fuggito dalla diagonale nell'angolo, e l'alfiere in b4 copre f8 da lontano.",
+  "hint": "Contate le fughe: f8 è coperta e i pedoni tengono g7 e h7, quindi il re può solo fare la spola fra due case.",
+  "explanation": "## L'idea\n\n{{Nf7+}} caccia fuori il re, {{Kg8}} forzata, e {{Nh6+}} torna come scacco doppio, quindi {{Kh8}} è di nuovo l'unica mossa. Adesso il cavallo difende g8: {{Qg8+}} {{Rxg8}} e {{Nf7#}}. Questo è il Lascito di Philidor, e i due balzi di cavallo esistono solo per preparare il sacrificio."
+}

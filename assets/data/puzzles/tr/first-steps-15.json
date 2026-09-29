@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-15",
+  "fen": "1k6/1b6/8/2b5/8/6p1/R7/7K w - - 0 1",
+  "solution": [
+    "Rg2"
+  ],
+  "title": "Pencereyi Kapatın",
+  "setup": "**b7**'deki fil, tahtanın en uzun çaprazı boyunca şahınıza şah çekiyor.",
+  "hint": "Şahınızın güvenli karesi yok — g1 de h2 de kapsanmış. Kaleniz çaprazın içine adım atabilir mi?",
+  "explanation": "## Fikir\n\nb7'deki fil, bütün uzun çapraz boyunca h1'deki şahınıza şah çekiyor. Çıkışlar kapalı: c5'teki fil g1'i, g3'teki piyon h2'yi kapsıyor.\n\nÇapraz şah da bir hat şahıdır ve hatlar kapatılabilir. {{Rg2}} ikinci yatay boyunca kayıp filin yoluna girer. Ardından {{Bxg2+}} gelirse {{Kxg2}} geri alır.\n\nKale çapraz oynayamaz, ama bir çaprazın üstünde durabilir."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "fork-10",
+  "fen": "8/2q1P1kp/p7/8/8/8/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "e8=N+"
+  ],
+  "rating": 1030,
+  "title": "Yanlış Vezir",
+  "setup": "Piyonunuz bu hamlede sekizinci yataya adımlıyor; siyahın şahı g7'de, veziri c7'de.",
+  "hint": "Yeni bir vezir burada hiçbir şeyi değiştirmez. Terfi karesinden şaha hangi taşın şah çekeceğini sorun.",
+  "explanation": "## Fikir\n\ne8'deki bir vezir hiç şah çekmez ve siyah pozisyon eşitken oynamayı sürdürür. {{e8=N+}} aynı anda g7 ile c7'ye vurur, siyahın şaha cevap vermesi gerekir ve vezir sıradaki hamlede düşer. En büyüğüne değil, pozisyonun ihtiyacı olana terfi edin."
+}

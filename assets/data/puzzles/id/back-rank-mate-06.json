@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-06",
+  "fen": "3r2k1/1n3ppp/8/8/8/8/5PPP/3RR1K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Nxd8",
+    "Re8#"
+  ],
+  "rating": 880,
+  "title": "Kuda Kembali",
+  "setup": "Kuda Hitam baru saja pergi ke b7, dari mana ia bisa menangkap balik di d8 dan tak bisa berbuat apa-apa lagi.",
+  "hint": "Tanyakan apa yang akan dikuasai buah penangkap balik itu begitu ia mendarat, dan apa yang tak lagi dikuasainya.",
+  "explanation": "## Ide\n\n{{Rxd8+}} memaksa {{Nxd8}}, satu-satunya jawaban sah. Tetapi kuda di d8 menguasai b7, c6, e6 dan f7 — tak pernah e8. {{Re8#}} mendarat di satu-satunya petak yang tak bisa dilihat pembela baru itu. Di mana sebuah buah menangkap balik sama pentingnya dengan apakah ia bisa menangkap balik."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "promotion-11",
+  "fen": "B5k1/P5p1/7p/8/8/8/2r2PPP/6K1 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kh8",
+    "a8=Q+"
+  ],
+  "rating": 1370,
+  "title": "El alfil se aparta",
+  "setup": "Tu peón de a7 está a una casilla de coronar y tu propio alfil está en a8, justo en su camino.",
+  "hint": "El alfil tiene que dejar la casilla, y debería caer en algún sitio que no les dé a las Negras una jugada libre para interferir.",
+  "explanation": "## La idea\n\n{{Bd5+}} despeja a8 con jaque por la diagonal a2-g8. Las Negras tienen que responder al jaque, y ninguna respuesta detiene al peón: tras {{Kh8}} o {{Kf8}}, {{a8=Q+}} incluso corona con jaque, y tras {{Kh7}} el peón corona igualmente. Dejar la casilla con jaque es toda la idea."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "ruy-lopez-basics",
+  "title": "A Abertura Espanhola",
+  "summary": "O bispo que não ganha um peão",
+  "proof": "openings-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "A Jogada de 1561",
+      "text": "O bispo branco foi até b5, onde olha diretamente para o cavalo de c6 — e esse cavalo é a única coisa que guarda o peão de e5.\n\nPor isso lê-se como um ataque ao peão, a um passo de distância. Não é, e saber porquê é a primeira coisa que qualquer pessoa aprende sobre esta abertura.\n\nRuy López de Segura, um padre espanhol, publicou uma análise da jogada em 1561. Quatro séculos e meio depois continua a ser linha principal no topo do jogo, o que é um destino estranho para uma jogada que não ameaça nada."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "A Pergunta É o Cavalo",
+      "text": "O alvo é o cavalo em c6, não o peão que está atrás dele.\n\nSe esse bispo alguma vez se trocar pelo cavalo, as pretas recapturam com um peão e acabam com dois peões empilhados na coluna c, um à frente do outro. Peões **dobrados** são permanentes — um peão não se desloca de lado para os arranjar. Em troca as pretas ficam com os dois bispos, portanto é uma coisa duradoura por outra.\n\nAs brancas andam às compras de algo permanente contra que jogar. As pretas preferem fixar já os termos dessa troca a esperar e vê-los impostos."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "Obriga o bispo a decidir já — comer o cavalo ou recuar — com uma jogada de peão que não te custa nada.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "Qual dos teus peões pode atacar o bispo de b5 num só passo, sem deixar nada de teu solto atrás?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "title": "Levantar o Dinheiro",
+      "text": "As brancas podem capturar neste momento e contar o peão. {{Bxc6}} {{dxc6}} {{Nxe5}}, e o boletim diz um peão a mais.\n\nDepois chega {{Qd4}}, a atingir ao mesmo tempo o cavalo de e5 e o peão de e4. Um deles cai, o material fica igual, e as pretas ficam com os dois bispos pelo incómodo.\n\nO bispo nunca estava a atacar e5. Capturar em c6 é uma decisão sobre peões, e as brancas têm de estar dispostas a viver com ela.\n\n> O bispo espanhol não ganha material. Compra uma longa discussão."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Nove Jogadas, Nenhuma Captura",
+      "text": "Nove jogadas e não se capturou uma peça. Os dois exércitos ainda andam à caça de casas melhores, e é isso que se quer dizer com Espanhola fechada.\n\nDuas das jogadas das brancas parecem não ser nada. O peão em c3 não é desenvolvimento — é uma casa de apoio à espera de que chegue um peão ao centro. O peão em h3 também não é desenvolvimento; tira g4, para nenhum bispo preto poder sair a cravar o cavalo de f3.\n\nAs jogadas gastas a travar as ideias do outro lado não são desperdiçadas numa posição lenta."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "O Longo Deslize do Bispo",
+      "text": "Segue para trás o bispo das casas claras das brancas. Esteve em b5, passou a a4 quando um peão lho pediu, depois a b3 quando outro fez o mesmo. Três casas, duas diagonais — e a segunda corre até f7.\n\nPede-lho mais uma vez e ele vai para c2. Ali aponta a h7, atrás do seu próprio peão e, fora de alcance. Não é uma retirada que incomode as brancas: o peão em c3 está a preparar a abertura do centro, e um centro aberto é o que o bispo esperava.\n\nPortanto a perseguição não serve para ganhar uma peça. Serve para decidir com que diagonal as brancas se têm de contentar."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "prompt": "Persegue a melhor peça das brancas: põe um cavalo na casa da coluna a que ataca o bispo de b3.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "Os teus dois cavalos estão no tabuleiro, mas só o da ala da dama tem uma jogada que toque em b3."
+    }
+  ]
+}

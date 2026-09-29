@@ -1,0 +1,14 @@
+{
+  "id": "decoy-07",
+  "fen": "6rk/pp1q2pp/8/5P1R/8/6P1/6K1/3R4 w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Rh1#"
+  ],
+  "rating": 1390,
+  "title": "La torre que paga primero",
+  "setup": "Tu torre de h5 mira a h7, tu otra torre espera en d1, y el rey negro no puede moverse ni una casilla.",
+  "hint": "Pregúntate en qué casilla tiene que estar el rey para que tu segunda torre importe, y luego paga por ello.",
+  "explanation": "## La idea\n\n{{Rxh7+}} cuesta una torre y {{Kxh7}} es forzada. Ahora la columna h está desnuda detrás, el peón de f5 le quita g6 y {{Rh1#}} pasa al otro lado para dar mate. Dos torres pueden con un rey en cuanto la columna que tiene delante está vacía."
+}

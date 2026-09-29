@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-02",
+  "fen": "7k/7B/8/p7/5Q2/8/8/1K6 w - - 0 1",
+  "solution": [
+    "Qf7",
+    "a4",
+    "Qg8#"
+  ],
+  "rating": 1435,
+  "title": "Um Peão, Uma Jogada",
+  "setup": "As pretas têm um rei em h8 e um peão em a5, e assim que as casas do rei forem tiradas, esse peão é a única coisa que resta capaz de mexer.",
+  "hint": "Conta as jogadas legais das pretas. Quando o número for um, só tens de lhe sobreviver.",
+  "explanation": "## A Ideia\n\n{{Qf7}} sela g8 e h7 sem dar xeque. As pretas têm de empurrar com {{a4}}, e {{Qg8#}} é mate com o bispo a cobrir. Tira primeiro as casas e deixa o peão entrar sozinho no mate."
+}

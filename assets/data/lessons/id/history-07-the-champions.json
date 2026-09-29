@@ -1,0 +1,68 @@
+{
+  "id": "the-champions",
+  "title": "Siapa Pemegang Gelar",
+  "summary": "Dari 1886 sampai sekarang, delapan belas juara, dan empat kali garis itu terputus",
+  "proof": "history-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Reykjavík, 1972",
+      "text": "Sebuah pertandingan catur menjadi berita utama di negara-negara yang tak pernah mengikutinya.\n\nBobby Fischer tiba di Islandia terlambat, mengeluhkan kamera, kalah di partai pertama lalu menolak memainkan partai kedua. Boris Spassky memegang gelar, dan gelar itu tak pernah lepas dari tangan Soviet sejak 1948.\n\nIni partai keenam. Fischer memegang Putih, dan giliran Putih melangkah. Yang masih diceritakan orang tentang partai ini bukanlah hasilnya — melainkan apa yang dilakukan Spassky setelah partai berakhir."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Urutan Kesebelas",
+      "text": "Fischer menjadi juara dunia kesebelas pada akhir musim panas itu, dan sepuluh pemegang gelar sebelumnya hampir tak sepakat tentang apa pun.\n\nSteinitz berkata serangan harus diperoleh. Lasker mempertahankan gelar selama dua puluh tujuh tahun, lebih lama daripada siapa pun sebelum maupun sesudahnya, dan konon bermain melawan orangnya sama seperti melawan papannya. Capablanca membuat kemenangan tampak seperti hal yang remeh. Para pemain yang muncul pada tahun 1920-an berpendapat bahwa Anda bisa menguasai pusat tanpa pernah menempatkan pion di sana. Aliran Soviet mengubah persiapan menjadi industri dan memegang gelar selama dua puluh empat tahun berturut-turut."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Penjaga Terakhir",
+      "text": "Kuda Hitam di f6 memikul dua tugas sekaligus.\n\nIa menguasai g8 dan h7, satu-satunya dua petak yang bisa dituju raja di h8. Dan ia menghalangi lajur f, tempat Putih menumpuk benteng di f5 dan f3.\n\nTak ada yang lain yang datang membantu. Pion Putih di e6 tinggal dua petak dari baris kedelapan, jadi benteng di e7 harus berdiri di depannya dan menteri di e8 duduk di petak yang diinginkan pion itu. Benteng di c7 bebas pergi ke mana saja dan tak punya pekerjaan setibanya di sana."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "prompt": "Serahkan benteng untuk kuda yang menguasai g8 dan h7, dan buat penangkapan baliknya menarik sebuah pion menjauh dari raja.",
+      "targetSan": [
+        "Rxf6"
+      ],
+      "hint": "Raja di h8 punya satu pion di sampingnya. Jika pion itu yang harus menangkap, petak mana yang ditinggalkannya?"
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r1p1/4Pn1p/p1p2R2/P2pQ2P/1P1B1R2/6P1/6K1 w - - 9 38",
+      "title": "Atapnya Terlepas",
+      "text": "{{Rxf6}}, dan menolak bukanlah pilihan yang layak — membiarkan benteng itu menyerahkan seekor kuda utuh kepada Putih.\n\nMaka {{gxf6}}. Kini g7 kosong. Pion yang tadi berdiri di samping raja berada di f6, tempat benteng di f3 menatapnya lurus, dan raja di h8 tak punya apa-apa lagi selain pion di h6."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4Pp1p/p1p5/P2pQ2P/1P1B1R2/6P1/6K1 w - - 0 39",
+      "title": "Benteng Kedua",
+      "text": "{{Rxf6}}. Petak yang sama, dan kali ini tak ada yang menangkap balik: tak ada buah hitam yang mencapai f6 sama sekali.\n\n{{Kg8}} {{Bc4}} {{Kh8}} — Spassky memajukan raja lalu mengembalikannya, Fischer menjalankan gajah ke seberang untuk menjaga pion di e6. Hitam telah memakai dua langkah untuk diam di tempat. Putih telah memakai satu dan kini gajahnya berada di tempat yang ia inginkan."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Tempat Garis Itu Putus",
+      "text": "Dunia catur suka menceritakan gelar ini sebagai satu garis yang berpindah dari tangan ke tangan sejak 1886. Garis itu telah putus empat kali.\n\nAlekhine wafat sebagai pemegang gelar pada tahun 1946, dan tak ada yang memegangnya sampai 1948. Fischer tak pernah mempertahankannya: pada tahun 1975 gelar itu jatuh ke Karpov tanpa satu langkah pun dimainkan. Kasparov dan penantangnya membawa pertandingan 1993 mereka ke luar FIDE, yang lalu menobatkan juara tandingan, dan ada dua gelar dunia selama tiga belas tahun, sampai Kramnik mengalahkan Topalov pada tahun 2006. Carlsen menolak mempertahankan gelar pada tahun 2023, dan begitulah Ding Liren menjadi juara — dan begitulah Gukesh Dommaraju merebutnya dari Ding pada Desember 2024, pada usia delapan belas tahun, yang termuda sepanjang sejarah."
+    },
+    {
+      "type": "teach",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "title": "Tak Ada Lagi yang Bisa Bergerak",
+      "text": "Hitam punya dua benteng melawan satu milik Putih dan tak bisa memakai satu pun.\n\nBenteng di e7 masih satu-satunya yang berdiri di depan pion di e6, dan menteri di e8 masih berdiri di petak yang diinginkan pion itu. Keduanya tak bisa pergi. Benteng di c7 boleh pergi ke mana saja, dan tak ada pekerjaan untuknya di mana pun.\n\nTersisa pion di h6, tak dijaga siapa pun, dengan benteng di f6 sudah memandanginya di sepanjang baris keenam.\n\n> Buah yang tak bisa meninggalkan petaknya telah berhenti menjadi buah."
+    },
+    {
+      "type": "play",
+      "fen": "4q2k/2r1r3/4PR1p/p1p5/P1BpQ2P/1P6/6P1/6K1 w - - 3 41",
+      "prompt": "Tambahkan menteri pada serangan benteng terhadap h6, mendarat di tempat yang tak bisa diserang apa pun sambil memberi benteng di f6 satu pembela.",
+      "targetSan": [
+        "Qf4"
+      ],
+      "hint": "Coret setiap petak tempat menteri hitam atau pion di h6 bisa menangkap menteri, lalu tetaplah di lajur yang sudah dikuasai benteng."
+    }
+  ]
+}

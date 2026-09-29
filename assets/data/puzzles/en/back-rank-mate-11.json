@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-11",
+  "fen": "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w - - 0 16",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1060,
+  "title": "Give Up the Queen",
+  "setup": "Black's king is still on e8, boxed in by its own bishop and pawns, with a knight on d7 blocking your rook's road to d8.",
+  "hint": "One black piece is stopping your rook from mating on d8. What would make it leave that square?",
+  "explanation": "## The Idea\n\nThe rook on d1 already wants d8, only the knight on d7 stands in its road, and your bishop on g5 already covers d8 and e7. {{Qb8+}} costs a whole queen and forces {{Nxb8}}, the one legal reply — and the knight is now on the wrong square. {{Rd8#}} finishes."
+}

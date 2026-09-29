@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-12",
+  "fen": "5r1k/6pp/7N/8/2Q5/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1400,
+  "title": "Boğmaca Matı",
+  "setup": "Siyahın şahı h8'de kendi kalesi ve piyonlarıyla duvara alınmış; ünlü bir kafese bir kare uzaklıkta.",
+  "hint": "Şahı neredeyse kendi taşları gömmüş. Hangi kare hâlâ boş ve onu doldurtabilir misiniz?",
+  "explanation": "## Fikir\n\nBu **boğmaca matı**tır. {{Qg8+}} veziri, **h6**'daki atın koruduğu bir karede ikram eder; yani şah alamaz ve {{Rxg8}} mecburidir. Bu da son boş kareyi tıkar ve {{Nf7#}} hiçbir at şahının asla kapatılamayacağı yere iner."
+}

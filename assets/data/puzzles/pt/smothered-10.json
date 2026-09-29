@@ -1,0 +1,16 @@
+{
+  "id": "smothered-10",
+  "fen": "r4rk1/pp3Npp/8/8/2Q5/8/P4PPP/6K1 w - - 9 33",
+  "solution": [
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1440,
+  "title": "O Cavalo Escolhe h6",
+  "setup": "As pretas acabaram de atacar o cavalo de f7 com uma torre, enquanto a dama de c4 olha para a diagonal de a2 a g8.",
+  "hint": "O teu cavalo está na diagonal da dama, portanto qualquer jogada de cavalo dá xeque duas vezes — escolhe com cuidado a casa onde aterra.",
+  "explanation": "## A Ideia\n\n{{Nh6+}} é um xeque duplo, portanto a torre não pode capturar e o rei tem de mexer: {{Kh8}} é a sua única casa. Agora {{Qg8+}} força {{Rxg8}}, e {{Nf7#}} sufoca-o. O cavalo tinha de escolher h6 para ficar a guardar g8 para o sacrifício."
+}

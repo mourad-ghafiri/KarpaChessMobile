@@ -1,0 +1,13 @@
+{
+  "id": "xray-proof",
+  "fen": "6k1/pq3pp1/1p5p/4b3/4r3/5N1Q/PPP2PPP/4RK2 w - - 0 1",
+  "solution": [
+    "Nxe5",
+    "Rxe5",
+    "Rxe5"
+  ],
+  "title": "Guarded Through the Rook",
+  "setup": "The bishop on e5 has one defender, the rook in front of it, and that rook is standing on your own rook's file.",
+  "hint": "Count what guards a square after Black's rook has left e4, not before.",
+  "explanation": "## The Idea\n\n{{Nxe5}} puts your knight where the rook on e4 can take it, and that is the point. Your rook on e1 guards e5 through the black rook: the moment it captures, it opens the file behind it, and your rook takes it back. So Black cannot really recapture at all. The best Black has is to trade rooks on e1 and stay a piece down."
+}

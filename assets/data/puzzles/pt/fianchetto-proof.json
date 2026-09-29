@@ -1,0 +1,11 @@
+{
+  "id": "fianchetto-proof",
+  "fen": "5rk1/pp1bppbp/3p1np1/q7/2r1P1P1/2N1BP2/PPPQN3/2KR3R w - - 3 17",
+  "solution": [
+    "Bh6"
+  ],
+  "title": "Karpov Caça o Bispo",
+  "setup": "Karpov contra Korchnoi, Moscovo 1974. Os teus peões subiram na ala do rei, e uma peça preta ainda guarda as casas escuras à volta do rei preto.",
+  "hint": "Contra um fianqueto caças uma peça só. Qual das tuas anda nas mesmas casas que ela?",
+  "explanation": "## A Ideia\n\n{{Bh6}} oferece o teu bispo das casas escuras em troca do preto, a única peça que responde por f6 e h6. Depois de {{Bxh6}} {{Qxh6}} a dama aterra na casa a que o peão g renunciou e fita g7 e h7, e nenhum peão preto a poderá alguma vez enxotar.\n\nKarpov continuou a chegar com o peão g e com as torres, e as pretas abandonaram dez jogadas depois."
+}

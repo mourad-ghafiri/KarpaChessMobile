@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-02",
+  "fen": "6k1/ppp2p1p/6p1/8/8/2N1P3/PPP2PPb/5K2 w - - 0 1",
+  "solution": [
+    "g3"
+  ],
+  "title": "h2'nin Kapısını Kapatın",
+  "setup": "Siyahın fili az önce h piyonunuzu aldı. Oradan bir daha asla çıkamamasını sağlayan hamleyi bulun.",
+  "hint": "Filin eve dönüş yollarını sayın. Tek bir piyon hamlesi ikisini de kapatabilir; yeter ki o piyon korunuyor olsun.",
+  "explanation": "## Fikir\n\n{{g3}} fili duvara alır. h2'den iki çıkış yolu vardır ve ikisi de gitmiştir: f1'deki şahınız g1'i kapsar ve g3'teki piyonu f2'deki piyon korur.\n\nSırada Kg2 gelir ve fil kaybolur. Siyahın karşılığında alabileceği en fazla şey, g3'te alarak kazanacağı tek bir piyondur."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-27",
+  "fen": "k7/8/1K6/8/8/8/8/7R w - - 0 1",
+  "solution": [
+    "Rh8#"
+  ],
+  "title": "Palu dari Sisi Jauh",
+  "setup": "Raja Hitam terjepit di sudut a8, dan raja Anda di b6 menguasai petak-petak di depannya.",
+  "hint": "Raja Anda di b6 menguasai a7 dan b7. Benteng Anda bisa memberi sekak dari sisi papan yang jauh.",
+  "explanation": "## Ide\n\nIni lagi-lagi mat sudut raja dan benteng, dengan benteng memberi sekak dari sisi yang jauh. Raja Anda di b6 menguasai a7 dan b7.\n\n{{Rh8#}} memberi sekak di sepanjang baris belakang, dan b8 juga berada di garis benteng. Tak ada yang bisa menghalangi, dan raja tak bisa mencapai benteng.\n\nBegitu raja Anda sudah membangun kandangnya, jarak tak melemahkan sekak benteng."
+}

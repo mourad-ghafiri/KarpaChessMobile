@@ -1,0 +1,14 @@
+{
+  "id": "overload-05",
+  "fen": "6k1/5ppp/1b6/5r2/7R/8/PP1R4/K2Q4 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Bxd8",
+    "Qxd8#"
+  ],
+  "rating": 1410,
+  "title": "O Bispo Está Longe de Mais",
+  "setup": "O bispo preto em b6 vigia d8 pela diagonal enquanto a torre de f5 se afastou de casa.",
+  "hint": "Um defensor à distância tem à mesma de conseguir voltar. Testa se a casa que vigia é uma casa que ele consegue segurar.",
+  "explanation": "## A Ideia\n\nO bispo guarda d8 de longe, portanto {{Rd8+}} custa uma torre e {{Bxd8}} é forçado. Agora a diagonal está vazia e {{Qxd8#}} toma a casa. Guardar uma casa e conseguir sobreviver nela são coisas diferentes."
+}

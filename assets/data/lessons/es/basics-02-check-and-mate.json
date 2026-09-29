@@ -1,0 +1,67 @@
+{
+  "id": "check-and-mate",
+  "title": "Nada más que jugar",
+  "summary": "El único ataque al que hay que responder, y aquel al que no se puede responder",
+  "proof": "mate-in-1-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "Un ataque al que hay que responder",
+      "text": "Ataca una torre y tu rival puede elegir: moverla, defenderla o dejarla y capturar algo más grande en otra parte.\n\nAtaca al rey y no hay elección posible. El rey nunca es capturado, así que las reglas nunca dejan que el ataque se quede ahí: responder es lo único que puede hacer tu rival. Eso es el **jaque**.\n\n{{Qh5+}} pone al rey negro de e8 bajo el fuego de la diagonal. Se aparta de la línea con {{Kd8}} y la partida sigue. El `+` es la forma de anotar un jaque."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "title": "Cuando no hay respuesta",
+      "text": "El **jaque mate** es ese mismo ataque sin ninguna respuesta. El rey está atacado y el bando atacado no tiene ninguna jugada legal: ni con el rey ni con ninguna otra pieza. La partida termina ahí.\n\nSe marca con `#`, y después de un `#` nunca se escribe nada.\n\nEl jaque mate es la única forma de ganar una partida sobre el tablero. Las partidas también terminan cuando alguien abandona o se queda sin tiempo, y cada una de esas cosas tiene su propia lección."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4Q3/8/8/8/8 w - - 0 1",
+      "prompt": "Tu rey ya controla d7, e7 y f7: quita las dos últimas casillas en una sola jugada.",
+      "targetSan": [
+        "Qb8#",
+        "Qh8#"
+      ],
+      "hint": "Las dos casillas que quedan están en la octava fila, y la dama tiene dos diagonales que llegan a ella."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "title": "Por qué funcionó",
+      "text": "No había ningún truco de dama. Desplaza las mismas dos piezas una columna y el mecanismo se ve.\n\nEl rey negro en d8 tiene cinco vecinas. Tres —c7, d7 y e7— también tocan al rey blanco en d6, y ningún rey puede estar junto a otro, así que esas tres estaban cerradas antes de que las Blancas movieran.\n\nQuedan dos, c8 y e8, y están en la misma fila que el rey. Un solo jaque por la octava fila cubre toda la línea."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/3Q4/8/8/8/8 w - - 0 1",
+      "prompt": "Vuelven a quedar dos casillas: encuentra el jaque por la octava fila que se lleva las dos.",
+      "targetSan": [
+        "Qa8#",
+        "Qg8#"
+      ],
+      "hint": "El propio rey blanco tapa la columna d, así que la dama tiene que llegar a esa fila por una diagonal."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Encerrado por sus propios peones",
+      "text": "No siempre tendrás dama. El mate más frecuente en los clubes solo necesita una torre, una fila vacía y ningún riesgo: el **mate del pasillo**.\n\nEl rey negro en g8 está metido detrás de sus propios peones de f7, g7 y h7. Esos tres frenan todo lo que sube por el tablero, y al rey le dejan exactamente dos casillas, f8 y h8, las dos en la octava fila.\n\nEsa fila está vacía de punta a punta. La columna a, también. Nada de las Negras vigila ni una ni otra."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Abre una ventana",
+      "text": "Mira tu propio rey en g1 antes de celebrarlo demasiado. La misma esquina, los mismos tres peones, las mismas dos casillas; la diferencia es que las Blancas tienen una torre y las Negras no.\n\nUna jugada de peón lo arregla: {{h3}}. Le da al rey una **casilla de escape** en h2, y una torre que llegue a tu primera fila se convierte en un jaque al que responder, no en el final de la partida.\n\n> Mueve ese peón pronto, mientras tengas una jugada libre. El mate con el que termina esta lección es el que atrapa a quienes nunca lo hicieron."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Las Negras nunca abrieron una casilla de escape: termina la partida en la fila de detrás de esos peones.",
+      "targetSan": [
+        "Ra8#"
+      ],
+      "hint": "Ninguna pieza negra defiende la octava fila, y nada puede interponerse."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-22",
+  "fen": "6k1/5p1p/1n2p1p1/8/6Q1/8/3b1PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qd4"
+  ],
+  "title": "Petak Pusat yang Sempurna",
+  "setup": "Seekor kuda hitam di b6 dan gajah di d2 berdiri tanpa penjaga, tetapi menteri Anda belum bisa mengambil keduanya. Temukan petak yang menyerang keduanya.",
+  "hint": "Menteri menyerang di sepanjang lajur dan diagonal sekaligus. Carilah petak tempat lajur menuju satu buah bertemu diagonal menuju buah yang lain.",
+  "explanation": "## Ide\n\nDari {{Qd4}} menteri menyerang gajah di d2 lurus di sepanjang lajur dan kuda di b6 di sepanjang diagonal. Tak satu pun buah hitam menyerang d4, dan tak satu pun menjaga yang lain.\n\nUpaya terbaik Hitam adalah menopang kuda dengan gajah dari a5. Menteri tinggal melangkah ke c5 dan menyerang keduanya lagi, dan salah satunya tetap jatuh.\n\nLangkah lain mana pun memberi Hitam waktu untuk merapikan kedua buah itu."
+}

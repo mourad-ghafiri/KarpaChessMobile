@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-16",
+  "fen": "r1b1k2r/ppp2ppp/2n5/3Bq3/8/2N1P2P/PP3PPQ/R4RK1 w - - 0 1",
+  "solution": [
+    "Bxc6+"
+  ],
+  "title": "Éliminez le gardien avec échec",
+  "setup": "Les deux dames se fixent le long de la diagonale, et la dame noire en e5 n'est protégée que par le cavalier en c6.",
+  "hint": "Échanger les dames ne rapporte rien. Retirez à la dame son unique gardien, et faites-le en gagnant un temps.",
+  "explanation": "## L'idée\n\n{{Qxe5+}} tout de suite ne fait qu'échanger les dames après {{Nxe5}}. Le cavalier en c6 est l'unique gardien de la dame, alors éliminez-le d'abord : {{Bxc6+}} prend le cavalier avec échec. Les Noirs doivent parer l'échec, par {{bxc6}}, une interposition en d7 ou un coup de roi, et aucune de ces réponses ne protège de nouveau e5, donc {{Qxe5+}} gagne la dame contre un fou.\n\nQuand une pièce n'a qu'un gardien, prenez le gardien avec échec."
+}

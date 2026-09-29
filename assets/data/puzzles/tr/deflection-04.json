@@ -1,0 +1,14 @@
+{
+  "id": "deflection-04",
+  "fen": "2br2k1/p4ppp/1q6/8/1n6/7P/1PN1QPP1/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Nxb4"
+  ],
+  "rating": 1220,
+  "title": "At Veziri Bekliyor",
+  "setup": "b6'daki vezir d8'deki kaleyi ve b4'teki atı destekliyor ve c2'deki atınız b4'ü gözlüyor.",
+  "hint": "Koruyucu evde kaldığı sürece at ata almak yalnızca bir değişimdir. Hangi şah onu başka yere gönderiyor?",
+  "explanation": "## Fikir\n\n{{Rxd8+}} tek bir kurallı hamle bırakır: {{Qxd8}}. Vezir b dikeyinden çıkmıştır, yani {{Nxb4}} doğrudan bir at kazanır. Önce kale kaleye gider ve saptırma bedava olur. Rakibin en iyi yerleşmiş taşından sessizce neyi tutmasının istendiğini sorun."
+}

@@ -1,0 +1,68 @@
+{
+  "id": "tournaments",
+  "title": "Tu primer abierto",
+  "summary": "Suizos, descansos y la persona que está en el centro de la sala",
+  "proof": "culture-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Tablero cuarenta, primera ronda",
+      "text": "Se apuntaron doscientos un jugadores, y el emparejamiento partió la lista por la mitad: todos los de la mitad de arriba se enfrentaron a alguien de la mitad de abajo. Por eso el rival más fuerte de tu fin de semana está sentado frente a ti ahora mismo, en la primera ronda, jugando rápido.\n\nNo se elimina a nadie. Pierde esta partida y te volverán a emparejar después de comer, contra alguien que también perdió."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Emparejado por tu puntuación",
+      "text": "Desde la segunda ronda, el programa de emparejamientos ordena a todo el mundo por puntuación y empareja dentro de cada grupo, así que los que ganan juegan contra los que ganan y los que pierden contra los que pierden. También lleva la cuenta de quién ha tenido cada color y los equilibra a lo largo del torneo tanto como permiten los emparejamientos. Nunca te toca dos veces el mismo rival.\n\nEso es un **sistema suizo**, y es lo que permite que doscientos inscritos terminen nueve rondas en una semana larga."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "title": "Un peón camina hacia tu alfil",
+      "text": "El peón de h blanco está en h4, y no está ahí por las vistas. Un avance más y tu alfil pierde g6.\n\nCuenta las casillas que le quedarían. Bajando por la diagonal se mete en el centro del tablero, donde un peón y un caballo lo esperan para perseguirlo de casilla en casilla, y un alfil que tiene que seguir huyendo acaba quedándose sin sitio. Es la forma más antigua de ganar una pieza en esta apertura: no una táctica, solo un peón que camina hacia algo que no puede quedarse quieto."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq h3 0 6",
+      "prompt": "Abre la casilla de retirada que tu alfil va a necesitar antes de que el peón de h blanco lo eche de g6.",
+      "targetSan": [
+        "h6"
+      ],
+      "hint": "El único camino de vuelta del alfil pasa por tus propios peones del flanco de rey."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "El número impar",
+      "text": "En el tablón hay doscientos un nombres. Un número impar, así que en cada ronda un jugador se queda sin rival y descansa, lo que normalmente cuenta como victoria.\n\nLa mayoría de los torneos también conceden un descanso de medio punto para una ronda que reservas de antemano, lo que marca la diferencia entre perderte la quinta ronda y perderla. Pregunta por los descansos antes de inscribirte, no la mañana de la ronda.\n\nLas Blancas avanzan igualmente. {{h5}}, y esta vez {{Bh7}} es una casilla."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+      "title": "Otras dos formas de organizarlo",
+      "text": "Una liguilla empareja a todos contra todos: diez jugadores, nueve rondas, y la tabla cruzada responde a todas las preguntas que un desempate tiene que adivinar. Es el formato más justo que existe, por eso lo usan los torneos por invitación, y también por eso cien inscritos nunca ven uno: serían noventa y nueve rondas.\n\nEl sistema eliminatorio es el otro extremo. Un duelo, un perdedor, y la mitad de los participantes se va a casa antes de cenar. La Copa del Mundo funciona así, con duelos a dos partidas y desempates rápidos cuando terminan igualados.\n\nLos abiertos de fin de semana se quedan en medio. Todo el mundo sigue jugando, y los emparejamientos hacen la criba."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "Con quién te cruzaste",
+      "text": "Nuevo tablero, última ronda, y las Negras acaban de servirse el caballo que tenías en e4.\n\nMás jugadores terminarán con la puntuación máxima que premios hay, así que deciden los desempates, y se publican antes de la primera ronda. Léelos entonces. La mayoría miden con quién te cruzaste: el Buchholz suma las puntuaciones finales de tus rivales, el Sonneborn-Berger pondera esas puntuaciones según si le ganaste o hiciste tablas a cada uno. Nadie puede jugar para un desempate. Solo explica, después, por qué perder contra el futuro ganador te costó menos que perder contra alguien que se retiró a la mañana siguiente."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q3/4n3/3Q4/PPPB1PPP/2KR1BNR w kq - 0 9",
+      "title": "Levanta la mano",
+      "text": "El árbitro hace los emparejamientos, aplica el reglamento y resuelve las reclamaciones. Levanta la mano; no discutas por encima del tablero. En partidas clásicas, tu primera jugada ilegal completada le da dos minutos más a tu rival y la segunda termina la partida, así que llama al árbitro en lugar de arreglarlo tú.\n\nEnrocaste largo en la jugada anterior, y la torre de d1 apunta a una columna que tapa su propio alfil. {{Qd8+}} {{Kxd8}} {{Bg5+}} da jaque doble, y el rey tiene dos casillas. En c7 el alfil da mate desde d8, así que las Negras prueban {{Ke8}}.\n\n> Los emparejamientos, el reloj y la lista de premios son del árbitro. El tablero es tuyo."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1kb1r/pp3ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+      "prompt": "El rey negro ha huido a e8, así que encuentra el mate en una en la columna que tu torre ya domina.",
+      "targetSan": [
+        "Rd8#"
+      ],
+      "hint": "El alfil de g5 cubre e7 y protege la casilla de llegada, así que la torre solo tiene que llegar con jaque."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-07",
+  "fen": "3r2k1/p4ppp/4n3/2b5/6B1/7P/P4PP1/2R3K1 w - - 1 2",
+  "solution": [
+    "Bxe6"
+  ],
+  "rating": 1290,
+  "title": "Satu Langkah di Belakang",
+  "setup": "Benteng Anda di c1 mengincar gajah di c5, dan kuda di e6 satu-satunya yang membuatnya tetap hidup.",
+  "hint": "Sasarannya dilindungi sekali. Lihat pembela tunggal itu dan tanyakan buah Anda mana yang bisa mencapainya.",
+  "explanation": "## Ide\n\n{{Bxe6}} mengambil kuda yang menjaga c5. Sesudah {{fxe6}} gajah tak terlindungi dan {{Rxc5}} mengambilnya. Gajah untuk kuda adalah pertukaran yang adil — gajah di c5 adalah bonusnya. Satu pertukaran seimbang bisa menyingkap satu buah gratis utuh."
+}

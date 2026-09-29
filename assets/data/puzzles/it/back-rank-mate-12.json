@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-12",
+  "fen": "5rk1/5ppp/3Q4/5N2/8/1q6/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rd8#"
+  ],
+  "rating": 1100,
+  "title": "Tirate Dentro il Re",
+  "setup": "La torre nera ha appena lasciato d8 per f8, aprendovi la colonna e mettendosi proprio accanto al suo re.",
+  "hint": "Il re è più sicuro dov'è. Trovate lo scacco che lo trascina sulla traversa che possedete.",
+  "explanation": "## L'idea\n\n{{Qxf8+}} è una donna per una torre, e {{Kxf8}} è l'unica risposta legale. Adesso il re sta sull'ottava traversa aperta con la vostra colonna libera dietro: {{Rd8#}}. Il cavallo in f5 toglie e7, e il resto lo fanno i suoi stessi pedoni."
+}

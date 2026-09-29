@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-20",
+  "fen": "4k3/6p1/4K3/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Encierra al rey de lado",
+  "setup": "Los reyes están frente a frente en la columna e, y el único peón negro que queda no ayuda en nada.",
+  "hint": "Tu rey ya cierra la séptima fila. Manda la dama a la única fila que les queda a las Negras.",
+  "explanation": "## La idea\n\nLos reyes vuelven a estar frente a frente, y esta vez la dama llega desde la esquina.\n\n{{Qa8#}} da jaque por la última fila. d8 y f8 están en la línea de la dama, y tu rey de e6 cubre d7, e7 y f7. El peón de g7 no tapa nada ni salva nada.\n\nMás material en el tablero no cambia el patrón: rey enfrente más dama en la última fila es mate."
+}

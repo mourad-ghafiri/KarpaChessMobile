@@ -1,0 +1,12 @@
+{
+  "id": "trapped-04",
+  "fen": "4r1k1/5ppp/p4n2/1pp5/8/1B3N1P/P1P2PP1/3R2K1 b - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "rating": 1130,
+  "title": "L'Arca di Noè",
+  "setup": "L'alfiere bianco in b3 ha dietro i propri pedoni in a2 e c2, e la propria torre seduta in d1.",
+  "hint": "Contate le case di fuga di quell'alfiere: i pedoni del Bianco ne bloccano due, e il vostro pedone b ne copre una terza.",
+  "explanation": "## L'idea\n\n{{c4}} chiude l'ultima diagonale. a2 e c2 hanno i pedoni del Bianco, a4 è coperta dal pedone in b5, e il pedone adesso in c4 è difeso da b5, quindi Bxc4 bxc4 costa un pezzo. Questa rete è abbastanza vecchia da avere un nome: la trappola dell'Arca di Noè."
+}

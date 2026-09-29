@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-03",
+  "fen": "7k/6pp/8/8/8/8/1R6/1R5K w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Terkurung di h8",
+  "setup": "Kedua benteng Anda berdiri di lajur b, dan raja Hitam terjebak di sudut di balik dua pionnya sendiri.",
+  "hint": "Pion-pion raja sendiri mengurungnya. Benteng Anda mana yang bisa mencapai barisnya?",
+  "explanation": "## Ide\n\n{{Rb8#}} memberi sekak di sepanjang baris belakang. Raja di h8 tak bisa melangkah ke g8, yang berada di garis benteng, dan g7 serta h7 ditempati pionnya sendiri. Tak ada buah hitam yang bisa menangkap benteng atau menghalangi.\n\nBenteng kedua tak berperan di sini: satu benteng sudah cukup ketika raja lawan dikurung pion-pionnya sendiri."
+}

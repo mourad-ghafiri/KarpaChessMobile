@@ -1,0 +1,56 @@
+{
+  "id": "ruy-lopez-basics",
+  "title": "The Ruy Lopez",
+  "summary": "The bishop that does not win a pawn",
+  "proof": "openings-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "The Move From 1561",
+      "text": "White's bishop has walked to b5, where it looks straight at the knight on c6 — and that knight is the only thing guarding the pawn on e5.\n\nSo it reads as an attack on the pawn, one step removed. It is not, and knowing why is the first thing anyone learns about this opening.\n\nRuy López de Segura, a Spanish priest, published an analysis of the move in 1561. Four and a half centuries later it is still a main line at the top of the game, which is a strange fate for a move that does not threaten anything."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "title": "The Question Is the Knight",
+      "text": "The target is the knight on c6, not the pawn behind it.\n\nIf that bishop ever trades itself for the knight, Black recaptures with a pawn and ends up with two pawns stacked on the c-file, one in front of the other. **Doubled** pawns are permanent — a pawn cannot step sideways to fix them. Black gets both bishops in return, so it is one lasting thing for another.\n\nWhite is shopping for something permanent to play against. Black would rather settle the terms of that trade now than wait and be handed them."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "prompt": "Force the bishop to decide now — take the knight or step back — with a pawn move that costs you nothing.",
+      "targetSan": [
+        "a6"
+      ],
+      "hint": "Which of your pawns can attack the bishop on b5 in a single step, with nothing of yours left loose behind it?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "title": "Cashing It In",
+      "text": "White can take right now and count the pawn. {{Bxc6}} {{dxc6}} {{Nxe5}}, and the scoresheet says a pawn up.\n\nThen {{Qd4}} arrives, hitting the knight on e5 and the pawn on e4 at the same time. One of them falls, material is level, and Black keeps both bishops for the trouble.\n\nThe bishop was never attacking e5. Taking on c6 is a decision about pawns, and White has to be willing to live with it.\n\n> The Spanish bishop does not win material. It buys a long argument."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Nine Moves, No Captures",
+      "text": "Nine moves in and not a piece has been taken. Both armies are still hunting for better squares, which is what people mean by the Closed Spanish.\n\nTwo of White's moves look like nothing at all. The pawn on c3 is not development — it is a support square waiting for a pawn to arrive in the center. The pawn on h3 is not development either; it takes g4 away, so no black bishop can come out and pin the knight on f3.\n\nMoves spent stopping the other side's ideas are not wasted in a slow position."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "The Bishop's Long Slide",
+      "text": "Follow White's light-squared bishop backward. It stood on b5, stepped to a4 when a pawn asked it to, then to b3 when another one did. Three squares, two diagonals — and the second one runs all the way to f7.\n\nAsk it once more and it goes to c2. There it aims toward h7, behind its own e-pawn, out of reach. That is not a retreat White minds: the pawn on c3 is preparing to open the center, and an open center is what the bishop has been waiting for.\n\nSo the chase is not about winning a piece. It is about which diagonal White has to settle for."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "prompt": "Chase White's best piece: put a knight on the a-file square that attacks the bishop on b3.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "Both of your knights are on the board, but only the queenside one has a move that touches b3."
+    }
+  ]
+}

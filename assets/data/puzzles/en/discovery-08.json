@@ -1,0 +1,12 @@
+{
+  "id": "discovery-08",
+  "fen": "1rk1q3/1p3ppp/4p3/8/2B5/8/P4PPP/2Q3K1 w - - 0 1",
+  "solution": [
+    "Bb5+"
+  ],
+  "rating": 1240,
+  "title": "Queen Behind Bishop",
+  "setup": "Your queen on c1 is aimed up the c-file, and your own bishop on c4 is the only thing blocking it.",
+  "hint": "Where can the bishop go so that it opens the file and starts eyeing something on the eighth rank?",
+  "explanation": "## The Idea\n\n{{Bb5+}} unmasks the queen's check up the c-file and takes aim at e8 along b5-c6-d7 at the same time. Black must answer the check first, so after Kd8 the bishop collects the queen. Blocking with Qc6 only hands it over a move sooner."
+}

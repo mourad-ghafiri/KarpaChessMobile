@@ -1,0 +1,14 @@
+{
+  "id": "promotion-01",
+  "fen": "7k/1P3pp1/3r3p/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "b8=Q+",
+    "Kh7",
+    "Qxd6"
+  ],
+  "rating": 1000,
+  "title": "Uma Dama Com Garfo",
+  "setup": "O teu peão b está a um passo da oitava linha, e o rei preto está nessa mesma linha.",
+  "hint": "Uma dama nova chega com xeque. Antes de a jogares, vê o que mais a casa de promoção ataca.",
+  "explanation": "## A Ideia\n\n{{b8=Q+}} é xeque pela oitava linha e ataca ao mesmo tempo a torre de d6 pela diagonal de b8 a h2. As pretas têm de responder ao xeque, com {{Kh7}} ou tapando com Rd8, e de qualquer maneira a dama recolhe a torre, como em {{Qxd6}}. Promove onde a peça nova faz dois trabalhos."
+}

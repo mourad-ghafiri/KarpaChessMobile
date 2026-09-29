@@ -1,0 +1,52 @@
+{
+  "id": "london-system",
+  "title": "Le système de Londres",
+  "summary": "Une seule mise en place contre presque tout, et la case autour de laquelle elle se construit",
+  "proof": "openings-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "Le fou d'abord, le pion ensuite",
+      "text": "Deux coups joués, et c'est le second qui porte tout le système.\n\nLes Blancs construisent un petit mur en c3, d4 et e3 : facile à apprendre, pénible à briser. Le problème, c'est le pion e. Une fois installé en e3, il ferme la porte au fou de cases noires, qui passe alors la partie derrière ses propres pions.\n\nLe fou sort donc en premier. Il est déjà hors du mur en f4, et le pion vient ensuite. Contre presque tout ce que choisissent les Noirs, l'ordre tient — le fou dehors, puis e3."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "Le pion que personne ne surveille",
+      "text": "Quitter tôt la dernière rangée coûte exactement une chose, et les Noirs s'y attaquent aussitôt. Le fou parti, le pion en b2 n'est défendu par personne.\n\n{{c5}} frappe la base du mur. {{e3}} le construit quand même, {{Nc6}} ajoute un second attaquant sur d4, {{c3}} le soutient, et {{Qb6}} arrive sur la colonne b, où le pion en b2 est sans protection. Deux pions blancs sont interrogés à la fois.\n\nCe raid est la première vraie question à laquelle doit répondre le système de Londres, et tout joueur du Londres la rencontre en moins de dix parties."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pp2pppp/1qn5/2pp4/3P1B2/2P1P3/PP3PPP/RN1QKBNR w KQkq - 1 5",
+      "prompt": "Couvrez le pion sans protection en b2 sans dépenser de coup de pion pour lui.",
+      "targetSan": [
+        "Qc1",
+        "Qc2",
+        "Qb3"
+      ],
+      "hint": "Aucun coup de pion n'est nécessaire ici. Votre dame peut protéger b2 depuis plus d'une case ; choisissez celle qui laisse d2 et e2 libres pour votre cavalier et votre fou."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Là où tout converge",
+      "text": "Six coups tranquilles plus tard, la mise en place est terminée, et elle a son allure habituelle : pions en c3, d4 et e3, un fou en f4, un autre en d3, cavaliers en f3 et d2. La dame noire est en b6 et n'a plus rien à mordre.\n\nSuivez maintenant la diagonale blanche. Le fou en d3 voit e4, f5, g6, puis h7, à une case du roi noir, sans rien sur le chemin. {{Qc2}} amène la dame derrière lui.\n\nDeux attaquants sur h7. Le roi noir la couvre, le cavalier en f6 aussi. Deux contre deux, ce n'est pas encore une attaque."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Une case qu'aucun pion n'atteint",
+      "text": "Le troisième attaquant a besoin d'une maison que personne ne peut lui prendre. Demandez-vous donc ce que peuvent encore faire les pions noirs.\n\nLe pion en d5 ne peut pas reculer. Le pion en e6 couvre d5 et f5. Le pion en c5 couvre b4 et d4. À eux trois, ils laissent un trou au centre, et votre pion en d4 le protège déjà.\n\nSeul le pion en f7 pourrait un jour venir le contester — et ce pion est le toit d'un roi roqué.\n\n> Une pièce est en sécurité là où un pion ne peut jamais aller."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "prompt": "Installez un cavalier sur le trou central que seul le pion f noir pourrait un jour contester.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "Une seule pièce noire touche cette case, le cavalier en c6, et le seul pion qui pourrait s'y joindre abrite le roi noir."
+    }
+  ]
+}

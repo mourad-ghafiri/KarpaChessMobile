@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-08",
+  "fen": "6k1/5ppp/6n1/8/1B6/8/2r2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Nf8",
+    "Rxf8#"
+  ],
+  "rating": 940,
+  "title": "Kapatmaya Zorlayın",
+  "setup": "Siyahın g6'daki atı f8'e ulaşabiliyor ve b4'teki filiniz çaprazdan o kareye bakıyor.",
+  "hint": "Siyahın sekizinci yataydaki bir şaha cevap vermek için tam olarak tek bir yolu var. Atını nereye koyuyor?",
+  "explanation": "## Fikir\n\n{{Rd8+}} siyaha tek bir kurallı hamle bırakır: kapatan {{Nf8}}. O kare güvenli değildir: b4'teki fil onu çapraz boyunca kapsar, yani {{Rxf8#}} hamlesine Kxf8 ile cevap verilemez. Zorunlu bir kapatma, ancak kapatılan kare de korunuyorsa savunur."
+}

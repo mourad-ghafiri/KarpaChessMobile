@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-09",
+  "fen": "r3k3/8/8/8/8/8/R7/4K3 w - - 0 1",
+  "solution": [
+    "Rxa8+"
+  ],
+  "title": "Prenez la tour sans protection",
+  "setup": "Deux tours se font face sur la **colonne a** — et le roi noir est lui aussi sur la dernière rangée.",
+  "hint": "Vérifiez laquelle des deux tours de la colonne a a un défenseur.",
+  "explanation": "## L'idée\n\nLa tour noire en a8 n'a aucun défenseur : le roi en e8 est à quatre cases. {{Rxa8+}} la prend avec échec, le roi doit quitter la dernière rangée, et il vous reste roi et tour contre roi seul, une victoire forcée.\n\nVotre tour en a2 était tout aussi dépourvue de protection, donc avec les Noirs au trait, c'est elle qui serait tombée. Quand deux pièces sans protection se font face, celui qui joue le premier gagne."
+}

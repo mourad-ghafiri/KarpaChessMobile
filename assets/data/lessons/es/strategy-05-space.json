@@ -1,0 +1,65 @@
+{
+  "id": "space-advantage",
+  "title": "La ventaja de espacio",
+  "summary": "Más sitio para tus piezas, menos para las suyas",
+  "proof": "strategy-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "title": "Tres más allá de la mitad",
+      "text": "Cuenta los peones que han salido de casa. Las Blancas tienen tres, en c4, d4 y e5. Las Negras, uno.\n\nEsa diferencia tiene nombre. Una **ventaja de espacio** es el sitio detrás de tus propios peones: casillas en las que tus piezas pueden estar y a las que el otro ejército no llega.\n\nMira la factura que están pagando las Negras. Al caballo lo han hecho retroceder a b6, siete piezas siguen en su primera fila, y el único peón que se ha movido es el de d6.\n\nJuegan las Blancas, y hay más espacio que tomar."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "prompt": "Toma una casilla más en el flanco de rey con un peón, y de paso suma un segundo defensor a e5.",
+      "targetSan": [
+        "f4"
+      ],
+      "hint": "Solo una jugada de peón le da al peón de e5 un segundo defensor sin soltar nada más."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Sitio para elegir",
+      "text": "El espacio no es material. Aquí no se ha ganado nada, y la cuenta de puntos está exactamente igualada.\n\nLo que tienen las Blancas es elección. Detrás de cuatro peones en c4, d4, e5 y f4, cada pieza blanca tiene rutas entre las que escoger, y el peón de e5 les quita discretamente f6 a los caballos negros.\n\nCompáralo con el caballo de b6. Salvo tirarse en c4, sus opciones son {{Na4}}, al borde; {{Nd5}}, donde el peón de c blanco simplemente lo captura; y volver a d7, donde tapa a su propio alfil. Así se siente una posición apretada desde dentro: una lista corta, en cada jugada."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "title": "Qué bando cambia",
+      "text": "Con espacio, mantén las piezas. Tu ejército tiene sitio para maniobrar y el del rival no, así que cada cambio que permites devuelve casillas.\n\nApretado, haz lo contrario. Cambia todo lo que alcances: cada pieza que sale del tablero da más sitio a las que quedan, y el bando con menos casillas es el primero en quedarse sin ellas.\n\nAquí juegan las Negras, y las Negras son el bando apretado. Así que la jugada que hay que buscar no es una jugada de relleno."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq f3 0 5",
+      "prompt": "Eres el bando apretado: quita un peón del tablero y dales aire a tus piezas.",
+      "targetSan": [
+        "dxe5"
+      ],
+      "hint": "¿Qué captura despeja la columna que hay delante de tu dama?"
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn1p3/3PPb2/2P5/2N1BN2/PP4PP/R2QKB1R b KQk - 0 10",
+      "title": "Cinco jugadas después",
+      "text": "Las Blancas han vuelto a avanzar y ahora tienen c4, d5 y e5. La respuesta negra es la de antes: golpear la cuña y cambiar piezas.\n\n{{exd5}} {{cxd5}}, y el trío adelantado se queda en pareja.\n\nNo se ganó nada. La cuenta de puntos no se movió y las Blancas siguen dueñas del centro. Pero dos peones han salido del camino, y las piezas que estaban detrás por fin tienen adónde ir."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "title": "El espacio se alquila",
+      "text": "Un peón que ha llegado a d5 no puede volver. Hay que sostenerlo donde está, y el caballo de c3 y la dama de d1 son las dos piezas que lo sostienen.\n\nEsa es la grieta de todo gran centro. El bando apretado cambia primero y luego presiona sobre los peones que lo apretaban, porque cada atacante que suma es una pieza rival más clavada a la defensa en lugar de hacer lo que quiere.\n\n> Más espacio, menos cambios. Menos espacio, cámbialo todo y presiona lo que quede."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/ppp1bppp/1nn5/3PPb2/8/2N1BN2/PP4PP/R2QKB1R b KQk - 0 11",
+      "prompt": "Suma un tercer atacante contra el peón de d blanco, y rescata en la misma jugada al caballo al que ese peón está atacando.",
+      "targetSan": [
+        "Nb4"
+      ],
+      "hint": "Tu dama y el caballo de b6 ya tocan d5. ¿Qué casilla permite al caballo de c6 escapar y unirse a ellos?"
+    }
+  ]
+}

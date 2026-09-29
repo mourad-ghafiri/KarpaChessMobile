@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-05",
+  "fen": "8/4k3/4P3/4K3/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Ke8"
+  ],
+  "rating": 1245,
+  "title": "Uma Casa Segura",
+  "setup": "O rei das brancas acabou de subir para trás do peão na sexta, e as pretas têm três casas por onde escolher.",
+  "hint": "Duas das tuas três casas deixam o rei branco dar a volta até d7 ou f7. Uma delas não deixa.",
+  "explanation": "## A Ideia\n\n{{Ke8}} é a única jogada. Responde a {{Kd6}} com {{Kd8}}, e {{e7+}} empurra depois o rei de volta para a frente do peão, onde às brancas só resta o afogamento. Vai para d8 ou f8 e as brancas tomam a oposição e fazem dama."
+}

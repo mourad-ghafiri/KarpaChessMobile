@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-10",
+  "fen": "3B4/8/7k/1K6/4p3/1R6/2p5/2R5 w - - 0 1",
+  "solution": [
+    "Rg3",
+    "e3",
+    "Rh1#"
+  ],
+  "rating": 1680,
+  "title": "Cut the File, Not the King",
+  "setup": "Black's king is on h6 with two pawns running on c2 and e4, and your rooks sit on b3 and c1.",
+  "hint": "Both black pawns are about to promote. Ignore them and take the file the king would use.",
+  "explanation": "## The Idea\n\n{{Rg3}} seizes the g-file without check, and nothing Black plays stops what comes next. {{Rh1#}} mates down the h-file with the rook on g3 holding g6 and g7. Two pawns one step from queening are still slower than one rook on the right file."
+}

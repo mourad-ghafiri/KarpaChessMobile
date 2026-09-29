@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-09",
+  "fen": "7k/5K1p/8/8/8/8/8/R7 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Son propre pion, sa propre cage",
+  "setup": "Le roi noir est dans le coin derrière son propre pion en h7, et votre roi en f7 se tient tout près.",
+  "hint": "Votre roi couvre déjà g7 et g8. La tour n'a qu'à atteindre la dernière rangée.",
+  "explanation": "## L'idée\n\n{{Ra8#}} donne échec le long de la dernière rangée. Votre roi en f7 couvre g7 et g8, le propre pion noir occupe h7, et rien ne peut prendre la tour ni s'interposer.\n\nDans une finale roi et tour, votre roi enferme le roi adverse et la tour donne l'échec."
+}

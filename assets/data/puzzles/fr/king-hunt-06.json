@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-06",
+  "fen": "4k2b/8/p4R2/5Qr1/8/4K3/8/RB6 w - - 0 1",
+  "solution": [
+    "Rf8+",
+    "Ke7",
+    "Rf7+",
+    "Kd6",
+    "Rxa6#"
+  ],
+  "rating": 1520,
+  "title": "La tour qui ne s'arrête jamais",
+  "setup": "Le roi noir est toujours en e8, avec une tour en g5 et un fou en h8, et votre tour est déjà en f6.",
+  "hint": "Deux tours se partagent le travail : l'une rabat le roi par des échecs, l'autre l'attend sur une colonne lointaine.",
+  "explanation": "## L'idée\n\n{{Rf8+}} et {{Rf7+}} font sortir le roi à découvert, et {{Rxa6#}} mate le long de la sixième rangée avec la dame en f5 qui scelle la cinquième. Une tour fait sortir le roi et l'autre l'attend déjà sur la colonne a."
+}

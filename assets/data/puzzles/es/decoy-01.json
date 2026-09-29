@@ -1,0 +1,14 @@
+{
+  "id": "decoy-01",
+  "fen": "1R3rk1/5ppp/7q/8/8/8/5PPP/3Q2K1 w - - 1 2",
+  "solution": [
+    "Rxf8+",
+    "Kxf8",
+    "Qd8#"
+  ],
+  "rating": 1150,
+  "title": "Arrastra al rey a f8",
+  "setup": "Tu torre ya está en la última fila, y el rey negro no tiene ningún aire detrás de sus peones.",
+  "hint": "El rey está a salvo en g8 y perdido en f8. ¿Qué puedes entregar para que dé ese paso?",
+  "explanation": "## La idea\n\n{{Rxf8+}} tiene una sola respuesta legal: {{Kxf8}}. Ahora el rey está en la octava fila abierta, emparedado por sus propios peones, y {{Qd8#}} remata. Primero atrae, luego da mate. Un rey que está a salvo en una casilla a menudo está perdido en la de al lado."
+}

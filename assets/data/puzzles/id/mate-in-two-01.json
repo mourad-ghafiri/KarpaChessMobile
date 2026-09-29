@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-01",
+  "fen": "6k1/6pp/5p2/1R6/Q7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Kf7",
+    "Qe8#"
+  ],
+  "rating": 900,
+  "title": "Benteng Membuka, Menteri Menutup",
+  "setup": "Raja Hitam dikurung pionnya sendiri di g7 dan h7, dan benteng Anda punya lajur b yang terbuka lebar.",
+  "hint": "Giring raja ke satu-satunya petak yang masih diizinkan pionnya, lalu temukan mat yang bisa dilindungi benteng Anda.",
+  "explanation": "## Ide\n\n{{Rb8+}} merebut baris belakang. Pion di g7 dan h7 menghalangi rajanya sendiri, jadi {{Kf7}} satu-satunya langkah sah. Lalu {{Qe8#}}: menteri mendarat di samping raja, dijaga benteng di b8, dengan setiap petak pelarian dikuasai."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-16",
+  "fen": "3k4/8/3K4/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "A Longa Travessia",
+  "setup": "Os reis estão em oposição direta na coluna d, e a tua dama está lá longe, no canto do tabuleiro.",
+  "hint": "A distância não quer dizer nada para uma dama. Que linha é que o teu rei já veda?",
+  "explanation": "## A Ideia\n\nOs reis estão frente a frente na coluna d, portanto o teu rei de d6 cobre c7, d7 e e7.\n\n{{Qg8#}} leva a dama à linha de fundo a partir do canto oposto. c8 e e8 estão ambas na sua linha, e nada pode tapar.\n\nQuando o teu rei está frente ao rei inimigo com uma casa vazia pelo meio, um xeque pela berma é muitas vezes mate."
+}

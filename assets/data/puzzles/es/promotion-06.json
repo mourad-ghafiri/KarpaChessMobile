@@ -1,0 +1,14 @@
+{
+  "id": "promotion-06",
+  "fen": "7k/ppp4p/8/PPP5/8/8/7P/7K w - - 0 1",
+  "solution": [
+    "b6",
+    "axb6",
+    "c6"
+  ],
+  "rating": 1200,
+  "title": "Rompe el muro de peones",
+  "setup": "Tres peones contra tres en el flanco de dama, y los dos reyes están aparcados en la otra esquina.",
+  "hint": "Tres en línea contra tres en línea. Entrega uno en el centro y cuenta los tiempos que necesitan los otros dos.",
+  "explanation": "## La idea\n\n{{b6}} entrega un peón para romper el muro. Tras {{axb6}}, {{c6}} vuelve a abrirse paso: si {{bxc6}}, el peón de a corre hasta a8 sin que nadie lo toque, y si las Negras lo dejan, {{cxb7}} y el peón corona en b8. Si en cambio {{cxb6}}, {{a6}} hace el mismo trabajo por el otro lado.\n\nUn peón entregado en el centro de tres puede comprar una dama en el flanco."
+}

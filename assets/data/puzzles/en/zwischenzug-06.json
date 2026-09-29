@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-06",
+  "fen": "1B4k1/5ppp/2r3R1/4r3/8/3Q4/PP1b4/K7 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Re8",
+    "Qxe8#"
+  ],
+  "rating": 1500,
+  "title": "The Pawns Already Did the Work",
+  "setup": "Black's own pawns on f7, g7 and h7 have the king boxed in, but Black's rook on e5 and bishop on d2 are active.",
+  "hint": "The mate is one check away. Identify the square Black is forced to fill and who is left to take it.",
+  "explanation": "## The Idea\n\n{{Qd8+}} is met only by {{Re8}}, since the pawns have taken every flight square themselves. {{Qxe8#}} finishes. The shelter the king built is the cage it dies in."
+}

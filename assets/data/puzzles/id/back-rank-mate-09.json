@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-09",
+  "fen": "6k1/5pp1/7p/8/2n5/8/3r1PPP/1B2R1K1 w - - 0 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 980,
+  "title": "Ruang Bernapas yang Tak Ada",
+  "setup": "Hitam baru saja memainkan h6 untuk membuka petak pelarian di h7 bagi rajanya.",
+  "hint": "Hitam percaya rajanya kini punya lubang untuk lari. Cari tahu siapa lagi yang memandangi petak itu.",
+  "explanation": "## Ide\n\n{{Re8#}} tetap saja. Petak pelarian baru h7 dikuasai gajah di b1, sepanjang diagonal, jadi langkah pion itu tak membeli apa-apa. Pintu darurat hanya menolong jika tak ada buah lawan yang mengawasi petak yang Anda buka."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-01",
+  "fen": "8/8/8/7P/3k4/8/8/K7 b - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "rating": 1100,
+  "title": "Dans le carré",
+  "setup": "Les Blancs viennent de pousser le pion h en cinquième rangée, et leur propre roi est échoué dans le coin opposé.",
+  "hint": "Esquissez le carré h5–h8–e8–e5 et demandez-vous lequel de vos coups de roi arrive vraiment à l'intérieur.",
+  "explanation": "## L'idée\n\nUn pion en h5 a besoin de trois coups pour aller à dame, donc tout roi capable d'atteindre le carré h5–h8–e8–e5 le rattrape. Depuis d4, seul {{Ke5}} y entre : {{h6}} {{Kf6}}, et le roi suit le pion comme son ombre jusqu'en h8. Tout autre coup a un temps de retard."
+}

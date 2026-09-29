@@ -1,0 +1,14 @@
+{
+  "id": "skewer-02",
+  "fen": "8/3k3q/1B2p3/8/2Qp4/8/4bPP1/6K1 w - - 0 1",
+  "solution": [
+    "Qc7+",
+    "Ke8",
+    "Qxh7"
+  ],
+  "rating": 940,
+  "title": "Infilata sulla Settima Traversa",
+  "setup": "Il re nero in d7 e la sua donna in h7 condividono la settima traversa senza assolutamente niente in mezzo.",
+  "hint": "Quale casa accanto al re nero è già coperta da un altro pezzo bianco? Date scacco dalla traversa che condividono.",
+  "explanation": "## L'idea\n\nIl re in **d7** e la donna in **h7** stanno su una traversa. {{Qc7+}} dà scacco dall'altro capo, e l'alfiere in **b6** difende c7, quindi il re non può prendere. Dopo {{Ke8}} la traversa è libera e {{Qxh7}} raccoglie la donna."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "openings-12",
+  "fen": "r3kbnr/pp1b1ppp/1qn1p3/3pP3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 2 8",
+  "solution": [
+    "Nxd4",
+    "Nxd4",
+    "Qxd4"
+  ],
+  "title": "Pangkalnya Jatuh",
+  "setup": "Prancis varian maju: Putih telah menempatkan gajah di d3 dan kuda di c3, dan tak ada yang menghitung pion di pangkal rantai.",
+  "hint": "Hitung penyerang dan pembela pion pangkal Putih. Gajah di d3 berdiri di depan salah satu pembela Putih.",
+  "explanation": "## Ide\n\nPangkal rantai Putih adalah d4. Kuda Anda di c6 dan menteri di b6 menyerangnya, dan hanya kuda di f3 yang melindunginya: gajah di d3 menghalangi jalan menteri putih.\n\n{{Nxd4}} mengambilnya, dan sesudah {{Nxd4}} {{Qxd4}} Anda unggul satu pion bersih. Trik yang biasa, sekak gajah di b5 yang menyingkap menteri Putih, gagal di sini karena gajah Anda di d7 menguasai b5 begitu kuda meninggalkan c6.\n\nHitung pangkal rantainya lebih dulu."
+}

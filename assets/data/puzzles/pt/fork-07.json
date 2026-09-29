@@ -1,0 +1,14 @@
+{
+  "id": "fork-07",
+  "fen": "5rk1/p4ppp/2r5/5N2/8/8/P4PPP/4R1K1 w - - 1 2",
+  "solution": [
+    "Ne7+",
+    "Kh8",
+    "Nxc6"
+  ],
+  "rating": 910,
+  "title": "Salto Para a Sexta",
+  "setup": "As pretas acabaram de subir uma torre a c6, enquanto o rei se esconde atrás de três peões com uma torre em f8.",
+  "hint": "Uma casa de cavalo toca no canto do rei e na sexta linha ao mesmo tempo, e a tua torre já a guarda.",
+  "explanation": "## A Ideia\n\n{{Ne7+}} garfa o rei e a torre de c6, e a torre de e1 defende o cavalo, portanto nada o pode comer. A própria torre das pretas ocupa f8, portanto {{Kh8}} é a única jogada, e {{Nxc6}} ganha uma torre inteira."
+}

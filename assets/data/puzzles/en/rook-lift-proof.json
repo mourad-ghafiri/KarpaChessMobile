@@ -1,0 +1,11 @@
+{
+  "id": "rook-lift-proof",
+  "fen": "rn2r1k1/pp3p1p/2p1bp2/8/P1B2P2/B1P2R2/6PP/3R2K1 w - - 2 20",
+  "solution": [
+    "Rg3+"
+  ],
+  "title": "Across the Third Rank",
+  "setup": "Chigorin against Lebedev, Moscow 1900/01. Your rook has already climbed off the back rank, and the g-file between your third rank and Black's king is empty.",
+  "hint": "Up first, across second. Which square on your third rank faces the black king?",
+  "explanation": "## The Idea\n\n{{Rg3+}} finishes the lift: the rook that climbed to f3 slides across to the empty g-file and checks. The king cannot use f8, which your bishop on a3 covers, so Black has two answers: {{Kh8}}, into the corner, or {{Bg4}}, a bishop handed back just to block.\n\nChigorin went on with {{Be7}} and won."
+}

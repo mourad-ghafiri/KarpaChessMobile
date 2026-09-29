@@ -1,0 +1,12 @@
+{
+  "id": "discovery-05",
+  "fen": "2rkr3/2p1pppp/4n3/3P4/8/5N2/P4PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "dxe6#"
+  ],
+  "rating": 1120,
+  "title": "Fuera de la columna",
+  "setup": "Al rey negro lo emparedan en d8 sus propias torres y peones, y tu propio peón tapa la columna d.",
+  "hint": "Un peón que come abandona la columna en la que estaba. Pregúntate qué vería tu torre en ese momento.",
+  "explanation": "## La idea\n\n{{dxe6#}} gana un caballo, pero no se trata de eso: el peón deja la columna d y la torre de d1 da jaque hasta d8. En c7, e7, c8 y e8 hay piezas negras, y nada puede ponerse delante de la torre. Un descubierto de peón puede dar mate."
+}

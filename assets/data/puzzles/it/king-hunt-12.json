@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-12",
+  "fen": "1B1R2r1/3Qb3/8/1K6/2p5/8/5k2/6R1 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kxg1",
+    "Qh2+",
+    "Kf1",
+    "Rd1#"
+  ],
+  "rating": 1750,
+  "title": "Regalate la Torre",
+  "setup": "Il re nero è in f2 proprio accanto alla vostra torre in g1, con un alfiere in e7 e una torre in g8 ancora a difendere.",
+  "hint": "La vostra torre è attaccata e il re le sta accanto. Chiedetevi che cosa succede se gli si permette di prenderla.",
+  "explanation": "## L'idea\n\n{{Qd2+}} non lascia al re niente di meglio di {{Kxg1}} — il re cammina nell'angolo a incassare. {{Qh2+}} sigilla h2 e {{Rd1#}} dà matto lungo la colonna che la donna ha lasciato. La mossa da caccia migliore spesso consegna il pezzo che il re vuole."
+}

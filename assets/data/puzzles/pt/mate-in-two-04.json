@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-04",
+  "fen": "7k/6pp/8/bP6/3Q4/3R4/5PPP/2K5 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Bxd8",
+    "Rxd8#"
+  ],
+  "rating": 1050,
+  "title": "Uma Dama Pela Linha de Fundo",
+  "setup": "O bispo preto em a5 é a única peça a vigiar d8, e o rei preto está atrás de dois peões em h8.",
+  "hint": "A tua torre quer a oitava linha, mas uma peça preta cobre a casa de entrada. O que lhe podes oferecer?",
+  "explanation": "## A Ideia\n\n{{Qd8+}} é um desvio. O rei está emparedado pelos seus próprios peões de g7 e h7, portanto o bispo tem de comer: {{Bxd8}} é a única jogada legal. Agora a coluna d está livre atrás dele, e {{Rxd8#}} acaba na linha de fundo."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "smothered-05",
+  "fen": "6rk/pp4pn/8/4N3/2b5/8/P4PPP/3R2K1 w - - 4 23",
+  "solution": [
+    "Ng6#"
+  ],
+  "rating": 1275,
+  "title": "Sin peón en h7",
+  "setup": "Las Negras acaban de retirar su caballo a h7, y el alfil de c4 sigue defendiendo la casilla f7.",
+  "hint": "En h7 hay algo que no es un peón: pregúntate qué cambia eso en las casillas de al lado.",
+  "explanation": "## La idea\n\nA un caballo en g6 normalmente se lo come el peón de h. Aquí en h7 hay un caballo, que no defiende nada a su lado, así que {{Ng6#}} es intocable y g8, g7 y h7 están ocupadas por las propias piezas negras. La casilla habitual del mate de la coz, f7, la cubre el alfil de c4."
+}

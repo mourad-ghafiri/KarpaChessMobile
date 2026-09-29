@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-06",
+  "fen": "4k3/pp4pp/8/8/3pK3/8/PP4PP/8 w - - 0 1",
+  "solution": [
+    "Kxd4"
+  ],
+  "title": "Raja yang Bertarung",
+  "setup": "Sebuah pion hitam berdiri tepat di samping raja Anda, tanpa pengawal sama sekali.",
+  "hint": "Raja menangkap dengan cara ia bergerak: satu petak ke arah mana pun. Apakah pion di d4 dilindungi?",
+  "explanation": "## Ide\n\nRaja bukan hanya buah yang harus dilindungi; ia juga bisa bertarung. Pion hitam di d4 berjarak satu langkah, dan **tak ada yang melindunginya**: raja hitam di e8 berjarak empat baris.\n\n{{Kxd4}} menangkapnya dengan aman. Selalu periksa dulu: pion hitam di d4 menyerang c3 dan e3, bukan petak tempat raja Anda berdiri ataupun petak tempat ia mendarat.\n\nRaja boleh menangkap buah apa pun di sampingnya yang tak dilindungi apa pun."
+}

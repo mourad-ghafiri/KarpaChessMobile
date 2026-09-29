@@ -1,0 +1,11 @@
+{
+  "id": "strategy-04",
+  "fen": "r1bq1rk1/ppp2p2/2np1n1p/1B2p1p1/1b2P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "Dua Batu Bata Hilang",
+  "setup": "Hitam mendorong dua pion untuk mengejar gajah Anda, dan raja di g8 tinggal di belakangnya. Gajah di h4 diserang.",
+  "hint": "Pion di g5 punya satu pembela. Mundur itu aman; hitung berapa nilai perlindungan itu sebelum Anda memainkannya.",
+  "explanation": "## Ide\n\nPion di h6 dan g5 adalah bagian depan perlindungan raja hitam, dan tak satu pun bisa kembali. {{Nxg5}} menyerahkan kuda untuk keduanya.\n\nJika Hitam mengambil, gajah menangkap balik di g5, menjepit kuda di f6 terhadap menteri, dan raja berdiri tanpa pelindung. Hitam lebih baik menyerahkan gajah di b4 untuk kuda Anda di c3, dan Putih tetap keluar sebagai yang unggul. Mundur ke g3 akan membiarkan Hitam mempertahankan semuanya."
+}

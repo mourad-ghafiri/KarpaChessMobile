@@ -1,0 +1,13 @@
+{
+  "id": "forks-10",
+  "fen": "4q3/8/8/4k3/8/8/8/R6K w - - 0 1",
+  "solution": [
+    "Re1+",
+    "Kd6",
+    "Rxe8"
+  ],
+  "title": "Enfilada a la dama",
+  "setup": "El rey negro de e5 y la dama negra de e8 están en la misma columna, con el rey delante.",
+  "hint": "Ponte en esa columna con jaque. Luego pregúntate delante de qué está el rey.",
+  "explanation": "## La idea\n\nLa pieza más valiosa es la más cercana. Eso es una enfilada: golpea a la pieza de delante y quédate con lo que escondía.\n\n{{Re1+}} toma la columna. Las seis respuestas son jugadas de rey: nada puede tapar, porque la dama tendría que atravesar a su propio rey para llegar a e2, e3 o e4.\n\n{{Kd6}} vale como cualquier otra, y {{Rxe8}} recoge la dama. En una clavada la pieza valiosa está detrás; en una enfilada está delante, y moverse cuesta."
+}

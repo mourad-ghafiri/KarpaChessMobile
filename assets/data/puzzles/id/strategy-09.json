@@ -1,0 +1,11 @@
+{
+  "id": "strategy-09",
+  "fen": "rnb1kb1r/1pq2ppp/p2ppn2/8/3NP3/3B4/PPP1QPPP/RNB2RK1 w k - 0 8",
+  "solution": [
+    "c4"
+  ],
+  "title": "Langkah yang Diandalkan Hitam",
+  "setup": "Pion Hitam ke a6 dan menteri ke c7 punya tepat satu tujuan, dan tujuan itu belum terjadi. Hentikan sebelum terjadi.",
+  "hint": "Tanyakan apa yang dimainkan Hitam berikutnya jika Anda sama sekali tak berbuat apa-apa, lalu temukan langkah yang membuat rencana itu mahal.",
+  "explanation": "## Ide\n\nSusunan Hitam mengarah ke satu tujuan: {{b5}}, lalu gajah ke b7 dan tekanan di sepanjang diagonal panjang ke e4.\n\n{{c4}} menghapus rencana itu. Pion kini menguasai b5 dan d5, jadi terobosan itu kehilangan materi. Hitam mengembangkan buah dengan {{Be7}}, Putih menuntaskan cengkeramannya dengan {{Nc3}}, dan tak ada lagi terobosan yang bisa disiapkan.\n\nHarganya: pion c tak akan pernah bisa kembali ke c3 untuk menopang kuda di d4. Langkah profilaksis hampir selalu berharga sedikit. Bayarlah ketika rencana yang Anda hapus lebih berharga."
+}

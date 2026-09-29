@@ -1,0 +1,12 @@
+{
+  "id": "pin-04",
+  "fen": "8/3kb3/3p4/3P1r2/1Ppp1P2/5B2/4R3/K7 w - - 0 1",
+  "solution": [
+    "Bg4"
+  ],
+  "rating": 920,
+  "title": "Prima Inchiodate, Poi Prendete",
+  "setup": "La torre nera in f5 è finita sulla stessa diagonale del suo re, con una casa vuota in mezzo.",
+  "hint": "Quale dei vostri pezzi può attaccare quella torre e congelarla nello stesso respiro? Cercate la linea verso d7.",
+  "explanation": "## L'idea\n\nLa torre in **f5**, la casa vuota e6 e il re in **d7** stanno su una diagonale. {{Bg4}} attacca la torre lungo di essa, e l'inchiodatura rende illegale muovere la torre. Niente difende f5, quindi la torre è vostra alla mossa successiva."
+}

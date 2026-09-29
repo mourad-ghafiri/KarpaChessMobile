@@ -1,0 +1,14 @@
+{
+  "id": "overload-02",
+  "fen": "5Rbk/1r3ppp/8/8/8/7Q/PP2R3/K7 w - - 0 1",
+  "solution": [
+    "Rxg8+",
+    "Kxg8",
+    "Re8#"
+  ],
+  "rating": 1290,
+  "title": "Perisai yang Menghalangi",
+  "setup": "Gajah Hitam telah mundur ke g8 di samping rajanya sendiri, dan benteng Anda sudah duduk di f8 di sampingnya.",
+  "hint": "Buah di depan raja adalah buah yang sama yang menjaga baris belakang tetap tertutup. Paksa ia memilih.",
+  "explanation": "## Ide\n\nGajah di g8 melindungi raja sekaligus menyumbat baris kedelapan. {{Rxg8+}} menyingkirkannya dengan sekak, {{Kxg8}} terpaksa, dan {{Re8#}} tiba di lajur yang sejak tadi dimiliki benteng yang lain sendirian."
+}

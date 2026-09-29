@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-11",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+  "solution": [
+    "exd4"
+  ],
+  "title": "Rispondete al Pedone Centrale",
+  "setup": "Il Bianco ha spinto un secondo pedone al centro, dove attacca il vostro pedone in e5.",
+  "hint": "Il vostro pedone e è attaccato. Quale risposta toglie il pedone centrale del Bianco invece di limitarsi a difendere?",
+  "explanation": "## L'idea\n\nIl pedone bianco in d4 attacca il vostro pedone in e5. {{exd4}} lo prende, e al Bianco resta un solo pedone centrale. Se il Bianco riprende con {{Qxd4}}, quella è la Partita del Centro, e {{Nc6}} colpisce la donna con una mossa di sviluppo.\n\nIgnorate invece l'offerta, e {{dxe5}} vi vince il pedone oppure una spinta in d5 guadagna spazio.\n\nQuando un pedone centrale è attaccato, cambiarlo con l'attaccante è spesso la risposta più pulita."
+}

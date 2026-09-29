@@ -1,0 +1,60 @@
+{
+  "id": "pawn-moves",
+  "title": "Piyon Asla Geri Dönmez",
+  "summary": "Düz yürür, çaprazdan vurur ve asla geri adım atmaz",
+  "proof": "first-steps-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "Tek Kare, Tek Yön",
+      "text": "Her piyon hamlesi kalıcıdır. Piyon dümdüz ileri, her seferinde bir kare yürür ve yalnızca boş bir kareye adım atabilir — önünde duran bir taş onun için duvardır.\n\ne2'deki piyon {{e3}} karesine adım atar. Oradan tırmanmayı sürdürebilir, ama kuralların hiçbiri onu bir daha e2'ye indirmez. Başka her taş geldiği yere geri yürüyebilir. Piyon yürüyemez.\n\nPiyonun bıraktığı toprak, partinin sonuna kadar bırakılmıştır."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "İlk Hamle İki Kare Olabilir",
+      "text": "Tek bir istisna ve her piyon bunu tam olarak bir kez kullanır.\n\nKendi başlangıç karesinde duran bir piyon, önündeki iki kare de boşsa bir yerine iki kare gidebilir. Bu e piyonunun şu anda seçeneği var: {{e3}} ya da {{e4}}. Biri diğerinden daha doğru değildir.\n\nPiyon evinden ayrıldığı anda bu hak sona erer. Ondan sonrası, en uzak yataya kadar hamle başına bir karedir — bu yürüyüşü tamamlayan piyon orada çok daha güçlü bir şeye terfi eder, ama o kendi dersinin konusu."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "prompt": "Piyonu ileri sürün — bir kare ya da hâlâ başlangıç karesindeyken iki kare.",
+      "targetSan": [
+        "e3",
+        "e4"
+      ],
+      "hint": "Piyon her zaman yalnızca dümdüz ileri gider ve iki karelik sıçrama sadece ilk hamlesinde sunulur."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "Çaprazdan Vurur",
+      "text": "Rakip taşı almak bir **taş alma**dır: o taş tahtadan kalkar ve siz onun bulunduğu kareye yerleşirsiniz. Her taş alır. Yürüdüğünden başka türlü alan tek taş piyondur.\n\nPiyon, tam önünde duran taşı asla almaz — dümdüz ileri yürümek içindir ve yalnızca boş zemine. Vuruş, bir kare çapraz ileri gider: sola ya da sağa.\n\nd5'teki siyah piyon menzile girmiş. e4'teki piyonunuzun vurabildiği iki kareden birinde duruyor.\n\n> Yürümek düz, almak çapraz. Piyonun tamamı bu asimetridir."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "d5'teki siyah piyon, sizin piyonunuzun ulaşabildiği yerde duruyor — onu tahtadan kaldırın.",
+      "targetSan": [
+        "exd5"
+      ],
+      "hint": "Piyonun adımı ile vuruşu farklı yönlerdir — e4'ten bir kare çapraz ileri sayın."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "Taş Almanın İşareti",
+      "text": "Taş alma bir **x** ile yazılır; bu harf, oynayan taş ile indiği karenin arasında durur.\n\nPiyonun büyük harfi yoktur, o yüzden yerine kendi dikeyini ödünç verir. Az önce oynadığınız hamle {{exd5}} diye yazılır: e piyonu, alarak, d5'te. Baştaki harf hangi piyonun yola çıktığını, kare ise nereye vardığını söyler.\n\nBundan sonra o **x**, hamleyi kim yaparsa yapsın aynı anlama gelir."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4pp2/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "e5'teki siyah piyon önündeki yolu kapatıyor — piyonunuzun elinde kalan tek hamleyi bulun.",
+      "targetSan": [
+        "exf5"
+      ],
+      "hint": "Piyon tam önünde duran taşı alamaz ve o piyonun yanında ikinci bir siyah piyon var."
+    }
+  ]
+}

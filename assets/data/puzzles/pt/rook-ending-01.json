@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-01",
+  "fen": "2R5/8/1k1P4/8/5K2/8/8/7r w - - 0 1",
+  "solution": [
+    "d7"
+  ],
+  "rating": 1200,
+  "title": "O Rei Não Pode Atravessar",
+  "setup": "A torre branca em c8 mantém o rei preto fora da coluna c e vigia a casa a que o peão d se dirige.",
+  "hint": "Nada das pretas chega a tempo à casa de promoção. Então o que é que trava mesmo o peão?",
+  "explanation": "## A Ideia\n\nA torre de c8 faz dois trabalhos ao mesmo tempo: corta o rei pela coluna c e guarda d8. Portanto o peão corre simplesmente. {{d7}} {{Rh4+}} {{Kg5}} {{Rd4}} {{d8=Q+}} {{Rxd8}} {{Rxd8}} e as brancas ficam com uma torre inteira a mais."
+}

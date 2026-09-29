@@ -1,0 +1,13 @@
+{
+  "id": "tactics-mix-14",
+  "fen": "5rk1/5ppp/1r3B2/8/b4Q2/7R/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qh6",
+    "gxh6",
+    "Rg3#"
+  ],
+  "title": "A Dama Que Ninguém Devia Comer",
+  "setup": "O teu bispo em f6 já morde g7, e a tua torre em h3 espera na coluna h. Encontra a jogada que não deixa às pretas resposta boa nenhuma.",
+  "hint": "Dois peões pretos são o único escudo. Pergunta o que o peão de g7 abriria se alguma vez tivesse de capturar alguma coisa.",
+  "explanation": "## A Ideia\n\n{{Qh6}} não dá xeque e não come nada, e no entanto ameaça mate em g7 e mate em h7 ao mesmo tempo, e nenhuma jogada preta trava as duas.\n\nA dama fica onde um peão a pode comer, e {{gxh6}} é a pior resposta de todas: esvazia a coluna g, e segue-se {{Rg3#}}, com o bispo de f6 a cobrir agora g7 e h8."
+}

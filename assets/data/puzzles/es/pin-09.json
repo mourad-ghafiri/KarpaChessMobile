@@ -1,0 +1,12 @@
+{
+  "id": "pin-09",
+  "fen": "7k/2R1pr2/1R6/4r2p/6P1/Bb6/2P5/6K1 w - - 0 1",
+  "solution": [
+    "Bb2"
+  ],
+  "rating": 1120,
+  "title": "Por la gran diagonal",
+  "setup": "El rey negro está encajonado en h8, y una de sus torres se ha aparcado en la gran diagonal negra.",
+  "hint": "El rey negro de h8 está al final de una diagonal famosa. ¿Cuál de tus piezas puede reclamar el otro extremo?",
+  "explanation": "## La idea\n\n{{Bb2}} toma la diagonal a1–h8, donde la torre de **e5** se queda atascada delante de su propio rey. La torre está atacada, sin defensa, y no puede apartarse. Desclavarla con una jugada de rey llega una jugada tarde."
+}

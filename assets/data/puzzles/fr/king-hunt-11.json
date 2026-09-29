@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-11",
+  "fen": "7r/8/b1B5/3R4/K7/8/kpR5/5Q2 w - - 0 1",
+  "solution": [
+    "Rxb2+",
+    "Kxb2",
+    "Rd2+",
+    "Kc3",
+    "Qc1#"
+  ],
+  "rating": 1700,
+  "title": "Laissez le roi la prendre",
+  "setup": "Le roi noir est en a2 avec un pion en b2 sur le point d'être promu, son fou en a6 et sa tour en h8 qui regardent de loin.",
+  "hint": "Le pion n'est pas le danger — c'est le roi derrière lui. Cherchez le sacrifice qui transforme l'abri en route.",
+  "explanation": "## L'idée\n\n{{Rxb2+}} donne une tour pour attirer le roi sur la rangée que possède votre autre tour. {{Kxb2}} est forcé, {{Rd2+}} le chasse en c3, et {{Qc1#}} conclut. Un roi qui prend est un roi qu'on a déplacé là où on le voulait."
+}

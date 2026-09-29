@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-19",
+  "fen": "Q7/5Bpk/7p/8/8/8/8/7K w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "Le fou soutient la dame",
+  "setup": "Le roi noir est en h7, gêné par ses propres pions en g7 et h6, et votre fou en f7 est tout près.",
+  "hint": "Votre fou transforme une case à côté du roi en terrain ami — la dame peut se permettre de s'y tenir.",
+  "explanation": "## L'idée\n\nLe fou en f7 fait de g8 une case protégée, donc la dame peut s'y poser à côté du roi.\n\n{{Qg8#}} donne échec depuis la case voisine. Le fou protège g8, donc le roi ne peut pas prendre la dame. h8 est couverte par la dame, g6 par le fou, et g7 et h6 sont occupées par les propres pions noirs.\n\nQuand votre dame et votre fou atteignent tous deux les abords du roi, cherchez une case protégée juste à côté de lui."
+}

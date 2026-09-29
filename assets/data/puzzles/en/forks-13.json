@@ -1,0 +1,11 @@
+{
+  "id": "forks-13",
+  "fen": "4k3/pp3ppp/8/1N3q2/8/8/PP3PPP/R1B3K1 w - - 0 1",
+  "solution": [
+    "Nd6+"
+  ],
+  "title": "Knight Tears Off the Queen",
+  "setup": "Black's queen on f5 is attacking your knight on b5, and Black's king is still at home on e8.",
+  "hint": "Do not just save the knight. Find the jump that checks the king and hits the queen.",
+  "explanation": "## The Idea\n\n{{Nd6+}} checks the king on e8 and attacks the queen on f5. No black pawn stands on c7 or e7 to guard d6, so the knight is safe, and a knight check cannot be blocked. The king must move, and {{Nxf5}} takes the queen for a knight.\n\nBefore you retreat an attacked piece, look for a square where it attacks back with check."
+}

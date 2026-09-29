@@ -1,0 +1,14 @@
+{
+  "id": "deflection-06",
+  "fen": "krN5/pp5q/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Nb6+",
+    "axb6",
+    "Ra1#"
+  ],
+  "rating": 1300,
+  "title": "O Peão a Tem de Comer",
+  "setup": "O rei preto está no canto atrás da sua própria torre e dos seus peões, e a coluna a é a única entrada.",
+  "hint": "O rei não tem jogada legal nenhuma. Encontra o xeque cuja única resposta abre a coluna que queres.",
+  "explanation": "## A Ideia\n\nA {{Nb6+}} só se pode responder de uma maneira, {{axb6}}. O peão a é arrastado para fora da coluna a, e {{Ra1#}} corre a direito pela estrada aberta. Dá tudo a um defensor que não tem escolha."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-20",
+  "fen": "4k3/6p1/4K3/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Şahı Yandan Kafesleyin",
+  "setup": "Şahlar e dikeyinde karşı karşıya ve siyahın kalan tek piyonu hiçbir işe yaramıyor.",
+  "hint": "Şahınız yedinci yatayı çitliyor. Veziri, siyaha kalan tek yataya gönderin.",
+  "explanation": "## Fikir\n\nŞahlar yine karşı karşıya ve bu kez vezir köşeden geliyor.\n\n{{Qa8#}} arka yatay boyunca şah çeker. d8 ile f8 vezirin hattındadır ve e6'daki şahınız d7, e7 ve f7'yi kapsar. g7'deki piyon hiçbir şeyi kapatmaz ve hiçbir şeyi kurtarmaz.\n\nTahtadaki fazladan taş deseni değiştirmez: karşı karşıya bir şah artı arka yatayda bir vezir mattır."
+}

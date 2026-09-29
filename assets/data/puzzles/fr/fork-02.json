@@ -1,0 +1,12 @@
+{
+  "id": "fork-02",
+  "fen": "6k1/pp3ppp/3b1n2/8/3PP3/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "e5"
+  ],
+  "rating": 730,
+  "title": "Un pion, deux pièces",
+  "setup": "Le fou noir en d6 et le cavalier en f6 se tiennent à deux cases l'un de l'autre sur la même rangée.",
+  "hint": "Un pion attaque deux cases à la fois, alors cherchez la poussée qui arrive entre deux pièces noires.",
+  "explanation": "## L'idée\n\n{{e5}} frappe d6 et f6 ensemble, et le pion en d4 le défend, donc le fou ne peut pas simplement prendre. Les Noirs sauvent une pièce et vous prenez l'autre. Deux pièces adverses sur la même rangée, à deux colonnes d'écart, c'est une fourchette de pion qui ne demande qu'à arriver."
+}

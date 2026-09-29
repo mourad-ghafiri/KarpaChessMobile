@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-11",
+  "fen": "8/7k/1p1R4/6K1/1B3p2/8/8/5R2 w - - 0 1",
+  "solution": [
+    "Rg6",
+    "f3",
+    "Rh1#"
+  ],
+  "rating": 1720,
+  "title": "Tira a Fuga e Depois a Coluna",
+  "setup": "O rei preto está em h7 com peões em b6 e f4, a tua torre está em d6 e o bispo de b4 vigia de longe.",
+  "hint": "O rei tem três casas de fuga — por agora. Cobre-a com uma jogada que mantenha todas as outras linhas intactas.",
+  "explanation": "## A Ideia\n\n{{Rg6}} ocupa a casa de que o rei precisa e não dá xeque, e nada do que as pretas joguem trava {{Rh1#}} — {{f3}} pelo menos põe uma pergunta. {{Rh1#}} dá então mate pela coluna. Pôr uma torre onde o rei quer ir vale mais do que pô-la onde ela pode dar xeque."
+}

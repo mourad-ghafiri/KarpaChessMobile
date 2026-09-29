@@ -1,0 +1,56 @@
+{
+  "id": "promotion",
+  "title": "Nada Fica Peão",
+  "summary": "Chega à última linha e o peão desaparece — dizes tu o que fica ali",
+  "proof": "first-steps-19.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Nenhum Peão Fica Ali",
+      "text": "Não existe tal coisa como um peão na oitava linha. Um peão branco que lá chegue — ou um peão preto que chegue à primeira — não pode continuar a ser o que é.\n\nPor isso as regras trocam-no. Na casa onde aterra, nessa mesma jogada, o peão sai do tabuleiro e uma **dama, torre, bispo ou cavalo** ocupa o seu lugar. Isso é a **promoção**, e é obrigatória. Ao peão de e7 falta uma casa e não há maneira de continuar peão.\n\nDuas peças nunca estão na lista: um rei e outro peão."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Diz no Que Se Transforma",
+      "text": "Uma jogada de promoção escreve-se como qualquer outra — a casa onde o peão chega — e depois mais uma coisa.\n\n{{e8=Q}}. Um sinal `=` e a letra da peça que queres ali. Muda essa letra e mudas o que aparece: `R`, `B` ou `N` em vez dela.\n\nNão é uma nota de rodapé. Uma jogada que chega à última linha sem nomear uma peça não é uma jogada acabada."
+    },
+    {
+      "type": "play",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Manda o peão à última linha e traz de volta a peça que vale nove pontos.",
+      "targetSan": [
+        "e8=Q"
+      ],
+      "hint": "A jogada só fica terminada depois de nomeares o que fica na casa."
+    },
+    {
+      "type": "teach",
+      "fen": "4Q3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Nove Pontos Tirados do Nada",
+      "text": "Saiu um ponto; chegaram nove. A dama em e8 é uma dama como qualquer outra, a varrer linhas, colunas e diagonais a partir do instante em que aterra: {{Qa4}}, {{Qh5}}.\n\nNão se trocou nada por ela. Não a estás a comprar de volta com algo que o teu adversário capturou, e não faz diferença nenhuma se a tua primeira dama ainda está no tabuleiro. Duas damas é legal. Três também.\n\n> Um peão na sétima linha não vale um ponto. Vale aquilo em que está prestes a transformar-se."
+    },
+    {
+      "type": "teach",
+      "fen": "5r2/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Entra a Capturar",
+      "text": "A promoção não é só para peões que andam. Um peão captura como sempre capturou, uma casa na diagonal em frente, e a última linha não muda nada nisso.\n\nAqui isso importa. A torre preta em f8 cobre também e8, portanto seguir a direito entrega a dama nova antes de ela ter feito seja o que for.\n\n{{exf8=Q}} faz os dois trabalhos numa jogada: a torre sai e uma dama fica em f8. O `x` e o `=` querem dizer o que sempre quiseram."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "title": "Quando a Dama Perde",
+      "text": "A dama é quase sempre a resposta certa. Aqui faz-te levar mate.\n\n{{e8=Q}} {{Qc1+}} {{Qe1}} {{Qxe1#}}. Nove pontos novos, e as pretas nem olham para eles: a dama de c7 dá xeque pela primeira linha, a tua dama nova só se pode meter à frente, e o teu rei, fechado pelos próprios peões, não tem para onde ir.\n\nA dama em e8 não tocou no rei preto de g7 nem na dama de c7. Promove a cavalo e atinge os dois. Escolher outra coisa que não uma dama chama-se **subpromoção**, e esta é a razão do dia a dia para o fazer."
+    },
+    {
+      "type": "play",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "prompt": "Promove à peça que dá xeque ao rei preto e ataca a dama na mesma jogada.",
+      "targetSan": [
+        "e8=N+"
+      ],
+      "hint": "Pega em cada uma das quatro escolhas por ordem e pergunta o que atacaria a partir de e8."
+    }
+  ]
+}

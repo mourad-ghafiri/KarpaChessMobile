@@ -1,0 +1,14 @@
+{
+  "id": "decoy-05",
+  "fen": "6rk/pp4pp/8/8/8/q7/5PP1/3Q2KR w - - 1 2",
+  "solution": [
+    "Rxh7+",
+    "Kxh7",
+    "Qh5#"
+  ],
+  "rating": 1310,
+  "title": "Abre o Canto",
+  "setup": "O rei preto esconde-se em h8 atrás da sua própria torre e dos seus peões, com só o peão de h7 entre ele e a tua torre.",
+  "hint": "O rei não tem jogada legal nenhuma. Que captura o obriga a ir para a única casa a que consegues chegar?",
+  "explanation": "## A Ideia\n\n{{Rxh7+}} é uma torre por um peão, e {{Kxh7}} é a única jogada das pretas. Arrastado para h7 o rei fica preso contra a sua própria torre e o seu peão, e {{Qh5#}} aterra à distância. A torre nunca foi o alvo. A casa h7 é que era."
+}

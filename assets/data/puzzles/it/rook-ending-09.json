@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-09",
+  "fen": "8/1r6/6P1/8/8/2R3K1/8/4k3 b - - 0 1",
+  "solution": [
+    "Rb6"
+  ],
+  "rating": 1530,
+  "title": "Il Passaggio sulla Sesta Traversa",
+  "setup": "Il pedone g del Bianco è pronto a correre e il re nero in e1 è troppo lontano per avere voce in capitolo.",
+  "hint": "La vostra torre deve incontrare il pedone davanti, e deve arrivare guadagnando un tempo. Quale traversa fa tutte e due le cose?",
+  "explanation": "## L'idea\n\nUna sola traversa fa il lavoro. {{Rb6}} tiene il pedone sotto tiro, e quando corre — {{g7}} — la torre attraversa con scacco: {{Rg6+}} {{Kh2}} {{Rxg7}}. Da b8 la torre può solo parare senza scacco; da b5 arriva dietro il pedone, il che non serve a niente."
+}

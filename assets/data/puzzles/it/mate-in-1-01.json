@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-01",
+  "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 1",
+  "solution": [
+    "Qxf7#"
+  ],
+  "title": "Il Colpo del Barbiere",
+  "setup": "La vostra donna in h5 e il vostro alfiere in c4 puntano tutti e due sulla casa più debole del campo nero.",
+  "hint": "Due dei vostri pezzi convergono su una casa tenera, e la difende solo il re.",
+  "explanation": "## L'idea\n\nQuesta è la mossa finale del matto del barbiere. {{Qxf7#}} prende il pedone con scacco. L'alfiere in c4 difende f7, quindi il re non può prendere la donna, e la sua unica casa vuota, e7, è coperta dalla donna. Le altre vicine, d8, d7 e f8, hanno i suoi stessi pezzi.\n\nAll'inizio della partita f7 la difende solo il re, quindi una donna e un alfiere puntati contro sono il trucco più antico degli scacchi."
+}

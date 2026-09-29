@@ -1,0 +1,14 @@
+{
+  "id": "defence-01",
+  "fen": "7r/7k/q7/7K/6Qb/1R6/8/8 w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Be7",
+    "Rxe7#"
+  ],
+  "rating": 1450,
+  "title": "Pas un coup à perdre",
+  "setup": "Votre roi est échoué en h5 avec la dame, la tour et le fou noirs tous à portée — un coup noir de plus et c'est fini.",
+  "hint": "Défendre perd. Comptez plutôt vos propres échecs et trouvez celui auquel les Noirs ne peuvent pas répondre deux fois.",
+  "explanation": "## L'idée\n\nLes Noirs menacent mat en h6, il n'y a donc pas le temps de défendre. {{Rb7+}} donne échec d'abord et laisse deux réponses. {{Be7}} s'interpose, et {{Rxe7#}} prend l'obstacle. {{Qxb7}} prend plutôt la tour, et {{Qg6#}} mate.\n\nQuand les deux rois sont en danger, c'est le camp qui donne échec qui fixe l'ordre des coups."
+}

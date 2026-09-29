@@ -1,0 +1,56 @@
+{
+  "id": "mad-queen",
+  "title": "La Donna Furiosa",
+  "summary": "Due pezzi lenti entrano negli anni Settanta del Quattrocento ed escono come i più veloci della scacchiera",
+  "proof": "history-04.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Gli Scacchi della Dama",
+      "text": "La donna che l'Europa giocò per cinque secoli muoveva di una casa in diagonale e non oltre. Nel giro di una generazione era il pezzo più forte del gioco.\n\nDel cambiamento sopravvive una poesia. *Scachs d'amor*, in valenzano, porta nel suo commento la più antica partita giocata con le regole nuove che ci sia rimasta. Il manoscritto non è datato; «attorno al 1475» è la lettura abituale, e Valencia è una ricostruzione che si regge in gran parte sulla poesia stessa.\n\nLa Spagna chiamò il gioco nuovo *axedrez de la dama*, gli scacchi della dama. L'italiano e il francese furono più sgarbati: *alla rabiosa*, *la dame enragée*, per una donna che non voleva stare ferma."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "L'Elefante Andò Insieme a Lei",
+      "text": "La donna non fu riscritta da sola.\n\nIl salto dell'elefante — esattamente due case, sopra qualunque cosa ci fosse in mezzo, su una delle otto case che avrebbe mai toccato — divenne lo scorrimento dell'alfiere lungo l'intera diagonale. Una riforma, una sola idea applicata due volte: dare ai pezzi delle diagonali la diagonale intera.\n\nPerché proprio allora? L'ipotesi solita sono le sovrane che governavano l'Europa di quegli anni, Isabella di Castiglia più di tutte — ma è un'ipotesi, non un documento."
+    },
+    {
+      "type": "teach",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "title": "Due Case, e Poi Più Niente",
+      "text": "Rimettete la vecchia donna in d1 e contate quello che possedeva.\n\nDue case. {{Qc2}} e {{Qe2}}, un passettino per parte, e la lista finiva lì. Tutte e due sono chiare, e lo è anche d1 — quella donna in vita sua non stette mai su una casa scura, e così metà scacchiera le era chiusa prima ancora che qualcuno muovesse.\n\nQuattro di quei passettini la portavano da d1 a h5. La donna che sta lì adesso copre quella strada in una mossa sola, e può arrivarci già attaccando.\n\n> La torre ebbe nove secoli da pezzo più forte della scacchiera. Perse il titolo contro un pezzo che prima strisciava."
+    },
+    {
+      "type": "play",
+      "fen": "r5k1/p5pp/8/8/8/8/5PPP/3Q2K1 w - - 0 1",
+      "prompt": "Portate la donna in mezzo, in modo che una diagonale arrivi al re in g8 e un'altra alla torre in a8.",
+      "hint": "Il re in g8 e la torre in a8 stanno tutti e due su case chiare, e così anche la vostra donna — trovate la casa dove le loro due diagonali si incrociano.",
+      "targetSan": [
+        "Qd5+"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "Erano Diagonali Tutte e Due",
+      "text": "Tutte e due le linee che avete appena usato erano diagonali. Un alfiere arrivato in d5 avrebbe colpito g8 e a8 esattamente allo stesso modo — e l'alfiere ottenne il suo scorrimento nella stessa riforma, quindi quella metà della donna non ha niente di nuovo.\n\nL'altra metà sì. Da d5 la donna tiene anche tutta la quinta traversa e tutta la colonna d, e così le due linee che si incrociano sotto di lei non devono mai essere dello stesso tipo: una traversa e una diagonale, una colonna e una diagonale, quello che la posizione offre. Una torre e un alfiere in un corpo solo, e su una casa dove i due tipi si incrociano può stare un pezzo solo."
+    },
+    {
+      "type": "teach",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "title": "Nessun Tempo per Scappare",
+      "text": "Lo scacco ha fatto il suo lavoro. Rispondergli non ha fatto assolutamente niente per la torre in a8, ed è tutto qui il guadagno del colpire due cose insieme: la seconda non ha il tempo di scappare.\n\nToglietelo e il guadagno svanisce. Regalate al Nero una mossa libera — {{h3}}, per dire — e {{Rc8}} risponde, e non c'era niente da guadagnare.\n\nQuindi finitela senza regalarne nessuna."
+    },
+    {
+      "type": "play",
+      "fen": "r4k2/p5pp/8/3Q4/8/8/5PPP/6K1 w - - 2 2",
+      "prompt": "Prendete la torre nell'angolo, e prendetela con scacco perché il Nero non abbia mai una mossa da spendere.",
+      "hint": "Niente difende a8, quindi l'unica domanda è se la vostra presa atterra anche su una linea che passa per il re nero in f8.",
+      "targetSan": [
+        "Qxa8+"
+      ]
+    }
+  ]
+}

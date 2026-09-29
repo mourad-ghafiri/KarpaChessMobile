@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-19",
+  "fen": "Q7/5Bpk/7p/8/8/8/8/7K w - - 0 1",
+  "solution": [
+    "Qg8#"
+  ],
+  "title": "Gajah Mendukung Menteri",
+  "setup": "Raja Hitam di h7, dikurung pionnya sendiri di g7 dan h6, dan gajah Anda di f7 berada dekat.",
+  "hint": "Gajah Anda mengubah satu petak di samping raja menjadi wilayah kawan — menteri bisa berdiri di sana.",
+  "explanation": "## Ide\n\nGajah di f7 mengubah g8 menjadi petak yang terjaga, jadi menteri bisa mendarat di sana di samping raja.\n\n{{Qg8#}} memberi sekak dari petak sebelah. Gajah menjaga g8, jadi raja tak bisa mengambil menteri. h8 dikuasai menteri, g6 dikuasai gajah, dan g7 serta h6 ditempati pion Hitam sendiri.\n\nKetika menteri dan gajah Anda sama-sama menjangkau lingkungan raja, carilah petak terjaga tepat di sampingnya."
+}

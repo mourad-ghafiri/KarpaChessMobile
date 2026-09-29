@@ -1,0 +1,13 @@
+{
+  "id": "forks-14",
+  "fen": "2r1k3/p4ppp/8/8/4N3/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd7",
+    "Nxc8"
+  ],
+  "title": "Menggarpu Sang Benteng",
+  "setup": "Benteng Hitam merayap ke c8, dekat dengan rajanya. Anda tertinggal kualitas, tetapi unggul satu pion.",
+  "hint": "Temukan petak yang memberi sekak kepada raja dan menyerang c8 sekaligus. Jaraknya satu lompatan.",
+  "explanation": "## Ide\n\n{{Nd6+}} menyerang raja di e8 dan benteng di c8 sekaligus. Tak ada pion hitam di c7 atau e7 yang menjaga d6, jadi kuda aman. {{Kd7}} menjaga benteng, tetapi {{Nxc8}} tetap mengambilnya, dan sesudah {{Kxc8}} benteng dan kuda sudah hilang. Yang tersisa adalah akhir permainan pion dengan pion tambahan Anda.\n\nGarpu yang hanya memenangkan kualitas tetap bisa cukup, ketika ia menuju akhir permainan yang bisa Anda menangkan."
+}

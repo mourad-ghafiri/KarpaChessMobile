@@ -1,0 +1,13 @@
+{
+  "id": "quiet-move-proof",
+  "fen": "4b1rk/5ppp/8/8/3B3R/1r6/PP6/K4Q2 w - - 0 1",
+  "solution": [
+    "Qf5",
+    "h6",
+    "Rxh6#"
+  ],
+  "title": "Nada Que as Pretas Possam Fazer",
+  "setup": "A torre preta está prestes a começar a comer os teus peões, e não tens nenhum xeque que valha a pena. Encontra a jogada que deixa as pretas sem uma única resposta útil.",
+  "hint": "A tua torre em h4 já fita h7. Olha para o que o teu bispo de d4 faz ao peão de g7 antes de escolheres casa para a dama.",
+  "explanation": "## A Ideia\n\n{{Qf5}} não dá xeque e não come nada. Alinha a dama sobre h7 ao lado da torre, e h7 cai na jogada seguinte.\n\nAs pretas não têm maneira de o travar. O peão de g7 está cravado pelo teu bispo de d4, portanto não pode mexer nem capturar. Fazer ar com {{h6}} só abre a coluna: {{Rxh6#}}, e o peão cravado não pode recapturar. Todas as outras respostas levam mate na coluna h."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-11",
+  "fen": "7r/8/b1B5/3R4/K7/8/kpR5/5Q2 w - - 0 1",
+  "solution": [
+    "Rxb2+",
+    "Kxb2",
+    "Rd2+",
+    "Kc3",
+    "Qc1#"
+  ],
+  "rating": 1700,
+  "title": "Let the King Take It",
+  "setup": "Black's king is on a2 with a pawn on b2 about to promote, its bishop on a6 and rook on h8 watching from afar.",
+  "hint": "The pawn is not the danger — the king behind it is. Look for the sacrifice that turns the shelter into a road.",
+  "explanation": "## The Idea\n\n{{Rxb2+}} gives a rook to pull the king onto the rank your other rook owns. {{Kxb2}} is forced, {{Rd2+}} drives it to c3, and {{Qc1#}} ends it. A king that captures is a king that has been moved where you wanted it."
+}

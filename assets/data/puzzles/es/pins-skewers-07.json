@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-07",
+  "fen": "2n1k3/pp2rppp/8/2B5/8/8/PP3PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bxe7"
+  ],
+  "title": "Captura con la pieza más barata",
+  "setup": "La torre negra de e7 está clavada contra su rey por tu torre, y tu alfil también la ataca. Un caballo en c8 la protege.",
+  "hint": "La torre clavada está atacada dos veces y defendida una. ¿Qué captura da beneficio?",
+  "explanation": "## La idea\n\nLa torre de e7 está clavada por tu torre de e1, atacada por torre y alfil y defendida por el caballo de c8.\n\n{{Bxe7}} captura con la pieza más barata. El rey no puede recapturar, porque tu torre protege e7, así que tras {{Nxe7}} has dado un alfil por una torre, y ahora es el caballo el que queda clavado. {{Rxe7+}} primero solo cambia torre por torre.\n\nCobra una pieza clavada con tu atacante más barato."
+}

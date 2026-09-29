@@ -1,0 +1,60 @@
+{
+  "id": "pawn-moves",
+  "title": "Pion Tak Pernah Berbalik",
+  "summary": "Berjalan lurus, menyerang secara diagonal, dan tak pernah mundur selangkah pun",
+  "proof": "first-steps-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "Satu Petak, Satu Arah",
+      "text": "Setiap langkah pion bersifat permanen. Pion berjalan lurus ke depan, satu petak setiap kali, dan hanya boleh melangkah ke petak kosong — buah yang berdiri di depannya adalah tembok.\n\nPion di e2 melangkah ke {{e3}}. Dari sana ia bisa terus naik, tetapi tak ada aturan yang akan membawanya turun kembali ke e2. Setiap buah lain bisa berjalan kembali ke tempat asalnya. Pion tidak bisa.\n\nWilayah yang ditinggalkan pion ditinggalkan untuk sisa partai."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "Langkah Pertama Boleh Dua",
+      "text": "Ada satu pengecualian, dan setiap pion mendapatkannya tepat satu kali.\n\nSaat berdiri di petak awalnya, pion boleh maju dua petak alih-alih satu, asalkan kedua petak di depannya kosong. Pion e ini punya pilihan itu sekarang: {{e3}} atau {{e4}}. Tak ada yang lebih benar daripada yang lain.\n\nTawaran itu berakhir begitu pion meninggalkan rumahnya. Sesudah itu, satu petak per langkah sepanjang jalan ke baris terjauh — tempat pion yang selamat dari perjalanannya dipromosikan menjadi sesuatu yang jauh lebih kuat, dalam pelajaran tersendiri."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "prompt": "Dorong pion maju ke atas papan — satu petak, atau dua selama ia masih berdiri di petak awalnya.",
+      "targetSan": [
+        "e3",
+        "e4"
+      ],
+      "hint": "Pion hanya pernah maju lurus ke depan, dan lompatan dua petak hanya ditawarkan pada langkah pertamanya."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "Ia Bertarung di Diagonal",
+      "text": "Mengambil buah lawan disebut **menangkap**: buah itu keluar dari papan, dan buah Anda berdiri di petak yang tadi ditempatinya. Setiap buah bisa menangkap. Pion satu-satunya yang menangkap dengan cara berbeda dari caranya berjalan.\n\nPion tak pernah mengambil buah yang tepat di depannya — lurus ke depan untuk berjalan, dan hanya ke petak kosong. Serangannya satu petak diagonal ke depan, ke kiri atau ke kanan.\n\nPion hitam di d5 telah masuk jangkauan. Ia duduk di salah satu dari dua petak yang dapat diserang pion Anda di e4.\n\n> Lurus untuk berjalan, diagonal untuk menangkap. Ketidaksamaan itulah seluruh pion."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Pion hitam di d5 berdiri di tempat yang bisa dicapai pion Anda — keluarkan ia dari papan.",
+      "targetSan": [
+        "exd5"
+      ],
+      "hint": "Arah langkah pion dan arah serangannya berbeda — hitung satu petak diagonal ke depan dari e4."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "Tanda untuk Penangkapan",
+      "text": "Penangkapan ditulis dengan **x**, yang terletak di antara buah yang bergerak dan petak tempat ia mendarat.\n\nPion tak punya huruf kapital, jadi ia meminjamkan huruf lajurnya. Langkah yang baru Anda mainkan ditulis {{exd5}}: pion e, menangkap, di d5. Huruf di depan menyebut pion mana yang pergi, petaknya menyebut ke mana ia tiba.\n\nMulai sekarang, **x** itu berarti hal yang sama siapa pun yang melangkah."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4pp2/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "Pion hitam di e5 menghalangi jalan di depan — temukan satu-satunya langkah yang masih dimiliki pion Anda.",
+      "targetSan": [
+        "exf5"
+      ],
+      "hint": "Pion tak bisa mengambil buah yang berdiri tepat di depannya, dan ada pion hitam kedua di sebelah pion itu."
+    }
+  ]
+}

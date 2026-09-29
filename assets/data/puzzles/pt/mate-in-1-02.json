@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-02",
+  "fen": "7k/6pp/8/8/8/8/5PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Alicerce da Linha de Fundo",
+  "setup": "O rei preto está encolhido no canto atrás dos próprios peões de g7 e h7 — uma parede sem janela.",
+  "hint": "A oitava linha está escancarada, e as pretas não empurraram nenhum peão para criar uma casa de fuga.",
+  "explanation": "## A Ideia\n\nO **mate da linha de fundo** de manual. {{Rb8#}} desliza para a oitava linha e o rei não pode escapar: g7 e h7 têm os próprios peões, g8 está na linha da torre, e nada se pode meter pelo meio.\n\nUma jogada de peão antes, h6 ou g6, teria dado ar ao rei. Sem ela, a parede é uma jaula."
+}

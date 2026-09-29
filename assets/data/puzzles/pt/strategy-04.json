@@ -1,0 +1,11 @@
+{
+  "id": "strategy-04",
+  "fen": "r1bq1rk1/ppp2p2/2np1n1p/1B2p1p1/1b2P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "Dois Tijolos a Menos",
+  "setup": "As pretas avançaram dois peões para perseguir o teu bispo, e o rei de g8 vive atrás deles. O bispo em h4 está atacado.",
+  "hint": "O peão de g5 tem um defensor. Uma retirada é segura; conta quanto vale esse abrigo antes de a jogares.",
+  "explanation": "## A Ideia\n\nOs peões de h6 e g5 eram a fachada do abrigo do rei preto, e nenhum deles pode voltar. {{Nxg5}} dá um cavalo por eles.\n\nSe as pretas comerem, o bispo recaptura em g5, crava o cavalo de f6 contra a dama, e o rei fica nu. As pretas fazem melhor em ceder o bispo de b4 pelo teu cavalo de c3, e as brancas saem à mesma à frente. Uma retirada para g3 teria deixado às pretas tudo aquilo."
+}

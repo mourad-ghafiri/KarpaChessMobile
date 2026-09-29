@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-05",
+  "fen": "5B2/8/8/7k/4K3/8/6p1/6Q1 w - - 0 1",
+  "solution": [
+    "Kf5",
+    "Kh4",
+    "Qh2#"
+  ],
+  "rating": 1530,
+  "title": "Bekleme Hamlesini Şah Yapıyor",
+  "setup": "Şahlar e4 ile h5'te duruyor, siyahın g2'deki piyonu terfiye bir kare uzaklıkta ve veziriniz g1'i koruyor.",
+  "hint": "Taşlarınızın hiçbiri oynamayı göze alamaz. Hiç düşünmediğinize bakın.",
+  "explanation": "## Fikir\n\n{{Kf5}} g4, g5 ve g6'yı alır ve hamleyi siyaha devreder. Yalnızca {{Kh4}} kurallıdır ve {{Qh2#}} şahı kenara yaslayarak mat eder. Şahın attığı adım, aynı zamanda ağı ören bir bekleme hamlesidir."
+}

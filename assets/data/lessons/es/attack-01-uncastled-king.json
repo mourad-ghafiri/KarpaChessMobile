@@ -1,0 +1,62 @@
+{
+  "id": "uncastled-king",
+  "title": "Atacar al rey sin enrocar",
+  "summary": "El rey sigue en e8, y el reloj corre",
+  "proof": "uncastled-king-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "El rey que nunca salió de e8",
+      "text": "El rey negro sigue en e8 en la quinta jugada, y eso no es un desarrollo lento. Es un blanco.\n\nEl enroque hace dos trabajos en una jugada: esconde al rey detrás de tres peones intactos y deja que las torres se vean. Un rey que se lo salta queda en la columna más transitada del tablero, al alcance de los dos flancos y con sus propias piezas bloqueándole las salidas.\n\nAsí que esto es un plazo. Las Negras están a un par de jugadas de la seguridad, y cada jugada tuya que no plantea ninguna pregunta les regala una de ellas."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "La clavada que se te permite romper",
+      "text": "El alfil negro de g4 clava tu caballo de f3 contra la dama de d1, y se supone que un caballo clavado se queda quieto. Ese es el acuerdo con el que cuentan las Negras.\n\nAhora cuenta el otro extremo del tablero. Tu alfil de c4 ya mira a f7, y f7 está protegida por exactamente una pieza: el rey que nunca se fue. Un caballo que llegara al centro también miraría a f7.\n\nUna clavada solo aguanta mientras la dama de detrás valga más que lo que puede hacer el caballo."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "prompt": "El rey negro está atascado en e8, así que apunta una segunda pieza a f7 aunque te cueste la dama.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "Pregúntate qué puede capturar en el centro el caballo clavado, y luego cuenta qué apuntaría a f7 una vez que llegue ahí."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "La dama era el cebo",
+      "text": "Una dama es una dama, así que las Negras cobran: {{Bxd1}}, y la tuya ha caído a cambio de un caballo.\n\nAhora f7. {{Bxf7+}} es jaque, y las Negras tienen exactamente una respuesta legal en el tablero, {{Ke7}}, porque esa casilla solo la protegía el rey. El rey es arrastrado a la columna e abierta con todo el ejército negro todavía en casa, y {{Nd5#}} lo cierra.\n\nLas Negras ganaron una dama y recibieron mate dos jugadas después."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "Lo que cuesta rehusar",
+      "text": "Supongamos que las Negras huelen el mate y capturan el caballo en su lugar: {{dxe5}}. La dama de d1 sobrevive, y la clavada muere con ello. Detrás del alfil de g4 ya no hay más que casillas vacías, y {{Qxg4}} lo recoge.\n\nLas Blancas dieron un caballo y se llevaron un alfil y un peón. Un sacrificio que da mate si se acepta y gana material si se rehúsa no es una apuesta. Es simplemente la jugada."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "Dos piezas en la puerta",
+      "text": "Otra apertura, la misma enfermedad. La dama blanca de e2 y el rey negro de e8 están en una misma columna, y hay dos piezas encajadas entre ellos: el caballo negro de e4 y el caballo blanco de e5.\n\nSolo uno de esos obstáculos es de las Negras, y es el que hace el trabajo. Mientras el caballo de e4 esté ahí, el caballo blanco puede ir adonde quiera y nada lo sigue por la columna.\n\nEse caballo negro además está atacado por la dama, y nada negro lo protege."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "El caballo vuelve a casa",
+      "text": "{{Nf6}} es la jugada que casi todo el mundo hace. El caballo sale del ataque, protege el flanco de rey y las Negras quedan a dos jugadas del enroque.\n\nPero vacía e4. Lo último que queda entre la dama blanca y el rey negro es ahora un caballo blanco, y una pieza tuya en ese sitio no está tapando una línea. Está cargada. Vaya a la casilla que vaya, el jaque llega detrás.\n\n> Antes de desarrollar una pieza, mira cada línea que apunta al rey rival y pregúntate qué podría hacer tu propia pieza al salir de una de ellas."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/5n2/4N3/8/8/PPPPQPPP/RNB1KB1R w KQkq - 2 5",
+      "prompt": "Saca el caballo de la columna e para que el jaque llegue detrás de él, y aterriza donde gane la dama negra.",
+      "targetSan": [
+        "Nc6+"
+      ],
+      "hint": "El jaque llega vaya adonde vaya el caballo, así que la única pregunta es a qué pieza negra puede golpear al llegar."
+    }
+  ]
+}

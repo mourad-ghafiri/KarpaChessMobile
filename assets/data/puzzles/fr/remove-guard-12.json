@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-12",
+  "fen": "8/pP3pkp/3b2p1/8/8/8/5PKP/3R4 w - - 1 2",
+  "solution": [
+    "Rxd6"
+  ],
+  "rating": 1450,
+  "title": "Achetez la dame",
+  "setup": "Votre pion en b7 est à une case de la promotion, et le fou en d6 est la seule pièce qui surveille b8.",
+  "hint": "Rien sur cet échiquier ne compte à part la colonne b. Quelle pièce noire arrête ce pion ?",
+  "explanation": "## L'idée\n\n{{Rxd6}} est une tour contre un fou, et une affaire : ce fou était la seule pièce qui couvrait b8. Rien ne peut reprendre, donc {{b8=Q}} arrive au coup suivant. Échangez tout le matériel que vous voulez contre un pion qui va à dame."
+}

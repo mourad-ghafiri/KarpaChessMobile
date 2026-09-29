@@ -1,0 +1,12 @@
+{
+  "id": "trapped-08",
+  "fen": "3r2k1/ppp2p2/3p1n2/6pp/8/2N4B/PP3PP1/5RK1 b - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1270,
+  "title": "Isi Petak Terakhir",
+  "setup": "Gajah Putih di h3 punya pionnya sendiri di g2 di belakangnya dan bentengnya sendiri di f1 lebih jauh lagi.",
+  "hint": "Buah-buah Putih sendiri menutup satu diagonal sepenuhnya. Diagonal yang lain dimulai di petak yang sudah dijaga pion h Anda.",
+  "explanation": "## Ide\n\n{{g4}} tak menyisakan apa pun bagi gajah: g2 adalah pion Putih, f1 bentengnya, dan pion yang kini di g4 dijaga h5. Putih hanya bisa melepas sebuah buah, dan ...gxh3 mengambilnya pada langkah berikutnya. Anda menjebak gajah dengan mengisi petak, bukan dengan mengejarnya."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-12",
+  "fen": "5r1k/6pp/7N/8/2Q5/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1400,
+  "title": "O Mate Sufocado",
+  "setup": "O rei preto está emparedado em h8 pela sua própria torre e pelos seus peões, a uma casa de uma jaula famosa.",
+  "hint": "O rei está quase enterrado pelas suas peças. Que casa continua livre, e consegues fazer com que ele a preencha?",
+  "explanation": "## A Ideia\n\nEste é o **mate sufocado**. {{Qg8+}} oferece a dama numa casa que o cavalo de **h6** defende, portanto o rei não pode comer e {{Rxg8}} é forçado. Isso tapa a última casa livre, e {{Nf7#}} aterra onde nenhum xeque de cavalo se pode alguma vez tapar."
+}

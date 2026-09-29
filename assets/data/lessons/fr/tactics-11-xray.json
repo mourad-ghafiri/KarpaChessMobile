@@ -1,0 +1,50 @@
+{
+  "id": "xray-attack",
+  "title": "L'attaque aux rayons X",
+  "summary": "Les pièces à longue portée voient à travers les autres",
+  "proof": "xray-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Derrière votre propre tour",
+      "text": "Votre dame en d1 se tient derrière votre propre tour en d2, et cela ressemble à une dame gaspillée. Écartez la tour et la dame voit d7 à l'instant même, donc tant que la tour reste là, la dame vise droit à travers elle.\n\nC'est une attaque aux **rayons X** : une pièce à longue portée qui attaque à travers une pièce de son camp, et compte comme attaquante pendant tout ce temps.\n\nComptez maintenant la colonne d. La tour noire en d7 est frappée deux fois, par la tour et par la dame derrière elle. Le fou en c8 la protège une fois. Deux battent un."
+    },
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Le moins cher d'abord",
+      "text": "Deux attaquants et un défenseur : d7 tombe. Ce que cela coûte est réglé avant même la première prise, car c'est la pièce de devant qui doit commencer.\n\nIci, la pièce de devant est la tour. Elle entre, le fou la prend, la dame conclut : cinq points payés, huit encaissés.\n\nInversez-les, dame devant et tour derrière, et la même colonne fait perdre de l'argent. La dame entre, le fou prend une dame, la tour prend le fou. Neuf payés, huit encaissés.\n\nLe moins cher devant, le plus cher derrière."
+    },
+    {
+      "type": "play",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "prompt": "Encaissez sur la colonne d, en commençant par l'attaquant que vous pouvez le plus facilement perdre.",
+      "targetSan": [
+        "Rxd7"
+      ],
+      "hint": "Comptez ce qui vise encore cette case une fois que le fou noir a repris."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "Le gardien qui n'est pas encore là",
+      "text": "Un nouvel échiquier, les Noirs au trait, et le cavalier en e5 semble gratuit. La tour noire en e4 l'attaque, et aucune pièce blanche ne se trouve à proximité.\n\nRegardez plus bas sur la colonne. Votre tour en e1 est sur cette même colonne, et la seule chose entre elle et le cavalier est la tour noire elle-même.\n\nLe cavalier est donc protégé à travers la pièce qui veut le prendre. L'obstacle et l'attaquant sont la même tour, et elle ne peut pas prendre sans quitter la case avec laquelle elle bloque."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "Riche pour un coup",
+      "text": "Les Noirs pourraient plutôt tenter de dégager la colonne en échangeant en e1 — mais le roi en f1 reprend, et la tour qui voulait le cavalier quitte l'échiquier avec lui.\n\nLes Noirs prennent donc le cavalier : {{Rxe5}}. Trois points, gratuitement, pendant exactement un coup.\n\n> Comptez toute la ligne, pas seulement la première pièce qui s'y trouve."
+    },
+    {
+      "type": "play",
+      "fen": "2b3k1/ppp2ppp/8/4r3/8/8/PPP2PPP/4RK2 w - - 0 2",
+      "prompt": "La tour noire a atterri sur la colonne que votre propre tour tient déjà : ramassez-la.",
+      "targetSan": [
+        "Rxe5"
+      ],
+      "hint": "Rien ne se trouve entre votre tour et la pièce qui vient de prendre."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "openings-02",
+  "fen": "r1bqk2r/pppp1ppp/1bn5/4P3/2B1n3/2P2N2/PP3PPP/RNBQK2R w KQk - 0 7",
+  "solution": [
+    "Qd5"
+  ],
+  "title": "Pusat Italia Menggigit",
+  "setup": "Putih menyiapkan d4 dengan c3 lalu mendorongnya, dan Hitam baru saja merebut pion di pusat dengan kuda.",
+  "hint": "Satu petak menyerang kuda yang tak terlindungi dan titik di kubu Hitam yang hanya dilindungi raja. Carilah tempat keduanya bertemu.",
+  "explanation": "## Ide\n\nInilah gunanya persiapan c3 dan d4: begitu pusat terbuka, buah-buah Hitam tak punya tempat yang aman untuk berdiri.\n\n{{Qd5}} adalah serangan ganda. Menteri menyerang kuda di e4, dan di diagonal yang lain ia menyerang f7, tempat gajah di c4 sudah menunggu: {{Qxf7#}} akan menjadi mat. Hitam harus menanganinya lebih dulu, dan kuda pun jatuh.\n\nTak ada langkah kuda yang menyelamatkannya sekaligus menjaga f7: di d6 ia jatuh kepada pion e5, di g5 kepada kuda di f3."
+}

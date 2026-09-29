@@ -1,0 +1,14 @@
+{
+  "id": "defence-12",
+  "fen": "8/3r4/5KR1/4r3/3B4/4qk2/Q7/8 w - - 0 1",
+  "solution": [
+    "Qg2+",
+    "Kf4",
+    "Qg4#"
+  ],
+  "rating": 2000,
+  "title": "Oferece a Dama Duas Vezes",
+  "setup": "A dama preta em e3 já olha para as casas à volta do teu rei de f6, apoiada pelas torres de d7 e e5 — estás a uma jogada do mate.",
+  "hint": "Os teus dois xeques põem a dama onde pode ser comida. Descobre por que razão nenhuma das capturas é legal.",
+  "explanation": "## A Ideia\n\n{{Qg2+}} é protegida pela torre de g6, portanto {{Kf4}} é forçado, e {{Qg4#}} oferece a dama uma segunda vez numa casa de onde o rei não a pode comer. Uma defesa que assenta na impossibilidade de capturar continua a ser uma defesa."
+}

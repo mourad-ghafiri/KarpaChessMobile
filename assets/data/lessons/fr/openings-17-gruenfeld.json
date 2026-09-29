@@ -1,0 +1,56 @@
+{
+  "id": "gruenfeld-advanced",
+  "title": "La défense Grünfeld",
+  "summary": "Cédez le centre, puis tirez dessus",
+  "proof": "openings-17.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+      "title": "Une offre, pas une revendication",
+      "text": "Le pion noir en d5 marche droit sur un pion et un cavalier, et les Noirs veulent que les deux frappent.\n\nToutes les autres réponses aux deux pions centraux blancs cherchent à tenir du terrain au centre. Celle-ci le vend. Les Noirs échangent le pion de d5, laissent les Blancs bâtir le centre le plus large des manuels d'ouverture, et comptent passer le reste de la partie à tirer dessus à longue distance.\n\nErnst Grünfeld l'a jouée en 1922, à une époque où abandonner exprès le centre de l'échiquier ressemblait à une coquille."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+      "title": "Pourquoi les Blancs prennent",
+      "text": "{{cxd5}}, et les Blancs devraient s'en réjouir. Refuser, c'est laisser les Noirs garder gratuitement un pion au centre.\n\nRegardez pourtant ce qu'achète la prise. Les Noirs reprennent avec une pièce, donc ils n'ont plus aucun pion au centre — et les Blancs sont à un coup de planter un second pion à côté de d4. Sur le papier, les Noirs ont cédé le centre de l'échiquier sans rien recevoir.\n\nLe gain n'est pas encore sur l'échiquier. Il est dans ce que les Noirs pourront viser une fois les pions blancs installés."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/3P4/3P4/2N5/PP2PPPP/R1BQKBNR b KQkq - 0 4",
+      "title": "Chassé dès l'arrivée",
+      "text": "{{Nxd5}} {{e4}}. Le cavalier atteint le centre et on lui demande de partir dès le coup suivant.\n\nLes pions blancs se tiennent maintenant côte à côte en d4 et e4, ce que cherchent les Blancs depuis le premier coup : un large centre, et chaque pièce derrière lui avec une case où aller.\n\nLe cavalier doit bouger. Il a une case où il fait des dégâts en partant, et trouver cette case est la seule raison pour laquelle les Noirs ont permis tout cela."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3PP3/2N5/PP3PPP/R1BQKBNR b KQkq e3 0 5",
+      "prompt": "Votre cavalier est chassé : quittez la case de façon à obliger les Blancs à reprendre avec un pion d'aile.",
+      "targetSan": [
+        "Nxc3"
+      ],
+      "hint": "Reculer offre gratuitement le centre aux Blancs ; cherchez plutôt la pièce que votre cavalier peut prendre en partant."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Ce qu'a coûté la reprise",
+      "text": "Le pion b blanc est venu en c3 pour soutenir d4, et l'aile dame qu'il a laissée derrière lui est en désordre : un pion en a2, et une tour en a1 qui regarde une colonne b vide.\n\nLa moitié du marché des Noirs, c'est le fou en g7. Le pion est allé en g6 au deuxième coup pour que le fou possède cette diagonale, et la diagonale passe par g7, f6, e5, d4 — droit sur les pions que les Blancs viennent de finir de construire."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Comptez les gardiens de d4",
+      "text": "Tout tourne désormais autour de d4. Trois choses le soutiennent : le pion en c3, le cavalier en f3 et la dame en d1. Un seul est un pion.\n\nUn pion protège gratuitement. Une pièce qui protège un pion est une pièce avec une tâche qu'elle ne peut pas abandonner, alors les Noirs attaquent d4 avec ce qu'ils ont de moins cher et laissent les Blancs décider quelle pièce se retrouve à jouer les nounous. Le pion d'abord, les pièces derrière.\n\n> Un centre aussi grand est un bélier ou une cible, et ce qui le vise décide lequel des deux."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/ppp1ppbp/6p1/8/3PP3/2P2N2/P4PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "Attaquez d4 avec un pion, en choisissant celui qui ne bloque pas la diagonale de votre fou.",
+      "targetSan": [
+        "c5"
+      ],
+      "hint": "La route de votre fou passe par e5 et d4, donc le pion que vous envoyez doit venir de l'autre aile."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "trapping-pieces",
+  "title": "Menjebak Buah",
+  "summary": "Menangkan sebuah buah dengan merebut petak-petaknya",
+  "proof": "trapping-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "title": "Dua Petak di Seluruh Dunia",
+      "text": "Hitung petak yang bisa dituju gajah Putih di b3. Dua.\n\nPionnya sendiri duduk di a2 dan c2. Menterinya sendiri di d5 menghalangi jalan melewati c4. Yang tersisa adalah a4 dan c4, dan pion Hitam di b5 sudah menguasai keduanya.\n\nTak ada apa pun di papan yang menyerang gajah itu. Memang tak perlu. Buah yang tinggal punya dua petak hanya perlu kehilangan satu."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "prompt": "Tempatkan pion yang terlindungi di salah satu dari dua petak gajah, sehingga ke mana pun ia pergi, ia hilang.",
+      "hint": "Hanya satu dari kedua petak itu yang bisa dicapai pion Anda, dan pion di b5 sudah menguasainya.",
+      "targetSan": [
+        "c4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/3b1ppp/p2p4/1ppQ4/4P3/1B6/PPP2PPP/RNB1K2R b KQk - 5 11",
+      "title": "Bahtera Nuh",
+      "text": "{{c4}}. Tanpa penangkapan, tanpa sekak. Pion itu hanya berdiri di petak yang diandalkan gajah.\n\n{{Bxc4}} {{bxc4}} adalah versi yang serakah, dan paling banter itu menyerahkan gajah untuk dua pion. a4 tak lebih baik: pion di b5 juga menguasai petak itu.\n\nPola ini cukup tua untuk punya nama. Dalam **jebakan Bahtera Nuh**, pion-pion mendatangi gajah berpasangan, dan tak ada satu buah pun yang pernah menyerangnya."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5ppp/8/8/8/PN1B4/rP3PPP/2K5 w - - 1 2",
+      "title": "Benteng di Dalam Lemari",
+      "text": "Kini sebuah benteng. Benteng Hitam pergi berburu di sepanjang baris kedua dan tak bisa pulang.\n\nIa punya tiga petak: a1, a3 dan b2. Kuda di b3 menguasai a1. Pion di a3 dijaga pion di b2, dan pion di b2 dijaga raja di c1. Setiap jalan keluar merugikan benteng.\n\nTak ada yang membangun kandang ini dengan sengaja. Hitam sendiri yang berjalan masuk.\n\n> Anda tak perlu mengejar buah yang terjebak. Anda menghitung petak-petaknya, lalu mengetuk pintunya."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5ppp/8/8/8/PN1B4/rP3PPP/2K5 w - - 1 2",
+      "prompt": "Serang benteng dengan gajah Anda, dari petak yang tak akan pernah bisa didatangi benteng.",
+      "hint": "Ketiga petak benteng sudah dikuasai. Ia hanya butuh penyerang yang tak akan pernah bisa ia jawab.",
+      "targetSan": [
+        "Bb1"
+      ]
+    }
+  ]
+}

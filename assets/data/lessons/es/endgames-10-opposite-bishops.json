@@ -1,0 +1,58 @@
+{
+  "id": "opposite-bishops",
+  "title": "Alfiles de distinto color",
+  "summary": "Dos peones de más y nada que enseñar",
+  "proof": "endgames-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "Dos peones de más, y atascado",
+      "text": "Las Blancas tienen dos peones de más, lo que suele zanjar la discusión. Aquí no.\n\nMira sobre qué están los alfiles. El alfil negro de c1 vive en casillas negras. El alfil blanco de d3 vive en las blancas. Nunca se atacarán, nunca se bloquearán y nunca compartirán una casilla en lo que queda de partida.\n\nDos ejércitos en un mismo tablero que no pueden tocarse. Las Negras están a punto de demostrar lo que vale eso, y vale dos peones."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "Las casillas que necesitan los peones",
+      "text": "Un peón corona al llegar a la octava fila, así que pregúntate qué casillas tienen que usar todavía estos dos. El siguiente paso del peón de f es f6, y terminaría en f8. El peón de h terminaría en h8. Las tres casillas son negras.\n\nEl alfil blanco de d3 nunca disputará ninguna. Es un alfil de casillas blancas, y un alfil nunca cambia de color, ni moviéndose ni nunca.\n\nAsí que las casillas que deciden este final son casillas a las que solo puede llegar el alfil negro. Una jugada lo pone en una línea que pasa por dos de ellas, y nunca tiene que abandonarla."
+    },
+    {
+      "type": "play",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "prompt": "Con dos peones de menos, asegura las tablas aparcando tu alfil en la única diagonal que tienen que cruzar los dos peones blancos.",
+      "targetSan": [
+        "Bb2"
+      ],
+      "hint": "El peón de f todavía tiene que pisar f6 y el de h tiene que terminar en h8: encuentra la diagonal que pasa por las dos."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Empujar contra él",
+      "text": "Juegan las Blancas, con dos peones de más y ningún sitio donde ponerlos.\n\n{{f6}} pisa una casilla negra, y {{Bxf6}} responde. El peón llega sin defensa: el rey blanco de e4 no alcanza f6, y el alfil blanco de d3 no puede mirar una casilla negra en absoluto.\n\nEsa es toda la historia de estos finales. Los peones de más son reales, y los compraron en el color equivocado."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Hasta donde puede llegar",
+      "text": "Deja correr en cambio al peón de h. {{h6}}, y las Negras no tienen motivo para intervenir: {{Ba1}} conserva la gran diagonal, y llega {{h7}}.\n\nAhí se acaba el camino. El peón necesita h8, h8 es negra, y el alfil la vigila desde la esquina de una línea que nunca tuvo que abandonar. Persigue a ese alfil y se desliza hacia un lado o hacia el otro, sin dejar de vigilar.\n\nDos peones en el tablero, y ninguno llegará a ser dama."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "title": "El color al que renunció tu alfil",
+      "text": "Unas jugadas después, las Blancas han encontrado el único plan que queda: subir el rey. Está en g5, y g6 es la casilla que quiere, porque desde g6 el rey defiende los dos peones y el alfil negro no tiene nada que atacar.\n\nAhora mira el color de g6. Blanca. El alfil de b2 nunca ha tocado una casilla blanca ni lo hará, así que esta nunca fue tarea suya.\n\n> Un alfil conserva el color en el que nació. Todo lo demás es cosa del rey."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "prompt": "El rey blanco quiere una casilla que tu alfil nunca podrá vigilar, así que quítale esa casilla con tu otra pieza.",
+      "targetSan": [
+        "Kf7",
+        "Kg7",
+        "Kh7"
+      ],
+      "hint": "Un alfil solo cubre un color, así que la casilla hacia la que van las Blancas es cosa de tu otra pieza."
+    }
+  ]
+}

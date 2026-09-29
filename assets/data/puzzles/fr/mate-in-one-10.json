@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-10",
+  "fen": "rnb2b1r/ppk2ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+  "solution": [
+    "Bd8#"
+  ],
+  "rating": 865,
+  "title": "Derrière le roi",
+  "setup": "Le roi noir s'est réfugié en c7, où son propre cavalier et son propre fou bouchent b8 et c8.",
+  "hint": "La colonne d est déjà scellée par votre tour, alors cherchez l'échec qui retire la dernière case diagonale.",
+  "explanation": "## L'idée\n\nLa tour en d1 couvre d6 et d7, et le propre cavalier et le propre fou noirs bouchent b8 et c8, ce qui laisse b6. {{Bd8#}} donne échec depuis le bout de la diagonale et couvre b6 au passage. La case du mat peut se trouver derrière le roi, pas devant lui."
+}

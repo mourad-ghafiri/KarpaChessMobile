@@ -1,0 +1,11 @@
+{
+  "id": "strategy-07",
+  "fen": "r4rk1/pp1b1ppp/2nqpn2/3p4/3P4/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 11",
+  "solution": [
+    "Rc1"
+  ],
+  "title": "La columna c no es de nadie",
+  "setup": "Los dos peones de c han desaparecido, y ningún bando ha puesto una torre en la columna que dejaron. Una jugada se la queda.",
+  "hint": "Hay una columna sin peones de ningún color, y solo una de tus torres tiene el camino libre para llegar a ella.",
+  "explanation": "## La idea\n\nLa columna c no tiene peones de ningún color, y ningún bando ha puesto todavía una torre en ella.\n\n{{Rc1}} la ocupa primero. La otra torre no puede, porque la dama de d1 estorba. Por ahora la torre está detrás de su propio caballo de c3, pero un caballo puede apartarse en una jugada, y cuando lo haga la columna será de la torre.\n\nPrimero la torre, la dama detrás: una dama en cabeza de una columna es un blanco que cualquier pieza menor puede perseguir ganando tiempo."
+}

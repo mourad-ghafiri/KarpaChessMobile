@@ -1,0 +1,14 @@
+{
+  "id": "overload-08",
+  "fen": "2r3k1/3b1ppp/3Q4/8/3R4/2R5/PP6/K7 w - - 0 1",
+  "solution": [
+    "Rxc8+",
+    "Bxc8",
+    "Qd8#"
+  ],
+  "rating": 1520,
+  "title": "Cambia y remata",
+  "setup": "El alfil negro de d7 apuntala la torre de c8 mientras tu dama espera en d6.",
+  "hint": "Dos defensores pueden parecer el doble de defensa. Comprueba si defienden la misma casilla o se cubren el uno al otro.",
+  "explanation": "## La idea\n\n{{Rxc8+}} es un cambio directo, pero {{Bxc8}} saca al alfil de d7 y abre la columna d, así que sigue {{Qd8#}}. Tapar en cambio con {{Be8}} se topa con {{Rxe8#}}. El alfil defendía la torre y cerraba la columna d a la vez, y no puede hacer las dos cosas."
+}

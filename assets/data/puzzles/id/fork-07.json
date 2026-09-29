@@ -1,0 +1,14 @@
+{
+  "id": "fork-07",
+  "fen": "5rk1/p4ppp/2r5/5N2/8/8/P4PPP/4R1K1 w - - 1 2",
+  "solution": [
+    "Ne7+",
+    "Kh8",
+    "Nxc6"
+  ],
+  "rating": 910,
+  "title": "Lompat ke Baris Keenam",
+  "setup": "Hitam baru saja mengangkat benteng ke c6, sementara rajanya bersembunyi di balik tiga pion dengan benteng di f8.",
+  "hint": "Satu petak kuda menyentuh sudut raja dan baris keenam sekaligus, dan benteng Anda sudah menjaganya.",
+  "explanation": "## Ide\n\n{{Ne7+}} menggarpu raja dan benteng di c6, dan benteng di e1 melindungi kuda, jadi tak ada yang bisa mengambilnya. Benteng Hitam sendiri mengisi f8, jadi {{Kh8}} satu-satunya langkah, dan {{Nxc6}} memenangkan satu benteng utuh."
+}

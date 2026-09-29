@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-12",
+  "fen": "1B1R2r1/3Qb3/8/1K6/2p5/8/5k2/6R1 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kxg1",
+    "Qh2+",
+    "Kf1",
+    "Rd1#"
+  ],
+  "rating": 1750,
+  "title": "Oferece a Torre",
+  "setup": "O rei preto está em f2 mesmo ao lado da tua torre de g1, com um bispo em e7 e uma torre em g8 ainda a defender.",
+  "hint": "A tua torre está atacada e o rei está ao lado dela. Pergunta o que acontece se o deixares comê-la.",
+  "explanation": "## A Ideia\n\n{{Qd2+}} não deixa ao rei nada melhor do que {{Kxg1}} — o rei entra no canto para recolher. {{Qh2+}} sela h2 e {{Rd1#}} dá mate pela coluna que a dama deixou. A melhor jogada de caça entrega muitas vezes a peça que o rei quer."
+}

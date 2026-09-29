@@ -1,0 +1,14 @@
+{
+  "id": "defence-01",
+  "fen": "7r/7k/q7/7K/6Qb/1R6/8/8 w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Be7",
+    "Rxe7#"
+  ],
+  "rating": 1450,
+  "title": "No Move to Spare",
+  "setup": "Your king is stranded on h5 with Black's queen, rook and bishop all in range — one more black move and it is over.",
+  "hint": "Defending loses. Count your own checks instead and find the one Black cannot answer twice.",
+  "explanation": "## The Idea\n\nBlack threatens mate on h6, so there is no time to defend. {{Rb7+}} checks first and leaves two answers. {{Be7}} blocks, and {{Rxe7#}} takes the blocker. {{Qxb7}} takes the rook instead, and {{Qg6#}} mates.\n\nWhen both kings are in danger, the side giving check sets the move order."
+}

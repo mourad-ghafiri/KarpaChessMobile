@@ -1,0 +1,13 @@
+{
+  "id": "openings-08",
+  "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Nxe5",
+    "fxe5",
+    "Qh5+"
+  ],
+  "title": "Pembela yang Salah",
+  "setup": "Hitam melindungi pion e5 dengan pion f, bukan dengan buah. Hukum itu dengan menawarkan materi yang membuka diagonal menuju raja Hitam.",
+  "hint": "Tanyakan jalan apa yang terbuka jika pembela baru itu dipaksa menangkap, dan buah putih mana yang menunggu di ujungnya.",
+  "explanation": "## Ide\n\nMelindungi e5 dengan pion f mempertahankan pion itu, tetapi membuka diagonal dari h5 menuju raja hitam.\n\n{{Nxe5}} menawarkan sebuah buah untuk memanfaatkannya. Jika {{fxe5}}, maka {{Qh5+}}: menghalangi di g6 kehilangan benteng h8 sesudah {{Qxe5+}} dan penangkapan menteri berikutnya, dan melangkah ke e7 membiarkan menteri memburu raja di tempat terbuka. Menolak dengan {{Qe7}} merebut kembali pionnya, tetapi raja dan pengembangan Hitam menjadi jelas lebih buruk.\n\nLindungi dengan buah lebih dulu. Pion yang telah bergerak tak bisa kembali."
+}

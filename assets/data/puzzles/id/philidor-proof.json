@@ -1,0 +1,11 @@
+{
+  "id": "philidor-proof",
+  "fen": "3k4/5R2/8/r1PK4/8/8/8/8 b - - 0 1",
+  "solution": [
+    "Ra6"
+  ],
+  "title": "Tutup Baris Keenam",
+  "setup": "Raja Putih di d5 tinggal selangkah dari baris keenam, dan dari sana ia mengusir raja Anda dari petak promosi. Giliran Hitam, dan ini remis.",
+  "hint": "Raja Putih butuh salah satu dari tiga petak di baris keenam. Benteng yang berdiri di sebuah baris menguasai setiap petaknya.",
+  "explanation": "## Ide\n\nRaja Putih butuh c6, d6 atau e6, dan satu langkah benteng merebut ketiganya: {{Ra6}}. Benteng di sebuah baris adalah pagar, dan raja tak boleh melangkah ke petak yang dikuasainya.\n\nSetiap langkah lain membiarkan raja naik ke baris keenam, dan dengan benteng di f7 menahan raja Anda di baris belakang, pion berjalan masuk. Jika Putih suatu saat mendorong ke c6, pagar sudah selesai bertugas: turunkan benteng ke ujung jauh dan beri sekak dari belakang."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-28",
+  "fen": "1k6/pp6/1P6/8/8/8/8/1K4R1 w - - 0 1",
+  "solution": [
+    "Rg8#"
+  ],
+  "title": "Matto con il Cuneo di Pedone",
+  "setup": "Il vostro pedone in b6 sta proprio davanti al re nero, e i pedoni del Nero stanno in a7 e b7.",
+  "hint": "I pedoni del Nero bloccano due case e il vostro pedone difende la terza. Alla torre serve la traversa di fondo.",
+  "explanation": "## L'idea\n\nQuesto è un matto del corridoio con l'assistenza silenziosa di un pedone. Il pedone in b6 non dà scacco, ma copre c7, l'unica casa che la torre non raggiunge.\n\n{{Rg8#}} dà scacco lungo l'ottava traversa. a8 e c8 stanno sulla linea della torre, a7 e b7 hanno i pedoni del Nero, e c7 è coperta dal vostro pedone. Niente può parare.\n\nQuando un re è bloccato dietro due pedoni, cercate un vostro pedone che copra la terza casa."
+}

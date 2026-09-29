@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-05",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "exd5"
+  ],
+  "title": "Gana el peón central",
+  "setup": "Las Negras acaban de avanzar ...d5, ofreciéndole a tu peón de e un segundo peón central. Cómete el peón que acaban de ofrecerte.",
+  "hint": "Cuando puedas comerte un peón central gratis, hazlo casi siempre.",
+  "explanation": "## La idea\n\n{{exd5}} se come el peón central ofrecido. La natural {{Qxd5}} saca pronto la dama negra, y {{Nc3}} la ataca al instante: una jugada de desarrollo gratis. Si las Negras avanzan en cambio {{e4}}, el caballo se aparta y sigues con un peón de más.\n\nUn peón central vale más que uno de flanco: cuando puedas comerte uno y conservarlo, hazlo."
+}

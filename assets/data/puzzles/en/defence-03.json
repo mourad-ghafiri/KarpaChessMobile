@@ -1,0 +1,14 @@
+{
+  "id": "defence-03",
+  "fen": "8/5Q2/6R1/1k1K4/2r5/8/1q5b/8 w - - 0 1",
+  "solution": [
+    "Qb7+",
+    "Ka4",
+    "Ra6#"
+  ],
+  "rating": 1530,
+  "title": "Both Kings in the Open",
+  "setup": "The kings are two squares apart on b5 and d5, and Black's queen, rook and bishop are all pointing your way.",
+  "hint": "Every quiet move loses. Look for the check that pushes its king toward your rook, not away from it.",
+  "explanation": "## The Idea\n\n{{Qb7+}} sends the king to the a-file, {{Ka4}} or {{Ka5}}, and either way the rook swings across for {{Ra6#}}. Driving a king to the edge is not always the plan — driving it toward your own pieces is."
+}

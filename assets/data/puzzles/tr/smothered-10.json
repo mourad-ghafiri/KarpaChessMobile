@@ -1,0 +1,16 @@
+{
+  "id": "smothered-10",
+  "fen": "r4rk1/pp3Npp/8/8/2Q5/8/P4PPP/6K1 w - - 9 33",
+  "solution": [
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1440,
+  "title": "At h6'yı Seçiyor",
+  "setup": "Siyah az önce f7'deki ata bir kaleyle saldırdı; c4'teki vezir ise a2–g8 çaprazını gözlüyor.",
+  "hint": "Atınız vezirin çaprazında duruyor, yani her at hamlesi iki kez şah çeker — iniş karesini dikkatle seçin.",
+  "explanation": "## Fikir\n\n{{Nh6+}} bir çifte şahtır, yani kale alamaz ve şahın oynaması gerekir: {{Kh8}} tek karesidir. Şimdi {{Qg8+}} {{Rxg8}} hamlesini zorlar ve {{Nf7#}} onu boğar. Atın h6'yı seçmesi gerekiyordu ki feda için g8'i koruyabilsin."
+}

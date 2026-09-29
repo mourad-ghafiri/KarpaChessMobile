@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  karpa_engine's privacy manifest. The engine collects nothing and tracks
+  nothing. It does reference one required-reason API category, file
+  timestamps, from two places:
+  - Stockfish's Syzygy tablebase loader (stockfish/src/syzygy/tbprobe.cpp)
+    calls fstat() to size a tablebase file before mapping it; the app ships
+    no tablebases and never sets SyzygyPath.
+  - Stockfish 19's shared-memory setup (stockfish/src/shm_unix.h) calls
+    lstat() on its /tmp/stockfish-<uid> directory, only when it could create
+    or find it — which the app sandbox denies, so the engine falls back to
+    private memory and the call is never reached.
+  C617.1: file metadata is only ever read for files inside the app's own
+  container.
+-->
+<plist version="1.0">
+<dict>
+	<key>NSPrivacyTracking</key>
+	<false/>
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array/>
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>C617.1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

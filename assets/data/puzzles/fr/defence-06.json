@@ -1,0 +1,14 @@
+{
+  "id": "defence-06",
+  "fen": "8/7B/6R1/1K1k4/r4q2/4Q3/r7/8 w - - 0 1",
+  "solution": [
+    "Bg8+",
+    "Qf7",
+    "Bxf7#"
+  ],
+  "rating": 1650,
+  "title": "Le fou s'interpose pour vous",
+  "setup": "Les Noirs ont une dame en f4 et des tours en a4 et a2 pointées sur votre roi en b5 — les menaces sont partout.",
+  "hint": "Trouvez l'échec auquel les Noirs ne peuvent répondre qu'en plaçant leur pièce la plus forte en travers.",
+  "explanation": "## L'idée\n\n{{Bg8+}} force {{Qf7}}, car rien d'autre ne peut s'interposer, et {{Bxf7#}} prend la dame et la partie ensemble. Un échec qui exige une interposition précise vaut plus qu'un échec qui se contente de gêner."
+}

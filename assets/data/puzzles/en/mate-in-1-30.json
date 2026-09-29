@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-30",
+  "fen": "7k/7p/5N1K/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Queen and Knight Net",
+  "setup": "Your knight on f6 and king on h6 surround Black's king in the corner, and its own pawn on h7 fills the last gap.",
+  "hint": "The knight and king cover the squares around the king. Send the queen along the back rank.",
+  "explanation": "## The Idea\n\nThe knight and king have boxed the king in: the knight on f6 covers g8, your king on h6 covers g7, and h7 holds Black's own pawn.\n\n{{Qa8#}} checks along the empty back rank from the far corner, and nothing can block.\n\nA knight close to the corner covers the squares a queen cannot reach in one move. With queen, knight and king near a cornered king, look for this net."
+}

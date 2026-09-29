@@ -1,0 +1,13 @@
+{
+  "id": "forks-01",
+  "fen": "8/5ppp/3k4/q7/8/8/1N3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc4+",
+    "Kc5",
+    "Nxa5"
+  ],
+  "title": "Two Royals, One Leap",
+  "setup": "Black's king on d6 and queen on a5 are two squares apart, and your knight on b2 has not touched either of them yet.",
+  "hint": "Work backward from the targets: which squares attack the king, and which of those also attacks the queen?",
+  "explanation": "## The Idea\n\nA knight's check cannot be blocked, and the piece it attacks can almost never take it back. So one knight move that hits the king and the queen together wins the queen.\n\n{{Nc4+}} touches d6 and a5 at once. The check has to be answered first, no king move reaches a5 to defend the queen, and after {{Kc5}} the knight collects it with {{Nxa5}}.\n\nTwo targets, one move, and Black only ever gets to save one."
+}

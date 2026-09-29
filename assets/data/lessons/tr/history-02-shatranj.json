@@ -1,0 +1,56 @@
+{
+  "id": "shatranj",
+  "title": "Şah Mat",
+  "summary": "Oyunun üzerinde bittiği söz ve bin yıl önce bestelenmiş bir mat",
+  "proof": "history-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Sondaki Söz",
+      "text": "Tek bir sınır geçişi, satranca üzerinde bittiği sözü kazandırdı.\n\nÇaturanga Hindistan'dan batıya yolculuk etti ve İran'da **çatrang** oldu. Arapçada *ç* sesi yoktur, bu yüzden Arap dünyası adı **şatranc** diye yeniden biçimlendirdi; tarihin sakladığı sürüm de bu oldu — Türkçedeki *satranç* da oradan gelir. Şaha **şâh** denirdi ve deneyecek bir şeyi kalmamış oyuncuya **şâh mât** denirdi: şah çaresiz, kıstırılmış, cevapsız.\n\nAvrupa bu sözü aşındırıp *jaque mate*, *scacco matto*, *échec et mat*, *checkmate* hâline getirdi; Türkçe ise onu neredeyse olduğu gibi tuttu."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Bir Danışman ve Bir Fil",
+      "text": "Sizin veziriniz bir Avrupa yeniden yazımıdır.\n\nd1'deki vezir, şahın danışmanı olan **ferz**di ve çaprazda bir kare giderdi. Hepsi bu kadardı. Filler **alfil**di ve bir alfil, aradakinin üstünden geçerek çaprazda tam iki kare sıçrardı — bütün bir parti boyunca tahtanın sekiz karesi ve diğer elli altısına giden hiçbir yol.\n\nPiyonlar birer kare giderdi; ne çift ilk adım vardı ne de arkasına saklanılacak bir rok. Tahtayı geçen piyon ferz olurdu."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Kazanmanın Üç Yolu",
+      "text": "Şâh mât bitirmenin tek yolu değildi.\n\nRakibin son taşını da tahtadan silin; ayakta kalan **çıplak şah** doğrudan kaybetmiş olurdu. Rakibinizi hiç kurallı hamlesi kalmayacak duruma sokun, yine kazanırdınız — pat beraberlik değil, zaferdi.\n\nBunların ikisi de sizin oynadığınız kurallardan çıkmıştır ve ikisi de şatranc hakkında aynı şeyi söyler. Taşlar bu kadar ağırken kazançlar vurularak alınmazdı. Monte edilirdi.\n\n> Yaklaşık bin yıl boyunca satrancın en güçlü taşı kaleydi."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "title": "Oynanmış Değil, Bestelenmiş",
+      "text": "Bu kadar yavaş bir oyunda merak sona saklanır, bu yüzden ustalar bitişleri yazıya geçirdi. **el-Adlî** 840 dolaylarında nasıl oynanacağına dair bilinen en eski elkitabını derledi; **es-Sûlî** bir yüzyıl sonra geldi ve herkesten öyle yüksekte durdu ki Arapçada *es-Sûlî gibi* sözü bir övgü olarak yaşamayı sürdürür.\n\nOnların yazmaları *mansûbât* doludur — oynanmış değil, bestelenmiş pozisyonlar; her biri tek bir kesin cevabın çevresine kurulmuştur.\n\nBu tahtadan iki hamle ötede **Arap matı** durur: şahın yanında bir kale, kaleyi koruyan bir at. d7'deki kale ile e4'teki at tam o günkü gibi oynar ve iki hamle de sizindir."
+    },
+    {
+      "type": "play",
+      "fen": "7k/p2R4/1p4p1/8/4N3/8/8/2K5 w - - 0 1",
+      "prompt": "Atı, aynı anda hem h7'yi koruyan hem de siyah şaha g8'i kapatan tek kareye gönderin.",
+      "hint": "Bu atın sıçrayabileceği sekiz kareyi tek tek gezin ve hangisinin h7 ile g8'e birlikte dokunduğunu sorun.",
+      "targetSan": [
+        "Nf6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "title": "Daha İlan Etmeyin",
+      "text": "At indi ve siyahın oynatacak bir piyondan başka şeyi kalmadı.\n\nd7'deki kale bütün yedinci yatayı tarıyor, yani g7 ile h7 siyah şahın hiçbir zaman kullanabileceği kareler olmadı. f6'daki at sonuncusunu, g8'i kapattı — ve h7'yi de koruyor ki asıl önemli yarısı budur, çünkü kalenin durması gereken yer h7'dir.\n\nAğ kapandı. Bunu kaybetmenin geriye kalan tek yolu sabırsızlıktır: {{Rd8+}} ilerleme gibi görünür, oysa aynı zamanda kalenin yedinci yatayı terk etmesidir. {{Kg7}} gelir ve şah köşeden çıkıp gezintiye başlar."
+    },
+    {
+      "type": "play",
+      "fen": "7k/3R4/pp3Np1/8/8/8/8/2K5 w - - 0 2",
+      "prompt": "Kaleyi siyah şahın yanına, atın zaten koruduğu bir kareye koyun.",
+      "hint": "Atın karelerinden ikisi şahın yanında duruyor; bunlardan yalnızca biri kalenin gidebileceği bir hatta.",
+      "targetSan": [
+        "Rh7#"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "board-and-setup",
+  "title": "Sixty-Four Squares",
+  "summary": "Name any square on sight, and set the board up right every time",
+  "proof": "board-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "title": "Every Square Has a Name",
+      "text": "Sixty-four squares, and every one of them has an address. Two things give it to you.\n\nThe columns are **files**, lettered **a** to **h** from White's left across to White's right. The rows are **ranks**, numbered **1** to **8** starting at White's edge of the board.\n\nLetter first, number second. The white king on e1 says it plainly: file e, rank 1. The far corner on White's right is h8.\n\nThe pawn on a2 can reach {{a3}} and {{a4}} — two more squares you can already name out loud."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/P2P3P/4K3 w - - 0 1",
+      "prompt": "Read the address and move a pawn to the square named h3.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Start at the h-file, hard against White's right edge, then count up: rank 1, rank 2, rank 3."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "Light on the Right",
+      "text": "The squares alternate light and dark, and that pattern is how you know a board is the right way around.\n\nWhen you sit down, the corner nearest your right hand must be light. For White that corner is h1. For Black it is a8.\n\nIf the square on your right is dark, the whole board has been given a quarter turn — a mistake you will now spot in living rooms and in films for the rest of your life."
+    },
+    {
+      "type": "teach",
+      "fen": "3qk3/8/8/8/8/8/3PP3/3QK3 w - - 0 1",
+      "title": "The Queen's Own Color",
+      "text": "Each queen starts on a square of its own color. The white queen on d1 stands on light, the black queen on d8 on dark. Same file, opposite colors.\n\nStep straight ahead and the color changes underfoot every time. The pawn on d2 sits on dark, {{d3}} is light, {{d4}} is dark again.\n\nSo the queen takes the middle square that matches it, and the king fills the one left over.\n\n> Light on the right, queen on its color. Two rules, and the board is never wrong again."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Battle Stations",
+      "text": "Thirty-two pieces, and every game in history has begun with them standing here.\n\nAlong the back rank — rank 1 for White, rank 8 for Black — from the corners inward:\n\n- **Rooks** in the corners, a1 and h1\n- **Knights** beside them, b1 and g1\n- **Bishops** beside those, c1 and f1\n- **Queen** on d1, **king** on e1\n\nEight pawns stand in front on the second rank, and Black's army mirrors White's across the board.\n\nWhite always moves first — {{e4}} — and only then does Black answer, {{e5}}. From there you alternate, one move each, to the end."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "prompt": "White moves first, so open the game by sending the pawn in front of the queen two squares up the board.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "The queen stands on d1, so the pawn in front of it starts on d2 — and a pawn's first move may be one square or two."
+    }
+  ]
+}

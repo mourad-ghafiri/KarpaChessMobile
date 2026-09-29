@@ -1,0 +1,50 @@
+{
+  "id": "good-bad-pieces",
+  "title": "Piezas buenas y piezas malas",
+  "summary": "Tres puntos sobre el papel, nada sobre el tablero",
+  "proof": "strategy-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Vale tres y no hace nada",
+      "text": "El alfil negro de c8 vale tres puntos sobre el papel y no ha usado ni uno. Mira lo que tiene delante: los peones de d5 y e6 son de las Negras, y un alfil no puede capturar a su propio ejército.\n\nLos dos peones están en casillas blancas. El alfil también. Viaja exactamente por el color en que están aparcados sus propios peones, y eso es lo que lo convierte en un **alfil malo**: emparedado por el bando para el que juega.\n\nToda su libertad es {{Bd7}}. La misma jaula, una casilla más allá."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "El otro alfil",
+      "text": "Las Blancas tienen la misma pieza por los mismos tres puntos, y es otro animal.\n\nLos peones centrales blancos están en c3, d4 y e5, todas casillas negras; el alfil de f1 es una pieza de casillas blancas. No se estorban. Todo el camino de f1 a a6 ya está vacío, y una de sus paradas, d3, mira directamente a h7.\n\nEso es un **alfil bueno**: sus propios peones están en el otro color, y ve."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "Tu alfil nunca podrá saltar por encima de sus propios peones, así que abre la única diagonal que va en el otro sentido.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "¿Qué peón está en el único otro camino del alfil, y cuánto puede avanzar sin toparse con el alfil blanco?"
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "Libre y todavía malo",
+      "text": "b7 está vacía, y el alfil de c8 por fin tiene opciones. Las Blancas han respondido llevando el alfil bueno a d3, apuntando a h7.\n\n{{Bd7}} y {{Bb7}} le dan cada una al alfil negro una casilla nueva y la misma vista: un muro de peones negros en d5 y e6 que no va a ir a ninguna parte. Un alfil malo al que dejas pasear sigue siendo un alfil malo.\n\nAsí que la pregunta no es adónde puede ir la pieza. Es qué vale la pieza cuando llega."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "El peor por el mejor",
+      "text": "Aquí hay un premio mejor que la libertad.\n\nUna pieza que no se puede volver buena hay que cambiarla, y cambiarla por la pieza rival que más trabaja. El alfil de casillas blancas de las Negras no tiene futuro en esta posición. El de las Blancas campa a sus anchas. Cámbialos y la cuenta de puntos no se mueve en absoluto, mientras las Negras entregan una pieza que no hace nada y eliminan otra que lo hace todo.\n\n> Mejora tu peor pieza. Cuando no se pueda mejorar, cámbiala por la mejor del rival."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "prompt": "Ofrece tu peor pieza al alfil rival que más daño está haciendo.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Sigue la diagonal que acabas de abrir hasta que se tope con el alfil blanco."
+    }
+  ]
+}

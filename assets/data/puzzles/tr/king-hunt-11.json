@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-11",
+  "fen": "7r/8/b1B5/3R4/K7/8/kpR5/5Q2 w - - 0 1",
+  "solution": [
+    "Rxb2+",
+    "Kxb2",
+    "Rd2+",
+    "Kc3",
+    "Qc1#"
+  ],
+  "rating": 1700,
+  "title": "Bırakın Şah Alsın",
+  "setup": "Siyahın şahı a2'de; b2'deki piyonu terfi etmek üzere, a6'daki fili ile h8'deki kalesi uzaktan izliyor.",
+  "hint": "Tehlike piyon değil — arkasındaki şah. Barınağı bir yola çeviren fedayı arayın.",
+  "explanation": "## Fikir\n\n{{Rxb2+}} şahı öteki kalenizin sahip olduğu yataya çekmek için bir kale verir. {{Kxb2}} mecburidir, {{Rd2+}} onu c3'e sürer ve {{Qc1#}} işi bitirir. Taş alan şah, sizin istediğiniz yere oynatılmış şahtır."
+}

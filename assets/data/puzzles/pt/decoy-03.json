@@ -1,0 +1,14 @@
+{
+  "id": "decoy-03",
+  "fen": "6k1/pp3ppp/1q6/r7/8/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Qxd8",
+    "Rxd8#"
+  ],
+  "rating": 1230,
+  "title": "Uma Dama Por Uma Casa",
+  "setup": "A tua dama e a tua torre estão empilhadas na coluna d, e o rei preto não tem ar atrás dos seus peões.",
+  "hint": "A linha de fundo é a fraqueza. O que podes pôr em d8 que as pretas sejam obrigadas a capturar?",
+  "explanation": "## A Ideia\n\n{{Qd8+}} oferece a dama na única casa que as pretas têm de comer: {{Qxd8}} é a sua única jogada legal. A dama preta fica agora na linha de fundo à frente da tua torre, e {{Rxd8#}} acaba. Pergunta que casa seria fatal para uma peça inimiga e obriga-a depois a ir lá."
+}

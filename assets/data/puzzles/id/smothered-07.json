@@ -1,0 +1,14 @@
+{
+  "id": "smothered-07",
+  "fen": "r4r1k/pp4pp/7N/3Q4/8/8/P4PPP/6K1 w - - 6 31",
+  "solution": [
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1345,
+  "title": "Alihkan Penjaganya",
+  "setup": "Hitam baru saja mengembalikan benteng ke f8 untuk menahan f7, dan kuda di h6 tak terlindungi.",
+  "hint": "Benteng di f8 satu-satunya yang menjaga f7 — di mana Anda bisa membuatnya berdiri sebagai gantinya?",
+  "explanation": "## Ide\n\nKuda sudah menguasai g8, jadi {{Qg8+}} tak bisa dijawab raja, dan {{Rxg8}} satu-satunya balasan sah. Benteng yang tadi menjaga f7 kini menyumbat jalan keluar terakhir raja, dan {{Nf7#}} menuntaskan. Pengorbanan itu mengalihkan dan mengurung dalam satu langkah."
+}

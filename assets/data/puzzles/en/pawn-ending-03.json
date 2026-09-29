@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-03",
+  "fen": "3k4/8/8/3K4/3P4/8/8/8 b - - 1 1",
+  "solution": [
+    "Kd7"
+  ],
+  "rating": 1175,
+  "title": "Mirror the King",
+  "setup": "White's king has just stepped in front of the d-pawn, and Black must choose where to stand.",
+  "hint": "Whatever square you take, White will try to slip past on one wing; which one lets you copy it both ways?",
+  "explanation": "## The Idea\n\n{{Kd7}} is the only square that holds. From there Black just copies: {{Kc5}} is met by {{Kc7}}, and {{Ke5}} by {{Ke7}}. Stand anywhere else and the white king reaches the sixth rank in front of its pawn, which is all a king and pawn ever need."
+}

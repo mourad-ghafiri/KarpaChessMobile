@@ -1,0 +1,12 @@
+{
+  "id": "smothered-03",
+  "fen": "kr2r3/pp3ppp/8/1N6/8/8/P4PPP/3R2K1 w - - 7 29",
+  "solution": [
+    "Nc7#"
+  ],
+  "rating": 1215,
+  "title": "L'Altro Angolo",
+  "setup": "Il Nero ha appena spostato una torre da c8 a b8, e al re nell'angolo non resta nessun varco.",
+  "hint": "Il soffocato non è un'idea dell'ala di re; controllate quali case attorno ad a8 siano ancora vuote, poi cercate uno scacco.",
+  "explanation": "## L'idea\n\nUn re in a8 con pedoni in a7 e b7 e una torre in b8 è sepolto quanto uno in h8. {{Nc7#}} arriva sull'unica casa che gli dà scacco, e non la copre niente — una torre in b8 difende traverse e colonne, mai la casa diagonalmente davanti a sé."
+}

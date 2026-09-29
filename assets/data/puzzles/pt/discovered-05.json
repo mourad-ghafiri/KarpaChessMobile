@@ -1,0 +1,13 @@
+{
+  "id": "discovered-05",
+  "fen": "r3k3/8/4B3/8/4R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kd8",
+    "Bxa8"
+  ],
+  "title": "O Bispo Dispara a Bateria",
+  "setup": "A tua torre e o teu bispo estão empilhados na coluna e — o bispo à frente, a torre carregada atrás.",
+  "hint": "Qualquer jogada de bispo descobre um xeque de torre. Escolhe a que também ataca algo que as pretas não possam salvar.",
+  "explanation": "## A Ideia\n\nO bispo em e6 mascara a torre de e4. No instante em que mexer, a torre dá xeque pela coluna, portanto a jogada do bispo vem com uma ameaça de graça.\n\n{{Bd5+}} sai da coluna e fica de olho na torre de a8. As pretas têm de responder ao xeque, e nenhuma peça preta pode tapar em e5, e6 ou e7. Depois de {{Kd8}}, {{Bxa8}} embolsa a torre.\n\nA peça da frente de uma bateria mexe com uma ameaça incorporada, portanto escolhe a casa onde ela faça serviço duplo."
+}

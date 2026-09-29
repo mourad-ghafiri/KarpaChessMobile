@@ -1,0 +1,14 @@
+{
+  "id": "defence-07",
+  "fen": "1R6/1q6/4K1Q1/8/1b5k/8/5r2/8 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Qh7",
+    "Rxh7#"
+  ],
+  "rating": 1690,
+  "title": "Torre a la columna vacía",
+  "setup": "Tu rey está expuesto en e6, con la dama negra de b7, la torre de f2 y el alfil de b4 en juego.",
+  "hint": "El rey negro está en la columna h, que está vacía. Pregúntate qué puede poner ahí a tiempo.",
+  "explanation": "## La idea\n\n{{Rh8+}} baja por la columna abierta y {{Qh7}} es la única forma de tapar. {{Rxh7#}} la elimina. La dama negra lo defendía todo en el flanco de dama y no podía estar además en h7."
+}

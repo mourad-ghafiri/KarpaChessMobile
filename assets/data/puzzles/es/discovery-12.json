@@ -1,0 +1,14 @@
+{
+  "id": "discovery-12",
+  "fen": "6k1/pb3ppp/3p4/8/8/8/2Q3rP/2R2N1K b - - 0 1",
+  "solution": [
+    "Rxc2+",
+    "Kg1",
+    "Rg2+"
+  ],
+  "rating": 1350,
+  "title": "El molino gira",
+  "setup": "Tu torre de g2 tapa la línea de tu propio alfil hacia h1, y la dama blanca de c2 está defendida por una torre.",
+  "hint": "La torre puede irse con jaque y volver de inmediato con jaque. Averigua por qué g2 es una casilla que las Blancas nunca pueden tomar.",
+  "explanation": "## La idea\n\n{{Rxc2+}} se come la dama defendida, porque dejar g2 descubre el jaque del alfil desde b7. {{Kg1}} es forzada, y {{Rg2+}} vuelve al instante: el rey no puede comer, porque el alfil cubre g2, y f1 está tapada por el propio caballo blanco. La torre es intocable, y la dama se ha perdido a cambio de nada."
+}

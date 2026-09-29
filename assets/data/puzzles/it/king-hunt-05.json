@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-05",
+  "fen": "3R4/8/2b3p1/4K3/2k5/8/6Q1/r4R1B w - - 0 1",
+  "solution": [
+    "Qxc6+",
+    "Kb3",
+    "Rb8+",
+    "Ka2",
+    "Qa4#"
+  ],
+  "rating": 1490,
+  "title": "Comprate la Diagonale",
+  "setup": "I due re si fronteggiano al centro, quello nero in c4, e il suo alfiere in c6 è il pezzo che tiene insieme tutto.",
+  "hint": "Un pezzo nero difende le case che la vostra donna vuole. Valutatelo, poi date scacco lungo la linea che copriva.",
+  "explanation": "## L'idea\n\n{{Qxc6+}} toglie l'alfiere con scacco. {{Rb8+}} spinge il re sul bordo e {{Qa4#}} chiude la scatola. Prendere un difensore è una mossa da caccia quando la presa arriva con scacco."
+}

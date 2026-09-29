@@ -1,0 +1,50 @@
+{
+  "id": "good-bad-pieces",
+  "title": "Peças Boas e Peças Más",
+  "summary": "Três pontos no papel, nada no tabuleiro",
+  "proof": "strategy-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "Vale Três, Não Faz Nada",
+      "text": "O bispo preto em c8 vale três pontos no papel e não usou um único. Olha para o que está no caminho: os peões de d5 e e6 são das pretas, e um bispo não pode capturar o seu próprio exército.\n\nEsses dois peões estão em casas claras. O bispo também. Viaja exatamente na cor em que os seus peões estão estacionados, e é isso que faz dele um **bispo mau** — emparedado pelo lado por que joga.\n\nA liberdade inteira dele é {{Bd7}}. A mesma jaula, uma casa ao lado."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "title": "O Outro Bispo",
+      "text": "As brancas têm a mesma peça pelos mesmos três pontos, e é um animal diferente.\n\nOs peões centrais das brancas estão em c3, d4 e e5, todas casas escuras; o bispo em f1 é uma peça das casas claras. Não se metem no caminho um do outro. A estrada inteira de f1 até a6 já está vazia, e uma paragem nela, d3, olha diretamente para h7.\n\nIsso é um **bispo bom**: os seus peões estão na outra cor, e ele vê."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P2N2/2P2PPP/R1BQKB1R b KQkq - 2 7",
+      "prompt": "O teu bispo nunca conseguirá trepar por cima dos seus próprios peões: abre a única diagonal que corre para o outro lado.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Que peão está na única outra estrada do bispo, e até onde pode avançar sem ir dar ao bispo branco?"
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "Livre e Continua Mau",
+      "text": "b7 está vazia, e o bispo em c8 tem finalmente escolhas. As brancas responderam pondo o bispo bom em d3, apontado a h7.\n\n{{Bd7}} e {{Bb7}} dão cada uma ao bispo preto uma casa nova e a mesma vista: uma parede de peões pretos em d5 e e6 que não vai a lado nenhum. Um bispo mau a quem se permite passear continua a ser um bispo mau.\n\nPortanto a pergunta não é para onde a peça pode ir. É quanto a peça vale quando lá chegar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "title": "O Pior pelo Melhor",
+      "text": "Aqui há um prémio melhor do que a liberdade.\n\nUma peça que não se consegue tornar boa deve ser trocada, e trocada por aquela peça inimiga que mais trabalha. O bispo das casas claras das pretas não tem futuro nesta posição. O das brancas tem o tabuleiro todo. Troca-os e a contagem de pontos não se mexe um milímetro, enquanto as pretas cedem uma peça que não faz nada e tiram do tabuleiro uma que faz tudo.\n\n> Melhora a tua pior peça. Quando não se puder melhorar, troca-a pela melhor deles."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/p3nppp/1p2p3/2ppP3/3P4/P1PB1N2/2P2PPP/R1BQK2R b KQkq - 1 8",
+      "prompt": "Oferece a tua pior peça ao bispo inimigo que mais estragos está a fazer.",
+      "targetSan": [
+        "Ba6"
+      ],
+      "hint": "Segue a diagonal que acabaste de abrir até ao fim, até ires dar ao bispo branco."
+    }
+  ]
+}

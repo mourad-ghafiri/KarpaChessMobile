@@ -1,0 +1,13 @@
+{
+  "id": "discovered-05",
+  "fen": "r3k3/8/4B3/8/4R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kd8",
+    "Bxa8"
+  ],
+  "title": "Gajah Meletuskan Baterai",
+  "setup": "Benteng dan gajah Anda bertumpuk di lajur e — gajah di depan, benteng terisi amunisi di belakangnya.",
+  "hint": "Langkah gajah mana pun menyingkap sekak benteng. Pilih yang juga menyerang sesuatu yang tak bisa diselamatkan Hitam.",
+  "explanation": "## Ide\n\nGajah di e6 menutupi benteng di e4. Begitu gajah bergerak, benteng memberi sekak di sepanjang lajur itu, jadi langkah gajah datang dengan ancaman gratis.\n\n{{Bd5+}} keluar dari lajur dan mengincar benteng di a8. Hitam harus menjawab sekak, dan tak ada buah hitam yang bisa menghalangi di e5, e6 atau e7. Sesudah {{Kd8}}, {{Bxa8}} mengantongi benteng.\n\nBuah terdepan sebuah baterai bergerak dengan ancaman yang sudah terpasang, jadi pilih petak tempat ia mengerjakan tugas ganda."
+}

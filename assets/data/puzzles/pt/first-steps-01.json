@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-01",
+  "fen": "4k3/pp4pp/8/3n4/4P3/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "exd5"
+  ],
+  "title": "O Peão Come o Cavalo",
+  "setup": "Um cavalo preto aproximou-se do teu peão e. O teu peão pode ganhá-lo, se te lembrares de como é que um peão captura.",
+  "hint": "Os peões capturam uma casa na diagonal em frente. Que duas casas ataca o peão de e4?",
+  "explanation": "## A Ideia\n\nUm peão anda a direito mas **captura na diagonal**, e o cavalo em d5 está numa das duas casas que o teu peão de e4 ataca.\n\n{{exd5}} e o peão fica com um cavalo inteiro. Nada defende d5, portanto nada recaptura: o cavalo é simplesmente teu.\n\nTodos os peões guardam as duas casas na diagonal à sua frente. Tudo o que lá entre pode ser comido."
+}

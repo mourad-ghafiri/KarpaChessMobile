@@ -1,0 +1,13 @@
+{
+  "id": "openings-16",
+  "fen": "rnbqk2r/pp3ppp/4p3/2Pn4/8/P1P2P2/4P1PP/R1BQKBNR b KQkq - 0 8",
+  "solution": [
+    "Qa5",
+    "Bd2",
+    "Qxc5"
+  ],
+  "title": "Due Pedoni su Una Colonna",
+  "setup": "Il Nero ha ceduto l'alfiere camposcuro per doppiare i pedoni c del Bianco, e il Bianco ha appena arraffato un pedone in c5. Attaccate tutti e due i pedoni c insieme.",
+  "hint": "I pedoni c del Bianco stanno in c3 e c5, una colonna e nessun pedone a difendere né l'uno né l'altro. Trovate la casa che li guarda tutti e due insieme.",
+  "explanation": "## L'idea\n\nL'alfiere è stato cambiato per un cavallo perché i pedoni c del Bianco finissero impilati. Qui costano qualcosa.\n\n{{Qa5}} li attacca tutti e due: c3 lungo la diagonale e c5 lungo la quinta traversa, e nessun pedone bianco può difendere né l'uno né l'altro. Se il Bianco puntella c3 con {{Bd2}}, {{Qxc5}} riprende il pedone. Il meglio per il Bianco è spingere prima il pedone e e cacciare il vostro cavallo da d5.\n\nIl materiale viene fuori pari, ma i pedoni doppiati restano. Attaccate la debolezza che un pedone non può difendere."
+}

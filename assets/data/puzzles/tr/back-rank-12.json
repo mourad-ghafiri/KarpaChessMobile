@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-12",
+  "fen": "5rk1/5ppp/8/8/8/8/3Q1PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Qd8",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "title": "Koruyanı Saptırın",
+  "setup": "f8'deki kale arka yatayı koruyor ve veziriniz ile kaleniz yanındaki açık d dikeyinin sahibi. O koruyucuyu saptırın.",
+  "hint": "Koruyucu d8'i yandan gözlüyor. Ona o karede reddedemeyeceği bir şey verin.",
+  "explanation": "## Fikir\n\nf8'deki kale, d8 dâhil bütün sekizinci yatayı koruyor. {{Qd8}} veziri o kareye koyar ve kaleye “al da göreyim” der.\n\n{{Rxd8}} gelirse {{Rxd8#}} olur: koruyucu ayrılmıştır ve f7, g7 ile h7'deki piyonlar şahı mühürler. Siyah, şaha hava veren bir piyon hamlesiyle reddederse daha iyisini yapar, ama {{Qxf8+}} {{Kxf8}} yine de kalenizi çıplak bir şahın karşısında bırakır."
+}

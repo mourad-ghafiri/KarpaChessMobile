@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-04",
+  "fen": "3r3k/5ppp/8/8/8/8/5PPP/3R1K2 w - - 0 1",
+  "solution": [
+    "Rxd8#"
+  ],
+  "title": "Mat Cermin",
+  "setup": "Kedua benteng saling menatap di lajur d yang terbuka, tetapi hanya satu raja yang bisa selamat dari sekak benteng di baris belakangnya.",
+  "hint": "Benteng-bentengnya tampak simetris. Raja-rajanya tidak: salah satunya punya petak untuk dituju.",
+  "explanation": "## Ide\n\nBenteng berhadapan dengan benteng di satu-satunya lajur terbuka, dan perbedaannya ada pada raja. Raja Anda di f1 bisa menjawab sekak benteng dengan melangkah ke e2. Raja Hitam bersembunyi di sudut di balik pionnya sendiri.\n\n{{Rxd8#}} langsung mat: g8 disapu benteng, dan g7 serta h7 ditempati pion-pion Hitam.\n\nDalam posisi cermin, raja yang punya petak di luar baris belakanglah yang selamat."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "forks-12",
+  "fen": "r5k1/p5pp/1p6/2p5/7q/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qd5+",
+    "Kf8",
+    "Qxa8+"
+  ],
+  "title": "Una Donna, Due Diagonali",
+  "setup": "Tutte e due le donne sono fuori, il materiale è pari, e la torre nera in a8 non ha ancora mosso.",
+  "hint": "La vostra donna può raggiungere una casa che dà scacco lungo una linea e colpisce la torre lungo un'altra.",
+  "explanation": "## L'idea\n\n{{Qd5+}} dà scacco al re in g8 lungo una diagonale e attacca la torre in a8 lungo l'altra. Con f7 vuota e nessun pezzo nero in grado di arrivare a e6 o f7, lo scacco non si può parare, quindi il re deve spostarsi. Dopo {{Kf8}}, {{Qxa8+}} prende la torre con scacco.\n\nUna donna inforchetta lungo le sue linee: cercate la casa dove due di esse incontrano due bersagli."
+}

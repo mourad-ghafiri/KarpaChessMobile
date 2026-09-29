@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-09",
+  "fen": "7k/r4ppp/7Q/2b3r1/3R2B1/8/PP6/K7 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Bf8",
+    "Rxf8#"
+  ],
+  "rating": 1590,
+  "title": "Önce Kale Gidiyor",
+  "setup": "Siyahın kalesi a7'de, fili c5'te ve bir kalesi daha g5'te — taşları her yerde, sizinkiler değil.",
+  "hint": "Oynanacak taş vezir gibi görünüyor. Ötekini deneyin ve kimin kapatmak zorunda kaldığına bakın.",
+  "explanation": "## Fikir\n\n{{Rd8+}} veziri değil kaleyi gönderir. {{Bf8}} tek araya girmedir ve {{Rxf8#}} mattır, çünkü g7 ile h7'de siyahın kendi piyonları durur. Kaybetmeyi göze alabileceğiniz taşı gönderin ve veziri saklayın."
+}

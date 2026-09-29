@@ -1,0 +1,11 @@
+{
+  "id": "strategy-09",
+  "fen": "rnb1kb1r/1pq2ppp/p2ppn2/8/3NP3/3B4/PPP1QPPP/RNB2RK1 w k - 0 8",
+  "solution": [
+    "c4"
+  ],
+  "title": "Le coup sur lequel comptaient les Noirs",
+  "setup": "Le pion en a6 et la dame en c7 des Noirs n'ont qu'une seule idée derrière eux, et elle ne s'est pas encore réalisée. Empêchez-la avant qu'elle arrive.",
+  "hint": "Demandez-vous ce que jouent les Noirs si vous ne faites rien du tout, puis trouvez le coup qui rend ce plan coûteux.",
+  "explanation": "## L'idée\n\nLa mise en place noire pointe dans une direction : {{b5}}, puis le fou en b7 et une pression le long de la grande diagonale sur e4.\n\n{{c4}} supprime ce plan. Le pion couvre maintenant b5 et d5, donc la rupture perd du matériel. Les Noirs se développent par {{Be7}}, les Blancs complètent l'étau par {{Nc3}}, et il ne reste plus aucune rupture à préparer.\n\nLe prix : le pion c ne pourra jamais revenir en c3 pour soutenir le cavalier en d4. Un coup prophylactique coûte presque toujours un petit quelque chose. Payez-le quand le plan que vous supprimez vaut davantage."
+}

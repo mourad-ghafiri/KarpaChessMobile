@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-11",
+  "fen": "1r3kr1/pbpBnp1p/1b3P2/8/8/B1P2q2/P4PPP/3R2K1 w - - 4 24",
+  "solution": [
+    "Bxe7#"
+  ],
+  "rating": 885,
+  "title": "Pion yang Bekerja",
+  "setup": "Gajah Anda di a3 membidik kuda di e7, dan pion Anda di f6 menguasai petak-petak di samping raja.",
+  "hint": "Raja hitam tak bisa melangkah sama sekali, jadi temukan sekak yang mendarat di petak yang dilindungi pion Anda.",
+  "explanation": "## Ide\n\nRaja di f8 dikurung benteng g8 dan pion f7 miliknya sendiri, pion di f6 merebut g7 dan e7, dan gajah di d7 menguasai e8. {{Bxe7#}} menyingkirkan pembela terakhir dan memberi sekak dari petak yang dijaga pion yang sama, jadi raja tak bisa menangkap."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-17",
+  "fen": "2B1k3/8/4K3/8/8/8/8/7Q w - - 0 1",
+  "solution": [
+    "Qh8#"
+  ],
+  "title": "A Linha Faz o Trabalho",
+  "setup": "O teu rei em e6 está duas casas à frente do rei preto, e a tua dama está lá longe, no canto.",
+  "hint": "O teu rei já cobre todas as casas da sétima linha que o rei preto poderia usar. Encontra um xeque na oitava.",
+  "explanation": "## A Ideia\n\n{{Qh8#}} dá xeque pela linha de fundo. O teu rei de e6 cobre d7, e7 e f7, e d8 e f8 estão ambas na linha da dama. Nada pode tapar entre h8 e e8.\n\nO bispo de c8 só reforça d7: o teu rei e a tua dama fazem o trabalho. Um rei duas casas à frente do rei inimigo deixa à dama uma só linha a tomar."
+}

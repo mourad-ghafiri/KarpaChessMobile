@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-15",
+  "fen": "6k1/4Rppp/8/8/1B6/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "O Bispo Corta a Janela",
+  "setup": "A tua torre em e7 está a um passo da linha de fundo, e o teu bispo em b4 está atrás dela na diagonal em direção a f8.",
+  "hint": "Quando a torre mexe, a diagonal do bispo abre. Que casa é que isso tira ao rei?",
+  "explanation": "## A Ideia\n\n{{Re8#}} dá xeque pela linha de fundo, e a própria jogada abre a diagonal do bispo: com a torre fora de e7, o bispo de b4 cobre f8. h8 está na linha da torre, e f7, g7 e h7 têm os peões das próprias pretas. Nada pode comer a torre nem tapar.\n\nUma peça que sai de uma linha entrega essa linha à peça que está atrás dela."
+}

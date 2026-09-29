@@ -1,0 +1,17 @@
+{
+  "id": "openings-10",
+  "fen": "r1bqkbnr/pppp1ppp/8/1B2N3/3nP3/8/PPPP1PPP/RNBQK2R b KQk - 0 4",
+  "solution": [
+    "Qg5",
+    "Nxf7",
+    "Qxg2",
+    "Rf1",
+    "Qxe4+",
+    "Be2",
+    "Nf3#"
+  ],
+  "title": "Le pion qui n'a jamais été gratuit",
+  "setup": "Les Noirs ont répondu au fou espagnol par le cavalier en d4, et le cavalier blanc vient de rafler un pion. Attaquez ce cavalier et un pion sans protection d'un seul coup.",
+  "hint": "Le cavalier gourmand et le pion g ne sont ni l'un ni l'autre protégés. Trouvez la case unique qui regarde les deux.",
+  "explanation": "## L'idée\n\nLe fou espagnol n'a jamais vraiment attaqué e5, et les Blancs viennent de rafler le pion quand même.\n\n{{Qg5}} frappe à la fois le cavalier en e5 et le pion g2. Les Blancs devraient limiter les dégâts maintenant ; qu'ils continuent à rafler par {{Nxf7}}, et {{Qxg2}}, {{Rf1}} {{Qxe4+}}, {{Be2}} finit par {{Nf3#}}, mat par le cavalier parti de d4.\n\nPrendre le fou par {{Nxb5}} est tout aussi fort. Le coup de dame montre pourquoi le pion n'a jamais été gratuit."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fork-05",
+  "fen": "1nb4k/p4pp1/2p4p/8/8/8/P1P2PPP/3R2K1 w - - 0 2",
+  "solution": [
+    "Rd8+",
+    "Kh7",
+    "Rxc8"
+  ],
+  "rating": 840,
+  "title": "Aria Troppo Tardi",
+  "setup": "Il Nero ha appena giocato h6 per dare aria al re, e non resta niente a difendere l'ottava traversa.",
+  "hint": "La traversa di fondo non è più matto, ma è comunque la linea più vuota della scacchiera.",
+  "explanation": "## L'idea\n\n{{Rd8+}} era matto una mossa fa; adesso è una forchetta. Da d8 la torre colpisce tutta l'ottava traversa in tutte e due le direzioni insieme — il re da un lato, l'alfiere in c8 dall'altro. {{Kh7}} è forzata, e {{Rxc8}} vince un pezzo."
+}

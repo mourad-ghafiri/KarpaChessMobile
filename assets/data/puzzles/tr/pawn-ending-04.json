@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-04",
+  "fen": "8/8/8/3kp2P/8/8/8/4K3 b - - 0 1",
+  "solution": [
+    "Ke6"
+  ],
+  "rating": 1210,
+  "title": "Kapatılmış Kapı",
+  "setup": "İki tarafın da bir koşucusu var ve siyahın şahı beyazın piyonunun kutusunun bir dikey dışında duruyor.",
+  "hint": "h piyonunun kutusunu sayın, sonra onun giriş karelerinden hangisinin üzerinde kendi taşlarınızdan birinin oturduğuna bakın.",
+  "explanation": "## Fikir\n\nKutu h5–h8–e8–e5'tir ve siyahın kendi piyonu, doğal kapı olan e5'i işgal etmektedir. {{Ke6}} içeri giren tek öteki yoldur ve şah oradan piyonu h8'e kadar gölgeler. {{e4}} ile yarışmak tek bir hamleyle kaybeder. Beyazınkileri saymadan önce kendi taşlarınızı sayın."
+}

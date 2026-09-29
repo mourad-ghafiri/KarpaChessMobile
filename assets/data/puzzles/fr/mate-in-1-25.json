@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-25",
+  "fen": "4k3/R7/4K3/8/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Ra8#"
+  ],
+  "title": "Opposition et balayage",
+  "setup": "Les rois se font face sur la colonne e, et votre tour attend sur la septième rangée.",
+  "hint": "Montez la tour sur la huitième rangée. Votre roi en e6 couvre déjà la septième.",
+  "explanation": "## L'idée\n\nC'est le mat élémentaire roi et tour. Les rois se font face, et la tour donne échec à distance.\n\n{{Ra8#}} donne échec le long de la dernière rangée. d8 et f8 sont sur la ligne de la tour, votre roi en e6 couvre d7, e7 et f7, et rien ne peut s'interposer.\n\nRois face à face, tour sur la rangée du roi adverse : la plupart des finales roi et tour se terminent exactement ainsi."
+}

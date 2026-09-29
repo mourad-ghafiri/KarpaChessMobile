@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-08",
+  "fen": "7k/8/7K/7Q/8/8/8/8 w - - 0 1",
+  "solution": [
+    "Qe8#"
+  ],
+  "title": "L'étau latéral",
+  "setup": "Votre roi et votre dame sont empilés sur la colonne h, et le roi noir est piégé dans le coin. Le mat vient de côté.",
+  "hint": "Un coup de dame tentant retire toutes les cases sans donner échec, et c'est pat. Donnez échec depuis une case d'où votre roi couvre encore g7.",
+  "explanation": "## L'idée\n\nLe {{Qg6}} qui paraît naturel est pat : pas d'échec, et aucun coup légal pour les Noirs, donc un demi-point s'envole. {{Qe8#}} donne plutôt échec le long de la dernière rangée. g8 est sur la ligne de la dame, votre roi en h6 couvre g7 et h7, et rien ne peut prendre la dame ni s'interposer.\n\nAvec une dame contre un roi seul, assurez-vous que votre coup donne échec avant de retirer la dernière case."
+}

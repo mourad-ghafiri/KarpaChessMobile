@@ -1,0 +1,11 @@
+{
+  "id": "endgame-03",
+  "fen": "8/8/7k/4P3/8/5K2/8/8 w - - 0 1",
+  "solution": [
+    "Ke4"
+  ],
+  "title": "Primero el rey, luego el peón",
+  "setup": "Tu peón de e5 es pasado, pero el rey negro de h6 está lo bastante cerca para atraparlo solo. Una jugada conserva la victoria.",
+  "hint": "Avanza el rey, no el peón. ¿Qué casilla pone a tu rey junto al camino del peón antes de que llegue el rey negro?",
+  "explanation": "## La idea\n\nEl rey negro de h6 está dentro del cuadrado del peón, así que el peón no puede ganar la carrera solo. Necesita escolta.\n\n{{Ke4}} es la única jugada que conserva la victoria: el rey va hacia las casillas junto al camino del peón mientras todavía puede llegar primero. Avanza en su lugar {{e6}}, o manda el rey a cualquier otro sitio, y la posición es tablas.\n\nCuenta el cuadrado antes de avanzar. Si el rey rival está dentro, el rey va primero."
+}

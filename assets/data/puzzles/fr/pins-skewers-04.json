@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-04",
+  "fen": "3k4/8/8/3q4/8/8/3R4/3K4 w - - 0 1",
+  "solution": [
+    "Rxd5+"
+  ],
+  "title": "Clouée à distance",
+  "setup": "La dame noire se tient sur la colonne d entre son propre roi et votre tour, et c'est à vous de jouer.",
+  "hint": "La distance ne protège pas une pièce clouée. Prenez-la.",
+  "explanation": "## L'idée\n\nLa dame en d5 est clouée sur le roi en d8, mais un clouage ne fige pas une pièce : elle peut encore se déplacer le long de la ligne du clouage, et {{Qxd2+}} est la menace des Noirs.\n\nPrenez donc d'abord. {{Rxd5+}} gagne la dame avec échec, et le roi en d8 est trop loin pour reprendre. Tout autre coup permet aux Noirs d'échanger la dame contre la tour, et la partie est nulle.\n\nUne pièce clouée peut encore prendre le long de la ligne qui la cloue."
+}

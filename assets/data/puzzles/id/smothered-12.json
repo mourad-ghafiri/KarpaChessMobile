@@ -1,0 +1,20 @@
+{
+  "id": "smothered-12",
+  "fen": "r5k1/2p3pp/1b6/1p2N3/8/B7/P1Q2PPP/6K1 w - - 6 28",
+  "solution": [
+    "Qb3+",
+    "Kh8",
+    "Nf7+",
+    "Kg8",
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1500,
+  "title": "Sekak Sampai Terkurung",
+  "setup": "Hitam baru saja memindahkan gajahnya dari diagonal a3–f8, dan gajah putih kini menguasai f8.",
+  "hint": "Mulailah dengan sekak yang tak bisa dihukum pion di b5, dan sesudah itu jangan pernah sisakan petak kosong bagi raja.",
+  "explanation": "## Ide\n\n{{Qb3+}} memaksa {{Kh8}}, karena gajah menguasai f8. Lalu {{Nf7+}} {{Kg8}} dan {{Nh6+}} tiba sebagai sekak ganda, menggiring raja kembali ke sudut. Menteri mendarat di g8, benteng wajib mengambil, dan kuda kembali ke f7 untuk mat. Setiap balasan hitam adalah satu-satunya langkah sah."
+}

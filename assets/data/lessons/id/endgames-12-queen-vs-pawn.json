@@ -1,0 +1,50 @@
+{
+  "id": "queen-vs-pawn",
+  "title": "Menteri Melawan Pion di Baris Ketujuh",
+  "summary": "Bukan perlombaan — melainkan cara membeli langkah",
+  "proof": "endgames-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "Perlombaannya Sudah Kalah",
+      "text": "Pion Hitam di d2 tinggal satu langkah dari menjadi menteri, dan raja Putih di h6 sama sekali tak cukup dekat untuk menghentikannya.\n\nMengejar pun tak membantu. Menteri di a8 tak bisa mengambil pion selama raja hitam di c2 berdiri di sampingnya, dan menteri sendirian tak bisa memaksakan mat. Untuk itu dibutuhkan raja Putih, dan raja Putih butuh waktu.\n\nJadi itulah yang diperjuangkan menteri di sini. Bukan pionnya. Waktunya."
+    },
+    {
+      "type": "teach",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "title": "Sekak Adalah Mata Uang",
+      "text": "Sekak harus dijawab. Selama Hitam menjawab, Hitam tidak mendorong, dan langkah yang hilang dari Hitam adalah langkah yang dipakai raja Putih untuk berjalan.\n\nJadi sekak-sekak itu punya tujuan, dan tujuannya bukan pion. Giring raja hitam ke d1, petak yang ingin dicapai pionnya sendiri. Raja yang parkir di sana adalah penghalang jalan yang tak bisa diputari pion dan tak bisa diminta pindah.\n\nLalu lihat apa yang tersisa bagi Hitam: tak ada sekak untuk dijawab, tak ada langkah pion, dan raja yang hampir tak punya tempat berdiri. Saat itulah raja Putih melangkah maju dengan gratis."
+    },
+    {
+      "type": "play",
+      "fen": "Q7/8/7K/8/8/8/2kp4/8 w - - 2 12",
+      "prompt": "Anda tak bisa mencapai pion tepat waktu, jadi mulailah merampas langkah dari raja sebagai gantinya.",
+      "targetSan": [
+        "Qe4+"
+      ],
+      "hint": "Ada lima sekak yang tersedia; pilih yang juga menyapu lajur e, sehingga raja tak pernah bisa menyelinap melewati pionnya di sisi itu."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "title": "Hitung Balasan Hitam",
+      "text": "Raja kini berada di d1, berdiri tepat di petak yang diinginkan pionnya.\n\nHitung apa yang tersisa. Pion di d2 tak bisa bergerak; rajanya sendiri menghalangi. Menteri di e4 menguasai e1, e2 dan c2. Tersisa c1. Hitam hanya punya tepat satu langkah sah, dan itu bukan langkah pion.\n\nItulah yang membuat giliran Putih gratis. Jalankan raja, biarkan Hitam bergeser, lalu beri sekak lagi dan giring raja kembali ke depan pion. Setiap putaran merugikan Hitam satu langkah dan memberi Putih satu petak.\n\n> Menteri tidak sedang mengejar pion. Ia sedang membelikan langkah untuk raja."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/K7/8/6Q1/8/7p/7k w - - 0 1",
+      "title": "Dua Lajur yang Bertahan",
+      "text": "Mesin ini menang melawan pion pusat atau pion kuda. Melawan pion benteng atau pion gajah ia bisa macet, dan beginilah caranya.\n\nPion Hitam di h2, raja di h1, menteri Putih di g4 menguasai g1 dan g2: cengkeraman yang sama yang menang di lajur d. Jadi pakai langkah gratis itu. {{Kb5}}, dan giliran Hitam tanpa sekak untuk dijawab dan tanpa langkah sah di papan. Pat, setengah poin.\n\nRaja yang terhalang harus punya satu petak untuk merangkak. Di sudut, tak ada satu pun."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/7K/8/4Q3/8/3p4/3k4 w - - 4 13",
+      "prompt": "Kembali ke lajur d, raja Hitam menghalangi pionnya sendiri dan tak punya kegiatan yang berguna, jadi simpan langkah gratis itu.",
+      "targetSan": [
+        "Kg5"
+      ],
+      "hint": "Setiap langkah yang Anda simpan harus memperpendek perjalanan, jadi pilih arah yang memang perlu ditempuh raja Anda."
+    }
+  ]
+}

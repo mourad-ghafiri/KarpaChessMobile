@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-10",
+  "fen": "4k3/4p3/8/8/1n2R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Rxb4"
+  ],
+  "title": "La torre elige",
+  "setup": "Tu torre de **e4** ataca por sus dos líneas: hay un caballo en la fila y un peón en la columna.",
+  "hint": "El peón de e7 es tentador, pero mira quién está justo detrás de él.",
+  "explanation": "## La idea\n\nLa torre alcanza dos piezas negras, una en su columna y otra en su fila.\n\n{{Rxe7+}} se topa con {{Kxe7}}: el rey de e8 protege e7, y has cambiado una torre de cinco puntos por un peón de uno. {{Rxb4}} se lleva un caballo que nada protege y conserva los tres puntos.\n\nEl rey es un defensor de verdad, y todo lo que está a su lado está protegido. Revisa la fila y la columna enteras de tu torre y captura el objetivo que nadie protege."
+}

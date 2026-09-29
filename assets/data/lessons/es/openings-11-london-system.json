@@ -1,0 +1,52 @@
+{
+  "id": "london-system",
+  "title": "El Sistema Londres",
+  "summary": "Un planteamiento contra casi todo, y la casilla en torno a la que se construye",
+  "proof": "openings-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "Primero el alfil, luego el peón",
+      "text": "Dos jugadas, y la segunda sostiene todo el sistema.\n\nLas Blancas construyen un pequeño muro en c3, d4 y e3: fácil de aprender, incómodo de romper. El problema es el peón de e. En cuanto se asienta en e3, le cierra la puerta al alfil de casillas negras, que se pasaría la partida detrás de sus propios peones.\n\nAsí que el alfil sale primero. Ya está fuera del muro en f4, y el peón llega después. Contra casi cualquier cosa que elijan las Negras, el orden se mantiene: el alfil fuera, luego e3."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "El peón que nadie vigila",
+      "text": "Salir pronto de la primera fila cuesta exactamente una cosa, y las Negras van a por ella enseguida. Con el alfil fuera, nadie defiende el peón de b2.\n\n{{c5}} golpea la base del muro. {{e3}} lo construye igualmente, {{Nc6}} suma un segundo atacante sobre d4, {{c3}} lo sostiene y {{Qb6}} cae en la columna b, donde el peón de b2 está suelto. Dos peones blancos reciben preguntas a la vez.\n\nEsa incursión es la primera pregunta real que tiene que responder el Londres, y todo jugador del Londres se la encuentra antes de diez partidas."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pp2pppp/1qn5/2pp4/3P1B2/2P1P3/PP3PPP/RN1QKBNR w KQkq - 1 5",
+      "prompt": "Cubre el peón suelto de b2 sin gastar en él una jugada de peón.",
+      "targetSan": [
+        "Qc1",
+        "Qc2",
+        "Qb3"
+      ],
+      "hint": "Aquí no hace falta ninguna jugada de peón. Tu dama puede proteger b2 desde más de una casilla; elige una que deje libres d2 y e2 para tu caballo y tu alfil."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Adónde apunta todo",
+      "text": "Seis jugadas tranquilas después, el planteamiento está terminado y tiene el aspecto de siempre: peones en c3, d4 y e3, un alfil en f4, otro en d3, caballos en f3 y d2. La dama negra está en b6 sin nada que morder.\n\nAhora sigue la diagonal blanca. El alfil de d3 ve e4, f5, g6 y luego h7, a una casilla del rey negro, sin nada en medio. {{Qc2}} trae la dama detrás de él.\n\nDos atacantes sobre h7. El rey negro la cubre, y el caballo de f6 también. Dos contra dos, y eso todavía no es un ataque."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Una casilla a la que no llega ningún peón",
+      "text": "El tercer atacante necesita un hogar que nadie pueda quitarle. Así que pregúntate qué pueden hacer todavía los peones negros.\n\nEl peón de d5 no puede retroceder. El peón de e6 cubre d5 y f5. El peón de c5 cubre b4 y d4. Entre los tres dejan un agujero en el centro, y tu peón de d4 ya lo protege.\n\nSolo el peón de f7 podría llegar a disputarlo, y ese peón es el techo de un rey enrocado.\n\n> Una pieza está a salvo donde un peón nunca puede llegar."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "prompt": "Instala un caballo en el agujero central que solo el peón de f negro podría disputar jamás.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "Solo una pieza negra toca esa casilla, el caballo de c6, y el único peón que podría sumarse protege al rey negro."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-10",
+  "fen": "8/1k6/1p6/1P6/8/2K5/8/8 w - - 1 2",
+  "solution": [
+    "Kd4"
+  ],
+  "rating": 1430,
+  "title": "Uzun Yoldan",
+  "setup": "Siyahın şahı az önce piyonların önüne dikildi ve iki piyon da bir daha oynayamıyor.",
+  "hint": "b6'daki piyon a5 ile c5'i kapsıyor; öyleyse beyazın şahının tahtanın hangi tarafını hâlâ kullanabildiğini sorun.",
+  "explanation": "## Fikir\n\nb6'daki piyon a5 ile c5'i korur, yani beyazın şahı kendi piyonunun yanına asla çıkamaz. {{Kd4}} merkezden geçen yürüyüşü başlatır: {{Kc7}} {{Ke5}} {{Kd7}} {{Kd5}} gelir ve beyaz sırasıyla d5, e6 ve d7 karelerini kazanır, sonra c6'ya yürüyüp b6'da alır."
+}

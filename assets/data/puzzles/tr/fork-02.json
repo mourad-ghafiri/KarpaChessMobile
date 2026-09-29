@@ -1,0 +1,12 @@
+{
+  "id": "fork-02",
+  "fen": "6k1/pp3ppp/3b1n2/8/3PP3/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "e5"
+  ],
+  "rating": 730,
+  "title": "Bir Piyon, İki Taş",
+  "setup": "Siyahın d6'daki fili ile f6'daki atı aynı yatayda iki kare arayla duruyor.",
+  "hint": "Piyon aynı anda iki kareye saldırır; öyleyse siyahın iki taşının arasına inen sürüşü arayın.",
+  "explanation": "## Fikir\n\n{{e5}} d6 ile f6'ya birlikte vurur ve d4'teki piyon onu koruduğu için fil öylece alamaz. Siyah bir taşı kurtarır, siz ötekini alırsınız. Aynı yatayda, iki dikey arayla duran iki rakip taş, olmayı bekleyen bir piyon çatalıdır."
+}

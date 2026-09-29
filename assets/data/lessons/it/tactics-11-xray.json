@@ -1,0 +1,50 @@
+{
+  "id": "xray-attack",
+  "title": "L'Attacco a Raggi X",
+  "summary": "I pezzi a lungo raggio si vedono l'un l'altro attraverso",
+  "proof": "xray-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Dietro la Vostra Torre",
+      "text": "La vostra donna in d1 sta dietro la vostra torre in d2, e sembra una donna sprecata. Spostate la torre e la donna vede d7 nello stesso istante, quindi finché la torre resta, la donna punta dritto attraverso di lei.\n\nQuesti sono i **raggi X**: un pezzo a lungo raggio che attacca attraverso un pezzo suo, e che conta come attaccante per tutto il tempo.\n\nAdesso contate la colonna d. La torre nera in d7 è colpita due volte, dalla torre e dalla donna dietro. L'alfiere in c8 la difende una volta. Due batte uno."
+    },
+    {
+      "type": "teach",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "title": "Prima il Pezzo Economico",
+      "text": "Due attaccanti e un difensore, quindi d7 cade. Quanto costa è deciso prima ancora che si prenda, perché il pezzo davanti è quello che deve cominciare.\n\nQui il pezzo davanti è la torre. Entra la torre, l'alfiere la prende, la donna finisce: cinque punti pagati, otto raccolti.\n\nScambiate i due di posto, donna davanti e torre dietro, e la stessa colonna ci rimette. Entra la donna, l'alfiere prende una donna, la torre prende l'alfiere. Nove pagati, otto raccolti.\n\nEconomico davanti, caro dietro."
+    },
+    {
+      "type": "play",
+      "fen": "2b2rk1/pppr1ppp/8/8/8/8/PPPR1PPP/3Q1RK1 w - - 1 2",
+      "prompt": "Incassate sulla colonna d, cominciando dall'attaccante che vi potete permettere di perdere.",
+      "targetSan": [
+        "Rxd7"
+      ],
+      "hint": "Contate che cosa punta ancora su quella casa una volta che l'alfiere nero ha ripreso."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "La Guardia che Non C'È Ancora",
+      "text": "Scacchiera nuova, muove il Nero, e il cavallo in e5 sembra gratis. La torre nera in e4 lo attacca, e nessun pezzo bianco gli sta vicino.\n\nGuardate più giù lungo la colonna. La vostra torre in e1 sta su quella stessa colonna, e l'unica cosa fra lei e il cavallo è la torre nera stessa.\n\nQuindi il cavallo è difeso attraverso il pezzo che vuole prenderlo. Chi blocca e chi attacca sono la stessa torre, e non può catturare senza togliersi dalla casa con cui blocca."
+    },
+    {
+      "type": "teach",
+      "fen": "2b3k1/ppp2ppp/8/4N3/4r3/8/PPP2PPP/4RK2 b - - 0 1",
+      "title": "Ricco per Una Mossa",
+      "text": "Il Nero potrebbe invece provare a sgombrare la colonna, cambiando in e1 — ma il re in f1 riprende, e la torre che voleva il cavallo esce dalla scacchiera insieme.\n\nQuindi il Nero prende il cavallo: {{Rxe5}}. Tre punti, gratis, per esattamente una mossa.\n\n> Contate tutta la linea, non il primo pezzo che ci sta sopra."
+    },
+    {
+      "type": "play",
+      "fen": "2b3k1/ppp2ppp/8/4r3/8/8/PPP2PPP/4RK2 w - - 0 2",
+      "prompt": "La torre nera è atterrata sulla colonna che la vostra torre possiede già: raccoglietela.",
+      "targetSan": [
+        "Rxe5"
+      ],
+      "hint": "Fra la vostra torre e il pezzo che ha appena catturato non c'è niente."
+    }
+  ]
+}

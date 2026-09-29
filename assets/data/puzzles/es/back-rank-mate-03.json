@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-03",
+  "fen": "7k/6pp/8/8/8/8/p4PPP/2R3K1 w - - 0 2",
+  "solution": [
+    "Rc8#"
+  ],
+  "rating": 780,
+  "title": "¿Quién llega primero?",
+  "setup": "El peón de a negro acaba de llegar a a2 y corona en la próxima jugada, así que tienes exactamente una jugada.",
+  "hint": "Contar una carrera de peones es un esfuerzo inútil si la partida termina en esta jugada. Mira la octava fila negra.",
+  "explanation": "## La idea\n\n{{Rc8#}} y el peón nunca corona. Al rey de h8 lo encierran g7 y h7, toda la octava fila es de la torre, y nada negro puede llegar a tapar. Busca siempre el mate antes de empezar a contar una carrera."
+}

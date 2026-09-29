@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-30",
+  "fen": "7k/7p/5N1K/8/8/8/8/Q7 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Dame et cavalier tissent le filet",
+  "setup": "Votre cavalier en f6 et votre roi en h6 encerclent le roi noir dans le coin, et son propre pion en h7 bouche le dernier trou.",
+  "hint": "Le cavalier et le roi couvrent les cases autour du roi. Envoyez la dame le long de la dernière rangée.",
+  "explanation": "## L'idée\n\nLe cavalier et le roi ont enfermé le roi : le cavalier en f6 couvre g8, votre roi en h6 couvre g7, et h7 est occupée par le propre pion noir.\n\n{{Qa8#}} donne échec le long de la dernière rangée vide depuis le coin opposé, et rien ne peut s'interposer.\n\nUn cavalier près du coin couvre les cases qu'une dame ne peut pas atteindre en un coup. Avec dame, cavalier et roi près d'un roi acculé, cherchez ce filet."
+}

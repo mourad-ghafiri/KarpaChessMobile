@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-18",
+  "fen": "8/4P3/5k2/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "e8=Q"
+  ],
+  "title": "Incoronazione",
+  "setup": "Il vostro pedone ha marciato fino in **e7**, e il re nero gli sta proprio accanto.",
+  "hint": "Il re nero attacca il vostro pedone, e il vostro re è lontano. Usate questa mossa prima che il Nero usi la prossima.",
+  "explanation": "## L'idea\n\nUn pedone che arriva all'ultima traversa promuove: si trasforma, come parte della stessa mossa, nel pezzo che scegliete.\n\n{{e8=Q}} trasforma un pedone da un punto in una donna da nove, e il re in f6 non può arrivare a e8 a prenderla. Qualunque altra mossa lascia {{Kxe7}} togliere il pedone, e la vittoria è sparita. Con una donna contro un re nudo, il matto segue.\n\nUn pedone a un passo dalla fine va promosso adesso."
+}

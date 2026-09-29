@@ -1,0 +1,62 @@
+{
+  "id": "chess-and-machines",
+  "title": "The Machines",
+  "summary": "Turing on paper, Deep Blue on the board, and a champion who resigned in nineteen",
+  "proof": "history-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "A Program With No Computer",
+      "text": "Around 1948 Alan Turing and David Champernowne wrote a chess program on paper. Computers existed — the trouble was that none Turing could reach was able to run it.\n\nTurochamp was a page of rules: score the position by counting what each side owns, look a move or two ahead, play the line that scores best.\n\nIn 1952 Turing executed it by hand against a colleague, Alick Glennie — about half an hour of arithmetic per move. Turochamp lost. It never ran on a computer in Turing's lifetime, and it is still counted the first chess program written."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "New York, 1997",
+      "text": "Kasparov beat Deep Blue in 1996, four games to two. IBM took the machine away, rebuilt it, and asked for a rematch.\n\nNew York, May 1997, six games again. Deep Blue won three and a half to two and a half — the first time a reigning world champion lost a match to a computer. The margin was one game.\n\nThis is the last of the six, and White is the machine."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "The Door on f7",
+      "text": "Black has just pushed the pawn to h6, which asks the knight on g5 where it would rather be.\n\nThe black king on e8 has one thing in front of it: the pawn on f7. White's bishop on d3 already points down the diagonal through f5 and g6, so the moment that pawn leaves, a check arrives behind it.\n\n{{Bg6}} makes it leave. It also loses a bishop for nothing — {{fxg6}}.\n\nA pawn will not move because you threaten it. It moves to take."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "prompt": "Offer the pawn on f7 something to take, and keep the bishop that will check behind it.",
+      "targetSan": [
+        "Nxe6"
+      ],
+      "hint": "Count the defenders of Black's pawn on e6. There is exactly one, and it is the pawn you need to move."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "One Legal Move",
+      "text": "Take the knight at once and this is where it ends: the bishop lands on g6 with check, and Black has exactly one legal reply on the whole board. Not a choice between bad squares. One move.\n\nSo the black king on e7 stands in front of its own queen on d8 and its own bishop on f8, and the right to castle is gone for good.\n\nCount material and Black is a knight up for a pawn. Count squares and Black is finished."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "No Hurry",
+      "text": "Kasparov did not take the knight at once. The queen came out instead — and Deep Blue answered by castling, with the knight still standing untaken on e6, a whole piece sitting there for the taking.\n\nThe sacrifice itself was already in the books. What unsettled people was the machine's complete lack of hurry afterward.\n\nThe capture came a move later, which sent that king to d8 rather than e7. Kasparov resigned on move nineteen, the shortest game of the match."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "What Came After",
+      "text": "Deep Blue was human chess knowledge, written as rules and searched two hundred million positions a second.\n\nIn 2017 **AlphaZero** was handed the rules and nothing else, played millions of games against itself, and arrived at a style the romantics would have recognized. Since 2020 **Stockfish**, the strongest open-source engine and the one inside this app, judges positions with a small neural network borrowed from shogi.\n\nNobody has solved chess. Seven pieces or fewer can be looked up in a table; thirty-two is not close.\n\n> A machine gets there by counting every line. You get there by recognizing the shape — and the shapes ahead have names."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "prompt": "Nothing of Black's is escaping, so spend the move on your own king instead.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "There is exactly one move on this board that moves two white pieces at once."
+    }
+  ]
+}

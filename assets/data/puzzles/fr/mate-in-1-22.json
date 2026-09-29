@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-22",
+  "fen": "k7/2K5/8/8/8/8/8/7R w - - 0 1",
+  "solution": [
+    "Ra1#"
+  ],
+  "title": "L'étau du coin",
+  "setup": "Le roi noir est dans le coin a8, et votre roi en c7 couvre b7 et b8.",
+  "hint": "Votre roi a scellé les cases à côté du coin. La tour n'a qu'à donner échec le long du bord.",
+  "explanation": "## L'idée\n\nC'est le mat classique roi et tour dans le coin. Votre roi en c7 couvre b7 et b8, les deux cases voisines du coin.\n\n{{Ra1#}} donne échec le long de la colonne a, et a7 est aussi sur la ligne de la tour. Rien ne peut s'interposer, et le roi ne peut pas atteindre la tour.\n\nDès que votre roi scelle les cases voisines du coin, tout échec sûr le long du bord est mat."
+}

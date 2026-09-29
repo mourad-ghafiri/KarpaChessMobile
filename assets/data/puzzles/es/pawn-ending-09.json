@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-09",
+  "fen": "1k6/5ppp/8/5PPP/8/8/1K6/8 w - - 1 2",
+  "solution": [
+    "g6"
+  ],
+  "rating": 1390,
+  "title": "Tres contra tres",
+  "setup": "Seis peones se enfrentan en el flanco de rey mientras los dos reyes están a todo un tablero de distancia.",
+  "hint": "Ningún rey puede llegar a tiempo, así que busca una jugada de peón que abra un carril entregando material.",
+  "explanation": "## La idea\n\n{{g6}} es la única jugada ganadora, y entrega un peón. {{hxg6}} {{f6}} {{gxf6}} {{h6}} y el peón de h no se puede alcanzar; si las Negras comen por el otro lado, la misma ruptura funciona con el peón de f. Las jugadas tranquilas hacen tablas, y varias pierden ante la misma idea."
+}

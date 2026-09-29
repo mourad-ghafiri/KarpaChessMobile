@@ -1,0 +1,14 @@
+{
+  "id": "decoy-02",
+  "fen": "1r4k1/pp3ppp/8/8/2q5/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1190,
+  "title": "Attirate la Torre a Casa",
+  "setup": "La torre in b8 è l'unica guardia della traversa di fondo, e la vostra donna sta davanti alla vostra torre in d1.",
+  "hint": "La torre fa tutta la difesa. Offritele sull'ottava traversa qualcosa che debba prendere.",
+  "explanation": "## L'idea\n\n{{Qd8+}} è una donna scagliata sulla traversa di fondo, e {{Rxd8}} è forzata. La torre è stata tirata sull'unica casa che la vostra torre copre, e {{Rxd8#}} dà matto a un re chiuso dai suoi pedoni."
+}

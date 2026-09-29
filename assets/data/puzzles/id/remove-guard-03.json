@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-03",
+  "fen": "r5k1/5ppp/2p5/3n4/1b6/6P1/5PBP/1R4K1 w - - 1 2",
+  "solution": [
+    "Bxd5"
+  ],
+  "rating": 1130,
+  "title": "Kuda Itu Perekatnya",
+  "setup": "Benteng Anda mengincar gajah di b4, dan kuda di d5 satu-satunya buah hitam yang melindunginya.",
+  "hint": "Benteng Anda sudah menyerang buah yang dilindungi. Lihat satu petak lebih jauh: siapa yang melindunginya?",
+  "explanation": "## Ide\n\n{{Bxd5}} menyingkirkan kuda yang menjaga b4. Sesudah {{cxd5}} gajah tak punya siapa pun lagi dan {{Rxb4}} memenangkannya. Gajah untuk kuda adalah pertukaran seimbang; gajah di b4 adalah keuntungannya. Selalu tanyakan siapa yang menahan buah yang Anda inginkan sebelum Anda meraihnya."
+}

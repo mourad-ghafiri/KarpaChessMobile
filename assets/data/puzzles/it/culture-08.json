@@ -1,0 +1,13 @@
+{
+  "id": "culture-08",
+  "fen": "1r2k1r1/pbppnp1p/1b3P2/8/Q7/B1PB1q2/P4PPP/3R2K1 w - - 0 21",
+  "solution": [
+    "Qxd7+",
+    "Kxd7",
+    "Bf5+"
+  ],
+  "title": "Tutti e Due gli Alfieri",
+  "setup": "Il Bianco ha una torre e un cavallo in meno, il re nero non ha mai arroccato, e tutti e due gli alfieri bianchi gli puntano contro.",
+  "hint": "Contate le case del re nero prima di contare il materiale — che cosa resta una volta sottratti l'alfiere in a3 e il pedone in f6?",
+  "explanation": "## L'idea\n\n{{Qxd7+}} scaglia la donna contro un pedone difeso. Rifiutare con {{Kf8}} è matto immediato in e7, quindi {{Kxd7}}, e il re sta allo scoperto con tutti e due gli alfieri puntati addosso.\n\n{{Bf5+}} è scacco doppio, dall'alfiere e dalla torre dietro di lui. {{Kc6}} finisce dentro {{Bd7#}}, e dopo {{Ke8}}, {{Bd7+}} e {{Bxe7#}} concludono con gli stessi due alfieri.\n\nAnderssen giocò questa a Berlino nel 1852, un anno dopo la Partita Immortale."
+}

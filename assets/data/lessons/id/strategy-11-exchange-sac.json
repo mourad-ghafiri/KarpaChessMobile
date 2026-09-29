@@ -1,0 +1,65 @@
+{
+  "id": "exchange-sacrifice",
+  "title": "Pengorbanan Kualitas",
+  "summary": "Benteng untuk kuda, dan pion-pionnya tak pernah pulih",
+  "proof": "strategy-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "Satu Buah Mengerjakan Dua Tugas",
+      "text": "Materi di sini persis seimbang, dan satu buah putih mengerjakan tugas dua buah. Kuda di c3 menjaga pion di e4, menguasai b5 dan d5, dan berdiri dua petak di depan raja putih di c1.\n\nHitam ingin sekali ia hilang. Hanya satu buah hitam yang mencapai c3 — benteng di c8, lewat lajur yang kosong — dan benteng bernilai lima poin sementara kuda bernilai tiga.\n\nMenyerahkan benteng untuk kuda atau gajah punya nama sendiri: Anda merelakan **kualitas**."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "Daftar Harga",
+      "text": "Tetapkan harga sebuah pengorbanan sebelum Anda melakukannya, bukan sesudahnya.\n\nMisalkan kuda di c3 keluar dan Putih menangkap balik. Tepat satu buah putih yang mencapai c3: pion di b2. Tak ada apa pun lagi di papan yang menyentuh petak itu, jadi tangkapan balik dipaksakan kepada pion yang meninggalkan lajur b untuk selamanya.\n\nSayap menteri Putih lalu tinggal tiga pion di dua lajur — satu terdampar sendirian di lajur a, dua bertumpuk di lajur c. Tak satu pihak pun punya gajah petak gelap, jadi b2 hanya punya raja untuk mengawasinya, dan a3 sama sekali tak punya apa-apa.\n\nDua poin, untuk kerusakan yang tak bisa diperbaiki."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "prompt": "Bayar dua poin untuk menghancurkan pion-pion di depan raja putih dan menyingkirkan buah yang menahan pusat Putih tetap utuh.",
+      "targetSan": [
+        "Rxc3"
+      ],
+      "hint": "Tepat satu buah hitam yang punya jalan kosong menuju c3, dan itulah buah yang mahal."
+    },
+    {
+      "type": "teach",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "title": "Sekarang Hitung di Luar Papan",
+      "text": "Putih memegang dua benteng, satu gajah dan satu kuda. Hitam memegang satu benteng, satu gajah dan dua kuda. Dua poin hilang, dan tak ada cara merebutnya kembali.\n\nSekarang kolom yang lain. Pion di a2 tak punya tetangga lagi, dan tak ada pion yang akan melindunginya lagi. Pion di c2 dan c3 bertumpuk di satu lajur, dan yang belakang sama sekali tak bisa bergerak. Lajur b tak berisi pion putih, dan raja di c1 berdiri di samping celah itu.\n\nSegala yang dimainkan Hitam mulai sekarang harus membelanjakan apa yang dibeli benteng tadi."
+    },
+    {
+      "type": "play",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "prompt": "Tempatkan menteri Anda di tempat ia menyerang pion a yang terdampar dan pion ganda dalam satu langkah.",
+      "targetSan": [
+        "Qa5"
+      ],
+      "hint": "Satu petak sayap menteri memandang lurus ke bawah lajur a dan menyusuri petak-petak gelap di samping raja putih."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/2KR3R w - - 1 16",
+      "title": "Benteng Tambahan Tanpa Tempat",
+      "text": "{{Kb1}}. Putih lebih dulu menyingkir dari lajur c, yang masuk akal dan tak berbuat apa-apa bagi sisa posisi.\n\nLihat apa yang dikerjakan benteng tambahan itu. Benteng di d1 menabrak kuda Putih sendiri di d4. Benteng di h1 menabrak pion Putih sendiri di h4. Lajur c tersumbat oleh dua pion putih yang duduk di sana. Tiga lajur, dan tak satu pun bisa dipakai Putih.\n\nBenteng bernilai lima poin ketika ia punya tempat untuk berdiri. Yang ini bernilai sebatas apa yang bisa dijangkaunya."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "title": "Ketika Tagihannya Tiba",
+      "text": "Pertukaran yang sama hanyalah kerugian dua poin dalam tiga keadaan: tangkapan balik membiarkan pion-pion tetap sehat, pertukaran itu memberi lawan Anda lajur untuk dipakai, atau tak ada yang menyusulnya. Materi berbicara, dan suaranya makin keras makin lama Anda membiarkannya.\n\nDi sini ia tak pernah mendapat kesempatan bicara. Raja Putih di b1 tak lagi punya pion di lajurnya sendiri, pion di c3 sudah diserang, dan setiap buah hitam mengarah ke sudut yang sama.\n\n> Anda tidak sedang menjual benteng, Anda sedang membeli petak — dan petak yang dibeli harus dipakai."
+    },
+    {
+      "type": "play",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "prompt": "Sejajarkan benteng terakhir Anda dengan pion yang dipakai Putih untuk menangkap balik tadi.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "Tak ada yang melindungi pion itu, tetapi merebutnya dengan menteri sekarang juga masih terlalu dini. Bawa benteng terakhir Anda ke lajur tempat ia berdiri lebih dulu."
+    }
+  ]
+}

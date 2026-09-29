@@ -1,0 +1,14 @@
+{
+  "id": "skewer-04",
+  "fen": "8/5p2/3kp3/6QR/P7/3r1P2/Pq3P2/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kc6",
+    "Qxd3"
+  ],
+  "rating": 1020,
+  "title": "Le long de la colonne d",
+  "setup": "Le roi noir en d6 et sa tour en d3 sont alignés sur la colonne d avec des cases vides entre eux.",
+  "hint": "Trouvez l'échec qui place votre dame sur la colonne où se tient déjà la tour noire, derrière son roi.",
+  "explanation": "## L'idée\n\n{{Qd8+}} aligne la dame devant le roi sur la colonne d, avec la tour en **d3** piégée tout au bout. Chaque réponse légale fait sortir le roi de la colonne, et {{Kc6}} est la seule — donc {{Qxd3}} gagne la tour."
+}

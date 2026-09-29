@@ -1,0 +1,11 @@
+{
+  "id": "strategy-04",
+  "fen": "r1bq1rk1/ppp2p2/2np1n1p/1B2p1p1/1b2P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "İki Tuğla Eksik",
+  "setup": "Siyah filinizi kovalamak için iki piyon sürdü ve g8'deki şah onların arkasında yaşıyor. h4'teki fil saldırı altında.",
+  "hint": "g5'teki piyonun tek koruyucusu var. Geri çekilmek güvenli; oynamadan önce o barınağın ne değerde olduğunu sayın.",
+  "explanation": "## Fikir\n\nh6 ile g5'teki piyonlar siyahın şahının barınağının ön cephesiydi ve hiçbiri geri dönemez. {{Nxg5}} onlar için bir at verir.\n\nSiyah alırsa fil g5'te geri alır, f6'daki atı vezire karşı açmaza alır ve şah çıplak kalır. Siyah daha iyisini yapıp b4'teki fili c3'teki atınıza verir, ama beyaz yine önde çıkar. g3'e çekilmek siyahın her şeyi elinde tutmasına izin verirdi."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-05",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "exd5"
+  ],
+  "title": "Gagnez le pion central",
+  "setup": "Les Noirs viennent de pousser ...d5, offrant un second pion central à votre pion e. Prenez le pion que les Noirs viennent d'offrir.",
+  "hint": "Quand vous pouvez prendre gratuitement un pion central, faites-le presque toujours.",
+  "explanation": "## L'idée\n\n{{exd5}} prend le pion central offert. Le naturel {{Qxd5}} sort la dame noire tôt, et {{Nc3}} la frappe aussitôt, un coup de développement gratuit. Si les Noirs poussent plutôt {{e4}}, le cavalier s'écarte et vous avez toujours un pion de plus.\n\nUn pion central vaut plus qu'un pion d'aile : quand vous pouvez en prendre un et le garder, faites-le."
+}

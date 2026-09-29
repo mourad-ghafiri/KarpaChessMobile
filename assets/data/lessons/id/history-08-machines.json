@@ -1,0 +1,62 @@
+{
+  "id": "chess-and-machines",
+  "title": "Mesin-Mesin",
+  "summary": "Turing di atas kertas, Deep Blue di atas papan, dan seorang juara yang menyerah pada langkah kesembilan belas",
+  "proof": "history-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "Program Tanpa Komputer",
+      "text": "Sekitar tahun 1948 Alan Turing dan David Champernowne menulis sebuah program catur di atas kertas. Komputer sudah ada — masalahnya, tak satu pun yang bisa dijangkau Turing mampu menjalankannya.\n\nTurochamp adalah selembar aturan: nilai posisi dengan menghitung apa yang dimiliki masing-masing pihak, lihat satu atau dua langkah ke depan, mainkan variasi yang nilainya terbaik.\n\nPada tahun 1952 Turing menjalankannya dengan tangan melawan seorang rekan, Alick Glennie — sekitar setengah jam berhitung untuk setiap langkah. Turochamp kalah. Program itu tak pernah dijalankan di komputer semasa hidup Turing, dan hingga kini masih dianggap sebagai program catur pertama yang pernah ditulis."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "New York, 1997",
+      "text": "Kasparov mengalahkan Deep Blue pada tahun 1996, empat partai lawan dua. IBM membawa pulang mesin itu, membangunnya ulang, dan meminta pertandingan ulang.\n\nNew York, Mei 1997, lagi-lagi enam partai. Deep Blue menang tiga setengah lawan dua setengah — pertama kalinya seorang juara dunia yang sedang menjabat kalah dalam pertandingan melawan komputer. Selisihnya satu partai.\n\nIni partai terakhir dari keenamnya, dan Putih adalah mesin itu."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "title": "Pintu di f7",
+      "text": "Hitam baru saja mendorong pion ke h6, yang menanyakan kepada kuda di g5 di mana ia lebih suka berada.\n\nRaja hitam di e8 punya satu hal di depannya: pion di f7. Gajah Putih di d3 sudah membidik diagonal yang melewati f5 dan g6, jadi begitu pion itu pergi, sekak datang di belakangnya.\n\n{{Bg6}} memaksanya pergi. Langkah itu juga kehilangan gajah dengan cuma-cuma — {{fxg6}}.\n\nPion tak akan bergerak karena Anda mengancamnya. Ia bergerak untuk menangkap."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/pp1n1pp1/2p1pn1p/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "prompt": "Tawarkan sesuatu untuk ditangkap oleh pion di f7, dan pertahankan gajah yang akan memberi sekak di belakangnya.",
+      "targetSan": [
+        "Nxe6"
+      ],
+      "hint": "Hitung pembela pion Hitam di e6. Hanya ada satu, dan itulah pion yang perlu Anda pindahkan."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Satu Langkah Sah",
+      "text": "Tangkap kuda itu segera dan beginilah akhirnya: gajah mendarat di g6 dengan sekak, dan Hitam hanya punya tepat satu balasan sah di seluruh papan. Bukan pilihan di antara petak-petak yang buruk. Satu langkah.\n\nMaka raja hitam di e7 berdiri di depan menterinya sendiri di d8 dan gajahnya sendiri di f8, dan hak rokade hilang untuk selamanya.\n\nHitung materi dan Hitam unggul kuda dengan imbalan pion. Hitung petak dan Hitam sudah tamat."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Tak Perlu Terburu-buru",
+      "text": "Kasparov tidak segera mengambil kuda itu. Menteri yang keluar sebagai gantinya — dan Deep Blue menjawab dengan rokade, sementara kuda masih berdiri tak tersentuh di e6, satu buah utuh yang siap diambil.\n\nPengorbanan itu sendiri sudah tercatat dalam buku-buku. Yang membuat orang gelisah adalah ketenangan mesin itu sesudahnya, sama sekali tanpa terburu-buru.\n\nPenangkapan datang satu langkah kemudian, yang mengirim raja itu ke d8 alih-alih e7. Kasparov menyerah pada langkah kesembilan belas, partai terpendek dalam pertandingan itu."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "title": "Apa yang Datang Sesudahnya",
+      "text": "Deep Blue adalah pengetahuan catur manusia, ditulis sebagai aturan dan menelusuri dua ratus juta posisi per detik.\n\nPada tahun 2017 **AlphaZero** diberi aturan dan tak ada yang lain, memainkan jutaan partai melawan dirinya sendiri, dan sampai pada gaya yang akan dikenali para romantik. Sejak 2020 **Stockfish**, mesin catur sumber terbuka terkuat dan mesin yang ada di dalam aplikasi ini, menilai posisi dengan jaringan saraf kecil yang dipinjam dari shogi.\n\nBelum ada yang memecahkan catur. Tujuh buah atau kurang bisa dicari di sebuah tabel; tiga puluh dua masih jauh sekali.\n\n> Mesin sampai ke sana dengan menghitung setiap variasi. Anda sampai ke sana dengan mengenali bentuknya — dan bentuk-bentuk di depan punya nama."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1b1r/pp1nk1p1/2p1pnBp/8/3P4/5N2/PPP2PPP/R1BQK2R w KQ - 2 10",
+      "prompt": "Tak ada milik Hitam yang bisa lolos, jadi pakai langkah ini untuk raja Anda sendiri.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Hanya ada satu langkah di papan ini yang menggerakkan dua buah putih sekaligus."
+    }
+  ]
+}

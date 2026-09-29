@@ -1,0 +1,11 @@
+{
+  "id": "strategy-01",
+  "fen": "rnbqk2r/p1p2pp1/1p2p1n1/3pP2p/3P3P/P1P3Q1/2P2PP1/R1B1KBNR b KQkq - 1 9",
+  "solution": [
+    "Ba6"
+  ],
+  "title": "O Prisioneiro de c8",
+  "setup": "O teu bispo em c8 está fechado atrás dos teus próprios peões, enquanto o bispo branco de f1 tem estrada livre. Oferece a tua pior peça pela melhor das brancas.",
+  "hint": "O teu peão b já se afastou. Onde vai dar a diagonal que ele abriu, e de quem é o bispo que está ao fundo?",
+  "explanation": "## A Ideia\n\nO bispo em c8 é a pior peça das pretas: os peões de d5 e e6 estão na cor dele e não vão mexer nunca. O bispo branco de f1 é o oposto, e a partir de d3 atingiria o cavalo de g6.\n\n{{Ba6}} oferece um pelo outro. Se as brancas comerem, o cavalo recaptura de b8 e passa um bocado na berma, mas as pretas trocaram a peça que não faz nada pela que está prestes a fazer mais."
+}

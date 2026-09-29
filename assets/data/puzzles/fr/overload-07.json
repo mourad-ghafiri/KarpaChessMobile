@@ -1,0 +1,14 @@
+{
+  "id": "overload-07",
+  "fen": "1Q3bk1/R4ppp/8/6r1/8/8/PPR5/K7 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rc8#"
+  ],
+  "rating": 1490,
+  "title": "La dame pour un fou",
+  "setup": "Le fou noir est revenu en f8, et vous avez une tour sur la septième rangée et une autre qui attend en c2.",
+  "hint": "Vous ne comptez pas le matériel ici — vous comptez les cases de fuite. Trouvez la seule pièce qui les fournit toutes.",
+  "explanation": "## L'idée\n\n{{Qxf8+}} paraît absurde jusqu'à ce qu'on voie que {{Kxf8}} est forcé et que le roi se trouve maintenant sur la rangée que commande la tour de c2. {{Rc8#}} conclut, avec la tour en a7 qui couvre e7, la seule case de fuite que les pions ne retirent pas d'eux-mêmes."
+}

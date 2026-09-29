@@ -1,0 +1,14 @@
+{
+  "id": "skewer-04",
+  "fen": "8/5p2/3kp3/6QR/P7/3r1P2/Pq3P2/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kc6",
+    "Qxd3"
+  ],
+  "rating": 1020,
+  "title": "Menyusuri Lajur d",
+  "setup": "Raja Hitam di d6 dan bentengnya di d3 berjajar di lajur d dengan petak-petak kosong di antaranya.",
+  "hint": "Temukan sekak yang menempatkan menteri Anda di lajur tempat benteng hitam sudah berdiri, di belakang rajanya.",
+  "explanation": "## Ide\n\n{{Qd8+}} menempatkan menteri berhadapan dengan raja di lajur d, dengan benteng di **d3** terjebak di ujung jauh. Raja harus menyingkir dari lajur itu, dan {{Kc6}} satu-satunya langkah sahnya — jadi {{Qxd3}} memenangkan benteng."
+}

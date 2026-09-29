@@ -1,0 +1,50 @@
+{
+  "id": "nimzo-indian-advanced",
+  "title": "La Difesa Nimzo-Indiana",
+  "summary": "Un alfiere cambiato per una debolezza permanente",
+  "proof": "openings-16.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "Un Alfiere che Ha in Programma di Morire",
+      "text": "Tre mosse di vita, e l'alfiere nero si sta già offrendo per un cavallo. Un alfiere è di solito considerato il pezzo leggermente migliore, quindi questo sembra il lato sbagliato di un cambio.\n\nNon è generosità. L'alfiere in b4 tiene inchiodato il cavallo di c3 contro il re in e1, e quel cavallo è l'unico pezzo bianco che copre e4. Il Nero lo vuole fuori dalla scacchiera, e vuole che il Bianco sia costretto all'unica ripresa che lascia il segno."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "title": "La Domanda che Fa il Bianco",
+      "text": "{{a3}}. Il pedone sale fino all'alfiere e pretende una risposta: ritirati, oppure prendi.\n\nRitirarsi regala al Bianco un tempo, quindi l'alfiere prende. Adesso guardate come il Bianco può riprendere. L'alfiere in c1 non vede c3, e nemmeno la donna, quindi deve farlo il pedone b — atterrando esattamente dietro il pedone che sta già in c4."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/P1N5/1P2PPPP/R1BQKBNR b KQkq - 0 4",
+      "prompt": "Prendete l'unica guardia bianca di e4 e forzate la ripresa che impila due pedoni su una colonna.",
+      "targetSan": [
+        "Bxc3+"
+      ],
+      "hint": "Un solo pezzo nero attacca c3, e la sua presa arriva con scacco, quindi il Bianco non ha un momento libero per prepararsi."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqk2r/pppp1ppp/4pn2/8/2PP4/P1P5/4PPPP/R1BQKBNR b KQkq - 0 5",
+      "title": "Impilati per Sempre",
+      "text": "Eccoli: pedoni bianchi in c3 e c4, uno dietro l'altro. Doppiati, e bloccati. Quello dietro non potrà mai superare quello davanti, e nessuno dei due sarà mai difeso da un pedone — il pedone b adesso è uno dei due, e il pedone d è già passato oltre in d4.\n\n{{c5}} congela il quadro. Il Nero colpisce d4 perché il centro non possa rotolare avanti e seppellire le prove.\n\nL'apertura porta il nome di Aron Nimzowitsch, che sosteneva che una debolezza che nessuno può riparare sopravvive a qualunque vantaggio che vada usato subito."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "title": "Il Pedone su cui Punta Tutto",
+      "text": "Cinque mosse dopo, e il Bianco ha il centro che i due alfieri aspettavano: pedoni in c4, d4 e e4, con l'alfiere in d3 pronto per il momento in cui quella schiera avanzerà.\n\nIl Nero non discute con tutto quanto. Là c'è un pedone diverso dagli altri. Il pedone in c4 ha il compagno arenato dietro, quindi nessun pedone bianco lo difenderà mai, e a ogni minaccia che il Nero gli porta deve rispondere un pezzo. Un pezzo legato a un pedone è un pezzo che non fa nient'altro.\n\n> Attaccate la debolezza che un pedone non può difendere, e costringete i pezzi a fare la guardia."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQ1RK1 b - - 2 10",
+      "prompt": "Mandate il cavallo sul bordo, dove colpisce il pedone che nessun pedone bianco potrà mai difendere.",
+      "targetSan": [
+        "Na5"
+      ],
+      "hint": "Il bersaglio è il pedone in c4, e il pedone b del Bianco che normalmente caccerebbe un cavallo da quel bordo sta in c3."
+    }
+  ]
+}

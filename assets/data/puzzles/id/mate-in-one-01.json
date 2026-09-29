@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-01",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq g3 0 2",
+  "solution": [
+    "Qh4#"
+  ],
+  "rating": 600,
+  "title": "Dua Pion Terlalu Jauh",
+  "setup": "Dua langkah pertama Putih membuka satu-satunya diagonal yang berujung di rajanya sendiri.",
+  "hint": "Hanya satu garis yang mengarah ke raja putih, dan hanya satu buah hitam yang bisa melangkah ke sana pada langkah ini.",
+  "explanation": "## Ide\n\nPion f dan pion g adalah dua langkah yang melucuti perlindungan e1 di diagonal h4–e1. {{Qh4#}} tiba tanpa ada yang bisa menghalangi dan tanpa ada yang mampu menangkapnya. Biarkan kedua pion itu di rumah selama raja Anda masih tinggal di belakangnya."
+}

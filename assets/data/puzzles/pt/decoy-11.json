@@ -1,0 +1,14 @@
+{
+  "id": "decoy-11",
+  "fen": "7k/pp2n1pp/7N/q7/1r6/1Q6/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qg8+",
+    "Nxg8",
+    "Nf7#"
+  ],
+  "rating": 1520,
+  "title": "Dá de Comer ao Cavalo",
+  "setup": "O rei de h8 está enterrado atrás dos seus próprios peões, e o cavalo preto de e7 é a única peça preta que chega a g8.",
+  "hint": "O canto já é uma jaula. O que darias para ter g8 ocupada por uma peça preta?",
+  "explanation": "## A Ideia\n\n{{Qg8+}} não pode ser comida pelo rei, porque o teu cavalo de h6 cobre g8 — portanto {{Nxg8}} é a única jogada. A última casa de fuga fica tapada pelo próprio cavalo das pretas, e {{Nf7#}} é mate sufocado."
+}

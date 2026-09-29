@@ -1,0 +1,11 @@
+{
+  "id": "forks-15",
+  "fen": "r1b1k2r/ppp2ppp/4p3/8/7n/8/PP3PPP/3Q1RK1 w - - 0 1",
+  "solution": [
+    "Qa4+"
+  ],
+  "title": "The Queen Checks and Collects",
+  "setup": "Black has a rook, bishop and knight for your queen, and the knight on h4 has wandered to the edge with no defender.",
+  "hint": "Find a queen check that also attacks the knight.",
+  "explanation": "## The Idea\n\n{{Qa4+}} checks the king on e8 along the diagonal and attacks the knight on h4 along the fourth rank. Black has to answer the check, and no answer, whether {{Bd7}}, {{c6}}, {{b5}} or a king move, also guards the knight. Next move, {{Qxh4}} takes it, and the material swings your way.\n\nA queen fork is a check on one line and a loose piece on another."
+}

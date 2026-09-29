@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-06",
+  "fen": "1r4k1/5ppp/8/8/8/8/4QPPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "title": "Jalan Panjang Menyeberang",
+  "setup": "Benteng hitam menjaga baris belakang dari ujung papan yang jauh — satu-satunya pembela, jauh dari rumah.",
+  "hint": "Penjaga itu bisa mencapai e8, tetapi hanya dengan meninggalkan segalanya. Apa hal terbesar yang bisa Anda paksa untuk ditangkapnya?",
+  "explanation": "## Ide\n\nBenteng di b8 menguasai seluruh baris belakang dari kejauhan, sampai ia dipaksa berkomitmen.\n\n{{Qe8+}} menyerahkan menteri di petak masuk. {{Rxe8}} satu-satunya jawaban, menyeret penjaga menyeberangi baris itu, dan {{Rxe8#}} menangkap balik dengan pion-pion Hitam sendiri menutup setiap petak pelarian.\n\nPembela baris belakang yang sendirian adalah sasaran, bukan tembok: paksa ia menangkap, dan tangkapan baliknya adalah mat."
+}

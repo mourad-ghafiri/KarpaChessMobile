@@ -1,0 +1,65 @@
+{
+  "id": "prophylaxis",
+  "title": "Prophylaxis",
+  "summary": "Kill the plan before it is played",
+  "proof": "strategy-09.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "The Road to g1",
+      "text": "White's king on g1 sits at the end of a road nobody is standing on yet.\n\nTrace it: a7, b6, c5, d4, e3, f2, g1. The f-pawn went to f4, so f2 is empty and e3 is empty with it. The only piece anywhere on that whole diagonal is your own knight on d4.\n\nBlack's queen has not moved yet. When it does, b6 is the square it wants."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "title": "The Question You Would Have to Answer",
+      "text": "Improve a piece the natural way: {{Bf3}} takes aim at the center.\n\n{{Qb6}}, and the knight on d4 is pinned to your king — not loosely, absolutely. It has no legal move at all. The repair is {{Be3}}, a whole move spent so the knight can breathe again, and the bishop on c1 was the one guarding b2.\n\n**Prophylaxis** is the other way to spend that move: work out your opponent's next good move and delete it before it is ever played."
+    },
+    {
+      "type": "play",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1RK1 w - - 1 9",
+      "prompt": "Take the target off the far end of that diagonal before Black's queen ever looks down it.",
+      "targetSan": [
+        "Kh1"
+      ],
+      "hint": "The problem is the square your king is standing on, not any black piece."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbq1rk1/1p2bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K b - - 2 9",
+      "title": "The Plan Underneath",
+      "text": "b6 is a square like any other now. The diagonal still runs, and there is nothing at the end of it.\n\nSo Black turns to the plan underneath: {{Qc7}} first, then the b-pawn to b5 and on to b4, kicking the knight off c3, the piece that defends e4.\n\nIt is slow, and it is the only thing in this position that could ever beat you. Slow is exactly what prophylaxis is for. You can see it coming from four moves away."
+    },
+    {
+      "type": "play",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/3NPP2/2N5/PPP1B1PP/R1BQ1R1K w - - 3 10",
+      "prompt": "Black's whole queenside plan begins with one pawn reaching b5, so make that square cost material.",
+      "targetSan": [
+        "a4"
+      ],
+      "hint": "Only one of your pawns can reach out and attack b5 before Black ever gets there."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "Nothing Is Free",
+      "text": "The pawn on a4 was not free. It has stepped past b4 for good, and a black knight that settles there is hard to shift.\n\nThat is the trade prophylaxis always offers: you buy the deletion of a plan with a small permanent concession. Take the deal when the plan is worth more than the square."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb2rk1/1pq1bppp/p2ppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b - a3 0 10",
+      "title": "The Last Idea in the Position",
+      "text": "The queenside is shut and the road to your king is gone. What is left is the oldest resource of the cramped side: a trade.\n\n{{Nc6}} develops and offers one. Answer with something natural like {{Be3}}, and {{Nxd4}} comes off; Black's position breathes for the first time in ten moves.\n\nBlack is not lost. Black is out of ideas, and a player out of ideas drifts.\n\n> Before you ask what you want, ask what your opponent wants — then take it away."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/1pq1bppp/p1nppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K w - - 1 11",
+      "prompt": "The cramped side lives on trades, so take away the only one Black has left.",
+      "targetSan": [
+        "Nb3"
+      ],
+      "hint": "Black wants a pair of knights off the board — where else can that knight stand and still watch a5 and c5?"
+    }
+  ]
+}

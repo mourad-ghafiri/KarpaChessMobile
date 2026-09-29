@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-28",
+  "fen": "1k6/pp6/1P6/8/8/8/8/1K4R1 w - - 0 1",
+  "solution": [
+    "Rg8#"
+  ],
+  "title": "Le mat du pion planté",
+  "setup": "Votre pion en b6 se tient juste devant le roi noir, et les propres pions noirs sont en a7 et b7.",
+  "hint": "Les pions noirs bloquent deux cases et votre pion protège la troisième. La tour a besoin de la dernière rangée.",
+  "explanation": "## L'idée\n\nC'est un mat du couloir avec l'aide discrète d'un pion. Le pion en b6 ne donne pas échec, mais il couvre c7, la seule case que la tour ne peut pas atteindre.\n\n{{Rg8#}} donne échec le long de la huitième rangée. a8 et c8 sont sur la ligne de la tour, a7 et b7 sont occupées par les propres pions noirs, et c7 est couverte par votre pion. Rien ne peut s'interposer.\n\nQuand un roi est coincé derrière deux pions, cherchez l'un de vos pions qui couvre la troisième case."
+}

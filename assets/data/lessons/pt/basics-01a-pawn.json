@@ -1,0 +1,60 @@
+{
+  "id": "pawn-moves",
+  "title": "Um Peão Nunca Dá Meia-Volta",
+  "summary": "Anda a direito, golpeia na diagonal e nunca dá um passo atrás",
+  "proof": "first-steps-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "Uma Casa, Uma Direção",
+      "text": "Cada jogada de peão é permanente. Um peão anda em frente, uma casa de cada vez, e só pode entrar numa casa vazia — uma peça à sua frente é uma parede.\n\nO peão em e2 avança para {{e3}}. Daí pode continuar a subir, mas não há nada nas regras que alguma vez o traga de volta a e2. Todas as outras peças podem regressar ao sítio de onde vieram. O peão não pode.\n\nO terreno que um peão cede fica cedido para o resto da partida."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "A Primeira Jogada Pode Ser de Duas",
+      "text": "Uma exceção, e cada peão recebe-a exatamente uma vez.\n\nEnquanto está na sua casa de partida, um peão pode viajar duas casas em vez de uma, desde que as duas casas à frente estejam vazias. Este peão e tem a escolha neste momento: {{e3}} ou {{e4}}. Nenhuma é mais correta do que a outra.\n\nA oferta caduca no instante em que o peão sai de casa. A partir daí é uma casa por jogada, todo o caminho até à última linha — onde um peão que sobreviva à marcha é promovido a algo muito mais forte, numa lição só para isso."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "prompt": "Avança o peão tabuleiro acima — uma casa, ou duas enquanto ainda está na casa de partida.",
+      "targetSan": [
+        "e3",
+        "e4"
+      ],
+      "hint": "Um peão só anda em frente, e o salto de duas casas é oferecido apenas na sua primeira jogada."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "Luta na Diagonal",
+      "text": "Tirar uma peça inimiga é uma **captura**: ela sai do tabuleiro e tu ficas com a casa que ela usava. Todas as peças capturam. O peão é a única que captura de maneira diferente de como anda.\n\nUm peão nunca tira a peça que está mesmo à sua frente — a direito é para andar, e só para terreno vazio. O golpe vai uma casa na diagonal em frente, para a esquerda ou para a direita.\n\nO peão preto em d5 entrou no raio de ação. Está numa das duas casas que o teu peão de e4 consegue atingir.\n\n> A direito para andar, na diagonal para tirar. É essa assimetria que faz o peão."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "O peão preto em d5 está onde o teu peão lhe chega — tira-o do tabuleiro.",
+      "targetSan": [
+        "exd5"
+      ],
+      "hint": "O passo de um peão e o golpe de um peão são direções diferentes — conta uma casa na diagonal em frente a partir de e4."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "A Marca da Captura",
+      "text": "Uma captura escreve-se com um **x**, entre a peça que joga e a casa onde aterra.\n\nO peão não tem letra maiúscula, por isso empresta a sua coluna. A jogada que acabaste de fazer escreve-se {{exd5}}: o peão e, a capturar, em d5. A letra à frente diz qual foi o peão que saiu, a casa diz onde chegou.\n\nDaqui em diante esse **x** quer dizer o mesmo, seja quem for a jogar."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4pp2/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "O peão preto em e5 bloqueia o caminho em frente — encontra a única jogada que o teu peão ainda tem.",
+      "targetSan": [
+        "exf5"
+      ],
+      "hint": "Um peão não pode tirar a peça que está mesmo à sua frente, e há um segundo peão preto ao lado desse."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-11",
+  "fen": "1r3kr1/pbpBnp1p/1b3P2/8/8/B1P2q2/P4PPP/3R2K1 w - - 4 24",
+  "solution": [
+    "Bxe7#"
+  ],
+  "rating": 885,
+  "title": "El peón hace el trabajo",
+  "setup": "Tu alfil de a3 apunta al caballo de e7, y tu peón de f6 cubre las casillas junto al rey.",
+  "hint": "El rey negro no puede dar ni un paso, así que busca el jaque que cae en una casilla defendida por tu peón.",
+  "explanation": "## La idea\n\nAl rey de f8 lo emparedan su propia torre de g8 y su peón de f7, el peón de f6 le quita g7 y e7, y el alfil de d7 cubre e8. {{Bxe7#}} elimina al último defensor y da jaque desde una casilla que defiende ese mismo peón, así que el rey no puede comer."
+}

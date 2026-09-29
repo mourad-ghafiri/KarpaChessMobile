@@ -1,0 +1,13 @@
+{
+  "id": "mate-in-2-01",
+  "fen": "2k5/8/3K4/7Q/8/8/8/8 w - - 2 2",
+  "solution": [
+    "Qb5",
+    "Kd8",
+    "Qb8#"
+  ],
+  "title": "Kandang Dua Langkah",
+  "setup": "Raja Hitam di c8 masih punya tiga petak. Raja Anda sudah menguasai c7 dan d7, dan menteri Anda jauh di h5.",
+  "hint": "Sekak apa pun di sini membiarkan raja keluar. Rebut petak-petaknya dengan tenang dan sisakan tepat satu langkah.",
+  "explanation": "## Ide\n\nMemberi sekak lebih dulu membiarkan raja lari. {{Qb5}} sama sekali tak memberi sekak: ia merebut seluruh lajur b, jadi b8 dan b7 hilang, dan raja Anda di d6 sudah menguasai c7 dan d7.\n\nHitam punya satu langkah sah, {{Kd8}}, dan langkah itu berjalan masuk ke {{Qb8#}}. Menteri menguasai baris kedelapan, raja Anda menguasai baris ketujuh, dan raja hitam tak punya tempat lagi. {{Qd7#}} juga memberi mat sama baiknya."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "discovery-06",
+  "fen": "3q3k/2p2p1p/2P3p1/r3N3/8/8/PB3PPP/5RK1 w - - 0 1",
+  "solution": [
+    "Nxf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 1160,
+  "title": "İki Taraftan Şah",
+  "setup": "Siyahın şahı kendi piyonlarıyla h8'e tıkılmış ve atınız f7'ye tek sıçrayışta ulaşabiliyor.",
+  "hint": "İki taş birden şah çektiğinde şahın oynaması gerekir: hiçbir şey alamaz, hiçbir şey araya giremez. Bunu hangi kare yapıyor?",
+  "explanation": "## Fikir\n\n{{Nxf7+}} bir çifte şahtır; hem f7'deki attan hem de uzun çaprazdaki filden gelir. Siyah ne alabilir ne araya girebilir, yani {{Kg8}} mecburidir ve at artık {{Nxd8}} ile veziri yutmakta serbesttir."
+}

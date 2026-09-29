@@ -1,0 +1,14 @@
+{
+  "id": "deflection-01",
+  "fen": "2r3k1/pq3ppp/8/8/1n6/7P/PP1B1PP1/2RQ2K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Bxb4"
+  ],
+  "rating": 1100,
+  "title": "Vezirin İki Görevi",
+  "setup": "Siyahın b7'deki veziri aynı anda hem c8'deki kaleyi hem de b4'teki atı koruyor.",
+  "hint": "Siyahın tek bir taşı iki iş yapıyor. Ona reddedemeyeceği bir şey verin ve hangi işi bıraktığına bakın.",
+  "explanation": "## Fikir\n\n{{Rxc8+}} şahtır, yani {{Qxc8}} mecburidir — ve vezir b dikeyini terk eder. Ardından {{Bxb4}} atı kazanır. Önce kale kaleye değişildiği için koruyucuyu çekmek hiçbir şeye mal olmaz. Bir kombinezon aramadan önce iki görevi olan bir taş arayın."
+}

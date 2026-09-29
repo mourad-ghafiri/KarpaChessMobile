@@ -1,0 +1,14 @@
+{
+  "id": "deflection-05",
+  "fen": "6rk/ppq3pp/8/4N3/8/6P1/P4PK1/3R4 w - - 1 2",
+  "solution": [
+    "Ng6+",
+    "hxg6",
+    "Rh1#"
+  ],
+  "rating": 1260,
+  "title": "L'Unico Compito del Pedone h",
+  "setup": "Il re in h8 è inscatolato dalla propria torre e dal proprio pedone, e solo il pedone di h7 tiene chiusa la colonna h.",
+  "hint": "La colonna h è la strada verso quel re, e un pedone la blocca. Quale scacco costringe il pedone a muoversi?",
+  "explanation": "## L'idea\n\n{{Ng6+}} lascia al Nero una mossa legale: {{hxg6}}. Il pedone deve catturare, la colonna h si spalanca, e arriva {{Rh1#}}. Un pedone costretto a prendere è un pedone che ha lasciato il suo posto. Cercate i difensori che non hanno scelta, non solo quelli che potete catturare."
+}

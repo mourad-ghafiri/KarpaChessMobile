@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-03",
+  "fen": "r5k1/5ppp/2p5/3n4/1b6/6P1/5PBP/1R4K1 w - - 1 2",
+  "solution": [
+    "Bxd5"
+  ],
+  "rating": 1130,
+  "title": "Il Cavallo Era la Colla",
+  "setup": "La vostra torre tiene d'occhio l'alfiere in b4, e il cavallo in d5 è l'unico pezzo nero che lo difende.",
+  "hint": "La vostra torre attacca già un pezzo difeso. Guardate una casa più in là: chi fa la difesa?",
+  "explanation": "## L'idea\n\n{{Bxd5}} toglie il cavallo che difende b4. Dopo {{cxd5}} l'alfiere non ha più nessuno e {{Rxb4}} lo vince. Alfiere per cavallo è un cambio pari; il guadagno è l'alfiere in b4. Chiedetevi sempre chi tenga il pezzo che volete prima di allungare la mano."
+}

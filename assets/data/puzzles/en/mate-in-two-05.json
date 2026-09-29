@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-05",
+  "fen": "n2b1k2/3r1p1p/1B4Q1/8/8/4R3/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qh6+",
+    "Kg8",
+    "Re8#"
+  ],
+  "rating": 1100,
+  "title": "Sidestep, Then Back Rank",
+  "setup": "Black's king on f8 is hemmed in by its own crowd, and your queen on g6 is already close enough to check it.",
+  "hint": "Push the king to the one square its own pieces leave it, then hit the rank it can no longer leave.",
+  "explanation": "## The Idea\n\n{{Qh6+}} checks along the h6–f8 diagonal and drives the king to g8: {{Kg8}} is the only move. Then {{Re8#}}. The queen keeps g7, the rook's own line through the king takes f8 and h8, the h7 pawn fills the rest, and nothing can take the rook."
+}

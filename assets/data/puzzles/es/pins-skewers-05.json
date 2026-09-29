@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-05",
+  "fen": "4k3/8/4q3/8/8/8/8/4R1K1 w - - 0 1",
+  "solution": [
+    "Rxe6+"
+  ],
+  "title": "Clavada de largo alcance",
+  "setup": "Tu torre de e1, una dama negra y el rey negro están en la misma columna abierta, sin nada entre ellos.",
+  "hint": "Una dama clavada todavía puede deslizarse por la línea en la que está clavada. No le regales esa jugada.",
+  "explanation": "## La idea\n\nLa dama de e6 está clavada: si sale de la columna e, tu torre atacaría al rey de e8. Pero todavía puede deslizarse por la columna, y está mirando directamente a tu torre. Así que no hay tiempo de acumular atacantes. {{Rxe6+}} la captura ya, el rey de e8 está demasiado lejos para recapturar, y las Blancas quedan con torre contra rey solo."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "defence-04",
+  "fen": "K7/8/2Q5/1q2r3/8/1r1B4/R7/3k4 w - - 0 1",
+  "solution": [
+    "Qc2+",
+    "Ke1",
+    "Qc1#"
+  ],
+  "rating": 1570,
+  "title": "Dá a Dama ao Rei",
+  "setup": "A dama preta de b5 e as torres de b3 e e5 têm o teu rei no canto, enquanto o rei preto está solto em d1.",
+  "hint": "Há uma casa onde a tua dama não pode ser comida. Encontra-a e vê o que resta ao rei.",
+  "explanation": "## A Ideia\n\n{{Qc2+}} põe-se ao lado do rei sem poder ser comida — a torre de a2 defende-a — e {{Ke1}} é forçado. Segue-se {{Qc1#}}. A jogada mais defensiva do tabuleiro acabou por ser uma oferta de dama."
+}

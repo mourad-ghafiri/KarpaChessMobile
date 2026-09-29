@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-02",
+  "fen": "6k1/ppp2p1p/6p1/8/8/2N1P3/PPP2PPb/5K2 w - - 0 1",
+  "solution": [
+    "g3"
+  ],
+  "title": "Tutup Pintu di h2",
+  "setup": "Gajah Hitam baru saja mengambil pion h Anda. Temukan langkah yang memastikan ia tak pernah bisa keluar lagi.",
+  "hint": "Hitung jalan pulang gajah itu. Satu langkah pion bisa menutup keduanya, asalkan pion itu terjaga.",
+  "explanation": "## Ide\n\n{{g3}} mengurung gajah. Dari h2 ia punya dua jalan keluar, dan keduanya hilang: raja Anda di f1 menguasai g1, dan pion di g3 dijaga pion di f2.\n\nBerikutnya datang Kg2, dan gajah itu hilang. Paling banyak Hitam hanya bisa mendapat satu pion untuknya, dengan menangkap di g3."
+}

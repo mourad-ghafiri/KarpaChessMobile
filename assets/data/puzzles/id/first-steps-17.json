@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-17",
+  "fen": "4k3/pp6/8/8/7q/8/PP6/4K2R w - - 0 1",
+  "solution": [
+    "Rxh4"
+  ],
+  "title": "Hukum Sang Menteri",
+  "setup": "Menteri hitam baru saja menyambar masuk dengan sekak, tepat ke garis pandang benteng Anda.",
+  "hint": "Ya, raja bisa menyingkir. Tetapi lihat ke bawah lajur h sebelum Anda menyentuhnya.",
+  "explanation": "## Ide\n\nMenteri di h4 memberi sekak kepada raja Anda di sepanjang diagonal menuju e1, dan menyingkir terasa wajar. Tetapi menteri telah mendarat di lajur h yang terbuka, tempat benteng Anda di h1 sedang menunggu.\n\n{{Rxh4}} langsung menangkap pemberi sekak: sekaknya hilang dan sembilan poin dimenangkan. Langkah raja seperti {{Kd2}} melakukan sebaliknya, karena {{Qxh1}} justru mengambil benteng Anda.\n\nBuah pemberi sekak harus berdiri di suatu tempat, jadi tanyakan apa yang Anda serang di petak itu."
+}

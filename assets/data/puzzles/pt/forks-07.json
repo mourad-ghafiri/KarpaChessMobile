@@ -1,0 +1,13 @@
+{
+  "id": "forks-07",
+  "fen": "3r3k/p5pp/8/4N3/8/8/P5PP/6K1 w - - 0 1",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "title": "Um Garfo Para o Canto",
+  "setup": "O rei preto está encolhido no canto de h8 atrás dos próprios peões, e a torre preta de d8 não tem defensor.",
+  "hint": "Encontra o xeque de cavalo que ataca também a torre. O rei vai ter só uma casa para onde ir.",
+  "explanation": "## A Ideia\n\n{{Nf7+}} dá xeque ao rei de h8 e ataca a torre de d8. Os peões de g7 e h7 deixam ao rei uma só casa, e de g8 ele não chega a d8. Depois de {{Kg8}}, {{Nxd8}} come a torre, e passas de uma qualidade a menos a um cavalo a mais.\n\nUm rei encaixotado pelos próprios peões é o alvo mais fácil para um garfo."
+}

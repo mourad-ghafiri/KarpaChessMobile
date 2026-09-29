@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-12",
+  "fen": "6k1/5ppp/8/8/8/8/5PPP/3QK3 w - - 0 1",
+  "solution": [
+    "Qd8#"
+  ],
+  "title": "Back-Rank Mate",
+  "setup": "The black king on g8 is hemmed in by its own pawns on f7, g7 and h7, with nothing guarding the rank behind it.",
+  "hint": "When the enemy king is locked behind its own pawns, look for the piece that can take a whole rank in one move.",
+  "explanation": "## The Idea\n\nBlack's king stands on the eighth rank, and its own pawns on f7, g7 and h7 mean the only squares it has left, f8 and h8, lie on that same rank.\n\n{{Qd8#}} takes the whole rank at once. Nothing stands in the way, nothing can reach d8 to capture, and the king is too far off to take it.\n\nA king behind three unmoved pawns is one heavy piece away from mate, which is what makes a single pawn move, played in time, such cheap insurance."
+}

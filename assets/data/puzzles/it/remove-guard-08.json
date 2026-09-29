@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-08",
+  "fen": "6k1/2q1nppp/8/3b2B1/7Q/6P1/5PBP/6K1 w - - 1 2",
+  "solution": [
+    "Bxe7"
+  ],
+  "rating": 1320,
+  "title": "Tagliate il Sostegno",
+  "setup": "Il vostro alfiere in g2 fissa l'alfiere in d5, che sopravvive solo perché il cavallo in e7 lo difende.",
+  "hint": "Due alfieri si fronteggiano sulla grande diagonale. Un pezzo nero decide quel duello — potete arrivarci?",
+  "explanation": "## L'idea\n\n{{Bxe7}} toglie l'unico difensore di d5. Dopo {{Qxe7}} l'alfiere è indifeso e {{Bxd5}} vince un pezzo netto. Il cambio in e7 è pari; il pezzo che scopre no. Un duello su una diagonale lo decide chi sostiene i pezzi."
+}

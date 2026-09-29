@@ -1,0 +1,14 @@
+{
+  "id": "overload-10",
+  "fen": "2Q1b2k/4rppp/8/8/4R3/8/PP6/K6R w - - 0 1",
+  "solution": [
+    "Qxe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1580,
+  "title": "As Duas Peças na Mesma Coluna",
+  "setup": "As pretas têm um bispo em e8 e uma torre em e7, e todas as tuas peças pesadas apontam para essa mesma coluna.",
+  "hint": "Quando dois defensores estão na mesma linha, só o da frente pode ser comido. Pergunta o que o segundo está mesmo a fazer.",
+  "explanation": "## A Ideia\n\n{{Qxe8+}} força {{Rxe8}} — a torre tem de deixar a sétima — e {{Rxe8#}} é mate porque os peões selaram o rei eles próprios. Empilhar defensores numa coluna quer dizer perdê-los um atrás do outro."
+}

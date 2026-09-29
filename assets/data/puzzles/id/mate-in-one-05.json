@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-05",
+  "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/8/2Q2N2/PqP1PPPP/RN2KB1R b KQk - 0 8",
+  "solution": [
+    "Qc1#"
+  ],
+  "rating": 720,
+  "title": "Baris Tanpa Ruang",
+  "setup": "Menteri Anda sudah menyusup sampai b2, dan baris belakang Putih penuh sesak dengan buah-buahnya sendiri.",
+  "hint": "Raja putih punya dua lubang di sampingnya dan tak ada yang ketiga, jadi carilah sekak yang tak bisa dijawab baris pertamanya yang penuh sesak.",
+  "explanation": "## Ide\n\nSetiap petak di sekitar e1 entah ditempati buah Putih sendiri atau disapu menteri saat mendarat, jadi sekak aman di baris pertama mengakhiri partai. {{Qc1#}} tak bisa ditangkap: kuda di b1 menghalangi benteng, dan pion di c2 menghalangi menteri putih."
+}

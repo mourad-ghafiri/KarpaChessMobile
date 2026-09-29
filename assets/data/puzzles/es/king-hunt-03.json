@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-03",
+  "fen": "1r3R2/3p1R2/4Q3/1k2B3/b7/8/3p4/5K2 w - - 0 1",
+  "solution": [
+    "Rxb8+",
+    "Kc5",
+    "Qd6+",
+    "Kc4",
+    "Qd4#"
+  ],
+  "rating": 1420,
+  "title": "Cómete la torre y sigue dando jaque",
+  "setup": "El rey negro se ha ido hasta b5, su torre está en b8 y un peón pasado está a una casilla de coronar en d2.",
+  "hint": "No tienes tiempo de detener el peón. Encuentra la captura que además abre una línea hacia el rey.",
+  "explanation": "## La idea\n\n{{Rxb8+}} gana una torre con jaque, y a partir de ahí {{Qd6+}} y {{Qd4#}} empujan al rey tablero abajo. El peón de d2 nunca llega a moverse, que es la única defensa contra él que importa."
+}

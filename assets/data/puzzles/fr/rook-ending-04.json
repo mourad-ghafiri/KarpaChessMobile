@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-04",
+  "fen": "8/8/1P6/5r2/3K4/k7/8/3R4 b - - 0 1",
+  "solution": [
+    "Rb5"
+  ],
+  "rating": 1350,
+  "title": "Derrière le pion",
+  "setup": "Le pion b blanc est à un pas de la septième rangée, et le roi noir en a3 est bien trop lent pour le rattraper.",
+  "hint": "Le pion va courir. Depuis quelle case votre tour continuera-t-elle de l'attaquer, aussi loin qu'il aille ?",
+  "explanation": "## L'idée\n\nUne tour derrière un pion passé continue de le frapper à chaque pas. {{Rb5}} {{b7}} {{Rxb7}}, et il ne reste plus rien à promouvoir. Attaquez plutôt de côté par {{Rf6}}, et les Blancs jouent {{Rb1}}, qui soutient leur pion, et il passe."
+}

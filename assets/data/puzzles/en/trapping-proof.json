@@ -1,0 +1,11 @@
+{
+  "id": "trapping-proof",
+  "fen": "2kr4/Bpp2ppp/3b1n2/4p3/8/5N2/PPP2PPP/4R1K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "title": "A Bishop Stranded on a7",
+  "setup": "White's bishop has just taken a pawn and now sits on a7. It looks safe: nothing of yours attacks it. Find the move that makes sure it never leaves.",
+  "hint": "Count the bishop's squares. Its only road home runs back along one diagonal, and a pawn of yours can stand on that road, guarded.",
+  "explanation": "## The Idea\n\n{{b6}} closes the only road home. The bishop on a7 is left with two squares: b8, which your king on c8 covers, and b6, where the pawn is guarded by the one on c7.\n\nNothing attacks the bishop yet, and nothing has to. Your king walks to b7 next and takes it, and the most White can get back is a pawn, by giving the bishop up on b6."
+}

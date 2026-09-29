@@ -1,0 +1,14 @@
+{
+  "id": "discovery-04",
+  "fen": "2r5/pp4pk/5n1p/8/4N3/1P6/P4PPP/1B4K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kg8",
+    "Nxc8"
+  ],
+  "rating": 1080,
+  "title": "Scegliete la Casa d'Arrivo",
+  "setup": "Il vostro cavallo in e4 sta sulla diagonale dell'alfiere verso h7, quindi ogni mossa di cavallo arriva con scacco.",
+  "hint": "Ogni balzo di questo cavallo apre la linea dell'alfiere. Uno solo di essi mette a segno anche un colpo.",
+  "explanation": "## L'idea\n\nQualunque mossa di cavallo scopre lo scacco, quindi la vera domanda è quale casa frutti materiale. {{Nd6+}} attacca la torre in c8 mentre il Nero si occupa dello scacco. Dopo una mossa di re come {{Kg8}}, il cavallo se la prende con {{Nxc8}}, e parare con Rc2 mette solo la torre dove il vostro alfiere la prende."
+}

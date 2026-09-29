@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-02",
+  "fen": "8/R4Pr1/4k3/8/4K3/8/8/8 w - - 0 1",
+  "solution": [
+    "f8=Q"
+  ],
+  "rating": 1250,
+  "title": "Corona en la pieza correcta",
+  "setup": "La torre negra ataca el peón de f desde g7, el rey también lo ataca, y un solo defensor no puede sostenerlo contra dos, así que las Blancas tienen exactamente una jugada para aprovecharlo.",
+  "hint": "El peón se pierde en la próxima jugada hagas lo que hagas. Pregúntate qué pieza nueva tocaría la torre de g7.",
+  "explanation": "## La idea\n\nEl peón no se puede sostener, así que gástalo. {{f8=Q}} ataca a la torre de al lado y gana. {{f8=R}} y {{f8=N+}} dejan en paz g7, y {{f8=B}} ataca la torre pero no basta para ganar. Las Negras tienen que salvar la torre con {{Rxa7}}, y dama contra torre gana."
+}

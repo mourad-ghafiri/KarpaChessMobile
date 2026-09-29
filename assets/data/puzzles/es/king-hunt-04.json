@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-04",
+  "fen": "5B2/5k2/7r/8/2R3p1/R5K1/b7/6Q1 w - - 0 1",
+  "solution": [
+    "Qa7+",
+    "Ke6",
+    "Ra6+",
+    "Kd5",
+    "Qd4#"
+  ],
+  "rating": 1455,
+  "title": "Dos torres en dos filas",
+  "setup": "El rey negro está en f7 con una torre en h6 y un alfil en a2, y tus torres dominan la tercera y la cuarta fila.",
+  "hint": "Las únicas casillas seguras del rey están por delante. Averigua dónde acaba tras dos jaques, y pon antes una pieza ahí.",
+  "explanation": "## La idea\n\n{{Qa7+}} lo lleva a e6, {{Ra6+}} a d5, y {{Qd4#}} ya lo espera. Las torres nunca se comen nada: están para quitar filas, y la dama cobra."
+}

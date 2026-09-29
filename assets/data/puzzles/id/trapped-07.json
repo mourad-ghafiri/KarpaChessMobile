@@ -1,0 +1,12 @@
+{
+  "id": "trapped-07",
+  "fen": "6k1/ppp2pp1/5n1p/8/8/7P/P1P1NPP1/1b1B2K1 w - - 0 1",
+  "solution": [
+    "Nc3"
+  ],
+  "rating": 1240,
+  "title": "Gajah dalam Kandang",
+  "setup": "Gajah Hitam telah menyusup sampai ke b1, tempat dua tetangganya hanyalah pion-pion Anda di a2 dan c2.",
+  "hint": "Gajah itu sudah sama sekali tak punya langkah. Bawa sebuah buah yang menyerangnya sekaligus menjaga a2.",
+  "explanation": "## Ide\n\n{{Nc3}} menyerang gajah dan menguasai a2 pada saat yang sama, dan c2 dilindungi gajah di d1, jadi tak ada penangkapan untuk meloloskan diri. Buah yang tak punya tempat untuk pergi hanya butuh satu penyerang untuk jatuh."
+}

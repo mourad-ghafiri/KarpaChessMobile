@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-06",
+  "fen": "4k3/8/2N5/4q3/B7/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nxe5+"
+  ],
+  "title": "Xeque à Descoberta Ganha a Dama",
+  "setup": "A dama preta em e5 dá xeque ao teu rei pela coluna e. O teu cavalo de c6 está entre o teu bispo de a4 e o rei preto.",
+  "hint": "O cavalo tapa um xeque teu. Mexe-o para onde ele faça trabalho a sério.",
+  "explanation": "## A Ideia\n\nO teu rei está em xeque, e a resposta é um contra-ataque. O cavalo de c6 tapa a diagonal do teu bispo até e8.\n\n{{Nxe5+}} come a dama que dava xeque, e mexer o cavalo descobre o xeque do bispo. {{Kd8}}, {{Kf8}} e {{Ke7}} são as únicas jogadas das pretas, e nenhuma delas chega ao cavalo.\n\nQuando uma peça tua está entre a tua peça de longo alcance e o rei inimigo, cada jogada que ela faz vem com xeque."
+}

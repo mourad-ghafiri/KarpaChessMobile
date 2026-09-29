@@ -1,0 +1,50 @@
+{
+  "id": "bishop-pair",
+  "title": "O Par de Bispos",
+  "summary": "Dois bispos cobrem todas as casas do tabuleiro",
+  "proof": "strategy-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/1pp2ppp/p1np4/4p3/B3P1b1/5N1P/PPPP1PP1/RNBQ1RK1 b k - 0 6",
+      "title": "A Troca Que Fica",
+      "text": "O bispo preto em g4 está a uma jogada de entregar às brancas algo que não se volta a comprar.\n\n{{Bxf3}} {{Qxf3}}. As pretas capturam um cavalo que estava a trabalhar a sério, portanto não é uma prenda. É uma venda. As brancas ficam com dois bispos, às pretas fica um, e nenhuma jogada posterior desfaz isso.\n\nA partida segue: {{Nf6}}, {{c3}}, {{Be7}}. Agora as brancas têm de provar que a coisa vale a pena ter."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "title": "Porque É Que Dois Ganham a Um Mais Um",
+      "text": "Um bispo nasce numa cor e morre nela. Um bispo, meio tabuleiro — as outras trinta e duas casas são para sempre assunto de outra pessoa.\n\nFica com os dois e as metades encaixam. Claras e escuras, nada por cobrir, e os dois nunca disputam a mesma casa. Isso é o **par de bispos**: não uma vantagem de peças, já que a contagem de pontos está igual, mas uma vantagem de cobertura que dura a partida inteira.\n\nOs jogadores fortes pagam por ele. Gastam uma jogada, ou um peão, para impedir um cavalo de se trocar por um bispo."
+    },
+    {
+      "type": "play",
+      "fen": "r2qk2r/1pp1bppp/p1np1n2/4p3/B3P3/2P2Q1P/PP1P1PP1/RNB2RK1 w k - 1 9",
+      "prompt": "Desafia o peão preto de e5 com um peão teu e abre uma estrada ao bispo que não tem nenhuma.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Os dois peões que cercam o bispo de c1 podem mexer — escolhe o que também põe uma pergunta ao centro das pretas."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "O Par É uma Promessa",
+      "text": "Outra partida, e as brancas voltam a ter os dois bispos. Um deles é um embaraço.\n\nO bispo em c1 não mexe a partida inteira, e a única casa a que chega não muda nada — o seu próprio peão de e3 está na diagonal que ele quer. Há seis peões trancados no meio, c4, d4 e e3 contra c6, d5 e e6, e nenhum bispo trepa por cima de um peão. Aos cavalos pretos isso não importa. Saltam o engarrafamento inteiro, e neste momento são as melhores peças menores."
+    },
+    {
+      "type": "teach",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "title": "Pelo Que o Par Espera",
+      "text": "Dois bispos são uma aposta num tabuleiro aberto, e a aposta paga-se em diagonais.\n\nCada peão que sai do centro alonga uma estrada, e as estradas longas são para o que um bispo serve. Um cavalo não ganha nada com a mesma limpeza: quatro saltos num tabuleiro vazio, quatro saltos num tabuleiro cheio. Portanto quem tem o par quer menos peões, e quer que saiam do meio.\n\nIsso inverte o instinto do costume. Não andas à procura de uma peça para trocar. Andas à procura de um peão com que lutar.\n\n> Dois bispos, um plano: troca peões, não peças."
+    },
+    {
+      "type": "play",
+      "fen": "r2q1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NBPQ1P/PP3PP1/R1B2RK1 w - - 4 10",
+      "prompt": "Parte o engarrafamento de peões no meio para o bispo de c1 ter finalmente uma diagonal para onde olhar.",
+      "targetSan": [
+        "e4"
+      ],
+      "hint": "O bispo em c1 quer a diagonal na direção de h6, e há exatamente um peão branco estacionado nela — mexer esse peão planta também a bandeira de um segundo peão no centro."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "double-attack",
+  "title": "O Ataque Duplo",
+  "summary": "A família a que o garfo pertence, e os casos que não consegue cobrir",
+  "proof": "forks-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Três Nomes, Uma Forma",
+      "text": "Garfo, ataque à descoberta, xeque à descoberta: três nomes que te foram entregues, e uma só forma por baixo dos três.\n\nUm garfo ataca duas peças com uma peça. Um ataque à descoberta afasta uma peça para que seja uma segunda a atacar. Os dois acabam no mesmo sítio. O teu adversário tem uma jogada e dois problemas.\n\nO nome de família é **ataque duplo**: qualquer jogada que crie duas ameaças ao mesmo tempo, seja como for que o trabalho se reparta pelas tuas peças. O garfo é a versão em que uma peça faz tudo."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "Faz Primeiro a Lista",
+      "text": "Antes de calculares seja o que for, enumera as peças inimigas que nada está a guardar.\n\nAqui a lista é curta: o cavalo em b4, o cavalo em h4, e mais nada. O rei em g8 guarda os peões ao seu lado e mais nada.\n\nSão as peças desprotegidas que transformam uma jogada vulgar num ataque duplo, e quase ninguém faz essa lista. Estes dois cavalos partilham a quarta linha, todas as casas entre eles estão vazias, e a tua dama tem uma estrada direita para lá entrar."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "prompt": "As pretas têm uma jogada: encontra a casa onde a tua dama ataca os dois cavalos ao mesmo tempo.",
+      "targetSan": [
+        "Qd4"
+      ],
+      "hint": "Trabalha a partir dos alvos: os cavalos já partilham uma linha, e nessa linha só uma casa é tua para tomares."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/5p1p/6p1/8/1n5n/8/4PPPP/3Q2K1 w - - 0 1",
+      "title": "O Que as Pretas Podem Tentar",
+      "text": "{{Qd4}}. Agora conta o que as pretas têm licença para fazer.\n\nNenhuma peça preta ataca d4, portanto a dama não pode ser capturada. Nada se consegue meter entre a dama e qualquer um dos cavalos. E nenhuma jogada isolada guarda os dois, porque um cavalo defende casas a um L de distância e estes dois não estão nada perto um do outro.\n\nResta fugir, e fugir abandona o outro. Por isso as pretas reagem: {{Nf3+}} ataca a dama e dá xeque ao rei ao mesmo tempo, um garfo jogado contra ti. Falha por uma razão aborrecida. Dois peões cobrem f3, e {{exf3}} acaba com o assunto."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "Quando Uma Peça Sozinha Não Chega",
+      "text": "Tabuleiro novo, e nada de teu ataca duas coisas ao mesmo tempo.\n\nO teu bispo em b2 possui a diagonal longa, mas o teu próprio cavalo em e5 está estacionado a meio dela. Mais adiante nessa diagonal está o cavalo em g7, defendido por nada. Longe, na outra ala, o bispo preto em a5 também está desprotegido.\n\nNenhuma peça sozinha chega aos dois. Duas chegam. Mexe o cavalo e a diagonal abre-se sozinha, como já viste uma linha abrir-se antes."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "title": "Onde o Cavalo Aterra",
+      "text": "Todas as jogadas de cavalo abrem a diagonal. {{Nd3}}, {{Nf3}}, {{Ng4}}, {{Ng6}}, qualquer uma delas.\n\nE é por isso que quase todas a desperdiçam. Uma ameaça é um problema, as pretas mexem o cavalo de g7, e o teu cavalo gastou uma jogada a ficar num sítio inútil.\n\nO bispo que está atrás fornece a primeira ameaça de graça. A segunda tem de a fornecer o cavalo onde aterrar, e neste tabuleiro só há uma coisa em que valha a pena aterrar."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/8/bp2N3/8/8/1B6/6K1 w - - 0 1",
+      "prompt": "Abre a diagonal do teu bispo com uma jogada de cavalo que ataque o bispo desprotegido ao chegar.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "Duas casas do cavalo atacam a5, e o peão preto de b5 cobre uma delas."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/6n1/2N5/bp6/8/8/1B6/6K1 b - - 1 1",
+      "title": "Conta as Saídas",
+      "text": "Duas ameaças, duas peças, e às pretas deve-se uma procura pela jogada que responda às duas.\n\n- **Capturar o atacante.** Nada consegue. A tentativa mais próxima é {{Kd7}}, e {{Nxa5}} sai com o bispo.\n- **Guardar os dois.** O bispo em a5 e o cavalo em g7 não partilham casa nenhuma.\n- **Fugir.** Seja qual for o que se mexe, o outro continua ali.\n- **Tapar.** A diagonal pode fechar-se, e é esta a tentativa que vale a pena ver.\n\nQuase resulta."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/6n1/2N5/1p6/8/2b5/1B6/6K1 w - - 2 2",
+      "prompt": "As pretas fecharam a diagonal: recolhe a peça que o bloqueio pôs no caminho.",
+      "targetSan": [
+        "Bxc3"
+      ],
+      "hint": "Absolutamente nada defende c3, e a diagonal para lá dela continua vazia."
+    }
+  ]
+}

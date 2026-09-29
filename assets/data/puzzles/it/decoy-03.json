@@ -1,0 +1,14 @@
+{
+  "id": "decoy-03",
+  "fen": "6k1/pp3ppp/1q6/r7/8/8/3Q1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qd8+",
+    "Qxd8",
+    "Rxd8#"
+  ],
+  "rating": 1230,
+  "title": "Una Donna per una Casa",
+  "setup": "La vostra donna e la vostra torre sono impilate sulla colonna d, e il re nero non ha aria dietro i suoi pedoni.",
+  "hint": "La debolezza è la traversa di fondo. Che cosa potete mettere in d8 che il Nero sia obbligato a catturare?",
+  "explanation": "## L'idea\n\n{{Qd8+}} offre la donna sull'unica casa che il Nero deve prendere: {{Qxd8}} è la sua unica mossa legale. Adesso la donna nera sta sulla traversa di fondo davanti alla vostra torre, e {{Rxd8#}} chiude la partita. Chiedetevi quale casa sarebbe fatale per un pezzo avversario, e poi fatelo andare lì."
+}

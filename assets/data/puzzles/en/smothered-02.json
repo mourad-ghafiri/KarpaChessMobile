@@ -1,0 +1,12 @@
+{
+  "id": "smothered-02",
+  "fen": "3r2k1/pp4pp/8/8/6n1/2N5/P1P3PP/6RK b - - 9 30",
+  "solution": [
+    "Nf2#"
+  ],
+  "rating": 1180,
+  "title": "The Corner Seals Itself",
+  "setup": "White has just swung a rook to g1 to guard the g-pawn, and walled its own king into the corner.",
+  "hint": "Ignore the loose rook for a moment and count the squares the white king could genuinely move to.",
+  "explanation": "## The Idea\n\nRg1 guarded the g-pawn and buried the king behind it. {{Nf2#}} checks from a square nobody watches: the rook on g1 and the pawns on g2 and h2 all look the wrong way. A defender that fills your king's last exit is not defending anything."
+}

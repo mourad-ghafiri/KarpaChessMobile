@@ -1,0 +1,13 @@
+{
+  "id": "windmill-proof",
+  "fen": "r4n1k/pq1n2Rp/1p3B2/2p5/8/2P4P/PP3PP1/6K1 w - - 0 1",
+  "solution": [
+    "Rxd7+",
+    "Kg8",
+    "Rxb7"
+  ],
+  "title": "Prima Derubate la Guardia",
+  "setup": "La vostra torre in g7 sta fra il vostro alfiere e il re nero, quindi qualunque mossa di torre dà scacco. Scegliete quella a cui il Nero non può rispondere con una presa.",
+  "hint": "A uno scacco di scoperta si può rispondere catturando il pezzo che lo dà. Trovate che cosa può prendere il vostro alfiere, e rendetelo impossibile.",
+  "explanation": "## L'idea\n\nOgni mossa di torre dà scacco. Quasi tutte lasciano che il cavallo di d7 prenda l'alfiere in f6, e i due scacchi doppi, in g8 e h7, consegnano al re la vostra torre. {{Rxd7+}} prende invece quel cavallo, così lo scacco regge e {{Kg8}} è l'unica mossa legale.\n\nLa torre in d7 adesso guarda lungo la settima traversa fino alla donna, e la donna non ha il tempo di scappare: {{Rxb7}} se la prende. La torre ha dato scacco, e ha derubato due volte."
+}

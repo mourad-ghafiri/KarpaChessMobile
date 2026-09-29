@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-09",
+  "fen": "rnbqkbn1/ppppp3/8/6pr/3P1p2/3BP1B1/PPP2PPP/RN2K1NR w KQq - 0 8",
+  "solution": [
+    "Bg6#"
+  ],
+  "rating": 840,
+  "title": "O Buraco de f7",
+  "setup": "As pretas acabaram de comer a tua dama em h5, e f7 está vazia com o rei preto ainda em e8.",
+  "hint": "O rei preto tem exatamente uma casa livre ao lado. Que peça a pode atacar e dar xeque ao mesmo tempo?",
+  "explanation": "## A Ideia\n\nAs próprias peças das pretas ocupam d7, d8 e f8, portanto f7 é a única casa do rei, e {{Bg6#}} cobre f7 enquanto dá xeque mesmo através dela. A torre que acabou de comer a tua dama está a uma casa de travar isto e não consegue voltar a tempo."
+}

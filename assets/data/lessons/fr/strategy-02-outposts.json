@@ -1,0 +1,56 @@
+{
+  "id": "outposts",
+  "title": "Les avant-postes",
+  "summary": "Des cases qu'aucun pion adverse ne peut toucher",
+  "proof": "strategy-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "La case que personne ne peut garder",
+      "text": "Comptez les pions noirs qui attaqueront un jour d5. Le pion c a été échangé il y a plusieurs coups. Le pion en d6 et le pion en e5 regardent tous deux ailleurs, et aucun pion ne recule.\n\nAucun. Ni à ce coup, ni dans vingt coups, ni jamais.\n\nUne case en territoire adverse qu'aucun pion adverse ne pourra jamais attaquer est un **avant-poste**. On adoucit souvent le mot en « une belle case », ce qui perd la seule chose qui compte : *ne pourra jamais*. Un trou comme celui-ci ne se referme pas."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "Ce que coûte l'expulsion",
+      "text": "Ce sont les pions qui chassent les pièces. Un pion avance, la pièce doit bouger, et le pion n'a presque rien dépensé pour l'exiger.\n\nEn d5, un tel pion n'existe pas, et n'existera jamais. Les Noirs ne peuvent dégager cette case qu'en y sacrifiant une vraie pièce — un fou, disons, contre un cavalier, un marché que personne ne propose de bon cœur.\n\nC'est pour cela que le cavalier est la pièce à envoyer. Un cavalier est lent et de courte portée, alors une adresse permanente au fond du territoire adverse vaut plus pour lui que pour n'importe quelle autre pièce."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "prompt": "Postez un cavalier là où aucun pion noir ne pourra plus jamais l'attaquer.",
+      "targetSan": [
+        "Nd5"
+      ],
+      "hint": "Il y a deux cavaliers blancs sur l'échiquier, et un seul touche d5."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/3Np3/4P3/1N2B3/PPP1BPPP/R2Q1RK1 b - - 7 10",
+      "title": "L'addition arrive",
+      "text": "Le cavalier se tient en d5 et rien de bon marché ne peut l'en chasser. Tous les pions noirs qui auraient pu couvrir la case ont disparu ou regardent dans la mauvaise direction.\n\nLes Noirs paient donc. {{Bxd5}} livre un fou contre un cavalier, et après {{exd5}} c'est un pion blanc qui tient la case, retirant c6 et e6 à toutes les pièces noires.\n\nL'autre option est de laisser le cavalier où il est et de jouer le reste de la partie autour de lui. Aucune des deux voies n'est agréable, et c'est là le bénéfice : les deux choix des Noirs ont empiré."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "Fabriquez le vôtre",
+      "text": "Personne ne vous offre un trou deux fois. Les pions noirs sont ici plus sains — a7, b7, c6, d5, e6, f7, g7, h7, rien d'échangé et rien d'isolé.\n\nRegardez quand même la cinquième rangée. Le pion en d5 a déjà dépassé les cases à côté de lui, et le pion en e6 couvre d5 et f5, rien d'autre.\n\nIl reste une case au milieu de la moitié noire que seul le pion f pourrait un jour contester."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "Le pion qui ne poussera pas",
+      "text": "Le pion f noir est le seul gardien qui reste à cette case, et il ne viendra pas. Le cavalier en f6 lui barre la route, et une fois le cavalier parti, pousser le pion dénude le roi en g8.\n\nUne case que votre adversaire ne peut pas se permettre de contester vaut une case qu'il ne peut pas atteindre.\n\nUne chose encore. Le pion blanc en d4 couvre déjà la case, donc un cavalier qui s'y pose arrive protégé — les Noirs ne peuvent ni le chasser ni le gagner, seulement l'acheter avec une pièce.\n\n> Leurs pions ne peuvent pas se permettre de la contester, votre pion la protège, et votre cavalier y habite."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "prompt": "Plantez un cavalier sur la case que les pions noirs ont abandonnée et que votre propre pion protège déjà.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "Votre pion d protège deux cases — l'une d'elles est au milieu du camp noir."
+    }
+  ]
+}

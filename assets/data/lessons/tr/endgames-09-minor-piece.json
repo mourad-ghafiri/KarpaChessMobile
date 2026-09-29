@@ -1,0 +1,56 @@
+{
+  "id": "minor-piece-endings",
+  "title": "Fil mi At mı?",
+  "summary": "Puanları değil, hamleleri sayın",
+  "proof": "endgames-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Tek Taş, İki Kanat",
+      "text": "Siyahın piyonları tahtanın zıt kenarlarında koşuyor — bir yanda a4'teki piyon, öbür yanda g6 ile h7'deki piyonlar. Beyazın ikisine birden cevap verecek tek bir taşı var.\n\nBu oyun sonunun döndüğü soru budur. Hangi taşın daha güzel olduğu değil. Hangi taşın iki yerde birden olabildiği.\n\nc2'deki fil, b3 çaprazından a4'e çoktan bakıyor ve g6'ya dikilen kare olan h5'e iki hamle uzaklıkta duruyor. Aynı taş, iki kanat."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Bire Karşı Dört Hamle",
+      "text": "O filin durduğu yere bir at koyun ve sıçrayışları sayın. Yalnızca a4'e saldıran bir kareye varmak için üç, onu almak için dördüncü — oysa piyonun vezir olması için yalnızca üç hamleye ihtiyacı var.\n\nFilin bir hamleye ihtiyacı var. Daha iyi taş olduğu için değil, başka türden bir taş olduğu için. İkisi de üç puan eder ve tahtayı tek hamlede yalnızca biri geçer.\n\nİki kanatta piyon, filin karşılığını veren şekildir. Hatlar açıktır, yolda hiçbir şey yoktur ve açık tahtadaki fil yol almaz. Varır."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "prompt": "Uzak kanattaki koşucuyu, bir hamle sonra öteki tarafı korumaya dönebilecek taşla alın.",
+      "targetSan": [
+        "Bxa4"
+      ],
+      "hint": "Koşucu da filiniz de açık karelerde duruyor; öyleyse onları birleştiren çaprazı okuyun."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5k1p/6p1/8/B7/8/8/4K3 w - - 1 2",
+      "title": "Gerektiğinden Önce Geri",
+      "text": "a piyonu gitti ve siyahın f7'deki şahı kalanların başında duruyor.\n\na4'teki filiniz artık o iki piyona tahtanın uzak kenarında. {{Bd1}} gelir ve önündeki uzun açık çapraz açılır — e2, f3, g4, h5 — h5 de dosdoğru g6'ya bakar. Bütün tahtayı geçmek iki hamle. Aynı kareden başlayan bir atın yalnızca g6'ya saldırmak için üç sıçrayışa ihtiyacı olurdu.\n\n> Üç puan, bir taşın fiyatıdır. Değeri ise partinin oynandığı tarafa ne kadar çabuk vardığıdır."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "Yarım Tahta, Temelli",
+      "text": "Yeni bir pozisyon ve durum tersine dönüyor. Siyahın c7'deki fili koyu bir karede duruyor. a7'deki piyon da öyle. e7'deki piyon da öyle.\n\nAynı renk olmak güvende olmakla aynı şey değildir. Piyonların hiçbiri diğerini korumuyor ve filin tek hamlede ulaşabildiği hiçbir kare ikisini birden korumuyor — bir kapının önünde dururken öteki ardına kadar açılabilir.\n\nVe tahtadaki her açık kare, bu hamlede de temelli de onun tümüyle ötesinde."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "Rengi Olmayan Taş",
+      "text": "e5'teki atınıza şu anda o fil saldırıyor. Çapraz c7, d6, e5 boyunca uzanıyor ve içinde hiçbir şey yok. Yani at oynar.\n\nHer at sıçrayışı, ayrıldığı karenin zıt rengine iner; bir filin bir atı uzun süre kovalayamamasının sebebi de budur. Siyahın fili koyu karelerde yaşıyor. Açık bir kareye park etmiş beyaz at, partinin sonuna kadar ondan güvendedir.\n\nYani at bir açık kare arıyor. İstediği şey, aynı zamanda bir iş de gören bir açık kare."
+    },
+    {
+      "type": "play",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "prompt": "Saldırı altındaki atı, siyahın filinin asla ulaşamayacağı bir kareye götürün ve yolda iki boştaki piyona birden vurun.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "Piyonlar a7 ile e7'de oturuyor; öyleyse hangi açık karenin ikisine birden dokunduğunu bulun."
+    }
+  ]
+}

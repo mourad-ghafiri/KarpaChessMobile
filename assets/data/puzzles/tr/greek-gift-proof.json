@@ -1,0 +1,11 @@
+{
+  "id": "greek-gift-proof",
+  "fen": "r2q1rk1/pbpp2pp/1pn1pb2/7n/2PP1Pp1/P1NBP3/1PQ1N2P/R1B2RK1 w - - 0 12",
+  "solution": [
+    "Bxh7+"
+  ],
+  "title": "Kimsenin Alamayacağı Hediye",
+  "setup": "d3'teki filiniz ile c2'deki veziriniz tek bir çaprazı paylaşıyor ve h7'yi yalnızca siyahın şahı koruyor.",
+  "hint": "Filinizin arkasında ne durduğunu sayın. Fil d3'ten ayrılırsa siyahın hangi hamlesi kurallı olmaktan çıkar?",
+  "explanation": "## Fikir\n\n{{Bxh7+}} fili elden verir ve siyahın onu almasına izin yoktur. Fil d3'ten ayrıldığı anda c2'deki vezir ta h7'ye kadar görür, yani şah o kareye adım atamaz. Bunun yerine h8'e ya da f7'ye yürümesi gerekir.\n\nBarınak bedavaya gitmiştir. …Kh8 geldikten sonra veziriniz {{Qg6}} ile devam eder ve siyahın şah kanadı ardına kadar açılır."
+}

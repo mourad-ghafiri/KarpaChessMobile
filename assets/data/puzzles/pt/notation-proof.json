@@ -1,0 +1,11 @@
+{
+  "id": "notation-proof",
+  "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Bc4"
+  ],
+  "title": "A Entrada Seguinte",
+  "setup": "Uma partida impressa diz 1.e4 e5 2.Nf3 d6, e a entrada seguinte das brancas é `3.Bc4`. Joga a jogada que ela nomeia.",
+  "hint": "A letra maiúscula nomeia a peça, e os dois caracteres a seguir nomeiam a casa onde ela aterra.",
+  "explanation": "## A Ideia\n\nB é o bispo, e c4 é a casa. Só o bispo de f1 chega a c4, portanto à entrada não é preciso mais nada: {{Bc4}}.\n\nO número diz-te que é a terceira jogada das brancas, e as jogadas anteriores puseram cada peça onde a vês agora. Uma letra para a peça, uma casa para onde ela aterra."
+}

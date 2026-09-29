@@ -1,0 +1,11 @@
+{
+  "id": "endgame-05",
+  "fen": "8/8/7r/4k3/2P5/2K5/8/5R2 w - - 0 1",
+  "solution": [
+    "Rd1"
+  ],
+  "title": "The Wall on the d-File",
+  "setup": "Your c-pawn has a long way to go, and Black's king on e5 is walking over to meet it. One rook move decides whether it ever arrives.",
+  "hint": "Count the files between Black's king and your pawn. The king has to cross one of them first, so make it yours.",
+  "explanation": "## The Idea\n\nOnly the d-file separates Black's king from your pawn's road, so {{Rd1}} takes it. The king on e5 may not step onto a square the rook covers, and now it covers the whole file: the king is penned on the far side for as long as the rook stays.\n\nYour king then walks up beside the c-pawn and escorts it home. Any other move lets Black's king cross to the d-file and get in front of the pawn, and the ending is a draw."
+}

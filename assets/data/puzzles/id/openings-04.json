@@ -1,0 +1,11 @@
+{
+  "id": "openings-04",
+  "fen": "r1b1kb1r/pp1n1ppp/2p1p3/q2p2B1/2PPn3/2NBPN2/PPQ2PPP/R3K2R b KQkq - 5 8",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "Jepitan Cambridge Springs",
+  "setup": "Anda menopang d5 dengan pion di c6 dan e6 dan menempatkan menteri di a5. Menteri Putih baru saja menyerang kuda Anda di e4.",
+  "hint": "Menteri Anda menjepit kuda di c3 terhadap raja putih. Dengan kuda itu terpaku, apa yang tersisa untuk menjaga gajah Putih?",
+  "explanation": "## Ide\n\nMenteri Anda di a5 menjepit kuda di c3 terhadap raja putih, jadi gajah di g5 hanya punya satu penjaga, kuda di f3.\n\n{{Nxg5}} tetap mengambil gajah itu. Jika {{Nxg5}}, maka {{dxc4}} menyingkirkan pion Anda sendiri dari baris kelima, dan menteri merebut kembali kuda: unggul satu buah. Upaya Putih yang lain kehilangan buah itu dengan lebih senyap.\n\nBuah yang terjepit tak menjaga apa pun. Periksa itu sebelum setiap penangkapan yang tampaknya diizinkan lawan."
+}

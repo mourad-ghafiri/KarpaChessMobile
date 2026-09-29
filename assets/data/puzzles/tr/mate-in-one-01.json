@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-01",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq g3 0 2",
+  "solution": [
+    "Qh4#"
+  ],
+  "rating": 600,
+  "title": "İki Piyon Fazla İleri",
+  "setup": "Beyazın ilk iki hamlesi, kendi şahında biten tek çaprazı açtı.",
+  "hint": "Beyazın şahını yalnızca tek bir hat gösteriyor ve bu hamlede o hatta yalnızca tek bir siyah taş adım atabiliyor.",
+  "explanation": "## Fikir\n\nf ve g piyonları, e1'i h4–e1 çaprazındaki örtüsünden yoksun bırakan iki hamledir. {{Qh4#}} gelir; araya girecek bir şey ve onu alabilecek bir şey yoktur. Şahınız onların arkasında yaşadığı sürece o iki piyonu evde tutun."
+}

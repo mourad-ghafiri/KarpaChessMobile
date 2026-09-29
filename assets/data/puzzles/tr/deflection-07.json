@@ -1,0 +1,14 @@
+{
+  "id": "deflection-07",
+  "fen": "3r2k1/ppq3pp/b6Q/6N1/8/8/1B3PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Qxg7#"
+  ],
+  "rating": 1340,
+  "title": "Koruyucuyu Yedinciden Çıkarın",
+  "setup": "Vezirinizle filiniz g7'ye nişan alıyor, ama siyahın c7'deki veziri o kareyi yedinci yatay boyunca kapsıyor.",
+  "hint": "Sizin iki taşınız g7'ye saldırıyor, onların iki taşı koruyor. Hangi koruyucuya başka bir yerde iş verilebilir?",
+  "explanation": "## Fikir\n\n{{Rxd8+}} {{Qxd8}} hamlesini zorlar ve vezir d8'den artık g7'yi görmez. {{Qxg7#}} mat eder; b2'deki fil veziri yerinde tutar. Bir mat karesinin koruyucularını sayın, sonra birini kaldırın. Mat kareleri taşlarca korunur ve taşlara başka iş verilebilir."
+}

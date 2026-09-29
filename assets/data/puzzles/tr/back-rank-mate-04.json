@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-04",
+  "fen": "6k1/5ppp/1q6/8/8/8/3R1PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Qxd8",
+    "Rxd8#"
+  ],
+  "rating": 820,
+  "title": "İki Kale, Tek Dikey",
+  "setup": "Kaleleriniz açık d dikeyinde üst üste dizilmiş ve siyahın veziri az önce dikeyden çıkıp b6'ya adımladı.",
+  "hint": "Siyahın veziri sekizinci yataydaki tek koruyucu. Onu taş almak zorunda bırakırsanız ne olur?",
+  "explanation": "## Fikir\n\n{{Rd8+}} bir vahim hata değil, bir davettir. Şah oynayamaz ve vezir b6'dan araya giremez, yani {{Qxd8}} mecburidir; ikinci kale de {{Rxd8#}} ile mat eder. Arka yatayda iki saldıran, bir koruyucuyu her seferinde yener."
+}

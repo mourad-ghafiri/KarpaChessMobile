@@ -1,0 +1,14 @@
+{
+  "id": "pawn-ending-06",
+  "fen": "5k2/8/5PK1/8/8/8/8/8 w - - 1 2",
+  "solution": [
+    "f7",
+    "Ke7",
+    "Kg7"
+  ],
+  "rating": 1280,
+  "title": "Başka Hiçbir Şey Kazanmaz",
+  "setup": "Siyahın şahı az önce karşıya, dosdoğru piyonun önüne, f8'e adımladı ve beyazın seçim yapması gerekiyor.",
+  "hint": "Beyazın altı hamlesinden beşi puanı çöpe atar; hangisinin siyahın şahından kare aldığını sorun.",
+  "explanation": "## Fikir\n\n{{f7}} piyonu duvara alıyor gibi görünür, ama e8 ile g8'i kapsar; yani {{Ke7}} mecburidir ve {{Kg7}} piyonu eve yürütür. Bunun yerine her şah hamlesi, siyahın şahının piyonun önündeki yerini korumasına izin verir ve oyun sonu ölü bir beraberliğe döner."
+}

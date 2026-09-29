@@ -1,0 +1,12 @@
+{
+  "id": "promotion-03",
+  "fen": "rk6/4Pppp/8/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "e8=Q+"
+  ],
+  "rating": 1080,
+  "title": "Line Up the Rank",
+  "setup": "Your e-pawn reaches the eighth rank next move, and the black king and rook already stand on it.",
+  "hint": "King and rook share a line with the square your pawn is heading for. Which of the two is in front?",
+  "explanation": "## The Idea\n\n{{e8=Q+}} promotes with check along the eighth rank, so Black gets no time to stop the pawn. The rook on a8 stands behind the king on that same line: step to c7 and the new queen takes it. {{Ka7}} or {{Kb7}} keeps the rook guarded, but you are still a queen against a rook.\n\nWhen the enemy king stands on your queening rank, promote with check."
+}

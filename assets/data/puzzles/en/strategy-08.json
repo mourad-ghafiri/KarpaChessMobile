@@ -1,0 +1,11 @@
+{
+  "id": "strategy-08",
+  "fen": "r1bqk2r/2p1bppp/p2p1n2/np2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w k - 1 9",
+  "solution": [
+    "Bc2"
+  ],
+  "title": "Do Not Sell the Pair",
+  "setup": "Black's knight has jumped to a5 to swap itself for your light-squared bishop. Keep the bishop pair.",
+  "hint": "The knight on a5 has asked a question. Price your bishop by what it will be worth in six moves, not this one.",
+  "explanation": "## The Idea\n\nTwo bishops cover every square on the board; one covers half of it. Strong players price the pair at about half a pawn and spend real moves keeping it.\n\n{{Bc2}} steps out of reach and keeps both bishops. The other retreats fail: c4 is still in the knight's reach, and a4 hangs to the b-pawn. Black gets on with {{c5}}, and White opens the center with {{d4}}.\n\nStanding still invites {{Nxb3}}, which hands Black the pair, doubles White's b-pawns and opens the a-file in one move."
+}

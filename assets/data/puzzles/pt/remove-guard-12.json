@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-12",
+  "fen": "8/pP3pkp/3b2p1/8/8/8/5PKP/3R4 w - - 1 2",
+  "solution": [
+    "Rxd6"
+  ],
+  "rating": 1450,
+  "title": "Compra a Dama",
+  "setup": "O teu peão de b7 está a uma casa de fazer dama, e o bispo de d6 é a única peça a vigiar b8.",
+  "hint": "Nada neste tabuleiro interessa a não ser a coluna b. Que peça preta trava esse peão?",
+  "explanation": "## A Ideia\n\n{{Rxd6}} é uma torre por um bispo, e uma pechincha: esse bispo era a única peça a cobrir b8. Nada pode recapturar, portanto {{b8=Q}} chega na jogada seguinte. Troca o material que quiseres por um peão que faz dama."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "openings-12",
+  "fen": "r3kbnr/pp1b1ppp/1qn1p3/3pP3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 2 8",
+  "solution": [
+    "Nxd4",
+    "Nxd4",
+    "Qxd4"
+  ],
+  "title": "Cae la base",
+  "setup": "Una Francesa del avance: las Blancas han puesto el alfil en d3 y el caballo en c3, y nadie ha contado el peón de la base de la cadena.",
+  "hint": "Cuenta los atacantes y defensores del peón base blanco. El alfil de d3 está delante de uno de los defensores blancos.",
+  "explanation": "## La idea\n\nLa base de la cadena blanca es d4. Tu caballo de c6 y tu dama de b6 la atacan, y solo la defiende el caballo de f3: el alfil de d3 le corta el camino a la dama blanca.\n\n{{Nxd4}} se la come, y tras {{Nxd4}} {{Qxd4}} tienes un peón limpio de ventaja. El truco habitual, un jaque de alfil en b5 que destapa a la dama blanca, aquí falla porque tu alfil de d7 cubre b5 en cuanto el caballo ha dejado c6.\n\nCuenta primero la base de la cadena."
+}

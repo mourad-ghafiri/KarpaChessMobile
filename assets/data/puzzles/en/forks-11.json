@@ -1,0 +1,15 @@
+{
+  "id": "forks-11",
+  "fen": "3rk3/8/8/8/4n3/8/2Q3PP/3R3K b - - 0 1",
+  "solution": [
+    "Rxd1+",
+    "Qxd1",
+    "Nf2+",
+    "Kg1",
+    "Nxd1"
+  ],
+  "title": "Knight Eats Queen",
+  "setup": "The white king sits on h1 behind two pawns, and its rook on d1 is defended only by the queen.",
+  "hint": "Nothing forks yet. Ask which white piece you can force onto the square where a fork would appear.",
+  "explanation": "## The Idea\n\nYour knight's fork square is f2, hitting h1 and d1, but the queen on c2 guards it, so the immediate hop just drops the knight. {{Rxd1+}} is check, and {{Qxd1}} is forced, so the queen now stands on one of the fork's targets. {{Nf2+}}, {{Kg1}} is forced, and {{Nxd1}} wins the queen: you were a queen down, and now the material is level.\n\nWhen a fork square is guarded, drag the guard onto one of the fork's targets."
+}

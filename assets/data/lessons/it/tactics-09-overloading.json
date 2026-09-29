@@ -1,0 +1,57 @@
+{
+  "id": "overloading",
+  "title": "Il Sovraccarico",
+  "summary": "Una guardia, due compiti, e scegliete voi quale lascia cadere",
+  "proof": "overload-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "A una Casa dalla Donna",
+      "text": "Il pedone bianco in a7 è a una casa dal diventare donna, e un pezzo nero glielo impedisce. La torre in c8 copre a8 lungo una traversa vuota, quindi a {{a8=Q}} si risponde {{Rxa8}} e la nuova donna dura esattamente una mossa.\n\nEcco il primo compito. La torre lo svolge senza muoversi. Sta in c8, e il pedone resta un pedone."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "E Sta Tenendo il Cavallo",
+      "text": "Adesso guardate lungo la colonna c. Il cavallo nero in c5 è attaccato dall'alfiere bianco in e3, e l'unica cosa che lo difende è quella stessa torre in c8, che arriva laggiù oltre due case vuote.\n\nNient'altro dalla parte del Nero si avvicina a c5. Il re in g8 è a quattro colonne di distanza, e nessun pedone è abbastanza vicino da contare.\n\nUna torre, due compiti, e in questo momento li sta svolgendo tutti e due senza alzare un dito."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Lasciatela Esattamente Dov'È",
+      "text": "Due modi di spezzare una guardia sono già vostri, e la torre in c8 sopravvive a tutti e due. Niente del Bianco la attacca, quindi non si può togliere dalla scacchiera. Non c'è niente che sia costretta ad accettare, quindi non si può tirare via dalla sua casa.\n\nBene. Lasciatela lì. Un pezzo che copre due cose insieme è **sovraccarico**, e finché nessuno gli chiede niente, due compiti sono esattamente facili come uno.\n\nE allora chiedete. Difendere non è stare fermi — è una mossa, e la torre è una sola."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "prompt": "Prendete una delle due cose che la torre copre e lasciate che sia la torre a decidere quale tenersi.",
+      "targetSan": [
+        "Bxc5"
+      ],
+      "hint": "Solo uno dei due compiti della torre è un pezzo su cui potete mettere le mani, e il Bianco ci punta già contro."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "L'Ottava Traversa Non È di Nessuno",
+      "text": "Il Nero ha preso l'alfiere, e il cambio è stato pari — un alfiere per un cavallo, tre punti per parte. La torre sta in c5 perché è lì che doveva andare per riprendere.\n\nEd è tutto qui il problema. Da c5 la torre vede la colonna c e la quinta traversa, e a8 non sta su nessuna delle due.\n\nRifiutare non era meglio. Il cavallo sarebbe semplicemente sparito, e il pedone in a7 starebbe ancora qui."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "Trovare il Prossimo",
+      "text": "Ci sono due controlli, e quasi tutti fanno solo il primo.\n\nNominate il pezzo avversario che lavora di più e dite ad alta voce i suoi compiti: questa casa, quel pezzo. Poi nominate tutto il resto che li copre. Un secondo difensore da qualche parte e non c'è sovraccarico — c'è solo un pezzo che non potete prendere.\n\nUna guardia, due compiti, due posti diversi dove stare. Prendete quello dei due che riuscite a raggiungere, e la guardia sceglie di perdere l'altro.\n\n> Non chiedetevi che cosa difende un difensore. Chiedetevi quante cose, e che cosa deve lasciarsi dietro per salvarne una."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "prompt": "Adesso niente copre l'ottava traversa: raccogliete quello che la torre stava lì a impedire.",
+      "targetSan": [
+        "a8=Q+",
+        "a8=R+"
+      ],
+      "hint": "La torre tiene c5 e la quinta traversa, e a8 non sta su nessuna delle due."
+    }
+  ]
+}

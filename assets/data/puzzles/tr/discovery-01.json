@@ -1,0 +1,12 @@
+{
+  "id": "discovery-01",
+  "fen": "3r3k/5p1p/6p1/4N3/8/3q4/1B3PPP/5RK1 w - - 0 1",
+  "solution": [
+    "Nxd3+"
+  ],
+  "rating": 960,
+  "title": "Öndeki Taş",
+  "setup": "b2'deki filiniz siyahın şahına doğrultulmuş ve yolda duran tek şey kendi e5'teki atınız.",
+  "hint": "Filinizle rakip şah arasında sizin bir taşınız duruyor. O yana çekildiği anda ne olur?",
+  "explanation": "## Fikir\n\nAt, bir bataryanın öndeki taşıdır. {{Nxd3+}} aynı hamlede hem veziri alır hem de filin h8'e giden şahını açar; yani siyahın geri almak yerine şaha cevap vermesi gerekir. Almak şahla birlikte geliyorsa korunan taş aslında korunmuyordur."
+}

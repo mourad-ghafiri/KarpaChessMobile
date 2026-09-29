@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-08",
+  "fen": "7k/4bppp/r5R1/1Q4B1/8/8/PP2r3/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Bf8",
+    "Qxf8#"
+  ],
+  "rating": 1560,
+  "title": "Ofrécesela al alfil",
+  "setup": "Tu dama de b5 y tu torre de g6 apuntan a un rey que tiene al alfil de e7 como compañía.",
+  "hint": "El alfil solo puede tapar en una casilla. Elige el jaque que lo obliga a elegir esa casilla.",
+  "explanation": "## La idea\n\n{{Qe8+}} obliga a {{Bf8}}: el alfil no puede comer y el rey no puede moverse. Sigue {{Qxf8#}}: la dama cubre g8, y en g7 y h7 están los propios peones negros. El jaque no es el mate; es lo que prepara el mate."
+}

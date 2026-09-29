@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-08",
+  "fen": "6k1/5ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Uzun Yürüyüş, Kısa Mat",
+  "setup": "Siyahın şahı hiç oynamamış üç piyonun arkasında oturuyor ve b1'deki kaleniz bütün b dikeyine tek başına sahip.",
+  "hint": "Siyahın piyonları şahı mühürlemiş. Kalenizin şah çekerek ulaşabildiği arka yatay karesini bulun.",
+  "explanation": "## Fikir\n\n{{Rb8#}} anında mattır. Kale arka yataya şah çekerek varır ve g8'deki şahın gidecek yeri yoktur: f7, g7 ve h7'de kendi piyonları durur; f8 ile h8 kalenin yatayındadır. Hiçbir şey kaleyi alamaz ya da şahı kapatamaz.\n\nDaha önce oynanacak h6 gibi tek bir piyon adımı şaha bir kare verir ve bütün deseni durdururdu."
+}

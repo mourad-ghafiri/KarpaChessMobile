@@ -1,0 +1,14 @@
+{
+  "id": "skewer-02",
+  "fen": "8/3k3q/1B2p3/8/2Qp4/8/4bPP1/6K1 w - - 0 1",
+  "solution": [
+    "Qc7+",
+    "Ke8",
+    "Qxh7"
+  ],
+  "rating": 940,
+  "title": "Espeto na Sétima Linha",
+  "setup": "O rei preto em d7 e a dama preta em h7 partilham a sétima linha sem absolutamente nada pelo meio.",
+  "hint": "Que casa ao lado do rei preto já é coberta por outra peça branca? Dá xeque pela linha que eles partilham.",
+  "explanation": "## A Ideia\n\nO rei de **d7** e a dama de **h7** estão numa só linha. {{Qc7+}} dá xeque do outro extremo, e o bispo de **b6** guarda c7, portanto o rei não pode comer. Depois de {{Ke8}} a linha está livre e {{Qxh7}} recolhe a dama."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-10",
+  "fen": "4k3/4p3/8/8/1n2R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Rxb4"
+  ],
+  "title": "The Rook Chooses",
+  "setup": "Your rook on **e4** attacks along both of its lines: a knight sits on the rank, a pawn on the file.",
+  "hint": "The e7-pawn looks tempting, but look at who is standing right behind it.",
+  "explanation": "## The Idea\n\nThe rook reaches two black pieces, one on its file and one on its rank.\n\n{{Rxe7+}} walks into {{Kxe7}}: the king on e8 guards e7, and you have traded a five-point rook for a one-point pawn. {{Rxb4}} takes a knight that nothing guards and keeps all three points.\n\nThe king is a real defender, and anything standing next to it is guarded. Check your rook's whole rank and file, then take the target nobody protects."
+}

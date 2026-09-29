@@ -1,0 +1,11 @@
+{
+  "id": "common-mistakes-proof",
+  "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/1Q6/PPPP1PPP/RNB1K1NR b KQkq - 3 5",
+  "solution": [
+    "Nd4"
+  ],
+  "title": "Perjalanan Ketiga Sang Menteri",
+  "setup": "Menteri Putih telah bergerak tiga kali dalam lima langkah, dan dari b3 ia kembali menatap f7. Buat ia membayar perjalanannya.",
+  "hint": "Menyerang menteri dengan buah yang lebih murah memberi keuntungan satu langkah. Temukan serangan yang juga mengincar c2, satu lompatan dari raja dan benteng Putih.",
+  "explanation": "## Ide\n\nMenteri yang keluar terlalu awal menerima tagihannya. {{Nd4}} menyerangnya dengan kuda, dan kuda itu juga mengincar c2, tempat sebuah penangkapan akan memberi sekak kepada raja dan menyerang benteng di a1.\n\nMenteri harus bergerak untuk keempat kalinya, dan setiap balasan membuat Hitam jelas lebih baik. Merebut f7 lebih dulu tak mengubah apa pun: sesudah gajah menangkap dengan sekak, raja melangkah ke e7, dan menteri masih diserang."
+}

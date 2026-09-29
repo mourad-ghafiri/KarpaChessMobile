@@ -1,0 +1,13 @@
+{
+  "id": "windmill-proof",
+  "fen": "r4n1k/pq1n2Rp/1p3B2/2p5/8/2P4P/PP3PP1/6K1 w - - 0 1",
+  "solution": [
+    "Rxd7+",
+    "Kg8",
+    "Rxb7"
+  ],
+  "title": "Önce Koruyucuyu Soyun",
+  "setup": "g7'deki kaleniz filinizle siyahın şahı arasında duruyor, yani her kale hamlesi şah çekiyor. Siyahın taş alarak cevaplayamayacağını seçin.",
+  "hint": "Açılan şaha, şahı çeken taşı alarak cevap verilebilir. Filinizi neyin alabildiğini bulun ve bunu imkânsız kılın.",
+  "explanation": "## Fikir\n\nHer kale hamlesi şah çeker. Çoğu, d7'deki atın f6'daki fili almasına izin verir ve g8 ile h7'deki iki çifte şah da kalenizi şaha verir. {{Rxd7+}} bunun yerine o atı alır, böylece şah geçerli kalır ve {{Kg8}} tek kurallı hamledir.\n\nd7'deki kale artık yedinci yatay boyunca vezire bakar ve vezirin kaçacak vakti yoktur: {{Rxb7}} onu alır. Kale hem şah çekti hem iki kez soydu."
+}

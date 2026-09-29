@@ -1,0 +1,13 @@
+{
+  "id": "openings-16",
+  "fen": "rnbqk2r/pp3ppp/4p3/2Pn4/8/P1P2P2/4P1PP/R1BQKBNR b KQkq - 0 8",
+  "solution": [
+    "Qa5",
+    "Bd2",
+    "Qxc5"
+  ],
+  "title": "Two Pawns on One File",
+  "setup": "Black gave up the dark-squared bishop to double White's c-pawns, and White has just snatched a pawn on c5. Attack both c-pawns at once.",
+  "hint": "White's c-pawns stand on c3 and c5, one file and no pawn to guard either. Find the square that looks at both at once.",
+  "explanation": "## The Idea\n\nThe bishop was traded for a knight so that White's c-pawns would end up stacked. Here they cost something.\n\n{{Qa5}} attacks both: c3 along the diagonal and c5 along the fifth rank, and no white pawn can defend either one. If White props up c3 with {{Bd2}}, {{Qxc5}} takes the pawn back. White's best is to push the e-pawn first and drive your knight off d5.\n\nMaterial comes out level, but the doubled pawns stay. Attack the weakness a pawn cannot defend."
+}

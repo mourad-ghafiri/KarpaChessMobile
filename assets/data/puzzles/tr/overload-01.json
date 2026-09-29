@@ -1,0 +1,14 @@
+{
+  "id": "overload-01",
+  "fen": "2Q2rk1/4Rppp/8/8/8/8/PP2R3/K4b2 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Re8#"
+  ],
+  "rating": 1250,
+  "title": "İki Görev, Tek Kale",
+  "setup": "Veziriniz f8'i gözlüyor ve iki kaleniz de e dikeyinde üst üste dizilmiş; siyahın f8'deki kalesi ise bütün savunmayı tek başına yapıyor.",
+  "hint": "Siyahın tek bir taşı aynı anda iki giriş karesini kapsıyor. Yalnızca birini kapsamasına izin verilirse ne olur, sorun.",
+  "explanation": "## Fikir\n\nf8'deki kalenin iki görevi var: sekizinci yatayı kapatmak ve e8'i ulaşılmaz tutmak. {{Qxf8+}} ilkini bir vezirle satın alır, {{Kxf8}} mecburidir ve şimdi {{Re8#}} artık gözleyemediği kareye yürür. İki görevi olan koruyucunun hiç görevi yoktur."
+}

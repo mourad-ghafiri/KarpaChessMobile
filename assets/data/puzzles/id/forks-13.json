@@ -1,0 +1,11 @@
+{
+  "id": "forks-13",
+  "fen": "4k3/pp3ppp/8/1N3q2/8/8/PP3PPP/R1B3K1 w - - 0 1",
+  "solution": [
+    "Nd6+"
+  ],
+  "title": "Kuda Merenggut Menteri",
+  "setup": "Menteri Hitam di f5 menyerang kuda Anda di b5, dan raja Hitam masih di rumah di e8.",
+  "hint": "Jangan sekadar menyelamatkan kuda. Temukan lompatan yang memberi sekak kepada raja dan menyerang menteri.",
+  "explanation": "## Ide\n\n{{Nd6+}} memberi sekak kepada raja di e8 dan menyerang menteri di f5. Tak ada pion hitam di c7 atau e7 yang menjaga d6, jadi kuda aman, dan sekak kuda tak bisa dihalangi. Raja harus bergerak, dan {{Nxf5}} mengambil menteri dengan imbalan kuda.\n\nSebelum Anda memundurkan buah yang diserang, carilah petak tempat ia membalas serangan dengan sekak."
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pawn-breakthrough",
+  "title": "A Rutura de Peões",
+  "summary": "Entrega dois peões, promove o terceiro",
+  "proof": "pawn-breakthrough-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Três Contra Três",
+      "text": "Seis peões estão em duas fileiras e nenhum deles pode mexer sem ser capturado. As brancas têm a5, b5 e c5; as pretas têm a7, b7 e c7. Os dois reis estão estacionados do outro lado do tabuleiro, lentos de mais para contarem.\n\nQuem chegar primeiro à oitava linha ganha a partida sem mais, e neste momento não chega ninguém a lado nenhum. Todos os avanços entram numa captura, e os peões nunca voltam atrás.\n\nJogam as brancas, e as brancas estão a ganhar."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Os Peões Só Se Viram para Capturar",
+      "text": "{{a6}} parece um progresso até {{bxa6}} lhe responder. Um peão entregue por nada, e as pretas continuam com três peões contra dois das brancas.\n\nA razão é a forma da jogada. Um peão vai a direito e captura de esguelha, portanto nada do que fizeres à frente de um peão preto alguma vez o tirará da sua coluna. Um guarda só deixa a coluna que guarda capturando alguma coisa na coluna do lado.\n\nO teu rei podia atravessar e ganhar isto devagar. Os peões podem resolvê-lo já, se puseres alguma coisa nessa coluna e estiveres disposto a perdê-la."
+    },
+    {
+      "type": "play",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "prompt": "Oferece um peão no meio da fileira das pretas para que qualquer captura arraste um guarda para o lado.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Só um dos teus três avanços pode receber como resposta duas capturas diferentes, e as duas esvaziam uma coluna."
+    },
+    {
+      "type": "play",
+      "fen": "7k/1pp5/1p6/P1P5/8/8/8/6K1 w - - 0 3",
+      "prompt": "Gasta um segundo peão para arrancar o último guarda da coluna que o teu peão a quer.",
+      "targetSan": [
+        "c6"
+      ],
+      "hint": "O peão de b7 é a única coisa que vigia a estrada do teu peão a, portanto oferece-lhe alguma coisa na coluna do lado."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/2p5/1pp5/P7/8/8/8/6K1 w - - 0 4",
+      "title": "Dois Peões por Uma Estrada",
+      "text": "Dois peões gastos, e olha para o que compraram. Os três peões que restam às pretas estão entalados em b6, c6 e c7, e assim que o teu peão chegar a a6 nenhum deles lhe poderá voltar a tocar.\n\n{{a6}} {{c5}} {{a7}} {{c4}} {{a8=Q}}. O peão mais rápido das pretas ainda vai na quarta linha quando o teu chega, e o rei preto em h8 nunca esteve na conversa.\n\nNenhum dos sacrifícios estava a tentar sobreviver. Cada um pediu a um peão preto que passasse para a coluna seguinte, e um guarda que passa para o lado deixa de guardar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "title": "Um Rei ao Fundo da Diagonal",
+      "text": "A mesma ideia, outra estrada, e esta acaba num rei. O teu bispo em b2 olha pela diagonal longa acima, e a primeira coisa que lhe está no caminho é o peão preto de g7.\n\n{{Bxg7}} tiraria a rolha à mão, mas depois de {{Kxg7}} pagaste um bispo por um peão, e é o rei preto que fica na diagonal aberta.\n\nMais vale que o peão saia sozinho. Um peão só deixa a sua coluna para capturar alguma coisa."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "prompt": "Oferece um peão ao peão de g7 para que a captura que ele quer fazer seja precisamente a que te abre a diagonal.",
+      "targetSan": [
+        "f6"
+      ],
+      "hint": "Um peão só deixa a sua casa para capturar, portanto põe alguma coisa numa casa que o peão de g7 ataque."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2p1p/2np1p2/8/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 0 3",
+      "title": "A Rolha Saiu",
+      "text": "As pretas capturaram, e a rolha saiu: g7 está vazia e a diagonal longa corre até ao canto. Recusar também não teria salvo as pretas, porque então é o teu peão que captura em g7.\n\n{{Bxf6}} recaptura na diagonal longa, e a partir de f6 o bispo cobre as duas casas vazias ao lado do rei preto, g7 e h8. As pretas já estão perdidas. {{Qd8}} é a resposta natural, a atacar o bispo, e entra diretamente no final.\n\n> Pergunta o que um peão abriria se fosse capturado, e não se pode ser capturado sem risco."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp3p1p/2np1B2/8/4P3/1P3N2/P2Q2PP/R4RK1 w - - 1 4",
+      "prompt": "Mate em uma: dá xeque ao rei preto ao longo da coluna g enquanto o teu bispo cobre as duas casas de fuga.",
+      "targetSan": [
+        "Qg5#"
+      ],
+      "hint": "O teu bispo já vigia g7 e h8, portanto o rei não tem para onde fugir e a ti só falta chegar com xeque."
+    }
+  ]
+}

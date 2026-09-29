@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-18",
+  "fen": "rnbqkbnr/ppp2ppp/8/3pp3/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+  "solution": [
+    "dxe5"
+  ],
+  "title": "Abre o Centro",
+  "setup": "Os dois lados empurraram os peões d e e, e os quatro encontram-se agora no centro.",
+  "hint": "Quando quatro peões centrais se tocam, a primeira captura decide quem fica com as linhas abertas. Qual delas abre também uma coluna na direção da dama preta?",
+  "explanation": "## A Ideia\n\n{{dxe5}} come o peão e e abre a coluna d. Se as pretas responderem {{dxe4}}, então {{Qxd8+}} troca as damas com xeque, o rei preto tem de comer de volta e perde o direito ao roque, e o peão de e4 fica cortado dos seus.\n\n{{exd5}} em vez disso deixa {{Qxd5}} recapturar com uma dama no centro.\n\nQuando os peões centrais se encontram, captura por onde a coluna que abres trabalha para ti."
+}

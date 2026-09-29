@@ -1,0 +1,14 @@
+{
+  "id": "promotion-09",
+  "fen": "8/q1P1kppp/8/8/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "c8=N+",
+    "Kd7",
+    "Nxa7"
+  ],
+  "rating": 1310,
+  "title": "Vezir Değil",
+  "setup": "c piyonunuz sıradaki hamlede vezir oluyor, ama c8'deki bir vezir ne siyahın şahına ne de vezirine dokunurdu.",
+  "hint": "Yeni taşın aynı anda iki şeye vurması gerekiyor. Hangi terfinin bunu yapabildiğine bakın.",
+  "explanation": "## Fikir\n\n{{c8=N+}} e7'deki şah ile a7'deki veziri çatallar; c8'deki bir vezirin hiç saldırmayacağı iki kare. {{Kd7}} geldikten sonra at a7'de alır. En güçlüsüne değil, pozisyonun istediği taşa terfi edin."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chess-origins",
+  "title": "Nato in India",
+  "summary": "Fanti, cavalli, elefanti, carri da guerra — e quali di loro sono sopravvissuti al viaggio",
+  "proof": "history-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "Quattro Divisioni",
+      "text": "Togliete da questa scacchiera i due re e le due donne. Tutto quello che resta in piedi è una divisione di un esercito: fanti, cavalli, elefanti, carri da guerra.\n\nLa maggior parte degli storici colloca quell'esercito nell'India settentrionale attorno al VI secolo, in un gioco chiamato **chaturanga** — «dalle quattro membra», dalle quattro armi di cui un esercito era fatto. Nessuno sa dire chi lo inventò, e nessuno sa dire quando.\n\nI due pezzi che avete appena tolto non erano divisioni. Il re comandava, e accanto al re stava un consigliere. Quel consigliere è la vostra donna."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "title": "La Strada del Carro",
+      "text": "Un carro da guerra vuole una cosa sola, ed è una strada senza niente sopra.\n\nQui nessuno dei due ha più il pedone e: la colonna e è nuda da un capo all'altro tranne che per due pezzi neri: il cavallo in e4 e, in fondo alla strada, il re nero in e8.\n\nMettete su quella colonna qualcosa che colpisca lungo di essa e il cavallo resta inchiodato dov'è. Ogni casa che la sua L raggiunge è fuori da quella strada, e lasciare la strada metterebbe sotto attacco il suo stesso re."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQ1RK1 w k - 1 10",
+      "prompt": "Non c'è più un pedone e da nessuna delle due parti: prendetevi quella strada vuota con una torre e inchiodate il cavallo davanti al suo re.",
+      "hint": "Solo una delle vostre torri può arrivarci. Guardate che cosa sbarra la strada all'altra.",
+      "targetSan": [
+        "Re1"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2b2/3P4/2B1n3/5N2/PP3PPP/R1BQR1K1 b k - 2 10",
+      "title": "Una Mossa Troppo Tardi",
+      "text": "Il cavallo è attaccato e non può scappare, e ogni guardia che il Nero potrebbe mandare in e4 si allontana dall'altro cavallo — che il pedone d del Bianco sta già allungando la mano per prendere.\n\nCosì il Nero toglie invece il re dalla discussione. {{Ne7}} mette un pezzo fra i due, e il cavallo intrappolato è di nuovo libero — al tratto del Bianco.\n\n{{Rxe4}} lo raccoglie. Un carro serve a questo. Non deve raggiungere il bersaglio in questa mossa, deve solo continuare a puntarglielo addosso."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Che Cosa Fu Riscritto",
+      "text": "Scacchiera nuova. Il gioco lasciò l'India e fu riscritto più di una volta lungo la strada, e due pezzi si presero quasi tutte le modifiche.\n\nL'elefante saltava esattamente due case in diagonale. Poteva toccare otto case delle sessantaquattro e nessun'altra. L'Europa lo buttò via. Il consigliere andò esattamente nella direzione opposta: il pezzo più debole della scacchiera tornò come il più forte che ci sia sopra.\n\nIl carro e il cavallo arrivarono fin qui. L'arrocco diede poi al carro un trucco che nessun carro ha mai avuto, ma il modo in cui attraversa una scacchiera è quello di sempre."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "title": "Il Cavallo Si Tenne il Salto",
+      "text": "Ogni altro pezzo viaggia lungo una linea, e una linea corre in tutti e due i sensi — il cavallo che avete appena intrappolato era perduto perché una linea gli passava attraverso fino al suo re.\n\nUn salto non ha linea. Il cavallo non attraversa mai le case fra dove parte e dove arriva, quindi non c'è niente in cui mettersi in mezzo e niente lungo cui puntare. Uno scacco di cavallo lascia esattamente due risposte: muovere il re, o prendere il cavallo.\n\n> Una strada si può sbarrare. Un salto no."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/5ppp/8/b2N4/8/8/5PPP/R5K1 w - - 0 1",
+      "prompt": "Trovate il salto che dà scacco al re nero e attacca la torre in c8 nello stesso momento.",
+      "hint": "Partite dal re: elencate le case accanto a lui che il vostro cavallo raggiunge, poi chiedetevi che cos'altro tocca ognuna di quelle case.",
+      "targetSan": [
+        "Ne7+"
+      ]
+    }
+  ]
+}

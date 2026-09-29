@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-10",
+  "fen": "3B4/8/7k/1K6/4p3/1R6/2p5/2R5 w - - 0 1",
+  "solution": [
+    "Rg3",
+    "e3",
+    "Rh1#"
+  ],
+  "rating": 1680,
+  "title": "Corta la columna, no al rey",
+  "setup": "El rey negro está en h6 con dos peones corriendo en c2 y e4, y tus torres están en b3 y c1.",
+  "hint": "Los dos peones negros están a punto de coronar. Ignóralos y toma la columna que usaría el rey.",
+  "explanation": "## La idea\n\n{{Rg3}} se apodera de la columna g sin dar jaque, y nada de lo que jueguen las Negras detiene lo que viene. {{Rh1#}} da mate por la columna h con la torre de g3 sosteniendo g6 y g7. Dos peones a un paso de coronar siguen siendo más lentos que una torre en la columna correcta."
+}

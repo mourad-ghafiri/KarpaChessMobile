@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-10",
+  "fen": "3r4/2B5/8/1R4p1/3R4/K1Qb4/6k1/8 w - - 0 1",
+  "solution": [
+    "Rb2+",
+    "Kg1",
+    "Rg4+",
+    "Kf1",
+    "Qc1#"
+  ],
+  "rating": 1660,
+  "title": "Dos torres, dos direcciones",
+  "setup": "El rey negro anda suelto en g2, con un alfil en d3 junto a tu dama y una torre esperando en d8.",
+  "hint": "Ninguna torre da mate por sí sola. Encuentra el orden en que cada una toma una casilla que la otra no puede.",
+  "explanation": "## La idea\n\n{{Rb2+}} toma la segunda fila, {{Rg4+}} toma la columna g, y sin ambas {{Qc1#}} da mate por la primera fila. Las torres cazan en pareja cubriendo líneas perpendiculares."
+}

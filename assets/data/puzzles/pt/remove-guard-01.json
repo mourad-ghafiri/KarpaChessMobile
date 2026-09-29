@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-01",
+  "fen": "6k1/1p3ppp/2n5/1B2b3/8/5N2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Bxc6"
+  ],
+  "rating": 1050,
+  "title": "Um Só Defensor",
+  "setup": "O teu cavalo ataca o bispo de e5, e ele só está ali porque o cavalo de c6 o guarda.",
+  "hint": "O bispo que estás a atacar tem exatamente um defensor. Pergunta quanto custa esse defensor, não o que ele segura.",
+  "explanation": "## A Ideia\n\n{{Bxc6}} come a única peça que guarda e5. Depois de {{bxc6}} o bispo fica pendurado e {{Nxe5}} recolhe-o; se as pretas salvarem antes o bispo, o cavalo desapareceu simplesmente. Conta os defensores de um alvo antes de contares os atacantes."
+}

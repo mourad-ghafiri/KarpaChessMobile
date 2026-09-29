@@ -1,0 +1,11 @@
+{
+  "id": "strategy-01",
+  "fen": "rnbqk2r/p1p2pp1/1p2p1n1/3pP2p/3P3P/P1P3Q1/2P2PP1/R1B1KBNR b KQkq - 1 9",
+  "solution": [
+    "Ba6"
+  ],
+  "title": "Le prisonnier de c8",
+  "setup": "Votre fou en c8 est enfermé derrière vos propres pions, tandis que le fou blanc en f1 a une route ouverte. Offrez votre plus mauvaise pièce contre la meilleure des Blancs.",
+  "hint": "Votre pion b s'est déjà écarté. Où mène la diagonale qu'il a ouverte, et quel fou se tient à l'autre bout ?",
+  "explanation": "## L'idée\n\nLe fou en c8 est la plus mauvaise pièce des Noirs : les pions en d5 et e6 sont sur sa couleur et ne bougeront jamais. Le fou blanc en f1 est tout le contraire, et depuis d3 il frapperait le cavalier en g6.\n\n{{Ba6}} propose l'un contre l'autre. Si les Blancs prennent, le cavalier reprend depuis b8 et passe un moment au bord, mais les Noirs ont échangé la pièce qui ne faisait rien contre celle qui s'apprêtait à faire le plus."
+}

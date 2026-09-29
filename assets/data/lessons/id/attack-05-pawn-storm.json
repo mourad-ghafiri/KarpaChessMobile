@@ -1,0 +1,56 @@
+{
+  "id": "pawn-storm",
+  "title": "Badai Pion",
+  "summary": "Kerahkan pion-pion penjaga raja Anda sendiri ke arah raja lawan",
+  "proof": "pawn-storm-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "Tengahnya Terpaku Rapat",
+      "text": "Kedua raja duduk di sayap yang sama, dan Hitam hendak mendorong pion-pion di depan raja hitam lurus ke arah Putih.\n\nBiasanya begitulah partai dikalahkan. Tidak di sini, dan alasannya ada di tengah papan: pion putih di d5 macet berhadapan dengan d6, pion hitam di e5 berhadapan dengan e4. Tak ada lagi yang bisa ditukar, dan tak ada lajur di sana yang bisa dibuka pihak mana pun.\n\nBerbaris di sayap memakan lima atau enam langkah. Satu-satunya hal yang menghukum permainan lambat adalah serangan cepat melalui pusat, dan pusat itu sudah dirampas."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "Ke Mana Pion Anda Condong",
+      "text": "Jadi Hitam berbaris. Menggulirkan pion-pion dari depan raja Anda sendiri ke bawah papan menuju raja lawan disebut **badai pion**, dan ia milik pihak yang pion-pionnya sudah mengarah ke raja lawan.\n\nPion-pion Hitam condong ke arah raja Putih. Pion-pion Putih condong ke sayap menteri, dan di sanalah Putih akan mendorong sebagai gantinya.\n\nSatu detail menentukan dari mana Hitam memulai. Pion Putih di e4 adalah yang bisa dijangkau dan diserang pion hitam di sayap ini, dan menukarnya adalah cara lajur f terbuka bagi benteng di f8."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "prompt": "Serang pion Putih di e4 dengan pion Anda sendiri dan mulailah mencongkel lajur f hingga terbuka.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "Hanya satu dari tiga pion di sekitar raja Anda yang bisa mendarat di petak yang menyerang e4."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 w - - 0 11",
+      "title": "Satu Pion Bukanlah Badai",
+      "text": "Satu pion di depan saja tak berbuat apa-apa. Badai adalah apa yang datang di belakangnya.\n\n{{Be3}} membawa gajah putih ke arah pertarungan, {{f4}} mengusirnya sebelum sempat menetap, {{Bf2}} adalah tujuannya, dan {{g5}} membawa pion hitam kedua maju di samping yang pertama.\n\nEmpat langkah hitam, dan tak satu pun menggerakkan buah. Itulah tawar-menawar sebuah badai: pion membeli garis dengan waktu, dan pusat yang terkunci membuat waktu itu terjangkau."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "Dorongan yang Sama, Terlalu Cepat Satu Langkah",
+      "text": "Partai lain, dan Putih baru saja menghabiskan dua langkah untuk mendorong pion-pion sayap, yang kini berdiri di g4 dan h3.\n\nPusat di sini tidak tertutup. Pion Hitam di e5 dan pion Putih di e4 tak pernah bertemu, satu pion sendirian di d3 menahan tengah untuk Putih, dan satu dorongan pion dari Hitam mengubah semuanya menjadi garis-garis terbuka.\n\nItulah seluruh perbedaan antara kedua papan. Langkah-langkah pionnya sama. Yang ada di bawahnya tidak."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "Apa yang Didapati Putih Saat Pulang",
+      "text": "Kedua dorongan itu tak membawa satu buah pun ke dalam permainan. Masing-masing adalah tempo gratis yang diserahkan kepada Hitam, dan serangan sayap dijawab di pusat, karena pusat terbuka lebih cepat daripada sayap bisa tiba.\n\nLalu hitung perlindungan Putih. g2 kosong dan akan tetap kosong, karena pion tak berjalan mundur. Pion di h3 adalah sasaran, bukan tempat berlindung, dan gajah Hitam di c8 sudah memandang ke sepanjang diagonal yang berujung di sana.\n\n> Badai pion adalah serangan selama pusat tertutup. Selain itu, ia hanyalah lubang yang digali di samping raja Anda sendiri."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "prompt": "Hukum dua langkah sayap yang terbuang dengan membuka pusat sebelum Putih mengeluarkan buah lagi.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "Pion Putih di e4 punya satu pembela, pion di d3, dan satu penyerang, kuda Anda di f6 — kirim sebuah pion agar penyerangnya menjadi dua."
+    }
+  ]
+}

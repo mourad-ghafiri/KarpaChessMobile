@@ -1,0 +1,14 @@
+{
+  "id": "skewer-11",
+  "fen": "8/2q3k1/p7/2p1P2p/PR1p1P2/3Q4/2B3rP/5K2 w - - 0 1",
+  "solution": [
+    "Qh7+",
+    "Kf8",
+    "Qxc7"
+  ],
+  "rating": 1270,
+  "title": "Gajah di Belakang",
+  "setup": "Menteri Anda di d3 berdiri di depan gajah Anda, dan raja serta menteri hitam berbagi baris ketujuh.",
+  "hint": "Menteri Anda menghalangi gajahnya sendiri. Ke mana ia bisa pergi sehingga justru meninggalkan petak itulah yang membuatnya aman?",
+  "explanation": "## Ide\n\n{{Qh7+}} tampak seperti pemberian cuma-cuma sampai Anda melihat apa yang terjadi ketika menteri meninggalkan d3: gajah di **c2** kini menguasai h7 di sepanjang diagonal b1–h7, jadi raja tak bisa menangkap. {{Kf8}} terpaksa, dan baris ketujuh terbuka lebar untuk {{Qxc7}}."
+}

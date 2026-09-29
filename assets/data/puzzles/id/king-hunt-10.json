@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-10",
+  "fen": "3r4/2B5/8/1R4p1/3R4/K1Qb4/6k1/8 w - - 0 1",
+  "solution": [
+    "Rb2+",
+    "Kg1",
+    "Rg4+",
+    "Kf1",
+    "Qc1#"
+  ],
+  "rating": 1660,
+  "title": "Dua Benteng, Dua Arah",
+  "setup": "Raja Hitam lepas di g2, dengan gajah di d3 di samping menteri Anda dan benteng menunggu di d8.",
+  "hint": "Tak satu benteng pun memberi mat sendirian. Temukan urutan tempat masing-masing merebut petak yang tak bisa direbut yang lain.",
+  "explanation": "## Ide\n\n{{Rb2+}} merebut baris kedua, {{Rg4+}} merebut lajur g, dan dengan keduanya hilang {{Qc1#}} memberi mat di sepanjang baris pertama. Benteng-benteng berburu berpasangan dengan menguasai garis yang saling tegak lurus."
+}

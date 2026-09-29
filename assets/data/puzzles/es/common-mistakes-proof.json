@@ -1,0 +1,11 @@
+{
+  "id": "common-mistakes-proof",
+  "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/1Q6/PPPP1PPP/RNB1K1NR b KQkq - 3 5",
+  "solution": [
+    "Nd4"
+  ],
+  "title": "El tercer viaje de la dama",
+  "setup": "La dama blanca se ha movido tres veces en cinco jugadas, y desde b3 vuelve a mirar a f7. Haz que pague el viaje.",
+  "hint": "Atacar a una dama con una pieza más barata gana un tiempo. Encuentra el ataque que además mira a c2, a un salto del rey y la torre blancos.",
+  "explanation": "## La idea\n\nLa dama madrugadora recibe su factura. {{Nd4}} la ataca con un caballo, y el caballo además mira a c2, donde una captura daría jaque al rey y golpearía a la torre de a1.\n\nLa dama tiene que moverse por cuarta vez, y todas las respuestas dejan a las Negras claramente mejor. Capturar antes en f7 no cambia nada: tras la captura del alfil con jaque, el rey va a e7, y la dama sigue atacada."
+}

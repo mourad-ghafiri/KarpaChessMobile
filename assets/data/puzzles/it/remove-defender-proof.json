@@ -1,0 +1,13 @@
+{
+  "id": "remove-defender-proof",
+  "fen": "6k1/5ppp/5n2/3n2B1/8/8/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Bxf6",
+    "gxf6",
+    "Rxd5"
+  ],
+  "title": "Prima la Guardia",
+  "setup": "La vostra torre in d1 fissa già il cavallo in d5, e il cavallo in f6 è l'unica cosa che lo difende.",
+  "hint": "Prendere subito in d5 cambia una torre per un cavallo. Contate che cosa difende d5 prima di contare che cosa la attacca.",
+  "explanation": "## L'idea\n\nA {{Rxd5}} subito si risponde {{Nxd5}}: una torre per un cavallo. Quindi cambiate prima il conto. {{Bxf6}} prende l'unica guardia di d5. Dopo {{gxf6}} d5 non la accudisce più niente, e {{Rxd5}} raccoglie il secondo cavallo. Riprendere con l'altro cavallo è peggio, perché allora la vostra torre dà scacco in d8 e il resto lo fa la traversa di fondo. Se il Nero lascia stare l'alfiere, l'alfiere ha vinto un cavallo per niente."
+}

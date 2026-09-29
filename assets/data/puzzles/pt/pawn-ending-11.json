@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-11",
+  "fen": "3k4/8/4p3/4P3/8/4K3/8/8 w - - 1 2",
+  "solution": [
+    "Kf4"
+  ],
+  "rating": 1465,
+  "title": "Vai Por Onde o Rei Não Está",
+  "setup": "O rei das pretas acabou de recuar para d8, deixando a ala do rei inteira às brancas.",
+  "hint": "O peão de e6 precisa do rei ao lado; descobre que ala é que esse rei demoraria mais a alcançar.",
+  "explanation": "## A Ideia\n\n{{Kf4}} vai para a ala que as pretas acabaram de deixar. {{Ke7}} {{Kg5}} {{Kf7}} {{Kh6}}, e o rei branco dá a volta por g6 e g7. As pretas não conseguem cobrir d7 e f7 ao mesmo tempo, portanto e6 cai e o peão passado faz dama. {{Kd4}} ou {{Ke4}} em vez disso deixam as pretas segurar tudo."
+}

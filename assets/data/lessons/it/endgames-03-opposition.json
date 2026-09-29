@@ -1,0 +1,65 @@
+{
+  "id": "opposition",
+  "title": "L'Opposizione",
+  "summary": "Due re, un tempo, e chi deve cedere",
+  "proof": "endgame-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "I Re Non si Toccano",
+      "text": "Nessun re può mai mettere piede su una casa accanto a un altro re, il che vuol dire che i due non possono mai scambiarsi colpi. Possono solo stringersi a vicenda.\n\nIl vostro re in e4, il re nero in e7, due case vuote in mezzo. Salite dritti lungo la colonna e il Nero può scendere dritto, e da qualche parte in mezzo tutti e due restate senza strada.\n\nChi vince quella discussione lo decide l'unica regola che nessuno può schivare: al vostro turno, dovete muovere. Questo è lo zugzwang, e con i re nudi sulla scacchiera è l'unica arma che abbia l'uno o l'altro."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "Il Faccia a Faccia ha un Nome",
+      "text": "Portate i re a una casa vuota di distanza sulla stessa colonna e la posizione si blocca. Nessuno dei due re può entrare nella casa in mezzo, perché tocca tutti e due. Nessuno dei due può scivolare di lato senza entrare nella portata dell'altro.\n\nQuel blocco è l'**opposizione**. Appartiene a chi non deve muovere, perché chi deve muovere è costretto a romperlo, a spostarsi di lato e a lasciar passare l'altro re.\n\nQuindi contate lo spazio. Una casa vuota, con il vostro avversario al tratto, e il terreno davanti è vostro. In questo momento lo spazio è di due, e il tratto è vostro."
+    },
+    {
+      "type": "play",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "prompt": "Chiudete lo spazio in modo che una sola casa vuota separi i re e che a muovere sia il Nero.",
+      "targetSan": [
+        "Ke5"
+      ],
+      "hint": "Contate lo spazio prima della vostra mossa e dopo: lo volete ridotto a uno, con il tratto consegnato."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/4K3/8/8/8/8 b - - 5 3",
+      "title": "Il Nero Cede, Voi Seguite",
+      "text": "Una casa vuota fra i re, e il Nero deve muovere. Ogni casa legale cede terreno: di lato o all'indietro, e nient'altro.\n\nMettiamo {{Kd7}}. Il Nero mantiene la distanza ma è scivolato di una colonna verso l'ala di donna, e allora voi lo seguite. {{Kd5}}, e il blocco è tornato, una colonna più in là, di nuovo con il Nero al tratto.\n\nNon è stato catturato niente e non è stato minacciato niente. Il Nero ha semplicemente scelto una direzione, voi l'avete copiata, e tutta la scacchiera si è spostata di un passo verso dove stavate andando."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "title": "Un Pedone Senza Posti dove Andare",
+      "text": "Scacchiera nuova, e un pedone cambia l'oggetto della discussione fra i re. Il vostro re in e6, il vostro pedone in e5, il re nero in e8, di nuovo bloccati a una casa di distanza.\n\nStavolta a muovere siete voi, quindi l'opposizione è del Nero. Contate le vostre mosse legali e sono quattro, tutte passi di re. Il pedone non può proprio avanzare: il vostro stesso re sta sulla casa davanti a lui.\n\nIl Nero tiene la porta chiusa e il vostro pedone è bloccato dietro di voi. Qualcosa deve cedere, e non sarà il pedone."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "prompt": "Fate un passo di lato verso l'ala di donna senza lasciare la traversa che il vostro re ha già raggiunto.",
+      "targetSan": [
+        "Kd6"
+      ],
+      "hint": "Tornare indietro di una traversa butta via tutto quello che il re ha scalato: cedete invece la colonna."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "title": "Lo Stesso Blocco, una Colonna Nuova",
+      "text": "Il Nero ha rispecchiato il passo e i re sono di nuovo bloccati, a una casa di distanza, con ancora voi al tratto. Sembra che non si sia guadagnato niente.\n\nGuardate la colonna e. Il vostro re è sceso dalla casa davanti al pedone, e il re nero è a una colonna dalla strada del pedone. Tre case libere, e un re bianco già seduto sulla sesta traversa accanto a loro.\n\n> L'opposizione non è mai il fine. Compra esattamente una mossa, e quella mossa deve valere qualcosa."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "prompt": "Fate partire il pedone adesso che il vostro re non è più parcheggiato sulla sua strada.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Sui re non c'è più niente da migliorare da qui; il progresso che resta su questa scacchiera è tutto sulla colonna e."
+    }
+  ]
+}

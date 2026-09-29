@@ -1,0 +1,14 @@
+{
+  "id": "skewer-09",
+  "fen": "8/RR5B/1p2kr2/5b2/5P2/3P4/5N2/2K5 w - - 0 1",
+  "solution": [
+    "Rxb6+",
+    "Kd5",
+    "Rxf6"
+  ],
+  "rating": 1210,
+  "title": "Captura con jaque",
+  "setup": "Tus torres dominan la séptima fila, y un peón negro de b6 comparte la sexta fila con el rey de e6.",
+  "hint": "Hay una captura que abre una línea y da jaque en una sola jugada. Pregúntate qué hay más allá del rey en esa línea.",
+  "explanation": "## La idea\n\n{{Rxb6+}} se come un peón y, lo que es mucho más importante, llega a la sexta fila con jaque. Ahora la torre de **f6** está detrás de su propio rey. {{Kd5}} es la única respuesta legal, y {{Rxf6}} gana la torre."
+}

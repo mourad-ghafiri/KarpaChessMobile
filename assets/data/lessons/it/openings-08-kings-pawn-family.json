@@ -1,0 +1,57 @@
+{
+  "id": "kings-pawn-family",
+  "title": "Le Aperture di Pedone di Re",
+  "summary": "Ogni risposta a 1.e4 è un patto diverso",
+  "proof": "openings-08.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Due Linee in una Spinta",
+      "text": "Una mossa di pedone libera due pezzi. Spingete il pedone e e sia la donna sia l'alfiere campochiaro trovano una strada fuori dalla traversa di fondo.\n\nE così queste partite si riempiono presto. I pezzi arrivano, le linee si aprono, e gli eserciti si toccano mentre tutti e due i re stanno ancora in mezzo. Una mossa lenta qui costa più di quanto costerebbe in una posizione tranquilla, perché qualcuno è già là fuori a punirla."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "title": "Il Pedone Senza Guardia",
+      "text": "Il Nero ha copiato, e copiare ha un prezzo: chi gioca per secondo deve rispondere a una domanda che è già stata fatta.\n\nIl cavallo in f3 attacca il pedone in e5. Contate i difensori di e5 e ne trovate zero.\n\nCi sono due modi onesti di rimediare. Un pezzo può difendere il pedone e uscire di casa nella stessa mossa, senza spendere niente. Un pedone lo difende altrettanto bene, e paga il lavoro stando davanti a uno degli alfieri del Nero per il resto della partita."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "prompt": "Difendete il pedone che il cavallo bianco ha appena attaccato, e tenete la vostra parte di centro.",
+      "targetSan": [
+        "Nc6",
+        "d6"
+      ],
+      "hint": "Un difensore è un pezzo che voleva uscire comunque; l'altro è un pedone che paga il lavoro con un alfiere. Tutte e due sono linee principali."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "title": "La Discussione Più Antica",
+      "text": "Difendete e5 con il cavallo e il Bianco ha una mossa pronta. {{Bb5}} ignora completamente il pedone in e5 e va a prendersela con il pezzo che lo difende: togliete la guardia e il pedone è indifeso.\n\nIl Nero spinge via l'alfiere con {{a6}}, l'alfiere scivola indietro lungo la diagonale con {{Ba4}}, sempre puntato sullo stesso cavallo e sempre senza costare niente. Questa è la Partita Spagnola, vecchia di quattro secoli e ancora l'apertura su cui si discute di più."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "title": "Tre Modi di Rifiutare",
+      "text": "Quasi tutte le risposte forti al pedone di re non toccano affatto e5. Ognuna rifiuta in una valuta diversa.\n\n- **La siciliana** lascia stare e4 e lotta per d4 con un pedone in c5, prendendosi la colonna c semiaperta quando lì i pedoni si cambiano.\n- **La Caro-Kann** e **la francese** spendono prima una mossa tranquilla in c6 o e6, così che la spinta a d5 arrivi sostenuta — la francese chiude il proprio alfiere campochiaro dietro il muro, la Caro-Kann lo tiene fuori.\n- **La difesa Alekhine** manda un cavallo in f6 e sfida i pedoni bianchi a inseguirlo."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "title": "Un Rifiuto in Corso",
+      "text": "Il Nero ha speso la prima mossa in un pedone in c6, e il Bianco si è preso tutto quello che era in offerta: due pedoni affiancati in d4 e e4, il centro più largo che il Bianco ottenga mai gratis.\n\nLargo non vuol dire sicuro. Un grande centro di pedoni va affrontato finché è ancora fatto solo di pedoni — lasciatelo stare e i pezzi bianchi escono dietro di lui e tutto il muro rotola avanti.\n\nLa prima mossa non era modestia. Era un pedone messo di guardia a sostegno di un colpo che non è ancora arrivato.\n\n> Una prima mossa tranquilla è una seconda mossa rumorosa che aspetta il suo turno."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "prompt": "Affrontate il centro di due pedoni del Bianco con il pedone che la vostra tranquilla prima mossa era lì a sostenere.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "La prima mossa è stata un pedone con un lavoro solo. Chiedetevi quale casa copre, e notate che quella casa non l'ha ancora occupata nessuno."
+    }
+  ]
+}

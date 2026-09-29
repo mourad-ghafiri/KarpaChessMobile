@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-20",
+  "fen": "4r3/1k1P4/8/8/8/8/8/6K1 w - - 0 1",
+  "solution": [
+    "dxe8=Q"
+  ],
+  "title": "Promozione con un Premio",
+  "setup": "Il vostro pedone in d7 è a un passo dall'ultima traversa, e una torre nera sta diagonalmente davanti a lui.",
+  "hint": "I pedoni catturano in diagonale, anche all'ultimissimo passo. Due ricompense in una mossa sola.",
+  "explanation": "## L'idea\n\nL'ultimo passo di un pedone segue le solite regole dei pedoni, presa in diagonale compresa. Promuovere dritto con {{d8=Q}} lascia {{Rxd8}} prendere la donna nuova.\n\n{{dxe8=Q}} cattura la torre e promuove nella stessa mossa: cinque punti presi e nove creati, e il re in b7 non arriva a e8.\n\nPrima di spingere un pedone all'ultima traversa, confrontate il passo dritto con la presa."
+}

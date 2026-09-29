@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-16",
+  "fen": "r1b1k2r/ppp2ppp/2n5/3Bq3/8/2N1P2P/PP3PPQ/R4RK1 w - - 0 1",
+  "solution": [
+    "Bxc6+"
+  ],
+  "title": "Koruyanı Şah Çekerek Kaldırın",
+  "setup": "İki vezir çaprazdan birbirine dikilmiş ve siyahın e5'teki vezirini yalnızca c6'daki at koruyor.",
+  "hint": "Vezirleri değişmek hiçbir şey kazandırmaz. Vezirin tek koruyucusunu elinden alın ve bunu tempo kazanarak yapın.",
+  "explanation": "## Fikir\n\nHemen {{Qxe5+}} oynamak, {{Nxe5}} geldikten sonra yalnızca vezirleri değişir. c6'daki at vezirin tek koruyucusu, öyleyse önce onu kaldırın: {{Bxc6+}} atı şah çekerek alır. Siyahın şaha cevap vermesi gerekir — {{bxc6}} ile, d7'de bir kapatmayla ya da bir şah hamlesiyle — ve hiçbiri e5'i yeniden korumaz; böylece {{Qxe5+}} bir fil karşılığında veziri kazanır.\n\nBir taşın tek koruyucusu varsa koruyucuyu şah çekerek alın."
+}

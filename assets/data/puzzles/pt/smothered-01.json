@@ -1,0 +1,12 @@
+{
+  "id": "smothered-01",
+  "fen": "6rk/pp4pp/1q6/6N1/8/8/P4PPP/3R2K1 w - - 6 26",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1150,
+  "title": "A Sua Própria Torre",
+  "setup": "As pretas acabaram de deslizar uma torre para g8, e todas as casas ao lado do rei estão agora ocupadas.",
+  "hint": "Antes de caçares um xeque, conta quantas casas vazias o rei preto poderia mesmo usar.",
+  "explanation": "## A Ideia\n\nO rei de h8 está emparedado pela sua própria torre e pelos seus peões, portanto um xeque que ele não possa capturar é mate. Um cavalo podia dar xeque de g6, mas o peão h come-o; {{Nf7#}} dá xeque da casa que nenhuma peça preta cobre. Quando um rei está encaixotado, deixa de contar material e começa a contar xeques."
+}

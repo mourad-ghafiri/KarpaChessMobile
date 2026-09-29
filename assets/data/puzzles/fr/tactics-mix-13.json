@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-13",
+  "fen": "8/5ppp/6k1/8/8/8/5PPP/R3K3 w Q - 0 1",
+  "solution": [
+    "O-O-O"
+  ],
+  "title": "Le grand roque",
+  "setup": "Le roi blanc et la tour de l'aile dame n'ont jamais bougé, et toutes les cases entre eux sont vides. Roquez vers la tour en a1.",
+  "hint": "Le roi se déplace de deux cases vers la tour, et la tour arrive sur la case que le roi a traversée.",
+  "explanation": "## L'idée\n\n{{O-O-O}} est un coup pour deux pièces : le roi va de e1 à c1, et la tour en a1 passe par-dessus lui jusqu'en d1.\n\nToutes les conditions sont remplies. Aucune des deux pièces n'a bougé, b1, c1 et d1 sont vides, le roi n'est pas en échec, et rien n'attaque d1 ni c1, les cases qu'il traverse et où il arrive. Le roi quitte le centre, et la tour arrive sur une colonne ouverte."
+}

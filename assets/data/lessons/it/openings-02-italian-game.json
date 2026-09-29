@@ -1,0 +1,50 @@
+{
+  "id": "italian-game",
+  "title": "La Partita Italiana",
+  "summary": "Due alfieri, una lunga discussione su d4",
+  "proof": "openings-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Due Alfieri, Una Casa",
+      "text": "Il vostro alfiere in c4 e l'alfiere nero in c5 sono l'uno l'immagine allo specchio dell'altro, e ciascuno fissa la casa che nell'altro campo è difesa solo da un re: f7 per voi, f2 per il Nero.\n\nEcco perché tutti e due gli alfieri hanno scelto queste diagonali. Ed ecco anche perché qui non succede niente. Un attaccante contro un difensore non vince niente, e il secondo attaccante è lontano parecchie mosse da tutte e due le parti.\n\nCosì gli alfieri si sistemano e aspettano, e la partita va a cercarsi qualcosa per cui litigare."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Su Che Cosa Litigano",
+      "text": "Lo trova in d4. Fate atterrare un pedone lì e tenetevelo, e l'alfiere nero è colpito sulla diagonale in cui si è appena sistemato, mentre i vostri pedoni si prendono il mezzo della scacchiera.\n\nSe spingete adesso non ottenete niente di tutto questo. {{d4}} {{exd4}} e il pedone che avete spinto è già sparito; {{Nxd4}} mette invece un pezzo sulla casa, e il cavallo in c6 lo guarda dritto in faccia.\n\nUn pedone tiene d4. Un pezzo ci passa e basta."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Giocate la mossa tranquilla che permetterà a un pedone, non a un pezzo, di riprendere in d4 quando finalmente arriverà la spinta.",
+      "targetSan": [
+        "c3"
+      ],
+      "hint": "Quale dei vostri pedoni può fare un passo e ritrovarsi a difendere la casa che il vostro pedone d vuole occupare?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "L'Italiana Lenta",
+      "text": "Tre mosse dopo, e nessuno ha toccato nessuno. Voi avete pedoni in c3 e d3, il Nero ha il cavallo in f6 e un pedone in d6, e tutti e due i re sono al riparo nei loro angoli.\n\nNiente è attaccato. Niente è nemmeno minacciato. Tutti e due hanno finito l'apertura nei tempi previsti, il che lascia da inventare ancora tutta la partita.\n\nQuesta è la versione in cui si trasforma la maggior parte delle italiane, e la decide la preparazione più che un attacco su f7."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "Non Ancora",
+      "text": "Potreste aprire il centro in questo preciso istante. Contate che cosa lo accoglie: {{d4}} {{exd4}} {{cxd4}} e l'alfiere torna indietro con {{Bb6}}, dove si appoggia di nuovo su d4 con il cavallo di c6 al suo fianco.\n\nDue pezzi neri si appoggiano già sul pedone che avete appena costruito, e i vostri sono legati a tenerlo. La rottura non è sbagliata, è prematura.\n\nQuindi le mosse d'attesa le spendete ad aggiungere peso. Qui ogni pezzo bianco ha un lavoro tranne uno, e il pedone in c3 sta proprio sulla casa che quel pezzo doveva usare.\n\n> L'italiana la decide chi è pronto quando d4 finalmente arriva."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "prompt": "Portate l'ultimo pezzo fuori dalla sua casa di partenza, verso il centro e l'ala di re dove sta il resto del vostro esercito.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "Ha esattamente due case a disposizione: una sul bordo senza futuro, una in mezzo che più avanti può proseguire."
+    }
+  ]
+}

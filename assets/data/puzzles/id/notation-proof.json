@@ -1,0 +1,11 @@
+{
+  "id": "notation-proof",
+  "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "solution": [
+    "Bc4"
+  ],
+  "title": "Catatan Berikutnya",
+  "setup": "Sebuah partai cetak berbunyi 1.e4 e5 2.Nf3 d6, dan catatan Putih berikutnya adalah `3.Bc4`. Mainkan langkah yang disebutkannya.",
+  "hint": "Huruf kapital menamai buahnya, dan dua karakter sesudahnya menamai petak tempat ia mendarat.",
+  "explanation": "## Ide\n\nB adalah gajah, dan c4 adalah petaknya. Hanya gajah di f1 yang dapat mencapai c4, jadi catatan itu tak memerlukan apa-apa lagi: {{Bc4}}.\n\nNomornya memberi tahu Anda bahwa ini langkah ketiga Putih, dan langkah-langkah sebelumnya menempatkan setiap buah di tempat yang Anda lihat sekarang. Satu huruf untuk buahnya, satu petak untuk tempat ia mendarat."
+}

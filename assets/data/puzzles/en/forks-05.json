@@ -1,0 +1,11 @@
+{
+  "id": "forks-05",
+  "fen": "6k1/5ppp/2q5/3N4/8/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Ne7+"
+  ],
+  "title": "The Knight Snags a Queen",
+  "setup": "Black's queen on c6 is attacking your knight on d5. Moving the knight is not enough; make it hit back.",
+  "hint": "One knight jump gives check and attacks the queen at the same time.",
+  "explanation": "## The Idea\n\n{{Ne7+}} checks the king on g8 and attacks the queen on c6 in one jump. Nothing black guards e7, and a knight check cannot be blocked, so the king must move. After {{Kf8}} or {{Kh8}}, {{Nxc6}} wins the queen.\n\nA fork with check is the strongest kind: the king's move uses up Black's turn, and the second target falls."
+}

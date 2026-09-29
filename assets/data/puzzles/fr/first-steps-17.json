@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-17",
+  "fen": "4k3/pp6/8/8/7q/8/PP6/4K2R w - - 0 1",
+  "solution": [
+    "Rxh4"
+  ],
+  "title": "Punissez la dame",
+  "setup": "La dame noire vient de fondre avec échec, droit dans la ligne de mire de votre tour.",
+  "hint": "Oui, le roi peut s'écarter. Mais regardez la colonne h avant d'y toucher.",
+  "explanation": "## L'idée\n\nLa dame en h4 met votre roi en échec le long de la diagonale jusqu'en e1, et s'écarter semble naturel. Mais la dame s'est posée sur la colonne h ouverte, où votre tour en h1 l'attend.\n\n{{Rxh4}} prend purement et simplement la pièce qui donne échec : l'échec disparaît et neuf points sont gagnés. Un coup de roi comme {{Kd2}} fait l'inverse, car {{Qxh1}} prend alors votre tour.\n\nUne pièce qui donne échec doit bien se tenir quelque part : demandez-vous ce que vous attaquez sur cette case."
+}

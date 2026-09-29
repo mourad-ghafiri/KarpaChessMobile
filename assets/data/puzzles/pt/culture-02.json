@@ -1,0 +1,11 @@
+{
+  "id": "culture-02",
+  "fen": "rnbqk1nr/ppp2ppp/3b4/8/8/2N5/PPPPP1PP/R1BQKBNR b KQkq - 1 4",
+  "solution": [
+    "Qh4+"
+  ],
+  "title": "Dez Segundos",
+  "setup": "As brancas abriram com o peão f, acabaram de desenvolver um cavalo, e nunca olharam para a diagonal que se abriu na primeira jogada.",
+  "hint": "O peão f saiu de casa na primeira jogada. Qual das tuas peças chega à diagonal que ele abriu, e com xeque?",
+  "explanation": "## A Ideia\n\nO peão f das brancas saiu na primeira jogada e abriu a diagonal e1–h4, e desde então nada a fechou.\n\n{{Qh4+}} deixa às brancas uma resposta, {{g3}}: o rei não pode ir a f2, e o peão g é a única coisa que pode tapar. Depois as pretas dão mate em duas de qualquer das maneiras, {{Bxg3+}} {{hxg3}} {{Qxg3#}}, ou primeiro a dama com {{Qxg3+}} {{hxg3}} {{Bxg3#}}.\n\nQuando um adversário mexe cedo o peão f, gasta um segundo com um xeque de dama em h4."
+}

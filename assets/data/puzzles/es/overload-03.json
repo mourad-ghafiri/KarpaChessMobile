@@ -1,0 +1,14 @@
+{
+  "id": "overload-03",
+  "fen": "r5k1/5ppp/8/8/3R4/8/PP2b3/K2R2Q1 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "rating": 1330,
+  "title": "Solo vuelve una torre",
+  "setup": "La torre negra defiende la última fila desde a8 y tus torres están dobladas en la columna d con la dama vigilando desde g1.",
+  "hint": "Cuenta cuántas de tus piezas pueden llegar a la octava fila, y luego cuántas negras pueden responder.",
+  "explanation": "## La idea\n\n{{Rd8+}} ofrece una torre que el defensor tiene que comerse, y {{Rxd8}} lo saca de a8. La segunda torre sigue con {{Rxd8#}}. Un defensor no puede responder a dos atacantes en la misma casilla; la cuenta es toda la táctica."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "opening-principles",
+  "title": "Üç İlke",
+  "summary": "Üç iş, yaklaşık on hamle",
+  "proof": "openings-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "On Hamle, Üç İş",
+      "text": "İki tarafın da ortada bir piyonu var ve geri kalan her şey evinde. Buradan sonra partinin şeklini yaklaşık on hamle belirler — üç işi bitirmenin aldığı süre.\n\n1. **Merkezden pay alın.** Ortadaki bir piyon, taşlarınızın istediği kareleri tutar.\n2. **Her hamlede yeni bir taş çıkarın.** Önce atlar ve filler; onlar işe tek adımda ulaşır.\n3. **Şahı köşeye koyun.** Hatlar açıldığında hâlâ ortada olan şah taş değil, hedeftir.\n\nİşini önce bitiren saldırır, öteki taraf hâlâ ortalığı toplarken."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Bir Hamle Ne Satın Alır",
+      "text": "{{Nf3}} {{Nc6}}. İki at arka yataydan çıktı, ikisi de merkezi gösteriyor ve bir iş yapmak için ikisinin de yeniden oynamasına gerek yok.\n\nBuna **gelişim** denir — evden ayrılmış ve çoktan bir işi olan taş. Buna harcadığınız şeyin de bir adı var: **tempo**, bir hamle, bir sıra demektir. Her sırada bir tane alırsınız, rakibiniz de bir tane alır.\n\nYani açılışta iki kez oynatılan taş iki tempoya mal olmuş, bir taşın işini yapmıştır. Bütün açılış bu aritmetik üzerine bir tartışmadır."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "prompt": "Bir fili, siyahın kampında yalnızca şahın koruduğu tek kareyi dosdoğru gösterecek şekilde geliştirin.",
+      "targetSan": [
+        "Bc4"
+      ],
+      "hint": "Şah filinizin çıkış yolunda beş karesi var ve bunlardan yalnızca biri o yumuşak piyonu gösteriyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+      "title": "Vezir Gelişmiş Sayılmaz",
+      "text": "Siyah ikinci hamlede veziri çıkardı ve arka yataydan ayrılmış tek siyah taş o. Kâğıt üstünde partinin en hızlı gelişimi.\n\nTahtada ise en yavaşı. Bir taş, rakip onu bedavaya kovalayamadığında gelişmiş sayılır ve vezir, herkesin kovalayabildiği tek taştır — bir at, bir fil, hatta bir piyon. Dokuz puanın üçten kaçması gerekir. Saldıran ise indiği yerde kalır ve az önce aldığı kareyi elinde tutar.\n\nBu kovalamaların her biri siyahın elden verdiği bir tempodur."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+      "prompt": "Bir atı, siyahın vezirine saldırdığı kareye çıkarın; geliştirirken bir hamle kazanın.",
+      "targetSan": [
+        "Nc3"
+      ],
+      "hint": "İki at, aralarında beş kare ve o karelerden yalnızca biri d5'e bakıyor."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 3",
+      "title": "Hesabı Saymak",
+      "text": "Vezirin atınıza cevap vermesi gerekiyor ve siyahın yapabildiği tek şey cevap vermek. {{Qa5}} yoldan çekilir. {{d4}} vezir meşgulken ortaya bir piyon diker. {{Nf6}} istediği kareye ulaşan ilk siyah taştır ve dördüncü hamlede gelir.\n\nİki tarafın elindekini sayın. Beyaz: c3'te bir at, d4'te bir piyon ve sıradaki olayların söz hakkı. Siyah: bir at ve hâlâ kovalanabilen bir vezir. O söz hakkını elde tutmaya **inisiyatif** denir.\n\n> Sürekli kaçan vezir, karşı tarafa bedava hamleler satın alıyordur."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+      "title": "Tek Sırada İki Hamle",
+      "text": "Neyin yarım kaldığına bakın. Beyazın e4'te bir piyonu, c4'te bir fili ve f3'te bir atı çıkmış; şah hâlâ e1'de ve h1'deki kalenin gidecek bir karesi hiç olmamış.\n\nTek bir sıra ikisini de düzeltir. Şah köşeye doğru iki kare gider, kale de onun üstünden atlayıp f1'e iner — şah artık hiç oynamamış üç piyonun arkasında, kale artık yapacak bir işi olan bir dikeyde.\n\nSiyahın şahı da aynı orta dikeyde ve hamleye beyaz başlıyor."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+      "prompt": "Üç işin sonuncusunu tek hamlede bitirin ve köşedeki kale de oyuna katılsın.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Bu tahtada iki iş çoktan bitmiş: merkezde bir piyon, çıkmış iki taş. Üçüncüsü şahınızla ilgili."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-05",
+  "fen": "n2b1k2/3r1p1p/1B4Q1/8/8/4R3/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Qh6+",
+    "Kg8",
+    "Re8#"
+  ],
+  "rating": 1100,
+  "title": "Passo de Lado e Linha de Fundo",
+  "setup": "O rei preto em f8 está apertado pela sua própria multidão, e a tua dama em g6 já está perto o suficiente para lhe dar xeque.",
+  "hint": "Empurra o rei para a única casa que as suas peças lhe deixam e atinge depois a linha de que ele já não pode sair.",
+  "explanation": "## A Ideia\n\n{{Qh6+}} dá xeque pela diagonal de h6 a f8 e empurra o rei para g8: {{Kg8}} é a única jogada. Depois {{Re8#}}. A dama fica com g7, a linha da própria torre através do rei tira f8 e h8, o peão de h7 preenche o resto, e nada pode comer a torre."
+}

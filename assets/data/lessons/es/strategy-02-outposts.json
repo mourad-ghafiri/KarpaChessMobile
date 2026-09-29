@@ -1,0 +1,56 @@
+{
+  "id": "outposts",
+  "title": "Los puestos avanzados",
+  "summary": "Casillas que ningún peón rival puede tocar",
+  "proof": "strategy-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "La casilla que nadie puede proteger",
+      "text": "Cuenta los peones negros que atacarán alguna vez d5. El peón de c se cambió hace jugadas. El peón de d6 y el de e5 apuntan hacia otro lado, y ningún peón retrocede.\n\nNinguno. Ni en esta jugada, ni en veinte jugadas, ni nunca.\n\nUna casilla en territorio rival que ningún peón rival puede atacar jamás es un **puesto avanzado**. La palabra suele suavizarse a «una buena casilla», y se pierde lo único que importa: *no puede*. Un agujero así no se cierra."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "title": "Lo que cuesta desalojar",
+      "text": "Los peones son los que echan a las piezas. Un peón avanza, la pieza tiene que moverse, y el peón apenas ha gastado nada en decirlo.\n\nEn d5 no existe ese peón, ni existirá. Las Negras solo pueden despejar esa casilla entregando una pieza de verdad: un alfil, por ejemplo, por un caballo, un trato que nadie ofrece por gusto.\n\nPor eso el caballo es la pieza que se envía. Un caballo es lento y de corto alcance, así que una dirección permanente en terreno enemigo vale para él más que para cualquier otra pieza."
+    },
+    {
+      "type": "play",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 6 10",
+      "prompt": "Instala un caballo donde ningún peón negro pueda volver a atacarlo.",
+      "targetSan": [
+        "Nd5"
+      ],
+      "hint": "Hay dos caballos blancos en el tablero, y solo uno toca d5."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1q1rk1/1p2bppp/p2pbn2/3Np3/4P3/1N2B3/PPP1BPPP/R2Q1RK1 b - - 7 10",
+      "title": "Llega la factura",
+      "text": "El caballo está en d5 y nada barato puede espantarlo. Todos los peones negros que podrían haber cubierto la casilla han desaparecido o miran hacia otro lado.\n\nAsí que las Negras pagan. {{Bxd5}} entrega un alfil por un caballo, y tras {{exd5}} un peón blanco ocupa la casilla en su lugar, quitándoles c6 y e6 a todas las piezas negras.\n\nLa otra opción es dejar el caballo donde está y jugar el resto de la partida alrededor de él. Ninguna línea es agradable, y ese es el beneficio: las dos opciones de las Negras han empeorado."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "Fabrica el tuyo",
+      "text": "Nadie te regala un agujero dos veces. Aquí los peones negros están más sanos: a7, b7, c6, d5, e6, f7, g7, h7, nada cambiado y nada varado.\n\nMira la quinta fila de todos modos. El peón de d5 ya ha pasado las casillas que tiene al lado, y el peón de e6 cubre d5 y f5, nada más.\n\nEso deja una casilla en el centro del campo negro que solo el peón de f podría disputar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "title": "El peón que no avanzará",
+      "text": "El peón de f negro es el único defensor que le queda a esa casilla, y no va a venir. El caballo de f6 está en su camino, y cuando el caballo se mueva, avanzar el peón deja sin cobertura al rey de g8.\n\nUna casilla que tu rival no puede permitirse disputar vale tanto como una a la que no puede llegar.\n\nUna cosa más. El peón blanco de d4 ya cubre la casilla, así que un caballo que llega ahí llega protegido: las Negras no pueden echarlo ni ganarlo, solo comprarlo con una pieza.\n\n> Sus peones no pueden permitirse disputarla, tu peón la protege y tu caballo vive ahí."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/pp1nbppp/2p1pn2/3p4/2PP1B2/2NBPN2/PP3PPP/R2Q1RK1 w - - 4 9",
+      "prompt": "Planta un caballo en la casilla que los peones negros han abandonado y que tu propio peón ya protege.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "Tu peón de d protege dos casillas, y una de ellas está en mitad del campo negro."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-05",
+  "fen": "6k1/5ppp/1b6/5r2/7R/8/PP1R4/K2Q4 w - - 0 1",
+  "solution": [
+    "Rd8+",
+    "Bxd8",
+    "Qxd8#"
+  ],
+  "rating": 1410,
+  "title": "Fil Fazla Uzakta",
+  "setup": "Siyahın b6'daki fili d8'i çapraz boyunca gözlerken f5'teki kale evinden uzaklaşmış.",
+  "hint": "Uzun menzilli koruyucunun da geri dönebilmesi gerekir. Gözlediği karenin, üzerinde tutunabileceği bir kare olup olmadığını sınayın.",
+  "explanation": "## Fikir\n\nFil d8'i uzaktan korur, yani {{Rd8+}} bir kaleye mal olur ve {{Bxd8}} mecburidir. Artık çapraz boştur ve {{Qxd8#}} kareyi alır. Bir kareyi korumak ile onun üstünde hayatta kalabilmek ayrı şeylerdir."
+}

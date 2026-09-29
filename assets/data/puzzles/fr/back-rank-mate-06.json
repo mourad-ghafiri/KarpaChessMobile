@@ -1,0 +1,14 @@
+{
+  "id": "back-rank-mate-06",
+  "fen": "3r2k1/1n3ppp/8/8/8/8/5PPP/3RR1K1 w - - 1 2",
+  "solution": [
+    "Rxd8+",
+    "Nxd8",
+    "Re8#"
+  ],
+  "rating": 880,
+  "title": "Le cavalier revient",
+  "setup": "Le cavalier noir vient d'aller en b7, d'où il peut reprendre en d8 et ne rien faire d'autre.",
+  "hint": "Demandez-vous ce que couvrira la pièce qui reprend une fois arrivée, et ce qu'elle cessera de couvrir.",
+  "explanation": "## L'idée\n\n{{Rxd8+}} force {{Nxd8}}, la seule réponse légale. Mais un cavalier en d8 couvre b7, c6, e6 et f7 — jamais e8. {{Re8#}} arrive sur la seule case que le nouveau défenseur ne voit pas. L'endroit où une pièce reprend compte autant que sa capacité à reprendre."
+}

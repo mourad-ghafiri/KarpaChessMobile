@@ -1,0 +1,14 @@
+{
+  "id": "overload-07",
+  "fen": "1Q3bk1/R4ppp/8/6r1/8/8/PPR5/K7 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rc8#"
+  ],
+  "rating": 1490,
+  "title": "Fil İçin Vezir",
+  "setup": "Siyahın fili f8'e dönmüş ve sizin yedinci yatayda bir kaleniz, c2'de bekleyen bir kaleniz daha var.",
+  "hint": "Burada taş saymıyorsunuz — kaçış karesi sayıyorsunuz. Hepsini sağlayan tek taşı bulun.",
+  "explanation": "## Fikir\n\n{{Qxf8+}}, {{Kxf8}} hamlesinin mecburi olduğunu ve şahın artık c2'deki kalenin hükmettiği yatayda durduğunu görene kadar saçma görünür. {{Rc8#}} işi bitirir; a7'deki kale de piyonların kendiliğinden almadığı tek kaçış karesi olan e7'yi kapsar."
+}

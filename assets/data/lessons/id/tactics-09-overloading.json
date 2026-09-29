@@ -1,0 +1,57 @@
+{
+  "id": "overloading",
+  "title": "Beban Berlebih",
+  "summary": "Satu penjaga, dua tugas, dan Anda yang memilih tugas mana yang dilepasnya",
+  "proof": "overload-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Satu Petak dari Menteri",
+      "text": "Pion Putih di a7 tinggal satu petak lagi untuk menjadi menteri, dan satu buah hitam menghentikannya. Benteng di c8 menguasai a8 di sepanjang baris yang kosong, jadi {{a8=Q}} dijawab dengan {{Rxa8}} dan menteri baru hanya bertahan tepat satu langkah.\n\nItulah tugas pertama. Benteng melakukannya tanpa bergerak. Ia berdiri di c8, dan pion itu tetap menjadi pion."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Dan Ia Menahan Kuda",
+      "text": "Sekarang lihat ke bawah lajur c. Kuda Hitam di c5 diserang gajah Putih di e3, dan satu-satunya yang melindunginya adalah benteng yang sama di c8, menjangkau ke bawah melewati dua petak kosong.\n\nTak ada buah lain di pihak Hitam yang mendekati c5. Raja di g8 berjarak empat lajur, dan tak ada pion yang cukup dekat untuk berarti.\n\nSatu benteng, dua tugas, dan saat ini ia mengerjakan keduanya tanpa bersusah payah."
+    },
+    {
+      "type": "teach",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "title": "Biarkan Tepat di Tempatnya",
+      "text": "Dua cara mematahkan penjaga sudah Anda miliki, dan benteng di c8 selamat dari keduanya. Tak ada milik Putih yang menyerangnya, jadi ia tak bisa dikeluarkan dari papan. Tak ada yang harus ia terima, jadi ia tak bisa ditarik dari petaknya.\n\nBagus. Biarkan ia di sana. Buah yang menguasai dua hal sekaligus menanggung **beban berlebih**, dan selama tak ada yang meminta apa pun darinya, dua tugas sama mudahnya dengan satu.\n\nJadi mintalah. Bertahan bukanlah diam di tempat — bertahan adalah sebuah langkah, dan bentengnya hanya satu."
+    },
+    {
+      "type": "play",
+      "fen": "2r3k1/P4ppp/8/2n5/8/4B3/5PPP/6K1 w - - 0 1",
+      "prompt": "Ambil salah satu dari dua hal yang dikuasai benteng dan biarkan ia memutuskan mana yang ia pertahankan.",
+      "targetSan": [
+        "Bxc5"
+      ],
+      "hint": "Hanya satu dari dua tugas benteng yang berupa buah yang bisa Anda sentuh, dan Putih sudah membidiknya."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "Baris Kedelapan Tak Bertuan",
+      "text": "Hitam mengambil gajah, dan pertukarannya seimbang — gajah untuk kuda, masing-masing tiga poin. Benteng berdiri di c5 karena ke sanalah ia harus pergi untuk menangkap balik.\n\nItulah seluruh masalahnya. Dari c5 benteng melihat lajur c dan baris kelima, dan a8 tidak berada di keduanya.\n\nMenolak pun tak lebih baik. Kuda itu akan hilang begitu saja, dan pion di a7 masih akan duduk di sini."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "title": "Menemukan yang Berikutnya",
+      "text": "Ada dua pengujian, dan kebanyakan pemain hanya menjalankan yang pertama.\n\nSebutkan buah lawan yang bekerja paling keras dan ucapkan tugas-tugasnya dengan lantang: petak ini, buah itu. Lalu sebutkan segala sesuatu lain yang menguasainya. Ada pembela kedua di mana pun, dan tak ada beban berlebih — hanya buah yang tak bisa Anda tangkap.\n\nSatu penjaga, dua tugas, dua tempat berdiri yang berbeda. Ambil yang mana pun dari keduanya yang bisa Anda capai, dan penjaga itu memilih kehilangan yang lain.\n\n> Jangan tanyakan apa yang dijaga sebuah pembela. Tanyakan berapa banyak, dan apa yang harus ia tinggalkan untuk menyelamatkan salah satunya."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/P4ppp/8/2r5/8/8/5PPP/6K1 w - - 0 2",
+      "prompt": "Kini tak ada yang menguasai baris kedelapan, jadi ambil apa yang tadi dicegah benteng dengan berdiri di sana.",
+      "targetSan": [
+        "a8=Q+",
+        "a8=R+"
+      ],
+      "hint": "Benteng menguasai c5 dan baris kelima, dan a8 tidak berada di keduanya."
+    }
+  ]
+}

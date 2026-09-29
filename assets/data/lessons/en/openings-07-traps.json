@@ -1,0 +1,59 @@
+{
+  "id": "opening-traps",
+  "title": "Opening Traps",
+  "summary": "Count the attackers, then punish the greedy",
+  "proof": "openings-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "Two Attackers, One Defender",
+      "text": "Three moves old, and White has aimed a queen and a bishop at the same square. Count f7. Two white pieces attack it. One black piece defends it, and that piece is the king, which is the worst defender on the board: a king cannot capture anything that arrives with support behind it.\n\nSo the queen can land on f7 next move, and that is mate. Not a threat to note and answer later. Mate.\n\nBlack has one move to change the arithmetic."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "title": "The Good Move That Loses",
+      "text": "Black brings a knight out with {{Nf6}}, which would be right in almost any other position, and White answers {{Qxf7#}}.\n\nThe king cannot take the queen, because the bishop on c4 stands behind it. Nothing else on the board reaches f7. Four moves, and one side has stopped playing.\n\nThe trap is not clever. It catches a player who meets a threat with a good move instead of the move the threat asks for."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3",
+      "prompt": "Fix the count on f7 in a single move, so the attackers there no longer outnumber the defenders.",
+      "targetSan": [
+        "g6",
+        "Qe7",
+        "Qf6",
+        "Nh6"
+      ],
+      "hint": "There are two honest ways to change a count: add a defender, or take away the road one attacker travels."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "A Pin Is a Price",
+      "text": "A new board, and a different kind of greed. Black's bishop on h5 pins the knight on f3 against the queen on d1: move the knight, and the queen is taken.\n\nAll of which is true, and none of which says the knight cannot move. A pin forbids nothing. It sets a price, and the price is whatever stands behind the pinned piece. Nine points is a high price. It is not an infinite one.\n\n> A pin holds only while the pinned piece has nothing better to do."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "One Hole Left",
+      "text": "Count the squares around Black's king before you decide what the knight is worth. The bishop on c4 already watches e6 and f7. The knight on c3 is one hop from d5, and from d5 it covers e7. Black's own queen on d8 and bishop on f8 block two more.\n\nThat leaves a single square in the king's whole neighborhood that no white piece touches: d7.\n\nAnd the piece sitting one hop from covering d7 is the knight Black has pinned."
+    },
+    {
+      "type": "teach",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "title": "If Black Declines",
+      "text": "Black is not obliged to take the queen, and taking it is the losing choice. The careful reply is to recapture on e5 and hand the bishop on h5 back, since the queen on d1 sees h5 the moment the knight leaves f3.\n\nThen there is no mate, no queen given away, and White is a clean pawn up for nothing.\n\nThat is what makes the whole idea worth playing. Greed ends the game on the spot, care costs a pawn, and Black has no third answer."
+    },
+    {
+      "type": "play",
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p2b/2B1P3/2N2N1P/PPPP1PP1/R1BQK2R w KQkq - 1 6",
+      "prompt": "Ignore the pin and take the center pawn, even though Black wins your queen for it.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "The square that pawn stands on is the one square that takes d7 away from Black's king."
+    }
+  ]
+}

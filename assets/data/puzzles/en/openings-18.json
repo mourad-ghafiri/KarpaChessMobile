@@ -1,0 +1,15 @@
+{
+  "id": "openings-18",
+  "fen": "rnbqkb1r/p1p2ppp/4pn2/1p6/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq b6 0 6",
+  "solution": [
+    "a4",
+    "c6",
+    "axb5",
+    "cxb5",
+    "Ne5"
+  ],
+  "title": "You Cannot Keep It",
+  "setup": "Black took the Catalan pawn and has just propped it up with ...b5. Hit that pawn chain before it settles.",
+  "hint": "Black is holding the extra pawn with a chain. Ask which of your pawns can reach the bottom of it, and what opens behind.",
+  "explanation": "## The Idea\n\nThe Catalan lends a pawn. Holding on to it costs Black the queenside.\n\n{{a4}} hits the chain at its base. If Black props it up with {{c6}}, then {{axb5}} {{cxb5}} takes the c-pawn off the long diagonal, and {{Ne5}} clears the rest of it: the bishop on g2 looks straight at the rook on a8, and the knight eyes c4.\n\nBlack must cover a8, usually with {{Nd5}}, and b5 has no defender.\n\nA pawn you must defend with more pawns is a pawn you are paying for."
+}

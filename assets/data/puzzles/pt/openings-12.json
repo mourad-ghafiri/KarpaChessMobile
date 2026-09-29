@@ -1,0 +1,13 @@
+{
+  "id": "openings-12",
+  "fen": "r3kbnr/pp1b1ppp/1qn1p3/3pP3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 2 8",
+  "solution": [
+    "Nxd4",
+    "Nxd4",
+    "Qxd4"
+  ],
+  "title": "A Base Cai",
+  "setup": "Uma francesa de avanço: as brancas puseram o bispo em d3 e o cavalo em c3, e ninguém contou o peão que está na base da cadeia.",
+  "hint": "Conta os atacantes e os defensores do peão da base das brancas. O bispo de d3 está à frente de um dos defensores das brancas.",
+  "explanation": "## A Ideia\n\nA base da cadeia das brancas é d4. O teu cavalo de c6 e a tua dama de b6 atacam-no, e só o cavalo de f3 o defende: o bispo de d3 bloqueia a estrada à dama branca.\n\n{{Nxd4}} come-o, e depois de {{Nxd4}} {{Qxd4}} estás um peão limpo à frente. O truque do costume, um xeque de bispo em b5 que descobre a dama branca, falha aqui porque o teu bispo de d7 cobre b5 assim que o cavalo deixa c6.\n\nConta primeiro a base da cadeia."
+}

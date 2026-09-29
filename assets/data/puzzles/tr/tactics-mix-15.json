@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-15",
+  "fen": "8/4k3/8/3K4/8/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "title": "Şah Piyonun Önünde",
+  "setup": "Şahınız piyonunun önüne geçmiş ve siyahın şahı e7'de bekliyor. Sıradaki şah hamlesi partiyi belirliyor.",
+  "hint": "Piyonu sürmek şahın emeğini çarçur eder. Şahınızı, siyahın şahının yol vermek zorunda kalacağı yere koyun.",
+  "explanation": "## Fikir\n\n{{Ke5}} piyonun önüne adımlar ve opozisyonu alır: şahlar aralarında bir kare olacak şekilde karşı karşıya gelir ve siyahın oynaması gerekir. Siyahın şahı hangi yöne giderse gitsin sizinki onu geçer; örneğin {{Kd7}} {{Kf6}}, ve piyon arkadan gelir. Önce {{e4}} ile piyonu sürün ya da başka bir yere adımlayın, opozisyonu siyah alsın: beraberlik.\n\nŞah ve piyon oyun sonunda şah önden gider, piyon peşinden."
+}

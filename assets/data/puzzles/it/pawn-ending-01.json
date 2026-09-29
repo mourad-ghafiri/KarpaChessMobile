@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-01",
+  "fen": "8/8/8/7P/3k4/8/8/K7 b - - 0 1",
+  "solution": [
+    "Ke5"
+  ],
+  "rating": 1100,
+  "title": "Dentro la Scatola",
+  "setup": "Il Bianco ha appena spinto il pedone h sulla quinta, e il suo re è arenato nell'angolo lontano.",
+  "hint": "Abbozzate la scatola h5–h8–e8–e5 e chiedetevi quale delle vostre mosse di re atterri davvero dentro.",
+  "explanation": "## L'idea\n\nA un pedone in h5 servono tre mosse per promuovere, quindi qualunque re riesca a raggiungere la scatola h5–h8–e8–e5 lo prende. Da d4 solo {{Ke5}} ci entra: {{h6}} {{Kf6}} e il re segue passo passo il pedone fino a h8. Ogni altra mossa è corta di un tempo."
+}

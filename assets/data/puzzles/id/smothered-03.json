@@ -1,0 +1,12 @@
+{
+  "id": "smothered-03",
+  "fen": "kr2r3/pp3ppp/8/1N6/8/8/P4PPP/3R2K1 w - - 7 29",
+  "solution": [
+    "Nc7#"
+  ],
+  "rating": 1215,
+  "title": "Sudut yang Lain",
+  "setup": "Hitam baru saja memindahkan benteng dari c8 ke b8, dan raja di sudut tak punya celah lagi.",
+  "hint": "Mat terkurung bukan hanya ide sayap raja; periksa petak mana di sekitar a8 yang masih kosong, lalu carilah sekak.",
+  "explanation": "## Ide\n\nRaja di a8 dengan pion di a7 dan b7 serta benteng di b8 sama terkuburnya dengan raja di h8. {{Nc7#}} tiba di satu-satunya petak yang memberinya sekak, dan tak ada yang menguasainya — benteng di b8 menjaga baris dan lajur, tak pernah petak diagonal di depannya."
+}

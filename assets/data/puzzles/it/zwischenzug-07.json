@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-07",
+  "fen": "6k1/r4ppp/3B4/8/1R6/8/PP5Q/K2br3 w - - 0 1",
+  "solution": [
+    "Rb8+",
+    "Re8",
+    "Rxe8#"
+  ],
+  "rating": 1530,
+  "title": "Traversa di Fondo da Tutte e Due le Parti",
+  "setup": "Il Nero ha una torre in e1 e un alfiere in d1 seduti sulla vostra traversa di fondo mentre il suo re aspetta tranquillo in g8.",
+  "hint": "Tutti e due hanno una prima traversa debole. Contate quale delle due cade in meno mosse.",
+  "explanation": "## L'idea\n\nIl Nero è a una mossa dal darvi matto, ed è esattamente per questo che {{Rb8+}} è giusta. {{Re8}} è forzata e {{Rxe8#}} atterra per prima. In una corsa, l'unico numero che conta è chi dà scacco per primo."
+}

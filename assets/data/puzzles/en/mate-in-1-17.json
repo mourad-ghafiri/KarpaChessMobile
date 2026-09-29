@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-17",
+  "fen": "2B1k3/8/4K3/8/8/8/8/7Q w - - 0 1",
+  "solution": [
+    "Qh8#"
+  ],
+  "title": "The Rank Does the Work",
+  "setup": "Your king on e6 stands two squares in front of Black's king, and your queen is far away in the corner.",
+  "hint": "Your king already covers every square on the seventh rank the black king could use. Find a check on the eighth.",
+  "explanation": "## The Idea\n\n{{Qh8#}} checks along the back rank. Your king on e6 covers d7, e7 and f7, and d8 and f8 are both on the queen's line. Nothing can block between h8 and e8.\n\nThe bishop on c8 only doubles up on d7: your king and queen do the work. A king two squares in front of the enemy king leaves the queen just one rank to take."
+}

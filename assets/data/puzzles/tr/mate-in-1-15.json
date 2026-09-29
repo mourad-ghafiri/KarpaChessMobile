@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-15",
+  "fen": "6k1/4Rppp/8/8/1B6/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "Fil Pencereyi Kesiyor",
+  "setup": "e7'deki kaleniz arka yataya bir adım uzaklıkta ve b4'teki filiniz onun arkasında, f8'e giden çaprazda duruyor.",
+  "hint": "Kale oynadığında filin çaprazı açılır. Bu, şahtan hangi kareyi alır?",
+  "explanation": "## Fikir\n\n{{Re8#}} arka yatay boyunca şah çeker ve hamlenin kendisi filin çaprazını açar: kale e7'den ayrıldığında b4'teki fil f8'i kapsar. h8 kalenin hattındadır ve f7, g7 ile h7'de siyahın kendi piyonları durur. Hiçbir şey kaleyi alamaz ya da araya giremez.\n\nBir hattan çekilen taş, o hattı arkasındaki taşa devreder."
+}

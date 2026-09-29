@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-22",
+  "fen": "k7/2K5/8/8/8/8/8/7R w - - 0 1",
+  "solution": [
+    "Ra1#"
+  ],
+  "title": "Aperto no Canto",
+  "setup": "O rei preto está no canto de a8, e o teu rei em c7 cobre b7 e b8.",
+  "hint": "O teu rei selou as casas ao lado do canto. À torre só falta dar xeque pela berma.",
+  "explanation": "## A Ideia\n\nEste é o mate de canto clássico de rei e torre. O teu rei de c7 cobre b7 e b8, as duas casas ao lado do canto.\n\n{{Ra1#}} dá xeque pela coluna a, e a7 está também na linha da torre. Nada pode tapar, e o rei não chega à torre.\n\nAssim que o teu rei sela as casas ao lado do canto, qualquer xeque seguro pela berma é mate."
+}

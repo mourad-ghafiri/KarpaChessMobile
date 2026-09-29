@@ -1,0 +1,74 @@
+{
+  "id": "pawn-breakthrough",
+  "title": "Piyon Yarması",
+  "summary": "İki piyonu verin, üçüncüyü vezir yapın",
+  "proof": "pawn-breakthrough-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Üçe Karşı Üç",
+      "text": "Altı piyon iki sıra hâlinde duruyor ve hiçbiri alınmadan oynayamıyor. Beyazın a5, b5 ve c5'i var; siyahın a7, b7 ve c7'si. İki şah da tahtanın uzak ucuna park etmiş, konuya karışamayacak kadar yavaş.\n\nSekizinci yataya önce ulaşan partiyi doğrudan kazanır ve şu anda kimse hiçbir yere ulaşmıyor. Her ileri sürüş bir taş almaya yürüyor ve piyonlar geri gitmiyor.\n\nSıra beyazda ve kazanan beyaz."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Piyonlar Yalnızca Almak İçin Yön Değiştirir",
+      "text": "{{a6}} ilerleme gibi görünür, ta ki {{bxa6}} cevabı gelene kadar. Bedavaya verilmiş bir piyon ve siyahın beyazın iki piyonuna karşı hâlâ üç piyonu.\n\nSebebi hamlenin şekli. Piyon dümdüz ileri gider ve eğik alır; yani siyah bir piyonun önünde ne yaparsanız yapın onu kendi dikeyinden ayıramazsınız. Koruyucu, koruduğu dikeyi ancak yandaki dikeyde bir şey alarak terk eder.\n\nŞahınız karşıya yürüyüp bunu yavaş yavaş kazanabilir. Piyonlar ise meseleyi hemen halledebilir; yeter ki o dikeye bir şey koyun ve onu kaybetmeye razı olun."
+    },
+    {
+      "type": "play",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "prompt": "Siyahın sırasının ortasında bir piyon önerin ki her iki taş alma da bir koruyucuyu yana sürüklesin.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Üç ileri sürüşünüzden yalnızca birine iki farklı taş almayla cevap verilebilir ve ikisi de bir dikeyi boşaltır."
+    },
+    {
+      "type": "play",
+      "fen": "7k/1pp5/1p6/P1P5/8/8/8/6K1 w - - 0 3",
+      "prompt": "a piyonunuzun istediği dikeyden son koruyucuyu çekmek için ikinci bir piyon harcayın.",
+      "targetSan": [
+        "c6"
+      ],
+      "hint": "b7'deki piyon, a piyonunuzun yolunu gözleyen tek şey; öyleyse ona yanındaki dikeyde bir şey önerin."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/2p5/1pp5/P7/8/8/8/6K1 w - - 0 4",
+      "title": "Bir Yol İçin İki Piyon",
+      "text": "İki piyon harcandı; şimdi ne satın aldıklarına bakın. Siyahın kalan üç piyonu b6, c6 ve c7'ye tıkılmış ve piyonunuz a6'ya vardığında hiçbiri ona bir daha dokunamaz.\n\n{{a6}} {{c5}} {{a7}} {{c4}} {{a8=Q}}. Sizinki vardığında siyahın en hızlı piyonu hâlâ dördüncü yataydadır ve h8'deki siyah şah konuşmaya hiç katılmamıştır.\n\nİki fedanın da hayatta kalmak gibi bir derdi yoktu. Her biri siyah bir piyondan yandaki dikeye geçmesini istedi ve yana geçen koruyucu korumayı bırakır."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "title": "Çaprazın Ucundaki Şah",
+      "text": "Aynı fikir, başka bir yol ve bu yol bir şahta bitiyor. b2'deki filiniz uzun çapraza bakıyor ve yolundaki ilk şey siyahın g7'deki piyonu.\n\n{{Bxg7}} tıpayı elle çekerdi, ama {{Kxg7}} geldikten sonra bir piyon için bir fil ödemiş olursunuz ve açık çaprazda duran siyahın şahı olur.\n\nPiyonun kendiliğinden ayrılması daha iyi. Bir piyon dikeyini yalnızca bir şey almak için terk eder."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "prompt": "g7'deki piyona bir piyon önerin ki yapmak isteyeceği taş alma, çaprazınızı açan taş alma olsun.",
+      "targetSan": [
+        "f6"
+      ],
+      "hint": "Piyon karesini yalnızca taş almak için terk eder; öyleyse g7 piyonunun saldırdığı bir kareye bir şey koyun."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2p1p/2np1p2/8/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 0 3",
+      "title": "Tıpa Çıktı",
+      "text": "Siyah aldı ve tıpa çıktı: g7 boş ve uzun çapraz ta köşeye kadar uzanıyor. Reddetmek de siyahı kurtarmazdı, çünkü o zaman piyonunuz g7'de kendisi alırdı.\n\n{{Bxf6}} uzun çaprazda geri alır ve fil f6'dan siyah şahın yanındaki iki boş kareyi de, g7 ile h8'i kapsar. Siyah çoktan kaybetmiş durumda. {{Qd8}} file saldıran doğal cevaptır ve doğruca sona yürür.\n\n> Bir piyonun güvenle alınıp alınamayacağını değil, alınırsa neyi açacağını sorun."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp3p1p/2np1B2/8/4P3/1P3N2/P2Q2PP/R4RK1 w - - 1 4",
+      "prompt": "Tek hamlede mat — filiniz iki kaçış karesini de kapsarken siyah şaha g dikeyi boyunca şah çekin.",
+      "targetSan": [
+        "Qg5#"
+      ],
+      "hint": "Filiniz g7 ile h8'i zaten gözlüyor, yani şahın kaçacak yeri yok; sizin yalnızca şah çekerek varmanız gerekiyor."
+    }
+  ]
+}

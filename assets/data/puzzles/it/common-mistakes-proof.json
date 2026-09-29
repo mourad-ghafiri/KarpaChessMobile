@@ -1,0 +1,11 @@
+{
+  "id": "common-mistakes-proof",
+  "fen": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/1Q6/PPPP1PPP/RNB1K1NR b KQkq - 3 5",
+  "solution": [
+    "Nd4"
+  ],
+  "title": "Il Terzo Viaggio della Donna",
+  "setup": "La donna bianca ha mosso tre volte in cinque mosse, e da b3 fissa di nuovo f7. Fatele pagare il viaggio.",
+  "hint": "Attaccare una donna con un pezzo più economico guadagna una mossa. Trovate l'attacco che guarda anche c2, a un balzo dal re e dalla torre del Bianco.",
+  "explanation": "## L'idea\n\nAlla donna uscita presto arriva il conto. {{Nd4}} la attacca con un cavallo, e il cavallo guarda anche c2, dove una presa darebbe scacco al re e colpirebbe la torre in a1.\n\nLa donna deve muovere una quarta volta, e ogni risposta lascia il Nero nettamente meglio. Prendere prima f7 non cambia niente: dopo che l'alfiere prende con scacco, il re va in e7, e la donna è ancora attaccata."
+}

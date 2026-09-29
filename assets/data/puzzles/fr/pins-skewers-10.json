@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-10",
+  "fen": "3k4/p2b1ppp/6n1/1pP5/8/8/PP1R1PPP/6K1 w - - 0 1",
+  "solution": [
+    "c6"
+  ],
+  "title": "Fou cloué, fou perdu",
+  "setup": "Le fou noir se tient sur la colonne d entre votre tour et son propre roi, et votre pion c est tout près.",
+  "hint": "Un fou cloué ne peut pas quitter sa ligne, même pas pour prendre. Attaquez-le avec votre pièce la moins chère.",
+  "explanation": "## L'idée\n\nLe fou en d7 est cloué sur le roi en d8 par votre tour, il ne peut donc pas quitter la colonne d. {{c6}} l'attaque, et le fou ne peut ni prendre le pion ni fuir, donc {{cxd7}} le gagne au coup suivant, pour un pion tout au plus.\n\nPrendre avec la tour n'échangerait qu'une tour contre un fou. Attaquez une pièce clouée avec ce que vous avez de moins cher."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "strategy-11",
+  "fen": "r1r3k1/pp1bpp1p/3p1npQ/q3n3/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+  "solution": [
+    "Rxc3",
+    "bxc3",
+    "Qxc3"
+  ],
+  "title": "Torre per Cavallo, Volentieri",
+  "setup": "Gli alfieri camposcuri sono stati cambiati, la donna bianca è andata a spasso fino a h6, e tutte e due le torri nere sono già sistemate.",
+  "hint": "Un solo pezzo bianco tiene insieme b5, d5 e e4, e una sola unità bianca potrebbe riprendere se sparisse.",
+  "explanation": "## L'idea\n\nIl Nero dà cinque punti per tre perché i pedoni glieli ripagano. {{Rxc3}} toglie il cavallo che tiene insieme b5, d5 e e4, e {{bxc3}} è l'unica ripresa legale del Bianco.\n\nAdesso contate la posizione, non il materiale. Il re bianco siede dietro pedoni spezzati, senza più nessun pedone bianco sulla colonna b, e {{Qxc3}} riprende un pedone con la donna a una mossa dal dare scacco in a1.\n\nSpendete la qualità quando la ripresa rovina i pedoni e il seguito arriva in fretta."
+}

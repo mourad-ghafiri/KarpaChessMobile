@@ -1,0 +1,14 @@
+{
+  "id": "smothered-09",
+  "fen": "k2r3r/pp3ppp/N7/4Q3/8/8/5PPP/6K1 w - - 5 27",
+  "solution": [
+    "Qb8+",
+    "Rxb8",
+    "Nc7#"
+  ],
+  "rating": 1405,
+  "title": "Sacrifice on b8",
+  "setup": "Black's king has just fled the knight's check into the corner, with its own pawns on a7 and b7.",
+  "hint": "The knight on a6 already guards b8 — what does that let a queen do on a square right beside the king?",
+  "explanation": "## The Idea\n\n{{Qb8+}} is immune, because the knight on a6 defends b8, so {{Rxb8}} is the only move on the board and the corner is sealed by Black's own rook. {{Nc7#}} then checks from a square no black piece watches. The same sacrifice works in either corner."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-04",
+  "fen": "r2q1bnr/ppp1kBpp/2np4/4N3/4P3/2N4P/PPPP1PP1/R1BbK2R w KQ - 1 8",
+  "solution": [
+    "Nd5#"
+  ],
+  "rating": 690,
+  "title": "Lo que cuesta una dama",
+  "setup": "Entregaste la dama en d1 para arrastrar al rey negro a e7, y ahora tres de tus piezas lo miran.",
+  "hint": "Cuenta las casillas que tiene el rey, y luego encuentra la pieza que le quita la última dando jaque.",
+  "explanation": "## La idea\n\n{{Nd5#}} es el mate de Legal. El alfil de f7 y el caballo de e5 cubren d7, e6 y e8, así que el segundo caballo da jaque quitándole él mismo f6. Una dama no vale nada al lado de un rey sin casillas."
+}

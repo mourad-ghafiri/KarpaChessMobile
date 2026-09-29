@@ -1,0 +1,14 @@
+{
+  "id": "deflection-09",
+  "fen": "4r1k1/pp1q2pp/6pQ/8/8/8/1B4PP/4RRK1 w - - 1 2",
+  "solution": [
+    "Rxe8+",
+    "Qxe8",
+    "Qxg7#"
+  ],
+  "rating": 1410,
+  "title": "Hors de la septième rangée",
+  "setup": "Votre dame et votre fou visent déjà g7, et seule la dame noire en d7 la défend le long de la rangée.",
+  "hint": "Comptez les attaquants et les défenseurs de g7, puis trouvez l'échec qui réduit les défenseurs d'un.",
+  "explanation": "## L'idée\n\n{{Rxe8+}} est échec, et {{Qxe8}} est la seule réponse des Noirs — ce qui retire la dame de la septième rangée. {{Qxg7#}} suit, maintenue en place par le fou en b2. La tour est dépensée pour laisser un attaquant de plus qu'il n'y a de défenseurs."
+}

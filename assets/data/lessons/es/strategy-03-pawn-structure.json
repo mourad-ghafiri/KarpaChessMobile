@@ -1,0 +1,77 @@
+{
+  "id": "pawn-structure",
+  "title": "La estructura de peones",
+  "summary": "Doblados, aislados, retrasados: lo que cuesta cada uno",
+  "proof": "strategy-03.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "title": "Dos peones, una columna",
+      "text": "Dos peones en la misma columna nunca pueden defenderse entre sí. Ninguno puede apartarse para cubrir al otro, y entre los dos controlan una columna donde dos vecinos controlarían dos.\n\nMira el flanco de dama negro: peones en a6, b7, c7 y d7, cada uno cubriendo casillas que los otros no cubren. Ninguno tiene nada de malo. Las Blancas están a punto de cambiar eso con una sola captura, y el cambio es permanente: un peón solo se mueve de lado cuando hay algo que capturar."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 4",
+      "prompt": "Fuerza una recaptura que deje dos peones negros apilados en una columna para el resto de la partida.",
+      "hint": "Solo una pieza negra está defendida por dos peones distintos, y cualquiera de esos peones caería en una columna ya ocupada.",
+      "targetSan": [
+        "Bxc6"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQk - 0 5",
+      "title": "Una deuda con plazo",
+      "text": "Los peones de c negros están apilados, y así seguirán el resto de la partida. A cambio las Negras tienen la pareja de alfiles y una columna d semiabierta: una compensación real, y con fecha de caducidad. Los alfiles necesitan posiciones abiertas, y las posiciones abiertas necesitan piezas.\n\nAsí que las Blancas van hacia el final. {{d4}} {{exd4}} {{Qxd4}} ofrece un cambio de damas difícil de rehusar, y cada pareja que sale hace más silenciosos a esos alfiles y más ruidosos a los peones apilados."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/1pp2ppp/p1p5/8/3QP3/5N2/PPP2PPP/RNB1K2R b KQk - 0 6",
+      "title": "Cuenta los flancos",
+      "text": "Las damas se van con {{Qxd4}}, y lo que queda es una cuenta.\n\nLas Blancas tienen cuatro peones contra tres en el flanco de rey. Avánzalos bien y uno pasa: un peón pasado hecho de nada más que una mayoría.\n\nLas Negras tienen cuatro contra tres en el flanco de dama, y nunca conseguirán uno. Dos de esos cuatro están apilados en c6 y c7, así que todo el grupo solo abarca tres columnas, y los tres peones blancos cubren las tres."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "Un peón sin vecinos",
+      "text": "Un segundo tablero, y una segunda clase de deuda. El peón negro de d5 no tiene peón en la columna c ni en la e, y no hay forma de que le crezca uno: los dos han desaparecido para siempre. Eso es un peón **aislado**.\n\nEl primer coste es el evidente. Solo las piezas pueden defenderlo, y una pieza atada a un peón hace una tarea en lugar de tres.\n\nEl segundo coste es el que decide partidas, y no es el peón en absoluto. Es la casilla vacía que tiene delante."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "title": "La casilla que no puede proteger",
+      "text": "Los peones de c y de e negros eran los únicos que podrían haber atacado alguna vez d4, y ninguno existe. Así que d4 no es una casilla por la que las Blancas tengan que luchar. Es una casilla en la que las Blancas se instalan y se quedan.\n\nNingún peón puede echar a una pieza de ahí. Las Negras conviven con el intruso o entregan una pieza para eliminarlo, y cada cambio posterior deja al peón aislado con menos defensores y los mismos atacantes.\n\nLos dos caballos blancos pueden llegar a d4. Solo uno debería."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pp2nppp/2nb4/1B1p4/8/1N3N2/PPP2PPP/R1BQ1RK1 w k - 4 10",
+      "prompt": "Pon un caballo en la casilla que ningún peón negro podrá atacar jamás, y manda el caballo que no está ya ocupado.",
+      "hint": "Uno de tus caballos protege e5 y g5 desde donde está, así que moverlo cede esas casillas.",
+      "targetSan": [
+        "Nbd4"
+      ]
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Débil y congelado",
+      "text": "Un tercer tablero, y la peor de las tres deudas. El peón negro de d6 tiene un vecino en c5 que ya lo ha adelantado y ningún peón de e, así que ningún peón volverá a defenderlo. Los peones no retroceden, y este tampoco puede avanzar: el peón blanco de d5 le corta el paso.\n\nIndefendible y congelado: eso es un **peón retrasado**. Un peón aislado, al menos, puede correr.\n\n> Los peones doblados te cuestan un peón pasado, un peón aislado te cuesta la casilla de delante, y un peón retrasado te cuesta una pieza que lo cuide."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10",
+      "title": "Manda las piezas",
+      "text": "Cada atacante que suman las Blancas exige respuesta, y las respuestas les cuestan a las Negras más de lo que los atacantes cuestan a las Blancas: una pieza clavada a un peón ha dejado de jugar al ajedrez.\n\nAsí que llegan las piezas, y los dos bandos se toman su tiempo. {{Nd2}} pone un caballo en el largo camino hacia c4, y {{Na6}} manda el negro hacia c7. {{f3}} sostiene e4, para que el caballo pueda dejar d2 más tarde sin perder ese peón. {{Nc7}} llega para proteger b5, {{a4}} le quita b5 igualmente y {{b6}} es la respuesta negra.\n\nLos dos bandos discuten por un solo peón que no puede moverse."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqr1k1/p1n2pbp/1p1p1np1/2pP4/P3P3/2N2P2/1P1NB1PP/R1BQ1RK1 w - - 0 13",
+      "prompt": "Suma un atacante contra el peón que las Negras nunca podrán defender con un peón.",
+      "hint": "El caballo de d2 tiene tres casillas a las que ir; solo una toca d6.",
+      "targetSan": [
+        "Nc4"
+      ]
+    }
+  ]
+}

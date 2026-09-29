@@ -1,0 +1,14 @@
+{
+  "id": "skewer-02",
+  "fen": "8/3k3q/1B2p3/8/2Qp4/8/4bPP1/6K1 w - - 0 1",
+  "solution": [
+    "Qc7+",
+    "Ke8",
+    "Qxh7"
+  ],
+  "rating": 940,
+  "title": "Tusukan di Baris Ketujuh",
+  "setup": "Raja hitam di d7 dan menterinya di h7 berbagi baris ketujuh tanpa apa pun di antaranya.",
+  "hint": "Petak mana di samping raja hitam yang sudah dikuasai buah putih lain? Beri sekak dari baris yang dibagi keduanya.",
+  "explanation": "## Ide\n\nRaja di **d7** dan menteri di **h7** duduk di satu baris. {{Qc7+}} memberi sekak dari ujung yang lain, dan gajah di **b6** menjaga c7, jadi raja tak boleh menangkap. Sesudah {{Ke8}} barisnya kosong dan {{Qxh7}} mengambil menteri."
+}

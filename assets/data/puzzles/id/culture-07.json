@@ -1,0 +1,13 @@
+{
+  "id": "culture-07",
+  "fen": "rn1qkb1r/ppp2ppp/3p4/4N3/2B5/2P5/PPP2PPP/R1BbK2R w KQkq - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Bg5#"
+  ],
+  "title": "Menteri Itu Umpannya",
+  "setup": "Hitam baru saja mengambil menteri Anda, jenis penangkapan yang tak pernah membuat siapa pun berhenti untuk melihat, dan Anda punya satu langkah.",
+  "hint": "Raja hitam hanya punya satu petak bebas. Beri sekak yang menggiringnya ke sana, dan pastikan gajah Anda yang lain bisa mencapai diagonal petak itu.",
+  "explanation": "## Ide\n\n{{Bxf7+}} menawarkan buah kedua kepada raja yang tak punya tempat lari. Raja tak bisa mengambil di f7, karena kuda di e5 melindunginya, jadi {{Ke7}} terpaksa. Lalu {{Bg5#}}: gajah dari c1 memberi sekak di sepanjang diagonal yang melewati e7, dan setiap petak di sekitar raja dikuasai atau terhalang.\n\nSeekor kuda, dua gajah dan tanpa menteri menuntaskan partai pada langkah kedelapan.\n\nPenangkapan yang diantrekan meletus ke posisi apa pun yang tiba. Pasang premove untuk langkah yang aman, jangan pernah untuk penangkapan yang serakah."
+}

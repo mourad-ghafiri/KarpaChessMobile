@@ -1,0 +1,13 @@
+{
+  "id": "culture-07",
+  "fen": "rn1qkb1r/ppp2ppp/3p4/4N3/2B5/2P5/PPP2PPP/R1BbK2R w KQkq - 0 7",
+  "solution": [
+    "Bxf7+",
+    "Ke7",
+    "Bg5#"
+  ],
+  "title": "La dama era el cebo",
+  "setup": "Las Negras acaban de capturar tu dama, el tipo de captura que nadie se para a mirar, y tienes una jugada.",
+  "hint": "El rey negro solo tiene una casilla libre. Da un jaque que lo lleve ahí, y asegúrate de que tu otro alfil llega a la diagonal de esa casilla.",
+  "explanation": "## La idea\n\n{{Bxf7+}} ofrece una segunda pieza a un rey sin adónde huir. El rey no puede capturar en f7, porque la defiende el caballo de e5, así que {{Ke7}} es forzada. Luego {{Bg5#}}: el alfil de c1 da jaque por la diagonal que pasa por e7, y todas las casillas alrededor del rey están cubiertas u ocupadas.\n\nUn caballo, dos alfiles y ninguna dama terminan la partida en la octava jugada.\n\nUna captura en cola sale disparada contra la posición que llegue. Premueve la jugada segura, nunca la captura codiciosa."
+}

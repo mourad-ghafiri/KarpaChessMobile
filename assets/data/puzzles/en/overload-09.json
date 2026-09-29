@@ -1,0 +1,14 @@
+{
+  "id": "overload-09",
+  "fen": "7k/4bppp/4R3/r7/3Q4/5R2/PP6/K7 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Bxd8",
+    "Re8#"
+  ],
+  "rating": 1550,
+  "title": "Give the Queen a Square",
+  "setup": "Your rook already sits on e6 with another on f3, and Black's bishop on e7 is the last piece holding the eighth rank.",
+  "hint": "Look for the square where the defender must capture, not the square where it wants to.",
+  "explanation": "## The Idea\n\n{{Qd8+}} puts the queen where the bishop must come and take it — {{Bf8}} only loses faster. {{Bxd8}} empties e7, and {{Re8#}} runs down the file the bishop was blocking. The point is not the queen — it is the file it clears."
+}

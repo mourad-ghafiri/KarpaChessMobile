@@ -1,0 +1,11 @@
+{
+  "id": "openings-17",
+  "fen": "rnb1k2r/pp2ppbp/6p1/q1PP4/5B2/2P1P3/P4PPP/2RQKBNR b Kkq - 0 9",
+  "solution": [
+    "Bxc3+"
+  ],
+  "title": "A Diagonal Recolhe",
+  "setup": "As pretas entregaram o centro e com ele dois peões, e as brancas acabaram de recapturar em c3 com o peão b.",
+  "hint": "As brancas recapturaram com um peão que só uma peça guarda, e o teu bispo aponta-lhe desde a quarta jogada.",
+  "explanation": "## A Ideia\n\nO bispo em g7 aponta pela grande diagonal desde a quarta jogada, e era por isto que esperava.\n\n{{Bxc3+}} recupera um peão com xeque. {{Rxc3}} vai dar a {{Qxc3+}}, porque a dama de a5 está atrás do bispo, e {{Qd2}} perde a dama para {{Bxd2+}}. O melhor para as brancas é {{Ke2}}, a abdicar do roque para ficar um peão à frente.\n\nSó entregues o centro quando tiveres com que lhe disparar."
+}

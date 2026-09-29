@@ -1,0 +1,15 @@
+{
+  "id": "history-05",
+  "fen": "r1b1k1nr/p2p1ppp/n2B4/1p1NPN1P/6P1/3P1Q2/P1P1K3/q5b1 w kq - 2 21",
+  "solution": [
+    "Nxg7+",
+    "Kd8",
+    "Qf6+",
+    "Nxf6",
+    "Be7#"
+  ],
+  "title": "La conclusion de l'Immortelle",
+  "setup": "Anderssen contre Kieseritzky, Londres 1851. Les Blancs ont donné les deux tours et un fou. Comptez la conclusion avant de compter le matériel.",
+  "hint": "Commencez par un échec. Comptez ensuite les cases du roi noir, trouvez la seule pièce noire qui les garde encore, et donnez-lui quelque chose qu'elle doit prendre.",
+  "explanation": "## L'idée\n\nL'Immortelle, jouée à Londres en 1851 : les Blancs ont deux tours et un fou de moins, et matent quand même.\n\n{{Nxg7+}} prend un pion avec échec, et {{Kd8}} est la seule réponse. Maintenant c7 et e7 appartiennent au fou en d6, et e8 au cavalier en g7.\n\nUne seule pièce noire garde encore e7 : le cavalier en g8. {{Qf6+}} l'en arrache, car seul ce cavalier peut parer l'échec. Après {{Nxf6}}, {{Be7#}}, avec le cavalier en d5 qui protège le fou."
+}

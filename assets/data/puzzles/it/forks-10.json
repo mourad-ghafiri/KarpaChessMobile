@@ -1,0 +1,13 @@
+{
+  "id": "forks-10",
+  "fen": "4q3/8/8/4k3/8/8/8/R6K w - - 0 1",
+  "solution": [
+    "Re1+",
+    "Kd6",
+    "Rxe8"
+  ],
+  "title": "Infilzate la Donna",
+  "setup": "Il re nero in e5 e la donna nera in e8 stanno sulla stessa colonna, con il re davanti.",
+  "hint": "Entrate su quella colonna con scacco. Poi chiedetevi davanti a che cosa stia il re.",
+  "explanation": "## L'idea\n\nIl pezzo più prezioso è quello più vicino. Questa è un'infilata: colpite il pezzo davanti e prendete quello che nascondeva.\n\n{{Re1+}} si prende la colonna. Tutte e sei le risposte sono mosse di re — niente può parare, perché la donna dovrebbe attraversare il proprio re per arrivare a e2, e3 o e4.\n\n{{Kd6}} vale quanto le altre, e {{Rxe8}} raccoglie la donna. In un'inchiodatura il pezzo prezioso sta dietro; in un'infilata sta davanti, e muoversi costa."
+}

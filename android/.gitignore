@@ -1,0 +1,19 @@
+gradle-wrapper.jar
+/.gradle
+# Gradle's own reports (problems-report.html and the like). The app's build
+# output is redirected to the repository's top-level build/, ignored there.
+/build/
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
+GeneratedPluginRegistrant.java
+.cxx/
+# Kotlin compiler daemon session files, written by every Gradle build.
+.kotlin/
+
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/to/reference-keystore
+key.properties
+**/*.keystore
+**/*.jks

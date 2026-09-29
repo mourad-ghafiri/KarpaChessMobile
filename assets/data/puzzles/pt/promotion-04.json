@@ -1,0 +1,14 @@
+{
+  "id": "promotion-04",
+  "fen": "1r4k1/6pp/1PP5/8/8/8/6PP/6K1 w - - 0 1",
+  "solution": [
+    "c7",
+    "Rc8",
+    "b7"
+  ],
+  "rating": 1120,
+  "title": "Dois Peões, Uma Torre",
+  "setup": "Dois peões ligados estão em b6 e c6 contra uma só torre em b8, e a torre só consegue vigiar um.",
+  "hint": "Uma torre não segura dois peões ligados. Empurra aquele que arrasta a torre para uma casa que consegues atacar.",
+  "explanation": "## A Ideia\n\n{{c7}} ataca a torre e ameaça fazer dama, e {{Rc8}} é a única casa que trava o peão c. Agora {{b7}} ataca a torre e ameaça também b8=Q, portanto joguem as pretas o que jogarem, um dos peões faz dama. Dois peões ligados na sexta vencem uma torre."
+}

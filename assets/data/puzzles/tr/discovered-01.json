@@ -1,0 +1,13 @@
+{
+  "id": "discovered-01",
+  "fen": "2r1k3/8/8/8/4N3/8/8/4R2K w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd8",
+    "Nxc8"
+  ],
+  "title": "At Adımlar, Kale Vurur",
+  "setup": "e1'deki beyaz kale siyahın şahına doğrultulmuş ve yolda duran tek şey beyazın kendi atı.",
+  "hint": "Her at hamlesi kaleyi açar. Yalnızca biri aynı zamanda bir şeyin üstüne iner.",
+  "explanation": "## Fikir\n\nAt e4'te otururken kale hiçbir şey yapmaz. Onu oynatın, kalenin hattı aynı anda açılsın: oynayan taş, saldıran taş değildir.\n\nBirkaç at hamlesi bu şahı verir, ama yalnızca {{Nd6+}} ikinci bir iş görür ve c8'deki kaleye saldırır. Üstelik bu bir **çifte şah**tır, yani araya hiçbir şey giremez ve şah çekenlerden birini almak ötekini bırakır.\n\nŞahın üç karesi var. {{Kd8}} onu yakında tutar ve {{Nxc8}} kaleyi kazanır — şah geri alır ve kalite sizin olur."
+}

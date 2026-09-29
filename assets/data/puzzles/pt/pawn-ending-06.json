@@ -1,0 +1,14 @@
+{
+  "id": "pawn-ending-06",
+  "fen": "5k2/8/5PK1/8/8/8/8/8 w - - 1 2",
+  "solution": [
+    "f7",
+    "Ke7",
+    "Kg7"
+  ],
+  "rating": 1280,
+  "title": "Nada Mais Ganha",
+  "setup": "O rei das pretas acabou de passar para f8, mesmo à frente do peão, e as brancas têm de escolher.",
+  "hint": "Cinco das seis jogadas das brancas deitam o ponto fora; pergunta qual delas tira casas ao rei preto.",
+  "explanation": "## A Ideia\n\n{{f7}} parece emparedar o peão, mas cobre e8 e g8, portanto {{Ke7}} é forçado e {{Kg7}} leva o peão para casa. Qualquer jogada de rei em vez disso deixa o rei preto manter o lugar à frente do peão, e o final é então um empate morto."
+}

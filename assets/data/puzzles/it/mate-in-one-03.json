@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-03",
+  "fen": "rnb1k1nr/ppp2ppp/3b4/8/8/2N3P1/PPPPP3/R1BQKBNR b KQkq - 0 6",
+  "solution": [
+    "Bxg3#"
+  ],
+  "rating": 655,
+  "title": "La Donna Era il Prezzo",
+  "setup": "Avete ceduto la donna in g3 la mossa scorsa, e al Bianco non resta nessun pedone in f2 o h2.",
+  "hint": "Il Bianco non ha più un pedone in f2. Trovate il pezzo che coprirà quel buco nel momento in cui atterra.",
+  "explanation": "## L'idea\n\nCon f2 e h2 spariti, la diagonale h4–e1 appartiene al Nero. {{Bxg3#}} prende l'ultimo pedone su quella strada e niente può riprendere: il cavallo in g1 non arriva a g3 e la torre in h1 sta sulla linea sbagliata. f2 è l'unica casa di fuga, e l'alfiere la copre."
+}

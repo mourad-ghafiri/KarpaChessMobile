@@ -1,0 +1,12 @@
+{
+  "id": "pin-09",
+  "fen": "7k/2R1pr2/1R6/4r2p/6P1/Bb6/2P5/6K1 w - - 0 1",
+  "solution": [
+    "Bb2"
+  ],
+  "rating": 1120,
+  "title": "Uzun Çapraz Boyunca",
+  "setup": "Siyahın şahı h8'e sıkıştırılmış ve kalelerinden biri uzun koyu çaprazda park etmiş.",
+  "hint": "h8'deki siyah şah ünlü bir çaprazın ucunda oturuyor. Taşlarınızdan hangisi öteki ucu sahiplenebilir?",
+  "explanation": "## Fikir\n\n{{Bb2}} a1–h8 çaprazını alır; **e5**'teki kale artık orada kendi şahının önünde sıkışmıştır. Kale saldırı altındadır, korumasızdır ve yana çekilemez. Bir şah hamlesiyle açmazdan kurtulmak bir hamle geç kalır."
+}

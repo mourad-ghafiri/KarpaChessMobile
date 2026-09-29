@@ -1,0 +1,56 @@
+{
+  "id": "the-pin",
+  "title": "Jepitan",
+  "summary": "Ketika menggerakkan sebuah buah tidak sah, dan ketika sekadar membawa bencana",
+  "proof": "pins-skewers-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Sembilan Poin yang Tak Bisa ke Mana-Mana",
+      "text": "Menteri Hitam bernilai sembilan poin dan ia tak diizinkan meninggalkan lajur d.\n\nTiga buah berbagi lajur itu: benteng Anda di d2, menteri Hitam di d6, raja Hitam di d8. Kirim menteri ke mana pun di luar lajur itu dan raja di belakangnya terbuka bagi benteng. Langkah itu bukan sekadar buruk. Langkah itu tidak sah, dan papan tak akan memainkannya.\n\nMenteri itu **terjepit** — ditahan di tempatnya oleh apa yang berdiri di belakangnya."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Di Sepanjang Garis, dan Tidak di Tempat Lain",
+      "text": "Buah yang terjepit tidak membeku. Ia boleh bergerak di sepanjang garis jepitan, tempat raja tetap terlindungi: menteri bisa pergi ke d7 atau d5, bahkan bisa mengambil benteng. Selain itu, seluruh papan tertutup.\n\nInilah **jepitan mutlak** — buah di belakangnya adalah raja, jadi meninggalkan garis itu dilarang, bukan sekadar tidak bijak.\n\nBenteng Anda terjepit dengan cara yang persis sama, oleh menteri, terhadap raja Anda di d1. Dua buah terjepit, satu lajur. Satu-satunya perbedaan adalah giliran siapa."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Tiga Buah yang Bisa Melakukannya",
+      "text": "Jepitan adalah garis, jadi hanya buah yang menyerang di sepanjang garis yang bisa membuatnya: menteri, benteng, gajah. Itulah seluruh daftarnya.\n\nKuda tak bisa menjepit. Langkahnya tak menyentuh apa pun di antara awal dan akhir, dan tak ada garis yang berlanjut melewati tempat ia mendarat untuk ditempati buah kedua. Pion dan raja mencapai satu petak lalu berhenti, sehingga keduanya juga tersingkir.\n\nTiga buah bisa menjepit. Buah apa pun bisa terjepit."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "prompt": "Ambil sembilan poin yang tak bisa menyingkir dari jalan benteng Anda.",
+      "targetSan": [
+        "Rxd6+"
+      ],
+      "hint": "Tak ada yang melindungi d6, dan langkah yang mengambilnya tak pernah meninggalkan lajur d."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Ketika Bergerak Hanya Mahal",
+      "text": "Tempatkan sesuatu selain raja di belakang buah yang terjepit dan seluruh keadaannya melunak.\n\nGajah Putih di g5 memandang menembus kuda di f6 ke arah menteri di d8, dengan e7 kosong di antaranya. Kuda Hitam boleh bergerak. Ke petak mana pun yang ia suka, sepenuhnya sah — dan harganya menteri untuk gajah.\n\nItulah **jepitan relatif**. Tak ada yang melarang langkah itu; hanya harganya yang menentang, dan sesekali harga itu layak dibayar."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Melepaskan Diri",
+      "text": "Jepitan berakhir dengan salah satu dari tiga cara. Tangkap buah yang menjepit. Tempatkan sesuatu di garis di antara keduanya. Atau pindahkan buah di belakang, sehingga tak ada lagi yang bisa dimenangkan — {{Qd6}} melakukannya di sini, dan kuda pun bebas.\n\nTidak berbuat apa-apa adalah pilihan yang mahal. Setiap buah yang dikerahkan Putih ke f6 datang melawan kuda yang tak bisa mengelak, dan jepitan yang murah untuk ditoleransi selama satu langkah menjadi mahal selama lima langkah."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "prompt": "Tutup diagonal antara gajah Putih dan menteri Anda agar kuda bisa bergerak lagi.",
+      "targetSan": [
+        "Be7"
+      ],
+      "hint": "Satu petak kosong berada di antara kuda yang terjepit dan menteri Anda — buah mana yang bisa menempatinya tanpa menjadi tak terlindungi?"
+    }
+  ]
+}

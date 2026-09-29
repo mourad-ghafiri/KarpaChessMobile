@@ -1,0 +1,11 @@
+{
+  "id": "forks-03",
+  "fen": "4k3/8/8/3q4/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nf6+"
+  ],
+  "title": "O Cavalo Garfa os Reais",
+  "setup": "O rei preto em e8 e a dama em d5 estão ambos a um salto de cavalo da mesma casa.",
+  "hint": "Procura uma casa onde o cavalo possa aterrar e que atinja **o rei e a dama**.",
+  "explanation": "## A Ideia\n\nUm **garfo real**: rei e dama atingidos por uma só jogada. A casa f6 está a um salto de cavalo de e8 e a um salto de cavalo de d5, portanto aterrar ali toca nos dois ao mesmo tempo.\n\n{{Nf6+}} não se pode tapar, porque um cavalo nunca atravessa as casas pelo meio, e nem o rei nem a dama chegam a f6 para o comer. O rei tem de mexer, e {{Nxd5}} recolhe a dama.\n\nEncontra a casa que está a um salto de cavalo do rei e a um salto de cavalo de algo valioso."
+}

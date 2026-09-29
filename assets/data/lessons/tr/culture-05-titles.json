@@ -1,0 +1,56 @@
+{
+  "id": "titles-and-norms",
+  "title": "Unvanlar ve Normlar",
+  "summary": "Tek bir parlak partiyle değil, dokuz turda kazanılır",
+  "proof": "culture-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "1950'de Adları Kondu",
+      "text": "FIDE ilk unvan listesini 1950'de bastı: bir kongrede adları açıklanan yirmi yedi büyükusta; çoğu en iyi yıllarını çoktan geride bırakmıştı.\n\nO listedeki hiçbir şeyin süresi dolmadı. Unvan bir kez verilir ve ömür boyu taşınır. Oynamayı bırakan, iki yüz puan düşen ya da bahçıvanlığa merak salan bir büyükusta yine büyükustadır — puan bu ay ne yapabildiğinizi söyler, unvan bir zamanlar ne yaptığınızı.\n\nBunu yapmak, kimsenin kamerasını çevirmediği türden bir yıllık satranç ister."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Dört Basamak",
+      "text": "Açık unvanlar dört tane; aşağıdan yukarı: aday usta, FIDE ustası, uluslararası usta, büyükusta. Her biri bir puanı adlandırır — 2200, 2300, 2400, 2500 — ve o sayıya, yayımlanmış tek bir listede, ömürde bir kez ulaşmanız yeter.\n\nAlttaki ikisi orada durur. Aday usta ile FIDE ustası yalnızca puanla verilir: sayıya ulaşın, evrakı gönderin, unvan sizin olsun.\n\nÜstteki ikisi hiçbir sayıyla satılık değildir. 2500'ü geçin, FIDE size hiçbir şey vermesin. Son iki basamağın bedeli normlarla ödenir."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "prompt": "Şimdi bir tempo harcayın ki c8'deki fil asla çıkıp atınızı vezire karşı açmaza alamasın.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Merkeze dokunmadan önce siyahın filinin hangi kareyi istediğini ve piyonlarınızdan hangisinin o kareyi elinden alabileceğini sorun."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "Bir Normun İstedikleri",
+      "text": "Norm, uygun bir turnuvada elde edilen ve bütün koşulları aynı anda karşılayan tek bir sonuçtur: dokuz tur ya da daha fazlası; birkaç federasyondan rakipler; bunların kabaca yarısının çoktan unvanlı olması; belirli sayıda rakibin peşinde olduğunuz unvanı taşıması; ve bütün turnuva boyunca korunan bir performans düzeyi. Tek bir koşulu kaçırın, ne kadar iyi oynamış olursanız olun turnuva hiçbir şey vermesin.\n\nBüyükusta ile uluslararası usta unvanlarının her biri bunları en az yirmi yedi parti içinde ister — pratikte üç norm.\n\nSiyah {{Na5}} ile fili kovalar, fil {{Bc2}} ile menzil dışına adımlar ve {{c5}} vezir kanadında yer kapar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "Paralel Takım",
+      "text": "FIDE ikinci bir takım daha verir — WCM, WFM, WIM, WGM — kadınlara açıktır ve her basamakta açık unvanların iki yüz puan altından biçilir. Açık unvanların yerine değil, yanlarında dururlar: bir kadın, büyükusta unvanının peşinden herkesle tamamen aynı şartlarda koşabilir.\n\nJudit Polgar da öyle yaptı; açık büyükusta unvanını Aralık 1991'de, on beş yaşında, o güne kadar herkesten daha genç olarak aldı ve bir Kadınlar Dünya Şampiyonası'nda bir kez bile oynamadı."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "Kimsenin Yeniden Oynamadığı Partiler",
+      "text": "Dokuz tur tek bir parlak partiyi ödüllendirmez. Sıradan partileri kaybetmeyen oyuncuyu ödüllendirir — iki hamle önce koca bir hamleyi bir kale piyonuna harcayan, böylece artık açmaza alınacak bir şeyi, korkacak bir şeyi olmayan ve merkezde eli serbest kalan oyuncuyu.\n\nBir norm aslında profilaksiden yapılır. Bir unvanın çıktığı notasyon kâğıdı çoğunlukla sessiz hamleler ve kısa beraberliklerdir; turnuva kitabı da o partilerin ikisini basar.\n\n> Unvan tek bir harika hamle değildir. Dokuz tur boyunca kötü bir hamle yapmamaktır."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "prompt": "g4 temelli kapandığına göre, pozisyonu hâlâ başlangıç karesinde duran tek merkez piyonuyla açın.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Merkez piyonlarınızdan hangisi hiç oynamadı ve ortada onu ne bekliyor?"
+    }
+  ]
+}

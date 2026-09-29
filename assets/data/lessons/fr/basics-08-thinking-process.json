@@ -1,0 +1,56 @@
+{
+  "id": "thinking-process",
+  "title": "Avant de jouer",
+  "summary": "Trois questions, posées dans l'ordre, qui attrapent le coup que vous alliez regretter",
+  "proof": "thinking-process-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "Trois questions",
+      "text": "La plupart des parties ne sont pas perdues face à un adversaire astucieux. Elles sont perdues à cause d'un coup joué avant que quiconque ait regardé.\n\nTrois questions empêchent cela, et ce sont toujours les trois mêmes :\n\n1. Que **menace** mon adversaire — quel coup veut-il jouer ensuite ?\n2. Quels sont mes échecs et mes prises ?\n3. Que se passe-t-il après mon coup ?\n\nDix secondes, dans cet ordre, à chaque coup. Les deux premières questions trouvent des coups. La troisième élimine les mauvais."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "Ce qui vient de changer",
+      "text": "Le cavalier noir en f6 n'attaque rien. La première question a pourtant une réponse.\n\nCe cavalier couvre e4 et d5, les deux cases centrales que les Blancs veulent le plus pour leurs pions. Jouez {{e4}} sans vous poser la question, et {{Nxe4}} le prend — rien chez les Blancs ne défend cette case, et rien ne reprend.\n\nLa première question n'est donc pas seulement « qu'est-ce qui est attaqué ». C'est : que peut faire ce coup maintenant qu'il ne pouvait pas faire un instant plus tôt ? Parfois la réponse est une menace. Parfois c'est une case que vous avez perdue sans bruit."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Le pion gratuit",
+      "text": "Une nouvelle partie, vieille de trois coups. Le cavalier noir en d4 a sauté dans la moitié blanche de l'échiquier, et il a laissé le pion en e5 sans aucune protection.\n\nLa deuxième question demande ce que vous pouvez prendre. L'échiquier répond en une seconde : {{Nxe5}}, un pion gratuit.\n\nCela ressemble au bon coup. La deuxième question ne peut pas vous dire si c'en est un, car elle ne demande jamais ce que les Noirs jouent ensuite."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4N3/2BnP3/8/PPPP1PPP/RNBQK2R b KQkq - 0 4",
+      "prompt": "Jouez la réponse des Noirs : trouvez le coup de dame qui attaque à la fois le cavalier gourmand et un pion non défendu.",
+      "targetSan": [
+        "Qg5"
+      ],
+      "hint": "Le cavalier qui vient de prendre n'est défendu par rien, pas plus que le pion en g2 — une seule case voit les deux."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "La troisième question",
+      "text": "Revenez à l'échiquier que regardaient les Blancs. Ce coup de dame pouvait être trouvé d'ici, un coup plus tôt, par le joueur sur le point de prendre.\n\nAprès {{Nxe5}} {{Qg5}}, le cavalier et le pion en g2 sont tous deux attaqués, et même la meilleure réponse des Blancs laisse aux Noirs la meilleure partie. Le pion gratuit était un appât.\n\nC'est la troisième question. Pas « mon coup est-il sûr », mais : est-ce que je sais déjà ce que mon adversaire jouera au coup suivant ?\n\n> On ne perd jamais sur le coup qu'on a regardé. On perd sur la réponse qu'on n'a pas vue."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Les coups candidats",
+      "text": "La prise coûte donc plus qu'elle ne rapporte, et seule la troisième question pouvait le voir. Le remède commence avant de choisir.\n\nLes coups que vous donne la deuxième question sont vos **coups candidats** : une liste, pas une réponse. Les Blancs ont ici trois prises, plus des coups tranquilles comme {{c3}}, qui attaque le cavalier en d4 et reçoit pour réponse un échange en f3.\n\nChoisissez-en deux ou trois. Posez la troisième question pour chacun. Jouez celui dont vous voyez vraiment la réponse."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Prenez le cavalier qui a sauté dans votre moitié de l'échiquier et laissez une position où il n'y a plus rien à calculer.",
+      "targetSan": [
+        "Nxd4"
+      ],
+      "hint": "Une prise tombe dans le coup de dame que vous venez de trouver, une autre jette un fou sur un pion défendu, et la dernière est un échange égal."
+    }
+  ]
+}

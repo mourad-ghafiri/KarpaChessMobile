@@ -1,0 +1,14 @@
+{
+  "id": "overload-01",
+  "fen": "2Q2rk1/4Rppp/8/8/8/8/PP2R3/K4b2 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Re8#"
+  ],
+  "rating": 1250,
+  "title": "Dois Trabalhos, Uma Torre",
+  "setup": "A tua dama olha para f8 e as duas torres estão empilhadas na coluna e, enquanto a torre preta de f8 faz sozinha toda a defesa.",
+  "hint": "Uma peça preta cobre duas casas de entrada ao mesmo tempo. Pergunta o que acontece se só a deixares cobrir uma.",
+  "explanation": "## A Ideia\n\nA torre de f8 tem dois trabalhos: tapar a oitava linha e manter e8 fora de alcance. {{Qxf8+}} compra o primeiro com uma dama, {{Kxf8}} é forçado, e agora {{Re8#}} entra na casa que ela já não pode vigiar. Um defensor com dois deveres não tem nenhum."
+}

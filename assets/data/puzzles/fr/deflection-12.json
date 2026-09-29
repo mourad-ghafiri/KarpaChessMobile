@@ -1,0 +1,14 @@
+{
+  "id": "deflection-12",
+  "fen": "2kr3r/pp3ppp/2n5/8/Q1B2B1q/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "rating": 1500,
+  "title": "Les fous de Boden",
+  "setup": "Deux fous traversent l'aile dame, et le pion b7 est tout ce qui tient fermée la diagonale a6-c8.",
+  "hint": "Les deux fous visent déjà ce coin. Quel pion est sur le chemin, et comment le faire bouger ?",
+  "explanation": "## L'idée\n\nC'est le **mat de Boden**. {{Qxc6+}} n'a qu'une seule réponse, {{bxc6}}, et le pion b7 quitte la diagonale a6-c8. {{Ba6#}} arrive : l'autre fou couvre b8 et c7, et la propre tour noire bouche d8."
+}

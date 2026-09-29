@@ -1,0 +1,15 @@
+{
+  "id": "forks-11",
+  "fen": "3rk3/8/8/8/4n3/8/2Q3PP/3R3K b - - 0 1",
+  "solution": [
+    "Rxd1+",
+    "Qxd1",
+    "Nf2+",
+    "Kg1",
+    "Nxd1"
+  ],
+  "title": "Le cavalier mange la dame",
+  "setup": "Le roi blanc est en h1 derrière deux pions, et sa tour en d1 n'est défendue que par la dame.",
+  "hint": "Rien ne fait encore fourchette. Demandez-vous quelle pièce blanche vous pouvez forcer sur la case où une fourchette apparaîtrait.",
+  "explanation": "## L'idée\n\nLa case de fourchette de votre cavalier est f2, qui frappe h1 et d1, mais la dame en c2 la protège, donc le saut immédiat perd simplement le cavalier. {{Rxd1+}} est échec, et {{Qxd1}} est forcé, donc la dame se tient maintenant sur l'une des cibles de la fourchette. {{Nf2+}}, {{Kg1}} est forcé, et {{Nxd1}} gagne la dame : vous aviez une dame de moins, et le matériel est désormais égal.\n\nQuand une case de fourchette est protégée, attirez son gardien sur l'une des cibles de la fourchette."
+}

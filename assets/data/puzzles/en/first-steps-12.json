@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-12",
+  "fen": "k6r/8/8/5p2/5p1K/8/P7/8 w - - 0 1",
+  "solution": [
+    "Kg5"
+  ],
+  "title": "Sidestep",
+  "setup": "The black rook checks your king down the open **h-file**, while two black pawns guard the escape squares.",
+  "hint": "Remember: black pawns attack diagonally *down* the board. Which squares do f4 and f5 really cover?",
+  "explanation": "## The Idea\n\nThe rook on h8 owns the whole h-file, so h3 and h5 are out. The two pawns seem to seal the g-file too, but look at what they really attack: the pawn on f4 covers g3, the pawn on f5 covers g4, and nothing covers g5.\n\n{{Kg5}} tucks the king in beside the black pawns, safe because a pawn never captures backward.\n\nA pawn attacks exactly two squares, both in front of it."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-01",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq g3 0 2",
+  "solution": [
+    "Qh4#"
+  ],
+  "rating": 600,
+  "title": "Dos pasos en falso",
+  "setup": "Las dos primeras jugadas blancas abrieron la única diagonal que termina en su propio rey.",
+  "hint": "Solo una línea apunta al rey blanco, y solo una pieza negra puede entrar en ella en esta jugada.",
+  "explanation": "## La idea\n\nLos peones de f y g son las dos jugadas que dejan a e1 sin protección en la diagonal h4–e1. {{Qh4#}} llega sin nada que pueda tapar ni nada que pueda comérsela. Deja esos dos peones en casa mientras tu rey siga viviendo detrás de ellos."
+}

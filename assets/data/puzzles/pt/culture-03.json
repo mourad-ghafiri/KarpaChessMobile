@@ -1,0 +1,11 @@
+{
+  "id": "culture-03",
+  "fen": "r3k2r/ppp2ppp/3b4/3p4/4n3/1P2Pn1K/PBPPQ1P1/RN3R2 b kq - 1 13",
+  "solution": [
+    "Neg5+"
+  ],
+  "title": "Que Cavalo?",
+  "setup": "O rei branco foi arrastado até h3, e os teus dois cavalos podem saltar para g5 com xeque. Só um deles ganha.",
+  "hint": "O rei tem exatamente um esconderijo. Os dois saltos de cavalo parecem iguais, e só um deles mantém esse esconderijo coberto.",
+  "explanation": "## A Ideia\n\nO cavalo em f3 cobre h4, a única casa para onde o rei branco poderia fugir, portanto vai o outro cavalo.\n\n{{Neg5+}} deixa ao rei uma só resposta, {{Kg4}}, e {{h5+}} continua a empurrá-lo na direção das tuas peças até levar mate umas jogadas depois. Manda o errado, {{Nfg5+}}, e o rei escapa-se para {{Kh4}}.\n\nQuando duas peças iguais chegam à mesma casa, o boletim nomeia a coluna de onde vieram. Aqui essa letra separa um mate forçado de uma posição apenas boa."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "italian-game",
+  "title": "La partie italienne",
+  "summary": "Deux fous, une longue dispute autour de d4",
+  "proof": "openings-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Deux fous, une case",
+      "text": "Votre fou en c4 et le fou noir en c5 sont le reflet l'un de l'autre, et chacun fixe la case du camp adverse que seul un roi défend : f7 pour vous, f2 pour les Noirs.\n\nC'est pour cela que les deux fous ont choisi ces diagonales. C'est aussi pour cela qu'il ne se passe rien ici. Un attaquant contre un défenseur ne gagne rien, et le second attaquant est à plusieurs coups de là, d'un côté comme de l'autre.\n\nLes fous s'installent donc et attendent, et la partie cherche autre chose pour quoi se battre."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "L'objet de la dispute",
+      "text": "Elle trouve d4. Posez-y un pion et gardez-le, et le fou noir est frappé sur la diagonale où il vient de s'installer, pendant que vos pions prennent le milieu de l'échiquier.\n\nPoussez tout de suite et vous n'obtenez rien de tout cela. {{d4}} {{exd4}} et le pion que vous avez poussé a déjà disparu ; {{Nxd4}} met une pièce sur la case à la place, et le cavalier en c6 la regarde droit dans les yeux.\n\nUn pion tient d4. Une pièce ne fait que passer."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Jouez le coup tranquille qui permettra à un pion, et non à une pièce, de reprendre en d4 quand la poussée viendra enfin.",
+      "targetSan": [
+        "c3"
+      ],
+      "hint": "Lequel de vos pions peut avancer d'une case et se retrouver à protéger la case que veut occuper votre pion d ?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "L'italienne lente",
+      "text": "Trois coups plus tard, et personne n'a touché personne. Vous avez des pions en c3 et d3, les Noirs ont le cavalier en f6 et un pion en d6, et les deux rois sont à l'abri dans leurs coins.\n\nRien n'est attaqué. Rien n'est même menacé. Les deux camps ont terminé l'ouverture dans les temps, et toute la partie reste à inventer.\n\nC'est la version que prennent la plupart des parties italiennes, et elle se décide par la préparation plutôt que par une attaque sur f7."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "title": "Pas encore",
+      "text": "Vous pourriez ouvrir le centre à la seconde. Comptez ce qui vous attend : {{d4}} {{exd4}} {{cxd4}} et le fou recule par {{Bb6}}, d'où il pèse de nouveau sur d4 avec le cavalier en c6 à ses côtés.\n\nDeux pièces noires pèsent déjà sur le pion que vous venez de construire, et les vôtres sont attachées à sa défense. La rupture n'est pas mauvaise, elle est prématurée.\n\nVous consacrez donc les coups d'attente à ajouter du poids. Toutes les pièces blanches ont ici une tâche sauf une, et le pion en c3 se tient sur la case que cette pièce était toujours censée utiliser.\n\n> L'italienne se décide selon qui est prêt quand d4 arrive enfin."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "prompt": "Sortez votre dernière pièce de sa case de départ, vers le centre et l'aile roi où se trouve le reste de votre armée.",
+      "targetSan": [
+        "Nbd2"
+      ],
+      "hint": "Elle a exactement deux cases disponibles : l'une au bord, sans avenir, l'autre au centre, d'où elle pourra repartir plus tard."
+    }
+  ]
+}

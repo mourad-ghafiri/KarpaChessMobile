@@ -1,0 +1,56 @@
+{
+  "id": "open-files",
+  "title": "Le Colonne Aperte",
+  "summary": "Strade per le torri — e come se ne costruisce una",
+  "proof": "strategy-07.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Contate i Pedoni e",
+      "text": "Non ce ne sono. Sono usciti alla terza e alla quarta mossa, e quello che resta è una corsia che percorre tutta l'altezza della scacchiera e finisce sul re nero in e8.\n\nQuella corsia è una **colonna aperta**: una colonna senza nessun pedone di nessuno dei due colori. Ci stanno sopra due pezzi, il cavallo in e4 e l'alfiere in e7, e i pezzi si muovono. I pedoni sono l'unica cosa su una scacchiera che non può togliersi di lato dalla strada di una torre, e qui non ce n'è nessuno da togliere."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Di Chi È la Strada",
+      "text": "Una torre su una scacchiera chiusa è una spettatrice. Datele una colonna libera da pedoni e finalmente si guadagna il suo valore, perché una colonna sta a una torre come una diagonale sta a un alfiere — è l'unica cosa che mangia.\n\nQuale torre, però. Una delle vostre è bloccata dietro il suo cavallo in b1 e non riesce ad attraversare. L'altra è libera.\n\nE va prima la torre, la donna dietro. Una donna in testa alla colonna è un bersaglio che qualunque pezzo leggero può scacciare guadagnando un tempo."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "prompt": "Mettete il pezzo che vive sulle colonne sull'unica colonna dove non è rimasto in piedi nessun pedone.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "Avete due torri e una sola di loro arriva a quella corsia in un passo."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w kq - 4 8",
+      "title": "Tre Lavori, Una Mossa",
+      "text": "{{Re1}} porta la torre in gioco, attacca il cavallo in e4 lungo una corsia dove non c'è nient'altro, e punta su un re che non ha ancora mosso.\n\nIl Nero deve rispondere. {{Bg4}} inchioda il cavallo di f3 contro la donna in d1, e il Bianco prosegue con {{c4}}, colpendo il pedone in d5.\n\nRimettete un pedone bianco sulla casa e2 e niente di tutto questo esiste. La torre se ne sta a casa dietro di lui, e il Bianco gioca il mediogioco con un pezzo in meno."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Quasi una Strada",
+      "text": "Scacchiera nuova, problema più difficile: qui ogni colonna ha un pedone sopra, e le due torri bianche non hanno niente su cui puntare.\n\nLa colonna c è la cosa più vicina a una strada. Il Bianco non ha proprio nessun pedone c, quindi a tenerla chiusa c'è solo il pedone nero in c6 — semiaperta, e semiaperta è una colonna che aspetta di essere finita.\n\nQuel pedone non se ne andrà mai a spasso. Un pedone lascia la sua colonna per una ragione sola: prende qualcosa. Quindi il Bianco deve dargli qualcosa da prendere."
+    },
+    {
+      "type": "teach",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "title": "Meno Pedoni, Più Pressione",
+      "text": "Quale pedone fa leva. Uno solo di quelli bianchi può toccare c6: il pedone in b4, con il pedone in a2 dietro come riserva.\n\nDue pedoni bianchi contro tre neri su quell'ala suona come il lato sbagliato di un conto. È un **attacco di minoranza**, ed è un piede di porco. Il Nero ha tre risposte a un pedone spinto sotto c6, e tutte e tre sono concessioni: se prende la colonna si apre, se spinge oltre il pedone c smette di coprire qualunque cosa, se sta fermo il Bianco cambia in c6 e lascia lì un pedone debole.\n\n> Una torre non aspetta una colonna aperta. Ne sceglie una e la apre."
+    },
+    {
+      "type": "play",
+      "fen": "r3rnk1/pp2qppp/2p1b3/3p4/1P1P4/2QBPN2/P4PPP/1R3RK1 w - - 1 15",
+      "prompt": "Forzate l'apertura della colonna c attaccando il pedone nero che ci sta sopra.",
+      "targetSan": [
+        "b5"
+      ],
+      "hint": "Contate i pedoni su ciascuna ala, poi chiedetevi quale dei vostri arriva a c6 in un passo."
+    }
+  ]
+}

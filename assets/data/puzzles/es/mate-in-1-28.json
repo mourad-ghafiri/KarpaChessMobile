@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-28",
+  "fen": "1k6/pp6/1P6/8/8/8/8/1K4R1 w - - 0 1",
+  "solution": [
+    "Rg8#"
+  ],
+  "title": "Mate con cuña de peón",
+  "setup": "Tu peón de b6 está justo delante del rey negro, y los propios peones negros están en a7 y b7.",
+  "hint": "Los peones negros tapan dos casillas y tu peón protege la tercera. La torre necesita la última fila.",
+  "explanation": "## La idea\n\nEs un mate del pasillo con la ayuda discreta de un peón. El peón de b6 no da jaque, pero cubre c7, la única casilla a la que no llega la torre.\n\n{{Rg8#}} da jaque por la octava fila. a8 y c8 están en la línea de la torre, en a7 y b7 están los propios peones negros y c7 la cubre tu peón. Nada puede tapar.\n\nCuando un rey está atascado detrás de dos peones, busca un peón tuyo que cubra la tercera casilla."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-02",
+  "fen": "k7/2b2r2/5Q2/p7/3R4/1B6/KRp5/8 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Ka7",
+    "Rb7+",
+    "Ka8",
+    "Qa6#"
+  ],
+  "rating": 1385,
+  "title": "L'Alfiere Apre la Linea",
+  "setup": "Il re nero è bloccato nell'angolo a8, e il pedone nero in c2 è a un passo dalla promozione. Il matto arriva prima.",
+  "hint": "Un vostro pezzo sta sulla colonna che serve alla vostra torre. Dategli un compito che lo sposti e dia scacco insieme.",
+  "explanation": "## L'idea\n\n{{Bd5+}} libera b3 e dà scacco; {{Rb7+}} respinge il re nell'angolo; {{Qa6#}} dà matto lungo la colonna a, con l'alfiere in d5 che adesso tiene la torre in b7. Ogni mossa di una caccia dovrebbe insieme dare scacco e migliorare la rete."
+}

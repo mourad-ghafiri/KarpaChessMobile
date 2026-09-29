@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-01",
+  "fen": "8/2QK4/6p1/8/8/8/8/3B3k w - - 0 1",
+  "solution": [
+    "Qg3",
+    "g5",
+    "Bf3#"
+  ],
+  "rating": 1400,
+  "title": "Ne rien faire, lentement",
+  "setup": "Le roi noir est coincé dans le coin en h1 et sa seule pièce qui ait un avenir est le pion en g6.",
+  "hint": "Aucun échec ne fonctionne. Demandez-vous ce que les Noirs devraient jouer si vous passiez simplement votre tour.",
+  "explanation": "## L'idée\n\n{{Qg3}} ne donne pas échec et prend toutes les cases qu'avait le roi. Il ne reste aux Noirs que {{g5}}, et {{Bf3#}} suit. Le zugzwang, c'est le coup qui fait de l'obligation de jouer tout le problème."
+}

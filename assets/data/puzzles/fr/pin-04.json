@@ -1,0 +1,12 @@
+{
+  "id": "pin-04",
+  "fen": "8/3kb3/3p4/3P1r2/1Ppp1P2/5B2/4R3/K7 w - - 0 1",
+  "solution": [
+    "Bg4"
+  ],
+  "rating": 920,
+  "title": "Clouer d'abord, prendre ensuite",
+  "setup": "La tour noire en f5 s'est égarée sur la même diagonale que son roi, avec une case vide entre eux.",
+  "hint": "Laquelle de vos pièces peut attaquer cette tour et la figer du même coup ? Cherchez la ligne vers d7.",
+  "explanation": "## L'idée\n\nLa tour en **f5**, la case vide e6 et le roi en **d7** sont sur une même diagonale. {{Bg4}} attaque la tour le long de celle-ci, et le clouage rend son déplacement illégal. Rien ne protège f5, donc la tour est à vous au coup suivant."
+}

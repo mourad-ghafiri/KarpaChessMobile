@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-08",
+  "fen": "6k1/5ppp/8/8/8/8/P4PPP/1R4K1 w - - 0 1",
+  "solution": [
+    "Rb8#"
+  ],
+  "title": "Jalan Panjang, Mat Singkat",
+  "setup": "Raja Hitam duduk di balik tiga pion yang belum bergerak, dan benteng Anda di b1 menguasai seluruh lajur b.",
+  "hint": "Pion-pion Hitam mengurung rajanya. Temukan petak di baris belakang yang bisa dicapai benteng Anda dengan sekak.",
+  "explanation": "## Ide\n\n{{Rb8#}} langsung mat. Benteng tiba di baris belakang dengan sekak, dan raja di g8 tak punya tempat untuk pergi: f7, g7 dan h7 ditempati pionnya sendiri, dan f8 serta h8 berada di baris benteng. Tak ada yang bisa menangkap benteng atau menghalangi sekaknya.\n\nSatu langkah pion seperti h6, dimainkan lebih awal, akan memberi raja sebuah petak dan menghentikan seluruh pola ini."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "deflection-08",
+  "fen": "2r3k1/pq4pp/6pQ/6N1/8/8/1B3PPP/2R3K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Qxg7#"
+  ],
+  "rating": 1380,
+  "title": "Rook for the Mate",
+  "setup": "Your queen and bishop both strike at g7, and the queen on b7 is the only extra defender of it.",
+  "hint": "A rook is worth less than mate. Which check forces the one piece guarding g7 to look away?",
+  "explanation": "## The Idea\n\n{{Rxc8+}} must be met by {{Qxc8}}, which drags the queen off the seventh rank. {{Qxg7#}} finishes with the bishop on b2 behind it. The rook was never the point. When mate is on, count the guards of the square, not the material."
+}

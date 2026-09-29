@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-04",
+  "fen": "3B2k1/3Q1ppp/4r3/8/2b5/4R3/PP1r4/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1420,
+  "title": "Your Rook Can Wait",
+  "setup": "Black's rook has landed on d2, deep in your camp, and its other rook stands on e6 — there is a lot to worry about.",
+  "hint": "You are being asked to defend. Check first, and see whether the defense ever becomes necessary.",
+  "explanation": "## The Idea\n\n{{Qe8+}} ignores the rook on d2 entirely. {{Rxe8}} is forced, the e-file is handed over, and {{Rxe8#}} arrives. An in-between check costs nothing when the game is over before the threat lands."
+}

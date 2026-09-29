@@ -1,0 +1,12 @@
+{
+  "id": "trapped-09",
+  "fen": "5rk1/ppp1bpp1/3p1n1p/8/N7/2P4P/PP3PP1/3R1RK1 b - - 0 1",
+  "solution": [
+    "b5"
+  ],
+  "rating": 1300,
+  "title": "One Pawn Push",
+  "setup": "White's knight has gone to a4, where its only squares are b6, c5, c3 and b2, and two of those are White's pawns.",
+  "hint": "Two of the knight's jumps run into White's own pawns. Your a7- and d6-pawns already cover the other two.",
+  "explanation": "## The Idea\n\n{{b5}} attacks the knight, which is already surrounded: b2 and c3 hold White's pawns, b6 is met by axb6 or cxb6, c5 by dxc5. The b5-pawn itself cannot be taken, so the knight simply falls."
+}

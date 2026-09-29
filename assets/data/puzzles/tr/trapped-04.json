@@ -1,0 +1,12 @@
+{
+  "id": "trapped-04",
+  "fen": "4r1k1/5ppp/p4n2/1pp5/8/1B3N1P/P1P2PP1/3R2K1 b - - 0 1",
+  "solution": [
+    "c4"
+  ],
+  "rating": 1130,
+  "title": "Nuh'un Gemisi",
+  "setup": "Beyazın b3'teki filinin arkasında kendi a2 ve c2 piyonları, bir de kendi d1'deki kalesi oturuyor.",
+  "hint": "O filin kaçış karelerini sayın: beyazın kendi piyonları ikisini kapatıyor ve b piyonunuz üçüncüsünü kapsıyor.",
+  "explanation": "## Fikir\n\n{{c4}} son çaprazı kapatır. a2 ile c2'de beyazın kendi piyonları durur, a4'ü b5 piyonu kapsar ve şimdi c4'teki piyonu b5 korur; yani Bxc4 bxc4 bir taşa mal olur. Bu ağın adı bile var: Nuh'un Gemisi tuzağı."
+}

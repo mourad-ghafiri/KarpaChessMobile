@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-11",
+  "fen": "8/7k/1p1R4/6K1/1B3p2/8/8/5R2 w - - 0 1",
+  "solution": [
+    "Rg6",
+    "f3",
+    "Rh1#"
+  ],
+  "rating": 1720,
+  "title": "Prima la Fuga, Poi la Colonna",
+  "setup": "Il re nero è in h7 con pedoni in b6 e f4, la vostra torre è in d6 e l'alfiere in b4 sorveglia da lontano.",
+  "hint": "Il re ha tre case di fuga — per ora. Copritene una con una mossa che lasci intatta ogni altra linea.",
+  "explanation": "## L'idea\n\n{{Rg6}} occupa la casa che serve al re e non dà scacco, e niente di quello che il Nero gioca ferma {{Rh1#}} — {{f3}} almeno pone una domanda. {{Rh1#}} dà poi matto lungo la colonna. Mettere una torre dove il re vuole andare vale più che metterla dove può dare scacco."
+}

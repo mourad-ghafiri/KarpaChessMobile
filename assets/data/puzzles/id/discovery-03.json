@@ -1,0 +1,14 @@
+{
+  "id": "discovery-03",
+  "fen": "2r5/ppp4k/5b1p/8/4P3/7P/5P1K/1B4R1 w - - 0 1",
+  "solution": [
+    "e5+",
+    "Kh8",
+    "exf6"
+  ],
+  "rating": 1040,
+  "title": "Pion Melangkah Maju",
+  "setup": "Gajah Anda di b1 membidik lurus ke h7, dan hanya pion Anda sendiri di e4 yang menutup diagonal itu.",
+  "hint": "Gajah Hitam adalah buah petak gelap: ia tak akan pernah bisa melangkah ke diagonal b1-h7 untuk menghalangi apa pun.",
+  "explanation": "## Ide\n\n{{e5+}} membuka diagonal b1-h7 dan menyerang gajah pada saat yang sama. Sekak harus dijawab lebih dulu, dan tak ada buah hitam yang bisa menghalangi di petak terang, jadi sesudah {{Kh8}} pion mengambil di f6 dengan gratis."
+}

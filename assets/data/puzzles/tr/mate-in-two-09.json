@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-09",
+  "fen": "4r1k1/4Q3/3R4/3nP3/3N4/8/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Rg6+",
+    "Kh8",
+    "Qh4#"
+  ],
+  "rating": 1280,
+  "title": "Kale Kaldırma, Vezir Savruluşu",
+  "setup": "Veziriniz yedinci yatayın sahibi ve d6'daki kaleniz tek hamlede g dikeyine savrulabilir.",
+  "hint": "Veziriniz bütün bir yatayı zaten mühürlüyor. İkinci bir taşı yukarı getirin, sonra boş h dikeyine bakın.",
+  "explanation": "## Fikir\n\n**e7**'deki vezir bütün yedinci yatayı kapsar, yani şah sekizinciye hapsolmuştur. {{Rg6+}} {{Kh8}} hamlesini zorlar ve kale artık g7 ile g8'i de korur. Bu da veziri boş h dikeyinden {{Qh4#}} için serbest bırakır."
+}

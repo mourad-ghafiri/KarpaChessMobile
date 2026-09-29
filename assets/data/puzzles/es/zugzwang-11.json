@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-11",
+  "fen": "8/7k/1p1R4/6K1/1B3p2/8/8/5R2 w - - 0 1",
+  "solution": [
+    "Rg6",
+    "f3",
+    "Rh1#"
+  ],
+  "rating": 1720,
+  "title": "Quítale la huida y luego la columna",
+  "setup": "El rey negro está en h7 con peones en b6 y f4, tu torre está en d6 y el alfil de b4 vigila desde lejos.",
+  "hint": "El rey tiene tres casillas de escape, por ahora. Cúbrelo con una jugada que mantenga intactas todas las demás líneas.",
+  "explanation": "## La idea\n\n{{Rg6}} ocupa la casilla que necesita el rey y no da jaque, y nada de lo que jueguen las Negras detiene {{Rh1#}}; {{f3}} al menos plantea una pregunta. Luego {{Rh1#}} da mate por la columna. Poner una torre donde quiere ir el rey vale más que ponerla donde puede dar jaque."
+}

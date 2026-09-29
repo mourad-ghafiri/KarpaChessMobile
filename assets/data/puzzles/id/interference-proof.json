@@ -1,0 +1,11 @@
+{
+  "id": "interference-proof",
+  "fen": "6k1/5ppp/p7/8/q2N4/5B2/5PPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Bc6"
+  ],
+  "title": "Tembok Melintang di Diagonal",
+  "setup": "Menteri Hitam di a4 satu-satunya buah yang menjaga e8, dan benteng Anda di e1 membidik lurus ke petak itu.",
+  "hint": "Tempatkan sesuatu di diagonal menteri yang tak bisa ia abaikan, di petak yang sudah dikuasai kuda Anda.",
+  "explanation": "## Ide\n\nMenteri di a4 menjaga e8 di sepanjang diagonal yang melewati b5, c6 dan d7. {{Bc6}} berdiri di tengahnya, dilindungi kuda di d4, dan sekaligus menyerang menteri. Mengambil gajah mengorbankan menteri, dan mengambil kuda Anda membiarkan benteng Anda memberi mat di e8. Upaya terbaik menteri adalah berputar menuju f8, tetapi lalu benteng Anda memberi sekak di e8, menteri harus menghalangi di f8, terjepit terhadap rajanya sendiri, dan ia hilang dengan imbalan benteng."
+}

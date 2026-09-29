@@ -1,0 +1,11 @@
+{
+  "id": "back-rank-09",
+  "fen": "6k1/5ppp/8/8/8/8/4R3/6K1 w - - 0 1",
+  "solution": [
+    "Re8#"
+  ],
+  "title": "Kale Kayıp Mat Ediyor",
+  "setup": "Siyahın üç piyonuna karşı kaleniz ve şahınız; siyahın şahı hâlâ onların arkasında, g8'de oturuyor. Tek hamle yeter.",
+  "hint": "Şah arka yatayından çekilemiyor. Kalenizi o yataya şah çekerek koyun.",
+  "explanation": "## Fikir\n\n{{Re8#}} tek hamlede mattır. Kale ikinci yatayı terk eder ve sekizinci boyunca şah çeker: f8 ile h8 onun hattındadır, f7, g7 ve h7'de siyahın kendi piyonları durur ve siyahın hiçbir taşı alamaz ya da araya giremez.\n\nRakip şah hiç oynamamış bir piyon sırasının arkasında otururken önce arka yatayda bir kale şahı arayın."
+}

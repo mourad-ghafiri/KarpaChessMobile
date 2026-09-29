@@ -1,0 +1,12 @@
+{
+  "id": "trapped-06",
+  "fen": "2r3k1/Bpp2pp1/5n1p/p7/8/8/P1P2PPP/3R2K1 b - - 0 1",
+  "solution": [
+    "b6"
+  ],
+  "rating": 1210,
+  "title": "Kapıyı Kapatın",
+  "setup": "Beyazın fili kampınızın derinliklerinde, a7'de bir piyon kapmış ve eve dönmek için yalnızca b8 ile b6 var.",
+  "hint": "c8'deki kaleniz iki kapıdan birini zaten gözlüyor. Ötekini, filin güvenle alamayacağı bir şeyle kapatın.",
+  "explanation": "## Fikir\n\n{{b6}} filin son karesini alır ve piyonu c7 korur; yani Bxb6 cxb6, bir piyon karşılığında bir taş kazanır. Kale b8'i kapsar, beyazın kendi a2 piyonu a dikeyini kapatır ve c7, hiçbir kalenin yatay boyunca a7'ye ulaşmasına izin vermez. Sırada Ra8 var."
+}

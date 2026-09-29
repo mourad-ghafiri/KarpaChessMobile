@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-08",
+  "fen": "r3k3/rp4n1/3p4/5p2/3Q4/8/PP3PPP/4K3 w - - 0 1",
+  "solution": [
+    "Qxg7"
+  ],
+  "title": "Lihat Sebelum Merebut",
+  "setup": "Menteri Anda di d4 melihat sebuah benteng hitam di satu diagonal dan seekor kuda di diagonal lainnya. Pilihlah dengan cermat.",
+  "hint": "Benteng lebih berharga daripada kuda — tetapi apa yang berdiri di belakang benteng di a7?",
+  "explanation": "## Ide\n\nKeserakahan berkata: ambil bentengnya. {{Qxa7}} memenangkan lima poin, sampai benteng di a8 menangkap balik dan menteri bernilai sembilan poin baru saja dibayarkan untuk benteng bernilai lima.\n\nKudalah hadiah yang sebenarnya. {{Qxg7}} mengambil buah gratis: benteng di a7 ingin sekali menjawab, tetapi pionnya sendiri di b7 menghalangi jalan, dan tak ada apa pun lagi di papan yang menjaga g7.\n\nSasaran yang paling berharga bukanlah sasaran terbaik. Yang terbaik adalah yang tak terlindungi."
+}

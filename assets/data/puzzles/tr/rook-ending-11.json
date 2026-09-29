@@ -1,0 +1,12 @@
+{
+  "id": "rook-ending-11",
+  "fen": "3rk3/8/8/4PK2/8/8/8/R7 b - - 0 1",
+  "solution": [
+    "Rd7"
+  ],
+  "rating": 1580,
+  "title": "Yedinciyi Tutun",
+  "setup": "Siyahın şahı piyonun önünde e8'i tutuyor ve beyazın şahı onun yanından yukarı yürümeye hazır.",
+  "hint": "Kalenizin tutabileceği ve beyazın şahı öne adım attığı anda ona şah çekebileceği yatayı bulun.",
+  "explanation": "## Fikir\n\n{{Rd7}} yedinci yatayı beyazın şahından alır ve {{Kf6}} denemesine {{Rf7+}} ile cevap verilip şah dosdoğru geri sürülür: e8'deki şahınız kaleyi korur. d dikeyinde daha aşağıdaki her kareden beyaz {{Ke6}} ile içeri yürür ve {{Rd6}} üstelik {{exd6}} hamlesine askıda kalır."
+}

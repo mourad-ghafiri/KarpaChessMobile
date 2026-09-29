@@ -1,0 +1,11 @@
+{
+  "id": "endgame-02",
+  "fen": "8/8/8/3p4/3k4/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Kd2"
+  ],
+  "title": "Tutan Tek Kare",
+  "setup": "Siyah bir piyon önde ve şahı ona öncülük ediyor; partiyi kurtaran tam olarak tek bir hamleniz var.",
+  "hint": "Şahlar tek dikeyde üç kare arayla duruyor. Hangi hamle aralarında tek bir boş kare bırakır ve sırayı siyaha verir?",
+  "explanation": "## Fikir\n\nSiyahın şahı piyonuna öncülük ediyor ve peşlerinden koşmak kaybettirir. Tek savunma opozisyondur.\n\n{{Kd2}} şahlar arasında bir boş kare bırakır ve sıra siyahtadır. Piyon ilerleyemez, çünkü önünde kendi şahı durur; yani siyahın şahı yana çekmesi gerekir — ve şahınız onunla birlikte adımlar, opozisyonu yeniden alır.\n\nBunun yerine c2 ya da e2'ye giderseniz opozisyonu siyah alır ve piyon şahının arkasında eve yürür."
+}

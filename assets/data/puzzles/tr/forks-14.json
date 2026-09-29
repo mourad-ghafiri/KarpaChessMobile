@@ -1,0 +1,13 @@
+{
+  "id": "forks-14",
+  "fen": "2r1k3/p4ppp/8/8/4N3/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd7",
+    "Nxc8"
+  ],
+  "title": "Kaleyi Çatallayın",
+  "setup": "Siyahın kalesi şahının yakınına, c8'e sokulmuş. Bir kalite geridesiniz, ama bir piyon öndesiniz.",
+  "hint": "Aynı anda hem şah çeken hem de c8'e saldıran kareyi bulun. Bir sıçrayış uzaklıkta.",
+  "explanation": "## Fikir\n\n{{Nd6+}} aynı anda e8'deki şaha ve c8'deki kaleye saldırır. d6'yı koruyacak bir siyah piyon ne c7'de ne e7'de duruyor, yani at güvende. {{Kd7}} kaleyi korur, ama {{Nxc8}} onu yine de alır ve {{Kxc8}} geldikten sonra kaleler ve atlar kalkmış olur. Geriye fazladan piyonunuzla bir piyon sonu kalır.\n\nYalnızca kaliteyi kazandıran çatal da, kazanabileceğiniz bir oyun sonuna götürüyorsa yeterli olabilir."
+}

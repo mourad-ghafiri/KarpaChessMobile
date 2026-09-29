@@ -1,0 +1,14 @@
+{
+  "id": "zugzwang-10",
+  "fen": "3B4/8/7k/1K6/4p3/1R6/2p5/2R5 w - - 0 1",
+  "solution": [
+    "Rg3",
+    "e3",
+    "Rh1#"
+  ],
+  "rating": 1680,
+  "title": "Tagliate la Colonna, Non il Re",
+  "setup": "Il re nero è in h6 con due pedoni che corrono in c2 e e4, e le vostre torri stanno in b3 e c1.",
+  "hint": "Tutti e due i pedoni neri stanno per promuovere. Ignorateli e prendetevi la colonna che il re userebbe.",
+  "explanation": "## L'idea\n\n{{Rg3}} si impadronisce della colonna g senza scacco, e niente di quello che il Nero gioca ferma ciò che viene dopo. {{Rh1#}} dà matto lungo la colonna h con la torre in g3 che tiene g6 e g7. Due pedoni a un passo dalla promozione sono comunque più lenti di una torre sulla colonna giusta."
+}

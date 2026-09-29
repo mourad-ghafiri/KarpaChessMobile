@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-05",
+  "fen": "r1b1k1nr/pppp1ppp/2n5/4P3/8/2Q2N2/PqP1PPPP/RN2KB1R b KQk - 0 8",
+  "solution": [
+    "Qc1#"
+  ],
+  "rating": 720,
+  "title": "Una fila sin sitio",
+  "setup": "Tu dama ya se ha colado hasta b2, y la primera fila blanca está atascada con sus propias piezas.",
+  "hint": "El rey blanco tiene dos huecos al lado y ningún tercero, así que busca un jaque al que su abarrotada primera fila no pueda responder.",
+  "explanation": "## La idea\n\nTodas las casillas alrededor de e1 están ocupadas por piezas blancas o las barre la dama al llegar, así que un jaque seguro en la primera fila acaba la partida. A {{Qc1#}} no se la pueden comer: el caballo de b1 le corta el paso a la torre, y el peón de c2 tapa a la dama blanca."
+}

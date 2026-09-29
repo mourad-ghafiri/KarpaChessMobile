@@ -1,0 +1,14 @@
+{
+  "id": "defence-05",
+  "fen": "3Q4/bq6/5R2/8/8/7r/4K3/2k5 w - - 0 1",
+  "solution": [
+    "Qd2+",
+    "Kb1",
+    "Rf1#"
+  ],
+  "rating": 1610,
+  "title": "Deux coups, pas plus",
+  "setup": "Votre roi en e2 est encerclé par la dame, la tour et le fou noirs, et le roi noir s'est glissé jusqu'en c1.",
+  "hint": "Vous ne pouvez pas à la fois défendre et attaquer. Comptez combien d'échecs vous avez et s'ils vont s'épuiser.",
+  "explanation": "## L'idée\n\n{{Qd2+}} force {{Kb1}}, et {{Rf1#}} mate le long de la première rangée. Il n'y a jamais eu de coup défensif qui vaille la peine — la position s'est décidée sur l'attaque qui avait un temps de moins à parcourir."
+}

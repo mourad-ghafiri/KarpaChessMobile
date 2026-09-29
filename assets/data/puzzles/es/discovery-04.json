@@ -1,0 +1,14 @@
+{
+  "id": "discovery-04",
+  "fen": "2r5/pp4pk/5n1p/8/4N3/1P6/P4PPP/1B4K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kg8",
+    "Nxc8"
+  ],
+  "rating": 1080,
+  "title": "Elige dónde aterrizar",
+  "setup": "Tu caballo de e4 está en la diagonal del alfil hacia h7, así que cada jugada que haga llega con jaque.",
+  "hint": "Cada salto de este caballo abre la línea del alfil. Solo uno de ellos, además, golpea algo.",
+  "explanation": "## La idea\n\nCualquier jugada de caballo descubre el jaque, así que la verdadera pregunta es qué casilla gana material. {{Nd6+}} ataca la torre de c8 mientras las Negras atienden el jaque. Tras una jugada de rey como {{Kg8}}, el caballo se la lleva con {{Nxc8}}, y tapar con Rc2 solo pone la torre donde tu alfil se la come."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "defence-07",
+  "fen": "1R6/1q6/4K1Q1/8/1b5k/8/5r2/8 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Qh7",
+    "Rxh7#"
+  ],
+  "rating": 1690,
+  "title": "Boş Dikeye Kale",
+  "setup": "Şahınız e6'da açıkta ve siyahın b7'deki veziri, f2'deki kalesi ile b4'teki fili oyunda.",
+  "hint": "Siyahın şahı h dikeyinde ve o dikeyde hiçbir şey yok. Oraya vaktinde ne koyabileceğini sorun.",
+  "explanation": "## Fikir\n\n{{Rh8+}} açık dikeyden iner ve {{Qh7}} tek kapatmadır. {{Rxh7#}} onu kaldırır. Siyahın veziri vezir kanadında her şeyi koruyordu ve aynı anda h7'de olamazdı."
+}

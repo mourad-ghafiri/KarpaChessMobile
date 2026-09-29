@@ -1,0 +1,11 @@
+{
+  "id": "greek-gift-proof",
+  "fen": "r2q1rk1/pbpp2pp/1pn1pb2/7n/2PP1Pp1/P1NBP3/1PQ1N2P/R1B2RK1 w - - 0 12",
+  "solution": [
+    "Bxh7+"
+  ],
+  "title": "A Oferta Que Ninguém Pode Aceitar",
+  "setup": "O teu bispo em d3 e a tua dama em c2 partilham uma diagonal, e h7 guarda-a só o rei preto.",
+  "hint": "Conta o que está atrás do teu bispo. No instante em que o bispo deixar d3, que jogada preta deixa de ser legal?",
+  "explanation": "## A Ideia\n\n{{Bxh7+}} entrega o bispo, e as pretas não têm licença para o comer. No instante em que ele deixa d3, a dama de c2 vê até h7, portanto o rei não pode entrar nessa casa. Tem de ir antes para h8 ou f7.\n\nO abrigo desapareceu de graça. Depois de …Kh8 a tua dama segue com {{Qg6}}, e a ala do rei das pretas está escancarada."
+}

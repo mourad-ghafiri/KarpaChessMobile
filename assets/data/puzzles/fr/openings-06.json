@@ -1,0 +1,13 @@
+{
+  "id": "openings-06",
+  "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2P1P3/2N2N2/PP1P1PPP/R1BQKB1R w KQk - 1 5",
+  "solution": [
+    "Nxe5",
+    "Nxe5",
+    "d4"
+  ],
+  "title": "Dégagez la route vers d4",
+  "setup": "Une sicilienne inversée : les Noirs viennent de placer le fou en c5, à hauteur de leur pion en e5. Prenez ce pion, en comptant sur une fourchette de pion pour récupérer la pièce.",
+  "hint": "Deux unités noires se tiennent sur des cases qu'une seule poussée de pion pourrait frapper à la fois — mais quelque chose barre d'abord le chemin.",
+  "explanation": "## L'idée\n\nLe fou noir en c5 et le pion en e5 sont sur les deux cases qu'un pion en d4 frapperait ensemble, mais le pion e5 protège d4, donc une pièce doit d'abord le dégager.\n\n{{Nxe5}} s'en charge. Après {{Nxe5}}, {{d4}} fait une fourchette sur le cavalier et le fou, et les Blancs récupèrent la pièce. Le matériel finit à peu près égal, mais les Blancs gardent le centre et un léger avantage.\n\nUne ouverture de flanc gagne quand même ses combats au centre. Elle prend simplement le chemin le plus long."
+}

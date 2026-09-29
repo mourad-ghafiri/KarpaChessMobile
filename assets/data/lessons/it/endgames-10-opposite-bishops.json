@@ -1,0 +1,58 @@
+{
+  "id": "opposite-bishops",
+  "title": "Alfieri di Colore Contrario",
+  "summary": "Due pedoni in più e niente da farci",
+  "proof": "endgames-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "Due Pedoni in Più, e Bloccati",
+      "text": "Il Bianco ha due pedoni in più, il che di solito chiude la discussione. Non qui.\n\nGuardate su che cosa stanno gli alfieri. L'alfiere nero in c1 vive sulle case scure. L'alfiere bianco in d3 vive su quelle chiare. Non si attaccheranno mai, non si bloccheranno mai, non condivideranno mai una casa per il resto della partita.\n\nDue eserciti su una scacchiera che non possono toccarsi. Il Nero sta per mostrare quanto valga, e vale due pedoni."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "title": "Le Case che Servono ai Pedoni",
+      "text": "Un pedone promuove arrivando all'ottava traversa, quindi chiedetevi quali case questi due debbano ancora usare. Il prossimo passo del pedone f è f6, e finirebbe in f8. Il pedone h finirebbe in h8. Tutte e tre le case sono scure.\n\nL'alfiere bianco in d3 non contenderà mai nessuna di esse. È un alfiere campochiaro, e un alfiere non cambia mai colore, né muovendo né in nessun altro modo.\n\nQuindi le case che decidono questo finale sono case che solo l'alfiere nero potrà mai raggiungere. Una mossa lo mette su una linea che ne attraversa due, e da lì non deve andarsene mai."
+    },
+    {
+      "type": "play",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/8/2b5 b - - 11 20",
+      "prompt": "Con due pedoni in meno, tenete la patta parcheggiando l'alfiere sull'unica diagonale che tutti e due i pedoni bianchi devono attraversare.",
+      "targetSan": [
+        "Bb2"
+      ],
+      "hint": "Il pedone f deve ancora mettere piede in f6 e il pedone h deve finire in h8 — trovate la diagonale che passa per tutte e due."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Spingerci Dentro",
+      "text": "Il Bianco ha il tratto, due pedoni in più, e nessun posto dove metterli.\n\n{{f6}} mette piede su una casa scura, e risponde {{Bxf6}}. Il pedone arriva indifeso: il re bianco in e4 non raggiunge f6, e l'alfiere bianco in d3 non può proprio guardare una casa scura.\n\nÈ tutta qui la storia di questi finali. I pedoni in più sono veri, e sono stati comprati sul colore sbagliato."
+    },
+    {
+      "type": "teach",
+      "fen": "5k2/8/8/5P1P/4K3/3B4/1b6/8 w - - 12 21",
+      "title": "Fin Dove Arriva",
+      "text": "Lasciate invece correre il pedone h. {{h6}}, e il Nero non ha nessuna ragione di intervenire: {{Ba1}} tiene la grande diagonale, e {{h7}} arriva.\n\nQuesta è la fine della strada. Al pedone serve h8, h8 è scura, e l'alfiere la sorveglia dall'angolo di una linea che non ha mai dovuto lasciare. Date la caccia a quell'alfiere e scivola da una parte o dall'altra, sempre sorvegliando.\n\nDue pedoni sulla scacchiera, e nessuno dei due sarà mai donna."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "title": "Il Colore a cui il Vostro Alfiere Rinuncia",
+      "text": "Qualche mossa dopo, il Bianco ha trovato l'unico piano rimasto: portare su il re. Sta in g5, e la casa che vuole è g6, perché da g6 il re difende tutti e due i pedoni e l'alfiere nero non ha più niente da attaccare.\n\nAdesso controllate il colore di g6. Chiara. L'alfiere in b2 non ha mai toccato una casa chiara e non la toccherà mai, quindi questa non è mai stata roba sua.\n\n> Un alfiere tiene il colore su cui è nato. Tutto il resto spetta al re."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/8/8/5PKP/8/3B4/1b6/8 b - - 15 22",
+      "prompt": "Il re bianco vuole una casa che il vostro alfiere non potrà mai sorvegliare: toglietegliela con l'altro pezzo.",
+      "targetSan": [
+        "Kf7",
+        "Kg7",
+        "Kh7"
+      ],
+      "hint": "Un alfiere copre un colore solo, quindi la casa verso cui il Bianco è diretto spetta all'altro vostro pezzo."
+    }
+  ]
+}

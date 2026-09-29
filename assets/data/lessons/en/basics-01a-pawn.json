@@ -1,0 +1,60 @@
+{
+  "id": "pawn-moves",
+  "title": "A Pawn Never Turns Around",
+  "summary": "Walks straight, strikes on the diagonal, and never takes a step back",
+  "proof": "first-steps-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "One Square, One Direction",
+      "text": "Every pawn move is permanent. A pawn walks straight forward, one square at a time, and it can only step onto an empty square — a piece standing in front of it is a wall.\n\nThe pawn on e2 steps to {{e3}}. From there it can keep climbing, but nothing in the rules will ever bring it back down to e2. Every other piece can walk back to where it came from. The pawn cannot.\n\nGround a pawn gives up is given up for the rest of the game."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "The First Move May Be Two",
+      "text": "One exception, and every pawn gets it exactly once.\n\nStanding on its home square, a pawn may travel two squares instead of one, so long as both squares ahead are empty. This e-pawn has the choice right now: {{e3}} or {{e4}}. Neither is more correct than the other.\n\nThe offer expires the moment the pawn leaves home. After that it is one square per move, the whole way to the far rank — where a pawn that survives the march is promoted into something much stronger, in a lesson of its own."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "prompt": "Push the pawn up the board — one square, or two while it still stands on its home square.",
+      "targetSan": [
+        "e3",
+        "e4"
+      ],
+      "hint": "A pawn only ever goes straight ahead, and the two-square jump is offered on its first move alone."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "It Fights on the Diagonal",
+      "text": "Taking an enemy piece is a **capture**: it comes off the board, and you stand on the square it was using. Every piece captures. The pawn is the only one that captures differently than it moves.\n\nA pawn never takes the piece directly in front of it — straight ahead is for walking, and only onto empty ground. The strike goes one square diagonally forward, to the left or to the right.\n\nThe black pawn on d5 has walked into range. It is sitting on one of the two squares your pawn on e4 can hit.\n\n> Straight to move, diagonal to take. That asymmetry is the whole pawn."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "The black pawn on d5 is standing where your pawn can reach it — take it off the board.",
+      "targetSan": [
+        "exd5"
+      ],
+      "hint": "A pawn's step and a pawn's strike are different directions — count one square diagonally forward from e4."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/4P3/8/8/4K3 w - - 0 1",
+      "title": "The Mark for a Capture",
+      "text": "A capture is written with an **x**, sitting between the piece that moves and the square it lands on.\n\nThe pawn owns no capital letter, so it lends its file instead. The move you just played is written {{exd5}}: the e-pawn, taking, on d5. The letter in front says which pawn left, the square says where it arrived.\n\nFrom here on that **x** means the same thing whoever makes the move."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/8/4pp2/4P3/8/8/4K3 w - - 0 1",
+      "prompt": "The black pawn on e5 blocks the road ahead — find the one move your own pawn still has.",
+      "targetSan": [
+        "exf5"
+      ],
+      "hint": "A pawn cannot take the piece standing directly in front of it, and there is a second black pawn beside that one."
+    }
+  ]
+}

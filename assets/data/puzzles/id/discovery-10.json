@@ -1,0 +1,12 @@
+{
+  "id": "discovery-10",
+  "fen": "kr6/p1P3pp/8/3N1q2/8/8/PP5P/5RKB w - - 0 1",
+  "solution": [
+    "Nb6#"
+  ],
+  "rating": 1300,
+  "title": "Abaikan Menterinya",
+  "setup": "Benteng Anda mengincar menteri hitam dan pion c7 Anda mengincar benteng, sementara raja hitam menunggu di sudut.",
+  "hint": "Kedua penangkapan itu membiarkan Hitam tetap hidup. Tanyakan saja petak mana yang akan memberi sekak dua kali kepada raja yang terpojok.",
+  "explanation": "## Ide\n\nRxf5 memenangkan menteri dan cxb8=Q+ memenangkan benteng, tetapi {{Nb6#}} mengakhirinya. Kuda memberi sekak dari b6 dan menyingkap gajah di h1 di sepanjang diagonal panjang. a7 dan b8 ditempati buah Hitam sendiri, dan b7 dikuasai gajah itu."
+}

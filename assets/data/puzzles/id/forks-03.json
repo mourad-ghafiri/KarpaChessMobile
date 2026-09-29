@@ -1,0 +1,11 @@
+{
+  "id": "forks-03",
+  "fen": "4k3/8/8/3q4/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nf6+"
+  ],
+  "title": "Kuda Menggarpu Keluarga Kerajaan",
+  "setup": "Raja Hitam di e8 dan menteri di d5 sama-sama berjarak satu lompatan kuda dari petak yang sama.",
+  "hint": "Carilah petak tempat kuda bisa mendarat yang menyerang **keduanya**, raja dan menteri.",
+  "explanation": "## Ide\n\n**Garpu kerajaan**: raja dan menteri diserang oleh satu langkah. Petak f6 berjarak satu lompatan kuda dari e8 dan satu lompatan kuda dari d5, jadi mendarat di sana menyentuh keduanya sekaligus.\n\n{{Nf6+}} tak bisa dihalangi, karena kuda tak pernah melintasi petak-petak di antaranya, dan baik raja maupun menteri tak bisa mencapai f6 untuk menangkapnya. Raja harus bergerak, dan {{Nxd5}} mengambil menteri.\n\nTemukan petak yang berjarak satu lompatan kuda dari raja dan satu lompatan kuda dari sesuatu yang berharga."
+}

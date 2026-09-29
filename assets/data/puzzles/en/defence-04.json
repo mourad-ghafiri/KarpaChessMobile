@@ -1,0 +1,14 @@
+{
+  "id": "defence-04",
+  "fen": "K7/8/2Q5/1q2r3/8/1r1B4/R7/3k4 w - - 0 1",
+  "solution": [
+    "Qc2+",
+    "Ke1",
+    "Qc1#"
+  ],
+  "rating": 1570,
+  "title": "Give the Queen to the King",
+  "setup": "Black's queen on b5 and rooks on b3 and e5 have your king in the corner, while its own king sits loose on d1.",
+  "hint": "There is one square where your queen cannot be taken. Find it and see what the king has left.",
+  "explanation": "## The Idea\n\n{{Qc2+}} steps beside the king untouchable — the rook on a2 defends it — and {{Ke1}} is forced. {{Qc1#}} follows. The most defensive move on the board turned out to be a queen offer."
+}

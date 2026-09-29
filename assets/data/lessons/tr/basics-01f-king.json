@@ -1,0 +1,57 @@
+{
+  "id": "king-moves",
+  "title": "Hiç Ayrılmayan Taş",
+  "summary": "Her yöne bir kare, eksi rakibin gözlediği her kare",
+  "proof": "first-steps-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "title": "Ne Alınır Ne Değişilir",
+      "text": "Sahip olduğunuz başka her taş değişilebilir, verilebilir ya da kaybedilebilir. Şah edilemez. O asla alınmaz ve tahtadan asla ayrılmaz — bu olmadan parti biter.\n\nBu yüzden kurallar onu kısa bir tasmada tutar: **her yöne, sekiz yönden birine, bir kare**. e4'ten bunlar {{Kd5}}, {{Ke5}}, {{Kf5}}, {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}} kareleridir.\n\nSekiz komşu. Ötesinde hiçbir şey yok."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4K3/8/8/8 w - - 0 1",
+      "prompt": "Şahı e4'e değen herhangi bir kareye adımlayın — burada sekizi de açık.",
+      "targetSan": [
+        "Kd5",
+        "Ke5",
+        "Kf5",
+        "Kd4",
+        "Kf4",
+        "Kd3",
+        "Ke3",
+        "Kf3"
+      ],
+      "hint": "Tahtada başka hiçbir şey yok, yani halkadaki hiçbir kare diğerinden daha iyi değil."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Bir Şey Gözlüyor",
+      "text": "Tahta artık boş değil. Siyahın h5'teki kalesi, kalelerin yaptığı gibi beşinci yatayı baştan sona tarıyor.\n\nBunun e4'teki şaha neye mal olduğuna bakın. Sekiz komşusundan üçü — d5, e5 ve f5 — o yatayda, kalenin göz önünde duruyor."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/7r/4K3/8/8/8 w - - 0 1",
+      "title": "Üç Kare Geri Çekildi",
+      "text": "O üç kare kötü bir fikir değil. Hiç seçenek değiller.\n\nBir şah, **rakip bir taşın saldırdığı kareye asla gidemez**. Tahta buna izin vermez: d5'e uzanın, o hamle orada yoktur — tıpkı bir fil için düz hattın orada olmadığı gibi.\n\nGeriye beşi kalır: {{Kd4}}, {{Kf4}}, {{Kd3}}, {{Ke3}}, {{Kf3}}.\n\n> Şaha değen kareleri sayın, sonra rakibin gözlediği her kareyi çizin. Kalanlar şahın hamlesinin tamamıdır."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3k4/8/3K4/8/8/8 w - - 0 1",
+      "title": "Şahlar Araya Mesafe Koyar",
+      "text": "Bu kuralın en yalın hâli iki şahtır. Siyahın d6'daki şahı iki kare ötede duruyor ve c5, d5, e5 karelerinin üçü de ona değiyor.\n\nYani üçü de d4'teki beyaz şaha kapalıdır. Şah tek adım bile ileri gidemez — halkasının bütün ön tarafı öteki şaha aittir.\n\nİki şah asla yan yana duramaz. Hiçbiri diğerinin halkasına giremez, bu yüzden aralarında her zaman bir kare boş tahta kalır."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/8/4p3/4K3/8 w - - 0 1",
+      "prompt": "O piyon şahın yanındaki iki kareyi kapattı ama üzerinde durduğu kareyi değil — onu kazanın.",
+      "targetSan": [
+        "Kxe3"
+      ],
+      "hint": "Piyonun saldırıları çapraz ileri gider, asla dümdüz ileri değil; ve bu tahtada onu koruyan hiçbir şey yok."
+    }
+  ]
+}

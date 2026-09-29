@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-06",
+  "fen": "4k3/pp4pp/8/8/3pK3/8/PP4PP/8 w - - 0 1",
+  "solution": [
+    "Kxd4"
+  ],
+  "title": "Savaşan Şah",
+  "setup": "Siyahın bir piyonu, ortalıkta hiç koruyucusu olmadan, şahınızın tam yanında duruyor.",
+  "hint": "Şah, oynadığı gibi alır: her yöne bir kare. d4'teki piyon korunuyor mu?",
+  "explanation": "## Fikir\n\nŞah yalnızca korunacak bir taş değildir; dövüşebilir de. d4'teki siyah piyon bir adım ötede ve **onu koruyan hiçbir şey yok**: e8'deki siyah şah dört yatay uzakta.\n\n{{Kxd4}} onu güvenle alır. Her zaman önce kontrol edin: d4'teki siyah piyon c3 ile e3'e saldırır; ne şahınızın durduğu kareye ne de ineceği kareye.\n\nŞah, yanındaki hiçbir şeyin korumadığı her taşı alabilir."
+}

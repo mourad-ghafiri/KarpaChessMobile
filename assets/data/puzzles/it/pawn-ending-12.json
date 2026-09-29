@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-12",
+  "fen": "7K/8/k1P5/7p/8/8/8/8 w - - 1 2",
+  "solution": [
+    "Kg7"
+  ],
+  "rating": 1500,
+  "title": "Due Compiti Insieme",
+  "setup": "Il re nero è appena arrivato in a6, e il pedone h sembra a quattro mosse pulite dalla promozione.",
+  "hint": "Non scegliete fra inseguire il suo pedone e spingere il vostro — cercate un percorso che faccia tutte e due le cose.",
+  "explanation": "## L'idea\n\nInseguire dritti lungo la colonna h è senza speranza, quindi il re cammina in diagonale, verso tutti e due i pedoni insieme. Se il Nero corre con {{h4}}, {{Kf6}} e poi Ke6 portano il re accanto a d7, e il vostro pedone c promuove proprio mentre promuove quello nero. Se il Nero punta al pedone c con {{Kb6}}, la stessa camminata ha guadagnato il tempo per prendere il pedone h. In ogni caso è patta.\n\nQuesto è lo studio di Réti: un re su una diagonale può inseguire due cose insieme."
+}

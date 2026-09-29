@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-22",
+  "fen": "k7/2K5/8/8/8/8/8/7R w - - 0 1",
+  "solution": [
+    "Ra1#"
+  ],
+  "title": "Corner Squeeze",
+  "setup": "Black's king is in the a8 corner, and your king on c7 covers b7 and b8.",
+  "hint": "Your king has sealed the squares beside the corner. The rook only has to check along the edge.",
+  "explanation": "## The Idea\n\nThis is the classic king and rook corner mate. Your king on c7 covers b7 and b8, the two squares beside the corner.\n\n{{Ra1#}} checks down the a-file, and a7 is on the rook's line too. Nothing can block, and the king cannot reach the rook.\n\nOnce your king seals the squares beside the corner, any safe check along the edge is mate."
+}

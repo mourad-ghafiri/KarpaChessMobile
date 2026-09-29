@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-08",
+  "fen": "rn1q1bnr/ppp1kB1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R w KQ - 1 7",
+  "solution": [
+    "Nd5#"
+  ],
+  "rating": 810,
+  "title": "O Mate de Légal",
+  "setup": "As pretas acabaram de comer a tua dama em d1, e o rei preto está em e7 com três peças brancas à volta.",
+  "hint": "A dama já se foi, portanto conta antes as casas do rei preto e encontra a que ainda ninguém cobre.",
+  "explanation": "## A Ideia\n\nEste é o mate de Légal. O bispo de f7 é dono de e6 e e8, o cavalo de e5 é dono de d7, e {{Nd5#}} dá xeque enquanto cobre f6. A dama, o bispo e o peão das próprias pretas tapam o resto. Três peças menores podem valer mais do que uma dama."
+}

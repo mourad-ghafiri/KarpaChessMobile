@@ -1,0 +1,14 @@
+{
+  "id": "defence-09",
+  "fen": "1Q6/2K5/5r2/7R/3q4/5b2/k7/8 w - - 0 1",
+  "solution": [
+    "Ra5+",
+    "Qa4",
+    "Rxa4#"
+  ],
+  "rating": 1770,
+  "title": "Swing the Rook Sideways",
+  "setup": "Black's queen, rook and bishop all bear on your king on c7, and its own king is tucked away on a2.",
+  "hint": "Your rook is on the wrong file but the right rank. Find the square where the only block costs a queen.",
+  "explanation": "## The Idea\n\n{{Ra5+}} arrives along the fifth. {{Qa4}} is the only block, and {{Rxa4#}} is mate. The rook never moved forward — it moved across, which is the direction the a-file king could not answer."
+}

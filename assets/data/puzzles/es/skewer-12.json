@@ -1,0 +1,14 @@
+{
+  "id": "skewer-12",
+  "fen": "8/1r5R/2kpB3/1bp1R3/3P4/2P2P2/4P3/K7 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kb6",
+    "Rxb7+"
+  ],
+  "rating": 1300,
+  "title": "El alfil prepara, la torre come",
+  "setup": "El rey negro de c6 tiene una torre justo detrás, en b7, y tu torre ya domina la séptima fila.",
+  "hint": "¿Qué pieza puede dar jaque por una diagonal que sigue, a través del rey, hasta la torre que espera detrás?",
+  "explanation": "## La idea\n\n{{Bd5+}} es la enfilada: la diagonal d5–c6–b7 contiene al rey y, detrás, a la torre. Tu torre de **e5** defiende d5, así que no se pueden comer el alfil. Tras {{Kb6}}, {{Rxb7+}} gana la torre, ya que ahora el alfil también cubre b7."
+}

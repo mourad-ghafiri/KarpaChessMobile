@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-24",
+  "fen": "6k1/5ppp/8/2n1n3/8/3P4/5PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "d4"
+  ],
+  "title": "Un peón, dos caballos",
+  "setup": "Los dos caballos negros atacan tu peón de d3, y solo la torre de d1 lo protege. El peón tiene una idea mejor que esperar.",
+  "hint": "Un peón ataca las dos casillas en diagonal que tiene delante. ¿Dónde tendría que estar este para atacar c5 y e5?",
+  "explanation": "## La idea\n\n{{d4}} pone el peón entre los caballos, atacando a la vez c5 y e5. Ningún caballo puede capturarlo, porque un caballo en c5 o e5 nunca toca d4, y la torre de d1 lo protege de todos modos.\n\nLas Negras salvan un caballo y el peón captura el otro: un punto de peón por tres de caballo. Cualquier otra jugada deja vivos a los dos caballos."
+}

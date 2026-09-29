@@ -1,0 +1,14 @@
+{
+  "id": "decoy-04",
+  "fen": "r6k/pp2P1pp/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Rd8+",
+    "Rxd8",
+    "exd8=Q#"
+  ],
+  "rating": 1270,
+  "title": "Attirate il Bloccante",
+  "setup": "Il vostro pedone in e7 vuole l'ottava traversa, e a fargli la guardia c'è solo la torre in a8.",
+  "hint": "La torre è tutta la difesa. Trovate la casa dove prenderla è l'unica mossa rimasta al Nero.",
+  "explanation": "## L'idea\n\n{{Rd8+}} lascia al Nero una mossa legale, {{Rxd8}} — e la torre è stata trascinata sulla casa che il vostro pedone attacca. {{exd8=Q#}} promuove dando matto. Una torre è economica quando un pedone diventa donna."
+}

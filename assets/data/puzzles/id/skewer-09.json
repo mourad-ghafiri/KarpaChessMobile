@@ -1,0 +1,14 @@
+{
+  "id": "skewer-09",
+  "fen": "8/RR5B/1p2kr2/5b2/5P2/3P4/5N2/2K5 w - - 0 1",
+  "solution": [
+    "Rxb6+",
+    "Kd5",
+    "Rxf6"
+  ],
+  "rating": 1210,
+  "title": "Tangkap dengan Sekak",
+  "setup": "Benteng-benteng Anda menguasai baris ketujuh, dan sebuah pion hitam di b6 berbagi baris keenam dengan raja di e6.",
+  "hint": "Ada penangkapan yang membuka garis dan memberi sekak dalam satu langkah. Tanyakan apa yang berdiri di balik raja di garis itu.",
+  "explanation": "## Ide\n\n{{Rxb6+}} mengambil pion dan, yang jauh lebih penting, tiba di baris keenam dengan sekak. Benteng di **f6** kini berada di belakang rajanya sendiri. {{Kd5}} satu-satunya balasan sah, dan {{Rxf6}} memenangkan benteng."
+}

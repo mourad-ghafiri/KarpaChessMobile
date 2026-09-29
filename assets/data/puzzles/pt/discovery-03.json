@@ -1,0 +1,14 @@
+{
+  "id": "discovery-03",
+  "fen": "2r5/ppp4k/5b1p/8/4P3/7P/5P1K/1B4R1 w - - 0 1",
+  "solution": [
+    "e5+",
+    "Kh8",
+    "exf6"
+  ],
+  "rating": 1040,
+  "title": "O Peão Avança",
+  "setup": "O teu bispo em b1 aponta diretamente a h7, e só o teu próprio peão de e4 mantém a diagonal fechada.",
+  "hint": "O bispo preto é uma peça das casas escuras: nunca pode entrar na diagonal de b1 a h7 para tapar o que quer que seja.",
+  "explanation": "## A Ideia\n\n{{e5+}} abre a diagonal de b1 a h7 e ataca o bispo no mesmo fôlego. Ao xeque tem de se responder primeiro, e nenhuma peça preta se pode interpor numa casa clara, portanto depois de {{Kh8}} o peão come em f6 de graça."
+}

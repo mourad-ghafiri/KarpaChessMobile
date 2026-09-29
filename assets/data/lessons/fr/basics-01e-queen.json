@@ -1,0 +1,76 @@
+{
+  "id": "queen-moves",
+  "title": "Toutes les routes à la fois",
+  "summary": "Les lignes de la tour et les biais du fou réunis en une seule pièce — et pourquoi chaque pion est ravi de la voir",
+  "proof": "first-steps-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Rien de nouveau à apprendre",
+      "text": "Il n'y a pas de nouveau déplacement ici. Vous en connaissez déjà les deux moitiés.\n\nLa dame en d4 va en ligne droite comme une tour — {{Qd8}} sur la colonne, {{Qa4}} sur la rangée — et en biais comme un fou, {{Qh8}} vers le coin opposé et {{Qg1}} jusqu'au bord inférieur.\n\nQuatre routes, montrées ensemble. Il y en a huit : une pour chaque direction dans laquelle une rangée, une colonne ou une diagonale peut quitter une case."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "title": "Vingt-sept cases",
+      "text": "Comptez ce que la dame touche depuis d4 : quatorze cases comme une tour, treize de plus comme un fou, vingt-sept en tout. Un cavalier placé là en atteint huit.\n\nMais vingt-sept, c'est le chiffre d'un échiquier vide. La dame hérite des routes de ses deux parents, et de leurs limites, et aucun des deux ne saute. La première pièce sur une route l'arrête, et tout ce qui se trouve derrière est hors de portée tant que la route n'est pas dégagée."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/3Q4/8/8/4K3 w - - 0 1",
+      "prompt": "Envoyez la dame sur l'une des huit routes qui partent de d4, aussi près ou aussi loin que vous voulez.",
+      "targetSan": [
+        "Qc5",
+        "Qb6",
+        "Qa7",
+        "Qe5",
+        "Qf6",
+        "Qg7",
+        "Qh8",
+        "Qc3",
+        "Qb2",
+        "Qa1",
+        "Qe3",
+        "Qf2",
+        "Qg1",
+        "Qd5",
+        "Qd6",
+        "Qd7",
+        "Qd8",
+        "Qd3",
+        "Qd2",
+        "Qd1",
+        "Qc4",
+        "Qb4",
+        "Qa4",
+        "Qe4",
+        "Qf4",
+        "Qg4",
+        "Qh4"
+      ],
+      "hint": "Tout ce qu'une tour pourrait faire depuis cette case est un coup de dame, et tout ce qu'un fou pourrait faire aussi."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Tout le monde veut la chasser",
+      "text": "La force a un prix, et pour la dame, ce prix, c'est l'attention.\n\nToutes les autres pièces de l'échiquier sont plus petites, et toutes sont donc ravies d'attaquer la dame. Un pion qui arrive propose un échange que la dame ne peut pas accepter : la plus grosse pièce des Blancs contre la plus petite des Noirs. Alors la dame s'en va.\n\nSortez-la trop tôt et toute la partie se résume à cela — la dame bouge, puis bouge encore, pendant que les Noirs placent tranquillement leurs pièces là où elles doivent être.\n\n> Rien sur l'échiquier n'est plus heureux qu'un pion qui a trouvé la dame adverse."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "title": "Comptez ce qui vous regarde",
+      "text": "Il ne reste donc à la dame qu'une seule sorte de prise qui vaille : celle à laquelle rien ne répond.\n\nAvant de prendre quoi que ce soit avec elle, demandez-vous ce qui surveille cette case. Si un pion la protège, il reprend la dame dès qu'elle arrive, et vous avez donné votre meilleure pièce contre la moins chère des Noirs.\n\nSi rien ne surveille la case — aucun gardien, rien derrière, aucune réponse — la dame prend sans rien payer."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/3p4/8/8/8/3QK3 w - - 0 1",
+      "prompt": "Le dernier pion noir n'a personne pour le protéger — prenez-le sans rien payer.",
+      "targetSan": [
+        "Qxd5"
+      ],
+      "hint": "La dame et ce pion sont déjà sur la même colonne, et la route entre eux est vide."
+    }
+  ]
+}

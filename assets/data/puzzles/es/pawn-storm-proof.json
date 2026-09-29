@@ -1,0 +1,11 @@
+{
+  "id": "pawn-storm-proof",
+  "fen": "2rq1rk1/pb1nb2p/1p2p3/3pBpp1/2PPn3/1PNB1N2/P3QPPP/2RR2K1 b - - 1 15",
+  "solution": [
+    "g4"
+  ],
+  "title": "Botvinnik sigue marchando",
+  "setup": "Bogoliúbov contra Botvinnik, Nottingham 1936. Tus peones de f y de g ya han avanzado, y el caballo de f3 es lo que protege el flanco de rey blanco.",
+  "hint": "Una avalancha de peones son peones golpeando piezas. ¿A qué pieza blanca puede atacar uno de tus peones en esta jugada?",
+  "explanation": "## La idea\n\n{{g4}} lanza el peón de la avalancha contra el caballo de f3, la pieza que protege e5 y las casillas delante del rey blanco. Un peón que ataca a una pieza gana un tiempo, y cada jugada que el caballo pasa huyendo es una jugada que la avalancha no tiene que pagar.\n\nEn la partida el caballo volvió a e1, Botvinnik cambió en e5 y se hizo con el centro, y las Negras terminaron ganando."
+}

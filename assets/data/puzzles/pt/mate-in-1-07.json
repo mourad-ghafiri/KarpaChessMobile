@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-07",
+  "fen": "5k2/5p1K/3p4/5N2/8/8/Q7/8 w - - 0 1",
+  "solution": [
+    "Qa8#"
+  ],
+  "title": "Rede de Dama e Cavalo",
+  "setup": "O rei preto em f8 está apertado pelo seu próprio peão, o teu rei em h7 está ali ao lado, e o teu cavalo de f5 está a vigiar.",
+  "hint": "O teu rei cobre g7 e g8, e o cavalo cobre e7. À dama só falta um xeque de que o rei não se possa afastar.",
+  "explanation": "## A Ideia\n\n{{Qa8#}} dá xeque pela linha de fundo. e8 está na linha da dama, o cavalo de f5 cobre e7, o teu rei de h7 cobre g7 e g8, e f7 tem o peão das próprias pretas. Nada pode tapar na oitava linha.\n\nTira o cavalo e o rei foge para e7. Numa rede de mate, cada peça cobre uma casa que as outras não cobrem."
+}

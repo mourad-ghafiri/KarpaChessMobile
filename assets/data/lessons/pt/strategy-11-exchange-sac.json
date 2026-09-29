@@ -1,0 +1,65 @@
+{
+  "id": "exchange-sacrifice",
+  "title": "O Sacrifício de Qualidade",
+  "summary": "Torre por cavalo, e os peões nunca mais se recompõem",
+  "proof": "strategy-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "Uma Peça a Fazer Dois Trabalhos",
+      "text": "Aqui o material está perfeitamente igual, e uma peça branca faz o trabalho de duas. O cavalo em c3 guarda o peão de e4, cobre b5 e d5, e está duas casas à frente do rei branco de c1.\n\nAs pretas adorariam vê-lo desaparecer. Só uma peça preta chega sequer a c3 — a torre em c8, por uma coluna vazia — e uma torre vale cinco pontos onde um cavalo vale três.\n\nEntregar uma torre por um cavalo ou um bispo tem nome próprio: cede-se **a qualidade**."
+    },
+    {
+      "type": "teach",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "title": "A Tabela de Preços",
+      "text": "Um sacrifício avalia-se antes de se fazer, não depois.\n\nDigamos que o cavalo de c3 sai e as brancas recapturam. Exatamente uma unidade branca chega a c3: o peão de b2. Mais nada no tabuleiro toca nessa casa, portanto a recaptura é imposta a um peão que deixa a coluna b para sempre.\n\nA ala da dama das brancas passa a ser três peões em duas colunas — um encalhado sozinho na coluna a, dois empilhados na coluna c. Nenhum dos lados tem bispo das casas escuras, portanto b2 fica só com o rei a vigiá-la, e a3 não tem rigorosamente nada.\n\nDois pontos, por um estrago que não se pode reparar."
+    },
+    {
+      "type": "play",
+      "fen": "2rq1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BN2P2/PPP3P1/2KR3R b - - 0 14",
+      "prompt": "Paga dois pontos para esmagar os peões à frente do rei branco e tirar a peça que segura o centro das brancas.",
+      "targetSan": [
+        "Rxc3"
+      ],
+      "hint": "Exatamente uma peça preta tem estrada livre até c3, e é a cara."
+    },
+    {
+      "type": "teach",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "title": "Agora Conta-o Fora do Tabuleiro",
+      "text": "As brancas ficam com duas torres, um bispo e um cavalo. As pretas com uma torre, um bispo e dois cavalos. Dois pontos, desaparecidos, e não há maneira de os recuperar.\n\nAgora a outra coluna do balanço. O peão em a2 já não tem vizinho, e nenhum peão o voltará a defender. Os peões em c2 e c3 estão empilhados numa coluna, e o de trás não pode mexer de todo. Na coluna b não há peão branco nenhum, e o rei em c1 está ao lado desse vazio.\n\nTudo o que as pretas jogarem daqui em diante tem de gastar aquilo que a torre comprou."
+    },
+    {
+      "type": "play",
+      "fen": "3q1rk1/pp1bpp2/3p1npQ/4n2p/3NP2P/1BP2P2/P1P3P1/2KR3R b - - 0 15",
+      "prompt": "Põe a tua dama onde atinge numa jogada o peão a encalhado e o peão dobrado.",
+      "targetSan": [
+        "Qa5"
+      ],
+      "hint": "Uma casa da ala da dama olha a direito pela coluna a e pelas casas escuras ao lado do rei branco."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/2KR3R w - - 1 16",
+      "title": "Uma Torre a Mais e Nenhum Sítio para a Pôr",
+      "text": "{{Kb1}}. As brancas saem primeiro da coluna c, o que é sensato e não faz nada pelo resto da posição.\n\nOlha para o que a torre a mais está a fazer. A torre em d1 vai dar ao próprio cavalo branco de d4. A torre em h1 vai dar ao próprio peão branco de h4. A coluna c está rolhada pelos dois peões brancos que estão nela. Três colunas, e as brancas não podem usar nenhuma.\n\nUma torre vale cinco pontos quando tem onde estar. Esta vale o que consegue alcançar."
+    },
+    {
+      "type": "teach",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "title": "Quando a Conta Chega",
+      "text": "A mesma troca é uma perda seca de dois pontos em três casos: se a recaptura deixar os peões saudáveis, se a troca entregar ao teu adversário uma coluna para trabalhar, ou se nada se lhe seguir. O material fala, e fala cada vez mais alto quanto mais tempo o deixares em paz.\n\nAqui nunca chega a meter uma palavra. O rei branco em b1 já não tem peão na sua própria coluna, o peão de c3 já está sob fogo, e todas as peças pretas apontam ao mesmo canto.\n\n> Não estás a vender uma torre, estás a comprar casas — e as casas compradas têm de ser usadas."
+    },
+    {
+      "type": "play",
+      "fen": "5rk1/pp1bpp2/3p1npQ/q3n2p/3NP2P/1BP2P2/P1P3P1/1K1R3R b - - 2 16",
+      "prompt": "Alinha a tua última torre com o peão com que as brancas foram obrigadas a recapturar.",
+      "targetSan": [
+        "Rc8"
+      ],
+      "hint": "Nada defende esse peão, mas agarrá-lo já com a dama é prematuro. Leva primeiro a última torre à coluna em que ele está."
+    }
+  ]
+}

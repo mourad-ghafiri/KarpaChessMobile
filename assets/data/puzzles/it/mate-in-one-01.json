@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-01",
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq g3 0 2",
+  "solution": [
+    "Qh4#"
+  ],
+  "rating": 600,
+  "title": "Due Pedoni di Troppo",
+  "setup": "Le prime due mosse del Bianco hanno aperto l'unica diagonale che finisce sul suo stesso re.",
+  "hint": "Una sola linea punta al re bianco, e un solo pezzo nero può entrarci in questa mossa.",
+  "explanation": "## L'idea\n\nI pedoni f e g sono le due mosse che tolgono a e1 la copertura sulla diagonale h4–e1. {{Qh4#}} arriva senza niente su cui parare e senza niente in grado di catturarla. Tenete quei due pedoni a casa finché il vostro re vive dietro di loro."
+}

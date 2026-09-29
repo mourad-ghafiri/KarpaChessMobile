@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-03",
+  "fen": "7k/6pp/8/8/8/8/p4PPP/2R3K1 w - - 0 2",
+  "solution": [
+    "Rc8#"
+  ],
+  "rating": 780,
+  "title": "Siapa yang Tiba Lebih Dulu",
+  "setup": "Pion a Hitam baru saja mencapai a2 dan menjadi menteri pada langkah berikutnya, jadi Anda punya tepat satu langkah.",
+  "hint": "Menghitung perlombaan pion sia-sia jika partai berakhir pada langkah ini. Lihat baris kedelapan Hitam.",
+  "explanation": "## Ide\n\n{{Rc8#}} dan pion itu tak pernah berpromosi. Raja di h8 terkurung oleh g7 dan h7, seluruh baris kedelapan milik benteng, dan tak ada buah hitam yang bisa mencapainya untuk menghalangi. Selalu cari mat sebelum Anda mulai menghitung perlombaan."
+}

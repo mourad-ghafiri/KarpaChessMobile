@@ -1,0 +1,71 @@
+{
+  "id": "deflection",
+  "title": "Deflection",
+  "summary": "Some guards cannot be captured. They can still be sent away.",
+  "proof": "deflection-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "The Square That Ends It",
+      "text": "e8 ends this game. Anything of White's that lands there checks the king on g8, and that king has its own three pawns standing where its escape squares should be.\n\nWhite has two pieces on the e-file, queen in front and rook behind. The rook cannot reach e8 — its own queen is in the way. The queen can.\n\nThe queen can also be taken there. The rook on d8 covers e8 along the eighth rank, and no other black piece does."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "How You Move an Enemy Piece",
+      "text": "You have two ways to stop a guard already: take it, or drive it off its square. Neither is on offer. Nothing White owns attacks d8, and White's pawns are all still sitting on the second rank.\n\nSo the rook has to move by itself. You cannot order an enemy piece anywhere. You can only make some other square worth more to it than the one it is standing on — and the strongest version of that is a square it has no legal choice about."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Make the rook on d8 leave d8 with a move it has no legal way to refuse.",
+      "targetSan": [
+        "Qe8+"
+      ],
+      "hint": "Only one white piece can reach e8 at all, and only one black piece can answer it."
+    },
+    {
+      "type": "teach",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "title": "Nothing Was Chosen Here",
+      "text": "Black was not picking between options. One legal move existed on the whole board, and this is the position it produced.\n\nThe rook is on e8 and it is not on d8. That is the idea, and it has a name: a **deflection** compels a defender to be somewhere else at the moment its work is needed. Whether it survives the trip is beside the point.\n\nThe eighth rank now holds two black units, that rook and the king on g8. The king covers f8 and h8. Nothing covers e8."
+    },
+    {
+      "type": "play",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "prompt": "Nothing guards the eighth rank now, so take the rook standing on it and finish the game.",
+      "targetSan": [
+        "Rxe8#"
+      ],
+      "hint": "There is exactly one capture available on this board, and the king has nothing but its own pawns behind it."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5pp1/7p/8/4Q3/8/5PPP/4R1K1 w - - 0 1",
+      "title": "Change One Pawn",
+      "text": "White handed over a queen for a rook there and never had to count, because the move after it was mate.\n\nHere the h-pawn stands on h6 and the king has a square. {{Qe8+}} {{Rxe8}} {{Rxe8+}} {{Kh7}}: the rook took, the eighth rank opened, and the king simply stepped out of the corner.\n\nWhite has paid a queen for a rook, and the mate it was paid for is not there.\n\n> A deflection is only as good as the move it makes possible."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "A Trade That Buys Nothing",
+      "text": "A different board, and no mate on it anywhere.\n\nYour bishop on b2 looks down the long diagonal at the knight on e5. {{Bxe5}} wins a knight for about half a second — Black's bishop on c7 takes back, three for three, and you have spent a bishop to change nothing.\n\nSo look at e5 again. One white attacker, one black defender, and the defender is that bishop on c7, which nothing of White's attacks and no white pawn is ever going to chase."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "Somewhere Else, for One Move",
+      "text": "The bishop on c7 has to be elsewhere. Not gone — elsewhere, and only for the single move you need.\n\nAttacking it does not do that. It steps across to d6 and watches e5 from there instead.\n\nSo stop looking at the bishop and look at the eighth rank. Black's rook is on d8, your rook on d1 stares straight up the file at it, and the king on g8 has three pawns and no air."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "prompt": "Force the bishop on c7 to stop watching e5, with a move Black has only one reply to.",
+      "targetSan": [
+        "Rxd8+"
+      ],
+      "hint": "Ask what could recapture on d8, and notice where that piece is standing right now."
+    }
+  ]
+}

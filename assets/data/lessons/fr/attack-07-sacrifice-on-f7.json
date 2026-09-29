@@ -1,0 +1,56 @@
+{
+  "id": "sacrifice-on-f7",
+  "title": "Le sacrifice en f7",
+  "summary": "Un seul défenseur, et c'est le roi",
+  "proof": "f7-sacrifice-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Tous les pions sauf deux",
+      "text": "Chaque pion devant un roi a une pièce derrière lui, sauf deux. f7 et f2 ne sont gardés que par le roi, et ils le restent jusqu'à ce que ce roi roque ou qu'une pièce soit amenée en renfort.\n\nLes Noirs n'ont fait ni l'un ni l'autre. La tour en h8 n'a jamais bougé, le fou en f8 non plus, et la dame en d8 est occupée à tenir le cavalier en d5.\n\nUne pièce qui arrive en f7 ne peut donc pas recevoir une reprise bon marché. Il ne reste rien de bon marché pour répondre. Le roi doit s'en charger en personne."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Évalué à ce qu'il achète",
+      "text": "Une pièce contre un pion, c'est un échange perdant sur le papier. Ici, ce n'est pas un échange du tout, car les Noirs n'ont pas le droit de dire non.\n\nComptez les cases qu'atteint un cavalier depuis f7. Deux d'entre elles sont d8 et h8, où se trouvent la dame et la tour, donc refuser coûte plus qu'accepter.\n\nEt accepter traîne le roi en f7 devant une armée qui n'a pas encore bougé. Votre fou en c4 pèse déjà sur le cavalier en d5, et ce cavalier est la seule chose qui tient la diagonale fermée."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "prompt": "Donnez une pièce pour prendre le seul pion que garde le roi noir, et attirez ce roi à découvert.",
+      "targetSan": [
+        "Nxf7"
+      ],
+      "hint": "Une seule de vos pièces peut atteindre f7 — l'autre route est bloquée en d5."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/ppp2kpp/2n5/3np3/2B5/8/PPPP1PPP/RNBQK2R w KQ - 0 7",
+      "title": "Le roi est maintenant le problème",
+      "text": "Le roi est sorti en f7 au septième coup, et la première chose qu'il fait est de gêner. Votre fou en c4 regarde à travers le cavalier en d5 jusqu'à ce roi, donc le cavalier est cloué et ne peut plus bouger du tout.\n\n{{Qf3+}} amène un second attaquant sur d5 avec échec. Le roi noir a cinq cases, et {{Ke6}} est celle qui protège le cavalier cloué — un roi qui monte sur l'échiquier pour tenir une pièce. Puis {{Nc3}} : trois attaquants, deux défenseurs, et l'un des défenseurs est le roi lui-même."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "L'appât, et le prendre quand même",
+      "text": "Un autre échiquier, et ici f7 est offert. Le fou noir en c5 vient d'être planté face à f2, la case de votre camp qui a le même gardien solitaire.\n\nLa plupart des sacrifices en f7 ne matent personne, et celui-ci ne le fera pas. Ce qu'une pièce achète ici est plus modeste et permanent. Le roi noir ne peut pas prendre en f7 tant que le cavalier en g5 couvre la case, alors il se décale en e7 ou f8 et renonce au roque pour le reste de la partie — garé devant sa propre tour en h8, avec le fou en c8 emmuré derrière lui."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "Deux façons d'entrer",
+      "text": "Deux de vos pièces peuvent atteindre f7, et elles achètent des choses différentes.\n\n{{Nxf7}} fait une fourchette sur la dame et la tour, le coup que la position précédente vous a appris à vouloir. C'est aussi le coup auquel invitait le dernier coup noir : {{Bxf2+}}, et c'est maintenant votre propre roi qui est en échec, avec trois coups légaux et un combat sauvage devant lui. C'est jouable, mais c'est le combat qu'ont choisi les Noirs.\n\n> Décidez de ce que vous achetez avant de dépenser la pièce : un mat, ou un roi qui ne pourra jamais partir."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "prompt": "Prenez le pion en f7 avec la pièce que les Noirs n'espèrent pas, et supprimez le roque noir pour de bon.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "La prise du cavalier est celle à laquelle les Noirs se sont préparés — regardez ce que fait votre autre attaquant en entrant."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "fork-10",
+  "fen": "8/2q1P1kp/p7/8/8/8/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "e8=N+"
+  ],
+  "rating": 1030,
+  "title": "A Dama Errada",
+  "setup": "O teu peão passa para a oitava linha nesta jogada, com o rei preto em g7 e a dama preta em c7.",
+  "hint": "Uma dama nova não muda nada aqui. Pergunta que peça daria xeque ao rei a partir da casa de promoção.",
+  "explanation": "## A Ideia\n\nUma dama em e8 não dá xeque nenhum, e as pretas seguem simplesmente em frente com a posição igual. {{e8=N+}} atinge g7 e c7 ao mesmo tempo, as pretas têm de responder ao xeque, e a dama cai na jogada seguinte. Promove àquilo de que a posição precisa, não ao que é maior."
+}

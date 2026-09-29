@@ -1,0 +1,56 @@
+{
+  "id": "interference",
+  "title": "Interferensi",
+  "summary": "Berdirilah menghalangi jalan pembela lawan sendiri",
+  "proof": "interference-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Berdiri di Ambang Pintu",
+      "text": "Pion Anda di b7 tinggal satu petak dari menteri. Benteng di h8 satu-satunya alasan ia masih menjadi pion.\n\nCobalah: {{b8=Q}} {{Rxb8}}. Benteng tak pernah perlu bergerak untuk menguasai b8 — lima petak baris yang kosong mengerjakannya, dan menteri baru hanya bertahan satu giliran.\n\nTak ada milik Anda yang menyerang benteng itu, dan tak ada yang mengusirnya dari baris kedelapan. Tetapi baris itu bukanlah bentengnya. Baris itu adalah jalan, dan jalan bisa ditutup."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Tembok yang Salah",
+      "text": "**Interferensi** adalah menempatkan sebuah buah di jalan yang sedang dipakai pembela. Jalannya di sini adalah baris kedelapan.\n\n{{Re8}} menutupnya, dan bahkan saat tembok itu dirobohkan — benteng mengambil benteng, gajah menangkap balik — jalannya tak terbuka kembali: pion tetap menjadi menteri. Tetapi versi itu memakai benteng untuk tugas yang bisa dikerjakan gajah. Bangun temboknya dengan gajah, dan benteng hitam yang merobohkannya membayar lima poin untuk tiga.\n\nKetika dua buah Anda bisa membangun tembok yang sama, kirim yang paling sanggup Anda relakan."
+    },
+    {
+      "type": "play",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Potong baris kedelapan dengan tembok termurah yang tak bisa disingkirkan Hitam dengan gratis.",
+      "targetSan": [
+        "Be8"
+      ],
+      "hint": "Carilah buah yang bisa mencapai baris itu di petak yang sudah dijaga benteng Anda."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Dibayar Dua Kali",
+      "text": "{{Be8}}. Gajah dilindungi benteng di e1, jadi menangkapnya memulai pertukaran, bukan mengakhiri ancaman: benteng Hitam menangkap, benteng Anda menangkap balik, dan sebuah benteng putih tertinggal berdiri di baris kedelapan.\n\nMengabaikan gajah pun tak lebih baik. {{Kg6}} {{b8=Q}}, dan benteng di h8 menyaksikan semuanya dari balik tembok yang tak bisa ia tembus.\n\nBagaimanapun juga, baris itu tetap tertutup tepat selama yang dibutuhkan pion.\n\n> Penjaga yang bekerja di sepanjang garis tidak menjaga sebuah petak. Ia menjaga sebuah jalan, dan jalan bisa ditutup."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Diserang Sekali, Dijaga Sekali",
+      "text": "Papan baru. Kuda di e5 diserang sekali dan dijaga sekali, yang biasanya sama dengan aman.\n\nGajah di b2 yang menyerang, di sepanjang diagonal panjang melewati c3 dan d4. Menteri di c7 yang menjaga, di sepanjang diagonal yang lebih pendek dengan tepat satu petak kosong di tengahnya.\n\n{{Bxe5}} {{Qxe5}}: gajah untuk kuda, pertukaran seimbang, dan menteri Hitam mendarat di petak yang lebih baik daripada yang ditinggalkannya. Kuda itu tidak gratis selama penjaganya menjangkaunya."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Tembok dengan Ancamannya Sendiri",
+      "text": "Tembok gajah tadi bertahan karena ada benteng di belakangnya. Ada cara kedua agar tembok tak bisa disingkirkan: ia datang membawa ancamannya sendiri.\n\nTembok yang menyerang sesuatu memaksa Hitam menjawabnya lebih dulu, sehingga tak tersisa langkah untuk kembali menjaga kuda. Tembok itu masih berdiri ketika Anda datang untuk mengambil.\n\nDi sini Anda bisa mendapatkan keduanya sekaligus. Salah satu pion Anda bisa mencapai petak kosong di diagonal menteri, pion yang lain melindunginya di sana, dan menteri berdiri dalam jangkauan apa pun yang mendarat."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "prompt": "Menangkan kuda dengan memutus garis yang menjaganya.",
+      "targetSan": [
+        "d6"
+      ],
+      "hint": "Penjaganya bergerak di sepanjang diagonal dengan satu petak kosong — tempati petak itu dengan sesuatu yang harus dijawab Hitam."
+    }
+  ]
+}

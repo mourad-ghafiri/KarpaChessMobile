@@ -1,0 +1,11 @@
+{
+  "id": "strategy-08",
+  "fen": "r1bqk2r/2p1bppp/p2p1n2/np2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w k - 1 9",
+  "solution": [
+    "Bc2"
+  ],
+  "title": "İkiliyi Satmayın",
+  "setup": "Siyahın atı, kendini açık kare filinize değişmek için a5'e sıçradı. Fil ikilisini koruyun.",
+  "hint": "a5'teki at bir soru sordu. Filinizi bu hamledeki değil, altı hamle sonraki değerine göre fiyatlayın.",
+  "explanation": "## Fikir\n\nİki fil tahtadaki her kareyi kapsar; tek fil yarısını kapsar. Güçlü oyuncular ikiliyi kabaca yarım piyon fiyatlar ve onu korumak için gerçek hamleler harcar.\n\n{{Bc2}} menzilin dışına çekilir ve iki fili de korur. Öteki geri çekilişler işe yaramaz: c4 hâlâ atın menzilindedir ve a4, b piyonuna askıda kalır. Siyah {{c5}} ile devam eder, beyaz da {{d4}} ile merkezi açar.\n\nYerinde durmak {{Nxb3}} hamlesine davetiye çıkarır; bu da tek hamlede siyaha ikiliyi verir, beyazın b piyonlarını ikiler ve a dikeyini açar."
+}

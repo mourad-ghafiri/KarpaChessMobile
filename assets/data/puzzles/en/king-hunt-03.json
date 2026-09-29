@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-03",
+  "fen": "1r3R2/3p1R2/4Q3/1k2B3/b7/8/3p4/5K2 w - - 0 1",
+  "solution": [
+    "Rxb8+",
+    "Kc5",
+    "Qd6+",
+    "Kc4",
+    "Qd4#"
+  ],
+  "rating": 1420,
+  "title": "Take the Rook, Keep the Check",
+  "setup": "Black's king has wandered to b5, its rook sits on b8 and a passed pawn is one square from queening on d2.",
+  "hint": "You have no time to stop the pawn. Find the capture that also opens a line at the king.",
+  "explanation": "## The Idea\n\n{{Rxb8+}} wins a rook with check, and from there {{Qd6+}} and {{Qd4#}} drive the king down the board. The d2 pawn never gets to move, which is the only defense against it that matters."
+}

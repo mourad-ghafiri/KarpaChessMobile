@@ -1,0 +1,12 @@
+{
+  "id": "smothered-04",
+  "fen": "2r3nk/pp4pp/1q6/4N3/8/8/PB3PPP/3R2K1 w - - 5 25",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1245,
+  "title": "Dua Sekak, Satu Mat",
+  "setup": "Hitam baru saja memundurkan kudanya ke g8, menyisakan tiga tetangga bagi raja dan tak ada petak kosong.",
+  "hint": "Kuda Anda punya dua sekak yang tersedia di sini; hitung mana yang tak bisa begitu saja dimakan pion h.",
+  "explanation": "## Ide\n\nDua lompatan kuda memberi sekak, tetapi {{Ng6+}} menabrak hxg6. {{Nf7#}} mendarat di satu-satunya petak yang tak dikuasai buah hitam mana pun, dan dengan g8, g7 dan h7 semuanya ditempati buahnya sendiri, raja tak punya tempat untuk melangkah. Selalu uji apakah sekak pengurung itu bisa ditangkap."
+}

@@ -1,0 +1,71 @@
+{
+  "id": "the-skewer",
+  "title": "L'Infilata",
+  "summary": "La geometria dell'inchiodatura con i valori rovesciati, e a pagare è il pezzo dietro",
+  "proof": "forks-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Valori Rovesciati",
+      "text": "Stessa colonna, stessa torre, stessi due pezzi neri dell'inchiodatura — e i valori sono al contrario.\n\nUn'inchiodatura attacca il pezzo davanti, ma il premio sta dietro: il pezzo più prezioso, spesso il re. È questo che tiene il pezzo davanti legato alla linea.\n\nL'infilata li scambia di posto. Il re in d3 sta davanti e la donna in d6 dietro. Attaccate lungo la colonna, il re si sposta, e non può portarsi dietro la donna.\n\nColpite prima il pezzo più grosso e raccogliete quello che stava proteggendo. Questa è un'**infilata**."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Gli Stessi Tre Pezzi",
+      "text": "Tre pezzi possono infilzare, e sono i tre che possono inchiodare: donna, torre, alfiere. Un'infilata è una linea, e solo quei tre attaccano lungo una linea.\n\nChe cosa può essere infilzato è una lista diversa. Vanno bene due pezzi avversari qualsiasi su una linea, purché quello più vicino valga di più — re davanti a una donna, donna davanti a una torre, torre davanti a un alfiere. Lo decide la scacchiera, non voi. Il vostro lavoro è trovare la linea e salirci sopra."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Due Scacchi",
+      "text": "Qui avete due scacchi, e uno solo dei due è un'infilata.\n\n{{Ra3+}} atterra sulla terza traversa e dà scacco al re di lato. E atterra anche su una casa che la donna raggiunge: {{Qxa3}}, e una torre se n'è andata per niente.\n\nNon è lo scacco a far funzionare un'infilata. È la linea. Quello che conta è su quale linea arriva lo scacco — quella dove stanno tutti e due i pezzi neri."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "prompt": "Attaccate il re nero lungo la colonna che condivide con la donna, così che debba muoversi.",
+      "targetSan": [
+        "Rd1+"
+      ],
+      "hint": "I due pezzi neri stanno tutti e due sulla colonna d, e ogni casa fra loro e la vostra prima traversa è vuota."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "Sei Case, Tutte Uguali",
+      "text": "Lo scacco ha lasciato al Nero sei mosse legali, e ognuna era una mossa di re: su una colonna vuota non si poteva parare niente, e niente arrivava alla torre. Il Nero ha scelto e3. Le altre cinque regalano la donna altrettanto a buon mercato.\n\nNotate quanto poco ha fatto la torre. Fino a questo momento non aveva attaccato la donna nemmeno una volta — ha attaccato il re, e il re si è tolto di mezzo da solo. La linea c'era già. Alla torre bastava salirci."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "Lo Scacco Non È Obbligatorio",
+      "text": "Un'infilata non ha bisogno di uno scacco. Puntate un alfiere su una donna con una torre dietro sulla stessa diagonale, da una casa dove niente può prendervi, e la torre cade lo stesso.\n\nQuello che lo scacco toglie sono le scelte. Senza scacco il vostro avversario può chiudere la linea fra i due, prendere il pezzo che infilza, oppure abbandonare il pezzo davanti e aprire una minaccia più grossa da un'altra parte. Contro uno scacco, niente di tutto questo è legale se non risponde anche allo scacco."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "prompt": "Prendete la donna davanti a cui stava il re.",
+      "targetSan": [
+        "Rxd6"
+      ],
+      "hint": "Contate i difensori di d6, poi contate le case vuote fra quella casa e la vostra torre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "title": "Una Linea È una Linea",
+      "text": "Scacchiera nuova, e la stessa forma girata di quarantacinque gradi.\n\nIl re nero in d4 e la torre in g7 stanno sulla grande diagonale che va da a1 a h8, con in mezzo soltanto e5 e f6. Il pezzo più grosso è quello più vicino. Il motivo è tutto qui: due pezzi avversari su una linea, quello prezioso davanti.\n\nIl vostro alfiere in c1 viaggia sulle diagonali. Trovate quella che conta.\n\n> Una linea, due pezzi, e quale tattica avete in mano dipende solo da quale dei due sta davanti."
+    },
+    {
+      "type": "play",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "prompt": "Portate l'alfiere sulla diagonale che i due pezzi neri condividono, con scacco.",
+      "targetSan": [
+        "Bb2+"
+      ],
+      "hint": "Il vostro alfiere ha sette case a disposizione; esattamente una di esse atterra sulla grande diagonale."
+    }
+  ]
+}

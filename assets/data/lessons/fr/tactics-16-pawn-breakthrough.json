@@ -1,0 +1,74 @@
+{
+  "id": "pawn-breakthrough",
+  "title": "La percée de pions",
+  "summary": "Donnez deux pions, faites dame avec le troisième",
+  "proof": "pawn-breakthrough-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Trois contre trois",
+      "text": "Six pions se tiennent sur deux rangs et aucun ne peut bouger sans être pris. Les Blancs ont a5, b5 et c5 ; les Noirs ont a7, b7 et c7. Les deux rois sont garés de l'autre côté de l'échiquier, trop lents pour compter.\n\nLe premier à atteindre la dernière rangée gagne la partie, et pour l'instant personne n'atteint rien. Chaque poussée tombe dans une prise, et les pions ne reculent jamais.\n\nLes Blancs ont le trait, et les Blancs gagnent."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Les pions ne tournent que pour prendre",
+      "text": "{{a6}} ressemble à un progrès jusqu'à ce que {{bxa6}} y réponde. Un pion donné pour rien, et les Noirs ont toujours trois pions contre deux.\n\nLa raison tient à la forme du déplacement. Un pion avance tout droit et prend en biais, donc rien de ce que vous faites devant un pion noir ne le fera jamais quitter sa colonne. Un gardien ne quitte la colonne qu'il garde qu'en prenant quelque chose sur la colonne voisine.\n\nVotre roi pourrait venir gagner cela lentement. Les pions peuvent régler l'affaire tout de suite, si vous placez quelque chose sur cette colonne et acceptez de le perdre."
+    },
+    {
+      "type": "play",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "prompt": "Offrez un pion au milieu de la rangée noire pour que chacune des deux prises tire un gardien de côté.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Une seule de vos trois poussées peut recevoir deux prises différentes, et chacune vide une colonne."
+    },
+    {
+      "type": "play",
+      "fen": "7k/1pp5/1p6/P1P5/8/8/8/6K1 w - - 0 3",
+      "prompt": "Sacrifiez un second pion pour arracher le dernier gardien de la colonne que veut votre pion a.",
+      "targetSan": [
+        "c6"
+      ],
+      "hint": "Le pion en b7 est la seule chose qui surveille la route de votre pion a : offrez-lui quelque chose sur la colonne voisine."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/2p5/1pp5/P7/8/8/8/6K1 w - - 0 4",
+      "title": "Deux pions pour une route",
+      "text": "Deux pions dépensés, et regardez ce qu'ils ont acheté. Les trois pions noirs restants sont entassés en b6, c6 et c7, et dès que votre pion atteint a6, aucun d'eux ne pourra plus jamais le toucher.\n\n{{a6}} {{c5}} {{a7}} {{c4}} {{a8=Q}}. Le pion noir le plus rapide est encore sur la quatrième rangée quand le vôtre arrive, et le roi noir en h8 n'a jamais pris part à la discussion.\n\nAucun des deux sacrifices ne cherchait à survivre. Chacun demandait à un pion noir de passer sur la colonne voisine, et un gardien qui change de colonne cesse de garder."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "title": "Un roi au bout de la diagonale",
+      "text": "Même idée, autre route, et celle-ci aboutit à un roi. Votre fou en b2 regarde le long de la grande diagonale, et le premier obstacle est le pion noir en g7.\n\n{{Bxg7}} ferait sauter le bouchon à la main, mais après {{Kxg7}} vous avez payé un fou pour un pion, et c'est le roi noir qui se tient sur la diagonale ouverte.\n\nMieux vaut que le pion parte de lui-même. Un pion ne quitte jamais sa colonne que pour prendre quelque chose."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "prompt": "Offrez un pion au pion de g7 pour que la prise qu'il veut faire soit justement celle qui ouvre votre diagonale.",
+      "targetSan": [
+        "f6"
+      ],
+      "hint": "Un pion ne quitte sa case que pour prendre : placez quelque chose sur une case qu'attaque le pion de g7."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2p1p/2np1p2/8/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 0 3",
+      "title": "Le bouchon a sauté",
+      "text": "Les Noirs ont pris, et le bouchon a sauté : g7 est vide et la grande diagonale file jusqu'au coin. Refuser n'aurait pas sauvé les Noirs non plus, car votre pion prend alors lui-même en g7.\n\n{{Bxf6}} reprend sur la grande diagonale, et depuis f6 le fou couvre les deux cases vides à côté du roi noir, g7 et h8. Les Noirs sont déjà perdus. {{Qd8}} est la réponse naturelle, qui attaque le fou, et elle mène droit à la fin.\n\n> Demandez-vous ce qu'un pion ouvrirait s'il était pris, pas s'il peut être pris sans danger."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp3p1p/2np1B2/8/4P3/1P3N2/P2Q2PP/R4RK1 w - - 1 4",
+      "prompt": "Mat en un — mettez le roi noir en échec le long de la colonne g pendant que votre fou couvre ses deux cases de fuite.",
+      "targetSan": [
+        "Qg5#"
+      ],
+      "hint": "Votre fou surveille déjà g7 et h8, donc le roi n'a nulle part où fuir et il vous suffit d'arriver avec échec."
+    }
+  ]
+}

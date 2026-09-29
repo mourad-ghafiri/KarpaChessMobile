@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-11",
+  "fen": "3r2k1/2q2ppp/8/8/8/8/3R1PPP/3Q2K1 w - - 0 1",
+  "solution": [
+    "Rxd8+",
+    "Qxd8",
+    "Qxd8#"
+  ],
+  "title": "Doblar decide",
+  "setup": "Tu torre y tu dama están dobladas en la columna d abierta. La torre negra protege la última fila, con su dama de c7 detrás.",
+  "hint": "Dos atacantes contra dos defensores en una casilla. Cambia las piezas de delante y mira cuál queda en pie.",
+  "explanation": "## La idea\n\nDoblar en una columna abierta es aritmética. Dos piezas blancas golpean d8, y dos piezas negras la protegen.\n\n{{Rxd8+}} empieza la cuenta con jaque, y {{Qxd8}} es la única respuesta legal. Luego {{Qxd8#}} recaptura con mate: f8 y h8 están en la fila de la dama, y en f7, g7 y h7 están los peones negros.\n\nCuando las cuentas están igualadas, el bando que captura primero se queda con la última pieza en la casilla."
+}

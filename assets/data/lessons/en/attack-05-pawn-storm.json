@@ -1,0 +1,56 @@
+{
+  "id": "pawn-storm",
+  "title": "The Pawn Storm",
+  "summary": "March the pawns guarding your own king at theirs",
+  "proof": "pawn-storm-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "The Middle Is Nailed Shut",
+      "text": "Both kings sit on the same wing, and Black is about to push the pawns in front of the black king straight at White.\n\nNormally that is how a game is lost. Not here, and the reason sits in the middle of the board: the white pawn on d5 is jammed against d6 and the black pawn on e5 against e4. Nothing is left to trade, and no file there can be opened by either side.\n\nA march down the wing costs five or six moves. The one thing that punishes slow play is a fast strike through the center, and the center has been taken away."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "title": "Which Way Your Pawns Lean",
+      "text": "So Black marches. Rolling the pawns from in front of your own king down the board at the enemy king is a **pawn storm**, and it belongs to the side whose pawns already point at the enemy king.\n\nBlack's pawns lean toward White's king. White's lean toward the queenside, which is where White will be pushing instead.\n\nOne detail decides where Black starts. White's pawn on e4 is what a black pawn can reach out and hit on this wing, and trading it off is how the f-file comes open for the rook on f8."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 b - - 0 10",
+      "prompt": "Attack White's pawn on e4 with a pawn of your own and start prying the f-file open.",
+      "targetSan": [
+        "f5"
+      ],
+      "hint": "Only one of the three pawns standing around your king can land on a square that attacks e4."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 w - - 0 11",
+      "title": "One Pawn Is Not a Storm",
+      "text": "A single pawn out in front does nothing. The storm is what comes behind it.\n\n{{Be3}} brings a white bishop toward the fight, {{f4}} shoves it away before it can settle, {{Bf2}} is where it goes, and {{g5}} brings the second black pawn up beside the first.\n\nFour black moves, and not one of them moved a piece. That is the bargain a storm makes: pawns buy lines with time, and a locked center is what makes the time affordable."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "The Same Push, One Move Too Early",
+      "text": "A different game, and White has just spent two moves shoving wing pawns, which now stand on g4 and h3.\n\nThe center here is not shut. Black's pawn on e5 and White's pawn on e4 never meet, a lone pawn on d3 holds the middle for White, and one pawn push by Black turns all of it into open lines.\n\nThat is the whole difference between the two boards. The pawn moves are the same pawn moves. What lies underneath them is not."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "title": "What White Comes Home To",
+      "text": "Those two pushes brought no piece into the game. Each one is a free tempo handed to Black, and a wing attack is answered in the center, because the center opens faster than a wing can arrive.\n\nThen count White's shelter. g2 is empty and stays empty, since pawns do not walk backward. The pawn on h3 is something to aim at rather than something to hide behind, and Black's bishop on c8 already looks down the diagonal that ends on it.\n\n> A pawn storm is an attack while the center is shut. Otherwise it is a hole dug beside your own king."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/2B1P1P1/2PP1N1P/PP3P2/RNBQ1RK1 b - g3 0 8",
+      "prompt": "Punish two wasted wing moves by opening the center before White brings another piece out.",
+      "targetSan": [
+        "d5"
+      ],
+      "hint": "White's pawn on e4 has one defender, the pawn on d3, and one attacker, your knight on f6 — send a pawn to make it two."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "thinking-process",
+  "title": "Antes de Jogares",
+  "summary": "Três perguntas, feitas por ordem, que apanham a jogada de que te ias arrepender",
+  "proof": "thinking-process-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "Três Perguntas",
+      "text": "A maior parte das partidas não se perde contra um adversário esperto. Perde-se com uma jogada feita antes de alguém ter olhado.\n\nTrês perguntas travam isso, e são sempre as mesmas três:\n\n1. O que é que o meu adversário está a **ameaçar** — qual é a jogada que quer fazer a seguir?\n2. Quais são os meus xeques e as minhas capturas?\n3. O que acontece depois da minha jogada?\n\nDez segundos, por essa ordem, a cada jogada. As duas primeiras perguntas encontram jogadas. A terceira deita fora as más."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "title": "O Que Acabou de Mudar",
+      "text": "O cavalo preto em f6 não ataca nada. A pergunta um continua a ter resposta.\n\nEsse cavalo cobre e4 e d5, as duas casas centrais que as brancas mais querem para os seus peões. Joga {{e4}} sem perguntar e {{Nxe4}} leva-o — nada de branco defende essa casa, e nada recaptura.\n\nPortanto a pergunta um não é só «o que é que está atacado». É: o que é que aquela jogada pode fazer agora que não podia há um instante? Às vezes a resposta é uma ameaça. Outras vezes é uma casa que perdeste sem dar por isso."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "O Peão Grátis",
+      "text": "Uma partida nova, com três jogadas. O cavalo preto de d4 saltou para a metade branca do tabuleiro e deixou o peão de e5 sem guarda nenhuma.\n\nA pergunta dois pergunta o que podes capturar. O tabuleiro responde num segundo: {{Nxe5}}, um peão de graça.\n\nParece a jogada certa. A pergunta dois não te pode dizer se é, porque a pergunta dois nunca pergunta o que as pretas fazem a seguir."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4N3/2BnP3/8/PPPP1PPP/RNBQK2R b KQkq - 0 4",
+      "prompt": "Joga a resposta das pretas: encontra a jogada de dama que ataca ao mesmo tempo o cavalo guloso e um peão sem defesa.",
+      "targetSan": [
+        "Qg5"
+      ],
+      "hint": "O cavalo que acabou de capturar não está defendido por nada, e o peão de g2 também não — uma casa vê os dois."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "A Pergunta Três",
+      "text": "Recua até ao tabuleiro que as brancas estavam a ver. Aquela jogada de dama era encontrável a partir daqui, uma jogada mais cedo, por quem estava prestes a capturar.\n\nDepois de {{Nxe5}} {{Qg5}}, o cavalo e o peão de g2 ficam os dois atacados, e mesmo a melhor resposta das brancas dali deixa às pretas a melhor partida. O peão grátis era isco.\n\nÉ essa a pergunta três. Não «a minha jogada é segura», mas: já sei o que o meu adversário faz na jogada a seguir a ela?\n\n> Ninguém perde com a jogada para que olhou. Perde-se com a resposta para que não olhou."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "title": "Jogadas Candidatas",
+      "text": "Portanto a abocanhadela custa mais do que rende, e só a pergunta três conseguia ver isso. A correção começa antes de escolheres.\n\nAs jogadas que a pergunta dois te entrega são as tuas **jogadas candidatas**: uma lista, não uma resposta. As brancas têm aqui três capturas, mais jogadas tranquilas como {{c3}}, que ataca o cavalo de d4 e recebe como resposta uma troca em f3.\n\nEscolhe duas ou três. Passa a pergunta três por cada uma. Joga aquela cuja resposta consegues mesmo ver."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "prompt": "Come o cavalo que saltou para a tua metade do tabuleiro e deixa a posição sem nada por resolver.",
+      "targetSan": [
+        "Nxd4"
+      ],
+      "hint": "Uma captura entra na jogada de dama que acabaste de encontrar, outra atira um bispo contra um peão defendido, e a terceira é uma troca equilibrada."
+    }
+  ]
+}

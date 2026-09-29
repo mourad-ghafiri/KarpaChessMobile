@@ -1,0 +1,14 @@
+{
+  "id": "fork-06",
+  "fen": "4r2k/pp4p1/5p2/2n5/8/5Q2/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "Qh5+",
+    "Kg8",
+    "Qxe8+"
+  ],
+  "rating": 880,
+  "title": "Dikey ve Çapraz",
+  "setup": "Siyahın şahının önündeki h dikeyi açık duruyor ve kalesi az önce e8'e adımladı.",
+  "hint": "Veziriniz, bir dikeyin ve bir çaprazın ayrı ayrı birer siyah taşta bittiği tek kareyi istiyor.",
+  "explanation": "## Fikir\n\n{{Qh5+}} açık h dikeyinden şah çeker ve öteki hatta g6 ile f7'nin içinden dosdoğru kaleye bakar. g7'deki piyon siyaha yalnızca {{Kg8}} bırakır ve {{Qxe8+}} kaleyi şah çekerek alır. Vezirin çatallamasının sebebi, aynı anda hem kale hem fil olmasıdır."
+}

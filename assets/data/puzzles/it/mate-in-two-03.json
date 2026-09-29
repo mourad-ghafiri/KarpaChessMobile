@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-03",
+  "fen": "7k/5ppp/8/1Pq1R3/N7/8/5PPP/6K1 w - - 0 1",
+  "solution": [
+    "Re8+",
+    "Qf8",
+    "Rxf8#"
+  ],
+  "rating": 1000,
+  "title": "Deviate Chi Para",
+  "setup": "Il re nero si nasconde dietro tre pedoni sull'ottava traversa mentre la sua donna vaga lontano in c5.",
+  "hint": "Uno scacco sulla traversa di fondo a cui il re non ha risposta. Quale singolo pezzo nero può mettersi in mezzo, e dove?",
+  "explanation": "## L'idea\n\n{{Re8+}} colpisce la traversa di fondo. Il re non ha proprio nessuna casa — f7, g7 e h7 sono i suoi pedoni — quindi deve interporsi la donna con {{Qf8}}. È tutto qui il punto: {{Rxf8#}} toglie chi para e dà matto sulla stessa casa."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "decoy-06",
+  "fen": "5rk1/pp3ppp/8/2Q5/7B/7q/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rd8#"
+  ],
+  "rating": 1350,
+  "title": "Una Donna per l'Angolo",
+  "setup": "Il vostro alfiere in h4 rastrella e7, e il re nero è chiuso dai propri pedoni in f7 e g7.",
+  "hint": "Al matto serve il re in f8, non in g8. Qual è il prezzo per metterlo lì, e vale la pena pagarlo?",
+  "explanation": "## L'idea\n\n{{Qxf8+}} forza {{Kxf8}} — nient'altro può prendere. In f8 il re ha e7 coperta dall'alfiere e f7 e g7 bloccate dai propri pedoni, quindi {{Rd8#}} è matto. Una donna è economica quando l'alternativa è niente."
+}

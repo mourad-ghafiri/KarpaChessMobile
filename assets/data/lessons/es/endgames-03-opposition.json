@@ -1,0 +1,65 @@
+{
+  "id": "opposition",
+  "title": "La oposición",
+  "summary": "Dos reyes, un tiempo, y quién tiene que ceder",
+  "proof": "endgame-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "Los reyes no se tocan",
+      "text": "Ningún rey puede ponerse nunca en una casilla junto a otro rey, lo que significa que nunca pueden intercambiar golpes. Solo pueden estorbarse.\n\nTu rey en e4, el rey negro en e7, dos casillas vacías entre ellos. Sube recto por la columna y las Negras pueden bajar recto por ella, y en algún punto del medio los dos se quedan sin camino.\n\nQuién gana esa discusión lo decide la única regla que nadie puede esquivar: en tu turno, tienes que mover. Eso es el zugzwang, y con reyes solos sobre el tablero es la única arma de cada bando."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "title": "El pulso tiene nombre",
+      "text": "Pon los reyes con una sola casilla vacía entre ellos en la misma columna y la posición se bloquea. Ningún rey puede entrar en la casilla del medio, porque toca a los dos. Ninguno puede rodear por el lado sin meterse en el alcance del otro.\n\nEse bloqueo es la **oposición**. La tiene el jugador que no tiene que mover, porque el que mueve tiene que romperlo, apartarse y dejar pasar al otro rey.\n\nAsí que cuenta la separación. Una casilla vacía con tu rival al turno, y el terreno de delante es tuyo. Ahora mismo la separación es de dos, y el turno es tuyo."
+    },
+    {
+      "type": "play",
+      "fen": "8/4k3/8/8/4K3/8/8/8 w - - 4 3",
+      "prompt": "Cierra la separación para que quede una sola casilla vacía entre los reyes y les toque mover a las Negras.",
+      "targetSan": [
+        "Ke5"
+      ],
+      "hint": "Cuenta la separación antes y después de tu jugada: quieres dejarla en una, con el turno ya pasado."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4k3/8/4K3/8/8/8/8 b - - 5 3",
+      "title": "Las Negras ceden, tú las sigues",
+      "text": "Una casilla vacía entre los reyes, y las Negras tienen que mover. Cada casilla legal cede terreno: de lado o hacia atrás, nada más.\n\nPor ejemplo {{Kd7}}. Las Negras mantienen la distancia pero se han desviado una columna hacia el flanco de dama, así que tú vas con ellas. {{Kd5}}, y el bloqueo vuelve, una columna más allá, con las Negras de nuevo al turno.\n\nNo se capturó nada ni se amenazó nada. Las Negras simplemente eligieron una dirección, tú la copiaste, y todo el tablero se acercó un paso adonde ibas."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "title": "Un peón sin adónde ir",
+      "text": "Nuevo tablero, y un peón cambia el motivo de la discusión entre los reyes. Tu rey en e6, tu peón en e5, el rey negro en e8, de nuevo bloqueados a una casilla.\n\nEsta vez mueves tú, así que la oposición es de las Negras. Cuenta tus jugadas legales: son cuatro, todas de rey. El peón no puede avanzar en absoluto: tu propio rey está en la casilla de delante.\n\nLas Negras mantienen la puerta cerrada y tu peón está atascado detrás de ti. Algo tiene que ceder, y no va a ser el peón."
+    },
+    {
+      "type": "play",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "prompt": "Apártate hacia el flanco de dama sin abandonar la fila que tu rey ya ha alcanzado.",
+      "targetSan": [
+        "Kd6"
+      ],
+      "hint": "Retroceder una fila tira todo lo que el rey ha subido, así que cede la columna en su lugar."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "title": "El mismo bloqueo, otra columna",
+      "text": "Las Negras imitaron el paso y los reyes vuelven a estar bloqueados, a una casilla, contigo todavía al turno. Parece que no se ha ganado nada.\n\nMira la columna e. Tu rey ha salido de la casilla delante del peón, y el rey negro está a una columna del camino del peón. Tres casillas libres, y un rey blanco ya plantado en la sexta fila junto a ellas.\n\n> La oposición nunca es el objetivo. Compra exactamente una jugada, y esa jugada tiene que valer algo."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3K4/4P3/8/8/8/8 w - - 2 2",
+      "prompt": "Pon en marcha el peón ahora que tu rey ya no está aparcado en su camino.",
+      "targetSan": [
+        "e6"
+      ],
+      "hint": "Desde aquí nada mejora en los reyes; el progreso que queda en este tablero está todo en la columna e."
+    }
+  ]
+}

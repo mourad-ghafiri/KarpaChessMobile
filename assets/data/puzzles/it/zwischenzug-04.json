@@ -1,0 +1,14 @@
+{
+  "id": "zwischenzug-04",
+  "fen": "3B2k1/3Q1ppp/4r3/8/2b5/4R3/PP1r4/K7 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "rating": 1420,
+  "title": "La Vostra Torre Può Aspettare",
+  "setup": "La torre nera è atterrata in d2, in fondo al vostro campo, e la sua altra torre sta in e6 — c'è parecchio di cui preoccuparsi.",
+  "hint": "Vi si sta chiedendo di difendere. Date prima scacco, e guardate se la difesa diventi mai necessaria.",
+  "explanation": "## L'idea\n\n{{Qe8+}} ignora completamente la torre in d2. {{Rxe8}} è forzata, la colonna e viene consegnata, e {{Rxe8#}} arriva. Uno scacco intermedio non costa niente quando la partita finisce prima che la minaccia atterri."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "openings-02",
+  "fen": "r1bqk2r/pppp1ppp/1bn5/4P3/2B1n3/2P2N2/PP3PPP/RNBQK2R w KQk - 0 7",
+  "solution": [
+    "Qd5"
+  ],
+  "title": "Il Centro Italiano Morde",
+  "setup": "Il Bianco ha preparato d4 con c3 e ha spinto, e il Nero ha appena arraffato un pedone al centro con un cavallo.",
+  "hint": "Una casa attacca il cavallo indifeso e il punto del campo nero che difende solo il re. Cercate la sovrapposizione.",
+  "explanation": "## L'idea\n\nÈ a questo che serve la costruzione con c3 e d4: appena il centro si apre, i pezzi neri non hanno un posto sicuro dove stare.\n\n{{Qd5}} è un doppio attacco. La donna colpisce il cavallo in e4, e giù per l'altra diagonale colpisce f7, dove l'alfiere di c4 aspetta già: {{Qxf7#}} sarebbe matto. Il Nero deve prima rispondere a quello, e il cavallo cade.\n\nNessuna mossa di cavallo lo salva tenendo insieme f7: in d6 cade contro il pedone e5, in g5 contro il cavallo di f3."
+}

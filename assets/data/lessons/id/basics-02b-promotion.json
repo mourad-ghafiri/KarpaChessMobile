@@ -1,0 +1,56 @@
+{
+  "id": "promotion",
+  "title": "Tak Ada yang Tetap Menjadi Pion",
+  "summary": "Capai baris terjauh dan pion itu lenyap — Anda yang menentukan apa yang berdiri di sana",
+  "proof": "first-steps-19.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Tak Ada Pion yang Berdiri di Sana",
+      "text": "Tak ada yang namanya pion di baris kedelapan. Pion putih yang mencapainya — atau pion hitam yang mencapai baris pertama — tak bisa tetap seperti semula.\n\nMaka aturan menggantinya. Di petak tempat ia mendarat, pada langkah yang sama, pion meninggalkan papan dan sebuah **menteri, benteng, gajah atau kuda** menggantikan tempatnya. Itulah **promosi**, dan itu wajib. Pion di e7 tinggal satu petak lagi dan tak punya cara untuk tetap menjadi pion.\n\nDua buah tak pernah ada dalam daftar: raja, dan pion lain."
+    },
+    {
+      "type": "teach",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Sebutkan Jadi Apa",
+      "text": "Langkah promosi ditulis seperti langkah lainnya — petak tempat pion tiba — lalu satu hal lagi.\n\n{{e8=Q}}. Sebuah tanda `=`, dan huruf buah yang Anda inginkan berdiri di sana. Ganti hurufnya dan Anda mengganti apa yang muncul: `R`, `B` atau `N` sebagai gantinya.\n\nIni bukan catatan kaki. Langkah yang mencapai baris terakhir tanpa menyebut sebuah buah bukanlah langkah yang selesai."
+    },
+    {
+      "type": "play",
+      "fen": "8/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "prompt": "Kirim pion ke baris terakhir dan bawa kembali buah yang bernilai sembilan poin.",
+      "targetSan": [
+        "e8=Q"
+      ],
+      "hint": "Langkahnya baru selesai setelah Anda menyebut apa yang berdiri di petak itu."
+    },
+    {
+      "type": "teach",
+      "fen": "4Q3/8/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Sembilan Poin dari Ketiadaan",
+      "text": "Satu poin berangkat; sembilan poin tiba. Menteri di e8 adalah menteri seperti yang lain, menyapu baris, lajur dan diagonal sejak saat ia mendarat: {{Qa4}}, {{Qh5}}.\n\nTak ada yang ditukar untuknya. Anda tidak sedang menebusnya dengan sesuatu yang ditangkap lawan, dan tak ada bedanya apakah menteri pertama Anda masih di papan. Dua menteri itu sah. Tiga pun sah.\n\n> Pion di baris ketujuh tidak bernilai satu poin. Nilainya adalah apa pun yang sebentar lagi akan menjadi dirinya."
+    },
+    {
+      "type": "teach",
+      "fen": "5r2/4P3/8/8/8/8/8/4K3 w - - 0 1",
+      "title": "Menangkap Sambil Masuk",
+      "text": "Promosi bukan hanya untuk pion yang berjalan. Pion menangkap seperti biasanya, satu petak diagonal ke depan, dan baris terakhir tak mengubah apa pun tentang itu.\n\nDi sini hal itu penting. Benteng hitam di f8 juga menguasai e8, jadi melangkah lurus ke depan menyerahkan menteri baru sebelum ia sempat berbuat apa-apa.\n\n{{exf8=Q}} menyelesaikan kedua tugas dalam satu langkah: benteng keluar, dan menteri berdiri di f8. Tanda `x` dan `=` berarti seperti biasanya."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "title": "Ketika Menteri Kalah",
+      "text": "Menteri hampir selalu jawaban yang benar. Di sini ia membuat Anda dimat.\n\n{{e8=Q}} {{Qc1+}} {{Qe1}} {{Qxe1#}}. Sembilan poin baru, dan Hitam tak pernah melirik ke sana: menteri di c7 memberi sekak di sepanjang baris pertama, menteri baru Anda hanya bisa menghalangi, dan raja Anda, terkurung oleh pionnya sendiri, tak punya tempat untuk pergi.\n\nMenteri di e8 tak menyentuh raja hitam di g7 maupun menteri di c7. Promosikan menjadi kuda dan ia menyerang keduanya. Memilih apa pun selain menteri disebut **promosi minor**, dan inilah alasan sehari-harinya."
+    },
+    {
+      "type": "play",
+      "fen": "8/2q1P1k1/8/8/8/8/6PP/7K w - - 0 1",
+      "prompt": "Promosikan menjadi buah yang memberi sekak kepada raja hitam dan menyerang menteri pada langkah yang sama.",
+      "targetSan": [
+        "e8=N+"
+      ],
+      "hint": "Periksa keempat pilihan satu per satu dan tanyakan apa yang akan diserangnya dari e8."
+    }
+  ]
+}

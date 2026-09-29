@@ -1,0 +1,14 @@
+{
+  "id": "defence-09",
+  "fen": "1Q6/2K5/5r2/7R/3q4/5b2/k7/8 w - - 0 1",
+  "solution": [
+    "Ra5+",
+    "Qa4",
+    "Rxa4#"
+  ],
+  "rating": 1770,
+  "title": "Mueve la torre de lado",
+  "setup": "La dama, la torre y el alfil negros apuntan a tu rey de c7, y su propio rey está escondido en a2.",
+  "hint": "Tu torre está en la columna equivocada pero en la fila correcta. Encuentra la casilla donde la única forma de tapar cuesta una dama.",
+  "explanation": "## La idea\n\n{{Ra5+}} llega por la quinta. {{Qa4}} es la única forma de tapar, y {{Rxa4#}} es mate. La torre nunca avanzó: se movió de lado, que es la dirección a la que el rey de la columna a no podía responder."
+}

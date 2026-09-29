@@ -1,0 +1,14 @@
+{
+  "id": "deflection-01",
+  "fen": "2r3k1/pq3ppp/8/8/1n6/7P/PP1B1PP1/2RQ2K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Bxb4"
+  ],
+  "rating": 1100,
+  "title": "The Queen Has Two Jobs",
+  "setup": "Black's queen on b7 is defending the rook on c8 and the knight on b4 at the same time.",
+  "hint": "One black piece is doing two jobs. Give it something it cannot refuse and see which job it drops.",
+  "explanation": "## The Idea\n\n{{Rxc8+}} is check, so {{Qxc8}} is forced — and the queen leaves the b-file. {{Bxb4}} then wins the knight. Rook traded for rook first, so pulling the defender away costs nothing. Look for a piece with two duties before you look for a combination."
+}

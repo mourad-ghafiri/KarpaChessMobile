@@ -1,0 +1,56 @@
+{
+  "id": "interference",
+  "title": "Araya Girme",
+  "summary": "Rakibin kendi koruyucusunun yoluna dikilin",
+  "proof": "interference-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Kapının Önünde Durmak",
+      "text": "b7'deki piyonunuz vezire bir kare uzaklıkta. Onun hâlâ piyon olmasının tek sebebi h8'deki kale.\n\nDeneyin: {{b8=Q}} {{Rxb8}}. Kalenin b8'i kapsamak için hiç oynaması gerekmedi — işi boş yatayın beş karesi gördü ve yeni vezir bir hamle yaşadı.\n\nSizin hiçbir taşınız o kaleye saldırmıyor ve hiçbir şey onu sekizinci yataydan kovmuyor. Ama yatay, kale değildir. Yatay bir yoldur ve yollar kapatılabilir."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Yanlış Duvar",
+      "text": "**Araya girme**, bir koruyucunun kullandığı yola bir taş koymaktır. Buradaki yol sekizinci yatay.\n\n{{Re8}} onu kapatır ve yıkılması bile — kale kaleyi alır, fil geri alır — yolu yeniden açmaz: piyon yine vezir olur. Ama o sürüm, bir filin görebileceği işe bir kale harcar. Duvarı filinizle örün; onu yıkan siyah kale, üç puan için beş puan ödesin.\n\nİki taşınız aynı duvarı örebiliyorsa, kaybetmeyi en çok göze alabileceğinizi gönderin."
+    },
+    {
+      "type": "play",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Sekizinci yatayı, siyahın bedavaya kaldıramayacağı en ucuz duvarla kesin.",
+      "targetSan": [
+        "Be8"
+      ],
+      "hint": "O yataya, kalenizin zaten koruduğu bir karede ulaşabilen taşı arayın."
+    },
+    {
+      "type": "teach",
+      "fen": "7r/pP3ppk/2B5/8/8/8/5PPP/4R1K1 w - - 1 2",
+      "title": "İki Kez Ödenmiş",
+      "text": "{{Be8}}. Fili e1'deki kale koruyor, yani onu almak bir tehdidi bitirmek yerine bir değişim başlatır: siyahın kalesi alır, sizin kaleniz geri alır ve sekizinci yatayda ayakta bir beyaz kale kalır.\n\nFili görmezden gelmek de daha iyi değil. {{Kg6}} {{b8=Q}} gelir ve h8'deki kale bütün olan biteni, içinden göremediği bir duvarın arkasından izlemiş olur.\n\nHer hâlükârda yatay, piyonun ihtiyacı olduğu kadar kapalı kalır.\n\n> Bir hat boyunca çalışan koruyucu bir kareyi korumuyordur. Bir yolu koruyordur ve yol kapatılabilir."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Bir Kez Saldırılıyor, Bir Kez Korunuyor",
+      "text": "Yeni bir tahta. e5'teki ata bir kez saldırılıyor ve bir kez korunuyor; bu çoğu gün güvende olmakla aynı şeydir.\n\nSaldırma işini b2'deki fil yapıyor; c3 ile d4 üzerinden geçen uzun çapraz boyunca. Koruma işini c7'deki vezir yapıyor; tam ortasında bir tek boş kare olan daha kısa bir çapraz boyunca.\n\n{{Bxe5}} {{Qxe5}}: ata karşı fil, eşit değişim, ve siyahın veziri ayrıldığı kareden daha iyi bir kareye iner. O koruyucu ona ulaştığı sürece at bedava değildir."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "title": "Kendi Tehdidini Taşıyan Duvar",
+      "text": "Fil duvarı tuttu, çünkü arkasında bir kale duruyordu. Bir duvarın yapışık kalmasının ikinci bir yolu daha var: gelirken kendi tehdidini de getirmesi.\n\nBir şeye saldıran duvar, siyahı onunla ilgilenmeye zorlar; böylece atı yeniden korumaya harcanacak hamle kalmaz. Toplamaya geldiğinizde duvar hâlâ ayaktadır.\n\nBurada ikisine birden sahip olabilirsiniz. Piyonlarınızdan biri vezirin çaprazındaki boş kareye ulaşabiliyor, öteki piyon orada onu koruyor ve vezir, oraya inecek şeyin menzilinde duruyor."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/ppq2ppp/8/2PPn3/1P6/8/PBQ2PPP/R4R1K w - - 0 1",
+      "prompt": "Atı koruyan hattı kapatarak onu kazanın.",
+      "targetSan": [
+        "d6"
+      ],
+      "hint": "Koruyucu, üzerinde bir boş kare olan bir çapraz boyunca gidiyor — o kareyi, siyahın cevap vermek zorunda olduğu bir şeyle işgal edin."
+    }
+  ]
+}

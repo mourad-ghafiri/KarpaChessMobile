@@ -1,0 +1,15 @@
+{
+  "id": "openings-18",
+  "fen": "rnbqkb1r/p1p2ppp/4pn2/1p6/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq b6 0 6",
+  "solution": [
+    "a4",
+    "c6",
+    "axb5",
+    "cxb5",
+    "Ne5"
+  ],
+  "title": "Não o Consegues Guardar",
+  "setup": "As pretas comeram o peão da catalã e acabaram de o escorar com ...b5. Bate nessa cadeia de peões antes que ela assente.",
+  "hint": "As pretas seguram o peão a mais com uma cadeia. Pergunta qual dos teus peões chega à base dela, e o que se abre atrás.",
+  "explanation": "## A Ideia\n\nA catalã empresta um peão. Ficar com ele custa às pretas a ala da dama.\n\n{{a4}} bate na cadeia pela base. Se as pretas a escorarem com {{c6}}, então {{axb5}} {{cxb5}} tira o peão c da grande diagonal, e {{Ne5}} desimpede o resto dela: o bispo de g2 olha a direito para a torre de a8, e o cavalo fica de olho em c4.\n\nAs pretas têm de cobrir a8, normalmente com {{Nd5}}, e b5 fica sem defensor.\n\nUm peão que tens de defender com mais peões é um peão que estás a pagar."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "rook-pawn-vs-rook",
+  "title": "Benteng dan Pion Melawan Benteng",
+  "summary": "Dua langkah benteng yang menentukan seluruh akhir permainan",
+  "proof": "endgame-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "Dua Lajur Jaraknya",
+      "text": "Pion di e4 tak memenangkan ini sendirian. Pion yang dikawal yang menang, dan pengawalan adalah seluruh pokok bahasan akhir permainan benteng.\n\nLihat jaraknya. Raja Hitam di c7 berjarak dua lajur dari jalan pion Anda, dan ia sedang berjalan ke arahnya. Benteng Anda di a1 belum pernah diminta menghentikan apa pun di sini — dan hanya dialah buah yang bisa.\n\nRaja yang berhasil berdiri di depan pion menghentikannya. Raja yang terkunci di luar hanya bisa menonton."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "title": "Tembok dari Satu Benteng",
+      "text": "Benteng di lajur terbuka melakukan lebih dari sekadar menyerang di sepanjangnya. Raja lawan tak boleh melangkah ke petak mana pun yang dikuasai benteng, jadi lajur itu menjadi tembok: satu langkah untuk membangunnya, dan ia berdiri selama benteng tetap di sana.\n\nItulah **pemotongan**. Raja lawan terkurung di satu sisi garis, dan semua yang ada di sisi lain boleh Anda pakai.\n\nRaja Hitam di c7 belum menyeberang. Pilih garis yang harus ia seberangi."
+    },
+    {
+      "type": "play",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/R7 w - - 0 1",
+      "prompt": "Kurung raja Hitam di luar separuh papan milik pion sebelum Anda mendorong apa pun.",
+      "targetSan": [
+        "Rd1"
+      ],
+      "hint": "Hitung lajur di antara raja Hitam dan pion, lalu rebut lajur yang harus diseberangi raja itu lebih dulu."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/8/8/1r2P3/5K2/8/3R4 b - - 1 1",
+      "title": "Berputar-putar",
+      "text": "Temboknya sudah berdiri. Sekarang lihat apa yang bisa dilakukan raja Hitam terhadap pion itu.\n\n{{Kc6}} {{Kf4}} {{Kc5}} {{Kf5}}\n\nEmpat langkah. Raja Hitam telah berjalan turun di lajur c dan tetap tak bisa menginjak lajur d, karena setiap petaknya milik benteng di d1. Sementara itu raja Putih telah berjalan naik ke samping pionnya, dan itulah arti pengawalan."
+    },
+    {
+      "type": "teach",
+      "fen": "8/2k5/4P1K1/8/3R4/8/8/5r2 b - - 0 8",
+      "title": "Akhir Permainan Mana yang Anda Dapat",
+      "text": "Beberapa langkah kemudian, pion berdiri di e6 dengan rajanya di samping di g6, dan benteng masih menguasai lajur d. Raja Hitam di c7 berjarak dua lajur dari jalan pion dan tak akan diizinkan masuk ke sana. Penolakan itulah yang memilih akhir permainannya.\n\nBiarkan raja yang bertahan mencapai petak di depan pion dan Hitam remis — Philidor, empat pelajaran lalu, tak meminta lebih dari raja itu dan benteng di baris keenam.\n\nTolak itu, majukan raja Anda sendiri sampai berdiri di petak promosi, dan Anda sedang mengarah ke Lucena."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Bertukar Kursi",
+      "text": "Kini Anda bermain sebagai Hitam, dan sebuah baris dipakai untuk melawan Anda seperti Anda tadi memakai sebuah lajur. Benteng di b7 menguasai baris ketujuh, jadi raja Hitam di g8 tertahan di baris belakang.\n\nPion Putih di e5 adalah pion bebas dengan raja di d5 yang berjalan di sampingnya, dan raja yang seharusnya menghentikannya terjebak di tepi papan.\n\nJadi benteng hitam di h1 memikul pertahanan, dan ke mana ia pergi adalah seluruh pertanyaannya."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "title": "Depan, Samping, Belakang",
+      "text": "Benteng yang menghadapi pion bebas punya tiga jenis petak, dan nilainya tidak menua dengan cara yang sama.\n\nDi depan pion, benteng adalah blokade yang menyusut: setiap dorongan merebut satu petak lagi, dan di baris kedelapan ia berdiri di sana tanpa berbuat apa-apa. Di sampingnya, di sebuah baris, benteng menyerang pion sekali dan tak mendapat apa-apa ketika pion bergerak.\n\nDi belakangnya, serangannya terus diperbarui. Pion melangkah dan benteng yang sama masih menatapnya di sepanjang lajur, sementara apa pun yang menjaga pion makin jauh dari rumah.\n\n> Nilailah sebuah petak dari harganya sesudah pion bergerak, bukan sebelumnya."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/1R6/8/3KP3/8/8/8/7r b - - 10 8",
+      "prompt": "Rebut satu-satunya petak yang nilainya bertambah setiap kali pion Putih maju.",
+      "targetSan": [
+        "Re1"
+      ],
+      "hint": "Jalankan pion dari e5 sampai baris terakhir di kepala Anda, dan tanyakan pos mana yang terus menyerangnya sepanjang jalan."
+    }
+  ]
+}

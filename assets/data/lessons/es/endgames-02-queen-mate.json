@@ -1,0 +1,51 @@
+{
+  "id": "queen-mate",
+  "title": "Rey y dama contra rey",
+  "summary": "El mate en el borde, y el ahogado que lo roba",
+  "proof": "endgames-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Donde muere un rey solo",
+      "text": "Una dama nunca da mate a un rey solo en mitad del tablero. Ahí el rey siempre tiene adónde huir. Solo se queda sin casillas en un borde, y el rey negro ya está en uno.\n\nCuenta lo que queda. El rey blanco de f5 le quita g5 y g6. La dama de d4 domina la diagonal que pasa por e5 y f6 hasta g7, así que esa casilla también desaparece.\n\nLas Negras tienen h5 y h7. Dos casillas de la columna h, las dos contra la pared, y nada más en todo el tablero."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/7k/5K2/3Q4/8/8/8 b - - 8 5",
+      "title": "Tres tareas, en orden",
+      "text": "Esa imagen es el destino desde cualquier posición, y se construye en tres partes.\n\nLa dama quita líneas hasta que el rey solo camina por una franja estrecha junto a un borde. Tu propio rey se acerca entonces por detrás, porque la dama no puede terminar sola: una dama junto a un rey sin nada que la proteja simplemente es capturada. Solo entonces la dama remata, en una línea de la que el rey no puede salir.\n\nAquí ya están hechas dos de las tres. {{Kh5}}, y las Negras han elegido contra qué extremo de la pared quedarse."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/5K1k/3Q4/8/8/8 w - - 9 6",
+      "prompt": "Tu rey ya cubre las casillas de escape: termina con una jugada de dama a la que las Negras no puedan responder.",
+      "targetSan": [
+        "Qh8#"
+      ],
+      "hint": "El rey negro está pegado al lateral del tablero: encuentra la línea en la que está y tómala entera."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "Las tablas escondidas en la jaula",
+      "text": "Nuevo tablero, a una jugada del final. El rey negro de h8 tiene una sola casilla, g8: tu rey en g6 ya cubre g7 y h7, y las Negras no están en jaque.\n\nAsí que apretar la jaula un poco más tira la victoria. {{Qd5}} parece técnica limpia: la dama toma g8 por la diagonal, todas las casillas alrededor del rey quedan cubiertas, nada está colgado.\n\nEs rey ahogado. Las Negras no tienen jugada legal ni jaque al que responder, y una partida con una dama de más en el tablero es tablas."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "title": "Cuenta antes de apretar",
+      "text": "En este final no falla nada exótico. Lo que falla es el juego pulcro: una casilla más quitada, en silencio, a un rey que tenía una.\n\nAsí que antes de cada jugada de dama aquí, cuenta en cuántas casillas puede estar el rey solo. Si la respuesta es una, tu jugada tiene que llegar con jaque o dejarle a ese rey algún sitio adonde ir.\n\n> Una jaula sin puerta son tablas. Achícala cuanto quieras, pero nunca hasta cero sin jaque."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/Q7/8/8/8/8 w - - 6 4",
+      "prompt": "Mate en una: dos jugadas de dama distintas lo consiguen, y cualquier otro apretón es tablas.",
+      "targetSan": [
+        "Qa8#",
+        "Qd8#"
+      ],
+      "hint": "¿Qué jugadas de dama le quitan g8 y dan jaque en la misma jugada?"
+    }
+  ]
+}

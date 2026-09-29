@@ -1,0 +1,11 @@
+{
+  "id": "endgame-04",
+  "fen": "8/8/5k2/8/3K4/4P3/8/8 w - - 0 1",
+  "solution": [
+    "Kd5"
+  ],
+  "title": "A Atividade do Rei Ganha",
+  "setup": "O teu peão em e3 está muito longe de casa, e o rei preto em f6 vigia as casas à frente dele.",
+  "hint": "Não avances o peão. Ganha uma linha com o rei, numa casa que o rei preto não possa disputar.",
+  "explanation": "## A Ideia\n\nO peão não pode guiar. Avançado sozinho vai dar ao rei preto, que já cobre as casas à sua frente.\n\n{{Kd5}} ganha antes uma linha, numa casa que as pretas não podem disputar. Depois de {{Ke7}}, {{Ke5}} põe-se mesmo à frente do rei preto, e o teu rei continua a caminhar à frente do seu peão. Todas as outras jogadas, incluindo o avanço do peão, deixam o rei preto segurar o empate.\n\nConquista primeiro as casas, e a marcha do peão fica segura."
+}

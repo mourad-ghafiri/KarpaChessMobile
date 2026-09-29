@@ -1,0 +1,56 @@
+{
+  "id": "minor-piece-endings",
+  "title": "Bispo ou Cavalo?",
+  "summary": "Conta as jogadas, não os pontos",
+  "proof": "endgames-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Uma Peça, Duas Alas",
+      "text": "Os peões pretos correm em bermas opostas do tabuleiro — o peão em a4 de um lado, os peões em g6 e h7 do outro. As brancas têm uma peça para responder aos dois.\n\nÉ essa a pergunta de que este final depende. Não qual das peças é mais bonita. Qual delas consegue estar em dois sítios.\n\nO bispo em c2 já está a olhar pela diagonal de b3 para a4, e está a duas jogadas de h5, a casa que fita g6. A mesma peça, as duas alas."
+    },
+    {
+      "type": "teach",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "title": "Quatro Jogadas Contra Uma",
+      "text": "Põe um cavalo onde esse bispo está e conta os saltos. Três só para chegar a uma casa que ataque a4, um quarto para o capturar — e ao peão bastam três jogadas para se tornar dama.\n\nAo bispo basta uma. Não por ser a melhor peça, mas por ser um tipo de peça diferente. Valem os dois três pontos, e só um deles atravessa o tabuleiro numa jogada.\n\nPeões em duas alas é a forma que paga um bispo. As linhas estão abertas, não há nada no caminho, e um bispo num tabuleiro aberto não viaja. Chega."
+    },
+    {
+      "type": "play",
+      "fen": "6k1/7p/6p1/8/p7/8/2B5/4K3 w - - 0 1",
+      "prompt": "Captura o corredor da ala longínqua com a peça que uma jogada depois pode estar de volta a guardar o outro lado.",
+      "targetSan": [
+        "Bxa4"
+      ],
+      "hint": "O corredor e o teu bispo estão os dois em casas claras, portanto lê a diagonal que os une."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5k1p/6p1/8/B7/8/8/4K3 w - - 1 2",
+      "title": "De Volta Antes de Contar",
+      "text": "O peão a desapareceu, e o rei preto em f7 vigia o que resta.\n\nO teu bispo em a4 está agora na berma do tabuleiro oposta a esses dois peões. {{Bd1}}, e a grande diagonal clara abre-se à frente dele — e2, f3, g4, h5 — com h5 a olhar diretamente para g6. Duas jogadas para atravessar o tabuleiro inteiro. Um cavalo a partir dessa mesma casa precisaria de três saltos só para atacar g6.\n\n> Três pontos é quanto custa uma peça. Quanto ela vale é a rapidez com que chega ao lado do tabuleiro onde a partida se joga."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "Meio Tabuleiro, para Sempre",
+      "text": "Posição nova, e o caso vira-se. O bispo preto em c7 está numa casa escura. O peão em a7 também. O peão em e7 também.\n\nA mesma cor não é o mesmo que estar seguro. Nenhum dos peões guarda o outro, e nenhuma casa a que o bispo chegue numa jogada guarda os dois ao mesmo tempo — pode ficar à frente de uma porta enquanto a outra se escancara.\n\nE todas as casas claras do tabuleiro lhe estão vedadas por inteiro, nesta jogada e para sempre."
+    },
+    {
+      "type": "teach",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "title": "Uma Peça Sem Cor",
+      "text": "O teu cavalo em e5 está neste momento atacado por esse bispo. A diagonal corre c7, d6, e5, e não há nada pelo meio. Portanto o cavalo mexe-se.\n\nTodos os saltos de cavalo aterram na cor oposta àquela que deixaram, e é por isso que um bispo nunca consegue perseguir um cavalo por muito tempo. O bispo preto vive nas casas escuras. Um cavalo branco estacionado numa casa clara está a salvo dele para o resto da partida.\n\nPortanto o cavalo anda à procura de uma casa clara. O que ele quer é uma casa clara que também faça trabalho."
+    },
+    {
+      "type": "play",
+      "fen": "8/p1b1p2k/8/4N3/2P5/2KP4/8/8 w - - 0 1",
+      "prompt": "Leva o cavalo atacado a uma casa que o bispo preto nunca poderá alcançar, e atinge os dois peões desprotegidos pelo caminho.",
+      "targetSan": [
+        "Nc6"
+      ],
+      "hint": "Os peões estão em a7 e e7, portanto descobre que casa clara toca nos dois ao mesmo tempo."
+    }
+  ]
+}

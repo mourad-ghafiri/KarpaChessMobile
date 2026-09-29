@@ -1,0 +1,11 @@
+{
+  "id": "strategy-04",
+  "fen": "r1bq1rk1/ppp2p2/2np1n1p/1B2p1p1/1b2P2B/2NP1N2/PPP2PPP/R2Q1RK1 w - - 0 9",
+  "solution": [
+    "Nxg5"
+  ],
+  "title": "Two Bricks Missing",
+  "setup": "Black pushed two pawns to chase your bishop, and the king on g8 lives behind them. The bishop on h4 is attacked.",
+  "hint": "The pawn on g5 has one defender. A retreat is safe; count what that shelter is worth before you play it.",
+  "explanation": "## The Idea\n\nThe pawns on h6 and g5 were the front of the black king's shelter, and neither can go back. {{Nxg5}} gives a knight for them.\n\nIf Black takes, the bishop takes back on g5, pins the knight on f6 to the queen, and the king stands bare. Black does better to give up the bishop on b4 for your knight on c3, and White still comes out ahead. A retreat to g3 would have let Black keep all of it."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "discovered-05",
+  "fen": "r3k3/8/4B3/8/4R3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Bd5+",
+    "Kd8",
+    "Bxa8"
+  ],
+  "title": "El alfil dispara la batería",
+  "setup": "Tu torre y tu alfil están apilados en la columna e: el alfil delante, la torre cargada detrás.",
+  "hint": "Cualquier jugada de alfil destapa un jaque de torre. Elige la que además ataca algo que las Negras no pueden salvar.",
+  "explanation": "## La idea\n\nEl alfil de e6 tapa a la torre de e4. En cuanto se mueve, la torre da jaque por la columna, así que la jugada del alfil llega con una amenaza gratis.\n\n{{Bd5+}} sale de la columna y apunta a la torre de a8. Las Negras tienen que responder al jaque, y ninguna pieza negra puede tapar en e5, e6 o e7. Tras {{Kd8}}, {{Bxa8}} se queda con la torre.\n\nLa pieza delantera de una batería se mueve con una amenaza incorporada, así que elige la casilla donde haga doble trabajo."
+}

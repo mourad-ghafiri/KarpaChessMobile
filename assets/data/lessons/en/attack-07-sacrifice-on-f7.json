@@ -1,0 +1,56 @@
+{
+  "id": "sacrifice-on-f7",
+  "title": "The Sacrifice on f7",
+  "summary": "One defender, and it is the king",
+  "proof": "f7-sacrifice-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Every Pawn but Two",
+      "text": "Every pawn in front of a king has a piece behind it, except two. f7 and f2 are guarded by the king alone, and they stay that way until that king castles or a piece is dragged across to help.\n\nBlack has done neither. The rook on h8 has never moved, neither has the bishop on f8, and the queen on d8 is busy holding the knight on d5.\n\nSo a piece landing on f7 cannot be answered with a cheap recapture. There is nothing cheap left to answer with. The king has to do it in person."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "title": "Priced by What It Buys",
+      "text": "A piece for a pawn is a losing trade on paper. Here it is not a trade at all, because Black does not get to say no.\n\nCount the squares a knight reaches from f7. Two of them are d8 and h8, where the queen and the rook are sitting, so declining costs more than accepting.\n\nAnd accepting drags the king out to f7 in front of an army that has not moved yet. Your bishop on c4 already leans on the knight on d5, and that knight is the only thing keeping the diagonal shut."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+      "prompt": "Give up a piece to take the one pawn Black's king is guarding, and pull that king into the open.",
+      "targetSan": [
+        "Nxf7"
+      ],
+      "hint": "Only one of your pieces can reach f7 at all — the other road is blocked on d5."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1b1r/ppp2kpp/2n5/3np3/2B5/8/PPPP1PPP/RNBQK2R w KQ - 0 7",
+      "title": "The King Is Now the Problem",
+      "text": "The king is out on f7 on move seven, and the first thing it does is get in the way. Your bishop on c4 looks straight through the knight on d5 at that king, so the knight is pinned and cannot move at all.\n\n{{Qf3+}} brings a second attacker to d5 with check. Black's king has five squares, and {{Ke6}} is the one that guards the pinned knight — a king walking up the board to hold a piece together. Then {{Nc3}}: three attackers, two defenders, and one of the defenders is the king itself."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "Bait, and Take It Anyway",
+      "text": "A different board, and here f7 is being offered. Black's bishop on c5 has just been planted opposite f2, the square on your side with the same lonely guard.\n\nMost sacrifices on f7 never mate anybody, and this one will not. What a piece buys here is smaller and permanent. Black's king cannot take on f7 while the knight on g5 covers it, so it shuffles to e7 or f8 and gives up castling for the rest of the game — parked in front of its own rook on h8, with the bishop on c8 walled in behind it."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "title": "Two Ways In",
+      "text": "Two of your pieces can reach f7, and they buy different things.\n\n{{Nxf7}} forks the queen and the rook, which is the move the last position taught you to want. It is also the move Black's last move invited: {{Bxf2+}}, and now your own king is the one in check, with three legal moves and a wild fight ahead. It is playable, but it is the fight Black chose.\n\n> Decide what you are buying before you spend the piece: a mate, or a king that never gets to leave."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 6 5",
+      "prompt": "Take the pawn on f7 with the piece Black is not hoping for, and end Black's castling for good.",
+      "targetSan": [
+        "Bxf7+"
+      ],
+      "hint": "The knight capture is the one Black has prepared for — look at what your other attacker does on the way in."
+    }
+  ]
+}

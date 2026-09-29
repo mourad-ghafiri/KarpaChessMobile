@@ -1,0 +1,12 @@
+{
+  "id": "trapped-08",
+  "fen": "3r2k1/ppp2p2/3p1n2/6pp/8/2N4B/PP3PP1/5RK1 b - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1270,
+  "title": "Llena la última casilla",
+  "setup": "El alfil blanco de h3 tiene detrás su propio peón de g2 y, más allá, su propia torre de f1.",
+  "hint": "Las propias piezas blancas tapan por completo una diagonal. La otra empieza en una casilla que ya defiende tu peón de h.",
+  "explanation": "## La idea\n\n{{g4}} deja al alfil sin nada: en g2 está el peón blanco, en f1 su torre, y al peón que ahora está en g4 lo defiende h5. Las Blancas solo pueden perder una pieza, y ...gxh3 se la lleva en la jugada siguiente. A un alfil se le atrapa llenando casillas, no persiguiéndolo."
+}

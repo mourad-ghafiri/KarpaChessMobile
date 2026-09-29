@@ -1,0 +1,12 @@
+{
+  "id": "promotion-12",
+  "fen": "8/2P5/8/8/3r4/8/2K5/k7 w - - 0 1",
+  "solution": [
+    "c8=R"
+  ],
+  "rating": 1400,
+  "title": "Saavedra's Rook",
+  "setup": "Your pawn queens on c8 with the black king cornered on a1 and its rook watching from d4.",
+  "hint": "The black king is down to its last corner. Ask what a brand new queen would do to that fact.",
+  "explanation": "## The Idea\n\n{{c8=Q}} is answered by {{Rc4+}}, and Qxc4 is stalemate, since the king on a1 has nowhere to go. {{c8=R}} threatens Rc1 mate instead, and after Ra4 White plays Kb3 and wins the rook. This is the Saavedra position, published in 1895."
+}

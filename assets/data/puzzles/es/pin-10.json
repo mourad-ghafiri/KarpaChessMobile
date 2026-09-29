@@ -1,0 +1,12 @@
+{
+  "id": "pin-10",
+  "fen": "5k2/5p2/3nq2R/4p1p1/1P2p2N/2PPP3/3r1Q2/6K1 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 1150,
+  "title": "La torre se come la dama",
+  "setup": "Tu dama de f2 mira por la columna f vacía al peón negro de f7 y al rey que está detrás.",
+  "hint": "La dama negra está defendida una vez, por un peón. ¿Qué le hace tu dama a ese peón desde f2?",
+  "explanation": "## La idea\n\n{{Rxe6}} gana la dama por una torre. El peón de f7 es su único defensor, y tu dama de **f2** lo clava contra el rey de **f8**. Todas las casillas entre ellos están vacías, así que la recaptura es ilegal y la dama está perdida."
+}

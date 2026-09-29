@@ -1,0 +1,13 @@
+{
+  "id": "history-04",
+  "fen": "8/r4pk1/6p1/7p/8/8/5PPP/3Q2K1 w - - 0 1",
+  "solution": [
+    "Qd4+",
+    "Kg8",
+    "Qxa7"
+  ],
+  "title": "Two Diagonals at Once",
+  "setup": "The rook on a7 has nothing guarding it and the king on g7 is out in the open — and one square sees them both.",
+  "hint": "Attack the rook down its own file and it simply takes you. Look for the square where two separate diagonals leave in opposite directions.",
+  "explanation": "## The Idea\n\nThe old queen crawled one diagonal square at a time. The new one stands where two long lines cross.\n\n{{Qd4+}} checks the king on g7 up one diagonal and hits the rook on a7 down the other. The rook cannot hit back: d4 is on neither its file nor its rank.\n\nWhatever Black does about the check, {{Kg8}} or anything else, does nothing for the rook, and {{Qxa7}} collects it.\n\nChase the rook down the a-file instead and it takes your queen."
+}

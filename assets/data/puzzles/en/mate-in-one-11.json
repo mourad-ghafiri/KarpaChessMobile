@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-11",
+  "fen": "1r3kr1/pbpBnp1p/1b3P2/8/8/B1P2q2/P4PPP/3R2K1 w - - 4 24",
+  "solution": [
+    "Bxe7#"
+  ],
+  "rating": 885,
+  "title": "The Pawn Does the Work",
+  "setup": "Your bishop on a3 aims at the knight on e7, and your pawn on f6 covers the squares beside the king.",
+  "hint": "The black king cannot move a step, so find the check that lands on a square your pawn defends.",
+  "explanation": "## The Idea\n\nThe king on f8 is walled in by its own rook on g8 and pawn on f7, the pawn on f6 takes g7 and e7 away, and the bishop on d7 covers e8. {{Bxe7#}} removes the last defender and checks from a square that same pawn guards, so the king cannot capture."
+}

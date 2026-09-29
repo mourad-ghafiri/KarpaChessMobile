@@ -1,0 +1,12 @@
+{
+  "id": "pin-11",
+  "fen": "8/2pr1k2/7Q/5p2/B1p1q3/1b1P4/1P3R1K/8 w - - 0 1",
+  "solution": [
+    "dxe4"
+  ],
+  "rating": 1180,
+  "title": "Piyon Veziri Alıyor",
+  "setup": "Siyahın veziri e4'e park etmiş; d3 piyonunuza bir piyon adımı uzaklıkta ve yalnızca f5'teki piyon onu koruyor.",
+  "hint": "Siyahın vezirinin koruyucularını sayın, sonra orada güvende olduğuna karar vermeden önce f dikeyine bakın.",
+  "explanation": "## Fikir\n\n{{dxe4}} veziri bir piyonla alır. f piyonuyla geri almak kuraldışıdır, çünkü **f2**'deki kaleniz onu açık f dikeyi boyunca **f7**'deki şaha karşı açmaza alır. Açmazdaki piyon kimsenin koruması olamaz."
+}

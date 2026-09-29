@@ -1,0 +1,13 @@
+{
+  "id": "culture-01",
+  "fen": "rnbqkbn1/ppppp3/7r/6pp/3P1p2/3BP1B1/PPP2PPP/RN1QK1NR w KQq - 2 7",
+  "solution": [
+    "Qxh5+",
+    "Rxh5",
+    "Bg6#"
+  ],
+  "title": "İşlem Sırası",
+  "setup": "Siyah üç piyonu öne atmış ve şahı hâlâ evinde. İki taşınız aynı köşeyi istiyor.",
+  "hint": "Veziriniz de filiniz de siyahın şahında biten çapraza ulaşabiliyor. h6'daki kalenin hangisini alabildiğini sorun.",
+  "explanation": "## Fikir\n\nd1'deki vezir ile d3'teki fil e8'e giden çaprazı istiyor ve yalnızca tek bir sıra işe yarıyor.\n\nÖnce {{Qxh5+}} gider. {{Rg6}} ile kapatmak anında kaybettirir ve {{Rxh5}} geldikten sonra kale altıncı yatayı terk etmiştir, yani g6'yı koruyan hiçbir şey kalmaz: {{Bg6#}}. Fil f7'yi kapsar ve şahın kendi piyonları, veziri ile fili gerisini doldurur.\n\nFilden başlarsanız {{Bg6+}} hamlesine {{Rxg6}} cevabı gelir. Dokunulan taş oynanır kuralı fikrinizi değiştirmenize izin vermez."
+}

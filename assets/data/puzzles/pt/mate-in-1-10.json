@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-10",
+  "fen": "7k/5K1p/8/8/8/8/8/6R1 w - - 0 1",
+  "solution": [
+    "Rg8#"
+  ],
+  "title": "Fecha a Tampa",
+  "setup": "O rei preto está entalado em h8 atrás do seu próprio peão de h7, e o teu rei em f7 está mesmo ao lado das casas de fuga.",
+  "hint": "Sobe a torre pela coluna g — o teu rei e o peão preto fecham a tampa.",
+  "explanation": "## A Ideia\n\n{{Rg8#}} dá xeque ao rei a partir da casa ao lado. O teu rei de f7 guarda g8, portanto o rei não pode comer a torre. g7 está coberta pelo teu rei e pela torre, e h7 tem o peão das próprias pretas.\n\nQuando o teu rei guarda uma casa ao lado do rei inimigo, a torre pode dar xeque mesmo dali."
+}

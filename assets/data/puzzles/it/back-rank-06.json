@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-06",
+  "fen": "1r4k1/5ppp/8/8/8/8/4QPPP/4R1K1 w - - 0 1",
+  "solution": [
+    "Qe8+",
+    "Rxe8",
+    "Rxe8#"
+  ],
+  "title": "Il Giro Lungo",
+  "setup": "La torre nera difende la traversa di fondo da tutt'altra parte della scacchiera — l'unico difensore, e lontano da casa.",
+  "hint": "La guardia può arrivare a e8, ma solo lasciando tutto il resto. Qual è la cosa più grossa che potete farle prendere?",
+  "explanation": "## L'idea\n\nLa torre in b8 copre da lontano tutta la traversa di fondo, finché non viene costretta a impegnarsi.\n\n{{Qe8+}} regala la donna sulla casa d'ingresso. {{Rxe8}} è l'unica risposta, e trascina la guardia attraverso la traversa, e {{Rxe8#}} riprende mentre i pedoni stessi del Nero sigillano ogni casa di fuga.\n\nUn difensore solitario della traversa di fondo è un bersaglio, non un muro: costringetelo a catturare, e la ripresa è matto."
+}

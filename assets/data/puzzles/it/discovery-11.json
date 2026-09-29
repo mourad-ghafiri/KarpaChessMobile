@@ -1,0 +1,12 @@
+{
+  "id": "discovery-11",
+  "fen": "r6k/ppp5/7K/8/8/1B6/PP6/7R w - - 0 1",
+  "solution": [
+    "Kg6#"
+  ],
+  "rating": 1330,
+  "title": "Il Re Scopre",
+  "setup": "La vostra torre in h1 fissa su per la colonna h il re nero, e il pezzo di mezzo è il vostro stesso re.",
+  "hint": "Davanti a una batteria può stare qualunque cosa, perfino un re. Quale casa tiene coperta ogni via di fuga?",
+  "explanation": "## L'idea\n\n{{Kg6#}} è uno scacco di scoperta: il re esce dalla colonna h e la torre dà scacco da h1. g7 e h7 sono coperte dal re stesso, g8 dall'alfiere in b3, e sulla colonna h vuota non si può parare. Kg5 scopre lo stesso scacco, ma allora g7 è libera."
+}

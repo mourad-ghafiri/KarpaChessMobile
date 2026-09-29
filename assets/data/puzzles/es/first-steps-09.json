@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-09",
+  "fen": "5k2/6pp/p7/1p3p2/8/3B4/6PP/6K1 w - - 0 1",
+  "solution": [
+    "Bxf5"
+  ],
+  "title": "Dos peones, uno seguro",
+  "setup": "Tu alfil de d3 ataca dos peones negros, uno en cada diagonal. Solo uno se puede capturar gratis.",
+  "hint": "Mira una casilla en diagonal detrás de cada peón. Uno tiene un compañero ahí y el otro está solo.",
+  "explanation": "## La idea\n\nLos dos peones están en las diagonales de tu alfil, pero solo uno es gratis.\n\n{{Bxb5}} pierde el alfil ante {{axb5}}, porque el peón de a6 protege b5. {{Bxf5}} gana un peón limpio, ya que nada protege f5. Espera una jugada y las Negras juegan {{g6}} para protegerlo.\n\nLos peones protegen las casillas en diagonal que tienen delante. Antes de capturar, mira una casilla en diagonal detrás del objetivo."
+}

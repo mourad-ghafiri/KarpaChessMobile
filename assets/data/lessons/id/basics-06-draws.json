@@ -1,0 +1,77 @@
+{
+  "id": "draws",
+  "title": "Setengah Poin",
+  "summary": "Lima cara partai berakhir tanpa pemenang, dan satu yang menjebak pemain yang sedang menang",
+  "proof": "draws-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Tanpa Langkah, Tanpa Sekak",
+      "text": "Hitam hanya punya raja dan tak ada yang lain. Putih punya menteri, dan mat tinggal satu langkah lagi — justru pada saat seperti inilah sebuah partai terbuang.\n\nRaja hitam di h8 hanya punya satu petak. Raja Putih di g6 sudah menguasai g7 dan h7, jadi hanya g8 yang tersisa.\n\n{{Qd5}} merebut g8 juga. Hitam tidak dalam sekak. Hitam sama sekali tak punya langkah sah. Itulah **pat**, dan partai berakhir di tempat itu juga."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "title": "Setengah Poin Masing-Masing",
+      "text": "Pat adalah **remis**. Kedua pemain mendapat setengah poin, dan tak ada artinya bahwa yang satu punya menteri sementara yang lain hanya punya raja sendirian.\n\nItulah sebabnya aturan ini menggigit. Putih unggul menurut ukuran apa pun di papan dan tetap bisa pulang hanya dengan setengah.\n\nAda jalan yang lebih lunak menuju skor yang sama: pemain mana pun boleh menawarkan remis, dan jika lawannya menerima, partai berhenti di sana. Yang itu sama sekali tak memerlukan kecerdikan."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/6K1/8/8/3Q4/8/8 w - - 0 1",
+      "prompt": "Kuasai g8 lagi, kali ini dengan sekak, supaya partai berakhir dengan mat, bukan dengan jabat tangan.",
+      "targetSan": [
+        "Qd8#"
+      ],
+      "hint": "Raja Anda sudah menguasai g7 dan h7, jadi menteri menginginkan baris tempat raja hitam berdiri."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Tak Ada Lagi untuk Memberi Mat",
+      "text": "Papan baru, aturan baru. Putih punya raja di c2 dan kuda di c3. Hitam punya raja di a5 dan pion di a2, satu petak lagi dari menteri baru — dan menteri melawan kuda sendirian adalah partai yang seharusnya dimenangkan Hitam.\n\nJadi seluruh partai bergantung pada pion itu. Singkirkan ia dan pasukan Hitam tinggal satu raja yang berjalan sendirian.\n\nRaja dan kuda tak pernah bisa memberi sekakmat kepada raja sendirian. Tidak dengan paksa, tidak dengan keberuntungan, tidak dengan bantuan."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "title": "Posisi Mati",
+      "text": "Ketika tak ada rangkaian langkah sah yang bisa menghasilkan sekakmat bagi kedua pihak, partai langsung remis saat itu juga. Empat akhir permainan termasuk di sini:\n\n- raja melawan raja\n- raja dan gajah melawan raja\n- raja dan kuda melawan raja\n- raja dan gajah melawan raja dan gajah, kedua gajah di petak berwarna sama\n\nDua kuda melawan raja sendirian tidak ada dalam daftar itu. Mat tak bisa dipaksakan di sana, tetapi bisa tercapai jika pihak yang bertahan berjalan masuk ke dalamnya, jadi partai berlanjut."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/k7/8/2N5/p1K5/8 w - - 0 1",
+      "prompt": "Keluarkan dari papan satu-satunya buah hitam yang masih bisa memenangkan partai ini.",
+      "targetSan": [
+        "Nxa2"
+      ],
+      "hint": "Hitung apa yang tersisa sesudahnya, dan cocokkan dengan daftar empat tadi."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Remis yang Harus Diklaim",
+      "text": "Dua jalan lagi menuju setengah poin, dan papan ini dibangun untuk keduanya: tak ada pion lagi untuk didorong, dan hanya satu buah tersisa yang bisa ditangkap.\n\nLima puluh langkah oleh masing-masing pihak tanpa penangkapan dan tanpa langkah pion — pemain mana pun lalu boleh mengklaim remis. Atau **posisi** yang sama muncul tiga kali, dengan pihak yang sama mendapat giliran, hak rokade yang sama dan kemungkinan en passant yang sama, dan pemain mana pun boleh mengklaim itu juga.\n\nYang berulang adalah posisinya, bukan langkah-langkah yang menuju ke sana."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Tak Ada yang Mengklaimkannya untuk Anda",
+      "text": "Pada langkah kelima puluh atau pengulangan ketiga, tak ada yang terjadi dengan sendirinya. Seorang pemain harus mengklaim remis, dan pemain yang tidak menghitung tak akan melakukannya.\n\nItu jugalah seluruh isi sekak abadi. Memberi sekak kepada raja lawan selamanya bukanlah aturan tersendiri — sekak-sekak itu membawa posisi yang sama kembali lagi dan lagi, dan seseorang mengklaim pengulangannya.\n\nJadi sejauh ini empat: pat, posisi mati, hitungan lima puluh langkah, dan posisi yang sama tiga kali. Yang kelima adalah tawaran yang bisa diajukan pemain mana pun kapan saja."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "title": "Kecelakaan",
+      "text": "Kini aturan itu mengarah kepada Anda. Hitam unggul satu menteri utuh, raja putih di h1 sudah kehabisan papan, dan giliran Hitam melangkah.\n\n{{Qg3}} tampak seperti jaring yang menutup: g1, g2 dan h2 semuanya dikuasai sekaligus. Tetapi h1 tidak diserang, jadi ini bukan sekak, dan Putih tak punya apa pun lagi untuk digerakkan. Pat. Partai yang sudah menang, dikembalikan begitu saja.\n\n> Rebut petak terakhir dengan sekak, atau jangan merebutnya dulu."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/2k5/8/8/3q4/8/7K b - - 0 1",
+      "prompt": "Menteri sudah cukup bekerja — dekatkan raja satu petak ke sudut Putih sebagai gantinya.",
+      "targetSan": [
+        "Kd5"
+      ],
+      "hint": "c6 dan h1 berada di diagonal panjang yang sama, jadi raja cukup berjalan menyusurinya."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "discovery-03",
+  "fen": "2r5/ppp4k/5b1p/8/4P3/7P/5P1K/1B4R1 w - - 0 1",
+  "solution": [
+    "e5+",
+    "Kh8",
+    "exf6"
+  ],
+  "rating": 1040,
+  "title": "Il Pedone Fa un Passo Avanti",
+  "setup": "Il vostro alfiere in b1 punta dritto su h7, e solo il vostro pedone in e4 tiene chiusa la diagonale.",
+  "hint": "L'alfiere nero è un pezzo camposcuro: non può mai entrare sulla diagonale b1-h7 a parare qualcosa.",
+  "explanation": "## L'idea\n\n{{e5+}} apre la diagonale b1-h7 e attacca l'alfiere nello stesso respiro. Prima bisogna rispondere allo scacco, e nessun pezzo nero può interporsi su una casa chiara, quindi dopo {{Kh8}} il pedone prende in f6 gratis."
+}

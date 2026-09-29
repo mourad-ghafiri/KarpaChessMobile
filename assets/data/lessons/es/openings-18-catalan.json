@@ -1,0 +1,56 @@
+{
+  "id": "catalan-advanced",
+  "title": "La Catalana",
+  "summary": "Un peón prestado y una diagonal para siempre",
+  "proof": "openings-18.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Barcelona, 1929",
+      "text": "Un torneo en Barcelona en 1929 quería una apertura propia, y Tartakower la aportó. El nombre de la región que rodea la ciudad se le quedó pegado.\n\nLa forma es: dos peones en el centro, y luego un hueco abierto en los peones del flanco de rey para que el alfil salga a g2 y tome la diagonal más larga del tablero.\n\nLas Negras acaban de capturar el peón que estaba en c4. El peón negro de c4 es lo que las Blancas pagaron por esa diagonal, y no tienen ninguna prisa por pedirlo de vuelta."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "title": "Nadie lo persigue",
+      "text": "Cuenta lo que costaría recuperar el peón ahora mismo. Una pieza, dos o tres jugadas, y acaba en una casilla que nunca quiso.\n\nLuego cuenta lo que les cuesta a las Negras conservarlo. Ninguna pieza negra protege c4 desde una casilla que además le guste, y ningún peón negro llega a él sin empujar el flanco de dama y dejar agujeros detrás.\n\nAsí que las Blancas hacen lo normal: sacar todo, enrocar y dejar que el peón sea un problema para su dueño. El peón vuelve más tarde. La diagonal nunca tiene que volver."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5",
+      "prompt": "Desarrolla la última pieza que queda entre tu rey y la esquina, y apúntala al centro.",
+      "targetSan": [
+        "Nf3"
+      ],
+      "hint": "Una pieza menor sigue en casa en el flanco de rey, y la casilla que quiere también protege d4."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 1 5",
+      "title": "Cómo vuelve el peón",
+      "text": "Las Negras ordenan con {{Be7}} y las Blancas terminan la última tarea con {{O-O}}. El peón de más sigue en c4, y las Blancas no han gastado una jugada en él.\n\nLuego {{a6}}, la primera jugada de un plan para sostener el peón con otro peón, y {{Qc2}}. La dama ocupa la columna que antes tenía su propio peón de c y mira a lo largo de ella, mientras el alfil de g2 conserva la diagonal para la que lo pusieron ahí.\n\nLas Negras tienen un peón de más y van atrasadas en desarrollo. Ese trato solo va en una dirección."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "La otra Catalana",
+      "text": "Las Negras no están obligadas a capturar. Peones en c6, d5 y e6 construyen un muro en su lugar, y el muro aguanta: sin ruptura, sin columna abierta, nada que golpear para las Blancas.\n\nLas Blancas se conforman igual. El peón de d4 y el de c4 dominan más terreno que los negros, el alfil de g2 espera detrás del caballo de f3 el día en que se abra el centro, y todas las piezas blancas ya tienen casilla.\n\nUna posición sin debilidades aún puede perderse poco a poco. Las Negras necesitan una tarea para una pieza en concreto."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "title": "El alfil sin ventanas",
+      "text": "Cuenta las jugadas que tiene el alfil de c8. Su propio caballo de d7 está en una diagonal y su propio peón de b7 en la otra. La cuenta es cero.\n\nLas Negras no están tanto peor como con una pieza de menos, y la pieza que falta nunca ha salido de casa.\n\nEl alfil de g2 enseña la salida. Un alfil sin camino por el centro toma el camino del borde: el mismo fianchetto, construido desde el otro extremo, hasta que los dos se miran a lo largo de una misma diagonal.\n\n> En una posición cerrada, encuentra la pieza sin futuro y dale uno."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 b - - 1 8",
+      "prompt": "Prepara el fianchetto que responde al blanco: dale a tu alfil atascado la gran diagonal para mirar.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Tu alfil de dama no tiene ninguna jugada legal, así que pregúntate qué único paso de peón le daría una."
+    }
+  ]
+}

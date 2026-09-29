@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-11",
+  "fen": "7k/8/5K2/8/8/8/8/6Q1 w - - 0 1",
+  "solution": [
+    "Qg7#"
+  ],
+  "title": "O Beijo da Morte",
+  "setup": "O rei preto está encurralado em h8, o teu rei monta guarda em f6, e a tua dama tem a coluna g.",
+  "hint": "A dama pode dar-se ao luxo de ficar mesmo ao lado do rei — o teu próprio rei vigia a casa de aterragem.",
+  "explanation": "## A Ideia\n\nIsto é o beijo da dama apoiada: a dama aterra mesmo ao lado do rei inimigo, e o teu próprio rei torna-a intocável.\n\n{{Qg7#}} dá xeque. O rei de f6 guarda g7, portanto o rei de h8 não pode comer a dama, e g8 e h7 estão as duas cobertas pela dama. Um xeque da casa ao lado não se pode tapar.\n\nUma dama ao lado do rei inimigo é mate sempre que alguma coisa a guarda e o rei não tem outra casa."
+}

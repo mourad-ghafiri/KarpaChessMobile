@@ -1,0 +1,14 @@
+{
+  "id": "promotion-08",
+  "fen": "1R6/1P3ppk/7p/8/8/8/3r1PPP/6K1 w - - 0 1",
+  "solution": [
+    "Rh8+",
+    "Kxh8",
+    "b8=Q+"
+  ],
+  "rating": 1280,
+  "title": "Get Out of the Way",
+  "setup": "Your pawn on b7 wants b8, but your own rook is sitting on it, and Black's rook is loose on d2.",
+  "hint": "Your own rook is the blockade here. It has to leave, and it must leave with something Black cannot ignore.",
+  "explanation": "## The Idea\n\n{{Rh8+}} clears b8 with check. {{Kxh8}} is the best Black has — {{Kg6}} leaves the rook standing too — and {{b8=Q+}} promotes with check again and White is a queen for a rook ahead. A piece standing on its own queening square must vacate with tempo."
+}

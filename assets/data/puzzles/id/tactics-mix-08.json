@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-08",
+  "fen": "8/8/8/6k1/8/8/P7/7K w - - 0 1",
+  "solution": [
+    "a4"
+  ],
+  "title": "Dua Petak Sekaligus",
+  "setup": "Raja Anda sama sekali tak dekat, dan raja Hitam di g5 mulai mengejar pion a Anda. Temukan satu-satunya cara pion itu mencapai baris kedelapan.",
+  "hint": "Bayangkan sebuah persegi dari pion Anda naik ke petak promosinya lalu melintang. Raja hitam tak boleh bisa melangkah masuk ke dalamnya.",
+  "explanation": "## Ide\n\n{{a4}} membuat pion tinggal empat langkah dari a8. Gambar perseginya dari a4 naik ke a8 lalu melintang ke lajur e: raja di g5 tak bisa melangkah masuk, jadi ia tak pernah bisa menangkap pion.\n\nLangkah satu petak ke a3 menyisakan lima langkah lagi, perseginya melebar sampai lajur f, dan raja langsung melangkah masuk. Langkah awal ganda pion itulah seluruh perbedaannya."
+}

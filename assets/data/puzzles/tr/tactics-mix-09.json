@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-09",
+  "fen": "r3k3/8/8/8/8/8/R7/4K3 w - - 0 1",
+  "solution": [
+    "Rxa8+"
+  ],
+  "title": "Boştaki Kaleyi Alın",
+  "setup": "İki kale **a dikeyinde** karşı karşıya — ve siyahın şahı da arka yatayda.",
+  "hint": "a dikeyindeki iki kaleden hangisinin koruyucusu olduğuna bakın.",
+  "explanation": "## Fikir\n\nSiyahın a8'deki kalesinin koruyucusu yok: e8'deki şah dört kare uzakta. {{Rxa8+}} onu şah çekerek alır, şahın arka yataydan çekilmesi gerekir ve elinizde çıplak bir şaha karşı şah ile kale kalır; zorunlu bir kazanç.\n\na2'deki kaleniz de tam o kadar boştaydı, yani sıra siyahta olsaydı onun yerine o düşerdi. İki boştaki taş karşı karşıya geldiğinde önce oynayan kazanır."
+}

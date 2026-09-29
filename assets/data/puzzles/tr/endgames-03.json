@@ -1,0 +1,11 @@
+{
+  "id": "endgames-03",
+  "fen": "3k4/8/8/1KP1r3/8/7R/8/8 b - - 0 1",
+  "solution": [
+    "Re6"
+  ],
+  "title": "Bir Piyon Geride ve Tutuyor",
+  "setup": "Beyazın b5'teki şahı altıncı yatayı istiyor ve oradan şahınızı piyonun yolundan uzaklaştırır. Sıra siyahta ve bu bir beraberlik.",
+  "hint": "Beyazın şahına a6, b6 ya da c6 gerekiyor. Bir yatayda duran kale o yatayın her karesini kapsar.",
+  "explanation": "## Fikir\n\nYataylar burada beyazın tarafından sayılıyor. Beyazın şahının piyonunun yanına çıkmak için a6, b6 ya da c6'ya ihtiyacı var ve tek bir kale hamlesi üçünü birden alıyor: {{Re6}}. Bir yataydaki kale bir çittir ve şah, onun kapsadığı kareye adım atamaz.\n\nBaşka her hamle şahın altıncıya, kendi piyonunun önüne çıkmasına izin verir; orada arkadan gelen hiçbir şah ona ulaşamaz ve piyon içeri yürür."
+}

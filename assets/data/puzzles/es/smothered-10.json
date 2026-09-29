@@ -1,0 +1,16 @@
+{
+  "id": "smothered-10",
+  "fen": "r4rk1/pp3Npp/8/8/2Q5/8/P4PPP/6K1 w - - 9 33",
+  "solution": [
+    "Nh6+",
+    "Kh8",
+    "Qg8+",
+    "Rxg8",
+    "Nf7#"
+  ],
+  "rating": 1440,
+  "title": "El caballo elige h6",
+  "setup": "Las Negras acaban de atacar al caballo de f7 con una torre, mientras la dama de c4 apunta a la diagonal a2–g8.",
+  "hint": "Tu caballo está en la diagonal de la dama, así que cualquier jugada de caballo da jaque doble: elige con cuidado dónde cae.",
+  "explanation": "## La idea\n\n{{Nh6+}} es un jaque doble, así que la torre no puede comer y el rey tiene que moverse: {{Kh8}} es su única casilla. Ahora {{Qg8+}} obliga a {{Rxg8}}, y {{Nf7#}} lo asfixia. El caballo tenía que elegir h6 para defender g8 de cara al sacrificio."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kings-indian-attack",
+  "title": "King's Indian Attack",
+  "summary": "Eight moves you always play, and the race that always follows",
+  "proof": "openings-13.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Eight Moves, No Questions",
+      "text": "Eight moves in, and White has not once asked what Black was doing. Knight to f3, pawn to g3, bishop to g2, king into the corner, pawn to d3, knight to d2, pawn to e4, rook to e1 — in almost any order, against almost anything.\n\nThat is the King's Indian Attack. It is a setup rather than a line, so there is no theory to carry: the same middlegame arrives every game, and you learn it once. Fischer used it for years against the French and the Sicilian, playing the same moves each time."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 6 8",
+      "title": "Two Plans, Opposite Directions",
+      "text": "Black is not waiting for any of it. The queenside pawns are the fastest thing on the board, and they have an address: c2, and whatever is left guarding it.\n\n{{b5}} is the first shove. The rest follow, the c-file opens, and Black's rooks pour down it.\n\nNeither side will defend. In a race, a move spent looking backward is a move handed to the other runner — so White never answers on the queenside at all. White answers on the far wing, where the pawn on e4, the bishop on g2 and both knights are already pointing."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p3bppp/2n1pn2/1ppp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - b6 0 9",
+      "prompt": "Claim space in front of your own pieces with a pawn push that evicts the knight nearest Black's king.",
+      "targetSan": [
+        "e5"
+      ],
+      "hint": "The knight on f6 is the one real defender near that king. Which of your pawns can attack it?"
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "Why the Wings Are Safe",
+      "text": "The pawn on e5 now stands nose to nose with the pawn on e6. Down the middle there is nothing left to trade and nothing left to open, and that is exactly the permission a wing attack needs: no line through the center means no road to either king through it.\n\nSo both sides look sideways. White plays {{h4}}, Black answers {{b4}}, White pushes {{h5}}, and nobody sends a piece home.\n\n> Attack on the wing where you have the room, and keep the middle shut while you do it."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "title": "One Attacker Short",
+      "text": "Count what White has aimed at Black's king: the bishop on g2, the knight on f3, a queen and a rook not far behind. Now count what Black has left at home. It is close, and close is not enough.\n\nThe knight on d2 is the piece that would settle it, and it stands as far from that king as a piece can. The short road through e4 is covered by Black's pawn on d5. The long road runs through the square the rook stepped off when it went to e1 — and from there the knight chooses between e3, eyeing d5 and f5, and h2, one hop from g4."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/p2nbppp/2n1p3/1pppP3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 1 10",
+      "prompt": "Start your slowest piece on its journey toward Black's king, by the only road its own pawns leave open.",
+      "targetSan": [
+        "Nf1"
+      ],
+      "hint": "Look at the empty squares on your own first rank. One of them is a knight's on-ramp to the kingside."
+    }
+  ]
+}

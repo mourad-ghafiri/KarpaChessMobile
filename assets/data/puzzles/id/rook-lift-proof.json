@@ -1,0 +1,11 @@
+{
+  "id": "rook-lift-proof",
+  "fen": "rn2r1k1/pp3p1p/2p1bp2/8/P1B2P2/B1P2R2/6PP/3R2K1 w - - 2 20",
+  "solution": [
+    "Rg3+"
+  ],
+  "title": "Menyeberangi Baris Ketiga",
+  "setup": "Chigorin melawan Lebedev, Moskwa 1900/01. Benteng Anda sudah naik meninggalkan baris belakang, dan lajur g di antara baris ketiga Anda dan raja Hitam kosong.",
+  "hint": "Naik dulu, menyamping kemudian. Petak mana di baris ketiga Anda yang menghadap raja hitam?",
+  "explanation": "## Ide\n\n{{Rg3+}} menuntaskan pengangkatan: benteng yang naik ke f3 meluncur ke lajur g yang kosong dan memberi sekak. Raja tak bisa memakai f8, yang dikuasai gajah Anda di a3, jadi Hitam punya dua jawaban: {{Kh8}}, masuk ke sudut, atau {{Bg4}}, gajah yang diserahkan kembali hanya untuk menghalangi.\n\nChigorin melanjutkan dengan {{Be7}} dan menang."
+}

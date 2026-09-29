@@ -1,0 +1,12 @@
+{
+  "id": "fork-10",
+  "fen": "8/2q1P1kp/p7/8/8/8/5PPP/6K1 w - - 1 2",
+  "solution": [
+    "e8=N+"
+  ],
+  "rating": 1030,
+  "title": "Menteri yang Salah",
+  "setup": "Pion Anda melangkah ke baris kedelapan pada langkah ini, dengan raja hitam di g7 dan menterinya di c7.",
+  "hint": "Menteri baru tak mengubah apa pun di sini. Tanyakan buah mana yang akan memberi sekak kepada raja dari petak promosi.",
+  "explanation": "## Ide\n\nMenteri di e8 sama sekali tak memberi sekak, dan Hitam tinggal melanjutkan partai dengan posisi seimbang. {{e8=N+}} menyerang g7 dan c7 sekaligus, Hitam harus menjawab sekak, dan menteri jatuh pada langkah berikutnya. Promosikan menjadi apa yang dibutuhkan posisi, bukan menjadi yang paling besar."
+}

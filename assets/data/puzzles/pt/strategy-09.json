@@ -1,0 +1,11 @@
+{
+  "id": "strategy-09",
+  "fen": "rnb1kb1r/1pq2ppp/p2ppn2/8/3NP3/3B4/PPP1QPPP/RNB2RK1 w k - 0 8",
+  "solution": [
+    "c4"
+  ],
+  "title": "A Jogada Com Que as Pretas Contavam",
+  "setup": "O peão em a6 e a dama em c7 das pretas têm exatamente um objetivo por trás, e ainda não aconteceu. Trava-o antes que aconteça.",
+  "hint": "Pergunta o que jogam as pretas se tu não fizeres rigorosamente nada, e depois encontra a jogada que torna esse plano caro.",
+  "explanation": "## A Ideia\n\nO esquema das pretas aponta numa direção: {{b5}}, depois o bispo para b7 e pressão pela grande diagonal sobre e4.\n\n{{c4}} apaga esse plano. O peão cobre agora b5 e d5, portanto a rutura perde material. As pretas desenvolvem com {{Be7}}, as brancas completam o aperto com {{Nc3}}, e não sobra rutura nenhuma para preparar.\n\nO preço: o peão c nunca mais poderá voltar a c3 para apoiar o cavalo de d4. Uma jogada profilática custa quase sempre algo pequeno. Paga-o quando o plano que apagas valer mais."
+}

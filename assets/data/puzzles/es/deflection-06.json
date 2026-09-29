@@ -1,0 +1,14 @@
+{
+  "id": "deflection-06",
+  "fen": "krN5/pp5q/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Nb6+",
+    "axb6",
+    "Ra1#"
+  ],
+  "rating": 1300,
+  "title": "El peón de a tiene que comer",
+  "setup": "El rey negro está en la esquina detrás de su propia torre y sus peones, y la columna a es la única entrada.",
+  "hint": "El rey no tiene ninguna jugada legal. Encuentra el jaque cuya única respuesta abre la columna que quieres.",
+  "explanation": "## La idea\n\nA {{Nb6+}} solo se puede responder de una manera, {{axb6}}. El peón de a es arrastrado fuera de la columna a, y {{Ra1#}} baja directamente por el camino abierto. Entrega lo que sea a un defensor que no tiene elección."
+}

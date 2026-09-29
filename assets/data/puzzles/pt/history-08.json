@@ -1,0 +1,13 @@
+{
+  "id": "history-08",
+  "fen": "r4rk1/pp3ppp/8/8/8/2N5/PPP2PPb/R3RK2 w - - 0 1",
+  "solution": [
+    "g3",
+    "Bxg3",
+    "fxg3"
+  ],
+  "title": "A Jogada Mais Calma",
+  "setup": "O bispo preto acabou de se servir do peão de h2, e o rei branco em f1 não lhe chega.",
+  "hint": "Não persigas o bispo com uma peça. O rei já cobre g1, portanto a única saída dele é a diagonal. Que jogada de peão a fecha?",
+  "explanation": "## A Ideia\n\nSem xeque, nada para comer: a jogada que ganha é a mais calma do tabuleiro, do género que os motores encontram e as pessoas se convencem a não jogar.\n\n{{g3}} fecha a diagonal do bispo, e o rei em f1 já cobre g1. Agora {{Bxg3}} é a tentativa menos má das pretas, e {{fxg3}} deixa as brancas uma peça acima por um peão. {{Bg1}} entrega-o logo ao rei, e esperar deixa {{Kg2}} vir buscá-lo.\n\nAntes de perseguires uma peça no fundo do teu campo, conta-lhe a saída."
+}

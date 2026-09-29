@@ -1,0 +1,12 @@
+{
+  "id": "back-rank-mate-07",
+  "fen": "6k1/1b3ppp/8/8/8/8/2r2PPP/R3R1K1 w - - 1 2",
+  "solution": [
+    "Re8#"
+  ],
+  "rating": 910,
+  "title": "Scegliete la Torre Giusta",
+  "setup": "Tutte e due le vostre torri possono dare scacco sull'ottava traversa, e l'alfiere nero in b7 ne sorveglia una.",
+  "hint": "Ci sono due scacchi disponibili e uno solo è matto. Guardate che cosa difende l'alfiere in b7.",
+  "explanation": "## L'idea\n\nRa8+ perde semplicemente una torre contro l'alfiere di b7. {{Re8#}} è matto: niente difende e8, niente può parare, e i pedoni in f7, g7 e h7 tengono dentro il re. Sulla traversa di fondo, chiedetevi sempre quali case il difensore copre ancora."
+}

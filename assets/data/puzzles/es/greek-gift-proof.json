@@ -1,0 +1,11 @@
+{
+  "id": "greek-gift-proof",
+  "fen": "r2q1rk1/pbpp2pp/1pn1pb2/7n/2PP1Pp1/P1NBP3/1PQ1N2P/R1B2RK1 w - - 0 12",
+  "solution": [
+    "Bxh7+"
+  ],
+  "title": "El regalo que nadie puede aceptar",
+  "setup": "Tu alfil de d3 y tu dama de c2 comparten una diagonal, y solo el rey negro protege h7.",
+  "hint": "Cuenta lo que hay detrás de tu alfil. Si el alfil sale de d3, ¿qué jugada negra deja de ser legal?",
+  "explanation": "## La idea\n\n{{Bxh7+}} entrega el alfil, y las Negras no tienen permiso para capturarlo. En cuanto sale de d3, la dama de c2 ve hasta h7, así que el rey no puede pisar esa casilla. Tiene que ir a h8 o a f7.\n\nEl refugio ha desaparecido gratis. Tras …Kh8 tu dama sigue con {{Qg6}}, y el flanco de rey negro queda abierto de par en par."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "skewer-04",
+  "fen": "8/5p2/3kp3/6QR/P7/3r1P2/Pq3P2/6K1 w - - 0 1",
+  "solution": [
+    "Qd8+",
+    "Kc6",
+    "Qxd3"
+  ],
+  "rating": 1020,
+  "title": "Pela Coluna d",
+  "setup": "O rei preto em d6 e a torre preta em d3 estão alinhados na coluna d com casas vazias pelo meio.",
+  "hint": "Encontra o xeque que põe a tua dama na coluna onde a torre preta já está, atrás do seu rei.",
+  "explanation": "## A Ideia\n\n{{Qd8+}} alinha a dama à frente do rei na coluna d, com a torre de **d3** presa na outra ponta. O rei tem de sair da coluna, e {{Kc6}} é a sua única jogada legal — portanto {{Qxd3}} ganha a torre."
+}

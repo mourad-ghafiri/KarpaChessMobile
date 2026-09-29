@@ -1,0 +1,14 @@
+{
+  "id": "deflection-06",
+  "fen": "krN5/pp5q/8/8/8/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Nb6+",
+    "axb6",
+    "Ra1#"
+  ],
+  "rating": 1300,
+  "title": "Pion a Harus Menangkap",
+  "setup": "Raja Hitam duduk di sudut di balik benteng dan pionnya sendiri, dan lajur a satu-satunya jalan masuk.",
+  "hint": "Raja sama sekali tak punya langkah sah. Temukan sekak yang satu-satunya jawabannya membuka lajur yang Anda inginkan.",
+  "explanation": "## Ide\n\n{{Nb6+}} hanya bisa dijawab dengan tepat satu cara, {{axb6}}. Pion a terseret keluar dari lajur a, dan {{Ra1#}} melaju lurus di jalan yang terbuka. Berikan apa saja kepada pembela yang tak punya pilihan."
+}

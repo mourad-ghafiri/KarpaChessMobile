@@ -1,0 +1,14 @@
+{
+  "id": "deflection-12",
+  "fen": "2kr3r/pp3ppp/2n5/8/Q1B2B1q/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qxc6+",
+    "bxc6",
+    "Ba6#"
+  ],
+  "rating": 1500,
+  "title": "Boden's Bishops",
+  "setup": "Two bishops cut across the queenside, and the b7 pawn is all that keeps the a6-c8 diagonal shut.",
+  "hint": "Both bishops already point at that corner. Which pawn is in the way, and how do you make it move?",
+  "explanation": "## The Idea\n\nThis is **Boden's mate**. {{Qxc6+}} has one answer only, {{bxc6}}, and the b7 pawn steps off the a6-c8 diagonal. {{Ba6#}} arrives: the other bishop covers b8 and c7, and Black's own rook blocks d8."
+}

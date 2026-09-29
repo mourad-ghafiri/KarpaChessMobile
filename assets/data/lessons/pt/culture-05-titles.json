@@ -1,0 +1,56 @@
+{
+  "id": "titles-and-norms",
+  "title": "Títulos e Normas",
+  "summary": "Ganhos ao longo de nove rondas, não numa partida brilhante",
+  "proof": "culture-05.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Nomeados em 1950",
+      "text": "A FIDE imprimiu a sua primeira lista de títulos em 1950: vinte e sete Grandes Mestres, nomeados num congresso, muitos deles muito para lá dos seus melhores anos.\n\nNada dessa lista caducou. Um título é atribuído uma vez e mantém-se para a vida. Um Grande Mestre que deixe de jogar, perca duzentos pontos de rating ou se dedique à jardinagem continua Grande Mestre — o rating diz o que consegues fazer este mês, o título diz o que fizeste uma vez.\n\nFazê-lo leva cerca de um ano do género de xadrez que ninguém filma."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "title": "Quatro Degraus",
+      "text": "Quatro títulos abertos, de baixo para cima: Candidato a Mestre, Mestre FIDE, Mestre Internacional, Grande Mestre. Cada um indica um rating — 2200, 2300, 2400, 2500 — e basta o número ser alcançado uma vez, numa lista publicada, em toda a vida.\n\nOs dois de baixo ficam-se por aí. Candidato a Mestre e Mestre FIDE concedem-se só pelo rating: chega ao número, manda os papéis, e o título é teu.\n\nOs dois de cima não estão à venda por número nenhum. Passa os 2500 e a FIDE não te atribui rigorosamente nada. Os dois últimos degraus pagam-se em normas."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+      "prompt": "Gasta já um tempo para o bispo de c8 nunca poder sair a cravar o teu cavalo contra a dama.",
+      "targetSan": [
+        "h3"
+      ],
+      "hint": "Antes de tocares no centro, pergunta que casa o bispo preto quer e qual dos teus peões lha pode tirar."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "title": "O Que uma Norma Exige",
+      "text": "Uma norma é um resultado, num torneio qualificante, que satisfaz todas as condições ao mesmo tempo: nove rondas ou mais; adversários de várias federações; grosso modo metade deles já titulados; um número fixado deles com o título a que apontas; e um nível de desempenho mantido ao longo da prova inteira. Falha uma condição e o torneio não produz nada, por muito bem que tenhas jogado.\n\nGrande Mestre e Mestre Internacional exigem-nas ao longo de pelo menos vinte e sete partidas — três normas, na prática.\n\nAs pretas perseguem o bispo com {{Na5}}, ele sai do alcance para {{Bc2}}, e {{c5}} planta a bandeira na ala da dama."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "A Série Paralela",
+      "text": "A FIDE atribui também uma segunda série — WCM, WFM, WIM, WGM — aberta às mulheres e cortada duzentos pontos abaixo dos títulos abertos em cada degrau. Ficam ao lado dos abertos, não no lugar deles: uma mulher pode apontar a Grande Mestre exatamente nas mesmas condições que toda a gente.\n\nJudit Polgár apontou, ficou com o título aberto de Grande Mestre em dezembro de 1991, aos quinze anos, mais nova do que qualquer pessoa antes dela, e nunca jogou um Campeonato do Mundo feminino."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "title": "As Partidas Que Ninguém Rejoga",
+      "text": "Nove rondas não premeiam uma partida brilhante. Premeiam quem não perde as partidas vulgares — quem gastou uma jogada inteira num peão de torre duas jogadas atrás, para que agora não haja nada para cravar, nada a temer, e mão livre no centro.\n\nA profilaxia é aquilo de que uma norma é realmente feita. O boletim de onde sai um título é sobretudo jogadas tranquilas e empates curtos, e o livro do torneio imprime duas das partidas.\n\n> Um título não é uma grande jogada. São nove rondas sem fazer nenhuma má."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+      "prompt": "Com g4 fechada de vez, abre a posição com o único peão central que ainda está na casa de partida.",
+      "targetSan": [
+        "d4"
+      ],
+      "hint": "Qual dos teus peões centrais não mexeu de todo, e o que é que o espera no meio?"
+    }
+  ]
+}

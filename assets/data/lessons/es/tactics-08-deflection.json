@@ -1,0 +1,71 @@
+{
+  "id": "deflection",
+  "title": "La desviación",
+  "summary": "Algunos defensores no se pueden capturar. Aun así, se les puede mandar a otra parte.",
+  "proof": "deflection-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "La casilla que lo termina",
+      "text": "e8 termina esta partida. Cualquier pieza blanca que llegue ahí da jaque al rey de g8, y ese rey tiene sus propios tres peones donde deberían estar sus casillas de escape.\n\nLas Blancas tienen dos piezas en la columna e, la dama delante y la torre detrás. La torre no llega a e8: su propia dama le estorba. La dama, sí.\n\nPero la dama también puede ser capturada ahí. La torre de d8 cubre e8 a lo largo de la octava fila, y ninguna otra pieza negra lo hace."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "title": "Cómo se mueve una pieza rival",
+      "text": "Ya tienes dos formas de parar a un defensor: capturarlo o echarlo de su casilla. Ninguna está disponible. Nada de las Blancas ataca d8, y los peones blancos siguen todos en la segunda fila.\n\nAsí que la torre tiene que moverse sola. No puedes mandar una pieza rival a ninguna parte. Solo puedes hacer que otra casilla valga más para ella que la que ocupa, y la versión más fuerte de eso es una casilla sobre la que no tiene elección legal."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/5ppp/8/8/4Q3/8/5PPP/4R1K1 w - - 1 2",
+      "prompt": "Haz que la torre de d8 abandone d8 con una jugada que no tiene forma legal de rechazar.",
+      "targetSan": [
+        "Qe8+"
+      ],
+      "hint": "Solo una pieza blanca puede llegar a e8, y solo una pieza negra puede responder a eso."
+    },
+    {
+      "type": "teach",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "title": "Aquí no se eligió nada",
+      "text": "Las Negras no estaban eligiendo entre opciones. Había una sola jugada legal en todo el tablero, y esta es la posición que produjo.\n\nLa torre está en e8 y no está en d8. Esa es la idea, y tiene nombre: una **desviación** obliga a un defensor a estar en otro sitio justo cuando se le necesita. Que sobreviva o no al viaje no importa.\n\nLa octava fila tiene ahora dos unidades negras: esa torre y el rey de g8. El rey cubre f8 y h8. Nada cubre e8."
+    },
+    {
+      "type": "play",
+      "fen": "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w - - 0 2",
+      "prompt": "Ya nada protege la octava fila: captura la torre que está en ella y termina la partida.",
+      "targetSan": [
+        "Rxe8#"
+      ],
+      "hint": "En este tablero hay exactamente una captura posible, y el rey no tiene detrás más que sus propios peones."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/5pp1/7p/8/4Q3/8/5PPP/4R1K1 w - - 0 1",
+      "title": "Cambia un solo peón",
+      "text": "Las Blancas entregaron una dama por una torre sin tener que contar, porque la jugada siguiente era mate.\n\nAquí el peón de h está en h6 y el rey tiene una casilla. {{Qe8+}} {{Rxe8}} {{Rxe8+}} {{Kh7}}: la torre capturó, la octava fila se abrió y el rey simplemente salió de la esquina.\n\nLas Blancas han pagado una dama por una torre, y el mate por el que pagaron no existe.\n\n> Una desviación vale lo que vale la jugada que hace posible."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "Un cambio que no compra nada",
+      "text": "Otro tablero, y ningún mate en ninguna parte.\n\nTu alfil de b2 mira por la gran diagonal al caballo de e5. {{Bxe5}} gana un caballo durante medio segundo: el alfil negro de c7 recaptura, tres por tres, y has gastado un alfil en no cambiar nada.\n\nAsí que vuelve a mirar e5. Un atacante blanco, un defensor negro, y ese defensor es el alfil de c7, al que nada blanco ataca y al que ningún peón blanco va a perseguir jamás."
+    },
+    {
+      "type": "teach",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "title": "En otra parte, durante una jugada",
+      "text": "El alfil de c7 tiene que estar en otro sitio. No desaparecer: estar en otro sitio, y solo durante la jugada que necesitas.\n\nAtacarlo no lo consigue. Se pasa a d6 y vigila e5 desde ahí.\n\nAsí que deja de mirar el alfil y mira la octava fila. La torre negra está en d8, tu torre de d1 la mira de frente por la columna, y el rey de g8 tiene tres peones y nada de aire."
+    },
+    {
+      "type": "play",
+      "fen": "3r2k1/2b2ppp/8/4n3/8/7P/1B3PP1/3R2K1 w - - 0 1",
+      "prompt": "Obliga al alfil de c7 a dejar de vigilar e5, con una jugada a la que las Negras solo tienen una respuesta.",
+      "targetSan": [
+        "Rxd8+"
+      ],
+      "hint": "Pregúntate qué podría recapturar en d8, y fíjate en dónde está ahora mismo esa pieza."
+    }
+  ]
+}

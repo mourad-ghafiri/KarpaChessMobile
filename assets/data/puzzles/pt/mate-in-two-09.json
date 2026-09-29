@@ -1,0 +1,14 @@
+{
+  "id": "mate-in-two-09",
+  "fen": "4r1k1/4Q3/3R4/3nP3/3N4/8/PP6/6K1 w - - 0 1",
+  "solution": [
+    "Rg6+",
+    "Kh8",
+    "Qh4#"
+  ],
+  "rating": 1280,
+  "title": "Elevação de Torre, Travessia de Dama",
+  "setup": "A tua dama é dona da sétima linha, e a tua torre de d6 pode atravessar para a coluna g numa jogada.",
+  "hint": "A tua dama já sela uma linha inteira. Traz uma segunda peça e olha depois para a coluna h vazia.",
+  "explanation": "## A Ideia\n\nA dama de **e7** cobre a sétima linha inteira, portanto o rei está confinado à oitava. {{Rg6+}} força {{Kh8}}, e a torre passa a guardar também g7 e g8. Isso liberta a dama para {{Qh4#}} pela coluna h vazia."
+}

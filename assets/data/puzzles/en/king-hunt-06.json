@@ -1,0 +1,16 @@
+{
+  "id": "king-hunt-06",
+  "fen": "4k2b/8/p4R2/5Qr1/8/4K3/8/RB6 w - - 0 1",
+  "solution": [
+    "Rf8+",
+    "Ke7",
+    "Rf7+",
+    "Kd6",
+    "Rxa6#"
+  ],
+  "rating": 1520,
+  "title": "The Rook That Never Stops",
+  "setup": "Black's king is still on e8, with a rook on g5 and a bishop on h8, and your rook already sits on f6.",
+  "hint": "Two rooks split the job: one herds the king with checks, and the other waits for it on a far file.",
+  "explanation": "## The Idea\n\n{{Rf8+}} and {{Rf7+}} walk the king out into the open, and {{Rxa6#}} mates along the sixth with the queen on f5 sealing the fifth rank. One rook walks the king out and the other is already waiting on the a-file."
+}

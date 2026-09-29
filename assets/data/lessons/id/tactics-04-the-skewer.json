@@ -1,0 +1,71 @@
+{
+  "id": "the-skewer",
+  "title": "Tusukan",
+  "summary": "Bentuk jepitan dengan nilai yang terbalik, dan buah di belakanglah yang membayar",
+  "proof": "forks-10.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Nilai yang Terbalik",
+      "text": "Lajur yang sama, benteng yang sama, dua buah hitam yang sama seperti pada jepitan — dan nilainya terbalik.\n\nJepitan menyerang buah di depan, tetapi hadiahnya ada di belakang: buah yang lebih berharga, sering kali raja. Itulah yang menahan buah depan di garisnya.\n\nTusukan menukarnya. Raja di d3 berdiri di depan dan menteri di d6 di belakang. Serang lewat lajur itu, raja menyingkir, dan ia tak bisa membawa menteri bersamanya.\n\nSerang buah yang lebih besar lebih dulu dan ambil apa yang tadi berdiri di belakangnya. Itulah **tusukan**."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Tiga Buah yang Sama",
+      "text": "Tiga buah bisa menusuk, dan ketiganya adalah buah yang bisa menjepit: menteri, benteng, gajah. Tusukan adalah garis, dan hanya ketiga buah itu yang menyerang di sepanjang garis.\n\nApa yang bisa ditusuk adalah daftar yang lain. Dua buah lawan mana pun di satu garis bisa, asalkan yang lebih dekat bernilai lebih tinggi — raja di depan menteri, menteri di depan benteng, benteng di depan gajah. Papanlah yang menentukannya, bukan Anda. Tugas Anda adalah menemukan garisnya dan masuk ke sana."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "title": "Dua Sekak",
+      "text": "Anda punya dua sekak di sini, dan hanya satu di antaranya yang merupakan tusukan.\n\n{{Ra3+}} mendarat di baris ketiga dan memberi sekak kepada raja dari samping. Tetapi ia juga mendarat di petak yang bisa dicapai menteri: {{Qxa3}}, dan sebuah benteng hilang dengan cuma-cuma.\n\nBukan sekak yang membuat tusukan berhasil. Garisnyalah yang membuatnya berhasil. Yang penting adalah di garis mana sekak itu tiba — garis yang ditempati kedua buah hitam."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/3k4/8/R6K w - - 0 1",
+      "prompt": "Serang raja hitam di sepanjang lajur yang ia bagi dengan menteri, sehingga ia harus bergerak.",
+      "targetSan": [
+        "Rd1+"
+      ],
+      "hint": "Kedua buah hitam berdiri di lajur d, dan setiap petak di antara keduanya dan baris pertama Anda kosong."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "Enam Petak, Semuanya Sama",
+      "text": "Sekak itu menyisakan enam langkah sah bagi Hitam, dan semuanya langkah raja: tak ada yang bisa menghalangi di lajur yang kosong, dan tak ada yang bisa mencapai benteng. Hitam memilih e3. Lima petak lainnya menyerahkan menteri sama murahnya.\n\nPerhatikan betapa sedikit yang dikerjakan benteng. Sampai saat ini ia tak sekali pun menyerang menteri — ia menyerang raja, dan raja sendiri yang menyingkir. Garisnya sudah ada. Benteng hanya perlu melangkah masuk ke sana."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "title": "Sekak Tidak Wajib",
+      "text": "Tusukan tidak memerlukan sekak. Bidikkan gajah ke menteri yang punya benteng di belakangnya di diagonal yang sama, dari petak yang tak bisa ditangkap apa pun, dan benteng tetap jatuh.\n\nYang dihilangkan sekak adalah pilihan-pilihannya. Tanpa sekak, lawan Anda bisa menghalangi garis di antara keduanya, menangkap buah yang menusuk, atau merelakan buah depan dan memulai ancaman yang lebih besar di tempat lain. Terhadap sekak, semua itu tidak sah kecuali juga menjawab sekaknya."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3q4/8/8/4k3/8/3R3K w - - 2 2",
+      "prompt": "Ambil menteri yang tadi berada di belakang raja.",
+      "targetSan": [
+        "Rxd6"
+      ],
+      "hint": "Hitung pembela d6, lalu hitung petak kosong di antara petak itu dan benteng Anda."
+    },
+    {
+      "type": "teach",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "title": "Garis Tetaplah Garis",
+      "text": "Papan baru, dan bentuk yang sama diputar empat puluh lima derajat.\n\nRaja Hitam di d4 dan benteng di g7 berdiri di diagonal panjang yang membentang dari a1 sampai h8, dengan hanya e5 dan f6 di antaranya. Buah yang lebih besar adalah yang lebih dekat. Itulah seluruh polanya: dua buah lawan di satu garis, yang berharga di depan.\n\nGajah Anda di c1 bergerak di diagonal. Temukan diagonal yang penting.\n\n> Satu garis, dua buah, dan taktik mana yang Anda pegang hanya bergantung pada buah mana yang berdiri di depan."
+    },
+    {
+      "type": "play",
+      "fen": "8/6r1/8/8/3k4/8/8/2B4K w - - 0 1",
+      "prompt": "Bawa gajah Anda ke diagonal yang dibagi kedua buah hitam, dengan sekak.",
+      "targetSan": [
+        "Bb2+"
+      ],
+      "hint": "Gajah Anda punya tujuh petak yang tersedia; tepat satu di antaranya mendarat di diagonal panjang itu."
+    }
+  ]
+}

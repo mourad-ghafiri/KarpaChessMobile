@@ -1,0 +1,14 @@
+{
+  "id": "deflection-01",
+  "fen": "2r3k1/pq3ppp/8/8/1n6/7P/PP1B1PP1/2RQ2K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Bxb4"
+  ],
+  "rating": 1100,
+  "title": "La dame a deux tâches",
+  "setup": "La dame noire en b7 défend à la fois la tour en c8 et le cavalier en b4.",
+  "hint": "Une pièce noire fait deux tâches. Donnez-lui quelque chose qu'elle ne peut pas refuser et voyez quelle tâche elle abandonne.",
+  "explanation": "## L'idée\n\n{{Rxc8+}} est échec, donc {{Qxc8}} est forcé — et la dame quitte la colonne b. {{Bxb4}} gagne alors le cavalier. Tour échangée contre tour d'abord, donc écarter le défenseur ne coûte rien. Cherchez une pièce à double emploi avant de chercher une combinaison."
+}

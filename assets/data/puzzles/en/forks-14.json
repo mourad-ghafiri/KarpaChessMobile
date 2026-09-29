@@ -1,0 +1,13 @@
+{
+  "id": "forks-14",
+  "fen": "2r1k3/p4ppp/8/8/4N3/8/PP3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nd6+",
+    "Kd7",
+    "Nxc8"
+  ],
+  "title": "Fork the Rook",
+  "setup": "Black's rook has crept to c8, close to its king. You are an exchange down, but one pawn up.",
+  "hint": "Find the square that checks the king and attacks c8 at the same time. It is one hop away.",
+  "explanation": "## The Idea\n\n{{Nd6+}} attacks the king on e8 and the rook on c8 at once. No black pawn stands on c7 or e7 to guard d6, so the knight is safe. {{Kd7}} guards the rook, but {{Nxc8}} takes it anyway, and after {{Kxc8}} the rooks and knights are gone. What is left is a pawn ending with your extra pawn.\n\nA fork that only wins the exchange can still be enough, when it leads to an ending you can win."
+}

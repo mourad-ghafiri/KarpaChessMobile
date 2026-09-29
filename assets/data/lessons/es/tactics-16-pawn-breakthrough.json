@@ -1,0 +1,74 @@
+{
+  "id": "pawn-breakthrough",
+  "title": "La irrupción de peones",
+  "summary": "Entrega dos peones y corona el tercero",
+  "proof": "pawn-breakthrough-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Tres contra tres",
+      "text": "Seis peones en dos filas y ninguno puede moverse sin ser capturado. Las Blancas tienen a5, b5 y c5; las Negras, a7, b7 y c7. Los dos reyes están aparcados al otro lado del tablero, demasiado lentos para importar.\n\nQuien llegue primero a la última fila gana la partida, y ahora mismo nadie llega a nada. Cada avance cae en una captura, y los peones no retroceden.\n\nJuegan las Blancas, y las Blancas ganan."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "title": "Los peones solo giran para capturar",
+      "text": "{{a6}} parece un avance hasta que {{bxa6}} lo contesta. Un peón regalado, y las Negras siguen teniendo tres peones contra dos.\n\nLa razón es la forma del movimiento. Un peón avanza recto y captura en diagonal, así que nada de lo que hagas delante de un peón negro lo sacará nunca de su columna. Un defensor solo abandona la columna que protege capturando algo en la columna de al lado.\n\nTu rey podría acercarse y ganar esto despacio. Los peones pueden resolverlo ya, si pones algo en esa columna y estás dispuesto a perderlo."
+    },
+    {
+      "type": "play",
+      "fen": "7k/ppp5/8/PPP5/8/8/8/6K1 w - - 1 2",
+      "prompt": "Ofrece un peón en el centro de la fila negra para que cualquiera de las dos capturas saque a un defensor de lado.",
+      "targetSan": [
+        "b6"
+      ],
+      "hint": "Solo uno de tus tres avances admite dos capturas distintas, y las dos vacían una columna."
+    },
+    {
+      "type": "play",
+      "fen": "7k/1pp5/1p6/P1P5/8/8/8/6K1 w - - 0 3",
+      "prompt": "Entrega un segundo peón para sacar al último defensor de la columna que quiere tu peón de a.",
+      "targetSan": [
+        "c6"
+      ],
+      "hint": "El peón de b7 es lo único que vigila el camino de tu peón de a, así que ofrécele algo en la columna de al lado."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/2p5/1pp5/P7/8/8/8/6K1 w - - 0 4",
+      "title": "Dos peones por un camino",
+      "text": "Dos peones gastados, y mira lo que compraron. Los tres peones negros que quedan están apretados en b6, c6 y c7, y en cuanto tu peón llegue a a6 ninguno podrá volver a tocarlo.\n\n{{a6}} {{c5}} {{a7}} {{c4}} {{a8=Q}}. El peón negro más rápido todavía está en la cuarta fila cuando llega el tuyo, y el rey negro de h8 nunca entró en la conversación.\n\nNinguno de los dos sacrificios intentaba sobrevivir. Cada uno le pedía a un peón negro que se pasara a la columna de al lado, y un defensor que cambia de columna deja de defender."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "title": "Un rey al final de la diagonal",
+      "text": "La misma idea, otro camino, y este termina en un rey. Tu alfil de b2 mira por la gran diagonal, y lo primero que encuentra es el peón negro de g7.\n\n{{Bxg7}} sacaría el tapón a mano, pero tras {{Kxg7}} has pagado un alfil por un peón, y es el rey negro quien está en la diagonal abierta.\n\nMejor que el peón se vaya solo. Un peón solo abandona su columna para capturar algo."
+    },
+    {
+      "type": "play",
+      "fen": "r1b2rk1/ppq2ppp/2np4/5P2/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 1 2",
+      "prompt": "Ofrece un peón al peón de g7 para que la captura que quiere hacer sea justo la que abre tu diagonal.",
+      "targetSan": [
+        "f6"
+      ],
+      "hint": "Un peón solo sale de su casilla para capturar, así que pon algo en una casilla que ataque el peón de g7."
+    },
+    {
+      "type": "teach",
+      "fen": "r1b2rk1/ppq2p1p/2np1p2/8/4P3/1P3N2/PB1Q2PP/R4RK1 w - - 0 3",
+      "title": "Fuera el tapón",
+      "text": "Las Negras capturaron y el tapón ha saltado: g7 está vacía y la gran diagonal llega hasta la esquina. Rehusar tampoco habría salvado a las Negras, porque entonces tu peón captura él mismo en g7.\n\n{{Bxf6}} recaptura en la gran diagonal, y desde f6 el alfil cubre las dos casillas vacías junto al rey negro, g7 y h8. Las Negras ya están perdidas. {{Qd8}} es la respuesta natural, que ataca al alfil, y lleva directo al final.\n\n> Pregúntate qué abriría un peón si lo capturaran, no si se puede capturar sin peligro."
+    },
+    {
+      "type": "play",
+      "fen": "r1bq1rk1/pp3p1p/2np1B2/8/4P3/1P3N2/P2Q2PP/R4RK1 w - - 1 4",
+      "prompt": "Mate en una: da jaque al rey negro por la columna g mientras tu alfil cubre sus dos casillas de escape.",
+      "targetSan": [
+        "Qg5#"
+      ],
+      "hint": "Tu alfil ya vigila g7 y h8, así que el rey no tiene adónde huir y solo tienes que llegar con jaque."
+    }
+  ]
+}

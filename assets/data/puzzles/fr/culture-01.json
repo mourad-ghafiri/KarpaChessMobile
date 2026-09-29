@@ -1,0 +1,13 @@
+{
+  "id": "culture-01",
+  "fen": "rnbqkbn1/ppppp3/7r/6pp/3P1p2/3BP1B1/PPP2PPP/RN1QK1NR w KQq - 2 7",
+  "solution": [
+    "Qxh5+",
+    "Rxh5",
+    "Bg6#"
+  ],
+  "title": "L'ordre des opérations",
+  "setup": "Les Noirs ont lancé trois pions en avant et le roi est toujours chez lui. Deux de vos pièces veulent le même coin.",
+  "hint": "Votre dame et votre fou peuvent chacun atteindre la diagonale qui aboutit au roi noir. Demandez-vous lequel des deux la tour en h6 peut prendre.",
+  "explanation": "## L'idée\n\nLa dame en d1 et le fou en d3 veulent tous deux la diagonale vers e8, et un seul ordre fonctionne.\n\n{{Qxh5+}} passe en premier. S'interposer par {{Rg6}} perd aussitôt, et après {{Rxh5}} la tour a quitté la sixième rangée, donc plus rien ne protège g6 : {{Bg6#}}. Le fou couvre f7, et les propres pions, dame et fou du roi remplissent le reste.\n\nCommencez par le fou et {{Bg6+}} reçoit pour réponse {{Rxg6}}. Pièce touchée, pièce jouée : vous ne pourrez pas changer d'avis."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "quiet-move",
+  "title": "The Quiet Move",
+  "summary": "No check, no capture, no threat, and nothing Black can do about it",
+  "proof": "quiet-move-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "The Check That Frees the King",
+      "text": "Black's king is stuck in the corner on h8, and White has a check waiting on the eighth rank.\n\n{{Ra8+}}, and Black replies {{Kh7}}. It is the only legal move, and it is the one square your king on f6 does not cover. The corner is empty now, the rook has to begin again, and Black has lost nothing at all.\n\nA check is a question, and the opponent gets to answer it. This one handed over the escape hatch for free."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "title": "Count the Corner",
+      "text": "So leave the check alone and count instead.\n\nFrom h8 the black king has two squares: g8 and h7. The rook covers the eighth rank the moment it arrives there, so g8 takes care of itself. h7 is the leak, and no rook in the world reaches h7 from the eighth rank.\n\nYour king on f6 already covers g7, which is why the corner has only two exits. It does not cover h7.\n\nClose h7 while Black has nothing to answer, and the check that failed ends the game instead."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/R7 w - - 1 2",
+      "prompt": "Use your king to take h7 away from Black's king, so that the rook's check on the eighth rank is mate.",
+      "targetSan": [
+        "Kg6"
+      ],
+      "hint": "Checking first only chases the king to h7, so take that square away before you check."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/6K1/8/8/8/8/R7 b - - 2 2",
+      "title": "One Legal Move",
+      "text": "Your king on g6 takes g7 and h7 away at once, and it never came near the black king. Count Black's replies: {{Kg8}}. That is the entire list.\n\nNow {{Ra8#}} arrives on a rank the king cannot leave, and the three squares under it — f7, g7 and h7 — all belong to your king.\n\nNothing was forced. The answers were taken away first, and the question came afterward."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "The Pawn That Cannot Move",
+      "text": "A new board, and Black's shelter is untouched: pawns on f7, g7 and h7, rooks on a8 and f8, a bishop on b7. Black is already lost.\n\nRead the g-file. Your rook on g1 points straight up at the king on g8, and the only thing standing between them is the pawn on g7.\n\nThat pawn looks like the guard of f6 and h6. It is pinned: capturing on either square would take it off the g-file and leave its own king in check from the rook, so it cannot capture at all — and the squares it appears to watch are watched by nobody."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "title": "Louder Is Slower",
+      "text": "The loud moves are there. {{Rxg7+}} throws the rook at the pawn, and {{Bxg7}} grabs it with the bishop, which the king cannot take back, since your rook on g1 guards g7. Both win, and both give Black moves to answer with.\n\nThere is better. Land a piece where Black has no answer to it, threaten mate for next move, and none of Black's thirty-odd legal moves touches the problem."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pbp2ppp/8/8/1n6/7P/PBPQ1P1K/6R1 w - - 1 2",
+      "prompt": "Bring your queen to a square the pinned pawn only pretends to guard, with mate to follow.",
+      "targetSan": [
+        "Qh6"
+      ],
+      "hint": "A pawn that would expose its own king by capturing is not really guarding anything."
+    }
+  ]
+}

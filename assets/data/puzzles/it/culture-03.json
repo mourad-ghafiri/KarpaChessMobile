@@ -1,0 +1,11 @@
+{
+  "id": "culture-03",
+  "fen": "r3k2r/ppp2ppp/3b4/3p4/4n3/1P2Pn1K/PBPPQ1P1/RN3R2 b kq - 1 13",
+  "solution": [
+    "Neg5+"
+  ],
+  "title": "Quale Cavallo?",
+  "setup": "Il re bianco è stato trascinato in h3, e tutti e due i vostri cavalli possono saltare in g5 con scacco. Uno solo dei due vince.",
+  "hint": "Il re ha esattamente una tana. I due salti di cavallo sembrano identici, e uno solo tiene coperta quella tana.",
+  "explanation": "## L'idea\n\nIl cavallo in f3 copre h4, l'unica casa dove il re bianco potrebbe scappare, quindi ci va l'altro cavallo.\n\n{{Neg5+}} lascia al re una sola risposta, {{Kg4}}, e {{h5+}} continua a spingerlo verso i vostri pezzi finché non è matto qualche mossa dopo. Mandate quello sbagliato, {{Nfg5+}}, e il re sguscia via in {{Kh4}}.\n\nQuando due pezzi identici arrivano a una casa, il formulario nomina la colonna da cui vengono. Qui quella lettera separa un matto forzato da una posizione soltanto buona."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "trapped-11",
+  "fen": "3r2k1/pp3pp1/7p/4N3/8/2P4P/1b1P1PP1/4R1K1 w - - 0 1",
+  "solution": [
+    "Nc4"
+  ],
+  "rating": 1370,
+  "title": "Quítale la última huida",
+  "setup": "El alfil negro de b2 tiene tres casillas vacías a su alrededor, a1, c1 y a3, y tu torre ya vigila dos.",
+  "hint": "Tu torre domina la última fila y tu peón de d defiende c3. ¿Qué pieza llega a la única casilla que sigue libre?",
+  "explanation": "## La idea\n\nLa torre de e1 cubre a1 y c1, y c3 la defiende el peón de d2, así que Bxc3 dxc3 no es ningún rescate. Solo a3 estaba libre, y {{Nc4}} la toma atacando al alfil. Todas las casillas están controladas, y la pieza tiene que caer."
+}

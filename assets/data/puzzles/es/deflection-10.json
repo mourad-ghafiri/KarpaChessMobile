@@ -1,0 +1,14 @@
+{
+  "id": "deflection-10",
+  "fen": "5rk1/pp3p1p/2n3p1/q7/8/1B6/PB4PP/4RQ1K w - - 1 2",
+  "solution": [
+    "Qxf7+",
+    "Rxf7",
+    "Re8#"
+  ],
+  "rating": 1440,
+  "title": "Fuera de la última fila",
+  "setup": "La torre negra de f8 sostiene a la vez el peón de f7 y la última fila, y tu alfil de b3 atraviesa f7.",
+  "hint": "La torre es la única pieza que defiende la octava fila. ¿Qué puedes darle que tenga que comerse?",
+  "explanation": "## La idea\n\nEl rey no puede comerse a {{Qxf7+}}, ya que el alfil de b3 cubre f7, así que {{Rxf7}} es forzada. Ahora la torre está clavada y fuera de la última fila, y {{Re8#}} termina la partida. Una torre que tiene que recapturar es una torre que ya no defiende."
+}

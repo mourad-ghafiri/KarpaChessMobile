@@ -1,0 +1,62 @@
+{
+  "id": "philidor-position",
+  "title": "Remis Philidor",
+  "summary": "Tertinggal satu pion dalam akhir permainan benteng, dan remisnya adalah pagar lalu jarak",
+  "proof": "philidor-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Tertinggal Satu Pion dan Tetap Seimbang",
+      "text": "Putih unggul satu pion dan ini tetap remis. Raja Anda di d8 menjaga c8, petak yang ingin dicapai pion di c5, dan itulah separuh pertama pertahanan, separuh yang sudah Anda miliki.\n\nSeparuh kedua adalah langkah benteng, dan ia harus datang sekarang, selagi pion Putih masih di tempatnya. Philidor mencatat metode ini pada tahun 1777 dan sejak itu tak ada yang mematahkannya. Dua gagasan, dimainkan dalam urutan yang tetap, dan urutan itulah sebagian besar triknya."
+    },
+    {
+      "type": "teach",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "title": "Tiga Pintu di Baris Keenam",
+      "text": "Pion tak bisa pulang sendirian; raja Anda menjaga jalannya, dan benteng Putih di h7 menahannya di baris belakang. Jadi raja Putih harus naik dan menyingkirkan raja Anda dengan bahunya, dan untuk naik ia harus melintasi baris keenam — baris dihitung dari sisi Putih di sini, seperti biasa.\n\nBaris itu punya tepat tiga pintu: c6, d6 dan e6. Dan benteng bukanlah penjaga sebuah petak, melainkan pagar di sepanjang garis, artinya ketiga pintu tertutup dalam satu langkah."
+    },
+    {
+      "type": "play",
+      "fen": "r2k4/7R/8/2PK4/8/8/8/8 b - - 0 1",
+      "prompt": "Rebut seluruh baris keenam dari raja Putih sebelum ia bisa memakai salah satu petak itu.",
+      "targetSan": [
+        "Ra6"
+      ],
+      "hint": "Hanya barisnya yang penting, dan benteng menguasai seluruhnya dari mana pun ia mendarat."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "Empat Petak, Tiga di Antaranya Mundur",
+      "text": "Pagarnya sudah berdiri, dan raja Putih di d5 kini bisa menghitung seluruh daftarnya: {{Kc4}}, {{Kd4}}, {{Ke4}}, {{Ke5}}.\n\nTiga mundur, satu menyamping. c6, d6 dan e6 sudah bukan lagi langkah sama sekali, karena raja tak boleh melangkah ke petak yang diserang benteng Anda. Putih boleh saja mondar-mandir di sana selama kesabarannya bertahan. Mondar-mandir tak membawa pion pulang."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r7/2PK4/8/8/8/8 w - - 1 2",
+      "title": "Dorongan yang Ada Harganya",
+      "text": "Satu langkah mengubah posisinya, bukan sekadar nomor langkahnya: {{c6}}.\n\nHitung apa yang baru saja dibayar Putih. Dengan pion di c5, raja punya atap: berdiri di c6, di depan pionnya sendiri, ia tak akan pernah bisa disekak dari belakang, karena pion menghalangi lajur. Kini pion sendiri yang mengambil petak itu, dan atap berikutnya adalah c7, tepat di samping raja Anda.\n\nJadi pagar Anda telah menyelesaikan tugasnya. Yang penting mulai sekarang adalah jarak."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Pergilah ke Ujung Jauh",
+      "text": "Benteng Anda meninggalkan baris keenam dan berjalan ke ujung papan yang lain, di belakang raja Putih, lalu memberi sekak dari sana.\n\nJarak adalah seluruh pertahanannya. Raja bisa melepaskan diri dari benteng yang memberi sekak dari dekat dengan berjalan mendekat dan mengancamnya; dari ujung papan yang jauh tak ada yang bisa didekati, dan raja Putih harus meninggalkan pion di c6 untuk mencarinya. Setiap kali ia melangkah keluar untuk mengawal pion itu, satu sekak lagi datang, dan sekak-sekak itu tak pernah habis."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "title": "Mengapa Anda Menunggu",
+      "text": "Urutan lebih penting daripada kedua langkah itu sendiri. Kirim benteng pergi lebih dulu, selagi pion masih berdiri di c5, dan Putih tak perlu mendorong sama sekali: rajanya melangkah ke c6, di depan pionnya sendiri, tempat tak ada sekak dari belakang yang bisa menjangkaunya karena pion menghalangi benteng. Dari bawah atap itu ia berjalan masuk, dan kemenangan milik Putih.\n\n> Kuasai barisnya selama pion diam. Begitu pion bergerak, pergilah sejauh yang diizinkan papan."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/7R/r1P5/3K4/8/8/8/8 b - - 0 2",
+      "prompt": "Beralihlah dari menghalangi ke memberi sekak, dari tempat sejauh yang diizinkan papan ini.",
+      "targetSan": [
+        "Ra1"
+      ],
+      "hint": "Benteng pemberi sekak yang bisa didekati raja tak ada gunanya, jadi hitung seberapa jauh dari raja Putih benteng Anda bisa berada."
+    }
+  ]
+}

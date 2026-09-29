@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-03",
+  "fen": "4k3/pp2qppp/8/8/8/8/PPB2KPP/3R4 w - - 0 1",
+  "solution": [
+    "Re1"
+  ],
+  "title": "Punto Esatto sulla Colonna e",
+  "setup": "La donna nera sta in e7, proprio davanti al suo re, e la colonna e sotto di lei è aperta.",
+  "hint": "Quando la donna fa da scudo al suo re, diventa un bersaglio fermo.",
+  "explanation": "## L'idea\n\n{{Re1}} inchioda la donna contro il re in e8. La donna non può lasciare la colonna e senza esporre il suo re, e il vostro re in f2 difende e1, quindi reagire con {{Qxe1+}} dà la donna per una torre dopo {{Kxe1}}. Anche ogni altra risposta perde la donna.\n\nUn pezzo inchiodato non è davvero un pezzo: è un bersaglio."
+}

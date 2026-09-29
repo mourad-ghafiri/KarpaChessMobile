@@ -1,0 +1,11 @@
+{
+  "id": "culture-03",
+  "fen": "r3k2r/ppp2ppp/3b4/3p4/4n3/1P2Pn1K/PBPPQ1P1/RN3R2 b kq - 1 13",
+  "solution": [
+    "Neg5+"
+  ],
+  "title": "Hangi At?",
+  "setup": "Beyazın şahı h3'e sürüklenmiş ve iki atınız da şah çekerek g5'e sıçrayabiliyor. Yalnızca biri kazanıyor.",
+  "hint": "Şahın tam olarak tek bir kaçamak deliği var. İki at sıçrayışı da birbirinin aynısı görünüyor ve yalnızca biri o deliği kapalı tutuyor.",
+  "explanation": "## Fikir\n\nf3'teki at, beyazın şahının kaçabileceği tek kare olan h4'ü kapsıyor; öyleyse öteki at gider.\n\n{{Neg5+}} şaha tek bir cevap bırakır, {{Kg4}}, ve {{h5+}} onu birkaç hamle sonra mat olana kadar taşlarınıza doğru sürmeyi sürdürür. Yanlışını gönderirseniz, {{Nfg5+}}, şah {{Kh4}} ile sıvışır.\n\nİki aynı taş tek bir kareye ulaşabildiğinde notasyon kâğıdı geldikleri dikeyi yazar. Burada o harf, zorunlu bir matı yalnızca iyi bir pozisyondan ayırıyor."
+}

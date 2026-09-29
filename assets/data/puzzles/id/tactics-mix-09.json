@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-09",
+  "fen": "r3k3/8/8/8/8/8/R7/4K3 w - - 0 1",
+  "solution": [
+    "Rxa8+"
+  ],
+  "title": "Ambil Benteng yang Tak Terlindungi",
+  "setup": "Dua benteng saling berhadapan di **lajur a** — dan raja Hitam juga berada di baris belakang.",
+  "hint": "Periksa benteng mana dari keduanya di lajur a yang punya pembela.",
+  "explanation": "## Ide\n\nBenteng hitam di a8 tak punya pembela: raja di e8 berjarak empat petak. {{Rxa8+}} mengambilnya dengan sekak, raja harus keluar dari baris belakang, dan Anda tinggal punya raja dan benteng melawan raja sendirian, kemenangan yang pasti.\n\nBenteng Anda di a2 sama tak terlindunginya, jadi jika giliran Hitam, benteng Anda yang akan jatuh. Ketika dua buah yang tak terlindungi saling berhadapan, siapa yang melangkah lebih dulu, dialah yang menang."
+}

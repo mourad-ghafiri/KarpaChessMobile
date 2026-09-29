@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-05",
+  "fen": "4k3/8/4q3/8/8/8/8/4R1K1 w - - 0 1",
+  "solution": [
+    "Rxe6+"
+  ],
+  "title": "Jepitan Jarak Jauh",
+  "setup": "Benteng Anda di e1, menteri hitam dan raja hitam semuanya berdiri di satu lajur terbuka, dan tak ada apa pun di antara ketiganya.",
+  "hint": "Menteri yang terjepit masih bisa meluncur di sepanjang garis jepitannya. Jangan berikan langkah itu kepadanya.",
+  "explanation": "## Ide\n\nMenteri di e6 terjepit: keluar dari lajur e dan benteng Anda akan menyerang raja di e8. Tetapi ia masih bisa meluncur di sepanjang lajur itu, dan ia menatap lurus ke benteng Anda. Jadi tak ada waktu untuk menumpuk penyerang. {{Rxe6+}} mengambilnya sekarang, raja di e8 terlalu jauh untuk menangkap balik, dan Putih punya benteng melawan raja sendirian."
+}

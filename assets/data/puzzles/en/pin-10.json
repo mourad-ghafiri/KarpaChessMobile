@@ -1,0 +1,12 @@
+{
+  "id": "pin-10",
+  "fen": "5k2/5p2/3nq2R/4p1p1/1P2p2N/2PPP3/3r1Q2/6K1 w - - 0 1",
+  "solution": [
+    "Rxe6"
+  ],
+  "rating": 1150,
+  "title": "Rook Takes Queen",
+  "setup": "Your queen on f2 looks up an empty f-file at the black pawn on f7 and the king standing behind it.",
+  "hint": "The black queen is guarded once, by a pawn. What is your own queen doing to that pawn from f2?",
+  "explanation": "## The Idea\n\n{{Rxe6}} wins the queen for a rook. The f7-pawn is its only defender, and it is pinned to the king on **f8** by your queen on **f2**. Every square between them is empty, so the recapture is illegal and the queen is gone."
+}

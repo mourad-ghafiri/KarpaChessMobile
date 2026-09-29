@@ -1,0 +1,56 @@
+{
+  "id": "the-pin",
+  "title": "L'Inchiodatura",
+  "summary": "Quando muovere un pezzo è illegale, e quando è soltanto rovinoso",
+  "proof": "pins-skewers-06.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Nove Punti che Non Vanno da Nessuna Parte",
+      "text": "La donna nera vale nove punti e non ha il permesso di lasciare la colonna d.\n\nSu quella colonna stanno tre pezzi: la vostra torre in d2, la donna nera in d6, il re nero in d8. Mandate la donna da qualunque parte fuori dalla colonna e il re dietro di lei resta esposto alla torre. Quella mossa non è brutta. È illegale, e la scacchiera non la gioca.\n\nLa donna è **inchiodata** — tenuta ferma da quello che le sta dietro."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Lungo la Linea, e Da Nessun'Altra Parte",
+      "text": "Un pezzo inchiodato non è congelato. Può viaggiare lungo la linea dell'inchiodatura, dove il re resta coperto: la donna può andare in d7 o in d5, e può perfino prendere la torre. Tutto il resto della scacchiera è chiuso.\n\nQuesta è un'**inchiodatura assoluta** — il pezzo dietro è il re, quindi lasciare la linea è vietato, non semplicemente imprudente.\n\nLa vostra torre è inchiodata esattamente allo stesso modo, dalla donna, contro il vostro re in d1. Due pezzi inchiodati, una colonna. L'unica differenza è di chi è il tratto."
+    },
+    {
+      "type": "teach",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "title": "Tre Pezzi Ci Riescono",
+      "text": "Un'inchiodatura è una linea, quindi può farla solo un pezzo che attacca lungo una linea: la donna, la torre, l'alfiere. La lista è tutta qui.\n\nUn cavallo non può inchiodare. La sua mossa non tocca niente fra partenza e arrivo, e nessuna linea prosegue oltre dove atterra perché ci stia sopra un secondo pezzo. Un pedone e un re arrivano a una casa e si fermano, il che li esclude a loro volta.\n\nTre pezzi possono inchiodare. Qualunque pezzo può essere inchiodato."
+    },
+    {
+      "type": "play",
+      "fen": "3k4/8/3q4/8/8/8/3R4/3K4 w - - 0 1",
+      "prompt": "Prendetevi i nove punti che non possono togliersi dalla strada della vostra torre.",
+      "targetSan": [
+        "Rxd6+"
+      ],
+      "hint": "Niente difende d6, e la mossa che se li prende non lascia mai la colonna d."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Quando Muovere È Solo Caro",
+      "text": "Mettete dietro al pezzo inchiodato qualcosa che non sia un re e tutta la faccenda si ammorbidisce.\n\nL'alfiere bianco in g5 guarda attraverso il cavallo di f6 fino alla donna in d8, con e7 vuota in mezzo. Il cavallo nero può muovere. Su qualunque casa gli piaccia, perfettamente legale — e costa una donna per un alfiere.\n\nQuesta è un'**inchiodatura relativa**. Niente vieta la mossa; solo il prezzo la sconsiglia, e ogni tanto il prezzo vale la pena pagarlo."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "title": "Liberarsi",
+      "text": "Un'inchiodatura finisce in uno di tre modi. Prendete il pezzo che inchioda. Mettete qualcosa sulla linea fra i due. Oppure muovete il pezzo che sta dietro, così non resta niente da guadagnare — {{Qd6}} fa proprio questo qui, e il cavallo è libero.\n\nNon fare niente è l'opzione cara. Ogni pezzo che il Bianco punta su f6 arriva contro un cavallo che non può scansarsi, e un'inchiodatura che costa poco sopportare per una mossa costa parecchio su cinque."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "prompt": "Chiudete la diagonale fra l'alfiere bianco e la vostra donna, così il cavallo può muovere di nuovo.",
+      "targetSan": [
+        "Be7"
+      ],
+      "hint": "Fra il cavallo inchiodato e la vostra donna c'è una casa vuota — quale pezzo può occuparla senza restare in presa?"
+    }
+  ]
+}

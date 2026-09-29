@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-10",
+  "fen": "rnb2b1r/ppk2ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w - - 2 11",
+  "solution": [
+    "Bd8#"
+  ],
+  "rating": 865,
+  "title": "Di Belakang Raja",
+  "setup": "Raja hitam telah lari ke c7, tempat kuda dan gajahnya sendiri menutup b8 dan c8.",
+  "hint": "Lajur d sudah disegel benteng Anda, jadi carilah sekak yang merebut petak diagonal terakhir.",
+  "explanation": "## Ide\n\nBenteng di d1 menguasai d6 dan d7, dan kuda serta gajah Hitam sendiri menutup b8 dan c8, menyisakan b6. {{Bd8#}} memberi sekak dari ujung jauh diagonal dan menguasai b6 dalam perjalanannya. Petak mat bisa berada di belakang raja, bukan di depannya."
+}

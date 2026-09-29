@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-04",
+  "fen": "8/8/8/3kp2P/8/8/8/4K3 b - - 0 1",
+  "solution": [
+    "Ke6"
+  ],
+  "rating": 1210,
+  "title": "Pintu yang Terhalang",
+  "setup": "Kedua pihak punya pion pelari, dan raja hitam berdiri satu lajur di luar persegi pion putih.",
+  "hint": "Hitung persegi pion h, lalu lihat buah Anda sendiri mana yang duduk di salah satu petak masuknya.",
+  "explanation": "## Ide\n\nPerseginya adalah h5–h8–e8–e5, dan pion Hitam sendiri menempati e5, pintu yang wajar. {{Ke6}} satu-satunya jalan masuk lain, dan dari sana raja membayangi pion sampai h8. Berlomba dengan {{e4}} kalah satu langkah. Hitung buah-buah Anda sendiri sebelum menghitung milik Putih."
+}

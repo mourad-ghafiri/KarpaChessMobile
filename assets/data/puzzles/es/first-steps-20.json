@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-20",
+  "fen": "4r3/1k1P4/8/8/8/8/8/6K1 w - - 0 1",
+  "solution": [
+    "dxe8=Q"
+  ],
+  "title": "Coronación con premio",
+  "setup": "Tu peón de d7 está a un paso de la última fila, y hay una torre negra en diagonal delante de él.",
+  "hint": "Los peones capturan en diagonal, incluso en su último paso. Dos premios en una sola jugada.",
+  "explanation": "## La idea\n\nEl último paso de un peón sigue las reglas habituales del peón, captura en diagonal incluida. Coronar en línea recta con {{d8=Q}} deja que {{Rxd8}} capture la nueva dama.\n\n{{dxe8=Q}} captura la torre y corona en la misma jugada: cinco puntos capturados y nueve creados, y el rey de b7 no llega a e8.\n\nAntes de llevar un peón a la última fila, compara el paso recto con la captura."
+}

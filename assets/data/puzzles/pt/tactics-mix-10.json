@@ -1,0 +1,11 @@
+{
+  "id": "tactics-mix-10",
+  "fen": "4k3/2P5/8/8/8/8/8/4K3 w - - 0 1",
+  "solution": [
+    "c8=Q+"
+  ],
+  "title": "Coroa o Peão",
+  "setup": "O peão branco chegou a **c7** — a um passo de uma dama acabada de nascer.",
+  "hint": "Promove sempre com xeque quando puderes. Isso nega ao defensor uma jogada de borla.",
+  "explanation": "## A Ideia\n\n{{c8=Q+}} promove com xeque pela oitava linha. O rei não pode comer a dama nova e nada pode tapar, portanto as pretas têm de gastar a jogada com o rei, e ficas com rei e dama contra um rei nu.\n\nEspera uma jogada em vez disso e {{Kd7}} ataca o peão, e ele perde-se. Quando um peão pode promover em segurança, promove-o já, e prefere a promoção que dá xeque."
+}

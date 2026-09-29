@@ -1,0 +1,50 @@
+{
+  "id": "rook-mate",
+  "title": "Rey y torre contra rey",
+  "summary": "La torre levanta el muro; solo el rey puede cerrar la puerta",
+  "proof": "endgames-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "La columna que nadie cruza",
+      "text": "Una torre, una columna, y la partida ya está decidida. Mientras tu torre ocupe g1, el rey negro nunca podrá cruzar la columna g, así que su mundo es h7 y h8: dos casillas, para siempre.\n\nEse corte es la mayor parte del trabajo, y también el límite de lo que puede hacer una torre sola. Los dos jaques disponibles ceden g8, y los dos son peores que nada: {{Rg8+}} {{Kxg8}} entrega la torre, y el otro jaque deja que el rey negro salga a esa casilla.\n\nEl muro sigue en pie. Algo más tiene que venir a cerrar la puerta."
+    },
+    {
+      "type": "teach",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "title": "Una jugada pulcra, medio punto",
+      "text": "{{Rg7}} parece la misma idea, una casilla mejor. Toma g8 y h7 a la vez, tu rey de f6 la defiende para que no la capturen, y el rey negro no está en jaque.\n\nEsa última parte es todo el desastre. Sin jaque, y sin una sola jugada legal en todo el tablero: rey ahogado, medio punto, y tu rey todavía donde empezó.\n\n> Una torre quita casillas toda la partida. La última casilla es la que nunca debe quitar sola."
+    },
+    {
+      "type": "play",
+      "fen": "7k/8/5K2/8/8/8/8/6R1 w - - 0 1",
+      "prompt": "Tu torre no puede quitar las casillas junto a un rey, así que trae la pieza que sí puede.",
+      "targetSan": [
+        "Kf7"
+      ],
+      "hint": "Deja el muro exactamente donde está y acerca tu otra pieza a las Negras hasta que los dos reyes queden frente a frente con una casilla entre ellos."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "Lo que la torre no sabe hacer",
+      "text": "Tu rey hizo el camino, las Negras tenían una única respuesta legal, y los dos reyes están ahora a una casilla en la séptima fila. Es de nuevo la oposición, esta vez ganándose el sueldo en casillas y no en tiempos: el rey blanco de f7 cubre g6, g7 y g8, todo el camino de vuelta al tablero.\n\nUna torre da jaque a lo largo de una línea, y un rey simplemente sale de la línea. Algo tiene que estar esperando en las casillas a las que va. Tu rey es la única pieza que puede esperar ahí sin que la capturen. La torre nunca gana este final sola."
+    },
+    {
+      "type": "teach",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "title": "Acercar el muro",
+      "text": "Nada de esto depende de la esquina. Desde cualquier posición es un mismo bucle, repetido hasta que se acaba el tablero.\n\nCorta al rey solo con tu torre, para que haya una línea que no pueda cruzar. Haz subir tu propio rey hasta que los dos queden frente a frente con una casilla entre ellos. Y cada vez que el rey solo se desplace de lado a lo largo del muro, acerca el muro una columna detrás de él.\n\nLa caja se hace más pequeña en cada pasada y nunca vuelve a crecer, y por eso este final es técnica y no cálculo."
+    },
+    {
+      "type": "play",
+      "fen": "8/5K1k/8/8/8/8/8/6R1 w - - 2 2",
+      "prompt": "A las Negras les quedan dos casillas y las dos están en una línea: toma toda esa línea con tu torre.",
+      "targetSan": [
+        "Rh1#"
+      ],
+      "hint": "Llega desde el otro extremo, lejos del alcance del rey negro, para que el jaque y la última casilla libre lleguen en la misma jugada."
+    }
+  ]
+}

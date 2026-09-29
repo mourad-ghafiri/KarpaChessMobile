@@ -1,0 +1,57 @@
+{
+  "id": "knight-moves",
+  "title": "La L del caballo",
+  "summary": "La única pieza que salta el muro en lugar de rodearlo",
+  "proof": "first-steps-02.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Dos casillas y luego una",
+      "text": "Dos casillas y luego una hacia un lado. Ese es cada salto de caballo que ha existido.\n\nEl caballo es la única pieza que se niega a ir en línea recta. No se desliza por una fila ni por una columna: salta de donde está a donde aterriza, sin tocar nada en medio.\n\nMíralo: {{Nf6}}. Dos casillas hacia arriba desde e4 y una a la derecha. Una **L**, dibujada en una sola jugada."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Ocho casillas de llegada",
+      "text": "Cuéntalas desde e4: {{Nd6}}, {{Nf6}}, {{Nc5}}, {{Ng5}}, {{Nc3}}, {{Ng3}}, {{Nd2}}, {{Nf2}}. Ocho flechas saliendo de una misma casilla, y cualquiera de las ocho es una jugada legal.\n\nAhora pon ese mismo caballo en la esquina, en a1, y vuelve a contar: dos. Seis de sus L se salen del tablero y se llevan sus casillas con ellas.\n\nAsí que el caballo quiere el centro. Es la única pieza cuya fuerza se lee en su dirección."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "prompt": "Salta con el caballo a cualquier casilla a la que lo lleve una L desde e4.",
+      "targetSan": [
+        "Nd6",
+        "Nf6",
+        "Nc5",
+        "Ng5",
+        "Nc3",
+        "Ng3",
+        "Nd2",
+        "Nf2"
+      ],
+      "hint": "Cuenta dos casillas por una fila o una columna y gira una hacia un lado. Todas las direcciones valen."
+    },
+    {
+      "type": "teach",
+      "fen": "8/8/8/8/4N3/8/8/4K3 w - - 0 1",
+      "title": "Nunca dos veces el mismo color",
+      "text": "La casilla e4 es blanca. Las ocho casillas que acaba de alcanzar el caballo son negras.\n\nEso se cumple en todo el tablero. Un caballo cambia el color bajo sus pies en cada salto, y no tiene elección.\n\nLo que te regala una cuenta gratis: todo lo que esté en una casilla blanca queda fuera del alcance de un caballo situado en casilla blanca. Fuera de su alcance en esta jugada, al menos. En la siguiente, será al revés."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "title": "Por encima del muro",
+      "text": "Toda partida empieza en un atasco. Los alfiles, las torres y la dama están encerrados detrás de sus propios peones, y cada uno tiene que esperar a que un peón le abra paso.\n\nLos caballos no esperan. {{Nf3}} salta la línea de peones en la primera jugada, y el peón de f2 ni siquiera nota la corriente de aire.\n\nPor eso los caballos suelen ser las primeras piezas en abandonar la primera fila.\n\n> Los demás necesitan una puerta. El caballo salta el muro."
+    },
+    {
+      "type": "play",
+      "fen": "8/8/3p4/3pp3/2N5/8/8/4K3 w - - 0 1",
+      "prompt": "Tu caballo está atacado: sal de la casilla y captura el peón negro que nadie defiende.",
+      "targetSan": [
+        "Nxd6"
+      ],
+      "hint": "Un caballo ignora lo que se interpone, así que mira más allá del muro de peones y pregúntate qué peón de detrás tiene a otro listo para recapturar."
+    }
+  ]
+}

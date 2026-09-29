@@ -1,0 +1,13 @@
+{
+  "id": "zwischenzug-proof",
+  "fen": "r1b2rk1/pp3ppp/1Q1p4/4p3/3nP3/8/PPP1BPPP/R1B2RK1 b - - 0 1",
+  "solution": [
+    "Nxe2+",
+    "Kh1",
+    "axb6"
+  ],
+  "title": "The Queen Can Wait",
+  "setup": "White's queen has just captured yours on b6. Taking back is the obvious move, and it is not the best one.",
+  "hint": "Your recapture can wait one move, as long as the move before it is a check.",
+  "explanation": "## The Idea\n\n{{axb6}} at once is an even trade, and then White simply moves the bishop on e2 away from your knight. So check first. {{Nxe2+}} takes the bishop, and {{Kh1}} is White's only legal move. The queen on b6 is still standing there, and {{axb6}} collects it. You took back one move late and a whole bishop richer."
+}

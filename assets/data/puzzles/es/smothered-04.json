@@ -1,0 +1,12 @@
+{
+  "id": "smothered-04",
+  "fen": "2r3nk/pp4pp/1q6/4N3/8/8/PB3PPP/3R2K1 w - - 5 25",
+  "solution": [
+    "Nf7#"
+  ],
+  "rating": 1245,
+  "title": "Dos jaques, un mate",
+  "setup": "Las Negras acaban de replegar su caballo a g8, dejando al rey con tres vecinos y ninguna casilla vacía.",
+  "hint": "Aquí tu caballo tiene dos jaques disponibles; averigua cuál de ellos no puede comerse sin más el peón de h.",
+  "explanation": "## La idea\n\nDos saltos de caballo dan jaque, pero {{Ng6+}} se topa con hxg6. {{Nf7#}} cae en la única casilla que no cubre ninguna pieza negra, y con g8, g7 y h7 ocupadas por sus propias piezas, el rey no tiene adónde ir. Comprueba siempre si al jaque asfixiante se lo pueden comer."
+}

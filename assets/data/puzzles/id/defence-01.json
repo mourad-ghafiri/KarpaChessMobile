@@ -1,0 +1,14 @@
+{
+  "id": "defence-01",
+  "fen": "7r/7k/q7/7K/6Qb/1R6/8/8 w - - 0 1",
+  "solution": [
+    "Rb7+",
+    "Be7",
+    "Rxe7#"
+  ],
+  "rating": 1450,
+  "title": "Tak Ada Langkah Tersisa",
+  "setup": "Raja Anda terdampar di h5 dengan menteri, benteng dan gajah Hitam semuanya dalam jangkauan — satu langkah hitam lagi dan semuanya selesai.",
+  "hint": "Bertahan berarti kalah. Hitung sekak-sekak Anda sendiri dan temukan sekak yang tak bisa dijawab Hitam dua kali.",
+  "explanation": "## Ide\n\nHitam mengancam mat di h6, jadi tak ada waktu untuk bertahan. {{Rb7+}} memberi sekak lebih dulu dan menyisakan dua jawaban. {{Be7}} menutup, dan {{Rxe7#}} mengambil penghalangnya. {{Qxb7}} mengambil benteng sebagai gantinya, dan {{Qg6#}} memberi mat.\n\nKetika kedua raja sama-sama terancam, pihak yang memberi sekak menentukan urutan langkah."
+}

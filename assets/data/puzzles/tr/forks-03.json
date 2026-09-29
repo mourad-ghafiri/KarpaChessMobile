@@ -1,0 +1,11 @@
+{
+  "id": "forks-03",
+  "fen": "4k3/8/8/3q4/4N3/8/8/4K3 w - - 0 1",
+  "solution": [
+    "Nf6+"
+  ],
+  "title": "At Şahla Veziri Çatallıyor",
+  "setup": "Siyahın e8'deki şahı ile d5'teki veziri, aynı kareye birer at sıçrayışı uzaklıkta.",
+  "hint": "Atın inebileceği ve **hem** şaha **hem** vezire vuran kareyi arayın.",
+  "explanation": "## Fikir\n\nBir **şah çatalı**: şah ile vezire tek hamlede vuruluyor. f6 karesi e8'den bir at sıçrayışı, d5'ten de bir at sıçrayışı uzaklıktadır; yani oraya inmek ikisine birden dokunur.\n\n{{Nf6+}} kapatılamaz, çünkü at aradaki kareleri hiç geçmez ve ne şah ne vezir onu almak için f6'ya ulaşabilir. Şahın oynaması gerekir ve {{Nxd5}} veziri toplar.\n\nŞahtan bir at sıçrayışı ve değerli bir şeyden bir at sıçrayışı uzaklıktaki kareyi bulun."
+}

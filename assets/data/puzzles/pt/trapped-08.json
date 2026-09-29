@@ -1,0 +1,12 @@
+{
+  "id": "trapped-08",
+  "fen": "3r2k1/ppp2p2/3p1n2/6pp/8/2N4B/PP3PP1/5RK1 b - - 0 1",
+  "solution": [
+    "g4"
+  ],
+  "rating": 1270,
+  "title": "Preenche a Última Casa",
+  "setup": "O bispo branco em h3 tem o seu próprio peão em g2 atrás e a sua própria torre em f1 mais adiante.",
+  "hint": "As próprias peças das brancas tapam uma diagonal por completo. A outra começa numa casa que o teu peão h já guarda.",
+  "explanation": "## A Ideia\n\n{{g4}} deixa o bispo sem nada: g2 é o peão das brancas, f1 a sua torre, e o peão agora em g4 é guardado por h5. Às brancas só resta largar uma peça, e ...gxh3 recolhe-a na jogada seguinte. Encurrala-se um bispo preenchendo casas, não perseguindo-o."
+}

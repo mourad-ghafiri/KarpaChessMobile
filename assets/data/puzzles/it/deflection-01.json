@@ -1,0 +1,14 @@
+{
+  "id": "deflection-01",
+  "fen": "2r3k1/pq3ppp/8/8/1n6/7P/PP1B1PP1/2RQ2K1 w - - 1 2",
+  "solution": [
+    "Rxc8+",
+    "Qxc8",
+    "Bxb4"
+  ],
+  "rating": 1100,
+  "title": "La Donna ha Due Compiti",
+  "setup": "La donna nera in b7 sta difendendo insieme la torre in c8 e il cavallo in b4.",
+  "hint": "Un pezzo nero fa due lavori. Dategli qualcosa che non possa rifiutare e guardate quale lavoro lascia cadere.",
+  "explanation": "## L'idea\n\n{{Rxc8+}} è scacco, quindi {{Qxc8}} è forzata — e la donna lascia la colonna b. {{Bxb4}} vince allora il cavallo. Prima torre cambiata per torre, quindi tirare via il difensore non costa niente. Cercate un pezzo con due compiti prima di cercare una combinazione."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "overload-07",
+  "fen": "1Q3bk1/R4ppp/8/6r1/8/8/PPR5/K7 w - - 0 1",
+  "solution": [
+    "Qxf8+",
+    "Kxf8",
+    "Rc8#"
+  ],
+  "rating": 1490,
+  "title": "Una dama por un alfil",
+  "setup": "El alfil negro ha vuelto a f8, y tienes una torre en la séptima y otra esperando en c2.",
+  "hint": "Aquí no cuentas material: cuentas casillas de escape. Encuentra la única pieza que las proporciona todas.",
+  "explanation": "## La idea\n\n{{Qxf8+}} parece absurda hasta que ves que {{Kxf8}} es forzada y el rey está ahora en la fila que domina la torre de c2. {{Rc8#}} lo termina, con la torre de a7 cubriendo e7, la única casilla de escape que no quitan los propios peones."
+}

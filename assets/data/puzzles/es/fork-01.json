@@ -1,0 +1,14 @@
+{
+  "id": "fork-01",
+  "fen": "3r3k/pp4pp/8/4N3/8/8/PP3PPP/6K1 w - - 1 2",
+  "solution": [
+    "Nf7+",
+    "Kg8",
+    "Nxd8"
+  ],
+  "rating": 700,
+  "title": "Jaque y a cobrar",
+  "setup": "El rey negro está metido en h8 y la torre está en d8, las dos a un salto de caballo de la misma casilla.",
+  "hint": "Encuentra la casilla desde la que tu caballo toca al rey y a la torre en la misma jugada.",
+  "explanation": "## La idea\n\n{{Nf7+}} ataca h8 y d8 a la vez. El jaque no es opcional: nada puede comer en f7 y un jaque de caballo nunca se puede tapar, así que {{Kg8}} es la única jugada legal de las Negras. Luego {{Nxd8}} se lleva la torre."
+}

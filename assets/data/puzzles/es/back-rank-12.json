@@ -1,0 +1,13 @@
+{
+  "id": "back-rank-12",
+  "fen": "5rk1/5ppp/8/8/8/8/3Q1PPP/3R2K1 w - - 0 1",
+  "solution": [
+    "Qd8",
+    "Rxd8",
+    "Rxd8#"
+  ],
+  "title": "Desvía al defensor",
+  "setup": "La torre de f8 protege la última fila, y tu dama y tu torre dominan la columna d abierta junto a ella. Desvía a ese defensor.",
+  "hint": "El defensor vigila d8 desde el lado. Dale en esa casilla algo que no pueda rechazar.",
+  "explanation": "## La idea\n\nLa torre de f8 protege toda la octava fila, d8 incluida. {{Qd8}} pone la dama en esa casilla y reta a la torre a capturarla.\n\nSi {{Rxd8}}, entonces {{Rxd8#}}: el defensor se ha ido, y los peones de f7, g7 y h7 encierran al rey. A las Negras les va mejor rehusar con una jugada de peón que dé aire al rey, pero {{Qxf8+}} {{Kxf8}} deja igualmente tu torre contra un rey solo."
+}

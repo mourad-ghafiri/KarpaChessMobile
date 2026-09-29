@@ -1,0 +1,12 @@
+{
+  "id": "remove-guard-07",
+  "fen": "3r2k1/p4ppp/4n3/2b5/6B1/7P/P4PP1/2R3K1 w - - 1 2",
+  "solution": [
+    "Bxe6"
+  ],
+  "rating": 1290,
+  "title": "Bir Adım Geride",
+  "setup": "c1'deki kaleniz c5'teki fili gözlüyor ve e6'daki at onu hayatta tutan tek şey.",
+  "hint": "Hedef bir kez korunuyor. O tek koruyucuya bakın ve taşlarınızdan hangisinin ona ulaşabildiğini sorun.",
+  "explanation": "## Fikir\n\n{{Bxe6}} c5'i koruyan atı alır. {{fxe6}} geldikten sonra fil boşta kalır ve {{Rxc5}} onu toplar. Ata karşılık fil adil bir değişimdir — c5'teki fil ikramiyedir. Tek bir eşit değişim koca bir bedava taşı açığa çıkarabilir."
+}

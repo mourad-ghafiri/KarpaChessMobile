@@ -1,0 +1,11 @@
+{
+  "id": "mate-in-1-06",
+  "fen": "6k1/8/6K1/8/8/8/8/1Q6 w - - 0 1",
+  "solution": [
+    "Qb8#"
+  ],
+  "title": "Reyes cara a cara",
+  "setup": "Los reyes están frente a frente en la columna g, y tu dama espera en b1 con todo el tablero para ella.",
+  "hint": "Tu rey ya cubre f7, g7 y h7. ¿Qué fila le queda por tomar a la dama?",
+  "explanation": "## La idea\n\nLos reyes están frente a frente con una casilla entre ellos, así que el tuyo cubre f7, g7 y h7, todas las salidas de la séptima fila. La dama solo tiene que tomar la octava.\n\n{{Qb8#}} lo hace desde el otro lado del tablero: f8 y h8 están en su fila, el rey de g8 está en jaque y nada puede tapar.\n\nCerca de un rey solo, asegúrate de que la última jugada da jaque. Un rey sin casilla y sin jaque está ahogado."
+}

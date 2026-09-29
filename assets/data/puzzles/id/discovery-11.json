@@ -1,0 +1,12 @@
+{
+  "id": "discovery-11",
+  "fen": "r6k/ppp5/7K/8/8/1B6/PP6/7R w - - 0 1",
+  "solution": [
+    "Kg6#"
+  ],
+  "rating": 1330,
+  "title": "Raja yang Menyingkap",
+  "setup": "Benteng Anda di h1 menatap ke atas lajur h ke arah raja hitam, dan buah yang menghalangi adalah raja Anda sendiri.",
+  "hint": "Apa pun bisa berdiri di depan sebuah baterai, bahkan raja. Petak mana yang menjaga setiap jalan pelarian tetap dikuasai?",
+  "explanation": "## Ide\n\n{{Kg6#}} adalah sekak tersingkap: raja melangkah keluar dari lajur h dan benteng memberi sekak dari h1. g7 dan h7 dikuasai raja itu sendiri, g8 oleh gajah di b3, dan tak ada yang bisa menghalangi di lajur h yang kosong. Kg5 menyingkap sekak yang sama, tetapi lalu g7 bebas."
+}

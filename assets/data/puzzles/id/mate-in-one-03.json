@@ -1,0 +1,12 @@
+{
+  "id": "mate-in-one-03",
+  "fen": "rnb1k1nr/ppp2ppp/3b4/8/8/2N3P1/PPPPP3/R1BQKBNR b KQkq - 0 6",
+  "solution": [
+    "Bxg3#"
+  ],
+  "rating": 655,
+  "title": "Menteri Itu Harganya",
+  "setup": "Anda menyerahkan menteri di g3 langkah lalu, dan Putih tak punya pion lagi di f2 atau h2.",
+  "hint": "Putih tak lagi punya pion di f2. Temukan buah yang akan menguasai lubang itu begitu ia mendarat.",
+  "explanation": "## Ide\n\nDengan f2 dan h2 hilang, diagonal h4–e1 milik Hitam. {{Bxg3#}} mengambil pion terakhir di jalan itu dan tak ada yang bisa menangkap balik: kuda di g1 tak mencapai g3 dan benteng di h1 berada di garis yang salah. f2 satu-satunya petak pelarian, dan gajah menguasainya."
+}

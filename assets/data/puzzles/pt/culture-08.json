@@ -1,0 +1,13 @@
+{
+  "id": "culture-08",
+  "fen": "1r2k1r1/pbppnp1p/1b3P2/8/Q7/B1PB1q2/P4PPP/3R2K1 w - - 0 21",
+  "solution": [
+    "Qxd7+",
+    "Kxd7",
+    "Bf5+"
+  ],
+  "title": "Os Dois Bispos",
+  "setup": "As brancas têm uma torre e um cavalo a menos, o rei preto nunca rocou, e os dois bispos brancos apontam-lhe.",
+  "hint": "Conta as casas do rei preto antes de contares material — o que resta depois de subtraíres o bispo de a3 e o peão de f6?",
+  "explanation": "## A Ideia\n\n{{Qxd7+}} atira a dama contra um peão defendido. Recusar com {{Kf8}} é mate imediato em e7, portanto {{Kxd7}}, e o rei fica a descoberto com os dois bispos apontados.\n\n{{Bf5+}} é xeque duplo, do bispo e da torre que está atrás dele. {{Kc6}} entra em {{Bd7#}}, e depois de {{Ke8}}, {{Bd7+}} e {{Bxe7#}} encerram com os mesmos dois bispos.\n\nAnderssen jogou isto em Berlim em 1852, um ano depois da Partida Imortal."
+}

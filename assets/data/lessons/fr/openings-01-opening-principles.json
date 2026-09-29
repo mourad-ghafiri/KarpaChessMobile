@@ -1,0 +1,65 @@
+{
+  "id": "opening-principles",
+  "title": "Les trois principes",
+  "summary": "Trois tâches, une dizaine de coups",
+  "proof": "openings-01.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Dix coups, trois tâches",
+      "text": "Chaque camp a un pion au centre et tout le reste chez soi. À partir d'ici, une dizaine de coups fixent la forme de la partie — le temps d'accomplir trois tâches.\n\n1. **Prendre sa part du centre.** Un pion au milieu tient des cases que vos pièces convoitent.\n2. **Sortir une nouvelle pièce à chaque coup.** Les cavaliers et les fous d'abord ; ils sont au travail en un saut.\n3. **Mettre le roi dans un coin.** Un roi encore au centre quand les lignes s'ouvrent est une cible, pas une pièce.\n\nCelui qui termine le premier attaque pendant que l'autre range encore."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "title": "Ce qu'achète un coup",
+      "text": "{{Nf3}} {{Nc6}}. Deux cavaliers ont quitté la dernière rangée, tous deux tournés vers le centre, et aucun n'a besoin de rebouger pour être utile.\n\nC'est le **développement** — une pièce sortie de chez elle qui a déjà une tâche. Ce que vous dépensez pour cela a aussi un nom : un **temps** est un coup, un tour de jeu. Vous en avez un par tour, et votre adversaire aussi.\n\nUne pièce jouée deux fois dans l'ouverture a donc coûté deux temps pour le travail d'un seul. Toute l'ouverture est une dispute autour de ce calcul."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "prompt": "Développez un fou pour qu'il vise droit la seule case du camp noir que le roi défend seul.",
+      "targetSan": [
+        "Bc4"
+      ],
+      "hint": "Le fou de votre roi a cinq cases sur sa route de sortie, et une seule vise ce pion fragile."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+      "title": "La dame n'est pas développée",
+      "text": "Les Noirs ont sorti la dame au deuxième coup, et c'est la seule pièce noire qui a quitté la dernière rangée. Le développement le plus rapide de la partie, sur le papier.\n\nSur l'échiquier, c'est le plus lent. Une pièce est développée quand l'adversaire ne peut pas la chasser gratuitement, et la dame est la pièce que tout le monde peut chasser — un cavalier, un fou, même un pion. Neuf points doivent fuir devant trois. L'attaquant reste là où il est arrivé et garde la case qu'il vient de prendre.\n\nChacune de ces chasses est un temps que les Noirs offrent."
+    },
+    {
+      "type": "play",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+      "prompt": "Sortez un cavalier sur une case où il attaque la dame noire, pour gagner un temps tout en vous développant.",
+      "targetSan": [
+        "Nc3"
+      ],
+      "hint": "Deux cavaliers, cinq cases à eux deux, et une seule de ces cases regarde d5."
+    },
+    {
+      "type": "teach",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 3",
+      "title": "L'addition",
+      "text": "La dame doit répondre à votre cavalier, et répondre est tout ce que les Noirs peuvent faire. {{Qa5}} s'écarte. {{d4}} plante un pion au centre pendant que la dame est occupée. {{Nf6}} est la première pièce noire à atteindre une case qu'elle veut, et elle y arrive au quatrième coup.\n\nComptez ce que possède chaque camp. Les Blancs : un cavalier en c3, un pion en d4, et la main sur la suite des événements. Les Noirs : un cavalier, et une dame qu'on peut encore chasser. Avoir cette main, c'est **l'initiative**.\n\n> Une dame qui ne cesse de fuir offre des coups gratuits à l'autre camp."
+    },
+    {
+      "type": "teach",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+      "title": "Deux coups en un seul tour",
+      "text": "Regardez ce qui n'est pas terminé. Les Blancs ont sorti un pion en e4, un fou en c4 et un cavalier en f3 ; le roi est toujours en e1, et la tour en h1 n'a jamais eu de case où aller.\n\nUn seul tour règle les deux. Le roi se déplace de deux cases vers le coin et la tour saute par-dessus lui en f1 — le roi désormais derrière trois pions qui n'ont jamais bougé, la tour désormais sur une colonne où elle a quelque chose à faire.\n\nLe roi noir est sur la même colonne centrale, et les Blancs jouent en premier."
+    },
+    {
+      "type": "play",
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+      "prompt": "Terminez la dernière des trois tâches en un seul coup, et faites participer la tour du coin.",
+      "targetSan": [
+        "O-O"
+      ],
+      "hint": "Deux tâches sont déjà accomplies sur cet échiquier : un pion au centre, deux pièces sorties. La troisième concerne votre roi."
+    }
+  ]
+}

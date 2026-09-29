@@ -1,0 +1,62 @@
+{
+  "id": "en-passant",
+  "title": "Caught in Passing",
+  "summary": "A pawn sprints past yours, and for exactly one turn it does not get away with it",
+  "proof": "en-passant-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "The Square It Refuses to Cross",
+      "text": "Black's pawn on d7 wants to come forward, and one square in front of it is off limits: your pawn on e5 covers d6, so a step to d6 is a pawn handed over.\n\nBlack has another option. From its home rank the pawn may travel two squares at once: {{d5}}. It clears d6 without ever standing there and lands shoulder to shoulder with your pawn — out of reach, since a pawn strikes forward and diagonally, never sideways.\n\nThat is the loophole. En passant closes it."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "In Passing",
+      "text": "The answer has to come immediately, on the very next turn. {{d5}} again — and this time {{exd6}}.\n\nYour pawn steps diagonally to d6, the square Black declined to stand on, and the black pawn is lifted off d5. Read those two squares again: you land on one, the captured pawn comes off the other. Every other capture in chess puts you on the square your victim was using. This one does not, which is why it looks illegal the first time you see it.\n\nFrench for *in passing*, and the name is the whole rule."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "Why the Rule Exists",
+      "text": "The two-square first move is not original. Chess ran for centuries with pawns crawling one square at a time, and the double step was added later, to get games started faster.\n\nIt worked, and it brought a problem: a pawn could now use the extra speed to slip past an enemy pawn that was already watching its path. The guard was standing right there and got no say. That is exactly what {{d5}} is trying to do.\n\nEn passant is the correction, and nothing more. Speed up the start, yes. Buy a free pass, no."
+    },
+    {
+      "type": "teach",
+      "fen": "4k3/3p4/8/4P3/8/8/8/4K3 b - - 0 1",
+      "title": "What Has to Be True",
+      "text": "The rule is narrow, and every part of it counts.\n\nThe enemy pawn must arrive by the two-square move, straight from its home rank — a pawn that walked there one step at a time is safe forever. It must land directly beside your pawn, on the same rank. Your own pawn must be standing on its fifth rank, because that is the rank a two-square runner lands on.\n\nAnd it is pawn against pawn. Nothing else can be caught in passing, and nothing else can do the catching."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "title": "One Turn, and Only One",
+      "text": "Two black pawns stand beside your pawn on e5, one on d5 and one on f5, and only one of them can be taken in passing.\n\nThe d-pawn made its two-square run before your pawn ever reached e5, so no offer was made on that side at all. The f-pawn landed this instant, straight from f7, crossing f6 — the square your e5-pawn watches.\n\nSo the chance is open on one side and closed on the other. Play anything else here and this one closes too, for good."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+      "prompt": "Take the pawn that just ran past you, before the chance expires.",
+      "targetSan": [
+        "exf6"
+      ],
+      "hint": "Only the pawn that moved two squares this very turn can be caught, and you land on the square it skipped."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1p1pp/5P2/3p4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 3",
+      "title": "The Square You Never Stood On",
+      "text": "Your pawn on f6, and f5 empty behind it. The pawn you took was standing there a moment ago.\n\nBlack recaptures with {{gxf6}} — an ordinary capture, the kind you have made all along, landing exactly where the thing it took was sitting. Put the two moves side by side and the strangeness of yours is obvious.\n\n> One capture in chess removes a piece from a square the capturer never touches. It is this one."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkbnr/pp1ppppp/8/8/2pPP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "prompt": "Playing Black now: catch the white pawn that just leapt past yours, while the right still exists.",
+      "targetSan": [
+        "cxd3"
+      ],
+      "hint": "Count from Black's side — your pawn is on its own fifth rank, and you land on the square the runner crossed."
+    }
+  ]
+}

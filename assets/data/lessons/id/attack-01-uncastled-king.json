@@ -1,0 +1,62 @@
+{
+  "id": "uncastled-king",
+  "title": "Menyerang Raja yang Belum Rokade",
+  "summary": "Raja masih di e8, dan waktu terus berjalan",
+  "proof": "uncastled-king-proof.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "Raja yang Tak Pernah Meninggalkan e8",
+      "text": "Raja Hitam masih di e8 pada langkah kelima, dan itu bukan sekadar pengembangan yang lambat. Itu sasaran.\n\nRokade mengerjakan dua tugas dalam satu langkah: menyembunyikan raja di balik tiga pion yang belum bergerak, dan membiarkan kedua benteng saling melihat. Raja yang melewatkannya berdiri di lajur tersibuk di papan, dalam jangkauan kedua sayap, dengan buah-buahnya sendiri menghalangi jalan keluarnya.\n\nJadi ini tenggat waktu. Hitam tinggal beberapa langkah dari aman, dan setiap langkah Anda yang tak mengajukan pertanyaan menyerahkan salah satu langkah itu."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "title": "Jepitan yang Boleh Anda Patahkan",
+      "text": "Gajah Hitam di g4 menjepit kuda Anda di f3 terhadap menteri di d1, dan kuda yang terjepit seharusnya diam di tempat. Itulah kesepakatan yang diandalkan Hitam.\n\nSekarang hitung ujung papan yang lain. Gajah Anda di c4 sudah memandang f7, dan f7 dijaga tepat oleh satu buah: raja yang tak pernah pergi. Kuda yang tiba di pusat juga akan memandang f7.\n\nJepitan hanya bertahan selama menteri di belakangnya lebih berharga daripada apa yang bisa dilakukan kuda."
+    },
+    {
+      "type": "play",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "prompt": "Raja Hitam terjebak di e8, jadi bidikkan buah kedua ke f7 meskipun itu mengorbankan menteri Anda.",
+      "targetSan": [
+        "Nxe5"
+      ],
+      "hint": "Tanyakan apa yang bisa diambil kuda yang terjepit di pusat, lalu hitung apa yang akan membidik f7 begitu ia mendarat di sana."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "Menteri Itu Umpannya",
+      "text": "Menteri tetaplah menteri, jadi Hitam mengambilnya: {{Bxd1}}, dan menteri Anda hilang demi seekor kuda.\n\nSekarang f7. {{Bxf7+}} adalah sekak, dan Hitam hanya punya tepat satu balasan sah di papan, {{Ke7}}, karena petak itu dijaga raja dan tak ada yang lain. Raja terseret ke lajur e yang terbuka dengan seluruh pasukan hitam masih di rumah, dan {{Nd5#}} menutupnya.\n\nHitam memenangkan menteri dan dimat dua langkah kemudian."
+    },
+    {
+      "type": "teach",
+      "fen": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5",
+      "title": "Harga Menolak",
+      "text": "Misalkan Hitam mencium bau mat dan mengambil kuda sebagai gantinya: {{dxe5}}. Menteri di d1 selamat, dan jepitannya mati bersamanya. Kini tak ada apa pun di belakang gajah di g4 kecuali petak-petak kosong, dan {{Qxg4}} mengambilnya.\n\nPutih menyerahkan kuda dan mengambil gajah serta pion. Pengorbanan yang memberi mat ketika diterima dan memenangkan materi ketika ditolak bukanlah untung-untungan. Itu memang langkahnya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "Dua Buah di Ambang Pintu",
+      "text": "Pembukaan yang berbeda, penyakit yang sama. Menteri Putih di e2 dan raja Hitam di e8 berdiri di satu lajur, dan dua buah terselip di antaranya: kuda Hitam di e4 dan kuda Putih di e5.\n\nHanya satu penghalang itu milik Hitam, dan dialah yang bekerja. Selama kuda di e4 berdiri di sana, kuda Putih bisa pergi ke mana pun ia suka dan tak ada yang menyusul di sepanjang lajur itu.\n\nKuda hitam itu juga diserang menteri, dan tak ada milik Hitam yang menjaganya."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "title": "Kuda Pulang",
+      "text": "{{Nf6}} adalah langkah yang dimainkan hampir semua orang. Kuda menyingkir dari serangan, menjaga sayap raja, dan Hitam tinggal dua langkah dari rokade.\n\nTetapi langkah itu mengosongkan e4. Satu-satunya yang kini berdiri di antara menteri Putih dan raja Hitam adalah kuda putih, dan buah Anda di tempat itu bukan sedang menghalangi garis. Ia terisi amunisi. Ke petak mana pun ia pergi, sekak datang di belakangnya.\n\n> Sebelum Anda mengembangkan sebuah buah, lihat setiap garis yang mengarah ke raja lawan dan tanyakan apa yang bisa dilakukan buah Anda sendiri saat keluar dari salah satunya."
+    },
+    {
+      "type": "play",
+      "fen": "rnbqkb1r/pppp1ppp/5n2/4N3/8/8/PPPPQPPP/RNB1KB1R w KQkq - 2 5",
+      "prompt": "Langkahkan kuda keluar dari lajur e agar sekak datang di belakangnya, dan daratkan ia di tempat yang memenangkan menteri Hitam.",
+      "targetSan": [
+        "Nc6+"
+      ],
+      "hint": "Sekak datang ke mana pun kuda pergi, jadi satu-satunya pertanyaan yang tersisa adalah buah hitam mana yang bisa diserang kuda saat tiba."
+    }
+  ]
+}

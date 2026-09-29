@@ -1,0 +1,13 @@
+{
+  "id": "forks-01",
+  "fen": "8/5ppp/3k4/q7/8/8/1N3PPP/6K1 w - - 0 1",
+  "solution": [
+    "Nc4+",
+    "Kc5",
+    "Nxa5"
+  ],
+  "title": "Due Reali, Un Balzo",
+  "setup": "Il re nero in d6 e la donna in a5 sono a due case di distanza, e il vostro cavallo in b2 non ne ha ancora toccato nessuno.",
+  "hint": "Lavorate a ritroso dai bersagli: quali case attaccano il re, e quale di quelle attacca anche la donna?",
+  "explanation": "## L'idea\n\nLo scacco di un cavallo non si può parare, e il pezzo che attacca non può quasi mai riprenderselo. Quindi una mossa di cavallo che colpisce insieme il re e la donna vince la donna.\n\n{{Nc4+}} tocca d6 e a5 insieme. Prima bisogna rispondere allo scacco, nessuna mossa di re arriva ad a5 a difendere la donna, e dopo {{Kc5}} il cavallo se la prende con {{Nxa5}}.\n\nDue bersagli, una mossa, e il Nero non ne salva mai più di uno."
+}

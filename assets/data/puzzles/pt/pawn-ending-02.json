@@ -1,0 +1,12 @@
+{
+  "id": "pawn-ending-02",
+  "fen": "2k5/8/1K6/P7/8/8/8/8 b - - 1 1",
+  "solution": [
+    "Kb8"
+  ],
+  "rating": 1140,
+  "title": "Corre Para o Canto",
+  "setup": "O rei das brancas acabou de subir a b6 para levar o peão a para casa, e as pretas têm três casas.",
+  "hint": "Um peão de torre tem uma só coluna; pergunta que canto o rei que defende tem de estar a segurar.",
+  "explanation": "## A Ideia\n\n{{Kb8}} é a única jogada. Um peão de torre não pode ser escoltado para lá de um rei que segura a8 e b8: {{a6}} {{Ka8}}, e depois de a7 as pretas não têm jogada legal nenhuma, o que é afogamento. Afasta-te para d7 ou d8 e o rei branco dá simplesmente a volta e faz dama."
+}

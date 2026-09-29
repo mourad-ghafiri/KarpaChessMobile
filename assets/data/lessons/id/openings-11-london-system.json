@@ -1,0 +1,52 @@
+{
+  "id": "london-system",
+  "title": "Sistem London",
+  "summary": "Satu susunan melawan hampir apa saja, dan petak yang menjadi porosnya",
+  "proof": "openings-11.json",
+  "steps": [
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "Gajah Dulu, Pion Kemudian",
+      "text": "Baru dua langkah, dan langkah kedua memikul seluruh sistem.\n\nPutih sedang membangun tembok kecil di c3, d4 dan e3: murah untuk dipelajari, merepotkan untuk dibongkar. Masalahnya ada pada pion e. Begitu ia menetap di e3, ia menutup pintu bagi gajah petak gelap, yang lalu menghabiskan partai duduk di belakang pionnya sendiri.\n\nJadi gajah pergi lebih dulu. Ia sudah berada di luar tembok di f4, dan pion datang sesudahnya. Melawan hampir apa pun yang dipilih Hitam, urutan ini bertahan — gajah keluar, lalu e3."
+    },
+    {
+      "type": "teach",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+      "title": "Pion yang Tak Diawasi Siapa Pun",
+      "text": "Meninggalkan baris belakang lebih awal hanya berharga satu hal, dan Hitam langsung mengincarnya. Dengan gajah sudah pergi, pion di b2 tak dilindungi siapa pun.\n\n{{c5}} menyerang pangkal tembok. {{e3}} tetap membangunnya, {{Nc6}} menambah penyerang kedua terhadap d4, {{c3}} menopangnya, dan {{Qb6}} mendarat di lajur b, tempat pion di b2 tak terlindungi. Dua pion putih ditanyai sekaligus.\n\nSerbuan itu adalah pertanyaan sungguhan pertama yang harus dijawab Sistem London, dan setiap pemain London menemuinya dalam sepuluh partai pertama."
+    },
+    {
+      "type": "play",
+      "fen": "r1b1kbnr/pp2pppp/1qn5/2pp4/3P1B2/2P1P3/PP3PPP/RN1QKBNR w KQkq - 1 5",
+      "prompt": "Lindungi pion yang tak terlindungi di b2 tanpa memakai langkah pion untuknya.",
+      "targetSan": [
+        "Qc1",
+        "Qc2",
+        "Qb3"
+      ],
+      "hint": "Tak perlu langkah pion di sini. Menteri Anda bisa menjaga b2 dari lebih dari satu petak; pilih yang membiarkan d2 dan e2 tetap bebas untuk kuda dan gajah Anda."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Ke Mana Semuanya Mengarah",
+      "text": "Enam langkah tenang kemudian, susunannya selesai, dan tampak seperti biasanya: pion di c3, d4 dan e3, gajah di f4, gajah lain di d3, kuda di f3 dan d2. Menteri Hitam duduk di b6 tanpa ada lagi yang bisa digigit.\n\nSekarang ikuti diagonal terang. Gajah di d3 melihat e4, f5, g6, lalu h7, satu petak dari raja Hitam, tanpa apa pun yang menghalangi. {{Qc2}} membawa menteri masuk di belakangnya.\n\nDua penyerang terhadap h7. Raja Hitam menguasainya, begitu pula kuda di f6. Dua lawan dua, dan itu belum serangan."
+    },
+    {
+      "type": "teach",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "title": "Petak yang Tak Terjangkau Pion",
+      "text": "Penyerang ketiga membutuhkan rumah yang tak bisa direbut siapa pun. Jadi tanyakan apa yang masih bisa dilakukan pion-pion Hitam.\n\nPion di d5 tak bisa bergerak mundur. Pion di e6 menguasai d5 dan f5. Pion di c5 menguasai b4 dan d4. Bersama-sama keduanya meninggalkan lubang di pusat, dan pion Anda di d4 sudah menjaganya.\n\nHanya pion di f7 yang suatu saat bisa datang menantangnya — dan pion itu adalah atap bagi raja yang sudah rokade.\n\n> Sebuah buah aman di tempat yang tak akan pernah bisa didatangi pion."
+    },
+    {
+      "type": "play",
+      "fen": "r4rk1/pp2bppp/1qn1pn2/2pp3b/3P1B2/2PBPN1P/PP1N1PP1/R1Q2RK1 w - - 5 11",
+      "prompt": "Tempatkan kuda di lubang pusat yang hanya bisa ditantang pion f Hitam.",
+      "targetSan": [
+        "Ne5"
+      ],
+      "hint": "Hanya satu buah hitam yang menyentuh petak itu, kuda di c6, dan satu-satunya pion yang suatu saat bisa ikut menantangnya melindungi raja Hitam."
+    }
+  ]
+}

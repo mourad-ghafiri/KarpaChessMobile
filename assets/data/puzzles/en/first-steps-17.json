@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-17",
+  "fen": "4k3/pp6/8/8/7q/8/PP6/4K2R w - - 0 1",
+  "solution": [
+    "Rxh4"
+  ],
+  "title": "Punish the Queen",
+  "setup": "The black queen has just swooped in with check, straight into your rook's line of sight.",
+  "hint": "Yes, the king can sidestep. But look down the h-file before you touch it.",
+  "explanation": "## The Idea\n\nThe queen on h4 checks your king along the diagonal to e1, and stepping aside feels natural. But the queen has landed on the open h-file, where your rook on h1 is waiting.\n\n{{Rxh4}} captures the checker outright: the check is gone and nine points are won. A king move such as {{Kd2}} does the opposite, because {{Qxh1}} takes your rook instead.\n\nA checking piece has to stand somewhere, so ask what you attack on that square."
+}

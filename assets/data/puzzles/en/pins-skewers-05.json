@@ -1,0 +1,11 @@
+{
+  "id": "pins-skewers-05",
+  "fen": "4k3/8/4q3/8/8/8/8/4R1K1 w - - 0 1",
+  "solution": [
+    "Rxe6+"
+  ],
+  "title": "Long-Range Pin",
+  "setup": "Your rook on e1, a black queen and the black king all stand on one open file, and nothing stands between them.",
+  "hint": "A pinned queen can still slide along the line it is pinned on. Do not hand it that move.",
+  "explanation": "## The Idea\n\nThe queen on e6 is pinned: step off the e-file and your rook would be attacking the king on e8. But it can still slide along the file, and it is looking straight at your rook. So there is no time to pile up on it. {{Rxe6+}} takes it now, the king on e8 is too far away to take back, and White is a rook against a bare king."
+}

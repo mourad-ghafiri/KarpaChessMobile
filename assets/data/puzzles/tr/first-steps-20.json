@@ -1,0 +1,11 @@
+{
+  "id": "first-steps-20",
+  "fen": "4r3/1k1P4/8/8/8/8/8/6K1 w - - 0 1",
+  "solution": [
+    "dxe8=Q"
+  ],
+  "title": "Ödüllü Terfi",
+  "setup": "d7'deki piyonunuz son yataya bir adım uzaklıkta ve önünde çapraz olarak siyahın bir kalesi duruyor.",
+  "hint": "Piyonlar en son adımlarında bile çaprazdan alır. Tek hamlede iki ödül.",
+  "explanation": "## Fikir\n\nPiyonun son adımı, çapraz taş alma dâhil her zamanki piyon kurallarına uyar. {{d8=Q}} ile dümdüz ileri terfi etmek, {{Rxd8}} hamlesinin yeni veziri almasına izin verir.\n\n{{dxe8=Q}} aynı hamlede hem kaleyi alır hem terfi eder: beş puan alınır, dokuz puan yaratılır ve b7'deki şah e8'e ulaşamaz.\n\nBir piyonu son yataya sürmeden önce düz adımı taş almayla karşılaştırın."
+}

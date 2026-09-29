@@ -1,0 +1,14 @@
+{
+  "id": "deflection-11",
+  "fen": "4kb1r/pp1n1ppp/8/7q/5Q1B/8/5PPP/3R2K1 w - - 1 2",
+  "solution": [
+    "Qb8+",
+    "Nxb8",
+    "Rd8#"
+  ],
+  "rating": 1470,
+  "title": "Quem Tapa Tem de Comer",
+  "setup": "O cavalo de d7 é a única coisa entre a tua torre e d8.",
+  "hint": "O cavalo não vai sair dessa casa por vontade própria. O que podes pôr onde ele seja obrigado a capturar?",
+  "explanation": "## A Ideia\n\n{{Qb8+}} deixa às pretas uma jogada legal: {{Nxb8}}. Quem tapava foi arrastado para fora de d7, e {{Rd8#}} dá mate pela estrada onde ele estava. Uma peça que fecha uma coluna só é parede até um xeque a chamar."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "defence-09",
+  "fen": "1Q6/2K5/5r2/7R/3q4/5b2/k7/8 w - - 0 1",
+  "solution": [
+    "Ra5+",
+    "Qa4",
+    "Rxa4#"
+  ],
+  "rating": 1770,
+  "title": "Fate Scorrere la Torre di Lato",
+  "setup": "La donna, la torre e l'alfiere neri puntano tutti sul vostro re in c7, e il loro re è al riparo in a2.",
+  "hint": "La vostra torre sta sulla colonna sbagliata ma sulla traversa giusta. Trovate la casa dove l'unica parata costa una donna.",
+  "explanation": "## L'idea\n\n{{Ra5+}} arriva lungo la quinta. {{Qa4}} è l'unica parata, e {{Rxa4#}} è matto. La torre non si è mossa in avanti — si è mossa di traverso, che è la direzione a cui il re sulla colonna a non poteva rispondere."
+}
