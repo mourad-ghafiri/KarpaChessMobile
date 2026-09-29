@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
                        'stockfish/src/universal/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.platform = :ios, '14.0'
-  s.ios.deployment_target = '14.0'
+  s.platform = :ios, '15.0'
+  s.ios.deployment_target = '15.0'
   s.library = 'c++'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 
@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
 
   # Portable arm64: the NEON kernels of Stockfish's official `armv8` build,
   # for Xcode's baseline arm64 target. Deliberately NOT armv8.2-a+dotprod:
-  # the iOS 14 deployment target admits iPhone 6s through XS/XR (A9-A12),
+  # the iOS 15 deployment target admits iPhone 6s through XS/XR (A9-A12),
   # which lack the dot-product instructions and would crash with SIGILL the
   # moment the engine searches. The x86_64 simulator slice builds with the
   # portable path.

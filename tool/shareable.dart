@@ -17,7 +17,10 @@ import 'src/findings.dart';
 ///
 /// Errors:
 /// - this machine's home directory or account name, read from the
-///   environment when the gate runs, so neither is ever written into the repo;
+///   environment when the gate runs, so neither is ever written into the repo.
+///   The app's own identifiers are read past: a bundle ID or application ID
+///   built from the owner's name (`com.<name>.karpachess`) is published on
+///   purpose, since both stores show it, so it is no leak;
 /// - any absolute home path (`/Users/<name>/`, `/home/<name>/`) in text;
 /// - a signing team in an Xcode project. `DEVELOPMENT_TEAM` belongs in the
 ///   git-ignored `ios/Flutter/Signing.xcconfig`; Xcode's Signing tab writes
@@ -26,7 +29,7 @@ import 'src/findings.dart';
 /// - credential files, judged by NAME only — the gate never opens them.
 void main(List<String> args) {
   final files = _publishable();
-  final identity = _MachineIdentity.fromEnvironment();
+  final identity = _MachineIdentity.fromEnvironment(_appIdentifiers());
   final findings = <Finding>[
     for (final path in files) ..._check(path, identity),
   ];
@@ -48,6 +51,25 @@ List<String> _publishable() {
       .where((path) => path.isNotEmpty)
       .toList()
     ..sort();
+}
+
+/// The identifiers the app is published under, as its build files declare
+/// them: the Xcode bundle IDs (the app's and its test target's) and the
+/// Android application ID and namespace.
+Set<String> _appIdentifiers() {
+  const declarations = {
+    'ios/Runner.xcodeproj/project.pbxproj': r'PRODUCT_BUNDLE_IDENTIFIER = ([\w.-]+);',
+    'macos/Runner.xcodeproj/project.pbxproj': r'PRODUCT_BUNDLE_IDENTIFIER = ([\w.-]+);',
+    'macos/Runner/Configs/AppInfo.xcconfig': r'PRODUCT_BUNDLE_IDENTIFIER = ([\w.-]+)',
+    'android/app/build.gradle.kts': r'(?:applicationId|namespace) = "([\w.]+)"',
+  };
+  return {
+    for (final MapEntry(key: path, value: pattern) in declarations.entries)
+      if (File(path).existsSync())
+        for (final match
+            in RegExp(pattern).allMatches(File(path).readAsStringSync()))
+          match.group(1)!,
+  };
 }
 
 /// Directories only a build, a tool or an IDE writes.
@@ -126,9 +148,9 @@ bool _isBinary(List<int> bytes) =>
 
 /// This machine's home path and account name, as byte patterns.
 class _MachineIdentity {
-  _MachineIdentity(this._needles);
+  _MachineIdentity(this._needles, this._published);
 
-  factory _MachineIdentity.fromEnvironment() {
+  factory _MachineIdentity.fromEnvironment(Set<String> published) {
     final env = Platform.environment;
     final home = env['HOME'];
     final names = {
@@ -140,13 +162,22 @@ class _MachineIdentity {
       // A very short account name would match ordinary words.
       for (final name in names)
         if (name.length >= 5) name,
-    ]);
+    ], published);
   }
 
   final List<String> _needles;
 
+  /// The app's own identifiers, removed before searching: see
+  /// [_appIdentifiers]. The test target's ID extends the app's, so the
+  /// longest go first.
+  final Set<String> _published;
+
   bool appearsIn(List<int> bytes) {
-    final haystack = latin1.decode(bytes, allowInvalid: true).toLowerCase();
+    var haystack = latin1.decode(bytes, allowInvalid: true).toLowerCase();
+    for (final id in _published.toList()
+      ..sort((a, b) => b.length.compareTo(a.length))) {
+      haystack = haystack.replaceAll(id.toLowerCase(), '');
+    }
     return _needles.any((needle) => haystack.contains(needle.toLowerCase()));
   }
 }

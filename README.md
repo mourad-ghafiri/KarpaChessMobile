@@ -63,7 +63,7 @@ they carry no `_test.dart` suffix so the host suite never picks them up.
 - Content (`assets/data/`) is authored and gated in this repository:
   `dart run tool/content.dart`, `tool/translations.dart`,
   `tool/lint_lessons.dart`, `tool/lint_puzzles.dart`, `tool/puzzles.dart`.
-- Minimum iOS 14.0 and Android 7.0 (API 24). CocoaPods is required for iOS
+- Minimum iOS 15.0 and Android 7.0 (API 24). CocoaPods is required for iOS
   and macOS.
 - To sign iOS builds, put your team in `ios/Flutter/Signing.xcconfig`
   (`DEVELOPMENT_TEAM = <Team ID>`). The file is git-ignored, and the shared

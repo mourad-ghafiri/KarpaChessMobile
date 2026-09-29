@@ -504,7 +504,9 @@ Domain layers are pure Dart — no Flutter imports.
   beginner themes (`first-steps`) must stay first. Foundations teaches
   gradually: board → notation → one lesson per piece → captures → values →
   check → mate → special moves.
-- iOS minimum platform is 14.0 (file_picker requirement); CocoaPods via
+- iOS minimum platform is 15.0: App Store Connect's validation warns that
+  from April 2027 uploads must target iOS 15.0 or later (file_picker alone
+  needs 14.0). CocoaPods via
   `ios/Podfile` and `macos/Podfile` (karpa_engine is CocoaPods-based).
 
 ## Production invariants
@@ -516,7 +518,7 @@ Keep them when touching the code they govern.
   Stockfish with NEON and **without dot-product** (`USE_NEON=8`, no
   `-march=armv8.2-a+dotprod`, no `USE_NEON_DOTPROD`). The phones the app
   installs on include ARMv8.0 cores (Cortex-A53/A73; iPhone 6s–XS/XR under
-  the iOS 14 target), where dot-product instructions and the LSE atomics
+  the iOS 15 target), where dot-product instructions and the LSE atomics
   that `armv8.2-a` licenses raise SIGILL the moment the engine searches.
   Only macOS arm64 keeps dot-product, because every Apple Silicon Mac has it.
   Stockfish 19's `arm64-universal` (runtime dispatch: dot-product where the
@@ -701,7 +703,9 @@ Keep them when touching the code they govern.
   - **The gate.** `dart run tool/shareable.dart` scans exactly what git would
     publish (tracked files plus unignored ones). It errors on:
     - this machine's home path or account name, read from the environment and
-      never written down;
+      never written down. The app's own bundle and application IDs are read
+      past, because the stores publish them: the Apple bundle ID is
+      `com.mouradghafiri.karpachess`;
     - any `/Users/<name>/` or `/home/<name>/` path;
     - a `DEVELOPMENT_TEAM` in an Xcode project;
     - generated output;

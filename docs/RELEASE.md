@@ -232,8 +232,15 @@ flutter build apk --release --split-per-abi
 Today's platform floors are met by the toolchain this repository is built
 with:
 - **Apple:** uploads must be built with Xcode 26 and the iOS 26 SDK
-  (since 2026-04-28), and target iOS 13 or later. This app targets 14.0
+  (since 2026-04-28), and target iOS 13 or later
   (developer.apple.com/news/upcoming-requirements).
+  - The next floor is already announced where it bites: App Store Connect's
+    validation says "Starting in April 2027, iOS apps must target 15.0 or
+    later", and it warned against the 14.0 this app used to target.
+  - This app targets 15.0 in `ios/Podfile` (twice), in the Runner project and
+    in the engine pod.
+  - iOS 15 runs on the same iPhones as 14 did, from the 6s up, so the
+    portable engine build below still matters.
 - **Google Play:** new apps and updates must target Android 16, API 36 (since
   2026-08-31). Flutter 3.44 sets that
   (developer.android.com/google/play/requirements/target-sdk).
