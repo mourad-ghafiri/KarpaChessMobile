@@ -251,9 +251,14 @@ strong { font-weight: 650; }
 }
 .button--quiet:hover { background: var(--raised); filter: none; }
 
-/* The store badges. The app is not in either store yet, so each says so;
-   swap in Apple's and Google's official badges when the listings go live. */
-.stores { display: flex; flex-wrap: wrap; gap: 12px; }
+/* The store badges. KarpaChess is on the App Store: Apple's official black
+   badge (badges/app-store.svg, from Apple's App Store Marketing Tools), first
+   in the row as Apple asks, never modified or animated, with clear space of a
+   quarter of its height (the gap). Google Play still says "Coming soon";
+   swap in Google's official badge when that listing goes live. */
+.stores { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.store-badge { display: inline-flex; flex: none; border-radius: 10px; }
+.store-badge img { display: block; width: auto; height: 56px; }
 .stores--center { justify-content: center; }
 .store {
   display: inline-flex;
