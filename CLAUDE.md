@@ -698,9 +698,13 @@ Keep them when touching the code they govern.
   the site self-hosts its fonts and carries no analytics or embeds.
 - **The website says only what the app does.** `website/index.html` states
   counts (100 lessons, 441 puzzles, 240 master games, twelve languages, ten
-  piece sets) and features; change it when they change. Its store boxes say
-  "Coming soon" until a listing is live, and then take that store's official
-  badge, never a home-made one.
+  piece sets) and features; change it when they change. A store box says
+  "Coming soon" until its listing is live, then takes that store's official
+  badge, never a home-made one. The App Store is live: Apple's black badge
+  (`website/badges/app-store.svg`, first in the row) links to
+  `https://apps.apple.com/app/karpachess/id6808091046`. That link has no
+  country code, and the App Store sends each visitor to their own
+  storefront. Google Play is still "Coming soon".
 - **Nothing personal or machine-specific is published.**
   - **The gate.** `dart run tool/shareable.dart` scans exactly what git would
     publish (tracked files plus unignored ones). It errors on:

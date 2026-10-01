@@ -51,10 +51,14 @@ It needs Pillow, fontTools and brotli.
   does today: 100 lessons, 441 puzzles, 240 master games, twelve languages,
   ten piece sets. The coach is offline rules behind one hint button, not AI.
   Change the page when the app changes.
-- **Store badges.** The app is not in either store yet, so the page shows two
-  plain "Coming soon" boxes, not Apple's or Google's artwork. When a listing
-  goes live, replace its box with the store's official badge, linked to the
-  listing, following that store's badge rules.
+- **Store badges.** The App Store badge is Apple's official black badge
+  (`badges/app-store.svg`, from Apple's App Store Marketing Tools), never
+  modified, first in the row. It links to
+  `https://apps.apple.com/app/karpachess/id6808091046`, which has no country
+  code, so the App Store sends each visitor to their own storefront. Google
+  Play still shows a plain "Coming soon" box. When that listing goes live,
+  replace the box with Google's official badge, saved into `badges/` and
+  linked to the listing.
 
 ## Preview locally
 
