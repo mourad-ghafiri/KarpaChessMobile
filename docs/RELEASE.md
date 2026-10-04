@@ -216,7 +216,9 @@ mkdir -p build/release_check && unzip -o -q build/app/outputs/bundle/release/app
 $NDK/llvm-objdump -d build/release_check/base/lib/arm64-v8a/libkarpa_engine.so | grep -cE '\b[su]dot\b'   # must print 0
 
 # 16 KB pages (enforced for updates from 2027-02-01): every LOAD segment of
-# every 64-bit library must say align 2**14.
+# every 64-bit library must say align 2**14 OR HIGHER; only 2**13 and below
+# fail (developer.android.com/guide/practices/page-sizes). Flutter's own
+# libapp.so and libflutter.so use 2**16 (64 KB), which complies.
 for so in build/release_check/base/lib/*64*/*.so; do
   echo "$so"; $NDK/llvm-objdump -p "$so" | grep LOAD
 done
