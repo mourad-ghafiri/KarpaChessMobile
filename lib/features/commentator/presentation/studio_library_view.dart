@@ -9,8 +9,10 @@ import '../../../core/layout/window_class.dart';
 import '../../../core/theme/app_radius.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/tokens_context.dart';
+import '../../../core/ui/danger_button.dart';
+import '../../../core/ui/empty_state.dart';
+import '../../../core/ui/nav_card.dart';
 import '../../../core/ui/picker_strip.dart';
-import '../../../core/ui/surface.dart';
 import '../application/commentator_controller.dart';
 import '../application/imported_games_controller.dart';
 import 'game_card.dart';
@@ -79,7 +81,7 @@ class _StudioLibraryViewState extends ConsumerState<StudioLibraryView> {
             onPressed: () => Navigator.of(context).pop(false),
             child: Text(t('ui.button.dismiss')),
           ),
-          FilledButton(
+          DangerButton(
             onPressed: () => Navigator.of(context).pop(true),
             child: Text(t('commentator.remove')),
           ),
@@ -99,37 +101,31 @@ class _StudioLibraryViewState extends ConsumerState<StudioLibraryView> {
     final library = ref.watch(studyLibraryProvider).valueOrNull;
     final games = library == null ? const <StudyGame>[] : _visible(library);
 
-    OutlineInputBorder border() => OutlineInputBorder(
-      borderRadius: BorderRadius.circular(AppRadius.control),
-      borderSide: BorderSide(color: tokens.edge),
-    );
-
+    // The tab's page title, in the `display` role the Learn, Play and
+    // Puzzles homes give theirs — at `title` it read as a section heading
+    // of some page whose title was missing.
     final header = Text(
       t('commentator.sampleGames'),
-      style: context.type.title,
+      style: context.type.display,
     );
 
+    // Fill, hairline and focus ring come from the theme's one field style.
     final search = TextField(
       controller: _search,
-      style: TextStyle(fontSize: 13, color: tokens.text),
+      style: context.type.body.copyWith(color: tokens.text),
+      textInputAction: TextInputAction.search,
       decoration: InputDecoration(
-        isDense: true,
         hintText: t('commentator.searchGames'),
-        hintStyle: TextStyle(fontSize: 13, color: tokens.textFaint),
-        prefixIcon: Icon(Icons.search, size: 18, color: tokens.textDim),
+        prefixIcon: const Icon(Icons.search, size: 20),
         suffixIcon: _search.text.isEmpty
             ? null
             : IconButton(
                 // The framework's own "Clear text", localized in all twelve
                 // languages — a screen reader announces the button's job.
                 tooltip: MaterialLocalizations.of(context).clearButtonTooltip,
-                icon: Icon(Icons.close, size: 18, color: tokens.textDim),
+                icon: const Icon(Icons.close, size: 18),
                 onPressed: _search.clear,
               ),
-        filled: true,
-        fillColor: tokens.raised,
-        border: border(),
-        enabledBorder: border(),
       ),
     );
 
@@ -194,11 +190,9 @@ class _StudioLibraryViewState extends ConsumerState<StudioLibraryView> {
         final list = library == null
             ? const Center(child: CircularProgressIndicator())
             : games.isEmpty
-            ? Center(
-                child: Text(
-                  t('commentator.noGames'),
-                  style: TextStyle(fontSize: 13, color: tokens.textDim),
-                ),
+            ? EmptyState(
+                icon: Icons.search_off,
+                message: t('commentator.noGames'),
               )
             : wide
             // The wide branch deals the self-sizing row cards into
@@ -314,7 +308,13 @@ class _ShelfChip extends StatelessWidget {
     // 44dp of tap target around a 34dp pill, the same trick the drawing
     // bar's buttons use: the chip stays visually light without becoming a
     // target you have to aim at.
-    return SizedBox(
+    final fill = selected
+        ? Color.alphaBlend(tokens.accentSoft, tokens.raised)
+        : tokens.raised;
+    return Semantics(
+      button: true,
+      selected: selected,
+      child: SizedBox(
       height: 44,
       child: InkWell(
         borderRadius: BorderRadius.circular(AppRadius.chip),
@@ -324,19 +324,21 @@ class _ShelfChip extends StatelessWidget {
           margin: const EdgeInsets.symmetric(vertical: 5),
           padding: const EdgeInsets.symmetric(horizontal: 12),
           decoration: BoxDecoration(
-            color: selected ? tokens.accentSoft : tokens.raised,
+            color: fill,
             borderRadius: BorderRadius.circular(AppRadius.chip),
             border: Border.all(color: selected ? tokens.accent : tokens.edge),
           ),
           child: Text(
             label,
-            style: TextStyle(
-              fontSize: 12.5,
+            style: context.type.label.copyWith(
               fontWeight: selected ? FontWeight.w700 : FontWeight.w500,
-              color: selected ? tokens.accent : tokens.textDim,
+              color: selected
+                  ? tokens.legible(tokens.accent, on: fill)
+                  : tokens.textDim,
             ),
           ),
         ),
+      ),
       ),
     );
   }
@@ -350,49 +352,11 @@ class _ImportTile extends StatelessWidget {
   final VoidCallback onTap;
 
   @override
-  Widget build(BuildContext context) {
-    final tokens = context.tokens;
-    return Surface(
-      onTap: onTap,
-      wash: tokens.accent,
-      child: Row(
-        children: [
-          Container(
-            width: 36,
-            height: 36,
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-              color: tokens.accentSoft,
-              borderRadius: BorderRadius.circular(AppRadius.control),
-            ),
-            child: Icon(Icons.add, size: 20, color: tokens.accent),
-          ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  t('commentator.importTitle'),
-                  style: TextStyle(
-                    fontFamily: context.type.font.display,
-                    fontSize: 14.5,
-                    fontWeight: FontWeight.w600,
-                    color: tokens.text,
-                  ),
-                ),
-                const SizedBox(height: 2),
-                Text(
-                  t('commentator.importTileBlurb'),
-                  style: TextStyle(fontSize: 11.5, color: tokens.textDim),
-                ),
-              ],
-            ),
-          ),
-          Icon(Icons.chevron_right, color: tokens.textDim),
-        ],
-      ),
-    );
-  }
+  Widget build(BuildContext context) => NavCard(
+    icon: Icons.add,
+    title: t('commentator.importTitle'),
+    subtitle: t('commentator.importTileBlurb'),
+    emphasized: true,
+    onTap: onTap,
+  );
 }

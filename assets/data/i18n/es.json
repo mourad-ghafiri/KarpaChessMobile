@@ -349,7 +349,21 @@
       "clearAll": "Borrar todas las formas de esta jugada",
       "undo": "Deshacer",
       "redo": "Rehacer",
-      "editText": "Editar texto"
+      "editText": "Editar texto",
+      "color": {
+        "red": "Rojo",
+        "orange": "Naranja",
+        "yellow": "Amarillo",
+        "green": "Verde",
+        "blue": "Azul",
+        "purple": "Morado",
+        "white": "Blanco"
+      },
+      "stroke": {
+        "thin": "Trazo fino",
+        "medium": "Trazo medio",
+        "thick": "Trazo grueso"
+      }
     },
     "result": {
       "title": "Resumen de la partida",
@@ -523,6 +537,7 @@
     "showAnswer": "Esta es la idea: pruébala",
     "finishLesson": "Terminar lección",
     "continueLesson": "Continuar · {title}",
+    "startLesson": "Empezar · {title}",
     "addedToBook": "Añadido a tu Libro de Patrones 📖",
     "bookIntro": "Cada patrón que dominas vive aquí. Las estrellas crecen al afilar. Los tableros apagados se están oxidando: afílalos antes de que se pierdan.",
     "starNone": "Aún sin afilar",

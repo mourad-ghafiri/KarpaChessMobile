@@ -39,9 +39,17 @@ class SettingsSection extends StatelessWidget {
   Widget build(BuildContext context) {
     final tokens = context.tokens;
     final headerColor = color ?? tokens.accent;
+    // The section's filmstrips scroll past its padding (`PickerStrip` lets a
+    // card run to the edge) — clipped here at the card's own border. Left
+    // unclipped they ran over the hairline to the screen edge, so the strip
+    // read as spilling out of its card rather than scrolling inside it.
     return Surface(
-      padding: const EdgeInsets.all(AppSpacing.lg),
-      child: Column(
+      padding: EdgeInsets.zero,
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(AppRadius.card - 1),
+        child: Padding(
+          padding: const EdgeInsets.all(AppSpacing.lg),
+          child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Row(
@@ -49,12 +57,14 @@ class SettingsSection extends StatelessWidget {
               Icon(icon, size: 20, color: headerColor),
               const SizedBox(width: 10),
               Expanded(
+                // The display face, like every card heading in the app;
+                // Material's titleMedium set these in the body sans, the one
+                // place a section title did not look like one.
                 child: Text(
                   title,
-                  style: Theme.of(context)
-                      .textTheme
-                      .titleMedium
-                      ?.copyWith(color: color ?? tokens.text),
+                  style: context.type.heading.copyWith(
+                    color: color ?? tokens.text,
+                  ),
                 ),
               ),
             ],
@@ -62,6 +72,8 @@ class SettingsSection extends StatelessWidget {
           const SizedBox(height: AppSpacing.lg),
           ...children,
         ],
+          ),
+        ),
       ),
     );
   }
@@ -76,15 +88,10 @@ class SettingsSubLabel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 10),
+      padding: const EdgeInsets.only(bottom: AppSpacing.sm),
       child: Text(
         text,
-        style: TextStyle(
-          fontSize: 12,
-          fontWeight: FontWeight.w600,
-          letterSpacing: 0.3,
-          color: context.tokens.textDim,
-        ),
+        style: context.type.label.copyWith(color: context.tokens.textDim),
       ),
     );
   }
@@ -111,7 +118,7 @@ class SettingsToggle extends StatelessWidget {
     return Material(
       type: MaterialType.transparency,
       child: SwitchListTile(
-        title: Text(label, style: const TextStyle(fontSize: 14)),
+        title: Text(label, style: context.type.body),
         value: value,
         onChanged: onChanged,
         contentPadding: EdgeInsets.zero,
@@ -153,7 +160,9 @@ class AppThemePreviewCard extends StatelessWidget {
       label: label,
       child: InkWell(
         onTap: onTap,
-        borderRadius: BorderRadius.circular(14),
+        // The radius and selected edge every other choice frame on this
+        // sheet wears; this card had its own 14 and 2.5.
+        borderRadius: BorderRadius.circular(AppRadius.control),
         child: AnimatedContainer(
           duration: Motion.fast,
           curve: Motion.enter,
@@ -162,10 +171,10 @@ class AppThemePreviewCard extends StatelessWidget {
           padding: const EdgeInsets.all(AppSpacing.sm),
           decoration: BoxDecoration(
             color: preview.bg,
-            borderRadius: BorderRadius.circular(14),
+            borderRadius: BorderRadius.circular(AppRadius.control),
             border: Border.all(
               color: selected ? tokens.accent : tokens.edge,
-              width: selected ? 2.5 : 1,
+              width: selected ? 2 : 1,
             ),
           ),
           child: Column(
@@ -214,8 +223,7 @@ class AppThemePreviewCard extends StatelessWidget {
                 label,
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                  fontSize: 10.5,
+                style: context.type.caption.copyWith(
                   fontWeight: FontWeight.w700,
                   color: preview.text,
                 ),
@@ -433,11 +441,9 @@ class _BoardPreviewFrame extends StatelessWidget {
               const SizedBox(height: AppSpacing.xs),
               Text(
                 label,
-                style: TextStyle(
-                  fontSize: 11,
-                  fontWeight: selected ? FontWeight.w700 : FontWeight.w500,
-                  color: selected ? tokens.accent : tokens.textDim,
-                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: _choiceLabel(context, selected),
               ),
             ],
           ),
@@ -522,7 +528,6 @@ class SoundPackCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final tokens = context.tokens;
     return SettingsChoiceFrame(
       label: label,
       selected: selected,
@@ -535,11 +540,9 @@ class SoundPackCard extends StatelessWidget {
           const SizedBox(height: AppSpacing.xs),
           Text(
             label,
-            style: TextStyle(
-              fontSize: 12,
-              fontWeight: FontWeight.w600,
-              color: selected ? tokens.text : tokens.textDim,
-            ),
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: _choiceLabel(context, selected),
           ),
         ],
       ),
@@ -588,11 +591,7 @@ class FontChoiceCard extends StatelessWidget {
             label,
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
-            style: TextStyle(
-              fontSize: 11,
-              fontWeight: FontWeight.w600,
-              color: selected ? tokens.accent : tokens.textDim,
-            ),
+            style: _choiceLabel(context, selected),
           ),
         ],
       ),
@@ -840,3 +839,11 @@ class SettingsAbout extends StatelessWidget {
     );
   }
 }
+
+/// The name under a choice card — board, pieces, sound, typeface. They were
+/// set at 11, 11 and 12 with three different selected colours.
+TextStyle _choiceLabel(BuildContext context, bool selected) =>
+    context.type.caption.copyWith(
+      fontWeight: selected ? FontWeight.w700 : FontWeight.w600,
+      color: selected ? context.tokens.accent : context.tokens.textDim,
+    );

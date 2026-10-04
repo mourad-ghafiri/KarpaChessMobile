@@ -176,7 +176,11 @@ class _ReplayBarState extends State<ReplayBar> {
             const SizedBox(width: 2),
             Tooltip(
               message: widget.t('replay.autoplay'),
-              child: InkWell(
+              // Playing is said, not only tinted.
+              child: Semantics(
+                button: true,
+                toggled: _playing,
+                child: InkWell(
                 onTap: count == 0 ? null : _toggleAutoplay,
                 customBorder: const CircleBorder(),
                 child: Container(
@@ -194,6 +198,7 @@ class _ReplayBarState extends State<ReplayBar> {
                     color: _playing ? tokens.accent : tokens.textDim,
                   ),
                 ),
+              ),
               ),
             ),
           ],

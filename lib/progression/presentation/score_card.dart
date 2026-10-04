@@ -8,6 +8,7 @@ import '../../core/ui/progress_bar.dart';
 import '../../core/ui/progress_ring.dart';
 import '../../core/ui/stat_chip.dart';
 import '../../core/ui/surface.dart';
+import '../../core/ui/symbol_glyph.dart';
 import '../../features/academy/domain/academy_rank.dart';
 import '../application/progression_controller.dart';
 import '../domain/progression.dart';
@@ -47,10 +48,7 @@ class ScoreCard extends ConsumerWidget {
               shape: BoxShape.circle,
               border: Border.all(color: tokens.accent),
             ),
-            child: Text(
-              rank.glyph,
-              style: TextStyle(fontSize: 26, color: tokens.accent),
-            ),
+            child: SymbolGlyph(rank.glyph, size: 22, color: tokens.accent),
           ),
           const SizedBox(width: AppSpacing.md),
           Expanded(
@@ -76,12 +74,16 @@ class ScoreCard extends ConsumerWidget {
                   runSpacing: 4,
                   children: [
                     StatChip(label: t('gamify.level', {'n': progression.level})),
-                    StatChip(
-                      emoji: '🔥',
-                      label: t('gamify.dayStreak', {'n': streak}),
-                      color: streak > 0 ? tokens.accent : null,
-                      filled: streak > 0,
-                    ),
+                    // Only once there is one: a first launch greeted the
+                    // reader with "0-day streak", a score of having done
+                    // nothing yet.
+                    if (streak > 0)
+                      StatChip(
+                        emoji: '🔥',
+                        label: t('gamify.dayStreak', {'n': streak}),
+                        color: tokens.accent,
+                        filled: true,
+                      ),
                   ],
                 ),
               ],
@@ -99,11 +101,7 @@ class ScoreCard extends ConsumerWidget {
               strokeWidth: 5,
               child: Text(
                 '$xpToday',
-                style: TextStyle(
-                  fontFamily: context.type.font.mono,
-                  fontSize: 12,
-                  fontWeight: FontWeight.w800,
-                ),
+                style: context.type.monoAt(12, weight: FontWeight.w800),
               ),
             ),
           ),

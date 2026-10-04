@@ -349,7 +349,21 @@
       "clearAll": "Effacer toutes les formes sur ce coup",
       "undo": "Annuler",
       "redo": "Rétablir",
-      "editText": "Modifier le texte"
+      "editText": "Modifier le texte",
+      "color": {
+        "red": "Rouge",
+        "orange": "Orange",
+        "yellow": "Jaune",
+        "green": "Vert",
+        "blue": "Bleu",
+        "purple": "Violet",
+        "white": "Blanc"
+      },
+      "stroke": {
+        "thin": "Trait fin",
+        "medium": "Trait moyen",
+        "thick": "Trait épais"
+      }
     },
     "result": {
       "title": "Résumé de la partie",
@@ -523,6 +537,7 @@
     "showAnswer": "Voici l'idée — essayez-la",
     "finishLesson": "Terminer la leçon",
     "continueLesson": "Continuer · {title}",
+    "startLesson": "Commencer · {title}",
     "addedToBook": "Ajouté à votre Livre des motifs 📖",
     "bookIntro": "Chaque motif que vous possédez vit ici. Les étoiles grandissent à mesure que vous aiguisez. Les échiquiers pâlis s'émoussent — aiguisez-les avant qu'ils ne s'effacent.",
     "starNone": "Pas encore aiguisé",

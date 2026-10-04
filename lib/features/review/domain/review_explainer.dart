@@ -43,8 +43,10 @@ class ReviewExplanation {
   final String? verdictLabelKey;
   final String playedSan;
 
-  /// White-POV swing like '+0.6 → -1.4' (pawns, one decimal); null when no
-  /// eval was retained for this ply.
+  /// The swing like '+0.6 → -1.4' (pawns, one decimal) from the point of
+  /// view of the side that played the move, so a learner reviewing Black
+  /// reads their own slip as a fall, not a rise; null when no eval was
+  /// retained for this ply.
   final String? evalSwing;
 
   /// Localized "Better was {san}." — only when the engine disagreed.
@@ -61,15 +63,21 @@ class ReviewExplanation {
   final Map<String, Object?> narrativeParams;
 }
 
-/// White-POV eval text from raw centipawns (mate-collapsed values → '#').
+/// Eval text from raw centipawns (mate-collapsed values → '#').
 String _evalCpText(int cp) {
   if (cp.abs() > 90000) return cp > 0 ? '#' : '#-';
   final pawns = cp / 100;
   return '${pawns >= 0 ? '+' : ''}${pawns.toStringAsFixed(1)}';
 }
 
-String? _evalSwing(int? beforeCp, int? afterCp) {
+/// [beforeCp] and [afterCp] are White-POV; [mover] turns them to the
+/// mover's side, the one perspective every line of an explanation shares.
+String? _evalSwing(int? beforeCp, int? afterCp, String mover) {
   if (beforeCp == null && afterCp == null) return null;
+  if (mover == 'b') {
+    beforeCp = beforeCp == null ? null : -beforeCp;
+    afterCp = afterCp == null ? null : -afterCp;
+  }
   if (beforeCp == null) return _evalCpText(afterCp!);
   if (afterCp == null) return _evalCpText(beforeCp);
   return '${_evalCpText(beforeCp)} → ${_evalCpText(afterCp)}';
@@ -80,7 +88,11 @@ String? _evalSwing(int? beforeCp, int? afterCp) {
 ReviewExplanation explainMove(ReviewedMove move, Translate t, Pluralize p) {
   final played = move.played;
   final quality = move.quality;
-  final swing = _evalSwing(move.evalBeforeCp, move.evalAfterCp);
+  final swing = _evalSwing(
+    move.evalBeforeCp,
+    move.evalAfterCp,
+    played.moverColor,
+  );
   if (quality == null) {
     return ReviewExplanation.light(playedSan: played.san, evalSwing: swing);
   }
@@ -124,6 +136,7 @@ ReviewExplanation explainMove(ReviewedMove move, Translate t, Pluralize p) {
       p: p,
       fen: played.fenAfter,
       evalCpWhite: move.evalAfterCp,
+      side: played.moverColor,
     ),
     narrativeKey: narrativeKey,
     narrativeParams: {

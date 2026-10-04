@@ -334,7 +334,21 @@
       "clearAll": "この手のすべての図形をクリア",
       "undo": "元に戻す",
       "redo": "やり直し",
-      "editText": "テキストを編集"
+      "editText": "テキストを編集",
+      "color": {
+        "red": "赤",
+        "orange": "オレンジ",
+        "yellow": "黄",
+        "green": "緑",
+        "blue": "青",
+        "purple": "紫",
+        "white": "白"
+      },
+      "stroke": {
+        "thin": "細い線",
+        "medium": "中くらいの線",
+        "thick": "太い線"
+      }
     },
     "result": {
       "title": "対局のまとめ",
@@ -507,6 +521,7 @@
     "showAnswer": "これが答え ― 指してみましょう",
     "finishLesson": "レッスンを終える",
     "continueLesson": "続ける · {title}",
+    "startLesson": "始める · {title}",
     "addedToBook": "パターンブックに追加されました 📖",
     "bookIntro": "習得したパターンはすべてここに集まります。研ぐほど星が増えます。色あせた盤は鈍りかけ — 消えてしまう前に研ぎ直しましょう。",
     "starNone": "まだ研いでいません",

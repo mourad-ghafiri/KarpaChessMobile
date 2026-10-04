@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../core/theme/app_tokens.dart';
 import '../../../core/theme/tokens_context.dart';
 import '../../../core/ui/quality_style.dart';
 import '../domain/move_tree.dart';
@@ -127,15 +128,22 @@ class _MoveChip extends StatelessWidget {
           TextSpan(
             children: [
               if (prefix.isNotEmpty)
+                // Dim, not faint: on the moves toast's floating plane the
+                // faint ink read 3.1:1.
                 TextSpan(
                   text: prefix,
-                  style: TextStyle(color: tokens.textFaint),
+                  style: TextStyle(color: tokens.textDim),
                 ),
               TextSpan(text: node.san),
               if (quality != null)
                 TextSpan(
                   text: quality.glyph,
-                  style: TextStyle(color: quality.colorOf(tokens)),
+                  style: TextStyle(
+                    color: tokens.legible(
+                      quality.colorOf(tokens),
+                      on: tokens.surfaceAt(Elevation.floating).fill,
+                    ),
+                  ),
                 ),
             ],
           ),

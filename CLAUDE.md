@@ -198,6 +198,27 @@ Domain layers are pure Dart — no Flutter imports.
     (a `MaterialApp.builder` theme override, tablets only — Settings passes
     its own 720); Settings opens as a dialog on every tablet, its pickers as
     5-column grids (`PickerStrip.columns`).
+  - **Row grids are sized by what a row must show, not by a column count.**
+    The art view's lesson cards and the pack page's puzzle rows cap at 460
+    and 440dp, so a phone on its side and a portrait iPad both get two
+    readable columns; at 300 they got three whose titles stopped at fifteen
+    characters. A fixed cell height covers the two-line case — the art
+    cards overflowed by 2dp at 100.
+  - **Play setup's split** gives the personas and the time controls three
+    fifths and keeps only "Play as" and the button in the short column, so
+    nothing there can wrap and push Play below the fold. In the phone
+    column the persona rows are 64dp, which is what fits Play on a 667pt
+    iPhone SE without scrolling.
+- Desktop is the same layout system at larger windows — the macOS target,
+  iPadOS windowing, Android desktop windowing — never a platform check.
+  `macos/Runner/MainFlutterWindow.swift` opens a first launch at 1280x860
+  (at most 90% of the screen), centred, never under its 900x640 minimum,
+  and autosaves the frame. At 1600dp the rail extends; board screens go
+  two-pane with the board at its 1000dp cap; browse screens centre at the
+  wide cap. A hardware keyboard steps with ←/→ in the lesson player, Review
+  and the Studio (Home/End too in the last two); Review's phone-landscape
+  pane drops the move list, as the phone column does, because a ~330dp pane
+  left it a few clipped rows.
 - Performance contracts: engine work is visibility-gated (studio analyzes
   only while its tab is active; nothing analyzes at restore) and lifecycle-
   gated.
@@ -428,8 +449,43 @@ Domain layers are pure Dart — no Flutter imports.
   to `ModePanes.actionBar` — never inside the panel's scroll;
   dialogs have titles, `ui.button.dismiss` cancels, labeled confirms;
   radii via `AppRadius`, spacing via `AppSpacing`, type via the roles on
-  `context.type` (`display`/`title`/`heading`/`body`/`label`/`caption`)
-  rather than a fresh `fontSize`; text scale clamped ≤1.3.
+  `context.type` (`display`/`title`/`heading`/`subheading`/`body`/`label`/
+  `caption`) rather than a fresh `fontSize`; text scale clamped ≤1.3. A
+  home tab's page title is `display`, whatever the tab.
+- Shared browse parts (`core/ui/`), one of each: `NavCard` is the row that
+  takes you somewhere (mark in a 40dp well · heading · caption · chevron;
+  `emphasized` washes it and turns the chevron into an arrow);
+  `GlyphTitle` is a browse screen's app-bar title; `EmptyState` is every
+  empty or failed screen. Text fields take their look from the theme's
+  `inputDecorationTheme` — never a per-field fill or border. A tonal button
+  is `FilledButton.tonal`, which reads the scheme's `secondaryContainer`, so
+  the filled-button theme names no colours.
+- Ink that must read: `AppTokens.legible(fg, on:)` lifts a hue-carrying ink
+  (a quality colour, the accent on its soft wash, danger on a sheet) toward
+  `text` until it reaches 4.5:1 on its real surface — filled `StatChip`s,
+  Review's verdict, coach pills, move glyphs and the import sheet's errors go
+  through it. Field hints, helpers and counters are `textDim`, never
+  `textFaint` (3.9:1 on a field, 3.1:1 on a sheet). Progress bars, rings,
+  sliders and switch tracks use `AppTokens.track`, never `raised`, which
+  vanished at 1.06:1 in the light themes. Dark-theme danger is `0xFFD98073`.
+- A confirm that discards something (exit a live game, restart a lesson,
+  remove an imported game, reset) is a `DangerButton`; closes that lose
+  nothing keep the accent `FilledButton`.
+- `ModePanes` fades the panel's bottom edge while it has more to scroll (an
+  overlay in the page colour inside a fixed-shape Stack, so the panel is
+  never rebuilt) — a clipped lesson or Review card always says "more".
+- Review explains a move from the side that PLAYED it: the swing and
+  `composeHintInsights(side:)` both take the mover's view; read from the
+  position after the move they named the learner's own rook as the
+  opponent's loose piece. The hint toast's eval pill answers only Best move
+  and Evaluation, and the engine's move pill only Best move — a Plan answer
+  never prints the move.
+- A symbol used as a mark (an art's, a pack's, a persona's, a rank's) goes
+  through `SymbolGlyph`, which sizes type symbols to meet emoji and gives
+  them one stroke weight. Never draw a bare ♟: it is the one chess glyph
+  that is also an emoji, Flutter ignores U+FE0E, and none of the bundled
+  fonts carries chess glyphs, so the system draws a black emoji pawn.
+  Marks and the captured-pieces line use its outline twin ♙ (`typeSafe`).
 - Settings' language switcher is `LanguagePicker`: a grid of
   `LanguageChoiceCard`s, each showing a flag beside the language's own name
   (its bundle's `language.name`). The flag is the system emoji spelled from
@@ -470,8 +526,11 @@ Domain layers are pure Dart — no Flutter imports.
   inset (the float slot used to provide it). The pencil lives bottom-right on
   every drawing screen, as `Row[Expanded(actions), DrawingModeButton,
   SizedBox(12)]` in the `actionBar` slot — never in a header.
-- Academy pacing: the learner advances, never a timer — auto-advance
-  Timers to `_next` are forbidden (opponent auto-replies are fine).
+- Academy pacing: the learner advances by the advance button (or its `→`
+  keyboard twin), never a timer and never a tap on the board — auto-advance
+  Timers to `_next` are forbidden (opponent auto-replies are fine), and so is
+  any tap target over the board that calls `_next`/`_completeSee`: two
+  full-board ones used to skip a beat on a stray tap.
 - Engine insight: `InsightBuilder` (coach domain) is the one MultiPV-3 +
   threat scanner, shared by the hint flow and the studio's node analysis.
 - The Studio's study library is `assets/data/games/games.json`: 240 short

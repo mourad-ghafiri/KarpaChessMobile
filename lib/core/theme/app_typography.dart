@@ -71,6 +71,16 @@ class AppTypography extends ThemeExtension<AppTypography> {
         fontWeight: FontWeight.w700,
       );
 
+  /// Names on grid tiles and game rows — a [heading] one step smaller, so a
+  /// two-line name fits a fixed cell. The art, pack and game cards typed
+  /// this as 14, 14.5 and 15 before it had a name.
+  TextStyle get subheading => TextStyle(
+        fontFamily: font.display,
+        fontSize: 14.5,
+        fontWeight: FontWeight.w700,
+        height: 1.2,
+      );
+
   /// Default reading text.
   TextStyle get body =>
       TextStyle(fontFamily: font.body, fontSize: 14, height: 1.45);

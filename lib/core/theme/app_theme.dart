@@ -18,6 +18,10 @@ abstract final class AppTheme {
       onPrimary: t.onAccent,
       secondary: t.info,
       onSecondary: t.onAccent,
+      // What a tonal button fills with: the accent's soft wash and the
+      // accent ink, the pair every selected chip and well already wears.
+      secondaryContainer: t.accentSoft,
+      onSecondaryContainer: t.accent,
       tertiary: t.brilliant,
       onTertiary: t.onAccent,
       error: t.danger,
@@ -121,10 +125,12 @@ abstract final class AppTheme {
           color: t.textDim,
         ),
       ),
+      // No colours here: `FilledButton.tonal` reads this same theme, so
+      // naming the accent fill made every tonal button an identical second
+      // primary. The scheme already gives the filled one accent on
+      // onAccent, and the tonal one its soft container (above).
       filledButtonTheme: FilledButtonThemeData(
         style: FilledButton.styleFrom(
-          backgroundColor: t.accent,
-          foregroundColor: t.onAccent,
           minimumSize: const Size(64, 48),
           elevation: 0,
           shape: RoundedRectangleBorder(
@@ -139,7 +145,10 @@ abstract final class AppTheme {
       outlinedButtonTheme: OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
           foregroundColor: t.text,
-          minimumSize: const Size(64, 44),
+          // The filled button's height: the two share rows (Cancel beside
+          // Import, Rematch beside Review), and at 44 against 48 their edges
+          // never lined up.
+          minimumSize: const Size(64, 48),
           side: BorderSide(color: t.edge),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(AppRadius.control),
@@ -166,6 +175,47 @@ abstract final class AppTheme {
         backgroundColor: t.raised,
         side: BorderSide(color: t.edge),
         labelStyle: TextStyle(color: t.text),
+      ),
+      // One field, app-wide: a `raised` well with the theme's hairline,
+      // ringed in the accent while it has focus. The Studio's search and
+      // import fields each built this by hand while the three dialog fields
+      // fell back to Material's underline, so the app had two text inputs.
+      inputDecorationTheme: InputDecorationThemeData(
+        filled: true,
+        fillColor: t.raised,
+        isDense: true,
+        contentPadding: const EdgeInsets.symmetric(
+          horizontal: 14,
+          vertical: 12,
+        ),
+        // The dim ink, not the faint one: on a field's raised fill the faint
+        // ink read 3.9:1, and 3.1:1 for helper text on a sheet.
+        hintStyle: TextStyle(color: t.textDim),
+        labelStyle: TextStyle(color: t.textDim),
+        floatingLabelStyle: WidgetStateTextStyle.resolveWith(
+          (states) => TextStyle(
+            color: states.contains(WidgetState.error)
+                ? t.danger
+                : states.contains(WidgetState.focused)
+                ? t.accent
+                : t.textDim,
+          ),
+        ),
+        helperStyle: type.caption.copyWith(color: t.textDim),
+        helperMaxLines: 2,
+        counterStyle: type.caption.copyWith(color: t.textDim),
+        errorStyle: type.caption.copyWith(
+          color: t.legible(t.danger, on: float.fill),
+        ),
+        errorMaxLines: 3,
+        prefixIconColor: t.textDim,
+        suffixIconColor: t.textDim,
+        border: _field(t.edge),
+        enabledBorder: _field(t.edge),
+        focusedBorder: _field(t.accent, width: 1.6),
+        errorBorder: _field(t.danger),
+        focusedErrorBorder: _field(t.danger, width: 1.6),
+        disabledBorder: _field(t.edge.withValues(alpha: t.edge.a * 0.5)),
       ),
       dividerTheme: DividerThemeData(color: t.edge, thickness: 1),
       // Matches the HintToast voice: a floating surface with a hairline —
@@ -199,7 +249,7 @@ abstract final class AppTheme {
       sliderTheme: SliderThemeData(
         activeTrackColor: t.accent,
         thumbColor: t.accent,
-        inactiveTrackColor: t.raised,
+        inactiveTrackColor: t.track,
         overlayColor: t.accent.withValues(alpha: 0.14),
       ),
       switchTheme: SwitchThemeData(
@@ -211,14 +261,14 @@ abstract final class AppTheme {
         trackColor: WidgetStateProperty.resolveWith(
           (states) => states.contains(WidgetState.selected)
               ? t.accentSoft
-              : t.raised,
+              : t.track,
         ),
         overlayColor: _overlay(t.accent),
       ),
       progressIndicatorTheme: ProgressIndicatorThemeData(
         color: t.accent,
-        linearTrackColor: t.raised,
-        circularTrackColor: t.raised,
+        linearTrackColor: t.track,
+        circularTrackColor: t.track,
       ),
       tooltipTheme: TooltipThemeData(
         decoration: float.decoration(AppRadius.control),
@@ -242,6 +292,12 @@ abstract final class AppTheme {
         }
         return null;
       });
+
+  static OutlineInputBorder _field(Color color, {double width = 1}) =>
+      OutlineInputBorder(
+        borderRadius: BorderRadius.circular(AppRadius.control),
+        borderSide: BorderSide(color: color, width: width),
+      );
 
   static TextStyle? _display(TextStyle? style, AppFont font) =>
       style?.copyWith(fontFamily: font.display, fontWeight: FontWeight.w600);

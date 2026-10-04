@@ -26,6 +26,16 @@ class StatChip extends StatelessWidget {
   Widget build(BuildContext context) {
     final tokens = context.tokens;
     final color = this.color ?? tokens.textDim;
+    // A filled chip's ink is its own hue on an 18% wash of that hue, which
+    // fell to 2.8–4.2:1 for the quality colours in the light themes (Review's
+    // tallies) and 4.2:1 for a result chip on Linen. The ink is lifted
+    // toward the text colour until it reads, judged over the card it sits on.
+    final ink = filled
+        ? tokens.legible(
+            color,
+            on: Color.alphaBlend(color.withValues(alpha: 0.18), tokens.panel),
+          )
+        : tokens.text;
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       decoration: BoxDecoration(
@@ -39,7 +49,7 @@ class StatChip extends StatelessWidget {
           if (emoji != null)
             Text(emoji!, style: const TextStyle(fontSize: 13))
           else if (icon != null)
-            Icon(icon, size: 14, color: color),
+            Icon(icon, size: 14, color: filled ? ink : color),
           if (emoji != null || icon != null) const SizedBox(width: 4),
           // A chip is `mainAxisSize.min` but still inherits its parent's
           // width, so a long localized label overflowed rather than
@@ -52,7 +62,7 @@ class StatChip extends StatelessWidget {
               style: TextStyle(
                 fontSize: 12,
                 fontWeight: FontWeight.w700,
-                color: filled ? color : tokens.text,
+                color: ink,
               ),
             ),
           ),

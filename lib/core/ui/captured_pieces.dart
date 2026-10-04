@@ -39,8 +39,13 @@ class CapturedPieces extends StatelessWidget {
   /// The one place a piece becomes a character. The filled set for both
   /// colours: the outline glyphs (♙♘♗) vanish against the app's light
   /// surfaces, and these are what the board's own player bars already used.
+  ///
+  /// The pawn is the exception, drawn as its outline ♙: ♟ is the one chess
+  /// glyph that is also an emoji, and the system drew it as a glossy black
+  /// emoji pawn — darker than every piece beside it, and nearly invisible on
+  /// a dark card. Flutter does not honour the text-presentation selector.
   static const glyphs = {
-    Role.pawn: '♟',
+    Role.pawn: '♙',
     Role.knight: '♞',
     Role.bishop: '♝',
     Role.rook: '♜',

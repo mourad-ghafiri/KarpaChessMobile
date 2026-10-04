@@ -14,6 +14,7 @@ import '../../../core/theme/board_themes.dart';
 import '../../../core/theme/themes.dart';
 import '../../../core/theme/tokens_context.dart';
 import '../../../core/ui/app_sheet.dart';
+import '../../../core/ui/danger_button.dart';
 import '../../../core/ui/picker_strip.dart';
 import '../../../progression/presentation/score_card.dart';
 import '../../../prefs/application/prefs_controller.dart';
@@ -98,7 +99,7 @@ class _SettingsContent extends ConsumerWidget {
     // A plain column: whichever host presents this owns the scrolling
     // (the sheet presenter's scroll view, or the dialog's).
     return Padding(
-      padding: const EdgeInsetsDirectional.fromSTEB(20, 8, 20, 28),
+      padding: AppInsets.sheet,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -108,7 +109,7 @@ class _SettingsContent extends ConsumerWidget {
               Expanded(
                 child: Text(
                   t('settings.title'),
-                  style: Theme.of(context).textTheme.headlineSmall,
+                  style: context.type.displayAt(24, weight: FontWeight.w600),
                 ),
               ),
               if (showClose)
@@ -351,7 +352,7 @@ class _SettingsContent extends ConsumerWidget {
             onPressed: () => Navigator.pop(context, false),
             child: Text(t('ui.button.dismiss')),
           ),
-          FilledButton(
+          DangerButton(
             onPressed: () => Navigator.pop(context, true),
             child: Text(t('settings.resetBtn')),
           ),

@@ -349,7 +349,21 @@
       "clearAll": "Cancella tutte le forme su questa mossa",
       "undo": "Annulla",
       "redo": "Ripristina",
-      "editText": "Modifica il testo"
+      "editText": "Modifica il testo",
+      "color": {
+        "red": "Rosso",
+        "orange": "Arancione",
+        "yellow": "Giallo",
+        "green": "Verde",
+        "blue": "Blu",
+        "purple": "Viola",
+        "white": "Bianco"
+      },
+      "stroke": {
+        "thin": "Tratto sottile",
+        "medium": "Tratto medio",
+        "thick": "Tratto spesso"
+      }
     },
     "result": {
       "title": "Riepilogo della partita",
@@ -523,6 +537,7 @@
     "showAnswer": "Ecco l'idea: ora provatela",
     "finishLesson": "Concludi la lezione",
     "continueLesson": "Continua · {title}",
+    "startLesson": "Inizia · {title}",
     "addedToBook": "Aggiunto al vostro Libro degli Schemi 📖",
     "bookIntro": "Ogni schema che conquistate vive qui. Le stelle crescono man mano che affilate. Le scacchiere sbiadite si stanno smussando: affilatele prima che vi sfuggano.",
     "starNone": "Non ancora affilato",

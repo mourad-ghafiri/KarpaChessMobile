@@ -7,6 +7,7 @@ import '../../../core/layout/window_class.dart';
 import '../../../core/theme/app_radius.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/tokens_context.dart';
+import '../../../core/ui/glyph_title.dart';
 import '../../../core/ui/progress_bar.dart';
 import '../../../core/ui/surface.dart';
 import '../../../progression/application/progression_controller.dart';
@@ -37,7 +38,6 @@ class ArtView extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final t = ref.watch(i18nProvider).requireValue.t;
-    final tokens = context.tokens;
     final map = ref.watch(skillMapProvider).valueOrNull;
     final progression = ref.watch(progressionControllerProvider);
     final owned = progression.completedNodes;
@@ -46,25 +46,9 @@ class ArtView extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            if (art != null) ...[
-              Text(
-                art.icon,
-                style: TextStyle(fontSize: 20, color: tokens.accent),
-              ),
-              const SizedBox(width: AppSpacing.sm),
-            ],
-            Flexible(
-              child: Text(
-                t('academy.art.$artId'),
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(fontFamily: context.type.font.display),
-              ),
-            ),
-          ],
+        title: GlyphTitle(
+          glyph: art?.icon ?? '',
+          title: t('academy.art.$artId'),
         ),
       ),
       body: map == null || art == null
@@ -79,9 +63,13 @@ class ArtView extends ConsumerWidget {
                   // suggested one, which helps a beginner without standing
                   // in anyone's way.
                   final suggested = map.nextConceptIn(artId, owned)?.id;
+                  final spec = LayoutSpec.of(constraints);
+                  final grid =
+                      spec.landscapeCompact || spec.windowClass.atLeastMedium;
                   Widget cardAt(BuildContext context, int index) {
                     final concept = art.concepts[index];
                     return _ConceptCard(
+                      summaryLines: grid ? 1 : 2,
                       concept: concept,
                       isOwned: owned.contains(concept.id),
                       isNext: concept.id == suggested,
@@ -95,10 +83,7 @@ class ArtView extends ConsumerWidget {
                   // ~3.5 rows of a single column. It is worth having whenever
                   // there is width for it — gating on `landscapeCompact`
                   // alone made it a landscape-phone feature and left every
-                  // tablet and desktop on one narrow column.
-                  final spec = LayoutSpec.of(constraints);
-                  final grid =
-                      spec.landscapeCompact || spec.windowClass.atLeastMedium;
+                  // tablet and desktop on one narrow column. (`grid` above.)
                   return Center(
                     child: ConstrainedBox(
                       constraints: BoxConstraints(
@@ -126,9 +111,11 @@ class ArtView extends ConsumerWidget {
                                     // landscape. At 300 a portrait iPad got
                                     // four ~240dp cards whose summaries cut
                                     // off after twenty characters.
-                                    maxCrossAxisExtent: spec.tablet
-                                        ? _tabletCardExtent
-                                        : 300,
+                                    // A phone on its side too: at 300 it
+                                    // fitted three ~260dp cards whose titles
+                                    // wrapped and whose summaries stopped
+                                    // after fifteen characters.
+                                    maxCrossAxisExtent: _cardExtent,
                                     // A grid cell is a FIXED height, so it has
                                     // to cover the tallest card — thumb,
                                     // two-line title, summary, star/due row —
@@ -139,13 +126,15 @@ class ArtView extends ConsumerWidget {
                                     // moment either grew. `slotHeightFor`
                                     // scales it the way the art grid already
                                     // scales its own cells.
-                                    // 100 covers the card at the default md
-                                    // padding (it was 96 over a hand-tuned
-                                    // all(10)).
+                                    // 104 covers a two-line title, the
+                                    // summary and the star row at the md
+                                    // padding and the card's hairline; 100
+                                    // overflowed by 2dp whenever a title
+                                    // wrapped.
                                     mainAxisExtent: slotHeightFor(
                                       context,
-                                      100,
-                                      minimum: 100,
+                                      104,
+                                      minimum: 104,
                                     ),
                                     mainAxisSpacing: AppInsets.gridGap,
                                     crossAxisSpacing: AppInsets.gridGap,
@@ -169,11 +158,12 @@ class ArtView extends ConsumerWidget {
   }
 }
 
-/// A tablet lesson card's widest; see the grid in [ArtView].
-const _tabletCardExtent = 460.0;
+/// A lesson card's widest in the grid branch; see the grid in [ArtView].
+const _cardExtent = 460.0;
 
 class _ConceptCard extends ConsumerWidget {
   const _ConceptCard({
+    required this.summaryLines,
     required this.concept,
     required this.isOwned,
     required this.isNext,
@@ -181,6 +171,10 @@ class _ConceptCard extends ConsumerWidget {
     required this.progress,
     required this.onTap,
   });
+
+  /// How many lines the summary may take: two in the phone's list, where
+  /// the card sizes itself, one in the fixed-height grid cell.
+  final int summaryLines;
 
   final Concept concept;
   final bool isOwned;
@@ -238,13 +232,13 @@ class _ConceptCard extends ConsumerWidget {
                   const SizedBox(height: 2),
                   Text(
                     summary,
-                    // One line only: the grid branch gives this card a fixed
-                    // height, so a second line would overflow every card on a
-                    // tablet. The Pattern Book sheet, which scrolls, shows two.
-                    maxLines: 1,
+                    // One line in the grid branch, whose fixed cell would
+                    // overflow with a second; two in the phone's list, where
+                    // one line cut every summary mid-thought ("One move that
+                    // asks two questions, and a…").
+                    maxLines: summaryLines,
                     overflow: TextOverflow.ellipsis,
-                    style: TextStyle(
-                      fontSize: 11.5,
+                    style: context.type.caption.copyWith(
                       height: 1.25,
                       color: tokens.textDim,
                     ),
@@ -261,8 +255,7 @@ class _ConceptCard extends ConsumerWidget {
                           t('academy.due'),
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
-                          style: TextStyle(
-                            fontSize: 11.5,
+                          style: context.type.caption.copyWith(
                             fontWeight: FontWeight.w700,
                             color: tokens.accent,
                           ),
@@ -292,8 +285,7 @@ class _ConceptCard extends ConsumerWidget {
                           t('academy.resume'),
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
-                          style: TextStyle(
-                            fontSize: 11.5,
+                          style: context.type.caption.copyWith(
                             fontWeight: FontWeight.w700,
                             color: tokens.accent,
                           ),
@@ -306,8 +298,7 @@ class _ConceptCard extends ConsumerWidget {
                     t('academy.upNext'),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
-                    style: TextStyle(
-                      fontSize: 11.5,
+                    style: context.type.caption.copyWith(
                       fontWeight: FontWeight.w700,
                       color: tokens.accent,
                     ),

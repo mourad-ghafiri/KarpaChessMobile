@@ -37,8 +37,9 @@ class PatternThumb extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final tokens = context.tokens;
     final fen = ref.watch(conceptKeyFenProvider(conceptId)).valueOrNull;
-    final boardTheme =
-        ref.watch(prefsControllerProvider.select((p) => p.boardTheme));
+    final boardTheme = ref.watch(
+      prefsControllerProvider.select((p) => p.boardTheme),
+    );
     final pieces = ref.watch(pieceAssetsProvider);
 
     if (fen == null) {
@@ -51,8 +52,9 @@ class PatternThumb extends ConsumerWidget {
           borderRadius: BorderRadius.circular(8),
           border: Border.all(color: tokens.edge),
         ),
+        // The outline pawn: ♟ is drawn as the system's black emoji.
         child: Text(
-          '♟',
+          '♙',
           style: TextStyle(fontSize: size * 0.4, color: tokens.textFaint),
         ),
       );
@@ -60,8 +62,9 @@ class PatternThumb extends ConsumerWidget {
 
     // An alpha-scaling color matrix fades the thumb like Opacity would,
     // without the per-cell saveLayer an Opacity over a whole board costs.
-    final fade =
-        (1.0 - 0.55 * dullness.clamp(0.0, 1.0)).clamp(0.45, 1.0).toDouble();
+    final fade = (1.0 - 0.55 * dullness.clamp(0.0, 1.0))
+        .clamp(0.45, 1.0)
+        .toDouble();
     return ColorFiltered(
       colorFilter: alphaFilter(fade),
       child: StaticChessboard(
@@ -93,16 +96,22 @@ class StarPips extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final tokens = context.tokens;
-    return Row(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        for (var i = 0; i < 3; i++)
-          Icon(
-            i < stars ? Icons.star_rounded : Icons.star_outline_rounded,
-            size: _size,
-            color: i < stars ? tokens.best : tokens.textFaint,
-          ),
-      ],
+    // One node for a screen reader — "2 / 3" — rather than three silent
+    // glyphs.
+    return Semantics(
+      value: '$stars / 3',
+      excludeSemantics: true,
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          for (var i = 0; i < 3; i++)
+            Icon(
+              i < stars ? Icons.star_rounded : Icons.star_outline_rounded,
+              size: _size,
+              color: i < stars ? tokens.best : tokens.textFaint,
+            ),
+        ],
+      ),
     );
   }
 }

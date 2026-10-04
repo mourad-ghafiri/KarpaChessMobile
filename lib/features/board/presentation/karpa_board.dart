@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/chess/castling_moves.dart';
+import '../../../core/i18n/i18n_providers.dart';
 import '../../../core/theme/board_themes.dart';
 import '../../../core/theme/motion.dart';
 import '../../../core/theme/tokens_context.dart';
@@ -130,8 +131,15 @@ class _KarpaBoardState extends ConsumerState<KarpaBoard> {
     final colorway = BoardColorTheme.fromId(prefs.boardTheme);
 
     final checkSquare = _checkSquare;
+    final i18n = ref.watch(i18nProvider).valueOrNull;
 
-    return Directionality(
+    // The board was the one unlabeled region on every board screen — the
+    // `ui.aria.chessBoard` string existed and was never used. A screen reader
+    // now finds it by name.
+    return Semantics(
+      container: true,
+      label: i18n?.t('ui.aria.chessBoard'),
+      child: Directionality(
       // The board never mirrors under RTL locales.
       textDirection: TextDirection.ltr,
       // The wash arrives and leaves on the same curve the BoardStage bezel
@@ -197,6 +205,7 @@ class _KarpaBoardState extends ConsumerState<KarpaBoard> {
             ],
           );
         },
+      ),
       ),
     );
   }

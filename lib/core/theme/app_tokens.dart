@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 
 /// How far a surface sits above the page.
@@ -140,6 +142,39 @@ class AppTokens extends ThemeExtension<AppTokens> {
   final Color hiCheck;
 
   final Color scrim;
+
+  /// The empty part of a progress bar, ring, slider or switch. It used to be
+  /// [raised], which sits ~1.06:1 against a light theme's cards, so an
+  /// unstarted bar (every "0 / 12" pack) vanished and the XP ring lost its
+  /// outline. A trace of the ink over [panel] keeps it visible in every theme
+  /// (~1.7:1 dark, ~1.5:1 light) while the accent fill still reads at better
+  /// than 3.5:1 against it.
+  Color get track => Color.alphaBlend(
+        text.withValues(alpha: brightness == Brightness.dark ? 0.18 : 0.22),
+        panel,
+      );
+
+  /// [fg] as text that reads on [on]: returned unchanged when it already
+  /// meets [minRatio], otherwise stepped toward [text] until it does.
+  ///
+  /// For the hue-carrying inks — quality colours, the accent on its own soft
+  /// wash, danger on a floating sheet — whose base values were picked to
+  /// read on the page, not on every tinted fill they end up on. [on] must be
+  /// opaque; composite a translucent fill over its surface first.
+  Color legible(Color fg, {required Color on, double minRatio = 4.5}) {
+    var ink = fg;
+    for (var step = 1; step <= 10 && contrast(ink, on) < minRatio; step++) {
+      ink = Color.lerp(fg, text, step / 10)!;
+    }
+    return ink;
+  }
+
+  /// WCAG contrast ratio between two opaque colours.
+  static double contrast(Color a, Color b) {
+    final la = a.computeLuminance();
+    final lb = b.computeLuminance();
+    return (math.max(la, lb) + 0.05) / (math.min(la, lb) + 0.05);
+  }
 
   /// How a surface on [e] is painted in this theme.
   ///

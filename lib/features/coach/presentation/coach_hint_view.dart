@@ -11,6 +11,7 @@ import '../../../core/theme/tokens_context.dart';
 import '../application/coach_hint_controller.dart';
 import '../domain/coach_answer_format.dart';
 import '../domain/coach_menu.dart';
+import '../domain/coach_service.dart';
 
 /// The body of the hint toast in every mode: pick a question, then read the
 /// coach's answer. Deliberately text-only — nothing here ever draws on the
@@ -52,28 +53,38 @@ class CoachHintView extends ConsumerWidget {
           const SizedBox(width: 10),
           Text(
             t(coachIntentLabelKey(state.intent!)),
-            style: TextStyle(fontSize: 13, color: tokens.textDim),
+            style: context.type.body.copyWith(color: tokens.textDim),
           ),
         ],
       );
     }
 
+    // The pills answer only the questions they belong to. Both used to ride
+    // on every answer, so asking for a PLAN printed the engine's best move
+    // above it — the answer to a question the reader chose not to ask —
+    // and a bare eval the plan never explained.
+    final intent = state.intent!;
+    final evalCp = intent == CoachIntent.bestMove ||
+            intent == CoachIntent.evaluation
+        ? state.evalCp
+        : null;
+    final bestSan = intent == CoachIntent.bestMove ? state.bestSan : null;
     return Column(
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        if (state.evalCp != null || state.bestSan != null) ...[
+        if (evalCp != null || bestSan != null) ...[
           Row(
             children: [
-              if (state.evalCp != null)
+              if (evalCp != null)
                 _Pill(
-                  label: _evalText(state.evalCp!),
-                  color: _evalColor(state.evalCp!, tokens),
+                  label: _evalText(evalCp),
+                  color: _evalColor(evalCp, tokens),
                   mono: true,
                 ),
-              if (state.bestSan != null) ...[
-                const SizedBox(width: 8),
-                _Pill(label: state.bestSan!, color: tokens.accent, mono: true),
+              if (bestSan != null) ...[
+                if (evalCp != null) const SizedBox(width: AppSpacing.sm),
+                _Pill(label: bestSan, color: tokens.accent, mono: true),
               ],
             ],
           ),
@@ -115,17 +126,24 @@ class CoachHintView extends ConsumerWidget {
     BuildContext context,
     AppTokens tokens,
   ) {
+    // The type roles, not a smaller private scale: the answer is reading
+    // text, and at 13 it was the smallest prose in the app.
     final base = KarpaMarkdownStyle.fromTheme(Theme.of(context));
+    final type = context.type;
     return KarpaMarkdownStyle(
-      body: base.body.copyWith(fontSize: 13, color: tokens.text),
-      h2: base.h2.copyWith(fontSize: 16, color: tokens.accent),
-      h3: base.h3.copyWith(fontSize: 14, color: tokens.accent),
-      h4: base.h4.copyWith(fontSize: 13, color: tokens.accent),
+      body: base.body.merge(type.body).copyWith(color: tokens.text),
+      h2: base.h2.merge(type.heading).copyWith(color: tokens.accent),
+      h3: base.h3
+          .merge(type.body)
+          .copyWith(fontWeight: FontWeight.w700, color: tokens.accent),
+      h4: base.h4.merge(type.label).copyWith(color: tokens.accent),
       code: base.code.copyWith(color: tokens.textDim),
-      quote: base.quote.copyWith(fontSize: 12.5, color: tokens.textDim),
+      quote: base.quote.merge(type.label).copyWith(
+            fontWeight: FontWeight.w400,
+            color: tokens.textDim,
+          ),
       quoteBarColor: tokens.accentSoft,
-      sanChip: context.type.san.copyWith(
-        fontSize: 12.5,
+      sanChip: type.san.copyWith(
         fontWeight: FontWeight.w700,
         color: tokens.accent,
       ),
@@ -145,18 +163,23 @@ class _Pill extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final tokens = context.tokens;
+    // The pill floats on the toast's floating plane.
+    final fill = Color.alphaBlend(
+      color.withValues(alpha: 0.16),
+      tokens.surfaceAt(Elevation.floating).fill,
+    );
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
       decoration: BoxDecoration(
-        color: color.withValues(alpha: 0.16),
+        color: fill,
         borderRadius: BorderRadius.circular(AppRadius.chip),
       ),
       child: Text(
         label,
-        style: (mono ? context.type.san : const TextStyle()).copyWith(
-          fontSize: 12.5,
+        style: (mono ? context.type.san : context.type.label).copyWith(
           fontWeight: FontWeight.w800,
-          color: color,
+          color: tokens.legible(color, on: fill),
         ),
       ),
     );

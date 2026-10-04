@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
 import '../theme/motion.dart';
+import '../theme/tokens_context.dart';
 import '../ui/mode_header_bar.dart';
 import '../ui/player_card.dart';
 import 'window_class.dart';
@@ -509,7 +510,7 @@ class ModePanes extends StatelessWidget {
                     ),
                   if (aboveBoard != null)
                     SizedBox(height: _aboveH(context), child: aboveBoard),
-                  Expanded(child: panel),
+                  Expanded(child: _OverflowFade(child: panel)),
                   if (belowBoard != null)
                     SizedBox(height: _belowH(context), child: belowBoard),
                 ],
@@ -615,7 +616,7 @@ class ModePanes extends StatelessWidget {
             _slot(_belowH(context), belowBoard, constraints.maxWidth - 16),
           ],
           const SizedBox(height: 4),
-          Expanded(child: panel),
+          Expanded(child: _OverflowFade(child: panel)),
         ],
       ),
       constraints.maxHeight,
@@ -677,7 +678,7 @@ class ModePanes extends StatelessWidget {
                 _slot(g.card, belowBoard, g.board),
               ],
               const SizedBox(height: _panelGap),
-              Expanded(child: panel),
+              Expanded(child: _OverflowFade(child: panel)),
             ],
           ),
           constraints.maxHeight,
@@ -734,7 +735,7 @@ class ModePanes extends StatelessWidget {
                     ),
                   if (aboveBoard != null)
                     SizedBox(height: _aboveH(context), child: aboveBoard),
-                  Expanded(child: panel),
+                  Expanded(child: _OverflowFade(child: panel)),
                   if (belowBoard != null)
                     SizedBox(height: _belowH(context), child: belowBoard),
                 ],
@@ -885,4 +886,72 @@ class _PaneLayout extends MultiChildLayoutDelegate {
 
   @override
   bool shouldRelayout(_PaneLayout old) => old.maxFloatHeight != maxFloatHeight;
+}
+
+/// A bottom fade on the panel while it has more to scroll.
+///
+/// On a phone the panel is what the board leaves, and a lesson's prose or
+/// Review's explanation ran on past it with nothing to say so: the last
+/// visible line was simply cut through its letters, which reads as the end
+/// of the text. The fade appears only while there is more below, so a panel
+/// that fits is drawn exactly as before. It listens to the panel's own
+/// scroll view (depth 0) and nothing nested in it.
+class _OverflowFade extends StatefulWidget {
+  const _OverflowFade({required this.child});
+
+  final Widget child;
+
+  @override
+  State<_OverflowFade> createState() => _OverflowFadeState();
+}
+
+class _OverflowFadeState extends State<_OverflowFade> {
+  /// How far up from the bottom edge the content dissolves.
+  static const _fade = 28.0;
+
+  bool _more = false;
+
+  bool _track(ScrollMetrics metrics) {
+    final more = metrics.axis == Axis.vertical && metrics.extentAfter > 1;
+    if (more != _more) setState(() => _more = more);
+    return false;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // A Stack whose first child never changes, so toggling the fade can never
+    // rebuild the panel (and lose its scroll offset); and a painted overlay
+    // in the page colour rather than a mask, which would cost a layer.
+    final page = context.tokens.bg;
+    return NotificationListener<ScrollMetricsNotification>(
+      onNotification: (n) => n.depth == 0 && _track(n.metrics),
+      child: NotificationListener<ScrollUpdateNotification>(
+        onNotification: (n) => n.depth == 0 && _track(n.metrics),
+        child: Stack(
+          fit: StackFit.expand,
+          children: [
+            widget.child,
+            if (_more)
+              Positioned(
+                left: 0,
+                right: 0,
+                bottom: 0,
+                height: _fade,
+                child: IgnorePointer(
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        begin: Alignment.topCenter,
+                        end: Alignment.bottomCenter,
+                        colors: [page.withValues(alpha: 0), page],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+          ],
+        ),
+      ),
+    );
+  }
 }

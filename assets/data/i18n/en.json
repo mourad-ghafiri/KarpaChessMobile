@@ -349,7 +349,21 @@
       "clearAll": "Clear all shapes on this move",
       "undo": "Undo",
       "redo": "Redo",
-      "editText": "Edit text"
+      "editText": "Edit text",
+      "color": {
+        "red": "Red",
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "green": "Green",
+        "blue": "Blue",
+        "purple": "Purple",
+        "white": "White"
+      },
+      "stroke": {
+        "thin": "Thin line",
+        "medium": "Medium line",
+        "thick": "Thick line"
+      }
     },
     "result": {
       "title": "Match summary",
@@ -523,6 +537,7 @@
     "showAnswer": "Here is the idea — try it",
     "finishLesson": "Finish lesson",
     "continueLesson": "Continue · {title}",
+    "startLesson": "Start · {title}",
     "addedToBook": "Added to your Pattern Book 📖",
     "bookIntro": "Every pattern you own lives here. Stars grow as you sharpen. Faded boards are going dull — sharpen them before they slip away.",
     "starNone": "Not yet sharpened",

@@ -8,6 +8,7 @@ import '../../../core/layout/content_width.dart';
 import '../../../core/layout/window_class.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/tokens_context.dart';
+import '../../../core/ui/glyph_title.dart';
 import '../../../core/ui/progress_bar.dart';
 import '../../../core/ui/measure.dart';
 import '../../../core/ui/stat_chip.dart';
@@ -38,7 +39,6 @@ class PackDetailScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final t = ref.watch(i18nProvider).requireValue.t;
-    final tokens = context.tokens;
     final puzzles = ref.watch(packPuzzlesProvider(pack.id)).valueOrNull;
     final results = ref.watch(
       progressionControllerProvider.select((p) => p.puzzleResults),
@@ -46,24 +46,7 @@ class PackDetailScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Text(
-              pack.icon,
-              style: TextStyle(fontSize: 20, color: tokens.accent),
-            ),
-            const SizedBox(width: AppSpacing.sm),
-            Flexible(
-              child: Text(
-                t(pack.nameKey),
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(fontFamily: context.type.font.display),
-              ),
-            ),
-          ],
-        ),
+        title: GlyphTitle(glyph: pack.icon, title: t(pack.nameKey)),
       ),
       body: puzzles == null
           ? const SafeArea(child: Center(child: CircularProgressIndicator()))
@@ -80,9 +63,9 @@ class PackDetailScreen extends ConsumerWidget {
                   return Center(
                     child: ConstrainedBox(
                       constraints: BoxConstraints(
-                        // Tablets: the grid cap in portrait (three columns,
-                        // the pack's twelve as four rows) and the wide cap
-                        // in landscape (four columns, three rows). Phones on
+                        // Tablets: the grid cap in portrait (two columns,
+                        // the pack's twelve as six rows) and the wide cap
+                        // in landscape (three columns, four rows). Phones on
                         // their side keep the cap they always had.
                         maxWidth: spec.tablet
                             ? spec.split
@@ -153,7 +136,10 @@ class PackDetailScreen extends ConsumerWidget {
             shrinkWrap: true,
             physics: const NeverScrollableScrollPhysics(),
             gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-              maxCrossAxisExtent: 300,
+              // A row carries a mark, a title, the rating chip and a
+              // chevron: at 300 the title kept ~90dp and read "One Pawn,
+              // Two P…" on a portrait iPad and a phone on its side alike.
+              maxCrossAxisExtent: 440,
               // Fixed cells must cover the tallest row — title plus state
               // word — at the largest text scale the app allows.
               mainAxisExtent: slotHeightFor(context, 72, minimum: 72),
@@ -233,7 +219,7 @@ class _Header extends StatelessWidget {
             // A number tally reads left-to-right in every locale; RTL
             // would render 2-of-4 as "4 / 2".
             textDirection: TextDirection.ltr,
-            style: TextStyle(fontSize: 11.5, color: tokens.textDim),
+            style: context.type.caption.copyWith(color: tokens.textDim),
           ),
         ],
       ),
@@ -306,8 +292,7 @@ class _PuzzleRow extends StatelessWidget {
                     const SizedBox(height: 2),
                     Text(
                       stateWord,
-                      style: TextStyle(
-                        fontSize: 11.5,
+                      style: context.type.caption.copyWith(
                         fontWeight: FontWeight.w600,
                         color: glyphColor,
                       ),

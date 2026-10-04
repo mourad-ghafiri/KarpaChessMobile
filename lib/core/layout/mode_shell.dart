@@ -21,8 +21,8 @@ enum AppTab { learn, play, puzzles, studio }
 
 /// Everything a mode contributes to the shell.
 typedef _Mode = ({
-  IconData icon,
-  IconData selectedIcon,
+  Widget icon,
+  Widget selectedIcon,
   String labelKey,
   Widget screen,
 });
@@ -33,20 +33,23 @@ typedef _Mode = ({
 /// it; now adding a mode is a compile error until it is described here.
 _Mode _modeOf(AppTab tab) => switch (tab) {
       AppTab.learn => (
-          icon: Icons.school_outlined,
-          selectedIcon: Icons.school,
+          icon: const Icon(Icons.school_outlined),
+          selectedIcon: const Icon(Icons.school),
           labelKey: 'academy.nav',
           screen: const AcademyScreen(),
         ),
       AppTab.play => (
-          icon: Icons.sports_esports_outlined,
-          selectedIcon: Icons.sports_esports,
+          // The knight, not a videogame controller: Play is a game of chess,
+          // and this is the Classic set's own knight — the one on the
+          // launcher icon — tinted like any other tab icon.
+          icon: const ImageIcon(_knight),
+          selectedIcon: const ImageIcon(_knight),
           labelKey: 'play.nav',
           screen: const PlayScreen(),
         ),
       AppTab.puzzles => (
-          icon: Icons.extension_outlined,
-          selectedIcon: Icons.extension,
+          icon: const Icon(Icons.extension_outlined),
+          selectedIcon: const Icon(Icons.extension),
           labelKey: 'puzzles.nav',
           screen: const PuzzlesScreen(),
         ),
@@ -58,12 +61,15 @@ _Mode _modeOf(AppTab tab) => switch (tab) {
           // side lines off it, and `BoardStage.sideline` recolours the bezel
           // the moment you leave the line that was played. Nothing else in the
           // app branches, so it cannot be read as another tab.
-          icon: Icons.account_tree_outlined,
-          selectedIcon: Icons.account_tree,
+          icon: const Icon(Icons.account_tree_outlined),
+          selectedIcon: const Icon(Icons.account_tree),
           labelKey: 'studio.nav',
           screen: const StudioScreen(),
         ),
     };
+
+/// The Play tab's mark (see [_modeOf]).
+const _knight = AssetImage('assets/pieces/classic/bN.webp');
 
 final activeTabProvider = StateProvider<AppTab>((ref) => AppTab.learn);
 
@@ -180,8 +186,8 @@ class ModeShell extends ConsumerWidget {
                     destinations: [
                       for (final mode in modes)
                         NavigationDestination(
-                          icon: Icon(mode.icon),
-                          selectedIcon: Icon(mode.selectedIcon),
+                          icon: mode.icon,
+                          selectedIcon: mode.selectedIcon,
                           label: i18n.t(mode.labelKey),
                         ),
                     ],
@@ -228,8 +234,8 @@ class ModeShell extends ConsumerWidget {
                   destinations: [
                     for (final mode in modes)
                       NavigationRailDestination(
-                        icon: Icon(mode.icon),
-                        selectedIcon: Icon(mode.selectedIcon),
+                        icon: mode.icon,
+                        selectedIcon: mode.selectedIcon,
                         label: Text(i18n.t(mode.labelKey)),
                       ),
                   ],

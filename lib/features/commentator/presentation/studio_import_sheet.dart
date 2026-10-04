@@ -7,8 +7,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/i18n/i18n_providers.dart';
-import '../../../core/theme/app_radius.dart';
 import '../../../core/theme/app_spacing.dart';
+import '../../../core/theme/app_tokens.dart';
 import '../../../core/theme/tokens_context.dart';
 import '../../../core/ui/app_sheet.dart';
 import '../application/commentator_controller.dart';
@@ -183,11 +183,11 @@ class _StudioImportSheetState extends ConsumerState<_StudioImportSheet> {
     final t = i18n.t;
     final tokens = context.tokens;
     final preview = _preview(_pgn.text);
-
-    OutlineInputBorder border() => OutlineInputBorder(
-          borderRadius: BorderRadius.circular(AppRadius.control),
-          borderSide: BorderSide(color: tokens.edge),
-        );
+    // Danger is chosen for cards; this sheet floats a plane higher.
+    final errorInk = tokens.legible(
+      tokens.danger,
+      on: tokens.surfaceAt(Elevation.floating).fill,
+    );
 
     return Padding(
       padding: AppInsets.sheet,
@@ -201,8 +201,7 @@ class _StudioImportSheetState extends ConsumerState<_StudioImportSheet> {
             preview != null
                 ? t('commentator.importFound')
                 : t('commentator.importLede'),
-            style:
-                TextStyle(fontSize: 12.5, height: 1.4, color: tokens.textDim),
+            style: context.type.body.copyWith(color: tokens.textDim),
           ),
           const SizedBox(height: AppSpacing.lg),
 
@@ -219,7 +218,6 @@ class _StudioImportSheetState extends ConsumerState<_StudioImportSheet> {
             collapsed: preview != null,
             hint: t('ui.placeholder.pgnInput'),
             label: t('commentator.pasteInstead'),
-            border: border(),
           ),
           const SizedBox(height: AppSpacing.sm),
           OutlinedButton.icon(
@@ -231,32 +229,25 @@ class _StudioImportSheetState extends ConsumerState<_StudioImportSheet> {
           TextField(
             controller: _name,
             onChanged: (_) => setState(() {}),
-            style: TextStyle(fontSize: 13.5, color: tokens.text),
+            style: context.type.body.copyWith(color: tokens.text),
             decoration: InputDecoration(
-              isDense: true,
               labelText: t('commentator.importName'),
-              labelStyle: TextStyle(fontSize: 13, color: tokens.textDim),
               // A pasted move list carries no players and no event, so
               // without this it would land in the library as "Untitled".
               helperText: t('commentator.importNameHelp'),
-              helperStyle: TextStyle(fontSize: 11, color: tokens.textFaint),
-              filled: true,
-              fillColor: tokens.raised,
-              border: border(),
-              enabledBorder: border(),
             ),
           ),
           if (_error != null) ...[
             const SizedBox(height: AppSpacing.sm),
             Text(
               t('ui.toast.parseFail', {'error': _error!}),
-              style: TextStyle(fontSize: 12, color: tokens.danger),
+              style: context.type.caption.copyWith(color: errorInk),
             ),
           ] else if (_tooLarge) ...[
             const SizedBox(height: AppSpacing.sm),
             Text(
               t('ui.toast.fileTooLarge'),
-              style: TextStyle(fontSize: 12, color: tokens.danger),
+              style: context.type.caption.copyWith(color: errorInk),
             ),
           ],
           const SizedBox(height: AppSpacing.lg),
@@ -295,14 +286,12 @@ class _PgnField extends StatefulWidget {
     required this.collapsed,
     required this.hint,
     required this.label,
-    required this.border,
   });
 
   final TextEditingController controller;
   final bool collapsed;
   final String hint;
   final String label;
-  final InputBorder border;
 
   @override
   State<_PgnField> createState() => _PgnFieldState();
@@ -328,19 +317,14 @@ class _PgnFieldState extends State<_PgnField> {
       controller: widget.controller,
       minLines: 5,
       maxLines: 8,
-      style: TextStyle(
-        fontFamily: context.type.font.mono,
-        fontSize: 12.5,
-        height: 1.45,
-        color: tokens.text,
-      ),
+      // Notation is mono, as it is everywhere else in the app.
+      style: context.type.san.copyWith(height: 1.45, color: tokens.text),
       decoration: InputDecoration(
         hintText: widget.hint,
-        hintStyle: TextStyle(fontSize: 12.5, color: tokens.textFaint),
-        filled: true,
-        fillColor: tokens.raised,
-        border: widget.border,
-        enabledBorder: widget.border,
+        hintStyle: context.type.label.copyWith(
+          fontWeight: FontWeight.w400,
+          color: tokens.textFaint,
+        ),
       ),
     );
   }
