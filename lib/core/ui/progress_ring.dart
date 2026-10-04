@@ -24,11 +24,20 @@ class ProgressRing extends StatelessWidget {
   /// Defaults to the theme accent.
   final Color? color;
 
-  /// Defaults to the theme raised surface.
+  /// Drawn in the ring's middle (a count, a crest).
   final Widget? child;
 
   @override
   Widget build(BuildContext context) {
+    // A ring said nothing to a screen reader; it now reads as the share it
+    // draws, merged with whatever its middle says.
+    return Semantics(
+      value: '${(progress.clamp(0.0, 1.0) * 100).round()}%',
+      child: _ring(context),
+    );
+  }
+
+  Widget _ring(BuildContext context) {
     return SizedBox(
       width: size,
       height: size,
@@ -45,7 +54,7 @@ class ProgressRing extends StatelessWidget {
             progress: value,
             strokeWidth: strokeWidth,
             color: color ?? context.tokens.accent,
-            trackColor: context.tokens.raised,
+            trackColor: context.tokens.track,
           ),
           child: inner,
         ),

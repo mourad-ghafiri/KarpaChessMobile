@@ -149,13 +149,21 @@ class DrawingModeBar extends ConsumerWidget {
                   _divider(tokens),
                   for (final spec in _tools) toolButton(spec),
                   _divider(tokens),
+                  // Named, so a screen reader says "Green, selected" rather
+                  // than an unlabeled button; and a full 44dp wide (they were
+                  // 40) — the row scrolls, so the width costs nothing.
                   for (final color in drawColors)
-                    InkWell(
+                    Semantics(
+                      button: true,
+                      selected: drawing.colorHex == color.hex,
+                      label: t('commentator.drawTools.color.${color.id}'),
+                      excludeSemantics: true,
+                      child: InkWell(
                       borderRadius: BorderRadius.circular(AppRadius.chip),
                       onTap: () => controller.setColor(color.hex),
-                      // 40×44 hit area around the 22dp visual dot.
+                      // 44dp hit area around the 22dp visual dot.
                       child: SizedBox(
-                        width: 40,
+                        width: 44,
                         height: 44,
                         child: Center(
                           child: Container(
@@ -176,15 +184,25 @@ class DrawingModeBar extends ConsumerWidget {
                         ),
                       ),
                     ),
+                    ),
                   _divider(tokens),
-                  for (final stroke in _strokes)
-                    InkWell(
+                  for (final (i, stroke) in _strokes.indexed)
+                    Semantics(
+                      button: true,
+                      selected:
+                          (drawing.strokeWidth - stroke).abs() < 0.015,
+                      label: t(
+                        'commentator.drawTools.stroke.'
+                        '${const ['thin', 'medium', 'thick'][i]}',
+                      ),
+                      excludeSemantics: true,
+                      child: InkWell(
                       borderRadius: BorderRadius.circular(8),
                       onTap: () => controller.setStrokeWidth(stroke),
-                      // 40×44 hit area; the visual swatch keeps its 26×34
+                      // 44dp hit area; the visual swatch keeps its 26×34
                       // footprint.
                       child: SizedBox(
-                        width: 40,
+                        width: 44,
                         height: 44,
                         child: Center(
                           child: Container(
@@ -210,6 +228,7 @@ class DrawingModeBar extends ConsumerWidget {
                           ),
                         ),
                       ),
+                    ),
                     ),
                   if (drawing.hasSelection) ...[
                     _divider(tokens),
@@ -358,7 +377,10 @@ class _BarButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final tokens = context.tokens;
-    return Tooltip(
+    return Semantics(
+      button: true,
+      selected: active,
+      child: Tooltip(
       message: tooltip,
       child: InkWell(
         borderRadius: BorderRadius.circular(10),
@@ -380,6 +402,7 @@ class _BarButton extends StatelessWidget {
                     : color ?? tokens.textDim,
           ),
         ),
+      ),
       ),
     );
   }

@@ -106,54 +106,59 @@ class ActionBar extends StatelessWidget {
     );
   }
 
-  Widget _item(AppTokens tokens, BarAction action, double extent) => Tooltip(
-    message: action.tooltip,
-    child: InkWell(
-      onTap: action.onTap,
-      customBorder: const CircleBorder(),
-      child: Container(
-        // HIG: a full 44dp target in both axes, in every tier.
-        width: extent,
-        height: 44,
-        decoration: action.active
-            ? BoxDecoration(color: tokens.accentSoft, shape: BoxShape.circle)
-            : null,
-        child: Stack(
-          alignment: Alignment.center,
-          children: [
-            Icon(
-              action.icon,
-              size: 22,
-              color: action.onTap == null
-                  ? tokens.textFaint
-                  : action.active
-                  ? tokens.accent
-                  : tokens.textDim,
-            ),
-            if (action.badge != null)
-              PositionedDirectional(
-                top: 6,
-                end: 4,
-                child: Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 4,
-                    vertical: 1,
-                  ),
-                  decoration: BoxDecoration(
-                    color: tokens.accent,
-                    borderRadius: BorderRadius.circular(AppRadius.chip),
-                  ),
-                  child: Text(
-                    action.badge!,
-                    style: TextStyle(
-                      fontSize: 9,
-                      fontWeight: FontWeight.w800,
-                      color: tokens.onAccent,
+  // `selected` carries the active state to a screen reader; it was colour
+  // alone (the soft accent disc).
+  Widget _item(AppTokens tokens, BarAction action, double extent) => Semantics(
+    selected: action.active,
+    child: Tooltip(
+      message: action.tooltip,
+      child: InkWell(
+        onTap: action.onTap,
+        customBorder: const CircleBorder(),
+        child: Container(
+          // HIG: a full 44dp target in both axes, in every tier.
+          width: extent,
+          height: 44,
+          decoration: action.active
+              ? BoxDecoration(color: tokens.accentSoft, shape: BoxShape.circle)
+              : null,
+          child: Stack(
+            alignment: Alignment.center,
+            children: [
+              Icon(
+                action.icon,
+                size: 22,
+                color: action.onTap == null
+                    ? tokens.textFaint
+                    : action.active
+                    ? tokens.accent
+                    : tokens.textDim,
+              ),
+              if (action.badge != null)
+                PositionedDirectional(
+                  top: 6,
+                  end: 4,
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 4,
+                      vertical: 1,
+                    ),
+                    decoration: BoxDecoration(
+                      color: tokens.accent,
+                      borderRadius: BorderRadius.circular(AppRadius.chip),
+                    ),
+                    child: Text(
+                      action.badge!,
+                      style: TextStyle(
+                        fontSize: 9,
+                        fontWeight: FontWeight.w800,
+                        color: tokens.onAccent,
+                      ),
                     ),
                   ),
                 ),
-              ),
-          ],
+            ],
+          ),
         ),
       ),
     ),

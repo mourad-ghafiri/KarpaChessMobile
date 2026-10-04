@@ -5,6 +5,7 @@ import 'package:chessground/chessground.dart'
     show Arrow, Circle, PlayerSide, Shape;
 import 'package:dartchess/dartchess.dart' show NormalMove, Position, Side;
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../content/domain/models.dart';
@@ -26,7 +27,9 @@ import '../../../core/ui/board_feedback.dart';
 import '../../board/presentation/board_stage.dart';
 import '../../../core/ui/board_context_card.dart';
 import '../../../core/ui/celebration_overlay.dart';
+import '../../../core/ui/danger_button.dart';
 import '../../../core/ui/drawing_mode_bar.dart';
+import '../../../core/ui/empty_state.dart';
 import '../../../core/ui/hint_toast.dart';
 import '../../../progression/application/progression_controller.dart';
 import '../../../progression/domain/lesson_progress.dart';
@@ -581,27 +584,10 @@ class _ConceptPlayerScreenState extends ConsumerState<ConceptPlayerScreen> {
       return shell(
         ModePanes.pending(
           topBar: closeBar(),
-          body: Center(
-            child: Padding(
-              padding: const EdgeInsets.all(AppSpacing.xl),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    '♟',
-                    style: TextStyle(fontSize: 40, color: tokens.textFaint),
-                  ),
-                  if (error != null) ...[
-                    const SizedBox(height: AppSpacing.md),
-                    Text(
-                      t('ui.toast.parseFail', {'error': '$error'}),
-                      textAlign: TextAlign.center,
-                      style: TextStyle(fontSize: 12, color: tokens.danger),
-                    ),
-                  ],
-                ],
-              ),
-            ),
+          body: EmptyState(
+            error: error == null
+                ? null
+                : t('ui.toast.parseFail', {'error': '$error'}),
           ),
         ),
       );
@@ -639,12 +625,7 @@ class _ConceptPlayerScreenState extends ConsumerState<ConceptPlayerScreen> {
       return shell(
         ModePanes.pending(
           topBar: closeBar(),
-          body: Center(
-            child: Text(
-              '♟',
-              style: TextStyle(fontSize: 40, color: tokens.textFaint),
-            ),
-          ),
+          body: const EmptyState(),
         ),
       );
     }
@@ -846,13 +827,11 @@ class _ConceptPlayerScreenState extends ConsumerState<ConceptPlayerScreen> {
                 tokens: tokens,
                 label: t('gamify.earned', {'n': XpRules.playStep}),
               ),
-            if (beat is _SeeBeat && !drawingActive)
-              GestureDetector(
-                behavior: HitTestBehavior.opaque,
-                onTap: _completeSee,
-              ),
-            if (beat is! _SeeBeat && _beatSolved && !drawingActive)
-              GestureDetector(behavior: HitTestBehavior.opaque, onTap: _next),
+            // No tap-to-advance layer over the board. Two full-board tap
+            // targets used to move on — on a teach beat, and on any beat once
+            // solved — so a stray tap (studying the arrows, re-tapping the
+            // piece just played) skipped a beat. The advance button below is
+            // the one way forward; the board is inert at both moments anyway.
           ],
         ),
       ),
@@ -877,11 +856,31 @@ class _ConceptPlayerScreenState extends ConsumerState<ConceptPlayerScreen> {
       ),
     );
 
+    // A hardware keyboard — a desktop window, an iPad with its keyboard —
+    // walks the lesson as the action bar does, on the two keys Review and
+    // the Studio step with. Each key fires only where its button would: the
+    // advance on a teaching beat or a solved one, never mid-celebration or
+    // while the drawing tools hold the board.
+    final canAdvance = beat is _SeeBeat || _beatSolved;
+    final keyed = CallbackShortcuts(
+      bindings: {
+        const SingleActivator(LogicalKeyboardKey.arrowRight): () {
+          if (!canAdvance || drawingActive || _showOwned) return;
+          beat is _SeeBeat && !_beatSolved ? _completeSee() : _next();
+        },
+        const SingleActivator(LogicalKeyboardKey.arrowLeft): () {
+          if (drawingActive || _showOwned) return;
+          _back();
+        },
+      },
+      child: Focus(autofocus: true, child: body),
+    );
+
     return shell(
       Stack(
         fit: StackFit.expand,
         children: [
-          body,
+          keyed,
           if (_showOwned && !_showLevelUp)
             CelebrationOverlay(
               emoji: '✨',
@@ -975,7 +974,7 @@ class _ConceptPlayerScreenState extends ConsumerState<ConceptPlayerScreen> {
           else
             Text(
               t('academy.findTheMove'),
-              style: TextStyle(fontSize: 14.5, color: tokens.text),
+              style: context.type.body.copyWith(color: tokens.text),
             ),
           if (beat is _ProofBeat) ...[
             const SizedBox(height: AppSpacing.sm),
@@ -1112,7 +1111,7 @@ class _ConceptPlayerScreenState extends ConsumerState<ConceptPlayerScreen> {
             onPressed: () => Navigator.of(context).pop(false),
             child: Text(t('ui.button.dismiss')),
           ),
-          FilledButton(
+          DangerButton(
             onPressed: () => Navigator.of(context).pop(true),
             child: Text(t('academy.restartLesson')),
           ),

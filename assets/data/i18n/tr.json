@@ -349,7 +349,21 @@
       "clearAll": "Bu hamledeki tüm şekilleri temizle",
       "undo": "Geri al",
       "redo": "Yinele",
-      "editText": "Metni düzenle"
+      "editText": "Metni düzenle",
+      "color": {
+        "red": "Kırmızı",
+        "orange": "Turuncu",
+        "yellow": "Sarı",
+        "green": "Yeşil",
+        "blue": "Mavi",
+        "purple": "Mor",
+        "white": "Beyaz"
+      },
+      "stroke": {
+        "thin": "İnce çizgi",
+        "medium": "Orta çizgi",
+        "thick": "Kalın çizgi"
+      }
     },
     "result": {
       "title": "Parti özeti",
@@ -523,6 +537,7 @@
     "showAnswer": "Fikir bu — siz deneyin",
     "finishLesson": "Dersi bitir",
     "continueLesson": "Devam et · {title}",
+    "startLesson": "Başla · {title}",
     "addedToBook": "Desen Defterinize eklendi 📖",
     "bookIntro": "Sahiplendiğiniz her desen burada yaşar. Yıldızlar siz biledikçe büyür. Solmuş tahtalar körelmek üzeredir — elinizden kaçmadan bileyin.",
     "starNone": "Henüz bilenmedi",

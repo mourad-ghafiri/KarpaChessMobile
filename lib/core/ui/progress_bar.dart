@@ -35,8 +35,10 @@ class AnimatedProgressBar extends StatelessWidget {
         builder: (context, animated, _) => LinearProgressIndicator(
           value: animated,
           minHeight: height,
-          backgroundColor: tokens.raised,
+          backgroundColor: tokens.track,
           color: color ?? tokens.accent,
+          // Announced as the target, not the frame the tween is on.
+          semanticsValue: '${(value.clamp(0.0, 1.0) * 100).round()}%',
         ),
       ),
     );

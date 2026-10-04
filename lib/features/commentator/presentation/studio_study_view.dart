@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 
+import '../../../content/domain/models.dart';
 import '../../../core/chess/captured_material.dart';
 import '../../../core/chess/tolerant_position.dart';
 import '../../../core/i18n/i18n_providers.dart';
@@ -159,7 +160,9 @@ class _StudioStudyViewState extends ConsumerState<StudioStudyView> {
 
     Widget panes(ModeLayout composition) => ModePanes(
       topBar: ModeHeaderBar(
-        label: '$whiteName – $blackName',
+        // Named the way its library card names it ("Réti – Tartakower"),
+        // not as the database writes players ("Reti, Richard – …").
+        label: GameRecord.pairingOf(whiteName, blackName),
         actionIcon: Icons.close,
         actionTooltip: t('commentator.close'),
         onAction: () => _confirmClose(context, t),
@@ -539,6 +542,7 @@ class _PlayerBar extends ConsumerWidget {
               controller: input,
               autofocus: true,
               maxLength: 40,
+              style: context.type.body,
               onSubmitted: (value) => Navigator.of(context).pop(value),
             ),
             const SizedBox(height: AppSpacing.xs),

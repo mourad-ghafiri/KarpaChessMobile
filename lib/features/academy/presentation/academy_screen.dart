@@ -9,7 +9,9 @@ import '../../../core/layout/content_width.dart';
 import '../../../core/layout/window_class.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/tokens_context.dart';
+import '../../../core/ui/nav_card.dart';
 import '../../../core/ui/surface.dart';
+import '../../../core/ui/symbol_glyph.dart';
 import '../../../core/ui/tablet_hero.dart';
 import '../../../progression/presentation/score_card.dart';
 import '../../../core/ui/progress_ring.dart';
@@ -55,7 +57,6 @@ class AcademyScreen extends ConsumerWidget {
       return const Center(child: CircularProgressIndicator());
     }
 
-    final tokens = context.tokens;
     final progression = ref.watch(progressionControllerProvider);
     final owned = progression.completedNodes;
     final now = DateTime.now();
@@ -73,22 +74,30 @@ class AcademyScreen extends ConsumerWidget {
 
         final title = Text(t('academy.title'), style: context.type.display);
         const titleCard = ScoreCard();
-        final sharpenCard = _SharpenCard(
-          t: t,
-          p: i18n.plural,
-          dueCount: due.length,
-          onTap: due.isEmpty
-              ? null
-              : () => _push(
-                  context,
-                  SharpenScreen(conceptIds: due.take(10).toList()),
-                ),
-        );
+        // Nothing owned means nothing to sharpen: the card used to promise
+        // "All patterns sharp" to a reader who had not learned one.
+        final sharpenCard = ownedTotal == 0
+            ? null
+            : _SharpenCard(
+                t: t,
+                p: i18n.plural,
+                dueCount: due.length,
+                onTap: due.isEmpty
+                    ? null
+                    : () => _push(
+                        context,
+                        SharpenScreen(conceptIds: due.take(10).toList()),
+                      ),
+              );
+        // "Start" until the reader has begun anything; "Continue" after.
+        final started =
+            ownedTotal > 0 || progression.lessonProgress.isNotEmpty;
         final continueButton = continueTarget == null
             ? null
             : _ContinueButton(
                 t: t,
                 target: continueTarget,
+                started: started,
                 onTap: () => _push(
                   context,
                   ArtView(artId: continueTarget.artId),
@@ -128,34 +137,17 @@ class AcademyScreen extends ConsumerWidget {
               ),
           ],
         );
-        final patternBookCard = Surface(
+        final patternBookCard = NavCard(
+          glyph: '📖',
+          title: t('academy.patternBook'),
+          subtitle: t('academy.ownedCount', {
+            'n': ownedTotal,
+            'total': totalConcepts,
+          }),
           onTap: () => _push(
             context,
             const PatternBookScreen(),
             fullscreenDialog: false,
-          ),
-          child: Row(
-            children: [
-              const Text('📖', style: TextStyle(fontSize: 24)),
-              const SizedBox(width: AppSpacing.md),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(t('academy.patternBook'), style: context.type.heading),
-                    const SizedBox(height: 2),
-                    Text(
-                      t('academy.ownedCount', {
-                        'n': ownedTotal,
-                        'total': totalConcepts,
-                      }),
-                      style: TextStyle(fontSize: 12, color: tokens.textDim),
-                    ),
-                  ],
-                ),
-              ),
-              Icon(Icons.chevron_right, color: tokens.textDim),
-            ],
           ),
         );
 
@@ -168,11 +160,14 @@ class AcademyScreen extends ConsumerWidget {
                 children: [
                   title,
                   const SizedBox(height: AppSpacing.md),
-                  TabletHero(
-                    profile: titleCard,
-                    actions: [sharpenCard, ?continueButton],
-                    beside: inner >= TabletHero.besideAt,
-                  ),
+                  if (sharpenCard == null && continueButton == null)
+                    titleCard
+                  else
+                    TabletHero(
+                      profile: titleCard,
+                      actions: [?sharpenCard, ?continueButton],
+                      beside: inner >= TabletHero.besideAt,
+                    ),
                   const SizedBox(height: AppSpacing.lg),
                   artsGrid(inner >= _fourArtsAt ? 4 : 2),
                   const SizedBox(height: AppSpacing.md),
@@ -208,8 +203,10 @@ class AcademyScreen extends ConsumerWidget {
                         title,
                         const SizedBox(height: AppSpacing.md),
                         titleCard,
-                        const SizedBox(height: AppSpacing.md),
-                        sharpenCard,
+                        if (sharpenCard != null) ...[
+                          const SizedBox(height: AppSpacing.md),
+                          sharpenCard,
+                        ],
                         if (continueButton != null) ...[
                           const SizedBox(height: AppSpacing.md),
                           continueButton,
@@ -247,8 +244,10 @@ class AcademyScreen extends ConsumerWidget {
                 title,
                 const SizedBox(height: AppSpacing.md),
                 titleCard,
-                const SizedBox(height: AppSpacing.md),
-                sharpenCard,
+                if (sharpenCard != null) ...[
+                  const SizedBox(height: AppSpacing.md),
+                  sharpenCard,
+                ],
                 if (continueButton != null) ...[
                   const SizedBox(height: AppSpacing.md),
                   continueButton,
@@ -273,11 +272,16 @@ class _ContinueButton extends ConsumerWidget {
   const _ContinueButton({
     required this.t,
     required this.target,
+    required this.started,
     required this.onTap,
   });
 
   final Translate t;
   final Concept target;
+
+  /// Whether the reader has begun anything. A first launch said "Continue"
+  /// about a lesson nobody had started.
+  final bool started;
   final VoidCallback onTap;
 
   @override
@@ -296,7 +300,10 @@ class _ContinueButton extends ConsumerWidget {
       child: Text(
         title == null || title.isEmpty
             ? t('academy.continueBtn')
-            : t('academy.continueLesson', {'title': title}),
+            : t(
+                started ? 'academy.continueLesson' : 'academy.startLesson',
+                {'title': title},
+              ),
         maxLines: 1,
         overflow: TextOverflow.ellipsis,
       ),
@@ -318,46 +325,23 @@ class _SharpenCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final tokens = context.tokens;
+    // One card in both states, so nothing jumps when the last pattern is
+    // sharpened: the name stays, and only the line under it and the mark
+    // change. It used to collapse to a bare dim sentence.
     if (dueCount == 0) {
-      return Surface(
-        child: Row(
-          children: [
-            Icon(Icons.check_circle_outline, color: tokens.success),
-            const SizedBox(width: AppSpacing.md),
-            Expanded(
-              child: Text(
-                t('academy.sharpenAllSharp'),
-                style: TextStyle(color: tokens.textDim),
-              ),
-            ),
-          ],
-        ),
+      return NavCard(
+        icon: Icons.check_circle_outline,
+        markColor: context.tokens.success,
+        title: t('academy.sharpen'),
+        subtitle: t('academy.sharpenAllSharp'),
       );
     }
-    return Surface(
-      wash: tokens.accent,
+    return NavCard(
+      glyph: '⚔',
+      title: t('academy.sharpen'),
+      subtitle: p('academy.sharpenDull', dueCount),
+      emphasized: true,
       onTap: onTap,
-      child: Row(
-        children: [
-          Text('⚔', style: TextStyle(fontSize: 26, color: tokens.accent)),
-          const SizedBox(width: AppSpacing.md),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(t('academy.sharpen'), style: context.type.heading),
-                const SizedBox(height: 2),
-                Text(
-                  p('academy.sharpenDull', dueCount),
-                  style: TextStyle(fontSize: 12.5, color: tokens.textDim),
-                ),
-              ],
-            ),
-          ),
-          Icon(Icons.arrow_forward, color: tokens.accent),
-        ],
-      ),
     );
   }
 }
@@ -387,10 +371,7 @@ class _ArtCard extends StatelessWidget {
         children: [
           Row(
             children: [
-              Text(
-                art.icon,
-                style: TextStyle(fontSize: 22, color: tokens.accent),
-              ),
+              SymbolGlyph(art.icon, size: 18, color: tokens.accent),
               const Spacer(),
               ProgressRing(
                 progress: art.progress(owned),
@@ -404,11 +385,7 @@ class _ArtCard extends StatelessWidget {
             t('academy.art.${art.id}'),
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
-            style: TextStyle(
-              fontFamily: context.type.font.display,
-              fontSize: 14.5,
-              fontWeight: FontWeight.w700,
-            ),
+            style: context.type.subheading,
           ),
           const SizedBox(height: 3),
           Text(
@@ -416,7 +393,7 @@ class _ArtCard extends StatelessWidget {
               'n': ownedCount,
               'total': art.concepts.length,
             }),
-            style: TextStyle(fontSize: 11, color: tokens.textDim),
+            style: context.type.caption.copyWith(color: tokens.textDim),
           ),
         ],
       ),

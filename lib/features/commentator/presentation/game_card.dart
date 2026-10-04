@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../content/domain/models.dart';
 import '../../../core/i18n/i18n_service.dart';
 import '../../../core/theme/app_radius.dart';
+import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/tokens_context.dart';
 import '../../../core/ui/stat_chip.dart';
 import '../../../core/ui/surface.dart';
@@ -59,15 +60,10 @@ class GameCard extends StatelessWidget {
             ),
             child: Text(
               game.monogram.isEmpty ? '♞' : game.monogram,
-              style: TextStyle(
-                fontFamily: context.type.font.display,
-                fontSize: 16,
-                fontWeight: FontWeight.w700,
-                color: tokens.accent,
-              ),
+              style: context.type.heading.copyWith(color: tokens.accent),
             ),
           ),
-          const SizedBox(width: 12),
+          const SizedBox(width: AppSpacing.md),
           Expanded(
             child: Column(
               mainAxisSize: MainAxisSize.min,
@@ -77,21 +73,14 @@ class GameCard extends StatelessWidget {
                   title,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: TextStyle(
-                    fontFamily: context.type.font.display,
-                    fontSize: 15,
-                    height: 1.2,
-                    fontWeight: FontWeight.w600,
-                    color: tokens.text,
-                  ),
+                  style: context.type.subheading.copyWith(color: tokens.text),
                 ),
                 const SizedBox(height: 3),
                 Text(
                   _byline,
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
-                  style: TextStyle(
-                    fontSize: 11,
+                  style: context.type.caption.copyWith(
                     height: 1.3,
                     color: tokens.textDim,
                   ),
@@ -99,7 +88,7 @@ class GameCard extends StatelessWidget {
               ],
             ),
           ),
-          const SizedBox(width: 10),
+          const SizedBox(width: AppSpacing.sm),
           StatChip(label: game.result, color: tokens.accent, filled: true),
           if (onRemove != null)
             IconButton(

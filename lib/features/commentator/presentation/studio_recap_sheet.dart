@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/i18n/i18n_providers.dart';
 import '../../../core/i18n/i18n_service.dart';
+import '../../../core/theme/app_radius.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/tokens_context.dart';
 import '../../../core/ui/app_sheet.dart';
@@ -36,41 +37,27 @@ class _RecapSheet extends ConsumerWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Container(
-            padding: const EdgeInsets.all(AppSpacing.xl),
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-                colors: [tokens.raised, tokens.panel],
-              ),
-              borderRadius: BorderRadius.circular(20),
-              border: Border.all(color: tokens.accentSoft),
-            ),
+          // Straight on the sheet, which is already the floating plane: a
+          // gradient card inside it was a card in a card. And the sheet's
+          // name is its heading, with the result as the line under it,
+          // rather than a small tracked label sitting above the result.
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: AppSpacing.sm),
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
                   t('commentator.result.title'),
-                  style: TextStyle(
-                    fontSize: 12,
-                    fontWeight: FontWeight.w700,
-                    letterSpacing: 1.2,
-                    color: tokens.textDim,
-                  ),
+                  textAlign: TextAlign.center,
+                  style: context.type.title.copyWith(color: tokens.text),
                 ),
-                const SizedBox(height: AppSpacing.sm),
+                const SizedBox(height: AppSpacing.xs),
                 Text(
                   _headline(t, recap.result),
                   textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontFamily: context.type.font.display,
-                    fontSize: 21,
-                    fontWeight: FontWeight.w600,
-                    color: tokens.accent,
-                  ),
+                  style: context.type.heading.copyWith(color: tokens.accent),
                 ),
-                const SizedBox(height: AppSpacing.lg),
+                const SizedBox(height: AppSpacing.xl),
                 Row(
                   children: [
                     Expanded(
@@ -96,7 +83,7 @@ class _RecapSheet extends ConsumerWidget {
                 if (recap.computing) ...[
                   const SizedBox(height: AppSpacing.lg),
                   ClipRRect(
-                    borderRadius: BorderRadius.circular(999),
+                    borderRadius: BorderRadius.circular(AppRadius.chip),
                     child: LinearProgressIndicator(
                       minHeight: 4,
                       value: recap.totalCount == 0
@@ -108,8 +95,7 @@ class _RecapSheet extends ConsumerWidget {
                   Text(
                     '${t('commentator.result.analyzing')} '
                     '${recap.analyzedCount}/${recap.totalCount}',
-                    style: TextStyle(
-                      fontSize: 11,
+                    style: context.type.caption.copyWith(
                       color: tokens.textDim,
                     ),
                   ),
@@ -175,12 +161,9 @@ class _RecapSide extends StatelessWidget {
           child: photo == null
               ? Text(
                   _monogram(name),
-                  style: TextStyle(
-                    fontFamily: context.type.font.display,
-                    fontSize: 15,
-                    fontWeight: FontWeight.w700,
-                    color: tokens.accent,
-                  ),
+                  style: context.type
+                      .displayAt(15)
+                      .copyWith(color: tokens.accent),
                 )
               : null,
         ),
@@ -189,11 +172,7 @@ class _RecapSide extends StatelessWidget {
           name,
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
-          style: TextStyle(
-            fontSize: 13,
-            fontWeight: FontWeight.w600,
-            color: tokens.text,
-          ),
+          style: context.type.label.copyWith(color: tokens.text),
         ),
         const SizedBox(height: AppSpacing.md),
         ProgressRing(
@@ -202,21 +181,14 @@ class _RecapSide extends StatelessWidget {
           strokeWidth: 6,
           child: Text(
             accuracy != null ? '${accuracy!.round()}%' : (computing ? '…' : '—'),
-            style: TextStyle(
-              fontFamily: context.type.font.display,
-              fontSize: 21,
-              fontWeight: FontWeight.w700,
-              color: tokens.text,
-            ),
+            style: context.type.displayAt(21).copyWith(color: tokens.text),
           ),
         ),
         const SizedBox(height: AppSpacing.sm),
         Text(
           t('commentator.result.accuracy'),
-          style: TextStyle(
-            fontSize: 11,
+          style: context.type.caption.copyWith(
             fontWeight: FontWeight.w600,
-            letterSpacing: 0.4,
             color: tokens.textDim,
           ),
         ),

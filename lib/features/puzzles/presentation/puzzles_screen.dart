@@ -11,9 +11,11 @@ import '../../../core/layout/content_width.dart';
 import '../../../core/layout/window_class.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/tokens_context.dart';
+import '../../../core/ui/nav_card.dart';
 import '../../../core/ui/progress_bar.dart';
 import '../../../core/ui/stat_chip.dart';
 import '../../../core/ui/surface.dart';
+import '../../../core/ui/symbol_glyph.dart';
 import '../../../core/ui/tablet_hero.dart';
 import '../../../progression/application/progression_controller.dart';
 import '../../../progression/presentation/score_card.dart';
@@ -64,20 +66,22 @@ class PuzzlesScreen extends ConsumerWidget {
       builder: (context, constraints) {
         final spec = LayoutSpec.of(constraints);
         final wc = spec.windowClass;
-        final keepGoing = _BigAction(
-          emoji: '▶',
+        final keepGoing = NavCard(
+          icon: Icons.play_arrow_rounded,
           title: t('puzzles.keepGoing'),
-          blurb: t('puzzles.keepGoingBlurb'),
+          subtitle: t('puzzles.keepGoingBlurb'),
           // The rating lives here, on the one control it actually
           // governs — it picks what this button serves. It is not a
           // score and it gates nothing.
-          trailing: StatChip(label: '$rating', emoji: '🧩'),
+          // In words: the same 🧩 chip on the puzzle screen is the PUZZLE's
+          // difficulty, so a bare "🧩 1480" here read as one more of those.
+          trailing: StatChip(label: '${t('puzzles.rating')} $rating'),
           onTap: () => _open(context, const RatedRun()),
         );
-        final daily = _BigAction(
-          emoji: '◉',
+        final daily = NavCard(
+          icon: Icons.today_rounded,
           title: t('puzzles.daily'),
-          blurb: t('puzzles.dailyBlurb'),
+          subtitle: t('puzzles.dailyBlurb'),
           onTap: () => _open(context, const DailyRun()),
         );
         final packGrid = GridView(
@@ -100,11 +104,12 @@ class PuzzlesScreen extends ConsumerWidget {
                   maxCrossAxisExtent: 260,
                   mainAxisSpacing: AppInsets.gridGap,
                   crossAxisSpacing: AppInsets.gridGap,
-                  // Fixed cells must cover the tallest card — icon row,
-                  // a two-line name, bar and tally — at the largest text
-                  // scale the app allows; a bare 104 overflowed with a
-                  // two-line name even at scale 1.0.
-                  mainAxisExtent: slotHeightFor(context, 112, minimum: 112),
+                  // Fixed cells must cover the tallest card — the mark's
+                  // fixed box, a two-line name, bar and tally — at the
+                  // largest text scale the app allows; a bare 104
+                  // overflowed with a two-line name even at scale 1.0, and
+                  // 112 by a hair once the mark had a box of its own.
+                  mainAxisExtent: slotHeightFor(context, 118, minimum: 118),
                 ),
           children: [
             for (final pack in packs.packs)
@@ -205,51 +210,6 @@ class PuzzlesScreen extends ConsumerWidget {
   }
 }
 
-class _BigAction extends StatelessWidget {
-  const _BigAction({
-    required this.emoji,
-    required this.title,
-    required this.blurb,
-    required this.onTap,
-    this.trailing,
-  });
-
-  final String emoji;
-  final String title;
-  final String blurb;
-  final VoidCallback onTap;
-  final Widget? trailing;
-
-  @override
-  Widget build(BuildContext context) {
-    final tokens = context.tokens;
-    return Surface(
-      onTap: onTap,
-      child: Row(
-        children: [
-          Text(emoji, style: TextStyle(fontSize: 22, color: tokens.accent)),
-          const SizedBox(width: AppSpacing.md),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(title, style: context.type.heading),
-                const SizedBox(height: 2),
-                Text(
-                  blurb,
-                  style: TextStyle(fontSize: 12, color: tokens.textDim),
-                ),
-              ],
-            ),
-          ),
-          if (trailing != null) ...[trailing!, const SizedBox(width: 8)],
-          Icon(Icons.chevron_right, color: tokens.textDim),
-        ],
-      ),
-    );
-  }
-}
-
 class _PackCard extends StatelessWidget {
   const _PackCard({
     required this.pack,
@@ -278,7 +238,9 @@ class _PackCard extends StatelessWidget {
         children: [
           Row(
             children: [
-              Text(pack.icon, style: const TextStyle(fontSize: 20)),
+              // In the accent, like the art cards on Learn: the two homes'
+              // grids are one kind of tile.
+              SymbolGlyph(pack.icon, size: 18, color: tokens.accent),
               const Spacer(),
               if (solved >= total && total > 0)
                 Icon(Icons.check_circle, size: 16, color: tokens.success),
@@ -289,7 +251,7 @@ class _PackCard extends StatelessWidget {
             t(pack.nameKey),
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
-            style: context.type.heading.copyWith(fontSize: 14),
+            style: context.type.subheading,
           ),
           const SizedBox(height: AppSpacing.xs),
           AnimatedProgressBar(value: done, height: 4),
@@ -301,7 +263,7 @@ class _PackCard extends StatelessWidget {
                 // A number tally reads left-to-right in every locale; RTL
                 // would render 2-of-4 as "4 / 2".
                 textDirection: TextDirection.ltr,
-                style: TextStyle(fontSize: 11, color: tokens.textDim),
+                style: context.type.caption.copyWith(color: tokens.textDim),
               ),
               // A finished pack still opens — it runs again as unscored
               // practice — so the card says so. The check alone read as
@@ -310,8 +272,7 @@ class _PackCard extends StatelessWidget {
                 const Spacer(),
                 Text(
                   t('puzzles.replay'),
-                  style: TextStyle(
-                    fontSize: 11,
+                  style: context.type.caption.copyWith(
                     fontWeight: FontWeight.w700,
                     color: tokens.accent,
                   ),

@@ -17,6 +17,8 @@ import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/motion.dart';
 import '../../../core/theme/tokens_context.dart';
 import '../../../core/ui/surface.dart';
+import '../../../core/ui/danger_button.dart';
+import '../../../core/ui/symbol_glyph.dart';
 import '../../../core/ui/measure.dart';
 import '../../../core/ui/app_sheet.dart';
 import '../../../core/ui/action_bar.dart';
@@ -213,10 +215,24 @@ class _PlayScreenState extends ConsumerState<PlayScreen> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text(emoji, style: const TextStyle(fontSize: 52)),
+            // Composed as the celebration card is: the same mark size, and
+            // a centred title and line with a breath between them — a
+            // wrapped line used to fall back to the start edge.
+            Text(emoji, style: const TextStyle(fontSize: 56)),
             const SizedBox(height: AppSpacing.sm),
-            Text(title, style: context.type.display),
-            Text(sub, style: TextStyle(color: sheetContext.tokens.textDim)),
+            Text(
+              title,
+              textAlign: TextAlign.center,
+              style: context.type.display,
+            ),
+            const SizedBox(height: AppSpacing.xs),
+            Text(
+              sub,
+              textAlign: TextAlign.center,
+              style: context.type.body.copyWith(
+                color: sheetContext.tokens.textDim,
+              ),
+            ),
             if (state.userWon) ...[
               const SizedBox(height: AppSpacing.sm),
               StatChip(
@@ -247,7 +263,7 @@ class _PlayScreenState extends ConsumerState<PlayScreen> {
                     },
                   ),
                 ),
-                const SizedBox(width: 10),
+                const SizedBox(width: AppSpacing.md),
                 Expanded(
                   child: OutlinedButton.icon(
                     icon: const Icon(Icons.replay, size: 18),
@@ -313,9 +329,11 @@ class _SetupView extends ConsumerWidget {
         // ---- opponent strength ----
         // Slim rows (glyph beside the text), so the whole setup — personas,
         // color, time and the Play button — fits a phone without scrolling.
-        // Scaled: two text lines outgrow a flat 76 the moment the text scale
-        // does.
-        final personaExtent = slotHeightFor(context, 76, minimum: 76);
+        // Scaled: two text lines outgrow a flat height the moment the text
+        // scale does. 64 is a two-line row with room to spare (the content is
+        // ~52); 76 left 24dp of slack per row, which is what put Play under
+        // the fold on a 667pt iPhone SE.
+        final personaExtent = slotHeightFor(context, 64, minimum: 64);
         final personasGrid = GridView(
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),
@@ -354,7 +372,7 @@ class _SetupView extends ConsumerWidget {
               ('random', '⚄', 'game.playAsOption.random'),
               ('b', '♚', 'game.playAsOption.black'),
             ]) ...[
-              if (value != 'w') const SizedBox(width: 10),
+              if (value != 'w') const SizedBox(width: AppInsets.gridGap),
               Expanded(
                 child: _ColorTile(
                   glyph: glyph,
@@ -400,29 +418,39 @@ class _SetupView extends ConsumerWidget {
         final children = split
             ? <Widget>[
                 title,
-                const SizedBox(height: AppSpacing.md),
+                const SizedBox(height: AppSpacing.lg),
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    // The choices that need width — four personas, four
+                    // time controls — take three fifths; the side and the
+                    // button the rest. Split evenly, a phone on its side
+                    // cut the persona names ("Full stre…"), and the time
+                    // controls wrapped onto a second row in the narrow
+                    // column and pushed Play below the fold — the one
+                    // thing this split exists to prevent. The short column
+                    // now holds nothing that can wrap.
                     Expanded(
+                      flex: 3,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           section(t('ui.label.difficulty')),
                           personasGrid,
+                          const SizedBox(height: AppSpacing.lg),
+                          section(t('ui.label.timeControl')),
+                          timeWrap,
                         ],
                       ),
                     ),
                     const SizedBox(width: AppSpacing.lg),
                     Expanded(
+                      flex: 2,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           section(t('ui.label.playAs')),
                           colorRow,
-                          const SizedBox(height: AppSpacing.lg),
-                          section(t('ui.label.timeControl')),
-                          timeWrap,
                           const SizedBox(height: AppSpacing.xl),
                           ButtonMeasure(child: cta),
                         ],
@@ -433,7 +461,10 @@ class _SetupView extends ConsumerWidget {
               ]
             : <Widget>[
                 title,
-                const SizedBox(height: AppSpacing.md),
+                // More above the first section's heading than below it: at
+                // md the page title and "Difficulty" read as one stacked
+                // block of two headings.
+                const SizedBox(height: AppSpacing.lg),
                 // No ScoreCard here, deliberately: with it the Play button
                 // fell below the fold, and a setup screen whose CTA needs
                 // scrolling is broken. The profile strip lives on the Learn
@@ -446,7 +477,7 @@ class _SetupView extends ConsumerWidget {
                 const SizedBox(height: AppSpacing.lg),
                 section(t('ui.label.timeControl')),
                 timeWrap,
-                const SizedBox(height: AppSpacing.xl),
+                const SizedBox(height: AppSpacing.lg),
                 if (wc.isCompact)
                   cta
                 else
@@ -550,14 +581,12 @@ class _PersonaCard extends StatelessWidget {
         ),
         child: Row(
           children: [
-            Text(
+            SymbolGlyph(
               glyph,
-              style: TextStyle(
-                fontSize: 22,
-                color: selected ? tokens.accent : tokens.textDim,
-              ),
+              size: 18,
+              color: selected ? tokens.accent : tokens.textDim,
             ),
-            const SizedBox(width: 10),
+            const SizedBox(width: AppSpacing.sm),
             Expanded(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -610,12 +639,10 @@ class _ColorTile extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text(
+            SymbolGlyph(
               glyph,
-              style: TextStyle(
-                fontSize: 22,
-                color: selected ? tokens.accent : tokens.text,
-              ),
+              size: 18,
+              color: selected ? tokens.accent : tokens.text,
             ),
             const SizedBox(height: AppSpacing.xs),
             Text(
@@ -649,7 +676,6 @@ class _GameView extends ConsumerWidget {
     final state = ref.watch(practiceControllerProvider);
     final controller = ref.read(practiceControllerProvider.notifier);
     final prefs = ref.watch(prefsControllerProvider);
-    final tokens = context.tokens;
     final drawingActive = ref.watch(
       drawingControllerProvider(DrawingScope.play).select((s) => s.active),
     );
@@ -732,7 +758,12 @@ class _GameView extends ConsumerWidget {
               BarAction(
                 icon: Icons.undo,
                 tooltip: t('ui.button.undo'),
-                onTap: state.moves.isEmpty ? null : controller.undo,
+                // Off while drawing: the game is paused then, and the
+                // drawing bar's own undo sits directly above this one — a
+                // slip would take back a move instead of a stroke.
+                onTap: state.moves.isEmpty || drawingActive
+                    ? null
+                    : controller.undo,
               ),
             ],
           ),
@@ -759,7 +790,7 @@ class _GameView extends ConsumerWidget {
               onPressed: () => Navigator.of(dialogContext).pop(false),
               child: Text(t('ui.button.dismiss')),
             ),
-            FilledButton(
+            DangerButton(
               onPressed: () => Navigator.of(dialogContext).pop(true),
               child: Text(t('play.exitMatch')),
             ),
@@ -795,7 +826,12 @@ class _GameView extends ConsumerWidget {
       LayoutBuilder(
         builder: (context, constraints) => ModePanes(
           topBar: ModeHeaderBar(
-            label: 'Stockfish · ${t('game.difficulty.${prefs.difficulty}')}',
+            // While drawing pauses a live game, the header says so: it is the
+            // one surface the drawing tools never cover. (A chip in the panel
+            // sat under the toolbar on every phone.)
+            label: showPausedChip
+                ? t('draw.paused')
+                : 'Stockfish · ${t('game.difficulty.${prefs.difficulty}')}',
             actionIcon: Icons.close,
             actionTooltip: t('play.exitMatch'),
             onAction: confirmExit,
@@ -832,43 +868,19 @@ class _GameView extends ConsumerWidget {
           // tablet keeps under its board — fills it with the game's move
           // list, read-only: Play is live, not a scrubber.
           panel: ModePanes.layoutFor(constraints).listsMoves
+              // No side inset: the list is a card, and shares its edges with
+              // the player cards above and below it — at the panel's 12dp it
+              // sat visibly inside them.
               ? Padding(
-                  padding: AppInsets.panel,
+                  padding: const EdgeInsets.symmetric(
+                    vertical: AppSpacing.sm,
+                  ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      if (showPausedChip) ...[
-                        Center(
-                          child: StatChip(
-                            label: t('draw.paused'),
-                            icon: Icons.pause_circle_outline,
-                            color: tokens.accent,
-                            filled: true,
-                          ),
-                        ),
-                        const SizedBox(height: AppSpacing.sm),
-                      ],
-                      Expanded(child: _PlayMoveList(t: t)),
-                    ],
+                    children: [Expanded(child: _PlayMoveList(t: t))],
                   ),
                 )
-              : SingleChildScrollView(
-                  padding: AppInsets.panel,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      if (showPausedChip)
-                        Center(
-                          child: StatChip(
-                            label: t('draw.paused'),
-                            icon: Icons.pause_circle_outline,
-                            color: tokens.accent,
-                            filled: true,
-                          ),
-                        ),
-                    ],
-                  ),
-                ),
+              : const SizedBox.shrink(),
           actionBar: actionRow(),
         ),
       ),
@@ -995,6 +1007,7 @@ class _PlayerBar extends ConsumerWidget {
                   controller: input,
                   autofocus: true,
                   maxLength: 30,
+                  style: dialogContext.type.body,
                   decoration: InputDecoration(
                     labelText: t('play.yourName'),
                     hintText: t('game.playerDefault.bottom'),

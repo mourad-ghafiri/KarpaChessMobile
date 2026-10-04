@@ -349,7 +349,21 @@
       "clearAll": "Limpar todos os desenhos desta jogada",
       "undo": "Anular",
       "redo": "Refazer",
-      "editText": "Editar o texto"
+      "editText": "Editar o texto",
+      "color": {
+        "red": "Vermelho",
+        "orange": "Laranja",
+        "yellow": "Amarelo",
+        "green": "Verde",
+        "blue": "Azul",
+        "purple": "Roxo",
+        "white": "Branco"
+      },
+      "stroke": {
+        "thin": "Traço fino",
+        "medium": "Traço médio",
+        "thick": "Traço grosso"
+      }
     },
     "result": {
       "title": "Resumo da partida",
@@ -523,6 +537,7 @@
     "showAnswer": "A ideia é esta — experimenta",
     "finishLesson": "Terminar a lição",
     "continueLesson": "Continuar · {title}",
+    "startLesson": "Começar · {title}",
     "addedToBook": "Adicionado ao teu Livro de Padrões 📖",
     "bookIntro": "Todos os padrões que dominas vivem aqui. As estrelas crescem à medida que os afias. Os tabuleiros esbatidos estão a perder o fio — afia-os antes que te escapem.",
     "starNone": "Ainda por afiar",

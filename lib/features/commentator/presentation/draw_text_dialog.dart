@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/i18n/i18n_service.dart';
+import '../../../core/theme/tokens_context.dart';
 
 /// Text-entry dialog shared by the drawing overlay (create / tap-to-edit)
 /// and the drawing-mode bar's edit button.
@@ -21,6 +22,7 @@ Future<String?> showDrawTextDialog(
         controller: input,
         autofocus: true,
         maxLength: 40,
+        style: context.type.body,
         decoration: InputDecoration(
           hintText: t('ui.placeholder.drawText'),
         ),

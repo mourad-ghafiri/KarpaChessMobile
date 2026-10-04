@@ -6,8 +6,11 @@ library;
 import 'coach_service.dart';
 import 'position_features.dart';
 
+/// The pawn is drawn as its outline ♙: ♟ is the one chess glyph that is also
+/// an emoji, and would draw as a glossy black emoji among the type pieces of
+/// the same sentence.
 const Map<String, String> _pieceGlyph = {
-  'p': '♟',
+  'p': '♙',
   'n': '♞',
   'b': '♝',
   'r': '♜',

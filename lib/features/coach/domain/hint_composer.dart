@@ -5,15 +5,22 @@ import 'position_features.dart';
 /// that used to arrive as unsolicited whispers, now delivered only when the
 /// player asks for a hint: an eval one-liner plus tactical awareness notes
 /// computed from the position (reusing the offline coach's pure features).
+///
+/// [side] is whose point of view the lines take ('w' | 'b'); it defaults to
+/// the side to move. Review passes the side that just PLAYED: it explains a
+/// move from the position after it, where the opponent is to move, and read
+/// from there "Opponent has 1 undefended piece: Rook on a1" named the
+/// learner's own rook, under an eval of the other colour.
 List<String> composeHintInsights({
   required Translate t,
   required Pluralize p,
   required String fen,
   required int? evalCpWhite,
+  String? side,
 }) {
   final insights = <String>[];
   final pos = ParsedPosition.fromFen(fen);
-  final mover = pos.turn;
+  final mover = side ?? pos.turn;
   final opponent = mover == 'w' ? 'b' : 'w';
 
   // 1 — evaluation one-liner (White-positive cp → side-relative prose).

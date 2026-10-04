@@ -1,12 +1,17 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/i18n/i18n_providers.dart';
 import '../../../core/layout/content_width.dart';
 import '../../../core/layout/window_class.dart';
+import '../../../core/theme/app_radius.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/tokens_context.dart';
 import '../../../core/ui/app_sheet.dart';
+import '../../../core/ui/empty_state.dart';
+import '../../../core/ui/glyph_title.dart';
 import '../../../core/ui/measure.dart';
 import '../../../progression/application/progression_controller.dart';
 import '../application/academy_providers.dart';
@@ -72,51 +77,13 @@ class PatternBookScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          '📖 ${t('academy.patternBook')}',
-          style: TextStyle(fontFamily: context.type.font.display),
-        ),
+        title: GlyphTitle(glyph: '📖', title: t('academy.patternBook')),
       ),
       body: map == null
           ? const SafeArea(child: Center(child: CircularProgressIndicator()))
           : ownedConcepts.isEmpty
-          ? SafeArea(
-              child: Center(
-                child: Padding(
-                  padding: const EdgeInsets.all(AppSpacing.xl),
-                  // A reading measure, or a tablet sets the sentence on one
-                  // line across the whole window.
-                  child: ConstrainedBox(
-                    constraints: const BoxConstraints(
-                      maxWidth: ContentWidth.reading,
-                    ),
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Text(
-                          '♟',
-                          style: TextStyle(
-                            fontSize: 44,
-                            color: tokens.textFaint,
-                          ),
-                        ),
-                        const SizedBox(height: AppSpacing.md),
-                        // An unexplained pawn told a new reader nothing.
-                        Text(
-                          t('academy.bookEmpty'),
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 13,
-                            height: 1.4,
-                            color: tokens.textDim,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ),
-            )
+          // An unexplained pawn told a new reader nothing.
+          ? SafeArea(child: EmptyState(message: t('academy.bookEmpty')))
           : SafeArea(
               // The class is read from the WINDOW, above the cap: the
               // cap itself is what the class chooses, so reading it
@@ -140,9 +107,7 @@ class PatternBookScreen extends ConsumerWidget {
                           child: ReadingMeasure(
                             child: Text(
                               t('academy.bookIntro'),
-                              style: TextStyle(
-                                fontSize: 13,
-                                height: 1.4,
+                              style: context.type.body.copyWith(
                                 color: tokens.textDim,
                               ),
                             ),
@@ -154,14 +119,35 @@ class PatternBookScreen extends ConsumerWidget {
                           // the enclosing cap rather than the window, so
                           // the expanded and wide tiers were unreachable
                           // and the count was effectively hardcoded.
-                          child: GridView.builder(
+                          // Rows as tall as what a cell holds — the board
+                          // (as wide as the cell), the stars and two lines of
+                          // title — not a fixed 0.66 aspect, which left a
+                          // phone's rows ~66dp apart against 12dp columns.
+                          child: LayoutBuilder(
+                            builder: (context, grid) {
+                              final inner =
+                                  grid.maxWidth -
+                                  AppInsets.page
+                                      .resolve(Directionality.of(context))
+                                      .horizontal;
+                              final columns =
+                                  ((inner + AppInsets.gridGap) /
+                                          (160 + AppInsets.gridGap))
+                                      .ceil()
+                                      .clamp(1, 12);
+                              final cell =
+                                  (inner -
+                                      AppInsets.gridGap * (columns - 1)) /
+                                  columns;
+                              return GridView.builder(
                             padding: AppInsets.page,
                             gridDelegate:
-                                const SliverGridDelegateWithMaxCrossAxisExtent(
-                                  maxCrossAxisExtent: 160,
+                                SliverGridDelegateWithFixedCrossAxisCount(
+                                  crossAxisCount: columns,
                                   mainAxisSpacing: AppInsets.gridGap,
                                   crossAxisSpacing: AppInsets.gridGap,
-                                  childAspectRatio: 0.66,
+                                  mainAxisExtent:
+                                      cell + slotHeightFor(context, 52, minimum: 52),
                                 ),
                             itemCount: ownedConcepts.length,
                             itemBuilder: (context, index) {
@@ -172,6 +158,8 @@ class PatternBookScreen extends ConsumerWidget {
                                 today: today,
                                 onTap: () => _openDetail(context, conceptId),
                               );
+                            },
+                          );
                             },
                           ),
                         ),
@@ -205,18 +193,20 @@ class _BookCell extends ConsumerWidget {
     final title =
         ref.watch(conceptLessonProvider(conceptId)).valueOrNull?.title ?? '';
     return InkWell(
-      borderRadius: BorderRadius.circular(10),
+      borderRadius: BorderRadius.circular(AppRadius.control),
       onTap: onTap,
+      // Hung from the top, the board as wide as the cell: a board centred in
+      // whatever height the title left over sat 9dp lower under a one-line
+      // title than under a two-line one, so neither the boards nor the stars
+      // of a row lined up.
       child: Column(
         children: [
-          Expanded(
+          Flexible(
             child: LayoutBuilder(
-              builder: (context, cell) => Center(
-                child: PatternThumb(
-                  conceptId: conceptId,
-                  size: cell.biggest.shortestSide,
-                  dullness: mastery?.dullness(today) ?? 0,
-                ),
+              builder: (context, cell) => PatternThumb(
+                conceptId: conceptId,
+                size: math.min(cell.maxWidth, cell.maxHeight),
+                dullness: mastery?.dullness(today) ?? 0,
               ),
             ),
           ),
@@ -228,8 +218,7 @@ class _BookCell extends ConsumerWidget {
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
             textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 11.5,
+            style: context.type.caption.copyWith(
               height: 1.25,
               fontWeight: FontWeight.w600,
               color: tokens.text,
@@ -303,11 +292,7 @@ class _PatternDetailSheet extends ConsumerWidget {
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 12.5,
-                  height: 1.3,
-                  color: tokens.textDim,
-                ),
+                style: context.type.body.copyWith(color: tokens.textDim),
               ),
             ],
             const SizedBox(height: AppSpacing.md),
@@ -327,7 +312,10 @@ class _PatternDetailSheet extends ConsumerWidget {
                     t(starLabelKey(stars)),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
-                    style: TextStyle(fontSize: 12.5, color: tokens.textDim),
+                    style: context.type.label.copyWith(
+                      fontWeight: FontWeight.w400,
+                      color: tokens.textDim,
+                    ),
                   ),
                 ),
               ],
@@ -335,8 +323,7 @@ class _PatternDetailSheet extends ConsumerWidget {
             const SizedBox(height: AppSpacing.xs),
             Text(
               isDue ? t('academy.due') : t('academy.sharp'),
-              style: TextStyle(
-                fontSize: 12.5,
+              style: context.type.label.copyWith(
                 fontWeight: FontWeight.w700,
                 color: isDue ? tokens.accent : tokens.success,
               ),

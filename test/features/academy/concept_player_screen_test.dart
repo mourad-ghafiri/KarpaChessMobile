@@ -120,6 +120,13 @@ void main() {
     // The whole lesson is always visible — no expand/collapse toggle.
     expect(find.byType(MarkdownView), findsOneWidget);
 
+    // A tap on the board does not advance a teach beat — it used to, through
+    // a full-board tap target, so a stray tap skipped the reading.
+    await tester.tap(find.byType(KarpaBoard), warnIfMissed: false);
+    await tester.pump(const Duration(milliseconds: 50));
+    expect(find.text(i18n.t('academy.playIt')), findsOneWidget);
+    expect(progressValue(tester), closeTo(1 / 3, 0.001));
+
     // Only the Next button advances the beat.
     await advanceToPlay(tester, i18n);
     // An unsolved play beat asks for a move outright, rather than showing the
@@ -130,7 +137,7 @@ void main() {
 
   testWidgets(
       'PLAY beat: correct move locks the board and waits on the learner '
-      '— no auto-advance; a board tap moves on', (tester) async {
+      '— no auto-advance; only the advance button moves on', (tester) async {
     final (_, i18n) = await pumpPlayer(tester);
     await advanceToPlay(tester, i18n);
 
@@ -149,8 +156,14 @@ void main() {
     await tester.pump(const Duration(seconds: 2));
     expect(find.text(i18n.t('academy.ownIt')), findsOneWidget);
 
-    // Tapping the board advances to the OWN beat.
+    // Tapping the board does NOT move on: still the solved PLAY beat.
     await tester.tap(find.byType(KarpaBoard), warnIfMissed: false);
+    await tester.pump(const Duration(milliseconds: 50));
+    expect(find.text(i18n.t('academy.ownIt')), findsOneWidget);
+    expect(progressValue(tester), closeTo(2 / 3, 0.001));
+
+    // The advance button does: on to the OWN beat.
+    await tester.tap(find.text(i18n.t('academy.ownIt')));
     await tester.pump(const Duration(milliseconds: 50));
     // An unsolved proof beat earns no advance button — the learner has to
     // prove the pattern first.

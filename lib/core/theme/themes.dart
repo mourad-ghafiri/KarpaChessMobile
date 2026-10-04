@@ -105,7 +105,9 @@ abstract final class AppThemes {
     required Color tint,
     required Color highlight,
   }) {
-    const danger = Color(0xFFB9645A);
+    // Lifted from 0xFFB9645A, which read 3.9:1 on a dark card and 2.6:1 on
+    // a sheet — the colour of every error, failed puzzle and reset button.
+    const danger = Color(0xFFD98073);
     return AppTokens(
       brightness: Brightness.dark,
       bg: bg,

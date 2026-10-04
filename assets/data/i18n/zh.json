@@ -334,7 +334,21 @@
       "clearAll": "清除本步上的所有图形",
       "undo": "撤销",
       "redo": "重做",
-      "editText": "编辑文字"
+      "editText": "编辑文字",
+      "color": {
+        "red": "红色",
+        "orange": "橙色",
+        "yellow": "黄色",
+        "green": "绿色",
+        "blue": "蓝色",
+        "purple": "紫色",
+        "white": "白色"
+      },
+      "stroke": {
+        "thin": "细线",
+        "medium": "中等线",
+        "thick": "粗线"
+      }
     },
     "result": {
       "title": "对局总结",
@@ -507,6 +521,7 @@
     "showAnswer": "这就是思路——试试看",
     "finishLesson": "完成课程",
     "continueLesson": "继续 · {title}",
+    "startLesson": "开始 · {title}",
     "addedToBook": "已加入你的棋型手册 📖",
     "bookIntro": "你掌握的每个棋型都收录在这里。磨练越多，星星越多。变暗的棋盘正在钝化——趁没遗忘赶紧磨练。",
     "starNone": "尚未磨练",

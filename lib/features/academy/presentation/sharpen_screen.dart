@@ -304,7 +304,8 @@ class _SharpenScreenState extends ConsumerState<SharpenScreen> {
             emoji: '⚡',
             title: conceptTitle,
             trailing: _combo > 1
-                ? StatChip(label: '×$_combo', emoji: '🔥')
+                // A run of right answers, not the day streak's flame.
+                ? StatChip(label: '×$_combo', icon: Icons.done_all)
                 : null,
           ),
           aboveHeight: BoardContextCard.height,
@@ -360,22 +361,23 @@ class _SharpenScreenState extends ConsumerState<SharpenScreen> {
           ),
           panel: SingleChildScrollView(
             padding: AppInsets.panel,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                Text(
-                  t('academy.findTheMove'),
-                  textAlign: TextAlign.center,
-                  style: context.type.title,
-                ),
-                // The author's setup says what is being asked. Without it a
-                // plan or opening position has several good moves and only
-                // one of them is graded as correct.
-                if (challenge.prompt.trim().isNotEmpty) ...[
-                  const SizedBox(height: AppSpacing.sm),
-                  MarkdownView(challenge.prompt.trim()),
+            // The lesson panel's grammar — a start-aligned heading over its
+            // prose, both at a reading measure. A centred heading over a
+            // start-aligned paragraph left the two on different edges.
+            child: ReadingMeasure(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Text(t('academy.findTheMove'), style: context.type.title),
+                  // The author's setup says what is being asked. Without it a
+                  // plan or opening position has several good moves and only
+                  // one of them is graded as correct.
+                  if (challenge.prompt.trim().isNotEmpty) ...[
+                    const SizedBox(height: AppSpacing.sm),
+                    MarkdownView(challenge.prompt.trim()),
+                  ],
                 ],
-              ],
+              ),
             ),
           ),
           actionBar: _resolved

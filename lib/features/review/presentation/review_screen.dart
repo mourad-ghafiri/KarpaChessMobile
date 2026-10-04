@@ -8,6 +8,7 @@ import '../../../core/i18n/i18n_providers.dart';
 import '../../../core/i18n/i18n_service.dart';
 import '../../../core/layout/mode_panes.dart';
 import '../../../core/text/html_lite.dart';
+import '../../../core/theme/app_radius.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/tokens_context.dart';
 import '../../board/presentation/board_stage.dart';
@@ -75,6 +76,21 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
     _seekTo(current + delta);
   }
 
+  /// The learner's next move in tally [bucket] after the one shown, wrapping
+  /// round — so a tally chip walks its own moves ("1 Mistake" → that move).
+  void _seekToNextIn(String bucket) {
+    final review = ref.read(reviewControllerProvider);
+    final moves = review.moves;
+    final from = review.selectedIndex ?? -1;
+    for (var step = 1; step <= moves.length; step++) {
+      final i = (from + step) % moves.length;
+      if (moves[i].isUserTurn && moves[i].labelKey == bucket) {
+        _seekTo(i);
+        return;
+      }
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final review = ref.watch(reviewControllerProvider);
@@ -115,7 +131,7 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                     'i': review.analyzedCount,
                     'total': review.totalCount,
                   }),
-            style: TextStyle(fontSize: 12, color: tokens.textDim),
+            style: context.type.caption.copyWith(color: tokens.textDim),
           ),
         ],
       ),
@@ -132,19 +148,44 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
         ('mistake', 'review.tally.mistake', tokens.mistake),
         ('blunder', 'review.tally.blunder', tokens.blunder),
       ])
-        StatChip(
-          label: '${tallies[key]} ${t(labelKey)}',
-          color: color,
-          filled: true,
+        // A count of zero is a fact, not a warning: it stays neutral rather
+        // than wearing the blunder red. A non-zero chip jumps to its moves.
+        Semantics(
+          button: tallies[key]! > 0,
+          child: InkWell(
+            onTap: tallies[key]! > 0 ? () => _seekToNextIn(key) : null,
+            borderRadius: BorderRadius.circular(AppRadius.chip),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 4),
+              child: StatChip(
+                label: '${tallies[key]} ${t(labelKey)}',
+                color: tallies[key]! > 0 ? color : null,
+                filled: tallies[key]! > 0,
+              ),
+            ),
+          ),
         ),
     ];
 
-    Widget talliesRow() => Wrap(
-      spacing: 8,
-      runSpacing: 6,
-      alignment: WrapAlignment.center,
-      children: tallyChips(),
-    );
+    // Two lines by meaning — what went right, then what went wrong — rather
+    // than one wrap: five chips are a little wider than a phone, so the wrap
+    // broke four and one and left "0 Blunder" alone on its row.
+    Widget talliesRow() {
+      final chips = tallyChips();
+      Widget line(List<Widget> group) => Wrap(
+        spacing: AppSpacing.sm,
+        runSpacing: 0,
+        alignment: WrapAlignment.center,
+        children: group,
+      );
+      return Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          line(chips.sublist(0, 2)),
+          line(chips.sublist(2)),
+        ],
+      );
+    }
 
     // The stacked column's above-board row is a fixed slot, so there the
     // tallies are ONE line that scrolls sideways rather than a wrap that
@@ -262,7 +303,13 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                           child: Center(child: progress()),
                         )
                       : switch (layout) {
-                          ModeLayout.compact => SingleChildScrollView(
+                          // A phone on its side keeps the phone column's
+                          // panel: its pane is ~330dp tall, and the tallies
+                          // plus the coaching card left the move list a few
+                          // dp of clipped rows. The card is what Review is
+                          // for; the replay bar under it still walks the game.
+                          ModeLayout.compact ||
+                          ModeLayout.landscapeCompact => SingleChildScrollView(
                             padding: AppInsets.panel,
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -279,7 +326,6 @@ class _ReviewScreenState extends ConsumerState<ReviewScreen> {
                           // natural height up to a share of the mode, then
                           // scrolls inside itself; the list absorbs whatever
                           // the card leaves.
-                          ModeLayout.landscapeCompact ||
                           ModeLayout.twoPane => Padding(
                             padding: AppInsets.panel,
                             child: Column(
@@ -356,11 +402,22 @@ class _ExplanationBody extends StatelessWidget {
 
     // Every string here comes from the coach's i18n, which carries the
     // html-lite subset — the same renderer as the bullets below.
+    final type = context.type;
+    // Quality hues are picked to read on the page; on a card some fall short
+    // of 4.5:1 (blunder 3.9, inaccuracy 3.8 in the lights), so the words
+    // take a legible ink of the same hue.
+    final verdictInk = quality == null
+        ? null
+        : tokens.legible(quality.colorOf(tokens), on: tokens.panel);
     Widget prose(String text) => Padding(
       padding: const EdgeInsets.only(top: 4),
       child: HtmlLiteText(
         text,
-        style: TextStyle(fontSize: 12.5, height: 1.35, color: tokens.textDim),
+        style: type.label.copyWith(
+          fontWeight: FontWeight.w400,
+          height: 1.35,
+          color: tokens.textDim,
+        ),
       ),
     );
 
@@ -373,10 +430,10 @@ class _ExplanationBody extends StatelessWidget {
             if (quality != null) ...[
               Text(
                 quality.glyph,
-                style: TextStyle(
-                  fontSize: 16,
+                style: type.heading.copyWith(
+                  fontFamily: type.font.body,
                   fontWeight: FontWeight.w900,
-                  color: quality.colorOf(tokens),
+                  color: verdictInk,
                 ),
               ),
               const SizedBox(width: 7),
@@ -387,10 +444,10 @@ class _ExplanationBody extends StatelessWidget {
                   t(e.verdictLabelKey!),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: TextStyle(
-                    fontSize: 14,
+                  style: type.body.copyWith(
+                    height: 1.2,
                     fontWeight: FontWeight.w800,
-                    color: quality.colorOf(tokens),
+                    color: verdictInk,
                   ),
                 ),
               ),
@@ -408,10 +465,7 @@ class _ExplanationBody extends StatelessWidget {
               const SizedBox(width: 8),
               Text(
                 e.evalSwing!,
-                style: context.type.san.copyWith(
-                  fontSize: 12,
-                  color: tokens.textDim,
-                ),
+                style: context.type.san.copyWith(color: tokens.textDim),
               ),
             ],
           ],
@@ -449,12 +503,12 @@ class _ExplanationBody extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
             decoration: BoxDecoration(
               color: tokens.accentSoft,
-              borderRadius: BorderRadius.circular(10),
+              borderRadius: BorderRadius.circular(AppRadius.control),
             ),
             child: HtmlLiteText(
               t(e.narrativeKey!, e.narrativeParams),
-              style: TextStyle(
-                fontSize: 12.5,
+              style: type.label.copyWith(
+                fontWeight: FontWeight.w400,
                 height: 1.35,
                 color: tokens.text,
               ),

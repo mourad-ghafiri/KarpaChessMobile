@@ -25,6 +25,7 @@ import '../../../core/ui/board_context_card.dart';
 import '../../../core/ui/celebration_overlay.dart';
 import '../../../core/ui/hint_toast.dart';
 import '../../../core/ui/stat_chip.dart';
+import '../../../core/ui/symbol_glyph.dart';
 import '../../../core/ui/mode_header_bar.dart';
 import '../../../progression/application/progression_controller.dart';
 import '../../../progression/domain/progression.dart';
@@ -691,8 +692,7 @@ class _PuzzleSolveScreenState extends ConsumerState<PuzzleSolveScreen> {
                 ),
               }),
               textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 12,
+              style: context.type.label.copyWith(
                 fontWeight: FontWeight.w700,
                 color: context.tokens.accent,
               ),
@@ -887,24 +887,18 @@ class _CategoryLine extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text(icon, style: TextStyle(fontSize: 20, color: tokens.accent)),
-        const SizedBox(width: 8),
+        SymbolGlyph(icon, size: 18, color: tokens.accent),
+        const SizedBox(width: AppSpacing.sm),
         Flexible(
           child: Text(
             name,
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
-            style: TextStyle(
-              fontFamily: context.type.font.display,
-              fontSize: 20,
-              height: 1.1,
-              fontWeight: FontWeight.w800,
-              color: tokens.text,
-            ),
+            style: context.type.title.copyWith(height: 1.1, color: tokens.text),
           ),
         ),
         if (badge case final label?) ...[
-          const SizedBox(width: 8),
+          const SizedBox(width: AppSpacing.sm),
           StatChip(label: label),
         ],
       ],
@@ -941,8 +935,7 @@ class _SessionLine extends StatelessWidget {
       parts.join(' · '),
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
-      style: TextStyle(
-        fontSize: 11.5,
+      style: context.type.caption.copyWith(
         height: 1.1,
         fontWeight: FontWeight.w600,
         color: tokens.textDim,

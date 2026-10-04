@@ -334,7 +334,21 @@
       "clearAll": "Bersihkan semua bentuk pada langkah ini",
       "undo": "Urungkan",
       "redo": "Ulangi",
-      "editText": "Ubah teks"
+      "editText": "Ubah teks",
+      "color": {
+        "red": "Merah",
+        "orange": "Oranye",
+        "yellow": "Kuning",
+        "green": "Hijau",
+        "blue": "Biru",
+        "purple": "Ungu",
+        "white": "Putih"
+      },
+      "stroke": {
+        "thin": "Garis tipis",
+        "medium": "Garis sedang",
+        "thick": "Garis tebal"
+      }
     },
     "result": {
       "title": "Ringkasan pertandingan",
@@ -507,6 +521,7 @@
     "showAnswer": "Ini idenya — coba",
     "finishLesson": "Selesaikan pelajaran",
     "continueLesson": "Lanjutkan · {title}",
+    "startLesson": "Mulai · {title}",
     "addedToBook": "Ditambahkan ke Buku Pola Anda 📖",
     "bookIntro": "Setiap pola yang Anda kuasai ada di sini. Bintang tumbuh saat Anda mengasah. Papan yang memudar mulai tumpul — asah sebelum hilang.",
     "starNone": "Belum diasah",
