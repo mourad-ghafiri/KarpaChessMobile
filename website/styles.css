@@ -21,6 +21,40 @@
   font-display: swap;
 }
 
+/* Until the two faces arrive (or if they never do), text is set in a local
+   face scaled to their metrics, so the swap moves nothing. Each figure was
+   measured from the font files on the page's own copy: Fraunces at 700 (the
+   only weight the page sets it in) against Georgia Bold, Inter at 400 and at
+   650 against Arial and Arial Bold. size-adjust also scales the overrides,
+   so each override is the web face's ascent or descent divided by it. */
+@font-face {
+  font-family: "Fraunces Fallback";
+  src: local("Georgia Bold"), local("Georgia-Bold");
+  font-weight: 700;
+  size-adjust: 93.99%;
+  ascent-override: 104.06%;
+  descent-override: 27.13%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "Inter Fallback";
+  src: local("Arial"), local("ArialMT");
+  font-weight: 100 500;
+  size-adjust: 105.08%;
+  ascent-override: 92.19%;
+  descent-override: 22.95%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "Inter Fallback";
+  src: local("Arial Bold"), local("Arial-BoldMT");
+  font-weight: 600 900;
+  size-adjust: 103.01%;
+  ascent-override: 94.04%;
+  descent-override: 23.42%;
+  line-gap-override: 0%;
+}
+
 /* Midnight Grove */
 :root {
   color-scheme: dark;
@@ -48,9 +82,26 @@
   --q-mistake: #c08552;
   --q-blunder: #b9645a;
 
-  --display: "Fraunces", Georgia, "Times New Roman", serif;
-  --body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --display: "Fraunces", "Fraunces Fallback", Georgia, "Times New Roman", serif;
+  --body: "Inter", "Inter Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* The type roles, named as the app names them (core/theme/app_typography
+     .dart): Fraunces 700 for display, title and heading, Inter for the rest.
+     The two big roles follow the window; everything that is read stays put. */
+  --type-display: clamp(2.75rem, 1.55rem + 4.4vw, 4.75rem);
+  --type-title: clamp(2rem, 1.4rem + 2.2vw, 3rem);
+  --type-heading: 1.375rem;
+  --type-lead: clamp(1.0625rem, 0.95rem + 0.45vw, 1.25rem);
+  --type-body: 1.0625rem;
+  --type-label: 0.9375rem;
+  --type-caption: 0.8125rem;
+  --type-overline: 0.75rem;
+
+  /* Light text on a dark ground reads a touch tighter than it is: the night
+     palette sets reading text with a little more air. */
+  --leading-body: 1.65;
+  --tracking-body: 0.005em;
 
   --radius-lg: 24px;
   --radius-md: 16px;
@@ -90,6 +141,9 @@
     --q-inaccuracy: #9a7a26;
     --q-mistake: #a05f24;
     --q-blunder: #9a4335;
+
+    --leading-body: 1.6;
+    --tracking-body: 0;
   }
 }
 
@@ -103,12 +157,20 @@ html { scroll-behavior: smooth; scroll-padding-top: 76px; }
 
 body {
   font-family: var(--body);
-  font-size: 1.0625rem;
-  line-height: 1.6;
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+  letter-spacing: var(--tracking-body);
   color: var(--text);
   background: var(--bg);
+  /* Thinned strokes suit light text on a dark ground, where it would
+     otherwise bloom; dark text on Ivory keeps the system's full weight. */
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+@media (prefers-color-scheme: light) {
+  body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
+  .section--deep, .lightbox { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 }
 
 /* The hero's squares and the screenshot strip run to the window's edges
@@ -157,13 +219,19 @@ ul[class], ol[class] { list-style: none; }
   border-radius: var(--radius-sm);
   background: var(--accent);
   color: var(--on-accent);
+  font-size: var(--type-label);
   font-weight: 700;
 }
 .skip:focus { top: 12px; }
 
-h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.15; text-wrap: balance; }
+h1, h2, h3 { font-family: var(--display); font-weight: 700; text-wrap: balance; }
 p { text-wrap: pretty; }
-h3 { font-size: 1.25rem; }
+/* The heading role: every card, beat and policy section. */
+h3 {
+  font-size: var(--type-heading);
+  line-height: 1.25;
+  letter-spacing: -0.006em;
+}
 
 strong { font-weight: 650; }
 
@@ -195,7 +263,8 @@ strong { font-weight: 650; }
 .brand__name {
   font-family: var(--display);
   font-weight: 700;
-  font-size: 1.35rem;
+  font-size: var(--type-heading);
+  line-height: 1;
   letter-spacing: -0.01em;
 }
 
@@ -203,7 +272,7 @@ strong { font-weight: 650; }
 .nav__menu a {
   color: var(--text-dim);
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: var(--type-label);
   text-decoration: none;
   border-radius: 8px;
   transition: color var(--quick) var(--ease-out), background-color var(--quick) var(--ease-out),
@@ -251,16 +320,22 @@ strong { font-weight: 650; }
 .section--panel { background: var(--panel); border-block: 1px solid var(--edge); }
 
 .section__head { margin-bottom: clamp(32px, 5vw, 52px); }
-.section__title {
-  font-size: clamp(2rem, 4.4vw, 3rem);
-  letter-spacing: -0.015em;
-  max-width: 22ch;
+/* The title role: every section, the closing call and the policy. */
+.section__title, .cta h2, .legal h1 {
+  font-size: var(--type-title);
+  line-height: 1.08;
+  letter-spacing: -0.018em;
+}
+.section__title { max-width: 22ch; }
+/* The lead role: the hero's and every section's opening line. */
+.hero__lead, .section__lead {
+  color: var(--text-dim);
+  font-size: var(--type-lead);
+  line-height: 1.55;
 }
 .section__lead {
-  margin-top: 16px;
+  margin-top: 18px;
   max-width: 60ch;
-  color: var(--text-dim);
-  font-size: 1.125rem;
 }
 
 .button {
@@ -319,8 +394,9 @@ strong { font-weight: 650; }
   background: var(--raised);
   line-height: 1.15;
 }
-.store__small { color: var(--text-dim); font-size: 0.72rem; font-weight: 600; }
-.store__name { font-size: 1.15rem; font-weight: 700; }
+.store__small { color: var(--text-dim); font-size: var(--type-caption); font-weight: 600; }
+/* Sized to the App Store badge's wordmark beside it, not to a role. */
+.store__name { font-size: 1.125rem; font-weight: 700; }
 
 /* ───────── Hero ───────── */
 .hero {
@@ -347,17 +423,16 @@ strong { font-weight: 650; }
   mask-image: radial-gradient(ellipse 55% 70% at 72% 45%, #000 20%, transparent 75%);
 }
 
+/* The display role: the hero alone. */
 .hero__title {
-  font-size: clamp(2.7rem, 6.4vw, 4.6rem);
+  font-size: var(--type-display);
   line-height: 1.02;
   letter-spacing: -0.025em;
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 .hero__lead {
   max-width: 52ch;
-  margin-bottom: 30px;
-  color: var(--text-dim);
-  font-size: clamp(1.06rem, 1.6vw, 1.2rem);
+  margin-bottom: 32px;
 }
 .hero__lead strong { color: var(--text); }
 
@@ -367,7 +442,7 @@ strong { font-weight: 650; }
   gap: 8px 20px;
   margin-top: 22px;
   color: var(--text-dim);
-  font-size: 0.92rem;
+  font-size: var(--type-label);
   font-weight: 600;
 }
 .hero__facts li { display: inline-flex; align-items: center; gap: 8px; }
@@ -431,13 +506,13 @@ strong { font-weight: 650; }
 .numbers__list > div + div { border-left: 1px solid var(--edge); }
 .numbers__list dd {
   font-family: var(--display);
-  font-size: clamp(2rem, 3.6vw, 2.75rem);
+  font-size: var(--type-title);
   font-weight: 700;
-  font-variant-numeric: lining-nums tabular-nums;
   line-height: 1;
+  letter-spacing: -0.018em;
   color: var(--accent);
 }
-.numbers__list dt { color: var(--text-dim); font-size: 0.9rem; font-weight: 600; }
+.numbers__list dt { color: var(--text-dim); font-size: var(--type-label); font-weight: 600; }
 
 /* ───────── How it teaches ───────── */
 .journey {
@@ -453,7 +528,7 @@ strong { font-weight: 650; }
   border-radius: var(--radius-lg);
   background: var(--panel);
 }
-.journey__step h3 { margin: 18px 0 10px; }
+.journey__step h3 { margin: 20px 0 8px; }
 .journey__step p { color: var(--text-dim); }
 /* The chevron between two beats, as the lesson's own tracker draws it:
    two strokes, centred in the gap. */
@@ -477,7 +552,7 @@ strong { font-weight: 650; }
   background: var(--raised);
   color: var(--accent);
   font-weight: 700;
-  font-size: 0.92rem;
+  font-size: var(--type-label);
   counter-increment: beat;
 }
 .journey__chip::before {
@@ -488,7 +563,8 @@ strong { font-weight: 650; }
   border-radius: 50%;
   background: var(--accent);
   color: var(--on-accent);
-  font-size: 0.78rem;
+  font-size: var(--type-caption);
+  line-height: 1;
   font-variant-numeric: tabular-nums;
 }
 
@@ -501,10 +577,10 @@ strong { font-weight: 650; }
   gap: 4px 12px;
   margin-top: 28px;
   color: var(--text-dim);
-  font-size: 0.98rem;
+  font-size: var(--type-label);
   text-align: center;
 }
-.arts__label { color: var(--text); font-weight: 700; }
+.arts__label { color: var(--text); font-weight: 600; }
 .arts__list { display: flex; flex-wrap: wrap; justify-content: center; row-gap: 4px; }
 .arts__list li { white-space: nowrap; }
 .arts__list li:not(:last-child)::after {
@@ -543,7 +619,6 @@ strong { font-weight: 650; }
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.feature h3 { font-size: 1.3rem; }
 .feature p { margin-top: 14px; color: var(--text-dim); }
 
 /* Ink lifted toward the text colour until each grade reads at 4.5:1 on its
@@ -552,7 +627,7 @@ strong { font-weight: 650; }
 .quality li {
   padding: 3px 10px;
   border-radius: 8px;
-  font-size: 0.8rem;
+  font-size: var(--type-caption);
   font-weight: 700;
   color: color-mix(in srgb, var(--q) 70%, var(--text));
   background: color-mix(in srgb, var(--q) 14%, transparent);
@@ -582,7 +657,7 @@ strong { font-weight: 650; }
   border-radius: 999px;
   background: transparent;
   color: var(--text-dim);
-  font: 600 0.95rem var(--body);
+  font: 600 var(--type-label) / 1.35 var(--body);
   cursor: pointer;
   transition: background-color var(--quick) var(--ease-out), color var(--quick) var(--ease-out),
     transform var(--quick) var(--ease-out);
@@ -635,7 +710,7 @@ strong { font-weight: 650; }
   margin-top: 12px;
   text-align: center;
   color: var(--text-dim);
-  font-size: 0.92rem;
+  font-size: var(--type-label);
   font-weight: 600;
 }
 
@@ -663,12 +738,14 @@ strong { font-weight: 650; }
 .gallery__step:disabled { opacity: 0; pointer-events: none; }
 
 /* ───────── Make it yours ───────── */
+/* The overline: small capitals over each picker strip. */
 .picker__title {
-  margin: 34px auto 14px;
+  margin: 36px auto 14px;
   font-family: var(--body);
-  font-size: 0.8rem;
+  font-size: var(--type-overline);
   font-weight: 700;
-  letter-spacing: 0.14em;
+  line-height: 1.3;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-dim);
 }
@@ -690,7 +767,7 @@ strong { font-weight: 650; }
   border: 1px solid var(--edge);
   background: var(--sw-bg);
   color: var(--sw-text);
-  font-size: 0.84rem;
+  font-size: var(--type-caption);
   font-weight: 700;
   box-shadow: var(--shadow-sm);
 }
@@ -726,7 +803,7 @@ strong { font-weight: 650; }
   border: 1px solid var(--edge);
   background: var(--raised);
   color: var(--text-dim);
-  font-size: 0.88rem;
+  font-size: var(--type-caption);
   font-weight: 600;
 }
 .boards li::before {
@@ -833,8 +910,7 @@ strong { font-weight: 650; }
     var(--bg);
 }
 .cta__mark { margin: 0 auto 22px; border-radius: 22%; box-shadow: var(--shadow); }
-.cta h2 { font-size: clamp(2rem, 4.4vw, 3rem); letter-spacing: -0.015em; }
-.cta p { max-width: 46ch; margin: 12px auto 28px; color: var(--text-dim); }
+.cta p { max-width: 46ch; margin: 14px auto 28px; color: var(--text-dim); }
 
 /* ───────── Footer ───────── */
 .site-footer {
@@ -847,17 +923,17 @@ strong { font-weight: 650; }
   background: var(--panel);
   text-align: center;
 }
-.site-footer .brand__name { font-size: 1.15rem; }
 .site-footer__links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 24px; }
 .site-footer__links a {
   color: var(--text-dim);
+  font-size: var(--type-label);
   font-weight: 600;
   text-decoration: none;
   border-radius: 4px;
   transition: color var(--quick) var(--ease-out);
 }
 .site-footer__links a:hover { color: var(--text); }
-.site-footer__legal { color: var(--text-faint); font-size: 0.86rem; }
+.site-footer__legal { color: var(--text-faint); font-size: var(--type-caption); }
 
 /* ───────── Lightbox ───────── */
 .lightbox {
@@ -888,7 +964,7 @@ strong { font-weight: 650; }
   .lightbox { opacity: 0; }
   .lightbox__img { transform: scale(0.96); }
 }
-.lightbox__caption { margin-top: 14px; color: #e4eae5; font-weight: 600; }
+.lightbox__caption { margin-top: 14px; color: #e4eae5; font-size: var(--type-label); font-weight: 600; }
 .lightbox__close,
 .lightbox__step {
   display: grid;
@@ -920,15 +996,20 @@ strong { font-weight: 650; }
 
 /* ───────── Privacy policy page ───────── */
 .legal {
-  max-width: calc(660px + 2 * var(--gutter));
+  max-width: calc(38rem + 2 * var(--gutter));
   margin: 0 auto;
   padding: clamp(36px, 7vw, 72px) var(--gutter) 96px;
 }
 .legal__back { margin-bottom: 30px; text-decoration: none; }
 .legal__back .icon { transition: transform var(--quick) var(--ease-out); }
 .legal__back:hover .icon { transform: translateX(-3px); }
-.legal h1 { font-size: clamp(2.1rem, 5vw, 3rem); letter-spacing: -0.015em; margin-bottom: 10px; }
-.legal h2 { font-size: 1.45rem; margin: 40px 0 12px; }
+.legal h1 { margin-bottom: 12px; }
+.legal h2 {
+  font-size: var(--type-heading);
+  line-height: 1.25;
+  letter-spacing: -0.006em;
+  margin: 44px 0 12px;
+}
 .legal p, .legal ul { margin-bottom: 14px; }
 .legal ul { padding-left: 1.3em; }
 .legal ul ul { margin: 8px 0 0; }
@@ -1006,6 +1087,8 @@ strong { font-weight: 650; }
   .gallery__step { display: none; }
   .shot { width: 200px; }
   .shots--tablet .shot { width: 290px; }
+  /* A 200px phone keeps every caption on one line at the caption role. */
+  .shot figcaption { font-size: var(--type-caption); }
 }
 
 /* Five numbers as one over two pairs. */
@@ -1018,7 +1101,7 @@ strong { font-weight: 650; }
 }
 
 @media (max-width: 480px) {
-  body { font-size: 1rem; }
+  :root { --type-body: 1rem; }
   /* Four facts as two pairs, so none is left alone on a line. */
   .hero__facts {
     display: grid;
@@ -1030,7 +1113,7 @@ strong { font-weight: 650; }
   /* Half a phone is too narrow for "Bahasa Indonesia" on one line: the
      names flow instead, each tile as wide as its name. */
   .langs { display: flex; flex-wrap: wrap; gap: 8px; }
-  .langs li { padding: 10px 14px; gap: 8px; font-size: 0.94rem; }
+  .langs li { padding: 10px 14px; gap: 8px; font-size: var(--type-label); }
   .langs__flag { font-size: 1.25rem; }
   .store { min-width: 0; flex: 1 1 150px; }
   .lightbox { padding: 12px; }

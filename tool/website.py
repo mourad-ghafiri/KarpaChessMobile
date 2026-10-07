@@ -213,8 +213,23 @@ def render_list(items) -> list:
     return lines
 
 
+def typographic(text: str) -> str:
+    """Curly quotes and apostrophes, as the hand-set page uses: the policy
+    stays plain ASCII Markdown, and the page reads as typeset. Code spans
+    and link targets are left as written."""
+    parts = re.split(r'(`[^`]+`|\]\([^)]+\))', text)
+    for i in range(0, len(parts), 2):
+        part = parts[i]
+        part = re.sub(r"(^|[\s(\[\u2013\u2014])'", '\\1\u2018', part)
+        part = part.replace("'", '\u2019')
+        part = re.sub(r'(^|[\s(\[\u2013\u2014])"', '\\1\u201c', part)
+        part = part.replace('"', '\u201d')
+        parts[i] = part
+    return ''.join(parts)
+
+
 def inline(text: str) -> str:
-    text = html.escape(text, quote=False)
+    text = html.escape(typographic(text), quote=False)
     text = re.sub(r'`([^`]+)`', r'<code>\1</code>', text)
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
     text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)',
