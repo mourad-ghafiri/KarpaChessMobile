@@ -51,6 +51,13 @@ It needs Pillow, fontTools and brotli.
   does today: 100 lessons, 441 puzzles, 240 master games, twelve languages,
   ten piece sets. The coach is offline rules behind one hint button, not AI.
   Change the page when the app changes.
+- **Search metadata says what the page says.** The `<title>`, the meta
+  description and the JSON-LD block in `index.html` (`WebSite`, `WebPage`,
+  `MobileApplication`) repeat the page's counts, features and languages, and
+  Google requires structured data to match visible content: change them with
+  the page. Never add `aggregateRating` or `review` markup unless real ratings
+  are shown on the page. Pages link home as `./`, the canonical URL, never
+  `index.html`.
 - **Store badges.** The App Store badge is Apple's official black badge
   (`badges/app-store.svg`, from Apple's App Store Marketing Tools), never
   modified, first in the row. It links to

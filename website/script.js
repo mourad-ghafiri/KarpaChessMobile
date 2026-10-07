@@ -19,6 +19,10 @@
     menu.addEventListener("click", function (e) {
       if (e.target.tagName === "A") setMenu(false);
     });
+    // A tap anywhere outside the open menu closes it.
+    document.addEventListener("click", function (e) {
+      if (menu.classList.contains("open") && !e.target.closest(".nav")) setMenu(false);
+    });
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape" && menu.classList.contains("open")) {
         setMenu(false);
@@ -89,6 +93,12 @@
   var shots = [];
   var current = 0;
   var opener = null;
+  // Everything behind the viewer, made inert while it is open.
+  var page = Array.prototype.slice.call(document.querySelectorAll("body > header, body > main, body > footer"));
+
+  function setInert(on) {
+    page.forEach(function (region) { region.inert = on; });
+  }
 
   function show(index) {
     current = (index + shots.length) % shots.length;
@@ -104,12 +114,14 @@
     opener = document.activeElement;
     show(shots.indexOf(figure));
     lightbox.hidden = false;
+    setInert(true);
     document.body.style.overflow = "hidden";
     closeButton.focus();
   }
 
   function close() {
     lightbox.hidden = true;
+    setInert(false);
     document.body.style.overflow = "";
     if (opener) opener.focus();
   }
@@ -123,6 +135,17 @@
     document.getElementById("lightboxNext").addEventListener("click", function () { show(current + 1); });
     lightbox.addEventListener("click", function (e) {
       if (e.target === lightbox) close();
+    });
+    // A sideways swipe steps through the screens, as the arrows do.
+    var touchX = null;
+    lightbox.addEventListener("touchstart", function (e) {
+      touchX = e.touches.length === 1 ? e.touches[0].clientX : null;
+    }, { passive: true });
+    lightbox.addEventListener("touchend", function (e) {
+      if (touchX === null) return;
+      var dx = e.changedTouches[0].clientX - touchX;
+      touchX = null;
+      if (Math.abs(dx) > 48) show(current + (dx < 0 ? 1 : -1));
     });
     document.addEventListener("keydown", function (e) {
       if (lightbox.hidden) return;
