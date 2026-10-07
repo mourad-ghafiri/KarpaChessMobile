@@ -6,7 +6,7 @@ abstract final class AppInfo {
   /// The release version. It must equal the version name in pubspec.yaml
   /// (the part before `+`); `test/core/app_info_test.dart` holds the two
   /// together, so a version bump that misses one fails the suite.
-  static const version = '1.1.0';
+  static const version = '1.1.1';
 
   /// Where the complete corresponding source is published. KarpaChess ships
   /// Stockfish, chessground and dartchess, all GPL-3.0, so the app as a

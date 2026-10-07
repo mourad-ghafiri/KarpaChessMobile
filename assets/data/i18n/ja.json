@@ -52,7 +52,8 @@
       "insufficient": "駒数不足",
       "repetition": "同一局面の3回繰り返し",
       "whiteWinsTime": "時間切れで白の勝ち",
-      "blackWinsTime": "時間切れで黒の勝ち"
+      "blackWinsTime": "時間切れで黒の勝ち",
+      "youResigned": "投了しました。"
     },
     "side": {
       "white": "白",
@@ -309,6 +310,10 @@
     "pasteInstead": "別のものを貼り付ける",
     "importName": "名前",
     "importNameHelp": "任意 ― ヘッダーのない指し手リストは名前がないと探せません。",
+    "importNoMoves": "指し手が見つかりませんでした。PGNの対局か指し手リスト（例：e4 e5 Nf3 Nc6）を貼り付けるか、PGNファイルを選んでください。",
+    "importIllegalMove": "{move}は、対局のその時点では指せない手です。",
+    "importBadPosition": "この対局は、ルール上ありえない局面（FENタグ）から始まっています。",
+    "importUnreadable": "このテキストはPGNの対局として読み込めませんでした。",
     "remove": "削除",
     "removeGame": "この対局を削除しますか？",
     "removeGameBody": "ライブラリから削除されます。アプリ収録の対局は影響を受けません。",
@@ -415,7 +420,9 @@
     "choosePicture": "画像を選ぶ",
     "removePicture": "画像を削除",
     "exitMatch": "対局を終了",
-    "exitConfirm": "現在の対局を終了して設定に戻りますか？"
+    "exitConfirm": "現在の対局を終了して設定に戻りますか？",
+    "resign": "投了",
+    "resignConfirm": "この対局を投了しますか？Stockfishの勝ちになり、対局を振り返ることができます。"
   },
   "studio": {
     "nav": "スタジオ"
@@ -548,6 +555,7 @@
     "dailyBlurb": "1日1問、その日はずっと同じ。",
     "packs": "パック",
     "findTheMove": "最善手を見つけましょう。",
+    "notTheMove": "その手ではありません。もう一度どうぞ。",
     "solved": "正解",
     "runComplete": "残りはありません",
     "runSolved": "今回{n}問正解",

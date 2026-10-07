@@ -72,10 +72,40 @@ class MoveTreeNode {
   bool get analyzed => quality != null;
 }
 
+/// Why a text is not a game the Studio can open — what the import sheet tells
+/// the reader, in their language, instead of leaving Import greyed out.
+enum PgnProblem {
+  /// dartchess could not read the text as PGN at all.
+  unreadable,
+
+  /// The text read as PGN but held no moves ("not a chess game" does).
+  noMoves,
+
+  /// A move is not legal where the game plays it ([PgnImportError.detail]).
+  illegalMove,
+
+  /// The `[FEN]` tag sets up a position Stockfish would refuse.
+  refusedPosition,
+}
+
+/// A [FormatException] that says which [PgnProblem] stopped the import.
+///
+/// Still a [FormatException], so every caller that only needs "did it parse"
+/// keeps catching what it always caught.
+class PgnImportError extends FormatException {
+  const PgnImportError(this.problem, String message, {this.detail})
+      : super(message);
+
+  final PgnProblem problem;
+
+  /// The offending SAN for [PgnProblem.illegalMove]; null otherwise.
+  final String? detail;
+}
+
 /// The imported game as a tree of positions, plus its PGN headers.
 ///
 /// Pure domain object: no engine, no I/O. Building replays every SAN through
-/// dartchess, so an unparseable or illegal movetext throws [FormatException].
+/// dartchess, so an unparseable or illegal movetext throws [PgnImportError].
 class MoveTree {
   MoveTree._(this.root, this.headers, this._nextId) {
     _index(root);
@@ -99,13 +129,13 @@ class MoveTree {
   factory MoveTree.fromPgn(String pgnText) {
     final trimmed = pgnText.trim();
     if (trimmed.isEmpty) {
-      throw const FormatException('Empty input');
+      throw const PgnImportError(PgnProblem.noMoves, 'Empty input');
     }
     final PgnGame<PgnNodeData> game;
     try {
       game = PgnGame.parsePgn(trimmed);
     } catch (e) {
-      throw FormatException('$e');
+      throw PgnImportError(PgnProblem.unreadable, '$e');
     }
     final headers = Map<String, String>.from(game.headers);
     final Position startPos;
@@ -114,7 +144,7 @@ class MoveTree {
           ? engineAcceptedPosition(headers['FEN']!)
           : Chess.initial;
     } on EngineRejectedPosition catch (e) {
-      throw FormatException(e.reason);
+      throw PgnImportError(PgnProblem.refusedPosition, e.reason);
     }
 
     var nextId = 0;
@@ -127,7 +157,11 @@ class MoveTree {
         final data = child.data;
         final move = legalMoveFromSan(pos, data.san);
         if (move == null) {
-          throw FormatException('Illegal move: ${data.san}');
+          throw PgnImportError(
+            PgnProblem.illegalMove,
+            'Illegal move: ${data.san}',
+            detail: data.san,
+          );
         }
         final (nextPos, san) = pos.makeSan(move);
         Duration? clk;
@@ -156,7 +190,7 @@ class MoveTree {
 
     walk(game.moves, root, startPos);
     if (root.children.isEmpty) {
-      throw const FormatException('No moves found');
+      throw const PgnImportError(PgnProblem.noMoves, 'No moves found');
     }
     return MoveTree._(root, headers, nextId);
   }

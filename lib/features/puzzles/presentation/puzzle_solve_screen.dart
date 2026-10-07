@@ -137,6 +137,11 @@ class _PuzzleSolveScreenState extends ConsumerState<PuzzleSolveScreen> {
 
   /// The wrong move, shown briefly before the board snaps back.
   NormalMove? _rejected;
+
+  /// The last move offered was wrong, and none has been accepted since. The
+  /// card says so in words, which outlast the 800 ms snap-back: with sound
+  /// off, a shake and a revert alone read as the board resetting itself.
+  bool _missed = false;
   var _rejectTick = 0;
 
   bool _hintOpen = false;
@@ -257,6 +262,7 @@ class _PuzzleSolveScreenState extends ConsumerState<PuzzleSolveScreen> {
       _cursor = _history.length - 1;
       _orientation = solver.position.turn;
       _rejected = null;
+      _missed = false;
       _hintOpen = false;
       _flash = false;
       _phase = _PuzzlePhase.solving;
@@ -313,9 +319,11 @@ class _PuzzleSolveScreenState extends ConsumerState<PuzzleSolveScreen> {
     switch (solver.offer(move)) {
       case SolveOutcome.wrong:
         ref.playSound(AppSound.bad);
+        ref.hapticMedium();
         setState(() {
           _rejected = move;
           _rejectTick++;
+          _missed = true;
         });
         _revertTimer?.cancel();
         _revertTimer = Timer(_revertDelay, () {
@@ -324,7 +332,7 @@ class _PuzzleSolveScreenState extends ConsumerState<PuzzleSolveScreen> {
       case SolveOutcome.correct:
         ref.playSound(AppSound.good);
         ref.hapticLight();
-        setState(() {});
+        setState(() => _missed = false);
         _replyTimer?.cancel();
         _replyTimer = Timer(_replyDelay, () {
           if (!mounted) return;
@@ -581,7 +589,10 @@ class _PuzzleSolveScreenState extends ConsumerState<PuzzleSolveScreen> {
                                 : _solved)
                             ? 'puzzles.solved'
                             : 'puzzles.failed'))
-                    : t('puzzles.findTheMove'),
+                    // Only while solving: a shown solution is its own answer.
+                    : t(_missed && _phase == _PuzzlePhase.solving
+                        ? 'puzzles.notTheMove'
+                        : 'puzzles.findTheMove'),
                 secondary: _SessionLine(
                   rating: progression.puzzleRating,
                   streak: progression.streakAt(DateTime.now()),

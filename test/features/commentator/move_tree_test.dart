@@ -92,6 +92,27 @@ void main() {
       expect(() => MoveTree.fromPgn(setUp('not a position', 'e4')),
           throwsFormatException);
     });
+
+    // The import sheet tells the reader which of these it was; a tester once
+    // met a greyed-out Import button and no word of why.
+    test('says why a text is not a game', () {
+      PgnImportError errorOf(String pgn) {
+        try {
+          MoveTree.fromPgn(pgn);
+        } on PgnImportError catch (e) {
+          return e;
+        }
+        fail('$pgn was accepted');
+      }
+
+      expect(errorOf('not a chess game').problem, PgnProblem.noMoves);
+      expect(errorOf('   ').problem, PgnProblem.noMoves);
+      final illegal = errorOf('1. e4 e5 2. Ke2 Kxe2');
+      expect(illegal.problem, PgnProblem.illegalMove);
+      expect(illegal.detail, 'Kxe2');
+      expect(errorOf(setUp('8/8/8/8/8/8/8/K7 w - - 0 1', 'Kb1')).problem,
+          PgnProblem.refusedPosition);
+    });
   });
 
   group('clock lookup', () {

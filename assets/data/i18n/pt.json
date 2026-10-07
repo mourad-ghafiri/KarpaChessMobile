@@ -52,7 +52,8 @@
       "insufficient": "Material insuficiente",
       "repetition": "Repetição tripla",
       "whiteWinsTime": "As brancas ganham por tempo",
-      "blackWinsTime": "As pretas ganham por tempo"
+      "blackWinsTime": "As pretas ganham por tempo",
+      "youResigned": "Abandonaste."
     },
     "side": {
       "white": "Brancas",
@@ -324,6 +325,10 @@
     "pasteInstead": "Colar outra coisa",
     "importName": "Nome",
     "importNameHelp": "Opcional — uma lista de jogadas sem cabeçalhos precisa de um para ser encontrada.",
+    "importNoMoves": "Nenhuma jogada encontrada. Cola uma partida em PGN ou uma lista de jogadas (p. ex. e4 e5 Nf3 Nc6), ou escolhe um ficheiro PGN.",
+    "importIllegalMove": "{move} não é uma jogada legal nesse ponto da partida.",
+    "importBadPosition": "Esta partida começa numa posição ilegal (a sua etiqueta FEN).",
+    "importUnreadable": "Não foi possível ler este texto como uma partida PGN.",
     "remove": "Remover",
     "removeGame": "Remover esta partida?",
     "removeGameBody": "Sai da tua biblioteca. As partidas que vieram com a aplicação não são afetadas.",
@@ -430,7 +435,9 @@
     "choosePicture": "Escolher imagem",
     "removePicture": "Remover a imagem",
     "exitMatch": "Sair da partida",
-    "exitConfirm": "Sair da partida atual e voltar à preparação?"
+    "exitConfirm": "Sair da partida atual e voltar à preparação?",
+    "resign": "Abandonar",
+    "resignConfirm": "Abandonar esta partida? O Stockfish ganha, e podes analisá-la."
   },
   "studio": {
     "nav": "Estúdio"
@@ -564,6 +571,7 @@
     "dailyBlurb": "Um problema, o mesmo o dia inteiro.",
     "packs": "Coleções",
     "findTheMove": "Encontra a melhor jogada.",
+    "notTheMove": "Não é essa a jogada. Tenta outra vez.",
     "solved": "Resolvido",
     "runComplete": "Já não resta nada por aqui",
     "runSolved": "{n} resolvidos nesta sessão",

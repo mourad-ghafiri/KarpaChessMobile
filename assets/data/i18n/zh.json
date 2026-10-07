@@ -52,7 +52,8 @@
       "insufficient": "子力不足",
       "repetition": "三次重复局面",
       "whiteWinsTime": "白方超时胜",
-      "blackWinsTime": "黑方超时胜"
+      "blackWinsTime": "黑方超时胜",
+      "youResigned": "你认输了。"
     },
     "side": {
       "white": "白方",
@@ -309,6 +310,10 @@
     "pasteInstead": "粘贴其他内容",
     "importName": "名称",
     "importNameHelp": "可选——没有标签的着法列表需要名称才便于查找。",
+    "importNoMoves": "没有找到着法。请粘贴 PGN 格式的棋局或着法列表（如 e4 e5 Nf3 Nc6），或选择一个 PGN 文件。",
+    "importIllegalMove": "在棋局的那一步，{move} 不是合法着法。",
+    "importBadPosition": "这局棋从一个不合法的局面开始（见其 FEN 标签）。",
+    "importUnreadable": "无法将这段文字读取为 PGN 棋局。",
     "remove": "移除",
     "removeGame": "移除这局棋？",
     "removeGameBody": "它将离开你的棋库。应用自带的对局不受影响。",
@@ -415,7 +420,9 @@
     "choosePicture": "选择图片",
     "removePicture": "移除图片",
     "exitMatch": "退出对局",
-    "exitConfirm": "离开当前对局并返回设置？"
+    "exitConfirm": "离开当前对局并返回设置？",
+    "resign": "认输",
+    "resignConfirm": "认输这局棋吗？Stockfish 获胜，你可以复盘这局棋。"
   },
   "studio": {
     "nav": "解说室"
@@ -548,6 +555,7 @@
     "dailyBlurb": "每天一题，全天相同。",
     "packs": "题包",
     "findTheMove": "找出最佳着法。",
+    "notTheMove": "不是这步棋。再试一次。",
     "solved": "已解出",
     "runComplete": "这里已全部完成",
     "runSolved": "本轮解出 {n} 题",

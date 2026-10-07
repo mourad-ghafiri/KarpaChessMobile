@@ -205,6 +205,11 @@ class _PlayScreenState extends ConsumerState<PlayScreen> {
               : 'game.resultSub.blackWinsTime',
         ),
       ),
+      GameResultKind.resigned => (
+        '🫡',
+        t('play.youLost'),
+        t('game.resultSub.youResigned'),
+      ),
     };
 
     final difficulty = ref.read(prefsControllerProvider).difficulty;
@@ -800,6 +805,31 @@ class _GameView extends ConsumerWidget {
       if (confirmed ?? false) onNewGame();
     }
 
+    // Resigning keeps the game, where Exit match throws it away: it ends
+    // with a result and stays reviewable from the result sheet. Destructive
+    // all the same, so it asks first, like every session action in a header.
+    final canResign = state.result == null && state.moves.isNotEmpty;
+    Future<void> confirmResign() async {
+      final confirmed = await showDialog<bool>(
+        context: context,
+        builder: (dialogContext) => AlertDialog(
+          title: Text(t('play.resign')),
+          content: Text(t('play.resignConfirm')),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(dialogContext).pop(false),
+              child: Text(t('ui.button.dismiss')),
+            ),
+            DangerButton(
+              onPressed: () => Navigator.of(dialogContext).pop(true),
+              child: Text(t('play.resign')),
+            ),
+          ],
+        ),
+      );
+      if (confirmed ?? false) controller.resign();
+    }
+
     Widget shortcuts(Widget child) => CallbackShortcuts(
       bindings: {
         const SingleActivator(LogicalKeyboardKey.keyF): controller.flipBoard,
@@ -835,6 +865,9 @@ class _GameView extends ConsumerWidget {
             actionIcon: Icons.close,
             actionTooltip: t('play.exitMatch'),
             onAction: confirmExit,
+            secondaryActionIcon: canResign ? Icons.flag_outlined : null,
+            secondaryActionTooltip: canResign ? t('play.resign') : null,
+            onSecondaryAction: canResign ? confirmResign : null,
           ),
           topBarHeight: ModeHeaderBar.height,
           overlayBar: DrawingModeBar(scope: DrawingScope.play, t: t),

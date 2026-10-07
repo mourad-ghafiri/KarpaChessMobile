@@ -171,6 +171,16 @@ Iterable<Finding> _studyGames(Corpus corpus) sync* {
     if (game.white.trim().isEmpty || game.black.trim().isEmpty) {
       yield Finding.error(where, 'a player is not named');
     }
+    // The site is what the library card cites ("Paris · 1858"), so it must
+    // read as a place: not the PGN's `?`, and not a database's trailing FIDE
+    // code ("Moscow RUS"). A tester read the old event codes ("Paris it") as
+    // a typo on the card.
+    final site = game.site.trim();
+    if (site.isEmpty || site == '?') {
+      yield Finding.error(where, 'no site: the card would cite no place');
+    } else if (RegExp(r' [A-Z]{3}$').hasMatch(site)) {
+      yield Finding.error(where, 'site "$site" ends in a country code');
+    }
     if (game.result != '1-0' && game.result != '0-1') {
       yield Finding.error(where, 'not decisive (${game.result})');
     }

@@ -83,9 +83,13 @@ class ImportedGame implements StudyGame {
   final String white;
   final String black;
 
-  @override
   final String event;
   final String site;
+
+  /// The event, not the site: a lichess or chess.com export's `[Site]` is a
+  /// URL or the server's name, while its event says what the game was.
+  @override
+  String get place => event;
 
   @override
   final int? year;

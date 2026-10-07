@@ -290,7 +290,10 @@ abstract interface class StudyGame {
   /// nothing to abbreviate — the UI decides what to draw instead.
   String get monogram;
 
-  String get event;
+  /// Where the card says the game was played, or empty when the source does
+  /// not say: the city for a master game ("Paris"), as a game is cited in
+  /// print, and the event for a pasted PGN, whose `[Site]` is often a URL.
+  String get place;
 
   /// Null when the source declared no usable date.
   int? get year;
@@ -360,9 +363,16 @@ class GameRecord implements StudyGame {
   final String white;
   final String black;
 
-  @override
+  /// The database's event label, which is often a code ("Paris it" is an
+  /// international tournament, "Berlin m" a match): searched, written to the
+  /// PGN, but never shown — the card cites [site].
   final String event;
   final String site;
+
+  /// The site, with the PGN standard's `?` read as absent (the rule
+  /// `MoveTree.header` applies to imports).
+  @override
+  String get place => site == '?' ? '' : site;
 
   @override
   final int year;

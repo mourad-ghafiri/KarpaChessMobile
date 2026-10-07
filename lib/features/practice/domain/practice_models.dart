@@ -107,6 +107,9 @@ enum GameResultKind {
   drawMaterial,
   repetition,
   timeout,
+
+  /// The user conceded; [GameResult.winner] is Stockfish's side.
+  resigned,
 }
 
 class GameResult {

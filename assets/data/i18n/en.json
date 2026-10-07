@@ -52,7 +52,8 @@
       "insufficient": "Insufficient material",
       "repetition": "Threefold repetition",
       "whiteWinsTime": "White wins on time",
-      "blackWinsTime": "Black wins on time"
+      "blackWinsTime": "Black wins on time",
+      "youResigned": "You resigned."
     },
     "side": {
       "white": "White",
@@ -324,6 +325,10 @@
     "pasteInstead": "Paste something else",
     "importName": "Name",
     "importNameHelp": "Optional — a move list with no headers needs one to be findable.",
+    "importNoMoves": "No chess moves found. Paste a game in PGN or a move list (e.g. e4 e5 Nf3 Nc6), or choose a PGN file.",
+    "importIllegalMove": "{move} is not a legal move at that point in the game.",
+    "importBadPosition": "This game starts from a position that is not legal (its FEN tag).",
+    "importUnreadable": "This text could not be read as a PGN game.",
     "remove": "Remove",
     "removeGame": "Remove this game?",
     "removeGameBody": "It leaves your library. Games that came with the app are not affected.",
@@ -430,7 +435,9 @@
     "choosePicture": "Choose picture",
     "removePicture": "Remove picture",
     "exitMatch": "Exit match",
-    "exitConfirm": "Leave the current game and return to setup?"
+    "exitConfirm": "Leave the current game and return to setup?",
+    "resign": "Resign",
+    "resignConfirm": "Resign this game? Stockfish wins, and you can review it."
   },
   "studio": {
     "nav": "Studio"
@@ -509,7 +516,7 @@
     "sharpenAllSharp": "All patterns sharp",
     "findTheMove": "Find the move",
     "patternBook": "Pattern Book",
-    "ownedCount": "{n} / {total} owned",
+    "ownedCount": "{n} / {total} mastered",
     "continueBtn": "Continue",
     "art": {
       "basics": "Foundations",
@@ -564,6 +571,7 @@
     "dailyBlurb": "One puzzle, the same all day.",
     "packs": "Packs",
     "findTheMove": "Find the best move.",
+    "notTheMove": "Not that move. Try again.",
     "solved": "Solved",
     "runComplete": "Nothing left here",
     "runSolved": "{n} solved this run",

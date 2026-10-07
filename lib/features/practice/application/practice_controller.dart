@@ -233,6 +233,23 @@ class PracticeController extends Notifier<PracticeState> {
     state = PracticeState(position: Chess.initial, status: PracticeStatus.idle);
   }
 
+  /// The user concedes the game in progress, and Stockfish wins it.
+  ///
+  /// Unlike [abandon], the game is not thrown away: it ends through the same
+  /// path as a mate or a flag, so it stays on screen with its result, and
+  /// Review can still open it.
+  void resign() {
+    if (!state.hasGame || state.result != null || state.moves.isEmpty) return;
+    final result = GameResult(
+      GameResultKind.resigned,
+      winner: state.playAs == 'w' ? 'b' : 'w',
+    );
+    state = state.copyWith(result: () => result, engineThinking: false);
+    _gameToken.cancel();
+    _gameToken = CancellationToken();
+    _onGameOver(result);
+  }
+
   /// Freezes the clock (app backgrounded). Battery contract: no timers run
   /// while the app is hidden or drawing mode owns the board.
   void pauseClock() {
@@ -357,7 +374,13 @@ class PracticeController extends Notifier<PracticeState> {
           strength,
           token: token,
         );
-        if (generation != _generation || reply.uci == null) return;
+        // A reply already on its way when the game ended (a resignation, a
+        // flag) must not land on the finished board.
+        if (generation != _generation ||
+            reply.uci == null ||
+            state.result != null) {
+          return;
+        }
         final move = NormalMove.fromUci(reply.uci!);
         if (!state.position.isLegal(move)) return;
         _commit(move);
@@ -430,7 +453,9 @@ class PracticeController extends Notifier<PracticeState> {
     // on screen for this session, so Review is still reachable.
     unawaited(ref.read(practiceStoreProvider).clear());
     switch (result.kind) {
-      case GameResultKind.checkmate || GameResultKind.timeout:
+      case GameResultKind.checkmate ||
+            GameResultKind.timeout ||
+            GameResultKind.resigned:
         if (state.userWon) {
           ref.playSound(AppSound.win);
         } else if (state.userLost) {

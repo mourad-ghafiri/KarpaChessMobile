@@ -52,7 +52,8 @@
       "insufficient": "Materi tidak cukup",
       "repetition": "Pengulangan tiga kali",
       "whiteWinsTime": "Putih menang berdasarkan waktu",
-      "blackWinsTime": "Hitam menang berdasarkan waktu"
+      "blackWinsTime": "Hitam menang berdasarkan waktu",
+      "youResigned": "Anda menyerah."
     },
     "side": {
       "white": "Putih",
@@ -309,6 +310,10 @@
     "pasteInstead": "Tempel yang lain",
     "importName": "Nama",
     "importNameHelp": "Opsional — daftar langkah tanpa tajuk perlu nama agar bisa ditemukan.",
+    "importNoMoves": "Tidak ada langkah catur yang ditemukan. Tempel permainan dalam PGN atau daftar langkah (mis. e4 e5 Nf3 Nc6), atau pilih berkas PGN.",
+    "importIllegalMove": "{move} bukan langkah sah pada titik itu dalam permainan.",
+    "importBadPosition": "Permainan ini dimulai dari posisi yang tidak sah (tag FEN-nya).",
+    "importUnreadable": "Teks ini tidak dapat dibaca sebagai permainan PGN.",
     "remove": "Hapus",
     "removeGame": "Hapus permainan ini?",
     "removeGameBody": "Permainan ini keluar dari pustaka Anda. Permainan bawaan aplikasi tidak terpengaruh.",
@@ -415,7 +420,9 @@
     "choosePicture": "Pilih gambar",
     "removePicture": "Hapus gambar",
     "exitMatch": "Keluar dari permainan",
-    "exitConfirm": "Tinggalkan permainan ini dan kembali ke pengaturan?"
+    "exitConfirm": "Tinggalkan permainan ini dan kembali ke pengaturan?",
+    "resign": "Menyerah",
+    "resignConfirm": "Menyerah dalam permainan ini? Stockfish menang, dan Anda dapat meninjaunya."
   },
   "studio": {
     "nav": "Studio"
@@ -548,6 +555,7 @@
     "dailyBlurb": "Satu puzzle, sama sepanjang hari.",
     "packs": "Paket",
     "findTheMove": "Temukan langkah terbaik.",
+    "notTheMove": "Bukan langkah itu. Coba lagi.",
     "solved": "Terpecahkan",
     "runComplete": "Tidak ada lagi di sini",
     "runSolved": "{n} terpecahkan sesi ini",

@@ -52,7 +52,8 @@
       "insufficient": "Materiale insufficiente",
       "repetition": "Triplice ripetizione",
       "whiteWinsTime": "Il Bianco vince per tempo",
-      "blackWinsTime": "Il Nero vince per tempo"
+      "blackWinsTime": "Il Nero vince per tempo",
+      "youResigned": "Avete abbandonato."
     },
     "side": {
       "white": "Bianco",
@@ -324,6 +325,10 @@
     "pasteInstead": "Incolla qualcos'altro",
     "importName": "Nome",
     "importNameHelp": "Facoltativo: una lista di mosse senza intestazioni ha bisogno di un nome per essere ritrovata.",
+    "importNoMoves": "Nessuna mossa trovata. Incollate una partita in PGN o una lista di mosse (es. e4 e5 Nf3 Nc6), oppure scegliete un file PGN.",
+    "importIllegalMove": "{move} non è una mossa legale in quel punto della partita.",
+    "importBadPosition": "Questa partita parte da una posizione illegale (il suo tag FEN).",
+    "importUnreadable": "Questo testo non si può leggere come una partita PGN.",
     "remove": "Rimuovi",
     "removeGame": "Volete rimuovere questa partita?",
     "removeGameBody": "Esce dalla vostra raccolta. Le partite fornite con l'app non vengono toccate.",
@@ -430,7 +435,9 @@
     "choosePicture": "Scegli una foto",
     "removePicture": "Togli la foto",
     "exitMatch": "Esci dalla partita",
-    "exitConfirm": "Volete lasciare questa partita e tornare alla schermata iniziale?"
+    "exitConfirm": "Volete lasciare questa partita e tornare alla schermata iniziale?",
+    "resign": "Abbandona",
+    "resignConfirm": "Volete abbandonare questa partita? Vince Stockfish, e potrete analizzarla."
   },
   "studio": {
     "nav": "Studio"
@@ -564,6 +571,7 @@
     "dailyBlurb": "Un problema, lo stesso per tutto il giorno.",
     "packs": "Raccolte",
     "findTheMove": "Trovate la mossa migliore.",
+    "notTheMove": "Non è quella la mossa. Riprovate.",
     "solved": "Risolto",
     "runComplete": "Qui non è rimasto altro",
     "runSolved": "{n} risolti in questa serie",

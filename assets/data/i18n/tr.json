@@ -52,7 +52,8 @@
       "insufficient": "Yetersiz materyal",
       "repetition": "Üç kez tekrar",
       "whiteWinsTime": "Beyaz süreden kazanır",
-      "blackWinsTime": "Siyah süreden kazanır"
+      "blackWinsTime": "Siyah süreden kazanır",
+      "youResigned": "Terk ettiniz."
     },
     "side": {
       "white": "Beyaz",
@@ -324,6 +325,10 @@
     "pasteInstead": "Başka bir şey yapıştır",
     "importName": "Ad",
     "importNameHelp": "İsteğe bağlı — başlıksız bir hamle listesinin bulunabilmesi için ad gerekir.",
+    "importNoMoves": "Hiç hamle bulunamadı. PGN biçiminde bir parti veya hamle listesi yapıştırın (örn. e4 e5 Nf3 Nc6) ya da bir PGN dosyası seçin.",
+    "importIllegalMove": "{move}, partinin o anında kurallı bir hamle değil.",
+    "importBadPosition": "Bu parti kurallara aykırı bir pozisyondan başlıyor (FEN etiketi).",
+    "importUnreadable": "Bu metin bir PGN partisi olarak okunamadı.",
     "remove": "Kaldır",
     "removeGame": "Bu parti kaldırılsın mı?",
     "removeGameBody": "Kitaplığınızdan çıkar. Uygulamayla gelen partiler etkilenmez.",
@@ -430,7 +435,9 @@
     "choosePicture": "Fotoğraf seçin",
     "removePicture": "Fotoğrafı kaldır",
     "exitMatch": "Partiden çık",
-    "exitConfirm": "Bu parti bırakılıp kurulum ekranına dönülsün mü?"
+    "exitConfirm": "Bu parti bırakılıp kurulum ekranına dönülsün mü?",
+    "resign": "Terk et",
+    "resignConfirm": "Bu partiyi terk etmek istiyor musunuz? Stockfish kazanır; partiyi inceleyebilirsiniz."
   },
   "studio": {
     "nav": "Stüdyo"
@@ -564,6 +571,7 @@
     "dailyBlurb": "Tek problem, gün boyu aynı.",
     "packs": "Setler",
     "findTheMove": "En iyi hamleyi bulun.",
+    "notTheMove": "O hamle değil. Yeniden deneyin.",
     "solved": "Çözüldü",
     "runComplete": "Burada başka kalmadı",
     "runSolved": "Bu turda {n} çözüm",

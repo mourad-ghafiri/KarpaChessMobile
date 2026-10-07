@@ -32,10 +32,10 @@ class GameCard extends StatelessWidget {
   /// Non-null only for the reader's own games.
   final VoidCallback? onRemove;
 
-  /// Event, year and length, skipping whatever the source did not say. A
+  /// Place, year and length, skipping whatever the source did not say. A
   /// pasted move list has none of the three but its move count.
   String get _byline => [
-        if (game.event.isNotEmpty) game.event,
+        if (game.place.isNotEmpty) game.place,
         if (game.year != null) '${game.year}',
         p('commentator.moveCount', game.moveCount),
       ].join(' · ');

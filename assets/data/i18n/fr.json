@@ -52,7 +52,8 @@
       "insufficient": "Matériel insuffisant",
       "repetition": "Triple répétition",
       "whiteWinsTime": "Les Blancs gagnent au temps",
-      "blackWinsTime": "Les Noirs gagnent au temps"
+      "blackWinsTime": "Les Noirs gagnent au temps",
+      "youResigned": "Vous avez abandonné."
     },
     "side": {
       "white": "Blancs",
@@ -307,7 +308,7 @@
     "sourceNotice": "KarpaChess est un logiciel libre distribué sous licence GNU GPL v3. Son code source complet se trouve sur {url}"
   },
   "commentator": {
-    "importLede": "Collez un PGN, déposez un fichier ou choisissez une partie d'exemple ci-dessous pour commencer à commenter.",
+    "importLede": "Copiez un PGN et il apparaîtra ici, ou ouvrez un fichier ci-dessous.",
     "sampleGames": "Parties d'étude",
     "searchGames": "Rechercher joueur, événement ou ECO",
     "allGames": "Toutes",
@@ -324,6 +325,10 @@
     "pasteInstead": "Coller autre chose",
     "importName": "Nom",
     "importNameHelp": "Facultatif — une liste de coups sans en-têtes en a besoin pour être retrouvée.",
+    "importNoMoves": "Aucun coup trouvé. Collez une partie en PGN ou une liste de coups (ex : e4 e5 Nf3 Nc6), ou choisissez un fichier PGN.",
+    "importIllegalMove": "{move} n'est pas un coup légal à ce moment de la partie.",
+    "importBadPosition": "Cette partie part d'une position illégale (sa balise FEN).",
+    "importUnreadable": "Ce texte ne peut pas être lu comme une partie PGN.",
     "remove": "Retirer",
     "removeGame": "Retirer cette partie ?",
     "removeGameBody": "Elle quitte votre bibliothèque. Les parties fournies avec l'app ne sont pas touchées.",
@@ -430,7 +435,9 @@
     "choosePicture": "Choisir une image",
     "removePicture": "Retirer l'image",
     "exitMatch": "Quitter la partie",
-    "exitConfirm": "Quitter la partie en cours et revenir à la configuration ?"
+    "exitConfirm": "Quitter la partie en cours et revenir à la configuration ?",
+    "resign": "Abandonner",
+    "resignConfirm": "Abandonner cette partie ? Stockfish gagne, et vous pourrez l'analyser."
   },
   "studio": {
     "nav": "Studio"
@@ -564,6 +571,7 @@
     "dailyBlurb": "Un problème, le même toute la journée.",
     "packs": "Séries",
     "findTheMove": "Trouvez le meilleur coup.",
+    "notTheMove": "Ce n'est pas le bon coup. Réessayez.",
     "solved": "Résolu",
     "runComplete": "Plus rien ici",
     "runSolved": "{n} résolus cette session",

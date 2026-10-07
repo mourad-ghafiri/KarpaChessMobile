@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
@@ -7,6 +8,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/i18n/i18n_providers.dart';
+import '../../../core/i18n/translate.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/app_tokens.dart';
 import '../../../core/theme/tokens_context.dart';
@@ -40,8 +42,9 @@ class _StudioImportSheetState extends ConsumerState<_StudioImportSheet> {
   final _pgn = TextEditingController();
   final _name = TextEditingController();
 
-  /// Parse failure from the last attempt. Local to the sheet because it is
-  /// only ever meaningful to the person looking at this field.
+  /// A failure from the last Import press that parsing could not foresee (a
+  /// store write that failed). Local to the sheet because it is only ever
+  /// meaningful to the person looking at this field.
   String? _error;
 
   /// The last picked file was over [_maxImportBytes] and was not read.
@@ -51,18 +54,33 @@ class _StudioImportSheetState extends ConsumerState<_StudioImportSheet> {
   /// between "nothing there" and "not looked yet".
   bool _checkedClipboard = false;
 
+  /// True once the field has been still for [_settleDelay]. Why a text is not
+  /// a game is only said then, so a move list typed by hand does not flash an
+  /// error at every half-written move.
+  bool _settled = true;
+  Timer? _settleTimer;
+  static const _settleDelay = Duration(milliseconds: 400);
+
   @override
   void initState() {
     super.initState();
-    _pgn.addListener(() => setState(() {
-          _error = null;
-          _tooLarge = false;
-        }));
+    _pgn.addListener(() {
+      _settleTimer?.cancel();
+      _settleTimer = Timer(_settleDelay, () {
+        if (mounted) setState(() => _settled = true);
+      });
+      setState(() {
+        _error = null;
+        _tooLarge = false;
+        _settled = false;
+      });
+    });
     _readClipboard();
   }
 
   @override
   void dispose() {
+    _settleTimer?.cancel();
     _pgn.dispose();
     _name.dispose();
     super.dispose();
@@ -88,23 +106,46 @@ class _StudioImportSheetState extends ConsumerState<_StudioImportSheet> {
   }
 
   /// The game [text] describes, or null when it is not one.
+  ImportedGame? _preview(String text) => _read(text).game;
+
+  /// The game [text] describes, or why it is not one. Both null for a blank
+  /// field, which is waiting rather than wrong.
   ///
   /// Built through the same factory the import uses, so what the preview shows
   /// is exactly what would be stored — including the name currently typed.
-  ImportedGame? _preview(String text) {
-    if (text.trim().isEmpty) return null;
+  ({ImportedGame? game, PgnImportError? problem}) _read(String text) {
+    if (text.trim().isEmpty) return (game: null, problem: null);
     try {
-      return ImportedGame.fromTree(
-        MoveTree.fromPgn(text),
-        id: 'preview',
-        name: _name.text,
-        pgn: text,
-        importedAt: DateTime.now(),
+      return (
+        game: ImportedGame.fromTree(
+          MoveTree.fromPgn(text),
+          id: 'preview',
+          name: _name.text,
+          pgn: text,
+          importedAt: DateTime.now(),
+        ),
+        problem: null,
       );
+    } on PgnImportError catch (e) {
+      return (game: null, problem: e);
     } on Object {
-      return null;
+      return (
+        game: null,
+        problem: const PgnImportError(PgnProblem.unreadable, 'Unreadable'),
+      );
     }
   }
+
+  /// What to tell the reader about [problem], in their language.
+  static String _describe(PgnImportError problem, Translate t) =>
+      switch (problem.problem) {
+        PgnProblem.unreadable => t('commentator.importUnreadable'),
+        PgnProblem.noMoves => t('commentator.importNoMoves'),
+        PgnProblem.illegalMove => t('commentator.importIllegalMove', {
+            'move': problem.detail ?? '',
+          }),
+        PgnProblem.refusedPosition => t('commentator.importBadPosition'),
+      };
 
   /// The largest file the field will take. A study is one game; a
   /// multi-megabyte database would freeze the field and re-parse on every
@@ -170,6 +211,9 @@ class _StudioImportSheetState extends ConsumerState<_StudioImportSheet> {
       if (!mounted) return;
       ref.read(commentatorControllerProvider.notifier).loadPgn(game.pgn);
       Navigator.of(context).pop();
+    } on PgnImportError {
+      // The field already knows why; say it now rather than after the pause.
+      setState(() => _settled = true);
     } on FormatException catch (e) {
       setState(() => _error = e.message);
     } on Exception catch (e) {
@@ -182,7 +226,9 @@ class _StudioImportSheetState extends ConsumerState<_StudioImportSheet> {
     final i18n = ref.watch(i18nProvider).requireValue;
     final t = i18n.t;
     final tokens = context.tokens;
-    final preview = _preview(_pgn.text);
+    final read = _read(_pgn.text);
+    final preview = read.game;
+    final problem = _settled ? read.problem : null;
     // Danger is chosen for cards; this sheet floats a plane higher.
     final errorInk = tokens.legible(
       tokens.danger,
@@ -219,6 +265,17 @@ class _StudioImportSheetState extends ConsumerState<_StudioImportSheet> {
             hint: t('ui.placeholder.pgnInput'),
             label: t('commentator.pasteInstead'),
           ),
+          // Why Import is still greyed out, right under the text it is about.
+          if (problem != null) ...[
+            const SizedBox(height: AppSpacing.xs),
+            Semantics(
+              liveRegion: true,
+              child: Text(
+                _describe(problem, t),
+                style: context.type.caption.copyWith(color: errorInk),
+              ),
+            ),
+          ],
           const SizedBox(height: AppSpacing.sm),
           OutlinedButton.icon(
             onPressed: _pickFile,

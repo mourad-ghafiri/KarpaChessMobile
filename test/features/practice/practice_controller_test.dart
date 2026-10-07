@@ -125,6 +125,33 @@ void main() {
     expect(state.isUserTurn, isTrue);
   });
 
+  test('resigning ends the game as a loss and keeps it for Review', () async {
+    final engine = FakeEngineService(onSearch: firstLegalReply);
+    final container = makeContainer(engine);
+    final controller =
+        container.read(practiceControllerProvider.notifier);
+
+    controller.newGame();
+    controller.resign(); // nothing played yet: nothing to concede
+    expect(container.read(practiceControllerProvider).result, isNull);
+
+    controller.userMove(NormalMove.fromUci('e2e4'));
+    controller.resign(); // while Stockfish is still thinking
+    var state = container.read(practiceControllerProvider);
+    expect(state.result?.kind, GameResultKind.resigned);
+    expect(state.userLost, isTrue);
+    expect(state.engineThinking, isFalse);
+    // Unlike Exit match, the game is still there for Review to open.
+    expect(state.hasGame, isTrue);
+    expect(state.moves, hasLength(1));
+
+    // The reply that was on its way never lands on the finished board.
+    await Future<void>.delayed(const Duration(milliseconds: 400));
+    state = container.read(practiceControllerProvider);
+    expect(state.moves, hasLength(1));
+    expect(state.result?.kind, GameResultKind.resigned);
+  });
+
   test('scholars mate ends the game with a user win and stops play',
       () async {
     // Script the engine to walk into the scholar's mate.
