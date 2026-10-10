@@ -1,6 +1,6 @@
 # KarpaChess Privacy Policy
 
-**Last updated: 29 September 2026**
+**Last updated: 10 October 2026**
 
 <!--
 For maintainers. This file is the policy both stores link to.
@@ -94,4 +94,4 @@ with a new date at the top.
 ## Contact
 
 - **Publisher:** Mourad Ghafiri
-- **Email:** [mourad.ghafiri38@gmail.com](mailto:mourad.ghafiri38@gmail.com)
+- **Email:** [contact@karpachess.com](mailto:contact@karpachess.com)
