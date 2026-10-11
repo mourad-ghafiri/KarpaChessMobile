@@ -70,9 +70,18 @@
     forward.disabled = strip.scrollLeft + strip.clientWidth >= strip.scrollWidth - 4;
   }
 
+  // A scroll asked for in script is smooth regardless of the stylesheet, so
+  // it checks the reader's motion setting itself.
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+
   function scrollStrip(direction) {
     var strip = activePanel();
-    if (strip) strip.scrollBy({ left: direction * strip.clientWidth * 0.8, behavior: "smooth" });
+    if (strip) {
+      strip.scrollBy({
+        left: direction * strip.clientWidth * 0.8,
+        behavior: reduceMotion.matches ? "auto" : "smooth"
+      });
+    }
   }
 
   if (back && forward) {

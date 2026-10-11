@@ -149,11 +149,15 @@ def privacy_page() -> dict:
 def render_markdown(text: str) -> str:
     """The Markdown `docs/PRIVACY.md` uses, and no more: headings, paragraphs,
     nested `-` lists, `**bold**`, `` `code` `` and links. Anything else fails
-    loudly rather than rendering wrong."""
+    loudly rather than rendering wrong.
+
+    The policy covers the app, the site and three legal regions, so a
+    contents list of its sections (every `##`) goes before the first one."""
     text = re.sub(r'<!--.*?-->\n?', '', text, flags=re.S)
     out = []
     paragraph = []
     items = []  # (depth, [lines]) for the list being read
+    sections = []  # (anchor, title) of every h2, for the contents list
 
     def flush():
         if paragraph:
@@ -177,6 +181,8 @@ def render_markdown(text: str) -> str:
             level = len(heading.group(1))
             title = heading.group(2).strip()
             anchor = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
+            if level == 2:
+                sections.append((anchor, title))
             out.append(f'<h{level} id="{anchor}">{inline(title)}</h{level}>')
         elif item:
             if paragraph:
@@ -189,7 +195,22 @@ def render_markdown(text: str) -> str:
         else:
             paragraph.append(line.strip())
     flush()
+    if sections:
+        first = next(i for i, line in enumerate(out) if line.startswith('<h2'))
+        out[first:first] = contents(sections)
     return '\n'.join(out) + '\n'
+
+
+def contents(sections) -> list:
+    return [
+        '<nav class="toc" aria-labelledby="toc-title">',
+        '  <h2 id="toc-title" class="toc__title">On this page</h2>',
+        '  <ul>',
+        *(f'    <li><a href="#{anchor}">{inline(title)}</a></li>'
+          for anchor, title in sections),
+        '  </ul>',
+        '</nav>',
+    ]
 
 
 def render_list(items) -> list:
@@ -235,7 +256,10 @@ def inline(text: str) -> str:
     text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)',
                   lambda m: f'<a href="{html.escape(m.group(2))}">'
                             f'{m.group(1)}</a>', text)
-    if '*' in text or '_' in text.replace('_blank', ''):
+    # Code spans and link targets may hold `_` (a cookie's name, a URL);
+    # anywhere else an `*` or `_` is emphasis this renderer does not draw.
+    prose = re.sub(r'<code>[^<]*</code>|href="[^"]*"', '', text)
+    if '*' in prose or '_' in prose:
         sys.exit(f'docs/PRIVACY.md: unrendered emphasis in {text!r}')
     return text
 

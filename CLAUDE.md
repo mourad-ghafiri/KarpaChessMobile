@@ -753,8 +753,13 @@ Keep them when touching the code they govern.
   internet. A feature that changes either fact changes all three first.
   Reset also deletes the stored player photo (`AvatarStore.remove`), which is
   what the notice promises. The policy's "This website" section also promises
-  that karpachess.com sets no cookies and loads nothing from another site, so
-  the site self-hosts its fonts and carries no analytics or embeds.
+  that karpachess.com's pages set no cookies and load nothing from another
+  site, so the site self-hosts its fonts and carries no analytics or embeds.
+  It also names what the host does: Cloudflare serves the site and routes the
+  contact address, and its bot protection may set `cf_clearance`/`__cf_bm`.
+  The site's legal notice (`website/legal.html`) and accessibility statement
+  (`website/accessibility.html`) are hand-written; the host's details there
+  and in the policy change together (`website/README.md`).
 - **The website says only what the app does.** `website/index.html` states
   counts (100 lessons, 441 puzzles, 240 master games, twelve languages, ten
   piece sets) and features; change it when they change. A store box says

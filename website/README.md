@@ -1,8 +1,10 @@
 # karpachess.com
 
 The website of KarpaChess, served at <https://karpachess.com>: one page about
-the app (`index.html`) and its privacy policy (`privacy.html`), the address
-both stores and the app's Settings › About link to.
+the app (`index.html`), its privacy policy (`privacy.html`, the address both
+stores and the app's Settings › About link to), and the legal notice and
+accessibility statement that French, EU and US rules expect (`legal.html`,
+`accessibility.html`).
 
 It is a static site with no build step: upload the contents of this folder to
 the web host, as they are.
@@ -13,6 +15,8 @@ the web host, as they are.
 |---|---|---|
 | `index.html` | The page: what KarpaChess teaches, its six modes, the screens, the themes and piece sets, the twelve languages, privacy, source and support | hand |
 | `privacy.html` | The privacy policy page | hand, except the policy itself (below) |
+| `legal.html` | The legal notice (*mentions légales*): publisher, host, licences, trademarks | hand |
+| `accessibility.html` | The accessibility statement (WCAG 2.2 AA, self-assessed) | hand |
 | `styles.css` | Every style. The palette is the app's own: Midnight Grove, or Ivory Hall when the reader's system is in light mode | hand |
 | `script.js` | The menu, the iPhone/iPad tabs, the screenshot strip and its viewer | hand |
 | `robots.txt`, `sitemap.xml` | For search engines | hand |
@@ -45,8 +49,24 @@ It needs Pillow, fontTools and brotli.
 ## Rules the page keeps
 
 - **Nothing loads from another site.** No web fonts from a CDN, no analytics,
-  no embeds, no cookies. The privacy policy says so in its "This website"
-  section: keep the two true together.
+  no embeds, no cookies of our own, so there is no cookie banner. The privacy
+  policy says so in its "This website" section: keep the two true together.
+- **The host is described as it is.** Cloudflare serves the site and routes
+  `contact@karpachess.com`, and its bot protection injects a script
+  (`/cdn-cgi/challenge-platform/…`) that may set the `cf_clearance` and
+  `__cf_bm` security cookies. The policy says so, and the CNIL exempts such
+  cookies from consent, which is why there is still no banner. If the host,
+  its address or that setting changes, update `docs/PRIVACY.md` ("This
+  website", "Sharing and transfers") and `legal.html` ("Hosting provider")
+  in the same edit.
+- **Every page carries the same footer**, in the same order: the site links
+  (Support among them, WCAG 3.2.6), then Privacy policy · Legal notice ·
+  Accessibility. A new page copies it, with `aria-current="page"` on its own
+  link, and goes into `sitemap.xml`.
+- **The accessibility statement only claims what was checked.** Re-check it,
+  and its date, when a page, a colour or a script changes: contrast in both
+  palettes (4.5:1 for text), keyboard use, and every page at 320px wide
+  with no sideways scroll.
 - **Only true claims.** Every number and feature on the page is what the app
   does today: 100 lessons, 441 puzzles, 240 master games, twelve languages,
   ten piece sets. The coach is offline rules behind one hint button, not AI.

@@ -932,7 +932,8 @@ strong { font-weight: 650; }
   border-radius: 4px;
   transition: color var(--quick) var(--ease-out);
 }
-.site-footer__links a:hover { color: var(--text); }
+.site-footer__links a:hover,
+.site-footer__links a[aria-current="page"] { color: var(--text); }
 .site-footer__legal { color: var(--text-faint); font-size: var(--type-caption); }
 
 /* ───────── Lightbox ───────── */
@@ -994,7 +995,7 @@ strong { font-weight: 650; }
 .lightbox__step:hover { background: rgba(255, 255, 255, 0.24); }
 .lightbox__step:active, .lightbox__close:active { transform: scale(0.94); }
 
-/* ───────── Privacy policy page ───────── */
+/* ───────── Policy pages: privacy, legal notice, accessibility ───────── */
 .legal {
   max-width: calc(38rem + 2 * var(--gutter));
   margin: 0 auto;
@@ -1010,12 +1011,56 @@ strong { font-weight: 650; }
   letter-spacing: -0.006em;
   margin: 44px 0 12px;
 }
-.legal p, .legal ul { margin-bottom: 14px; }
+/* A section's parts (the app's, the site's, each region's rights): the lead
+   role, a step under the heading role of the section above them. */
+.legal h3 {
+  font-size: var(--type-lead);
+  line-height: 1.3;
+  margin: 30px 0 10px;
+}
+.legal p, .legal ul, .legal dl { margin-bottom: 14px; }
 .legal ul { padding-left: 1.3em; }
 .legal ul ul { margin: 8px 0 0; }
 .legal li { margin-bottom: 8px; }
 .legal li::marker { color: var(--accent); }
-.legal code { font-family: var(--mono); font-size: 0.9em; }
+.legal code, .legal kbd { font-family: var(--mono); font-size: 0.9em; }
+.legal kbd {
+  padding: 1px 6px;
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  background: var(--raised);
+}
+
+/* The policy's contents, under its summary: a quiet panel whose title is
+   the overline, as over the picker strips. */
+.toc {
+  margin: 0 0 8px;
+  padding: 18px 22px 8px;
+  border: 1px solid var(--edge);
+  border-radius: var(--radius-md);
+  background: var(--panel);
+}
+.legal .toc__title {
+  margin: 0 0 12px;
+  font-family: var(--body);
+  font-size: var(--type-overline);
+  line-height: 1.3;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+.toc ul { columns: 2 13rem; column-gap: 28px; }
+.toc li { break-inside: avoid; }
+
+/* The legal notice's facts (publisher, host): label beside value, stacked
+   on a phone. */
+.facts {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 6px 22px;
+}
+.facts dt { color: var(--text-dim); font-weight: 600; }
+.facts dd { overflow-wrap: anywhere; }
 /* A paragraph that is all bold: the policy's summary, on a wash of the
    accent. */
 .legal .lead {
@@ -1110,6 +1155,11 @@ strong { font-weight: 650; }
     gap: 8px 28px;
   }
   .privacy { grid-template-columns: 1fr; gap: 28px; }
+  /* The policy pages' header holds the brand and two links, which ran into
+     each other at 320px. The brand already links home, so Home goes. */
+  .nav__menu--static .nav__home { display: none; }
+  .facts { grid-template-columns: 1fr; gap: 0; }
+  .facts dd + dt { margin-top: 10px; }
   /* Half a phone is too narrow for "Bahasa Indonesia" on one line: the
      names flow instead, each tile as wide as its name. */
   .langs { display: flex; flex-wrap: wrap; gap: 8px; }
