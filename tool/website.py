@@ -20,7 +20,9 @@ none of it can drift from the thing it shows:
   Latin and packed as WOFF2, beside their licence.
 
 The script never deletes. A file under `website/images/` or `website/fonts/`
-that it did not produce stops it, and it names the file to remove.
+that it did not produce stops it, and it names the file to remove. A file a
+page links to that is not there (a store badge not yet added, a misspelt
+image) fails it too.
 
 Run it after changing the privacy policy, after re-shooting the store
 screenshots, and after redrawing the icon or the pieces.
@@ -98,14 +100,19 @@ def main() -> None:
     stale = sorted(path for path, data in outputs.items()
                    if not path.exists() or path.read_bytes() != data)
 
+    missing = missing_links(outputs)
+
     for path in strays:
         print(f'stray: {rel(path)} is not produced by tool/website.py; '
               'remove it')
+    for line in missing:
+        print(f'missing: {line}')
     if check:
         for path in stale:
             print(f'out of date: {rel(path)}')
         if stale or strays:
             print('run: python3 tool/website.py')
+        if stale or strays or missing:
             sys.exit(1)
         print(f'website: {len(outputs)} derived files, all current')
         return
@@ -116,6 +123,28 @@ def main() -> None:
         path.write_bytes(outputs[path])
         print(f'wrote {rel(path)}')
     print(f'website: {len(stale)} of {len(outputs)} derived files written')
+    if missing:
+        sys.exit(1)
+
+
+def missing_links(outputs: dict) -> list:
+    """Every file on this site that a page names (`src`, `href`) and that is
+    not there, which would go up as a broken image or a 404. Files the hand
+    places, like a store's badge, are checked as well as derived ones."""
+    found = set()
+    for page in sorted(SITE.glob('*.html')):
+        for target in re.findall(r'(?:src|href)="([^"]+)"',
+                                 page.read_text(encoding='utf-8')):
+            # Other sites, mail and phone links, and anchors on the page.
+            if re.match(r'[a-z][a-z0-9+.-]*:|#', target):
+                continue
+            path = SITE / html.unescape(target).split('#')[0].split('?')[0]
+            if path.is_dir():
+                path /= 'index.html'
+            if not path.exists() and path not in outputs:
+                found.add(f'{page.name} links to {target}, which is not in '
+                          'website/')
+    return sorted(found)
 
 
 def rel(path: pathlib.Path) -> str:

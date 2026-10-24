@@ -373,30 +373,17 @@ strong { font-weight: 650; }
 .go .icon { width: 1.05em; height: 1.05em; transition: transform var(--quick) var(--ease-out); }
 .go:hover .icon { transform: translateX(3px); }
 
-/* The store badges. KarpaChess is on the App Store: Apple's official black
-   badge (badges/app-store.svg, from Apple's App Store Marketing Tools), first
-   in the row as Apple asks, never modified or animated, with clear space of a
-   quarter of its height (the gap). Google Play still says "Coming soon";
-   swap in Google's official badge when that listing goes live. */
+/* The store badges, each the store's own official artwork, never modified
+   or animated: Apple's black badge (badges/app-store.svg, from Apple's App
+   Store Marketing Tools) first in the row, then Google's "Get it on Google
+   Play" (badges/google-play.svg, from Google's Partner Marketing Hub). Google
+   asks for its badge at the same size as the others or larger, so both are
+   56px tall, and both stores ask for clear space of a quarter of the badge's
+   height, which the gap gives. */
 .stores { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
 .store-badge { display: inline-flex; flex: none; border-radius: 10px; }
 .store-badge img { display: block; width: auto; height: 56px; }
 .stores--center { justify-content: center; }
-.store {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 176px;
-  min-height: 56px;
-  padding: 8px 20px;
-  border-radius: 14px;
-  border: 1px dashed var(--text-faint);
-  background: var(--raised);
-  line-height: 1.15;
-}
-.store__small { color: var(--text-dim); font-size: var(--type-caption); font-weight: 600; }
-/* Sized to the App Store badge's wordmark beside it, not to a role. */
-.store__name { font-size: 1.125rem; font-weight: 700; }
 
 /* ───────── Hero ───────── */
 .hero {
@@ -1165,7 +1152,6 @@ strong { font-weight: 650; }
   .langs { display: flex; flex-wrap: wrap; gap: 8px; }
   .langs li { padding: 10px 14px; gap: 8px; font-size: var(--type-label); }
   .langs__flag { font-size: 1.25rem; }
-  .store { min-width: 0; flex: 1 1 150px; }
   .lightbox { padding: 12px; }
   .lightbox__step { position: absolute; bottom: 18px; }
   #lightboxPrev { left: 24px; }

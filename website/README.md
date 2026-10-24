@@ -82,10 +82,14 @@ It needs Pillow, fontTools and brotli.
   (`badges/app-store.svg`, from Apple's App Store Marketing Tools), never
   modified, first in the row. It links to
   `https://apps.apple.com/app/karpachess/id6808091046`, which has no country
-  code, so the App Store sends each visitor to their own storefront. Google
-  Play still shows a plain "Coming soon" box. When that listing goes live,
-  replace the box with Google's official badge, saved into `badges/` and
-  linked to the listing.
+  code, so the App Store sends each visitor to their own storefront. Second
+  comes Google's official English "Get it on Google Play" badge
+  (`badges/google-play.svg`, from Google's Partner Marketing Hub, whose
+  download form you accept yourself), never modified, linking to
+  `https://play.google.com/store/apps/details?id=com.mouradghafiri.karpachess`.
+  Google asks for its badge at the same size as the others or larger, so
+  both are 56px tall. `tool/website.py --check` fails while a badge a page
+  links to is missing.
 
 ## Preview locally
 

@@ -768,7 +768,12 @@ Keep them when touching the code they govern.
   (`website/badges/app-store.svg`, first in the row) links to
   `https://apps.apple.com/app/karpachess/id6808091046`. That link has no
   country code, and the App Store sends each visitor to their own
-  storefront. Google Play is still "Coming soon".
+  storefront. Google Play is live too: Google's official badge
+  (`website/badges/google-play.svg`, second, the same 56px height Google
+  requires) links to
+  `https://play.google.com/store/apps/details?id=com.mouradghafiri.karpachess`.
+  `python3 tool/website.py --check` fails while a file a page links to,
+  such as a badge, is missing.
 - **Nothing personal or machine-specific is published.**
   - **The gate.** `dart run tool/shareable.dart` scans exactly what git would
     publish (tracked files plus unignored ones). It errors on:

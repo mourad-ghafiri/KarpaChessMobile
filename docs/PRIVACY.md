@@ -1,6 +1,6 @@
 # KarpaChess Privacy Policy
 
-**Last updated: 11 October 2026**
+**Last updated: 24 October 2026**
 
 <!--
 For maintainers. This file is the policy both stores link to.
@@ -127,9 +127,10 @@ not combine it with any other data.
 
 ### Links to other websites
 
-The download button links to Apple's App Store, and other links lead to sites
-such as GitHub. Nothing is loaded from another site until you follow a link to
-it. Once you are there, that site's own privacy policy applies.
+The download buttons link to Apple's App Store and to Google Play, and other
+links lead to sites such as GitHub. Nothing is loaded from another site until
+you follow a link to it. Once you are there, that site's own privacy policy
+applies.
 
 ## When you contact us
 
